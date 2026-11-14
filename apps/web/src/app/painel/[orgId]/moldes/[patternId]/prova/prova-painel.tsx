@@ -6,6 +6,7 @@ import type { ProvaSaveMode } from "@/components/prova/adjust-panel";
 import type { ApprovalRequester } from "@/components/prova/approval-request";
 import { ProvaStudio } from "@/components/prova/prova-studio";
 import { loadForProva, storedForProva } from "@/lib/prova/handoff";
+import type { LookOption } from "@/lib/prova/look";
 import { savePatternVersion } from "../../actions";
 import { requestApproval } from "./actions";
 
@@ -23,6 +24,7 @@ export function ProvaPainel({
   savedDoc: initialDoc,
   measurementsBySize,
   canEdit,
+  lookOptions,
 }: {
   orgId: string;
   patternId: string;
@@ -30,6 +32,8 @@ export function ProvaPainel({
   savedDoc: PatternDocument;
   measurementsBySize: Record<string, Record<string, number>>;
   canEdit: boolean;
+  /** Outros moldes da organização para o look (versão atual de cada um). */
+  lookOptions: LookOption[];
 }) {
   const [saved, setSaved] = useState({ version: initialVersion, doc: initialDoc });
   const stored = useSyncExternalStore(noSubscribe, () => storedForProva(patternId), () => null);
@@ -71,7 +75,7 @@ export function ProvaPainel({
       <p className="text-xs text-tinta-suave" role="status">
         {unsaved ? "Provando as alterações ainda não salvas do editor." : `Provando a versão ${saved.version}.`}
       </p>
-      <ProvaStudio doc={doc} measurementsBySize={measurementsBySize} saveMode={saveMode} approval={approval} />
+      <ProvaStudio doc={doc} measurementsBySize={measurementsBySize} saveMode={saveMode} approval={approval} lookOptions={lookOptions} />
     </>
   );
 }

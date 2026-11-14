@@ -3,9 +3,10 @@
 import type { PatternDocument } from "@alinhavo/geometry";
 import type { MapSummary } from "@alinhavo/cloth";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { clearanceColor, fillColors, pressureColor } from "@/lib/prova/colors";
 import { GRADE_SETTLE_TIME, GRADE_STATE_NAME, gradeConcurrency, nextToStart, tightestSize, type GradeSlotState } from "@/lib/prova/grade";
-import type { FabricId, FromWorker, PoseId, ProvaMaps, ToWorker } from "@/lib/prova/protocol";
+import type { LookExtra } from "@/lib/prova/look";
+import { garmentPaint } from "@/lib/prova/paint";
+import type { FabricId, FromWorker, PoseId, ProvaMaps, ProvaPart, ToWorker } from "@/lib/prova/protocol";
 import { formatCm } from "@/lib/units";
 import type { GradeScene } from "./grade-scene";
 
@@ -27,6 +28,9 @@ type Props = {
   /** Cor do tecido (vista "tecido"). */
   color: string;
   view: GradeMapView;
+  /** Look: camada do molde em prova e as outras roupas (cada tamanho veste o look inteiro). */
+  layer: number;
+  extras: LookExtra[];
 };
 
 const percent = (fraction: number, digits = 1) => `${(fraction * 100).toLocaleString("pt-BR", { maximumFractionDigits: digits })}%`;
@@ -38,7 +42,7 @@ const percent = (fraction: number, digits = 1) => `${(fraction * 100).toLocaleSt
  * roupa assentada, para comparar. Só mostra: ajuste, captura e aprovação ficam
  * na Prova de um tamanho.
  */
-export function GradeView({ doc, measurementsBySize, fabric, pose, color, view }: Props) {
+export function GradeView({ doc, measurementsBySize, fabric, pose, color, view, layer, extras }: Props) {
   const viewRef = useRef<HTMLDivElement>(null);
   const sceneRef = useRef<GradeScene | null>(null);
   const [sceneReady, setSceneReady] = useState(false);
@@ -46,7 +50,8 @@ export function GradeView({ doc, measurementsBySize, fabric, pose, color, view }
   const [fabricLimit, setFabricLimit] = useState(0.05);
   /** Últimos mapas de cada tamanho, para repintar ao trocar a vista. */
   const mapsRef = useRef<(ProvaMaps | null)[]>([]);
-  const limitRef = useRef(0.05);
+  /** Roupas (com o look) e total de vértices de cada tamanho. */
+  const partsRef = useRef<{ parts: ProvaPart[]; vertices: number }[]>([]);
   const colorRef = useRef(color);
   const viewModeRef = useRef(view);
 
@@ -54,16 +59,8 @@ export function GradeView({ doc, measurementsBySize, fabric, pose, color, view }
   const paint = useCallback((i: number) => {
     const scene = sceneRef.current;
     if (!scene) return;
-    const m = mapsRef.current[i];
-    const mode = viewModeRef.current;
-    if (mode === "tecido" || !m) scene.setMapColors(i, null, colorRef.current);
-    else if (mode === "pressao")
-      scene.setMapColors(
-        i,
-        fillColors(m.stretch, (s) => pressureColor(s, limitRef.current)),
-        colorRef.current,
-      );
-    else scene.setMapColors(i, fillColors(m.clearance, clearanceColor), colorRef.current);
+    const { parts, vertices } = partsRef.current[i] ?? { parts: [], vertices: 0 };
+    scene.setMapColors(i, garmentPaint(viewModeRef.current, mapsRef.current[i] ?? null, parts, vertices), colorRef.current);
   }, []);
 
   // Cena: criada uma vez, descartada ao sair.
@@ -90,6 +87,7 @@ export function GradeView({ doc, measurementsBySize, fabric, pose, color, view }
     const workers: (Worker | null)[] = sizes.map(() => null);
     const concurrency = gradeConcurrency(navigator.hardwareConcurrency, sizes.length);
     mapsRef.current = sizes.map(() => null);
+    partsRef.current = sizes.map(() => ({ parts: [], vertices: 0 }));
     scene.setSizes(sizes);
     setRows(sizes.map((size) => ({ size, state: "fila", time: 0, summary: null })));
 
@@ -113,7 +111,7 @@ export function GradeView({ doc, measurementsBySize, fabric, pose, color, view }
         if (msg.type === "ready") {
           scene.setBody(i, msg.body.positions, msg.body.indices);
           scene.setGarment(i, msg.garment.positions, msg.garment.indices, colorRef.current);
-          limitRef.current = msg.fabricLimit;
+          partsRef.current[i] = { parts: msg.parts, vertices: msg.garment.positions.length / 3 };
           setFabricLimit(msg.fabricLimit);
           paint(i);
           states[i] = "simulando";
@@ -139,6 +137,8 @@ export function GradeView({ doc, measurementsBySize, fabric, pose, color, view }
           measurements: measurementsBySize[sizes[i]!] ?? {},
           fabric,
           pose,
+          layer,
+          extras,
         },
       } satisfies ToWorker);
     };
@@ -149,7 +149,7 @@ export function GradeView({ doc, measurementsBySize, fabric, pose, color, view }
     return () => {
       for (const w of workers) w?.terminate();
     };
-  }, [sceneReady, doc, measurementsBySize, fabric, pose, paint]);
+  }, [sceneReady, doc, measurementsBySize, fabric, pose, layer, extras, paint]);
 
   // Trocar a vista ou a cor do tecido só repinta.
   useEffect(() => {

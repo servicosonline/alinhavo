@@ -1,7 +1,7 @@
 import { garmentAtSize, segmentLengths, validatePattern } from "@alinhavo/geometry";
 import { createMannequin, createSimulation, FABRICS, floorCollider, meshPiece, pieceHalf, placeGarment } from "@alinhavo/cloth";
 import { describe, expect, it } from "vitest";
-import { exampleDocument, EXAMPLES } from "./examples";
+import { exampleDocument, examplePants, EXAMPLES, exampleWideSkirt, lookExamples } from "./examples";
 import { demoMeasurements } from "./prova/demo-measurements";
 import { PROVA_ITERATIONS, PROVA_MESH_SPACING, PROVA_SEWING_TIME } from "./prova/protocol";
 
@@ -17,6 +17,26 @@ describe("moldes de exemplo", () => {
         expect(Math.abs(len(s.a) - len(s.b)) / Math.max(len(s.a), len(s.b))).toBeLessThan(0.015);
       }
     }
+  });
+
+  it.each(lookExamples().map((e) => [e.id, e.doc] as const))("roupa do look %s é válida e as costuras fecham sem sobra", (_id, doc) => {
+    expect(validatePattern(doc)).toEqual([]);
+    for (const size of doc.sizes) {
+      const g = garmentAtSize(doc, size);
+      for (const s of g.seams) {
+        const len = (e: { piece: string; segment: number }) => segmentLengths(g.pieces.find((p) => p.id === e.piece)!)[e.segment]!;
+        expect(Math.abs(len(s.a) - len(s.b)) / Math.max(len(s.a), len(s.b))).toBeLessThan(0.015);
+      }
+    }
+  });
+
+  it("a saia ampla tem a cintura maior que a da calça (para vestir por cima)", () => {
+    // No molde (base M), segmento 0 = cintura. Saia: meia frente e meias costas na dobra (× 4 no total
+    // de 2 partes × 2 metades); calça: frente e costas de cortar par (× 2).
+    const cintura = (doc: ReturnType<typeof exampleWideSkirt>) => doc.pieces.reduce((sum, p) => sum + segmentLengths(p)[0]!, 0);
+    const saia = cintura(exampleWideSkirt()) * 2;
+    const calca = cintura(examplePants()) * 2;
+    expect(saia).toBeGreaterThan(calca + 30);
   });
 
   it("cada chamada devolve um documento novo", () => {

@@ -6,6 +6,7 @@ export * from "./mesh";
 export * from "./fabrics";
 export * from "./collider";
 export * from "./simulation";
+export * from "./layers";
 export * from "./place";
 export * from "./maps";
 export * from "./body/types";

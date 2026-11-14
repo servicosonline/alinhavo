@@ -154,6 +154,56 @@ export function exampleOutfit(): PatternDocument {
   return doc;
 }
 
+/** Top de alças sozinho (o do conjunto), para vestir no look. */
+export function exampleTop(): PatternDocument {
+  const doc = emptyDocument(SIZES, "M");
+  doc.pieces = [topPart(true), topPart(false)];
+  doc.seams = TOP_SEAMS.map((s) => ({ ...s, a: { ...s.a }, b: { ...s.b } }));
+  return doc;
+}
+
+/**
+ * Saia ampla para vestir por cima da calça no look: cintura de 84 cm no M
+ * (a da calça de exemplo tem uns 79; a saia-base, 72, não passa por cima dela).
+ * Frente e costas na dobra; 0 cintura, 1 lateral do quadril, 2 lateral, 3 barra, 4 dobra.
+ */
+export function exampleWideSkirt(): PatternDocument {
+  const doc = emptyDocument(SIZES, "M");
+  const part = (front: boolean): Piece => {
+    const dx = front ? 0 : 360; // costas ao lado da frente na mesa
+    const p = (x: number, y: number) => ({ x: x + dx, y });
+    return {
+      id: front ? "saia-ampla-frente" : "saia-ampla-costas",
+      name: front ? "Saia ampla frente" : "Saia ampla costas",
+      points: { W: p(0, 0), L: p(210, 0), H: p(265, 190), B: p(300, 600), C: p(0, 600) },
+      start: "W",
+      outline: [line("L"), { kind: "cubic", c1: p(240, 50), c2: p(262, 120), to: "H" }, line("B"), line("C"), line("W")],
+      grading: { L: g(10), H: g(10), B: g(12, 15), C: g(0, 15) },
+      seamAllowance: 10,
+      seamAllowanceByEdge: { 3: 30, 4: 0 },
+      grainline: { from: p(80, 120), to: p(80, 480) },
+      fold: 4,
+      placement: { side: front ? "frente" : "costas", anchor: "cintura", offset: 0 },
+    };
+  };
+  doc.pieces = [part(true), part(false)];
+  doc.seams = [
+    { id: "costura1", a: { piece: "saia-ampla-frente", segment: 1 }, b: { piece: "saia-ampla-costas", segment: 1 }, direction: "same" },
+    { id: "costura2", a: { piece: "saia-ampla-frente", segment: 2 }, b: { piece: "saia-ampla-costas", segment: 2 }, direction: "same" },
+  ];
+  return doc;
+}
+
+/** Roupas de exemplo para vestir junto no look da demonstração. */
+export function lookExamples(): { id: string; name: string; doc: PatternDocument }[] {
+  return [
+    { id: "calca", name: "Calça", doc: examplePants() },
+    { id: "top", name: "Top de alças", doc: exampleTop() },
+    { id: "saia-ampla", name: "Saia ampla (por cima da calça)", doc: exampleWideSkirt() },
+    { id: "saia", name: "Saia-base", doc: samplePattern() },
+  ];
+}
+
 /** O molde de exemplo pedido (sempre um documento novo). */
 export function exampleDocument(id: ExampleId): PatternDocument {
   if (id === "calca") return examplePants();

@@ -7,6 +7,7 @@ import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
 import { canEditPatterns, getMyRole } from "@/lib/org-access";
+import { currentVersionsFilter, LOOK_OPTIONS_MAX, lookOptionsFrom } from "@/lib/prova/look-options";
 import { measurementsBySize } from "@/lib/prova/measurements";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
@@ -52,7 +53,7 @@ async function Prova({ params }: { params: Params }) {
     );
   }
 
-  const [versionRes, chartRes, role] = await Promise.all([
+  const [versionRes, chartRes, role, othersRes] = await Promise.all([
     supabase
       .from("pattern_versions")
       .select("document")
@@ -63,6 +64,16 @@ async function Prova({ params }: { params: Params }) {
       ? supabase.from("size_charts").select("id, name").eq("id", pattern.size_chart_id).eq("org_id", orgId).maybeSingle()
       : Promise.resolve({ data: null }),
     getMyRole(supabase, orgId, user.id),
+    // Look: os outros moldes da organização com versão salva, os mais recentes primeiro.
+    supabase
+      .from("patterns")
+      .select("id, name, current_version")
+      .eq("org_id", orgId)
+      .neq("id", pattern.id)
+      .is("archived_at", null)
+      .gt("current_version", 0)
+      .order("updated_at", { ascending: false })
+      .limit(LOOK_OPTIONS_MAX),
   ]);
   const doc = migratePattern(versionRes.data?.document);
   if (!doc || validatePattern(doc).length > 0) {
@@ -82,6 +93,13 @@ async function Prova({ params }: { params: Params }) {
     ? await supabase.from("measurements").select("size_id, name, value_mm").in("size_id", sizeIds).eq("org_id", orgId)
     : { data: [] as { size_id: string; name: string; value_mm: number }[] };
   const measurements = measurementsBySize(doc.sizes, chartSizes ?? [], rows ?? []);
+
+  // Só a versão atual de cada um, numa consulta (pela RLS, como o resto).
+  const others = othersRes.data ?? [];
+  const { data: otherVersions } = others.length
+    ? await supabase.from("pattern_versions").select("pattern_id, number, document").eq("org_id", orgId).or(currentVersionsFilter(others))
+    : { data: [] as { pattern_id: string; number: number; document: unknown }[] };
+  const lookOptions = lookOptionsFrom(others, otherVersions ?? []);
 
   return (
     // Como o editor, a Prova sai da coluna estreita do painel e usa a largura da tela.
@@ -112,7 +130,7 @@ async function Prova({ params }: { params: Params }) {
       <ProvaPainel
         orgId={orgId}
         canEdit={canEditPatterns(role)}
-        patternId={pattern.id} version={pattern.current_version} savedDoc={doc} measurementsBySize={measurements.bySize} />
+        patternId={pattern.id} version={pattern.current_version} savedDoc={doc} measurementsBySize={measurements.bySize} lookOptions={lookOptions} />
     </div>
   );
 }
