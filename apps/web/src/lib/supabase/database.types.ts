@@ -138,6 +138,7 @@ type ProductRow = {
   status: ProductStatus;
   size_chart_id: string | null;
   pattern_id: string | null;
+  fabric_id: string | null;
 } & Timestamps;
 type MilestoneRow = {
   id: string;
@@ -150,6 +151,42 @@ type MilestoneRow = {
   done_at: string | null;
   position: number;
 } & Timestamps;
+
+export type FabricPreset = "malha" | "planoLeve" | "jeans";
+type FabricRow = {
+  id: string;
+  org_id: string;
+  name: string;
+  composition: string | null;
+  width_mm: number | null;
+  weight_gsm: number | null;
+  /** centavos por metro linear */
+  price_cents: number | null;
+  preset: FabricPreset | null;
+} & Timestamps;
+export type TrimUnit = "un" | "par" | "m" | "cm";
+type ProductTrimRow = {
+  id: string;
+  org_id: string;
+  product_id: string;
+  name: string;
+  quantity: number;
+  unit: TrimUnit;
+  unit_price_cents: number | null;
+  position: number;
+} & Timestamps;
+type TechPackRow = {
+  id: string;
+  org_id: string;
+  product_id: string;
+  number: number;
+  pattern_id: string | null;
+  pattern_version: number | null;
+  /** TechPackData de @alinhavo/export/tech-pack (formato 1). */
+  data: Json;
+  created_by: string | null;
+  created_at: string;
+};
 
 /** Chave estrangeira simples (col → ref.id). */
 type Fk<Name extends string, Col extends string, Ref extends string> = {
@@ -264,6 +301,7 @@ export type Database = {
           status?: ProductStatus;
           size_chart_id?: string | null;
           pattern_id?: string | null;
+          fabric_id?: string | null;
         };
         Update: {
           collection_id?: string | null;
@@ -272,13 +310,56 @@ export type Database = {
           status?: ProductStatus;
           size_chart_id?: string | null;
           pattern_id?: string | null;
+          fabric_id?: string | null;
         };
         Relationships: [
           Fk<"products_org_id_fkey", "org_id", "orgs">,
+          OrgFk<"products_fabric_id_org_id_fkey", "fabric_id", "fabrics">,
           OrgFk<"products_collection_id_org_id_fkey", "collection_id", "collections">,
           OrgFk<"products_size_chart_id_org_id_fkey", "size_chart_id", "size_charts">,
           OrgFk<"products_pattern_id_org_id_fkey", "pattern_id", "patterns">,
         ];
+      };
+      fabrics: {
+        Row: FabricRow;
+        Insert: {
+          org_id: string;
+          name: string;
+          composition?: string | null;
+          width_mm?: number | null;
+          weight_gsm?: number | null;
+          price_cents?: number | null;
+          preset?: FabricPreset | null;
+        };
+        Update: {
+          name?: string;
+          composition?: string | null;
+          width_mm?: number | null;
+          weight_gsm?: number | null;
+          price_cents?: number | null;
+          preset?: FabricPreset | null;
+        };
+        Relationships: [Fk<"fabrics_org_id_fkey", "org_id", "orgs">];
+      };
+      product_trims: {
+        Row: ProductTrimRow;
+        Insert: {
+          org_id: string;
+          product_id: string;
+          name: string;
+          quantity: number;
+          unit: TrimUnit;
+          unit_price_cents?: number | null;
+          position?: number;
+        };
+        Update: { name?: string; quantity?: number; unit?: TrimUnit; unit_price_cents?: number | null; position?: number };
+        Relationships: [OrgFk<"product_trims_product_id_org_id_fkey", "product_id", "products">];
+      };
+      tech_packs: {
+        Row: TechPackRow;
+        Insert: never;
+        Update: never;
+        Relationships: [OrgFk<"tech_packs_product_id_org_id_fkey", "product_id", "products">];
       };
       milestones: {
         Row: MilestoneRow;
@@ -337,6 +418,7 @@ export type Database = {
         };
         Returns: { id: string; token: string; expires_at: string }[];
       };
+      create_tech_pack: { Args: { p_product_id: string; p_pattern_version: number; p_data: Json }; Returns: TechPackRow };
       public_approval: { Args: { p_token: string }; Returns: PublicApproval | null };
       decide_approval: {
         Args: { p_token: string; p_status: ApprovalStatus; p_name: string; p_comment?: string | null };

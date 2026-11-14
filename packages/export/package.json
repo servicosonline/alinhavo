@@ -5,7 +5,9 @@
   "type": "module",
   "exports": {
     "./dxf": "./src/dxf.ts",
-    "./pdf": "./src/pdf.ts"
+    "./pdf": "./src/pdf.ts",
+    "./tech-pack": "./src/tech-pack.ts",
+    "./tech-pack-pdf": "./src/tech-pack-pdf.ts"
   },
   "scripts": {
     "typecheck": "tsc --noEmit -p tsconfig.json",

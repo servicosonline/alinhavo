@@ -87,6 +87,17 @@ async function Org({ params }: { params: PageProps<"/painel/[orgId]">["params"] 
         </Link>
   
         <Link
+          href={`/painel/${orgId}/tecidos`}
+          className="flex items-center justify-between rounded-lg border border-tinta/15 bg-white/70 px-5 py-4 transition hover:bg-papel-escuro"
+        >
+          <span>
+            <span className="font-display text-xl font-semibold">Tecidos</span>
+            <span className={`block ${ui.muted}`}>Largura, gramatura e preço para a ficha técnica</span>
+          </span>
+          <span aria-hidden>→</span>
+        </Link>
+
+        <Link
           href={`/painel/${orgId}/medidas`}
           className="flex items-center justify-between rounded-lg border border-tinta/15 bg-white/70 px-5 py-4 transition hover:bg-papel-escuro"
         >

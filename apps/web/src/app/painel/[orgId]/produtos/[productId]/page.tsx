@@ -11,6 +11,11 @@ import { canEditPatterns, canEditProducts, getMyRole } from "@/lib/org-access";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
 import { linkProductPattern, setProductStatus } from "../../colecoes/actions";
+import { deleteTrim, setProductFabric } from "../actions";
+import { DownloadTechPack, GenerateTechPack, TrimForm } from "./tech-pack-parts";
+import { meters, money, type TechPackData } from "@alinhavo/export/tech-pack";
+import { formatMoney } from "@/lib/money";
+import { formatDate } from "@/lib/prova/approval";
 import { ApprovalsList } from "../../moldes/[patternId]/approvals-list";
 
 type Params = PageProps<"/painel/[orgId]/produtos/[productId]">["params"];
@@ -24,7 +29,7 @@ export default function ProdutoPage({ params }: PageProps<"/painel/[orgId]/produ
   );
 }
 
-/** Produto: status, molde ligado e as aprovações dele. Ficha técnica e comentários chegam nas próximas partes. */
+/** Produto: status, molde, tecido, aviamentos, fichas técnicas e as aprovações do molde. */
 async function Produto({ params }: { params: Params }) {
   const { orgId, productId } = await params;
   if (!isUuid(orgId) || !isUuid(productId)) notFound();
@@ -35,7 +40,7 @@ async function Produto({ params }: { params: Params }) {
   const [prodRes, role, patRes] = await Promise.all([
     supabase
       .from("products")
-      .select("id, reference, name, status, pattern_id, collection_id, collections(name)")
+      .select("id, reference, name, status, pattern_id, fabric_id, collection_id, collections(name)")
       .eq("id", productId)
       .eq("org_id", orgId)
       .maybeSingle(),
@@ -55,6 +60,17 @@ async function Produto({ params }: { params: Params }) {
     ? await supabase.from("approvals").select("status").eq("pattern_id", pattern.id).eq("org_id", orgId).order("created_at", { ascending: false }).limit(1)
     : { data: [] as { status: "pendente" | "aprovado" | "ajustes" }[] };
   const latest = last?.[0]?.status ?? null;
+
+  const [fabRes, trimRes, packRes] = await Promise.all([
+    supabase.from("fabrics").select("id, name, width_mm, price_cents").eq("org_id", orgId).order("name"),
+    supabase.from("product_trims").select("id, name, quantity, unit, unit_price_cents").eq("product_id", p.id).eq("org_id", orgId).order("position").order("created_at"),
+    supabase.from("tech_packs").select("id, number, pattern_version, data, created_at").eq("product_id", p.id).eq("org_id", orgId).order("number", { ascending: false }).limit(10),
+  ]);
+  const fabrics = fabRes.data ?? [];
+  const trims = trimRes.data ?? [];
+  const packs = packRes.data ?? [];
+  const fabric = fabrics.find((x) => x.id === p.fabric_id) ?? null;
+  const fileBase = (p.reference ?? p.name).normalize("NFD").replace(/[^\w-]+/g, "-").replace(/-+/g, "-").replace(/^-|-$/g, "").toLowerCase() || "produto";
 
   return (
     <div className="space-y-8">
@@ -158,6 +174,116 @@ async function Produto({ params }: { params: Params }) {
             </p>
           )}
         </div>
+      </section>
+
+      <section className={`${ui.card} space-y-3`} aria-labelledby="tecido" data-section="tecido">
+        <h2 id="tecido" className={ui.h2}>
+          Tecido
+        </h2>
+        <p className="text-sm">
+          {fabric ? (
+            <>
+              <strong>{fabric.name}</strong>
+              {!fabric.width_mm && <span className="text-tinta-suave"> · sem largura útil: a ficha não calcula metros</span>}
+            </>
+          ) : (
+            <span className="text-tinta-suave">Nenhum tecido ligado.</span>
+          )}
+        </p>
+        {canEdit && (
+          <form key={`tecido-${p.fabric_id ?? ""}`} action={setProductFabric} className="flex flex-wrap items-end gap-2">
+            <input type="hidden" name="orgId" value={orgId} />
+            <input type="hidden" name="productId" value={p.id} />
+            <label className="block">
+              <span className={ui.label}>Tecido principal</span>
+              <select name="fabricId" defaultValue={p.fabric_id ?? ""} className={ui.input}>
+                <option value="">Nenhum</option>
+                {fabrics.map((x) => (
+                  <option key={x.id} value={x.id}>
+                    {x.name}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <SubmitButton variant="ghost" pendingText="…">
+              Ligar tecido
+            </SubmitButton>
+            <Link href={`/painel/${orgId}/tecidos`} className="pb-2 text-xs text-tinta-suave underline">
+              Cadastrar tecidos
+            </Link>
+          </form>
+        )}
+      </section>
+
+      <section className={`${ui.card} space-y-3`} aria-labelledby="aviamentos" data-section="aviamentos">
+        <h2 id="aviamentos" className={ui.h2}>
+          Aviamentos
+        </h2>
+        {trims.length === 0 ? (
+          <p className={ui.muted}>Nenhum aviamento ainda.</p>
+        ) : (
+          <ul className="divide-y divide-tinta/10 text-sm" data-trims>
+            {trims.map((t) => (
+              <li key={t.id} className="flex flex-wrap items-center justify-between gap-2 py-2">
+                <span>
+                  {t.name} · {String(t.quantity).replace(".", ",")} {t.unit}
+                  {t.unit_price_cents != null && <span className="text-tinta-suave"> · {formatMoney(t.unit_price_cents)} cada</span>}
+                </span>
+                {canEdit && (
+                  <form action={deleteTrim}>
+                    <input type="hidden" name="orgId" value={orgId} />
+                    <input type="hidden" name="productId" value={p.id} />
+                    <input type="hidden" name="trimId" value={t.id} />
+                    <SubmitButton variant="ghost" pendingText="…">
+                      Tirar
+                    </SubmitButton>
+                  </form>
+                )}
+              </li>
+            ))}
+          </ul>
+        )}
+        {canEdit && <TrimForm orgId={orgId} productId={p.id} />}
+      </section>
+
+      <section className={`${ui.card} space-y-3`} aria-labelledby="ficha" data-section="ficha">
+        <h2 id="ficha" className={ui.h2}>
+          Ficha técnica
+        </h2>
+        <p className="text-xs text-tinta-suave">
+          Gerada da versão atual do molde, do tecido e dos aviamentos. O consumo de tecido é uma estimativa pela área das peças até o Encaixe.
+        </p>
+        {canEdit && (
+          <GenerateTechPack
+            orgId={orgId}
+            productId={p.id}
+            disabledReason={!pattern ? "Ligue um molde para gerar a ficha." : pattern.current_version === 0 ? "Salve uma versão do molde para gerar a ficha." : null}
+          />
+        )}
+        {packs.length === 0 ? (
+          <p className={ui.muted}>Nenhuma ficha gerada ainda.</p>
+        ) : (
+          <ul className="divide-y divide-tinta/10 text-sm" data-packs>
+            {packs.map((pk) => {
+              const d = pk.data as unknown as TechPackData;
+              const base = d.pattern?.baseSize;
+              const c = base ? d.consumption?.bySize?.[base] : undefined;
+              return (
+                <li key={pk.id} className="flex flex-wrap items-center justify-between gap-2 py-2" data-pack={pk.number}>
+                  <span>
+                    <strong>Nº {pk.number}</strong> · molde versão {pk.pattern_version} · {formatDate(pk.created_at)}
+                    {c && (
+                      <span className="block text-xs text-tinta-suave">
+                        Tamanho {base}: {meters(c.meters)} de tecido (estimativa) · material {money(d.materialCentsBySize?.[base!] ?? null)}
+                      </span>
+                    )}
+                  </span>
+                  <DownloadTechPack data={d} number={pk.number} fileName={`ficha-${fileBase}-${pk.number}.pdf`} />
+                </li>
+              );
+            })}
+          </ul>
+        )}
       </section>
 
       {pattern && <ApprovalsList supabase={supabase} orgId={orgId} patternId={pattern.id} canEdit={canEditPatterns(role)} />}

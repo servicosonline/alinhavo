@@ -10,3 +10,4 @@ export * from "./edit";
 export * from "./seams";
 export * from "./unfold";
 export * from "./grading";
+export * from "./cut";
