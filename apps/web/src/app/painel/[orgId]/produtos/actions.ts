@@ -59,8 +59,9 @@ export async function deleteTrim(formData: FormData) {
 }
 
 /**
- * Gera a ficha técnica com a versão atual do molde ligado, o tecido e os
- * aviamentos do produto. A conta (consumo estimado, custos) é a de
+ * Gera a ficha técnica com a versão atual do molde ligado, o tecido, os
+ * aviamentos e, se houver, o último risco do Encaixe nessa versão e na
+ * largura do tecido (consumo medido; sem ele, estimado). A conta é a de
  * buildTechPack; o banco numera e guarda (create_tech_pack).
  */
 export async function generateTechPack(orgId: string, productId: string): Promise<FormState> {
@@ -94,6 +95,19 @@ export async function generateTechPack(orgId: string, productId: string): Promis
   if (!doc || validatePattern(doc).length > 0) return { error: "A versão atual do molde não pôde ser lida." };
 
   const f = fabricRes.data;
+  // Consumo medido: o último risco desta versão do molde na largura do tecido.
+  const { data: markerRow } = f?.width_mm
+    ? await c.supabase
+        .from("markers")
+        .select("number, width_mm, length_mm, efficiency")
+        .eq("product_id", productId)
+        .eq("org_id", orgId)
+        .eq("pattern_version", pattern.current_version)
+        .eq("width_mm", f.width_mm)
+        .order("number", { ascending: false })
+        .limit(1)
+        .maybeSingle()
+    : { data: null };
   const data = buildTechPack({
     generatedAt: new Date().toISOString(),
     product: {
@@ -105,6 +119,9 @@ export async function generateTechPack(orgId: string, productId: string): Promis
     pattern: { name: pattern.name, version: pattern.current_version, document: doc },
     fabric: f ? { name: f.name, composition: f.composition, widthMm: f.width_mm, weightGsm: f.weight_gsm, priceCents: f.price_cents } : null,
     trims: (trimsRes.data ?? []).map((t) => ({ name: t.name, quantity: Number(t.quantity), unit: t.unit, unitPriceCents: t.unit_price_cents })),
+    marker: markerRow
+      ? { number: markerRow.number, widthMm: markerRow.width_mm, lengthMm: Number(markerRow.length_mm), efficiency: Number(markerRow.efficiency) }
+      : null,
   });
 
   const { data: pack, error } = await c.supabase.rpc("create_tech_pack", {
@@ -114,5 +131,6 @@ export async function generateTechPack(orgId: string, productId: string): Promis
   });
   if (error || !pack) return { error: error?.code === "42501" ? NO_PERMISSION : (error?.message ?? "Não foi possível gerar a ficha.") };
   revalidatePath(c.path);
-  return { ok: `Ficha técnica nº ${pack.number} gerada (molde versão ${pattern.current_version}).` };
+  const source = data.consumption.method === "nesting" ? `consumo pelo risco nº ${data.consumption.marker!.number}` : "consumo estimado";
+  return { ok: `Ficha técnica nº ${pack.number} gerada (molde versão ${pattern.current_version}, ${source}).` };
 }

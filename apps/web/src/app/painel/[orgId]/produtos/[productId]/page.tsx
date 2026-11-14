@@ -14,8 +14,10 @@ import { linkProductPattern, setProductStatus } from "../../colecoes/actions";
 import { deleteTrim, setProductFabric } from "../actions";
 import { DownloadTechPack, GenerateTechPack, TrimForm } from "./tech-pack-parts";
 import { Comments } from "./comments";
-import { meters, money, type TechPackData } from "@alinhavo/export/tech-pack";
+import { consumptionSource, meters, money, type TechPackData } from "@alinhavo/export/tech-pack";
 import { formatMoney } from "@/lib/money";
+import { formatEfficiency, formatMeters, formatPerGarment } from "@/lib/encaixe/marker";
+import { formatCm } from "@/lib/units";
 import { formatDate } from "@/lib/prova/approval";
 import { ApprovalsList } from "../../moldes/[patternId]/approvals-list";
 
@@ -62,13 +64,21 @@ async function Produto({ params }: { params: Params }) {
     : { data: [] as { status: "pendente" | "aprovado" | "ajustes" }[] };
   const latest = last?.[0]?.status ?? null;
 
-  const [fabRes, trimRes, packRes, commentRes, teamRes] = await Promise.all([
+  const [fabRes, trimRes, packRes, commentRes, teamRes, markerRes] = await Promise.all([
     supabase.from("fabrics").select("id, name, width_mm, price_cents").eq("org_id", orgId).order("name"),
     supabase.from("product_trims").select("id, name, quantity, unit, unit_price_cents").eq("product_id", p.id).eq("org_id", orgId).order("position").order("created_at"),
     supabase.from("tech_packs").select("id, number, pattern_version, data, created_at").eq("product_id", p.id).eq("org_id", orgId).order("number", { ascending: false }).limit(10),
     supabase.from("comments").select("id, author, body, created_at").eq("product_id", p.id).eq("org_id", orgId).order("created_at").limit(200),
     supabase.rpc("org_team", { p_org_id: orgId }),
+    supabase
+      .from("markers")
+      .select("number, pattern_version, width_mm, length_mm, efficiency, demand")
+      .eq("product_id", p.id)
+      .eq("org_id", orgId)
+      .order("number", { ascending: false })
+      .limit(1),
   ]);
+  const lastMarker = markerRes.data?.[0] ?? null;
   const names = Object.fromEntries((teamRes.data ?? []).map((m) => [m.user_id, m.email]));
   const fabrics = fabRes.data ?? [];
   const trims = trimRes.data ?? [];
@@ -250,12 +260,35 @@ async function Produto({ params }: { params: Params }) {
         {canEdit && <TrimForm orgId={orgId} productId={p.id} />}
       </section>
 
+      <section className={`${ui.card} space-y-3`} aria-labelledby="encaixe" data-section="encaixe">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <h2 id="encaixe" className={ui.h2}>
+            Encaixe
+          </h2>
+          <Link href={`${back}/encaixe`} className={ui.buttonGhost}>
+            {lastMarker ? "Abrir encaixe" : "Encaixar"}
+          </Link>
+        </div>
+        {lastMarker ? (
+          <p className="text-sm" data-last-marker={lastMarker.number}>
+            Último risco: <strong>nº {lastMarker.number}</strong> · {formatMeters(Number(lastMarker.length_mm))} em {formatCm(lastMarker.width_mm)} cm ·{" "}
+            {formatEfficiency(Number(lastMarker.efficiency))} de aproveitamento ·{" "}
+            {formatPerGarment(Number(lastMarker.length_mm), lastMarker.demand as Record<string, number>)} por peça
+            {pattern && lastMarker.pattern_version !== pattern.current_version && (
+              <span className="text-tinta-suave"> · feito na versão {lastMarker.pattern_version} do molde</span>
+            )}
+          </p>
+        ) : (
+          <p className={ui.muted}>Nenhum risco salvo. O encaixe distribui as peças da grade na largura do tecido e mede o consumo real.</p>
+        )}
+      </section>
+
       <section className={`${ui.card} space-y-3`} aria-labelledby="ficha" data-section="ficha">
         <h2 id="ficha" className={ui.h2}>
           Ficha técnica
         </h2>
         <p className="text-xs text-tinta-suave">
-          Gerada da versão atual do molde, do tecido e dos aviamentos. O consumo de tecido é uma estimativa pela área das peças até o Encaixe.
+          Gerada da versão atual do molde, do tecido e dos aviamentos. O consumo de tecido vem do último risco do Encaixe nessa versão do molde e na largura do tecido; sem risco, é uma estimativa pela área das peças.
         </p>
         {canEdit && (
           <GenerateTechPack
@@ -278,7 +311,7 @@ async function Produto({ params }: { params: Params }) {
                     <strong>Nº {pk.number}</strong> · molde versão {pk.pattern_version} · {formatDate(pk.created_at)}
                     {c && (
                       <span className="block text-xs text-tinta-suave">
-                        Tamanho {base}: {meters(c.meters)} de tecido (estimativa) · material {money(d.materialCentsBySize?.[base!] ?? null)}
+                        Tamanho {base}: {meters(c.meters)} de tecido ({consumptionSource(d.consumption)}) · material {money(d.materialCentsBySize?.[base!] ?? null)}
                       </span>
                     )}
                   </span>

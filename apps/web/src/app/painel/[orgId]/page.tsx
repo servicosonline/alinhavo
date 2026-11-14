@@ -76,6 +76,17 @@ async function Org({ params }: { params: PageProps<"/painel/[orgId]">["params"] 
         </Link>
 
         <Link
+          href={`/painel/${orgId}/encaixes`}
+          className="flex items-center justify-between rounded-lg border border-tinta/15 bg-white/70 px-5 py-4 transition hover:bg-papel-escuro"
+        >
+          <span>
+            <span className="font-display text-xl font-semibold">Fila de encaixes</span>
+            <span className={`block ${ui.muted}`}>Riscos processados um de cada vez, em segundo plano</span>
+          </span>
+          <span aria-hidden>→</span>
+        </Link>
+
+        <Link
           href={`/painel/${orgId}/moldes`}
           className="flex items-center justify-between rounded-lg border border-tinta/15 bg-white/70 px-5 py-4 transition hover:bg-papel-escuro"
         >

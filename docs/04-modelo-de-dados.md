@@ -82,8 +82,11 @@ O documento do molde guarda: partes, pontos, curvas, piques, fio, regras de grad
 
 | Tabela | Campos principais |
 |---|---|
-| `markers` | org_id, product_id, pattern_version_id, largura_tecido_mm, demanda por tamanho (jsonb), aproveitamento, comprimento_mm, layout (jsonb) |
-| `nest_jobs` | org_id, marker_id, status (`fila`, `rodando`, `pronto`, `erro`), progresso |
+| `markers` | **(feito)** org_id, product_id, number, pattern_id + pattern_version (versão fixa), fabric_id?, width_mm, demand (jsonb, tamanho → peças), length_mm, efficiency (0 a 1), layout (jsonb formato 1: peças com contorno e posições) |
+| `nest_jobs` | **(feito)** org_id, product_id, pattern_id + pattern_version, width_mm, gap_mm, one_way, demand, status (`fila`, `rodando`, `pronto`, `erro`), progress, attempts, claimed_by + lease_until (prazo), marker_id, error |
+
+- **Risco (markers):** só nasce por `create_marker` (quem edita produtos), que numera 1, 2, 3… por produto e confere que a versão do molde existe e que o tecido é da organização. Imutável (trigger); quem edita produtos apaga. O encaixe é calculado no navegador; a Server Action confere as posições contra as peças da versão do molde e recalcula comprimento e aproveitamento antes de gravar.
+- **Fila (nest_jobs):** só pelas funções `enqueue_nest_job`, `claim_nest_job`, `nest_job_progress`, `finish_nest_job`, `fail_nest_job`, `release_nest_job` e `retry_nest_job` (quem edita produtos). Quem pega tem 2 minutos, renovados a cada aviso de progresso; vencido, o pedido volta a ficar disponível, e depois de 3 tentativas vira erro. Só quem pegou conclui; concluir cria o risco e liga ao pedido na mesma transação. Até 50 pedidos esperando por organização. Membros leem; quem edita apaga.
 
 ## Storage (buckets)
 

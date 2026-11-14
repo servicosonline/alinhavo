@@ -1,5 +1,5 @@
 import { PDFDocument, type PDFFont, type PDFPage, rgb, StandardFonts } from "pdf-lib";
-import { cm, ESTIMATED_EFFICIENCY, grams, meters, money, PRODUCT_STATUS_PT, squareMeters, type TechPackData } from "./tech-pack";
+import { cm, consumptionNote, consumptionSource, grams, meters, money, PRODUCT_STATUS_PT, squareMeters, type TechPackData } from "./tech-pack";
 
 /**
  * PDF da ficha técnica (A4 retrato). Fontes padrão do PDF (WinAnsi): o que
@@ -131,7 +131,7 @@ export async function exportTechPackPdf(data: TechPackData, opts: { number?: num
     );
   }
 
-  heading(ctx, "Consumo por tamanho (estimativa)");
+  heading(ctx, `Consumo por tamanho (${consumptionSource(data.consumption)})`);
   table(
     ctx,
     [
@@ -149,7 +149,7 @@ export async function exportTechPackPdf(data: TechPackData, opts: { number?: num
   );
   text(
     ctx,
-    `Estimativa pela área das peças com margem, com aproveitamento de ${Math.round(ESTIMATED_EFFICIENCY * 100)}%. O consumo real vem do Encaixe.`,
+    consumptionNote(data.consumption),
     { size: 8, color: SOFT },
   );
 

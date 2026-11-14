@@ -188,6 +188,53 @@ type TechPackRow = {
   created_at: string;
 };
 
+type MarkerRow = {
+  id: string;
+  org_id: string;
+  product_id: string;
+  number: number;
+  pattern_id: string | null;
+  pattern_version: number;
+  fabric_id: string | null;
+  width_mm: number;
+  /** Tamanho → peças prontas. */
+  demand: Json;
+  length_mm: number;
+  efficiency: number;
+  /** MarkerLayout de @alinhavo/nesting (formato 1). */
+  layout: Json;
+  created_by: string | null;
+  created_at: string;
+};
+
+export type NestJobStatus = "fila" | "rodando" | "pronto" | "erro";
+
+export type NestJobRow = {
+  id: string;
+  org_id: string;
+  product_id: string;
+  pattern_id: string | null;
+  pattern_version: number;
+  width_mm: number;
+  gap_mm: number;
+  one_way: boolean;
+  /** Tamanho → peças prontas. */
+  demand: Json;
+  status: NestJobStatus;
+  /** 0 a 1. */
+  progress: number;
+  attempts: number;
+  claimed_by: string | null;
+  claimed_at: string | null;
+  lease_until: string | null;
+  marker_id: string | null;
+  error: string | null;
+  created_by: string | null;
+  created_at: string;
+  updated_at: string;
+  finished_at: string | null;
+};
+
 export type CommentRow = {
   id: string;
   org_id: string;
@@ -371,6 +418,21 @@ export type Database = {
         Update: never;
         Relationships: [OrgFk<"tech_packs_product_id_org_id_fkey", "product_id", "products">];
       };
+      markers: {
+        Row: MarkerRow;
+        Insert: never;
+        Update: never;
+        Relationships: [OrgFk<"markers_product_id_org_id_fkey", "product_id", "products">];
+      };
+      nest_jobs: {
+        Row: NestJobRow;
+        Insert: never;
+        Update: never;
+        Relationships: [
+          OrgFk<"nest_jobs_product_id_org_id_fkey", "product_id", "products">,
+          OrgFk<"nest_jobs_marker_id_org_id_fkey", "marker_id", "markers">,
+        ];
+      };
       comments: {
         Row: CommentRow;
         Insert: { org_id: string; product_id: string; body: string; pattern_version?: number | null };
@@ -435,6 +497,30 @@ export type Database = {
         Returns: { id: string; token: string; expires_at: string }[];
       };
       create_tech_pack: { Args: { p_product_id: string; p_pattern_version: number; p_data: Json }; Returns: TechPackRow };
+      create_marker: {
+        Args: {
+          p_product_id: string;
+          p_pattern_version: number;
+          p_fabric_id: string | null;
+          p_width_mm: number;
+          p_demand: Json;
+          p_length_mm: number;
+          p_efficiency: number;
+          p_layout: Json;
+        };
+        Returns: MarkerRow;
+      };
+      enqueue_nest_job: {
+        Args: { p_product_id: string; p_width_mm: number; p_demand: Json; p_gap_mm: number; p_one_way: boolean };
+        Returns: NestJobRow;
+      };
+      /** Nada para pegar: null (ou a linha com id nulo). */
+      claim_nest_job: { Args: { p_org_id: string }; Returns: NestJobRow | null };
+      nest_job_progress: { Args: { p_job_id: string; p_progress: number }; Returns: boolean };
+      finish_nest_job: { Args: { p_job_id: string; p_length_mm: number; p_efficiency: number; p_layout: Json }; Returns: MarkerRow };
+      fail_nest_job: { Args: { p_job_id: string; p_error: string }; Returns: boolean };
+      release_nest_job: { Args: { p_job_id: string }; Returns: boolean };
+      retry_nest_job: { Args: { p_job_id: string }; Returns: NestJobRow };
       public_approval: { Args: { p_token: string }; Returns: PublicApproval | null };
       decide_approval: {
         Args: { p_token: string; p_status: ApprovalStatus; p_name: string; p_comment?: string | null };

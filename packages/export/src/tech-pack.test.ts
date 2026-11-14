@@ -1,7 +1,7 @@
 import { PDFDocument } from "pdf-lib";
 import { describe, expect, it } from "vitest";
 import { saia } from "./fixture";
-import { buildTechPack, ESTIMATED_EFFICIENCY, meters, money, type TechPackInput } from "./tech-pack";
+import { buildTechPack, consumptionNote, consumptionSource, ESTIMATED_EFFICIENCY, meters, money, type TechPackInput } from "./tech-pack";
 import { exportTechPackPdf, winAnsiSafe } from "./tech-pack-pdf";
 
 function input(overrides: Partial<TechPackInput> = {}): TechPackInput {
@@ -51,6 +51,42 @@ describe("ficha técnica", () => {
     expect(semPreco.consumption.bySize.M!.meters).not.toBeNull();
     expect(semPreco.consumption.bySize.M!.weightG).toBeNull();
     expect(semPreco.consumption.bySize.M!.fabricCents).toBeNull();
+  });
+
+  it("com risco do Encaixe na largura do tecido: aproveitamento medido, marcado como do encaixe", () => {
+    const marker = { number: 3, widthMm: 1500, lengthMm: 2400, efficiency: 0.86 };
+    const data = buildTechPack(input({ marker }));
+    expect(data.consumption).toMatchObject({ method: "nesting", efficiency: 0.86, marker });
+    const m = data.consumption.bySize.M!;
+    expect(m.meters).toBeCloseTo(m.areaMm2 / 0.86 / 1500 / 1000, 3);
+    // Aproveitamento maior que a estimativa de 80%: menos tecido.
+    expect(m.meters!).toBeLessThan(buildTechPack(input()).consumption.bySize.M!.meters!);
+    expect(consumptionSource(data.consumption)).toBe("pelo encaixe nº 3");
+    expect(consumptionNote(data.consumption)).toMatch(/risco nº 3.*86,0%.*150 cm/);
+  });
+
+  it("PDF da ficha pelo encaixe também abre", async () => {
+    const bytes = await exportTechPackPdf(buildTechPack(input({ marker: { number: 3, widthMm: 1500, lengthMm: 2400, efficiency: 0.86 } })), { number: 2 });
+    const pdf = await PDFDocument.load(bytes);
+    expect(pdf.getPageCount()).toBeGreaterThan(0);
+  });
+
+  it("risco em outra largura, impossível ou sem largura no tecido: volta à estimativa", () => {
+    const outra = buildTechPack(input({ marker: { number: 1, widthMm: 1600, lengthMm: 2000, efficiency: 0.9 } }));
+    expect(outra.consumption.method).toBe("area");
+    expect(outra.consumption.efficiency).toBe(ESTIMATED_EFFICIENCY);
+    expect(outra.consumption.marker).toBeUndefined();
+    expect(consumptionSource(outra.consumption)).toBe("estimativa");
+    expect(consumptionNote(outra.consumption)).toMatch(/Estimativa.*80%/);
+    expect(buildTechPack(input({ marker: { number: 1, widthMm: 1500, lengthMm: 2000, efficiency: 1.4 } })).consumption.method).toBe("area");
+    expect(buildTechPack(input({ marker: { number: 1, widthMm: 1500, lengthMm: 0, efficiency: 0.8 } })).consumption.method).toBe("area");
+    const semLargura = buildTechPack(input({ fabric: null, marker: { number: 1, widthMm: 1500, lengthMm: 2000, efficiency: 0.9 } }));
+    expect(semLargura.consumption.method).toBe("area");
+  });
+
+  it("ficha antiga (sem method nesting nem marker) continua lida como estimativa", () => {
+    expect(consumptionSource({ method: "area" })).toBe("estimativa");
+    expect(consumptionNote({ method: "area", efficiency: 0.8 })).toMatch(/80%/);
   });
 
   it("formata em português", () => {
