@@ -11,6 +11,9 @@ Software web para confecções: modelagem 2D, prova virtual 3D, encaixe e gestã
   - `grading.ts`: gradação (passo por ponto, valor por tamanho, `setSizes`, `setBaseSize`, `applyGrade`). **Trocar o base nunca muda um tamanho** (teste de propriedade em `grading.test.ts`); edita-se o desenho só no tamanho base.
   - `edit.ts`: operações de edição do molde (criar parte, mover ponto/alça/parte, inserir e apagar ponto, reta↔curva, margens). Puras: devolvem documento novo, nunca alteram o original.
   - `bezier.ts`, `polygon.ts`: curvas e polígonos. `fixtures.ts` só para testes.
+- `packages/cloth`: Prova 3D (simulação do tecido), TypeScript puro para rodar em Web Worker; mesmas regras de `packages/geometry`.
+  - `mesh.ts`: `meshPiece` gera a malha triangular da **linha de costura** (sem margem). Borda reamostrada por segmento (vértices `0..boundaryCount-1`, com segmento e `t` de origem, base das costuras), miolo em grade alinhada ao fio, Delaunay com a borda forçada (Delaunator + Constrainautor, ISC) e suavização só na faixa junto à borda.
+  - O formato do molde (schema 1) ainda não guarda costuras (pares de arestas): a simulação vai exigir o schema 2.
 - `packages/export`: exportação, carregada sob demanda no navegador (`@alinhavo/export/dxf`, `@alinhavo/export/pdf`).
   - `dxf.ts`: DXF-AAMA (R12 ASCII). Camadas fixas 1 corte, 2 quinas, 3 curva, 7 fio, 14 costura; uma BLOCK por peça×tamanho. **O Y é invertido** (DXF cresce para cima): sem isso a peça sai espelhada. Testes leem o arquivo com `dxf-parser` (leitor independente).
   - `pdf.ts`: PDF 1:1 em folhas A4 com folha de conferência (quadrado de 10 cm); pula folhas vazias. Espessuras e tracejados em mm (a escala do `drawSvgPath` vale para eles).
