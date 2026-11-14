@@ -9,7 +9,7 @@ import { LoginForm } from "./login-form";
 export const metadata: Metadata = { title: "Entrar · Alinhavo" };
 
 const ERROS: Record<string, string> = {
-  link: "Esse link de acesso não vale mais. Peça um novo abaixo.",
+  link: "Esse link de acesso não vale mais. Entre com a senha ou peça um novo link.",
 };
 
 export default function EntrarPage({ searchParams }: PageProps<"/entrar">) {
@@ -18,7 +18,7 @@ export default function EntrarPage({ searchParams }: PageProps<"/entrar">) {
       <div className="mx-auto max-w-sm">
         <h1 className={ui.h1}>Entrar</h1>
         <p className={`mt-2 ${ui.muted}`}>
-          Sem senha: mandamos um link para o seu e-mail. Se for a primeira vez, a conta é criada na hora.
+          Entre com seu e-mail e senha. Primeira vez? Crie a conta na aba ao lado.
         </p>
         <div className={`mt-8 ${ui.card}`}>
           {getSupabaseConfig() ? (

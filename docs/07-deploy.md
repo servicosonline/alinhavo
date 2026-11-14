@@ -20,6 +20,11 @@ Em *Authentication → URL Configuration*:
 - **Site URL**: `http://localhost:3000` por enquanto (troque pela URL da Vercel no passo 5).
 - **Redirect URLs**: adicione `http://localhost:3000/auth/callback`.
 
+### Login com senha
+O app entra com e-mail e senha (o link mágico fica como opção). Para criar conta sem receber e-mail nenhum, em *Authentication → Sign In / Providers → Email* desligue **Confirm email**. Se ficar ligado, o cadastro manda um link de confirmação uma vez; depois disso, entra-se só com a senha.
+
+> Com **Confirm email** desligado, o e-mail da conta não é verificado: qualquer pessoa pode criar conta com um endereço que não é dela. O que protege a organização é a RLS e, no convite, o link secreto (token) que só o dono copia e envia. Antes de abrir para usuários de verdade, religue a confirmação, ou faça o convite exigir e-mail confirmado (migração em `accept_invite`).
+
 > O envio de e-mail embutido do Supabase manda poucos e-mails por hora e serve só para teste. Antes de chamar usuários de verdade, configure um SMTP próprio (ex.: Resend) em *Authentication → Emails → SMTP Settings*.
 
 ## 2. Ligar o projeto local ao Supabase

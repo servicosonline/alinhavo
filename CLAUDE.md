@@ -39,7 +39,7 @@ Software web para confecções: modelagem 2D, prova virtual 3D, encaixe e gestã
 - **Tipos do banco** em `apps/web/src/lib/supabase/database.types.ts`. Hoje escritos à mão: toda migração nova atualiza esse arquivo. Quando houver projeto Supabase, passam a ser gerados com `supabase gen types`.
 
 ## App web (login e acesso)
-- Login por link mágico (`/entrar` → e-mail → `/auth/callback`). `src/proxy.ts` só renova a sessão e manda quem não está logado de `/painel` para `/entrar`.
+- Login por e-mail e senha em `/entrar` (abas Entrar e Criar conta; regras e mensagens em `src/lib/password-auth.ts`), com o link mágico como opção (`/entrar` → e-mail → `/auth/callback`). Senha nunca vai para log nem para mensagem. Com "Confirm email" desligado no Supabase, o e-mail da conta não é verificado: o convite vale pelo token secreto (ver `docs/07-deploy.md`). `src/proxy.ts` só renova a sessão e manda quem não está logado de `/painel` para `/entrar`.
 - **Toda Server Action e Route Handler confere o login de novo** (`getCurrentUser`/`requireUser` em `src/lib/auth.ts`); o proxy não é a autorização. A permissão de verdade é a RLS.
 - Com `cacheComponents`, quem lê cookies, `params` ou `searchParams` fica dentro de `<Suspense>`. Leia `node_modules/next/dist/docs/01-app/02-guides/authentication-with-cache-components.md`.
 - Redirecionar depois do login só com `safeNext()` (`src/lib/safe-next.ts`).
