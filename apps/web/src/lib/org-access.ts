@@ -16,3 +16,5 @@ export async function getMyRole(supabase: Client, orgId: string, userId: string)
 }
 
 export const canEditPatterns = (role: OrgRole | null) => role === "owner" || role === "admin" || role === "modelista";
+/** Coleções, produtos e cronograma: quem edita moldes e também a estilista. */
+export const canEditProducts = (role: OrgRole | null) => canEditPatterns(role) || role === "estilista";

@@ -65,6 +65,17 @@ async function Org({ params }: { params: PageProps<"/painel/[orgId]">["params"] 
 
       <nav aria-label="Módulos" className="space-y-3">
         <Link
+          href={`/painel/${orgId}/colecoes`}
+          className="flex items-center justify-between rounded-lg border border-tinta/15 bg-white/70 px-5 py-4 transition hover:bg-papel-escuro"
+        >
+          <span>
+            <span className="font-display text-xl font-semibold">Coleções</span>
+            <span className={`block ${ui.muted}`}>Produtos, status e cronograma</span>
+          </span>
+          <span aria-hidden>→</span>
+        </Link>
+
+        <Link
           href={`/painel/${orgId}/moldes`}
           className="flex items-center justify-between rounded-lg border border-tinta/15 bg-white/70 px-5 py-4 transition hover:bg-papel-escuro"
         >

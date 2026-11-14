@@ -119,6 +119,38 @@ export type PublicApproval = {
   images: { angle: ApprovalAngle; mime: "image/jpeg" | "image/png"; data: string }[];
 };
 
+export type ProductStatus = "ideia" | "modelagem" | "prova" | "aprovado" | "producao";
+type CollectionRow = {
+  id: string;
+  org_id: string;
+  name: string;
+  season: string | null;
+  starts_on: string | null;
+  launch_on: string | null;
+  archived_at: string | null;
+} & Timestamps;
+type ProductRow = {
+  id: string;
+  org_id: string;
+  collection_id: string | null;
+  reference: string | null;
+  name: string;
+  status: ProductStatus;
+  size_chart_id: string | null;
+  pattern_id: string | null;
+} & Timestamps;
+type MilestoneRow = {
+  id: string;
+  org_id: string;
+  collection_id: string;
+  title: string;
+  /** AAAA-MM-DD */
+  due_on: string;
+  assignee: string | null;
+  done_at: string | null;
+  position: number;
+} & Timestamps;
+
 /** Chave estrangeira simples (col → ref.id). */
 type Fk<Name extends string, Col extends string, Ref extends string> = {
   foreignKeyName: Name;
@@ -216,6 +248,52 @@ export type Database = {
         Update: never;
         Relationships: [OrgFk<"pattern_versions_pattern_id_org_id_fkey", "pattern_id", "patterns">];
       };
+      collections: {
+        Row: CollectionRow;
+        Insert: { org_id: string; name: string; season?: string | null; starts_on?: string | null; launch_on?: string | null };
+        Update: { name?: string; season?: string | null; starts_on?: string | null; launch_on?: string | null; archived_at?: string | null };
+        Relationships: [Fk<"collections_org_id_fkey", "org_id", "orgs">];
+      };
+      products: {
+        Row: ProductRow;
+        Insert: {
+          org_id: string;
+          name: string;
+          collection_id?: string | null;
+          reference?: string | null;
+          status?: ProductStatus;
+          size_chart_id?: string | null;
+          pattern_id?: string | null;
+        };
+        Update: {
+          collection_id?: string | null;
+          reference?: string | null;
+          name?: string;
+          status?: ProductStatus;
+          size_chart_id?: string | null;
+          pattern_id?: string | null;
+        };
+        Relationships: [
+          Fk<"products_org_id_fkey", "org_id", "orgs">,
+          OrgFk<"products_collection_id_org_id_fkey", "collection_id", "collections">,
+          OrgFk<"products_size_chart_id_org_id_fkey", "size_chart_id", "size_charts">,
+          OrgFk<"products_pattern_id_org_id_fkey", "pattern_id", "patterns">,
+        ];
+      };
+      milestones: {
+        Row: MilestoneRow;
+        Insert: {
+          org_id: string;
+          collection_id: string;
+          title: string;
+          due_on: string;
+          assignee?: string | null;
+          done_at?: string | null;
+          position?: number;
+        };
+        Update: { title?: string; due_on?: string; assignee?: string | null; done_at?: string | null; position?: number };
+        Relationships: [OrgFk<"milestones_collection_id_org_id_fkey", "collection_id", "collections">];
+      };
       approvals: {
         Row: ApprovalRow;
         Insert: never;
@@ -265,7 +343,7 @@ export type Database = {
         Returns: ApprovalStatus;
       };
     };
-    Enums: { org_role: OrgRole; pattern_origin: PatternOrigin; approval_status: ApprovalStatus };
+    Enums: { org_role: OrgRole; pattern_origin: PatternOrigin; approval_status: ApprovalStatus; product_status: ProductStatus };
     CompositeTypes: { [_ in never]: never };
   };
 };
