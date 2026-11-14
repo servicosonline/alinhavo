@@ -2,6 +2,7 @@
 
 import { redirect } from "next/navigation";
 import type { FormState } from "@/components/ui";
+import { otpErrorLog, otpErrorMessage } from "@/lib/login-errors";
 import { getOrigin } from "@/lib/origin";
 import { safeNext } from "@/lib/safe-next";
 import { getSupabaseConfig } from "@/lib/supabase/config";
@@ -24,8 +25,8 @@ export async function signInWithEmail(_prev: FormState, formData: FormData): Pro
   });
 
   if (error) {
-    if (error.status === 429) return { error: "Muitos pedidos seguidos. Espere um minuto e tente de novo." };
-    return { error: "Não conseguimos enviar o link agora. Tente de novo em instantes." };
+    console.error(otpErrorLog(error));
+    return { error: otpErrorMessage(error) };
   }
   return { ok: `Enviamos um link de acesso para ${email}. Abra o e-mail neste mesmo navegador.` };
 }
