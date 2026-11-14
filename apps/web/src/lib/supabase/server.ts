@@ -1,6 +1,7 @@
 import "server-only";
 import { createServerClient } from "@supabase/ssr";
 import { cookies } from "next/headers";
+import { connection } from "next/server";
 import { getSupabaseConfig, SupabaseNotConfiguredError } from "./config";
 import type { Database } from "./database.types";
 
@@ -14,6 +15,11 @@ export async function createClient() {
   if (!config) throw new SupabaseNotConfiguredError();
 
   const cookieStore = await cookies();
+  // O cliente lê o relógio (Date.now) para conferir a validade do token em
+  // getClaims e antes de cada consulta. Com cacheComponents, isso só pode
+  // acontecer depois de um acesso dinâmico: cookies() não basta, porque o
+  // prerender de runtime já o resolve. connection() adia para a requisição.
+  await connection();
   return createServerClient<Database>(config.url, config.key, {
     cookies: {
       getAll() {
