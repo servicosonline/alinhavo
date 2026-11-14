@@ -23,5 +23,8 @@
   },
   "devDependencies": {
     "turbo": "^2"
+  },
+  "overrides": {
+    "eslint": "^10"
   }
 }
