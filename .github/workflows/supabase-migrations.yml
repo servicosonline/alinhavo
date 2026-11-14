@@ -48,4 +48,6 @@ jobs:
           version: 3.1.0
       - run: supabase link --project-ref "${{ vars.SUPABASE_PROJECT_ID }}"
       # O CLI 3.x mira o banco local por padrão; --remote usa o projeto ligado acima.
-      - run: supabase db push --remote
+      # --yes: no CI não há terminal para confirmar. A confirmação aqui é o teste
+      # de RLS acima e o ambiente production. Localmente, db:push segue perguntando.
+      - run: supabase db push --remote --yes
