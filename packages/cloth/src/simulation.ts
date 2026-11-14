@@ -204,28 +204,52 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
     }
   }
 
+  /**
+   * Folga conhecida de cada vértice até o obstáculo mais próximo (mm além da
+   * espessura). A distância com sinal não diminui mais rápido que o vértice
+   * anda, então enquanto a folga não se esgota não é preciso perguntar de novo.
+   */
+  const clearance = new Float64Array(n).fill(-1);
+  /** Rodadas por subpasso: um empurrão para fora de uma parte pode cair dentro de outra (axila, gancho). */
+  const COLLISION_PASSES = 3;
+
   function collide() {
     if (colliders.length === 0) return;
     const gap = fabric.thickness;
     for (let i = 0; i < n; i++) {
       if (invMass[i] === 0) continue;
-      for (const collider of colliders) {
-        const { distance, normal } = collider.query(x[i * 3]!, x[i * 3 + 1]!, x[i * 3 + 2]!);
-        if (distance >= gap) continue;
-        const push = gap - distance;
-        x[i * 3] = x[i * 3]! + normal.x * push;
-        x[i * 3 + 1] = x[i * 3 + 1]! + normal.y * push;
-        x[i * 3 + 2] = x[i * 3 + 2]! + normal.z * push;
-        // Atrito: tira parte do deslizamento sobre a superfície neste subpasso.
-        const mx = x[i * 3]! - prev[i * 3]!;
-        const my = x[i * 3 + 1]! - prev[i * 3 + 1]!;
-        const mz = x[i * 3 + 2]! - prev[i * 3 + 2]!;
-        const along = mx * normal.x + my * normal.y + mz * normal.z;
-        const f = fabric.friction;
-        x[i * 3] = x[i * 3]! - (mx - along * normal.x) * f;
-        x[i * 3 + 1] = x[i * 3 + 1]! - (my - along * normal.y) * f;
-        x[i * 3 + 2] = x[i * 3 + 2]! - (mz - along * normal.z) * f;
+      const moved = Math.hypot(x[i * 3]! - prev[i * 3]!, x[i * 3 + 1]! - prev[i * 3 + 1]!, x[i * 3 + 2]! - prev[i * 3 + 2]!);
+      clearance[i] = clearance[i]! - moved;
+      if (clearance[i]! > 0) continue;
+      let nearest = Infinity;
+      for (let pass = 0; pass < COLLISION_PASSES; pass++) {
+        nearest = Infinity;
+        let pushed = false;
+        for (const collider of colliders) {
+          const { distance, normal } = collider.query(x[i * 3]!, x[i * 3 + 1]!, x[i * 3 + 2]!);
+          nearest = Math.min(nearest, distance);
+          if (distance >= gap) continue;
+          pushed = true;
+          nearest = Math.min(nearest, gap);
+          const push = gap - distance;
+          x[i * 3] = x[i * 3]! + normal.x * push;
+          x[i * 3 + 1] = x[i * 3 + 1]! + normal.y * push;
+          x[i * 3 + 2] = x[i * 3 + 2]! + normal.z * push;
+          if (pass > 0) continue; // atrito uma vez por subpasso
+          // Atrito: tira parte do deslizamento sobre a superfície neste subpasso.
+          const mx = x[i * 3]! - prev[i * 3]!;
+          const my = x[i * 3 + 1]! - prev[i * 3 + 1]!;
+          const mz = x[i * 3 + 2]! - prev[i * 3 + 2]!;
+          const along = mx * normal.x + my * normal.y + mz * normal.z;
+          const f = fabric.friction;
+          x[i * 3] = x[i * 3]! - (mx - along * normal.x) * f;
+          x[i * 3 + 1] = x[i * 3 + 1]! - (my - along * normal.y) * f;
+          x[i * 3 + 2] = x[i * 3 + 2]! - (mz - along * normal.z) * f;
+        }
+        if (!pushed) break;
       }
+      // Depois de mexer no vértice, a folga vale a partir da posição atual.
+      clearance[i] = nearest - gap;
     }
   }
 

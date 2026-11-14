@@ -6,3 +6,6 @@ export * from "./mesh";
 export * from "./fabrics";
 export * from "./collider";
 export * from "./simulation";
+export * from "./body/types";
+export * from "./body/measurements";
+export { createMannequin } from "./body/mannequin";

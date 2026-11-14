@@ -3,8 +3,15 @@ export type Vec3 = { x: number; y: number; z: number };
 
 /**
  * Obstáculo para o tecido: diz a distância com sinal até a superfície
- * (positiva fora, negativa dentro) e a direção para fora. O corpo do
- * manequim (Passo 3) implementa esta mesma interface.
+ * (positiva fora, negativa dentro) e a direção para fora. Os corpos da Prova
+ * (manequim, e depois o realista) implementam esta mesma interface.
+ *
+ * Contrato:
+ * - Longe da superfície (mais de 30 mm), a distância pode ser um limite
+ *   inferior da real (ex.: distância à caixa envolvente). Nunca maior.
+ * - A distância não pode cair mais rápido do que o ponto anda (o simulador
+ *   conta com isso para não perguntar de novo por vértices longe).
+ * - A direção só precisa estar certa perto da superfície (no contato).
  */
 export type Collider = {
   query(x: number, y: number, z: number): { distance: number; normal: Vec3 };
