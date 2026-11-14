@@ -1,14 +1,15 @@
 "use client";
 
 import { useActionState } from "react";
+import { ActionForm } from "@/components/action-form";
 import { SubmitButton } from "@/components/submit-button";
 import { ui } from "@/components/ui";
 import { createFabric } from "./actions";
 
 export function FabricForm({ orgId }: { orgId: string }) {
-  const [state, action] = useActionState(createFabric.bind(null, orgId), undefined);
+  const [state, action, pending] = useActionState(createFabric.bind(null, orgId), undefined);
   return (
-    <form action={action} className="grid gap-3 sm:grid-cols-3" data-form="tecido">
+    <ActionForm action={action} state={state} pending={pending} className="grid gap-3 sm:grid-cols-3" data-form="tecido">
       <label className="block sm:col-span-2">
         <span className={ui.label}>Nome</span>
         <input name="name" required maxLength={120} placeholder="Ex.: Sarja 2/1" className={ui.input} />
@@ -51,6 +52,6 @@ export function FabricForm({ orgId }: { orgId: string }) {
           </p>
         )}
       </div>
-    </form>
+    </ActionForm>
   );
 }

@@ -2,6 +2,7 @@
 
 import type { TechPackData } from "@alinhavo/export/tech-pack";
 import { useActionState, useState } from "react";
+import { ActionForm } from "@/components/action-form";
 import { SubmitButton } from "@/components/submit-button";
 import { ui } from "@/components/ui";
 import { addTrim, generateTechPack } from "../actions";
@@ -23,9 +24,9 @@ function Feedback({ state }: { state: { error?: string; ok?: string } | undefine
 }
 
 export function TrimForm({ orgId, productId }: { orgId: string; productId: string }) {
-  const [state, action] = useActionState(addTrim.bind(null, orgId, productId), undefined);
+  const [state, action, pending] = useActionState(addTrim.bind(null, orgId, productId), undefined);
   return (
-    <form action={action} className="grid gap-2 sm:grid-cols-[2fr_1fr_1fr_1fr_auto] sm:items-end" data-form="aviamento">
+    <ActionForm action={action} state={state} pending={pending} className="grid gap-2 sm:grid-cols-[2fr_1fr_1fr_1fr_auto] sm:items-end" data-form="aviamento">
       <label className="block">
         <span className={ui.label}>Aviamento</span>
         <input name="name" required maxLength={120} placeholder="Ex.: Zíper 18 cm" className={ui.input} />
@@ -51,21 +52,21 @@ export function TrimForm({ orgId, productId }: { orgId: string; productId: strin
       <div className="sm:col-span-5">
         <Feedback state={state} />
       </div>
-    </form>
+    </ActionForm>
   );
 }
 
 export function GenerateTechPack({ orgId, productId, disabledReason }: { orgId: string; productId: string; disabledReason: string | null }) {
-  const [state, action] = useActionState(generateTechPack.bind(null, orgId, productId), undefined);
+  const [state, action, pending] = useActionState(generateTechPack.bind(null, orgId, productId), undefined);
   return (
-    <form action={action} className="space-y-2" data-form="ficha">
+    <ActionForm action={action} state={state} pending={pending} className="space-y-2" data-form="ficha">
       {disabledReason ? (
         <p className="text-sm text-tinta-suave">{disabledReason}</p>
       ) : (
         <SubmitButton pendingText="Gerando…">Gerar ficha técnica</SubmitButton>
       )}
       <Feedback state={state} />
-    </form>
+    </ActionForm>
   );
 }
 

@@ -1,6 +1,7 @@
 "use client";
 
 import { useFormStatus } from "react-dom";
+import { useActionPending } from "./action-form";
 import { ui } from "./ui";
 
 export function SubmitButton({
@@ -12,7 +13,10 @@ export function SubmitButton({
   pendingText?: string;
   variant?: "primary" | "ghost";
 }) {
-  const { pending } = useFormStatus();
+  // <form action> informa pelo useFormStatus; o ActionForm, pelo contexto.
+  const status = useFormStatus();
+  const fromContext = useActionPending();
+  const pending = status.pending || fromContext;
   return (
     <button
       type="submit"
