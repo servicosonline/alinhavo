@@ -8,7 +8,10 @@ import type { ProvaEdges } from "@/lib/prova/edges";
 import type { FabricId, FromWorker, PoseId, ProvaMaps, ToWorker } from "@/lib/prova/protocol";
 import { formatCm } from "@/lib/units";
 import { ui } from "../ui";
+import { addCaptures, type Capture } from "@/lib/prova/captures";
 import { AdjustPanel, type ProvaSaveMode } from "./adjust-panel";
+import { ApprovalRequest, type ApprovalRequester } from "./approval-request";
+import { CapturesPanel } from "./captures-panel";
 import type { ProvaScene } from "./scene";
 
 const FABRICS: { id: FabricId; name: string; color: string }[] = [
@@ -82,9 +85,11 @@ type Props = {
   measurementsBySize: Record<string, Record<string, number>>;
   /** O que fazer com um ajuste feito na Prova (salvar versão, só na tela ou só ver). */
   saveMode: ProvaSaveMode;
+  /** Pedir aprovação por link (só no painel, para quem edita moldes). */
+  approval?: ApprovalRequester;
 };
 
-export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode }: Props) {
+export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, approval }: Props) {
   // Molde em prova: começa no que veio da página e muda a cada ajuste aplicado.
   // Se a página mandar outro molde (versão nova salva), recomeça dele.
   const [work, setWork] = useState({ source: sourceDoc, doc: sourceDoc });
@@ -93,6 +98,8 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode }: Pr
   const [edges, setEdges] = useState<ProvaEdges | null>(null);
   const [selected, setSelected] = useState<number | null>(null);
   const [notice, setNotice] = useState<string | null>(null);
+  const [captures, setCaptures] = useState<Capture[]>([]);
+  const [captureNote, setCaptureNote] = useState<string | null>(null);
   const viewRef = useRef<HTMLDivElement>(null);
   const sceneRef = useRef<ProvaScene | null>(null);
   const workerRef = useRef<Worker | null>(null);
@@ -176,6 +183,25 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode }: Pr
       sceneRef.current = null;
     };
   }, [paint]);
+
+  // Trocar tamanho, tecido, pose ou o molde monta a Prova de novo; as capturas antigas
+  // mostram outra roupa, então saem (a aprovação guarda uma configuração só).
+  const setupKey = `${size}|${fabric}|${pose}`;
+  const [capturedFor, setCapturedFor] = useState({ setupKey, doc });
+  if (capturedFor.setupKey !== setupKey || capturedFor.doc !== doc) {
+    setCapturedFor({ setupKey, doc });
+    setCaptures([]);
+    setCaptureNote(null);
+  }
+
+  const capture = (angles: Capture["angle"][]) => {
+    const scene = sceneRef.current;
+    if (!scene) return;
+    const shots = angles.map((angle) => ({ angle, dataUrl: scene.capture(angle) }));
+    const { list, dropped } = addCaptures(captures, shots);
+    setCaptures(list);
+    setCaptureNote(dropped > 0 ? `${dropped === 1 ? "Uma imagem ficou" : `${dropped} imagens ficaram`} de fora (até 4, de até 150 KB).` : null);
+  };
 
   // Trocar tamanho, tecido ou pose monta a Prova de novo.
   useEffect(() => {
@@ -327,6 +353,19 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode }: Pr
             </div>
           )}
         </div>
+
+        <CapturesPanel
+          captures={captures}
+          onCapture={capture}
+          onRemove={(i) => {
+            setCaptures(captures.filter((_, k) => k !== i));
+            setCaptureNote(null);
+          }}
+          disabled={status.kind !== "running" && status.kind !== "paused"}
+          note={captureNote}
+        >
+          {approval && <ApprovalRequest requester={approval} settings={{ size, fabric, pose }} captures={captures} />}
+        </CapturesPanel>
 
         <AdjustPanel
           doc={doc}

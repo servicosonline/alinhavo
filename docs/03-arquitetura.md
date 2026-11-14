@@ -43,6 +43,7 @@ Toda tabela tem `org_id`; políticas RLS só liberam linhas de organizações da
 
 **7. Links públicos de aprovação.**
 Uma Edge Function valida um token com expiração e devolve só os dados daquela aprovação (imagens + comentários), sem expor a organização.
+*Hoje (MVP, Fase 2):* sem Edge Function. As imagens (até 4, ≤ 600 KB) ficam no banco e a página pública lê pelas funções `public_approval`/`decide_approval` (`security definer`, só com o token), chamadas com a chave publicável. Motivo: o app não usa a chave de serviço, que é a única que assina URL do Storage para quem não tem conta. Quando entrar o vídeo 360° (Fase 5), as capturas vão para o Storage e a leitura pública passa para a Edge Function, sem mudar a tela.
 
 ## GitHub e CI
 

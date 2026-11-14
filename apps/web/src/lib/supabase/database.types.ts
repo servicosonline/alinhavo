@@ -78,6 +78,47 @@ type PatternVersionRow = {
   created_at: string;
 };
 
+type ApprovalStatus = "pendente" | "aprovado" | "ajustes";
+type ApprovalAngle = "atual" | "frente" | "costas" | "lado";
+type ApprovalRow = {
+  id: string;
+  org_id: string;
+  pattern_id: string;
+  version_number: number;
+  token: string;
+  /** Como a Prova estava (tamanho, tecido, pose). */
+  settings: Json;
+  expires_at: string;
+  status: ApprovalStatus;
+  reviewer_name: string | null;
+  reviewer_comment: string | null;
+  decided_at: string | null;
+  created_by: string | null;
+  created_at: string;
+};
+type ApprovalImageRow = {
+  id: string;
+  org_id: string;
+  approval_id: string;
+  position: number;
+  angle: ApprovalAngle;
+  mime: "image/jpeg" | "image/png";
+  /** bytea: o PostgREST devolve como texto hexadecimal ("\x..."). */
+  data: string;
+};
+/** O que public_approval devolve (null se o token não vale). */
+export type PublicApproval = {
+  pattern_name: string;
+  version: number;
+  settings: Json;
+  status: ApprovalStatus;
+  reviewer_name: string | null;
+  reviewer_comment: string | null;
+  decided_at: string | null;
+  expires_at: string;
+  images: { angle: ApprovalAngle; mime: "image/jpeg" | "image/png"; data: string }[];
+};
+
 /** Chave estrangeira simples (col → ref.id). */
 type Fk<Name extends string, Col extends string, Ref extends string> = {
   foreignKeyName: Name;
@@ -175,6 +216,18 @@ export type Database = {
         Update: never;
         Relationships: [OrgFk<"pattern_versions_pattern_id_org_id_fkey", "pattern_id", "patterns">];
       };
+      approvals: {
+        Row: ApprovalRow;
+        Insert: never;
+        Update: never;
+        Relationships: [OrgFk<"approvals_pattern_id_org_id_fkey", "pattern_id", "patterns">];
+      };
+      approval_images: {
+        Row: ApprovalImageRow;
+        Insert: never;
+        Update: never;
+        Relationships: [OrgFk<"approval_images_approval_id_org_id_fkey", "approval_id", "approvals">];
+      };
     };
     Views: { [_ in never]: never };
     Functions: {
@@ -195,8 +248,24 @@ export type Database = {
         Returns: PatternVersionRow;
       };
       set_base_size: { Args: { p_size_id: string }; Returns: undefined };
+      create_approval: {
+        Args: {
+          p_pattern_id: string;
+          p_version: number;
+          p_settings: Json;
+          /** [{ angle, data: base64 }], de 1 a 4. */
+          p_images: Json;
+          p_days?: number;
+        };
+        Returns: { id: string; token: string; expires_at: string }[];
+      };
+      public_approval: { Args: { p_token: string }; Returns: PublicApproval | null };
+      decide_approval: {
+        Args: { p_token: string; p_status: ApprovalStatus; p_name: string; p_comment?: string | null };
+        Returns: ApprovalStatus;
+      };
     };
-    Enums: { org_role: OrgRole; pattern_origin: PatternOrigin };
+    Enums: { org_role: OrgRole; pattern_origin: PatternOrigin; approval_status: ApprovalStatus };
     CompositeTypes: { [_ in never]: never };
   };
 };

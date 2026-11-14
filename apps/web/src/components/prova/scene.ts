@@ -176,6 +176,50 @@ export class ProvaScene {
     geometry.computeBoundingSphere();
   }
 
+  /**
+   * Imagem da roupa para a aprovação (JPEG, 900 × 1200 px). "atual" usa a
+   * câmera como está; frente, costas e lado giram em volta do corpo (a
+   * esquerda do corpo fica em +X). O destaque de borda não sai na imagem, e
+   * a câmera e o tamanho da tela voltam como estavam.
+   */
+  capture(angle: "atual" | "frente" | "costas" | "lado"): string {
+    const W = 900;
+    const H = 1200;
+    const camPos = this.camera.position.clone();
+    const target = this.controls.target.clone();
+    const aspect = this.camera.aspect;
+    const size = this.renderer.getSize(new THREE.Vector2());
+    const pixelRatio = this.renderer.getPixelRatio();
+    const highlightVisible = this.highlight?.visible ?? false;
+    try {
+      if (this.highlight) this.highlight.visible = false;
+      if (angle !== "atual") {
+        const d = 3.1;
+        this.controls.target.set(0, 0.95, 0);
+        if (angle === "frente") this.camera.position.set(0, 1.15, d);
+        else if (angle === "costas") this.camera.position.set(0, 1.15, -d);
+        else this.camera.position.set(d, 1.15, 0);
+        this.camera.lookAt(this.controls.target);
+      }
+      this.renderer.setPixelRatio(1);
+      this.renderer.setSize(W, H, false);
+      this.camera.aspect = W / H;
+      this.camera.updateProjectionMatrix();
+      this.renderer.render(this.scene, this.camera);
+      return this.renderer.domElement.toDataURL("image/jpeg", 0.85);
+    } finally {
+      if (this.highlight) this.highlight.visible = highlightVisible;
+      this.camera.position.copy(camPos);
+      this.controls.target.copy(target);
+      this.camera.lookAt(target);
+      this.camera.aspect = aspect;
+      this.camera.updateProjectionMatrix();
+      this.renderer.setPixelRatio(pixelRatio);
+      this.renderer.setSize(size.x, size.y, false);
+      this.controls.update();
+    }
+  }
+
   /** Bordas clicáveis (pares de vértices) e o segmento do molde de cada uma. Limpa a seleção. */
   setEdges(lines: Uint32Array, owner: Int32Array) {
     this.edgeLines = lines;

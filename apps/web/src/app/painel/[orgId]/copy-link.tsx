@@ -3,11 +3,11 @@
 import { useState } from "react";
 import { ui } from "@/components/ui";
 
-export function CopyLink({ link }: { link: string }) {
+export function CopyLink({ link, label = "Link do convite" }: { link: string; label?: string }) {
   const [copied, setCopied] = useState(false);
   return (
     <div className="flex flex-col gap-2 sm:flex-row">
-      <input readOnly value={link} aria-label="Link do convite" className={`${ui.input} mt-0 font-mono text-xs`} onFocus={(e) => e.currentTarget.select()} />
+      <input readOnly value={link} aria-label={label} className={`${ui.input} mt-0 font-mono text-xs`} onFocus={(e) => e.currentTarget.select()} />
       <button
         type="button"
         className={ui.buttonGhost}

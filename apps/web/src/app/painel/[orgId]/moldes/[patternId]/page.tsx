@@ -11,6 +11,7 @@ import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
 import { SubmitButton } from "@/components/submit-button";
 import { linkSizeChart } from "../actions";
+import { ApprovalsList } from "./approvals-list";
 import { EditorClient } from "./editor-client";
 
 type Params = PageProps<"/painel/[orgId]/moldes/[patternId]">["params"];
@@ -120,6 +121,7 @@ async function Molde({ params }: { params: Params }) {
         readOnly={!canEdit}
         chartGrade={chartGrade}
       />
+      <ApprovalsList supabase={supabase} orgId={orgId} patternId={pattern.id} canEdit={canEdit} />
     </div>
   );
 }

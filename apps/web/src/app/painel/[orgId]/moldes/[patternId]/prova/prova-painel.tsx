@@ -3,9 +3,11 @@
 import type { PatternDocument } from "@alinhavo/geometry";
 import { useMemo, useState, useSyncExternalStore } from "react";
 import type { ProvaSaveMode } from "@/components/prova/adjust-panel";
+import type { ApprovalRequester } from "@/components/prova/approval-request";
 import { ProvaStudio } from "@/components/prova/prova-studio";
 import { loadForProva, storedForProva } from "@/lib/prova/handoff";
 import { savePatternVersion } from "../../actions";
+import { requestApproval } from "./actions";
 
 const noSubscribe = () => () => {};
 
@@ -52,12 +54,24 @@ export function ProvaPainel({
     [canEdit, saved.version, unsaved, orgId, patternId],
   );
 
+  // A aprovação aponta para uma versão salva: com alterações do editor por salvar, não dá.
+  const approval = useMemo<ApprovalRequester | undefined>(
+    () =>
+      canEdit
+        ? {
+            blocked: unsaved ? "Salve as alterações do editor (ou ajuste e salve aqui) antes de pedir aprovação." : null,
+            request: (settings, captures, days) => requestApproval(orgId, patternId, saved.version, settings, captures, days),
+          }
+        : undefined,
+    [canEdit, unsaved, orgId, patternId, saved.version],
+  );
+
   return (
     <>
       <p className="text-xs text-tinta-suave" role="status">
         {unsaved ? "Provando as alterações ainda não salvas do editor." : `Provando a versão ${saved.version}.`}
       </p>
-      <ProvaStudio doc={doc} measurementsBySize={measurementsBySize} saveMode={saveMode} />
+      <ProvaStudio doc={doc} measurementsBySize={measurementsBySize} saveMode={saveMode} approval={approval} />
     </>
   );
 }
