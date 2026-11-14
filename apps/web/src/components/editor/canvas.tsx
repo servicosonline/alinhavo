@@ -12,6 +12,7 @@ import {
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { formatCm } from "@/lib/units";
 import { piecePath, polygonPath, segmentPath } from "./svg-path";
+import { FinishesLayer } from "./finishes-layer";
 
 export type Selection =
   | { kind: "piece"; pieceId: string }
@@ -300,6 +301,7 @@ export function PatternCanvas({
                     );
                   }),
               )}
+              <FinishesLayer piece={piece} px={px} />
               {/* Faixa larga e invisível em cada segmento, para clicar com folga */}
               {piece.outline.map((_, i) => (
                 <path

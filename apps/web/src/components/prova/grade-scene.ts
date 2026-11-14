@@ -1,11 +1,14 @@
 import * as THREE from "three";
+import type { Decal } from "@alinhavo/cloth";
 import { GRADE_SPACING_MM, gradeCameraDistance, gradeOffsets } from "@/lib/prova/grade";
+import { DecalLayer } from "./decal-layer";
 import { bodyMesh, disposeMesh, garmentMesh, liftGarment, paintGarment, Stage } from "./stage";
 
 type Slot = {
   group: THREE.Group;
   body: THREE.Mesh | null;
   garment: THREE.Mesh | null;
+  decals: DecalLayer | null;
   label: THREE.Sprite;
 };
 
@@ -71,7 +74,7 @@ export class GradeScene {
       label.position.set(0, 1950, 0);
       group.add(label);
       this.stage.world.add(group);
-      return { group, body: null, garment: null, label };
+      return { group, body: null, garment: null, decals: null, label };
     });
     const halfRow = ((sizes.length - 1) * GRADE_SPACING_MM) / 2000;
     this.stage.setFloor(halfRow + 0.9, 0.9);
@@ -96,15 +99,23 @@ export class GradeScene {
     slot.label.position.y = (slot.body.geometry.boundingBox?.max.y ?? 1800) + 150;
   }
 
-  setGarment(i: number, positions: Float32Array, indices: Uint32Array, color: string) {
+  /** A roupa de um tamanho e os acabamentos sobre ela. */
+  setGarment(i: number, positions: Float32Array, indices: Uint32Array, color: string, decals: readonly Decal[] = []) {
     const slot = this.slots[i];
     if (!slot) return;
     slot.garment = this.replace(slot.group, slot.garment, garmentMesh(positions, indices, color));
+    if (slot.decals) {
+      slot.group.remove(slot.decals.group);
+      slot.decals.dispose();
+    }
+    slot.decals = new DecalLayer(decals);
+    slot.group.add(slot.decals.group);
+    slot.decals.update(slot.garment);
   }
 
   updateGarment(i: number, positions: Float32Array) {
-    const garment = this.slots[i]?.garment;
-    if (garment) liftGarment(garment, positions);
+    const slot = this.slots[i];
+    if (slot?.garment && liftGarment(slot.garment, positions)) slot.decals?.update(slot.garment);
   }
 
   /** Cores por vértice de um tamanho (mapa); null volta à cor do tecido. */
@@ -118,6 +129,7 @@ export class GradeScene {
       this.stage.world.remove(slot.group);
       disposeMesh(slot.body);
       disposeMesh(slot.garment);
+      slot.decals?.dispose();
       const material = slot.label.material;
       material.map?.dispose();
       material.dispose();

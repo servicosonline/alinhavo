@@ -156,7 +156,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
     let lastReady: Extract<FromWorker, { type: "ready" }> | null = null;
     const show = (scene: ProvaScene, msg: Extract<FromWorker, { type: "ready" }>) => {
       scene.setBody(msg.body.positions, msg.body.indices);
-      scene.setGarment(msg.garment.positions, msg.garment.indices, colorRef.current);
+      scene.setGarment(msg.garment.positions, msg.garment.indices, colorRef.current, msg.decals);
       scene.setEdges(msg.edges.lines, msg.edges.owner);
       paint(scene);
     };

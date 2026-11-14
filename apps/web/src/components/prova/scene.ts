@@ -1,5 +1,7 @@
 import * as THREE from "three";
+import type { Decal } from "@alinhavo/cloth";
 import { frontmostLine, nearestLine } from "@/lib/prova/edges";
+import { DecalLayer } from "./decal-layer";
 import { bodyMesh, disposeMesh, garmentMesh, liftGarment, paintGarment, Stage } from "./stage";
 
 /**
@@ -16,6 +18,8 @@ export class ProvaScene {
   private world: THREE.Group;
   private body: THREE.Mesh | null = null;
   private garment: THREE.Mesh | null = null;
+  /** Acabamentos sobre a roupa (pesponto, zíper, etiqueta, estampa). */
+  private decals: DecalLayer | null = null;
   /** Posições da roupa como a simulação mandou (sem o afastamento visual). */
   private raw: Float32Array | null = null;
   private edgeLines: Uint32Array = new Uint32Array(0);
@@ -53,8 +57,15 @@ export class ProvaScene {
     this.body = this.replace(this.body, bodyMesh(positions, indices));
   }
 
-  setGarment(positions: Float32Array, indices: Uint32Array, color: string) {
+  setGarment(positions: Float32Array, indices: Uint32Array, color: string, decals: readonly Decal[] = []) {
     this.garment = this.replace(this.garment, garmentMesh(positions, indices, color));
+    if (this.decals) {
+      this.world.remove(this.decals.group);
+      this.decals.dispose();
+    }
+    this.decals = new DecalLayer(decals);
+    this.world.add(this.decals.group);
+    this.decals.update(this.garment);
     this.raw = positions;
     this.updateHighlight();
   }
@@ -70,6 +81,7 @@ export class ProvaScene {
   /** Novas posições da roupa (mesma topologia); o afastamento visual é o do `liftGarment`. */
   updateGarment(positions: Float32Array) {
     if (!this.garment || !liftGarment(this.garment, positions)) return;
+    this.decals?.update(this.garment);
     this.raw = positions;
     this.updateHighlight();
   }
@@ -229,6 +241,7 @@ export class ProvaScene {
     this.renderer.domElement.removeEventListener("pointerup", this.onPointerUp);
     disposeMesh(this.body);
     disposeMesh(this.garment);
+    this.decals?.dispose();
     this.stage.dispose();
   }
 }

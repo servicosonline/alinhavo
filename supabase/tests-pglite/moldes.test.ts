@@ -210,13 +210,14 @@ describe("moldes e versões", () => {
     const e = await equipe();
     const molde = await novoMolde(e.modelista, e.orgId);
     await expect(salvar(e.modelista, molde.id, 0, { ...DOC, unit: "cm" })).rejects.toThrow(/check/);
-    await expect(salvar(e.modelista, molde.id, 0, { ...DOC, schema: 5 })).rejects.toThrow(/check/);
+    await expect(salvar(e.modelista, molde.id, 0, { ...DOC, schema: 6 })).rejects.toThrow(/check/);
     await expect(salvar(e.modelista, molde.id, 0, { schema: 3, unit: "mm" })).rejects.toThrow(/check/);
-    // Formatos 2, 3 e 4 exigem a lista de costuras.
+    // Formatos 2 a 5 exigem a lista de costuras.
     const { seams: _seams, ...semCosturas } = DOC;
     await expect(salvar(e.modelista, molde.id, 0, semCosturas)).rejects.toThrow(/check/);
     await expect(salvar(e.modelista, molde.id, 0, { ...semCosturas, schema: 2 })).rejects.toThrow(/check/);
     await expect(salvar(e.modelista, molde.id, 0, { ...semCosturas, schema: 4 })).rejects.toThrow(/check/);
+    await expect(salvar(e.modelista, molde.id, 0, { ...semCosturas, schema: 5 })).rejects.toThrow(/check/);
     await expect(salvar(e.modelista, molde.id, 0, { ...DOC, seams: {} })).rejects.toThrow(/check/);
   });
 
@@ -247,6 +248,28 @@ describe("moldes e versões", () => {
     );
     expect(quarta.document.schema).toBe(4);
     expect(quarta.document.pieces).toEqual([calca]);
+  });
+
+  it("aceita o formato 5 (acabamentos na parte, estampa em data URL) e recusa documento grande demais", async () => {
+    const e = await equipe();
+    const molde = await novoMolde(e.modelista, e.orgId);
+    const finishes = [
+      { id: "A1", kind: "pesponto", segment: 2, distance: 10, rows: 2 },
+      { id: "A2", kind: "estampa", anchor: "A", offset: { x: 50, y: 50 }, width: 100, height: 100, rotation: 0, image: "data:image/png;base64,iVBORw0KGgo=" },
+    ];
+    await salvar(e.modelista, molde.id, 0, { ...DOC, schema: 5, pieces: [{ id: "a", finishes }] });
+    const v = await um<{ document: { schema: number; pieces: { finishes: unknown[] }[] } }>(
+      e.modelista,
+      "select document from public.pattern_versions where pattern_id = $1 and number = 1",
+      [molde.id],
+    );
+    expect(v.document.schema).toBe(5);
+    expect(v.document.pieces[0]!.finishes).toEqual(finishes);
+    // A trava de 2 MB (medida no banco já comprimida) segura imagens demais: ~4,5 MB de texto que comprime pouco.
+    const ruido = Array.from({ length: 600_000 }, (_, i) => ((i * 2654435761) >>> 0).toString(36)).join("");
+    await expect(
+      salvar(e.modelista, molde.id, 1, { ...DOC, schema: 5, pieces: [{ id: "a", finishes: [{ ...finishes[1], image: ruido }] }] }),
+    ).rejects.toThrow(/check/);
   });
 
   it("versões não mudam nem somem, nem para o dono", async () => {

@@ -1,4 +1,4 @@
-import type { MapSummary } from "@alinhavo/cloth";
+import type { Decal, MapSummary } from "@alinhavo/cloth";
 import type { PatternDocument } from "@alinhavo/geometry";
 import type { ProvaEdges } from "./edges";
 import type { LookExtra } from "./look";
@@ -55,6 +55,8 @@ export type ReadyMessage = {
   parts: ProvaPart[];
   /** Avisos do look (ex.: roupa sem o tamanho, que vestiu o base dela). */
   lookNotes: string[];
+  /** Acabamentos (pesponto, zíper, etiqueta, estampa) presos à malha da roupa. */
+  decals: Decal[];
   /** Bordas do molde em prova ligadas aos segmentos do molde (para clicar e ajustar). */
   edges: ProvaEdges;
 };

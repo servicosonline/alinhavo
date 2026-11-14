@@ -123,7 +123,8 @@ describe("createSimulation", () => {
       const moved = maxOf(sim.positions.map((p, i) => Math.abs(p - before[i]!)));
       expect(moved).toBeLessThan(0.1); // parado: menos de 0,1 mm por quadro
     }
-  });
+    // Simula três tecidos: uns 2 s sozinho, mais com o check inteiro rodando junto (o padrão é 5 s).
+  }, 30_000);
 
   it("malha estica mais que jeans, e mais na trama que no urdume", () => {
     const malhaUrdume = maxOf(hang(FABRICS.malha, VERTICAL).triangleStretch());

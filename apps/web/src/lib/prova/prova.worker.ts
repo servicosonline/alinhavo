@@ -1,10 +1,11 @@
 /// <reference lib="webworker" />
-import { garmentAtSize, migratePattern, validatePattern, type PatternDocument, type Piece, type Seam } from "@alinhavo/geometry";
+import { garmentAtSize, migratePattern, validatePattern, type GarmentFinish, type PatternDocument, type Piece, type Seam } from "@alinhavo/geometry";
 import {
   createMannequin,
   createSimulation,
   FABRICS,
   floorCollider,
+  garmentDecals,
   meshPiece,
   pieceHalf,
   placeGarment,
@@ -67,7 +68,7 @@ function readDoc(raw: PatternDocument, who: string): PatternDocument {
   return doc;
 }
 
-type Wear = { name: string; main: boolean; pieces: Piece[]; seams: Seam[]; fabric: FabricId; layer: number };
+type Wear = { name: string; main: boolean; pieces: Piece[]; seams: Seam[]; finishes: GarmentFinish[]; fabric: FabricId; layer: number };
 
 function build(setup: ProvaSetup) {
   const doc = readDoc(setup.doc, "Molde");
@@ -77,7 +78,15 @@ function build(setup: ProvaSetup) {
   const lookNotes: string[] = [];
   const main = garmentAtSize(doc, setup.size);
   const wears: Wear[] = [
-    { name: "Molde em prova", main: true, pieces: main.pieces, seams: main.seams, fabric: setup.fabric, layer: setup.layer ?? 0 },
+    {
+      name: "Molde em prova",
+      main: true,
+      pieces: main.pieces,
+      seams: main.seams,
+      finishes: main.finishes,
+      fabric: setup.fabric,
+      layer: setup.layer ?? 0,
+    },
   ];
   (setup.extras ?? []).forEach((extra, k) => {
     // Partes renomeadas: duas roupas podem ter partes com o mesmo id.
@@ -85,7 +94,7 @@ function build(setup: ProvaSetup) {
     const { size, fallback } = lookSize(other, setup.size);
     if (fallback) lookNotes.push(`${extra.name} não tem o tamanho ${setup.size}: vestiu o ${size}.`);
     const g = garmentAtSize(other, size);
-    wears.push({ name: extra.name, main: false, pieces: g.pieces, seams: g.seams, fabric: extra.fabric, layer: extra.layer });
+    wears.push({ name: extra.name, main: false, pieces: g.pieces, seams: g.seams, finishes: g.finishes, fabric: extra.fabric, layer: extra.layer });
   });
 
   const skipped: string[] = [];
@@ -155,6 +164,12 @@ function build(setup: ProvaSetup) {
     parts,
     lookNotes,
     edges: buildProvaEdges(mainMeshes, sim.pieceOffset, main),
+    // Acabamentos de todas as roupas, presos à malha (a cena os move com o tecido).
+    decals: garmentDecals(
+      wears.flatMap((w) => w.finishes),
+      meshes,
+      sim.pieceOffset,
+    ),
   });
 }
 

@@ -1,3 +1,4 @@
+import { finishExtras, finishShapes, mapFinishShape, type GarmentFinish } from "./finishes";
 import { pieceAtSize, type PatternDocument, type Piece, type Seam, type SeamEdge, type Segment } from "./pattern";
 import type { Point } from "./polygon";
 
@@ -12,7 +13,11 @@ const clean = (v: number) => v + 0;
 /** De onde veio cada segmento da peça aberta: o segmento original e se é a cópia espelhada. */
 export type SegmentOrigin = { segment: number; mirrored: boolean };
 
-export type UnfoldedPiece = { piece: Piece; origin: SegmentOrigin[] };
+/**
+ * `reflect`: o espelho usado na metade espelhada (dobra) ou na cópia (par),
+ * nas coordenadas da parte; ausente quando a parte não tem dobra.
+ */
+export type UnfoldedPiece = { piece: Piece; origin: SegmentOrigin[]; reflect?: (p: Point) => Point };
 
 /**
  * Abre a peça pela dobra. A peça devolvida não tem dobra; o contorno começa
@@ -103,7 +108,7 @@ export function unfoldPiece(piece: Piece): UnfoldedPiece {
     unfolded.grading = grading;
   }
 
-  return { piece: unfolded, origin };
+  return { piece: unfolded, origin, reflect };
 }
 
 /**
@@ -175,7 +180,7 @@ export function pairCopy(piece: Piece): UnfoldedPiece {
   }
   if (piece.grainline) copy.grainline = { from: reflect(piece.grainline.to), to: reflect(piece.grainline.from) };
   if (piece.placement?.leg) copy.placement = { ...piece.placement, leg: piece.placement.leg === "esquerda" ? "direita" : "esquerda" };
-  return { piece: copy, origin };
+  return { piece: copy, origin, reflect };
 }
 
 /**
@@ -203,9 +208,23 @@ export function garmentAtSize(doc: PatternDocument, size: string): Garment {
   const origins: Record<string, SegmentOrigin[]> = {};
   const source: Record<string, string> = {};
   const pieces: Piece[] = [];
+  const finishes: GarmentFinish[] = [];
   for (const p of doc.pieces) {
     const graded = pieceAtSize(p, size);
-    const { piece, origin } = unfoldPiece(graded);
+    const { piece: opened, origin, reflect } = unfoldPiece(graded);
+    // A peça da Prova não leva a lista de acabamentos (os índices de segmento mudaram).
+    const { finishes: _own, ...piece } = opened;
+    // Acabamentos: desenhados na parte (no tamanho); a peça aberta não os leva
+    // na lista (os índices de segmento mudaram), vão prontos em `finishes`.
+    const shapes = finishShapes(graded);
+    for (const shape of shapes) {
+      finishes.push({ piece: p.id, finishId: shape.id, shape, mirrored: false, ...finishExtras(graded, shape.id) });
+      // Pesponto e zíper seguem a borda nas duas metades; etiqueta e estampa ficam uma vez
+      // (o retângulo posto sobre a dobra já cobre as duas metades da peça aberta).
+      if (reflect && (shape.kind === "pesponto" || shape.kind === "ziper")) {
+        finishes.push({ piece: p.id, finishId: shape.id, shape: mapFinishShape(shape, reflect, true), mirrored: true });
+      }
+    }
     origins[p.id] = origin;
     source[p.id] = p.id;
     const map = new Map<number, { plain?: number; mirror?: number }>();
@@ -222,7 +241,18 @@ export function garmentAtSize(doc: PatternDocument, size: string): Garment {
       origins[pair.piece.id] = pair.origin;
       source[pair.piece.id] = p.id;
       pairWhere.set(p.id, new Map(pair.origin.map((o, i) => [o.segment, i])));
-      pieces.push(pair.piece);
+      const { finishes: _pairOwn, ...pairPiece } = pair.piece;
+      // O par leva tudo, espelhado (é a outra peça cortada).
+      for (const shape of shapes) {
+        finishes.push({
+          piece: pairPiece.id,
+          finishId: shape.id,
+          shape: mapFinishShape(shape, pair.reflect!, true),
+          mirrored: true,
+          ...finishExtras(graded, shape.id),
+        });
+      }
+      pieces.push(pairPiece);
     }
   }
 
@@ -284,7 +314,7 @@ export function garmentAtSize(doc: PatternDocument, size: string): Garment {
       b: { piece: seam.b.piece, segment: cross ? b.plain : b.mirror },
     });
   }
-  return { pieces, seams, origin: origins, source };
+  return { pieces, seams, origin: origins, source, finishes };
 }
 
 export type Garment = {
@@ -293,6 +323,8 @@ export type Garment = {
   origin: Record<string, SegmentOrigin[]>;
   /** Parte do molde de onde veio cada peça da Prova (a cópia do par tem id próprio). */
   source: Record<string, string>;
+  /** Acabamentos nas coordenadas de cada peça da Prova (as peças devolvidas não têm `finishes`). */
+  finishes: GarmentFinish[];
 };
 
 /** O segmento do molde de onde veio o segmento `segment` da peça da Prova `pieceId`. */
