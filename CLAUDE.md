@@ -6,6 +6,17 @@ Software web para confecções: modelagem 2D, prova virtual 3D, encaixe e gestã
 - Monorepo **npm workspaces + Turborepo**, Node 24 (`.nvmrc`).
 - `apps/web`: Next.js 16 (App Router, Turbopack, `cacheComponents`), React 19, Tailwind 4. Deploy na Vercel.
 - `packages/geometry`: geometria dos moldes, TypeScript puro, testes com Vitest.
+  - `pattern.ts`: **formato do documento do molde** (`PatternDocument`, schema 1), validação, gradação (`pieceAtSize`, `stepGrading`) e contorno. Mudar o formato exige subir `schema` e escrever a migração do documento.
+  - `seam-allowance.ts`: margem de costura por aresta (canto em ponta, chanfro em canto agudo).
+  - `grading.ts`: gradação (passo por ponto, valor por tamanho, `setSizes`, `setBaseSize`, `applyGrade`). **Trocar o base nunca muda um tamanho** (teste de propriedade em `grading.test.ts`); edita-se o desenho só no tamanho base.
+  - `edit.ts`: operações de edição do molde (criar parte, mover ponto/alça/parte, inserir e apagar ponto, reta↔curva, margens). Puras: devolvem documento novo, nunca alteram o original.
+  - `bezier.ts`, `polygon.ts`: curvas e polígonos. `fixtures.ts` só para testes.
+- `packages/export`: exportação, carregada sob demanda no navegador (`@alinhavo/export/dxf`, `@alinhavo/export/pdf`).
+  - `dxf.ts`: DXF-AAMA (R12 ASCII). Camadas fixas 1 corte, 2 quinas, 3 curva, 7 fio, 14 costura; uma BLOCK por peça×tamanho. **O Y é invertido** (DXF cresce para cima): sem isso a peça sai espelhada. Testes leem o arquivo com `dxf-parser` (leitor independente).
+  - `pdf.ts`: PDF 1:1 em folhas A4 com folha de conferência (quadrado de 10 cm); pula folhas vazias. Espessuras e tracejados em mm (a escala do `drawSvgPath` vale para eles).
+- `apps/web/src/components/editor/`: editor 2D (SVG em mm). `canvas.tsx` desenha e trata o ponteiro por **delegação** (`data-hit`, `data-piece`…); `pattern-editor.tsx` guarda o histórico e o painel. Lógica de molde nova vai para `packages/geometry`, não para o componente.
+- Interface mostra **cm com vírgula**; converta só por `src/lib/units.ts` (`formatCm`, `parseCmToMm`).
+- `/experimentar`: editor público sem salvar (demonstração e teste manual sem login).
 - `supabase/`: Supabase (Postgres 17 + RLS, Auth, Storage, Realtime, Edge Functions). Migrações em `supabase/migrations/`, testes de RLS em `supabase/tests-pglite/`.
 
 ## Banco

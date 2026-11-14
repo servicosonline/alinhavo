@@ -63,6 +63,30 @@ async function Org({ params }: { params: PageProps<"/painel/[orgId]">["params"] 
         {myRole && <p className={`mt-1 ${ui.muted}`}>Seu papel: {ROLE_LABEL[myRole] ?? myRole}</p>}
       </div>
 
+      <nav aria-label="Módulos" className="space-y-3">
+        <Link
+          href={`/painel/${orgId}/moldes`}
+          className="flex items-center justify-between rounded-lg border border-tinta/15 bg-white/70 px-5 py-4 transition hover:bg-papel-escuro"
+        >
+          <span>
+            <span className="font-display text-xl font-semibold">Moldes</span>
+            <span className={`block ${ui.muted}`}>Modelagem, gradação e margem de costura</span>
+          </span>
+          <span aria-hidden>→</span>
+        </Link>
+  
+        <Link
+          href={`/painel/${orgId}/medidas`}
+          className="flex items-center justify-between rounded-lg border border-tinta/15 bg-white/70 px-5 py-4 transition hover:bg-papel-escuro"
+        >
+          <span>
+            <span className="font-display text-xl font-semibold">Tabelas de medidas</span>
+            <span className={`block ${ui.muted}`}>Tamanhos e medidas por público ou cliente</span>
+          </span>
+          <span aria-hidden>→</span>
+        </Link>
+      </nav>
+
       <section aria-labelledby="equipe" className="space-y-4">
         <h2 id="equipe" className={ui.h2}>
           Equipe

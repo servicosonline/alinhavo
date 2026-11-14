@@ -54,6 +54,16 @@ Rascunho para orientar a Fase 0. Toda tabela de negócio tem `org_id`, `created_
 
 O documento do molde guarda: partes, pontos, curvas, piques, fio, regras de gradação por ponto, costuras (pares de arestas), margem por aresta.
 
+**Implementado** (sem `product_id` por enquanto: produtos chegam na Fase 3) em `supabase/migrations/20261114000000_medidas_e_moldes.sql`:
+
+- Tabelas `clients`, `size_charts`, `sizes`, `measurements`, `patterns`, `pattern_versions`.
+- Leitura para qualquer membro; escrita para owner, admin e modelista (`private.can_edit_patterns`); apagar molde só owner e admin.
+- **Vínculos com `org_id`**: as chaves estrangeiras entre essas tabelas são compostas `(id, org_id)`. Nem quem participa de duas organizações consegue ligar o tamanho de uma à tabela da outra.
+- **Um tamanho base por tabela** (índice único parcial); troque com `set_base_size(size_id)`.
+- **Versões imutáveis**: só nascem por `save_pattern_version(molde, documento, origem, versão_esperada, mensagem)`, que numera 1, 2, 3… e recusa salvar se outra pessoa salvou antes (`versão_esperada` desatualizada). Nem o dono do banco altera uma versão (trigger).
+- O documento precisa ter `schema` 1, `unit` "mm", `sizes` e `pieces`, e menos de 2 MB. A validação completa (`validatePattern`) roda no app antes de salvar.
+- Medidas em mm, positivas e com nome em minúsculas, únicas por tamanho.
+
 ## Tecido e prova
 
 | Tabela | Campos principais |

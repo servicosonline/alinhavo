@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { polygonArea, polygonPerimeter, signedArea } from "./index";
+import { polygonArea, polygonPerimeter, signedArea } from "./polygon";
 
 const square100 = [
   { x: 0, y: 0 },

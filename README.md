@@ -43,15 +43,16 @@ Antes de entregar qualquer mudança: `npm run check` (lint, tipos, testes e buil
 
 ## Estrutura do repositório
 
-Já existem `apps/web`, `packages/geometry` e `.github/workflows`. O resto é criado nas fases seguintes.
+Já existem `apps/web`, `packages/geometry`, `packages/export`, `supabase` e `.github/workflows`. O resto é criado nas fases seguintes.
 
 ```
 alinhavo/
 ├─ apps/
 │  └─ web/                 Next.js (Vercel)
 ├─ packages/
-│  ├─ geometry/            moldes: curvas, gradação, margem de costura, DXF-AAMA
+│  ├─ geometry/            moldes: curvas, gradação, margem de costura, edição
 │  ├─ cloth/               simulação de tecido XPBD + mapa de pressão
+│  ├─ export/              DXF-AAMA e PDF em escala real
 │  ├─ nesting/             encaixe (no-fit polygon + busca genética)
 │  ├─ scan/                digitalização por foto (OpenCV.js)
 │  └─ ui/                  componentes compartilhados

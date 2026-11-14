@@ -1,0 +1,23 @@
+{
+  "name": "@alinhavo/export",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./dxf": "./src/dxf.ts",
+    "./pdf": "./src/pdf.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@alinhavo/geometry": "*",
+    "pdf-lib": "^1.17.1"
+  },
+  "devDependencies": {
+    "dxf-parser": "^1.1.2",
+    "typescript": "^5",
+    "vitest": "^4.1.12"
+  }
+}

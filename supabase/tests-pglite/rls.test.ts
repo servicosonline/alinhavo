@@ -1,6 +1,7 @@
 import type { PGlite } from "@electric-sql/pglite";
 import { afterAll, beforeAll, describe, expect, it } from "vitest";
 import { as, createDb, createUser, type User } from "./db";
+import * as h from "./helpers";
 
 let db: PGlite;
 
@@ -12,33 +13,11 @@ afterAll(async () => {
   await db?.close();
 });
 
-type Org = { id: string; name: string };
-type Invite = { id: string; token: string };
-
-async function novaOrg(owner: User, name = "Confecção Teste"): Promise<Org> {
-  return as(db, owner, async (q) => {
-    const { rows } = await q.query<Org>("select id, name from public.create_org($1)", [name]);
-    return rows[0]!;
-  });
-}
-
-async function convidar(by: User, orgId: string, email: string, role = "modelista"): Promise<Invite> {
-  return as(db, by, async (q) => {
-    const { rows } = await q.query<Invite>(
-      "insert into public.invites (org_id, email, role) values ($1, $2, $3) returning id, token",
-      [orgId, email, role],
-    );
-    return rows[0]!;
-  });
-}
-
-async function aceitar(user: User, token: string) {
-  return as(db, user, (q) => q.query("select * from public.accept_invite($1)", [token]));
-}
-
-async function contar(user: User | null, sql: string, params: unknown[] = []): Promise<number> {
-  return as(db, user, async (q) => (await q.query(sql, params)).rows.length);
-}
+type Invite = h.Invite;
+const novaOrg = (owner: User, name?: string) => h.novaOrg(db, owner, name);
+const convidar = (by: User, orgId: string, email: string, role?: string) => h.convidar(db, by, orgId, email, role);
+const aceitar = (user: User, token: string) => h.aceitar(db, user, token);
+const contar = (user: User | null, sql: string, params?: unknown[]) => h.contar(db, user, sql, params);
 
 describe("isolamento entre organizações", () => {
   it("cada usuário só vê a própria organização e a própria equipe", async () => {
