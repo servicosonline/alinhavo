@@ -1,5 +1,6 @@
 import type { CubicSegment, PatternDocument, Piece, Segment } from "./pattern";
 import type { Point } from "./polygon";
+import { dropPieceSeams, remapSeams } from "./seams";
 
 /**
  * Operações de edição do molde. Todas são puras: recebem o documento e devolvem
@@ -11,7 +12,7 @@ const lerp = (a: Point, b: Point, t: number): Point => ({ x: a.x + (b.x - a.x) *
 const round = (v: number) => Math.round(v * 10) / 10; // décimo de mm
 
 export function emptyDocument(sizes: string[] = ["P", "M", "G"], baseSize = "M"): PatternDocument {
-  return { schema: 1, unit: "mm", sizes: [...sizes], baseSize, pieces: [] };
+  return { schema: 2, unit: "mm", sizes: [...sizes], baseSize, pieces: [], seams: [] };
 }
 
 function updatePiece(doc: PatternDocument, pieceId: string, fn: (p: Piece) => Piece | null): PatternDocument {
@@ -69,9 +70,10 @@ export function addRectPiece(doc: PatternDocument, spec: NewPiece): { doc: Patte
   return { doc: { ...doc, pieces: [...doc.pieces, piece] }, pieceId: id };
 }
 
+/** Apaga a parte e as costuras que a tocam. */
 export function removePiece(doc: PatternDocument, pieceId: string): PatternDocument {
   const pieces = doc.pieces.filter((p) => p.id !== pieceId);
-  return pieces.length === doc.pieces.length ? doc : { ...doc, pieces };
+  return pieces.length === doc.pieces.length ? doc : dropPieceSeams({ ...doc, pieces }, pieceId);
 }
 
 export function renamePiece(doc: PatternDocument, pieceId: string, name: string): PatternDocument {
@@ -197,6 +199,8 @@ function edgesAfterMerge(byEdge: Record<number, number> | undefined, index: numb
  * Insere um ponto no segmento i, na posição t (0 a 1), dividindo-o em dois.
  * Curvas são divididas sem mudar o desenho. As duas metades herdam a margem
  * do segmento original, e a gradação do ponto novo é a interpolação das pontas.
+ * Uma costura nesse segmento é desfeita (cada metade tem outro comprimento);
+ * as demais costuras da parte acompanham a nova numeração.
  */
 export function splitSegment(
   doc: PatternDocument,
@@ -256,15 +260,20 @@ export function splitSegment(
     if (grading) piece.grading = grading;
     return piece;
   });
-  return { doc: next, pointId: next === doc ? null : created };
+  if (next === doc) return { doc, pointId: null };
+  const withSeams = remapSeams(next, pieceId, (i) => (i < index ? i : i === index ? null : i + 1));
+  return { doc: withSeams, pointId: created };
 }
 
 /**
  * Apaga um ponto do contorno: os dois segmentos que o tocam viram uma reta só.
- * Recusa se a parte ficaria com menos de 3 pontos.
+ * Recusa se a parte ficaria com menos de 3 pontos. Costuras nesses dois
+ * segmentos são desfeitas; as demais acompanham a nova numeração.
  */
 export function removePoint(doc: PatternDocument, pieceId: string, pointId: string): PatternDocument {
-  return updatePiece(doc, pieceId, (p) => {
+  // `as`: atribuída dentro do callback, então o TS não pode estreitar para null aqui.
+  let segmentMap = null as ((i: number) => number | null) | null;
+  const next = updatePiece(doc, pieceId, (p) => {
     const n = p.outline.length;
     if (!(pointId in p.points) || n <= 3) return null;
     const inIdx = p.outline.findIndex((s) => s.to === pointId); // segmento que chega no ponto
@@ -289,9 +298,11 @@ export function removePoint(doc: PatternDocument, pieceId: string, pointId: stri
       // o último e o primeiro segmento viraram a reta de fechamento (índice n - 2)
       const first = own[0];
       if (first !== undefined && own[n - 1] === first) byEdge[n - 2] = first;
+      segmentMap = (i) => (i === 0 || i === n - 1 ? null : i - 1);
     } else {
       outline = [...p.outline.slice(0, inIdx), merged, ...p.outline.slice(outIdx + 1)];
       byEdge = edgesAfterMerge(p.seamAllowanceByEdge, inIdx);
+      segmentMap = (i) => (i < inIdx ? i : i === inIdx || i === outIdx ? null : i - 1);
     }
 
     const points = { ...p.points };
@@ -306,6 +317,7 @@ export function removePoint(doc: PatternDocument, pieceId: string, pointId: stri
     }
     return piece;
   });
+  return next === doc || !segmentMap ? next : remapSeams(next, pieceId, segmentMap);
 }
 
 /** Move a parte inteira (pontos, alças e fio) pelo deslocamento `d`. */

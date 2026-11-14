@@ -1,6 +1,6 @@
 "use server";
 
-import { validatePattern, type PatternDocument } from "@alinhavo/geometry";
+import { migratePattern, validatePattern, type PatternDocument } from "@alinhavo/geometry";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import type { SaveResult } from "@/components/editor/pattern-editor";
@@ -47,13 +47,15 @@ export async function savePatternVersion(
   const user = await getCurrentUser();
   if (!user) return { ok: false, error: "Sua sessão expirou. Entre de novo para salvar." };
 
-  const erros = isPatternShape(document) ? validatePattern(document) : ["Documento do molde inválido."];
-  if (erros.length > 0) return { ok: false, error: erros[0]! };
+  // Uma aba aberta antes da atualização ainda pode mandar o formato antigo: converte antes de validar.
+  const doc = migratePattern(document);
+  const erros = doc && isPatternShape(doc) ? validatePattern(doc) : ["Documento do molde inválido."];
+  if (!doc || erros.length > 0) return { ok: false, error: erros[0] ?? "Documento do molde inválido." };
 
   const supabase = await createClient();
   const { data, error } = await supabase.rpc("save_pattern_version", {
     p_pattern_id: patternId,
-    p_document: document as unknown as Json,
+    p_document: doc as unknown as Json,
     p_origin: "editor",
     p_expected_version: expectedVersion,
     p_message: message.trim().slice(0, 500) || null,
@@ -79,6 +81,13 @@ function isPatternShape(v: unknown): v is PatternDocument {
     Array.isArray(d.sizes) &&
     Array.isArray(d.pieces) &&
     typeof d.baseSize === "string" &&
+    Array.isArray(d.seams) &&
+    d.seams.every((s) => {
+      if (!s || typeof s !== "object") return false;
+      const q = s as Record<string, unknown>;
+      const edge = (e: unknown) => !!e && typeof e === "object" && typeof (e as Record<string, unknown>).piece === "string";
+      return typeof q.id === "string" && edge(q.a) && edge(q.b);
+    }) &&
     d.pieces.every((p) => {
       if (!p || typeof p !== "object") return false;
       const q = p as Record<string, unknown>;

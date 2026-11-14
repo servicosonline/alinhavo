@@ -1,4 +1,4 @@
-import { emptyDocument, validatePattern, type PatternDocument } from "@alinhavo/geometry";
+import { emptyDocument, migratePattern, validatePattern, type PatternDocument } from "@alinhavo/geometry";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
@@ -63,7 +63,8 @@ async function Molde({ params }: { params: Params }) {
       .eq("pattern_id", pattern.id)
       .eq("number", pattern.current_version)
       .maybeSingle();
-    const doc = version?.document as unknown as PatternDocument | undefined;
+    // Versões antigas (formato 1) são convertidas só na leitura; a gravada não muda.
+    const doc = migratePattern(version?.document);
     // Documento corrompido não abre no editor: melhor avisar do que salvar por cima.
     if (!doc || validatePattern(doc).length > 0) {
       return (

@@ -2,7 +2,13 @@ import { cubicLength, flattenCubic } from "./bezier";
 import { distance, type Point } from "./polygon";
 
 /**
- * Documento do molde (versão 1). É o que fica salvo em pattern_versions.document.
+ * Documento do molde (versão 2). É o que fica salvo em pattern_versions.document.
+ * Versões gravadas nunca são reescritas: documentos antigos passam por
+ * `migratePattern` na leitura.
+ *
+ * Histórico do formato:
+ * - 1: partes, pontos, curvas, gradação, margens e fio.
+ * - 2: + `seams` (costuras: pares de segmentos que se unem na Prova).
  *
  * - Coordenadas em mm, do tamanho base.
  * - Cada parte tem um contorno fechado: começa em `start` e cada segmento vai
@@ -30,13 +36,48 @@ export type Piece = {
   grainline?: { from: Point; to: Point };
 };
 
+/** Um lado de uma costura: o segmento `segment` do contorno da parte `piece`. */
+export type SeamEdge = { piece: string; segment: number };
+
+/**
+ * Costura: dois segmentos que se unem. `opposite` (o comum) junta o início de
+ * um com o fim do outro, como duas partes deitadas lado a lado; `same` junta
+ * início com início.
+ */
+export type Seam = { id: string; a: SeamEdge; b: SeamEdge; direction: "opposite" | "same" };
+
+export const CURRENT_SCHEMA = 2;
+
 export type PatternDocument = {
-  schema: 1;
+  schema: 2;
   unit: "mm";
   sizes: string[];
   baseSize: string;
   pieces: Piece[];
+  seams: Seam[];
 };
+
+/** Formato 1, só para leitura de versões antigas. */
+export type PatternDocumentV1 = Omit<PatternDocument, "schema" | "seams"> & { schema: 1 };
+
+/**
+ * Converte um documento salvo (de qualquer versão conhecida) para o formato
+ * atual, sem alterar o original. Devolve null se não for um documento de
+ * molde ou se a versão for desconhecida. Não valida o conteúdo: passe o
+ * resultado por `validatePattern`.
+ */
+export function migratePattern(raw: unknown): PatternDocument | null {
+  if (!raw || typeof raw !== "object") return null;
+  const d = raw as Record<string, unknown>;
+  if (d.schema === 1) {
+    const { schema: _schema, ...rest } = d as PatternDocumentV1;
+    return { ...rest, schema: 2, seams: [] };
+  }
+  if (d.schema === 2) {
+    return Array.isArray(d.seams) ? (d as PatternDocument) : null;
+  }
+  return null;
+}
 
 // ---------------------------------------------------------------------------
 // Validação
@@ -47,7 +88,7 @@ const finite = (p: Point | undefined) => !!p && Number.isFinite(p.x) && Number.i
 /** Lista os problemas do documento, em português. Lista vazia = documento válido. */
 export function validatePattern(doc: PatternDocument): string[] {
   const erros: string[] = [];
-  if (doc.schema !== 1) erros.push(`Versão de documento desconhecida: ${String(doc.schema)}.`);
+  if (doc.schema !== CURRENT_SCHEMA) erros.push(`Versão de documento desconhecida: ${String(doc.schema)}.`);
   if (doc.unit !== "mm") erros.push("A unidade do documento precisa ser mm.");
   if (doc.sizes.length === 0) erros.push("A grade precisa de pelo menos um tamanho.");
   if (new Set(doc.sizes).size !== doc.sizes.length) erros.push("A grade tem tamanhos repetidos.");
@@ -93,6 +134,44 @@ export function validatePattern(doc: PatternDocument): string[] {
       }
     }
   }
+  erros.push(...validateSeams(doc));
+  return erros;
+}
+
+function validateSeams(doc: PatternDocument): string[] {
+  if (!Array.isArray(doc.seams)) return ["A lista de costuras está faltando."];
+  const erros: string[] = [];
+  const byId = new Map(doc.pieces.map((p) => [p.id, p]));
+  const seamIds = new Set<string>();
+  const sewn = new Set<string>();
+  doc.seams.forEach((seam, n) => {
+    const nome = `Costura ${n + 1}`;
+    if (!seam || typeof seam !== "object") {
+      erros.push(`${nome}: formato inválido.`);
+      return;
+    }
+    if (seamIds.has(seam.id)) erros.push(`${nome}: id repetido (${seam.id}).`);
+    seamIds.add(seam.id);
+    if (seam.direction !== "opposite" && seam.direction !== "same") erros.push(`${nome}: sentido inválido.`);
+    const keys: string[] = [];
+    for (const edge of [seam.a, seam.b]) {
+      const piece = edge ? byId.get(edge.piece) : undefined;
+      if (!piece) {
+        erros.push(`${nome}: a parte ${edge?.piece ?? "?"} não existe.`);
+        continue;
+      }
+      if (!Number.isInteger(edge.segment) || edge.segment < 0 || edge.segment >= piece.outline.length) {
+        erros.push(`${nome}: ${piece.name || piece.id} não tem o segmento ${edge.segment + 1}.`);
+        continue;
+      }
+      keys.push(`${edge.piece}#${edge.segment}`);
+    }
+    if (keys.length === 2 && keys[0] === keys[1]) erros.push(`${nome}: um segmento não pode ser costurado nele mesmo.`);
+    for (const key of new Set(keys)) {
+      if (sewn.has(key)) erros.push(`${nome}: o segmento já está em outra costura.`);
+      sewn.add(key);
+    }
+  });
   return erros;
 }
 
