@@ -27,12 +27,23 @@ export function addSeam(
   direction: Seam["direction"] = "opposite",
 ): { doc: PatternDocument; seamId: string | null } {
   if (!edgeExists(doc, a) || !edgeExists(doc, b) || edgeKey(a) === edgeKey(b)) return { doc, seamId: null };
+  const isFold = (e: SeamEdge) => doc.pieces.find((p) => p.id === e.piece)?.fold === e.segment;
+  if (isFold(a) || isFold(b)) return { doc, seamId: null };
   if (seamAt(doc, a) || seamAt(doc, b)) return { doc, seamId: null };
   const used = new Set(doc.seams.map((s) => s.id));
   let n = 1;
   while (used.has(`costura${n}`)) n++;
   const seam: Seam = { id: `costura${n}`, a: { ...a }, b: { ...b }, direction };
   return { doc: { ...doc, seams: [...doc.seams, seam] }, seamId: seam.id };
+}
+
+/** Troca o sentido da costura (oposto ↔ mesmo). */
+export function flipSeam(doc: PatternDocument, seamId: string): PatternDocument {
+  if (!doc.seams.some((s) => s.id === seamId)) return doc;
+  return {
+    ...doc,
+    seams: doc.seams.map((s) => (s.id === seamId ? { ...s, direction: s.direction === "opposite" ? "same" : "opposite" } : s)),
+  };
 }
 
 export function removeSeam(doc: PatternDocument, seamId: string): PatternDocument {

@@ -2,8 +2,21 @@
 
 import {
   addRectPiece,
+  addSeam,
   applyGrade,
+  BODY_ANCHORS,
+  BODY_SIDES,
+  flipSeam,
   linearStep,
+  removeSeam,
+  seamAt,
+  seamLengths,
+  setFold,
+  setPlacement,
+  type BodyAnchor,
+  type BodySide,
+  type PiecePlacement,
+  type Seam,
   moveHandle,
   movePoint,
   removePiece,
@@ -63,6 +76,8 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
   const [message, setMessage] = useState("");
   const [viewSizeChoice, setViewSize] = useState<string | null>(null);
   const [showGrade, setShowGrade] = useState(false);
+  /** Segmento esperando o par para virar costura ("Costurar com…"). */
+  const [sewFrom, setSewFrom] = useState<{ pieceId: string; index: number } | null>(null);
   const dragStart = useRef<PatternDocument | null>(null);
   const viewSize = viewSizeChoice && doc.sizes.includes(viewSizeChoice) ? viewSizeChoice : doc.baseSize;
   const viewingBase = viewSize === doc.baseSize;
@@ -115,12 +130,40 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
         e.preventDefault();
         history.apply(removePoint(history.value, sel.pieceId, sel.pointId));
       } else if (e.key === "Escape") {
-        setSelection(null);
+        if (sewFrom) setSewFrom(null);
+        else setSelection(null);
       }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [history, sel, readOnly, viewingBase]);
+  }, [history, sel, readOnly, viewingBase, sewFrom]);
+
+  /**
+   * Seleção vinda do quadro. No modo "Costurar com…", o próximo segmento
+   * clicado vira o outro lado da costura; clicar em outra coisa cancela.
+   */
+  const onCanvasSelect = useCallback(
+    (s: Selection) => {
+      if (!sewFrom) {
+        setSelection(s);
+        return;
+      }
+      const from = sewFrom;
+      setSewFrom(null);
+      if (s?.kind !== "segment") {
+        setSelection(s);
+        return;
+      }
+      const { doc: next, seamId } = addSeam(history.value, { piece: from.pieceId, segment: from.index }, { piece: s.pieceId, segment: s.index });
+      if (seamId) {
+        apply(next);
+      } else {
+        setStatus({ tone: "error", text: "Esse segmento não pode ser costurado: é o mesmo, é dobra ou já está em outra costura." });
+      }
+      setSelection({ kind: "segment", pieceId: from.pieceId, index: from.index });
+    },
+    [sewFrom, history.value, apply],
+  );
 
   // ---- arrastar ----
   const onDragStart = useCallback(() => {
@@ -229,6 +272,17 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
           </label>
         </div>
       </div>
+      {sewFrom && (
+        <p className="flex flex-wrap items-center justify-between gap-2 rounded-md bg-costura/10 px-3 py-2 text-xs text-tinta" role="status">
+          <span>
+            Clique no segmento que será costurado com o segmento {sewFrom.index + 1} de{" "}
+            <strong>{doc.pieces.find((p) => p.id === sewFrom.pieceId)?.name}</strong>. Esc cancela.
+          </span>
+          <button type="button" className="underline" onClick={() => setSewFrom(null)}>
+            Cancelar
+          </button>
+        </p>
+      )}
       {!viewingBase && (
         <p className="rounded-md bg-papel-escuro px-3 py-2 text-xs text-tinta" role="status">
           Vendo o tamanho <strong>{viewSize}</strong>, só para consulta. Para editar pontos, volte ao base{" "}
@@ -248,7 +302,8 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
             selection={sel}
             readOnly={readOnly}
             fitKey={fitKey}
-            onSelect={setSelection}
+            sewing={sewFrom !== null}
+            onSelect={onCanvasSelect}
             onDragStart={onDragStart}
             onDragMove={onDragMove}
             onDragEnd={onDragEnd}
@@ -303,10 +358,12 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
 
               {sel.kind === "piece" && (
                 <PieceInspector
+                  doc={doc}
                   piece={piece}
                   readOnly={readOnly}
                   onRename={(n) => apply(renamePiece(doc, piece.id, n))}
                   onSeam={(mm) => apply(setSeamAllowance(doc, piece.id, mm))}
+                  onPlacement={(p) => apply(setPlacement(doc, piece.id, p))}
                   onSelectSegment={(i) => setSelection({ kind: "segment", pieceId: piece.id, index: i })}
                   onRemove={() => {
                     apply(removePiece(doc, piece.id));
@@ -338,9 +395,14 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
 
               {sel.kind === "segment" && (
                 <SegmentInspector
+                  doc={doc}
                   piece={piece}
                   index={sel.index}
                   readOnly={readOnly}
+                  onStartSew={() => setSewFrom({ pieceId: piece.id, index: sel.index })}
+                  onUnsew={(id) => apply(removeSeam(doc, id))}
+                  onFlip={(id) => apply(flipSeam(doc, id))}
+                  onFold={(on) => apply(setFold(doc, piece.id, on ? sel.index : null))}
                   onToggle={() => apply(toggleCurve(doc, piece.id, sel.index))}
                   onSplit={() => {
                     const { doc: next, pointId } = splitSegment(doc, piece.id, sel.index);
@@ -460,23 +522,36 @@ function PiecesPanel({
   );
 }
 
+/** Número da costura para mostrar (posição na lista, a partir de 1). */
+function seamNumber(doc: PatternDocument, seam: Seam): number {
+  return doc.seams.findIndex((s) => s.id === seam.id) + 1;
+}
+
+const SIDE_LABEL: Record<BodySide, string> = { frente: "Frente", costas: "Costas", esquerda: "Lado esquerdo", direita: "Lado direito" };
+const ANCHOR_LABEL: Record<BodyAnchor, string> = { ombro: "Ombro", busto: "Busto", cintura: "Cintura", quadril: "Quadril" };
+
 function PieceInspector({
+  doc,
   piece,
   readOnly,
   onRename,
   onSeam,
+  onPlacement,
   onSelectSegment,
   onRemove,
 }: {
+  doc: PatternDocument;
   piece: Piece;
   readOnly: boolean;
   onRename: (n: string) => void;
   onSeam: (mm: number) => void;
+  onPlacement: (p: PiecePlacement | null) => void;
   onSelectSegment: (i: number) => void;
   onRemove: () => void;
 }) {
   const lengths = segmentLengths(piece);
   const cut = seamAllowanceOutline(piece);
+  const placement = piece.placement;
   return (
     <div className="space-y-4">
       <TextField key={`nome-${piece.id}-${piece.name}`} label="Nome da parte" value={piece.name} disabled={readOnly} onCommit={onRename} />
@@ -489,20 +564,75 @@ function PieceInspector({
         disabled={readOnly}
         onCommit={(mm) => mm !== null && onSeam(mm)}
       />
+      <fieldset className="space-y-2 border-t border-tinta/10 pt-3">
+        <legend className="text-xs font-medium">Na Prova</legend>
+        <div className="grid grid-cols-2 gap-2">
+          <label className="block text-xs">
+            <span>Lado do corpo</span>
+            <select
+              className={`${ui.input} text-sm`}
+              value={placement?.side ?? ""}
+              disabled={readOnly}
+              onChange={(e) => {
+                const side = e.target.value as BodySide | "";
+                onPlacement(side ? { side, anchor: placement?.anchor ?? "cintura", offset: placement?.offset ?? 0 } : null);
+              }}
+            >
+              <option value="">Não vai para a Prova</option>
+              {BODY_SIDES.map((s) => (
+                <option key={s} value={s}>
+                  {SIDE_LABEL[s]}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label className="block text-xs">
+            <span>Borda de cima na altura do</span>
+            <select
+              className={`${ui.input} text-sm`}
+              value={placement?.anchor ?? "cintura"}
+              disabled={readOnly || !placement}
+              onChange={(e) => placement && onPlacement({ ...placement, anchor: e.target.value as BodyAnchor })}
+            >
+              {BODY_ANCHORS.map((a) => (
+                <option key={a} value={a}>
+                  {ANCHOR_LABEL[a]}
+                </option>
+              ))}
+            </select>
+          </label>
+        </div>
+        {placement && (
+          <CmField
+            key={`ajuste-${piece.id}-${placement.offset}`}
+            label="Ajuste de altura (sobe com positivo)"
+            valueMm={placement.offset}
+            min={-1000}
+            max={1000}
+            disabled={readOnly}
+            onCommit={(mm) => onPlacement({ ...placement, offset: mm ?? 0 })}
+          />
+        )}
+      </fieldset>
       <div>
         <h3 className="text-xs font-medium">Segmentos</h3>
         <ul className="mt-1 divide-y divide-tinta/10 text-sm">
-          {piece.outline.map((seg, i) => (
+          {piece.outline.map((seg, i) => {
+            const seam = seamAt(doc, { piece: piece.id, segment: i });
+            return (
             <li key={i}>
               <button type="button" className="flex w-full justify-between py-1.5 text-left hover:text-linha" onClick={() => onSelectSegment(i)}>
                 <span>
                   {i + 1}. {seg.kind === "cubic" ? "curva" : "reta"}
                   {piece.seamAllowanceByEdge?.[i] !== undefined && <span className="text-xs text-linha"> · margem própria</span>}
+                  {piece.fold === i && <span className="text-xs text-tinta-suave"> · dobra</span>}
+                  {seam && <span className="text-xs text-costura"> · costura {seamNumber(doc, seam)}</span>}
                 </span>
                 <span className="font-mono text-xs">{formatCm(lengths[i] ?? 0)} cm</span>
               </button>
             </li>
-          ))}
+            );
+          })}
         </ul>
         <p className="mt-2 text-xs text-tinta-suave">Contorno de corte com {cut.length} vértices.</p>
       </div>
@@ -549,28 +679,63 @@ function PointInspector({
 }
 
 function SegmentInspector({
+  doc,
   piece,
   index,
   readOnly,
   onToggle,
   onSplit,
   onSeam,
+  onStartSew,
+  onUnsew,
+  onFlip,
+  onFold,
 }: {
+  doc: PatternDocument;
   piece: Piece;
   index: number;
   readOnly: boolean;
   onToggle: () => void;
   onSplit: () => void;
   onSeam: (mm: number | null) => void;
+  onStartSew: () => void;
+  onUnsew: (seamId: string) => void;
+  onFlip: (seamId: string) => void;
+  onFold: (on: boolean) => void;
 }) {
   const seg = piece.outline[index]!;
   const len = segmentLengths(piece)[index] ?? 0;
   const own = piece.seamAllowanceByEdge?.[index] ?? null;
+  const isFold = piece.fold === index;
+  const seam = seamAt(doc, { piece: piece.id, segment: index });
   return (
     <div className="space-y-4">
       <p className="text-sm">
         Segmento {index + 1} de {piece.name}: <strong>{seg.kind === "cubic" ? "curva" : "reta"}</strong>, {formatCm(len)} cm
       </p>
+      {seam ? (
+        <SeamInfo doc={doc} seam={seam} pieceId={piece.id} index={index} readOnly={readOnly} onUnsew={onUnsew} onFlip={onFlip} />
+      ) : (
+        !readOnly && (
+          <div className="grid grid-cols-2 gap-2">
+            <button type="button" className={ui.buttonGhost} onClick={onStartSew} disabled={isFold} title={isFold ? "A dobra não é costurada" : undefined}>
+              Costurar com…
+            </button>
+            <button
+              type="button"
+              className={ui.buttonGhost}
+              onClick={() => onFold(!isFold)}
+              disabled={!isFold && seg.kind !== "line"}
+              title={!isFold && seg.kind !== "line" ? "A dobra precisa ser reta" : undefined}
+            >
+              {isFold ? "Desmarcar dobra" : "Marcar como dobra"}
+            </button>
+          </div>
+        )
+      )}
+      {isFold && (
+        <p className="text-xs text-tinta-suave">Dobra: a parte é cortada no tecido dobrado e, na Prova, vira inteira espelhada por este segmento.</p>
+      )}
       {!readOnly && (
         <div className="grid grid-cols-2 gap-2">
           <button type="button" className={ui.buttonGhost} onClick={onToggle}>
@@ -593,6 +758,58 @@ function SegmentInspector({
         onCommit={onSeam}
       />
       {seg.kind === "cubic" && !readOnly && <p className="text-xs text-tinta-suave">Arraste os quadradinhos vermelhos para ajustar a curva.</p>}
+    </div>
+  );
+}
+
+/** Com quem o segmento está costurado, a diferença de comprimento e o sentido. */
+function SeamInfo({
+  doc,
+  seam,
+  pieceId,
+  index,
+  readOnly,
+  onUnsew,
+  onFlip,
+}: {
+  doc: PatternDocument;
+  seam: Seam;
+  pieceId: string;
+  index: number;
+  readOnly: boolean;
+  onUnsew: (seamId: string) => void;
+  onFlip: (seamId: string) => void;
+}) {
+  const thisIsA = seam.a.piece === pieceId && seam.a.segment === index;
+  const other = thisIsA ? seam.b : seam.a;
+  const otherName = doc.pieces.find((p) => p.id === other.piece)?.name ?? other.piece;
+  const lengths = seamLengths(doc).get(seam.id);
+  const diff = lengths ? (thisIsA ? lengths.diff : -lengths.diff) : 0;
+  return (
+    <div className="space-y-2 rounded-md border border-costura/30 bg-costura/5 p-3 text-xs">
+      <p className="text-sm">
+        <strong className="text-costura">Costura {seamNumber(doc, seam)}</strong> com o segmento {other.segment + 1} de {otherName}.
+      </p>
+      <p>
+        {Math.abs(diff) < 0.5
+          ? "Os dois lados têm o mesmo comprimento."
+          : `Este lado tem ${formatCm(Math.abs(diff))} cm a ${diff > 0 ? "mais" : "menos"} que o outro.`}
+      </p>
+      <p className="text-tinta-suave">
+        {seam.direction === "opposite"
+          ? "Junta o começo deste segmento com o fim do outro."
+          : "Junta o começo deste segmento com o começo do outro."}
+      </p>
+      {!readOnly && (
+        <div className="grid grid-cols-2 gap-2">
+          <button type="button" className={ui.buttonGhost} onClick={() => onFlip(seam.id)}>
+            Inverter sentido
+          </button>
+          <button type="button" className={ui.buttonGhost} onClick={() => onUnsew(seam.id)}>
+            Desfazer costura
+          </button>
+        </div>
+      )}
     </div>
   );
 }

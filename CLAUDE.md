@@ -7,6 +7,7 @@ Software web para confecções: modelagem 2D, prova virtual 3D, encaixe e gestã
 - `apps/web`: Next.js 16 (App Router, Turbopack, `cacheComponents`), React 19, Tailwind 4. Deploy na Vercel.
 - `packages/geometry`: geometria dos moldes, TypeScript puro, testes com Vitest.
   - `pattern.ts`: **formato do documento do molde** (`PatternDocument`, schema 2), validação, gradação (`pieceAtSize`, `stepGrading`) e contorno. Mudar o formato exige subir `schema`, escrever a migração do documento em `migratePattern` e uma migração de banco para a trava de `pattern_versions.document`. **Todo documento lido do banco passa por `migratePattern`** (versões antigas não são reescritas).
+  - Schema 3: por parte, `fold` (segmento reto da dobra, nunca costurado) e `placement` (lado do corpo, altura de referência e ajuste em mm). `unfold.ts`: `unfoldPiece` abre a peça pela dobra (cópias com id "~"); `garmentAtSize` dá a roupa da Prova num tamanho (partes graduadas e abertas, costuras duplicadas para o espelho).
   - `seams.ts`: costuras (`seams`: pares de segmentos, sentido `opposite`/`same`). Referenciam o segmento pelo índice: operação que renumera segmentos (em `edit.ts`) chama `remapSeams`; dividir ou juntar o segmento costurado desfaz a costura.
   - `seam-allowance.ts`: margem de costura por aresta (canto em ponta, chanfro em canto agudo).
   - `grading.ts`: gradação (passo por ponto, valor por tamanho, `setSizes`, `setBaseSize`, `applyGrade`). **Trocar o base nunca muda um tamanho** (teste de propriedade em `grading.test.ts`); edita-se o desenho só no tamanho base.

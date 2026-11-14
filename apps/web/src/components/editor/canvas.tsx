@@ -1,6 +1,7 @@
 "use client";
 
 import {
+  cubicPoint,
   pieceAtSize,
   seamAllowanceOutline,
   segmentLengths,
@@ -38,6 +39,8 @@ type Props = {
   readOnly: boolean;
   /** Mude o número para enquadrar todas as partes na tela. */
   fitKey: number;
+  /** Esperando o clique no segmento que completa uma costura. */
+  sewing?: boolean;
   onSelect: (s: Selection) => void;
   onDragStart: (t: DragTarget) => void;
   /** `delta` em mm desde o início do arrasto. */
@@ -52,6 +55,7 @@ export function PatternCanvas({
   selection,
   readOnly: readOnlyProp,
   fitKey,
+  sewing = false,
   onSelect,
   onDragStart,
   onDragMove,
@@ -222,7 +226,8 @@ export function PatternCanvas({
         ref={svgRef}
         role="img"
         aria-label="Área de desenho do molde"
-        className="block h-full w-full touch-none select-none"
+        className={`block h-full w-full touch-none select-none ${sewing ? "cursor-crosshair" : ""}`}
+        data-sewing={sewing ? "" : undefined}
         viewBox={`${vb.x} ${vb.y} ${vb.w} ${vb.h}`}
         onPointerDown={onPointerDown}
         onPointerMove={onPointerMove}
@@ -263,6 +268,37 @@ export function PatternCanvas({
                 data-hit="piece"
                 data-piece={piece.id}
               />
+              {/* Dobra: traço-ponto, a convenção do molde para "cortar na dobra" */}
+              {piece.fold !== undefined && piece.outline[piece.fold] && (
+                <g className="pointer-events-none" data-fold={piece.fold}>
+                  <path
+                    d={segmentPath(piece, piece.fold)}
+                    fill="none"
+                    stroke="var(--tinta)"
+                    strokeWidth={2.5}
+                    strokeDasharray="14 4 2 4"
+                    vectorEffect="non-scaling-stroke"
+                  />
+                  <FoldLabel piece={piece} index={piece.fold} px={px} />
+                </g>
+              )}
+              {/* Costuras: segmento em azul com o número da costura */}
+              {doc.seams.flatMap((seam, n) =>
+                [seam.a, seam.b]
+                  .filter((e) => e.piece === piece.id && piece.outline[e.segment])
+                  .map((e) => {
+                    const mid = segmentMid(piece, e.segment);
+                    return (
+                      <g key={`${seam.id}:${e.segment}`} className="pointer-events-none" data-seam={n + 1}>
+                        <path d={segmentPath(piece, e.segment)} fill="none" stroke="var(--costura)" strokeWidth={3} vectorEffect="non-scaling-stroke" />
+                        <circle cx={mid.x} cy={mid.y} r={px(9)} fill="var(--costura)" />
+                        <text x={mid.x} y={mid.y + px(3.5)} textAnchor="middle" fontSize={px(10)} fill="white">
+                          {n + 1}
+                        </text>
+                      </g>
+                    );
+                  }),
+              )}
               {/* Faixa larga e invisível em cada segmento, para clicar com folga */}
               {piece.outline.map((_, i) => (
                 <path
@@ -386,6 +422,28 @@ function SelectionOverlay({
       </g>
     </g>
   );
+}
+
+/** Etiqueta "dobra" do lado de fora da parte, para não cobrir o nome dela. */
+function FoldLabel({ piece, index, px }: { piece: PatternDocument["pieces"][number]; index: number; px: (n: number) => number }) {
+  const mid = segmentMid(piece, index);
+  const c = centroid(piece.points);
+  const len = Math.hypot(mid.x - c.x, mid.y - c.y) || 1;
+  const out = { x: (mid.x - c.x) / len, y: (mid.y - c.y) / len };
+  const anchor = out.x < -0.3 ? "end" : out.x > 0.3 ? "start" : "middle";
+  return (
+    <text x={mid.x + out.x * px(8)} y={mid.y + out.y * px(8) + px(4)} textAnchor={anchor} fontSize={px(11)} fill="var(--tinta-suave)">
+      dobra
+    </text>
+  );
+}
+
+/** Ponto do meio do segmento (para etiquetas). */
+function segmentMid(piece: PatternDocument["pieces"][number], index: number): Point {
+  const seg = piece.outline[index]!;
+  const a = piece.points[segmentStart(piece, index)]!;
+  const b = piece.points[seg.to]!;
+  return seg.kind === "cubic" ? cubicPoint({ p0: a, c1: seg.c1, c2: seg.c2, p3: b }, 0.5) : { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 };
 }
 
 type Hit = DragTarget | { kind: "segment"; pieceId: string; index: number };

@@ -13,7 +13,7 @@ afterAll(async () => {
   await db?.close();
 });
 
-const DOC = { schema: 2, unit: "mm", sizes: ["P", "M", "G"], baseSize: "M", pieces: [], seams: [] };
+const DOC = { schema: 3, unit: "mm", sizes: ["P", "M", "G"], baseSize: "M", pieces: [], seams: [] };
 
 type Equipe = { orgId: string; dono: User; modelista: User; estilista: User; leitura: User; fora: User };
 
@@ -210,28 +210,32 @@ describe("moldes e versões", () => {
     const e = await equipe();
     const molde = await novoMolde(e.modelista, e.orgId);
     await expect(salvar(e.modelista, molde.id, 0, { ...DOC, unit: "cm" })).rejects.toThrow(/check/);
-    await expect(salvar(e.modelista, molde.id, 0, { ...DOC, schema: 3 })).rejects.toThrow(/check/);
-    await expect(salvar(e.modelista, molde.id, 0, { schema: 2, unit: "mm" })).rejects.toThrow(/check/);
-    // Formato 2 exige a lista de costuras.
+    await expect(salvar(e.modelista, molde.id, 0, { ...DOC, schema: 4 })).rejects.toThrow(/check/);
+    await expect(salvar(e.modelista, molde.id, 0, { schema: 3, unit: "mm" })).rejects.toThrow(/check/);
+    // Formatos 2 e 3 exigem a lista de costuras.
     const { seams: _seams, ...semCosturas } = DOC;
     await expect(salvar(e.modelista, molde.id, 0, semCosturas)).rejects.toThrow(/check/);
+    await expect(salvar(e.modelista, molde.id, 0, { ...semCosturas, schema: 2 })).rejects.toThrow(/check/);
     await expect(salvar(e.modelista, molde.id, 0, { ...DOC, seams: {} })).rejects.toThrow(/check/);
   });
 
-  it("aceita os formatos 1 (versões antigas) e 2 (com costuras)", async () => {
+  it("aceita os formatos 1 e 2 (versões antigas) e 3 (com dobra e posição na Prova)", async () => {
     const e = await equipe();
     const molde = await novoMolde(e.modelista, e.orgId);
     const { seams: _seams, ...v1 } = { ...DOC, schema: 1 };
     await salvar(e.modelista, molde.id, 0, v1);
     const costura = { id: "costura1", a: { piece: "a", segment: 0 }, b: { piece: "b", segment: 0 }, direction: "opposite" };
-    await salvar(e.modelista, molde.id, 1, { ...DOC, seams: [costura] });
-    const ultima = await um<{ document: { schema: number; seams: unknown[] } }>(
+    await salvar(e.modelista, molde.id, 1, { ...DOC, schema: 2, seams: [costura] });
+    const parte = { id: "a", fold: 3, placement: { side: "frente", anchor: "cintura", offset: 0 } };
+    await salvar(e.modelista, molde.id, 2, { ...DOC, pieces: [parte], seams: [costura] });
+    const ultima = await um<{ document: { schema: number; seams: unknown[]; pieces: unknown[] } }>(
       e.modelista,
-      "select document from public.pattern_versions where pattern_id = $1 and number = 2",
+      "select document from public.pattern_versions where pattern_id = $1 and number = 3",
       [molde.id],
     );
-    expect(ultima.document.schema).toBe(2);
+    expect(ultima.document.schema).toBe(3);
     expect(ultima.document.seams).toEqual([costura]);
+    expect(ultima.document.pieces).toEqual([parte]);
   });
 
   it("versões não mudam nem somem, nem para o dono", async () => {

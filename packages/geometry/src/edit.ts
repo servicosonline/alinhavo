@@ -1,4 +1,4 @@
-import type { CubicSegment, PatternDocument, Piece, Segment } from "./pattern";
+import type { CubicSegment, PatternDocument, Piece, PiecePlacement, Segment } from "./pattern";
 import type { Point } from "./polygon";
 import { dropPieceSeams, remapSeams } from "./seams";
 
@@ -12,7 +12,7 @@ const lerp = (a: Point, b: Point, t: number): Point => ({ x: a.x + (b.x - a.x) *
 const round = (v: number) => Math.round(v * 10) / 10; // décimo de mm
 
 export function emptyDocument(sizes: string[] = ["P", "M", "G"], baseSize = "M"): PatternDocument {
-  return { schema: 2, unit: "mm", sizes: [...sizes], baseSize, pieces: [], seams: [] };
+  return { schema: 3, unit: "mm", sizes: [...sizes], baseSize, pieces: [], seams: [] };
 }
 
 function updatePiece(doc: PatternDocument, pieceId: string, fn: (p: Piece) => Piece | null): PatternDocument {
@@ -158,8 +158,57 @@ export function toggleCurve(doc: PatternDocument, pieceId: string, index: number
       const r = (q: Point) => ({ x: round(q.x), y: round(q.y) });
       outline[index] = { kind: "cubic", c1: r(lerp(a, b, 1 / 3)), c2: r(lerp(a, b, 2 / 3)), to: seg.to };
     }
-    return { ...p, outline };
+    const next: Piece = { ...p, outline };
+    if (p.fold === index) delete next.fold; // dobra só em reta
+    return next;
   });
+}
+
+// ---------------------------------------------------------------------------
+// Dobra e posição na Prova
+// ---------------------------------------------------------------------------
+
+/**
+ * Marca (ou desmarca, com null) o segmento da dobra. Recusa segmento que não
+ * existe, curvo ou costurado (a dobra não é borda do tecido).
+ */
+export function setFold(doc: PatternDocument, pieceId: string, index: number | null): PatternDocument {
+  if (index !== null && doc.seams.some((s) => [s.a, s.b].some((e) => e.piece === pieceId && e.segment === index))) return doc;
+  return updatePiece(doc, pieceId, (p) => {
+    if (index === null) {
+      if (p.fold === undefined) return null;
+      const next = { ...p };
+      delete next.fold;
+      return next;
+    }
+    if (p.outline[index]?.kind !== "line" || p.fold === index) return null;
+    return { ...p, fold: index };
+  });
+}
+
+/** Posição da parte na Prova; null tira. */
+export function setPlacement(doc: PatternDocument, pieceId: string, placement: PiecePlacement | null): PatternDocument {
+  return updatePiece(doc, pieceId, (p) => {
+    if (placement === null) {
+      if (!p.placement) return null;
+      const next = { ...p };
+      delete next.placement;
+      return next;
+    }
+    if (!Number.isFinite(placement.offset) || Math.abs(placement.offset) > 1000) return null;
+    return { ...p, placement: { ...placement, offset: round(placement.offset) } };
+  });
+}
+
+/** Índice da dobra depois de uma renumeração (null some com ela). */
+function remapFold(p: Piece, map: (i: number) => number | null): Piece {
+  if (p.fold === undefined) return p;
+  const to = map(p.fold);
+  if (to === p.fold) return p;
+  const next = { ...p };
+  if (to === null) delete next.fold;
+  else next.fold = to;
+  return next;
 }
 
 /** Margens por segmento depois de dividir o segmento `index` em dois: as duas metades herdam a margem. */
@@ -261,8 +310,9 @@ export function splitSegment(
     return piece;
   });
   if (next === doc) return { doc, pointId: null };
-  const withSeams = remapSeams(next, pieceId, (i) => (i < index ? i : i === index ? null : i + 1));
-  return { doc: withSeams, pointId: created };
+  const map = (i: number) => (i < index ? i : i === index ? null : i + 1);
+  const withFold = updatePiece(next, pieceId, (p) => remapFold(p, map));
+  return { doc: remapSeams(withFold, pieceId, map), pointId: created };
 }
 
 /**
@@ -317,7 +367,13 @@ export function removePoint(doc: PatternDocument, pieceId: string, pointId: stri
     }
     return piece;
   });
-  return next === doc || !segmentMap ? next : remapSeams(next, pieceId, segmentMap);
+  if (next === doc || !segmentMap) return next;
+  const map = segmentMap;
+  return remapSeams(
+    updatePiece(next, pieceId, (p) => remapFold(p, map)),
+    pieceId,
+    map,
+  );
 }
 
 /** Move a parte inteira (pontos, alças e fio) pelo deslocamento `d`. */

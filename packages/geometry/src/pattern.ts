@@ -2,13 +2,14 @@ import { cubicLength, flattenCubic } from "./bezier";
 import { distance, type Point } from "./polygon";
 
 /**
- * Documento do molde (versão 2). É o que fica salvo em pattern_versions.document.
+ * Documento do molde (versão 3). É o que fica salvo em pattern_versions.document.
  * Versões gravadas nunca são reescritas: documentos antigos passam por
  * `migratePattern` na leitura.
  *
  * Histórico do formato:
  * - 1: partes, pontos, curvas, gradação, margens e fio.
  * - 2: + `seams` (costuras: pares de segmentos que se unem na Prova).
+ * - 3: + por parte, `fold` (segmento da dobra) e `placement` (posição na Prova).
  *
  * - Coordenadas em mm, do tamanho base.
  * - Cada parte tem um contorno fechado: começa em `start` e cada segmento vai
@@ -34,7 +35,27 @@ export type Piece = {
   /** Margem por segmento do contorno (índice → mm). Sobrepõe a padrão. */
   seamAllowanceByEdge?: Record<number, number>;
   grainline?: { from: Point; to: Point };
+  /**
+   * Segmento da dobra (precisa ser reta): a parte é cortada no tecido
+   * dobrado e, aberta, vira inteira espelhada por ele (`unfoldPiece`).
+   */
+  fold?: number;
+  /** Onde a parte fica no corpo na Prova. */
+  placement?: PiecePlacement;
 };
+
+export type BodySide = "frente" | "costas" | "esquerda" | "direita";
+export type BodyAnchor = "ombro" | "busto" | "cintura" | "quadril";
+
+/**
+ * Posição inicial da parte na Prova: o lado do corpo para onde ela olha e a
+ * altura de referência onde fica a borda de cima (o menor Y do molde).
+ * `offset` sobe (positivo) ou desce (negativo) a peça a partir dessa altura, em mm.
+ */
+export type PiecePlacement = { side: BodySide; anchor: BodyAnchor; offset: number };
+
+export const BODY_SIDES: readonly BodySide[] = ["frente", "costas", "esquerda", "direita"];
+export const BODY_ANCHORS: readonly BodyAnchor[] = ["ombro", "busto", "cintura", "quadril"];
 
 /** Um lado de uma costura: o segmento `segment` do contorno da parte `piece`. */
 export type SeamEdge = { piece: string; segment: number };
@@ -46,10 +67,10 @@ export type SeamEdge = { piece: string; segment: number };
  */
 export type Seam = { id: string; a: SeamEdge; b: SeamEdge; direction: "opposite" | "same" };
 
-export const CURRENT_SCHEMA = 2;
+export const CURRENT_SCHEMA = 3;
 
 export type PatternDocument = {
-  schema: 2;
+  schema: 3;
   unit: "mm";
   sizes: string[];
   baseSize: string;
@@ -59,6 +80,8 @@ export type PatternDocument = {
 
 /** Formato 1, só para leitura de versões antigas. */
 export type PatternDocumentV1 = Omit<PatternDocument, "schema" | "seams"> & { schema: 1 };
+/** Formato 2: sem dobra nem posição na Prova (campos opcionais, então as partes passam iguais). */
+export type PatternDocumentV2 = Omit<PatternDocument, "schema"> & { schema: 2 };
 
 /**
  * Converte um documento salvo (de qualquer versão conhecida) para o formato
@@ -69,11 +92,17 @@ export type PatternDocumentV1 = Omit<PatternDocument, "schema" | "seams"> & { sc
 export function migratePattern(raw: unknown): PatternDocument | null {
   if (!raw || typeof raw !== "object") return null;
   const d = raw as Record<string, unknown>;
+  // Cada versão sobe um degrau até a atual.
   if (d.schema === 1) {
     const { schema: _schema, ...rest } = d as PatternDocumentV1;
-    return { ...rest, schema: 2, seams: [] };
+    return migratePattern({ ...rest, schema: 2, seams: [] } satisfies PatternDocumentV2);
   }
   if (d.schema === 2) {
+    if (!Array.isArray(d.seams)) return null;
+    // 2 → 3: dobra e posição são opcionais; nada a converter além do número.
+    return { ...(d as PatternDocumentV2), schema: 3 };
+  }
+  if (d.schema === 3) {
     return Array.isArray(d.seams) ? (d as PatternDocument) : null;
   }
   return null;
@@ -126,6 +155,18 @@ export function validatePattern(doc: PatternDocument): string[] {
       }
     }
 
+    if (piece.fold !== undefined) {
+      const seg = piece.outline[piece.fold];
+      if (!Number.isInteger(piece.fold) || !seg) erros.push(`${nome}: a dobra está num segmento que não existe.`);
+      else if (seg.kind !== "line") erros.push(`${nome}: a dobra precisa ser um segmento reto.`);
+    }
+    if (piece.placement !== undefined) {
+      const { side, anchor, offset } = piece.placement;
+      if (!BODY_SIDES.includes(side) || !BODY_ANCHORS.includes(anchor) || !Number.isFinite(offset) || Math.abs(offset) > 1000) {
+        erros.push(`${nome}: posição na Prova inválida.`);
+      }
+    }
+
     for (const [pointId, porTamanho] of Object.entries(piece.grading ?? {})) {
       if (!(pointId in piece.points)) erros.push(`${nome}: gradação para um ponto que não existe (${pointId}).`);
       for (const [size, delta] of Object.entries(porTamanho)) {
@@ -170,6 +211,11 @@ function validateSeams(doc: PatternDocument): string[] {
     for (const key of new Set(keys)) {
       if (sewn.has(key)) erros.push(`${nome}: o segmento já está em outra costura.`);
       sewn.add(key);
+    }
+    for (const edge of [seam.a, seam.b]) {
+      if (edge && byId.get(edge.piece)?.fold === edge.segment) {
+        erros.push(`${nome}: a dobra não pode ser costurada (ela não é borda do tecido).`);
+      }
     }
   });
   return erros;

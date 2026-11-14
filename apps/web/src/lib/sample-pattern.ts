@@ -24,8 +24,10 @@ export function samplePattern(): PatternDocument {
       ],
       grading: { B: g(10, 0), C: g(12, 15), D: g(0, 15) },
       seamAllowance: 10,
-      seamAllowanceByEdge: { 2: 30 },
+      seamAllowanceByEdge: { 2: 30, 3: 0 }, // barra 3 cm; a dobra não tem margem
       grainline: { from: { x: 80, y: 120 }, to: { x: 80, y: 480 } },
+      fold: 3, // centro da frente: cortada na dobra
+      placement: { side: "frente", anchor: "cintura", offset: 0 },
     },
     {
       id: "costas",
@@ -45,8 +47,12 @@ export function samplePattern(): PatternDocument {
       ],
       grading: { B: g(10, 0), C: g(12, 15), D: g(0, 15) },
       seamAllowance: 10,
-      seamAllowanceByEdge: { 2: 30 },
+      seamAllowanceByEdge: { 2: 30, 3: 0 },
+      fold: 3, // centro das costas
+      placement: { side: "costas", anchor: "cintura", offset: 0 },
     },
   ];
+  // Laterais costuradas, as duas de cima para baixo: começo com começo.
+  doc.seams = [{ id: "costura1", a: { piece: "frente", segment: 1 }, b: { piece: "costas", segment: 1 }, direction: "same" }];
   return doc;
 }

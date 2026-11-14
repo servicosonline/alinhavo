@@ -7,6 +7,7 @@
   --tinta: #1d1b18;
   --tinta-suave: #5c564c;
   --linha: #c2412d;
+  --costura: #25639f;
 }
 
 @theme inline {
@@ -15,6 +16,7 @@
   --color-tinta: var(--tinta);
   --color-tinta-suave: var(--tinta-suave);
   --color-linha: var(--linha);
+  --color-costura: var(--costura);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-display: var(--font-fraunces);

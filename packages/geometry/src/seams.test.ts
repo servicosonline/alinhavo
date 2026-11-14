@@ -15,16 +15,23 @@ function saiaCosturada(): PatternDocument {
 }
 
 describe("migratePattern", () => {
-  it("documento do formato 1 ganha a lista de costuras vazia, sem mudar o original", () => {
+  it("documento do formato 1 sobe até o atual com a lista de costuras vazia, sem mudar o original", () => {
     const v1 = { schema: 1, unit: "mm", sizes: ["P", "M", "G"], baseSize: "M", pieces: [saiaReta()] };
     const snapshot = JSON.stringify(v1);
     const doc = migratePattern(v1);
-    expect(doc).toEqual({ ...v1, schema: 2, seams: [] });
+    expect(doc).toEqual({ ...v1, schema: 3, seams: [] });
     expect(validatePattern(doc!)).toEqual([]);
     expect(JSON.stringify(v1)).toBe(snapshot);
   });
 
-  it("documento do formato 2 passa como está", () => {
+  it("documento do formato 2 sobe para o 3 sem perder as costuras", () => {
+    const v2 = { ...saiaCosturada(), schema: 2 };
+    const doc = migratePattern(v2);
+    expect(doc).toEqual({ ...v2, schema: 3 });
+    expect(validatePattern(doc!)).toEqual([]);
+  });
+
+  it("documento do formato atual passa como está", () => {
     const doc = saiaCosturada();
     expect(migratePattern(doc)).toBe(doc);
   });
@@ -32,7 +39,8 @@ describe("migratePattern", () => {
   it("recusa o que não é documento de molde ou tem versão desconhecida", () => {
     expect(migratePattern(null)).toBeNull();
     expect(migratePattern("molde")).toBeNull();
-    expect(migratePattern({ ...documento(), schema: 3 })).toBeNull();
+    expect(migratePattern({ ...documento(), schema: 4 })).toBeNull();
+    expect(migratePattern({ ...documento(), schema: 2, seams: undefined })).toBeNull();
     expect(migratePattern({ ...documento(), seams: undefined })).toBeNull();
   });
 });
