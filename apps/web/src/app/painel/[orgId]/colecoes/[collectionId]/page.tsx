@@ -144,7 +144,8 @@ async function Colecao({ params }: { params: Params }) {
                   )}
                   {canEdit && (
                     <div className="flex flex-wrap gap-3">
-                      <form action={setProductStatus} className="flex items-center gap-2 text-sm">
+                      {/* A chave recria o formulário quando o valor salvo muda (o select guarda o valor antigo). */}
+                      <form key={`status-${p.status}`} action={setProductStatus} className="flex items-center gap-2 text-sm">
                         <input type="hidden" name="orgId" value={orgId} />
                         <input type="hidden" name="back" value={back} />
                         <input type="hidden" name="productId" value={p.id} />
@@ -162,7 +163,7 @@ async function Colecao({ params }: { params: Params }) {
                           Mudar status
                         </SubmitButton>
                       </form>
-                      <form action={linkProductPattern} className="flex items-center gap-2 text-sm">
+                      <form key={`molde-${p.pattern_id ?? ""}`} action={linkProductPattern} className="flex items-center gap-2 text-sm">
                         <input type="hidden" name="orgId" value={orgId} />
                         <input type="hidden" name="back" value={back} />
                         <input type="hidden" name="productId" value={p.id} />

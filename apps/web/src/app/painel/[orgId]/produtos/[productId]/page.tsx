@@ -92,7 +92,7 @@ async function Produto({ params }: { params: Params }) {
 
       <section className={`${ui.card} space-y-4`} aria-label="Status e molde">
         {canEdit && (
-          <form action={setProductStatus} className="flex flex-wrap items-end gap-2">
+          <form key={`status-${p.status}`} action={setProductStatus} className="flex flex-wrap items-end gap-2">
             <input type="hidden" name="orgId" value={orgId} />
             <input type="hidden" name="back" value={back} />
             <input type="hidden" name="productId" value={p.id} />
@@ -126,7 +126,7 @@ async function Produto({ params }: { params: Params }) {
             )}
           </p>
           {canEdit && (
-            <form action={linkProductPattern} className="flex flex-wrap items-end gap-2">
+            <form key={`molde-${p.pattern_id ?? ""}`} action={linkProductPattern} className="flex flex-wrap items-end gap-2">
               <input type="hidden" name="orgId" value={orgId} />
               <input type="hidden" name="back" value={back} />
               <input type="hidden" name="productId" value={p.id} />
