@@ -1,6 +1,6 @@
 "use client";
 
-import { useActionState, useEffect, useRef, useState, startTransition } from "react";
+import { useActionState, useEffect, useRef, useState, useSyncExternalStore, startTransition } from "react";
 import { ui } from "@/components/ui";
 import { mergeComment, MAX_COMMENT, removeComment, whenLabel, type CommentView } from "@/lib/comments";
 import { getBrowserClient } from "@/lib/supabase/client";
@@ -18,6 +18,14 @@ type Props = {
   initial: CommentView[];
 };
 
+function subscribeClock(onChange: () => void) {
+  const t = setInterval(onChange, 30_000);
+  return () => clearInterval(t);
+}
+const clockSnapshot = () => Math.floor(Date.now() / 30_000) * 30_000;
+const absoluteTime = (iso: string) =>
+  new Date(iso).toLocaleString("pt-BR", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit", timeZone: "America/Sao_Paulo" });
+
 /**
  * Comentários do produto, em tempo real: quem está com a página aberta vê
  * o comentário novo na hora (Supabase Realtime; só chegam as linhas que a
@@ -29,7 +37,8 @@ export function Comments({ orgId, productId, me, moderator, names, initial }: Pr
   const live = !getSupabaseConfig() || status === "caiu" ? "sem tempo real" : status;
   const [state, action, pending] = useActionState<CommentResult, FormData>(addComment.bind(null, orgId, productId), undefined);
   const formRef = useRef<HTMLFormElement>(null);
-  const [now, setNow] = useState(() => Date.now());
+  // Relógio só no navegador (de 30 em 30 s): no servidor não há "agora" igual ao do cliente.
+  const now = useSyncExternalStore(subscribeClock, clockSnapshot, () => null);
 
   // O que eu mesmo enviei entra na hora, sem esperar o tempo real (ajuste durante a renderização).
   const [merged, setMerged] = useState<string | null>(null);
@@ -41,16 +50,18 @@ export function Comments({ orgId, productId, me, moderator, names, initial }: Pr
     if (state?.comment) formRef.current?.reset();
   }, [state]);
 
-  // "há 5 min" se atualiza sozinho.
-  useEffect(() => {
-    const t = setInterval(() => setNow(Date.now()), 30_000);
-    return () => clearInterval(t);
-  }, []);
 
   useEffect(() => {
     const supabase = getBrowserClient();
     if (!supabase) return;
-    const channel = supabase
+    let cancelled = false;
+    let channel: ReturnType<typeof supabase.channel> | null = null;
+    // Assinar só depois de a sessão carregar (vem dos cookies, sem esperar): antes
+    // disso o Realtime avaliaria a assinatura como visitante, que não lê a tabela.
+    // O supabase-js entrega o token ao Realtime sozinho (accessToken).
+    void supabase.auth.getSession().then(() => {
+      if (cancelled) return;
+      channel = supabase
       .channel(`comentarios:${productId}`)
       .on("postgres_changes", { event: "INSERT", schema: "public", table: "comments", filter: `product_id=eq.${productId}` }, (payload) => {
         const row = payload.new as CommentView;
@@ -60,9 +71,18 @@ export function Comments({ orgId, productId, me, moderator, names, initial }: Pr
         const id = (payload.old as { id?: string }).id;
         if (id) setList((l) => removeComment(l, id));
       })
+      .on("system", {}, (p: { status?: string; message?: string }) => {
+        // O servidor recusa a assinatura com uma mensagem de sistema (e o canal segue "SUBSCRIBED").
+        if (p.status === "error") {
+          console.warn("[comentarios] tempo real recusado:", p.message);
+          setStatus("caiu");
+        }
+      })
       .subscribe((s) => setStatus(s === "SUBSCRIBED" ? "ao vivo" : s === "CLOSED" || s === "CHANNEL_ERROR" || s === "TIMED_OUT" ? "caiu" : "conectando"));
+    });
     return () => {
-      void supabase.removeChannel(channel);
+      cancelled = true;
+      if (channel) void supabase.removeChannel(channel);
     };
   }, [productId]);
 
@@ -88,7 +108,7 @@ export function Comments({ orgId, productId, me, moderator, names, initial }: Pr
                 <div className="flex items-baseline justify-between gap-2 text-xs text-tinta-suave">
                   <span>
                     <strong className="text-tinta">{c.author ? (names[c.author] ?? "Ex-membro") : "Ex-membro"}</strong>
-                    {mine && " (você)"} · {whenLabel(c.created_at, now)}
+                    {mine && " (você)"} · {now === null ? absoluteTime(c.created_at) : whenLabel(c.created_at, now)}
                   </span>
                   {(mine || moderator) && (
                     <button
