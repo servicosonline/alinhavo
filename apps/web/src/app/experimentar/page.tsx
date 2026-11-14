@@ -4,7 +4,7 @@ import { EditorDemo } from "./editor-demo";
 
 export const metadata: Metadata = {
   title: "Experimente o editor de moldes · Alinhavo",
-  description: "Edite uma saia-base no navegador: pontos, curvas e margem de costura. Nada é salvo.",
+  description: "Edite uma saia, uma calça ou um conjunto calça + top no navegador e prove em 3D. Nada é salvo.",
 };
 
 export default function ExperimentarPage() {

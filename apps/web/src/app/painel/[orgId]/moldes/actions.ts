@@ -6,6 +6,7 @@ import { redirect } from "next/navigation";
 import type { SaveResult } from "@/components/editor/pattern-editor";
 import type { FormState } from "@/components/ui";
 import { getCurrentUser } from "@/lib/auth";
+import { EXAMPLES, exampleDocument, isExampleId } from "@/lib/examples";
 import { isUuid } from "@/lib/ids";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import type { Json } from "@/lib/supabase/database.types";
@@ -19,12 +20,27 @@ export async function createPattern(orgId: string, _prev: FormState, formData: F
 
   const name = String(formData.get("name") ?? "").trim();
   if (name.length < 1 || name.length > 120) return { error: "Dê um nome ao molde (até 120 caracteres)." };
+  const start = formData.get("start");
+  if (start !== null && start !== "" && start !== "vazio" && !isExampleId(start)) return { error: "Escolha como começar o molde." };
 
   const supabase = await createClient();
   const { data, error } = await supabase.from("patterns").insert({ org_id: orgId, name }).select("id").single();
   if (error || !data) {
     if (error?.code === "42501") return { error: "Só donos, admins e modelistas criam moldes." };
     return { error: "Não foi possível criar o molde." };
+  }
+  // Começar de um exemplo: o exemplo vira a versão 1 (o molde vazio não tem versão).
+  if (isExampleId(start)) {
+    const example = EXAMPLES.find((e) => e.id === start)!;
+    const { error: saveError } = await supabase.rpc("save_pattern_version", {
+      p_pattern_id: data.id,
+      p_document: exampleDocument(start) as unknown as Json,
+      p_origin: "editor",
+      p_expected_version: 0,
+      p_message: `Começou do exemplo: ${example.name}`,
+    });
+    // O molde já existe: se o exemplo não entrou, ele abre vazio e o editor avisa como de costume.
+    if (saveError) console.error(`[moldes] Exemplo não gravado: code=${saveError.code ?? "?"}`);
   }
   redirect(`/painel/${orgId}/moldes/${data.id}`);
 }

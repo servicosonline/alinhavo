@@ -59,6 +59,15 @@ describe("DXF-AAMA", () => {
     expect(peca).toEqual(["Piece Name: Frente", "Size: G", "Quantity: 1"]);
   });
 
+  it("peça de cortar par sai com quantidade 2", () => {
+    const doc = saia();
+    doc.pieces = doc.pieces.map((p, i) => (i === 0 ? { ...p, fold: undefined, cutPair: true as const } : p));
+    const par = ler(exportDxfAama(doc, { styleName: "Calça", date: FIXED }));
+    const nome = doc.pieces[0]!.name;
+    const textos = par.blocks[`${nome}_M`]!.entities!.filter((e) => e.type === "TEXT").map((e) => e.text);
+    expect(textos).toContain("Quantity: 2");
+  });
+
   it("linha de corte na camada 1 e de costura na 14, fechadas e em mm", () => {
     const ents = parsed.blocks.Frente_M!.entities!;
     const corte = ents.find((e) => e.type === "POLYLINE" && e.layer === "1")!;

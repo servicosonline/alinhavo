@@ -210,16 +210,17 @@ describe("moldes e versões", () => {
     const e = await equipe();
     const molde = await novoMolde(e.modelista, e.orgId);
     await expect(salvar(e.modelista, molde.id, 0, { ...DOC, unit: "cm" })).rejects.toThrow(/check/);
-    await expect(salvar(e.modelista, molde.id, 0, { ...DOC, schema: 4 })).rejects.toThrow(/check/);
+    await expect(salvar(e.modelista, molde.id, 0, { ...DOC, schema: 5 })).rejects.toThrow(/check/);
     await expect(salvar(e.modelista, molde.id, 0, { schema: 3, unit: "mm" })).rejects.toThrow(/check/);
-    // Formatos 2 e 3 exigem a lista de costuras.
+    // Formatos 2, 3 e 4 exigem a lista de costuras.
     const { seams: _seams, ...semCosturas } = DOC;
     await expect(salvar(e.modelista, molde.id, 0, semCosturas)).rejects.toThrow(/check/);
     await expect(salvar(e.modelista, molde.id, 0, { ...semCosturas, schema: 2 })).rejects.toThrow(/check/);
+    await expect(salvar(e.modelista, molde.id, 0, { ...semCosturas, schema: 4 })).rejects.toThrow(/check/);
     await expect(salvar(e.modelista, molde.id, 0, { ...DOC, seams: {} })).rejects.toThrow(/check/);
   });
 
-  it("aceita os formatos 1 e 2 (versões antigas) e 3 (com dobra e posição na Prova)", async () => {
+  it("aceita os formatos 1, 2 e 3 (versões antigas) e 4 (com cortar par e perna)", async () => {
     const e = await equipe();
     const molde = await novoMolde(e.modelista, e.orgId);
     const { seams: _seams, ...v1 } = { ...DOC, schema: 1 };
@@ -236,6 +237,16 @@ describe("moldes e versões", () => {
     expect(ultima.document.schema).toBe(3);
     expect(ultima.document.seams).toEqual([costura]);
     expect(ultima.document.pieces).toEqual([parte]);
+    const calca = { id: "a", cutPair: true, placement: { side: "frente", anchor: "cintura", offset: 0, leg: "esquerda" } };
+    const gancho = { id: "costura2", a: { piece: "a", segment: 3 }, b: { piece: "a", segment: 3 }, direction: "same" };
+    await salvar(e.modelista, molde.id, 3, { ...DOC, schema: 4, pieces: [calca], seams: [gancho] });
+    const quarta = await um<{ document: { schema: number; pieces: unknown[] } }>(
+      e.modelista,
+      "select document from public.pattern_versions where pattern_id = $1 and number = 4",
+      [molde.id],
+    );
+    expect(quarta.document.schema).toBe(4);
+    expect(quarta.document.pieces).toEqual([calca]);
   });
 
   it("versões não mudam nem somem, nem para o dono", async () => {

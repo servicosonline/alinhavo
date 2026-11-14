@@ -111,6 +111,7 @@ export function buildMannequin(table: Record<string, number>, pose: BodyPose = "
   const shoulderPoints = { left: { x: 0, y: 0, z: 0 }, right: { x: 0, y: 0, z: 0 } };
   const ankles: Vec3[] = [];
   const legLimbs: Limb[] = [];
+  const legAxes: { a: Vec3; r: number }[][] = [];
   ([1, -1] as const).forEach((side, k) => {
     // Braço: ombro → cotovelo → punho → mão.
     const arm = armPoses[k]!;
@@ -136,6 +137,11 @@ export function buildMannequin(table: Record<string, number>, pose: BodyPose = "
     const ankle = add(knee, scale(dShin, shinLen));
     legLimbs.push({ a: hipJoint, b: knee, r1: rThigh, r2: rKnee });
     legLimbs.push({ a: knee, b: ankle, r1: rKnee, r2: rAnkle });
+    legAxes.push([
+      { a: hipJoint, r: rThigh },
+      { a: knee, r: rKnee },
+      { a: ankle, r: rAnkle },
+    ]);
     ankles.push(ankle);
   });
   // Pé preso ao tornozelo, apoiado no chão quando o tornozelo está na altura de pé.
@@ -334,6 +340,10 @@ export function buildMannequin(table: Record<string, number>, pose: BodyPose = "
       shoulder: shifted(shoulder),
       neck: shifted(byName(neckBaseY)),
       shoulderPoints: { left: down(shoulderPoints.left), right: down(shoulderPoints.right) },
+      legs: {
+        left: legAxes[0]!.map((p) => ({ ...down(p.a), r: p.r })),
+        right: legAxes[1]!.map((p) => ({ ...down(p.a), r: p.r })),
+      },
     },
   };
   return { body, torsoSdf };

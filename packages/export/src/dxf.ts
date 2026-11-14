@@ -187,7 +187,8 @@ export function exportDxfAama(doc: PatternDocument, options: DxfOptions): string
       // Textos da peça, perto do centro.
       const b = bounds(sew.points.map(flipY));
       const at = { x: b.minX + (b.maxX - b.minX) * 0.15, y: (b.minY + b.maxY) / 2 };
-      [`Piece Name: ${piece.name}`, `Size: ${size}`, "Quantity: 1"].forEach((t, i) =>
+      // Cortar par: duas peças (a segunda espelhada), como no papel.
+      [`Piece Name: ${piece.name}`, `Size: ${size}`, `Quantity: ${piece.cutPair ? 2 : 1}`].forEach((t, i) =>
         text(w, "1", { x: at.x, y: at.y - i * TEXT_HEIGHT * 1.6 }, t),
       );
 

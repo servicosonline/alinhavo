@@ -29,7 +29,15 @@ export type BodyLandmarks = {
   neck: TorsoSection;
   /** Ponta dos ombros (esquerda +X, direita −X). */
   shoulderPoints: { left: Vec; right: Vec };
+  /**
+   * Eixo de cada perna, de cima para baixo (articulação do quadril, joelho,
+   * tornozelo), com o raio nesse ponto: é onde a calça se enrola abaixo do gancho.
+   */
+  legs: { left: LegSample[]; right: LegSample[] };
 };
+
+/** Um ponto do eixo da perna e o raio dela ali, em mm. */
+export type LegSample = Vec & { r: number };
 
 type Vec = { x: number; y: number; z: number };
 

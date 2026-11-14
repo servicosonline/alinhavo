@@ -12,7 +12,7 @@ const lerp = (a: Point, b: Point, t: number): Point => ({ x: a.x + (b.x - a.x) *
 const round = (v: number) => Math.round(v * 10) / 10; // décimo de mm
 
 export function emptyDocument(sizes: string[] = ["P", "M", "G"], baseSize = "M"): PatternDocument {
-  return { schema: 3, unit: "mm", sizes: [...sizes], baseSize, pieces: [], seams: [] };
+  return { schema: 4, unit: "mm", sizes: [...sizes], baseSize, pieces: [], seams: [] };
 }
 
 function updatePiece(doc: PatternDocument, pieceId: string, fn: (p: Piece) => Piece | null): PatternDocument {
@@ -181,9 +181,27 @@ export function setFold(doc: PatternDocument, pieceId: string, index: number | n
       delete next.fold;
       return next;
     }
-    if (p.outline[index]?.kind !== "line" || p.fold === index) return null;
+    if (p.outline[index]?.kind !== "line" || p.fold === index || p.cutPair) return null;
     return { ...p, fold: index };
   });
+}
+
+/**
+ * Liga ou desliga "cortar par" (a segunda peça é o espelho). Recusa parte
+ * com dobra. Desligar desfaz as costuras do segmento com o próprio par.
+ */
+export function setCutPair(doc: PatternDocument, pieceId: string, on: boolean): PatternDocument {
+  const piece = doc.pieces.find((p) => p.id === pieceId);
+  if (!piece || !!piece.cutPair === on || (on && piece.fold !== undefined)) return doc;
+  const next = updatePiece(doc, pieceId, (p) => {
+    if (on) return { ...p, cutPair: true };
+    const q = { ...p };
+    delete q.cutPair;
+    return q;
+  });
+  if (on) return next;
+  const seams = next.seams.filter((s) => !(s.a.piece === pieceId && s.b.piece === pieceId && s.a.segment === s.b.segment));
+  return seams.length === next.seams.length ? next : { ...next, seams };
 }
 
 /** Posição da parte na Prova; null tira. */

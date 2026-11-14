@@ -284,7 +284,8 @@ export function PatternCanvas({
               )}
               {/* Costuras: segmento em azul com o número da costura */}
               {doc.seams.flatMap((seam, n) =>
-                [seam.a, seam.b]
+                // Costura com o próprio par (a igual a b): o segmento aparece uma vez só.
+                (seam.a.piece === seam.b.piece && seam.a.segment === seam.b.segment ? [seam.a] : [seam.a, seam.b])
                   .filter((e) => e.piece === piece.id && piece.outline[e.segment])
                   .map((e) => {
                     const mid = segmentMid(piece, e.segment);

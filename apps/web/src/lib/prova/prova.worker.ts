@@ -6,6 +6,7 @@ import {
   FABRICS,
   floorCollider,
   meshPiece,
+  pieceHalf,
   placeGarment,
   summarizeMaps,
   vertexClearance,
@@ -17,6 +18,7 @@ import {
   MAPS_EVERY,
   PROVA_ITERATIONS,
   PROVA_MESH_SPACING,
+  PROVA_SEWING_TIME,
   type FromWorker,
   type ProvaMaps,
   type ProvaSetup,
@@ -64,12 +66,12 @@ function build(setup: ProvaSetup) {
 
   const meshes = placed.map((p) => meshPiece(p, { spacing: PROVA_MESH_SPACING }));
   const initial = placeGarment(
-    meshes.map((mesh, i) => ({ mesh, placement: placed[i]!.placement! })),
+    meshes.map((mesh, i) => ({ mesh, placement: placed[i]!.placement!, half: pieceHalf(placed[i]!) })),
     body.landmarks,
   );
   const sim = createSimulation(
     meshes.map((mesh, i) => ({ mesh, initial: initial[i] })),
-    { fabric, seams, colliders: [body.collider, floorCollider(0)], iterations: PROVA_ITERATIONS },
+    { fabric, seams, colliders: [body.collider, floorCollider(0)], iterations: PROVA_ITERATIONS, sewingTime: PROVA_SEWING_TIME },
   );
 
   // Área de cada triângulo no molde, na ordem da simulação (para o resumo).
@@ -86,7 +88,7 @@ function build(setup: ProvaSetup) {
     skipped,
     estimated: body.fit.reading.estimated,
     fabricLimit: fabric.maxStretch,
-    edges: buildProvaEdges(meshes, sim.pieceOffset, garment.origin),
+    edges: buildProvaEdges(meshes, sim.pieceOffset, garment),
   });
 }
 

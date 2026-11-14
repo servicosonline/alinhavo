@@ -66,3 +66,5 @@ export type FromWorker = ReadyMessage | FrameMessage | { type: "error"; message:
 /** Parâmetros da simulação da Prova (ver testes de place.test.ts no cloth). */
 export const PROVA_MESH_SPACING = 30;
 export const PROVA_ITERATIONS = 2;
+/** Fase de costura (s): a gravidade só entra com as costuras fechadas (ver garments.test.ts no cloth). */
+export const PROVA_SEWING_TIME = 2;

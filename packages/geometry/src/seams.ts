@@ -19,21 +19,27 @@ export function seamAt(doc: PatternDocument, edge: SeamEdge): Seam | undefined {
   return doc.seams.find((s) => edgeKey(s.a) === key || edgeKey(s.b) === key);
 }
 
-/** Costura dois segmentos. Recusa segmento inexistente, repetido ou já costurado. */
+/**
+ * Costura dois segmentos. Recusa segmento inexistente, já costurado ou
+ * dobra. O mesmo segmento dos dois lados só vale em parte de cortar par:
+ * costura com o par espelhado (gancho), por padrão começo com começo.
+ */
 export function addSeam(
   doc: PatternDocument,
   a: SeamEdge,
   b: SeamEdge,
-  direction: Seam["direction"] = "opposite",
+  direction?: Seam["direction"],
 ): { doc: PatternDocument; seamId: string | null } {
-  if (!edgeExists(doc, a) || !edgeExists(doc, b) || edgeKey(a) === edgeKey(b)) return { doc, seamId: null };
+  if (!edgeExists(doc, a) || !edgeExists(doc, b)) return { doc, seamId: null };
+  const self = edgeKey(a) === edgeKey(b);
+  if (self && doc.pieces.find((p) => p.id === a.piece)?.cutPair !== true) return { doc, seamId: null };
   const isFold = (e: SeamEdge) => doc.pieces.find((p) => p.id === e.piece)?.fold === e.segment;
   if (isFold(a) || isFold(b)) return { doc, seamId: null };
   if (seamAt(doc, a) || seamAt(doc, b)) return { doc, seamId: null };
   const used = new Set(doc.seams.map((s) => s.id));
   let n = 1;
   while (used.has(`costura${n}`)) n++;
-  const seam: Seam = { id: `costura${n}`, a: { ...a }, b: { ...b }, direction };
+  const seam: Seam = { id: `costura${n}`, a: { ...a }, b: { ...b }, direction: direction ?? (self ? "same" : "opposite") };
   return { doc: { ...doc, seams: [...doc.seams, seam] }, seamId: seam.id };
 }
 
@@ -112,7 +118,8 @@ export function continuationSegments(doc: PatternDocument, edge: SeamEdge): Seam
     for (const { segment, atEnd } of ends) {
       const neighbor = { piece: cur.piece, segment };
       const seam = seamAt(doc, neighbor);
-      if (!seam) continue;
+      // Costura com o próprio par (gancho): do outro lado está o mesmo segmento do molde.
+      if (!seam || edgeKey(seam.a) === edgeKey(seam.b)) continue;
       const mine = edgeKey(seam.a) === edgeKey(neighbor);
       const other = mine ? seam.b : seam.a;
       // A ponta do vizinho que toca o segmento casa com qual ponta do outro lado?

@@ -47,6 +47,12 @@ export type SimulationOptions = {
   iterations?: number;
   /** Velocidade com que as costuras se fecham, em mm/s. Padrão: 300. */
   seamClosingSpeed?: number;
+  /**
+   * Fase de costura, em s (padrão 0 = sem): a gravidade só entra quando as
+   * costuras fecham (vão abaixo de 1 mm) ou quando esse tempo acaba. Sem ela,
+   * uma roupa presa nos ombros (top de alças) cai antes de a alça se fechar.
+   */
+  sewingTime?: number;
 };
 
 export type Simulation = {
@@ -67,6 +73,8 @@ export type Simulation = {
   triangleStretch(): Float64Array;
   /** Maior distância, em mm, entre dois pontos que uma costura deveria unir. */
   seamGap(): number;
+  /** Se a gravidade já entrou (fase de costura terminada). */
+  readonly sewn: boolean;
 };
 
 const MIN_DT = 1e-6;
@@ -185,6 +193,8 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
   }
 
   let time = 0;
+  const sewingTime = Math.max(0, options.sewingTime ?? 0);
+  let sewn = sewingTime === 0;
 
   // --- Restrições -----------------------------------------------------------
   function solveDistance(i: number, j: number, rest: number, alphaTilde: number) {
@@ -295,12 +305,13 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
 
   function substep(h: number) {
     const h2 = h * h;
+    const gh = sewn ? h : 0; // sem gravidade durante a fase de costura
     for (let i = 0; i < n; i++) {
       if (invMass[i] === 0) continue;
       const g = i * 3;
-      v[g] = v[g]! + gravity.x * h;
-      v[g + 1] = v[g + 1]! + gravity.y * h;
-      v[g + 2] = v[g + 2]! + gravity.z * h;
+      v[g] = v[g]! + gravity.x * gh;
+      v[g + 1] = v[g + 1]! + gravity.y * gh;
+      v[g + 2] = v[g + 2]! + gravity.z * gh;
       prev[g] = x[g]!;
       prev[g + 1] = x[g + 1]!;
       prev[g + 2] = x[g + 2]!;
@@ -337,6 +348,14 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
     time += h;
   }
 
+  function gapNow() {
+    let worst = 0;
+    for (let k = 0; k < seamA.length; k++) {
+      worst = Math.max(worst, distanceToBlend(x, seamA[k]!, seamB0[k]!, seamB1[k]!, seamW1[k]!));
+    }
+    return worst;
+  }
+
   return {
     positions: x,
     vertexCount: n,
@@ -347,8 +366,12 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
     },
     step(dt = 1 / 60) {
       if (!(dt > MIN_DT)) return;
+      if (!sewn && (time >= sewingTime || gapNow() <= 1)) sewn = true;
       const h = dt / substeps;
       for (let s = 0; s < substeps; s++) substep(h);
+    },
+    get sewn() {
+      return sewn;
     },
     pin(vertex) {
       if (vertex < 0 || vertex >= n) throw new Error(`Vértice ${vertex} não existe.`);
@@ -369,13 +392,7 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
       }
       return out;
     },
-    seamGap() {
-      let worst = 0;
-      for (let k = 0; k < seamA.length; k++) {
-        worst = Math.max(worst, distanceToBlend(x, seamA[k]!, seamB0[k]!, seamB1[k]!, seamW1[k]!));
-      }
-      return worst;
-    },
+    seamGap: gapNow,
   };
 }
 

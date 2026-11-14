@@ -127,23 +127,87 @@ export function drawnHalfSide(piece: Piece): "esquerda" | "direita" | null {
   return side === "frente" ? (towardViewerRight ? "esquerda" : "direita") : towardViewerRight ? "direita" : "esquerda";
 }
 
+/** Sufixo do id da cópia espelhada de uma parte de cortar par. */
+export const PAIR_SUFFIX = "~par";
+
 /**
- * A roupa pronta para a Prova num tamanho: as partes graduadas e abertas
- * pela dobra, e as costuras refeitas para elas. Uma costura entre dois
- * segmentos que foram espelhados vira duas, uma em cada lado do corpo (id
- * com "~espelho" na segunda): cada cópia é ligada à do mesmo lado do corpo
- * (`drawnHalfSide`). Se só um lado foi espelhado, a cópia fica sem costura.
+ * A segunda peça de um cortar par: a parte espelhada (x → −x em volta do
+ * centro), percorrida ao contrário para manter o sentido do contorno. O
+ * segmento i da cópia veio do segmento `origin[i].segment` da parte. Na
+ * Prova ela veste o outro lado: a perna da posição é trocada.
+ */
+export function pairCopy(piece: Piece): UnfoldedPiece {
+  const n = piece.outline.length;
+  const xs = Object.values(piece.points).map((p) => p.x);
+  const c = (Math.min(...xs) + Math.max(...xs)) / 2;
+  const reflect = (X: Point): Point => ({ x: clean(2 * c - X.x), y: X.y });
+  const startOf = (i: number) => (i === 0 ? piece.start : piece.outline[i - 1]!.to);
+
+  const points: Record<string, Point> = {};
+  for (const [id, p] of Object.entries(piece.points)) points[id] = reflect(p);
+
+  // Ao contrário: o segmento k (de A a B) vira de B' a A'; as alças trocam de lugar.
+  const outline: Segment[] = [];
+  const origin: SegmentOrigin[] = [];
+  for (let k = n - 1; k >= 0; k--) {
+    const seg = piece.outline[k]!;
+    const to = startOf(k);
+    outline.push(seg.kind === "line" ? { kind: "line", to } : { kind: "cubic", c1: reflect(seg.c2), c2: reflect(seg.c1), to });
+    origin.push({ segment: k, mirrored: true });
+  }
+
+  const copy: Piece = { ...piece, id: piece.id + PAIR_SUFFIX, name: `${piece.name} (par)`, points, start: piece.start, outline };
+  delete copy.cutPair;
+  const byEdge: Record<number, number> = {};
+  origin.forEach((o, i) => {
+    const v = piece.seamAllowanceByEdge?.[o.segment];
+    if (v !== undefined) byEdge[i] = v;
+  });
+  if (Object.keys(byEdge).length) copy.seamAllowanceByEdge = byEdge;
+  else delete copy.seamAllowanceByEdge;
+  if (piece.grading) {
+    copy.grading = Object.fromEntries(
+      Object.entries(piece.grading).map(([id, bySize]) => [
+        id,
+        Object.fromEntries(Object.entries(bySize).map(([size, d]) => [size, { x: clean(-d.x), y: d.y }])),
+      ]),
+    );
+  }
+  if (piece.grainline) copy.grainline = { from: reflect(piece.grainline.to), to: reflect(piece.grainline.from) };
+  if (piece.placement?.leg) copy.placement = { ...piece.placement, leg: piece.placement.leg === "esquerda" ? "direita" : "esquerda" };
+  return { piece: copy, origin };
+}
+
+/**
+ * A roupa pronta para a Prova num tamanho: as partes graduadas, abertas
+ * pela dobra e com o par das partes de cortar par, e as costuras refeitas
+ * para elas.
+ *
+ * - Dobra: uma costura entre dois segmentos espelhados vira duas, uma em
+ *   cada lado do corpo (id com "~espelho" na segunda); cada cópia é ligada
+ *   à do mesmo lado do corpo (`drawnHalfSide`). Se só um lado foi
+ *   espelhado, a cópia fica sem costura.
+ * - Cortar par: costura entre duas partes de par vira duas, parte com parte
+ *   e par com par (id com "~par"); costura do segmento com ele mesmo liga a
+ *   parte ao seu par (gancho). Entre uma parte de par e outra sem par, só a
+ *   parte desenhada é costurada.
  *
  * `origin[pieceId][i]` diz de qual segmento do molde veio o segmento i da
- * peça aberta: é o caminho de volta de um clique na Prova para o molde.
+ * peça da Prova, e `source[pieceId]` de qual parte do molde (a cópia do par
+ * tem outro id): é o caminho de volta de um clique na Prova.
  */
 export function garmentAtSize(doc: PatternDocument, size: string): Garment {
   const where = new Map<string, Map<number, { plain?: number; mirror?: number }>>();
+  const pairWhere = new Map<string, Map<number, number>>();
   const drawnSide = new Map(doc.pieces.map((p) => [p.id, drawnHalfSide(p)]));
   const origins: Record<string, SegmentOrigin[]> = {};
-  const pieces = doc.pieces.map((p) => {
-    const { piece, origin } = unfoldPiece(pieceAtSize(p, size));
+  const source: Record<string, string> = {};
+  const pieces: Piece[] = [];
+  for (const p of doc.pieces) {
+    const graded = pieceAtSize(p, size);
+    const { piece, origin } = unfoldPiece(graded);
     origins[p.id] = origin;
+    source[p.id] = p.id;
     const map = new Map<number, { plain?: number; mirror?: number }>();
     origin.forEach((o, i) => {
       const entry = map.get(o.segment) ?? {};
@@ -152,14 +216,50 @@ export function garmentAtSize(doc: PatternDocument, size: string): Garment {
       map.set(o.segment, entry);
     });
     where.set(p.id, map);
-    return piece;
-  });
+    pieces.push(piece);
+    if (p.cutPair && p.fold === undefined) {
+      const pair = pairCopy(graded);
+      origins[pair.piece.id] = pair.origin;
+      source[pair.piece.id] = p.id;
+      pairWhere.set(p.id, new Map(pair.origin.map((o, i) => [o.segment, i])));
+      pieces.push(pair.piece);
+    }
+  }
 
   const seams: Seam[] = [];
   for (const seam of doc.seams) {
     const a = where.get(seam.a.piece)?.get(seam.a.segment);
     const b = where.get(seam.b.piece)?.get(seam.b.segment);
     if (a?.plain === undefined || b?.plain === undefined) continue;
+    const pairA = pairWhere.get(seam.a.piece)?.get(seam.a.segment);
+    const pairB = pairWhere.get(seam.b.piece)?.get(seam.b.segment);
+
+    // Segmento costurado no próprio par (gancho): a cópia anda ao contrário,
+    // então o sentido gravado no molde se inverte.
+    if (seam.a.piece === seam.b.piece && seam.a.segment === seam.b.segment) {
+      if (pairA !== undefined) {
+        seams.push({
+          ...seam,
+          direction: seam.direction === "same" ? "opposite" : "same",
+          a: { piece: seam.a.piece, segment: a.plain },
+          b: { piece: seam.a.piece + PAIR_SUFFIX, segment: pairA },
+        });
+      }
+      continue;
+    }
+
+    if (pairA !== undefined && pairB !== undefined) {
+      // As duas cópias andam ao contrário: o sentido da costura se mantém.
+      seams.push({ ...seam, a: { piece: seam.a.piece, segment: a.plain }, b: { piece: seam.b.piece, segment: b.plain } });
+      seams.push({
+        ...seam,
+        id: seam.id + PAIR_SUFFIX,
+        a: { piece: seam.a.piece + PAIR_SUFFIX, segment: pairA },
+        b: { piece: seam.b.piece + PAIR_SUFFIX, segment: pairB },
+      });
+      continue;
+    }
+
     if (a.mirror === undefined || b.mirror === undefined) {
       seams.push({ ...seam, a: { piece: seam.a.piece, segment: a.plain }, b: { piece: seam.b.piece, segment: b.plain } });
       continue;
@@ -184,13 +284,20 @@ export function garmentAtSize(doc: PatternDocument, size: string): Garment {
       b: { piece: seam.b.piece, segment: cross ? b.plain : b.mirror },
     });
   }
-  return { pieces, seams, origin: origins };
+  return { pieces, seams, origin: origins, source };
 }
 
-export type Garment = { pieces: Piece[]; seams: Seam[]; origin: Record<string, SegmentOrigin[]> };
+export type Garment = {
+  pieces: Piece[];
+  seams: Seam[];
+  origin: Record<string, SegmentOrigin[]>;
+  /** Parte do molde de onde veio cada peça da Prova (a cópia do par tem id próprio). */
+  source: Record<string, string>;
+};
 
-/** O segmento do molde de onde veio o segmento `segment` da peça aberta `pieceId`. */
-export function patternEdgeOf(garment: Garment, pieceId: string, segment: number): SeamEdge | null {
+/** O segmento do molde de onde veio o segmento `segment` da peça da Prova `pieceId`. */
+export function patternEdgeOf(garment: Pick<Garment, "origin" | "source">, pieceId: string, segment: number): SeamEdge | null {
   const o = garment.origin[pieceId]?.[segment];
-  return o ? { piece: pieceId, segment: o.segment } : null;
+  const piece = garment.source[pieceId];
+  return o && piece ? { piece, segment: o.segment } : null;
 }

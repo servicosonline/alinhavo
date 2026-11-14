@@ -19,15 +19,15 @@ describe("migratePattern", () => {
     const v1 = { schema: 1, unit: "mm", sizes: ["P", "M", "G"], baseSize: "M", pieces: [saiaReta()] };
     const snapshot = JSON.stringify(v1);
     const doc = migratePattern(v1);
-    expect(doc).toEqual({ ...v1, schema: 3, seams: [] });
+    expect(doc).toEqual({ ...v1, schema: 4, seams: [] });
     expect(validatePattern(doc!)).toEqual([]);
     expect(JSON.stringify(v1)).toBe(snapshot);
   });
 
-  it("documento do formato 2 sobe para o 3 sem perder as costuras", () => {
+  it("documento do formato 2 sobe para o 4 sem perder as costuras", () => {
     const v2 = { ...saiaCosturada(), schema: 2 };
     const doc = migratePattern(v2);
-    expect(doc).toEqual({ ...v2, schema: 3 });
+    expect(doc).toEqual({ ...v2, schema: 4 });
     expect(validatePattern(doc!)).toEqual([]);
   });
 
@@ -39,7 +39,7 @@ describe("migratePattern", () => {
   it("recusa o que não é documento de molde ou tem versão desconhecida", () => {
     expect(migratePattern(null)).toBeNull();
     expect(migratePattern("molde")).toBeNull();
-    expect(migratePattern({ ...documento(), schema: 4 })).toBeNull();
+    expect(migratePattern({ ...documento(), schema: 5 })).toBeNull();
     expect(migratePattern({ ...documento(), schema: 2, seams: undefined })).toBeNull();
     expect(migratePattern({ ...documento(), seams: undefined })).toBeNull();
   });
@@ -70,7 +70,7 @@ describe("validação das costuras", () => {
   it("segmento costurado nele mesmo, em duas costuras, sentido e id inválidos", () => {
     const lado = { piece: "frente", segment: 1 };
     expect(erros([{ id: "c", a: lado, b: lado, direction: "opposite" }])).toContain(
-      "Costura 1: um segmento não pode ser costurado nele mesmo.",
+      "Costura 1: um segmento só se costura nele mesmo numa parte de cortar par (com o par espelhado).",
     );
     expect(
       erros([

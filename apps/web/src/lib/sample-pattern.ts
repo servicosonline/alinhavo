@@ -34,7 +34,7 @@ export function samplePattern(): PatternDocument {
       name: "Costas",
       points: {
         A: { x: 320, y: 0 },
-        B: { x: 510, y: 10 },
+        B: { x: 510, y: 0 },
         C: { x: 560, y: 600 },
         D: { x: 320, y: 600 },
       },

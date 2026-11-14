@@ -18,7 +18,7 @@ export type ProvaEdges = {
 export function buildProvaEdges(
   meshes: readonly PieceMesh[],
   offsets: ReadonlyMap<string, number>,
-  origin: Garment["origin"],
+  garment: Pick<Garment, "origin" | "source">,
 ): ProvaEdges {
   const list: SeamEdge[] = [];
   const index = new Map<string, number>();
@@ -26,19 +26,21 @@ export function buildProvaEdges(
   const owner: number[] = [];
   for (const mesh of meshes) {
     const off = offsets.get(mesh.pieceId);
-    const from = origin[mesh.pieceId];
-    if (off === undefined || !from) continue;
+    const from = garment.origin[mesh.pieceId];
+    // A cópia do cortar par tem id próprio, mas o segmento é da parte do molde.
+    const piece = garment.source[mesh.pieceId];
+    if (off === undefined || !from || !piece) continue;
     const nb = mesh.boundaryCount;
     for (let b = 0; b < nb; b++) {
       // O vértice b está no seu segmento com t em [0, 1): a linha até o próximo é desse segmento.
       const o = from[mesh.boundarySegment[b]!];
       if (!o) continue;
-      const key = `${mesh.pieceId}#${o.segment}`;
+      const key = `${piece}#${o.segment}`;
       let k = index.get(key);
       if (k === undefined) {
         k = list.length;
         index.set(key, k);
-        list.push({ piece: mesh.pieceId, segment: o.segment });
+        list.push({ piece, segment: o.segment });
       }
       lines.push(off + b, off + ((b + 1) % nb));
       owner.push(k);

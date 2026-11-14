@@ -2,7 +2,7 @@ import { cubicLength, flattenCubic } from "./bezier";
 import { distance, type Point } from "./polygon";
 
 /**
- * Documento do molde (versão 3). É o que fica salvo em pattern_versions.document.
+ * Documento do molde (versão 4). É o que fica salvo em pattern_versions.document.
  * Versões gravadas nunca são reescritas: documentos antigos passam por
  * `migratePattern` na leitura.
  *
@@ -10,6 +10,8 @@ import { distance, type Point } from "./polygon";
  * - 1: partes, pontos, curvas, gradação, margens e fio.
  * - 2: + `seams` (costuras: pares de segmentos que se unem na Prova).
  * - 3: + por parte, `fold` (segmento da dobra) e `placement` (posição na Prova).
+ * - 4: + `placement.leg` (a parte veste uma perna) e, por parte, `cutPair` (cortar par: a segunda peça é o espelho) e
+ *   costura de um segmento com o próprio par (`a` igual a `b`, ex.: gancho).
  *
  * - Coordenadas em mm, do tamanho base.
  * - Cada parte tem um contorno fechado: começa em `start` e cada segmento vai
@@ -42,6 +44,12 @@ export type Piece = {
   fold?: number;
   /** Onde a parte fica no corpo na Prova. */
   placement?: PiecePlacement;
+  /**
+   * Cortar par: a parte é cortada duas vezes, a segunda espelhada (frente e
+   * costas da calça, uma de cada lado). Na Prova vira duas (`pairCopy`).
+   * Não combina com dobra.
+   */
+  cutPair?: true;
 };
 
 export type BodySide = "frente" | "costas" | "esquerda" | "direita";
@@ -52,7 +60,17 @@ export type BodyAnchor = "ombro" | "busto" | "cintura" | "quadril";
  * altura de referência onde fica a borda de cima (o menor Y do molde).
  * `offset` sobe (positivo) ou desce (negativo) a peça a partir dessa altura, em mm.
  */
-export type PiecePlacement = { side: BodySide; anchor: BodyAnchor; offset: number };
+export type PiecePlacement = {
+  side: BodySide;
+  anchor: BodyAnchor;
+  offset: number;
+  /**
+   * A parte veste uma perna abaixo do gancho (calça). Na cópia do cortar
+   * par, a outra perna.
+   */
+  leg?: BodyLeg;
+};
+export type BodyLeg = "esquerda" | "direita";
 
 export const BODY_SIDES: readonly BodySide[] = ["frente", "costas", "esquerda", "direita"];
 export const BODY_ANCHORS: readonly BodyAnchor[] = ["ombro", "busto", "cintura", "quadril"];
@@ -63,14 +81,15 @@ export type SeamEdge = { piece: string; segment: number };
 /**
  * Costura: dois segmentos que se unem. `opposite` (o comum) junta o início de
  * um com o fim do outro, como duas partes deitadas lado a lado; `same` junta
- * início com início.
+ * início com início. Numa parte com `cutPair`, `a` igual a `b` costura o
+ * segmento com o mesmo segmento do par espelhado (gancho da calça).
  */
 export type Seam = { id: string; a: SeamEdge; b: SeamEdge; direction: "opposite" | "same" };
 
-export const CURRENT_SCHEMA = 3;
+export const CURRENT_SCHEMA = 4;
 
 export type PatternDocument = {
-  schema: 3;
+  schema: 4;
   unit: "mm";
   sizes: string[];
   baseSize: string;
@@ -82,6 +101,8 @@ export type PatternDocument = {
 export type PatternDocumentV1 = Omit<PatternDocument, "schema" | "seams"> & { schema: 1 };
 /** Formato 2: sem dobra nem posição na Prova (campos opcionais, então as partes passam iguais). */
 export type PatternDocumentV2 = Omit<PatternDocument, "schema"> & { schema: 2 };
+/** Formato 3: sem cortar par (campo opcional, então as partes passam iguais). */
+export type PatternDocumentV3 = Omit<PatternDocument, "schema"> & { schema: 3 };
 
 /**
  * Converte um documento salvo (de qualquer versão conhecida) para o formato
@@ -100,9 +121,14 @@ export function migratePattern(raw: unknown): PatternDocument | null {
   if (d.schema === 2) {
     if (!Array.isArray(d.seams)) return null;
     // 2 → 3: dobra e posição são opcionais; nada a converter além do número.
-    return { ...(d as PatternDocumentV2), schema: 3 };
+    return migratePattern({ ...(d as PatternDocumentV2), schema: 3 } satisfies PatternDocumentV3);
   }
   if (d.schema === 3) {
+    if (!Array.isArray(d.seams)) return null;
+    // 3 → 4: cortar par é opcional; nada a converter além do número.
+    return { ...(d as PatternDocumentV3), schema: 4 };
+  }
+  if (d.schema === 4) {
     return Array.isArray(d.seams) ? (d as PatternDocument) : null;
   }
   return null;
@@ -160,9 +186,19 @@ export function validatePattern(doc: PatternDocument): string[] {
       if (!Number.isInteger(piece.fold) || !seg) erros.push(`${nome}: a dobra está num segmento que não existe.`);
       else if (seg.kind !== "line") erros.push(`${nome}: a dobra precisa ser um segmento reto.`);
     }
+    if (piece.cutPair !== undefined) {
+      if (piece.cutPair !== true) erros.push(`${nome}: cortar par inválido.`);
+      else if (piece.fold !== undefined) erros.push(`${nome}: cortar par não combina com dobra.`);
+    }
     if (piece.placement !== undefined) {
-      const { side, anchor, offset } = piece.placement;
-      if (!BODY_SIDES.includes(side) || !BODY_ANCHORS.includes(anchor) || !Number.isFinite(offset) || Math.abs(offset) > 1000) {
+      const { side, anchor, offset, leg } = piece.placement;
+      if (
+        !BODY_SIDES.includes(side) ||
+        !BODY_ANCHORS.includes(anchor) ||
+        !Number.isFinite(offset) ||
+        Math.abs(offset) > 1000 ||
+        (leg !== undefined && leg !== "esquerda" && leg !== "direita")
+      ) {
         erros.push(`${nome}: posição na Prova inválida.`);
       }
     }
@@ -207,7 +243,9 @@ function validateSeams(doc: PatternDocument): string[] {
       }
       keys.push(`${edge.piece}#${edge.segment}`);
     }
-    if (keys.length === 2 && keys[0] === keys[1]) erros.push(`${nome}: um segmento não pode ser costurado nele mesmo.`);
+    if (keys.length === 2 && keys[0] === keys[1] && byId.get(seam.a.piece)?.cutPair !== true) {
+      erros.push(`${nome}: um segmento só se costura nele mesmo numa parte de cortar par (com o par espelhado).`);
+    }
     for (const key of new Set(keys)) {
       if (sewn.has(key)) erros.push(`${nome}: o segmento já está em outra costura.`);
       sewn.add(key);

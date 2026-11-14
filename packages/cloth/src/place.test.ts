@@ -4,7 +4,7 @@ import { createMannequin } from "./body/mannequin";
 import { floorCollider } from "./collider";
 import { FABRICS } from "./fabrics";
 import { meshPiece } from "./mesh";
-import { angleAtArc, anchorHeight, placeGarment, PLACEMENT_CLEARANCE } from "./place";
+import { angleAtArc, anchorHeight, legAt, pieceHalf, placeGarment, PLACEMENT_CLEARANCE } from "./place";
 import { createSimulation } from "./simulation";
 
 const BODY = { busto: 880, cintura: 720, quadril: 900, altura: 1650 };
@@ -122,6 +122,54 @@ describe("placeGarment", () => {
     for (let i = 0; i < mesh.positions.length / 2; i++) {
       expect(body.collider.query(pos![i * 3]!, pos![i * 3 + 1]!, pos![i * 3 + 2]!).distance).toBeGreaterThan(PLACEMENT_CLEARANCE / 2);
     }
+  });
+});
+
+describe("cortar par e perna", () => {
+  const body = createMannequin(BODY);
+  const L = body.landmarks;
+
+  it("a metade do par: perna da posição; sem perna, a desenhada à esquerda e a cópia à direita", () => {
+    const p = rect("frente", 200, 300);
+    expect(pieceHalf(p)).toBeUndefined();
+    expect(pieceHalf({ ...p, cutPair: true })).toBe("esquerda");
+    expect(pieceHalf({ ...p, id: "frente~par" })).toBe("direita");
+    expect(pieceHalf({ ...p, cutPair: true, placement: { side: "frente", anchor: "cintura", offset: 0, leg: "direita" } })).toBe("direita");
+  });
+
+  it("parte de par fica na sua metade: frente esquerda entre o centro e a lateral esquerda", () => {
+    const mesh = meshPiece(rect("p", 200, 150), { spacing: 25 });
+    const [esq] = placeGarment([{ mesh, placement: { side: "frente", anchor: "cintura", offset: 0 }, half: "esquerda" }], L);
+    const [dir] = placeGarment([{ mesh, placement: { side: "frente", anchor: "cintura", offset: 0 }, half: "direita" }], L);
+    let xe = 0;
+    let xd = 0;
+    const count = mesh.positions.length / 2;
+    for (let i = 0; i < count; i++) {
+      xe += esq![i * 3]!;
+      xd += dir![i * 3]!;
+    }
+    expect(xe / count).toBeGreaterThan(50); // à esquerda do corpo (+X)
+    expect(xd / count).toBeLessThan(-50);
+  });
+
+  it("abaixo do gancho a parte se enrola na perna, com folga, e acima dele no quadril", () => {
+    const mesh = meshPiece(rect("p", 240, 700), { spacing: 25 });
+    const [pos] = placeGarment([{ mesh, placement: { side: "frente", anchor: "cintura", offset: 0, leg: "esquerda" }, half: "esquerda" }], L);
+    let legChecked = 0;
+    for (let i = 0; i < mesh.positions.length / 2; i++) {
+      const [x, y, z] = [pos![i * 3]!, pos![i * 3 + 1]!, pos![i * 3 + 2]!];
+      if (y < L.crotch.y - 10) {
+        const c = legAt(L, "esquerda", y);
+        expect(Math.hypot(x - c.x, z - c.z)).toBeCloseTo(c.r + PLACEMENT_CLEARANCE, 6);
+        legChecked++;
+      }
+    }
+    expect(legChecked).toBeGreaterThan(50);
+  });
+
+  it("ombro é o alto da linha do ombro, junto do pescoço", () => {
+    expect(anchorHeight(L, "ombro")).toBe(L.neck.y);
+    expect(L.neck.y).toBeGreaterThan(L.shoulder.y);
   });
 });
 

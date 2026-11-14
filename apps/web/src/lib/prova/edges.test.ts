@@ -14,7 +14,7 @@ describe("bordas da Prova", () => {
       offsets.set(m.pieceId, n);
       n += m.positions.length / 2;
     }
-    const edges = buildProvaEdges(meshes, offsets, garment.origin);
+    const edges = buildProvaEdges(meshes, offsets, garment);
     // Saia aberta: cintura, lateral e barra de cada peça (o centro é a dobra, some ao abrir).
     const keys = edges.list.map((e) => `${e.piece}#${e.segment}`).sort();
     expect(keys).toEqual(["costas#0", "costas#1", "costas#2", "frente#0", "frente#1", "frente#2"]);
