@@ -13,6 +13,7 @@ import { createClient } from "@/lib/supabase/server";
 import { linkProductPattern, setProductStatus } from "../../colecoes/actions";
 import { deleteTrim, setProductFabric } from "../actions";
 import { DownloadTechPack, GenerateTechPack, TrimForm } from "./tech-pack-parts";
+import { Comments } from "./comments";
 import { meters, money, type TechPackData } from "@alinhavo/export/tech-pack";
 import { formatMoney } from "@/lib/money";
 import { formatDate } from "@/lib/prova/approval";
@@ -61,11 +62,14 @@ async function Produto({ params }: { params: Params }) {
     : { data: [] as { status: "pendente" | "aprovado" | "ajustes" }[] };
   const latest = last?.[0]?.status ?? null;
 
-  const [fabRes, trimRes, packRes] = await Promise.all([
+  const [fabRes, trimRes, packRes, commentRes, teamRes] = await Promise.all([
     supabase.from("fabrics").select("id, name, width_mm, price_cents").eq("org_id", orgId).order("name"),
     supabase.from("product_trims").select("id, name, quantity, unit, unit_price_cents").eq("product_id", p.id).eq("org_id", orgId).order("position").order("created_at"),
     supabase.from("tech_packs").select("id, number, pattern_version, data, created_at").eq("product_id", p.id).eq("org_id", orgId).order("number", { ascending: false }).limit(10),
+    supabase.from("comments").select("id, author, body, created_at").eq("product_id", p.id).eq("org_id", orgId).order("created_at").limit(200),
+    supabase.rpc("org_team", { p_org_id: orgId }),
   ]);
+  const names = Object.fromEntries((teamRes.data ?? []).map((m) => [m.user_id, m.email]));
   const fabrics = fabRes.data ?? [];
   const trims = trimRes.data ?? [];
   const packs = packRes.data ?? [];
@@ -285,6 +289,15 @@ async function Produto({ params }: { params: Params }) {
           </ul>
         )}
       </section>
+
+      <Comments
+        orgId={orgId}
+        productId={p.id}
+        me={user.id}
+        moderator={role === "owner" || role === "admin"}
+        names={names}
+        initial={commentRes.data ?? []}
+      />
 
       {pattern && <ApprovalsList supabase={supabase} orgId={orgId} patternId={pattern.id} canEdit={canEditPatterns(role)} />}
     </div>

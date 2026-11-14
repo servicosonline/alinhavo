@@ -188,6 +188,16 @@ type TechPackRow = {
   created_at: string;
 };
 
+export type CommentRow = {
+  id: string;
+  org_id: string;
+  product_id: string;
+  author: string | null;
+  body: string;
+  pattern_version: number | null;
+  created_at: string;
+};
+
 /** Chave estrangeira simples (col → ref.id). */
 type Fk<Name extends string, Col extends string, Ref extends string> = {
   foreignKeyName: Name;
@@ -360,6 +370,12 @@ export type Database = {
         Insert: never;
         Update: never;
         Relationships: [OrgFk<"tech_packs_product_id_org_id_fkey", "product_id", "products">];
+      };
+      comments: {
+        Row: CommentRow;
+        Insert: { org_id: string; product_id: string; body: string; pattern_version?: number | null };
+        Update: never;
+        Relationships: [OrgFk<"comments_product_id_org_id_fkey", "product_id", "products">];
       };
       milestones: {
         Row: MilestoneRow;
