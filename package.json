@@ -18,8 +18,8 @@
     "test": "turbo run test",
     "check": "turbo run lint typecheck test build",
     "db:link": "supabase link",
-    "db:push": "supabase db push",
-    "db:types": "supabase gen types typescript --linked --schema public > apps/web/src/lib/supabase/database.types.ts"
+    "db:push": "supabase db push --remote",
+    "db:types": "supabase gen types --lang=typescript --remote --schema public > apps/web/src/lib/supabase/database.types.ts"
   },
   "devDependencies": {
     "turbo": "^2"

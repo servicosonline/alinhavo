@@ -47,4 +47,5 @@ jobs:
         with:
           version: 3.1.0
       - run: supabase link --project-ref "${{ vars.SUPABASE_PROJECT_ID }}"
-      - run: supabase db push
+      # O CLI 3.x mira o banco local por padrão; --remote usa o projeto ligado acima.
+      - run: supabase db push --remote
