@@ -12,6 +12,7 @@ import { addCaptures, type Capture } from "@/lib/prova/captures";
 import { AdjustPanel, type ProvaSaveMode } from "./adjust-panel";
 import { ApprovalRequest, type ApprovalRequester } from "./approval-request";
 import { CapturesPanel } from "./captures-panel";
+import { GradeView } from "./grade-view";
 import type { ProvaScene } from "./scene";
 
 const FABRICS: { id: FabricId; name: string; color: string }[] = [
@@ -44,6 +45,12 @@ const MEASUREMENT_NAME: Record<string, string> = {
 };
 
 type View = "tecido" | "pressao" | "folga";
+/** Um tamanho (com ajuste, captura e aprovação) ou a grade inteira lado a lado (só ver). */
+type Mode = "um" | "grade";
+const MODES: { id: Mode; name: string }[] = [
+  { id: "um", name: "Um tamanho" },
+  { id: "grade", name: "Grade inteira" },
+];
 const VIEWS: { id: View; name: string }[] = [
   { id: "tecido", name: "Tecido" },
   { id: "pressao", name: "Pressão" },
@@ -110,6 +117,11 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
   const [notes, setNotes] = useState<{ skipped: string[]; estimated: string[] }>({ skipped: [], estimated: [] });
   const [view, setView] = useState<View>("tecido");
   const [maps, setMaps] = useState<{ summary: MapSummary; fabricLimit: number } | null>(null);
+  const [fabricLimit, setFabricLimit] = useState(0.05);
+  const [mode, setMode] = useState<Mode>("um");
+  const modeRef = useRef<Mode>("um");
+  /** A Prova de um tamanho estava rodando quando a grade abriu (volta a rodar ao sair). */
+  const resumeRef = useRef(false);
   const color = FABRICS.find((f) => f.id === fabric)!.color;
   const colorRef = useRef(color);
   const viewModeRef = useRef<View>("tecido");
@@ -150,12 +162,19 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
         lastReady = msg;
         lastMapsRef.current = { maps: null, fabricLimit: msg.fabricLimit };
         setMaps(null);
+        setFabricLimit(msg.fabricLimit);
         setEdges(msg.edges);
         setSelected(null);
         if (scene) show(scene, msg);
         setNotes({ skipped: msg.skipped, estimated: msg.estimated });
-        setStatus({ kind: "running", time: 0, seamGap: Infinity });
-        worker.postMessage({ type: "play" } satisfies ToWorker);
+        // Com a grade aberta, a Prova de um tamanho fica montada e parada (a CPU é da grade).
+        if (modeRef.current === "grade") {
+          resumeRef.current = true;
+          setStatus({ kind: "paused", time: 0, seamGap: Infinity });
+        } else {
+          setStatus({ kind: "running", time: 0, seamGap: Infinity });
+          worker.postMessage({ type: "play" } satisfies ToWorker);
+        }
       } else if (msg.type === "frame") {
         scene?.updateGarment(msg.positions);
         if (msg.maps) {
@@ -230,6 +249,26 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
     paint(sceneRef.current);
   }, [view, paint]);
 
+  const changeMode = (next: Mode) => {
+    if (next === mode) return;
+    modeRef.current = next;
+    setMode(next);
+    const worker = workerRef.current;
+    if (next === "grade") {
+      resumeRef.current = status.kind === "running";
+      if (status.kind === "running") {
+        worker?.postMessage({ type: "pause" } satisfies ToWorker);
+        setStatus({ kind: "paused", time: status.time, seamGap: status.seamGap });
+      }
+      return;
+    }
+    if (resumeRef.current && status.kind === "paused") {
+      worker?.postMessage({ type: "play" } satisfies ToWorker);
+      setStatus({ ...status, kind: "running" });
+    }
+    resumeRef.current = false;
+  };
+
   const togglePlay = () => {
     const worker = workerRef.current;
     if (!worker) return;
@@ -251,7 +290,11 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
 
   return (
     <div className="grid gap-3 lg:grid-cols-[1fr_18rem]">
-      <div ref={viewRef} className="relative h-[60vh] min-h-[22rem] overflow-hidden rounded-lg border border-tinta/15 bg-papel lg:h-[calc(100vh-10rem)]">
+      {mode === "grade" && <GradeView doc={doc} measurementsBySize={measurementsBySize} fabric={fabric} pose={pose} color={color} view={view} />}
+      <div
+        ref={viewRef}
+        className={`${mode === "grade" ? "hidden" : "relative"} h-[60vh] min-h-[22rem] overflow-hidden rounded-lg border border-tinta/15 bg-papel lg:h-[calc(100vh-10rem)]`}
+      >
         {status.kind === "loading" && (
           <p className="absolute inset-x-0 top-3 text-center text-xs text-tinta-suave" role="status">
             Montando a Prova…
@@ -261,6 +304,21 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
 
       <aside className="space-y-4" aria-label="Controles da Prova">
         <div className={`${ui.card} space-y-3 p-4`}>
+          <div className="grid grid-cols-2 gap-1" role="radiogroup" aria-label="Provar">
+            {MODES.map((m) => (
+              <button
+                key={m.id}
+                type="button"
+                role="radio"
+                aria-checked={mode === m.id}
+                data-mode={m.id}
+                className={`rounded-md border px-2 py-1.5 text-sm ${mode === m.id ? "border-tinta bg-tinta text-papel" : "border-tinta/20 hover:bg-papel-escuro"}`}
+                onClick={() => changeMode(m.id)}
+              >
+                {m.name}
+              </button>
+            ))}
+          </div>
           <label className="block text-xs">
             <span className="font-medium">Corpo</span>
             <select className={`${ui.input} text-sm`} value="manequim" onChange={() => {}}>
@@ -272,7 +330,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
           </label>
           <label className="block text-xs">
             <span className="font-medium">Tamanho</span>
-            <select className={`${ui.input} text-sm`} value={size} onChange={(e) => setSize(e.target.value)}>
+            <select className={`${ui.input} text-sm`} value={size} onChange={(e) => setSize(e.target.value)} disabled={mode === "grade"}>
               {doc.sizes.map((s) => (
                 <option key={s} value={s}>
                   {s}
@@ -301,7 +359,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
               ))}
             </select>
           </label>
-          <div className="grid grid-cols-2 gap-2">
+          <div className={`${mode === "grade" ? "hidden" : "grid"} grid-cols-2 gap-2`}>
             <button type="button" className={ui.buttonGhost} onClick={togglePlay} disabled={status.kind !== "running" && status.kind !== "paused"}>
               {status.kind === "paused" ? "Continuar" : "Pausar"}
             </button>
@@ -330,8 +388,8 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
               ))}
             </div>
           </fieldset>
-          {view !== "tecido" && <Legend view={view} fabricLimit={maps?.fabricLimit ?? 0.05} />}
-          {view !== "tecido" && (
+          {view !== "tecido" && <Legend view={view} fabricLimit={fabricLimit} />}
+          {view !== "tecido" && mode === "um" && (
             <div className="space-y-1 text-xs" data-map-summary>
               {!maps ? (
                 <p className="text-tinta-suave">Calculando o mapa…</p>
@@ -354,6 +412,13 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
           )}
         </div>
 
+        {mode === "grade" ? (
+          <p className="text-xs text-tinta-suave" data-grade-note>
+            Cada tamanho veste o manequim com as medidas da sua linha na tabela. Para ajustar o molde, capturar imagens ou pedir aprovação,
+            volte para Um tamanho.
+          </p>
+        ) : (
+          <>
         <CapturesPanel
           captures={captures}
           onCapture={capture}
@@ -408,7 +473,11 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
             </p>
           )}
         </div>
-        <p className="text-xs text-tinta-suave">Arraste para girar, use a roda ou dois dedos para aproximar. Clique numa borda para ajustar o molde.</p>
+          </>
+        )}
+        <p className="text-xs text-tinta-suave">
+          Arraste para girar, use a roda ou dois dedos para aproximar.{mode === "um" ? " Clique numa borda para ajustar o molde." : ""}
+        </p>
       </aside>
     </div>
   );
