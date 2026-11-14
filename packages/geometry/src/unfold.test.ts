@@ -4,7 +4,7 @@ import { documento, saiaCurva, saiaReta } from "./fixtures";
 import { flattenOutline, pieceAtSize, segmentLengths, validatePattern, type PatternDocument, type Piece } from "./pattern";
 import { polygonArea } from "./polygon";
 import { addSeam, flipSeam } from "./seams";
-import { garmentAtSize, unfoldPiece } from "./unfold";
+import { drawnHalfSide, garmentAtSize, unfoldPiece } from "./unfold";
 
 /** Meia frente com a dobra no centro (segmento 3, de D a A, em x = 0). */
 function meiaFrente(): Piece {
@@ -87,6 +87,25 @@ describe("garmentAtSize", () => {
     // Os dois lados de cada costura têm o mesmo comprimento que no molde.
     const lens = pieces.map((p) => segmentLengths(p));
     expect(lens[0]![4]).toBeCloseTo(lens[0]![1]!, 9);
+  });
+
+  it("com posição na Prova, liga as metades do mesmo lado do corpo (e o sentido acompanha)", () => {
+    // Frente e costas desenhadas iguais (centro à esquerda, lateral à direita): vistas por
+    // fora, a meia frente desenhada é o lado esquerdo do corpo e a meia costas, o direito.
+    const frente: Piece = { ...meiaFrente(), placement: { side: "frente", anchor: "cintura", offset: 0 } };
+    const tras: Piece = { ...costas(), placement: { side: "costas", anchor: "cintura", offset: 0 } };
+    expect(drawnHalfSide(frente)).toBe("esquerda");
+    expect(drawnHalfSide(tras)).toBe("direita");
+    expect(drawnHalfSide(meiaFrente())).toBeNull(); // sem posição, não dá para saber
+
+    const { doc } = addSeam(documento([frente, tras]), { piece: "frente", segment: 1 }, { piece: "costas", segment: 1 }, "same");
+    const { seams } = garmentAtSize(doc, "M");
+    // Cruza: original da frente com a cópia das costas, e vice-versa; a cópia anda ao
+    // contrário, então "mesmo sentido" vira "oposto".
+    expect(seams).toEqual([
+      { id: "costura1", a: { piece: "frente", segment: 1 }, b: { piece: "costas", segment: 4 }, direction: "opposite" },
+      { id: "costura1~espelho", a: { piece: "frente", segment: 4 }, b: { piece: "costas", segment: 1 }, direction: "opposite" },
+    ]);
   });
 
   it("peça sem dobra costurada numa dobrada: só o lado original é costurado", () => {

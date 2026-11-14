@@ -23,7 +23,12 @@ export const DEFAULT_PLACEMENT: Placement = {
   yAxis: { x: 0, y: -1, z: 0 },
 };
 
-export type SimPiece = { mesh: PieceMesh; placement?: Placement };
+/**
+ * Uma parte na simulação. `initial` (x, y, z por vértice, em mm) dá a posição
+ * 3D inicial pronta, por exemplo enrolada no corpo (`placeGarment`); sem ela,
+ * vale `placement` (a parte plana). O repouso do tecido é sempre o do molde.
+ */
+export type SimPiece = { mesh: PieceMesh; placement?: Placement; initial?: Float64Array };
 
 export type SimulationOptions = {
   fabric: Fabric;
@@ -35,6 +40,11 @@ export type SimulationOptions = {
   substeps?: number;
   /** Amortecimento da velocidade, por segundo. Padrão: 1. */
   damping?: number;
+  /**
+   * Passadas pelas restrições em cada subpasso. Padrão: 1. Roupas inteiras
+   * (muitas restrições encadeadas) convergem melhor com 2 ou 3.
+   */
+  iterations?: number;
   /** Velocidade com que as costuras se fecham, em mm/s. Padrão: 300. */
   seamClosingSpeed?: number;
 };
@@ -66,6 +76,7 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
   const substeps = Math.max(1, Math.round(options.substeps ?? 20));
   const damping = Math.max(0, options.damping ?? 1);
   const closing = Math.max(0, options.seamClosingSpeed ?? 300);
+  const iterations = Math.max(1, Math.round(options.iterations ?? 1));
   const colliders = options.colliders ?? [];
 
   // --- Vértices e massa -----------------------------------------------------
@@ -90,17 +101,30 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
   const bendPairs: number[] = []; // pares (k, l): vértices opostos de dois triângulos vizinhos
   const bendRest: number[] = [];
 
-  for (const { mesh, placement = DEFAULT_PLACEMENT } of pieces) {
+  const restLength: number[] = []; // por lado de triângulo, no molde (2D)
+  for (const { mesh, placement = DEFAULT_PLACEMENT, initial } of pieces) {
     const off = pieceOffset.get(mesh.pieceId)!;
     const count = mesh.positions.length / 2;
-    const { origin, xAxis, yAxis } = placement;
-    for (let i = 0; i < count; i++) {
-      const u = mesh.positions[i * 2]!;
-      const w = mesh.positions[i * 2 + 1]!;
-      const g = (off + i) * 3;
-      x[g] = origin.x + u * xAxis.x + w * yAxis.x;
-      x[g + 1] = origin.y + u * xAxis.y + w * yAxis.y;
-      x[g + 2] = origin.z + u * xAxis.z + w * yAxis.z;
+    if (initial) {
+      if (initial.length !== count * 3) throw new Error(`Posições iniciais da parte ${mesh.pieceId} não batem com a malha.`);
+      x.set(initial, off * 3);
+    } else {
+      const { origin, xAxis, yAxis } = placement;
+      for (let i = 0; i < count; i++) {
+        const u = mesh.positions[i * 2]!;
+        const w = mesh.positions[i * 2 + 1]!;
+        const g = (off + i) * 3;
+        x[g] = origin.x + u * xAxis.x + w * yAxis.x;
+        x[g + 1] = origin.y + u * xAxis.y + w * yAxis.y;
+        x[g + 2] = origin.z + u * xAxis.z + w * yAxis.z;
+      }
+    }
+    for (let k = 0; k < mesh.triangles.length; k += 3) {
+      for (let c = 0; c < 3; c++) {
+        const a = mesh.triangles[k + c]!;
+        const b = mesh.triangles[k + ((c + 1) % 3)]!;
+        restLength.push(Math.hypot(mesh.positions[a * 2]! - mesh.positions[b * 2]!, mesh.positions[a * 2 + 1]! - mesh.positions[b * 2 + 1]!));
+      }
     }
     for (let k = 0; k < mesh.triangles.length; k += 3) {
       const share = (mesh.restArea[k / 3]! * densityPerMm2) / 3;
@@ -253,6 +277,20 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
     }
   }
 
+  /**
+   * Limite de esticamento (strain limiting): nenhuma aresta passa de
+   * (1 + maxStretch) × repouso. Só encurta, nunca empurra.
+   */
+  const maxFactor = 1 + Math.max(0, fabric.maxStretch);
+  function limitStrain() {
+    for (let k = 0; k < stretchRest.length; k++) {
+      const i = stretchEdges[k * 2]!;
+      const j = stretchEdges[k * 2 + 1]!;
+      const limit = stretchRest[k]! * maxFactor;
+      if (distanceBetween(x, i, j) > limit) solveDistance(i, j, limit, 0);
+    }
+  }
+
   function substep(h: number) {
     const h2 = h * h;
     for (let i = 0; i < n; i++) {
@@ -268,17 +306,22 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
       x[g + 1] = x[g + 1]! + v[g + 1]! * h;
       x[g + 2] = x[g + 2]! + v[g + 2]! * h;
     }
-    for (let k = 0; k < stretchRest.length; k++) {
-      solveDistance(stretchEdges[k * 2]!, stretchEdges[k * 2 + 1]!, stretchRest[k]!, stretchAlpha[k]! / h2);
-    }
     const bendAlpha = fabric.bend / h2;
-    for (let k = 0; k < bendRest.length; k++) {
-      solveDistance(bendPairs[k * 2]!, bendPairs[k * 2 + 1]!, bendRest[k]!, bendAlpha);
-    }
     const seamAlpha = 1e-7 / h2;
-    for (let k = 0; k < seamA.length; k++) {
-      const rest = Math.max(0, seamStart[k]! - closing * time);
-      solveSeam(seamA[k]!, seamB0[k]!, seamB1[k]!, seamW1[k]!, rest, seamAlpha);
+    for (let it = 0; it < iterations; it++) {
+      for (let k = 0; k < stretchRest.length; k++) {
+        solveDistance(stretchEdges[k * 2]!, stretchEdges[k * 2 + 1]!, stretchRest[k]!, stretchAlpha[k]! / h2);
+      }
+      for (let k = 0; k < bendRest.length; k++) {
+        solveDistance(bendPairs[k * 2]!, bendPairs[k * 2 + 1]!, bendRest[k]!, bendAlpha);
+      }
+      // O limite de esticamento vem antes das costuras: elas têm a palavra
+      // final, e a costura não abre (o esticamento a mais fica local, junto dela).
+      limitStrain();
+      for (let k = 0; k < seamA.length; k++) {
+        const rest = Math.max(0, seamStart[k]! - closing * time);
+        solveSeam(seamA[k]!, seamB0[k]!, seamB1[k]!, seamW1[k]!, rest, seamAlpha);
+      }
     }
     collide();
     const keep = Math.max(0, 1 - damping * h);
@@ -290,13 +333,6 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
       }
     }
     time += h;
-  }
-
-  const restLength = new Float64Array(triangles.length);
-  for (let k = 0; k < triangles.length; k += 3) {
-    for (let c = 0; c < 3; c++) {
-      restLength[k + c] = distanceBetween(x, triangles[k + c]!, triangles[k + ((c + 1) % 3)]!);
-    }
   }
 
   return {

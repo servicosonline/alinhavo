@@ -2,8 +2,13 @@
  * Tipos do @kninnug/constrainautor (ISC), só com o que o Alinhavo usa.
  *
  * O pacote publica os tipos como código-fonte .ts, que não passa no nosso
- * `noUncheckedIndexedAccess`. O tsconfig aponta o import para este arquivo
- * (paths); em execução, o Vite/Next carregam o pacote normalmente.
+ * `noUncheckedIndexedAccess`. Só o tsconfig deste pacote aponta o import
+ * para cá (paths); o Vitest não lê esse paths e carrega o pacote de verdade.
+ *
+ * NÃO copie esse paths para o apps/web: o Turbopack respeita os paths do
+ * tsconfig também em execução e trocaria a biblioteca por este arquivo vazio
+ * ("is not a constructor" no Worker da Prova). O app não usa
+ * noUncheckedIndexedAccess, então lá os tipos do pacote passam como estão.
  */
 export interface DelaunatorLike {
   coords: { readonly length: number; readonly [n: number]: number };

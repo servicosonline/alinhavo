@@ -22,6 +22,12 @@ export type Fabric = {
   thickness: number;
   /** Atrito com o corpo, de 0 (escorrega) a 1 (gruda). */
   friction: number;
+  /**
+   * Esticamento máximo de uma aresta (0,05 = 5%). Limite rígido aplicado
+   * depois das restrições: compensa a convergência limitada do XPBD em
+   * malhas grandes, que deixaria o tecido mais mole do que ele é.
+   */
+  maxStretch: number;
 };
 
 export const FABRICS = {
@@ -33,6 +39,7 @@ export const FABRICS = {
     bend: 5e-3,
     thickness: 1,
     friction: 0.4,
+    maxStretch: 0.25,
   },
   planoLeve: {
     id: "planoLeve",
@@ -42,6 +49,7 @@ export const FABRICS = {
     bend: 2e-3,
     thickness: 0.5,
     friction: 0.3,
+    maxStretch: 0.05,
   },
   jeans: {
     id: "jeans",
@@ -51,6 +59,7 @@ export const FABRICS = {
     bend: 2e-4,
     thickness: 1.5,
     friction: 0.5,
+    maxStretch: 0.03,
   },
 } satisfies Record<string, Fabric>;
 

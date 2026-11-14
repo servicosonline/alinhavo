@@ -107,13 +107,36 @@ export function unfoldPiece(piece: Piece): UnfoldedPiece {
 }
 
 /**
+ * Em que lado do corpo fica a metade desenhada de uma peça dobrada, pela
+ * posição na Prova: vista pelo lado de fora, a direita de quem olha a
+ * frente é a esquerda do corpo, e a de quem olha as costas é a direita.
+ * Null quando não dá para saber (sem dobra, sem posição ou peça lateral).
+ */
+export function drawnHalfSide(piece: Piece): "esquerda" | "direita" | null {
+  const side = piece.placement?.side;
+  const f = piece.fold;
+  if (f === undefined || (side !== "frente" && side !== "costas")) return null;
+  const from = piece.points[f === 0 ? piece.start : piece.outline[f - 1]!.to];
+  const to = piece.points[piece.outline[f]!.to];
+  if (!from || !to) return null;
+  const foldU = (from.x + to.x) / 2;
+  const pts = Object.values(piece.points);
+  const s = pts.reduce((sum, p) => sum + p.x, 0) / pts.length - foldU;
+  if (Math.abs(s) < 1e-6) return null;
+  const towardViewerRight = s > 0;
+  return side === "frente" ? (towardViewerRight ? "esquerda" : "direita") : towardViewerRight ? "direita" : "esquerda";
+}
+
+/**
  * A roupa pronta para a Prova num tamanho: as partes graduadas e abertas
  * pela dobra, e as costuras refeitas para elas. Uma costura entre dois
- * segmentos que foram espelhados vira duas (a original e a do espelho,
- * id com "~espelho"); se só um lado foi espelhado, a cópia fica sem costura.
+ * segmentos que foram espelhados vira duas, uma em cada lado do corpo (id
+ * com "~espelho" na segunda): cada cópia é ligada à do mesmo lado do corpo
+ * (`drawnHalfSide`). Se só um lado foi espelhado, a cópia fica sem costura.
  */
 export function garmentAtSize(doc: PatternDocument, size: string): { pieces: Piece[]; seams: Seam[] } {
   const where = new Map<string, Map<number, { plain?: number; mirror?: number }>>();
+  const drawnSide = new Map(doc.pieces.map((p) => [p.id, drawnHalfSide(p)]));
   const pieces = doc.pieces.map((p) => {
     const { piece, origin } = unfoldPiece(pieceAtSize(p, size));
     const map = new Map<number, { plain?: number; mirror?: number }>();
@@ -132,15 +155,29 @@ export function garmentAtSize(doc: PatternDocument, size: string): { pieces: Pie
     const a = where.get(seam.a.piece)?.get(seam.a.segment);
     const b = where.get(seam.b.piece)?.get(seam.b.segment);
     if (a?.plain === undefined || b?.plain === undefined) continue;
-    seams.push({ ...seam, a: { piece: seam.a.piece, segment: a.plain }, b: { piece: seam.b.piece, segment: b.plain } });
-    if (a.mirror !== undefined && b.mirror !== undefined) {
-      seams.push({
-        ...seam,
-        id: `${seam.id}~espelho`,
-        a: { piece: seam.a.piece, segment: a.mirror },
-        b: { piece: seam.b.piece, segment: b.mirror },
-      });
+    if (a.mirror === undefined || b.mirror === undefined) {
+      seams.push({ ...seam, a: { piece: seam.a.piece, segment: a.plain }, b: { piece: seam.b.piece, segment: b.plain } });
+      continue;
     }
+    // As metades desenhadas estão em lados opostos do corpo: cruza as cópias.
+    // A cópia espelhada é percorrida ao contrário, então cruzar inverte o sentido.
+    const sideA = drawnSide.get(seam.a.piece);
+    const sideB = drawnSide.get(seam.b.piece);
+    const cross = !!sideA && !!sideB && sideA !== sideB;
+    const direction: Seam["direction"] = cross ? (seam.direction === "same" ? "opposite" : "same") : seam.direction;
+    seams.push({
+      ...seam,
+      direction,
+      a: { piece: seam.a.piece, segment: a.plain },
+      b: { piece: seam.b.piece, segment: cross ? b.mirror : b.plain },
+    });
+    seams.push({
+      ...seam,
+      id: `${seam.id}~espelho`,
+      direction,
+      a: { piece: seam.a.piece, segment: a.mirror },
+      b: { piece: seam.b.piece, segment: cross ? b.plain : b.mirror },
+    });
   }
   return { pieces, seams };
 }

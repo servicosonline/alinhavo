@@ -61,11 +61,13 @@ type Props = {
   onSave?: (doc: PatternDocument, message: string) => Promise<SaveResult>;
   /** Tabela de medidas ligada ao molde: o editor oferece adotar a grade dela. */
   chartGrade?: ChartGrade | null;
+  /** Abre a Prova 3D com o documento atual. Sem ele, o botão "Provar" não aparece. */
+  onTryOn?: (doc: PatternDocument) => void;
 };
 
 const snapMm = (v: number) => Math.round(v); // arrastar encaixa no mm inteiro
 
-export function PatternEditor({ initialDocument, title, subtitle, readOnly = false, onSave, chartGrade = null }: Props) {
+export function PatternEditor({ initialDocument, title, subtitle, readOnly = false, onSave, chartGrade = null, onTryOn }: Props) {
   const history = useHistory(initialDocument);
   const doc = history.value;
   const [selection, setSelection] = useState<Selection>(null);
@@ -239,6 +241,23 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
           <button type="button" className={ui.buttonGhost} onClick={() => setFitKey((k) => k + 1)}>
             Enquadrar
           </button>
+          {onTryOn && (
+            <button
+              type="button"
+              className={ui.buttonGhost}
+              onClick={() => onTryOn(doc)}
+              disabled={errors.length > 0 || !doc.pieces.some((p) => p.placement)}
+              title={
+                errors.length > 0
+                  ? "Corrija os erros do molde antes de provar."
+                  : !doc.pieces.some((p) => p.placement)
+                    ? "Escolha o lado do corpo de pelo menos uma parte (seção Na Prova)."
+                    : "Ver o molde costurado no manequim"
+              }
+            >
+              Provar
+            </button>
+          )}
           <ExportMenu
             doc={doc}
             title={title}
