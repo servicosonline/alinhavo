@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+/* Paleta do Alinhavo: papel de molde, tinta e a linha vermelha do alinhavo. */
+:root {
+  --papel: #f6f1e7;
+  --papel-escuro: #ebe3d3;
+  --tinta: #1d1b18;
+  --tinta-suave: #5c564c;
+  --linha: #c2412d;
+}
+
+@theme inline {
+  --color-papel: var(--papel);
+  --color-papel-escuro: var(--papel-escuro);
+  --color-tinta: var(--tinta);
+  --color-tinta-suave: var(--tinta-suave);
+  --color-linha: var(--linha);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-fraunces);
+}
+
+body {
+  background: var(--papel);
+  color: var(--tinta);
+}
+
+/* Grade de papel milimetrado, discreta. */
+.papel-milimetrado {
+  background-image:
+    linear-gradient(to right, rgb(29 27 24 / 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(29 27 24 / 0.05) 1px, transparent 1px);
+  background-size: 24px 24px;
+}

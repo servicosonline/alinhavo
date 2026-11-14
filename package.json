@@ -1,0 +1,27 @@
+{
+  "name": "alinhavo",
+  "private": true,
+  "packageManager": "npm@11.19.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "supabase"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "check": "turbo run lint typecheck test build",
+    "db:link": "supabase link",
+    "db:push": "supabase db push",
+    "db:types": "supabase gen types typescript --linked --schema public > apps/web/src/lib/supabase/database.types.ts"
+  },
+  "devDependencies": {
+    "turbo": "^2"
+  }
+}
