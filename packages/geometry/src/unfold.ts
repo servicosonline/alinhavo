@@ -1,4 +1,4 @@
-import { pieceAtSize, type PatternDocument, type Piece, type Seam, type Segment } from "./pattern";
+import { pieceAtSize, type PatternDocument, type Piece, type Seam, type SeamEdge, type Segment } from "./pattern";
 import type { Point } from "./polygon";
 
 /**
@@ -133,12 +133,17 @@ export function drawnHalfSide(piece: Piece): "esquerda" | "direita" | null {
  * segmentos que foram espelhados vira duas, uma em cada lado do corpo (id
  * com "~espelho" na segunda): cada cópia é ligada à do mesmo lado do corpo
  * (`drawnHalfSide`). Se só um lado foi espelhado, a cópia fica sem costura.
+ *
+ * `origin[pieceId][i]` diz de qual segmento do molde veio o segmento i da
+ * peça aberta: é o caminho de volta de um clique na Prova para o molde.
  */
-export function garmentAtSize(doc: PatternDocument, size: string): { pieces: Piece[]; seams: Seam[] } {
+export function garmentAtSize(doc: PatternDocument, size: string): Garment {
   const where = new Map<string, Map<number, { plain?: number; mirror?: number }>>();
   const drawnSide = new Map(doc.pieces.map((p) => [p.id, drawnHalfSide(p)]));
+  const origins: Record<string, SegmentOrigin[]> = {};
   const pieces = doc.pieces.map((p) => {
     const { piece, origin } = unfoldPiece(pieceAtSize(p, size));
+    origins[p.id] = origin;
     const map = new Map<number, { plain?: number; mirror?: number }>();
     origin.forEach((o, i) => {
       const entry = map.get(o.segment) ?? {};
@@ -179,5 +184,13 @@ export function garmentAtSize(doc: PatternDocument, size: string): { pieces: Pie
       b: { piece: seam.b.piece, segment: cross ? b.plain : b.mirror },
     });
   }
-  return { pieces, seams };
+  return { pieces, seams, origin: origins };
+}
+
+export type Garment = { pieces: Piece[]; seams: Seam[]; origin: Record<string, SegmentOrigin[]> };
+
+/** O segmento do molde de onde veio o segmento `segment` da peça aberta `pieceId`. */
+export function patternEdgeOf(garment: Garment, pieceId: string, segment: number): SeamEdge | null {
+  const o = garment.origin[pieceId]?.[segment];
+  return o ? { piece: pieceId, segment: o.segment } : null;
 }

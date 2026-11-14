@@ -1,5 +1,5 @@
-import type { CubicSegment, PatternDocument, Piece, PiecePlacement, Segment } from "./pattern";
-import type { Point } from "./polygon";
+import { flattenOutline, type CubicSegment, type PatternDocument, type Piece, type PiecePlacement, type Segment } from "./pattern";
+import { distance, signedArea, type Point } from "./polygon";
 import { dropPieceSeams, remapSeams } from "./seams";
 
 /**
@@ -374,6 +374,80 @@ export function removePoint(doc: PatternDocument, pieceId: string, pointId: stri
     pieceId,
     map,
   );
+}
+
+/**
+ * Desloca o segmento `index` para fora (mm positivo) ou para dentro (negativo)
+ * da peça, perpendicular à corda dele: é o "+4 cm na barra" da Prova.
+ *
+ * - Vizinho reto: a ponta escorrega ao longo dele (a lateral de uma saia
+ *   evasê cresce no mesmo ângulo; a ponta na dobra continua na dobra).
+ * - Vizinho curvo, ou reto quase paralelo ao segmento: a ponta translada, e
+ *   a alça da curva vizinha anda junto (como em `movePoint`).
+ * - Gradação, margens e costuras não mudam: o ajuste vale para a grade toda.
+ *
+ * Recusa a dobra, deslocamento zero ou acima de 1 m, e o que viraria a peça
+ * do avesso (encurtar mais do que o vizinho mede).
+ */
+export function moveSegment(doc: PatternDocument, pieceId: string, index: number, mm: number): PatternDocument {
+  if (!Number.isFinite(mm) || mm === 0 || Math.abs(mm) > 1000) return doc;
+  return updatePiece(doc, pieceId, (p) => {
+    const n = p.outline.length;
+    const seg = p.outline[index];
+    if (!seg || n < 3 || p.fold === index) return null;
+    const startId = segmentStart(p, index);
+    const endId = seg.to;
+    const a = p.points[startId]!;
+    const b = p.points[endId]!;
+    const len = distance(a, b);
+    const orient = Math.sign(signedArea(flattenOutline(p).polygon));
+    if (len < 1e-6 || startId === endId || orient === 0) return null;
+    // Normal para fora: com área positiva (anti-horário nas coordenadas do molde), fica à direita do sentido.
+    const normal = { x: ((b.y - a.y) / len) * orient, y: (-(b.x - a.x) / len) * orient };
+
+    /** Nova posição da ponta `at`, ligada pelo vizinho a `other`. Null = recusa. */
+    const shift = (at: Point, neighbor: Segment, otherId: string, isFold: boolean): Point | null => {
+      if (neighbor.kind === "line") {
+        const o = p.points[otherId]!;
+        const l = distance(o, at);
+        if (l > 1e-6) {
+          const dir = { x: (at.x - o.x) / l, y: (at.y - o.y) / l };
+          const k = dir.x * normal.x + dir.y * normal.y;
+          if (Math.abs(k) >= 0.2) {
+            const s = mm / k;
+            if (l + s < 1) return null; // passaria do outro ponto do vizinho
+            return { x: round(at.x + dir.x * s), y: round(at.y + dir.y * s) };
+          }
+        }
+      }
+      if (isFold) return null; // transladar tiraria a ponta da dobra
+      return { x: round(at.x + normal.x * mm), y: round(at.y + normal.y * mm) };
+    };
+
+    const prevIdx = (index - 1 + n) % n;
+    const nextIdx = (index + 1) % n;
+    const prev = p.outline[prevIdx]!; // termina em startId
+    const next = p.outline[nextIdx]!; // sai de endId
+    const a2 = shift(a, prev, segmentStart(p, prevIdx), p.fold === prevIdx);
+    const b2 = shift(b, next, next.to, p.fold === nextIdx);
+    if (!a2 || !b2 || distance(a2, b2) < 1) return null;
+    const da = { x: a2.x - a.x, y: a2.y - a.y };
+    const db = { x: b2.x - b.x, y: b2.y - b.y };
+    const mv = (q: Point, d: Point): Point => ({ x: round(q.x + d.x), y: round(q.y + d.y) });
+
+    const outline = p.outline.map((s, i): Segment => {
+      if (s.kind !== "cubic") return s;
+      if (i === index) return { ...s, c1: mv(s.c1, da), c2: mv(s.c2, db) };
+      if (i === prevIdx) return { ...s, c2: mv(s.c2, da) };
+      if (i === nextIdx) return { ...s, c1: mv(s.c1, db) };
+      return s;
+    });
+    const moved: Piece = { ...p, points: { ...p.points, [startId]: a2, [endId]: b2 }, outline };
+    // Não deixa a peça virar do avesso nem sumir.
+    const area = signedArea(flattenOutline(moved).polygon);
+    if (Math.sign(area) !== orient || Math.abs(area) < 1) return null;
+    return moved;
+  });
 }
 
 /** Move a parte inteira (pontos, alças e fio) pelo deslocamento `d`. */

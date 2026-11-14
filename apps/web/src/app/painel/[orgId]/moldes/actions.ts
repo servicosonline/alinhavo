@@ -29,9 +29,13 @@ export async function createPattern(orgId: string, _prev: FormState, formData: F
   redirect(`/painel/${orgId}/moldes/${data.id}`);
 }
 
+/** De onde a versão foi salva pelo app (scan e importação ainda não existem). */
+export type SaveOrigin = "editor" | "prova";
+
 /**
  * Salva uma nova versão. O documento é validado aqui de novo: o servidor não
  * confia no navegador. A permissão e a checagem de versão ficam no banco.
+ * `origin` marca se o ajuste veio do editor ou da Prova.
  */
 export async function savePatternVersion(
   orgId: string,
@@ -39,9 +43,17 @@ export async function savePatternVersion(
   expectedVersion: number,
   document: PatternDocument,
   message: string,
+  origin: SaveOrigin = "editor",
 ): Promise<SaveResult> {
   if (!getSupabaseConfig()) return { ok: false, error: "O Supabase ainda não foi configurado neste ambiente." };
-  if (!isUuid(orgId) || !isUuid(patternId) || !Number.isInteger(expectedVersion) || expectedVersion < 0) {
+  if (
+    !isUuid(orgId) ||
+    !isUuid(patternId) ||
+    !Number.isInteger(expectedVersion) ||
+    expectedVersion < 0 ||
+    typeof message !== "string" ||
+    (origin !== "editor" && origin !== "prova")
+  ) {
     return { ok: false, error: "Pedido inválido." };
   }
   const user = await getCurrentUser();
@@ -56,7 +68,7 @@ export async function savePatternVersion(
   const { data, error } = await supabase.rpc("save_pattern_version", {
     p_pattern_id: patternId,
     p_document: doc as unknown as Json,
-    p_origin: "editor",
+    p_origin: origin,
     p_expected_version: expectedVersion,
     p_message: message.trim().slice(0, 500) || null,
   });

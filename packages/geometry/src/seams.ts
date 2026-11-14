@@ -86,7 +86,52 @@ export function dropPieceSeams(doc: PatternDocument, pieceId: string): PatternDo
   return remapSeams(doc, pieceId, () => null);
 }
 
-export type SeamLength = { a: number; b: number; /** a − b, em mm. */ diff: number };
+/**
+ * Segmentos que "continuam" este do outro lado das costuras: quem alonga a
+ * barra da frente quase sempre alonga a das costas, senão a costura lateral
+ * fica com comprimentos diferentes. Para cada ponta do segmento, olha o
+ * vizinho que toca a ponta; se ele é costurado, o segmento que toca a ponta
+ * correspondente do outro lado da costura entra na lista, e a busca segue
+ * dali. A dobra não é atravessada (a metade espelhada é o próprio segmento).
+ * Não inclui o segmento de partida.
+ */
+export function continuationSegments(doc: PatternDocument, edge: SeamEdge): SeamEdge[] {
+  const byId = new Map(doc.pieces.map((p) => [p.id, p]));
+  if (!edgeExists(doc, edge)) return [];
+  const seen = new Set([edgeKey(edge)]);
+  const out: SeamEdge[] = [];
+  const queue: SeamEdge[] = [edge];
+  while (queue.length) {
+    const cur = queue.shift()!;
+    const n = byId.get(cur.piece)!.outline.length;
+    // Vizinho que termina no começo do segmento e vizinho que sai do fim dele.
+    const ends = [
+      { segment: (cur.segment - 1 + n) % n, atEnd: true },
+      { segment: (cur.segment + 1) % n, atEnd: false },
+    ];
+    for (const { segment, atEnd } of ends) {
+      const neighbor = { piece: cur.piece, segment };
+      const seam = seamAt(doc, neighbor);
+      if (!seam) continue;
+      const mine = edgeKey(seam.a) === edgeKey(neighbor);
+      const other = mine ? seam.b : seam.a;
+      // A ponta do vizinho que toca o segmento casa com qual ponta do outro lado?
+      const otherAtEnd = seam.direction === "same" ? atEnd : !atEnd;
+      const m = byId.get(other.piece)!.outline.length;
+      // Fim do outro lado → o segmento seguinte sai dali; começo → o anterior chega ali.
+      const next = { piece: other.piece, segment: otherAtEnd ? (other.segment + 1) % m : (other.segment - 1 + m) % m };
+      const key = edgeKey(next);
+      if (seen.has(key)) continue;
+      seen.add(key);
+      if (byId.get(next.piece)!.fold === next.segment) continue;
+      out.push(next);
+      queue.push(next);
+    }
+  }
+  return out;
+}
+
+export type SeamLength ={ a: number; b: number; /** a − b, em mm. */ diff: number };
 
 /**
  * Comprimento dos dois lados de cada costura, em mm, no tamanho pedido (ou

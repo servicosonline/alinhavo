@@ -1,10 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { removePoint, setFold, setPlacement, splitSegment, toggleCurve } from "./edit";
+import { moveSegment, removePoint, setFold, setPlacement, splitSegment, toggleCurve } from "./edit";
 import { documento, saiaCurva, saiaReta } from "./fixtures";
 import { flattenOutline, pieceAtSize, segmentLengths, validatePattern, type PatternDocument, type Piece } from "./pattern";
 import { polygonArea } from "./polygon";
 import { addSeam, flipSeam } from "./seams";
-import { drawnHalfSide, garmentAtSize, unfoldPiece } from "./unfold";
+import { drawnHalfSide, garmentAtSize, patternEdgeOf, unfoldPiece } from "./unfold";
 
 /** Meia frente com a dobra no centro (segmento 3, de D a A, em x = 0). */
 function meiaFrente(): Piece {
@@ -169,5 +169,35 @@ describe("dobra e posição no editor", () => {
     const { doc, seamId } = addSeam(documento([saiaReta(), costas()]), { piece: "frente", segment: 1 }, { piece: "costas", segment: 1 });
     expect(flipSeam(doc, seamId!).seams[0]!.direction).toBe("same");
     expect(flipSeam(flipSeam(doc, seamId!), seamId!).seams[0]!.direction).toBe("opposite");
+  });
+});
+
+describe("da Prova para o molde", () => {
+  it("cada segmento da peça aberta aponta o segmento do molde, inclusive na metade espelhada", () => {
+    const g = garmentAtSize(documento([meiaFrente()]), "G");
+    // Aberta pela dobra (3): metade original 0, 1, 2 e espelhada 2, 1, 0.
+    expect(g.origin.frente!.map((o) => [o.segment, o.mirrored])).toEqual([
+      [0, false],
+      [1, false],
+      [2, false],
+      [2, true],
+      [1, true],
+      [0, true],
+    ]);
+    expect(patternEdgeOf(g, "frente", 3)).toEqual({ piece: "frente", segment: 2 });
+    expect(patternEdgeOf(g, "frente", 6)).toBeNull();
+    expect(patternEdgeOf(g, "outra", 0)).toBeNull();
+  });
+
+  it("clicar na barra espelhada e alongar 4 cm alonga a barra inteira na Prova", () => {
+    const doc = documento([meiaFrente()]);
+    const edge = patternEdgeOf(garmentAtSize(doc, "M"), "frente", 3)!;
+    const depois = garmentAtSize(moveSegment(doc, edge.piece, edge.segment, 40), "M");
+    const lens = segmentLengths(depois.pieces[0]!);
+    const antes = segmentLengths(garmentAtSize(doc, "M").pieces[0]!);
+    // Barra igual nas duas metades; laterais (1 e 4) cresceram o mesmo tanto.
+    expect(lens[2]).toBeCloseTo(lens[3]!, 6);
+    expect(lens[1]! - antes[1]!).toBeCloseTo(lens[4]! - antes[4]!, 6);
+    expect(lens[1]! - antes[1]!).toBeGreaterThan(39);
   });
 });

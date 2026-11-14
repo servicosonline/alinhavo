@@ -3,6 +3,7 @@ import {
   addRectPiece,
   emptyDocument,
   moveHandle,
+  moveSegment,
   movePoint,
   removePiece,
   removePoint,
@@ -195,5 +196,74 @@ describe("translatePiece", () => {
     expect(segmentLengths(p)).toEqual(segmentLengths(peca(doc)));
     expect(p.grading).toEqual(peca(doc).grading);
     expect(translatePiece(doc, "frente", { x: 0, y: 0 })).toBe(doc);
+  });
+});
+
+describe("moveSegment", () => {
+  /** Distância do ponto à reta que passa por a e b. */
+  const distReta = (q: { x: number; y: number }, a: { x: number; y: number }, b: { x: number; y: number }) =>
+    Math.abs((b.x - a.x) * (a.y - q.y) - (a.x - q.x) * (b.y - a.y)) / Math.hypot(b.x - a.x, b.y - a.y);
+
+  it("alongar a barra 4 cm faz as laterais crescerem exatamente 4 cm, sem tocar no original", () => {
+    const doc = documento();
+    const antes = congelado(doc);
+    const p = peca(moveSegment(doc, "frente", 2, 40));
+    expect(p.points.C).toEqual({ x: 200, y: 640 });
+    expect(p.points.D).toEqual({ x: 0, y: 640 });
+    const lens = segmentLengths(p);
+    expect(lens[1]).toBeCloseTo(640, 9);
+    expect(lens[3]).toBeCloseTo(640, 9);
+    expect(lens[2]).toBeCloseTo(200, 9); // a barra só desce
+    expect(doc).toEqual(antes);
+  });
+
+  it("encurtar faz o contrário", () => {
+    const lens = segmentLengths(peca(moveSegment(documento(), "frente", 2, -30)));
+    expect(lens[1]).toBeCloseTo(570, 9);
+    expect(lens[3]).toBeCloseTo(570, 9);
+  });
+
+  it("vale para a grade toda: a gradação não muda", () => {
+    const doc = moveSegment(documento(), "frente", 2, 40);
+    expect(peca(doc).grading).toEqual(peca(documento()).grading);
+    expect(segmentLengths(pieceAtSize(peca(doc), "G"))[1]).toBeCloseTo(655, 9); // 615 + 40
+  });
+
+  it("numa saia evasê, a lateral cresce no mesmo ângulo e a barra desce exatamente 4 cm", () => {
+    const evase = saiaReta();
+    evase.points.C = { x: 230, y: 600 };
+    const p = peca(moveSegment(documento([evase]), "frente", 2, 40));
+    expect(p.points.C).toEqual({ x: 232, y: 640 }); // 230 + 30 × 40/600
+    expect(distReta(p.points.C!, evase.points.C, evase.points.D!)).toBeCloseTo(40, 9);
+    expect(distReta(p.points.C!, evase.points.B!, evase.points.C)).toBeCloseTo(0, 9); // na reta da lateral
+  });
+
+  it("a curva vizinha acompanha: a alça junto da ponta anda com ela", () => {
+    const p = peca(moveSegment(documento([saiaCurva()]), "frente", 2, 40));
+    const lateral = p.outline[1]!;
+    expect(lateral.kind).toBe("cubic");
+    if (lateral.kind !== "cubic") return;
+    expect(lateral.c1).toEqual({ x: 230, y: 120 });
+    expect(lateral.c2).toEqual({ x: 230, y: 340 });
+    expect(p.points.C).toEqual({ x: 200, y: 640 });
+  });
+
+  it("a ponta na dobra continua na dobra, mesmo com a barra inclinada", () => {
+    const peça = { ...saiaReta(), fold: 3 };
+    peça.points.C = { x: 200, y: 620 };
+    const p = peca(moveSegment(documento([peça]), "frente", 2, 40));
+    expect(p.points.D!.x).toBe(0);
+    expect(distReta(p.points.D!, peça.points.C, peça.points.D!)).toBeCloseTo(40, 1);
+    expect(moveSegment(documento([peça]), "frente", 3, 10)).toEqual(documento([peça])); // a dobra não se move
+  });
+
+  it("recusa deslocamento zero, inválido, segmento inexistente e encurtar mais do que a peça mede", () => {
+    const doc = documento();
+    expect(moveSegment(doc, "frente", 2, 0)).toBe(doc);
+    expect(moveSegment(doc, "frente", 2, Number.NaN)).toBe(doc);
+    expect(moveSegment(doc, "frente", 9, 10)).toBe(doc);
+    expect(moveSegment(doc, "outra", 2, 10)).toBe(doc);
+    expect(moveSegment(doc, "frente", 2, -700)).toBe(doc);
+    expect(validatePattern(moveSegment(doc, "frente", 1, 25))).toEqual([]);
   });
 });

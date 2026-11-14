@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { removePiece, removePoint, splitSegment } from "./edit";
 import { documento, saiaCurva, saiaReta } from "./fixtures";
 import { migratePattern, validatePattern, type PatternDocument, type Piece } from "./pattern";
-import { addSeam, removeSeam, seamAt, seamLengths } from "./seams";
+import { addSeam, continuationSegments, removeSeam, seamAt, seamLengths } from "./seams";
 
 function costas(): Piece {
   return { ...saiaReta(), id: "costas", name: "Costas" };
@@ -176,5 +176,51 @@ describe("seamLengths", () => {
     expect(l.a).toBeGreaterThan(600); // a lateral curva é mais comprida que a reta
     expect(l.diff).toBeGreaterThan(1);
     expect(l.diff).toBeCloseTo(l.a - l.b, 12);
+  });
+});
+
+describe("continuationSegments", () => {
+  it("a barra da frente continua na barra das costas pela costura lateral (mesmo sentido)", () => {
+    const { doc } = addSeam(documento([saiaReta(), costas()]), { piece: "frente", segment: 1 }, { piece: "costas", segment: 1 }, "same");
+    expect(continuationSegments(doc, { piece: "frente", segment: 2 })).toEqual([{ piece: "costas", segment: 2 }]);
+    expect(continuationSegments(doc, { piece: "frente", segment: 0 })).toEqual([{ piece: "costas", segment: 0 }]);
+  });
+
+  it("com a costura em sentido oposto, acha o segmento certo do outro lado", () => {
+    // Costas percorridas ao contrário: centro, barra, lateral de baixo para cima, cintura.
+    const invertidas: Piece = {
+      ...costas(),
+      outline: [
+        { kind: "line", to: "D" }, // 0: centro
+        { kind: "line", to: "C" }, // 1: barra
+        { kind: "line", to: "B" }, // 2: lateral, de baixo para cima
+        { kind: "line", to: "A" }, // 3: cintura
+      ],
+      seamAllowanceByEdge: { 1: 30 },
+    };
+    const { doc } = addSeam(documento([saiaReta(), invertidas]), { piece: "frente", segment: 1 }, { piece: "costas", segment: 2 }, "opposite");
+    expect(continuationSegments(doc, { piece: "frente", segment: 2 })).toEqual([{ piece: "costas", segment: 1 }]);
+    expect(continuationSegments(doc, { piece: "frente", segment: 0 })).toEqual([{ piece: "costas", segment: 3 }]);
+  });
+
+  it("segue a corrente por várias peças e não volta ao segmento de partida", () => {
+    // frente | lado | costas, laterais costuradas: a barra passa pelas três.
+    const lado: Piece = { ...saiaReta(), id: "lado", name: "Lado" };
+    let doc = documento([saiaReta(), lado, costas()]);
+    doc = addSeam(doc, { piece: "frente", segment: 1 }, { piece: "lado", segment: 3 }, "opposite").doc;
+    doc = addSeam(doc, { piece: "lado", segment: 1 }, { piece: "costas", segment: 3 }, "opposite").doc;
+    expect(continuationSegments(doc, { piece: "frente", segment: 2 })).toEqual([
+      { piece: "lado", segment: 2 },
+      { piece: "costas", segment: 2 },
+    ]);
+  });
+
+  it("sem costura nas pontas, não há continuação; a dobra não entra", () => {
+    expect(continuationSegments(documento([saiaReta(), costas()]), { piece: "frente", segment: 2 })).toEqual([]);
+    // Com a barra das costas marcada como dobra, a continuação cairia nela: fica de fora.
+    const dobrada: Piece = { ...costas(), fold: 2 };
+    const { doc } = addSeam(documento([saiaReta(), dobrada]), { piece: "frente", segment: 1 }, { piece: "costas", segment: 1 }, "same");
+    expect(continuationSegments(doc, { piece: "frente", segment: 2 })).toEqual([]);
+    expect(continuationSegments(doc, { piece: "frente", segment: 9 })).toEqual([]);
   });
 });
