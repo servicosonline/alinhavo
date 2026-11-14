@@ -8,7 +8,7 @@ Navegador (Next.js na Vercel)
  ├─ Editor 2D (canvas/SVG)        ← packages/geometry
  ├─ Prova 3D (Three.js + WebGPU)  ← packages/cloth
  ├─ Web Worker de encaixe         ← packages/nesting
- └─ Web Worker de scan (OpenCV)   ← packages/scan
+ └─ Web Worker de scan            ← packages/scan (js-aruco2 + TS próprio)
         │  supabase-js (sessão do usuário, RLS)
         ▼
 Supabase
@@ -24,6 +24,7 @@ Supabase
 **1. Cálculo pesado no navegador, não no servidor.**
 Simulação de tecido e encaixe consomem muita CPU/GPU e muitos segundos. Funções da Vercel têm limite de tempo e custam por execução; o computador do modelista é gratuito para nós. Por isso a simulação roda em WebGPU (com fallback em WASM para máquinas sem suporte) e o encaixe roda em Web Worker.
 *Alternativa descartada:* simular no servidor com GPU. Caro e lento para interação em tempo real.
+*Scan sem OpenCV (Fase 5):* o OpenCV.js são ~14 MB de WebAssembly para baixar e é ruim de testar no Vitest; o Scan só precisa de detectar marcadores (js-aruco2, MIT, ~400 KB) e de operações simples (homografia, limiar, contorno), escritas em TypeScript e testadas com fotos sintéticas.
 *Válvula de escape:* a fila de encaixes da Fase 4 pode ganhar um worker dedicado (container fora da Vercel) lendo uma tabela `nest_jobs` do Supabase, se encaixes grandes ficarem lentos demais no navegador.
 
 **2. O molde é um documento JSON versionado.**

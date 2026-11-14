@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Favicon do Alinhavo: o símbolo sem os piques (abaixo de 24 px eles somem), costura mais larga. -->
+  <defs>
+    <mask id="corte" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
+      <rect width="100" height="100" fill="#fff"/>
+      <path d="M38 0 C36 34 66 52 62 100" fill="none" stroke="#000" stroke-width="12"/>
+    </mask>
+  </defs>
+  <rect x="2" y="2" width="96" height="96" rx="24" fill="#1D1B18" mask="url(#corte)"/>
+  <path d="M39.04 14.38 C43.32 35.54 58.43 52.25 61.73 80.27" pathLength="100" fill="none" stroke="#C43A26" stroke-width="7" stroke-linecap="round" stroke-dasharray="16 26"/>
+</svg>

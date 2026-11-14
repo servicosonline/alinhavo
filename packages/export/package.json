@@ -9,7 +9,8 @@
     "./tech-pack": "./src/tech-pack.ts",
     "./tech-pack-pdf": "./src/tech-pack-pdf.ts",
     "./marker-dxf": "./src/marker-dxf.ts",
-    "./marker-plt": "./src/marker-plt.ts"
+    "./marker-plt": "./src/marker-plt.ts",
+    "./scan-sheet-pdf": "./src/scan-sheet-pdf.ts"
   },
   "scripts": {
     "typecheck": "tsc --noEmit -p tsconfig.json",
@@ -18,6 +19,7 @@
   "dependencies": {
     "@alinhavo/geometry": "*",
     "@alinhavo/nesting": "*",
+    "@alinhavo/scan": "*",
     "pdf-lib": "^1.17.1"
   },
   "devDependencies": {

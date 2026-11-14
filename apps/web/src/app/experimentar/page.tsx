@@ -15,9 +15,14 @@ export default function ExperimentarPage() {
           <Link href="/" className="font-display text-xl font-semibold tracking-tight">
             Alinhavo
           </Link>
-          <Link href="/entrar" className="text-sm text-tinta-suave hover:text-tinta">
-            Entrar para salvar →
-          </Link>
+          <span className="flex items-center gap-4">
+            <Link href="/experimentar/scan" className="text-sm text-tinta-suave hover:text-tinta">
+              Scan de molde de papel
+            </Link>
+            <Link href="/entrar" className="text-sm text-tinta-suave hover:text-tinta">
+              Entrar para salvar →
+            </Link>
+          </span>
         </header>
         <EditorDemo />
         <p className="mt-4 text-xs text-tinta-suave">

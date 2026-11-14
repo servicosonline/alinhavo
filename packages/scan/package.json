@@ -1,0 +1,21 @@
+{
+  "name": "@alinhavo/scan",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@alinhavo/geometry": "*",
+    "js-aruco2": "2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "vitest": "^4.1.12"
+  }
+}

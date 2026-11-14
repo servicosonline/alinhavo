@@ -8,6 +8,7 @@ import type { FormState } from "@/components/ui";
 import { getCurrentUser } from "@/lib/auth";
 import { EXAMPLES, exampleDocument, isExampleId } from "@/lib/examples";
 import { isUuid } from "@/lib/ids";
+import { MAX_SCANNED_PIECES } from "@/lib/scan/document";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import type { Json } from "@/lib/supabase/database.types";
 import { createClient } from "@/lib/supabase/server";
@@ -45,7 +46,42 @@ export async function createPattern(orgId: string, _prev: FormState, formData: F
   redirect(`/painel/${orgId}/moldes/${data.id}`);
 }
 
-/** De onde a versão foi salva pelo app (scan e importação ainda não existem). */
+/**
+ * Molde novo a partir das peças do Scan: o documento é conferido aqui de
+ * novo (vem do navegador) e vira a versão 1 com origem "scan".
+ */
+export async function createPatternFromScan(orgId: string, name: unknown, document: unknown): Promise<FormState> {
+  if (!getSupabaseConfig()) return { error: "O Supabase ainda não foi configurado neste ambiente." };
+  if (!isUuid(orgId)) return { error: "Organização inválida." };
+  const user = await getCurrentUser();
+  if (!user) return { error: "Sua sessão expirou. Entre de novo para salvar." };
+  const title = typeof name === "string" ? name.trim() : "";
+  if (title.length < 1 || title.length > 120) return { error: "Dê um nome ao molde (até 120 caracteres)." };
+  const doc = migratePattern(document);
+  const erros = doc && isPatternShape(doc) ? validatePattern(doc) : ["Documento do molde inválido."];
+  if (!doc || erros.length > 0) return { error: erros[0] ?? "Documento do molde inválido." };
+  if (doc.pieces.length === 0 || doc.pieces.length > MAX_SCANNED_PIECES) return { error: `De 1 a ${MAX_SCANNED_PIECES} peças por molde escaneado.` };
+
+  const supabase = await createClient();
+  const { data, error } = await supabase.from("patterns").insert({ org_id: orgId, name: title }).select("id").single();
+  if (error || !data) return { error: error?.code === "42501" ? "Só donos, admins e modelistas criam moldes." : "Não foi possível criar o molde." };
+  const { error: saveError } = await supabase.rpc("save_pattern_version", {
+    p_pattern_id: data.id,
+    p_document: doc as unknown as Json,
+    p_origin: "scan",
+    p_expected_version: 0,
+    p_message: `Escaneado: ${doc.pieces.length} ${doc.pieces.length === 1 ? "peça" : "peças"}`,
+  });
+  // O molde já existe: se a versão não entrou, ele abre vazio e avisa como de costume.
+  if (saveError) {
+    console.error(`[moldes] Scan não gravado: code=${saveError.code ?? "?"}`);
+    return { error: "O molde foi criado, mas as peças não foram gravadas. Abra Moldes e tente de novo." };
+  }
+  revalidatePath(`/painel/${orgId}/moldes`);
+  redirect(`/painel/${orgId}/moldes/${data.id}`);
+}
+
+/** De onde a versão foi salva pelo editor ou pela Prova (o Scan usa createPatternFromScan). */
 export type SaveOrigin = "editor" | "prova";
 
 /**

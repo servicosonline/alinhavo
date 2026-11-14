@@ -12,9 +12,11 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// SOFT e WONK: o logo e os títulos usam a Fraunces macia (SOFT 100), ver marca/README.md.
 const fraunces = Fraunces({
   variable: "--font-fraunces",
   subsets: ["latin"],
+  axes: ["SOFT", "WONK", "opsz"],
 });
 
 export const metadata: Metadata = {
