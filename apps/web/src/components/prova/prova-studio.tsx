@@ -1,8 +1,10 @@
 "use client";
 
 import type { PatternDocument } from "@alinhavo/geometry";
-import { useEffect, useRef, useState } from "react";
-import type { FabricId, FromWorker, PoseId, ToWorker } from "@/lib/prova/protocol";
+import { useCallback, useEffect, useRef, useState } from "react";
+import type { MapSummary } from "@alinhavo/cloth";
+import { clearanceColor, fillColors, heat, LOOSE_MM, pressureColor } from "@/lib/prova/colors";
+import type { FabricId, FromWorker, PoseId, ProvaMaps, ToWorker } from "@/lib/prova/protocol";
 import { formatCm } from "@/lib/units";
 import { ui } from "../ui";
 import type { ProvaScene } from "./scene";
@@ -36,6 +38,36 @@ const MEASUREMENT_NAME: Record<string, string> = {
   braco: "braço",
 };
 
+type View = "tecido" | "pressao" | "folga";
+const VIEWS: { id: View; name: string }[] = [
+  { id: "tecido", name: "Tecido" },
+  { id: "pressao", name: "Pressão" },
+  { id: "folga", name: "Folga" },
+];
+
+/** Porcentagem em português (0,05 → "5%"). */
+function percent(fraction: number, digits = 1) {
+  return `${(fraction * 100).toLocaleString("pt-BR", { maximumFractionDigits: digits })}%`;
+}
+
+/** Barra com a escala de cores e o que cada ponta significa. */
+function Legend({ view, fabricLimit }: { view: Exclude<View, "tecido">; fabricLimit: number }) {
+  const stops = [0, 0.25, 0.5, 0.75, 1].map((t) => {
+    const [r, g, b] = heat(t);
+    return `rgb(${Math.round(r * 255)} ${Math.round(g * 255)} ${Math.round(b * 255)}) ${t * 100}%`;
+  });
+  const [left, right] = view === "pressao" ? ["Sem tensão", `${percent(fabricLimit, 0)} (limite)`] : [`${formatCm(LOOSE_MM)} cm ou mais`, "Encostado"];
+  return (
+    <div className="space-y-1" data-legend={view}>
+      <div className="h-2.5 rounded-full" style={{ background: `linear-gradient(to right, ${stops.join(", ")})` }} aria-hidden />
+      <div className="flex justify-between text-[11px] text-tinta-suave">
+        <span>{left}</span>
+        <span>{right}</span>
+      </div>
+    </div>
+  );
+}
+
 type Status =
   | { kind: "loading" }
   | { kind: "running"; time: number; seamGap: number }
@@ -57,8 +89,27 @@ export function ProvaStudio({ doc, measurementsBySize }: Props) {
   const [pose, setPose] = useState<PoseId>("em-pe");
   const [status, setStatus] = useState<Status>({ kind: "loading" });
   const [notes, setNotes] = useState<{ skipped: string[]; estimated: string[] }>({ skipped: [], estimated: [] });
+  const [view, setView] = useState<View>("tecido");
+  const [maps, setMaps] = useState<{ summary: MapSummary; fabricLimit: number } | null>(null);
   const color = FABRICS.find((f) => f.id === fabric)!.color;
   const colorRef = useRef(color);
+  const viewModeRef = useRef<View>("tecido");
+  /** Últimos mapas recebidos e o limite do tecido, para pintar ao trocar a vista. */
+  const lastMapsRef = useRef<{ maps: ProvaMaps | null; fabricLimit: number }>({ maps: null, fabricLimit: 0.05 });
+
+  /** Pinta a roupa conforme a vista escolhida. Só lê refs: é estável. */
+  const paint = useCallback((scene: ProvaScene | null) => {
+    if (!scene) return;
+    const mode = viewModeRef.current;
+    const { maps: m, fabricLimit } = lastMapsRef.current;
+    if (mode === "tecido" || !m) {
+      scene.setMapColors(null, colorRef.current);
+    } else if (mode === "pressao") {
+      scene.setMapColors(fillColors(m.stretch, (s) => pressureColor(s, fabricLimit)), colorRef.current);
+    } else {
+      scene.setMapColors(fillColors(m.clearance, clearanceColor), colorRef.current);
+    }
+  }, []);
 
   // Cena e Worker: criados uma vez, descartados ao sair da página.
   useEffect(() => {
@@ -70,18 +121,26 @@ export function ProvaStudio({ doc, measurementsBySize }: Props) {
     const show = (scene: ProvaScene, msg: Extract<FromWorker, { type: "ready" }>) => {
       scene.setBody(msg.body.positions, msg.body.indices);
       scene.setGarment(msg.garment.positions, msg.garment.indices, colorRef.current);
+      paint(scene);
     };
     worker.onmessage = (e: MessageEvent<FromWorker>) => {
       const msg = e.data;
       const scene = sceneRef.current;
       if (msg.type === "ready") {
         lastReady = msg;
+        lastMapsRef.current = { maps: null, fabricLimit: msg.fabricLimit };
+        setMaps(null);
         if (scene) show(scene, msg);
         setNotes({ skipped: msg.skipped, estimated: msg.estimated });
         setStatus({ kind: "running", time: 0, seamGap: Infinity });
         worker.postMessage({ type: "play" } satisfies ToWorker);
       } else if (msg.type === "frame") {
         scene?.updateGarment(msg.positions);
+        if (msg.maps) {
+          lastMapsRef.current = { ...lastMapsRef.current, maps: msg.maps };
+          setMaps({ summary: msg.maps.summary, fabricLimit: lastMapsRef.current.fabricLimit });
+          if (viewModeRef.current !== "tecido") paint(scene);
+        }
         setStatus((s) => (s.kind === "paused" ? s : { kind: "running", time: msg.time, seamGap: msg.seamGap }));
       } else {
         setStatus({ kind: "error", message: msg.message });
@@ -100,7 +159,7 @@ export function ProvaStudio({ doc, measurementsBySize }: Props) {
       sceneRef.current?.dispose();
       sceneRef.current = null;
     };
-  }, []);
+  }, [paint]);
 
   // Trocar tamanho, tecido ou pose monta a Prova de novo.
   useEffect(() => {
@@ -111,6 +170,12 @@ export function ProvaStudio({ doc, measurementsBySize }: Props) {
     const measurements = measurementsBySize[size] ?? {};
     worker.postMessage({ type: "init", setup: { doc, size, measurements, fabric, pose } } satisfies ToWorker);
   }, [doc, size, fabric, pose, measurementsBySize, color]);
+
+  // Trocar a vista só repinta (não remonta a Prova).
+  useEffect(() => {
+    viewModeRef.current = view;
+    paint(sceneRef.current);
+  }, [view, paint]);
 
   const togglePlay = () => {
     const worker = workerRef.current;
@@ -191,6 +256,49 @@ export function ProvaStudio({ doc, measurementsBySize }: Props) {
               Recomeçar
             </button>
           </div>
+        </div>
+
+        <div className={`${ui.card} space-y-3 p-4`}>
+          <fieldset>
+            <legend className="text-xs font-medium">Ver</legend>
+            <div className="mt-1 grid grid-cols-3 gap-1" role="radiogroup" aria-label="Ver">
+              {VIEWS.map((v) => (
+                <button
+                  key={v.id}
+                  type="button"
+                  role="radio"
+                  aria-checked={view === v.id}
+                  data-view={v.id}
+                  className={`rounded-md border px-2 py-1.5 text-sm ${view === v.id ? "border-tinta bg-tinta text-papel" : "border-tinta/20 hover:bg-papel-escuro"}`}
+                  onClick={() => setView(v.id)}
+                >
+                  {v.name}
+                </button>
+              ))}
+            </div>
+          </fieldset>
+          {view !== "tecido" && <Legend view={view} fabricLimit={maps?.fabricLimit ?? 0.05} />}
+          {view !== "tecido" && (
+            <div className="space-y-1 text-xs" data-map-summary>
+              {!maps ? (
+                <p className="text-tinta-suave">Calculando o mapa…</p>
+              ) : view === "pressao" ? (
+                <>
+                  <p data-high-stretch={maps.summary.highStretch.toFixed(4)}>
+                    Pressão alta: {percent(maps.summary.highStretch)} ({percent(maps.summary.highStretch / maps.fabricLimit, 0)} do limite do
+                    tecido); 98% da roupa fica abaixo disso.
+                  </p>
+                  <p data-near-limit={maps.summary.areaNearLimit.toFixed(4)}>
+                    Área perto do limite (acima de 80%): {percent(maps.summary.areaNearLimit, 0)} da roupa.
+                  </p>
+                </>
+              ) : (
+                <p data-clearance={`${maps.summary.minClearance.toFixed(1)}-${maps.summary.maxClearance.toFixed(1)}`}>
+                  Folga de {formatCm(maps.summary.minClearance)} a {formatCm(maps.summary.maxClearance)} cm até o corpo.
+                </p>
+              )}
+            </div>
+          )}
         </div>
 
         <div className={`${ui.card} space-y-2 p-4 text-xs`} role="status" aria-live="polite" data-prova-status={status.kind}>

@@ -106,6 +106,32 @@ export class ProvaScene {
   }
 
   /**
+   * Cores por vértice (mapa de pressão ou folga, 3 floats por vértice); null
+   * volta à cor do tecido.
+   */
+  setMapColors(colors: Float32Array | null, fabricColor: string) {
+    if (!this.garment) return;
+    const material = this.garment.material as THREE.MeshStandardMaterial;
+    const geometry = this.garment.geometry;
+    if (colors) {
+      const current = geometry.getAttribute("color") as THREE.BufferAttribute | undefined;
+      if (current && current.array.length === colors.length) {
+        (current.array as Float32Array).set(colors);
+        current.needsUpdate = true;
+      } else {
+        geometry.setAttribute("color", new THREE.BufferAttribute(Float32Array.from(colors), 3));
+      }
+      material.color.set(0xffffff);
+    } else {
+      material.color.set(fabricColor);
+    }
+    if (material.vertexColors !== !!colors) {
+      material.vertexColors = !!colors;
+      material.needsUpdate = true;
+    }
+  }
+
+  /**
    * Novas posições da roupa (mesma topologia). Só no desenho, a roupa sai
    * GARMENT_LIFT mm para fora da sua superfície: os triângulos são planos e,
    * entre vértices encostados no corpo, cortariam a curva dele (o corpo

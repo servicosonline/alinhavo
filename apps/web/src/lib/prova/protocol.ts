@@ -1,3 +1,4 @@
+import type { MapSummary } from "@alinhavo/cloth";
 import type { PatternDocument } from "@alinhavo/geometry";
 
 /**
@@ -30,6 +31,17 @@ export type ReadyMessage = {
   skipped: string[];
   /** Medidas que o corpo estimou (não vieram da tabela). */
   estimated: string[];
+  /** Esticamento máximo do tecido (fração), o vermelho do mapa de pressão. */
+  fabricLimit: number;
+};
+
+/** Mapas por vértice e resumo para a leitura em texto. */
+export type ProvaMaps = {
+  /** Esticamento por vértice (fração: 0,05 = 5%). */
+  stretch: Float32Array;
+  /** Folga até o corpo por vértice, em mm. */
+  clearance: Float32Array;
+  summary: MapSummary;
 };
 
 export type FrameMessage = {
@@ -39,7 +51,12 @@ export type FrameMessage = {
   time: number;
   /** Maior vão ainda aberto nas costuras, em mm. */
   seamGap: number;
+  /** A cada MAPS_EVERY quadros (calcular a folga custa mais que o quadro). */
+  maps?: ProvaMaps;
 };
+
+/** De quantos em quantos quadros os mapas são recalculados. */
+export const MAPS_EVERY = 6;
 
 export type FromWorker = ReadyMessage | FrameMessage | { type: "error"; message: string };
 

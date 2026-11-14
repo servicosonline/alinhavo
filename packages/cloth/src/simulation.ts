@@ -53,6 +53,8 @@ export type Simulation = {
   /** x, y, z de cada vértice, em mm. Atualizado a cada step. */
   readonly positions: Float64Array;
   readonly vertexCount: number;
+  /** Três índices (globais) por triângulo, na ordem de triangleStretch. */
+  readonly triangles: Uint32Array;
   /** Índice do primeiro vértice de cada parte (pelo id da parte). */
   readonly pieceOffset: ReadonlyMap<string, number>;
   /** Tempo simulado, em s. */
@@ -338,6 +340,7 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
   return {
     positions: x,
     vertexCount: n,
+    triangles: Uint32Array.from(triangles),
     pieceOffset,
     get time() {
       return time;
