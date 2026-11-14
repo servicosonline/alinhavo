@@ -22,6 +22,7 @@ import {
   type ProvaSetup,
   type ToWorker,
 } from "./protocol";
+import { buildProvaEdges } from "./edges";
 
 /**
  * Worker da Prova: monta corpo, malhas e simulação fora da tela e manda as
@@ -85,6 +86,7 @@ function build(setup: ProvaSetup) {
     skipped,
     estimated: body.fit.reading.estimated,
     fabricLimit: fabric.maxStretch,
+    edges: buildProvaEdges(meshes, sim.pieceOffset, garment.origin),
   });
 }
 

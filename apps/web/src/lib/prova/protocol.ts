@@ -1,5 +1,6 @@
 import type { MapSummary } from "@alinhavo/cloth";
 import type { PatternDocument } from "@alinhavo/geometry";
+import type { ProvaEdges } from "./edges";
 
 /**
  * Mensagens entre a tela da Prova e o Worker que simula. Só dados
@@ -33,6 +34,8 @@ export type ReadyMessage = {
   estimated: string[];
   /** Esticamento máximo do tecido (fração), o vermelho do mapa de pressão. */
   fabricLimit: number;
+  /** Bordas da roupa ligadas aos segmentos do molde (para clicar e ajustar). */
+  edges: ProvaEdges;
 };
 
 /** Mapas por vértice e resumo para a leitura em texto. */

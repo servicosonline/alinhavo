@@ -6,6 +6,7 @@ import { Loading, NotConfigured } from "@/components/page-shell";
 import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
+import { canEditPatterns, getMyRole } from "@/lib/org-access";
 import { measurementsBySize } from "@/lib/prova/measurements";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
@@ -25,7 +26,7 @@ export default function ProvaPage({ params }: PageProps<"/painel/[orgId]/moldes/
 async function Prova({ params }: { params: Params }) {
   const { orgId, patternId } = await params;
   if (!isUuid(orgId) || !isUuid(patternId)) notFound();
-  await requireUser(`/painel/${orgId}/moldes/${patternId}/prova`);
+  const user = await requireUser(`/painel/${orgId}/moldes/${patternId}/prova`);
   // Cliente com a sessão do usuário: tudo abaixo passa pela RLS.
   const supabase = await createClient();
 
@@ -51,7 +52,7 @@ async function Prova({ params }: { params: Params }) {
     );
   }
 
-  const [versionRes, chartRes] = await Promise.all([
+  const [versionRes, chartRes, role] = await Promise.all([
     supabase
       .from("pattern_versions")
       .select("document")
@@ -61,6 +62,7 @@ async function Prova({ params }: { params: Params }) {
     pattern.size_chart_id
       ? supabase.from("size_charts").select("id, name").eq("id", pattern.size_chart_id).eq("org_id", orgId).maybeSingle()
       : Promise.resolve({ data: null }),
+    getMyRole(supabase, orgId, user.id),
   ]);
   const doc = migratePattern(versionRes.data?.document);
   if (!doc || validatePattern(doc).length > 0) {
@@ -107,7 +109,10 @@ async function Prova({ params }: { params: Params }) {
           )}
         </p>
       </div>
-      <ProvaPainel patternId={pattern.id} version={pattern.current_version} savedDoc={doc} measurementsBySize={measurements.bySize} />
+      <ProvaPainel
+        orgId={orgId}
+        canEdit={canEditPatterns(role)}
+        patternId={pattern.id} version={pattern.current_version} savedDoc={doc} measurementsBySize={measurements.bySize} />
     </div>
   );
 }

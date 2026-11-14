@@ -1,36 +1,63 @@
 "use client";
 
 import type { PatternDocument } from "@alinhavo/geometry";
-import { useMemo, useSyncExternalStore } from "react";
+import { useMemo, useState, useSyncExternalStore } from "react";
+import type { ProvaSaveMode } from "@/components/prova/adjust-panel";
 import { ProvaStudio } from "@/components/prova/prova-studio";
 import { loadForProva, storedForProva } from "@/lib/prova/handoff";
+import { savePatternVersion } from "../../actions";
 
 const noSubscribe = () => () => {};
 
 /**
  * Prova do molde no painel: as alterações ainda não salvas que vieram do
- * editor nesta aba (se partiram da versão atual) ou a versão salva.
+ * editor nesta aba (se partiram da versão atual) ou a versão salva. Um
+ * ajuste na Prova grava a versão seguinte, com origem "prova".
  */
 export function ProvaPainel({
+  orgId,
   patternId,
-  version,
-  savedDoc,
+  version: initialVersion,
+  savedDoc: initialDoc,
   measurementsBySize,
+  canEdit,
 }: {
+  orgId: string;
   patternId: string;
   version: number;
   savedDoc: PatternDocument;
   measurementsBySize: Record<string, Record<string, number>>;
+  canEdit: boolean;
 }) {
+  const [saved, setSaved] = useState({ version: initialVersion, doc: initialDoc });
   const stored = useSyncExternalStore(noSubscribe, () => storedForProva(patternId), () => null);
-  const unsaved = useMemo(() => (stored ? loadForProva(patternId, version) : null), [stored, patternId, version]);
-  const doc = unsaved ?? savedDoc;
+  // A cópia do editor só vale para a versão de onde partiu: depois de salvar, some.
+  const unsaved = useMemo(() => (stored ? loadForProva(patternId, saved.version) : null), [stored, patternId, saved.version]);
+  const doc = unsaved ?? saved.doc;
+
+  const saveMode = useMemo<ProvaSaveMode>(
+    () =>
+      canEdit
+        ? {
+            kind: "save",
+            nextVersion: saved.version + 1,
+            unsaved: !!unsaved,
+            onSave: async (next, message) => {
+              const result = await savePatternVersion(orgId, patternId, saved.version, next, message, "prova");
+              if (result.ok) setSaved({ version: result.version, doc: next });
+              return result;
+            },
+          }
+        : { kind: "readonly" },
+    [canEdit, saved.version, unsaved, orgId, patternId],
+  );
+
   return (
     <>
       <p className="text-xs text-tinta-suave" role="status">
-        {unsaved ? "Provando as alterações ainda não salvas do editor." : `Provando a versão ${version}.`}
+        {unsaved ? "Provando as alterações ainda não salvas do editor." : `Provando a versão ${saved.version}.`}
       </p>
-      <ProvaStudio doc={doc} measurementsBySize={measurementsBySize} />
+      <ProvaStudio doc={doc} measurementsBySize={measurementsBySize} saveMode={saveMode} />
     </>
   );
 }

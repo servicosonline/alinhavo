@@ -4,9 +4,11 @@ import type { PatternDocument } from "@alinhavo/geometry";
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { MapSummary } from "@alinhavo/cloth";
 import { clearanceColor, fillColors, heat, LOOSE_MM, pressureColor } from "@/lib/prova/colors";
+import type { ProvaEdges } from "@/lib/prova/edges";
 import type { FabricId, FromWorker, PoseId, ProvaMaps, ToWorker } from "@/lib/prova/protocol";
 import { formatCm } from "@/lib/units";
 import { ui } from "../ui";
+import { AdjustPanel, type ProvaSaveMode } from "./adjust-panel";
 import type { ProvaScene } from "./scene";
 
 const FABRICS: { id: FabricId; name: string; color: string }[] = [
@@ -78,9 +80,19 @@ type Props = {
   doc: PatternDocument;
   /** Medidas por tamanho (nome da medida → mm). */
   measurementsBySize: Record<string, Record<string, number>>;
+  /** O que fazer com um ajuste feito na Prova (salvar versão, só na tela ou só ver). */
+  saveMode: ProvaSaveMode;
 };
 
-export function ProvaStudio({ doc, measurementsBySize }: Props) {
+export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode }: Props) {
+  // Molde em prova: começa no que veio da página e muda a cada ajuste aplicado.
+  // Se a página mandar outro molde (versão nova salva), recomeça dele.
+  const [work, setWork] = useState({ source: sourceDoc, doc: sourceDoc });
+  if (work.source !== sourceDoc) setWork({ source: sourceDoc, doc: sourceDoc });
+  const doc = work.source === sourceDoc ? work.doc : sourceDoc;
+  const [edges, setEdges] = useState<ProvaEdges | null>(null);
+  const [selected, setSelected] = useState<number | null>(null);
+  const [notice, setNotice] = useState<string | null>(null);
   const viewRef = useRef<HTMLDivElement>(null);
   const sceneRef = useRef<ProvaScene | null>(null);
   const workerRef = useRef<Worker | null>(null);
@@ -121,6 +133,7 @@ export function ProvaStudio({ doc, measurementsBySize }: Props) {
     const show = (scene: ProvaScene, msg: Extract<FromWorker, { type: "ready" }>) => {
       scene.setBody(msg.body.positions, msg.body.indices);
       scene.setGarment(msg.garment.positions, msg.garment.indices, colorRef.current);
+      scene.setEdges(msg.edges.lines, msg.edges.owner);
       paint(scene);
     };
     worker.onmessage = (e: MessageEvent<FromWorker>) => {
@@ -130,6 +143,8 @@ export function ProvaStudio({ doc, measurementsBySize }: Props) {
         lastReady = msg;
         lastMapsRef.current = { maps: null, fabricLimit: msg.fabricLimit };
         setMaps(null);
+        setEdges(msg.edges);
+        setSelected(null);
         if (scene) show(scene, msg);
         setNotes({ skipped: msg.skipped, estimated: msg.estimated });
         setStatus({ kind: "running", time: 0, seamGap: Infinity });
@@ -150,6 +165,7 @@ export function ProvaStudio({ doc, measurementsBySize }: Props) {
       if (disposed || !viewRef.current) return;
       const scene = new ProvaScene(viewRef.current);
       sceneRef.current = scene;
+      scene.onPick(setSelected);
       if (lastReady) show(scene, lastReady);
     });
     return () => {
@@ -170,6 +186,17 @@ export function ProvaStudio({ doc, measurementsBySize }: Props) {
     const measurements = measurementsBySize[size] ?? {};
     worker.postMessage({ type: "init", setup: { doc, size, measurements, fabric, pose } } satisfies ToWorker);
   }, [doc, size, fabric, pose, measurementsBySize, color]);
+
+  // A borda escolhida (pelo clique ou pela lista) fica destacada na roupa.
+  useEffect(() => {
+    sceneRef.current?.setSelected(selected);
+  }, [selected]);
+
+  const applied = (next: PatternDocument, text: string) => {
+    setWork({ source: sourceDoc, doc: next });
+    setSelected(null);
+    setNotice(text);
+  };
 
   // Trocar a vista só repinta (não remonta a Prova).
   useEffect(() => {
@@ -301,6 +328,21 @@ export function ProvaStudio({ doc, measurementsBySize }: Props) {
           )}
         </div>
 
+        <AdjustPanel
+          doc={doc}
+          edges={edges?.list ?? []}
+          selected={selected}
+          onSelect={setSelected}
+          mode={saveMode}
+          onApplied={applied}
+          disabled={status.kind === "loading" || status.kind === "error"}
+        />
+        {notice && (
+          <p className={`${ui.success} text-xs`} role="status" data-adjust-notice>
+            {notice}
+          </p>
+        )}
+
         <div className={`${ui.card} space-y-2 p-4 text-xs`} role="status" aria-live="polite" data-prova-status={status.kind}>
           {status.kind === "loading" && <p>Montando o corpo e as peças…</p>}
           {(status.kind === "running" || status.kind === "paused") && (
@@ -327,7 +369,7 @@ export function ProvaStudio({ doc, measurementsBySize }: Props) {
             </p>
           )}
         </div>
-        <p className="text-xs text-tinta-suave">Arraste para girar, use a roda ou dois dedos para aproximar.</p>
+        <p className="text-xs text-tinta-suave">Arraste para girar, use a roda ou dois dedos para aproximar. Clique numa borda para ajustar o molde.</p>
       </aside>
     </div>
   );

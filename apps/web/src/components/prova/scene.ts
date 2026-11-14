@@ -1,5 +1,6 @@
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
+import { frontmostLine, nearestLine } from "@/lib/prova/edges";
 
 /** Quanto a roupa é desenhada para fora da superfície dela, em mm (só visual). */
 const GARMENT_LIFT = 4;
@@ -19,6 +20,15 @@ export class ProvaScene {
   private garment: THREE.Mesh | null = null;
   private frame = 0;
   private resize: ResizeObserver;
+  /** Posições da roupa como a simulação mandou (sem o afastamento visual). */
+  private raw: Float32Array | null = null;
+  private edgeLines: Uint32Array = new Uint32Array(0);
+  private edgeOwner: Int32Array = new Int32Array(0);
+  private selected: number | null = null;
+  private highlight: THREE.Group | null = null;
+  private pick: ((owner: number | null) => void) | null = null;
+  private pointerStart: { x: number; y: number } | null = null;
+  private raycaster = new THREE.Raycaster();
 
   constructor(private container: HTMLElement) {
     this.renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
@@ -55,6 +65,11 @@ export class ProvaScene {
     this.controls.maxDistance = 6;
     this.controls.maxPolarAngle = Math.PI * 0.55;
     this.controls.update();
+
+    // Clique (sem arrastar) escolhe a borda; arrastar continua girando a câmera.
+    const canvas = this.renderer.domElement;
+    canvas.addEventListener("pointerdown", this.onPointerDown);
+    canvas.addEventListener("pointerup", this.onPointerUp);
 
     this.resize = new ResizeObserver(() => this.fit());
     this.resize.observe(container);
@@ -142,6 +157,8 @@ export class ProvaScene {
     const geometry = this.garment.geometry;
     const attr = geometry.getAttribute("position") as THREE.BufferAttribute;
     if (attr.array.length !== positions.length) return;
+    this.raw = positions;
+    this.updateHighlight();
     const out = attr.array as Float32Array;
     out.set(positions);
     attr.needsUpdate = true;
@@ -159,8 +176,116 @@ export class ProvaScene {
     geometry.computeBoundingSphere();
   }
 
+  /** Bordas clicáveis (pares de vértices) e o segmento do molde de cada uma. Limpa a seleção. */
+  setEdges(lines: Uint32Array, owner: Int32Array) {
+    this.edgeLines = lines;
+    this.edgeOwner = owner;
+    this.setSelected(null);
+  }
+
+  /** Chamado com o índice do segmento escolhido (ou null, clique fora das bordas). */
+  onPick(fn: ((owner: number | null) => void) | null) {
+    this.pick = fn;
+  }
+
+  /** Destaca as bordas de um segmento do molde (as duas metades, se for peça dobrada). */
+  setSelected(owner: number | null) {
+    this.selected = owner;
+    if (this.highlight) {
+      this.world.remove(this.highlight);
+      for (const child of this.highlight.children) {
+        const obj = child as THREE.LineSegments | THREE.Points;
+        obj.geometry.dispose();
+        (obj.material as THREE.Material).dispose();
+      }
+      this.highlight = null;
+    }
+    if (owner === null || !this.raw) return;
+    const pairs: number[] = [];
+    for (let i = 0; i < this.edgeOwner.length; i++) {
+      if (this.edgeOwner[i] === owner) pairs.push(this.edgeLines[2 * i]!, this.edgeLines[2 * i + 1]!);
+    }
+    if (pairs.length === 0) return;
+    const geometry = new THREE.BufferGeometry();
+    geometry.setAttribute("position", new THREE.BufferAttribute(new Float32Array(this.raw.length), 3));
+    geometry.setIndex(pairs);
+    // Linha fina mais pontos grossos: a WebGL só desenha linha de 1 px.
+    const color = 0xc2412d;
+    const lines = new THREE.LineSegments(geometry, new THREE.LineBasicMaterial({ color, depthTest: false }));
+    const points = new THREE.Points(
+      geometry,
+      new THREE.PointsMaterial({ color, size: 7, sizeAttenuation: false, depthTest: false }),
+    );
+    lines.renderOrder = points.renderOrder = 10;
+    this.highlight = new THREE.Group();
+    this.highlight.add(lines, points);
+    this.world.add(this.highlight);
+    this.updateHighlight();
+  }
+
+  private updateHighlight() {
+    if (!this.highlight || !this.raw) return;
+    const first = this.highlight.children[0] as THREE.LineSegments;
+    const attr = first.geometry.getAttribute("position") as THREE.BufferAttribute;
+    if (attr.array.length !== this.raw.length) return;
+    (attr.array as Float32Array).set(this.raw);
+    attr.needsUpdate = true;
+    first.geometry.computeBoundingSphere();
+  }
+
+  private onPointerDown = (e: PointerEvent) => {
+    this.pointerStart = { x: e.clientX, y: e.clientY };
+  };
+
+  private onPointerUp = (e: PointerEvent) => {
+    const start = this.pointerStart;
+    this.pointerStart = null;
+    if (!start || !this.pick || Math.hypot(e.clientX - start.x, e.clientY - start.y) > 5) return;
+    this.pick(this.pickAt(e.clientX, e.clientY));
+  };
+
+  /** A borda sob o ponteiro: perto do ponto clicado no tecido ou, clicando fora dele, perto na tela. */
+  private pickAt(clientX: number, clientY: number): number | null {
+    const raw = this.raw;
+    if (!raw || !this.garment || this.edgeLines.length === 0) return null;
+    const rect = this.renderer.domElement.getBoundingClientRect();
+    const ndc = new THREE.Vector2(((clientX - rect.left) / rect.width) * 2 - 1, -((clientY - rect.top) / rect.height) * 2 + 1);
+    this.raycaster.setFromCamera(ndc, this.camera);
+    const bodyHit = this.body ? this.raycaster.intersectObject(this.body, false)[0] : undefined;
+    const clothHit = this.raycaster.intersectObject(this.garment, false)[0];
+    // Tecido atrás do corpo não está à vista: o clique foi no corpo.
+    const hit = clothHit && (!bodyHit || clothHit.distance <= bodyHit.distance) ? clothHit : undefined;
+    let line = -1;
+    if (hit) {
+      // Clique no tecido: só bordas perto dele na roupa (uma borda atrás pode estar perto na tela).
+      const local = this.world.worldToLocal(hit.point.clone());
+      line = nearestLine(raw, this.edgeLines, local, 60);
+    } else {
+      // Projeta as bordas na tela (em px) e procura a até 10 px do clique, a da frente primeiro.
+      // Se o clique caiu no corpo, o que está atrás dele não conta (profundidade infinita).
+      const hidden = bodyHit ? bodyHit.distance + 0.01 : Infinity;
+      const screen = new Float32Array(raw.length);
+      const depth = new Float32Array(raw.length / 3);
+      const v = new THREE.Vector3();
+      this.world.updateMatrixWorld();
+      for (let i = 0; i < raw.length; i += 3) {
+        v.set(raw[i]!, raw[i + 1]!, raw[i + 2]!).applyMatrix4(this.world.matrixWorld);
+        const d = v.distanceTo(this.camera.position);
+        depth[i / 3] = d > hidden ? Infinity : d;
+        v.project(this.camera);
+        screen[i] = ((v.x + 1) / 2) * rect.width;
+        screen[i + 1] = ((1 - v.y) / 2) * rect.height;
+      }
+      line = frontmostLine(screen, depth, this.edgeLines, { x: clientX - rect.left, y: clientY - rect.top }, 10);
+    }
+    return line < 0 ? null : this.edgeOwner[line]!;
+  }
+
   dispose() {
     cancelAnimationFrame(this.frame);
+    this.setSelected(null);
+    this.renderer.domElement.removeEventListener("pointerdown", this.onPointerDown);
+    this.renderer.domElement.removeEventListener("pointerup", this.onPointerUp);
     this.resize.disconnect();
     this.controls.dispose();
     for (const mesh of [this.body, this.garment]) {

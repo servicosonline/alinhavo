@@ -1,12 +1,15 @@
 "use client";
 
 import { useMemo, useSyncExternalStore } from "react";
+import type { ProvaSaveMode } from "@/components/prova/adjust-panel";
 import { ProvaStudio } from "@/components/prova/prova-studio";
 import { demoMeasurements } from "@/lib/prova/demo-measurements";
 import { loadForProva, storedForProva } from "@/lib/prova/handoff";
 import { samplePattern } from "@/lib/sample-pattern";
 
 const noSubscribe = () => () => {};
+/** Sem login não há onde salvar: o ajuste vale só na tela. */
+const LOCAL: ProvaSaveMode = { kind: "local" };
 
 /** Prova de demonstração: o molde que veio do editor (nesta aba) ou a saia de exemplo. */
 export function ProvaDemo() {
@@ -20,7 +23,7 @@ export function ProvaDemo() {
       <p className="mb-3 text-xs text-tinta-suave">
         {fromEditor ? "Provando o molde do editor." : "Provando a saia de exemplo."} Tabela de medidas de demonstração.
       </p>
-      <ProvaStudio doc={doc} measurementsBySize={measurements} />
+      <ProvaStudio doc={doc} measurementsBySize={measurements} saveMode={LOCAL} />
     </>
   );
 }
