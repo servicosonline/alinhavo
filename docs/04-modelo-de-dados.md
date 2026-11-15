@@ -72,6 +72,8 @@ O documento do molde guarda: partes, pontos, curvas, piques, fio, regras de grad
 | `poses` | org_id?, nome, dados da pose |
 | `fittings` | org_id, pattern_version_id, avatar_id, fabric_id por parte, pose inicial/final, resultado |
 | `captures` | fitting_id, tipo (`imagem`, `360`), arquivo *(futuro, com o vídeo 360°)* |
+| `api_keys` | **(feito)** org_id, name, prefix, key_hash (SHA-256, nunca legível), created_by, last_used_at, revoked_at. Só por `create_api_key` e `revoke_api_key` (dono e admin) |
+| `api_key_usage` | **(feito)** org_id, key_id, minuto, contagem (limite de 60 por minuto por chave); só pelas funções da API |
 | `ai_generations` | **(feito)** org_id, product_id, kind (`textos_produto`), status (`reservada`, `pronta`, `erro`), model, input_tokens, output_tokens, created_by. Só por `reserve_ai_generation` (permissão e limite de 200 por organização por mês) e `finish_ai_generation`; membros leem |
 | `approvals` | **(feito)** org_id, pattern_id + version_number (versão fixa), token, settings (tamanho, tecido, pose), expires_at, status (`pendente`, `aprovado`, `ajustes`), nome e comentário de quem respondeu, decided_at, video_path (vídeo 360° no Storage, só por `attach_approval_video`) |
 | `approval_images` | **(feito)** org_id, approval_id, posição (0 a 3), ângulo (`atual`, `frente`, `costas`, `lado`), JPEG/PNG em `bytea` (até 600 KB) |

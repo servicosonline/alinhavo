@@ -148,6 +148,17 @@ type ProductRow = {
   /** Texto técnico (entra na ficha); até 4000 caracteres. */
   technical_description: string | null;
 } & Timestamps;
+type ApiKeyRow = {
+  id: string;
+  org_id: string;
+  name: string;
+  /** Começo do segredo (alv_ + 8), para reconhecer a chave. O hash não é legível. */
+  prefix: string;
+  created_by: string | null;
+  created_at: string;
+  last_used_at: string | null;
+  revoked_at: string | null;
+};
 export type AiGenerationStatus = "reservada" | "pronta" | "erro";
 type AiGenerationRow = {
   id: string;
@@ -401,6 +412,12 @@ export type Database = {
           OrgFk<"products_pattern_id_org_id_fkey", "pattern_id", "patterns">,
         ];
       };
+      api_keys: {
+        Row: ApiKeyRow;
+        Insert: never;
+        Update: never;
+        Relationships: [Fk<"api_keys_org_id_fkey", "org_id", "orgs">];
+      };
       ai_generations: {
         Row: AiGenerationRow;
         Insert: never;
@@ -533,6 +550,8 @@ export type Database = {
         Returns: undefined;
       };
       ai_generations_this_month: { Args: { p_org_id: string }; Returns: number };
+      create_api_key: { Args: { p_org_id: string; p_name: string }; Returns: { id: string; secret: string; prefix: string }[] };
+      revoke_api_key: { Args: { p_id: string }; Returns: undefined };
       create_marker: {
         Args: {
           p_product_id: string;
