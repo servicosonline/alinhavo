@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import type { Piece } from "@alinhavo/geometry";
-import type { Vec3 } from "../collider";
+import { MAX_OVERESTIMATE, TRUSTED_CLEARANCE_MM, type Vec3 } from "../collider";
 import { FABRICS } from "../fabrics";
 import { meshPiece } from "../mesh";
 import { createSimulation } from "../simulation";
@@ -182,12 +182,24 @@ describe("createMannequin", () => {
     for (let f = 0; f < 90; f++) sim.step();
     let closest = Infinity;
     let lowest = Infinity;
+    let worst = -1;
     for (let i = 0; i < sim.vertexCount; i++) {
       const [x, y, z] = [sim.positions[i * 3]!, sim.positions[i * 3 + 1]!, sim.positions[i * 3 + 2]!];
-      closest = Math.min(closest, body.collider.query(x, y, z).distance);
+      const d = body.collider.query(x, y, z).distance;
+      if (d < closest) {
+        closest = d;
+        worst = i;
+      }
       lowest = Math.min(lowest, y);
     }
-    expect(closest).toBeGreaterThan(FABRICS.malha.thickness - 0.05);
+    // Na falha, onde e com que corpo: somas das posições do corpo e da roupa
+    // (o mesmo número em toda máquina que calcula igual) e o vértice mais perto.
+    const sum = (a: ArrayLike<number>) => Array.from(a).reduce((s, v) => s + v, 0);
+    const at = [0, 1, 2].map((c) => sim.positions[worst * 3 + c]!.toFixed(2)).join(", ");
+    const trace =
+      `corpo Σ=${sum(body.mesh.positions).toFixed(6)}, ombro y=${body.landmarks.shoulder.y.toFixed(6)}, ` +
+      `malha ${sim.vertexCount} vértices, roupa Σ=${sum(sim.positions).toFixed(6)}, vértice ${worst} em (${at})`;
+    expect(closest, trace).toBeGreaterThan(FABRICS.malha.thickness - 0.05);
     // E ficou pendurado no corpo, não caiu até o chão.
     expect(lowest).toBeGreaterThan(body.landmarks.waist.y);
     // Simulação de 1,5 s: uns 2 s sozinho, mais com o check inteiro rodando junto (o padrão é 5 s).
@@ -198,4 +210,42 @@ describe("createMannequin", () => {
     const b = createMannequin(TABELA_M, "passo");
     expect(Array.from(a.mesh.positions)).toEqual(Array.from(b.mesh.positions));
   });
+
+  it("perto da pele a distância cumpre o contrato do Collider (o simulador pula perguntas com ela)", () => {
+    // Até a espessura do tecido mais grosso + TRUSTED_CLEARANCE_MM, a distância
+    // não cai mais que MAX_OVERESTIMATE × o que o ponto anda: é o que garante
+    // que a folga do simulador (safeClearance) nunca passa da real.
+    const band = Math.max(...Object.values(FABRICS).map((f) => f.thickness)) + TRUSTED_CLEARANCE_MM;
+    const h = 0.5;
+    const steps = [
+      [h, 0, 0], [-h, 0, 0], [0, h, 0], [0, -h, 0], [0, 0, h], [0, 0, -h],
+    ] as const;
+    for (const pose of ["em-pe", "passo"] as const) {
+      const body = createMannequin(TABELA_M, pose);
+      const P = body.mesh.positions;
+      let worst = 0;
+      let where = "";
+      let checked = 0;
+      // Pontos que saem da pele pela normal do colisor, a cada 0,5 mm até a faixa.
+      for (let v = 0; v < P.length / 3; v += 5) {
+        const s = { x: P[v * 3]!, y: P[v * 3 + 1]!, z: P[v * 3 + 2]! };
+        const n = body.collider.query(s.x, s.y, s.z).normal;
+        for (let t = 0.5; t <= band; t += 0.5) {
+          const p = { x: s.x + n.x * t, y: s.y + n.y * t, z: s.z + n.z * t };
+          const d = body.collider.query(p.x, p.y, p.z).distance;
+          if (d <= 0 || d > band) continue;
+          checked++;
+          for (const [ex, ey, ez] of steps) {
+            const rate = (d - body.collider.query(p.x + ex, p.y + ey, p.z + ez).distance) / h;
+            if (rate > worst) {
+              worst = rate;
+              where = `${pose} (${p.x.toFixed(1)}, ${p.y.toFixed(1)}, ${p.z.toFixed(1)}) d=${d.toFixed(2)}`;
+            }
+          }
+        }
+      }
+      expect(checked).toBeGreaterThan(1000);
+      expect(worst, where).toBeLessThanOrEqual(MAX_OVERESTIMATE);
+    }
+  }, 60_000);
 });

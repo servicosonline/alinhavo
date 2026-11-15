@@ -7,15 +7,25 @@ export type Vec3 = { x: number; y: number; z: number };
  * (manequim, e depois o realista) implementam esta mesma interface.
  *
  * Contrato:
- * - Longe da superfície (mais de 30 mm), a distância pode ser um limite
- *   inferior da real (ex.: distância à caixa envolvente). Nunca maior.
- * - A distância não pode cair mais rápido do que o ponto anda (o simulador
- *   conta com isso para não perguntar de novo por vértices longe).
+ * - Perto da superfície (até TRUSTED_CLEARANCE_MM), a distância informada
+ *   passa da real em no máximo MAX_OVERESTIMATE vezes. É o que o simulador
+ *   usa para não perguntar de novo por um vértice enquanto ele não anda essa
+ *   folga (nunca confia em mais que TRUSTED_CLEARANCE_MM).
+ * - Mais longe, a distância só serve para saber que está longe: pode ser um
+ *   limite inferior da real (ex.: distância à caixa envolvente) ou uma
+ *   estimativa que cresce mais rápido que a real (o manequim, sobre os
+ *   ombros, chega a 5× a 30 mm). Teste no manequim em `body.test.ts`.
  * - A direção só precisa estar certa perto da superfície (no contato).
  */
 export type Collider = {
   query(x: number, y: number, z: number): { distance: number; normal: Vec3 };
 };
+
+/** Até onde (mm além da espessura) o simulador confia na distância para pular perguntas. */
+export const TRUSTED_CLEARANCE_MM = 3;
+
+/** Quanto a distância informada pode passar da real perto da superfície (o manequim chega a ~1,32 sobre os ombros). */
+export const MAX_OVERESTIMATE = 1.5;
 
 const UP: Vec3 = { x: 0, y: 1, z: 0 };
 
