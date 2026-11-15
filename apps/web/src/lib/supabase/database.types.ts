@@ -95,6 +95,8 @@ type ApprovalRow = {
   decided_at: string | null;
   created_by: string | null;
   created_at: string;
+  /** Vídeo 360° no Storage (bucket aprovacoes), ligado por attach_approval_video. */
+  video_path: string | null;
 };
 type ApprovalImageRow = {
   id: string;
@@ -116,6 +118,8 @@ export type PublicApproval = {
   reviewer_comment: string | null;
   decided_at: string | null;
   expires_at: string;
+  /** Há vídeo 360°: o endereço vem da Edge Function aprovacao-video. */
+  has_video: boolean;
   images: { angle: ApprovalAngle; mime: "image/jpeg" | "image/png"; data: string }[];
 };
 
@@ -522,6 +526,7 @@ export type Database = {
       release_nest_job: { Args: { p_job_id: string }; Returns: boolean };
       retry_nest_job: { Args: { p_job_id: string }; Returns: NestJobRow };
       public_approval: { Args: { p_token: string }; Returns: PublicApproval | null };
+      attach_approval_video: { Args: { p_approval_id: string; p_path: string | null }; Returns: undefined };
       decide_approval: {
         Args: { p_token: string; p_status: ApprovalStatus; p_name: string; p_comment?: string | null };
         Returns: ApprovalStatus;

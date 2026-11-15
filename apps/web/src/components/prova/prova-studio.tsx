@@ -14,6 +14,8 @@ import { addCaptures, type Capture } from "@/lib/prova/captures";
 import { AdjustPanel, type ProvaSaveMode } from "./adjust-panel";
 import { ApprovalRequest, type ApprovalRequester } from "./approval-request";
 import { CapturesPanel } from "./captures-panel";
+import { VideoPanel } from "./video-panel";
+import { VIDEO_BITRATE, VIDEO_FPS, VIDEO_HEIGHT, VIDEO_SECONDS, VIDEO_WIDTH, videoFileName } from "@/lib/prova/video";
 import { GradeView } from "./grade-view";
 import { FABRIC_NAME, LookPanel } from "./look-panel";
 import type { ProvaScene } from "./scene";
@@ -212,12 +214,38 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
   // Trocar tamanho, tecido, pose ou o molde monta a Prova de novo; as capturas antigas
   // mostram outra roupa, então saem (a aprovação guarda uma configuração só).
   const setupKey = `${size}|${fabric}|${pose}|${look.map((i) => `${i.key}:${i.fabric}`).join(",")}`;
-  const [capturedFor, setCapturedFor] = useState({ setupKey, doc });
+  const [capturedFor, setCapturedFor] = useState({ setupKey, doc, video: 0 });
+  /** O vídeo 360° gravado (vai junto no pedido de aprovação). */
+  const [video, setVideo] = useState<Blob | null>(null);
   if (capturedFor.setupKey !== setupKey || capturedFor.doc !== doc) {
-    setCapturedFor({ setupKey, doc });
+    // O vídeo também mostra outra roupa: o painel recomeça (chave nova).
+    setCapturedFor({ setupKey, doc, video: capturedFor.video + 1 });
     setCaptures([]);
     setCaptureNote(null);
+    setVideo(null);
   }
+
+  /** Grava a volta 360°: a simulação para durante a gravação (a roupa fica parada) e volta depois. */
+  const recordVideo = async (type: string, onProgress: (f: number) => void) => {
+    const scene = sceneRef.current;
+    if (!scene) throw new Error("A Prova ainda está montando.");
+    const worker = workerRef.current;
+    const wasRunning = status.kind === "running";
+    if (wasRunning) worker?.postMessage({ type: "pause" } satisfies ToWorker);
+    try {
+      return await scene.recordTurntable({
+        seconds: VIDEO_SECONDS,
+        fps: VIDEO_FPS,
+        width: VIDEO_WIDTH,
+        height: VIDEO_HEIGHT,
+        bitrate: VIDEO_BITRATE,
+        type,
+        onProgress,
+      });
+    } finally {
+      if (wasRunning && modeRef.current === "um") worker?.postMessage({ type: "play" } satisfies ToWorker);
+    }
+  };
 
   const capture = (angles: Capture["angle"][]) => {
     const scene = sceneRef.current;
@@ -439,8 +467,16 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
           disabled={status.kind !== "running" && status.kind !== "paused"}
           note={captureNote}
         >
-          {approval && <ApprovalRequest requester={approval} settings={{ size, fabric, pose }} captures={captures} />}
+          {approval && <ApprovalRequest requester={approval} settings={{ size, fabric, pose }} captures={captures} video={video} />}
         </CapturesPanel>
+
+        <VideoPanel
+          key={capturedFor.video}
+          record={recordVideo}
+          fileName={(type) => videoFileName("prova", size, type)}
+          disabled={status.kind !== "running" && status.kind !== "paused"}
+          onChange={setVideo}
+        />
 
         <AdjustPanel
           doc={doc}

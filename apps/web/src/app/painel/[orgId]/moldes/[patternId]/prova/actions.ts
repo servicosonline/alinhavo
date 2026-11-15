@@ -6,10 +6,11 @@ import { isUuid } from "@/lib/ids";
 import { getOrigin } from "@/lib/origin";
 import { APPROVAL_DAYS, approvalErrorMessage, approvalLink, type ApprovalSettings } from "@/lib/prova/approval";
 import { base64Bytes, dataUrlBase64, MAX_CAPTURE_BYTES, MAX_CAPTURES, type Capture } from "@/lib/prova/captures";
+import { APPROVAL_VIDEO_BUCKET } from "@/lib/prova/approval-video";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
 
-export type ApprovalResult = { ok: true; link: string; expiresAt: string } | { ok: false; error: string };
+export type ApprovalResult = { ok: true; approvalId: string; link: string; expiresAt: string } | { ok: false; error: string };
 
 const ANGLES = new Set(["atual", "frente", "costas", "lado"]);
 const SHORT = (v: unknown) => typeof v === "string" && v.length > 0 && v.length <= 40;
@@ -66,7 +67,7 @@ export async function requestApproval(
   if (error || !row) return { ok: false, error: approvalErrorMessage(error ?? {}) };
 
   revalidatePath(`/painel/${orgId}/moldes/${patternId}`);
-  return { ok: true, link: approvalLink(await getOrigin(), row.token), expiresAt: row.expires_at };
+  return { ok: true, approvalId: row.id, link: approvalLink(await getOrigin(), row.token), expiresAt: row.expires_at };
 }
 
 /** Revoga um link (apaga a aprovação). A RLS só deixa quem edita moldes. */
@@ -77,6 +78,9 @@ export async function revokeApproval(formData: FormData) {
   if (!getSupabaseConfig() || !isUuid(orgId) || !isUuid(patternId) || !isUuid(approvalId)) return;
   if (!(await getCurrentUser())) return;
   const supabase = await createClient();
+  // O vídeo sai antes: a política do Storage confere a aprovação dona do arquivo.
+  const { data: approval } = await supabase.from("approvals").select("video_path").eq("id", approvalId).eq("org_id", orgId).maybeSingle();
+  if (approval?.video_path) await supabase.storage.from(APPROVAL_VIDEO_BUCKET).remove([approval.video_path]);
   await supabase.from("approvals").delete().eq("id", approvalId).eq("org_id", orgId);
   revalidatePath(`/painel/${orgId}/moldes/${patternId}`);
 }

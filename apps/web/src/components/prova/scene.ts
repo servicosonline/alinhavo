@@ -1,6 +1,7 @@
 import * as THREE from "three";
 import type { Decal } from "@alinhavo/cloth";
 import { frontmostLine, nearestLine } from "@/lib/prova/edges";
+import { turntableAngle, turntablePosition } from "@/lib/prova/video";
 import { DecalLayer } from "./decal-layer";
 import { bodyMesh, disposeMesh, garmentMesh, liftGarment, paintGarment, Stage } from "./stage";
 
@@ -92,6 +93,93 @@ export class ProvaScene {
    * esquerda do corpo fica em +X). O destaque de borda não sai na imagem, e
    * a câmera e o tamanho da tela voltam como estavam.
    */
+  /**
+   * Vídeo 360°: a câmera dá uma volta em torno do corpo (começando de frente)
+   * e o navegador grava a tela no tamanho do vídeo. O destaque de borda não
+   * sai, os controles param e, no fim (ou num erro), câmera, tamanho e
+   * controles voltam como estavam. `onProgress` recebe de 0 a 1.
+   */
+  recordTurntable(opts: {
+    seconds: number;
+    fps: number;
+    width: number;
+    height: number;
+    bitrate: number;
+    type: string;
+    onProgress?: (fraction: number) => void;
+  }): Promise<Blob> {
+    const canvas = this.renderer.domElement;
+    if (typeof MediaRecorder === "undefined" || typeof canvas.captureStream !== "function") {
+      return Promise.reject(new Error("Este navegador não grava vídeo da tela."));
+    }
+    const camPos = this.camera.position.clone();
+    const target = this.controls.target.clone();
+    const aspect = this.camera.aspect;
+    const size = this.renderer.getSize(new THREE.Vector2());
+    const pixelRatio = this.renderer.getPixelRatio();
+    const highlightVisible = this.highlight?.visible ?? false;
+    const restore = () => {
+      this.stage.beforeRender = null;
+      if (this.highlight) this.highlight.visible = highlightVisible;
+      this.camera.position.copy(camPos);
+      this.controls.target.copy(target);
+      this.camera.lookAt(target);
+      this.camera.aspect = aspect;
+      this.camera.updateProjectionMatrix();
+      this.renderer.setPixelRatio(pixelRatio);
+      this.renderer.setSize(size.x, size.y, false);
+      this.controls.enabled = true;
+      this.controls.update();
+    };
+
+    return new Promise<Blob>((resolve, reject) => {
+      try {
+        if (this.highlight) this.highlight.visible = false;
+        this.controls.enabled = false;
+        this.renderer.setPixelRatio(1);
+        this.renderer.setSize(opts.width, opts.height, false);
+        this.camera.aspect = opts.width / opts.height;
+        this.camera.updateProjectionMatrix();
+        const look = new THREE.Vector3(0, 0.95, 0);
+        this.controls.target.copy(look);
+
+        const recorder = new MediaRecorder(canvas.captureStream(opts.fps), { mimeType: opts.type, videoBitsPerSecond: opts.bitrate });
+        const chunks: Blob[] = [];
+        recorder.ondataavailable = (e) => {
+          if (e.data.size > 0) chunks.push(e.data);
+        };
+        recorder.onstop = () => {
+          restore();
+          if (chunks.length === 0) reject(new Error("A gravação saiu vazia."));
+          else resolve(new Blob(chunks, { type: opts.type.split(";")[0] }));
+        };
+        recorder.onerror = () => {
+          restore();
+          reject(new Error("A gravação falhou."));
+        };
+        let start = -1;
+        this.stage.beforeRender = () => {
+          const now = performance.now();
+          if (start < 0) start = now;
+          const t = (now - start) / 1000;
+          const p = turntablePosition(turntableAngle(t, opts.seconds), 3.1, 1.15);
+          this.camera.position.set(p.x, p.y, p.z);
+          this.camera.lookAt(look);
+          opts.onProgress?.(Math.min(1, t / opts.seconds));
+          if (t >= opts.seconds && recorder.state === "recording") {
+            this.stage.beforeRender = null;
+            // Um quadro a mais já desenhado na posição final antes de parar.
+            requestAnimationFrame(() => recorder.stop());
+          }
+        };
+        recorder.start(250);
+      } catch (err) {
+        restore();
+        reject(err instanceof Error ? err : new Error("A gravação falhou."));
+      }
+    });
+  }
+
   capture(angle: "atual" | "frente" | "costas" | "lado"): string {
     const W = 900;
     const H = 1200;

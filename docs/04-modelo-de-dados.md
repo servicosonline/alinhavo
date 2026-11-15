@@ -72,7 +72,7 @@ O documento do molde guarda: partes, pontos, curvas, piques, fio, regras de grad
 | `poses` | org_id?, nome, dados da pose |
 | `fittings` | org_id, pattern_version_id, avatar_id, fabric_id por parte, pose inicial/final, resultado |
 | `captures` | fitting_id, tipo (`imagem`, `360`), arquivo *(futuro, com o vídeo 360°)* |
-| `approvals` | **(feito)** org_id, pattern_id + version_number (versão fixa), token, settings (tamanho, tecido, pose), expires_at, status (`pendente`, `aprovado`, `ajustes`), nome e comentário de quem respondeu, decided_at |
+| `approvals` | **(feito)** org_id, pattern_id + version_number (versão fixa), token, settings (tamanho, tecido, pose), expires_at, status (`pendente`, `aprovado`, `ajustes`), nome e comentário de quem respondeu, decided_at, video_path (vídeo 360° no Storage, só por `attach_approval_video`) |
 | `approval_images` | **(feito)** org_id, approval_id, posição (0 a 3), ângulo (`atual`, `frente`, `costas`, `lado`), JPEG/PNG em `bytea` (até 600 KB) |
 
 - **Aprovação (MVP):** criada só por `create_approval` (quem edita moldes), com as imagens de uma vez; o tipo da imagem vem dos primeiros bytes (JPEG ou PNG). Membros leem; quem edita apaga (revoga o link). Sem conta, só por `public_approval(token)` e `decide_approval(token, …)`: token errado e vencido respondem igual, a resposta vale uma vez e pedir ajustes exige comentário. Nada da organização sai pela parte pública.

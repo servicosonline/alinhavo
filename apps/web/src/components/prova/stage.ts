@@ -65,6 +65,7 @@ export class Stage {
     const loop = () => {
       this.frame = requestAnimationFrame(loop);
       this.controls.update();
+      this.beforeRender?.();
       this.renderer.render(this.scene, this.camera);
     };
     loop();
@@ -90,6 +91,9 @@ export class Stage {
     this.camera.updateProjectionMatrix();
     this.onResize?.();
   }
+
+  /** Chamado a cada quadro, depois dos controles e antes de desenhar (ex.: a volta do vídeo 360°). */
+  beforeRender: (() => void) | null = null;
 
   /** Chamado depois de a tela mudar de tamanho (a proporção já atualizada). */
   onResize: (() => void) | null = null;

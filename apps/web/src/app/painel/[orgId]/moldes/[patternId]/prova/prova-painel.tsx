@@ -6,6 +6,8 @@ import type { ProvaSaveMode } from "@/components/prova/adjust-panel";
 import type { ApprovalRequester } from "@/components/prova/approval-request";
 import { ProvaStudio } from "@/components/prova/prova-studio";
 import { loadForProva, storedForProva } from "@/lib/prova/handoff";
+import { APPROVAL_VIDEO_BUCKET, approvalVideoContentType, approvalVideoPath } from "@/lib/prova/approval-video";
+import { getBrowserClient } from "@/lib/supabase/client";
 import type { LookOption } from "@/lib/prova/look";
 import { savePatternVersion } from "../../actions";
 import { requestApproval } from "./actions";
@@ -65,6 +67,19 @@ export function ProvaPainel({
         ? {
             blocked: unsaved ? "Salve as alterações do editor (ou ajuste e salve aqui) antes de pedir aprovação." : null,
             request: (settings, captures, days) => requestApproval(orgId, patternId, saved.version, settings, captures, days),
+            // O vídeo vai do navegador direto para o Storage (a Server Action tem limite de 1 MB);
+            // a RLS do bucket confere quem envia e o caminho, e attach_approval_video liga à aprovação.
+            uploadVideo: async (approvalId, video) => {
+              const supabase = getBrowserClient();
+              if (!supabase) return "o Supabase não está configurado.";
+              const path = approvalVideoPath(orgId, approvalId, video.type);
+              const up = await supabase.storage
+                .from(APPROVAL_VIDEO_BUCKET)
+                .upload(path, video, { contentType: approvalVideoContentType(video.type), upsert: false });
+              if (up.error) return "não foi possível enviar o arquivo.";
+              const { error } = await supabase.rpc("attach_approval_video", { p_approval_id: approvalId, p_path: path });
+              return error ? "não foi possível ligar o vídeo à aprovação." : null;
+            },
           }
         : undefined,
     [canEdit, unsaved, orgId, patternId, saved.version],

@@ -44,7 +44,7 @@ Toda tabela tem `org_id`; políticas RLS só liberam linhas de organizações da
 
 **7. Links públicos de aprovação.**
 Uma Edge Function valida um token com expiração e devolve só os dados daquela aprovação (imagens + comentários), sem expor a organização.
-*Hoje (MVP, Fase 2):* sem Edge Function. As imagens (até 4, ≤ 600 KB) ficam no banco e a página pública lê pelas funções `public_approval`/`decide_approval` (`security definer`, só com o token), chamadas com a chave publicável. Motivo: o app não usa a chave de serviço, que é a única que assina URL do Storage para quem não tem conta. Quando entrar o vídeo 360° (Fase 5), as capturas vão para o Storage e a leitura pública passa para a Edge Function, sem mudar a tela.
+*Hoje (MVP, Fase 2):* sem Edge Function. As imagens (até 4, ≤ 600 KB) ficam no banco e a página pública lê pelas funções `public_approval`/`decide_approval` (`security definer`, só com o token), chamadas com a chave publicável. Motivo: o app não usa a chave de serviço, que é a única que assina URL do Storage para quem não tem conta. *Fase 5 (vídeo 360°):* o vídeo vai para o Storage (bucket privado `aprovacoes`, `<org>/<aprovação>/video.mp4|webm`, até 10 MB), enviado pelo navegador com a sessão do usuário (a RLS do bucket confere quem edita moldes e o caminho) e ligado por `attach_approval_video`. A página pública pede o endereço à Edge Function `aprovacao-video`, que usa a chave de serviço (só existe lá) para ler `approval_video_path` e assinar um endereço de 10 minutos. As imagens continuam no banco (decisão de 15/11/2026: funcionam e não pedem migrar dados).
 
 ## GitHub e CI
 
