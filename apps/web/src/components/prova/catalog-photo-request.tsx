@@ -14,6 +14,7 @@ import {
   type CatalogPhotoOptions,
 } from "@/lib/ai/catalog-photo";
 import { ANGLE_LABEL, type Capture } from "@/lib/prova/captures";
+import { PhotoDialog } from "../photo-dialog";
 import { ui } from "../ui";
 
 /** O que a página do painel oferece à Prova para gerar fotos de catálogo. */
@@ -36,6 +37,7 @@ export function CatalogPhotoRequest({ requester, captures }: Props) {
   const [busy, setBusy] = useState(false);
   const [result, setResult] = useState<CatalogPhotoResult | null>(null);
   const [used, setUsed] = useState(requester.usedThisMonth);
+  const [viewing, setViewing] = useState<number | null>(null);
   const capture = captures[Math.min(chosen, captures.length - 1)];
   const full = used >= AI_PHOTO_MONTHLY_LIMIT;
 
@@ -139,14 +141,19 @@ export function CatalogPhotoRequest({ requester, captures }: Props) {
       {result?.ok && (
         <div className="space-y-1" role="status" data-photo-result>
           {result.url && (
-            <a href={result.url} target="_blank" rel="noreferrer">
-              {/* eslint-disable-next-line @next/next/no-img-element -- endereço assinado do Storage, que vence */}
-              <img
-                src={result.url}
-                alt="Foto de catálogo gerada por IA"
-                className="aspect-[2/3] w-full rounded border border-tinta/15 object-cover"
+            <>
+              {/* Abre a foto grande no modal, dentro do app (não outra aba). */}
+              <button type="button" onClick={() => setViewing(0)} className="block w-full" aria-label="Ver a foto em tamanho grande">
+                {/* eslint-disable-next-line @next/next/no-img-element -- endereço assinado do Storage, que vence */}
+                <img src={result.url} alt="Foto de catálogo gerada por IA" className="aspect-[2/3] w-full rounded border border-tinta/15 object-cover" />
+              </button>
+              <PhotoDialog
+                photos={[{ src: result.url, alt: "Foto de catálogo gerada por IA", caption: "Foto de catálogo gerada por IA" }]}
+                index={viewing}
+                onIndex={setViewing}
+                onClose={() => setViewing(null)}
               />
-            </a>
+            </>
           )}
           <p className="text-[11px] text-tinta-suave">
             Pronta e guardada no produto.{" "}

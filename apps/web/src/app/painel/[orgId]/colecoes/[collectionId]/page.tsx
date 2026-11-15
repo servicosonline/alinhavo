@@ -23,6 +23,8 @@ import { createClient } from "@/lib/supabase/server";
 import { deleteMilestone, linkProductPattern, setProductDue, setProductStatus, toggleMilestone } from "../actions";
 import { CreateMilestoneForm, CreateProductForm } from "../forms";
 import { DueChip, ProductsView, type ProductCard } from "./products-view";
+import { TrackingShare } from "@/components/tracking-share";
+import { activeTrackingLinks } from "../../tracking-links";
 
 type Params = PageProps<"/painel/[orgId]/colecoes/[collectionId]">["params"];
 
@@ -68,6 +70,11 @@ async function Colecao({ params }: { params: Params }) {
   const patterns = patRes.data ?? [];
   const team = (teamRes.data ?? []).map((m) => ({ user_id: m.user_id, email: m.email }));
   const canEdit = canEditProducts(role);
+  const [tracking, { data: orgRow }] = await Promise.all([
+    canEdit ? activeTrackingLinks(supabase, "colecao", collectionId) : Promise.resolve([]),
+    supabase.from("orgs").select("name").eq("id", orgId).maybeSingle(),
+  ]);
+  const orgName = orgRow?.name ?? "";
   const today = todayInBrazil();
 
   // Moldes já usados por outro produto (um molde por produto).
@@ -216,12 +223,15 @@ async function Colecao({ params }: { params: Params }) {
           title={col.name}
         />
         {canEdit && (
-          <details className="group relative">
-            <summary className={`${ui.buttonPrimary} cursor-pointer list-none [&::-webkit-details-marker]:hidden`}>+ Novo produto</summary>
-            <div className={`${ui.card} absolute right-0 z-30 mt-2 w-[min(92vw,30rem)] shadow-[0_24px_50px_-28px_rgb(29_27_24/0.55)]`}>
-              <CreateProductForm orgId={orgId} collectionId={collectionId} />
-            </div>
-          </details>
+          <div className="flex flex-wrap items-center gap-2">
+            <TrackingShare orgId={orgId} kind="colecao" targetId={collectionId} title={col.name} orgName={orgName} back={back} links={tracking} />
+            <details className="group relative">
+              <summary className={`${ui.buttonPrimary} cursor-pointer list-none [&::-webkit-details-marker]:hidden`}>+ Novo produto</summary>
+              <div className={`${ui.card} absolute right-0 z-30 mt-2 w-[min(92vw,30rem)] shadow-[0_24px_50px_-28px_rgb(29_27_24/0.55)]`}>
+                <CreateProductForm orgId={orgId} collectionId={collectionId} />
+              </div>
+            </details>
+          </div>
         )}
       </div>
 

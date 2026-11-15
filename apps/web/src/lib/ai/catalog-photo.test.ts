@@ -59,6 +59,17 @@ describe("foto de catálogo: regras", () => {
     expect(catalogPhotoPrompt(DEFAULT_PHOTO_OPTIONS, { name: "Calça", fabric: null })).not.toMatch(/Extra direction/);
   });
 
+  it("pede realismo concreto: câmera, pele com textura, mãos e o que evitar; a roupa continua antes de tudo", () => {
+    const p = catalogPhotoPrompt(DEFAULT_PHOTO_OPTIONS, { name: "Calça", fabric: null });
+    expect(p).toMatch(/85 mm lens/);
+    expect(p).toMatch(/visible pores/);
+    expect(p).toMatch(/no airbrushing/);
+    expect(p).toMatch(/five fingers/);
+    expect(p).toMatch(/Avoid: CGI/);
+    // A regra de manter a roupa vem antes do pedido de estilo.
+    expect(p.indexOf("Keep the garment exactly as it is")).toBeLessThan(p.indexOf("Style:"));
+  });
+
   it("guarda as opções com o formato e esconde o usuário no identificador", async () => {
     expect(photoSettings(DEFAULT_PHOTO_OPTIONS)).toEqual({ format: 1, ...DEFAULT_PHOTO_OPTIONS });
     const id = await safetyIdentifier("8a0c7c38-2b0e-4d36-9a52-6a1c2f3e4b5d");

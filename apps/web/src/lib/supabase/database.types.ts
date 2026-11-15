@@ -67,6 +67,42 @@ type ActivityLogRow = {
   created_at: string;
 };
 
+export type TrackingShow = { status?: boolean; prazos?: boolean; cronograma?: boolean; imagens?: boolean; molde?: boolean };
+
+type TrackingLinkRow = {
+  id: string;
+  org_id: string;
+  kind: "produto" | "colecao";
+  product_id: string | null;
+  collection_id: string | null;
+  token: string;
+  show: TrackingShow;
+  expires_at: string | null;
+  revoked_at: string | null;
+  last_opened_at: string | null;
+  open_count: number;
+  created_by: string | null;
+  created_at: string;
+};
+
+type RoiSettingsRow = {
+  org_id: string;
+  pilots_per_month: number;
+  fabric_per_pilot_mm: number;
+  price_per_meter_cents: number;
+  hours_per_pilot: number;
+  hour_rate_cents: number;
+  monthly_fabric_mm: number;
+  efficiency_pct: number | null;
+  goal_monthly_cents: number | null;
+  created_at: string;
+  updated_at: string;
+};
+
+type RoiSettingsWrite = Partial<Omit<RoiSettingsRow, "org_id" | "created_at" | "updated_at">>;
+
+type RoiMonthRow = { org_id: string; month: string; pilots_cut: number; updated_at: string };
+
 type OrgMemberRow = {
   org_id: string;
   user_id: string;
@@ -550,6 +586,24 @@ export type Database = {
         Update: never;
         Relationships: [Fk<"activity_log_org_id_fkey", "org_id", "orgs">];
       };
+      tracking_links: {
+        Row: TrackingLinkRow;
+        Insert: never;
+        Update: never;
+        Relationships: [Fk<"tracking_links_org_id_fkey", "org_id", "orgs">];
+      };
+      roi_settings: {
+        Row: RoiSettingsRow;
+        Insert: RoiSettingsWrite & { org_id: string };
+        Update: RoiSettingsWrite;
+        Relationships: [Fk<"roi_settings_org_id_fkey", "org_id", "orgs">];
+      };
+      roi_months: {
+        Row: RoiMonthRow;
+        Insert: { org_id: string; month: string; pilots_cut: number };
+        Update: { pilots_cut?: number };
+        Relationships: [Fk<"roi_months_org_id_fkey", "org_id", "orgs">];
+      };
       fabrics: {
         Row: FabricRow;
         Insert: {
@@ -647,6 +701,13 @@ export type Database = {
         Args: { p_org_id: string };
         Returns: { plan_id: string; status: SubscriptionStatus; trial_ends_at: string | null; days_left: number | null; seats: number }[];
       };
+      create_tracking_link: {
+        Args: { p_kind: "produto" | "colecao"; p_target: string; p_show: TrackingShow; p_days?: number | null };
+        Returns: { id: string; token: string }[];
+      };
+      revoke_tracking_link: { Args: { p_id: string }; Returns: undefined };
+      public_tracking: { Args: { p_token: string }; Returns: unknown };
+      touch_tracking: { Args: { p_token: string }; Returns: undefined };
       log_event: { Args: { p_org_id: string; p_action: string; p_entity_id?: string | null }; Returns: undefined };
       onboarding_progress: {
         Args: Record<string, never>;

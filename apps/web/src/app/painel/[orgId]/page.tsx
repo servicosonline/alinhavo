@@ -27,6 +27,7 @@ const MODULE_HINT: Record<string, string> = {
   medidas: "Tamanhos e medidas por público ou cliente",
   tecidos: "Largura, gramatura e preço para o consumo",
   encaixes: "Riscos processados um de cada vez, em segundo plano",
+  resultados: "Quanto o Alinhavo deixa no caixa, comparado com antes",
 };
 
 const quando = new Intl.DateTimeFormat("pt-BR", { day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit" });

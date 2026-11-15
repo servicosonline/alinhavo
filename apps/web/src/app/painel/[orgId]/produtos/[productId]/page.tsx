@@ -25,6 +25,8 @@ import { formatEfficiency, formatMeters, formatPerGarment } from "@/lib/encaixe/
 import { formatCm } from "@/lib/units";
 import { formatDate } from "@/lib/prova/approval";
 import { ApprovalsList } from "../../moldes/[patternId]/approvals-list";
+import { TrackingShare } from "@/components/tracking-share";
+import { activeTrackingLinks } from "../../tracking-links";
 
 type Params = PageProps<"/painel/[orgId]/produtos/[productId]">["params"];
 
@@ -68,6 +70,11 @@ async function Produto({ params }: { params: Params }) {
     ? await supabase.from("approvals").select("status").eq("pattern_id", pattern.id).eq("org_id", orgId).order("created_at", { ascending: false }).limit(1)
     : { data: [] as { status: "pendente" | "aprovado" | "ajustes" }[] };
   const latest = last?.[0]?.status ?? null;
+  const [tracking, { data: orgRow }] = await Promise.all([
+    canEdit ? activeTrackingLinks(supabase, "produto", p.id) : Promise.resolve([]),
+    supabase.from("orgs").select("name").eq("id", orgId).maybeSingle(),
+  ]);
+  const orgName = orgRow?.name ?? "";
 
   const [fabRes, trimRes, packRes, commentRes, teamRes, markerRes, aiRes, photoUseRes] = await Promise.all([
     supabase.from("fabrics").select("id, name, width_mm, price_cents").eq("org_id", orgId).order("name"),
@@ -115,6 +122,11 @@ async function Produto({ params }: { params: Params }) {
           </span>
         }
         title={p.name}
+        actions={
+          canEdit ? (
+            <TrackingShare orgId={orgId} kind="produto" targetId={p.id} title={p.name} orgName={orgName} back={back} links={tracking} />
+          ) : undefined
+        }
       />
 
       {canEdit && suggestApproved(p.status, latest) && (

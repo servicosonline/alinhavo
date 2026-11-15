@@ -41,6 +41,8 @@ export function activityText(action: string, meta: Record<string, unknown>): str
       return "teve o papel alterado";
     case "convite_criado":
       return "convidou uma pessoa";
+    case "acompanhamento_criado":
+      return "mandou um link de acompanhamento para a cliente";
     case "prova_aberta":
       return "abriu a Prova 3D";
     case "molde_exportado":
