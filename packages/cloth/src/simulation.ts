@@ -1,5 +1,5 @@
 import type { Seam } from "@alinhavo/geometry";
-import type { Collider, Vec3 } from "./collider";
+import { MAX_OVERESTIMATE, TRUSTED_CLEARANCE_MM, type Collider, type Vec3 } from "./collider";
 import { stretchCompliance, type Fabric } from "./fabrics";
 import { createLayerSolver, outwardSigns } from "./layers";
 import type { PieceMesh } from "./mesh";
@@ -85,6 +85,16 @@ export type Simulation = {
 const MIN_DT = 1e-6;
 
 /** Monta a simulação de um conjunto de partes (já em malha) costuradas entre si. */
+/**
+ * Folga (mm além da espessura `gap`) que a distância informada `distance`
+ * garante, pelo contrato do Collider: só até TRUSTED_CLEARANCE_MM e com a
+ * distância real pelo menos a informada ÷ MAX_OVERESTIMATE. Zero ou menos =
+ * perguntar de novo no próximo subpasso.
+ */
+export function safeClearance(distance: number, gap: number): number {
+  return Math.min(distance, gap + TRUSTED_CLEARANCE_MM) / MAX_OVERESTIMATE - gap;
+}
+
 export function createSimulation(pieces: SimPiece[], options: SimulationOptions): Simulation {
   const { fabric } = options;
   const gravity = options.gravity ?? { x: 0, y: -9810, z: 0 };
@@ -271,8 +281,11 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
 
   /**
    * Folga conhecida de cada vértice até o obstáculo mais próximo (mm além da
-   * espessura). A distância com sinal não diminui mais rápido que o vértice
-   * anda, então enquanto a folga não se esgota não é preciso perguntar de novo.
+   * espessura): a real é pelo menos esta, então enquanto o vértice não anda
+   * isso não é preciso perguntar de novo. Vem da distância informada com o
+   * teto e o desconto do contrato do Collider (`safeClearance`): longe da
+   * pele a distância do manequim sai inflada, e confiar nela deixava um
+   * vértice chegar ao ombro sem ser empurrado.
    */
   const clearance = new Float64Array(n).fill(-1);
   /** Rodadas por subpasso: um empurrão para fora de uma parte pode cair dentro de outra (axila, gancho). */
@@ -318,7 +331,7 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
         if (!pushed) break;
       }
       // Depois de mexer no vértice, a folga vale a partir da posição atual.
-      clearance[i] = nearest - gap;
+      clearance[i] = safeClearance(nearest, gap);
     }
   }
 

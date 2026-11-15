@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import type { Piece } from "@alinhavo/geometry";
-import type { Vec3 } from "../collider";
+import { MAX_OVERESTIMATE, TRUSTED_CLEARANCE_MM, type Vec3 } from "../collider";
 import { FABRICS } from "../fabrics";
 import { meshPiece } from "../mesh";
 import { createSimulation } from "../simulation";
@@ -210,4 +210,42 @@ describe("createMannequin", () => {
     const b = createMannequin(TABELA_M, "passo");
     expect(Array.from(a.mesh.positions)).toEqual(Array.from(b.mesh.positions));
   });
+
+  it("perto da pele a distância cumpre o contrato do Collider (o simulador pula perguntas com ela)", () => {
+    // Até a espessura do tecido mais grosso + TRUSTED_CLEARANCE_MM, a distância
+    // não cai mais que MAX_OVERESTIMATE × o que o ponto anda: é o que garante
+    // que a folga do simulador (safeClearance) nunca passa da real.
+    const band = Math.max(...Object.values(FABRICS).map((f) => f.thickness)) + TRUSTED_CLEARANCE_MM;
+    const h = 0.5;
+    const steps = [
+      [h, 0, 0], [-h, 0, 0], [0, h, 0], [0, -h, 0], [0, 0, h], [0, 0, -h],
+    ] as const;
+    for (const pose of ["em-pe", "passo"] as const) {
+      const body = createMannequin(TABELA_M, pose);
+      const P = body.mesh.positions;
+      let worst = 0;
+      let where = "";
+      let checked = 0;
+      // Pontos que saem da pele pela normal do colisor, a cada 0,5 mm até a faixa.
+      for (let v = 0; v < P.length / 3; v += 5) {
+        const s = { x: P[v * 3]!, y: P[v * 3 + 1]!, z: P[v * 3 + 2]! };
+        const n = body.collider.query(s.x, s.y, s.z).normal;
+        for (let t = 0.5; t <= band; t += 0.5) {
+          const p = { x: s.x + n.x * t, y: s.y + n.y * t, z: s.z + n.z * t };
+          const d = body.collider.query(p.x, p.y, p.z).distance;
+          if (d <= 0 || d > band) continue;
+          checked++;
+          for (const [ex, ey, ez] of steps) {
+            const rate = (d - body.collider.query(p.x + ex, p.y + ey, p.z + ez).distance) / h;
+            if (rate > worst) {
+              worst = rate;
+              where = `${pose} (${p.x.toFixed(1)}, ${p.y.toFixed(1)}, ${p.z.toFixed(1)}) d=${d.toFixed(2)}`;
+            }
+          }
+        }
+      }
+      expect(checked).toBeGreaterThan(1000);
+      expect(worst, where).toBeLessThanOrEqual(MAX_OVERESTIMATE);
+    }
+  }, 60_000);
 });

@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 import type { Piece, Seam } from "@alinhavo/geometry";
-import { floorCollider, sphereCollider } from "./collider";
+import { floorCollider, MAX_OVERESTIMATE, sphereCollider, TRUSTED_CLEARANCE_MM } from "./collider";
 import { FABRICS, stretchCompliance, type Fabric } from "./fabrics";
 import { meshPiece, type PieceMesh } from "./mesh";
-import { createSimulation, type Placement, type Simulation } from "./simulation";
+import { createSimulation, safeClearance, type Placement, type Simulation } from "./simulation";
 
 const VERTICAL = { from: { x: 0, y: 0 }, to: { x: 0, y: 100 } };
 const HORIZONTAL = { from: { x: 0, y: 0 }, to: { x: 100, y: 0 } };
@@ -73,6 +73,20 @@ describe("stretchCompliance", () => {
       expect(f.stretch.weft).toBeGreaterThan(f.stretch.warp);
       expect(f.stretch.bias).toBeGreaterThan(f.stretch.warp);
     }
+  });
+});
+
+describe("safeClearance", () => {
+  it("desconta o quanto o colisor pode exagerar e nunca confia em mais que TRUSTED_CLEARANCE_MM", () => {
+    const gap = 1;
+    // Perto: a real é pelo menos a informada ÷ MAX_OVERESTIMATE.
+    expect(safeClearance(2, gap)).toBeCloseTo(2 / MAX_OVERESTIMATE - gap, 12);
+    // Longe (o manequim chega a 5× sobre os ombros a 30 mm): o teto vale.
+    expect(safeClearance(47, gap)).toBeCloseTo((gap + TRUSTED_CLEARANCE_MM) / MAX_OVERESTIMATE - gap, 12);
+    expect(safeClearance(47, gap)).toBeLessThan(TRUSTED_CLEARANCE_MM);
+    // Encostado ou dentro: pergunta de novo no próximo subpasso.
+    expect(safeClearance(gap, gap)).toBeLessThanOrEqual(0);
+    expect(safeClearance(-3, gap)).toBeLessThan(0);
   });
 });
 
