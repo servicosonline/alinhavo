@@ -4,6 +4,7 @@ import { Suspense } from "react";
 import { Loading, NotConfigured } from "@/components/page-shell";
 import { SubmitButton } from "@/components/submit-button";
 import { ui } from "@/components/ui";
+import { DELIVERY_STATUS_LABEL, eventLabel, WEBHOOK_MAX } from "@/lib/api/webhooks";
 import { requireUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
 import { getMyRole } from "@/lib/org-access";
@@ -11,8 +12,9 @@ import { getOrigin } from "@/lib/origin";
 import { formatDate } from "@/lib/prova/approval";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
-import { revokeApiKey } from "./actions";
+import { revokeApiKey, webhookAction } from "./actions";
 import { CreateKey } from "./create-key";
+import { CreateWebhook } from "./create-webhook";
 
 export default function ApiPage({ params }: PageProps<"/painel/[orgId]/api">) {
   if (!getSupabaseConfig()) return <NotConfigured />;
@@ -38,6 +40,18 @@ async function Api({ params }: { params: PageProps<"/painel/[orgId]/api">["param
         .eq("org_id", orgId)
         .order("created_at", { ascending: false })
     : { data: [] };
+  const [{ data: hooks }, { data: deliveries }] = canManage
+    ? await Promise.all([
+        supabase.from("webhook_endpoints").select("id, url, events, active, created_at").eq("org_id", orgId).order("created_at"),
+        supabase
+          .from("webhook_deliveries")
+          .select("id, endpoint_id, event, status, attempts, next_attempt_at, last_status_code, last_error, created_at")
+          .eq("org_id", orgId)
+          .order("created_at", { ascending: false })
+          .limit(20),
+      ])
+    : [{ data: [] }, { data: [] }];
+  const urlOf = new Map((hooks ?? []).map((h) => [h.id, h.url]));
   const base = `${await getOrigin()}/api/v1`;
 
   return (
@@ -97,6 +111,74 @@ async function Api({ params }: { params: PageProps<"/painel/[orgId]/api">["param
                   </li>
                 ))}
               </ul>
+            )}
+          </section>
+
+          <section className={`${ui.card} space-y-4`} aria-labelledby="webhooks">
+            <div>
+              <h2 id="webhooks" className={ui.h2}>
+                Webhooks
+              </h2>
+              <p className={`mt-1 text-sm ${ui.muted}`}>
+                O Alinhavo avisa o seu sistema (POST com JSON assinado) quando um produto é aprovado, uma ficha técnica é gerada ou um risco é salvo.
+                Falhou? Tenta de novo em 1 min, 5 min, 30 min, 2 h e 12 h. Até {WEBHOOK_MAX} por organização.
+              </p>
+            </div>
+            <CreateWebhook orgId={orgId} disabled={(hooks ?? []).length >= WEBHOOK_MAX} />
+            {(hooks ?? []).length > 0 && (
+              <ul className="divide-y divide-tinta/10 text-sm" data-webhooks>
+                {(hooks ?? []).map((h) => (
+                  <li key={h.id} className="flex flex-wrap items-center justify-between gap-2 py-2" data-webhook={h.active ? "ativo" : "desligado"}>
+                    <span className="min-w-0">
+                      <span className="block break-all font-mono text-xs">{h.url}</span>
+                      <span className="block text-xs text-tinta-suave">
+                        {h.events.map(eventLabel).join(", ")} · {h.active ? "ligado" : "desligado"} · desde {formatDate(h.created_at)}
+                      </span>
+                    </span>
+                    <span className="flex flex-wrap gap-1">
+                      {(
+                        [
+                          ["testar", "Mandar teste", "Enviando…"],
+                          [h.active ? "desligar" : "ligar", h.active ? "Desligar" : "Ligar", "Salvando…"],
+                          ["apagar", "Apagar", "Apagando…"],
+                        ] as const
+                      ).map(([op, label, pending]) => (
+                        <form key={op} action={webhookAction}>
+                          <input type="hidden" name="orgId" value={orgId} />
+                          <input type="hidden" name="webhookId" value={h.id} />
+                          <input type="hidden" name="op" value={op} />
+                          <SubmitButton variant="ghost" pendingText={pending}>
+                            {label}
+                          </SubmitButton>
+                        </form>
+                      ))}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            )}
+            {(deliveries ?? []).length > 0 && (
+              <div className="space-y-2">
+                <h3 className="text-sm font-medium">Últimos envios</h3>
+                <ul className="divide-y divide-tinta/10 text-xs" data-webhook-deliveries>
+                  {(deliveries ?? []).map((d) => (
+                    <li key={d.id} className="flex flex-wrap justify-between gap-2 py-1.5" data-delivery={d.status}>
+                      <span className="min-w-0">
+                        <strong>{eventLabel(d.event)}</strong> · {formatDate(d.created_at)}
+                        <span className="block break-all text-tinta-suave">{urlOf.get(d.endpoint_id)}</span>
+                      </span>
+                      <span className="text-right">
+                        {DELIVERY_STATUS_LABEL[d.status]}
+                        {d.attempts > 1 && ` · ${d.attempts} tentativas`}
+                        {d.last_error && d.status !== "entregue" && <span className="block text-tinta-suave">{d.last_error}</span>}
+                        {d.status === "pendente" && d.attempts > 0 && (
+                          <span className="block text-tinta-suave">Nova tentativa em {formatDate(d.next_attempt_at)}</span>
+                        )}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             )}
           </section>
         </>

@@ -429,3 +429,8 @@ enabled = true
 # é o token da aprovação; a chave publicável sb_publishable_ não é JWT).
 [functions.aprovacao-video]
 verify_jwt = false
+
+# Envio da fila de webhooks, chamado pelo Supabase Cron. Quem garante o acesso é
+# WEBHOOK_DISPATCH_SECRET (Authorization: Bearer), conferido na própria função.
+[functions.webhooks-dispatch]
+verify_jwt = false
