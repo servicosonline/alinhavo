@@ -15,6 +15,8 @@ import { deleteTrim, setProductFabric } from "../actions";
 import { DownloadTechPack, GenerateTechPack, TrimForm } from "./tech-pack-parts";
 import { Comments } from "./comments";
 import { ProductTexts } from "./product-texts";
+import { FlatSketchView } from "@/components/flat-sketch-view";
+import { readFlatSketch } from "@alinhavo/export/flat-sketch";
 import { consumptionSource, meters, money, type TechPackData } from "@alinhavo/export/tech-pack";
 import { formatMoney } from "@/lib/money";
 import { formatEfficiency, formatMeters, formatPerGarment } from "@/lib/encaixe/marker";
@@ -316,6 +318,16 @@ async function Produto({ params }: { params: Params }) {
             disabledReason={!pattern ? "Ligue um molde para gerar a ficha." : pattern.current_version === 0 ? "Salve uma versão do molde para gerar a ficha." : null}
           />
         )}
+        {(() => {
+          // Desenho técnico da ficha mais recente (fichas antigas não têm).
+          const latestSketch = packs[0] ? readFlatSketch((packs[0].data as unknown as TechPackData).sketch) : null;
+          return latestSketch && latestSketch.views.length > 0 ? (
+            <div className="rounded-md border border-tinta/10 bg-papel/40 p-3">
+              <p className="mb-2 text-xs font-medium">Desenho técnico (ficha nº {packs[0]!.number})</p>
+              <FlatSketchView sketch={latestSketch} />
+            </div>
+          ) : null;
+        })()}
         {packs.length === 0 ? (
           <p className={ui.muted}>Nenhuma ficha gerada ainda.</p>
         ) : (

@@ -42,7 +42,7 @@ Rascunho para orientar a Fase 0. Toda tabela de negócio tem `org_id`, `created_
 | `collections` | org_id, nome, temporada, início, lançamento |
 | `milestones` | collection_id, etapa, prazo, responsável, concluído_em |
 | `products` | org_id, collection_id, referência, nome, status, size_chart_id |
-| `tech_packs` | product_id, dados (jsonb), versão |
+| `tech_packs` | product_id, dados (jsonb, formato 1; fichas novas levam o texto técnico e o desenho técnico plano, campos opcionais), versão |
 | `comments` | org_id, alvo (produto/prova), autor, texto |
 
 ## Molde

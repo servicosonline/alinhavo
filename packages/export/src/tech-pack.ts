@@ -1,4 +1,5 @@
 import { cutPieces, type PatternDocument } from "@alinhavo/geometry";
+import { flatSketch, type FlatSketch } from "./flat-sketch";
 
 /**
  * Ficha técnica: os dados montados a partir do molde, do tecido e dos
@@ -72,6 +73,8 @@ export type TechPackData = {
   materialCentsBySize: Record<string, number | null>;
   /** Texto técnico do produto (opcional: fichas antigas não têm). */
   technicalDescription?: string;
+  /** Desenho técnico plano do molde (opcional: fichas antigas não têm). */
+  sketch?: FlatSketch;
 };
 
 const round1 = (v: number) => Math.round(v * 10) / 10;
@@ -133,6 +136,7 @@ export function buildTechPack(input: TechPackInput): TechPackData {
     trimsCents,
     materialCentsBySize,
     ...(input.technicalDescription?.trim() ? { technicalDescription: input.technicalDescription.trim() } : {}),
+    sketch: flatSketch(doc),
   };
 }
 

@@ -7,6 +7,7 @@
     "./dxf": "./src/dxf.ts",
     "./pdf": "./src/pdf.ts",
     "./tech-pack": "./src/tech-pack.ts",
+    "./flat-sketch": "./src/flat-sketch.ts",
     "./tech-pack-pdf": "./src/tech-pack-pdf.ts",
     "./marker-dxf": "./src/marker-dxf.ts",
     "./marker-plt": "./src/marker-plt.ts",
@@ -20,6 +21,7 @@
     "@alinhavo/geometry": "*",
     "@alinhavo/nesting": "*",
     "@alinhavo/scan": "*",
+    "clipper2-ts": "2.0.1-19",
     "pdf-lib": "^1.17.1"
   },
   "devDependencies": {
