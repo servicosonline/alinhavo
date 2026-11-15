@@ -30,7 +30,30 @@ export default function Home() {
     <main className="papel-milimetrado flex flex-1 flex-col">
       <div className="mx-auto flex w-full max-w-5xl flex-1 flex-col px-6 py-10 sm:py-16">
         <header className="flex items-center justify-between">
-          <span className="font-display text-2xl font-semibold tracking-tight">Alinhavo</span>
+          <span className="flex items-center gap-2.5" aria-label="Alinhavo">
+            <svg viewBox="0 0 100 100" className="size-8 shrink-0" aria-hidden="true">
+              <defs>
+                <mask id="alinhavo-corte" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
+                  <rect width="100" height="100" fill="#fff" />
+                  <path d="M38 0 C36 34 66 52 62 100" fill="none" stroke="#000" strokeWidth="8" />
+                  <path d="M46.6 42.4 L40.3 49.5 L49.9 50.1 Z M51.6 39.4 L61.2 40.0 L54.9 47.1 Z" fill="#000" />
+                </mask>
+              </defs>
+              <rect x="6" y="6" width="88" height="88" rx="22" fill="var(--tinta)" mask="url(#alinhavo-corte)" />
+              <path
+                d="M39.04 14.38 C43.32 35.54 58.43 52.25 61.73 80.27"
+                pathLength={100}
+                fill="none"
+                stroke="var(--linha)"
+                strokeWidth="4.4"
+                strokeLinecap="round"
+                strokeDasharray="9.52 8.57"
+              />
+            </svg>
+            <span className="font-display text-[1.7rem] leading-none font-semibold tracking-[-0.035em]">
+              alinhavo
+            </span>
+          </span>
           <span className="rounded-full border border-tinta/20 px-3 py-1 text-xs text-tinta-suave">
             em construção
           </span>
@@ -43,6 +66,7 @@ export default function Home() {
               <br />
               de cortar.
             </h1>
+            <span className="alinhavo mt-6 w-40" aria-hidden="true" />
             <p className="mt-6 max-w-md text-lg text-tinta-suave">
               Modelagem, prova virtual em 3D e encaixe para confecções. Tudo no
               navegador, no mesmo molde, do primeiro traço à mesa de corte.

@@ -1,5 +1,6 @@
 import { flattenOutline, type CubicSegment, type PatternDocument, type Piece, type PiecePlacement, type Segment } from "./pattern";
 import { distance, signedArea, type Point } from "./polygon";
+import { dropFinishesAt, remapFinishes } from "./finishes";
 import { dropPieceSeams, remapSeams } from "./seams";
 
 /**
@@ -12,7 +13,7 @@ const lerp = (a: Point, b: Point, t: number): Point => ({ x: a.x + (b.x - a.x) *
 const round = (v: number) => Math.round(v * 10) / 10; // décimo de mm
 
 export function emptyDocument(sizes: string[] = ["P", "M", "G"], baseSize = "M"): PatternDocument {
-  return { schema: 4, unit: "mm", sizes: [...sizes], baseSize, pieces: [], seams: [] };
+  return { schema: 5, unit: "mm", sizes: [...sizes], baseSize, pieces: [], seams: [] };
 }
 
 function updatePiece(doc: PatternDocument, pieceId: string, fn: (p: Piece) => Piece | null): PatternDocument {
@@ -329,7 +330,8 @@ export function splitSegment(
   });
   if (next === doc) return { doc, pointId: null };
   const map = (i: number) => (i < index ? i : i === index ? null : i + 1);
-  const withFold = updatePiece(next, pieceId, (p) => remapFold(p, map));
+  // Dobra, acabamentos e costuras acompanham a nova numeração (o segmento dividido os desfaz).
+  const withFold = updatePiece(next, pieceId, (p) => remapFinishes(remapFold(p, map), map));
   return { doc: remapSeams(withFold, pieceId, map), pointId: created };
 }
 
@@ -375,7 +377,8 @@ export function removePoint(doc: PatternDocument, pieceId: string, pointId: stri
 
     const points = { ...p.points };
     delete points[pointId];
-    const piece: Piece = { ...p, points, start, outline };
+    // Etiqueta ou estampa presa ao ponto apagado sai junto.
+    const piece: Piece = { ...dropFinishesAt(p, pointId), points, start, outline };
     if (byEdge && Object.keys(byEdge).length) piece.seamAllowanceByEdge = byEdge;
     else delete piece.seamAllowanceByEdge;
     if (p.grading?.[pointId]) {
@@ -388,7 +391,7 @@ export function removePoint(doc: PatternDocument, pieceId: string, pointId: stri
   if (next === doc || !segmentMap) return next;
   const map = segmentMap;
   return remapSeams(
-    updatePiece(next, pieceId, (p) => remapFold(p, map)),
+    updatePiece(next, pieceId, (p) => remapFinishes(remapFold(p, map), map)),
     pieceId,
     map,
   );

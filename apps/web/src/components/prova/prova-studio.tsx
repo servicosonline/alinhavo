@@ -1,24 +1,29 @@
 "use client";
 
 import type { PatternDocument } from "@alinhavo/geometry";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { MapSummary } from "@alinhavo/cloth";
-import { clearanceColor, fillColors, heat, LOOSE_MM, pressureColor } from "@/lib/prova/colors";
+import { heat, LOOSE_MM } from "@/lib/prova/colors";
 import type { ProvaEdges } from "@/lib/prova/edges";
-import type { FabricId, FromWorker, PoseId, ProvaMaps, ToWorker } from "@/lib/prova/protocol";
+import type { FabricId, FromWorker, PoseId, ProvaMaps, ProvaPart, ToWorker } from "@/lib/prova/protocol";
+import { lookSetup, lookStart, type LookItem, type LookOption } from "@/lib/prova/look";
+import { FABRIC_COLOR, garmentPaint } from "@/lib/prova/paint";
 import { formatCm } from "@/lib/units";
 import { ui } from "../ui";
 import { addCaptures, type Capture } from "@/lib/prova/captures";
 import { AdjustPanel, type ProvaSaveMode } from "./adjust-panel";
 import { ApprovalRequest, type ApprovalRequester } from "./approval-request";
 import { CapturesPanel } from "./captures-panel";
+import { CatalogPhotoRequest, type CatalogPhotoRequester } from "./catalog-photo-request";
+import { VideoPanel } from "./video-panel";
+import { VIDEO_BITRATE, VIDEO_FPS, VIDEO_HEIGHT, VIDEO_SECONDS, VIDEO_WIDTH, videoFileName } from "@/lib/prova/video";
+import { GradeView } from "./grade-view";
+import { FABRIC_NAME, LookPanel } from "./look-panel";
 import type { ProvaScene } from "./scene";
 
-const FABRICS: { id: FabricId; name: string; color: string }[] = [
-  { id: "planoLeve", name: "Plano leve", color: "#d8c3a5" },
-  { id: "malha", name: "Malha", color: "#8a9db3" },
-  { id: "jeans", name: "Jeans", color: "#4a6687" },
-];
+const FABRICS: { id: FabricId; name: string }[] = (["planoLeve", "malha", "jeans"] as const).map((id) => ({ id, name: FABRIC_NAME[id] }));
+/** Sem roupas para o look, o painel do look não aparece. */
+const NO_LOOK: LookOption[] = [];
 const POSES: { id: PoseId; name: string }[] = [
   { id: "em-pe", name: "Em pé" },
   { id: "passo", name: "Passo" },
@@ -44,6 +49,12 @@ const MEASUREMENT_NAME: Record<string, string> = {
 };
 
 type View = "tecido" | "pressao" | "folga";
+/** Um tamanho (com ajuste, captura e aprovação) ou a grade inteira lado a lado (só ver). */
+type Mode = "um" | "grade";
+const MODES: { id: Mode; name: string }[] = [
+  { id: "um", name: "Um tamanho" },
+  { id: "grade", name: "Grade inteira" },
+];
 const VIEWS: { id: View; name: string }[] = [
   { id: "tecido", name: "Tecido" },
   { id: "pressao", name: "Pressão" },
@@ -87,9 +98,13 @@ type Props = {
   saveMode: ProvaSaveMode;
   /** Pedir aprovação por link (só no painel, para quem edita moldes). */
   approval?: ApprovalRequester;
+  /** Gerar foto de catálogo por IA a partir de uma captura (só no painel, com produto ligado ao molde). */
+  catalogPhoto?: CatalogPhotoRequester;
+  /** Outras roupas que podem entrar no look (sem elas, não há look). */
+  lookOptions?: LookOption[];
 };
 
-export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, approval }: Props) {
+export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, approval, catalogPhoto, lookOptions = NO_LOOK }: Props) {
   // Molde em prova: começa no que veio da página e muda a cada ajuste aplicado.
   // Se a página mandar outro molde (versão nova salva), recomeça dele.
   const [work, setWork] = useState({ source: sourceDoc, doc: sourceDoc });
@@ -110,24 +125,31 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
   const [notes, setNotes] = useState<{ skipped: string[]; estimated: string[] }>({ skipped: [], estimated: [] });
   const [view, setView] = useState<View>("tecido");
   const [maps, setMaps] = useState<{ summary: MapSummary; fabricLimit: number } | null>(null);
-  const color = FABRICS.find((f) => f.id === fabric)!.color;
+  const [fabricLimit, setFabricLimit] = useState(0.05);
+  const [mode, setMode] = useState<Mode>("um");
+  const modeRef = useRef<Mode>("um");
+  /** A Prova de um tamanho estava rodando quando a grade abriu (volta a rodar ao sair). */
+  const resumeRef = useRef(false);
+  const [look, setLook] = useState<LookItem[]>(() => lookStart("Este molde", "planoLeve"));
+  const [lookNotes, setLookNotes] = useState<string[]>([]);
+  // Camada do molde em prova e as outras roupas, para o Worker (estável entre renders).
+  const { layer, extras } = useMemo(() => lookSetup(look, lookOptions), [look, lookOptions]);
+  const color = FABRIC_COLOR[fabric];
   const colorRef = useRef(color);
   const viewModeRef = useRef<View>("tecido");
-  /** Últimos mapas recebidos e o limite do tecido, para pintar ao trocar a vista. */
-  const lastMapsRef = useRef<{ maps: ProvaMaps | null; fabricLimit: number }>({ maps: null, fabricLimit: 0.05 });
+  /** Últimos mapas recebidos, as roupas (com o look) e o total de vértices, para pintar ao trocar a vista. */
+  const lastMapsRef = useRef<{ maps: ProvaMaps | null; fabricLimit: number; parts: ProvaPart[]; vertices: number }>({
+    maps: null,
+    fabricLimit: 0.05,
+    parts: [],
+    vertices: 0,
+  });
 
-  /** Pinta a roupa conforme a vista escolhida. Só lê refs: é estável. */
+  /** Pinta a roupa conforme a vista escolhida (cada roupa do look com a sua cor e o seu limite). Só lê refs: é estável. */
   const paint = useCallback((scene: ProvaScene | null) => {
     if (!scene) return;
-    const mode = viewModeRef.current;
-    const { maps: m, fabricLimit } = lastMapsRef.current;
-    if (mode === "tecido" || !m) {
-      scene.setMapColors(null, colorRef.current);
-    } else if (mode === "pressao") {
-      scene.setMapColors(fillColors(m.stretch, (s) => pressureColor(s, fabricLimit)), colorRef.current);
-    } else {
-      scene.setMapColors(fillColors(m.clearance, clearanceColor), colorRef.current);
-    }
+    const { maps: m, parts, vertices } = lastMapsRef.current;
+    scene.setMapColors(garmentPaint(viewModeRef.current, m, parts, vertices), colorRef.current);
   }, []);
 
   // Cena e Worker: criados uma vez, descartados ao sair da página.
@@ -139,7 +161,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
     let lastReady: Extract<FromWorker, { type: "ready" }> | null = null;
     const show = (scene: ProvaScene, msg: Extract<FromWorker, { type: "ready" }>) => {
       scene.setBody(msg.body.positions, msg.body.indices);
-      scene.setGarment(msg.garment.positions, msg.garment.indices, colorRef.current);
+      scene.setGarment(msg.garment.positions, msg.garment.indices, colorRef.current, msg.decals);
       scene.setEdges(msg.edges.lines, msg.edges.owner);
       paint(scene);
     };
@@ -148,14 +170,22 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
       const scene = sceneRef.current;
       if (msg.type === "ready") {
         lastReady = msg;
-        lastMapsRef.current = { maps: null, fabricLimit: msg.fabricLimit };
+        lastMapsRef.current = { maps: null, fabricLimit: msg.fabricLimit, parts: msg.parts, vertices: msg.garment.positions.length / 3 };
         setMaps(null);
+        setFabricLimit(msg.fabricLimit);
+        setLookNotes(msg.lookNotes);
         setEdges(msg.edges);
         setSelected(null);
         if (scene) show(scene, msg);
         setNotes({ skipped: msg.skipped, estimated: msg.estimated });
-        setStatus({ kind: "running", time: 0, seamGap: Infinity });
-        worker.postMessage({ type: "play" } satisfies ToWorker);
+        // Com a grade aberta, a Prova de um tamanho fica montada e parada (a CPU é da grade).
+        if (modeRef.current === "grade") {
+          resumeRef.current = true;
+          setStatus({ kind: "paused", time: 0, seamGap: Infinity });
+        } else {
+          setStatus({ kind: "running", time: 0, seamGap: Infinity });
+          worker.postMessage({ type: "play" } satisfies ToWorker);
+        }
       } else if (msg.type === "frame") {
         scene?.updateGarment(msg.positions);
         if (msg.maps) {
@@ -186,13 +216,39 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
 
   // Trocar tamanho, tecido, pose ou o molde monta a Prova de novo; as capturas antigas
   // mostram outra roupa, então saem (a aprovação guarda uma configuração só).
-  const setupKey = `${size}|${fabric}|${pose}`;
-  const [capturedFor, setCapturedFor] = useState({ setupKey, doc });
+  const setupKey = `${size}|${fabric}|${pose}|${look.map((i) => `${i.key}:${i.fabric}`).join(",")}`;
+  const [capturedFor, setCapturedFor] = useState({ setupKey, doc, video: 0 });
+  /** O vídeo 360° gravado (vai junto no pedido de aprovação). */
+  const [video, setVideo] = useState<Blob | null>(null);
   if (capturedFor.setupKey !== setupKey || capturedFor.doc !== doc) {
-    setCapturedFor({ setupKey, doc });
+    // O vídeo também mostra outra roupa: o painel recomeça (chave nova).
+    setCapturedFor({ setupKey, doc, video: capturedFor.video + 1 });
     setCaptures([]);
     setCaptureNote(null);
+    setVideo(null);
   }
+
+  /** Grava a volta 360°: a simulação para durante a gravação (a roupa fica parada) e volta depois. */
+  const recordVideo = async (type: string, onProgress: (f: number) => void) => {
+    const scene = sceneRef.current;
+    if (!scene) throw new Error("A Prova ainda está montando.");
+    const worker = workerRef.current;
+    const wasRunning = status.kind === "running";
+    if (wasRunning) worker?.postMessage({ type: "pause" } satisfies ToWorker);
+    try {
+      return await scene.recordTurntable({
+        seconds: VIDEO_SECONDS,
+        fps: VIDEO_FPS,
+        width: VIDEO_WIDTH,
+        height: VIDEO_HEIGHT,
+        bitrate: VIDEO_BITRATE,
+        type,
+        onProgress,
+      });
+    } finally {
+      if (wasRunning && modeRef.current === "um") worker?.postMessage({ type: "play" } satisfies ToWorker);
+    }
+  };
 
   const capture = (angles: Capture["angle"][]) => {
     const scene = sceneRef.current;
@@ -203,15 +259,15 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
     setCaptureNote(dropped > 0 ? `${dropped === 1 ? "Uma imagem ficou" : `${dropped} imagens ficaram`} de fora (até 4, de até 150 KB).` : null);
   };
 
-  // Trocar tamanho, tecido ou pose monta a Prova de novo.
+  // Trocar tamanho, tecido, pose ou o look monta a Prova de novo.
   useEffect(() => {
     colorRef.current = color;
     const worker = workerRef.current;
     if (!worker) return;
     setStatus({ kind: "loading" });
     const measurements = measurementsBySize[size] ?? {};
-    worker.postMessage({ type: "init", setup: { doc, size, measurements, fabric, pose } } satisfies ToWorker);
-  }, [doc, size, fabric, pose, measurementsBySize, color]);
+    worker.postMessage({ type: "init", setup: { doc, size, measurements, fabric, pose, layer, extras } } satisfies ToWorker);
+  }, [doc, size, fabric, pose, measurementsBySize, color, layer, extras]);
 
   // A borda escolhida (pelo clique ou pela lista) fica destacada na roupa.
   useEffect(() => {
@@ -230,6 +286,26 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
     paint(sceneRef.current);
   }, [view, paint]);
 
+  const changeMode = (next: Mode) => {
+    if (next === mode) return;
+    modeRef.current = next;
+    setMode(next);
+    const worker = workerRef.current;
+    if (next === "grade") {
+      resumeRef.current = status.kind === "running";
+      if (status.kind === "running") {
+        worker?.postMessage({ type: "pause" } satisfies ToWorker);
+        setStatus({ kind: "paused", time: status.time, seamGap: status.seamGap });
+      }
+      return;
+    }
+    if (resumeRef.current && status.kind === "paused") {
+      worker?.postMessage({ type: "play" } satisfies ToWorker);
+      setStatus({ ...status, kind: "running" });
+    }
+    resumeRef.current = false;
+  };
+
   const togglePlay = () => {
     const worker = workerRef.current;
     if (!worker) return;
@@ -244,14 +320,18 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
   const restart = () => {
     workerRef.current?.postMessage({
       type: "init",
-      setup: { doc, size, measurements: measurementsBySize[size] ?? {}, fabric, pose },
+      setup: { doc, size, measurements: measurementsBySize[size] ?? {}, fabric, pose, layer, extras },
     } satisfies ToWorker);
     setStatus({ kind: "loading" });
   };
 
   return (
     <div className="grid gap-3 lg:grid-cols-[1fr_18rem]">
-      <div ref={viewRef} className="relative h-[60vh] min-h-[22rem] overflow-hidden rounded-lg border border-tinta/15 bg-papel lg:h-[calc(100vh-10rem)]">
+      {mode === "grade" && <GradeView doc={doc} measurementsBySize={measurementsBySize} fabric={fabric} pose={pose} color={color} view={view} layer={layer} extras={extras} />}
+      <div
+        ref={viewRef}
+        className={`${mode === "grade" ? "hidden" : "relative"} h-[60vh] min-h-[22rem] overflow-hidden rounded-lg border border-tinta/15 bg-papel lg:h-[calc(100vh-10rem)]`}
+      >
         {status.kind === "loading" && (
           <p className="absolute inset-x-0 top-3 text-center text-xs text-tinta-suave" role="status">
             Montando a Prova…
@@ -261,6 +341,21 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
 
       <aside className="space-y-4" aria-label="Controles da Prova">
         <div className={`${ui.card} space-y-3 p-4`}>
+          <div className="grid grid-cols-2 gap-1" role="radiogroup" aria-label="Provar">
+            {MODES.map((m) => (
+              <button
+                key={m.id}
+                type="button"
+                role="radio"
+                aria-checked={mode === m.id}
+                data-mode={m.id}
+                className={`rounded-md border px-2 py-1.5 text-sm ${mode === m.id ? "border-tinta bg-tinta text-papel" : "border-tinta/20 hover:bg-papel-escuro"}`}
+                onClick={() => changeMode(m.id)}
+              >
+                {m.name}
+              </button>
+            ))}
+          </div>
           <label className="block text-xs">
             <span className="font-medium">Corpo</span>
             <select className={`${ui.input} text-sm`} value="manequim" onChange={() => {}}>
@@ -272,7 +367,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
           </label>
           <label className="block text-xs">
             <span className="font-medium">Tamanho</span>
-            <select className={`${ui.input} text-sm`} value={size} onChange={(e) => setSize(e.target.value)}>
+            <select className={`${ui.input} text-sm`} value={size} onChange={(e) => setSize(e.target.value)} disabled={mode === "grade"}>
               {doc.sizes.map((s) => (
                 <option key={s} value={s}>
                   {s}
@@ -301,7 +396,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
               ))}
             </select>
           </label>
-          <div className="grid grid-cols-2 gap-2">
+          <div className={`${mode === "grade" ? "hidden" : "grid"} grid-cols-2 gap-2`}>
             <button type="button" className={ui.buttonGhost} onClick={togglePlay} disabled={status.kind !== "running" && status.kind !== "paused"}>
               {status.kind === "paused" ? "Continuar" : "Pausar"}
             </button>
@@ -310,6 +405,10 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
             </button>
           </div>
         </div>
+
+        {lookOptions.length > 0 && (
+          <LookPanel look={look} options={lookOptions} mainFabric={fabric} onChange={setLook} disabled={status.kind === "loading"} />
+        )}
 
         <div className={`${ui.card} space-y-3 p-4`}>
           <fieldset>
@@ -330,8 +429,8 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
               ))}
             </div>
           </fieldset>
-          {view !== "tecido" && <Legend view={view} fabricLimit={maps?.fabricLimit ?? 0.05} />}
-          {view !== "tecido" && (
+          {view !== "tecido" && <Legend view={view} fabricLimit={fabricLimit} />}
+          {view !== "tecido" && mode === "um" && (
             <div className="space-y-1 text-xs" data-map-summary>
               {!maps ? (
                 <p className="text-tinta-suave">Calculando o mapa…</p>
@@ -354,6 +453,13 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
           )}
         </div>
 
+        {mode === "grade" ? (
+          <p className="text-xs text-tinta-suave" data-grade-note>
+            Cada tamanho veste o manequim com as medidas da sua linha na tabela. Para ajustar o molde, capturar imagens ou pedir aprovação,
+            volte para Um tamanho.
+          </p>
+        ) : (
+          <>
         <CapturesPanel
           captures={captures}
           onCapture={capture}
@@ -364,8 +470,17 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
           disabled={status.kind !== "running" && status.kind !== "paused"}
           note={captureNote}
         >
-          {approval && <ApprovalRequest requester={approval} settings={{ size, fabric, pose }} captures={captures} />}
+          {approval && <ApprovalRequest requester={approval} settings={{ size, fabric, pose }} captures={captures} video={video} />}
+          {catalogPhoto && <CatalogPhotoRequest requester={catalogPhoto} captures={captures} />}
         </CapturesPanel>
+
+        <VideoPanel
+          key={capturedFor.video}
+          record={recordVideo}
+          fileName={(type) => videoFileName("prova", size, type)}
+          disabled={status.kind !== "running" && status.kind !== "paused"}
+          onChange={setVideo}
+        />
 
         <AdjustPanel
           doc={doc}
@@ -399,6 +514,11 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
             </>
           )}
           {status.kind === "error" && <p className="text-linha">{status.message}</p>}
+          {lookNotes.map((n) => (
+            <p key={n} className="text-tinta-suave" data-look-note>
+              {n}
+            </p>
+          ))}
           {notes.skipped.length > 0 && (
             <p className="text-tinta-suave">Fora da Prova (sem posição no corpo): {notes.skipped.join(", ")}.</p>
           )}
@@ -408,7 +528,11 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
             </p>
           )}
         </div>
-        <p className="text-xs text-tinta-suave">Arraste para girar, use a roda ou dois dedos para aproximar. Clique numa borda para ajustar o molde.</p>
+          </>
+        )}
+        <p className="text-xs text-tinta-suave">
+          Arraste para girar, use a roda ou dois dedos para aproximar.{mode === "um" ? " Clique numa borda para ajustar o molde." : ""}
+        </p>
       </aside>
     </div>
   );

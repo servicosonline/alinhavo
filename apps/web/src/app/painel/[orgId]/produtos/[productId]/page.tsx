@@ -14,8 +14,14 @@ import { linkProductPattern, setProductStatus } from "../../colecoes/actions";
 import { deleteTrim, setProductFabric } from "../actions";
 import { DownloadTechPack, GenerateTechPack, TrimForm } from "./tech-pack-parts";
 import { Comments } from "./comments";
-import { meters, money, type TechPackData } from "@alinhavo/export/tech-pack";
+import { ProductTexts } from "./product-texts";
+import { CatalogPhotos } from "./catalog-photos";
+import { FlatSketchView } from "@/components/flat-sketch-view";
+import { readFlatSketch } from "@alinhavo/export/flat-sketch";
+import { consumptionSource, meters, money, type TechPackData } from "@alinhavo/export/tech-pack";
 import { formatMoney } from "@/lib/money";
+import { formatEfficiency, formatMeters, formatPerGarment } from "@/lib/encaixe/marker";
+import { formatCm } from "@/lib/units";
 import { formatDate } from "@/lib/prova/approval";
 import { ApprovalsList } from "../../moldes/[patternId]/approvals-list";
 
@@ -41,7 +47,7 @@ async function Produto({ params }: { params: Params }) {
   const [prodRes, role, patRes] = await Promise.all([
     supabase
       .from("products")
-      .select("id, reference, name, status, pattern_id, fabric_id, collection_id, collections(name)")
+      .select("id, reference, name, status, pattern_id, fabric_id, collection_id, sales_description, technical_description, collections(name)")
       .eq("id", productId)
       .eq("org_id", orgId)
       .maybeSingle(),
@@ -62,13 +68,25 @@ async function Produto({ params }: { params: Params }) {
     : { data: [] as { status: "pendente" | "aprovado" | "ajustes" }[] };
   const latest = last?.[0]?.status ?? null;
 
-  const [fabRes, trimRes, packRes, commentRes, teamRes] = await Promise.all([
+  const [fabRes, trimRes, packRes, commentRes, teamRes, markerRes, aiRes, photoUseRes] = await Promise.all([
     supabase.from("fabrics").select("id, name, width_mm, price_cents").eq("org_id", orgId).order("name"),
     supabase.from("product_trims").select("id, name, quantity, unit, unit_price_cents").eq("product_id", p.id).eq("org_id", orgId).order("position").order("created_at"),
     supabase.from("tech_packs").select("id, number, pattern_version, data, created_at").eq("product_id", p.id).eq("org_id", orgId).order("number", { ascending: false }).limit(10),
     supabase.from("comments").select("id, author, body, created_at").eq("product_id", p.id).eq("org_id", orgId).order("created_at").limit(200),
     supabase.rpc("org_team", { p_org_id: orgId }),
+    supabase
+      .from("markers")
+      .select("number, pattern_version, width_mm, length_mm, efficiency, demand")
+      .eq("product_id", p.id)
+      .eq("org_id", orgId)
+      .order("number", { ascending: false })
+      .limit(1),
+    supabase.rpc("ai_generations_this_month", { p_org_id: orgId }),
+    supabase.rpc("ai_generations_this_month", { p_org_id: orgId, p_kind: "foto_catalogo" }),
   ]);
+  // Só a informação de que há chave (nunca a chave) vai para a tela.
+  const aiReady = !!process.env.ANTHROPIC_API_KEY?.trim();
+  const lastMarker = markerRes.data?.[0] ?? null;
   const names = Object.fromEntries((teamRes.data ?? []).map((m) => [m.user_id, m.email]));
   const fabrics = fabRes.data ?? [];
   const trims = trimRes.data ?? [];
@@ -180,6 +198,30 @@ async function Produto({ params }: { params: Params }) {
         </div>
       </section>
 
+      <section className={`${ui.card} space-y-3`} aria-labelledby="textos" data-section="textos">
+        <h2 id="textos" className={ui.h2}>
+          Textos do produto
+        </h2>
+        <ProductTexts
+          orgId={orgId}
+          productId={p.id}
+          sales={p.sales_description}
+          technical={p.technical_description}
+          canEdit={canEdit}
+          aiReady={aiReady}
+          usedThisMonth={aiRes.data ?? 0}
+        />
+      </section>
+
+      <CatalogPhotos
+        supabase={supabase}
+        orgId={orgId}
+        productId={p.id}
+        provaHref={pattern && pattern.current_version > 0 ? `/painel/${orgId}/moldes/${pattern.id}/prova` : null}
+        canEdit={canEdit}
+        usedThisMonth={photoUseRes.data ?? 0}
+      />
+
       <section className={`${ui.card} space-y-3`} aria-labelledby="tecido" data-section="tecido">
         <h2 id="tecido" className={ui.h2}>
           Tecido
@@ -250,12 +292,35 @@ async function Produto({ params }: { params: Params }) {
         {canEdit && <TrimForm orgId={orgId} productId={p.id} />}
       </section>
 
+      <section className={`${ui.card} space-y-3`} aria-labelledby="encaixe" data-section="encaixe">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <h2 id="encaixe" className={ui.h2}>
+            Encaixe
+          </h2>
+          <Link href={`${back}/encaixe`} className={ui.buttonGhost}>
+            {lastMarker ? "Abrir encaixe" : "Encaixar"}
+          </Link>
+        </div>
+        {lastMarker ? (
+          <p className="text-sm" data-last-marker={lastMarker.number}>
+            Último risco: <strong>nº {lastMarker.number}</strong> · {formatMeters(Number(lastMarker.length_mm))} em {formatCm(lastMarker.width_mm)} cm ·{" "}
+            {formatEfficiency(Number(lastMarker.efficiency))} de aproveitamento ·{" "}
+            {formatPerGarment(Number(lastMarker.length_mm), lastMarker.demand as Record<string, number>)} por peça
+            {pattern && lastMarker.pattern_version !== pattern.current_version && (
+              <span className="text-tinta-suave"> · feito na versão {lastMarker.pattern_version} do molde</span>
+            )}
+          </p>
+        ) : (
+          <p className={ui.muted}>Nenhum risco salvo. O encaixe distribui as peças da grade na largura do tecido e mede o consumo real.</p>
+        )}
+      </section>
+
       <section className={`${ui.card} space-y-3`} aria-labelledby="ficha" data-section="ficha">
         <h2 id="ficha" className={ui.h2}>
           Ficha técnica
         </h2>
         <p className="text-xs text-tinta-suave">
-          Gerada da versão atual do molde, do tecido e dos aviamentos. O consumo de tecido é uma estimativa pela área das peças até o Encaixe.
+          Gerada da versão atual do molde, do tecido e dos aviamentos. O consumo de tecido vem do último risco do Encaixe nessa versão do molde e na largura do tecido; sem risco, é uma estimativa pela área das peças.
         </p>
         {canEdit && (
           <GenerateTechPack
@@ -264,6 +329,16 @@ async function Produto({ params }: { params: Params }) {
             disabledReason={!pattern ? "Ligue um molde para gerar a ficha." : pattern.current_version === 0 ? "Salve uma versão do molde para gerar a ficha." : null}
           />
         )}
+        {(() => {
+          // Desenho técnico da ficha mais recente (fichas antigas não têm).
+          const latestSketch = packs[0] ? readFlatSketch((packs[0].data as unknown as TechPackData).sketch) : null;
+          return latestSketch && latestSketch.views.length > 0 ? (
+            <div className="rounded-md border border-tinta/10 bg-papel/40 p-3">
+              <p className="mb-2 text-xs font-medium">Desenho técnico (ficha nº {packs[0]!.number})</p>
+              <FlatSketchView sketch={latestSketch} />
+            </div>
+          ) : null;
+        })()}
         {packs.length === 0 ? (
           <p className={ui.muted}>Nenhuma ficha gerada ainda.</p>
         ) : (
@@ -278,7 +353,7 @@ async function Produto({ params }: { params: Params }) {
                     <strong>Nº {pk.number}</strong> · molde versão {pk.pattern_version} · {formatDate(pk.created_at)}
                     {c && (
                       <span className="block text-xs text-tinta-suave">
-                        Tamanho {base}: {meters(c.meters)} de tecido (estimativa) · material {money(d.materialCentsBySize?.[base!] ?? null)}
+                        Tamanho {base}: {meters(c.meters)} de tecido ({consumptionSource(d.consumption)}) · material {money(d.materialCentsBySize?.[base!] ?? null)}
                       </span>
                     )}
                   </span>

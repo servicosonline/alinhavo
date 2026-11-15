@@ -1,13 +1,19 @@
 @import "tailwindcss";
 
-/* Paleta do Alinhavo: papel de molde, tinta e a linha vermelha do alinhavo. */
+/*
+ * Paleta do Alinhavo ("a caixa de costura"), do manual de marca em marca/README.md.
+ * papel = fundo (60%), tinta = texto e símbolo, linha = o alinhavo vermelho (destaque),
+ * costura = o azul giz (links, cotas, medidas), fita = amarelo da fita métrica (só com tinta por cima).
+ * As cores dos mapas da Prova são funcionais e ficam em lib/prova/colors.ts, fora daqui.
+ */
 :root {
-  --papel: #f6f1e7;
-  --papel-escuro: #ebe3d3;
+  --papel: #f5efe3;
+  --papel-escuro: #e8decb;
   --tinta: #1d1b18;
   --tinta-suave: #5c564c;
-  --linha: #c2412d;
-  --costura: #25639f;
+  --linha: #c43a26;
+  --costura: #2b5c9b;
+  --fita: #edb92e;
 }
 
 @theme inline {
@@ -17,6 +23,7 @@
   --color-tinta-suave: var(--tinta-suave);
   --color-linha: var(--linha);
   --color-costura: var(--costura);
+  --color-fita: var(--fita);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-display: var(--font-fraunces);
@@ -27,10 +34,23 @@ body {
   color: var(--tinta);
 }
 
-/* Grade de papel milimetrado, discreta. */
+/* Títulos em Fraunces na versão macia (SOFT 100), como no logo. */
+.font-display {
+  font-variation-settings: "SOFT" 100, "WONK" 0;
+}
+
+/* Grade de papel milimetrado, discreta, em azul giz. */
 .papel-milimetrado {
   background-image:
-    linear-gradient(to right, rgb(29 27 24 / 0.05) 1px, transparent 1px),
-    linear-gradient(to bottom, rgb(29 27 24 / 0.05) 1px, transparent 1px);
+    linear-gradient(to right, rgb(43 92 155 / 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(43 92 155 / 0.07) 1px, transparent 1px);
   background-size: 24px 24px;
+}
+
+/* O alinhavo: o tracejado vermelho que sublinha títulos e separa seções. */
+.alinhavo {
+  display: block;
+  height: 4px;
+  border-radius: 2px;
+  background: repeating-linear-gradient(90deg, var(--linha) 0 16px, transparent 16px 28px);
 }

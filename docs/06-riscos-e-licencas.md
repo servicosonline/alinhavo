@@ -15,8 +15,9 @@
 - **Não copiar a marca, nomes de módulos, telas, ícones nem textos da Audaces.** Funcionalidade não é protegida; identidade visual e código são. O Alinhavo tem nome, fluxo e interface próprios.
 - **Nome "Alinhavo":** antes de investir em marca, pesquisar no INPI (classes 9 e 42) e conferir domínio e redes sociais.
 - **Corpo 3D:** não usar SMPL/SMPL-X (licença não comercial). Usar base com licença comercial livre, como os modelos do MakeHuman (saídas em CC0), e documentar a origem.
-- **Encaixe:** Deepnest e SVGnest são referências úteis para estudo, mas o Deepnest é GPL; não copiar código. Implementar o próprio motor usando Clipper2 (licença Boost, permissiva) para as operações de polígono.
-- **OpenCV.js:** Apache 2.0, uso comercial permitido.
+- **Encaixe:** Deepnest e SVGnest são referências úteis para estudo, mas o Deepnest é GPL; não copiar código. Implementar o próprio motor usando Clipper2 (licença Boost, permissiva) para as operações de polígono. **(feito, Fase 4a)** Motor próprio em `packages/nesting` sobre o port `clipper2-ts` (BSL-1.0, TypeScript puro); nada do Deepnest/SVGnest foi copiado.
+- **OpenCV.js:** Apache 2.0, uso comercial permitido. (Não usado: o Scan saiu sem OpenCV.)
+- **js-aruco2** (Scan, detecção dos marcadores): MIT. O dicionário usado (ARUCO_MIP_36h12) está no próprio `aruco.js` (MIT).
 - **Texturas e presets de tecido:** só de fontes com licença comercial (ex.: CC0) ou produzidas por nós.
 - **IA:** conferir os termos de uso comercial do provedor de imagem escolhido antes da Fase 6.
 

@@ -1,5 +1,6 @@
 import { PDFDocument, type PDFFont, type PDFPage, rgb, StandardFonts } from "pdf-lib";
-import { cm, ESTIMATED_EFFICIENCY, grams, meters, money, PRODUCT_STATUS_PT, squareMeters, type TechPackData } from "./tech-pack";
+import { readFlatSketch, sketchPath, type SketchView } from "./flat-sketch";
+import { cm, consumptionNote, consumptionSource, grams, meters, money, PRODUCT_STATUS_PT, squareMeters, type TechPackData } from "./tech-pack";
 
 /**
  * PDF da ficha técnica (A4 retrato). Fontes padrão do PDF (WinAnsi): o que
@@ -45,6 +46,67 @@ function heading(ctx: Ctx, value: string) {
   ensure(ctx, 4);
   ctx.page.drawLine({ start: { x: MARGIN, y: ctx.y }, end: { x: PAGE.w - MARGIN, y: ctx.y }, thickness: 0.5, color: LINE });
   ctx.y -= 6;
+}
+
+/** Texto corrido quebrado na largura da página (as quebras de linha do texto são mantidas). */
+function paragraph(ctx: Ctx, value: string, size = 9.5) {
+  const max = PAGE.w - 2 * MARGIN;
+  for (const raw of winAnsiSafe(value).split("\n")) {
+    let line = "";
+    for (const word of raw.split(/\s+/).filter(Boolean)) {
+      const next = line ? `${line} ${word}` : word;
+      if (line && ctx.font.widthOfTextAtSize(next, size) > max) {
+        text(ctx, line, { size });
+        line = word;
+      } else line = next;
+    }
+    if (line) text(ctx, line, { size });
+    else ctx.y -= size / 2;
+  }
+}
+
+/** Altura máxima de uma vista do desenho técnico, em pt. */
+const SKETCH_HEIGHT = 250;
+
+/**
+ * Desenho técnico: as vistas lado a lado, na mesma escala (a do que mais
+ * aperta), com o nome de cada uma embaixo. Espessuras em pt, convertidas para
+ * a escala do caminho (o drawSvgPath escala também as linhas).
+ */
+function sketch(ctx: Ctx, views: SketchView[]) {
+  const total = PAGE.w - 2 * MARGIN;
+  const gap = 24;
+  const slot = (total - gap * (views.length - 1)) / views.length;
+  const scale = Math.min(...views.map((v) => Math.min(slot / Math.max(1, v.bounds.maxX - v.bounds.minX), SKETCH_HEIGHT / Math.max(1, v.bounds.maxY - v.bounds.minY))));
+  const height = Math.max(...views.map((v) => (v.bounds.maxY - v.bounds.minY) * scale));
+  ensure(ctx, height + 24);
+  const top = ctx.y - 4;
+  views.forEach((v, i) => {
+    const w = (v.bounds.maxX - v.bounds.minX) * scale;
+    const left = MARGIN + i * (slot + gap) + (slot - w) / 2;
+    const at = { x: left - v.bounds.minX * scale, y: top + v.bounds.minY * scale };
+    const pt = (n: number) => n / scale; // espessura em pt na escala do caminho
+    for (const p of v.pieces) ctx.page.drawSvgPath(sketchPath(p, true), { ...at, scale, borderColor: SOFT, borderWidth: pt(0.4) });
+    for (const p of v.outline) ctx.page.drawSvgPath(sketchPath(p, true), { ...at, scale, borderColor: INK, borderWidth: pt(1.2) });
+    for (const m of v.marks) {
+      if (m.kind === "pesponto") {
+        for (const l of m.lines) ctx.page.drawSvgPath(sketchPath(l, false), { ...at, scale, borderColor: INK, borderWidth: pt(0.4), borderDashArray: [pt(2), pt(1.5)] });
+      } else if (m.kind === "ziper") {
+        ctx.page.drawSvgPath(sketchPath(m.band, true), { ...at, scale, borderColor: INK, borderWidth: pt(0.5) });
+        ctx.page.drawSvgPath(sketchPath(m.axis, false), { ...at, scale, borderColor: INK, borderWidth: pt(1), borderDashArray: [pt(0.8), pt(0.8)] });
+      } else {
+        ctx.page.drawSvgPath(sketchPath(m.corners, true), { ...at, scale, borderColor: SOFT, borderWidth: pt(0.5), borderDashArray: [pt(2), pt(1.5)] });
+        const cx = m.corners.reduce((s, p) => s + p.x, 0) / m.corners.length;
+        const cy = m.corners.reduce((s, p) => s + p.y, 0) / m.corners.length;
+        const label = winAnsiSafe(m.label);
+        const size = 6;
+        ctx.page.drawText(label, { x: at.x + cx * scale - ctx.font.widthOfTextAtSize(label, size) / 2, y: at.y - cy * scale - size / 2, size, font: ctx.font, color: SOFT });
+      }
+    }
+    const name = v.side === "frente" ? "Frente" : "Costas";
+    ctx.page.drawText(name, { x: MARGIN + i * (slot + gap) + slot / 2 - ctx.font.widthOfTextAtSize(name, 8) / 2, y: top - height - 12, size: 8, font: ctx.font, color: SOFT });
+  });
+  ctx.y = top - height - 18;
 }
 
 /** Tabela simples: larguras em fração da área útil. */
@@ -94,6 +156,18 @@ export async function exportTechPackPdf(data: TechPackData, opts: { number?: num
     color: SOFT,
   });
 
+  const drawing = readFlatSketch(data.sketch);
+  if (drawing && drawing.views.length > 0) {
+    heading(ctx, "Desenho técnico");
+    sketch(ctx, drawing.views);
+    if (drawing.skipped.length > 0) text(ctx, `Fora do desenho (partes laterais ou sem posição): ${drawing.skipped.join(", ")}.`, { size: 8, color: SOFT });
+  }
+
+  if (data.technicalDescription) {
+    heading(ctx, "Descrição técnica");
+    paragraph(ctx, data.technicalDescription);
+  }
+
   heading(ctx, "Peças");
   const base = data.pattern.baseSize;
   table(
@@ -131,7 +205,7 @@ export async function exportTechPackPdf(data: TechPackData, opts: { number?: num
     );
   }
 
-  heading(ctx, "Consumo por tamanho (estimativa)");
+  heading(ctx, `Consumo por tamanho (${consumptionSource(data.consumption)})`);
   table(
     ctx,
     [
@@ -149,7 +223,7 @@ export async function exportTechPackPdf(data: TechPackData, opts: { number?: num
   );
   text(
     ctx,
-    `Estimativa pela área das peças com margem, com aproveitamento de ${Math.round(ESTIMATED_EFFICIENCY * 100)}%. O consumo real vem do Encaixe.`,
+    consumptionNote(data.consumption),
     { size: 8, color: SOFT },
   );
 

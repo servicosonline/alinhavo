@@ -4,8 +4,13 @@ import type { PatternDocument } from "@alinhavo/geometry";
 import { useMemo, useState, useSyncExternalStore } from "react";
 import type { ProvaSaveMode } from "@/components/prova/adjust-panel";
 import type { ApprovalRequester } from "@/components/prova/approval-request";
+import type { CatalogPhotoRequester } from "@/components/prova/catalog-photo-request";
 import { ProvaStudio } from "@/components/prova/prova-studio";
 import { loadForProva, storedForProva } from "@/lib/prova/handoff";
+import { APPROVAL_VIDEO_BUCKET, approvalVideoContentType, approvalVideoPath } from "@/lib/prova/approval-video";
+import { getBrowserClient } from "@/lib/supabase/client";
+import type { LookOption } from "@/lib/prova/look";
+import { generateCatalogPhoto } from "../../../produtos/catalog-actions";
 import { savePatternVersion } from "../../actions";
 import { requestApproval } from "./actions";
 
@@ -23,16 +28,26 @@ export function ProvaPainel({
   savedDoc: initialDoc,
   measurementsBySize,
   canEdit,
+  lookOptions,
+  catalog,
 }: {
+  /** Produto ligado ao molde, para as fotos de catálogo (sem produto, sem painel). */
+  catalog: { productId: string; productName: string; blocked: string | null; usedThisMonth: number } | null;
   orgId: string;
   patternId: string;
   version: number;
   savedDoc: PatternDocument;
   measurementsBySize: Record<string, Record<string, number>>;
   canEdit: boolean;
+  /** Outros moldes da organização para o look (versão atual de cada um). */
+  lookOptions: LookOption[];
 }) {
   const [saved, setSaved] = useState({ version: initialVersion, doc: initialDoc });
-  const stored = useSyncExternalStore(noSubscribe, () => storedForProva(patternId), () => null);
+  const stored = useSyncExternalStore(
+    noSubscribe,
+    () => storedForProva(patternId),
+    () => null,
+  );
   // A cópia do editor só vale para a versão de onde partiu: depois de salvar, some.
   const unsaved = useMemo(() => (stored ? loadForProva(patternId, saved.version) : null), [stored, patternId, saved.version]);
   const doc = unsaved ?? saved.doc;
@@ -61,9 +76,36 @@ export function ProvaPainel({
         ? {
             blocked: unsaved ? "Salve as alterações do editor (ou ajuste e salve aqui) antes de pedir aprovação." : null,
             request: (settings, captures, days) => requestApproval(orgId, patternId, saved.version, settings, captures, days),
+            // O vídeo vai do navegador direto para o Storage (a Server Action tem limite de 1 MB);
+            // a RLS do bucket confere quem envia e o caminho, e attach_approval_video liga à aprovação.
+            uploadVideo: async (approvalId, video) => {
+              const supabase = getBrowserClient();
+              if (!supabase) return "o Supabase não está configurado.";
+              const path = approvalVideoPath(orgId, approvalId, video.type);
+              const up = await supabase.storage
+                .from(APPROVAL_VIDEO_BUCKET)
+                .upload(path, video, { contentType: approvalVideoContentType(video.type), upsert: false });
+              if (up.error) return "não foi possível enviar o arquivo.";
+              const { error } = await supabase.rpc("attach_approval_video", { p_approval_id: approvalId, p_path: path });
+              return error ? "não foi possível ligar o vídeo à aprovação." : null;
+            },
           }
         : undefined,
     [canEdit, unsaved, orgId, patternId, saved.version],
+  );
+
+  const catalogPhoto = useMemo<CatalogPhotoRequester | undefined>(
+    () =>
+      catalog
+        ? {
+            productName: catalog.productName,
+            productHref: `/painel/${orgId}/produtos/${catalog.productId}#fotos`,
+            blocked: catalog.blocked,
+            usedThisMonth: catalog.usedThisMonth,
+            generate: (capture, options) => generateCatalogPhoto(orgId, catalog.productId, capture.dataUrl, options),
+          }
+        : undefined,
+    [catalog, orgId],
   );
 
   return (
@@ -71,7 +113,14 @@ export function ProvaPainel({
       <p className="text-xs text-tinta-suave" role="status">
         {unsaved ? "Provando as alterações ainda não salvas do editor." : `Provando a versão ${saved.version}.`}
       </p>
-      <ProvaStudio doc={doc} measurementsBySize={measurementsBySize} saveMode={saveMode} approval={approval} />
+      <ProvaStudio
+        doc={doc}
+        measurementsBySize={measurementsBySize}
+        saveMode={saveMode}
+        approval={approval}
+        catalogPhoto={catalogPhoto}
+        lookOptions={lookOptions}
+      />
     </>
   );
 }

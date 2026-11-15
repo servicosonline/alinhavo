@@ -50,8 +50,14 @@ async function Moldes({ params }: { params: PageProps<"/painel/[orgId]/moldes">[
       </div>
 
       {canEditPatterns(role) && (
-        <div className={ui.card}>
+        <div className={`${ui.card} space-y-3`}>
           <CreatePatternForm orgId={orgId} />
+          <p className="text-sm text-tinta-suave">
+            Tem o molde em papel?{" "}
+            <Link href={`/painel/${orgId}/moldes/scan`} className="underline" data-scan-link>
+              Escanear por foto
+            </Link>
+          </p>
         </div>
       )}
 

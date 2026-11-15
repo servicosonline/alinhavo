@@ -42,7 +42,7 @@ Rascunho para orientar a Fase 0. Toda tabela de negócio tem `org_id`, `created_
 | `collections` | org_id, nome, temporada, início, lançamento |
 | `milestones` | collection_id, etapa, prazo, responsável, concluído_em |
 | `products` | org_id, collection_id, referência, nome, status, size_chart_id |
-| `tech_packs` | product_id, dados (jsonb), versão |
+| `tech_packs` | product_id, dados (jsonb, formato 1; fichas novas levam o texto técnico e o desenho técnico plano, campos opcionais), versão |
 | `comments` | org_id, alvo (produto/prova), autor, texto |
 
 ## Molde
@@ -72,7 +72,13 @@ O documento do molde guarda: partes, pontos, curvas, piques, fio, regras de grad
 | `poses` | org_id?, nome, dados da pose |
 | `fittings` | org_id, pattern_version_id, avatar_id, fabric_id por parte, pose inicial/final, resultado |
 | `captures` | fitting_id, tipo (`imagem`, `360`), arquivo *(futuro, com o vídeo 360°)* |
-| `approvals` | **(feito)** org_id, pattern_id + version_number (versão fixa), token, settings (tamanho, tecido, pose), expires_at, status (`pendente`, `aprovado`, `ajustes`), nome e comentário de quem respondeu, decided_at |
+| `api_keys` | **(feito)** org_id, name, prefix, key_hash (SHA-256, nunca legível), created_by, last_used_at, revoked_at. Só por `create_api_key` e `revoke_api_key` (dono e admin) |
+| `api_key_usage` | **(feito)** org_id, key_id, minuto, contagem (limite de 60 por minuto por chave); só pelas funções da API |
+| `webhook_endpoints` | **(feito)** org_id, url (https por nome), secret (`whsec_`, nunca legível pelo app), events, active, created_by. Até 5 por organização; só por `create_webhook_endpoint`, `set_webhook_endpoint_active`, `delete_webhook_endpoint` e `send_test_webhook` (dono e admin) |
+| `webhook_deliveries` | **(feito)** org_id, endpoint_id, event, payload (não legível pelo app), status (`pendente`, `enviando`, `entregue`, `falhou`), attempts, next_attempt_at, locked_until, last_status_code, last_error. Entram por gatilho (produto aprovado, ficha nova, risco novo) ou teste; saem por `claim_webhook_deliveries`/`finish_webhook_delivery`, só da chave de serviço (Edge Function `webhooks-dispatch`). Dono e admin leem |
+| `ai_generations` | **(feito)** org_id, product_id, kind (`textos_produto`, `foto_catalogo`), status (`reservada`, `pronta`, `erro`), model, input_tokens, output_tokens, created_by. Só por `reserve_ai_generation` (permissão e limite por tipo e por organização por mês: 200 textos, 30 fotos) e `finish_ai_generation`; membros leem |
+| `catalog_photos` | **(feito)** id (= a geração em `ai_generations`), org_id, product_id, path (bucket privado `catalogo`, `<org>/<produto>/<geração>.jpg`), settings (opções da tela), model, created_by. Só por `create_catalog_photo` (confere a geração reservada e o arquivo); o arquivo só entra por quem reservou, enquanto reservada. Membros leem; quem edita produtos apaga |
+| `approvals` | **(feito)** org_id, pattern_id + version_number (versão fixa), token, settings (tamanho, tecido, pose), expires_at, status (`pendente`, `aprovado`, `ajustes`), nome e comentário de quem respondeu, decided_at, video_path (vídeo 360° no Storage, só por `attach_approval_video`) |
 | `approval_images` | **(feito)** org_id, approval_id, posição (0 a 3), ângulo (`atual`, `frente`, `costas`, `lado`), JPEG/PNG em `bytea` (até 600 KB) |
 
 - **Aprovação (MVP):** criada só por `create_approval` (quem edita moldes), com as imagens de uma vez; o tipo da imagem vem dos primeiros bytes (JPEG ou PNG). Membros leem; quem edita apaga (revoga o link). Sem conta, só por `public_approval(token)` e `decide_approval(token, …)`: token errado e vencido respondem igual, a resposta vale uma vez e pedir ajustes exige comentário. Nada da organização sai pela parte pública.
@@ -82,8 +88,11 @@ O documento do molde guarda: partes, pontos, curvas, piques, fio, regras de grad
 
 | Tabela | Campos principais |
 |---|---|
-| `markers` | org_id, product_id, pattern_version_id, largura_tecido_mm, demanda por tamanho (jsonb), aproveitamento, comprimento_mm, layout (jsonb) |
-| `nest_jobs` | org_id, marker_id, status (`fila`, `rodando`, `pronto`, `erro`), progresso |
+| `markers` | **(feito)** org_id, product_id, number, pattern_id + pattern_version (versão fixa), fabric_id?, width_mm, demand (jsonb, tamanho → peças), length_mm, efficiency (0 a 1), layout (jsonb formato 1: peças com contorno e posições) |
+| `nest_jobs` | **(feito)** org_id, product_id, pattern_id + pattern_version, width_mm, gap_mm, one_way, demand, status (`fila`, `rodando`, `pronto`, `erro`), progress, attempts, claimed_by + lease_until (prazo), marker_id, error |
+
+- **Risco (markers):** só nasce por `create_marker` (quem edita produtos), que numera 1, 2, 3… por produto e confere que a versão do molde existe e que o tecido é da organização. Imutável (trigger); quem edita produtos apaga. O encaixe é calculado no navegador; a Server Action confere as posições contra as peças da versão do molde e recalcula comprimento e aproveitamento antes de gravar.
+- **Fila (nest_jobs):** só pelas funções `enqueue_nest_job`, `claim_nest_job`, `nest_job_progress`, `finish_nest_job`, `fail_nest_job`, `release_nest_job` e `retry_nest_job` (quem edita produtos). Quem pega tem 2 minutos, renovados a cada aviso de progresso; vencido, o pedido volta a ficar disponível, e depois de 3 tentativas vira erro. Só quem pegou conclui; concluir cria o risco e liga ao pedido na mesma transação. Até 50 pedidos esperando por organização. Membros leem; quem edita apaga.
 
 ## Storage (buckets)
 

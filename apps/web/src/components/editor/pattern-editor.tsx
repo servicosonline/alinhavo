@@ -1,6 +1,7 @@
 "use client";
 
 import {
+  addFinish,
   addRectPiece,
   addSeam,
   applyGrade,
@@ -8,8 +9,10 @@ import {
   BODY_SIDES,
   flipSeam,
   linearStep,
+  removeFinish,
   removeSeam,
   seamAt,
+  updateFinish,
   seamLengths,
   setCutPair,
   setFold,
@@ -45,6 +48,7 @@ import { formatCm } from "@/lib/units";
 import { ui } from "../ui";
 import { PatternCanvas, type DragTarget, type Selection } from "./canvas";
 import { ExportMenu } from "./export-menu";
+import { FinishesPanel } from "./finishes-panel";
 import { CmField, TextField } from "../fields";
 import { useHistory } from "./use-history";
 
@@ -394,6 +398,24 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
                     apply(removePiece(doc, piece.id));
                     setSelection(null);
                   }}
+                />
+              )}
+
+              {sel.kind === "piece" && (
+                <FinishesPanel
+                  piece={piece}
+                  readOnly={readOnly || !viewingBase}
+                  onAdd={(f) => {
+                    const r = addFinish(doc, piece.id, f);
+                    if (r.finishId) apply(r.doc);
+                    return r.finishId !== null;
+                  }}
+                  onUpdate={(id, patch) => {
+                    const next = updateFinish(doc, piece.id, id, patch);
+                    if (next !== doc) apply(next);
+                    return next !== doc;
+                  }}
+                  onRemove={(id) => apply(removeFinish(doc, piece.id, id))}
                 />
               )}
 

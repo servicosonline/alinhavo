@@ -4,6 +4,7 @@ import { Loading, NotConfigured, PageShell } from "@/components/page-shell";
 import { ui } from "@/components/ui";
 import { isUuid } from "@/lib/ids";
 import { formatDate, readSettings, settingsLabel, STATUS_LABEL } from "@/lib/prova/approval";
+import { fetchApprovalVideoUrl } from "@/lib/prova/approval-video";
 import { ANGLE_LABEL, type CaptureAngle } from "@/lib/prova/captures";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import type { PublicApproval } from "@/lib/supabase/database.types";
@@ -48,6 +49,9 @@ async function Aprovacao({ params }: { params: PageProps<"/aprovar/[token]">["pa
   const { data } = await supabase.rpc("public_approval", { p_token: token });
   const a = data as PublicApproval | null;
   if (!a) return <Invalido />;
+  // Vídeo 360°: endereço assinado (curta duração) pela Edge Function; sem ele, a página segue com as imagens.
+  const config = getSupabaseConfig();
+  const videoUrl = a.has_video && config ? await fetchApprovalVideoUrl(config, token) : null;
 
   const details = settingsLabel(readSettings(a.settings));
   return (
@@ -60,6 +64,19 @@ async function Aprovacao({ params }: { params: PageProps<"/aprovar/[token]">["pa
           {details && ` · ${details}`} · vale até {formatDate(a.expires_at)}
         </p>
       </div>
+
+      {videoUrl && (
+        <video
+          src={videoUrl}
+          controls
+          loop
+          playsInline
+          preload="metadata"
+          className="mx-auto aspect-[3/4] w-full max-w-sm rounded-lg border border-tinta/15 bg-papel"
+          aria-label="Vídeo 360° da prova virtual"
+          data-approval-video
+        />
+      )}
 
       <ul className="grid grid-cols-2 gap-3 sm:grid-cols-4" aria-label="Imagens da prova virtual">
         {a.images.map((img, i) => (

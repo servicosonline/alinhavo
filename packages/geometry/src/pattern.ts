@@ -1,8 +1,9 @@
 import { cubicLength, flattenCubic } from "./bezier";
+import { validateFinishes } from "./finishes";
 import { distance, type Point } from "./polygon";
 
 /**
- * Documento do molde (versão 4). É o que fica salvo em pattern_versions.document.
+ * Documento do molde (versão 5). É o que fica salvo em pattern_versions.document.
  * Versões gravadas nunca são reescritas: documentos antigos passam por
  * `migratePattern` na leitura.
  *
@@ -12,6 +13,7 @@ import { distance, type Point } from "./polygon";
  * - 3: + por parte, `fold` (segmento da dobra) e `placement` (posição na Prova).
  * - 4: + `placement.leg` (a parte veste uma perna) e, por parte, `cutPair` (cortar par: a segunda peça é o espelho) e
  *   costura de um segmento com o próprio par (`a` igual a `b`, ex.: gancho).
+ * - 5: + por parte, `finishes` (acabamentos: pesponto, zíper, etiqueta e estampa; ver `finishes.ts`).
  *
  * - Coordenadas em mm, do tamanho base.
  * - Cada parte tem um contorno fechado: começa em `start` e cada segmento vai
@@ -50,7 +52,45 @@ export type Piece = {
    * Não combina com dobra.
    */
   cutPair?: true;
+  /** Acabamentos desenhados na parte (pesponto, zíper, etiqueta, estampa). */
+  finishes?: Finish[];
 };
+
+/**
+ * Acabamento numa parte. Os de segmento (pesponto, zíper) usam o índice do
+ * segmento, como as costuras: operação que renumera segmentos os acompanha, e
+ * dividir ou juntar o segmento os desfaz. Os de área (etiqueta, estampa) ficam
+ * presos a um ponto da parte (`anchor`) mais um deslocamento, então seguem a
+ * gradação do ponto. Medidas em mm; `rotation` em graus.
+ */
+export type Finish =
+  | {
+      id: string;
+      kind: "pesponto";
+      segment: number;
+      /** Distância da linha de costura para dentro da parte, em mm. */
+      distance: number;
+      /** Carreiras (pesponto duplo: a segunda a FINISH_ROW_GAP mm da primeira). */
+      rows: 1 | 2;
+    }
+  | {
+      id: string;
+      kind: "ziper";
+      segment: number;
+      /** Trecho do segmento (0 = início, 1 = fim), pelo comprimento. */
+      from: number;
+      to: number;
+    }
+  | (FinishArea & { kind: "etiqueta"; text: string })
+  | (FinishArea & {
+      kind: "estampa";
+      /** Imagem PNG, JPEG ou WebP em data URL (até FINISH_IMAGE_MAX caracteres). */
+      image: string;
+    });
+
+/** Retângulo preso a um ponto da parte: centro em anchor + offset. */
+export type FinishArea = { id: string; anchor: string; offset: Point; width: number; height: number; rotation: number };
+export type FinishKind = Finish["kind"];
 
 export type BodySide = "frente" | "costas" | "esquerda" | "direita";
 export type BodyAnchor = "ombro" | "busto" | "cintura" | "quadril";
@@ -86,10 +126,10 @@ export type SeamEdge = { piece: string; segment: number };
  */
 export type Seam = { id: string; a: SeamEdge; b: SeamEdge; direction: "opposite" | "same" };
 
-export const CURRENT_SCHEMA = 4;
+export const CURRENT_SCHEMA = 5;
 
 export type PatternDocument = {
-  schema: 4;
+  schema: 5;
   unit: "mm";
   sizes: string[];
   baseSize: string;
@@ -103,6 +143,8 @@ export type PatternDocumentV1 = Omit<PatternDocument, "schema" | "seams"> & { sc
 export type PatternDocumentV2 = Omit<PatternDocument, "schema"> & { schema: 2 };
 /** Formato 3: sem cortar par (campo opcional, então as partes passam iguais). */
 export type PatternDocumentV3 = Omit<PatternDocument, "schema"> & { schema: 3 };
+/** Formato 4: sem acabamentos (campo opcional, então as partes passam iguais). */
+export type PatternDocumentV4 = Omit<PatternDocument, "schema"> & { schema: 4 };
 
 /**
  * Converte um documento salvo (de qualquer versão conhecida) para o formato
@@ -126,9 +168,14 @@ export function migratePattern(raw: unknown): PatternDocument | null {
   if (d.schema === 3) {
     if (!Array.isArray(d.seams)) return null;
     // 3 → 4: cortar par é opcional; nada a converter além do número.
-    return { ...(d as PatternDocumentV3), schema: 4 };
+    return migratePattern({ ...(d as PatternDocumentV3), schema: 4 } satisfies PatternDocumentV4);
   }
   if (d.schema === 4) {
+    if (!Array.isArray(d.seams)) return null;
+    // 4 → 5: acabamentos são opcionais; nada a converter além do número.
+    return { ...(d as PatternDocumentV4), schema: 5 };
+  }
+  if (d.schema === 5) {
     return Array.isArray(d.seams) ? (d as PatternDocument) : null;
   }
   return null;
@@ -210,6 +257,7 @@ export function validatePattern(doc: PatternDocument): string[] {
         if (!finite(delta)) erros.push(`${nome}: gradação inválida em ${pointId}/${size}.`);
       }
     }
+    erros.push(...validateFinishes(piece));
   }
   erros.push(...validateSeams(doc));
   return erros;

@@ -1,6 +1,7 @@
 import type { Seam } from "@alinhavo/geometry";
 import type { Collider, Vec3 } from "./collider";
 import { stretchCompliance, type Fabric } from "./fabrics";
+import { createLayerSolver, outwardSigns } from "./layers";
 import type { PieceMesh } from "./mesh";
 
 /**
@@ -27,10 +28,14 @@ export const DEFAULT_PLACEMENT: Placement = {
  * Uma parte na simulação. `initial` (x, y, z por vértice, em mm) dá a posição
  * 3D inicial pronta, por exemplo enrolada no corpo (`placeGarment`); sem ela,
  * vale `placement` (a parte plana). O repouso do tecido é sempre o do molde.
+ * `fabric`: o tecido desta parte (padrão: o das opções), para um look com
+ * roupas de tecidos diferentes. `layer`: a camada no look (0, padrão, é a de
+ * dentro); uma parte não entra nas partes de camada menor (ver `layers.ts`).
  */
-export type SimPiece = { mesh: PieceMesh; placement?: Placement; initial?: Float64Array };
+export type SimPiece = { mesh: PieceMesh; placement?: Placement; initial?: Float64Array; fabric?: Fabric; layer?: number };
 
 export type SimulationOptions = {
+  /** Tecido das partes que não dizem o seu. */
   fabric: Fabric;
   seams?: Seam[];
   colliders?: Collider[];
@@ -102,7 +107,12 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
   const v = new Float64Array(n * 3);
   const mass = new Float64Array(n);
   const invMass = new Float64Array(n);
-  const densityPerMm2 = fabric.density * 1e-6; // g/m² → g/mm²
+  // Tecido por vértice e por restrição: cada parte pode ter o seu.
+  const thickness = new Float64Array(n);
+  const friction = new Float64Array(n);
+  const vertexLayer = new Int32Array(n);
+  const stretchMax: number[] = []; // (1 + maxStretch) por aresta
+  const bendCompliance: number[] = []; // por par de flexão
 
   const triangles: number[] = [];
   const stretchEdges: number[] = []; // pares (i, j)
@@ -112,9 +122,15 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
   const bendRest: number[] = [];
 
   const restLength: number[] = []; // por lado de triângulo, no molde (2D)
-  for (const { mesh, placement = DEFAULT_PLACEMENT, initial } of pieces) {
+  for (const { mesh, placement = DEFAULT_PLACEMENT, initial, fabric: own, layer = 0 } of pieces) {
     const off = pieceOffset.get(mesh.pieceId)!;
     const count = mesh.positions.length / 2;
+    const pf = own ?? fabric;
+    const densityPerMm2 = pf.density * 1e-6; // g/m² → g/mm²
+    if (!Number.isInteger(layer) || layer < 0) throw new Error(`Camada inválida na parte ${mesh.pieceId}: ${layer}.`);
+    thickness.fill(pf.thickness, off, off + count);
+    friction.fill(pf.friction, off, off + count);
+    vertexLayer.fill(layer, off, off + count);
     if (initial) {
       if (initial.length !== count * 3) throw new Error(`Posições iniciais da parte ${mesh.pieceId} não batem com a malha.`);
       x.set(initial, off * 3);
@@ -149,15 +165,18 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
       const b = mesh.edges[k + 1]!;
       stretchEdges.push(off + a, off + b);
       stretchRest.push(Math.hypot(mesh.positions[a * 2]! - mesh.positions[b * 2]!, mesh.positions[a * 2 + 1]! - mesh.positions[b * 2 + 1]!));
+      stretchMax.push(1 + Math.max(0, pf.maxStretch));
       stretchAlpha.push(
         stretchCompliance(
-          fabric,
+          pf,
           mesh.grainCoords[b * 2]! - mesh.grainCoords[a * 2]!,
           mesh.grainCoords[b * 2 + 1]! - mesh.grainCoords[a * 2 + 1]!,
         ),
       );
     }
+    const bendBefore = bendRest.length;
     collectBendPairs(mesh, off, bendPairs, bendRest);
+    for (let k = bendBefore; k < bendRest.length; k++) bendCompliance.push(pf.bend);
   }
   for (let i = 0; i < n; i++) invMass[i] = mass[i]! > 0 ? 1 / mass[i]! : 0;
   prev.set(x);
@@ -191,6 +210,16 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
     link(sideA, sideB, flip);
     link(sideB, sideA, flip);
   }
+
+  // --- Camadas -------------------------------------------------------------
+  // O lado de fora de cada triângulo é medido na posição inicial (ver layers.ts).
+  const layers = createLayerSolver({
+    x,
+    triangles,
+    vertexLayer,
+    thickness,
+    signs: vertexLayer.some((l) => l > 0) ? outwardSigns(x, triangles, colliders) : new Int8Array(triangles.length / 3),
+  });
 
   let time = 0;
   const sewingTime = Math.max(0, options.sewingTime ?? 0);
@@ -249,11 +278,15 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
   /** Rodadas por subpasso: um empurrão para fora de uma parte pode cair dentro de outra (axila, gancho). */
   const COLLISION_PASSES = 3;
 
+  const forgetClearance = (i: number) => {
+    clearance[i] = -1;
+  };
+
   function collide() {
     if (colliders.length === 0) return;
-    const gap = fabric.thickness;
     for (let i = 0; i < n; i++) {
       if (invMass[i] === 0) continue;
+      const gap = thickness[i]!;
       const moved = Math.hypot(x[i * 3]! - prev[i * 3]!, x[i * 3 + 1]! - prev[i * 3 + 1]!, x[i * 3 + 2]! - prev[i * 3 + 2]!);
       clearance[i] = clearance[i]! - moved;
       if (clearance[i]! > 0) continue;
@@ -277,7 +310,7 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
           const my = x[i * 3 + 1]! - prev[i * 3 + 1]!;
           const mz = x[i * 3 + 2]! - prev[i * 3 + 2]!;
           const along = mx * normal.x + my * normal.y + mz * normal.z;
-          const f = fabric.friction;
+          const f = friction[i]!;
           x[i * 3] = x[i * 3]! - (mx - along * normal.x) * f;
           x[i * 3 + 1] = x[i * 3 + 1]! - (my - along * normal.y) * f;
           x[i * 3 + 2] = x[i * 3 + 2]! - (mz - along * normal.z) * f;
@@ -293,12 +326,11 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
    * Limite de esticamento (strain limiting): nenhuma aresta passa de
    * (1 + maxStretch) × repouso. Só encurta, nunca empurra.
    */
-  const maxFactor = 1 + Math.max(0, fabric.maxStretch);
   function limitStrain() {
     for (let k = 0; k < stretchRest.length; k++) {
       const i = stretchEdges[k * 2]!;
       const j = stretchEdges[k * 2 + 1]!;
-      const limit = stretchRest[k]! * maxFactor;
+      const limit = stretchRest[k]! * stretchMax[k]!;
       if (distanceBetween(x, i, j) > limit) solveDistance(i, j, limit, 0);
     }
   }
@@ -319,14 +351,13 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
       x[g + 1] = x[g + 1]! + v[g + 1]! * h;
       x[g + 2] = x[g + 2]! + v[g + 2]! * h;
     }
-    const bendAlpha = fabric.bend / h2;
     const seamAlpha = 1e-7 / h2;
     for (let it = 0; it < iterations; it++) {
       for (let k = 0; k < stretchRest.length; k++) {
         solveDistance(stretchEdges[k * 2]!, stretchEdges[k * 2 + 1]!, stretchRest[k]!, stretchAlpha[k]! / h2);
       }
       for (let k = 0; k < bendRest.length; k++) {
-        solveDistance(bendPairs[k * 2]!, bendPairs[k * 2 + 1]!, bendRest[k]!, bendAlpha);
+        solveDistance(bendPairs[k * 2]!, bendPairs[k * 2 + 1]!, bendRest[k]!, bendCompliance[k]! / h2);
       }
       // O limite de esticamento vem antes das costuras: elas têm a palavra
       // final, e a costura não abre (o esticamento a mais fica local, junto dela).
@@ -337,6 +368,9 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
       }
     }
     collide();
+    // A camada de cima por fim: o corpo já está resolvido para a de baixo.
+    // Vértice empurrado pergunta de novo ao corpo no próximo subpasso.
+    if (layers.hasLayers) layers.solve(invMass, prev, friction, forgetClearance);
     const keep = Math.max(0, 1 - damping * h);
     for (let i = 0; i < n; i++) {
       if (invMass[i] === 0) continue;
@@ -368,6 +402,7 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
       if (!(dt > MIN_DT)) return;
       if (!sewn && (time >= sewingTime || gapNow() <= 1)) sewn = true;
       const h = dt / substeps;
+      if (layers.hasLayers) layers.refresh();
       for (let s = 0; s < substeps; s++) substep(h);
     },
     get sewn() {

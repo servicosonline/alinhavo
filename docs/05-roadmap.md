@@ -34,7 +34,7 @@ Cada fase termina com algo usável e testável. Executar em passos, com checkpoi
 - Ficha técnica gerada dos dados do molde e do tecido.
 - Comentários em tempo real.
 
-## Fase 4 · Encaixe
+## Fase 4 · Encaixe (feita)
 - Motor de encaixe em Web Worker; demanda por tamanho; aproveitamento.
 - Fila de encaixes; exportação DXF/HPGL.
 - Consumo de tecido alimentando a ficha técnica.

@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Alinhavo · Manual de marca</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,300..800,0..100,0..1&family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&display=block" rel="stylesheet">
+<style>
+:root{
+  --papel:#F5EFE3; --cru:#E8DECB; --tinta:#1D1B18; --grafite:#5C564C;
+  --linha:#C43A26; --giz:#2B5C9B; --fita:#EDB92E;
+  --display:"Fraunces",Georgia,serif; --sans:"Geist",system-ui,sans-serif; --mono:"Geist Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#d9d2c4;font-family:var(--sans);color:var(--tinta);-webkit-font-smoothing:antialiased}
+.prancha{width:1600px;height:1000px;background:var(--papel);position:relative;overflow:hidden;margin:0 auto 40px;padding:80px 96px}
+body.uma{background:var(--papel)} body.uma .prancha{margin:0}
+body.uma .prancha:not(.ativa){display:none!important}
+.mm{background-image:
+  linear-gradient(rgba(43,92,155,.10) 1px,transparent 1px),linear-gradient(90deg,rgba(43,92,155,.10) 1px,transparent 1px),
+  linear-gradient(rgba(43,92,155,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(43,92,155,.045) 1px,transparent 1px);
+  background-size:50px 50px,50px 50px,10px 10px,10px 10px}
+.disp{font-family:var(--display);font-variation-settings:"SOFT" 100,"WONK" 0;letter-spacing:-.02em}
+.mono{font-family:var(--mono)}
+.rotulo{font-family:var(--mono);font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--grafite)}
+.topo{position:absolute;top:44px;left:96px;right:96px;display:flex;justify-content:space-between;align-items:center}
+.topo .rotulo b{color:var(--linha);font-weight:500}
+h2.titulo{font-family:var(--display);font-variation-settings:"SOFT" 100;font-weight:560;font-size:64px;letter-spacing:-.025em;line-height:1;margin-top:28px}
+.ponto{display:block;height:4px;width:220px;margin:22px 0 0;background:repeating-linear-gradient(90deg,var(--linha) 0 16px,transparent 16px 28px);border-radius:2px}
+.ponto.claro{background:repeating-linear-gradient(90deg,var(--papel) 0 16px,transparent 16px 28px)}
+p,li{font-size:19px;line-height:1.5}
+.suave{color:var(--grafite)}
+.grade{display:grid;gap:28px}
+.card{background:#fff;border-radius:18px;padding:28px 30px;border:1px solid rgba(29,27,24,.08)}
+.card h3{font-family:var(--display);font-variation-settings:"SOFT" 100;font-weight:600;font-size:28px;letter-spacing:-.015em;margin-bottom:10px}
+.card p,.card li{font-size:17px}
+.card ul{padding-left:20px}
+.tag{display:inline-block;font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:5px 10px;border-radius:99px;border:1px solid currentColor}
+.marca{display:flex;align-items:center;gap:.32em}
+.marca svg{width:1.1em;height:1.1em;flex:none}
+.marca span{font-family:var(--display);font-variation-settings:"SOFT" 100,"WONK" 0;font-weight:600;letter-spacing:-.035em;line-height:1;transform:translateY(-.06em)}
+svg.ic{width:28px;height:28px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <mask id="m-corte" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
+      <rect width="100" height="100" fill="#fff"/>
+      <path d="M38 0 C36 34 66 52 62 100" fill="none" stroke="#000" stroke-width="8"/>
+      <path d="M46.6 42.4 L40.3 49.5 L49.9 50.1 Z M51.6 39.4 L61.2 40.0 L54.9 47.1 Z" fill="#000"/>
+    </mask>
+    <symbol id="s" viewBox="0 0 100 100">
+      <rect x="6" y="6" width="88" height="88" rx="22" fill="var(--sf,#1D1B18)" mask="url(#m-corte)"/>
+      <path d="M39.04 14.38 C43.32 35.54 58.43 52.25 61.73 80.27" pathLength="100" fill="none" stroke="var(--sl,#C43A26)" stroke-width="4.4" stroke-linecap="round" stroke-dasharray="9.52 8.57"/>
+    </symbol>
+    <symbol id="i-molde" viewBox="0 0 24 24"><path d="M6 3h8l4 18H6z"/><path d="M8.6 6h3.8l3 12.4H8.6z" stroke-dasharray="1.6 1.6"/><path d="M14 3l-1 1.8L12 3"/></symbol>
+    <symbol id="i-prova" viewBox="0 0 24 24"><path d="M8.5 3c.2 2.6-1.6 3.8-1.2 6.6.3 2 1 2.8.6 6.4h8.2c-.4-3.6.3-4.4.6-6.4.4-2.8-1.4-4-1.2-6.6"/><path d="M8.5 3h7M12 16v5M9 21h6"/></symbol>
+    <symbol id="i-colecao" viewBox="0 0 24 24"><path d="M10 6.5a2 2 0 1 1 2 2v1.6L3.2 16.6a.8.8 0 0 0 .5 1.4h16.6a.8.8 0 0 0 .5-1.4L12 10.1"/></symbol>
+    <symbol id="i-encaixe" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="M5.5 7.5h3.5l1.8 9H5.5zM11 7.5h3.5v9h-1.7zM16.5 7.5h2v9h-2z"/></symbol>
+    <symbol id="i-scan" viewBox="0 0 24 24"><path d="M4 8V5.5A1.5 1.5 0 0 1 5.5 4H8M16 4h2.5A1.5 1.5 0 0 1 20 5.5V8M20 16v2.5a1.5 1.5 0 0 1-1.5 1.5H16M8 20H5.5A1.5 1.5 0 0 1 4 18.5V16"/><path d="M9 8h4.5l2 8H9z"/></symbol>
+    <symbol id="i-vitrine" viewBox="0 0 24 24"><path d="M4 13.2 12.2 5H19v6.8L10.8 20z"/><circle cx="15.6" cy="8.4" r="1.2"/><path d="M6 3.5l.6 1.4 1.4.6-1.4.6L6 7.5l-.6-1.4L4 5.5l1.4-.6z"/></symbol>
+  </defs>
+</svg>
+
+<!-- 1 · CAPA -->
+<section class="prancha mm" style="display:flex;flex-direction:column;justify-content:center;padding-left:150px">
+  <div class="topo"><span class="rotulo">Manual de marca · v1 · nov 2026</span><span class="rotulo">Paulo Tecnologia em Vendas LTDA</span></div>
+  <div class="marca" style="font-size:168px"><svg><use href="#s"/></svg><span>alinhavo</span></div>
+  <p class="disp" style="font-size:54px;font-weight:420;margin-top:56px;line-height:1.1">Prove antes de cortar.</p>
+  <p class="suave" style="font-size:22px;margin-top:18px;max-width:640px">Molde, prova 3D e encaixe no mesmo arquivo, direto no navegador. Para quem vive de modelagem.</p>
+  <svg viewBox="0 0 600 900" style="position:absolute;right:110px;top:120px;width:380px;opacity:.95" aria-hidden="true">
+    <path d="M120 40 H360 L420 560 L460 860 H120 Z" fill="#fff" stroke="#1D1B18" stroke-width="3"/>
+    <path d="M140 62 H342 L398 560 L436 838 H140 Z" fill="none" stroke="#C43A26" stroke-width="3" stroke-dasharray="16 12"/>
+    <path d="M240 200 V700 M228 220 L240 200 L252 220 M228 680 L240 700 L252 680" stroke="#5C564C" stroke-width="2.5" fill="none"/>
+    <path d="M360 40 L352 56 L344 40" fill="#F5EFE3" stroke="#1D1B18" stroke-width="2"/>
+    <path d="M120 300 L136 308 L120 316" fill="#F5EFE3" stroke="#1D1B18" stroke-width="2"/>
+    <text x="250" y="460" font-family="Geist Mono" font-size="20" fill="#5C564C" transform="rotate(-90 250 460)">FIO</text>
+    <text x="120" y="895" font-family="Geist Mono" font-size="20" fill="#5C564C">frente da saia · M · 61,4 cm</text>
+  </svg>
+</section>
+
+<!-- 2 · PLATAFORMA -->
+<section class="prancha">
+  <div class="topo"><span class="rotulo"><b>01</b> · Plataforma de marca</span><div class="marca" style="font-size:26px"><svg><use href="#s"/></svg><span>alinhavo</span></div></div>
+  <h2 class="titulo">Por que existimos</h2><span class="ponto"></span>
+  <div class="grade" style="grid-template-columns:1.15fr 1fr;margin-top:44px;gap:40px">
+    <div>
+      <p class="rotulo">Propósito</p>
+      <p class="disp" style="font-size:36px;font-weight:450;line-height:1.2;margin-top:12px">Devolver ao ofício da modelagem o tempo e o tecido que o retrabalho rouba.</p>
+      <p class="rotulo" style="margin-top:44px">Posicionamento</p>
+      <p style="margin-top:12px;font-size:19px">Para <b>modelistas autônomos e confecções pequenas e médias</b> que ainda trabalham no papel ou pagam caro por licença desktop, o Alinhavo é o <b>ateliê de desenvolvimento no navegador</b>: molde, prova 3D e encaixe no mesmo arquivo. O ajuste feito na prova <b>volta ao molde de verdade</b>. Preço aberto, sem instalação, sem taxa de entrada.</p>
+      <p class="rotulo" style="margin-top:44px">Promessa</p>
+      <p class="disp" style="font-size:36px;font-weight:560;margin-top:10px;color:var(--linha)">Prove antes de cortar.</p>
+    </div>
+    <div class="grade" style="grid-template-columns:1fr 1fr;gap:18px;align-content:start">
+      <div class="card"><h3>Do ofício</h3><p class="suave">Fala pique, fio, gradação e piloto. Foi feito por quem entende de mesa de corte, não de buzzword.</p></div>
+      <div class="card"><h3>Um molde só</h3><p class="suave">2D e 3D editam o mesmo arquivo. Alongou 4 cm na prova, o molde já tem 4 cm a mais.</p></div>
+      <div class="card"><h3>Aberto</h3><p class="suave">Preço no site, roda no navegador, o cliente aprova por link sem criar conta.</p></div>
+      <div class="card"><h3>Medido</h3><p class="suave">Tudo vira número: centímetro, consumo por grade, aproveitamento do risco.</p></div>
+      <div class="card" style="grid-column:span 2;background:var(--tinta);color:var(--papel)"><h3>Personalidade</h3><p style="opacity:.85">A mestre-modelista que virou nerd de tecnologia. Precisa sem ser fria, moderna sem ser “startup”, acessível sem ser barata, artesanal sem ser rústica. Arquétipo: <b>Criadora + Sábia</b>.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 3 · ICP -->
+<section class="prancha">
+  <div class="topo"><span class="rotulo"><b>02</b> · Para quem falamos</span><div class="marca" style="font-size:26px"><svg><use href="#s"/></svg><span>alinhavo</span></div></div>
+  <h2 class="titulo">Três pessoas, uma mesa de corte</h2><span class="ponto"></span>
+  <div class="grade" style="grid-template-columns:repeat(3,1fr);margin-top:44px">
+    <div class="card" style="border-top:6px solid var(--linha)">
+      <span class="tag" style="color:var(--linha)">Porta de entrada</span>
+      <h3 style="margin-top:16px">A modelista autônoma</h3>
+      <p class="suave">Presta modelagem para várias marcas. Molde no papel ou num CAD antigo; manda foto do piloto pelo WhatsApp.</p>
+      <ul style="margin-top:14px"><li><b>Dor:</b> piloto refeito, cliente que aprova tarde.</li><li><b>Quer:</b> cortar menos piloto e cobrar pelo desenvolvimento.</li><li><b>Frase-gatilho:</b> “Mais um piloto?”</li><li><b>Pacote:</b> Modelista (Molde + Prova).</li></ul>
+    </div>
+    <div class="card" style="border-top:6px solid var(--giz)">
+      <span class="tag" style="color:var(--giz)">Conta que cresce</span>
+      <h3 style="margin-top:16px">A confecção pequena e média</h3>
+      <p class="suave">Dono ou PCP que acompanha coleção, prazo e consumo de tecido. Equipe pequena, várias coleções por ano.</p>
+      <ul style="margin-top:14px"><li><b>Dor:</b> tecido desperdiçado, coleção atrasada, ficha técnica digitada à mão.</li><li><b>Quer:</b> saber o consumo antes de comprar o tecido.</li><li><b>Frase-gatilho:</b> “Quanto tecido isso gasta?”</li><li><b>Pacote:</b> Confecção (todos os módulos).</li></ul>
+    </div>
+    <div class="card" style="border-top:6px solid var(--fita)">
+      <span class="tag" style="color:#9a7412">Quem espalha</span>
+      <h3 style="margin-top:16px">A estilista / marca cliente</h3>
+      <p class="suave">Terceiriza o desenvolvimento. Não usa o software: recebe o link de aprovação.</p>
+      <ul style="margin-top:14px"><li><b>Dor:</b> aprovar sem ver a peça vestida.</li><li><b>Quer:</b> olhar, comentar e aprovar do celular.</li><li><b>Frase-gatilho:</b> “Me manda como fica no corpo.”</li><li><b>Papel na marca:</b> todo link de aprovação é um anúncio do Alinhavo.</li></ul>
+    </div>
+  </div>
+  <p class="suave" style="margin-top:30px;font-size:16px">Perfis tirados do documento de produto e da estratégia comercial. São hipóteses de trabalho até as entrevistas com uma modelista e uma confecção de verdade.</p>
+</section>
+
+<!-- 4 · TENDÊNCIAS -->
+<section class="prancha">
+  <div class="topo"><span class="rotulo"><b>03</b> · Tendências e território</span><div class="marca" style="font-size:26px"><svg><use href="#s"/></svg><span>alinhavo</span></div></div>
+  <h2 class="titulo">Onde a marca se posiciona</h2><span class="ponto"></span>
+  <div class="grade" style="grid-template-columns:1fr 1fr;margin-top:40px;gap:44px">
+    <div>
+      <p class="rotulo" style="margin-bottom:14px">O que está mudando em marca B2B (2026)</p>
+      <div class="grade" style="gap:12px">
+        <div class="card" style="padding:18px 22px"><p><b>Cansaço do genérico e da estética de IA.</b> <span class="suave">Ganha quem mostra mão, material e gente de verdade. → Papel de molde, giz, linha e a voz da oficina.</span></p></div>
+        <div class="card" style="padding:18px 22px"><p><b>Marca como sistema.</b> <span class="suave">A marca vive no produto, não só no site. → As cores e fontes daqui viram tokens do app.</span></p></div>
+        <div class="card" style="padding:18px 22px"><p><b>Tipografia como identidade.</b> <span class="suave">→ Uma serifa macia (Fraunces), fora do padrão sem serifa e técnico dos softwares de modelagem.</span></p></div>
+        <div class="card" style="padding:18px 22px"><p><b>Cor de marca separada da cor funcional.</b> <span class="suave">→ O mapa de pressão (azul a vermelho) é só da Prova; nunca vira peça de marca.</span></p></div>
+        <div class="card" style="padding:18px 22px"><p><b>Ativos distintivos e prova.</b> <span class="suave">→ O alinhavo e o pique aparecem sempre do mesmo jeito; preço aberto e número medido no lugar de adjetivo.</span></p></div>
+      </div>
+    </div>
+    <div>
+      <p class="rotulo" style="margin-bottom:14px">Mapa de território</p>
+      <svg viewBox="0 0 640 600" style="width:100%">
+        <rect x="0" y="0" width="640" height="600" rx="18" fill="#fff"/>
+        <line x1="320" y1="40" x2="320" y2="560" stroke="#1D1B18" stroke-opacity=".25"/><line x1="40" y1="300" x2="600" y2="300" stroke="#1D1B18" stroke-opacity=".25"/>
+        <g font-family="Geist Mono" font-size="14" fill="#5C564C" letter-spacing="1.5">
+          <text x="320" y="30" text-anchor="middle">ATELIÊ · CALOR · OFÍCIO</text>
+          <text x="320" y="586" text-anchor="middle">ENGENHARIA · FRIO · MÁQUINA</text>
+          <text x="48" y="292">FECHADO</text><text x="48" y="312">orçamento, instalação</text>
+          <text x="592" y="292" text-anchor="end">ABERTO</text><text x="592" y="312" text-anchor="end">preço público, navegador</text>
+        </g>
+        <g font-family="Geist" font-size="17" fill="#1D1B18">
+          <circle cx="150" cy="430" r="44" fill="#2B5C9B" fill-opacity=".12"/><text x="150" y="425" text-anchor="middle">CAD desktop</text><text x="150" y="447" text-anchor="middle" fill="#5C564C" font-size="14">nacional</text>
+          <circle cx="430" cy="440" r="44" fill="#2B5C9B" fill-opacity=".12"/><text x="430" y="435" text-anchor="middle">3D global</text><text x="430" y="457" text-anchor="middle" fill="#5C564C" font-size="14">render e IA</text>
+          <circle cx="180" cy="170" r="40" fill="#5C564C" fill-opacity=".12"/><text x="180" y="166" text-anchor="middle">Papel e</text><text x="180" y="186" text-anchor="middle">tesoura</text>
+        </g>
+        <circle cx="470" cy="150" r="62" fill="#C43A26"/>
+        <circle cx="470" cy="150" r="78" fill="none" stroke="#C43A26" stroke-width="2.5" stroke-dasharray="10 8"/>
+        <text x="470" y="146" text-anchor="middle" font-family="Fraunces" font-weight="600" font-size="24" fill="#F5EFE3">alinhavo</text>
+        <text x="470" y="170" text-anchor="middle" font-family="Geist Mono" font-size="12" fill="#F5EFE3" letter-spacing="1">ESPAÇO LIVRE</text>
+      </svg>
+      <p class="suave" style="font-size:15px;margin-top:10px">Leitura qualitativa: os softwares do setor tendem ao visual de engenharia e ao modelo fechado. O Alinhavo ocupa o lado do ateliê e do preço aberto.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 5 · LOGO -->
+<section class="prancha">
+  <div class="topo"><span class="rotulo"><b>04</b> · Logotipo</span><span class="rotulo">símbolo + nome</span></div>
+  <h2 class="titulo">Duas partes, um alinhavo</h2><span class="ponto"></span>
+  <div class="grade" style="grid-template-columns:1.25fr 1fr;margin-top:40px;gap:40px">
+    <div class="card mm" style="display:flex;align-items:center;justify-content:center;height:520px;position:relative">
+      <div class="marca" style="font-size:124px"><svg><use href="#s"/></svg><span>alinhavo</span></div>
+      <span class="rotulo" style="position:absolute;left:24px;bottom:20px">versão principal · horizontal</span>
+    </div>
+    <div>
+      <p style="font-size:20px">O símbolo é uma peça cortada em <b>duas partes do molde</b> por uma costura curva, a linha da cava, a curva mais difícil da modelagem.</p>
+      <ul style="margin-top:18px;padding-left:22px;display:grid;gap:10px">
+        <li><b style="color:var(--linha)">O alinhavo</b>: o ponto provisório em vermelho que une as partes para provar antes da costura definitiva. É o que o produto faz.</li>
+        <li><b>Os piques</b>: os dois entalhes que casam dos dois lados da costura, como no molde de verdade. Juntos lembram um brilho: o momento em que a peça fecha.</li>
+        <li><b>O nome</b> em minúsculas, Fraunces macia: um ofício próximo, não uma corporação.</li>
+      </ul>
+      <div style="display:flex;gap:26px;margin-top:30px;align-items:flex-end">
+        <div style="text-align:center"><svg style="width:150px;height:150px"><use href="#s"/></svg><p class="rotulo" style="font-size:12px">símbolo</p></div>
+        <div style="text-align:center;background:#fff;border-radius:18px;padding:22px 26px"><div class="marca" style="font-size:46px;flex-direction:column;gap:12px"><svg style="width:1.8em;height:1.8em"><use href="#s"/></svg><span>alinhavo</span></div><p class="rotulo" style="font-size:12px;margin-top:10px">vertical</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 6 · USOS DO LOGO -->
+<section class="prancha">
+  <div class="topo"><span class="rotulo"><b>05</b> · Logotipo · usos</span><div class="marca" style="font-size:26px"><svg><use href="#s"/></svg><span>alinhavo</span></div></div>
+  <h2 class="titulo">Fundos, tamanhos e respiro</h2><span class="ponto"></span>
+  <div class="grade" style="grid-template-columns:repeat(4,1fr);margin-top:36px;gap:20px">
+    <div style="background:var(--papel);border:1px solid rgba(0,0,0,.1);border-radius:16px;height:190px;display:flex;align-items:center;justify-content:center"><div class="marca" style="font-size:48px"><svg><use href="#s"/></svg><span>alinhavo</span></div></div>
+    <div style="background:var(--tinta);color:var(--papel);--sf:#F5EFE3;border-radius:16px;height:190px;display:flex;align-items:center;justify-content:center"><div class="marca" style="font-size:48px"><svg><use href="#s"/></svg><span>alinhavo</span></div></div>
+    <div style="background:var(--linha);color:var(--papel);--sf:#F5EFE3;--sl:#1D1B18;border-radius:16px;height:190px;display:flex;align-items:center;justify-content:center"><div class="marca" style="font-size:48px"><svg><use href="#s"/></svg><span>alinhavo</span></div></div>
+    <div style="background:#fff;--sl:#1D1B18;border:1px solid rgba(0,0,0,.1);border-radius:16px;height:190px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:6px"><div class="marca" style="font-size:48px"><svg><use href="#s"/></svg><span>alinhavo</span></div><span class="rotulo" style="font-size:11px">1 cor (carimbo, bordado)</span></div>
+  </div>
+  <div class="grade" style="grid-template-columns:1.1fr 1fr 1.3fr;margin-top:28px;gap:20px">
+    <div class="card">
+      <h3>Respiro</h3>
+      <div style="display:flex;justify-content:center;margin-top:8px"><div style="position:relative;padding:34px;outline:2px dashed rgba(196,58,38,.55);outline-offset:-2px"><div class="marca" style="font-size:44px"><svg><use href="#s"/></svg><span>alinhavo</span></div></div></div>
+      <p class="suave" style="font-size:15px;margin-top:14px">Em volta do logo, no mínimo a altura do “a”. Nada de texto ou borda dentro dessa área.</p>
+    </div>
+    <div class="card">
+      <h3>Tamanho mínimo</h3>
+      <div style="display:flex;align-items:flex-end;gap:26px;margin-top:14px">
+        <div style="text-align:center"><div class="marca" style="font-size:22px"><svg><use href="#s"/></svg><span>alinhavo</span></div><p class="mono" style="font-size:12px;margin-top:8px">96 px · 25 mm</p></div>
+        <div style="text-align:center"><svg style="width:16px;height:16px"><use href="#s"/></svg><p class="mono" style="font-size:12px;margin-top:8px">16 px</p></div>
+      </div>
+      <p class="suave" style="font-size:15px;margin-top:14px">Abaixo de 24 px o símbolo vai sem os piques (versão favicon).</p>
+    </div>
+    <div class="card">
+      <h3>Não faça</h3>
+      <div class="grade" style="grid-template-columns:repeat(3,1fr);gap:12px;margin-top:6px">
+        <div style="text-align:center;display:flex;flex-direction:column;align-items:center"><div class="marca" style="font-size:18px;transform:scaleX(1.45);transform-origin:center"><svg><use href="#s"/></svg><span>alinhavo</span></div><p style="font-size:13px" class="suave">esticar</p></div>
+        <div style="text-align:center;--sf:#2B5C9B;--sl:#EDB92E"><div class="marca" style="font-size:18px;color:#2B5C9B"><svg><use href="#s"/></svg><span>alinhavo</span></div><p style="font-size:13px" class="suave">trocar cores</p></div>
+        <div style="text-align:center;display:flex;flex-direction:column;align-items:center"><div class="marca" style="font-size:18px;justify-content:center"><svg style="transform:rotate(90deg)"><use href="#s"/></svg><span style="font-family:Geist">alinhavo</span></div><p style="font-size:13px" class="suave">girar / outra fonte</p></div>
+      </div>
+      <p class="suave" style="font-size:15px;margin-top:12px">Também não: sombra, contorno, degradê, logo sobre foto sem chapa de cor.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 7 · CORES -->
+<section class="prancha">
+  <div class="topo"><span class="rotulo"><b>06</b> · Cores</span><div class="marca" style="font-size:26px"><svg><use href="#s"/></svg><span>alinhavo</span></div></div>
+  <h2 class="titulo">A caixa de costura</h2><span class="ponto"></span>
+  <div style="display:grid;grid-template-columns:2.2fr 2.2fr 1.8fr 1.3fr 1.3fr 1.3fr 1.3fr;gap:14px;margin-top:40px;height:440px">
+    <div style="background:var(--papel);border:1px solid rgba(0,0,0,.12);border-radius:18px;padding:22px;display:flex;flex-direction:column;justify-content:flex-end"><b class="disp" style="font-size:30px">Papel</b><span class="mono" style="font-size:14px">#F5EFE3</span><span class="suave" style="font-size:14px;margin-top:6px">o papel de molde · fundo</span></div>
+    <div style="background:var(--tinta);color:var(--papel);border-radius:18px;padding:22px;display:flex;flex-direction:column;justify-content:flex-end"><b class="disp" style="font-size:30px">Tinta</b><span class="mono" style="font-size:14px">#1D1B18</span><span style="font-size:14px;margin-top:6px;opacity:.75">o traço · texto e símbolo</span></div>
+    <div style="background:var(--linha);color:var(--papel);border-radius:18px;padding:22px;display:flex;flex-direction:column;justify-content:flex-end"><b class="disp" style="font-size:30px">Linha</b><span class="mono" style="font-size:14px">#C43A26</span><span style="font-size:14px;margin-top:6px;opacity:.85">a linha do alinhavo · destaque</span></div>
+    <div style="background:var(--giz);color:var(--papel);border-radius:18px;padding:18px;display:flex;flex-direction:column;justify-content:flex-end"><b class="disp" style="font-size:24px">Giz</b><span class="mono" style="font-size:13px">#2B5C9B</span><span style="font-size:13px;margin-top:6px;opacity:.85">giz de alfaiate · links, medidas</span></div>
+    <div style="background:var(--fita);border-radius:18px;padding:18px;display:flex;flex-direction:column;justify-content:flex-end"><b class="disp" style="font-size:24px">Fita</b><span class="mono" style="font-size:13px">#EDB92E</span><span style="font-size:13px;margin-top:6px">fita métrica · marca-texto</span></div>
+    <div style="background:var(--cru);border-radius:18px;padding:18px;display:flex;flex-direction:column;justify-content:flex-end"><b class="disp" style="font-size:24px">Algodão cru</b><span class="mono" style="font-size:13px">#E8DECB</span><span class="suave" style="font-size:13px;margin-top:6px">superfícies</span></div>
+    <div style="background:var(--grafite);color:var(--papel);border-radius:18px;padding:18px;display:flex;flex-direction:column;justify-content:flex-end"><b class="disp" style="font-size:24px">Grafite</b><span class="mono" style="font-size:13px">#5C564C</span><span style="font-size:13px;margin-top:6px;opacity:.8">texto de apoio</span></div>
+  </div>
+  <div class="grade" style="grid-template-columns:1.2fr 1fr;margin-top:26px;gap:28px">
+    <div>
+      <p class="rotulo">Proporção de uso</p>
+      <div style="display:flex;height:34px;border-radius:8px;overflow:hidden;margin-top:12px;border:1px solid rgba(0,0,0,.1)"><div style="flex:60;background:var(--papel)"></div><div style="flex:25;background:var(--tinta)"></div><div style="flex:8;background:var(--linha)"></div><div style="flex:4;background:var(--giz)"></div><div style="flex:3;background:var(--fita)"></div></div>
+      <p class="suave" style="font-size:15px;margin-top:10px">60 papel · 25 tinta · 8 linha · 4 giz · 3 fita. O vermelho é linha, não tecido: aparece pouco e sempre com função.</p>
+    </div>
+    <div>
+      <p class="rotulo">Cor funcional (só no produto)</p>
+      <div style="height:34px;border-radius:8px;margin-top:12px;background:linear-gradient(90deg,#295CC7,#38A85C,#F2CC38,#D63326)"></div>
+      <p class="suave" style="font-size:15px;margin-top:10px">Mapa de pressão e folga da Prova, na convenção dos softwares 3D. Nunca usar em peça de marca. Contraste: linha e giz passam AA sobre o papel (4,6 e 5,9); fita só com tinta.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 8 · TIPOGRAFIA -->
+<section class="prancha">
+  <div class="topo"><span class="rotulo"><b>07</b> · Tipografia</span><div class="marca" style="font-size:26px"><svg><use href="#s"/></svg><span>alinhavo</span></div></div>
+  <h2 class="titulo">Mão de ateliê, régua de engenheiro</h2><span class="ponto"></span>
+  <div class="grade" style="grid-template-columns:1.35fr 1fr 1fr;margin-top:40px;gap:26px">
+    <div class="card" style="padding:34px">
+      <p class="rotulo">Títulos · Fraunces (SOFT 100)</p>
+      <p class="disp" style="font-size:132px;font-weight:560;line-height:1;margin-top:18px">Aa</p>
+      <p class="disp" style="font-size:40px;font-weight:560;line-height:1.1;margin-top:18px">Alongou 4 cm na prova. O molde já sabe.</p>
+      <p class="suave" style="font-size:15px;margin-top:16px">Serifa macia, de sabor editorial. Para títulos, frases de campanha e números grandes. Pesos 420 a 600. Nunca em texto corrido pequeno.</p>
+    </div>
+    <div class="card" style="padding:34px">
+      <p class="rotulo">Texto e interface · Geist</p>
+      <p style="font-size:132px;font-weight:500;line-height:1;margin-top:18px;letter-spacing:-.03em">Aa</p>
+      <p style="font-size:20px;line-height:1.45;margin-top:18px">Modelagem, prova virtual em 3D e encaixe para confecções. Tudo no navegador, no mesmo molde.</p>
+      <p class="suave" style="font-size:15px;margin-top:16px">Clara e neutra. Botões, menus, parágrafos. 400 para texto, 500 e 600 para ênfase.</p>
+    </div>
+    <div class="card" style="padding:34px">
+      <p class="rotulo">Medidas · Geist Mono</p>
+      <p class="mono" style="font-size:132px;line-height:1;margin-top:18px;letter-spacing:-.04em">42</p>
+      <div class="mono" style="font-size:19px;line-height:1.9;margin-top:18px">cintura &nbsp;68,0 cm<br>quadril &nbsp;96,5 cm<br>aproveit. <span style="background:var(--fita);padding:0 4px">82,4%</span></div>
+      <p class="suave" style="font-size:15px;margin-top:10px">Tudo o que é medido: cm com vírgula, tamanhos, versões, rótulos técnicos.</p>
+    </div>
+  </div>
+  <div class="card" style="margin-top:24px;display:flex;gap:52px;align-items:baseline;padding:24px 34px">
+    <span class="disp" style="font-size:56px;font-weight:560">H1 56</span><span class="disp" style="font-size:36px;font-weight:560">H2 36</span><span class="disp" style="font-size:26px;font-weight:600">H3 26</span><span style="font-size:18px">Texto 18 / 1,5</span><span style="font-size:14px" class="suave">Apoio 14</span><span class="rotulo">ROTULO 13 MONO</span>
+  </div>
+</section>
+
+<!-- 9 · GRAFISMOS E ÍCONES -->
+<section class="prancha">
+  <div class="topo"><span class="rotulo"><b>08</b> · Grafismos e ícones</span><div class="marca" style="font-size:26px"><svg><use href="#s"/></svg><span>alinhavo</span></div></div>
+  <h2 class="titulo">Os sinais do molde</h2><span class="ponto"></span>
+  <div class="grade" style="grid-template-columns:repeat(4,1fr);margin-top:38px;gap:20px">
+    <div class="card"><svg viewBox="0 0 220 90" style="width:100%;height:90px"><path d="M10 60 C60 10 140 90 210 30" fill="none" stroke="#C43A26" stroke-width="5" stroke-linecap="round" stroke-dasharray="16 12"/></svg><h3 style="margin-top:12px">O alinhavo</h3><p class="suave">Tracejado vermelho, traço 16 · vão 12. Sublinha, separa, liga ideias. Anima “costurando” no carregamento.</p></div>
+    <div class="card"><svg viewBox="0 0 220 90" style="width:100%;height:90px"><line x1="0" y1="60" x2="220" y2="60" stroke="#1D1B18" stroke-width="3"/><path d="M95 60 L110 36 L125 60" fill="#F5EFE3" stroke="#1D1B18" stroke-width="3"/><path d="M150 60 L160 44 L170 60" fill="#F5EFE3" stroke="#1D1B18" stroke-width="3"/></svg><h3 style="margin-top:12px">O pique</h3><p class="suave">Marca onde algo casa: início de seção, item de lista, ponto de atenção no gráfico.</p></div>
+    <div class="card mm" style="background-color:#fff"><svg viewBox="0 0 220 90" style="width:100%;height:90px"><path d="M20 70 H200" stroke="#2B5C9B" stroke-width="2"/><path d="M20 62 V78 M200 62 V78" stroke="#2B5C9B" stroke-width="2"/><text x="110" y="56" text-anchor="middle" font-family="Geist Mono" font-size="20" fill="#2B5C9B">36,0 cm</text></svg><h3 style="margin-top:12px">Papel e cota</h3><p class="suave">Papel milimetrado em giz claro como fundo; cotas com número mono para provar o que se diz.</p></div>
+    <div class="card"><svg viewBox="0 0 220 90" style="width:100%;height:90px"><path d="M30 80 L60 12 H120 L140 80 Z" fill="#fff" stroke="#1D1B18" stroke-width="3"/><path d="M90 26 V68 M84 34 L90 26 L96 34 M84 60 L90 68 L96 60" stroke="#5C564C" stroke-width="2" fill="none"/><text x="160" y="52" font-family="Geist Mono" font-size="16" fill="#5C564C">FIO</text></svg><h3 style="margin-top:12px">A peça</h3><p class="suave">Contornos de molde reais (nunca clip-art de roupa) com fio e piques. São a “fotografia” da marca.</p></div>
+  </div>
+  <p class="rotulo" style="margin-top:38px">Ícones dos módulos · traço 1,6 · cantos arredondados · grade 24</p>
+  <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:16px;margin-top:14px">
+    <div class="card" style="text-align:center;padding:22px"><svg class="ic" style="width:56px;height:56px"><use href="#i-molde"/></svg><p class="disp" style="font-size:22px;font-weight:600;margin-top:8px">Molde</p></div>
+    <div class="card" style="text-align:center;padding:22px;color:var(--linha)"><svg class="ic" style="width:56px;height:56px"><use href="#i-prova"/></svg><p class="disp" style="font-size:22px;font-weight:600;margin-top:8px">Prova</p></div>
+    <div class="card" style="text-align:center;padding:22px"><svg class="ic" style="width:56px;height:56px"><use href="#i-colecao"/></svg><p class="disp" style="font-size:22px;font-weight:600;margin-top:8px">Coleção</p></div>
+    <div class="card" style="text-align:center;padding:22px"><svg class="ic" style="width:56px;height:56px"><use href="#i-encaixe"/></svg><p class="disp" style="font-size:22px;font-weight:600;margin-top:8px">Encaixe</p></div>
+    <div class="card" style="text-align:center;padding:22px"><svg class="ic" style="width:56px;height:56px"><use href="#i-scan"/></svg><p class="disp" style="font-size:22px;font-weight:600;margin-top:8px">Scan</p></div>
+    <div class="card" style="text-align:center;padding:22px"><svg class="ic" style="width:56px;height:56px"><use href="#i-vitrine"/></svg><p class="disp" style="font-size:22px;font-weight:600;margin-top:8px">Vitrine</p></div>
+  </div>
+</section>
+
+<!-- 10 · VOZ -->
+<section class="prancha">
+  <div class="topo"><span class="rotulo"><b>09</b> · Voz</span><div class="marca" style="font-size:26px"><svg><use href="#s"/></svg><span>alinhavo</span></div></div>
+  <h2 class="titulo">Fala de oficina, com régua na mão</h2><span class="ponto"></span>
+  <div class="grade" style="grid-template-columns:1fr 1fr 1fr 1fr;margin-top:36px;gap:16px">
+    <div class="card"><h3>Do ofício</h3><p class="suave">Pique, fio, gradação, piloto, risco. A palavra da mesa de corte vem antes da palavra de software.</p></div>
+    <div class="card"><h3>Com número</h3><p class="suave">“4 cm a mais na barra”, não “ajustes precisos”. Se dá para medir, a gente mede.</p></div>
+    <div class="card"><h3>Curta</h3><p class="suave">Verbo na frente, uma ideia por frase. Botão diz o que faz: <b>Provar</b>, <b>Pedir aprovação</b>.</p></div>
+    <div class="card"><h3>Do lado de quem faz</h3><p class="suave">Trata a modelista como especialista. Explica sem ensinar o que ela já sabe.</p></div>
+  </div>
+  <div class="grade" style="grid-template-columns:1fr 1fr;margin-top:24px;gap:22px">
+    <div class="card" style="border-left:6px solid #9b9488">
+      <p class="rotulo">Não dizemos</p>
+      <ul style="margin-top:12px;list-style:none;display:grid;gap:10px" class="suave">
+        <li>✕ “Revolucione sua confecção com a solução mais disruptiva do mercado.”</li>
+        <li>✕ “Potencialize o fit da sua coleção com nosso workflow inteligente.”</li>
+        <li>✕ “Erro 422: validação de entidade falhou.”</li>
+        <li>✕ “Fale com um consultor para saber o preço.”</li>
+      </ul>
+    </div>
+    <div class="card" style="border-left:6px solid var(--linha)">
+      <p class="rotulo" style="color:var(--linha)">Dizemos</p>
+      <ul style="margin-top:12px;list-style:none;display:grid;gap:10px">
+        <li>✓ “Prove antes de cortar. Menos piloto, menos tecido no lixo.”</li>
+        <li>✓ “Veja a peça vestida antes de cortar o piloto.”</li>
+        <li>✓ “A costura não fecha: a frente tem 42,3 cm e as costas 41,8 cm.”</li>
+        <li>✓ “O preço está aqui embaixo. Começa grátis, sem instalar nada.”</li>
+      </ul>
+    </div>
+  </div>
+  <div class="card" style="margin-top:22px;background:var(--tinta);color:var(--papel);display:flex;gap:50px;align-items:center">
+    <p class="rotulo" style="color:#b8afa1;flex:none">Frases-mãe</p>
+    <p class="disp" style="font-size:28px;font-weight:500">Prove antes de cortar.</p>
+    <p class="disp" style="font-size:28px;font-weight:500">Do traço ao corte, no mesmo molde.</p>
+    <p class="disp" style="font-size:28px;font-weight:500">O ajuste da prova volta pro molde.</p>
+  </div>
+</section>
+
+<!-- 11 · SOCIAL -->
+<section class="prancha" style="background:var(--cru)">
+  <div class="topo"><span class="rotulo"><b>10</b> · Aplicações · Instagram e LinkedIn</span><div class="marca" style="font-size:26px"><svg><use href="#s"/></svg><span>alinhavo</span></div></div>
+  <div style="display:flex;gap:34px;margin-top:60px;align-items:flex-start">
+    <!-- post 1 -->
+    <div class="mm" style="width:380px;height:475px;background-color:var(--papel);border-radius:6px;padding:34px;position:relative;box-shadow:0 20px 40px rgba(0,0,0,.12)">
+      <span class="rotulo" style="font-size:11px">Pergunta da semana</span>
+      <p class="disp" style="font-size:50px;font-weight:560;line-height:1.02;margin-top:22px">Quantos pilotos você cortou esse mês?</p>
+      <span class="ponto" style="width:150px"></span>
+      <p style="font-size:16px;margin-top:18px" class="suave">Cada um é tecido, hora de costureira e uma semana a mais de coleção.</p>
+      <div class="marca" style="font-size:22px;position:absolute;left:34px;bottom:28px"><svg><use href="#s"/></svg><span>alinhavo</span></div>
+    </div>
+    <!-- post 2 -->
+    <div style="width:380px;height:475px;background:var(--tinta);color:var(--papel);--sf:#F5EFE3;border-radius:6px;padding:34px;position:relative;box-shadow:0 20px 40px rgba(0,0,0,.18)">
+      <span class="rotulo" style="font-size:11px;color:#b8afa1">Como funciona</span>
+      <svg viewBox="0 0 312 170" style="width:100%;margin-top:18px">
+        <path d="M30 10 H120 L135 160 H30 Z" fill="none" stroke="#F5EFE3" stroke-width="2.5"/>
+        <path d="M30 160 H135" stroke="#C43A26" stroke-width="3"/><path d="M30 172 H140" stroke="#C43A26" stroke-width="3" stroke-dasharray="9 7"/>
+        <path d="M165 85 H215" stroke="#EDB92E" stroke-width="2.5"/><path d="M207 78 L216 85 L207 92" fill="none" stroke="#EDB92E" stroke-width="2.5"/>
+        <path d="M250 15 c2 20 -10 28 -8 48 c2 16 6 22 3 50 h52 c-3 -28 1 -34 3 -50 c2 -20 -10 -28 -8 -48 z" fill="none" stroke="#F5EFE3" stroke-width="2.5" transform="translate(-20 0)"/>
+      </svg>
+      <p class="disp" style="font-size:44px;font-weight:560;line-height:1.02;margin-top:6px"><span style="color:var(--fita)">+4 cm</span> na barra.</p>
+      <p style="font-size:17px;margin-top:12px;opacity:.82">Ajustou na prova, o molde já tem a versão nova.</p>
+      <div class="marca" style="font-size:22px;position:absolute;left:34px;bottom:28px"><svg><use href="#s"/></svg><span>alinhavo</span></div>
+    </div>
+    <!-- post 3 -->
+    <div style="width:380px;height:475px;background:var(--linha);color:var(--papel);--sf:#F5EFE3;--sl:#1D1B18;border-radius:6px;padding:34px;position:relative;box-shadow:0 20px 40px rgba(0,0,0,.18)">
+      <span class="rotulo" style="font-size:11px;color:#f6d6cf">Sem letra miúda</span>
+      <div style="display:grid;gap:14px;margin-top:24px">
+        <p class="disp" style="font-size:40px;font-weight:560;line-height:1">Preço aberto.</p>
+        <p class="disp" style="font-size:40px;font-weight:560;line-height:1">Sem instalar.</p>
+        <p class="disp" style="font-size:40px;font-weight:560;line-height:1">Sem taxa de entrada.</p>
+      </div>
+      <span class="ponto claro" style="width:150px"></span>
+      <p style="font-size:17px;margin-top:18px">Teste 15 dias com tudo liberado. Um molde salvo é grátis pra sempre.</p>
+      <div class="marca" style="font-size:22px;position:absolute;left:34px;bottom:28px"><svg><use href="#s"/></svg><span>alinhavo</span></div>
+    </div>
+    <!-- story -->
+    <div style="width:267px;height:475px;background:var(--papel);border-radius:14px;padding:26px 22px;position:relative;box-shadow:0 20px 40px rgba(0,0,0,.12);overflow:hidden">
+      <div class="marca" style="font-size:18px"><svg><use href="#s"/></svg><span>alinhavo</span></div>
+      <p class="disp" style="font-size:34px;font-weight:560;line-height:1.02;margin-top:36px">Me manda como fica no corpo.</p>
+      <p style="font-size:14px;margin-top:12px" class="suave">Agora você manda um link. Sua cliente aprova do celular.</p>
+      <div style="position:absolute;left:22px;right:22px;bottom:24px;background:#fff;border-radius:12px;padding:14px;border:1px solid rgba(0,0,0,.08)">
+        <p class="mono" style="font-size:11px;color:var(--grafite)">aprovação · saia evasê v4</p>
+        <div style="display:flex;gap:8px;margin-top:10px"><span style="flex:1;background:var(--tinta);color:var(--papel);text-align:center;border-radius:8px;padding:8px;font-size:13px">Aprovar</span><span style="flex:1;border:1px solid var(--tinta);text-align:center;border-radius:8px;padding:8px;font-size:12px;white-space:nowrap">Pedir ajuste</span></div>
+      </div>
+    </div>
+  </div>
+  <p class="suave" style="margin-top:34px;font-size:16px">Posts 4:5 (1080 × 1350) e story 9:16. Um assunto por peça, sempre com o alinhavo ou um molde real. Os números dos posts são exemplos de formato, não resultados medidos.</p>
+</section>
+
+<!-- 12 · PRODUTO -->
+<section class="prancha" style="background:var(--cru)">
+  <div class="topo"><span class="rotulo"><b>11</b> · Aplicações · produto e site</span><div class="marca" style="font-size:26px"><svg><use href="#s"/></svg><span>alinhavo</span></div></div>
+  <div style="display:grid;grid-template-columns:1.25fr 1fr;gap:30px;margin-top:56px">
+    <!-- app -->
+    <div style="background:var(--papel);border-radius:14px;overflow:hidden;box-shadow:0 24px 50px rgba(0,0,0,.15);height:720px;display:flex;flex-direction:column">
+      <div style="height:54px;background:#fff;border-bottom:1px solid rgba(0,0,0,.08);display:flex;align-items:center;padding:0 18px;gap:18px">
+        <div class="marca" style="font-size:20px"><svg><use href="#s"/></svg><span>alinhavo</span></div>
+        <span style="font-size:14px" class="suave">Verão 27 › Saia evasê › <b style="color:var(--tinta)">Molde</b> <span class="mono" style="font-size:12px">v4</span></span>
+        <span style="margin-left:auto;font-size:13px;padding:7px 14px;border-radius:8px;border:1px solid rgba(0,0,0,.2)">Pedir aprovação</span>
+        <span style="font-size:13px;padding:7px 14px;border-radius:8px;background:var(--tinta);color:var(--papel)">Provar</span>
+      </div>
+      <div style="flex:1;display:flex">
+        <div style="width:58px;background:#fff;border-right:1px solid rgba(0,0,0,.08);display:flex;flex-direction:column;align-items:center;gap:18px;padding-top:18px">
+          <svg class="ic" style="color:var(--linha)"><use href="#i-molde"/></svg><svg class="ic"><use href="#i-prova"/></svg><svg class="ic"><use href="#i-encaixe"/></svg><svg class="ic"><use href="#i-colecao"/></svg>
+        </div>
+        <div class="mm" style="flex:1;position:relative">
+          <svg viewBox="0 0 520 600" style="position:absolute;inset:20px 10px;width:calc(100% - 20px);height:calc(100% - 40px)">
+            <path d="M110 40 H300 L350 560 H110 Z" fill="#fff" stroke="#1D1B18" stroke-width="2"/>
+            <path d="M126 56 H286 L332 544 H126 Z" fill="none" stroke="#C43A26" stroke-width="2" stroke-dasharray="10 8"/>
+            <path d="M200 140 V460 M192 152 L200 140 L208 152 M192 448 L200 460 L208 448" stroke="#5C564C" stroke-width="1.6" fill="none"/>
+            <circle cx="300" cy="40" r="7" fill="#2B5C9B"/><circle cx="350" cy="560" r="6" fill="#fff" stroke="#2B5C9B" stroke-width="2"/>
+            <path d="M362 40 V560" stroke="#2B5C9B" stroke-width="1.4"/><text x="372" y="305" font-family="Geist Mono" font-size="15" fill="#2B5C9B">61,4 cm</text>
+            <path d="M300 40 L295 51 L290 40" fill="#F5EFE3" stroke="#1D1B18" stroke-width="1.5"/>
+          </svg>
+        </div>
+        <div style="width:230px;background:#fff;border-left:1px solid rgba(0,0,0,.08);padding:18px">
+          <p class="rotulo" style="font-size:11px">Ponto selecionado</p>
+          <div class="mono" style="font-size:14px;line-height:2;margin-top:8px">x &nbsp;23,5 cm<br>y &nbsp;&nbsp;0,0 cm</div>
+          <p class="rotulo" style="font-size:11px;margin-top:20px">Gradação</p>
+          <div class="mono" style="font-size:13px;line-height:1.9;margin-top:6px">P &nbsp;−1,0 cm<br><b>M &nbsp;base</b><br>G &nbsp;+1,0 cm</div>
+          <p class="rotulo" style="font-size:11px;margin-top:20px">Margem</p>
+          <div class="mono" style="font-size:13px;margin-top:6px">1,0 cm · barra 3,0 cm</div>
+          <div style="margin-top:24px;background:#fbe9e5;color:#8f2a1b;border-radius:8px;padding:10px;font-size:13px;line-height:1.4">A costura lateral não fecha: frente 61,4 cm, costas 60,9 cm.</div>
+        </div>
+      </div>
+    </div>
+    <!-- landing -->
+    <div style="display:flex;flex-direction:column;gap:22px">
+      <div class="mm" style="background-color:var(--papel);border-radius:14px;padding:30px;box-shadow:0 24px 50px rgba(0,0,0,.15);height:470px;position:relative">
+        <div style="display:flex;align-items:center;justify-content:space-between"><div class="marca" style="font-size:20px"><svg><use href="#s"/></svg><span>alinhavo</span></div><span style="font-size:13px" class="suave">Módulos · Preço · Entrar</span></div>
+        <p class="disp" style="font-size:58px;font-weight:560;line-height:.98;margin-top:56px">Prove antes<br>de cortar.</p>
+        <span class="ponto" style="width:160px"></span>
+        <p class="suave" style="font-size:16px;margin-top:16px;max-width:360px">Molde, prova 3D e encaixe no mesmo arquivo. No navegador, com preço aberto.</p>
+        <div style="display:flex;gap:10px;margin-top:22px"><span style="background:var(--linha);color:#fff;padding:11px 18px;border-radius:9px;font-size:14px;font-weight:500">Começar grátis</span><span style="border:1px solid var(--tinta);padding:11px 18px;border-radius:9px;font-size:14px">Ver o preço</span></div>
+        <svg viewBox="0 0 160 300" style="position:absolute;right:28px;bottom:30px;width:120px"><path d="M40 10 c3 30 -14 40 -11 70 c3 25 10 33 5 80 h82 c-5 -47 2 -55 5 -80 c3 -30 -14 -40 -11 -70 z" fill="#fff" stroke="#1D1B18" stroke-width="3"/><path d="M38 80 C70 92 90 92 122 80" fill="none" stroke="#C43A26" stroke-width="3" stroke-dasharray="8 6"/><path d="M80 160 V280 M55 290 H105" stroke="#1D1B18" stroke-width="3"/></svg>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:22px">
+        <div style="background:var(--tinta);border-radius:14px;height:228px;display:flex;align-items:center;justify-content:center;gap:24px;--sf:#F5EFE3">
+          <svg style="width:124px;height:124px"><use href="#s"/></svg>
+          <div style="width:64px;height:64px;border-radius:16px;background:var(--linha);display:flex;align-items:center;justify-content:center;--sl:#1D1B18"><svg style="width:52px;height:52px"><use href="#s"/></svg></div>
+        </div>
+        <div style="background:#fff;border-radius:14px;height:228px;padding:20px;display:flex;flex-direction:column;justify-content:center;gap:12px">
+          <p class="rotulo" style="font-size:11px">Carregando a prova</p>
+          <svg viewBox="0 0 260 20" style="width:100%"><line x1="4" y1="10" x2="256" y2="10" stroke="#E8DECB" stroke-width="5" stroke-linecap="round"/><line x1="4" y1="10" x2="170" y2="10" stroke="#C43A26" stroke-width="5" stroke-linecap="round" stroke-dasharray="14 10"/></svg>
+          <p class="suave" style="font-size:14px">Costurando as partes… <span class="mono">2 s</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 13 · PAPELARIA -->
+<section class="prancha" style="background:var(--cru)">
+  <div class="topo"><span class="rotulo"><b>12</b> · Aplicações · papelaria e presença</span><div class="marca" style="font-size:26px"><svg><use href="#s"/></svg><span>alinhavo</span></div></div>
+  <div style="display:flex;gap:44px;margin-top:80px;align-items:center;justify-content:center">
+    <!-- tag -->
+    <svg viewBox="0 0 300 560" style="width:250px;filter:drop-shadow(0 18px 30px rgba(0,0,0,.18))">
+      <path d="M150 0 C150 30 120 30 150 60" fill="none" stroke="#C43A26" stroke-width="3"/>
+      <path d="M40 60 H260 L280 90 V540 H20 V90 Z" fill="#1D1B18"/>
+      <circle cx="150" cy="96" r="12" fill="#E8DECB"/>
+      <path d="M44 120 H256 V516 H44 Z" fill="none" stroke="#C43A26" stroke-width="2.5" stroke-dasharray="12 9"/>
+      <g transform="translate(105 210) scale(.9)"><use href="#s" width="100" height="100" style="--sf:#F5EFE3"/></g>
+      <text x="150" y="360" text-anchor="middle" font-family="Fraunces" font-weight="600" font-size="44" fill="#F5EFE3" style="font-variation-settings:'SOFT' 100">alinhavo</text>
+      <text x="150" y="400" text-anchor="middle" font-family="Geist Mono" font-size="14" fill="#b8afa1" letter-spacing="2">PROVADO ANTES</text>
+      <text x="150" y="420" text-anchor="middle" font-family="Geist Mono" font-size="14" fill="#b8afa1" letter-spacing="2">DE CORTAR</text>
+    </svg>
+    <!-- cartões -->
+    <div style="display:flex;flex-direction:column;gap:30px">
+      <div class="mm" style="width:540px;height:300px;background-color:var(--papel);border-radius:10px;padding:34px;position:relative;box-shadow:0 18px 30px rgba(0,0,0,.14)">
+        <div class="marca" style="font-size:34px"><svg><use href="#s"/></svg><span>alinhavo</span></div>
+        <div style="position:absolute;left:34px;bottom:30px">
+          <p class="disp" style="font-size:26px;font-weight:600">Paulo</p>
+          <p class="suave" style="font-size:15px">Fundador</p>
+          <p class="mono" style="font-size:13px;margin-top:12px;color:var(--giz)">alinhavo.app &nbsp;·&nbsp; @alinhavo</p>
+        </div>
+        <svg viewBox="0 0 120 200" style="position:absolute;right:34px;top:40px;width:110px"><path d="M20 10 H80 L100 190 H20 Z" fill="#fff" stroke="#1D1B18" stroke-width="2"/><path d="M30 20 H72 L90 180 H30 Z" fill="none" stroke="#C43A26" stroke-width="2" stroke-dasharray="8 6"/></svg>
+      </div>
+      <div style="width:540px;height:300px;background:var(--linha);border-radius:10px;display:flex;align-items:center;justify-content:center;box-shadow:0 18px 30px rgba(0,0,0,.14);--sf:#F5EFE3;--sl:#1D1B18;flex-direction:column;gap:16px">
+        <svg style="width:120px;height:120px"><use href="#s"/></svg>
+        <p class="disp" style="font-size:30px;font-weight:500;color:var(--papel)">Prove antes de cortar.</p>
+      </div>
+    </div>
+    <!-- avatares -->
+    <div style="display:flex;flex-direction:column;gap:24px;align-items:center">
+      <div style="width:170px;height:170px;border-radius:50%;background:var(--papel);display:flex;align-items:center;justify-content:center;box-shadow:0 12px 24px rgba(0,0,0,.12)"><svg style="width:110px;height:110px"><use href="#s"/></svg></div>
+      <div style="width:170px;height:170px;border-radius:50%;background:var(--tinta);display:flex;align-items:center;justify-content:center;--sf:#F5EFE3;box-shadow:0 12px 24px rgba(0,0,0,.12)"><svg style="width:110px;height:110px"><use href="#s"/></svg></div>
+      <p class="rotulo" style="font-size:11px;text-align:center">avatar · redes e WhatsApp</p>
+    </div>
+  </div>
+  <p class="suave" style="text-align:center;margin-top:40px;font-size:16px">Etiqueta de brinde (hang tag) com o alinhavo em volta, cartão em papel de molde e avatar. O domínio e o @ do cartão são ilustrativos: ainda não foram registrados.</p>
+</section>
+
+<script>
+const p=location.hash.slice(1)||new URLSearchParams(location.search).get("p");
+if(p){document.body.classList.add("uma");document.querySelectorAll(".prancha")[+p-1]?.classList.add("ativa")}
+</script>
+</body>
+</html>

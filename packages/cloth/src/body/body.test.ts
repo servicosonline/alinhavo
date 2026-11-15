@@ -190,7 +190,8 @@ describe("createMannequin", () => {
     expect(closest).toBeGreaterThan(FABRICS.malha.thickness - 0.05);
     // E ficou pendurado no corpo, não caiu até o chão.
     expect(lowest).toBeGreaterThan(body.landmarks.waist.y);
-  });
+    // Simulação de 1,5 s: uns 2 s sozinho, mais com o check inteiro rodando junto (o padrão é 5 s).
+  }, 30_000);
 
   it("a mesma tabela dá sempre o mesmo corpo", () => {
     const a = createMannequin(TABELA_M, "passo");

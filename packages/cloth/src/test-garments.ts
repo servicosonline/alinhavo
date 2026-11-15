@@ -120,6 +120,42 @@ export const TOP_SEAMS: Seam[] = [
   { id: "lateral-top", a: { piece: "top-frente", segment: 3 }, b: { piece: "top-costas", segment: 3 }, direction: "same" },
 ];
 
+/**
+ * Saia reta para vestir por cima da calça (look em camadas): frente e costas
+ * na dobra, cintura de 84 cm (a da calça tem uns 77). 0 cintura, 1 lateral do
+ * quadril, 2 lateral, 3 barra, 4 dobra.
+ */
+function saiaPart(id: "saia-frente" | "saia-costas"): Piece {
+  return {
+    id,
+    name: id === "saia-frente" ? "Saia frente" : "Saia costas",
+    points: {
+      W: { x: 0, y: 0 }, // centro na cintura
+      L: { x: 210, y: 0 }, // lateral na cintura
+      H: { x: 265, y: 190 }, // lateral no quadril
+      B: { x: 300, y: 600 }, // lateral na barra
+      C: { x: 0, y: 600 }, // centro na barra
+    },
+    start: "W",
+    outline: [line("L"), { kind: "cubic", c1: { x: 240, y: 50 }, c2: { x: 262, y: 120 }, to: "H" }, line("B"), line("C"), line("W")],
+    seamAllowance: 10,
+    fold: 4,
+    placement: { side: id === "saia-frente" ? "frente" : "costas", anchor: "cintura", offset: 0 },
+  };
+}
+
+export const SAIA_SEAMS: Seam[] = [
+  { id: "saia-lateral-quadril", a: { piece: "saia-frente", segment: 1 }, b: { piece: "saia-costas", segment: 1 }, direction: "same" },
+  { id: "saia-lateral", a: { piece: "saia-frente", segment: 2 }, b: { piece: "saia-costas", segment: 2 }, direction: "same" },
+];
+
+export function saia(): PatternDocument {
+  const doc = emptyDocument(["M"], "M");
+  doc.pieces = [saiaPart("saia-frente"), saiaPart("saia-costas")];
+  doc.seams = SAIA_SEAMS.map((s) => ({ ...s }));
+  return doc;
+}
+
 export function top(): PatternDocument {
   const doc = emptyDocument(["M"], "M");
   doc.pieces = [topPart("top-frente", 150), topPart("top-costas", 60)];

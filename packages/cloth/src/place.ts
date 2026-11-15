@@ -17,6 +17,8 @@ import type { PieceMesh } from "./mesh";
 
 /** Folga entre o corpo e a parte na posição inicial, em mm. */
 export const PLACEMENT_CLEARANCE = 25;
+/** Folga a mais por camada do look, em mm: a roupa de cima começa por fora da de baixo. */
+export const LAYER_CLEARANCE = 25;
 
 /** Ângulo (na elipse, a partir de +X para +Z) do centro de cada lado do corpo. */
 const SIDE_ANGLE: Record<BodySide, number> = {
@@ -29,8 +31,10 @@ const SIDE_ANGLE: Record<BodySide, number> = {
 /**
  * `half`: a metade do corpo que uma parte de cortar par veste (ver
  * `pieceHalf`); ela fica entre o centro do lado e a lateral daquela metade.
+ * `layer`: a camada no look (0, padrão, é a de dentro); cada camada começa
+ * LAYER_CLEARANCE mm mais longe do corpo.
  */
-export type PlacedPiece = { mesh: PieceMesh; placement: PiecePlacement; half?: BodyLeg };
+export type PlacedPiece = { mesh: PieceMesh; placement: PiecePlacement; half?: BodyLeg; layer?: number };
 
 /**
  * A metade do corpo de uma parte de cortar par ou da cópia dela: a perna da
@@ -137,7 +141,8 @@ export function angleAtArc(a: number, b: number, start: number, arc: number): nu
  * de LEG_BLEND mm acima do gancho.
  */
 export function placeGarment(pieces: PlacedPiece[], landmarks: BodyLandmarks): Float64Array[] {
-  return pieces.map(({ mesh, placement, half }) => {
+  return pieces.map(({ mesh, placement, half, layer = 0 }) => {
+    const clearance = PLACEMENT_CLEARANCE + layer * LAYER_CLEARANCE;
     const count = mesh.positions.length / 2;
     let uMin = Infinity;
     let uMax = -Infinity;
@@ -172,13 +177,13 @@ export function placeGarment(pieces: PlacedPiece[], landmarks: BodyLandmarks): F
       const u = mesh.positions[i * 2]!;
       const v = mesh.positions[i * 2 + 1]!;
       const y = top - (v - vMin);
-      const e = bodyEllipse(landmarks, y);
+      const e = bodyEllipse(landmarks, y, clearance);
       const phi = angleAtArc(e.a, e.b, start, u - uCenter);
       let x = e.a * Math.cos(phi);
       let z = e.centerZ + e.b * Math.sin(phi);
       if (leg && y < crotch + LEG_BLEND) {
         const c = legAt(landmarks, leg, y);
-        const R = c.r + PLACEMENT_CLEARANCE;
+        const R = c.r + clearance;
         const psi = legStart - (u - legCenter) / R; // arco positivo anda para a direita de quem olha
         const w = Math.min(1, (crotch + LEG_BLEND - y) / LEG_BLEND);
         x = x * (1 - w) + (c.x + R * Math.cos(psi)) * w;

@@ -1,13 +1,16 @@
 import { cutPieces, type PatternDocument } from "@alinhavo/geometry";
+import { flatSketch, type FlatSketch } from "./flat-sketch";
 
 /**
  * Ficha técnica: os dados montados a partir do molde, do tecido e dos
  * aviamentos (formato 1, o que fica salvo em tech_packs.data). Pura: o app
  * busca os dados e grava; aqui só se calcula.
  *
- * Consumo de tecido: ESTIMATIVA pela área das peças (com margem), dividida
- * pelo aproveitamento e pela largura do tecido. O valor real vem do Encaixe
- * (Fase 4). Medidas em mm e mm², pesos em g, dinheiro em centavos.
+ * Consumo de tecido: área das peças (com margem) ÷ aproveitamento ÷ largura.
+ * Com um risco do Encaixe salvo para a mesma versão do molde e a mesma
+ * largura do tecido, o aproveitamento é o MEDIDO nesse risco (method
+ * "nesting"); sem ele, é o ESTIMADO de 80% (method "area"), sempre marcado
+ * como estimativa. Medidas em mm e mm², pesos em g, dinheiro em centavos.
  */
 
 /** Aproveitamento estimado do tecido no corte (sem encaixe), de 0 a 1. */
@@ -25,7 +28,13 @@ export type TechPackInput = {
     priceCents: number | null;
   } | null;
   trims: { name: string; quantity: number; unit: string; unitPriceCents: number | null }[];
+  /** Último risco salvo para esta versão do molde (o app escolhe; aqui só se confere a largura). */
+  marker?: TechPackMarker | null;
+  /** Texto técnico do produto (escrito pela equipe, com sugestão da IA); vazio fica de fora. */
+  technicalDescription?: string | null;
 };
+
+export type TechPackMarker = { number: number; widthMm: number; lengthMm: number; efficiency: number };
 
 export type TechPackPiece = {
   name: string;
@@ -52,21 +61,41 @@ export type TechPackData = {
   pattern: { name: string; version: number; sizes: string[]; baseSize: string };
   pieces: TechPackPiece[];
   fabric: TechPackInput["fabric"];
-  consumption: { method: "area"; efficiency: number; bySize: Record<string, TechPackConsumption> };
+  /**
+   * "area": aproveitamento estimado. "nesting": aproveitamento medido no
+   * risco `marker` (fichas antigas não têm "nesting" nem `marker`).
+   */
+  consumption: { method: "area" | "nesting"; efficiency: number; marker?: TechPackMarker; bySize: Record<string, TechPackConsumption> };
   trims: (TechPackInput["trims"][number] & { totalCents: number | null })[];
   /** Soma dos aviamentos com preço, centavos. */
   trimsCents: number;
   /** Custo de material por peça pronta (tecido + aviamentos), centavos; null sem custo do tecido. */
   materialCentsBySize: Record<string, number | null>;
+  /** Texto técnico do produto (opcional: fichas antigas não têm). */
+  technicalDescription?: string;
+  /** Desenho técnico plano do molde (opcional: fichas antigas não têm). */
+  sketch?: FlatSketch;
 };
 
 const round1 = (v: number) => Math.round(v * 10) / 10;
+
+/**
+ * O risco só vale para a ficha se foi encaixado na largura do tecido do
+ * produto (outra largura, outro aproveitamento) e tem números possíveis.
+ */
+function usableMarker(marker: TechPackMarker | null | undefined, fabricWidthMm: number | null): TechPackMarker | null {
+  if (!marker || fabricWidthMm === null || marker.widthMm !== fabricWidthMm) return null;
+  if (!(marker.efficiency > 0 && marker.efficiency <= 1) || !(marker.lengthMm > 0)) return null;
+  return { number: marker.number, widthMm: marker.widthMm, lengthMm: marker.lengthMm, efficiency: marker.efficiency };
+}
 
 export function buildTechPack(input: TechPackInput): TechPackData {
   const doc = input.pattern.document;
   const fabric = input.fabric;
   const pieces: TechPackPiece[] = doc.pieces.map((p) => ({ name: p.name, quantity: p.cutPair ? 2 : 1, onFold: p.fold !== undefined, bySize: {} }));
   const consumption: Record<string, TechPackConsumption> = {};
+  const marker = usableMarker(input.marker, fabric?.widthMm ?? null);
+  const efficiency = marker ? marker.efficiency : ESTIMATED_EFFICIENCY;
 
   for (const size of doc.sizes) {
     const cut = cutPieces(doc, size);
@@ -75,7 +104,7 @@ export function buildTechPack(input: TechPackInput): TechPackData {
     });
     const area = cut.reduce((s, c) => s + c.cutArea * c.quantity, 0);
     const width = fabric?.widthMm ?? null;
-    const meters = width ? area / ESTIMATED_EFFICIENCY / width / 1000 : null;
+    const meters = width ? area / efficiency / width / 1000 : null;
     const weightG = meters !== null && width && fabric?.weightGsm ? meters * (width / 1000) * fabric.weightGsm : null;
     const fabricCents = meters !== null && fabric?.priceCents != null ? Math.round(meters * fabric.priceCents) : null;
     consumption[size] = {
@@ -102,10 +131,12 @@ export function buildTechPack(input: TechPackInput): TechPackData {
     pattern: { name: input.pattern.name, version: input.pattern.version, sizes: [...doc.sizes], baseSize: doc.baseSize },
     pieces,
     fabric,
-    consumption: { method: "area", efficiency: ESTIMATED_EFFICIENCY, bySize: consumption },
+    consumption: marker ? { method: "nesting", efficiency, marker, bySize: consumption } : { method: "area", efficiency, bySize: consumption },
     trims,
     trimsCents,
     materialCentsBySize,
+    ...(input.technicalDescription?.trim() ? { technicalDescription: input.technicalDescription.trim() } : {}),
+    sketch: flatSketch(doc),
   };
 }
 
@@ -126,6 +157,20 @@ export const squareMeters = (mm2: number) => `${dec(2, 2).format(mm2 / 1e6)} m²
 export const grams = (g: number | null) => (g === null ? "—" : `${dec(0, 0).format(g)} g`);
 /** centavos → "R$ 12,34" */
 export const money = (cents: number | null) => (cents === null ? "—" : brl.format(cents / 100));
+
+const pct = dec(1, 1);
+
+/** De onde veio o consumo, para a tela e o PDF: "pelo encaixe nº 3" ou "estimativa". */
+export function consumptionSource(c: Pick<TechPackData["consumption"], "method" | "marker">): string {
+  return c.method === "nesting" && c.marker ? `pelo encaixe nº ${c.marker.number}` : "estimativa";
+}
+
+/** A nota de rodapé do consumo. */
+export function consumptionNote(c: Pick<TechPackData["consumption"], "method" | "marker" | "efficiency">): string {
+  if (c.method === "nesting" && c.marker)
+    return `Pelo risco nº ${c.marker.number} do Encaixe: aproveitamento medido de ${pct.format(c.efficiency * 100)}% em ${cm(c.marker.widthMm)} de largura, aplicado à área das peças com margem de cada tamanho.`;
+  return `Estimativa pela área das peças com margem, com aproveitamento de ${Math.round(c.efficiency * 100)}%. O consumo real vem do Encaixe (encaixe o produto na largura do tecido e gere a ficha de novo).`;
+}
 
 export const PRODUCT_STATUS_PT: Record<string, string> = {
   ideia: "Ideia",

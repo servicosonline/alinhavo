@@ -76,6 +76,17 @@ async function Org({ params }: { params: PageProps<"/painel/[orgId]">["params"] 
         </Link>
 
         <Link
+          href={`/painel/${orgId}/encaixes`}
+          className="flex items-center justify-between rounded-lg border border-tinta/15 bg-white/70 px-5 py-4 transition hover:bg-papel-escuro"
+        >
+          <span>
+            <span className="font-display text-xl font-semibold">Fila de encaixes</span>
+            <span className={`block ${ui.muted}`}>Riscos processados um de cada vez, em segundo plano</span>
+          </span>
+          <span aria-hidden>→</span>
+        </Link>
+
+        <Link
           href={`/painel/${orgId}/moldes`}
           className="flex items-center justify-between rounded-lg border border-tinta/15 bg-white/70 px-5 py-4 transition hover:bg-papel-escuro"
         >
@@ -86,6 +97,19 @@ async function Org({ params }: { params: PageProps<"/painel/[orgId]">["params"] 
           <span aria-hidden>→</span>
         </Link>
   
+        {canManage && (
+          <Link
+            href={`/painel/${orgId}/api`}
+            className="flex items-center justify-between rounded-lg border border-tinta/15 bg-white/70 px-5 py-4 transition hover:bg-papel-escuro"
+          >
+            <span>
+              <span className="font-display text-xl font-semibold">API</span>
+              <span className={`block ${ui.muted}`}>Chaves para o ERP ou outro sistema ler produtos, fichas e riscos</span>
+            </span>
+            <span aria-hidden>→</span>
+          </Link>
+        )}
+
         <Link
           href={`/painel/${orgId}/tecidos`}
           className="flex items-center justify-between rounded-lg border border-tinta/15 bg-white/70 px-5 py-4 transition hover:bg-papel-escuro"
