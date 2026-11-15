@@ -182,12 +182,24 @@ describe("createMannequin", () => {
     for (let f = 0; f < 90; f++) sim.step();
     let closest = Infinity;
     let lowest = Infinity;
+    let worst = -1;
     for (let i = 0; i < sim.vertexCount; i++) {
       const [x, y, z] = [sim.positions[i * 3]!, sim.positions[i * 3 + 1]!, sim.positions[i * 3 + 2]!];
-      closest = Math.min(closest, body.collider.query(x, y, z).distance);
+      const d = body.collider.query(x, y, z).distance;
+      if (d < closest) {
+        closest = d;
+        worst = i;
+      }
       lowest = Math.min(lowest, y);
     }
-    expect(closest).toBeGreaterThan(FABRICS.malha.thickness - 0.05);
+    // Na falha, onde e com que corpo: somas das posições do corpo e da roupa
+    // (o mesmo número em toda máquina que calcula igual) e o vértice mais perto.
+    const sum = (a: ArrayLike<number>) => Array.from(a).reduce((s, v) => s + v, 0);
+    const at = [0, 1, 2].map((c) => sim.positions[worst * 3 + c]!.toFixed(2)).join(", ");
+    const trace =
+      `corpo Σ=${sum(body.mesh.positions).toFixed(6)}, ombro y=${body.landmarks.shoulder.y.toFixed(6)}, ` +
+      `malha ${sim.vertexCount} vértices, roupa Σ=${sum(sim.positions).toFixed(6)}, vértice ${worst} em (${at})`;
+    expect(closest, trace).toBeGreaterThan(FABRICS.malha.thickness - 0.05);
     // E ficou pendurado no corpo, não caiu até o chão.
     expect(lowest).toBeGreaterThan(body.landmarks.waist.y);
     // Simulação de 1,5 s: uns 2 s sozinho, mais com o check inteiro rodando junto (o padrão é 5 s).
