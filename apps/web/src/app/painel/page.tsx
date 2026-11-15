@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Suspense } from "react";
-import { Loading, NotConfigured } from "@/components/page-shell";
+import { Container, Loading, NotConfigured, PageHeader } from "@/components/page-shell";
 import { ROLE_LABEL, ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
 import { getSupabaseConfig } from "@/lib/supabase/config";
@@ -11,11 +11,16 @@ import { CreateOrgForm } from "./create-org-form";
 export const metadata: Metadata = { title: "Painel · Alinhavo" };
 
 export default function PainelPage() {
-  if (!getSupabaseConfig()) return <NotConfigured />;
   return (
-    <Suspense fallback={<Loading label="Carregando suas organizações…" />}>
-      <Organizacoes />
-    </Suspense>
+    <Container size="narrow">
+      {getSupabaseConfig() ? (
+        <Suspense fallback={<Loading label="Carregando suas organizações…" />}>
+          <Organizacoes />
+        </Suspense>
+      ) : (
+        <NotConfigured />
+      )}
+    </Container>
   );
 }
 
@@ -41,11 +46,11 @@ async function Organizacoes() {
   if (orgs.length === 0) {
     return (
       <div className="mx-auto max-w-md">
-        <h1 className={ui.h1}>Bem-vindo ao Alinhavo</h1>
-        <p className={`mt-2 ${ui.muted}`}>
-          Comece criando a sua organização. Depois você convida a equipe. Se alguém já te convidou, abra o link do
-          convite.
-        </p>
+        <PageHeader
+          eyebrow="Primeiro passo"
+          title="Boas-vindas ao Alinhavo"
+          description="Crie a sua confecção ou o seu ateliê. Depois você convida a equipe. Se alguém já te convidou, abra o link do convite."
+        />
         <div className={`mt-8 ${ui.card}`}>
           <CreateOrgForm />
         </div>
@@ -55,16 +60,21 @@ async function Organizacoes() {
 
   return (
     <div className="space-y-8">
-      <h1 className={ui.h1}>Suas organizações</h1>
-      <ul className="divide-y divide-tinta/10 overflow-hidden rounded-lg border border-tinta/15 bg-white/70">
+      <PageHeader title="Suas organizações" description="Escolha onde trabalhar agora." />
+      <ul className={ui.list}>
         {orgs.map((m) => (
           <li key={m.orgs.id}>
             <Link
               href={`/painel/${m.orgs.id}`}
-              className="flex items-center justify-between gap-4 px-5 py-4 transition hover:bg-papel-escuro"
+              className={`group ${ui.row}`}
             >
-              <span className="font-medium">{m.orgs.name}</span>
-              <span className="text-sm text-tinta-suave">{ROLE_LABEL[m.role] ?? m.role}</span>
+              <span className="font-display text-xl font-semibold">{m.orgs.name}</span>
+              <span className="flex items-center gap-3">
+                <span className={ui.tag}>{ROLE_LABEL[m.role] ?? m.role}</span>
+                <span aria-hidden className="text-tinta-suave transition group-hover:translate-x-0.5 group-hover:text-linha">
+                  →
+                </span>
+              </span>
             </Link>
           </li>
         ))}

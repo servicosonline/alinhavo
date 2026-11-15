@@ -5,6 +5,7 @@ import { UserMenu } from "@/components/user-menu";
 export default function PainelLayout({ children }: LayoutProps<"/painel">) {
   return (
     <PageShell
+      homeHref="/painel"
       aside={
         <Suspense fallback={null}>
           <UserMenu />

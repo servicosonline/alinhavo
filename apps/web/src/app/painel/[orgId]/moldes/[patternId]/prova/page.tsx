@@ -2,7 +2,7 @@ import { migratePattern, validatePattern } from "@alinhavo/geometry";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
-import { Loading, NotConfigured } from "@/components/page-shell";
+import { Loading, NotConfigured, Trail } from "@/components/page-shell";
 import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
@@ -102,13 +102,17 @@ async function Prova({ params }: { params: Params }) {
   const lookOptions = lookOptionsFrom(others, otherVersions ?? []);
 
   return (
-    // Como o editor, a Prova sai da coluna estreita do painel e usa a largura da tela.
-    <div className="relative left-1/2 w-[min(100vw-2rem,90rem)] -translate-x-1/2 space-y-3">
-      <div className="flex flex-wrap items-center justify-between gap-3">
-        <div className="flex items-baseline gap-3">
-          <Link href={back} className="text-sm text-tinta-suave hover:text-tinta">
-            ← Voltar ao molde
-          </Link>
+    // Como o editor, a Prova usa a largura da tela (data-largura, ver Container).
+    <div className="space-y-3" data-largura="tela">
+      <div className="flex flex-wrap items-end justify-between gap-3">
+        <div className="space-y-1">
+          <Trail
+            items={[
+              { label: "Moldes", href: `/painel/${orgId}/moldes` },
+              { label: pattern.name, href: back },
+              { label: "Prova 3D" },
+            ]}
+          />
           <h1 className="font-display text-2xl font-semibold tracking-tight">Prova: {pattern.name}</h1>
         </div>
         <p className="text-xs text-tinta-suave">
@@ -120,7 +124,7 @@ async function Prova({ params }: { params: Params }) {
           ) : (
             <>
               Sem tabela de medidas: o corpo usa medidas estimadas.{" "}
-              <Link href={back} className="underline">
+              <Link href={back} className={ui.link}>
                 Ligar uma tabela
               </Link>
             </>

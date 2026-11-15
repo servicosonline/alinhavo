@@ -3,7 +3,7 @@ import type { CSSProperties } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Carretel, FitaMetrica, Manequim, RiscoEncaixe, RoloTecido, SimboloEmPartes, Tesoura } from "@/components/landing/art";
-import { BrandLogo, BrandSymbol } from "@/components/landing/brand-mark";
+import { BrandLogo, BrandSymbol } from "@/components/brand-mark";
 import { SavingsCalculator } from "@/components/landing/calculator";
 import { LandingMotion } from "@/components/landing/motion";
 import "@/components/landing/landing.css";
@@ -620,7 +620,7 @@ export default function Home() {
             <Link href="/experimentar" className="rounded-[10px] bg-tinta px-7 py-4 text-center font-medium text-papel hover:bg-black">
               Experimentar sem cadastro →
             </Link>
-            <Link href="/entrar" className="rounded-[10px] border-[1.5px] border-papel/70 px-7 py-4 text-center hover:border-papel">
+            <Link href="/entrar?modo=criar" className="rounded-[10px] border-[1.5px] border-papel/70 px-7 py-4 text-center hover:border-papel">
               Criar conta grátis
             </Link>
           </div>

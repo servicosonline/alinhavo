@@ -1,8 +1,7 @@
 import { emptyDocument, migratePattern, validatePattern, type PatternDocument } from "@alinhavo/geometry";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
-import { Loading, NotConfigured } from "@/components/page-shell";
+import { Loading, NotConfigured, Trail } from "@/components/page-shell";
 import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
@@ -78,12 +77,10 @@ async function Molde({ params }: { params: Params }) {
   }
 
   return (
-    // O painel é estreito (bom para formulários); o editor sai da coluna e usa a largura da tela.
-    <div className="relative left-1/2 w-[min(100vw-2rem,90rem)] -translate-x-1/2 space-y-3">
+    // O editor usa a largura da tela (data-largura, ver Container).
+    <div className="space-y-3" data-largura="tela">
       <div className="flex flex-wrap items-center justify-between gap-3">
-        <Link href={`/painel/${orgId}/moldes`} className="text-sm text-tinta-suave hover:text-tinta">
-          ← Moldes
-        </Link>
+        <Trail items={[{ label: "Moldes", href: `/painel/${orgId}/moldes` }, { label: pattern.name }]} />
         {canEdit ? (
           <form action={linkSizeChart} className="flex items-center gap-2 text-sm">
             <input type="hidden" name="orgId" value={orgId} />

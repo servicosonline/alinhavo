@@ -8,10 +8,13 @@ export function SubmitButton({
   children,
   pendingText = "Aguarde…",
   variant = "primary",
+  block = false,
 }: {
   children: React.ReactNode;
   pendingText?: string;
-  variant?: "primary" | "ghost";
+  variant?: "primary" | "accent" | "ghost";
+  /** Ocupa a largura toda (formulário de um campo só, como o de entrar). */
+  block?: boolean;
 }) {
   // <form action> informa pelo useFormStatus; o ActionForm, pelo contexto.
   const status = useFormStatus();
@@ -22,7 +25,7 @@ export function SubmitButton({
       type="submit"
       disabled={pending}
       aria-busy={pending}
-      className={variant === "primary" ? ui.buttonPrimary : ui.buttonGhost}
+      className={`${variant === "primary" ? ui.buttonPrimary : variant === "accent" ? ui.buttonAccent : ui.buttonGhost}${block ? " w-full" : ""}`}
     >
       {pending ? pendingText : children}
     </button>

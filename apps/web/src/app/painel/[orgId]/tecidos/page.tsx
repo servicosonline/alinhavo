@@ -1,7 +1,6 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
-import { Loading, NotConfigured } from "@/components/page-shell";
+import { EmptyState, Loading, NotConfigured, PageHeader } from "@/components/page-shell";
 import { SubmitButton } from "@/components/submit-button";
 import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
@@ -41,28 +40,28 @@ async function Tecidos({ params }: { params: PageProps<"/painel/[orgId]/tecidos"
 
   return (
     <div className="space-y-8">
-      <div>
-        <Link href={`/painel/${orgId}`} className="text-sm text-tinta-suave hover:text-tinta">
-          ← {orgRes.data.name}
-        </Link>
-        <h1 className={`mt-2 ${ui.h1}`}>Tecidos</h1>
-        <p className={`mt-1 ${ui.muted}`}>Largura, gramatura e preço entram no consumo e no custo da ficha técnica.</p>
-      </div>
+      <PageHeader
+        title="Tecidos"
+        description="Largura, gramatura e preço entram no consumo e no custo da ficha técnica."
+      />
       {canEdit && (
-        <div className={ui.card}>
+        <section className={ui.card} aria-label="Novo tecido">
+          <h2 className={`${ui.eyebrow} mb-4`}>Novo tecido</h2>
           <FabricForm orgId={orgId} />
-        </div>
+        </section>
       )}
       {fabrics.length === 0 ? (
-        <p className={ui.muted}>Nenhum tecido cadastrado ainda.</p>
+        <EmptyState icon="tecidos" title="Nenhum tecido cadastrado ainda">
+          Com a largura útil e o preço por metro, a ficha técnica calcula o consumo e o custo de cada produto.
+        </EmptyState>
       ) : (
-        <ul className="divide-y divide-tinta/10 overflow-hidden rounded-lg border border-tinta/15 bg-white/70" data-fabrics>
+        <ul className={ui.list} data-fabrics>
           {fabrics.map((f) => (
             <li key={f.id} className="flex flex-wrap items-center justify-between gap-3 px-5 py-3">
               <span>
-                <span className="font-medium">{f.name}</span>
+                <span className="font-display text-lg font-semibold">{f.name}</span>
                 {f.composition && <span className="text-tinta-suave"> · {f.composition}</span>}
-                <span className="block text-xs text-tinta-suave">
+                <span className="mt-0.5 block font-mono text-[11px] text-tinta-suave">
                   {[
                     f.width_mm && `largura ${formatCm(f.width_mm)} cm`,
                     f.weight_gsm && `${String(f.weight_gsm).replace(".", ",")} g/m²`,

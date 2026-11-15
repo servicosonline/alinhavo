@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
-import { Loading, NotConfigured } from "@/components/page-shell";
+import { EmptyState, Loading, NotConfigured, PageHeader } from "@/components/page-shell";
 import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
 import { formatDay, milestoneState, todayInBrazil } from "@/lib/collection";
@@ -42,33 +42,34 @@ async function Colecoes({ params }: { params: PageProps<"/painel/[orgId]/colecoe
 
   return (
     <div className="space-y-8">
-      <div>
-        <Link href={`/painel/${orgId}`} className="text-sm text-tinta-suave hover:text-tinta">
-          ← {orgRes.data.name}
-        </Link>
-        <h1 className={`mt-2 ${ui.h1}`}>Coleções</h1>
-      </div>
+      <PageHeader
+        title="Coleções"
+        description="Cada coleção junta os produtos, o status de cada um e o cronograma até o lançamento."
+      />
 
       {canEditProducts(role) && (
-        <div className={ui.card}>
+        <section className={ui.card} aria-label="Nova coleção">
+          <h2 className={`${ui.eyebrow} mb-4`}>Nova coleção</h2>
           <CreateCollectionForm orgId={orgId} />
-        </div>
+        </section>
       )}
 
       {collections.length === 0 ? (
-        <p className={ui.muted}>Nenhuma coleção ainda.</p>
+        <EmptyState icon="colecoes" title="Nenhuma coleção ainda">
+          Crie a primeira acima. Dentro dela você cadastra os produtos e liga cada um ao seu molde.
+        </EmptyState>
       ) : (
-        <ul className="divide-y divide-tinta/10 overflow-hidden rounded-lg border border-tinta/15 bg-white/70" data-collections>
+        <ul className={ui.list} data-collections>
           {collections.map((c) => {
             const late = lateCount(c.id);
             return (
               <li key={c.id}>
                 <Link
                   href={`/painel/${orgId}/colecoes/${c.id}`}
-                  className="flex items-center justify-between gap-4 px-5 py-4 transition hover:bg-papel-escuro"
+                  className={ui.row}
                 >
                   <span>
-                    <span className="font-medium">{c.name}</span>
+                    <span className="font-display text-lg font-semibold">{c.name}</span>
                     {c.season && <span className="text-tinta-suave"> · {c.season}</span>}
                     <span className="block text-xs text-tinta-suave">
                       {productCount(c.id)} {productCount(c.id) === 1 ? "produto" : "produtos"}
@@ -76,7 +77,7 @@ async function Colecoes({ params }: { params: PageProps<"/painel/[orgId]/colecoe
                     </span>
                   </span>
                   {late > 0 && (
-                    <span className="shrink-0 rounded bg-linha/10 px-2 py-0.5 text-xs font-medium text-linha" data-late={late}>
+                    <span className={`shrink-0 ${ui.tagAlert}`} data-late={late}>
                       {late} {late === 1 ? "etapa atrasada" : "etapas atrasadas"}
                     </span>
                   )}

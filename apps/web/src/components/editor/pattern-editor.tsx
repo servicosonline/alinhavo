@@ -45,6 +45,7 @@ import {
 } from "@alinhavo/geometry";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { formatCm } from "@/lib/units";
+import { ModuleIcon } from "../icons";
 import { ui } from "../ui";
 import { PatternCanvas, type DragTarget, type Selection } from "./canvas";
 import { ExportMenu } from "./export-menu";
@@ -253,7 +254,7 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
           {onTryOn && (
             <button
               type="button"
-              className={ui.buttonGhost}
+              className={ui.buttonAccentSm}
               onClick={() => onTryOn(doc)}
               disabled={errors.length > 0 || !doc.pieces.some((p) => p.placement)}
               title={
@@ -264,6 +265,7 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
                     : "Ver o molde costurado no manequim"
               }
             >
+              <ModuleIcon name="prova" className="size-4" />
               Provar
             </button>
           )}

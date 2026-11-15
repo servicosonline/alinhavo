@@ -39,13 +39,22 @@ export function BrandSymbol({
 }
 
 /** Logo horizontal: símbolo + "alinhavo" em minúsculas na Fraunces macia. */
-export function BrandLogo({ className = "", light = false }: { className?: string; light?: boolean }) {
+export function BrandLogo({
+  className = "",
+  light = false,
+  size = "md",
+}: {
+  className?: string;
+  light?: boolean;
+  /** md: página inicial; sm: barra do app. */
+  size?: "sm" | "md";
+}) {
   return (
-    <span className={`flex items-center gap-2.5 ${className}`} aria-label="Alinhavo" role="img">
-      <BrandSymbol pieces={light ? "var(--papel)" : "var(--tinta)"} />
+    <span className={`flex items-center ${size === "sm" ? "gap-2" : "gap-2.5"} ${className}`} aria-label="Alinhavo" role="img">
+      <BrandSymbol className={size === "sm" ? "size-7" : "size-8"} pieces={light ? "var(--papel)" : "var(--tinta)"} />
       <span
         aria-hidden="true"
-        className={`font-display text-[1.7rem] leading-none font-semibold tracking-[-0.035em] ${light ? "text-papel" : ""}`}
+        className={`font-display leading-none font-semibold tracking-[-0.035em] ${size === "sm" ? "text-[1.45rem]" : "text-[1.7rem]"} ${light ? "text-papel" : ""}`}
       >
         alinhavo
       </span>

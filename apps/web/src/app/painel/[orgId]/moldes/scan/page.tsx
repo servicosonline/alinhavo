@@ -1,7 +1,6 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
-import { Loading, NotConfigured } from "@/components/page-shell";
+import { Loading, NotConfigured, PageHeader } from "@/components/page-shell";
 import { ScanStudio } from "@/components/scan/scan-studio";
 import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
@@ -33,13 +32,11 @@ async function Scan({ params }: { params: Params }) {
 
   return (
     <div className="space-y-6">
-      <div>
-        <Link href={back} className="text-sm text-tinta-suave hover:text-tinta">
-          ← Moldes
-        </Link>
-        <h1 className={`mt-2 ${ui.h1}`}>Escanear molde de papel</h1>
-        <p className={`mt-1 ${ui.muted}`}>A foto é lida no seu navegador; só o molde pronto vai para o servidor.</p>
-      </div>
+      <PageHeader
+        trail={[{ label: "Moldes", href: back }, { label: "Scan" }]}
+        title="Escanear molde de papel"
+        description="Fotografe o molde ao lado da folha de marcadores. A foto é lida no seu navegador; só o molde pronto vai para o servidor."
+      />
       {canEditPatterns(role) ? (
         <ScanStudio mode={{ kind: "panel", orgId }} />
       ) : (

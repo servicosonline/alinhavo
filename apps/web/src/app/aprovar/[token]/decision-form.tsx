@@ -23,8 +23,8 @@ export function DecisionForm({ token }: { token: string }) {
   return (
     <form action={action} className="space-y-4" data-decision-form>
       <fieldset>
-        <legend className={ui.label}>Sua resposta</legend>
-        <div className="mt-1 grid grid-cols-2 gap-2">
+        <legend className="sr-only">Sua resposta</legend>
+        <div className="grid grid-cols-2 gap-2">
           {(
             [
               ["aprovado", "Aprovar"],
@@ -33,7 +33,7 @@ export function DecisionForm({ token }: { token: string }) {
           ).map(([value, label]) => (
             <label
               key={value}
-              className={`flex cursor-pointer items-center justify-center gap-2 rounded-md border px-3 py-2 text-sm ${status === value ? "border-tinta bg-tinta text-papel" : "border-tinta/20 hover:bg-papel-escuro"}`}
+              className={`flex cursor-pointer items-center justify-center gap-2 rounded-[10px] border-[1.5px] px-3 py-3 text-sm font-medium transition has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-costura ${status === value ? "border-tinta bg-tinta text-papel" : "border-tinta/20 text-tinta hover:border-tinta"}`}
             >
               <input
                 type="radio"
@@ -84,7 +84,9 @@ export function DecisionForm({ token }: { token: string }) {
           {state.error}
         </p>
       )}
-      <SubmitButton pendingText="Enviando…">{status === "aprovado" ? "Enviar aprovação" : "Enviar pedido de ajustes"}</SubmitButton>
+      <SubmitButton block variant={status === "aprovado" ? "accent" : "primary"} pendingText="Enviando…">
+        {status === "aprovado" ? "Enviar aprovação" : "Enviar pedido de ajustes"}
+      </SubmitButton>
     </form>
   );
 }

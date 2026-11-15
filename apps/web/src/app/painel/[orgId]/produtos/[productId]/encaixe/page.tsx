@@ -7,7 +7,7 @@ import { EncaixeStudio } from "@/components/encaixe/encaixe-studio";
 import { MarkerDownloads } from "@/components/encaixe/marker-downloads";
 import { MarkerView } from "@/components/encaixe/marker-view";
 import { fileSlug } from "@/lib/file-slug";
-import { Loading, NotConfigured } from "@/components/page-shell";
+import { Loading, NotConfigured, PageHeader } from "@/components/page-shell";
 import { SubmitButton } from "@/components/submit-button";
 import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
@@ -88,14 +88,18 @@ async function Encaixe({ params, searchParams }: Pick<Props, "params" | "searchP
   const sizesFor = (demand: Record<string, number>) => [...gradeSizes, ...Object.keys(demand).filter((s) => !gradeSizes.includes(s))];
 
   return (
-    <div className="space-y-6">
-      <div>
-        <Link href={productHref} className="text-sm text-tinta-suave hover:text-tinta">
-          ← {p.reference ? `${p.reference} · ` : ""}
-          {p.name}
-        </Link>
-        <h1 className={`mt-2 ${ui.h1}`}>Encaixe</h1>
-        <p className={`mt-1 ${ui.muted}`}>
+    <div className="space-y-6" data-largura="tela">
+      <div className="space-y-2">
+        <PageHeader
+          trail={[
+            { label: "Coleções", href: `/painel/${orgId}/colecoes` },
+            { label: p.reference ? `${p.reference} · ${p.name}` : p.name, href: productHref },
+            { label: "Encaixe" },
+          ]}
+          title="Encaixe"
+          stitch={false}
+        />
+        <p className={ui.muted}>
           {pattern ? (
             <>
               Molde {pattern.name}, versão {pattern.current_version}.{" "}

@@ -59,7 +59,7 @@ export function MeasurementGrid({
 
   return (
     <div className="space-y-3">
-      <div className="overflow-x-auto rounded-lg border border-tinta/15 bg-white/70">
+      <div className="overflow-x-auto rounded-2xl border border-tinta/10 bg-white">
         <table className="w-full min-w-max text-sm">
           <thead>
             <tr className="border-b border-tinta/10 text-left">

@@ -174,7 +174,7 @@ export function GradeView({ doc, measurementsBySize, fabric, pose, color, view, 
           </p>
         )}
       </div>
-      <div className="overflow-x-auto rounded-lg border border-tinta/15 bg-white/70">
+      <div className="overflow-x-auto rounded-2xl border border-tinta/10 bg-white">
         <table className="w-full text-left text-xs" data-grade-table>
           <caption className="px-3 pt-2 text-left text-tinta-suave" aria-live="polite">
             {done === rows.length && rows.length > 0

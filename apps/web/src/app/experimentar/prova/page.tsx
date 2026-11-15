@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { DemoHeader } from "@/components/demo-header";
+import { Trail } from "@/components/page-shell";
 import { ProvaDemo } from "./prova-demo";
 
 export const metadata: Metadata = {
@@ -9,21 +11,20 @@ export const metadata: Metadata = {
 
 export default function ProvaPage() {
   return (
-    <main className="flex flex-1 flex-col bg-papel">
-      <div className="mx-auto w-full max-w-7xl flex-1 px-4 py-4 sm:px-6">
-        <header className="mb-3 flex flex-wrap items-center justify-between gap-4">
-          <div className="flex items-baseline gap-3">
-            <Link href="/" className="font-display text-xl font-semibold tracking-tight">
-              Alinhavo
-            </Link>
-            <h1 className="text-sm text-tinta-suave">Prova 3D</h1>
+    <div className="flex flex-1 flex-col bg-papel">
+      <DemoHeader current="prova" />
+      <main className="mx-auto w-full max-w-[90rem] flex-1 px-4 py-5 sm:px-6">
+        <div className="mb-3 flex flex-wrap items-end justify-between gap-3">
+          <div className="space-y-1">
+            <Trail items={[{ label: "Molde", href: "/experimentar" }, { label: "Prova 3D" }]} />
+            <h1 className="font-display text-2xl font-semibold tracking-tight">Prova 3D</h1>
           </div>
           <Link href="/experimentar" className="text-sm text-tinta-suave hover:text-tinta">
-            ← Voltar ao editor
+            Voltar ao editor
           </Link>
-        </header>
+        </div>
         <ProvaDemo />
-      </div>
-    </main>
+      </main>
+    </div>
   );
 }
