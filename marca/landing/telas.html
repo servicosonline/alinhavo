@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Alinhavo · Telas-chave da página inicial</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,300..800,0..100,0..1&family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&display=block" rel="stylesheet">
+<style>
+:root{--papel:#F5EFE3;--cru:#E8DECB;--tinta:#1D1B18;--grafite:#5C564C;--linha:#C43A26;--giz:#2B5C9B;--fita:#EDB92E;
+  --display:"Fraunces",Georgia,serif;--sans:"Geist",system-ui,sans-serif;--mono:"Geist Mono",ui-monospace,monospace}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#cfc7b8;font-family:var(--sans);color:var(--tinta);-webkit-font-smoothing:antialiased}
+.tela{width:1440px;height:900px;background:var(--papel);position:relative;overflow:hidden;margin:0 auto 40px}
+body.uma{background:var(--papel)} body.uma .tela{margin:0} body.uma .tela:not(.ativa){display:none!important}
+.mm{background-image:linear-gradient(to right,rgb(43 92 155/.07) 1px,transparent 1px),linear-gradient(to bottom,rgb(43 92 155/.07) 1px,transparent 1px);background-size:24px 24px}
+.disp{font-family:var(--display);font-variation-settings:"SOFT" 100,"WONK" 0;letter-spacing:-.025em;font-weight:560}
+.mono{font-family:var(--mono)}
+.rotulo{font-family:var(--mono);font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--grafite)}
+.alinhavo{display:block;height:4px;border-radius:2px;background:repeating-linear-gradient(90deg,var(--linha) 0 16px,transparent 16px 28px)}
+.marca{display:flex;align-items:center;gap:10px}
+.marca svg{width:32px;height:32px}
+.marca span{font-family:var(--display);font-variation-settings:"SOFT" 100;font-weight:600;font-size:27px;letter-spacing:-.035em;line-height:1}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 22px;border-radius:10px;font-size:16px;font-weight:500}
+.btn.prim{background:var(--linha);color:#fff}
+.btn.sec{border:1.5px solid var(--tinta)}
+nav{position:absolute;top:0;left:0;right:0;height:84px;display:flex;align-items:center;padding:0 72px;gap:36px;font-size:15px}
+nav .links{margin-left:auto;display:flex;gap:30px;color:var(--grafite)}
+nav .entrar{border:1.5px solid rgba(29,27,24,.25);padding:9px 16px;border-radius:9px}
+/* notebook genérico */
+.notebook{position:absolute}
+.notebook .tampa{background:#1b1a18;border-radius:18px 18px 6px 6px;padding:14px 14px 18px;box-shadow:0 40px 80px -30px rgba(29,27,24,.45)}
+.notebook .tampa::before{content:"";display:block;width:6px;height:6px;border-radius:50%;background:#3a3834;margin:-6px auto 6px}
+.notebook video,.notebook img.tela-app{display:block;width:100%;aspect-ratio:16/10;border-radius:4px;object-fit:cover;background:#F5EFE3}
+.notebook .base{height:16px;margin:0 -6%;background:linear-gradient(#d8d0c2,#b9b0a1);border-radius:0 0 14px 14px;position:relative}
+.notebook .base::after{content:"";position:absolute;left:50%;top:0;transform:translateX(-50%);width:16%;height:6px;background:#a69d8e;border-radius:0 0 8px 8px}
+/* celular genérico */
+.celular{position:absolute;width:340px;height:700px;background:#1b1a18;border-radius:52px;padding:12px;box-shadow:0 40px 80px -30px rgba(29,27,24,.5)}
+.celular .vidro{width:100%;height:100%;background:var(--papel);border-radius:42px;overflow:hidden;position:relative}
+.celular .ilha{position:absolute;top:12px;left:50%;transform:translateX(-50%);width:96px;height:28px;background:#1b1a18;border-radius:20px;z-index:2}
+.cel-conteudo{padding:58px 20px 20px;font-size:13px}
+.campo{border:1px solid rgba(29,27,24,.2);border-radius:7px;background:#fff;padding:9px 10px;font-size:13px}
+.card{background:#fff;border:1px solid rgba(29,27,24,.1);border-radius:14px}
+input[type=range]{width:100%;accent-color:var(--linha)}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute"><defs>
+  <mask id="m-corte" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100"><rect width="100" height="100" fill="#fff"/><path d="M38 0 C36 34 66 52 62 100" fill="none" stroke="#000" stroke-width="8"/><path d="M46.6 42.4 L40.3 49.5 L49.9 50.1 Z M51.6 39.4 L61.2 40.0 L54.9 47.1 Z" fill="#000"/></mask>
+  <symbol id="s" viewBox="0 0 100 100"><rect x="6" y="6" width="88" height="88" rx="22" fill="var(--sf,#1D1B18)" mask="url(#m-corte)"/><path d="M39.04 14.38 C43.32 35.54 58.43 52.25 61.73 80.27" pathLength="100" fill="none" stroke="var(--sl,#C43A26)" stroke-width="4.4" stroke-linecap="round" stroke-dasharray="9.52 8.57"/></symbol>
+</defs></svg>
+
+<!-- 1 · ABERTURA -->
+<section class="tela mm">
+  <nav><div class="marca"><svg><use href="#s"/></svg><span>alinhavo</span></div>
+    <div class="links"><span>Como funciona</span><span>Calculadora</span><span>Preço</span><span>Perguntas</span></div>
+    <span class="entrar">Entrar</span></nav>
+  <div style="position:absolute;left:72px;top:190px;width:520px">
+    <p class="rotulo" style="color:var(--linha)">Molde · Prova 3D · Encaixe</p>
+    <h1 class="disp" style="font-size:92px;line-height:.95;margin-top:22px">Prove antes<br>de cortar.</h1>
+    <span class="alinhavo" style="width:190px;margin-top:30px"></span>
+    <p style="font-size:20px;line-height:1.5;color:var(--grafite);margin-top:26px">Desenhe o molde, vista no corpo em 3D e veja onde aperta. O ajuste feito na prova volta para o molde. Tudo no navegador.</p>
+    <div style="display:flex;gap:12px;margin-top:34px"><span class="btn prim">Experimentar sem cadastro →</span><span class="btn sec">Ver o preço</span></div>
+    <p class="mono" style="font-size:13px;color:var(--grafite);margin-top:18px">Sem instalar · 1 molde grátis para sempre · 15 dias com tudo</p>
+  </div>
+  <div class="notebook" style="left:650px;top:150px;width:740px">
+    <div class="tampa"><video class="tela-app" src="../../apps/web/public/landing/prova-conjunto.mp4" poster="../../apps/web/public/landing/prova-conjunto.jpg" muted loop playsinline></video></div>
+    <div class="base"></div>
+  </div>
+  <p class="mono" style="position:absolute;left:650px;top:650px;font-size:12px;color:var(--grafite)">Tela real do Alinhavo: o conjunto calça + top costurando no corpo, em loop.</p>
+  <div style="position:absolute;left:72px;right:72px;bottom:56px;border-top:1px solid rgba(29,27,24,.15);padding-top:26px;display:flex;align-items:center;gap:44px;font-size:15px;color:var(--grafite)">
+    <span class="rotulo" style="font-size:11px">No mesmo arquivo</span>
+    <span><b style="color:var(--tinta)">Molde</b> 2D</span><span><b style="color:var(--linha)">Prova</b> 3D</span><span><b style="color:var(--tinta)">Coleção</b> e ficha</span><span><b style="color:var(--tinta)">Encaixe</b></span><span><b style="color:var(--tinta)">Scan</b> do papel</span>
+    <span style="margin-left:auto" class="mono">Exporta DXF-AAMA e PLT para o seu plotter</span>
+  </div>
+</section>
+
+<!-- 2 · MOMENTO-ASSINATURA -->
+<section class="tela">
+  <div style="position:absolute;left:72px;top:64px;width:780px">
+    <p class="rotulo">O que só o Alinhavo faz</p>
+    <h2 class="disp" style="font-size:54px;line-height:1.02;margin-top:16px">Alongou 4 cm na prova.<br>O molde já sabe.</h2>
+  </div>
+  <p style="position:absolute;left:880px;top:118px;width:480px;font-size:19px;line-height:1.5;color:var(--grafite)">Nos outros programas, o ajuste feito no 3D tem que ser medido e redesenhado no molde à mão. Aqui o 2D e o 3D são o mesmo arquivo: mexeu na prova, nasce a versão nova do molde.</p>
+  <div class="card mm" style="position:absolute;left:72px;top:300px;width:560px;height:520px;overflow:hidden;background-color:#fff">
+    <img src="../../apps/web/public/landing/molde-conjunto.png" style="width:100%;margin-top:-10px">
+    <span class="mono" style="position:absolute;left:18px;bottom:14px;font-size:12px;color:var(--grafite)">Molde · v1 → <b style="color:var(--linha)">v2</b></span>
+  </div>
+  <div class="card" style="position:absolute;left:808px;top:300px;width:400px;height:520px;overflow:hidden;background:#F5EFE3">
+    <img src="../../apps/web/public/landing/captura-1.jpg" style="width:100%;height:100%;object-fit:cover">
+    <span class="mono" style="position:absolute;left:14px;bottom:12px;font-size:12px;color:var(--grafite);background:rgba(255,255,255,.85);padding:4px 8px;border-radius:6px">Prova 3D · M · jeans</span>
+  </div>
+  <svg viewBox="0 0 1440 900" style="position:absolute;inset:0;pointer-events:none">
+    <path d="M560 600 C 660 660, 720 660, 800 600" fill="none" stroke="#C43A26" stroke-width="4" stroke-linecap="round" stroke-dasharray="16 12"/>
+    <circle cx="560" cy="600" r="7" fill="#C43A26"/><circle cx="800" cy="600" r="7" fill="#C43A26"/>
+    <text x="680" y="680" text-anchor="middle" font-family="Geist Mono" font-size="13" fill="#C43A26">molde → prova</text>
+    <path d="M800 420 C 720 360, 660 360, 560 420" fill="none" stroke="#2B5C9B" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 8"/>
+    <circle cx="560" cy="420" r="6" fill="#2B5C9B"/><circle cx="800" cy="420" r="6" fill="#2B5C9B"/>
+    <text x="680" y="350" text-anchor="middle" font-family="Geist Mono" font-size="13" fill="#2B5C9B">ajuste → molde v2</text>
+  </svg>
+  <div class="card" style="position:absolute;left:1236px;top:430px;width:170px;padding:16px">
+    <p class="rotulo" style="font-size:11px">Ajuste na prova</p>
+    <p class="disp" style="font-size:30px;margin-top:6px;color:var(--linha)">+4,0 cm</p>
+    <p style="font-size:13px;color:var(--grafite);margin-top:4px">na barra da calça</p>
+    <span style="display:block;margin-top:12px;background:var(--tinta);color:var(--papel);border-radius:8px;padding:8px;text-align:center;font-size:13px">Salvar versão 2</span>
+  </div>
+  <p class="mono" style="position:absolute;left:640px;top:858px;font-size:12px;color:var(--grafite)">Ao rolar, a linha tracejada "costura" o molde até a prova, e o ajuste volta pelo azul.</p>
+</section>
+
+<!-- 3 · A CLIENTE APROVA -->
+<section class="tela" style="background:var(--cru)">
+  <div style="position:absolute;left:72px;top:170px;width:520px">
+    <p class="rotulo">Aprovação por link</p>
+    <h2 class="disp" style="font-size:64px;line-height:1;margin-top:18px">“Me manda como fica no corpo.”</h2>
+    <span class="alinhavo" style="width:160px;margin-top:28px"></span>
+    <p style="font-size:19px;line-height:1.5;color:var(--grafite);margin-top:24px">Você manda um link. A cliente vê a peça vestida de frente, costas e lado, e aprova ou pede ajuste do celular. Sem conta, sem app, sem PDF perdido no WhatsApp.</p>
+    <ul style="list-style:none;margin-top:26px;display:grid;gap:10px;font-size:16px">
+      <li>✓ &nbsp;O link vence em 7, 14 ou 30 dias</li><li>✓ &nbsp;Pedido de ajuste já chega escrito</li><li>✓ &nbsp;A resposta aparece no produto, para toda a equipe</li>
+    </ul>
+  </div>
+  <div class="celular" style="left:700px;top:100px">
+    <div class="vidro"><div class="ilha"></div>
+      <div class="cel-conteudo">
+        <p style="font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--grafite)">Aprovação de protótipo</p>
+        <p class="disp" style="font-size:24px;margin-top:4px">Conjunto calça + top</p>
+        <p style="font-size:11.5px;color:var(--grafite);margin-top:3px">Versão 2 · M · Jeans · Em pé · vale até 28/11/2026</p>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:12px">
+          <div><img src="../../apps/web/public/landing/captura-1.jpg" style="width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:6px;border:1px solid rgba(29,27,24,.15)"><p style="font-size:10px;text-align:center;color:var(--grafite)">Frente</p></div>
+          <div><img src="../../apps/web/public/landing/captura-2.jpg" style="width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:6px;border:1px solid rgba(29,27,24,.15)"><p style="font-size:10px;text-align:center;color:var(--grafite)">Costas</p></div>
+          <div><img src="../../apps/web/public/landing/captura-3.jpg" style="width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:6px;border:1px solid rgba(29,27,24,.15)"><p style="font-size:10px;text-align:center;color:var(--grafite)">Lado</p></div>
+        </div>
+        <div class="card" style="margin-top:12px;padding:12px">
+          <p style="font-size:12px;font-weight:500">Sua resposta</p>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:6px"><span style="background:var(--tinta);color:var(--papel);border-radius:6px;padding:8px;text-align:center">Aprovar</span><span style="border:1px solid rgba(29,27,24,.2);border-radius:6px;padding:8px;text-align:center">Pedir ajustes</span></div>
+          <p style="font-size:12px;font-weight:500;margin-top:10px">Seu nome</p><div class="campo" style="margin-top:4px">Ana</div>
+          <p style="font-size:12px;font-weight:500;margin-top:10px">Comentário (opcional)</p><div class="campo" style="margin-top:4px;height:44px;color:var(--grafite)">Ficou ótimo, pode cortar o piloto.</div>
+          <span style="display:block;margin-top:10px;background:var(--tinta);color:var(--papel);border-radius:7px;padding:9px;text-align:center;font-weight:500">Enviar aprovação</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card" style="position:absolute;left:1090px;top:330px;width:290px;padding:18px;box-shadow:0 20px 40px -20px rgba(0,0,0,.3)">
+    <p class="rotulo" style="font-size:11px">No seu painel · agora</p>
+    <p style="font-size:16px;font-weight:600;margin-top:8px">Aprovado</p>
+    <p style="font-size:14px;color:var(--grafite)">Respondido por Ana em 14/11/2026.</p>
+    <p style="font-size:14px;margin-top:6px">“Ficou ótimo, pode cortar o piloto.”</p>
+    <p class="mono" style="font-size:11px;color:var(--linha);margin-top:10px">status do produto → aprovado</p>
+  </div>
+  <p class="mono" style="position:absolute;left:700px;top:820px;font-size:12px;color:var(--grafite)">Réplica fiel da página /aprovar (mesmos textos), com as capturas reais da Prova. Nome e data de exemplo.</p>
+</section>
+
+<!-- 4 · CALCULADORA -->
+<section class="tela mm">
+  <div style="position:absolute;left:72px;top:72px;width:700px">
+    <p class="rotulo">Faça a conta com os seus números</p>
+    <h2 class="disp" style="font-size:52px;line-height:1;margin-top:18px">Quanto custa um piloto a mais?</h2>
+  </div>
+  <p style="position:absolute;left:880px;top:100px;width:480px;font-size:17px;line-height:1.5;color:var(--grafite)">Não prometemos porcentagem mágica. Você diz quantos pilotos corta e quantos a prova 3D evitaria; a conta aparece inteira, sem letra miúda.</p>
+  <div class="card" style="position:absolute;left:72px;top:250px;width:620px;padding:30px 34px">
+    <p class="rotulo" style="font-size:11px;color:var(--linha)">Valores de exemplo · troque pelos seus</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px 26px;margin-top:20px">
+      <label style="font-size:14px">Pilotos cortados por mês<div class="campo mono" style="margin-top:6px">8</div></label>
+      <label style="font-size:14px">Tecido por piloto<div class="campo mono" style="margin-top:6px">1,8 m</div></label>
+      <label style="font-size:14px">Preço do metro<div class="campo mono" style="margin-top:6px">R$ 32,00</div></label>
+      <label style="font-size:14px">Horas por piloto (corte e costura)<div class="campo mono" style="margin-top:6px">6 h</div></label>
+      <label style="font-size:14px">Valor da hora<div class="campo mono" style="margin-top:6px">R$ 25,00</div></label>
+      <div></div>
+    </div>
+    <div style="margin-top:24px">
+      <div style="display:flex;justify-content:space-between;font-size:14px"><span>Quantos desses a prova 3D evitaria? <span style="color:var(--grafite)">(sua estimativa)</span></span><b class="mono">4 de 8</b></div>
+      <input type="range" min="0" max="8" value="4" style="margin-top:10px">
+    </div>
+  </div>
+  <div style="position:absolute;left:740px;top:250px;width:628px;background:var(--tinta);color:var(--papel);border-radius:14px;padding:30px 34px">
+    <p class="rotulo" style="font-size:11px;color:#b8afa1">Por mês</p>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:14px">
+      <div><p class="disp" style="font-size:46px">7,2 m</p><p style="font-size:14px;opacity:.75">de tecido</p></div>
+      <div><p class="disp" style="font-size:46px">24 h</p><p style="font-size:14px;opacity:.75">de corte e costura</p></div>
+      <div><p class="disp" style="font-size:46px;color:var(--fita)">R$ 830</p><p style="font-size:14px;opacity:.75">que ficam no caixa</p></div>
+    </div>
+    <span class="alinhavo" style="width:130px;margin:22px 0 16px;background:repeating-linear-gradient(90deg,var(--linha) 0 16px,transparent 16px 28px)"></span>
+    <p class="mono" style="font-size:13px;line-height:1.8;opacity:.8">4 pilotos × 1,8 m = 7,2 m × R$ 32 = R$ 230,40<br>4 pilotos × 6 h = 24 h × R$ 25 = R$ 600,00<br>Em 12 meses: <b style="color:var(--fita)">R$ 9.964,80</b></p>
+  </div>
+  <div class="card" style="position:absolute;left:740px;top:548px;width:628px;padding:22px 34px">
+    <p class="rotulo" style="font-size:11px">E no encaixe?</p>
+    <p style="font-size:15px;margin-top:8px">Com <b class="mono">2.000 m</b> de tecido por mês e aproveitamento de <b class="mono">78%</b>, <b>cada ponto a mais</b> de aproveitamento poupa <b class="mono">25 m</b> (<b class="mono">R$ 810</b>) por mês. O Alinhavo mede o seu aproveitamento em cada risco.</p>
+  </div>
+  <p class="mono" style="position:absolute;left:72px;top:820px;font-size:12px;color:var(--grafite)">Todos os números são de exemplo e mudam com o que a pessoa digita. Nenhum é resultado medido em cliente.</p>
+</section>
+
+<script>
+const p=location.hash.slice(1);
+if(p){document.body.classList.add("uma");document.querySelectorAll(".tela")[+p-1]?.classList.add("ativa")}
+</script>
+</body>
+</html>

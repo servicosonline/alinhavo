@@ -27,7 +27,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
+    // suppressHydrationWarning: a página inicial marca o <html> antes de pintar (carregamento só na 1ª visita).
     <html
+      suppressHydrationWarning
       lang="pt-BR"
       className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} h-full antialiased`}
     >

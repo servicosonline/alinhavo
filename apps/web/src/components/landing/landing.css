@@ -1,0 +1,430 @@
+/* Página inicial: o que o Tailwind não cobre bem (aparelhos, alinhavo animado, movimento reduzido). */
+
+/* Notebook genérico (sem desenho de marca de terceiros). */
+.lp-notebook {
+  position: relative;
+}
+.lp-lid {
+  background: #1b1a18;
+  border-radius: 18px 18px 6px 6px;
+  padding: 14px 14px 18px;
+  box-shadow: 0 40px 80px -30px rgb(29 27 24 / 0.45);
+}
+.lp-lid::before {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  margin: -6px auto 6px;
+  border-radius: 50%;
+  background: #3a3834;
+}
+.lp-screen {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  border-radius: 4px;
+  object-fit: cover;
+  background: var(--papel);
+}
+.lp-base {
+  position: relative;
+  height: 16px;
+  margin: 0 -6%;
+  border-radius: 0 0 14px 14px;
+  background: linear-gradient(#d8d0c2, #b9b0a1);
+}
+.lp-base::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 16%;
+  height: 6px;
+  transform: translateX(-50%);
+  border-radius: 0 0 8px 8px;
+  background: #a69d8e;
+}
+
+/* Celular genérico. */
+.lp-phone {
+  position: relative;
+  width: 100%;
+  max-width: 340px;
+  aspect-ratio: 340 / 700;
+  padding: 12px;
+  border-radius: 52px;
+  background: #1b1a18;
+  box-shadow: 0 40px 80px -30px rgb(29 27 24 / 0.5);
+}
+.lp-glass {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 42px;
+  background: var(--papel);
+}
+.lp-island {
+  position: absolute;
+  z-index: 2;
+  top: 12px;
+  left: 50%;
+  width: 96px;
+  height: 28px;
+  transform: translateX(-50%);
+  border-radius: 20px;
+  background: #1b1a18;
+}
+
+/* Vídeo da Prova: com movimento reduzido, fica a imagem parada. */
+.lp-still {
+  display: none;
+}
+/* No celular também fica a imagem: poupa dados e o vídeo de 1280 px nem se lê numa tela pequena. */
+@media (prefers-reduced-motion: reduce), (max-width: 639px) {
+  .lp-motion {
+    display: none;
+  }
+  .lp-still {
+    display: block;
+  }
+}
+
+/* O alinhavo que "costura" o molde até a prova enquanto a seção passa pela tela.
+   Sem suporte a animação por rolagem, ou com movimento reduzido, as linhas ficam inteiras. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .lp-sew,
+    .lp-sew-back {
+      animation: linear both;
+      animation-timeline: view();
+    }
+    .lp-sew {
+      animation-name: lp-sew;
+      animation-range: entry 40% cover 50%;
+    }
+    .lp-sew-back {
+      animation-name: lp-sew-back;
+      animation-range: cover 45% cover 65%;
+    }
+  }
+}
+@keyframes lp-sew {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+@keyframes lp-sew-back {
+  from {
+    clip-path: inset(0 0 0 100%);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+/* ===================== Versão em parallax (components/landing/motion.tsx) ===================== */
+
+/* Carregamento: as duas partes do símbolo se juntam, o alinhavo fecha e a fita conta até 100 cm.
+   Só na primeira visita da sessão (classe alv-sem-intro no <html>) e nunca com movimento reduzido. */
+@property --cm {
+  syntax: "<integer>";
+  inherits: false;
+  initial-value: 0;
+}
+.lp-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 18px;
+  background: var(--papel);
+  pointer-events: none;
+  animation: lp-loader-sai 0.45s ease 1.35s both;
+}
+.lp-loader-simbolo {
+  width: 92px;
+  height: 92px;
+}
+.lp-loader-esq,
+.lp-loader-dir {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+.lp-loader-esq {
+  animation: lp-junta-esq 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) 0.1s both;
+}
+.lp-loader-dir {
+  animation: lp-junta-dir 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) 0.1s both;
+}
+.lp-loader-ponto {
+  animation: lp-revela 0.5s ease-out 0.75s both;
+}
+.lp-loader-fita {
+  position: relative;
+  width: min(240px, 60vw);
+  height: 16px;
+  overflow: hidden;
+  border: 2px solid var(--tinta);
+  border-radius: 3px;
+  background: var(--papel-escuro);
+}
+.lp-loader-fita::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    repeating-linear-gradient(90deg, var(--tinta) 0 1.5px, transparent 1.5px 8px) 0 0 / 100% 45% no-repeat,
+    var(--fita);
+  transform-origin: left;
+  animation: lp-fita 1.15s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+.lp-loader-cm {
+  counter-reset: cm var(--cm);
+  animation: lp-cm 1.15s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+.lp-loader-cm::after {
+  content: counter(cm) " cm";
+}
+.alv-sem-intro .lp-loader {
+  display: none;
+}
+@keyframes lp-loader-sai {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes lp-junta-esq {
+  from {
+    opacity: 0;
+    transform: translateX(-28px) rotate(-10deg);
+  }
+}
+@keyframes lp-junta-dir {
+  from {
+    opacity: 0;
+    transform: translateX(28px) rotate(10deg);
+  }
+}
+@keyframes lp-revela {
+  from {
+    clip-path: inset(0 0 100% 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+@keyframes lp-fita {
+  from {
+    transform: scaleX(0);
+  }
+}
+@keyframes lp-cm {
+  to {
+    --cm: 100;
+  }
+}
+
+/* Entrada da abertura, logo depois do carregamento (ou na hora, se ele não aparece). */
+.lp-entra {
+  animation: lp-entra 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  animation-delay: calc(var(--intro, 1.3s) + var(--d, 0s));
+}
+.alv-sem-intro {
+  --intro: 0s;
+}
+@keyframes lp-entra {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+}
+
+/* Os mockups flutuando: cada um no seu ritmo (--f), inclinação (--a) e fase (--fd). */
+.lp-flutua {
+  animation: lp-flutua var(--f, 6s) ease-in-out var(--fd, 0s) infinite alternate;
+  will-change: transform;
+}
+@keyframes lp-flutua {
+  from {
+    transform: translateY(-9px) rotate(calc(var(--a, 0deg) * -1));
+  }
+  to {
+    transform: translateY(11px) rotate(var(--a, 0deg));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lp-loader {
+    display: none;
+  }
+  .lp-entra,
+  .lp-flutua {
+    animation: none;
+  }
+}
+
+/* A fita métrica do topo: quanto da página já foi lido. */
+.lp-progresso {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 60;
+  height: 7px;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-bottom: 1px solid var(--tinta);
+  background:
+    repeating-linear-gradient(90deg, var(--tinta) 0 1px, transparent 1px 10px) 0 0 / 100% 55% no-repeat,
+    var(--fita);
+  pointer-events: none;
+}
+
+/* Celular pequeno da abertura. */
+.lp-phone-mini {
+  aspect-ratio: 9 / 18.5;
+  padding: 6px;
+  border-radius: 26px;
+  background: #1b1a18;
+  box-shadow: 0 30px 50px -20px rgb(29 27 24 / 0.55);
+}
+.lp-phone-mini > div {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  background: var(--papel);
+}
+
+/* "piloto" gigante em jeans: sarja em diagonal, pesponto amarelo no contorno. */
+.lp-gigante {
+  font-size: clamp(5.5rem, 31vw, 30rem);
+  font-weight: 650;
+  line-height: 0.8;
+  letter-spacing: -0.05em;
+  white-space: nowrap;
+  color: transparent;
+  background:
+    repeating-linear-gradient(-35deg, rgb(245 239 227 / 0.16) 0 2px, transparent 2px 7px),
+    linear-gradient(100deg, rgb(29 27 24 / 0.35), transparent 45%, rgb(245 239 227 / 0.14)),
+    var(--costura);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-stroke: 1.5px var(--fita);
+  transform-origin: left center;
+}
+
+/* Grade clara sobre fundo escuro (giz e tinta). */
+.lp-grade-clara {
+  background-image:
+    linear-gradient(to right, rgb(245 239 227 / 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(245 239 227 / 0.07) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+.alinhavo-fita {
+  background: repeating-linear-gradient(90deg, var(--fita) 0 16px, transparent 16px 28px);
+}
+
+/* O varal: no celular, a pessoa arrasta; em tela larga com movimento, a rolagem leva de lado. */
+.lp-varal-janela {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 1.25rem;
+  scrollbar-width: none;
+}
+.lp-varal-janela::-webkit-scrollbar {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .lp-trilho {
+    padding-left: max(2.5rem, calc((100vw - 80rem) / 2 + 2.5rem));
+    padding-right: 12vw;
+  }
+}
+@media (min-width: 1024px) and (prefers-reduced-motion: no-preference) {
+  .lp-varal-janela {
+    overflow: visible;
+    scroll-snap-type: none;
+  }
+}
+.lp-varal-linha {
+  position: absolute;
+  inset: 22px 0 auto;
+  height: 4px;
+  border-radius: 2px;
+  background: repeating-linear-gradient(90deg, var(--linha) 0 16px, transparent 16px 28px);
+}
+.lp-etiqueta {
+  position: relative;
+  flex: none;
+  width: min(78vw, 300px);
+  min-height: 260px;
+  padding: 26px 26px 30px;
+  border: 2px solid var(--tinta);
+  border-radius: 6px 6px 18px 18px;
+  box-shadow: 0 26px 40px -24px rgb(29 27 24 / 0.55);
+  transform-origin: 50% -34px;
+  scroll-snap-align: start;
+}
+@media (min-width: 1024px) {
+  .lp-etiqueta {
+    width: 340px;
+    min-height: 300px;
+  }
+}
+/* O prendedor que segura a etiqueta na linha. */
+.lp-prendedor {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  width: 14px;
+  height: 46px;
+  transform: translateX(-50%);
+  border-radius: 4px;
+  background: var(--tinta);
+}
+.lp-tag-papel {
+  background: var(--papel);
+  color: var(--tinta);
+}
+.lp-tag-linha {
+  background: var(--linha);
+  color: var(--papel);
+}
+.lp-tag-fita {
+  background: var(--fita);
+  color: var(--tinta);
+}
+.lp-tag-giz {
+  background: var(--costura);
+  color: var(--papel);
+}
+.lp-tag-tinta {
+  background: var(--tinta);
+  color: var(--papel);
+}
+
+/* Fotos da Prova que passam atrás do celular da aprovação. */
+.lp-foto-voo {
+  border: 6px solid var(--papel);
+  border-radius: 10px;
+  box-shadow: 0 30px 50px -25px rgb(0 0 0 / 0.55);
+}
+
+/* Marca-texto amarelo (a rolagem passa o marcador). */
+.lp-marca {
+  padding: 0 0.08em;
+  background: linear-gradient(transparent 60%, var(--fita) 60%, var(--fita) 92%, transparent 92%) no-repeat 0 0 / 100% 100%;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.lp-manequim {
+  transform-style: preserve-3d;
+}
