@@ -55,11 +55,12 @@ jobs:
       - run: supabase db push --remote --yes
       # Edge Functions depois do banco (a função usa approval_video_path, criada numa migração).
       # --use-api: o Supabase empacota no servidor (sem Docker no runner).
+      # --yes: como no db push, o CLI 3 pede confirmação e no CI não há terminal.
       # --no-verify-jwt: a função é pública (quem garante é o token da aprovação) e a chave
       # publicável (sb_publishable_) não é JWT. Igual a [functions.aprovacao-video] no config.toml.
       # SUPABASE_URL e SUPABASE_SERVICE_ROLE_KEY o Supabase põe no ambiente da função: nada a configurar.
-      - run: supabase functions deploy aprovacao-video --project-ref "${{ vars.SUPABASE_PROJECT_ID }}" --use-api --no-verify-jwt
+      - run: supabase functions deploy aprovacao-video --project-ref "${{ vars.SUPABASE_PROJECT_ID }}" --use-api --no-verify-jwt --yes
       # Envio dos webhooks: quem chama é o Supabase Cron, com WEBHOOK_DISPATCH_SECRET (a
       # função recusa sem ele); por isso também sem verificação de JWT. O segredo é
       # configurado à mão (docs/07-deploy.md), não pelo CI.
-      - run: supabase functions deploy webhooks-dispatch --project-ref "${{ vars.SUPABASE_PROJECT_ID }}" --use-api --no-verify-jwt
+      - run: supabase functions deploy webhooks-dispatch --project-ref "${{ vars.SUPABASE_PROJECT_ID }}" --use-api --no-verify-jwt --yes
