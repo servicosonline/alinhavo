@@ -7,7 +7,7 @@
  * Até lá, toda migração nova precisa atualizar este arquivo.
  */
 
-type OrgRole = "owner" | "admin" | "modelista" | "estilista" | "leitura";
+export type OrgRole = "owner" | "admin" | "modelista" | "estilista" | "leitura";
 
 type OrgRow = {
   id: string;
@@ -776,6 +776,62 @@ export type Database = {
       production_stage_times: { Args: { p_org_id: string | null }; Returns: StageTimeRow[] };
       platform_orgs: { Args: Record<string, never>; Returns: { id: string; name: string; created_at: string; members: number; products: number }[] };
       am_platform_admin: { Args: Record<string, never>; Returns: boolean };
+      my_platform_role: { Args: Record<string, never>; Returns: "dono" | "suporte" | null };
+      platform_clients: {
+        Args: Record<string, never>;
+        Returns: {
+          id: string;
+          name: string;
+          created_at: string;
+          thumbnail_path: string | null;
+          plan_id: string | null;
+          status: SubscriptionStatus | null;
+          trial_ends_at: string | null;
+          full_seats: number;
+          stylist_seats: number;
+          reader_seats: number;
+          last_activity: string | null;
+          actions_30d: number;
+        }[];
+      };
+      platform_client: { Args: { p_org_id: string }; Returns: unknown };
+      platform_create_invite: { Args: { p_org_id: string; p_email: string; p_role: OrgRole }; Returns: string };
+      platform_set_member_role: { Args: { p_org_id: string; p_user_id: string; p_role: OrgRole }; Returns: undefined };
+      platform_remove_member: { Args: { p_org_id: string; p_user_id: string }; Returns: undefined };
+      platform_set_subscription: {
+        Args: { p_org_id: string; p_status: SubscriptionStatus; p_trial_days?: number | null; p_plan_id?: string | null };
+        Returns: undefined;
+      };
+      platform_admins_list: { Args: Record<string, never>; Returns: { user_id: string; email: string; role: "dono" | "suporte"; created_at: string }[] };
+      platform_add_admin: { Args: { p_email: string; p_role: "dono" | "suporte" }; Returns: undefined };
+      platform_remove_admin: { Args: { p_user_id: string }; Returns: undefined };
+      platform_audit_list: {
+        Args: { p_limit?: number };
+        Returns: {
+          id: number;
+          admin_email: string | null;
+          action: string;
+          org_id: string | null;
+          org_name: string | null;
+          target_email: string | null;
+          meta: Record<string, unknown>;
+          created_at: string;
+        }[];
+      };
+      log_client_error: { Args: { p_path: string; p_message: string; p_digest?: string | null; p_org_id?: string | null }; Returns: undefined };
+      platform_errors: {
+        Args: { p_org_id?: string | null; p_limit?: number };
+        Returns: {
+          id: number;
+          user_email: string | null;
+          org_id: string | null;
+          org_name: string | null;
+          path: string;
+          message: string;
+          digest: string | null;
+          created_at: string;
+        }[];
+      };
       ai_generations_this_month: { Args: { p_org_id: string; p_kind?: AiGenerationKind }; Returns: number };
       create_api_key: { Args: { p_org_id: string; p_name: string }; Returns: { id: string; secret: string; prefix: string }[] };
       revoke_api_key: { Args: { p_id: string }; Returns: undefined };

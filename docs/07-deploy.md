@@ -135,7 +135,7 @@ Para trocar o segredo: atualize os dois (`WEBHOOK_DISPATCH_SECRET` e `vault.upda
 
 ### Superadmin da plataforma
 
-Quem vê o tempo de produção de todas as organizações em `/painel/admin`. Não há botão no app: no *SQL Editor* do Supabase, com o e-mail de quem já tem conta:
+A área `/painel/admin` (clientes, tempo de produção, erros, auditoria e equipe da administração). **Só o primeiro dono entra por SQL**; os ajudantes (Dono ou Suporte) ele adiciona depois pela aba Equipe. No *SQL Editor* do Supabase, com o e-mail de quem já tem conta (o papel padrão é `dono`):
 
 ```sql
 insert into public.platform_admins (user_id)

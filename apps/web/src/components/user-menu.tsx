@@ -15,7 +15,10 @@ export async function UserMenu() {
   const user = await getCurrentUser();
   if (!user) return null;
   const supabase = await createClient();
-  const { data: profile } = await supabase.from("profiles").select("first_name, last_name, avatar_path").eq("user_id", user.id).maybeSingle();
+  const [{ data: profile }, { data: platformRole }] = await Promise.all([
+    supabase.from("profiles").select("first_name, last_name, avatar_path").eq("user_id", user.id).maybeSingle(),
+    supabase.rpc("my_platform_role"),
+  ]);
   const name = displayName(profile, user.email);
 
   return (
@@ -39,6 +42,11 @@ export async function UserMenu() {
         <Link href="/painel" className="block px-4 py-2.5 text-sm hover:bg-papel">
           Minhas organizações
         </Link>
+        {(platformRole === "dono" || platformRole === "suporte") && (
+          <Link href="/painel/admin" className="block border-t border-tinta/10 px-4 py-2.5 text-sm font-medium hover:bg-papel">
+            Superadmin <span className="ml-1 font-mono text-[11px] text-tinta-suave">{platformRole === "dono" ? "dono" : "suporte"}</span>
+          </Link>
+        )}
         <form action={signOut} className="border-t border-tinta/10">
           <button type="submit" className="w-full px-4 py-2.5 text-left text-sm text-linha hover:bg-papel">
             Sair
