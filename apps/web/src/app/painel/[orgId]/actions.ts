@@ -39,7 +39,7 @@ export async function createInvite(orgId: string, _prev: FormState, formData: Fo
     return { error: "Não foi possível criar o convite." };
   }
 
-  revalidatePath(`/painel/${orgId}`);
+  revalidatePath(`/painel/${orgId}`, "layout");
   return {
     ok: `Convite criado para ${email}. Envie o link abaixo (vale por 7 dias).`,
     link: `${await getOrigin()}/convite/${data.token}`,
@@ -55,5 +55,5 @@ export async function cancelInvite(formData: FormData) {
 
   const supabase = await createClient();
   await supabase.from("invites").delete().eq("id", inviteId).eq("org_id", orgId);
-  revalidatePath(`/painel/${orgId}`);
+  revalidatePath(`/painel/${orgId}`, "layout");
 }

@@ -74,3 +74,13 @@ export function readDay(raw: unknown): string | null | undefined {
   const t = Date.parse(`${v}T00:00:00Z`);
   return Number.isNaN(t) || new Date(t).toISOString().slice(0, 10) !== v ? undefined : v;
 }
+
+/**
+ * Prazo de entrega do produto (products.due_on). Entregue = já aprovado ou em produção: aí não há atraso.
+ * Sem prazo: null. Usa as mesmas faixas das etapas (atrasada, vence em breve, no prazo, concluída).
+ */
+export function productDueState(dueOn: string | null, status: ProductStatus, today: string): MilestoneState | null {
+  if (!dueOn) return null;
+  const delivered = PRODUCT_STATUSES.indexOf(status) >= PRODUCT_STATUSES.indexOf("aprovado");
+  return milestoneState(dueOn, delivered ? dueOn : null, today);
+}

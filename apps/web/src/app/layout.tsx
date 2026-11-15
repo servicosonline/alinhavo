@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Fraunces, Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -28,6 +28,8 @@ export const metadata: Metadata = {
   title: "Alinhavo · prove antes de cortar",
   description:
     "Modelagem, prova virtual em 3D e encaixe para confecções, direto no navegador.",
+  // App instalável no iPhone ("Adicionar à Tela de Início"); o resto vem de app/manifest.ts.
+  appleWebApp: { capable: true, title: "Alinhavo", statusBarStyle: "default" },
   openGraph: {
     title: "Alinhavo · prove antes de cortar",
     description: "Desenhe o molde, vista no corpo em 3D e veja onde aperta. Tudo no navegador.",
@@ -36,6 +38,9 @@ export const metadata: Metadata = {
     type: "website",
   },
 };
+
+/** Cor da barra do navegador e da janela do app instalado: o papel da marca. */
+export const viewport: Viewport = { themeColor: "#f5efe3" };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (

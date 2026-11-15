@@ -40,6 +40,12 @@ export function EditorDemo() {
         initialDocument={doc}
         title={current.name}
         subtitle="Exemplo"
+        trail={<span>Demonstração › Molde</span>}
+        rail={[
+          { icon: "moldes", label: "Molde", active: true },
+          { icon: "prova", label: "Prova 3D", href: "/experimentar/prova" },
+          { icon: "scan", label: "Scan", href: "/experimentar/scan" },
+        ]}
         onTryOn={(d) => {
           saveForProva(d);
           router.push("/experimentar/prova");

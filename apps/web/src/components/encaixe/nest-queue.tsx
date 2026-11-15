@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
+import { KanbanBoard } from "@/components/kanban/board";
+import { ViewToggle, useView } from "@/components/kanban/view-toggle";
 import { SubmitButton } from "@/components/submit-button";
 import { ui } from "@/components/ui";
 import {
@@ -62,6 +64,7 @@ const sleep = (ms: number, signal: { stop: boolean }) =>
 export function NestQueue({ orgId, jobs, canProcess }: { orgId: string; jobs: QueueJob[]; canProcess: boolean }) {
   const router = useRouter();
   const [processing, setProcessing] = useState(false);
+  const [view, setView] = useView("fila-encaixes");
   const [current, setCurrent] = useState<Current | null>(null);
   const [note, setNote] = useState<string | null>(null);
 
@@ -168,11 +171,37 @@ export function NestQueue({ orgId, jobs, canProcess }: { orgId: string; jobs: Qu
       )}
 
       <section className={`${ui.card} space-y-3`} aria-labelledby="pedidos" data-section="pedidos">
-        <h2 id="pedidos" className={ui.h2}>
-          Pedidos
-        </h2>
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <h2 id="pedidos" className={ui.h2}>
+            Pedidos
+          </h2>
+          {jobs.length > 0 && <ViewToggle view={view} onChange={setView} />}
+        </div>
         {jobs.length === 0 ? (
           <p className={ui.muted}>Nenhum pedido ainda.</p>
+        ) : view === "quadro" ? (
+          // Só para ver: o status muda pelo processador, não arrastando.
+          <KanbanBoard
+            label="Pedidos por status"
+            columns={[
+              { id: "fila", label: "Na fila" },
+              { id: "rodando", label: "Rodando" },
+              { id: "pronto", label: "Pronto" },
+              { id: "erro", label: "Erro" },
+            ]}
+            items={jobs.map((j) => ({ ...j, column: j.status }))}
+            renderCard={(j) => (
+              <div className="space-y-1">
+                <Link href={`/painel/${orgId}/produtos/${j.productId}/encaixe${j.markerNumber ? `?risco=${j.markerNumber}` : ""}`} className="font-medium underline">
+                  {j.productName}
+                </Link>
+                <p className="text-xs text-tinta-suave">
+                  {formatCm(j.widthMm)} cm · versão {j.version} · {formatDate(j.createdAt)}
+                </p>
+                {j.error && <p className="text-xs text-linha">{j.error}</p>}
+              </div>
+            )}
+          />
         ) : (
           <ul className="divide-y divide-tinta/10 text-sm" data-jobs>
             {jobs.map((j) => (

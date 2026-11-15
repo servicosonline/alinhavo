@@ -5,12 +5,13 @@ import { Loading, NotConfigured, PageHeader } from "@/components/page-shell";
 import { SubmitButton } from "@/components/submit-button";
 import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
-import { PRODUCT_STATUS_LABEL, PRODUCT_STATUSES, suggestApproved } from "@/lib/collection";
+import { formatDay, PRODUCT_STATUS_LABEL, PRODUCT_STATUSES, productDueState, suggestApproved, todayInBrazil } from "@/lib/collection";
 import { isUuid } from "@/lib/ids";
 import { canEditPatterns, canEditProducts, getMyRole } from "@/lib/org-access";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
-import { linkProductPattern, setProductStatus } from "../../colecoes/actions";
+import { linkProductPattern, setProductDue, setProductStatus } from "../../colecoes/actions";
+import { DueChip } from "../../colecoes/[collectionId]/products-view";
 import { deleteTrim, setProductFabric } from "../actions";
 import { DownloadTechPack, GenerateTechPack, TrimForm } from "./tech-pack-parts";
 import { Comments } from "./comments";
@@ -47,7 +48,7 @@ async function Produto({ params }: { params: Params }) {
   const [prodRes, role, patRes] = await Promise.all([
     supabase
       .from("products")
-      .select("id, reference, name, status, pattern_id, fabric_id, collection_id, sales_description, technical_description, collections(name)")
+      .select("id, reference, name, status, pattern_id, fabric_id, collection_id, sales_description, technical_description, due_on, collections(name)")
       .eq("id", productId)
       .eq("org_id", orgId)
       .maybeSingle(),
@@ -108,6 +109,9 @@ async function Produto({ params }: { params: Params }) {
             <span className={ui.tag} data-product-status={p.status}>
               {PRODUCT_STATUS_LABEL[p.status]}
             </span>
+            {p.due_on && (
+              <DueChip due={{ label: formatDay(p.due_on), state: productDueState(p.due_on, p.status, todayInBrazil()) ?? "futura" }} />
+            )}
           </span>
         }
         title={p.name}
@@ -144,6 +148,20 @@ async function Produto({ params }: { params: Params }) {
             </label>
             <SubmitButton variant="ghost" pendingText="…">
               Mudar status
+            </SubmitButton>
+          </form>
+        )}
+        {canEdit && (
+          <form key={`entrega-${p.due_on ?? ""}`} action={setProductDue} className="flex flex-wrap items-end gap-2">
+            <input type="hidden" name="orgId" value={orgId} />
+            <input type="hidden" name="back" value={back} />
+            <input type="hidden" name="productId" value={p.id} />
+            <label className="block">
+              <span className={ui.label}>Data de entrega</span>
+              <input name="due_on" type="date" defaultValue={p.due_on ?? ""} className={ui.input} />
+            </label>
+            <SubmitButton variant="ghost" pendingText="…">
+              Salvar prazo
             </SubmitButton>
           </form>
         )}

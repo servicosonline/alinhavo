@@ -53,17 +53,23 @@ export function CreateCollectionForm({ orgId }: { orgId: string }) {
 export function CreateProductForm({ orgId, collectionId }: { orgId: string; collectionId: string }) {
   const [state, action, pending] = useActionState(createProduct.bind(null, orgId, collectionId), undefined);
   return (
-    <ActionForm action={action} state={state} pending={pending} className="grid gap-3 sm:grid-cols-[1fr_2fr_auto] sm:items-end" data-form="produto">
+    <ActionForm action={action} state={state} pending={pending} className="grid gap-3 sm:grid-cols-2 sm:items-end" data-form="produto">
       <label className="block">
         <span className={ui.label}>Referência</span>
         <input name="reference" maxLength={40} placeholder="Ex.: CAL-001" className={ui.input} />
       </label>
       <label className="block">
+        <span className={ui.label}>Entrega (opcional)</span>
+        <input name="due_on" type="date" className={ui.input} />
+      </label>
+      <label className="block sm:col-span-2">
         <span className={ui.label}>Nome do produto</span>
         <input name="name" required maxLength={120} placeholder="Ex.: Calça pantalona" className={ui.input} />
       </label>
-      <SubmitButton pendingText="Criando…">Adicionar produto</SubmitButton>
-      <div className="sm:col-span-3">
+      <div className="sm:col-span-2">
+        <SubmitButton pendingText="Criando…">Adicionar produto</SubmitButton>
+      </div>
+      <div className="sm:col-span-2">
         <Feedback state={state} />
       </div>
     </ActionForm>

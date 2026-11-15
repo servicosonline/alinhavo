@@ -1,5 +1,6 @@
 import { migratePattern, validatePattern } from "@alinhavo/geometry";
 import Link from "next/link";
+import { LogEvent } from "@/components/log-event";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { Loading, NotConfigured, Trail } from "@/components/page-shell";
@@ -120,6 +121,7 @@ async function Prova({ params }: { params: Params }) {
   return (
     // Como o editor, a Prova usa a largura da tela (data-largura, ver Container).
     <div className="space-y-3" data-largura="tela">
+      <LogEvent orgId={orgId} action="prova_aberta" entityId={pattern.id} />
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div className="space-y-1">
           <Trail

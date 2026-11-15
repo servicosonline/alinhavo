@@ -4,7 +4,7 @@ import type { PatternDocument } from "@alinhavo/geometry";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { saveForProva } from "@/lib/prova/handoff";
-import { PatternEditor, type ChartGrade } from "@/components/editor/pattern-editor";
+import { PatternEditor, type ChartGrade, type EditorRailItem } from "@/components/editor/pattern-editor";
 import { savePatternVersion } from "../actions";
 
 /** Liga o editor ao servidor e acompanha a versão atual (para detectar conflito ao salvar). */
@@ -16,6 +16,9 @@ export function EditorClient({
   initialDocument,
   readOnly,
   chartGrade,
+  trail,
+  rail,
+  approvalHref,
 }: {
   orgId: string;
   patternId: string;
@@ -24,6 +27,9 @@ export function EditorClient({
   initialDocument: PatternDocument;
   readOnly: boolean;
   chartGrade: ChartGrade | null;
+  trail?: React.ReactNode;
+  rail?: EditorRailItem[];
+  approvalHref?: string;
 }) {
   const [version, setVersion] = useState(initialVersion);
   const router = useRouter();
@@ -34,6 +40,9 @@ export function EditorClient({
       subtitle={version === 0 ? "Ainda sem versão salva" : `Versão ${version}`}
       readOnly={readOnly}
       chartGrade={chartGrade}
+      trail={trail}
+      rail={rail}
+      approvalHref={version === 0 ? undefined : approvalHref}
       onTryOn={
         version === 0
           ? undefined // a Prova do painel parte de uma versão salva

@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { SettingsTabs } from "../configuracoes/settings-tabs";
 import { Suspense } from "react";
 import { Loading, NotConfigured, PageHeader } from "@/components/page-shell";
 import { SubmitButton } from "@/components/submit-button";
@@ -56,10 +57,15 @@ async function Api({ params }: { params: PageProps<"/painel/[orgId]/api">["param
   return (
     <div className="space-y-8">
       <PageHeader
-        trail={[{ label: orgRes.data.name, href: `/painel/${orgId}` }, { label: "API" }]}
-        title="API"
-        description="Para o ERP ou outro sistema ler os produtos, as fichas técnicas e os riscos desta organização. Só leitura, 60 pedidos por minuto por chave."
+        trail={[
+          { label: orgRes.data.name, href: `/painel/${orgId}` },
+          { label: "Configurações", href: `/painel/${orgId}/configuracoes` },
+          { label: "API" },
+        ]}
+        title="Configurações"
+        description="API: para o ERP ou outro sistema ler os produtos, as fichas técnicas e os riscos desta organização. Só leitura, 60 pedidos por minuto por chave."
       />
+      <SettingsTabs orgId={orgId} current="api" />
 
       {!canManage ? (
         <p className={ui.muted}>Só donos e admins gerenciam as chaves de API.</p>

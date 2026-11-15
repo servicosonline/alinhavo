@@ -14,7 +14,7 @@ import { formatCm } from "../units";
 /** Modelo da Anthropic usado (o mais capaz da linha padrão; esforço baixo, texto curto). */
 export const AI_TEXT_MODEL = "claude-opus-5-5";
 /** Sugestões por IA por organização por mês (a mesma de private.ai_monthly_limit no banco). */
-export const AI_MONTHLY_LIMIT = 200;
+export const AI_MONTHLY_LIMIT = 50; // igual a private.ai_monthly_limit() (decisão de 15/11/2026)
 /** Limites dos textos (os mesmos do banco). */
 export const SALES_MAX = 2000;
 export const TECHNICAL_MAX = 4000;

@@ -428,3 +428,91 @@
 .lp-manequim {
   transform-style: preserve-3d;
 }
+
+/* Simulador: a agulha pesponta o alinhavo de ponta a ponta enquanto a conta fecha (~1,9 s).
+   O fim da animação da linha avisa o React (onAnimationEnd); sem animação, "Pular" resolve. */
+.lp-costura-linha {
+  clip-path: inset(0 100% 0 0);
+  animation: lp-pesponto 1.9s cubic-bezier(0.45, 0, 0.55, 1) forwards;
+}
+.lp-agulha {
+  transform: translate(20px, 18px);
+  animation: lp-agulha-anda 1.9s cubic-bezier(0.45, 0, 0.55, 1) forwards;
+}
+.lp-agulha-sobe {
+  animation: lp-agulha-sobe 0.16s ease-in-out infinite alternate;
+}
+@keyframes lp-pesponto {
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+@keyframes lp-agulha-anda {
+  to {
+    transform: translate(300px, 18px);
+  }
+}
+@keyframes lp-agulha-sobe {
+  from {
+    transform: translateY(-8px);
+  }
+  to {
+    transform: translateY(8px);
+  }
+}
+
+/* Borda de cima da seção escura, cortada com tesoura de picotar (dentes do papel do hero).
+   Parada, já aparece cortada; a faixa reta (o papel ainda inteiro) só existe enquanto a tesoura passa. */
+.lp-picote {
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: 10;
+  height: 9px;
+  pointer-events: none;
+  background:
+    linear-gradient(135deg, var(--papel) 6px, transparent 0) 0 0 / 12px 12px repeat-x,
+    linear-gradient(225deg, var(--papel) 6px, transparent 0) 0 0 / 12px 12px repeat-x;
+}
+.lp-picote-reto {
+  position: absolute;
+  inset: 0;
+  background: var(--papel);
+  clip-path: inset(0 100% 0 0);
+}
+
+/* "cortar" no fecho: o texto de verdade, duas metades desenhadas por cima, o risco e a tesoura.
+   Sem movimento, só o texto aparece. */
+.lp-cortar {
+  position: relative;
+  display: inline-block;
+}
+.lp-cortar-cima,
+.lp-cortar-baixo {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
+.lp-cortar-cima {
+  clip-path: inset(0 0 52% 0);
+}
+.lp-cortar-baixo {
+  clip-path: inset(48% 0 0 0);
+}
+.lp-cortar-risco {
+  position: absolute;
+  inset: 50% 0 auto;
+  height: 3px;
+  margin-top: -1px;
+  opacity: 0;
+  background: repeating-linear-gradient(90deg, var(--tinta) 0 8px, transparent 8px 14px);
+  transform-origin: 100% 50%;
+}
+.lp-cortar-tesoura {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 1.3em;
+  margin-top: -0.39em;
+  opacity: 0;
+  pointer-events: none;
+}

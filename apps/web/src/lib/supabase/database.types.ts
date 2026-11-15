@@ -13,9 +13,58 @@ type OrgRow = {
   id: string;
   name: string;
   plan: string;
+  /** Capa (bucket público org-capas, caminho <org_id>/...). */
+  thumbnail_path: string | null;
   created_by: string | null;
   created_at: string;
   updated_at: string;
+};
+
+export type DocumentType = "cpf" | "cnpj";
+export type SubscriptionStatus = "trial" | "ativa" | "vencida" | "cancelada" | "cortesia";
+
+type ProfileRow = {
+  user_id: string;
+  first_name: string | null;
+  last_name: string | null;
+  document_type: DocumentType | null;
+  document: string | null;
+  avatar_path: string | null;
+  welcome_seen_at: string | null;
+  onboarding_closed_at: string | null;
+  created_at: string;
+  updated_at: string;
+};
+
+type ProfileWrite = {
+  first_name?: string | null;
+  last_name?: string | null;
+  document_type?: DocumentType | null;
+  document?: string | null;
+  avatar_path?: string | null;
+  welcome_seen_at?: string | null;
+  onboarding_closed_at?: string | null;
+};
+
+type OrgSubscriptionRow = {
+  org_id: string;
+  plan_id: string;
+  status: SubscriptionStatus;
+  trial_ends_at: string | null;
+  seats: number;
+  created_at: string;
+  updated_at: string;
+};
+
+type ActivityLogRow = {
+  id: number;
+  org_id: string;
+  user_id: string | null;
+  action: string;
+  entity: string | null;
+  entity_id: string | null;
+  meta: Record<string, unknown>;
+  created_at: string;
 };
 
 type OrgMemberRow = {
@@ -147,6 +196,8 @@ type ProductRow = {
   sales_description: string | null;
   /** Texto técnico (entra na ficha); até 4000 caracteres. */
   technical_description: string | null;
+  /** Data de entrega do produto (AAAA-MM-DD). */
+  due_on: string | null;
 } & Timestamps;
 type ApiKeyRow = {
   id: string;
@@ -339,7 +390,7 @@ export type Database = {
       orgs: {
         Row: OrgRow;
         Insert: never;
-        Update: { name?: string };
+        Update: { name?: string; thumbnail_path?: string | null };
         Relationships: [];
       };
       org_members: {
@@ -429,8 +480,10 @@ export type Database = {
           size_chart_id?: string | null;
           pattern_id?: string | null;
           fabric_id?: string | null;
+          due_on?: string | null;
         };
         Update: {
+          due_on?: string | null;
           collection_id?: string | null;
           reference?: string | null;
           name?: string;
@@ -478,6 +531,24 @@ export type Database = {
         Insert: never;
         Update: never;
         Relationships: [OrgFk<"catalog_photos_product_id_org_id_fkey", "product_id", "products">];
+      };
+      profiles: {
+        Row: ProfileRow;
+        Insert: ProfileWrite & { user_id?: string };
+        Update: ProfileWrite;
+        Relationships: [];
+      };
+      org_subscriptions: {
+        Row: OrgSubscriptionRow;
+        Insert: never;
+        Update: never;
+        Relationships: [Fk<"org_subscriptions_org_id_fkey", "org_id", "orgs">];
+      };
+      activity_log: {
+        Row: ActivityLogRow;
+        Insert: never;
+        Update: never;
+        Relationships: [Fk<"activity_log_org_id_fkey", "org_id", "orgs">];
       };
       fabrics: {
         Row: FabricRow;
@@ -572,6 +643,22 @@ export type Database = {
     Functions: {
       create_org: { Args: { p_name: string }; Returns: OrgRow };
       accept_invite: { Args: { p_token: string }; Returns: OrgMemberRow };
+      org_plan_status: {
+        Args: { p_org_id: string };
+        Returns: { plan_id: string; status: SubscriptionStatus; trial_ends_at: string | null; days_left: number | null; seats: number }[];
+      };
+      log_event: { Args: { p_org_id: string; p_action: string; p_entity_id?: string | null }; Returns: undefined };
+      onboarding_progress: {
+        Args: Record<string, never>;
+        Returns: {
+          has_profile: boolean;
+          has_org: boolean;
+          has_pattern: boolean;
+          has_prova: boolean;
+          has_approval: boolean;
+          has_invite: boolean;
+        }[];
+      };
       org_team: {
         Args: { p_org_id: string };
         Returns: { user_id: string; email: string; role: OrgRole; joined_at: string }[];
@@ -646,7 +733,14 @@ export type Database = {
         Returns: ApprovalStatus;
       };
     };
-    Enums: { org_role: OrgRole; pattern_origin: PatternOrigin; approval_status: ApprovalStatus; product_status: ProductStatus };
+    Enums: {
+      org_role: OrgRole;
+      pattern_origin: PatternOrigin;
+      approval_status: ApprovalStatus;
+      product_status: ProductStatus;
+      document_type: DocumentType;
+      subscription_status: SubscriptionStatus;
+    };
     CompositeTypes: { [_ in never]: never };
   };
 };

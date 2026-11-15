@@ -262,15 +262,31 @@ describe("invariantes do esquema", () => {
     expect(rows.map((r) => r.tablename)).toEqual([]);
   });
 
+  // Exceções: `orgs` (é a própria organização) e `profiles` (dado da pessoa, não da organização;
+  // isolamento por user_id, ainda mais restrito: só a própria pessoa lê; ver o teste abaixo).
   it("toda tabela de negócio tem org_id", async () => {
     const { rows } = await db.query<{ tablename: string }>(`
       select t.tablename from pg_tables t
-      where t.schemaname = 'public' and t.tablename <> 'orgs'
+      where t.schemaname = 'public' and t.tablename not in ('orgs', 'profiles')
         and not exists (
           select 1 from information_schema.columns c
           where c.table_schema = 'public' and c.table_name = t.tablename and c.column_name = 'org_id'
         )
     `);
     expect(rows.map((r) => r.tablename)).toEqual([]);
+  });
+
+  it("profiles, a exceção, é da pessoa: user_id é a chave e as políticas só olham auth.uid()", async () => {
+    const { rows: pk } = await db.query<{ column_name: string }>(`
+      select k.column_name from information_schema.table_constraints c
+      join information_schema.key_column_usage k on k.constraint_name = c.constraint_name and k.table_name = c.table_name
+      where c.table_schema = 'public' and c.table_name = 'profiles' and c.constraint_type = 'PRIMARY KEY'
+    `);
+    expect(pk.map((r) => r.column_name)).toEqual(["user_id"]);
+    const { rows: pol } = await db.query<{ qual: string | null; with_check: string | null }>(
+      "select qual, with_check from pg_policies where schemaname = 'public' and tablename = 'profiles'",
+    );
+    expect(pol.length).toBeGreaterThan(0);
+    for (const p of pol) for (const expr of [p.qual, p.with_check]) if (expr) expect(expr).toMatch(/user_id = auth\.uid\(\)/);
   });
 });

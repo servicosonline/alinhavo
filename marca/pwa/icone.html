@@ -1,0 +1,14 @@
+<!doctype html>
+<!-- Ícones do app instalável (PWA), gerados por gerar.sh.
+     "#normal": o ícone do site ocupando tudo, fundo transparente.
+     "#maskable": fundo papel e o ícone dentro da zona segura (80%), para o Android recortar em círculo ou gota. -->
+<html><head><meta charset="utf-8"><style>
+  html, body { margin: 0; width: 100vw; height: 100vh; background: transparent; }
+  body { display: grid; place-items: center; }
+  img { width: 100vw; height: 100vh; display: block; }
+  body.maskable { background: #f5efe3; }
+  body.maskable img { width: 66vw; height: 66vh; }
+</style></head>
+<body><img src="../../apps/web/src/app/icon.svg" alt="">
+<script>if (location.hash === "#maskable") document.body.className = "maskable";</script>
+</body></html>

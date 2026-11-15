@@ -14,17 +14,25 @@ function Sarja({ id }: { id: string }) {
   );
 }
 
+/**
+ * A tesoura, em duas metades que giram no pino (100, 60): `.lp-lamina-a` (argola de cima e a lâmina que
+ * desce) e `.lp-lamina-b` (argola de baixo e a lâmina que sobe). O desenho parado é o mesmo de sempre;
+ * para abrir e fechar, gire as duas em sentidos opostos com `svgOrigin: "100 60"` (components/landing/motion.tsx).
+ */
 export function Tesoura({ className = "" }: { className?: string }) {
+  const cabo = { fill: "none", stroke: "var(--tinta)", strokeWidth: 7, strokeLinecap: "round" } as const;
+  const lamina = { fill: "var(--tinta-suave)", stroke: "var(--tinta)", strokeWidth: 2.5, strokeLinejoin: "round" } as const;
   return (
-    <svg viewBox="0 0 200 120" className={className} aria-hidden="true">
-      <g fill="none" stroke="var(--tinta)" strokeWidth="7" strokeLinecap="round">
-        <circle cx="34" cy="28" r="18" />
-        <circle cx="34" cy="92" r="18" />
-        <path d="M50 36 L100 60 M50 84 L100 60" />
+    <svg viewBox="0 0 200 120" className={`overflow-visible ${className}`} aria-hidden="true">
+      <g className="lp-lamina-a">
+        <circle cx="34" cy="28" r="18" {...cabo} />
+        <path d="M50 36 L100 60" {...cabo} />
+        <path d="M96 54 L194 100 L100 67 Z" {...lamina} />
       </g>
-      <g fill="var(--tinta-suave)" stroke="var(--tinta)" strokeWidth="2.5" strokeLinejoin="round">
-        <path d="M96 54 L194 100 L100 67 Z" />
-        <path d="M96 66 L194 20 L100 53 Z" />
+      <g className="lp-lamina-b">
+        <circle cx="34" cy="92" r="18" {...cabo} />
+        <path d="M50 84 L100 60" {...cabo} />
+        <path d="M96 66 L194 20 L100 53 Z" {...lamina} />
       </g>
       <circle cx="100" cy="60" r="5.5" fill="var(--fita)" stroke="var(--tinta)" strokeWidth="2.5" />
     </svg>

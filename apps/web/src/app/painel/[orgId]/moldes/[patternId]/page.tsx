@@ -12,6 +12,7 @@ import { SubmitButton } from "@/components/submit-button";
 import { linkSizeChart } from "../actions";
 import { ApprovalsList } from "./approvals-list";
 import { EditorClient } from "./editor-client";
+import type { EditorRailItem } from "@/components/editor/pattern-editor";
 
 type Params = PageProps<"/painel/[orgId]/moldes/[patternId]">["params"];
 
@@ -30,7 +31,7 @@ async function Molde({ params }: { params: Params }) {
   const user = await requireUser(`/painel/${orgId}/moldes/${patternId}`);
   const supabase = await createClient();
 
-  const [patternRes, role, chartsRes] = await Promise.all([
+  const [patternRes, role, chartsRes, productRes] = await Promise.all([
     supabase
       .from("patterns")
       .select("id, name, current_version, size_chart_id")
@@ -39,9 +40,32 @@ async function Molde({ params }: { params: Params }) {
       .maybeSingle(),
     getMyRole(supabase, orgId, user.id),
     supabase.from("size_charts").select("id, name, sizes(label, position, is_base)").eq("org_id", orgId).order("name"),
+    // O produto ligado a este molde (um por molde), para a trilha "Coleção › Produto › Molde".
+    supabase.from("products").select("id, name, collection_id, collections(name)").eq("org_id", orgId).eq("pattern_id", patternId).maybeSingle(),
   ]);
   const pattern = patternRes.data;
   if (!pattern) notFound();
+  const product = productRes.data;
+  const base = `/painel/${orgId}`;
+  const trail = (
+    <Trail
+      items={[
+        ...(product
+          ? [
+              ...(product.collection_id ? [{ label: product.collections?.name ?? "Coleção", href: `${base}/colecoes/${product.collection_id}` }] : []),
+              { label: product.name, href: `${base}/produtos/${product.id}` },
+            ]
+          : [{ label: "Moldes", href: `${base}/moldes` }]),
+        { label: "Molde" },
+      ]}
+    />
+  );
+  const rail: EditorRailItem[] = [
+    { icon: "moldes", label: "Molde", active: true },
+    ...(pattern.current_version > 0 ? [{ icon: "prova" as const, label: "Prova 3D", href: `${base}/moldes/${patternId}/prova` }] : []),
+    { icon: "encaixes", label: "Encaixe", href: product ? `${base}/produtos/${product.id}/encaixe` : `${base}/encaixes` },
+    { icon: "colecoes", label: "Coleção", href: product?.collection_id ? `${base}/colecoes/${product.collection_id}` : `${base}/colecoes` },
+  ];
   const charts = chartsRes.data ?? [];
   const linked = charts.find((c) => c.id === pattern.size_chart_id);
   const linkedSizes = linked ? [...linked.sizes].sort((a, b) => a.position - b.position) : [];
@@ -80,7 +104,7 @@ async function Molde({ params }: { params: Params }) {
     // O editor usa a largura da tela (data-largura, ver Container).
     <div className="space-y-3" data-largura="tela">
       <div className="flex flex-wrap items-center justify-between gap-3">
-        <Trail items={[{ label: "Moldes", href: `/painel/${orgId}/moldes` }, { label: pattern.name }]} />
+        <p className="text-sm text-tinta-suave">Molde da organização · as versões ficam salvas, nada é sobrescrito.</p>
         {canEdit ? (
           <form action={linkSizeChart} className="flex items-center gap-2 text-sm">
             <input type="hidden" name="orgId" value={orgId} />
@@ -116,6 +140,9 @@ async function Molde({ params }: { params: Params }) {
         initialVersion={pattern.current_version}
         initialDocument={document}
         readOnly={!canEdit}
+        trail={trail}
+        rail={rail}
+        approvalHref={canEdit ? `${base}/moldes/${patternId}/prova` : undefined}
         chartGrade={chartGrade}
       />
       <ApprovalsList supabase={supabase} orgId={orgId} patternId={pattern.id} canEdit={canEdit} />

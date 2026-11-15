@@ -14,7 +14,7 @@ import { base64Bytes, dataUrlBase64, type CaptureAngle } from "../prova/captures
 export const CATALOG_PHOTO_MODEL = "gpt-image-2.6-sunburst";
 
 /** Fotos por organização por mês: igual a private.ai_photo_monthly_limit(). */
-export const AI_PHOTO_MONTHLY_LIMIT = 30;
+export const AI_PHOTO_MONTHLY_LIMIT = 10; // igual a private.ai_photo_monthly_limit() (decisão de 15/11/2026)
 
 /** Retrato, como a captura (3:4) e o catálogo de moda. */
 export const CATALOG_PHOTO_SIZE = "1024x1536";

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { DemoHeader } from "@/components/demo-header";
 import { PageHeader } from "@/components/page-shell";
 import { ScanStudio } from "@/components/scan/scan-studio";
+import { TrialNudge } from "@/components/trial-nudge";
 
 export const metadata: Metadata = {
   title: "Experimente o Scan de moldes · Alinhavo",
@@ -20,6 +21,7 @@ export default function ExperimentarScanPage() {
             description="Imprima a folha de marcadores, fotografe o molde ao lado dela e baixe a peça em DXF para abrir no seu CAD. A foto é lida no seu navegador e nada é salvo."
           />
           <ScanStudio mode={{ kind: "demo" }} />
+          <TrialNudge text="Na conta, a peça escaneada vira molde salvo, com versões, Prova 3D e encaixe. Teste 15 dias sem cartão." />
         </div>
       </main>
     </div>

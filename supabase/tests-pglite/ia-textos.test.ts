@@ -114,10 +114,10 @@ describe("gerações por IA", () => {
 
   it("para no limite do mês; as do mês passado não contam", async () => {
     const c = await cenario();
-    // 199 gerações deste mês e 50 do mês passado, gravadas direto (como o banco faria).
+    // 49 gerações deste mês e 50 do mês passado, gravadas direto (como o banco faria). Limite: 50 (15/11/2026).
     await db.query(
       `insert into public.ai_generations (org_id, product_id, kind, status, created_at)
-       select $1, $2, 'textos_produto', 'pronta', now() from generate_series(1, 199)`,
+       select $1, $2, 'textos_produto', 'pronta', now() from generate_series(1, 49)`,
       [c.orgId, c.productId],
     );
     await db.query(
@@ -125,8 +125,8 @@ describe("gerações por IA", () => {
        select $1, $2, 'textos_produto', 'pronta', date_trunc('month', now()) - interval '1 day' from generate_series(1, 50)`,
       [c.orgId, c.productId],
     );
-    await reservar(c.dono, c.productId); // a 200ª
-    await expect(reservar(c.dono, c.productId)).rejects.toThrow(/200 gerações/);
-    expect(await doMes(c.dono, c.orgId)).toBe(200);
+    await reservar(c.dono, c.productId); // a 50ª
+    await expect(reservar(c.dono, c.productId)).rejects.toThrow(/50 gerações/);
+    expect(await doMes(c.dono, c.orgId)).toBe(50);
   });
 });
