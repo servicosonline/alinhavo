@@ -7,6 +7,15 @@ export const FABRIC_COLOR: Record<FabricId, string> = {
   planoLeve: "#d8c3a5",
   malha: "#8a9db3",
   jeans: "#4a6687",
+  tricoline: "#e6e1d6",
+  viscose: "#b5675a",
+  linho: "#cdbf9f",
+  crepe: "#3f3f48",
+  chiffon: "#e8c9cf",
+  sarja: "#8a7a5c",
+  jeansElastano: "#3c5470",
+  ribana: "#6f8f7a",
+  moletom: "#9a9a9e",
 };
 
 export type PaintView = "tecido" | "pressao" | "folga";

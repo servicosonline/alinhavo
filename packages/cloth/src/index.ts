@@ -16,6 +16,7 @@ export * from "./body/measurements";
 export {
   BELLY_RANGE,
   createMannequin,
+  HEEL_RANGE,
   LIMB_IDS,
   LIMB_WHOLE,
   type BodyConditions,

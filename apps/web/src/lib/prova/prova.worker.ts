@@ -4,6 +4,8 @@ import {
   createMannequin,
   createSimulation,
   FABRICS,
+  tuneFabric,
+  type Fabric,
   floorCollider,
   garmentDecals,
   garmentUv,
@@ -78,6 +80,8 @@ type Wear = {
   /** Linha da dobra das peças abertas: a malha sai simétrica por ela. */
   foldLine: Record<string, FoldLine>;
   fabric: FabricId;
+  /** Física do tecido desta roupa (o preset, ajustado pelo cadastro no molde em prova). */
+  physics: Fabric;
   layer: number;
 };
 
@@ -97,6 +101,7 @@ function build(setup: ProvaSetup) {
       finishes: main.finishes,
       foldLine: main.foldLine,
       fabric: setup.fabric,
+      physics: tuneFabric(FABRICS[setup.fabric], setup.fabricTuning),
       layer: setup.layer ?? 0,
     },
   ];
@@ -106,7 +111,7 @@ function build(setup: ProvaSetup) {
     const { size, fallback } = lookSize(other, setup.size);
     if (fallback) lookNotes.push(`${extra.name} não tem o tamanho ${setup.size}: vestiu o ${size}.`);
     const g = garmentAtSize(other, size);
-    wears.push({ name: extra.name, main: false, pieces: g.pieces, seams: g.seams, finishes: g.finishes, foldLine: g.foldLine, fabric: extra.fabric, layer: extra.layer });
+    wears.push({ name: extra.name, main: false, pieces: g.pieces, seams: g.seams, finishes: g.finishes, foldLine: g.foldLine, fabric: extra.fabric, physics: FABRICS[extra.fabric], layer: extra.layer });
   });
 
   const skipped: string[] = [];
@@ -135,16 +140,16 @@ function build(setup: ProvaSetup) {
       vertex += mesh.positions.length / 2;
       triangle += mesh.triangles.length / 3;
     }
-    parts.push({ name: wear.name, main: wear.main, start, count: vertex - start, triStart, triCount: triangle - triStart, fabric: wear.fabric, fabricLimit: FABRICS[wear.fabric].maxStretch });
+    parts.push({ name: wear.name, main: wear.main, start, count: vertex - start, triStart, triCount: triangle - triStart, fabric: wear.fabric, fabricLimit: wear.physics.maxStretch });
   }
 
   const initial = placeGarment(
     meshes.map((mesh, i) => ({ mesh, placement: placed[i]!.piece.placement!, half: pieceHalf(placed[i]!.piece), layer: placed[i]!.wear.layer })),
     body.landmarks,
   );
-  const fabric = FABRICS[setup.fabric];
+  const fabric = wears[0]!.physics;
   const sim = createSimulation(
-    meshes.map((mesh, i) => ({ mesh, initial: initial[i], fabric: FABRICS[placed[i]!.wear.fabric], layer: placed[i]!.wear.layer })),
+    meshes.map((mesh, i) => ({ mesh, initial: initial[i], fabric: placed[i]!.wear.physics, layer: placed[i]!.wear.layer })),
     { fabric, seams, colliders: [body.collider, floorCollider(0)], iterations: PROVA_ITERATIONS, sewingTime: PROVA_SEWING_TIME },
   );
 

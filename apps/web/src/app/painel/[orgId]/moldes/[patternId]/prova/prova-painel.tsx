@@ -1,18 +1,19 @@
 "use client";
 
 import type { PatternDocument } from "@alinhavo/geometry";
-import { useMemo, useState, useSyncExternalStore } from "react";
+import { useCallback, useMemo, useState, useSyncExternalStore } from "react";
 import type { ProvaSaveMode } from "@/components/prova/adjust-panel";
 import type { ApprovalRequester } from "@/components/prova/approval-request";
 import type { CatalogPhotoRequester } from "@/components/prova/catalog-photo-request";
 import { ProvaStudio } from "@/components/prova/prova-studio";
+import type { ProvaFabricOption } from "@/lib/prova/fabric-options";
 import { loadForProva, storedForProva } from "@/lib/prova/handoff";
 import { APPROVAL_VIDEO_BUCKET, approvalVideoContentType, approvalVideoPath } from "@/lib/prova/approval-video";
 import { getBrowserClient } from "@/lib/supabase/client";
 import type { LookOption } from "@/lib/prova/look";
 import { generateCatalogPhoto } from "../../../produtos/catalog-actions";
 import { savePatternVersion } from "../../actions";
-import { requestApproval } from "./actions";
+import { fabricPhoto, requestApproval } from "./actions";
 
 const noSubscribe = () => () => {};
 
@@ -30,7 +31,12 @@ export function ProvaPainel({
   canEdit,
   lookOptions,
   catalog,
+  fabricOptions,
+  defaultFabricId,
 }: {
+  /** Tecidos cadastrados (sem as fotos, que vêm ao escolher) e o do produto ligado ao molde. */
+  fabricOptions: ProvaFabricOption[];
+  defaultFabricId: string | null;
   /** Produto ligado ao molde, para as fotos de catálogo (sem produto, sem painel). */
   catalog: { productId: string; productName: string; blocked: string | null; usedThisMonth: number } | null;
   orgId: string;
@@ -51,6 +57,7 @@ export function ProvaPainel({
   // A cópia do editor só vale para a versão de onde partiu: depois de salvar, some.
   const unsaved = useMemo(() => (stored ? loadForProva(patternId, saved.version) : null), [stored, patternId, saved.version]);
   const doc = unsaved ?? saved.doc;
+  const loadFabricPhoto = useCallback((fabricId: string) => fabricPhoto(orgId, fabricId), [orgId]);
 
   const saveMode = useMemo<ProvaSaveMode>(
     () =>
@@ -120,6 +127,9 @@ export function ProvaPainel({
         approval={approval}
         catalogPhoto={catalogPhoto}
         lookOptions={lookOptions}
+        fabricOptions={fabricOptions}
+        defaultFabricId={defaultFabricId}
+        loadFabricPhoto={loadFabricPhoto}
       />
     </>
   );

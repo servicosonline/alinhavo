@@ -88,6 +88,8 @@ O documento do molde guarda: partes, pontos, curvas, piques, fio, regras de grad
 
 ## Tecido e prova
 
+Tecido (`fabrics`): além de largura, gramatura e preço, o comportamento na Prova (`preset`, um dos 12 da biblioteca) e o ajuste da confecção: `stretch_pct`, `drape` (1–5), `thickness_mm` (até 2,5), `texture` (foto, data URL) e `texture_cm` (largura real da foto).
+
 | Tabela | Campos principais |
 |---|---|
 | `fabrics` | org_id (nulo = preset do sistema), nome, propriedades físicas (jsonb), texturas (Storage) |

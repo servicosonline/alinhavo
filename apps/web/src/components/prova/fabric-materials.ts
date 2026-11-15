@@ -17,27 +17,40 @@ type WeaveTextures = { normal: THREE.DataTexture; color: THREE.DataTexture };
  */
 export class FabricLibrary {
   private textures = new Map<FabricId, WeaveTextures>();
+  /** Foto do tecido cadastrado (cor e estampa de verdade), só no molde em prova. */
+  private photo: THREE.Texture | null = null;
 
   constructor(private maxAnisotropy = 1) {}
 
-  material(fabric: FabricId, color: string, quality: RenderQuality): THREE.MeshStandardMaterial {
+  /** Troca a foto do tecido (a anterior é descartada). Quem chama refaz os materiais. */
+  setPhoto(photo: THREE.Texture | null) {
+    if (this.photo && this.photo !== photo) this.photo.dispose();
+    this.photo = photo;
+  }
+
+  /** `usePhoto`: a roupa do molde em prova, que veste a foto do tecido (se houver) no lugar do mesclado. */
+  material(fabric: FabricId, color: string, quality: RenderQuality, usePhoto = false): THREE.MeshStandardMaterial {
     const look = FABRIC_LOOK[fabric];
+    const photo = usePhoto ? this.photo : null;
     if (quality === "leve") {
-      return new THREE.MeshStandardMaterial({ color, roughness: look.roughness, side: THREE.DoubleSide });
+      const material = new THREE.MeshStandardMaterial({ color, roughness: look.roughness, side: THREE.DoubleSide, map: photo });
+      if (photo) material.userData[WEAVE_MAP_KEY] = photo;
+      return material;
     }
     const tex = this.weave(fabric);
+    const map = photo ?? tex.color;
     const material = new THREE.MeshPhysicalMaterial({
       color,
       roughness: look.roughness,
       sheen: look.sheen,
       sheenRoughness: look.sheenRoughness,
       sheenColor: new THREE.Color(0xffffff),
-      map: tex.color,
+      map,
       normalMap: tex.normal,
       normalScale: new THREE.Vector2(look.normalScale, look.normalScale),
       side: THREE.DoubleSide,
     });
-    material.userData[WEAVE_MAP_KEY] = tex.color;
+    material.userData[WEAVE_MAP_KEY] = map;
     return material;
   }
 
@@ -71,6 +84,8 @@ export class FabricLibrary {
   }
 
   dispose() {
+    this.photo?.dispose();
+    this.photo = null;
     for (const t of this.textures.values()) {
       t.normal.dispose();
       t.color.dispose();

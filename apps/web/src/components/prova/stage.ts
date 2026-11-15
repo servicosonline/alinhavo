@@ -227,13 +227,13 @@ export type GarmentGroup = { triStart: number; triCount: number; material: THREE
  */
 export function garmentGroups(
   fabrics: FabricLibrary,
-  parts: readonly Pick<ProvaPart, "triStart" | "triCount" | "fabric">[],
+  parts: readonly Pick<ProvaPart, "triStart" | "triCount" | "fabric" | "main">[],
   triangleCount: number,
   color: string,
   quality: RenderQuality,
 ): GarmentGroup[] {
   if (parts.length === 0) return [{ triStart: 0, triCount: triangleCount, material: fabrics.material("planoLeve", color, quality) }];
-  return parts.map((p) => ({ triStart: p.triStart, triCount: p.triCount, material: fabrics.material(p.fabric, color, quality) }));
+  return parts.map((p) => ({ triStart: p.triStart, triCount: p.triCount, material: fabrics.material(p.fabric, color, quality, p.main) }));
 }
 
 /**

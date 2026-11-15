@@ -1,10 +1,11 @@
 import { describe, expect, it } from "vitest";
 import type { Piece } from "@alinhavo/geometry";
 import { MAX_OVERESTIMATE, TRUSTED_CLEARANCE_MM, type Vec3 } from "../collider";
-import { FABRICS } from "../fabrics";
+import { FABRIC_MAX_THICKNESS, FABRICS } from "../fabrics";
 import { meshPiece } from "../mesh";
 import { createSimulation } from "../simulation";
-import { BELLY_RANGE, buildMannequin, createMannequin, cutChain, LIMB_WHOLE } from "./mannequin";
+import { BELLY_RANGE, buildMannequin, createMannequin, cutChain, HEEL_RANGE, LIMB_WHOLE } from "./mannequin";
+import { BODY_POSES } from "./types";
 import { MEASUREMENT_KEYS, MEASUREMENT_RANGE, readMeasurements } from "./measurements";
 import { pchip, superellipsePerimeter } from "./shapes";
 
@@ -195,6 +196,57 @@ describe("condições do corpo", () => {
   });
 });
 
+describe("poses e salto", () => {
+  it("em toda pose os pés tocam o chão e a cabeça fica na altura", () => {
+    for (const pose of BODY_POSES) {
+      const r = yRange(createMannequin(TABELA_M, pose).mesh.positions);
+      expect(r.min, pose).toBeGreaterThan(-1);
+      expect(r.min, pose).toBeLessThan(2);
+      expect(r.max, pose).toBeGreaterThan(1600);
+    }
+  });
+
+  it("braço dobrado: o punho fica à frente do cotovelo; braços abertos: a mão longe do corpo", () => {
+    const bent = buildMannequin(TABELA_M, "braco-dobrado").chains.leftArm;
+    expect(bent[1]!.b.z - bent[1]!.a.z).toBeGreaterThan(150);
+    const open = buildMannequin(TABELA_M, "bracos-abertos").chains.leftArm;
+    const down = buildMannequin(TABELA_M, "em-pe").chains.leftArm;
+    expect(open[1]!.b.x).toBeGreaterThan(down[1]!.b.x + 250);
+    expect(open[1]!.b.y).toBeGreaterThan(down[1]!.b.y + 300);
+  });
+
+  it("salto de 8 cm: o corpo sobe 8 cm, a ponta do pé e o salto tocam o chão", () => {
+    const flat = createMannequin(TABELA_M);
+    const heels = buildMannequin(TABELA_M, "em-pe", {}, { heel: 80 });
+    const a = yRange(flat.mesh.positions);
+    const b = yRange(heels.body.mesh.positions);
+    expect(b.max - a.max).toBeCloseTo(80, 0);
+    expect(b.min).toBeGreaterThan(-1);
+    expect(b.min).toBeLessThan(2);
+    expect(heels.body.landmarks.waist.y - flat.landmarks.waist.y).toBeCloseTo(80, 0);
+    // O salto do sapato existe: logo acima do chão, embaixo do calcanhar, é corpo.
+    const heelPt = heels.chains.leftLeg[2]!.a;
+    expect(heels.body.collider.query(heelPt.x, 10, heelPt.z - 0.005 * 1680).distance).toBeLessThan(0);
+    // E o calcanhar subiu: sem salto ele fica a ~3 cm do chão.
+    const shift = b.max - a.max;
+    expect(heels.body.collider.query(heelPt.x, 0.018 * 1680 + shift, heelPt.z).distance).toBeLessThan(0);
+  });
+
+  it("salto zero é o corpo de sempre; salto acima do limite fica no limite", () => {
+    expect(createMannequin(TABELA_M, "em-pe", {}, { heel: 0 }).mesh.positions).toEqual(createMannequin(TABELA_M).mesh.positions);
+    const max = yRange(createMannequin(TABELA_M, "em-pe", {}, { heel: 9999 }).mesh.positions).max;
+    expect(max - 1680).toBeCloseTo(HEEL_RANGE[1], 0);
+  });
+
+  it("sem a perna esquerda e de salto: o salto fica só no pé que existe", () => {
+    const b = buildMannequin(TABELA_M, "em-pe", {}, { heel: 80, limbs: { leftLeg: 1 } });
+    const r = yRange(b.body.mesh.positions);
+    expect(r.min).toBeLessThan(2);
+    const leftHeel = b.chains.leftLeg[2]!.a;
+    expect(b.body.collider.query(leftHeel.x, 10, leftHeel.z).distance).toBeGreaterThan(20);
+  });
+});
+
 describe("formas", () => {
   it("perímetro da superelipse com expoente 2 é o da elipse (círculo: 2πr)", () => {
     expect(superellipsePerimeter(100, 100, 2)).toBeCloseTo(2 * Math.PI * 100, 1);
@@ -340,7 +392,7 @@ describe("createMannequin", () => {
     // Até a espessura do tecido mais grosso + TRUSTED_CLEARANCE_MM, a distância
     // não cai mais que MAX_OVERESTIMATE × o que o ponto anda: é o que garante
     // que a folga do simulador (safeClearance) nunca passa da real.
-    const band = Math.max(...Object.values(FABRICS).map((f) => f.thickness)) + TRUSTED_CLEARANCE_MM;
+    const band = Math.max(FABRIC_MAX_THICKNESS, ...Object.values(FABRICS).map((f) => f.thickness)) + TRUSTED_CLEARANCE_MM;
     const h = 0.5;
     const steps = [
       [h, 0, 0], [-h, 0, 0], [0, h, 0], [0, -h, 0], [0, 0, h], [0, 0, -h],

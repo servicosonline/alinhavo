@@ -4,48 +4,43 @@ import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import type { FormState } from "@/components/ui";
 import { getCurrentUser } from "@/lib/auth";
+import { readFabricForm } from "@/lib/fabric-form";
 import { isUuid } from "@/lib/ids";
-import { parseMoneyToCents } from "@/lib/money";
 import { getSupabaseConfig } from "@/lib/supabase/config";
-import type { FabricPreset } from "@/lib/supabase/database.types";
 import { createClient } from "@/lib/supabase/server";
-import { parseCmToMm } from "@/lib/units";
 
-const PRESETS: FabricPreset[] = ["malha", "planoLeve", "jeans"];
+const NO_CONFIG = "O Supabase ainda não foi configurado neste ambiente.";
+const NO_PERMISSION = "Só donos, admins, modelistas e estilistas cadastram tecidos.";
 
 export async function createFabric(orgId: string, _prev: FormState, formData: FormData): Promise<FormState> {
-  if (!getSupabaseConfig()) return { error: "O Supabase ainda não foi configurado neste ambiente." };
+  if (!getSupabaseConfig()) return { error: NO_CONFIG };
   if (!isUuid(orgId)) return { error: "Organização inválida." };
   if (!(await getCurrentUser())) redirect(`/entrar?next=/painel/${orgId}/tecidos`);
 
-  const name = String(formData.get("name") ?? "").trim();
-  const composition = String(formData.get("composition") ?? "").trim();
-  const widthText = String(formData.get("width") ?? "").trim();
-  const weightText = String(formData.get("weight") ?? "").trim().replace(",", ".");
-  const price = parseMoneyToCents(formData.get("price"));
-  const presetRaw = String(formData.get("preset") ?? "");
-  if (name.length < 1 || name.length > 120) return { error: "Dê um nome ao tecido (até 120 caracteres)." };
-  if (composition.length > 200) return { error: "Composição com até 200 caracteres." };
-  const widthMm = widthText ? parseCmToMm(widthText) : null;
-  if (widthMm !== null && (widthMm < 100 || widthMm > 5000)) return { error: "Largura útil entre 10 e 500 cm." };
-  const weight = weightText ? Number(weightText) : null;
-  if (weight !== null && !(weight > 0 && weight < 2000)) return { error: "Gramatura em g/m², entre 1 e 2000." };
-  if (price === undefined) return { error: "Preço inválido. Use, por exemplo, 39,90." };
-  const preset = PRESETS.includes(presetRaw as FabricPreset) ? (presetRaw as FabricPreset) : null;
-
+  const read = readFabricForm(formData);
+  if ("error" in read) return { error: read.error };
   const supabase = await createClient();
-  const { error } = await supabase.from("fabrics").insert({
-    org_id: orgId,
-    name,
-    composition: composition || null,
-    width_mm: widthMm === null ? null : Math.round(widthMm),
-    weight_gsm: weight,
-    price_cents: price,
-    preset,
-  });
-  if (error) return { error: error.code === "42501" ? "Só donos, admins, modelistas e estilistas cadastram tecidos." : "Não foi possível cadastrar o tecido." };
+  const { error } = await supabase.from("fabrics").insert({ org_id: orgId, ...read.fields });
+  if (error) return { error: error.code === "42501" ? NO_PERMISSION : "Não foi possível cadastrar o tecido." };
   revalidatePath(`/painel/${orgId}/tecidos`);
-  return { ok: `Tecido "${name}" cadastrado.` };
+  return { ok: `Tecido "${read.fields.name}" cadastrado.` };
+}
+
+/** Salva o tecido inteiro (dados técnicos e o comportamento na Prova, com a foto). A permissão de verdade é a RLS. */
+export async function updateFabric(orgId: string, fabricId: string, _prev: FormState, formData: FormData): Promise<FormState> {
+  if (!getSupabaseConfig()) return { error: NO_CONFIG };
+  if (!isUuid(orgId) || !isUuid(fabricId)) return { error: "Pedido inválido." };
+  if (!(await getCurrentUser())) redirect(`/entrar?next=/painel/${orgId}/tecidos/${fabricId}`);
+
+  const read = readFabricForm(formData);
+  if ("error" in read) return { error: read.error };
+  const supabase = await createClient();
+  const { data, error } = await supabase.from("fabrics").update(read.fields).eq("id", fabricId).eq("org_id", orgId).select("id");
+  if (error) return { error: "Não foi possível salvar o tecido." };
+  if (!data || data.length === 0) return { error: NO_PERMISSION.replace("cadastram", "editam") };
+  revalidatePath(`/painel/${orgId}/tecidos`);
+  revalidatePath(`/painel/${orgId}/tecidos/${fabricId}`);
+  return { ok: "Tecido salvo. A Prova usa os dados novos na próxima vez que abrir." };
 }
 
 export async function deleteFabric(formData: FormData) {

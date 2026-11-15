@@ -39,6 +39,10 @@ export class ProvaScene {
   /** Roupas da malha atual e a cor do tecido (para refazer os materiais ao trocar a qualidade). */
   private parts: readonly ProvaPart[] = [];
   private color = "#ffffff";
+  /** Última pintura (para repintar depois de refazer os materiais). */
+  private lastPaint: { colors: Float32Array | null; grain: boolean } = { colors: null, grain: false };
+  /** Foto do tecido pedida (para ignorar uma carga que chegou atrasada). */
+  private photoKey = "";
 
   constructor(container: HTMLElement) {
     this.stage = new Stage(container, "Prova 3D: a roupa no manequim", { lockHorizontal: true });
@@ -92,6 +96,7 @@ export class ProvaScene {
    * volta à cor do tecido. `grain` mostra a grade do fio no lugar das cores.
    */
   setMapColors(colors: Float32Array | null, fabricColor: string, grain = false) {
+    this.lastPaint = { colors, grain };
     if (!this.garment) return;
     this.color = fabricColor;
     if (grain && !this.grainTexture) this.grainTexture = grainGridTexture(this.renderer.capabilities.getMaxAnisotropy());
@@ -106,11 +111,42 @@ export class ProvaScene {
     if (quality === this.quality) return;
     this.quality = quality;
     this.stage.setQuality(quality);
+    this.rebuildMaterials();
+  }
+
+  private rebuildMaterials() {
     if (!this.garment) return;
     const old = this.garment.material;
-    const groups = garmentGroups(this.stage.fabrics, this.parts, this.garment.geometry.index!.count / 3, this.color, quality);
+    const groups = garmentGroups(this.stage.fabrics, this.parts, this.garment.geometry.index!.count / 3, this.color, this.quality);
     this.garment.material = groups.map((g) => g.material);
     for (const m of Array.isArray(old) ? old : [old]) m.dispose();
+  }
+
+  /**
+   * Foto do tecido cadastrado no molde em prova: `cm` é a largura real que a
+   * foto mostra (o UV da roupa está em mm de tecido, então ela se repete a cada
+   * `cm` × 10 mm, no fio). null volta ao mesclado do preset.
+   */
+  setFabricPhoto(photo: { dataUrl: string; cm: number } | null) {
+    const key = photo ? `${photo.cm}:${photo.dataUrl.length}:${photo.dataUrl.slice(-32)}` : "";
+    if (key === this.photoKey) return;
+    this.photoKey = key;
+    const apply = (texture: THREE.Texture | null) => {
+      this.stage.fabrics.setPhoto(texture);
+      this.rebuildMaterials();
+      if (this.garment) paintGarment(this.garment, this.lastPaint.colors, this.color, this.lastPaint.grain ? this.grainTexture : null);
+    };
+    if (!photo) return apply(null);
+    new THREE.TextureLoader().load(photo.dataUrl, (texture) => {
+      if (this.photoKey !== key) return texture.dispose();
+      texture.colorSpace = THREE.SRGBColorSpace;
+      texture.wrapS = THREE.RepeatWrapping;
+      texture.wrapT = THREE.RepeatWrapping;
+      const mm = Math.max(10, photo.cm * 10);
+      texture.repeat.set(1 / mm, 1 / mm);
+      texture.anisotropy = this.renderer.capabilities.getMaxAnisotropy();
+      apply(texture);
+    });
   }
 
   /** Novas posições da roupa (mesma topologia); o afastamento visual é o do `liftGarment`. */

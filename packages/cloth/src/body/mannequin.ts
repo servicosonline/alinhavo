@@ -43,6 +43,28 @@ const POSES: Record<BodyPose, { arms: [ArmPose, ArmPose]; legs: [LegPose, LegPos
       { abduction: 2, flexion: -12, knee: 4 },
     ],
   },
+  // Cotovelo dobrado, antebraço à frente: a manga no cotovelo.
+  "braco-dobrado": {
+    arms: [
+      { abduction: 12, flexion: 10, elbow: 90 },
+      { abduction: 12, flexion: 10, elbow: 90 },
+    ],
+    legs: [
+      { abduction: 2, flexion: 0, knee: 0 },
+      { abduction: 2, flexion: 0, knee: 0 },
+    ],
+  },
+  // Braços abertos: a cava e a lateral do corpo.
+  "bracos-abertos": {
+    arms: [
+      { abduction: 70, flexion: 0, elbow: 5 },
+      { abduction: 70, flexion: 0, elbow: 5 },
+    ],
+    legs: [
+      { abduction: 4, flexion: 0, knee: 0 },
+      { abduction: 4, flexion: 0, knee: 0 },
+    ],
+  },
 };
 type ArmPose = { abduction: number; flexion: number; elbow: number };
 type LegPose = { abduction: number; flexion: number; knee: number };
@@ -72,7 +94,12 @@ export const LIMB_WHOLE = 3;
 export type BodyConditions = {
   limbs?: Partial<Record<LimbId, number>>;
   belly?: number;
+  /** Altura do salto, em mm (0 = descalço): o corpo sobe, o pé inclina e o salto aparece. */
+  heel?: number;
 };
+
+/** Limites do salto, em mm. */
+export const HEEL_RANGE: readonly [number, number] = [0, 150];
 
 /** Limites da volta da barriga, em mm. */
 export const BELLY_RANGE: readonly [number, number] = [500, 2200];
@@ -151,6 +178,8 @@ export function buildMannequin(
   const shoulderPoints = { left: { x: 0, y: 0, z: 0 }, right: { x: 0, y: 0, z: 0 } };
   const ankles: Vec3[] = [];
   const legLimbs: Limb[] = [];
+  const heelMm = Math.min(HEEL_RANGE[1], Math.max(HEEL_RANGE[0], Number.isFinite(conditions.heel) ? conditions.heel! : 0));
+  const shoes: (Limb | undefined)[] = [];
   const legAxes: { a: Vec3; r: number }[][] = [];
   ([1, -1] as const).forEach((side, k) => {
     // Braço: ombro → cotovelo → punho → mão.
@@ -191,9 +220,20 @@ export function buildMannequin(
   // Pé preso ao tornozelo, apoiado no chão quando o tornozelo está na altura de pé.
   ankles.forEach((ankle, k) => {
     const side = k === 0 ? 1 : -1;
+    // Com salto, o calcanhar sobe junto com o corpo e a ponta do pé desce até o chão.
     const heel = { x: ankle.x, y: ankle.y - (standingAnkleY - 0.018 * H), z: ankle.z - 0.02 * H };
-    const toe = { x: ankle.x + side * 0.01 * H, y: ankle.y - (standingAnkleY - 0.013 * H), z: ankle.z + 0.12 * H };
+    const footLen = 0.14 * H;
+    const drop = heelMm;
+    const toe = {
+      x: ankle.x + side * 0.01 * H,
+      y: ankle.y - (standingAnkleY + drop - 0.013 * H),
+      z: heel.z + Math.sqrt(Math.max(footLen * footLen * 0.25, footLen * footLen - drop * drop)),
+    };
     chains[side === 1 ? "leftLeg" : "rightLeg"].push({ a: heel, b: toe, r1: 0.018 * H, r2: 0.013 * H });
+    if (heelMm > 0) {
+      // O salto do sapato: do calcanhar até o chão (fino embaixo).
+      shoes[k] = { a: heel, b: { x: heel.x, y: heel.y - (0.018 * H + heelMm) + 4, z: heel.z - 0.005 * H }, r1: 0.012 * H, r2: 4 };
+    }
   });
   // Membro cortado: só o que fica entra no desenho e no colisor. Os pontos de
   // referência da perna continuam (a calça sabe onde a perna estaria e cai vazia).
@@ -204,7 +244,11 @@ export function buildMannequin(
   // Na pose de passo as pernas inclinadas encurtam a altura: desce o corpo até o pé mais baixo tocar o chão.
   // Só os pés que ficaram tocam o chão (sem nenhum, vale o corpo inteiro).
   const standing = ankles.filter((_, k) => (conditions.limbs?.[k === 0 ? "leftLeg" : "rightLeg"] ?? LIMB_WHOLE) >= 2);
-  const shift = Math.min(...(standing.length > 0 ? standing : ankles).map((a) => a.y)) - standingAnkleY;
+  const shift = Math.min(...(standing.length > 0 ? standing : ankles).map((a) => a.y)) - (standingAnkleY + heelMm);
+  // Salto só no pé que ficou inteiro.
+  shoes.forEach((shoe, k) => {
+    if (shoe && (conditions.limbs?.[k === 0 ? "leftLeg" : "rightLeg"] ?? LIMB_WHOLE) >= LIMB_WHOLE) legLimbs.push(shoe);
+  });
   const down = (p: Vec3): Vec3 => ({ x: p.x, y: p.y - shift, z: p.z });
   for (const l of legLimbs) limbs.push(l);
   const parts: Limb[] = limbs.map((l) => ({ ...l, a: down(l.a), b: down(l.b) }));
