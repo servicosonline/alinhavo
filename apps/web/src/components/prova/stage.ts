@@ -1,5 +1,6 @@
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
+import { clampLook } from "@/lib/prova/camera";
 import { RoomEnvironment } from "three/examples/jsm/environments/RoomEnvironment.js";
 import type { ProvaPart } from "@/lib/prova/protocol";
 import type { RenderQuality } from "@/lib/prova/quality";
@@ -37,6 +38,8 @@ export class Stage {
   constructor(
     private container: HTMLElement,
     ariaLabel: string,
+    /** Botão do meio move só para cima e para baixo (o corpo fica no centro). Sem isso, também para o lado (grade). */
+    options: { lockHorizontal?: boolean } = {},
   ) {
     this.renderer = new THREE.WebGLRenderer({
       antialias: true,
@@ -97,6 +100,14 @@ export class Stage {
     this.controls.minDistance = 0.6;
     this.controls.maxDistance = 6;
     this.controls.maxPolarAngle = Math.PI * 0.55;
+    // Botão do meio move a câmera (o padrão do three é aproximar, que já é da roda).
+    this.controls.mouseButtons = { LEFT: THREE.MOUSE.ROTATE, MIDDLE: THREE.MOUSE.PAN, RIGHT: THREE.MOUSE.PAN };
+    const axis = options.lockHorizontal ? { x: 0, z: 0 } : null;
+    // No Windows, o clique do meio abre a rolagem automática da página por cima da Prova.
+    this.renderer.domElement.addEventListener("mousedown", (e) => {
+      if (e.button === 1) e.preventDefault();
+    });
+    this.controls.addEventListener("change", () => clampLook(this.controls.target, this.camera.position, axis));
     this.controls.update();
 
     this.resize = new ResizeObserver(() => this.fit());

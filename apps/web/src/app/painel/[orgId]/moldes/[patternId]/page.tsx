@@ -39,7 +39,7 @@ async function Molde({ params }: { params: Params }) {
       .eq("org_id", orgId)
       .maybeSingle(),
     getMyRole(supabase, orgId, user.id),
-    supabase.from("size_charts").select("id, name, sizes(label, position, is_base)").eq("org_id", orgId).order("name"),
+    supabase.from("size_charts").select("id, name, sizes(id, label, position, is_base)").eq("org_id", orgId).order("name"),
     // O produto ligado a este molde (um por molde), para a trilha "Coleção › Produto › Molde".
     supabase.from("products").select("id, name, collection_id, collections(name)").eq("org_id", orgId).eq("pattern_id", patternId).maybeSingle(),
   ]);
@@ -78,6 +78,18 @@ async function Molde({ params }: { params: Params }) {
         }
       : null;
   const canEdit = canEditPatterns(role);
+  // Medidas da tabela ligada, para a Prova ao lado do editor (os tamanhos do molde mudam na tela: casar fica lá).
+  const { data: measurementRows } = linkedSizes.length
+    ? await supabase
+        .from("measurements")
+        .select("size_id, name, value_mm")
+        .in(
+          "size_id",
+          linkedSizes.map((s) => s.id),
+        )
+        .eq("org_id", orgId)
+    : { data: [] as { size_id: string; name: string; value_mm: number }[] };
+  const chartMeasurements = { sizes: linkedSizes.map((s) => ({ id: s.id, label: s.label })), rows: measurementRows ?? [] };
 
   let document: PatternDocument = emptyDocument();
   if (pattern.current_version > 0) {
@@ -144,6 +156,7 @@ async function Molde({ params }: { params: Params }) {
         rail={rail}
         approvalHref={canEdit ? `${base}/moldes/${patternId}/prova` : undefined}
         chartGrade={chartGrade}
+        chartMeasurements={chartMeasurements}
       />
       <ApprovalsList supabase={supabase} orgId={orgId} patternId={pattern.id} canEdit={canEdit} />
     </div>

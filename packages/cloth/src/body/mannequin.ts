@@ -1,5 +1,5 @@
 import type { Collider, Vec3 } from "../collider";
-import { readMeasurements, type BodyMeasurements } from "./measurements";
+import { readMeasurements, type BodyMeasurements, type MeasurementKey } from "./measurements";
 import {
   pchip,
   sdEllipsoid,
@@ -19,7 +19,7 @@ import type { Body, BodyMesh, BodyPose, TorsoSection } from "./types";
  */
 
 type Section = TorsoSection & { exponent: number };
-type Limb = { a: Vec3; b: Vec3; r1: number; r2: number };
+export type Limb = { a: Vec3; b: Vec3; r1: number; r2: number };
 
 /** Ângulos das poses, em graus. Abdução abre para o lado; flexão leva para a frente. */
 const POSES: Record<BodyPose, { arms: [ArmPose, ArmPose]; legs: [LegPose, LegPose] }> = {
@@ -50,17 +50,54 @@ type LegPose = { abduction: number; flexion: number; knee: number };
 const RAD = Math.PI / 180;
 const UP: Vec3 = { x: 0, y: 1, z: 0 };
 
-/** Gera o manequim a partir das medidas da tabela (nome → mm). */
-export function createMannequin(table: Record<string, number>, pose: BodyPose = "em-pe"): Body {
-  return buildMannequin(table, pose).body;
+/** Medidas trocadas na tela, por cima da tabela (ver readMeasurements). */
+export type BodyOverrides = Partial<Record<MeasurementKey, number>>;
+
+/** Membros do corpo; esquerda = +X (lado esquerdo do corpo). */
+export type LimbId = "leftArm" | "rightArm" | "leftLeg" | "rightLeg";
+export const LIMB_IDS: readonly LimbId[] = ["leftArm", "rightArm", "leftLeg", "rightLeg"];
+
+/**
+ * Quanto do membro fica, em peças da corrente: braço = braço (0–1), antebraço
+ * (1–2), mão (2–3); perna = coxa (0–1), canela (1–2), pé (2–3). 3 = inteiro,
+ * 0 = sem o membro, 1,5 = no meio do antebraço (abaixo do cotovelo).
+ */
+export const LIMB_WHOLE = 3;
+
+/**
+ * Condições do corpo além das medidas: membro cortado (quanto fica, ver
+ * LIMB_WHOLE) e barriga de gestante (volta da barriga, mm, no ponto mais
+ * saliente entre a cintura e o quadril; menor que a volta natural ali, nada muda).
+ */
+export type BodyConditions = {
+  limbs?: Partial<Record<LimbId, number>>;
+  belly?: number;
+};
+
+/** Limites da volta da barriga, em mm. */
+export const BELLY_RANGE: readonly [number, number] = [500, 2200];
+
+/** Gera o manequim a partir das medidas da tabela (nome → mm), dos ajustes e das condições da tela. */
+export function createMannequin(
+  table: Record<string, number>,
+  pose: BodyPose = "em-pe",
+  overrides: BodyOverrides = {},
+  conditions: BodyConditions = {},
+): Body {
+  return buildMannequin(table, pose, overrides, conditions).body;
 }
 
 /**
  * Como createMannequin, mas devolve também a distância só do tronco (sem
  * braços), que é o que uma fita métrica mede. Uso interno e nos testes.
  */
-export function buildMannequin(table: Record<string, number>, pose: BodyPose = "em-pe") {
-  const reading = readMeasurements(table);
+export function buildMannequin(
+  table: Record<string, number>,
+  pose: BodyPose = "em-pe",
+  overrides: BodyOverrides = {},
+  conditions: BodyConditions = {},
+) {
+  const reading = readMeasurements(table, overrides);
   const m = reading.values;
   const H = m.altura;
 
@@ -80,7 +117,8 @@ export function buildMannequin(table: Record<string, number>, pose: BodyPose = "
   const neckTopY = Math.max(neckBaseY + 0.02 * H, headC.y - 0.3 * headR.y);
 
   // --- Tronco: seções e interpolação ----------------------------------------
-  const sections = torsoSections(m, { crotchY, hipY, waistY, bustY, shoulderY, neckBaseY, neckTopY });
+  const bellyY = hipY + 0.55 * (waistY - hipY);
+  const sections = torsoSections(m, { crotchY, hipY, waistY, bustY, shoulderY, neckBaseY, neckTopY }, bellyY, conditions.belly);
   const ys = sections.map((s) => s.y);
   const halfWidthAt = pchip(ys, sections.map((s) => s.halfWidth));
   const halfDepthAt = pchip(ys, sections.map((s) => s.halfDepth));
@@ -108,6 +146,8 @@ export function buildMannequin(table: Record<string, number>, pose: BodyPose = "
   const shinLen = 0.285 * H - standingAnkleY;
 
   const limbs: Limb[] = [];
+  /** Corrente de cada membro, inteira (a tela corta depois): ombro → mão, quadril → pé. */
+  const chains: Record<LimbId, Limb[]> = { leftArm: [], rightArm: [], leftLeg: [], rightLeg: [] };
   const shoulderPoints = { left: { x: 0, y: 0, z: 0 }, right: { x: 0, y: 0, z: 0 } };
   const ankles: Vec3[] = [];
   const legLimbs: Limb[] = [];
@@ -121,9 +161,11 @@ export function buildMannequin(table: Record<string, number>, pose: BodyPose = "
     const dFore = limbDirection(side, arm.abduction, arm.flexion + arm.elbow);
     const wrist = add(elbow, scale(dFore, forearmLen));
     const fingertip = add(wrist, scale(dFore, 0.11 * H));
-    limbs.push({ a: joint, b: elbow, r1: rUpperArm, r2: rElbow });
-    limbs.push({ a: elbow, b: wrist, r1: rElbow, r2: rWrist });
-    limbs.push({ a: wrist, b: fingertip, r1: rWrist * 1.1, r2: rWrist * 0.6 });
+    chains[side === 1 ? "leftArm" : "rightArm"].push(
+      { a: joint, b: elbow, r1: rUpperArm, r2: rElbow },
+      { a: elbow, b: wrist, r1: rElbow, r2: rWrist },
+      { a: wrist, b: fingertip, r1: rWrist * 1.1, r2: rWrist * 0.6 },
+    );
     const tip = { x: side * shoulder.halfWidth * 0.97, y: shoulderY, z: shoulder.centerZ };
     if (side === 1) shoulderPoints.left = tip;
     else shoulderPoints.right = tip;
@@ -135,8 +177,10 @@ export function buildMannequin(table: Record<string, number>, pose: BodyPose = "
     const knee = add(hipJoint, scale(dThigh, kneeLen));
     const dShin = limbDirection(side, leg.abduction, leg.flexion - leg.knee);
     const ankle = add(knee, scale(dShin, shinLen));
-    legLimbs.push({ a: hipJoint, b: knee, r1: rThigh, r2: rKnee });
-    legLimbs.push({ a: knee, b: ankle, r1: rKnee, r2: rAnkle });
+    chains[side === 1 ? "leftLeg" : "rightLeg"].push(
+      { a: hipJoint, b: knee, r1: rThigh, r2: rKnee },
+      { a: knee, b: ankle, r1: rKnee, r2: rAnkle },
+    );
     legAxes.push([
       { a: hipJoint, r: rThigh },
       { a: knee, r: rKnee },
@@ -149,10 +193,18 @@ export function buildMannequin(table: Record<string, number>, pose: BodyPose = "
     const side = k === 0 ? 1 : -1;
     const heel = { x: ankle.x, y: ankle.y - (standingAnkleY - 0.018 * H), z: ankle.z - 0.02 * H };
     const toe = { x: ankle.x + side * 0.01 * H, y: ankle.y - (standingAnkleY - 0.013 * H), z: ankle.z + 0.12 * H };
-    legLimbs.push({ a: heel, b: toe, r1: 0.018 * H, r2: 0.013 * H });
+    chains[side === 1 ? "leftLeg" : "rightLeg"].push({ a: heel, b: toe, r1: 0.018 * H, r2: 0.013 * H });
   });
+  // Membro cortado: só o que fica entra no desenho e no colisor. Os pontos de
+  // referência da perna continuam (a calça sabe onde a perna estaria e cai vazia).
+  for (const id of LIMB_IDS) {
+    const kept = cutChain(chains[id], conditions.limbs?.[id] ?? LIMB_WHOLE);
+    (id.endsWith("Arm") ? limbs : legLimbs).push(...kept);
+  }
   // Na pose de passo as pernas inclinadas encurtam a altura: desce o corpo até o pé mais baixo tocar o chão.
-  const shift = Math.min(...ankles.map((a) => a.y)) - standingAnkleY;
+  // Só os pés que ficaram tocam o chão (sem nenhum, vale o corpo inteiro).
+  const standing = ankles.filter((_, k) => (conditions.limbs?.[k === 0 ? "leftLeg" : "rightLeg"] ?? LIMB_WHOLE) >= 2);
+  const shift = Math.min(...(standing.length > 0 ? standing : ankles).map((a) => a.y)) - standingAnkleY;
   const down = (p: Vec3): Vec3 => ({ x: p.x, y: p.y - shift, z: p.z });
   for (const l of legLimbs) limbs.push(l);
   const parts: Limb[] = limbs.map((l) => ({ ...l, a: down(l.a), b: down(l.b) }));
@@ -336,6 +388,7 @@ export function buildMannequin(table: Record<string, number>, pose: BodyPose = "
       crotch: shifted(byName(crotchY)),
       hip: shifted(hip),
       waist: shifted(byName(waistY)),
+      ...(sections.some((s) => s.y === bellyY) ? { belly: shifted(byName(bellyY)) } : {}),
       bust: shifted(byName(bustY)),
       shoulder: shifted(shoulder),
       neck: shifted(byName(neckBaseY)),
@@ -346,7 +399,29 @@ export function buildMannequin(table: Record<string, number>, pose: BodyPose = "
       },
     },
   };
-  return { body, torsoSdf };
+  return { body, torsoSdf, chains };
+}
+
+/**
+ * Corta a corrente do membro: `keep` em peças (0 a LIMB_WHOLE). A peça cortada
+ * no meio termina ali, com o raio daquele ponto (a ponta do cone já é redonda).
+ * Pedaço menor que 5 mm não entra (some com o membro).
+ */
+export function cutChain(chain: readonly Limb[], keep: number): Limb[] {
+  const k = Math.min(chain.length, Math.max(0, Number.isFinite(keep) ? keep : chain.length));
+  const out: Limb[] = [];
+  for (let i = 0; i < chain.length; i++) {
+    const l = chain[i]!;
+    const t = Math.min(1, k - i);
+    if (t <= 0) break;
+    if (t >= 1) {
+      out.push(l);
+      continue;
+    }
+    const b = { x: l.a.x + (l.b.x - l.a.x) * t, y: l.a.y + (l.b.y - l.a.y) * t, z: l.a.z + (l.b.z - l.a.z) * t };
+    if (Math.hypot(b.x - l.a.x, b.y - l.a.y, b.z - l.a.z) >= 5) out.push({ a: l.a, b, r1: l.r1, r2: l.r1 + (l.r2 - l.r1) * t });
+  }
+  return out;
 }
 
 // ---------------------------------------------------------------------------
@@ -366,7 +441,7 @@ type Levels = {
  * exatamente a circunferência da tabela; as intermediárias saem de
  * proporções delas.
  */
-function torsoSections(m: BodyMeasurements, l: Levels): Section[] {
+function torsoSections(m: BodyMeasurements, l: Levels, bellyY: number, belly?: number): Section[] {
   const H = m.altura;
   const byCircumference = (y: number, c: number, aspect: number, exponent: number, zFactor: number): Section => {
     const halfWidth = c / superellipsePerimeter(1, aspect, exponent);
@@ -376,7 +451,7 @@ function torsoSections(m: BodyMeasurements, l: Levels): Section[] {
   const underbustY = l.bustY - 0.035 * H;
   const armpitY = l.bustY + 0.035 * H;
   const shoulderHalfWidth = m.larguraDasCostas / 2 + m.ombro * 0.15;
-  return [
+  const list: Section[] = [
     byCircumference(l.crotchY - 0.01 * H, m.quadril * 0.8, 0.66, 2.4, -0.03),
     byCircumference(l.crotchY, m.quadril * 0.93, 0.68, 2.4, -0.04),
     byCircumference(l.hipY, m.quadril, 0.7, 2.3, -0.06),
@@ -387,7 +462,39 @@ function torsoSections(m: BodyMeasurements, l: Levels): Section[] {
     { y: l.shoulderY, halfWidth: shoulderHalfWidth, halfDepth: shoulderHalfWidth * 0.42, centerZ: -0.02 * shoulderHalfWidth, exponent: 3 },
     byCircumference(l.neckBaseY, m.pescoco * 1.25, 0.85, 2.1, 0),
     byCircumference(l.neckTopY, m.pescoco, 0.9, 2, 0.05),
-  ].sort((a, b) => a.y - b.y);
+  ];
+  if (belly !== undefined && Number.isFinite(belly)) {
+    // Gestante: a barriga avança só pela frente (cresce a profundidade e o centro
+    // anda o mesmo tanto para a frente: as costas não saem do lugar). Quadril e
+    // busto continuam os da tabela; a cintura e o abaixo do busto acompanham em parte.
+    const natural = byCircumference(bellyY, (m.quadril + m.cintura) / 2, 0.72, 2.2, -0.03);
+    const target = Math.min(BELLY_RANGE[1], belly);
+    const grow = frontGrowth(natural, target);
+    if (grow > 0) {
+      const push = (s: Section, d: number): Section => ({ ...s, halfDepth: s.halfDepth + d, centerZ: s.centerZ + d });
+      const at = (y: number) => list.findIndex((s) => s.y === y);
+      list.push(push(natural, grow));
+      const w = at(l.waistY);
+      list[w] = push(list[w]!, grow * 0.75);
+      const u = at(underbustY);
+      list[u] = push(list[u]!, grow * 0.3);
+    }
+  }
+  return list.sort((a, b) => a.y - b.y);
+}
+
+/** Quanto a frente precisa avançar (mm) para a volta da seção chegar a `target` (0 se já chega). */
+function frontGrowth(s: Section, target: number): number {
+  const perimeter = (d: number) => superellipsePerimeter(s.halfWidth, s.halfDepth + d, s.exponent);
+  if (perimeter(0) >= target) return 0;
+  let lo = 0;
+  let hi = 2000;
+  for (let i = 0; i < 60; i++) {
+    const mid = (lo + hi) / 2;
+    if (perimeter(mid) < target) lo = mid;
+    else hi = mid;
+  }
+  return (lo + hi) / 2;
 }
 
 function limbDirection(side: 1 | -1, abductionDeg: number, flexionDeg: number): Vec3 {

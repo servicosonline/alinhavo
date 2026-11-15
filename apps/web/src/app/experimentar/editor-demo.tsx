@@ -5,7 +5,12 @@ import { useMemo, useState } from "react";
 import { PatternEditor } from "@/components/editor/pattern-editor";
 import { ui } from "@/components/ui";
 import { EXAMPLES, exampleDocument, isExampleId, type ExampleId } from "@/lib/examples";
+import type { SideProva } from "@/components/editor/prova-side";
+import { demoMeasurements } from "@/lib/prova/demo-measurements";
 import { saveForProva } from "@/lib/prova/handoff";
+
+/** Prova ao lado com a tabela de demonstração (a mesma do /experimentar/prova). */
+const DEMO_PROVA: SideProva = { measurementsFor: demoMeasurements };
 
 /**
  * Editor de demonstração com os moldes de exemplo e o botão "Provar" (o
@@ -46,6 +51,7 @@ export function EditorDemo() {
           { icon: "prova", label: "Prova 3D", href: "/experimentar/prova" },
           { icon: "scan", label: "Scan", href: "/experimentar/scan" },
         ]}
+        sideProva={DEMO_PROVA}
         onTryOn={(d) => {
           saveForProva(d);
           router.push("/experimentar/prova");

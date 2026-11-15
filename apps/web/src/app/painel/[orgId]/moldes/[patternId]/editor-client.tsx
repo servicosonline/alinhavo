@@ -2,8 +2,10 @@
 
 import type { PatternDocument } from "@alinhavo/geometry";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useMemo, useState } from "react";
+import type { SideProva } from "@/components/editor/prova-side";
 import { saveForProva } from "@/lib/prova/handoff";
+import { measurementsBySize, type ChartSizeRow, type MeasurementRow } from "@/lib/prova/measurements";
 import { PatternEditor, type ChartGrade, type EditorRailItem } from "@/components/editor/pattern-editor";
 import { savePatternVersion } from "../actions";
 
@@ -19,6 +21,7 @@ export function EditorClient({
   trail,
   rail,
   approvalHref,
+  chartMeasurements,
 }: {
   orgId: string;
   patternId: string;
@@ -30,8 +33,15 @@ export function EditorClient({
   trail?: React.ReactNode;
   rail?: EditorRailItem[];
   approvalHref?: string;
+  /** Tamanhos e medidas da tabela ligada (vazios sem tabela: o corpo estima). */
+  chartMeasurements: { sizes: ChartSizeRow[]; rows: MeasurementRow[] };
 }) {
   const [version, setVersion] = useState(initialVersion);
+  // Prova ao lado: as medidas casam com a grade do molde como está na tela.
+  const sideProva = useMemo<SideProva>(
+    () => ({ measurementsFor: (doc) => measurementsBySize(doc.sizes, chartMeasurements.sizes, chartMeasurements.rows).bySize }),
+    [chartMeasurements],
+  );
   const router = useRouter();
   return (
     <PatternEditor
@@ -43,6 +53,7 @@ export function EditorClient({
       trail={trail}
       rail={rail}
       approvalHref={version === 0 ? undefined : approvalHref}
+      sideProva={sideProva}
       onTryOn={
         version === 0
           ? undefined // a Prova do painel parte de uma versão salva

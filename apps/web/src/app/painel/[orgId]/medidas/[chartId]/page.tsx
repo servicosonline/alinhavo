@@ -10,6 +10,7 @@ import { createClient } from "@/lib/supabase/server";
 import { sizeAction } from "../actions";
 import { AddSizeForm } from "../forms";
 import { MeasurementGrid } from "./measurement-grid";
+import { findTemplate } from "@/lib/size-chart-templates";
 
 type Params = PageProps<"/painel/[orgId]/medidas/[chartId]">["params"];
 
@@ -29,7 +30,7 @@ async function Tabela({ params }: { params: Params }) {
   const supabase = await createClient();
 
   const [chartRes, role, sizesRes] = await Promise.all([
-    supabase.from("size_charts").select("id, name").eq("id", chartId).eq("org_id", orgId).maybeSingle(),
+    supabase.from("size_charts").select("id, name, template").eq("id", chartId).eq("org_id", orgId).maybeSingle(),
     getMyRole(supabase, orgId, user.id),
     supabase.from("sizes").select("id, label, position, is_base").eq("size_chart_id", chartId).order("position"),
   ]);
@@ -37,6 +38,7 @@ async function Tabela({ params }: { params: Params }) {
   if (!chart) notFound();
   const sizes = sizesRes.data ?? [];
   const canEdit = canEditPatterns(role);
+  const model = findTemplate(chart.template);
 
   const { data: measurements } = sizes.length
     ? await supabase.from("measurements").select("size_id, name, value_mm").in(
@@ -110,7 +112,13 @@ async function Tabela({ params }: { params: Params }) {
         <h2 id="medidas" className={ui.h2}>
           Medidas
         </h2>
-        <MeasurementGrid orgId={orgId} chartId={chartId} sizes={sizes} values={values} canEdit={canEdit} />
+        {model && !model.values && (
+          <p className="rounded-lg bg-papel-escuro px-3 py-2 text-xs text-tinta" data-template-note>
+            Tabela pronta <strong>{model.name}</strong>: as medidas e o jeito de medir já estão aqui. Os valores de referência ({model.reference})
+            ainda não foram incluídos; preencha com as medidas da sua marca. O que ficar vazio, o manequim da Prova estima pela altura.
+          </p>
+        )}
+        <MeasurementGrid orgId={orgId} chartId={chartId} sizes={sizes} values={values} canEdit={canEdit} template={chart.template} />
       </section>
     </div>
   );

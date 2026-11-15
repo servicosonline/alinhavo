@@ -2,7 +2,8 @@
 
 import type { PatternDocument } from "@alinhavo/geometry";
 import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
-import type { MapSummary } from "@alinhavo/cloth";
+import { createPortal } from "react-dom";
+import type { BodyConditions, BodyOverrides, MapSummary } from "@alinhavo/cloth";
 import { heat, LOOSE_MM } from "@/lib/prova/colors";
 import type { ProvaEdges } from "@/lib/prova/edges";
 import type { FabricId, FromWorker, PoseId, ProvaMaps, ProvaPart, ToWorker } from "@/lib/prova/protocol";
@@ -14,6 +15,7 @@ import { ui } from "../ui";
 import { addCaptures, type Capture } from "@/lib/prova/captures";
 import { AdjustPanel, type ProvaSaveMode } from "./adjust-panel";
 import { ApprovalRequest, type ApprovalRequester } from "./approval-request";
+import { BodyPanel } from "./body-panel";
 import { CapturesPanel } from "./captures-panel";
 import { CatalogPhotoRequest, type CatalogPhotoRequester } from "./catalog-photo-request";
 import { VideoPanel } from "./video-panel";
@@ -25,6 +27,9 @@ import type { ProvaScene } from "./scene";
 const FABRICS: { id: FabricId; name: string }[] = (["planoLeve", "malha", "jeans"] as const).map((id) => ({ id, name: FABRIC_NAME[id] }));
 /** Sem roupas para o look, o painel do look não aparece. */
 const NO_LOOK: LookOption[] = [];
+/** Corpo só pela tabela (sem medida trocada na tela). */
+const NO_BODY: BodyOverrides = {};
+const NO_CONDITIONS: BodyConditions = {};
 /** O aparelho não muda durante a página: nada a assinar. */
 const noSubscribe = () => () => {};
 /** Qualidade sugerida pelo aparelho; no servidor, "alta" (o cliente corrige ao hidratar). */
@@ -115,9 +120,16 @@ type Props = {
   catalogPhoto?: CatalogPhotoRequester;
   /** Outras roupas que podem entrar no look (sem elas, não há look). */
   lookOptions?: LookOption[];
+  /**
+   * Tela dividida com o editor: os controles vão para este elemento (o painel
+   * lateral do editor) e somem captura e vídeo, que ficam na página da Prova.
+   * `null` = o elemento ainda está montando.
+   */
+  controlsTarget?: HTMLElement | null;
 };
 
-export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, approval, catalogPhoto, lookOptions = NO_LOOK }: Props) {
+export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, approval, catalogPhoto, lookOptions = NO_LOOK, controlsTarget }: Props) {
+  const split = controlsTarget !== undefined;
   // Molde em prova: começa no que veio da página e muda a cada ajuste aplicado.
   // Se a página mandar outro molde (versão nova salva), recomeça dele.
   const [work, setWork] = useState({ source: sourceDoc, doc: sourceDoc });
@@ -131,9 +143,18 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
   const viewRef = useRef<HTMLDivElement>(null);
   const sceneRef = useRef<ProvaScene | null>(null);
   const workerRef = useRef<Worker | null>(null);
-  const [size, setSize] = useState(doc.baseSize);
+  const [sizeChoice, setSize] = useState(doc.baseSize);
+  // Na tela dividida a grade muda no editor: tamanho que saiu volta ao base.
+  const size = doc.sizes.includes(sizeChoice) ? sizeChoice : doc.baseSize;
   const [fabric, setFabric] = useState<FabricId>("planoLeve");
   const [pose, setPose] = useState<PoseId>("em-pe");
+  // Medidas do corpo trocadas na tela: valem para um tamanho; trocar o tamanho volta à tabela.
+  const [bodyBy, setBodyBy] = useState<{ size: string; overrides: BodyOverrides }>({ size: doc.baseSize, overrides: NO_BODY });
+  const body = bodyBy.size === size ? bodyBy.overrides : NO_BODY;
+  const setBody = useCallback((overrides: BodyOverrides) => setBodyBy({ size, overrides }), [size]);
+  const table = measurementsBySize[size] ?? NO_BODY;
+  // Condições (membro cortado, gestante) são da pessoa, não do tamanho: ficam ao trocar o tamanho.
+  const [conditions, setConditions] = useState<BodyConditions>(NO_CONDITIONS);
   const deviceQuality = useDeviceQuality();
   /** null = a do aparelho (`defaultQuality`), até a pessoa escolher. */
   const [chosenQuality, setChosenQuality] = useState<RenderQuality | null>(null);
@@ -236,7 +257,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
 
   // Trocar tamanho, tecido, pose ou o molde monta a Prova de novo; as capturas antigas
   // mostram outra roupa, então saem (a aprovação guarda uma configuração só).
-  const setupKey = `${size}|${fabric}|${pose}|${look.map((i) => `${i.key}:${i.fabric}`).join(",")}`;
+  const setupKey = `${size}|${fabric}|${pose}|${JSON.stringify(body)}|${JSON.stringify(conditions)}|${look.map((i) => `${i.key}:${i.fabric}`).join(",")}`;
   const [capturedFor, setCapturedFor] = useState({ setupKey, doc, video: 0 });
   /** O vídeo 360° gravado (vai junto no pedido de aprovação). */
   const [video, setVideo] = useState<Blob | null>(null);
@@ -286,8 +307,8 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
     if (!worker) return;
     setStatus({ kind: "loading" });
     const measurements = measurementsBySize[size] ?? {};
-    worker.postMessage({ type: "init", setup: { doc, size, measurements, fabric, pose, layer, extras } } satisfies ToWorker);
-  }, [doc, size, fabric, pose, measurementsBySize, color, layer, extras]);
+    worker.postMessage({ type: "init", setup: { doc, size, measurements, fabric, pose, body, conditions, layer, extras } } satisfies ToWorker);
+  }, [doc, size, fabric, pose, body, conditions, measurementsBySize, color, layer, extras]);
 
   // A borda escolhida (pelo clique ou pela lista) fica destacada na roupa.
   useEffect(() => {
@@ -295,7 +316,8 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
   }, [selected]);
 
   const applied = (next: PatternDocument, text: string) => {
-    setWork({ source: sourceDoc, doc: next });
+    // Na tela dividida o molde volta pelo editor (vira o doc da página): mudar aqui remontaria duas vezes.
+    if (saveMode.kind !== "editor") setWork({ source: sourceDoc, doc: next });
     setSelected(null);
     setNotice(text);
   };
@@ -348,17 +370,17 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
   const restart = () => {
     workerRef.current?.postMessage({
       type: "init",
-      setup: { doc, size, measurements: measurementsBySize[size] ?? {}, fabric, pose, layer, extras },
+      setup: { doc, size, measurements: measurementsBySize[size] ?? {}, fabric, pose, body, conditions, layer, extras },
     } satisfies ToWorker);
     setStatus({ kind: "loading" });
   };
 
-  return (
-    <div className="grid gap-3 lg:grid-cols-[1fr_18rem]">
+  const stage = (
+    <>
       {mode === "grade" && <GradeView doc={doc} measurementsBySize={measurementsBySize} fabric={fabric} pose={pose} color={color} view={view === "fio" ? "tecido" : view} layer={layer} extras={extras} quality={quality} />}
       <div
         ref={viewRef}
-        className={`${mode === "grade" ? "hidden" : "relative"} h-[60vh] min-h-[22rem] overflow-hidden rounded-lg border border-tinta/15 bg-papel lg:h-[calc(100vh-10rem)]`}
+        className={`${mode === "grade" ? "hidden" : "relative"} h-[60vh] min-h-[22rem] overflow-hidden rounded-lg border border-tinta/15 bg-papel ${split ? "lg:h-[calc(100vh-15rem)]" : "lg:h-[calc(100vh-10rem)]"}`}
       >
         {status.kind === "loading" && (
           <p className="absolute inset-x-0 top-3 text-center text-xs text-tinta-suave" role="status">
@@ -366,7 +388,10 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
           </p>
         )}
       </div>
+    </>
+  );
 
+  const controls = (
       <aside className="space-y-4" aria-label="Controles da Prova">
         <div className={`${ui.card} space-y-3 p-4`}>
           <div className="grid grid-cols-2 gap-1" role="radiogroup" aria-label="Provar">
@@ -449,6 +474,17 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
           </div>
         </div>
 
+        {mode === "um" && (
+          <BodyPanel
+            table={table}
+            overrides={body}
+            conditions={conditions}
+            onChange={setBody}
+            onConditions={setConditions}
+            disabled={status.kind === "loading"}
+          />
+        )}
+
         {lookOptions.length > 0 && (
           <LookPanel look={look} options={lookOptions} mainFabric={fabric} onChange={setLook} disabled={status.kind === "loading"} />
         )}
@@ -509,6 +545,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
           </p>
         ) : (
           <>
+        {!split && (
         <CapturesPanel
           captures={captures}
           onCapture={capture}
@@ -522,7 +559,9 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
           {approval && <ApprovalRequest requester={approval} settings={{ size, fabric, pose }} captures={captures} video={video} />}
           {catalogPhoto && <CatalogPhotoRequest requester={catalogPhoto} captures={captures} />}
         </CapturesPanel>
+        )}
 
+        {!split && (
         <VideoPanel
           key={capturedFor.video}
           record={recordVideo}
@@ -530,6 +569,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
           disabled={status.kind !== "running" && status.kind !== "paused"}
           onChange={setVideo}
         />
+        )}
 
         <AdjustPanel
           doc={doc}
@@ -580,9 +620,23 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
           </>
         )}
         <p className="text-xs text-tinta-suave">
-          Arraste para girar, use a roda ou dois dedos para aproximar.{mode === "um" ? " Clique numa borda para ajustar o molde." : ""}
+          Arraste para girar; segure o botão do meio (ou o direito) e arraste para subir e descer; a roda ou dois dedos aproximam.{mode === "um" ? " Clique numa borda para ajustar o molde." : ""}
         </p>
       </aside>
+  );
+
+  if (split) {
+    return (
+      <div className="min-w-0" data-prova-split>
+        {stage}
+        {controlsTarget && createPortal(controls, controlsTarget)}
+      </div>
+    );
+  }
+  return (
+    <div className="grid gap-3 lg:grid-cols-[1fr_18rem]">
+      {stage}
+      {controls}
     </div>
   );
 }

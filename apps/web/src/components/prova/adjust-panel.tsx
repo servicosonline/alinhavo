@@ -11,11 +11,14 @@ import { ui } from "../ui";
  * O que a Prova faz com um ajuste:
  * - save: grava uma versão nova do molde (painel, quem pode editar);
  * - local: só muda a Prova na tela (demonstração, sem onde salvar);
+ * - editor: volta para o editor ao lado (tela dividida), como uma edição que
+ *   se desfaz; salvar continua sendo no editor;
  * - readonly: mostra, mas não aplica (quem só tem leitura).
  */
 export type ProvaSaveMode =
   | { kind: "save"; nextVersion: number; unsaved: boolean; onSave: (doc: PatternDocument, message: string) => Promise<SaveResult> }
   | { kind: "local" }
+  | { kind: "editor"; onApply: (doc: PatternDocument, message: string) => void }
   | { kind: "readonly" };
 
 const key = (e: SeamEdge) => `${e.piece}#${e.segment}`;
@@ -109,6 +112,11 @@ function AdjustForm({
     }
     const skippedNote =
       result.skipped.length > 0 ? ` Não deu para mover: ${result.skipped.map((s) => edgeLabel(doc, s)).join("; ")}.` : "";
+    if (mode.kind === "editor") {
+      mode.onApply(result.doc, result.message);
+      onApplied(result.doc, `Ajuste levado ao molde: ${result.message.replace(/^Prova: /, "")}. Ctrl+Z desfaz; salve no editor.${skippedNote}`);
+      return;
+    }
     if (mode.kind === "local") {
       onApplied(result.doc, `Ajuste aplicado só na tela: ${result.message.replace(/^Prova: /, "")}.${skippedNote}`);
       return;
@@ -170,6 +178,7 @@ function AdjustForm({
       {mode.kind === "save" && mode.unsaved && (
         <p className="text-[11px] text-linha">As alterações não salvas do editor entram junto nesta versão.</p>
       )}
+      {mode.kind === "editor" && <p className="text-[11px] text-tinta-suave">O ajuste muda o molde no editor ao lado; ainda não salva versão.</p>}
       {mode.kind === "local" && <p className="text-[11px] text-tinta-suave">Na demonstração, o ajuste vale só nesta tela.</p>}
       {mode.kind === "readonly" && <p className="text-[11px] text-tinta-suave">Só donos, admins e modelistas salvam ajustes no molde.</p>}
       {error && (
@@ -180,7 +189,7 @@ function AdjustForm({
 
       <div className="flex gap-2">
         <button type="submit" className={`${ui.buttonPrimary} flex-1`} disabled={disabled || busy || mode.kind === "readonly"}>
-          {mode.kind === "save" ? (busy ? "Salvando…" : `Salvar como versão ${mode.nextVersion}`) : "Aplicar na Prova"}
+          {mode.kind === "save" ? (busy ? "Salvando…" : `Salvar como versão ${mode.nextVersion}`) : mode.kind === "editor" ? "Aplicar no molde" : "Aplicar na Prova"}
         </button>
         <button type="button" className={ui.buttonGhost} onClick={onCancel}>
           Cancelar

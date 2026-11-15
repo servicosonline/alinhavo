@@ -45,7 +45,7 @@ Rascunho para orientar a Fase 0. Toda tabela de negócio tem `org_id`, `created_
 | Tabela | Campos principais |
 |---|---|
 | `clients` | org_id, nome (o cliente da confecção, opcional) |
-| `size_charts` | org_id, client_id?, nome, unidade |
+| `size_charts` | org_id, client_id?, nome, unidade, template? (tabela pronta de onde partiu, id em `lib/size-chart-templates.ts`; só na criação) |
 | `sizes` | size_chart_id, rótulo (P, M, 38…), ordem, base (bool) |
 | `measurements` | size_id, medida (busto, cintura…), valor_mm |
 | `avatars` | org_id, size_id, parâmetros do corpo (jsonb), arquivo no Storage |
@@ -59,6 +59,9 @@ Rascunho para orientar a Fase 0. Toda tabela de negócio tem `org_id`, `created_
 | `products` | org_id, collection_id, referência, nome, status, size_chart_id |
 | `tech_packs` | product_id, dados (jsonb, formato 1; fichas novas levam o texto técnico e o desenho técnico plano, campos opcionais), versão |
 | `comments` | org_id, alvo (produto/prova), autor, texto |
+| `product_status_events` | org_id, product_id, status, entered_at, backfilled. Só o banco escreve (gatilho em `products`); `production_stage_times(org)` dá média e mediana por estágio e da ideia à produção, para o dono (e o superadmin) |
+
+Superadmin da plataforma: `platform_admins` (user_id). Ninguém lê nem escreve pelo app; entra por SQL (ver `07-deploy.md`). `am_platform_admin()` diz à tela se mostra `/painel/admin`; `platform_orgs()` lista as organizações.
 
 ## Molde
 

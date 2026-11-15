@@ -52,6 +52,7 @@ import { ui } from "../ui";
 import { PatternCanvas, type DragTarget, type Selection } from "./canvas";
 import { ExportMenu } from "./export-menu";
 import { FinishesPanel } from "./finishes-panel";
+import { ProvaSide, type SideProva } from "./prova-side";
 import { CmField, TextField } from "../fields";
 import { useHistory } from "./use-history";
 
@@ -78,7 +79,12 @@ type Props = {
   rail?: EditorRailItem[];
   /** "Pedir aprovação" na barra (leva à Prova, onde a aprovação é pedida). */
   approvalHref?: string;
+  /** Prova 3D ao lado do editor (tela dividida). Sem ela, o botão "Prova ao lado" não aparece. */
+  sideProva?: SideProva;
 };
+
+/** Na tela dividida, o painel da direita mostra as propriedades do molde ou os controles da Prova. */
+type SideTab = "molde" | "prova";
 
 export type EditorRailItem = { icon: ModuleIconName; label: string; href?: string; active?: boolean };
 
@@ -98,7 +104,7 @@ function openSeams(doc: PatternDocument): string[] {
 
 const snapMm = (v: number) => Math.round(v); // arrastar encaixa no mm inteiro
 
-export function PatternEditor({ initialDocument, title, subtitle, readOnly = false, onSave, chartGrade = null, onTryOn, trail, rail, approvalHref }: Props) {
+export function PatternEditor({ initialDocument, title, subtitle, readOnly = false, onSave, chartGrade = null, onTryOn, trail, rail, approvalHref, sideProva }: Props) {
   const history = useHistory(initialDocument);
   const doc = history.value;
   const [selection, setSelection] = useState<Selection>(null);
@@ -112,12 +118,22 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
   /** Segmento esperando o par para virar costura ("Costurar com…"). */
   const [sewFrom, setSewFrom] = useState<{ pieceId: string; index: number } | null>(null);
   const dragStart = useRef<PatternDocument | null>(null);
+  const [split, setSplit] = useState(false);
+  const [sideTab, setSideTab] = useState<SideTab>("molde");
+  /** Onde a Prova ao lado põe os controles (elemento do painel da direita). */
+  const [provaControls, setProvaControls] = useState<HTMLDivElement | null>(null);
   const viewSize = viewSizeChoice && doc.sizes.includes(viewSizeChoice) ? viewSizeChoice : doc.baseSize;
   const viewingBase = viewSize === doc.baseSize;
 
   const dirty = doc !== saved;
   const errors = useMemo(() => validatePattern(doc), [doc]);
   const seamAlerts = useMemo(() => openSeams(doc), [doc]);
+  const tryOnBlocked =
+    errors.length > 0
+      ? "Corrija os erros do molde antes de provar."
+      : !doc.pieces.some((p) => p.placement)
+        ? "Escolha o lado do corpo de pelo menos uma parte (seção Na Prova)."
+        : null;
 
   // Seleção some se o item deixou de existir (desfazer, apagar).
   const sel = useMemo<Selection>(() => {
@@ -283,17 +299,28 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
               type="button"
               className={`${ui.buttonPrimary} py-1.5`}
               onClick={() => onTryOn(doc)}
-              disabled={errors.length > 0 || !doc.pieces.some((p) => p.placement)}
-              title={
-                errors.length > 0
-                  ? "Corrija os erros do molde antes de provar."
-                  : !doc.pieces.some((p) => p.placement)
-                    ? "Escolha o lado do corpo de pelo menos uma parte (seção Na Prova)."
-                    : "Ver o molde costurado no manequim"
-              }
+              disabled={tryOnBlocked !== null}
+              title={tryOnBlocked ?? "Ver o molde costurado no manequim"}
             >
               <ModuleIcon name="prova" className="size-4" />
               Provar
+            </button>
+          )}
+          {sideProva && (
+            <button
+              type="button"
+              className={ui.buttonGhost}
+              aria-pressed={split}
+              data-split-toggle
+              onClick={() => {
+                setSplit(!split);
+                setSideTab(split ? "molde" : "prova");
+                // Enquadra depois que o quadro mudou de largura.
+                requestAnimationFrame(() => setFitKey((k) => k + 1));
+              }}
+              title="Editar o molde e ver a Prova 3D lado a lado"
+            >
+              {split ? "Fechar a Prova" : "Prova ao lado"}
             </button>
           )}
         </div>
@@ -360,7 +387,18 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
         </p>
       )}
 
-      <div className={`grid ${rail?.length ? "lg:grid-cols-[3.5rem_1fr_21rem]" : "lg:grid-cols-[1fr_21rem]"}`}>
+      <div
+        className={`grid ${
+          rail?.length
+            ? split
+              ? "lg:grid-cols-[3.5rem_1fr_1fr_21rem]"
+              : "lg:grid-cols-[3.5rem_1fr_21rem]"
+            : split
+              ? "lg:grid-cols-[1fr_1fr_21rem]"
+              : "lg:grid-cols-[1fr_21rem]"
+        }`}
+        data-split={split ? "on" : "off"}
+      >
         {rail && rail.length > 0 && (
           <nav aria-label="Módulos" className="hidden border-r border-tinta/10 py-3 lg:block">
             <ul className="flex flex-col items-center gap-2">
@@ -399,7 +437,40 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
           />
         </div>
 
+        {split && sideProva && (
+          <div className="border-t border-tinta/10 lg:border-t-0 lg:border-l">
+            <ProvaSide
+              doc={doc}
+              ready={tryOnBlocked === null}
+              notReady={tryOnBlocked ?? ""}
+              readOnly={readOnly}
+              prova={sideProva}
+              controlsTarget={provaControls}
+              onApply={apply}
+            />
+          </div>
+        )}
+
         <aside className="space-y-4 border-t border-tinta/10 bg-white p-4 lg:max-h-[calc(100vh-15rem)] lg:overflow-y-auto lg:border-t-0 lg:border-l" aria-label="Propriedades">
+          {split && (
+            <div className="grid grid-cols-2 gap-1" role="tablist" aria-label="Painel">
+              {(["molde", "prova"] as const).map((t) => (
+                <button
+                  key={t}
+                  type="button"
+                  role="tab"
+                  aria-selected={sideTab === t}
+                  data-side-tab={t}
+                  className={`rounded-md border px-2 py-1.5 text-sm ${sideTab === t ? "border-tinta bg-tinta text-papel" : "border-tinta/20 hover:bg-papel-escuro"}`}
+                  onClick={() => setSideTab(t)}
+                >
+                  {t === "molde" ? "Molde" : "Prova"}
+                </button>
+              ))}
+            </div>
+          )}
+          {split && <div ref={setProvaControls} className={sideTab === "prova" ? "" : "hidden"} data-prova-controls />}
+          <div className={split && sideTab === "prova" ? "hidden" : "space-y-4"}>
           {!piece && (
             <GradePanel
               doc={doc}
@@ -570,6 +641,7 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
               {status.text}
             </p>
           )}
+          </div>
         </aside>
       </div>
     </div>

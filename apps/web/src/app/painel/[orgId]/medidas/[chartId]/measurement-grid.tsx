@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { useState, useTransition } from "react";
 import { CmField } from "@/components/fields";
 import { ui } from "@/components/ui";
+import { findTemplate, gridRows } from "@/lib/size-chart-templates";
 import { removeMeasurementRow, saveMeasurement } from "../actions";
 
 type Size = { id: string; label: string };
@@ -30,6 +31,7 @@ export function MeasurementGrid({
   sizes,
   values,
   canEdit,
+  template = null,
 }: {
   orgId: string;
   chartId: string;
@@ -37,6 +39,8 @@ export function MeasurementGrid({
   /** nome da medida → id do tamanho → mm */
   values: Record<string, Record<string, number>>;
   canEdit: boolean;
+  /** Modelo de onde a tabela partiu: as medidas dele aparecem mesmo sem valor. */
+  template?: string | null;
 }) {
   const router = useRouter();
   const [pending, startTransition] = useTransition();
@@ -44,7 +48,9 @@ export function MeasurementGrid({
   const [newRow, setNewRow] = useState("");
   const [error, setError] = useState<string | null>(null);
 
-  const rows = [...Object.keys(values), ...extraRows.filter((r) => !(r in values))];
+  const model = findTemplate(template);
+  const rows = gridRows(model, [...Object.keys(values), ...extraRows]);
+  const howTo = new Map(model?.measurements.map((m) => [m.name, m.howTo]));
 
   function commit(sizeId: string, name: string, mm: number | null) {
     setError(null);
@@ -82,8 +88,13 @@ export function MeasurementGrid({
             )}
             {rows.map((name) => (
               <tr key={name} className="border-b border-tinta/5 last:border-0">
-                <th scope="row" className="px-3 py-1.5 text-left font-normal capitalize">
-                  {name}
+                <th scope="row" className="px-3 py-1.5 text-left font-normal">
+                  <span className="capitalize">{name}</span>
+                  {howTo.has(name) && (
+                    <span className="block max-w-56 text-[11px] leading-snug text-tinta-suave" data-how-to={name}>
+                      {howTo.get(name)}
+                    </span>
+                  )}
                 </th>
                 {sizes.map((s) => {
                   const mm = values[name]?.[s.id] ?? null;
@@ -114,7 +125,7 @@ export function MeasurementGrid({
                           apagar
                         </button>
                       </form>
-                    ) : (
+                    ) : extraRows.includes(name) ? (
                       <button
                         type="button"
                         className="text-xs text-tinta-suave hover:text-linha"
@@ -122,7 +133,7 @@ export function MeasurementGrid({
                       >
                         tirar
                       </button>
-                    )}
+                    ) : null}
                   </td>
                 )}
               </tr>

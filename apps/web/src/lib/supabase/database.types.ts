@@ -95,7 +95,7 @@ type PatternOrigin = "editor" | "prova" | "scan" | "importacao";
 
 type Timestamps = { created_at: string; updated_at: string };
 type ClientRow = { id: string; org_id: string; name: string } & Timestamps;
-type SizeChartRow = { id: string; org_id: string; client_id: string | null; name: string } & Timestamps;
+type SizeChartRow = { id: string; org_id: string; client_id: string | null; name: string; template: string | null } & Timestamps;
 type SizeRow = {
   id: string;
   org_id: string;
@@ -173,6 +173,17 @@ export type PublicApproval = {
 };
 
 export type ProductStatus = "ideia" | "modelagem" | "prova" | "aprovado" | "producao";
+/** Entrada do produto num estágio (só o banco escreve). */
+type ProductStatusEventRow = { id: number; org_id: string; product_id: string; status: ProductStatus; entered_at: string; backfilled: boolean };
+/** Tempo por estágio (production_stage_times): `stage` é um ProductStatus ou "total". Segundos. */
+export type StageTimeRow = {
+  stage: string;
+  done_count: number;
+  done_avg_seconds: number | null;
+  done_median_seconds: number | null;
+  current_count: number;
+  current_avg_seconds: number | null;
+};
 type CollectionRow = {
   id: string;
   org_id: string;
@@ -429,7 +440,7 @@ export type Database = {
       };
       size_charts: {
         Row: SizeChartRow;
-        Insert: { org_id: string; name: string; client_id?: string | null };
+        Insert: { org_id: string; name: string; client_id?: string | null; template?: string | null };
         Update: { name?: string; client_id?: string | null };
         Relationships: [
           Fk<"size_charts_org_id_fkey", "org_id", "orgs">,
@@ -468,6 +479,12 @@ export type Database = {
         Insert: { org_id: string; name: string; season?: string | null; starts_on?: string | null; launch_on?: string | null };
         Update: { name?: string; season?: string | null; starts_on?: string | null; launch_on?: string | null; archived_at?: string | null };
         Relationships: [Fk<"collections_org_id_fkey", "org_id", "orgs">];
+      };
+      product_status_events: {
+        Row: ProductStatusEventRow;
+        Insert: never;
+        Update: never;
+        Relationships: [OrgFk<"product_status_events_product_id_org_id_fkey", "product_id", "products">];
       };
       products: {
         Row: ProductRow;
@@ -695,6 +712,9 @@ export type Database = {
         Args: { p_id: string; p_ok: boolean; p_model?: string | null; p_input_tokens?: number | null; p_output_tokens?: number | null };
         Returns: undefined;
       };
+      production_stage_times: { Args: { p_org_id: string | null }; Returns: StageTimeRow[] };
+      platform_orgs: { Args: Record<string, never>; Returns: { id: string; name: string; created_at: string; members: number; products: number }[] };
+      am_platform_admin: { Args: Record<string, never>; Returns: boolean };
       ai_generations_this_month: { Args: { p_org_id: string; p_kind?: AiGenerationKind }; Returns: number };
       create_api_key: { Args: { p_org_id: string; p_name: string }; Returns: { id: string; secret: string; prefix: string }[] };
       revoke_api_key: { Args: { p_id: string }; Returns: undefined };
