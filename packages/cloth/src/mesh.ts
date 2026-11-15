@@ -44,6 +44,13 @@ export type MeshOptions = {
   size?: string;
   /** Distância alvo entre vértices, em mm. Padrão: 10. */
   spacing?: number;
+  /**
+   * Eixo de simetria da parte (a linha da dobra de uma peça aberta, em
+   * `Garment.foldLine`): os pontos internos saem de uma metade e do espelho
+   * dela, e a malha fica simétrica. Sem ele, a grade parte do canto da caixa
+   * e as duas metades saem diferentes: na Prova, a roupa assenta torta.
+   */
+  mirror?: { from: Point; to: Point };
 };
 
 const MIN_SPACING = 2;
@@ -66,15 +73,22 @@ export function meshPiece(source: Piece, options: MeshOptions = {}): PieceMesh {
 
   const grain = grainDirection(piece);
   const nb = border.points.length;
-  const points = [...border.points, ...latticeInside(border.points, grain, spacing)];
-  smoothBand(points, nb, triangulate(points, nb), border.points, spacing);
+  const axis = options.mirror ? mirrorAxis(options.mirror) : null;
+  // Com eixo: uma fileira de pontos sobre a dobra, presa como arestas. Nenhum
+  // triângulo atravessa o eixo (um trapézio simétrico tem os quatro cantos no
+  // mesmo círculo e a diagonal sairia de um lado só).
+  const chain = axis ? axisChain(axis, border.points, spacing) : { points: [], edges: [] };
+  const fixed = nb + chain.points.length;
+  const points = [...border.points, ...chain.points, ...latticeInside(border.points, grain, spacing, axis)];
+  const edges = chain.edges.map(([a, b]) => [a < 0 ? -a - 1 : nb + a, b < 0 ? -b - 1 : nb + b] as [number, number]);
+  smoothBand(points, fixed, triangulate(points, nb, edges), border.points, spacing);
 
   const coords = new Float64Array(points.length * 2);
   points.forEach((p, i) => {
     coords[i * 2] = p.x;
     coords[i * 2 + 1] = p.y;
   });
-  const triangles = Uint32Array.from(triangulate(points, nb));
+  const triangles = Uint32Array.from(triangulate(points, nb, edges));
   const restArea = new Float64Array(triangles.length / 3);
   for (let k = 0; k < restArea.length; k++) {
     // cross() dá o dobro da área do triângulo.
@@ -156,8 +170,12 @@ function grainDirection(piece: Piece): Point {
 /**
  * Pontos internos numa grade de triângulos equiláteros alinhada ao fio:
  * fileiras ao longo do urdume, deslocadas meia casa a cada fileira.
+ *
+ * Com eixo, a grade passa pelo meio da dobra e só a metade do lado positivo
+ * é usada: a outra é o espelho dela (vale para qualquer ângulo do fio). Os
+ * pontos sobre o eixo vêm de `axisChain`; os que ficariam colados nele, não entram.
  */
-function latticeInside(border: Point[], grain: Point, spacing: number): Point[] {
+function latticeInside(border: Point[], grain: Point, spacing: number, axis: MirrorAxis | null): Point[] {
   const across = { x: -grain.y, y: grain.x };
   const along = (p: Point) => p.x * grain.x + p.y * grain.y;
   const side = (p: Point) => p.x * across.x + p.y * across.y;
@@ -168,23 +186,89 @@ function latticeInside(border: Point[], grain: Point, spacing: number): Point[] 
 
   const rowGap = (spacing * Math.sqrt(3)) / 2;
   const clearance = spacing * BORDER_CLEARANCE;
+  // Ponto da grade: sem eixo, o canto da caixa; com eixo, o meio da dobra.
+  const anchor = axis ? { u: along(axis.mid), v: side(axis.mid) } : { u: u0, v: v0 };
+  // Primeira fileira e primeira casa dentro da caixa (sem eixo: exatamente v0 e u0).
+  const firstRow = Math.ceil((v0 - anchor.v) / rowGap - 1e-9);
+  const fits = (p: Point) => insidePolygon(p, border) && distanceToBorder(p, border) >= clearance;
   const out: Point[] = [];
-  for (let row = 0, v = v0; v <= v1; row++, v = v0 + row * rowGap) {
-    const offset = row % 2 === 0 ? 0 : spacing / 2;
-    for (let u = u0 + offset; u <= u1; u += spacing) {
+  for (let row = firstRow; anchor.v + row * rowGap <= v1; row++) {
+    const v = anchor.v + row * rowGap;
+    const offset = Math.abs(row) % 2 === 0 ? 0 : spacing / 2;
+    const start = anchor.u + offset + Math.ceil((u0 - anchor.u - offset) / spacing - 1e-9) * spacing;
+    for (let u = start; u <= u1; u += spacing) {
       const p = { x: u * grain.x + v * across.x, y: u * grain.y + v * across.y };
-      if (insidePolygon(p, border) && distanceToBorder(p, border) >= clearance) out.push(p);
+      if (!axis) {
+        if (fits(p)) out.push(p);
+        continue;
+      }
+      // Do lado negativo, perto do eixo ou sobre ele, nada: o espelho e a fileira do eixo cobrem.
+      if (axis.distance(p) < spacing * AXIS_CLEARANCE) continue;
+      const q = axis.reflect(p);
+      if (fits(p) && fits(q)) out.push(p, q);
     }
   }
   return out;
 }
 
+/** Pontos do lado positivo mais perto do eixo que isso (× espaçamento) ficam de fora. */
+const AXIS_CLEARANCE = 0.3;
+
+type MirrorAxis = ReturnType<typeof mirrorAxis>;
+
+function mirrorAxis({ from, to }: { from: Point; to: Point }) {
+  const len = distance(from, to);
+  if (!(len > 1e-9)) throw new Error("O eixo de simetria da malha precisa de dois pontos diferentes.");
+  const d = { x: (to.x - from.x) / len, y: (to.y - from.y) / len };
+  const along = (p: Point) => (p.x - from.x) * d.x + (p.y - from.y) * d.y;
+  return {
+    from,
+    to,
+    length: len,
+    mid: { x: (from.x + to.x) / 2, y: (from.y + to.y) / 2 },
+    /** Distância com sinal (positiva à esquerda de from → to, em Y para baixo). */
+    distance: (p: Point) => (p.x - from.x) * -d.y + (p.y - from.y) * d.x,
+    reflect: (p: Point) => {
+      const t = along(p);
+      return { x: 2 * (from.x + t * d.x) - p.x, y: 2 * (from.y + t * d.y) - p.y };
+    },
+  };
+}
+
 /**
- * Triangulação de Delaunay com a borda (vértices 0..nb-1, em ordem) forçada
- * como arestas. Devolve só os triângulos de dentro da peça, todos com área
- * positiva.
+ * Pontos sobre o eixo, a ~spacing uns dos outros, e as arestas que os ligam
+ * em fileira de uma ponta da dobra à outra. Nas arestas, índice negativo
+ * `-(i + 1)` é o vértice i da borda (as pontas da dobra são vértices dela);
+ * não negativo, o ponto da fileira.
  */
-function triangulate(points: Point[], nb: number): number[] {
+function axisChain(axis: MirrorAxis, border: Point[], spacing: number): { points: Point[]; edges: [number, number][] } {
+  const clearance = spacing * BORDER_CLEARANCE;
+  const onBorder = (p: Point) => border.findIndex((b) => distance(b, p) < 1e-6 * spacing);
+  const count = Math.max(1, Math.round(axis.length / spacing));
+  const points: Point[] = [];
+  const chain: number[] = [];
+  const first = onBorder(axis.from);
+  if (first >= 0) chain.push(-first - 1);
+  for (let k = 1; k < count; k++) {
+    const t = k / count;
+    const p = { x: axis.from.x + (axis.to.x - axis.from.x) * t, y: axis.from.y + (axis.to.y - axis.from.y) * t };
+    if (!insidePolygon(p, border) || distanceToBorder(p, border) < clearance) continue;
+    chain.push(points.length);
+    points.push(p);
+  }
+  const last = onBorder(axis.to);
+  if (last >= 0) chain.push(-last - 1);
+  const edges: [number, number][] = [];
+  for (let k = 1; k < chain.length; k++) edges.push([chain[k - 1]!, chain[k]!]);
+  return { points, edges };
+}
+
+/**
+ * Triangulação de Delaunay com a borda (vértices 0..nb-1, em ordem) e as
+ * arestas `extra` forçadas. Devolve só os triângulos de dentro da peça, todos
+ * com área positiva.
+ */
+function triangulate(points: Point[], nb: number, extra: [number, number][] = []): number[] {
   const coords = new Float64Array(points.length * 2);
   points.forEach((p, i) => {
     coords[i * 2] = p.x;
@@ -193,7 +277,7 @@ function triangulate(points: Point[], nb: number): number[] {
   const del = new Delaunator(coords);
   const borderEdges: [number, number][] = [];
   for (let i = 0; i < nb; i++) borderEdges.push([i, (i + 1) % nb]);
-  new Constrainautor(del, borderEdges);
+  new Constrainautor(del, [...borderEdges, ...extra]);
 
   const border = points.slice(0, nb);
   const tris: number[] = [];
@@ -225,10 +309,11 @@ const BAND_WIDTH = 1.6;
 /**
  * Leva cada ponto interno da faixa junto à borda para a média dos vizinhos
  * (suavização laplaciana), alterando `points` no lugar. É ali que os pontos
- * descartados por estarem colados na borda deixam vãos. O miolo não se
+ * descartados por estarem colados na borda deixam vãos. Os pontos antes de
+ * `firstFree` (a borda e a fileira do eixo) não se mexem. O miolo não se
  * mexe: continua na grade alinhada ao fio.
  */
-function smoothBand(points: Point[], nb: number, tris: number[], border: Point[], spacing: number): void {
+function smoothBand(points: Point[], firstFree: number, tris: number[], border: Point[], spacing: number): void {
   const neighbors: Set<number>[] = points.map(() => new Set());
   for (let k = 0; k < tris.length; k += 3) {
     const [a, b, c] = [tris[k]!, tris[k + 1]!, tris[k + 2]!];
@@ -238,10 +323,13 @@ function smoothBand(points: Point[], nb: number, tris: number[], border: Point[]
   }
   const minClearance = spacing * SMOOTH_CLEARANCE;
   const band: number[] = [];
-  for (let i = nb; i < points.length; i++) {
+  for (let i = firstFree; i < points.length; i++) {
     if (distanceToBorder(points[i]!, border) < spacing * BAND_WIDTH) band.push(i);
   }
+  // Cada passada lê só a anterior (Jacobi): o resultado não depende da ordem
+  // dos pontos, e uma malha simétrica continua simétrica.
   for (let pass = 0; pass < SMOOTH_PASSES; pass++) {
+    const moved: [number, Point][] = [];
     for (const i of band) {
       const ns = neighbors[i]!;
       if (ns.size === 0) continue;
@@ -252,8 +340,9 @@ function smoothBand(points: Point[], nb: number, tris: number[], border: Point[]
         y += points[j]!.y;
       }
       const next = { x: x / ns.size, y: y / ns.size };
-      if (insidePolygon(next, border) && distanceToBorder(next, border) >= minClearance) points[i] = next;
+      if (insidePolygon(next, border) && distanceToBorder(next, border) >= minClearance) moved.push([i, next]);
     }
+    for (const [i, p] of moved) points[i] = p;
   }
 }
 

@@ -1,9 +1,12 @@
 import * as THREE from "three";
 import type { Decal } from "@alinhavo/cloth";
 import { frontmostLine, nearestLine } from "@/lib/prova/edges";
+import type { ProvaPart } from "@/lib/prova/protocol";
+import type { RenderQuality } from "@/lib/prova/quality";
 import { turntableAngle, turntablePosition } from "@/lib/prova/video";
 import { DecalLayer } from "./decal-layer";
-import { bodyMesh, disposeMesh, garmentMesh, liftGarment, paintGarment, Stage } from "./stage";
+import { grainGridTexture } from "./grain-texture";
+import { bodyMesh, disposeMesh, garmentGroups, garmentMesh, liftGarment, paintGarment, Stage } from "./stage";
 
 /**
  * Cena 3D da Prova de um tamanho: corpo, roupa, bordas clicáveis e capturas.
@@ -30,6 +33,12 @@ export class ProvaScene {
   private pick: ((owner: number | null) => void) | null = null;
   private pointerStart: { x: number; y: number } | null = null;
   private raycaster = new THREE.Raycaster();
+  /** Grade do fio (vista "Fio"), criada na primeira vez que aparece. */
+  private grainTexture: THREE.Texture | null = null;
+  private quality: RenderQuality = "alta";
+  /** Roupas da malha atual e a cor do tecido (para refazer os materiais ao trocar a qualidade). */
+  private parts: readonly ProvaPart[] = [];
+  private color = "#ffffff";
 
   constructor(container: HTMLElement) {
     this.stage = new Stage(container, "Prova 3D: a roupa no manequim");
@@ -58,8 +67,15 @@ export class ProvaScene {
     this.body = this.replace(this.body, bodyMesh(positions, indices));
   }
 
-  setGarment(positions: Float32Array, indices: Uint32Array, color: string, decals: readonly Decal[] = []) {
-    this.garment = this.replace(this.garment, garmentMesh(positions, indices, color));
+  /**
+   * `uv`: lugar de cada vértice no tecido plano, em mm; `parts`: as roupas
+   * (cada uma com o material do seu tecido). Os dois vêm do Worker.
+   */
+  setGarment(positions: Float32Array, indices: Uint32Array, color: string, decals: readonly Decal[], uv: Float32Array, parts: readonly ProvaPart[]) {
+    this.parts = parts;
+    this.color = color;
+    const groups = garmentGroups(this.stage.fabrics, parts, indices.length / 3, color, this.quality);
+    this.garment = this.replace(this.garment, garmentMesh(positions, indices, groups, uv));
     if (this.decals) {
       this.world.remove(this.decals.group);
       this.decals.dispose();
@@ -73,10 +89,28 @@ export class ProvaScene {
 
   /**
    * Cores por vértice (mapa de pressão ou folga, 3 floats por vértice); null
-   * volta à cor do tecido.
+   * volta à cor do tecido. `grain` mostra a grade do fio no lugar das cores.
    */
-  setMapColors(colors: Float32Array | null, fabricColor: string) {
-    if (this.garment) paintGarment(this.garment, colors, fabricColor);
+  setMapColors(colors: Float32Array | null, fabricColor: string, grain = false) {
+    if (!this.garment) return;
+    this.color = fabricColor;
+    if (grain && !this.grainTexture) this.grainTexture = grainGridTexture(this.renderer.capabilities.getMaxAnisotropy());
+    paintGarment(this.garment, colors, fabricColor, grain ? this.grainTexture : null);
+  }
+
+  /**
+   * Qualidade do desenho: sombra e pixels no palco, materiais refeitos na
+   * roupa (quem chama repinta a vista depois).
+   */
+  setQuality(quality: RenderQuality) {
+    if (quality === this.quality) return;
+    this.quality = quality;
+    this.stage.setQuality(quality);
+    if (!this.garment) return;
+    const old = this.garment.material;
+    const groups = garmentGroups(this.stage.fabrics, this.parts, this.garment.geometry.index!.count / 3, this.color, quality);
+    this.garment.material = groups.map((g) => g.material);
+    for (const m of Array.isArray(old) ? old : [old]) m.dispose();
   }
 
   /** Novas posições da roupa (mesma topologia); o afastamento visual é o do `liftGarment`. */
@@ -330,6 +364,7 @@ export class ProvaScene {
     disposeMesh(this.body);
     disposeMesh(this.garment);
     this.decals?.dispose();
+    this.grainTexture?.dispose();
     this.stage.dispose();
   }
 }

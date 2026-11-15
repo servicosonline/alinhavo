@@ -15,6 +15,8 @@ const part = (start: number, count: number, fabric: ProvaPart["fabric"], fabricL
   main,
   start,
   count,
+  triStart: 0,
+  triCount: 0,
   fabric,
   fabricLimit,
 });

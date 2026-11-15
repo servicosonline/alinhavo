@@ -17,7 +17,10 @@ export type SegmentOrigin = { segment: number; mirrored: boolean };
  * `reflect`: o espelho usado na metade espelhada (dobra) ou na cópia (par),
  * nas coordenadas da parte; ausente quando a parte não tem dobra.
  */
-export type UnfoldedPiece = { piece: Piece; origin: SegmentOrigin[]; reflect?: (p: Point) => Point };
+export type UnfoldedPiece = { piece: Piece; origin: SegmentOrigin[]; reflect?: (p: Point) => Point; fold?: FoldLine };
+
+/** A linha da dobra de uma peça aberta (eixo de simetria), nas coordenadas da peça. */
+export type FoldLine = { from: Point; to: Point };
 
 /**
  * Abre a peça pela dobra. A peça devolvida não tem dobra; o contorno começa
@@ -108,7 +111,7 @@ export function unfoldPiece(piece: Piece): UnfoldedPiece {
     unfolded.grading = grading;
   }
 
-  return { piece: unfolded, origin, reflect };
+  return { piece: unfolded, origin, reflect, fold: { from: { ...P }, to: { ...Q } } };
 }
 
 /**
@@ -207,11 +210,13 @@ export function garmentAtSize(doc: PatternDocument, size: string): Garment {
   const drawnSide = new Map(doc.pieces.map((p) => [p.id, drawnHalfSide(p)]));
   const origins: Record<string, SegmentOrigin[]> = {};
   const source: Record<string, string> = {};
+  const foldLine: Record<string, FoldLine> = {};
   const pieces: Piece[] = [];
   const finishes: GarmentFinish[] = [];
   for (const p of doc.pieces) {
     const graded = pieceAtSize(p, size);
-    const { piece: opened, origin, reflect } = unfoldPiece(graded);
+    const { piece: opened, origin, reflect, fold } = unfoldPiece(graded);
+    if (fold) foldLine[p.id] = fold;
     // A peça da Prova não leva a lista de acabamentos (os índices de segmento mudaram).
     const { finishes: _own, ...piece } = opened;
     // Acabamentos: desenhados na parte (no tamanho); a peça aberta não os leva
@@ -314,7 +319,7 @@ export function garmentAtSize(doc: PatternDocument, size: string): Garment {
       b: { piece: seam.b.piece, segment: cross ? b.plain : b.mirror },
     });
   }
-  return { pieces, seams, origin: origins, source, finishes };
+  return { pieces, seams, origin: origins, source, finishes, foldLine };
 }
 
 export type Garment = {
@@ -325,6 +330,11 @@ export type Garment = {
   source: Record<string, string>;
   /** Acabamentos nas coordenadas de cada peça da Prova (as peças devolvidas não têm `finishes`). */
   finishes: GarmentFinish[];
+  /**
+   * Linha da dobra de cada peça aberta (só as que tinham dobra): a peça é
+   * simétrica por ela. A malha da Prova usa como eixo, para sair simétrica.
+   */
+  foldLine: Record<string, FoldLine>;
 };
 
 /** O segmento do molde de onde veio o segmento `segment` da peça da Prova `pieceId`. */

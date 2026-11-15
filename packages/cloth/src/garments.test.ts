@@ -13,8 +13,9 @@ const BODY = { busto: 880, cintura: 720, quadril: 900, altura: 1650 };
 /** Monta e simula `seconds` s; devolve a simulação, o corpo e as peças. */
 function provar(doc: PatternDocument, seconds: number) {
   const body = createMannequin(BODY);
-  const { pieces, seams } = garmentAtSize(doc, "M");
-  const meshes = pieces.map((p) => meshPiece(p, { spacing: 30 }));
+  const { pieces, seams, foldLine } = garmentAtSize(doc, "M");
+  // Como no Worker da Prova: malha simétrica pela linha da dobra.
+  const meshes = pieces.map((p) => meshPiece(p, { spacing: 30, mirror: foldLine[p.id] }));
   const initial = placeGarment(
     meshes.map((mesh, i) => ({ mesh, placement: pieces[i]!.placement!, half: pieceHalf(pieces[i]!) })),
     body.landmarks,

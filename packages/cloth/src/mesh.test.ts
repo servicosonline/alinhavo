@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { flattenOutline, polygonArea, stepGrading, type Piece, type Point } from "@alinhavo/geometry";
+import { flattenOutline, polygonArea, stepGrading, unfoldPiece, type Piece, type Point } from "@alinhavo/geometry";
 import { insidePolygon, meshPiece, type PieceMesh } from "./mesh";
 
 /** Frente reta 200×600 com fio vertical, graduada em P/M/G (+10 mm de largura por tamanho). */
@@ -229,5 +229,81 @@ describe("meshPiece", () => {
     expect(() => meshPiece(mini)).toThrow(/pequena demais/);
     expect(() => meshPiece(frente(), { spacing: 0.5 })).toThrow(/espaçamento/);
     expect(() => meshPiece(frente(), { spacing: 500 })).toThrow(/espaçamento/);
+  });
+});
+
+/** Meio top de alças na dobra (segmento 5, de C a N, em x = 0), com o fio dado. */
+function meioTop(grainline: Piece["grainline"]): Piece {
+  return {
+    id: "top",
+    name: "Top",
+    points: { N: { x: 0, y: 150 }, S1: { x: 85, y: 0 }, S2: { x: 125, y: 0 }, A: { x: 235, y: 175 }, H: { x: 225, y: 400 }, C: { x: 0, y: 400 } },
+    start: "N",
+    outline: [
+      { kind: "cubic", c1: { x: 50, y: 150 }, c2: { x: 85, y: 60 }, to: "S1" },
+      { kind: "line", to: "S2" },
+      { kind: "cubic", c1: { x: 130, y: 110 }, c2: { x: 200, y: 175 }, to: "A" },
+      { kind: "line", to: "H" },
+      { kind: "line", to: "C" },
+      { kind: "line", to: "N" },
+    ],
+    seamAllowance: 10,
+    fold: 5,
+    grainline,
+  };
+}
+
+/** Quantos vértices e triângulos da malha não têm o espelho pela linha `from`–`to`. */
+function mirrorMismatch(m: PieceMesh, from: Point, to: Point) {
+  const len = Math.hypot(to.x - from.x, to.y - from.y);
+  const u = { x: (to.x - from.x) / len, y: (to.y - from.y) / len };
+  const reflect = (p: Point) => {
+    const t = (p.x - from.x) * u.x + (p.y - from.y) * u.y;
+    return { x: 2 * (from.x + t * u.x) - p.x, y: 2 * (from.y + t * u.y) - p.y };
+  };
+  const n = m.positions.length / 2;
+  const twin = new Int32Array(n).fill(-1);
+  let vertices = 0;
+  for (let i = 0; i < n; i++) {
+    const r = reflect(vertex(m, i));
+    for (let j = 0; j < n; j++) if (Math.hypot(r.x - m.positions[j * 2]!, r.y - m.positions[j * 2 + 1]!) < 1e-6) twin[i] = j;
+    if (twin[i]! < 0) vertices++;
+  }
+  const key = (a: number, b: number, c: number) => [a, b, c].sort((p, q) => p - q).join(",");
+  const tris = new Set<string>();
+  for (let k = 0; k < m.triangles.length; k += 3) tris.add(key(m.triangles[k]!, m.triangles[k + 1]!, m.triangles[k + 2]!));
+  let triangles = 0;
+  for (let k = 0; k < m.triangles.length; k += 3) {
+    const [a, b, c] = [twin[m.triangles[k]!]!, twin[m.triangles[k + 1]!]!, twin[m.triangles[k + 2]!]!];
+    if (a < 0 || b < 0 || c < 0 || !tris.has(key(a, b, c))) triangles++;
+  }
+  return { vertices, triangles };
+}
+
+describe("meshPiece com eixo de simetria (peça aberta pela dobra)", () => {
+  it.each([
+    ["fio paralelo à dobra", { from: { x: 60, y: 200 }, to: { x: 60, y: 360 } }],
+    ["fio a 30°", { from: { x: 0, y: 0 }, to: { x: 50, y: 86.6 } }],
+  ] as const)("a malha sai espelhada pela dobra, vértice a vértice e triângulo a triângulo (%s)", (_, grainline) => {
+    const { piece, fold } = unfoldPiece(meioTop(grainline));
+    const m = meshPiece(piece, { spacing: 30, mirror: fold });
+    expect(mirrorMismatch(m, fold!.from, fold!.to)).toEqual({ vertices: 0, triangles: 0 });
+    // Continua uma malha boa: cobre a peça e nenhum triângulo degenerado.
+    expect(sum(m.restArea) / polygonArea(flattenOutline(piece).polygon)).toBeCloseTo(1, 2);
+    for (const tri of triangleList(m)) expect(minAngleDeg(tri)).toBeGreaterThan(10);
+  });
+
+  it("os pontos internos também ficam a mais de meio espaçamento da borda e longe uns dos outros", () => {
+    const { piece, fold } = unfoldPiece(meioTop({ from: { x: 60, y: 200 }, to: { x: 60, y: 360 } }));
+    const m = meshPiece(piece, { spacing: 30, mirror: fold });
+    const n = m.positions.length / 2;
+    for (let i = m.boundaryCount; i < n; i++) {
+      for (let j = i + 1; j < n; j++) expect(Math.hypot(m.positions[i * 2]! - m.positions[j * 2]!, m.positions[i * 2 + 1]! - m.positions[j * 2 + 1]!)).toBeGreaterThan(10);
+    }
+  });
+
+  it("recusa eixo de um ponto só", () => {
+    const { piece } = unfoldPiece(meioTop(undefined));
+    expect(() => meshPiece(piece, { mirror: { from: { x: 0, y: 0 }, to: { x: 0, y: 0 } } })).toThrow(/eixo/);
   });
 });
