@@ -92,6 +92,8 @@ A partir daí:
 | `NEXT_PUBLIC_SUPABASE_URL` | Project URL | Production, Preview, Development |
 | `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` | Publishable key | Production, Preview, Development |
 | `NEXT_PUBLIC_SITE_URL` | `https://SEU-APP.vercel.app` | só Production |
+| `ANTHROPIC_API_KEY` | Chave da API da Anthropic (textos do produto por IA; opcional) | Production (e Preview, se quiser testar a IA nas prévias) |
+| `OPENAI_API_KEY` | Chave da API da OpenAI (fotos de catálogo por IA; opcional). A OpenAI pode exigir a **verificação da organização** (em platform.openai.com → Settings → Organization) antes de liberar os modelos de imagem. Cada foto custa uns US$ 0,05 (rascunho) a US$ 0,20 (final), estimativa; limite de 30 por organização por mês | Production (e Preview, se quiser testar) |
 
 4. **Deploy**. Cada PR ganha uma URL de prévia; a `main` vai para produção.
 
@@ -100,6 +102,36 @@ A partir daí:
 Em *Authentication → URL Configuration*:
 - **Site URL**: `https://SEU-APP.vercel.app`.
 - **Redirect URLs**: adicione `https://SEU-APP.vercel.app/auth/callback` e, para as prévias, `https://*-SEU-TIME.vercel.app/auth/callback`.
+
+### Webhooks (envio a cada minuto)
+
+A fila de webhooks é enviada pela Edge Function `webhooks-dispatch` (publicada pelo workflow), chamada a cada minuto pelo Supabase Cron. Sem este passo os avisos ficam na fila e nada sai. Uma vez só:
+
+1. Gere um segredo longo (ex.: `openssl rand -hex 32`). Ele não vai para o git.
+2. Em *Edge Functions → Secrets*, crie `WEBHOOK_DISPATCH_SECRET` com esse valor. Sem ele, a função recusa toda chamada.
+3. Em *Integrations*, ligue **Cron** e **Vault** (e a extensão `pg_net`, em *Database → Extensions*).
+4. No *SQL Editor*, troque `SEU-REF` e o segredo e rode:
+
+```sql
+select vault.create_secret('O-MESMO-SEGREDO', 'webhook_dispatch_secret');
+select cron.schedule(
+  'webhooks-dispatch',
+  '* * * * *',
+  $$
+  select net.http_post(
+    url := 'https://SEU-REF.supabase.co/functions/v1/webhooks-dispatch',
+    headers := jsonb_build_object(
+      'Authorization', 'Bearer ' || (select decrypted_secret from vault.decrypted_secrets where name = 'webhook_dispatch_secret')
+    ),
+    timeout_milliseconds := 60000
+  );
+  $$
+);
+```
+
+5. Teste: cadastre um webhook no painel (para uma URL de teste, como um endereço do webhook.site) e clique em "Mandar teste"; em até um minuto ele aparece como "Entregue" em "Últimos envios".
+
+Para trocar o segredo: atualize os dois (`WEBHOOK_DISPATCH_SECRET` e `vault.update_secret`). Para parar os envios: `select cron.unschedule('webhooks-dispatch');` (os avisos esperam na fila).
 
 ## 6. Roteiro de teste em produção
 

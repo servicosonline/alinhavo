@@ -15,6 +15,7 @@ import { addCaptures, type Capture } from "@/lib/prova/captures";
 import { AdjustPanel, type ProvaSaveMode } from "./adjust-panel";
 import { ApprovalRequest, type ApprovalRequester } from "./approval-request";
 import { CapturesPanel } from "./captures-panel";
+import { CatalogPhotoRequest, type CatalogPhotoRequester } from "./catalog-photo-request";
 import { VideoPanel } from "./video-panel";
 import { VIDEO_BITRATE, VIDEO_FPS, VIDEO_HEIGHT, VIDEO_SECONDS, VIDEO_WIDTH, videoFileName } from "@/lib/prova/video";
 import { GradeView } from "./grade-view";
@@ -110,11 +111,13 @@ type Props = {
   saveMode: ProvaSaveMode;
   /** Pedir aprovação por link (só no painel, para quem edita moldes). */
   approval?: ApprovalRequester;
+  /** Gerar foto de catálogo por IA a partir de uma captura (só no painel, com produto ligado ao molde). */
+  catalogPhoto?: CatalogPhotoRequester;
   /** Outras roupas que podem entrar no look (sem elas, não há look). */
   lookOptions?: LookOption[];
 };
 
-export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, approval, lookOptions = NO_LOOK }: Props) {
+export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, approval, catalogPhoto, lookOptions = NO_LOOK }: Props) {
   // Molde em prova: começa no que veio da página e muda a cada ajuste aplicado.
   // Se a página mandar outro molde (versão nova salva), recomeça dele.
   const [work, setWork] = useState({ source: sourceDoc, doc: sourceDoc });
@@ -517,6 +520,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
           note={captureNote}
         >
           {approval && <ApprovalRequest requester={approval} settings={{ size, fabric, pose }} captures={captures} video={video} />}
+          {catalogPhoto && <CatalogPhotoRequest requester={catalogPhoto} captures={captures} />}
         </CapturesPanel>
 
         <VideoPanel
