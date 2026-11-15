@@ -85,7 +85,7 @@ function build(setup: ProvaSetup) {
   const doc = readDoc(setup.doc, "Molde");
   if (!doc.sizes.includes(setup.size)) throw new Error(`O tamanho ${setup.size} não está na grade.`);
 
-  const body = createMannequin(setup.measurements, setup.pose);
+  const body = createMannequin(setup.measurements, setup.pose, setup.body, setup.conditions);
   const lookNotes: string[] = [];
   const main = garmentAtSize(doc, setup.size);
   const wears: Wear[] = [

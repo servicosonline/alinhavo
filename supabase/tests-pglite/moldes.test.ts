@@ -99,6 +99,24 @@ describe("tabelas de medidas", () => {
     }
   });
 
+  it("tabela pronta guarda o modelo na criação e ele não muda depois", async () => {
+    const e = await equipe();
+    const t = await um<{ id: string; template: string }>(
+      e.modelista,
+      "insert into public.size_charts (org_id, name, template) values ($1, $2, $3) returning id, template",
+      [e.orgId, "Feminino adulto", "feminino-adulto"],
+    );
+    expect(t.template).toBe("feminino-adulto");
+    await expect(
+      as(db, e.modelista, (q) =>
+        q.query("insert into public.size_charts (org_id, name, template) values ($1, $2, $3)", [e.orgId, "X", "Não Vale!"]),
+      ),
+    ).rejects.toThrow(/check constraint/);
+    await expect(
+      as(db, e.dono, (q) => q.query("update public.size_charts set template = $2 where id = $1", [t.id, "infantil"])),
+    ).rejects.toThrow(/permission denied/);
+  });
+
   it("medida em mm precisa ser positiva e o nome em minúsculas", async () => {
     const e = await equipe();
     const tabela = await novaTabela(e.modelista, e.orgId);

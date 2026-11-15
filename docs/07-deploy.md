@@ -133,6 +133,17 @@ select cron.schedule(
 
 Para trocar o segredo: atualize os dois (`WEBHOOK_DISPATCH_SECRET` e `vault.update_secret`). Para parar os envios: `select cron.unschedule('webhooks-dispatch');` (os avisos esperam na fila).
 
+### Superadmin da plataforma
+
+Quem vê o tempo de produção de todas as organizações em `/painel/admin`. Não há botão no app: no *SQL Editor* do Supabase, com o e-mail de quem já tem conta:
+
+```sql
+insert into public.platform_admins (user_id)
+  select id from auth.users where email = 'SEU-EMAIL';
+```
+
+Para tirar: `delete from public.platform_admins where user_id = (select id from auth.users where email = 'SEU-EMAIL');`. Quem não é superadmin recebe a página de não encontrado em `/painel/admin`.
+
 ## 6. Roteiro de teste em produção
 
 1. Entrar com o e-mail A → criar a organização "Teste A".

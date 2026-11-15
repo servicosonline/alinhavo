@@ -1,4 +1,4 @@
-import type { Decal, MapSummary } from "@alinhavo/cloth";
+import type { BodyConditions, BodyOverrides, Decal, MapSummary } from "@alinhavo/cloth";
 import type { PatternDocument } from "@alinhavo/geometry";
 import type { ProvaEdges } from "./edges";
 import type { LookExtra } from "./look";
@@ -18,6 +18,10 @@ export type ProvaSetup = {
   measurements: Record<string, number>;
   fabric: FabricId;
   pose: PoseId;
+  /** Medidas do corpo trocadas na tela, por cima da tabela (o manequim ajustado). */
+  body?: BodyOverrides;
+  /** Condições do corpo (membro cortado, gestante). */
+  conditions?: BodyConditions;
   /** Camada do molde em prova no look (0, padrão, é a de dentro). */
   layer?: number;
   /** Outras roupas do look, cada uma com o seu tecido e a sua camada. */

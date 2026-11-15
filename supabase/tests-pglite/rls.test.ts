@@ -267,7 +267,8 @@ describe("invariantes do esquema", () => {
   it("toda tabela de negócio tem org_id", async () => {
     const { rows } = await db.query<{ tablename: string }>(`
       select t.tablename from pg_tables t
-      where t.schemaname = 'public' and t.tablename not in ('orgs', 'profiles')
+      -- orgs é a própria organização; profiles é da pessoa; platform_admins é da plataforma (superadmin), sem acesso pelo app.
+      where t.schemaname = 'public' and t.tablename not in ('orgs', 'profiles', 'platform_admins')
         and not exists (
           select 1 from information_schema.columns c
           where c.table_schema = 'public' and c.table_name = t.tablename and c.column_name = 'org_id'

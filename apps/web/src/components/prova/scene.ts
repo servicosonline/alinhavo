@@ -41,7 +41,7 @@ export class ProvaScene {
   private color = "#ffffff";
 
   constructor(container: HTMLElement) {
-    this.stage = new Stage(container, "Prova 3D: a roupa no manequim");
+    this.stage = new Stage(container, "Prova 3D: a roupa no manequim", { lockHorizontal: true });
     this.renderer = this.stage.renderer;
     this.scene = this.stage.scene;
     this.camera = this.stage.camera;

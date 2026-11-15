@@ -24,6 +24,8 @@ export type BodyLandmarks = {
   crotch: TorsoSection;
   hip: TorsoSection;
   waist: TorsoSection;
+  /** Ponto mais saliente da barriga (só no corpo de gestante). */
+  belly?: TorsoSection;
   bust: TorsoSection;
   shoulder: TorsoSection;
   neck: TorsoSection;
