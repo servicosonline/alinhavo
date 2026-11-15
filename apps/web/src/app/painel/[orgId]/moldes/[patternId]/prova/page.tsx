@@ -6,7 +6,7 @@ import { Loading, NotConfigured, Trail } from "@/components/page-shell";
 import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
-import { canEditPatterns, getMyRole } from "@/lib/org-access";
+import { canEditPatterns, canEditProducts, getMyRole } from "@/lib/org-access";
 import { currentVersionsFilter, LOOK_OPTIONS_MAX, lookOptionsFrom } from "@/lib/prova/look-options";
 import { measurementsBySize } from "@/lib/prova/measurements";
 import { getSupabaseConfig } from "@/lib/supabase/config";
@@ -14,6 +14,9 @@ import { createClient } from "@/lib/supabase/server";
 import { ProvaPainel } from "./prova-painel";
 
 type Params = PageProps<"/painel/[orgId]/moldes/[patternId]/prova">["params"];
+
+// A foto de catálogo por IA (Server Action desta página) leva até ~2 min.
+export const maxDuration = 300;
 
 export default function ProvaPage({ params }: PageProps<"/painel/[orgId]/moldes/[patternId]/prova">) {
   if (!getSupabaseConfig()) return <NotConfigured />;
@@ -53,13 +56,8 @@ async function Prova({ params }: { params: Params }) {
     );
   }
 
-  const [versionRes, chartRes, role, othersRes] = await Promise.all([
-    supabase
-      .from("pattern_versions")
-      .select("document")
-      .eq("pattern_id", pattern.id)
-      .eq("number", pattern.current_version)
-      .maybeSingle(),
+  const [versionRes, chartRes, role, othersRes, productRes, photosRes] = await Promise.all([
+    supabase.from("pattern_versions").select("document").eq("pattern_id", pattern.id).eq("number", pattern.current_version).maybeSingle(),
     pattern.size_chart_id
       ? supabase.from("size_charts").select("id, name").eq("id", pattern.size_chart_id).eq("org_id", orgId).maybeSingle()
       : Promise.resolve({ data: null }),
@@ -74,6 +72,9 @@ async function Prova({ params }: { params: Params }) {
       .gt("current_version", 0)
       .order("updated_at", { ascending: false })
       .limit(LOOK_OPTIONS_MAX),
+    // Fotos de catálogo: o produto ligado a este molde (um por molde) e o uso do mês.
+    supabase.from("products").select("id, name").eq("org_id", orgId).eq("pattern_id", pattern.id).maybeSingle(),
+    supabase.rpc("ai_generations_this_month", { p_org_id: orgId, p_kind: "foto_catalogo" }),
   ]);
   const doc = migratePattern(versionRes.data?.document);
   if (!doc || validatePattern(doc).length > 0) {
@@ -100,6 +101,21 @@ async function Prova({ params }: { params: Params }) {
     ? await supabase.from("pattern_versions").select("pattern_id, number, document").eq("org_id", orgId).or(currentVersionsFilter(others))
     : { data: [] as { pattern_id: string; number: number; document: unknown }[] };
   const lookOptions = lookOptionsFrom(others, otherVersions ?? []);
+
+  // Só a informação de que há chave (nunca a chave) vai para a tela.
+  const product = productRes.data;
+  const catalog = product
+    ? {
+        productId: product.id,
+        productName: product.name,
+        usedThisMonth: photosRes.data ?? 0,
+        blocked: !canEditProducts(role)
+          ? "Só donos, admins, modelistas e estilistas geram fotos do produto."
+          : !process.env.OPENAI_API_KEY?.trim()
+            ? "As fotos por IA ainda não foram configuradas neste ambiente."
+            : null,
+      }
+    : null;
 
   return (
     // Como o editor, a Prova usa a largura da tela (data-largura, ver Container).
@@ -134,7 +150,13 @@ async function Prova({ params }: { params: Params }) {
       <ProvaPainel
         orgId={orgId}
         canEdit={canEditPatterns(role)}
-        patternId={pattern.id} version={pattern.current_version} savedDoc={doc} measurementsBySize={measurements.bySize} lookOptions={lookOptions} />
+        patternId={pattern.id}
+        version={pattern.current_version}
+        savedDoc={doc}
+        measurementsBySize={measurements.bySize}
+        lookOptions={lookOptions}
+        catalog={catalog}
+      />
     </div>
   );
 }

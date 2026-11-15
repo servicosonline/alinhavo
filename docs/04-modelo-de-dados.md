@@ -42,7 +42,7 @@ Rascunho para orientar a Fase 0. Toda tabela de negócio tem `org_id`, `created_
 | `collections` | org_id, nome, temporada, início, lançamento |
 | `milestones` | collection_id, etapa, prazo, responsável, concluído_em |
 | `products` | org_id, collection_id, referência, nome, status, size_chart_id |
-| `tech_packs` | product_id, dados (jsonb), versão |
+| `tech_packs` | product_id, dados (jsonb, formato 1; fichas novas levam o texto técnico e o desenho técnico plano, campos opcionais), versão |
 | `comments` | org_id, alvo (produto/prova), autor, texto |
 
 ## Molde
@@ -72,6 +72,12 @@ O documento do molde guarda: partes, pontos, curvas, piques, fio, regras de grad
 | `poses` | org_id?, nome, dados da pose |
 | `fittings` | org_id, pattern_version_id, avatar_id, fabric_id por parte, pose inicial/final, resultado |
 | `captures` | fitting_id, tipo (`imagem`, `360`), arquivo *(futuro, com o vídeo 360°)* |
+| `api_keys` | **(feito)** org_id, name, prefix, key_hash (SHA-256, nunca legível), created_by, last_used_at, revoked_at. Só por `create_api_key` e `revoke_api_key` (dono e admin) |
+| `api_key_usage` | **(feito)** org_id, key_id, minuto, contagem (limite de 60 por minuto por chave); só pelas funções da API |
+| `webhook_endpoints` | **(feito)** org_id, url (https por nome), secret (`whsec_`, nunca legível pelo app), events, active, created_by. Até 5 por organização; só por `create_webhook_endpoint`, `set_webhook_endpoint_active`, `delete_webhook_endpoint` e `send_test_webhook` (dono e admin) |
+| `webhook_deliveries` | **(feito)** org_id, endpoint_id, event, payload (não legível pelo app), status (`pendente`, `enviando`, `entregue`, `falhou`), attempts, next_attempt_at, locked_until, last_status_code, last_error. Entram por gatilho (produto aprovado, ficha nova, risco novo) ou teste; saem por `claim_webhook_deliveries`/`finish_webhook_delivery`, só da chave de serviço (Edge Function `webhooks-dispatch`). Dono e admin leem |
+| `ai_generations` | **(feito)** org_id, product_id, kind (`textos_produto`, `foto_catalogo`), status (`reservada`, `pronta`, `erro`), model, input_tokens, output_tokens, created_by. Só por `reserve_ai_generation` (permissão e limite por tipo e por organização por mês: 200 textos, 30 fotos) e `finish_ai_generation`; membros leem |
+| `catalog_photos` | **(feito)** id (= a geração em `ai_generations`), org_id, product_id, path (bucket privado `catalogo`, `<org>/<produto>/<geração>.jpg`), settings (opções da tela), model, created_by. Só por `create_catalog_photo` (confere a geração reservada e o arquivo); o arquivo só entra por quem reservou, enquanto reservada. Membros leem; quem edita produtos apaga |
 | `approvals` | **(feito)** org_id, pattern_id + version_number (versão fixa), token, settings (tamanho, tecido, pose), expires_at, status (`pendente`, `aprovado`, `ajustes`), nome e comentário de quem respondeu, decided_at, video_path (vídeo 360° no Storage, só por `attach_approval_video`) |
 | `approval_images` | **(feito)** org_id, approval_id, posição (0 a 3), ângulo (`atual`, `frente`, `costas`, `lado`), JPEG/PNG em `bytea` (até 600 KB) |
 

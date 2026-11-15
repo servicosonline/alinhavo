@@ -84,6 +84,36 @@ describe("ficha técnica", () => {
     expect(semLargura.consumption.method).toBe("area");
   });
 
+  it("texto técnico entra na ficha quando há; em branco fica de fora (fichas antigas não têm)", () => {
+    expect(buildTechPack(input({ technicalDescription: "  Tecido: sarja\nGrade: P M G  " })).technicalDescription).toBe("Tecido: sarja\nGrade: P M G");
+    expect("technicalDescription" in buildTechPack(input({ technicalDescription: "   " }))).toBe(false);
+    expect("technicalDescription" in buildTechPack(input())).toBe(false);
+  });
+
+  it("PDF com texto técnico longo quebra as linhas e passa de página sem erro", async () => {
+    const longo = Array.from({ length: 120 }, (_, i) => `Linha ${i + 1}: costura francesa nas laterais, pesponto duplo a 1 cm da barra e acabamento em viés.`).join("\n");
+    const bytes = await exportTechPackPdf(buildTechPack(input({ technicalDescription: longo })), { number: 3 });
+    const pdf = await PDFDocument.load(bytes);
+    expect(pdf.getPageCount()).toBeGreaterThan(1);
+  });
+
+  it("a ficha nova leva o desenho técnico do molde; o PDF o desenha", async () => {
+    // Sem posição na Prova, o desenho sai vazio e avisa quais partes ficaram de fora.
+    const semPosicao = buildTechPack(input());
+    expect(semPosicao.sketch?.views).toEqual([]);
+    expect(semPosicao.sketch?.skipped.length).toBe(saia().pieces.length);
+    const doc = saia();
+    doc.pieces = doc.pieces.map((p, i) => ({ ...p, placement: { side: i === 0 ? "frente" : "costas", anchor: "cintura", offset: 0 } }));
+    const data = buildTechPack(input({ pattern: { name: "Saia base", version: 3, document: doc } }));
+    expect(data.sketch?.schema).toBe(1);
+    expect(data.sketch!.views.map((v) => v.side)).toEqual(doc.pieces.length > 1 ? ["frente", "costas"] : ["frente"]);
+    const pdf = await PDFDocument.load(await exportTechPackPdf(data, { number: 4 }));
+    expect(pdf.getPageCount()).toBeGreaterThan(0);
+    // Ficha antiga, sem desenho: o PDF sai igual.
+    const { sketch: _sketch, ...old } = data;
+    expect((await PDFDocument.load(await exportTechPackPdf(old))).getPageCount()).toBeGreaterThan(0);
+  });
+
   it("ficha antiga (sem method nesting nem marker) continua lida como estimativa", () => {
     expect(consumptionSource({ method: "area" })).toBe("estimativa");
     expect(consumptionNote({ method: "area", efficiency: 0.8 })).toMatch(/80%/);

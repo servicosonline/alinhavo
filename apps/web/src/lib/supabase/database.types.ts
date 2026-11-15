@@ -143,7 +143,73 @@ type ProductRow = {
   size_chart_id: string | null;
   pattern_id: string | null;
   fabric_id: string | null;
+  /** Texto de venda (loja, catálogo); até 2000 caracteres. */
+  sales_description: string | null;
+  /** Texto técnico (entra na ficha); até 4000 caracteres. */
+  technical_description: string | null;
 } & Timestamps;
+type ApiKeyRow = {
+  id: string;
+  org_id: string;
+  name: string;
+  /** Começo do segredo (alv_ + 8), para reconhecer a chave. O hash não é legível. */
+  prefix: string;
+  created_by: string | null;
+  created_at: string;
+  last_used_at: string | null;
+  revoked_at: string | null;
+};
+/** Endpoint de webhook (sem o segredo, que não é legível pelo app). */
+type WebhookEndpointRow = {
+  id: string;
+  org_id: string;
+  url: string;
+  events: string[];
+  active: boolean;
+  created_by: string | null;
+  created_at: string;
+};
+export type WebhookStatus = "pendente" | "enviando" | "entregue" | "falhou";
+/** Entrega de webhook (sem o corpo, que não é legível pelo app). */
+type WebhookDeliveryRow = {
+  id: string;
+  org_id: string;
+  endpoint_id: string;
+  event: string;
+  status: WebhookStatus;
+  attempts: number;
+  next_attempt_at: string;
+  last_status_code: number | null;
+  last_error: string | null;
+  created_at: string;
+  delivered_at: string | null;
+};
+export type AiGenerationStatus = "reservada" | "pronta" | "erro";
+export type AiGenerationKind = "textos_produto" | "foto_catalogo";
+/** Foto de catálogo por IA; o id é o da geração (ai_generations). Arquivo no bucket `catalogo`. */
+type CatalogPhotoRow = {
+  id: string;
+  org_id: string;
+  product_id: string;
+  path: string;
+  settings: Json;
+  model: string | null;
+  created_by: string | null;
+  created_at: string;
+};
+type AiGenerationRow = {
+  id: string;
+  org_id: string;
+  product_id: string;
+  kind: AiGenerationKind;
+  status: AiGenerationStatus;
+  model: string | null;
+  input_tokens: number | null;
+  output_tokens: number | null;
+  created_by: string | null;
+  created_at: string;
+  finished_at: string | null;
+};
 type MilestoneRow = {
   id: string;
   org_id: string;
@@ -372,6 +438,8 @@ export type Database = {
           size_chart_id?: string | null;
           pattern_id?: string | null;
           fabric_id?: string | null;
+          sales_description?: string | null;
+          technical_description?: string | null;
         };
         Relationships: [
           Fk<"products_org_id_fkey", "org_id", "orgs">,
@@ -380,6 +448,36 @@ export type Database = {
           OrgFk<"products_size_chart_id_org_id_fkey", "size_chart_id", "size_charts">,
           OrgFk<"products_pattern_id_org_id_fkey", "pattern_id", "patterns">,
         ];
+      };
+      api_keys: {
+        Row: ApiKeyRow;
+        Insert: never;
+        Update: never;
+        Relationships: [Fk<"api_keys_org_id_fkey", "org_id", "orgs">];
+      };
+      webhook_endpoints: {
+        Row: WebhookEndpointRow;
+        Insert: never;
+        Update: never;
+        Relationships: [Fk<"webhook_endpoints_org_id_fkey", "org_id", "orgs">];
+      };
+      webhook_deliveries: {
+        Row: WebhookDeliveryRow;
+        Insert: never;
+        Update: never;
+        Relationships: [OrgFk<"webhook_deliveries_endpoint_id_org_id_fkey", "endpoint_id", "webhook_endpoints">];
+      };
+      ai_generations: {
+        Row: AiGenerationRow;
+        Insert: never;
+        Update: never;
+        Relationships: [OrgFk<"ai_generations_product_id_org_id_fkey", "product_id", "products">];
+      };
+      catalog_photos: {
+        Row: CatalogPhotoRow;
+        Insert: never;
+        Update: never;
+        Relationships: [OrgFk<"catalog_photos_product_id_org_id_fkey", "product_id", "products">];
       };
       fabrics: {
         Row: FabricRow;
@@ -501,6 +599,22 @@ export type Database = {
         Returns: { id: string; token: string; expires_at: string }[];
       };
       create_tech_pack: { Args: { p_product_id: string; p_pattern_version: number; p_data: Json }; Returns: TechPackRow };
+      reserve_ai_generation: { Args: { p_product_id: string; p_kind?: AiGenerationKind }; Returns: string };
+      create_catalog_photo: {
+        Args: { p_generation_id: string; p_ext: "jpg" | "png" | "webp"; p_settings?: Json; p_model?: string | null };
+        Returns: CatalogPhotoRow;
+      };
+      finish_ai_generation: {
+        Args: { p_id: string; p_ok: boolean; p_model?: string | null; p_input_tokens?: number | null; p_output_tokens?: number | null };
+        Returns: undefined;
+      };
+      ai_generations_this_month: { Args: { p_org_id: string; p_kind?: AiGenerationKind }; Returns: number };
+      create_api_key: { Args: { p_org_id: string; p_name: string }; Returns: { id: string; secret: string; prefix: string }[] };
+      revoke_api_key: { Args: { p_id: string }; Returns: undefined };
+      create_webhook_endpoint: { Args: { p_org_id: string; p_url: string; p_events: string[] }; Returns: { id: string; secret: string }[] };
+      set_webhook_endpoint_active: { Args: { p_id: string; p_active: boolean }; Returns: undefined };
+      delete_webhook_endpoint: { Args: { p_id: string }; Returns: undefined };
+      send_test_webhook: { Args: { p_id: string }; Returns: string };
       create_marker: {
         Args: {
           p_product_id: string;

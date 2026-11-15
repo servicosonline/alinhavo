@@ -100,6 +100,27 @@ async function Org({ params }: { params: PageProps<"/painel/[orgId]">["params"] 
               </Link>
             </li>
           ))}
+          {canManage && (
+            <li>
+              <Link
+                href={`/painel/${orgId}/api`}
+                className="group flex h-full items-start gap-4 rounded-2xl border border-dashed border-tinta/20 bg-papel/60 p-5 transition hover:border-tinta/40"
+              >
+                <span className="grid size-11 shrink-0 place-items-center rounded-xl bg-white font-mono text-[13px] text-tinta transition group-hover:text-linha">
+                  {"{ }"}
+                </span>
+                <span className="min-w-0 flex-1">
+                  <span className="flex items-center justify-between gap-2 font-display text-xl font-semibold">
+                    API
+                    <span aria-hidden className="text-base text-tinta-suave transition group-hover:translate-x-0.5 group-hover:text-linha">
+                      →
+                    </span>
+                  </span>
+                  <span className={`mt-1 block ${ui.muted}`}>Chaves para o ERP ou outro sistema ler produtos, fichas e riscos</span>
+                </span>
+              </Link>
+            </li>
+          )}
         </ul>
       </nav>
 
