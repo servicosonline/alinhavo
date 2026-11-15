@@ -603,6 +603,26 @@ export type Database = {
         Update: never;
         Relationships: [Fk<"activity_log_org_id_fkey", "org_id", "orgs">];
       };
+      support_threads: {
+        Row: {
+          id: string;
+          org_id: string | null;
+          user_id: string;
+          subject: string;
+          status: "aberta" | "respondida" | "fechada";
+          last_message_at: string;
+          created_at: string;
+        };
+        Insert: never;
+        Update: never;
+        Relationships: [];
+      };
+      support_messages: {
+        Row: { id: string; thread_id: string; org_id: string | null; author: string | null; from_admin: boolean; body: string; created_at: string };
+        Insert: never;
+        Update: never;
+        Relationships: [];
+      };
       notifications: {
         Row: {
           id: string;
@@ -812,6 +832,23 @@ export type Database = {
         Returns: { id: string; title: string; body: string; link: string | null; created_at: string; read: boolean }[];
       };
       mark_notifications_read: { Args: { p_ids?: string[] | null }; Returns: undefined };
+      open_support_thread: { Args: { p_subject: string; p_body: string; p_org_id?: string | null }; Returns: string };
+      send_support_message: { Args: { p_thread_id: string; p_body: string }; Returns: string };
+      close_support_thread: { Args: { p_thread_id: string }; Returns: undefined };
+      platform_support_threads: {
+        Args: { p_status?: string | null };
+        Returns: {
+          id: string;
+          subject: string;
+          status: "aberta" | "respondida" | "fechada";
+          last_message_at: string;
+          user_email: string;
+          org_id: string | null;
+          org_name: string | null;
+          last_body: string | null;
+          messages: number;
+        }[];
+      };
       platform_send_notification: {
         Args: { p_title: string; p_body: string; p_link: string | null; p_audience: string; p_value?: string | null };
         Returns: string;
