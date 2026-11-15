@@ -27,7 +27,7 @@ Rascunho para orientar a Fase 0. Toda tabela de negócio tem `org_id`, `created_
 
 ## Conta, plano e atividade
 
-**Implementado** em `20261115080000_conta_e_trial.sql` e `20261115090000_registro_atividade.sql` (testes em `tests-pglite/conta-trial.test.ts` e `atividade.test.ts`):
+**Implementado** em `20261115110000_conta_e_trial.sql` e `20261115120000_registro_atividade.sql` (testes em `tests-pglite/conta-trial.test.ts` e `atividade.test.ts`):
 
 | Tabela | Campos principais |
 |---|---|
@@ -37,7 +37,7 @@ Rascunho para orientar a Fase 0. Toda tabela de negócio tem `org_id`, `created_
 
 - **Perfil:** só a própria pessoa lê e escreve. CPF e CNPJ conferidos pelo dígito verificador (`private.valid_cpf`, `private.valid_cnpj`). Dado pessoal (LGPD): não vai para a equipe nem para o registro.
 - **Plano:** toda organização nova nasce em teste de 15 dias (gatilho `orgs_trial`; as que já existiam viraram `cortesia`). Ninguém escreve pelo app; membros leem. `org_plan_status(org)` devolve o status de agora (teste vencido = `vencida`) e os dias que faltam. Ainda nada é bloqueado por plano.
-- **Capa e prazo** (migração `20261115100000_capa_prazo_limite_ia.sql`, testes em `capa-prazo.test.ts`): `orgs.thumbnail_path` (só aponta para `<org_id>/…` no bucket público `org-capas`; só dono e admin enviam e trocam) e `products.due_on` (data de entrega; quem edita produtos define). A mesma migração baixou o limite de IA para 50 textos + 10 fotos por organização por mês.
+- **Capa e prazo** (migração `20261115130000_capa_prazo_limite_ia.sql`, testes em `capa-prazo.test.ts`): `orgs.thumbnail_path` (só aponta para `<org_id>/…` no bucket público `org-capas`; só dono e admin enviam e trocam) e `products.due_on` (data de entrega; quem edita produtos define). A mesma migração baixou o limite de IA para 50 textos + 10 fotos por organização por mês.
 - **Atividade:** os gatilhos gravam molde criado, versão salva, coleção e produto criados, mudança de status do produto, aprovação pedida e decidida, risco salvo, ficha gerada, entrada, saída e troca de papel na equipe, convite. Eventos de tela por `log_event(org, ação)` (lista fechada, até 30 por pessoa por minuto). Ninguém escreve direto; dono e admin leem a própria organização. `onboarding_progress()` responde o que a pessoa já fez para os primeiros passos.
 
 ## Medidas e manequins
@@ -112,6 +112,6 @@ O documento do molde guarda: partes, pontos, curvas, piques, fio, regras de grad
 ## Storage (buckets)
 
 - `textures`: privado por organização (caminho começa com `org_id/`).
-- `avatars` (**implementado**, migração `20261115080000_conta_e_trial.sql`): público, foto de perfil em `<user_id>/<nome>.webp|jpg|png`, até 200 KB; cada pessoa envia e apaga só na própria pasta (`private.is_own_avatar_path`).
+- `avatars` (**implementado**, migração `20261115110000_conta_e_trial.sql`): público, foto de perfil em `<user_id>/<nome>.webp|jpg|png`, até 200 KB; cada pessoa envia e apaga só na própria pasta (`private.is_own_avatar_path`).
 - `captures` e `exports`: privados; acesso por URL assinada.
 - `system`: presets públicos de tecido, pose e corpo-base.
