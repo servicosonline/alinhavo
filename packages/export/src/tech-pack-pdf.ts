@@ -47,6 +47,23 @@ function heading(ctx: Ctx, value: string) {
   ctx.y -= 6;
 }
 
+/** Texto corrido quebrado na largura da página (as quebras de linha do texto são mantidas). */
+function paragraph(ctx: Ctx, value: string, size = 9.5) {
+  const max = PAGE.w - 2 * MARGIN;
+  for (const raw of winAnsiSafe(value).split("\n")) {
+    let line = "";
+    for (const word of raw.split(/\s+/).filter(Boolean)) {
+      const next = line ? `${line} ${word}` : word;
+      if (line && ctx.font.widthOfTextAtSize(next, size) > max) {
+        text(ctx, line, { size });
+        line = word;
+      } else line = next;
+    }
+    if (line) text(ctx, line, { size });
+    else ctx.y -= size / 2;
+  }
+}
+
 /** Tabela simples: larguras em fração da área útil. */
 function table(ctx: Ctx, cols: { title: string; width: number; align?: "right" }[], rows: string[][]) {
   const total = PAGE.w - 2 * MARGIN;
@@ -93,6 +110,11 @@ export async function exportTechPackPdf(data: TechPackData, opts: { number?: num
   text(ctx, `Grade: ${data.pattern.sizes.join(", ")} (base ${data.pattern.baseSize})   ·   Gerada em ${new Date(data.generatedAt).toLocaleDateString("pt-BR")}`, {
     color: SOFT,
   });
+
+  if (data.technicalDescription) {
+    heading(ctx, "Descrição técnica");
+    paragraph(ctx, data.technicalDescription);
+  }
 
   heading(ctx, "Peças");
   const base = data.pattern.baseSize;

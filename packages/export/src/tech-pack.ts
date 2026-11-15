@@ -29,6 +29,8 @@ export type TechPackInput = {
   trims: { name: string; quantity: number; unit: string; unitPriceCents: number | null }[];
   /** Último risco salvo para esta versão do molde (o app escolhe; aqui só se confere a largura). */
   marker?: TechPackMarker | null;
+  /** Texto técnico do produto (escrito pela equipe, com sugestão da IA); vazio fica de fora. */
+  technicalDescription?: string | null;
 };
 
 export type TechPackMarker = { number: number; widthMm: number; lengthMm: number; efficiency: number };
@@ -68,6 +70,8 @@ export type TechPackData = {
   trimsCents: number;
   /** Custo de material por peça pronta (tecido + aviamentos), centavos; null sem custo do tecido. */
   materialCentsBySize: Record<string, number | null>;
+  /** Texto técnico do produto (opcional: fichas antigas não têm). */
+  technicalDescription?: string;
 };
 
 const round1 = (v: number) => Math.round(v * 10) / 10;
@@ -128,6 +132,7 @@ export function buildTechPack(input: TechPackInput): TechPackData {
     trims,
     trimsCents,
     materialCentsBySize,
+    ...(input.technicalDescription?.trim() ? { technicalDescription: input.technicalDescription.trim() } : {}),
   };
 }
 

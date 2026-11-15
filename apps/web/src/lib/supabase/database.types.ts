@@ -143,7 +143,25 @@ type ProductRow = {
   size_chart_id: string | null;
   pattern_id: string | null;
   fabric_id: string | null;
+  /** Texto de venda (loja, catálogo); até 2000 caracteres. */
+  sales_description: string | null;
+  /** Texto técnico (entra na ficha); até 4000 caracteres. */
+  technical_description: string | null;
 } & Timestamps;
+export type AiGenerationStatus = "reservada" | "pronta" | "erro";
+type AiGenerationRow = {
+  id: string;
+  org_id: string;
+  product_id: string;
+  kind: "textos_produto";
+  status: AiGenerationStatus;
+  model: string | null;
+  input_tokens: number | null;
+  output_tokens: number | null;
+  created_by: string | null;
+  created_at: string;
+  finished_at: string | null;
+};
 type MilestoneRow = {
   id: string;
   org_id: string;
@@ -372,6 +390,8 @@ export type Database = {
           size_chart_id?: string | null;
           pattern_id?: string | null;
           fabric_id?: string | null;
+          sales_description?: string | null;
+          technical_description?: string | null;
         };
         Relationships: [
           Fk<"products_org_id_fkey", "org_id", "orgs">,
@@ -380,6 +400,12 @@ export type Database = {
           OrgFk<"products_size_chart_id_org_id_fkey", "size_chart_id", "size_charts">,
           OrgFk<"products_pattern_id_org_id_fkey", "pattern_id", "patterns">,
         ];
+      };
+      ai_generations: {
+        Row: AiGenerationRow;
+        Insert: never;
+        Update: never;
+        Relationships: [OrgFk<"ai_generations_product_id_org_id_fkey", "product_id", "products">];
       };
       fabrics: {
         Row: FabricRow;
@@ -501,6 +527,12 @@ export type Database = {
         Returns: { id: string; token: string; expires_at: string }[];
       };
       create_tech_pack: { Args: { p_product_id: string; p_pattern_version: number; p_data: Json }; Returns: TechPackRow };
+      reserve_ai_generation: { Args: { p_product_id: string; p_kind?: string }; Returns: string };
+      finish_ai_generation: {
+        Args: { p_id: string; p_ok: boolean; p_model?: string | null; p_input_tokens?: number | null; p_output_tokens?: number | null };
+        Returns: undefined;
+      };
+      ai_generations_this_month: { Args: { p_org_id: string }; Returns: number };
       create_marker: {
         Args: {
           p_product_id: string;

@@ -14,6 +14,7 @@ import { linkProductPattern, setProductStatus } from "../../colecoes/actions";
 import { deleteTrim, setProductFabric } from "../actions";
 import { DownloadTechPack, GenerateTechPack, TrimForm } from "./tech-pack-parts";
 import { Comments } from "./comments";
+import { ProductTexts } from "./product-texts";
 import { consumptionSource, meters, money, type TechPackData } from "@alinhavo/export/tech-pack";
 import { formatMoney } from "@/lib/money";
 import { formatEfficiency, formatMeters, formatPerGarment } from "@/lib/encaixe/marker";
@@ -43,7 +44,7 @@ async function Produto({ params }: { params: Params }) {
   const [prodRes, role, patRes] = await Promise.all([
     supabase
       .from("products")
-      .select("id, reference, name, status, pattern_id, fabric_id, collection_id, collections(name)")
+      .select("id, reference, name, status, pattern_id, fabric_id, collection_id, sales_description, technical_description, collections(name)")
       .eq("id", productId)
       .eq("org_id", orgId)
       .maybeSingle(),
@@ -64,7 +65,7 @@ async function Produto({ params }: { params: Params }) {
     : { data: [] as { status: "pendente" | "aprovado" | "ajustes" }[] };
   const latest = last?.[0]?.status ?? null;
 
-  const [fabRes, trimRes, packRes, commentRes, teamRes, markerRes] = await Promise.all([
+  const [fabRes, trimRes, packRes, commentRes, teamRes, markerRes, aiRes] = await Promise.all([
     supabase.from("fabrics").select("id, name, width_mm, price_cents").eq("org_id", orgId).order("name"),
     supabase.from("product_trims").select("id, name, quantity, unit, unit_price_cents").eq("product_id", p.id).eq("org_id", orgId).order("position").order("created_at"),
     supabase.from("tech_packs").select("id, number, pattern_version, data, created_at").eq("product_id", p.id).eq("org_id", orgId).order("number", { ascending: false }).limit(10),
@@ -77,7 +78,10 @@ async function Produto({ params }: { params: Params }) {
       .eq("org_id", orgId)
       .order("number", { ascending: false })
       .limit(1),
+    supabase.rpc("ai_generations_this_month", { p_org_id: orgId }),
   ]);
+  // Só a informação de que há chave (nunca a chave) vai para a tela.
+  const aiReady = !!process.env.ANTHROPIC_API_KEY?.trim();
   const lastMarker = markerRes.data?.[0] ?? null;
   const names = Object.fromEntries((teamRes.data ?? []).map((m) => [m.user_id, m.email]));
   const fabrics = fabRes.data ?? [];
@@ -188,6 +192,21 @@ async function Produto({ params }: { params: Params }) {
             </p>
           )}
         </div>
+      </section>
+
+      <section className={`${ui.card} space-y-3`} aria-labelledby="textos" data-section="textos">
+        <h2 id="textos" className={ui.h2}>
+          Textos do produto
+        </h2>
+        <ProductTexts
+          orgId={orgId}
+          productId={p.id}
+          sales={p.sales_description}
+          technical={p.technical_description}
+          canEdit={canEdit}
+          aiReady={aiReady}
+          usedThisMonth={aiRes.data ?? 0}
+        />
       </section>
 
       <section className={`${ui.card} space-y-3`} aria-labelledby="tecido" data-section="tecido">

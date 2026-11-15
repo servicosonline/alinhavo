@@ -84,6 +84,19 @@ describe("ficha técnica", () => {
     expect(semLargura.consumption.method).toBe("area");
   });
 
+  it("texto técnico entra na ficha quando há; em branco fica de fora (fichas antigas não têm)", () => {
+    expect(buildTechPack(input({ technicalDescription: "  Tecido: sarja\nGrade: P M G  " })).technicalDescription).toBe("Tecido: sarja\nGrade: P M G");
+    expect("technicalDescription" in buildTechPack(input({ technicalDescription: "   " }))).toBe(false);
+    expect("technicalDescription" in buildTechPack(input())).toBe(false);
+  });
+
+  it("PDF com texto técnico longo quebra as linhas e passa de página sem erro", async () => {
+    const longo = Array.from({ length: 120 }, (_, i) => `Linha ${i + 1}: costura francesa nas laterais, pesponto duplo a 1 cm da barra e acabamento em viés.`).join("\n");
+    const bytes = await exportTechPackPdf(buildTechPack(input({ technicalDescription: longo })), { number: 3 });
+    const pdf = await PDFDocument.load(bytes);
+    expect(pdf.getPageCount()).toBeGreaterThan(1);
+  });
+
   it("ficha antiga (sem method nesting nem marker) continua lida como estimativa", () => {
     expect(consumptionSource({ method: "area" })).toBe("estimativa");
     expect(consumptionNote({ method: "area", efficiency: 0.8 })).toMatch(/80%/);

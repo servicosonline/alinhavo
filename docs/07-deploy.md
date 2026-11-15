@@ -92,6 +92,7 @@ A partir daí:
 | `NEXT_PUBLIC_SUPABASE_URL` | Project URL | Production, Preview, Development |
 | `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` | Publishable key | Production, Preview, Development |
 | `NEXT_PUBLIC_SITE_URL` | `https://SEU-APP.vercel.app` | só Production |
+| `ANTHROPIC_API_KEY` | Chave da API da Anthropic (textos do produto por IA; opcional) | Production (e Preview, se quiser testar a IA nas prévias) |
 
 4. **Deploy**. Cada PR ganha uma URL de prévia; a `main` vai para produção.
 
