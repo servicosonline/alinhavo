@@ -1,5 +1,6 @@
 import { Suspense } from "react";
 import { ErrorReporter } from "@/components/error-reporter";
+import { NotificationBell } from "@/components/notification-bell";
 import { PageShell } from "@/components/page-shell";
 import { UserMenu } from "@/components/user-menu";
 
@@ -9,6 +10,7 @@ export default function PainelLayout({ children }: LayoutProps<"/painel">) {
       homeHref="/painel"
       aside={
         <Suspense fallback={null}>
+          <NotificationBell />
           <UserMenu />
         </Suspense>
       }

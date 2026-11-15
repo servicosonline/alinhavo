@@ -6,6 +6,8 @@ import { usePathname } from "next/navigation";
 const TABS = [
   { href: "/painel/admin", label: "Clientes", match: (p: string) => p === "/painel/admin" || p.startsWith("/painel/admin/clientes") },
   { href: "/painel/admin/tempo", label: "Tempo de produção", match: (p: string) => p.startsWith("/painel/admin/tempo") },
+  { href: "/painel/admin/notificacoes", label: "Notificações", match: (p: string) => p.startsWith("/painel/admin/notificacoes") },
+  { href: "/painel/admin/novidades", label: "Novidades", match: (p: string) => p.startsWith("/painel/admin/novidades") },
   { href: "/painel/admin/erros", label: "Erros", match: (p: string) => p.startsWith("/painel/admin/erros") },
   { href: "/painel/admin/auditoria", label: "Auditoria", match: (p: string) => p.startsWith("/painel/admin/auditoria") },
   { href: "/painel/admin/equipe", label: "Equipe", match: (p: string) => p.startsWith("/painel/admin/equipe") },

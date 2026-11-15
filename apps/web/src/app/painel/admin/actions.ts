@@ -5,6 +5,7 @@ import type { FormState } from "@/components/ui";
 import { getCurrentUser } from "@/lib/auth";
 import { dbErrorMessage } from "@/lib/db-error";
 import { isUuid } from "@/lib/ids";
+import { readLink, videoEmbedUrl } from "@/lib/notifications";
 import { getOrigin } from "@/lib/origin";
 import { createClient } from "@/lib/supabase/server";
 import type { OrgRole, SubscriptionStatus } from "@/lib/supabase/database.types";
@@ -96,4 +97,72 @@ export async function adminRemoveHelper(formData: FormData) {
   const { error } = await supabase.rpc("platform_remove_admin", { p_user_id: userId });
   if (error) console.error("[superadmin] ajudante não saiu:", error.code);
   revalidatePath("/painel/admin/equipe");
+}
+
+// ---------------------------------------------------------------------------
+// Notificações e novidades
+// ---------------------------------------------------------------------------
+
+const AUDIENCE_IDS = ["todos", "plano", "status", "org", "pessoa"];
+
+export async function adminSendNotification(_prev: FormState, formData: FormData): Promise<FormState> {
+  const supabase = await ready();
+  if (!supabase) return { error: "Entre de novo para continuar." };
+  const title = String(formData.get("title") ?? "").trim();
+  const body = String(formData.get("body") ?? "").trim();
+  const audience = String(formData.get("audience") ?? "");
+  const value = String(formData.get(`valor_${audience}`) ?? "").trim();
+  const link = readLink(formData.get("link"));
+  if (!title || title.length > 120) return { error: "Escreva um título de até 120 letras." };
+  if (body.length > 1000) return { error: "O texto pode ter até 1.000 letras." };
+  if (!AUDIENCE_IDS.includes(audience)) return { error: "Escolha para quem vai." };
+  if (link === undefined) return { error: "O link precisa ser um caminho do app (/painel/...) ou começar com https://." };
+  const { error } = await supabase.rpc("platform_send_notification", {
+    p_title: title,
+    p_body: body,
+    p_link: link,
+    p_audience: audience,
+    p_value: audience === "todos" ? null : value,
+  });
+  if (error) return { error: dbErrorMessage(error, TEXTS) };
+  revalidatePath("/painel/admin/notificacoes");
+  return { ok: "Notificação enviada." };
+}
+
+export async function adminSaveAnnouncement(_prev: FormState, formData: FormData): Promise<FormState> {
+  const supabase = await ready();
+  if (!supabase) return { error: "Entre de novo para continuar." };
+  const title = String(formData.get("title") ?? "").trim();
+  const body = String(formData.get("body") ?? "").trim();
+  const video = String(formData.get("video") ?? "").trim();
+  const image = String(formData.get("image_path") ?? "").trim();
+  if (!title || title.length > 120) return { error: "Escreva um título de até 120 letras." };
+  if (body.length > 4000) return { error: "O texto pode ter até 4.000 letras." };
+  if (video && !videoEmbedUrl(video)) return { error: "O vídeo precisa ser um link do YouTube ou do Vimeo." };
+  if (image && !/^[A-Za-z0-9_-]{1,64}\.(webp|jpg|png)$/.test(image)) return { error: "Imagem inválida." };
+  const { error } = await supabase.rpc("platform_save_announcement", {
+    p_id: null,
+    p_title: title,
+    p_body: body,
+    p_image_path: image || null,
+    p_video_url: video || null,
+    p_published: formData.get("published") === "on",
+  });
+  if (error) return { error: dbErrorMessage(error, TEXTS) };
+  revalidatePath("/painel/admin/novidades");
+  revalidatePath("/painel/novidades");
+  revalidatePath("/painel");
+  return { ok: "Novidade salva." };
+}
+
+export async function adminDeleteAnnouncement(formData: FormData) {
+  const supabase = await ready();
+  const id = formData.get("id");
+  if (!supabase || !isUuid(id)) return;
+  const { data: image, error } = await supabase.rpc("platform_delete_announcement", { p_id: id });
+  if (error) console.error("[superadmin] novidade não apagada:", error.code);
+  if (image) await supabase.storage.from("novidades").remove([image]);
+  revalidatePath("/painel/admin/novidades");
+  revalidatePath("/painel/novidades");
+  revalidatePath("/painel");
 }

@@ -603,6 +603,36 @@ export type Database = {
         Update: never;
         Relationships: [Fk<"activity_log_org_id_fkey", "org_id", "orgs">];
       };
+      notifications: {
+        Row: {
+          id: string;
+          title: string;
+          body: string;
+          link: string | null;
+          audience: string;
+          audience_value: string | null;
+          created_by: string | null;
+          created_at: string;
+        };
+        Insert: never;
+        Update: never;
+        Relationships: [];
+      };
+      announcements: {
+        Row: {
+          id: string;
+          title: string;
+          body: string;
+          image_path: string | null;
+          video_url: string | null;
+          published: boolean;
+          created_by: string | null;
+          created_at: string;
+        };
+        Insert: never;
+        Update: never;
+        Relationships: [];
+      };
       tracking_links: {
         Row: TrackingLinkRow;
         Insert: never;
@@ -777,6 +807,33 @@ export type Database = {
       platform_orgs: { Args: Record<string, never>; Returns: { id: string; name: string; created_at: string; members: number; products: number }[] };
       am_platform_admin: { Args: Record<string, never>; Returns: boolean };
       my_platform_role: { Args: Record<string, never>; Returns: "dono" | "suporte" | null };
+      my_notifications: {
+        Args: { p_limit?: number };
+        Returns: { id: string; title: string; body: string; link: string | null; created_at: string; read: boolean }[];
+      };
+      mark_notifications_read: { Args: { p_ids?: string[] | null }; Returns: undefined };
+      platform_send_notification: {
+        Args: { p_title: string; p_body: string; p_link: string | null; p_audience: string; p_value?: string | null };
+        Returns: string;
+      };
+      platform_notifications: {
+        Args: { p_limit?: number };
+        Returns: {
+          id: string;
+          title: string;
+          body: string;
+          link: string | null;
+          audience: string;
+          audience_value: string | null;
+          created_at: string;
+          reads: number;
+        }[];
+      };
+      platform_save_announcement: {
+        Args: { p_id: string | null; p_title: string; p_body: string; p_image_path: string | null; p_video_url: string | null; p_published: boolean };
+        Returns: string;
+      };
+      platform_delete_announcement: { Args: { p_id: string }; Returns: string | null };
       platform_clients: {
         Args: Record<string, never>;
         Returns: {

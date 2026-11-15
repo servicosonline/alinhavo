@@ -2,7 +2,7 @@ import { initials } from "@/lib/account";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 
 /** Endereço de um arquivo num bucket público (`avatars`, `org-capas`; o nome do arquivo é aleatório). */
-export function publicFileUrl(bucket: "avatars" | "org-capas", path: string | null | undefined): string | null {
+export function publicFileUrl(bucket: "avatars" | "org-capas" | "novidades", path: string | null | undefined): string | null {
   const config = getSupabaseConfig();
   if (!path || !config) return null;
   return `${config.url}/storage/v1/object/public/${bucket}/${path}`;

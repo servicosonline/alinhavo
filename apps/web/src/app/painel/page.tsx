@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Suspense } from "react";
 import { OnboardingCard } from "@/components/account/onboarding-card";
+import { Announcement } from "@/components/announcement";
 import { WelcomeDialog } from "@/components/account/welcome-dialog";
 import { ModuleIcon } from "@/components/icons";
 import { OrgCover } from "@/components/org-cover";
@@ -38,7 +39,7 @@ export default function PainelPage() {
 async function Organizacoes() {
   const user = await requireUser("/painel");
   const supabase = await createClient();
-  const [{ data, error }, { data: profile }, { data: progress }, { data: recent }] = await Promise.all([
+  const [{ data, error }, { data: profile }, { data: progress }, { data: recent }, { data: news }] = await Promise.all([
     supabase.from("org_members").select("role, orgs(id, name, thumbnail_path)").eq("user_id", user.id).order("created_at"),
     supabase.from("profiles").select("first_name, last_name, welcome_seen_at, onboarding_closed_at").eq("user_id", user.id).maybeSingle(),
     supabase.rpc("onboarding_progress"),
@@ -49,6 +50,7 @@ async function Organizacoes() {
       .is("archived_at", null)
       .order("updated_at", { ascending: false })
       .limit(4),
+    supabase.from("announcements").select("id, title, body, image_path, video_url, created_at").eq("published", true).order("created_at", { ascending: false }).limit(2),
   ]);
 
   if (error) {
@@ -165,6 +167,28 @@ async function Organizacoes() {
           </li>
         </ul>
       </section>
+
+      {news && news.length > 0 && (
+        <section aria-labelledby="novidades" className="space-y-4">
+          <div className="flex items-baseline justify-between gap-3">
+            <h2 id="novidades" className={ui.eyebrow}>
+              Novidades
+            </h2>
+            <Link href="/painel/novidades" className={ui.link}>
+              Ver todas
+            </Link>
+          </div>
+          <ul className="grid gap-4 md:grid-cols-2">
+            {news.map((a) => (
+              <li key={a.id} className={ui.card}>
+                <Link href="/painel/novidades" className="block">
+                  <Announcement a={a} compact />
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
     </div>
   );
 }
