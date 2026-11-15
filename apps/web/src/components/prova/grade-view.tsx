@@ -7,6 +7,7 @@ import { GRADE_SETTLE_TIME, GRADE_STATE_NAME, gradeConcurrency, nextToStart, tig
 import type { LookExtra } from "@/lib/prova/look";
 import { garmentPaint } from "@/lib/prova/paint";
 import type { FabricId, FromWorker, PoseId, ProvaMaps, ProvaPart, ToWorker } from "@/lib/prova/protocol";
+import type { RenderQuality } from "@/lib/prova/quality";
 import { formatCm } from "@/lib/units";
 import type { GradeScene } from "./grade-scene";
 
@@ -31,6 +32,8 @@ type Props = {
   /** Look: camada do molde em prova e as outras roupas (cada tamanho veste o look inteiro). */
   layer: number;
   extras: LookExtra[];
+  /** Qualidade do desenho (a mesma da Prova de um tamanho). */
+  quality: RenderQuality;
 };
 
 const percent = (fraction: number, digits = 1) => `${(fraction * 100).toLocaleString("pt-BR", { maximumFractionDigits: digits })}%`;
@@ -42,7 +45,7 @@ const percent = (fraction: number, digits = 1) => `${(fraction * 100).toLocaleSt
  * roupa assentada, para comparar. Só mostra: ajuste, captura e aprovação ficam
  * na Prova de um tamanho.
  */
-export function GradeView({ doc, measurementsBySize, fabric, pose, color, view, layer, extras }: Props) {
+export function GradeView({ doc, measurementsBySize, fabric, pose, color, view, layer, extras, quality }: Props) {
   const viewRef = useRef<HTMLDivElement>(null);
   const sceneRef = useRef<GradeScene | null>(null);
   const [sceneReady, setSceneReady] = useState(false);
@@ -54,6 +57,7 @@ export function GradeView({ doc, measurementsBySize, fabric, pose, color, view, 
   const partsRef = useRef<{ parts: ProvaPart[]; vertices: number }[]>([]);
   const colorRef = useRef(color);
   const viewModeRef = useRef(view);
+  const qualityRef = useRef(quality);
 
   /** Pinta um tamanho conforme a vista. Só lê refs: é estável. */
   const paint = useCallback((i: number) => {
@@ -68,7 +72,7 @@ export function GradeView({ doc, measurementsBySize, fabric, pose, color, view, 
     let disposed = false;
     import("./grade-scene").then(({ GradeScene }) => {
       if (disposed || !viewRef.current) return;
-      sceneRef.current = new GradeScene(viewRef.current);
+      sceneRef.current = new GradeScene(viewRef.current, qualityRef.current);
       setSceneReady(true);
     });
     return () => {
@@ -110,7 +114,7 @@ export function GradeView({ doc, measurementsBySize, fabric, pose, color, view, 
         if (states[i] !== "montando" && states[i] !== "simulando") return;
         if (msg.type === "ready") {
           scene.setBody(i, msg.body.positions, msg.body.indices);
-          scene.setGarment(i, msg.garment.positions, msg.garment.indices, colorRef.current, msg.decals);
+          scene.setGarment(i, msg.garment.positions, msg.garment.indices, colorRef.current, msg.decals, msg.garment.uv, msg.parts);
           partsRef.current[i] = { parts: msg.parts, vertices: msg.garment.positions.length / 3 };
           setFabricLimit(msg.fabricLimit);
           paint(i);
@@ -151,6 +155,13 @@ export function GradeView({ doc, measurementsBySize, fabric, pose, color, view, 
     };
   }, [sceneReady, doc, measurementsBySize, fabric, pose, layer, extras, paint]);
 
+  // Trocar a qualidade refaz os materiais (e repinta, que eles voltam na cor do tecido).
+  useEffect(() => {
+    qualityRef.current = quality;
+    sceneRef.current?.setQuality(quality);
+    for (let i = 0; i < mapsRef.current.length; i++) paint(i);
+  }, [quality, paint]);
+
   // Trocar a vista ou a cor do tecido só repinta.
   useEffect(() => {
     colorRef.current = color;
@@ -174,7 +185,7 @@ export function GradeView({ doc, measurementsBySize, fabric, pose, color, view, 
           </p>
         )}
       </div>
-      <div className="overflow-x-auto rounded-lg border border-tinta/15 bg-white/70">
+      <div className="overflow-x-auto rounded-2xl border border-tinta/10 bg-white">
         <table className="w-full text-left text-xs" data-grade-table>
           <caption className="px-3 pt-2 text-left text-tinta-suave" aria-live="polite">
             {done === rows.length && rows.length > 0

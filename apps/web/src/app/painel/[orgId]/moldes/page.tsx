@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
-import { Loading, NotConfigured } from "@/components/page-shell";
+import { EmptyState, Loading, NotConfigured, PageHeader } from "@/components/page-shell";
+import { ModuleIcon } from "@/components/icons";
 import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
@@ -42,37 +43,41 @@ async function Moldes({ params }: { params: PageProps<"/painel/[orgId]/moldes">[
 
   return (
     <div className="space-y-8">
-      <div>
-        <Link href={`/painel/${orgId}`} className="text-sm text-tinta-suave hover:text-tinta">
-          ← {orgRes.data.name}
-        </Link>
-        <h1 className={`mt-2 ${ui.h1}`}>Moldes</h1>
-      </div>
+      <PageHeader
+        title="Moldes"
+        description="Desenhe no tamanho base, gradue a grade inteira e prove no corpo em 3D. Cada ajuste salvo vira uma versão nova."
+      />
 
       {canEditPatterns(role) && (
-        <div className={`${ui.card} space-y-3`}>
+        <section className={`${ui.card} space-y-3`} aria-label="Novo molde">
+          <h2 className={`${ui.eyebrow} mb-1`}>Novo molde</h2>
           <CreatePatternForm orgId={orgId} />
           <p className="text-sm text-tinta-suave">
             Tem o molde em papel?{" "}
-            <Link href={`/painel/${orgId}/moldes/scan`} className="underline" data-scan-link>
+            <Link href={`/painel/${orgId}/moldes/scan`} className={ui.link} data-scan-link>
               Escanear por foto
             </Link>
           </p>
-        </div>
+        </section>
       )}
 
       {patterns.length === 0 ? (
-        <p className={ui.muted}>Nenhum molde ainda.</p>
+        <EmptyState icon="moldes" title="Nenhum molde ainda">
+          Comece de um exemplo (saia, calça ou conjunto) ou do zero. Tem o molde em papel? Escaneie por foto.
+        </EmptyState>
       ) : (
-        <ul className="divide-y divide-tinta/10 overflow-hidden rounded-lg border border-tinta/15 bg-white/70">
+        <ul className={ui.list}>
           {patterns.map((p) => (
             <li key={p.id}>
               <Link
                 href={`/painel/${orgId}/moldes/${p.id}`}
-                className="flex items-center justify-between gap-4 px-5 py-4 transition hover:bg-papel-escuro"
+                className={ui.row}
               >
-                <span className="font-medium">{p.name}</span>
-                <span className="text-right text-xs text-tinta-suave">
+                <span className="flex min-w-0 items-center gap-3">
+                  <ModuleIcon name="moldes" className="size-5 text-tinta-suave" />
+                  <span className="truncate font-medium">{p.name}</span>
+                </span>
+                <span className="shrink-0 text-right font-mono text-[11px] text-tinta-suave">
                   {p.current_version === 0 ? "sem versão salva" : `versão ${p.current_version}`}
                   <br />
                   {quando.format(new Date(p.updated_at))}

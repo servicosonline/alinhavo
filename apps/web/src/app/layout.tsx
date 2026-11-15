@@ -19,10 +19,22 @@ const fraunces = Fraunces({
   axes: ["SOFT", "WONK", "opsz"],
 });
 
+const site = process.env.NEXT_PUBLIC_SITE_URL;
+
 export const metadata: Metadata = {
+  // As imagens de compartilhamento (opengraph-image.png, geradas por marca/compartilhar/gerar.sh) precisam
+  // de endereço absoluto: o do site se estiver definido; senão o Next usa o da Vercel.
+  ...(site ? { metadataBase: new URL(site) } : {}),
   title: "Alinhavo · prove antes de cortar",
   description:
     "Modelagem, prova virtual em 3D e encaixe para confecções, direto no navegador.",
+  openGraph: {
+    title: "Alinhavo · prove antes de cortar",
+    description: "Desenhe o molde, vista no corpo em 3D e veja onde aperta. Tudo no navegador.",
+    siteName: "Alinhavo",
+    locale: "pt_BR",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

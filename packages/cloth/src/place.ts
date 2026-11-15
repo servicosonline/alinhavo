@@ -92,10 +92,17 @@ export function anchorHeight(landmarks: BodyLandmarks, anchor: BodyAnchor): numb
 /**
  * Elipse do corpo na altura y, já com a folga. Entre as referências,
  * interpola; abaixo do quadril usa o quadril (saia e calça caem soltas em
- * volta das pernas); acima do ombro, o ombro.
+ * volta das pernas); acima do pescoço, o pescoço.
+ *
+ * Entre a ponta do ombro e o pescoço, a elipse afina como o corpo: a alça
+ * (no "ombro", a altura do pescoço) começa junto do pescoço e perto da alça
+ * do outro lado. Com a elipse larga do ombro até lá em cima, a frente e as
+ * costas da alça começavam a uns 20 cm uma da outra; a costura esticava a alça
+ * por cima do ombro, ela escorregava pela descida até o braço e o top
+ * assentava torto (uma alça caída, a barra inclinada).
  */
 export function bodyEllipse(landmarks: BodyLandmarks, y: number, clearance = PLACEMENT_CLEARANCE) {
-  const sections: TorsoSection[] = [landmarks.hip, landmarks.waist, landmarks.bust, landmarks.shoulder].sort((a, b) => a.y - b.y);
+  const sections: TorsoSection[] = [landmarks.hip, landmarks.waist, landmarks.bust, landmarks.shoulder, landmarks.neck].sort((a, b) => a.y - b.y);
   let s: { halfWidth: number; halfDepth: number; centerZ: number };
   if (y <= sections[0]!.y) s = sections[0]!;
   else if (y >= sections.at(-1)!.y) s = sections.at(-1)!;

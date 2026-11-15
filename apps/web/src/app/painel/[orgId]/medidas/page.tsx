@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
-import { Loading, NotConfigured } from "@/components/page-shell";
+import { EmptyState, Loading, NotConfigured, PageHeader } from "@/components/page-shell";
 import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
@@ -35,31 +35,31 @@ async function Tabelas({ params }: { params: PageProps<"/painel/[orgId]/medidas"
 
   return (
     <div className="space-y-8">
-      <div>
-        <Link href={`/painel/${orgId}`} className="text-sm text-tinta-suave hover:text-tinta">
-          ← {orgRes.data.name}
-        </Link>
-        <h1 className={`mt-2 ${ui.h1}`}>Tabelas de medidas</h1>
-        <p className={`mt-1 ${ui.muted}`}>Uma por público ou por cliente. Os moldes usam a grade de tamanhos daqui.</p>
-      </div>
+      <PageHeader
+        title="Tabelas de medidas"
+        description="Uma por público ou por cliente. Os moldes usam a grade de tamanhos daqui."
+      />
 
       {canEditPatterns(role) && (
-        <div className={ui.card}>
+        <section className={ui.card} aria-label="Nova tabela">
+          <h2 className={`${ui.eyebrow} mb-4`}>Nova tabela</h2>
           <CreateSizeChartForm orgId={orgId} />
-        </div>
+        </section>
       )}
 
       {charts.length === 0 ? (
-        <p className={ui.muted}>Nenhuma tabela ainda.</p>
+        <EmptyState icon="medidas" title="Nenhuma tabela ainda">
+          A tabela dá a grade de tamanhos do molde e as medidas do corpo na Prova 3D.
+        </EmptyState>
       ) : (
-        <ul className="divide-y divide-tinta/10 overflow-hidden rounded-lg border border-tinta/15 bg-white/70">
+        <ul className={ui.list}>
           {charts.map((c) => (
             <li key={c.id}>
               <Link
                 href={`/painel/${orgId}/medidas/${c.id}`}
-                className="flex items-center justify-between gap-4 px-5 py-4 transition hover:bg-papel-escuro"
+                className={ui.row}
               >
-                <span className="font-medium">{c.name}</span>
+                <span className="font-display text-lg font-semibold">{c.name}</span>
                 <span className="font-mono text-xs text-tinta-suave">
                   {[...c.sizes].sort((a, b) => a.position - b.position).map((s) => s.label).join(" · ") || "sem tamanhos"}
                 </span>

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { DemoHeader } from "@/components/demo-header";
+import { PageHeader } from "@/components/page-shell";
 import { ScanStudio } from "@/components/scan/scan-studio";
-import { ui } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "Experimente o Scan de moldes · Alinhavo",
@@ -10,22 +10,18 @@ export const metadata: Metadata = {
 
 export default function ExperimentarScanPage() {
   return (
-    <main className="flex flex-1 flex-col bg-papel">
-      <div className="mx-auto w-full max-w-3xl flex-1 space-y-6 px-4 py-4 sm:px-6">
-        <header className="flex items-center justify-between gap-4">
-          <Link href="/experimentar" className="font-display text-xl font-semibold tracking-tight">
-            Alinhavo
-          </Link>
-          <Link href="/entrar" className="text-sm text-tinta-suave hover:text-tinta">
-            Entrar para salvar →
-          </Link>
-        </header>
-        <div>
-          <h1 className={ui.h1}>Scan de molde de papel</h1>
-          <p className={`mt-1 ${ui.muted}`}>A foto é lida no seu navegador e nada é salvo. Baixe a peça em DXF para abrir no seu CAD.</p>
+    <div className="flex flex-1 flex-col bg-papel">
+      <DemoHeader current="scan" />
+      <main className="papel-milimetrado flex-1">
+        <div className="mx-auto w-full max-w-3xl space-y-8 px-4 py-8 sm:px-6 sm:py-10">
+          <PageHeader
+            eyebrow="Do papel para o molde"
+            title="Scan de molde de papel"
+            description="Imprima a folha de marcadores, fotografe o molde ao lado dela e baixe a peça em DXF para abrir no seu CAD. A foto é lida no seu navegador e nada é salvo."
+          />
+          <ScanStudio mode={{ kind: "demo" }} />
         </div>
-        <ScanStudio mode={{ kind: "demo" }} />
-      </div>
-    </main>
+      </main>
+    </div>
   );
 }

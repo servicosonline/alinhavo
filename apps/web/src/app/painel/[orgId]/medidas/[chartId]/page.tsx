@@ -1,7 +1,6 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
-import { Loading, NotConfigured } from "@/components/page-shell";
+import { Loading, NotConfigured, PageHeader } from "@/components/page-shell";
 import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
@@ -53,12 +52,11 @@ async function Tabela({ params }: { params: Params }) {
 
   return (
     <div className="space-y-8">
-      <div>
-        <Link href={`/painel/${orgId}/medidas`} className="text-sm text-tinta-suave hover:text-tinta">
-          ← Tabelas de medidas
-        </Link>
-        <h1 className={`mt-2 ${ui.h1}`}>{chart.name}</h1>
-      </div>
+      <PageHeader
+        trail={[{ label: "Tabelas de medidas", href: `/painel/${orgId}/medidas` }, { label: chart.name }]}
+        eyebrow="Tabela de medidas"
+        title={chart.name}
+      />
 
       <section aria-labelledby="tamanhos" className="space-y-3">
         <h2 id="tamanhos" className={ui.h2}>
@@ -68,7 +66,7 @@ async function Tabela({ params }: { params: Params }) {
           {sizes.map((s, i) => (
             <li
               key={s.id}
-              className={`flex items-center gap-1 rounded-md border px-2 py-1 text-sm ${s.is_base ? "border-linha bg-linha/5" : "border-tinta/15 bg-white/70"}`}
+              className={`flex items-center gap-1 rounded-lg border px-2.5 py-1 text-sm ${s.is_base ? "border-linha bg-linha/5" : "border-tinta/15 bg-white"}`}
             >
               <span className="font-mono font-medium">{s.label}</span>
               {s.is_base && <span className="text-xs text-linha">base</span>}

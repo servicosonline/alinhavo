@@ -1,8 +1,10 @@
 import * as THREE from "three";
 import type { Decal } from "@alinhavo/cloth";
 import { GRADE_SPACING_MM, gradeCameraDistance, gradeOffsets } from "@/lib/prova/grade";
+import type { ProvaPart } from "@/lib/prova/protocol";
+import type { RenderQuality } from "@/lib/prova/quality";
 import { DecalLayer } from "./decal-layer";
-import { bodyMesh, disposeMesh, garmentMesh, liftGarment, paintGarment, Stage } from "./stage";
+import { bodyMesh, disposeMesh, garmentGroups, garmentMesh, liftGarment, paintGarment, Stage } from "./stage";
 
 type Slot = {
   group: THREE.Group;
@@ -10,6 +12,9 @@ type Slot = {
   garment: THREE.Mesh | null;
   decals: DecalLayer | null;
   label: THREE.Sprite;
+  /** Roupas e cor da malha (para refazer os materiais ao trocar a qualidade). */
+  parts: readonly ProvaPart[];
+  color: string;
 };
 
 /** Plaquinha com o nome do tamanho (textura de canvas), em mm. */
@@ -44,9 +49,12 @@ function labelSprite(text: string): THREE.Sprite {
 export class GradeScene {
   private stage: Stage;
   private slots: Slot[] = [];
+  private quality: RenderQuality;
 
-  constructor(container: HTMLElement) {
+  constructor(container: HTMLElement, quality: RenderQuality = "alta") {
     this.stage = new Stage(container, "Prova 3D da grade: um manequim por tamanho, lado a lado");
+    this.quality = quality;
+    this.stage.setQuality(quality);
     // Tela de outro tamanho (celular girado, painel aberto): a fileira volta a caber.
     this.stage.onResize = () => this.frameRow();
   }
@@ -74,7 +82,7 @@ export class GradeScene {
       label.position.set(0, 1950, 0);
       group.add(label);
       this.stage.world.add(group);
-      return { group, body: null, garment: null, decals: null, label };
+      return { group, body: null, garment: null, decals: null, label, parts: [], color: "#ffffff" };
     });
     const halfRow = ((sizes.length - 1) * GRADE_SPACING_MM) / 2000;
     this.stage.setFloor(halfRow + 0.9, 0.9);
@@ -100,10 +108,13 @@ export class GradeScene {
   }
 
   /** A roupa de um tamanho e os acabamentos sobre ela. */
-  setGarment(i: number, positions: Float32Array, indices: Uint32Array, color: string, decals: readonly Decal[] = []) {
+  setGarment(i: number, positions: Float32Array, indices: Uint32Array, color: string, decals: readonly Decal[], uv: Float32Array, parts: readonly ProvaPart[]) {
     const slot = this.slots[i];
     if (!slot) return;
-    slot.garment = this.replace(slot.group, slot.garment, garmentMesh(positions, indices, color));
+    slot.parts = parts;
+    slot.color = color;
+    const groups = garmentGroups(this.stage.fabrics, parts, indices.length / 3, color, this.quality);
+    slot.garment = this.replace(slot.group, slot.garment, garmentMesh(positions, indices, groups, uv));
     if (slot.decals) {
       slot.group.remove(slot.decals.group);
       slot.decals.dispose();
@@ -120,8 +131,24 @@ export class GradeScene {
 
   /** Cores por vértice de um tamanho (mapa); null volta à cor do tecido. */
   setMapColors(i: number, colors: Float32Array | null, fabricColor: string) {
-    const garment = this.slots[i]?.garment;
-    if (garment) paintGarment(garment, colors, fabricColor);
+    const slot = this.slots[i];
+    if (!slot?.garment) return;
+    slot.color = fabricColor;
+    paintGarment(slot.garment, colors, fabricColor);
+  }
+
+  /** Qualidade do desenho; os materiais das roupas são refeitos (quem chama repinta depois). */
+  setQuality(quality: RenderQuality) {
+    if (quality === this.quality) return;
+    this.quality = quality;
+    this.stage.setQuality(quality);
+    for (const slot of this.slots) {
+      if (!slot.garment) continue;
+      const old = slot.garment.material;
+      const groups = garmentGroups(this.stage.fabrics, slot.parts, slot.garment.geometry.index!.count / 3, slot.color, quality);
+      slot.garment.material = groups.map((g) => g.material);
+      for (const m of Array.isArray(old) ? old : [old]) m.dispose();
+    }
   }
 
   private clear() {

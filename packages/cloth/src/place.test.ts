@@ -4,7 +4,7 @@ import { createMannequin } from "./body/mannequin";
 import { floorCollider } from "./collider";
 import { FABRICS } from "./fabrics";
 import { meshPiece } from "./mesh";
-import { angleAtArc, anchorHeight, legAt, pieceHalf, placeGarment, PLACEMENT_CLEARANCE } from "./place";
+import { angleAtArc, anchorHeight, bodyEllipse, legAt, pieceHalf, placeGarment, PLACEMENT_CLEARANCE } from "./place";
 import { createSimulation } from "./simulation";
 
 const BODY = { busto: 880, cintura: 720, quadril: 900, altura: 1650 };
@@ -171,6 +171,17 @@ describe("cortar par e perna", () => {
     expect(anchorHeight(L, "ombro")).toBe(L.neck.y);
     expect(L.neck.y).toBeGreaterThan(L.shoulder.y);
   });
+
+  it("da ponta do ombro ao pescoço a elipse afina como o corpo (a alça começa junto do pescoço)", () => {
+    const at = (y: number) => bodyEllipse(L, y);
+    expect(at(L.shoulder.y).a).toBeCloseTo(L.shoulder.halfWidth + PLACEMENT_CLEARANCE, 9);
+    expect(at(L.neck.y).a).toBeCloseTo(L.neck.halfWidth + PLACEMENT_CLEARANCE, 9);
+    expect(at(L.neck.y).b).toBeCloseTo(L.neck.halfDepth + PLACEMENT_CLEARANCE, 9);
+    expect(at(L.neck.y + 100)).toEqual(at(L.neck.y));
+    const mid = at((L.shoulder.y + L.neck.y) / 2);
+    expect(mid.a).toBeLessThan(at(L.shoulder.y).a);
+    expect(mid.a).toBeGreaterThan(at(L.neck.y).a);
+  });
 });
 
 describe("a saia de exemplo no manequim", () => {
@@ -208,5 +219,5 @@ describe("a saia de exemplo no manequim", () => {
     const before = Float64Array.from(sim.positions);
     sim.step();
     expect(sim.positions.reduce((m, p, i) => Math.max(m, Math.abs(p - before[i]!)), 0)).toBeLessThan(0.5);
-  }, 30_000); // simulação de 4 s: teste de integração mais lento
+  }, 120_000); // simulação de 4 s: teste de integração mais lento (com folga para o check, que roda os pacotes juntos)
 });

@@ -1,7 +1,6 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
-import { Loading, NotConfigured } from "@/components/page-shell";
+import { Loading, NotConfigured, PageHeader } from "@/components/page-shell";
 import { SubmitButton } from "@/components/submit-button";
 import { ui } from "@/components/ui";
 import { DELIVERY_STATUS_LABEL, eventLabel, WEBHOOK_MAX } from "@/lib/api/webhooks";
@@ -56,15 +55,11 @@ async function Api({ params }: { params: PageProps<"/painel/[orgId]/api">["param
 
   return (
     <div className="space-y-8">
-      <div>
-        <Link href={`/painel/${orgId}`} className="text-sm text-tinta-suave hover:text-tinta">
-          ← {orgRes.data.name}
-        </Link>
-        <h1 className={`mt-2 ${ui.h1}`}>API</h1>
-        <p className={`mt-1 ${ui.muted}`}>
-          Para o ERP ou outro sistema ler os produtos, as fichas técnicas e os riscos desta organização. Só leitura, 60 pedidos por minuto por chave.
-        </p>
-      </div>
+      <PageHeader
+        trail={[{ label: orgRes.data.name, href: `/painel/${orgId}` }, { label: "API" }]}
+        title="API"
+        description="Para o ERP ou outro sistema ler os produtos, as fichas técnicas e os riscos desta organização. Só leitura, 60 pedidos por minuto por chave."
+      />
 
       {!canManage ? (
         <p className={ui.muted}>Só donos e admins gerenciam as chaves de API.</p>

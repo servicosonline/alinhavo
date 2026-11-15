@@ -47,8 +47,9 @@ describe("moldes de exemplo", () => {
   it("o conjunto veste o corpo da demonstração: calça na cintura, top nos ombros", () => {
     const doc = exampleDocument("conjunto");
     const body = createMannequin(demoMeasurements(doc).M!);
-    const { pieces, seams } = garmentAtSize(doc, "M");
-    const meshes = pieces.map((p) => meshPiece(p, { spacing: PROVA_MESH_SPACING }));
+    const { pieces, seams, foldLine } = garmentAtSize(doc, "M");
+    // Como no Worker: malha simétrica pela linha da dobra.
+    const meshes = pieces.map((p) => meshPiece(p, { spacing: PROVA_MESH_SPACING, mirror: foldLine[p.id] }));
     const initial = placeGarment(
       meshes.map((mesh, i) => ({ mesh, placement: pieces[i]!.placement!, half: pieceHalf(pieces[i]!) })),
       body.landmarks,

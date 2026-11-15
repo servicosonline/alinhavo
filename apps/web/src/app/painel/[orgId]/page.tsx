@@ -1,11 +1,13 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
-import { Loading, NotConfigured } from "@/components/page-shell";
+import { ModuleIcon } from "@/components/icons";
+import { Loading, NotConfigured, PageHeader } from "@/components/page-shell";
 import { SubmitButton } from "@/components/submit-button";
 import { ROLE_LABEL, ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
+import { MODULES } from "@/lib/modules";
 import { getOrigin } from "@/lib/origin";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
@@ -22,7 +24,18 @@ export default function OrgPage({ params }: PageProps<"/painel/[orgId]">) {
   );
 }
 
-const dataCurta = new Intl.DateTimeFormat("pt-BR", { day: "2-digit", month: "short" });
+const MODULE_HINT: Record<string, string> = {
+  colecoes: "Produtos, status, cronograma e ficha técnica",
+  moldes: "Modelagem, gradação, margem de costura e Prova 3D",
+  medidas: "Tamanhos e medidas por público ou cliente",
+  tecidos: "Largura, gramatura e preço para o consumo",
+  encaixes: "Riscos processados um de cada vez, em segundo plano",
+};
+
+const dataCurta = new Intl.DateTimeFormat("pt-BR", {
+  day: "2-digit",
+  month: "short",
+});
 
 async function Org({ params }: { params: PageProps<"/painel/[orgId]">["params"] }) {
   const { orgId } = await params;
@@ -55,139 +68,119 @@ async function Org({ params }: { params: PageProps<"/painel/[orgId]">["params"] 
 
   return (
     <div className="space-y-10">
-      <div>
-        <Link href="/painel" className="text-sm text-tinta-suave hover:text-tinta">
-          ← Organizações
-        </Link>
-        <h1 className={`mt-2 ${ui.h1}`}>{orgRes.data.name}</h1>
-        {myRole && <p className={`mt-1 ${ui.muted}`}>Seu papel: {ROLE_LABEL[myRole] ?? myRole}</p>}
-      </div>
+      <PageHeader
+        eyebrow={myRole ? `Seu papel: ${ROLE_LABEL[myRole] ?? myRole}` : undefined}
+        title={orgRes.data.name}
+        description="Do traço ao corte, no mesmo molde. Comece pela coleção ou abra um molde."
+      />
 
-      <nav aria-label="Módulos" className="space-y-3">
-        <Link
-          href={`/painel/${orgId}/colecoes`}
-          className="flex items-center justify-between rounded-lg border border-tinta/15 bg-white/70 px-5 py-4 transition hover:bg-papel-escuro"
-        >
-          <span>
-            <span className="font-display text-xl font-semibold">Coleções</span>
-            <span className={`block ${ui.muted}`}>Produtos, status e cronograma</span>
-          </span>
-          <span aria-hidden>→</span>
-        </Link>
-
-        <Link
-          href={`/painel/${orgId}/encaixes`}
-          className="flex items-center justify-between rounded-lg border border-tinta/15 bg-white/70 px-5 py-4 transition hover:bg-papel-escuro"
-        >
-          <span>
-            <span className="font-display text-xl font-semibold">Fila de encaixes</span>
-            <span className={`block ${ui.muted}`}>Riscos processados um de cada vez, em segundo plano</span>
-          </span>
-          <span aria-hidden>→</span>
-        </Link>
-
-        <Link
-          href={`/painel/${orgId}/moldes`}
-          className="flex items-center justify-between rounded-lg border border-tinta/15 bg-white/70 px-5 py-4 transition hover:bg-papel-escuro"
-        >
-          <span>
-            <span className="font-display text-xl font-semibold">Moldes</span>
-            <span className={`block ${ui.muted}`}>Modelagem, gradação e margem de costura</span>
-          </span>
-          <span aria-hidden>→</span>
-        </Link>
-  
-        {canManage && (
-          <Link
-            href={`/painel/${orgId}/api`}
-            className="flex items-center justify-between rounded-lg border border-tinta/15 bg-white/70 px-5 py-4 transition hover:bg-papel-escuro"
-          >
-            <span>
-              <span className="font-display text-xl font-semibold">API</span>
-              <span className={`block ${ui.muted}`}>Chaves para o ERP ou outro sistema ler produtos, fichas e riscos</span>
-            </span>
-            <span aria-hidden>→</span>
-          </Link>
-        )}
-
-        <Link
-          href={`/painel/${orgId}/tecidos`}
-          className="flex items-center justify-between rounded-lg border border-tinta/15 bg-white/70 px-5 py-4 transition hover:bg-papel-escuro"
-        >
-          <span>
-            <span className="font-display text-xl font-semibold">Tecidos</span>
-            <span className={`block ${ui.muted}`}>Largura, gramatura e preço para a ficha técnica</span>
-          </span>
-          <span aria-hidden>→</span>
-        </Link>
-
-        <Link
-          href={`/painel/${orgId}/medidas`}
-          className="flex items-center justify-between rounded-lg border border-tinta/15 bg-white/70 px-5 py-4 transition hover:bg-papel-escuro"
-        >
-          <span>
-            <span className="font-display text-xl font-semibold">Tabelas de medidas</span>
-            <span className={`block ${ui.muted}`}>Tamanhos e medidas por público ou cliente</span>
-          </span>
-          <span aria-hidden>→</span>
-        </Link>
-      </nav>
-
-      <section aria-labelledby="equipe" className="space-y-4">
-        <h2 id="equipe" className={ui.h2}>
-          Equipe
-        </h2>
-        <ul className="divide-y divide-tinta/10 overflow-hidden rounded-lg border border-tinta/15 bg-white/70">
-          {team.map((m) => (
-            <li key={m.user_id} className="flex items-center justify-between gap-4 px-5 py-3">
-              <span className="truncate">
-                {m.email}
-                {m.user_id === user.id && <span className="text-tinta-suave"> (você)</span>}
-              </span>
-              <span className="shrink-0 text-sm text-tinta-suave">{ROLE_LABEL[m.role] ?? m.role}</span>
+      <nav aria-label="Módulos da organização">
+        <ul className="grid gap-3 sm:grid-cols-2">
+          {MODULES.filter((m) => m.slug).map((m) => (
+            <li key={m.slug}>
+              <Link
+                href={`/painel/${orgId}/${m.slug}`}
+                className="group flex h-full items-start gap-4 rounded-2xl border border-tinta/10 bg-white p-5 transition hover:border-tinta/30"
+              >
+                <span className="grid size-11 shrink-0 place-items-center rounded-xl bg-papel text-tinta transition group-hover:text-linha">
+                  <ModuleIcon name={m.icon} className="size-6" />
+                </span>
+                <span className="min-w-0 flex-1">
+                  <span className="flex items-center justify-between gap-2 font-display text-xl font-semibold">
+                    {m.label}
+                    <span
+                      aria-hidden
+                      className="text-base text-tinta-suave transition group-hover:translate-x-0.5 group-hover:text-linha"
+                    >
+                      →
+                    </span>
+                  </span>
+                  <span className={`mt-1 block ${ui.muted}`}>{MODULE_HINT[m.slug]}</span>
+                </span>
+              </Link>
             </li>
           ))}
-        </ul>
-      </section>
-
-      {canManage && (
-        <section aria-labelledby="convidar" className="space-y-4">
-          <h2 id="convidar" className={ui.h2}>
-            Convidar pessoa
-          </h2>
-          <div className={ui.card}>
-            <InviteForm orgId={orgId} />
-          </div>
-
-          {invites.length > 0 && (
-            <div className="space-y-3">
-              <h3 className="text-sm font-medium uppercase tracking-widest text-tinta-suave">Convites pendentes</h3>
-              <ul className="space-y-3">
-                {invites.map((inv) => (
-                  <li key={inv.id} className={`${ui.card} space-y-3 p-4`}>
-                    <div className="flex flex-wrap items-center justify-between gap-2">
-                      <span className="truncate">
-                        {inv.email} · {ROLE_LABEL[inv.role] ?? inv.role}
-                      </span>
-                      <span className="text-xs text-tinta-suave">
-                        vence em {dataCurta.format(new Date(inv.expires_at))}
-                      </span>
-                    </div>
-                    <CopyLink link={`${origin}/convite/${inv.token}`} />
-                    <form action={cancelInvite}>
-                      <input type="hidden" name="orgId" value={orgId} />
-                      <input type="hidden" name="inviteId" value={inv.id} />
-                      <SubmitButton variant="ghost" pendingText="Cancelando…">
-                        Cancelar convite
-                      </SubmitButton>
-                    </form>
-                  </li>
-                ))}
-              </ul>
-            </div>
+          {canManage && (
+            <li>
+              <Link
+                href={`/painel/${orgId}/api`}
+                className="group flex h-full items-start gap-4 rounded-2xl border border-dashed border-tinta/20 bg-papel/60 p-5 transition hover:border-tinta/40"
+              >
+                <span className="grid size-11 shrink-0 place-items-center rounded-xl bg-white font-mono text-[13px] text-tinta transition group-hover:text-linha">
+                  {"{ }"}
+                </span>
+                <span className="min-w-0 flex-1">
+                  <span className="flex items-center justify-between gap-2 font-display text-xl font-semibold">
+                    API
+                    <span aria-hidden className="text-base text-tinta-suave transition group-hover:translate-x-0.5 group-hover:text-linha">
+                      →
+                    </span>
+                  </span>
+                  <span className={`mt-1 block ${ui.muted}`}>Chaves para o ERP ou outro sistema ler produtos, fichas e riscos</span>
+                </span>
+              </Link>
+            </li>
           )}
+        </ul>
+      </nav>
+
+      <div className="grid items-start gap-10 lg:grid-cols-2">
+        <section aria-labelledby="equipe" className="space-y-4">
+          <h2 id="equipe" className={ui.h2}>
+            Equipe
+          </h2>
+          <ul className={ui.list}>
+            {team.map((m) => (
+              <li key={m.user_id} className="flex items-center justify-between gap-4 px-5 py-3">
+                <span className="truncate">
+                  {m.email}
+                  {m.user_id === user.id && <span className="text-tinta-suave"> (você)</span>}
+                </span>
+                <span className={`shrink-0 ${ui.tag}`}>{ROLE_LABEL[m.role] ?? m.role}</span>
+              </li>
+            ))}
+          </ul>
         </section>
-      )}
+
+        {canManage && (
+          <section aria-labelledby="convidar" className="space-y-4">
+            <h2 id="convidar" className={ui.h2}>
+              Convidar pessoa
+            </h2>
+            <div className={ui.card}>
+              <InviteForm orgId={orgId} />
+            </div>
+
+            {invites.length > 0 && (
+              <div className="space-y-3">
+                <h3 className={ui.eyebrow}>Convites pendentes</h3>
+                <ul className="space-y-3">
+                  {invites.map((inv) => (
+                    <li key={inv.id} className={`${ui.card} space-y-3 p-4`}>
+                      <div className="flex flex-wrap items-center justify-between gap-2">
+                        <span className="truncate">
+                          {inv.email} · {ROLE_LABEL[inv.role] ?? inv.role}
+                        </span>
+                        <span className="text-xs text-tinta-suave">
+                          vence em {dataCurta.format(new Date(inv.expires_at))}
+                        </span>
+                      </div>
+                      <CopyLink link={`${origin}/convite/${inv.token}`} />
+                      <form action={cancelInvite}>
+                        <input type="hidden" name="orgId" value={orgId} />
+                        <input type="hidden" name="inviteId" value={inv.id} />
+                        <SubmitButton variant="ghost" pendingText="Cancelando…">
+                          Cancelar convite
+                        </SubmitButton>
+                      </form>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </section>
+        )}
+      </div>
     </div>
   );
 }

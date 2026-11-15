@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
-import { Loading, NotConfigured, PageShell } from "@/components/page-shell";
+import { Container, Loading, NotConfigured, PageHeader, PageShell } from "@/components/page-shell";
 import { ui } from "@/components/ui";
 import { getCurrentUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
@@ -14,11 +14,12 @@ export const metadata: Metadata = { title: "Convite · Alinhavo", robots: { inde
 export default function ConvitePage({ params }: PageProps<"/convite/[token]">) {
   return (
     <PageShell>
-      <div className="mx-auto max-w-sm">
-        <h1 className={ui.h1}>Você foi convidado</h1>
-        <p className={`mt-2 ${ui.muted}`}>
-          Alguém da sua equipe chamou você para trabalhar junto no Alinhavo.
-        </p>
+      <Container size="form">
+        <PageHeader
+          eyebrow="Convite"
+          title="Chamaram você para a equipe"
+          description="Alguém da sua confecção ou do seu ateliê quer trabalhar junto com você no Alinhavo."
+        />
         <div className={`mt-8 ${ui.card}`}>
           {getSupabaseConfig() ? (
             <Suspense fallback={<Loading />}>
@@ -28,7 +29,7 @@ export default function ConvitePage({ params }: PageProps<"/convite/[token]">) {
             <NotConfigured />
           )}
         </div>
-      </div>
+      </Container>
     </PageShell>
   );
 }

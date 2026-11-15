@@ -80,7 +80,7 @@ Contraste (WCAG): Linha sobre Papel 4,6:1 e Giz sobre Papel 5,9:1, ambos AA para
 
 **Cor funcional (só no produto):** a escala do mapa de pressão e de folga da Prova (azul `#295CC7` → verde `#38A85C` → amarelo `#F2CC38` → vermelho `#D63326`, de `lib/prova/colors.ts`). Nunca usar em peça de marca.
 
-**Diferença com o app hoje:** o app usa `--linha: #c2412d`, `--costura: #25639f` e `--papel: #f6f1e7`. Os valores deste manual são o ajuste fino deles. Trocar no `globals.css` é uma mudança pequena, que fica para quando você pedir.
+**No app:** os valores deste manual já são os tokens de `apps/web/src/app/globals.css` (mais `--linha-escura: #A93220`, o vermelho do botão em hover).
 
 ## 6. Tipografia
 
@@ -120,6 +120,7 @@ Escala: H1 56 · H2 36 · H3 26 · texto 18/1,5 · apoio 14 · rótulo 13 mono e
 - **Instagram e LinkedIn:** posts 4:5 (1080 × 1350) e story 9:16. Um assunto por peça, sempre com o alinhavo ou um molde real. Três formatos-base: pergunta da semana (papel), como funciona (tinta), sem letra miúda (linha). Os números dos posts de exemplo ilustram o formato; não são resultados medidos.
 - **Produto:** barra com o logo, trilha "Coleção › Produto › Molde v4", ação principal em Tinta ("Provar"), mensagens de erro com o número que falta.
 - **Site:** herói "Prove antes de cortar." com o CTA em Linha ("Começar grátis") e "Ver o preço" ao lado, porque preço aberto é argumento.
+- **Compartilhamento:** os cartões de link (1200 × 630) do site e do link de aprovação ficam em `compartilhar/cartoes.html`; `bash compartilhar/gerar.sh` grava as imagens no app.
 - **Ícone do app, avatar, cartão e etiqueta de brinde (hang tag)** com o alinhavo contornando a borda.
 
 ## 10. Antes de usar em público

@@ -1,11 +1,12 @@
 /// <reference lib="webworker" />
-import { garmentAtSize, migratePattern, validatePattern, type GarmentFinish, type PatternDocument, type Piece, type Seam } from "@alinhavo/geometry";
+import { garmentAtSize, migratePattern, validatePattern, type FoldLine, type GarmentFinish, type PatternDocument, type Piece, type Seam } from "@alinhavo/geometry";
 import {
   createMannequin,
   createSimulation,
   FABRICS,
   floorCollider,
   garmentDecals,
+  garmentUv,
   meshPiece,
   pieceHalf,
   placeGarment,
@@ -68,7 +69,17 @@ function readDoc(raw: PatternDocument, who: string): PatternDocument {
   return doc;
 }
 
-type Wear = { name: string; main: boolean; pieces: Piece[]; seams: Seam[]; finishes: GarmentFinish[]; fabric: FabricId; layer: number };
+type Wear = {
+  name: string;
+  main: boolean;
+  pieces: Piece[];
+  seams: Seam[];
+  finishes: GarmentFinish[];
+  /** Linha da dobra das peças abertas: a malha sai simétrica por ela. */
+  foldLine: Record<string, FoldLine>;
+  fabric: FabricId;
+  layer: number;
+};
 
 function build(setup: ProvaSetup) {
   const doc = readDoc(setup.doc, "Molde");
@@ -84,6 +95,7 @@ function build(setup: ProvaSetup) {
       pieces: main.pieces,
       seams: main.seams,
       finishes: main.finishes,
+      foldLine: main.foldLine,
       fabric: setup.fabric,
       layer: setup.layer ?? 0,
     },
@@ -94,7 +106,7 @@ function build(setup: ProvaSetup) {
     const { size, fallback } = lookSize(other, setup.size);
     if (fallback) lookNotes.push(`${extra.name} não tem o tamanho ${setup.size}: vestiu o ${size}.`);
     const g = garmentAtSize(other, size);
-    wears.push({ name: extra.name, main: false, pieces: g.pieces, seams: g.seams, finishes: g.finishes, fabric: extra.fabric, layer: extra.layer });
+    wears.push({ name: extra.name, main: false, pieces: g.pieces, seams: g.seams, finishes: g.finishes, foldLine: g.foldLine, fabric: extra.fabric, layer: extra.layer });
   });
 
   const skipped: string[] = [];
@@ -103,6 +115,7 @@ function build(setup: ProvaSetup) {
   const seams: Seam[] = [];
   const parts: ProvaPart[] = [];
   let vertex = 0;
+  let triangle = 0;
   for (const wear of wears) {
     const inProva = wear.pieces.filter((p) => p.placement);
     for (const p of wear.pieces) if (!p.placement) skipped.push(wear.main ? p.name : `${p.name} (${wear.name})`);
@@ -114,13 +127,15 @@ function build(setup: ProvaSetup) {
     const ids = new Set(inProva.map((p) => p.id));
     seams.push(...wear.seams.filter((s) => ids.has(s.a.piece) && ids.has(s.b.piece)));
     const start = vertex;
+    const triStart = triangle;
     for (const piece of inProva) {
-      const mesh = meshPiece(piece, { spacing: PROVA_MESH_SPACING });
+      const mesh = meshPiece(piece, { spacing: PROVA_MESH_SPACING, mirror: wear.foldLine[piece.id] });
       meshes.push(mesh);
       placed.push({ piece, wear });
       vertex += mesh.positions.length / 2;
+      triangle += mesh.triangles.length / 3;
     }
-    parts.push({ name: wear.name, main: wear.main, start, count: vertex - start, fabric: wear.fabric, fabricLimit: FABRICS[wear.fabric].maxStretch });
+    parts.push({ name: wear.name, main: wear.main, start, count: vertex - start, triStart, triCount: triangle - triStart, fabric: wear.fabric, fabricLimit: FABRICS[wear.fabric].maxStretch });
   }
 
   const initial = placeGarment(
@@ -157,7 +172,11 @@ function build(setup: ProvaSetup) {
   post({
     type: "ready",
     body: { positions: body.mesh.positions, indices: body.mesh.indices },
-    garment: { positions: Float32Array.from(sim.positions), indices: Uint32Array.from(sim.triangles) },
+    garment: {
+      positions: Float32Array.from(sim.positions),
+      indices: Uint32Array.from(sim.triangles),
+      uv: garmentUv(meshes, sim.pieceOffset, sim.vertexCount),
+    },
     skipped,
     estimated: body.fit.reading.estimated,
     fabricLimit: fabric.maxStretch,

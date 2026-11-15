@@ -1,13 +1,14 @@
 "use client";
 
 import type { PatternDocument } from "@alinhavo/geometry";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import type { MapSummary } from "@alinhavo/cloth";
 import { heat, LOOSE_MM } from "@/lib/prova/colors";
 import type { ProvaEdges } from "@/lib/prova/edges";
 import type { FabricId, FromWorker, PoseId, ProvaMaps, ProvaPart, ToWorker } from "@/lib/prova/protocol";
 import { lookSetup, lookStart, type LookItem, type LookOption } from "@/lib/prova/look";
 import { FABRIC_COLOR, garmentPaint } from "@/lib/prova/paint";
+import { defaultQuality, deviceHints, QUALITIES, type RenderQuality } from "@/lib/prova/quality";
 import { formatCm } from "@/lib/units";
 import { ui } from "../ui";
 import { addCaptures, type Capture } from "@/lib/prova/captures";
@@ -24,6 +25,16 @@ import type { ProvaScene } from "./scene";
 const FABRICS: { id: FabricId; name: string }[] = (["planoLeve", "malha", "jeans"] as const).map((id) => ({ id, name: FABRIC_NAME[id] }));
 /** Sem roupas para o look, o painel do look não aparece. */
 const NO_LOOK: LookOption[] = [];
+/** O aparelho não muda durante a página: nada a assinar. */
+const noSubscribe = () => () => {};
+/** Qualidade sugerida pelo aparelho; no servidor, "alta" (o cliente corrige ao hidratar). */
+const useDeviceQuality = () =>
+  useSyncExternalStore(
+    noSubscribe,
+    () => defaultQuality(deviceHints()),
+    (): RenderQuality => "alta",
+  );
+
 const POSES: { id: PoseId; name: string }[] = [
   { id: "em-pe", name: "Em pé" },
   { id: "passo", name: "Passo" },
@@ -48,7 +59,8 @@ const MEASUREMENT_NAME: Record<string, string> = {
   braco: "braço",
 };
 
-type View = "tecido" | "pressao" | "folga";
+/** "fio": grade de 5 cm desenhada no tecido plano (UV do molde), só em "Um tamanho". */
+type View = "tecido" | "pressao" | "folga" | "fio";
 /** Um tamanho (com ajuste, captura e aprovação) ou a grade inteira lado a lado (só ver). */
 type Mode = "um" | "grade";
 const MODES: { id: Mode; name: string }[] = [
@@ -59,6 +71,7 @@ const VIEWS: { id: View; name: string }[] = [
   { id: "tecido", name: "Tecido" },
   { id: "pressao", name: "Pressão" },
   { id: "folga", name: "Folga" },
+  { id: "fio", name: "Fio" },
 ];
 
 /** Porcentagem em português (0,05 → "5%"). */
@@ -67,7 +80,7 @@ function percent(fraction: number, digits = 1) {
 }
 
 /** Barra com a escala de cores e o que cada ponta significa. */
-function Legend({ view, fabricLimit }: { view: Exclude<View, "tecido">; fabricLimit: number }) {
+function Legend({ view, fabricLimit }: { view: "pressao" | "folga"; fabricLimit: number }) {
   const stops = [0, 0.25, 0.5, 0.75, 1].map((t) => {
     const [r, g, b] = heat(t);
     return `rgb(${Math.round(r * 255)} ${Math.round(g * 255)} ${Math.round(b * 255)}) ${t * 100}%`;
@@ -121,6 +134,11 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
   const [size, setSize] = useState(doc.baseSize);
   const [fabric, setFabric] = useState<FabricId>("planoLeve");
   const [pose, setPose] = useState<PoseId>("em-pe");
+  const deviceQuality = useDeviceQuality();
+  /** null = a do aparelho (`defaultQuality`), até a pessoa escolher. */
+  const [chosenQuality, setChosenQuality] = useState<RenderQuality | null>(null);
+  const quality = chosenQuality ?? deviceQuality;
+  const qualityRef = useRef(quality);
   const [status, setStatus] = useState<Status>({ kind: "loading" });
   const [notes, setNotes] = useState<{ skipped: string[]; estimated: string[] }>({ skipped: [], estimated: [] });
   const [view, setView] = useState<View>("tecido");
@@ -149,7 +167,8 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
   const paint = useCallback((scene: ProvaScene | null) => {
     if (!scene) return;
     const { maps: m, parts, vertices } = lastMapsRef.current;
-    scene.setMapColors(garmentPaint(viewModeRef.current, m, parts, vertices), colorRef.current);
+    const v = viewModeRef.current;
+    scene.setMapColors(v === "fio" ? null : garmentPaint(v, m, parts, vertices), colorRef.current, v === "fio");
   }, []);
 
   // Cena e Worker: criados uma vez, descartados ao sair da página.
@@ -161,7 +180,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
     let lastReady: Extract<FromWorker, { type: "ready" }> | null = null;
     const show = (scene: ProvaScene, msg: Extract<FromWorker, { type: "ready" }>) => {
       scene.setBody(msg.body.positions, msg.body.indices);
-      scene.setGarment(msg.garment.positions, msg.garment.indices, colorRef.current, msg.decals);
+      scene.setGarment(msg.garment.positions, msg.garment.indices, colorRef.current, msg.decals, msg.garment.uv, msg.parts);
       scene.setEdges(msg.edges.lines, msg.edges.owner);
       paint(scene);
     };
@@ -191,7 +210,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
         if (msg.maps) {
           lastMapsRef.current = { ...lastMapsRef.current, maps: msg.maps };
           setMaps({ summary: msg.maps.summary, fabricLimit: lastMapsRef.current.fabricLimit });
-          if (viewModeRef.current !== "tecido") paint(scene);
+          if (viewModeRef.current === "pressao" || viewModeRef.current === "folga") paint(scene);
         }
         setStatus((s) => (s.kind === "paused" ? s : { kind: "running", time: msg.time, seamGap: msg.seamGap }));
       } else {
@@ -201,6 +220,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
     import("./scene").then(({ ProvaScene }) => {
       if (disposed || !viewRef.current) return;
       const scene = new ProvaScene(viewRef.current);
+      scene.setQuality(qualityRef.current);
       sceneRef.current = scene;
       scene.onPick(setSelected);
       if (lastReady) show(scene, lastReady);
@@ -280,6 +300,13 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
     setNotice(text);
   };
 
+  // Trocar a qualidade refaz os materiais da roupa e repinta (não remonta a Prova).
+  useEffect(() => {
+    qualityRef.current = quality;
+    sceneRef.current?.setQuality(quality);
+    paint(sceneRef.current);
+  }, [quality, paint]);
+
   // Trocar a vista só repinta (não remonta a Prova).
   useEffect(() => {
     viewModeRef.current = view;
@@ -292,6 +319,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
     setMode(next);
     const worker = workerRef.current;
     if (next === "grade") {
+      if (view === "fio") setView("tecido");
       resumeRef.current = status.kind === "running";
       if (status.kind === "running") {
         worker?.postMessage({ type: "pause" } satisfies ToWorker);
@@ -327,7 +355,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
 
   return (
     <div className="grid gap-3 lg:grid-cols-[1fr_18rem]">
-      {mode === "grade" && <GradeView doc={doc} measurementsBySize={measurementsBySize} fabric={fabric} pose={pose} color={color} view={view} layer={layer} extras={extras} />}
+      {mode === "grade" && <GradeView doc={doc} measurementsBySize={measurementsBySize} fabric={fabric} pose={pose} color={color} view={view === "fio" ? "tecido" : view} layer={layer} extras={extras} quality={quality} />}
       <div
         ref={viewRef}
         className={`${mode === "grade" ? "hidden" : "relative"} h-[60vh] min-h-[22rem] overflow-hidden rounded-lg border border-tinta/15 bg-papel lg:h-[calc(100vh-10rem)]`}
@@ -396,6 +424,21 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
               ))}
             </select>
           </label>
+          <label className="block text-xs">
+            <span className="font-medium">Qualidade</span>
+            <select
+              className={`${ui.input} text-sm`}
+              value={quality}
+              data-quality={quality}
+              onChange={(e) => setChosenQuality(e.target.value as RenderQuality)}
+            >
+              {QUALITIES.map((q) => (
+                <option key={q.id} value={q.id}>
+                  {q.name}
+                </option>
+              ))}
+            </select>
+          </label>
           <div className={`${mode === "grade" ? "hidden" : "grid"} grid-cols-2 gap-2`}>
             <button type="button" className={ui.buttonGhost} onClick={togglePlay} disabled={status.kind !== "running" && status.kind !== "paused"}>
               {status.kind === "paused" ? "Continuar" : "Pausar"}
@@ -413,8 +456,8 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
         <div className={`${ui.card} space-y-3 p-4`}>
           <fieldset>
             <legend className="text-xs font-medium">Ver</legend>
-            <div className="mt-1 grid grid-cols-3 gap-1" role="radiogroup" aria-label="Ver">
-              {VIEWS.map((v) => (
+            <div className={`mt-1 grid gap-1 ${mode === "grade" ? "grid-cols-3" : "grid-cols-4"}`} role="radiogroup" aria-label="Ver">
+              {VIEWS.filter((v) => mode === "um" || v.id !== "fio").map((v) => (
                 <button
                   key={v.id}
                   type="button"
@@ -429,8 +472,14 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
               ))}
             </div>
           </fieldset>
-          {view !== "tecido" && <Legend view={view} fabricLimit={fabricLimit} />}
-          {view !== "tecido" && mode === "um" && (
+          {view === "fio" && (
+            <p className="text-xs text-tinta-suave" data-grain-note>
+              Quadrados de 5 cm desenhados no tecido plano, com a seta no fio. Onde o quadrado vira losango, o tecido está enviesado; onde
+              estica, está esticado.
+            </p>
+          )}
+          {(view === "pressao" || view === "folga") && <Legend view={view} fabricLimit={fabricLimit} />}
+          {(view === "pressao" || view === "folga") && mode === "um" && (
             <div className="space-y-1 text-xs" data-map-summary>
               {!maps ? (
                 <p className="text-tinta-suave">Calculando o mapa…</p>

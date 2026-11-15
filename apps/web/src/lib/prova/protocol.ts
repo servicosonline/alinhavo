@@ -31,6 +31,9 @@ export type ProvaPart = {
   main: boolean;
   start: number;
   count: number;
+  /** Triângulos dela (início e quantidade, na ordem do `indices` da roupa): cada roupa tem o material do seu tecido. */
+  triStart: number;
+  triCount: number;
   fabric: FabricId;
   /** Esticamento máximo do tecido desta roupa (fração), o vermelho do mapa de pressão. */
   fabricLimit: number;
@@ -44,7 +47,8 @@ export type ToWorker =
 export type ReadyMessage = {
   type: "ready";
   body: { positions: Float32Array; indices: Uint32Array };
-  garment: { positions: Float32Array; indices: Uint32Array };
+  /** `uv`: lugar de cada vértice no tecido plano, em mm (u na trama, v no fio; `garmentUv`). */
+  garment: { positions: Float32Array; indices: Uint32Array; uv: Float32Array };
   /** Partes que ficaram de fora (sem posição na Prova). */
   skipped: string[];
   /** Medidas que o corpo estimou (não vieram da tabela). */

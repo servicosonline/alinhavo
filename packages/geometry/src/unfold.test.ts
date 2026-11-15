@@ -64,6 +64,11 @@ describe("unfoldPiece", () => {
     expect(g.points["B~"]).toEqual({ x: -210, y: 0 });
   });
 
+  it("devolve a linha da dobra (o eixo de simetria da peça aberta)", () => {
+    expect(unfoldPiece(meiaFrente()).fold).toEqual({ from: { x: 0, y: 600 }, to: { x: 0, y: 0 } });
+    expect(unfoldPiece(saiaReta()).fold).toBeUndefined();
+  });
+
   it("abrir e graduar comutam: graduar e depois abrir dá o mesmo contorno", () => {
     const a = flattenOutline(pieceAtSize(unfoldPiece(meiaFrente()).piece, "G"), 0.01).polygon;
     const b = flattenOutline(unfoldPiece(pieceAtSize(meiaFrente(), "G")).piece, 0.01).polygon;
@@ -76,6 +81,25 @@ describe("unfoldPiece", () => {
 });
 
 describe("garmentAtSize", () => {
+  it("foldLine: a dobra de cada peça aberta, no tamanho; peça sem dobra fica de fora", () => {
+    const g = garmentAtSize(documento([meiaFrente(), { ...saiaReta(), id: "reta" }]), "G");
+    expect(Object.keys(g.foldLine)).toEqual(["frente"]);
+    const piece = g.pieces.find((p) => p.id === "frente")!;
+    const { from, to } = g.foldLine.frente!;
+    // Cada ponto da peça aberta tem o espelho pela dobra na própria peça.
+    const reflect = (p: { x: number; y: number }) => {
+      const len = Math.hypot(to.x - from.x, to.y - from.y);
+      const u = { x: (to.x - from.x) / len, y: (to.y - from.y) / len };
+      const t = (p.x - from.x) * u.x + (p.y - from.y) * u.y;
+      return { x: 2 * (from.x + t * u.x) - p.x, y: 2 * (from.y + t * u.y) - p.y };
+    };
+    const pts = Object.values(piece.points);
+    for (const p of pts) {
+      const m = reflect(p);
+      expect(pts.some((q) => Math.hypot(q.x - m.x, q.y - m.y) < 1e-9)).toBe(true);
+    }
+  });
+
   it("costura entre duas peças dobradas vira duas costuras, uma de cada lado", () => {
     const { doc } = addSeam(documento([meiaFrente(), costas()]), { piece: "frente", segment: 1 }, { piece: "costas", segment: 1 }, "same");
     const { pieces, seams } = garmentAtSize(doc, "M");

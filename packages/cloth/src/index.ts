@@ -3,6 +3,7 @@
  * para rodar também dentro de um Web Worker. Medidas em milímetros.
  */
 export * from "./mesh";
+export * from "./uv";
 export * from "./fabrics";
 export * from "./collider";
 export * from "./simulation";

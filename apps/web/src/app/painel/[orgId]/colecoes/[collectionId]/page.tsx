@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
-import { Loading, NotConfigured } from "@/components/page-shell";
+import { EmptyState, Loading, NotConfigured, PageHeader } from "@/components/page-shell";
 import { SubmitButton } from "@/components/submit-button";
 import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
@@ -79,17 +79,15 @@ async function Colecao({ params }: { params: Params }) {
 
   return (
     <div className="space-y-8">
-      <div>
-        <Link href={`/painel/${orgId}/colecoes`} className="text-sm text-tinta-suave hover:text-tinta">
-          ← Coleções
-        </Link>
-        <h1 className={`mt-2 ${ui.h1}`}>{col.name}</h1>
-        <p className={`mt-1 ${ui.muted}`}>
-          {[col.season, col.starts_on && `início ${formatDay(col.starts_on)}`, col.launch_on && `lançamento ${formatDay(col.launch_on)}`]
+      <PageHeader
+        trail={[{ label: "Coleções", href: `/painel/${orgId}/colecoes` }, { label: col.name }]}
+        eyebrow={
+          [col.season, col.starts_on && `início ${formatDay(col.starts_on)}`, col.launch_on && `lançamento ${formatDay(col.launch_on)}`]
             .filter(Boolean)
-            .join(" · ")}
-        </p>
-      </div>
+            .join(" · ") || undefined
+        }
+        title={col.name}
+      />
 
       <section aria-labelledby="produtos" className="space-y-4">
         <h2 id="produtos" className={ui.h2}>
@@ -97,13 +95,16 @@ async function Colecao({ params }: { params: Params }) {
         </h2>
         {canEdit && (
           <div className={ui.card}>
+            <h3 className={`${ui.eyebrow} mb-4`}>Novo produto</h3>
             <CreateProductForm orgId={orgId} collectionId={collectionId} />
           </div>
         )}
         {products.length === 0 ? (
-          <p className={ui.muted}>Nenhum produto nesta coleção ainda.</p>
+          <EmptyState icon="colecoes" title="Nenhum produto nesta coleção ainda">
+            Cadastre o primeiro produto e ligue ao molde: o status acompanha da ideia até a produção.
+          </EmptyState>
         ) : (
-          <ul className="divide-y divide-tinta/10 overflow-hidden rounded-lg border border-tinta/15 bg-white/70" data-products>
+          <ul className={ui.list} data-products>
             {products.map((p) => {
               const pattern = patterns.find((m) => m.id === p.pattern_id);
               const approval = latestApproval(p.pattern_id);
@@ -212,7 +213,7 @@ async function Colecao({ params }: { params: Params }) {
         {milestones.length === 0 ? (
           <p className={ui.muted}>Nenhuma etapa no cronograma ainda.</p>
         ) : (
-          <ol className="divide-y divide-tinta/10 overflow-hidden rounded-lg border border-tinta/15 bg-white/70" data-milestones>
+          <ol className={ui.list} data-milestones>
             {milestones.map((m) => {
               const state = milestoneState(m.due_on, m.done_at, today);
               const late = daysLate(m.due_on, m.done_at, today);

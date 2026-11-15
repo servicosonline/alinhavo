@@ -13,13 +13,13 @@ const TABS: { id: Exclude<Mode, "link">; name: string }[] = [
   { id: "criar", name: "Criar conta" },
 ];
 
-export function LoginForm({ next }: { next: string }) {
-  const [mode, setMode] = useState<Mode>("entrar");
+export function LoginForm({ next, initialMode = "entrar" }: { next: string; initialMode?: "entrar" | "criar" }) {
+  const [mode, setMode] = useState<Mode>(initialMode);
   // O e-mail fica aqui fora: sobrevive ao erro (o React limpa o formulário) e à troca de aba.
   const [email, setEmail] = useState("");
   return (
     <div className="space-y-5">
-      <div className="grid grid-cols-2 gap-1 rounded-md bg-papel-escuro p-1" role="tablist" aria-label="Entrar ou criar conta">
+      <div className="grid grid-cols-2 gap-1 rounded-[10px] bg-papel-escuro p-1" role="tablist" aria-label="Entrar ou criar conta">
         {TABS.map((t) => (
           <button
             key={t.id}
@@ -28,7 +28,7 @@ export function LoginForm({ next }: { next: string }) {
             aria-selected={mode === t.id}
             data-tab={t.id}
             onClick={() => setMode(t.id)}
-            className={`rounded px-3 py-1.5 text-sm ${mode === t.id ? "bg-white font-medium text-tinta shadow-sm" : "text-tinta-suave hover:text-tinta"}`}
+            className={`rounded-lg px-3 py-2 text-sm transition ${mode === t.id ? "bg-white font-medium text-tinta shadow-sm" : "text-tinta-suave hover:text-tinta"}`}
           >
             {t.name}
           </button>
@@ -129,7 +129,9 @@ function PasswordForm({ mode, next, email, onEmail }: { mode: "entrar" | "criar"
           {state.error}
         </p>
       )}
-      <SubmitButton pendingText={creating ? "Criando a conta…" : "Entrando…"}>{creating ? "Criar conta" : "Entrar"}</SubmitButton>
+      <SubmitButton block variant={creating ? "accent" : "primary"} pendingText={creating ? "Criando a conta…" : "Entrando…"}>
+        {creating ? "Criar conta grátis" : "Entrar"}
+      </SubmitButton>
     </form>
   );
 }
@@ -154,7 +156,9 @@ function LinkForm({ next, email, onEmail }: { next: string } & EmailProps) {
           {state.error}
         </p>
       )}
-      <SubmitButton pendingText="Enviando…">Receber link de acesso</SubmitButton>
+      <SubmitButton block pendingText="Enviando…">
+        Receber link de acesso
+      </SubmitButton>
     </form>
   );
 }

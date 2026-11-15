@@ -22,7 +22,7 @@ export function EditorDemo() {
       <label className="flex flex-wrap items-center gap-2 text-sm">
         <span className="text-tinta-suave">Exemplo</span>
         <select
-          className={`${ui.input} mt-0 w-auto py-1.5 text-sm`}
+          className={ui.select}
           value={example}
           onChange={(e) => isExampleId(e.target.value) && setExample(e.target.value)}
           data-example

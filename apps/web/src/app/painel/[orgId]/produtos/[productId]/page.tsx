@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
-import { Loading, NotConfigured } from "@/components/page-shell";
+import { Loading, NotConfigured, PageHeader } from "@/components/page-shell";
 import { SubmitButton } from "@/components/submit-button";
 import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
@@ -96,24 +96,22 @@ async function Produto({ params }: { params: Params }) {
 
   return (
     <div className="space-y-8">
-      <div>
-        {p.collection_id ? (
-          <Link href={`/painel/${orgId}/colecoes/${p.collection_id}`} className="text-sm text-tinta-suave hover:text-tinta">
-            ← {collection?.name ?? "Coleção"}
-          </Link>
-        ) : (
-          <Link href={`/painel/${orgId}/colecoes`} className="text-sm text-tinta-suave hover:text-tinta">
-            ← Coleções
-          </Link>
-        )}
-        <h1 className={`mt-2 ${ui.h1}`}>
-          {p.reference && <span className="font-mono text-2xl text-tinta-suave">{p.reference} · </span>}
-          {p.name}
-        </h1>
-        <p className={`mt-1 ${ui.muted}`} data-product-status={p.status}>
-          {PRODUCT_STATUS_LABEL[p.status]}
-        </p>
-      </div>
+      <PageHeader
+        trail={[
+          { label: "Coleções", href: `/painel/${orgId}/colecoes` },
+          ...(p.collection_id ? [{ label: collection?.name ?? "Coleção", href: `/painel/${orgId}/colecoes/${p.collection_id}` }] : []),
+          { label: p.name },
+        ]}
+        eyebrow={
+          <span className="flex flex-wrap items-center gap-2">
+            {p.reference && <span>{p.reference}</span>}
+            <span className={ui.tag} data-product-status={p.status}>
+              {PRODUCT_STATUS_LABEL[p.status]}
+            </span>
+          </span>
+        }
+        title={p.name}
+      />
 
       {canEdit && suggestApproved(p.status, latest) && (
         <form action={setProductStatus} className={`${ui.success} flex flex-wrap items-center justify-between gap-2 text-sm`} data-suggest>

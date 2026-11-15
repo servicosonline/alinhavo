@@ -1,9 +1,7 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { NestQueue, type QueueJob } from "@/components/encaixe/nest-queue";
-import { Loading, NotConfigured } from "@/components/page-shell";
-import { ui } from "@/components/ui";
+import { Loading, NotConfigured, PageHeader } from "@/components/page-shell";
 import { requireUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
 import { canEditProducts, getMyRole } from "@/lib/org-access";
@@ -61,16 +59,10 @@ async function Encaixes({ params }: { params: Params }) {
 
   return (
     <div className="space-y-6">
-      <div>
-        <Link href={`/painel/${orgId}`} className="text-sm text-tinta-suave hover:text-tinta">
-          ← Painel
-        </Link>
-        <h1 className={`mt-2 ${ui.h1}`}>Fila de encaixes</h1>
-        <p className={`mt-1 ${ui.muted}`}>
-          Os pedidos rodam um de cada vez no navegador de quem liga o processador e viram riscos salvos no produto. Para pôr um pedido na fila, abra o
-          encaixe de um produto.
-        </p>
-      </div>
+      <PageHeader
+        title="Fila de encaixes"
+        description="Os pedidos rodam um de cada vez no navegador de quem liga o processador e viram riscos salvos no produto. Para pôr um pedido na fila, abra o encaixe de um produto."
+      />
       <NestQueue orgId={orgId} jobs={jobs} canProcess={canEditProducts(role)} />
     </div>
   );

@@ -12,6 +12,7 @@
   --tinta: #1d1b18;
   --tinta-suave: #5c564c;
   --linha: #c43a26;
+  --linha-escura: #a93220;
   --costura: #2b5c9b;
   --fita: #edb92e;
 }
@@ -22,6 +23,7 @@
   --color-tinta: var(--tinta);
   --color-tinta-suave: var(--tinta-suave);
   --color-linha: var(--linha);
+  --color-linha-escura: var(--linha-escura);
   --color-costura: var(--costura);
   --color-fita: var(--fita);
   --font-sans: var(--font-geist-sans);
@@ -53,4 +55,32 @@ body {
   height: 4px;
   border-radius: 2px;
   background: repeating-linear-gradient(90deg, var(--linha) 0 16px, transparent 16px 28px);
+}
+
+/* Foco visível em giz, igual em todo o site (teclado). */
+:focus-visible {
+  outline: 2px solid var(--costura);
+  outline-offset: 2px;
+}
+
+/* Seleção de texto como marca-texto da fita métrica. */
+::selection {
+  background: rgb(237 185 46 / 0.55);
+  color: var(--tinta);
+}
+
+/* "Costurando as partes…": o alinhavo andando, no carregamento das telas. */
+.alinhavo-correndo {
+  background-size: 28px 4px;
+  animation: alinhavo-anda 0.9s linear infinite;
+}
+@keyframes alinhavo-anda {
+  to {
+    background-position: 28px 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .alinhavo-correndo {
+    animation: none;
+  }
 }
