@@ -93,6 +93,7 @@ A partir daí:
 | `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` | Publishable key | Production, Preview, Development |
 | `NEXT_PUBLIC_SITE_URL` | `https://SEU-APP.vercel.app` | só Production |
 | `ANTHROPIC_API_KEY` | Chave da API da Anthropic (textos do produto por IA; opcional) | Production (e Preview, se quiser testar a IA nas prévias) |
+| `OPENAI_API_KEY` | Chave da API da OpenAI (fotos de catálogo por IA; opcional). A OpenAI pode exigir a **verificação da organização** (em platform.openai.com → Settings → Organization) antes de liberar os modelos de imagem. Cada foto custa uns US$ 0,05 (rascunho) a US$ 0,20 (final), estimativa; limite de 30 por organização por mês | Production (e Preview, se quiser testar) |
 
 4. **Deploy**. Cada PR ganha uma URL de prévia; a `main` vai para produção.
 

@@ -185,11 +185,23 @@ type WebhookDeliveryRow = {
   delivered_at: string | null;
 };
 export type AiGenerationStatus = "reservada" | "pronta" | "erro";
+export type AiGenerationKind = "textos_produto" | "foto_catalogo";
+/** Foto de catálogo por IA; o id é o da geração (ai_generations). Arquivo no bucket `catalogo`. */
+type CatalogPhotoRow = {
+  id: string;
+  org_id: string;
+  product_id: string;
+  path: string;
+  settings: Json;
+  model: string | null;
+  created_by: string | null;
+  created_at: string;
+};
 type AiGenerationRow = {
   id: string;
   org_id: string;
   product_id: string;
-  kind: "textos_produto";
+  kind: AiGenerationKind;
   status: AiGenerationStatus;
   model: string | null;
   input_tokens: number | null;
@@ -461,6 +473,12 @@ export type Database = {
         Update: never;
         Relationships: [OrgFk<"ai_generations_product_id_org_id_fkey", "product_id", "products">];
       };
+      catalog_photos: {
+        Row: CatalogPhotoRow;
+        Insert: never;
+        Update: never;
+        Relationships: [OrgFk<"catalog_photos_product_id_org_id_fkey", "product_id", "products">];
+      };
       fabrics: {
         Row: FabricRow;
         Insert: {
@@ -581,12 +599,16 @@ export type Database = {
         Returns: { id: string; token: string; expires_at: string }[];
       };
       create_tech_pack: { Args: { p_product_id: string; p_pattern_version: number; p_data: Json }; Returns: TechPackRow };
-      reserve_ai_generation: { Args: { p_product_id: string; p_kind?: string }; Returns: string };
+      reserve_ai_generation: { Args: { p_product_id: string; p_kind?: AiGenerationKind }; Returns: string };
+      create_catalog_photo: {
+        Args: { p_generation_id: string; p_ext: "jpg" | "png" | "webp"; p_settings?: Json; p_model?: string | null };
+        Returns: CatalogPhotoRow;
+      };
       finish_ai_generation: {
         Args: { p_id: string; p_ok: boolean; p_model?: string | null; p_input_tokens?: number | null; p_output_tokens?: number | null };
         Returns: undefined;
       };
-      ai_generations_this_month: { Args: { p_org_id: string }; Returns: number };
+      ai_generations_this_month: { Args: { p_org_id: string; p_kind?: AiGenerationKind }; Returns: number };
       create_api_key: { Args: { p_org_id: string; p_name: string }; Returns: { id: string; secret: string; prefix: string }[] };
       revoke_api_key: { Args: { p_id: string }; Returns: undefined };
       create_webhook_endpoint: { Args: { p_org_id: string; p_url: string; p_events: string[] }; Returns: { id: string; secret: string }[] };
