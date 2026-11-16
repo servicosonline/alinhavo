@@ -93,6 +93,9 @@ A partir daí:
 | `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` | Publishable key | Production, Preview, Development |
 | `NEXT_PUBLIC_SITE_URL` | `https://SEU-APP.vercel.app` | só Production |
 | `ANTHROPIC_API_KEY` | Chave da API da Anthropic (textos do produto por IA; opcional) | Production (e Preview, se quiser testar a IA nas prévias) |
+| `ANTHROPIC_BASE_URL` | Endereço do gateway de IA compatível com a API da Anthropic (opcional; sem ele, a chamada vai direto à Anthropic) | Production |
+| `ANTHROPIC_AUTH_TOKEN` | Token do gateway (vai como `Authorization: Bearer`), quando o gateway pede token em vez de chave | Production |
+| `OPENAI_TEXT_MODEL` | Modelo da OpenAI que escreve os textos do produto quando o Claude ou o gateway falha (usa a `OPENAI_API_KEY`; sem ele, não há reserva). Recusa do Claude não vai para a reserva | Production |
 | `OPENAI_API_KEY` | Chave da API da OpenAI (fotos de catálogo por IA; opcional). A OpenAI pode exigir a **verificação da organização** (em platform.openai.com → Settings → Organization) antes de liberar os modelos de imagem. Cada foto custa uns US$ 0,05 (rascunho) a US$ 0,20 (final), estimativa; limite de 30 por organização por mês | Production (e Preview, se quiser testar) |
 
 4. **Deploy**. Cada PR ganha uma URL de prévia; a `main` vai para produção.
@@ -132,6 +135,17 @@ select cron.schedule(
 5. Teste: cadastre um webhook no painel (para uma URL de teste, como um endereço do webhook.site) e clique em "Mandar teste"; em até um minuto ele aparece como "Entregue" em "Últimos envios".
 
 Para trocar o segredo: atualize os dois (`WEBHOOK_DISPATCH_SECRET` e `vault.update_secret`). Para parar os envios: `select cron.unschedule('webhooks-dispatch');` (os avisos esperam na fila).
+
+### Superadmin da plataforma
+
+A área `/painel/admin` (clientes, tempo de produção, erros, auditoria e equipe da administração). **Só o primeiro dono entra por SQL**; os ajudantes (Dono ou Suporte) ele adiciona depois pela aba Equipe. No *SQL Editor* do Supabase, com o e-mail de quem já tem conta (o papel padrão é `dono`):
+
+```sql
+insert into public.platform_admins (user_id)
+  select id from auth.users where email = 'SEU-EMAIL';
+```
+
+Para tirar: `delete from public.platform_admins where user_id = (select id from auth.users where email = 'SEU-EMAIL');`. Quem não é superadmin recebe a página de não encontrado em `/painel/admin`.
 
 ## 6. Roteiro de teste em produção
 

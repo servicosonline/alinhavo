@@ -4,8 +4,8 @@ import { MAX_OVERESTIMATE, TRUSTED_CLEARANCE_MM, type Vec3 } from "../collider";
 import { FABRICS } from "../fabrics";
 import { meshPiece } from "../mesh";
 import { createSimulation } from "../simulation";
-import { buildMannequin, createMannequin } from "./mannequin";
-import { readMeasurements } from "./measurements";
+import { BELLY_RANGE, buildMannequin, createMannequin, cutChain, LIMB_WHOLE } from "./mannequin";
+import { MEASUREMENT_KEYS, MEASUREMENT_RANGE, readMeasurements } from "./measurements";
 import { pchip, superellipsePerimeter } from "./shapes";
 
 const TABELA_M = { busto: 920, cintura: 740, quadril: 1000, altura: 1680 };
@@ -67,6 +67,131 @@ describe("readMeasurements", () => {
     const r = readMeasurements({ estatura: 1700, "tórax": 980, "pescoço": 360 });
     expect([r.values.altura, r.values.busto, r.values.pescoco]).toEqual([1700, 980, 360]);
     expect(r.ignored).toEqual([]);
+  });
+});
+
+describe("ajustes da tela (overrides)", () => {
+  it("valem por cima da tabela, contam como dados e puxam as estimativas", () => {
+    const r = readMeasurements({ quadril: 1000, altura: 1680 }, { quadril: 1100, coxa: 640 });
+    expect(r.values.quadril).toBe(1100);
+    expect(r.values.coxa).toBe(640);
+    expect(r.estimated).not.toContain("coxa");
+    // O joelho estimado acompanha o quadril ajustado, não o da tabela.
+    expect(r.values.joelho).toBeCloseTo(1100 * 0.38, 9);
+  });
+
+  it("fora do plausível são recusados pelo nome do campo e a tabela continua valendo", () => {
+    const r = readMeasurements({ busto: 920 }, { busto: 99999, punho: Number.NaN });
+    expect(r.values.busto).toBe(920);
+    expect(r.rejected).toEqual(["busto", "punho"]);
+  });
+
+  it("a lista da tela tem todos os campos, uma vez cada", () => {
+    expect([...MEASUREMENT_KEYS].sort()).toEqual(Object.keys(MEASUREMENT_RANGE).sort());
+  });
+
+  it("o corpo aceita os extremos de cada medida e continua de pé, com a altura pedida", () => {
+    for (const key of MEASUREMENT_KEYS) {
+      for (const value of MEASUREMENT_RANGE[key]) {
+        const body = createMannequin(TABELA_M, "em-pe", { [key]: value });
+        const { min, max } = yRange(body.mesh.positions);
+        expect(Number.isFinite(min) && Number.isFinite(max), `${key} = ${value}`).toBe(true);
+        expect(min, `${key} = ${value}`).toBeGreaterThan(-1);
+        expect(max, `${key} = ${value}`).toBeGreaterThan(min);
+        if (key === "altura") expect(Math.abs(max - value), `altura = ${value}`).toBeLessThan(2);
+      }
+    }
+  });
+
+  it("braço mais grosso e perna mais comprida mudam o corpo", () => {
+    const base = createMannequin(TABELA_M);
+    const longLegs = createMannequin(TABELA_M, "em-pe", { entrepernas: 900 });
+    expect(longLegs.landmarks.crotch.y).toBeGreaterThan(base.landmarks.crotch.y + 100);
+    const thick = createMannequin(TABELA_M, "em-pe", { coxa: 700 });
+    expect(thick.landmarks.legs.left[0]!.r).toBeGreaterThan(base.landmarks.legs.left[0]!.r + 10);
+  });
+});
+
+describe("condições do corpo", () => {
+  const mid = (a: Vec3, b: Vec3, t = 0.5): Vec3 => ({ x: a.x + (b.x - a.x) * t, y: a.y + (b.y - a.y) * t, z: a.z + (b.z - a.z) * t });
+
+  it("cortar a corrente: inteiro, sem nada e no meio de uma peça", () => {
+    const chain = buildMannequin(TABELA_M).chains.leftArm;
+    expect(cutChain(chain, LIMB_WHOLE)).toEqual(chain);
+    expect(cutChain(chain, 0)).toEqual([]);
+    const half = cutChain(chain, 1.5);
+    expect(half).toHaveLength(2);
+    expect(half[1]!.b).toEqual(mid(chain[1]!.a, chain[1]!.b));
+    expect(half[1]!.r2).toBeCloseTo((chain[1]!.r1 + chain[1]!.r2) / 2, 9);
+    expect(cutChain(chain, 99)).toEqual(chain);
+    expect(cutChain(chain, Number.NaN)).toEqual(chain);
+  });
+
+  it("braço cortado abaixo do cotovelo: o coto fica, o punho some, o outro braço não muda", () => {
+    const full = buildMannequin(TABELA_M);
+    const cut = buildMannequin(TABELA_M, "em-pe", {}, { limbs: { leftArm: 1.5 } });
+    const fore = full.chains.leftArm[1]!;
+    const q = (b: typeof cut, p: Vec3) => b.body.collider.query(p.x, p.y, p.z).distance;
+    expect(q(cut, mid(fore.a, fore.b, 0.25))).toBeLessThan(0); // ainda dentro do coto
+    expect(q(cut, fore.b)).toBeGreaterThan(30); // o punho não existe mais
+    expect(q(full, fore.b)).toBeLessThan(0);
+    const right = full.chains.rightArm[1]!;
+    expect(q(cut, mid(right.a, right.b))).toBeCloseTo(q(full, mid(right.a, right.b)), 6);
+    expect(cut.body.mesh.positions.length).toBeLessThan(full.body.mesh.positions.length);
+  });
+
+  it("sem a perna esquerda: o corpo continua em pé, na mesma altura, sobre a outra", () => {
+    const full = createMannequin(TABELA_M);
+    const cut = buildMannequin(TABELA_M, "em-pe", {}, { limbs: { leftLeg: 0 } });
+    const r = yRange(cut.body.mesh.positions);
+    expect(r.min).toBeLessThan(2);
+    expect(Math.abs(r.max - yRange(full.mesh.positions).max)).toBeLessThan(1);
+    const knee = cut.chains.leftLeg[0]!.b;
+    expect(cut.body.collider.query(knee.x, knee.y, knee.z).distance).toBeGreaterThan(30);
+    // O eixo da perna continua nos pontos de referência (a calça ainda sabe onde a perna estaria).
+    expect(cut.body.landmarks.legs.left).toHaveLength(3);
+  });
+
+  it("gestante: a barriga mede o pedido, as costas não saem do lugar e busto e quadril seguem a tabela", () => {
+    const plain = buildMannequin(TABELA_M);
+    const preg = buildMannequin(TABELA_M, "em-pe", {}, { belly: 1150 });
+    const B = preg.body.landmarks.belly!;
+    expect(B).toBeDefined();
+    expect(plain.body.landmarks.belly).toBeUndefined();
+    expect(tape(preg.torsoSdf, B.y, B.centerZ)).toBeCloseTo(1150, -1);
+    const L = preg.body.landmarks;
+    expect(tape(preg.torsoSdf, L.hip.y, L.hip.centerZ)).toBeCloseTo(1000, 0);
+    expect(tape(preg.torsoSdf, L.bust.y, L.bust.centerZ)).toBeCloseTo(920, 0);
+    // Na altura da barriga: a frente avança muito, as costas ficam (±3 mm).
+    const along = (b: typeof preg, dir: 1 | -1) => {
+      let lo = 0;
+      let hi = 1500;
+      for (let i = 0; i < 60; i++) {
+        const m = (lo + hi) / 2;
+        if (b.torsoSdf({ x: 0, y: B.y, z: dir * m }) < 0) lo = m;
+        else hi = m;
+      }
+      return lo;
+    };
+    expect(along(preg, 1) - along(plain, 1)).toBeGreaterThan(80);
+    expect(Math.abs(along(preg, -1) - along(plain, -1))).toBeLessThan(3);
+  });
+
+  it("barriga menor que a volta natural não muda o corpo; acima do limite fica no limite", () => {
+    const plain = createMannequin(TABELA_M);
+    const small = createMannequin(TABELA_M, "em-pe", {}, { belly: 600 });
+    expect(small.mesh.positions).toEqual(plain.mesh.positions);
+    const huge = buildMannequin(TABELA_M, "em-pe", {}, { belly: 99999 });
+    const B = huge.body.landmarks.belly!;
+    expect(tape(huge.torsoSdf, B.y, B.centerZ)).toBeLessThan(BELLY_RANGE[1] + 20);
+  });
+
+  it("gestante e sem membros ainda cumprem a altura e o colisor continua coerente", () => {
+    const b = createMannequin(TABELA_M, "passo", {}, { belly: 1200, limbs: { rightArm: 0, rightLeg: 1.2, leftArm: 2 } });
+    const w = b.landmarks.waist;
+    expect(b.collider.query(0, w.y, w.centerZ).distance).toBeLessThan(-50);
+    expect(b.collider.query(0, w.y, 3000).distance).toBeGreaterThan(1000);
+    expect(yRange(b.mesh.positions).min).toBeLessThan(2);
   });
 });
 

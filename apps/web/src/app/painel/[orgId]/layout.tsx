@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Suspense } from "react";
 import { Container } from "@/components/page-shell";
+import { trialNotice } from "@/lib/account";
 import { isUuid } from "@/lib/ids";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
@@ -25,11 +26,15 @@ async function OrgBar({ params }: { params: LayoutProps<"/painel/[orgId]">["para
   if (!isUuid(orgId)) return null;
   const supabase = await createClient();
   // Organização alheia some na RLS: a página mostra o 404, a barra não aparece.
-  const { data } = await supabase.from("orgs").select("name").eq("id", orgId).maybeSingle();
+  const [{ data }, { data: plan }] = await Promise.all([
+    supabase.from("orgs").select("name").eq("id", orgId).maybeSingle(),
+    supabase.rpc("org_plan_status", { p_org_id: orgId }),
+  ]);
+  const notice = trialNotice(plan?.[0] ?? null);
   if (!data) return null;
   return (
     <div className="border-b border-tinta/10 bg-papel">
-      <div className="mx-auto flex w-full max-w-[90rem] flex-col gap-x-6 px-4 sm:flex-row sm:items-center sm:px-6">
+      <div className="flex w-full flex-col gap-x-6 px-4 sm:flex-row sm:items-center sm:px-6 lg:px-10">
         <div className="flex min-w-0 items-center gap-2 pt-3 sm:pt-0">
           <span className="truncate font-display text-lg font-semibold" data-org-name>
             {data.name}
@@ -42,6 +47,15 @@ async function OrgBar({ params }: { params: LayoutProps<"/painel/[orgId]">["para
           </Link>
         </div>
         <ModuleNav orgId={orgId} />
+        {notice && (
+          <Link
+            href="/painel/conta"
+            className={`mb-3 self-start rounded-full px-3 py-1 font-mono text-[11px] whitespace-nowrap sm:mb-0 sm:ml-auto sm:self-center ${notice.tone === "alerta" ? "bg-linha/10 text-linha" : "border border-tinta/15 text-tinta-suave hover:text-tinta"}`}
+            data-trial
+          >
+            {notice.text}
+          </Link>
+        )}
       </div>
     </div>
   );

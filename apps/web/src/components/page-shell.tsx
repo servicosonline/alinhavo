@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { BrandLogo } from "./brand-mark";
 import { ModuleIcon, type ModuleIconName } from "./icons";
+import { InstallApp } from "./install-app";
 import { ui } from "./ui";
 
 /**
@@ -20,7 +21,7 @@ export function PageShell({
   return (
     <div className="flex flex-1 flex-col">
       <header className="border-b border-tinta/10 bg-papel">
-        <div className="mx-auto flex h-16 w-full max-w-[90rem] items-center gap-4 px-4 sm:px-6">
+        <div className="flex h-16 w-full items-center gap-4 px-4 sm:px-6 lg:px-10">
           <Link href={homeHref} aria-label="Alinhavo, início" className="rounded-md">
             <BrandLogo size="sm" />
           </Link>
@@ -29,8 +30,9 @@ export function PageShell({
       </header>
       <main className="papel-milimetrado flex flex-1 flex-col">{children}</main>
       <footer className="border-t border-tinta/10 bg-papel">
-        <div className="mx-auto flex w-full max-w-[90rem] flex-wrap items-center gap-x-6 gap-y-2 px-4 py-5 text-sm text-tinta-suave sm:px-6">
+        <div className="flex w-full flex-wrap items-center gap-x-6 gap-y-2 px-4 py-5 text-sm text-tinta-suave sm:px-6 lg:px-10">
           <span className="font-display text-base text-tinta">Prove antes de cortar.</span>
+          <InstallApp />
           <span className="ml-auto font-mono text-[12px]">alinhavo · molde, prova 3D e encaixe no navegador</span>
         </div>
       </footer>
@@ -43,19 +45,19 @@ const WIDTH = {
   form: "max-w-md",
   /** Leitura e aprovação. */
   narrow: "max-w-3xl",
-  /** Listas e telas do painel. */
+  /** Coluna de leitura e formulário lado a lado (entrar, aprovação). */
   medium: "max-w-5xl",
-  /** Estúdios (editor, Prova, encaixe). */
-  wide: "max-w-[90rem]",
+  /** Painel e estúdios (editor, Prova, encaixe): a largura toda, só com o respiro lateral. */
+  full: "",
 } as const;
 
 /**
- * Coluna de conteúdo. No painel é `medium`; a tela que marca a raiz com `data-largura="tela"`
- * (editor, Prova, encaixe) ganha a largura toda sem sair da coluna.
+ * Coluna de conteúdo. No painel é `full` (a tela inteira, com respiro lateral que cresce no desktop);
+ * a tela que marca a raiz com `data-largura="tela"` (editor, Prova, encaixe) só ganha menos espaço em cima.
  */
 export function Container({
   children,
-  size = "medium",
+  size = "full",
   className = "",
 }: {
   children: React.ReactNode;
@@ -64,7 +66,7 @@ export function Container({
 }) {
   return (
     <div
-      className={`mx-auto w-full flex-1 px-4 py-8 sm:px-6 sm:py-10 ${WIDTH[size]} has-[[data-largura=tela]]:max-w-[90rem] has-[[data-largura=tela]]:py-5 ${className}`}
+      className={`mx-auto w-full flex-1 px-4 py-8 sm:px-6 sm:py-10 lg:px-10 ${WIDTH[size]} has-[[data-largura=tela]]:py-5 ${className}`}
     >
       {children}
     </div>

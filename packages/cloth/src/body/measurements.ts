@@ -57,7 +57,7 @@ const NAMES: Record<string, MeasurementKey> = {
 };
 
 /** Limites de plausibilidade, em mm. Fora deles, a medida é ignorada (e avisada). */
-const RANGE: Record<MeasurementKey, [number, number]> = {
+export const MEASUREMENT_RANGE: Readonly<Record<MeasurementKey, readonly [number, number]>> = {
   altura: [900, 2300],
   busto: [500, 1800],
   cintura: [400, 1800],
@@ -85,8 +85,37 @@ export type MeasurementReading = {
   rejected: string[];
 };
 
-/** Lê as medidas da tabela (nome → mm) e completa o que faltar. */
-export function readMeasurements(table: Record<string, number>): MeasurementReading {
+/** As medidas que o corpo usa, na ordem da tela (geral, tronco, braços, pernas). */
+export const MEASUREMENT_KEYS: readonly MeasurementKey[] = [
+  "altura",
+  "busto",
+  "cintura",
+  "quadril",
+  "alturaDoQuadril",
+  "ombro",
+  "larguraDasCostas",
+  "pescoco",
+  "comprimentoDoBraco",
+  "braco",
+  "punho",
+  "entrepernas",
+  "coxa",
+  "joelho",
+  "tornozelo",
+];
+
+/**
+ * Lê as medidas da tabela (nome → mm) e completa o que faltar.
+ *
+ * `overrides` são medidas trocadas na tela (o manequim ajustado na Prova):
+ * valem por cima da tabela, contam como dadas (não estimadas) e entram nas
+ * estimativas das outras (a coxa estimada acompanha o quadril ajustado). Fora
+ * do plausível, são recusadas como as da tabela (pelo nome do campo).
+ */
+export function readMeasurements(
+  table: Record<string, number>,
+  overrides: Partial<Record<MeasurementKey, number>> = {},
+): MeasurementReading {
   const given: Partial<BodyMeasurements> = {};
   const ignored: string[] = [];
   const rejected: string[] = [];
@@ -96,9 +125,19 @@ export function readMeasurements(table: Record<string, number>): MeasurementRead
       ignored.push(rawName);
       continue;
     }
-    const [lo, hi] = RANGE[key];
+    const [lo, hi] = MEASUREMENT_RANGE[key];
     if (!Number.isFinite(value) || value < lo || value > hi) {
       rejected.push(rawName);
+      continue;
+    }
+    given[key] = value;
+  }
+  for (const key of MEASUREMENT_KEYS) {
+    const value = overrides[key];
+    if (value === undefined) continue;
+    const [lo, hi] = MEASUREMENT_RANGE[key];
+    if (!Number.isFinite(value) || value < lo || value > hi) {
+      rejected.push(key);
       continue;
     }
     given[key] = value;

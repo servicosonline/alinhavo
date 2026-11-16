@@ -153,15 +153,15 @@ describe("fotos de catálogo", () => {
     expect(await contar(db, c.dono, "select 1 from storage.objects where name = $1", [photo.path])).toBe(0);
   });
 
-  it("limite próprio de 30 fotos por mês, separado do de textos; falha não conta", async () => {
+  it("limite próprio de 10 fotos por mês, separado do de textos; falha não conta", async () => {
     const c = await cenario();
     const falhou = await reservar(c.dono, c.productId);
     await encerrar(c.dono, falhou, false);
     await db.query(
-      "insert into public.ai_generations (org_id, product_id, kind, status, created_by) select $1, $2, 'foto_catalogo', 'pronta', $3 from generate_series(1, 30)",
+      "insert into public.ai_generations (org_id, product_id, kind, status, created_by) select $1, $2, 'foto_catalogo', 'pronta', $3 from generate_series(1, 10)",
       [c.orgId, c.productId, c.dono.id],
     );
-    await expect(reservar(c.dono, c.productId)).rejects.toThrow(/30 fotos de catálogo/);
+    await expect(reservar(c.dono, c.productId)).rejects.toThrow(/10 fotos de catálogo/);
     // Textos seguem livres, e cada tipo é contado à parte.
     await reservar(c.dono, c.productId, "textos_produto");
     const conta = (kind?: string) =>
@@ -170,7 +170,7 @@ describe("fotos de catálogo", () => {
           ? (await q.query<{ n: number }>("select public.ai_generations_this_month($1, $2) as n", [c.orgId, kind])).rows[0]!.n
           : (await q.query<{ n: number }>("select public.ai_generations_this_month($1) as n", [c.orgId])).rows[0]!.n,
       );
-    expect(await conta("foto_catalogo")).toBe(30);
+    expect(await conta("foto_catalogo")).toBe(10);
     expect(await conta()).toBe(1);
   });
 });

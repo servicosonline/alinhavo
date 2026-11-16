@@ -25,12 +25,31 @@ Rascunho para orientar a Fase 0. Toda tabela de negócio tem `org_id`, `created_
 | admin | sim | sim | sim | menos owner | não |
 | modelista, estilista, leitura | sim | não | não | não | não |
 
+## Conta, plano e atividade
+
+**Implementado** em `20261115110000_conta_e_trial.sql` e `20261115120000_registro_atividade.sql` (testes em `tests-pglite/conta-trial.test.ts` e `atividade.test.ts`):
+
+| Tabela | Campos principais |
+|---|---|
+| `profiles` | user_id, nome, sobrenome, tipo e número do documento (CPF/CNPJ só dígitos), foto, boas-vindas vistas, primeiros passos fechados |
+| `org_subscriptions` | org_id, plano (ids de `apps/web/src/lib/plans.ts`), status (`trial`, `ativa`, `vencida`, `cancelada`, `cortesia`), fim do teste, usuários |
+| `activity_log` | org_id, user_id (null = cliente sem conta), ação, entidade, id, meta (sem dado pessoal), quando |
+
+- **Perfil:** só a própria pessoa lê e escreve. CPF e CNPJ conferidos pelo dígito verificador (`private.valid_cpf`, `private.valid_cnpj`). Dado pessoal (LGPD): não vai para a equipe nem para o registro.
+- **Plano:** toda organização nova nasce em teste de 15 dias (gatilho `orgs_trial`; as que já existiam viraram `cortesia`). Ninguém escreve pelo app; membros leem. `org_plan_status(org)` devolve o status de agora (teste vencido = `vencida`) e os dias que faltam. Ainda nada é bloqueado por plano.
+- **Capa e prazo** (migração `20261115130000_capa_prazo_limite_ia.sql`, testes em `capa-prazo.test.ts`): `orgs.thumbnail_path` (só aponta para `<org_id>/…` no bucket público `org-capas`; só dono e admin enviam e trocam) e `products.due_on` (data de entrega; quem edita produtos define). A mesma migração baixou o limite de IA para 50 textos + 10 fotos por organização por mês.
+- **Acompanhamento da cliente** (`20261115200000_acompanhamento.sql`, testes em `acompanhamento.test.ts`): `tracking_links` (org_id, produto ou coleção, token, o que mostrar em `show`, validade, cancelado, última abertura). Só por `create_tracking_link` e `revoke_tracking_link` (quem edita produtos; até 50 ativos por organização); leitura sem conta só por `public_tracking(token)`, que só inclui o que foi marcado; `touch_tracking` marca a abertura.
+- **Resultados** (`20261115210000_resultados.sql`): `roi_settings` (uma por organização: pilotos, tecido, preço do metro, horas e valor da hora de antes, tecido do mês, aproveitamento e a meta, em mm e centavos) e `roi_months` (pilotos cortados por mês, sempre no dia 1). Dono e admin escrevem; membros leem.
+- **Limite de IA por cliente** (`20261115250000_ia_por_cliente.sql`, testes em `ia-limite.test.ts`): `ai_limit_overrides` (org_id, tipo, limite do mês). Sem linha, vale o padrão. Ninguém lê nem escreve direto: `platform_set_ai_limit` (só o dono da plataforma; null volta ao padrão; vai para a auditoria), `ai_limit_for(org, tipo)` para membros e `platform_ai_usage(org)` para o superadmin (uso do mês, erros, Claude × OpenAI pelo nome do modelo, tokens). `reserve_ai_generation` usa `private.ai_org_limit`.
+- **Suporte** (`20261115240000_suporte.sql`, testes em `suporte.test.ts`): `support_threads` (pessoa, organização de onde pediu — só se for membro —, assunto, status `aberta` → `respondida` → `fechada`) e `support_messages` (corpo, `from_admin`). Quem pediu e o superadmin leem (o Realtime entrega só a eles); ninguém escreve direto: `open_support_thread` (avisa os admins no sino), `send_support_message` (resposta do suporte vira `respondida` e avisa o cliente; o cliente responde e volta a `aberta`; escrever reabre a fechada), `close_support_thread`, e a caixa `platform_support_threads(status)`. Até 30 mensagens por pessoa por hora.
+- **Atividade:** os gatilhos gravam molde criado, versão salva, coleção e produto criados, mudança de status do produto, aprovação pedida e decidida, risco salvo, ficha gerada, entrada, saída e troca de papel na equipe, convite. Eventos de tela por `log_event(org, ação)` (lista fechada, até 30 por pessoa por minuto). Ninguém escreve direto; dono e admin leem a própria organização. `onboarding_progress()` responde o que a pessoa já fez para os primeiros passos.
+
 ## Medidas e manequins
 
 | Tabela | Campos principais |
 |---|---|
 | `clients` | org_id, nome (o cliente da confecção, opcional) |
-| `size_charts` | org_id, client_id?, nome, unidade |
+| `size_charts` | org_id, client_id?, nome, unidade, template? (tabela pronta de onde partiu, id em `lib/size-chart-templates.ts`; só na criação) |
 | `sizes` | size_chart_id, rótulo (P, M, 38…), ordem, base (bool) |
 | `measurements` | size_id, medida (busto, cintura…), valor_mm |
 | `avatars` | org_id, size_id, parâmetros do corpo (jsonb), arquivo no Storage |
@@ -44,6 +63,9 @@ Rascunho para orientar a Fase 0. Toda tabela de negócio tem `org_id`, `created_
 | `products` | org_id, collection_id, referência, nome, status, size_chart_id |
 | `tech_packs` | product_id, dados (jsonb, formato 1; fichas novas levam o texto técnico e o desenho técnico plano, campos opcionais), versão |
 | `comments` | org_id, alvo (produto/prova), autor, texto |
+| `product_status_events` | org_id, product_id, status, entered_at, backfilled. Só o banco escreve (gatilho em `products`); `production_stage_times(org)` dá média e mediana por estágio e da ideia à produção, para o dono (e o superadmin) |
+
+Superadmin da plataforma: `platform_admins` (user_id). Ninguém lê nem escreve pelo app; entra por SQL (ver `07-deploy.md`). `am_platform_admin()` diz à tela se mostra `/painel/admin`; `platform_orgs()` lista as organizações.
 
 ## Molde
 
@@ -96,6 +118,7 @@ O documento do molde guarda: partes, pontos, curvas, piques, fio, regras de grad
 
 ## Storage (buckets)
 
-- `textures` e `avatars`: privados por organização (caminho começa com `org_id/`).
+- `textures`: privado por organização (caminho começa com `org_id/`).
+- `avatars` (**implementado**, migração `20261115110000_conta_e_trial.sql`): público, foto de perfil em `<user_id>/<nome>.webp|jpg|png`, até 200 KB; cada pessoa envia e apaga só na própria pasta (`private.is_own_avatar_path`).
 - `captures` e `exports`: privados; acesso por URL assinada.
 - `system`: presets públicos de tecido, pose e corpo-base.

@@ -1,5 +1,6 @@
 import { migratePattern, validatePattern } from "@alinhavo/geometry";
 import Link from "next/link";
+import { LogEvent } from "@/components/log-event";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { Loading, NotConfigured, Trail } from "@/components/page-shell";
@@ -56,7 +57,7 @@ async function Prova({ params }: { params: Params }) {
     );
   }
 
-  const [versionRes, chartRes, role, othersRes, productRes, photosRes] = await Promise.all([
+  const [versionRes, chartRes, role, othersRes, productRes, photosRes, photoLimitRes] = await Promise.all([
     supabase.from("pattern_versions").select("document").eq("pattern_id", pattern.id).eq("number", pattern.current_version).maybeSingle(),
     pattern.size_chart_id
       ? supabase.from("size_charts").select("id, name").eq("id", pattern.size_chart_id).eq("org_id", orgId).maybeSingle()
@@ -75,6 +76,7 @@ async function Prova({ params }: { params: Params }) {
     // Fotos de catálogo: o produto ligado a este molde (um por molde) e o uso do mês.
     supabase.from("products").select("id, name").eq("org_id", orgId).eq("pattern_id", pattern.id).maybeSingle(),
     supabase.rpc("ai_generations_this_month", { p_org_id: orgId, p_kind: "foto_catalogo" }),
+    supabase.rpc("ai_limit_for", { p_org_id: orgId, p_kind: "foto_catalogo" }),
   ]);
   const doc = migratePattern(versionRes.data?.document);
   if (!doc || validatePattern(doc).length > 0) {
@@ -109,6 +111,7 @@ async function Prova({ params }: { params: Params }) {
         productId: product.id,
         productName: product.name,
         usedThisMonth: photosRes.data ?? 0,
+        monthlyLimit: photoLimitRes.data ?? undefined,
         blocked: !canEditProducts(role)
           ? "Só donos, admins, modelistas e estilistas geram fotos do produto."
           : !process.env.OPENAI_API_KEY?.trim()
@@ -120,6 +123,7 @@ async function Prova({ params }: { params: Params }) {
   return (
     // Como o editor, a Prova usa a largura da tela (data-largura, ver Container).
     <div className="space-y-3" data-largura="tela">
+      <LogEvent orgId={orgId} action="prova_aberta" entityId={pattern.id} />
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div className="space-y-1">
           <Trail

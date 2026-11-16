@@ -74,6 +74,27 @@ export async function signUpWithPassword(_prev: FormState, formData: FormData): 
   redirect(next);
 }
 
+/**
+ * "Esqueci minha senha": o Supabase manda o link de recuperação, que entra pelo /auth/callback e cai em
+ * Minha conta, no formulário de nova senha. A resposta é a mesma exista ou não a conta (não revela e-mails).
+ */
+export async function requestPasswordReset(_prev: FormState, formData: FormData): Promise<FormState> {
+  if (!getSupabaseConfig()) return { error: "O Supabase ainda não foi configurado neste ambiente." };
+  const email = String(formData.get("email") ?? "").trim().toLowerCase();
+  if (!EMAIL_RE.test(email) || email.length > 254) return { error: "Digite um e-mail válido." };
+
+  const origin = await getOrigin();
+  const supabase = await createClient();
+  const { error } = await supabase.auth.resetPasswordForEmail(email, {
+    redirectTo: `${origin}/auth/callback?next=${encodeURIComponent("/painel/conta?senha=nova#senha")}`,
+  });
+  if (error) {
+    console.error(otpErrorLog(error));
+    if (error.status === 429) return { error: "Muitas tentativas seguidas. Espere um minuto e tente de novo." };
+  }
+  return { ok: `Se existe uma conta com ${email}, enviamos o link para criar a nova senha. Abra o e-mail neste mesmo navegador.` };
+}
+
 export async function signOut() {
   if (getSupabaseConfig()) {
     const supabase = await createClient();

@@ -4,11 +4,11 @@ import { useActionState, useState } from "react";
 import { SubmitButton } from "@/components/submit-button";
 import { ui } from "@/components/ui";
 import { MIN_PASSWORD } from "@/lib/password-auth";
-import { signInWithEmail, signInWithPassword, signUpWithPassword } from "./actions";
+import { requestPasswordReset, signInWithEmail, signInWithPassword, signUpWithPassword } from "./actions";
 
-type Mode = "entrar" | "criar" | "link";
+type Mode = "entrar" | "criar" | "link" | "esqueci";
 
-const TABS: { id: Exclude<Mode, "link">; name: string }[] = [
+const TABS: { id: "entrar" | "criar"; name: string }[] = [
   { id: "entrar", name: "Entrar" },
   { id: "criar", name: "Criar conta" },
 ];
@@ -35,9 +35,15 @@ export function LoginForm({ next, initialMode = "entrar" }: { next: string; init
         ))}
       </div>
       {/* A chave zera o formulário (e o erro anterior) ao trocar de aba. */}
-      {mode === "link" ? <LinkForm key="link" next={next} email={email} onEmail={setEmail} /> : <PasswordForm key={mode} mode={mode} next={next} email={email} onEmail={setEmail} />}
+      {mode === "link" ? (
+        <LinkForm key="link" next={next} email={email} onEmail={setEmail} />
+      ) : mode === "esqueci" ? (
+        <ResetForm key="esqueci" email={email} onEmail={setEmail} />
+      ) : (
+        <PasswordForm key={mode} mode={mode} next={next} email={email} onEmail={setEmail} onForgot={() => setMode("esqueci")} />
+      )}
       <p className="text-center text-xs text-tinta-suave">
-        {mode === "link" ? (
+        {mode === "link" || mode === "esqueci" ? (
           <button type="button" className="underline hover:text-tinta" onClick={() => setMode("entrar")}>
             Voltar para entrar com senha
           </button>
@@ -74,7 +80,7 @@ function EmailField({ email, onEmail }: EmailProps) {
   );
 }
 
-function PasswordForm({ mode, next, email, onEmail }: { mode: "entrar" | "criar"; next: string } & EmailProps) {
+function PasswordForm({ mode, next, email, onEmail, onForgot }: { mode: "entrar" | "criar"; next: string; onForgot: () => void } & EmailProps) {
   const creating = mode === "criar";
   const [state, action] = useActionState(creating ? signUpWithPassword : signInWithPassword, undefined);
   const [show, setShow] = useState(false);
@@ -110,10 +116,14 @@ function PasswordForm({ mode, next, email, onEmail }: { mode: "entrar" | "criar"
           className={ui.input}
           aria-describedby={creating ? "senha-dica" : undefined}
         />
-        {creating && (
+        {creating ? (
           <p id="senha-dica" className="mt-1 text-xs text-tinta-suave">
             Pelo menos {MIN_PASSWORD} caracteres.
           </p>
+        ) : (
+          <button type="button" onClick={onForgot} className="mt-1.5 text-xs text-tinta-suave underline hover:text-tinta" data-esqueci>
+            Esqueci minha senha
+          </button>
         )}
       </div>
       {creating && (
@@ -130,7 +140,7 @@ function PasswordForm({ mode, next, email, onEmail }: { mode: "entrar" | "criar"
         </p>
       )}
       <SubmitButton block variant={creating ? "accent" : "primary"} pendingText={creating ? "Criando a conta…" : "Entrando…"}>
-        {creating ? "Criar conta grátis" : "Entrar"}
+        {creating ? "Criar conta · 15 dias grátis" : "Entrar"}
       </SubmitButton>
     </form>
   );
@@ -158,6 +168,34 @@ function LinkForm({ next, email, onEmail }: { next: string } & EmailProps) {
       )}
       <SubmitButton block pendingText="Enviando…">
         Receber link de acesso
+      </SubmitButton>
+    </form>
+  );
+}
+
+/** "Esqueci minha senha": manda o link por e-mail; ele leva a Minha conta para definir a nova senha. */
+function ResetForm({ email, onEmail }: EmailProps) {
+  const [state, action] = useActionState(requestPasswordReset, undefined);
+
+  if (state?.ok) {
+    return (
+      <p className={ui.success} role="status">
+        {state.ok}
+      </p>
+    );
+  }
+
+  return (
+    <form action={action} className="space-y-4" data-form="esqueci">
+      <p className="text-sm text-tinta-suave">Digite o e-mail da conta. Mandamos um link para você criar uma senha nova.</p>
+      <EmailField email={email} onEmail={onEmail} />
+      {state?.error && (
+        <p className={ui.error} role="alert">
+          {state.error}
+        </p>
+      )}
+      <SubmitButton block pendingText="Enviando…">
+        Enviar link para nova senha
       </SubmitButton>
     </form>
   );

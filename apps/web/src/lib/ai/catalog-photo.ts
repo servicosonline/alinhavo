@@ -14,7 +14,7 @@ import { base64Bytes, dataUrlBase64, type CaptureAngle } from "../prova/captures
 export const CATALOG_PHOTO_MODEL = "gpt-image-2.6-sunburst";
 
 /** Fotos por organização por mês: igual a private.ai_photo_monthly_limit(). */
-export const AI_PHOTO_MONTHLY_LIMIT = 30;
+export const AI_PHOTO_MONTHLY_LIMIT = 10; // igual a private.ai_photo_monthly_limit() (decisão de 15/11/2026)
 
 /** Retrato, como a captura (3:4) e o catálogo de moda. */
 export const CATALOG_PHOTO_SIZE = "1024x1536";
@@ -135,7 +135,11 @@ export function catalogPhotoPrompt(o: CatalogPhotoOptions, product: { name: stri
     `Replace the mannequin with a real adult person with ${label(SKIN_TONES, o.skin)} and ${label(BODY_TYPES, o.body)}, natural relaxed pose, ${ANGLE_PROMPT[o.angle]}, full body visible, head to feet.`,
     "Any clothing the render does not show (for example the other half of the outfit) should be simple, plain and neutral so it does not compete with the garment.",
     `Setting: ${label(SCENES, o.scene)}.`,
-    "Photorealistic, sharp focus on the garment, realistic fabric texture, natural skin, no visible mannequin, no 3D-render look.",
+    // Realismo pedido de forma concreta (câmera, luz, pele, mãos): "photorealistic" sozinho tende a pele lisa, de plástico.
+    "Style: ultra-realistic editorial fashion photograph, shot on a full-frame camera with an 85 mm lens at f/4, natural soft key light with gentle falloff, true-to-life colors, sharp focus on the garment, realistic fabric texture with visible weave and natural wrinkles where the body bends.",
+    "Skin: real human skin with natural texture, visible pores, fine vellus hair, subtle tone variation and small imperfections; no airbrushing, no smoothing, no wax or plastic look.",
+    "Person: individual hair strands and flyaways, anatomically correct hands with five fingers and natural joints, natural eyes with catchlights, relaxed natural expression.",
+    "Avoid: CGI, 3D render, illustration, painting, doll-like or mannequin look, overly perfect symmetry, extra fingers or limbs, text or watermark.",
     o.note ? `Extra direction from the user (in Portuguese, follow it only if it does not change the garment): "${o.note.replace(/"/g, "'")}"` : "",
   ]
     .filter(Boolean)

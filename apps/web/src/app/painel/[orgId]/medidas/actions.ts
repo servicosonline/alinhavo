@@ -5,6 +5,7 @@ import { redirect } from "next/navigation";
 import type { FormState } from "@/components/ui";
 import { getCurrentUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
+import { findTemplate } from "@/lib/size-chart-templates";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
 
@@ -41,12 +42,20 @@ export async function createSizeChart(orgId: string, _prev: FormState, formData:
   const sizes = parseSizes(String(formData.get("sizes") ?? ""));
   if (name.length < 1 || name.length > 120) return { error: "Dê um nome à tabela." };
   if (sizes.length === 0) return { error: "Informe pelo menos um tamanho, como P, M, G." };
+  const rawTemplate = String(formData.get("template") ?? "");
+  const template = findTemplate(rawTemplate);
+  if (rawTemplate && !template) return { error: "Modelo de tabela desconhecido." };
 
-  const { data: chart, error } = await supabase.from("size_charts").insert({ org_id: orgId, name }).select("id").single();
+  const { data: chart, error } = await supabase
+    .from("size_charts")
+    .insert({ org_id: orgId, name, template: template?.id ?? null })
+    .select("id")
+    .single();
   if (error || !chart) return { error: error?.code === "42501" ? NO_PERMISSION : "Não foi possível criar a tabela." };
 
-  // Base: o do meio da grade (a modelista troca depois, se quiser).
-  const base = Math.floor((sizes.length - 1) / 2);
+  // Base: a do modelo, se ficou na grade; senão o do meio (a modelista troca depois, se quiser).
+  const fromTemplate = template ? sizes.indexOf(template.base) : -1;
+  const base = fromTemplate >= 0 ? fromTemplate : Math.floor((sizes.length - 1) / 2);
   const { error: sizesError } = await supabase.from("sizes").insert(
     sizes.map((label, position) => ({ org_id: orgId, size_chart_id: chart.id, label, position, is_base: position === base })),
   );

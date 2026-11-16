@@ -1,10 +1,9 @@
 import Link from "next/link";
-import { SubmitButton } from "@/components/submit-button";
 import { ui } from "@/components/ui";
 import { AI_PHOTO_MONTHLY_LIMIT, BODY_TYPES, SCENES, SKIN_TONES } from "@/lib/ai/catalog-photo";
 import { formatDate } from "@/lib/prova/approval";
 import type { createClient } from "@/lib/supabase/server";
-import { deleteCatalogPhoto } from "../catalog-actions";
+import { CatalogGallery } from "./catalog-gallery";
 
 type Supabase = Awaited<ReturnType<typeof createClient>>;
 
@@ -26,6 +25,7 @@ export async function CatalogPhotos({
   provaHref,
   canEdit,
   usedThisMonth,
+  monthlyLimit = AI_PHOTO_MONTHLY_LIMIT,
 }: {
   supabase: Supabase;
   orgId: string;
@@ -34,6 +34,7 @@ export async function CatalogPhotos({
   provaHref: string | null;
   canEdit: boolean;
   usedThisMonth: number;
+  monthlyLimit?: number;
 }) {
   const { data } = await supabase
     .from("catalog_photos")
@@ -65,7 +66,7 @@ export async function CatalogPhotos({
       </div>
       <p className="text-xs text-tinta-suave">
         Geradas por IA a partir de uma captura da Prova: o manequim vira um modelo. A IA pode mudar detalhes da roupa; confira antes de publicar e
-        informe que a imagem foi gerada por IA. {usedThisMonth} de {AI_PHOTO_MONTHLY_LIMIT} fotos usadas neste mês pela equipe.
+        informe que a imagem foi gerada por IA. {usedThisMonth} de {monthlyLimit} fotos usadas neste mês pela equipe.
       </p>
       {photos.length === 0 ? (
         <p className={ui.muted}>
@@ -74,52 +75,19 @@ export async function CatalogPhotos({
             : "Ligue um molde com versão salva para gerar fotos na Prova."}
         </p>
       ) : (
-        <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4" data-catalog-photos>
-          {photos.map((ph) => {
-            const src = urlOf(view.data, ph.path);
-            const dl = urlOf(download.data, ph.path);
-            return (
-              <li key={ph.id} className="space-y-1 text-xs" data-catalog-photo-item>
-                {src ? (
-                  <a href={src} target="_blank" rel="noreferrer">
-                    {/* eslint-disable-next-line @next/next/no-img-element -- endereço assinado do Storage, que vence */}
-                    <img
-                      src={src}
-                      alt="Foto de catálogo gerada por IA"
-                      loading="lazy"
-                      className="aspect-[2/3] w-full rounded border border-tinta/15 bg-papel object-cover"
-                    />
-                  </a>
-                ) : (
-                  <div className="flex aspect-[2/3] items-center justify-center rounded border border-tinta/15 bg-papel text-tinta-suave">
-                    Indisponível
-                  </div>
-                )}
-                <p className="text-tinta-suave">
-                  {formatDate(ph.created_at)}
-                  <span className="block">{settingsLine(ph.settings)}</span>
-                </p>
-                <div className="flex gap-1">
-                  {dl && (
-                    <a href={dl} className={ui.buttonGhost}>
-                      Baixar
-                    </a>
-                  )}
-                  {canEdit && (
-                    <form action={deleteCatalogPhoto}>
-                      <input type="hidden" name="orgId" value={orgId} />
-                      <input type="hidden" name="productId" value={productId} />
-                      <input type="hidden" name="photoId" value={ph.id} />
-                      <SubmitButton variant="ghost" pendingText="Apagando…">
-                        Apagar
-                      </SubmitButton>
-                    </form>
-                  )}
-                </div>
-              </li>
-            );
-          })}
-        </ul>
+        // Clicar na foto abre o modal dentro do app (catalog-gallery.tsx), não outra aba.
+        <CatalogGallery
+          orgId={orgId}
+          productId={productId}
+          canEdit={canEdit}
+          photos={photos.map((ph) => ({
+            id: ph.id,
+            src: urlOf(view.data, ph.path),
+            downloadHref: urlOf(download.data, ph.path),
+            date: formatDate(ph.created_at),
+            settings: settingsLine(ph.settings),
+          }))}
+        />
       )}
     </section>
   );

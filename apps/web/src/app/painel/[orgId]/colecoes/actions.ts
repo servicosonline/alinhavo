@@ -59,10 +59,12 @@ export async function createProduct(orgId: string, collectionId: string, _prev: 
   const reference = text(formData.get("reference"), 40);
   if (!name) return { error: "Dê um nome ao produto (até 120 caracteres)." };
   if (reference === null) return { error: "Referência com até 40 caracteres." };
+  const dueOn = readDay(formData.get("due_on"));
+  if (dueOn === undefined) return { error: "Data de entrega inválida." };
 
   const { error } = await supabase
     .from("products")
-    .insert({ org_id: orgId, collection_id: collectionId, name, reference: reference || null });
+    .insert({ org_id: orgId, collection_id: collectionId, name, reference: reference || null, due_on: dueOn });
   if (error) {
     if (error.code === "23505") return { error: "Já existe um produto com essa referência." };
     return { error: error.code === "42501" ? NO_PERMISSION : "Não foi possível criar o produto." };
@@ -106,6 +108,28 @@ export async function setProductStatus(formData: FormData) {
   const status = formData.get("status");
   if (!ctx || !isUuid(productId) || !isProductStatus(status)) return;
   await ctx.supabase.from("products").update({ status }).eq("id", productId).eq("org_id", ctx.orgId);
+  revalidatePath(ctx.back);
+}
+
+/** Arrastar no quadro (ou "Mover para…"): muda o status e devolve o erro em texto, se houver. */
+export async function moveProduct(orgId: string, collectionId: string, productId: string, status: string): Promise<{ error?: string }> {
+  if (!isUuid(orgId) || !isUuid(collectionId) || !isUuid(productId) || !isProductStatus(status)) return { error: "Pedido inválido." };
+  const path = `/painel/${orgId}/colecoes/${collectionId}`;
+  const supabase = await ready(path);
+  if (!supabase) return { error: NO_CONFIG };
+  const { data, error } = await supabase.from("products").update({ status }).eq("id", productId).eq("org_id", orgId).select("id");
+  if (error || !data?.length) return { error: error?.code === "42501" || !data?.length ? NO_PERMISSION : "Não foi possível mudar o status." };
+  revalidatePath(path);
+  return {};
+}
+
+/** Data de entrega do produto (vazio tira o prazo). */
+export async function setProductDue(formData: FormData) {
+  const ctx = await simple(formData);
+  const productId = formData.get("productId");
+  const dueOn = readDay(formData.get("due_on"));
+  if (!ctx || !isUuid(productId) || dueOn === undefined) return;
+  await ctx.supabase.from("products").update({ due_on: dueOn }).eq("id", productId).eq("org_id", ctx.orgId);
   revalidatePath(ctx.back);
 }
 

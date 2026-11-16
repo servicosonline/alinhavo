@@ -13,4 +13,12 @@ export * from "./place";
 export * from "./maps";
 export * from "./body/types";
 export * from "./body/measurements";
-export { createMannequin } from "./body/mannequin";
+export {
+  BELLY_RANGE,
+  createMannequin,
+  LIMB_IDS,
+  LIMB_WHOLE,
+  type BodyConditions,
+  type BodyOverrides,
+  type LimbId,
+} from "./body/mannequin";

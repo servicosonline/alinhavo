@@ -1,3 +1,4 @@
+import { aiTextRoute } from "@/lib/ai/client";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
@@ -5,12 +6,13 @@ import { Loading, NotConfigured, PageHeader } from "@/components/page-shell";
 import { SubmitButton } from "@/components/submit-button";
 import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
-import { PRODUCT_STATUS_LABEL, PRODUCT_STATUSES, suggestApproved } from "@/lib/collection";
+import { formatDay, PRODUCT_STATUS_LABEL, PRODUCT_STATUSES, productDueState, suggestApproved, todayInBrazil } from "@/lib/collection";
 import { isUuid } from "@/lib/ids";
 import { canEditPatterns, canEditProducts, getMyRole } from "@/lib/org-access";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
-import { linkProductPattern, setProductStatus } from "../../colecoes/actions";
+import { linkProductPattern, setProductDue, setProductStatus } from "../../colecoes/actions";
+import { DueChip } from "../../colecoes/[collectionId]/products-view";
 import { deleteTrim, setProductFabric } from "../actions";
 import { DownloadTechPack, GenerateTechPack, TrimForm } from "./tech-pack-parts";
 import { Comments } from "./comments";
@@ -24,6 +26,8 @@ import { formatEfficiency, formatMeters, formatPerGarment } from "@/lib/encaixe/
 import { formatCm } from "@/lib/units";
 import { formatDate } from "@/lib/prova/approval";
 import { ApprovalsList } from "../../moldes/[patternId]/approvals-list";
+import { TrackingShare } from "@/components/tracking-share";
+import { activeTrackingLinks } from "../../tracking-links";
 
 type Params = PageProps<"/painel/[orgId]/produtos/[productId]">["params"];
 
@@ -47,7 +51,7 @@ async function Produto({ params }: { params: Params }) {
   const [prodRes, role, patRes] = await Promise.all([
     supabase
       .from("products")
-      .select("id, reference, name, status, pattern_id, fabric_id, collection_id, sales_description, technical_description, collections(name)")
+      .select("id, reference, name, status, pattern_id, fabric_id, collection_id, sales_description, technical_description, due_on, collections(name)")
       .eq("id", productId)
       .eq("org_id", orgId)
       .maybeSingle(),
@@ -67,8 +71,13 @@ async function Produto({ params }: { params: Params }) {
     ? await supabase.from("approvals").select("status").eq("pattern_id", pattern.id).eq("org_id", orgId).order("created_at", { ascending: false }).limit(1)
     : { data: [] as { status: "pendente" | "aprovado" | "ajustes" }[] };
   const latest = last?.[0]?.status ?? null;
+  const [tracking, { data: orgRow }] = await Promise.all([
+    canEdit ? activeTrackingLinks(supabase, "produto", p.id) : Promise.resolve([]),
+    supabase.from("orgs").select("name").eq("id", orgId).maybeSingle(),
+  ]);
+  const orgName = orgRow?.name ?? "";
 
-  const [fabRes, trimRes, packRes, commentRes, teamRes, markerRes, aiRes, photoUseRes] = await Promise.all([
+  const [fabRes, trimRes, packRes, commentRes, teamRes, markerRes, aiRes, photoUseRes, textLimitRes, photoLimitRes] = await Promise.all([
     supabase.from("fabrics").select("id, name, width_mm, price_cents").eq("org_id", orgId).order("name"),
     supabase.from("product_trims").select("id, name, quantity, unit, unit_price_cents").eq("product_id", p.id).eq("org_id", orgId).order("position").order("created_at"),
     supabase.from("tech_packs").select("id, number, pattern_version, data, created_at").eq("product_id", p.id).eq("org_id", orgId).order("number", { ascending: false }).limit(10),
@@ -83,9 +92,12 @@ async function Produto({ params }: { params: Params }) {
       .limit(1),
     supabase.rpc("ai_generations_this_month", { p_org_id: orgId }),
     supabase.rpc("ai_generations_this_month", { p_org_id: orgId, p_kind: "foto_catalogo" }),
+    supabase.rpc("ai_limit_for", { p_org_id: orgId, p_kind: "textos_produto" }),
+    supabase.rpc("ai_limit_for", { p_org_id: orgId, p_kind: "foto_catalogo" }),
   ]);
   // Só a informação de que há chave (nunca a chave) vai para a tela.
-  const aiReady = !!process.env.ANTHROPIC_API_KEY?.trim();
+  const route = aiTextRoute();
+  const aiReady = route.claude !== null || route.openai;
   const lastMarker = markerRes.data?.[0] ?? null;
   const names = Object.fromEntries((teamRes.data ?? []).map((m) => [m.user_id, m.email]));
   const fabrics = fabRes.data ?? [];
@@ -108,9 +120,17 @@ async function Produto({ params }: { params: Params }) {
             <span className={ui.tag} data-product-status={p.status}>
               {PRODUCT_STATUS_LABEL[p.status]}
             </span>
+            {p.due_on && (
+              <DueChip due={{ label: formatDay(p.due_on), state: productDueState(p.due_on, p.status, todayInBrazil()) ?? "futura" }} />
+            )}
           </span>
         }
         title={p.name}
+        actions={
+          canEdit ? (
+            <TrackingShare orgId={orgId} kind="produto" targetId={p.id} title={p.name} orgName={orgName} back={back} links={tracking} />
+          ) : undefined
+        }
       />
 
       {canEdit && suggestApproved(p.status, latest) && (
@@ -144,6 +164,20 @@ async function Produto({ params }: { params: Params }) {
             </label>
             <SubmitButton variant="ghost" pendingText="…">
               Mudar status
+            </SubmitButton>
+          </form>
+        )}
+        {canEdit && (
+          <form key={`entrega-${p.due_on ?? ""}`} action={setProductDue} className="flex flex-wrap items-end gap-2">
+            <input type="hidden" name="orgId" value={orgId} />
+            <input type="hidden" name="back" value={back} />
+            <input type="hidden" name="productId" value={p.id} />
+            <label className="block">
+              <span className={ui.label}>Data de entrega</span>
+              <input name="due_on" type="date" defaultValue={p.due_on ?? ""} className={ui.input} />
+            </label>
+            <SubmitButton variant="ghost" pendingText="…">
+              Salvar prazo
             </SubmitButton>
           </form>
         )}
@@ -208,6 +242,7 @@ async function Produto({ params }: { params: Params }) {
           canEdit={canEdit}
           aiReady={aiReady}
           usedThisMonth={aiRes.data ?? 0}
+          monthlyLimit={textLimitRes.data ?? undefined}
         />
       </section>
 
@@ -218,6 +253,7 @@ async function Produto({ params }: { params: Params }) {
         provaHref={pattern && pattern.current_version > 0 ? `/painel/${orgId}/moldes/${pattern.id}/prova` : null}
         canEdit={canEdit}
         usedThisMonth={photoUseRes.data ?? 0}
+        monthlyLimit={photoLimitRes.data ?? undefined}
       />
 
       <section className={`${ui.card} space-y-3`} aria-labelledby="tecido" data-section="tecido">

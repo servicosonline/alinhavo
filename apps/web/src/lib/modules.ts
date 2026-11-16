@@ -9,6 +9,7 @@ export const MODULES: { slug: string; label: string; icon: ModuleIconName; also?
   { slug: "medidas", label: "Medidas", icon: "medidas" },
   { slug: "tecidos", label: "Tecidos", icon: "tecidos" },
   { slug: "encaixes", label: "Fila de encaixes", icon: "encaixes" },
+  { slug: "resultados", label: "Resultados", icon: "resultados" },
 ];
 
 /** O módulo de uma rota do painel ("" = início da organização). */

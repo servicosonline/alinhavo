@@ -3,8 +3,12 @@ import type { CSSProperties } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Carretel, FitaMetrica, Manequim, RiscoEncaixe, RoloTecido, SimboloEmPartes, Tesoura } from "@/components/landing/art";
+import { InstallApp } from "@/components/install-app";
 import { BrandLogo, BrandSymbol } from "@/components/brand-mark";
 import { SavingsCalculator } from "@/components/landing/calculator";
+import { PlanCards } from "@/components/landing/plan-cards";
+import { formatMoney } from "@/lib/money";
+import { ANNUAL_MONTHS, planById } from "@/lib/plans";
 import { LandingMotion } from "@/components/landing/motion";
 import "@/components/landing/landing.css";
 
@@ -46,10 +50,35 @@ const PASSOS = [
   ["O alinhavo fecha a costura", "Você vê onde aperta e onde sobra antes do primeiro corte."],
 ] as const;
 
+// As objeções que seguram a compra vêm primeiro (preço, teste, confiança no 3D, troca de CAD); as técnicas depois.
+// "Sem fidelidade" e "teste sem cartão" são promessas comerciais aprovadas pelo Paulo (15/11/2026).
+/** Reais sem centavos para o texto ("R$ 69"); null vira "em breve". */
+const reais = (cents: number | null) => (cents === null ? "em breve" : formatMoney(cents).replace(/,00$/, ""));
+
 const PERGUNTAS = [
   {
+    p: "Quanto custa? Tem fidelidade?",
+    r: `Modelista sai por ${reais(planById("modelista").precoPorUsuarioCents)} por usuário/mês e Confecção por ${reais(planById("confeccao").precoPorUsuarioCents)} (estilista ${reais(planById("confeccao").precoEstilistaCents ?? null)}, leitura grátis). No anual você paga ${ANNUAL_MONTHS} meses e leva 12. Sem orçamento, sem taxa de entrada e sem fidelidade: você cancela quando quiser, direto na plataforma.`,
+  },
+  {
+    p: "O teste grátis pede cartão?",
+    r: "Não. São 15 dias com tudo liberado, sem cartão. Depois você escolhe o plano ou fica no grátis, com 1 molde salvo para sempre.",
+  },
+  {
+    p: "Dá para confiar no 3D? Posso deixar de cortar o piloto?",
+    r: "A Prova veste o molde no corpo da sua tabela de medidas e mostra onde aperta e onde sobra, tamanho por tamanho. Ela não substitui a peça final, mas tira as idas e vindas: você corta o piloto já com os ajustes feitos.",
+  },
+  {
+    p: "Já uso outro CAD. Consigo trazer meus moldes?",
+    r: "Hoje o Alinhavo exporta DXF-AAMA, mas ainda não importa arquivos de outros programas. Molde de papel entra pelo Scan: você fotografa ao lado de uma folha de marcadores e ele vira molde digital (o Scan ainda está em testes com fotos reais).",
+  },
+  {
+    p: "Meus moldes ficam seguros? E se eu sair?",
+    r: "Cada empresa só enxerga os próprios moldes, coleções e riscos, e cada ajuste vira uma versão nova: nada é sobrescrito. Os moldes são seus: baixe em DXF-AAMA ou em PDF 1:1 quando quiser.",
+  },
+  {
     p: "Preciso instalar alguma coisa?",
-    r: "Não. O Alinhavo roda no navegador do computador (Chrome ou Edge atualizados). A simulação 3D usa a placa de vídeo do próprio computador.",
+    r: "Não. O Alinhavo roda no navegador do computador (Chrome ou Edge atualizados), e você pode instalá-lo como app na área de trabalho ou na tela inicial do celular. A simulação 3D usa a placa de vídeo do próprio computador.",
   },
   {
     p: "Funciona com o meu plotter?",
@@ -58,18 +87,6 @@ const PERGUNTAS = [
   {
     p: "A cliente precisa criar conta para aprovar?",
     r: "Não. Você manda um link que vale 7, 14 ou 30 dias. Ela vê a peça de frente, costas e lado, e aprova ou pede ajuste escrevendo o que quer mudar.",
-  },
-  {
-    p: "E os moldes que eu já tenho no papel?",
-    r: "O Scan transforma a foto do molde de papel em molde digital, com a ajuda de uma folha de marcadores impressa. Ele ainda está em fase de testes com fotos reais.",
-  },
-  {
-    p: "Meus moldes ficam seguros?",
-    r: "Cada empresa só enxerga os próprios moldes, coleções e riscos. Cada ajuste vira uma versão nova do molde: nada é sobrescrito.",
-  },
-  {
-    p: "Dá para provar a grade inteira?",
-    r: "Sim. A gradação é feita no molde e a Prova veste P, M e G lado a lado, cada um no seu corpo, comparando pressão e folga.",
   },
 ];
 
@@ -254,7 +271,8 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div data-speed="-0.6" className="absolute -right-2 -bottom-14 w-[30%] max-w-[190px] sm:-right-6" aria-hidden="true">
+              {/* A tesoura não é parallax: a rolagem a leva até a divisa com a seção escura e ela corta a borda (motion.tsx). */}
+              <div className="lp-tesoura-heroi absolute -right-2 -bottom-14 z-30 w-[30%] max-w-[190px] sm:-right-6" aria-hidden="true">
                 <div className="lp-entra" style={d(0.48)}>
                   <div className="lp-flutua" style={flutua(4.5, 5, 0.8)}>
                     <Tesoura className="w-full -rotate-12" />
@@ -288,6 +306,11 @@ export default function Home() {
 
       {/* 2. O problema: a palavra gigante de jeans. */}
       <section data-cena="problema" className="relative overflow-hidden bg-tinta text-papel">
+        {/* A borda de cima, cortada com tesoura de picotar. Parada (ou sem movimento), já aparece cortada;
+            com movimento, a faixa reta some atrás da tesoura que passa da direita para a esquerda. */}
+        <div className="lp-picote" aria-hidden="true">
+          <div className="lp-picote-reto" />
+        </div>
         <div className="mx-auto max-w-7xl px-5 pt-24 pb-24 sm:px-10 lg:pt-32">
           <p className="font-mono text-[12px] tracking-[0.14em] text-papel/60 uppercase">A conta que ninguém faz</p>
           <h2 className={`${h2} mt-5 max-w-3xl`}>Quantos pilotos você cortou esse mês?</h2>
@@ -343,7 +366,8 @@ export default function Home() {
       </section>
 
       {/* 4. O que só o Alinhavo faz: molde e prova reais, em planos. */}
-      <section data-cena="alongou" className="relative">
+      {/* Com movimento, entra da direita cobrindo o manequim preso (motion.tsx): precisa de fundo próprio. */}
+      <section data-cena="alongou" className="relative z-10 bg-papel">
         <div className="mx-auto max-w-7xl px-5 pt-8 pb-24 sm:px-10 lg:pt-24 lg:pb-28">
           <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
             <div>
@@ -538,47 +562,11 @@ export default function Home() {
               </h2>
             </div>
             <p className="max-w-lg text-[17px] leading-relaxed text-tinta-suave">
-              O preço vai ficar aqui, à vista, por usuário. Você assina direto na plataforma, sem falar com vendedor e sem
+              Preço por usuário, à vista. Você assina direto na plataforma, sem falar com vendedor e sem
               treinamento obrigatório.
             </p>
           </div>
-          <div className="mt-12 grid gap-5 lg:grid-cols-3">
-            <div className="rounded-2xl border border-tinta/10 bg-white p-7">
-              <p className="font-display text-2xl font-semibold">Grátis</p>
-              <p className="mt-1 text-tinta-suave">Para conhecer com um molde de verdade.</p>
-              <p className="mt-6 font-display text-4xl font-semibold">R$ 0</p>
-              <ul className="mt-6 grid gap-2 text-[15px]">
-                <li>1 molde salvo, para sempre</li>
-                <li>1 usuário</li>
-              </ul>
-            </div>
-            <div className="rounded-2xl border-2 border-linha bg-white p-7 lg:-translate-y-3 lg:shadow-[0_24px_50px_-28px_rgb(196_58_38/0.6)]">
-              <div className="flex items-center justify-between">
-                <p className="font-display text-2xl font-semibold">Modelista</p>
-                <span className="rounded-full bg-linha px-2.5 py-0.5 font-mono text-[11px] text-white">15 dias grátis</span>
-              </div>
-              <p className="mt-1 text-tinta-suave">Para quem presta modelagem.</p>
-              <p className="mt-6 font-display text-4xl font-semibold">Em breve</p>
-              <ul className="mt-6 grid gap-2 text-[15px]">
-                <li>Molde e Prova 3D</li>
-                <li>Aprovação por link</li>
-                <li>Preço por usuário</li>
-              </ul>
-            </div>
-            <div className="rounded-2xl border border-tinta/10 bg-white p-7">
-              <div className="flex items-center justify-between">
-                <p className="font-display text-2xl font-semibold">Confecção</p>
-                <span className="rounded-full border border-tinta/25 px-2.5 py-0.5 font-mono text-[11px] text-tinta-suave">15 dias grátis</span>
-              </div>
-              <p className="mt-1 text-tinta-suave">Para a equipe, do desenvolvimento ao corte.</p>
-              <p className="mt-6 font-display text-4xl font-semibold">Em breve</p>
-              <ul className="mt-6 grid gap-2 text-[15px]">
-                <li>Tudo do Modelista</li>
-                <li>Coleção, ficha técnica e comentários</li>
-                <li>Encaixe e fila de riscos</li>
-              </ul>
-            </div>
-          </div>
+          <PlanCards />
         </div>
       </section>
 
@@ -605,15 +593,24 @@ export default function Home() {
 
       {/* 8. Fecho no vermelho da linha. */}
       <section data-cena="fecho" className="relative overflow-x-clip bg-linha text-papel">
-        <div data-speed="0.35" className="pointer-events-none absolute top-10 right-[5%] hidden w-56 md:block" aria-hidden="true">
-          <div className="lp-flutua" style={flutua(6, 6)}>
-            <Tesoura className="w-full rotate-[20deg]" />
-          </div>
-        </div>
         <div className="relative mx-auto flex max-w-7xl flex-col items-start gap-10 px-5 py-24 sm:px-10 md:flex-row md:items-center lg:py-32">
           <div data-speed="-0.15" className="relative rounded-md border-2 border-dashed border-papel/70 p-8 pr-14">
             <BrandSymbol className="size-16" pieces="var(--papel)" stitch="var(--tinta)" />
-            <p className="mt-6 font-display text-5xl leading-none font-semibold tracking-[-0.03em] sm:text-6xl">Prove antes de cortar.</p>
+            {/* A rolagem traz a tesoura e ela corta a palavra "cortar" ao meio (motion.tsx). O texto de verdade
+                é um só; as metades e a tesoura são desenho (aria-hidden). Parada, a palavra fica inteira. */}
+            <p className="mt-6 font-display text-5xl leading-none font-semibold tracking-[-0.03em] sm:text-6xl">
+              Prove antes de{" "}
+              <span className="lp-cortar">
+                <span className="lp-cortar-texto">cortar</span>
+                <span className="lp-cortar-cima" aria-hidden="true">cortar</span>
+                <span className="lp-cortar-baixo" aria-hidden="true">cortar</span>
+                <span className="lp-cortar-risco" aria-hidden="true" />
+                <span className="lp-cortar-tesoura" aria-hidden="true">
+                  <Tesoura className="w-full" />
+                </span>
+              </span>
+              .
+            </p>
             <p className="mt-4 text-papel/90">Comece com um molde de exemplo, sem criar conta.</p>
           </div>
           <div className="flex flex-col gap-3 md:ml-auto">
@@ -621,7 +618,7 @@ export default function Home() {
               Experimentar sem cadastro →
             </Link>
             <Link href="/entrar?modo=criar" className="rounded-[10px] border-[1.5px] border-papel/70 px-7 py-4 text-center hover:border-papel">
-              Criar conta grátis
+              Testar grátis por 15 dias
             </Link>
           </div>
         </div>
@@ -629,6 +626,7 @@ export default function Home() {
       <footer className="bg-tinta text-sm text-papel/60">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-6 px-5 py-8 sm:px-10">
           <BrandLogo light />
+          <InstallApp className="text-papel/80 hover:text-papel" />
           <span className="ml-auto">Paulo Tecnologia em Vendas LTDA · Blumenau/SC</span>
         </div>
       </footer>

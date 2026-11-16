@@ -11,3 +11,10 @@ export function getOpenAiClient(): OpenAI | null {
   if (!key) return null;
   return new OpenAI({ apiKey: key });
 }
+
+/** A reserva dos textos do produto: a mesma chave e o modelo de OPENAI_TEXT_MODEL. Null sem os dois. */
+export function getOpenAiTextProvider(): { client: OpenAI; model: string } | null {
+  const model = process.env.OPENAI_TEXT_MODEL?.trim();
+  const client = getOpenAiClient();
+  return model && client ? { client, model } : null;
+}

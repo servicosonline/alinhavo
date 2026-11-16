@@ -1,18 +1,18 @@
 import { describe, expect, it } from "vitest";
 import { garmentAtSize, validatePattern, type PatternDocument } from "@alinhavo/geometry";
-import { createMannequin } from "./body/mannequin";
+import { createMannequin, type BodyConditions } from "./body/mannequin";
 import { floorCollider } from "./collider";
 import { FABRICS } from "./fabrics";
 import { meshPiece } from "./mesh";
 import { pieceHalf, placeGarment } from "./place";
 import { createSimulation } from "./simulation";
-import { calca, top } from "./test-garments";
+import { calca, saia, top } from "./test-garments";
 
 const BODY = { busto: 880, cintura: 720, quadril: 900, altura: 1650 };
 
 /** Monta e simula `seconds` s; devolve a simulação, o corpo e as peças. */
-function provar(doc: PatternDocument, seconds: number) {
-  const body = createMannequin(BODY);
+function provar(doc: PatternDocument, seconds: number, conditions: BodyConditions = {}) {
+  const body = createMannequin(BODY, "em-pe", {}, conditions);
   const { pieces, seams, foldLine } = garmentAtSize(doc, "M");
   // Como no Worker da Prova: malha simétrica pela linha da dobra.
   const meshes = pieces.map((p) => meshPiece(p, { spacing: 30, mirror: foldLine[p.id] }));
@@ -81,4 +81,24 @@ describe("calça e top de teste", () => {
       else expect(d).toBeGreaterThan(FABRICS.planoLeve.thickness - 0.5);
     }
   }, 120_000);
+});
+
+describe("roupa em corpo com condição", () => {
+  it("calça sem a perna esquerda: costura, fica na cintura e a perna vazia cai sem explodir", () => {
+    const { sim, body } = provar(calca(), 4, { limbs: { leftLeg: 0 } });
+    const r = resumo(sim, body);
+    expect(r.finite).toBe(true);
+    expect(r.gap).toBeLessThan(2);
+    expect(r.top).toBeGreaterThan(body.landmarks.waist.y - 100);
+    expect(r.bottom).toBeGreaterThan(-1);
+    expect(r.closest).toBeGreaterThan(-3);
+  }, 60_000);
+
+  it("saia na gestante: costura e não atravessa a barriga", () => {
+    const { sim, body } = provar(saia(), 4, { belly: 1050 });
+    const r = resumo(sim, body);
+    expect(r.finite).toBe(true);
+    expect(r.gap).toBeLessThan(2);
+    expect(r.closest).toBeGreaterThan(-3);
+  }, 60_000);
 });

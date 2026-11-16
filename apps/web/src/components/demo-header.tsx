@@ -11,12 +11,12 @@ const DEMOS: { id: "editor" | "prova" | "scan"; href: string; label: string; ico
 
 /**
  * Barra do /experimentar: o logo, os três módulos que dá para testar sem conta e o convite para criar
- * a conta (o mesmo "Criar conta grátis" da página inicial). Embaixo, a faixa que lembra que nada é salvo.
+ * a conta (o teste de 15 dias grátis). Embaixo, a faixa que lembra que nada é salvo.
  */
 export function DemoHeader({ current }: { current: "editor" | "prova" | "scan" }) {
   return (
     <header className="border-b border-tinta/10 bg-papel">
-      <div className="mx-auto flex w-full max-w-[90rem] flex-wrap items-center gap-x-6 gap-y-2 px-4 py-3 sm:px-6">
+      <div className="flex w-full flex-wrap items-center gap-x-6 gap-y-2 px-4 py-3 sm:px-6 lg:px-10">
         <Link href="/" aria-label="Alinhavo, página inicial" className="rounded-md">
           <BrandLogo size="sm" />
         </Link>
@@ -44,12 +44,13 @@ export function DemoHeader({ current }: { current: "editor" | "prova" | "scan" }
             Entrar
           </Link>
           <Link href="/entrar?modo=criar" className={`${ui.buttonAccentSm}`}>
-            Criar conta grátis
+            <span className="sm:hidden">Testar grátis</span>
+            <span className="hidden sm:inline">Testar grátis por 15 dias</span>
           </Link>
         </div>
       </div>
       <p className="bg-tinta px-4 py-1.5 text-center font-mono text-[11px] tracking-[0.12em] text-papel/85 uppercase">
-        Demonstração · nada é salvo<span className="hidden sm:inline"> · crie a conta para guardar seus moldes</span>
+        Demonstração · nada é salvo<span className="hidden sm:inline"> · teste 15 dias grátis e guarde seus moldes</span>
       </p>
     </header>
   );

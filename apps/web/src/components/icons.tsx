@@ -2,9 +2,17 @@
  * Ícones dos módulos (marca/README.md, seção 7): traço 1,6, cantos redondos, grade 24.
  * Desenhados aqui, sem biblioteca: cada um é um objeto do ofício (cabide, molde, fita, rolo…).
  */
-export type ModuleIconName = "inicio" | "colecoes" | "moldes" | "medidas" | "tecidos" | "encaixes" | "prova" | "scan";
+export type ModuleIconName = "inicio" | "colecoes" | "moldes" | "medidas" | "tecidos" | "encaixes" | "prova" | "scan" | "resultados";
 
 const PATHS: Record<ModuleIconName, React.ReactNode> = {
+  // Fita métrica subindo: os resultados (economia medida).
+  resultados: (
+    <>
+      <path d="M4 19.5h16" />
+      <path d="M6.5 16.5v-3M10.5 16.5v-6M14.5 16.5v-4.5M18.5 16.5V7" />
+      <path d="M5 10.5 9.5 7l4 2.5L19 4.5" strokeDasharray="2.2 1.8" />
+    </>
+  ),
   // Mesa de corte: a casa da organização.
   inicio: (
     <>

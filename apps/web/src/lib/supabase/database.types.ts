@@ -7,16 +7,101 @@
  * Até lá, toda migração nova precisa atualizar este arquivo.
  */
 
-type OrgRole = "owner" | "admin" | "modelista" | "estilista" | "leitura";
+export type OrgRole = "owner" | "admin" | "modelista" | "estilista" | "leitura";
 
 type OrgRow = {
   id: string;
   name: string;
   plan: string;
+  /** Capa (bucket público org-capas, caminho <org_id>/...). */
+  thumbnail_path: string | null;
   created_by: string | null;
   created_at: string;
   updated_at: string;
 };
+
+export type DocumentType = "cpf" | "cnpj";
+export type SubscriptionStatus = "trial" | "ativa" | "vencida" | "cancelada" | "cortesia";
+
+type ProfileRow = {
+  user_id: string;
+  first_name: string | null;
+  last_name: string | null;
+  document_type: DocumentType | null;
+  document: string | null;
+  avatar_path: string | null;
+  welcome_seen_at: string | null;
+  onboarding_closed_at: string | null;
+  created_at: string;
+  updated_at: string;
+};
+
+type ProfileWrite = {
+  first_name?: string | null;
+  last_name?: string | null;
+  document_type?: DocumentType | null;
+  document?: string | null;
+  avatar_path?: string | null;
+  welcome_seen_at?: string | null;
+  onboarding_closed_at?: string | null;
+};
+
+type OrgSubscriptionRow = {
+  org_id: string;
+  plan_id: string;
+  status: SubscriptionStatus;
+  trial_ends_at: string | null;
+  seats: number;
+  created_at: string;
+  updated_at: string;
+};
+
+type ActivityLogRow = {
+  id: number;
+  org_id: string;
+  user_id: string | null;
+  action: string;
+  entity: string | null;
+  entity_id: string | null;
+  meta: Record<string, unknown>;
+  created_at: string;
+};
+
+export type TrackingShow = { status?: boolean; prazos?: boolean; cronograma?: boolean; imagens?: boolean; molde?: boolean };
+
+type TrackingLinkRow = {
+  id: string;
+  org_id: string;
+  kind: "produto" | "colecao";
+  product_id: string | null;
+  collection_id: string | null;
+  token: string;
+  show: TrackingShow;
+  expires_at: string | null;
+  revoked_at: string | null;
+  last_opened_at: string | null;
+  open_count: number;
+  created_by: string | null;
+  created_at: string;
+};
+
+type RoiSettingsRow = {
+  org_id: string;
+  pilots_per_month: number;
+  fabric_per_pilot_mm: number;
+  price_per_meter_cents: number;
+  hours_per_pilot: number;
+  hour_rate_cents: number;
+  monthly_fabric_mm: number;
+  efficiency_pct: number | null;
+  goal_monthly_cents: number | null;
+  created_at: string;
+  updated_at: string;
+};
+
+type RoiSettingsWrite = Partial<Omit<RoiSettingsRow, "org_id" | "created_at" | "updated_at">>;
+
+type RoiMonthRow = { org_id: string; month: string; pilots_cut: number; updated_at: string };
 
 type OrgMemberRow = {
   org_id: string;
@@ -46,7 +131,7 @@ type PatternOrigin = "editor" | "prova" | "scan" | "importacao";
 
 type Timestamps = { created_at: string; updated_at: string };
 type ClientRow = { id: string; org_id: string; name: string } & Timestamps;
-type SizeChartRow = { id: string; org_id: string; client_id: string | null; name: string } & Timestamps;
+type SizeChartRow = { id: string; org_id: string; client_id: string | null; name: string; template: string | null } & Timestamps;
 type SizeRow = {
   id: string;
   org_id: string;
@@ -124,6 +209,17 @@ export type PublicApproval = {
 };
 
 export type ProductStatus = "ideia" | "modelagem" | "prova" | "aprovado" | "producao";
+/** Entrada do produto num estágio (só o banco escreve). */
+type ProductStatusEventRow = { id: number; org_id: string; product_id: string; status: ProductStatus; entered_at: string; backfilled: boolean };
+/** Tempo por estágio (production_stage_times): `stage` é um ProductStatus ou "total". Segundos. */
+export type StageTimeRow = {
+  stage: string;
+  done_count: number;
+  done_avg_seconds: number | null;
+  done_median_seconds: number | null;
+  current_count: number;
+  current_avg_seconds: number | null;
+};
 type CollectionRow = {
   id: string;
   org_id: string;
@@ -147,6 +243,8 @@ type ProductRow = {
   sales_description: string | null;
   /** Texto técnico (entra na ficha); até 4000 caracteres. */
   technical_description: string | null;
+  /** Data de entrega do produto (AAAA-MM-DD). */
+  due_on: string | null;
 } & Timestamps;
 type ApiKeyRow = {
   id: string;
@@ -339,7 +437,7 @@ export type Database = {
       orgs: {
         Row: OrgRow;
         Insert: never;
-        Update: { name?: string };
+        Update: { name?: string; thumbnail_path?: string | null };
         Relationships: [];
       };
       org_members: {
@@ -378,7 +476,7 @@ export type Database = {
       };
       size_charts: {
         Row: SizeChartRow;
-        Insert: { org_id: string; name: string; client_id?: string | null };
+        Insert: { org_id: string; name: string; client_id?: string | null; template?: string | null };
         Update: { name?: string; client_id?: string | null };
         Relationships: [
           Fk<"size_charts_org_id_fkey", "org_id", "orgs">,
@@ -418,6 +516,12 @@ export type Database = {
         Update: { name?: string; season?: string | null; starts_on?: string | null; launch_on?: string | null; archived_at?: string | null };
         Relationships: [Fk<"collections_org_id_fkey", "org_id", "orgs">];
       };
+      product_status_events: {
+        Row: ProductStatusEventRow;
+        Insert: never;
+        Update: never;
+        Relationships: [OrgFk<"product_status_events_product_id_org_id_fkey", "product_id", "products">];
+      };
       products: {
         Row: ProductRow;
         Insert: {
@@ -429,8 +533,10 @@ export type Database = {
           size_chart_id?: string | null;
           pattern_id?: string | null;
           fabric_id?: string | null;
+          due_on?: string | null;
         };
         Update: {
+          due_on?: string | null;
           collection_id?: string | null;
           reference?: string | null;
           name?: string;
@@ -478,6 +584,92 @@ export type Database = {
         Insert: never;
         Update: never;
         Relationships: [OrgFk<"catalog_photos_product_id_org_id_fkey", "product_id", "products">];
+      };
+      profiles: {
+        Row: ProfileRow;
+        Insert: ProfileWrite & { user_id?: string };
+        Update: ProfileWrite;
+        Relationships: [];
+      };
+      org_subscriptions: {
+        Row: OrgSubscriptionRow;
+        Insert: never;
+        Update: never;
+        Relationships: [Fk<"org_subscriptions_org_id_fkey", "org_id", "orgs">];
+      };
+      activity_log: {
+        Row: ActivityLogRow;
+        Insert: never;
+        Update: never;
+        Relationships: [Fk<"activity_log_org_id_fkey", "org_id", "orgs">];
+      };
+      support_threads: {
+        Row: {
+          id: string;
+          org_id: string | null;
+          user_id: string;
+          subject: string;
+          status: "aberta" | "respondida" | "fechada";
+          last_message_at: string;
+          created_at: string;
+        };
+        Insert: never;
+        Update: never;
+        Relationships: [];
+      };
+      support_messages: {
+        Row: { id: string; thread_id: string; org_id: string | null; author: string | null; from_admin: boolean; body: string; created_at: string };
+        Insert: never;
+        Update: never;
+        Relationships: [];
+      };
+      notifications: {
+        Row: {
+          id: string;
+          title: string;
+          body: string;
+          link: string | null;
+          audience: string;
+          audience_value: string | null;
+          created_by: string | null;
+          created_at: string;
+        };
+        Insert: never;
+        Update: never;
+        Relationships: [];
+      };
+      announcements: {
+        Row: {
+          id: string;
+          title: string;
+          body: string;
+          image_path: string | null;
+          video_url: string | null;
+          published: boolean;
+          created_by: string | null;
+          created_at: string;
+        };
+        Insert: never;
+        Update: never;
+        Relationships: [];
+      };
+      tracking_links: {
+        Row: TrackingLinkRow;
+        Insert: never;
+        Update: never;
+        Relationships: [Fk<"tracking_links_org_id_fkey", "org_id", "orgs">];
+      };
+      roi_settings: {
+        Row: RoiSettingsRow;
+        Insert: RoiSettingsWrite & { org_id: string };
+        Update: RoiSettingsWrite;
+        Relationships: [Fk<"roi_settings_org_id_fkey", "org_id", "orgs">];
+      };
+      roi_months: {
+        Row: RoiMonthRow;
+        Insert: { org_id: string; month: string; pilots_cut: number };
+        Update: { pilots_cut?: number };
+        Relationships: [Fk<"roi_months_org_id_fkey", "org_id", "orgs">];
       };
       fabrics: {
         Row: FabricRow;
@@ -572,6 +764,29 @@ export type Database = {
     Functions: {
       create_org: { Args: { p_name: string }; Returns: OrgRow };
       accept_invite: { Args: { p_token: string }; Returns: OrgMemberRow };
+      org_plan_status: {
+        Args: { p_org_id: string };
+        Returns: { plan_id: string; status: SubscriptionStatus; trial_ends_at: string | null; days_left: number | null; seats: number }[];
+      };
+      create_tracking_link: {
+        Args: { p_kind: "produto" | "colecao"; p_target: string; p_show: TrackingShow; p_days?: number | null };
+        Returns: { id: string; token: string }[];
+      };
+      revoke_tracking_link: { Args: { p_id: string }; Returns: undefined };
+      public_tracking: { Args: { p_token: string }; Returns: unknown };
+      touch_tracking: { Args: { p_token: string }; Returns: undefined };
+      log_event: { Args: { p_org_id: string; p_action: string; p_entity_id?: string | null }; Returns: undefined };
+      onboarding_progress: {
+        Args: Record<string, never>;
+        Returns: {
+          has_profile: boolean;
+          has_org: boolean;
+          has_pattern: boolean;
+          has_prova: boolean;
+          has_approval: boolean;
+          has_invite: boolean;
+        }[];
+      };
       org_team: {
         Args: { p_org_id: string };
         Returns: { user_id: string; email: string; role: OrgRole; joined_at: string }[];
@@ -607,6 +822,127 @@ export type Database = {
       finish_ai_generation: {
         Args: { p_id: string; p_ok: boolean; p_model?: string | null; p_input_tokens?: number | null; p_output_tokens?: number | null };
         Returns: undefined;
+      };
+      production_stage_times: { Args: { p_org_id: string | null }; Returns: StageTimeRow[] };
+      platform_orgs: { Args: Record<string, never>; Returns: { id: string; name: string; created_at: string; members: number; products: number }[] };
+      am_platform_admin: { Args: Record<string, never>; Returns: boolean };
+      my_platform_role: { Args: Record<string, never>; Returns: "dono" | "suporte" | null };
+      my_notifications: {
+        Args: { p_limit?: number };
+        Returns: { id: string; title: string; body: string; link: string | null; created_at: string; read: boolean }[];
+      };
+      mark_notifications_read: { Args: { p_ids?: string[] | null }; Returns: undefined };
+      ai_limit_for: { Args: { p_org_id: string; p_kind?: string }; Returns: number | null };
+      platform_set_ai_limit: { Args: { p_org_id: string; p_kind: string; p_limit: number | null }; Returns: undefined };
+      platform_ai_usage: {
+        Args: { p_org_id?: string | null };
+        Returns: {
+          org_id: string;
+          org_name: string;
+          kind: "textos_produto" | "foto_catalogo";
+          used: number;
+          monthly_limit: number;
+          custom_limit: boolean;
+          errors: number;
+          by_claude: number;
+          by_openai: number;
+          input_tokens: number;
+          output_tokens: number;
+        }[];
+      };
+      open_support_thread: { Args: { p_subject: string; p_body: string; p_org_id?: string | null }; Returns: string };
+      send_support_message: { Args: { p_thread_id: string; p_body: string }; Returns: string };
+      close_support_thread: { Args: { p_thread_id: string }; Returns: undefined };
+      platform_support_threads: {
+        Args: { p_status?: string | null };
+        Returns: {
+          id: string;
+          subject: string;
+          status: "aberta" | "respondida" | "fechada";
+          last_message_at: string;
+          user_email: string;
+          org_id: string | null;
+          org_name: string | null;
+          last_body: string | null;
+          messages: number;
+        }[];
+      };
+      platform_send_notification: {
+        Args: { p_title: string; p_body: string; p_link: string | null; p_audience: string; p_value?: string | null };
+        Returns: string;
+      };
+      platform_notifications: {
+        Args: { p_limit?: number };
+        Returns: {
+          id: string;
+          title: string;
+          body: string;
+          link: string | null;
+          audience: string;
+          audience_value: string | null;
+          created_at: string;
+          reads: number;
+        }[];
+      };
+      platform_save_announcement: {
+        Args: { p_id: string | null; p_title: string; p_body: string; p_image_path: string | null; p_video_url: string | null; p_published: boolean };
+        Returns: string;
+      };
+      platform_delete_announcement: { Args: { p_id: string }; Returns: string | null };
+      platform_clients: {
+        Args: Record<string, never>;
+        Returns: {
+          id: string;
+          name: string;
+          created_at: string;
+          thumbnail_path: string | null;
+          plan_id: string | null;
+          status: SubscriptionStatus | null;
+          trial_ends_at: string | null;
+          full_seats: number;
+          stylist_seats: number;
+          reader_seats: number;
+          last_activity: string | null;
+          actions_30d: number;
+        }[];
+      };
+      platform_client: { Args: { p_org_id: string }; Returns: unknown };
+      platform_create_invite: { Args: { p_org_id: string; p_email: string; p_role: OrgRole }; Returns: string };
+      platform_set_member_role: { Args: { p_org_id: string; p_user_id: string; p_role: OrgRole }; Returns: undefined };
+      platform_remove_member: { Args: { p_org_id: string; p_user_id: string }; Returns: undefined };
+      platform_set_subscription: {
+        Args: { p_org_id: string; p_status: SubscriptionStatus; p_trial_days?: number | null; p_plan_id?: string | null };
+        Returns: undefined;
+      };
+      platform_admins_list: { Args: Record<string, never>; Returns: { user_id: string; email: string; role: "dono" | "suporte"; created_at: string }[] };
+      platform_add_admin: { Args: { p_email: string; p_role: "dono" | "suporte" }; Returns: undefined };
+      platform_remove_admin: { Args: { p_user_id: string }; Returns: undefined };
+      platform_audit_list: {
+        Args: { p_limit?: number };
+        Returns: {
+          id: number;
+          admin_email: string | null;
+          action: string;
+          org_id: string | null;
+          org_name: string | null;
+          target_email: string | null;
+          meta: Record<string, unknown>;
+          created_at: string;
+        }[];
+      };
+      log_client_error: { Args: { p_path: string; p_message: string; p_digest?: string | null; p_org_id?: string | null }; Returns: undefined };
+      platform_errors: {
+        Args: { p_org_id?: string | null; p_limit?: number };
+        Returns: {
+          id: number;
+          user_email: string | null;
+          org_id: string | null;
+          org_name: string | null;
+          path: string;
+          message: string;
+          digest: string | null;
+          created_at: string;
+        }[];
       };
       ai_generations_this_month: { Args: { p_org_id: string; p_kind?: AiGenerationKind }; Returns: number };
       create_api_key: { Args: { p_org_id: string; p_name: string }; Returns: { id: string; secret: string; prefix: string }[] };
@@ -646,7 +982,14 @@ export type Database = {
         Returns: ApprovalStatus;
       };
     };
-    Enums: { org_role: OrgRole; pattern_origin: PatternOrigin; approval_status: ApprovalStatus; product_status: ProductStatus };
+    Enums: {
+      org_role: OrgRole;
+      pattern_origin: PatternOrigin;
+      approval_status: ApprovalStatus;
+      product_status: ProductStatus;
+      document_type: DocumentType;
+      subscription_status: SubscriptionStatus;
+    };
     CompositeTypes: { [_ in never]: never };
   };
 };

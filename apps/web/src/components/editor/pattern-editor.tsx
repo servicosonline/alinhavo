@@ -45,11 +45,14 @@ import {
 } from "@alinhavo/geometry";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { formatCm } from "@/lib/units";
-import { ModuleIcon } from "../icons";
+import Link from "next/link";
+import { BrandSymbol } from "../brand-mark";
+import { ModuleIcon, type ModuleIconName } from "../icons";
 import { ui } from "../ui";
 import { PatternCanvas, type DragTarget, type Selection } from "./canvas";
 import { ExportMenu } from "./export-menu";
 import { FinishesPanel } from "./finishes-panel";
+import { ProvaSide, type SideProva } from "./prova-side";
 import { CmField, TextField } from "../fields";
 import { useHistory } from "./use-history";
 
@@ -70,11 +73,38 @@ type Props = {
   chartGrade?: ChartGrade | null;
   /** Abre a Prova 3D com o documento atual. Sem ele, o botão "Provar" não aparece. */
   onTryOn?: (doc: PatternDocument) => void;
+  /** Trilha na barra do editor ("Verão 27 › Saia evasê › Molde v4", marca/README.md §9). */
+  trail?: React.ReactNode;
+  /** Trilho de ícones à esquerda (os módulos ao redor do molde). */
+  rail?: EditorRailItem[];
+  /** "Pedir aprovação" na barra (leva à Prova, onde a aprovação é pedida). */
+  approvalHref?: string;
+  /** Prova 3D ao lado do editor (tela dividida). Sem ela, o botão "Prova ao lado" não aparece. */
+  sideProva?: SideProva;
 };
+
+/** Na tela dividida, o painel da direita mostra as propriedades do molde ou os controles da Prova. */
+type SideTab = "molde" | "prova";
+
+export type EditorRailItem = { icon: ModuleIconName; label: string; href?: string; active?: boolean };
+
+/** Costuras cujos dois lados não têm o mesmo comprimento (mais de 0,5 mm), com o número que falta. */
+function openSeams(doc: PatternDocument): string[] {
+  const out: string[] = [];
+  const lengths = seamLengths(doc);
+  for (const seam of doc.seams) {
+    const l = lengths.get(seam.id);
+    if (!l || Math.abs(l.diff) <= 0.5) continue;
+    const a = doc.pieces.find((p) => p.id === seam.a.piece)?.name ?? "";
+    const b = doc.pieces.find((p) => p.id === seam.b.piece)?.name ?? "";
+    out.push(`A costura ${seamNumber(doc, seam)} não fecha: ${a} ${formatCm(l.a)} cm, ${b} ${formatCm(l.b)} cm.`);
+  }
+  return out;
+}
 
 const snapMm = (v: number) => Math.round(v); // arrastar encaixa no mm inteiro
 
-export function PatternEditor({ initialDocument, title, subtitle, readOnly = false, onSave, chartGrade = null, onTryOn }: Props) {
+export function PatternEditor({ initialDocument, title, subtitle, readOnly = false, onSave, chartGrade = null, onTryOn, trail, rail, approvalHref, sideProva }: Props) {
   const history = useHistory(initialDocument);
   const doc = history.value;
   const [selection, setSelection] = useState<Selection>(null);
@@ -88,11 +118,22 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
   /** Segmento esperando o par para virar costura ("Costurar com…"). */
   const [sewFrom, setSewFrom] = useState<{ pieceId: string; index: number } | null>(null);
   const dragStart = useRef<PatternDocument | null>(null);
+  const [split, setSplit] = useState(false);
+  const [sideTab, setSideTab] = useState<SideTab>("molde");
+  /** Onde a Prova ao lado põe os controles (elemento do painel da direita). */
+  const [provaControls, setProvaControls] = useState<HTMLDivElement | null>(null);
   const viewSize = viewSizeChoice && doc.sizes.includes(viewSizeChoice) ? viewSizeChoice : doc.baseSize;
   const viewingBase = viewSize === doc.baseSize;
 
   const dirty = doc !== saved;
   const errors = useMemo(() => validatePattern(doc), [doc]);
+  const seamAlerts = useMemo(() => openSeams(doc), [doc]);
+  const tryOnBlocked =
+    errors.length > 0
+      ? "Corrija os erros do molde antes de provar."
+      : !doc.pieces.some((p) => p.placement)
+        ? "Escolha o lado do corpo de pelo menos uma parte (seção Na Prova)."
+        : null;
 
   // Seleção some se o item deixou de existir (desfazer, apagar).
   const sel = useMemo<Selection>(() => {
@@ -225,50 +266,93 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
   }
 
   return (
-    <div className="flex flex-col gap-3">
-      <div className="flex flex-wrap items-center justify-between gap-3">
-        <div className="min-w-0">
-          <h1 className="truncate font-display text-2xl font-semibold tracking-tight">{title}</h1>
-          <p className="text-xs text-tinta-suave">
-            {subtitle}
-            {subtitle && " · "}
-            {readOnly
-              ? "Somente leitura"
-              : !onSave
-                ? "Demonstração: nada é salvo"
-                : dirty
-                  ? "Alterações não salvas"
-                  : "Tudo salvo"}
-          </p>
+    // Moldura da prancha "Produto" do manual (marca/README.md §9): barra com a trilha e a ação principal,
+    // ferramentas, trilho de ícones à esquerda, o papel no centro e o painel de propriedades à direita.
+    <div className="overflow-hidden rounded-2xl border border-tinta/10 bg-white shadow-[0_24px_50px_-36px_rgb(29_27_24/0.45)]" data-editor>
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-2 border-b border-tinta/10 px-4 py-3">
+        <BrandSymbol className="hidden size-7 shrink-0 sm:block" />
+        <div className="min-w-0 flex-1">
+          {trail && <div className="truncate text-xs text-tinta-suave">{trail}</div>}
+          <h1 className="flex min-w-0 items-baseline gap-2">
+            <span className="truncate font-display text-lg font-semibold tracking-tight">{title}</span>
+            {subtitle && <span className="shrink-0 font-mono text-xs font-normal text-tinta-suave">{subtitle.replace(/^Versão /, "v")}</span>}
+            <span className="hidden shrink-0 text-xs font-normal text-tinta-suave sm:inline">
+              ·{" "}
+              {readOnly
+                ? "Somente leitura"
+                : !onSave
+                  ? "Demonstração: nada é salvo"
+                  : dirty
+                    ? "Alterações não salvas"
+                    : "Tudo salvo"}
+            </span>
+          </h1>
         </div>
         <div className="flex flex-wrap items-center gap-2">
-          <button type="button" className={ui.buttonGhost} onClick={history.undo} disabled={!history.canUndo || readOnly} title="Ctrl+Z">
-            Desfazer
-          </button>
-          <button type="button" className={ui.buttonGhost} onClick={history.redo} disabled={!history.canRedo || readOnly} title="Ctrl+Y">
-            Refazer
-          </button>
-          <button type="button" className={ui.buttonGhost} onClick={() => setFitKey((k) => k + 1)}>
-            Enquadrar
-          </button>
+          {approvalHref && (
+            <Link href={approvalHref} className={ui.buttonGhost} data-pedir-aprovacao>
+              Pedir aprovação
+            </Link>
+          )}
           {onTryOn && (
             <button
               type="button"
-              className={ui.buttonAccentSm}
+              className={`${ui.buttonPrimary} py-1.5`}
               onClick={() => onTryOn(doc)}
-              disabled={errors.length > 0 || !doc.pieces.some((p) => p.placement)}
-              title={
-                errors.length > 0
-                  ? "Corrija os erros do molde antes de provar."
-                  : !doc.pieces.some((p) => p.placement)
-                    ? "Escolha o lado do corpo de pelo menos uma parte (seção Na Prova)."
-                    : "Ver o molde costurado no manequim"
-              }
+              disabled={tryOnBlocked !== null}
+              title={tryOnBlocked ?? "Ver o molde costurado no manequim"}
             >
               <ModuleIcon name="prova" className="size-4" />
               Provar
             </button>
           )}
+          {sideProva && (
+            <button
+              type="button"
+              className={ui.buttonGhost}
+              aria-pressed={split}
+              data-split-toggle
+              onClick={() => {
+                setSplit(!split);
+                setSideTab(split ? "molde" : "prova");
+                // Enquadra depois que o quadro mudou de largura.
+                requestAnimationFrame(() => setFitKey((k) => k + 1));
+              }}
+              title="Editar o molde e ver a Prova 3D lado a lado"
+            >
+              {split ? "Fechar a Prova" : "Prova ao lado"}
+            </button>
+          )}
+        </div>
+      </div>
+
+      <div className="flex flex-wrap items-center gap-2 border-b border-tinta/10 bg-papel/60 px-4 py-2" role="toolbar" aria-label="Ferramentas do molde">
+        <button type="button" className={ui.buttonGhost} onClick={history.undo} disabled={!history.canUndo || readOnly} title="Ctrl+Z">
+          Desfazer
+        </button>
+        <button type="button" className={ui.buttonGhost} onClick={history.redo} disabled={!history.canRedo || readOnly} title="Ctrl+Y">
+          Refazer
+        </button>
+        <button type="button" className={ui.buttonGhost} onClick={() => setFitKey((k) => k + 1)}>
+          Enquadrar
+        </button>
+        <span className="mx-1 hidden h-6 w-px bg-tinta/15 sm:block" aria-hidden="true" />
+        <label className="flex items-center gap-1.5 text-sm">
+          <span className="text-tinta-suave">Tamanho</span>
+          <select className={ui.select} value={viewSize} onChange={(e) => setViewSize(e.target.value)} aria-label="Tamanho na tela">
+            {doc.sizes.map((s) => (
+              <option key={s} value={s}>
+                {s}
+                {s === doc.baseSize ? " (base)" : ""}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label className="flex items-center gap-1.5 text-sm">
+          <input type="checkbox" checked={showGrade} onChange={(e) => setShowGrade(e.target.checked)} />
+          Sobrepor grade
+        </label>
+        <div className="ml-auto">
           <ExportMenu
             doc={doc}
             title={title}
@@ -280,30 +364,10 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
                   : null
             }
           />
-          <label className="flex items-center gap-1 text-sm">
-            <span className="sr-only">Tamanho na tela</span>
-            <select
-              className="rounded-md border border-tinta/20 bg-white px-2 py-1.5 text-sm"
-              value={viewSize}
-              onChange={(e) => setViewSize(e.target.value)}
-              aria-label="Tamanho na tela"
-            >
-              {doc.sizes.map((s) => (
-                <option key={s} value={s}>
-                  {s}
-                  {s === doc.baseSize ? " (base)" : ""}
-                </option>
-              ))}
-            </select>
-          </label>
-          <label className="flex items-center gap-1.5 text-sm">
-            <input type="checkbox" checked={showGrade} onChange={(e) => setShowGrade(e.target.checked)} />
-            Sobrepor grade
-          </label>
         </div>
       </div>
       {sewFrom && (
-        <p className="flex flex-wrap items-center justify-between gap-2 rounded-md bg-costura/10 px-3 py-2 text-xs text-tinta" role="status">
+        <p className="flex flex-wrap items-center justify-between gap-2 border-b border-tinta/10 bg-costura/10 px-4 py-2 text-xs text-tinta" role="status">
           <span>
             Clique no segmento que será costurado com o segmento {sewFrom.index + 1} de{" "}
             <strong>{doc.pieces.find((p) => p.id === sewFrom.pieceId)?.name}</strong>. Esc cancela.
@@ -314,7 +378,7 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
         </p>
       )}
       {!viewingBase && (
-        <p className="rounded-md bg-papel-escuro px-3 py-2 text-xs text-tinta" role="status">
+        <p className="border-b border-tinta/10 bg-papel-escuro px-4 py-2 text-xs text-tinta" role="status">
           Vendo o tamanho <strong>{viewSize}</strong>, só para consulta. Para editar pontos, volte ao base{" "}
           <button type="button" className="underline" onClick={() => setViewSize(doc.baseSize)}>
             {doc.baseSize}
@@ -323,8 +387,41 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
         </p>
       )}
 
-      <div className="grid gap-3 lg:grid-cols-[1fr_20rem]">
-        <div className="h-[60vh] min-h-[22rem] overflow-hidden rounded-lg border border-tinta/15 lg:h-[calc(100vh-12rem)]">
+      <div
+        className={`grid ${
+          rail?.length
+            ? split
+              ? "lg:grid-cols-[3.5rem_1fr_1fr_21rem]"
+              : "lg:grid-cols-[3.5rem_1fr_21rem]"
+            : split
+              ? "lg:grid-cols-[1fr_1fr_21rem]"
+              : "lg:grid-cols-[1fr_21rem]"
+        }`}
+        data-split={split ? "on" : "off"}
+      >
+        {rail && rail.length > 0 && (
+          <nav aria-label="Módulos" className="hidden border-r border-tinta/10 py-3 lg:block">
+            <ul className="flex flex-col items-center gap-2">
+              {rail.map((r) => {
+                const cls = `grid size-10 place-items-center rounded-xl transition ${r.active ? "bg-linha/10 text-linha" : "text-tinta hover:bg-papel hover:text-linha"}`;
+                return (
+                  <li key={r.label}>
+                    {r.href && !r.active ? (
+                      <Link href={r.href} className={cls} title={r.label} aria-label={r.label}>
+                        <ModuleIcon name={r.icon} className="size-6" />
+                      </Link>
+                    ) : (
+                      <span className={cls} title={r.label} aria-label={r.label} aria-current={r.active ? "page" : undefined} role="img">
+                        <ModuleIcon name={r.icon} className="size-6" />
+                      </span>
+                    )}
+                  </li>
+                );
+              })}
+            </ul>
+          </nav>
+        )}
+        <div className="h-[60vh] min-h-[22rem] overflow-hidden lg:h-[calc(100vh-15rem)]">
           <PatternCanvas
             doc={doc}
             viewSize={viewSize}
@@ -340,7 +437,40 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
           />
         </div>
 
-        <aside className="space-y-4 lg:max-h-[calc(100vh-12rem)] lg:overflow-y-auto" aria-label="Propriedades">
+        {split && sideProva && (
+          <div className="border-t border-tinta/10 lg:border-t-0 lg:border-l">
+            <ProvaSide
+              doc={doc}
+              ready={tryOnBlocked === null}
+              notReady={tryOnBlocked ?? ""}
+              readOnly={readOnly}
+              prova={sideProva}
+              controlsTarget={provaControls}
+              onApply={apply}
+            />
+          </div>
+        )}
+
+        <aside className="space-y-4 border-t border-tinta/10 bg-white p-4 lg:max-h-[calc(100vh-15rem)] lg:overflow-y-auto lg:border-t-0 lg:border-l" aria-label="Propriedades">
+          {split && (
+            <div className="grid grid-cols-2 gap-1" role="tablist" aria-label="Painel">
+              {(["molde", "prova"] as const).map((t) => (
+                <button
+                  key={t}
+                  type="button"
+                  role="tab"
+                  aria-selected={sideTab === t}
+                  data-side-tab={t}
+                  className={`rounded-md border px-2 py-1.5 text-sm ${sideTab === t ? "border-tinta bg-tinta text-papel" : "border-tinta/20 hover:bg-papel-escuro"}`}
+                  onClick={() => setSideTab(t)}
+                >
+                  {t === "molde" ? "Molde" : "Prova"}
+                </button>
+              ))}
+            </div>
+          )}
+          {split && <div ref={setProvaControls} className={sideTab === "prova" ? "" : "hidden"} data-prova-controls />}
+          <div className={split && sideTab === "prova" ? "hidden" : "space-y-4"}>
           {!piece && (
             <GradePanel
               doc={doc}
@@ -468,6 +598,15 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
             </div>
           )}
 
+          {seamAlerts.length > 0 && (
+            <div className="space-y-1.5 rounded-xl bg-linha/10 px-3.5 py-3 text-sm text-linha" role="status" data-costura-aberta>
+              {seamAlerts.slice(0, 4).map((a) => (
+                <p key={a}>{a}</p>
+              ))}
+              {seamAlerts.length > 4 && <p className="text-xs">E mais {seamAlerts.length - 4}.</p>}
+            </div>
+          )}
+
           {errors.length > 0 && (
             <div className={ui.error} role="alert">
               <p className="font-medium">Corrija antes de salvar:</p>
@@ -502,6 +641,7 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
               {status.text}
             </p>
           )}
+          </div>
         </aside>
       </div>
     </div>
@@ -527,7 +667,7 @@ function PiecesPanel({
   return (
     <div className="space-y-4">
       <div className={`${ui.card} p-4`}>
-        <h2 className="text-sm font-medium">Partes</h2>
+        <h2 className={ui.eyebrow}>Partes</h2>
         {doc.pieces.length === 0 ? (
           <p className="mt-2 text-xs text-tinta-suave">Nenhuma parte ainda. Comece por um retângulo e ajuste os pontos.</p>
         ) : (
@@ -557,7 +697,7 @@ function PiecesPanel({
             setName("");
           }}
         >
-          <h2 className="text-sm font-medium">Nova parte</h2>
+          <h2 className={ui.eyebrow}>Nova parte</h2>
           <label className="block text-xs">
             <span className="font-medium">Nome</span>
             <input className={`${ui.input} text-sm`} value={name} maxLength={120} placeholder="Ex.: Frente" onChange={(e) => setName(e.target.value)} />
@@ -710,7 +850,7 @@ function PieceInspector({
         )}
       </fieldset>
       <div>
-        <h3 className="text-xs font-medium">Segmentos</h3>
+        <h3 className={ui.eyebrow}>Segmentos</h3>
         <ul className="mt-1 divide-y divide-tinta/10 text-sm">
           {piece.outline.map((seg, i) => {
             const seam = seamAt(doc, { piece: piece.id, segment: i });
@@ -757,9 +897,12 @@ function PointInspector({
   const canRemove = piece.outline.length > 3;
   return (
     <div className="space-y-4">
-      <p className="text-sm">
-        Ponto <strong className="font-mono">{pointId}</strong> de {piece.name}
-      </p>
+      <div>
+        <h3 className={ui.eyebrow}>Ponto selecionado</h3>
+        <p className="mt-1 text-sm">
+          <strong className="font-mono">{pointId}</strong> de {piece.name}
+        </p>
+      </div>
       <div className="grid grid-cols-2 gap-2">
         <CmField key={`x-${p.x}`} label="Horizontal (X)" valueMm={p.x} disabled={readOnly} onCommit={(mm) => mm !== null && onMove({ x: mm, y: p.y })} />
         <CmField key={`y-${p.y}`} label="Vertical (Y)" valueMm={p.y} disabled={readOnly} onCommit={(mm) => mm !== null && onMove({ x: p.x, y: mm })} />
@@ -944,7 +1087,7 @@ function GradePanel({
       chartGrade.sizes.some((s, i) => s !== doc.sizes[i]));
   return (
     <div className={`${ui.card} space-y-3 p-4`}>
-      <h2 className="text-sm font-medium">Grade de tamanhos</h2>
+      <h2 className={ui.eyebrow}>Gradação</h2>
       {chartGrade && (
         <div className="rounded-md bg-papel-escuro px-3 py-2 text-xs">
           <p>
@@ -1023,7 +1166,7 @@ function PointGrading({
 
   return (
     <div className="space-y-3 border-t border-tinta/10 pt-4">
-      <h3 className="text-xs font-medium">Gradação do ponto {pointId}</h3>
+      <h3 className={ui.eyebrow}>Gradação do ponto {pointId}</h3>
       {step ? (
         <div className="grid grid-cols-2 gap-2">
           <CmField
