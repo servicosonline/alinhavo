@@ -30,7 +30,7 @@ const inside = (p: { x: number; y: number }) => p.x > 0 && p.x < 200 && p.y > 0 
 describe("formato 5", () => {
   it("documento do formato 4 sobe para o 5 sem mudar as partes", () => {
     const v4 = { ...documento(), schema: 4 };
-    expect(migratePattern(v4)).toEqual({ ...v4, schema: 5 });
+    expect(migratePattern(v4)).toEqual({ ...v4, schema: 6 });
   });
 
   it("acabamentos válidos passam na validação do molde", () => {

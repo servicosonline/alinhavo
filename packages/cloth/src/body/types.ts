@@ -37,6 +37,11 @@ export type BodyLandmarks = {
    * tornozelo), com o raio nesse ponto: é onde a calça se enrola abaixo do gancho.
    */
   legs: { left: LegSample[]; right: LegSample[] };
+  /**
+   * Eixo de cada braço, de cima para baixo (articulação do ombro, cotovelo,
+   * punho), com o raio nesse ponto: é onde a manga se enrola. Esquerdo = +X.
+   */
+  arms: { left: LegSample[]; right: LegSample[] };
 };
 
 /** Um ponto do eixo da perna e o raio dela ali, em mm. */

@@ -1,4 +1,4 @@
-import { PAIR_SUFFIX, type BodyAnchor, type BodyLeg, type BodySide, type Piece, type PiecePlacement } from "@alinhavo/geometry";
+import { PAIR_SUFFIX, type BodyAnchor, type BodyArm, type BodyLeg, type BodySide, type Piece, type PiecePlacement } from "@alinhavo/geometry";
 import type { BodyLandmarks, TorsoSection } from "./body/types";
 import type { PieceMesh } from "./mesh";
 
@@ -69,6 +69,83 @@ export function legAt(landmarks: BodyLandmarks, leg: BodyLeg, y: number): { x: n
   const b = s[i + 1]!;
   const t = (a.y - y) / (a.y - b.y);
   return { x: a.x + (b.x - a.x) * t, z: a.z + (b.z - a.z) * t, r: a.r + (b.r - a.r) * t };
+}
+
+type Vec3 = { x: number; y: number; z: number };
+const sub = (a: Vec3, b: Vec3): Vec3 => ({ x: a.x - b.x, y: a.y - b.y, z: a.z - b.z });
+const dot = (a: Vec3, b: Vec3) => a.x * b.x + a.y * b.y + a.z * b.z;
+const unit = (a: Vec3): Vec3 => {
+  const l = Math.hypot(a.x, a.y, a.z) || 1;
+  return { x: a.x / l, y: a.y / l, z: a.z / l };
+};
+
+/**
+ * Ponto do eixo do braço a `s` mm do ombro, medidos ao longo do eixo
+ * (ombro → cotovelo → punho; antes do ombro e depois do punho continua reto),
+ * com a direção do eixo ali e o raio do braço.
+ */
+export function armAt(landmarks: BodyLandmarks, arm: BodyArm, s: number): { p: Vec3; dir: Vec3; r: number } {
+  const pts = landmarks.arms[arm === "esquerda" ? "left" : "right"];
+  let i = 0;
+  let start = 0;
+  while (i < pts.length - 2) {
+    const len = Math.hypot(pts[i + 1]!.x - pts[i]!.x, pts[i + 1]!.y - pts[i]!.y, pts[i + 1]!.z - pts[i]!.z);
+    if (s < start + len) break;
+    start += len;
+    i++;
+  }
+  const a = pts[i]!;
+  const b = pts[i + 1]!;
+  const d = sub(b, a);
+  const len = Math.hypot(d.x, d.y, d.z) || 1;
+  const t = (s - start) / len;
+  const tc = Math.min(1, Math.max(0, t));
+  return { p: { x: a.x + d.x * t, y: a.y + d.y * t, z: a.z + d.z * t }, dir: unit(d), r: a.r + (b.r - a.r) * tc };
+}
+
+/**
+ * Manga: a parte se enrola no braço. O alto da parte (menor v) fica no
+ * ombro e desce ao longo do eixo do braço (`offset` positivo sobe); o meio
+ * da parte (u) fica do lado de fora do braço e as bordas vão para baixo dele,
+ * onde se costuram. No braço esquerdo, quem olha a manga de fora vê a frente
+ * do corpo à esquerda: u crescente anda para trás (no direito, para a frente),
+ * e a cópia do cortar par (espelhada, no outro braço) fica com a frente no lugar.
+ */
+function placeOnArm(mesh: PieceMesh, placement: PiecePlacement, landmarks: BodyLandmarks, clearance: number): Float64Array {
+  const arm = placement.arm!;
+  const side = arm === "esquerda" ? 1 : -1;
+  const count = mesh.positions.length / 2;
+  let uMin = Infinity;
+  let uMax = -Infinity;
+  let vMin = Infinity;
+  for (let i = 0; i < count; i++) {
+    uMin = Math.min(uMin, mesh.positions[i * 2]!);
+    uMax = Math.max(uMax, mesh.positions[i * 2]!);
+    vMin = Math.min(vMin, mesh.positions[i * 2 + 1]!);
+  }
+  const uCenter = (uMin + uMax) / 2;
+  const toBack = side === 1 ? -1 : 1;
+  const out = new Float64Array(count * 3);
+  for (let i = 0; i < count; i++) {
+    const u = mesh.positions[i * 2]!;
+    const v = mesh.positions[i * 2 + 1]!;
+    const { p, dir, r } = armAt(landmarks, arm, v - vMin - placement.offset);
+    const R = r + clearance;
+    // Para fora (do lado do braço) e para a frente, os dois de través ao eixo.
+    const o0 = { x: side, y: 0, z: 0 };
+    const outward = unit(sub(o0, { x: dir.x * dot(o0, dir), y: dir.y * dot(o0, dir), z: dir.z * dot(o0, dir) }));
+    const f0 = { x: 0, y: 0, z: 1 };
+    const fa = dot(f0, dir);
+    const fo = dot(f0, outward);
+    const front = unit({ x: f0.x - dir.x * fa - outward.x * fo, y: f0.y - dir.y * fa - outward.y * fo, z: f0.z - dir.z * fa - outward.z * fo });
+    const psi = Math.min(Math.PI, Math.max(-Math.PI, (u - uCenter) / R));
+    const c = Math.cos(psi) * R;
+    const w = Math.sin(psi) * R * toBack;
+    out[i * 3] = p.x + outward.x * c + front.x * w;
+    out[i * 3 + 1] = p.y + outward.y * c + front.y * w;
+    out[i * 3 + 2] = p.z + outward.z * c + front.z * w;
+  }
+  return out;
 }
 
 /**
@@ -150,6 +227,7 @@ export function angleAtArc(a: number, b: number, start: number, arc: number): nu
 export function placeGarment(pieces: PlacedPiece[], landmarks: BodyLandmarks): Float64Array[] {
   return pieces.map(({ mesh, placement, half, layer = 0 }) => {
     const clearance = PLACEMENT_CLEARANCE + layer * LAYER_CLEARANCE;
+    if (placement.arm) return placeOnArm(mesh, placement, landmarks, clearance);
     const count = mesh.positions.length / 2;
     let uMin = Infinity;
     let uMax = -Infinity;

@@ -228,14 +228,15 @@ describe("moldes e versões", () => {
     const e = await equipe();
     const molde = await novoMolde(e.modelista, e.orgId);
     await expect(salvar(e.modelista, molde.id, 0, { ...DOC, unit: "cm" })).rejects.toThrow(/check/);
-    await expect(salvar(e.modelista, molde.id, 0, { ...DOC, schema: 6 })).rejects.toThrow(/check/);
+    await expect(salvar(e.modelista, molde.id, 0, { ...DOC, schema: 7 })).rejects.toThrow(/check/);
     await expect(salvar(e.modelista, molde.id, 0, { schema: 3, unit: "mm" })).rejects.toThrow(/check/);
-    // Formatos 2 a 5 exigem a lista de costuras.
+    // Formatos 2 a 6 exigem a lista de costuras.
     const { seams: _seams, ...semCosturas } = DOC;
     await expect(salvar(e.modelista, molde.id, 0, semCosturas)).rejects.toThrow(/check/);
     await expect(salvar(e.modelista, molde.id, 0, { ...semCosturas, schema: 2 })).rejects.toThrow(/check/);
     await expect(salvar(e.modelista, molde.id, 0, { ...semCosturas, schema: 4 })).rejects.toThrow(/check/);
     await expect(salvar(e.modelista, molde.id, 0, { ...semCosturas, schema: 5 })).rejects.toThrow(/check/);
+    await expect(salvar(e.modelista, molde.id, 0, { ...semCosturas, schema: 6 })).rejects.toThrow(/check/);
     await expect(salvar(e.modelista, molde.id, 0, { ...DOC, seams: {} })).rejects.toThrow(/check/);
   });
 
@@ -288,6 +289,20 @@ describe("moldes e versões", () => {
     await expect(
       salvar(e.modelista, molde.id, 1, { ...DOC, schema: 5, pieces: [{ id: "a", finishes: [{ ...finishes[1], image: ruido }] }] }),
     ).rejects.toThrow(/check/);
+  });
+
+  it("aceita o formato 6 (manga: a parte veste um braço)", async () => {
+    const e = await equipe();
+    const molde = await novoMolde(e.modelista, e.orgId);
+    const manga = { id: "manga", cutPair: true, placement: { side: "frente", anchor: "ombro", offset: 0, arm: "esquerda" } };
+    await salvar(e.modelista, molde.id, 0, { ...DOC, schema: 6, pieces: [manga] });
+    const v = await um<{ document: { schema: number; pieces: unknown[] } }>(
+      e.modelista,
+      "select document from public.pattern_versions where pattern_id = $1 and number = 1",
+      [molde.id],
+    );
+    expect(v.document.schema).toBe(6);
+    expect(v.document.pieces).toEqual([manga]);
   });
 
   it("versões não mudam nem somem, nem para o dono", async () => {

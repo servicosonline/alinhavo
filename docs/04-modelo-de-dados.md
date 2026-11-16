@@ -53,6 +53,7 @@ Rascunho para orientar a Fase 0. Toda tabela de negócio tem `org_id`, `created_
 | `sizes` | size_chart_id, rótulo (P, M, 38…), ordem, base (bool) |
 | `measurements` | size_id, medida (busto, cintura…), valor_mm |
 | `avatars` | org_id, size_id, parâmetros do corpo (jsonb), arquivo no Storage |
+| `body_presets` | org_id, nome (único na organização), `measurements` (as 15 medidas do corpo em mm), `conditions` (gestante, membro cortado, salto). Manequim salvo na Prova: todo membro lê, quem edita moldes cria, atualiza e apaga; até 100 por organização (gatilho, erro 54000). Ainda não liga a `clients` (sem tela de clientes) |
 
 ## Coleção e produto
 

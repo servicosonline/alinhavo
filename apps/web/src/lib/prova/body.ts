@@ -12,7 +12,8 @@ import {
 
 /**
  * Manequim ajustado na Prova: as medidas do corpo trocadas na tela, por cima
- * da tabela do tamanho. Nada disso é salvo; trocar o tamanho volta à tabela.
+ * da tabela do tamanho. Só fica guardado como manequim salvo (`saved-bodies.ts`);
+ * trocar o tamanho volta à tabela.
  */
 
 export type BodyField = { key: MeasurementKey; name: string; hint?: string };

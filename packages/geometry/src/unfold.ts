@@ -182,7 +182,9 @@ export function pairCopy(piece: Piece): UnfoldedPiece {
     );
   }
   if (piece.grainline) copy.grainline = { from: reflect(piece.grainline.to), to: reflect(piece.grainline.from) };
-  if (piece.placement?.leg) copy.placement = { ...piece.placement, leg: piece.placement.leg === "esquerda" ? "direita" : "esquerda" };
+  const other = (side: "esquerda" | "direita") => (side === "esquerda" ? "direita" : "esquerda");
+  if (piece.placement?.leg) copy.placement = { ...piece.placement, leg: other(piece.placement.leg) };
+  if (piece.placement?.arm) copy.placement = { ...(copy.placement ?? piece.placement), arm: other(piece.placement.arm) };
   return { piece: copy, origin, reflect };
 }
 
@@ -195,10 +197,13 @@ export function pairCopy(piece: Piece): UnfoldedPiece {
  *   cada lado do corpo (id com "~espelho" na segunda); cada cópia é ligada
  *   à do mesmo lado do corpo (`drawnHalfSide`). Se só um lado foi
  *   espelhado, a cópia fica sem costura.
+ * - Parte de par que veste um membro (`placement.arm` ou `leg`) com parte na
+ *   dobra (manga na cava do corpo): a parte e o par são costurados cada um na
+ *   metade aberta do mesmo lado do corpo.
  * - Cortar par: costura entre duas partes de par vira duas, parte com parte
  *   e par com par (id com "~par"); costura do segmento com ele mesmo liga a
- *   parte ao seu par (gancho). Entre uma parte de par e outra sem par, só a
- *   parte desenhada é costurada.
+ *   parte ao seu par (gancho). Entre uma parte de par e outra sem par nem
+ *   dobra (ou sem membro), só a parte desenhada é costurada.
  *
  * `origin[pieceId][i]` diz de qual segmento do molde veio o segmento i da
  * peça da Prova, e `source[pieceId]` de qual parte do molde (a cópia do par
@@ -208,6 +213,8 @@ export function garmentAtSize(doc: PatternDocument, size: string): Garment {
   const where = new Map<string, Map<number, { plain?: number; mirror?: number }>>();
   const pairWhere = new Map<string, Map<number, number>>();
   const drawnSide = new Map(doc.pieces.map((p) => [p.id, drawnHalfSide(p)]));
+  /** Lado do corpo do membro que a parte de par veste (braço ou perna da posição). */
+  const memberSide = new Map(doc.pieces.map((p) => [p.id, p.placement?.arm ?? p.placement?.leg ?? null]));
   const origins: Record<string, SegmentOrigin[]> = {};
   const source: Record<string, string> = {};
   const foldLine: Record<string, FoldLine> = {};
@@ -293,6 +300,40 @@ export function garmentAtSize(doc: PatternDocument, size: string): Garment {
         b: { piece: seam.b.piece + PAIR_SUFFIX, segment: pairB },
       });
       continue;
+    }
+
+    // Parte de par (que veste um membro: manga, perna) com parte na dobra (o corpo):
+    // cada cópia do par é costurada na metade aberta do mesmo lado do corpo.
+    if ((pairA !== undefined) !== (pairB !== undefined)) {
+      const pairIsA = pairA !== undefined;
+      const pairEdge = pairIsA ? seam.a : seam.b;
+      const foldEdge = pairIsA ? seam.b : seam.a;
+      const pairPos = (pairIsA ? a : b).plain!;
+      const pairCopySeg = (pairIsA ? pairA : pairB)!;
+      const fold = pairIsA ? b : a;
+      const limbSide = memberSide.get(pairEdge.piece);
+      const foldSide = drawnSide.get(foldEdge.piece);
+      if (limbSide && foldSide && fold.mirror !== undefined && fold.plain !== undefined) {
+        const flip = (d: Seam["direction"]): Seam["direction"] => (d === "same" ? "opposite" : "same");
+        const sameHalf = foldSide === limbSide;
+        // Cópia espelhada da dobra e cópia do par andam ao contrário: cada uma inverte o sentido.
+        // Parte com a metade desenhada (nenhuma invertida) ou cópia com a espelhada (as duas): mantém.
+        // Cruzado (só uma invertida): inverte.
+        const edges = [
+          { pair: { piece: pairEdge.piece, segment: pairPos }, fold: sameHalf ? fold.plain : fold.mirror, direction: sameHalf ? seam.direction : flip(seam.direction), id: seam.id },
+          {
+            pair: { piece: pairEdge.piece + PAIR_SUFFIX, segment: pairCopySeg },
+            fold: sameHalf ? fold.mirror : fold.plain,
+            direction: sameHalf ? seam.direction : flip(seam.direction),
+            id: seam.id + PAIR_SUFFIX,
+          },
+        ];
+        for (const e of edges) {
+          const foldSeam = { piece: foldEdge.piece, segment: e.fold };
+          seams.push({ ...seam, id: e.id, direction: e.direction, a: pairIsA ? e.pair : foldSeam, b: pairIsA ? foldSeam : e.pair });
+        }
+        continue;
+      }
     }
 
     if (a.mirror === undefined || b.mirror === undefined) {

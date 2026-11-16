@@ -3,7 +3,7 @@ import { validateFinishes } from "./finishes";
 import { distance, type Point } from "./polygon";
 
 /**
- * Documento do molde (versão 5). É o que fica salvo em pattern_versions.document.
+ * Documento do molde (versão 6). É o que fica salvo em pattern_versions.document.
  * Versões gravadas nunca são reescritas: documentos antigos passam por
  * `migratePattern` na leitura.
  *
@@ -14,6 +14,7 @@ import { distance, type Point } from "./polygon";
  * - 4: + `placement.leg` (a parte veste uma perna) e, por parte, `cutPair` (cortar par: a segunda peça é o espelho) e
  *   costura de um segmento com o próprio par (`a` igual a `b`, ex.: gancho).
  * - 5: + por parte, `finishes` (acabamentos: pesponto, zíper, etiqueta e estampa; ver `finishes.ts`).
+ * - 6: + `placement.arm` (a parte veste um braço: manga). Não combina com `leg`; o cortar par troca de braço.
  *
  * - Coordenadas em mm, do tamanho base.
  * - Cada parte tem um contorno fechado: começa em `start` e cada segmento vai
@@ -109,7 +110,16 @@ export type PiecePlacement = {
    * par, a outra perna.
    */
   leg?: BodyLeg;
+  /**
+   * A parte veste um braço (manga): enrola-se no braço, do alto do ombro
+   * para baixo, com o meio da parte para fora e as bordas se encontrando por
+   * baixo do braço. Não combina com `leg`. Na cópia do cortar par, o outro braço.
+   * `anchor` e `side` não contam para a manga; `offset` desce (negativo) a manga no braço.
+   */
+  arm?: BodyArm;
 };
+/** Braço do corpo (esquerdo = +X do corpo). */
+export type BodyArm = "esquerda" | "direita";
 export type BodyLeg = "esquerda" | "direita";
 
 export const BODY_SIDES: readonly BodySide[] = ["frente", "costas", "esquerda", "direita"];
@@ -126,10 +136,10 @@ export type SeamEdge = { piece: string; segment: number };
  */
 export type Seam = { id: string; a: SeamEdge; b: SeamEdge; direction: "opposite" | "same" };
 
-export const CURRENT_SCHEMA = 5;
+export const CURRENT_SCHEMA = 6;
 
 export type PatternDocument = {
-  schema: 5;
+  schema: 6;
   unit: "mm";
   sizes: string[];
   baseSize: string;
@@ -145,6 +155,8 @@ export type PatternDocumentV2 = Omit<PatternDocument, "schema"> & { schema: 2 };
 export type PatternDocumentV3 = Omit<PatternDocument, "schema"> & { schema: 3 };
 /** Formato 4: sem acabamentos (campo opcional, então as partes passam iguais). */
 export type PatternDocumentV4 = Omit<PatternDocument, "schema"> & { schema: 4 };
+/** Formato 5: sem manga (campo opcional, então as partes passam iguais). */
+export type PatternDocumentV5 = Omit<PatternDocument, "schema"> & { schema: 5 };
 
 /**
  * Converte um documento salvo (de qualquer versão conhecida) para o formato
@@ -173,9 +185,14 @@ export function migratePattern(raw: unknown): PatternDocument | null {
   if (d.schema === 4) {
     if (!Array.isArray(d.seams)) return null;
     // 4 → 5: acabamentos são opcionais; nada a converter além do número.
-    return { ...(d as PatternDocumentV4), schema: 5 };
+    return migratePattern({ ...(d as PatternDocumentV4), schema: 5 } satisfies PatternDocumentV5);
   }
   if (d.schema === 5) {
+    if (!Array.isArray(d.seams)) return null;
+    // 5 → 6: braço é opcional; nada a converter além do número.
+    return { ...(d as PatternDocumentV5), schema: 6 };
+  }
+  if (d.schema === 6) {
     return Array.isArray(d.seams) ? (d as PatternDocument) : null;
   }
   return null;
@@ -238,15 +255,18 @@ export function validatePattern(doc: PatternDocument): string[] {
       else if (piece.fold !== undefined) erros.push(`${nome}: cortar par não combina com dobra.`);
     }
     if (piece.placement !== undefined) {
-      const { side, anchor, offset, leg } = piece.placement;
+      const { side, anchor, offset, leg, arm } = piece.placement;
       if (
         !BODY_SIDES.includes(side) ||
         !BODY_ANCHORS.includes(anchor) ||
         !Number.isFinite(offset) ||
         Math.abs(offset) > 1000 ||
-        (leg !== undefined && leg !== "esquerda" && leg !== "direita")
+        (leg !== undefined && leg !== "esquerda" && leg !== "direita") ||
+        (arm !== undefined && arm !== "esquerda" && arm !== "direita")
       ) {
         erros.push(`${nome}: posição na Prova inválida.`);
+      } else if (leg !== undefined && arm !== undefined) {
+        erros.push(`${nome}: a parte veste uma perna ou um braço, não os dois.`);
       }
     }
 

@@ -162,3 +162,64 @@ export function top(): PatternDocument {
   doc.seams = TOP_SEAMS.map((s) => ({ ...s }));
   return doc;
 }
+
+/**
+ * Camiseta de teste: frente e costas na dobra (ombro e cava, como a blusa do
+ * app) e manga curta de cortar par no braço esquerdo (a cópia veste o direito).
+ * Corpo: 0 decote, 1 ombro, 2 cava, 3 lateral, 4 barra, 5 dobra.
+ * Manga (centro em u = 0, vista de fora no braço esquerdo: u > 0 vai para as
+ * costas): 0 cabeça de trás, 1 lateral de trás, 2 barra, 3 lateral da frente,
+ * 4 cabeça da frente. Cada metade da cabeça mede o mesmo que a cava (206 mm).
+ */
+function camisetaCorpo(front: boolean): Piece {
+  const neck = front ? 110 : 30;
+  return {
+    id: front ? "camiseta-frente" : "camiseta-costas",
+    name: front ? "Camiseta frente" : "Camiseta costas",
+    points: { N: { x: 0, y: neck }, S1: { x: 85, y: 0 }, S2: { x: 150, y: 25 }, A: { x: 232, y: 200 }, H: { x: 250, y: 600 }, C: { x: 0, y: 600 } },
+    start: "N",
+    outline: [
+      { kind: "cubic", c1: { x: 50, y: neck }, c2: { x: 85, y: neck * 0.4 }, to: "S1" },
+      line("S2"),
+      { kind: "cubic", c1: { x: 150, y: 110 }, c2: { x: 190, y: 200 }, to: "A" },
+      line("H"),
+      line("C"),
+      line("N"),
+    ],
+    seamAllowance: 10,
+    fold: 5,
+    placement: { side: front ? "frente" : "costas", anchor: "ombro", offset: 0 },
+  };
+}
+
+function camisetaManga(): Piece {
+  return {
+    id: "camiseta-manga",
+    name: "Manga",
+    points: { T: { x: 0, y: 0 }, B1: { x: 158, y: 117 }, C1: { x: 150, y: 220 }, C2: { x: -150, y: 220 }, B2: { x: -158, y: 117 } },
+    start: "T",
+    outline: [
+      { kind: "cubic", c1: { x: 66, y: 0 }, c2: { x: 128, y: 56 }, to: "B1" },
+      line("C1"),
+      line("C2"),
+      line("B2"),
+      { kind: "cubic", c1: { x: -128, y: 56 }, c2: { x: -66, y: 0 }, to: "T" },
+    ],
+    seamAllowance: 10,
+    cutPair: true,
+    placement: { side: "esquerda", anchor: "ombro", offset: 0, arm: "esquerda" },
+  };
+}
+
+export function camiseta(): PatternDocument {
+  const doc = emptyDocument(["M"], "M");
+  doc.pieces = [camisetaCorpo(true), camisetaCorpo(false), camisetaManga()];
+  doc.seams = [
+    { id: "ombro", a: { piece: "camiseta-frente", segment: 1 }, b: { piece: "camiseta-costas", segment: 1 }, direction: "same" },
+    { id: "lateral", a: { piece: "camiseta-frente", segment: 3 }, b: { piece: "camiseta-costas", segment: 3 }, direction: "same" },
+    { id: "cava-costas", a: { piece: "camiseta-manga", segment: 0 }, b: { piece: "camiseta-costas", segment: 2 }, direction: "same" },
+    { id: "cava-frente", a: { piece: "camiseta-manga", segment: 4 }, b: { piece: "camiseta-frente", segment: 2 }, direction: "opposite" },
+    { id: "manga-lateral", a: { piece: "camiseta-manga", segment: 1 }, b: { piece: "camiseta-manga", segment: 3 }, direction: "opposite" },
+  ];
+  return doc;
+}

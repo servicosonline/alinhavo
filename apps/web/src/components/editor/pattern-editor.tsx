@@ -817,23 +817,27 @@ function PieceInspector({
         </div>
         {placement && (
           <label className="block text-xs">
-            <span>Abaixo do gancho, veste a perna</span>
+            <span>Veste um membro</span>
             <select
               className={`${ui.input} text-sm`}
-              value={placement.leg ?? ""}
+              value={placement.arm ? `braco:${placement.arm}` : placement.leg ? `perna:${placement.leg}` : ""}
               disabled={readOnly}
               onChange={(e) => {
-                const leg = e.target.value as BodyLeg | "";
+                const [kind, side] = e.target.value.split(":") as ["perna" | "braco" | "", BodyLeg | undefined];
                 const next: PiecePlacement = { ...placement };
-                if (leg) next.leg = leg;
-                else delete next.leg;
+                delete next.leg;
+                delete next.arm;
+                if (kind === "perna" && side) next.leg = side;
+                if (kind === "braco" && side) next.arm = side;
                 onPlacement(next);
               }}
-              data-leg
+              data-limb
             >
-              <option value="">Nenhuma (saia, blusa)</option>
-              <option value="esquerda">Esquerda{piece.cutPair ? " (o par veste a direita)" : ""}</option>
-              <option value="direita">Direita{piece.cutPair ? " (o par veste a esquerda)" : ""}</option>
+              <option value="">Nenhum (saia, blusa, corpo)</option>
+              <option value="perna:esquerda">Perna esquerda, abaixo do gancho{piece.cutPair ? " (o par veste a direita)" : ""}</option>
+              <option value="perna:direita">Perna direita, abaixo do gancho{piece.cutPair ? " (o par veste a esquerda)" : ""}</option>
+              <option value="braco:esquerda">Braço esquerdo, manga{piece.cutPair ? " (o par veste o direito)" : ""}</option>
+              <option value="braco:direita">Braço direito, manga{piece.cutPair ? " (o par veste o esquerdo)" : ""}</option>
             </select>
           </label>
         )}

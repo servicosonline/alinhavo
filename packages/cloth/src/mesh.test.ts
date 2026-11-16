@@ -307,3 +307,30 @@ describe("meshPiece com eixo de simetria (peça aberta pela dobra)", () => {
     expect(() => meshPiece(piece, { mirror: { from: { x: 0, y: 0 }, to: { x: 0, y: 0 } } })).toThrow(/eixo/);
   });
 });
+
+describe("lados retos e compridos (manga longa)", () => {
+  it("gera a malha mesmo quando a borda fica exatamente em linha com uma aresta", () => {
+    // A manga longa do app com a barra de 19 cm: o Constrainautor recusava
+    // ("Constraining edge intersects point") antes da segunda tentativa.
+    const line = (to: string) => ({ kind: "line" as const, to });
+    const manga: Piece = {
+      id: "manga",
+      name: "Manga",
+      points: { T: { x: 0, y: 0 }, B1: { x: 175, y: 95 }, C1: { x: 95, y: 580 }, C2: { x: -95, y: 580 }, B2: { x: -175, y: 95 } },
+      start: "T",
+      outline: [
+        { kind: "cubic", c1: { x: 74, y: 0 }, c2: { x: 142, y: 46 }, to: "B1" },
+        line("C1"),
+        line("C2"),
+        line("B2"),
+        { kind: "cubic", c1: { x: -142, y: 46 }, c2: { x: -74, y: 0 }, to: "T" },
+      ],
+      seamAllowance: 10,
+    };
+    const mesh = meshPiece(manga, { spacing: 30 });
+    expect(mesh.triangles.length).toBeGreaterThan(0);
+    // A malha cobre a peça inteira (a área dos triângulos é a do contorno).
+    const area = Array.from(mesh.restArea).reduce((a, b) => a + b, 0);
+    expect(Math.abs(area - Math.abs(polygonArea(flattenOutline(manga).polygon))) / area).toBeLessThan(0.01);
+  });
+});

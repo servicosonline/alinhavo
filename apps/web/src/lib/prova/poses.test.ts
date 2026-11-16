@@ -1,6 +1,6 @@
 import { BODY_POSES, HEEL_RANGE } from "@alinhavo/cloth";
 import { describe, expect, it } from "vitest";
-import { HEEL_OPTIONS, heelName, POSE_NAME, POSE_OPTIONS } from "./poses";
+import { HEEL_OPTIONS, heelName, nearestHeel, POSE_NAME, POSE_OPTIONS } from "./poses";
 
 describe("poses e salto da Prova", () => {
   it("a tela oferece toda pose do corpo, uma vez", () => {
@@ -15,5 +15,13 @@ describe("poses e salto da Prova", () => {
     }
     expect(heelName(0)).toBe("Descalço");
     expect(heelName(80)).toBe("Salto de 8 cm");
+  });
+
+  it("o salto de um manequim salvo vai para o da lista mais perto", () => {
+    expect(nearestHeel(80)).toBe(80);
+    expect(nearestHeel(0)).toBe(0);
+    expect(nearestHeel(70)).toBe(80);
+    expect(nearestHeel(150)).toBe(120);
+    expect(nearestHeel(10)).toBe(0);
   });
 });
