@@ -9,7 +9,7 @@ import { createPattern } from "./actions";
 export function CreatePatternForm({ orgId }: { orgId: string }) {
   const [state, action] = useActionState(createPattern.bind(null, orgId), undefined);
   return (
-    <form action={action} className="flex flex-col gap-3 sm:flex-row sm:items-end">
+    <form id="novo-molde" action={action} className="flex scroll-mt-6 flex-col gap-3 sm:flex-row sm:items-end">
       <div className="flex-1">
         <label htmlFor="pattern-name" className={ui.label}>
           Nome do molde

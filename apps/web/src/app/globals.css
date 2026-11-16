@@ -84,3 +84,39 @@ body {
     animation: none;
   }
 }
+
+/* Barra de abas do celular (components/mobile-nav): a página ganha espaço embaixo e o "Ajuda" sobe para cima dela.
+   Fora de camada, ganha dos utilitários do botão. */
+@media (width < 48rem) {
+  body:has([data-mobile-nav]) {
+    padding-bottom: calc(4rem + env(safe-area-inset-bottom));
+  }
+  body:has([data-mobile-nav]) [data-ajuda] {
+    bottom: calc(5rem + env(safe-area-inset-bottom));
+  }
+}
+
+/* Folha que sobe do rodapé (Criar). */
+.folha-sobe[open] {
+  animation: folha-sobe 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+@keyframes folha-sobe {
+  from {
+    transform: translateY(100%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .folha-sobe[open] {
+    animation: none;
+  }
+}
+
+/* Toque (celular, tablet): o Safari dá zoom em campo com fonte menor que 16 px.
+   Fora de camada, ganha do text-sm dos utilitários; no desktop nada muda. */
+@media (pointer: coarse) {
+  input:not([type="checkbox"], [type="radio"], [type="range"], [type="color"], [type="file"]),
+  select,
+  textarea {
+    font-size: 16px;
+  }
+}
