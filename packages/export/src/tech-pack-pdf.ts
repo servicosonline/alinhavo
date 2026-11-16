@@ -94,6 +94,10 @@ function sketch(ctx: Ctx, views: SketchView[]) {
       } else if (m.kind === "ziper") {
         ctx.page.drawSvgPath(sketchPath(m.band, true), { ...at, scale, borderColor: INK, borderWidth: pt(0.5) });
         ctx.page.drawSvgPath(sketchPath(m.axis, false), { ...at, scale, borderColor: INK, borderWidth: pt(1), borderDashArray: [pt(0.8), pt(0.8)] });
+      } else if (m.kind === "pedraria") {
+        for (const s of m.stones) {
+          ctx.page.drawCircle({ x: at.x + s.x * scale, y: at.y - s.y * scale, size: Math.max(0.4, m.radius * scale), borderColor: INK, borderWidth: 0.3 });
+        }
       } else {
         ctx.page.drawSvgPath(sketchPath(m.corners, true), { ...at, scale, borderColor: SOFT, borderWidth: pt(0.5), borderDashArray: [pt(2), pt(1.5)] });
         const cx = m.corners.reduce((s, p) => s + p.x, 0) / m.corners.length;

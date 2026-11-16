@@ -10,6 +10,8 @@ import {
   defaultSeamFinish,
   firstEdge,
   presetFinish,
+  defaultEmbroidery,
+  defaultStones,
 } from "./finish-defaults";
 
 const PNG = "data:image/png;base64,iVBORw0KGgo=";
@@ -92,5 +94,28 @@ describe("acabamentos prontos", () => {
     const so = { ...frente, outline: frente.outline.slice(0, 1), fold: 0 };
     expect(presetFinish(so, "pesponto-jeans")).toBeNull();
     expect(presetFinish(so, "ziper-invisivel")).toBeNull();
+  });
+});
+
+describe("bordado e pedraria iniciais", () => {
+  const doc = samplePattern();
+  const frente = doc.pieces[0]!;
+
+  it("cada um é válido na saia de exemplo", () => {
+    let next = doc;
+    for (const f of [defaultEmbroidery(frente, PNG, 300, 150), defaultStones(frente, "borda")!, defaultStones(frente, "area")!]) {
+      const r = addFinish(next, frente.id, f);
+      expect(r.finishId).not.toBeNull();
+      next = r.doc;
+    }
+    expect(validatePattern(next)).toEqual([]);
+  });
+
+  it("bordado na proporção da imagem; pedraria de borda fora da dobra", () => {
+    const b = defaultEmbroidery(frente, PNG, 300, 150);
+    if (b.kind !== "bordado") throw new Error();
+    expect([b.width, b.height]).toEqual([80, 40]);
+    const s = defaultStones({ ...frente, fold: 0 }, "borda");
+    expect(s && "segment" in s ? s.segment : null).toBe(1);
   });
 });

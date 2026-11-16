@@ -119,6 +119,7 @@ export class Stage {
     const loop = () => {
       this.frame = requestAnimationFrame(loop);
       this.controls.update();
+      this.animate?.();
       this.beforeRender?.();
       this.renderer.render(this.scene, this.camera);
     };
@@ -176,6 +177,8 @@ export class Stage {
 
   /** Chamado a cada quadro, depois dos controles e antes de desenhar (ex.: a volta do vídeo 360°). */
   beforeRender: (() => void) | null = null;
+  /** Animação da cena (o movimento tocando), chamada antes de `beforeRender`: a gravação do vídeo pega o movimento junto. */
+  animate: (() => void) | null = null;
 
   /** Chamado depois de a tela mudar de tamanho (a proporção já atualizada). */
   onResize: (() => void) | null = null;

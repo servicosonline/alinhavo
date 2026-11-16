@@ -45,3 +45,12 @@ export function fillColors(values: ArrayLike<number>, color: (v: number) => Rgb,
   }
   return out;
 }
+
+/** sRGB (como no CSS) para linear: a cor do material o three converte sozinho; a cor por vértice, não. */
+const toLinear = (c: number) => (c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4);
+
+/** Cor hex em RGB linear (0 a 1), para pintar por vértice igual à cor do material. */
+export function hexToLinearRgb(hex: string): [number, number, number] {
+  const n = Number.parseInt(hex.replace("#", ""), 16);
+  return [toLinear(((n >> 16) & 255) / 255), toLinear(((n >> 8) & 255) / 255), toLinear((n & 255) / 255)];
+}

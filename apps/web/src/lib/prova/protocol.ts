@@ -1,4 +1,4 @@
-import type { BodyConditions, BodyOverrides, BodyPose, Decal, FabricPreset, FabricTuning, MapSummary } from "@alinhavo/cloth";
+import type { BodyConditions, BodyKind, BodyOverrides, BodyPose, BodySex, Decal, FabricPreset, FabricTuning, MapSummary, MotionId, Seat } from "@alinhavo/cloth";
 import type { PatternDocument } from "@alinhavo/geometry";
 import type { ProvaEdges } from "./edges";
 import type { LookExtra } from "./look";
@@ -23,12 +23,18 @@ export type ProvaSetup = {
   pose: PoseId;
   /** Medidas do corpo trocadas na tela, por cima da tabela (o manequim ajustado). */
   body?: BodyOverrides;
-  /** Condições do corpo (membro cortado, gestante). */
+  /** Condições do corpo (membro cortado, gestante). Só no manequim. */
   conditions?: BodyConditions;
+  /** Corpo: o manequim (padrão) ou o realista (MakeHuman, ajustado às medidas). */
+  bodyKind?: BodyKind;
+  /** Base do corpo realista (padrão: feminino). */
+  sex?: BodySex;
   /** Camada do molde em prova no look (0, padrão, é a de dentro). */
   layer?: number;
   /** Outras roupas do look, cada uma com o seu tecido e a sua camada. */
   extras?: LookExtra[];
+  /** Zíperes abertos do molde em prova (ids dos acabamentos): o trecho de cada um fica sem costurar. */
+  openZippers?: string[];
 };
 
 /** Uma roupa na Prova: os vértices dela (início e quantidade, na numeração da simulação) e o tecido. */
@@ -49,7 +55,29 @@ export type ProvaPart = {
 export type ToWorker =
   | { type: "init"; setup: ProvaSetup }
   | { type: "play" }
-  | { type: "pause" };
+  | { type: "pause" }
+  /** Prepara o movimento a partir da roupa como está (assentada em pé). A simulação para enquanto isso. */
+  | { type: "motion"; motion: MotionId }
+  /** Para de preparar (o que já foi feito se perde). */
+  | { type: "motion-stop" };
+
+/** Andamento do preparo do movimento. */
+export type MotionProgressMessage = { type: "motion-progress"; motion: MotionId; done: number; total: number };
+
+/**
+ * O movimento pronto para tocar: os quadros da roupa e do corpo, cada um num
+ * bloco só (`frames` quadros seguidos, x, y, z por vértice, mm). O corpo tem a
+ * mesma topologia do `ready`. `seat`: o banco do "sentar" (mm), para desenhar.
+ */
+export type MotionReadyMessage = {
+  type: "motion-ready";
+  motion: MotionId;
+  fps: number;
+  frames: number;
+  garment: Float32Array;
+  body: Float32Array;
+  seat: Seat | null;
+};
 
 export type ReadyMessage = {
   type: "ready";
@@ -96,7 +124,7 @@ export type FrameMessage = {
 /** De quantos em quantos quadros os mapas são recalculados. */
 export const MAPS_EVERY = 6;
 
-export type FromWorker = ReadyMessage | FrameMessage | { type: "error"; message: string };
+export type FromWorker = ReadyMessage | FrameMessage | MotionProgressMessage | MotionReadyMessage | { type: "error"; message: string };
 
 /** Parâmetros da simulação da Prova (ver testes de place.test.ts no cloth). */
 export const PROVA_MESH_SPACING = 30;

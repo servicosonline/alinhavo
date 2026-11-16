@@ -15,7 +15,19 @@ import {
   summarizeMaps,
   vertexClearance,
   vertexStretch,
+  createMotionRun,
+  decodeMakeHuman,
+  mannequinBuilder,
+  motionClip,
+  realisticBuilder,
+  realisticModel,
+  buildRealistic,
+  type Body,
+  type BodyBuilder,
+  type MakeHumanAsset,
   type Collider,
+  type MotionId,
+  type MotionRun,
   type PieceMesh,
   type Simulation,
 } from "@alinhavo/cloth";
@@ -26,6 +38,7 @@ import {
   PROVA_SEWING_TIME,
   type FabricId,
   type FromWorker,
+  type MotionReadyMessage,
   type ProvaMaps,
   type ProvaPart,
   type ProvaSetup,
@@ -33,6 +46,7 @@ import {
 } from "./protocol";
 import { buildProvaEdges } from "./edges";
 import { lookSize, prefixPieces } from "./look";
+import { MOTION_FPS, packFrames } from "./motion";
 
 /**
  * Worker da Prova: monta corpo, malhas e simulação fora da tela e manda as
@@ -56,6 +70,11 @@ type Running = {
   mainTriangles: number;
   mainVertices: number;
   frame: number;
+  /** Medidas do corpo (o movimento monta o corpo de novo em cada pose, pelo montador). */
+  table: Record<string, number>;
+  builder: BodyBuilder;
+  /** Os obstáculos de em pé (voltam depois do movimento). */
+  colliders: Collider[];
 };
 
 let current: Running | null = null;
@@ -85,13 +104,42 @@ type Wear = {
   layer: number;
 };
 
-function build(setup: ProvaSetup) {
+/** O arquivo do corpo realista, lido uma vez e só quando pedido (~600 KB, num pedaço à parte do Worker). */
+let makehuman: Promise<MakeHumanAsset> | null = null;
+function loadMakeHuman(): Promise<MakeHumanAsset> {
+  makehuman ??= import("@alinhavo/cloth/makehuman-data").then((m) => decodeMakeHuman(m.MAKEHUMAN_DATA));
+  return makehuman;
+}
+
+/** O corpo da Prova e o montador do movimento: o manequim ou o realista. */
+async function makeBody(setup: ProvaSetup): Promise<{ body: Body; builder: BodyBuilder; notes: string[] }> {
+  if (setup.bodyKind !== "makehuman") {
+    return {
+      body: createMannequin(setup.measurements, setup.pose, setup.body, setup.conditions),
+      builder: mannequinBuilder(setup.measurements, setup.body ?? {}, setup.conditions ?? {}),
+      notes: [],
+    };
+  }
+  const model = realisticModel(await loadMakeHuman(), setup.measurements, setup.body ?? {}, setup.sex ?? "feminino");
+  const c = setup.conditions ?? {};
+  const hasConditions = Object.keys(c.limbs ?? {}).length > 0 || c.belly !== undefined || (c.heel ?? 0) > 0;
+  return {
+    body: buildRealistic(model, setup.pose).body,
+    builder: realisticBuilder(model),
+    notes: hasConditions ? ["O corpo realista ainda não tem membro cortado, gestante nem salto: essas condições valem só no manequim."] : [],
+  };
+}
+
+async function build(setup: ProvaSetup, fresh: () => boolean = () => true) {
   const doc = readDoc(setup.doc, "Molde");
   if (!doc.sizes.includes(setup.size)) throw new Error(`O tamanho ${setup.size} não está na grade.`);
 
-  const body = createMannequin(setup.measurements, setup.pose, setup.body, setup.conditions);
-  const lookNotes: string[] = [];
+  const made = await makeBody(setup);
+  if (!fresh()) return;
+  const body = made.body;
+  const lookNotes: string[] = [...made.notes];
   const main = garmentAtSize(doc, setup.size);
+  const open = new Set(setup.openZippers ?? []);
   const wears: Wear[] = [
     {
       name: "Molde em prova",
@@ -143,6 +191,10 @@ function build(setup: ProvaSetup) {
     parts.push({ name: wear.name, main: wear.main, start, count: vertex - start, triStart, triCount: triangle - triStart, fabric: wear.fabric, fabricLimit: wear.physics.maxStretch });
   }
 
+  // Zíper aberto: só o do molde em prova, nas peças que entraram na simulação.
+  const simulated = new Set(placed.filter((p) => p.wear.main).map((p) => p.piece.id));
+  const openings = main.openings.filter((o) => open.has(o.finishId) && simulated.has(o.piece));
+
   const initial = placeGarment(
     meshes.map((mesh, i) => ({ mesh, placement: placed[i]!.piece.placement!, half: pieceHalf(placed[i]!.piece), layer: placed[i]!.wear.layer })),
     body.landmarks,
@@ -150,7 +202,7 @@ function build(setup: ProvaSetup) {
   const fabric = wears[0]!.physics;
   const sim = createSimulation(
     meshes.map((mesh, i) => ({ mesh, initial: initial[i], fabric: placed[i]!.wear.physics, layer: placed[i]!.wear.layer })),
-    { fabric, seams, colliders: [body.collider, floorCollider(0)], iterations: PROVA_ITERATIONS, sewingTime: PROVA_SEWING_TIME },
+    { fabric, seams, openings, colliders: [body.collider, floorCollider(0)], iterations: PROVA_ITERATIONS, sewingTime: PROVA_SEWING_TIME },
   );
 
   // Área de cada triângulo no molde, na ordem da simulação (para o resumo).
@@ -172,6 +224,9 @@ function build(setup: ProvaSetup) {
     mainTriangles,
     mainVertices: parts[0]!.count,
     frame: 0,
+    table: setup.measurements,
+    builder: made.builder,
+    colliders: [body.collider, floorCollider(0)],
   };
 
   post({
@@ -226,24 +281,88 @@ function tick() {
   timer = setTimeout(tick, 0);
 }
 
+/** Preparo do movimento em andamento (um quadro por vez, para "parar" chegar no meio). */
+let motionJob: { run: MotionRun; motion: MotionId; garment: Float32Array[]; body: Float32Array[] } | null = null;
+
+function stopMotion() {
+  if (!motionJob) return;
+  motionJob = null;
+  if (timer) clearTimeout(timer);
+  timer = null;
+  // A roupa volta ao corpo em pé, parado.
+  if (current) current.sim.setColliders(current.colliders, Infinity);
+}
+
+function motionTick() {
+  timer = null;
+  const job = motionJob;
+  if (!job || !current) return;
+  const frame = job.run.next();
+  if (frame) {
+    job.garment.push(frame.positions);
+    job.body.push(frame.body.positions);
+    post({ type: "motion-progress", motion: job.motion, done: job.garment.length, total: job.run.frameCount });
+    timer = setTimeout(motionTick, 0);
+    return;
+  }
+  const garment = packFrames(job.garment);
+  const body = packFrames(job.body);
+  const ready: MotionReadyMessage = { type: "motion-ready", motion: job.motion, fps: MOTION_FPS, frames: job.garment.length, garment, body, seat: job.run.seat };
+  motionJob = null;
+  // O movimento termina em pé: a roupa continua no corpo parado.
+  current.sim.setColliders(current.colliders, Infinity);
+  post(ready, [garment.buffer, body.buffer]);
+}
+
+function startMotion(motion: MotionId) {
+  const r = current;
+  if (!r) throw new Error("Monte a Prova antes do movimento.");
+  stopMotion();
+  running = false;
+  if (timer) clearTimeout(timer);
+  timer = null;
+  const run = createMotionRun(r.sim, {
+    clip: motionClip(motion),
+    table: r.table,
+    builder: r.builder,
+    fixed: [floorCollider(0)],
+    fps: MOTION_FPS,
+  });
+  motionJob = { run, motion, garment: [], body: [] };
+  motionTick();
+}
+
+/** Cada "init" ganha um número: um corpo realista que termina de carregar depois de outro "init" é descartado. */
+let initSeq = 0;
+
+const fail = (err: unknown) => {
+  running = false;
+  post({ type: "error", message: err instanceof Error ? err.message : "Erro inesperado na simulação." });
+};
+
 scope.onmessage = (e: MessageEvent<ToWorker>) => {
   const msg = e.data;
   try {
     if (msg.type === "init") {
+      motionJob = null;
       running = false;
       if (timer) clearTimeout(timer);
       timer = null;
       current = null;
-      build(msg.setup);
+      const seq = ++initSeq;
+      build(msg.setup, () => seq === initSeq).catch(fail);
     } else if (msg.type === "play") {
-      if (!current || running) return;
+      if (!current || running || motionJob) return;
       running = true;
       tick();
     } else if (msg.type === "pause") {
       running = false;
+    } else if (msg.type === "motion") {
+      startMotion(msg.motion);
+    } else if (msg.type === "motion-stop") {
+      stopMotion();
     }
   } catch (err) {
-    running = false;
-    post({ type: "error", message: err instanceof Error ? err.message : "Erro inesperado na simulação." });
+    fail(err);
   }
 };
