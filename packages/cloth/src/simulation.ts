@@ -527,7 +527,7 @@ function distanceToBlend(x: Float64Array, a: number, b0: number, b1: number, w1:
  * Flexão: para cada aresta interna (compartilhada por dois triângulos), liga
  * os dois vértices opostos com uma restrição de distância mais fraca.
  */
-function collectBendPairs(mesh: PieceMesh, off: number, pairs: number[], rest: number[]) {
+export function collectBendPairs(mesh: PieceMesh, off: number, pairs: number[], rest: number[]) {
   const opposite = new Map<number, number>();
   const t = mesh.triangles;
   for (let k = 0; k < t.length; k += 3) {
