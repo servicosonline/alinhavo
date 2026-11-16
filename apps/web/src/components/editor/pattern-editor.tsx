@@ -52,6 +52,7 @@ import { ui } from "../ui";
 import { PatternCanvas, type DragTarget, type Selection } from "./canvas";
 import { ExportMenu } from "./export-menu";
 import { FinishesPanel } from "./finishes-panel";
+import { GradePresetChips, SeamPresetChips } from "./presets";
 import { ProvaSide, type SideProva } from "./prova-side";
 import { CmField, TextField } from "../fields";
 import { useHistory } from "./use-history";
@@ -81,6 +82,8 @@ type Props = {
   approvalHref?: string;
   /** Prova 3D ao lado do editor (tela dividida). Sem ela, o botão "Prova ao lado" não aparece. */
   sideProva?: SideProva;
+  /** Composição do tecido do produto ligado (etiqueta de composição pronta). Sem ela, a etiqueta pronta fica desligada. */
+  fabricComposition?: string | null;
 };
 
 /** Na tela dividida, o painel da direita mostra as propriedades do molde ou os controles da Prova. */
@@ -104,7 +107,7 @@ function openSeams(doc: PatternDocument): string[] {
 
 const snapMm = (v: number) => Math.round(v); // arrastar encaixa no mm inteiro
 
-export function PatternEditor({ initialDocument, title, subtitle, readOnly = false, onSave, chartGrade = null, onTryOn, trail, rail, approvalHref, sideProva }: Props) {
+export function PatternEditor({ initialDocument, title, subtitle, readOnly = false, onSave, chartGrade = null, onTryOn, trail, rail, approvalHref, sideProva, fabricComposition = null }: Props) {
   const history = useHistory(initialDocument);
   const doc = history.value;
   const [selection, setSelection] = useState<Selection>(null);
@@ -537,9 +540,11 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
                 <FinishesPanel
                   piece={piece}
                   readOnly={readOnly || !viewingBase}
-                  onAdd={(f) => {
+                  composition={fabricComposition}
+                  onAdd={(f, edgeAllowanceMm) => {
                     const r = addFinish(doc, piece.id, f);
-                    if (r.finishId) apply(r.doc);
+                    // Margem do segmento junto, numa edição só (o Ctrl+Z desfaz as duas).
+                    if (r.finishId) apply(edgeAllowanceMm !== undefined && "segment" in f ? setEdgeSeamAllowance(r.doc, piece.id, f.segment, edgeAllowanceMm) : r.doc);
                     return r.finishId !== null;
                   }}
                   onUpdate={(id, patch) => {
@@ -759,6 +764,7 @@ function PieceInspector({
         disabled={readOnly}
         onCommit={(mm) => mm !== null && onSeam(mm)}
       />
+      <SeamPresetChips valueMm={piece.seamAllowance} disabled={readOnly} onPick={onSeam} />
       <label className="flex items-start gap-2 text-sm" title={piece.fold !== undefined ? "Parte cortada na dobra não é cortada em par" : undefined}>
         <input
           type="checkbox"
@@ -1002,6 +1008,7 @@ function SegmentInspector({
         disabled={readOnly}
         onCommit={onSeam}
       />
+      <SeamPresetChips valueMm={own ?? undefined} disabled={readOnly} onPick={onSeam} />
       {seg.kind === "cubic" && !readOnly && <p className="text-xs text-tinta-suave">Arraste os quadradinhos vermelhos para ajustar a curva.</p>}
     </div>
   );
@@ -1167,6 +1174,7 @@ function PointGrading({
   return (
     <div className="space-y-3 border-t border-tinta/10 pt-4">
       <h3 className={ui.eyebrow}>Gradação do ponto {pointId}</h3>
+      {!readOnly && <GradePresetChips piece={piece} pointId={pointId} step={step} onStep={onStep} />}
       {step ? (
         <div className="grid grid-cols-2 gap-2">
           <CmField
