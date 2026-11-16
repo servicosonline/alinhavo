@@ -38,7 +38,7 @@ function Stepper({
   const btn =
     "grid size-9 place-items-center rounded-lg border border-tinta/20 font-mono text-lg hover:border-tinta disabled:cursor-not-allowed disabled:opacity-40";
   return (
-    <div className="flex items-center justify-between gap-3" role="group" aria-label={label}>
+    <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1.5" role="group" aria-label={label}>
       <span className="text-sm text-tinta-suave">{label}</span>
       <div className="flex items-center gap-2">
         <button type="button" className={btn} onClick={() => onChange(value - 1)} disabled={value <= min} aria-label={`Menos um: ${label}`}>
@@ -69,8 +69,8 @@ function PlanCard({ plan, billing }: { plan: Plan; billing: Billing }) {
     <div
       className={
         plan.destaque
-          ? "flex flex-col rounded-2xl border-2 border-linha bg-white p-7 lg:-translate-y-3 lg:shadow-[0_24px_50px_-28px_rgb(196_58_38/0.6)]"
-          : "flex flex-col rounded-2xl border border-tinta/10 bg-white p-7"
+          ? "flex min-w-0 flex-col rounded-2xl border-2 border-linha bg-white p-7 lg:-translate-y-3 lg:shadow-[0_24px_50px_-28px_rgb(196_58_38/0.6)]"
+          : "flex min-w-0 flex-col rounded-2xl border border-tinta/10 bg-white p-7"
       }
       data-plano={plan.id}
     >

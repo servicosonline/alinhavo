@@ -102,6 +102,9 @@ export class Stage {
     this.controls.maxPolarAngle = Math.PI * 0.55;
     // Botão do meio move a câmera (o padrão do three é aproximar, que já é da roda).
     this.controls.mouseButtons = { LEFT: THREE.MOUSE.ROTATE, MIDDLE: THREE.MOUSE.PAN, RIGHT: THREE.MOUSE.PAN };
+    // Toque: um dedo na vertical rola a página (a cena ocupa quase a tela do celular e prendia a rolagem);
+    // na horizontal gira em volta do corpo, e dois dedos aproximam e movem. O OrbitControls põe "none".
+    this.renderer.domElement.style.touchAction = "pan-y";
     const axis = options.lockHorizontal ? { x: 0, z: 0 } : null;
     // No Windows, o clique do meio abre a rolagem automática da página por cima da Prova.
     this.renderer.domElement.addEventListener("mousedown", (e) => {

@@ -309,7 +309,8 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
           {sideProva && (
             <button
               type="button"
-              className={ui.buttonGhost}
+              // Tela dividida só a partir do lg; no celular a Prova iria para baixo do molde.
+              className={`${ui.buttonGhost} max-lg:hidden`}
               aria-pressed={split}
               data-split-toggle
               onClick={() => {
