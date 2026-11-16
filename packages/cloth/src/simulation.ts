@@ -234,6 +234,8 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
   let time = 0;
   const sewingTime = Math.max(0, options.sewingTime ?? 0);
   let sewn = sewingTime === 0;
+  /** Costuras fechadas (vão ≤ 1 mm): só daí em diante o atrito segura (estático). */
+  let closed = seamA.length === 0;
 
   // --- Restrições -----------------------------------------------------------
   function solveDistance(i: number, j: number, rest: number, alphaTilde: number) {
@@ -288,6 +290,13 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
    * vértice chegar ao ombro sem ser empurrado.
    */
   const clearance = new Float64Array(n).fill(-1);
+  /**
+   * Onde o vértice estava quando a folga foi medida: ela vale enquanto o
+   * vértice não se afastar dali mais que ela (desigualdade triangular). Medir
+   * o afastamento desde ali, e não o andado no subpasso, deixa uma segunda
+   * passada de colisão no mesmo subpasso perguntar só a quem mexeu de novo.
+   */
+  const seenAt = Float64Array.from(x);
   /** Rodadas por subpasso: um empurrão para fora de uma parte pode cair dentro de outra (axila, gancho). */
   const COLLISION_PASSES = 3;
 
@@ -300,9 +309,8 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
     for (let i = 0; i < n; i++) {
       if (invMass[i] === 0) continue;
       const gap = thickness[i]!;
-      const moved = Math.hypot(x[i * 3]! - prev[i * 3]!, x[i * 3 + 1]! - prev[i * 3 + 1]!, x[i * 3 + 2]! - prev[i * 3 + 2]!);
-      clearance[i] = clearance[i]! - moved;
-      if (clearance[i]! > 0) continue;
+      const moved = Math.hypot(x[i * 3]! - seenAt[i * 3]!, x[i * 3 + 1]! - seenAt[i * 3 + 1]!, x[i * 3 + 2]! - seenAt[i * 3 + 2]!);
+      if (clearance[i]! - moved > 0) continue;
       let nearest = Infinity;
       for (let pass = 0; pass < COLLISION_PASSES; pass++) {
         nearest = Infinity;
@@ -318,20 +326,34 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
           x[i * 3 + 1] = x[i * 3 + 1]! + normal.y * push;
           x[i * 3 + 2] = x[i * 3 + 2]! + normal.z * push;
           if (pass > 0) continue; // atrito uma vez por subpasso
-          // Atrito: tira parte do deslizamento sobre a superfície neste subpasso.
+          // Atrito de Coulomb, posicional: o deslize sobre a superfície neste
+          // subpasso para inteiro se for menor que μ × o empurrão (atrito
+          // estático); maior, perde μ × o empurrão. Sem o estático, a roupa só
+          // freava e nunca parava: o cós da calça descia o quadril devagar,
+          // abrindo a cada subpasso, sempre que o chão não segurava as pernas.
+          // Até as costuras fecharem as partes precisam escorregar até se
+          // encontrar: ali o atrito só freia (tira a fração μ do deslize), como antes.
           const mx = x[i * 3]! - prev[i * 3]!;
           const my = x[i * 3 + 1]! - prev[i * 3 + 1]!;
           const mz = x[i * 3 + 2]! - prev[i * 3 + 2]!;
           const along = mx * normal.x + my * normal.y + mz * normal.z;
-          const f = friction[i]!;
-          x[i * 3] = x[i * 3]! - (mx - along * normal.x) * f;
-          x[i * 3 + 1] = x[i * 3 + 1]! - (my - along * normal.y) * f;
-          x[i * 3 + 2] = x[i * 3 + 2]! - (mz - along * normal.z) * f;
+          const tx = mx - along * normal.x;
+          const ty = my - along * normal.y;
+          const tz = mz - along * normal.z;
+          const slip = Math.hypot(tx, ty, tz);
+          const hold = friction[i]! * push;
+          const k = !closed ? friction[i]! : slip <= hold ? 1 : hold / slip;
+          x[i * 3] = x[i * 3]! - tx * k;
+          x[i * 3 + 1] = x[i * 3 + 1]! - ty * k;
+          x[i * 3 + 2] = x[i * 3 + 2]! - tz * k;
         }
         if (!pushed) break;
       }
       // Depois de mexer no vértice, a folga vale a partir da posição atual.
       clearance[i] = safeClearance(nearest, gap);
+      seenAt[i * 3] = x[i * 3]!;
+      seenAt[i * 3 + 1] = x[i * 3 + 1]!;
+      seenAt[i * 3 + 2] = x[i * 3 + 2]!;
     }
   }
 
@@ -345,6 +367,13 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
       const j = stretchEdges[k * 2 + 1]!;
       const limit = stretchRest[k]! * stretchMax[k]!;
       if (distanceBetween(x, i, j) > limit) solveDistance(i, j, limit, 0);
+    }
+  }
+
+  function solveSeams(seamAlpha: number) {
+    for (let k = 0; k < seamA.length; k++) {
+      const rest = Math.max(0, seamStart[k]! - closing * time);
+      solveSeam(seamA[k]!, seamB0[k]!, seamB1[k]!, seamW1[k]!, rest, seamAlpha);
     }
   }
 
@@ -375,10 +404,7 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
       // O limite de esticamento vem antes das costuras: elas têm a palavra
       // final, e a costura não abre (o esticamento a mais fica local, junto dela).
       limitStrain();
-      for (let k = 0; k < seamA.length; k++) {
-        const rest = Math.max(0, seamStart[k]! - closing * time);
-        solveSeam(seamA[k]!, seamB0[k]!, seamB1[k]!, seamW1[k]!, rest, seamAlpha);
-      }
+      solveSeams(seamAlpha);
     }
     collide();
     // A camada de cima por fim: o corpo já está resolvido para a de baixo.
@@ -414,6 +440,7 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
     step(dt = 1 / 60) {
       if (!(dt > MIN_DT)) return;
       if (!sewn && (time >= sewingTime || gapNow() <= 1)) sewn = true;
+      if (!closed && gapNow() <= 1) closed = true;
       const h = dt / substeps;
       if (layers.hasLayers) layers.refresh();
       for (let s = 0; s < substeps; s++) substep(h);

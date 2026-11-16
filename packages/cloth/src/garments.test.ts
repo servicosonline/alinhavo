@@ -94,16 +94,22 @@ describe("roupa em corpo com condição", () => {
     expect(r.closest).toBeGreaterThan(-3);
   }, 60_000);
 
-  // Limitação conhecida (nov/2026): sem o chão sustentando as pernas, a calça de
-  // teste escorrega pelo quadril com o tempo (de salto, a barra não chega ao chão).
-  // Aqui só a estabilidade; a barra mais alta de salto depende de segurar a cintura.
-  it("calça de salto: costura e não explode", () => {
-    const heels = provar(calca(), 2, { heel: 80 });
+  // O caso do vídeo de referência: com salto, a mesma calça fica curta. Antes de
+  // nov/2026 a calça escorregava pelo quadril quando o chão não sustentava as
+  // pernas (o empurrão do corpo esticava a cintura além do limite do tecido).
+  it("calça de salto: a cintura fica acima do quadril e a barra não desce", () => {
+    const flat = provar(calca(), 6);
+    const heels = provar(calca(), 6, { heel: 80 });
+    const a = resumo(flat.sim, flat.body);
     const h = resumo(heels.sim, heels.body);
     expect(h.finite).toBe(true);
     expect(h.gap).toBeLessThan(2);
-    expect(h.bottom).toBeGreaterThan(-1);
-  }, 120_000);
+    // A cintura não passa do quadril.
+    expect(h.top).toBeGreaterThan(heels.body.landmarks.hip.y);
+    // A barra não desce. (A calça de teste é comprida: de salto de 8 cm ainda
+    // encosta no chão, porque assenta uns 3 cm mais baixo no corpo.)
+    expect(h.bottom).toBeGreaterThanOrEqual(a.bottom);
+  }, 240_000);
 
   it("saia na gestante: costura e não atravessa a barriga", () => {
     const { sim, body } = provar(saia(), 4, { belly: 1050 });
