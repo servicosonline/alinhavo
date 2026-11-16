@@ -22,6 +22,7 @@ export function EditorClient({
   rail,
   approvalHref,
   chartMeasurements,
+  fabricComposition,
 }: {
   orgId: string;
   patternId: string;
@@ -35,6 +36,8 @@ export function EditorClient({
   approvalHref?: string;
   /** Tamanhos e medidas da tabela ligada (vazios sem tabela: o corpo estima). */
   chartMeasurements: { sizes: ChartSizeRow[]; rows: MeasurementRow[] };
+  /** Composição do tecido do produto ligado ao molde (null sem produto ou sem tecido). */
+  fabricComposition: string | null;
 }) {
   const [version, setVersion] = useState(initialVersion);
   // Prova ao lado: as medidas casam com a grade do molde como está na tela.
@@ -54,6 +57,7 @@ export function EditorClient({
       rail={rail}
       approvalHref={version === 0 ? undefined : approvalHref}
       sideProva={sideProva}
+      fabricComposition={fabricComposition}
       onTryOn={
         version === 0
           ? undefined // a Prova do painel parte de uma versão salva

@@ -21,7 +21,9 @@ import { ApprovalRequest, type ApprovalRequester } from "./approval-request";
 import { BodyPanel } from "./body-panel";
 import { CapturesPanel } from "./captures-panel";
 import { CatalogPhotoRequest, type CatalogPhotoRequester } from "./catalog-photo-request";
-import { VideoPanel } from "./video-panel";
+import { VideoPanel, type VideoPanelHandle } from "./video-panel";
+import { ApprovalKit } from "./approval-kit";
+import { KIT_ANGLES, kitCaptures, type KitResult } from "@/lib/prova/kit";
 import { VIDEO_BITRATE, VIDEO_FPS, VIDEO_HEIGHT, VIDEO_SECONDS, VIDEO_WIDTH, videoFileName } from "@/lib/prova/video";
 import { GradeView } from "./grade-view";
 import { FABRIC_NAME, LookPanel } from "./look-panel";
@@ -345,6 +347,28 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
     setCaptureNote(dropped > 0 ? `${dropped === 1 ? "Uma imagem ficou" : `${dropped} imagens ficaram`} de fora (até 4, de até 150 KB).` : null);
   };
 
+  const videoPanelRef = useRef<VideoPanelHandle>(null);
+  const approvalRef = useRef<HTMLDivElement>(null);
+
+  /** Kit de aprovação: frente, costas e lado (no lugar das capturas de antes) e o vídeo 360°. */
+  const buildKit = async (): Promise<KitResult | null> => {
+    const scene = sceneRef.current;
+    if (!scene) return null;
+    const { list, dropped } = kitCaptures(KIT_ANGLES.map((angle) => ({ angle, dataUrl: scene.capture(angle) })));
+    setCaptures(list);
+    setCaptureNote(null);
+    const panel = videoPanelRef.current;
+    const video = !panel?.supported ? "sem-suporte" : (await panel.record()) ? "ok" : "erro";
+    return { captured: list.length, dropped, video };
+  };
+
+  /** Kit pronto: o "Gerar link" vem para a tela, com o foco nele. */
+  const showApproval = () => {
+    const submit = approvalRef.current?.querySelector<HTMLButtonElement>("[data-approval-submit]");
+    submit?.scrollIntoView({ block: "center", behavior: "smooth" });
+    submit?.focus({ preventScroll: true });
+  };
+
   // Trocar tamanho, tecido, pose ou o look monta a Prova de novo.
   useEffect(() => {
     colorRef.current = color;
@@ -641,7 +665,19 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
           disabled={status.kind !== "running" && status.kind !== "paused"}
           note={captureNote}
         >
-          {approval && <ApprovalRequest requester={approval} settings={{ size, fabric: resolved.name, pose }} captures={captures} video={video} />}
+          {approval && !approval.blocked && (
+            <ApprovalKit
+              key={capturedFor.video}
+              build={buildKit}
+              onReady={showApproval}
+              disabled={status.kind !== "running" && status.kind !== "paused"}
+            />
+          )}
+          {approval && (
+            <div ref={approvalRef}>
+              <ApprovalRequest requester={approval} settings={{ size, fabric: resolved.name, pose }} captures={captures} video={video} />
+            </div>
+          )}
           {catalogPhoto && <CatalogPhotoRequest requester={catalogPhoto} captures={captures} />}
         </CapturesPanel>
         )}
@@ -649,6 +685,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
         {!split && (
         <VideoPanel
           key={capturedFor.video}
+          ref={videoPanelRef}
           record={recordVideo}
           fileName={(type) => videoFileName("prova", size, type)}
           disabled={status.kind !== "running" && status.kind !== "paused"}

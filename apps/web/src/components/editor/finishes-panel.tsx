@@ -2,7 +2,7 @@
 
 import { FINISH_NAME, FINISH_ROW_GAP, LABEL_TEXT_MAX, segmentLengths, type Finish, type NewFinish, type Piece } from "@alinhavo/geometry";
 import { useRef, useState } from "react";
-import { defaultLabel, defaultPrint, defaultSeamFinish, firstEdge } from "@/lib/finish-defaults";
+import { FINISH_PRESETS, defaultLabel, defaultPrint, defaultSeamFinish, firstEdge, presetFinish, type FinishPresetId } from "@/lib/finish-defaults";
 import { prepareFinishImage } from "@/lib/finish-image";
 import { formatCm } from "@/lib/units";
 import { CmField } from "../fields";
@@ -11,7 +11,10 @@ import { ui } from "../ui";
 type Props = {
   piece: Piece;
   readOnly: boolean;
-  onAdd: (finish: NewFinish) => boolean;
+  /** Composição do tecido do produto ligado (null: a etiqueta de composição pronta fica desligada). */
+  composition: string | null;
+  /** `edgeAllowanceMm`: margem do segmento do acabamento, posta junto (zíper invisível). */
+  onAdd: (finish: NewFinish, edgeAllowanceMm?: number) => boolean;
   onUpdate: (id: string, patch: Partial<NewFinish>) => boolean;
   onRemove: (id: string) => void;
 };
@@ -23,7 +26,7 @@ const small = "rounded border border-tinta/20 bg-white px-1.5 py-1 text-xs";
  * estampa num retângulo preso a um ponto. Medidas em cm na tela, mm no molde.
  * O que não validar não entra (a mensagem diz).
  */
-export function FinishesPanel({ piece, readOnly, onAdd, onUpdate, onRemove }: Props) {
+export function FinishesPanel({ piece, readOnly, composition, onAdd, onUpdate, onRemove }: Props) {
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const fileRef = useRef<HTMLInputElement>(null);
@@ -36,6 +39,11 @@ export function FinishesPanel({ piece, readOnly, onAdd, onUpdate, onRemove }: Pr
   const add = (f: NewFinish | null) => {
     if (!f) return setError("A parte não tem segmento que aceite esse acabamento.");
     setError(onAdd(f) ? null : "Não foi possível pôr esse acabamento.");
+  };
+  const addPreset = (id: FinishPresetId) => {
+    const p = presetFinish(piece, id, composition);
+    if (!p) return setError("Esse acabamento pronto não cabe nesta parte.");
+    setError(onAdd(p.finish, p.edgeAllowanceMm) ? null : "Não foi possível pôr esse acabamento.");
   };
   const update = (id: string, patch: Partial<NewFinish>) => setError(onUpdate(id, patch) ? null : "Valor fora do permitido.");
 
@@ -106,6 +114,23 @@ export function FinishesPanel({ piece, readOnly, onAdd, onUpdate, onRemove }: Pr
           >
             {busy ? "Lendo…" : "+ Estampa"}
           </button>
+          <p className="col-span-2 pt-1 text-[11px] text-tinta-suave">Prontos</p>
+          {FINISH_PRESETS.map((p) => {
+            const off = p.id === "etiqueta-composicao" ? !composition : !canSeam;
+            return (
+              <button
+                key={p.id}
+                type="button"
+                className={`${ui.buttonGhost} col-span-2 justify-start`}
+                disabled={off}
+                title={off && p.id === "etiqueta-composicao" ? "Ligue ao produto deste molde um tecido com a composição preenchida" : p.hint}
+                onClick={() => addPreset(p.id)}
+                data-finish-preset={p.id}
+              >
+                + {p.name}
+              </button>
+            );
+          })}
           <input
             ref={fileRef}
             type="file"

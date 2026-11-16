@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useSyncExternalStore } from "react";
+import { useEffect, useImperativeHandle, useState, useSyncExternalStore, type Ref } from "react";
 import { pickVideoType, VIDEO_SECONDS } from "@/lib/prova/video";
 import { ui } from "../ui";
 
@@ -12,6 +12,16 @@ type Props = {
   disabled: boolean;
   /** Avisa o vídeo pronto (ou null ao começar de novo), para ir junto no pedido de aprovação. */
   onChange?: (video: Blob | null) => void;
+  /** Alça para o kit de aprovação gravar sem o clique no botão. */
+  ref?: Ref<VideoPanelHandle>;
+};
+
+/** O que o kit de aprovação pede ao painel do vídeo. */
+export type VideoPanelHandle = {
+  /** false = este navegador não grava. */
+  supported: boolean;
+  /** Grava a volta como o botão; devolve o vídeo, ou null se falhou (o erro fica no painel). */
+  record: () => Promise<Blob | null>;
 };
 
 const noSubscribe = () => () => {};
@@ -34,7 +44,7 @@ type State =
  * Vídeo 360° da Prova: grava uma volta da câmera em torno do corpo e deixa
  * assistir e baixar. Fica só no navegador (não vai para o servidor).
  */
-export function VideoPanel({ record, fileName, disabled, onChange }: Props) {
+export function VideoPanel({ record, fileName, disabled, onChange, ref }: Props) {
   const type = useVideoType();
   const [state, setState] = useState<State>({ kind: "idle" });
 
@@ -44,18 +54,22 @@ export function VideoPanel({ record, fileName, disabled, onChange }: Props) {
     return () => URL.revokeObjectURL(state.url);
   }, [state]);
 
-  async function start() {
-    if (!type) return;
+  async function start(): Promise<Blob | null> {
+    if (!type) return null;
     setState({ kind: "recording", progress: 0 });
     onChange?.(null);
     try {
       const blob = await record(type, (progress) => setState({ kind: "recording", progress }));
       setState({ kind: "done", url: URL.createObjectURL(blob), type: blob.type || type, size: blob.size });
       onChange?.(blob);
+      return blob;
     } catch (err) {
       setState({ kind: "error", message: err instanceof Error ? err.message : "A gravação falhou." });
+      return null;
     }
   }
+
+  useImperativeHandle(ref, () => ({ supported: type !== null, record: start }));
 
   const recording = state.kind === "recording";
   return (
