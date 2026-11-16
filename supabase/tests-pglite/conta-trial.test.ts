@@ -72,6 +72,35 @@ describe("perfil", () => {
     ).rejects.toThrow(/profiles_avatar_own/);
     await as(db, u, (q) => q.query("insert into public.profiles (avatar_path) values ($1)", [`${u.id}/a.webp`]));
   });
+
+  // O `upsert` do supabase-js vira este SQL no PostgREST: o `set` inclui o user_id,
+  // então precisa de UPDATE nessa coluna (sem ele, 42501 já no primeiro envio).
+  const upsert = (cols: string) =>
+    `insert into public.profiles (user_id, ${cols}) values ($1, $2)
+     on conflict (user_id) do update set user_id = excluded.user_id, ${cols} = excluded.${cols}`;
+
+  it("o upsert do app cria e depois atualiza o próprio perfil", async () => {
+    const u = await createUser(db, email("upsert"));
+    await as(db, u, (q) => q.query(upsert("avatar_path"), [u.id, `${u.id}/a.webp`]));
+    await as(db, u, (q) => q.query(upsert("avatar_path"), [u.id, `${u.id}/b.webp`]));
+    await as(db, u, (q) => q.query(upsert("first_name"), [u.id, "Rita"]));
+    const { rows } = await as(db, u, (q) =>
+      q.query<{ avatar_path: string; first_name: string }>("select avatar_path, first_name from public.profiles"),
+    );
+    expect(rows).toEqual([{ avatar_path: `${u.id}/b.webp`, first_name: "Rita" }]);
+  });
+
+  it("o upsert não toma o perfil de outra pessoa nem troca o dono", async () => {
+    const ana = await createUser(db, email("dona"));
+    const bia = await createUser(db, email("intrusa"));
+    await as(db, ana, (q) => q.query(upsert("first_name"), [ana.id, "Ana"]));
+    await expect(as(db, bia, (q) => q.query(upsert("first_name"), [ana.id, "X"]))).rejects.toThrow(/row-level security/);
+    await expect(
+      as(db, ana, (q) => q.query("update public.profiles set user_id = $1", [bia.id])),
+    ).rejects.toThrow(/row-level security|foreign key|profiles_avatar_own/);
+    const { rows } = await as(db, ana, (q) => q.query<{ first_name: string }>("select first_name from public.profiles"));
+    expect(rows).toEqual([{ first_name: "Ana" }]);
+  });
 });
 
 describe("foto de perfil no Storage", () => {
