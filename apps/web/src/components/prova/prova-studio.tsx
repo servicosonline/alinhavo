@@ -9,7 +9,8 @@ import type { ProvaEdges } from "@/lib/prova/edges";
 import type { FabricId, FromWorker, PoseId, ProvaMaps, ProvaPart, ToWorker } from "@/lib/prova/protocol";
 import { lookSetup, lookStart, type LookItem, type LookOption } from "@/lib/prova/look";
 import { optionChoice, presetChoice, resolveFabric, type FabricPhoto, type ProvaFabricOption } from "@/lib/prova/fabric-options";
-import { HEEL_OPTIONS, heelName, POSE_OPTIONS } from "@/lib/prova/poses";
+import type { SavedBodyLibrary } from "@/lib/prova/saved-bodies";
+import { HEEL_OPTIONS, heelName, nearestHeel, POSE_OPTIONS } from "@/lib/prova/poses";
 import { FABRIC_COLOR, garmentPaint } from "@/lib/prova/paint";
 import { defaultQuality, deviceHints, QUALITIES, type RenderQuality } from "@/lib/prova/quality";
 import { formatCm } from "@/lib/units";
@@ -133,9 +134,11 @@ type Props = {
   defaultFabricId?: string | null;
   /** Busca a foto de um tecido cadastrado (a lista vem sem elas, que são pesadas). */
   loadFabricPhoto?: (fabricId: string) => Promise<FabricPhoto | null>;
+  /** Manequins salvos da organização (só no painel; sem isso, o painel do corpo não mostra a seção). */
+  bodyLibrary?: SavedBodyLibrary;
 };
 
-export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, approval, catalogPhoto, lookOptions = NO_LOOK, controlsTarget, fabricOptions = NO_FABRICS, defaultFabricId = null, loadFabricPhoto }: Props) {
+export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, approval, catalogPhoto, lookOptions = NO_LOOK, controlsTarget, fabricOptions = NO_FABRICS, defaultFabricId = null, loadFabricPhoto, bodyLibrary }: Props) {
   const split = controlsTarget !== undefined;
   // Molde em prova: começa no que veio da página e muda a cada ajuste aplicado.
   // Se a página mandar outro molde (versão nova salva), recomeça dele.
@@ -186,6 +189,15 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
   // Condições (membro cortado, gestante) são da pessoa, não do tamanho: ficam ao trocar o tamanho.
   const [conditions, setConditions] = useState<BodyConditions>(NO_CONDITIONS);
   const bodyConditions = useMemo<BodyConditions>(() => (heel > 0 ? { ...conditions, heel } : conditions), [conditions, heel]);
+  // Manequim salvo: medidas (neste tamanho), condições e salto mudam juntos, uma remontagem só.
+  const loadSavedBody = useCallback(
+    (loaded: { overrides: BodyOverrides; conditions: BodyConditions; heel: number }) => {
+      setBodyBy({ size, overrides: loaded.overrides });
+      setConditions(loaded.conditions);
+      setHeel(nearestHeel(loaded.heel));
+    },
+    [size],
+  );
   const deviceQuality = useDeviceQuality();
   /** null = a do aparelho (`defaultQuality`), até a pessoa escolher. */
   const [chosenQuality, setChosenQuality] = useState<RenderQuality | null>(null);
@@ -551,6 +563,9 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
             conditions={conditions}
             onChange={setBody}
             onConditions={setConditions}
+            heel={heel}
+            library={bodyLibrary}
+            onLoadSaved={loadSavedBody}
             disabled={status.kind === "loading"}
           />
         )}

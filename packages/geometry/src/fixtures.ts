@@ -40,5 +40,5 @@ export function saiaCurva(): Piece {
 }
 
 export function documento(pieces: Piece[] = [saiaReta()]): PatternDocument {
-  return { schema: 5, unit: "mm", sizes: [...SIZES], baseSize: "M", pieces, seams: [] };
+  return { schema: 6, unit: "mm", sizes: [...SIZES], baseSize: "M", pieces, seams: [] };
 }

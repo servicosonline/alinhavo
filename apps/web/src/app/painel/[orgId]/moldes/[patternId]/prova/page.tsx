@@ -11,6 +11,7 @@ import { canEditPatterns, canEditProducts, getMyRole } from "@/lib/org-access";
 import { currentVersionsFilter, LOOK_OPTIONS_MAX, lookOptionsFrom } from "@/lib/prova/look-options";
 import { measurementsBySize } from "@/lib/prova/measurements";
 import { fabricOptionsFrom } from "@/lib/prova/fabric-options";
+import { readSavedBodies } from "@/lib/prova/saved-bodies";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
 import { ProvaPainel } from "./prova-painel";
@@ -58,7 +59,7 @@ async function Prova({ params }: { params: Params }) {
     );
   }
 
-  const [versionRes, chartRes, role, othersRes, productRes, photosRes, photoLimitRes, fabricsRes] = await Promise.all([
+  const [versionRes, chartRes, role, othersRes, productRes, photosRes, photoLimitRes, fabricsRes, bodiesRes] = await Promise.all([
     supabase.from("pattern_versions").select("document").eq("pattern_id", pattern.id).eq("number", pattern.current_version).maybeSingle(),
     pattern.size_chart_id
       ? supabase.from("size_charts").select("id, name").eq("id", pattern.size_chart_id).eq("org_id", orgId).maybeSingle()
@@ -84,6 +85,8 @@ async function Prova({ params }: { params: Params }) {
       .select("id, name, preset, weight_gsm, stretch_pct, drape, thickness_mm, texture_cm")
       .eq("org_id", orgId)
       .order("name"),
+    // Manequins salvos (corpo com nome), da organização.
+    supabase.from("body_presets").select("id, name, measurements, conditions, updated_at").eq("org_id", orgId),
   ]);
   const doc = migratePattern(versionRes.data?.document);
   if (!doc || validatePattern(doc).length > 0) {
@@ -169,6 +172,7 @@ async function Prova({ params }: { params: Params }) {
         catalog={catalog}
         fabricOptions={fabricOptionsFrom(fabricsRes.data ?? [])}
         defaultFabricId={productRes.data?.fabric_id ?? null}
+        savedBodies={readSavedBodies(bodiesRes.data ?? [])}
       />
     </div>
   );

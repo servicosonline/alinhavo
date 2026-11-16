@@ -181,6 +181,7 @@ export function buildMannequin(
   const heelMm = Math.min(HEEL_RANGE[1], Math.max(HEEL_RANGE[0], Number.isFinite(conditions.heel) ? conditions.heel! : 0));
   const shoes: (Limb | undefined)[] = [];
   const legAxes: { a: Vec3; r: number }[][] = [];
+  const armAxes: { a: Vec3; r: number }[][] = [];
   ([1, -1] as const).forEach((side, k) => {
     // Braço: ombro → cotovelo → punho → mão.
     const arm = armPoses[k]!;
@@ -195,6 +196,11 @@ export function buildMannequin(
       { a: elbow, b: wrist, r1: rElbow, r2: rWrist },
       { a: wrist, b: fingertip, r1: rWrist * 1.1, r2: rWrist * 0.6 },
     );
+    armAxes.push([
+      { a: joint, r: rUpperArm },
+      { a: elbow, r: rElbow },
+      { a: wrist, r: rWrist },
+    ]);
     const tip = { x: side * shoulder.halfWidth * 0.97, y: shoulderY, z: shoulder.centerZ };
     if (side === 1) shoulderPoints.left = tip;
     else shoulderPoints.right = tip;
@@ -236,7 +242,7 @@ export function buildMannequin(
     }
   });
   // Membro cortado: só o que fica entra no desenho e no colisor. Os pontos de
-  // referência da perna continuam (a calça sabe onde a perna estaria e cai vazia).
+  // referência da perna e do braço continuam (a calça e a manga sabem onde o membro estaria e caem vazias).
   for (const id of LIMB_IDS) {
     const kept = cutChain(chains[id], conditions.limbs?.[id] ?? LIMB_WHOLE);
     (id.endsWith("Arm") ? limbs : legLimbs).push(...kept);
@@ -440,6 +446,10 @@ export function buildMannequin(
       legs: {
         left: legAxes[0]!.map((p) => ({ ...down(p.a), r: p.r })),
         right: legAxes[1]!.map((p) => ({ ...down(p.a), r: p.r })),
+      },
+      arms: {
+        left: armAxes[0]!.map((p) => ({ ...down(p.a), r: p.r })),
+        right: armAxes[1]!.map((p) => ({ ...down(p.a), r: p.r })),
       },
     },
   };

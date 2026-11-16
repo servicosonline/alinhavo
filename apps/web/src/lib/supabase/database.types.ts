@@ -427,6 +427,18 @@ export type NestJobRow = {
   finished_at: string | null;
 };
 
+/** Manequim salvo na Prova (medidas em mm e condições; formato lido por lib/prova/saved-bodies.ts). */
+export type BodyPresetRow = {
+  id: string;
+  org_id: string;
+  name: string;
+  measurements: Json;
+  conditions: Json;
+  created_by: string | null;
+  created_at: string;
+  updated_at: string;
+};
+
 export type CommentRow = {
   id: string;
   org_id: string;
@@ -694,6 +706,12 @@ export type Database = {
         Insert: { org_id: string; month: string; pilots_cut: number };
         Update: { pilots_cut?: number };
         Relationships: [Fk<"roi_months_org_id_fkey", "org_id", "orgs">];
+      };
+      body_presets: {
+        Row: BodyPresetRow;
+        Insert: { org_id: string; name: string; measurements: Json; conditions?: Json };
+        Update: { name?: string; measurements?: Json; conditions?: Json };
+        Relationships: [Fk<"body_presets_org_id_fkey", "org_id", "orgs">];
       };
       fabrics: {
         Row: FabricRow;

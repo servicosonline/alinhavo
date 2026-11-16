@@ -13,7 +13,8 @@ import { getBrowserClient } from "@/lib/supabase/client";
 import type { LookOption } from "@/lib/prova/look";
 import { generateCatalogPhoto } from "../../../produtos/catalog-actions";
 import { savePatternVersion } from "../../actions";
-import { fabricPhoto, requestApproval } from "./actions";
+import type { SavedBody, SavedBodyLibrary } from "@/lib/prova/saved-bodies";
+import { deleteBodyPreset, fabricPhoto, requestApproval, saveBodyPreset } from "./actions";
 
 const noSubscribe = () => () => {};
 
@@ -33,7 +34,10 @@ export function ProvaPainel({
   catalog,
   fabricOptions,
   defaultFabricId,
+  savedBodies,
 }: {
+  /** Manequins salvos da organização (lidos pela RLS). */
+  savedBodies: SavedBody[];
   /** Tecidos cadastrados (sem as fotos, que vêm ao escolher) e o do produto ligado ao molde. */
   fabricOptions: ProvaFabricOption[];
   defaultFabricId: string | null;
@@ -115,6 +119,16 @@ export function ProvaPainel({
     [catalog, orgId],
   );
 
+  const bodyLibrary = useMemo<SavedBodyLibrary>(
+    () => ({
+      initial: savedBodies,
+      canEdit,
+      save: (name, payload) => saveBodyPreset(orgId, name, payload),
+      remove: (id) => deleteBodyPreset(orgId, id),
+    }),
+    [savedBodies, canEdit, orgId],
+  );
+
   return (
     <>
       <p className="text-xs text-tinta-suave" role="status">
@@ -130,6 +144,7 @@ export function ProvaPainel({
         fabricOptions={fabricOptions}
         defaultFabricId={defaultFabricId}
         loadFabricPhoto={loadFabricPhoto}
+        bodyLibrary={bodyLibrary}
       />
     </>
   );

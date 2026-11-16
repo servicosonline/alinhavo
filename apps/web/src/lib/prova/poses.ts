@@ -13,6 +13,11 @@ export const POSE_NAME = Object.fromEntries(POSE_OPTIONS.map((p) => [p.id, p.nam
 /** Saltos da tela, em mm (0 = descalço). */
 export const HEEL_OPTIONS = [0, 30, 50, 80, 100, 120] as const;
 
+/** O salto da lista mais perto (um manequim salvo pode trazer outro valor). */
+export function nearestHeel(mm: number): number {
+  return HEEL_OPTIONS.reduce<number>((best, h) => (Math.abs(h - mm) < Math.abs(best - mm) ? h : best), 0);
+}
+
 export function heelName(mm: number): string {
   return mm <= 0 ? "Descalço" : `Salto de ${(mm / 10).toLocaleString("pt-BR")} cm`;
 }

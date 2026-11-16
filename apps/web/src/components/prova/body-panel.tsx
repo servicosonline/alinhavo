@@ -20,7 +20,9 @@ import {
   suggestedBelly,
   type BodyTypeId,
 } from "@/lib/prova/body";
+import { applySavedBody, type SavedBodyLibrary } from "@/lib/prova/saved-bodies";
 import { formatCm } from "@/lib/units";
+import { SavedBodiesSection } from "./saved-bodies-section";
 import { ui } from "../ui";
 
 /** Espera entre a última mudança e remontar a Prova (arrastar o controle não remonta a cada passo). */
@@ -36,6 +38,11 @@ type Props = {
   /** Membro cortado e gestante (valem em qualquer tamanho). */
   conditions: BodyConditions;
   onConditions: (conditions: BodyConditions) => void;
+  /** Salto da tela (mm), que vai junto ao salvar o manequim. */
+  heel?: number;
+  /** Manequins salvos (só no painel). Carregar entrega tudo de uma vez: medidas, condições e salto. */
+  library?: SavedBodyLibrary;
+  onLoadSaved?: (loaded: ReturnType<typeof applySavedBody>) => void;
   disabled?: boolean;
 };
 
@@ -60,7 +67,7 @@ function useDraft<T>(value: T, commit: (v: T) => void) {
  * cortado) e cada medida que o corpo usa, preenchida pela tabela (ou
  * estimada), com controle para trocar. Nada disso muda a tabela de medidas.
  */
-export function BodyPanel({ table, overrides, onChange, conditions, onConditions, disabled }: Props) {
+export function BodyPanel({ table, overrides, onChange, conditions, onConditions, heel = 0, library, onLoadSaved, disabled }: Props) {
   const [draft, setDraft] = useDraft(overrides, onChange);
   const [cond, setCond] = useDraft(conditions, onConditions);
   const [bodyType, setBodyType] = useState<BodyTypeId | "">("");
@@ -85,6 +92,20 @@ export function BodyPanel({ table, overrides, onChange, conditions, onConditions
           Troque o tipo de corpo, as condições e as medidas para ver o molde em outro corpo. As medidas valem neste tamanho; as condições, em
           todos. A tabela de medidas não muda.
         </p>
+
+        {library && onLoadSaved && (
+          <SavedBodiesSection
+            library={library}
+            values={values}
+            conditions={cond}
+            heel={heel}
+            disabled={disabled}
+            onLoad={(saved) => {
+              setBodyType("");
+              onLoadSaved(applySavedBody(saved, table));
+            }}
+          />
+        )}
 
         <fieldset className="space-y-2" disabled={disabled}>
           <legend className={`${ui.eyebrow} text-[11px]`}>Tipo de corpo</legend>

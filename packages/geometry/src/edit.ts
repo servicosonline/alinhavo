@@ -13,7 +13,7 @@ const lerp = (a: Point, b: Point, t: number): Point => ({ x: a.x + (b.x - a.x) *
 const round = (v: number) => Math.round(v * 10) / 10; // décimo de mm
 
 export function emptyDocument(sizes: string[] = ["P", "M", "G"], baseSize = "M"): PatternDocument {
-  return { schema: 5, unit: "mm", sizes: [...sizes], baseSize, pieces: [], seams: [] };
+  return { schema: 6, unit: "mm", sizes: [...sizes], baseSize, pieces: [], seams: [] };
 }
 
 function updatePiece(doc: PatternDocument, pieceId: string, fn: (p: Piece) => Piece | null): PatternDocument {

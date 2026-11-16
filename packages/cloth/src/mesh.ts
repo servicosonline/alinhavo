@@ -268,16 +268,38 @@ function axisChain(axis: MirrorAxis, border: Point[], spacing: number): { points
  * arestas `extra` forçadas. Devolve só os triângulos de dentro da peça, todos
  * com área positiva.
  */
+/**
+ * Deslocamento dos pontos da borda (mm) na segunda tentativa da triangulação.
+ * O Constrainautor recusa ("Constraining edge intersects point") quando um
+ * ponto fica exatamente alinhado com uma aresta forçada, o que acontece em
+ * lados retos e compridos (a manga longa). Um milionésimo de mm desfaz o
+ * alinhamento exato sem mudar a peça; só quem recusou passa por aqui, então
+ * a malha das outras peças (e a simetria das peças na dobra) não muda.
+ */
+const COLLINEAR_NUDGE = 1e-6;
+
 function triangulate(points: Point[], nb: number, extra: [number, number][] = []): number[] {
-  const coords = new Float64Array(points.length * 2);
-  points.forEach((p, i) => {
-    coords[i * 2] = p.x;
-    coords[i * 2 + 1] = p.y;
-  });
-  const del = new Delaunator(coords);
   const borderEdges: [number, number][] = [];
   for (let i = 0; i < nb; i++) borderEdges.push([i, (i + 1) % nb]);
-  new Constrainautor(del, [...borderEdges, ...extra]);
+  const build = (nudge: number) => {
+    const coords = new Float64Array(points.length * 2);
+    points.forEach((p, i) => {
+      // Na borda, três pontos seguidos vão para lados diferentes: nunca ficam em linha.
+      const k = i < nb ? i % 3 : -1;
+      coords[i * 2] = p.x + (k === 0 ? -nudge : k === 2 ? nudge : 0);
+      coords[i * 2 + 1] = p.y + (k === 1 ? nudge : 0);
+    });
+    const del = new Delaunator(coords);
+    new Constrainautor(del, [...borderEdges, ...extra]);
+    return del;
+  };
+  let del: Delaunator<ArrayLike<number>>;
+  try {
+    del = build(0);
+  } catch (e) {
+    if (!(e instanceof Error) || !/intersects point/.test(e.message)) throw e;
+    del = build(COLLINEAR_NUDGE);
+  }
 
   const border = points.slice(0, nb);
   const tris: number[] = [];
