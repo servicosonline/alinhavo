@@ -320,7 +320,30 @@ type MilestoneRow = {
   position: number;
 } & Timestamps;
 
-export type FabricPreset = "malha" | "planoLeve" | "jeans";
+/** Presets da Prova (os mesmos de packages/cloth/src/fabrics.ts; a trava do banco lista os mesmos). */
+export type FabricPreset =
+  | "malha"
+  | "planoLeve"
+  | "jeans"
+  | "tricoline"
+  | "viscose"
+  | "linho"
+  | "crepe"
+  | "chiffon"
+  | "sarja"
+  | "jeansElastano"
+  | "ribana"
+  | "moletom";
+/** Propriedades do tecido na Prova (todas opcionais). */
+type FabricProvaColumns = {
+  stretch_pct: number | null;
+  drape: number | null;
+  thickness_mm: number | null;
+  /** Foto do tecido, data URL até 200 000 caracteres. */
+  texture: string | null;
+  /** Largura real que a foto mostra, em cm. */
+  texture_cm: number | null;
+};
 type FabricRow = {
   id: string;
   org_id: string;
@@ -331,7 +354,8 @@ type FabricRow = {
   /** centavos por metro linear */
   price_cents: number | null;
   preset: FabricPreset | null;
-} & Timestamps;
+} & FabricProvaColumns &
+  Timestamps;
 export type TrimUnit = "un" | "par" | "m" | "cm";
 type ProductTrimRow = {
   id: string;
@@ -681,7 +705,7 @@ export type Database = {
           weight_gsm?: number | null;
           price_cents?: number | null;
           preset?: FabricPreset | null;
-        };
+        } & Partial<FabricProvaColumns>;
         Update: {
           name?: string;
           composition?: string | null;
@@ -689,7 +713,7 @@ export type Database = {
           weight_gsm?: number | null;
           price_cents?: number | null;
           preset?: FabricPreset | null;
-        };
+        } & Partial<FabricProvaColumns>;
         Relationships: [Fk<"fabrics_org_id_fkey", "org_id", "orgs">];
       };
       product_trims: {

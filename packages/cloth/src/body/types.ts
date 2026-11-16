@@ -11,7 +11,8 @@ import type { MeasurementReading } from "./measurements";
  */
 export type BodyKind = "manequim" | "makehuman";
 
-export type BodyPose = "em-pe" | "passo";
+export type BodyPose = "em-pe" | "passo" | "braco-dobrado" | "bracos-abertos";
+export const BODY_POSES: readonly BodyPose[] = ["em-pe", "passo", "braco-dobrado", "bracos-abertos"];
 
 /** Malha para desenhar: x, y, z por vértice e três índices por triângulo. */
 export type BodyMesh = { positions: Float32Array; indices: Uint32Array };

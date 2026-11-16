@@ -10,6 +10,7 @@ import { isUuid } from "@/lib/ids";
 import { canEditPatterns, canEditProducts, getMyRole } from "@/lib/org-access";
 import { currentVersionsFilter, LOOK_OPTIONS_MAX, lookOptionsFrom } from "@/lib/prova/look-options";
 import { measurementsBySize } from "@/lib/prova/measurements";
+import { fabricOptionsFrom } from "@/lib/prova/fabric-options";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
 import { ProvaPainel } from "./prova-painel";
@@ -57,7 +58,7 @@ async function Prova({ params }: { params: Params }) {
     );
   }
 
-  const [versionRes, chartRes, role, othersRes, productRes, photosRes, photoLimitRes] = await Promise.all([
+  const [versionRes, chartRes, role, othersRes, productRes, photosRes, photoLimitRes, fabricsRes] = await Promise.all([
     supabase.from("pattern_versions").select("document").eq("pattern_id", pattern.id).eq("number", pattern.current_version).maybeSingle(),
     pattern.size_chart_id
       ? supabase.from("size_charts").select("id, name").eq("id", pattern.size_chart_id).eq("org_id", orgId).maybeSingle()
@@ -74,9 +75,15 @@ async function Prova({ params }: { params: Params }) {
       .order("updated_at", { ascending: false })
       .limit(LOOK_OPTIONS_MAX),
     // Fotos de catálogo: o produto ligado a este molde (um por molde) e o uso do mês.
-    supabase.from("products").select("id, name").eq("org_id", orgId).eq("pattern_id", pattern.id).maybeSingle(),
+    supabase.from("products").select("id, name, fabric_id").eq("org_id", orgId).eq("pattern_id", pattern.id).maybeSingle(),
     supabase.rpc("ai_generations_this_month", { p_org_id: orgId, p_kind: "foto_catalogo" }),
     supabase.rpc("ai_limit_for", { p_org_id: orgId, p_kind: "foto_catalogo" }),
+    // Tecidos cadastrados para a Prova, sem as fotos (pesadas: a tela busca a do tecido escolhido).
+    supabase
+      .from("fabrics")
+      .select("id, name, preset, weight_gsm, stretch_pct, drape, thickness_mm, texture_cm")
+      .eq("org_id", orgId)
+      .order("name"),
   ]);
   const doc = migratePattern(versionRes.data?.document);
   if (!doc || validatePattern(doc).length > 0) {
@@ -160,6 +167,8 @@ async function Prova({ params }: { params: Params }) {
         measurementsBySize={measurements.bySize}
         lookOptions={lookOptions}
         catalog={catalog}
+        fabricOptions={fabricOptionsFrom(fabricsRes.data ?? [])}
+        defaultFabricId={productRes.data?.fabric_id ?? null}
       />
     </div>
   );

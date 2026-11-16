@@ -1,4 +1,4 @@
-import type { BodyConditions, BodyOverrides, Decal, MapSummary } from "@alinhavo/cloth";
+import type { BodyConditions, BodyOverrides, BodyPose, Decal, FabricPreset, FabricTuning, MapSummary } from "@alinhavo/cloth";
 import type { PatternDocument } from "@alinhavo/geometry";
 import type { ProvaEdges } from "./edges";
 import type { LookExtra } from "./look";
@@ -8,8 +8,9 @@ import type { LookExtra } from "./look";
  * serializáveis; posições vão em Float32Array transferido (sem cópia).
  */
 
-export type FabricId = "malha" | "planoLeve" | "jeans";
-export type PoseId = "em-pe" | "passo";
+/** Preset de tecido da Prova (a biblioteca do cloth). */
+export type FabricId = FabricPreset;
+export type PoseId = BodyPose;
 
 export type ProvaSetup = {
   doc: PatternDocument;
@@ -17,6 +18,8 @@ export type ProvaSetup = {
   /** Medidas da tabela para o tamanho (nome → mm). */
   measurements: Record<string, number>;
   fabric: FabricId;
+  /** Ajuste do tecido cadastrado (gramatura, espessura, elasticidade, caimento) sobre o preset do molde em prova. */
+  fabricTuning?: FabricTuning;
   pose: PoseId;
   /** Medidas do corpo trocadas na tela, por cima da tabela (o manequim ajustado). */
   body?: BodyOverrides;

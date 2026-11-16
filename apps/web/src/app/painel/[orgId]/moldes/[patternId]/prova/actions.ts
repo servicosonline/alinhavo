@@ -7,6 +7,7 @@ import { getOrigin } from "@/lib/origin";
 import { APPROVAL_DAYS, approvalErrorMessage, approvalLink, type ApprovalSettings } from "@/lib/prova/approval";
 import { base64Bytes, dataUrlBase64, MAX_CAPTURE_BYTES, MAX_CAPTURES, type Capture } from "@/lib/prova/captures";
 import { APPROVAL_VIDEO_BUCKET } from "@/lib/prova/approval-video";
+import { isFabricPhoto, photoCm, type FabricPhoto } from "@/lib/prova/fabric-options";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
 
@@ -83,4 +84,17 @@ export async function revokeApproval(formData: FormData) {
   if (approval?.video_path) await supabase.storage.from(APPROVAL_VIDEO_BUCKET).remove([approval.video_path]);
   await supabase.from("approvals").delete().eq("id", approvalId).eq("org_id", orgId);
   revalidatePath(`/painel/${orgId}/moldes/${patternId}`);
+}
+
+/**
+ * Foto de um tecido cadastrado, para a Prova (a lista da página vem sem as
+ * fotos, que são pesadas). Pela RLS: só membros da organização leem.
+ */
+export async function fabricPhoto(orgId: string, fabricId: string): Promise<FabricPhoto | null> {
+  if (!getSupabaseConfig() || !isUuid(orgId) || !isUuid(fabricId)) return null;
+  if (!(await getCurrentUser())) return null;
+  const supabase = await createClient();
+  const { data } = await supabase.from("fabrics").select("texture, texture_cm").eq("id", fabricId).eq("org_id", orgId).maybeSingle();
+  if (!data || !isFabricPhoto(data.texture)) return null;
+  return { dataUrl: data.texture, cm: photoCm(data.texture_cm === null ? undefined : Number(data.texture_cm)) };
 }

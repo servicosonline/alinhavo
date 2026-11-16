@@ -42,6 +42,16 @@ export const FABRIC_LOOK: Record<FabricId, FabricLook> = {
   planoLeve: { weave: "tela", tileMm: 4, threads: 12, normalScale: 0.35, roughness: 0.82, sheen: 0.35, sheenRoughness: 0.55, heatherMm: 50, heatherStreaks: 50, heather: 0.05 },
   malha: { weave: "jersey", tileMm: 6, threads: 4, normalScale: 0.7, roughness: 0.9, sheen: 0.55, sheenRoughness: 0.45, heatherMm: 50, heatherStreaks: 40, heather: 0.07 },
   jeans: { weave: "sarja", tileMm: 6, threads: 12, normalScale: 0.85, roughness: 0.93, sheen: 0.12, sheenRoughness: 0.7, heatherMm: 80, heatherStreaks: 64, heather: 0.24 },
+  // Biblioteca (nov/2026): também de olho, a calibrar.
+  tricoline: { weave: "tela", tileMm: 3, threads: 14, normalScale: 0.3, roughness: 0.8, sheen: 0.3, sheenRoughness: 0.55, heatherMm: 50, heatherStreaks: 50, heather: 0.04 },
+  viscose: { weave: "tela", tileMm: 3, threads: 14, normalScale: 0.2, roughness: 0.65, sheen: 0.6, sheenRoughness: 0.35, heatherMm: 50, heatherStreaks: 40, heather: 0.03 },
+  linho: { weave: "tela", tileMm: 6, threads: 10, normalScale: 0.6, roughness: 0.92, sheen: 0.2, sheenRoughness: 0.65, heatherMm: 40, heatherStreaks: 80, heather: 0.14 },
+  crepe: { weave: "tela", tileMm: 2, threads: 16, normalScale: 0.5, roughness: 0.88, sheen: 0.35, sheenRoughness: 0.5, heatherMm: 40, heatherStreaks: 40, heather: 0.05 },
+  chiffon: { weave: "tela", tileMm: 2, threads: 16, normalScale: 0.15, roughness: 0.6, sheen: 0.7, sheenRoughness: 0.3, heatherMm: 50, heatherStreaks: 30, heather: 0.02 },
+  sarja: { weave: "sarja", tileMm: 5, threads: 12, normalScale: 0.7, roughness: 0.9, sheen: 0.15, sheenRoughness: 0.65, heatherMm: 60, heatherStreaks: 50, heather: 0.08 },
+  jeansElastano: { weave: "sarja", tileMm: 6, threads: 12, normalScale: 0.8, roughness: 0.92, sheen: 0.15, sheenRoughness: 0.65, heatherMm: 80, heatherStreaks: 64, heather: 0.2 },
+  ribana: { weave: "jersey", tileMm: 4, threads: 4, normalScale: 0.9, roughness: 0.9, sheen: 0.5, sheenRoughness: 0.45, heatherMm: 50, heatherStreaks: 40, heather: 0.06 },
+  moletom: { weave: "jersey", tileMm: 8, threads: 4, normalScale: 0.6, roughness: 0.95, sheen: 0.45, sheenRoughness: 0.5, heatherMm: 40, heatherStreaks: 60, heather: 0.12 },
 };
 
 /** Lado padrão do ladrilho, em pixels. */

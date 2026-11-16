@@ -126,8 +126,11 @@ function penetration(r: ReturnType<typeof look>, innerIds: string[], outerIds: s
       const len = Math.hypot(n[0]!, n[1]!, n[2]!) || 1;
       side = (((px - q[0]!) * n[0]! + (py - q[1]!) * n[1]! + (pz - q[2]!) * n[2]!) / len) * signs[t]!;
     }
-    // Só conta o que está perto da roupa de baixo (a barra da saia, longe da calça, não entra).
-    if (Math.sqrt(best) < 40) depths.push(-side);
+    // Só conta o que está perto da roupa de baixo (a barra da saia, longe da calça, não entra),
+    // e só com o ponto mais perto no miolo do triângulo (distância ≈ profundidade): com ele na
+    // aresta, o lado pelo plano não diz nada (entre as pernas da calça, a 4 cm do tecido, "entrava").
+    const dist = Math.sqrt(best);
+    if (dist < 40) depths.push(dist - Math.abs(side) < 2 ? -side : Math.min(0, -side));
   }
   depths.sort((a, b) => b - a);
   return { inside: depths.filter((d) => d > 1).length, deepest: depths[0] ?? 0, near: depths.length };

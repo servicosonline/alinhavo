@@ -3,13 +3,16 @@
  * pública). Puras, para testar sem banco.
  */
 
+import { FABRIC_PRESETS, FABRICS } from "@alinhavo/cloth";
+import { POSE_NAME as POSE_LABELS } from "./poses";
+
 export const APPROVAL_DAYS = [7, 14, 30] as const;
 export type ApprovalDays = (typeof APPROVAL_DAYS)[number];
 
 export type ApprovalSettings = { size?: string; fabric?: string; pose?: string };
 
-const FABRIC_NAME: Record<string, string> = { planoLeve: "Plano leve", malha: "Malha", jeans: "Jeans" };
-const POSE_NAME: Record<string, string> = { "em-pe": "Em pé", passo: "Passo" };
+const FABRIC_NAME: Record<string, string> = Object.fromEntries(FABRIC_PRESETS.map((id) => [id, FABRICS[id].name]));
+const POSE_NAME: Record<string, string> = POSE_LABELS;
 
 export const STATUS_LABEL = { pendente: "Aguardando resposta", aprovado: "Aprovado", ajustes: "Pediu ajustes" } as const;
 

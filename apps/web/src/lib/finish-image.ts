@@ -26,7 +26,11 @@ export const ENCODINGS: readonly { type: "image/png" | "image/webp" | "image/jpe
  * FINISH_IMAGE_SIDE px e FINISH_IMAGE_MAX caracteres), ou a mensagem do que
  * deu errado. Só no navegador.
  */
-export async function prepareFinishImage(file: File): Promise<{ image: string; width: number; height: number } | { error: string }> {
+export async function prepareFinishImage(
+  file: File,
+  /** Para a mensagem de erro ("da estampa", "da foto do tecido"). */
+  what = "da estampa",
+): Promise<{ image: string; width: number; height: number } | { error: string }> {
   if (!/^image\/(png|jpeg|webp)$/.test(file.type)) return { error: "Escolha uma imagem PNG, JPEG ou WebP." };
   let bitmap: ImageBitmap;
   try {
@@ -48,7 +52,7 @@ export async function prepareFinishImage(file: File): Promise<{ image: string; w
         if (url.length <= FINISH_IMAGE_MAX) return { image: url, width: bitmap.width, height: bitmap.height };
       }
     }
-    return { error: "A imagem não coube no limite da estampa (cerca de 150 KB), mesmo reduzida." };
+    return { error: `A imagem não coube no limite ${what} (cerca de 150 KB), mesmo reduzida.` };
   } finally {
     bitmap.close();
   }

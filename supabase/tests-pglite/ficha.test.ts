@@ -84,6 +84,36 @@ describe("tecidos e aviamentos", () => {
       as(db, a.dono, (q) => q.query("insert into public.fabrics (org_id, name, width_mm) values ($1, 'Estreito', 50)", [a.orgId])),
     ).rejects.toThrow(/check/);
   });
+
+  it("biblioteca: presets novos, propriedades da Prova e foto do tecido; só quem edita grava, todo membro lê", async () => {
+    const c = await cenario();
+    const foto = "data:image/jpeg;base64,/9j/4AAQSkZJRg==";
+    const fab = await as(db, c.estilista, async (q) =>
+      (
+        await q.query<{ id: string }>(
+          "insert into public.fabrics (org_id, name, preset, stretch_pct, drape, thickness_mm, texture, texture_cm) values ($1, 'Viscose estampada', 'viscose', 6, 5, 0.4, $2, 20) returning id",
+          [c.orgId, foto],
+        )
+      ).rows[0]!,
+    );
+    await as(db, c.dono, (q) => q.query("update public.fabrics set drape = 4, stretch_pct = 8 where id = $1", [fab.id]));
+    const row = await as(db, c.leitura, async (q) =>
+      (await q.query<{ drape: number; stretch_pct: string; texture: string }>("select drape, stretch_pct, texture from public.fabrics where id = $1", [fab.id])).rows[0]!,
+    );
+    expect([row.drape, Number(row.stretch_pct), row.texture]).toEqual([4, 8, foto]);
+    const up = await as(db, c.leitura, (q) => q.query("update public.fabrics set drape = 1 where id = $1", [fab.id]));
+    expect(up.affectedRows).toBe(0);
+
+    const bad = (col: string, value: unknown) =>
+      as(db, c.dono, (q) => q.query(`insert into public.fabrics (org_id, name, ${col}) values ($1, 'X', $2)`, [c.orgId, value]));
+    await expect(bad("preset", "lycra")).rejects.toThrow(/check/);
+    await expect(bad("drape", 6)).rejects.toThrow(/check/);
+    await expect(bad("thickness_mm", 3)).rejects.toThrow(/check/);
+    await expect(bad("stretch_pct", 0)).rejects.toThrow(/check/);
+    await expect(bad("texture", "https://exemplo.com/foto.jpg")).rejects.toThrow(/check/);
+    await expect(bad("texture", "data:image/jpeg;base64," + "A".repeat(200_000))).rejects.toThrow(/check/);
+    await expect(bad("texture_cm", 0)).rejects.toThrow(/check/);
+  });
 });
 
 describe("ficha técnica", () => {

@@ -3,11 +3,13 @@
 import type { PatternDocument } from "@alinhavo/geometry";
 import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { createPortal } from "react-dom";
-import type { BodyConditions, BodyOverrides, MapSummary } from "@alinhavo/cloth";
+import { FABRIC_PRESETS, type BodyConditions, type BodyOverrides, type MapSummary } from "@alinhavo/cloth";
 import { heat, LOOSE_MM } from "@/lib/prova/colors";
 import type { ProvaEdges } from "@/lib/prova/edges";
 import type { FabricId, FromWorker, PoseId, ProvaMaps, ProvaPart, ToWorker } from "@/lib/prova/protocol";
 import { lookSetup, lookStart, type LookItem, type LookOption } from "@/lib/prova/look";
+import { optionChoice, presetChoice, resolveFabric, type FabricPhoto, type ProvaFabricOption } from "@/lib/prova/fabric-options";
+import { HEEL_OPTIONS, heelName, POSE_OPTIONS } from "@/lib/prova/poses";
 import { FABRIC_COLOR, garmentPaint } from "@/lib/prova/paint";
 import { defaultQuality, deviceHints, QUALITIES, type RenderQuality } from "@/lib/prova/quality";
 import { formatCm } from "@/lib/units";
@@ -24,7 +26,10 @@ import { GradeView } from "./grade-view";
 import { FABRIC_NAME, LookPanel } from "./look-panel";
 import type { ProvaScene } from "./scene";
 
-const FABRICS: { id: FabricId; name: string }[] = (["planoLeve", "malha", "jeans"] as const).map((id) => ({ id, name: FABRIC_NAME[id] }));
+/** Biblioteca de tecidos (presets), na ordem do cloth. */
+const PRESET_OPTIONS: { id: FabricId; name: string }[] = FABRIC_PRESETS.map((id) => ({ id, name: FABRIC_NAME[id] }));
+/** Sem tecidos cadastrados (o /experimentar), só a biblioteca. */
+const NO_FABRICS: ProvaFabricOption[] = [];
 /** Sem roupas para o look, o painel do look não aparece. */
 const NO_LOOK: LookOption[] = [];
 /** Corpo só pela tabela (sem medida trocada na tela). */
@@ -40,10 +45,6 @@ const useDeviceQuality = () =>
     (): RenderQuality => "alta",
   );
 
-const POSES: { id: PoseId; name: string }[] = [
-  { id: "em-pe", name: "Em pé" },
-  { id: "passo", name: "Passo" },
-];
 
 /** Nome legível das medidas que o corpo pode estimar. */
 const MEASUREMENT_NAME: Record<string, string> = {
@@ -126,9 +127,15 @@ type Props = {
    * `null` = o elemento ainda está montando.
    */
   controlsTarget?: HTMLElement | null;
+  /** Tecidos cadastrados pela confecção (com propriedades e foto); sem eles, só a biblioteca. */
+  fabricOptions?: ProvaFabricOption[];
+  /** Tecido cadastrado que já começa escolhido (o do produto ligado ao molde). */
+  defaultFabricId?: string | null;
+  /** Busca a foto de um tecido cadastrado (a lista vem sem elas, que são pesadas). */
+  loadFabricPhoto?: (fabricId: string) => Promise<FabricPhoto | null>;
 };
 
-export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, approval, catalogPhoto, lookOptions = NO_LOOK, controlsTarget }: Props) {
+export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, approval, catalogPhoto, lookOptions = NO_LOOK, controlsTarget, fabricOptions = NO_FABRICS, defaultFabricId = null, loadFabricPhoto }: Props) {
   const split = controlsTarget !== undefined;
   // Molde em prova: começa no que veio da página e muda a cada ajuste aplicado.
   // Se a página mandar outro molde (versão nova salva), recomeça dele.
@@ -146,8 +153,31 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
   const [sizeChoice, setSize] = useState(doc.baseSize);
   // Na tela dividida a grade muda no editor: tamanho que saiu volta ao base.
   const size = doc.sizes.includes(sizeChoice) ? sizeChoice : doc.baseSize;
-  const [fabric, setFabric] = useState<FabricId>("planoLeve");
+  // Tecido: um preset da biblioteca ("p:…") ou um cadastrado ("o:…"), que traz ajuste e foto.
+  const [fabricChoice, setFabricChoice] = useState(() =>
+    defaultFabricId && fabricOptions.some((o) => o.id === defaultFabricId) ? optionChoice(defaultFabricId) : presetChoice("planoLeve"),
+  );
+  const resolved = useMemo(() => resolveFabric(fabricChoice, fabricOptions), [fabricChoice, fabricOptions]);
+  const fabric = resolved.preset;
+  const fabricTuning = resolved.tuning;
+  // Fotos buscadas ao escolher o tecido (id → foto; null = não tinha ou falhou).
+  const [photos, setPhotos] = useState<Record<string, FabricPhoto | null>>({});
+  const pendingId = resolved.photoPending && resolved.optionId && !(resolved.optionId in photos) ? resolved.optionId : null;
+  useEffect(() => {
+    if (!pendingId || !loadFabricPhoto) return;
+    let alive = true;
+    loadFabricPhoto(pendingId)
+      .catch(() => null)
+      .then((p) => alive && setPhotos((all) => ({ ...all, [pendingId]: p })));
+    return () => {
+      alive = false;
+    };
+  }, [pendingId, loadFabricPhoto]);
+  const photo = resolved.photo ?? (resolved.optionId ? (photos[resolved.optionId] ?? null) : null);
+  const photoRef = useRef(photo);
   const [pose, setPose] = useState<PoseId>("em-pe");
+  /** Salto, em mm (0 = descalço). Como as condições, vale em todos os tamanhos. */
+  const [heel, setHeel] = useState(0);
   // Medidas do corpo trocadas na tela: valem para um tamanho; trocar o tamanho volta à tabela.
   const [bodyBy, setBodyBy] = useState<{ size: string; overrides: BodyOverrides }>({ size: doc.baseSize, overrides: NO_BODY });
   const body = bodyBy.size === size ? bodyBy.overrides : NO_BODY;
@@ -155,6 +185,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
   const table = measurementsBySize[size] ?? NO_BODY;
   // Condições (membro cortado, gestante) são da pessoa, não do tamanho: ficam ao trocar o tamanho.
   const [conditions, setConditions] = useState<BodyConditions>(NO_CONDITIONS);
+  const bodyConditions = useMemo<BodyConditions>(() => (heel > 0 ? { ...conditions, heel } : conditions), [conditions, heel]);
   const deviceQuality = useDeviceQuality();
   /** null = a do aparelho (`defaultQuality`), até a pessoa escolher. */
   const [chosenQuality, setChosenQuality] = useState<RenderQuality | null>(null);
@@ -173,7 +204,8 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
   const [lookNotes, setLookNotes] = useState<string[]>([]);
   // Camada do molde em prova e as outras roupas, para o Worker (estável entre renders).
   const { layer, extras } = useMemo(() => lookSetup(look, lookOptions), [look, lookOptions]);
-  const color = FABRIC_COLOR[fabric];
+  // Com a foto do tecido, a cor vem dela (o material fica branco para não tingir).
+  const color = photo ? "#ffffff" : FABRIC_COLOR[fabric];
   const colorRef = useRef(color);
   const viewModeRef = useRef<View>("tecido");
   /** Últimos mapas recebidos, as roupas (com o look) e o total de vértices, para pintar ao trocar a vista. */
@@ -242,6 +274,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
       if (disposed || !viewRef.current) return;
       const scene = new ProvaScene(viewRef.current);
       scene.setQuality(qualityRef.current);
+      scene.setFabricPhoto(photoRef.current);
       sceneRef.current = scene;
       scene.onPick(setSelected);
       if (lastReady) show(scene, lastReady);
@@ -257,7 +290,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
 
   // Trocar tamanho, tecido, pose ou o molde monta a Prova de novo; as capturas antigas
   // mostram outra roupa, então saem (a aprovação guarda uma configuração só).
-  const setupKey = `${size}|${fabric}|${pose}|${JSON.stringify(body)}|${JSON.stringify(conditions)}|${look.map((i) => `${i.key}:${i.fabric}`).join(",")}`;
+  const setupKey = `${size}|${fabric}|${pose}|${fabricChoice}|${heel}|${JSON.stringify(body)}|${JSON.stringify(conditions)}|${look.map((i) => `${i.key}:${i.fabric}`).join(",")}`;
   const [capturedFor, setCapturedFor] = useState({ setupKey, doc, video: 0 });
   /** O vídeo 360° gravado (vai junto no pedido de aprovação). */
   const [video, setVideo] = useState<Blob | null>(null);
@@ -307,8 +340,17 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
     if (!worker) return;
     setStatus({ kind: "loading" });
     const measurements = measurementsBySize[size] ?? {};
-    worker.postMessage({ type: "init", setup: { doc, size, measurements, fabric, pose, body, conditions, layer, extras } } satisfies ToWorker);
-  }, [doc, size, fabric, pose, body, conditions, measurementsBySize, color, layer, extras]);
+    worker.postMessage({
+      type: "init",
+      setup: { doc, size, measurements, fabric, fabricTuning, pose, body, conditions: bodyConditions, layer, extras },
+    } satisfies ToWorker);
+  }, [doc, size, fabric, fabricTuning, pose, body, bodyConditions, measurementsBySize, color, layer, extras]);
+
+  // A foto do tecido (ou a volta ao mesclado) muda só o material, não a simulação.
+  useEffect(() => {
+    photoRef.current = photo;
+    sceneRef.current?.setFabricPhoto(photo);
+  }, [photo]);
 
   // A borda escolhida (pelo clique ou pela lista) fica destacada na roupa.
   useEffect(() => {
@@ -370,7 +412,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
   const restart = () => {
     workerRef.current?.postMessage({
       type: "init",
-      setup: { doc, size, measurements: measurementsBySize[size] ?? {}, fabric, pose, body, conditions, layer, extras },
+      setup: { doc, size, measurements: measurementsBySize[size] ?? {}, fabric, fabricTuning, pose, body, conditions: bodyConditions, layer, extras },
     } satisfies ToWorker);
     setStatus({ kind: "loading" });
   };
@@ -431,20 +473,48 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
           </label>
           <label className="block text-xs">
             <span className="font-medium">Tecido</span>
-            <select className={`${ui.input} text-sm`} value={fabric} onChange={(e) => setFabric(e.target.value as FabricId)}>
-              {FABRICS.map((f) => (
-                <option key={f.id} value={f.id}>
-                  {f.name}
+            <select className={`${ui.input} text-sm`} value={fabricChoice} onChange={(e) => setFabricChoice(e.target.value)} data-fabric-select>
+              {fabricOptions.length > 0 && (
+                <optgroup label="Tecidos da confecção">
+                  {fabricOptions.map((o) => (
+                    <option key={o.id} value={optionChoice(o.id)}>
+                      {o.name}
+                    </option>
+                  ))}
+                </optgroup>
+              )}
+              <optgroup label="Biblioteca">
+                {PRESET_OPTIONS.map((f) => (
+                  <option key={f.id} value={presetChoice(f.id)}>
+                    {f.name}
+                  </option>
+                ))}
+              </optgroup>
+            </select>
+            {fabricChoice.startsWith("o:") && (
+              <span className="mt-1 block text-[11px] text-tinta-suave" data-fabric-note>
+                Comportamento de {FABRIC_NAME[fabric]}
+                {fabricTuning && Object.keys(fabricTuning).length > 0 ? ", ajustado pelo cadastro" : ""}
+                {photo ? `; com a foto do tecido (${formatCm(photo.cm * 10)} cm)` : pendingId ? "; buscando a foto…" : ""}.
+              </span>
+            )}
+          </label>
+          <label className="block text-xs">
+            <span className="font-medium">Pose</span>
+            <select className={`${ui.input} text-sm`} value={pose} onChange={(e) => setPose(e.target.value as PoseId)} data-pose-select>
+              {POSE_OPTIONS.map((p) => (
+                <option key={p.id} value={p.id} title={p.hint}>
+                  {p.name}
                 </option>
               ))}
             </select>
           </label>
           <label className="block text-xs">
-            <span className="font-medium">Pose</span>
-            <select className={`${ui.input} text-sm`} value={pose} onChange={(e) => setPose(e.target.value as PoseId)}>
-              {POSES.map((p) => (
-                <option key={p.id} value={p.id}>
-                  {p.name}
+            <span className="font-medium">Calçado</span>
+            <select className={`${ui.input} text-sm`} value={heel} onChange={(e) => setHeel(Number(e.target.value))} data-heel-select>
+              {HEEL_OPTIONS.map((h) => (
+                <option key={h} value={h}>
+                  {heelName(h)}
                 </option>
               ))}
             </select>
@@ -556,7 +626,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
           disabled={status.kind !== "running" && status.kind !== "paused"}
           note={captureNote}
         >
-          {approval && <ApprovalRequest requester={approval} settings={{ size, fabric, pose }} captures={captures} video={video} />}
+          {approval && <ApprovalRequest requester={approval} settings={{ size, fabric: resolved.name, pose }} captures={captures} video={video} />}
           {catalogPhoto && <CatalogPhotoRequest requester={catalogPhoto} captures={captures} />}
         </CapturesPanel>
         )}

@@ -1,3 +1,5 @@
+import { FABRIC_PRESETS, FABRICS } from "@alinhavo/cloth";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { EmptyState, Loading, NotConfigured, PageHeader } from "@/components/page-shell";
@@ -13,7 +15,7 @@ import { formatCm } from "@/lib/units";
 import { deleteFabric } from "./actions";
 import { FabricForm } from "./fabric-form";
 
-const PRESET_LABEL: Record<string, string> = { planoLeve: "Plano leve", malha: "Malha", jeans: "Jeans" };
+const PRESET_LABEL: Record<string, string> = Object.fromEntries(FABRIC_PRESETS.map((id) => [id, FABRICS[id].name]));
 
 export default function TecidosPage({ params }: PageProps<"/painel/[orgId]/tecidos">) {
   if (!getSupabaseConfig()) return <NotConfigured />;
@@ -32,7 +34,12 @@ async function Tecidos({ params }: { params: PageProps<"/painel/[orgId]/tecidos"
   const [orgRes, role, fabRes] = await Promise.all([
     supabase.from("orgs").select("name").eq("id", orgId).maybeSingle(),
     getMyRole(supabase, orgId, user.id),
-    supabase.from("fabrics").select("id, name, composition, width_mm, weight_gsm, price_cents, preset").eq("org_id", orgId).order("name"),
+    // Sem a foto (pesada): a lista só diz se tem.
+    supabase
+      .from("fabrics")
+      .select("id, name, composition, width_mm, weight_gsm, price_cents, preset, stretch_pct, drape, texture_cm")
+      .eq("org_id", orgId)
+      .order("name"),
   ]);
   if (!orgRes.data) notFound();
   const fabrics = fabRes.data ?? [];
@@ -66,12 +73,18 @@ async function Tecidos({ params }: { params: PageProps<"/painel/[orgId]/tecidos"
                     f.width_mm && `largura ${formatCm(f.width_mm)} cm`,
                     f.weight_gsm && `${String(f.weight_gsm).replace(".", ",")} g/m²`,
                     f.price_cents != null && `${formatMoney(f.price_cents)}/m`,
-                    f.preset && `Prova: ${PRESET_LABEL[f.preset]}`,
+                    f.preset && `Prova: ${PRESET_LABEL[f.preset] ?? f.preset}`,
+                    f.stretch_pct != null && `estica ${String(f.stretch_pct).replace(".", ",")}%`,
+                    f.texture_cm != null && "com foto",
                   ]
                     .filter(Boolean)
                     .join(" · ") || "sem dados técnicos"}
                 </span>
               </span>
+              <span className="flex items-center gap-2">
+              <Link href={`/painel/${orgId}/tecidos/${f.id}`} className={ui.buttonGhost} data-fabric-edit>
+                {canEdit ? "Editar" : "Ver"}
+              </Link>
               {canEdit && (
                 <form action={deleteFabric}>
                   <input type="hidden" name="orgId" value={orgId} />
@@ -81,6 +94,7 @@ async function Tecidos({ params }: { params: PageProps<"/painel/[orgId]/tecidos"
                   </SubmitButton>
                 </form>
               )}
+              </span>
             </li>
           ))}
         </ul>

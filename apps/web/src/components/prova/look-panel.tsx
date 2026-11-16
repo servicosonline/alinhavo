@@ -1,5 +1,6 @@
 "use client";
 
+import { FABRIC_PRESETS, FABRICS } from "@alinhavo/cloth";
 import { useState } from "react";
 import { addToLook, LOOK_MAX, moveInLook, removeFromLook, setLookFabric, type LookItem, type LookOption } from "@/lib/prova/look";
 import { FABRIC_COLOR } from "@/lib/prova/paint";
@@ -7,8 +8,8 @@ import type { FabricId } from "@/lib/prova/protocol";
 import { lookShade } from "@/lib/prova/look";
 import { ui } from "../ui";
 
-export const FABRIC_NAME: Record<FabricId, string> = { planoLeve: "Plano leve", malha: "Malha", jeans: "Jeans" };
-const FABRIC_IDS = Object.keys(FABRIC_NAME) as FabricId[];
+export const FABRIC_NAME = Object.fromEntries(FABRIC_PRESETS.map((id) => [id, FABRICS[id].name])) as Record<FabricId, string>;
+const FABRIC_IDS: readonly FabricId[] = FABRIC_PRESETS;
 
 type Props = {
   look: LookItem[];
