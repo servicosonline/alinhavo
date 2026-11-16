@@ -1,4 +1,4 @@
-import type { BodyConditions, BodyOverrides, BodyPose, Decal, FabricPreset, FabricTuning, MapSummary, MotionId, Seat } from "@alinhavo/cloth";
+import type { BodyConditions, BodyKind, BodyOverrides, BodyPose, BodySex, Decal, FabricPreset, FabricTuning, MapSummary, MotionId, Seat } from "@alinhavo/cloth";
 import type { PatternDocument } from "@alinhavo/geometry";
 import type { ProvaEdges } from "./edges";
 import type { LookExtra } from "./look";
@@ -23,8 +23,12 @@ export type ProvaSetup = {
   pose: PoseId;
   /** Medidas do corpo trocadas na tela, por cima da tabela (o manequim ajustado). */
   body?: BodyOverrides;
-  /** Condições do corpo (membro cortado, gestante). */
+  /** Condições do corpo (membro cortado, gestante). Só no manequim. */
   conditions?: BodyConditions;
+  /** Corpo: o manequim (padrão) ou o realista (MakeHuman, ajustado às medidas). */
+  bodyKind?: BodyKind;
+  /** Base do corpo realista (padrão: feminino). */
+  sex?: BodySex;
   /** Camada do molde em prova no look (0, padrão, é a de dentro). */
   layer?: number;
   /** Outras roupas do look, cada uma com o seu tecido e a sua camada. */

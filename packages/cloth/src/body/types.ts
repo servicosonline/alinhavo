@@ -42,6 +42,8 @@ export type BodyLandmarks = {
    * punho), com o raio nesse ponto: é onde a manga se enrola. Esquerdo = +X.
    */
   arms: { left: LegSample[]; right: LegSample[] };
+  /** Alto da cabeça (mm), quando o corpo sabe (o corpo realista); o movimento usa para achar o ponto mais baixo ao deitar. */
+  headTop?: number;
 };
 
 /** Um ponto do eixo da perna e o raio dela ali, em mm. */
@@ -63,4 +65,10 @@ export type Body = {
   collider: Collider;
   fit: BodyFit;
   landmarks: BodyLandmarks;
+  /**
+   * Pontos da superfície (centro e raio), já na pose: o movimento acha por eles
+   * o ponto mais baixo depois de girar o corpo (deitar). Sem eles, saem das
+   * seções e das articulações (o manequim).
+   */
+  support?: readonly { p: Vec; r: number }[];
 };

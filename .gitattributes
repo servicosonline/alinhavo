@@ -2,3 +2,4 @@
 *.png binary
 *.jpg binary
 *.ico binary
+packages/cloth/src/body/makehuman-data.ts linguist-generated=true -diff

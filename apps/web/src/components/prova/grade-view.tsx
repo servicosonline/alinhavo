@@ -1,7 +1,7 @@
 "use client";
 
 import type { PatternDocument } from "@alinhavo/geometry";
-import type { MapSummary } from "@alinhavo/cloth";
+import type { BodyKind, BodySex, MapSummary } from "@alinhavo/cloth";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { GRADE_SETTLE_TIME, GRADE_STATE_NAME, gradeConcurrency, nextToStart, tightestSize, type GradeSlotState } from "@/lib/prova/grade";
 import type { LookExtra } from "@/lib/prova/look";
@@ -26,6 +26,9 @@ type Props = {
   measurementsBySize: Record<string, Record<string, number>>;
   fabric: FabricId;
   pose: PoseId;
+  /** Corpo: manequim ou realista (e a base do realista). */
+  bodyKind?: BodyKind;
+  sex?: BodySex;
   /** Cor do tecido (vista "tecido"). */
   color: string;
   view: GradeMapView;
@@ -45,7 +48,7 @@ const percent = (fraction: number, digits = 1) => `${(fraction * 100).toLocaleSt
  * roupa assentada, para comparar. Só mostra: ajuste, captura e aprovação ficam
  * na Prova de um tamanho.
  */
-export function GradeView({ doc, measurementsBySize, fabric, pose, color, view, layer, extras, quality }: Props) {
+export function GradeView({ doc, measurementsBySize, fabric, pose, bodyKind = "manequim", sex = "feminino", color, view, layer, extras, quality }: Props) {
   const viewRef = useRef<HTMLDivElement>(null);
   const sceneRef = useRef<GradeScene | null>(null);
   const [sceneReady, setSceneReady] = useState(false);
@@ -141,6 +144,8 @@ export function GradeView({ doc, measurementsBySize, fabric, pose, color, view, 
           measurements: measurementsBySize[sizes[i]!] ?? {},
           fabric,
           pose,
+          bodyKind,
+          sex,
           layer,
           extras,
         },
@@ -153,7 +158,7 @@ export function GradeView({ doc, measurementsBySize, fabric, pose, color, view, 
     return () => {
       for (const w of workers) w?.terminate();
     };
-  }, [sceneReady, doc, measurementsBySize, fabric, pose, layer, extras, paint]);
+  }, [sceneReady, doc, measurementsBySize, fabric, pose, bodyKind, sex, layer, extras, paint]);
 
   // Trocar a qualidade refaz os materiais (e repinta, que eles voltam na cor do tecido).
   useEffect(() => {

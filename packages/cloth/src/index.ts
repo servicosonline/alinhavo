@@ -28,4 +28,14 @@ export {
   type LimbId,
 } from "./body/mannequin";
 export * from "./body/motion";
+export {
+  BODY_SEXES,
+  decodeMakeHuman,
+  fitRealistic,
+  PARAM_LIMIT,
+  type BodySex,
+  type MakeHumanAsset,
+  type RealisticFit,
+} from "./body/makehuman";
+export { buildRealistic, createRealisticBody, realisticBuilder, realisticModel, type RealisticModel, type RealisticOptions } from "./body/realistic";
 export * from "./motion-run";

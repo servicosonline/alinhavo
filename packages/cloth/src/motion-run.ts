@@ -2,15 +2,17 @@ import type { BodyConditions, BodyOverrides } from "./body/mannequin";
 import {
   bodyBones,
   boneStep,
-  clipBodyOptions,
+  clipBodyOptionsWith,
+  mannequinBuilder,
   motionDuration,
   motionPose,
-  motionSeat,
+  motionSeatWith,
   onSeat,
-  posedMotion,
+  posedWith,
   probeMoved,
   seatCollider,
   type Bone,
+  type BodyBuilder,
   type MotionClip,
   type Seat,
 } from "./body/motion";
@@ -47,6 +49,8 @@ export type MotionRunOptions = {
   conditions?: BodyConditions;
   /** Outros obstáculos que ficam (o chão). */
   fixed?: readonly Collider[];
+  /** O corpo (padrão: o manequim dessas medidas). Com ele, as medidas, os ajustes e as condições não são usados. */
+  builder?: BodyBuilder;
   /** Quadros guardados por segundo. Padrão: 30. */
   fps?: number;
   /** De quantos em quantos subpassos o corpo muda de pose. Padrão: 4. */
@@ -72,14 +76,15 @@ export function createMotionRun(sim: Simulation, options: MotionRunOptions): Mot
   const every = Math.max(1, Math.round(options.colliderEvery ?? 4));
   const duration = motionDuration(clip);
   const frameCount = Math.ceil(duration * fps) + 1;
-  const seat = motionSeat(clip, table, overrides, conditions);
+  const builder = options.builder ?? mannequinBuilder(table, overrides, conditions);
+  const seat = motionSeatWith(clip, builder);
   const seatBox = seat ? seatCollider(seat) : null;
   const start = sim.time;
   // Clipe rápido: passos de simulação menores (o dobro de subpassos por quadro).
   const maxDt = clip.fast ? 1 / 120 : 1 / 60;
-  const bodyOptions = clipBodyOptions(clip, table, overrides, conditions);
+  const bodyOptions = clipBodyOptionsWith(clip, builder);
 
-  const first = posedMotion(table, motionPose(clip, 0), overrides, conditions, { ...bodyOptions, mesh: false });
+  const first = posedWith(builder, motionPose(clip, 0), { ...bodyOptions, mesh: false });
   let probe: Vec3[] = first.probe;
   let bones: Bone[] = bodyBones(first.body);
   let seated = false;
@@ -88,7 +93,7 @@ export function createMotionRun(sim: Simulation, options: MotionRunOptions): Mot
 
   const onSubstep = (time: number) => {
     if (substeps++ % every !== 0) return;
-    const now = posedMotion(table, motionPose(clip, time - start), overrides, conditions, { ...bodyOptions, mesh: false });
+    const now = posedWith(builder, motionPose(clip, time - start), { ...bodyOptions, mesh: false });
     const moved = probeMoved(probe, now.probe);
     probe = now.probe;
     // A pele anda com os ossos, espalhada pelos subpassos até a próxima troca.
@@ -108,7 +113,7 @@ export function createMotionRun(sim: Simulation, options: MotionRunOptions): Mot
       if (frame >= frameCount) return null;
       const t = Math.min(duration, frame / fps);
       while (sim.time - start < t - 1e-9) sim.step(Math.min(maxDt, t - (sim.time - start)), onSubstep);
-      const body = posedMotion(table, motionPose(clip, t), overrides, conditions, bodyOptions).body;
+      const body = posedWith(builder, motionPose(clip, t), bodyOptions).body;
       frame++;
       return { t, positions: Float32Array.from(sim.positions), body: body.mesh, seated };
     },

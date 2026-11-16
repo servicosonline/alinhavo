@@ -59,6 +59,6 @@ Lista tirada da análise do concorrente (Audaces 360 / 3D). Situação em 15/11/
 - **Kit de aprovação em um clique** (frente, costas, lado e vídeo 360°, botão "Montar kit de aprovação" nas Capturas): pronto, branch `kit-aprovacao`.
 - **Pose sentada:** a fazer. Depende do manequim da branch `bases-e-manequim` (eixo do braço) entrar primeiro; pede um assento no colisor e teste da calça e da saia sentadas.
 - **Zíper aberto ou fechado no look, lavagem do jeans, bordado e pedraria (formato 7 do molde):** pronto, branch `audaces-item-6`.
-- **Corpo realista (MakeHuman) e play de movimentos** (andar, correr, dançar, acenar, sentar, agachar, deitar): estudado em `docs/09-estudo-corpo-e-movimento.md`. **M1 (play com os 7 movimentos no manequim atual): pronto, branch `audaces-item-6`.** A fazer: M2 (corpo MakeHuman) e M3 (movimentos capturados da CMU).
+- **Corpo realista (MakeHuman) e play de movimentos** (andar, correr, dançar, acenar, sentar, agachar, deitar): estudado em `docs/09-estudo-corpo-e-movimento.md`. **M1 (play com os 7 movimentos no manequim atual): pronto, branch `audaces-item-6`. M2 (corpo realista MakeHuman, opção "Corpo: Manequim | Realista" na Prova): pronto, branch `corpo-realista`.** A fazer: M3 (movimentos capturados da CMU) e, no corpo realista, membro cortado, gestante e salto.
 
 **Pronto quando:** as branches acima estão na `main` e a pose sentada veste a calça e a saia de exemplo sem atravessar o corpo nem o assento.

@@ -1,6 +1,6 @@
 # 09 · Estudo: corpo realista (MakeHuman) e movimento na Prova
 
-Estudo de 16/11/2026 (Passo M da Fase 7). **O M1 já foi feito** (branch `audaces-item-6`); M2 e M3 seguem como plano.
+Estudo de 16/11/2026 (Passo M da Fase 7). **O M1 já foi feito** (branch `audaces-item-6`) e **o M2 também** (branch `corpo-realista`); o M3 segue como plano.
 
 ## O que o M1 ensinou
 
@@ -56,7 +56,18 @@ Entrega o pedido mais rápido e sem asset de fora.
 - **Testes:** cada clipe com a calça, a saia e a camiseta de teste. A roupa não atravessa o corpo mais que o limite de hoje, as costuras continuam fechadas e a calça fica no quadril ao agachar e ao sentar.
 - **Riscos:** tecido atravessando braço ou perna na corrida (resolve com mais subpassos só nos clipes rápidos), a calça escorregando ao agachar (o atrito estático já ajuda) e o preparo lento no celular (lá, menos quadros por segundo).
 
-### M2 · Corpo realista (MakeHuman)
+### M2 · Corpo realista (MakeHuman) — feito
+
+O que o M2 ensinou:
+- **Licença conferida:** `LICENSE.md` seção C (malha e targets CC0) e o próprio `default.mhskel` e `default_weights.mhw` com `"license": "CC0"`. Registro arquivo a arquivo em `docs/06-riscos-e-licencas.md`.
+- **Tamanho:** malha de 13.380 vértices, 26.756 triângulos, pesos e 39 targets em ~1,2 MB (~610 KB comprimido), carregados só ao escolher "Realista".
+- **Ajuste:** com Gauss-Newton puro os pesos oscilavam; Levenberg-Marquardt (só aceita passo que baixa o erro) converge em ~1 s. Busto, cintura e quadril a ~2%, as outras medidas a ~7%.
+- **O colisor tem que sair da malha em pé, não da pose de repouso (A):** a pele do ombro sobe e sai do tronco quando o braço desce (pele linear), e ficava 18 mm para fora.
+- **Cone da coxa limitado pela volta da coxa:** o cone ajustado aos vértices tinha 13 cm no alto, saía pela lateral do quadril e empurrava a calça para dentro do tecido a cada passada (14 mm).
+- **Deitar:** o ponto mais baixo precisa dos pontos da superfície real (`Body.support`); pelas seções do manequim o corpo entrava no chão.
+- Resultado (calça e camiseta, 7 movimentos): tecido no máximo ~6 mm dentro do corpo e costuras abrindo no máximo ~4,4 mm.
+
+Plano original:
 - **Conversão fora do app:** um script em Node lê a malha base e um conjunto escolhido de targets (os que mexem nas 15 medidas e no tipo de corpo) e grava um arquivo compacto no app, com a origem e a licença de cada arquivo.
 - **Ajuste às medidas:** os pesos dos targets são ajustados para bater busto, cintura, quadril e as outras medidas (mínimos quadrados), como o manequim bate hoje por construção.
 - **Colisor:** o mesmo jeito rápido de hoje, com cápsulas e seções ajustadas à malha. Uma distância calculada direto na malha seria lenta demais. Precisa passar no teste do contrato do `Collider`.

@@ -3,7 +3,7 @@
 import type { PatternDocument } from "@alinhavo/geometry";
 import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { createPortal } from "react-dom";
-import { FABRIC_PRESETS, type BodyConditions, type BodyOverrides, type MapSummary } from "@alinhavo/cloth";
+import { FABRIC_PRESETS, type BodyConditions, type BodyKind, type BodyOverrides, type BodySex, type MapSummary } from "@alinhavo/cloth";
 import { heat, LOOSE_MM } from "@/lib/prova/colors";
 import type { ProvaEdges } from "@/lib/prova/edges";
 import type { FabricId, FromWorker, PoseId, ProvaMaps, ProvaPart, ToWorker } from "@/lib/prova/protocol";
@@ -11,6 +11,7 @@ import { lookSetup, lookStart, type LookItem, type LookOption } from "@/lib/prov
 import { optionChoice, presetChoice, resolveFabric, type FabricPhoto, type ProvaFabricOption } from "@/lib/prova/fabric-options";
 import type { SavedBodyLibrary } from "@/lib/prova/saved-bodies";
 import { HEEL_OPTIONS, heelName, nearestHeel, POSE_OPTIONS } from "@/lib/prova/poses";
+import { BODY_KIND_OPTIONS, BODY_SEX_OPTIONS } from "@/lib/prova/body-kind";
 import { openZippersIn, zipperChoices } from "@/lib/prova/zippers";
 import { WASHES, washable, type WashId } from "@/lib/prova/wash";
 import { FABRIC_COLOR, garmentPaint } from "@/lib/prova/paint";
@@ -191,6 +192,8 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
   const photo = resolved.photo ?? (resolved.optionId ? (photos[resolved.optionId] ?? null) : null);
   const photoRef = useRef(photo);
   const [pose, setPose] = useState<PoseId>("em-pe");
+  const [bodyKind, setBodyKind] = useState<BodyKind>("manequim");
+  const [sex, setSex] = useState<BodySex>("feminino");
   /** Salto, em mm (0 = descalço). Como as condições, vale em todos os tamanhos. */
   const [heel, setHeel] = useState(0);
   /** Zíperes abertos (ids); valem só os que o molde ainda tem. */
@@ -412,9 +415,9 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
     const measurements = measurementsBySize[size] ?? {};
     worker.postMessage({
       type: "init",
-      setup: { doc, size, measurements, fabric, fabricTuning, pose, body, conditions: bodyConditions, layer, extras, openZippers },
+      setup: { doc, size, measurements, fabric, fabricTuning, pose, body, conditions: bodyConditions, bodyKind, sex, layer, extras, openZippers },
     } satisfies ToWorker);
-  }, [doc, size, fabric, fabricTuning, pose, body, bodyConditions, measurementsBySize, color, layer, extras, openZippers]);
+  }, [doc, size, fabric, fabricTuning, pose, body, bodyConditions, bodyKind, sex, measurementsBySize, color, layer, extras, openZippers]);
 
   // A foto do tecido (ou a volta ao mesclado) muda só o material, não a simulação.
   useEffect(() => {
@@ -513,14 +516,14 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
   const restart = () => {
     workerRef.current?.postMessage({
       type: "init",
-      setup: { doc, size, measurements: measurementsBySize[size] ?? {}, fabric, fabricTuning, pose, body, conditions: bodyConditions, layer, extras, openZippers },
+      setup: { doc, size, measurements: measurementsBySize[size] ?? {}, fabric, fabricTuning, pose, body, conditions: bodyConditions, bodyKind, sex, layer, extras, openZippers },
     } satisfies ToWorker);
     setStatus({ kind: "loading" });
   };
 
   const stage = (
     <>
-      {mode === "grade" && <GradeView doc={doc} measurementsBySize={measurementsBySize} fabric={fabric} pose={pose} color={color} view={view === "fio" ? "tecido" : view} layer={layer} extras={extras} quality={quality} />}
+      {mode === "grade" && <GradeView doc={doc} measurementsBySize={measurementsBySize} fabric={fabric} pose={pose} bodyKind={bodyKind} sex={sex} color={color} view={view === "fio" ? "tecido" : view} layer={layer} extras={extras} quality={quality} />}
       <div
         ref={viewRef}
         className={`${mode === "grade" ? "hidden" : "relative"} h-[60vh] min-h-[22rem] overflow-hidden rounded-lg border border-tinta/15 bg-papel ${split ? "lg:h-[calc(100vh-15rem)]" : "lg:h-[calc(100vh-10rem)]"}`}
@@ -552,15 +555,30 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
               </button>
             ))}
           </div>
-          <label className="block text-xs">
-            <span className="font-medium">Corpo</span>
-            <select className={`${ui.input} text-sm`} value="manequim" onChange={() => {}}>
-              <option value="manequim">Manequim</option>
-              <option value="makehuman" disabled>
-                Realista (em breve)
-              </option>
-            </select>
-          </label>
+          <div className="grid grid-cols-2 gap-2">
+            <label className={`block text-xs ${bodyKind === "makehuman" ? "" : "col-span-2"}`}>
+              <span className="font-medium">Corpo</span>
+              <select className={`${ui.input} text-sm`} value={bodyKind} onChange={(e) => setBodyKind(e.target.value as BodyKind)} data-body-kind>
+                {BODY_KIND_OPTIONS.map((k) => (
+                  <option key={k.id} value={k.id} title={k.hint}>
+                    {k.name}
+                  </option>
+                ))}
+              </select>
+            </label>
+            {bodyKind === "makehuman" && (
+              <label className="block text-xs">
+                <span className="font-medium">Base</span>
+                <select className={`${ui.input} text-sm`} value={sex} onChange={(e) => setSex(e.target.value as BodySex)} data-body-sex>
+                  {BODY_SEX_OPTIONS.map((k) => (
+                    <option key={k.id} value={k.id}>
+                      {k.name}
+                    </option>
+                  ))}
+                </select>
+              </label>
+            )}
+          </div>
           <label className="block text-xs">
             <span className="font-medium">Tamanho</span>
             <select className={`${ui.input} text-sm`} value={size} onChange={(e) => setSize(e.target.value)} disabled={mode === "grade"}>

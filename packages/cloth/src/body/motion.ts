@@ -237,6 +237,7 @@ const applyT = (m: Mat3, v: Vec3): Vec3 => ({
 
 /** Pontos de apoio do corpo (bordas das seções do tronco e as articulações com o raio), para achar o mais baixo depois do giro. */
 function supportPoints(body: Body): { p: Vec3; r: number }[] {
+  if (body.support) return body.support.map((s) => ({ p: { ...s.p }, r: s.r }));
   const out: { p: Vec3; r: number }[] = [];
   const l = body.landmarks;
   for (const s of [l.crotch, l.hip, l.waist, l.bust, l.shoulder, l.neck, ...(l.belly ? [l.belly] : [])]) {
@@ -246,8 +247,8 @@ function supportPoints(body: Body): { p: Vec3; r: number }[] {
     }
   }
   for (const chain of [l.legs.left, l.legs.right, l.arms.left, l.arms.right]) for (const j of chain) out.push({ p: { x: j.x, y: j.y, z: j.z }, r: j.r });
-  // Cabeça: alto e nuca (o manequim tem a cabeça no alto do corpo).
-  const top = l.neck.y + (l.neck.y - l.shoulder.y) * 4;
+  // Cabeça: alto e nuca (o manequim não diz o alto da cabeça: sai do pescoço).
+  const top = l.headTop ?? l.neck.y + (l.neck.y - l.shoulder.y) * 4;
   out.push({ p: { x: 0, y: top, z: -l.neck.halfDepth }, r: 0 }, { p: { x: 0, y: top, z: l.neck.halfDepth }, r: 0 });
   return out;
 }
@@ -322,7 +323,27 @@ export function posedMotion(
   conditions: BodyConditions = {},
   options: { mesh?: boolean; shift?: number } = {},
 ): { body: Body; probe: Vec3[] } {
-  const body = buildMannequin(table, pose, overrides, conditions, options).body;
+  return posedWith(mannequinBuilder(table, overrides, conditions), pose, options);
+}
+
+/**
+ * Monta o corpo de uma pose por ângulos: o manequim (`mannequinBuilder`) ou o
+ * corpo realista (`realisticBuilder`). `shift`: quanto o corpo desce (mm); sem
+ * ele, desce até o pé tocar o chão. Devolve também o quanto desceu.
+ */
+export type BodyBuilder = (pose: PoseAngles, options: { mesh?: boolean; shift?: number }) => { body: Body; shift: number };
+
+/** O manequim procedural como montador de corpo do movimento. */
+export function mannequinBuilder(table: Record<string, number>, overrides: BodyOverrides = {}, conditions: BodyConditions = {}): BodyBuilder {
+  return (pose, options) => {
+    const built = buildMannequin(table, pose, overrides, conditions, options);
+    return { body: built.body, shift: built.shift };
+  };
+}
+
+/** Como posedMotion, com qualquer corpo (o montador). */
+export function posedWith(builder: BodyBuilder, pose: MotionPose, options: { mesh?: boolean; shift?: number } = {}): { body: Body; probe: Vec3[] } {
+  const body = builder(pose, options).body;
   const local = probePoints(body);
   const r = pose.root;
   if (r.yaw === 0 && r.pitch === 0 && r.roll === 0 && r.x === 0 && r.z === 0) return { body, probe: local };
@@ -369,11 +390,16 @@ export function probeMoved(a: readonly Vec3[], b: readonly Vec3[]): number {
  * as canelas e os pés ficarem de fora. null se o clipe não tem assento.
  */
 export function motionSeat(clip: MotionClip, table: Record<string, number>, overrides: BodyOverrides = {}, conditions: BodyConditions = {}): Seat | null {
+  return motionSeatWith(clip, mannequinBuilder(table, overrides, conditions));
+}
+
+/** Como motionSeat, com qualquer corpo (o montador). */
+export function motionSeatWith(clip: MotionClip, builder: BodyBuilder): Seat | null {
   if (!clip.seat) return null;
   // A pose mais baixa do clipe (o quadril mais perto do chão).
   let best: Body | null = null;
   for (const k of clip.keys) {
-    const b = motionBody(table, k.pose, overrides, conditions, { mesh: false });
+    const b = posedWith(builder, k.pose, { mesh: false }).body;
     if (!best || b.landmarks.legs.left[0]!.y < best.landmarks.legs.left[0]!.y) best = b;
   }
   const [hipL, kneeL] = best!.landmarks.legs.left;
@@ -430,9 +456,19 @@ export function standingShift(table: Record<string, number>, overrides: BodyOver
   return buildMannequin(table, "em-pe", overrides, conditions, { mesh: false }).shift;
 }
 
+/** Como standingShift, com qualquer corpo (o montador). */
+export function standingShiftWith(builder: BodyBuilder): number {
+  return builder(poseAngles("em-pe"), { mesh: false }).shift;
+}
+
 /** Opções de montagem do corpo do clipe: no lugar, a altura de em pé. */
 export function clipBodyOptions(clip: MotionClip, table: Record<string, number>, overrides: BodyOverrides = {}, conditions: BodyConditions = {}): { shift?: number } {
   return clip.inPlace ? { shift: standingShift(table, overrides, conditions) } : {};
+}
+
+/** Como clipBodyOptions, com qualquer corpo (o montador). */
+export function clipBodyOptionsWith(clip: MotionClip, builder: BodyBuilder): { shift?: number } {
+  return clip.inPlace ? { shift: standingShiftWith(builder) } : {};
 }
 
 /** Um osso do corpo na pose: de `a` a `b` (mm). O tronco é um osso do meio do quadril ao meio dos ombros. */

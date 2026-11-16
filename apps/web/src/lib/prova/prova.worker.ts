@@ -16,9 +16,15 @@ import {
   vertexClearance,
   vertexStretch,
   createMotionRun,
+  decodeMakeHuman,
+  mannequinBuilder,
   motionClip,
-  type BodyConditions,
-  type BodyOverrides,
+  realisticBuilder,
+  realisticModel,
+  buildRealistic,
+  type Body,
+  type BodyBuilder,
+  type MakeHumanAsset,
   type Collider,
   type MotionId,
   type MotionRun,
@@ -64,10 +70,9 @@ type Running = {
   mainTriangles: number;
   mainVertices: number;
   frame: number;
-  /** Medidas, ajustes e condições do corpo (o movimento monta o corpo de novo em cada pose). */
+  /** Medidas do corpo (o movimento monta o corpo de novo em cada pose, pelo montador). */
   table: Record<string, number>;
-  overrides: BodyOverrides;
-  conditions: BodyConditions;
+  builder: BodyBuilder;
   /** Os obstáculos de em pé (voltam depois do movimento). */
   colliders: Collider[];
 };
@@ -99,12 +104,40 @@ type Wear = {
   layer: number;
 };
 
-function build(setup: ProvaSetup) {
+/** O arquivo do corpo realista, lido uma vez e só quando pedido (~600 KB, num pedaço à parte do Worker). */
+let makehuman: Promise<MakeHumanAsset> | null = null;
+function loadMakeHuman(): Promise<MakeHumanAsset> {
+  makehuman ??= import("@alinhavo/cloth/makehuman-data").then((m) => decodeMakeHuman(m.MAKEHUMAN_DATA));
+  return makehuman;
+}
+
+/** O corpo da Prova e o montador do movimento: o manequim ou o realista. */
+async function makeBody(setup: ProvaSetup): Promise<{ body: Body; builder: BodyBuilder; notes: string[] }> {
+  if (setup.bodyKind !== "makehuman") {
+    return {
+      body: createMannequin(setup.measurements, setup.pose, setup.body, setup.conditions),
+      builder: mannequinBuilder(setup.measurements, setup.body ?? {}, setup.conditions ?? {}),
+      notes: [],
+    };
+  }
+  const model = realisticModel(await loadMakeHuman(), setup.measurements, setup.body ?? {}, setup.sex ?? "feminino");
+  const c = setup.conditions ?? {};
+  const hasConditions = Object.keys(c.limbs ?? {}).length > 0 || c.belly !== undefined || (c.heel ?? 0) > 0;
+  return {
+    body: buildRealistic(model, setup.pose).body,
+    builder: realisticBuilder(model),
+    notes: hasConditions ? ["O corpo realista ainda não tem membro cortado, gestante nem salto: essas condições valem só no manequim."] : [],
+  };
+}
+
+async function build(setup: ProvaSetup, fresh: () => boolean = () => true) {
   const doc = readDoc(setup.doc, "Molde");
   if (!doc.sizes.includes(setup.size)) throw new Error(`O tamanho ${setup.size} não está na grade.`);
 
-  const body = createMannequin(setup.measurements, setup.pose, setup.body, setup.conditions);
-  const lookNotes: string[] = [];
+  const made = await makeBody(setup);
+  if (!fresh()) return;
+  const body = made.body;
+  const lookNotes: string[] = [...made.notes];
   const main = garmentAtSize(doc, setup.size);
   const open = new Set(setup.openZippers ?? []);
   const wears: Wear[] = [
@@ -192,8 +225,7 @@ function build(setup: ProvaSetup) {
     mainVertices: parts[0]!.count,
     frame: 0,
     table: setup.measurements,
-    overrides: setup.body ?? {},
-    conditions: setup.conditions ?? {},
+    builder: made.builder,
     colliders: [body.collider, floorCollider(0)],
   };
 
@@ -292,14 +324,21 @@ function startMotion(motion: MotionId) {
   const run = createMotionRun(r.sim, {
     clip: motionClip(motion),
     table: r.table,
-    overrides: r.overrides,
-    conditions: r.conditions,
+    builder: r.builder,
     fixed: [floorCollider(0)],
     fps: MOTION_FPS,
   });
   motionJob = { run, motion, garment: [], body: [] };
   motionTick();
 }
+
+/** Cada "init" ganha um número: um corpo realista que termina de carregar depois de outro "init" é descartado. */
+let initSeq = 0;
+
+const fail = (err: unknown) => {
+  running = false;
+  post({ type: "error", message: err instanceof Error ? err.message : "Erro inesperado na simulação." });
+};
 
 scope.onmessage = (e: MessageEvent<ToWorker>) => {
   const msg = e.data;
@@ -310,7 +349,8 @@ scope.onmessage = (e: MessageEvent<ToWorker>) => {
       if (timer) clearTimeout(timer);
       timer = null;
       current = null;
-      build(msg.setup);
+      const seq = ++initSeq;
+      build(msg.setup, () => seq === initSeq).catch(fail);
     } else if (msg.type === "play") {
       if (!current || running || motionJob) return;
       running = true;
@@ -323,7 +363,6 @@ scope.onmessage = (e: MessageEvent<ToWorker>) => {
       stopMotion();
     }
   } catch (err) {
-    running = false;
-    post({ type: "error", message: err instanceof Error ? err.message : "Erro inesperado na simulação." });
+    fail(err);
   }
 };
