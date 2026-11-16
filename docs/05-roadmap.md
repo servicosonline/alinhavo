@@ -58,6 +58,7 @@ Lista tirada da análise do concorrente (Audaces 360 / 3D). Situação em 15/11/
 - **Presets de costura** (margem por tipo de costura, passos de gradação) e **acabamentos prontos** (pesponto duplo de jeans, zíper invisível, etiqueta de composição pelo tecido): pronto, branch `presets-costura`.
 - **Kit de aprovação em um clique** (frente, costas, lado e vídeo 360°, botão "Montar kit de aprovação" nas Capturas): pronto, branch `kit-aprovacao`.
 - **Pose sentada:** a fazer. Depende do manequim da branch `bases-e-manequim` (eixo do braço) entrar primeiro; pede um assento no colisor e teste da calça e da saia sentadas.
-- **Mais distante:** bordado, pedraria e lavagem (formato novo do molde, por cima do 6), zíper aberto ou fechado no look (só na Prova, abre parte da costura) e o corpo realista (MakeHuman, só assets CC0 oficiais, pelo contrato `Body`).
+- **Zíper aberto ou fechado no look, lavagem do jeans, bordado e pedraria (formato 7 do molde):** pronto, branch `audaces-item-6`.
+- **Corpo realista (MakeHuman) e play de movimentos** (andar, correr, dançar, acenar, sentar, agachar, deitar): estudado em `docs/09-estudo-corpo-e-movimento.md`. **M1 (play com os 7 movimentos no manequim atual): pronto, branch `audaces-item-6`.** A fazer: M2 (corpo MakeHuman) e M3 (movimentos capturados da CMU).
 
 **Pronto quando:** as branches acima estão na `main` e a pose sentada veste a calça e a saia de exemplo sem atravessar o corpo nem o assento.

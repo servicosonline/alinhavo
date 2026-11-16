@@ -11,6 +11,8 @@ import { lookSetup, lookStart, type LookItem, type LookOption } from "@/lib/prov
 import { optionChoice, presetChoice, resolveFabric, type FabricPhoto, type ProvaFabricOption } from "@/lib/prova/fabric-options";
 import type { SavedBodyLibrary } from "@/lib/prova/saved-bodies";
 import { HEEL_OPTIONS, heelName, nearestHeel, POSE_OPTIONS } from "@/lib/prova/poses";
+import { openZippersIn, zipperChoices } from "@/lib/prova/zippers";
+import { WASHES, washable, type WashId } from "@/lib/prova/wash";
 import { FABRIC_COLOR, garmentPaint } from "@/lib/prova/paint";
 import { defaultQuality, deviceHints, QUALITIES, type RenderQuality } from "@/lib/prova/quality";
 import { formatCm } from "@/lib/units";
@@ -28,6 +30,8 @@ import { VIDEO_BITRATE, VIDEO_FPS, VIDEO_HEIGHT, VIDEO_SECONDS, VIDEO_WIDTH, vid
 import { GradeView } from "./grade-view";
 import { FABRIC_NAME, LookPanel } from "./look-panel";
 import type { ProvaScene } from "./scene";
+import type { MotionId } from "@alinhavo/cloth";
+import { MOTION_OPTIONS, motionProgressText } from "@/lib/prova/motion";
 
 /** Biblioteca de tecidos (presets), na ordem do cloth. */
 const PRESET_OPTIONS: { id: FabricId; name: string }[] = FABRIC_PRESETS.map((id) => ({ id, name: FABRIC_NAME[id] }));
@@ -106,6 +110,12 @@ function Legend({ view, fabricLimit }: { view: "pressao" | "folga"; fabricLimit:
   );
 }
 
+/** O movimento: parado, preparando no Worker (quadros prontos de quantos) ou tocando na cena. */
+type MotionState = { kind: "idle" } | { kind: "preparing"; done: number; total: number } | { kind: "playing" };
+
+/** A roupa precisa assentar em pé antes do movimento (a fase de costura e mais um segundo). */
+const MOTION_SETTLE_S = 3;
+
 type Status =
   | { kind: "loading" }
   | { kind: "running"; time: number; seamGap: number }
@@ -183,6 +193,11 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
   const [pose, setPose] = useState<PoseId>("em-pe");
   /** Salto, em mm (0 = descalço). Como as condições, vale em todos os tamanhos. */
   const [heel, setHeel] = useState(0);
+  /** Zíperes abertos (ids); valem só os que o molde ainda tem. */
+  const [openChosen, setOpenChosen] = useState<string[]>([]);
+  const zippers = useMemo(() => zipperChoices(doc), [doc]);
+  const openKey = openZippersIn(doc, openChosen).join(",");
+  const openZippers = useMemo(() => (openKey ? openKey.split(",") : []), [openKey]);
   // Medidas do corpo trocadas na tela: valem para um tamanho; trocar o tamanho volta à tabela.
   const [bodyBy, setBodyBy] = useState<{ size: string; overrides: BodyOverrides }>({ size: doc.baseSize, overrides: NO_BODY });
   const body = bodyBy.size === size ? bodyBy.overrides : NO_BODY;
@@ -206,6 +221,10 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
   const quality = chosenQuality ?? deviceQuality;
   const qualityRef = useRef(quality);
   const [status, setStatus] = useState<Status>({ kind: "loading" });
+  const [motion, setMotion] = useState<MotionId>("andar");
+  const [motionState, setMotionState] = useState<MotionState>({ kind: "idle" });
+  /** O último movimento pronto (tocar de novo não prepara de novo); some quando a Prova remonta. */
+  const motionCacheRef = useRef<Extract<FromWorker, { type: "motion-ready" }> | null>(null);
   const [notes, setNotes] = useState<{ skipped: string[]; estimated: string[] }>({ skipped: [], estimated: [] });
   const [view, setView] = useState<View>("tecido");
   const [maps, setMaps] = useState<{ summary: MapSummary; fabricLimit: number } | null>(null);
@@ -221,6 +240,10 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
   // Com a foto do tecido, a cor vem dela (o material fica branco para não tingir).
   const color = photo ? "#ffffff" : FABRIC_COLOR[fabric];
   const colorRef = useRef(color);
+  /** Lavagem escolhida; vale só com jeans e sem a foto do tecido (a foto já traz a cor). */
+  const [washChosen, setWashChosen] = useState<WashId>("crua");
+  const wash: WashId = washable(fabric) && !photo ? washChosen : "crua";
+  const washRef = useRef<{ id: WashId; fabricHex: string } | null>(null);
   const viewModeRef = useRef<View>("tecido");
   /** Últimos mapas recebidos, as roupas (com o look) e o total de vértices, para pintar ao trocar a vista. */
   const lastMapsRef = useRef<{ maps: ProvaMaps | null; fabricLimit: number; parts: ProvaPart[]; vertices: number }>({
@@ -235,7 +258,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
     if (!scene) return;
     const { maps: m, parts, vertices } = lastMapsRef.current;
     const v = viewModeRef.current;
-    scene.setMapColors(v === "fio" ? null : garmentPaint(v, m, parts, vertices), colorRef.current, v === "fio");
+    scene.setMapColors(v === "fio" ? null : garmentPaint(v, m, parts, vertices, washRef.current), colorRef.current, v === "fio");
   }, []);
 
   // Cena e Worker: criados uma vez, descartados ao sair da página.
@@ -256,6 +279,9 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
       const scene = sceneRef.current;
       if (msg.type === "ready") {
         lastReady = msg;
+        // A Prova remontou: o movimento preparado era de outra roupa ou outro corpo.
+        motionCacheRef.current = null;
+        setMotionState({ kind: "idle" });
         lastMapsRef.current = { maps: null, fabricLimit: msg.fabricLimit, parts: msg.parts, vertices: msg.garment.positions.length / 3 };
         setMaps(null);
         setFabricLimit(msg.fabricLimit);
@@ -277,10 +303,18 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
         if (msg.maps) {
           lastMapsRef.current = { ...lastMapsRef.current, maps: msg.maps };
           setMaps({ summary: msg.maps.summary, fabricLimit: lastMapsRef.current.fabricLimit });
-          if (viewModeRef.current === "pressao" || viewModeRef.current === "folga") paint(scene);
+          // O desbotado da lavagem segue o esticamento: repinta como os mapas.
+          if (viewModeRef.current === "pressao" || viewModeRef.current === "folga" || (viewModeRef.current === "tecido" && washRef.current)) paint(scene);
         }
         setStatus((s) => (s.kind === "paused" ? s : { kind: "running", time: msg.time, seamGap: msg.seamGap }));
-      } else {
+      } else if (msg.type === "motion-progress") {
+        setMotionState({ kind: "preparing", done: msg.done, total: msg.total });
+      } else if (msg.type === "motion-ready") {
+        motionCacheRef.current = msg;
+        scene?.playMotion(msg);
+        setMotionState({ kind: "playing" });
+      } else if (msg.type === "error") {
+        setMotionState({ kind: "idle" });
         setStatus({ kind: "error", message: msg.message });
       }
     };
@@ -304,7 +338,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
 
   // Trocar tamanho, tecido, pose ou o molde monta a Prova de novo; as capturas antigas
   // mostram outra roupa, então saem (a aprovação guarda uma configuração só).
-  const setupKey = `${size}|${fabric}|${pose}|${fabricChoice}|${heel}|${JSON.stringify(body)}|${JSON.stringify(conditions)}|${look.map((i) => `${i.key}:${i.fabric}`).join(",")}`;
+  const setupKey = `${size}|${fabric}|${pose}|${fabricChoice}|${heel}|${JSON.stringify(body)}|${JSON.stringify(conditions)}|${openKey}|${wash}|${look.map((i) => `${i.key}:${i.fabric}`).join(",")}`;
   const [capturedFor, setCapturedFor] = useState({ setupKey, doc, video: 0 });
   /** O vídeo 360° gravado (vai junto no pedido de aprovação). */
   const [video, setVideo] = useState<Blob | null>(null);
@@ -378,9 +412,9 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
     const measurements = measurementsBySize[size] ?? {};
     worker.postMessage({
       type: "init",
-      setup: { doc, size, measurements, fabric, fabricTuning, pose, body, conditions: bodyConditions, layer, extras },
+      setup: { doc, size, measurements, fabric, fabricTuning, pose, body, conditions: bodyConditions, layer, extras, openZippers },
     } satisfies ToWorker);
-  }, [doc, size, fabric, fabricTuning, pose, body, bodyConditions, measurementsBySize, color, layer, extras]);
+  }, [doc, size, fabric, fabricTuning, pose, body, bodyConditions, measurementsBySize, color, layer, extras, openZippers]);
 
   // A foto do tecido (ou a volta ao mesclado) muda só o material, não a simulação.
   useEffect(() => {
@@ -406,6 +440,12 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
     sceneRef.current?.setQuality(quality);
     paint(sceneRef.current);
   }, [quality, paint]);
+
+  // Trocar a lavagem só repinta.
+  useEffect(() => {
+    washRef.current = wash === "crua" ? null : { id: wash, fabricHex: FABRIC_COLOR[fabric] };
+    paint(sceneRef.current);
+  }, [wash, fabric, paint]);
 
   // Trocar a vista só repinta (não remonta a Prova).
   useEffect(() => {
@@ -445,10 +485,35 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
       setStatus({ ...status, kind: "running" });
     }
   };
+  /** Play do movimento: toca o já preparado ou pede ao Worker (a simulação para enquanto prepara). */
+  const playMotion = () => {
+    const worker = workerRef.current;
+    if (!worker || status.kind === "loading" || status.kind === "error") return;
+    if (status.kind === "running") setStatus({ kind: "paused", time: status.time, seamGap: status.seamGap });
+    const cached = motionCacheRef.current;
+    if (cached && cached.motion === motion) {
+      sceneRef.current?.playMotion(cached);
+      setMotionState({ kind: "playing" });
+      return;
+    }
+    worker.postMessage({ type: "motion", motion } satisfies ToWorker);
+    setMotionState({ kind: "preparing", done: 0, total: 0 });
+  };
+  const stopMotion = () => {
+    if (motionState.kind === "preparing") workerRef.current?.postMessage({ type: "motion-stop" } satisfies ToWorker);
+    sceneRef.current?.stopMotion();
+    setMotionState({ kind: "idle" });
+  };
+  const chooseMotion = (next: MotionId) => {
+    if (motionState.kind !== "idle") stopMotion();
+    setMotion(next);
+  };
+  const settled = (status.kind === "running" || status.kind === "paused") && status.time >= MOTION_SETTLE_S;
+
   const restart = () => {
     workerRef.current?.postMessage({
       type: "init",
-      setup: { doc, size, measurements: measurementsBySize[size] ?? {}, fabric, fabricTuning, pose, body, conditions: bodyConditions, layer, extras },
+      setup: { doc, size, measurements: measurementsBySize[size] ?? {}, fabric, fabricTuning, pose, body, conditions: bodyConditions, layer, extras, openZippers },
     } satisfies ToWorker);
     setStatus({ kind: "loading" });
   };
@@ -555,6 +620,41 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
               ))}
             </select>
           </label>
+          {washable(fabric) && (
+            <label className="block text-xs">
+              <span className="font-medium">Lavagem</span>
+              <select
+                className={`${ui.input} text-sm`}
+                value={wash}
+                disabled={!!photo}
+                onChange={(e) => setWashChosen(e.target.value as WashId)}
+                data-wash-select
+              >
+                {WASHES.map((w) => (
+                  <option key={w.id} value={w.id} title={w.hint}>
+                    {w.name}
+                  </option>
+                ))}
+              </select>
+              {photo && <span className="mt-1 block text-[11px] text-tinta-suave">Com a foto do tecido, a cor vem da foto.</span>}
+            </label>
+          )}
+          {zippers.length > 0 && (
+            <fieldset className="space-y-1 text-xs" data-zippers>
+              <legend className="font-medium">Zíper</legend>
+              {zippers.map((z) => (
+                <label key={z.id} className="flex items-center gap-2">
+                  <input
+                    type="checkbox"
+                    checked={openZippers.includes(z.id)}
+                    onChange={(e) => setOpenChosen((prev) => (e.target.checked ? [...prev, z.id] : prev.filter((id) => id !== z.id)))}
+                    data-zipper-open={z.id}
+                  />
+                  <span>{z.label}: aberto</span>
+                </label>
+              ))}
+            </fieldset>
+          )}
           <label className="block text-xs">
             <span className="font-medium">Qualidade</span>
             <select
@@ -570,8 +670,56 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
               ))}
             </select>
           </label>
+          {mode === "um" && (
+            <div className="space-y-2 border-t border-tinta/10 pt-3 text-xs" data-motion={motionState.kind}>
+              <label className="block">
+                <span className="font-medium">Movimento</span>
+                <select
+                  className={`${ui.input} text-sm`}
+                  value={motion}
+                  onChange={(e) => chooseMotion(e.target.value as MotionId)}
+                  data-motion-select
+                >
+                  {MOTION_OPTIONS.map((m) => (
+                    <option key={m.id} value={m.id} title={m.hint}>
+                      {m.name}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              {motionState.kind === "idle" ? (
+                <button type="button" className={`${ui.buttonAccentSm} w-full`} onClick={playMotion} disabled={!settled} data-motion-play>
+                  ▶ Play
+                </button>
+              ) : (
+                <button type="button" className={`${ui.buttonGhost} w-full`} onClick={stopMotion} data-motion-stop>
+                  ■ Parar
+                </button>
+              )}
+              {motionState.kind === "preparing" && (
+                <div className="space-y-1" role="status" aria-live="polite">
+                  <p>{motionProgressText(motionState.done, motionState.total)}</p>
+                  <div className="h-1.5 overflow-hidden rounded-full bg-tinta/10">
+                    <div
+                      className="h-full bg-linha transition-[width]"
+                      style={{ width: `${motionState.total > 0 ? Math.round((motionState.done / motionState.total) * 100) : 0}%` }}
+                    />
+                  </div>
+                  <p className="text-tinta-suave">O movimento é calculado antes e depois toca liso.</p>
+                </div>
+              )}
+              {motionState.kind === "idle" && !settled && status.kind !== "error" && (
+                <p className="text-tinta-suave">Espere a roupa assentar para o Play.</p>
+              )}
+            </div>
+          )}
           <div className={`${mode === "grade" ? "hidden" : "grid"} grid-cols-2 gap-2`}>
-            <button type="button" className={ui.buttonGhost} onClick={togglePlay} disabled={status.kind !== "running" && status.kind !== "paused"}>
+            <button
+              type="button"
+              className={ui.buttonGhost}
+              onClick={togglePlay}
+              disabled={(status.kind !== "running" && status.kind !== "paused") || motionState.kind !== "idle"}
+            >
               {status.kind === "paused" ? "Continuar" : "Pausar"}
             </button>
             <button type="button" className={ui.buttonGhost} onClick={restart} disabled={status.kind === "loading"}>

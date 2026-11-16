@@ -19,6 +19,13 @@ export type Vec3 = { x: number; y: number; z: number };
  */
 export type Collider = {
   query(x: number, y: number, z: number): { distance: number; normal: Vec3 };
+  /**
+   * Obstáculo que se move (o corpo no movimento): quanto a superfície perto do
+   * ponto anda num subpasso, em mm. O atrito mede o deslize do tecido em
+   * relação a ela; sem isso, a pele que anda arrasta o tecido para trás (a
+   * calça descia a cada passada). Ausente = parado.
+   */
+  surfaceStep?(x: number, y: number, z: number): Vec3;
 };
 
 /** Até onde (mm além da espessura) o simulador confia na distância para pular perguntas. */

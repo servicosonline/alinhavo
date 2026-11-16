@@ -1,6 +1,7 @@
 import * as THREE from "three";
-import type { Decal } from "@alinhavo/cloth";
+import type { Decal, Seat } from "@alinhavo/cloth";
 import { frontmostLine, nearestLine } from "@/lib/prova/edges";
+import { frameAt, frameOf } from "@/lib/prova/motion";
 import type { ProvaPart } from "@/lib/prova/protocol";
 import type { RenderQuality } from "@/lib/prova/quality";
 import { turntableAngle, turntablePosition } from "@/lib/prova/video";
@@ -26,6 +27,19 @@ export class ProvaScene {
   private decals: DecalLayer | null = null;
   /** Posições da roupa como a simulação mandou (sem o afastamento visual). */
   private raw: Float32Array | null = null;
+  /** Movimento tocando: os quadros, quando começou e o último mostrado; e o corpo e a roupa parados, para voltar. */
+  private motion: {
+    garment: Float32Array;
+    body: Float32Array;
+    frames: number;
+    fps: number;
+    start: number;
+    last: number;
+    restBody: Float32Array | null;
+    restGarment: Float32Array | null;
+  } | null = null;
+  /** O banco do "sentar" (só enquanto o movimento toca). */
+  private seat: THREE.Mesh | null = null;
   private edgeLines: Uint32Array = new Uint32Array(0);
   private edgeOwner: Int32Array = new Int32Array(0);
   private selected: number | null = null;
@@ -68,7 +82,78 @@ export class ProvaScene {
   }
 
   setBody(positions: Float32Array, indices: Uint32Array) {
+    this.stopMotion(false);
     this.body = this.replace(this.body, bodyMesh(positions, indices));
+  }
+
+  /**
+   * Toca o movimento em volta (quadros da roupa e do corpo, mm, como o Worker
+   * mandou). A roupa e o corpo voltam como estavam em `stopMotion`.
+   */
+  playMotion(m: { garment: Float32Array; body: Float32Array; frames: number; fps: number; seat: Seat | null }) {
+    this.stopMotion();
+    if (m.frames < 1 || !this.garment) return;
+    const bodyPos = this.body?.geometry.getAttribute("position") as THREE.BufferAttribute | undefined;
+    this.motion = {
+      ...m,
+      start: performance.now(),
+      last: -1,
+      restBody: bodyPos ? Float32Array.from(bodyPos.array as Float32Array) : null,
+      restGarment: this.raw ? Float32Array.from(this.raw) : null,
+    };
+    if (m.seat) {
+      const s = m.seat;
+      const box = new THREE.Mesh(
+        new THREE.BoxGeometry(s.maxX - s.minX, s.top, s.maxZ - s.minZ),
+        new THREE.MeshStandardMaterial({ color: 0xb9a184, roughness: 0.7, metalness: 0 }),
+      );
+      box.position.set((s.minX + s.maxX) / 2, s.top / 2, (s.minZ + s.maxZ) / 2);
+      box.castShadow = true;
+      box.receiveShadow = true;
+      this.seat = box;
+      this.world.add(box);
+    }
+    this.stage.animate = () => this.motionTick();
+  }
+
+  /** Para o movimento. `restore`: a roupa e o corpo voltam a como estavam antes de tocar. */
+  stopMotion(restore = true) {
+    const m = this.motion;
+    this.motion = null;
+    this.stage.animate = null;
+    if (this.seat) {
+      this.world.remove(this.seat);
+      disposeMesh(this.seat);
+      this.seat = null;
+    }
+    if (!m || !restore) return;
+    if (m.restBody) this.setBodyPositions(m.restBody);
+    if (m.restGarment) this.updateGarment(m.restGarment);
+  }
+
+  /** Se um movimento está tocando. */
+  get playingMotion() {
+    return this.motion !== null;
+  }
+
+  private motionTick() {
+    const m = this.motion;
+    if (!m) return;
+    const index = frameAt(performance.now() - m.start, m.fps, m.frames);
+    if (index === m.last) return;
+    m.last = index;
+    this.updateGarment(frameOf(m.garment, m.frames, index));
+    this.setBodyPositions(frameOf(m.body, m.frames, index));
+  }
+
+  /** Novas posições do corpo, mesma topologia (o movimento). */
+  private setBodyPositions(positions: Float32Array) {
+    const attr = this.body?.geometry.getAttribute("position") as THREE.BufferAttribute | undefined;
+    if (!this.body || !attr || attr.array.length !== positions.length) return;
+    (attr.array as Float32Array).set(positions);
+    attr.needsUpdate = true;
+    this.body.geometry.computeVertexNormals();
+    this.body.geometry.computeBoundingSphere();
   }
 
   /**
@@ -76,6 +161,7 @@ export class ProvaScene {
    * (cada uma com o material do seu tecido). Os dois vêm do Worker.
    */
   setGarment(positions: Float32Array, indices: Uint32Array, color: string, decals: readonly Decal[], uv: Float32Array, parts: readonly ProvaPart[]) {
+    this.stopMotion(false);
     this.parts = parts;
     this.color = color;
     const groups = garmentGroups(this.stage.fabrics, parts, indices.length / 3, color, this.quality);
@@ -394,6 +480,7 @@ export class ProvaScene {
   }
 
   dispose() {
+    this.stopMotion(false);
     this.setSelected(null);
     this.renderer.domElement.removeEventListener("pointerdown", this.onPointerDown);
     this.renderer.domElement.removeEventListener("pointerup", this.onPointerUp);

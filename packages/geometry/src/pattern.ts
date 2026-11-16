@@ -3,7 +3,7 @@ import { validateFinishes } from "./finishes";
 import { distance, type Point } from "./polygon";
 
 /**
- * Documento do molde (versão 6). É o que fica salvo em pattern_versions.document.
+ * Documento do molde (versão 7). É o que fica salvo em pattern_versions.document.
  * Versões gravadas nunca são reescritas: documentos antigos passam por
  * `migratePattern` na leitura.
  *
@@ -14,6 +14,8 @@ import { distance, type Point } from "./polygon";
  * - 4: + `placement.leg` (a parte veste uma perna) e, por parte, `cutPair` (cortar par: a segunda peça é o espelho) e
  *   costura de um segmento com o próprio par (`a` igual a `b`, ex.: gancho).
  * - 5: + por parte, `finishes` (acabamentos: pesponto, zíper, etiqueta e estampa; ver `finishes.ts`).
+ * - 6: + `placement.arm` (a parte veste um braço: manga).
+ * - 7: + acabamentos `bordado` (imagem com relevo, num retângulo) e `pedraria` (pedras ao longo de um segmento ou num retângulo).
  * - 6: + `placement.arm` (a parte veste um braço: manga). Não combina com `leg`; o cortar par troca de braço.
  *
  * - Coordenadas em mm, do tamanho base.
@@ -87,7 +89,24 @@ export type Finish =
       kind: "estampa";
       /** Imagem PNG, JPEG ou WebP em data URL (até FINISH_IMAGE_MAX caracteres). */
       image: string;
-    });
+    })
+  | (FinishArea & {
+      kind: "bordado";
+      /** O desenho do bordado, como a estampa (PNG, JPEG ou WebP em data URL); na Prova sai com relevo. */
+      image: string;
+    })
+  | (StoneSpec & {
+      kind: "pedraria";
+      /** Pedras ao longo do segmento, `distance` mm para dentro, no trecho `from`–`to` (fração do comprimento). */
+      segment: number;
+      distance: number;
+      from: number;
+      to: number;
+    })
+  | (StoneSpec & FinishArea & { kind: "pedraria" });
+
+/** Pedraria: diâmetro da pedra e distância entre centros, em mm; cor em hex (#rrggbb). */
+export type StoneSpec = { id: string; stone: number; spacing: number; color: string };
 
 /** Retângulo preso a um ponto da parte: centro em anchor + offset. */
 export type FinishArea = { id: string; anchor: string; offset: Point; width: number; height: number; rotation: number };
@@ -136,10 +155,10 @@ export type SeamEdge = { piece: string; segment: number };
  */
 export type Seam = { id: string; a: SeamEdge; b: SeamEdge; direction: "opposite" | "same" };
 
-export const CURRENT_SCHEMA = 6;
+export const CURRENT_SCHEMA = 7;
 
 export type PatternDocument = {
-  schema: 6;
+  schema: 7;
   unit: "mm";
   sizes: string[];
   baseSize: string;
@@ -157,6 +176,8 @@ export type PatternDocumentV3 = Omit<PatternDocument, "schema"> & { schema: 3 };
 export type PatternDocumentV4 = Omit<PatternDocument, "schema"> & { schema: 4 };
 /** Formato 5: sem manga (campo opcional, então as partes passam iguais). */
 export type PatternDocumentV5 = Omit<PatternDocument, "schema"> & { schema: 5 };
+/** Formato 6: sem bordado nem pedraria (tipos novos de acabamento, então as partes passam iguais). */
+export type PatternDocumentV6 = Omit<PatternDocument, "schema"> & { schema: 6 };
 
 /**
  * Converte um documento salvo (de qualquer versão conhecida) para o formato
@@ -190,9 +211,14 @@ export function migratePattern(raw: unknown): PatternDocument | null {
   if (d.schema === 5) {
     if (!Array.isArray(d.seams)) return null;
     // 5 → 6: braço é opcional; nada a converter além do número.
-    return { ...(d as PatternDocumentV5), schema: 6 };
+    return migratePattern({ ...(d as PatternDocumentV5), schema: 6 } satisfies PatternDocumentV6);
   }
   if (d.schema === 6) {
+    if (!Array.isArray(d.seams)) return null;
+    // 6 → 7: bordado e pedraria são tipos novos; nada a converter além do número.
+    return { ...(d as PatternDocumentV6), schema: 7 };
+  }
+  if (d.schema === 7) {
     return Array.isArray(d.seams) ? (d as PatternDocument) : null;
   }
   return null;

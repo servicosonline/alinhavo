@@ -129,7 +129,7 @@ export function GradeView({ doc, measurementsBySize, fabric, pose, color, view, 
           patch(i, { time: msg.time, summary: msg.maps.summary });
           // Pronto num quadro com mapa: a tabela fica com o estado final.
           if (msg.time >= GRADE_SETTLE_TIME) finish(i, "pronto");
-        } else {
+        } else if (msg.type === "error") {
           finish(i, "erro", msg.message);
         }
       };

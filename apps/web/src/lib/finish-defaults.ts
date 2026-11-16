@@ -91,3 +91,27 @@ export function presetFinish(piece: Piece, id: FinishPresetId, composition?: str
   const to = len > 0 ? Math.min(1, Math.round((INVISIBLE_ZIPPER / len) * 1000) / 1000) : 1;
   return { finish: { kind: "ziper", segment, from: 0, to }, edgeAllowanceMm: INVISIBLE_ZIPPER_ALLOWANCE };
 }
+
+/** Bordado com a imagem: como a estampa, menor (largura de até 8 cm), a altura na proporção da imagem. */
+export function defaultEmbroidery(piece: Piece, image: string, imageWidth: number, imageHeight: number): NewFinish {
+  const width = 80;
+  const height = Math.max(5, Math.min(1000, Math.round((width * imageHeight) / Math.max(1, imageWidth))));
+  return { kind: "bordado", anchor: piece.start, offset: toMiddle(piece), width, height, rotation: 0, image };
+}
+
+/** Cor inicial da pedra (cristal). */
+export const STONE_DEFAULT_COLOR = "#e8e8f0";
+
+/**
+ * Pedraria inicial: na borda (primeiro segmento que não é dobra, o trecho
+ * todo, 5 mm para dentro) ou num retângulo de 6 × 4 cm no meio da parte.
+ * Pedras de 4 mm a cada 8 mm na borda; 3 mm a cada 8 mm na área.
+ */
+export function defaultStones(piece: Piece, where: "borda" | "area"): NewFinish | null {
+  if (where === "area") {
+    return { kind: "pedraria", anchor: piece.start, offset: toMiddle(piece), width: 60, height: 40, rotation: 0, stone: 3, spacing: 8, color: STONE_DEFAULT_COLOR };
+  }
+  const segment = firstEdge(piece);
+  if (segment === null) return null;
+  return { kind: "pedraria", segment, distance: 5, from: 0, to: 1, stone: 4, spacing: 8, color: STONE_DEFAULT_COLOR };
+}

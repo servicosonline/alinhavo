@@ -34,10 +34,19 @@ export const DEFAULT_PLACEMENT: Placement = {
  */
 export type SimPiece = { mesh: PieceMesh; placement?: Placement; initial?: Float64Array; fabric?: Fabric; layer?: number };
 
+/** Trecho de um segmento que fica sem costurar. */
+export type SeamOpening = { piece: string; segment: number; from: number; to: number };
+
 export type SimulationOptions = {
   /** Tecido das partes que não dizem o seu. */
   fabric: Fabric;
   seams?: Seam[];
+  /**
+   * Trechos de segmento que ficam sem costurar (zíper aberto): os pontos da
+   * costura dentro do trecho, de qualquer um dos dois lados, não são puxados.
+   * Fração do segmento no sentido da peça, como em `garmentAtSize(...).openings`.
+   */
+  openings?: SeamOpening[];
   colliders?: Collider[];
   /** mm/s². Padrão: 9810 para baixo (−y). */
   gravity?: Vec3;
@@ -70,8 +79,18 @@ export type Simulation = {
   readonly pieceOffset: ReadonlyMap<string, number>;
   /** Tempo simulado, em s. */
   readonly time: number;
-  /** Avança `dt` segundos (padrão: um quadro de 1/60 s). */
-  step(dt?: number): void;
+  /**
+   * Avança `dt` segundos (padrão: um quadro de 1/60 s). `onSubstep` é chamado
+   * antes de cada subpasso, com o tempo simulado: é onde o corpo em movimento
+   * troca o colisor (`setColliders`).
+   */
+  step(dt?: number, onSubstep?: (time: number) => void): void;
+  /**
+   * Troca os obstáculos (o corpo em movimento). `movedMm`: quanto, no máximo,
+   * a superfície deles andou desde a troca anterior. A folga guardada de cada
+   * vértice cai esse tanto, para a pergunta ao corpo não ser pulada onde ele chegou perto.
+   */
+  setColliders(next: readonly Collider[], movedMm: number): void;
   /** Prende um vértice onde ele está (massa infinita). */
   pin(vertex: number): void;
   /** Esticamento de cada triângulo: maior (comprimento / repouso − 1) entre suas arestas. */
@@ -102,7 +121,7 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
   const damping = Math.max(0, options.damping ?? 1);
   const closing = Math.max(0, options.seamClosingSpeed ?? 300);
   const iterations = Math.max(1, Math.round(options.iterations ?? 1));
-  const colliders = options.colliders ?? [];
+  let colliders: readonly Collider[] = options.colliders ?? [];
 
   // --- Vértices e massa -----------------------------------------------------
   const pieceOffset = new Map<string, number>();
@@ -204,9 +223,12 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
     const sideA = seamSide(meshById, pieceOffset, seam.a.piece, seam.a.segment);
     const sideB = seamSide(meshById, pieceOffset, seam.b.piece, seam.b.segment);
     if (!sideA || !sideB) continue;
-    const link = (from: SeamSide, to: SeamSide, flip: boolean) => {
+    const openA = openingsOf(options.openings, seam.a.piece, seam.a.segment);
+    const openB = openingsOf(options.openings, seam.b.piece, seam.b.segment);
+    const link = (from: SeamSide, to: SeamSide, flip: boolean, openFrom: SeamOpening[], openTo: SeamOpening[]) => {
       for (let k = 0; k < from.vertices.length; k++) {
         const t = flip ? 1 - from.t[k]! : from.t[k]!;
+        if (isOpen(openFrom, from.t[k]!) || isOpen(openTo, t)) continue;
         const { i0, i1, w1 } = pointAt(to, t);
         const a = from.vertices[k]!;
         seamA.push(a);
@@ -217,8 +239,8 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
       }
     };
     const flip = seam.direction === "opposite";
-    link(sideA, sideB, flip);
-    link(sideB, sideA, flip);
+    link(sideA, sideB, flip, openA, openB);
+    link(sideB, sideA, flip, openB, openA);
   }
 
   // --- Camadas -------------------------------------------------------------
@@ -333,9 +355,11 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
           // abrindo a cada subpasso, sempre que o chão não segurava as pernas.
           // Até as costuras fecharem as partes precisam escorregar até se
           // encontrar: ali o atrito só freia (tira a fração μ do deslize), como antes.
-          const mx = x[i * 3]! - prev[i * 3]!;
-          const my = x[i * 3 + 1]! - prev[i * 3 + 1]!;
-          const mz = x[i * 3 + 2]! - prev[i * 3 + 2]!;
+          // Deslize em relação à superfície: num obstáculo que anda, desconta o quanto ela andou.
+          const surface = collider.surfaceStep?.(x[i * 3]!, x[i * 3 + 1]!, x[i * 3 + 2]!);
+          const mx = x[i * 3]! - prev[i * 3]! - (surface?.x ?? 0);
+          const my = x[i * 3 + 1]! - prev[i * 3 + 1]! - (surface?.y ?? 0);
+          const mz = x[i * 3 + 2]! - prev[i * 3 + 2]! - (surface?.z ?? 0);
           const along = mx * normal.x + my * normal.y + mz * normal.z;
           const tx = mx - along * normal.x;
           const ty = my - along * normal.y;
@@ -437,13 +461,22 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
     get time() {
       return time;
     },
-    step(dt = 1 / 60) {
+    step(dt = 1 / 60, onSubstep) {
       if (!(dt > MIN_DT)) return;
       if (!sewn && (time >= sewingTime || gapNow() <= 1)) sewn = true;
       if (!closed && gapNow() <= 1) closed = true;
       const h = dt / substeps;
       if (layers.hasLayers) layers.refresh();
-      for (let s = 0; s < substeps; s++) substep(h);
+      for (let s = 0; s < substeps; s++) {
+        onSubstep?.(time);
+        substep(h);
+      }
+    },
+    setColliders(next, movedMm) {
+      colliders = [...next];
+      const moved = Number.isFinite(movedMm) ? Math.max(0, movedMm) : Infinity;
+      if (moved === 0) return;
+      for (let i = 0; i < n; i++) clearance[i] = clearance[i]! - moved;
     },
     get sewn() {
       return sewn;
@@ -498,6 +531,23 @@ function seamSide(
     vertices: [...local, end].map((i) => off + i),
     t: [...local.map((i) => mesh.boundaryT[i]!), 1],
   };
+}
+
+function openingsOf(all: SeamOpening[] | undefined, piece: string, segment: number): SeamOpening[] {
+  return (all ?? []).filter((o) => o.piece === piece && o.segment === segment);
+}
+
+const OPEN_EPS = 1e-6;
+
+/**
+ * O ponto na fração t está num trecho aberto. As pontas do trecho continuam
+ * costuradas, menos a que cai na ponta do segmento (zíper que vai até a borda
+ * deixa a borda solta).
+ */
+function isOpen(openings: SeamOpening[], t: number): boolean {
+  return openings.some(
+    (o) => (o.from <= OPEN_EPS ? t >= -OPEN_EPS : t > o.from + OPEN_EPS) && (o.to >= 1 - OPEN_EPS ? t <= 1 + OPEN_EPS : t < o.to - OPEN_EPS),
+  );
 }
 
 /** Ponto do lado na posição t: dois vértices vizinhos e o peso do segundo. */

@@ -19,7 +19,13 @@ export {
   HEEL_RANGE,
   LIMB_IDS,
   LIMB_WHOLE,
+  poseAngles,
+  type ArmPose,
   type BodyConditions,
   type BodyOverrides,
+  type LegPose,
+  type PoseAngles,
   type LimbId,
 } from "./body/mannequin";
+export * from "./body/motion";
+export * from "./motion-run";

@@ -66,8 +66,25 @@ const POSES: Record<BodyPose, { arms: [ArmPose, ArmPose]; legs: [LegPose, LegPos
     ],
   },
 };
-type ArmPose = { abduction: number; flexion: number; elbow: number };
-type LegPose = { abduction: number; flexion: number; knee: number };
+/** Ângulos de um braço, em graus: abre para o lado, leva para a frente e dobra o cotovelo. */
+export type ArmPose = { abduction: number; flexion: number; elbow: number };
+/** Ângulos de uma perna, em graus: abre para o lado, leva para a frente (coxa) e dobra o joelho. */
+export type LegPose = { abduction: number; flexion: number; knee: number };
+/** Pose por ângulos (esquerda primeiro), para o movimento: as poses com nome são casos dela. */
+export type PoseAngles = { arms: readonly [ArmPose, ArmPose]; legs: readonly [LegPose, LegPose] };
+
+/** Os ângulos de uma pose com nome (cópia: quem recebe pode mudar). */
+export function poseAngles(pose: BodyPose): PoseAngles {
+  const p = POSES[pose];
+  return { arms: [{ ...p.arms[0] }, { ...p.arms[1] }], legs: [{ ...p.legs[0] }, { ...p.legs[1] }] };
+}
+
+/**
+ * Opções da montagem: sem a malha de desenho (`mesh: false`), só o colisor, bem
+ * mais rápido. `shift`: quanto o corpo desce (mm), no lugar de descer até o pé
+ * mais baixo tocar o chão (o movimento no lugar mantém o tronco na altura de em pé).
+ */
+export type MannequinOptions = { mesh?: boolean; shift?: number };
 
 const RAD = Math.PI / 180;
 const UP: Vec3 = { x: 0, y: 1, z: 0 };
@@ -120,9 +137,10 @@ export function createMannequin(
  */
 export function buildMannequin(
   table: Record<string, number>,
-  pose: BodyPose = "em-pe",
+  pose: BodyPose | PoseAngles = "em-pe",
   overrides: BodyOverrides = {},
   conditions: BodyConditions = {},
+  options: MannequinOptions = {},
 ) {
   const reading = readMeasurements(table, overrides);
   const m = reading.values;
@@ -156,7 +174,7 @@ export function buildMannequin(
   const byName = (y: number) => sections.find((s) => s.y === y)!;
 
   // --- Membros ---------------------------------------------------------------
-  const { arms: armPoses, legs: legPoses } = POSES[pose];
+  const { arms: armPoses, legs: legPoses } = typeof pose === "string" ? POSES[pose] : pose;
   const shoulder = byName(shoulderY);
   const hip = byName(hipY);
   const rUpperArm = m.braco / (2 * Math.PI);
@@ -250,7 +268,9 @@ export function buildMannequin(
   // Na pose de passo as pernas inclinadas encurtam a altura: desce o corpo até o pé mais baixo tocar o chão.
   // Só os pés que ficaram tocam o chão (sem nenhum, vale o corpo inteiro).
   const standing = ankles.filter((_, k) => (conditions.limbs?.[k === 0 ? "leftLeg" : "rightLeg"] ?? LIMB_WHOLE) >= 2);
-  const shift = Math.min(...(standing.length > 0 ? standing : ankles).map((a) => a.y)) - (standingAnkleY + heelMm);
+  const shift = Number.isFinite(options.shift)
+    ? options.shift!
+    : Math.min(...(standing.length > 0 ? standing : ankles).map((a) => a.y)) - (standingAnkleY + heelMm);
   // Salto só no pé que ficou inteiro.
   shoes.forEach((shoe, k) => {
     if (shoe && (conditions.limbs?.[k === 0 ? "leftLeg" : "rightLeg"] ?? LIMB_WHOLE) >= LIMB_WHOLE) legLimbs.push(shoe);
@@ -393,8 +413,12 @@ export function buildMannequin(
     return { d, part: best };
   };
 
-  const mesh = buildMesh(sections, { halfWidthAt, halfDepthAt, centerZAt, exponentAt }, parts, head, shift);
-  const box = boundingBox(mesh.positions);
+  const mesh: BodyMesh =
+    options.mesh === false
+      ? { positions: new Float32Array(0), indices: new Uint32Array(0) }
+      : buildMesh(sections, { halfWidthAt, halfDepthAt, centerZAt, exponentAt }, parts, head, shift);
+  // Sem a malha, a caixa sai das esferas envolventes (maior que a do corpo: a distância a ela continua ≤ a real).
+  const box = options.mesh === false ? partsBox(partList) : boundingBox(mesh.positions);
   const collider: Collider = {
     query(x, y, z) {
       // Longe do corpo, a distância à caixa já basta (é menor ou igual à real).
@@ -427,7 +451,7 @@ export function buildMannequin(
 
   const body: Body = {
     kind: "manequim",
-    pose,
+    pose: typeof pose === "string" ? pose : "movimento",
     mesh,
     collider,
     fit: {
@@ -453,7 +477,7 @@ export function buildMannequin(
       },
     },
   };
-  return { body, torsoSdf, chains };
+  return { body, torsoSdf, chains, shift };
 }
 
 /**
@@ -562,6 +586,21 @@ function limbDirection(side: 1 | -1, abductionDeg: number, flexionDeg: number): 
 
 const add = (a: Vec3, b: Vec3): Vec3 => ({ x: a.x + b.x, y: a.y + b.y, z: a.z + b.z });
 const scale = (a: Vec3, s: number): Vec3 => ({ x: a.x * s, y: a.y * s, z: a.z * s });
+
+/** Caixa que contém as esferas envolventes das partes do colisor. */
+function partsBox(parts: readonly { center: Vec3; radius: number }[]) {
+  const min = { x: Infinity, y: Infinity, z: Infinity };
+  const max = { x: -Infinity, y: -Infinity, z: -Infinity };
+  for (const { center: c, radius: r } of parts) {
+    min.x = Math.min(min.x, c.x - r);
+    min.y = Math.min(min.y, c.y - r);
+    min.z = Math.min(min.z, c.z - r);
+    max.x = Math.max(max.x, c.x + r);
+    max.y = Math.max(max.y, c.y + r);
+    max.z = Math.max(max.z, c.z + r);
+  }
+  return { min, max };
+}
 
 function boundingBox(positions: Float32Array) {
   const min = { x: Infinity, y: Infinity, z: Infinity };

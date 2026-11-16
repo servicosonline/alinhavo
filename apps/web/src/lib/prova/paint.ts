@@ -1,4 +1,7 @@
-import { clearanceColor, fillColors, pressureColor } from "./colors";
+import { clearanceColor, fillColors, hexToLinearRgb, pressureColor } from "./colors";
+import { paintWash, type WashId } from "./wash";
+
+export { hexToLinearRgb };
 import { lookShade } from "./look";
 import type { FabricId, ProvaMaps, ProvaPart } from "./protocol";
 
@@ -20,15 +23,6 @@ export const FABRIC_COLOR: Record<FabricId, string> = {
 
 export type PaintView = "tecido" | "pressao" | "folga";
 
-/** sRGB (como no CSS) para linear: a cor do material o three converte sozinho; a cor por vértice, não. */
-const toLinear = (c: number) => (c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4);
-
-/** Cor hex em RGB linear (0 a 1), para pintar por vértice igual à cor do material. */
-export function hexToLinearRgb(hex: string): [number, number, number] {
-  const n = Number.parseInt(hex.replace("#", ""), 16);
-  return [toLinear(((n >> 16) & 255) / 255), toLinear(((n >> 8) & 255) / 255), toLinear((n & 255) / 255)];
-}
-
 /**
  * Cores por vértice da roupa (3 floats por vértice) para a vista, ou null
  * para pintar tudo com a cor do tecido do molde em prova (uma roupa só, na
@@ -36,7 +30,15 @@ export function hexToLinearRgb(hex: string): [number, number, number] {
  * do seu tecido (`lookShade` pela posição) e a pressão de cada uma é medida
  * contra o limite do tecido dela.
  */
-export function garmentPaint(view: PaintView, maps: ProvaMaps | null, parts: readonly ProvaPart[], vertexCount: number): Float32Array | null {
+export function garmentPaint(
+  view: PaintView,
+  maps: ProvaMaps | null,
+  parts: readonly ProvaPart[],
+  vertexCount: number,
+  /** Lavagem do molde em prova (jeans), na vista "Tecido": cor lavada e desbotada onde estica. */
+  wash: { id: WashId; fabricHex: string } | null = null,
+): Float32Array | null {
+  const washing = view === "tecido" && wash !== null && wash.id !== "crua";
   if (view === "folga") return maps ? fillColors(maps.clearance, clearanceColor) : null;
   if (view === "pressao" && maps) {
     const out = new Float32Array(vertexCount * 3);
@@ -50,9 +52,16 @@ export function garmentPaint(view: PaintView, maps: ProvaMaps | null, parts: rea
     }
     return out;
   }
-  if (parts.length <= 1) return null;
+  if (parts.length <= 1) {
+    if (!washing) return null;
+    return paintWash(new Float32Array(vertexCount * 3), 0, vertexCount, wash.fabricHex, wash.id, maps?.stretch ?? null, parts[0]?.fabricLimit ?? 0.05);
+  }
   const out = new Float32Array(vertexCount * 3);
   parts.forEach((p, k) => {
+    if (washing && p.main) {
+      paintWash(out, p.start, p.count, wash.fabricHex, wash.id, maps?.stretch ?? null, p.fabricLimit);
+      return;
+    }
     const [r, g, b] = hexToLinearRgb(lookShade(FABRIC_COLOR[p.fabric], k));
     for (let v = p.start; v < p.start + p.count; v++) {
       out[v * 3] = r;

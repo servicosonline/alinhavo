@@ -228,15 +228,16 @@ describe("moldes e versões", () => {
     const e = await equipe();
     const molde = await novoMolde(e.modelista, e.orgId);
     await expect(salvar(e.modelista, molde.id, 0, { ...DOC, unit: "cm" })).rejects.toThrow(/check/);
-    await expect(salvar(e.modelista, molde.id, 0, { ...DOC, schema: 7 })).rejects.toThrow(/check/);
+    await expect(salvar(e.modelista, molde.id, 0, { ...DOC, schema: 8 })).rejects.toThrow(/check/);
     await expect(salvar(e.modelista, molde.id, 0, { schema: 3, unit: "mm" })).rejects.toThrow(/check/);
-    // Formatos 2 a 6 exigem a lista de costuras.
+    // Formatos 2 a 7 exigem a lista de costuras.
     const { seams: _seams, ...semCosturas } = DOC;
     await expect(salvar(e.modelista, molde.id, 0, semCosturas)).rejects.toThrow(/check/);
     await expect(salvar(e.modelista, molde.id, 0, { ...semCosturas, schema: 2 })).rejects.toThrow(/check/);
     await expect(salvar(e.modelista, molde.id, 0, { ...semCosturas, schema: 4 })).rejects.toThrow(/check/);
     await expect(salvar(e.modelista, molde.id, 0, { ...semCosturas, schema: 5 })).rejects.toThrow(/check/);
     await expect(salvar(e.modelista, molde.id, 0, { ...semCosturas, schema: 6 })).rejects.toThrow(/check/);
+    await expect(salvar(e.modelista, molde.id, 0, { ...semCosturas, schema: 7 })).rejects.toThrow(/check/);
     await expect(salvar(e.modelista, molde.id, 0, { ...DOC, seams: {} })).rejects.toThrow(/check/);
   });
 
@@ -303,6 +304,24 @@ describe("moldes e versões", () => {
     );
     expect(v.document.schema).toBe(6);
     expect(v.document.pieces).toEqual([manga]);
+  });
+
+  it("aceita o formato 7 (bordado e pedraria) e recusa o 8", async () => {
+    const e = await equipe();
+    const molde = await novoMolde(e.modelista, e.orgId);
+    const finishes = [
+      { id: "A1", kind: "pedraria", segment: 0, distance: 5, from: 0, to: 1, stone: 4, spacing: 10, color: "#e8e8f0" },
+      { id: "A2", kind: "bordado", anchor: "A", offset: { x: 0, y: 0 }, width: 50, height: 50, rotation: 0, image: "data:image/png;base64,iVBORw0KGgo=" },
+    ];
+    await salvar(e.modelista, molde.id, 0, { ...DOC, schema: 7, pieces: [{ id: "a", finishes }] });
+    const v = await um<{ document: { schema: number; pieces: { finishes: unknown[] }[] } }>(
+      e.modelista,
+      "select document from public.pattern_versions where pattern_id = $1 and number = 1",
+      [molde.id],
+    );
+    expect(v.document.schema).toBe(7);
+    expect(v.document.pieces[0]!.finishes).toEqual(finishes);
+    await expect(salvar(e.modelista, molde.id, 1, { ...DOC, schema: 8 })).rejects.toThrow(/check/);
   });
 
   it("versões não mudam nem somem, nem para o dono", async () => {

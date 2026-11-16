@@ -1,8 +1,28 @@
 "use client";
 
-import { FINISH_NAME, FINISH_ROW_GAP, LABEL_TEXT_MAX, segmentLengths, type Finish, type NewFinish, type Piece } from "@alinhavo/geometry";
+import {
+  FINISH_NAME,
+  FINISH_ROW_GAP,
+  LABEL_TEXT_MAX,
+  STONE_RANGE,
+  STONE_SPACING_MAX,
+  segmentLengths,
+  type Finish,
+  type NewFinish,
+  type Piece,
+} from "@alinhavo/geometry";
 import { useRef, useState } from "react";
-import { FINISH_PRESETS, defaultLabel, defaultPrint, defaultSeamFinish, firstEdge, presetFinish, type FinishPresetId } from "@/lib/finish-defaults";
+import {
+  FINISH_PRESETS,
+  defaultEmbroidery,
+  defaultLabel,
+  defaultPrint,
+  defaultSeamFinish,
+  defaultStones,
+  firstEdge,
+  presetFinish,
+  type FinishPresetId,
+} from "@/lib/finish-defaults";
 import { prepareFinishImage } from "@/lib/finish-image";
 import { formatCm } from "@/lib/units";
 import { CmField } from "../fields";
@@ -30,8 +50,10 @@ export function FinishesPanel({ piece, readOnly, composition, onAdd, onUpdate, o
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const fileRef = useRef<HTMLInputElement>(null);
-  /** Estampa: troca a imagem de uma existente (id) ou cria uma nova (null). */
+  /** Estampa ou bordado: troca a imagem de um existente (id) ou cria um novo (null). */
   const replacing = useRef<string | null>(null);
+  /** O que a imagem nova cria: estampa ou bordado. */
+  const creating = useRef<"estampa" | "bordado">("estampa");
   const lengths = segmentLengths(piece);
   const finishes = piece.finishes ?? [];
   const canSeam = firstEdge(piece) !== null;
@@ -55,8 +77,13 @@ export function FinishesPanel({ piece, readOnly, composition, onAdd, onUpdate, o
     if ("error" in r) return setError(r.error);
     const id = replacing.current;
     if (id) update(id, { image: r.image });
-    else add(defaultPrint(piece, r.image, r.width, r.height));
+    else add(creating.current === "bordado" ? defaultEmbroidery(piece, r.image, r.width, r.height) : defaultPrint(piece, r.image, r.width, r.height));
   }
+  const pickImage = (kind: "estampa" | "bordado") => {
+    replacing.current = null;
+    creating.current = kind;
+    fileRef.current?.click();
+  };
 
   const segmentOptions = piece.outline.map((_, i) => (
     <option key={i} value={i} disabled={i === piece.fold}>
@@ -103,16 +130,17 @@ export function FinishesPanel({ piece, readOnly, composition, onAdd, onUpdate, o
           <button type="button" className={ui.buttonGhost} onClick={() => add(defaultLabel(piece))}>
             + Etiqueta
           </button>
-          <button
-            type="button"
-            className={ui.buttonGhost}
-            disabled={busy}
-            onClick={() => {
-              replacing.current = null;
-              fileRef.current?.click();
-            }}
-          >
+          <button type="button" className={ui.buttonGhost} disabled={busy} onClick={() => pickImage("estampa")}>
             {busy ? "Lendo…" : "+ Estampa"}
+          </button>
+          <button type="button" className={ui.buttonGhost} disabled={busy} onClick={() => pickImage("bordado")} data-add-finish="bordado">
+            + Bordado
+          </button>
+          <button type="button" className={ui.buttonGhost} disabled={!canSeam} onClick={() => add(defaultStones(piece, "borda"))} data-add-finish="pedraria-borda">
+            + Pedraria na borda
+          </button>
+          <button type="button" className={`${ui.buttonGhost} col-span-2`} onClick={() => add(defaultStones(piece, "area"))} data-add-finish="pedraria-area">
+            + Pedraria em área
           </button>
           <p className="col-span-2 pt-1 text-[11px] text-tinta-suave">Prontos</p>
           {FINISH_PRESETS.map((p) => {
@@ -192,7 +220,7 @@ function FinishRow({
         )}
       </div>
 
-      {(f.kind === "pesponto" || f.kind === "ziper") && (
+      {"segment" in f && (
         <select
           className={`${small} w-full`}
           value={f.segment}
@@ -229,7 +257,49 @@ function FinishRow({
         </div>
       )}
 
-      {f.kind === "ziper" && (
+      {f.kind === "pedraria" && (
+        <div className="grid grid-cols-2 gap-2">
+          <CmField
+            label="Pedra (diâmetro)"
+            valueMm={f.stone}
+            min={STONE_RANGE.min}
+            max={STONE_RANGE.max}
+            disabled={readOnly}
+            onCommit={(mm) => mm !== null && onUpdate({ stone: mm, spacing: Math.max(f.spacing, mm) })}
+          />
+          <CmField
+            label="Entre pedras"
+            valueMm={f.spacing}
+            min={f.stone}
+            max={STONE_SPACING_MAX}
+            disabled={readOnly}
+            onCommit={(mm) => mm !== null && onUpdate({ spacing: mm })}
+          />
+          <label className="block text-xs">
+            <span className="font-medium">Cor</span>
+            <input
+              type="color"
+              className="mt-1 block h-8 w-full cursor-pointer rounded border border-tinta/20 bg-white"
+              value={f.color}
+              disabled={readOnly}
+              onChange={(e) => onUpdate({ color: e.target.value })}
+              data-stone-color
+            />
+          </label>
+          {"segment" in f && (
+            <CmField
+              label="Da costura"
+              valueMm={f.distance}
+              min={0}
+              max={50}
+              disabled={readOnly}
+              onCommit={(mm) => mm !== null && onUpdate({ distance: mm })}
+            />
+          )}
+        </div>
+      )}
+
+      {(f.kind === "ziper" || (f.kind === "pedraria" && "segment" in f)) && (
         <div className="grid grid-cols-2 gap-2">
           <CmField
             label="Começa em"
@@ -250,7 +320,7 @@ function FinishRow({
         </div>
       )}
 
-      {(f.kind === "etiqueta" || f.kind === "estampa") && (
+      {"anchor" in f && (
         <>
           <select
             className={`${small} w-full`}
@@ -312,7 +382,7 @@ function FinishRow({
             </select>
           </label>
           {f.kind === "etiqueta" && <LabelText value={f.text} disabled={readOnly} onCommit={(text) => onUpdate({ text })} />}
-          {f.kind === "estampa" && !readOnly && (
+          {(f.kind === "estampa" || f.kind === "bordado") && !readOnly && (
             <button type="button" className={`${ui.buttonGhost} w-full`} onClick={onReplaceImage}>
               Trocar imagem
             </button>

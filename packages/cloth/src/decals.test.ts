@@ -112,3 +112,26 @@ describe("garmentDecals", () => {
     expect(garmentDecals(g.finishes, [], new Map())).toEqual([]);
   });
 });
+
+describe("bordado e pedraria", () => {
+  const PNG = "data:image/png;base64,iVBORw0KGgo=";
+
+  it("bordado vira malha com a imagem; pedraria, um ponto por pedra no lugar dela, com cor e tamanho", () => {
+    let d = doc(retangulo());
+    d = addFinish(d, "r", { kind: "bordado", anchor: "A", offset: { x: 100, y: 100 }, width: 60, height: 40, rotation: 0, image: PNG }).doc;
+    d = addFinish(d, "r", { kind: "pedraria", segment: 2, distance: 10, from: 0, to: 1, stone: 5, spacing: 20, color: "#ddeeff" }).doc;
+    const g = garmentAtSize(d, "M");
+    const mesh = meshPiece(g.pieces[0]!, { spacing: 30 });
+    const decals = garmentDecals(g.finishes, [mesh], new Map([["r", 0]]));
+    const bordado = decals.find((x) => x.kind === "bordado")!;
+    expect(bordado.mode).toBe("mesh");
+    expect(bordado.image).toBe(PNG);
+    const pedras = decals.find((x) => x.kind === "pedraria")!;
+    expect(pedras.mode).toBe("points");
+    expect(pedras.color).toBe("#ddeeff");
+    expect(pedras.size).toBe(5);
+    const pos = decalPositions(pedras, flat3d(mesh.positions));
+    expect(pos.length / 3).toBe(11); // 200 mm ÷ 20 + 1
+    for (let k = 0; k < pos.length; k += 3) expect(pos[k + 1]!).toBeCloseTo(390, 3);
+  });
+});

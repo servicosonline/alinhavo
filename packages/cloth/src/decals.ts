@@ -15,15 +15,15 @@ export const DECAL_STEP = 12;
 /** Divisões da grade de uma etiqueta ou estampa em cada direção. */
 export const DECAL_GRID = 10;
 
-export type DecalKind = "pesponto" | "ziper" | "ziper-dentes" | "etiqueta" | "estampa";
+export type DecalKind = "pesponto" | "ziper" | "ziper-dentes" | "etiqueta" | "estampa" | "bordado" | "pedraria";
 
 export type Decal = {
   kind: DecalKind;
   /** Peça da Prova e acabamento de onde veio. */
   pieceId: string;
   finishId: string;
-  /** "line": os pontos ligados em ordem; "mesh": triângulos em `indices`. */
-  mode: "line" | "mesh";
+  /** "line": os pontos ligados em ordem; "mesh": triângulos em `indices`; "points": cada ponto solto (as pedras). */
+  mode: "line" | "mesh" | "points";
   /** Três vértices da simulação (índice global) por ponto do decalque. */
   vertices: Uint32Array;
   /** Três pesos por ponto (somam 1). */
@@ -35,6 +35,9 @@ export type Decal = {
   text?: string;
   /** Etiqueta ou estampa: largura ÷ altura do retângulo (para o texto ou a imagem não deformar). */
   aspect?: number;
+  /** Pedraria: cor (#rrggbb) e diâmetro da pedra em mm. */
+  color?: string;
+  size?: number;
 };
 
 /** Pontos de uma linha a no máximo `step` mm uns dos outros (as pontas originais ficam). */
@@ -152,6 +155,9 @@ export function garmentDecals(finishes: readonly GarmentFinish[], meshes: readon
       const [outer, inner] = zipperEdges(s.band);
       out.push({ ...base, kind: "ziper", mode: "mesh", ...embedPoints(mesh, [...outer, ...inner], offset), indices: stripIndices(outer.length) });
       out.push({ ...base, kind: "ziper-dentes", mode: "line", ...embedPoints(mesh, resampleLine(s.axis), offset) });
+    } else if (s.kind === "pedraria") {
+      if (s.stones.length === 0) continue;
+      out.push({ ...base, kind: "pedraria", mode: "points", ...embedPoints(mesh, s.stones, offset), color: s.color, size: s.radius * 2 });
     } else {
       const [c0, c1, , c3] = s.corners;
       const pts: Point[] = [];

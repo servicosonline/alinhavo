@@ -31,7 +31,7 @@ export type ProductFacts = {
   } | null;
 };
 
-/** Descrição curta de cada acabamento do molde, sem imagem (a estampa entra só como "estampa"). */
+/** Descrição curta de cada acabamento do molde, sem imagem (estampa e bordado entram só pelo nome). */
 export function describeFinishes(doc: PatternDocument): string[] {
   const out: string[] = [];
   for (const piece of doc.pieces) {
@@ -43,6 +43,10 @@ export function describeFinishes(doc: PatternDocument): string[] {
         out.push(`${FINISH_NAME.ziper} (${where})`);
       } else if (f.kind === "etiqueta") {
         out.push(`${FINISH_NAME.etiqueta}${f.text ? ` "${f.text}"` : ""} (${where})`);
+      } else if (f.kind === "bordado") {
+        out.push(`${FINISH_NAME.bordado} localizado de ${formatCm(f.width)} × ${formatCm(f.height)} cm (${where})`);
+      } else if (f.kind === "pedraria") {
+        out.push(`${FINISH_NAME.pedraria} com pedras de ${formatCm(f.stone)} cm${"segment" in f ? " na borda" : ` numa área de ${formatCm(f.width)} × ${formatCm(f.height)} cm`} (${where})`);
       } else {
         out.push(`${FINISH_NAME.estampa} localizada de ${formatCm(f.width)} × ${formatCm(f.height)} cm (${where})`);
       }

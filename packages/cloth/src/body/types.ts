@@ -57,7 +57,8 @@ export type BodyFit = {
 
 export type Body = {
   kind: BodyKind;
-  pose: BodyPose;
+  /** A pose com nome, ou "movimento" quando o corpo foi montado por ângulos. */
+  pose: BodyPose | "movimento";
   mesh: BodyMesh;
   collider: Collider;
   fit: BodyFit;
