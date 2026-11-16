@@ -28,10 +28,10 @@ export function TrialNudge({ text }: { text: string }) {
   return (
     <aside
       aria-label="Teste grátis"
-      className="mb-4 flex flex-wrap items-center gap-x-5 gap-y-3 rounded-2xl border border-linha/30 bg-white px-5 py-4"
+      className="mb-4 flex flex-wrap items-center gap-x-5 gap-y-2 rounded-2xl border border-linha/30 bg-white px-4 py-3 sm:gap-y-3 sm:px-5 sm:py-4"
     >
       {/* basis de 16rem: abaixo disso os botões descem para a linha de baixo em vez de espremer o texto. */}
-      <p className="min-w-0 grow basis-[16rem] text-[15px]">
+      <p className="min-w-0 grow basis-[16rem] text-sm sm:text-[15px]">
         <b className="font-display text-lg font-semibold">Gostou?</b> {text}
       </p>
       <div className="flex items-center gap-2">

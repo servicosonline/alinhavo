@@ -8,14 +8,13 @@ import { ActionForm } from "@/components/action-form";
 import { SubmitButton } from "@/components/submit-button";
 import { ui } from "@/components/ui";
 import { isUuid } from "@/lib/ids";
+import { FULL_SCREEN } from "@/lib/mobile-nav";
 import { searchFaq } from "@/lib/support-faq";
-
-/** Telas de trabalho em tela cheia (editor, Prova, encaixe, scan): o botão flutuante cobriria as ferramentas. */
-const FULL_SCREEN = /\/moldes\/[^/]+(\/prova)?$|\/encaixe|\/scan|^\/painel\/(admin\/)?suporte/;
 
 /**
  * Botão "Ajuda" do painel: primeiro as perguntas frequentes (a busca acha sem acento); não resolveu, a pessoa
  * escreve para o suporte e cai na conversa. A organização vem do endereço (`/painel/<org>/…`).
+ * Some nas telas de tela cheia (`FULL_SCREEN`: editor, Prova, encaixe, scan), onde cobriria as ferramentas.
  */
 export function HelpButton() {
   const path = usePathname();

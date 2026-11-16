@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
+import { OpenOnHash } from "@/components/open-on-hash";
 import { EmptyState, Loading, NotConfigured, PageHeader } from "@/components/page-shell";
 import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
@@ -56,10 +57,11 @@ async function Colecoes({ params }: { params: PageProps<"/painel/[orgId]/colecoe
       <div className="flex flex-wrap items-end justify-between gap-4">
         <PageHeader title="Coleções" description="Cada coleção junta os produtos, o status de cada um, os prazos e o cronograma até o lançamento." />
         {canEditProducts(role) && (
-          <details className="group relative">
+          <details id="nova-colecao" className="group relative">
             <summary className={`${ui.buttonPrimary} cursor-pointer list-none [&::-webkit-details-marker]:hidden`}>+ Nova coleção</summary>
             <div className={`${ui.card} absolute right-0 z-30 mt-2 w-[min(92vw,34rem)] shadow-[0_24px_50px_-28px_rgb(29_27_24/0.55)]`}>
               <CreateCollectionForm orgId={orgId} />
+              <OpenOnHash id="nova-colecao" />
             </div>
           </details>
         )}
