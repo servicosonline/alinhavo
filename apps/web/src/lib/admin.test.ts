@@ -52,3 +52,12 @@ describe("ficha do cliente", () => {
     expect(auditText("membro_removido", {})).toBe("tirou uma pessoa da organização");
   });
 });
+
+describe("aiUsageShare", () => {
+  it("fração do limite; limite zero com uso conta como estourado", async () => {
+    const { aiUsageShare } = await import("./admin");
+    expect(aiUsageShare(40, 50)).toBe(0.8);
+    expect(aiUsageShare(0, 0)).toBe(0);
+    expect(aiUsageShare(1, 0)).toBe(Infinity);
+  });
+});

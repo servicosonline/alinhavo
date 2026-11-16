@@ -136,3 +136,11 @@ export function auditText(action: string, meta: Record<string, unknown>): string
       return action.replace(/_/g, " ");
   }
 }
+
+/** Tipos de geração por IA, como a tela do superadmin chama. */
+export const AI_KIND_LABEL: Record<string, string> = { textos_produto: "Textos", foto_catalogo: "Fotos" };
+
+/** Quanto do limite do mês já foi (0 a 1+), para destacar quem está perto do teto. */
+export function aiUsageShare(used: number, limit: number): number {
+  return limit > 0 ? used / limit : used > 0 ? Infinity : 0;
+}

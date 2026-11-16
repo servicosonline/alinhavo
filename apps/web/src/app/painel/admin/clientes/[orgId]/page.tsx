@@ -7,7 +7,7 @@ import { SubmitButton } from "@/components/submit-button";
 import { ROLE_LABEL, ui } from "@/components/ui";
 import { STATUS_LABEL, planName } from "@/lib/account";
 import { activityText } from "@/lib/activity";
-import { packageMonthlyCents, potentialMonthlyCents, readClientDetail, USAGE_LABELS } from "@/lib/admin";
+import { AI_KIND_LABEL, packageMonthlyCents, potentialMonthlyCents, readClientDetail, USAGE_LABELS } from "@/lib/admin";
 import { requirePlatform } from "@/lib/admin-server";
 import { isUuid } from "@/lib/ids";
 import { formatMoney } from "@/lib/money";
@@ -15,7 +15,7 @@ import { getOrigin } from "@/lib/origin";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { CopyLink } from "../../../[orgId]/copy-link";
 import { adminRemoveMember, adminSetRole } from "../../actions";
-import { AdminInviteForm, AdminSubscriptionForm } from "../../admin-forms";
+import { AdminAiLimitForm, AdminInviteForm, AdminSubscriptionForm } from "../../admin-forms";
 
 export const metadata: Metadata = { title: "Cliente · Superadmin · Alinhavo" };
 
@@ -45,9 +45,10 @@ async function Cliente({ params }: { params: Props["params"] }) {
   const { orgId } = await params;
   if (!isUuid(orgId)) notFound();
   const { supabase, role } = await requirePlatform(`/painel/admin/clientes/${orgId}`);
-  const [{ data }, { data: errors }, origin] = await Promise.all([
+  const [{ data }, { data: errors }, { data: aiUsage }, origin] = await Promise.all([
     supabase.rpc("platform_client", { p_org_id: orgId }),
     supabase.rpc("platform_errors", { p_org_id: orgId, p_limit: 20 }),
+    supabase.rpc("platform_ai_usage", { p_org_id: orgId }),
     getOrigin(),
   ]);
   const c = readClientDetail(data);
@@ -205,6 +206,34 @@ async function Cliente({ params }: { params: Props["params"] }) {
               <AdminSubscriptionForm orgId={c.id} planId={c.plan?.planId ?? null} />
             ) : (
               <p className={ui.muted}>Só o dono da plataforma muda plano e teste.</p>
+            )}
+          </section>
+
+          <section aria-labelledby="ia" className={`${ui.card} space-y-4`}>
+            <h2 id="ia" className={ui.eyebrow}>
+              IA neste mês
+            </h2>
+            <ul className="space-y-1 text-sm">
+              {(aiUsage ?? []).map((u) => (
+                <li key={u.kind} className="flex flex-wrap justify-between gap-x-3">
+                  <span>
+                    {AI_KIND_LABEL[u.kind]}: <strong>{u.used}</strong> de {u.monthly_limit}
+                    {u.custom_limit && <span className={`${ui.tag} ml-2`}>limite próprio</span>}
+                  </span>
+                  <span className="font-mono text-xs text-tinta-suave">
+                    Claude {u.by_claude} · OpenAI {u.by_openai} · erros {u.errors}
+                  </span>
+                </li>
+              ))}
+            </ul>
+            {role === "dono" ? (
+              <div className="space-y-3 border-t border-tinta/10 pt-3">
+                {(aiUsage ?? []).map((u) => (
+                  <AdminAiLimitForm key={u.kind} orgId={c.id} kind={u.kind} label={AI_KIND_LABEL[u.kind] ?? u.kind} current={u.monthly_limit} custom={u.custom_limit} />
+                ))}
+              </div>
+            ) : (
+              <p className={ui.muted}>Só o dono da plataforma muda o limite de IA.</p>
             )}
           </section>
 

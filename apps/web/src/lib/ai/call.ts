@@ -18,7 +18,7 @@ import {
 
 export type AiTextResult =
   | { ok: true; texts: ProductTexts; model: string; inputTokens: number; outputTokens: number }
-  | { ok: false; error: string; model: string | null; inputTokens: number; outputTokens: number };
+  | { ok: false; error: string; model: string | null; inputTokens: number; outputTokens: number; refused?: boolean };
 
 /** Só o que a chamada usa do cliente (o SDK inteiro serve; o teste passa um objeto com isto). */
 export type AiClient = { beta: { messages: { create: Anthropic["beta"]["messages"]["create"] } } };
@@ -52,7 +52,7 @@ export async function callProductTexts(client: AiClient, facts: ProductFacts): P
   } catch (err) {
     // Do mais específico ao mais geral.
     if (err instanceof Anthropic.AuthenticationError || err instanceof Anthropic.PermissionDeniedError) {
-      return FAIL("A chave da IA não foi aceita. Confira ANTHROPIC_API_KEY no servidor.");
+      return FAIL("A chave da IA não foi aceita. Confira ANTHROPIC_API_KEY (ou a do gateway) no servidor.");
     }
     if (err instanceof Anthropic.RateLimitError) return FAIL("A IA está com muitos pedidos agora. Tente de novo em um minuto.");
     if (err instanceof Anthropic.BadRequestError) return FAIL("A IA recusou o pedido. Tente de novo ou avise o suporte.");
@@ -61,7 +61,8 @@ export async function callProductTexts(client: AiClient, facts: ProductFacts): P
   }
 
   const usage = { model: response.model, inputTokens: response.usage.input_tokens, outputTokens: response.usage.output_tokens };
-  if (response.stop_reason === "refusal") return FAIL("A IA não quis escrever sobre este produto. Revise os dados e tente de novo.", usage);
+  // Recusa não vai para a reserva (outro provedor): seria driblar o filtro de segurança.
+  if (response.stop_reason === "refusal") return FAIL("A IA não quis escrever sobre este produto. Revise os dados e tente de novo.", { ...usage, refused: true });
   if (response.stop_reason === "max_tokens") return FAIL("O texto da IA saiu incompleto. Tente de novo.", usage);
   const text = response.content.find((b): b is Anthropic.Beta.BetaTextBlock => b.type === "text")?.text ?? "";
   const texts = readProductTexts(text);

@@ -25,6 +25,7 @@ export async function CatalogPhotos({
   provaHref,
   canEdit,
   usedThisMonth,
+  monthlyLimit = AI_PHOTO_MONTHLY_LIMIT,
 }: {
   supabase: Supabase;
   orgId: string;
@@ -33,6 +34,7 @@ export async function CatalogPhotos({
   provaHref: string | null;
   canEdit: boolean;
   usedThisMonth: number;
+  monthlyLimit?: number;
 }) {
   const { data } = await supabase
     .from("catalog_photos")
@@ -64,7 +66,7 @@ export async function CatalogPhotos({
       </div>
       <p className="text-xs text-tinta-suave">
         Geradas por IA a partir de uma captura da Prova: o manequim vira um modelo. A IA pode mudar detalhes da roupa; confira antes de publicar e
-        informe que a imagem foi gerada por IA. {usedThisMonth} de {AI_PHOTO_MONTHLY_LIMIT} fotos usadas neste mês pela equipe.
+        informe que a imagem foi gerada por IA. {usedThisMonth} de {monthlyLimit} fotos usadas neste mês pela equipe.
       </p>
       {photos.length === 0 ? (
         <p className={ui.muted}>

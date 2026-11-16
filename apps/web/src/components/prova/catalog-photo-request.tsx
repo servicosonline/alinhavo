@@ -25,6 +25,8 @@ export type CatalogPhotoRequester = {
   /** Motivo para não gerar (sem permissão, IA não configurada…); null = pode. */
   blocked: string | null;
   usedThisMonth: number;
+  /** Limite do mês da organização; sem ele, o padrão. */
+  monthlyLimit?: number;
   generate: (capture: Capture, options: CatalogPhotoOptions) => Promise<CatalogPhotoResult>;
 };
 
@@ -39,7 +41,8 @@ export function CatalogPhotoRequest({ requester, captures }: Props) {
   const [used, setUsed] = useState(requester.usedThisMonth);
   const [viewing, setViewing] = useState<number | null>(null);
   const capture = captures[Math.min(chosen, captures.length - 1)];
-  const full = used >= AI_PHOTO_MONTHLY_LIMIT;
+  const limit = requester.monthlyLimit ?? AI_PHOTO_MONTHLY_LIMIT;
+  const full = used >= limit;
 
   const set = <K extends keyof typeof options>(key: K, value: (typeof options)[K]) => setOptions((o) => ({ ...o, [key]: value }));
 
@@ -122,7 +125,7 @@ export function CatalogPhotoRequest({ requester, captures }: Props) {
               </label>
               <div className="flex items-center justify-between gap-2">
                 <span className="text-[11px] text-tinta-suave">
-                  {used} de {AI_PHOTO_MONTHLY_LIMIT} fotos usadas neste mês
+                  {used} de {limit} fotos usadas neste mês
                 </span>
                 <button type="button" className={ui.buttonPrimary} onClick={submit} disabled={busy || full || !capture} data-photo-submit>
                   {busy ? "Gerando (até 2 min)…" : "Gerar foto"}

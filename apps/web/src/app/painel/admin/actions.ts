@@ -78,6 +78,22 @@ export async function adminSetSubscription(orgId: string, _prev: FormState, form
   return { ok: "Plano atualizado." };
 }
 
+/** Limite de IA do mês para um cliente (só o dono da plataforma). Campo vazio = volta ao padrão. */
+export async function adminSetAiLimit(orgId: string, _prev: FormState, formData: FormData): Promise<FormState> {
+  const supabase = await ready();
+  if (!supabase) return { error: "Entre de novo para continuar." };
+  const kind = String(formData.get("kind") ?? "");
+  const raw = String(formData.get("limit") ?? "").trim();
+  const limit = raw === "" ? null : Number(raw);
+  if (!isUuid(orgId) || (kind !== "textos_produto" && kind !== "foto_catalogo")) return { error: "Pedido inválido." };
+  if (limit !== null && !(Number.isInteger(limit) && limit >= 0 && limit <= 10000)) return { error: "Escolha um número inteiro de 0 a 10.000 (vazio = padrão)." };
+  const { error } = await supabase.rpc("platform_set_ai_limit", { p_org_id: orgId, p_kind: kind, p_limit: limit });
+  if (error) return { error: dbErrorMessage(error, TEXTS) };
+  revalidatePath(`/painel/admin/clientes/${orgId}`);
+  revalidatePath("/painel/admin/ia");
+  return { ok: limit === null ? "Voltou ao limite padrão." : "Limite salvo." };
+}
+
 export async function adminAddHelper(_prev: FormState, formData: FormData): Promise<FormState> {
   const supabase = await ready();
   if (!supabase) return { error: "Entre de novo para continuar." };

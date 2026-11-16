@@ -13,6 +13,8 @@ type Props = {
   canEdit: boolean;
   /** A IA está configurada no servidor (ANTHROPIC_API_KEY). */
   aiReady: boolean;
+  /** Limite do mês da organização (o superadmin pode mudar); sem ele, o padrão. */
+  monthlyLimit?: number;
   /** Gerações por IA já usadas pela organização neste mês. */
   usedThisMonth: number;
 };
@@ -24,13 +26,13 @@ type Note = { tone: "ok" | "error"; text: string } | null;
  * sugere a partir do tecido, aviamentos e molde; a sugestão só preenche os
  * campos, e nada é gravado até a pessoa salvar.
  */
-export function ProductTexts({ orgId, productId, sales, technical, canEdit, aiReady, usedThisMonth }: Props) {
+export function ProductTexts({ orgId, productId, sales, technical, canEdit, aiReady, usedThisMonth, monthlyLimit = AI_MONTHLY_LIMIT }: Props) {
   const [draft, setDraft] = useState({ sales: sales ?? "", technical: technical ?? "" });
   const [busy, setBusy] = useState<false | "ia" | "salvar">(false);
   const [note, setNote] = useState<Note>(null);
   const [used, setUsed] = useState(usedThisMonth);
   const dirty = draft.sales !== (sales ?? "") || draft.technical !== (technical ?? "");
-  const full = used >= AI_MONTHLY_LIMIT;
+  const full = used >= monthlyLimit;
 
   if (!canEdit) {
     return (
@@ -101,7 +103,7 @@ export function ProductTexts({ orgId, productId, sales, technical, canEdit, aiRe
           {busy === "ia" ? "Escrevendo…" : "Sugerir com IA"}
         </button>
         <span className="text-xs text-tinta-suave" data-ai-usage>
-          {aiReady ? `${used} de ${AI_MONTHLY_LIMIT} sugestões da IA usadas neste mês pela equipe.` : "IA não configurada neste ambiente."}
+          {aiReady ? `${used} de ${monthlyLimit} sugestões da IA usadas neste mês pela equipe.` : "IA não configurada neste ambiente."}
         </span>
       </div>
       {note && (

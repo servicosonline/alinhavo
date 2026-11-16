@@ -832,6 +832,24 @@ export type Database = {
         Returns: { id: string; title: string; body: string; link: string | null; created_at: string; read: boolean }[];
       };
       mark_notifications_read: { Args: { p_ids?: string[] | null }; Returns: undefined };
+      ai_limit_for: { Args: { p_org_id: string; p_kind?: string }; Returns: number | null };
+      platform_set_ai_limit: { Args: { p_org_id: string; p_kind: string; p_limit: number | null }; Returns: undefined };
+      platform_ai_usage: {
+        Args: { p_org_id?: string | null };
+        Returns: {
+          org_id: string;
+          org_name: string;
+          kind: "textos_produto" | "foto_catalogo";
+          used: number;
+          monthly_limit: number;
+          custom_limit: boolean;
+          errors: number;
+          by_claude: number;
+          by_openai: number;
+          input_tokens: number;
+          output_tokens: number;
+        }[];
+      };
       open_support_thread: { Args: { p_subject: string; p_body: string; p_org_id?: string | null }; Returns: string };
       send_support_message: { Args: { p_thread_id: string; p_body: string }; Returns: string };
       close_support_thread: { Args: { p_thread_id: string }; Returns: undefined };

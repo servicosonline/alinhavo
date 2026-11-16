@@ -3,8 +3,9 @@
 import { buildTechPack } from "@alinhavo/export/tech-pack";
 import { revalidatePath } from "next/cache";
 import type { FormState } from "@/components/ui";
-import { callProductTexts } from "@/lib/ai/call";
+import { generateProductTexts } from "@/lib/ai/generate-texts";
 import { getAiClient } from "@/lib/ai/client";
+import { getOpenAiTextProvider } from "@/lib/ai/openai-client";
 import { productFacts, SALES_MAX, TECHNICAL_MAX } from "@/lib/ai/product-text";
 import { getCurrentUser } from "@/lib/auth";
 import { dbErrorMessage } from "@/lib/db-error";
@@ -125,8 +126,9 @@ export type ProductTextsResult = { ok: true; sales: string; technical: string } 
 export async function suggestProductTexts(orgId: string, productId: string): Promise<ProductTextsResult> {
   const c = await ctx(orgId, productId);
   if (!c) return { ok: false, error: "Sua sessão expirou ou o pedido é inválido." };
-  const ai = getAiClient();
-  if (!ai) return { ok: false, error: "A IA ainda não foi configurada neste ambiente (ANTHROPIC_API_KEY)." };
+  // Claude direto ou pelo gateway; a OpenAI é a reserva (ver lib/ai/generate-texts.ts).
+  const providers = { claude: getAiClient(), openai: getOpenAiTextProvider() };
+  if (!providers.claude && !providers.openai) return { ok: false, error: "A IA ainda não foi configurada neste ambiente (ANTHROPIC_API_KEY ou o gateway)." };
   const src = await loadProductSources(c.supabase, orgId, productId);
   if (!src) return { ok: false, error: "Produto não encontrado." };
 
@@ -141,7 +143,8 @@ export async function suggestProductTexts(orgId: string, productId: string): Pro
     trims: src.trims,
     doc: src.doc,
   });
-  const result = await callProductTexts(ai, facts);
+  const result = await generateProductTexts(providers, facts);
+  if (result.usedFallback) console.warn("[ia] textos pela reserva (OpenAI): o Claude falhou.");
   await c.supabase.rpc("finish_ai_generation", {
     p_id: generationId,
     p_ok: result.ok,

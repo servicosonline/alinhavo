@@ -7,6 +7,7 @@ const TABS = [
   { href: "/painel/admin", label: "Clientes", match: (p: string) => p === "/painel/admin" || p.startsWith("/painel/admin/clientes") },
   { href: "/painel/admin/tempo", label: "Tempo de produção", match: (p: string) => p.startsWith("/painel/admin/tempo") },
   { href: "/painel/admin/notificacoes", label: "Notificações", match: (p: string) => p.startsWith("/painel/admin/notificacoes") },
+  { href: "/painel/admin/ia", label: "IA", match: (p: string) => p.startsWith("/painel/admin/ia") },
   { href: "/painel/admin/suporte", label: "Suporte", match: (p: string) => p.startsWith("/painel/admin/suporte") },
   { href: "/painel/admin/novidades", label: "Novidades", match: (p: string) => p.startsWith("/painel/admin/novidades") },
   { href: "/painel/admin/erros", label: "Erros", match: (p: string) => p.startsWith("/painel/admin/erros") },

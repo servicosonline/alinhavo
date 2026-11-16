@@ -5,7 +5,7 @@ import { ActionForm } from "@/components/action-form";
 import { SubmitButton } from "@/components/submit-button";
 import { ROLE_LABEL, ui, type FormState } from "@/components/ui";
 import { CopyLink } from "../[orgId]/copy-link";
-import { adminAddHelper, adminInvite, adminSetSubscription } from "./actions";
+import { adminAddHelper, adminInvite, adminSetAiLimit, adminSetSubscription } from "./actions";
 
 function Message({ state }: { state: FormState }) {
   if (state?.error)
@@ -83,6 +83,28 @@ export function AdminSubscriptionForm({ orgId, planId }: { orgId: string; planId
       <div className="sm:col-span-2">
         <Message state={state} />
       </div>
+    </ActionForm>
+  );
+}
+
+/** Limite de IA do mês de um tipo para o cliente (só o dono da plataforma). Vazio volta ao padrão. */
+export function AdminAiLimitForm({ orgId, kind, label, current, custom }: { orgId: string; kind: string; label: string; current: number; custom: boolean }) {
+  const [state, action, pending] = useActionState(adminSetAiLimit.bind(null, orgId), undefined);
+  return (
+    <ActionForm action={action} state={state} pending={pending} resetOnOk={false} className="space-y-2">
+      <input type="hidden" name="kind" value={kind} />
+      <div className="flex flex-wrap items-end gap-2">
+        <label className="block w-48">
+          <span className={ui.label}>
+            {label} por mês {custom ? "" : "(padrão)"}
+          </span>
+          <input name="limit" type="number" min={0} max={10000} step={1} defaultValue={custom ? current : ""} placeholder={String(current)} className={ui.input} />
+        </label>
+        <SubmitButton variant="ghost" pendingText="Salvando…">
+          Salvar
+        </SubmitButton>
+      </div>
+      <Message state={state} />
     </ActionForm>
   );
 }
