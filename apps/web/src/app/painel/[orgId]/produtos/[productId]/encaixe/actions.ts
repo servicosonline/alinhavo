@@ -11,9 +11,9 @@ import { getSupabaseConfig } from "@/lib/supabase/config";
 import type { Json } from "@/lib/supabase/database.types";
 import { createClient } from "@/lib/supabase/server";
 
-// Permissão de verdade: RLS e create_marker (owner, admin, modelista e estilista).
+// Permissão de verdade: RLS e create_marker (owner, admin e modelista, no plano Confecção).
 
-const NO_PERMISSION = "Só donos, admins, modelistas e estilistas salvam encaixes.";
+const NO_PERMISSION = "Só donos, admins e modelistas salvam encaixes.";
 
 export type SaveMarkerState = { error?: string; ok?: string; number?: number };
 

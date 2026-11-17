@@ -269,7 +269,7 @@ export function EncaixeStudio({
               )}
             </div>
           ) : (
-            <p className={ui.muted}>Você pode encaixar para conferir, mas só donos, admins, modelistas e estilistas salvam.</p>
+            <p className={ui.muted}>Você pode encaixar para conferir, mas só donos, admins e modelistas salvam.</p>
           )}
         </div>
       )}

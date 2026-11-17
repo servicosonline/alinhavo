@@ -12,6 +12,11 @@ import { MAX_SCANNED_PIECES } from "@/lib/scan/document";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import type { Json } from "@/lib/supabase/database.types";
 import { createClient } from "@/lib/supabase/server";
+import { getOrgPlan } from "@/lib/org-access";
+import { PLAN_LOCK_TEXT, planAllows } from "@/lib/plans";
+
+/** Recusa do plano (54000, mensagem do banco em português). */
+const planError = (error: { code?: string; message?: string } | null) => (error?.code === "54000" && error.message ? error.message : null);
 
 export async function createPattern(orgId: string, _prev: FormState, formData: FormData): Promise<FormState> {
   if (!getSupabaseConfig()) return { error: "O Supabase ainda não foi configurado neste ambiente." };
@@ -28,7 +33,7 @@ export async function createPattern(orgId: string, _prev: FormState, formData: F
   const { data, error } = await supabase.from("patterns").insert({ org_id: orgId, name }).select("id").single();
   if (error || !data) {
     if (error?.code === "42501") return { error: "Só donos, admins e modelistas criam moldes." };
-    return { error: "Não foi possível criar o molde." };
+    return { error: planError(error) ?? "Não foi possível criar o molde." };
   }
   // Começar de um exemplo: o exemplo vira a versão 1 (o molde vazio não tem versão).
   if (isExampleId(start)) {
@@ -63,8 +68,10 @@ export async function createPatternFromScan(orgId: string, name: unknown, docume
   if (doc.pieces.length === 0 || doc.pieces.length > MAX_SCANNED_PIECES) return { error: `De 1 a ${MAX_SCANNED_PIECES} peças por molde escaneado.` };
 
   const supabase = await createClient();
+  // Confere o plano antes de criar: sem Scan no plano, o molde ficaria vazio.
+  if (!planAllows(await getOrgPlan(supabase, orgId), "scan")) return { error: PLAN_LOCK_TEXT.scan };
   const { data, error } = await supabase.from("patterns").insert({ org_id: orgId, name: title }).select("id").single();
-  if (error || !data) return { error: error?.code === "42501" ? "Só donos, admins e modelistas criam moldes." : "Não foi possível criar o molde." };
+  if (error || !data) return { error: error?.code === "42501" ? "Só donos, admins e modelistas criam moldes." : (planError(error) ?? "Não foi possível criar o molde.") };
   const { error: saveError } = await supabase.rpc("save_pattern_version", {
     p_pattern_id: data.id,
     p_document: doc as unknown as Json,
@@ -130,7 +137,7 @@ export async function savePatternVersion(
       return { ok: false, error: "Outra pessoa salvou este molde enquanto você editava. Recarregue a página para ver a versão nova." };
     }
     if (error?.code === "42501") return { ok: false, error: "Você não tem permissão para editar este molde." };
-    return { ok: false, error: "Não foi possível salvar. Tente de novo." };
+    return { ok: false, error: planError(error) ?? "Não foi possível salvar. Tente de novo." };
   }
 
   revalidatePath(`/painel/${orgId}/moldes`);

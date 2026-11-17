@@ -13,7 +13,9 @@ import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
 import { DEFAULT_WIDTH_MM, formatDemand, formatEfficiency, formatMeters, formatPerGarment } from "@/lib/encaixe/marker";
 import { isUuid } from "@/lib/ids";
-import { canEditProducts, getMyRole } from "@/lib/org-access";
+import { PlanLock } from "@/components/plan-lock";
+import { canNest, getMyRole, getOrgPlan } from "@/lib/org-access";
+import { planAllows } from "@/lib/plans";
 import { formatDate } from "@/lib/prova/approval";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
@@ -42,13 +44,14 @@ async function Encaixe({ params, searchParams }: Pick<Props, "params" | "searchP
   // Cliente com a sessão do usuário: tudo abaixo passa pela RLS.
   const supabase = await createClient();
 
-  const [prodRes, role] = await Promise.all([
+  const [prodRes, role, plan] = await Promise.all([
     supabase.from("products").select("id, reference, name, pattern_id, fabric_id").eq("id", productId).eq("org_id", orgId).maybeSingle(),
     getMyRole(supabase, orgId, user.id),
+    getOrgPlan(supabase, orgId),
   ]);
   const p = prodRes.data;
   if (!p) notFound();
-  const canEdit = canEditProducts(role);
+  const canEdit = canNest(role, plan);
 
   const [patRes, fabRes, markersRes] = await Promise.all([
     p.pattern_id
@@ -116,7 +119,9 @@ async function Encaixe({ params, searchParams }: Pick<Props, "params" | "searchP
         </p>
       </div>
 
-      {problem || !doc || !pattern ? (
+      {!planAllows(plan, "encaixe") ? (
+        <PlanLock feature="encaixe" />
+      ) : problem || !doc || !pattern ? (
         <p className={ui.error} role="alert">
           {problem}
         </p>

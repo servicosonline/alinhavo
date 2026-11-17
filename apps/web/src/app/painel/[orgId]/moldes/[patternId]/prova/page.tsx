@@ -7,7 +7,8 @@ import { Loading, NotConfigured, Trail } from "@/components/page-shell";
 import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
-import { canEditPatterns, canEditProducts, getMyRole } from "@/lib/org-access";
+import { canEditPatterns, canEditProducts, getMyRole, getOrgPlan, patternLockedByPlan } from "@/lib/org-access";
+import { PLAN_LOCK_TEXT, planAllows } from "@/lib/plans";
 import { currentVersionsFilter, LOOK_OPTIONS_MAX, lookOptionsFrom } from "@/lib/prova/look-options";
 import { measurementsBySize } from "@/lib/prova/measurements";
 import { fabricOptionsFrom } from "@/lib/prova/fabric-options";
@@ -59,12 +60,13 @@ async function Prova({ params }: { params: Params }) {
     );
   }
 
-  const [versionRes, chartRes, role, othersRes, productRes, photosRes, photoLimitRes, fabricsRes, bodiesRes] = await Promise.all([
+  const [versionRes, chartRes, role, plan, othersRes, productRes, photosRes, photoLimitRes, fabricsRes, bodiesRes] = await Promise.all([
     supabase.from("pattern_versions").select("document").eq("pattern_id", pattern.id).eq("number", pattern.current_version).maybeSingle(),
     pattern.size_chart_id
       ? supabase.from("size_charts").select("id, name").eq("id", pattern.size_chart_id).eq("org_id", orgId).maybeSingle()
       : Promise.resolve({ data: null }),
     getMyRole(supabase, orgId, user.id),
+    getOrgPlan(supabase, orgId),
     // Look: os outros moldes da organização com versão salva, os mais recentes primeiro.
     supabase
       .from("patterns")
@@ -112,6 +114,8 @@ async function Prova({ params }: { params: Params }) {
   const { data: otherVersions } = others.length
     ? await supabase.from("pattern_versions").select("pattern_id, number, document").eq("org_id", orgId).or(currentVersionsFilter(others))
     : { data: [] as { pattern_id: string; number: number; document: unknown }[] };
+  // No Grátis, só o primeiro molde da organização ganha versão nova (o ajuste da Prova também).
+  const canEdit = canEditPatterns(role) && !(await patternLockedByPlan(supabase, orgId, pattern.id, plan));
   const lookOptions = lookOptionsFrom(others, otherVersions ?? []);
 
   // Só a informação de que há chave (nunca a chave) vai para a tela.
@@ -122,7 +126,9 @@ async function Prova({ params }: { params: Params }) {
         productName: product.name,
         usedThisMonth: photosRes.data ?? 0,
         monthlyLimit: photoLimitRes.data ?? undefined,
-        blocked: !canEditProducts(role)
+        blocked: !planAllows(plan, "colecao")
+          ? PLAN_LOCK_TEXT.colecao
+          : !canEditProducts(role, plan)
           ? "Só donos, admins, modelistas e estilistas geram fotos do produto."
           : !process.env.OPENAI_API_KEY?.trim()
             ? "As fotos por IA ainda não foram configuradas neste ambiente."
@@ -163,7 +169,8 @@ async function Prova({ params }: { params: Params }) {
       </div>
       <ProvaPainel
         orgId={orgId}
-        canEdit={canEditPatterns(role)}
+        canEdit={canEdit}
+        approvalLocked={planAllows(plan, "aprovacao") ? null : PLAN_LOCK_TEXT.aprovacao}
         patternId={pattern.id}
         version={pattern.current_version}
         savedDoc={doc}

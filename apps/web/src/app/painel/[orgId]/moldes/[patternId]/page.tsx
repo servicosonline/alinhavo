@@ -5,7 +5,9 @@ import { Loading, NotConfigured, Trail } from "@/components/page-shell";
 import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
-import { canEditPatterns, getMyRole } from "@/lib/org-access";
+import { canEditPatterns, getMyRole, getOrgPlan, patternLockedByPlan } from "@/lib/org-access";
+import { PLAN_LOCK_TEXT, planAllows } from "@/lib/plans";
+import { PlanLock } from "@/components/plan-lock";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
 import { SubmitButton } from "@/components/submit-button";
@@ -31,7 +33,7 @@ async function Molde({ params }: { params: Params }) {
   const user = await requireUser(`/painel/${orgId}/moldes/${patternId}`);
   const supabase = await createClient();
 
-  const [patternRes, role, chartsRes, productRes] = await Promise.all([
+  const [patternRes, role, plan, chartsRes, productRes] = await Promise.all([
     supabase
       .from("patterns")
       .select("id, name, current_version, size_chart_id")
@@ -39,6 +41,7 @@ async function Molde({ params }: { params: Params }) {
       .eq("org_id", orgId)
       .maybeSingle(),
     getMyRole(supabase, orgId, user.id),
+    getOrgPlan(supabase, orgId),
     supabase.from("size_charts").select("id, name, sizes(id, label, position, is_base)").eq("org_id", orgId).order("name"),
     // O produto ligado a este molde (um por molde), para a trilha "Coleção › Produto › Molde"
     // e a composição do tecido dele (etiqueta de composição pronta nos acabamentos).
@@ -78,7 +81,10 @@ async function Molde({ params }: { params: Params }) {
           baseSize: linkedSizes.find((s) => s.is_base)?.label ?? null,
         }
       : null;
-  const canEdit = canEditPatterns(role);
+  // No Grátis, só o primeiro molde da organização ganha versão nova; os outros ficam para ler.
+  const lockedByPlan = canEditPatterns(role) && (await patternLockedByPlan(supabase, orgId, pattern.id, plan));
+  const canEdit = canEditPatterns(role) && !lockedByPlan;
+  const canApprove = canEdit && planAllows(plan, "aprovacao");
   // Medidas da tabela ligada, para a Prova ao lado do editor (os tamanhos do molde mudam na tela: casar fica lá).
   const { data: measurementRows } = linkedSizes.length
     ? await supabase
@@ -116,6 +122,7 @@ async function Molde({ params }: { params: Params }) {
   return (
     // O editor usa a largura da tela (data-largura, ver Container).
     <div className="space-y-3" data-largura="tela">
+      {lockedByPlan && <PlanLock feature="moldes" />}
       <div className="flex flex-wrap items-center justify-between gap-3">
         <p className="text-sm text-tinta-suave">Molde da organização · as versões ficam salvas, nada é sobrescrito.</p>
         {canEdit ? (
@@ -155,12 +162,13 @@ async function Molde({ params }: { params: Params }) {
         readOnly={!canEdit}
         trail={trail}
         rail={rail}
-        approvalHref={canEdit ? `${base}/moldes/${patternId}/prova` : undefined}
+        approvalHref={canApprove ? `${base}/moldes/${patternId}/prova` : undefined}
         chartGrade={chartGrade}
         chartMeasurements={chartMeasurements}
         fabricComposition={product?.fabrics?.composition ?? null}
+        exportLocked={planAllows(plan, "exportar") ? null : PLAN_LOCK_TEXT.exportar}
       />
-      <ApprovalsList supabase={supabase} orgId={orgId} patternId={pattern.id} canEdit={canEdit} />
+      <ApprovalsList supabase={supabase} orgId={orgId} patternId={pattern.id} canEdit={canApprove} />
     </div>
   );
 }

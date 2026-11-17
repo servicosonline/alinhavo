@@ -7,6 +7,8 @@ import { Loading, NotConfigured, PageHeader } from "@/components/page-shell";
 import { SubmitButton } from "@/components/submit-button";
 import { ROLE_LABEL, ui } from "@/components/ui";
 import { STATUS_LABEL, planName, type SubscriptionStatus } from "@/lib/account";
+import { effectivePlan, planAllows } from "@/lib/plans";
+import { PlanLock } from "@/components/plan-lock";
 import { requireUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
 import { getOrigin } from "@/lib/origin";
@@ -163,7 +165,7 @@ async function Configuracoes({ params, searchParams }: Pick<Props, "params" | "s
         </section>
       )}
 
-      {tab === "convidar" && (canManage ? <Convidar orgId={orgId} /> : <p className={ui.muted}>Só dono e admin convidam pessoas.</p>)}
+      {tab === "convidar" && (canManage ? <Convidar orgId={orgId} teamAllowed={planAllows(effectivePlan(plan ?? null), "equipe")} /> : <p className={ui.muted}>Só dono e admin convidam pessoas.</p>)}
 
       <p className="pt-4 text-sm text-tinta-suave">
         <Link href={`/painel/${orgId}`} className={ui.link}>
@@ -174,7 +176,7 @@ async function Configuracoes({ params, searchParams }: Pick<Props, "params" | "s
   );
 }
 
-async function Convidar({ orgId }: { orgId: string }) {
+async function Convidar({ orgId, teamAllowed }: { orgId: string; teamAllowed: boolean }) {
   const supabase = await createClient();
   const [{ data: invites }, origin] = await Promise.all([
     supabase.from("invites").select("id, email, role, token, expires_at").eq("org_id", orgId).is("accepted_at", null).order("created_at"),
@@ -187,7 +189,7 @@ async function Convidar({ orgId }: { orgId: string }) {
           Convidar pessoa
         </h2>
         <p className={ui.muted}>Modelagem e gestão pagam assento cheio; estilista tem preço menor; só leitura não paga.</p>
-        <InviteForm orgId={orgId} />
+        {teamAllowed ? <InviteForm orgId={orgId} /> : <PlanLock feature="equipe" />}
       </section>
       <section className="space-y-3" aria-labelledby="pendentes">
         <h2 id="pendentes" className={ui.eyebrow}>

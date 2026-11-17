@@ -16,7 +16,8 @@ afterAll(async () => {
 const DOC = { schema: 4, unit: "mm", sizes: ["P", "M"], baseSize: "M", pieces: [], seams: [] };
 const LAYOUT = JSON.stringify({ schema: 1, pieces: [], placements: [] });
 
-type Cenario = { orgId: string; productId: string; dono: User; modelista: User; estilista: User; leitura: User; fora: User };
+type Cenario = { orgId: string; productId: string; dono: User; modelista: User; estilista: User;
+  outra: User; leitura: User; fora: User };
 
 let seq = 0;
 async function cenario(): Promise<Cenario> {
@@ -24,18 +25,20 @@ async function cenario(): Promise<Cenario> {
   const dono = await createUser(db, `dono${n}@q.com`);
   const modelista = await createUser(db, `modelista${n}@q.com`);
   const estilista = await createUser(db, `estilista${n}@q.com`);
+  const outra = await createUser(db, `outra${n}@q.com`);
   const leitura = await createUser(db, `leitura${n}@q.com`);
   const fora = await createUser(db, `fora${n}@q.com`);
   const { id: orgId } = await novaOrg(db, dono);
   await entrarComo(db, dono, orgId, modelista, "modelista");
   await entrarComo(db, dono, orgId, estilista, "estilista");
+  await entrarComo(db, dono, orgId, outra, "modelista");
   await entrarComo(db, dono, orgId, leitura, "leitura");
   const productId = await as(db, dono, async (q) => {
     const pat = (await q.query<{ id: string }>("insert into public.patterns (org_id, name) values ($1, 'Saia') returning id", [orgId])).rows[0]!;
     await q.query("select public.save_pattern_version($1, $2, 'editor', 0)", [pat.id, JSON.stringify(DOC)]);
     return (await q.query<{ id: string }>("insert into public.products (org_id, name, pattern_id) values ($1, 'Saia', $2) returning id", [orgId, pat.id])).rows[0]!.id;
   });
-  return { orgId, productId, dono, modelista, estilista, leitura, fora };
+  return { orgId, productId, dono, modelista, estilista, outra, leitura, fora };
 }
 
 const enfileirar = (u: User, productId: string, demand: unknown = { P: 2, M: 1 }) =>
@@ -72,8 +75,11 @@ const vencerPrazo = (jobId: string) => db.query("update public.nest_jobs set lea
 describe("fila de encaixes", () => {
   it("quem edita produto põe na fila (na versão atual do molde); todo membro vê; quem é de fora, não", async () => {
     const c = await cenario();
-    const job = await enfileirar(c.estilista, c.productId);
+    const job = await enfileirar(c.outra, c.productId);
     expect(job).toMatchObject({ status: "fila", pattern_version: 1 });
+    // O encaixe é da modelista: a estilista edita o produto, mas não encaixa nem processa a fila.
+    await expect(enfileirar(c.estilista, c.productId)).rejects.toThrow(/sem permissão/);
+    await expect(pegar(c.estilista, c.orgId)).rejects.toThrow(/Sem permissão/);
     await expect(enfileirar(c.leitura, c.productId)).rejects.toThrow(/sem permissão/);
     await expect(enfileirar(c.fora, c.productId)).rejects.toThrow(/sem permissão/);
     expect(await contar(db, c.leitura, "select 1 from public.nest_jobs where id = $1", [job.id])).toBe(1);
@@ -101,7 +107,7 @@ describe("fila de encaixes", () => {
     const a = await enfileirar(c.dono, c.productId);
     const b = await enfileirar(c.dono, c.productId);
     expect(await pegar(c.modelista, c.orgId)).toBe(a.id);
-    expect(await pegar(c.estilista, c.orgId)).toBe(b.id);
+    expect(await pegar(c.outra, c.orgId)).toBe(b.id);
     expect(await pegar(c.dono, c.orgId)).toBeNull();
     expect(await pedido(a.id)).toMatchObject({ status: "rodando", attempts: 1, claimed_by: c.modelista.id });
     await expect(pegar(c.leitura, c.orgId)).rejects.toThrow(/Sem permissão/);
@@ -112,10 +118,10 @@ describe("fila de encaixes", () => {
     const c = await cenario();
     const job = await enfileirar(c.dono, c.productId);
     await pegar(c.modelista, c.orgId);
-    expect(await progresso(c.estilista, job.id)).toBe(false);
+    expect(await progresso(c.outra, job.id)).toBe(false);
     expect(await progresso(c.modelista, job.id, 0.4)).toBe(true);
     expect(Number((await pedido(job.id)).progress)).toBeCloseTo(0.4);
-    await expect(concluir(c.estilista, job.id)).rejects.toThrow(/não está mais com você/);
+    await expect(concluir(c.outra, job.id)).rejects.toThrow(/não está mais com você/);
     await expect(concluir(c.leitura, job.id)).rejects.toThrow(/sem permissão/);
     expect((await concluir(c.modelista, job.id)).number).toBe(1);
     const done = await pedido(job.id);
@@ -134,8 +140,8 @@ describe("fila de encaixes", () => {
     await vencerPrazo(job.id);
     expect(await progresso(c.modelista, job.id)).toBe(false);
     await expect(concluir(c.modelista, job.id)).rejects.toThrow(/não está mais com você/);
-    expect(await pegar(c.estilista, c.orgId)).toBe(job.id);
-    expect(await pedido(job.id)).toMatchObject({ attempts: 2, claimed_by: c.estilista.id });
+    expect(await pegar(c.outra, c.orgId)).toBe(job.id);
+    expect(await pedido(job.id)).toMatchObject({ attempts: 2, claimed_by: c.outra.id });
     await vencerPrazo(job.id);
     expect(await pegar(c.dono, c.orgId)).toBe(job.id);
     await vencerPrazo(job.id);
@@ -148,10 +154,10 @@ describe("fila de encaixes", () => {
     const job = await enfileirar(c.dono, c.productId);
     await pegar(c.modelista, c.orgId);
     const soltar = (u: User) => as(db, u, async (q) => (await q.query<{ ok: boolean }>("select public.release_nest_job($1) as ok", [job.id])).rows[0]!.ok);
-    expect(await soltar(c.estilista)).toBe(false);
+    expect(await soltar(c.outra)).toBe(false);
     expect(await soltar(c.modelista)).toBe(true);
     expect(await pedido(job.id)).toMatchObject({ status: "fila", attempts: 0, claimed_by: null });
-    expect(await pegar(c.estilista, c.orgId)).toBe(job.id);
+    expect(await pegar(c.outra, c.orgId)).toBe(job.id);
   });
 
   it("erro marcado por quem pegou; refazer põe de volta na fila", async () => {
@@ -159,14 +165,14 @@ describe("fila de encaixes", () => {
     const job = await enfileirar(c.dono, c.productId);
     await pegar(c.modelista, c.orgId);
     const falhar = (u: User) => as(db, u, async (q) => (await q.query<{ ok: boolean }>("select public.fail_nest_job($1, 'Peça mais larga que o tecido') as ok", [job.id])).rows[0]!.ok);
-    expect(await falhar(c.estilista)).toBe(false);
+    expect(await falhar(c.outra)).toBe(false);
     expect(await falhar(c.modelista)).toBe(true);
     expect(await pedido(job.id)).toMatchObject({ status: "erro", error: "Peça mais larga que o tecido" });
     const refazer = (u: User) => as(db, u, (q) => q.query("select public.retry_nest_job($1)", [job.id]));
     await expect(refazer(c.leitura)).rejects.toThrow(/sem permissão/);
-    await refazer(c.estilista);
+    await refazer(c.outra);
     expect(await pedido(job.id)).toMatchObject({ status: "fila", attempts: 0, error: null });
-    await expect(refazer(c.estilista)).rejects.toThrow(/sem erro/);
+    await expect(refazer(c.outra)).rejects.toThrow(/sem erro/);
   });
 
   it("uma organização não pega nem apaga pedido da outra; só quem edita apaga", async () => {
@@ -177,8 +183,9 @@ describe("fila de encaixes", () => {
     expect(await pedido(job.id)).toMatchObject({ status: "fila" });
     await as(db, b.dono, (q) => q.query("delete from public.nest_jobs where id = $1", [job.id]));
     await as(db, a.leitura, (q) => q.query("delete from public.nest_jobs where id = $1", [job.id]));
-    expect(await contar(db, a.dono, "select 1 from public.nest_jobs where id = $1", [job.id])).toBe(1);
     await as(db, a.estilista, (q) => q.query("delete from public.nest_jobs where id = $1", [job.id]));
+    expect(await contar(db, a.dono, "select 1 from public.nest_jobs where id = $1", [job.id])).toBe(1);
+    await as(db, a.outra, (q) => q.query("delete from public.nest_jobs where id = $1", [job.id]));
     expect(await contar(db, a.dono, "select 1 from public.nest_jobs where id = $1", [job.id])).toBe(0);
   });
 

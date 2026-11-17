@@ -5,7 +5,9 @@ import { ScanStudio } from "@/components/scan/scan-studio";
 import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
-import { canEditPatterns, getMyRole } from "@/lib/org-access";
+import { canEditPatterns, getMyRole, getOrgPlan } from "@/lib/org-access";
+import { planAllows } from "@/lib/plans";
+import { PlanLock } from "@/components/plan-lock";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
 
@@ -27,7 +29,7 @@ async function Scan({ params }: { params: Params }) {
   const back = `/painel/${orgId}/moldes`;
   const user = await requireUser(`${back}/scan`);
   const supabase = await createClient();
-  const role = await getMyRole(supabase, orgId, user.id);
+  const [role, plan] = await Promise.all([getMyRole(supabase, orgId, user.id), getOrgPlan(supabase, orgId)]);
   if (!role) notFound();
 
   return (
@@ -37,7 +39,9 @@ async function Scan({ params }: { params: Params }) {
         title="Escanear molde de papel"
         description="Fotografe o molde ao lado da folha de marcadores. A foto é lida no seu navegador; só o molde pronto vai para o servidor."
       />
-      {canEditPatterns(role) ? (
+      {!planAllows(plan, "scan") ? (
+        <PlanLock feature="scan" />
+      ) : canEditPatterns(role) ? (
         <ScanStudio mode={{ kind: "panel", orgId }} />
       ) : (
         <p className={ui.error} role="alert">

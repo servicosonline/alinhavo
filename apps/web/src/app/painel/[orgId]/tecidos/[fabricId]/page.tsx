@@ -3,7 +3,7 @@ import { Suspense } from "react";
 import { Loading, NotConfigured, PageHeader } from "@/components/page-shell";
 import { requireUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
-import { canEditProducts, getMyRole } from "@/lib/org-access";
+import { canEditProducts, getMyRole, getOrgPlan } from "@/lib/org-access";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
 import { FabricEditForm } from "../fabric-form";
@@ -24,7 +24,7 @@ async function Tecido({ params }: { params: Params }) {
   if (!isUuid(orgId) || !isUuid(fabricId)) notFound();
   const user = await requireUser(`/painel/${orgId}/tecidos/${fabricId}`);
   const supabase = await createClient();
-  const [fabricRes, role] = await Promise.all([
+  const [fabricRes, role, plan] = await Promise.all([
     supabase
       .from("fabrics")
       .select("id, name, composition, width_mm, weight_gsm, price_cents, preset, stretch_pct, drape, thickness_mm, texture, texture_cm")
@@ -32,6 +32,7 @@ async function Tecido({ params }: { params: Params }) {
       .eq("org_id", orgId)
       .maybeSingle(),
     getMyRole(supabase, orgId, user.id),
+    getOrgPlan(supabase, orgId),
   ]);
   const fabric = fabricRes.data;
   if (!fabric) notFound();
@@ -44,7 +45,7 @@ async function Tecido({ params }: { params: Params }) {
         description="Os dados técnicos entram no consumo e no custo da ficha; o comportamento e a foto, na Prova 3D."
       />
       <section className={`rounded-2xl border border-tinta/10 bg-white p-6`}>
-        <FabricEditForm orgId={orgId} fabric={fabric} canEdit={canEditProducts(role)} />
+        <FabricEditForm orgId={orgId} fabric={fabric} canEdit={canEditProducts(role, plan)} />
       </section>
     </div>
   );

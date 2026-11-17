@@ -33,7 +33,7 @@ export interface PlanStatus {
 
 /**
  * O aviso do plano na barra da organização. `null` = nada a avisar (plano pago em dia ou cortesia).
- * Nada é bloqueado ainda: sem pagamento, o teste vencido só muda o aviso.
+ * Teste vencido ou plano cancelado cai no Grátis (`effectivePlan` em plans.ts): o aviso diz o que mudou.
  */
 export function trialNotice(s: PlanStatus | null): { tone: "info" | "alerta"; text: string } | null {
   if (!s) return null;
@@ -42,8 +42,8 @@ export function trialNotice(s: PlanStatus | null): { tone: "info" | "alerta"; te
     if (d <= 0) return { tone: "alerta", text: "O teste grátis termina hoje." };
     return { tone: d <= 3 ? "alerta" : "info", text: d === 1 ? "Teste grátis: falta 1 dia." : `Teste grátis: faltam ${d} dias.` };
   }
-  if (s.status === "vencida") return { tone: "alerta", text: "O teste grátis terminou. A escolha do plano chega em breve." };
-  if (s.status === "cancelada") return { tone: "alerta", text: "O plano foi cancelado." };
+  if (s.status === "vencida") return { tone: "alerta", text: "O teste grátis terminou: a organização está no plano Grátis (1 molde, 1 pessoa). O que já foi feito continua à vista." };
+  if (s.status === "cancelada") return { tone: "alerta", text: "O plano foi cancelado: a organização está no plano Grátis. O que já foi feito continua à vista." };
   return null;
 }
 

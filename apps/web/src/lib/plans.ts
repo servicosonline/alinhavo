@@ -154,7 +154,55 @@ export function planChargeCents(plan: Plan, seats: number | Seats, billing: Bill
   return billing === "anual" ? monthly * ANNUAL_MONTHS : monthly;
 }
 
-export type WhoModels = "eu-modelo" | "colecao" | "equipe";
+/**
+ * O que cada plano libera (bloqueio por plano, decidido pelo Paulo em 17/11/2026). A MESMA tabela mora no
+ * banco (`private.plan_allows`, migração 20261117000000_bloqueio_por_plano.sql): mudou uma, mude a outra.
+ * O banco é quem bloqueia de verdade; aqui é para a tela avisar antes. Ler o que já existe nunca é bloqueado.
+ */
+export type PlanFeature =
+  | "moldes" // mais de 1 molde (o Grátis guarda 1 e só edita o primeiro)
+  | "equipe" // mais de 1 pessoa na organização
+  | "aprovacao" // aprovação por link
+  | "scan" // Scan de molde de papel
+  | "exportar" // DXF-AAMA e PDF 1:1 (só na tela: o arquivo sai do navegador)
+  | "colecao" // coleção, produtos, ficha técnica, tecidos, comentários, IA, acompanhamento
+  | "encaixe" // encaixe e fila de riscos
+  | "api"; // chaves de API e webhooks
+
+const FEATURES: Record<PlanId, readonly PlanFeature[]> = {
+  gratis: [],
+  modelista: ["moldes", "equipe", "aprovacao", "scan", "exportar"],
+  estilista: ["moldes", "equipe", "aprovacao", "colecao"],
+  confeccao: ["moldes", "equipe", "aprovacao", "scan", "exportar", "colecao", "encaixe", "api"],
+};
+
+export function planAllows(plan: PlanId, feature: PlanFeature): boolean {
+  return FEATURES[plan].includes(feature);
+}
+
+/** Quanto do plano vale agora: ativa e cortesia = o gravado; teste no prazo = o gravado; o resto = Grátis. */
+export function effectivePlan(s: { plan_id: string; status: string; days_left?: number | null } | null): PlanId {
+  if (!s || !PLANS.some((p) => p.id === s.plan_id)) return "gratis";
+  const plan = s.plan_id as PlanId;
+  if (s.status === "ativa" || s.status === "cortesia") return plan;
+  // `org_plan_status` já devolve "vencida" para o teste com o prazo passado.
+  if (s.status === "trial") return plan;
+  return "gratis";
+}
+
+/** O aviso na tela quando o plano não libera (o mesmo texto que o banco devolve). */
+export const PLAN_LOCK_TEXT: Record<PlanFeature, string> = {
+  moldes: "O plano Grátis guarda 1 molde. Para criar e editar mais, assine o plano Modelista ou o Confecção.",
+  equipe: "O plano Grátis é para 1 pessoa. Para chamar a equipe, assine o plano Modelista ou o Confecção.",
+  aprovacao: "A aprovação por link é do plano Modelista ou do Confecção.",
+  scan: "O Scan de molde de papel é do plano Modelista ou do Confecção.",
+  exportar: "Exportar em DXF-AAMA e PDF é do plano Modelista ou do Confecção.",
+  colecao: "Coleção, produtos e ficha técnica são do plano Confecção.",
+  encaixe: "O encaixe e a fila de riscos são do plano Confecção.",
+  api: "A API e os webhooks são do plano Confecção.",
+};
+
+export type WhoModels ="eu-modelo" | "colecao" | "equipe";
 export type ProductionSize = "pequena" | "media" | "grande";
 
 export interface PlanAnswers {

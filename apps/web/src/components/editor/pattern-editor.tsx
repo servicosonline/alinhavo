@@ -84,6 +84,8 @@ type Props = {
   sideProva?: SideProva;
   /** Composição do tecido do produto ligado (etiqueta de composição pronta). Sem ela, a etiqueta pronta fica desligada. */
   fabricComposition?: string | null;
+  /** Exportar fora do plano: o aviso no lugar do menu (sem ele, exporta). */
+  exportLocked?: string | null;
 };
 
 /** Na tela dividida, o painel da direita mostra as propriedades do molde ou os controles da Prova. */
@@ -107,7 +109,7 @@ function openSeams(doc: PatternDocument): string[] {
 
 const snapMm = (v: number) => Math.round(v); // arrastar encaixa no mm inteiro
 
-export function PatternEditor({ initialDocument, title, subtitle, readOnly = false, onSave, chartGrade = null, onTryOn, trail, rail, approvalHref, sideProva, fabricComposition = null }: Props) {
+export function PatternEditor({ initialDocument, title, subtitle, readOnly = false, onSave, chartGrade = null, onTryOn, trail, rail, approvalHref, sideProva, fabricComposition = null, exportLocked = null }: Props) {
   const history = useHistory(initialDocument);
   const doc = history.value;
   const [selection, setSelection] = useState<Selection>(null);
@@ -361,7 +363,9 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
             doc={doc}
             title={title}
             disabledReason={
-              doc.pieces.length === 0
+              exportLocked
+                ? exportLocked
+                : doc.pieces.length === 0
                 ? "Crie pelo menos uma parte para exportar."
                 : errors.length > 0
                   ? "Corrija os erros do molde antes de exportar."

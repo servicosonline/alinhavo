@@ -106,3 +106,25 @@ describe("plano indicado", () => {
     }
   });
 });
+
+describe("bloqueio por plano", () => {
+  it("o plano que vale: teste e cortesia valem o gravado; vencida e cancelada caem no Grátis", async () => {
+    const { effectivePlan } = await import("./plans");
+    expect(effectivePlan({ plan_id: "confeccao", status: "trial", days_left: 3 })).toBe("confeccao");
+    expect(effectivePlan({ plan_id: "confeccao", status: "cortesia" })).toBe("confeccao");
+    expect(effectivePlan({ plan_id: "modelista", status: "ativa" })).toBe("modelista");
+    expect(effectivePlan({ plan_id: "confeccao", status: "vencida" })).toBe("gratis");
+    expect(effectivePlan({ plan_id: "confeccao", status: "cancelada" })).toBe("gratis");
+    expect(effectivePlan({ plan_id: "desconhecido", status: "ativa" })).toBe("gratis");
+    expect(effectivePlan(null)).toBe("gratis");
+  });
+
+  it("libera o que a página de preço promete", async () => {
+    const { planAllows, PLAN_LOCK_TEXT } = await import("./plans");
+    const all = Object.keys(PLAN_LOCK_TEXT) as (keyof typeof PLAN_LOCK_TEXT)[];
+    expect(all.filter((f) => planAllows("gratis", f))).toEqual([]);
+    expect(all.filter((f) => planAllows("modelista", f))).toEqual(["moldes", "equipe", "aprovacao", "scan", "exportar"]);
+    expect(all.every((f) => planAllows("confeccao", f))).toBe(true);
+    expect(planAllows("estilista", "encaixe")).toBe(false);
+  });
+});
