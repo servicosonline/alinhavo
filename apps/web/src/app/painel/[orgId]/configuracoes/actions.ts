@@ -67,6 +67,19 @@ export async function changeMemberRole(formData: FormData) {
   revalidatePath(`/painel/${orgId}/configuracoes`);
 }
 
+/** Libera ou trava a criação de organizações próprias de um membro (dono e admin; ninguém muda a própria). */
+export async function setMemberCanCreateOrgs(formData: FormData) {
+  if (!(await getCurrentUser())) return;
+  const orgId = String(formData.get("orgId") ?? "");
+  const userId = String(formData.get("userId") ?? "");
+  const allow = formData.get("allow") === "1";
+  if (!isUuid(orgId) || !isUuid(userId)) return;
+  const supabase = await createClient();
+  const { error } = await supabase.from("org_members").update({ can_create_orgs: allow }).eq("org_id", orgId).eq("user_id", userId);
+  if (error) console.error("[equipe] criar organizações não mudou:", error.code);
+  revalidatePath(`/painel/${orgId}/configuracoes`);
+}
+
 export async function removeMember(formData: FormData) {
   const user = await getCurrentUser();
   if (!user) return;

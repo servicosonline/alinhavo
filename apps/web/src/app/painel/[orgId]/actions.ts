@@ -23,13 +23,15 @@ export async function createInvite(orgId: string, _prev: FormState, formData: Fo
 
   const email = String(formData.get("email") ?? "").trim().toLowerCase();
   const role = String(formData.get("role") ?? "");
+  // Caixa desmarcada não vem no formulário: sem ela, a pessoa não cria organizações próprias.
+  const canCreateOrgs = formData.get("can_create_orgs") === "on";
   if (!EMAIL_RE.test(email) || email.length > 254) return { error: "Digite um e-mail válido." };
   if (!INVITE_ROLES.includes(role as (typeof INVITE_ROLES)[number])) return { error: "Escolha um papel." };
 
   const supabase = await createClient();
   const { data, error } = await supabase
     .from("invites")
-    .insert({ org_id: orgId, email, role: role as (typeof INVITE_ROLES)[number] })
+    .insert({ org_id: orgId, email, role: role as (typeof INVITE_ROLES)[number], can_create_orgs: canCreateOrgs })
     .select("token")
     .single();
 
