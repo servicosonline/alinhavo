@@ -245,6 +245,8 @@ type ProductRow = {
   technical_description: string | null;
   /** Data de entrega do produto (AAAA-MM-DD). */
   due_on: string | null;
+  /** Foto enviada pela equipe, bucket privado `produtos` (`<org>/<produto>/<nome>`). */
+  photo_path: string | null;
 } & Timestamps;
 type ApiKeyRow = {
   id: string;
@@ -573,6 +575,7 @@ export type Database = {
         };
         Update: {
           due_on?: string | null;
+          photo_path?: string | null;
           collection_id?: string | null;
           reference?: string | null;
           name?: string;

@@ -23,6 +23,7 @@ import { createClient } from "@/lib/supabase/server";
 import { deleteMilestone, linkProductPattern, setProductDue, setProductStatus, toggleMilestone } from "../actions";
 import { CreateMilestoneForm, CreateProductForm } from "../forms";
 import { DueChip, ProductsView, type ProductCard } from "./products-view";
+import { ProductThumb } from "@/components/product-thumb";
 import { TrackingShare } from "@/components/tracking-share";
 import { activeTrackingLinks } from "../../tracking-links";
 
@@ -58,7 +59,7 @@ async function Colecao({ params }: { params: Params }) {
   const [colRes, role, prodRes, msRes, patRes, teamRes] = await Promise.all([
     supabase.from("collections").select("id, name, season, starts_on, launch_on").eq("id", collectionId).eq("org_id", orgId).maybeSingle(),
     getMyRole(supabase, orgId, user.id),
-    supabase.from("products").select("id, reference, name, status, pattern_id, due_on").eq("collection_id", collectionId).eq("org_id", orgId).order("created_at"),
+    supabase.from("products").select("id, reference, name, status, pattern_id, due_on, photo_path, updated_at").eq("collection_id", collectionId).eq("org_id", orgId).order("created_at"),
     supabase.from("milestones").select("id, title, due_on, assignee, done_at").eq("collection_id", collectionId).eq("org_id", orgId).order("due_on"),
     supabase.from("patterns").select("id, name, current_version").eq("org_id", orgId).is("archived_at", null).order("name"),
     supabase.rpc("org_team", { p_org_id: orgId }),
@@ -95,8 +96,11 @@ async function Colecao({ params }: { params: Params }) {
   };
   const lateProducts = products.filter((p) => dueOf(p)?.state === "atrasada").length;
 
+  // Troca o endereço da miniatura quando a foto ou o produto mudam (o navegador guarda a imagem por 5 min).
+  const thumbVersion = (p: (typeof products)[number]) => `${p.photo_path ?? ""}|${p.updated_at}`;
   const cards: ProductCard[] = products.map((p) => ({
     id: p.id,
+    thumbVersion: thumbVersion(p),
     column: p.status,
     name: p.name,
     reference: p.reference,
@@ -111,7 +115,11 @@ async function Colecao({ params }: { params: Params }) {
         const pattern = patterns.find((m) => m.id === p.pattern_id);
         const approval = latestApproval(p.pattern_id);
         return (
-          <li key={p.id} className="space-y-3 px-5 py-4" data-product={p.status}>
+          <li key={p.id} className="flex gap-4 px-5 py-4" data-product={p.status}>
+            <Link href={`/painel/${orgId}/produtos/${p.id}`} aria-hidden tabIndex={-1} className="shrink-0">
+              <ProductThumb orgId={orgId} productId={p.id} version={thumbVersion(p)} />
+            </Link>
+            <div className="min-w-0 flex-1 space-y-3">
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <Link href={`/painel/${orgId}/produtos/${p.id}`} className="font-medium hover:underline">
                 {p.reference && <span className="font-mono text-sm text-tinta-suave">{p.reference} · </span>}
@@ -204,6 +212,7 @@ async function Colecao({ params }: { params: Params }) {
                 </form>
               </div>
             )}
+            </div>
           </li>
         );
       })}

@@ -3,11 +3,14 @@
 import Link from "next/link";
 import { KanbanBoard } from "@/components/kanban/board";
 import { ViewToggle, useView } from "@/components/kanban/view-toggle";
+import { ProductThumb } from "@/components/product-thumb";
 import { PRODUCT_STATUS_LABEL, PRODUCT_STATUSES, type MilestoneState } from "@/lib/collection";
 import { moveProduct } from "../actions";
 
 export interface ProductCard {
   id: string;
+  /** Versão da miniatura (foto e data de edição): troca o endereço quando a foto muda. */
+  thumbVersion: string;
   column: string;
   name: string;
   reference: string | null;
@@ -65,13 +68,16 @@ export function ProductsView({
           items={cards}
           onMove={canEdit ? (id, status) => moveProduct(orgId, collectionId, id, status) : undefined}
           renderCard={(p) => (
-            <div className="space-y-1.5">
-              <Link href={p.href} className="block font-medium leading-snug hover:underline" onPointerDown={(e) => e.stopPropagation()}>
-                {p.reference && <span className="font-mono text-xs text-tinta-suave">{p.reference} · </span>}
-                {p.name}
-              </Link>
-              <p className="truncate text-xs text-tinta-suave">{p.patternName ? `Molde: ${p.patternName}` : "Sem molde"}</p>
-              <DueChip due={p.due} />
+            <div className="flex gap-2.5">
+              <ProductThumb orgId={orgId} productId={p.id} version={p.thumbVersion} size={48} />
+              <div className="min-w-0 flex-1 space-y-1.5">
+                <Link href={p.href} className="block font-medium leading-snug hover:underline" onPointerDown={(e) => e.stopPropagation()}>
+                  {p.reference && <span className="font-mono text-xs text-tinta-suave">{p.reference} · </span>}
+                  {p.name}
+                </Link>
+                <p className="truncate text-xs text-tinta-suave">{p.patternName ? `Molde: ${p.patternName}` : "Sem molde"}</p>
+                <DueChip due={p.due} />
+              </div>
             </div>
           )}
         />
