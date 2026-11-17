@@ -13,6 +13,9 @@ import { requireUser } from "@/lib/auth";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
 import { CreateOrgForm } from "./create-org-form";
+import { cookies } from "next/headers";
+import { ReferralClaim } from "@/components/referral-claim";
+import { REFERRAL_COOKIE } from "@/lib/referral";
 
 export const metadata: Metadata = { title: "Painel · Alinhavo" };
 
@@ -63,6 +66,8 @@ async function Organizacoes() {
 
   const orgs = data ?? [];
   // Primeiro acesso: boas-vindas uma vez; primeiros passos até a pessoa pular ou concluir.
+  // Veio por um link de indicação: liga a conta nova a quem indicou (o servidor confere e apaga o cookie).
+  const referral = (await cookies()).has(REFERRAL_COOKIE) ? <ReferralClaim /> : null;
   const welcome = !profile?.welcome_seen_at ? <WelcomeDialog name={profile?.first_name ?? displayName(null, user.email)} /> : null;
   const steps = progress?.[0] ? onboardingSteps(progress[0], orgs[0]?.orgs.id ?? null) : [];
   const showSteps = !profile?.onboarding_closed_at && steps.some((s) => !s.done);
@@ -71,6 +76,7 @@ async function Organizacoes() {
     return (
       <div className="mx-auto max-w-md">
         {welcome}
+      {referral}
         <PageHeader
           eyebrow="Primeiro passo"
           title="Boas-vindas ao Alinhavo"
@@ -89,6 +95,7 @@ async function Organizacoes() {
   return (
     <div className="space-y-10">
       {welcome}
+        {referral}
       <PageHeader
         title={profile?.first_name ? `Olá, ${profile.first_name}.` : "Suas organizações"}
         description="Continue de onde parou ou escolha onde trabalhar."

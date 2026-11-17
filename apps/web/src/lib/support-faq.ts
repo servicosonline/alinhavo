@@ -52,6 +52,11 @@ export const SUPPORT_FAQ: FaqItem[] = [
     tags: "teste grátis trial dias plano",
   },
   {
+    q: "Como indico um amigo?",
+    a: "Em Minha conta, na parte Indique e ganhe, copie o seu link ou mande pelo WhatsApp. Vale para conta nova criada pelo link em até 30 dias, e o desconto entra quando a pessoa fizer o primeiro pagamento. Se a parte não aparecer, o programa ainda não está aberto.",
+    tags: "indicar indicação amigo desconto link convite ganhar",
+  },
+  {
     q: "Como faço o encaixe (risco)?",
     a: "Na página do produto, abra Encaixe, informe a largura do tecido e a quantidade por tamanho e clique em Encaixar. Salve o risco para a ficha técnica usar o aproveitamento medido.",
     tags: "encaixe risco aproveitamento tecido corte",
