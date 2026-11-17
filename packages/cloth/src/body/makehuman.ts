@@ -1,3 +1,4 @@
+import { BELLY_RANGE } from "./mannequin";
 import { readMeasurements, type MeasurementKey, type MeasurementReading } from "./measurements";
 
 /**
@@ -694,4 +695,96 @@ export function fitRealistic(asset: MakeHumanAsset, table: Record<string, number
   const measure = measureShape(asset, positions, m.anchors);
   const obtained = { ...measure.values };
   return { sex, reading, weights: { ...w }, scale: s, positions, measure, obtained };
+}
+
+// ---------------------------------------------------------------------------
+// Gestante
+// ---------------------------------------------------------------------------
+
+/** Barriga aplicada: a altura do ponto mais saliente, a volta que o corpo já tinha ali e a obtida (mm). */
+export type RealisticBelly = { y: number; natural: number; obtained: number };
+
+/**
+ * Gestante no corpo realista: empurra para a frente (+Z) a pele do tronco entre
+ * o quadril e o abaixo do busto, até a volta no ponto mais saliente chegar a
+ * `belly` (mm). Como no manequim: a barriga fica entre o quadril e o busto
+ * (os dois seguem a tabela), as costas não saem do lugar e a cintura acompanha
+ * em parte. O desenho é um domo liso: cos² na altura (zero no quadril e no
+ * abaixo do busto), parábola na largura (zero nas laterais) e só no lado da frente.
+ * O tamanho do calombo sai por bissecção da volta medida na malha. Volta menor
+ * que a do corpo ali: nada muda (`belly` = null).
+ */
+export function applyBelly(asset: MakeHumanAsset, fit: RealisticFit, belly: number): { fit: RealisticFit; belly: RealisticBelly | null } {
+  const topo = topology(asset);
+  const n = asset.drawnCount;
+  const tri = asset.triangles;
+  const trunk = topo.masks.semBraco;
+  const L = fit.measure.levels;
+  const H = L.top - L.floor;
+  const bellyY = L.hip + 0.55 * (L.waist - L.hip);
+  const underbustY = L.bust - 0.035 * H;
+  const perimAt = (pos: Float32Array, y: number) => hullPerimeter(convexHull(sliceMesh(pos, tri, trunk, { x: 0, y, z: 0 }, UP)));
+  const natural = perimAt(fit.positions, bellyY);
+  const target = Math.min(belly, BELLY_RANGE[1]);
+  if (!Number.isFinite(target) || target <= natural + 1) return { fit, belly: null };
+
+  // Largura e centro do tronco por altura (a cada 10 mm), para o calombo seguir a forma do corpo.
+  const STEP = 10;
+  const rows: { halfWidth: number; cz: number; halfDepth: number }[] = [];
+  for (let y = L.hip; y <= underbustY + STEP; y += STEP) {
+    const hull = convexHull(sliceMesh(fit.positions, tri, trunk, { x: 0, y, z: 0 }, UP));
+    let minX = Infinity;
+    let maxX = -Infinity;
+    let minZ = Infinity;
+    let maxZ = -Infinity;
+    for (const [x, z] of hull) {
+      minX = Math.min(minX, x);
+      maxX = Math.max(maxX, x);
+      minZ = Math.min(minZ, z);
+      maxZ = Math.max(maxZ, z);
+    }
+    rows.push(hull.length < 3 ? { halfWidth: 1, cz: 0, halfDepth: 1 } : { halfWidth: (maxX - minX) / 2, cz: (minZ + maxZ) / 2, halfDepth: (maxZ - minZ) / 2 });
+  }
+  const rowAt = (y: number) => rows[Math.max(0, Math.min(rows.length - 1, Math.round((y - L.hip) / STEP)))]!;
+  const cos2 = (t: number) => (Math.abs(t) >= 1 ? 0 : Math.cos((Math.PI / 2) * t) ** 2);
+  const smooth = (e0: number, e1: number, x: number) => {
+    const t = Math.max(0, Math.min(1, (x - e0) / (e1 - e0)));
+    return t * t * (3 - 2 * t);
+  };
+  // Peso de cada vértice do tronco (0 a 1): o calombo inteiro é peso × tamanho.
+  const weights = new Float32Array(n);
+  const tronco = SKIN_GROUPS.indexOf("tronco");
+  for (let i = 0; i < n; i++) {
+    if (topo.dominant[i] !== tronco) continue;
+    const x = fit.positions[i * 3]!;
+    const y = fit.positions[i * 3 + 1]!;
+    const z = fit.positions[i * 3 + 2]!;
+    if (y <= L.hip || y >= underbustY) continue;
+    const wy = y < bellyY ? cos2((bellyY - y) / (bellyY - L.hip)) : cos2((y - bellyY) / (underbustY - bellyY));
+    const r = rowAt(y);
+    // Na largura, uma parábola (mais cheia que o cos²: a barriga é um domo, não um bico).
+    const u = x / (r.halfWidth || 1);
+    const wx = Math.max(0, 1 - u * u);
+    const wz = smooth(-0.1, 0.5, (z - r.cz) / (r.halfDepth || 1));
+    weights[i] = wy * wx * wz;
+  }
+  const pushed = (size: number) => {
+    const out = Float32Array.from(fit.positions);
+    for (let i = 0; i < n; i++) if (weights[i]! > 0) out[i * 3 + 2] = out[i * 3 + 2]! + size * weights[i]!;
+    return out;
+  };
+  let lo = 0;
+  let hi = 1500;
+  for (let k = 0; k < 40; k++) {
+    const mid = (lo + hi) / 2;
+    if (perimAt(pushed(mid), bellyY) < target) lo = mid;
+    else hi = mid;
+  }
+  const positions = pushed((lo + hi) / 2);
+  // Mede de novo nos mesmos pontos de referência (as alturas não mudam; a cintura cresce um pouco).
+  const measure = measureShape(asset, positions, fit.measure.anchors);
+  return {
+    fit: { ...fit, positions, measure: { ...measure, levels: fit.measure.levels }, obtained: { ...measure.values } },
+    belly: { y: bellyY, natural, obtained: perimAt(positions, bellyY) },
+  };
 }
