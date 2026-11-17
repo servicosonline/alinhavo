@@ -120,13 +120,14 @@ async function makeBody(setup: ProvaSetup): Promise<{ body: Body; builder: BodyB
       notes: [],
     };
   }
-  const model = realisticModel(await loadMakeHuman(), setup.measurements, setup.body ?? {}, setup.sex ?? "feminino");
   const c = setup.conditions ?? {};
-  const hasConditions = Object.keys(c.limbs ?? {}).length > 0 || c.belly !== undefined || (c.heel ?? 0) > 0;
+  // Gestante vale no realista; membro cortado e salto ainda só no manequim.
+  const model = realisticModel(await loadMakeHuman(), setup.measurements, setup.body ?? {}, setup.sex ?? "feminino", c.belly);
+  const missing = Object.keys(c.limbs ?? {}).length > 0 || (c.heel ?? 0) > 0;
   return {
     body: buildRealistic(model, setup.pose).body,
     builder: realisticBuilder(model),
-    notes: hasConditions ? ["O corpo realista ainda não tem membro cortado, gestante nem salto: essas condições valem só no manequim."] : [],
+    notes: missing ? ["O corpo realista ainda não tem membro cortado nem salto: essas condições valem só no manequim."] : [],
   };
 }
 
