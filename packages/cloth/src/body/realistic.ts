@@ -2,6 +2,7 @@ import type { Collider, Vec3 } from "../collider";
 import type { BodyOverrides, PoseAngles } from "./mannequin";
 import { poseAngles } from "./mannequin";
 import {
+  applyBelly,
   convexHull,
   fitRealistic,
   sliceMesh,
@@ -9,6 +10,7 @@ import {
   type BodySex,
   type JointId,
   type MakeHumanAsset,
+  type RealisticBelly,
   type RealisticFit,
   type SkinGroup,
 } from "./makehuman";
@@ -52,7 +54,9 @@ export type RealisticModel = {
   torso: TorsoProfile;
   head: { c: Vec3; r: Vec3 };
   cones: Cone[];
-  sections: { crotch: TorsoSection; hip: TorsoSection; waist: TorsoSection; bust: TorsoSection; shoulder: TorsoSection; neck: TorsoSection };
+  sections: { crotch: TorsoSection; hip: TorsoSection; waist: TorsoSection; bust: TorsoSection; shoulder: TorsoSection; neck: TorsoSection; belly?: TorsoSection };
+  /** Gestante: a barriga aplicada (null sem barriga ou quando a volta pedida não passa a do corpo). */
+  belly: RealisticBelly | null;
   shoulderPoints: { left: Vec3; right: Vec3 };
   headTop: number;
   /** Pontos da superfície do tronco e da cabeça (repouso, sem a descida), para achar o ponto mais baixo ao girar. */
@@ -72,26 +76,47 @@ type TorsoProfile = { bottom: number; top: number; coeffs: Float64Array; centerZ
 // ---------------------------------------------------------------------------
 
 const models = new WeakMap<MakeHumanAsset, Map<string, RealisticModel>>();
+const fits = new WeakMap<MakeHumanAsset, Map<string, RealisticFit>>();
 const CACHE_SIZE = 6;
 
-/** O corpo ajustado às medidas, em repouso. Guardado pelos últimos corpos pedidos (o ajuste leva ~1 s). */
-export function realisticModel(asset: MakeHumanAsset, table: Record<string, number>, overrides: BodyOverrides = {}, sex: BodySex = "feminino"): RealisticModel {
-  const key = JSON.stringify([table, overrides, sex]);
-  let cache = models.get(asset);
-  if (!cache) models.set(asset, (cache = new Map()));
+/** Os últimos `CACHE_SIZE` valores de cada arquivo, pela chave (o usado agora vai para o fim). */
+function cached<T>(store: WeakMap<MakeHumanAsset, Map<string, T>>, asset: MakeHumanAsset, key: string, make: () => T): T {
+  let cache = store.get(asset);
+  if (!cache) store.set(asset, (cache = new Map()));
   const hit = cache.get(key);
   if (hit) {
     cache.delete(key);
     cache.set(key, hit);
     return hit;
   }
-  const model = buildModel(asset, fitRealistic(asset, table, overrides, sex));
-  cache.set(key, model);
+  const value = make();
+  cache.set(key, value);
   if (cache.size > CACHE_SIZE) cache.delete(cache.keys().next().value!);
-  return model;
+  return value;
 }
 
-function buildModel(asset: MakeHumanAsset, fit: RealisticFit): RealisticModel {
+/**
+ * O corpo ajustado às medidas, em repouso. Guardado pelos últimos corpos pedidos (o ajuste leva ~1 s; mexer só
+ * na barriga reaproveita o ajuste). `belly`: gestante, a volta da barriga em mm (`applyBelly`).
+ */
+export function realisticModel(
+  asset: MakeHumanAsset,
+  table: Record<string, number>,
+  overrides: BodyOverrides = {},
+  sex: BodySex = "feminino",
+  belly?: number,
+): RealisticModel {
+  const fitKey = JSON.stringify([table, overrides, sex]);
+  const mm = belly !== undefined && Number.isFinite(belly) ? Math.round(belly) : null;
+  return cached(models, asset, JSON.stringify([fitKey, mm]), () => {
+    const fit = cached(fits, asset, fitKey, () => fitRealistic(asset, table, overrides, sex));
+    if (mm === null) return buildModel(asset, fit, null);
+    const pregnant = applyBelly(asset, fit, mm);
+    return buildModel(asset, pregnant.fit, pregnant.belly);
+  });
+}
+
+function buildModel(asset: MakeHumanAsset, fit: RealisticFit, belly: RealisticBelly | null): RealisticModel {
   const n = asset.drawnCount;
   const pos = fit.positions;
   const rest = pos.slice(0, n * 3);
@@ -301,7 +326,9 @@ function buildModel(asset: MakeHumanAsset, fit: RealisticFit): RealisticModel {
       bust: sectionAt(L.bust),
       shoulder: { ...shoulderSection, halfWidth: Math.max(shoulderSection.halfWidth, Math.abs(tips.left.x), Math.abs(tips.right.x)) },
       neck: sectionAt(L.neckBase),
+      ...(belly ? { belly: sectionAt(belly.y) } : {}),
     },
+    belly,
     shoulderPoints: { left: tips.left, right: tips.right },
     headTop: L.top,
     support: [...torsoSupport(torso), ...ellipsoidSupport(head)],
@@ -538,6 +565,7 @@ export function buildRealistic(model: RealisticModel, pose: BodyPose | PoseAngle
       bust: sec(S.bust),
       shoulder: sec(S.shoulder),
       neck: sec(S.neck),
+      ...(S.belly ? { belly: sec(S.belly) } : {}),
       shoulderPoints: { left: down(model.shoulderPoints.left), right: down(model.shoulderPoints.right) },
       legs: { left: axis(["quadrilE", "joelhoE", "tornozeloE"], model.legRadii), right: axis(["quadrilD", "joelhoD", "tornozeloD"], model.legRadii) },
       arms: { left: axis(["ombroE", "cotoveloE", "punhoE"], model.armRadii), right: axis(["ombroD", "cotoveloD", "punhoD"], model.armRadii) },
@@ -604,9 +632,9 @@ export function createRealisticBody(
   table: Record<string, number>,
   pose: BodyPose | PoseAngles = "em-pe",
   overrides: BodyOverrides = {},
-  options: RealisticOptions & { sex?: BodySex } = {},
+  options: RealisticOptions & { sex?: BodySex; belly?: number } = {},
 ): Body {
-  return buildRealistic(realisticModel(asset, table, overrides, options.sex), pose, options).body;
+  return buildRealistic(realisticModel(asset, table, overrides, options.sex, options.belly), pose, options).body;
 }
 
 /** Pele linear: cada vértice vai pela média dos grupos, com os pesos. */

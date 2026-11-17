@@ -81,6 +81,11 @@ export class ProvaScene {
     return next;
   }
 
+  /** Volta a câmera ao enquadramento inicial (depois de mover com o dedo para o lado). */
+  resetView() {
+    this.stage.resetView();
+  }
+
   setBody(positions: Float32Array, indices: Uint32Array) {
     this.stopMotion(false);
     this.body = this.replace(this.body, bodyMesh(positions, indices));

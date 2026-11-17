@@ -23,6 +23,7 @@ import { AdjustPanel, type ProvaSaveMode } from "./adjust-panel";
 import { ApprovalRequest, type ApprovalRequester } from "./approval-request";
 import { BodyPanel } from "./body-panel";
 import { CapturesPanel } from "./captures-panel";
+import { CenterViewButton } from "./center-view-button";
 import { CatalogPhotoRequest, type CatalogPhotoRequester } from "./catalog-photo-request";
 import { VideoPanel, type VideoPanelHandle } from "./video-panel";
 import { ApprovalKit } from "./approval-kit";
@@ -533,6 +534,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
             Montando a Prova…
           </p>
         )}
+        <CenterViewButton onClick={() => sceneRef.current?.resetView()} />
       </div>
     </>
   );
