@@ -3,6 +3,7 @@
 import { redirect } from "next/navigation";
 import type { FormState } from "@/components/ui";
 import { getCurrentUser } from "@/lib/auth";
+import { dbErrorMessage } from "@/lib/db-error";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
 
@@ -17,7 +18,9 @@ export async function createOrg(_prev: FormState, formData: FormData): Promise<F
 
   const supabase = await createClient();
   const { data, error } = await supabase.rpc("create_org", { p_name: name });
-  if (error || !data) return { error: "Não foi possível criar a organização. Tente de novo." };
+  if (error || !data) {
+    return { error: dbErrorMessage(error, { noPermission: "Sua conta não pode criar organizações.", fallback: "Não foi possível criar a organização. Tente de novo." }) };
+  }
 
   redirect(`/painel/${data.id}`);
 }

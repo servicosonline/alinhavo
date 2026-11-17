@@ -3,7 +3,7 @@ import { afterAll, beforeAll, describe, expect, it } from "vitest";
 import { as, createDb, createUser, type User } from "./db";
 import { contar, convidar, entrarComo, novaOrg } from "./helpers";
 
-// Bloqueio por plano (migração 20261117000000_bloqueio_por_plano.sql).
+// Bloqueio por plano (migração 20261117040000_bloqueio_por_plano.sql).
 
 let db: PGlite;
 

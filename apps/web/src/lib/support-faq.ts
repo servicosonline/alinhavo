@@ -43,13 +43,18 @@ export const SUPPORT_FAQ: FaqItem[] = [
   },
   {
     q: "Como convido alguém da equipe?",
-    a: "No início da organização, clique em Equipe, convites e API, aba Convidar. Escolha o papel: modelista, estilista, só leitura ou admin.",
-    tags: "convidar equipe usuário pessoa papel",
+    a: "No início da organização, clique em Equipe, convites e API, aba Convidar. Escolha o papel: modelista, estilista, só leitura ou admin. O valor de cada papel e a mensalidade com o convite aparecem antes de enviar. Marque \"Pode criar organizações próprias\" se a pessoa puder ter organizações dela; dá para mudar depois na aba Equipe.",
+    tags: "convidar equipe usuário pessoa papel preço valor criar organização",
   },
   {
     q: "Quanto tempo dura o teste grátis?",
-    a: "15 dias com tudo liberado, sem cartão. O aviso na barra da organização mostra quantos dias faltam.",
+    a: "15 dias com tudo liberado, sem cartão. O aviso na barra da organização mostra quantos dias faltam. O teste vale uma vez por pessoa: a segunda organização que você criar já começa sem teste.",
     tags: "teste grátis trial dias plano",
+  },
+  {
+    q: "Como indico um amigo?",
+    a: "Em Minha conta, na parte Indique e ganhe, copie o seu link ou mande pelo WhatsApp. Vale para conta nova criada pelo link em até 30 dias, e o desconto entra quando a pessoa fizer o primeiro pagamento. Se a parte não aparecer, o programa ainda não está aberto.",
+    tags: "indicar indicação amigo desconto link convite ganhar",
   },
   {
     q: "Como faço o encaixe (risco)?",

@@ -156,7 +156,7 @@ export function planChargeCents(plan: Plan, seats: number | Seats, billing: Bill
 
 /**
  * O que cada plano libera (bloqueio por plano, decidido pelo Paulo em 17/11/2026). A MESMA tabela mora no
- * banco (`private.plan_allows`, migração 20261117000000_bloqueio_por_plano.sql): mudou uma, mude a outra.
+ * banco (`private.plan_allows`, migração 20261117040000_bloqueio_por_plano.sql): mudou uma, mude a outra.
  * O banco é quem bloqueia de verdade; aqui é para a tela avisar antes. Ler o que já existe nunca é bloqueado.
  */
 export type PlanFeature =

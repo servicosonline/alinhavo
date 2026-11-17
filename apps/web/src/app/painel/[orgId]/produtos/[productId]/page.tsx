@@ -21,6 +21,7 @@ import { Comments } from "./comments";
 import { ProductTexts } from "./product-texts";
 import { CatalogPhotos } from "./catalog-photos";
 import { FlatSketchView } from "@/components/flat-sketch-view";
+import { ProductPhoto } from "./product-photo";
 import { readFlatSketch } from "@alinhavo/export/flat-sketch";
 import { consumptionSource, meters, money, type TechPackData } from "@alinhavo/export/tech-pack";
 import { formatMoney } from "@/lib/money";
@@ -53,7 +54,7 @@ async function Produto({ params }: { params: Params }) {
   const [prodRes, role, plan, patRes] = await Promise.all([
     supabase
       .from("products")
-      .select("id, reference, name, status, pattern_id, fabric_id, collection_id, sales_description, technical_description, due_on, collections(name)")
+      .select("id, reference, name, status, pattern_id, fabric_id, collection_id, sales_description, technical_description, due_on, photo_path, updated_at, collections(name)")
       .eq("id", productId)
       .eq("org_id", orgId)
       .maybeSingle(),
@@ -150,6 +151,8 @@ async function Produto({ params }: { params: Params }) {
           </SubmitButton>
         </form>
       )}
+
+      <ProductPhoto orgId={orgId} productId={p.id} photoPath={p.photo_path} version={`${p.photo_path ?? ""}|${p.updated_at}`} canEdit={canEdit} />
 
       <section className={`${ui.card} space-y-4`} aria-label="Status e molde">
         {canEdit && (

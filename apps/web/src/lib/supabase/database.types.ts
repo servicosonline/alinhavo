@@ -107,6 +107,8 @@ type OrgMemberRow = {
   org_id: string;
   user_id: string;
   role: OrgRole;
+  /** Pode criar organizações próprias (vem do convite; dono e admin mudam). */
+  can_create_orgs: boolean;
   created_at: string;
   updated_at: string;
 };
@@ -121,7 +123,25 @@ type InviteRow = {
   expires_at: string;
   accepted_at: string | null;
   accepted_by: string | null;
+  /** A pessoa convidada pode criar organizações próprias. */
+  can_create_orgs: boolean;
   created_at: string;
+  updated_at: string;
+};
+
+/** Desconto da indicação: percentual (0–100) ou valor fixo em centavos. */
+export type DiscountKind = "percentual" | "fixo";
+export type ReferralStatus = "cadastrado" | "pagou" | "recusada";
+export type ReferralSettingsRow = {
+  id: boolean;
+  enabled: boolean;
+  referrer_kind: DiscountKind;
+  referrer_value: number;
+  referrer_months: number;
+  referred_kind: DiscountKind;
+  referred_value: number;
+  referred_months: number;
+  updated_by: string | null;
   updated_at: string;
 };
 
@@ -245,6 +265,8 @@ type ProductRow = {
   technical_description: string | null;
   /** Data de entrega do produto (AAAA-MM-DD). */
   due_on: string | null;
+  /** Foto enviada pela equipe, bucket privado `produtos` (`<org>/<produto>/<nome>`). */
+  photo_path: string | null;
 } & Timestamps;
 type ApiKeyRow = {
   id: string;
@@ -479,7 +501,7 @@ export type Database = {
       org_members: {
         Row: OrgMemberRow;
         Insert: never;
-        Update: { role?: OrgRole };
+        Update: { role?: OrgRole; can_create_orgs?: boolean };
         Relationships: [
           {
             foreignKeyName: "org_members_org_id_fkey";
@@ -492,7 +514,7 @@ export type Database = {
       };
       invites: {
         Row: InviteRow;
-        Insert: { org_id: string; email: string; role: OrgRole; created_by?: string; expires_at?: string };
+        Insert: { org_id: string; email: string; role: OrgRole; created_by?: string; expires_at?: string; can_create_orgs?: boolean };
         Update: never;
         Relationships: [
           {
@@ -573,6 +595,7 @@ export type Database = {
         };
         Update: {
           due_on?: string | null;
+          photo_path?: string | null;
           collection_id?: string | null;
           reference?: string | null;
           name?: string;
@@ -669,6 +692,41 @@ export type Database = {
           audience_value: string | null;
           created_by: string | null;
           created_at: string;
+        };
+        Insert: never;
+        Update: never;
+        Relationships: [];
+      };
+      referral_settings: {
+        Row: ReferralSettingsRow;
+        Insert: never;
+        Update: never;
+        Relationships: [];
+      };
+      referral_codes: {
+        Row: { user_id: string; code: string; created_at: string };
+        Insert: never;
+        Update: never;
+        Relationships: [];
+      };
+      referrals: {
+        Row: { id: string; referrer_id: string | null; referred_id: string; code: string; status: ReferralStatus; reason: string | null; created_at: string; paid_at: string | null };
+        Insert: never;
+        Update: never;
+        Relationships: [];
+      };
+      referral_rewards: {
+        Row: {
+          id: string;
+          referral_id: string;
+          user_id: string | null;
+          side: "quem_indicou" | "indicado";
+          kind: DiscountKind;
+          value: number;
+          months: number;
+          status: "pendente" | "aplicado" | "cancelado";
+          created_at: string;
+          applied_at: string | null;
         };
         Insert: never;
         Update: never;
@@ -869,6 +927,7 @@ export type Database = {
       platform_orgs: { Args: Record<string, never>; Returns: { id: string; name: string; created_at: string; members: number; products: number }[] };
       am_platform_admin: { Args: Record<string, never>; Returns: boolean };
       my_platform_role: { Args: Record<string, never>; Returns: "dono" | "suporte" | null };
+      my_org_creation: { Args: Record<string, never>; Returns: { allowed: boolean; blocked_by: string | null; trial_available: boolean }[] };
       my_notifications: {
         Args: { p_limit?: number };
         Returns: { id: string; title: string; body: string; link: string | null; created_at: string; read: boolean }[];
@@ -970,6 +1029,37 @@ export type Database = {
           target_email: string | null;
           meta: Record<string, unknown>;
           created_at: string;
+        }[];
+      };
+      my_referral_code: { Args: Record<string, never>; Returns: string };
+      claim_referral: { Args: { p_code: string }; Returns: string };
+      my_referrals: {
+        Args: Record<string, never>;
+        Returns: { id: string; email_hint: string; status: ReferralStatus; created_at: string; paid_at: string | null; reward_status: string | null }[];
+      };
+      platform_set_referral_settings: {
+        Args: {
+          p_enabled: boolean;
+          p_referrer_kind: DiscountKind;
+          p_referrer_value: number;
+          p_referrer_months: number;
+          p_referred_kind: DiscountKind;
+          p_referred_value: number;
+          p_referred_months: number;
+        };
+        Returns: undefined;
+      };
+      platform_referrals: {
+        Args: { p_limit?: number };
+        Returns: {
+          id: string;
+          referrer_email: string | null;
+          referred_email: string | null;
+          status: ReferralStatus;
+          reason: string | null;
+          created_at: string;
+          paid_at: string | null;
+          rewards: number;
         }[];
       };
       log_client_error: { Args: { p_path: string; p_message: string; p_digest?: string | null; p_org_id?: string | null }; Returns: undefined };
