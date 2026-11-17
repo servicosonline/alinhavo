@@ -41,7 +41,7 @@ const MODULOS = [
   { nome: "Coleção", texto: "Cronograma, ficha técnica com consumo calculado e comentários da equipe.", status: "", cor: "lp-tag-fita" },
   { nome: "Encaixe", texto: "Risco automático, aproveitamento medido e saída DXF e PLT para o plotter.", status: "", cor: "lp-tag-giz" },
   { nome: "Scan", texto: "Molde de papel vira digital com a foto do celular e uma folha de marcadores.", status: "em teste", cor: "lp-tag-papel" },
-  { nome: "Vitrine", texto: "Descrição de produto e ficha com IA.", status: "em breve", cor: "lp-tag-tinta" },
+  { nome: "Vitrine", texto: "Descrição de produto por IA, desenho técnico plano tirado do molde e foto de catálogo a partir da Prova.", status: "", cor: "lp-tag-tinta" },
 ];
 
 const PASSOS = [

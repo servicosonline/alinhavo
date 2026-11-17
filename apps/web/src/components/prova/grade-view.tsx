@@ -9,6 +9,7 @@ import { garmentPaint } from "@/lib/prova/paint";
 import type { FabricId, FromWorker, PoseId, ProvaMaps, ProvaPart, ToWorker } from "@/lib/prova/protocol";
 import type { RenderQuality } from "@/lib/prova/quality";
 import { formatCm } from "@/lib/units";
+import { CenterViewButton } from "./center-view-button";
 import type { GradeScene } from "./grade-scene";
 
 export type GradeMapView = "tecido" | "pressao" | "folga";
@@ -189,6 +190,7 @@ export function GradeView({ doc, measurementsBySize, fabric, pose, bodyKind = "m
             Montando a grade…
           </p>
         )}
+        <CenterViewButton onClick={() => sceneRef.current?.resetView()} />
       </div>
       <div className="overflow-x-auto rounded-2xl border border-tinta/10 bg-white">
         <table className="w-full text-left text-xs" data-grade-table>

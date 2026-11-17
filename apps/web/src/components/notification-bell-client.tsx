@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { getBrowserClient } from "@/lib/supabase/client";
 import { isInternal } from "@/lib/notifications";
+import { DropdownDetails } from "./dropdown-details";
 
 export interface BellItem {
   id: string;
@@ -45,7 +46,7 @@ export function NotificationBellClient({ items, unread }: { items: BellItem[]; u
   }
 
   return (
-    <details className="group relative">
+    <DropdownDetails className="group relative">
       <summary
         className="relative grid size-10 cursor-pointer list-none place-items-center rounded-full transition hover:bg-papel-escuro [&::-webkit-details-marker]:hidden"
         aria-label={unread ? `Notificações: ${unread} não ${unread === 1 ? "lida" : "lidas"}` : "Notificações"}
@@ -113,6 +114,6 @@ export function NotificationBellClient({ items, unread }: { items: BellItem[]; u
           Ver todas
         </Link>
       </div>
-    </details>
+    </DropdownDetails>
   );
 }

@@ -69,6 +69,12 @@ export class GradeScene {
     camera.position.set(0, 1.2, d);
     controls.maxDistance = Math.max(6, d * 1.6);
     controls.update();
+    this.stage.saveHome();
+  }
+
+  /** Volta a câmera ao enquadramento da fileira. */
+  resetView() {
+    this.stage.resetView();
   }
 
   /** Recomeça com um lugar por tamanho (na ordem da grade) e enquadra a fileira de frente. */
