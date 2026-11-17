@@ -30,6 +30,7 @@ export function ProvaPainel({
   savedDoc: initialDoc,
   measurementsBySize,
   canEdit,
+  approvalLocked = null,
   lookOptions,
   catalog,
   fabricOptions,
@@ -49,6 +50,8 @@ export function ProvaPainel({
   savedDoc: PatternDocument;
   measurementsBySize: Record<string, Record<string, number>>;
   canEdit: boolean;
+  /** Aprovação fora do plano: o aviso no lugar do botão. */
+  approvalLocked?: string | null;
   /** Outros moldes da organização para o look (versão atual de cada um). */
   lookOptions: LookOption[];
 }) {
@@ -85,7 +88,10 @@ export function ProvaPainel({
     () =>
       canEdit
         ? {
-            blocked: unsaved ? "Salve as alterações do editor (ou ajuste e salve aqui) antes de pedir aprovação." : null,
+            blocked: approvalLocked
+              ? approvalLocked
+              : unsaved
+                ? "Salve as alterações do editor (ou ajuste e salve aqui) antes de pedir aprovação." : null,
             request: (settings, captures, days) => requestApproval(orgId, patternId, saved.version, settings, captures, days),
             // O vídeo vai do navegador direto para o Storage (a Server Action tem limite de 1 MB);
             // a RLS do bucket confere quem envia e o caminho, e attach_approval_video liga à aprovação.
@@ -102,7 +108,7 @@ export function ProvaPainel({
             },
           }
         : undefined,
-    [canEdit, unsaved, orgId, patternId, saved.version],
+    [canEdit, approvalLocked, unsaved, orgId, patternId, saved.version],
   );
 
   const catalogPhoto = useMemo<CatalogPhotoRequester | undefined>(

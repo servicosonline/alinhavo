@@ -7,6 +7,8 @@ import { Loading, NotConfigured, PageHeader } from "@/components/page-shell";
 import { SubmitButton } from "@/components/submit-button";
 import { ROLE_LABEL, ui } from "@/components/ui";
 import { STATUS_LABEL, planName, type SubscriptionStatus } from "@/lib/account";
+import { effectivePlan, planAllows } from "@/lib/plans";
+import { PlanLock } from "@/components/plan-lock";
 import type { TeamRole } from "@/lib/invite-price";
 import { requireUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
@@ -181,7 +183,13 @@ async function Configuracoes({ params, searchParams }: Pick<Props, "params" | "s
 
       {tab === "convidar" &&
         (canManage ? (
-          <Convidar orgId={orgId} planId={plan?.plan_id ?? null} status={plan?.status ?? null} members={team.map((m) => m.role)} />
+          <Convidar
+            orgId={orgId}
+            planId={plan?.plan_id ?? null}
+            status={plan?.status ?? null}
+            members={team.map((m) => m.role)}
+            teamAllowed={planAllows(effectivePlan(plan ?? null), "equipe")}
+          />
         ) : (
           <p className={ui.muted}>Só dono e admin convidam pessoas.</p>
         ))}
@@ -195,7 +203,20 @@ async function Configuracoes({ params, searchParams }: Pick<Props, "params" | "s
   );
 }
 
-async function Convidar({ orgId, planId, status, members }: { orgId: string; planId: string | null; status: SubscriptionStatus | null; members: TeamRole[] }) {
+async function Convidar({
+  orgId,
+  planId,
+  status,
+  members,
+  teamAllowed,
+}: {
+  orgId: string;
+  planId: string | null;
+  status: SubscriptionStatus | null;
+  members: TeamRole[];
+  /** O plano deixa chamar mais gente (o Grátis é para 1 pessoa). */
+  teamAllowed: boolean;
+}) {
   const supabase = await createClient();
   const [{ data: invites }, origin] = await Promise.all([
     supabase.from("invites").select("id, email, role, token, expires_at").eq("org_id", orgId).is("accepted_at", null).order("created_at"),
@@ -208,7 +229,11 @@ async function Convidar({ orgId, planId, status, members }: { orgId: string; pla
           Convidar pessoa
         </h2>
         <p className={ui.muted}>Modelagem e gestão pagam assento cheio; estilista tem preço menor; só leitura não paga.</p>
-        <InviteForm orgId={orgId} planId={planId} status={status} members={members} pending={(invites ?? []).map((i) => i.role)} />
+        {teamAllowed ? (
+          <InviteForm orgId={orgId} planId={planId} status={status} members={members} pending={(invites ?? []).map((i) => i.role)} />
+        ) : (
+          <PlanLock feature="equipe" />
+        )}
       </section>
       <section className="space-y-3" aria-labelledby="pendentes">
         <h2 id="pendentes" className={ui.eyebrow}>

@@ -11,9 +11,9 @@ import { getSupabaseConfig } from "@/lib/supabase/config";
 import type { Json } from "@/lib/supabase/database.types";
 import { createClient } from "@/lib/supabase/server";
 
-// Permissão de verdade: RLS e as funções da fila (owner, admin, modelista e estilista).
+// Permissão de verdade: RLS e as funções da fila (owner, admin e modelista, no plano Confecção).
 
-const NO_PERMISSION = "Só donos, admins, modelistas e estilistas usam a fila de encaixes.";
+const NO_PERMISSION = "Só donos, admins e modelistas usam a fila de encaixes.";
 const SESSION = "Sua sessão expirou ou o pedido é inválido.";
 
 async function ctx(orgId: unknown) {

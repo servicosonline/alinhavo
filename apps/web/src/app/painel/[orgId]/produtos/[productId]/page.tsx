@@ -8,7 +8,9 @@ import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
 import { formatDay, PRODUCT_STATUS_LABEL, PRODUCT_STATUSES, productDueState, suggestApproved, todayInBrazil } from "@/lib/collection";
 import { isUuid } from "@/lib/ids";
-import { canEditPatterns, canEditProducts, getMyRole } from "@/lib/org-access";
+import { canEditPatterns, canEditProducts, canNest, getMyRole, getOrgPlan } from "@/lib/org-access";
+import { PLAN_LOCK_TEXT, planAllows } from "@/lib/plans";
+import { PlanLock } from "@/components/plan-lock";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
 import { linkProductPattern, setProductDue, setProductStatus } from "../../colecoes/actions";
@@ -49,7 +51,7 @@ async function Produto({ params }: { params: Params }) {
   const user = await requireUser(back);
   const supabase = await createClient();
 
-  const [prodRes, role, patRes] = await Promise.all([
+  const [prodRes, role, plan, patRes] = await Promise.all([
     supabase
       .from("products")
       .select("id, reference, name, status, pattern_id, fabric_id, collection_id, sales_description, technical_description, due_on, photo_path, updated_at, collections(name)")
@@ -57,13 +59,14 @@ async function Produto({ params }: { params: Params }) {
       .eq("org_id", orgId)
       .maybeSingle(),
     getMyRole(supabase, orgId, user.id),
+    getOrgPlan(supabase, orgId),
     supabase.from("patterns").select("id, name, current_version").eq("org_id", orgId).is("archived_at", null).order("name"),
   ]);
   const p = prodRes.data;
   if (!p) notFound();
   const patterns = patRes.data ?? [];
   const pattern = patterns.find((m) => m.id === p.pattern_id) ?? null;
-  const canEdit = canEditProducts(role);
+  const canEdit = canEditProducts(role, plan);
   const collection = p.collections as unknown as { name: string } | null;
 
   const { data: allLinks } = await supabase.from("products").select("id, pattern_id").eq("org_id", orgId).not("pattern_id", "is", null);
@@ -133,6 +136,8 @@ async function Produto({ params }: { params: Params }) {
           ) : undefined
         }
       />
+
+      {!planAllows(plan, "colecao") && <PlanLock feature="colecao" />}
 
       {canEdit && suggestApproved(p.status, latest) && (
         <form action={setProductStatus} className={`${ui.success} flex flex-wrap items-center justify-between gap-2 text-sm`} data-suggest>
@@ -335,7 +340,7 @@ async function Produto({ params }: { params: Params }) {
             Encaixe
           </h2>
           <Link href={`${back}/encaixe`} className={ui.buttonGhost}>
-            {lastMarker ? "Abrir encaixe" : "Encaixar"}
+            {lastMarker || !canNest(role, plan) ? "Abrir encaixe" : "Encaixar"}
           </Link>
         </div>
         {lastMarker ? (
@@ -409,9 +414,10 @@ async function Produto({ params }: { params: Params }) {
         moderator={role === "owner" || role === "admin"}
         names={names}
         initial={commentRes.data ?? []}
+        locked={planAllows(plan, "colecao") ? null : PLAN_LOCK_TEXT.colecao}
       />
 
-      {pattern && <ApprovalsList supabase={supabase} orgId={orgId} patternId={pattern.id} canEdit={canEditPatterns(role)} />}
+      {pattern && <ApprovalsList supabase={supabase} orgId={orgId} patternId={pattern.id} canEdit={canEditPatterns(role) && planAllows(plan, "aprovacao")} />}
     </div>
   );
 }

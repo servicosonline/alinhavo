@@ -7,7 +7,9 @@ import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
 import { formatDay, milestoneState, PRODUCT_STATUS_LABEL, PRODUCT_STATUSES, productDueState, todayInBrazil } from "@/lib/collection";
 import { isUuid } from "@/lib/ids";
-import { canEditProducts, getMyRole } from "@/lib/org-access";
+import { canEditProducts, getMyRole, getOrgPlan } from "@/lib/org-access";
+import { PlanLock } from "@/components/plan-lock";
+import { planAllows } from "@/lib/plans";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
 import { CreateCollectionForm } from "./forms";
@@ -37,9 +39,10 @@ async function Colecoes({ params }: { params: PageProps<"/painel/[orgId]/colecoe
   const user = await requireUser(`/painel/${orgId}/colecoes`);
   const supabase = await createClient();
 
-  const [orgRes, role, colRes, prodRes, msRes] = await Promise.all([
+  const [orgRes, role, plan, colRes, prodRes, msRes] = await Promise.all([
     supabase.from("orgs").select("name").eq("id", orgId).maybeSingle(),
     getMyRole(supabase, orgId, user.id),
+    getOrgPlan(supabase, orgId),
     supabase.from("collections").select("id, name, season, starts_on, launch_on").eq("org_id", orgId).is("archived_at", null).order("created_at", { ascending: false }),
     supabase.from("products").select("collection_id, status, due_on").eq("org_id", orgId),
     supabase.from("milestones").select("collection_id, due_on, done_at").eq("org_id", orgId),
@@ -56,7 +59,7 @@ async function Colecoes({ params }: { params: PageProps<"/painel/[orgId]/colecoe
     <div className="space-y-8">
       <div className="flex flex-wrap items-end justify-between gap-4">
         <PageHeader title="Coleções" description="Cada coleção junta os produtos, o status de cada um, os prazos e o cronograma até o lançamento." />
-        {canEditProducts(role) && (
+        {canEditProducts(role, plan) && (
           <details id="nova-colecao" className="group relative">
             <summary className={`${ui.buttonPrimary} cursor-pointer list-none [&::-webkit-details-marker]:hidden`}>+ Nova coleção</summary>
             <div className={`${ui.card} absolute right-0 z-30 mt-2 w-[min(92vw,34rem)] shadow-[0_24px_50px_-28px_rgb(29_27_24/0.55)]`}>
@@ -66,6 +69,8 @@ async function Colecoes({ params }: { params: PageProps<"/painel/[orgId]/colecoe
           </details>
         )}
       </div>
+
+      {!planAllows(plan, "colecao") && <PlanLock feature="colecao" />}
 
       {collections.length === 0 ? (
         <EmptyState icon="colecoes" title="Nenhuma coleção ainda">

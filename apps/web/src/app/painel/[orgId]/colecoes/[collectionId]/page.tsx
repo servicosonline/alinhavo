@@ -17,7 +17,7 @@ import {
   type MilestoneState,
 } from "@/lib/collection";
 import { isUuid } from "@/lib/ids";
-import { canEditProducts, getMyRole } from "@/lib/org-access";
+import { canEditProducts, getMyRole, getOrgPlan } from "@/lib/org-access";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
 import { deleteMilestone, linkProductPattern, setProductDue, setProductStatus, toggleMilestone } from "../actions";
@@ -56,9 +56,10 @@ async function Colecao({ params }: { params: Params }) {
   const user = await requireUser(back);
   const supabase = await createClient();
 
-  const [colRes, role, prodRes, msRes, patRes, teamRes] = await Promise.all([
+  const [colRes, role, plan, prodRes, msRes, patRes, teamRes] = await Promise.all([
     supabase.from("collections").select("id, name, season, starts_on, launch_on").eq("id", collectionId).eq("org_id", orgId).maybeSingle(),
     getMyRole(supabase, orgId, user.id),
+    getOrgPlan(supabase, orgId),
     supabase.from("products").select("id, reference, name, status, pattern_id, due_on, photo_path, updated_at").eq("collection_id", collectionId).eq("org_id", orgId).order("created_at"),
     supabase.from("milestones").select("id, title, due_on, assignee, done_at").eq("collection_id", collectionId).eq("org_id", orgId).order("due_on"),
     supabase.from("patterns").select("id, name, current_version").eq("org_id", orgId).is("archived_at", null).order("name"),
@@ -70,7 +71,7 @@ async function Colecao({ params }: { params: Params }) {
   const milestones = msRes.data ?? [];
   const patterns = patRes.data ?? [];
   const team = (teamRes.data ?? []).map((m) => ({ user_id: m.user_id, email: m.email }));
-  const canEdit = canEditProducts(role);
+  const canEdit = canEditProducts(role, plan);
   const [tracking, { data: orgRow }] = await Promise.all([
     canEdit ? activeTrackingLinks(supabase, "colecao", collectionId) : Promise.resolve([]),
     supabase.from("orgs").select("name").eq("id", orgId).maybeSingle(),

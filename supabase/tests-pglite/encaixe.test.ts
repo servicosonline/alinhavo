@@ -23,6 +23,7 @@ type Cenario = {
   dono: User;
   modelista: User;
   estilista: User;
+  outra: User;
   leitura: User;
   fora: User;
 };
@@ -33,11 +34,13 @@ async function cenario(): Promise<Cenario> {
   const dono = await createUser(db, `dono${n}@e.com`);
   const modelista = await createUser(db, `modelista${n}@e.com`);
   const estilista = await createUser(db, `estilista${n}@e.com`);
+  const outra = await createUser(db, `outra${n}@e.com`);
   const leitura = await createUser(db, `leitura${n}@e.com`);
   const fora = await createUser(db, `fora${n}@e.com`);
   const { id: orgId } = await novaOrg(db, dono);
   await entrarComo(db, dono, orgId, modelista, "modelista");
   await entrarComo(db, dono, orgId, estilista, "estilista");
+  await entrarComo(db, dono, orgId, outra, "modelista");
   await entrarComo(db, dono, orgId, leitura, "leitura");
   const { patternId, productId } = await as(db, dono, async (q) => {
     const pat = (await q.query<{ id: string }>("insert into public.patterns (org_id, name) values ($1, 'Saia') returning id", [orgId])).rows[0]!;
@@ -47,7 +50,7 @@ async function cenario(): Promise<Cenario> {
     ).rows[0]!;
     return { patternId: pat.id, productId: prod.id };
   });
-  return { orgId, productId, patternId, dono, modelista, estilista, leitura, fora };
+  return { orgId, productId, patternId, dono, modelista, estilista, outra, leitura, fora };
 }
 
 type Args = {
@@ -84,7 +87,9 @@ describe("encaixe (markers)", () => {
     const c = await cenario();
     const r1 = await salvar(c.modelista, c.productId);
     expect(r1).toEqual({ number: 1, pattern_id: c.patternId, pattern_version: 1 });
-    expect((await salvar(c.estilista, c.productId)).number).toBe(2);
+    expect((await salvar(c.outra, c.productId)).number).toBe(2);
+    // O encaixe é da modelista: a estilista edita o produto, mas não salva risco.
+    await expect(salvar(c.estilista, c.productId)).rejects.toThrow(/sem permissão/);
     expect((await salvar(c.dono, c.productId)).number).toBe(3);
     expect(await contar(db, c.leitura, "select 1 from public.markers where product_id = $1", [c.productId])).toBe(3);
     expect(await contar(db, c.fora, "select 1 from public.markers where product_id = $1", [c.productId])).toBe(0);
@@ -135,8 +140,9 @@ describe("encaixe (markers)", () => {
     // Só-leitura e quem é de fora não apagam (a linha some da visão, nada acontece).
     await as(db, c.leitura, (q) => q.query("delete from public.markers where product_id = $1", [c.productId]));
     await as(db, c.fora, (q) => q.query("delete from public.markers where product_id = $1", [c.productId]));
+    await as(db, c.estilista, (q) => q.query("delete from public.markers where product_id = $1", [c.productId]));
     expect(await contar(db, c.dono, "select 1 from public.markers where product_id = $1", [c.productId])).toBe(2);
-    await as(db, c.estilista, (q) => q.query("delete from public.markers where product_id = $1 and number = 1", [c.productId]));
+    await as(db, c.outra, (q) => q.query("delete from public.markers where product_id = $1 and number = 1", [c.productId]));
     expect(await contar(db, c.dono, "select 1 from public.markers where product_id = $1", [c.productId])).toBe(1);
     // O próximo continua a numeração.
     expect((await salvar(c.dono, c.productId)).number).toBe(3);

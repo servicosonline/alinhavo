@@ -6,7 +6,9 @@ import { ModuleIcon } from "@/components/icons";
 import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
-import { canEditPatterns, getMyRole } from "@/lib/org-access";
+import { canEditPatterns, getMyRole, getOrgPlan } from "@/lib/org-access";
+import { planAllows } from "@/lib/plans";
+import { PlanLock } from "@/components/plan-lock";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
 import { CreatePatternForm } from "./create-pattern-form";
@@ -28,9 +30,12 @@ async function Moldes({ params }: { params: PageProps<"/painel/[orgId]/moldes">[
   const user = await requireUser(`/painel/${orgId}/moldes`);
   const supabase = await createClient();
 
-  const [orgRes, role, patternsRes] = await Promise.all([
+  const [orgRes, role, plan, allRes, patternsRes] = await Promise.all([
     supabase.from("orgs").select("name").eq("id", orgId).maybeSingle(),
     getMyRole(supabase, orgId, user.id),
+    getOrgPlan(supabase, orgId),
+    // Todos, arquivados inclusive: é o que conta no limite do Grátis (igual ao banco).
+    supabase.from("patterns").select("id", { count: "exact", head: true }).eq("org_id", orgId),
     supabase
       .from("patterns")
       .select("id, name, current_version, updated_at")
@@ -40,6 +45,7 @@ async function Moldes({ params }: { params: PageProps<"/painel/[orgId]/moldes">[
   ]);
   if (!orgRes.data) notFound();
   const patterns = patternsRes.data ?? [];
+  const atPlanLimit = !planAllows(plan, "moldes") && (allRes.count ?? 0) >= 1;
 
   return (
     <div className="space-y-8">
@@ -48,16 +54,20 @@ async function Moldes({ params }: { params: PageProps<"/painel/[orgId]/moldes">[
         description="Desenhe no tamanho base, gradue a grade inteira e prove no corpo em 3D. Cada ajuste salvo vira uma versão nova."
       />
 
-      {canEditPatterns(role) && (
+      {canEditPatterns(role) && atPlanLimit && <PlanLock feature="moldes" />}
+
+      {canEditPatterns(role) && !atPlanLimit && (
         <section className={`${ui.card} space-y-3`} aria-label="Novo molde">
           <h2 className={`${ui.eyebrow} mb-1`}>Novo molde</h2>
           <CreatePatternForm orgId={orgId} />
-          <p className="text-sm text-tinta-suave">
-            Tem o molde em papel?{" "}
-            <Link href={`/painel/${orgId}/moldes/scan`} className={ui.link} data-scan-link>
-              Escanear por foto
-            </Link>
-          </p>
+          {planAllows(plan, "scan") && (
+            <p className="text-sm text-tinta-suave">
+              Tem o molde em papel?{" "}
+              <Link href={`/painel/${orgId}/moldes/scan`} className={ui.link} data-scan-link>
+                Escanear por foto
+              </Link>
+            </p>
+          )}
         </section>
       )}
 

@@ -7,7 +7,9 @@ import { ui } from "@/components/ui";
 import { DELIVERY_STATUS_LABEL, eventLabel, WEBHOOK_MAX } from "@/lib/api/webhooks";
 import { requireUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
-import { getMyRole } from "@/lib/org-access";
+import { getMyRole, getOrgPlan } from "@/lib/org-access";
+import { planAllows } from "@/lib/plans";
+import { PlanLock } from "@/components/plan-lock";
 import { getOrigin } from "@/lib/origin";
 import { formatDate } from "@/lib/prova/approval";
 import { getSupabaseConfig } from "@/lib/supabase/config";
@@ -30,7 +32,12 @@ async function Api({ params }: { params: PageProps<"/painel/[orgId]/api">["param
   if (!isUuid(orgId)) notFound();
   const user = await requireUser(`/painel/${orgId}/api`);
   const supabase = await createClient();
-  const [orgRes, role] = await Promise.all([supabase.from("orgs").select("name").eq("id", orgId).maybeSingle(), getMyRole(supabase, orgId, user.id)]);
+  const [orgRes, role, plan] = await Promise.all([
+    supabase.from("orgs").select("name").eq("id", orgId).maybeSingle(),
+    getMyRole(supabase, orgId, user.id),
+    getOrgPlan(supabase, orgId),
+  ]);
+  const apiAllowed = planAllows(plan, "api");
   if (!orgRes.data) notFound();
   const canManage = role === "owner" || role === "admin";
   const { data: keys } = canManage
@@ -75,7 +82,7 @@ async function Api({ params }: { params: PageProps<"/painel/[orgId]/api">["param
             <h2 id="nova-chave" className={ui.h2}>
               Nova chave
             </h2>
-            <CreateKey orgId={orgId} />
+            {apiAllowed ? <CreateKey orgId={orgId} /> : <PlanLock feature="api" />}
           </section>
 
           <section className={`${ui.card} space-y-3`} aria-labelledby="chaves">
@@ -125,7 +132,7 @@ async function Api({ params }: { params: PageProps<"/painel/[orgId]/api">["param
                 Falhou? Tenta de novo em 1 min, 5 min, 30 min, 2 h e 12 h. Até {WEBHOOK_MAX} por organização.
               </p>
             </div>
-            <CreateWebhook orgId={orgId} disabled={(hooks ?? []).length >= WEBHOOK_MAX} />
+            <CreateWebhook orgId={orgId} disabled={!apiAllowed || (hooks ?? []).length >= WEBHOOK_MAX} />
             {(hooks ?? []).length > 0 && (
               <ul className="divide-y divide-tinta/10 text-sm" data-webhooks>
                 {(hooks ?? []).map((h) => (

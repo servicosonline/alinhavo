@@ -25,7 +25,9 @@ export async function acceptInvite(token: string): Promise<FormState> {
   const { data, error } = await supabase.rpc("accept_invite", { p_token: token });
   if (error || !data) {
     const conhecida = MENSAGENS_DO_BANCO.find((m) => error?.message.includes(m));
-    return { error: conhecida ?? "Não foi possível aceitar o convite." };
+    // Recusa do plano (o Grátis é para 1 pessoa): a mensagem do banco, em português.
+    const plano = error?.code === "54000" ? error.message : null;
+    return { error: conhecida ?? plano ?? "Não foi possível aceitar o convite." };
   }
 
   redirect(`/painel/${data.org_id}`);

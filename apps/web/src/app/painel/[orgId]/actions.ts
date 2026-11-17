@@ -38,6 +38,8 @@ export async function createInvite(orgId: string, _prev: FormState, formData: Fo
   if (error) {
     if (error.code === "23505") return { error: "Já existe um convite pendente para este e-mail." };
     if (error.code === "42501") return { error: "Só donos e admins podem convidar." };
+    // Recusa do plano (o Grátis é para 1 pessoa): a mensagem do banco, em português.
+    if (error.code === "54000" && error.message) return { error: error.message };
     return { error: "Não foi possível criar o convite." };
   }
 

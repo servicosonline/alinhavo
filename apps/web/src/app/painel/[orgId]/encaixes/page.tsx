@@ -4,7 +4,9 @@ import { NestQueue, type QueueJob } from "@/components/encaixe/nest-queue";
 import { Loading, NotConfigured, PageHeader } from "@/components/page-shell";
 import { requireUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
-import { canEditProducts, getMyRole } from "@/lib/org-access";
+import { PlanLock } from "@/components/plan-lock";
+import { canNest, getMyRole, getOrgPlan } from "@/lib/org-access";
+import { planAllows } from "@/lib/plans";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
 
@@ -26,8 +28,9 @@ async function Encaixes({ params }: { params: Params }) {
   const user = await requireUser(`/painel/${orgId}/encaixes`);
   const supabase = await createClient();
 
-  const [role, jobsRes] = await Promise.all([
+  const [role, plan, jobsRes] = await Promise.all([
     getMyRole(supabase, orgId, user.id),
+    getOrgPlan(supabase, orgId),
     supabase
       .from("nest_jobs")
       .select("id, product_id, status, progress, attempts, error, width_mm, demand, pattern_version, created_at, claimed_by, products(name, reference), markers(number)")
@@ -63,7 +66,8 @@ async function Encaixes({ params }: { params: Params }) {
         title="Fila de encaixes"
         description="Os pedidos rodam um de cada vez no navegador de quem liga o processador e viram riscos salvos no produto. Para pôr um pedido na fila, abra o encaixe de um produto."
       />
-      <NestQueue orgId={orgId} jobs={jobs} canProcess={canEditProducts(role)} />
+      {!planAllows(plan, "encaixe") && <PlanLock feature="encaixe" />}
+      <NestQueue orgId={orgId} jobs={jobs} canProcess={canNest(role, plan)} />
     </div>
   );
 }

@@ -8,7 +8,9 @@ import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
 import { formatMoney } from "@/lib/money";
-import { canEditProducts, getMyRole } from "@/lib/org-access";
+import { canEditProducts, getMyRole, getOrgPlan } from "@/lib/org-access";
+import { PlanLock } from "@/components/plan-lock";
+import { planAllows } from "@/lib/plans";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
 import { formatCm } from "@/lib/units";
@@ -31,9 +33,10 @@ async function Tecidos({ params }: { params: PageProps<"/painel/[orgId]/tecidos"
   if (!isUuid(orgId)) notFound();
   const user = await requireUser(`/painel/${orgId}/tecidos`);
   const supabase = await createClient();
-  const [orgRes, role, fabRes] = await Promise.all([
+  const [orgRes, role, plan, fabRes] = await Promise.all([
     supabase.from("orgs").select("name").eq("id", orgId).maybeSingle(),
     getMyRole(supabase, orgId, user.id),
+    getOrgPlan(supabase, orgId),
     // Sem a foto (pesada): a lista só diz se tem.
     supabase
       .from("fabrics")
@@ -43,7 +46,7 @@ async function Tecidos({ params }: { params: PageProps<"/painel/[orgId]/tecidos"
   ]);
   if (!orgRes.data) notFound();
   const fabrics = fabRes.data ?? [];
-  const canEdit = canEditProducts(role);
+  const canEdit = canEditProducts(role, plan);
 
   return (
     <div className="space-y-8">
@@ -51,6 +54,7 @@ async function Tecidos({ params }: { params: PageProps<"/painel/[orgId]/tecidos"
         title="Tecidos"
         description="Largura, gramatura e preço entram no consumo e no custo da ficha técnica."
       />
+      {!planAllows(plan, "colecao") && <PlanLock feature="colecao" />}
       {canEdit && (
         <section className={ui.card} aria-label="Novo tecido">
           <h2 className={`${ui.eyebrow} mb-4`}>Novo tecido</h2>

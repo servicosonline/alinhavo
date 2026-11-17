@@ -23,6 +23,7 @@ export function EditorClient({
   approvalHref,
   chartMeasurements,
   fabricComposition,
+  exportLocked = null,
 }: {
   orgId: string;
   patternId: string;
@@ -38,6 +39,8 @@ export function EditorClient({
   chartMeasurements: { sizes: ChartSizeRow[]; rows: MeasurementRow[] };
   /** Composição do tecido do produto ligado ao molde (null sem produto ou sem tecido). */
   fabricComposition: string | null;
+  /** Exportar fora do plano (aviso no menu). */
+  exportLocked?: string | null;
 }) {
   const [version, setVersion] = useState(initialVersion);
   // Prova ao lado: as medidas casam com a grade do molde como está na tela.
@@ -58,6 +61,7 @@ export function EditorClient({
       approvalHref={version === 0 ? undefined : approvalHref}
       sideProva={sideProva}
       fabricComposition={fabricComposition}
+      exportLocked={exportLocked}
       onTryOn={
         version === 0
           ? undefined // a Prova do painel parte de uma versão salva

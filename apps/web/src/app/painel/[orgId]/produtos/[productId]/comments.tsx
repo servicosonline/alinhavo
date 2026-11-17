@@ -16,6 +16,8 @@ type Props = {
   /** user_id → e-mail, para mostrar o autor. */
   names: Record<string, string>;
   initial: CommentView[];
+  /** Aviso no lugar do formulário quando o plano não tem comentários (ler continua liberado). */
+  locked?: string | null;
 };
 
 function subscribeClock(onChange: () => void) {
@@ -31,7 +33,7 @@ const absoluteTime = (iso: string) =>
  * o comentário novo na hora (Supabase Realtime; só chegam as linhas que a
  * RLS deixa ler).
  */
-export function Comments({ orgId, productId, me, moderator, names, initial }: Props) {
+export function Comments({ orgId, productId, me, moderator, names, initial, locked = null }: Props) {
   const [list, setList] = useState<CommentView[]>(initial);
   const [status, setStatus] = useState<"conectando" | "ao vivo" | "caiu">("conectando");
   const live = !getSupabaseConfig() || status === "caiu" ? "sem tempo real" : status;
@@ -130,6 +132,11 @@ export function Comments({ orgId, productId, me, moderator, names, initial }: Pr
         </ul>
       )}
 
+      {locked ? (
+        <p className={ui.muted} data-plan-lock="colecao">
+          {locked}
+        </p>
+      ) : (
       <form
         ref={formRef}
         className="space-y-2"
@@ -155,6 +162,7 @@ export function Comments({ orgId, productId, me, moderator, names, initial }: Pr
           )}
         </div>
       </form>
+      )}
     </section>
   );
 }
