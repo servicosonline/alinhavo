@@ -7,6 +7,7 @@ import { Loading, NotConfigured, PageHeader } from "@/components/page-shell";
 import { SubmitButton } from "@/components/submit-button";
 import { ROLE_LABEL, ui } from "@/components/ui";
 import { STATUS_LABEL, planName, type SubscriptionStatus } from "@/lib/account";
+import type { TeamRole } from "@/lib/invite-price";
 import { requireUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
 import { getOrigin } from "@/lib/origin";
@@ -15,7 +16,7 @@ import { createClient } from "@/lib/supabase/server";
 import { cancelInvite } from "../actions";
 import { CopyLink } from "../copy-link";
 import { InviteForm } from "../invite-form";
-import { changeMemberRole, removeMember } from "./actions";
+import { changeMemberRole, removeMember, setMemberCanCreateOrgs } from "./actions";
 import { OrgCoverCropper, RenameOrgForm } from "./settings-forms";
 import { SettingsTabs, type SettingsTab } from "./settings-tabs";
 
@@ -42,11 +43,13 @@ async function Configuracoes({ params, searchParams }: Pick<Props, "params" | "s
   const tab: SettingsTab = aba === "equipe" || aba === "convidar" ? aba : "geral";
   const user = await requireUser(`/painel/${orgId}/configuracoes`);
   const supabase = await createClient();
-  const [orgRes, teamRes, planRes] = await Promise.all([
+  const [orgRes, teamRes, planRes, creationRes] = await Promise.all([
     supabase.from("orgs").select("id, name, thumbnail_path").eq("id", orgId).maybeSingle(),
     supabase.rpc("org_team", { p_org_id: orgId }),
     supabase.rpc("org_plan_status", { p_org_id: orgId }),
+    supabase.from("org_members").select("user_id, can_create_orgs").eq("org_id", orgId),
   ]);
+  const canCreateOf = new Map((creationRes.data ?? []).map((m) => [m.user_id, m.can_create_orgs]));
   if (!orgRes.data) notFound();
   const org = orgRes.data;
   const team = teamRes.data ?? [];
@@ -115,7 +118,10 @@ async function Configuracoes({ params, searchParams }: Pick<Props, "params" | "s
                   <span className="min-w-0 truncate">
                     {m.email}
                     {me && <span className="text-tinta-suave"> (você)</span>}
-                    <span className="block text-xs text-tinta-suave">desde {dataCurta.format(new Date(m.joined_at))}</span>
+                    <span className="block text-xs text-tinta-suave">
+                      desde {dataCurta.format(new Date(m.joined_at))}
+                      {m.role !== "owner" && (canCreateOf.get(m.user_id) ? " · pode criar organizações" : " · não cria organizações")}
+                    </span>
                   </span>
                   {editable ? (
                     <span className="flex flex-wrap items-center gap-2">
@@ -136,6 +142,16 @@ async function Configuracoes({ params, searchParams }: Pick<Props, "params" | "s
                           Salvar
                         </SubmitButton>
                       </form>
+                      {m.role !== "owner" && (
+                        <form action={setMemberCanCreateOrgs} data-member-can-create={canCreateOf.get(m.user_id) ? "sim" : "nao"}>
+                          <input type="hidden" name="orgId" value={orgId} />
+                          <input type="hidden" name="userId" value={m.user_id} />
+                          <input type="hidden" name="allow" value={canCreateOf.get(m.user_id) ? "0" : "1"} />
+                          <SubmitButton variant="ghost" pendingText="Salvando…">
+                            {canCreateOf.get(m.user_id) ? "Travar criar organizações" : "Liberar criar organizações"}
+                          </SubmitButton>
+                        </form>
+                      )}
                       <form action={removeMember}>
                         <input type="hidden" name="orgId" value={orgId} />
                         <input type="hidden" name="userId" value={m.user_id} />
@@ -163,7 +179,12 @@ async function Configuracoes({ params, searchParams }: Pick<Props, "params" | "s
         </section>
       )}
 
-      {tab === "convidar" && (canManage ? <Convidar orgId={orgId} /> : <p className={ui.muted}>Só dono e admin convidam pessoas.</p>)}
+      {tab === "convidar" &&
+        (canManage ? (
+          <Convidar orgId={orgId} planId={plan?.plan_id ?? null} status={plan?.status ?? null} members={team.map((m) => m.role)} />
+        ) : (
+          <p className={ui.muted}>Só dono e admin convidam pessoas.</p>
+        ))}
 
       <p className="pt-4 text-sm text-tinta-suave">
         <Link href={`/painel/${orgId}`} className={ui.link}>
@@ -174,7 +195,7 @@ async function Configuracoes({ params, searchParams }: Pick<Props, "params" | "s
   );
 }
 
-async function Convidar({ orgId }: { orgId: string }) {
+async function Convidar({ orgId, planId, status, members }: { orgId: string; planId: string | null; status: SubscriptionStatus | null; members: TeamRole[] }) {
   const supabase = await createClient();
   const [{ data: invites }, origin] = await Promise.all([
     supabase.from("invites").select("id, email, role, token, expires_at").eq("org_id", orgId).is("accepted_at", null).order("created_at"),
@@ -187,7 +208,7 @@ async function Convidar({ orgId }: { orgId: string }) {
           Convidar pessoa
         </h2>
         <p className={ui.muted}>Modelagem e gestão pagam assento cheio; estilista tem preço menor; só leitura não paga.</p>
-        <InviteForm orgId={orgId} />
+        <InviteForm orgId={orgId} planId={planId} status={status} members={members} pending={(invites ?? []).map((i) => i.role)} />
       </section>
       <section className="space-y-3" aria-labelledby="pendentes">
         <h2 id="pendentes" className={ui.eyebrow}>

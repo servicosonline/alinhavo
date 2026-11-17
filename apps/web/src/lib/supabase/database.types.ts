@@ -107,6 +107,8 @@ type OrgMemberRow = {
   org_id: string;
   user_id: string;
   role: OrgRole;
+  /** Pode criar organizações próprias (vem do convite; dono e admin mudam). */
+  can_create_orgs: boolean;
   created_at: string;
   updated_at: string;
 };
@@ -121,6 +123,8 @@ type InviteRow = {
   expires_at: string;
   accepted_at: string | null;
   accepted_by: string | null;
+  /** A pessoa convidada pode criar organizações próprias. */
+  can_create_orgs: boolean;
   created_at: string;
   updated_at: string;
 };
@@ -481,7 +485,7 @@ export type Database = {
       org_members: {
         Row: OrgMemberRow;
         Insert: never;
-        Update: { role?: OrgRole };
+        Update: { role?: OrgRole; can_create_orgs?: boolean };
         Relationships: [
           {
             foreignKeyName: "org_members_org_id_fkey";
@@ -494,7 +498,7 @@ export type Database = {
       };
       invites: {
         Row: InviteRow;
-        Insert: { org_id: string; email: string; role: OrgRole; created_by?: string; expires_at?: string };
+        Insert: { org_id: string; email: string; role: OrgRole; created_by?: string; expires_at?: string; can_create_orgs?: boolean };
         Update: never;
         Relationships: [
           {
@@ -872,6 +876,7 @@ export type Database = {
       platform_orgs: { Args: Record<string, never>; Returns: { id: string; name: string; created_at: string; members: number; products: number }[] };
       am_platform_admin: { Args: Record<string, never>; Returns: boolean };
       my_platform_role: { Args: Record<string, never>; Returns: "dono" | "suporte" | null };
+      my_org_creation: { Args: Record<string, never>; Returns: { allowed: boolean; blocked_by: string | null; trial_available: boolean }[] };
       my_notifications: {
         Args: { p_limit?: number };
         Returns: { id: string; title: string; body: string; link: string | null; created_at: string; read: boolean }[];

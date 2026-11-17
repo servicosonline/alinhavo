@@ -29,6 +29,8 @@ export interface PlanStatus {
   plan_id: string;
   status: SubscriptionStatus;
   days_left: number | null;
+  /** Fim do teste; `null` = a organização nasceu sem teste (a pessoa já tinha usado o dela). */
+  trial_ends_at?: string | null;
 }
 
 /**
@@ -42,7 +44,11 @@ export function trialNotice(s: PlanStatus | null): { tone: "info" | "alerta"; te
     if (d <= 0) return { tone: "alerta", text: "O teste grátis termina hoje." };
     return { tone: d <= 3 ? "alerta" : "info", text: d === 1 ? "Teste grátis: falta 1 dia." : `Teste grátis: faltam ${d} dias.` };
   }
-  if (s.status === "vencida") return { tone: "alerta", text: "O teste grátis terminou. A escolha do plano chega em breve." };
+  if (s.status === "vencida") {
+    // Sem prazo: a organização nasceu sem teste, porque a pessoa já usou o dela (um teste por pessoa).
+    if (s.trial_ends_at === null) return { tone: "alerta", text: "O teste grátis já foi usado em outra organização sua. A escolha do plano chega em breve." };
+    return { tone: "alerta", text: "O teste grátis terminou. A escolha do plano chega em breve." };
+  }
   if (s.status === "cancelada") return { tone: "alerta", text: "O plano foi cancelado." };
   return null;
 }
