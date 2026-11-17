@@ -11,6 +11,7 @@ import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
 import { PasswordForm, ProfileForm } from "./account-forms";
 
+import { ReferralSection } from "./referral-section";
 export const metadata: Metadata = { title: "Minha conta · Alinhavo" };
 
 export default function ContaPage({ searchParams }: PageProps<"/painel/conta">) {
@@ -120,6 +121,7 @@ async function Conta({ searchParams }: { searchParams: PageProps<"/painel/conta"
               <span className="self-center font-mono text-[11px] text-tinta-suave uppercase">Em breve</span>
             </div>
           </section>
+          <ReferralSection cardClass={card} />
         </div>
       </div>
     </div>
