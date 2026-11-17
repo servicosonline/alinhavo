@@ -13,6 +13,9 @@ const clean = (v: number) => v + 0;
 /** De onde veio cada segmento da peça aberta: o segmento original e se é a cópia espelhada. */
 export type SegmentOrigin = { segment: number; mirrored: boolean };
 
+/** Trecho de um zíper numa peça da Prova: segmento e fração `from`–`to` no sentido da peça. */
+export type ZipperOpening = { finishId: string; piece: string; segment: number; from: number; to: number };
+
 /**
  * `reflect`: o espelho usado na metade espelhada (dobra) ou na cópia (par),
  * nas coordenadas da parte; ausente quando a parte não tem dobra.
@@ -220,6 +223,7 @@ export function garmentAtSize(doc: PatternDocument, size: string): Garment {
   const foldLine: Record<string, FoldLine> = {};
   const pieces: Piece[] = [];
   const finishes: GarmentFinish[] = [];
+  const openings: ZipperOpening[] = [];
   for (const p of doc.pieces) {
     const graded = pieceAtSize(p, size);
     const { piece: opened, origin, reflect, fold } = unfoldPiece(graded);
@@ -231,9 +235,9 @@ export function garmentAtSize(doc: PatternDocument, size: string): Garment {
     const shapes = finishShapes(graded);
     for (const shape of shapes) {
       finishes.push({ piece: p.id, finishId: shape.id, shape, mirrored: false, ...finishExtras(graded, shape.id) });
-      // Pesponto e zíper seguem a borda nas duas metades; etiqueta e estampa ficam uma vez
+      // Pesponto, zíper e pedraria de borda seguem a borda nas duas metades; os de área ficam uma vez
       // (o retângulo posto sobre a dobra já cobre as duas metades da peça aberta).
-      if (reflect && (shape.kind === "pesponto" || shape.kind === "ziper")) {
+      if (reflect && (shape.kind === "pesponto" || shape.kind === "ziper" || (shape.kind === "pedraria" && shape.edge))) {
         finishes.push({ piece: p.id, finishId: shape.id, shape: mapFinishShape(shape, reflect, true), mirrored: true });
       }
     }
@@ -248,11 +252,22 @@ export function garmentAtSize(doc: PatternDocument, size: string): Garment {
     });
     where.set(p.id, map);
     pieces.push(piece);
+    // Trecho de cada zíper nas peças da Prova: a metade espelhada e a cópia do par andam ao contrário.
+    const zippers = (graded.finishes ?? []).flatMap((z) => (z.kind === "ziper" ? [z] : []));
+    for (const z of zippers) {
+      const at = map.get(z.segment);
+      if (at?.plain !== undefined) openings.push({ finishId: z.id, piece: p.id, segment: at.plain, from: z.from, to: z.to });
+      if (at?.mirror !== undefined) openings.push({ finishId: z.id, piece: p.id, segment: at.mirror, from: 1 - z.to, to: 1 - z.from });
+    }
     if (p.cutPair && p.fold === undefined) {
       const pair = pairCopy(graded);
       origins[pair.piece.id] = pair.origin;
       source[pair.piece.id] = p.id;
       pairWhere.set(p.id, new Map(pair.origin.map((o, i) => [o.segment, i])));
+      for (const z of zippers) {
+        const i = pair.origin.findIndex((o) => o.segment === z.segment);
+        if (i >= 0) openings.push({ finishId: z.id, piece: pair.piece.id, segment: i, from: 1 - z.to, to: 1 - z.from });
+      }
       const { finishes: _pairOwn, ...pairPiece } = pair.piece;
       // O par leva tudo, espelhado (é a outra peça cortada).
       for (const shape of shapes) {
@@ -360,7 +375,7 @@ export function garmentAtSize(doc: PatternDocument, size: string): Garment {
       b: { piece: seam.b.piece, segment: cross ? b.plain : b.mirror },
     });
   }
-  return { pieces, seams, origin: origins, source, finishes, foldLine };
+  return { pieces, seams, origin: origins, source, finishes, foldLine, openings };
 }
 
 export type Garment = {
@@ -376,6 +391,11 @@ export type Garment = {
    * simétrica por ela. A malha da Prova usa como eixo, para sair simétrica.
    */
   foldLine: Record<string, FoldLine>;
+  /**
+   * Trecho de cada zíper nas peças da Prova (fração do segmento, no sentido da peça).
+   * A Prova deixa esse trecho da costura aberto quando a pessoa abre o zíper.
+   */
+  openings: ZipperOpening[];
 };
 
 /** O segmento do molde de onde veio o segmento `segment` da peça da Prova `pieceId`. */

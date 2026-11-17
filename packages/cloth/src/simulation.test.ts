@@ -3,7 +3,7 @@ import type { Piece, Seam } from "@alinhavo/geometry";
 import { floorCollider, MAX_OVERESTIMATE, sphereCollider, TRUSTED_CLEARANCE_MM } from "./collider";
 import { FABRICS, stretchCompliance, type Fabric } from "./fabrics";
 import { meshPiece, type PieceMesh } from "./mesh";
-import { createSimulation, safeClearance, type Placement, type Simulation } from "./simulation";
+import { createSimulation, safeClearance, type Placement, type SeamOpening, type Simulation } from "./simulation";
 
 const VERTICAL = { from: { x: 0, y: 0 }, to: { x: 0, y: 100 } };
 const HORIZONTAL = { from: { x: 0, y: 0 }, to: { x: 100, y: 0 } };
@@ -155,7 +155,7 @@ describe("createSimulation", () => {
       yAxis: { x: 0, y: -1, z: 0 },
     });
 
-    function sewn(direction: Seam["direction"]) {
+    function sewn(direction: Seam["direction"], openings?: SeamOpening[]) {
       const a = mesh(rect("a", 100, 200));
       const b = mesh(rect("b", 100, 200));
       // Lateral direita de A (segmento 1, de cima para baixo) com a esquerda de B (3, de baixo para cima).
@@ -164,6 +164,7 @@ describe("createSimulation", () => {
         fabric: FABRICS.planoLeve,
         gravity: NO_GRAVITY,
         seams: [seam],
+        openings,
       });
       return { sim, a, b };
     }
@@ -193,11 +194,98 @@ describe("createSimulation", () => {
       }
     });
 
+    it("zíper aberto: o trecho fica sem costurar, de qualquer um dos lados, e o resto fecha", () => {
+      // Cantos de cima presos a 20 mm: o trecho de cima só fecha se for costurado.
+      const gaps = (openings?: SeamOpening[]) => {
+        const { sim, a, b } = sewn("opposite", openings);
+        const offB = sim.pieceOffset.get("b")!;
+        sim.pin(corner(a, 100, 0));
+        sim.pin(offB + corner(b, 0, 0));
+        run(sim, 1);
+        const gap = (v: number) => dist(at(sim, corner(a, 100, v)), at(sim, offB + corner(b, 0, v)));
+        return { top: gap(40), bottom: gap(200) };
+      };
+      const closed = gaps();
+      expect(closed.top).toBeLessThan(5);
+      // Metade de cima da lateral de A (o segmento 1 anda de cima para baixo), ou a mesma metade pelo lado de B.
+      for (const open of [[{ piece: "a", segment: 1, from: 0, to: 0.5 }], [{ piece: "b", segment: 3, from: 0.5, to: 1 }]]) {
+        const g = gaps(open);
+        expect(g.top).toBeGreaterThan(closed.top + 8);
+        expect(g.bottom).toBeLessThan(1);
+      }
+    });
+
+    it("sem trecho aberto, simula igual, número a número", () => {
+      const plain = sewn("opposite").sim;
+      const empty = sewn("opposite", []).sim;
+      const other = sewn("opposite", [{ piece: "outra", segment: 1, from: 0, to: 1 }]).sim;
+      run(plain, 0.5);
+      run(empty, 0.5);
+      run(other, 0.5);
+      expect(Array.from(empty.positions)).toEqual(Array.from(plain.positions));
+      expect(Array.from(other.positions)).toEqual(Array.from(plain.positions));
+    });
+
     it("recusa costura com parte fora da simulação e parte repetida", () => {
       const a = mesh(rect("a", 100, 100));
       const seam: Seam = { id: "s", a: { piece: "a", segment: 1 }, b: { piece: "manga", segment: 0 }, direction: "opposite" };
       expect(() => createSimulation([{ mesh: a }], { fabric: FABRICS.jeans, seams: [seam] })).toThrow(/manga/);
       expect(() => createSimulation([{ mesh: a }, { mesh: a }], { fabric: FABRICS.jeans })).toThrow(/duas vezes/);
+    });
+  });
+
+  describe("corpo em movimento (setColliders)", () => {
+    it("a esfera que anda contra o pano o empurra; sem descontar o quanto ela andou, entraria nele", () => {
+      const result = (discount: boolean) => {
+        const m = mesh(rect("p", 300, 300));
+        const flat: Placement = { origin: { x: -150, y: 0, z: -150 }, xAxis: { x: 1, y: 0, z: 0 }, yAxis: { x: 0, y: 0, z: 1 } };
+        const sim = createSimulation([{ mesh: m, placement: flat }], { fabric: FABRICS.malha, gravity: NO_GRAVITY, colliders: [sphereCollider({ x: 0, y: -200, z: 0 }, 100)] });
+        run(sim, 0.2); // o pano longe: a folga guardada fica grande
+        let y = -200;
+        for (let f = 0; f < 60; f++) {
+          sim.step(1 / 60, () => {
+            const before = y;
+            y = Math.min(-60, y + 4); // sobe 4 mm por subpasso até o pano
+            sim.setColliders([sphereCollider({ x: 0, y, z: 0 }, 100)], discount ? y - before : 0);
+          });
+        }
+        let worst = Infinity;
+        for (let i = 0; i < sim.vertexCount; i++) worst = Math.min(worst, Math.hypot(at(sim, i).x, at(sim, i).y - y, at(sim, i).z) - 100);
+        return worst;
+      };
+      expect(result(true)).toBeGreaterThan(-1);
+      expect(result(false)).toBeLessThan(-5);
+    });
+
+    it("o atrito mede o deslize contra a superfície que anda: o pano apoiado vai junto com ela", () => {
+      const carried = (withSurface: boolean) => {
+        const m = mesh(rect("p", 200, 200));
+        const flat: Placement = { origin: { x: -100, y: 101, z: -100 }, xAxis: { x: 1, y: 0, z: 0 }, yAxis: { x: 0, y: 0, z: 1 } };
+        let cx = 0;
+        const ball = () => ({ ...sphereCollider({ x: cx, y: 0, z: 0 }, 100), ...(withSurface ? { surfaceStep: () => ({ x: 0.1, y: 0, z: 0 }) } : {}) });
+        const sim = createSimulation([{ mesh: m, placement: flat }], { fabric: FABRICS.jeans, colliders: [ball()] });
+        run(sim, 0.5); // assenta em cima da esfera
+        // O vértice do molde mais perto do meio do pano (o que fica no alto da esfera).
+        let mid = 0;
+        for (let i = 0; i < m.positions.length / 2; i++) if (Math.hypot(m.positions[i * 2]! - 100, m.positions[i * 2 + 1]! - 100) < Math.hypot(m.positions[mid * 2]! - 100, m.positions[mid * 2 + 1]! - 100)) mid = i;
+        const start = at(sim, mid).x;
+        for (let f = 0; f < 60; f++) {
+          sim.step(1 / 60, () => {
+            cx += 0.1; // 0,1 mm por subpasso: 120 mm em 1 s
+            sim.setColliders([ball()], 0.1);
+          });
+        }
+        return at(sim, mid).x - start;
+      };
+      expect(carried(true)).toBeGreaterThan(100);
+      expect(carried(false)).toBeLessThan(80);
+    });
+
+    it("chamada a cada subpasso, com o tempo simulado", () => {
+      const sim = createSimulation([{ mesh: mesh(rect("p", 100, 100)) }], { fabric: FABRICS.jeans, gravity: NO_GRAVITY, substeps: 5 });
+      const times: number[] = [];
+      sim.step(0.05, (t) => times.push(t));
+      expect(times.map((t) => Math.round(t * 1000))).toEqual([0, 10, 20, 30, 40]);
     });
   });
 

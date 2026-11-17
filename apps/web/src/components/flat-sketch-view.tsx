@@ -62,6 +62,15 @@ function View({ view }: { view: SketchView }) {
               </g>
             );
           }
+          if (m.kind === "pedraria") {
+            return (
+              <g key={`m${i}`}>
+                {m.stones.map((s, k) => (
+                  <circle key={k} cx={s.x} cy={s.y} r={m.radius} fill="none" stroke="var(--tinta)" strokeWidth={0.6} vectorEffect="non-scaling-stroke" />
+                ))}
+              </g>
+            );
+          }
           const cx = m.corners.reduce((s, p) => s + p.x, 0) / m.corners.length;
           const cy = m.corners.reduce((s, p) => s + p.y, 0) / m.corners.length;
           return (

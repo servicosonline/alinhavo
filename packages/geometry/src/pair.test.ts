@@ -33,7 +33,7 @@ function calca(): PatternDocument {
 describe("formato 4", () => {
   it("documento do formato 3 sobe para o 4 sem mudar as partes", () => {
     const v3 = { ...documento([saiaReta()]), schema: 3 };
-    expect(migratePattern(v3)).toEqual({ ...v3, schema: 6 });
+    expect(migratePattern(v3)).toEqual({ ...v3, schema: 7 });
   });
 
   it("valida cortar par: não combina com dobra; costura com o próprio par só em parte de par", () => {

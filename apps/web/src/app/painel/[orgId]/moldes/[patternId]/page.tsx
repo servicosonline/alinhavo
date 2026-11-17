@@ -40,8 +40,9 @@ async function Molde({ params }: { params: Params }) {
       .maybeSingle(),
     getMyRole(supabase, orgId, user.id),
     supabase.from("size_charts").select("id, name, sizes(id, label, position, is_base)").eq("org_id", orgId).order("name"),
-    // O produto ligado a este molde (um por molde), para a trilha "Coleção › Produto › Molde".
-    supabase.from("products").select("id, name, collection_id, collections(name)").eq("org_id", orgId).eq("pattern_id", patternId).maybeSingle(),
+    // O produto ligado a este molde (um por molde), para a trilha "Coleção › Produto › Molde"
+    // e a composição do tecido dele (etiqueta de composição pronta nos acabamentos).
+    supabase.from("products").select("id, name, collection_id, collections(name), fabrics(composition)").eq("org_id", orgId).eq("pattern_id", patternId).maybeSingle(),
   ]);
   const pattern = patternRes.data;
   if (!pattern) notFound();
@@ -157,6 +158,7 @@ async function Molde({ params }: { params: Params }) {
         approvalHref={canEdit ? `${base}/moldes/${patternId}/prova` : undefined}
         chartGrade={chartGrade}
         chartMeasurements={chartMeasurements}
+        fabricComposition={product?.fabrics?.composition ?? null}
       />
       <ApprovalsList supabase={supabase} orgId={orgId} patternId={pattern.id} canEdit={canEdit} />
     </div>

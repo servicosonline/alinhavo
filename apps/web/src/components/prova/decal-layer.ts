@@ -5,6 +5,35 @@ import { decalPositions, type Decal } from "@alinhavo/cloth";
 const DECAL_LIFT = 1.5;
 /** Cor da linha do pesponto (linha de pesponto contrastante, como no jeans). */
 const STITCH_COLOR = 0xd9b45a;
+/** O bordado fica mais alto que a estampa (a linha tem volume), em mm. */
+const EMBROIDERY_LIFT = 2.5;
+/** O mundo da Prova tem escala 0,001 (mm → m): o tamanho do ponto no three é em metros. */
+const MM_TO_WORLD = 0.001;
+
+/** Pedra vista de frente: disco com brilho no meio, borda mais escura e um reflexo (a cor vem do material). */
+function stoneTexture(): THREE.CanvasTexture {
+  const size = 64;
+  const canvas = document.createElement("canvas");
+  canvas.width = size;
+  canvas.height = size;
+  const ctx = canvas.getContext("2d")!;
+  const g = ctx.createRadialGradient(size * 0.42, size * 0.4, 1, size / 2, size / 2, size / 2);
+  g.addColorStop(0, "#ffffff");
+  g.addColorStop(0.35, "#e6e6e6");
+  g.addColorStop(0.85, "#8a8a8a");
+  g.addColorStop(1, "rgba(80,80,80,0)");
+  ctx.fillStyle = g;
+  ctx.beginPath();
+  ctx.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.fillStyle = "rgba(255,255,255,0.9)";
+  ctx.beginPath();
+  ctx.arc(size * 0.36, size * 0.33, size * 0.08, 0, Math.PI * 2);
+  ctx.fill();
+  const texture = new THREE.CanvasTexture(canvas);
+  texture.colorSpace = THREE.SRGBColorSpace;
+  return texture;
+}
 
 /** Textura da etiqueta: fundo claro e o texto centrado, na proporção do retângulo. */
 function labelTexture(text: string, aspect: number): THREE.CanvasTexture {
@@ -34,11 +63,11 @@ function labelTexture(text: string, aspect: number): THREE.CanvasTexture {
   return texture;
 }
 
-type Item = { decal: Decal; object: THREE.Line | THREE.Mesh; positions: Float32Array; dashed: boolean };
+type Item = { decal: Decal; object: THREE.Line | THREE.Mesh | THREE.Points; positions: Float32Array; dashed: boolean; lift: number };
 
 /**
- * Acabamentos desenhados sobre a roupa: linhas (pesponto, dentes do zíper) e
- * malhas (faixa do zíper, etiqueta, estampa) cujos pontos seguem a roupa
+ * Acabamentos desenhados sobre a roupa: linhas (pesponto, dentes do zíper),
+ * malhas (faixa do zíper, etiqueta, estampa, bordado com relevo) e pontos (pedras) cujos pontos seguem a roupa
  * desenhada (`update`, a cada quadro). Mesmo grupo de coordenadas da roupa (mm).
  */
 export class DecalLayer {
@@ -52,9 +81,21 @@ export class DecalLayer {
       const positions = new Float32Array(decal.weights.length);
       const geometry = new THREE.BufferGeometry();
       geometry.setAttribute("position", new THREE.BufferAttribute(positions, 3));
-      let object: THREE.Line | THREE.Mesh;
+      let object: THREE.Line | THREE.Mesh | THREE.Points;
       let dashed = false;
-      if (decal.mode === "line") {
+      if (decal.mode === "points") {
+        const texture = stoneTexture();
+        this.textures.push(texture);
+        const material = new THREE.PointsMaterial({
+          color: decal.color ?? "#e8e8f0",
+          size: (decal.size ?? 4) * MM_TO_WORLD,
+          sizeAttenuation: true,
+          map: texture,
+          transparent: true,
+          alphaTest: 0.3,
+        });
+        object = new THREE.Points(geometry, material);
+      } else if (decal.mode === "line") {
         dashed = decal.kind === "pesponto";
         const material = dashed
           ? new THREE.LineDashedMaterial({ color: STITCH_COLOR, dashSize: 4, gapSize: 2.5 })
@@ -76,20 +117,26 @@ export class DecalLayer {
           const texture = labelTexture(decal.text || "Etiqueta", decal.aspect ?? 2);
           this.textures.push(texture);
           material.map = texture;
-        } else if (decal.kind === "estampa" && decal.image) {
+        } else if ((decal.kind === "estampa" || decal.kind === "bordado") && decal.image) {
           const texture = new THREE.TextureLoader().load(decal.image);
           texture.colorSpace = THREE.SRGBColorSpace;
           this.textures.push(texture);
           material.map = texture;
           material.transparent = true;
           material.alphaTest = 0.05;
+          if (decal.kind === "bordado") {
+            // Relevo pelo próprio desenho (o claro sobe) e o brilho da linha de bordar.
+            material.bumpMap = texture;
+            material.bumpScale = 3;
+            material.roughness = 0.45;
+          }
         }
         object = new THREE.Mesh(geometry, material);
       }
       object.renderOrder = 2;
       object.frustumCulled = false; // os pontos mudam a cada quadro
       this.group.add(object);
-      this.items.push({ decal, object, positions, dashed });
+      this.items.push({ decal, object, positions, dashed, lift: decal.kind === "bordado" ? EMBROIDERY_LIFT : DECAL_LIFT });
     }
   }
 
@@ -109,9 +156,9 @@ export class DecalLayer {
         // Para fora: o lado da normal longe do eixo do corpo (como o afastamento da roupa).
         const sign = normal[k]! * out[k]! + normal[k + 2]! * out[k + 2]! >= 0 ? 1 : -1;
         const len = Math.hypot(normal[k]!, normal[k + 1]!, normal[k + 2]!) || 1;
-        out[k] = out[k]! + (normal[k]! / len) * DECAL_LIFT * sign;
-        out[k + 1] = out[k + 1]! + (normal[k + 1]! / len) * DECAL_LIFT * sign;
-        out[k + 2] = out[k + 2]! + (normal[k + 2]! / len) * DECAL_LIFT * sign;
+        out[k] = out[k]! + (normal[k]! / len) * item.lift * sign;
+        out[k + 1] = out[k + 1]! + (normal[k + 1]! / len) * item.lift * sign;
+        out[k + 2] = out[k + 2]! + (normal[k + 2]! / len) * item.lift * sign;
       }
       const geometry = item.object.geometry;
       (geometry.getAttribute("position") as THREE.BufferAttribute).needsUpdate = true;

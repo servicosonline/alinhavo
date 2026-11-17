@@ -48,3 +48,17 @@ Cada fase termina com algo usável e testável. Executar em passos, com checkpoi
 - Ficha e descrição de produto por IA.
 - API pública e webhooks para ERP.
 - Fotos de catálogo geradas a partir da Prova.
+
+## Fase 7 · O que a Audaces 3D tem e o Alinhavo não (análise de 15/11/2026)
+Lista tirada da análise do concorrente (Audaces 360 / 3D). Situação em 15/11/2026; "pronto" sem merge significa que o código passou no `npm run check`, mas ainda não está na `main`.
+
+- **Biblioteca de tecidos, poses (braço dobrado, braços abertos) e salto:** no ar (PR #13).
+- **Manequim salvo com nome** (`body_presets`): pronto, branch `bases-e-manequim`. Ligar a um cliente da confecção depende de um cadastro de clientes, que ainda não existe.
+- **Bases prontas sem manga** (blusa, vestido, short) e **manga no braço** (formato 6 do molde): pronto, branch `bases-e-manequim`. **Bases com manga** (manga base, camiseta, blusa com manga): escritas na mesma branch, em validação.
+- **Presets de costura** (margem por tipo de costura, passos de gradação) e **acabamentos prontos** (pesponto duplo de jeans, zíper invisível, etiqueta de composição pelo tecido): pronto, branch `presets-costura`.
+- **Kit de aprovação em um clique** (frente, costas, lado e vídeo 360°, botão "Montar kit de aprovação" nas Capturas): pronto, branch `kit-aprovacao`.
+- **Pose sentada:** a fazer. Depende do manequim da branch `bases-e-manequim` (eixo do braço) entrar primeiro; pede um assento no colisor e teste da calça e da saia sentadas.
+- **Zíper aberto ou fechado no look, lavagem do jeans, bordado e pedraria (formato 7 do molde):** pronto, branch `audaces-item-6`.
+- **Corpo realista (MakeHuman) e play de movimentos** (andar, correr, dançar, acenar, sentar, agachar, deitar): estudado em `docs/09-estudo-corpo-e-movimento.md`. **M1 (play com os 7 movimentos no manequim atual): pronto, branch `audaces-item-6`. M2 (corpo realista MakeHuman, opção "Corpo: Manequim | Realista" na Prova): pronto, branch `corpo-realista`.** A fazer: M3 (movimentos capturados da CMU) e, no corpo realista, membro cortado, gestante e salto.
+
+**Pronto quando:** as branches acima estão na `main` e a pose sentada veste a calça e a saia de exemplo sem atravessar o corpo nem o assento.

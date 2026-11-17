@@ -38,7 +38,8 @@ export type SketchSide = "frente" | "costas";
 export type SketchMark =
   | { kind: "pesponto"; lines: Point[][] }
   | { kind: "ziper"; band: Point[]; axis: Point[] }
-  | { kind: "etiqueta" | "estampa"; corners: Point[]; label: string };
+  | { kind: "pedraria"; stones: Point[]; radius: number }
+  | { kind: "etiqueta" | "estampa" | "bordado"; corners: Point[]; label: string };
 
 export type SketchView = {
   side: SketchSide;
@@ -131,7 +132,9 @@ function mapShape(shape: FinishShape, fn: (p: Point) => Point, labels: Map<strin
   const line = (l: readonly Point[]) => l.map((p) => rp(fn(p)));
   if (shape.kind === "pesponto") return { kind: "pesponto", lines: shape.lines.map(line) };
   if (shape.kind === "ziper") return { kind: "ziper", band: line(shape.band), axis: line(shape.axis) };
-  return { kind: shape.kind, corners: line(shape.corners), label: labels.get(shape.id) ?? (shape.kind === "estampa" ? "Estampa" : "Etiqueta") };
+  if (shape.kind === "pedraria") return { kind: "pedraria", stones: line(shape.stones), radius: shape.radius };
+  const fallback = shape.kind === "estampa" ? "Estampa" : shape.kind === "bordado" ? "Bordado" : "Etiqueta";
+  return { kind: shape.kind, corners: line(shape.corners), label: labels.get(shape.id) ?? fallback };
 }
 
 /** O desenho plano do molde (no tamanho base). Sem parte de frente nem de costas, sem vistas. */
@@ -156,7 +159,9 @@ export function flatSketch(doc: PatternDocument): FlatSketch {
           ? [[f.id, f.text ? `Etiqueta "${f.text}"` : "Etiqueta"] as const]
           : f.kind === "estampa"
             ? [[f.id, "Estampa"] as const]
-            : [],
+            : f.kind === "bordado"
+              ? [[f.id, "Bordado"] as const]
+              : [],
       ),
     );
     const shapes = finishShapes(piece);
@@ -170,7 +175,7 @@ export function flatSketch(doc: PatternDocument): FlatSketch {
       target.outlines.push(flattenOutline(unfoldPiece(piece).piece, 0.5).polygon.map((p) => rp(at(p))));
       for (const s of shapes) {
         target.marks.push(mapShape(s, at, labels));
-        if (s.kind === "pesponto" || s.kind === "ziper") target.marks.push(mapShape(s, mirror, labels));
+        if (s.kind === "pesponto" || s.kind === "ziper" || (s.kind === "pedraria" && s.edge)) target.marks.push(mapShape(s, mirror, labels));
       }
     } else if (piece.cutPair) {
       // A parte e o espelho, encontrando-se na linha do centro. O que passa do

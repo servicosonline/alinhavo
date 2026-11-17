@@ -12,7 +12,7 @@ function manga(): Piece {
 describe("formato 6 (manga)", () => {
   it("documento do formato 5 sobe para o 6 sem mudar as partes", () => {
     const v5 = { ...documento([saiaReta()]), schema: 5 };
-    expect(migratePattern(v5)).toEqual({ ...v5, schema: 6 });
+    expect(migratePattern(v5)).toEqual({ ...v5, schema: 7 });
     expect(migratePattern({ ...v5, seams: undefined })).toBeNull();
   });
 
