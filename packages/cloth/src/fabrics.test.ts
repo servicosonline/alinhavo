@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { garmentAtSize } from "@alinhavo/geometry";
 import { createMannequin } from "./body/mannequin";
 import { floorCollider } from "./collider";
-import { DRAPE_DEFAULT, FABRIC_MAX_THICKNESS, FABRIC_PRESETS, FABRIC_TUNING_RANGE, FABRICS, tuneFabric } from "./fabrics";
+import { bendingRigidity, DRAPE_DEFAULT, FABRIC_MAX_THICKNESS, FABRIC_PRESETS, FABRIC_TUNING_RANGE, FABRICS, tuneFabric } from "./fabrics";
 import { meshPiece } from "./mesh";
 import { pieceHalf, placeGarment } from "./place";
 import { createSimulation } from "./simulation";
@@ -29,9 +29,11 @@ describe("biblioteca de tecidos", () => {
     expect(FABRICS.jeansElastano.stretch.weft).toBeGreaterThan(FABRICS.jeans.stretch.weft);
     const all = FABRIC_PRESETS.map((id) => FABRICS[id]);
     expect(Math.min(...all.map((f) => f.density))).toBe(FABRICS.chiffon.density);
-    expect(Math.max(...all.map((f) => f.bend))).toBe(FABRICS.chiffon.bend);
-    // Armado: jeans e sarja dobram menos que viscose.
-    expect(FABRICS.sarja.bend).toBeLessThan(FABRICS.viscose.bend);
+    expect(Math.min(...all.map((f) => f.bendingLength))).toBe(FABRICS.chiffon.bendingLength);
+    expect(Math.max(...all.map((f) => f.bendingLength))).toBe(FABRICS.jeans.bendingLength);
+    // Armado: sarja e tricoline dobram menos que viscose e malha.
+    expect(FABRICS.sarja.bendingLength).toBeGreaterThan(FABRICS.viscose.bendingLength);
+    expect(FABRICS.tricoline.bendingLength).toBeGreaterThan(FABRICS.malha.bendingLength);
   });
 });
 
@@ -49,8 +51,10 @@ describe("tecido cadastrado sobre o preset", () => {
     expect(t.maxStretch).toBeCloseTo(0.08, 9);
     expect(t.stretch.weft).toBeCloseTo(base.stretch.weft * 2, 12);
     expect(t.stretch.warp).toBe(base.stretch.warp);
-    expect(t.bend).toBeGreaterThan(base.bend * 5);
-    expect(tuneFabric(base, { drape: 1 }).bend).toBeLessThan(base.bend / 5);
+    // Dois pontos de caimento: a rigidez cai 2,8² ≈ 7,8× (o comprimento, a raiz cúbica).
+    expect(bendingRigidity(t)).toBeCloseTo(bendingRigidity({ ...base, density: 140 }) / 2.8 ** 2, 6);
+    expect(t.bendingLength).toBeLessThan(base.bendingLength / 1.9);
+    expect(tuneFabric(base, { drape: 1 }).bendingLength).toBeGreaterThan(base.bendingLength * 1.9);
     // Não muda o preset original.
     expect(base.stretch.weft).toBe(FABRICS.tricoline.stretch.weft);
   });
@@ -60,7 +64,7 @@ describe("tecido cadastrado sobre o preset", () => {
     expect(t.density).toBe(FABRIC_TUNING_RANGE.weightGsm[1]);
     expect(t.thickness).toBe(FABRIC_MAX_THICKNESS);
     expect(t.maxStretch).toBe(FABRIC_TUNING_RANGE.stretchPct[0] / 100);
-    expect(t.bend).toBe(FABRICS.malha.bend);
+    expect(t.bendingLength).toBe(FABRICS.malha.bendingLength);
   });
 });
 
