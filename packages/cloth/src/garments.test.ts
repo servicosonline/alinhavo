@@ -37,7 +37,10 @@ function resumo(sim: ReturnType<typeof provar>["sim"], body: ReturnType<typeof p
     const [x, y, z] = [sim.positions[i * 3]!, sim.positions[i * 3 + 1]!, sim.positions[i * 3 + 2]!];
     top = Math.max(top, y);
     bottom = Math.min(bottom, y);
-    closest = Math.min(closest, body.collider.query(x, y, z).distance);
+    // A barra deitada no chão pode ficar embaixo da sola, espremida entre o
+    // pé e o chão (não dá para cumprir os dois): ali não é a perna atravessando.
+    const onFloor = y <= FABRICS.planoLeve.thickness + 0.5;
+    if (!onFloor) closest = Math.min(closest, body.collider.query(x, y, z).distance);
   }
   return { top, bottom, closest, gap: sim.seamGap(), finite: sim.positions.every(Number.isFinite) };
 }

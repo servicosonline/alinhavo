@@ -5,10 +5,11 @@ import { getCurrentUser } from "@/lib/auth";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
 import { Avatar } from "./account/avatar";
+import { DropdownDetails } from "./dropdown-details";
 
 /**
- * Foto e nome de quem está logado, abrindo um menu com Minha conta e Sair (um <details>: funciona sem
- * JavaScript e com teclado). Lê a sessão: use dentro de <Suspense>.
+ * Foto e nome de quem está logado, abrindo um menu com Minha conta e Sair (`DropdownDetails`: funciona
+ * sem JavaScript e com teclado, e recolhe ao escolher um item). Lê a sessão: use dentro de <Suspense>.
  */
 export async function UserMenu() {
   if (!getSupabaseConfig()) return null;
@@ -22,7 +23,7 @@ export async function UserMenu() {
   const name = displayName(profile, user.email);
 
   return (
-    <details className="group relative">
+    <DropdownDetails className="group relative">
       <summary className="flex cursor-pointer list-none items-center gap-2.5 rounded-full py-1 pr-2 pl-1 transition hover:bg-papel-escuro [&::-webkit-details-marker]:hidden">
         <Avatar name={name} path={profile?.avatar_path} size={32} />
         <span className="hidden max-w-[12rem] truncate text-sm sm:inline">{name}</span>
@@ -53,6 +54,6 @@ export async function UserMenu() {
           </button>
         </form>
       </div>
-    </details>
+    </DropdownDetails>
   );
 }

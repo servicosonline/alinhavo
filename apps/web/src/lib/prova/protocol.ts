@@ -23,7 +23,7 @@ export type ProvaSetup = {
   pose: PoseId;
   /** Medidas do corpo trocadas na tela, por cima da tabela (o manequim ajustado). */
   body?: BodyOverrides;
-  /** Condições do corpo (membro cortado, gestante). Só no manequim. */
+  /** Condições do corpo (membro cortado, gestante, salto). Gestante vale nos dois corpos; membro e salto, só no manequim. */
   conditions?: BodyConditions;
   /** Corpo: o manequim (padrão) ou o realista (MakeHuman, ajustado às medidas). */
   bodyKind?: BodyKind;

@@ -1,6 +1,6 @@
 import type { Seam } from "@alinhavo/geometry";
 import { MAX_OVERESTIMATE, TRUSTED_CLEARANCE_MM, type Collider, type Vec3 } from "./collider";
-import { stretchCompliance, type Fabric } from "./fabrics";
+import { bendingRigidity, stretchCompliance, type Fabric } from "./fabrics";
 import { createLayerSolver, outwardSigns } from "./layers";
 import type { PieceMesh } from "./mesh";
 
@@ -141,14 +141,16 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
   const friction = new Float64Array(n);
   const vertexLayer = new Int32Array(n);
   const stretchMax: number[] = []; // (1 + maxStretch) por aresta
-  const bendCompliance: number[] = []; // por par de flexão
 
   const triangles: number[] = [];
   const stretchEdges: number[] = []; // pares (i, j)
   const stretchRest: number[] = [];
   const stretchAlpha: number[] = [];
-  const bendPairs: number[] = []; // pares (k, l): vértices opostos de dois triângulos vizinhos
-  const bendRest: number[] = [];
+  // Flexão de curvatura: 4 vértices e 4 pesos por aresta interna, e a
+  // complacência de cada uma.
+  const curveIdx: number[] = [];
+  const curveK: number[] = [];
+  const curveAlpha: number[] = [];
 
   const restLength: number[] = []; // por lado de triângulo, no molde (2D)
   for (const { mesh, placement = DEFAULT_PLACEMENT, initial, fabric: own, layer = 0 } of pieces) {
@@ -203,9 +205,17 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
         ),
       );
     }
-    const bendBefore = bendRest.length;
-    collectBendPairs(mesh, off, bendPairs, bendRest);
-    for (let k = bendBefore; k < bendRest.length; k++) bendCompliance.push(pf.bend);
+    // Energia ½·(B ÷ (A1 + A2))·|Σ Kᵢxᵢ|² (ver collectCurvatureStencils);
+    // tecido sem rigidez (comprimento 0) fica sem flexão.
+    const rigidity = bendingRigidity(pf);
+    const areas: number[] = [];
+    const before = curveIdx.length;
+    collectCurvatureStencils(mesh, off, curveIdx, curveK, areas);
+    if (rigidity > 0) for (const a of areas) curveAlpha.push(a / rigidity);
+    else {
+      curveIdx.length = before;
+      curveK.length = before;
+    }
   }
   for (let i = 0; i < n; i++) invMass[i] = mass[i]! > 0 ? 1 / mass[i]! : 0;
   prev.set(x);
@@ -278,6 +288,36 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
     x[j * 3] = x[j * 3]! - dx * s * wj;
     x[j * 3 + 1] = x[j * 3 + 1]! - dy * s * wj;
     x[j * 3 + 2] = x[j * 3 + 2]! - dz * s * wj;
+  }
+
+  /**
+   * Flexão de curvatura: C = |Σ Kᵢ·xᵢ| (zero com o tecido plano, o repouso),
+   * gradiente Kᵢ·n em cada um dos 4 vértices, n = Σ Kᵢxᵢ ÷ C.
+   */
+  function solveCurvature(k: number, alphaTilde: number) {
+    const o = k * 4;
+    let sx = 0;
+    let sy = 0;
+    let sz = 0;
+    let w = 0;
+    for (let m = 0; m < 4; m++) {
+      const i = curveIdx[o + m]!;
+      const km = curveK[o + m]!;
+      sx += km * x[i * 3]!;
+      sy += km * x[i * 3 + 1]!;
+      sz += km * x[i * 3 + 2]!;
+      w += invMass[i]! * km * km;
+    }
+    const c = Math.hypot(sx, sy, sz);
+    if (c < 1e-12 || w === 0) return;
+    const s = -c / (w + alphaTilde) / c;
+    for (let m = 0; m < 4; m++) {
+      const i = curveIdx[o + m]!;
+      const f = invMass[i]! * curveK[o + m]! * s;
+      x[i * 3] = x[i * 3]! + sx * f;
+      x[i * 3 + 1] = x[i * 3 + 1]! + sy * f;
+      x[i * 3 + 2] = x[i * 3 + 2]! + sz * f;
+    }
   }
 
   /** Aproxima o vértice a do ponto (1 − w1)·b0 + w1·b1 até a distância `rest`. */
@@ -422,9 +462,7 @@ export function createSimulation(pieces: SimPiece[], options: SimulationOptions)
       for (let k = 0; k < stretchRest.length; k++) {
         solveDistance(stretchEdges[k * 2]!, stretchEdges[k * 2 + 1]!, stretchRest[k]!, stretchAlpha[k]! / h2);
       }
-      for (let k = 0; k < bendRest.length; k++) {
-        solveDistance(bendPairs[k * 2]!, bendPairs[k * 2 + 1]!, bendRest[k]!, bendCompliance[k]! / h2);
-      }
+      for (let k = 0; k < curveAlpha.length; k++) solveCurvature(k, curveAlpha[k]! / h2);
       // O limite de esticamento vem antes das costuras: elas têm a palavra
       // final, e a costura não abre (o esticamento a mais fica local, junto dela).
       limitStrain();
@@ -573,28 +611,51 @@ function distanceToBlend(x: Float64Array, a: number, b0: number, b1: number, w1:
   );
 }
 
+const cot = (ax: number, ay: number, bx: number, by: number): number => {
+  const cross = Math.abs(ax * by - ay * bx);
+  return cross < 1e-12 ? 0 : (ax * bx + ay * by) / cross;
+};
+
 /**
- * Flexão: para cada aresta interna (compartilhada por dois triângulos), liga
- * os dois vértices opostos com uma restrição de distância mais fraca.
+ * Flexão de curvatura (energia quadrática de Bergou, Wardetzky, Harmon, Zorin
+ * e Grinspun, 2006): para cada aresta interna (i, j), com os vértices opostos
+ * k e l, pesos pelas cotangentes no molde (o repouso, plano):
+ * K = [cot αⱼ₁ + cot αⱼ₂, cot αᵢ₁ + cot αᵢ₂, −(cot αᵢ₁ + cot αⱼ₁), −(cot αᵢ₂ + cot αⱼ₂)].
+ * Σ Kᵢxᵢ é zero no plano e mede a curvatura fora dele. Com a energia
+ * ½·B ÷ (A1 + A2)·|Σ Kᵢxᵢ|², a soma num cilindro de raio R dá B/2 ÷ R² por
+ * área (conferido no teste), igual à placa contínua, em qualquer malha.
+ * Grava em `idx`/`k` 4 por aresta e em `areas` A1 + A2 (mm²).
  */
-function collectBendPairs(mesh: PieceMesh, off: number, pairs: number[], rest: number[]) {
-  const opposite = new Map<number, number>();
+export function collectCurvatureStencils(mesh: PieceMesh, off: number, idx: number[], k: number[], areas: number[]) {
+  const p = mesh.positions;
   const t = mesh.triangles;
-  for (let k = 0; k < t.length; k += 3) {
+  const opposite = new Map<number, number>(); // aresta → triângulo
+  for (let tri = 0; tri < t.length; tri += 3) {
     for (let c = 0; c < 3; c++) {
-      const a = t[k + c]!;
-      const b = t[k + ((c + 1) % 3)]!;
-      const o = t[k + ((c + 2) % 3)]!;
+      const a = t[tri + c]!;
+      const b = t[tri + ((c + 1) % 3)]!;
       const key = a < b ? a * 0x100000 + b : b * 0x100000 + a;
       const other = opposite.get(key);
       if (other === undefined) {
-        opposite.set(key, o);
+        opposite.set(key, tri);
         continue;
       }
-      pairs.push(off + o, off + other);
-      rest.push(
-        Math.hypot(mesh.positions[o * 2]! - mesh.positions[other * 2]!, mesh.positions[o * 2 + 1]! - mesh.positions[other * 2 + 1]!),
-      );
+      const i = a;
+      const j = b;
+      const o1 = t[tri + ((c + 2) % 3)]!;
+      const o2 = t[other]! + t[other + 1]! + t[other + 2]! - i - j;
+      const X = (v: number) => p[v * 2]!;
+      const Y = (v: number) => p[v * 2 + 1]!;
+      // Ângulos em i e em j de cada triângulo.
+      const ci1 = cot(X(j) - X(i), Y(j) - Y(i), X(o1) - X(i), Y(o1) - Y(i));
+      const cj1 = cot(X(i) - X(j), Y(i) - Y(j), X(o1) - X(j), Y(o1) - Y(j));
+      const ci2 = cot(X(j) - X(i), Y(j) - Y(i), X(o2) - X(i), Y(o2) - Y(i));
+      const cj2 = cot(X(i) - X(j), Y(i) - Y(j), X(o2) - X(j), Y(o2) - Y(j));
+      const area = mesh.restArea[tri / 3]! + mesh.restArea[other / 3]!;
+      if (!(area > 1e-9)) continue;
+      idx.push(off + i, off + j, off + o1, off + o2);
+      k.push(cj1 + cj2, ci1 + ci2, -(ci1 + cj1), -(ci2 + cj2));
+      areas.push(area);
     }
   }
 }
