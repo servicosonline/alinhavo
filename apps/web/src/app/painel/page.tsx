@@ -42,7 +42,7 @@ export default function PainelPage() {
 async function Organizacoes() {
   const user = await requireUser("/painel");
   const supabase = await createClient();
-  const [{ data, error }, { data: profile }, { data: progress }, { data: recent }, { data: news }] = await Promise.all([
+  const [{ data, error }, { data: profile }, { data: progress }, { data: recent }, { data: news }, { data: creation }] = await Promise.all([
     supabase.from("org_members").select("role, orgs(id, name, thumbnail_path)").eq("user_id", user.id).order("created_at"),
     supabase.from("profiles").select("first_name, last_name, welcome_seen_at, onboarding_closed_at").eq("user_id", user.id).maybeSingle(),
     supabase.rpc("onboarding_progress"),
@@ -54,7 +54,12 @@ async function Organizacoes() {
       .order("updated_at", { ascending: false })
       .limit(4),
     supabase.from("announcements").select("id, title, body, image_path, video_url, created_at").eq("published", true).order("created_at", { ascending: false }).limit(2),
+    supabase.rpc("my_org_creation"),
   ]);
+  // Quem entrou por convite travado não cria organização; o teste grátis vale uma vez por pessoa.
+  const canCreate = creation?.[0]?.allowed ?? true;
+  const blockedBy = creation?.[0]?.blocked_by ?? null;
+  const trialAvailable = creation?.[0]?.trial_available ?? true;
 
   if (error) {
     return (
@@ -158,20 +163,29 @@ async function Organizacoes() {
               </li>
             );
           })}
-          <li className="has-[details[open]]:col-span-2">
-            <details className="group/nova h-full rounded-2xl border-2 border-dashed border-tinta/20 bg-papel/60 transition hover:border-tinta/40">
-              <summary className="flex aspect-square cursor-pointer list-none flex-col items-center justify-center gap-2 p-4 text-center group-open/nova:aspect-auto group-open/nova:items-start [&::-webkit-details-marker]:hidden">
-                <span className="grid size-11 place-items-center rounded-full border border-tinta/25 font-mono text-xl" aria-hidden="true">
-                  +
-                </span>
-                <span className="font-medium">Nova organização</span>
-                <span className="text-xs text-tinta-suave">15 dias com tudo liberado</span>
-              </summary>
-              <div className="px-4 pb-4">
-                <CreateOrgForm />
-              </div>
-            </details>
-          </li>
+          {canCreate ? (
+            <li className="has-[details[open]]:col-span-2">
+              <details className="group/nova h-full rounded-2xl border-2 border-dashed border-tinta/20 bg-papel/60 transition hover:border-tinta/40">
+                <summary className="flex aspect-square cursor-pointer list-none flex-col items-center justify-center gap-2 p-4 text-center group-open/nova:aspect-auto group-open/nova:items-start [&::-webkit-details-marker]:hidden">
+                  <span className="grid size-11 place-items-center rounded-full border border-tinta/25 font-mono text-xl" aria-hidden="true">
+                    +
+                  </span>
+                  <span className="font-medium">Nova organização</span>
+                  <span className="text-xs text-tinta-suave">{trialAvailable ? "15 dias com tudo liberado" : "Seu teste grátis já foi usado"}</span>
+                </summary>
+                <div className="px-4 pb-4">
+                  <CreateOrgForm />
+                </div>
+              </details>
+            </li>
+          ) : (
+            <li className="flex aspect-square flex-col items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-tinta/15 p-4 text-center" data-org-creation-blocked>
+              <span className="font-medium">Nova organização</span>
+              <span className="text-xs text-tinta-suave">
+                Sua conta entrou por convite{blockedBy ? ` de ${blockedBy}` : ""}. Peça ao dono para liberar a criação de organizações.
+              </span>
+            </li>
+          )}
         </ul>
       </section>
 

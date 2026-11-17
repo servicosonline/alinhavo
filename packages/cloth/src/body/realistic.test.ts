@@ -2,7 +2,13 @@ import { describe, expect, it } from "vitest";
 import { FABRIC_MAX_THICKNESS, FABRICS } from "../fabrics";
 import { MAX_OVERESTIMATE, TRUSTED_CLEARANCE_MM } from "../collider";
 import { MAKEHUMAN_DATA } from "./makehuman-data";
-import { decodeMakeHuman, fitRealistic, PARAM_LIMIT, SKIN_GROUPS } from "./makehuman";
+import { garmentAtSize } from "@alinhavo/geometry";
+import { floorCollider } from "../collider";
+import { meshPiece } from "../mesh";
+import { pieceHalf, placeGarment } from "../place";
+import { createSimulation } from "../simulation";
+import { saia } from "../test-garments";
+import { convexHull, decodeMakeHuman, fitRealistic, hullPerimeter, PARAM_LIMIT, sliceMesh, SKIN_GROUPS } from "./makehuman";
 import { bodyBones, motionClip, motionPose, posedWith } from "./motion";
 import { buildRealistic, createRealisticBody, realisticBuilder, realisticModel } from "./realistic";
 import type { MeasurementKey } from "./measurements";
@@ -164,4 +170,105 @@ describe("corpo realista", () => {
     expect(below).toBe(0);
     expect(lying.collider.query(0, 300, -800).distance).toBeLessThan(200);
   });
+});
+
+describe("gestante no corpo realista", () => {
+  const plain = realisticModel(asset, TABELA_M);
+  /** Volta do tronco na altura y: corte da malha em repouso (sem as mãos: só triângulos dentro da largura do quadril). */
+  const perimeter = (model: ReturnType<typeof realisticModel>, y: number) => {
+    const P = model.rest;
+    const T = model.triangles;
+    const half = model.sections.hip.halfWidth + 5;
+    const mask = new Uint8Array(T.length / 3);
+    for (let t = 0; t < mask.length; t++) mask[t] = [0, 1, 2].every((k) => Math.abs(P[T[t * 3 + k]! * 3]!) < half) ? 1 : 0;
+    return hullPerimeter(convexHull(sliceMesh(P, T, mask, { x: 0, y, z: 0 }, { x: 0, y: 1, z: 0 })));
+  };
+  /** O ponto mais atrás das costas, perto do meio, na altura y (malha em repouso). */
+  const backAt = (model: ReturnType<typeof realisticModel>, y: number) => {
+    const P = model.rest;
+    let minZ = Infinity;
+    for (let v = 0; v < P.length / 3; v++) if (Math.abs(P[v * 3 + 1]! - y) < 8 && Math.abs(P[v * 3]!) < 60) minZ = Math.min(minZ, P[v * 3 + 2]!);
+    return minZ;
+  };
+
+  it("a barriga cresce com o controle e a volta no ponto mais saliente bate com o pedido", () => {
+    const sizes = [1000, 1150, 1300];
+    const models = sizes.map((b) => realisticModel(asset, TABELA_M, {}, "feminino", b));
+    models.forEach((m, i) => {
+      expect(m.belly, `barriga de ${sizes[i]} mm`).not.toBeNull();
+      expect(Math.abs(m.belly!.obtained - sizes[i]!) / sizes[i]!).toBeLessThan(0.01);
+    });
+    // A frente avança mais a cada passo do controle.
+    const front = models.map((m) => m.sections.belly!.centerZ + m.sections.belly!.halfDepth);
+    expect(front[1]! - front[0]!).toBeGreaterThan(20);
+    expect(front[2]! - front[1]!).toBeGreaterThan(20);
+    expect(perimeter(models[2]!, models[2]!.belly!.y)).toBeGreaterThan(perimeter(plain, models[2]!.belly!.y) + 250);
+  });
+
+  it("busto, quadril e costas ficam onde estavam; o corpo leva o ponto da barriga", () => {
+    const m = realisticModel(asset, TABELA_M, {}, "feminino", 1200);
+    expect(Math.abs(m.fit.obtained.busto - plain.fit.obtained.busto)).toBeLessThan(3);
+    expect(Math.abs(m.fit.obtained.quadril - plain.fit.obtained.quadril)).toBeLessThan(3);
+    expect(Math.abs(backAt(m, m.belly!.y) - backAt(plain, m.belly!.y))).toBeLessThan(4);
+    const body = buildRealistic(m, "em-pe").body;
+    expect(body.landmarks.belly).toBeDefined();
+    expect(buildRealistic(plain, "em-pe").body.landmarks.belly).toBeUndefined();
+  });
+
+  it("menor que a volta do corpo ali: nada muda", () => {
+    const m = realisticModel(asset, TABELA_M, {}, "feminino", 600);
+    expect(m.belly).toBeNull();
+    expect(m.rest).toEqual(plain.rest);
+  });
+
+  it("a barriga fica dentro do colisor e perto dela a distância cumpre o contrato do Collider", () => {
+    const m = realisticModel(asset, TABELA_M, {}, "feminino", 1250);
+    const { body } = buildRealistic(m, "em-pe");
+    const P = body.mesh.positions;
+    const B = body.landmarks.belly!;
+    const band = Math.max(FABRIC_MAX_THICKNESS, ...Object.values(FABRICS).map((f) => f.thickness)) + TRUSTED_CLEARANCE_MM;
+    const h = 0.5;
+    const steps = [[h, 0, 0], [-h, 0, 0], [0, h, 0], [0, -h, 0], [0, 0, h], [0, 0, -h]] as const;
+    let outside = 0;
+    let front = 0;
+    let worst = 0;
+    for (let v = 0; v < P.length / 3; v++) {
+      const s = { x: P[v * 3]!, y: P[v * 3 + 1]!, z: P[v * 3 + 2]! };
+      // A barriga: a frente do tronco a até 15 cm da altura do ponto mais saliente.
+      if (Math.abs(s.y - B.y) > 150 || s.z < B.centerZ) continue;
+      front++;
+      const q = body.collider.query(s.x, s.y, s.z);
+      if (q.distance > 5) outside++;
+      for (let t = 0.5; t <= band; t += 0.5) {
+        const p = { x: s.x + q.normal.x * t, y: s.y + q.normal.y * t, z: s.z + q.normal.z * t };
+        const d = body.collider.query(p.x, p.y, p.z).distance;
+        if (d <= 0 || d > band) continue;
+        for (const [ex, ey, ez] of steps) worst = Math.max(worst, (d - body.collider.query(p.x + ex, p.y + ey, p.z + ez).distance) / h);
+      }
+    }
+    expect(front).toBeGreaterThan(80);
+    expect(outside / front).toBeLessThan(0.04);
+    expect(worst).toBeLessThanOrEqual(MAX_OVERESTIMATE);
+  });
+
+  it("a saia de teste costura e não atravessa a barriga", () => {
+    const m = realisticModel(asset, TABELA_M, {}, "feminino", 1050);
+    const { body } = buildRealistic(m, "em-pe");
+    const { pieces, seams, foldLine } = garmentAtSize(saia(), "M");
+    const meshes = pieces.map((p) => meshPiece(p, { spacing: 30, mirror: foldLine[p.id] }));
+    const initial = placeGarment(meshes.map((mesh, i) => ({ mesh, placement: pieces[i]!.placement!, half: pieceHalf(pieces[i]!) })), body.landmarks);
+    const sim = createSimulation(meshes.map((mesh, i) => ({ mesh, initial: initial[i] })), {
+      fabric: FABRICS.planoLeve,
+      seams,
+      colliders: [body.collider, floorCollider(0)],
+      iterations: 2,
+      sewingTime: 2,
+    });
+    for (let f = 0; f < 4 * 60; f++) sim.step();
+    let closest = Infinity;
+    for (let i = 0; i < sim.vertexCount; i++) closest = Math.min(closest, body.collider.query(sim.positions[i * 3]!, sim.positions[i * 3 + 1]!, sim.positions[i * 3 + 2]!).distance);
+    expect(sim.positions.every(Number.isFinite)).toBe(true);
+    expect(sim.seamGap()).toBeLessThan(2);
+    expect(closest).toBeGreaterThan(FABRICS.planoLeve.thickness - 0.5);
+  }, 120_000);
 });

@@ -27,6 +27,7 @@ export {
   type PoseAngles,
   type LimbId,
 } from "./body/mannequin";
+export { CALIBRATION_ITERATIONS, CALIBRATION_SPACING } from "./calibration/settings";
 export * from "./body/motion";
 export {
   BODY_SEXES,

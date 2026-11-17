@@ -3,10 +3,16 @@
  * g·mm/s²). Complacência (compliance) é o inverso da rigidez no XPBD:
  * quanto maior, mais o tecido cede.
  *
- * Os valores dos presets são ESTIMATIVAS INICIAIS, a calibrar quando a
- * Prova estiver visível (comparando com peças reais). Os testes garantem só
+ * Os valores dos presets são ESTIMATIVAS INICIAIS, a calibrar com as
+ * medidas de bancada (`docs/10-calibracao-tecidos.md`). Os testes garantem só
  * as relações entre eles (jeans mais firme que malha; trama e viés cedem
  * mais que o urdume).
+ *
+ * Comprimento de flexão (`bendingLength`): ESTIMATIVA, sem amostra medida.
+ * Só a ordem de grandeza tem referência: a ASTM D1388 dimensiona a tira para
+ * tecidos de 1 a 3+ cm, e o exemplo de algodão dos manuais do teste da régua
+ * dá 2,5 a 2,7 cm. A ordem entre os tecidos é de olho (chiffon o mais fluido,
+ * jeans o mais armado; malhas abaixo dos planos de mesmo peso).
  */
 export type Fabric = {
   id: string;
@@ -16,8 +22,15 @@ export type Fabric = {
   density: number;
   /** Complacência ao esticamento por direção em relação ao fio. */
   stretch: { warp: number; weft: number; bias: number };
-  /** Complacência à flexão (dobra). */
-  bend: number;
+  /**
+   * Comprimento de flexão de Peirce, em mm: o que o teste da régua mede
+   * (ASTM D1388; com a tira caindo 41,5°, é metade do que está para fora da
+   * mesa). Maior = mais armado. Vira a rigidez da flexão de curvatura
+   * (`bendingRigidity`), que segura tecido plano e não depende do tamanho da
+   * malha. Com o mesmo comprimento, o caimento não muda com a gramatura: o
+   * tecido mais pesado é mais rígido na mesma proporção.
+   */
+  bendingLength: number;
   /** Espessura, em mm (distância mínima ao corpo). */
   thickness: number;
   /** Atrito com o corpo, de 0 (escorrega) a 1 (gruda). */
@@ -36,7 +49,7 @@ export const FABRICS = {
     name: "Malha",
     density: 180,
     stretch: { warp: 2e-5, weft: 1.2e-4, bias: 6e-5 },
-    bend: 5e-3,
+    bendingLength: 18,
     thickness: 1,
     friction: 0.4,
     maxStretch: 0.25,
@@ -46,7 +59,7 @@ export const FABRICS = {
     name: "Plano leve",
     density: 100,
     stretch: { warp: 1e-6, weft: 2e-6, bias: 2e-5 },
-    bend: 2e-3,
+    bendingLength: 22,
     thickness: 0.5,
     friction: 0.3,
     maxStretch: 0.05,
@@ -56,7 +69,7 @@ export const FABRICS = {
     name: "Jeans",
     density: 380,
     stretch: { warp: 2e-7, weft: 4e-7, bias: 4e-6 },
-    bend: 2e-4,
+    bendingLength: 50,
     thickness: 1.5,
     friction: 0.5,
     maxStretch: 0.03,
@@ -67,7 +80,7 @@ export const FABRICS = {
     name: "Tricoline",
     density: 120,
     stretch: { warp: 8e-7, weft: 1.5e-6, bias: 1.5e-5 },
-    bend: 1.5e-3,
+    bendingLength: 28,
     thickness: 0.4,
     friction: 0.35,
     maxStretch: 0.04,
@@ -77,7 +90,7 @@ export const FABRICS = {
     name: "Viscose",
     density: 130,
     stretch: { warp: 1.5e-6, weft: 3e-6, bias: 4e-5 },
-    bend: 6e-3,
+    bendingLength: 16,
     thickness: 0.4,
     friction: 0.25,
     maxStretch: 0.06,
@@ -87,7 +100,7 @@ export const FABRICS = {
     name: "Linho",
     density: 170,
     stretch: { warp: 5e-7, weft: 1e-6, bias: 1e-5 },
-    bend: 8e-4,
+    bendingLength: 32,
     thickness: 0.6,
     friction: 0.4,
     maxStretch: 0.035,
@@ -97,7 +110,7 @@ export const FABRICS = {
     name: "Crepe",
     density: 150,
     stretch: { warp: 2e-6, weft: 4e-6, bias: 4e-5 },
-    bend: 4e-3,
+    bendingLength: 18,
     thickness: 0.5,
     friction: 0.3,
     maxStretch: 0.07,
@@ -107,7 +120,7 @@ export const FABRICS = {
     name: "Chiffon",
     density: 60,
     stretch: { warp: 2e-6, weft: 4e-6, bias: 5e-5 },
-    bend: 1e-2,
+    bendingLength: 10,
     thickness: 0.2,
     friction: 0.2,
     maxStretch: 0.06,
@@ -117,7 +130,7 @@ export const FABRICS = {
     name: "Sarja",
     density: 280,
     stretch: { warp: 3e-7, weft: 6e-7, bias: 6e-6 },
-    bend: 4e-4,
+    bendingLength: 38,
     thickness: 1,
     friction: 0.45,
     maxStretch: 0.03,
@@ -127,7 +140,7 @@ export const FABRICS = {
     name: "Jeans com elastano",
     density: 330,
     stretch: { warp: 4e-7, weft: 2e-5, bias: 2e-5 },
-    bend: 3e-4,
+    bendingLength: 42,
     thickness: 1.3,
     friction: 0.5,
     maxStretch: 0.15,
@@ -137,7 +150,7 @@ export const FABRICS = {
     name: "Ribana",
     density: 220,
     stretch: { warp: 3e-5, weft: 2.5e-4, bias: 1e-4 },
-    bend: 4e-3,
+    bendingLength: 20,
     thickness: 1.2,
     friction: 0.45,
     maxStretch: 0.4,
@@ -147,7 +160,7 @@ export const FABRICS = {
     name: "Moletom",
     density: 320,
     stretch: { warp: 1.5e-5, weft: 6e-5, bias: 3e-5 },
-    bend: 1e-3,
+    bendingLength: 30,
     thickness: 2,
     friction: 0.5,
     maxStretch: 0.15,
@@ -156,6 +169,17 @@ export const FABRICS = {
 
 export type FabricPreset = keyof typeof FABRICS;
 export const FABRIC_PRESETS = Object.keys(FABRICS) as FabricPreset[];
+
+/** Gravidade padrão, em mm/s², a do teste da régua (o comprimento de flexão é medido nela). */
+export const STANDARD_GRAVITY = 9810;
+
+/**
+ * Rigidez à flexão por largura, em g·mm²/s² (energia por curvatura² e por
+ * área): B = peso por área × c³ (Peirce), com c = `bendingLength`.
+ */
+export function bendingRigidity(fabric: Fabric): number {
+  return fabric.density * 1e-6 * STANDARD_GRAVITY * Math.max(0, fabric.bendingLength) ** 3;
+}
 
 /** Espessura máxima de um tecido na Prova, em mm (o contrato do Collider é testado até ela; ver body.test.ts). */
 export const FABRIC_MAX_THICKNESS = 2.5;
@@ -179,7 +203,10 @@ export const FABRIC_TUNING_RANGE = {
 
 /** Caimento do preset (o meio da escala). */
 export const DRAPE_DEFAULT = 3;
-/** Quanto a complacência à flexão muda por ponto de caimento. */
+/**
+ * Quanto a rigidez à flexão muda por ponto de caimento (o comprimento de
+ * flexão muda a raiz cúbica disso, ~1,4×). De olho, como a escala.
+ */
 const DRAPE_STEP = 2.8;
 
 const clampTo = (v: number, [lo, hi]: readonly [number, number]) => Math.min(hi, Math.max(lo, v));
@@ -187,8 +214,8 @@ const clampTo = (v: number, [lo, hi]: readonly [number, number]) => Math.min(hi,
 /**
  * O tecido do preset ajustado pelo cadastro. Gramatura e espessura entram
  * direto; a elasticidade vira o limite de esticamento e cede a trama e o
- * viés na mesma proporção (o urdume fica); o caimento multiplica a
- * complacência à flexão. Valores fora do plausível ficam nos limites.
+ * viés na mesma proporção (o urdume fica); o caimento divide a rigidez à
+ * flexão (5 = mais fluido). Valores fora do plausível ficam nos limites.
  */
 export function tuneFabric(base: Fabric, tuning: FabricTuning = {}): Fabric {
   const out: Fabric = { ...base, stretch: { ...base.stretch } };
@@ -202,7 +229,10 @@ export function tuneFabric(base: Fabric, tuning: FabricTuning = {}): Fabric {
     out.stretch.weft = base.stretch.weft * ratio;
     out.stretch.bias = base.stretch.bias * ratio;
   }
-  if (ok(tuning.drape)) out.bend = base.bend * DRAPE_STEP ** (clampTo(tuning.drape, FABRIC_TUNING_RANGE.drape) - DRAPE_DEFAULT);
+  if (ok(tuning.drape)) {
+    const steps = clampTo(tuning.drape, FABRIC_TUNING_RANGE.drape) - DRAPE_DEFAULT;
+    out.bendingLength = base.bendingLength * DRAPE_STEP ** (-steps / 3);
+  }
   return out;
 }
 

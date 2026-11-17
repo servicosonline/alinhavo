@@ -21,6 +21,8 @@ describe("aviso do teste grátis", () => {
   it("conta os dias e avisa mais forte no fim", () => {
     expect(trialNotice({ plan_id: "confeccao", status: "trial", days_left: 12 })).toEqual({ tone: "info", text: "Teste grátis: faltam 12 dias." });
     expect(trialNotice({ plan_id: "confeccao", status: "trial", days_left: 1 })).toEqual({ tone: "alerta", text: "Teste grátis: falta 1 dia." });
+    expect(trialNotice({ plan_id: "confeccao", status: "vencida", days_left: null, trial_ends_at: null })?.text).toMatch(/já foi usado em outra organização/);
+    expect(trialNotice({ plan_id: "confeccao", status: "vencida", days_left: null, trial_ends_at: "2026-11-01T00:00:00Z" })?.text).toMatch(/terminou/);
     expect(trialNotice({ plan_id: "confeccao", status: "trial", days_left: 0 })?.tone).toBe("alerta");
     expect(trialNotice({ plan_id: "confeccao", status: "vencida", days_left: 0 })?.text).toMatch(/terminou/);
   });

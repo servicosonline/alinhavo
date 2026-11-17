@@ -34,6 +34,7 @@ export class Stage {
   private environment: THREE.Texture;
   private frame = 0;
   private resize: ResizeObserver;
+  private home = { position: new THREE.Vector3(), target: new THREE.Vector3() };
 
   constructor(
     private container: HTMLElement,
@@ -102,16 +103,27 @@ export class Stage {
     this.controls.maxPolarAngle = Math.PI * 0.55;
     // Botão do meio move a câmera (o padrão do three é aproximar, que já é da roda).
     this.controls.mouseButtons = { LEFT: THREE.MOUSE.ROTATE, MIDDLE: THREE.MOUSE.PAN, RIGHT: THREE.MOUSE.PAN };
-    // Toque: um dedo na vertical rola a página (a cena ocupa quase a tela do celular e prendia a rolagem);
-    // na horizontal gira em volta do corpo, e dois dedos aproximam e movem. O OrbitControls põe "none".
-    this.renderer.domElement.style.touchAction = "pan-y";
-    const axis = options.lockHorizontal ? { x: 0, z: 0 } : null;
+    // Toque: um dedo gira e dois dedos aproximam e movem a câmera para qualquer lado. Enquanto o dedo
+    // está na cena a página não rola (a cena tem 60% da altura do celular: rola-se pelo resto da tela).
+    const canvas = this.renderer.domElement;
+    canvas.style.touchAction = "none";
+    canvas.style.overscrollBehavior = "contain";
+    // O Safari antigo ignora o touch-action em parte: segura a rolagem também pelo evento de toque.
+    canvas.addEventListener("touchmove", (e) => e.preventDefault(), { passive: false });
+    // Com o mouse, a Prova de um tamanho só move para cima e para baixo; com o dedo, move livre
+    // (o botão "Centralizar" traz o corpo de volta).
+    let touching = false;
+    canvas.addEventListener("pointerdown", (e) => {
+      touching = e.pointerType === "touch";
+    });
+    const lockAxis = options.lockHorizontal ? { x: 0, z: 0 } : null;
     // No Windows, o clique do meio abre a rolagem automática da página por cima da Prova.
-    this.renderer.domElement.addEventListener("mousedown", (e) => {
+    canvas.addEventListener("mousedown", (e) => {
       if (e.button === 1) e.preventDefault();
     });
-    this.controls.addEventListener("change", () => clampLook(this.controls.target, this.camera.position, axis));
+    this.controls.addEventListener("change", () => clampLook(this.controls.target, this.camera.position, touching ? null : lockAxis));
     this.controls.update();
+    this.saveHome();
 
     this.resize = new ResizeObserver(() => this.fit());
     this.resize.observe(container);
@@ -124,6 +136,18 @@ export class Stage {
       this.renderer.render(this.scene, this.camera);
     };
     loop();
+  }
+
+  /** Guarda a câmera de agora como o enquadramento inicial (o que "Centralizar" devolve). */
+  saveHome() {
+    this.home = { position: this.camera.position.clone(), target: this.controls.target.clone() };
+  }
+
+  /** Volta a câmera ao enquadramento inicial. */
+  resetView() {
+    this.camera.position.copy(this.home.position);
+    this.controls.target.copy(this.home.target);
+    this.controls.update();
   }
 
   /** Chão elíptico, raios em X e em Z, em metros (o círculo deitado tem o Y local no Z). */
