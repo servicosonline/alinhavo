@@ -52,7 +52,7 @@ it("ajusta os tecidos às medidas", () => {
   if (samples.length === 0) console.log("Nenhuma amostra em medidas.json ainda (fase A do plano).");
   for (const p of proposals) {
     console.log(`\n${p.preset} (${p.amostras.length} amostra(s))`);
-    console.log(`  flexão ${p.atual.bend.toExponential(2)} → ${p.proposto.bend.toExponential(2)}`);
+    console.log(`  comprimento de flexão ${p.atual.bendingLength} → ${p.proposto.bendingLength} mm`);
     for (const k of ["warp", "weft", "bias"] as const) {
       console.log(`  esticamento ${k} ${p.atual.stretch[k].toExponential(2)} → ${p.proposto.stretch[k].toExponential(2)}`);
     }
@@ -72,7 +72,7 @@ function round(f: Fabric): Fabric {
     thickness: r(f.thickness),
     friction: r(f.friction),
     maxStretch: r(f.maxStretch),
-    bend: r(f.bend),
+    bendingLength: r(f.bendingLength),
     stretch: { warp: r(f.stretch.warp), weft: r(f.stretch.weft), bias: r(f.stretch.bias) },
   };
 }

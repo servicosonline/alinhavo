@@ -15,7 +15,7 @@ import type { Piece, Point } from "@alinhavo/geometry";
 import type { Collider, Vec3 } from "../collider";
 import { stretchCompliance, type Fabric } from "../fabrics";
 import { meshPiece, type PieceMesh } from "../mesh";
-import { collectBendPairs, createSimulation, type Placement, type Simulation } from "../simulation";
+import { createSimulation, type Placement, type Simulation } from "../simulation";
 import { CALIBRATION_ITERATIONS, CALIBRATION_SPACING } from "./settings";
 import type { Direction } from "./measurements";
 
@@ -143,7 +143,8 @@ function settle(sim: Simulation, maxSeconds: number, tol = 0.05): { seconds: num
   return { seconds: maxSeconds, settled: false };
 }
 
-export type CantileverResult = { dropMm: number; settled: boolean; seconds: number };
+/** `reachMm`: quanto a ponta ficou para fora da borda da mesa, na horizontal. */
+export type CantileverResult = { dropMm: number; reachMm: number; settled: boolean; seconds: number };
 
 /**
  * Régua na borda da mesa: tira de BENCH_STRIP_WIDTH deitada no tampo, com
@@ -175,7 +176,8 @@ export function cantileverDrop(fabric: Fabric, overhangMm: number, options: Benc
   }
   const { settled, seconds } = settle(sim, options.maxSeconds ?? 20);
   const drop = tip.reduce((s, i) => s + (surface - sim.positions[i * 3 + 1]!), 0) / tip.length;
-  return { dropMm: drop, settled, seconds };
+  const reach = tip.reduce((s, i) => s + sim.positions[i * 3 + 2]!, 0) / tip.length;
+  return { dropMm: drop, reachMm: reach, settled, seconds };
 }
 
 export type HangResult = {
@@ -213,12 +215,7 @@ function springsOf(mesh: PieceMesh, fabric: Fabric): Spring[] {
     const alpha = stretchCompliance(fabric, g[j * 2]! - g[i * 2]!, g[j * 2 + 1]! - g[i * 2 + 1]!);
     out.push({ i, j, rest, k: 1 / alpha, limit: rest * (1 + Math.max(0, fabric.maxStretch)) });
   }
-  const pairs: number[] = [];
-  const rests: number[] = [];
-  collectBendPairs(mesh, 0, pairs, rests);
-  for (let b = 0; b < rests.length; b++) {
-    out.push({ i: pairs[b * 2]!, j: pairs[b * 2 + 1]!, rest: rests[b]!, k: 1 / fabric.bend, limit: Infinity });
-  }
+  // A flexão de curvatura não age no plano (a tira com peso fica plana).
   return out;
 }
 

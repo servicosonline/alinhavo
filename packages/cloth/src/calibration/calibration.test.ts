@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { FABRIC_PRESETS, FABRICS, type Fabric } from "../fabrics";
 import { boxCollider, cantileverDrop, discCollider, discDrape, hangStrain } from "./bench";
-import { CALIBRATION_TOLERANCE, fitBendFromDisc, fitStretch, logBisect } from "./fit";
+import { CALIBRATION_TOLERANCE, fitBendingLengthFromRuler, fitStretch, logBisect } from "./fit";
 import { DIRECTIONS, hangStrain as measuredStrain, readSamples, sampleProblems, type Sample } from "./measurements";
 
 /** Uma amostra só no formato: números de exemplo, não medida. */
@@ -110,8 +110,8 @@ describe("tira com peso (equilíbrio estático)", () => {
 
 describe("caimento no disco", () => {
   it("mais flexão (menos complacência) = mais armado; jeans arma mais que chiffon", () => {
-    const mole = discDrape({ ...FABRICS.tricoline, bend: 1e-2 });
-    const firme = discDrape({ ...FABRICS.tricoline, bend: 1e-4 });
+    const mole = discDrape({ ...FABRICS.tricoline, bendingLength: 20 });
+    const firme = discDrape({ ...FABRICS.tricoline, bendingLength: 60 });
     expect(mole.settled && firme.settled).toBe(true);
     expect(firme.cc).toBeGreaterThan(mole.cc + 0.2);
     expect(discDrape(FABRICS.jeans).cc).toBeGreaterThan(discDrape(FABRICS.chiffon).cc);
@@ -121,13 +121,6 @@ describe("caimento no disco", () => {
     }
   });
 
-  it("o ajuste acha de volta a flexão pelo coeficiente", () => {
-    const cc = discDrape({ ...FABRICS.tricoline, bend: 3e-4 }).cc;
-    const fit = fitBendFromDisc(FABRICS.tricoline, cc);
-    expect(fit.atBound).toBe(false);
-    expect(Math.abs(discDrape({ ...FABRICS.tricoline, bend: fit.value }).cc - cc)).toBeLessThan(0.02);
-  });
-
   it("bissecção: monótona nos dois sentidos, ponta quando o alvo está fora", () => {
     expect(logBisect((c) => c, 1e-3, [1e-6, 1], 40).value).toBeCloseTo(1e-3, 6);
     expect(logBisect((c) => -c, -1e-3, [1e-6, 1], 40).value).toBeCloseTo(1e-3, 6);
@@ -135,15 +128,27 @@ describe("caimento no disco", () => {
   });
 });
 
-describe("limitação conhecida da flexão", () => {
-  // A flexão é uma distância entre os vértices opostos de dois triângulos: com
-  // o tecido plano ela não tem rigidez, e na régua toda tira cai quase reta.
-  // Por isso a flexão é ajustada pelo disco. Se este teste falhar, a flexão
-  // passou a segurar a tira plana (ex.: flexão por ângulo): troque o ajuste
-  // para a régua em `fit.ts` e atualize `docs/10-calibracao-tecidos.md`.
-  it("nem a flexão mais firme segura 15 cm de tira plana para fora da mesa", () => {
-    const r = cantileverDrop({ ...FABRICS.jeans, bend: 1e-9 }, 150);
-    expect(r.dropMm).toBeGreaterThan(0.8 * 150);
+describe("régua na borda da mesa", () => {
+  // Até nov/2026 a flexão era uma distância entre vértices opostos e não
+  // segurava tecido plano (toda tira caía quase reta). A de curvatura segura,
+  // e a régua passou a ajustar a flexão.
+  it("a tira plana se segura conforme o tecido: jeans cai bem menos que chiffon", () => {
+    // 100 mm para fora: 2 × o comprimento do jeans (a norma usa a tira caindo 41,5°).
+    // Na malha de 30 mm a queda sai até ~25% maior que a da fórmula de Peirce
+    // (só 3 triângulos no balanço); a calibração ajusta nesta malha mesmo.
+    const jeans = cantileverDrop(FABRICS.jeans, 100);
+    const chiffon = cantileverDrop(FABRICS.chiffon, 100);
+    expect(jeans.reachMm).toBeGreaterThan(50); // fica para fora da mesa
+    expect(chiffon.reachMm).toBeLessThan(10); // pende reto
+    expect(jeans.dropMm).toBeLessThan(chiffon.dropMm - 20);
+  });
+
+  it("o ajuste acha de volta o comprimento de flexão pela queda", () => {
+    const drop = cantileverDrop({ ...FABRICS.tricoline, bendingLength: 45 }, 120).dropMm;
+    const fit = fitBendingLengthFromRuler(FABRICS.tricoline, 120, drop);
+    expect(fit.atBound).toBe(false);
+    expect(fit.value / 45).toBeGreaterThan(0.95);
+    expect(fit.value / 45).toBeLessThan(1.05);
   });
 });
 

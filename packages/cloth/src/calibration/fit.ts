@@ -3,12 +3,10 @@
  *
  * - Gramatura, espessura, atrito e limite de esticamento entram direto.
  * - Complacência ao esticamento (fio, trama, viés): pela tira com 500 g.
- * - Flexão: pelo **caimento no disco**, não pela régua. A flexão de hoje é
- *   uma distância entre os vértices opostos de dois triângulos, que não tem
- *   rigidez com o tecido plano: na régua toda tira cai quase reta, qualquer
- *   que seja o valor (teste em `calibration.test.ts`). A régua continua
- *   medida: diz quanto o fio e a trama diferem e é o alvo de uma flexão por
- *   ângulo no futuro.
+ * - Flexão: o comprimento de flexão pela **régua na borda da mesa** (a
+ *   queda média de fio e trama). A flexão de curvatura segura tecido plano e
+ *   não depende da malha, então a régua simulada responde ao valor como a de
+ *   verdade. O **disco** fica de conferência (coeficiente e ondas, com aviso).
  */
 import { FABRIC_MAX_THICKNESS, FABRICS, type Fabric } from "../fabrics";
 import { cantileverDrop, discDrape, hangStrain, type BenchOptions } from "./bench";
@@ -23,8 +21,8 @@ import {
   type Sample,
 } from "./measurements";
 
-/** Faixa de busca da flexão e do esticamento (complacência). */
-export const BEND_RANGE: readonly [number, number] = [1e-7, 1e-1];
+/** Faixa de busca do comprimento de flexão (mm) e do esticamento (complacência). */
+export const BENDING_LENGTH_RANGE: readonly [number, number] = [2, 300];
 export const STRETCH_RANGE: readonly [number, number] = [1e-10, 1e-3];
 /** Acima disso, a diferença de flexão entre fio e trama não cabe numa flexão só. */
 export const MAX_BEND_ANISOTROPY = 2;
@@ -55,9 +53,9 @@ export function logBisect(f: (c: number) => number, target: number, [lo, hi]: re
   return { value: Math.exp((a + b) / 2), atBound: false };
 }
 
-/** Flexão que dá o coeficiente de caimento medido no disco (mais complacente = cai mais = CC menor). */
-export function fitBendFromDisc(base: Fabric, cc: number, options: BenchOptions = {}): BisectResult {
-  return logBisect((bend) => discDrape({ ...base, bend }, options).cc, cc, BEND_RANGE, 14);
+/** Comprimento de flexão que dá a queda medida na régua (`overhangMm` para fora; mais comprido = cai menos). */
+export function fitBendingLengthFromRuler(base: Fabric, overhangMm: number, dropMm: number, options: BenchOptions = {}): BisectResult {
+  return logBisect((bendingLength) => cantileverDrop({ ...base, bendingLength }, overhangMm, options).dropMm, dropMm, BENDING_LENGTH_RANGE, 14);
 }
 
 export type StretchTargets = Record<Direction, number>;
@@ -137,15 +135,14 @@ export function fitSample(sample: Sample, options: BenchOptions = {}): SampleFit
     warnings.push(`a régua no fio e na trama difere ${anis.toFixed(1)}×: uma flexão só erra muito neste tecido`);
   }
 
-  if (sample.disco) {
-    const b = fitBendFromDisc(fabric, sample.disco.cc, options);
-    fabric = { ...fabric, bend: b.value };
-    if (b.atBound) warnings.push(`caimento no disco (CC ${sample.disco.cc}) fora do que a flexão alcança: ficou na ponta`);
-  } else {
-    warnings.push("sem o caimento no disco: a flexão ficou a do preset");
-  }
+  const b = fitBendingLengthFromRuler(fabric, sample.regua.foraMm, meanDrop(sample), options);
+  fabric = { ...fabric, bendingLength: b.value };
+  if (b.atBound) warnings.push(`régua (queda de ${meanDrop(sample)} mm) fora do que a flexão alcança: ficou na ponta`);
 
   const drape = discDrape(fabric, options);
+  if (sample.disco && Math.abs(drape.cc - sample.disco.cc) > CALIBRATION_TOLERANCE.cc) {
+    warnings.push(`disco: coeficiente medido ${sample.disco.cc}, simulado ${drape.cc.toFixed(2)} (a flexão vem da régua)`);
+  }
   if (sample.disco && Math.abs(drape.waves - sample.disco.ondas) > 1) {
     warnings.push(`ondas no disco: medidas ${sample.disco.ondas}, simuladas ${drape.waves}`);
   }
@@ -179,7 +176,7 @@ export function averageFabric(base: Fabric, fits: Fabric[]): Fabric {
     thickness: avg(fits.map((f) => f.thickness)),
     friction: avg(fits.map((f) => f.friction)),
     maxStretch: avg(fits.map((f) => f.maxStretch)),
-    bend: geo(fits.map((f) => f.bend)),
+    bendingLength: geo(fits.map((f) => f.bendingLength)),
     stretch: {
       warp: geo(fits.map((f) => f.stretch.warp)),
       weft: geo(fits.map((f) => f.stretch.weft)),
@@ -193,7 +190,7 @@ export function averageFabric(base: Fabric, fits: Fabric[]): Fabric {
  * `calibration.test.ts`). Iniciais, a revisar com as primeiras medidas.
  */
 export const CALIBRATION_TOLERANCE = {
-  /** Coeficiente de caimento no disco, absoluto. */
+  /** Coeficiente de caimento no disco, absoluto (conferência: a flexão vem da régua). */
   cc: 0.08,
   /** Esticamento a 500 g, relativo. */
   strain: 0.2,

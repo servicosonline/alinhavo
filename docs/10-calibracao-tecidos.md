@@ -1,12 +1,43 @@
 # Calibração dos tecidos da Prova 3D
 
-**Status (16/11/2026):** fase B pronta (arquivo de medidas, script de ajuste e testes em `packages/cloth/src/calibration/`). Nenhuma medida real ainda: falta a fase A.
+**Status (16/11/2026):** fase B pronta (arquivo de medidas, script de ajuste e testes em `packages/cloth/src/calibration/`). A flexão passou a ser **de curvatura**, com o **comprimento de flexão** (mm) por tecido, ajustado pela régua (ver "Flexão de curvatura" abaixo). Nenhuma medida real ainda: falta a fase A, e os 12 comprimentos de flexão de `fabrics.ts` são estimativas.
 
 ## O que a fase B descobriu (antes de qualquer medida)
 
-1. **A flexão da simulação não segura tecido plano.** Ela é uma distância entre os vértices opostos de dois triângulos vizinhos. Com o tecido plano, dobrar um pouco quase não muda essa distância, então ela não resiste. Na régua (15 cm para fora da mesa), toda tira cai quase reta: o jeans cai 147 mm, e mesmo com a flexão mais firme possível cai 132 mm (149 mm numa malha de 10 mm). Por isso **a flexão é ajustada pelo disco**, onde o tecido já está curvo e a flexão responde (coeficiente de 0,16 a 0,94 conforme o valor). A régua continua no protocolo: mede a diferença entre fio e trama e será o alvo de uma flexão por ângulo. Um teste (`limitação conhecida da flexão`) falha de propósito no dia em que a flexão passar a segurar a tira plana.
+1. **A flexão da simulação não segurava tecido plano** (resolvido em 16/11/2026, ver "Flexão de curvatura"). Ela era uma distância entre os vértices opostos de dois triângulos vizinhos. Com o tecido plano, dobrar um pouco quase não muda essa distância, então ela não resistia. Na régua (15 cm para fora da mesa), toda tira caía quase reta: o jeans caía 147 mm, e mesmo com a flexão mais firme possível caía 132 mm. Era o que uma estilista notou na Prova: o tricoline caía como a malha.
 2. **Com os valores de hoje, toda tira com 500 g chega no limite de esticamento.** Quem segura o tecido é o `maxStretch`, não a complacência: ela está mais mole que qualquer tecido plano real. O ajuste resolve isso com a primeira medida.
-3. **A malha de 30 mm deixa o tecido bem mais armado do que ele é.** No mesmo tecido, o disco dá coeficiente 0,61 na malha da Prova e 0,26 numa malha de 10 mm. A calibração compensa isso na malha da Prova, que é o certo para a Prova de hoje, mas confirma que a malha grossa esconde muito do caimento. O `resultado.json` mostra os dois números por tecido.
+3. **A malha de 30 mm não resolve as dobras do disco.** Com a flexão antiga, ela deixava o tecido mais armado (coeficiente 0,61 contra 0,26 em 10 mm). Com a de curvatura, a régua quase não muda com a malha, mas no disco os tecidos fluidos caem **mais** na malha de 30 mm que na de 10 mm (malha 0,20 contra 0,52; viscose 0,13 contra 0,47), porque as ondas são mais finas que os triângulos. Os armados quase não mudam (jeans 0,97 e 0,87; sarja 0,90 e 0,93). O `resultado.json` mostra os dois números por tecido; uma malha mais fina na Prova esbarrou na convergência (ver "Malha mais fina: o que travou").
+
+## Flexão de curvatura (16/11/2026)
+
+A flexão de `packages/cloth/src/simulation.ts` é a energia quadrática de curvatura de Bergou, Wardetzky, Harmon, Zorin e Grinspun (2006): para cada aresta interna, os 4 vértices em volta, com pesos pelas cotangentes do molde. Ela é zero no tecido plano e mede o quanto ele saiu do plano, então segura tecido plano. Pela área dos triângulos, a energia de um cilindro bate com a da placa contínua em qualquer malha (teste em `bending.test.ts`).
+
+O tecido diz o **comprimento de flexão** `bendingLength` (mm), o número que o teste da régua mede (Peirce; ASTM D1388). A rigidez é B = gramatura × gravidade × comprimento³. Com o mesmo comprimento, o caimento não muda com a gramatura. Na régua simulada, a fórmula de Peirce devolve o comprimento dado com 1 a 6% de erro com 150 mm para fora; com só 100 mm para fora, a malha de 30 mm põe 3 triângulos no balanço e o erro chega a ~11%. O ajuste é feito na malha da Prova, o que compensa isso.
+
+Os 12 comprimentos de hoje são **estimativa**: só a ordem de grandeza tem referência (a ASTM D1388 dimensiona a tira para tecidos de 1 a 3+ cm, e o exemplo de algodão dos manuais do teste dá 2,5 a 2,7 cm). Do mais fluido ao mais armado: chiffon 10, viscose 16, malha e crepe 18, ribana 20, plano leve 22, tricoline 28, moletom 30, linho 32, sarja 38, jeans com elastano 42, jeans 50. O caimento 1–5 do cadastro (`drape`) divide a rigidez por 2,8 a cada ponto (o comprimento, pela raiz cúbica).
+
+## Malha mais fina: o que travou (16/11/2026)
+
+Tentativa de simular a qualidade "alta" numa malha mais fina (a "leve" ficando em 30 mm). Medido na bancada, com a flexão de curvatura:
+
+| Malha | Disco: malha | viscose | chiffon | tricoline | Régua e esticamento |
+|---|---|---|---|---|---|
+| 30 mm | 0,20 | 0,13 | −0,06 | 0,70 | jeans com elastano no fio 8,9% (errado) |
+| 25 mm | 0,33 | 0,18 | 0,01 | 0,74 | perto de 20 mm |
+| 20 mm | 0,45 | 0,34 | 0,19 | 0,78 | igual a 15 mm |
+| 15 mm | 0,51 | 0,44 | 0,27 | 0,81 | — |
+
+Em 20 mm o caimento chega perto do convergido. Mas **com 2 iterações por subpasso a roupa vestida perde a firmeza**: a calça do conjunto de salto desaba ainda na fase de costura (o alto termina a 216 mm do chão, contra 994 mm em 30 mm), a calça do conjunto e o short ficam abaixo do quadril, e a axila da camiseta abre 6 a 11 mm. Mais arestas em série convergem menos no XPBD com poucas iterações. Medido (calça do conjunto, de salto, ms por quadro nesta máquina):
+
+| Malha e iterações | Calça | ms/quadro |
+|---|---|---|
+| 30 mm, 2 | segura (994) | 48 |
+| 25 mm, 2 | segura (973), mas no conjunto e no short fica 3 a 5 mm abaixo do limite do teste | 64 |
+| 20 mm, 2 | cai até o chão | 97 |
+| 20 mm, 3 | segura (973) | ~140 a 200 |
+| 20 mm, 4 | segura (994) | ~390 |
+
+A Prova ficou em 30 mm. Caminhos: 20 mm com 3 iterações só na "alta" (3 a 4× o custo de hoje), um resolvedor que converge melhor com as mesmas iterações (ex.: ordem das restrições, Gauss-Seidel por cor, ou um passo de Chebyshev), ou a simulação em WebGPU, que precisaria ser conferida contra a de CPU.
 
 ## Por que
 
@@ -26,14 +57,14 @@ Invariante da empresa: **nenhum número entra sem fonte.** Cada valor de tecido 
 |---|---|---|---|
 | `density` | massa por área (peso) | gramatura | direto |
 | `thickness` | distância mínima ao corpo e entre camadas | espessura | direto |
-| `bend` | resistência a dobrar (armado × fluido) | caimento no disco | ajustado pelo script |
+| `bendingLength` | comprimento de flexão: resistência a dobrar (armado × fluido) | régua na borda da mesa | ajustado pelo script |
 | `stretch.warp/weft/bias` | quanto cede no fio, na trama e no viés | tira com peso (500 g) | ajustado pelo script |
 | `maxStretch` | limite de esticamento (mapa de pressão) | tira com peso maior (2 kg) | direto |
 | `friction` | quanto a roupa escorrega no corpo | plano inclinado | direto (prioridade baixa) |
-| — | diferença fio × trama, flexão futura | régua na borda da mesa | aviso e registro |
-| — | conferência | ondas do disco | só validação |
+| — | diferença fio × trama | régua no fio e na trama | aviso |
+| — | conferência | coeficiente e ondas do disco | só validação, com aviso |
 
-Atenção a um detalhe da simulação: a flexão é aplicada por par de vértices da malha, então **o valor de `bend` depende do espaçamento da malha**. Tudo é ajustado no espaçamento da Prova (`PROVA_MESH_SPACING`, 30 mm, e `PROVA_ITERATIONS`). Se a malha da Prova mudar, a calibração precisa rodar de novo. O script refaz isso sozinho a partir das medidas.
+Atenção a um detalhe da simulação: o esticamento é por aresta da malha, e as dobras finas dependem do tamanho dela, então tudo é ajustado no espaçamento da Prova (`PROVA_MESH_SPACING`, 30 mm, e `PROVA_ITERATIONS`). A flexão de curvatura quase não depende da malha na régua, mas o disco sim. Se a malha da Prova mudar, a calibração precisa rodar de novo. O script refaz isso sozinho a partir das medidas.
 
 ## Material (cerca de R$ 150)
 
@@ -63,9 +94,9 @@ Pese o quadrado de 10 × 10 cm. Gramatura (g/m²) = peso em gramas × 100. Confi
 
 Dobre o quadrado em 4 camadas e meça com o paquímetro apertando só até encostar. Espessura = medida ÷ 4. Faça em 3 pontos e use a média.
 
-### 3. Régua na borda da mesa: diferença fio × trama (15 min)
+### 3. Régua na borda da mesa: flexão (15 min, obrigatório)
 
-Hoje não ajusta a flexão (ver "O que a fase B descobriu"): o script compara com a simulação e avisa quando fio e trama diferem mais de 2×. Continua no protocolo porque é barato e é o alvo da flexão por ângulo.
+É ela que **ajusta a flexão**: o script procura o comprimento de flexão que dá a queda média de fio e trama, e avisa quando os dois diferem mais de 2×.
 
 Para as tiras de 25 × 250 mm, no fio e na trama:
 
@@ -74,7 +105,7 @@ Para as tiras de 25 × 250 mm, no fio e na trama:
 3. Meça na foto **quanto a ponta caiu** (mm abaixo do tampo) e o **ângulo da ponta**.
 4. Vire a tira (o direito para baixo) e repita. Use a média dos dois lados.
 
-Por que essa versão e não a da norma (ASTM D1388, que procura o comprimento em que a ponta toca uma rampa de 41,5°): com o pedaço para fora fixo, o mesmo teste é fácil de montar na simulação (uma tira presa numa ponta) e a comparação fica direta. Para um tecido muito fluido (chiffon, viscose), use 80 mm para fora, senão a ponta cai na vertical e o teste não diferencia.
+Por que essa versão e não a da norma (ASTM D1388, que procura o comprimento em que a ponta toca uma rampa de 41,5°): com o pedaço para fora fixo, o mesmo teste é fácil de montar na simulação (uma tira presa numa ponta) e a comparação fica direta. O teste diferencia melhor com uns **2 × o comprimento de flexão** para fora: 150 mm para um tecido armado (jeans, sarja); para um tecido fluido (chiffon, viscose, malha), use 60 a 80 mm, senão a ponta cai na vertical e o teste não diferencia.
 
 A simulação de hoje tem **uma flexão só** (igual em todas as direções). Medimos fio e trama para saber o tamanho do erro; o ajuste usa a média. Se a diferença passar de 2×, isso vira um item para a flexão por direção.
 
@@ -94,7 +125,7 @@ Para as tiras de 50 × 300 mm, no fio, na trama e no viés:
 
 Prenda um quadrado do tecido debaixo de um livro de peso conhecido, sobre a tábua coberta de EVA. Levante a tábua devagar até o livro escorregar e meça o ângulo. Atrito = tan(ângulo). O EVA não é pele; isso só ordena os tecidos (o chiffon escorrega mais que o moletom). Fica como medida aproximada.
 
-### 6. Caimento no disco: flexão (15 min, obrigatório)
+### 6. Caimento no disco: conferência (15 min, obrigatório)
 
 É a versão caseira do teste de Cusick, a medida clássica de caimento.
 
@@ -108,7 +139,7 @@ Na foto, conte as **ondas** (quantas dobras se formam) e meça a **área da somb
 CC = (área da sombra − área do disco) ÷ (área do círculo − área do disco)
 ```
 
-CC perto de 1 é armado (o tecido quase não cai); perto de 0, muito fluido. O **CC ajusta a flexão**; as **ondas** não entram no ajuste e servem de conferência (o script avisa quando a simulação erra por mais de 1). Na malha da Prova a borda do círculo tem poucos pontos, então a contagem de ondas da simulação é aproximada.
+CC perto de 1 é armado (o tecido quase não cai); perto de 0, muito fluido. Desde a flexão de curvatura, o disco é **conferência**: o script avisa quando o CC simulado erra por mais da tolerância e quando as ondas erram por mais de 1. Na malha da Prova a borda do círculo tem poucos pontos, então a contagem de ondas da simulação é aproximada, e os tecidos fluidos caem mais que na de 10 mm.
 
 ## Onde as medidas ficam
 
@@ -148,15 +179,16 @@ npm run calibrate -w @alinhavo/cloth
 Para cada amostra (cerca de 35 s cada):
 
 1. Gramatura, espessura (até 2,5 mm, o que a Prova aceita), atrito e limite entram direto. O limite é o maior esticamento com 2 kg, e nunca abaixo do medido com 500 g.
-2. **Tira com peso:** tira de 90 × 300 mm presa em cima, carga na borda de baixo na mesma proporção por largura da tira real. É resolvida como **equilíbrio estático** (Newton) das mesmas restrições da simulação: esticamento por aresta pela direção do fio, pares de flexão e o limite. Rodar a simulação com 500 g pendurados numa tira de ~1 g não converge com 2 iterações por subpasso, e a tira esticaria por erro numérico, não pelo tecido. As três complacências andam juntas: a cada rodada, cada uma é multiplicada pela razão medido ÷ simulado da sua direção.
-3. **Disco:** a simulação da Prova como ela roda (malha de 30 mm, 2 iterações, gravidade), até assentar. Bissecção da flexão em escala logarítmica (de 1e-7 a 1e-1) até o CC medido.
-4. **Régua:** simulada só para registro (com a flexão de hoje, a tira cai quase reta).
+2. **Tira com peso:** tira de 90 × 300 mm presa em cima, carga na borda de baixo na mesma proporção por largura da tira real. É resolvida como **equilíbrio estático** (Newton) das mesmas restrições da simulação: esticamento por aresta pela direção do fio e o limite (a flexão de curvatura não age com a tira plana). Rodar a simulação com 500 g pendurados numa tira de ~1 g não converge com 2 iterações por subpasso, e a tira esticaria por erro numérico, não pelo tecido. As três complacências andam juntas: a cada rodada, cada uma é multiplicada pela razão medido ÷ simulado da sua direção.
+3. **Régua:** a tira deitada na mesa, presa atrás, com o mesmo pedaço para fora da medida, na malha da Prova e com a gravidade, até assentar. Bissecção do comprimento de flexão em escala logarítmica (de 2 a 300 mm) até a queda medida.
+4. **Disco:** a simulação da Prova como ela roda, até assentar, só para conferir o CC e as ondas.
 
 O resultado vai para `packages/cloth/calibration/resultado.json`: os valores por amostra, o simulado contra o medido, a média por preset (média geométrica nas complacências, aritmética no resto), o preset atual ao lado e o disco também numa malha de 10 mm.
 
 Quem atualiza `fabrics.ts` é uma pessoa, depois de ler os avisos. Cada preset ganha um comentário com as amostras de onde saiu. Os avisos que o script dá:
 
-- a medida ficou fora do que a simulação alcança (esticamento ou disco);
+- a medida ficou fora do que a simulação alcança (esticamento ou régua);
+- o CC do disco simulado erra por mais da tolerância (a flexão vem da régua);
 - com 500 g a tira já chega no limite (o limite manda, não a complacência);
 - fio e trama diferem mais de 2× na régua (uma flexão só erra muito);
 - as ondas do disco erram por mais de 1;
@@ -169,8 +201,8 @@ Quem atualiza `fabrics.ts` é uma pessoa, depois de ler os avisos. Cada preset g
 - o `medidas.json` do repositório lê sem problema, e as amostras erradas são recusadas;
 - os colisores da bancada (mesa e disco) dão a distância exata;
 - a tira com peso: a trama cede mais que o fio, o esticamento é proporcional à carga e por largura, e nunca passa do limite;
-- o ajuste acha de volta as complacências e a flexão de um tecido conhecido;
-- a **limitação conhecida da flexão**, que falha de propósito quando a flexão passar a segurar tecido plano;
+- o ajuste acha de volta as complacências e o comprimento de flexão de um tecido conhecido;
+- a régua: a tira plana se segura conforme o tecido (o jeans fica para fora da mesa, o chiffon pende reto);
 - **cada preset com amostras medidas reproduz a média delas** dentro das tolerâncias (`CALIBRATION_TOLERANCE` em `fit.ts`). Medida nova e preset atualizado vão juntos no mesmo PR, senão o CI falha.
 
 Um teste do app (`apps/web/src/lib/prova/calibration-sync.test.ts`) confere que a malha e as iterações da Prova são as da calibração (`CALIBRATION_SPACING`, `CALIBRATION_ITERATIONS`).
@@ -184,7 +216,7 @@ Tolerâncias iniciais (a revisar quando houver as primeiras medidas):
 | Coeficiente de caimento (disco) | ±0,08 |
 | Ondas (disco) | ±1, só aviso |
 
-Se um preset não bate depois do ajuste, a falha é do **modelo**, não dos números. Isso vira um item no roadmap (flexão por ângulo, flexão por direção, malha mais fina).
+Se um preset não bate depois do ajuste, a falha é do **modelo**, não dos números. Isso vira um item no roadmap (flexão por direção, malha mais fina).
 
 ## A prova de verdade
 
@@ -206,21 +238,21 @@ A comparação do passo 5 é da **modelista ou da estilista**, não de quem escr
 | B | `medidas.json`, script de ajuste e os testes (**pronta**, 16/11/2026) | engenharia | feito |
 | C | Ajustar os 3, rodar o disco e a prova da saia; revisar o protocolo e as tolerâncias | engenharia + modelista | 1–2 dias |
 | D | Medir os outros 9 (2 amostras cada) e atualizar `fabrics.ts` | Paulo ou parceira + engenharia | 1 semana |
-| E | No cadastro do tecido (`/tecidos/[id]`), oferecer o "teste do prato": a confecção mede o caimento no disco e a Prova ajusta a flexão daquele tecido (o "teste da régua" quando a flexão for por ângulo) | produto + engenharia | a decidir |
+| E | No cadastro do tecido (`/tecidos/[id]`), oferecer o "teste da régua": a confecção mede a queda da tira e a Prova ajusta o comprimento de flexão daquele tecido (o disco de conferência) | produto + engenharia | a decidir |
 
-A fase E é o que transforma a calibração em diferencial: hoje o cadastro ajusta o caimento numa escala de 1 a 5 de olho (`drape` em `tuneFabric`). Com o prato, a confecção mede o tecido dela em 15 minutos e a Prova usa o valor medido. O ajuste da flexão pelo disco leva cerca de 15 s e pode rodar no navegador, num Worker.
+A fase E é o que transforma a calibração em diferencial: hoje o cadastro ajusta o caimento numa escala de 1 a 5 de olho (`drape` em `tuneFabric`). Com a régua, a confecção mede o tecido dela em 15 minutos com uma régua e uma mesa, e a Prova usa o valor medido. O ajuste pela régua é uma bissecção de poucos segundos e pode rodar no navegador, num Worker.
 
-Candidata a entrar antes da fase D: **trocar a flexão por distância por uma flexão por ângulo** (diedro). Ela segura tecido plano, que é o que falta para uma gola, um cós ou uma saia de sarja armarem na Prova. Muda o caimento de todas as roupas, então vem com a recalibração.
+Feito em 16/11/2026, antes da fase D: a flexão por distância foi trocada pela **de curvatura** (ver acima), que segura tecido plano. Uma flexão pelo ângulo entre os triângulos (diedro) também seguraria, mas custa mais e fica instável com o tecido dobrado quase por inteiro.
 
 ## O que a calibração não resolve
 
 Fica registrado para ninguém vender a mais:
 
 - **A roupa não colide com ela mesma**: dobras de babado ou de saia muito ampla podem se atravessar.
-- **A malha de 30 mm não mostra ruga fina** nem franzido.
+- **A malha de 30 mm não mostra ruga fina** nem franzido, e nos tecidos fluidos faz o caimento cair mais que o real (ver o item 3 do começo).
 - **Não tem movimento**: as poses são paradas.
 - **O manequim é procedural**: na axila o braço entra uns 15 mm no tronco.
-- **A flexão é uma só para todas as direções** e, sendo por distância, **não segura tecido plano** (gola, cós e painel armado caem mais do que deveriam).
+- **A flexão é uma só para todas as direções** (fio e trama dobram igual; o ajuste usa a média da régua).
 - **O tecido é elástico**: não guarda vinco nem memória de dobra.
 
 Com a calibração feita, a frase honesta passa a ser: "o caimento da Prova bate com o tecido medido dentro de X% no teste do disco". Antes dela, é "um caimento plausível para esse tipo de tecido".
