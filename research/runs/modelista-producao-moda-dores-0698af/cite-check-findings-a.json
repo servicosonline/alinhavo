@@ -1,0 +1,191 @@
+[
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "O levantamento empírico de Icléia Silveira (2011) junto a **503 indústrias de confecção de Santa Catarina** [[6-resultado-da-pesquisa]] e a pesquisa de Carvalhinha (2008) no polo de Maringá–PR [[marília-piccinini-da-carvalhinha]] demonstram que **76% das empresas mantêm modelista interna** e **24% terceirizam ou compram moldes prontos**; na média catarinense, **46% possuem formação em curso técnico** (SENAI/SENAC), **29% são ex-costureiras promovidas pela prática** e **25% têm ensino superior**, com acentuada clivagem regional entre o Vale do Itajaí (53% técnico, 34% superior e apenas 13% ex-costureiras) e o Oeste do estado (onde ex-costureiras somam 44% e chegam a 60% nas microempresas) [[6-resultado-da-pesquisa]], [[análise-da-formação-dos-profissionais-do-setor-de-modelagem-do-vestuário-da-regi]].",
+    "cited_note_id": "marília-piccinini-da-carvalhinha",
+    "correct_note_id": "análise-da-formação-dos-profissionais-do-setor-de-modelagem-do-vestuário-da-regi",
+    "evidence": "A nota marília-piccinini-da-carvalhinha (2015, UnB) investiga a padronização de medidas antropométricas junto a 20 profissionais e não é o levantamento de 2008 sobre formação de modelistas no polo de Maringá-PR (que corresponde a análise-da-formação-dos-profissionais-do-setor-de-modelagem-do-vestuário-da-regi).",
+    "suggested_fix": "swap citation"
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "O levantamento empírico de Icléia Silveira (2011) junto a **503 indústrias de confecção de Santa Catarina** [[6-resultado-da-pesquisa]] e a pesquisa de Carvalhinha (2008) no polo de Maringá–PR [[marília-piccinini-da-carvalhinha]] demonstram que **76% das empresas mantêm modelista interna** e **24% terceirizam ou compram moldes prontos**; na média catarinense, **46% possuem formação em curso técnico** (SENAI/SENAC), **29% são ex-costureiras promovidas pela prática** e **25% têm ensino superior**, com acentuada clivagem regional entre o Vale do Itajaí (53% técnico, 34% superior e apenas 13% ex-costureiras) e o Oeste do estado (onde ex-costureiras somam 44% e chegam a 60% nas microempresas) [[6-resultado-da-pesquisa]], [[análise-da-formação-dos-profissionais-do-setor-de-modelagem-do-vestuário-da-regi]].",
+    "cited_note_id": "análise-da-formação-dos-profissionais-do-setor-de-modelagem-do-vestuário-da-regi",
+    "correct_note_id": "6-resultado-da-pesquisa",
+    "evidence": "A nota análise-da-formação-dos-profissionais-do-setor-de-modelagem-do-vestuário-da-regi contém apenas metadados/resumo sobre Maringá-PR e Agreste-PE, enquanto os percentuais catarinenses (76%, 24%, 46%, 29%, 25%, Vale do Itajaí e Oeste) provêm exclusivamente de 6-resultado-da-pesquisa (Silveira, 2011).",
+    "suggested_fix": "soften claim to what the source supports"
+  },
+  {
+    "verdict": "wrong-source",
+    "severity": "critical",
+    "sentence": "| **Prototipagem e Simulação Virtual 3D (CAD 3D)** | Costura virtual de moldes 2D ao redor de um avatar paramétrico (CLO3D, Browzwear VStitcher, Optitex 3D, Audaces 3D) com simulação de gravidade e mapas de pressão/deformação (*strain/stress maps*) [[tekstilna-industrija-broj-4-2021]], [[three-dimensional-virtual-prototyping-for-designing-firefighting-gear-an-explora]]. | Triagem visual rápida entre estilo e modelagem; economia de matéria-prima ($425,43\\text{ g}$ em 3 peças testadas por Navarra na USP, derivada principalmente do ganho de aproveitamento no encaixe digital de 80,27% no CLO3D vs. 79,23% no manual, e não da contagem direta de pilotos físicas eliminadas) [[universidade-de-são-paulo-10]], [[utilização-das-ferramentas-da-indústria-40-para-a-prototipagem-no-setor-de-vestu]]. | Desvios de folga real vs. virtual de 7,3% a 47,3% [[comparative-study-of-real-and-virtual-garments-appearance-and-distance-ease-mate]]; incapacidade de distinguir tecidos finos sem testes laboratoriais KES-FB/FAST ($p = 0,92$) [[istanbul-technical-university-graduate-school-of-science]]; custo anual de licença cotado em US$ 13.000 e hardware ~3x mais caro [[three-dimensional-virtual-prototyping-for-designing-firefighting-gear-an-explora]], [[universidade-de-são-paulo-10]]. |",
+    "cited_note_id": "utilização-das-ferramentas-da-indústria-40-para-a-prototipagem-no-setor-de-vestu",
+    "correct_note_id": "utilização-das-ferramentas-da-indústria-40-para-a-prototipagem-no-setor-de-ves-2",
+    "evidence": "A nota citada é apenas a página de metadados OJS (494 palavras), enquanto as citações sobre conhecimento de construção de peça/costura e ausência de relato sobre quantos ajustes virtuais foram necessários constam no PDF integral em utilização-das-ferramentas-da-indústria-40-para-a-prototipagem-no-setor-de-ves-2.",
+    "suggested_fix": "swap citation"
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "critical",
+    "sentence": "Seja em marcas próprias verticalizadas, fornecedores *Private Label* (terceirização completa da manufatura) [[marília-piccinini-da-carvalhinha]], [[universidade-de-são-paulo-10]], polos informais como Toritama (onde mais de 90% das confecções operam na informalidade realizando engenharia reversa de peças prontas [[universidade-federal-rural-de-pernambuco-ufrpe]]) ou ateliês de luxo [[universidade-de-são-paulo-8]], a modelista funciona como o amortecedor técnico que absorve os déficits de especificação a montante para impedir a paralisação do chão de fábrica a jusante [[marisa-beatriz-poletto-jordan]].",
+    "cited_note_id": "three-dimensional-virtual-prototyping-for-designing-firefighting-gear-an-explora",
+    "correct_note_id": null,
+    "evidence": "A nota menciona os altos custos de aquisição, assinatura, treinamento e atualização de hardware dos softwares 3D para PMEs, mas não contém o valor específico de US$ 13.000/ano por assento no CLO3D.",
+    "suggested_fix": "soften claim to what the source supports"
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "Seja em marcas próprias verticalizadas, fornecedores *Private Label* (terceirização completa da manufatura) [[marília-piccinini-da-carvalhinha]], [[universidade-de-são-paulo-10]], polos informais como Toritama (onde mais de 90% das confecções operam na informalidade realizando engenharia reversa de peças prontas [[universidade-federal-rural-de-pernambuco-ufrpe]]) ou ateliês de luxo [[universidade-de-são-paulo-8]], a modelista funciona como o amortecedor técnico que absorve os déficits de especificação a montante para impedir a paralisação do chão de fábrica a jusante [[marisa-beatriz-poletto-jordan]].",
+    "cited_note_id": "universidade-de-são-paulo-10",
+    "correct_note_id": null,
+    "evidence": "A nota universidade-de-são-paulo-10 (Navarra, 2022, p. 23) afirma que o custo médio para adquirir uma máquina (computador) para rodar o sistema Audaces é de R$ 3.500 contra R$ 11.000 para o CLO3D, e não o custo da licença do software Audaces.",
+    "suggested_fix": "soften claim to what the source supports"
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "Na abertura de cada referência da coleção, a modelista analisa a documentação visual entregue pela criação [[projética-londrina-v-1-n-1-p-82100-dez-2010-nº-inaugural]].",
+    "cited_note_id": "universidade-de-são-paulo-12",
+    "correct_note_id": "universidade-de-são-paulo-5",
+    "evidence": "A nota universidade-de-são-paulo-12 (Dias, 2015) detalha a modelagem, gradação e encolhimento de jeans, mas não afirma que a matéria-prima têxtil representa de 50% a 70% do custo industrial nem que o desperdício convencional gira em 15% a 20% (Kauvauti, 2022, em universidade-de-são-paulo-5, documenta 15% a 17% de desperdício têxtil no corte).",
+    "suggested_fix": "soften claim to what the source supports"
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "Suas tarefas concretas consistem em: (a) ler as vistas ortogonais do **desenho técnico plano** (representação bidimensional planificada da roupa em vista frontal, posterior e, quando há recortes deslocados ou volumes laterais, vista de perfil) [[projética-revista-científica-de-design-l-universidade-estadual-de-londrina-l-v2]], [[dapesquisa-florianópolis-v2-n4-p-408-422-2007]]; (b) mapear a posição de elementos construtivos (pences, pregas, franzidos, recortes anatômicos, golas, carcelas, bolsos e tipos de fecho) [[o-desenho-técnico-do-vestuário-sob-a-ótica-do-modelista-projetica]]; e (c) emitir parecer preliminar de viabilidade técnica, verificando se a construção proposta é compatível com o parque de máquinas (reta, overloque, galoneira, interloque, pespontadeira) e com a meta de custo da peça [[produto-produção-vol-13-n-3-p-37-48-out-2012]].",
+    "cited_note_id": "xliv-encontro-nacional-de-engenharia-de-produção-3",
+    "correct_note_id": "universidade-de-são-paulo-5",
+    "evidence": "A nota xliv-encontro-nacional-de-engenharia-de-produção-3 comprova o impacto financeiro da otimização do encaixe CAD (Audaces Encaixes vs. Deepnest.IO) no aproveitamento de matéria-prima, mas não traz as faixas numéricas de 50% a 70% do custo total ou 15% a 20% de desperdício convencional (universidade-de-são-paulo-5 documenta 15% a 17% de perda no corte).",
+    "suggested_fix": "soften claim to what the source supports"
+  },
+  {
+    "verdict": "wrong-source",
+    "severity": "critical",
+    "sentence": "Suas tarefas concretas consistem em: (a) ler as vistas ortogonais do **desenho técnico plano** (representação bidimensional planificada da roupa em vista frontal, posterior e, quando há recortes deslocados ou volumes laterais, vista de perfil) [[projética-revista-científica-de-design-l-universidade-estadual-de-londrina-l-v2]], [[dapesquisa-florianópolis-v2-n4-p-408-422-2007]]; (b) mapear a posição de elementos construtivos (pences, pregas, franzidos, recortes anatômicos, golas, carcelas, bolsos e tipos de fecho) [[o-desenho-técnico-do-vestuário-sob-a-ótica-do-modelista-projetica]]; e (c) emitir parecer preliminar de viabilidade técnica, verificando se a construção proposta é compatível com o parque de máquinas (reta, overloque, galoneira, interloque, pespontadeira) e com a meta de custo da peça [[produto-produção-vol-13-n-3-p-37-48-out-2012]].",
+    "cited_note_id": "o-desenho-técnico-do-vestuário-sob-a-ótica-do-modelista-projetica",
+    "correct_note_id": "projética-revista-científica-de-design-l-universidade-estadual-de-londrina-l-v2",
+    "evidence": "A nota o-desenho-técnico-do-vestuário-sob-a-ótica-do-modelista-projetica contém apenas os metadados OJS (370 palavras), enquanto os achados empíricos de Suono (2011) estão no PDF completo em projética-revista-científica-de-design-l-universidade-estadual-de-londrina-l-v2.",
+    "suggested_fix": "swap citation"
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "* **Interpretação geométrica do modelo:** Transfere pences fundamentais para recortes (como o recorte princesa), calcula o raio e o ângulo de godês, projeta a curva da cabeça da manga com o respectivo **embebimento** (*ease cap*, excesso milimétrico de perímetro na curva superior da manga em relação à cava para acomodar o deltoide sem franzir) e aplica as compensações matemáticas de encolhimento no molde cru, regidas pela relação $M_{\\text{molde}} = \\frac{M_{\\text{final}}}{1 - (E/100)}$, onde $E$ é o percentual de retração [[universidade-de-são-paulo-12]], [[systematic-pattern-engineering-of-basic-bodice-blocks-2d3d-virtual-prototyping-a]].",
+    "cited_note_id": "universidade-de-são-paulo-12",
+    "correct_note_id": null,
+    "evidence": "A nota universidade-de-são-paulo-12 (Dias, 2015) especifica margens de costura de 1,5 cm nas laterais do cós e máquinas reta, overloque, interloque e fechadeira, mas não menciona os valores de 0,5 cm a 0,7 cm para overloque nem códigos de entretelas termocolantes.",
+    "suggested_fix": "soften claim to what the source supports"
+  },
+  {
+    "verdict": "wrong-source",
+    "severity": "critical",
+    "sentence": "Aprovada a peça-piloto (peça lacrada), a modelista fecha o **Portão 2 da Ficha Técnica** (documento mestre de engenharia que autoriza a produção seriada) [[produto-produção-vol-13-n-3-p-37-48-out-2012]], [[dapesquisa-florianópolis-v4-n6-p548-555-2009]].",
+    "cited_note_id": "dapesquisa-florianópolis-v4-n6-p548-555-2009",
+    "correct_note_id": "universidade-de-são-paulo-8",
+    "evidence": "A nota dapesquisa-florianópolis-v4-n6-p548-555-2009 trata exclusivamente da formação escolar e uso de CAD por modelistas no Vale do Itajaí (Silveira, 2009), enquanto a lacração da peça-piloto aprovada junto à modelagem e a emissão da ficha técnica/tabela de medidas para produção seriada estão documentadas em universidade-de-são-paulo-8 (Marcelo, 2016, pp. 88, 104-105).",
+    "suggested_fix": "swap citation"
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "Suas tarefas incluem registrar a listagem completa de partes do molde (*cut list*), especificar os códigos de entretelas termocolantes (temperatura, tempo e pressão de fusão), documentar todas as alterações geométricas feitas durante a pilotagem e preencher a **tabela de medidas da peça pronta** com as respectivas tolerâncias de variação aceitáveis (ex.: $\\pm 0,5\\text{ cm}$ a $\\pm 1,0\\text{ cm}$) para auditoria do Controle de Qualidade [[universidade-de-são-paulo-12]], [[gramado-rs-3]].",
+    "cited_note_id": "universidade-de-são-paulo-12",
+    "correct_note_id": "universidade-de-são-paulo-8",
+    "evidence": "A nota universidade-de-são-paulo-12 documenta a tolerância de ±0,5 cm na medida do gancho lavado (p. 92) e os pontos de medição da calça pronta (p. 99), mas a listagem de partes/gabaritos e a tabela de medidas da peça pronta com tolerância de 1,0 cm para controle de qualidade constam em universidade-de-são-paulo-8 (pp. 104-105), e nenhuma das duas detalha temperatura, tempo e pressão de fusão de entretelas.",
+    "suggested_fix": "soften claim to what the source supports"
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "Suas tarefas incluem registrar a listagem completa de partes do molde (*cut list*), especificar os códigos de entretelas termocolantes (temperatura, tempo e pressão de fusão), documentar todas as alterações geométricas feitas durante a pilotagem e preencher a **tabela de medidas da peça pronta** com as respectivas tolerâncias de variação aceitáveis (ex.: $\\pm 0,5\\text{ cm}$ a $\\pm 1,0\\text{ cm}$) para auditoria do Controle de Qualidade [[universidade-de-são-paulo-12]], [[gramado-rs-3]].",
+    "cited_note_id": "gramado-rs-3",
+    "correct_note_id": "universidade-de-são-paulo-8",
+    "evidence": "A nota gramado-rs-3 (Suuchi, 2016) destaca a necessidade de registrar todas as alterações da peça-piloto e especificações na ficha técnica (citando Leite & Velloso, 2006), mas a tabela de medidas da peça pronta com tolerância de 1,0 cm e listagem de partes/gabaritos provém de universidade-de-são-paulo-8 (pp. 104-105).",
+    "suggested_fix": "swap citation"
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "Com a grade validada, a modelista (ou o operador de CAD sob sua diretriz técnica) executa o **encaixe ou risco** (*marker making*, arranjo geométrico otimizado de todas as partes dos moldes da grade dentro de um retângulo correspondente à largura útil do rolo de tecido) [[xliv-encontro-nacional-de-engenharia-de-produção-3]], [[xli-encontro-nacional-de-engenharia-de-produção]].",
+    "cited_note_id": "xliv-encontro-nacional-de-engenharia-de-produção-3",
+    "correct_note_id": "universidade-de-são-paulo-5",
+    "evidence": "A nota xliv-encontro-nacional-de-engenharia-de-produção-3 analisa o encaixe automatizado no Audaces Encaixes (largura fixa, grade e gramatura), mas os índices de aproveitamento de 80,7% a 85,1% no encaixe convencional e as restrições de sentido do fio, direito/avesso e estampas com pé estão documentados em universidade-de-são-paulo-5 (Kauvauti, 2022, pp. 178-213).",
+    "suggested_fix": "soften claim to what the source supports"
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "Com a grade validada, a modelista (ou o operador de CAD sob sua diretriz técnica) executa o **encaixe ou risco** (*marker making*, arranjo geométrico otimizado de todas as partes dos moldes da grade dentro de um retângulo correspondente à largura útil do rolo de tecido) [[xliv-encontro-nacional-de-engenharia-de-produção-3]], [[xli-encontro-nacional-de-engenharia-de-produção]].",
+    "cited_note_id": "xli-encontro-nacional-de-engenharia-de-produção",
+    "correct_note_id": "universidade-de-são-paulo-5",
+    "evidence": "A nota xli-encontro-nacional-de-engenharia-de-produção discute os gargalos e perdas de tecido do risco e encaixe manual na sala de corte, mas não menciona a meta de 80%-85% nem o percentual de 50%-70% do custo direto (universidade-de-são-paulo-5 documenta aproveitamento convencional de 80,7% a 85,1% e perda de 15% a 17%).",
+    "suggested_fix": "soften claim to what the source supports"
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "Cabe à modelista travar no software as regras de sentido de fio, sentido único de encaixe (para veludos, cotelês e estampas com pé) ou encaixe casado (xadrezes e listras), buscando atingir índices de **eficiência de aproveitamento têxtil superiores a 80%–85%** para minimizar o desperdício de matéria-prima (que representa 50% a 70% do custo direto da peça) [[xliv-encontro-nacional-de-engenharia-de-produção-3]], [[marília-piccinini-da-carvalhinha]].",
+    "cited_note_id": "universidade-de-são-paulo-13",
+    "correct_note_id": null,
+    "evidence": "A nota universidade-de-são-paulo-13 (Percebom, 2021, p. 119) recomenda descanso da malha por 24 horas antes do corte (citando Richardson, 2008, p. 20) e enfesto máximo de 40 folhas / 15 cm com montagem em até 3 dias (citando Sabrá, 2009, p. 101), não mencionando 48 horas.",
+    "suggested_fix": "soften claim to what the source supports"
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "Construção da Base e Interpretação** | Tabela de medidas, parâmetros têxteis e desenho técnico [[modelagem-plana-industrial-do-vestuário-diretrizes-para-a-indústria-do-vestuár-2]]. | Traçado da base, transporte de pences, adição de costuras, fio e 5 piques antitorção [[universidade-de-são-paulo-12]]. | Molde-base industrializado do modelo (papel *kraft* ou arquivo CAD 2D) [[6-resultado-da-pesquisa]]. | Estilo e Engenharia de Produto. |",
+    "cited_note_id": "xliv-encontro-nacional-de-engenharia-de-produção-3",
+    "correct_note_id": "universidade-de-são-paulo-5",
+    "evidence": "A nota xliv-encontro-nacional-de-engenharia-de-produção-3 trata da parametrização de largura fixa, grade e gramatura no Audaces Encaixes, enquanto a geração de arquivos de plotagem/corte e os índices de aproveitamento de 80,7% a 85,1% com trava de fio/sentido constam em universidade-de-são-paulo-5 e 6-resultado-da-pesquisa.",
+    "suggested_fix": "soften claim to what the source supports"
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "Construção da Base e Interpretação** | Tabela de medidas, parâmetros têxteis e desenho técnico [[modelagem-plana-industrial-do-vestuário-diretrizes-para-a-indústria-do-vestuár-2]]. | Traçado da base, transporte de pences, adição de costuras, fio e 5 piques antitorção [[universidade-de-são-paulo-12]]. | Molde-base industrializado do modelo (papel *kraft* ou arquivo CAD 2D) [[6-resultado-da-pesquisa]]. | Estilo e Engenharia de Produto. |",
+    "cited_note_id": "xli-encontro-nacional-de-engenharia-de-produção",
+    "correct_note_id": "universidade-de-são-paulo-5",
+    "evidence": "A nota xli-encontro-nacional-de-engenharia-de-produção aborda a transição do encaixe manual para o otimizado na sala de corte, mas o cálculo de eficiência de aproveitamento (>80%, especificamente 80,7% a 85,1% no encaixe convencional) e trava de fio/sentido constam em universidade-de-são-paulo-5.",
+    "suggested_fix": "swap citation"
+  },
+  {
+    "verdict": "wrong-source",
+    "severity": "critical",
+    "sentence": "Corte Unitário e Pilotagem** | Molde plotado, tecido definitivo, aviamentos e gabaritos [[universidade-de-são-paulo-8]]. | Orientação presencial da pilotista, teste de maquinário e aferição nos 7 pontos críticos pós-lavagem [[universidade-de-são-paulo-12]]. | Peça-piloto física montada e laudo de retração real na peça pronta [[universidade-de-são-paulo-12]]. | Pilotista e Lavanderia Industrial. |",
+    "cited_note_id": "análise-dos-resultados-da-pesquisa-com-foco-na-gestão",
+    "correct_note_id": "marisa-beatriz-poletto-jordan",
+    "evidence": "A nota análise-dos-resultados-da-pesquisa-com-foco-na-gestão é o Capítulo 7 da tese de Icléia Silveira (2011) sobre gestão do conhecimento e CAD, enquanto os dados das 7 confecções gaúchas de Jordan (2009) estão integralmente na nota marisa-beatriz-poletto-jordan (já citada na mesma sentença).",
+    "suggested_fix": "swap citation"
+  },
+  {
+    "verdict": "wrong-source",
+    "severity": "critical",
+    "sentence": "Gradação (*Grading*)** | Molde aprovado e tabela de incrementos da grade [[instituto-federal-de-educação-ciência-e-tecnologia-do-sul-de-minas-gerais-passos]]. | Aplicação de vetores $(\\Delta X, \\Delta Y)$, gradação bilateral de ganchos e conferência de perímetros [[universidade-de-são-paulo-12]]. | Ninho completo de moldes graduados (ex.: 34–46 ou 48–62) [[universidade-de-são-paulo-11]]. | CAD e Controle de Qualidade. |",
+    "cited_note_id": "o-desenho-técnico-do-vestuário-sob-a-ótica-do-modelista-projetica",
+    "correct_note_id": "projética-revista-científica-de-design-l-universidade-estadual-de-londrina-l-v2",
+    "evidence": "A nota o-desenho-técnico-do-vestuário-sob-a-ótica-do-modelista-projetica traz apenas metadados OJS, enquanto as citações literais e dados dos Grupos A e B de Suono (2011) constam no artigo completo em projética-revista-científica-de-design-l-universidade-estadual-de-londrina-l-v2 (já citado na mesma sentença).",
+    "suggested_fix": "swap citation"
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "3. **Mulheres *Petite* (baixa estatura $< 1,50\\text{ m}$), Idosas (60–75 anos) e Segmentos com Necessidades Especiais:** No segmento *petite*, Moura (2024) demonstra que as tabelas industriais brasileiras adotam estatura padrão de $1,68\\text{ a }1,70\\text{ m}$ (com altura cintura-solo de $100\\text{ a }101,5\\text{ cm}$), gerando sobras de **8,0 cm a 11,5 cm** no comprimento de calças e deslocamento vertical de cava, busto e joelho em relação à NBR 16933 baixa estatura ($90\\text{ a }93\\text{ cm}$), a qual ainda exclui mulheres abaixo de $1,50\\text{ m}$ [[instituto-federal-de-educação-ciência-e-tecnologia-do-sul-de-minas-gerais-2]].",
+    "cited_note_id": "instituto-federal-de-educação-ciência-e-tecnologia-do-sul-de-minas-gerais-2",
+    "correct_note_id": null,
+    "evidence": "A nota (Moura, 2024) comprova todas as medidas da tabela (distância cintura-solo de 100 cm em Rosa e 101,5 cm em Berg vs. 90 a 93 cm na NBR 16933 baixa estatura, resultando na diferença de 7,0 a 11,5 cm, além da exclusão de mulheres abaixo de 1,50 m), mas não menciona os números 1,68 m a 1,70 m como estatura padrão (informa que a média brasileira é 1,60 m e a estatura alta da ABNT vai de 1,66 m a 1,81 m).",
+    "suggested_fix": "soften claim to what the source supports"
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "critical",
+    "sentence": "Na terceira idade, Vianna e Quaresma (2019) documentam que a cifose dorsal, a redução estaturária, a perda glútea e a projeção abdominal fazem com que **58% das idosas (60–75 anos)** precisem reformar todas as roupas compradas prontas, evidenciando uma clivagem ergonômica entre a faixa de **60–68 anos** (focada em valorização estética da silhueta com conforto) e a faixa de **69–75 anos** (na qual a artrite e a perda de mobilidade articular tornam impeditivos fechos traseiros, zíperes pequenos, decotes rentes ao pescoço e cavas justas) [[ergonomia-do-vestuário-para-idosas-de-60-a-75-anos]].",
+    "cited_note_id": "ergonomia-do-vestuário-para-idosas-de-60-a-75-anos",
+    "correct_note_id": null,
+    "evidence": "A nota (Vianna & Quaresma, 2019) é um estudo qualitativo com grupos focais (sem percentuais estatísticos) que comprova a clivagem entre os subgrupos de 60-68 anos e 69-75 anos, as transformações corporais e as restrições a fechos traseiros, zíperes para quem tem artrite e decotes próximos ao pescoço, mas não contém o número de 58% de idosas que precisam reformar todas as roupas.",
+    "suggested_fix": "soften claim to what the source supports"
+  }
+]

@@ -1,0 +1,683 @@
+{
+  "ok": true,
+  "data": {
+    "query": "private label subcontratacao cadeia produtiva vestuario moda Brasil",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 12,
+      "crossref": 20,
+      "doab": 0
+    },
+    "raw_records": 32,
+    "merged_records": 32,
+    "returned": 32,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Vestuário de moda luxo no Brasil: um estudo sobre a qualidade e a terceirização no processo produtivo",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2016.tde-30112016-004750",
+        "doi": "10.11606/d.100.2016.tde-30112016-004750",
+        "year": 2016,
+        "authors": [
+          "Camila Vitorino Marcelo"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "When thinking of luxury garments, there is a premise of a high added value and near exclusivity. Questions arise as regards to sustaining the quality of a luxury fashion product with its outsourced processes of development and production. The increased use of an outsourcing strategy for processes that do not make up the core business of enterprises has been present in the fashion sector. The luxury fashion manufacturers in Brazil did not escape the rule, and began to outsource parts of their development and production processes in order to increase their production capacity. From the aforementioned, the present paper aims to study the luxury fashion product and its quality with outsourcing. To that end, luxury was studied, taking into consideration its concepts and parameters, the luxury fashion product, the quality of this product, its development and production processes, seeking to identify possible inadequacies based on a case study. Regarding the methodological procedures, this research is characterized as exploratory, bibliographical, documentary and as a case study. The instrument for data collection was a field observation along with a semi structured interview with individuals who are in direct contact with the development and production of luxury fashion apparel products, using as a case study a renowned luxury fashion brand located in the west borough of city. What has been gathered is that there is a difference between the parameters of what is luxury fashion for national and international consumers and that somehow, outsourcing influences the quality of the final luxury fashion apparel product in Brazil",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-30112016-004750/publico/d.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2623559898",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "O setor do vestuário: uma análise sobre as possibilidades estratégicas das empresas do vestuário no Brasil.",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.3.2007.tde-28032008-173655",
+        "doi": "10.11606/d.3.2007.tde-28032008-173655",
+        "year": 2007,
+        "authors": [
+          "Marília Piccinini da Carvalhinha"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This work presents a picture of the clothing business in Brazil, analyzing the industryretail chain and the firms strategic possibilities. It was studied the distribution of activities behind different enterprises, recognizing the value sources for each type of business. The information basis raised for this analysis includes an overview of this sector, a description of the manufacture and product development activities, and the chain configuration by other authors point of view. Forward, it was researched six case studies of small or medium enterprises that operate connecting manufacture to retail activities. This cases were source of information about their insertion in this market and their suppliers and customers insertion. The data extracted were connected to the information available on other sources, as empirical evidences of this market and published articles. The result was a frame of insertion shapes on the market, visible to this study, classified by three dimensions: chain position, brand presence or absence, and design capability. Then, it was possible to analyze the dynamic of the cases course, the value source by the view of the agents on the firms, and the basis to make decision along their path. This view brought the evaluation of trends possibilities for the clothing sector, following the forces that seem to act, in the direction of the specialization of the business in certain roles on the chain, and bring some hypothesis about the evolution of the current configuration of this sector in Brazil.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/3/3136/tde-28032008-173655/publico/CARVALHINHA_MARILIA_PICCININI_O_Setor_do_Vestuario_rev01.pdf",
+        "citation_count": 9,
+        "work_type": "thesis",
+        "identifier": "W1922116853",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "GESTÃO DE DESIGN: CONTRIBUIÇÕES NO DESENVOLVIMENTO DE PRODUTOS EM EMPRESAS DE PRIVAT LABEL, SEGMENTO JEANSWEAR",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/designpro-ped-01000",
+        "doi": "10.5151/designpro-ped-01000",
+        "year": 2014,
+        "authors": [
+          "Haylton Acácio Gaspar",
+          "Lucimar de Fátima Bilmaia Emídio",
+          "Valdirene Aparecida Vieira Nunes"
+        ],
+        "venue": "Congresso Brasileiro de Pesquisa e Desenvolvimento em Design (P&D Design)",
+        "abstract": "Resumo: O presente trabalho aborda a importância da Gestão de Design de Moda na indústria de Privat Label do segmento de Jeanswear.Aponta, por meio de pesquisa bibliográfica e de um estudo de caso, as áreas em que a gestão do design abrange, destacando a importância do Gestor de Design nas empresas que atuam por meio da terceirização de serviços.Com a pesquisa espera--se colaborar de forma significativa na resolução dos problemas demandados pelas particularidades desta indústria aqui estudada, detectando o quanto é importante a atuação deste profissional com sua formação multidisciplinar e visão sistêmica no processo de desenvolvimento de produto e na linha de produção.",
+        "pdf_url": "http://pdf.blucher.com.br/designproceedings/11ped/01000.pdf",
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "W2029823991",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Imitação e Inovação na Moda: Mapeando o Processo Criativo no Segmento de \"Modinha\" em uma Feira Regional",
+        "source": "openalex",
+        "url": "https://doi.org/10.5585/iji.v4i2.104",
+        "doi": "10.5585/iji.v4i2.104",
+        "year": 2016,
+        "authors": [
+          "Thalita Silva Calíope",
+          "José Carlos Lázaro da Silva Filho"
+        ],
+        "venue": "International Journal of Innovation",
+        "abstract": "Fashion is recognized by transience, resulting in its short life cycle, since the constant changes make what was previously considered \"fashionable\" obsolete (Emidio Sabione, 2010). In this market, innovate and act before competitors, accelerate the launch of products, reduce design time and the placement of new items on the market is a survival condition (Lipovetsky, 2007). A central factor in the fashion spread is imitation, as this promotes both innovation and obsolescence, forcing producers to set up periodically (Caulkins et al., 2007, Pesendorfer, 1995). The research object is the \"modinha\", women's clothing that follows media trends, is the copying, with or without changes, to the mass market (Avelar, 2009; Victor, 2007), in this study, \"José Avelino Street Fair\". This fair meets weekly hundreds of manufacturers in a metropolis of northeastern Brazil that has been established as a fashion hub. Thus, it was proposed to identify the process of innovation in companies that make “modinha” in this Fair. The research was conducted through a survey and data were obtained from a questionnaire administered with 78 stallholders. One descriptive and exploratory data analysis was performed. It was found that, contrary to expectation, a considerable formality, with 49 of the 78 respondents with CNPJ; its customers are small retailers; and their competitors are the stallholders. Regarding the creation of clothes models, the stallholders research in various sources and said imitating models from these sources, but they try to make changes.",
+        "pdf_url": null,
+        "citation_count": 8,
+        "work_type": "article",
+        "identifier": "W2485101464",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A entrada da China na OMC : ameaça ou oportunidade : o caso da indústria têxtil e de vestuário no norte de Portugal",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/1822/22790",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Eva Patrícia Fernandes Soares"
+        ],
+        "venue": "RepositóriUM (Universidade do Minho)",
+        "abstract": "A um de janeiro de 2001 a China, potência mundial no comércio de produtos têxteis e de vestuário, passa a fazer parte integrante da Organização Mundial do Comércio, e uma salvaguarda especial sobre os produtos têxteis e de vestuário chineses foi estabelecida. Através da metodologia before and after e diference-in-differences foi estudado o impacto dessa reforma, em termos de emprego e produtividade, para o sector têxtil e de vestuário português situado na região norte. Utilizando como grupos de controlo as empresas da indústria do calçado na região norte de Portugal; e uma amostra aleatória de 30% das empresas da indústria transformadora, em Portugal continental, que não pertencem à indústria têxtil e de vestuário, os resultados apontam para que a reforma tenha tido um impacto negativo e robusto sobre a produtividade, enquanto o impacto sobre o emprego se mostrou ambíguo, na indústria têxtil e de vestuário no norte de Portugal.",
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W1483143501",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Crítica à sustentabilidade: o descompasso entre o discurso e as práticas das redes de moda brasileiras",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2019.tde-10022019-100234",
+        "doi": "10.11606/d.100.2019.tde-10022019-100234",
+        "year": 2019,
+        "authors": [
+          "Leticia Janini Godoy"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "The present research criticizes the contradictions between discourse and practice within Brazilian fashion industry\\'s productive chain in the light of the theory of sustainability. In particular, it is assessed whether the actions of two main local fashion retailers - Renner and Riachuelo - are pertinent to the politically correct messages they propagate in the media. Such undertaking is based on an analysis of content available electronically in their corporate pages, which have been confronted both with the ideas originally promoted by the United Nations and by common sense. Thus, it aims to reach an understanding of sustainability concept from the point of view of the examined companies, considering its increasing polysemy. In the background, it intends to check if the business praxis is truly consonant with the values and principles dictated by the general notion of sustainability. The results indicate that the competitive and predatory logic that permeates the business of the analyzed companies contravenes the principles of sustainability, depriving them of their legitimacy and credibility",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2956089877",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "O lugar do imigrante indocumentado no Estado Democrático de Direito: identificação e reparação dos danos aos direitos metaindividuais decorrentes da exploração de trabalhadores bolivianos na cadeia de produção têxtil de São Paulo",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.107.2019.tde-20062018-162637",
+        "doi": "10.11606/d.107.2019.tde-20062018-162637",
+        "year": 2019,
+        "authors": [
+          "Amanda Morais de Melo"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This dissertation addresses an analysis of cases involving Bolivian workers whose employment relationship with three major textile and garment manufacturers in the city of São Paulo, Brazil, was recognized by three courts of the Regional Labor Court of the second region. The study identified contents in the decisions that would contribute to the socioeconomic protection and inclusion of undocumented Bolivian immigrants to social rights, in accordance with the objectives of the Democratic State of Law set forth in Article 3 of the Brazilian Federal Constitution. The analysis aimed at revealing the place conferred to those individuals in labor courts when metaindividual labor rights are disrespected in the textile production chain in São Paulo. A database was comprised of five judicial decisions that recognized the employment relationship between workers and employers\\' clothing stores for the validation of labor infraction notices and inspection reports issued by the Brazilian Ministry of Labor and Employment and held the companies accountable for social dumping and collective moral damage. Despite the Regional Labor Court\\'s progress towards understanding the responsibility of major brands regarding the restructuring of production chains and the international labor division, the undocumented immigrant is still deemed a menace to the local labor market. Moreover, the fines imposed by the court contributed to the continued discrimination of undocumented and exploited immigrants, which is against the intent of the Democratic State of Law incorporated in the Brazilian Constitution towards precluding inequality and segregation of such minorities.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/107/107131/tde-20062018-162637/publico/AmandaMMeloCorrigida.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2933785669",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "NA FEIRA TAMBÉM TEM INOVAÇÃO? UMA ANÁLISE DA CRIAÇÃO E CONFECÇÃO DE “MODINHA” NA FEIRA DA RUA JOSÉ AVELINO",
+        "source": "openalex",
+        "url": "https://doi.org/10.13037/gr.vol35n105.5088",
+        "doi": "10.13037/gr.vol35n105.5088",
+        "year": 2019,
+        "authors": [
+          "Thalita Silva Calíope",
+          "José Carlos Lázaro da Silva Filho"
+        ],
+        "venue": "Gestão & Regionalidade",
+        "abstract": "O objetivo deste artigo foi identificar o processo de inovação nas empresas de confecção de modinha na Feira da José Avelino. Para alcançá-lo, realizou-se um estudo de caso na Feira da José Avelino. Os dados foram coletados por meio de entrevista em profundidade com 11 feirantes e analisados com a análise de conteúdo. Encontrou-se que, embora a Feira seja reconhecida como polo de moda e seja capaz de criar moda, há uma grande influência externa, especialmente de novelas, sendo um mercado de massa. Constatou-se que a estratégia inovativa predominante é a imitativa. Existe um ciclo incessante em que, quando surge uma inovação, os feirantes imitam uns aos outros, levando à saturação, com produtos sem diferenciação e com preços baixos que fazem com que haja concorrência acirrada entre as empresas, induzindo-as a buscarem inovações para se destacarem. Assim, a imitação leva à inovação.",
+        "pdf_url": "https://seer.uscs.edu.br/index.php/revista_gestao/article/download/5088/2755",
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "W2962525207",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A inovação tecnológica como elemento de dinamização empresarial",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1822/17326",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Fernando Manuel Barbosa de Oliveira Nogueira Merino"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "Esta dissertação aborda a inovação tecnológica como elemento de dinamização empresarial, num momento em que é crucial a discussão da capacidade empreendedora, mas também a discussão dos motores da diferenciação. A dissertação analisa a complexidade na relação entre a inovação tecnológica e a dinamização empresarial, através do estudo do caso de uma empresa têxtil. A metodologia de investigação desenvolve-se segundo um protocolo e um modelo de entrevistas que permitem construir um cenário sobre a evolução da empresa. Esta metodologia permite também, face aos conceitos teóricos fundamentais sobre a inovação tecnológica como elemento de dinamização empresarial, avaliar a evolução da empresa ao nível dos modelos e das estratégias de inovação e impactos na sua estrutura organizacional. A dissertação conclui que todo o processo de inovação da empresa estudada assenta numa relação entre os principais factores externos (natureza industrial da região em que a empresa está instalada, o impacto de políticas públicas e os aspectos de globalização associados ao sector automóvel, que é o seu principal cliente) e os factores internos (experiência acumulada, modernização organizacional e tecnológica). Ao serem determinantes para o desempenho da empresa, esses factores contribuíram para a sua dinamização e permitem perceber a importância da inovação tecnológica como factor decisivo para aumento da sua força competitiva. Este estudo permite realçar a complexidade na relação entre a variável inovação tecnológica e a variável dinamização empresarial, mas incide apenas sobre o caso de uma empresa. Assim, a extensão a outras empresas, e a outros enquadramentos empresariais, permitirá recolher mais dados através dos quais se poderá generalizar as conclusões obtidas.",
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W90988303",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Competitividade internacional em têxteis.",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.12.2003.tde-15032004-122616",
+        "doi": "10.11606/d.12.2003.tde-15032004-122616",
+        "year": 2003,
+        "authors": [
+          "Eduardo Armando"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "The study analyzes the international competitiveness of the textile sector through supply chain interactions. It specifically verifies how the globalization of the retail sector influences the international competitiveness of garment suppliers, all of them listed as vendors of international retailers operating in Brazil. The effort aims to contribute to enhancing the international competitive strength of garment makers. The starting point is a theoretical review of the themes: International Competitiveness, Globalization Strategies and Strategic Alliances; comparing the concepts with what was found in the field study. The research method is a multiple case study. Cases were selected through visits to the points-of-sale of the international retailers, all of them located in the metropolitan area of the city of Sao Paulo. The main findings are: (1) Only one company is endeavoring to create international brands; (2) The network of alliances might have had an instrumental role in the competitive success of many of the companies; (3) Only one of the Brazilian companies pursues the strategy of increasing the added value of the products it sells; (4) In at least one company there is awareness that low wages will not always bring success in this sector; (5) There might be hurdles in the textile supply chain that halt the garment makers to comply with the pattern demanded by international retailers in the operations they carry in developed countries. Many other interesting facts were found and a chart with recommendations to some of the cases studied is presented.",
+        "pdf_url": null,
+        "citation_count": 4,
+        "work_type": "thesis",
+        "identifier": "W1555583123",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "O trabalho flexível no comércio varejista: multifuncionalidade e precarização",
+        "source": "openalex",
+        "url": "https://repositorio.ufscar.br/handle/20.500.14289/6751",
+        "doi": null,
+        "year": 2013,
+        "authors": [
+          "Silvio Matheus Alves Santos"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Esta dissertação tratou sobre o trabalho numa multinacional fast fashion do comércio varejista, tendo como centro de análise os trabalhadores estáveis que estão inseridos numa organização do trabalho flexível, numa lógica de competências e multifuncionalidade, na busca de metas presentes no plano de carreira. Nesse contexto, constatamos processos de intensificação e precarização do trabalho ao investigarmos como os trabalhadores absorvem as responsabilidades das metas (profissionais e pessoais) colocadas pela empresa e seus impactos na saúde física e psíquica desses trabalhadores. O trabalho se intensifica e se complexifica com o aumento da demanda em eventos comemorativos, com acréscimo de responsabilidades frente às metas e o acúmulo de tarefas e responsabilidades que surgem com o plano de carreira. A pesquisa foi realizada em duas lojas da rede C&A de Aracaju - Sergipe, no ano de 2011, com a utilização de entrevistas com trabalhadores, observações do trabalho, levantamento de material e documentação pública sobre a empresa.",
+        "pdf_url": null,
+        "citation_count": 4,
+        "work_type": "thesis",
+        "identifier": "W2745981405",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "O Papel das Associações Empresariais no Processo de Internacionalização das Pequenas e Médias Empresas Portuguesas",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/10216/137222",
+        "doi": "10.34626/spam-qs10",
+        "year": 2021,
+        "authors": [
+          "Gonçalves, Ana Teresa Ralha"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "Num mundo cada vez mais globalizado e interdependente, a internacionalização das empresas desempenha um papel central no desenvolvimento das economias. Neste contexto importa estudar a internacionalização das Pequenas e Médias Empresas (PMEs) e que estas empresas, pela sua relevância na economia nacional, considerem a internacionalização como uma via para se manterem competitivas e garantirem a sua sobrevivência nos mercados. A exportação é o modo de entrada em mercados internacionais escolhido pela maioria das PMEs por necessitar de menos recursos e envolver riscos menores. Ainda assim, estas enfrentam um leque de dificuldades que têm de superar, designadas como barreiras à exportação. Por sua vez, governos e instituições têm interesse no sucesso económico destas empresas havendo apoios vários à internacionalização. Desta forma, e apesar da variedade de apoios externos disponíveis – governamentais, consultoria internacional, entre outros – as empresas podem recorrer a programas oferecidos pelas associações empresariais (AEs) por forma a terem apoio no seu Processo de Internacionalização. Tendo as associações empresariais um leque de oferta de serviços de apoio ao nível da internacionalização, este trabalho estuda, pela primeira vez, como é que estas associações intervêm na internacionalização das pequenas e médias empresas via exportações, considerando as barreiras à exportação existentes. Para o efeito estudaram-se cinco associações empresariais – as suas perceções sobre as barreiras à exportação bem como as respetivas atividades de apoio à internacionalização. Neste estudo, as associações empresariais identificaram que as principais barreiras às exportações das PMEs são as barreiras funcionais e de marketing. Por sua vez, na implementação dos seus programas de promoção à exportação, as ações prevalentes são feiras internacionais, apoios e incentivos do estado, ações de promoção externa, formações & workshops e missões empresariais. A perceção é de que estas AEs têm uma intervenção influente no processo de internacionalização das PMEs participantes, via suavização de barreiras à exportação, mais concretamente nas barreiras funcionais e informativas. Estas AEs, contudo, não promovem ações individualizadas, nem dirigidas às barreiras de marketing, observando-se uma lacuna parcial entre aquelas que são as necessidades das empresas e as atividades desenvolvidas.",
+        "pdf_url": "https://repositorio-aberto.up.pt/bitstream/10216/137222/2/511360.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7111385943",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A circularidade na cadeia produtiva de moda brasileira: um estudo de casos múltiplos",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.100.2022.tde-03112022-114259",
+        "doi": "10.11606/d.100.2022.tde-03112022-114259",
+        "year": 2023,
+        "authors": [
+          "Milena Silva Santos"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.100.2022.tde-03112022-114259",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Do Algodão à passarela: impactos socioeconômicos e ambientais da cadeia produtiva da moda",
+        "source": "crossref",
+        "url": "https://doi.org/10.38116/radar80art8",
+        "doi": "10.38116/radar80art8",
+        "year": 2025,
+        "authors": [
+          "Mylena da Silva Gomes Barreto"
+        ],
+        "venue": "Radar: tecnologia, produção e comércio exterior",
+        "abstract": "A cadeia produtiva da moda brasileira conecta os três macrossetores da economia, gerando impactos econômicos, sociais e ambientais significativos. Com a forte presença de informalidade, precariedade laboral e desafios ambientais como o fast fashion, iniciativas como Justa Trama, Colabora Moda Sustentável e o programa Inova Amazônia exemplificam alternativas alinhadas aos Objetivos de Desenvolvimento Sustentável (ODS). O escopo deste trabalho é descrever a cadeia produtiva da moda e analisar seus impactos socioeconômicos e ambientais no Brasil, discutindo em que medida suas características estruturais desafiam ou favorecem o cumprimento da Agenda 2030. A integração de políticas públicas e práticas sustentáveis é essencial para transformar a cadeia da moda em direção a um modelo mais ético e ambientalmente responsável.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.38116/radar80art8",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Instituto de Pesquisa Economica Aplicada - IPEA"
+        }
+      },
+      {
+        "title": "Estrutura da cadeia produtiva da Moda",
+        "source": "crossref",
+        "url": "https://doi.org/10.5965/1982615x01012008007",
+        "doi": "10.5965/1982615x01012008007",
+        "year": 2008,
+        "authors": [
+          "Sandra Regina Rech"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "O termo cadeia produtiva da moda expressa o sistema têxtil e de confecção que se configura como uma filière, governada pelo comprador e caracterizada por elevado grau de complementaridade, da qual depende boa parte do sucesso que o produto obtém no mercado. Engloba diversos setores produtivos, desde as atividades manufatureiras de base até os serviços avançados de distribuição; e, apresenta certas especificidades: heterogeneidade estrutural e tecnológica; segmentação produtiva; relações de subcontratação; bifurcação entre as atividades produtivas (materiais) e as funções corporativas (imateriais). Atualmente, atravessa um período de profundas mudanças face ao processo de globalização e a abertura de novos mercados. Os componentes mais sensíveis destas transformações são o deslocamento da produção devido aos custos operacionais; a exasperação da concorrência; a redução do ciclo devida dos produtos de moda; o incremento veloz das tecnologias e modificações complexas na estrutura dos mercados. O exame desta nova conjuntura mundial é essencial para a formatação de ações pró-competitividade que se alicerçam, basicamente, no emprego de um grupo de elementos dinâmicos que assegurem a obtenção de vantagens comparativas sólidas frente àsnovas exigências mercadológicas.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/modapalavra/article/download/7565/5068",
+        "citation_count": 7,
+        "work_type": "article",
+        "identifier": "10.5965/1982615x01012008007",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade do Estado de Santa Catarina"
+        }
+      },
+      {
+        "title": "Design têxtil: desdobramentos e conexões na cadeia produtiva do Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.100.2023.tde-15122023-180333",
+        "doi": "10.11606/d.100.2023.tde-15122023-180333",
+        "year": 2024,
+        "authors": [
+          "Monika Debasa"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.100.2023.tde-15122023-180333",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "TERCEIRIZAÇÃO NA CADEIA PRODUTIVA DE UMA EMPRESA DO VAREJO DE MODA BRASILEIRO",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.57090",
+        "doi": "10.17771/pucrio.acad.57090",
+        "year": 2022,
+        "authors": [
+          "NATHALIA PEDRETTI PACHA BICHARA",
+          "MARCELO FERREIRA XAVIER"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.57090",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "Cadeia produtiva e mercado: um estudo sobre a produção e a venda de moda varejista na cidade de São Paulo",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.8.2015.tde-10062015-154539",
+        "doi": "10.11606/d.8.2015.tde-10062015-154539",
+        "year": 2016,
+        "authors": [
+          "Victor Callil"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.8.2015.tde-10062015-154539",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "A exclusão do roteiro no financiamento da cadeia produtiva do filme no Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.100.2014.tde-21122014-154706",
+        "doi": "10.11606/d.100.2014.tde-21122014-154706",
+        "year": 2016,
+        "authors": [
+          "André Meirelles Collazzi"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.100.2014.tde-21122014-154706",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Desconcentração produtiva regional e a cadeia têxtil no nordeste do Brasil pós-1990",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2011.827623",
+        "doi": "10.47749/t/unicamp.2011.827623",
+        "year": 2021,
+        "authors": [
+          "Denisia Araujo Chagas Tavares"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2011.827623",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "CANNABIS MEDICINAL NO BRASIL: PERSPECTIVAS PARA A CADEIA PRODUTIVA",
+        "source": "crossref",
+        "url": "https://doi.org/10.22533/at.ed.3642512031",
+        "doi": "10.22533/at.ed.3642512031",
+        "year": 2025,
+        "authors": [
+          "Flávio Alexandre Carvalho",
+          "André Gonzaga dos Santos",
+          "Caio Humberto Perego",
+          "Júlio Gabriel Sanches de Camargo"
+        ],
+        "venue": "Cadeia Produtiva da Cannabis Medicinal - da Secagem ao Armazenamento das Inflorescências",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.22533/at.ed.3642512031",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Atena Editora"
+        }
+      },
+      {
+        "title": "Cadeia Produtiva da Moda: um Modelo Conceitual de Análise da Competitividade no Elo Confecção",
+        "source": "crossref",
+        "url": "https://doi.org/10.5965/1808312903052008567",
+        "doi": "10.5965/1808312903052008567",
+        "year": 2008,
+        "authors": [
+          "Sandra Regina Rech"
+        ],
+        "venue": "DAPesquisa",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.5965/1808312903052008567",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade do Estado de Santa Catarina"
+        }
+      },
+      {
+        "title": "Bambus nativos do Brasil: panorama das iniciativas para uma cadeia produtiva integrada à conservação",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2019.1093191",
+        "doi": "10.47749/t/unicamp.2019.1093191",
+        "year": 2020,
+        "authors": [
+          "Aline Lopes e Lima"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2019.1093191",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "As diferenças do supply chain de moda entre as coleções tradicionais e o fast fashion: um estudo dos desafios e ações empreendidas pelas empresas têxteis que atuam no início da cadeia produtiva de moda",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.100.2016.tde-14032016-234858",
+        "doi": "10.11606/d.100.2016.tde-14032016-234858",
+        "year": 2017,
+        "authors": [
+          "Ricardo Brito Almeida"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.100.2016.tde-14032016-234858",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Cadeia produtiva da energia eólica no Brasil : cenário atual, perspectivas, oportunidades e estudo de caso",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/003158970",
+        "doi": "10.11606/003158970",
+        "year": 2026,
+        "authors": [
+          "João Paulo Marin Santo Mauro"
+        ],
+        "venue": null,
+        "abstract": "Este material tem como objetivo apresentar as características da Cadeia Produtiva Industrial da Energia Eólica no Brasil e serão consideradas análises para o desenvolvimento da cadeia dos principais componentes de um aerogerador, bem como um estudo de caso sobre a nacionalização da produção de pitch-drives tendo em vista a necessidade de um mínimo conteúdo local para determinados projetos financiados pelo BNDES.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/003158970",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Governança na cadeia produtiva do leite no Brasil: uma proposta metodológica para o aprimoramento do Conseleite",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.11.2026.tde-06112026-151432",
+        "doi": "10.11606/d.11.2026.tde-06112026-151432",
+        "year": 2026,
+        "authors": [
+          "José Roberto Canziani Filho"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.11.2026.tde-06112026-151432",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "A cadeia produtiva de plásticos recicláveis: o caso do PEAD no Sudeste do Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2021.1167761",
+        "doi": "10.47749/t/unicamp.2021.1167761",
+        "year": 2023,
+        "authors": [
+          "Nathalia Silva de Souza Lima Cano"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2021.1167761",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Competitividade e mudança institucional na cadeia produtiva de plantas medicinais no Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.20435/1984042x2016210",
+        "doi": "10.20435/1984042x2016210",
+        "year": 2016,
+        "authors": [
+          "Waldecy Rodrigues"
+        ],
+        "venue": "Interações (Campo Grande)",
+        "abstract": "O Brasil possui uma das maiores reservas de biodiversidade do planeta, continua apresentando um baixo nível de competitividade revelada na cadeia produtiva de plantas medicinais e um dos motivos são os entraves burocráticos e institucionais do país. Com a aprovação da Política Nacional de Práticas Integrativas e Complementares (PNPIC) no SUS, a Política Nacional de Plantas Medicinais e Fitoterápicos (PNPMF) e a criação da categoria de “Produtos Tradicionais Fitoterápicos” (RDC 26/2014 - ANVISA), espera-se a melhoriadas condições de competitividade sistêmica no setor.",
+        "pdf_url": "https://interacoesucdb.emnuvens.com.br/interacoes/article/download/1102/1058",
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "10.20435/1984042x2016210",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Catolica Dom Bosco"
+        }
+      },
+      {
+        "title": "Transformações e características da cadeia produtiva da soja em Mato Grosso (Brasil)",
+        "source": "crossref",
+        "url": "https://doi.org/10.17058/redes.v27i1.16725",
+        "doi": "10.17058/redes.v27i1.16725",
+        "year": 2022,
+        "authors": [
+          "Valdemar João Wesz Junior"
+        ],
+        "venue": "Redes",
+        "abstract": "Este artigo analisa as transformações e a características da cadeia produtiva da soja em Mato Grosso (Brasil), com ênfase na expansão do cultivo no estado, nos atores (sobretudo produtores rurais e indústrias) e na estrutura de mercado. Para tanto, conciliou-se um conjunto de técnicas de pesquisa, como revisão bibliográfica, análise estatística e entrevistas semiestruturadas. Os resultados apontam que, além do grande crescimento na área plantada, na produção e na produtividade da soja, o cultivo do grão tem se concentrado entre os produtores com maior área. Além disso, o setor está dominado por um reduzido número de grandes empresas transnacionais, que inclusive atuam em vários elos da cadeia produtiva de forma verticalizada. O que se observa, sinteticamente, é a elevada imersão do mercado mato-grossense da soja nas redes globais de produção, de modo que a governança desta cadeia local está perpassada, cada vez mais, por processos, dinâmica e atores transnacionais.",
+        "pdf_url": "https://online.unisc.br/seer/index.php/redes/article/download/16725/10679",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "10.17058/redes.v27i1.16725",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "APESC - Associacao Pro-Ensino em Santa Cruz do Sul"
+        }
+      },
+      {
+        "title": "Considerações sobre o ambiente externo da cadeia produtiva do leite no Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.4013/pe.2012.81.01",
+        "doi": "10.4013/pe.2012.81.01",
+        "year": 2012,
+        "authors": [
+          "Vilmar Nogueira Duarte"
+        ],
+        "venue": "Perspectiva Econômica",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.4013/pe.2012.81.01",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "UNISINOS - Universidade do Vale do Rio Dos Sinos"
+        }
+      },
+      {
+        "title": "A expansão da cadeia produtiva da geração distribuída no Brasil: uma análise dos incentivos fiscais e financeiros",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2026.1551387",
+        "doi": "10.47749/t/unicamp.2026.1551387",
+        "year": 2026,
+        "authors": [
+          "Laurena Catarine de Jesus Souto"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2026.1551387",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Impactos Econômicos e Ambientais da Cadeia de Fertilizantes em Sergipe: Agentes e Estrutura Produtiva no Mundo e no Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.37423/2026.edcl1374",
+        "doi": "10.37423/2026.edcl1374",
+        "year": 2026,
+        "authors": [
+          "Marco Aurélio Pereira Buzinaro",
+          "Elenilton Teodoro Domingues",
+          "Izaias Dionizio dos Santos",
+          "Ana Sabrina de Oliveira Leme Domingues",
+          "Sirley Santana de Carvalho"
+        ],
+        "venue": "Impactos Econômicos e Ambientais da Cadeia de Fertilizantes em Sergipe: Agentes e Estrutura Produtiva no Mundo e no Brasil",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.37423/2026.edcl1374",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "Editora Conhecimento Livre"
+        }
+      }
+    ]
+  },
+  "count": 32,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:04:03.813534+00:00"
+}

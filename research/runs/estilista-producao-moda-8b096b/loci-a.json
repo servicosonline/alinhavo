@@ -1,0 +1,52 @@
+{
+  "analyst_id": "a",
+  "corpus_tag": "estilista-producao-moda-8b096b",
+  "loci": [
+    {
+      "name": "arquitetura-responsabilidades-tarefas-estilista-pdp-porte-empresarial",
+      "one_line": "Como se estruturam as responsabilidades (Matriz R/P/I) e as tarefas passo a passo da estilista ao longo do Processo de Desenvolvimento de Produto (PDP) e como essa divisão se altera entre micro/pequenas confecções, marcas de moda autoral/luxo e grandes indústrias?",
+      "flavor": "synthesis",
+      "corpus_evidence": [
+        "marisa-beatriz-poletto-jordan",
+        "source-analysis-processo-de-desenvolvimento-de-produto-na-indústria-têxtil-jorda",
+        "universidade-de-são-paulo",
+        "universidade-de-são-paulo-8",
+        "universidade-de-são-paulo-2",
+        "guia-de-orientação-para-o-desenvolvimento-de-projetos-godp-aplicado-à-prática-pr"
+      ],
+      "rationale": "Responde diretamente às sub-questões 1 e 2 da pesquisa (responsabilidades e tarefas por etapa), contrastando o modelo formal de 15 etapas e 5 gates (Jordan 2004; Araújo 2017) com a divisão real de funções entre estilista, gerente de estilo e assistentes de estilo (Marcelo 2016) e o acúmulo multifuncional nas PMEs (Queiroz 2023)."
+    },
+    {
+      "name": "ficha-tecnica-pdm-plm-vs-informalidade-operacional",
+      "one_line": "Por que a Ficha Técnica e os sistemas PDM/PLM — desenhados para serem a espinha dorsal de comunicação entre estilista, custos, modelagem e facção — sofrem rejeição, preenchimento pós-protótipo ou colapso de implantação nas confecções brasileiras?",
+      "flavor": "dialectical",
+      "corpus_evidence": [
+        "universidade-de-são-paulo",
+        "source-analysis-design-colaborativo-e-implantação-de-plm-na-moda-no-brasil-araúj",
+        "marisa-beatriz-poletto-jordan",
+        "universidade-de-são-paulo-8",
+        "3d-dynamic-fashion-design-development-using-digital-technology-and-its-potential"
+      ],
+      "rationale": "Investiga uma das maiores dores estruturais da estilista: a tensão entre a exigência de especificação técnica exata (BOM, sequência operacional, medidas, encaixe) e a realidade de processos Nível 2 baseados na memória, falta de parâmetros de pré-custo e fracasso de softwares PLM pesados."
+    },
+    {
+      "name": "interfaces-tecnicas-modelagem-pilotagem-encaixe-faccoes",
+      "one_line": "Quais são os mecanismos exatos de atrito técnico, retrabalho e perda de qualidade nas interfaces da estilista com modelagem, pilotagem/prova de caimento, encaixe/corte (desperdício têxtil de 10–17%) e facções terceirizadas?",
+      "flavor": "technical",
+      "corpus_evidence": [
+        "fit-models-roles-in-identifying-fit-issues-in-the-apparel-technical-design-proce",
+        "universidade-de-são-paulo-8",
+        "universidade-de-são-paulo-5",
+        "universidade-de-são-paulo-4",
+        "terceirização-na-indústria-de-vestuário-projetica"
+      ],
+      "rationale": "Responde diretamente à sub-questão 3 (interfaces com outras funções) e mapeia onde as decisões estéticas da estilista colidem com a física do tecido, a geometria do molde/encaixe e a capacidade fabril das oficinas de costura."
+    }
+  ],
+  "skip_loci": [
+    {
+      "topic": "sindicalismo-transnacional-bangladesh",
+      "reason": "Estudos sobre ação sindical internacional pós-Rana Plaza (ex.: Veiga & Galhera 2017) contextualizam o risco trabalhista na cadeia, mas fogem do escopo direto das tarefas e dores operacionais da estilista no desenvolvimento de produto."
+    }
+  ]
+}

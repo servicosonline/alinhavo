@@ -8,6 +8,7 @@ import { ui } from "@/components/ui";
 import { requireUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
 import { formatMoney } from "@/lib/money";
+import { fabricYieldMetersPerKg } from "@/lib/fabric-form";
 import { canEditProducts, getMyRole, getOrgPlan } from "@/lib/org-access";
 import { PlanLock } from "@/components/plan-lock";
 import { planAllows } from "@/lib/plans";
@@ -40,7 +41,7 @@ async function Tecidos({ params }: { params: PageProps<"/painel/[orgId]/tecidos"
     // Sem a foto (pesada): a lista só diz se tem.
     supabase
       .from("fabrics")
-      .select("id, name, composition, width_mm, weight_gsm, price_cents, preset, stretch_pct, drape, texture_cm")
+      .select("id, name, composition, width_mm, weight_gsm, price_cents, price_per_kg_cents, shrinkage_warp_pct, shrinkage_weft_pct, preset, stretch_pct, drape, texture_cm")
       .eq("org_id", orgId)
       .order("name"),
   ]);
@@ -76,7 +77,14 @@ async function Tecidos({ params }: { params: PageProps<"/painel/[orgId]/tecidos"
                   {[
                     f.width_mm && `largura ${formatCm(f.width_mm)} cm`,
                     f.weight_gsm && `${String(f.weight_gsm).replace(".", ",")} g/m²`,
+                    (() => {
+                      const yld = fabricYieldMetersPerKg(f.width_mm, f.weight_gsm ? Number(f.weight_gsm) : null);
+                      return yld ? `rend. ${String(yld).replace(".", ",")} m/kg` : null;
+                    })(),
                     f.price_cents != null && `${formatMoney(f.price_cents)}/m`,
+                    f.price_per_kg_cents != null && `${formatMoney(f.price_per_kg_cents)}/kg`,
+                    (f.shrinkage_warp_pct != null || f.shrinkage_weft_pct != null) &&
+                      `encolh. ${String(f.shrinkage_warp_pct ?? 0).replace(".", ",")}% × ${String(f.shrinkage_weft_pct ?? 0).replace(".", ",")}%`,
                     f.preset && `Prova: ${PRESET_LABEL[f.preset] ?? f.preset}`,
                     f.stretch_pct != null && `estica ${String(f.stretch_pct).replace(".", ",")}%`,
                     f.texture_cm != null && "com foto",

@@ -1,0 +1,857 @@
+{
+  "ok": true,
+  "data": {
+    "query": "ficha técnica confecção vestuário retrabalho padronização",
+    "scope": "all",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab",
+      "clinicaltrials"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 20,
+      "doab": 0,
+      "clinicaltrials": 0
+    },
+    "raw_records": 40,
+    "merged_records": 40,
+    "returned": 40,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref.",
+      "SEC EDGAR: set HYPERRESEARCH_CONTACT_EMAIL — the SEC rejects requests whose User-Agent carries no contact address (HTTP 403)",
+      "FRED: set FRED_API_KEY"
+    ],
+    "results": [
+      {
+        "title": "Diretrizes para o ensino de modelagem do vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2013.tde-19022014-213611",
+        "doi": "10.11606/d.100.2013.tde-19022014-213611",
+        "year": 2013,
+        "authors": [
+          "Danielle Paganini Beduschi"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This research discusses historical analysis of methodologies for pattern making teaching and proposes the development of guidelines for teaching. The study presents a historical survey about the various techniques and methods used since the 1960s, making a balance between method and socio-cultural period in order to search for techniques to facilitate the learning process under discussion. The analysis of the main pattern making techniques used over time, the curricula of leading Fashion Graduation programs, and the research with professional educators, will provide a broad overview of what can be used to optimize the learning process and what should be discarded for not favoring a faster and better training. After the study in question, this project proposes a set of guidelines that encourage the transformation of the student in a qualified professional to act in Pattern making clothing.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-19022014-213611/publico/DanielleBeduschirevisaoOutubro.pdf",
+        "citation_count": 16,
+        "work_type": "thesis",
+        "identifier": "W2163966604",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Diretrizes para a normalização de desenhos técnicos do vestuário para o segmento de malharia circular",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/96393",
+        "doi": null,
+        "year": 2013,
+        "authors": [
+          "Renata Lodi"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "Esta dissertação trata do tema desenho técnico do vestuário. O objetivo deste trabalho foi sistematizar diretrizes para a representação gráfica técnica de acabamentos, detalhes, linhas e cotas em produtos do vestuário do segmento de malharia circular com vistas à sua normalização. A pesquisa foi classificada como aplicada, qualitativa e exploratória. A coleta de dados ocorreu por meio de entrevistas semiestruturadas e coleta documental realizadas de forma presencial e por meio eletrônico (e-mail). Os participantes foram sete docentes de disciplinas de desenho técnico que atuam em instituições de ensino superior que possuem cursos de moda em nível bacharelado e, oito profissionais do desenvolvimento de produto de empresas de confecção do vestuário que trabalham com malha circular. Com isso, foi possível diagnosticar como é feita a representação de desenhos técnicos do vestuário nestes dois ambientes, o acadêmico e o industrial, localizados em diferentes regiões brasileiras. Os resultados das entrevistas foram apresentados através de quadros comparativos com cruzamento dos dados coletados. Como resultado, apresentam-se diretrizes para a construção do desenho e representação de cores, linhas, cotas/medidas. Outro produto deste trabalho é um catálogo dos principais acabamentos e detalhes utilizados em malha circular com descrições, imagens e representações técnicas dos mesmos.",
+        "pdf_url": "https://lume.ufrgs.br/bitstream/10183/96393/1/000915079.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2292580252",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Proposta de um modelo de referência para o processo de desenvolvimento de produto do vestuário",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/606",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Isabel Cristina Moretti"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "O processo de desenvolvimento de produto do vestuário (PDPV) sofre influência da moda, esse fator confere a esse processo dinamismo e exige rapidez durante o desenvolvimento. As empresas desenvolvem seus produtos em linhas sazonais (coleções) em vez de produtos individuais, com uma grande quantidade de produtos por coleção e várias coleções ao ano. Consequentemente apresentam um curto período de tempo para o desenvolvimento de cada coleção. Neste sentido, a adoção de estruturas organizacionais adequadas e de boas práticas para o PDP, pode ajudar a melhorar o desempenho desse processo na indústria de confecção, que é essencial para a competitividade das empresas. Por meio da utilização de modelo de referência a empresa pode criar sua própria estrutura para a realização das atividades, de modo que o modelo se adapte a realidade da empresa, e ao mesmo tempo sistematize as atividades e estruture o processo. O objetivo desse trabalho foi propor um modelo de referência específico para a indústria do vestuário, adaptado as suas características. Este pode ser um caminho para estas empresas estruturarem seu PDP, aumentando o desempenho do processo e consequentemente dessas empresas no mercado. A abordagem do problema foi qualitativa e o desenvolvimento do modelo foi por meio de revisão de literatura e pesquisa de campo. A coleta de dados foi realizada por meio de entrevistas com empresas, profissionais e professores da área de PDPV. O objetivo das entrevistas foi de mapear o PDP nestas áreas. A construção do modelo foi feita em três etapas. A primeira etapa foi de construção de uma representação teórica, ou seja, um modelo teórico desenvolvido por meio da comparação de um modelo de referência genérico e modelos específicos para o vestuário. A segunda etapa foi de comparação do mapeamento das entrevistas com a representação teórica, confrontando a teoria e a prática. A terceira etapa foi o desenvolvimento do modelo propriamente dito. O modelo está desmembrado em macro-fases, fases e atividades. Cada fase foi detalhada com o fluxo de atividades e seus responsáveis, além das entradas e saídas de documentos e informações. O desenvolvimento do modelo de referência proposto vem de encontro com essas informações levantadas na literatura e nas entrevistas. Logo, pode estar contribuindo para a estruturação do processo no âmbito industrial e pesquisas na área de desenvolvimento de produto do vestuário, no âmbito acadêmico. O modelo de referência para o PDPV é uma junção de boas práticas que podem ser utilizadas em sua totalidade para estruturar com flexibilidade o PDP, ou ser utilizado parcialmente por meio de uma adaptação, ajustando-se à realidade a qual será utilizado.",
+        "pdf_url": null,
+        "citation_count": 8,
+        "work_type": "thesis",
+        "identifier": "W2258493215",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "AVALIAÇÃO DA QUALIDADE DO PROCESSO EM UMA EMPRESA DE CONFECÇÃO NO MUNICIPIO DE PARAUAPEBAS",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.14488/enegep2024_tn_st_414_2037_47362",
+        "doi": "10.14488/enegep2024_tn_st_414_2037_47362",
+        "year": 2024,
+        "authors": [
+          "JULIANA DOS SANTOS ALBUQUERQUE",
+          "LUCIANE PEREIRA DA SILVA",
+          "Alciene Lopes dos Santos",
+          "ROSANA MARIA DO NASCIMENTO LUZ",
+          "Rafael da Silva Fernandes"
+        ],
+        "venue": "Anais ... Encontro Nacional de Engenharia de Produção/Anais do Encontro Nacional de Engenharia de Produção",
+        "abstract": "No setor de confeco de vesturio a busca pela mxima qualidade mostra-se um fator de grande relevncia em virtude da competividade existente no mercado, no entanto, desafios como o elevado ndice de desperdcios, baixa qualidade de produtos e falta de mo de obra especializada afetam o desempenho deste ramo. O presente trabalho teve como objetivo avaliar a qualidade dos processos em uma empresa do ramo de confeco caracterizada como mdio porte no municpio de Parauapebas/PA, com o intuito de utilizar ferramentas da qualidade para garantir a melhoria nos processos de produo e reduo de custos. Por meio de pesquisas bibliogrficas e pesquisas de campo, observou-se que um considervel obstculo eficincia nas operaes e reduo de custos, estava associado ausncia da aplicao eficaz das prticas da metodologia 5S, o que exercia uma influncia significativa sobre os custos relacionados ao tempo. Tornou-se visvel a necessidade de uma modificao na cultura organizacional da empresa, como um requisito para o xito na implementao do programa 5S e, consequentemente, minimizao de custos.",
+        "pdf_url": "http://www.abepro.org.br/biblioteca/TN_ST_414_2037_47362.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4404139432",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "APLICAÇÃO DO FMEA PARA ANÁLISE E REDUÇÃO DE RETRABALHOS NO PROCESSO DE COSTURA EM UMA INDÚSTRIA DE BONÉS NO NORTE DO PARANÁ",
+        "source": "openalex",
+        "url": "https://doi.org/10.14488/enegep2026_tn_st_439_2173_53572",
+        "doi": "10.14488/enegep2026_tn_st_439_2173_53572",
+        "year": 2026,
+        "authors": [
+          "Alexandre José Sousa Ferreira",
+          "Nívea Taís Vila",
+          "André Luiz Gazoli de Oliveira",
+          "PAMELA GABRIELLE ROSE LIDUÁRIO"
+        ],
+        "venue": "Anais ... Encontro Nacional de Engenharia de Produção/Anais do Encontro Nacional de Engenharia de Produção",
+        "abstract": "Este trabalho aplicou o mtodo FMEA (Failure Mode and Effects Analysis) ao setor de preparao da costura de uma indstria de confeco de bons localizada em Apucarana (PR), cidade conhecida como a Capital Nacional do Bon. A partir de observaes diretas no cho de fbrica, entrevistas com operadores e anlise de registros internos de retrabalho referentes ao perodo de janeiro a julho de 2025, foram identificados oito modos de falha distribudos entre quatro operaes do setor de preparao: costurinha, aba, pesponto e traseiro. Os modos de falha foram avaliados pelos ndices de Severidade (S), Ocorrncia (O) e Deteco (D), gerando o Nmero de Prioridade de Risco (RPN) para priorizao das aes. As principais causas identificadas foram regulagem emprica das mquinas e ausncia de procedimentos padronizados. As aes propostas incluram a criao de Procedimentos Operacionais Padro (POPs), padronizao de regulagens, checklist de primeira pea e rotina de manuteno preventiva. A simulao ps-melhoria indicou reduo dos RPNs entre 50% e 87,5%. A anlise econmica demonstrou custo mensal da no qualidade de R$ 928,55, com projeo de reduo para R$ 245,69 aps as melhorias, gerando economia mensal de R$ 682,86 e payback de aproximadamente 16 dias. Os resultados confirmam o potencial do FMEA como instrumento de melhoria contnua em ambientes produtivos com alta dependncia da habilidade humana.",
+        "pdf_url": "http://www.abepro.org.br/biblioteca/TN_ST_439_2173_53572.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W7225048414",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Planejamento de produto e fluxo informacional em empresas do setor de confecção",
+        "source": "openalex",
+        "url": "https://doi.org/10.23972/det2019iss18pp32-50",
+        "doi": "10.23972/det2019iss18pp32-50",
+        "year": 2019,
+        "authors": [
+          "Letícia Cunico",
+          "Claudelino Martins Dias"
+        ],
+        "venue": "Design e Tecnologia",
+        "abstract": "Empresas que trabalham orientadas ao consumidor são pressionadas a buscar inovações constantes em curtos prazos para o lançamento de produtos. Assim, para tornarem-se competitivas, empregam processos e ferramentas que possam qualificar informações para decisões. A preocupação em vender de forma eficiente condiciona a oferta de produtos a valores e desejos do consumidor, desafiando o desempenho comercial do setor confecção. O presente estudo parte do preceito que um melhor desempenho comercial esteja atrelado ao planejamento e desenvolvimento do produto, por meio do aperfeiçoamento do uso da informação. Nesse sentido, propõe: identificar os elementos formadores do planejamento de produto na indústria; analisar as características dos modelos de referência no planejamento do uso da informação, especialmente em empresas do setor de confecção. Para definir preliminarmente o problema de pesquisa e determinar sua relevância, importância e oportunidade do estudo, foi realizada uma revisão sistemática da literatura. Ademais, quanto à classificação da metodologia, utiliza a pesquisa qualitativa básica, destinada à ampliação do conhecimento. Quanto aos objetivos, o trabalho apresenta-se como descritivo, tendo como parâmetro o estudo do planejamento de produto e do fluxo informacional. Como resultados constam a identificação dos elementos formadores do planejamento de produto e do fluxo informacional correspondente. Elementos esses que podem subsidiar a percepção de melhorias ao gerenciamento do contexto de Planejamento de produto em empresas do setor de confecção.",
+        "pdf_url": "https://www.ufrgs.br/det/index.php/det/article/download/527/278",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W2978247048",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "GESTÃO DA QUALIDADE NA INDÚSTRIA DE CONFECÇÃO: UMA ANÁLISE DE NÃO CONFORMIDADE POR MEIO DA APLICAÇÃO DE FERRAMENTAS DA QUALIDADE",
+        "source": "openalex",
+        "url": "https://doi.org/10.14488/enegep2025_tn_wg_427_2094_50037",
+        "doi": "10.14488/enegep2025_tn_wg_427_2094_50037",
+        "year": 2025,
+        "authors": [
+          "Leopoldo Pedro Guimarães Filho",
+          "PETERSON VIEIRA CASTRO",
+          "Vilson Menegon Bristot",
+          "Mateus Alexandre Floriano",
+          "MARIA EDUARDA ZOCHE FERREIRA"
+        ],
+        "venue": "Anais ... Encontro Nacional de Engenharia de Produção/Anais do Encontro Nacional de Engenharia de Produção",
+        "abstract": "Este estudo teve como objetivo geral da pesquisa consiste em analisar o registro de dados do Sistemas, Aplicativos e Produtos em Processamento de Dados (SAP) utilizado no processo de cadastro de informaes em uma indstria de confeco localizada no sul de Santa Catarina. Para alcanar o objetivo geral, prope-se os seguintes objetivos especficos: i) identificar as no conformidades geradas pelo setor Garantia da Informao na indstria de confeco; ii) aplicar ferramentas da qualidade que contribuam com a identificao das causas das no conformidades; iii) sugerir aes para soluo dos problemas encontrados no controle da produo na indstria de confeco pesquisada. A anlise, combinada com ferramentas da qualidade, mostrou que a ausncia de informaes no desenvolvimento das peas gerava atrasos, desperdcios e aumento de custos, assim, foi possvel sugerir aes corretivas que incentivaram a melhoria contnua e otimizao dos processos. Os objetivos foram alcanados, com benefcios evidentes para a empresa, destacando-se a eficcia do uso dos Diagramas de Pareto e de Ishikawa na estruturao dos problemas enfrentados.",
+        "pdf_url": "http://www.abepro.org.br/biblioteca/TN_WG_427_2094_50037.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4415895678",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "A Comunicação mediada pelas tecnologias como fator de influência no desempenho de equipes em projetos de design de moda",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.23972/det2023iss26pp17-36",
+        "doi": "10.23972/det2023iss26pp17-36",
+        "year": 2023,
+        "authors": [
+          "Gabriela Kuhnen",
+          "Richard Perassi de Sousa",
+          "Gilson Braviano",
+          "Elton Moura Nickel"
+        ],
+        "venue": "Design e Tecnologia",
+        "abstract": "As equipes virtuais, assim como o trabalho remoto, possibilitam o agrupamento de indivíduos multidisciplinares de forma descentralizada, tornando, assim, as empresas capazes de atender as exigências competitivas do mercado e a concorrência global. Porém, a mediação da tecnologia e os novos processos comunicacionais podem afetar o desempenho da equipe à medida que surgem questões relacionadas aos aspectos psicossociais e à estruturação e padronização da informação. Nesse sentido, o presente trabalho tem como objeto de estudo a influência da comunicação mediada pelas tecnologias no desempenho das equipes em projetos de design de moda, com ênfase na indústria de confecção do vestuário. As modificações nas estruturas dos mercados, devido a incrementos tecnológicos, têm trazido desafios em relação à manutenção dessas equipes. No desenvolvimento de produto de moda, foi investigado como se estabelecem os processos de comunicação nos principais setores da fase executiva. Os principais indicadores de desempenho usados foram a satisfação relacionada a aspectos psicossociais; a eficiência associada a questões relacionadas ao retrabalho, conflitos e falta de convergência de significado; e a eficácia, medida através dos resultados alcançados em relação às metas estabelecidas. Através da triangulação de dados qualitativos, coletados em quatro empresas de desenvolvimento de produto de moda, com dados quantitativos extraídos de um questionário on-line, os resultados demonstraram que a complexidade da comunicação no design de moda se estabelece à medida que certas etapas necessitam de uma comunicação estruturada, padronizada e precisa, enquanto outras envolvem aspectos como interpretação de imagens, análise de cores ou formas e necessitam de uma comunicação mais rica e intersubjetiva, com alta variedade de símbolos de preferência síncrona.",
+        "pdf_url": "https://www.ufrgs.br/det/index.php/det/article/download/950/348",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4385756241",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Aplicação das ferramentas da qualidade para melhoria dos processos em uma empresa do setor têxtil.",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.52446/cursoengpoducaocdsa.2021.tccmon.limaneto",
+        "doi": "10.52446/cursoengpoducaocdsa.2021.tccmon.limaneto",
+        "year": 2021,
+        "authors": [
+          "José Silvino de Lima Neto"
+        ],
+        "venue": null,
+        "abstract": "As empresas sempre buscam formas alternativas para aumentar suas margens de lucro e eficiência no mercado. Para que isso seja possível, elas precisam além de possuir preços competitivos com o mercado, reduzir a grande quantidade de erros, retrabalhos e produtos avariados, mas de uma forma que não gere muitos custos e não afete a imagem da empresa, visando então ter a maior qualidade de seus produtos. A crescente exigência pela qualidade nos produtos e serviços é decorrente do aumento da concorrência, já que, atualmente, as empresas veem a qualidade como uma estratégia para não pôr em risco a sobrevivência da organização, portanto, com o objetivo de adequar processos para que atinjam as exigências das organizações e de seus clientes, as ferramentas da qualidade, conseguem alto desempenho através das definições, análises, medidas e sugestões de soluções. Diante disso, o estudo teve como objetivo aplicar as ferramentas da qualidade para melhoria dos processos em uma empresa do setor têxtil. A metodologia deu-se através de um estudo de caso, com visitas in loco. A coleta dos dados decorreu através da folha de verificação, com intuito de analisar as causas mais críticas envolvidas no processo. Utilizou-se das ferramentas Diagrama de Ishikawa, Gráfico de Pareto e do 5W2H para desenvolver um plano de ação. Diante disso, os resultados obtidos demonstram impactos significativos como produtos não conformes e retrabalhos que geram custos para a empresa bem como queda de produtividade. Deste modo, a partir das análises das folhas de verificação, identificou-se que o setor de acabamento gera 39% dos problemas registrados, especificamente nos elásticos dos shorts. Com isso, o Diagrama de Ishikawa auxiliou a entender a problemática e junto com o 5W1H e o fluxograma, gerou-se um plano de ação, com análises em diversos setores da empresa. Como melhorias do processo, sugeriu-se reajustar o fluxo produtivo da montagem final, afim de evitar que os erros cheguem no acabamento da peça ou que eventualmente podem chegar até o cliente final.",
+        "pdf_url": "https://dspace.sti.ufcg.edu.br/bitstream/riufcg/23422/1/JOS%c3%89%20NETO%20SILVINO%20DE%20LIMA%20NETO%20-%20TCC%20ENG.%20DE%20PRODU%c3%87%c3%83O%20CDSA%202021.pdf",
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W4382938791",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Percurso metodológico da pesquisa: da construção do recorte empírico à coleta de dados",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/9786555503975-01",
+        "doi": "10.5151/9786555503975-01",
+        "year": 2026,
+        "authors": [
+          "Maria das Neves Medeiros de Melo",
+          "Ismenia Blavatsky de Magalhães",
+          "Flávio Henrique Miranda de Araújo Freire"
+        ],
+        "venue": "Editora Blucher eBooks",
+        "abstract": "O capítulo apresenta o percurso metodológico da pesquisa empírica realizada nos polos de confecção de Toritama (PE), Caicó (RN) e Pacatuba (CE), detalhando as escolhas técnicas, operacionais e analíticas que orientaram a produção dos dados. O objetivo é explicitar os critérios de definição do recorte empírico, a construção e adaptação do instrumento de coleta, o planejamento amostral e os procedimentos de campo, de modo a garantir transparência e consistência às análises desenvolvidas ao longo do livro. A metodologia adotada baseia-se em survey domiciliar de base populacional, com amostragem probabilística em dois estágios, utilizando como referência o questionário da amostra do Censo Demográfico do IBGE, ajustado aos objetivos específicos da pesquisa. As entrevistas foram feitas em 1.200 domicílios, totalizando 3.336 moradores, com coleta realizada entre janeiro e fevereiro de 2024, mediante aplicação digital dos questionários, validação em tempo real e supervisão contínua de campo. Os resultados do processo metodológico evidenciam a viabilidade da produção de dados primários comparáveis entre diferentes contextos territoriais, mesmo em ambientes marcados por informalidade produtiva, mobilidade ocupacional e desconfiança institucional, ao mesmo tempo que explicitam limites operacionais e desafios inerentes à realização de pesquisas domiciliares.",
+        "pdf_url": "https://pdf.blucher.com.br/openaccess/9786555503975/01.pdf",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W7223060431",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Recursos para a avaliação de eficácia de um programa Kaizen direcionado à redução do Lead Time",
+        "source": "openalex",
+        "url": "https://doi.org/10.47456/bjpe.v11i2.48071",
+        "doi": "10.47456/bjpe.v11i2.48071",
+        "year": 2025,
+        "authors": [
+          "Thiago Loretti Arico Martins",
+          "Marília Macorin de Azevedo"
+        ],
+        "venue": "Brazilian Journal of Production Engineering",
+        "abstract": "Este artigo propõe recursos para a avaliação da eficácia de um programa Kaizen na redução do lead time em um processo de confecção de uniformes profissionais. Por meio de um estudo de caso realizado na empresa Alpha, foram comparados os períodos anteriores e posteriores à adoção do programa Kaizen, com o objetivo de mensurar seus impactos no desempenho produtivo. A análise concentrou-se em dados não paramétricos, utilizando ferramentas estatísticas como estatísticas descritivas, histogramas, gráficos de séries temporais, a verificação da normalidade dos dados com o teste Anderson-Darling, bem como a aplicação do teste não paramétrico de Mann-Whitney para investigar potenciais diferenças entre os cenários avaliados. Os resultados apontaram uma redução no lead time e uma tendência decrescente ao longo do tempo, embora a análise estatística não tenha evidenciado diferenças significativas. Diante da inexistência de critérios padronizados para a mensuração objetiva da eficácia do Kaizen, o estudo propõe um conjunto de instrumentos analíticos que possibilitam avaliar de forma sistemática as melhorias em processos produtivos. Dessa forma, contribui-se para o avanço das pesquisas sobre melhoria contínua, oferecendo subsídios teóricos e práticos aplicáveis em contextos industriais semelhantes.",
+        "pdf_url": "https://periodicos.ufes.br/bjpe/article/download/48071/33736",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4411112062",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Implementation of PCP in a fitness clothing microenterprise",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/34414",
+        "doi": null,
+        "year": 2024,
+        "authors": [
+          "Viviane Cristina Arzani Frost"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "The production function has been examined since the origin of humanity. It can be defined as a set of activities that lead to the transformation of a tangible good into another with more excellent utility. Throughout history, production techniques have been improving, and with the Industrial Revolution, some requirements emerged, such as the organization of production, standardization of products, and production processes. This led to the development of new techniques and systems to organize, plan, and control production. With the advance of globalization, competitiveness also increased, and overcoming the ever-growing competition became a challenge to stay in the market. Nevertheless, consumers began to have greater demands regarding the delivery time of the finished product, price, personalized service, and, especially, quality. Thus, a company that is prepared against its competitors will gain new market shares. To meet these demands, planning and controlling production are essential processes; therefore, companies rely on a tool or department called Production Planning and Control (PPC), which aims to create plans that will guide production and serve as a guide for its control. Production planning and control determine what will be produced, when, how, where, and by whom. This work aimed to describe the stages of implementing PPC in a small clothing company, highlighting its importance and necessity. It was applied in a clothing microenterprise located in the city of Maringá-PR. For this study, a literature review was conducted, and data from the company were collected through visits and questionnaires applied to employees. The results indicated that the lack of planning contributes to delays in order delivery and timely acquisition of raw materials, among other issues. Based on the results, improvements were proposed to address the identified difficulties, such as the use of the Trello tool to organize production information, facilitate order tracking, standardization of processes to reduce rework, training of employees to equip them, and performance monitoring to identify areas that need adjustments and implement improvements as necessary.",
+        "pdf_url": "http://repositorio.utfpr.edu.br:8080/jspui/bitstream/1/34414/1/implantacaopcpindustriafitness.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7120334706",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "QUALIDADE NO SETOR TÊXTIL: ESTUDO DE CASO EM UMA EMPRESA PERNAMBUCANA",
+        "source": "openalex",
+        "url": "https://doi.org/10.14488/enegep2026_tn_st_439_2174_54582",
+        "doi": "10.14488/enegep2026_tn_st_439_2174_54582",
+        "year": 2026,
+        "authors": [
+          "Deisy Rodrigues Nogueira",
+          "KEREN KAROLYNE NÓBREGA SILVA",
+          "MARIA EDUARDA ESTEVAM DE ARAÚJO"
+        ],
+        "venue": "Anais ... Encontro Nacional de Engenharia de Produção/Anais do Encontro Nacional de Engenharia de Produção",
+        "abstract": "O setor txtil e de confeco apresenta elevada competitividade, tornando a gesto da qualidade um fator essencial para a permanncia e crescimento das empresas no mercado. Nesse contexto, este estudo foi desenvolvido em uma empresa de vesturio masculino localizada em Santa Cruz do Capibaribe, Pernambuco, que enfrentava dificuldades na manuteno do padro de qualidade devido terceirizao dos processos produtivos. A pesquisa teve como objetivo aplicar ferramentas de gesto da qualidade para melhoria dos processos produtivos e reduo das perdas identificadas na produo. Para tal, o estudo de caso se fundamentou em uma reviso bibliogrfica sobre gesto da qualidade e utilizao de ferramentas como Diagrama de Pareto, Matriz GUT, Diagrama de Ishikawa e Plano de Ao. A anlise permitiu identificar falhas nos processos terceirizados, especialmente pela ausncia de inspees intermedirias durante as etapas produtivas.Assim, os resultados demonstraram elevado ndice de perdas mensais de peas e fragilidades no controle de qualidade. Como contribuio, foi elaborado um plano de ao voltado ao fortalecimento do acompanhamento produtivo, reduo de defeitos e melhoria contnua dos processos, visando ganhos operacionais e econmicos para a organizao.",
+        "pdf_url": "http://www.abepro.org.br/biblioteca/TN_ST_439_2174_54582.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W7225062170",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Processo de desenvolvimento de produto : um estudo para a indústria têxtil",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/6151",
+        "doi": null,
+        "year": 2004,
+        "authors": [
+          "Marisa Beatriz Poletto Jordan"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "Esta dissertação apresenta uma abordagem para a gestão do Processo de Desenvolvimento de Produto (PDP) para empresas do setor têxtil. A gestão refere-se à proposição de uma alternativa de modelo referencial genérico de Desenvolvimento de Produtos para este setor. Como ponto de partida apresenta-se uma análise da situação atual do desenvolvimento do setor, através de pesquisas exploratórias que revelam a necessidade de uma metodologia e definição dos processos de desenvolvimento para que as empresas possam elevar seu nível de competitividade. Para a realização da proposta, foram utilizados conceitos de Desenvolvimento Integrado de Produtos e uma análise através de pesquisa exploratória das dificuldades do setor. Como principal contribuição este trabalho apresenta um modelo referencial para auxiliar as empresas a planejarem seus processos de desenvolvimento e assim aumentarem as chances de sucesso do produto.",
+        "pdf_url": "https://lume.ufrgs.br/bitstream/10183/6151/1/000481618.pdf",
+        "citation_count": 16,
+        "work_type": "thesis",
+        "identifier": "W1568608892",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Quality management in an upholstery company: a case study in the fabric warehouse sector",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/37027",
+        "doi": null,
+        "year": 2025,
+        "authors": [
+          "Ana Carla Potoski"
+        ],
+        "venue": "Institutional Repository of the Federal Technological University of Paraná (RIUT) (Federal University of Technology – Paraná)",
+        "abstract": "Quality permeates the entire production chain of a company, ensuring process efficiency and end consumer satisfaction. Over time, quality management has evolved to meet the needs of more demanding markets, integrating innovation, sustainability and regulatory compliance, becoming a strategic element for organizational success. The objective of this study is to analyze practices and impacts of quality management in an upholstery company, identifying potentials, challenges and problems, so that improvements can be made. The company studied, located in Paraná, has been operating for 23 years with a focus on high-end upholstery and has 360 employees. This is an observational case study, with a qualitative approach, with data collection through interviews and process analysis. The results indicated problems in the fabric warehouse, such as inadequate storage and lack of control, generating rework and extra costs. Data found in 11 weeks show 63 nonconformities and 51 customer complaints related to fabric defects. It was concluded that quality management is essential to improve efficiency, reduce costs and meet the demands of a competitive market.",
+        "pdf_url": "http://repositorio.utfpr.edu.br:8080/jspui/bitstream/1/37027/1/qualidadeestofadoalmoxarifado.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7155458933",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Evaluating production efficiency: an analysis of the performance indicators of a uniform manufacture",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/34712",
+        "doi": null,
+        "year": 2023,
+        "authors": [
+          "Kevin Henrique Dos Santos"
+        ],
+        "venue": "Institutional Repository of the Federal Technological University of Paraná (RIUT) (Federal University of Technology – Paraná)",
+        "abstract": "Apucarana is a center for cap manufacturing in Brazil. Additionally, there are numerous clothing manufacturers, ranging from small to large sizes. The structured companies, in particular, possess specialized workforces and high production quality. By implementing automated machines and providing workforce training, these enterprises constantly strive to enhance their productivity. To evaluate the efficacy of these enhancements, this study analyzes the performance of a uniform supplier in Apucarana using the quantum method to establish time, quality, and cost performance metrics. The findings indicate that the company lacks indicator analysis and that implementing quality indicators in the external production area was imperative due to the issue of backordered batches. The time indicators reveal that the company has organizational issues that could negatively affect productivity, as numerous batches remain idle in different sectors, thus reducing overall productivity. Conversely, the cost indicator suggests that by implementing recommendations based on the analysis conducted in this study, the company can boost profitability.",
+        "pdf_url": "http://repositorio.utfpr.edu.br:8080/jspui/bitstream/1/34712/1/eficienciaprodutiva.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7155467023",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Quality indicators applied to the product development process of a clothing industry: a study’s case",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/40570",
+        "doi": null,
+        "year": 2025,
+        "authors": [
+          "Guilherme Tiago Sperandio da Silva"
+        ],
+        "venue": "Institutional Repository of the Federal Technological University of Paraná (RIUT) (Federal University of Technology – Paraná)",
+        "abstract": "Indicators play a crucial role in organizational management, as they measure performance in different areas, helping to monitor the execution of planned actions and decision-making. In the context of product development, this process is essential for the competitiveness of companies, especially in industries that face high demand for innovation, such as the clothing industry. The use of appropriate methodologies in the Product Development Process (PDP) is essential to ensure success in the market, minimizing rework and maximizing efficiency. In view of this, this study aims to identify quality indicators applicable to the PDP stage, through bibliographic research and interviews in a company in the garment production, comparing theoretical approaches with the practical application of these indicators in the industry. The case study revealed that the company uses indicators informally, without systematized records. This highlights the need for greater knowledge about quality indicators. Based on this, some indicators were suggested that can contribute to the improvement of the stages of textile apparel development.",
+        "pdf_url": "http://repositorio.utfpr.edu.br:8080/jspui/bitstream/1/40570/1/indicadorqualidadedesenvolvimentoconfeccao.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7164454784",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Índice de proporcionalidade de cobertura: um fator para previsibilidade das características da qualidade nos tecidos de malha",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/564",
+        "doi": null,
+        "year": 2013,
+        "authors": [
+          "Vandré Stein"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "Os tecidos de malha, principalmente os que são compostos com um percentual de algodão, apresentam algumas características tais como absorção de umidade, flexibilidade e toque agradável. Estas características têm sua origem no processo de fabricação do setor de malharia. Porém, em contraste com estas excelentes propriedades, um dos principais problemas nas roupas produzidas com estes tecidos de malha é a instabilidade dimensional. Este problema é hoje uma das maiores ameaças ao incremento do uso de tecidos de algodão para confecção de roupas externas. A literatura apresenta uma métrica, conhecida como fator de cobertura (FC), que é o resultado da combinação de duas variáveis fundamentais na malharia: título de fio e comprimento do ponto. Os estudos observados nesta pesquisa relatam a sua importância por permitir prever as características da qualidade dos tecidos de malha. Porém, é percebida a sua limitação quando aplicado em estruturas de malhas diferenciadas e inclusive em diversas malhas básicas com mais de um tipo de fio. Neste contexto, a presente dissertação tem por objetivo apresentar um novo modelo de cálculo para atender esta previsibilidade e auxiliar os profissionais envolvidos na tomada de decisão para aprovação ou reprovação nos desenvolvimentos dos tecidos de malha. Desta forma, foi realizado um estudo que buscou corrigir e ampliar a abrangência deste cálculo. Na revisão bibliográfica verificaram-se todas as variáveis que influenciam no processo físico/mecânico de fabricação dos diversos tipos de estruturas dos tecidos de malha, como também foram analisados os principais estudos nos quais este fator de cobertura foi aplicado. Um levantamento diagnóstico realizado em diversas empresas apontou a situação atual em termos de conhecimento, aplicação e necessidade do FC no processo de desenvolvimento dos tecidos de malha. Após verificação dos aspectos levantados a respeito do FC, confrontando as pesquisas de campo e bibliográfica, buscou-se uma solução para reduzir o elevado índice de insucessos e atrasos no lançamento de novos produtos. Desta forma, através do estudo das variáveis e da inclusão de todos os fios e regulagens envolvidas na estrutura da malha, concebeu-se um novo cálculo para o grau de cobertura da malha baseado no fator de cobertura de Grosberg. Posteriormente, foi elaborada uma ferramenta computacional aplicada em planilha eletrônica onde o cálculo é conduzido automaticamente após inserção dos dados necessários. Em seguida, foi elaborado um estudo comparativo entre o FC e o índice de proporcionalidade de cobertura (IPC) novo cálculo para testar a operacionalidade e a funcionalidade dos mesmos e da ferramenta proposta. Todos os participantes responderam um questionário referente às percepções sobre o modelo e a ferramenta. Por fim, a validação do IPC ocorreu por meio de análise de alguns tecidos de malha com o objetivo de investigar se os valores gerados no cálculo refletem a realidade dos resultados da qualidade obtidos na empresa. O resultado deste estudo indicou que o modelo de cálculo proposto apresenta maior confiabilidade, representatividade e assertividade no desenvolvimento dos novos tecidos de malha. Com isto, pode-se afirmar que os objetivos da dissertação foram atendidos e positivos.",
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W2201177132",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Comparative analysis of the strength of denim fabric treated with ozone, clay stone, and enzymes",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/40672",
+        "doi": null,
+        "year": 2025,
+        "authors": [
+          "Gabriel Libardi Santos Ducceschi"
+        ],
+        "venue": "Institutional Repository of the Federal Technological University of Paraná (RIUT) (Federal University of Technology – Paraná)",
+        "abstract": "Denim is one of the main textile articles in the clothing industry, undergoing various finishing processes to meet the aesthetic demands of the jeanswear market. Considering the growing pursuit of sustainable practices in the sector, this study aimed to conduct a comparative analysis of the mechanical strength and colorimetric change of 100 % cotton denim fabric subjected to stone washing processes with clay stone, enzymes, and ozone. The research sought to understand the effects of each technique on the fabric structure, with emphasis on durability. The results demonstrated that ozone (with ΔE = 10,2) resulted in the greatest mechanical damage, with tensile strength losses of 21,01% in the weft and 25,6% in the warp. Although enzymatic stone washing and the process by clay stone had similar losses in the warp, the enzymatic process caused considerable degradation in the weft (15,06%), indicating a more penetrating action on the structure. It was concluded that a sustainable paradox exists: the environmental benefit of ozone (water reduction and colorless effluent) is achieved at the cost of compromising the garment's durability, due to severe strength loss. The analysis provides support for the industry to reconcile technical efficiency with environmental responsibility and performance preservation.",
+        "pdf_url": "http://repositorio.utfpr.edu.br:8080/jspui/bitstream/1/40672/1/analisecomparativaresistenciadenim.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7167650076",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Proposta de diretrizes para desenvolvimento coletivo de melhoria contínua em micro, pequenas e médias empresas de arranjos produtivos locais",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/11449/93048",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Ariana Martins Vieira"
+        ],
+        "venue": "Acervo Digital da Universidade Estadual Paulista (Universidade Estadual Paulista)",
+        "abstract": "O processo de melhoria contínua nas organizações é uma premissa para a sobrevivência e competitividade no mercado atual. Neste contexto, os Sistemas de Gestão da Qualidade surgem como importantes instrumentos para o desempenho das empresas e dos Arranjos Produtivos Locais (APLs). O objetivo principal desta dissertação é desenvolver uma proposta de diretrizes para desenvolvimento coletivo de melhoria contínua em Micro, Pequenas e Médias Empresas (MPMEs) industriais que atuem em APLs. A proposta foi desenvolvida por meio do referencial teórico e subsidiada com elementos de um estudo de caso, o que permitiu seu desenvolvimento com conceitos que podem influenciar de forma positiva sua efetiva implantação. Como resultado, a proposta de diretrizes está estruturada em seis etapas: Preparação, Diagnóstico do APL, Diagnóstico das empresas, Implantação, Auditoria e Avaliação",
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W128294233",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "PADRONIZAÇÃO DE PROCESSOS E FICHA TÉCNICA: O USO DE ORIGAMI COMO SIMULAÇÃO DE LINHA DE PRODUÇÃO E TREINAMENTO",
+        "source": "crossref",
+        "url": "https://doi.org/10.29327/9786527225041.1440517",
+        "doi": "10.29327/9786527225041.1440517",
+        "year": 2026,
+        "authors": [
+          "MARCEL MEYER"
+        ],
+        "venue": "Anais da 4ª Mostra Científica - SESI/SENAI/SC",
+        "abstract": "INTRODUÇÃO: Na rotina de apoio administrativo às áreas de logística e produção, a clareza na comunicação dos processos é determinante para a qualidade final do produto. Muitas vezes, a teoria sobre \"fluxo de produção\" torna-se abstrata para o estudante que ainda não vivenciou o chão de fábrica. Esta intervenção teve como objetivo demonstrar, na prática, a importância da padronização e da documentação técnica. A justificativa para o uso de origamis reside na necessidade de simular a complexidade de transformar uma matéria-prima (papel) em produto acabado, evidenciando que saber fazer é diferente de saber ensinar ou documentar um processo. METODOLOGIA: A atividade foi realizada com a turma de Rotinas de Apoio Administrativo, focada nos setores de logística e produção. A metodologia ativa utilizada foi a simulação de instrução de trabalho. O desafio proposto exigiu que os alunos pesquisassem modelos de origamis de complexidade média a alta — descartando formas triviais como barcos ou aviões simples — para servirem como o \"produto\" a ser fabricado. A tarefa central consistiu na elaboração de uma Ficha Técnica detalhada, contendo o passo a passo sequencial de cada dobradura. Em um segundo momento, houve uma inversão de papéis (sala de aula invertida): os alunos atuaram como instrutores de treinamento, utilizando a ficha técnica que criaram para ensinar o processo a terceiros, validando se o documento era autossuficiente para garantir a replicabilidade do produto. RESULTADOS: A intervenção permitiu que os discentes vivenciassem as dificuldades reais de um gestor de produção ou analista de processos. Os resultados variaram conforme a qualidade da ficha técnica produzida: grupos com instruções vagas geraram produtos com defeitos ou dúvidas operacionais, enquanto fichas bem detalhadas resultaram em processos fluidos. O maior êxito da atividade foi a compreensão empírica de que a memória não é confiável em ambientes corporativos; é fundamental ter o processo registrado. Os alunos assimilaram que a falha na comunicação do instrutor ou na escrita do procedimento impacta diretamente o resultado da produção. CONCLUSÕES: Conclui-se que a dinâmica do origami é uma metáfora eficiente para o ensino de engenharia de processos e qualidade. O ponto forte da intervenção foi colocar o aluno na posição de responsável pelo entendimento do outro, desenvolvendo empatia e clareza comunicativa. A atividade reforçou que, na indústria, a padronização não é burocracia, mas uma ferramenta de garantia da qualidade. Para futuras aplicações, sugere-se a cronometragem do tempo de montagem para introduzir conceitos de produtividade e gargalos.",
+        "pdf_url": "https://static.even3.com/anais/1440517.pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.29327/9786527225041.1440517",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "Análise do ambiente organizacional de um \"cluster\" de confecção do vestuário em Fortaleza - CE: potencialidades e obstáculos",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2020.1128846",
+        "doi": "10.47749/t/unicamp.2020.1128846",
+        "year": 2021,
+        "authors": [
+          "Francismilton Teles"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2020.1128846",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Ficha Técnica",
+        "source": "crossref",
+        "url": "https://doi.org/10.14210/nej.v18n2.p174-177",
+        "doi": "10.14210/nej.v18n2.p174-177",
+        "year": 2013,
+        "authors": [
+          "Ficha Técnica Organizadores"
+        ],
+        "venue": "Novos Estudos Jurí­dicos",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.14210/nej.v18n2.p174-177",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Editora UNIVALI"
+        }
+      },
+      {
+        "title": "Ficha Técnica",
+        "source": "crossref",
+        "url": "https://doi.org/10.14210/nej.v19n4.p1124",
+        "doi": "10.14210/nej.v19n4.p1124",
+        "year": 2014,
+        "authors": [
+          "Ficha Técnica Organizadores"
+        ],
+        "venue": "Novos Estudos Jurí­dicos",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.14210/nej.v19n4.p1124",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Editora UNIVALI"
+        }
+      },
+      {
+        "title": "Ficha Técnica",
+        "source": "crossref",
+        "url": "https://doi.org/10.14210/nej.v19n1.p1",
+        "doi": "10.14210/nej.v19n1.p1",
+        "year": 2014,
+        "authors": [
+          "Ficha Técnica Organizadores"
+        ],
+        "venue": "Novos Estudos Jurí­dicos",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.14210/nej.v19n1.p1",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Editora UNIVALI"
+        }
+      },
+      {
+        "title": "Ficha Técnica",
+        "source": "crossref",
+        "url": "https://doi.org/10.14210/nej.v18n3.p344-345",
+        "doi": "10.14210/nej.v18n3.p344-345",
+        "year": 2013,
+        "authors": [
+          "Ficha Técnica Organizadores"
+        ],
+        "venue": "Novos Estudos Jurí­dicos",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.14210/nej.v18n3.p344-345",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Editora UNIVALI"
+        }
+      },
+      {
+        "title": "Ficha Técnica",
+        "source": "crossref",
+        "url": "https://doi.org/10.14210/nej.v20n1.p1-5",
+        "doi": "10.14210/nej.v20n1.p1-5",
+        "year": 2015,
+        "authors": [
+          "Ficha Técnica Organizadores"
+        ],
+        "venue": "Novos Estudos Jurí­dicos",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.14210/nej.v20n1.p1-5",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Editora UNIVALI"
+        }
+      },
+      {
+        "title": "Ficha Técnica",
+        "source": "crossref",
+        "url": "https://doi.org/10.14210/nej.v19n2.p326",
+        "doi": "10.14210/nej.v19n2.p326",
+        "year": 2014,
+        "authors": [
+          "Ficha Técnica Organizadores"
+        ],
+        "venue": "Novos Estudos Jurí­dicos",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.14210/nej.v19n2.p326",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Editora UNIVALI"
+        }
+      },
+      {
+        "title": "Ficha Técnica",
+        "source": "crossref",
+        "url": "https://doi.org/10.14210/nej.v18n1.p1-3",
+        "doi": "10.14210/nej.v18n1.p1-3",
+        "year": 2013,
+        "authors": [
+          "Ficha Técnica Organizadores"
+        ],
+        "venue": "Novos Estudos Jurí­dicos",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.14210/nej.v18n1.p1-3",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Editora UNIVALI"
+        }
+      },
+      {
+        "title": "Ficha Técnica",
+        "source": "crossref",
+        "url": "https://doi.org/10.14210/nej.v19n3.p662",
+        "doi": "10.14210/nej.v19n3.p662",
+        "year": 2014,
+        "authors": [
+          "Ficha Técnica Organizadores"
+        ],
+        "venue": "Novos Estudos Jurí­dicos",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.14210/nej.v19n3.p662",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Editora UNIVALI"
+        }
+      },
+      {
+        "title": "Ficha Técnica",
+        "source": "crossref",
+        "url": "https://doi.org/10.14210/nej.v20n2.p398-402",
+        "doi": "10.14210/nej.v20n2.p398-402",
+        "year": 2015,
+        "authors": [
+          "Ficha Técnica Organizadores"
+        ],
+        "venue": "Novos Estudos Jurí­dicos",
+        "abstract": "Ficha Técnica Volume 20 - Nº2 - 2 Quadrimestre de 2015",
+        "pdf_url": "http://siaiweb06.univali.br/seer/index.php/nej/article/viewFile/7894/4479",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.14210/nej.v20n2.p398-402",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Editora UNIVALI"
+        }
+      },
+      {
+        "title": "Práticas cotidianas acerca do gerenciamento de resíduos sólidos na indústria da confecção de vestuário no município de Maringá, Paraná",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/t.106.2018.tde-09022018-131442",
+        "doi": "10.11606/t.106.2018.tde-09022018-131442",
+        "year": 2018,
+        "authors": [
+          "Paula Piva Linke"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/t.106.2018.tde-09022018-131442",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "DIAGNÓSTICO MACROERGONÔMICO DE UMA INDÚSTRIA DE CONFECÇÃO DE VESTUÁRIO",
+        "source": "crossref",
+        "url": "https://doi.org/10.5151/15ergodesign-28-e152",
+        "doi": "10.5151/15ergodesign-28-e152",
+        "year": 2015,
+        "authors": [
+          "Cristiane A. de A. ZERBETTO",
+          "Sharmila NONIS"
+        ],
+        "venue": "Anais do 15º ERGODESIGN USIHC",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5151/15ergodesign-28-e152",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Editora Edgard Blücher"
+        }
+      },
+      {
+        "title": "Desenvolvimento de técnica de confecção de fotomáscara/retículos usando gerador de padrões.",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.3.1996.tde-27082024-111155",
+        "doi": "10.11606/d.3.1996.tde-27082024-111155",
+        "year": 2024,
+        "authors": [
+          "Jorge Seki"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.3.1996.tde-27082024-111155",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Tecnologias para uma economia circular na confecção de vestuário",
+        "source": "crossref",
+        "url": "https://doi.org/10.18406/2359-1269v11n72024509",
+        "doi": "10.18406/2359-1269v11n72024509",
+        "year": 2025,
+        "authors": [
+          "Heliana Márcia Santos",
+          "Olimpio José Pinheiro",
+          "Maria Concebida Pereira"
+        ],
+        "venue": "Revista Eixos Tech",
+        "abstract": "Este estudo explora a aplicação da economia circular na indústria de confecção de vestuário, com o objetivo de integrar diferentes perspectivas sobre a transição do modelo linear para o circular, minimizando os impactos ambientais associados à produção e consumo de vestuário. A pesquisa adota uma abordagem teórica, baseada em uma revisão da literatura, para analisar as práticas atuais e as inovações tecnológicas que possibilitam uma produção mais sustentável. O estudo examina estratégias como reciclagem, reaproveitamento e prolongamento da vida útil dos produtos, além de discutir os desafios enfrentados pela indústria confeccionista, como a falta de infraestrutura e as limitações logísticas para a reciclagem de resíduos têxteis. Entre os principais resultados encontrados, destaca-se a necessidade de mudanças no comportamento do consumidor, políticas públicas mais eficazes e a implementação de novas tecnologias para viabilizar a transição para um modelo circular. O artigo conclui que, embora existam barreiras significativas, a adoção de modelos circulares de negócios é essencial para a sustentabilidade a longo prazo da indústria de vestuário.",
+        "pdf_url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/download/509/290",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.18406/2359-1269v11n72024509",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "IFSULDEMINAS (Instituto Federal do Sul de Minas)"
+        }
+      },
+      {
+        "title": "Padronização de técnica para produção em massa de 'Culex quinquefasciatus' (Diptera: Culicidae)",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.6.2014.tde-26022014-100718",
+        "doi": "10.11606/d.6.2014.tde-26022014-100718",
+        "year": 2015,
+        "authors": [
+          "Marco Jacometto Marchi"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.6.2014.tde-26022014-100718",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Ficha técnica - Uruguay",
+        "source": "crossref",
+        "url": "https://doi.org/10.18356/9ad6ecbd-es",
+        "doi": "10.18356/9ad6ecbd-es",
+        "year": 2014,
+        "authors": [
+          "United Nations"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.18356/9ad6ecbd-es",
+        "extra": {
+          "crossref_type": "component",
+          "publisher": "United Nations Publications"
+        }
+      },
+      {
+        "title": "Ficha técnica",
+        "source": "crossref",
+        "url": "https://doi.org/10.4000/books.etnograficapress.8401",
+        "doi": "10.4000/books.etnograficapress.8401",
+        "year": 2023,
+        "authors": [],
+        "venue": "Emotions and Public Policies",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.4000/books.etnograficapress.8401",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Etnográfica Press"
+        }
+      },
+      {
+        "title": "A Compreensão do Usuário pelos Micro e Pequenos Empresários do Setor de Confecção do Vestuário",
+        "source": "crossref",
+        "url": "https://doi.org/10.5151/ped2018-3.1-aco_01",
+        "doi": "10.5151/ped2018-3.1-aco_01",
+        "year": 2019,
+        "authors": [
+          "Elen MAKARA",
+          "Giselle S. A. D. MERINO"
+        ],
+        "venue": "Blucher Design Proceedings",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5151/ped2018-3.1-aco_01",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Editora Blucher"
+        }
+      },
+      {
+        "title": "Transformações digitais da confecção têxtil em domicílio no Brasil: práticas e percursos de apropriação de um software livre para a modelagem de vestuário",
+        "source": "crossref",
+        "url": "https://doi.org/10.47328/ufvbbt.2024.376",
+        "doi": "10.47328/ufvbbt.2024.376",
+        "year": 2024,
+        "authors": [
+          "Juan Sebastián Restrepo González"
+        ],
+        "venue": null,
+        "abstract": "A transformação digital da manufatura configura-se como uma realidade concreta diante da qual as pessoas e as organizações precisam construir estratégias para a gestão dos espaços de produção em diálogo com as novas tecnologias e com as mudanças no mundo do trabalho associadas a elas. Nesta pesquisa, focamos a atenção na indústria da confecção de vestuário em domicílio, onde o trabalho feminino se destaca por sua natureza individualizada, informal e por enfrentar limitações no acesso, uso e adaptação de novas tecnologias. Nosso interesse específico reside na digitalização da etapa de modelagem, dada sua importância em ampliar a participação das costureiras no processo de produção. Nesse cenário identificamos o software livre Valentina como uma tecnologia adequada para a modelagem digital, considerando suas características alinhadas às condições comuns na confecção em domicílio. A popularização desse software no Brasil teve início em 2020, com a divulgação de conteúdo em português na internet e a formação de grupos em redes sociais digitais destinados ao compartilhamento de experiências e informações sobre o seu uso. O objetivo principal desta pesquisa foi analisar as mudanças nas práticas diárias de manufatura de indivíduos que participam desses grupos. Utilizamos o conceito de “percursos de apropriação” para analisar as trajetórias percorridas pelas participantes na integração de uma nova ferramenta digital em suas confecções. A participação em grupos de redes sociais foi abordada como uma prática de apropriação tecnológica, representando uma atividade recorrente na qual as costureiras buscam aumentar seu conhecimento sobre o software e outras tecnologias relacionadas, visando integrá-las ao cotidiano da confecção. Durante um período de 14 meses, foram conduzidas entrevistas semiestruturadas com seis participantes de um grupo no WhatsApp. Além disso, houve uma observação sistemática da interação no aplicativo e participação em algumas atividades do grupo. A pesquisa abrangeu participantes diversificadas em termos de práticas de manufatura, estratégias de apropriação e histórico envolvendo costura. Esse enfoque permitiu a identificação de elementos cruciais que influenciam os caminhos de apropriação de cada costureira, incluindo o histórico de envolvimento com a costura, as condições socioeconômicas, o tipo de formação e os objetivos produtivos e empresariais. A participação em redes sociais como estratégia de apropriação evidencia a importância dos processos autônomos de formação e capacitação fora do ambiente escolar, ressaltando também o papel das tecnologias de informação e comunicação nesses processos. As alterações nas práticas diárias de manufatura das participantes foram analisadas em três dimensões: a processual, que revelou transformações nos procedimentos das confecções, possibilitando a oferta de novos produtos e serviços; a dimensão tecnológica que explorou as relações entre as tecnologias anteriormente utilizadas, as tecnologias em processo de apropriação e as tecnologias para a apropriação; e a dimensão relacional, na qual foi identificada a construção de colaboração entre costureiras no Brasil e internacionalmente, assim como a formação de uma imagem moderna da costureira conectada às últimas tecnologias. Palavras-chave: Apropriação Tecnológica; Confecção em Domicílio; Modelagem Digital; Software Livre.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47328/ufvbbt.2024.376",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Pro-Reitoria de Pesquisa e Pos-Graduacai - UFV"
+        }
+      }
+    ]
+  },
+  "count": 40,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T05:50:47.483323+00:00"
+}

@@ -1,0 +1,901 @@
+{
+  "ok": true,
+  "data": {
+    "query": "custo minuto confeccao formacao preco vestuario faccao",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 20,
+      "doab": 0
+    },
+    "raw_records": 40,
+    "merged_records": 40,
+    "returned": 40,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Confronto: necessidade de modernização tecnológica e gestão das indústrias de confecção em Londrina",
+        "source": "openalex",
+        "url": "https://ojs.uel.br/revistas/uel/index.php/geografia/article/view/10203",
+        "doi": "10.5433/2447-1747.1999v8n1p49",
+        "year": 1999,
+        "authors": [
+          "José Barreira"
+        ],
+        "venue": "GEOGRAFIA (Londrina)",
+        "abstract": "Mão-de-obra \"qualificada\" fora dos países centrais. A América Latina representa perto de 1% nas exportações de roupas para o mercado internacional, embora haja uma crescente participação dos países da América Central como fornecedores para o mercado dos Estados Unidos da América. Os trabalhadores da Guatemala, de Honduras, do México são os mais desejados. As limitações na formação e qualificação da mão-de-obra neste ramo carregam uma herança histórica impressa numa antiga prática do \"putting-out\" na Inglaterra ou verlag na Alemanha do século XVI: qual seja a nossa contemporânea instituição denominada de facção, uma divisão técnica do trabalho realizado fora dos muros dos mais variados tipos de manufaturas, ou seja, tarefas encaminhadas para serem feitas fora da grande unidade fabril, e também fora do país. Ao refazer o perfil de sua atuação local, o SENAI pode estar interpretando a manifestação de uma possível divisão espacial do trabalho com forte presença dos ramos têxtil e de confecção no Norte e Noroeste do estado. A precisão das suas escalas possibilita uma reprodução uniforme dos modelos em quaisquer dos tamanhos requeridos pelo mercado de uma referida fábrica.",
+        "pdf_url": "https://ojs.uel.br/revistas/uel/index.php/geografia/article/download/10203/9014",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W2143952511",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "O TRABALHO NA CONFECÇÃO EM SÃO PAULO: as novas formas da precariedade",
+        "source": "openalex",
+        "url": "https://doi.org/10.9771/ccrh.v30i79.19973",
+        "doi": "10.9771/ccrh.v30i79.19973",
+        "year": 2017,
+        "authors": [
+          "Marcía de Paula Leite",
+          "Sandra Roberta Alves Silva",
+          "Pilar Carvalho Guimarães"
+        ],
+        "venue": "Caderno CRH",
+        "abstract": "Este artigo analisa o trabalho no setor de confecção a partir de pesquisa realizada na cidade de São Paulo. Debruçando-se mais especificamente sobre o trabalho em domicílio e dos imigrantes, discutem-se as condições de trabalho no setor a partir da configuração das cadeias de valor e da divisão internacional do trabalho que ela promove, gerando uma nova dinâmica nas formas de precariedade que sempre marcaram o setor. O texto debate também o impacto do selo da Associação Brasileira do Varejo Têxtil (ABVTEX) sobre as condições do trabalho de costura nos domicílios e nas oficinas.",
+        "pdf_url": "https://periodicos.ufba.br/index.php/crh/article/download/19973/14915",
+        "citation_count": 35,
+        "work_type": "article",
+        "identifier": "W2729315216",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "TERCEIRIZAÇÃO E AS REPERCUSSÕES NA QUALIFICAÇÃO DOS TRABALHADORES DA INDÚSTRIA DO VESTUÁRIO DO SUL DE SANTA CATARINA",
+        "source": "openalex",
+        "url": "https://doi.org/10.22409/tn.8i10.p6110",
+        "doi": "10.22409/tn.8i10.p6110",
+        "year": 2018,
+        "authors": [
+          "Vilma Caleffi",
+          "Nise Jinkings"
+        ],
+        "venue": "Revista Trabalho Necessário",
+        "abstract": "Com base em uma pesquisa comparativa no setor de confecção do vestuário, investigamos as exigências por qualificação que ocorrem no e pelo processo de trabalho sob os ditames da terceirização. Tomamos como ponto de partida a pesquisa de dissertação de mestrado desenvolvida na Universidade Federal de Santa Catarina – UFSC, intitulada Trabalho Arcaico no Moderno Mundo da Moda, realizada no ano de 1995 por Giani Rabelo e defendida em 1997. Doze anos após, voltamos à empresa antes pesquisada e verificamos uma mudança radical na organização do trabalho: 95% de sua força de trabalho encontra-se terceirizada. Verificou-se que a terceirização implicou no aviltamento das condições e relações de trabalho para a maioria dos trabalhadores. A qualificação requerida após o processo de terceirização incorpora atividades de supervisão e controle do próprio trabalho, para trabalhadores das subcontratadas e efetivos. Embora tenha ocorrido uma divisão entre os trabalhadores, ambos sofrem mecanismos de controle por produtividade e qualidade, todavia, a exigência por qualificação para os trabalhadores das terceirizadas ocorre muito mais no âmbito comportamental que técnico.",
+        "pdf_url": "https://periodicos.uff.br/trabalhonecessario/article/download/6110/5075",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W2810166422",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Superexploração da força de trabalho e saúde do trabalhador: o trabalho precário na confecção",
+        "source": "openalex",
+        "url": "https://doi.org/10.1590/s0103-73312020300106",
+        "doi": "10.1590/s0103-73312020300106",
+        "year": 2020,
+        "authors": [
+          "Paulo Victor Rodrigues de Azevedo Lira",
+          "Idê Gomes Dantas Gurgel",
+          "Ângela Santana do Amaral"
+        ],
+        "venue": "Physis Revista de Saúde Coletiva",
+        "abstract": "Resumo É essencial o entendimento das mudanças ocorridas no mundo do trabalho e de como estas se relacionam com o processo saúde-doença. Objetivou-se analisar as expressões da superexploração da força de trabalho e sua repercussão na saúde dos trabalhadores de facções instaladas em dois municípios do arranjo produtivo local de confecções do Agreste pernambucano. A pesquisa foi orientada por uma perspectiva que considera a totalidade e a historicidade das relações sociais e sua articulação com os processos sociais particulares. Foram aplicados questionários e entrevistas semiestruturadas para trabalhadores da confecção dos municípios de Toritama e Santa Cruz do Capibaribe, no ano de 2017. Os resultados foram analisados com base no método dialético. A superexploração da força de trabalho se expressou nas relações de trabalho por meio da articulação da remuneração da força de trabalho abaixo de seu valor, do aumento do valor histórico moral da força de trabalho sem seu pagamento correspondente, da extensão das jornadas de trabalho e da intensificação do trabalho exercido nas facções. Tais características tendem a violar o fundo de consumo e de vida dos trabalhadores, que poderão apresentar um desgaste precoce de sua força de trabalho, podendo ser evidenciado pelo adoecimento e/ou perda precoce da capacidade para o trabalho.",
+        "pdf_url": "http://www.scielo.br/pdf/physis/v30n1/0103-7331-physis-30-01-e300106.pdf",
+        "citation_count": 12,
+        "work_type": "article",
+        "identifier": "W3033961153",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Aplicação do fluxo unitário da produção na manufatura do vestuário de moda",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2016.tde-02052016-103850",
+        "doi": "10.11606/d.100.2016.tde-02052016-103850",
+        "year": 2016,
+        "authors": [
+          "Wan Chi Ming"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "The objective of this paper is to discuss the implementation of Flow Unit of Production in the manufacturing of fashion apparel process, with emphasis on women\\'s fashion products. For this purpose, a field research was conducted through case study, in company of the sector. The survey results show that despite the particularities of the industry, such as production volume, short cycle product life and wide range of models, the application of Flow Unit of Production in the fashion garment manufacturing indicates a possible process optimization productive, allowing the assembly line balancing and capacity of the productive capacity, factors that minimize the risk of production bottlenecks and assist in the preparation of planning, scheduling and production control. This study has the following objectives: i) search the manufacturing processes used, ii) focus on the techniques and processes applied in manufactured products; iii) physically characterize the industrial structure and describe their production processes for the manufacture of products with the application of flow unit in Fashion Garment Manufacturing (MVM); iv) point out suggestions for the use of new tools such as the continuous improvement of the production process. The recommendations made are based on literature review and case study on the manufacturer of custom products. These will be legitimized by experts of information on the subject and by employees of the studied company. It has been raised to date a list of external vendors and their installed capacities to manufacture products sold, as the company A pointed out the presence of bottleneck productive for failing to deliver the production volumes requested. Although the study is taking place within the execution schedule, many of the concepts and techniques of lean manufacturing are applicable in production environments high variety of the same product family, with low volume and can contribute significantly to improving the company\\'s performance, for continuous process improvement, to improve competitiveness and elimination of production 9 losses with performance indicators in the sectors involved. After research with the application of the unitary flow of Manufacture of fashionable clothes in the company in A, will be checked the hypothesis of application of Flow Unit of Production, the automotive industry, it is possible for the clothing industry. Collected the results of that application, after the data analysis and evaluation check for approval of Manufacture of Fashionable Clothes",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-02052016-103850/publico/DEFESA_DO_MESTRADO.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2346183652",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "NA FEIRA TAMBÉM TEM INOVAÇÃO? UMA ANÁLISE DA CRIAÇÃO E CONFECÇÃO DE “MODINHA” NA FEIRA DA RUA JOSÉ AVELINO",
+        "source": "openalex",
+        "url": "https://doi.org/10.13037/gr.vol35n105.5088",
+        "doi": "10.13037/gr.vol35n105.5088",
+        "year": 2019,
+        "authors": [
+          "Thalita Silva Calíope",
+          "José Carlos Lázaro da Silva Filho"
+        ],
+        "venue": "Gestão & Regionalidade",
+        "abstract": "O objetivo deste artigo foi identificar o processo de inovação nas empresas de confecção de modinha na Feira da José Avelino. Para alcançá-lo, realizou-se um estudo de caso na Feira da José Avelino. Os dados foram coletados por meio de entrevista em profundidade com 11 feirantes e analisados com a análise de conteúdo. Encontrou-se que, embora a Feira seja reconhecida como polo de moda e seja capaz de criar moda, há uma grande influência externa, especialmente de novelas, sendo um mercado de massa. Constatou-se que a estratégia inovativa predominante é a imitativa. Existe um ciclo incessante em que, quando surge uma inovação, os feirantes imitam uns aos outros, levando à saturação, com produtos sem diferenciação e com preços baixos que fazem com que haja concorrência acirrada entre as empresas, induzindo-as a buscarem inovações para se destacarem. Assim, a imitação leva à inovação.",
+        "pdf_url": "https://seer.uscs.edu.br/index.php/revista_gestao/article/download/5088/2755",
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "W2962525207",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Uso corporativo do território e a nova divisão territorial do trabalho da indústria do vestuário no Rio Grande do Norte",
+        "source": "openalex",
+        "url": "https://doi.org/10.5216/ag.v14i1.60143",
+        "doi": "10.5216/ag.v14i1.60143",
+        "year": 2020,
+        "authors": [
+          "Leonardo da Silva Galindo",
+          "Francisco Fransualdo de Azevedo"
+        ],
+        "venue": "Ateliê Geográfico",
+        "abstract": "A produção do vestuário no Rio Grande do Norte (RN) caracterizava-se pela concentração de empresas e empregos em Natal. Recentemente houve redução dessas variáveis na capital, enquanto observou-se movimento contrário no interior do estado. O objetivo deste artigo é compreender as transformações na divisão territorial do trabalho da indústria do vestuário no RN. A metodologia contemplou revisão bibliográfica, sistematização de dados secundários e pesquisa emp�rica. Constatamos uma redefinição da divisão do trabalho, com agentes promovendo um uso corporativo do território. Este provoca a dispersão de unidades produtivas que realizam serviços de costura para munic�pios do Seridó potiguar. Já as grandes fábricas continuam no comando da produção realizando outras etapas do processo produtivo em Natal e Parnamirim. A terceirização da costura consolidou no Seridó uma divisão interna do trabalho voltada ao setor têxtil e de confecções, com alguns munic�pios realizando a costura para grandes indústrias, e outros se especializando em produzir acessórios do vestuário e artefatos têxteis para uso doméstico. Palavras-chave: Rio Grande do Norte; vestuário; divisão territorial do trabalho; terceirização.",
+        "pdf_url": "https://www.revistas.ufg.br/atelie/article/download/60143/34992",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W3044103442",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "PROPOSTA DE IMPLANTAÇÃO DA FERRAMENTA KANBAN EM UMA INDÚSTRIA DE CONFECÇÃO NO CEARÁ",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.37423/231208632",
+        "doi": "10.37423/231208632",
+        "year": 2023,
+        "authors": [
+          "Luiz Neto Paiva e Silva Müller"
+        ],
+        "venue": "Editora Conhecimento Livre eBooks",
+        "abstract": null,
+        "pdf_url": "https://doi.org/10.37423/231208632",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4391829223",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "PROPOSIÇÃO DE UM PLANO DE RESPOSTAS A RISCOS: ESTUDO DE CASO DE UMA EMPRESA DE CONFECÇÃO DO ESTADO DO CEARÁ",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.37423/231208616",
+        "doi": "10.37423/231208616",
+        "year": 2023,
+        "authors": [
+          "Luiz Neto Paiva e Silva Müller"
+        ],
+        "venue": "Editora Conhecimento Livre eBooks",
+        "abstract": "Segundo Capello et al. (2010), o surgimento das patologias pode advir de um projeto mal feito, que dispõe de materiais de má qualidade, da deficiência de influência tecnológica, especialmente associada ao concreto, de ter intercorrência em algum momento de construção, em algumas obras estar com equipe sem ter a capacidade adequada para executar o projeto, e pôr fim a falta de fiscalização por parte dos responsáveis pelo desempenho do empreendimento.Portanto, esta pesquisa tem como objetivo abordar os problemas patológicos mais comuns em estruturas de concreto armado por meio de uma pesquisa de revisão de literatura.Destacam-se fissuras, manchas, geadas, corrosão do aço e deterioração das estruturas de concreto, indicando suas causas e possíveis medidas preventivas.O estudo patológico de estruturas de concreto armado é o objeto deste trabalho, pois a maioria das estruturas no Brasil é executada com esse material e muitos profissionais da área de construção civil enfrentam essa situação.A patologia pode prejudicar a vida útil do edifício e até impedir seu uso.2. REVISÃO BIBLIOGRÁFICA O termo patologia é normalmente utilizado em muitos campos da investigação científica, especialmente na área da medicina, envolvendo tanto o conhecimento científico como a prática clínica.Este campo estuda as mudanças estruturais e funcionais de células, tecidos e órgãos que podem estar sofrendo de doenças. PATOLOGIA E MANIFESTAÇÕES PATOLÓGICASDe acordo com Fonseca ( 2017), a responsabilidade técnica requer \"conformidade com \"Normas, Taxas e Requisitos Técnicos\", Responsabilidade Civil Relacionado a medidas para fazer cumprir a compensação moral ou hereditária de propriedade Baseia-se no novo Código Civil Brasileiro e na Lei 5.194 / 66 e 6.496 / 77.Finalmente, a responsabilidade criminal pode, em última análise, sujeitar os profissionais à pena de reclusão, a depender da gravidade das ações por ele cometidas, relativas ao exercício de sua profissão.Quanto à responsabilidade criminal, no capítulo das Lesões Corporais, art.129 do Código Penal é válido ressaltar que aquele que ofender a integridade corporal ou a saúde de alguém, pode pegar uma pena de três meses até doze anos de detenção; e no art.132 dispõe que \" expor a vida ou a saúde de outrem a perigo direto e iminente pode gerar pena de três meses a um ano de detenção\" (LEI nº 2.848, 1940).Vale ressaltar que o item VIII do art.39 do Código de Defesa do Consumidor (LEI Nº 8.078, 1990) veda que os serviços sejam feitos em desacordo com as normas da ABNT, ou seja, devemos cumprir todas as normas pertinentes ao assunto, principalmente a NBR 5674 (ABNT, 2012) que trata sobre a manutenção nas edificações.2.2 PATOLOGIA O termo patologia vem sido discutido e elaborado durante o decorrer do tempo, inicialmente o emprego dos termos de sua origem se relacionam diretamente com a medicina, termos estes que são da junção de duas palavras gregas pathos, referindo-se a sofrimento/doenças e logos, que faz significado de ciência/estudo; Bolina et al. (2019).De acordo com (SENA, et al. 2020), patologia é o estudo de doenças gerais com condições anormais, cuja etiologia pode ser conhecida ou desconhecida.Portanto, o estudo da doença, ou seja, a patologia, estuda o surgimento de anormalidades no sistema; os causadores de imperfeições, defeitos, deficiências ou \"doenças\".Tendo em vista as circunstâncias necessárias o tratamento de anomalias em certo desempenho, as soluções adotadas partem de princípios comum: quando o corpo padece com uma enfermidade que afeta o seu bom funcionamento, ele pode ser tratado com medicamentos, da mesma forma, uma edificação pode passar por reparos para a recuperação de seu uso esperado (FRANÇA et al. 2011).Entretanto, da mesma forma que o profissional da saúde, precisa entender a causa da doença para ser capaz de aplicar o método correto tratamento, medicando adequadamente, o engenheiro patologista, necessita conhecer bem as causas das anomalias que possam surgir nas construções, afim de propor soluções mais adequadas a cada situação, para tratar, recuperar e corrigir os problemas, com a intenção de reestruturar e deixar a edificação em boas condições de uso para seus usuários. PRINCIPAIS TIPOS DE MANIFESTAÇÕES PATOLÓGICAS NAS EDIFICAÇÕESAs patologias mais comuns encontradas nas edificações hoje são fissuras, corrosões em armaduras, eflorescências e infiltrações de água; podendo aparecer durante a construção do edifício, após o trabalho ou durante o uso do usuário (THOMAZ, 1989).",
+        "pdf_url": "https://doi.org/10.37423/231208616",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4391829241",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Diagnóstico da capacidade produtiva e organizativa das mulheres costureiras do projeto Sacramenta Socioambiental: aspectos fundamentais para a formação de uma cooperativa",
+        "source": "openalex",
+        "url": "https://doi.org/10.5902/2359043267356",
+        "doi": "10.5902/2359043267356",
+        "year": 2022,
+        "authors": [
+          "Otávio Luiz de Castro Romano",
+          "Bruno Rafael Dias de Lucena"
+        ],
+        "venue": "Revista de Gestão e Organizações Cooperativas",
+        "abstract": "A pesquisa tem por objetivo diagnosticar a capacidade produtiva e organizativa das mulheres costureiras que participam do projeto Sacramenta Socioambiental, em Belém do Pará, de modo a identificar aspectos essenciais para a formação futura de uma cooperativa. A pesquisa adota abordagem qualitativa e a técnica do estudo de caso. Utiliza-se a análise de conteúdo de Bardin com ênfase temática para análise dos dados. Os resultados da pesquisa mostram o nível de capacidade de organização (3,9), inovação (3,92), produção (4,17) e o envolvimento organizativo (4,19) das mulheres e ainda a capacidade produtiva do grupo é bastante representativa para reforçar o potencial da futura cooperativa, onde foi possível identificar um espaço disponível de 157,704 m², 60 máquinas de costura em bom estado e uma capacidade de produzir aproximadamente 31.375,68 peças de baixa e média complexidade. Incentiva-se que futuras pesquisas sejam realizadas para investigar o segmento de cooperativas de costureiras, estudando alternativas de produção como upcycling ou outros.",
+        "pdf_url": "https://periodicos.ufsm.br/rgc/article/download/67356/47112",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4378195230",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Empresas e direitos humanos: uma análise das violações de direitos elementares trabalhistas na Indústria da moda",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1843/BUOS-B9KJWU",
+        "doi": null,
+        "year": 2018,
+        "authors": [
+          "Julianna do Nascimento Hernandez"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "A pesquisa tem o objetivo de analisar se o Sistema ONU de Direitos Humanos é efetivo para tratar e aplacar as violações de direitos humanos sofridas por trabalhadores de corporações transnacionais do setor têxtil e de vestuários, principalmente, após a reestruturação produtiva ocorrida a partir de 1970. Observa-se que as normas internacionais emitidas pela Organização das Nações Unidas (ONU) e pela Organização Internacional do Trabalho (OIT) estabelecem padrões globais mínimos sobre o trabalho decente, sem, contudo, dispor de normas coercitivas para exigir o cumprimento por parte dos Estados não ratificantes e das empresas transnacionais. As recentes diretrizes da ONU, quais sejam o Quadro Referencial de 2008 e os Princípios Orientadores de 2011, ambos soft law, da mesma forma se mostram falhos em proporcionar um ambiente regulatório de maior proteção ao obreiro. A pesquisa revela, sobretudo, que a estrutura de produção da indústria da moda se beneficia flagrantemente da falta de normas internacionais sociais que se apliquem direta e vinculativamente às corporações. Dessa forma, ao descentralizar sua produção por meio de terceirizações e contratos de facção, a prática, inserida em contexto de globaritarismo, implica a extrema desregulamentação do conjunto de normas laborais conquistado durante os séculos XIX, XX e XXI, sem a possibilidade de serem responsabilizadas internacionalmente pelos impactos negativos causados às pessoas e ao meio ambiente.",
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W2981676707",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Mulheres que tecem a vida: trabalho e gênero em tempos precarizados",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/11449/106129",
+        "doi": null,
+        "year": 2010,
+        "authors": [
+          "Reginaldo Guiraldelli"
+        ],
+        "venue": "Acervo Digital da Universidade Estadual Paulista (Universidade Estadual Paulista)",
+        "abstract": "O presente estudo consistiu em trazer para a pauta de discussão do Serviço Social algumas reflexões sobre as condições de vida, de trabalho, assim como as estratégias de sobrevivência das trabalhadoras da confecção do município de Divinópolis, localizado na região centro oeste do Estado de Minas Gerais. Tal município tem grande destaque econômico no contexto regional devido ao setor metalúrgico e à produção do vestuário. Vale ressaltar que neste lócus o ramo confeccionista emprega em maior proporção o segmento feminino da população em detrimento de uma maior incorporação masculina na metalurgia. Com base nessa realidade, este percurso investigativo priorizou o universo da confecção com vistas a compreender as experiências e o cotidiano das mulheres que atuam como costureiras tanto no espaço fabril quanto no trabalho domiciliar, em um quadro de precarização das relações de trabalho, o que contribuiu para o agravamento da questão social. Para a compreensão dessa dinâmica societária, foi necessária uma análise sobre as assimetrias presentes nas relações de gênero e as profundas alterações ocorridas nos últimos decênios no mundo do trabalho frente à adoção da reestruturação produtiva, que trouxe implicações para as condições de vida dos trabalhadores. Nesse quadro, cabe mencionar que as mulheres ingressaram de forma massiva no mundo do trabalho, no momento em que se verifica o desmonte dos direitos trabalhistas, crescimento do desemprego, degradação das condições de trabalho e intensificação de atividades marcadas pela informalidade, diante das prerrogativas da acumulação flexível. Tal situação que ordena o mundo do trabalho na sociedade atual, caracterizada pela reestruturação produtiva, também passou a ser implementada no município de Divinópolis, em especial na indústria da confecção, universo desta pesquisa...",
+        "pdf_url": null,
+        "citation_count": 4,
+        "work_type": "thesis",
+        "identifier": "W2108610090",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Luta de classes entre trabalhadores e grande capital: as relações entre as facções e a empresa Guararapes no Rio Grande do Norte",
+        "source": "openalex",
+        "url": "https://doi.org/10.22481/ccsa.v18i31.7889",
+        "doi": "10.22481/ccsa.v18i31.7889",
+        "year": 2021,
+        "authors": [
+          "William Eufrásio Nunes Pereira",
+          "Renata Rayane Moura da Silva Rodrigues"
+        ],
+        "venue": "Cadernos de Ciências Sociais Aplicadas",
+        "abstract": "O objetivo deste trabalho é analisar o conflito entre o Ministério Público do Trabalho (MPT) do Rio Grande do Norte e o grupo Guararapes, considerando o papel das facções e dos trabalhadores em meio ao conflito jurídico, econômico, político e ideológico travado por esses atores. De um lado da história está o grande capitalista, de outro, trabalhadores em atuação como costureiros e aqueles a quem o MPT denomina “travestidos de microempresários”. Essas duas categorias assumem o papel dos que vendem a força de trabalho para subsistir e, nesse caminho, submetem-se ao controle do capitalista, a regras unilaterais, à pressão por produtividade e à redução de direitos. O artigo expõe esse paralelo com base em supostas irregularidades que o MPT investigou na contratação e no modo de operação de “facções da Guararapes”. Tais irregularidades fundamentam uma ação civil pública e mostram que discurso e práticas de mais de um século atrás ainda alimentam a linha de produção. A metodologia usada neste trabalho inclui pesquisa bibliográfica e documental. Resultados encontrados mostram um intenso conflito entre capital e trabalho, no qual o primeiro amplia seus lucros com a redução dos custos, em particular, os do trabalho.",
+        "pdf_url": "https://periodicos2.uesb.br/index.php/ccsa/article/download/7889/5400",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W3131805463",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "O Arranjo Produtivo Local da Moda de Espinosa/MG: uma trajetória inesperada",
+        "source": "openalex",
+        "url": "https://doi.org/10.17058/redes.v25i3.15049",
+        "doi": "10.17058/redes.v25i3.15049",
+        "year": 2020,
+        "authors": [
+          "Vanessa Marzano Araújo",
+          "Délcio Pereira Fortes"
+        ],
+        "venue": "Redes",
+        "abstract": "O objetivo desse estudo é investigar o Arranjo Produtivo Local (APL) do vestuário em Espinosa/MG e seu impacto na dinamização da economia da região. O método levou em consideração dados secundários sobre a região e, principalmente, dados primários obtidos a partir de incursões em campo e de entrevistas semiestruturadas, com gestores das empresas e representantes do poder público, consultorias e instituições envolvidas direta ou indiretamente na governança do Arranjo. A pesquisa tem um cunho qualitativo, baseado na análise das informações coletadas. Os resultados apontam para uma experiência rica em relacionamentos e cooperação entre as empresas e os principais elos que participam do processo produtivo. O APL da Moda, como é conhecido, está localizado no extremo Norte de Minas Gerais, região semiárida distante dos grandes centros industriais e comerciais brasileiros, de forma que, por meio de iniciativa local, desenvolveu uma trajetória inesperada. Ele exerce notório impacto na economia regional, cria empregos, distribui renda, gera conhecimento, forma mão de obra e fornece estabilidade e dignidade às pessoas da região. No entanto, existem ainda algumas fragilidades nas ações coletivas e formas de cooperação institucional que precisam ser aprimoradas com o envolvimento de todos os agentes que compõem a governança do APL.",
+        "pdf_url": "https://online.unisc.br/seer/index.php/redes/article/download/15049/pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W3096858477",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Luz, câmera, direito: o direito trabalhista na obra “Estou me guardando para quando o carnaval chegar” de Marcelo Gomes",
+        "source": "openalex",
+        "url": "https://repositorio.ufsc.br/handle/123456789/260287",
+        "doi": null,
+        "year": 2021,
+        "authors": [
+          "Antonio Lucas Lira Pereira",
+          "Bruna Garcia dos Santos",
+          "Luana Renata Da Silva",
+          "Marina Gomes Barbosa"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "O documentário “Estou me guardando para quando o carnaval chegar” apresenta o cenário frenético de trabalho predominante em Toritama, cidade do agreste pernambucano. Na obra é possível observar que o sistema de produção da indústria têxtil expõe os trabalhadores a uma série de problemas, como insalubridade e longas jornadas de trabalho. Entretanto, mesmo com toda problemática existente as pessoas demonstram estarem satisfeitas com aquela realidade vivenciada. Nesta senda, o objetivo geral do artigo foi correlacionar as problemáticas expostas no documentário com o que preceitua a nossa legislação vigente. Para tanto, o presente estudo valeu-se do método dedutivo como método de abordagem, recorrendo à técnica de pesquisa documental indireta, mediante pesquisa documental e bibliográfica. A partir da leitura do artigo é possível concluir que as práticas laborais expostas no documentário geram desvantagens para os trabalhadores, especialmente quando comparados aos trabalhadores formais que detém de uma série de direitos e garantias. E ainda, conclui-se que a arte pode contribuir de diversas formas no ensino jurídico, desde a formação de consciência crítica até a percepção do impacto do Direito na realidade.",
+        "pdf_url": "https://ojs.sites.ufsc.br/index.php/avant/article/download/6824/6703",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7120405557",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Relações cooperativas locais segundo a perspectiva das proximidades: uma análise em APLs de confecções",
+        "source": "openalex",
+        "url": "https://doi.org/10.21527/2237-6453.2015.31.39-69",
+        "doi": "10.21527/2237-6453.2015.31.39-69",
+        "year": 2015,
+        "authors": [
+          "Aline de Aragão Zambrana",
+          "Rivanda Meira Teixeira"
+        ],
+        "venue": "Desenvolvimento em Questão",
+        "abstract": "Grande parte dos estudos acerca das aglomerações de empresas destaca a proximidade geográfica como principal fator para o estabelecimento de vínculos cooperativos entre as empresas. Mais recentemente, os estudiosos começaram a reclamar que outras formas de proximidade também devem ser consideradas, como a proximidade cognitiva, organizacional, social e institucional. Neste âmbito, o presente estudo refere-se a análise qualitativa de dois Arranjos Produtivos Locais (APL) de confecções em Sergipe, cujo instrumento de coleta de dados eleito foi a entrevista semiestruturada. De modo geral, os resultados sugerem o aumento da proximidade social no APL de Itabaianinha decorrente de ações conjuntas bem-sucedidas em um passado recente, sobretudo entre os agentes de linhas distintas de produtos ou entre indivíduos com algum grau de parentesco. Por outro lado, a despeito da proximidade física, os agentes econômicos do APL de Tobias Barreto apresentaram resistência a cooperar e compartilhar informações. Os resultados revelam que as iniciativas institucionais têm sido insuficientes no sentido de engajá-los em esquema de cooperação mútua e que, em contextos de competitividade fundamentada excessivamente no preço, os agentes econômicos abdicariam de parcerias com seus pares da aglomeração local, insinuando que a proximidade física aliada à distância social e institucional seriam obstáculos para o estabelecimento de relações ganha-ganha.",
+        "pdf_url": "https://www.revistas.unijui.edu.br/index.php/desenvolvimentoemquestao/article/download/3218/3656",
+        "citation_count": 5,
+        "work_type": "article",
+        "identifier": "W2228850300",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Dimensões do empoderamento feminino por meio dos negócios de confecções no Agreste Pernambucano",
+        "source": "openalex",
+        "url": "https://repositorio.ufpe.br/handle/123456789/62433",
+        "doi": null,
+        "year": 2024,
+        "authors": [
+          "Mariana Nathália Gomes de LIMA"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "O presente trabalho teve como objetivo investigar as possibilidades de empoderamento feminino por meio dos negócios próprios do setor de confecções no Agreste Pernambucano, explorando a ocorrência desse fenômeno na região, seus efeitos e as práticas de gestão adotadas por mulheres que atuam como gestoras e proprietárias de negócios. Para isto, a pesquisa fez uso da abordagem qualitativa do tipo exploratória-descritiva, com a realização de 14 entrevistas semiestruturadas, nas quais as perguntas foram apoiadas em temáticas como gênero, gestão ordinária e empoderamento feminino, além disso, foram utilizados diário de campo e registros fotográficos. Os resultados foram analisados com base na análise temática de conteúdo. Os principais pontos observados revelaram os seguintes aspectos: o envolvimento precoce com a atividade de confecção, a atração de mulheres de outras localidades para os principais municípios atuantes no setor (Caruaru, Santa Cruz do Capibaribe e Toritama), a colaboração familiar nos negócios, a predominância da gestão cotidiana baseada na prática, a terceirização da produção e as dificuldades enfrentadas no gerenciamento do negócio como a questão financeira e a falta de mão de obra qualificada. O trabalho na confecção gerou mudanças significativas na vida das mulheres, refletidas em diversas dimensões de empoderamento, como econômica, psicológica, familiar e sociocultural, política e legal, educacional, saúde e bem- estar. A dimensão política e legal sugere um cenário onde o empoderamento das mulheres ainda é limitado, indicando uma necessidade de maior inclusão e participação feminina nos processos decisórios. Em contrapartida, a esfera econômica apresenta sinais mais promissores de empoderamento. Esta pesquisa busca lançar luz sobre as nuances do empoderamento feminino e a gestão em contextos específicos, como o setor de confecções no Agreste Pernambucano. Sua relevância está na análise de indícios que apontam para um potencial empoderamento feminino em uma realidade regional, destacando o papel dos negócios próprios na promoção da autonomia das mulheres. Os resultados apresentados podem colaborar para a elaboração de políticas e programas de apoio às mulheres gestoras e proprietárias de negócios na região do Agreste Pernambucano, contribuindo assim para o fortalecimento econômico e social local.",
+        "pdf_url": "https://repositorio.ufpe.br/bitstream/123456789/62433/1/DISSERTA%c3%87%c3%83O%20Mariana%20Patr%c3%adcia%20de%20Lima.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7120801729",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Institucionalização da sustentabilidade organizacional: o processo produtivo na indústria faccionista têxtil no Seridó Potiguar",
+        "source": "openalex",
+        "url": "https://doi.org/10.21680/1984-3879.2022v22n1id31057",
+        "doi": "10.21680/1984-3879.2022v22n1id31057",
+        "year": 2023,
+        "authors": [
+          "Sócrates Dantas Lopes",
+          "Ione Rodrigues Diniz Morais"
+        ],
+        "venue": "Saberes Revista interdisciplinar de Filosofia e Educação",
+        "abstract": "As discussões acerca do tema sustentabilidade foram ampliadas em meio à crise socioambiental, que se revela por meio da elevada degradação ambiental, do aumento da pobreza e da desigualdade social. Nesse contexto, a noção de sustentabilidade adquire proeminência, passando a ser institucionalizada por empresas que atuam em diferentes escalas geográficas, enfatizando a importância da Sustentabilidade Organizacional enquanto conceito que norteia princípios éticos que reordenam as práticas operacionais das empresas rumo à promoção do desenvolvimento sustentável. O objetivo deste trabalho é analisar a institucionalização da sustentabilidade organizacional pelas facções têxteis do Seridó. Para sua realização utilizou-se pesquisa bibliográfica, documental e de campo, ressaltando-se a aplicação do Método para Avaliação de Indicadores de Sustentabilidade Organizacional (M.A.I.S). Os procedimentos seguiram a sistemática da Triangulação de Dados: entrevistas, levantamento documental nas empresas faccionistas e observação in loco. Considerando os resultados da pesquisa quanto ao nível de sustentabilidade organizacional, a pontuação obtida pelo conjunto da amostra indica que as empresas faccionistas têxteis se na faixa Sustentável. Palavras-chave: Sustentabilidade organizacional. Indicadores de sustentabilidade. Facções têxteis.",
+        "pdf_url": "https://periodicos.ufrn.br/saberes/article/download/31057/16666",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4319921210",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "AS CORRENTES INVISÍVEIS DA INDÚSTRIA DA MODA BRASILEIRA",
+        "source": "openalex",
+        "url": "https://doi.org/10.17771/pucrio.acad.33865",
+        "doi": "10.17771/pucrio.acad.33865",
+        "year": 2017,
+        "authors": [
+          "ANA CAROLINA DA ROCHA LEAO MACHADO"
+        ],
+        "venue": null,
+        "abstract": "Este trabalho monográfico tem por objetivo desenvolver e expor a estreita relação entre o mercado fast fashion e a superexploração de trabalhadores imigrantes latino-americanos em oficinas clandestinas de costura localizadas nos centros urbanos brasileiros. Dessa forma, inicialmente, destaca-se a nova lógica de consumo que permite a produção a baixo custo mediante a sonegação de direitos do trabalhador em benefício do lucro, a estrutura de sweating system que a mantém e o consequente dumping social a ela associado. Além disso, cuida-se de esclarecer o que define o trabalho digno e como se revela os modos de execução da escravidão moderna, apresentando, em caráter complementar, parte específica sobre o tráfico de pessoas, tendo em vista a evidente ligação deste tipo penal com a conduta tema do presente estudo. Ainda, traz trato sobre a responsabilidade das grandes grifes que se aproveitam da superexploração deflagrada no interior de sua cadeia produtiva. Mais adiante, é exposto o caso paradigmático da multinacional ZARA, com a descrição dos resgates realizados em suas oficinas clandestinas e os desdobramentos de seus flagrantes. Também, são apresentados os mecanismos de enfrentamento do trabalho análogo ao escravo e, finalmente, é realizada análise da nova Portaria MTB 1.129/2017, que traz retrocessos significativos no que se refere à conceituação de trabalho escravo contemporâneo.",
+        "pdf_url": "https://www.maxwell.vrac.puc-rio.br/33865/33865.PDF",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4233497839",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "A produção reticular no arranjo produtivo local de confecções de Pernambuco",
+        "source": "openalex",
+        "url": "https://doi.org/10.6008/cbpc2179-684x.2022.003.0007",
+        "doi": "10.6008/cbpc2179-684x.2022.003.0007",
+        "year": 2023,
+        "authors": [
+          "Hannah Miranda Morais",
+          "Fernando Gomes de Paiva Júnior",
+          "Bianca Gabriely Ferreira Silva"
+        ],
+        "venue": "Revista Brasileira de Administração Científica",
+        "abstract": "A presente pesquisa possui como objetivo geral discutir a produção fragmentada no Arranjo Produtivo Local de confecções de Pernambuco, como uma forma de precarização do processo de trabalho na economia neoliberal. ​Um Arranjo Produtivo Local é caracterizado por uma aglomeração produtiva local, uma concentração de organizações envolvidas em uma mesma atividade e em um território comum. Os Arranjos Produtivos Locais são incentivados pelas políticas públicas por estimularem a renda, o emprego e o desenvolvimento local. Contudo, esses aglomerados produtivos podem esconder formas diversas de precarizar a mão de obra da região. Nesse panorama, é possível afirmar que o estudo tem caráter qualitativo e descritivo e se apoia na análise de conteúdo da fala do gestor de uma empresa que cuida do setor de relacionamento com as facções. Por conseguinte, os achados de pesquisa apontam para cinco categoria analíticas temáticas, sendo essas: (1) A rede é um arranjo móvel e multiespecializada; (2) Para a rede ser grande a rede tem que ser pequena; (3) A rede é organizada por contratos morais; (4) A precarização do trabalho e pobreza são estruturais na rede e (5) Na rede o trabalho é doméstico, portanto, pertence à família. Tem-se que, as Considerações finais mostram que o processo organizativo em rede nesse território estrutura e oculta uma severa exploração do trabalho fora do emprego.",
+        "pdf_url": "https://sustenere.inf.br/index.php/rbadm/article/download/7655/4479",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4411734268",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "FORMACAO DO PRECO DE VENDA NAS MICROS E PEQUENAS EMPRESAS: UMA CONTRIBUICAO NO DESENVOLVIMENTO LOCAL",
+        "source": "crossref",
+        "url": "https://doi.org/10.5748/16contecsi/agb-6125",
+        "doi": "10.5748/16contecsi/agb-6125",
+        "year": 2019,
+        "authors": [
+          "WANDERLEI SARAIVA",
+          "ITALO CAMPELO",
+          "MARIA DAS DORES SILVA"
+        ],
+        "venue": "CONTECSI International Conference on Information Systems and Technology Management",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5748/16contecsi/agb-6125",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "TECSI"
+        }
+      },
+      {
+        "title": "Conhecimento Tecnologia Formacao de Professores",
+        "source": "crossref",
+        "url": "https://doi.org/10.17699/workshopnpt.11.3.a",
+        "doi": "10.17699/workshopnpt.11.3.a",
+        "year": 2015,
+        "authors": [
+          "Jose Dutra"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "10.17699/workshopnpt.11.3.a",
+        "extra": {
+          "crossref_type": "report",
+          "publisher": "NPT Educacional"
+        }
+      },
+      {
+        "title": "O Docente como Formacao em Administracao Frente as TICs",
+        "source": "crossref",
+        "url": "https://doi.org/10.17699/workshopnpt.11.6",
+        "doi": "10.17699/workshopnpt.11.6",
+        "year": 2015,
+        "authors": [
+          "Jose Dutra"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "10.17699/workshopnpt.11.6",
+        "extra": {
+          "crossref_type": "report",
+          "publisher": "NPT Educacional"
+        }
+      },
+      {
+        "title": "O Docente com Formacao em Administracao Frente as TICs",
+        "source": "crossref",
+        "url": "https://doi.org/10.17699/ind.2015.6.a",
+        "doi": "10.17699/ind.2015.6.a",
+        "year": 2015,
+        "authors": [
+          "Jose Dutra"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "report",
+        "identifier": "10.17699/ind.2015.6.a",
+        "extra": {
+          "crossref_type": "report",
+          "publisher": "NPT Educacional"
+        }
+      },
+      {
+        "title": "PRÁTICAS CULTURAIS DA LEITURA E FORMACAO DE PROFESSOR NOS MEMORIAIS DE FORMACAO.",
+        "source": "crossref",
+        "url": "https://doi.org/10.31496/rpd.v13i27.469",
+        "doi": "10.31496/rpd.v13i27.469",
+        "year": 2013,
+        "authors": [
+          "Araujo Castilho Teno"
+        ],
+        "venue": "Revista Profissão Docente",
+        "abstract": "Este artigo é resultado de uma pesquisa que procura focalizar a relação da leitura e da formação de professores. A preocupação com a temática (leitura e formação) tem sido um dos focos de estudo do Grupo de Estudos Memórias de Professores, Identidade e Cultura-GEMFIC, vinculado ao Núcleo de Estudos Interdisciplinares-NEI. O objetivo deste texto é o de conhecer que relação os alunos/professores em formação estabelecem com as práticas culturais de leitura enquanto leitor e as implicações dessa prática para sua formação. Os dados apresentados foram obtidos por meio do conteúdo dos memoriais registrados neste trabalho em forma de narrativas memoristicas. Trata de uma pesquisa qualitativa com a contribuição do método de Análise de Conteúdo, para fundamentar os achados. Foram analisadas três narrativas memoristicas e dentre outras categorias concentramos na importância do sujeito-leitor e as contribuições dessa leitura na vida profissional. O estudo permitiu a reflexão sobre a formação dos professores enquanto sujeitos-leitores em constituição de uma prática pedagógica baseada numa reestruturação e compreensão de si mesmo",
+        "pdf_url": "https://revistas.uniube.br/index.php/rpd/article/download/469/666",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.31496/rpd.v13i27.469",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Revista Profissao Docente"
+        }
+      },
+      {
+        "title": "Vestuario Para La Escena 2022, curated by Edyta Rzewuska and Jerildy Bosch, Vestuario a Escena MX",
+        "source": "crossref",
+        "url": "https://doi.org/10.1386/scp_00090_5",
+        "doi": "10.1386/scp_00090_5",
+        "year": 2023,
+        "authors": [
+          "Zuzu Hudek"
+        ],
+        "venue": "Studies in Costume &amp; Performance",
+        "abstract": "Review of: Vestuario Para La Escena 2022, curated by Edyta Rzewuska and Jerildy Bosch, Vestuario a Escena MX National Centre for the Arts (CENART), Mexico City, 12 May–3 July 2022",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.1386/scp_00090_5",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Intellect"
+        }
+      },
+      {
+        "title": "Conhecimento Tecnologia Formacao de Professores o que esperar daqui 30 anos",
+        "source": "crossref",
+        "url": "https://doi.org/10.17699/ind.2015.3",
+        "doi": "10.17699/ind.2015.3",
+        "year": 2015,
+        "authors": [
+          "Jose Dutra"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "10.17699/ind.2015.3",
+        "extra": {
+          "crossref_type": "report",
+          "publisher": "NPT Educacional"
+        }
+      },
+      {
+        "title": "Mechanical and physical characterization of Guadua angustifolia‘Kunth’fibers from Colombia",
+        "source": "crossref",
+        "url": "https://doi.org/10.18273/revuin.v17n2-2018003",
+        "doi": "10.18273/revuin.v17n2-2018003",
+        "year": 2018,
+        "authors": [
+          "Corporación Universitaria Minuto de Dios",
+          "Martín Espitia",
+          "Carlos Sjogreen",
+          "Corporación Universitaria Minuto de Dios",
+          "Nelson Rodríguez",
+          "Corporación Universitaria Minuto de Dios",
+          "Jeimy Calderón",
+          "Corporación Universitaria Minuto de Dios",
+          "Alisson Benavides",
+          "Corporación Universitaria Minuto de Dios",
+          "Ricardo Peraza",
+          "Corporación Universitaria Minuto de Dios",
+          "Geraldine Espitia",
+          "Corporación Universitaria Minuto de Dios",
+          "Ricardo Nemocon",
+          "Corporación Universitaria Minuto de Dios"
+        ],
+        "venue": "Revista UIS Ingenierías",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 7,
+        "work_type": "article",
+        "identifier": "10.18273/revuin.v17n2-2018003",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidad Industrial de Santander"
+        }
+      },
+      {
+        "title": "O simbolismo do vestuario em Machado de Assis",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2008.421628",
+        "doi": "10.47749/t/unicamp.2008.421628",
+        "year": 2021,
+        "authors": [
+          "Susana Coutinho de Souza"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2008.421628",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Paruma: vestuario tradicional del pueblo indígena embera",
+        "source": "crossref",
+        "url": "https://doi.org/10.29097/9789585303096",
+        "doi": "10.29097/9789585303096",
+        "year": 2022,
+        "authors": [
+          "Pastora Chasoy Agreda"
+        ],
+        "venue": null,
+        "abstract": "El contenido de este documento se relaciona con la historia del vestuario y los accesorios tradicionales utilizados por los indígenas embera. Se trata de un pueblo nativo con tradiciones y características semejantes, actualmente divido en cuatro grupos: los embera chami —ubicados en los departamentos de Caldas y Quindío—; los embera katío, —en el Alto Sinú y Alto San Jorge en el departamento de Córdoba, y en la región de Urabá y el Bajo Atrato en el departamento de Chocó—, y los embera siapidara, quienes viven dispersos en el Pacifico, en la zona sur de Buenaventura y en la costa caucana y de Nariño. Distintos hechos históricos ocurridos en la Conquista y la Colonia provocaron su dispersión hacia diferentes lugares de la geografía colombiana. Sin embargo, uno de los elementos, cohesionador de identidad, es su vestuario tradicional, del cual conoceremos distintas características, gracias a los relatos de los abuelos y abuelas integrantes del asentamiento Resguardo Motordorchaque, ubicado en la vereda Dos Pozos del municipio de Puerto Boyacá.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.29097/9789585303096",
+        "extra": {
+          "crossref_type": "monograph",
+          "publisher": "Fundación Universidad de América"
+        }
+      },
+      {
+        "title": "Del Vestuario",
+        "source": "crossref",
+        "url": "https://doi.org/10.7764/apuntesdeteatro.29.83174.1963",
+        "doi": "10.7764/apuntesdeteatro.29.83174.1963",
+        "year": 2024,
+        "authors": [
+          "Gabriela Roepke"
+        ],
+        "venue": "Apuntes de Teatro",
+        "abstract": "Sugerencias para el diseño de vestuario. Traducción por Gabriela Roepke.",
+        "pdf_url": "https://uc_revision.escire.site/index.php/RAT/article/download/83174/63478",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.7764/apuntesdeteatro.29.83174.1963",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Pontificia Universidad Catolica de Chile"
+        }
+      },
+      {
+        "title": "A FORMACAO INICIAL DE PROFESSORES EM EXERCICIO CONTRIBUICOES DO PARFOR A FORMACAO PROFISSIONAL",
+        "source": "crossref",
+        "url": "https://doi.org/10.29380/2020.14.01.25",
+        "doi": "10.29380/2020.14.01.25",
+        "year": 2020,
+        "authors": [
+          "HELGA PORTO MIRANDA",
+          "ANA LUCIA NUNES PEREIRA",
+          "KATIA CILENE ANTUNES FERREIRA LARIEIRA"
+        ],
+        "venue": "Anais do Colóquio Internacional \"Educação e Contemporaneidade\"",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.29380/2020.14.01.25",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Grupo de Estudos e Pesquisas \"Educação e Contemporaneidade\""
+        }
+      },
+      {
+        "title": "Newsjacking, publicidad minuto a minuto",
+        "source": "crossref",
+        "url": "https://doi.org/10.19083/tesis/625553",
+        "doi": "10.19083/tesis/625553",
+        "year": 2019,
+        "authors": [
+          "Alberto Andrés Ego-Aguirre León"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.19083/tesis/625553",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidad Peruana de Ciencias Aplicadas"
+        }
+      },
+      {
+        "title": "Concepciones sobre la formación docente",
+        "source": "crossref",
+        "url": "https://doi.org/10.59899/con-sobr",
+        "doi": "10.59899/con-sobr",
+        "year": 2024,
+        "authors": [
+          "Corporación Universitaria Minuto de Dios",
+          "Beatriz Lorena Caicedo Guevara",
+          "Tany Giselle Fernández Guayana",
+          "Corporación Universitaria Minuto de Dios",
+          "Martha Cecilia Jaimes Castañeda",
+          "Corporación Universitaria Minuto de DiosCorporación Universitaria Minuto de Dios"
+        ],
+        "venue": null,
+        "abstract": "La formación docente es un campo donde circulan discursos y prácticas diversas en torno a los procesos de enseñanza- aprendizaje, de reflexión de teorías y conceptos ligados al ejercicio docente que tienen puntos de encuentro y tensión propio de las posturas epistemológicas de pensarse la educación y el sujeto que se pretende formar. Como parte de esas reflexiones académicas surge el interés por investigar las concepciones sobre la formación docente en un grupo de maestros adscritos a la licenciatura de pedagogía infantil de la Corporación Universitaria Minutos de Dios Colombia en sus sedes Neiva, Garzón y Pitalito. Para profundizar en esas creencias, conceptos e imágenes que tienen sobre el ser docente y todas las dinámicas que se movilizan en el contexto educativo, especialmente el de educación superior. Por lo tanto, los objetivos que guiaron la investigación estuvieron orientados a indagar sobre las practicas pedagógicas, los procesos de investigación, imaginarios del quehacer profesional y los procesos de educación continua. Para su desarrollo la investigación se enmarco en un enfoque mixto con diseño explicativo secuencial (DEXPLIS), con el uso de las técnicas de entrevista semiestructurada y cuestionario; aplicados a quince docentes cinco por cada sede. A partir de la recolección de datos y su posterior análisis mediante algunos elementos de la teoría fundada, triangulado con los datos de los cuestionarios los resultados que se encontraron fue que las concepciones de los docentes estaban centradas en tres ejes: un de como la formación docente debe estar encaminada hacia la trasformación del mismo docente y de las realidades del contexto; que la investigación es un campo de disputa donde circula discursos donde la investigación es vista como un pilar fundamental en la educación, que se hace con vocación, voluntad y gusto, pero por otro lado se visualiza como una obligación del docente contemporáneo. Esto último, marca otra tendencia es omo el contexto social, político, cultural y educativo plantea unos desafíos a la formación docente actual.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.59899/con-sobr",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "Fondo Editorial de la Universidad Nacional Experimental Sur del Lago, Jesús María Semprum (UNESUR)"
+        }
+      },
+      {
+        "title": "Reconstrucción de experiencias y percepciones propias de jóvenes habitantes de calle",
+        "source": "crossref",
+        "url": "https://doi.org/10.11600/1692715x.16211",
+        "doi": "10.11600/1692715x.16211",
+        "year": 2016,
+        "authors": [
+          "Corporación Universitaria Minuto de Dios",
+          "Lina M. Silva",
+          "Ana I. Aristizábal",
+          "Corporación Universitaria Minuto de Dios, Colombia",
+          "Mónica C. Gómez",
+          "Corporación Universitaria Minuto de Dios, Colombia.",
+          "Yurany A. González",
+          "Corporación Universitaria Minuto de Dios, Colombia.",
+          "Claudia M. Acevedo",
+          "Corporación Universitaria Minuto de Dios, Colombia.",
+          "Yehidy P. Ortiz",
+          "Corporación Universitaria Minuto de Dios, Colombia.",
+          "Natalia Rodríguez",
+          "Corporación Universitaria Minuto de Dios, Colombia",
+          "Natalia M. Campo",
+          "Corporación Universitaria Minuto de Dios, Colombia."
+        ],
+        "venue": "Revista Latinoamericana de Ciencias Sociales, Niñez y Juventud",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "10.11600/1692715x.16211",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Fundacion Cinde"
+        }
+      },
+      {
+        "title": "Capítulo 7: La Era Escolar del Siglo XXI: didáctica en la Educación Inclusiva",
+        "source": "crossref",
+        "url": "https://doi.org/10.59899/ges-cono-57-c7",
+        "doi": "10.59899/ges-cono-57-c7",
+        "year": 2023,
+        "authors": [
+          "Corporación Universitaria Minuto de Dios",
+          "Andrés Julián Torres Gómez",
+          "Gloria Jaramillo Llano",
+          "Corporación Universitaria Minuto de Dios",
+          "Islena Escarleth Pico Jaramillo",
+          "Corporación Universitaria Minuto de Dios",
+          "Edisson Yadir Poveda Avila",
+          "Corporación Universitaria Minuto de Dios",
+          "José Ramón Calderón Quintero",
+          "Corporación Universitaria Minuto de Dios",
+          "Beatriz Lorena Caicedo Guevara",
+          "Corporación Universitaria Minuto de Dios",
+          "Lylliana Vásquez Benítez",
+          "Corporación Universitaria Minuto de Dios"
+        ],
+        "venue": "Gestión del conocimiento. Perspectiva multidisciplinaria (libro 57)",
+        "abstract": "La educación es un derecho fundamental de toda persona, sin importar, raza, creencia, sexo; tal como lo describe la Declaración Universal de los Derechos Humanos (1948). Consecuentemente, se habla de educación inclusiva o Educación Para Todos; como “un proceso que permite abordar y responder a las necesidades de todos los estudiantes a través de la participación en actividades de aprendizaje, culturales y comunitarias, minimizando la exclusión educativa dentro y fuera del sistema educativo (UNESCO, 2007); por tanto, se hace necesario resaltar, el papel de los directivos y educadores frente a los procesos educativos que se lideran en este siglo XXI, donde se abordan distintas estrategias didácticas y metodológicas que favorecen la diversidad educativa encontrada en las instituciones y en el aula escolar. Dicho lo anterior, la presente investigación, pretende determinar cuál ha sido el impacto en la implementación de estrategias didácticas, metodológicas y practicas adecuadas en los diferentes contextos educativos para la mejora de la educación inclusiva y la calidad de vida los niños en Colombia; para ello, se debió caracterizar percepciones de los actores educativos hacia la educación inclusiva e identificar estrategias, metodologías y didácticas utilizadas por el docente para atender la diversidad; desde esta perspectiva, se desarrolla una investigación de enfoque cualitativo, cuya recolección de datos se hace mediante entrevistas y encuestas a grupos focalizados en los diferentes departamentos de Colombia (Antioquia, Cundinamarca, Huila, Magdalena y Santander), permitiendo evidenciar el papel crucial e importante de directivos y docentes frente a la inclusión educativa y su accionar en el aula ante la diversidad.",
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "book-chapter",
+        "identifier": "10.59899/ges-cono-57-c7",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Fondo Editorial de la Universidad Nacional Experimental Sur del Lago, Jesús María Semprum (UNESUR)"
+        }
+      },
+      {
+        "title": "PRECO-D2: program for calculating preequilibrium and direct reaction double differential cross sections",
+        "source": "crossref",
+        "url": "https://doi.org/10.2172/5772617",
+        "doi": "10.2172/5772617",
+        "year": 1985,
+        "authors": [
+          "C. Kalbach"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 8,
+        "work_type": "report",
+        "identifier": "10.2172/5772617",
+        "extra": {
+          "crossref_type": "report",
+          "publisher": "Office of Scientific and Technical Information (OSTI)"
+        }
+      },
+      {
+        "title": "Eficacia Na Formacao De Lideres De Pequenos Grupos Na Uniao Nordeste Brasileira",
+        "source": "crossref",
+        "url": "https://doi.org/10.32597/theses/82/",
+        "doi": "10.32597/theses/82/",
+        "year": 2023,
+        "authors": [
+          "Andrews University",
+          "Moises Silva"
+        ],
+        "venue": null,
+        "abstract": "Problem The purpose of this study was to identify factors that answered the question of why are the majority ministers of the Brazilian Northeast Region not excited about the work of the small groups, even having known their work for 15 years. Method It is a quantitative survey, conducted during a ministerial council in 2013. It is an anonymous and objective survey. Results The ministers of the União Nordeste Brasileira have been working with small groups since the start of their ministry, except those who have been ministers for over 20 years. Many ministers began their involvement with small groups before completing their theology degrees. Many ministers gave up working with the small groups and started working with them again with a renewed vision from 2013 onward. They gave up their devotion to the mobilization and structuring of the church into small groups, even understanding that this is a biblical and prophetic vision. Conclusions It was possible to understand the difficulties that the ministers faced with regard to the small groups. They reported a multiplication of tasks and dates, and lack of experience from the field administration. They understood the small groups as important but not a priority. And the most important aspects: if there was focus and priorities, they would lead a church using the small groups as a base for their actions.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.32597/theses/82/",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "James White Library"
+        }
+      },
+      {
+        "title": "O Minuto Lumière, o Minuto Méliès e o Minuto Blachè!",
+        "source": "crossref",
+        "url": "https://doi.org/10.31560/pimentacultural/2020.243.225-238",
+        "doi": "10.31560/pimentacultural/2020.243.225-238",
+        "year": 2020,
+        "authors": [
+          "Alessandra Collaço da Silva"
+        ],
+        "venue": "Trajetórias inventivas de pesquisa em educação contemporânea: infância, comunicação, cultura e arte",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.31560/pimentacultural/2020.243.225-238",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Pimenta Cultural"
+        }
+      },
+      {
+        "title": "Piel cultural: Formación, antropología y vestuario",
+        "source": "crossref",
+        "url": "https://doi.org/10.21500/9786287946033",
+        "doi": "10.21500/9786287946033",
+        "year": 2026,
+        "authors": [
+          "Dolly Viviana Polo Flórez"
+        ],
+        "venue": null,
+        "abstract": "En la apuesta teórico-conceptual de Piel cultural: formación, antropología y vestuario, se estudia cómo la antropologización y la formación inciden en el valor que se les otorga al vestuario y a los recubrimientos como parte de una imagen maleable del ser humano con el paso del tiempo. A su vez, se estudia cómo la materialidad del cuerpo y su subjetividad modifican el juego del encubrimiento. En ese orden de ideas, no debe sorprender que el presente documento sea en sí mismo un entretejido multidisciplinar cuya plataforma es la educación. Un aporte fundamental que brinda esta apuesta –que deriva de la tesis doctoral homónima– es el cambio en las representaciones de lo educativo. Se propone aquí que lo educativo no es la escolaridad, sino cómo y a través de qué –en este espacio, lo referente al vestuario– se forma la subjetividad.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.21500/9786287946033",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "Editorial Bonaventuriana"
+        }
+      }
+    ]
+  },
+  "count": 40,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:06:56.634059+00:00"
+}

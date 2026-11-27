@@ -1,0 +1,1045 @@
+{
+  "ok": true,
+  "data": {
+    "query": "apparel product development process stages designer technical designer",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 25,
+      "crossref": 25,
+      "doab": 0
+    },
+    "raw_records": 50,
+    "merged_records": 50,
+    "returned": 50,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Reference model for apparel product development",
+        "source": "openalex",
+        "url": "https://doi.org/10.14807/ijmp.v8i1.538",
+        "doi": "10.14807/ijmp.v8i1.538",
+        "year": 2017,
+        "authors": [
+          "Isabel Cristina Moretti",
+          "Aldo Braghini"
+        ],
+        "venue": "Independent Journal of Management & Production",
+        "abstract": "The purpose of this paper was to develop a reference model for the implementation of the process of product development (PDP) for apparel. The tool was developed through an interactive process of comparison between theoretical. Managers in companies and professionals working in this market can utilize the reference model as a source for the organization and improvement of the PDP for apparel and the universities as a reference source for systematized teaching of this process. This model represents the first comprehensive attempt to develop an instrument at a detailed level (macro phases, phases, activities, inputs and outputs at each stage and at the gates) to systematize the PDP process for fashion products and to consider its particularities.",
+        "pdf_url": "http://www.ijmp.jor.br/index.php/ijmp/article/download/538/647",
+        "citation_count": 26,
+        "work_type": "article",
+        "identifier": "W2591957624",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Managing design and designers for strategic renewal",
+        "source": "openalex",
+        "url": "https://doi.org/10.1016/j.lrp.2004.11.010",
+        "doi": "10.1016/j.lrp.2004.11.010",
+        "year": 2005,
+        "authors": [
+          "Davide Ravasi",
+          "Gabriella Lojacono"
+        ],
+        "venue": "Long Range Planning",
+        "abstract": null,
+        "pdf_url": "https://openaccess.city.ac.uk/id/eprint/4600/3/Renewal_by_design_third_revision.pdf",
+        "citation_count": 286,
+        "work_type": "article",
+        "identifier": "W2060747118",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "An Approach of applying Motion-Sensing Technology to Design and Development Processes of Apparel Value Chains",
+        "source": "openalex",
+        "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:hb:diva-408",
+        "doi": null,
+        "year": 2015,
+        "authors": [
+          "Manuela Hecht",
+          "Kristina Babik"
+        ],
+        "venue": "DiVA - University of Borås (Högskolan i Borås)",
+        "abstract": "The area of the research comprises the field of virtualization as specified to the field of three-dimensional user interfaces (3D UIs). It is an approach of applying the field of motion-sensing technology to potential areas of apparel value chains focusing on design. The background of this thesis is the industry’s established 3D design and development process and new digital tools that enable embodied interaction. So far companies are still working with a limited 3D design approach, which requires several non-value-adding activities, e.g. technical sketching and pattern creation, before a product can be virtually simulated and evaluated. As the current fashion industry’s human-computer interaction (HCI) applications have non-embodied interaction technologies, which deny natural hand movements, it was evaluated, if motion-sensing technology can enable the feeling of natural handcrafting. The purpose of the project was to investigate the designer’s attitude towards motion-sensing technology as a design tool and the potential of embodied HCI in design and development processes of apparel value chains. Enabling the designer the feeling of handcrafting in a 3D world opens a new area of research within the use of 3D fashion design tools. Moreover the thesis expected to prove the desire towards embodied interaction during the apparel design and development processes and the designer’s openness to try out new things. To fulfill the purpose, the motion-sensing technology tool Leap Motion was used as a practical device, which enables embodied interaction in design applications. A team of various designers was used to conduct a practical experiment, combined with interviews and observations. The experiment has been analysed on the designer’s attitude towards the use of a motion-sensing technology tool within the design field and possible implications on the design and development phases of apparel value chains. The results show, that the designers supported embodied interaction and experienced the use of motion-sensing technology as an enhancing and powerful tool. However, it has become clear that the designers experienced the usage of free-handed motion-sensing technology as not natural or intuitive and rather prefer tangible tools. Presupposing a crucial improvement of the technology, different ways of substituting current design activities like enabling the draping process on a virtual basis could enhance the value chain regarding speed, flexibility and waste. This would enable earlier entry into the evaluation stage of virtual simulated prototypes while directly starting the design and development process in 3D and reducing several iterations of non-value adding activities.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W1137177653",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Fashion exposure: Sri Lankan apparel industry designer interactions with the world of fashion",
+        "source": "openalex",
+        "url": "https://doi.org/10.1108/jfmm-10-2018-0137",
+        "doi": "10.1108/jfmm-10-2018-0137",
+        "year": 2019,
+        "authors": [
+          "Sumith Gopura",
+          "Alice Ruth Payne",
+          "Laurie R. Buys",
+          "Deepthi C. Bandara"
+        ],
+        "venue": "Journal of Fashion Marketing and Management",
+        "abstract": "Purpose Developing countries engaged in apparel value chain are going global, seeking opportunities to upgrade the industry through providing higher value-added products and services. The purpose of this paper is to investigate how Sri Lankan apparel industry designers interact with the western fashion world in the apparel value chain process, and how they acquire, adapt and apply the knowledge needed to develop high-value fashion products in their fashion design practice. Design/methodology/approach The study adopts a qualitative approach through semi-structured interviews conducted with fashion design and product development professionals in the Sri Lankan apparel industry. An inductive thematic analysis is used in identifying participants’ experience of the western fashion world within their fashion design practice. Findings The study proposes a “fashion knowledge bridge” illustrating the ways in which Sri Lankan designers acquire and merge high-value fashion consumer culture and lifestyle knowledge with the manufacturing industry, through multisensory and virtual experience, termed “exposure”, in their interactions with the western fashion world as well as the manufacturing culture of the Sri Lankan apparel industry. Designers’ exposure improves the feasibility and reliability of their apparel products, aligning to the end-consumer needs. The study also proposes a “designers’ exposure framework” that illustrates gains made by the Sri Lankan apparel industry resulting from knowledge enhancement through the designers’ exposure. Research limitations/implications The study is based on a qualitative methodology that has potential subjective biases on the part of the researchers; in this case only the Sri Lankan designers’ perspectives were used in synthesising the findings. Originality/value The findings propose frameworks with theoretical and managerial implications for developing designers’ capabilities in apparel manufacturing countries that seek industrial upgrading through value-added fashion design practice.",
+        "pdf_url": "https://eprints.qut.edu.au/130768/2/130768.pdf",
+        "citation_count": 7,
+        "work_type": "article",
+        "identifier": "W2953105079",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "The development of design ideas in the early apparel design process: a pilot study",
+        "source": "openalex",
+        "url": "https://doi.org/10.1080/17543266.2015.1026411",
+        "doi": "10.1080/17543266.2015.1026411",
+        "year": 2015,
+        "authors": [
+          "Jung Soo Lee",
+          "Charlotte A. Jirousek"
+        ],
+        "venue": "International Journal of Fashion Design Technology and Education",
+        "abstract": "The purpose of this study is to examine the apparel design process by asking how a designer applies perceived information from visual sources and develops concepts through the exploration of design elements and principles. A stimuli-based design experiment was conducted with a professional designer as a pilot study. It was observed that preliminary visual units, termed small concepts, gradually evolve during the early design stage. Since this process is critical to continue the entire idea development, this paper focuses primarily on the detailed observation of the early design process, in which the designer perceives visual elements from a source-of-inspiration image, immediately transfers them to clothing design-related elements, explores variations in shape and placement by applying design principles, and finally develops small concepts. These small concepts become the basis for the later development of more complex design ideas. Understanding this design knowledge and relevant strategies will trigger creative idea generation and shed light on teaching the design process to apparel design students.",
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/17543266.2015.1026411?needAccess=true&role=button",
+        "citation_count": 60,
+        "work_type": "article",
+        "identifier": "W2063869961",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "An Integrated Printed Textile Design and Apparel Product Development Process",
+        "source": "openalex",
+        "url": "http://www.lib.ncsu.edu/resolver/1840.16/948",
+        "doi": null,
+        "year": 2004,
+        "authors": [
+          "Lesley Nicole Hatcher"
+        ],
+        "venue": "NCSU Libraries Repository (North Carolina State University Libraries)",
+        "abstract": "The purpose of this study was to acquire information about the textile print design process as it is executed at apparel companies who design and develop printed fabrics internally for their seasonal lines. Technologies used by apparel companies in the textile print design process were also surveyed. The sample consisted of nine companies who design and develop printed fabrics internally to be used in their seasonal apparel lines. Using a case study approach, company representatives were interviewed via the telephone. The data from each respondent company was organized by process steps and technologies used, and translated into a graphical representation. The graphical representations from all companies were compared for similarities and differences and consolidated into a graphical representation. The graphic representation of the textile print design process at an apparel company was then integrated into the No-interval Coherently Phased Product Development Process for Apparel by May-Plumlee and Little (1998). The result was a framework that serves as a theoretical foundation for academic research in the integration of the apparel design and textile print design processes, and a model for practioners.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2522016464",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Creative Design Process In 3D: The Exploratory, Quasi-Experimental Case Studies Of Six Apparel Designer'S Draping Processes",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/1813/34041",
+        "doi": null,
+        "year": 2013,
+        "authors": [
+          "Lindsey Milz"
+        ],
+        "venue": "eCommons (Cornell University)",
+        "abstract": "The creative process of design cannot easily be defined. Designers possess the skills necessary to create a product that is novel and interesting, but cannot always easily explain their motivations, actions, or thought processes integral to the design process. For this reason, research cannot rely on verbal accounts alone. This thesis introduces a new way to research design process by presenting six exploratory, quasi-experimental case studies on the draping design processes of fashion designers. Data was collected using observation and photographic documentation in real time and combined with retrospective verbal interviews. Due the continuous nature of design process, each designer was asked to select a source of inspiration image which provided a necessary starting point. The relationships between this image and the design process allow a more clear understanding of how designers are borrowing, combining, layering, contrasting, and abstracting design elements and principles from both within- and between-domain sources. This new design research method provides a unique and uninterrupted view of the unfolding design process, and from the data collected critical actions by the designers can be determined, interpreted, and categorized in terms of its relationship to the overall process. The findings also discuss Individual motivations and design strategies, the role of fabric and the body, the relationship of sketching and draping processes, and some key differences between 2D and 3D design.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W1950916413",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "The role of standardized technical packages in ensuring consistency and accuracy in apparel product development",
+        "source": "openalex",
+        "url": "https://doi.org/10.1515/aut-2025-0059",
+        "doi": "10.1515/aut-2025-0059",
+        "year": 2026,
+        "authors": [
+          "Muhammad Babar Ramzan",
+          "Hafsa Maryam",
+          "Muhammad Tauseef Khawar",
+          "Aqsa Imran",
+          "Sheheryar Mohsin Qureshi",
+          "M Azfar Iqbal"
+        ],
+        "venue": "Autex Research Journal",
+        "abstract": "Tech pack is a comprehensive communication document that provides detailed instructions and specifications for apparel production. It serves as contracts between design sections, production sections, and clients, ensuring consistency, accuracy, and effective communication throughout the product development process. This study aims to identify and examine the specific components of tech packs. Through surveys, interviews, and analysis of existing tech packs, the study validates the importance of each component and its contribution to the overall effectiveness of tech packs. The methodology involves hypothesis generation, questionnaire development, data collection through surveys, and data analysis using statistical techniques. Confirmatory factor analysis (CFA) technique was used to prove the model statistically by using AMOS and SPSS software. Results were improved by several iterations, and they verified that the obtained components of tech packs are necessary to get the right information from customers. Finally, the study developed a conceptual model that describes the relations among all tech pack components and illustrates their interactions and benefits within the apparel sector in question. Furthermore, this study will contribute to the improvement and standardization of tech pack development, ultimately enhancing productivity and ensuring consistent and accurate apparel product development.",
+        "pdf_url": "https://www.degruyterbrill.com/document/doi/10.1515/aut-2025-0059/pdf",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W7118192060",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Innovating the apparel industry in the United States: Designers and small brands purchasing sustainable textiles",
+        "source": "openalex",
+        "url": "https://lib.dr.iastate.edu/cgi/viewcontent.cgi?article=8477&context=etd",
+        "doi": null,
+        "year": 2019,
+        "authors": [
+          "Jennifer Siobhan Ingram"
+        ],
+        "venue": "Iowa State University Digital Repository (Iowa State University)",
+        "abstract": "The purpose of this study was to explore the purchasing practices of designers and small apparel brands in the United States regarding sustainable textiles. In this study, sustainable textiles was defined as textiles composed of fibers that reduce negative environmental and social impact. Small apparel brands was defined as businesses of five or fewer full-time employees that produce small or large batch units or apparel to sell to stores or on a website to consumers. Due to the magnitude of environmental and social problems attributed to the apparel industry, both academic and industry literature have stressed the need to integrate sustainability into the entire product development pipeline, starting with textile selection. The purchasing of sustainable textiles by small apparel brands can be viewed as an innovative business practice. Rogers’ (2003) diffusion of innovation (DOI)- decision process provides a framework to understand the knowledge, persuasion, decision, implementation, and confirmation of designers and small apparel brands purchasing of sustainable textiles. The innovation-decision perspective explains how and why new ideas spread, and the factors that influence purchase decisions concerning new and alternative materials such as sustainable textiles. Numerous publications call for designers to function as change agents (innovators) regarding sustainability and convey that small businesses can potentially implement such practices quickly. Various studies have attempted to explain why small apparel brands do not purchase sustainable textiles, but few explain why some brands do purchase such materials. Other research has addressed large United States apparel brands that have engaged in sustainable textiles, but small apparel brands have been largely ignored. Thus, a gap exists in the literature concerning what innovative sustainable textiles are being used by small apparel brands and designers, sectors that constitute a majority of the United States apparel industry. This qualitative study used a semi-structured interview methodology to gather responses from 14 designers or employees of small apparel brands in the United States and have purchased sustainable textiles. Participants were solicited by contacting the brands directly, posting an invitation in Facebook sustainable fashion groups, and by contacting designers directly through professional networks such as LinkedIn and the International Textile and Apparel Association. Data were analyzed using MAXQDA qualitative data analysis software. The findings show that designers and small apparel brands do indeed function as change agents by integrating many different types of natural and manufactured sustainable textiles into materials selected for garment design and production. Most purchased these textiles because they strive to make an environmental and social impact by making sustainable textile selection as a priority. Knowledge and relative advantage of sustainable textiles and processes were key factors that positively influenced purchasing decisions. On the contrary, the factors that negatively influenced purchasing were complexity, trialability, and observability. Findings show that through independent research, designers and small apparel brands purchase textiles composed of sustainable fibers, or made through sustainable processes, online and directly from mills at tradeshows. This research increases not only awareness knowledge, principle knowledge, and how-to knowledge, but develops a list of sustainability terms and textiles used by designers and small apparel brands. Further research can include developing a data base for sourcing with pricing and minimum order quantities, providing a labeling system for products, and creating infrastructure for biodegrading and recycling textiles. Additional research may include further refinement of a working definition for sustainable textiles and adding environmental and social responsibility to the DOI sub-dimensions of relevant advantage within the perceived characteristics of the diffusions of innovation-decision process. This research also contributes to the fashion industry by providing practical methods for students, sewers, educators, designers, and small apparel brands to adopt sustainable textiles.",
+        "pdf_url": "https://lib.dr.iastate.edu/etd/17470",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W2990805814",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "SIMULATION MODELS IN THE PROCESS OF DESIGNER'S EDUCATION",
+        "source": "openalex",
+        "url": "https://dergipark.org.tr/tr/pub/epess/issue/30322/334189",
+        "doi": null,
+        "year": 2016,
+        "authors": [
+          "Oksana Zakharkevich",
+          "Светлана Геннадьевна Кулешова",
+          "Galina Shvets"
+        ],
+        "venue": "The Eurasia Proceedings of Educational and Social Sciences",
+        "abstract": "The clothing industry is quickly becoming a high-tech industry due to rapid advances in technology which contribute to high quality design, cutting, stitching and finishing techniques. Furthermore, a designer today has to improve professional capability according to industry’s requirements. The word ‘designer’ is a broad description covering many different functions. A designer in a large company may specialize in a particular area and be part of a team, whilst in a very small company a designer may have to perform all the above tasks. In both cases they could be handled by using computer aided design systems at each stage of the design process. Most of the stages are already presented by specific pattern design systems : and design process in them could be provided in two-dimensional or in three-dimensional space. A student is a future professional and his capability has to be considered accordingly to the future state of the science and technology. That is why, pattern design systems and virtual three-dimensional models of the garments must be used as designer's tool in educational process and they must be presented in all studied courses, th ough some stages of apparel design are not formalized yet. However, visual aids and handout materials are common useful facilities in professional education, and even if manufacturing does not use such simulation models they might be useful for the students. Our work is devoted to review of different virtual models of garments and their particular parts, as well as simulation models of the design process in sewing industry. Those models were developed by authors and are recommended for use as visual aids in educational process.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2783381500",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Effectiveness of Technical Packages for the Apparel Production Process in the Global Apparel Industry",
+        "source": "openalex",
+        "url": "https://doi.org/10.9790/487x-1809024751",
+        "doi": "10.9790/487x-1809024751",
+        "year": 2016,
+        "authors": [
+          "Afroza Akter Rita",
+          "Shakinaz Mahamud"
+        ],
+        "venue": "IOSR Journal of Business and Management",
+        "abstract": "The apparel industry is one of the biggest economic sectors in the world.It is one of the most important sources of income for many parts of the world economy.It plays a pivotal role in developing a countries economy in terms of revenue generation and creation of employment.The apparel industry is one of the powerful sources of industrial employment, providing jobs for millions of people.The industry is undergoing a drastic change due to global sourcing and high level of price competition.Consumer behavior and disposable income increases when favorable demographic factors changes (Curtin, R. T. 1982).People are focused more on branded apparel and it has resulted in a positive growth in the global apparel market (De Mooij, M., 2013).Global exports of apparel which was 108 billion USD in 1990, increased drastically to 453 billion USD in 2004, which is a positive of 138% increase during the last 14 years (He, L. 2011).Asian countries contribute to a 50% of the total global apparel exports (Gereffi, G., & Memedovic, O. 2003).To become successful in the industry, it is very important to understand its structure, including both the manufacturing and retail side, as well as to be update knowledge of the market, product trends and a well-developed technical package for the apparel production.Technical packages hold the driving seat of the apparel production.This study shows the importance and effectiveness of technical packages for apparel production in the apparel industry.",
+        "pdf_url": "https://doi.org/10.9790/487x-1809024751",
+        "citation_count": 8,
+        "work_type": "article",
+        "identifier": "W2523392239",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Product Development Process for E-Textile Garments: A Design Guideline for Apparel Manufacturers",
+        "source": "openalex",
+        "url": "https://doi.org/10.31274/itaa.12246",
+        "doi": "10.31274/itaa.12246",
+        "year": 2020,
+        "authors": [
+          "Crystal Compton",
+          "Lucy E. Dunne",
+          "Md. Tahmidul Islam Molla"
+        ],
+        "venue": "International Textile and Apparel Association Annual Conference (ITAA)",
+        "abstract": "Garments with embedded electronic capabilities have the potential to meet a user’s functional needs in an efficient, dynamic manner compared to traditional body-worn technologies. While integrating electronics into textiles seems promising to apparel manufacturers and designers, a gap exists in the provision of designers with a common understanding of embedded technology. Therefore, it is often not pursued by apparel manufacturers due to a lack of understanding the influencing design variables that lie outside their scope of experience. Although general design guidelines for the development of e-textile garments is described in previous literature, manufacturing variables involved in spatially distributed e-textiles are often not considered, especially in a cut, make, and trim (CMT) factory setting. This paper addresses the gap in the product development process of e-textile garment manufacturing variables and provides a five-step design framework emphasizing design challenges that arise during e-textile garment development in a CMT factory setting.",
+        "pdf_url": "https://www.iastatedigitalpress.com/itaa/article/12246/galley/11487/download/",
+        "citation_count": 4,
+        "work_type": "other",
+        "identifier": "W3123335295",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Designing sustainable designers",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10613/10078",
+        "doi": "10.25316/ir-4512",
+        "year": 2019,
+        "authors": [
+          "Segal, Emma"
+        ],
+        "venue": "VIUSpace (Vancouver Island University Library)",
+        "abstract": "This action research based thesis uses qualitative interviews and data coding to explore the perspectives and experiences of 17 working apparel designers with sustainability within their design practice. The Disruptive Design Method was employed to structure the research and explore the challenges and opportunities that may exist in order to contribute to the development of more sustainable apparel designers. The findings revealed two distinct designer groups: agentized designers who engage with sustainability as a practice, and disengaged designers who see the problems in the industry as overwhelming. Seven themes emerged: a value action gap, the emotional impact, formative work experiences, and optimism in the face of challenge, knowledge designers hold, the influence of corporate culture, and support or lack of community culture. The outcome that emerged from this research is a synthesis of insights that is conveyed through a set of propositions for further professional development, communication and education around creating more agentized and sustainable apparel designers.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2947303732",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "The Customer-Dominated Innovation Process: Involving Customers as Designers and Decision-Makers in Developing New Product",
+        "source": "openalex",
+        "url": "https://doi.org/10.1080/14606925.2019.1592324",
+        "doi": "10.1080/14606925.2019.1592324",
+        "year": 2019,
+        "authors": [
+          "Wei Liu",
+          "James Moultrie",
+          "Songhe Ye"
+        ],
+        "venue": "The Design Journal",
+        "abstract": "This paper aims to explore the mechanism of involving customers as designers and decision-makers in developing new product. This study describes results from in-depth case studies with three companies: Tokyoflash, Threadless, and LEGO. These firms are pioneers in enabling customers to engage in product design and development as both designers and decision-makers. This study is based on detailed in-depth interviews with senior managers within these firms, as well as interviews with participating customer-designers. A new Customer-Dominated Innovation Process is described, which highlights the critical role played by customer-designers and customer communities and challenges the role played by senior managers in traditional phase-review processes. In addition, the methods and key factors needed to enable this engagement are discussed. This new phenomenon challenges standard models of product development in which internal resources retain authority and expertise.",
+        "pdf_url": "https://www.repository.cam.ac.uk/bitstreams/cc863f3c-f220-452d-86c3-ee63b50b7388/download",
+        "citation_count": 37,
+        "work_type": "article",
+        "identifier": "W2939295683",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Digital 3D Fashion Designers: Cases of Atacac and The Fabricant",
+        "source": "openalex",
+        "url": "https://doi.org/10.1080/1362704x.2021.1981657",
+        "doi": "10.1080/1362704x.2021.1981657",
+        "year": 2021,
+        "authors": [
+          "Natalia Särmäkari"
+        ],
+        "venue": "Fashion Theory",
+        "abstract": "The phenomenon of “digital fashion” has been lately addressed in media as the next significant step in the fashion industry. The increasing use of the 3D-software in fashion design processes is part of a wider “fashion 4.0” digitalization process. This article frames the phenomenon of digital fashion and presents an in-depth case study research on two pioneering companies in this area, Atacac and The Fabricant. How and why are they building their fashion design practice on digital 3D-design? How are these companies redefining the fashion design culture and the fashion designer? Drawing from sociology of professions, this article proposes that digital fashion is an emerging subfield within the field of fashion design, differentiating itself from the professional conventions and building new strategies of jurisdiction and legitimation. Driven by sociotechnical affordances and elevation of professional pride through ethical, conceptual, artistic and skill differentiation, digital fashion designer becomes also a digital artisan. In the increasingly virtual, or “phygital” space and a networked synergetic community of digital fashion, the professional, authorial, bodily and material boundaries of designers become fluid, transforming the traditional figure of fashion designer.",
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/1362704X.2021.1981657?needAccess=true",
+        "citation_count": 163,
+        "work_type": "article",
+        "identifier": "W3205697275",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "The Impact of Technology on the New Product Development Process for Intimate Apparel",
+        "source": "openalex",
+        "url": "https://doi.org/10.15221/26.31",
+        "doi": "10.15221/26.31",
+        "year": 2026,
+        "authors": [
+          "Cassie M. Lambert",
+          "Elizabeth P. Easter"
+        ],
+        "venue": "International Conference on 3D Body Scanning Technologies (3DBST)",
+        "abstract": "This research aimed to better understand how 3D CAD Software impacts the new product development process for intimate apparel.As a category, Intimate Apparel lags behind other categories in adopting new technology.Interviews with industry professionals explored their adoption and use of 3D CAD Software.Two case studies also compared the adoption strategies of a small and a large company.Coding of the interview and case study data revealed similar relationships and common themes across all participants.Findings show that the strategic implementation of 3D CAD Software reduces sample iterations and lead time, enhances cross-functional team communication, and supports earlier decisionmaking on fit, pattern adjustments, and material selection.The research also identified barriers to technology use and adoption.These include limitations on material digitalization, training time, and reduced fit model input.The study contributes a practical framework for integrating 3D CAD software into the New Product Development Process of Intimate Apparel.",
+        "pdf_url": "https://proc.3dbody.tech/papers/2026/2631.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W7160855860",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Industrial upgrading in the apparel value chain and the role of designer in the transition: Comparative analysis of Sri Lanka and Hong Kong",
+        "source": "openalex",
+        "url": "https://eprints.qut.edu.au/101558/",
+        "doi": null,
+        "year": 2016,
+        "authors": [
+          "Sumith Gopura",
+          "Alice Ruth Payne",
+          "Laurie R. Buys"
+        ],
+        "venue": "Asia Pacific journal of multidiscipliinary research/Asia Pacific journal of multidisciplinary research",
+        "abstract": "The apparel industry is a major export industry in Sri Lanka that depends upon labour intensive manufacturing. The Sri Lankan apparel industry is transitioning from Cut, Make, Trims (CMT) assembly and Original Equipment Manufacturing (OEM) to Original Design Manufacturing (ODM) and Original Brand Manufacturing (OBM), experiencing the economic benefits of apparel product export. The transition relies on having expert professionals who can provide creative, commercial, technical, and leadership skills in the process. In order to identify the creative roles and responsibilities that can contribute to the industrial upgrading process in Sri Lanka, this paper first provides an analysis of the global apparel value chain and the journeys of the countries with newly industrialized economies (NIEs) in the region. Second, a comparison of Hong Kong and Sri Lankan apparel industries contextualises the development of fashion design within each nation’s industry as a competitive advantage. In each country we examine three factors that demonstrate growth in fashion design: development of fashion design education; development of exportable own brands; and the establishment of local showcases to a global audience. The examples of both Hong Kong and Sri Lanka demonstrate the ways in which creative roles may act as a bridge between production and marketing networks, buyers and producers in maintaining and building industry value-adding for highly sophisticated and competitive fashion production systems. Although the Sri Lankan apparel industry has not progressed as far as Hong Kong in this arena, evidence suggests the industry is actively growing design capabilities.",
+        "pdf_url": "https://eprints.qut.edu.au/101558/1/APJMR-2016.4.4.2.14.pdf",
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "W2562718972",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Development of an intelligent recommendation system to garment designers for designing new personalized products",
+        "source": "openalex",
+        "url": "https://doi.org/10.70675/fff69557z81e2z42d7z940bzcce8418f9231",
+        "doi": "10.70675/fff69557z81e2z42d7z940bzcce8418f9231",
+        "year": 2017,
+        "authors": [
+          "Min Dong"
+        ],
+        "venue": "theses.fr (ABES)",
+        "abstract": "Développement d'un système de recommandation intelligent orienté vers les créateurs de vêtements en vue de conception de nouveaux produits personnalisés Durant mes travaux en thèse, nous avons imaginé et poser les briques d'un système de recommandation intelligent (DIRS) orienté vers les créateurs de vêtements afin de les aider à créer des nouveaux produits personnalisés. Pour développer ce système, nous avons dans un premier temps identifié les composants clés du processus de création, puis nous avons créé un ensemble de bases de données pour collecter les données pertinentes. Dans un deuxième temps, nous avons acquis des données anthropométriques, recueilli la perception du concepteur à partir de ces mêmes morphotypes en utilisant un body scanner 3D et une procédure d'évaluation sensorielle. A la suite, une expérience instrumentale est conduite pour capturer les paramètres techniques des matières, nécessaires à leur représentation virtuelle en lien avec les morphotypes. Enfin, cinq expériences sensorielles sont réalisées pour capitaliser les connaissances des créateurs. Les données acquises servent à classer les morphotypes, à modéliser les relations entre morphotypes et facteurs de la création. A partir de ces modèles, nous avons mis en place une base de connaissances de la création mettant en œuvre une ontologie. Cette base de connaissances est mise à jour par un apprentissage dynamique au travers de nouveaux cas présentés en création. Ce système est utilisé au sein d’un nouveau processus de création. Ce processus peut s’effectuer autant de fois que nécessaire jusqu'à la satisfaction du créateur. Le système de recommandation proposé a été validé à l'aide de plusieurs cas réels.",
+        "pdf_url": "http://www.theses.fr/2017LIL10025/document",
+        "citation_count": 4,
+        "work_type": "thesis",
+        "identifier": "W7148410142",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Development of Competences for the Fashion Designer: A Scope Review",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.22492/issn.2435-9467.2023.29",
+        "doi": "10.22492/issn.2435-9467.2023.29",
+        "year": 2023,
+        "authors": [
+          "Letícia Cunico",
+          "Lucimar Antunes de Araújo",
+          "Isabel Maria Pinto Ramos",
+          "Neri dos Santos"
+        ],
+        "venue": "The Barcelona Conference on Education official conference proceedings",
+        "abstract": "Authenticity presents itself as the warp that interweaves the fashion system and other sectors of society. This dynamic finds in contemporary society the \"era of lightness\", a system of inconsistency, change, personalization, and seduction that is related to the fashion system. The transition from a production-oriented (industrial) society to a post-industrial society, where knowledge becomes the main factor of production, makes education even more relevant as a means for individuals to occupy their space in society and act on social and environmental issues. In this perspective, the objective of this work is to map the themes that permeate the competencies of Fashion Design professionals through a scope review. This strategy allows for an analysis of evidence on a particular research area, synthesizing the main concepts, theories, and knowledge gaps. To support the process, the study makes use of the PRISMA-P (Preferred Reporting Items for Systematic Review and Meta-Analysis Protocols), double-blind selection of works, and qualitative thematic analysis. This analysis is divided into five themes: employability; entrepreneurship and digital competencies; sustainability; research and development; production processes. The study's conclusion points to an interconnection of these themes in both the educational process and the professional life of the fashion designer, suggesting a trend toward interdisciplinarity or trans disciplinarity. Additionally, the study suggests a personalized education, with the development of curricula or other actions in coproduction between educational institutions and society sectors.",
+        "pdf_url": "https://papers.iafor.org/wp-content/uploads/papers/bce2023/BCE2023_72856.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4389081210",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Fashion designer competencies desired by apparel manufacturers: As related to academic and vocational fashion design programs",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/2346/19599",
+        "doi": null,
+        "year": 1973,
+        "authors": [
+          "Barbara Joan Flaxman"
+        ],
+        "venue": "ThinkTech (Texas Tech University)",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W2279571897",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Designing Knit Designers",
+        "source": "openalex",
+        "url": "http://ojs.francoangeli.it/_omp/index.php/oa/catalog/book/455?fbclid=IwAR3ixAkIwWHk8W5XvAGihD8ydOi2Eq06XttAG2hhNKQHg9mHsAh5Vi1F0qU",
+        "doi": null,
+        "year": 2019,
+        "authors": [
+          "Martina Motta"
+        ],
+        "venue": "IRIS Politecnico di Milano",
+        "abstract": "Traditionally associated with craftmanship and manual work, knitwear seems a quite unusual subject of investigation for scientific research. This book places it as an integrative part of the industrial design culture where the dialogue between a productive system of excellence and the design discipline taught in universities becomes a topic of central concern. From an industrial standpoint, knitwear is a fertile ground of technological experimentation while being at the same time one of the most traditional sectors of Made in Italy. The complexity of a long and fragmented production chain is an interesting challenge for designers but affects the training and the knowledge transfer inside companies. On the academic side, the presence of such an industry creates the urgency for higher education to understand how to train knit designers as new professionals, and thus the opportunity for knitwear to be recognized as a discipline deserving specific teaching strategies and a focused scientific research. The present book reports an experimentation conducted in the unique conditions of the Italian industrial design culture, that defined tools and methods to train knit designers not as artists, but with the technical and cultural knowledge and the project-oriented mindset that is typical of industrial design disciplines. These contents are of interest for the academy, as they constitute a tool to design teaching experiences oriented to such a specific industrial sector; for those approaching knitwear design, as it is a pool of information on the complexity of knitwear, a map of the background knowledge, collected and rearranged, and a compass to be guided in building one's own skills; for professionals, who will find here their history, the opinions of colleagues, the opportunity to integrate their knowledge and to learn more about the in-depth experimental, technical and design work that takes place at Politecnico di Milano.",
+        "pdf_url": "http://ojs.francoangeli.it/_omp/index.php/oa/catalog/download/455/262/2190-1",
+        "citation_count": 3,
+        "work_type": "book",
+        "identifier": "W3047566805",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Forecasting 2.0: using Web 2.0 for market research in apparel product development",
+        "source": "openalex",
+        "url": "http://udspace.udel.edu/handle/19716/9795",
+        "doi": null,
+        "year": 2010,
+        "authors": [
+          "Shahera Williams"
+        ],
+        "venue": "Library, Museums and Press - UDSpace (University of Delaware)",
+        "abstract": "Web 2.0 technologies have allowed for increased conversations regarding fashion and apparel products and brands. Wickett, Gaskill, and Damhorst’s Revised Apparel Retail Product Development Model (1999) shows the steps undergone in the traditional in-house product development process. This qualitative research study aimed to examine the use of Web 2.0 tools, specifically social networking systems, to conduct market research within the apparel product development process. Three research questions guided this study: 1) Are Web 2.0 social networking tools being utilized in product development processes? 2) What stages within the Apparel Retail Product Development cycle most benefit from Web 2.0 social networking tools? 3) What stages of innovation adoption in regards to Web 2.0 are seen in different apparel companies? Ten apparel industry professionals were interviewed on the use of Web 2.0 social networking applications in their positions and within their firm. This non-probability sample responded to thirteen questions investigating the connection between apparel product development and Web 2.0 consumer data collection. Responses were analyzed and coded based on relevant themes and varying levels of adoption of Web 2.0 social networking tools into apparel product development processes were found. Designers were found to utilize blogs and social networking the most for inspiration and information on target consumers. Small and developing apparel firms were the most innovative in their use of social media. It is inevitable that more apparel firms will utilize and adopt this new technology since social networking tools are becoming more wide spread. Fashion brands are taking note that this is an enhanced way to communicate with their consumers, and are joining websites such as Facebook and Twitter to create their own presence and engage consumers. This research examined the utility of Web 2.0 social networking systems to traditional apparel product development processes in the early stages of its adoption within the apparel industry.",
+        "pdf_url": "https://udspace.udel.edu/bitstreams/790ebda1-12c3-4ff6-bcab-7d27f902e52d/download",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W132586449",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Adopting Zero-waste Pattern-making Techniques for Apparel Product Development",
+        "source": "openalex",
+        "url": "https://doi.org/10.1177/jiift.241276317",
+        "doi": "10.1177/jiift.241276317",
+        "year": 2024,
+        "authors": [
+          "Indu Gupta",
+          "Rajesh Kumar Sharma"
+        ],
+        "venue": null,
+        "abstract": "Every year, the fashion industry churns out millions of clothing items with fresh styles, resulting in significant fabric waste during production. This fabric waste contributes to environmental pollution. Embracing zero-waste pattern-making techniques for clothing production offers a viable solution to curbing this issue. By utilising the entire fabric yardage, these techniques aim to minimise or eliminate fabric waste after garment production. Zero-waste design is a holistic approach that integrates designing, production and sourcing processes. This article aims to propose solutions for controlling fabric waste through innovative zero-waste pattern-design techniques, thereby fostering a sustainable future. Traditionally, the apparel production process utilises 85% of fabrics, leaving behind 15% as wastage. The challenge lies in reducing this 15% wastage to zero (Abernathy et al., 1999). However, it is acknowledged that not everyone can readily adopt zero-waste pattern techniques. It requires creativity to develop optimal design solutions for apparel production. Collaboration among designers, pattern makers, academics and production professionals is essential for researching and identifying the best creative practices and solutions for integrating zero-waste pattern-making techniques into the apparel production process. Developing approaches for zero-waste pattern-making involves researching basic pattern design principles, understanding associated challenges and analysing outcomes. This research and development process in zero-waste pattern-making can pave the way for better sustainable practices, ultimately contributing to the reduction of fabric waste pollution and fostering a more sustainable future.",
+        "pdf_url": "https://www.ijser.org/researchpaper/An-experiment-to-create-Zero-Wastage-Clothing-by-stitching-and-slashing-technique.pdf",
+        "citation_count": 7,
+        "work_type": "article",
+        "identifier": "W4403547369",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Adopting 3D Body Scanning in Customized Apparel Design: Cultural, Technical, and Perceptual Barriers of Fashion Designers, Pattern Maker and Final Users Technology",
+        "source": "openalex",
+        "url": "https://doi.org/10.15221/25.42",
+        "doi": "10.15221/25.42",
+        "year": 2025,
+        "authors": [
+          "Daria Casciani",
+          "Alessandra carella",
+          "Marta Caserotti",
+          "Enrico Rubaltelli"
+        ],
+        "venue": "3DBODY.TECH journal",
+        "abstract": "This study examines the technical, operational, and socio-cultural aspects of 3D body scanning, investigating consumer perceptions and the experiences of fashion operators in integrating 3D body scanning into digital fashion workflows. A mixed-methods approach was adopted, with approximately twenty-three participants completing surveys before and after scanning sessions using the We Wear (Prisma Tech) cabin, assessing their emotional responses, trust, and usability. In parallel, eight fashion operators, including designers and patternmakers, participated in semi-structured interviews to examine digital measurement extraction, avatar generation, digital-to-analog conversion, and parametric pattern making. Consumers reported that the 3D body scanning experience was generally positive, describing it as fast, intuitive, and non-invasive, with increased confidence in its ease of use after the session. However, some concerns remained about body image discomfort and the perceived loss of a fashion craftmanship touch. Fashion operators valued body scanning for enhancing fit, reducing waste, and enabling visualization and pre-prototyping; however, they noted challenges, including measurement and landmarking inconsistencies, misalignment with manual methods, mesh quality issues in converting digital avatars, and limited software interoperability. This highlights the need for streamlined digital processes and more effective training. A revised workflow framework is proposed to bridge gaps between analog and digital practices across fashion design workflows.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4414832698",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "The Designer’s Contribution to the 3D Knit Ecosystem",
+        "source": "openalex",
+        "url": "https://doi.org/10.32920/23302190",
+        "doi": "10.32920/23302190",
+        "year": 2023,
+        "authors": [
+          "Kirsten Schaefer"
+        ],
+        "venue": null,
+        "abstract": "The term 3D knitting is used in popular media and marketing to describe textile products knit in a single, shaped piece, without seams. 3D knit products provide: increased comfort in wearable items, greater product integrity, new design possibilities, reduction in manual labour, and new opportunities to integrate “smart” fibres. Due to the complex machinery and software used for this type of fabrication, designers engaging with 3D knitting require a different mindset compared to traditional cut and sew or knit design processes. This research was framed by the question: What role do designers play in the current 3D knit ecosystem? A secondary question asked: What are the opportunities and challenges in expanding designers’ skills for 3D knitting? Qualitative inquiry was used to examine designers’ experience in the 3D knit ecosystem in Canada and the United States from the perspectives of three primary stakeholders: designers, software technicians (programmers), and production managers (manufacturers). Modified touchstone tours including semi-structured interviews were conducted with participants (n=18) from the three key stakeholder groups at companies (n=10) across Canada and the United States. Thematic analysis was used to identify and organize key themes from the data. Results indicate that 3D knitting provides benefits in five categories: consumer/product, manufacturer, design and development, business strategy, and sustainability. Challenges and roadblocks were identified in four categories for all stakeholders: costs, education and employment, design and development, and communication. Challenges identified by one stakeholder group were frequently mirrored by or connected to the experience of another group. Results suggest that tacit knowledge contributes to the communication bottleneck in the 3D knit ecosystem. As access to 3D knitting increases, designers’ responsibilities and the scope of their considerations in the design and development process must expand. Designers who understand the goals and priorities of the other stakeholder groups are better equipped to successfully navigate the 3D knit design and development process. This research has implications for current practices in textile and apparel production as well as for higher education institutions preparing design students for careers in this evolving industry.",
+        "pdf_url": "https://rshare.library.torontomu.ca/articles/thesis/The_Designer_s_Contribution_to_the_3D_Knit_Ecosystem/23302190/1/files/41077997.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4379522973",
+        "extra": {
+          "openalex_type": "other",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "The Apparel Product Development Process and Technical Design",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501328435.ch-002",
+        "doi": "10.5040/9781501328435.ch-002",
+        "year": 2018,
+        "authors": [],
+        "venue": "Technical Sourcebook for Apparel Designers",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501328435.ch-002",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Inc"
+        }
+      },
+      {
+        "title": "The Apparel Product Development Process and Technical Design",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501391972.ch-2",
+        "doi": "10.5040/9781501391972.ch-2",
+        "year": 2024,
+        "authors": [],
+        "venue": "Technical Sourcebook for Apparel Designers",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501391972.ch-2",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Inc"
+        }
+      },
+      {
+        "title": "The Apparel Product Development Process and Technical Design",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501304231.ch-002",
+        "doi": "10.5040/9781501304231.ch-002",
+        "year": 2016,
+        "authors": [],
+        "venue": "Technical Sourcebook for Designers",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.5040/9781501304231.ch-002",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Fairchild Books (US)"
+        }
+      },
+      {
+        "title": "Hot Hollywood designer clothing boutique Live! On Sunset interviews",
+        "source": "crossref",
+        "url": "https://doi.org/10.4016/15454.01",
+        "doi": "10.4016/15454.01",
+        "year": 2010,
+        "authors": [
+          "Liveonsunset Com"
+        ],
+        "venue": "SciVee",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "dataset",
+        "identifier": "10.4016/15454.01",
+        "extra": {
+          "crossref_type": "dataset",
+          "publisher": "SciVee, Inc"
+        }
+      },
+      {
+        "title": "Hot Hollywood designer clothing boutique Live! On Sunset interviews",
+        "source": "crossref",
+        "url": "https://doi.org/10.4016/15454.03",
+        "doi": "10.4016/15454.03",
+        "year": 2010,
+        "authors": [
+          "Liveonsunset Com"
+        ],
+        "venue": "SciVee",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "dataset",
+        "identifier": "10.4016/15454.03",
+        "extra": {
+          "crossref_type": "dataset",
+          "publisher": "SciVee, Inc"
+        }
+      },
+      {
+        "title": "Axiomatic Product Design in Three Stages; A Constituent Roadmap that Visualises the Status of the Design Process by Tracking the Knowledge of the Designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1115/1.861080_ch28",
+        "doi": "10.1115/1.861080_ch28",
+        "year": 2016,
+        "authors": [],
+        "venue": "Advances in Multidisciplinary Engineering",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1115/1.861080_ch28",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "ASME Press"
+        }
+      },
+      {
+        "title": "Product Liability and the Motorcycle Designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.4271/790264",
+        "doi": "10.4271/790264",
+        "year": 1979,
+        "authors": [
+          "Jon S. McKibben"
+        ],
+        "venue": "SAE Technical Paper Series",
+        "abstract": "<div class=\"htmlview paragraph\">Recent changes in product liability law, and in magnitude of jury awards, dictate that engineers shift their design priorities. Motorcycle designers must consider the liability implications of design improvements and re-evaluate traditional concepts of cost-effectiveness analysis. Explosive escalation of product liability litigation demands serious consideration by the designer at the concept stage and throughout final hardware development.</div>",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.4271/790264",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "SAE International"
+        }
+      },
+      {
+        "title": "Consultancy Designer Involvement in New Product Development in Mature Product Categories: Who Leads, the Designer or the Marketer?",
+        "source": "crossref",
+        "url": "https://doi.org/10.21606/drs.2010.77",
+        "doi": "10.21606/drs.2010.77",
+        "year": 2010,
+        "authors": [
+          "Fiona Maciver",
+          "Aidan O’Driscoll"
+        ],
+        "venue": "Proceedings of DRS",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "10.21606/drs.2010.77",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Design Research Society"
+        }
+      },
+      {
+        "title": "Consultancy Designer Involvement in New Product Development in Mature Product Categories: Who Leads, the Designer or the Marketer?",
+        "source": "crossref",
+        "url": "https://doi.org/10.21606/drs.2008.77",
+        "doi": "10.21606/drs.2008.77",
+        "year": 2010,
+        "authors": [
+          "Fiona Maciver",
+          "Aidan O’Driscoll"
+        ],
+        "venue": "Proceedings of DRS",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.21606/drs.2008.77",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Design Research Society"
+        }
+      },
+      {
+        "title": "Designer-oriented integrated simulation model for collaborative product development process",
+        "source": "crossref",
+        "url": "https://doi.org/10.3901/jme.2008.12.150",
+        "doi": "10.3901/jme.2008.12.150",
+        "year": 2008,
+        "authors": [
+          "Xiaodong ZHANG"
+        ],
+        "venue": "Chinese Journal of Mechanical Engineering",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "10.3901/jme.2008.12.150",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Chinese Journal of Mechanical Engineering"
+        }
+      },
+      {
+        "title": "Designer: a Job Description",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501303449.ch-001",
+        "doi": "10.5040/9781501303449.ch-001",
+        "year": 2011,
+        "authors": [],
+        "venue": "Designer’s Guide to Fashion Apparel",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "10.5040/9781501303449.ch-001",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "การศึกษาบทบาทของความหวังต่อพฤติกรรมสร้างสรรค์ของนักออกแบบผลิตภัณฑ์ดิจิทัล (Digital Product Designer) ในบริษัทออกแบบในกรุงเทพ",
+        "source": "crossref",
+        "url": "https://doi.org/10.58837/chula.the.2024.1151",
+        "doi": "10.58837/chula.the.2024.1151",
+        "year": 2025,
+        "authors": [
+          "อโรชา ทิพยไกรศร"
+        ],
+        "venue": null,
+        "abstract": "จากการเติบโตของตลาด E-commerce ในประเทศไทย ผู้ประกอบการต้องปรับตัวเพื่อแข่งขัน ส่งผลให้นักออกแบบผลิตภัณฑ์ดิจิทัลต้องพัฒนาความคิดสร้างสรรค์เป็นปัจจัยสำคัญในการเพิ่มศักยภาพการแข่งขัน การวิจัยครั้งนี้มีวัตถุประสงค์เพื่อศึกษาความสัมพันธ์ระหว่างความหวังและความคิดสร้างสรรค์ที่ส่งผลต่อการทำงานของนักออกแบบผลิตภัณฑ์ดิจิทัลในกรุงเทพฯ และปัจจัยที่ส่งผลต่อระดับความหวังและความคิดสร้างสรรค์ของนักออกแบบ กลุ่มตัวอย่างประกอบด้วยนักออกแบบผลิตภัณฑ์ดิจิทัลจาก 17 บริษัทในกรุงเทพฯ จำนวน 50 คน โดยใช้การสัมภาษณ์เชิงลึกและแบบสอบถาม ผลการศึกษาพบว่าความหวังมีความสัมพันธ์เชิงบวกกับพฤติกรรมสร้างสรรค์ โดยเฉพาะในด้านการสนับสนุนแนวคิดให้เป็นที่ยอมรับ (Idea Championing) และการสร้างแนวคิด (Idea Generation) ซึ่งมีค่า R² เท่ากับ 0.41 และ 0.39 ตามลำดับ ผลการวิจัยชี้ให้เห็นว่าการส่งเสริมความหวังและการสร้างสภาพแวดล้อมที่สนับสนุนความคิดสร้างสรรค์สามารถเพิ่มประสิทธิภาพและความสามารถในการแข่งขันในตลาด E-commerce ได้",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.58837/chula.the.2024.1151",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Office of Academic Resources, Chulalongkorn University"
+        }
+      },
+      {
+        "title": "Axiomatic Product Design in Three Stages: A Constituent Roadmap That Visualises the Status of the Design Process by Tracking the Knowledge of the Designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1115/imece2015-50993",
+        "doi": "10.1115/imece2015-50993",
+        "year": 2015,
+        "authors": [
+          "Erik Puik",
+          "Darek Ceglarek"
+        ],
+        "venue": "Volume 15: Advances in Multidisciplinary Engineering",
+        "abstract": "Increasing global competition in manufacturing technology puts pressure on lead times for product design and production engineering. By the application of effective methods for systems engineering (engineering design), the development risks can be addressed in a structured manner to minimise chances of delay and guarantee timely market introduction. Concurrent design has proven to be effective in markets for high tech systems; the product and its manufacturing means are simultaneously developed starting at the product definition. Unfortunately, not many systems engineering methodologies do support development well in the early stage of the project where proof of concept is still under investigation. The number of practically applicable tools in this stage is even worse. Industry could use a systems engineering method that combines a structured risk approach, concurrent development, and especially enables application in the early stage of product and equipment design. The belief is that Axiomatic Design can provide with a solid foundation for this need. This paper proposes a ‘Constituent Roadmap of Product Design’, based on the axiomatic design methodology. It offers easy access to a broad range of users, experienced and inexperienced. First, it has the ability to evaluate if knowledge application to a design is relevant and complete. Secondly, it offers more detail within the satisfaction interval of the independence axiom. The constituent roadmap is based on recent work that discloses an analysis on information in axiomatic design. The analysis enables better differentiation on project progression in the conceptual stage of design. The constituent roadmap integrates axiomatic design and the methods that harmonise with it. Hence, it does not jeopardise the effectiveness of the methodology. An important feature is the check matrix, a low threshold interface that unlocks the methodology to a larger audience.",
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "10.1115/imece2015-50993",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "American Society of Mechanical Engineers"
+        }
+      },
+      {
+        "title": "The Designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1016/b978-0-08-009793-0.50014-6",
+        "doi": "10.1016/b978-0-08-009793-0.50014-6",
+        "year": 1963,
+        "authors": [
+          "C. HEARN BUCK"
+        ],
+        "venue": "Problems of Product Design and Development",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1016/b978-0-08-009793-0.50014-6",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Type Designer :: Book Designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.4324/9781003396062-14",
+        "doi": "10.4324/9781003396062-14",
+        "year": 2025,
+        "authors": [
+          "Tré Seals"
+        ],
+        "venue": "Discovering the Design Process",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.4324/9781003396062-14",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Routledge"
+        }
+      },
+      {
+        "title": "Understanding Designer Engagement in the Product Development Process:: Evidence from Japanese Manufacturing Companies",
+        "source": "crossref",
+        "url": "https://doi.org/10.4013/sdrj.2023.163.08",
+        "doi": "10.4013/sdrj.2023.163.08",
+        "year": 2025,
+        "authors": [
+          "Yosuke Kanno",
+          "Satoshi Shibata"
+        ],
+        "venue": "Strategic Design Research Journal",
+        "abstract": "The role of designers in the product development process (PDP) has become increasingly important. However, there is still insufficient empirical evidence regarding the actual engagement of designers in the PDP and their relationship with product development performance and market conditions. In this study, through quantitative surveys and analysis targeting Japanese manufacturing companies, we clarified how designers engage in each stage of the PDP and how their engagement is related to product development performance and market conditions. The analysis results revealed significant differences in how designers engage in the PDP between companies. Particularly, notable differences were observed in how designers contribute to screening and evaluation of product ideas, product concepts, and prototypes. Furthermore, it became evident that companies consistently engaging designers throughout the entire PDP achieve high design performance and market performance. On the other hand, in terms of development efficiency performance, consistent and high-degree designer engagement throughout the PDP was not shown to have a pronounced effect. Finally, the analysis results indicated that how designers engage in the PDP is closely related to design intensity rather than technological or competitive intensity in the market.",
+        "pdf_url": "https://revistas.unisinos.br/index.php/sdrj/article/download/27216/60750379",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.4013/sdrj.2023.163.08",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "UNISINOS - Universidade do Vale do Rio Dos Sinos"
+        }
+      },
+      {
+        "title": "A conceptual designer-led New Product Development process model for Chinese SMEs",
+        "source": "crossref",
+        "url": "https://doi.org/10.1109/tidms.2013.6981238",
+        "doi": "10.1109/tidms.2013.6981238",
+        "year": 2013,
+        "authors": [
+          "Ke Lou",
+          "Darren John Southee",
+          "Erik Bohemia"
+        ],
+        "venue": "2013 IEEE Tsinghua International Design Management Symposium",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.1109/tidms.2013.6981238",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "IEEE"
+        }
+      },
+      {
+        "title": "Comparative Analysis of Guidewire Cloud Advanced Product Designer versus Conventional Product Designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.14445/22312803/ijctt-v72i12p114",
+        "doi": "10.14445/22312803/ijctt-v72i12p114",
+        "year": 2024,
+        "authors": [
+          "Shanmugasundaram Senathipathi"
+        ],
+        "venue": "International Journal of Computer Trends and Technology",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.14445/22312803/ijctt-v72i12p114",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Seventh Sense Research Group Journals"
+        }
+      },
+      {
+        "title": "wordpress website designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.4016/39495.01",
+        "doi": "10.4016/39495.01",
+        "year": 2012,
+        "authors": [
+          "designer wordpress",
+          "designer wordpress"
+        ],
+        "venue": "SciVee",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 4,
+        "work_type": "dataset",
+        "identifier": "10.4016/39495.01",
+        "extra": {
+          "crossref_type": "dataset",
+          "publisher": "SciVee, Inc"
+        }
+      },
+      {
+        "title": "Pharmacology and Toxicology of MPTP: A Neurotoxic By-Product of Illicit Designer Drug Chemistry",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/9781439805220-21",
+        "doi": "10.1201/9781439805220-21",
+        "year": 1989,
+        "authors": [],
+        "venue": "Cocaine, Marijuana, Designer Drugs",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/9781439805220-21",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "Marriott, Michael, (born 7 Jan. 1963), furniture and product designer; Director, Michael Marriott, since 1994",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.u2000261",
+        "doi": "10.1093/ww/9780199540884.013.u2000261",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.u2000261",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Marriott, Michael, (born 7 Jan. 1963), furniture and product designer; Director, Michael Marriott, since 1994",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.2000261",
+        "doi": "10.1093/ww/9780199540884.013.2000261",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.2000261",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Grange, Sir Kenneth Henry, (born 17 July 1929), product designer; in private practice, since 1958",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.17841",
+        "doi": "10.1093/ww/9780199540884.013.17841",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.17841",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Scenic Designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350980662",
+        "doi": "10.5040/9781350980662",
+        "year": 2016,
+        "authors": [],
+        "venue": "Scenic Designer",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350980662",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Human Kinetics"
+        }
+      },
+      {
+        "title": "Lighting Designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350980341",
+        "doi": "10.5040/9781350980341",
+        "year": 2016,
+        "authors": [],
+        "venue": "Lighting Designer",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350980341",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Human Kinetics"
+        }
+      }
+    ]
+  },
+  "count": 50,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:10:20.762671+00:00"
+}

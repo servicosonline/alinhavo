@@ -1,0 +1,530 @@
+{
+  "ok": true,
+  "data": {
+    "query": "Fashion and Textiles 3D virtual prototyping fit pattern",
+    "scope": "all",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab",
+      "clinicaltrials"
+    ],
+    "per_source": {
+      "openalex": 0,
+      "crossref": 25,
+      "doab": 0,
+      "clinicaltrials": 0
+    },
+    "raw_records": 25,
+    "merged_records": 25,
+    "returned": 25,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref.",
+      "SEC EDGAR: set HYPERRESEARCH_CONTACT_EMAIL — the SEC rejects requests whose User-Agent carries no contact address (HTTP 403)",
+      "FRED: set FRED_API_KEY"
+    ],
+    "results": [
+      {
+        "title": "3D Virtual Prototype",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350065147.ch-006",
+        "doi": "10.5040/9781350065147.ch-006",
+        "year": 2019,
+        "authors": [],
+        "venue": "Digital Pattern Cutting for Fashion with Lectra Modaris®",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350065147.ch-006",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Systematic pattern engineering of basic bodice blocks: 2D–3D virtual prototyping and fit validation using CLO3D",
+        "source": "crossref",
+        "url": "https://doi.org/10.15406/jteft.2026.12.00460",
+        "doi": "10.15406/jteft.2026.12.00460",
+        "year": 2026,
+        "authors": [
+          "Md Ahshan Habib",
+          "Alfaz Mia",
+          "Ayesha Akther Redhe",
+          "Kazi Tajriha Alam",
+          "Kamrul Hassan Bhuiyan"
+        ],
+        "venue": "Journal of Textile Engineering &amp; Fashion Technology",
+        "abstract": "This study examines the technical transition of garment silhouette development from 2D foundational pattern drafting to 3D digital simulation within the context of Digital Product Creation (DPC). Using a master basic bodice block as the structural foundation, a series of women’s dress variations ranging from contoured sheath forms to voluminous flared silhouettes were systematically developed in the CLO3D environment. The methodology applies established pattern manipulation techniques, including dart rotation, seam-line integration, and the slash-and-spread method, within a controlled digital workflow. The interaction between 2D geometric modification and 3D drape behavior was analyzed to evaluate the fidelity of virtual prototypes relative to conventional garment construction principles. Diagnostic tools, such as stress mapping and fit analysis, were employed to assess structural integrity and fit performance across variations. The results indicate that 3D virtual prototyping provides a consistent and analytically robust framework for evaluating pattern transformations, supporting improved design precision and reduced reliance on physical sampling under defined simulation conditions. However, the findings are constrained by the use of a single standardized avatar and a single fabric type, and therefore should be interpreted as condition-specific rather than broadly generalizable across diverse body morphologies, materials, or real-world production environments.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.15406/jteft.2026.12.00460",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "MedCrave Group Kft."
+        }
+      },
+      {
+        "title": "Digital Fashion Twins for Virtual Prototyping, Fit Optimization and Zero-Waste Garment Manufacturing",
+        "source": "crossref",
+        "url": "https://doi.org/10.62311/nesx/rb47ag-978-81-68314-53-5",
+        "doi": "10.62311/nesx/rb47ag-978-81-68314-53-5",
+        "year": 2026,
+        "authors": [
+          "Murali Krishna Pasupuleti"
+        ],
+        "venue": null,
+        "abstract": "Digital fashion twins create a computational counterpart of garments, bodies, materials and manufacturing processes that can be tested before costly physical decisions are made. This book develops a research architecture for virtual prototyping, fit optimization and zero-waste garment manufacturing by integrating parametric representation, uncertainty-aware statistics, causal inference, machine learning, scalable data engineering and governance. It treats the twin as a versioned evidence system rather than a static three-dimensional visualization. The analysis connects body-shape variability, fabric mechanics, surrogate simulation, generative pattern design, marker optimization, closed-loop production data and lifecycle traceability. Particular attention is given to model calibration, simulation-to-reality validation, multimodal generalization, human oversight, interoperability and reproducible MLOps. The proposed framework links design quality with material utilization, sample reduction, inclusive fit and circular manufacturing outcomes while preserving explicit limits on automation. Global applicability is considered across South Asian apparel clusters, European design and regulatory ecosystems, African industrial development contexts and American retail and technology environments. The resulting models, metrics, protocols and governance artifacts provide a foundation for rigorous experimentation, responsible industrial deployment and future research on digitally integrated, low-waste fashion production. Keywords digital fashion twins, virtual prototyping, garment simulation, fit optimization, anthropometric modelling, statistical shape models, fabric mechanics, surrogate modelling, generative design, pattern engineering, multimodal AI, machine learning, causal inference, marker optimization, zero-waste manufacturing, digital thread, MLOps, edge intelligence, circular fashion, trustworthy AI, industrial analytics, sustainable apparel",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.62311/nesx/rb47ag-978-81-68314-53-5",
+        "extra": {
+          "crossref_type": "reference-book",
+          "publisher": "National Education Services"
+        }
+      },
+      {
+        "title": "Creation of a 3D Digital Fashion Show with 3D Virtual Prototyping of Clothing",
+        "source": "crossref",
+        "url": "https://doi.org/10.31274/itaa_proceedings-180814-1837",
+        "doi": "10.31274/itaa_proceedings-180814-1837",
+        "year": 2017,
+        "authors": [
+          "Ju-Young M. Kang"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "10.31274/itaa_proceedings-180814-1837",
+        "extra": {
+          "crossref_type": "report",
+          "publisher": "Iowa State University, Digital Repository"
+        }
+      },
+      {
+        "title": "3D Advanced",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350065147.ch-008",
+        "doi": "10.5040/9781350065147.ch-008",
+        "year": 2019,
+        "authors": [],
+        "venue": "Digital Pattern Cutting for Fashion with Lectra Modaris®",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350065147.ch-008",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "3D virtual prototyping software",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501365287.2826",
+        "doi": "10.5040/9781501365287.2826",
+        "year": 2022,
+        "authors": [],
+        "venue": "The Fairchild Books Dictionary of Fashion",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501365287.2826",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "2D characterisation and evaluation of multi-material structures towards 3D hybrid printing",
+        "source": "crossref",
+        "url": "https://doi.org/10.1080/17452759.2023.2181193",
+        "doi": "10.1080/17452759.2023.2181193",
+        "year": 2023,
+        "authors": [
+          "Umur I. Cicek",
+          "Darren J. Southee",
+          "Andrew A. Johnson"
+        ],
+        "venue": "Virtual and Physical Prototyping",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 11,
+        "work_type": "article",
+        "identifier": "10.1080/17452759.2023.2181193",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Informa UK Limited"
+        }
+      },
+      {
+        "title": "Introduction And Preparation For 3D",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350065147.ch-005",
+        "doi": "10.5040/9781350065147.ch-005",
+        "year": 2019,
+        "authors": [],
+        "venue": "Digital Pattern Cutting for Fashion with Lectra Modaris®",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350065147.ch-005",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Digital Pattern Cutting for Fashion with Lectra Modaris®: From 2D Pattern Modification to 3D Prototyping",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350065147",
+        "doi": "10.5040/9781350065147",
+        "year": 2019,
+        "authors": [
+          "Patricia Grice"
+        ],
+        "venue": null,
+        "abstract": "Design your own original 2D patterns and use 3D prototyping to test your designs, achieve the perfect fit and make quick alterations. Pattern Cutting For Fashion with Lectra Modaris® will guide you from the basics of pattern modification through to 3D realisation, alteration and visual effects, as well as the completion of a finished production pattern. By viewing your garment in a virtual environment first, you will also be able to make design, colour, print and fabric decisions prior to toile making. Workshops include: A basic t-shirt; Dart modification; Darts into seams; Darts into flare; Button wrap and facings; A basic jean; Pleats in a skirt/trouser with pocket; A shirt with two piece collar/yoke; Modelling on the half scale stand and converting pattern to full scale.",
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "book",
+        "identifier": "10.5040/9781350065147",
+        "extra": {
+          "crossref_type": "book",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Enhancing Fashion Design Education: The Impact of Digital Fit Analysis and 3D Prototyping Tools on Technical Proficiency, Fit Accuracy, and Sustainability",
+        "source": "crossref",
+        "url": "https://doi.org/10.31274/itaa.21919",
+        "doi": "10.31274/itaa.21919",
+        "year": 2026,
+        "authors": [
+          "Heajoo Lee"
+        ],
+        "venue": "Gateway to a Brighter Future",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.31274/itaa.21919",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Iowa State University Digital Press"
+        }
+      },
+      {
+        "title": "Getting Started",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350065147.ch-003",
+        "doi": "10.5040/9781350065147.ch-003",
+        "year": 2019,
+        "authors": [],
+        "venue": "Digital Pattern Cutting for Fashion with Lectra Modaris®",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350065147.ch-003",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Advanced Workshops",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350065147.ch-009",
+        "doi": "10.5040/9781350065147.ch-009",
+        "year": 2019,
+        "authors": [],
+        "venue": "Digital Pattern Cutting for Fashion with Lectra Modaris®",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350065147.ch-009",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Confidence Building Workshops",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350065147.ch-007",
+        "doi": "10.5040/9781350065147.ch-007",
+        "year": 2019,
+        "authors": [],
+        "venue": "Digital Pattern Cutting for Fashion with Lectra Modaris®",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350065147.ch-007",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Moving On – Industrialization",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350065147.ch-004",
+        "doi": "10.5040/9781350065147.ch-004",
+        "year": 2019,
+        "authors": [],
+        "venue": "Digital Pattern Cutting for Fashion with Lectra Modaris®",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350065147.ch-004",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "What Is Digitizing?",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350065147.ch-002",
+        "doi": "10.5040/9781350065147.ch-002",
+        "year": 2019,
+        "authors": [],
+        "venue": "Digital Pattern Cutting for Fashion with Lectra Modaris®",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350065147.ch-002",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "How It Works",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350065147.ch-001",
+        "doi": "10.5040/9781350065147.ch-001",
+        "year": 2019,
+        "authors": [],
+        "venue": "Digital Pattern Cutting for Fashion with Lectra Modaris®",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350065147.ch-001",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Quick Reference Guide",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350065147.ch-010",
+        "doi": "10.5040/9781350065147.ch-010",
+        "year": 2019,
+        "authors": [],
+        "venue": "Digital Pattern Cutting for Fashion with Lectra Modaris®",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350065147.ch-010",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Virtual (Re)Visions: The Impact of 3D Prototyping Technology on Fashion Design Process",
+        "source": "crossref",
+        "url": "https://doi.org/10.31274/itaa.21950",
+        "doi": "10.31274/itaa.21950",
+        "year": 2026,
+        "authors": [
+          "Millie Yates",
+          "Caron Phinney"
+        ],
+        "venue": "Gateway to a Brighter Future",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.31274/itaa.21950",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Iowa State University Digital Press"
+        }
+      },
+      {
+        "title": "Pedagogy for Advanced Computer-Aided Fashion Design: – 2D Computer Pattern making and 3D Virtual Prototyping –",
+        "source": "crossref",
+        "url": "https://doi.org/10.5057/isase.2022-c000031",
+        "doi": "10.5057/isase.2022-c000031",
+        "year": 2022,
+        "authors": [
+          "Sena AN",
+          "Sakiho KAI",
+          "Chiaki UJIHIRA",
+          "Takao FURUKAWA"
+        ],
+        "venue": "International Symposium on Affective Science and Engineering",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "10.5057/isase.2022-c000031",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Japan Society of Kansei Engineering"
+        }
+      },
+      {
+        "title": "Additive manufacture of fashion and jewellery products: a mini review: This paper provides an insight into the future of 3D printing industries for fashion and jewellery products",
+        "source": "crossref",
+        "url": "https://doi.org/10.1080/17452759.2014.938993",
+        "doi": "10.1080/17452759.2014.938993",
+        "year": 2014,
+        "authors": [
+          "Y.L. Yap",
+          "W.Y. Yeong"
+        ],
+        "venue": "Virtual and Physical Prototyping",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 179,
+        "work_type": "article",
+        "identifier": "10.1080/17452759.2014.938993",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Informa UK Limited"
+        }
+      },
+      {
+        "title": "Three-dimensional virtual prototyping for designing firefighting gear: an exploration of manufacturer perceptions",
+        "source": "crossref",
+        "url": "https://doi.org/10.1186/s40691-026-00469-8",
+        "doi": "10.1186/s40691-026-00469-8",
+        "year": 2026,
+        "authors": [
+          "Uikyung Jung",
+          "Anne Porterfield",
+          "Cassandra Kwon"
+        ],
+        "venue": "Fashion and Textiles",
+        "abstract": "Guided by the Technology-Organization-Environment (TOE) framework, this study explores how firefighting gear manufacturers perceive 3D apparel visualization software and how these perceptions shape their intentions to adopt the technology. Semi-structured interviews were conducted with 12 experts from six companies producing wildland and structural turnout gear, including pattern makers, designers, technical designers, and a business manager. Content analysis revealed that manufacturers viewed 3D apparel visualization software as a useful tool for pattern optimization, visualizing air gaps, and improving communication with municipal customers. However, participants also highlighted significant technical limitations, particularly in simulating composite materials, multilayer garment structures, and substantial ease and air gap behavior in structural turnout gear. They also noted constraints related to organizational slack, including financial and human resource demands and disruptions to established workflows. Adoption decisions were further shaped by key industry characteristics, such as stringent National Fire Protection Association (NFPA) standards, unchanging garment style requirements, conservative industry norms, and varying levels of business partner readiness. The findings extend TOE research to a specialized functional clothing context by highlighting sector-specific constraints and the importance of distinguishing between current capabilities and perceived future value. Practical implications are offered for software developers, regulators, and manufacturers seeking to align digital design investments with the technological and regulatory realities of firefighting gear innovation.",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1186/s40691-026-00469-8.pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.1186/s40691-026-00469-8",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Springer Science and Business Media LLC"
+        }
+      },
+      {
+        "title": "Fit models’ roles in identifying fit issues in the apparel technical design process and implications for improving 3D virtual fitting",
+        "source": "crossref",
+        "url": "https://doi.org/10.1186/s40691-024-00398-4",
+        "doi": "10.1186/s40691-024-00398-4",
+        "year": 2024,
+        "authors": [
+          "Yoon Yang",
+          "Fatma Baytar"
+        ],
+        "venue": "Fashion and Textiles",
+        "abstract": "Fit sessions are essential in making well-fitted clothing. During these sessions, apparel fit is determined iteratively by a team of designers, technical designers, fit models, and merchandisers. With the advent of the digitalization of new product development processes in the fashion industry, fit sessions have been seen as a bottleneck for they are still held in person. However, the process is currently still irreplaceable, and what makes the feedback provided by fit models important is an area that has never been tapped. Therefore, the present study aimed to understand fit models’ role in fit sessions as well as how they assess the fit of garments and deliver their feedback. On-site observation during fit sessions and individual interviews with fit models were conducted. It was found that fit models gave comfort, fit, and tactile comments by testing garments while standing and moving between several postures. They had knowledge that overlapped with those of technical designers and designers and this empowerment enabled them to take part in the decision-making process in fit sessions. It also was found that fit models’ feedback on garments was essential as they were the first people to try on the garments and present the customers’ points of view.",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1186/s40691-024-00398-4.pdf",
+        "citation_count": 8,
+        "work_type": "article",
+        "identifier": "10.1186/s40691-024-00398-4",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Springer Science and Business Media LLC"
+        }
+      },
+      {
+        "title": "Sustainable Innovation: Integrating Zero-Waste Design and 3D Virtual Prototyping at Target’s Universal Thread",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350878518.006",
+        "doi": "10.5040/9781350878518.006",
+        "year": 2025,
+        "authors": [
+          "Irma Villanueva",
+          "Jennifer Hernandez"
+        ],
+        "venue": "Bloomsbury Fashion Business Cases Autumn 2025",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350878518.006",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Developing digital skills: a fashion business masterclass in virtual 3D prototyping with Style3D",
+        "source": "crossref",
+        "url": "https://doi.org/10.1080/17543266.2023.2247425",
+        "doi": "10.1080/17543266.2023.2247425",
+        "year": 2023,
+        "authors": [
+          "Jo Conlon",
+          "Charlene Gallery"
+        ],
+        "venue": "International Journal of Fashion Design, Technology and Education",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 25,
+        "work_type": "article",
+        "identifier": "10.1080/17543266.2023.2247425",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Informa UK Limited"
+        }
+      },
+      {
+        "title": "3D Digital Modeling and Design of Custom-Fit Functional Compression Garment",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/978-3-319-99695-0_20",
+        "doi": "10.1007/978-3-319-99695-0_20",
+        "year": 2018,
+        "authors": [
+          "Rong Liu",
+          "Bo Xu"
+        ],
+        "venue": "Advances in Intelligent Systems and Computing",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/978-3-319-99695-0_20",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer International Publishing"
+        }
+      }
+    ]
+  },
+  "count": 25,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T06:25:31.535594+00:00"
+}

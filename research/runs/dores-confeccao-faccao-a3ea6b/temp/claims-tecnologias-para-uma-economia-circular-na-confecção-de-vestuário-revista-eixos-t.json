@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "A indústria confeccionista enfrenta barreiras operacionais para a transição à economia circular, especificamente a falta de infraestrutura e as limitações logísticas para a reciclagem de resíduos têxteis.",
+    "stance": "supports",
+    "stance_target": "dificuldades logísticas e de infraestrutura no descarte e reaproveitamento de resíduos têxteis por confecções",
+    "evidence_type": "theoretical",
+    "scope_conditions": "Indústria de confecção de vestuário no Brasil (revisão de literatura)",
+    "quoted_support": "O estudo examina estratégias como reciclagem, reaproveitamento e prolongamento da vida útil dos produtos, além de discutir os desafios enfrentados pela indústria confeccionista, como a falta de infraestrutura e as limitações logísticas para a reciclagem de resíduos têxteis.",
+    "numbers": [],
+    "entities": ["IFSULDEMINAS", "UNESP-Bauru", "Revista Eixos Tech"],
+    "time_period": "2024-2025",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "tecnologias-para-uma-economia-circular-na-confecção-de-vestuário-revista-eixos-t"
+  },
+  {
+    "claim": "A viabilização da sustentabilidade e redução de desperdícios na confecção de vestuário depende da implementação de novas tecnologias, políticas públicas eficazes e mudanças no comportamento do consumidor.",
+    "stance": "supports",
+    "stance_target": "necessidade de modernização tecnológica e apoio institucional para gestão de resíduos em confecções",
+    "evidence_type": "theoretical",
+    "scope_conditions": "Indústria de confecção de vestuário",
+    "quoted_support": "Entre os principais resultados encontrados, destaca-se a necessidade de mudanças no comportamento do consumidor, políticas públicas mais eficazes e a implementação de novas tecnologias para viabilizar a transição para um modelo circular. O artigo conclui que, embora existam barreiras significativas, a adoção de modelos circulares de negócios é essencial para a sustentabilidade a longo prazo da indústria de vestuário.",
+    "numbers": [],
+    "entities": ["IFSULDEMINAS", "UNESP-Bauru"],
+    "time_period": "2024-2025",
+    "region": "Brasil",
+    "confidence": "medium",
+    "source_note_id": "tecnologias-para-uma-economia-circular-na-confecção-de-vestuário-revista-eixos-t"
+  }
+]

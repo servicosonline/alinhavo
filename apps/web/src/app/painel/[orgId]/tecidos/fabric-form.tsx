@@ -69,6 +69,18 @@ export function FabricForm({ orgId }: { orgId: string }) {
         <span className={ui.label}>Preço por metro (R$)</span>
         <input name="price" inputMode="decimal" placeholder="Ex.: 39,90" className={ui.input} />
       </label>
+      <label className="block">
+        <span className={ui.label}>Preço por quilo (R$/kg · malha)</span>
+        <input name="pricePerKg" inputMode="decimal" placeholder="Ex.: 54,90 (calcula R$/m)" className={ui.input} />
+      </label>
+      <label className="block">
+        <span className={ui.label}>Encolhimento urdume (%)</span>
+        <input name="shrinkageWarp" inputMode="decimal" placeholder="Ex.: 4" className={ui.input} />
+      </label>
+      <label className="block">
+        <span className={ui.label}>Encolhimento trama (%)</span>
+        <input name="shrinkageWeft" inputMode="decimal" placeholder="Ex.: 3" className={ui.input} />
+      </label>
       <div className="flex flex-wrap items-center gap-3 sm:col-span-3">
         <SubmitButton pendingText="Cadastrando…">Cadastrar tecido</SubmitButton>
         <span className="text-xs text-tinta-suave">Elasticidade, caimento, espessura e foto ficam em Editar, depois de cadastrar.</span>
@@ -85,6 +97,9 @@ export type EditableFabric = {
   width_mm: number | null;
   weight_gsm: number | null;
   price_cents: number | null;
+  price_per_kg_cents?: number | null;
+  shrinkage_warp_pct?: number | null;
+  shrinkage_weft_pct?: number | null;
   preset: string | null;
   stretch_pct: number | null;
   drape: number | null;
@@ -138,6 +153,24 @@ export function FabricEditForm({ orgId, fabric, canEdit }: { orgId: string; fabr
             defaultValue={fabric.price_cents === null ? "" : formatMoney(fabric.price_cents).replace(/^R\$\s*/, "")}
             className={ui.input}
           />
+        </label>
+        <label className="block">
+          <span className={ui.label}>Preço por quilo (R$/kg · malha)</span>
+          <input
+            name="pricePerKg"
+            inputMode="decimal"
+            defaultValue={fabric.price_per_kg_cents == null ? "" : formatMoney(fabric.price_per_kg_cents).replace(/^R\$\s*/, "")}
+            placeholder="Opcional (converte se R$/m vazio)"
+            className={ui.input}
+          />
+        </label>
+        <label className="block">
+          <span className={ui.label}>Encolhimento urdume (%)</span>
+          <input name="shrinkageWarp" inputMode="decimal" defaultValue={numText(fabric.shrinkage_warp_pct ?? null)} className={ui.input} />
+        </label>
+        <label className="block">
+          <span className={ui.label}>Encolhimento trama (%)</span>
+          <input name="shrinkageWeft" inputMode="decimal" defaultValue={numText(fabric.shrinkage_weft_pct ?? null)} className={ui.input} />
         </label>
       </fieldset>
 

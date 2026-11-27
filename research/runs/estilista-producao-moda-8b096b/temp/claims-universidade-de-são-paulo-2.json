@@ -1,0 +1,80 @@
+[
+  {
+    "claim": "Nas indústrias e varejistas de moda de grande porte no Brasil orientadas a preço competitivo, o desenvolvimento de coleção é dividido entre três áreas: Planejamento (que define metas financeiras, mix de produtos, grade e faixas de preço a partir do histórico de vendas), Criação/Estilista (que transforma o briefing em peças atrativas respeitando preços de venda e margens de lucro) e Desenvolvimento (que transforma fichas técnicas em realidade por meio de cotações, negociações com fornecedores nacionais/internacionais e gestão da produção).",
+    "stance": "supports",
+    "stance_target": "A atuação do estilista em grandes empresas de moda é interdependente das áreas de planejamento comercial e desenvolvimento/sourcing",
+    "evidence_type": "empirical",
+    "scope_conditions": "Grandes varejistas e indústrias de vestuário no Brasil posicionadas por preço acessível (magazines)",
+    "quoted_support": "A área de criação assume a tarefa de transformar o planejamento em coleção de moda. A partir do briefing de coleção, a equipe desenvolve peças atrativas ao público-alvo, incorporando referências de moda pertinentes. O desafio consiste em manter a integridade dos preços de venda e atingir as margens de lucro estipuladas",
+    "numbers": [
+      "três áreas"
+    ],
+    "entities": [
+      "Pedro Porto Chadud",
+      "USP",
+      "EACH"
+    ],
+    "time_period": "2022-2024",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo-2"
+  },
+  {
+    "claim": "As grandes empresas de moda investigadas no Brasil lançam de 6 a 20 coleções anualmente, com novos produtos chegando às lojas a cada dois meses ou até a cada duas semanas, gerando sobreposição constante de coleções em que o estilista trabalha na mesma semana com múltiplas coleções em diferentes estágios produtivos.",
+    "stance": "supports",
+    "stance_target": "A compressão dos calendários de lançamento e a sobreposição simultânea de múltiplas coleções constituem uma dor crônica do estilista no varejo de moda",
+    "evidence_type": "empirical",
+    "scope_conditions": "Magazines e indústrias de vestuário brasileiras com sourcing nacional e asiático (China e Bangladesh)",
+    "quoted_support": "As empresas investigadas lançam de seis a vinte coleções anualmente, o que significa que novas peças chegam às lojas a cada dois meses ou até mesmo a cada duas semanas. Portanto, ao considerar o tempo necessário para o desenvolvimento, produção e entrega das coleções desenvolvidas na Ásia, especialmente na China e Bangladesh, é evidente que há uma constante sobreposição de coleções. Profissionais envolvidos lidam, em uma mesma semana de trabalho, com diversas coleções em diferentes estágios de desenvolvimento.",
+    "numbers": [
+      "seis a vinte coleções anualmente",
+      "dois meses",
+      "duas semanas"
+    ],
+    "entities": [
+      "Pedro Porto Chadud",
+      "USP",
+      "China",
+      "Bangladesh"
+    ],
+    "time_period": "2022-2024",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo-2"
+  },
+  {
+    "claim": "Grande parte das coleções comercializadas em varejistas orientados a preço resulta da adaptação e personalização de modelos pré-existentes selecionados nos showrooms de fornecedores (orientados por fichas técnicas ou painéis semânticos), o que limita a inovação autoral da equipe de criação e reduz o papel do estilista à decodificação de tendências já validadas comercialmente.",
+    "stance": "supports",
+    "stance_target": "A pressão por custos e prazos restringe a liberdade criativa do estilista, substituindo o design autoral pela adaptação de modelos de showroom de fornecedores (private label/buy)",
+    "evidence_type": "empirical",
+    "scope_conditions": "Desenvolvimento de coleções sob o método Fashion Design for Cost (FDfC) no Brasil",
+    "quoted_support": "Em outras palavras, concluímos que a maior parte da coleção disponível para venda é resultado de um método de design que se apoia na adaptação e personalização de itens pré-existentes. Este método limita as grandes inovações e propostas de moda da equipe de criação, que assume o papel de decodificar tendências já consolidadas no mercado e alinhadas à estética da marca",
+    "numbers": [],
+    "entities": [
+      "Pedro Porto Chadud",
+      "USP"
+    ],
+    "time_period": "2022-2024",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo-2"
+  },
+  {
+    "claim": "No método Fashion Design for Cost (FDfC), as criações dos estilistas não são aprovadas apenas nas fases de desenho ou ficha técnica; os modelos sofrem ajustes e cortes técnicos durante a etapa de cotação para atingir a margem de lucro exigida na reunião de encerramento, exigindo que o estilista domine tecnologia produtiva, matéria-prima e custos de acabamento para minimizar retrabalhos.",
+    "stance": "supports",
+    "stance_target": "O conflito entre concepção estética e teto de custo gera retrabalho e mutilação de detalhes da peça durante a fase de cotação e aprovação comercial",
+    "evidence_type": "empirical",
+    "scope_conditions": "Aprovação de produtos de moda em empresas orientadas por custo (FDfC)",
+    "quoted_support": "Os designers de moda nas empresas investigadas não têm suas criações aprovadas apenas nas fases de desenho ou de ficha técnica. Sua participação é essencial, sendo possível realizar ajustes ou direcionar a coleção enquanto ela está em estágio de cotação. A aprovação final é determinada pela margem de lucro, indo além do aspecto estético. Assim como destacado pelos entrevistados, a expertise do designer em lidar com esse perfil de desenvolvimento de produto é crucial para o sucesso de coleções, minimizando retrabalhos durante as etapas de cotação e negociação.",
+    "numbers": [],
+    "entities": [
+      "Pedro Porto Chadud",
+      "USP",
+      "Dijon De Moraes"
+    ],
+    "time_period": "2022-2024",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo-2"
+  }
+]

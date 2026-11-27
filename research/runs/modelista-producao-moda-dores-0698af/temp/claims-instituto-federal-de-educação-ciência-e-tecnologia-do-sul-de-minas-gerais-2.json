@@ -1,0 +1,29 @@
+[
+  {
+    "claim": "A norma ABNT NBR 16933:2021 inicia a faixa de baixa estatura em 1,50 m (até 1,57 m), excluindo mulheres petite entre 1,42 m e 1,49 m e gerando falhas ergonômicas críticas em medidas verticais como altura de corpo frente (35,1 cm no tam. 34), altura do busto (21,5 cm), cava (21,5 cm) e gancho (25,5 cm).",
+    "stance": "supports",
+    "stance_target": "Inadequação das tabelas padrão e da NBR 16933:2021 para o biótipo petite nas proporções verticais",
+    "evidence_type": "empirical",
+    "scope_conditions": "Mulheres brasileiras petite (1,42 m a 1,62 m); comparação entre NBR 16933:2021, Rosa (2017) e Berg (2017)",
+    "quoted_support": "Porém, mesmo após a nova análise corporal, a ABNT ainda exclui uma boa parcela das mulheres petite de seus padrões de medida uma vez que o recorte para mulheres petite foi estipulado entre 1,42m até 1,62m e o recorte da ABNT para o mesmo público inicia-se em 1,50m. Na ABNT, a menor altura do corpo frente, seria equivalente ao tamanho 34 e corresponde a 35,1 cm enquanto, a altura do busto é de 21,5 cm.",
+    "numbers": [
+      "1,42 m a 1,62 m (faixa petite)",
+      "1,50 m a 1,57 m (baixa estatura ABNT)",
+      "1,60 m (estatura média brasileira)",
+      "35,1 cm (altura corpo frente tam. 34)",
+      "21,5 cm (altura busto e cava tam. 34)",
+      "25,5 cm (altura gancho tam. 34)",
+      "0,2 cm a 0,5 cm (gradação entre tamanhos)"
+    ],
+    "entities": [
+      "ABNT NBR 16933:2021",
+      "IFSULDEMINAS",
+      "Stefania Rosa",
+      "Ana Laura Marchi Berg"
+    ],
+    "time_period": "2017-2024",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "instituto-federal-de-educação-ciência-e-tecnologia-do-sul-de-minas-gerais-2"
+  }
+]

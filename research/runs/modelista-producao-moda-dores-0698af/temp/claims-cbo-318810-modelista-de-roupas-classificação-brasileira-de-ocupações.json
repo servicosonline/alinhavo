@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Na Classificação Brasileira de Ocupações (CBO 3188-10), o modelista de roupas (sinônimo: moldador de roupas) é enquadrado como técnico de nível médio do subgrupo 3188 (Desenhistas projetistas e modelistas de produtos e serviços diversos), tendo como atribuições confeccionar moldes, pesquisar tendências de mercado, avaliar materiais para aquisição e desenvolver protótipos.",
+    "stance": "supports",
+    "stance_target": "Enquadramento ocupacional oficial e escopo de atribuições da modelista de vestuário no Brasil",
+    "evidence_type": "legal",
+    "scope_conditions": "Brasil, Classificação Brasileira de Ocupações (MTE)",
+    "quoted_support": "Confeccionam moldes para roupas e calçados; pesquisam segmentos de mercado,estudando estilos de design e avaliando pesquisas sobre tendências de mercado;avaliam materiais para aquisição e desenvolvem protótipos de roupas, calçados emóveis",
+    "numbers": ["3188-10", "3188"],
+    "entities": ["Ministério do Trabalho e Emprego", "CBO 3188-10", "Modelista de roupas"],
+    "time_period": "vigente",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "cbo-318810-modelista-de-roupas-classificação-brasileira-de-ocupações"
+  },
+  {
+    "claim": "O exercício pleno da ocupação de modelista de roupas (CBO 3188-10) requer curso técnico de nível médio na área do vestuário (ou experiência equivalente) somado a pelo menos dois anos de experiência prática após o curso técnico.",
+    "stance": "supports",
+    "stance_target": "Exigência de formação técnica de nível médio e tempo mínimo de maturação prática para atuação plena da modelista",
+    "evidence_type": "legal",
+    "scope_conditions": "Brasil, Classificação Brasileira de Ocupações (MTE)",
+    "quoted_support": "O exercício dessas ocupações requer curso técnico de nível médio na área do vestuário(modelista de calçados e roupas) ou do mobiliário (projetista de móveis), ou aindaexperiência equivalente. o exercício pleno das atividades ocorre com pelo menos doisanos de experiência, após o curso técnico.",
+    "numbers": ["2 anos", "3188-10"],
+    "entities": ["Ministério do Trabalho e Emprego", "CBO 3188-10"],
+    "time_period": "vigente",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "cbo-318810-modelista-de-roupas-classificação-brasileira-de-ocupações"
+  },
+  {
+    "claim": "Segundo a CBO 3188-10 do MTE, os modelistas de roupas trabalham de forma individual, com supervisão ocasional, em ambiente fechado e horário diurno, e enfrentam condições laborais sob pressão que podem ocasionar estresse ocupacional.",
+    "stance": "supports",
+    "stance_target": "Reconhecimento oficial da pressão temporal e do risco de estresse nas condições de trabalho da modelista",
+    "evidence_type": "legal",
+    "scope_conditions": "Indústria de confecção do vestuário no Brasil",
+    "quoted_support": "são empregadoscom carteira assinada, trabalham de forma individual, com supervisão ocasional, emambiente fechado e em horário diurno. eventualmente, trabalham sob pressão, poden do ocasionar estresse.",
+    "numbers": ["3188-10"],
+    "entities": ["Ministério do Trabalho e Emprego", "CBO 3188-10"],
+    "time_period": "vigente",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "cbo-318810-modelista-de-roupas-classificação-brasileira-de-ocupações"
+  }
+]

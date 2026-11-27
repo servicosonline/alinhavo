@@ -1,0 +1,56 @@
+[
+  {
+    "claim": "We collect and process your personal information for the following purposes: **Functional, Statistical** # Fashion Upcycling: The Fashion Upcycling: The Challenges, Successes, and Solutions From A Designers Perspective Upcycling is a design practice that uses pre-consumer textile waste from apparel manufacturers or post-consumer textile waste derived from disassembled garments to create new fashion, providing a sustainable design solution to divert textile waste from landfills.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Fashion Upcycling: The Fashion Upcycling: The Challenges, Successes, and Solutions From A Designers Perspective",
+    "quoted_support": "We collect and process your personal information for the following purposes: **Functional, Statistical** # Fashion Upcycling: The Fashion Upcycling: The Challenges, Successes, and Solutions From A Designers Perspective Upcycling is a design practice that uses pre-consumer textile waste from apparel manufacturers or post-consumer textile waste derived from disassembled garments to create new fashion, providing a sustainable design solution to divert textile waste from landfills.",
+    "numbers": [],
+    "entities": [
+      "Fashion Upcycling: The Fashion Upcycling: The Challenges, Successes, and Solutio"
+    ],
+    "time_period": "2016-2026",
+    "region": "Internacional",
+    "confidence": "medium",
+    "source_note_id": "fashion-upcycling-the-fashion-upcycling-the-challenges-successes-and-solutions-f"
+  },
+  {
+    "claim": "Although Canadian data is scarce, Weber, Lynes and Young (2016) have determined that textile waste in the United States contributed 11.3 million tonnes to landfills in 2009, a 40% increase since 1999.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Fashion Upcycling: The Fashion Upcycling: The Challenges, Successes, and Solutions From A Designers Perspective",
+    "quoted_support": "Although Canadian data is scarce, Weber, Lynes and Young (2016) have determined that textile waste in the United States contributed 11.3 million tonnes to landfills in 2009, a 40% increase since 1999.",
+    "numbers": [
+      "2016",
+      "11.3",
+      "2009,",
+      "40",
+      "1999"
+    ],
+    "entities": [
+      "Fashion Upcycling: The Fashion Upcycling: The Challenges, Successes, and Solutio"
+    ],
+    "time_period": "2016-2026",
+    "region": "Internacional",
+    "confidence": "medium",
+    "source_note_id": "fashion-upcycling-the-fashion-upcycling-the-challenges-successes-and-solutions-f"
+  },
+  {
+    "claim": "This comparative case study was designed to include a literature review of past academic research, a demographic questionnaire, and interviews with Canadian fashion companies who practice upcycling.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Fashion Upcycling: The Fashion Upcycling: The Challenges, Successes, and Solutions From A Designers Perspective",
+    "quoted_support": "This comparative case study was designed to include a literature review of past academic research, a demographic questionnaire, and interviews with Canadian fashion companies who practice upcycling.",
+    "numbers": [],
+    "entities": [
+      "Fashion Upcycling: The Fashion Upcycling: The Challenges, Successes, and Solutio"
+    ],
+    "time_period": "2016-2026",
+    "region": "Internacional",
+    "confidence": "medium",
+    "source_note_id": "fashion-upcycling-the-fashion-upcycling-the-challenges-successes-and-solutions-f"
+  }
+]

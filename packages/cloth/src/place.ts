@@ -264,8 +264,12 @@ export function placeGarment(pieces: PlacedPiece[], landmarks: BodyLandmarks): F
     const uCenter = (uMin + uMax) / 2;
     const top = anchorHeight(landmarks, placement.anchor) + placement.offset;
     const start = centerAngle(placement.side, half);
-    const leg = placement.leg;
     const crotch = landmarks.crotch.y;
+    let minY = Infinity;
+    for (let i = 0; i < count; i++) {
+      minY = Math.min(minY, top - (mesh.positions[i * 2 + 1]! - vMin));
+    }
+    const leg = placement.leg ?? (half && (placement.anchor === "cintura" || placement.anchor === "quadril") && minY < crotch - 20 ? half : undefined);
 
     // Na perna, o centro é o meio da parte abaixo do gancho (o vinco da calça).
     let legCenter = uCenter;

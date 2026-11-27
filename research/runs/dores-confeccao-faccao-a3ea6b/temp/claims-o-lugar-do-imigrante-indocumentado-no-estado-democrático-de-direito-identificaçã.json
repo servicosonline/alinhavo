@@ -1,0 +1,16 @@
+[
+  {
+    "claim": "A Justiça do Trabalho (TRT da 2ª Região) tem reconhecido o vínculo empregatício direto entre trabalhadores de oficinas de costura subcontratadas e as empresas tomadoras de confecção, responsabilizando-as por dumping social e dano moral coletivo.",
+    "stance": "supports",
+    "stance_target": "existência de alto risco jurídico e trabalhista na subcontratação de facções de costura na cadeia têxtil brasileira",
+    "evidence_type": "legal",
+    "scope_conditions": "5 decisões judiciais de três Varas do Trabalho do TRT da 2ª Região envolvendo 3 grandes empresas de confecção em São Paulo",
+    "quoted_support": "A dissertação apresenta uma análise de casos envolvendo trabalhadores bolivianos que tiveram o vínculo de emprego, com três grandes empresas do ramo têxtil e de confecções, situadas na capital paulista reconhecido por três Varas do Trabalho do Tribunal Regional do Trabalho da 2ª Região. A base de dados foi composta por cinco decisões judiciais que reconheceram o vínculo empregatício entre os trabalhadores e as grandes lojas de confecções empregadoras, a fim de convalidar autos de infração trabalhista e relatórios de fiscalização lavrados pelo Ministério do Trabalho e Emprego, para responsabilizar tais empresas por dumping social e dano moral coletivo.",
+    "numbers": ["5 decisões judiciais", "3 grandes empresas", "3 Varas do Trabalho"],
+    "entities": ["Tribunal Regional do Trabalho da 2ª Região", "Ministério do Trabalho e Emprego", "USP", "Faculdade de Direito de Ribeirão Preto"],
+    "time_period": "2017",
+    "region": "São Paulo, SP, Brasil",
+    "confidence": "high",
+    "source_note_id": "o-lugar-do-imigrante-indocumentado-no-estado-democrático-de-direito-identificaçã"
+  }
+]

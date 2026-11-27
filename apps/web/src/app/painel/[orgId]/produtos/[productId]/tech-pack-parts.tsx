@@ -5,7 +5,8 @@ import { useActionState, useState } from "react";
 import { ActionForm } from "@/components/action-form";
 import { SubmitButton } from "@/components/submit-button";
 import { ui } from "@/components/ui";
-import { addTrim, generateTechPack } from "../actions";
+import { addTrim, generateTechPack, updateProductOperations } from "../actions";
+import { formatMoney } from "@/lib/money";
 
 function Feedback({ state }: { state: { error?: string; ok?: string } | undefined }) {
   if (state?.error)
@@ -50,6 +51,62 @@ export function TrimForm({ orgId, productId }: { orgId: string; productId: strin
       </label>
       <SubmitButton pendingText="…">Adicionar</SubmitButton>
       <div className="sm:col-span-5">
+        <Feedback state={state} />
+      </div>
+    </ActionForm>
+  );
+}
+
+export function OperationsForm({
+  orgId,
+  productId,
+  sewingCents,
+  laundryCents,
+  wastePct,
+}: {
+  orgId: string;
+  productId: string;
+  sewingCents: number | null;
+  laundryCents: number | null;
+  wastePct: number | null;
+}) {
+  const [state, action, pending] = useActionState(updateProductOperations.bind(null, orgId, productId), undefined);
+  return (
+    <ActionForm action={action} state={state} pending={pending} resetOnOk={false} className="grid gap-2 sm:grid-cols-[1fr_1fr_1fr_auto] sm:items-end" data-form="operacoes">
+      <label className="block">
+        <span className={ui.label}>Costura / facção (R$/peça)</span>
+        <input
+          name="sewing"
+          inputMode="decimal"
+          defaultValue={sewingCents == null ? "" : formatMoney(sewingCents).replace(/^R\$\s*/, "")}
+          placeholder="Ex.: 14,50"
+          className={ui.input}
+        />
+      </label>
+      <label className="block">
+        <span className={ui.label}>Lavanderia / benef. (R$/peça)</span>
+        <input
+          name="laundry"
+          inputMode="decimal"
+          defaultValue={laundryCents == null ? "" : formatMoney(laundryCents).replace(/^R\$\s*/, "")}
+          placeholder="Ex.: 4,00"
+          className={ui.input}
+        />
+      </label>
+      <label className="block">
+        <span className={ui.label}>Perda de corte (%)</span>
+        <input
+          name="waste"
+          inputMode="decimal"
+          defaultValue={wastePct == null ? "" : String(Number(wastePct)).replace(".", ",")}
+          placeholder="Ex.: 3"
+          className={ui.input}
+        />
+      </label>
+      <SubmitButton variant="ghost" pendingText="Salvando…">
+        Salvar custos
+      </SubmitButton>
+      <div className="sm:col-span-4">
         <Feedback state={state} />
       </div>
     </ActionForm>

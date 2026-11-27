@@ -1,0 +1,1012 @@
+{
+  "ok": true,
+  "data": {
+    "query": "fashion product development designer pattern maker sample approval fit",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 25,
+      "crossref": 25,
+      "doab": 0
+    },
+    "raw_records": 50,
+    "merged_records": 50,
+    "returned": 50,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Integrated Digital Prototyping in the Fashion Product Development",
+        "source": "openalex",
+        "url": "https://doi.org/10.15406/jteft.2017.03.00089",
+        "doi": "10.15406/jteft.2017.03.00089",
+        "year": 2017,
+        "authors": [
+          "Evridiki Papahristou",
+          "Nikolas G. Bilalis"
+        ],
+        "venue": "Journal of Textile Engineering & Fashion Technology",
+        "abstract": "The research was set out to explore the effective integration of Digital Prototype in the product development process of the TCF industry, investigating the level of implementation of new digital technologies and especially 3D visualisation and virtualisation of a garment product comparing the enthusiasm, vision, scepticism, evangelism and restrained optimism between technology providers-vendors, entrepreneurs-independents, professional & experienced users and academics-researchers of clothing/fashion courses. A combination of primary and secondary sources was used. First hand interviews to investigate the level of technology implementation in the early adopters, the vision of the big corporations, entrepreneurs and professional users as well as the involvement of academics. Analysis of the collected primary and secondary data showed that on the one hand the traditional process of sample making has not changed but on the other hand fashion companies although using it, are facing many problems: time spent in developing and approving samples, lack of standardization of software solutions, and willingness to adopt new technology are some of them. It has been found that there has been a lack of research in the new dimensioned digital prototype of clothing at the product development level in a qualitative manner and from a perspective not so engineered-focused. Technology is revolutionary and overturning traditional processes. Therefore, the analysis of the effective integration of Digital Prototype in the product development process of the TCF industry is a key original factor of this paper.",
+        "pdf_url": "https://medcraveonline.com/JTEFT/JTEFT-03-00089.pdf",
+        "citation_count": 8,
+        "work_type": "article",
+        "identifier": "W2766392524",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Virtual Product Development and Product Management Opprtunies in Fashion Industry",
+        "source": "openalex",
+        "url": "http://dspace.cc.tut.fi/dpub/handle/123456789/21982",
+        "doi": null,
+        "year": 2014,
+        "authors": [
+          "Muhammad Iqbal"
+        ],
+        "venue": "Tampere University of Technology Institutional Repository",
+        "abstract": "The fashion industry is one of the largest global industry and one of the most profitable industries in the world. With the current economic meltdown and capital flows changing course, the fashion industry is witnessing huge changes. Design, product development and management tools and techniques are perhaps the main stream competitive factor in this industry because Conventional design, product development and management of textiles and fashion products is a long-stretching process taking often long time and consuming countless hours of work, material and energy in sampling, counter-sampling and sales-sampling, as well as preparing marketing material, i.e., photos, videos, etc. 3D tools already in the market make it possible to design and present products virtually without physical samples. The purpose of this Master of Science thesis was to analyze the current situation of the fashion industry with regard to 3D technology and then to investigate which virtual software designing tools are available commercially. By studying fashion case companies, an analysis is given that how fashion companies are currently applying virtual techniques in their businesses around the globe. What is the selection criteria adopted by these fashion companies for the selection of software providers as there are many software providers in the market with almost similar virtual tools offerings. The different forms of support provided by the other organizations in implementing 3D are presented. Also by interviewing various key personnel related to virtual product design and development, i.e., company heads, managers, designers, etc the research presents the challenges, expectations and future developments regarding to virtual software’s usage.",
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W1168679004",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "An evaluation of garment fit to improve customer body fit of fashion design clothing",
+        "source": "openalex",
+        "url": "https://doi.org/10.1007/s00170-022-08965-z",
+        "doi": "10.1007/s00170-022-08965-z",
+        "year": 2022,
+        "authors": [
+          "Kaixuan Liu",
+          "Hanhan Wu",
+          "Chun Zhu",
+          "Jianping P. Wang",
+          "Xianyi Zeng",
+          "Xuyuan Tao",
+          "Pascal Bruniaux"
+        ],
+        "venue": "The International Journal of Advanced Manufacturing Technology",
+        "abstract": "Currently, garment fit evaluation is one of the biggest bottlenecks for fashion design and manufacturing. In this paper, we proposed a garment fit prediction model using data learning technology, such as Back Propagation Artificial Neural Networks (BP-ANNs), Random Forest, Bayesian Classifier. The inputs of the proposed model are digital clothing pressures measured by virtual try-on; while the output of the model is one of the three fit conditions- tight, fit or loose. In order to acquire reliable learning data, virtual and real try-on experiments were carried out to collect input and output learning data respectively. After learning from the collected input and output experimental data, the proposed model can predict garment fit rapidly and automatically by inputting digital clothing pressures measured by virtual try-on. Test results showed that the prediction accuracies of data-learning-based garment fit evaluation methods are much better than that of traditional methods.",
+        "pdf_url": "https://www.researchsquare.com/article/rs-1088025/latest.pdf",
+        "citation_count": 62,
+        "work_type": "article",
+        "identifier": "W4214514168",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Fashion in Shanghai : the designers of a new economy of style",
+        "source": "openalex",
+        "url": "https://eprints.qut.edu.au/67803/2/Timothy_Lindgren_Thesis.pdf",
+        "doi": null,
+        "year": 2014,
+        "authors": [
+          "Tim Lindgren"
+        ],
+        "venue": "QUT ePrints (Queensland University of Technology)",
+        "abstract": "This thesis is a study of Chinese fashion designers in Shanghai. It shows fashion designers are building businesses, forging their professional reputations and developing a design aesthetic. Some designers are extremely successful in applying some elements of Chinese philosophy to their work, such as Buddhism, Confucianism and Daoism. In doing so, they challenge the dominance of the European fashion system with a new global fashion system.",
+        "pdf_url": "https://eprints.qut.edu.au/67803/2/Timothy_Lindgren_Thesis.pdf",
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W53332855",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Materialising the interface between business development and designer aesthetic on the catwalk : a case from the New Zealand designer fashion industry.",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10092/11350",
+        "doi": "10.26021/5204",
+        "year": 2015,
+        "authors": [
+          "Alexandra Leadley"
+        ],
+        "venue": "UC Research Repository  (University of Canterbury)",
+        "abstract": "This thesis explores how designers within the New Zealand designer fashion industry manage the interface between business development and designer aesthetic, then materialise this on the catwalk. The investigation is guided by two research questions. The first looks specifically at finding the creativity-business balance, asking how designers manage their business development processes while considering their aesthetic. The second shifts to the fabrication of this interface, inquiring into how designers experience the process of materialising on the catwalk. A qualitative exploratory research design was implemented in order to collect the data for this research, taking an interpretive approach. Under this approach nine designers who presented collections at the 2014 iD Fashion Show were interviewed. In-depth analysis was conducted on the data provided by these designers. The data analysis revealed the importance of identifying showing objectives. These objectives provide a valuable insight into how designers manage the interface between creativity and business aspects. It was found that showing objectives were established by determining a designer’s enterprise orientation and identifying their target audience. Mills (2011a, 2011b) developed the concept of enterprise orientations, highlighting features of businesses that distinguish their orientation. This research revealed that target audiences are based upon the businesses’ stage of development. The analysis went on to reveal modifying factors that influence the materialisation of these objectives. It explained that these factors can be categorised as limiting or enabling factors, and vary in degree of influence. The data revealed that modifying factors are either available resources (internal or external) or show conditions. This research conceptualises the materialisation process experienced by New Zealand fashion designers when presenting a collection in a catwalk show. It summarises the process of materialisation graphically in a model. This model illustrates how showing objectives are first influenced by modifying factors before materialising on the catwalk. These findings stress the significant impact modifying factors can have on catwalk presentations. The contribution this research makes is particularly significant. Despite its growth and economic importance the existing scholarly research into the New Zealand designer fashion industry is scarce. Specifically, this investigation was designed to close a gap in the existing literature, advancing understanding of designer aesthetics and the creativity-business tension as well as providing new insight into how this materialises on the catwalk. This information is particularly valuable for fashion designers, business support people, PR practitioners, industry bodies, design education providers, and the New Zealand Government. Each of these parties may benefit significantly from a greater understanding of the tension between business processes and creativity and the increased insight into the catwalk as a platform for materialisation. Though the findings make a welcome contribution to the existing literature, there is scope for future research to build on the understandings developed from this research.",
+        "pdf_url": "https://ir.canterbury.ac.nz/bitstreams/b6565061-c026-4dc3-8ed9-a392b80dbab8/download",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2177364504",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Fashion Upcycling: The Fashion Upcycling: The Challenges, Successes, and Solutions From A Designers Perspective",
+        "source": "openalex",
+        "url": "https://doi.org/10.32920/ryerson.14649336",
+        "doi": "10.32920/ryerson.14649336",
+        "year": 2022,
+        "authors": [
+          "Jennifer Dares"
+        ],
+        "venue": null,
+        "abstract": "Upcycling is a design practice that uses pre-consumer textile waste from apparel manufacturers or post-consumer textile waste derived from disassembled garments to create new fashion, providing a sustainable design solution to divert textile waste from landfills. Although Canadian data is scarce, Weber, Lynes and Young (2016) have determined that textile waste in the United States contributed 11.3 million tonnes to landfills in 2009, a 40% increase since 1999. This comparative case study was designed to include a literature review of past academic research, a demographic questionnaire, and interviews with Canadian fashion companies who practice upcycling. The objective of this study was to examine the challenges faced by companies that upcycle and the strategic solutions they integrated into their business models. The findings from this research study contribute to knowledge regarding strategies for designing, producing, and retailing upcycled fashion in Canada and on a global scale.",
+        "pdf_url": "https://rshare.library.torontomu.ca/articles/thesis/Fashion_Upcycling_The_Fashion_Upcycling_The_Challenges_Successes_and_Solutions_From_A_Designers_Perspective/14649336/1/files/28129545.pdf",
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "W3210631018",
+        "extra": {
+          "openalex_type": "other",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "3D dynamic fashion design development using digital technology and its potential in online platforms",
+        "source": "openalex",
+        "url": "https://doi.org/10.1186/s40691-021-00286-1",
+        "doi": "10.1186/s40691-021-00286-1",
+        "year": 2022,
+        "authors": [
+          "Kyunghee Choi"
+        ],
+        "venue": "Fashion and Textiles",
+        "abstract": "The purpose of this study is to develop 3D dynamic fashion garments with changeable styles, colors and textile patterns, especially using a 3D virtual simulation system, and to examine their potential possibilities in online fashion platforms. For designing and developing 3D dynamic fashion garments, CLO3D and Aftereffects were used with a design collaboration between a fashion designer and a motion graphic artist group. Ten samples of a ready-to-wear collection were developed to visualize aesthetic and technological explorations of 3D dynamic fashion garments, composed of short videos. This study also evaluated the potential of 3D dynamic fashion garments along with 3D virtual simulation systems through focus group interview with professional fashion designers and digital experts, which indicated social and industrial possibilities toward them. This survey showed a list of findings in terms of current status of 3D virtual simulation systems and their impact on companies, discourses on the uncanny valley surrounding avatars, changes in fashion design process derived from 3D virtual simulation systems, co-design and customization in online platforms, and future prospects of 3D virtual garments in the fashion and gaming industries. Finally, this study led to discussions on future possible digital fashion design with several implications, based on design criteria, including digital technology, dynamic range, wearability, expressivity, interactivity, sustainability, and context.",
+        "pdf_url": null,
+        "citation_count": 209,
+        "work_type": "article",
+        "identifier": "W4220844958",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Exploring the Learning Process of DIY Fashion Designers Embracing Entrepreneurship",
+        "source": "openalex",
+        "url": "https://doi.org/10.7916/d8-dzpc-f235",
+        "doi": "10.7916/d8-dzpc-f235",
+        "year": 2021,
+        "authors": [
+          "Ashli Ree"
+        ],
+        "venue": "Columbia Academic Commons (Columbia University)",
+        "abstract": "The purpose of this explorative field study using elements of case study design was to understand how DIY (Do It Yourself) fashion designers learn to engage in entrepreneurship. DIY fashion designers in this study refers to designers who personally design and make each garment without relying on manufacturers. These fashion designers all have design skills, but as they transition from designer to designer-entrepreneur with existing skills, they realize an additional set of skills is needed. To understand why they started the business and how they learned the skills necessary to maintain this dual role, the researcher interviewed 20 designer-entrepreneurs with different levels of experience: novice (3-5 years), middle-level (6-10 years), and seasoned (11 plus years). A selected literature review was conducted to shed light on the work of other researchers related to fashion entrepreneurship, entrepreneurship, and adult learning. The researcher used a qualitative methodology to explore how the designer-entrepreneurs learned and what they learned to maintain their dual role. A purposeful sample was drawn from a group of designer-entrepreneurs with different educational backgrounds and professional experiences. Data were collected through individual interviews followed by two focus group discussions. Data were examined to understand why certain DIY fashion designers chose to become designer-entrepreneurs, what challenges they faced in the dual role, how and what they learned, and which learning strategies they used. All designer-entrepreneurs in this study indicated that the motivation for becoming a designer-entrepreneur was to address their inner needs, which required both intrinsic reward and extrinsic validation. An overwhelming majority of them stated that most of the challenges stemmed from the entrepreneurial half of their dual role because they lacked the information needed to sustain it. All designer-entrepreneurs in this study learned through experiential and self-directed learning. A majority of them indicated that their main learning strategies consisted of finding or forming social networks for their design and business needs and developing their own learning habits. Based on these findings, the researcher made recommendations for educators teaching fashion or entrepreneurship and for current designer-entrepreneurs.",
+        "pdf_url": "https://academiccommons.columbia.edu/doi/10.7916/d8-z31y-yf65/download",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W3186460832",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Fashion aesthetics: the legacy of Chicana fashion on identity development",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10211.3/128193",
+        "doi": null,
+        "year": 2014,
+        "authors": [
+          "Diana Cabral"
+        ],
+        "venue": "CSUN ScholarWorks (California State University, Northridge)",
+        "abstract": "Chicana fashion supports identity development and it helps Chicanas express their identity and social and political positions uniquely and in the way they want. Yet, very little literature is available that focuses on the deeper and more significant aspects of Chicana fashion that explain how fashion supports identity development in aspects of life experiences, culture, environment, and politics of resistance to systems of injustice. This qualitative case study employed the theoretical frameworks of the intersection of race, class, and gender, Chicana feminist theory and in-depth individual interviews of three Chicana fashion designers and three Chicana fashionistas to explore the following research questions: 1) How does fashion support Chicana identity development? 2) What specific elements in Chicana fashion are required to support Chicana identity or are specific elements required? Four participants reported that fashion does support their Chicana identity. The fifth participant reported that fashion supports her identity but she does not identify herself as Chicana. The sixth participant identifies herself as Chicana but does not believe fashion supports her identity. My findings are concurrent with existing literature indicating that there is a relationship between fashion and identity development. The results of the current study have implications for the study of fashion and specifically how it helps support Chicana identity development. Through a creative project consisting of fifteen personal fashion designs, I demonstrate how clothing actually supports my identity, as it does for many Chicanas. In addition to the six interviews, my data includes a small collection of photos, paintings, ancient Mesoamerican figurines/sculptures, murals, and monumental images. I was also interested in seeing through modern collections whether elements of ancient Mesoamerican culture were visible on the clothing and so I examined fashion designs by up and coming Chicana fashion designers.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2495055309",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "BEHIND THE LABELS: LIBBY PAYNE, FASHION DESIGNER FOR \"MRS. MAIN STREET AMERICA\"",
+        "source": "openalex",
+        "url": "http://rave.ohiolink.edu/etdc/view?acc_num=kent1461236604",
+        "doi": null,
+        "year": 2016,
+        "authors": [
+          "Caroline A. Surrarrer"
+        ],
+        "venue": "OhioLink ETD Center (Ohio Library and Information Network)",
+        "abstract": null,
+        "pdf_url": "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=kent1461236604&disposition=inline",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2607257228",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Fashion designers home interiors: extending their brand image and aesthetic through magazine features",
+        "source": "openalex",
+        "url": "https://doi.org/10.32920/ryerson.14661633",
+        "doi": "10.32920/ryerson.14661633",
+        "year": 2021,
+        "authors": [
+          "Lauren Petroff"
+        ],
+        "venue": null,
+        "abstract": "Fashion designers, serving as the face and namesake of their brands, periodically present their homes in magazines. This exploratory study investigates whether this provides a unique opportunity to assist consumers in forming associations with the existing brand. An interdisciplinary literature review provided a thematic foundation, examining: 1) the presentation of self and how this concept can be symbolized through objects in the home; 2) visual culture and visual rhetoric; 3) and the concepts of brand identity, brand image, the “associative network memory model,” and flagship-store image. Content analysis of six in-depth, qualitative interviews was employed to collect relevant and meaningful information. Study informants examined and discussed images of the homes, flagship stores and current runway collections of Ralph Lauren, Tory Burch and Alexander Wang. Findings suggest that viewers are able to attribute associated lifestyles to the home, store or clothing being observed. When the perceived home image was congruent with the viewer-held brand conception, it seemed to reinforce the image. If the perceived home image contrasted with the viewer-held brand conception, it seemed to weaken the image. Two major recommendations were presented: 1) ensure that the home is a clear visual and cognitive representation of the designer’s intended brand identity; 2) establish a clear visual link between homes and brand offerings.",
+        "pdf_url": "https://rshare.library.ryerson.ca/articles/thesis/Fashion_designers_home_interiors_extending_their_brand_image_and_aesthetic_through_magazine_features/14661633/1/files/28144296.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4239068866",
+        "extra": {
+          "openalex_type": "other",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Fashion and Textile Upcycling: Developments in Research and Practice",
+        "source": "openalex",
+        "url": "https://doi.org/10.4324/9781003676003",
+        "doi": "10.4324/9781003676003",
+        "year": 2026,
+        "authors": [
+          "Kim Ki Sung",
+          "Pammi Sinha",
+          "Eunsuk Hur",
+          "Richie Moalosi"
+        ],
+        "venue": "Routledge eBooks",
+        "abstract": "Presenting cutting-edge research, innovative technologies, and new practices from global experts in the field, this book highlights the changes being made to make the fashion industry more sustainable through fashion and textile upcycling. While the fashion industry provides essential clothing and fashion products to consumers worldwide and is a major source of employment in many countries, it is notoriously wasteful and environmentally damaging. Recognising the industry's negative impact on the environment, particularly through the lens of fast fashion and throwaway consumer culture, this book identifies emerging and established leaders working to make the industry more sustainable and circular. Showcasing a collection of creative material practices that transform textile waste into new products and materials of equal or higher quality or value than the constituent elements, it includes coverage of upcycling theories, traditional and contemporary practices, and experiments from practitioners and other stakeholders around the world. Through a variety of innovative approaches, scientific findings, and practical outcomes, the book proposes a way forward for sustainable and circular fashion and textiles. Encouraging readers to rethink the status quo, it prompts a reimagining of the future, where the fashion industry is the largest and most successful contributor to a circular economy. The book will be a key resource for students, academics, practitioners, and policymakers on how to reduce fashion and textile waste, conserve resources, reduce environmental impact, create economic opportunities, foster innovation, and promote social and cultural value in the circular economy.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "W7223399355",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "The use of trend forecasting in the product development process",
+        "source": "openalex",
+        "url": "https://e-space.mmu.ac.uk/600391/1/one%20document%20-%2025%20jan%2016%20-10%20Dec%2015%20-%20Copy%20-%20Copy%20-%20Copy.pdf",
+        "doi": "10.83056/mmu.32437104",
+        "year": 2026,
+        "authors": [
+          "Christine Twine"
+        ],
+        "venue": "e-space (Manchester Metropolitan University)",
+        "abstract": "Fashion trend forecasting is often personnel and company dependant and is more likely to be influenced by intuition and personal inspiration. Trend forecasting had been regarded as a driving force of the fashion industry in determining the new fashion trends in fabric, colour and style. There is a dearth of information on the utilisation and application of trend forecasting. There was a need to explore the application of trend forecasting within contemporary design and retail environments. Hence, the rationale of this investigation was to identify how and where trend forecasting is incorporated in the product development process. Soft Systems Methodology (SSM) provided the framework to the primary research. The process focussed on the trend forecasting agencies and how trend forecasting was used by the fashion industry. The concept of fast fashion and its role in changing the model of fashion trend forecasting was critically analysed working through the stages of SSM. Interview data and process mapping were used to establish theoretical models which were tested, refined and validated for the timescales and process used in seasonal and fast fashion contexts. The research was addressed within the context of the UK clothing sector. From an initial analysis of the issues, shortcomings were identified in the seasonal process. These were linked to the buyers and designers having limited communication and fragmented decision making during the range planning process. The ‘open to buy’ process conducted at the end of the range planning season to address ‘close to season’ fashion relies upon repeated orders and unplanned inputs, copied from their competitors. This is because it is difficult to design completely new garments for the required timeframe. In the fast fashion process, it was found the designers had no input into the ‘bought-in’ fashion range resulting in a lack of continuity of how the total range would appear. Fast fashion relies upon ‘bought-in’ fashion and the ‘open to buy’ process relies upon trends based on ‘current influences’ and repeat orders because it is quicker than producing completely new garments within a reduced timescale. The final phase of this research contributes to a new synthesis of information relating to trend forecasting in contemporary design, marketing and retailing environments. A critique of the theoretical models was carried out for areas not discussed before with trend forecasters, buyers and designers. These industry personnel explained how trend forecasting was used in the model stages, alternatives to trend forecasting, the process, timeline and how ‘bought-in’ fashion is used as a solution to fast fashion. This research has resulted in revised models where trend forecasting is successfully located within the seasonal and fast fashion product development. The crux of this research identified the consultation meetings and communication channels which were accurately located in the new models. The models document how key personnel interact, specifically the trend forecaster, the product line manager, the designer and the buyer. In the fast fashion model the ‘bought-in’ range is clearly distinguished from the seasonal range. The new models quantify the timeline for seasonal fashion, fast fashion and ‘open to buy’. The current fashion forecasting system is derived from seasonal fashion and therefore reliant on long lead times. The rise of fast fashion provided the opportunity to identify a taxonomy of models with a shortened time frame. The original contribution to knowledge lies in the seasonal and fast fashion models directly arising from this research, that would facilitate the key personnel involved in the fashion industry to incorporate in their new product development. This results in greater involvement of personnel leading to efficient utilisation of time, resources and expertise in the trend forecasting process.",
+        "pdf_url": "https://e-space.mmu.ac.uk/600391/1/one%20document%20-%2025%20jan%2016%20-10%20Dec%2015%20-%20Copy%20-%20Copy%20-%20Copy.pdf",
+        "citation_count": 4,
+        "work_type": "thesis",
+        "identifier": "W2398124265",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Identity Development Within Educative Maker Programs",
+        "source": "openalex",
+        "url": "https://prism.ucalgary.ca",
+        "doi": "10.11575/prism/36782",
+        "year": 2019,
+        "authors": [
+          "Thomas Michael Kennedy"
+        ],
+        "venue": null,
+        "abstract": "The purpose of this study was to explore the constructs that influence the development of identity within educative maker programs. As there is no empirical or theoretical model to inform the implementation of maker programs in education, this in-depth exploration was critical in understanding the importance of external constructs on the development of identity within early educative maker experiences. No similar study exists on identity work amid the fragmentation of disciplinary knowledge and application in educational contexts. New knowledge created from this research highlighted intentional constructs in educative maker programs to forge a strong social identity grounded in connectedness, effectiveness, and expansiveness. A qualitative case study design was selected to analyse emergent themes from an in- depth exploration of participant perception and understanding maker identity within the context of a non-curricular educative maker program grounded in robotics and explicit technical skill development. The study gathered data using a three-phased approach which included the use of questionnaire, interviews and observations. Four primary findings which emerged from the research. First, a connected identity, strengthened through the shared histories and experiences with co-participants in the local maker community, did not automatically forge a perceived identity within other parallel communities. Second, environmental and peer relationships were emphasized as critical constructs that offered support and comfort in taking risks in unfamiliar activity and adopting a new social identity in technical activity. Third, the successful performance within the boundary area of maker activity did not alter the need for constructs to offer continued support to forge an effective identity. Fourth, experiences of atypical representation within boundary areas was influential in perceived maker identity. The Conceptual Framework for the Development of Identity Within Educative Maker Programs that emerged from the findings of this qualitative case study offers a foundational understanding of influential constructs to consider for intentionally designing experiences in educative making.",
+        "pdf_url": "https://ucalgary.scholaris.ca/bitstreams/92ff98d6-4b74-46ce-92ed-b4539f49e25c/download",
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W2966087552",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Impact of leaders, team behaviors, and sense of community on innovation in conventional fashion and wearable technology product development teams",
+        "source": "openalex",
+        "url": "https://doi.org/10.32469/10355/65434",
+        "doi": "10.32469/10355/65434",
+        "year": 2017,
+        "authors": [
+          "Deepika Raj"
+        ],
+        "venue": "MOspace Institutional Repository (University of Missouri)",
+        "abstract": "With the current historical moment's rapid growth in technology, many researchers thinks that the fashion industry is currently going through another major industrial revolution. Therefore, an examination of the product developments which can cross over and merge industrial boundaries is necessary to make sure that such disruption if happens brings better products to consumers through improved organizational behavior. To examine this in the context of the fashion and the wearable technology industries, this study examined the organizational behavior of product development teams in both of these spheres. To examine these relationships, data were collected from product developers in both the conventional fashion and wearable technology industries using an online survey. Well-validated scales of Cronbach's alpha higher than .6 were used to measure transformational leadership, sense of community, team learning behavior, and innovative work behavior. Structural Equation Modeling was used to examine the hypothesis and multigroup analysis was used to examine the group differences. As a result, the study had several major findings. Transformational leadership was found to have a significant and positive impact on innovative work behavior in wearable product development teams, and this was significantly higher in the wearable technology product development teams than the conventional fashion product development teams. The impact of transformational leadership on team learning behavior was not significant for any of the groups. This is one of the most important finding of this study. It helps in understanding that transformational leaders alone cannot bring collaboration among team members. The leaders ought to make an environment that helps to create a sense of community within the team, which then positively impacts the team learning behavior for both the teams. The collaborative behavior might or might not lead to innovative behavior, but in this study the relationship was positive and significant for both the groups. It was found that collaborative team learning behavior leads to innovative work behavior in product development teams. Therefore, construction and co-construction of knowledge, as well as constructive conflict within the teams, are highly essential for fostering idea generation, idea promotion, and idea realization in the product development phase. This study is one of the first studies to quantitatively examine the collaboration between product developers in the emerging field of wearable technology. It provides several important contributions to social capital theory, which was used as a theoretical framework. It was found that the structural dimension of social capital (which was achieved with the help of transformational leadership) impacts the relational dimension (which was achieved by sense of community), and both of these dimensions then positively affect the cognitive dimension of Social Capital (which was achieved by team learning behavior). The importance of social capital and the interplay between all these dimensions to achieve innovative work behavior empirically substantiates the importance of social capital in the conventional fashion and wearable technology domains. It also provides insights for product development managers who are either working in fashion or wearable technology or would like to crossover and adapt a more hybrid domain. Transformational leaders who encourage team members with individualized consideration, intellectual stimulation, and idealized behaviors inspired innovative work behavior among the team members. Fashion and WT product development teams need to have transformational leaders to encourage team members and push them to achieve more positive outcomes through innovative work behavior. A workshop or seminar showing these important traits and designing activities to train a leader how to foster them could be good strategies to develop transformational leadership skills. The findings will also benefit product developers for conventional fashion and wearable technology industries. The relationship between the constructs in this study can give them a deeper understanding of organizational behavior and management strategies, which are meant for increasing their team learning behavior and innovative work behavior. Further, the study has contributions for the education sector, as the workforce for product development must be trained effectively for the rapidly growing fashion discipline. The academic programs, which produce the workforce of this industry, should include modules on transformational leadership and train students how to function under and eventually become transformational leaders. Having a sense of community in the workplace was also found to be important. Therefore it is important to expand the comfort zone, to reach out and broaden the networks to understand those people who are from different academic backgrounds and with different tacit knowledge. This could be achieved in colleges and universities by taking part in events or projects from different disciplines. Professors are encouraged to plan such interdisciplinary events and projects where cognitively diverse team members participate in product development activities. This exposure will help them to understand people with different academic backgrounds and would eventually help in collaboration or team learning behavior.",
+        "pdf_url": "https://mospace.umsystem.edu/xmlui/bitstream/10355/65434/1/Research.pdf",
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W2892051483",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Fashion Education Ecosystem: Bridging the Fashion Knowledge Gap in the Sri Lankan Apparel Industry",
+        "source": "openalex",
+        "url": "https://doi.org/10.5204/thesis.eprints.123905",
+        "doi": "10.5204/thesis.eprints.123905",
+        "year": 2018,
+        "authors": [
+          "Sumith Gopura"
+        ],
+        "venue": "Queensland University of Technology",
+        "abstract": "The export apparel industry in Sri Lanka is seeking to develop higher value fashion products and services for overseas consumers with the support of locally trained fashion designers. This thesis investigates how Sri Lankan designers are prepared by higher education and the apparel industry to acquire the necessary knowledge and skills that can contribute to the industry's development. The thesis identifies the collaborative approach of developing Sri Lankan fashion designers through higher education and apparel industry forming a \"Fashion Education Eco-system\".",
+        "pdf_url": "https://eprints.qut.edu.au/123905/1/Sumith%20Chandra%20Gopura_Ranathunga%20Arachchilage_Thesis.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2919281866",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "The Role of Social Sustainability on Consumer Purchase Intention for Fashion Products",
+        "source": "openalex",
+        "url": "https://doi.org/10.54598/001180",
+        "doi": "10.54598/001180",
+        "year": 2021,
+        "authors": [
+          "Seyyed Amir Vafaei"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": "https://phd.mater.uni-mate.hu/113/1/amir_vafaei_dissertation_DOI.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4407770523",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "The internationalization pattern of a Swedish Fashion Company - A case study of Lindex",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/2077/33484",
+        "doi": null,
+        "year": 2013,
+        "authors": [
+          "Jin Bergsten",
+          "Jacqueline Tradefelt"
+        ],
+        "venue": "Gothenburg University Publications Electronic Archive (Gothenburg University)",
+        "abstract": "To internationalize has become an increasingly common means for growth as the developed markets in Europe exhibits a highly competitive environment leading to saturation in their domestic markets. With the emerge of the globalization and the rise of emerging markets new opportunities arise, which is positive for smaller countries like Sweden that are dependent on international activities. Furthermore, the Swedish fashion industry is becoming increasingly recognized in the international arena as world-famous companies like Swedish H&M has influenced and inspired the Swedish fashion industry. The purpose of this study was to investigate why and how Swedish retailers within the fashion industry expand to new markets with special emphasis on knowledge gained from previous establishments. The results of the study suggest that Lindex expansion pattern lies both in knowledge and experiences gained from the German market failure during the late 1990s, but also to a large extent in the external factors as regard to the establishment in the Czech Republic, Slovakia and Poland. Moreover, the results indicate that the internal factors, referring to the knowledge and experience of Lindex’s new owners, Stockmann, were the driving force behind entering the Russian Market. Lastly, we have also been able to conclude that a previous establishment regardless of how successful will affect subsequent expansion decisions, since the knowledge gained from every establishment is brought with the organization to the next expansion decision.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W856616784",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Impacts of product design changes on suppliers : a case study of the fashion industry",
+        "source": "openalex",
+        "url": "https://figshare.com/articles/thesis/Impacts_of_Product_Design_Changes_on_Suppliers_A_Case_Study_of_the_Fashion_Industry/10244870",
+        "doi": null,
+        "year": 2018,
+        "authors": [
+          "Nihan Özkan"
+        ],
+        "venue": "Figshare",
+        "abstract": "This thesis focuses on product design change in the fast fashion market and its impact on supplier companies. Theorizing from the relationship between product design and suppliers within an overarching framework of the supply chain and product design literatures, the research develops what impact product design changes have on supplier companies and how those changes connect to the performance of supplier companies. The multiple case study draws on interview data with 20 participants from a famous high-street fashion retailer and eight of its suppliers. This research validates that product design changes in the fast fashion market have physical and non-physical impacts across supplier company departments, and shows that these impacts connect significantly to the performance of supplier companies. This research contributes to the supply chain and product design literatures by providing an understanding of how product design changes create chain-like-effects, both internally and externally to supplier companies. This can catalyse supplier company strategy, which mitigates product design change to avoid this chain-like-effect. Practically, this thesis offers guidance for retailers and suppliers in creating solutions for the problems that they encounter during the product design change process by revealing the cause and effect relationship of product design changes and supplier companies. The results are currently limited to the fashion industry, and they are yet to be generalised to other buyer-driven commodity chains. Future research should focus on best practices for management to deal with the impact of product design change and in consideration in other industries.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2891402390",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Patterns of creative worker migration across the lifespan: The migration and occupation paths of Bristol designers, 1950-2018",
+        "source": "openalex",
+        "url": "https://uwe-repository.worktribe.com/6635214/1/Patterns%20of%20creative%20worker%20migration%20across%20the%20lifespan%3A%20The%20migration%20and%20occupation%20paths%20of%20Bristol%20designers%2C%201950-2018",
+        "doi": null,
+        "year": 2021,
+        "authors": [
+          "Ellen Hughes"
+        ],
+        "venue": "UWE Research Repository (UWE Bristol)",
+        "abstract": "Creative workers are theorised as autonomous and highly mobile, migrating away from their family of origin and childhood friends, breaking away from inherited values and expectations into independence. In contrast to theory, across Europe, including the UK, creative workers are found living in their region of birth or education, suggesting that attachment to place, and social and familial ties are important. This thesis takes a biographical approach to understand the complexity of reasons for migration and occupation choices, set within their historical, political and social contexts. Using 63 in-depth interviews with designers who have lived in the city of Bristol, UK, the thesis maps sequential patterns of creative worker migration over the lifespan, and makes a deep analysis of the impact of early life experiences on migration and occupation outcomes. The thesis finds that migration and occupation outcomes are intimately connected to early family experiences. Designers, who were predominantly white, middle-class and male, depended heavily on family of origin for support into education, access to employment and for housing costs long into adulthood. Trajectories fell into three categories: Stability: remaining in situ was most common among working class designers who did not consider migration as necessary or important in their life trajectory. Mobility: moving from working to middle class through education and employment, migrating away from family of origin, seeking a place to make a new home in a new social position. Recreation: for middle-class designers, a movement away from their home of origin for education was anticipated from childhood. This was followed by one or two movements for a job, then, after the formation of a family, a movement to a location that was similar in feel to their home of origin. This thesis also contributes to migration theory in revealing a yo-yo pattern of migration: a sequence of movements away from and then returning to an anchor place or region, showing that for many creative workers, a specific place, and the social connections contained within it, continue to be important across the life span.",
+        "pdf_url": "https://uwe-repository.worktribe.com/preview/7075838/Patterns%20of%20Creative%20Worker%20Migration%20Across%20the%20Lifespan.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W3127669146",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "WomenWeave Daily : \"Artisan Fashion\" as \"Slow and Sustainable Fashion\"",
+        "source": "openalex",
+        "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:hb:diva-15108",
+        "doi": null,
+        "year": 2018,
+        "authors": [
+          "David J. Goldsmith"
+        ],
+        "venue": "DiVA - University of Borås (Högskolan i Borås)",
+        "abstract": "As awareness has grown of the detrimental, often lethal, aspects of fashion production and use, so too has a global movement to diminish its environmental harms and mediate its social exploitation. In all types of commercial, academic, and popular discourse about fashion, words such as eco-friendly, green, ethical, fair, and slow -- the last being a catch-all term for all things “not fast fashion”-- are ubiquitous. These terms are meant to represent an array of ways of producing and using that are said or hoped to be sustainable. This research is primarily concerned with the social sustainability, or human development aspects, of artisan fashion, in the context of textile management. Artisan fashion is defined here as both product (such as a handwoven shawl), and as an evolving contemporary fashion system that typically employs rural artisans in the “developing world” to make products that are generally sold to urban, “developed world” consumers. Artisan fashion, which attempts to bridge old ways of producing with new ways of consuming, is positioned in this research as it has come to be viewed in the fashion marketplace: a subset of so-called slow and sustainable fashion. Though artisan fashion is emblematic of many slow and sustainable ideals, there is little academic questioning or understanding of how “slow” and how “sustainable” the stuff and the system that makes it actually are. This case study centers on WomenWeave, a medium-sized handloomed- textile making social enterprise in a quickly-changing small town in rural India. This producer, employing about 200 individuals, mostly women with low-education and little privilege, specializes in naya khadi, a type of apparel or furnishings fabric whose antecedent, khadi, is an integral part of the grand narrative of India’s independence movement. Founded by a “social entrepreneur” with deep and privileged roots in the community, the case is idiosyncratic, yet representative of a common market-based ideological approach to human development. A narrative, ethnographic methodology was used that included multiple field visits, observations, interviews, and participatory interactions with the case’s leadership, management, artisans, product designers, partners and experts, among others. The empirical experiences are presented, analyzed, and discussed through the lenses of Activity Theory, and an adaptation of Osterwalder and Pingeur’s Business Model Canvas. While the nomenclature of “slow and sustainable fashion” is, at least for the time being, rejected, the research shows that with professional management, the adoption of “global design” sensibilities, and other fast modernisms, the system achieves its local mission of providing incomes and fostering social inclusion.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W2900141190",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Celebrity Brand Fashion Collaborations in a Canadian Context",
+        "source": "openalex",
+        "url": "https://doi.org/10.32920/ryerson.14649027",
+        "doi": "10.32920/ryerson.14649027",
+        "year": 2023,
+        "authors": [
+          "Jacqueline Melindy"
+        ],
+        "venue": null,
+        "abstract": "Celebrity branded collections are an interesting niche segment of the fashion industry and they have yet to be examined within a Canadian context. This research identifies factors that influence celebrity brand collaborations utilizing a mixed methods approach. Content analysis of merchandise featured on four websites of Canadian celebrities identified key features of celebrity branded product assortments. Interviews with a fashion broker and celebrity fashion editor unpacked the nuances of the design process. The evidence from this study suggests that the design process is negotiated, both the celebrity and the brand play vital roles in product development. The findings derived from the content analysis established the type of garments and accessories, fabrics, colours, patterns, motifs and slogans, logos, fit, sizes, and price points that are commonly used in celebrity fashion collections. Given the huge economic power of celebrity branded collections, this research outlines important practices for designers, product developers and celebrities.",
+        "pdf_url": "https://rshare.library.torontomu.ca/articles/thesis/Celebrity_Brand_Fashion_Collaborations_in_a_Canadian_Context/14649027/1/files/28129239.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4241158629",
+        "extra": {
+          "openalex_type": "other",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "A vision for divergent thinking in the Fashion Design and Product Innovation program at the University of Delaware",
+        "source": "openalex",
+        "url": "https://udspace.udel.edu/handle/19716/36540",
+        "doi": null,
+        "year": 2025,
+        "authors": [
+          "Katya Roelse"
+        ],
+        "venue": "Library, Museums and Press - UDSpace (University of Delaware)",
+        "abstract": "Creativity is essential to success in fashion design, yet many fashion design programs, including the Fashion Design and Product Innovation (FDPI) program at the University of Delaware, do not explicitly emphasize creative thinking skills, like divergent thinking (DT), within their curricula. Instead, creativity is often fostered indirectly through convergent thinking methods that focus on technical proficiency and industry readiness. This ELP examines how one fashion design education program can better integrate DT instruction in ways that align with academic objectives and industry needs. Through a literature review, content analysis of internal program documents, and interviews with FDPI faculty, this study examined faculty perceptions of creativity and the presence of DT instruction in the curriculum. Findings revealed limited formal emphasis on DT, a lack of shared definitions of creativity, and an opportunity to enhance student learning by developing measurable DT skills, including fluency, flexibility, originality, and elaboration. Based on these findings, this ELP proposes integrating structured DT teaching materials into existing courses to nurture creative capacity in future fashion designers more effectively.",
+        "pdf_url": "https://udspace.udel.edu/bitstreams/45b9dea5-333c-4140-876a-23781003431d/download",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7217870653",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Designing sustainable designers",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10613/10078",
+        "doi": "10.25316/ir-4512",
+        "year": 2019,
+        "authors": [
+          "Segal, Emma"
+        ],
+        "venue": "VIUSpace (Vancouver Island University Library)",
+        "abstract": "This action research based thesis uses qualitative interviews and data coding to explore the perspectives and experiences of 17 working apparel designers with sustainability within their design practice. The Disruptive Design Method was employed to structure the research and explore the challenges and opportunities that may exist in order to contribute to the development of more sustainable apparel designers. The findings revealed two distinct designer groups: agentized designers who engage with sustainability as a practice, and disengaged designers who see the problems in the industry as overwhelming. Seven themes emerged: a value action gap, the emotional impact, formative work experiences, and optimism in the face of challenge, knowledge designers hold, the influence of corporate culture, and support or lack of community culture. The outcome that emerged from this research is a synthesis of insights that is conveyed through a set of propositions for further professional development, communication and education around creating more agentized and sustainable apparel designers.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2947303732",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Improving product cost and schedule management in a garment product development process",
+        "source": "openalex",
+        "url": "http://www.theseus.fi/handle/10024/109909",
+        "doi": null,
+        "year": 2016,
+        "authors": [
+          "Lotta Becker"
+        ],
+        "venue": "Theseus (Ammattikorkeakoulujen)",
+        "abstract": "The purpose of this research is to improve the beginning stages of a garment product development process at Marimekko Oyj, a Finnish design company, by finding better ways to manage the product cost and schedule. The main objective is to bring the final cost of garments closer to the original target cost in order to keep margins at required levels. Action research and case study were used as research methods. During the action research cycles, two collections were started and observed. The idea was to try out some methods to make the product development process smoother and costs closer to target costs. The theoretical framework of this thesis was built around cost and price of a garment in different stages of the process. The framework also included a general overview of a garment development process including all teams working in the process and the critical path of the process. A survey was conducted with the ready-to-wear designers of the company. In addition to giving information about the designers’ knowledge of garment costing, the survey revealed their thoughts about the first stages of the product development process and what kind of problems there have been from their point of view. During this research good progress in developing the first stages of the process has been done. Many areas in need of improvement were identified. One major change was to start estimating cost more precisely based on the designer’s sketches and material choices. This allowed some problems to be caught earlier at a point when it is still possible to make changes. Involving the sourcing team earlier in the process has helped to find options to keep the costs down for more expensive garments. Some organizational changes occurred at Marimekko during the making of this thesis. This caused the process improvement initiative to slow down and halt mid-way. However, the restructuring brought also some welcome changes, such as a clarification of team-level and individual responsibilities, which most likely will have a positive effect on the overall development process. In addition to the changes made in the context of this action research, a plan and ideas for the improvement cycle of the next season’s collection are presented. Chapters 5-7, that cover the company and its processes, have been deemed to be confidential and are excluded from this public version at the company’s request.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W2362691332",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Cynthia Lockhart (b. 1952), Fashion Designer, Quilt Maker, Fiber Artist.",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9798400607509.036",
+        "doi": "10.5040/9798400607509.036",
+        "year": 2009,
+        "authors": [],
+        "venue": "Encyclopedia of African American Artists",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9798400607509.036",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Greenwood Publishing Group, Inc."
+        }
+      },
+      {
+        "title": "ANALISIS GAP KOMPETENSI FASHION DESIGNER DAN AHLI POLA (PATTERN MAKER) TERHADAP KUALIFIKASI KERJA INDUSTRI GARMEN",
+        "source": "crossref",
+        "url": "https://doi.org/10.51878/vocational.v5i4.7725",
+        "doi": "10.51878/vocational.v5i4.7725",
+        "year": 2025,
+        "authors": [
+          "Andi Nuralfiah",
+          "Luthfiani Jusuf",
+          "Muh. Fadhil Supriadi",
+          "Nur Widya Anriyana",
+          "Perawati Simaremare",
+          "Andi Nurliana",
+          "Wahyu Nurhamzah"
+        ],
+        "venue": "VOCATIONAL: Jurnal Inovasi Pendidikan Kejuruan",
+        "abstract": "The Indonesian garment industry continues to face a significant competency gap between vocational education graduates and the actual qualification demands of the workforce, particularly for the crucial roles of Fashion Designer and Pattern Maker. This study aims to empirically and systematically identify the competency discrepancies between the qualifications possessed by students of the Fashion Education Study Program at Yogyakarta State University and the ideal qualifications required by medium- to large-scale garment industries in the Yogyakarta Special Region. Employing a quantitative descriptive research design, data were collected through structured questionnaires distributed to final-year students and industry representatives, and analyzed using descriptive statistics and Gap Analysis. Findings indicate that, in the field of Fashion Design, the relevance between student competencies and industry needs reached 100%, demonstrating that all eleven competency items assessed were both relevant and required. Similarly, competencies in Pattern Making were classified as highly relevant, with students even possessing one additional skill not explicitly required by industry, thereby increasing the overall alignment score. These results suggest that the existing curriculum has effectively balanced the supply and demand of competencies for both professional roles. The study implies that educational institutions should continue strengthening the integration of disruptive technologies and adaptive skills to ensure graduate readiness for emerging challenges in the era of Industry 5.0. ABSTRAK Sektor industri garmen Indonesia menghadapi tantangan signifikan terkait kesenjangan kompetensi (skill gap) antara lulusan pendidikan vokasi dan tuntutan kualifikasi kerja riil, terutama pada peran Fashion Designer dan Pattern Maker yang krusial untuk daya saing produk. Penelitian ini bertujuan untuk mengidentifikasi secara empiris dan sistematis kesenjangan kompetensi antara kualifikasi yang dimiliki mahasiswa Program Studi Pendidikan Tata Busana Universitas Negeri Yogyakarta (sebagai penyedia kompetensi) dengan kualifikasi ideal yang dibutuhkan oleh perwakilan dunia kerja di industri garmen. Menggunakan metode penelitian deskriptif kuantitatif dengan desain survei, data dikumpulkan melalui kuesioner terstruktur dari mahasiswa tingkat akhir dan perwakilan industri garmen skala menengah ke atas di Daerah Istimewa Yogyakarta, yang kemudian dianalisis menggunakan statistik deskriptif dan Analisis Gap. Hasil penelitian menunjukkan bahwa, untuk bidang keahlian Fashion Designer, relevansi antara kompetensi mahasiswa dan kebutuhan industri mencapai 100%, mengindikasikan bahwa semua 11 item kompetensi yang dimiliki relevan dan dibutuhkan. Berdasarkan klasifikasi tersebut, maka dapat dikatakan bahwa relevansi antara kompetensi mahasiswa pendidikan tata busana UNY dengan kebutuhan dunia kerja di industri garmen bidang keahlian ahli pola (pattern maker) dapat dikatakan sangat relevan, selain itu mahasiswa memiliki satu keterampilan tambahan yang tidak secara eksplisit dibutuhkan industri, sehingga tingkat kesesuaian kompetensi terlihat lebih tinggi dibanding daftar kompetensi yang dipersyaratkan. Kesimpulannya, kurikulum program studi telah berhasil menyeimbangkan pasokan dan permintaan kompetensi untuk kedua peran, dengan implikasi bahwa lembaga pendidikan harus mempertahankan dan memperluas integrasi teknologi disruptif dan keterampilan adaptif untuk memastikan kesiapan menghadapi tuntutan Industri 5.0.",
+        "pdf_url": "https://jurnalp4i.com/index.php/vocational/article/download/7725/5299",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.51878/vocational.v5i4.7725",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Pusat Pengembangan Pendidikan dan Penelitian Indonesia"
+        }
+      },
+      {
+        "title": "The Emergence of Maker Culture Through Online Platforms: Focusing on Fashion Product Making Class",
+        "source": "crossref",
+        "url": "https://doi.org/10.31274/itaa.13435",
+        "doi": "10.31274/itaa.13435",
+        "year": 2022,
+        "authors": [
+          "Hana Lee"
+        ],
+        "venue": "Breaking Boundaries",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.31274/itaa.13435",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Iowa State University Digital Press"
+        }
+      },
+      {
+        "title": "Designer Fashion Reports, Autumn/Winter 1988",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350942400",
+        "doi": "10.5040/9781350942400",
+        "year": 2019,
+        "authors": [],
+        "venue": "Designer Fashion Reports, Autumn/Winter 1988",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350942400",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Cost Minimisation in Sample Development and Approval Process by Proper Merchandising Action for kids and Ladies Garments",
+        "source": "crossref",
+        "url": "https://doi.org/10.31031/tteft.2018.04.000590",
+        "doi": "10.31031/tteft.2018.04.000590",
+        "year": 2018,
+        "authors": [
+          "Anowar Hossain"
+        ],
+        "venue": "Trends in Textile Engineering &amp; Fashion Technology",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "10.31031/tteft.2018.04.000590",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Crimson Publishers"
+        }
+      },
+      {
+        "title": "Trade Dress: An Unsuitable Fit for Product Design in the Fashion Industry",
+        "source": "crossref",
+        "url": "https://doi.org/10.2139/ssrn.2715146",
+        "doi": "10.2139/ssrn.2715146",
+        "year": 2016,
+        "authors": [
+          "Shayna Giles"
+        ],
+        "venue": null,
+        "abstract": "Fashion design is an uneasy fit for intellectual property law. Because trade dress is not clearly defined in the Lanham Act, the courts were able to expand this area of intellectual property to protect product design in the fashion industry. Congress does not concur with this expansion, as demonstrated by the lack of legislative action in the face of multiple opportunities to grant protection to fashion design. Despite Congressional intent, the courts attempted to fit fashion design into various types of intellectual property law, beginning with copyright and patent. After realizing that neither of those was an appropriate fit for fashion design, the courts settled on trademark law and more specifically trade dress. The Supreme Court leaves product design ambiguous as a trade dress category in Two Pesos. Recognizing its mistake, the Supreme Court then tries to clarify product design in Wal-Mart by distinguishing the trade dress at issue in Wal-Mart from Two Pesos, arguing that Two Pesos actually addressed product packaging while Wal-Mart was a product design issue. The Supreme Court in TrafFix further strengthened its warning from Wal-Mart against trade dress expansion. Nonetheless, the Second Circuit Court of Appeals ignored the Supreme Court’s caution and increased trade dress protection in Louboutin, overstepping its boundaries in a way that Congress, the Supreme Court, and public policy do not support.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "preprint",
+        "identifier": "10.2139/ssrn.2715146",
+        "extra": {
+          "crossref_type": "posted-content",
+          "publisher": "Elsevier BV"
+        }
+      },
+      {
+        "title": "Development of a ‘tool box’ for generating designer nucleosomes in high throughput fashion",
+        "source": "crossref",
+        "url": "https://doi.org/10.53846/goediss-6578",
+        "doi": "10.53846/goediss-6578",
+        "year": 2022,
+        "authors": [
+          "Henriette Mahler"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.53846/goediss-6578",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "University Goettingen Repository"
+        }
+      },
+      {
+        "title": "Product Development",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781474218375.ch-002",
+        "doi": "10.5040/9781474218375.ch-002",
+        "year": 2016,
+        "authors": [],
+        "venue": "Fashion Merchandising",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.5040/9781474218375.ch-002",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Fairchild Books"
+        }
+      },
+      {
+        "title": "la Trobe-Bateman, Richard George Saumarez, (born 17 Oct. 1938), structures designer/maker",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.u23870",
+        "doi": "10.1093/ww/9780199540884.013.u23870",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.u23870",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "La Trobe-Bateman, Richard George Saumarez, (born 17 Oct. 1938), structures designer/maker",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.23870",
+        "doi": "10.1093/ww/9780199540884.013.23870",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.23870",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Fashion pattern maker of software application development",
+        "source": "crossref",
+        "url": "https://doi.org/10.1088/1757-899x/830/4/042096",
+        "doi": "10.1088/1757-899x/830/4/042096",
+        "year": 2020,
+        "authors": [
+          "M Rizkiah",
+          "I Widiaty",
+          "B Mulyanti"
+        ],
+        "venue": "IOP Conference Series: Materials Science and Engineering",
+        "abstract": "This paper presents the software used to make patterns in making fashion patterns. The design was accepted in the form of literature reviews, journals related to pattern making software collected using search engines such as Elsevier, Sciencedirect, Google Scholar and Crossref. The purpose of this study is to collect and analyze articles relating to pattern making using software, which are expected to be able to 1) Facilitate pattern construction, 2) open media development, 3) develop pattern making systems. Based on the articles collected the results obtained from the pattern making system helped the fashion industry to improve fashion designs for pattern development as well as human models were introduced to rebuild 3D humans in computer systems. A surface leveling algorithm was developed to transform 3D designed fabrics into 2D supported patterns for production. The hope for the future rules that match the style in the design discipline.",
+        "pdf_url": "https://iopscience.iop.org/article/10.1088/1757-899X/830/4/042096/pdf",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.1088/1757-899x/830/4/042096",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "IOP Publishing"
+        }
+      },
+      {
+        "title": "Product Development",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501303784.ch-007",
+        "doi": "10.5040/9781501303784.ch-007",
+        "year": 2016,
+        "authors": [],
+        "venue": "In Fashion",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.5040/9781501303784.ch-007",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Fairchild Books"
+        }
+      },
+      {
+        "title": "McCartney, Stella, (born 13 Sept. 1971), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.u244929",
+        "doi": "10.1093/ww/9780199540884.013.u244929",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.u244929",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Mccartney, Stella, (born 13 Sept. 1971), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.244929",
+        "doi": "10.1093/ww/9780199540884.013.244929",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.244929",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Hamnett, Katharine, (born 16 Aug. 1947), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.18835",
+        "doi": "10.1093/ww/9780199540884.013.18835",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.18835",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Hamnett, Katharine, (born 16 Aug. 1947), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.u18835",
+        "doi": "10.1093/ww/9780199540884.013.u18835",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.u18835",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Emanuel, David, (born 17 Nov. 1952), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.u14971",
+        "doi": "10.1093/ww/9780199540884.013.u14971",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.u14971",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Emanuel, David, (born 17 Nov. 1952), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.14971",
+        "doi": "10.1093/ww/9780199540884.013.14971",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.14971",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "designer-maker",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/978-3-540-72816-0_6029",
+        "doi": "10.1007/978-3-540-72816-0_6029",
+        "year": 2009,
+        "authors": [],
+        "venue": "Dictionary of Gems and Gemology",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/978-3-540-72816-0_6029",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer Berlin Heidelberg"
+        }
+      },
+      {
+        "title": "pattern and sample making services",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501365287.1977",
+        "doi": "10.5040/9781501365287.1977",
+        "year": 2022,
+        "authors": [],
+        "venue": "The Fairchild Books Dictionary of Fashion",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501365287.1977",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Chalayan, Hussein, (born 12 Aug. 1970), fashion designer; artist",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.u261280",
+        "doi": "10.1093/ww/9780199540884.013.u261280",
+        "year": 2014,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.u261280",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Miyake, Kazunaru, (Issey), (born 22 April 1938), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.27752",
+        "doi": "10.1093/ww/9780199540884.013.27752",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.27752",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Computer‐aided Pattern Design and Product Development",
+        "source": "crossref",
+        "url": "https://doi.org/10.1108/13612020610702018",
+        "doi": "10.1108/13612020610702018",
+        "year": 2006,
+        "authors": [],
+        "venue": "Journal of Fashion Marketing and Management: An International Journal",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.1108/13612020610702018",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Emerald"
+        }
+      },
+      {
+        "title": "Gaultier, Jean-Paul, (born 24 April 1952), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.41466",
+        "doi": "10.1093/ww/9780199540884.013.41466",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.41466",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Emanuel, Elizabeth Florence, (born 5 July 1953), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.14972",
+        "doi": "10.1093/ww/9780199540884.013.14972",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.14972",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      }
+    ]
+  },
+  "count": 50,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:06:14.074724+00:00"
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "claim": "A implantação de ferramentas de Lean Manufacturing (Mapeamento de Fluxo de Valor e Kanban) em uma indústria de confecção reduziu em 82,85% o lead time de entrega dos pedidos aos clientes.",
+    "stance": "supports",
+    "stance_target": "Eficácia de ferramentas Lean (MFV e Kanban) para solucionar atrasos de entrega e alto lead time em confecções",
+    "evidence_type": "empirical",
+    "scope_conditions": "Pesquisa-ação em indústria de confecção brasileira (2022)",
+    "quoted_support": "Este trabalho científico, de natureza aplicada, objetivou implantar ferramentas da filosofia lean manufacturing em uma indústria de confecção. O propósito destas ações foi reduzir o lead time, visto que a empresa vinha enfrentando problemas com atrasos na entrega das encomendas. Obteve-se uma redução de 82,85% do tempo de entrega dos pedidos aos clientes, maior organização dos processos e envolvimento da equipe na tomada de decisões.",
+    "numbers": ["82,85%"],
+    "entities": ["PUCPR", "Revista Produção Online", "Kanban"],
+    "time_period": "2022",
+    "region": "Brasil (Paraná)",
+    "confidence": "high",
+    "source_note_id": "análise-e-redução-de-lead-time-em-uma-indústria-de-confecção-revista-produção-on"
+  }
+]

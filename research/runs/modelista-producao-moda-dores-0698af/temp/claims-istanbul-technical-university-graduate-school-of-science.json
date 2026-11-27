@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "Commercial 3D garment simulation software (Optitex O/Dev) restricted minimum fabric thickness input to 0.05 cm (0.5 mm), automatically overriding thinner fashion fabrics to 0.05 cm and exhibiting ambiguous unit conversion in its Fabric Editor.",
+    "stance": "supports",
+    "stance_target": "software limitations and parameter conversion pain points in 3D CAD systems when simulating thin fashion fabrics",
+    "evidence_type": "empirical",
+    "scope_conditions": "Optitex O/Dev 3D simulation of 7 woven skirt fabrics tested at Cornell University and Istanbul Technical University",
+    "quoted_support": "It should be also recalled that simulation software didn't allow to insert any fabric thickness values lower than 0.05 cm, and any thickness value lower than 0.05 cm was automatically changed to 0.05 cm by the program. Therefore, even if some fabrics had different thickness values than each other, their 3D fabric properties were same and were 0.05 cm. Moreover, it was also ambigious how the extension values were converted in the Fabric Editor of the software.",
+    "numbers": ["0.05 cm", "7 fabrics"],
+    "entities": ["Evrim Büyükaslan", "Fatma Kalaoğlu", "Fatma Baytar", "Istanbul Technical University", "Cornell University", "Optitex"],
+    "time_period": "2018",
+    "region": "Turkey / USA",
+    "confidence": "high",
+    "source_note_id": "istanbul-technical-university-graduate-school-of-science"
+  },
+  {
+    "claim": "While actual physical skirts sewn from the exact same 2D pattern in 7 different woven fabrics produced statistically significant differences in real fit satisfaction (F(6,173) = 3.515, p = 0.003, ranging from M=3.94 to M=5.33 on a 7-point scale), their 3D virtual counterparts showed no statistically significant difference in virtual fit satisfaction across fabrics (F(6,173) = 0.333, p = 0.92).",
+    "stance": "supports",
+    "stance_target": "3D virtual garment simulations fail to capture real-world fit variations caused by different woven fabrics on identical 2D patterns",
+    "evidence_type": "statistical",
+    "scope_conditions": "N=180 fit evaluations across 45 female participants and 7 woven A-line skirts in real vs Optitex 3D virtual try-on",
+    "quoted_support": "Seven skirts with same measurements, same silhouette and color were used as fit samples. The only difference between the skirts were their fabrics. One-way ANOVA results showed that participants' fit satisfactions for actual skirts varied considerably due to their alternating fabrics, F(6,173) = 3.515, p = .003) and there were no significant difference between the fit satisfactions for virtual skirts , (F(6,173) = .333, p = 0.92).",
+    "numbers": ["F(6,173) = 3.515", "p = .003", "F(6,173) = .333", "p = 0.92", "M=5.33", "M=3.94", "M=4.44", "M=4.74", "7 skirts", "N=180"],
+    "entities": ["Evrim Büyükaslan", "Istanbul Technical University", "Cornell University", "Optitex"],
+    "time_period": "2018",
+    "region": "Turkey / USA",
+    "confidence": "high",
+    "source_note_id": "istanbul-technical-university-graduate-school-of-science"
+  },
+  {
+    "claim": "Overall virtual fit satisfaction (VFS) correlates strongly with real fit satisfaction (RFS) (r = 0.63, N = 180, p < 0.01), with stronger correlations at the hips (r = 0.60) and hem (r = 0.65) than at the waist (r = 0.48) and abdomen (r = 0.42), though paired t-tests show overall VFS is significantly lower than RFS (t(179) = 2.690, p = 0.004) with significant discrepancies specifically at the hips and hem.",
+    "stance": "supports",
+    "stance_target": "zone-specific accuracy and discrepancies (waist/abdomen vs hips/hem) between 3D virtual fit and physical prototype fitting",
+    "evidence_type": "statistical",
+    "scope_conditions": "N=180 paired real and virtual skirt fit evaluations across 45 3D-scanned women",
+    "quoted_support": "According to the results (Figure 3.6), a strong correlation between overall RFSs and overall VFSs were found ( r= .63, N=180, p< 0.01). According to the results, correlations between participants' RFSs and VFSs at hips (r= .60, N=180, p< 0.01) and hem level (r= .65, N=180, p< 0.01) were stronger when compared to their correlations at waist (r= .48, N=180, p< 0.01) and abdomen areas (r= .42, N=180, p< 0.01).",
+    "numbers": ["r = 0.63", "r = 0.60", "r = 0.65", "r = 0.48", "r = 0.42", "N = 180", "p < 0.01", "t(179) = 2.690", "d = -0.206", "p = 0.004"],
+    "entities": ["Evrim Büyükaslan", "Istanbul Technical University", "Cornell University"],
+    "time_period": "2018",
+    "region": "Turkey / USA",
+    "confidence": "high",
+    "source_note_id": "istanbul-technical-university-graduate-school-of-science"
+  },
+  {
+    "claim": "Both in real physical fitting and 3D virtual fitting, female wearers report lower fit satisfaction at the abdomen and hip regions compared to the waist and hem regions of skirts.",
+    "stance": "supports",
+    "stance_target": "hips and abdomen as critical anatomical bottleneck zones for garment fit and pattern grading",
+    "evidence_type": "empirical",
+    "scope_conditions": "A-line woven skirts tested on 45 female subjects (N=180 observations)",
+    "quoted_support": "According to the RFS results (Table 3.21), participants were generally less satisfied with the skirt fit at abdomen and hips areas when compared to the fit at waist and hem areas. Similarly, participants' VFSs at abdomen and hips areas were lower than their VFSs at waist and hem areas.",
+    "numbers": ["N = 180"],
+    "entities": ["Evrim Büyükaslan", "Istanbul Technical University"],
+    "time_period": "2018",
+    "region": "Turkey / USA",
+    "confidence": "high",
+    "source_note_id": "istanbul-technical-university-graduate-school-of-science"
+  }
+]

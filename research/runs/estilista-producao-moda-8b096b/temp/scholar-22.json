@@ -1,0 +1,814 @@
+{
+  "ok": true,
+  "data": {
+    "query": "prototipagem virtual 3D vestuario modelagem reducao retrabalho",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 12,
+      "crossref": 25,
+      "doab": 0
+    },
+    "raw_records": 37,
+    "merged_records": 37,
+    "returned": 37,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Proposta de aplicação de software para prototipagem em 3D no desenvolvimento de produtos de indústria de vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.21814/uminho.ed.139.8",
+        "doi": "10.21814/uminho.ed.139.8",
+        "year": 2024,
+        "authors": [
+          "Tauane Spanhol de Aguirre",
+          "Icléía Silveira",
+          "Daniela Novelli"
+        ],
+        "venue": "UMinho Editora eBooks",
+        "abstract": "As mudanças constantes no cenário econômico contemporâneo e o advento das tecnologias disponíveis são apontadas como fatores de transformação na gestão das empresas e na forma como são abordadas estrategicamente suas operações.A necessidade de sobreviver neste mercado cada vez mais competitivo evidencia a importância de ampliar o uso das tecnologias digitais como uma abordagem estratégica nos processos produtivos.O objetivo deste trabalho é propor a aplicação do software 3D no processo de desenvolvimento de produtos de uma indústria de confecção de vestuário de médio porte.Para isso, utilizou-se pesquisa aplicada, qualitativa e descritiva, nos limites de estudo de caso, em uma indústria parceira onde foram mapeados os seus processos.Após, foi apresentado um novo fluxo de etapas para desenvolvimento de produtos com a contemplação da prototipagem virtual nos processos.Na análise final, percebe-se que a utilização do software 3D traz benefícios significativos para o desenvolvimento de produtos comparado com os processos realizados pela empresa sem esta tecnologia.",
+        "pdf_url": "https://ebooks.uminho.pt/index.php/uminho/catalog/download/139/199/3200?inline=1",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4393151195",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Modelagem através do CLO3D : redução de custos no processo de pilotagem e produção têxtil",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/003273578",
+        "doi": "10.11606/003273578",
+        "year": 2022,
+        "authors": [
+          "Barbara Baptista Navarra"
+        ],
+        "venue": null,
+        "abstract": "Durante o processo de desenvolvimento do produto, o estilista pode realizar alterações no modelo, o que gera o desenvolvimento de várias peças pilotos - protótipos, confeccionadas a partir do desenho enviado pela estilista. O processo de repilotagem não só causa desperdício têxtil, mas também causa atrasos nos processos de desenvolvimento da coleção. Nesse contexto é inserido o software CLO3D, utilizado por profissionais de moda para desenvolver o design, modelagem, ajustes e modificações do produto. O seguinte trabalho objetiva avaliar determinados aspectos do processo de produção de vestuário, tendo como objeto de estudo uma empresa paulista de Private Label, através da modelagem manual (moulage e plana) e, posteriormente, modelagem no Audaces. A partir dessa avaliação, será realizado uma análise de três modelos produzidos pela empresa, realizando o mesmo processo através do software CLO3D, comparando o consumo e resíduos gerados pelas duas formas de modelar.",
+        "pdf_url": "https://bdta.abcd.usp.br/directbitstream/2fa50599-945d-4c8d-b097-3eb7951a1672/Te0086-Navarra.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7204466171",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "A contribuição da modelagem tridimensional para a transformação digital e a sustentabilidade na indústria da moda",
+        "source": "openalex",
+        "url": "https://doi.org/10.14488/1676-1901.v26i2.5789",
+        "doi": "10.14488/1676-1901.v26i2.5789",
+        "year": 2026,
+        "authors": [
+          "Rosiane Serrano",
+          "JOÃO VICTOR SCANDOLARA",
+          "Ana Júlia Dal Forno"
+        ],
+        "venue": "Revista Produção Online",
+        "abstract": "A digitalização tem impactado significativamente o desenvolvimento de produtos de moda, promovendo maior eficiência nos processos criativos e produtivos, além de contribuir para a redução de impactos ambientais. Nesse contexto, a modelagem tridimensional (3D) destaca-se como ferramenta estratégica ao possibilitar a prototipagem virtual, testes de caimento e ajustes sem a necessidade de múltiplas amostras físicas, reduzindo o consumo de materiais, energia e tempo produtivo e aproximando o setor dos princípios da Economia Circular. Apesar de seu potencial, a adoção da modelagem 3D ainda enfrenta desafios relacionados aos custos de aquisição, à necessidade de hardware avançado e às exigências de capacitação técnica, especialmente para pequenas empresas e designers independentes. Diante desse cenário, este estudo teve como objetivo avaliar comparativamente como as tecnologias de modelagem 3D apoiam a transformação digital e a sustentabilidade na indústria da moda, por meio da análise dos softwares CLO3D e Z-Weave. A metodologia adotada foi a Design Science Research (DSR), na qual foram definidos critérios de análise relacionados à usabilidade, curva de aprendizado, diferenças funcionais, fluidez operacional e etapas de desenvolvimento da modelagem. Os resultados indicaram que o CLO3D apresentou melhor desempenho em cinco critérios, enquanto o Z-Weave se destacou em três, evidenciando que a escolha da ferramenta depende das prioridades do usuário e do contexto produtivo. Os achados contribuem para a tomada de decisão de profissionais e empresas do setor, ao fornecer subsídios técnicos para a adoção de soluções digitais alinhadas à sustentabilidade.",
+        "pdf_url": "https://www.producaoonline.org.br/rpo/article/download/5789/2602",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7160215834",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Design de sapatos utilizando tecnologia de impressão 3D",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/101896",
+        "doi": null,
+        "year": 2014,
+        "authors": [
+          "Cássio Schmitz Felin"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "Este Trabalho de Conclusão de Curso em Design de Produto tem como objetivo o desenvolvimento de um sapato de salto alto. Devem ser utilizados materiais e processos convencionais da indústria calçadista, porém aliando esses à tecnologia de impressão 3D. A pesquisa monográfica é constituída primeiramente pelo estudo histórico e detalhado da evolução histórica dos sapatos e dos saltos através das mudanças sociais. Também, ao longo da pesquisa aprofundou-se o entendimento sobre os modelos tradicionais de sapatos, os componentes que fazem parte de um calçado, os materiais e processos de produção convencionais e ainda sobre as diferentes tecnologias de impressão 3D e suas características. Ao final da primeira etapa do projeto (TCC I) foi delimitado o mercado e o público alvo. O trabalho foi retomado na próxima etapa (TCC II), na qual ocorreu o desenvolvimento conceitual, criativo técnico e produtivo do sapato de salto, seguido dos resultados e conclusões do projeto. A metodologia empregada foi uma combinação de Back (2008) e Schaffer & Saunders (2012).",
+        "pdf_url": null,
+        "citation_count": 18,
+        "work_type": "thesis",
+        "identifier": "W153987254",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Framework integrado de gestão de design e pensamento enxuto na indústria da moda",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1982615x18462025021",
+        "doi": "10.5965/1982615x18462025021",
+        "year": 2025,
+        "authors": [
+          "Flaica Wippel Pinheiro",
+          "Júlio Monteiro Teixeira"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "O setor de moda enfrenta desafios crescentes para integrar as práticas de criação e produção de forma eficiente e ágil. Nesse contexto, a gestão de design e o pensamento enxuto (lean thinking) emergem como abordagens estratégicas complementares, capazes de promover a eliminação de desperdícios e o aumento da eficiência produtiva. Contudo, a literatura carece de modelos integradores que articulem ambas as práticas de forma estruturada e replicável. Este artigo propõe e valida um framework integrado de gestão de design e pensamento enxuto, destinado ao setor de moda. O framework é composto por três fases principais: diagnóstico, planejamento e implementação, cada uma delas subdividida em atividades estratégicas voltadas à redução de desperdícios e otimização dos processos de design e produção. A metodologia utilizada baseia-se nos princípios do design science research (DSR), que permitiram o desenvolvimento e a validação preliminar do framework por meio de sua aplicação prática em uma empresa de confecção localizada no Vale do Itajaí, Santa Catarina, Brasil. Os resultados apontam para uma redução de 20% nos retrabalhos, melhorias no fluxo operacional e aumento do índice de aprovação de protótipos. Esses achados destacam a aplicabilidade prática do framework, que pode ser replicado em outras empresas do setor de moda. Como contribuição teórica, o artigo avança ao propor um modelo integrador que permite maior sinergia entre a gestão de design e o pensamento enxuto, alinhando criação, elaboração e implementação. Por fim, sugere-se que pesquisas futuras validem o framework em empresas de diferentes portes e regiões, ampliando a generalização dos resultados.",
+        "pdf_url": "https://www.periodicos.udesc.br/index.php/modapalavra/article/download/26780/18713",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4411931974",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "APLICAÇÕES DA QUALIDADE 4.0 NA CONFECÇÃO TÊXTIL: EVIDÊNCIAS E OPORTUNIDADES NO CONTEXTO BRASILEIRO",
+        "source": "openalex",
+        "url": "https://doi.org/10.14488/enegep2026_tn_st_446_2238_53099",
+        "doi": "10.14488/enegep2026_tn_st_446_2238_53099",
+        "year": 2026,
+        "authors": [
+          "ANA JULIA DAL FORNO",
+          "Rosiane Serrano",
+          "LUIZA BATISTA SANTOS DE SOUZA",
+          "IZABELLE STEINHAUSER DE LARA"
+        ],
+        "venue": "Anais ... Encontro Nacional de Engenharia de Produção/Anais do Encontro Nacional de Engenharia de Produção",
+        "abstract": "A indstria txtil e de confeco apresenta desafios relacionados elevada dependncia de operaes manuais, baixa integrao digital e limitada rastreabilidade dos processos produtivos. Nesse contexto, as tecnologias associadas Indstria 4.0 vm impulsionando a transformao digital do setor, dando origem ao conceito de Confeco 4.0 e ampliando as possibilidades de aplicao da Qualidade 4.0 no ambiente industrial. Assim, este artigo teve como objetivo analisar oportunidades de aplicao da Qualidade 4.0 no setor de confeco txtil, considerando tecnologias associadas Quarta Revoluo Industrial e evidncias observadas em ambientes produtivos brasileiros. Os resultados evidenciaram baixa maturidade digital em diferentes etapas produtivas, especialmente nas operaes de corte e costura, caracterizadas por elevada dependncia de atividades manuais e limitada integrao entre processos. Por outro lado, identificaram-se oportunidades relevantes para incorporao de tecnologias como Internet das Coisas (IoT), sensores inteligentes, viso computacional, inteligncia artificial e monitoramento em tempo real, contribuindo para maior rastreabilidade, reduo de desperdcios, automao do controle da qualidade e melhoria do desempenho produtivo.",
+        "pdf_url": "http://www.abepro.org.br/biblioteca/TN_ST_446_2238_53099.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W7225053006",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "NOVAS TECNOLOGIAS E OS PARADIGMAS NO DESIGN DE ADORNOS PESSOAIS: CONCEITOS E EXPLORAÇÕES",
+        "source": "openalex",
+        "url": "https://doi.org/10.17771/pucrio.acad.48630",
+        "doi": "10.17771/pucrio.acad.48630",
+        "year": 2020,
+        "authors": [
+          "Thayane TAVARES"
+        ],
+        "venue": null,
+        "abstract": "As novas tecnologias trazem novos paradigmas para o design de adornos pessoais. Apesar da sua adoção, essas tecnologias são comumente empregadas para executar as mesmas formas de adornos produzidas em banca de ourives, portanto a inovação pode ficar limitada aos processos de fabricação. A tendência à virtualização do mundo físico também impõe novos desafios ao design de adornos. Esta pesquisa tem como objetivo trazer reflexões para o design de adornos sobre como as novas tecnologias podem contribuir para dar sentidos inovadores aos produtos. Para isso, apresenta e discute características específicas do design de adornos, assim mostrando o paradigma do emprego dessas tecnologias. Posto isso, delimita o escopo das novas tecnologias pertinentes à pesquisa, expondo seus efeitos e impactos no design de adornos. Com base em uma pesquisa documental, mostra o potencial expressivo dessas tecnologias através da seleção de casos. A seguir, através de uma revisão bibliográfica, analisa a mediação que o design pode fazer entre adornos pessoais e novas tecnologias. Em conjunto à contextualização, foram realizadas atividades de experimentação em realidade virtual, digitalização tridimensional e design computacional, que buscaram explorar o potencial dessas tecnologias de forma inovadora através do design. Os experimentos desenvolvidos demonstraram aspectos específicos das novas tecnologias abordadas e, em conjunto, esses procedimentos expuseram a relação entre elas e o processo de inovação de significados no design de adornos.",
+        "pdf_url": "https://www.maxwell.vrac.puc-rio.br/48630/48630.PDF",
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W4242254159",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "O design na indústria da moda no Brasil no século XXI: uma proposta de design colaborativo",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2017.tde-30102017-171831",
+        "doi": "10.11606/d.100.2017.tde-30102017-171831",
+        "year": 2017,
+        "authors": [
+          "Giselle da Costa Araújo"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This study is based in the actual experience of the author in the fashion market and refers to historical elements of the Brazilian Textile and Clothing industry. The impact of the globalized moment on the intricated context of Brazils contemporary fashion is approached in an exploratory manner through the point of view of a textile engineer and fashion designer. The dilemma faced by young designers when practicing design and their relationships with peers is discussed with the aim of introducing best practices inside the Apparel Industry of Brazil. It is relevant to discuss the role of the fashion designer as well as to investigate the product development processes in the Brazilian companies to stimulate dialogues between the different actors involved in the product development cycle, from concept to execution. The study proposes an integrated and interdisciplinary method of user centered design by means of collaborative platforms of Product Lifecycle Management (PLM) in Change Management Projects for Brazilian Apparel Industries",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-30102017-171831/publico/GISELLE_ARAUJO_DESIGN_COLABORATIVO.pdf",
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W2767234105",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Surface design: possible exchanges through algorithmic/parametric design processes",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/11449/242342",
+        "doi": null,
+        "year": 2023,
+        "authors": [
+          "Rodrigo Barbosa de [UNIFESP] Souza"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "As superfícies podem ser constituídas por uma variedade de combinações dos seus aspectos. Como resultado, existe uma polissemia eminente na ordem das variações. São cores, grafismos, padrões visuais/táteis, texturas e processos de fabricação que atuam em conjunto para constituir este ente. Desse modo, se inserem questões sobre a participação do digital e da programação via softwares computacionais, especialmente aqueles que lidam com a construção de código algorítmico e paramétrico. Dito isso, o objetivo deste trabalho é investigar e discutir as potencialidades/viabilidades da simulação virtual bi/tridimensional para a composição de superfícies por intermédio de algoritmos parametrizáveis. Para isso, os procedimentos metodológicos giraram em torno da revisão de literatura e experimentações práticas. Como resultados, foram discutidas as condições teóricas acerca do Design de Superfície como área do design por intermédio de construções práticas e plásticas ao que compete a manipulação da forma dentro dos softwares Rhinoceros e Grasshopper. Na conclusão, ficam destacadas quais são as possibilidades de manipulação da superfície dentro do digital paramétrico algorítmico e perspectivas futuras.",
+        "pdf_url": "https://repositorio.unesp.br/server/api/core/bitstreams/74128225-0624-4da6-97eb-6a488aacd264/content",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7120785335",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "ELEMENTOS INICIAIS PARA A ANÁLISE DO PROCESSO DE CORTE DO LAMINADO EM UMA EMPRESA DE AUTOPEÇAS",
+        "source": "openalex",
+        "url": "https://doi.org/10.22533/at.ed.3562210012",
+        "doi": "10.22533/at.ed.3562210012",
+        "year": 2022,
+        "authors": [
+          "Sheila Valentina Corona Hernández",
+          "José Adrián Trevera Juárez"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": "https://www.atenaeditora.com.br/catalogo/download-file/4726",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4206246072",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Pesquisas em design, gestão e tecnologia de têxtil e moda: 2º semestre de 2014",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/9788564842243",
+        "doi": "10.11606/9788564842243",
+        "year": 2023,
+        "authors": [
+          "Isabel Cristina Italiano",
+          "João Paulo Marcicano",
+          "Júlia Baruque-Ramos",
+          "Maria Sílvia Barros de Held",
+          "Regina Aparecida Sanches"
+        ],
+        "venue": "Universidade de São Paulo. Escola de Artes, Ciências e Humanidades eBooks",
+        "abstract": "Este livro trata de pesquisas e metodologias de projeto para o design de moda.",
+        "pdf_url": "https://www.livrosabertos.sibi.usp.br/portaldelivrosUSP/catalog/download/72/63/304",
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "W2477801527",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Estudo da melhoria de um utensílio de auxílio à alimentação para portadores da Doença de Parkinson com base na integração das metodologias QFD e TRIZ",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.18.2015.tde-31082021-145050",
+        "doi": "10.11606/d.18.2015.tde-31082021-145050",
+        "year": 2015,
+        "authors": [
+          "Artur Valadares de Freitas Santos"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This work presents the improvement process of an eating utensil for individuals with some degree of tremor in the hands, through the integration of the design methodologies QFD and TRIZ, and the use of additive manufacturing during the conceptual design. Population aging and other various situations that cause temporary or permanent disability of individuals, both regional and global scale, generate a growing demand for products in assistive technology. These products must offer engineering solutions based in decision-making held with multidisciplinary teams, with some degree of customization. In this context, the use of the methodologies House of Quality - QFD and TRIZ can help both the multidisciplinary effort, as the technical decisions taken during the early stages of design development, promoting innovation possibilities. The aim of this work is to present the process of integration between the QFD and TRIZ to obtain technical partial solutions, with some degree of innovation, and the functional prototype of an eating utensil for people with Parkinson\\'s Disease or other neurological disorders that affects hand movements and, therefore, the task of feeding. The design enhancements to the utensil were: an essentially mechanical system, which allows ease of use and of replacement and maintenance of the parts; use of a nontoxic fluid (water) to promote the balance of the tremors from hands; improved hand contact area with greater thermal and ergonomic comfort to the user. The use of additive manufacturing, yet at the stage of conceptual design, allowed the generation of a functional prototype for visual and technical evaluations of the designed solutions, reinforcing the importance of its use in the design development process.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/18/18146/tde-31082021-145050/publico/DissertSantosArturValadaresdeFCorrig.pdf",
+        "citation_count": 5,
+        "work_type": "thesis",
+        "identifier": "W3198498295",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Prototipagem Virtual: Softwares 3D para Modelagem de Vestuário",
+        "source": "crossref",
+        "url": "https://doi.org/10.5433/2236-2207.2024.v15.n3.50575",
+        "doi": "10.5433/2236-2207.2024.v15.n3.50575",
+        "year": 2024,
+        "authors": [
+          "Silvia Cristina Silveira dos Santos",
+          "Icléia Silveira",
+          "Sandra Regina Rech"
+        ],
+        "venue": "Projetica",
+        "abstract": "O objetivo desta pesquisa foi elencar softwares 3D aplicados ao desenvolvimento de modelagem do vestuário, prototipagem virtual e geração de moldes para uso na indústria de vestuário. Para isso foi feita uma pesquisa básica, com abordagem qualitativa e descritivo. Foi utilizada a revisão teórica de literatura por meio de artigos científico, livros, relatório de tendências, sites de empresas de tecnologia e dissertações. Como resultado foi listado os softwares de modelagem 3D, sites de lojas de ativos digitais para softwares de assim como alguns softwares de modelagem 2D de código aberto. Constatou-se que a indústria de vestuário está iniciando a transição para às tecnologias digitais e os profissionais de desenvolvimento de produto precisam de novas habilidades e novas competências.",
+        "pdf_url": "https://ojs.uel.br/revistas/uel/index.php/projetica/article/download/50575/51429",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5433/2236-2207.2024.v15.n3.50575",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Estadual de Londrina"
+        }
+      },
+      {
+        "title": "Modelagem virtual e prototipagem rápida aplicadas em projeto de arquitetura",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.18.2011.tde-07042011-110243",
+        "doi": "10.11606/d.18.2011.tde-07042011-110243",
+        "year": 2015,
+        "authors": [
+          "Marina Rodrigues de Oliveira"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.18.2011.tde-07042011-110243",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Prototipagem virtual: modelagem, simulação, controle e otimização de dinâmica veicular",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/t.18.2016.tde-18022016-103409",
+        "doi": "10.11606/t.18.2016.tde-18022016-103409",
+        "year": 2017,
+        "authors": [
+          "Frederico Augusto Alem Barbieri"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/t.18.2016.tde-18022016-103409",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "INOVAÇÃO NO PROCESSO DE DESIGN DE JOIAS ATRAVÉS DA MODELAGEM 3D E DA PROTOTIPAGEM RÁPIDA",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.14760",
+        "doi": "10.17771/pucrio.acad.14760",
+        "year": 2015,
+        "authors": [
+          "IDA ELISABETH BENZ"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.14760",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "ESTUDO DE CASO: MODELAGEM VIRTUAL E PROTOTIPAGEM APLICADA EM UM GUINDASTE DE PALITO DE PICOLÉ",
+        "source": "crossref",
+        "url": "https://doi.org/10.57209/e-locucao.v1i22.507",
+        "doi": "10.57209/e-locucao.v1i22.507",
+        "year": 2022,
+        "authors": [
+          "MATHEUS COSTA PEREIRA",
+          "PEDRO JOSÉ PAPANDRÉA"
+        ],
+        "venue": "Revista Científica e-Locução",
+        "abstract": "Com a utilização de sistemas de Computer-aided desig (CAD) e Computer-aided Engineering (CAE) com a utilização do Finite elemento method (FEA). Um guindaste físico foi construído de forma aproximadamente igual ao desenvolvido e estudado virtualmente para comparação e comprovação da eficiência e eficácia dos valores encontrados durante a simulação, esta etapa possibilitou aplicação direta da teoria na prática. Este guindaste teve como matéria prima palitos de picolés de madeira (GPP) com objetivo de suportar uma carga superior a 30 kg, aproximadamente cem vezes o peso da estrutura. O desenvolvimento foi baseado em sistemas de treliças que facilitam a aderência e o desenvolvimento do projeto. A construção ficou limitada por conta de restrições existentes, mas, não foi um impasse para esse desenvolvimento com resultados significativos e maiores do que o esperado durante o desenho. O resultado alcançado com o uso da ferramenta CAE foi altamente preciso quando replicado no protótipo físico.",
+        "pdf_url": "https://periodicos.faex.edu.br/index.php/e-Locucao/article/download/507/334",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.57209/e-locucao.v1i22.507",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Faculdade de Ciencias Sociais Aplicadas de Extrema"
+        }
+      },
+      {
+        "title": "VESTUÁRIO INDUSTRIALIZADO: USO DA ERGONOMIA NAS FASES DE GERÊNCIA DE PRODUTO, CRIAÇÃO, MODELAGEM E PROTOTIPAGEM",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.18873",
+        "doi": "10.17771/pucrio.acad.18873",
+        "year": 2015,
+        "authors": [
+          "LUCAS DA ROSA"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.18873",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "Estética Empírica: Uso de Modelagem 3D para Avaliações Perceptuais",
+        "source": "crossref",
+        "url": "https://doi.org/10.5151/9786555501421-08",
+        "doi": "10.5151/9786555501421-08",
+        "year": 2022,
+        "authors": [
+          "Thamyres Oliveira Clementino",
+          "Amilton J. V. Arruda",
+          "Itamar Ferreira da Silva",
+          "Ariadna Thalia da Silva Oliveira"
+        ],
+        "venue": "Design &amp; Narrativas Criativas nos Processos de Prototipagem",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.5151/9786555501421-08",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Editora Blucher"
+        }
+      },
+      {
+        "title": "MODELAGEM 3D E PROTOTIPAGEM RÁPIDA NA PRODUÇÃO DE JOIAS COM MATERIAIS ALTERNATIVOS",
+        "source": "crossref",
+        "url": "https://doi.org/10.22533/at.ed.24120270710",
+        "doi": "10.22533/at.ed.24120270710",
+        "year": 2020,
+        "authors": [
+          "Bárbara de Cássia Xavier Cassins Aguiar",
+          "Giancarlo de França Aguiar",
+          "Eduardo Augusto Goldbach"
+        ],
+        "venue": "Engenharia Gráfica para Artes e Design: Interfaces e Aplicabilidades",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.22533/at.ed.24120270710",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Atena Editora"
+        }
+      },
+      {
+        "title": "Desenvolvimento de processo de prototipagem rápida via modelagem por deposição de formas livres sob temperatura ambiente de materiais alternativos.",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/t.3.2008.tde-02022009-181211",
+        "doi": "10.11606/t.3.2008.tde-02022009-181211",
+        "year": 2015,
+        "authors": [
+          "Valdemir Martins Lira"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/t.3.2008.tde-02022009-181211",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "ENSINO DE MODELAGEM E PROTOTIPAGEM 3D DE PERSONAGENS COMO FERRAMENTA LÚDICA NO DIA A DIA DAS CRIANÇAS DO ENSINO FUNDAMENTAL",
+        "source": "crossref",
+        "url": "https://doi.org/10.51189/cinped2023/28489",
+        "doi": "10.51189/cinped2023/28489",
+        "year": 2023,
+        "authors": [
+          "Fernanda Siqueira Freitas",
+          "CRISTIANO CORRÊA FERREIRA"
+        ],
+        "venue": "Anais do II Congresso Brasileiro On-line de Pesquisa e Inovação em Educação",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.51189/cinped2023/28489",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Revista Multidisciplinar de Educação e Meio Ambiente"
+        }
+      },
+      {
+        "title": "Manufatura aditiva : desenvolvimento de uma máquina de prototipagem rápida baseada na tecnologia FDM (modelagem por fusão e deposição)",
+        "source": "crossref",
+        "url": "https://doi.org/10.26512/2011.07.tcc.15472",
+        "doi": "10.26512/2011.07.tcc.15472",
+        "year": 2026,
+        "authors": [
+          "Bruno Ribeiro Raulino"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.26512/2011.07.tcc.15472",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Biblioteca Central da UNB"
+        }
+      },
+      {
+        "title": "USO DA MODELAGEM E PROTOTIPAGEM PARA CRIAÇÃO DE PRÓTESE HUMANA",
+        "source": "crossref",
+        "url": "https://doi.org/10.36238/2359-5787.2026.v12n65.2472",
+        "doi": "10.36238/2359-5787.2026.v12n65.2472",
+        "year": 2026,
+        "authors": [
+          "Lucas Larussa"
+        ],
+        "venue": "Revista Acadêmica Online",
+        "abstract": "A inadequação das próteses convencionais em atender às especificações anatômicas e funcionais de cada paciente tem impulsionado a busca por soluções mais personalizadas e precisas. Esse estudo explora os impactos benéficos dessas tecnologias interconectadas, destacando sua capacidade de traduzir a anatomia individual em próteses altamente adaptáveis e ergonômicas. O mapeamento matemático para criação de um modelo tridimensional de prótese e manufatura aditiva na confecção de próteses para membros inferiores surge como uma abordagem inovadora e crucial no âmbito da medicina e engenharia. A malha matemática para criação de um modelo tridimensional de prótese envolve uma série de etapas que podem variar dependendo das especificidades do caso e das tecnologias disponíveis. A digitalização da anatomia é usada para criar um modelo digital da área do corpo que necessita da prótese. A confluência da medicina e engenharia nesse cenário contribui para o avanço tecnológico e a redefinição dos padrões de reabilitação protética, sinalizando um horizonte promissor na área de saúde e bem-estar.",
+        "pdf_url": "https://revistaacademicaonline.com/index.php/rao/article/download/2472/1956",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.36238/2359-5787.2026.v12n65.2472",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Brazilian Journals"
+        }
+      },
+      {
+        "title": "APLICAÇÃO DA MODELAGEM 3D PARA PROTOTIPAGEM EM ELETRÔNICA APLICADA E USINAGEM NOS CURSOS DE ENGENHARIAS",
+        "source": "crossref",
+        "url": "https://doi.org/10.51189/cinped/12405",
+        "doi": "10.51189/cinped/12405",
+        "year": 2022,
+        "authors": [
+          "paulo sidnei Stringhini Junior",
+          "JÚLIO CÉSAR STRINGHINI",
+          "LEANDRO MADEIRA DE OLIVEIRA",
+          "MOISES FELIPE RIBEIRO DOS"
+        ],
+        "venue": "Anais do I Congresso Brasileiro On-line de Pesquisas e Inovação em Educação",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.51189/cinped/12405",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Revista Multidisciplinar de Educação e Meio Ambiente"
+        }
+      },
+      {
+        "title": "TECNOLOGIAS DE PROTOTIPAGEM APLICADA NA DIDÁTICA TRADICIONAL: MODELAGEM 3D E DESENHO TÉCNICO",
+        "source": "crossref",
+        "url": "https://doi.org/10.54751/revistafoco.v17n5-176",
+        "doi": "10.54751/revistafoco.v17n5-176",
+        "year": 2024,
+        "authors": [
+          "Vinícius Fracasso da Silva",
+          "Letícia dos Santos Aguilera",
+          "Juliana Lopes Ribeiro",
+          "Huana Lima Corrêa",
+          "Damiano da Silva Militao",
+          "Vinicius Carvalho Monnerat Bandeira"
+        ],
+        "venue": "REVISTA FOCO",
+        "abstract": "Estudos sobre disciplinas clássicas e regidas por normas regulamentadoras como é o caso da disciplina Desenho Técnico, fundamental em inúmeros cursos técnicos e de graduação e que permite, através de representações bidimensionais, feitas, geralmente, em folhas de papel o desenvolvimento dos mais variados tipos de maquinários e objetos. Utilizando recursos modernos da prototipagem, administrou-se uma aula de desenho técnico com foco em aprendizado ativo com uso de ferramentas de metrologia e prototipagem, na qual os alunos são expostos a uma determinada peça e devem realizar o desenho 2D da mesma, abordando diversas vistas como a Frontal, Lateral e Superior, determinando todas as cotas, cortes, espaços vazios e demais itens que compõem uma peça e são informações essenciais para fabricação, após a realização do desenho 2D em uma folha de desenho técnico, é feito a modelagem 3D no computador, realizado uma inspeção e transformação da modelagem para o Código G, onde o objeto modelado se torna linhas de comando que permitirão a impressora 3D fazer a impressão da peça. Esta série de conhecimentos sobre o processo de produção de equipamentos obteve aprovação unânime por parte discente.",
+        "pdf_url": "https://ojs.focopublicacoes.com.br/foco/article/download/5266/3773",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.54751/revistafoco.v17n5-176",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "South Florida Publishing LLC"
+        }
+      },
+      {
+        "title": "Modelagem do Vestuário: Catalogação de Técnicas e Métodos",
+        "source": "crossref",
+        "url": "https://doi.org/10.5151/9786555501421-18",
+        "doi": "10.5151/9786555501421-18",
+        "year": 2022,
+        "authors": [
+          "Régis Puppim",
+          "Danielle Paganini Beduschi"
+        ],
+        "venue": "Design &amp; Narrativas Criativas nos Processos de Prototipagem",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.5151/9786555501421-18",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Editora Blucher"
+        }
+      },
+      {
+        "title": "Prototipagem rápida com modelagem 3D para reprodutibilidade de órgãos e aplicação no ensino de anatomia",
+        "source": "crossref",
+        "url": "https://doi.org/10.54033/cadpedv21n10-330",
+        "doi": "10.54033/cadpedv21n10-330",
+        "year": 2024,
+        "authors": [
+          "Vitor Caiaffo Brito",
+          "José Albertino Corrêa da Silva Junior",
+          "Rute do Nascimento Silva",
+          "Lucas José Garcia",
+          "Belisa Duarte Ribeiro de Oliveira"
+        ],
+        "venue": "Caderno Pedagógico",
+        "abstract": "Introdução: Na tentativa de suprir a falta de modelos anatômicos para serem trabalhados no ensino da anatomia humana, as tecnologias configuram-se como principais protagonistas de estratégias que envolvem o uso de modelos digitalizados por meio de impressoras 3D, o que gera bons resultados no que diz respeito à precisão, resolução e verossimilhança das peças criadas através de scanners e técnicas digitais, obtendo-se, dessa forma, benefícios para o ensino da anatomia humana. Objetivo: Reproduzir órgãos anatômicos com a impressão 3D para sua aplicação no ensino de anatomia humana. Metodologia: Os membros do presente trabalho foram docente do curso de medicina e discentes e docente do curso de Design do Campus Agreste da Universidade Federal de Pernambuco. Inicialmente, modelos sintéticos foram fotografados servirem de modelos. Em seguida, imagens foram modeladas com o software Blender e impressos em impressora 3D Sethi S4x. Após a impressão, os modelos passaram pelo processo de acabamento com lixamento, retirada de rebarbas e artefatos e pintura para identificação de segmentos e estruturas anatômicas. Resultados: O presente trabalho modelou e imprimiu ossos da clavícula, faces súpero-laterais do telencéfalo, estômago, fígado, rins e bexiga urinária. Em cada protótipo impresso é possível a visualização das faces e bordas anatômicas, lobos, impressões, acidentes ósseos, sulcos e giros (circunvoluções). Conclusões: A tecnologia utilizada conseguiu reproduzir os órgãos com suas principais características morfológicos. Ou seja, reproduziu com fidedignidade as estruturas anatômicas e estas podem ser aplicadas ao ensino da anatomia nos diversos cursos das áreas de saúde e ciências biológicas.",
+        "pdf_url": "https://ojs.studiespublicacoes.com.br/ojs/index.php/cadped/article/download/9770/5652",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.54033/cadpedv21n10-330",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "South Florida Publishing LLC"
+        }
+      },
+      {
+        "title": "Prototipagem rapida de sistemas mecatronicos baseada em instrumentação virtual",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2008.439603",
+        "doi": "10.47749/t/unicamp.2008.439603",
+        "year": 2021,
+        "authors": [
+          "Edgard de Oliveira"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2008.439603",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Tangibilizando o Intangível: Experimentos em Modelagem De Serviços Brasil-Itália",
+        "source": "crossref",
+        "url": "https://doi.org/10.5151/9786555501421-02",
+        "doi": "10.5151/9786555501421-02",
+        "year": 2022,
+        "authors": [
+          "Pablo Torres",
+          "Eduardo Jorge Neves"
+        ],
+        "venue": "Design &amp; Narrativas Criativas nos Processos de Prototipagem",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.5151/9786555501421-02",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Editora Blucher"
+        }
+      },
+      {
+        "title": "Prototipagem virtual sonora aplicada a ruido de martelamento de pneumaticos automotivos",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2009.440628",
+        "doi": "10.47749/t/unicamp.2009.440628",
+        "year": 2021,
+        "authors": [
+          "Rafael Rogora Kawano"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2009.440628",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Modelagem paramétrica e prototipagem rápida no ensino de Expressão Gráfica",
+        "source": "crossref",
+        "url": "https://doi.org/10.51359/2595-0797.2021.250799",
+        "doi": "10.51359/2595-0797.2021.250799",
+        "year": 2021,
+        "authors": [
+          "Elton Lima",
+          "Leticia Mendes",
+          "Cristiana Griz"
+        ],
+        "venue": "Revista Geometria Gráfica",
+        "abstract": "A inserção de novas tecnologias em várias áreas de atuação tem sido cada vez mais frequente e acelerada. Com o intuito de acompanhar essa crescente incorporação na rotina profissional do arquiteto, vê-se a necessidade da inclusão, também, no processo didático ao longo da formação profissional. O desenho é um meio de comunicação e pode ser feito de forma tradicional ou digital. Para isso, quanto maior o conhecimento e aplicação das propriedades e maneiras de representar formas geométricas, maior é a liberdade criativa do indivíduo. Este trabalho propõe a introdução do conceito de um sistema generativo de projeto (Gramática da Forma), aliado a modelagem paramétrica e a prototipagem rápida para dar suporte ao ensino de temas de geometria gráfica. A inserção da parametrização foi feita em um experimento, utilizando o software Rhinoceros e o plug-in Grasshopper, que vinculou o conteúdo de polígonos à concepção de cobogós por meio de uma gramática da forma paramétrica. O experimento mostrou que a modelagem paramétrica, ainda que se utilize das tecnologias computacionais, requer conhecimentos de geometria gráfica para explorar as potencialidades de maneira consciente e eficiente.",
+        "pdf_url": "https://periodicos.ufpe.br/revistas/geometriagrafica/article/viewFile/250799/38465",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.51359/2595-0797.2021.250799",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Federal de Pernambuco"
+        }
+      },
+      {
+        "title": "TECNOLOGIAS DE PROTOTIPAGEM APLICADA NA DIDÁTICA TRADICIONAL MODELAGEM 3D E DESENHO TÉCNICO",
+        "source": "crossref",
+        "url": "https://doi.org/10.29327/1298891.4-223",
+        "doi": "10.29327/1298891.4-223",
+        "year": 2023,
+        "authors": [
+          "Vinícius Fracasso da Silva",
+          "Juliana Lopes Ribeiro",
+          "Leticia dos Santos Aguilera",
+          "Damiano da Silva Militao",
+          "Huana Lima Correa"
+        ],
+        "venue": "Anais do Congresso Brasileiro Interdisciplinar em Ciência e Tecnologia",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.29327/1298891.4-223",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "Análise da estabilidade direcional através de prototipagem virtual e sistema ativo de controle lateral",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.18.2005.tde-10012006-095110",
+        "doi": "10.11606/d.18.2005.tde-10012006-095110",
+        "year": 2015,
+        "authors": [
+          "Felipe Firmo"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.18.2005.tde-10012006-095110",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "PROTOTIPAGEM 3D APLICADA EM PROJETOS DE INOVAÇÃO MECÂNICA",
+        "source": "crossref",
+        "url": "https://doi.org/10.29327/9786527225041.1439809",
+        "doi": "10.29327/9786527225041.1439809",
+        "year": 2026,
+        "authors": [
+          "Leandro Nagata"
+        ],
+        "venue": "Anais da 4ª Mostra Científica - SESI/SENAI/SC",
+        "abstract": null,
+        "pdf_url": "https://static.even3.com/anais/1439809.pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.29327/9786527225041.1439809",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "Desenvolvimento de embalagem biodegradável e ativa para produtos lácteos (iogurte) com prototipagem por impressão 3D",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.85.2025.tde-23022026-153514",
+        "doi": "10.11606/d.85.2025.tde-23022026-153514",
+        "year": 2026,
+        "authors": [
+          "Gustavo Ferreira Souza"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.85.2025.tde-23022026-153514",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Design de Contrabaixo Elétrico e Aplicação da Prototipagem 3D",
+        "source": "crossref",
+        "url": "https://doi.org/10.5151/despro-sigradi2016-564",
+        "doi": "10.5151/despro-sigradi2016-564",
+        "year": 2017,
+        "authors": [
+          "Letícia Alló",
+          "Ana Veronica Pazmino"
+        ],
+        "venue": "Blucher Design Proceedings",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5151/despro-sigradi2016-564",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Editora Blucher"
+        }
+      }
+    ]
+  },
+  "count": 37,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:08:40.151368+00:00"
+}

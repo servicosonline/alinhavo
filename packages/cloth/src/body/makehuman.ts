@@ -394,6 +394,9 @@ const vy = (pos: Float32Array, i: number) => pos[i * 3 + 1]!;
  * Com `anchors`, as alturas vêm dos mesmos vértices de uma medição anterior
  * (para derivar sem pular de lugar); sem, elas são procuradas.
  */
+/** Onde a fita mede o braço: frações do ombro ao cotovelo, na região do bíceps. */
+export const BICEPS_AT = [0.45, 0.5, 0.55, 0.6] as const;
+
 export function measureShape(asset: MakeHumanAsset, pos: Float32Array, anchors?: Anchors): ShapeMeasure {
   const topo = topology(asset);
   const tri = asset.triangles;
@@ -540,7 +543,9 @@ export function measureShape(asset: MakeHumanAsset, pos: Float32Array, anchors?:
     coxa: avg((s) => perimAt(s.thigh, crotch - 0.02 * H)),
     joelho: avg((s) => perimAt(s.leg, s.kn.y)),
     tornozelo: avg((s) => perimAt(s.thigh, s.an.y + a.ankleDy)),
-    braco: avg((s) => Math.max(...[0.3, 0.4, 0.5].map((t) => planePerim(s.arm, lerp(s.sh, s.el, t), dir(s.sh, s.el), 90)))),
+    // Braço: a volta mais larga do bíceps (45% a 60% do ombro ao cotovelo). Mais perto do ombro o corte pega o
+    // deltoide e a axila, e o ajuste afinava o braço inteiro para baixar essa volta.
+    braco: avg((s) => Math.max(...BICEPS_AT.map((t) => planePerim(s.arm, lerp(s.sh, s.el, t), dir(s.sh, s.el), 90)))),
   };
   return {
     values,

@@ -1,0 +1,155 @@
+[
+  {
+    "cluster_id": "prototipagem-virtual-3d-vs-piloto-fisica",
+    "fight": "Até que ponto a prototipagem virtual 3D (CLO3D, Browzwear, Audaces 3D) substitui a peça-piloto física e reduz o retrabalho da modelista no processo produtivo?",
+    "side_a": {
+      "position": "A simulação virtual 3D reduz drasticamente o tempo de desenvolvimento de amostras e o custo de múltiplas iterações físicas, permitindo que a modelista identifique problemas preliminares de comprimento, largura, forma, tensão e alinhamento de costuras antes de cortar o tecido real.",
+      "claims": [
+        "3D simulation technology can reduce sample development time, and save the cost of multiple iterations of samples because the virtual fitting can help to fix the patterns through quick simulations of the fit and real-time pattern change, before making actual samples.",
+        "A utilização das ferramentas da Indústria 4.0 (CAD 3D e prototipagem virtual) otimiza a etapa de aprovação de protótipos no setor do vestuário, diminuindo o desperdício de matéria-prima e o tempo de pilotagem."
+      ],
+      "sources": [
+        "tekstilna-industrija-broj-4-2021",
+        "utilização-das-ferramentas-da-indústria-40-para-a-prototipagem-no-setor-de-vestu",
+        "innovation-in-cad-3d-simulation-and-virtual-prototyping-at-itma-2023-journal-of"
+      ]
+    },
+    "side_b": {
+      "position": "A prototipagem 3D possui limitações críticas na representação das propriedades físico-mecânicas reais dos tecidos (flexão, cisalhamento, peso, elasticidade pós-lavanderia), na triangulação de malhas quando contornos 2D são editados e na avaliação sensorial/tátil e dinâmica do caimento (ex.: postura sentada que eleva a distorção para 120%), exigindo ainda a peça-piloto física e modelos de prova humanos para validação final.",
+      "claims": [
+        "However, if the boundary lines of a 2D pattern have been modified, the 2D pattern cannot be mapped directly. Otherwise, gaps and overlaps will probably occur in the meshes of the resulting fine garment.",
+        "Garments for a sitting posture cannot be developed on a standing 3D body model, as there are differences in the position of the construction line of the knee, the length of the pants and the circumference of the pants around the hips and thighs (120% distortion in sitting pose).",
+        "Differences remain between virtual and real garments regarding distance ease and appearance due to complex mechanical fabric behavior and dynamic human body interaction."
+      ],
+      "sources": [
+        "tekstilna-industrija-broj-4-2021",
+        "comparative-study-of-real-and-virtual-garments-appearance-and-distance-ease-mate",
+        "drape-simulation-of-three-dimensional-virtual-garment-enabling-fabric-properties",
+        "apparel-fit-language-suited-to-3d-body-processing-ecosystems"
+      ]
+    },
+    "evidence_quality_delta": "Ambos os lados possuem forte evidência empírica experimental; Side B demonstra com medições quantitativas (mapas de tensão de 120% e comparativos real vs. virtual) que o 3D funciona como filtro preliminar, mas não elimina a pilotagem física nem o julgamento tácito da modelista.",
+    "scope_overlap": "Complementaridade condicional: o 3D resolve erros grosseiros de proporção e posicionamento de costuras na primeira triagem (Side A), mas falha na validação fina de conforto dinâmico, toque e propriedades mecânicas complexas (Side B).",
+    "decision_relevance": "high"
+  },
+  {
+    "cluster_id": "normalizacao-abnt-vs-realidade-antropometrica-e-mercado",
+    "fight": "As normas técnicas da ABNT (NBR 16933:2021, NBR 16060, NBR 15800) resolvem a padronização de medidas e gradação na modelagem brasileira ou permanecem desconectadas da realidade antropométrica e das práticas das confecções?",
+    "side_a": {
+      "position": "Os referenciais da ABNT (como a atualização da NBR 13377:1995 para a NBR 16933:2021 no vestuário feminino e NBR 16060 no masculino) constituem o instrumento técnico essencial para normalizar a comunicação de tamanhos, orientar a construção de bases e reduzir a assimetria de informação entre confecção e consumidor.",
+      "claims": [
+        "Com o objetivo de padronizar as unidades de medidas do vestuário, a ABNT disponibiliza referenciais normativos fundamentados em levantamentos antropométricos (SizeBR) para orientar a modelagem e a gradação industrial.",
+        "A substituição da NBR 13377:1995 pela NBR 16933:2021 trouxe avanços na classificação de biótipos (como o biótipo colher predominante na população feminina brasileira) e maior detalhamento de perímetros corporais."
+      ],
+      "sources": [
+        "referenciais-de-medidas-da-abnt-instrumento-para-a-normalização-do-produto-de-ve",
+        "comparação-ergonômica-e-antropométrica-das-tabelas-abnt-para-vestuário-feminino"
+      ]
+    },
+    "side_b": {
+      "position": "Como a adoção das normas ABNT não é compulsória e as tabelas lineares não capturam a diversidade morfológica real (especialmente nos segmentos plus size, gestantes, idosos e infantil), as confecções operam com tabelas próprias arbitrárias ('vanity sizing') e regras de gradação que distorcem o molde a cada tamanho, gerando uma das maiores dores crônicas da modelista.",
+      "claims": [
+        "A sistematização de medidas de vestuário no Brasil enfrenta baixa adesão industrial, fazendo com que cada marca adote sua própria grade comercial e dificultando o trabalho de padronização da modelista.",
+        "No segmento plus size, infantil e para idosas, a simples ampliação/gradação linear a partir de bases padrão (tamanho 40/M) gera graves falhas de vestibilidade, exigindo bases específicas para diferentes biótipos e faixas etárias."
+      ],
+      "sources": [
+        "universidade-de-são-paulo-7",
+        "a-importância-das-bases-de-modelagem-no-desenvolvimento-de-vestuário-plus-size-u",
+        "uma-reflexão-sobre-modelagem-e-ergonomia-considerando-a-forma-do-corpo-gordo-fem",
+        "a-relação-da-modelagem-do-vestuário-para-diferentes-biótipos-revista-eixos-tech",
+        "ergonomia-do-vestuário-para-idosas-de-60-a-75-anos-ergodesign-hci"
+      ]
+    },
+    "evidence_quality_delta": "Side B conta com múltiplos estudos empíricos e teses (USP, UFSC, IFSC, IFSULDEMINAS) provando que tanto a ausência de obrigatoriedade normativa quanto a inadequação da gradação cartesiana para corpos fora do padrão sobrecarregam diretamente a modelista.",
+    "scope_overlap": "Desacordo prático direto: a norma existe no plano prescritivo (Side A), mas falha na implementação industrial e nos extremos da grade (Side B).",
+    "decision_relevance": "high"
+  },
+  {
+    "cluster_id": "modelagem-plana-cad-vs-moulage-tridimensional",
+    "fight": "Qual método de desenvolvimento de moldes oferece melhor precisão de caimento e eficiência industrial para a modelista: a modelagem plana (geométrica/CAD 2D) ou a modelagem tridimensional (moulage/draping)?",
+    "side_a": {
+      "position": "A modelagem plana industrial (especialmente integrada a sistemas CAD 2D como Audaces, Lectra e Gerber) é indispensável para a produção seriada por garantir precisão matemática nas cotas, rapidez na gradação e eficiência no encaixe e aproveitamento de tecido.",
+      "claims": [
+        "A modelagem plana industrial sistematiza o processo produtivo em larga escala, permitindo controle exato de medidas, folgas, piques e integração direta com a gradação e o encaixe automatizado."
+      ],
+      "sources": [
+        "modelagem-plana-industrial-do-vestuário-diretrizes-para-a-indústria-do-vestuár-2",
+        "análise-da-formação-dos-profissionais-do-setor-de-modelagem-do-vestuário-da-regi",
+        "universidade-de-são-paulo-6"
+      ]
+    },
+    "side_b": {
+      "position": "A modelagem plana depende de abstração espacial bidimensional que frequentemente falha em artigos de malha de alta compressão, peças assimétricas ou formas complexas, enquanto a moulage (modelagem tridimensional sobre o manequim) permite visualizar imediatamente o comportamento do tecido, as linhas de tensão e a ergonomia real antes da planificação.",
+      "claims": [
+        "Estudos comparativos entre modelagem plana e modelagem tridimensional (moulage) demonstram que a abordagem tridimensional facilita a compreensão imediata da anatomia corporal, elasticidade da malha e caimento real, reduzindo erros de interpretação de croqui."
+      ],
+      "sources": [
+        "modelagem-plana-x-modelagem-tridimensional-estudo-comparativo-em-artigos-de-malh",
+        "intervenção-pedagógica-em-modelagem-construindo-a-base-do-corpo-feminino-sob-um",
+        "metodologias-colaborativas-do-design-para-modelagem-plana-do-vestuário-revista-d"
+      ]
+    },
+    "evidence_quality_delta": "Evidência empírica equivalente; a literatura aponta que o método híbrido (moulage para concepção/ajuste anatômico + planificação e digitalização em CAD 2D para gradação e encaixe) supera o uso isolado de qualquer técnica.",
+    "scope_overlap": "Escopos complementares por tipo de produto e etapa do processo (concepção do protótipo vs. escalonamento industrial).",
+    "decision_relevance": "high"
+  },
+  {
+    "cluster_id": "comunicacao-criacao-modelagem-desenho-tecnico",
+    "fight": "A falha na tradução do produto entre criação (estilista) e modelagem decorre principalmente de limitações técnicas da modelista na interpretação ou da precariedade dos desenhos técnicos e fichas técnicas entregues pelo estilo?",
+    "side_a": {
+      "position": "Estudos com modelistas na indústria revelam que a maior fonte de erro, atraso e retrabalho na pilotagem decorre de desenhos técnicos incompletos, desproporcionais, sem vistas posteriores/internas, sem indicação de recortes, pespontos ou propriedades do tecido enviados pelos designers/estilistas.",
+      "claims": [
+        "O desenho técnico de moda frequentemente chega ao setor de modelagem com omissões críticas de representação gráfica e cotas, obrigando o modelista a adivinhar proporções ou interromper o fluxo para consultar o estilista.",
+        "A incompletude das especificações e partes do desenho técnico compromete a otimização do processo produtivo e a comunicação entre criação e modelagem nas confecções."
+      ],
+      "sources": [
+        "o-desenho-técnico-do-vestuário-sob-a-ótica-do-modelista-projetica",
+        "desenho-técnico-de-moda-e-suas-funções-na-confecção-do-vestuário-revista-da-meta",
+        "delimitação-do-usuário-nas-etapas-de-criação-modelagem-e-prototipagem-do-produto"
+      ]
+    },
+    "side_b": {
+      "position": "Por outro lado, pesquisas sobre formação de modelistas mostram que muitos profissionais no Brasil aprenderam o ofício de forma prática no chão de fábrica (ex-costureiras/cortadores) com lacunas em metodologia de projeto, leitura de tendências, ergonomia sistematizada e operação avançada de softwares CAD, dificultando o diálogo com o design.",
+      "claims": [
+        "Grande parte dos modelistas atuantes na indústria do vestuário possui formação eminentemente empírica ou cursos livres curtos, apresentando carências na integração interdisciplinar com o design de moda e com novas tecnologias digitais."
+      ],
+      "sources": [
+        "a-formação-e-o-trabalho-dos-modelistas-nas-empresas-do-vestuário-do-estado-de-sa",
+        "análise-da-formação-dos-profissionais-do-setor-de-modelagem-do-vestuário-da-regi",
+        "universidade-de-são-paulo-6",
+        "o-ensino-e-aprendizagem-da-modelagem-do-vestuário-uma-revisão-sistemática-de-lit"
+      ]
+    },
+    "evidence_quality_delta": "Ambos os lados são fortemente documentados por levantamentos de campo no Brasil (PR, SC, MG, SP): há um duplo gargalo — estilistas formados com foco estético que negligenciam a engenharia do desenho técnico (Side A) e modelistas sobrecarregados com formação fragmentada e pouca participação na fase conceitual (Side B).",
+    "scope_overlap": "Coexistência estrutural na indústria brasileira de confecção.",
+    "decision_relevance": "high"
+  },
+  {
+    "cluster_id": "eficiencia-de-corte-zero-waste-vs-modelagem-convencional",
+    "fight": "A responsabilidade pela redução do desperdício têxtil (que atinge 15% a 20% no encaixe convencional) pode ser resolvida pela adoção de modelagem Zero Waste / encaixe integrado ou esbarra em barreiras intransponíveis de gradação e estética comercial?",
+    "side_a": {
+      "position": "A integração da modelagem ao encaixe desde a concepção (incluindo abordagens Zero Waste e otimização em CAD) permite aproveitar até 100% da largura do tecido, reduzindo drasticamente o custo de matéria-prima (que representa 50% a 70% do custo da peça).",
+      "claims": [
+        "O setor de modelagem e encaixe detém o controle direto sobre o aproveitamento têxtil; metodologias Zero Waste e simulações de encaixe em CAD eliminam ou minimizam os resíduos de sala de corte."
+      ],
+      "sources": [
+        "zero-waste-in-apparel-industry-limitations-and-alternatives-sustainability-in-de",
+        "modelagem-zero-waste-e-sua-aplicação-na-indústria-do-vestuário-conceitos-prática"
+      ]
+    },
+    "side_b": {
+      "position": "Na produção industrial seriada, a modelagem Zero Waste enfrenta barreiras severas na etapa de gradação de tamanhos (pois alterar o perímetro de um tamanho quebra o encaixe geométrico perfeito na largura fixa do rolo de tecido) e na padronização de tempo de costura nas facções.",
+      "claims": [
+        "As principais limitações da modelagem Zero Waste na indústria do vestuário residem na dificuldade de graduar os moldes para múltiplos tamanhos mantendo o aproveitamento zero resíduo, além da dependência da largura exata do tecido fornecido pelas tecelagens."
+      ],
+      "sources": [
+        "zero-waste-in-apparel-industry-limitations-and-alternatives-sustainability-in-de",
+        "modelagem-zero-waste-e-sua-aplicação-na-indústria-do-vestuário-conceitos-prática",
+        "xliv-encontro-nacional-de-engenharia-de-produção-3"
+      ]
+    },
+    "evidence_quality_delta": "Forte evidência empírica mostrando por que a modelista sofre pressão contraditória: a gerência cobra aproveitamento máximo no risco/encaixe, mas exige curvas tradicionais e grades amplas que impedem encaixes sem perdas.",
+    "scope_overlap": "Tensão direta entre eficiência de matéria-prima, escalabilidade de grade e velocidade de corte/costura.",
+    "decision_relevance": "medium"
+  }
+]

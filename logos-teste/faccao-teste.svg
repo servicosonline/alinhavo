@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="56" fill="#2E5E4E"/>
+  <polyline points="96,186 128,138 160,186 192,138 224,186 256,138 288,186 320,138 352,186 384,138 416,186" fill="none" stroke="#BFE3C8" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="256" y1="70" x2="256" y2="128" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="256" cy="82" rx="3.5" ry="7" fill="#2E5E4E"/>
+  <text x="256" y="320" text-anchor="middle" font-family="Bahnschrift, 'Arial Narrow', Arial, sans-serif" font-weight="700" font-size="88" fill="#FFFFFF">Facção</text>
+  <text x="256" y="392" text-anchor="middle" font-family="Bahnschrift, Arial, sans-serif" font-size="46" fill="#BFE3C8" letter-spacing="8">teste</text>
+</svg>

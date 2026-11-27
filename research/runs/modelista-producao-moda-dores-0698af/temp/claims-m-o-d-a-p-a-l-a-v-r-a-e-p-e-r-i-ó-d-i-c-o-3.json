@@ -1,0 +1,84 @@
+[
+  {
+    "claim": "Em um bureau de modelagem em Gaspar/SC, a modelista proprietária (48 anos, 27 anos de experiência) opera em jornada estendida de 15 a 18 horas diárias durante picos sazonais de demanda.",
+    "stance": "supports",
+    "stance_target": "Sobrecarga física e jornada excessiva em bureaux terceirizados de modelagem",
+    "evidence_type": "empirical",
+    "scope_conditions": "Estudo de caso em bureau de modelagem terceirizado em Gaspar/SC (n=1)",
+    "quoted_support": "Mesmo depois do horário normal de atendimento no bureau, a modelista continua trabalhando até a noite, principalmente quando a quantidade de trabalho é muito grande, chegando a trabalhar de 15 a 18 horas por dia.",
+    "numbers": [
+      "15 a 18 horas",
+      "48 anos",
+      "27 anos"
+    ],
+    "entities": [
+      "Gaspar/SC",
+      "Audaces Vestuário"
+    ],
+    "time_period": "2015",
+    "region": "Gaspar/SC, Brasil",
+    "confidence": "high",
+    "source_note_id": "m-o-d-a-p-a-l-a-v-r-a-e-p-e-r-i-ó-d-i-c-o-3"
+  },
+  {
+    "claim": "A aplicação do Questionário Nórdico de Sintomas Osteomusculares (QNSO, 19 regiões) na modelista do bureau identificou nos últimos 12 meses dor, formigamento ou dormência em 12 grupamentos (cabeça, ouvido direito, cervical, lombar, coxas, pés, ombros, braço direito, pulsos, mão direita e dedos da mão direita) e, nos últimos 7 dias, em 5 regiões (cervical, ombro direito, pulso direito, mão direita e dedos da mão direita).",
+    "stance": "supports",
+    "stance_target": "Alta morbidade osteomuscular em membros superiores, cervical e lombar na modelagem computadorizada",
+    "evidence_type": "empirical",
+    "scope_conditions": "Estudo de caso em bureau de modelagem em Gaspar/SC",
+    "quoted_support": "Conforme resposta ao questionário (Figura 10), a modelista no último ano apresentou: dor, formigamento ou dormência, nas regiões: cabeça; ouvido (direito); cervical; lombar; coxas (esquerda e direita); pés (esquerdo e direito); ombros (esquerdo e direito); braço (direito); pulsos (esquerdo e direito); mão (direita) e dedos (da mão direita). Na última semana, a modelista teve algum problema nas regiões: cervical; ombro (direito); pulso (direito); mão (direita) e dedos (da mão direita).",
+    "numbers": [
+      "19 regiões corporais",
+      "12 meses",
+      "última semana"
+    ],
+    "entities": [
+      "Questionário Nórdico de Sintomas Osteomusculares",
+      "QNSO"
+    ],
+    "time_period": "2014-2015",
+    "region": "Gaspar/SC, Brasil",
+    "confidence": "high",
+    "source_note_id": "m-o-d-a-p-a-l-a-v-r-a-e-p-e-r-i-ó-d-i-c-o-3"
+  },
+  {
+    "claim": "A manutenção prolongada da postura sentada na modelagem computadorizada causou compressão do nervo ciático e afastamento médico de dois dias de trabalho por dor lombar.",
+    "stance": "supports",
+    "stance_target": "Risco ocupacional de lombalgia e ciatalgia por postura sentada estática na modelagem CAD",
+    "evidence_type": "empirical",
+    "scope_conditions": "Estudo de caso em bureau de modelagem em Gaspar/SC",
+    "quoted_support": "Ela conta que o afastamento foi de dois dias de trabalho, após passar por consulta médica, a qual foi prescrita medicação e repouso em função de dor no nervo ciático (o qual é considerado o maior nervo do corpo humano, estendendo-se desde a coluna lombar até os pés). Ainda conforme o médico, a dor foi ocasionada por manter a postura sentada durante muito tempo, comprimindo assim o referido nervo.",
+    "numbers": [
+      "dois dias",
+      "2014"
+    ],
+    "entities": [
+      "Gaspar/SC"
+    ],
+    "time_period": "2014",
+    "region": "Gaspar/SC, Brasil",
+    "confidence": "high",
+    "source_note_id": "m-o-d-a-p-a-l-a-v-r-a-e-p-e-r-i-ó-d-i-c-o-3"
+  },
+  {
+    "claim": "As exigências biomecânicas na estação de trabalho do bureau combinam cliques intensivos de mouse no CAD, rotação do tronco em mesa ampla, flexão do tronco em pé e movimentos repetitivos de membros superiores para enrolar manualmente os riscos impressos em duas plotters (1,07 m e 0,90 m) sem rebobinador automático.",
+    "stance": "supports",
+    "stance_target": "Combinação de esforço estático sentado e sobrecarga biomecânica em plotters e mesas digitalizadoras",
+    "evidence_type": "empirical",
+    "scope_conditions": "Estação de trabalho com Audaces Moldes 11, Encaixe 11, mesa digitalizadora e 2 plotters",
+    "quoted_support": "Assim, os principais movimentos que a modelista faz durante o trabalho, são: cliques ao utilizar o mouse para executar modelagens e encaixes; rotação do tronco sentada e movimentos repetidos com membros superiores para alcançar objetos sobre a mesa que é grande; flexão do tronco em pé para alcançar os riscos de enfestos e movimentos repetidos com membros superiores para enrolar o papel dos mesmos; segurar o telefone entre a cabeça e o ombro ao mesmo tempo em que utiliza o computador; flexão do tronco sentada e da região cervical para aproximar-se da do monitor do computador, sustentação de peso na postura sentada por tempo prolongado.",
+    "numbers": [
+      "1,07m",
+      "0,90m",
+      "2 plotters"
+    ],
+    "entities": [
+      "Audaces Vestuário Moldes 11",
+      "Audaces Vestuário Encaixe 11"
+    ],
+    "time_period": "2015",
+    "region": "Gaspar/SC, Brasil",
+    "confidence": "high",
+    "source_note_id": "m-o-d-a-p-a-l-a-v-r-a-e-p-e-r-i-ó-d-i-c-o-3"
+  }
+]

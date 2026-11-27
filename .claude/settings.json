@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "WebSearch|WebFetch",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:/Users/paulo/OneDrive/Desktop/Paulo Tech LTDA/Nova pasta/.hyperresearch/hook.js\""
+          }
+        ]
+      }
+    ]
+  }
+}

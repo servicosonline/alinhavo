@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "Nos polos de confecção de moda, não há coleta especial para os retalhos de tecidos sintéticos (poliamida, elastano e poliéster), que são descartados como lixo comum em aterros sanitários ou doados para aplicações de baixo valor agregado.",
+    "stance": "supports",
+    "stance_target": "Dificuldade de destinação de resíduos sólidos têxteis e perda econômica com retalhos nas confecções",
+    "evidence_type": "empirical",
+    "scope_conditions": "Polos de moda e confecção no Brasil que utilizam tecidos de poliamida, elastano e poliéster",
+    "quoted_support": "O volume de resíduos têxteis de origem química compostos de poliamida, elastano e poliéster chega a ser imensurável. Não existe uma coleta especial para os resíduos têxteis, sendo eles descartados como lixo comum em aterros sanitários ou doados para comunidades para sua aplicação em produtos com pouco valor agregado.",
+    "numbers": [],
+    "entities": ["Design e Tecnologia"],
+    "time_period": "2022",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "a-requalificação-funcional-estética-e-simbólica-de-retalhos-de-tecidos-composto"
+  },
+  {
+    "claim": "O descarte inadequado de retalhos têxteis nas confecções gera simultaneamente um problema econômico de desperdício de matéria-prima, social de desvalorização e ambiental de poluição.",
+    "stance": "supports",
+    "stance_target": "Impacto financeiro e operacional do desperdício de tecido nas confecções",
+    "evidence_type": "empirical",
+    "scope_conditions": "Polos produtores de moda no Brasil",
+    "quoted_support": "Esse cenário transforma esses resíduos em um problema econômico (desperdício), social (desvalorização) e ambiental (poluição). Esse contexto exige a requalificação funcional, estética e simbólicas desses resíduos com a construção de um novo material para aplicação em produtos de design.",
+    "numbers": [],
+    "entities": ["Design e Tecnologia"],
+    "time_period": "2022",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "a-requalificação-funcional-estética-e-simbólica-de-retalhos-de-tecidos-composto"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "Em análise estatística de 57 tecidos de nylon para jaquetas corta-vento (gramatura 30–150 g/m², média 82 g/m²), a regressão múltipla das propriedades mecânicas medidas pelo sistema KES-FB explicou 85% da variância do coeficiente de caimento real (R² = 0,85), enquanto o CLO Fabric Kit explicou 75,3% (R² = 0,753).",
+    "stance": "supports",
+    "stance_target": "diferença de precisão preditiva entre instrumentos laboratoriais (KES-FB) e kits comerciais simplificados (CLO Fabric Kit) na parametrização de tecidos virtuais",
+    "evidence_type": "statistical",
+    "scope_conditions": "57 tecidos planos de nylon comercializados na Coreia do Sul, avaliados segundo KS K ISO 9073-0:2008",
+    "quoted_support": "The correlation analysis results revealed that both the Kawabata system and CLO fabric kit results indicated that the bending and shear properties exhibited the highest correlation with the drape ratio.",
+    "numbers": ["57 nylon fabrics", "30-150 g/m2", "82 g/m2", "R2=0.85", "R2=0.753"],
+    "entities": ["KES-FB", "CLO Fabric Kit", "CLO 3D", "KS K ISO 9073-0:2008"],
+    "time_period": "2022",
+    "region": "South Korea",
+    "confidence": "high",
+    "source_note_id": "comparison-of-the-silhouette-of-virtual-clothes-by-fabric-characteristics-of-nyl"
+  },
+  {
+    "claim": "Mesmo quando dois tecidos apresentam coeficientes de caimento (drape ratio) quase idênticos (ex.: 0,32 vs. 0,33), uma diferença de aproximadamente duas vezes no peso (gramatura) altera visivelmente a silhueta da jaqueta simulada no CLO 3D, fazendo o tecido mais pesado aderir mais ao corpo do avatar.",
+    "stance": "supports",
+    "stance_target": "necessidade de parametrização física completa do tecido (incluindo gramatura, flexão e cisalhamento) para fidelidade da peça-piloto virtual",
+    "evidence_type": "empirical",
+    "scope_conditions": "Simulação 3D de molde comercial de jaqueta corta-vento feminina com 9 tecidos de nylon no CLO 3D",
+    "quoted_support": "Similarly, the heavier fabric was closer to the body of the avatar and exhibited a softer silhouette. This result indicated that even if the fabrics exhibit a similar drape ratio, the silhouette appearance differs with a change in the weight.",
+    "numbers": ["2 times different weight", "9 virtual fabrics"],
+    "entities": ["CLO 3D"],
+    "time_period": "2022",
+    "region": "South Korea",
+    "confidence": "high",
+    "source_note_id": "comparison-of-the-silhouette-of-virtual-clothes-by-fabric-characteristics-of-nyl"
+  }
+]

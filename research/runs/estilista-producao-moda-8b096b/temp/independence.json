@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "data": {
+    "scored": 77,
+    "clusters": [
+      {
+        "root": "3d-modeling-for-fashion-design-dat-journal",
+        "members": [
+          "3d-modeling-for-fashion-design-dat-journal-2"
+        ],
+        "size": 2,
+        "kind": "body"
+      },
+      {
+        "root": "análise-da-formação-dos-profissionais-do-setor-de-modelagem-do-vestuário-da-regi",
+        "members": [
+          "a-formação-dos-profissionais-do-setor-de-modelagem-do-vestuário-da-região-da-gra"
+        ],
+        "size": 2,
+        "kind": "body"
+      }
+    ]
+  },
+  "count": 2,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T04:05:43.157135+00:00"
+}

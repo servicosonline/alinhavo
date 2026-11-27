@@ -1,0 +1,138 @@
+[
+  {
+    "claim": "Na maioria das empresas de confecção de vestuário, o Processo de Desenvolvimento de Produto (PDP) confunde-se com as tarefas individuais do estilista ou designer, recaindo exclusivamente sobre esse profissional a responsabilidade pelo sucesso ou fracasso comercial de um produto ou coleção, sem a devida integração interfuncional com os demais setores.",
+    "stance": "supports",
+    "stance_target": "A estilista sofre sobrecarga de responsabilidade e isolamento organizacional por responder sozinha pelo sucesso ou fracasso da coleção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Indústrias brasileiras de confecção de vestuário de pequeno e médio porte (pesquisa em 7 empresas do Sul do Brasil)",
+    "quoted_support": "Observa-se que o PDP na maioria das empresas de confecção confunde-se muito com as tarefas do designer ou estilista colocando sob sua responsabilidade o sucesso ou fracasso de um produto ou coleção. [...] O desenvolvimento de produtos é praticamente todo efetuado pelo estilista e apresentado para o gerente a quem cabe a decisão sobre o que produzir ou não.",
+    "numbers": [
+      "7 empresas pesquisadas"
+    ],
+    "entities": [
+      "Marisa Beatriz Poletto Jordan",
+      "UFRGS",
+      "Márcia Elisa Soares Echeveste"
+    ],
+    "time_period": "2004",
+    "region": "Brasil (Região Sul: PR, SC, RS)",
+    "confidence": "high",
+    "source_note_id": "marisa-beatriz-poletto-jordan"
+  },
+  {
+    "claim": "Estilistas com formação acadêmica ou técnica conhecem metodologias formais de pesquisa, geração de conceito de coleção e triagem de ideias, mas deixam de aplicá-las na prática cotidiana das confecções devido à sobrecarga de trabalho e à escassez de tempo nos cronogramas; apenas 2 das 7 empresas pesquisadas utilizam técnicas de geração de conceito.",
+    "stance": "supports",
+    "stance_target": "A sobrecarga operacional e a pressão de prazos impedem a estilista de aplicar metodologias de pesquisa e criação conceitual",
+    "evidence_type": "empirical",
+    "scope_conditions": "Pequenas e médias confecções de vestuário de marca própria no Sul do Brasil (N=7)",
+    "quoted_support": "Das empresas pesquisadas apenas duas utilizam técnicas de geração do conceito, mas não possuem documentação padronizada. As outras executam empiricamente esta fase. A prática do desenvolvimento através de ferramentas auxiliares nesta fase está associada a profissionais de estilismo com formação acadêmica, mas não utilizam as ferramentas que conhecem alegando que a sobrecarga de trabalho não permite.",
+    "numbers": [
+      "2 de 7 empresas"
+    ],
+    "entities": [
+      "Marisa Beatriz Poletto Jordan",
+      "UFRGS"
+    ],
+    "time_period": "2004",
+    "region": "Brasil (PR, SC, RS)",
+    "confidence": "high",
+    "source_note_id": "marisa-beatriz-poletto-jordan"
+  },
+  {
+    "claim": "Nas confecções pesquisadas, é prática comum elaborar a ficha técnica somente após a criação do protótipo físico, enviando à modelagem apenas o croqui (desenho); isso faz com que a leitura da modelista seja mal interpretada e gere ajustes e retrabalhos muito maiores na peça-piloto.",
+    "stance": "supports",
+    "stance_target": "A ausência ou emissão tardia da ficha técnica gera falhas de interpretação do croqui pela modelista e alto volume de retrabalho na pilotagem",
+    "evidence_type": "empirical",
+    "scope_conditions": "Pequenas e médias confecções de vestuário no Sul do Brasil (N=7)",
+    "quoted_support": "Os pontos de controle verificados no desenvolvimento de produto nas empresas pesquisadas relacionam-se ao controle da qualidade do produto, a partir da criação do protótipo. Na prática das empresas pesquisadas, é comum a ficha técnica ser efetivada somente neste momento. Esta prática não é recomendada, pois somente baseado nos croquis (desenhos) a leitura da modelista pode ser mal interpretada e os ajustes na peça muito maiores.",
+    "numbers": [
+      "7 empresas"
+    ],
+    "entities": [
+      "Marisa Beatriz Poletto Jordan",
+      "UFRGS"
+    ],
+    "time_period": "2004",
+    "region": "Brasil (PR, SC, RS)",
+    "confidence": "high",
+    "source_note_id": "marisa-beatriz-poletto-jordan"
+  },
+  {
+    "claim": "Mesmo quando as fichas técnicas são utilizadas no processo produtivo, elas contêm informações insuficientes que geram dúvidas na produção, e as alterações realizadas durante a fase de produção de amostras (peça-piloto) frequentemente não geram novas fichas técnicas atualizadas, ficando restritas à memória das pessoas.",
+    "stance": "supports",
+    "stance_target": "A desatualização da ficha técnica após ajustes na peça-piloto e a retenção de alterações apenas na memória causam erros e dúvidas na produção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Pequenas e médias confecções de vestuário no Sul do Brasil (N=7)",
+    "quoted_support": "Embora as fichas técnicas sejam utilizadas, elas ainda possuem muito poucas informações, causando dúvidas na produção. [...] A pratica da qualidade no preenchimento ainda não é levada a sério como deveria. Muitas vezes não se criam novas fichas técnicas e as modificações ficam somente na memória das pessoas.",
+    "numbers": [
+      "Nível 2 de maturidade"
+    ],
+    "entities": [
+      "Marisa Beatriz Poletto Jordan",
+      "UFRGS"
+    ],
+    "time_period": "2004",
+    "region": "Brasil (PR, SC, RS)",
+    "confidence": "high",
+    "source_note_id": "marisa-beatriz-poletto-jordan"
+  },
+  {
+    "claim": "A ausência de avaliação interfuncional prévia faz com que o controle recaia apenas no final do desenvolvimento, na confecção das peças-piloto, levando frequentemente ao cancelamento (aborto) tardio de modelos criados pela estilista por restrições técnicas de operação no maquinário não detectadas antes.",
+    "stance": "supports",
+    "stance_target": "A falta de integração prévia entre estilo e produção leva ao descarte tardio de modelos já pilotados por incompatibilidade com o maquinário",
+    "evidence_type": "empirical",
+    "scope_conditions": "Pequenas e médias confecções de vestuário no Sul do Brasil (N=7)",
+    "quoted_support": "Tem ênfase maior no final do processo, quando é feita a confecção das peças piloto, muitas vezes abortando o modelo criado, nesta fase, por não ter detectado anteriormente algum tipo de restrição como de grau de dificuldade de operação no maquinário.",
+    "numbers": [],
+    "entities": [
+      "Marisa Beatriz Poletto Jordan",
+      "UFRGS"
+    ],
+    "time_period": "2004",
+    "region": "Brasil (PR, SC, RS)",
+    "confidence": "high",
+    "source_note_id": "marisa-beatriz-poletto-jordan"
+  },
+  {
+    "claim": "Em 6 das 7 confecções pesquisadas, a falta de desenvolvimento prévio de fornecedores e de testes antecipados de encolhimento e lavagem de matérias-primas provoca problemas graves que obrigam a eliminar produtos da coleção mesmo após terem cumprido todas as fases de desenvolvimento, gerando custos imprevistos e perda de trabalho criativo.",
+    "stance": "supports",
+    "stance_target": "Problemas de entrega e imprecisão nas especificações de encolhimento e lavagem de tecidos causam cancelamento de peças prontas na coleção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Pequenas e médias confecções de vestuário no Sul do Brasil (N=7)",
+    "quoted_support": "Este gate foi fundamentado na questão bastante crítica levantada na pesquisa que é em relação às deficiências de desenvolvimento de fornecedor, o que traz muitos problemas incluindo inclusive eliminar da coleção alguns produtos após cumprir todas as fases, gerando custos imprevistos. Este problema foi identificado em seis das sete empresas pesquisadas.",
+    "numbers": [
+      "6 de 7 empresas (85,7%)"
+    ],
+    "entities": [
+      "Marisa Beatriz Poletto Jordan",
+      "UFRGS"
+    ],
+    "time_period": "2004",
+    "region": "Brasil (PR, SC, RS)",
+    "confidence": "high",
+    "source_note_id": "marisa-beatriz-poletto-jordan"
+  },
+  {
+    "claim": "Na Matriz de Responsabilidades do modelo referencial de PDP para confecções, o Designer/Estilista é o Responsável direto (R) por 6 etapas centrais (Geração/triagem de ideias e conceito; Desenvolvimento do conceito da coleção; Desenvolvimento do projeto/croquis; Gate 3 de aprovação dos desenhos; Especificação do produto na Ficha Técnica; e Dossiê da Coleção) e Participante ativo (P) em 7 etapas (Avaliação preliminar do mercado; Diretrizes de novos produtos; Gate 1 de viabilidade; Gate 2 de aprovação do conceito/matérias-primas; Modelagem e produção das amostras; Gate 4 de aprovação dos pilotos; e Manufatura das amostras de mostruário).",
+    "stance": "supports",
+    "stance_target": "As responsabilidades formais da estilista abrangem desde a pesquisa e concepção até a ficha técnica, acompanhamento de modelagem/amostras, aprovação de pilotos e dossiê pós-coleção",
+    "evidence_type": "methodological",
+    "scope_conditions": "Modelo referencial de Desenvolvimento Integrado de Produto (DIP) para a indústria de confecção do vestuário",
+    "quoted_support": "A Matriz de responsabilidades segue o modelo proposto por Echeveste (2003)... A partir dela identifica-se como cada setor participa do processo, seja como responsável(R), participante (P) ou apenas informado (I).",
+    "numbers": [
+      "6 etapas como Responsável (R)",
+      "7 etapas como Participante (P)",
+      "1 etapa como Informado (I)",
+      "5 gates de decisão"
+    ],
+    "entities": [
+      "Marisa Beatriz Poletto Jordan",
+      "Márcia Elisa Soares Echeveste",
+      "UFRGS"
+    ],
+    "time_period": "2004",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "marisa-beatriz-poletto-jordan"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "claim": "DRS Digital Library - IASDR Conference Series: The designer's role in fashion system transitions: A critical review of transition design ## IASDR 2023: Short Papers # The designer's role in fashion system transitions: A critical review of transition design Based on the literature review, this paper discusses the role of designers in organizing designs that intervene and facilitate transitions in the fashion system.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "iasdr.2023.826",
+    "quoted_support": "DRS Digital Library - IASDR Conference Series: The designer's role in fashion system transitions: A critical review of transition design ## IASDR 2023: Short Papers # The designer's role in fashion system transitions: A critical review of transition design Based on the literature review, this paper discusses the role of designers in organizing designs that intervene and facilitate transitions in the fashion system.",
+    "numbers": [
+      "2023"
+    ],
+    "entities": [
+      "iasdr.2023.826"
+    ],
+    "time_period": "2016-2026",
+    "region": "Internacional",
+    "confidence": "medium",
+    "source_note_id": "iasdr2023826"
+  },
+  {
+    "claim": "Four interventions are identified from the literature review and discussed in detail concerning multi-stakeholder collaboration and textile fashion design.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "iasdr.2023.826",
+    "quoted_support": "Four interventions are identified from the literature review and discussed in detail concerning multi-stakeholder collaboration and textile fashion design.",
+    "numbers": [],
+    "entities": [
+      "iasdr.2023.826"
+    ],
+    "time_period": "2016-2026",
+    "region": "Internacional",
+    "confidence": "medium",
+    "source_note_id": "iasdr2023826"
+  },
+  {
+    "claim": "A critical analysis of designers and the design process in production reveals that the place and time of design activity and experience are expanding.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "iasdr.2023.826",
+    "quoted_support": "A critical analysis of designers and the design process in production reveals that the place and time of design activity and experience are expanding.",
+    "numbers": [],
+    "entities": [
+      "iasdr.2023.826"
+    ],
+    "time_period": "2016-2026",
+    "region": "Internacional",
+    "confidence": "medium",
+    "source_note_id": "iasdr2023826"
+  }
+]

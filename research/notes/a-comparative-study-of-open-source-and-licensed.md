@@ -1,0 +1,553 @@
+---
+title: A Comparative Study of Open-Source and Licensed
+id: a-comparative-study-of-open-source-and-licensed
+tags:
+- modelista-producao-moda-dores-0698af
+- locus-prototipagem-virtual-3d-vs-peca-piloto-fisica
+created: '2026-11-27T04:37:45.956782Z'
+source: https://www.mdpi.com/2075-1702/7/2/30/pdf
+source_domain: www.mdpi.com
+fetched_at: '2026-11-27T04:37:45.956782Z'
+fetch_provider: builtin
+status: draft
+type: note
+tier: institutional
+content_type: paper
+deprecated: false
+raw_file: raw/a-comparative-study-of-open-source-and-licensed.pdf
+doi: 10.3390/machines7020030
+---
+
+*Suggested by [[iop-conference-series]] — Primary comparative study (Papachristou, Kyratsis & Bilalis, 2019) of open-source vs licensed CAD software in garment development*
+
+machines
+Article
+A Comparative Study of Open-Source and Licensed
+CAD Software to Support Garment
+Development Learning
+Evridiki Papachristou 1,*
+, Panagiotis Kyratsis 2
+and Nikolaos Bilalis 1
+1
+School of Production Engineering and Management, Technical University of Crete, 73100 Kounoupidiana,
+Crete, Greece; nbilalis@isc.tuc.gr
+2
+Department of Mechanical Engineering & Industrial Design, Western Macedonia University of Applied
+Sciences, 50100 Grevená, Greece; pkyratsis@teiwm.gr
+*
+Correspondence: epapachristou@isc.tuc.gr
+Received: 1 April 2019; Accepted: 26 April 2019; Published: 1 May 2019
+
+
+Abstract: Most universities have included computer-aided design (CAD) pattern making systems
+education and training in their clothing technology courses in recent years, so as to respond to the
+actual needs of the fashion world for high-skilled fashion designers and clothing engineers. With the
+rapid rise in the use of open source software (OSS) in all types of applications, it is important to know
+if the existing OSS CAD software for garment prototyping development can successfully support the
+learning process. The present study compares two commercial licensed CAD systems for pattern
+design (Polypattern and Create) to an open source software, Seamly2D, and to Wild Ginger’s Caveo
+V6 programme, which runs within an OSS. In total, two licensed and two OSS systems have been
+evaluated in their weights in accomplishing the garment development of ten diﬀerent pattern designs.
+The results obtained for the evaluation of a set of OS and licensed CAD systems are presented and
+critically discussed.
+Keywords:
+open-source CAD software;
+pattern design;
+licensed CAD; CAD teaching;
+teaching/learning strategies
+1. Introduction
+The skilled labour-dependent nature of apparel design, the globalisation of the market, the
+proliferation of information, the typical iterative “optimisation” trial-and-error process of apparel
+product development, the reduced time to market and continuous pressures of cost are just some
+of the factors that add to the fashion industry’s already complex activities. Digital prototypes in
+the textile and clothing industry are part of the technology adoption in the product development
+process, a process that involves various operators in diﬀerent stages and places, with various skills and
+competencies and diﬀerent necessities of formalising and deﬁning in a deterministic way the result
+of their activities [1]. Taking into account the recent trends in the industry, the product development
+cycle and the use of new digital technologies cannot be restricted in the “typical cycle”, but additional
+tools and skills require integration for these developments to be taken into account [2].
+Since the fashion industry is the most skilled labour-dependent industry, and any cost saving
+through new computer-aided design (CAD) technologies has become a requirement in gaining a
+competitive advantage, most universities have included CAD pattern making systems education and
+training as part of their clothing technology courses in recent years, so as to respond to the actual
+needs of the fashion world for high-skilled fashion designers and clothing engineers. CAD/CAM
+(Computer Aided Manufacture) systems allow a design to be generated rapidly and adjusted equally
+Machines 2019, 7, 30; doi:10.3390/machines7020030
+www.mdpi.com/journal/machines
+
+
+---
+
+Machines 2019, 7, 30
+2 of 10
+quickly without diminishing creativity, and provide better communication and integration between
+product development systems [3]. They have been instrumental in reducing lead times, improving
+accuracy, and putting apparel products in retail stores much closer to the time they are needed by the
+consumer [4].
+With the rapid rise in the use of open source software (OSS) in all types of applications, it
+is important to know if the existing OSS CAD software for garment prototype development can
+successfully support the learning process. Summers and Shah [5] noted that an objective assessment of
+CAD model complexity can be useful in assessing case studies, evaluating the results of experiments,
+or evaluating student projects. Several other authors have highlighted the likely eﬀects of CAD model
+complexity [6–8]. Johnson, Valverde and Thomison [9] noted that modelling procedure includes the
+amount of time spent engaging in particular modelling activities. The amount of time required to create
+a CAD model has been reported and used as a metric for CAD modelling [10–12] and alteration [13,14]
+quality. The number of operations is a proxy for the number of features or operations required to create
+a speciﬁc piece of CAD geometry. The present study compares commercial licensed CAD systems
+for pattern design to an open source software, Seamly2D [15], and to MacroGen’s Cameo v6 [16]
+programme which runs within an OSS. This assessment could be taken into account when assessing
+development timelines in academic projects, especially in institutions where sources for licensed CAD
+software are limited, or for students who want to practise and/or use a CAD apparel prototype system
+outside institutions’ premises. In total, two licensed and two OSS systems have been evaluated in
+their weights in accomplishing the garment development of ten diﬀerent pattern designs. The results
+obtained for the evaluation (based on the metric of time) of a set of OS and licensed CAD systems are
+presented and critically discussed.
+2. CAD-Based Design Skills for Fashion Education
+Textile engineering (TE) and fashion technology (FT) educational programmes are always
+undergoing continuous formal assessment under diﬀerent accreditation bodies. ABET (Accreditation
+Board for Engineering and Technology) [17], recommend seven student outcomes, concerning the
+content of a course (or a series of courses). Traditional computer aided design (CAD) and drawing
+courses introduce mainly geometric modelling using wireframe, surface, and solid modelling. Ullah
+and Harib [18] suggested that the content of a course regarding CAD/CAM should help students attain
+at least the following four outcomes: (1) an ability to apply the knowledge of mathematics, science, and
+engineering; (2) an ability to design a system, component, or process to meet the desired needs; (3) an
+ability to identify, formulate, and solve engineering problems; and (4) an ability to use the techniques,
+skills, and modern engineering tools necessary for engineering practice. The same authors [18],
+proposed a customised, software-free methodology for teaching design and manufacturing in the
+ﬁeld of engineering, but their research addresses the issue of integrating advanced machine tools
+(e.g., hexapod-based machine tools) with solid modelling. Garment prototyping and digital pattern
+development has taken place in commercial CAD tools with surface modelling.
+Open-source CAD software has emerged in many ﬁelds as a promising alternative to commercial
+and licensed oﬀ-the-shelf systems, but college and universities’ courses in fashion design and textile
+engineering still depend the eﬀectiveness of such courses on teaching the eﬀective design approach based
+on licensed pattern design CAD software—licenses with a usual high cost even as educational forms.
+Almost every bachelor’s and master’s degree course in the industrial and mechanical engineering
+areas include at least one computer-design class, wherein students can learn CAD-based design
+principles. Many universities adopt even three-dimensional (3D) CAD licensed software primarily to
+keep close contact with the industry environment, the place where CAD skill and expertise are actually
+requested [19]. Two-dimensional (2D) CAD software, such as Autodesk AutoCAD, is fundamental,
+and to many countries like Spain, according to [20], all the major 3D CAD licensed software is used at
+all the industrial schools. In fashion and textile engineering, however, 3D software is not so popular yet,
+
+
+---
+
+Machines 2019, 7, 30
+3 of 10
+but 2D CAD software tools, such as Lectra’s Modaris [21], Gerber’s Accumark [22], Crea’s Create [23],
+Polytropon’s Polypattern [24], and Optitex’s PDS [25], provide fashion students with knowledge on:
+•
+development principles and functions;
+•
+the principles of garment pattern design;
+•
+the rules of pattern design by size;
+•
+the deﬁnition of a style and its versions;
+•
+marker making;
+•
+creating markers on fabrics with deﬁnition and changing parameters;
+•
+preproduction garment speciﬁcations;
+•
+preparation of pattern blocks for 3D simulation in 3D virtual prototype tools.
+The teaching of commercial CAD systems for garment development in combination with draping
+and ﬁtting evaluation has already been tested successfully. Those fashion students could design
+and develop their virtual 3D-model ideas from the CAD software directly into physical 3D physical
+garment prototypes. Thus, the students could improve their understanding of design rules suitable
+for draping and proper ﬁtting. However, all CAD-licensed software has a limited useful life, since
+they are bound to become obsolete in time given the constant update of operating systems and the
+unstoppable growth of hardware and software and the improvement of their performance in a very
+demanding and competitive race [19]. CAD vendors for garment development release new versions in
+order to oﬀer new features and guarantee a state-of-the-art performance. As a consequence, however,
+more often than not, universities are compelled to hold back updates because of the costs in which
+hardware and software entail.
+3. Methodology
+As a ﬁrst step, comprehensive internet research was conducted along with the literature research
+as an inquiry into freeware and OSS tools. It came as a surprise that although a relatively large number
+of software tools exist for other disciplines like mechanical, electronic, or industrial engineering,
+similar tools for apparel pattern development were hard to ﬁnd. Moreover, reviews on open source
+and freeware CAD systems for disciplines other than fashion and clothing have already been done,
+for example, Junk & Kuen [26] have researched OSS for 3D Printing. Subsequently, a search for
+classiﬁcation of open source CAD systems available online for pattern drafting have veriﬁed that
+the only CAD open-source, parametric, variational, feature-based, and procedural software available
+(15 December 2017) is Seamly2D. Another CAD software tool which was chosen for evaluation and
+comparison was Wild Ginger’s Cameo v6, as it is not such a costly educational version when compared
+with the other licensed CAD software tools.
+The licensed tools that were used to complete the comparison and evaluation were Crea’s Create
+for 2D CAD pattern development and Polytropon’s Polypattern. Students were shown a demonstration
+of all the software solutions, and after the completion of their learning process the students that were
+most eﬃcient in the use of the tools and understanding of garment pattern developing were selected to
+participate in the research.
+Seamly2D (formerly Valentina) is a patternmaking cross-platform programme that allows the
+development of garment patterns by professional designers or individual users. The software allows
+the user to insert his/her individual set of measurements or to use standard sizing tables as another
+option. The programme runs on Windows, Mac OSX, and Ubuntu, and is downloadable. Seamly2D
+can provide any sewer or clothing manufacturer the opportunity to create and develop digital patterns
+of any garment style; it can be easily downloaded from the internet and oﬀers support in the context
+of using the interface and its tools. According to its forum [27], Seamy2D’s open data formats and
+collaborative culture enables independent designers to become ethically proﬁtable, and can empower
+designers focused on eco fashion and slow fashion. Another advantage of downloading Seamly2D and
+creating digital patterns with it instead of choosing a licensed and costly software is that independent
+
+
+---
+
+Machines 2019, 7, 30
+4 of 10
+small designers and manufacturers can create small-batch and custom-sized clothing collections which
+are essential to create a sustainable future. This way, local garment districts can be rebuilt, can reduce or
+eliminate low-wage labour and unethical working conditions, and even scale up to bigger productions.
+Wild Ginger’s Cameo v6 Pattern Design is an apparel pattern development software for
+professional pattern makers. Cameo’s apparel production tools allow users to draft and edit patterns,
+customise size or grade patterns, lay markers, and create technical drawings and speciﬁcations. The
+software solution allows pattern creation and modiﬁcation by anyone having appropriate skills. It
+contains all the tools that a pattern maker needs, such as the creation and transfer of darts, slash/spread,
+adding seam allowance, and pattern marking. Cameo is not an open source tool; it is sold in modules
+and libraries. Cameo runs only in Windows and, for the purpose of the research, the authors worked
+in the downloadable demo version of the software.
+From observing Cameo v6’s webpage, it is clear that the speciﬁc software is mainly focused on
+new CAD pattern making users and/or students as it suggested in the Digital Flat Pattern: The Apparel
+Designer’s Handbook. This instruction book, which is not free, provides instructions for creating patterns
+for a wide range of styles—including bodices, dresses, jackets, skirts, pants, sleeves, collars, and
+pockets. Although, as mentioned above, the CAD software is not an OSS, its price is more aﬀordable
+compared with other commercial programmes, and it includes free tutorial CAD software and example
+ﬁles for completing all styles illustrated in the book.
+3.1. Aim of the Research
+The aim of this research was to evaluate the usability of the existing OSS CAD software for
+garment prototype development and see if it can successfully support the learning process compared
+with two licensed forms of software. The metric used was the amount of time required to create a
+speciﬁc garment in all four CAD systems (Table 1). In order to do so, fourth year students with the
+knowledge of all four systems were asked to create 10 diﬀerent digital patterns at the end of their
+learning process of CAD modelling in garment pattern making.
+Table 1. Developing time for each style and each CAD system.
+Time in Minutes for Each Pattern Cutting Programme
+Type of Garment
+Seamly2D
+Cameo V6
+Polypattern
+Crea
+Straight skirt
+30′
+8′
+5′
+13′
+Culottes
+45′
+20′
+9′
+46′
+Basic trousers
+3 h
+32′
+20′
+45′
+Tracksuit trousers
+13′
+12′
+5′
+13′
+Close ﬁtting
+bodice block
+40′
+20′
+20′
+9′
+Tracksuit top
+15′
+19′
+8′
+19′
+Basic shirt
+55′
+1 h 7′
+1 h 10′
+58′
+Vest
+1 h
+40′
+35′
+26′
+Tailored jacket
+45′
+33′
+45′
+45′
+Two-piece sleeve
+30′
+20′
+35′
+23′
+3.2. Literature Research
+In other sectors (i.e., mechanical engineering) companies commonly organise tailored courses and
+training sessions in collaboration with leading global vendors in order to achieve a deeper knowledge
+on speciﬁc CAD-based software for speciﬁc ﬁelds of application according to the professional proﬁle
+and the level of expertise of their users [28]. Such an approach, however, is not completely satisfactory,
+since it produces very well-trained CAD users but, often, does not take care of either the design
+
+
+---
+
+Machines 2019, 7, 30
+5 of 10
+thinking [29] or the linguistic basics [30] needed to fully exploit CAD performance. On the contrary,
+in the fashion industry, garment development learning and pattern design skills can be obtained
+through higher education fashion courses. Digital pattern development can be taught individually by
+CAD-software companies and their training teams, by attending a pattern design course (full-time,
+part-time, seminar) in a college, or attending an online course. Most of the higher educational institutes
+that provide fashion courses or clothing technology courses have access to educational licenses of
+CAD software for pattern development. However, according to [31], online education is increasingly
+becoming a dominant part of our education system.
+3.3. Problem Statement
+Leaving aside the question of the economic and ethical implications of adopting open-source
+software instead of licensed software, the issue addressed in the present paper is connected to the
+following question: Can any open-source CAD system for developing clothing patterns eﬀectively
+support university courses when the teaching focus needs to be on the method rather than on the
+instrument itself?
+In order to evaluate the performance of a 2D CAD system, the authors established a comparison
+between the already taught commercial CAD systems, an open-sourced software, and a fairly accessible
+–in terms of price-software available to fashion students. In a design-oriented approach, CAD students
+need to complete the assigned tasks by using the various tools available within the CAD environment.
+Hence, a CAD system is considered compliant with design education and training if it oﬀers all the
+tools requested for modelling and drawing clothing products. The related CAD workbenches are
+thus considered:
+•
+New pattern creation—the workbench to draw a new pattern piece from scratch with
+speciﬁc measurements;
+•
+Insert new points and notches—the workbench to put grading and curve points on any place of
+the pattern;
+•
+Measuring—the workbench to evaluate if a speciﬁc distance is correct;
+•
+Curves—the workbench to model curves;
+•
+Editing—the workbench to edit any part of the pattern by move, cut, unite, rotate, mirror, etc.;
+•
+Darts, folds and gathers—the workbench to create, edit, and delete darts, and to fold and gather
+to any point of the garment.
+The method workﬂow consists of three steps:
+1.
+Selection of the basic pattern blocks in a standard size (12) that the students have the skills to
+develop digitally.
+2.
+Development of prototype patterns in all four CAD systems through monitoring the passage of
+time for every task and every diﬀerent CAD system.
+3.
+Analysis of the results with respect to the time, eﬃciency, and number of steps.
+4. Results
+4.1. Selection of Basic Pattern Blocks in a Standard Size 12
+Basic block patterns in a standard size 12 [32], were used to develop designs for the prototypes
+based on the instruction of metric pattern cutting of Winifred Aldrich [33]. More speciﬁcally, 10 styles
+were decided to be developed in all four programmes:
+1. Straight skirt, 2. culottes 3. basic trousers, 4. tracksuit trousers, 5. close ﬁtting bodice block,
+6. tracksuit top, 7. basic shirt, 8. vest, 9. the tailored jacket block, and 10. two-piece sleeve block.
+Seam allowance was only put where it was permitted by the software. Grading was omitted,
+since it was not supported by the four and was not part of the current research. Size 12 was indicated
+
+
+---
+
+Machines 2019, 7, 30
+6 of 10
+as appropriate, therefore the basic block for each individual garment was based on the body measures
+of a size 12 (UK).
+4.2. Development of Prototype Patterns in All Four CAD Systems with Monitoring the Passage of Time for
+Every Task and Every Diﬀerent CAD System
+Figures 1 and 2 show the digital patterns of the previous selection in the Polypattern CAD system:
+ 
+Figure 1. Polypattern computer-aided design (CAD): basic skirt (a), basic trousers (b), culottes (c),
+track-suit top (d), tracksuit trousers (e), close-ﬁt bodice block (f).
+
+
+---
+
+Machines 2019, 7, 30
+7 of 10
+Figure 2. Polypattern CAD: basic shirt (a), vest (b), two-piece sleeve (c), basic jacket block (d).
+4.3. Analysis of the Results with Respect to the Time, Eﬃciency, and Number of Steps
+From the results obtained when analysing and comparing Seamly2D and Wild Ginger’s Cameo v6
+with the licensed Polypattern and Create, it has been concluded that currently this open-source CAD
+has not reached a suﬃcient level to replace commercial licensed parametric, variational, feature-based,
+and procedural CAD systems in academic courses. This is mainly because it lacks the implementation
+of some strategic tools:
+•
+Creation of a new pattern piece: The development method in the non-licensed software (Seamly2D
+and Cameo) has many similarities to the traditional pattern development by hand. Above all, it is
+time consuming.
+
+
+---
+
+Machines 2019, 7, 30
+8 of 10
+•
+New point and notch inputs: All four software tools have diﬀerent ways to put a new point or a
+notch on a pattern. However, moving a point takes longer in Seamly2D and Cameo.
+•
+Measure tape: The ruler and measure tape for distances and curves is one of the basic tools of a
+programme. However Seamly2D does not support such a feature.
+•
+Create curves: All four programmes can easily create curves
+•
+Section move: Too complicated for Seamly2D, feasible in Cameo, easier in Polypattern and Crea
+•
+Darts, folds and gatherings: The easier way to create them is in Crea and Polypattern. Open
+source Seamly2D needs to create a new pattern from the beginning and the exact distances for
+every new point are required by the user. Cameo requires multiple moves; the functions are
+not automatic.
+•
+Cut and unite of pattern pieces: Seamly2D cannot unite cut pieces. Comparing all four, Polypattern
+provides the easiest and more eﬃcient method.
+•
+Rotation of pattern pieces: Seamly2D cannot rotate; the other three can do this easily.
+•
+Seams: An older version of Seamly2D had a tool for seam allowance. The newer version has none.
+Cameo also lacks this function. If the user wants to add seams, they need to create parallel lines
+with the desired distance. Polypattern and Crea provide the seam allowance with three clicks.
+•
+Sizing: Seamly2D and Cameo cannot cover this very important need for a pattern developer. Crea
+and Polypattern are both focused in satisfying the demands of creating complex styles in a rapid
+changing manufacturing environment like the one of apparel.
+5. Conclusions
+OSS for garment pattern development is still at an experimental stage. While such software can
+manipulate standard demands in digital garment prototyping—such as the creation of a new pattern
+piece from the beginning and drawing lines—dealing with commands such as cutting, rotating, adding
+seam allowance, and especially grading in other sizes, is still problematic. Procedures in OSS are
+complicated and follow the mentality of doing the pattern by hand. Within the experimental work,
+certain processes could only be done in licensed CAD systems and not in OSS. For example, section
+distance measuring could be done only in Polypattern, Crea, and Cameo, but not in OSS Seamly2S.
+The study found that the creation of darts, folds, and fabric gathering in OSS was by trial and error.
+Although prescribed procedures were followed, the control of adding seam allowance or moving
+a section was problematic, as the tutorial for Seamly2D referred to an older version that probably
+provided the function, but was no longer found in the newer version. Two-dimensional pattern design
+software based on ﬂat patternmaking techniques has been successfully explored for patternmaking,
+grading, and creating pattern libraries within software for future retrieval [34]. More importantly,
+grading in diﬀerent sizes, which is an irreplaceable tool and command for pattern developers in the
+fashion industry, is simpliﬁed as a process only in professional licensed CAD systems. Wild Ginger
+lacks this function, catering well to the needs of only small garment units, boutiques, and custom
+apparel makers. Measurements need to be put into the system to obtain the pattern block. OSS, like
+Seamly 2D, cannot successfully support the learning process. Unless the complexity decreases, and the
+OSS project employs a modular approach to software production, the project becomes less attractive
+to new users, resulting in a technical success decrease. Academic institutions, in order to prepare
+fashion students for situations they will face once they have entered the job market, need to provide
+the industry-based experiential-learning opportunities required for translating innovative designs
+into marketable garments. OSS tools for garment prototyping need further development in order to
+achieve this goal.
+Author Contributions: Data curation, E.P.; Formal analysis, E.P.; Investigation, E.P.; Methodology, E.P.; Resources,
+P.K.; Supervision, N.B.; Writing—review & editing, E.P.
+Funding: This research received no external funding.
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+
+
+---
+
+Machines 2019, 7, 30
+9 of 10
+References
+1.
+Papachristou, E.; Bilalis, N. 3D virtual prototyping traces new avenues for fashion design & product
+development—A qualitative study. J. Text. Sci. Eng. 2017, 6, 297. [CrossRef]
+2.
+Papachristou, E.; Bilalis, N. Can 3D prototype conquer the apparel industry? J. Fash. Technol. Text. Eng. 2016,
+4, 2. [CrossRef]
+3.
+Istook, C. Rapid prototyping in the textile & apparel industry: A pilot project. J. Text. Appar. Technol. Manag.
+2000, 1, 1.
+4.
+Bae, J.; May-Plumplee, T. Customer focused textile & apparel manufacturing systems: Toward an Eﬀective
+e-commerce model. J. Text. Appar. Technol. Manag. 2005, 4, 1–19.
+5.
+Summers, J.D.; Shah, J.J. Mechanical Engineering Design Complexity Metrics: Size, Coupling, and Solvability.
+J. Mech. Des. 2010, 132, 021004. [CrossRef]
+6.
+Amadori, K.; Tarkian, M.; Ölvander, J.; Krus, P. Flexible and robust CAD models for design automation. Adv.
+Eng. Inform. 2012, 26, 180–195. [CrossRef]
+7.
+Bodein, Y.; Rose, B.; Caillaud, E. A roadmap for parametric CAD eﬃciency in the automotive industry.
+Comput. Aided Des. 2013, 45, 1198–1214. [CrossRef]
+8.
+Bodein, Y.; Rose, B.; Caillaud, E. Explicit reference modeling methodology in parametric CAD system.
+Comput. Ind. 2014, 65, 136–147. [CrossRef]
+9.
+Johnson, M.D.; Valverde, M.L.; Thomison, D.W. An investigation and evaluation of computer-aided design
+model complexity metrics. Comput.-Aided Des. Appl. 2018, 15, 61–75. [CrossRef]
+10.
+Diwakaran, R.P.; Johnson, M.D. Analyzing the eﬀect of alternative goals and model attributes on CAD model
+creation and alteration. Comput.-Aided Des. 2012, 44, 343–353. [CrossRef]
+11.
+Hamade, R.F.; Ammouri, A.H.; Artail, H. Toward pre-dicting the performance of novice CAD users based on
+their proﬁled technical attributes. Eng. Appl. Artif. Intell. 2012, 25, 628–639. [CrossRef]
+12.
+Hamade, R.F.; Artail, H.A.; Jaber, M.Y. A study of the impact of the willingness-to-learn of CAD novice users
+on their competence development. Comput. Ind. Eng. 2011, 61, 709–720. [CrossRef]
+13.
+Camba, J.D.; Contero, M.; Company, P. Parametric CAD modelling: An analysis of strategies for design
+reusability. Comput.-Aided Des. 2016, 74, 18–31. [CrossRef]
+14.
+Johnson, M.D.; Diwakaran, R.P. An educational exercise examining the role of model attributes on the
+creation and alteration of CAD models. Comput. Educ. 2011, 57, 1749–1761. [CrossRef]
+15.
+Seamly2D. Available online: http://valentina-project.org/ (accessed on 10 October 2017).
+16.
+Cameo v.6 (Wild Ginger). Available online: https://www.wildginger.com/downloads/cameo6download.htm
+(accessed on 10 October 2017).
+17.
+ABET. Available online: https://www.abet.org/accreditation/accreditation-criteria/criteria-for-accrediting-
+engineering-programs-2019-2020/#GC3 (accessed on 20 January 2019).
+18.
+Ullah, S.; Harib, K. Tutorials for Integrating CAD/CAM in Engineering Curricula. Educ. Sci. 2018, 8, 151.
+[CrossRef]
+19.
+Di Angelo, L.; Di Stefano, P.; Leali, F. Can Open-Source 3D Mechanical CAD Systems Eﬀectively Support
+University Courses? Int. J. Eng. Educ. 2016, 32, 1313–1324.
+20.
+Garcıa, R.R.; Santos, R.G.; Quiros, J.S.; Penin, P.I.A. Present state of CAD teaching in Spanish Universities.
+Comput. Educ. 2005, 44, 201–215. [CrossRef]
+21.
+Modaris, Lectra. Available online: https://www.lectra.com/en/modaris (accessed on 2 October 2017).
+22.
+Accumark Gerber Technologies. Available online: http://www.gerbertechnology.com/fashion-apparel/plan/
+accumark/ (accessed on 3 May 2018).
+23.
+Crea Solution. Available online: http://www.creasolution.it/en/products/design/2d-cad-fashion/?lang=en
+(accessed on 25 March 2018).
+24.
+Polypattern Polytropon. Available online: http://www.polytropon.com/en/PolyPattern/cad-pattern-design-
+software.html (accessed on 25 March 2018).
+25.
+Optitex. Available online: https://optitex.com/solutions/odev/pattern/ (accessed on 25 March 2018).
+26.
+Junk, S.; Kuen, C. Review of Open Source and Freeware CAD Systems for Use with 3D-Printing. Procedia
+CIRP 2016, 50, 430–435. [CrossRef]
+27.
+Seamly. Available online: https://seamly2d.wordpress.com/about/ (accessed on 20 January 2019).
+
+
+---
+
+Machines 2019, 7, 30
+10 of 10
+28.
+Field, D.A. Education and training for CAD in the auto industry. Comput.-Aided Des. 2004, 36, 1431–1437.
+[CrossRef]
+29.
+Katz, R. Integrated thinking in mechanical engineering education. Int. J. Eng. Educ. 2015, 31, 1613–1621.
+30.
+Cheng, N. Teaching CAD with language learning methods. Acadia 1997, 97, 173–188.
+31.
+Singh, V.; Holt, L. Learning and best practices for learning in open-source software Communities. Comput.
+Educ. 2013, 63, 98–108. [CrossRef]
+32.
+Beazley, A. Size and ﬁt: The development of size charts for clothing—Part 3. J. Fash. Mark. Manag. 1999, 3,
+66–84. [CrossRef]
+33.
+Aldrich, W. Metric Pattern Cutting for Women’s Wear, 6th ed.; Wiley: Hoboken, NJ, USA, 2015.
+34.
+Jhanji, Y. Computer-aided design—Garment designing and patternmaking. In Automation in Garment
+Manufacturing; Nayak, R., Padhye, R., Eds.; A Volume in the Textiles Institute Book Series; Technological
+Institute of Textile and Sciences: Bhiwani, India, 2018; pp. 253–290.
+© 2019 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access
+article distributed under the terms and conditions of the Creative Commons Attribution
+(CC BY) license (http://creativecommons.org/licenses/by/4.0/).

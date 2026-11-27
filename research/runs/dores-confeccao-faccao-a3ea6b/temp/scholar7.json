@@ -1,0 +1,778 @@
+{
+  "ok": true,
+  "data": {
+    "query": "ergonomia saude trabalhador costureira faccao vestuario",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 15,
+      "crossref": 20,
+      "doab": 0
+    },
+    "raw_records": 35,
+    "merged_records": 35,
+    "returned": 35,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Sintomas osteomusculares e qualidade de vida em costureiras do município de Indaial, Santa Catarina",
+        "source": "openalex",
+        "url": "https://doi.org/10.1590/1809-2950/16833624022017",
+        "doi": "10.1590/1809-2950/16833624022017",
+        "year": 2017,
+        "authors": [
+          "Anacléia Fernanda Moretto",
+          "Fabíola Hermes Chesani",
+          "Luciane Peter Grillo"
+        ],
+        "venue": "Fisioterapia e Pesquisa",
+        "abstract": "RESUMO Os problemas de saúde decorrentes da relação de trabalho têm se tornado um fenômeno mundial. O objetivo deste estudo foi avaliar os sintomas osteomusculares e a qualidade de vida em profissionais do ramo da costura no município de Indaial (SC). Trata-se de um estudo de natureza transversal com abordagem quantitativa. A amostra foi constituída por 118 costureiras de 48 empresas que responderam a três questionários: um sociodemográfico, outro de sintomas osteomusculares e um de qualidade de vida. Das costureiras avaliadas, 71,1% apresentaram sintomas osteomusculares nos últimos sete dias e 88,1% nos últimos doze meses. A região corporal mais afetada de acordo com a maioria dos relatos foi a dos ombros (18,6%) e as causas de afastamento foram as dores dorsais e lombares (cada uma correspondendo a 19,1% dos casos). O domínio de qualidade de vida mais comprometido foi o estado geral de saúde (57,03±16,08), seguido pelos de vitalidade (58,89±17,65), dor (60,53±22,28), saúde mental (66,81±19,19), aspectos emocionais (67,72±38,29), aspectos físicos (73,94±32,91), aspectos sociais (75,63±23,10) e capacidade funcional (77,16±19,19). Percebe-se que quanto maior o escore de qualidade de vida, menor o número de regiões anatômicas com dor. A associação de medidas preventivas ao trabalhar, como períodos de micropausas, atenção para posturas corretas e ginástica laboral, podem influenciar a redução de dor e prevenção de doenças, como também aprimorar a qualidade de vida.",
+        "pdf_url": "http://www.scielo.br/pdf/fp/v24n2/en_2316-9117-fp-24-02-00163.pdf",
+        "citation_count": 25,
+        "work_type": "article",
+        "identifier": "W2737894008",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A “TERCEIRIZAÇÃO” DA PRODUÇÃO NA INDÚSTRIA CURITIBANA DO VESTUÁRIO: ALÍVIO E DESESPERO",
+        "source": "openalex",
+        "url": "https://doi.org/10.33026/peg.v16i0.3527",
+        "doi": "10.33026/peg.v16i0.3527",
+        "year": 2015,
+        "authors": [
+          "Roberto Ranna Keller",
+          "Nilson Marcos Dias García"
+        ],
+        "venue": "PEGADA - A Revista da Geografia do Trabalho",
+        "abstract": "O texto é resultado da reflexão sobre os problemas enfrentados pelas indústrias de Curitiba prestadoras de serviços no segmento de vestuário. Contextualiza o processo de surgimento desses empreendimentos e as relações que mantêm com as detentoras de grandes marcas. Questiona essa parceria, considerada “vantajosa” para ambos pelos fornecedores, demonstrando, a partir de dados qualitativos, o desequilíbrio que se verifica na prática. Problematiza a realidade dessa negociação e tece considerações referentes aos valores humanos e éticos que permitem a manutenção dessa relação, evidenciando a pouca relevância atribuída às pessoas que dependem exclusivamente do seu trabalho. Desvela algumas condições de trabalho que fazem com que trabalhadores humildes percam suas saúdes e suas vidas, com poucas esperanças de encontrarem melhores condições para seus futuros.",
+        "pdf_url": "http://revista.fct.unesp.br/index.php/pegada/article/download/3527/2884",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W1526161223",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A precarização das condições de trabalho em “facções” do ramo têxtil/vestuário em Blumenau/SC: a face oculta da reestruturação produtiva",
+        "source": "openalex",
+        "url": "https://doi.org/10.24302/drd.v1i1.1398",
+        "doi": "10.24302/drd.v1i1.1398",
+        "year": 2017,
+        "authors": [
+          "Oscar Krost",
+          "Leonardo Brandão"
+        ],
+        "venue": "DRd - Desenvolvimento Regional em debate",
+        "abstract": "A colônia de Blumenau, criada em 1850, embora tenha sido ocupada inicialmente por pequenos agricultores originários da Alemanha, em pouco mais de 30 anos de existência vivenciou a criação de pequenas oficinas de costura e de fiação, cujo êxito levou à transformação em fábricas e à formação de um pólo fabril no setor. A partir da década de 1980, algumas dessas indústrias passaram por processos de reestruturação produtiva, transferindo parte de suas atividades a “terceiros”, também chamados de “facções”, ocasionando a redução do quadro de empregados e a precarização nas condições de trabalho. Em vista de tal realidade, pretende-se nesse artigo abordar os efeitos gerados pela “terceirização” por “facções” em Blumenau sobre a identidade profissional, a saúde e a renda dos operários, a fim de fornecer elementos para o debate e de permitir a elaboração de políticas públicas para seu enfrentamento.",
+        "pdf_url": "http://www.periodicos.unc.br/index.php/drd/article/view/1398/721",
+        "citation_count": 5,
+        "work_type": "article",
+        "identifier": "W2613229030",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Recomeçar no território: promoção da saúde mental a partir de uma intervenção do Programa de Mestrado PROFSAÚDE",
+        "source": "openalex",
+        "url": "https://doi.org/10.18310/2446-4813.2026v12nsup3.4874",
+        "doi": "10.18310/2446-4813.2026v12nsup3.4874",
+        "year": 2026,
+        "authors": [
+          "Hudson Guterres Guilherme",
+          "Daniely Monteiro Cruz",
+          "Michelle Kuntz Durand"
+        ],
+        "venue": "Saúde em Redes",
+        "abstract": "Este relato de experiência apresenta uma intervenção em saúde mental elaborada no contexto do Mestrado Profissional em Saúde da Família (PROFSAÚDE), implementada em uma Unidade de Saúde da Família no município de Gaspar, Santa Catarina. Direcionada a costureiras informais do setor têxtil-vestuário, a ação partiu de um diagnóstico situacional que revelou condições precárias de trabalho, adoecimento mental e enfraquecimento dos vínculos comunitários. A partir disso, reativou-se o grupo terapêutico “Recomeçar”, com encontros conduzidos por equipe multiprofissional. Utilizaram-se metodologias participativas como rodas de conversa, dinâmicas de grupo, atividades físicas e momentos de reflexão sobre autoestima, sobrecarga laboral e sentido da vida. Os relatos compartilhados evidenciaram sofrimento psíquico, medicalização do cuidado, isolamento e ausência de autocuidado, mas também o potencial terapêutico do acolhimento coletivo e da escuta sensível. A intervenção fortaleceu vínculos entre participantes e profissionais, resgatou o senso de comunidade e ampliou a percepção sobre saúde integral. A experiência reafirma a importância de ações territorializadas e participativas na Atenção Primária à Saúde, evidenciando o papel da saúde coletiva e da integração entre formação acadêmica e prática profissional no enfrentamento das desigualdades sociais e laborais.",
+        "pdf_url": "https://revista.redeunida.org.br/index.php/rede-unida/article/download/4874/1558",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7138965283",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Análise da qualidade de vida dos costureiros e sua relação com o vínculo empregatício",
+        "source": "openalex",
+        "url": "https://doi.org/10.5327/z1679-443520161716",
+        "doi": "10.5327/z1679-443520161716",
+        "year": 2016,
+        "authors": [
+          "Faculdade Evangélica do Paraná",
+          "Mônica Negrão Gomes",
+          "Nick Dorneli de Carvalho",
+          "Faculdade Evangélica do Paraná",
+          "Renato Nisihara",
+          "Faculdade Evangélica do Paraná"
+        ],
+        "venue": "Revista Brasileira de Medicina do Trabalho",
+        "abstract": "A cidade de Cianorte, localizada na região noroeste do Estado do Paraná, tem no vestuário sua atividade industrial mais representativa, abrigando uma população expressiva de costureiros, os quais exercem sua profissão em âmbito doméstico, em facções ou em empresas.As exigências do trabalho na indústria de confecção podem caracterizar um expediente altamente exaustivo, devido à atividade altamente repetitiva e monótona, ao estresse em relação à exigência de produtividade e à permanência de longos períodos na mesma posição durante a jornada de trabalho.Objetivo: Considerando a grande importância que atualmente se atribui à qualidade de vida (QV), o objetivo desta pesquisa foi avaliar a QV dos costureiros de Cianorte (PR) e avaliar se o vínculo trabalhista influencia tal medida.Métodos: O estudo tem desenho observacional, transversal e analítico, avaliando a QV de 301 costureiros de Cianorte.Para isso, foram aplicados dois questionários, um sociodemográfico e a versão traduzida e validada do questionário SF-36, que avalia a QV.Resultados: Nos domínios capacidade funcional, aspectos físicos, aspectos emocionais e aspectos sociais esses instrumentos tiveram índices satisfatórios.Contudo, nos aspectos dor, estado geral de saúde, vitalidade e saúde mental foi encontrada uma redução significativa da QV.Discriminando os diferentes trabalhadores, aqueles que exercem suas atividades em âmbito doméstico apresentaram piores resultados.Conclusão: Os costureiros de Cianorte apresentaram comprometimento de sua QV.Quando comparada entre os diferentes vínculos trabalhistas, verificou-se que os costureiros que trabalham em empresa apresentaram os melhores resultados na QV e os domésticos tiveram os índices mais insatisfatórios.",
+        "pdf_url": "https://doi.org/10.5327/z1679-443520161716",
+        "citation_count": 5,
+        "work_type": "article",
+        "identifier": "W2571022545",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Sintomas osteomusculares e qualidade de vida em costureiros(as) do setor têxtil em Fortaleza, CE",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.34119/bjhrv7n1-324",
+        "doi": "10.34119/bjhrv7n1-324",
+        "year": 2024,
+        "authors": [
+          "Maria Rivana Ferreira Dutra",
+          "Igor Oliveira Lima Rodrigues",
+          "Bruna Maiara de Brito Tavares",
+          "Douglas dos Santos Silva",
+          "Elisson de Sousa Mesquita Silva",
+          "Hyorranne Raysa Lima Maximiano",
+          "Lívia Maria Ribeiro Rodrigues",
+          "Samara Sousa Vasconcelos Gouveia"
+        ],
+        "venue": "Brazilian Journal of Health Review",
+        "abstract": "Introdução. Em Fortaleza CE, a indústria de confecção se destaca, mas enfrenta desafios como condições precárias de trabalho, jornadas longas, salários baixos e ambientes insalubres. A produção é realizada em pequenas unidades produtivas, muitas vezes nas residências dos produtores e costureiros, resultando em atividades monótonas e repetitivas. Essas condições prejudicam a saúde e a qualidade de vida dos trabalhadores. Objetivou-se conhecer o perfil e analisar as queixas de dor osteomuscular mais comuns, bem como relacionar com a qualidade de vida dos costureiros(as) que trabalham no setor confecção da cidade de Fortaleza CE. Métodos. Trata-se de um estudo transversal, de abordagem quantitativa com 39 participantes que responderam a uma Ficha de Identificação, a fim de se obter dados sociodemográficos, ao Questionário Nórdico de Sintomas Osteomusculares, para avaliação dos sintomas físicos presentes nos últimos 12 meses, e ao questionário SF-36, para a análise de qualidade de vida. Resultados. Dos costureiros avaliados 87,2% eram do gênero feminino na faixa etária acima de 50 anos, a maioria exercia trabalho doméstico 84,6 % e tinha 20 ou mais anos de profissão. A prevalência de sintomas osteomusculares nos 12 meses que antecederam a coleta foi elevada, sobretudo na região lombar e em região de punhos e mãos. Os domínios de qualidade de vida mais comprometidos foram os aspectos fisios e emocionais. Conclusão. Em conclusão, o estudo destaca a significativa relação entre os sintomas osteomusculares em costureiras e sua influência negativa na qualidade de vida. A necessidade de intervenções e estratégias voltadas para a melhoria das condições ergonômicas no ambiente de trabalho é essencial para mitigar esses impactos e promover o bem-estar dessas profissionais.",
+        "pdf_url": "https://ojs.brazilianjournals.com.br/ojs/index.php/BJHR/article/download/66891/47685",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4391873971",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Engenharia: soluções e inovações para o desenvolvimento",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.37423/2023.edcl864",
+        "doi": "10.37423/2023.edcl864",
+        "year": 2023,
+        "authors": [],
+        "venue": "Editora Conhecimento Livre eBooks",
+        "abstract": "Segundo Capello et al. (2010), o surgimento das patologias pode advir de um projeto mal feito, que dispõe de materiais de má qualidade, da deficiência de influência tecnológica, especialmente associada ao concreto, de ter intercorrência em algum momento de construção, em algumas obras estar com equipe sem ter a capacidade adequada para executar o projeto, e pôr fim a falta de fiscalização por parte dos responsáveis pelo desempenho do empreendimento.Portanto, esta pesquisa tem como objetivo abordar os problemas patológicos mais comuns em estruturas de concreto armado por meio de uma pesquisa de revisão de literatura.Destacam-se fissuras, manchas, geadas, corrosão do aço e deterioração das estruturas de concreto, indicando suas causas e possíveis medidas preventivas.O estudo patológico de estruturas de concreto armado é o objeto deste trabalho, pois a maioria das estruturas no Brasil é executada com esse material e muitos profissionais da área de construção civil enfrentam essa situação.A patologia pode prejudicar a vida útil do edifício e até impedir seu uso.2. REVISÃO BIBLIOGRÁFICA O termo patologia é normalmente utilizado em muitos campos da investigação científica, especialmente na área da medicina, envolvendo tanto o conhecimento científico como a prática clínica.Este campo estuda as mudanças estruturais e funcionais de células, tecidos e órgãos que podem estar sofrendo de doenças. PATOLOGIA E MANIFESTAÇÕES PATOLÓGICASDe acordo com Fonseca ( 2017), a responsabilidade técnica requer \"conformidade com \"Normas, Taxas e Requisitos Técnicos\", Responsabilidade Civil Relacionado a medidas para fazer cumprir a compensação moral ou hereditária de propriedade Baseia-se no novo Código Civil Brasileiro e na Lei 5.194 / 66 e 6.496 / 77.Finalmente, a responsabilidade criminal pode, em última análise, sujeitar os profissionais à pena de reclusão, a depender da gravidade das ações por ele cometidas, relativas ao exercício de sua profissão.Quanto à responsabilidade criminal, no capítulo das Lesões Corporais, art.129 do Código Penal é válido ressaltar que aquele que ofender a integridade corporal ou a saúde de alguém, pode pegar uma pena de três meses até doze anos de detenção; e no art.132 dispõe que \" expor a vida ou a saúde de outrem a perigo direto e iminente pode gerar pena de três meses a um ano de detenção\" (LEI nº 2.848, 1940).Vale ressaltar que o item VIII do art.39 do Código de Defesa do Consumidor (LEI Nº 8.078, 1990) veda que os serviços sejam feitos em desacordo com as normas da ABNT, ou seja, devemos cumprir todas as normas pertinentes ao assunto, principalmente a NBR 5674 (ABNT, 2012) que trata sobre a manutenção nas edificações.2.2 PATOLOGIA O termo patologia vem sido discutido e elaborado durante o decorrer do tempo, inicialmente o emprego dos termos de sua origem se relacionam diretamente com a medicina, termos estes que são da junção de duas palavras gregas pathos, referindo-se a sofrimento/doenças e logos, que faz significado de ciência/estudo; Bolina et al. (2019).De acordo com (SENA, et al. 2020), patologia é o estudo de doenças gerais com condições anormais, cuja etiologia pode ser conhecida ou desconhecida.Portanto, o estudo da doença, ou seja, a patologia, estuda o surgimento de anormalidades no sistema; os causadores de imperfeições, defeitos, deficiências ou \"doenças\".Tendo em vista as circunstâncias necessárias o tratamento de anomalias em certo desempenho, as soluções adotadas partem de princípios comum: quando o corpo padece com uma enfermidade que afeta o seu bom funcionamento, ele pode ser tratado com medicamentos, da mesma forma, uma edificação pode passar por reparos para a recuperação de seu uso esperado (FRANÇA et al. 2011).Entretanto, da mesma forma que o profissional da saúde, precisa entender a causa da doença para ser capaz de aplicar o método correto tratamento, medicando adequadamente, o engenheiro patologista, necessita conhecer bem as causas das anomalias que possam surgir nas construções, afim de propor soluções mais adequadas a cada situação, para tratar, recuperar e corrigir os problemas, com a intenção de reestruturar e deixar a edificação em boas condições de uso para seus usuários. PRINCIPAIS TIPOS DE MANIFESTAÇÕES PATOLÓGICAS NAS EDIFICAÇÕESAs patologias mais comuns encontradas nas edificações hoje são fissuras, corrosões em armaduras, eflorescências e infiltrações de água; podendo aparecer durante a construção do edifício, após o trabalho ou durante o uso do usuário (THOMAZ, 1989).",
+        "pdf_url": "https://doi.org/10.37423/2023.edcl864",
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "W4391829188",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "PROPOSIÇÃO DE UM PLANO DE RESPOSTAS A RISCOS: ESTUDO DE CASO DE UMA EMPRESA DE CONFECÇÃO DO ESTADO DO CEARÁ",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.37423/231208616",
+        "doi": "10.37423/231208616",
+        "year": 2023,
+        "authors": [
+          "Luiz Neto Paiva e Silva Müller"
+        ],
+        "venue": "Editora Conhecimento Livre eBooks",
+        "abstract": "Segundo Capello et al. (2010), o surgimento das patologias pode advir de um projeto mal feito, que dispõe de materiais de má qualidade, da deficiência de influência tecnológica, especialmente associada ao concreto, de ter intercorrência em algum momento de construção, em algumas obras estar com equipe sem ter a capacidade adequada para executar o projeto, e pôr fim a falta de fiscalização por parte dos responsáveis pelo desempenho do empreendimento.Portanto, esta pesquisa tem como objetivo abordar os problemas patológicos mais comuns em estruturas de concreto armado por meio de uma pesquisa de revisão de literatura.Destacam-se fissuras, manchas, geadas, corrosão do aço e deterioração das estruturas de concreto, indicando suas causas e possíveis medidas preventivas.O estudo patológico de estruturas de concreto armado é o objeto deste trabalho, pois a maioria das estruturas no Brasil é executada com esse material e muitos profissionais da área de construção civil enfrentam essa situação.A patologia pode prejudicar a vida útil do edifício e até impedir seu uso.2. REVISÃO BIBLIOGRÁFICA O termo patologia é normalmente utilizado em muitos campos da investigação científica, especialmente na área da medicina, envolvendo tanto o conhecimento científico como a prática clínica.Este campo estuda as mudanças estruturais e funcionais de células, tecidos e órgãos que podem estar sofrendo de doenças. PATOLOGIA E MANIFESTAÇÕES PATOLÓGICASDe acordo com Fonseca ( 2017), a responsabilidade técnica requer \"conformidade com \"Normas, Taxas e Requisitos Técnicos\", Responsabilidade Civil Relacionado a medidas para fazer cumprir a compensação moral ou hereditária de propriedade Baseia-se no novo Código Civil Brasileiro e na Lei 5.194 / 66 e 6.496 / 77.Finalmente, a responsabilidade criminal pode, em última análise, sujeitar os profissionais à pena de reclusão, a depender da gravidade das ações por ele cometidas, relativas ao exercício de sua profissão.Quanto à responsabilidade criminal, no capítulo das Lesões Corporais, art.129 do Código Penal é válido ressaltar que aquele que ofender a integridade corporal ou a saúde de alguém, pode pegar uma pena de três meses até doze anos de detenção; e no art.132 dispõe que \" expor a vida ou a saúde de outrem a perigo direto e iminente pode gerar pena de três meses a um ano de detenção\" (LEI nº 2.848, 1940).Vale ressaltar que o item VIII do art.39 do Código de Defesa do Consumidor (LEI Nº 8.078, 1990) veda que os serviços sejam feitos em desacordo com as normas da ABNT, ou seja, devemos cumprir todas as normas pertinentes ao assunto, principalmente a NBR 5674 (ABNT, 2012) que trata sobre a manutenção nas edificações.2.2 PATOLOGIA O termo patologia vem sido discutido e elaborado durante o decorrer do tempo, inicialmente o emprego dos termos de sua origem se relacionam diretamente com a medicina, termos estes que são da junção de duas palavras gregas pathos, referindo-se a sofrimento/doenças e logos, que faz significado de ciência/estudo; Bolina et al. (2019).De acordo com (SENA, et al. 2020), patologia é o estudo de doenças gerais com condições anormais, cuja etiologia pode ser conhecida ou desconhecida.Portanto, o estudo da doença, ou seja, a patologia, estuda o surgimento de anormalidades no sistema; os causadores de imperfeições, defeitos, deficiências ou \"doenças\".Tendo em vista as circunstâncias necessárias o tratamento de anomalias em certo desempenho, as soluções adotadas partem de princípios comum: quando o corpo padece com uma enfermidade que afeta o seu bom funcionamento, ele pode ser tratado com medicamentos, da mesma forma, uma edificação pode passar por reparos para a recuperação de seu uso esperado (FRANÇA et al. 2011).Entretanto, da mesma forma que o profissional da saúde, precisa entender a causa da doença para ser capaz de aplicar o método correto tratamento, medicando adequadamente, o engenheiro patologista, necessita conhecer bem as causas das anomalias que possam surgir nas construções, afim de propor soluções mais adequadas a cada situação, para tratar, recuperar e corrigir os problemas, com a intenção de reestruturar e deixar a edificação em boas condições de uso para seus usuários. PRINCIPAIS TIPOS DE MANIFESTAÇÕES PATOLÓGICAS NAS EDIFICAÇÕESAs patologias mais comuns encontradas nas edificações hoje são fissuras, corrosões em armaduras, eflorescências e infiltrações de água; podendo aparecer durante a construção do edifício, após o trabalho ou durante o uso do usuário (THOMAZ, 1989).",
+        "pdf_url": "https://doi.org/10.37423/231208616",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4391829241",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "ANÁLISE DAS MANIFESTAÇÕES PATOLÓGICAS EM QUADRA DE FUTEVÔLEI EM SÃO LUÍS DE MONTES BELOS- GO",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.37423/231208539",
+        "doi": "10.37423/231208539",
+        "year": 2023,
+        "authors": [
+          "Elielton Olimpio da Silva",
+          "Henrique Oliveira de Carvalho",
+          "Kátia Maria de Souza"
+        ],
+        "venue": "Editora Conhecimento Livre eBooks",
+        "abstract": "Segundo Capello et al. (2010), o surgimento das patologias pode advir de um projeto mal feito, que dispõe de materiais de má qualidade, da deficiência de influência tecnológica, especialmente associada ao concreto, de ter intercorrência em algum momento de construção, em algumas obras estar com equipe sem ter a capacidade adequada para executar o projeto, e pôr fim a falta de fiscalização por parte dos responsáveis pelo desempenho do empreendimento.Portanto, esta pesquisa tem como objetivo abordar os problemas patológicos mais comuns em estruturas de concreto armado por meio de uma pesquisa de revisão de literatura.Destacam-se fissuras, manchas, geadas, corrosão do aço e deterioração das estruturas de concreto, indicando suas causas e possíveis medidas preventivas.O estudo patológico de estruturas de concreto armado é o objeto deste trabalho, pois a maioria das estruturas no Brasil é executada com esse material e muitos profissionais da área de construção civil enfrentam essa situação.A patologia pode prejudicar a vida útil do edifício e até impedir seu uso.2. REVISÃO BIBLIOGRÁFICA O termo patologia é normalmente utilizado em muitos campos da investigação científica, especialmente na área da medicina, envolvendo tanto o conhecimento científico como a prática clínica.Este campo estuda as mudanças estruturais e funcionais de células, tecidos e órgãos que podem estar sofrendo de doenças. PATOLOGIA E MANIFESTAÇÕES PATOLÓGICASDe acordo com Fonseca ( 2017), a responsabilidade técnica requer \"conformidade com \"Normas, Taxas e Requisitos Técnicos\", Responsabilidade Civil Relacionado a medidas para fazer cumprir a compensação moral ou hereditária de propriedade Baseia-se no novo Código Civil Brasileiro e na Lei 5.194 / 66 e 6.496 / 77.Finalmente, a responsabilidade criminal pode, em última análise, sujeitar os profissionais à pena de reclusão, a depender da gravidade das ações por ele cometidas, relativas ao exercício de sua profissão.Quanto à responsabilidade criminal, no capítulo das Lesões Corporais, art.129 do Código Penal é válido ressaltar que aquele que ofender a integridade corporal ou a saúde de alguém, pode pegar uma pena de três meses até doze anos de detenção; e no art.132 dispõe que \" expor a vida ou a saúde de outrem a perigo direto e iminente pode gerar pena de três meses a um ano de detenção\" (LEI nº 2.848, 1940).Vale ressaltar que o item VIII do art.39 do Código de Defesa do Consumidor (LEI Nº 8.078, 1990) veda que os serviços sejam feitos em desacordo com as normas da ABNT, ou seja, devemos cumprir todas as normas pertinentes ao assunto, principalmente a NBR 5674 (ABNT, 2012) que trata sobre a manutenção nas edificações.2.2 PATOLOGIA O termo patologia vem sido discutido e elaborado durante o decorrer do tempo, inicialmente o emprego dos termos de sua origem se relacionam diretamente com a medicina, termos estes que são da junção de duas palavras gregas pathos, referindo-se a sofrimento/doenças e logos, que faz significado de ciência/estudo; Bolina et al. (2019).De acordo com (SENA, et al. 2020), patologia é o estudo de doenças gerais com condições anormais, cuja etiologia pode ser conhecida ou desconhecida.Portanto, o estudo da doença, ou seja, a patologia, estuda o surgimento de anormalidades no sistema; os causadores de imperfeições, defeitos, deficiências ou \"doenças\".Tendo em vista as circunstâncias necessárias o tratamento de anomalias em certo desempenho, as soluções adotadas partem de princípios comum: quando o corpo padece com uma enfermidade que afeta o seu bom funcionamento, ele pode ser tratado com medicamentos, da mesma forma, uma edificação pode passar por reparos para a recuperação de seu uso esperado (FRANÇA et al. 2011).Entretanto, da mesma forma que o profissional da saúde, precisa entender a causa da doença para ser capaz de aplicar o método correto tratamento, medicando adequadamente, o engenheiro patologista, necessita conhecer bem as causas das anomalias que possam surgir nas construções, afim de propor soluções mais adequadas a cada situação, para tratar, recuperar e corrigir os problemas, com a intenção de reestruturar e deixar a edificação em boas condições de uso para seus usuários. PRINCIPAIS TIPOS DE MANIFESTAÇÕES PATOLÓGICAS NAS EDIFICAÇÕESAs patologias mais comuns encontradas nas edificações hoje são fissuras, corrosões em armaduras, eflorescências e infiltrações de água; podendo aparecer durante a construção do edifício, após o trabalho ou durante o uso do usuário (THOMAZ, 1989).",
+        "pdf_url": "https://doi.org/10.37423/231208539",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4391829193",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "AS CORRENTES INVISÍVEIS DA INDÚSTRIA DA MODA BRASILEIRA",
+        "source": "openalex",
+        "url": "https://doi.org/10.17771/pucrio.acad.33865",
+        "doi": "10.17771/pucrio.acad.33865",
+        "year": 2017,
+        "authors": [
+          "ANA CAROLINA DA ROCHA LEAO MACHADO"
+        ],
+        "venue": null,
+        "abstract": "Este trabalho monográfico tem por objetivo desenvolver e expor a estreita relação entre o mercado fast fashion e a superexploração de trabalhadores imigrantes latino-americanos em oficinas clandestinas de costura localizadas nos centros urbanos brasileiros. Dessa forma, inicialmente, destaca-se a nova lógica de consumo que permite a produção a baixo custo mediante a sonegação de direitos do trabalhador em benefício do lucro, a estrutura de sweating system que a mantém e o consequente dumping social a ela associado. Além disso, cuida-se de esclarecer o que define o trabalho digno e como se revela os modos de execução da escravidão moderna, apresentando, em caráter complementar, parte específica sobre o tráfico de pessoas, tendo em vista a evidente ligação deste tipo penal com a conduta tema do presente estudo. Ainda, traz trato sobre a responsabilidade das grandes grifes que se aproveitam da superexploração deflagrada no interior de sua cadeia produtiva. Mais adiante, é exposto o caso paradigmático da multinacional ZARA, com a descrição dos resgates realizados em suas oficinas clandestinas e os desdobramentos de seus flagrantes. Também, são apresentados os mecanismos de enfrentamento do trabalho análogo ao escravo e, finalmente, é realizada análise da nova Portaria MTB 1.129/2017, que traz retrocessos significativos no que se refere à conceituação de trabalho escravo contemporâneo.",
+        "pdf_url": "https://www.maxwell.vrac.puc-rio.br/33865/33865.PDF",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4233497839",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "AVALIAÇÃO DO USO DE RESERVATÓRIO DE DUPLA FINALIDADE PARA APROVEITAMENTO DE ÁGUA DA CHUVA COM FINS NÃO POTÁVEIS E AMORTECIMENTO DE CHEIAS",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.37423/231208568",
+        "doi": "10.37423/231208568",
+        "year": 2023,
+        "authors": [
+          "Liriane Élen Böck",
+          "Vitória Tesser Martín",
+          "Bibiana Peruzzo Bulé",
+          "Angélica Guimarães da Silva",
+          "Néverton Scariot",
+          "Cristiano Gabriel Persch",
+          "Rutinéia Tassi",
+          "Daniel Allasia"
+        ],
+        "venue": "Editora Conhecimento Livre eBooks",
+        "abstract": null,
+        "pdf_url": "https://doi.org/10.37423/231208568",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4391829212",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "PROPOSTA DE IMPLANTAÇÃO DA FERRAMENTA KANBAN EM UMA INDÚSTRIA DE CONFECÇÃO NO CEARÁ",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.37423/231208632",
+        "doi": "10.37423/231208632",
+        "year": 2023,
+        "authors": [
+          "Luiz Neto Paiva e Silva Müller"
+        ],
+        "venue": "Editora Conhecimento Livre eBooks",
+        "abstract": null,
+        "pdf_url": "https://doi.org/10.37423/231208632",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4391829223",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Estudo ergonômico do posto de trabalho do operador de máquina de injeção de material plástico",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.37423/231208565",
+        "doi": "10.37423/231208565",
+        "year": 2023,
+        "authors": [
+          "Ismael de Marchi Neto",
+          "André Luís da Silva",
+          "Rafael Sene de Lima",
+          "Renan Manozzo Galante",
+          "Ricardo de Vasconcelos Salvo",
+          "Roger Nabeyama Michels"
+        ],
+        "venue": "Editora Conhecimento Livre eBooks",
+        "abstract": "Artigo publicado nos anais do VII Congresso Brasileiro de Engenharia de Produção (CONBREPRO), realizado de 06 a 08 de dezembro de 2017.",
+        "pdf_url": "https://doi.org/10.37423/231208565",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W2965672677",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "CULTIVARES DE BANANA CATURRA E O MAL-DO-PANAMÁ NO VALE DO ITAPOCU/SC",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.37423/231208610",
+        "doi": "10.37423/231208610",
+        "year": 2023,
+        "authors": [
+          "Luann Júnior Forteski",
+          "André Luiz Marquardt",
+          "Gustavo Vogel",
+          "Mário César Sedrez"
+        ],
+        "venue": "Editora Conhecimento Livre eBooks",
+        "abstract": null,
+        "pdf_url": "https://doi.org/10.37423/231208610",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4391829115",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Procedimentos Metodológicos de Pesquisa: Ciência e Conhecimento",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/9786588565650",
+        "doi": "10.5965/9786588565650",
+        "year": 2023,
+        "authors": [
+          "Icléía Silveira",
+          "Lucas da Rosa"
+        ],
+        "venue": "Editora Udesc eBooks",
+        "abstract": "Este livro eletrônico, e-book, foi organizado para fins didáticos, a partir dos conteúdos ministrados na disciplina de Metodologia da Pesquisa Científica, do Mestrado em Design de Vestuário e Moda, da Universidade do Estado de Santa Catarina (UDESC). Trata-se de um material de orientação para o desenvolvimento da dissertação, com foco na ementa da disciplina e exemplos que podem colaborar nesse processo, embora existam muitos livros publicados sobre o assunto, inclusive indicados no plano de ensino da disciplina. Os capítulos estão divididos com o propósito de organizar, interpretar, descrever e exemplificar os passos indispensáveis aos conhecimentos que indicam o que fazer e como fazer os estudos acadêmicos, destacando-se de forma sintética os elementos constitutivos da pesquisa conforme padrões científicos. Neste sentido, mostra-se a relevância da pesquisa científica e, em especial, voltada à elaboração da dissertação, levando em consideração as normas da Associação Brasileira de Normas Técnicas (ABNT). Espera-se que os discentes e demais interessados pelo assunto percebam a importância destes conhecimentos para a vida acadêmica e sua aplicação na prática do desenvolvimento de trabalhos científicos.",
+        "pdf_url": "https://doi.org/10.5965/9786588565650",
+        "citation_count": 7,
+        "work_type": "book",
+        "identifier": "W4379646667",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Saude do trabalhador",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1996.114922",
+        "doi": "10.47749/t/unicamp.1996.114922",
+        "year": 2021,
+        "authors": [
+          "Francisco Antonio de Castro Lacaz"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1996.114922",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Gestão da Saúde do Trabalhador e Ergonomia",
+        "source": "crossref",
+        "url": "https://doi.org/10.47022/backup.books020",
+        "doi": "10.47022/backup.books020",
+        "year": 2021,
+        "authors": [
+          "Izabela Souza da Silva"
+        ],
+        "venue": null,
+        "abstract": "Este livro traz com clareza, veracidade e probidade assuntos sobre a gestão em saúde do trabalhador, ergonomia, perícia judicial, temas jurídicos na área, sendo uma importante obra para o direcionamento e estruturação acadêmica das profissões inseridas neste tema.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.47022/backup.books020",
+        "extra": {
+          "crossref_type": "book",
+          "publisher": "Backup Books Editora"
+        }
+      },
+      {
+        "title": "Saude do trabalhador no Brasil: analise do modelo de atenção proposto para o Sistema Unico de Saude (SUS)",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1998.175466",
+        "doi": "10.47749/t/unicamp.1998.175466",
+        "year": 2021,
+        "authors": [
+          "Sandra Maria Spedo"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1998.175466",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Vigilancia em saude do trabalhador no sistema unico de saude: a vigilancia do conflito e o conflito da vigilancia",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1996.133428",
+        "doi": "10.47749/t/unicamp.1996.133428",
+        "year": 2021,
+        "authors": [
+          "Tarcisio Marcio Magalhães Pinheiro"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1996.133428",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "ERGONOMIA, CARGA MENTAL DE TRABALHO, RISCOS E PREVENÇÃO DE ACIDENTES: O CASO DO TRABALHADOR EM HISTOTÉCNICA",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.11694",
+        "doi": "10.17771/pucrio.acad.11694",
+        "year": 2015,
+        "authors": [
+          "MYRIAM BRITTO DOS SANTOS"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.11694",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "Processo de trabalho em saude: uma cartografia de fluxos e tempos trabalhador-centrada",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2001.262321",
+        "doi": "10.47749/t/unicamp.2001.262321",
+        "year": 2021,
+        "authors": [
+          "Mauricio Chakkour"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2001.262321",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "A descentralização da vigilancia da saude do trabalhador no SUS-Campinas",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2008.431906",
+        "doi": "10.47749/t/unicamp.2008.431906",
+        "year": 2021,
+        "authors": [
+          "Salma Regina Rodrigues Balista"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2008.431906",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "A saude do trabalhador na rede de atenção basica de saude: construindo viabilidades a partir de um projeto pedagogico",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2004.301953",
+        "doi": "10.47749/t/unicamp.2004.301953",
+        "year": 2021,
+        "authors": [
+          "Elisabete de Fatima Polo de Almeida Nunes"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2004.301953",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "PERSPECTIVAS E DESAFIOS NA SAÚDE DE TRABALHADOR NA INDÚSTRIA EXTRATIVA EM MOÇAMBIQUE.",
+        "source": "crossref",
+        "url": "https://doi.org/10.29327/127430.295213",
+        "doi": "10.29327/127430.295213",
+        "year": 2020,
+        "authors": [
+          "Lídia Deise Ilídio Sanduane",
+          "Paulo Antonio Barros Oliveira"
+        ],
+        "venue": "XX Congresso Brasileiro de Ergonomia - Virtual 2020",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.29327/127430.295213",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "INDICADORES BIBLIOMÉTRICOS DA PRODUÇÃO CIENTÍFICA SOBRE A ERGONOMIA: análise nos periódicos indexados à base Scopus",
+        "source": "crossref",
+        "url": "https://doi.org/10.37423/201002924",
+        "doi": "10.37423/201002924",
+        "year": 2020,
+        "authors": [
+          "Lucas Capita Quarto",
+          "Daniel Madeira Cardoso",
+          "Fernanda Castro Manhães"
+        ],
+        "venue": "Saúde do trabalhador: uma abordagem pluralista",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.37423/201002924",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Editora Conhecimento Livre"
+        }
+      },
+      {
+        "title": "Reconstrução de coortes: metodos, tecnicas e interfaces com a vigilancia em saude do trabalhador",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2009.439444",
+        "doi": "10.47749/t/unicamp.2009.439444",
+        "year": 2021,
+        "authors": [
+          "Marcos Oliveira Sabino"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2009.439444",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "O centro de referencia em saude do trabalhador de Campinas: trajetoria de uma experiencia",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2001.206376",
+        "doi": "10.47749/t/unicamp.2001.206376",
+        "year": 2021,
+        "authors": [
+          "Maria Angelica Tavares de Medeiros"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2001.206376",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "ERGONOMIA APLICADA A SAÚDE DO TRABALHADOR",
+        "source": "crossref",
+        "url": "https://doi.org/10.51161/conasc/19762",
+        "doi": "10.51161/conasc/19762",
+        "year": 2023,
+        "authors": [
+          "Talita Maria Araújo de Abreu",
+          "FRANCISCO MARCELO ALVES BRAGA FILHO"
+        ],
+        "venue": "Anais do Congresso Nacional Interdisciplinar de Saúde Coletiva On-line",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.51161/conasc/19762",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Revista Multidisciplinar em Saúde"
+        }
+      },
+      {
+        "title": "Saúde do Trabalhador e da Trabalhadora",
+        "source": "crossref",
+        "url": "https://doi.org/10.4322/978-65-981493-1-4.verb086",
+        "doi": "10.4322/978-65-981493-1-4.verb086",
+        "year": 2023,
+        "authors": [
+          "Elizabeth Costa Dias"
+        ],
+        "venue": "Dicionário de Ergonomia e Fatores Humanos:",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.4322/978-65-981493-1-4.verb086",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "ABERGO - Associação Brasileira de Ergonomia"
+        }
+      },
+      {
+        "title": "ERGONOMIA COGNITIVA: PERCEPÇÃO DE INTEGRALIDADE DO TRABALHADOR EM ASPECTOS DE SEGURANÇA NO TRABALHO",
+        "source": "crossref",
+        "url": "https://doi.org/10.5151/engpro-conaerg2016-8079",
+        "doi": "10.5151/engpro-conaerg2016-8079",
+        "year": 2016,
+        "authors": [
+          "Silvânia Rodrigues de PAULA",
+          "Edgard Thomas MARTINS"
+        ],
+        "venue": "Blucher Engineering Proceedings",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5151/engpro-conaerg2016-8079",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Editora Blucher"
+        }
+      },
+      {
+        "title": "Recursos humanos e o novo trabalhador em saude: a experiencia da SecretariaMunicipal de Saude na cidade de São Paulo durante a gestão do Partido dos Trabalhadores (1989-1992)",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1996.112067",
+        "doi": "10.47749/t/unicamp.1996.112067",
+        "year": 2021,
+        "authors": [
+          "Maria de Lourdes Mattos"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1996.112067",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Impactos da utilização da Ergonomia na relação homem-ambiente-trabalho e possíveis contribuições para o campo Saúde do trabalhador: estudo em uma indústria alimentícia",
+        "source": "crossref",
+        "url": "https://doi.org/10.14393/ufu.di.2019.2021",
+        "doi": "10.14393/ufu.di.2019.2021",
+        "year": 2019,
+        "authors": [
+          "Bruno Silva Pereira"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.14393/ufu.di.2019.2021",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "EDUFU - Editora da Universidade Federal de Uberlandia"
+        }
+      },
+      {
+        "title": "Saúde do trabalhador, ergonomia e segurança do paciente",
+        "source": "crossref",
+        "url": "https://doi.org/10.7476/9788575415948.0008",
+        "doi": "10.7476/9788575415948.0008",
+        "year": 2014,
+        "authors": [
+          "Uva António de Sousa",
+          "Florentino Serranheira"
+        ],
+        "venue": "Segurança do Paciente: criando organizações de saúde seguras",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "book-chapter",
+        "identifier": "10.7476/9788575415948.0008",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Editora FIOCRUZ"
+        }
+      },
+      {
+        "title": "ERGONOMIA DOMICILIAR E SAÚDE DO TRABALHADOR: IMPACTOS DO TELETRABALHO",
+        "source": "crossref",
+        "url": "https://doi.org/10.36926/editorainovar-978-65-5388-383-3_008",
+        "doi": "10.36926/editorainovar-978-65-5388-383-3_008",
+        "year": 2026,
+        "authors": [
+          "Leonice Rodrigues de Jesus"
+        ],
+        "venue": "EDUCAÇÃO, SAÚDE E DIREITOS HUMANOS: ABORDAGENS QUE PROMOVEM QUALIDADE DE VIDA",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.36926/editorainovar-978-65-5388-383-3_008",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Editora Inovar"
+        }
+      },
+      {
+        "title": "O Home Office e Ergonomia: O Impacto na Saúde do Trabalhador.",
+        "source": "crossref",
+        "url": "https://doi.org/10.37423/200902849",
+        "doi": "10.37423/200902849",
+        "year": 2020,
+        "authors": [
+          "Giovanni Henrique Silva Lima",
+          "Rogério Gomes Rossignoli Junior",
+          "Isabelle Reis Daldegan",
+          "Clara de Oliveira Menon",
+          "Leonardo Rezende de Oliveira",
+          "Alicia Muller Fregulia",
+          "Talisson Tadeu Emidio Ferreira",
+          "João Paulo Gonçalves dos Santos"
+        ],
+        "venue": "Saúde do trabalhador: uma abordagem pluralista",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.37423/200902849",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Editora Conhecimento Livre"
+        }
+      }
+    ]
+  },
+  "count": 35,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:02:00.934865+00:00"
+}

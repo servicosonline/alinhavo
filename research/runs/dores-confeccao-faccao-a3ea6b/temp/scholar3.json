@@ -1,0 +1,458 @@
+{
+  "ok": true,
+  "data": {
+    "query": "modelagem vestuario CAD encaixe desperdicio tecido confeccao",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 0,
+      "doab": 0
+    },
+    "raw_records": 20,
+    "merged_records": 20,
+    "returned": 20,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "DETERMINAÇÃO DO PERCENTUAL DE DESPERDÍCIO DE MATÉRIA- PRIMA (TECIDO) ENTRE ENCAIXE MANUAL E COM COMPUTER AIDED DESIGN - CAD",
+        "source": "openalex",
+        "url": "http://www.dep.uem.br/gdct/index.php/dep_tcc/article/view/1160",
+        "doi": null,
+        "year": 2007,
+        "authors": [
+          "Ariana Martins Vieira",
+          "Manoel Francisco Carreira"
+        ],
+        "venue": "Trabalhos de Conclusão de Curso do DEP",
+        "abstract": "Nos ultimos dez anos avancos tecnologicos estao sendo apresentados as industrias do vestuario, principalmente com a evolucao da informatica. A maior evolucao ocorreu com o surgimento dos Sistemas CAD e CAM especificos para o vestuario. Estes sao os responsaveis, a principio, por diminuir o tempo de operacao nas fases de criacao, modelagem, encaixe, corte, e do desperdicio de materia-prima, alem de aumentar a flexibilidade produtiva nessas etapas. A maior barreira para as industrias do vestuario, principalmente para as de pequeno porte, e o alto preco desses equipamentos, pois a relacao custo beneficio, comparativamente com o seu volume de producao, nao permite a aquisicao. A pesquisa tem como objetivo determinar o percentual de desperdicio de materia-prima (tecido) entre o processo de encaixe manual e computadorizado utilizado em confeccao industrial. Atraves de simulacoes de encaixes com sistema CAD, com os modelos escolhidos, foi possivel realizar as medicoes de desperdicios dos mesmos encaixes feitos manualmente e assim determinar o gasto real de materia-prima. Para a concretizacao deste estudo primeiramente foi determinado a modelagem das pecas, feito os encaixes, plotados e distribuidos para as modelistas realizarem o encaixe manualmente. Com o comparativo das referencias foi possivel concluir que os valores de referencia estao superiores aos valores demonstrados neste experimento quanto a porcentagem de desperdicio de materia-prima, porem nao foi realizado um estudo especifico, sendo seus valores apenas estimados. Quanto a aquisicao do sistema computadorizado foi possivel estimar sua viabilidade para a producao dos modelos realizados neste experimento. Contudo os sistemas CAD apresentam-se como um diferencial competitivo por meio da otimizacao da producao.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W2907910161",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "closed"
+        }
+      },
+      {
+        "title": "A compilação da ferramenta CAD com o método Zero Waste para melhor aproveitamento tecidos na confecção de vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/ped2022-8949310",
+        "doi": "10.5151/ped2022-8949310",
+        "year": 2022,
+        "authors": [
+          "Maria Fernanda Sornas Viggiani",
+          "Marizilda dos Santos Menezes",
+          "Mônica Cristina De Moura"
+        ],
+        "venue": null,
+        "abstract": "O artigo tem como objetivo estudar o método zero waste (zero resíduos) aplicado no design de moda e verificar a utilização deste método através da ferramenta CAD. Para abordar a temática foi realizada uma análise sobre a geração de resíduos têxteis e seus impactos ao meio ambiente; discorreu-se sobre dados históricos do método zero waste no setor da moda e métodos utilizados por designers na contemporaneidade. Por fim, analisou-se como a ferramenta CAD junto ao método zero waste facilitaria o processo de produção melhorando o aproveitamento de tecidos. O presente trabalho utilizou a metodologia elencada em pesquisas bibliográficas por meio de artigos científicos, dissertações e livros internacionais. Com base nesse estudo, pode-se verificar que a ferramenta CAD auxiliaria na produção de produtos zero waste, proporcionando total redução de resíduos têxteis, no entanto, este método ainda carece de estudos quanto à gradação para produção em larga escala.",
+        "pdf_url": "http://pdf.blucher.com.br/designproceedings/ped2022/8949310.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4319313731",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Modelagem do Vestuário: Catalogação de Técnicas e Métodos",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/9786555501421-18",
+        "doi": "10.5151/9786555501421-18",
+        "year": 2022,
+        "authors": [
+          "Régis Puppim",
+          "Danielle Paganini Beduschi"
+        ],
+        "venue": "Editora Blucher eBooks",
+        "abstract": "Através dos tempos o vestuário e a(s) prática(s) do vestir têm, claramente, se adequado às vogas, moda(s), modismos, costumes e/ou culturas. Com isso, as formas, cores, tecidos e ornamentos são facilmente identificados e, até mesmo, datados, temporalmente. Porém, nem sempre consegue-se observar a evolução existente nas “estruturas construtivas” do vestuário, conhecidamente como “modelagem”, “molde” e/ou “padrão”. Portanto, este capítulo apresenta uma catalogação de técnicas e métodos utilizadas na Modelagem do Vestuário, com objetivo de traçar diferentes panoramas: Histórico; Técnicas/Tipologias; e Questões emergentes/atuais e perspectivas do que está por vir.",
+        "pdf_url": "https://openaccess.blucher.com.br/download-pdf/554/23293",
+        "citation_count": 4,
+        "work_type": "book-chapter",
+        "identifier": "W4225665811",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Prototipagem Virtual: Softwares 3D para Modelagem de Vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2024.v15.n3.50575",
+        "doi": "10.5433/2236-2207.2024.v15.n3.50575",
+        "year": 2024,
+        "authors": [
+          "Silvia Cristina Silveira dos Santos",
+          "Icléía Silveira",
+          "Sandra Regina Rech"
+        ],
+        "venue": "Projetica",
+        "abstract": "O objetivo desta pesquisa foi elencar softwares 3D aplicados ao desenvolvimento de modelagem do vestuário, prototipagem virtual e geração de moldes para uso na indústria de vestuário. Para isso foi feita uma pesquisa básica, com abordagem qualitativa e descritivo. Foi utilizada a revisão teórica de literatura por meio de artigos científico, livros, relatório de tendências, sites de empresas de tecnologia e dissertações. Como resultado foi listado os softwares de modelagem 3D, sites de lojas de ativos digitais para softwares de assim como alguns softwares de modelagem 2D de código aberto. Constatou-se que a indústria de vestuário está iniciando a transição para às tecnologias digitais e os profissionais de desenvolvimento de produto precisam de novas habilidades e novas competências.",
+        "pdf_url": "https://ojs.uel.br/revistas/uel/index.php/projetica/article/download/50575/51429",
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "W4406216955",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A tecnologia nos processos de desenvolvimento de produto e na produção das micro e pequenas empresas de confecção do vestuário de Porto Alegre - RS e Sombrio - SC",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/36048",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Paula Rodrigues Bittencourt"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "O objetivo deste trabalho foi abordar a inserção da tecnologia nos processos de desenvolvimento de produto e na produção das micro e pequenas empresas de confecção de Porto Alegre – RS e Sombrio - SC. O software CAD/CAM que permite economizar tempo e reduzir os custos de produção e desenvolvimento de produto, reduzindo o número de protótipos físicos e facilitando o encaixe. Sobretudo, o presente trabalho visa analisar como as micro empresas inserem a tecnologia em seus processos. O uso do sistema CAD (Desenho Assistido por computador) é uma tecnologia em que a computação suporta quase todas as áreas da confecção: design e criação, design têxtil, modelagem, ampliação, encaixe e risco, ficha técnica, cálculo de custos industriais, ordem de corte e gestão da produção. A evolução da tecnologia para a indústria do vestuário representa um fator significativo, possibilitando mudanças radicais que podem reduzir o tempo de fabricação do produto, acelerando e aperfeiçoando os processos. O estudo de caso englobou três micro empresas e uma pequena empresa de confecção do vestuário de Porto Alegre – RS e Sombrio - SC cuja análise dos dados qualitativos resultou em sugestões de melhorias para cada empresa estudadas.",
+        "pdf_url": null,
+        "citation_count": 5,
+        "work_type": "thesis",
+        "identifier": "W2199212968",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Tecido Impresso em 3D para a Indústria do Vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/ped2018-8.1_pte_02",
+        "doi": "10.5151/ped2018-8.1_pte_02",
+        "year": 2019,
+        "authors": [
+          "Laís Estefani Hornburg",
+          "Carine Rorato de OLIVEIRA",
+          "Arlete Ehlert de Souza",
+          "Jeferson Daronch",
+          "Danilo Corrêa Silva"
+        ],
+        "venue": null,
+        "abstract": "A inovação é uma necessidade para diversos setores produtivos, promovendo a diferenciação e a sustentabilidade dos processos.Na indústria de vestuário, a redução de resíduos é um fator crítico, pois há um alto desperdício de material na produção das peças.Além disso, a influência da moda muitas vezes gera o descarte prematuro dessas peças, aumentando o passivo ambiental.Considerando esses fatores, novas tecnologias como a impressão 3D pode contribuir para a melhoria desse cenário.Nesse sentido, o objetivo desse artigo foi desenvolver tecidos impressos em 3D, utilizando material biodegradável.Houve o desenvolvimento em software de modelagem tridimensional utilizando formas geométricas que propiciem maior flexibilidade ao produto.Posteriormente houve a prototipagem de dois modelos utilizando filamento de Ácido Polilático (PLA).Os resultados apontam melhorias nas características de flexibilidade e maleabilidade dos tecidos desenvolvidos, demonstrando potencial para aplicação nas indústrias do vestuário, reduzindo desperdícios e possibilitando a criação de peças personalizadas.",
+        "pdf_url": "http://pdf.blucher.com.br.s3-sa-east-1.amazonaws.com/designproceedings/ped2018/8.1_PTE_02.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W2941681971",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "MODELAGEM DO VESTUÁRIO E ESTAMPA BARRADA: limitações, adaptações e simulações técnicas",
+        "source": "openalex",
+        "url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/view/761",
+        "doi": "10.18406/2359-1269v12n52025761",
+        "year": 2026,
+        "authors": [
+          "Daniele Cristina Coelho de Queiroz",
+          "Jussara Aparecida Teixeira"
+        ],
+        "venue": "Revista Eixos Tech",
+        "abstract": "This paper investigates the challenges encountered when fitting patterns onto fabrics with border prints, especially in long garments where the limited positioning of the print restricts fabric usage and may compromise both the aesthetic and functionality of the final product. The aim was to analyze the limitations imposed by this type of print and identify technical adaptations that could optimize pattern making, fabric layout, and the overall quality of the produced garments. The research involved a literature review, direct observation in the production environment, and digital simulations using CLO3D software to assess the positioning and the results of the patterning in relation to the print. The findings highlighted that border prints create challenges in fabric utilization, size grading, and aesthetic consistency, requiring adjustments in pattern making and the placement of the pattern pieces on the fabric. It concludes that collaboration between design and pattern making departments, combined with the use of digital tools, helps reduce fabric waste and improves the visual quality of garments made with border prints.",
+        "pdf_url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/download/761/357",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7216091538",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Modelagem zero waste e sua aplicação na indústria do vestuário: conceitos, práticas e limitações",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2022.tde-08032022-081643",
+        "doi": "10.11606/d.100.2022.tde-08032022-081643",
+        "year": 2022,
+        "authors": [
+          "Lílian Sayuri Kauvauti"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "The large-scale production process in the textile clothing industry, as well as in other segments, is stimulated by the constant increase in consumption and produces large amounts of waste, which threaten the environment and the survival of the planet. New approaches encourage reflection on the search for production methods that reduce or eliminate waste generation. The zero waste concept, applied to the production of clothing, is one of them and promises the elimination of textile waste during the production process, promoting actions towards sustainability. It is in this context that the present work is inserted, seeking, as its main objective, to identify the characteristics and limitations of zero waste patternmaking approaches proposed by several designers, for its application in the clothing industry, discussing alternatives that allow overcome these limitations, even partially. Therefore, it starts with a bibliographical research related to the theme, complemented by the study of the proposals of the main designers of zero waste modeling and by the reproduction and discussion of some experiments. The research allowed the identification of several limitations of zero waste patternmaking, comparisons with the conventional process and discussions about feasible alternatives for its implementation in the production process of large-scale clothing manufacturing.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-08032022-081643/publico/Lilian_Kauvauti_versao_corrigida.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4405247232",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "DETERMINAÇÃO DO CONSUMO DE MATÉRIA-PRIMA: ENCAIXE MANUAL VERSUS ENCAIXE COMPUTADORIZADO NA PRODUÇÃO DE ARTIGOS MANUFATURADOS",
+        "source": "openalex",
+        "url": "http://rdu.unicesumar.edu.br//handle/123456789/5563",
+        "doi": null,
+        "year": 2009,
+        "authors": [
+          "Ariana Martins Vieira",
+          "Sandra Biégas",
+          "Manoel Francisco Carreira"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "A pesquisa desenvolvida teve como objetivo determinar e comparar o consumo de matéria-prima usando o processo de encaixe manual e computadorizado utilizado em indústrias de artigos manufaturados. Esta pesquisa classifica-se como exploratória e investigativa com abordagem quantitativa, aplicada à prática de manufatura. Através da comparação das simulações de encaixes manuais e dos mesmos encaixes computadorizados foi possível determinar o percentual de consumo real de matéria-prima, onde os dados foram tabulados para analisar qual o melhor desempenho. Os resultados observados na simulação do encaixe computadorizado demonstram valores próximos dos referenciais teóricos. Comparando os resultados entre a simulação manual e computadorizado, esta apresentou melhor aproveitamento. Pode ser concluído que a tecnologia neste processo produtivo apresenta-se como um diferencial competitivo por meio da otimização da produção, agilidade do processo e qualidade na execução.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W3154057366",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A Indústria de Confecção do Vestuário de Pato Branco: Aspectos de Gestão, Design, Caracterização de Matérias-Primas e Geração de Resíduos Têxteis",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1982615x10202017023",
+        "doi": "10.5965/1982615x10202017023",
+        "year": 2017,
+        "authors": [
+          "Andréia Mesacasa",
+          "Mário Antônio Alves da Cunha"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "Esta pesquisa possui como foco a indústria de confecção do vestuário no município de Pato branco, evidenciando aspectos relativos à gestão, design, caracterização de matérias-primas e geração de resíduos. No presente estudo foi realizado um diagnóstico junto às empresas, com o intuito de obter informações referentes aos perfis das mesmas, destacando as formas de gestão, design e desenvolvimento de produto, matérias-primas utilizadas e geração de resíduos têxteis. Tais empresas caracterizam-se como empreendimentos de micro e pequeno porte, atuando em diferentes segmentos de mercado, com forte tendência a produção de uniformes profissionais. Em consequência disso, grande parte dos resíduos gerados é constituída por retalhos de malha. Neste sentido, uma alternativa para o reaproveitamento destes resíduos poderia contribuir tanto do ponto de vista ambiental por meio de um melhor direcionamento destes, como economicamente, uma vez que poderiam ser voltados para a produção de produtos de maior valor agregado.",
+        "pdf_url": "http://revistas.udesc.br/index.php/modapalavra/article/download/9554/6800",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W2634651200",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Práticas cotidianas acerca do gerenciamento de resíduos sólidos na indústria da confecção de vestuário no município de Maringá, Paraná",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/t.106.2018.tde-09022018-131442",
+        "doi": "10.11606/t.106.2018.tde-09022018-131442",
+        "year": 2018,
+        "authors": [
+          "Paula Piva Linke"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "In the present research I sought to understand how businesses from the clothing industry deal with residues from the production process. To do so, I reflected on: the production process of clothing industries in the three selected companies, named here N, I and A; the residues generation; legal rulings which apply to residue management in the clothing industry; and the subject positions of those who deal daily with this king of production. Hence, the hypotheses which guided the theses is that although there is large legal ruling on residues management and proper production technologies, there are also daily procedures of doing which prevent the process from working better. As a theoretical base, it is relevant to understand what can be understood as environment, development, sustainable development and fashion. Supplementary, in order to encompass daily practices of the subjects linked with clothing production in relation to the residues, the concepts of habitus and social representation are paramount. I used a methodology of qualitative approach, namely the multiple case study, and applied production and analyses methods of semi structured interview. The thesis is structured as follows: in the first chapter the theoretical reference essential to the formulated hypothesis is presented. In it, I explain the concepts used as well as the methodology used to conduct the research. In the second, I discuss the legal ruling on residue management. In the third, I present the specificity of the clothing sector in Maringá town. In the fourth, I contemplate the production process of clothing within the three companies studied. In the fifth, I bring the analyses of the residues management process. In the sixth, the perceptions of the social subjects involved in the production process. Lastly, I present the final considerations. I could indeed verify that as there are national and local legal rulings weighing on the residues management in order to minimize its production, there still are ways in which production not only generates significant losses in the clothing industry, but also result in a not always correct destination of generated residues. I could realize that this results from subjects not assimilating the guidelines recommended in the national and local law, and that this can be explained by how subjects involved in the production process as a whole appropriate the understandings of the law and represent it in actions which show acting limitations and possibilities. It is important to consider that the companies are part of capitalism and follow the rules stablished by this system. As to the analyzed companies, I do not consider them sustainable, but with little impact on the environment, highlighting N, followed by I and A. I also do not see the possibility of reaching a sustainable society with the current lifestyle and philosophy of capitalism.",
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W2808897783",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "ZERO WASTE (RESÍDUO ZERO): UMA ABORDAGEM SUSTENTÁVEL PARA CONFECÇÃO DE VESTIMENTAS",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/designpro-ped-00668",
+        "doi": "10.5151/designpro-ped-00668",
+        "year": 2014,
+        "authors": [
+          "Francis da Silveira Firmo"
+        ],
+        "venue": "Congresso Brasileiro de Pesquisa e Desenvolvimento em Design (P&D Design)",
+        "abstract": "A proposta deste trabalho é dar uma contribuição para a divulgação do design Zero Waste (também conhecido como Resíduo Zero), abordagem em que os designers de moda, durante o processo criativo, elaboram seus projetos visando antecipadamente a redução do resíduo têxtil do processo produtivo.Neste artigo após uma retomada na historiografia do vestuário de seu uso ao longo dos diversos séculos foram realizadas descrições e apresentações de diversos profissionais que apresentam em seus projetos de vestuário o conceito de Zero Waste, as diferentes técnicas que são utilizadas e enfoques que são utilizados por eles e as questões fundamentais relativas a essa metodologia.",
+        "pdf_url": "http://pdf.blucher.com.br/designproceedings/11ped/00668.pdf",
+        "citation_count": 17,
+        "work_type": "other",
+        "identifier": "W2049786223",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "A indústria de confecção do vestuário do município de Pato Branco: aspectos de desenvolvimento, gestão, design, e proposta de reaproveitamento dos resíduos têxteis",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/309",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Andréia Mesacasa"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "A cultura industrial proporcionou uma série de benefícios à sociedade moderna, contudo, impactos ambientais negativos tem sido gerados, em função da exploração inadequada dos recursos naturais do planeta e pela geração excessiva de resíduos. Dentro deste contexto, esta pesquisa possui como foco a indústria de confecção do vestuário no município de Pato branco, e busca evidenciar aspectos relativos à gestão, design, caracterização de matérias-primas e geração de resíduos. Além disso, na tentativa de amenizar o gargalo referente ao correto destino dos resíduos têxteis gerados no processo produtivo, propõe como alternativa o reaproveitamento destes por meio do desenvolvimento de produtos de moda voltados ao público feminino, tais como bolsas e cachecóis. O presente estudo compreendeu três etapas distintas, a primeira, foi composta por um diagnóstico realizado junto às empresas, com o intuito de obter informações referentes aos perfis das mesmas, destacando as formas de gestão, design e desenvolvimento de produto, matérias-primas utilizadas e geração de resíduos têxteis. Tais empresas caracterizam-se como empreendimentos de micro e pequeno porte, atuando em diferentes segmentos de mercado, com forte tendência a produção de uniformes profissionais. Em conseqüência disso, grande parte dos resíduos gerados é constituída por retalhos de malha. Foi evidenciada carência de profissionais qualificados para atuarem tanto nas áreas de criação, desenvolvimento e produção, o que de certa forma constitui um entrave para o crescimento das empresas do município. Na segunda etapa, foi realizada pesquisa com 200 potenciais consumidoras de produtos de moda do município de Pato Branco, buscando verificar as preferências das mesmas em relação à moda, incluindo aspectos como disposição em adquirir produtos confeccionados a partir de resíduos têxteis e técnicas artesanais como tricô, crochê, bordados, fatores estes relevantes para traçar o perfil das consumidoras. Com base nos dados coletados, foram desenvolvidos produtos de moda a partir de resíduos têxteis. Partindo da premissa que o lançamento de produtos ecologicamente corretos requer aceitação cultural e social por parte dos consumidores, na terceira etapa da pesquisa foi realizada avaliação da aceitação dos produtos de moda, empregando-se, de forma inovadora em produtos de moda, a metodologia de avaliação sensorial por escala hedônica e teste de intenção de compra. Foram avaliados atributos técnicos, ergonômicos e estéticos dos produtos. Os produtos desenvolvidos a partir dos resíduos têxteis tiveram boa aceitação e apreciável intenção de compra, demonstrando elevado potencial de reaproveitamento tecnológico dos mesmos. O reaproveitamento dos resíduos poderia contribuir tanto do ponto de vista ambiental através de um melhor direcionamento destes, como economicamente, uma vez que poderiam ser direcionados para a produção de produtos de maior valor agregado.",
+        "pdf_url": null,
+        "citation_count": 8,
+        "work_type": "thesis",
+        "identifier": "W761725874",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Utilização das ferramentas da indústria 4.0 para a prototipagem no setor de vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/18083129152021e0023",
+        "doi": "10.5965/18083129152021e0023",
+        "year": 2021,
+        "authors": [
+          "Leide Laura Bittencourt",
+          "Icléía Silveira",
+          "Lucas da Rosa",
+          "Daniela Novelli"
+        ],
+        "venue": "DAPesquisa",
+        "abstract": "As tecnologias digitais da Indústria 4.0, trazem benefícios para as empresas de vestuário, com a otimização dos processos, a velocidade de produção e a conexão entre as máquinas, que permite a integração de toda a cadeia de valor. O presente artigo aborda a utilização de ferramentas da indústria 4.0 na prototipagem de produtos de vestuário. Aplicou-se a pesquisa básica com fundamentos teóricos, com uma abordagem qualitativa e descritiva. A coleta de dados foi realizada em livros, artigos científicos, teses e dissertações, trazendo os princípios e pilares da indústria 4.0, bem como as ferramentas que possibilitam a prototipagem 3D (tridimensional) de produtos de vestuário. Destaca-se a relevância da pesquisa tendo em vista que a análise global da viabilidade técnica do produto, que avalia o traçado da modelagem, a vestibilidade, os aspectos ergonômicos e o caimento das peças, são feitos em ambiente virtual, dispensando assim: a plotagem dos moldes, seleção e preparação do tecido para o corte, traçado do risco e corte dos moldes e montagem (preparação e costura) das peças do modelo de vestuário. Os resultados da pesquisa revelam que é possível ter eficácia na produção e na redução do tempo de trabalho e benefícios sustentáveis com o uso das ferramentas de prototipagem 3D para produtos de vestuário, em termos sociais, ambientais e financeiros.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/dapesquisa/article/download/19997/13151",
+        "citation_count": 10,
+        "work_type": "article",
+        "identifier": "W3186360964",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Tecnologias que influenciam no processo de concepção do design para a indústria da moda: projeto MEG: um estudo de caso",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/11449/89723",
+        "doi": null,
+        "year": 2013,
+        "authors": [
+          "Andréa Meneghetti Zatta"
+        ],
+        "venue": "Acervo Digital da Universidade Estadual Paulista (Universidade Estadual Paulista)",
+        "abstract": "As tecnologias digitais estão presentes nas mais variadas atividades do dia a dia, racionalizando procedimentos, facilitando a comunicação, dinamizando as relações sociais e profissionais. Em virtude do rápido desenvolvimento da área de moda, é necessário verificar como as novas tecnologias podem auxiliar o setor. A pesquisa objetivou apresentar como o plug-in de modelagem informatizada denominado sistema MEG (Modelagem, Encaixe e Gestão) possibilitou uma nova forma de conceber o design de produto de moda, aproximando-o da modelagem a fim de proporcionar às pequenas empresas de confecção a possibilidade de inserção no panorama de competição global",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W785448649",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Prestação de serviço: Modelagem e graduação do cós de calça fitness",
+        "source": "openalex",
+        "url": "https://doi.org/10.18540/revesvl8iss1pp22154",
+        "doi": "10.18540/revesvl8iss1pp22154",
+        "year": 2025,
+        "authors": [
+          "Gustavo de Paiva Teixeira",
+          "Marlons Lino da Cruz",
+          "Carlos Augusto Ramos dos Reis",
+          "Antônio Marcos de Oliveira Siqueira"
+        ],
+        "venue": "REVES - Revista Relações Sociais",
+        "abstract": "Este artigo apresenta uma prestação de serviço técnico voltada para a correção do formato e da graduação do cós de calças fitness de uma empresa cuja modelagem original apresentava falhas matemáticas e incompatibilidades técnicas. A proposta consiste na identificação e análise de inconsistências no molde fornecido, seguido da aplicação de conceitos da geometria analítica e vetores para realizar as devidas correções. O cós, por ser uma peça essencial na estrutura e estética da calça, influencia diretamente no caimento, conforto e aceitação do produto final. Falhas em sua construção podem gerar problemas como ajustes imprecisos, retrabalhos e desperdícios de material, afetando a produtividade da empresa. A metodologia utilizada fundamenta-se na análise geométrica do molde incorreto e no desenvolvimento de uma nova versão tecnicamente embasada, respeitando as restrições exigidas pelo processo produtivo. Ao final do processo, obtém-se um cós corrigido, mais confiável e adequado às exigências do mercado, sem a necessidade de comparação com o modelo anterior. A proposta reforça a importância da abordagem matemática como suporte à modelagem e à melhoria da eficiência na indústria de confecção.",
+        "pdf_url": "https://periodicos.ufv.br/reves/article/download/22154/11528",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4413232555",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Modelagem através do CLO3D : redução de custos no processo de pilotagem e produção têxtil",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/003273578",
+        "doi": "10.11606/003273578",
+        "year": 2022,
+        "authors": [
+          "Barbara Baptista Navarra"
+        ],
+        "venue": null,
+        "abstract": "Durante o processo de desenvolvimento do produto, o estilista pode realizar alterações no modelo, o que gera o desenvolvimento de várias peças pilotos - protótipos, confeccionadas a partir do desenho enviado pela estilista. O processo de repilotagem não só causa desperdício têxtil, mas também causa atrasos nos processos de desenvolvimento da coleção. Nesse contexto é inserido o software CLO3D, utilizado por profissionais de moda para desenvolver o design, modelagem, ajustes e modificações do produto. O seguinte trabalho objetiva avaliar determinados aspectos do processo de produção de vestuário, tendo como objeto de estudo uma empresa paulista de Private Label, através da modelagem manual (moulage e plana) e, posteriormente, modelagem no Audaces. A partir dessa avaliação, será realizado uma análise de três modelos produzidos pela empresa, realizando o mesmo processo através do software CLO3D, comparando o consumo e resíduos gerados pelas duas formas de modelar.",
+        "pdf_url": "https://bdta.abcd.usp.br/directbitstream/2fa50599-945d-4c8d-b097-3eb7951a1672/Te0086-Navarra.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7204466171",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Processos contemporâneos de impressão sobre tecidos",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.5965/1982615x06122013060",
+        "doi": "10.5965/1982615x06122013060",
+        "year": 2013,
+        "authors": [
+          "Tatiana Laschuk",
+          "Evelise Anicet Rüthschilling"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "O artigo apresenta resultados de pesquisa com métodos de impressão sobre tecidos de moda. Aponta processos e estratégias produtivas, tendo como principal objetivo a concepção de um panorama sobre o estado da arte da estamparia têxtil contemporânea sob o enfoque das tecnologias eletrônicas e a construção de formulações teóricas sobre o assunto. O artigo foi realizado a partir de pesquisa bibliográfica, visitas técnicas, entrevistas, experimentos, testes e discussão dos resultados.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/modapalavra/article/download/3475/6849",
+        "citation_count": 14,
+        "work_type": "article",
+        "identifier": "W1772502257",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A IMPLEMENTAÇÃO DA MODELAGEM CRIATIVA NA INDÚSTRIA DA ALFAIATARIA BRASILEIRA: inovação, desafios e benefícios no contexto produtivo",
+        "source": "openalex",
+        "url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/view/770",
+        "doi": "10.18406/2359-1269v12n52025770",
+        "year": 2026,
+        "authors": [
+          "Leticia Ferreira de Sousa",
+          "Mariana Dias de Almeida"
+        ],
+        "venue": "Revista Eixos Tech",
+        "abstract": "Este artigo analisa a viabilidade da implementação da modelagem criativa na indústria da alfaiataria brasileira. Por meio de uma abordagem qualitativa, com levantamento bibliográfico e análise de práticas produtivas, o estudo investiga as contribuições das técnicas Transformational Reconstruction, Kinetic Garment Construction, Modelagem Modular e Zero Waste Pattern Making no contexto da alfaiataria contemporânea. Como procedimentos metodológicos, realizou-se análise de dados secundários e estudos de caso documentados na literatura. Os resultados indicam que, apesar de desafios técnicos como: adaptação do caimento em tecidos estruturados, a resistência a métodos não convencionais e econômicos, como o custo elevado de softwares e capacitação, a adoção dessas metodologias é viável de forma gradual. Dados apontam que práticas como a modelagem zero waste podem reduzir de 15% a 30% do desperdício de tecido, além de ganhos em produtividade através da simulação 3D. Observa-se que alguns ateliês e núcleos industriais brasileiros já começam a adotar parcialmente essas práticas, buscando diferenciação estética, sustentabilidade e inovação. Conclui-se que a modelagem criativa, aplicada como processo estratégico, pode transformar a alfaiataria, aliando tradição, sustentabilidade e tecnologia.",
+        "pdf_url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/download/770/366",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7215973901",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A manufatura aditiva no âmbito do vestuário: entraves e reflexões teóricas",
+        "source": "openalex",
+        "url": "https://doi.org/10.15536/2594-4398.2021.v5.n5.pp.027-051.2621",
+        "doi": "10.15536/2594-4398.2021.v5.n5.pp.027-051.2621",
+        "year": 2021,
+        "authors": [
+          "Valdecir Babinski Júnior",
+          "Vivian Andreatta Los",
+          "Eduarda França Odorcik",
+          "Helena Kappaun",
+          "Sabrina Lopes Bueno",
+          "Vitória Baratto Ribeiro"
+        ],
+        "venue": "Revista Poliedro",
+        "abstract": "O presente artigo tem como objetivo estabelecer um framework (quadro teórico) acerca dos entraves para a popularização da manufatura aditiva no âmbito do vestuário. Metodologicamente, a pesquisa desenvolvida pode ser enquadrada como pesquisa descritiva, básica, qualitativa e bibliográfica. Como instrumento de coleta de dados, empregou-se uma revisão narrativa e assistemática de literatura. A partir do exposto, os impedimentos encontrados foram classificados por meio de seis categorias: (I) características materiais; (II) pirataria; (III) capacitação técnica; (IV) acesso aos fab labs; (V) custos; e (VI) processos de impressão. Para cada categoria, foram estabelecidas recomendações com ênfase na superação de obstáculos e na minimização do risco à inovação.",
+        "pdf_url": "https://periodicos.ifsul.edu.br/index.php/poliedro/article/download/2621/1937",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4200061509",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      }
+    ]
+  },
+  "count": 20,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T01:59:22.556956+00:00"
+}

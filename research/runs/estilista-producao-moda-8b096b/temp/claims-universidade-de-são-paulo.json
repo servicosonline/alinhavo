@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "Em grandes confecções brasileiras, o processo de criação e desenvolvimento de produto sofre gargalos severos porque a pesquisa de matérias-primas e aviamentos ocorre em paralelo ao desenvolvimento dos croquis e porque o cálculo de pré-custo trava por falta de parâmetros prévios (lista de materiais/BOM, consumo estimado por texografia e sequência operacional/minutagem), retendo dezenas de modelos que depois são despejados de uma só vez sobre a modelagem e gerando peças-piloto sem aviamentos definitivos.",
+    "stance": "supports",
+    "stance_target": "Em grandes confecções brasileiras, o processo de criação e desenvolvimento de produto sofre gargalos severos porque a pe",
+    "evidence_type": "empirical",
+    "scope_conditions": "Pesquisa-ação com mapeamento SIPOC (Six Sigma DMAIC) em projeto real de implantação de PLM em grande indústria brasileira de vestuário infantil multimarca (EACH/USP, 2017).",
+    "quoted_support": "Em grandes confecções brasileiras, o processo de criação e desenvolvimento de produto sofre gargalos severos porque a pesquisa de matérias-primas e aviamentos ocorre em paralelo ao desenvolvimento dos croquis e porque o cálculo de pré-custo trava por falta de parâmetros prévios (lista de materiais/BOM, consumo estimado por texografia e sequência operacional/minutagem), retendo dezenas de modelos que depois são despejados de uma só vez sobre a modelagem e gerando peças-piloto sem aviamentos definitivos.",
+    "numbers": [],
+    "entities": [],
+    "time_period": "2016-2026",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo"
+  },
+  {
+    "claim": "Mesmo quando as áreas de Estilo, Inovação Têxtil e Design de Superfície operam sob a mesma gerência, estilistas relatam dificuldade crítica em traduzir conceitos abstratos de coleção por meio de imagens (moodboards) para os designers de superfície (estampas e bordados), demonstrando que bancos de imagens digitais compartilhados não resolvem por si sós a discrepância de linguagens técnicas e repertórios visuais.",
+    "stance": "supports",
+    "stance_target": "Mesmo quando as áreas de Estilo, Inovação Têxtil e Design de Superfície operam sob a mesma gerência, estilistas relatam ",
+    "evidence_type": "empirical",
+    "scope_conditions": "Workshops de revisão de processos SIPOC com equipes de criação, superfície e engenharia (Araújo, 2017, EACH/USP).",
+    "quoted_support": "Mesmo quando as áreas de Estilo, Inovação Têxtil e Design de Superfície operam sob a mesma gerência, estilistas relatam dificuldade crítica em traduzir conceitos abstratos de coleção por meio de imagens (moodboards) para os designers de superfície (estampas e bordados), demonstrando que bancos de imagens digitais compartilhados não resolvem por si sós a discrepância de linguagens técnicas e repertórios visuais.",
+    "numbers": [],
+    "entities": [],
+    "time_period": "2016-2026",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo"
+  },
+  {
+    "claim": "A ficha técnica industrial completa em plataformas PDM/PLM funciona como um banco de dados vivo alimentado por múltiplos atores (diferenciando-se da 'ficha de desenho' inicial da estilista), exigindo a convergência de 9 elementos estruturais: croqui/referência, tabela de medidas antropométricas, pontos de medição/gabaritos, especificações de construção de costura, amostras e testes físico-químicos (encolhimento, elasticidade, laceamento), normas de conformidade (ABNT/ISO), lista de materiais por SKU (BOM), roteiro operacional cronometrado (bill of labour) e estudo de encaixe/texografia em três estágios (pré-custo no tamanho de mostruário, custo intermediário com grade/cores e custo real na ordem de corte).",
+    "stance": "supports",
+    "stance_target": "A ficha técnica industrial completa em plataformas PDM/PLM funciona como um banco de dados vivo alimentado por múltiplos",
+    "evidence_type": "empirical",
+    "scope_conditions": "Modelagem de arquitetura de dados de PDM/PLM e revisão técnica industrial (Araújo, 2017, EACH/USP).",
+    "quoted_support": "A ficha técnica industrial completa em plataformas PDM/PLM funciona como um banco de dados vivo alimentado por múltiplos atores (diferenciando-se da 'ficha de desenho' inicial da estilista), exigindo a convergência de 9 elementos estruturais: croqui/referência, tabela de medidas antropométricas, pontos de medição/gabaritos, especificações de construção de costura, amostras e testes físico-químicos (encolhimento, elasticidade, laceamento), normas de conformidade (ABNT/ISO), lista de materiais por SKU (BOM), roteiro operacional cronometrado (bill of labour) e estudo de encaixe/texografia em três estágios (pré-custo no tamanho de mostruário, custo intermediário com grade/cores e custo real na ordem de corte).",
+    "numbers": [],
+    "entities": [],
+    "time_period": "2016-2026",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo"
+  },
+  {
+    "claim": "Projetos de implantação de plataformas de PLM na indústria do vestuário brasileira fracassam e são interrompidos pelos próprios usuários quando tratam a ferramenta apenas como introdução tecnológica sem gestão da mudança cultural, esbarrando no medo dos profissionais de serem expostos como ineficientes, na frustração com a sobrecarga de alimentação manual de dados (quebrando a ilusão de que o software calcula custos automaticamente no ato do desenho) e na falta de integração simples com análise de vendas passadas (BI) para planejamento de sortimento (mix).",
+    "stance": "supports",
+    "stance_target": "Projetos de implantação de plataformas de PLM na indústria do vestuário brasileira fracassam e são interrompidos pelos p",
+    "evidence_type": "empirical",
+    "scope_conditions": "Avaliação de caso de insucesso/interrupção de implantação de PLM internacional em indústria de vestuário brasileira (Araújo, 2017, EACH/USP).",
+    "quoted_support": "Projetos de implantação de plataformas de PLM na indústria do vestuário brasileira fracassam e são interrompidos pelos próprios usuários quando tratam a ferramenta apenas como introdução tecnológica sem gestão da mudança cultural, esbarrando no medo dos profissionais de serem expostos como ineficientes, na frustração com a sobrecarga de alimentação manual de dados (quebrando a ilusão de que o software calcula custos automaticamente no ato do desenho) e na falta de integração simples com análise de vendas passadas (BI) para planejamento de sortimento (mix).",
+    "numbers": [],
+    "entities": [],
+    "time_period": "2016-2026",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo"
+  },
+  {
+    "claim": "Restrições de preço-alvo (target price) que forçam a substituição de fibras nobres por sintéticos ou misturas complexas (como denim em índigo de lyocell ou rendas e bordados) geram falhas graves de manufatura quando a área de criação e o sourcing não consideram que as unidades de confecção e facções terceirizadas são equipadas e treinadas para apenas um tipo específico de tecido.",
+    "stance": "supports",
+    "stance_target": "Restrições de preço-alvo (target price) que forçam a substituição de fibras nobres por sintéticos ou misturas complexas ",
+    "evidence_type": "empirical",
+    "scope_conditions": "Análise de engenharia de produto e sourcing têxtil na indústria brasileira (Araújo, 2017, EACH/USP).",
+    "quoted_support": "Restrições de preço-alvo (target price) que forçam a substituição de fibras nobres por sintéticos ou misturas complexas (como denim em índigo de lyocell ou rendas e bordados) geram falhas graves de manufatura quando a área de criação e o sourcing não consideram que as unidades de confecção e facções terceirizadas são equipadas e treinadas para apenas um tipo específico de tecido.",
+    "numbers": [],
+    "entities": [],
+    "time_period": "2016-2026",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo"
+  }
+]

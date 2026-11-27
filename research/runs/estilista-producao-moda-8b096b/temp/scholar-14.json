@@ -1,0 +1,1032 @@
+{
+  "ok": true,
+  "data": {
+    "query": "ficha tecnica moda confeccao desenho tecnico",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 25,
+      "crossref": 25,
+      "doab": 0
+    },
+    "raw_records": 50,
+    "merged_records": 48,
+    "returned": 48,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Coleta de dados para produção de fichas técnicas para o Design de Moda",
+        "source": "openalex",
+        "url": "https://dspace.palermo.edu/ojs/index.php/actas/article/view/9693",
+        "doi": "10.18682/add.vi43.9693",
+        "year": 2023,
+        "authors": [
+          "Gisela Costa Pinheiro Monteiro",
+          "Ana Paula Lima de Carvalho",
+          "Paulo de Tarso Fulco"
+        ],
+        "venue": "Actas de Diseño",
+        "abstract": "Muitos alunos vão aos livros e museus para tirarem inspirações de vestuários de outras épocas para a criação de suas peças.",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/actas/article/download/9693/16337",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W7216424997",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "O desenho como ferramenta projetual no design de moda",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2011v2n1p69",
+        "doi": "10.5433/2236-2207.2011v2n1p69",
+        "year": 2011,
+        "authors": [
+          "Paula da Silva Hatadani",
+          "Marizilda dos Santos Menezes"
+        ],
+        "venue": "Projetica",
+        "abstract": "This article intends to allocate the different fashion drawing languages used in the development stages of fashion design. To do so, it is based on the methodological guidelines for fashion design presented by Montemezzo (2003). Initially, presents a bibliographic study about the types of fashion drawing languages. Then analyzes the specificities of each language and adjust them to the steps presented by the author cited.",
+        "pdf_url": "https://www.uel.br/revistas/uel/index.php/projetica/article/download/8749/9244",
+        "citation_count": 6,
+        "work_type": "article",
+        "identifier": "W2024150531",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "O ENSINO DO DESENHO E ILUSTRAÇÃO DE MODA NA PRÁTICA DA EXTENSÃO",
+        "source": "openalex",
+        "url": "https://doi.org/10.51359/2595-0797.2018.239219",
+        "doi": "10.51359/2595-0797.2018.239219",
+        "year": 2018,
+        "authors": [
+          "Aderlange Sousa Araújo"
+        ],
+        "venue": "Revista Geometria Gráfica",
+        "abstract": "O desenho é de grande importância para o profissional de moda, especialmente aquele que desenvolve produtos. Entretanto a realização de desenhos profissionais requer o domínio de técnicas que facilitem o entendimento da peça criada. Objetivos do curso de extensão é ensinar as técnicas tradicionais de desenho e ilustração, e também exercitar a capacidade imaginativa, de abstração e memória visual. A metodologia adotada no curso foi dividida em três etapas, no qual contou com aulas teóricas -práticas sobre desenhos e ilustração de moda. Os resultados obtidos na primeira etapa foram feitos diagnósticos, nos quais apontaram erros de observação do desenho (50%), criação do traço (75%), sombreado (90%), erros no formato do corpo (75%) e desproporção da figura humana (100%). Na segunda etapa os resultados obtidos foram melhoria no traço, no sombreado e proporção exata do corpo humano, obedecendo a grade humana de 8 cabeças e meias. Na última etapa foram atingidos resultados significativos acerca da manipulação das técnicas de aplicação de cores, trabalhando o sombreado, proporção e diferentes métodos de ilustração. Com isso, conclui-se que os discentes que participaram de todas as etapas do curso obtiveram melhores desempenhos e desenhos profissionais que no futuro facilitará a ingressão no mercado de trabalho.",
+        "pdf_url": "https://periodicos.ufpe.br/revistas/geometriagrafica/article/download/239219/30907",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2913913953",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Federal de Pernambuco",
+          "openalex_type": "article",
+          "oa_status": "diamond",
+          "also_in": "openalex,crossref"
+        }
+      },
+      {
+        "title": "Moda e desenvolvimento local: reconversões culturais na criação e confecção do jeans em Toritama – Pernambuco",
+        "source": "openalex",
+        "url": "http://www.tede2.ufrpe.br:8080/tede2/handle/tede2/6112",
+        "doi": null,
+        "year": 2009,
+        "authors": [
+          "Rosiane Pereira Alves"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "A partir de década de 1980, em meio à crise econômica que atingiu o Brasil, e com o declínio da atividade calçadista em Toritama, as pessoas dessa localidade passaram a produzir e comercializar calça jeans, como uma estratégia de sobrevivência. Desde então, ocorreram diferentes mudanças no modo de criar e confeccionar essa peça do vestuário, desencadeando um processo de desenvolvimento no município, hoje integrante do Arranjo Produtivo Local de Confecções de Pernambuco. Assim sendo, a presente pesquisa teve por objetivo analisar os processos de reconversões culturais na criação da moda popular do Arranjo Produtivo Local de Confecções do Agreste de Pernambuco, particularmente os processos de mudanças ocorridos no design de moda, entre 1980 e 2009, no município de Toritama, e suas possíveis implicações no desenvolvimento local. Buscou-se também identificar na criação e projeção da moda local os elementos transpostos das culturas popular e massiva hegemônica, por meio dos movimentos de ebulição (bubble-up) e gotejamento (trickle-down). Para tanto, realizou-se um estudo de caso, de caráter qualitativo. Elegeu-se como principal categoria metodológica a história oral, priorizando como procedimento técnico as entrevistas semiestruturadas. Estas revelaram ter havido, nesses quase trinta anos, sucessivos ciclos de hibridizações na moda popular em meio à interação com o massivo e com o mercado, que gerou mudanças na forma de aquisição, apresentação e manipulação do tecido, aviamentos, maquinaria e tecnologia empregada, todas reconvertidas em novas técnicas de criação, produção e comercialização da calça jeans, como, por exemplo, a inclusão do planejamento prévio nos procedimentos de trabalho, com repercussão, em meio aos processos de globalização e reestruturação produtiva, no desenvolvimento local. Muitas dessas reconversões se intensificaram em função das intervenções governamentais e não governamentais, tais como projetos, cursos de capacitação, eventos de moda e negócio. E se por um lado a atividade ligada à criação e produção da moda gerou no município de Toritama emprego e renda, criou uma estrutura organizacional e estabeleceu parcerias; por outro lado, também desencadeou um processo de comprometimento ambiental.",
+        "pdf_url": "http://www.tede2.ufrpe.br:8080/tede2/bitstream/tede2/6112/2/Rosiane%20Pereira%20Alves.pdf",
+        "citation_count": 6,
+        "work_type": "thesis",
+        "identifier": "W3121861938",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Diretrizes para a normalização de desenhos técnicos do vestuário para o segmento de malharia circular",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/96393",
+        "doi": null,
+        "year": 2013,
+        "authors": [
+          "Renata Lodi"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "Esta dissertação trata do tema desenho técnico do vestuário. O objetivo deste trabalho foi sistematizar diretrizes para a representação gráfica técnica de acabamentos, detalhes, linhas e cotas em produtos do vestuário do segmento de malharia circular com vistas à sua normalização. A pesquisa foi classificada como aplicada, qualitativa e exploratória. A coleta de dados ocorreu por meio de entrevistas semiestruturadas e coleta documental realizadas de forma presencial e por meio eletrônico (e-mail). Os participantes foram sete docentes de disciplinas de desenho técnico que atuam em instituições de ensino superior que possuem cursos de moda em nível bacharelado e, oito profissionais do desenvolvimento de produto de empresas de confecção do vestuário que trabalham com malha circular. Com isso, foi possível diagnosticar como é feita a representação de desenhos técnicos do vestuário nestes dois ambientes, o acadêmico e o industrial, localizados em diferentes regiões brasileiras. Os resultados das entrevistas foram apresentados através de quadros comparativos com cruzamento dos dados coletados. Como resultado, apresentam-se diretrizes para a construção do desenho e representação de cores, linhas, cotas/medidas. Outro produto deste trabalho é um catálogo dos principais acabamentos e detalhes utilizados em malha circular com descrições, imagens e representações técnicas dos mesmos.",
+        "pdf_url": "https://lume.ufrgs.br/bitstream/10183/96393/1/000915079.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2292580252",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "VALIAÇÃO DE FICHAS TÉCNICAS DE VESTUÁRIO QUANTO AO CONTEÚDO INFORMACIONAL",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/16ergodesign-0089",
+        "doi": "10.5151/16ergodesign-0089",
+        "year": 2017,
+        "authors": [
+          "Ana Laís de Oliveira Monte",
+          "Raimundo Lopes Diniz"
+        ],
+        "venue": null,
+        "abstract": "Palavras-chave: fichas técnicas de vestuário, conteúdo informacional, ergonomia informacional Esta pesquisa tem como objetivo avaliação do conteúdo informacional das fichas técnicas de vestuário da cidade de São Luís-MA através do protocolo de Mijksenaar.Como resultados, percebeu-se que as fichas não possuem padrão, quanto a sua apresentação gráfica e informacional e não seguem parâmetros de boa legibilidade e leiturabilidade. Key-words: technical pack",
+        "pdf_url": "http://pdf.blucher.com.br/designproceedings/16ergodesign/0089.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W2750274515",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Desenho de moda hoje: principais opções a serem aplicadas ao processo de desenvolvimento do produto",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2016.tde-16082016-153545",
+        "doi": "10.11606/d.100.2016.tde-16082016-153545",
+        "year": 2016,
+        "authors": [
+          "Fabíola Mastelini"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "The Brazilian textile industry employs different types and fashion design processes. In this context, the aim of this study is to demonstrate and analyze some of the main types and processes. Thus, it is intended to clarify how this design is beneficial to the development of fashion products; benefit which results in better utilization of financial aspects and productive industry. It is also intended, to point the use and applicability of these drawings as tools that enhance the creative process and its communication, to display forms and materials, combinations of colors, patterns and finished parts, in order to decrease the time of creation, contribute to the completion and sale of the fashion product. To this end, we sought to investigate the literature on the subject with theoretical foundation for conducting a field survey",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-16082016-153545/publico/tese.pdf",
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W2742231282",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais",
+          "openalex_type": "dissertation",
+          "oa_status": "green",
+          "also_in": "openalex,crossref"
+        }
+      },
+      {
+        "title": "Moda inclusiva: a necessidade da moda inclusiva no mundo hoje",
+        "source": "openalex",
+        "url": "https://fatec.edu.br/revista/index.php/RTecFatecAM/article/view/67",
+        "doi": null,
+        "year": 2016,
+        "authors": [
+          "Andréia Vieira Pereira",
+          "Maria Alice Ximenes Cruz"
+        ],
+        "venue": "Revista Tecnológica da Fatec Americana",
+        "abstract": "O objetivo desta pesquisa é levantar subsídios para uma reflexão teórico-prática com intuito de contribuir para minimizar a problemática das necessidades especiais. Partindo da análise de algumas referências e enfatizando a problematização do estranhamento a que os Portadores de Necessidade Especiais (PNE) são submetidos quando julgados pela aparência. Como resultado deste projeto, apresentam-se formas de inclusão social pelo vestuário com trajes desenvolvidos com características de design universal social (que atenda a todos de forma igualitária). Foram estudados a possibilidade de adaptações na estrutura dos trajes e os cuidados com a estética, na tentativa de amenizar o impacto causado pelo olhar do outro, que tantas vezescontribui para a exclusão social a que são submetidos. Vale salientar que esta pesquisa comporta certa dimensão prática, uma vez que levou-se em conta a produção de peças de vestuários fundamentados em modificações do suporte técnico da modelagem convencional aplicado na indústria do vestuário. A visão, também, que se levou em consideração foi com relação aos custos para proporcionar a todos acessibilidade para adquirir as peças.Palavras-chave: Moda. Moda Inclusiva. Corpo. Modelagem.",
+        "pdf_url": "https://fatec.edu.br/revista/index.php/RTecFatecAM/article/download/67/76",
+        "citation_count": 9,
+        "work_type": "article",
+        "identifier": "W2739699944",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Design de Moda : framework para implementação de estratégias de inovação pelo Design no processo de desenvolvimento de produtos de moda em empresas de confecção do vestuário",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/182429",
+        "doi": null,
+        "year": 2018,
+        "authors": [
+          "Keila Marina Nicchelle"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "O Design, inserido na complexidade do atual ambiente social, cultural, produtivo e mercadológico se apresenta como uma atividade complexa, o que exige o estudo de estratégias de inovação direcionadas a resolução de problemas de projeto, aplicáveis ao Design de Moda. Nesse sentido, o presente estudo propõe a apresentação de um framework para implementação de estratégias de inovação pelo Design no processo de desenvolvimento de produtos de moda em empresas de confecção do vestuário, valendo-se da abordagem teórico-metodológica de Design Estratégico. Frente a essa proposta de estudo, a pesquisa foi desenvolvida em três fases sistêmicas: Epistemologia do Projeto, Praxiologia do Projeto e Pedagogia do Projeto. A primeira fase compreendeu a realização de uma Pesquisa Bibliográfica sobre o tema com o objetivo de refletir sobre a natureza complexa da atividade de Design sob a perspectiva da cultura de projeto, trazendo algumas abordagens conceituais e metodológicas em Design Estratégico e Design de Moda. A segunda fase compreendeu a realização de uma Pesquisa de Campo e de um Estudo de Caso com o objetivo identificar as práxis de Design adotadas em empresas de confecção do vestuário vinculadas ao Arranjo Produtivo Local Têxtil e do Vestuário (APL Polovest), localizado na região do Alto Uruguai Gaúcho. Inicialmente, buscou-se identificar a presença e as formas de atuação do Design nestas empresas, e posteriormente, diagnosticar a função do Design no processo de desenvolvimento de produtos de moda em três empresas com potencial para implementação de estratégias de inovação pelo Design. A terceira fase compreendeu a realização de uma Pesquisa Ação com o objetivo de implementar estratégias de inovação pelo Design no processo de desenvolvimento de produtos de moda nas três empresas que participaram da fase anterior do estudo. Os resultados obtidos nestas fases da pesquisa permitiram a reflexão sobre a teoria e a prática em Design de Moda, possibilitando a configuração de um framework para orientar a implementação de estratégias de inovação no processo de desenvolvimento de produtos de moda em empresas de confecção do vestuário. O framework propõe a construção de uma nova cultura de projeto nestas empresas, capitalizando um conjunto de conhecimentos em torno da ação projetual, a fim de direcionar à identificação, à análise e a resolução de problemas de projeto, inseridos na complexidade da atividade de Design. Portanto, espera-se que a aplicação do framework possa indicar oportunidades de inovação projetual, tornando estas empresas mais competitivas por meio de suas ofertas, com vistas ao fortalecimento do setor do vestuário na região do Alto Uruguai Gaúcho.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2910206897",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "O FLUXO DA PRODUÇÃO E DA INFORMAÇÃO NO DESIGN DE MODA: UMA ANÁLISE APLICADA EM PEQUENAS EMPRESAS DE CONFECÇÃO DA GRANDE FLORIANÓPOLIS – SANTA CATARINA",
+        "source": "openalex",
+        "url": "http://periodicos.ufpb.br/ojs2/index.php/pgc/article/view/22866",
+        "doi": null,
+        "year": 2016,
+        "authors": [
+          "Claudia Finardi",
+          "Edna Lúcia da Silva",
+          "Gregório Jean Varvakis Rados"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "Relato de uma pesquisa que analisou o processo de desenvolvimento de produtos de vestuário, procurando detectar a influência do uso de informação em pequenas empresas. Define como questão para nortear o desenvolvimento da pesquisa: até que ponto a informação é aplicada ao design de moda e tem interferido no processo de criação e na modelagem de vestuário desse setor em Santa Catarina? Elege como lócus para a aplicação da pesquisa as pequenas empresas de confecção de Santa Catarina, especificamente, localizadas na região da Grande Florianópolis e como sujeitos os responsáveis diretos pelo desenvolvimento da coleção. Realiza uma pesquisa exploratória-descritiva, com base em dados de natureza qualitativa e quantitativa, levantados a partir de entrevistas semi-estruturadas. Os resultados mostram o uso de fontes de informação para subsidiar o processo de design de moda, bem como a produção de informações nesse processo que viabilizam a produção das coleções. com criação de modelos viáveis de produção e comercialização. O fluxo da informação detectado nas empresas lócus desta pesquisa permite a seguinte caracterização: uma como criadora de produtos de moda, três como adaptadoras e duas como reprodutoras. No fluxo da informação interno prevalece a comunicação informal, as fontes de informação externas mais valorizadas são os sítios da Internet, revistas especializadas e catálogos de fornecedores. As fichas técnicas consolidam as informações de todo o processo de design de moda e subsidiam o processo de produção das coleções.",
+        "pdf_url": "https://periodicos.ufpb.br/ojs2/index.php/pgc/article/download/22866/16524",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2587941162",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Plano frontal: imagem e representação no campo do design de moda",
+        "source": "openalex",
+        "url": "https://periodicos.ufjf.br/index.php/triades/article/view/42848",
+        "doi": null,
+        "year": 2019,
+        "authors": [
+          "João Dalla Rosa Júnior"
+        ],
+        "venue": "Tríades em Revista Transversalidades Design e Linguagens",
+        "abstract": "O artigo apresenta um debate sobre a planificação e a frontalidade como qualidades das imagens e das representações empregadas no campo da moda. O objetivo do artigo é analisar os desenhos realizados por alunos de um curso superior de design de moda e refletir sobre a relação estabelecida entre a planificação e a frontalidade dos desenhos e o modo de produção do design. A metodologia adotada no estudo se pauta pela análise visual acompanhada do trabalho de interpretação dos objetos de pesquisa. Por meio do cruzamento de referências bibliográficas e de materiais oriundos da prática do design de moda, como fichas-técnicas e procedimentos de modelagem, as características são compreendidas sob o aspecto do olhar dos alunos, como indícios que atestam limitações do modelo industrial na formação dos agentes e em sua atuação profissional.",
+        "pdf_url": "https://periodicos.ufjf.br/index.php/triades/article/download/42848/26589",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7216665393",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Jogo das Fichas",
+        "source": "openalex",
+        "url": "https://doi.org/10.36229/978-65-5866-076-7.cap.16",
+        "doi": "10.36229/978-65-5866-076-7.cap.16",
+        "year": 2021,
+        "authors": [
+          "Elane Cartaxo Nogueira",
+          "Eveliny Sombra Mota",
+          "Francisca Yhaskara Gomes da Silva",
+          "Patrícia Helen da Silva Cavalcante",
+          "Maria da Conceição Tavares Cavalcanti Liberato"
+        ],
+        "venue": "Editora Poisson eBooks",
+        "abstract": null,
+        "pdf_url": "https://doi.org/10.36229/978-65-5866-076-7.cap.16",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W3166424231",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Moda e responsabilidade social: um relato da experiência do projeto duo di moda e vestuário.",
+        "source": "openalex",
+        "url": "https://doi.org/10.29327/5457226.1-59",
+        "doi": "10.29327/5457226.1-59",
+        "year": 2024,
+        "authors": [
+          "Ariela Porto Fabricio",
+          "Elisangela Manarim Guimarães",
+          "Glauba Alves do Vale Cestari"
+        ],
+        "venue": "Congresso Brasileiro de Pesquisa e Desenvolvimento em Design (P&D Design)",
+        "abstract": "O projeto Duo di Moda e Vestuário no IFSC, Câmpus Jaraguá do Sul-Centro, envolve dois cursos na área de moda e vestuário, alinhado à Resolução CNE Nº 7/2018 para a Extensão na Educação Superior. Em sua última edição, focou na criação da coleção temática \"Borboletas\" pelos estudantes do CST Design de Moda. Essa iniciativa contou com a criatividade e habilidades técnicas dos alunos em um projeto para arrecadar fundos destinados à Casa Izabel, um abrigo para mulheres em situação de vulnerabilidade. A metodologia abrangeu a concepção das coleções e a produção de protótipos, utilizando técnicas de design. A colaboração entre estudantes, docentes e a comunidade fortaleceu a interação entre academia e sociedade, promovendo aprendizado prático e contribuições significativas para o desenvolvimento social e ambiental. O projeto destaca como a moda pode promover responsabilidade social, educar com vistas à sustentabilidade e conectar o conhecimento acadêmico às necessidades comunidade. Palavras Chave: responsabilidade social; design de moda; economia criativa e extensão acadêmica.",
+        "pdf_url": "https://www.periodicos.ufam.edu.br/index.php/cadernoppgd/article/download/17131/10557",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4405313805",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Jeans no segmento de moda íntima",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1822/22369",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Juliana Pessoa"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "A busca por novas tecnologias e tecidos diferenciados é algo permanente no mundo da moda. As pesquisas de tendências e de mercado têm demostrando que as empresas procuram aprimorar e diferenciar os seus tecidos de forma a customizar. As novas tecnologias, nomeadamente os tecidos diferenciados permitem obter mais conforto, um valor maior agregado para o consumidor, com um bom caimento e um ótimo ajustamento ao corpo, propriedade tão desejada pelos utilizadores no segmento de underwear. O presente trabalho tem como objetivo mostrar um estudo sobre a aplicação do Jeans no segmento de moda íntima. Inicialmente será apresentado uma pesquisa sobre a história do jeans e da moda íntima. Na continuidade do estudo um tecido Jeans bi-elástico ultrafino com acabamentos funcionais será utilizado para o desenvolvimento de três protótipos, com a finalidade de serem utilizados no segmento de moda íntima feminina. Numa última fase desta pesquisa será efetuada a validação ergonómica e funcional dos protótipos desenvolvidos, tendo em atenção as suas características de limpeza e conservação de acordo com as normas de qualidade. No primeiro momento na elaboração do tecido e das peças fez-se uma pesquisa de contextualização dos produtos, em que se procurou desenvolver um novo produto para responder as necessidades psicológicas e fisiologicas da usuária, que sempre está em busca de novidades e de produtos com novos valores agregados. Numa pesquisa realizada verificou-se que no mercado não existia um tecido plano bi-elástico que pudessem atender as necessidades dos consumidores de lingerie. Após a pesquisa feita que foram levantados os problemas, partiuse para a elaboração do novo produto que foram realizados desenhos, testes com o material e a prototipagem. O resultado obtido foi um tecido bi-elástico com 86% de algodão e 14% de elastano com aplicação ao segmento de lingerie, sendo confortável e usável, onde possui propriedades funcionais anti-odor e mais macio.",
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W1639389236",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Ferramentas e metodologia de projeto aplicados na criação de produtos para a industria textil-confecção",
+        "source": "openalex",
+        "url": "https://doi.org/10.47749/t/unicamp.2010.477710",
+        "doi": "10.47749/t/unicamp.2010.477710",
+        "year": 2010,
+        "authors": [
+          "Cláudia Regina Garcia Vicentini"
+        ],
+        "venue": null,
+        "abstract": "Resumo: A indústria têxtil e de confecção brasileiras atravessam um momento marcado por profundas mudanças, em que é necessária a busca de vantagens competitivas para manterem-se no mercado diante da forte concorrência oferecida pelo mundo globalizado. A sistematização do processo de desenvolvimento de produtos, neste caso é recomendada, a fim de se obter sucesso no lançamento de novos produtos no mercado, reduzir tempo de projeto, e diminuir as chances de insucesso. Baseados no estudo de várias metodologias e ferramentas de projeto foi, então, proposta uma metodologia e sugerida uma série de ferramentas técnicas para executá-la, nos quais são abordadas as especificidades do produto têxtil e de vestuário. A metodologia foi desenvolvida valendo-se de informações da literatura da área de desenvolvimento de produtos de engenharia e de design, e do levantamento dos parâmetros de projeto importantes para a criação de produto de vestuário de moda. Como resultado deste trabalho é apresentada uma metodologia, que consiste no desdobramento do projeto em fases, compostos por um conjunto de tarefas que orientam o profissional na criação de uma coleção. A fim de testar a metodologia e as ferramentas sugeridas, tais como: quadro morfológico, análise do valor, painel semântico, entre outras, as mesmas foram aplicadas em uma empresa do setor de vestuário feminino de moda para o desenvolvimento de uma coleção, na qual mostraram-se eficientes, com resultados satisfatórios.",
+        "pdf_url": "https://doi.org/10.47749/t/unicamp.2010.477710",
+        "citation_count": 15,
+        "work_type": "thesis",
+        "identifier": "W964812794",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Mercado da moda e modelagens",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/issn.2595-2536.v33i1p150-170",
+        "doi": "10.11606/issn.2595-2536.v33i1p150-170",
+        "year": 2022,
+        "authors": [
+          "Maria José Carneiro",
+          "C. F. da Silva"
+        ],
+        "venue": "Cadernos Ceru",
+        "abstract": "Among the existing technical industrial design of fashion, there are two techniques that stand out: the three-dimensional modeling - moulage and two-dimensional - flat, widely used in the fashion industry. It is noteworthy that the three-dimensional modeling is most used in the development of unique products - luxury - and the two-dimensional modeling is more used to develop mass products - large-scale production. But the question is the use of practices in the fashion market, so will contribute to the efficiency of the product development process, because empirically it seems that both are antagonistic in their practice, is three-dimensional modeling - moulage to market luxury and dimensional modeling - full for the mass market. In this case the study reveals that both must be used together, adding value to the product development process regardless of the market to be served.",
+        "pdf_url": "https://revistas.usp.br/ceru/article/download/198921/184765",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4406823214",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "UMA IDEIA, UM DESENHO, O PRODUTO: VER, PERCEBER E CONSTRUIR",
+        "source": "openalex",
+        "url": "https://doi.org/10.17771/pucrio.acad.48535",
+        "doi": "10.17771/pucrio.acad.48535",
+        "year": 2020,
+        "authors": [
+          "Gisela Friaça de Souza Pereira"
+        ],
+        "venue": null,
+        "abstract": "Esta pesquisa analisa a dificuldade que os alunos de Faculdades de Design de Moda do Rio de Janeiro demonstram na transposição das representações mentais (ideia) para a representação real (desenho), redundando em um produto final, a roupa, desvinculado da representação mental inicial. Nossa hipótese é a de que a maioria carece de experimentar com reflexão, de perceber o todo e as partes que o constituem, de ser incentivado a explorar e desenvolver suas competências, ampliando suas habilidades, desenvolvendo uma visão holística do processo do Design de Moda. O ponto de partida deste estudo foi a experiência da autora, em sala de aula, fazendo uso da observação, da investigação e da identificação, a partir de pesquisa bibliográfica, entrevista e questionário, dos fatores que impedem o trânsito livre no processo de construção de uma roupa. Assim, o objetivo é propor subsídios facilitadores a partir de uma metodologia que visa propiciar a autonomia e consequente liberdade do aluno em um processo que envolve a Prática aliada à Teoria, na tríade proposta: ideia – desenho – produto, à luz do ver, do perceber e do construir. Tendo como suporte a aplicação de algumas técnicas artísticas, a partir de constante experimentação, buscou-se promover, num primeiro momento, a liberação de aspectos que bloqueiam a criatividade e que ampliam a visão espacial. Concluímos também que é necessário desenvolver conhecimentos de técnicas/arte de Modelagem, de Desenho Técnico, de Costura, que influenciarão na materialização da ideia, representada no Desenho/Ilustração de Moda.",
+        "pdf_url": "https://www.maxwell.vrac.puc-rio.br/48535/48535.PDF",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4252729760",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "MODA NA AUTARQUIA: POLÍTICAS DE MODA NA ITÁLIA FASCISTA NOS ANOS 1930",
+        "source": "openalex",
+        "url": "https://doi.org/10.5380/his.v65i2.55381",
+        "doi": "10.5380/his.v65i2.55381",
+        "year": 2017,
+        "authors": [
+          "Alessandra Vaccari"
+        ],
+        "venue": "História Questões & Debates",
+        "abstract": "Na segunda metade dos anos 1930, o regime fascista introduziu a autarquia como forma de autonomia econômica da Itália frente às importações de matérias-primas. A autarquia foi lançada como instrumento para responder à crise gerada pelas sanções impostas ao país em 1935 pela Sociedade das Nações após a invasão italiana à Etiópia. O artigo analisa o papel que a moda teve no programa autárquico lançado pelo regime. Pela sua coação identitária e internacional, a moda permite examinar e colocar em confronto tanto a construção e promoção de uma nova imagem da nação, como as formas de desobediência explícita ou implícita às políticas autárquicas do regime fascista.",
+        "pdf_url": "https://revistas.ufpr.br/historia/article/download/55381/33513",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W2756729533",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Design de vestuário de moda contemporânea: criação versus produção",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1822/19256",
+        "doi": null,
+        "year": 2009,
+        "authors": [
+          "Anne Anicet Rüthschilling"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "No mundo globalizado em que vivemos, a moda está a ganhar cada vez mais importância, tanto em termos de indústria e economia, como no domínio do saber científico. A crescente evolução das “semanas de moda”, no mundo inteiro, é resultado de todo este processo que é cada vez mais o suporte de uma economia que atrai a cada estação um número maior de investidores. Para suportar esta requisito, a cadeia industrial de produtos de moda tem de estar atenta às rápidas evoluções do mercado. Isto reflecte-se directamente nas exigências profissionais dos colaboradores envolvidos nos mais diversos processos que compõem o processo da moda, principalmente dos designers de têxteis e de moda, técnicos de modelagem, etc. Entre os desafios da actualidade estão a inovação em termos estéticos, de design, conforto, acabamentos de elevado desempenho, fácil manutenção e preço concorrencial. Tudo isto de acordo com as exigências dos consumidores, agregando a qualidade de criação com a qualidade produtiva. Neste contexto, enquadra-se este projecto que visa estudar a actual evolução da produção de moda em Portugal e no Brasil. Para tal, foi realizada uma pesquisa sobre o design de vestuário de moda contemporânea, baseado na experiência dos criadores de moda que apresentam os seus trabalhos nas “semanas de moda” mais importantes de ambos países. Foi ainda elaborado um inquérito destinado aos criadores que participam nas feiras: Moda Lisboa, Portugal Fashion, São Paulo Fashion Week e Fashion Rio com o intuito que conhecer como estes trabalham, seja em termos de criação, seja em termos de estrutura da empresa, produção e meios que costumam utilizar para a distribuição dos seus produtos. É objectivo deste trabalho conceber uma metodologia de criação de produtos de moda, com base na experiência de trabalho destes profissionais e pautada pelos princípios teóricos do Marketing, Gestão da Produção e de Criação de Moda. Esta pesquisa será uma ferramenta importante na criação de produtos de moda de autor, apesar de não existir uma metodologia única e ideal para todos os criadores.",
+        "pdf_url": null,
+        "citation_count": 13,
+        "work_type": "other",
+        "identifier": "W2242143447",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Design de moda: influência da tecnologia na indústria da moda: estudo de caso",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1822/73507",
+        "doi": null,
+        "year": 2019,
+        "authors": [
+          "Nélia Patrícia Mousinho Lima"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "Agradeço à minha orientadora, Professora Doutora Rosa Maria de Castro Fernandes Vasconcelos, por ter aceite este desafio.Agradeço à equipa da Platforme, em especial ao Gonçalo Cruz, pela ajuda e disponibilidade prestada, que permitiu com que este estudo fosse possível.Agradeço a todas as pessoas com as quais me cruzei durante o meu percurso profissional até ao momento, pelo conhecimento que me transmitiram, o qual potencializou o presente estudo.Agradeço à BWGroup, em especial ao meu chefe, Henry Maurício, pela atenção, compreensão e pelo apoio dedicado, que me permitiu concluir este projeto.Aos meus pais, em especial à minha mãe, que mesmo longe, sempre me apoiou e incentivou, a continuar mesmo quando pensava em desistir.Ao meu irmão, que com o seu exemplo me orientou neste caminho.Agradeço ainda a todos os meus amigos, que me motivaram e me apoiaram.Muito obrigada a todos!v Resumo A moda é um reflexo da sociedade, ela mostra-nos num determinado espaço e tempo quais as ideologias, preferências de comportamento social, cultural e económico.Podemos observar ao longo da história o reflexo da sociedade no mundo da moda e consequentemente na indústria têxtil de vestuário.O Homem busca sempre a satisfação das suas necessidades físicas, de pertença e de realização pessoal e elas são um dos impulsionadores da mudança e da evolução.Neste sentido o estudo seguiu a linha temporal na história das revoluções industriais, no sentido de perceber as mudanças ocorridas até ao momento, ao nível social, económico e ambiental.A indústria têxtil de vestuário vive neste momento a quarta revolução industrial e com ela as eminentes alterações, trazidas pela evolução tecnológica e pelas mudanças sociais.Dentro do estudo destacamos as alterações nos processos produtivos, os desenvolvimentos de novos materiais têxteis, as novas formas de apresentação dos artigos, nomeadamente a tecnologia 3D, sistemas de recolha de dados e conexão entre sectores internos e externos, que permitem uma maior transparência das empresas e consequentemente do produto.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W3176201148",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Prevenção do desperdício no setor de vestuário e moda: inovação no processo de design",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.5965/1982615x06122013036",
+        "doi": "10.5965/1982615x06122013036",
+        "year": 2013,
+        "authors": [
+          "Iana Uliana Perez",
+          "Suzana Barreto Martins"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "O presente artigo parte da problemática da geração de resíduos têxteis no setor de confecção de produtos de moda e vestuário e do estudo de estratégias de produção mais limpa apresentando o processo de design zero waste como alternativa para a redução do desperdício têxtil e sua aplicação como inovação radical de processo comparado com processos convencionais de desenvolvimento de produtos de moda. Os resultados são validados em uma empresa de confecção de produtos de moda e apontam a viabilidade da aplicação do estudo proposto desde a criação, desenvolvimento e produção no âmbito do setor de vestuário.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/modapalavra/article/download/3478/6848",
+        "citation_count": 7,
+        "work_type": "article",
+        "identifier": "W1494244738",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Moda, sustentabilidade e ergonomia: RBS sobre métodos projetuais para o desenvolvimento de produtos de moda",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1982615x19482026e0005",
+        "doi": "10.5965/1982615x19482026e0005",
+        "year": 2026,
+        "authors": [
+          "Maria Fernanda Sornas Viggiani",
+          "Mônica Cristina De Moura"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "The fashion industry faces challenges related to sustainability, from production processes to the disposal of textile waste. Adopting slow fashion, combined with ergonomic principles from the product conception stage, is crucial to ensure comfort, usability, and to avoid premature disposal. This paper investigates the integration of ergonomics and sustainability in fashion design methods, covering everything from the product conception phase to post-consumption for new products, aiming to strike a balance between aesthetics, user comfort, and sustainable practices. A Systematic Literature Review (SLR) was conducted to identify fashion design methods that incorporate ergonomic and/or sustainable principles at various stages. A total of 750 documents were identified, from which, after applying filters, five were selected for bibliometric and content analysis—two focusing on ergonomic methods and three on sustainable methods for the industry. The comparative analysis of these methods aimed to understand different approaches to problem identification, planning, generation of alternatives, idea development, and materialization. This research is part of a master's thesis by one of the authors and contributes to the development of guidelines for designing sustainable, ergonomic, and contemporary products, applied to teaching and learning in technical and higher education fashion design courses. It is concluded that integrating sustainable principles, especially ergonomics, results in more comprehensive and responsible solutions that effectively meet user needs and contribute to a more sustainable and balanced future.",
+        "pdf_url": "https://revistas.udesc.br/index.php/modapalavra/article/download/25180/20244",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7225783713",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A moda como fonte de informação",
+        "source": "openalex",
+        "url": "https://doi.org/10.26563/dobras.v18i43.1874",
+        "doi": "10.26563/dobras.v18i43.1874",
+        "year": 2025,
+        "authors": [
+          "Maria Cecilia Jardim Barros"
+        ],
+        "venue": "dObra[s] – revista da Associação Brasileira de Estudos de Pesquisas em Moda",
+        "abstract": "Esta pesquisa visa desenvolver uma abordagem sistemática para a Organização e a Representação Documentária de trajes. A análise focou nos registros bibliográficos de trajes em museus, identificando e comparando os elementos descritivos presentes nestes registros com os documentos normativos. A pesquisa, de caráter exploratório, adotou uma metodologia objetiva para explicitar o problema proposto. Realizou-se um levantamento terminológico utilizando vocabulários controlados, com os resultados encontrados em bases de dados nacionais e internacionais. A análise concentrou-se em uma peça representativa da moda: o vestido de luto. Os dados coletados foram consolidados e, com base nos elementos descritivos identificados, foi proposta uma metodologia de representação de trajes de acordo com os documentos normativos. Os resultados mostraram que os registros das instituições selecionadas, a saber, Victoria & Albert Museum, Museu do Traje, Kyoto Costume Institute e FIT Museum, apresentam variações significativas nos elementos descritivos, mesmo tratando-se da mesma peça. Conclui-se que a interoperabildade entre os sistemas de informação é crucial, respeitando as características específicas de cada instituição e seus usuários. Além disso, é fundamental o estudo das normativas, da teoria e do contexto social para determinar os elementos essenciais na representação de trajes em coleções.",
+        "pdf_url": "https://dobras.emnuvens.com.br/dobras/article/download/1874/940",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4409062458",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Diversidade na Moda: Criando Coleções Inclusivas no Ambiente Acadêmico",
+        "source": "openalex",
+        "url": "https://doi.org/10.26563/dobras.i42.1831",
+        "doi": "10.26563/dobras.i42.1831",
+        "year": 2024,
+        "authors": [
+          "Anerose Perini",
+          "Luís Henrique Alves Cândido"
+        ],
+        "venue": "dObra[s] – revista da Associação Brasileira de Estudos de Pesquisas em Moda",
+        "abstract": "O artigo apresenta as experiências vivenciadas na prática supervisionada dos projetos desenvolvidos durante a graduação em Design de Moda, estruturado como uma pesquisa qualitativa e descritiva. A proposta limita-se a oferecer relatos de sala de aula sobre o desenvolvimento de metodologias aplicadas em Trabalhos de Conclusão de Curso com a temática “Moda e Inclusão”, para os públicos PCD. O texto ou estudo aborda desde a coerência do currículo acadêmico para o desenvolvimento do pensamento crítico em pesquisa ação, até a interdisciplinaridade no desenvolvimento de coleções de moda. A fim de alcançar os objetivos dos projetos, dentro das temáticas “moda, ergonomia e inclusão”, são abordadas as metodologias de projeto aplicadas nas coleções e a forma que cada discente adota projetos para execução das etapas, com as técnicas e ferramentas de criação na coleção autoral, visando a inclusão social. Autores como Maria Celeste de F. Sanches (2017), Milena Mayuri Pellegrino Ogushi e Mara Rúbia Sant’anna (2022) e Luana Novaes, et. al. (2022) auxiliam a construção do incentivo à pesquisa na graduação. De outro ângulo, Maria Celeste de Fátima Sanches Montemezzo (2003), Itálo Iida (2005), Maria de Fátima Grave (2010) e Ana Cristina Broega e Maria Elisabete Cabeço Silva, (2010) contribuem, acentuando a importância da ergonomia no desenvolvimento de produtos para a inclusão, enquanto que Gui Bonsiepe (1984), B. Löbach (2001), Jones (2005), Treptow (2007), Bruno Munari (2008), Richard Sorger e Jenny Udale (2009) e Aki Choklat (2012), oferecem suporte adequado relativo às técnicas e ferramentas do processo de projeto de coleção de moda.",
+        "pdf_url": "https://dobras.emnuvens.com.br/dobras/article/download/1831/904",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W4404913262",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Ateliê sob medida: manual com técnicas artesanais de costuras e acabamentos para vestidos de moda festa",
+        "source": "openalex",
+        "url": "https://repositorio.udesc.br/handle/UDESC/18019",
+        "doi": null,
+        "year": 2023,
+        "authors": [
+          "Dalvana de Col"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Os ateliês de moda festa sob medida, também conhecidos como Alta Moda ou prêt-à-porter de luxo, têm um público seleto composto, principalmente, de mulheres consumidoras que buscam um atendimento individualizado e um produto personalizado. Para realizar a confecção dos trajes é necessária a atuação de profissionais qualificados. Com base nisso, tem-se como objetivo desenvolver um manual com técnicas artesanais de costuras e acabamentos para vestidos de moda festa. A pesquisa é de natureza aplicada, quanto à abordagem do problema se caracteriza como qualitativa e, em relação aos objetivos, é descritiva. A pesquisa de campo centra-se na região Sudoeste do Estado do Paraná, tendo em vista que existe um número expressivo de ateliês de moda festa sob medida na referida região. As principais atividades da pesquisa de campo foram realizadas em parceria com o ateliê SD Exclusive Dress Atelier, situado na cidade de Ampére, com a aplicação de entrevista com roteiro semiestruturado, e questionários com questões pré-definidas aplicados a gestoras/estilistas e costureiras de 17 ateliês da região Sudoeste do Estado do Paraná, e como resultado, obteve-se 5 respondentes. No que concerne ao embasamento teórico, foi realizada a revisão narrativa assistemática (FERENHOF, H. A.; & FERNANDES, R. F., 2016), contemplando os seguintes pontos e suas respectivas fontes de pesquisa: vestuário sob medida de Roche (2007) e Kennedy et al. (2013); tecnologia do vestuário de Araújo (1996) e Rosa (2011); perfil profissional voltado ao vestuário sob medida de Jones (2005) e Kennedy et al. (2013); e, por fim, acabamentos e técnicas de costuras de Smith (2012) e Singer (2009). Os resultados alcançados com o estudo compreendem a identificação e registro das técnicas artesanais de costuras e acabamentos de vestidos de moda festa, e tais conhecimentos foram compilados em um manual que será disponibilizado para quem possuir interesse no assunto abordado neste estudo.",
+        "pdf_url": "https://repositorio.udesc.br/bitstreams/6f931280-fc69-4c03-933f-e088033240ca/download",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7120277105",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Prediction of Voyage Duration With Weather Constraints",
+        "source": "crossref",
+        "url": "https://doi.org/10.3940/rina.sm.1998.8",
+        "doi": "10.3940/rina.sm.1998.8",
+        "year": 1998,
+        "authors": [
+          "Unit of Marine Technology and Engineering, Instituto Superior Tecnico, Universidade Tecnica de Lisboa",
+          "C Guedes Soares",
+          "N Fonseca",
+          "Unit of Marine Technology and Engineering, Instituto Superior Tecnico, Universidade Tecnica de Lisboa",
+          "J Ramos",
+          "Unit of Marine Technology and Engineering, Instituto Superior Tecnico, Universidade Tecnica de Lisboa"
+        ],
+        "venue": "Ship Motions and Manoeuvrability",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "10.3940/rina.sm.1998.8",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "RINA"
+        }
+      },
+      {
+        "title": "Tecnica e sapere tecnico nel lavoro preindustriale",
+        "source": "crossref",
+        "url": "https://doi.org/10.2307/1479377",
+        "doi": "10.2307/1479377",
+        "year": 1984,
+        "authors": [
+          "Giulio Angioni"
+        ],
+        "venue": "La Ricerca Folklorica",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 5,
+        "work_type": "article",
+        "identifier": "10.2307/1479377",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "JSTOR"
+        }
+      },
+      {
+        "title": "From QCD to Chiral Dynamics: A Smooth Transition",
+        "source": "crossref",
+        "url": "https://doi.org/10.2172/6136058",
+        "doi": "10.2172/6136058",
+        "year": 1991,
+        "authors": [
+          "Superconducting Super Collider Lab., Dallas, TX (United States)",
+          "T. Morozumi",
+          "USDOE",
+          "Institute Superior Tecnico (IST), Universidade Tecnica de Lisboa",
+          "Institute Nacional de Investigagao Cientifica (INIC)",
+          "M. Rebelo",
+          "A. Sanda"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "10.2172/6136058",
+        "extra": {
+          "crossref_type": "report",
+          "publisher": "Office of Scientific and Technical Information (OSTI)"
+        }
+      },
+      {
+        "title": "À MÃO LIVRE: ENSINANDO O DESENHO DE MODA SOB UM ENFOQUE CONSTRUTIVISTA",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.38562",
+        "doi": "10.17771/pucrio.acad.38562",
+        "year": 2019,
+        "authors": [
+          "LOURDES MARIA PULS"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.38562",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "A ilustração de moda e o desenho de moda",
+        "source": "crossref",
+        "url": "https://doi.org/10.5965/1982615x03062010050",
+        "doi": "10.5965/1982615x03062010050",
+        "year": 2010,
+        "authors": [
+          "Carla Stephania De Góis Duarte"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "Este trabalho propõe apresentar um breve histórico da ilustração de moda e do desenho de moda, procurando evidenciar as acepções que diferenciam esses dois modos de produção da linguagem do desenho. A partir de uma revisão bibliográfica, foram selecionados dois tópicos, abordando questões referentes à constituição da ilustração de moda e do desenho de moda. Por fim serão apresentadas as considerações finais geradas para contribuir no desenvolvimento do campo científico da moda.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/modapalavra/article/download/7924/5469",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "10.5965/1982615x03062010050",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade do Estado de Santa Catarina"
+        }
+      },
+      {
+        "title": "DESENHO DE MODA RECORTA E COSTURA REVOLUÇÃO CULTURAL DA DÉCADA DE 60: O PAPEL DO JORNAL DO BRASIL NA FORMAÇÃO DA MODA BRASILEIRA",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.6729",
+        "doi": "10.17771/pucrio.acad.6729",
+        "year": 2015,
+        "authors": [
+          "GILDA MARIA CAROLLO CHATAIGNIER"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.6729",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "O BONECO ARTICULADO BIDIMENSIONAL COMO INTERFACE NO PROCESSO DE APRENDIZADO DO DESENHO DE MODA",
+        "source": "crossref",
+        "url": "https://doi.org/10.22533/at.ed.1652015014",
+        "doi": "10.22533/at.ed.1652015014",
+        "year": 2020,
+        "authors": [
+          "Celso Tetsuro Suono"
+        ],
+        "venue": "Diálogos entre Moda, Arte e Cultura 2",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.22533/at.ed.1652015014",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Atena Editora"
+        }
+      },
+      {
+        "title": "Desenho de moda: processos criativos na representação visual da figura humana e do vestuário",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.100.2017.tde-16102017-102200",
+        "doi": "10.11606/d.100.2017.tde-16102017-102200",
+        "year": 2018,
+        "authors": [
+          "Fabiana dos Santos Patrício"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.100.2017.tde-16102017-102200",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Corpo Antípoda / A representação do corpo humano no desenho de moda: uma abordagem semiótica",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2014.936381",
+        "doi": "10.47749/t/unicamp.2014.936381",
+        "year": 2021,
+        "authors": [
+          "Nancy de Palma Moretti"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2014.936381",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "O ENSINO DO DESENHO E ILUSTRAÇÃO DE MODA NA PRÁTICA DA EXTENSÃO",
+        "source": "crossref",
+        "url": "https://doi.org/10.13102/asppdci.v0i12.5171",
+        "doi": "10.13102/asppdci.v0i12.5171",
+        "year": 2020,
+        "authors": [
+          "Aderlange Sousa Araújo"
+        ],
+        "venue": "Anais do Seminário do Programa de Pós-Graduação em Desenho, Cultura e Interatividade",
+        "abstract": "O desenho é de grande importância para o profissional de moda, especialmenteaquele que desenvolve produtos. Entretanto, a realização de desenhos profissionais requer o domínio de técnicas que facilitem o entendimento da peça criada. O objetivo do curso de extensão é ensinar as técnicas manuais tradicionais de desenho e ilustração, e também exercitar a capacidade imaginativa, de abstração e memória visual. A metodologia adotada no curso foi dividida em três etapas, nas quais contaram com aulas teóricas e práticas sobre desenhos e ilustrações de moda. Dos resultados obtidos na primeira etapa foram feitos diagnósticos, nos quais apontaram erros de observação do desenho (50%), criação do traço (75%), sombreado (90%), erros no formato do corpo (75%) e desproporção da figura humana (100%). Na segunda etapa os resultados obtidos foram, melhoria no traço, no sombreado e na proporção exata do corpo humano, obedecendo a grade humana de 8 cabeças e meias. Na última etapa foram atingidos resultados significativos acerca da manipulação das técnicas de aplicação de cores, trabalhando o sombreado, a proporção e os diferentes métodos de ilustração. Com isso, conclui-se que os discentes que participaram de todas as etapas do curso obtiveram melhores desempenhos e desenhos profissionais que poderão no futuro ser absorvidos pelo mercado local de moda.",
+        "pdf_url": "https://periodicos.uefs.br/index.php/AnaisPPGDCI/article/download/5171/pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.13102/asppdci.v0i12.5171",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Estadual de Feira de Santana"
+        }
+      },
+      {
+        "title": "O desenho como ferramenta universal. O contributo do processo do desenho de moda na concepção do projeto de design de vestuário.",
+        "source": "crossref",
+        "url": "https://doi.org/10.5965/1982615x04082011011",
+        "doi": "10.5965/1982615x04082011011",
+        "year": 2011,
+        "authors": [
+          "Lourdes Maria Puls"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "Hoje as roupas não são feitas apenas para enfeitar o corpo. São roupas desenhadas e projetadas que utilizam materiais diferenciados, tecidos inteligentes e isto demanda um profissional de moda com formação que saiba utilizar o desenho como meio de inovação, tanto nas formas, processos e na materialidade do produto. Neste contexto o desenho é uma ferramenta essencial um recurso cognitivo e perceptivo determinante para solucionar e organizar a fruição das ideias. O desenho possibilita ao designer conceituar, desenvolver, materializar, transmitir e expressar suas ideias. Portanto um instrumento do pensamento e pontencializador da criatividade na concepção projetual.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/modapalavra/article/download/7892/5431",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.5965/1982615x04082011011",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade do Estado de Santa Catarina"
+        }
+      },
+      {
+        "title": "Los jóvenes y las Fuerzas Armadas",
+        "source": "crossref",
+        "url": "https://doi.org/10.2307/40183256",
+        "doi": "10.2307/40183256",
+        "year": 1986,
+        "authors": [
+          "Ficha Tecnica de la Encuesta"
+        ],
+        "venue": "Reis",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.2307/40183256",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "JSTOR"
+        }
+      },
+      {
+        "title": "O DESENHO E O DESIGN DE MODA: DA IDEIA AO PRODUTO",
+        "source": "crossref",
+        "url": "https://doi.org/10.13102/asppdci.v1i13.4661",
+        "doi": "10.13102/asppdci.v1i13.4661",
+        "year": 2019,
+        "authors": [
+          "Gisela Friaça de Souza Pereira"
+        ],
+        "venue": "Anais do Seminário do Programa de Pós-Graduação em Desenho, Cultura e Interatividade",
+        "abstract": "Este artigo fundamenta-se em uma pesquisa em andamento no Programa de Pós-Graduação em Design da PUC-Rio, sob a orientação do Prof. Dr. Carlos Eduardo Félix da Costa. Tem como objeto analisar a dificuldade dos alunos de Faculdades de Design de Moda na transposição de uma representação mental para uma representação real (desenho de moda/ilustração de moda, desenho técnico). Tal dificuldade redunda em um produto final - a roupa -, na maioria das vezes, desvinculado da representação mental geradora da ideia. Objetiva-se propor subsídios facilitadores para o trânsito livre na tríade proposta: ideia–desenho–produto. O ponto de partida deste estudo é a observação desta dificuldade em sala de aula, a investigação e a identificação dos fatores que dificultam esta transposição, tendo como suporte a aplicação de algumas técnicas artísticas tradicionais, a partir de experimentação, com o intuito de promover a liberação de fatores que bloqueiam a criatividade do aluno e que desenvolvem a visão espacial. Um estudo de caso corrobora os aspectos apresentados neste artigo",
+        "pdf_url": "https://periodicos.uefs.br/index.php/AnaisPPGDCI/article/download/4661/3855",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.13102/asppdci.v1i13.4661",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Estadual de Feira de Santana"
+        }
+      },
+      {
+        "title": "El futuro del MAB; Ficha tecnica de las compañias cotizadas en MAB; Bibliografia",
+        "source": "crossref",
+        "url": "https://doi.org/10.4272/978-84-9745-559-6.ch2",
+        "doi": "10.4272/978-84-9745-559-6.ch2",
+        "year": 2012,
+        "authors": [],
+        "venue": "Mercado Alternativo Bursatil",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "book-chapter",
+        "identifier": "10.4272/978-84-9745-559-6.ch2",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Netbiblo"
+        }
+      },
+      {
+        "title": "Los parados: condiciones de vida y actitudes políticas",
+        "source": "crossref",
+        "url": "https://doi.org/10.2307/40183150",
+        "doi": "10.2307/40183150",
+        "year": 1985,
+        "authors": [
+          "Ficha Tecnica Del Estudio"
+        ],
+        "venue": "Reis",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.2307/40183150",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "JSTOR"
+        }
+      },
+      {
+        "title": "Design da informação e desenho no design de produtos de moda",
+        "source": "crossref",
+        "url": "https://doi.org/10.5151/9cidi-congic-6.0089",
+        "doi": "10.5151/9cidi-congic-6.0089",
+        "year": 2019,
+        "authors": [
+          "Manuel Teles de Oliveira Filho"
+        ],
+        "venue": "Design Proceedings",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5151/9cidi-congic-6.0089",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Editora Blucher"
+        }
+      },
+      {
+        "title": "DESENHO DE MODA COMO OBJETO DE ENSINO, APRENDIZAGEM E COMUNICAÇÃO COLETIVA",
+        "source": "crossref",
+        "url": "https://doi.org/10.22533/at.ed.1652015015",
+        "doi": "10.22533/at.ed.1652015015",
+        "year": 2020,
+        "authors": [
+          "Valeska Alecsandra de Souza Zuim",
+          "Ana Cláudia Silva Farias",
+          "Raquel Viana Gondim"
+        ],
+        "venue": "Diálogos entre Moda, Arte e Cultura 2",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.22533/at.ed.1652015015",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Atena Editora"
+        }
+      },
+      {
+        "title": "A MODA ENQUANTO UM DESENHO-REGISTRO: Um breve panorama do vestuário feminino no século XIX",
+        "source": "crossref",
+        "url": "https://doi.org/10.13102/asppdci.v0i14.5024",
+        "doi": "10.13102/asppdci.v0i14.5024",
+        "year": 2020,
+        "authors": [
+          "Ludmila Maltez Carvalho Lima"
+        ],
+        "venue": "Anais do Seminário do Programa de Pós-Graduação em Desenho, Cultura e Interatividade",
+        "abstract": "O objetivo deste artigo é fazer um breve panorama das oscilaçoões das roupas feminnas do século XIX a fim de mostrar como o desenho do corpo da mulher foi modificado ao longo do século XIX atrvés das roupas. Pensando a roupa não apenas como um tecido que cobre o copo, mas como um instrumento da moda que registra os pesamentos e ideologias da sociedade em que foi criada, desenhando o corpo feminino e estabelecendo papel da mulher naquela sociedade, sendo assim um desenho-registro.",
+        "pdf_url": "https://periodicos.uefs.br/index.php/AnaisPPGDCI/article/download/5024/pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.13102/asppdci.v0i14.5024",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Estadual de Feira de Santana"
+        }
+      },
+      {
+        "title": "A representação gráfica do desenho no Design de Moda",
+        "source": "crossref",
+        "url": "https://doi.org/10.5965/1982615x05102012037",
+        "doi": "10.5965/1982615x05102012037",
+        "year": 2012,
+        "authors": [
+          "Lourdes Maria Puls"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "Os diferentes tipos de desenho de moda utilizados para a indústria de vestuário, mesmo que intrinsecamente interligados e interrelacionados, por possuírem elementos de ligação entre si, ainda geram confusões no ensino e aprendizagem do desenho de moda para ideação projetual. Por possuir características específicas, o desenho vai mudando em função da etapa em que ele é utilizado pelo designer na trajetória do processo de ideação projetual.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/modapalavra/article/download/7748/5296",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5965/1982615x05102012037",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade do Estado de Santa Catarina"
+        }
+      },
+      {
+        "title": "DESENHO TECNOLÓGICO INTERATIVO: MODA E PAISAGEM SONORA NO STREAMING DE MÚSICA SPOTIFY",
+        "source": "crossref",
+        "url": "https://doi.org/10.13102/asppdci.v1i1.8065",
+        "doi": "10.13102/asppdci.v1i1.8065",
+        "year": 2022,
+        "authors": [
+          "Helena Gabrielle Souza Ribeiro",
+          "José Wilson Martins Fialho Filho"
+        ],
+        "venue": "Anais do Seminário do Programa de Pós-Graduação em Desenho, Cultura e Interatividade",
+        "abstract": "A presente pesquisa dialoga sobre o Desenho Tecnológico Interativo e a Paisagem Sonora do Spotify a partirde perfis de Marcas de Moda com valor intangível para o seu Público-Alvo. Nesse recorte visa responder de quemaneira as Marcas de Moda utilizam o desenho, intento e propósito da plataforma Spotify para compartilharem suasreferências musicais. Nesse sentido, o estudo busca investigar o modo como playlists colaboram na construção dolifestyle enquanto elemento imaterial das marcas: Adidas, Farm e Lab Fantasma. A fundamentação teórica se baseia nospensamentos de Ribeiro (2015), Schafer (1997) e Robic (2012), que atuam na interpretação social de uma abordagempara explicar os fenômenos onde a Hiperculturalidade é conceituada por Byung-Chul Han (2019). Propõe-se umareflexão sobre o modelo conceitual de desenho como projeto e registro em redes sociais que abrangem: moda;imaterialidade como uma das dimensões de consumo emocional no mundo contemporâneo e streamings de áudio.",
+        "pdf_url": "https://periodicos.uefs.br/index.php/AnaisPPGDCI/article/download/8065/6650",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.13102/asppdci.v1i1.8065",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Estadual de Feira de Santana"
+        }
+      },
+      {
+        "title": "A interdisciplinaridade no ensino do desenho de moda",
+        "source": "crossref",
+        "url": "https://doi.org/10.5965/1982615x06112013018",
+        "doi": "10.5965/1982615x06112013018",
+        "year": 2013,
+        "authors": [
+          "Elga Lilian Buck",
+          "Daniella Romanato"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "Este artigo pretende discutir a importância da interdisciplinaridade nos cursos superiores de design de moda, trazendo como exemplo desta prática a atividade conjunta nas disciplinas de desenho de moda e computação aplicada à moda a fim de alcançar melhores resultados na construção da ilustração, seja ela manual ou digital.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/modapalavra/article/download/6512/4508",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5965/1982615x06112013018",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade do Estado de Santa Catarina"
+        }
+      },
+      {
+        "title": "O DESENHO DE MODA E A EDUCAÇÃO PELO SENSÍVEL: ANÁLISE DE UMA PRÁTICA PEDAGÓGICA",
+        "source": "crossref",
+        "url": "https://doi.org/10.5965/25944630322019096",
+        "doi": "10.5965/25944630322019096",
+        "year": 2019,
+        "authors": [
+          "Universidade do Estado de Santa Catarina (Udesc)",
+          "Lucas da Rosa",
+          "Valdecir Babinski Júnior",
+          "Icléia Silveira"
+        ],
+        "venue": "Revista de Ensino em Artes, Moda e Design",
+        "abstract": "O presente artigo constitui-se como análise de uma prática pedagógica aplicada na unidade curricular “Ilustração de Moda”, disciplina do quarto módulo do Curso Técnico subsequente em Produção e Design de Moda, do Instituto Federal de Santa Catarina (IFSC), Campus Jaraguá do Sul – Centro. Relata-se a prática realizada a partir de etapas subdivididas nas seguintes ações e atividades: (1) Refletir; (1.1) Coletar; (1.2) Categorizar; (1.3) Caracterizar; e (2) Desmistificar. Para tanto, pela metodologia empregada, este artigo apresenta-se como aplicado, descritivo, qualitativo e de campo. Quanto aos procedimentos técnicos envolvidos, entende-se o como bibliográfico e como pesquisa participativa. A análise da experiência relatada utiliza os fundamentos teóricos abordados por Head (1958), Duarte-Júnior (1981), Pineau (2000), Pillotto (2007) e Alexandroff (2010), quanto à educação pelo sensível, por meio de seis categorias: (i) “Experiência humana”; (ii) “Imagem da memória”; (iii) “Lógica e racionalidade”; (iv) “Comunicação sensível”; (v) “Ato criador”; e (vi) “Percepção”. Infere-se que a prática pedagógica relatada teve assertividade quanto à sensibilização dos estudantes da turma para com o desenho de moda, mas manteve-se em grande parte do tempo no campo da racionalidade e da lógica. Ainda que estas não sejam negadas na educação pelo sensível, a entrada de sensações foi limitada pelo uso de sentidos específicos: visão e audição.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5965/25944630322019096",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade do Estado de Santa Catarina"
+        }
+      },
+      {
+        "title": "Desenho de moda: uma análise sobre imaginação e criatividade à luz da teoria vigotskiana",
+        "source": "crossref",
+        "url": "https://doi.org/10.5151/ped2018-2.1_aco_7",
+        "doi": "10.5151/ped2018-2.1_aco_7",
+        "year": 2019,
+        "authors": [
+          "Vivian Andreatta LOS",
+          "Edson SCHROEDER",
+          "Valdecir Júnior BABINSKI"
+        ],
+        "venue": "Blucher Design Proceedings",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5151/ped2018-2.1_aco_7",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Editora Blucher"
+        }
+      }
+    ]
+  },
+  "count": 48,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:06:06.460256+00:00"
+}

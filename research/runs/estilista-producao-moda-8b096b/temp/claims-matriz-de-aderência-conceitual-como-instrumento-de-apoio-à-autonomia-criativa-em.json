@@ -1,0 +1,42 @@
+[
+  {
+    "claim": "A Matriz de Aderência Conceitual (MAC) atua como instrumento projetual para apoiar o processo de criação autoral em moda, articulando referências de expressividade visual (Perassi, Dondis e Gomes) com atributos específicos do vestuário (Jones, Campos e Sanches).",
+    "stance": "supports",
+    "stance_target": "Ferramentas projetuais estruturadas auxiliam o estilista a traduzir conceitos subjetivos em atributos tangíveis de vestuário",
+    "evidence_type": "empirical",
+    "scope_conditions": "Projetos de criação autoral em design de moda em ambiente educacional e projetual",
+    "quoted_support": "O artigo apresenta a Matriz de Aderência Conceitual (MAC) como ferramenta para subsidiar o processo de criação autoral em moda, compreendido como uma prática criativa de caráter expressivo, próxima ao campo das artes visuais. A fundamentação baseia-se em estudos sobre expressividade visual (Perassi, Dondis e Gomes) e atributos específicos do vestuário (Jones, Campos, Sanches), articulando referências das artes visuais e do design de moda.",
+    "numbers": [],
+    "entities": [
+      "Amanda Queiroz Campos",
+      "UDESC",
+      "Matriz de Aderência Conceitual (MAC)",
+      "Maria Celeste de Fátima Sanches"
+    ],
+    "time_period": "2025",
+    "region": "Santa Catarina, Brasil",
+    "confidence": "high",
+    "source_note_id": "matriz-de-aderência-conceitual-como-instrumento-de-apoio-à-autonomia-criativa-em"
+  },
+  {
+    "claim": "A aplicação da Matriz de Aderência Conceitual (MAC) estrutura conceitualmente as coleções de moda e fortalece a autonomia crítica dos criadores ao oferecer parâmetros objetivos de avaliação alinhados ao conceito da coleção, podendo ser combinada ao Mapa de Categorias Expressivas (Sanches, 2017).",
+    "stance": "supports",
+    "stance_target": "A falta de parâmetros objetivos para validar se as peças desenvolvidas mantêm coerência com o conceito da coleção é uma dificuldade metodológica recorrente na criação de moda",
+    "evidence_type": "empirical",
+    "scope_conditions": "Desenvolvimento conceitual de coleções de moda",
+    "quoted_support": "A MAC demonstrou-se útil na estruturação conceitual de coleções e no fortalecimento da autonomia crítica dos estudantes, ao oferecer parâmetros de avaliação alinhadas ao conceito da coleção. Sua estrutura flexível permite aplicação em diferentes contextos e pode ser combinada com outras ferramentas projetuais, como o Mapa de Categorias Expressivas (Sanches, 2017).",
+    "numbers": [
+      "2017",
+      "2025"
+    ],
+    "entities": [
+      "Amanda Queiroz Campos",
+      "Maria Celeste de Fátima Sanches",
+      "Matriz de Aderência Conceitual (MAC)"
+    ],
+    "time_period": "2017-2025",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "matriz-de-aderência-conceitual-como-instrumento-de-apoio-à-autonomia-criativa-em"
+  }
+]

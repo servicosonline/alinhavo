@@ -1,0 +1,103 @@
+[
+  {
+    "claim": "A revisão sistemática PRISMA de 74 publicações (52 artigos acadêmicos e 22 fontes da literatura cinzenta entre 2010 e 2022, sendo 61 publicadas entre 2020 e 2022) mostra que o sistema tradicional de prototipagem e amostragem (sampling) na moda gera alto desperdício quando o produto exige múltiplas alterações, e que simulações 3D e CAD reduzem a necessidade de amostras físicas.",
+    "stance": "supports",
+    "stance_target": "O ciclo tradicional de múltiplas amostras físicas (peças-piloto) gera desperdício de materiais, custos e prazos no desenvolvimento de coleção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Revisão sistemática PRISMA de 74 estudos sobre moda, tecnologias imersivas e sustentabilidade (2010-2022)",
+    "quoted_support": "The prototyping or sampling system can be wasteful if the product needs multiple amendments, and immersive technologies in the form of 3D simulations or visualisations can help to reduce the need for a physical sample [48,53,54,79,87,112].",
+    "numbers": [
+      "74 articles",
+      "52 scholarly journals",
+      "13 from 2010 to 2019",
+      "61 between 2020 and 2022",
+      "27 smarter design and production"
+    ],
+    "entities": [
+      "Lynda Mesjar",
+      "Karen Cross",
+      "Yang Jiang",
+      "Josie Steed"
+    ],
+    "time_period": "2010-2022",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "the-intersection-of-fashion-immersive-technology-and-sustainability-a-literature"
+  },
+  {
+    "claim": "No domínio de design, desenvolvimento e produção de vestuário, simular com precisão o caimento (fit) e o fluir do tecido sobre um corpo humano em movimento com múltiplos tamanhos corporais, bem como suprir a falta de feedback tátil (haptics), permanece um desafio tecnológico não resolvido nas ferramentas 3D.",
+    "stance": "supports",
+    "stance_target": "A falta de feedback tátil do tecido e a dificuldade de simular caimento em corpos em movimento de diferentes tamanhos limitam o design 3D de vestuário",
+    "evidence_type": "empirical",
+    "scope_conditions": "Tecnologias de simulação 3D e CAD para design e desenvolvimento de vestuário",
+    "quoted_support": "The technology for the 3D design of garments, particularly the fit and flow of material on a moving human body with multiple body sizes, is evolving and remains a challenging technological endeavour [48,50,61,68,86,87,89].",
+    "numbers": [],
+    "entities": [
+      "Lynda Mesjar",
+      "Karen Cross",
+      "Yang Jiang",
+      "Josie Steed"
+    ],
+    "time_period": "2010-2022",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "the-intersection-of-fashion-immersive-technology-and-sustainability-a-literature"
+  },
+  {
+    "claim": "O uso de realidade virtual e aumentada (VR/AR) em modelagem 3D e CAD frequentemente restringe-se apenas à visualização dos modelos em vez da manipulação projetual direta devido ao processo altamente técnico e demorado necessário para adaptar modelos 3D para ambientes VR/AR.",
+    "stance": "supports",
+    "stance_target": "A complexidade técnica e o tempo gasto para adaptar modelos CAD 3D impedem a manipulação direta pelo estilista em ambientes imersivos",
+    "evidence_type": "empirical",
+    "scope_conditions": "Integração entre softwares CAD 3D de vestuário e ambientes VR/AR",
+    "quoted_support": "However, it must be noted that VR/AR use in CAD is sometimes limited to viewing the models rather than manipulation due to a time-consuming and highly technical process in adapting the 3D models for VR/AR [24].",
+    "numbers": [],
+    "entities": [
+      "Lynda Mesjar",
+      "Karen Cross",
+      "Yang Jiang",
+      "Josie Steed"
+    ],
+    "time_period": "2010-2022",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "the-intersection-of-fashion-immersive-technology-and-sustainability-a-literature"
+  },
+  {
+    "claim": "A indústria da moda enfrenta uma lacuna crítica de competências (skills gap) que exige requalificar a força de trabalho em três frentes simultâneas — design (uso de ferramentas digitais), técnica (trabalho com novos materiais engenheirados) e negócios digitais —, sendo que o alto custo de contratar essa expertise ameaça a capacidade de marcas menores adotarem tecnologias digitais e sustentáveis.",
+    "stance": "supports",
+    "stance_target": "O déficit de formação em ferramentas digitais e o alto custo de especialistas criam uma barreira severa para estilistas e pequenas marcas de moda",
+    "evidence_type": "empirical",
+    "scope_conditions": "Educação em design de moda e qualificação profissional na cadeia de suprimentos da moda",
+    "quoted_support": "Using immersive technologies at any stage of the fashion supply chain requires digital competence, and buying into this expertise can be expensive; as such, questions are raised about the capacity of smaller brands to go green if the talent pool is small [107]. Additionally, alongside the transformation in the fashion industry, a variety of skill sets are required—design (using digital tools), technical (including working with new engineered materials), and business-related skills (new digital ways of marketing, promotion and service delivery) [72].",
+    "numbers": [],
+    "entities": [
+      "Lynda Mesjar",
+      "Karen Cross",
+      "Yang Jiang",
+      "Josie Steed"
+    ],
+    "time_period": "2020-2022",
+    "region": "Global / China / Reino Unido",
+    "confidence": "high",
+    "source_note_id": "the-intersection-of-fashion-immersive-technology-and-sustainability-a-literature"
+  },
+  {
+    "claim": "A ausência de uma plataforma ou organização eficaz para integrar as soluções digitais ao longo da cadeia de valor da moda resulta em uma abordagem fragmentada ('piecemeal approach'), na qual softwares e processos variam de marca para marca sem capacidade para mudanças sistêmicas.",
+    "stance": "supports",
+    "stance_target": "A fragmentação de softwares e processos não integrados ao longo da cadeia produtiva dificulta o fluxo de trabalho entre criação, desenvolvimento e produção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Cadeia de valor da moda e transição para a Indústria 4.0",
+    "quoted_support": "There are innovative sustainable practices, which could be aided by immersive technologies or other digital solutions, in almost every step of the fashion value chain, yet there is a lack of a platform or effective organisation to integrate them together. This results in a piecemeal approach with software and processes varying from brand to brand and lacks the capacity for larger systemic changes in the industry [107].",
+    "numbers": [],
+    "entities": [
+      "Lynda Mesjar",
+      "Karen Cross",
+      "Yang Jiang",
+      "Josie Steed"
+    ],
+    "time_period": "2020-2022",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "the-intersection-of-fashion-immersive-technology-and-sustainability-a-literature"
+  }
+]

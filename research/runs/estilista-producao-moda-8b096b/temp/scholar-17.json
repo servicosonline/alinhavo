@@ -1,0 +1,979 @@
+{
+  "ok": true,
+  "data": {
+    "query": "estilista vestuario moda",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 25,
+      "crossref": 25,
+      "doab": 0
+    },
+    "raw_records": 50,
+    "merged_records": 45,
+    "returned": 45,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Estilista? Designer de moda... ou um designer de objetos do vestuário?",
+        "source": "openalex",
+        "url": "https://doi.org/10.26563/dobras.v7i15.69",
+        "doi": "10.26563/dobras.v7i15.69",
+        "year": 2014,
+        "authors": [
+          "Deborah Chagas Christo",
+          "Alberto Cipiniuk"
+        ],
+        "venue": "dObra[s] – revista da Associação Brasileira de Estudos de Pesquisas em Moda",
+        "abstract": "Ate o fim da década de 1990, a criação, bem como o desenvolvimento e a produção de objetos do vestuário, vinculados a noção de moda no Brasil, não era considerada como atividade pertencente ao campo do design. Com a indicação do Ministério da Educação, em 2004, para que os cursos de nível superior de estilismo ou moda se adequassem as Diretrizes Curriculares Nacionais do Curso de Graduação em Design, noções sobre a definição, delimitação e diferenciação das atividades do que, então, era nomeado como estilista e designer de moda se estabeleceram ou se alteraram. Assim, este artigo relata as conclusões da analise sobre a constituição, a estrutura e o funcionamento do campo de produção de objetos do vestuário no Brasil.",
+        "pdf_url": "https://dobras.emnuvens.com.br/dobras/article/download/69/69",
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "W2398801444",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Dobras",
+          "openalex_type": "article",
+          "oa_status": "diamond",
+          "also_in": "openalex,crossref"
+        }
+      },
+      {
+        "title": "Moda e modas no vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/issn.2316-9141.rh.2019.137649",
+        "doi": "10.11606/issn.2316-9141.rh.2019.137649",
+        "year": 2019,
+        "authors": [
+          "Luciana Crivellari Dulci"
+        ],
+        "venue": "Revista de História",
+        "abstract": "Este trabalho propõe uma análise comparativa acerca de dois momentos da moda no vestuário. O primeiro refere-se às teorias que inicialmente compreenderam o fenômeno da moda como uma hierarquia simbólica entre classes que ditam e classes que copiam moda. Esta perspectiva analítica explicou a moda desde o seu surgimento no Ocidente até meados do século XX. O segundo momento trata das modas plurais do tempo presente que, acredita-se, não podem mais ser explicadas por este primeiro cenário teórico. A investigação buscou evidenciar regularidades e singularidades entre os diferentes contextos de moda, examinando até que ponto a proposta analítica da hierarquia simbólica ainda explica as modas contemporâneas e em quais aspectos as modas plurais de hoje se diferenciam no seu movimento de renovação.",
+        "pdf_url": "http://www.revistas.usp.br/revhistoria/article/download/137649/153448",
+        "citation_count": 9,
+        "work_type": "article",
+        "identifier": "W4288348366",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Estilista: um profissional de moda",
+        "source": "openalex",
+        "url": "https://dspace.palermo.edu/ojs/index.php/actas/article/view/3390",
+        "doi": "10.18682/add.vi2.3390",
+        "year": 2020,
+        "authors": [
+          "Brícia Vieira Nepomuceno",
+          "Artemísia Caldas"
+        ],
+        "venue": "Actas de Diseño",
+        "abstract": "O maior obstáculo ao sucesso é a invisibilidade. Numa época em que a informação e o conhecimento imperam, mostrar-se, vender-se, dar luz a si próprio é tornar visível tudo aquilo de que se é potencialmente capaz. No acirrado mercado de trabalho, pode-se perceber que o marketing pessoal, hoje, não é uma opção para aqueles que desejam se destacar no cenário global, mas, principalmente, uma necessidade para os profissionais que precisam se manter no mercado, “preservando seu lugar ao sol”.",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/actas/article/download/3390/3504",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W7216096457",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "O estilista e a indústria da moda",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.5965/1982615x03062010019",
+        "doi": "10.5965/1982615x03062010019",
+        "year": 2010,
+        "authors": [
+          "Paulo Fernandes Keller"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "O artigo analisa a ocupação estilista de moda (fashion designer) na sociedade contemporânea enquanto uma forma de trabalho imaterial, cognitiva e criativa inserida na indústria da moda. O artigo é fruto de pesquisa bibliográfica e documental. Ele utiliza de forma articulada as ferramentas analíticas da sociologia do trabalho, da sociologia da moda e da sociologia econômica especializada na análise de redes. O artigo conclui que o trabalho do estilista de moda constitui uma atividade produtiva de caráter imaterial, cognitivo e criativo que demanda habilidades múltiplas.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/modapalavra/article/download/7922/5465",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W2501769882",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade do Estado de Santa Catarina",
+          "openalex_type": "article",
+          "oa_status": "diamond",
+          "also_in": "openalex,crossref"
+        }
+      },
+      {
+        "title": "Visibilidade Inclusiva: Uma Análise Semiótica Triádica da Coleção de Moda ‘Plastic’ da Estilista Vitória Cuervo",
+        "source": "openalex",
+        "url": "https://doi.org/10.36238/23595787.artcient.16102019",
+        "doi": "10.36238/23595787.artcient.16102019",
+        "year": 2019,
+        "authors": [
+          "Ítalo José de Medeiros Dantas",
+          "Heloisa Mirelly Ferreira Alves",
+          "Mariana Nunes do Nascimento",
+          "Vanda da Conceição Silva",
+          "Alan Jones Lira de Melo",
+          "Layla de Brito Mendes"
+        ],
+        "venue": "Revista Acadêmica Online",
+        "abstract": "Este artigo estuda a coleção de moda ‘Plastic’ da estilista Vitória Cuervo, buscando analisar as estratégias artísticas e discursivas utilizadas pela estilista na inclusão de pessoas com deficiência em suas coleções de moda, porém, o que é mais provocador, sem excluir as demais pessoas. Assim, para compor a análise, foram feitas pesquisas bibliográficas, utilizando a semiótica tríadica de Peirce como embasamento, sua noção de signo e seus conceitos de primeiridade, secundidade e terceiridade, investigando desde a construção das peças de vestuário da estilista aos editoriais de divulgação, objetivando-se trazer à tona discussões acerca da inclusão de pessoas com deficiência na moda. Como resultado, obteve-se uma análise dos componentes dos produtos de moda confeccionados, como estampas, cores, funcionalidades e outros aspectos estéticos; ao seguir para os editoriais, foi possível debater as atitudes das poses dos modelos, bem como o modo com que as peças foram posicionadas ao se interagirem com os mesmos e, por fim, discutiu-se acerca do conceito buscado pela coleção e das suas implicações à longo prazo para o mundo.",
+        "pdf_url": "https://revistaacademicaonline.com/index.php/rao/article/download/658/718",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2980422741",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Revista Academica Online",
+          "openalex_type": "article",
+          "oa_status": "diamond",
+          "also_in": "openalex,crossref"
+        }
+      },
+      {
+        "title": "PUBLICAÇÕES ACERCA DA HISTÓRIA DA INDÚSTRIA DE VESTUÁRIO/MODA NO PARANÁ: UMA ANÁLISE",
+        "source": "openalex",
+        "url": "https://www.contexmod.net.br/index.php/quinto/article/download/695/pdf_59",
+        "doi": null,
+        "year": 2017,
+        "authors": [
+          "Nathaly Paulo da Cruz de Oliveira",
+          "Ana Caroline Siqueira Martins",
+          "Márcio José Silva"
+        ],
+        "venue": null,
+        "abstract": "Este artigo discorre sobre as publicacoes acerca da historia da industria de vestuario/moda no estado do Parana, tendo como principal objetivo analisar as obras/ estudos existentes referentes ao assunto, bem como facilitar o acesso a estas publicacoes, por meio de divulgacao e links de onde encontra-las. Como metodologia foram utilizadas a pesquisa bibliografica e a de campo, esta realizada em plataformas online como o Google academico , Google books, Scielo , Science direct , Periodicos capes , Dominio publico, Redalyc. Ao analisar os dados, verificou-se que as publicacoes salientam a importância dos APL’s (Arranjos Produtivos Locais) e da atividade produtiva da confeccao de vestuario no estado, onde este e retratado por sua rica mao de obra. Notou-se que ha poucos escritos sobre a historia desse setor relacionando-o a aspectos criativos e a figura do estilista-designer e de sua trajetoria dentro da industria de moda/vestuario paranaense.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2729900909",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "closed"
+        }
+      },
+      {
+        "title": "O vestuário como inscrição: a moda de Ronaldo Fraga sob a ótica de Bruno Latour",
+        "source": "openalex",
+        "url": "https://shb.ibict.br/index.php/xiv-ed/article/view/79",
+        "doi": null,
+        "year": 2026,
+        "authors": [
+          "Laís Normando"
+        ],
+        "venue": "XIV Seminário Hispano-Brasileiro de Pesquisa em Informação, Documentação e Sociedade (SHB)",
+        "abstract": "O presente artigo visa investigar o papel da moda enquanto instrumento de preservação da memória social e cultural, com base nos conceitos de Bruno Latour sobre de centro de cálculo, circulação de inscrições e redes de transformação. A partir da revisão de literatura, busca-se compreender como a moda conceitual brasileira, representada aqui pela obra do estilista mineiro Ronaldo Fraga, procede como um sistema de coleta, tratamento e disseminação de informações culturais. O estilista atua nesse sentido ao incorporar referências históricas, conhecimentos da cultura popular, memórias regionais e práticas tradicionais de artesanato em suas coleções. Cada peça de vestuário torna-se, assim, um “móvel imutável”, um artefato informacional que acumula as narrativas sociais e circula por diferentes contextos, como desfiles, exposições, músicas, vídeos e muitos outros. A pesquisa é fundamentada na revisão sistemática de estudos publicados entre 2014 a 2024 nas bases Scielo e BDTD. Como resultado, propõe-se a moda conceitual como uma forma de documentação que transforma a arte em suporte de memória.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7220352097",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Costureiro, estilista, criador, designer de moda: aproximações e distanciamentos",
+        "source": "openalex",
+        "url": "https://doi.org/10.26563/dobras.v5i12.119",
+        "doi": "10.26563/dobras.v5i12.119",
+        "year": 2012,
+        "authors": [
+          "Eloize Navalon"
+        ],
+        "venue": "dObra[s] – revista da Associação Brasileira de Estudos de Pesquisas em Moda",
+        "abstract": "Este artigo apresenta algumas anotações a respeito da identificação das diferenças e aproximações entre as designações de costureiros, estilistas e designers para quem cria e desenvolve moda. Esse interesse surge a partir de conversas e questionamentos realizados em congressos da área, corredores da Universidade, com amigos e companheiros de área e de profissão, num momento no qual questionamos o papel da moda contemporânea.",
+        "pdf_url": "https://dobras.emnuvens.com.br/dobras/article/download/119/118",
+        "citation_count": 6,
+        "work_type": "article",
+        "identifier": "W2610812281",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Dobras",
+          "openalex_type": "article",
+          "oa_status": "diamond",
+          "also_in": "openalex,crossref"
+        }
+      },
+      {
+        "title": "A técnica de modelar o vestuário e a moda",
+        "source": "openalex",
+        "url": "https://dspace.palermo.edu/ojs/index.php/actas/article/view/3133",
+        "doi": "10.18682/add.vi5.3133",
+        "year": 2020,
+        "authors": [
+          "Bárbara Franzner Barbosa",
+          "Thais Callegari Fernandes",
+          "Adriana Martinez Montanheiro",
+          "Icléia Silveira"
+        ],
+        "venue": "Actas de Diseño",
+        "abstract": "A moda, seu tempo e espaço dialogam com os acontecimentos mais marcantes, entre eles estilos artísticos, movimentos sociais, culturais, fatos históricos, acontecimentos políticos e econômicos. Estes acontecimentos interferem nos aspectos comportamentais da época. Dentro deste espaço, a moda, na lógica de sua reprodução, busca modos para se manifestar, em sintonia com o mercado.",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/actas/article/download/3133/3877",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7216218135",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A Técnica de Modelar o Vestuário e a Moda",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1808312902042007403",
+        "doi": "10.5965/1808312902042007403",
+        "year": 2019,
+        "authors": [
+          "Icléía Silveira",
+          "Thais Callegari Fernandes"
+        ],
+        "venue": "DAPesquisa",
+        "abstract": "O estudo tem como objetivo identificar o contexto social das décadas de 1900 à 1990. Optou-se pela pesquisa qualitativa e descritiva. Evidenciou-se que as características presentes no contexto social são incorporadas às tendências de moda. Todos os fatos do ambiente econômico, político, cultural e social manifestam-se na vida das pessoas sob diversas formas, na maneira de ser e de se comportar.",
+        "pdf_url": "https://www.revistas.udesc.br/index.php/dapesquisa/article/download/16631/10771",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2989873908",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A moda brasileira é jovem, branca e magra: perfil de estilistas e modelos na SPFW entre 2013 e 2017",
+        "source": "openalex",
+        "url": "https://doi.org/10.26563/dobras.v12i26.920",
+        "doi": "10.26563/dobras.v12i26.920",
+        "year": 2019,
+        "authors": [
+          "Ana Caroline Siqueira Martins",
+          "Carla Cristina Siqueira Martins"
+        ],
+        "venue": "dObra[s] – revista da Associação Brasileira de Estudos de Pesquisas em Moda",
+        "abstract": "O corpo, entendido como mídia, linguagem que comunica gostos, possibilidades, continuidades e descontinuidades culturais, foi objeto de estudo para se entender uma das múltiplas vertentes do funcionamento da moda atual. Para tanto, foram investigados os perfis de estilistas e modelos participantes do considerado maior e mais significativo evento de moda do Brasil, o SPFW, entre os anos 2013 e 2017, representativo, portanto, nas dinâmicas e comportamentos atuais do campo da moda com relação a esse tema. A pesquisa se justifica pela importância da moda enquanto fenômeno social, materializado em produtos de consumo que permeiam o corpo e o cotidiano da sociedade, expressando comportamentos, identidades nacionais, regionais, locais, individuais e coletivas, tornando-se instrumento para/nas investigações a respeito das práticas e narrativas culturais. Também pela relevância do setor de moda no país, que possui no eixo de vestuário um papel importante na composição da indústria de transformação nacional, seja em valores da sua produção, seja por sua capacidade de gerar empregos. Por meio da pesquisa bibliográfica e documental e análise dos dados, verificou-se a hegemonia jovem/adulta, branca e magra dos biótipos dos agentes investigados, que assim representam a moda brasileira para o país e para mundo. Entre os autores que ofereceram suporte para as análises destacam-se Bourdieu (1992, 1996, 2001, 2006), Del Priore (2000), Mesquita e Castilho (2012) e Santaella (2004).",
+        "pdf_url": "https://dobras.emnuvens.com.br/dobras/article/download/920/564",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W2971499388",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "¿Semiótica de la moda, semiótica del vestuario?",
+        "source": "openalex",
+        "url": "https://ddd.uab.cat/record/204674",
+        "doi": null,
+        "year": 2001,
+        "authors": [
+          "Ugo Volli"
+        ],
+        "venue": "Dipòsit Digital de Documents de la UAB (Universitat Autònoma de Barcelona)",
+        "abstract": "This paper explores the differences between Fashion and gargment and the laws who organize the changing on it. Semiotics could be a good key analysis if it's give up the metaphor fashions as a language. Wardrobe is rather a kind of text which could be study with a pragmatic approach. Seduction and irony are also steady characteristics of this process.",
+        "pdf_url": "https://ddd.uab.cat/pub/designis/designis_a2001n1/designis_a2001n1p57.pdf",
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "W3081120489",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Design de vestuário de moda contemporânea: criação versus produção",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1822/19256",
+        "doi": null,
+        "year": 2009,
+        "authors": [
+          "Anne Anicet Rüthschilling"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "No mundo globalizado em que vivemos, a moda está a ganhar cada vez mais importância, tanto em termos de indústria e economia, como no domínio do saber científico. A crescente evolução das “semanas de moda”, no mundo inteiro, é resultado de todo este processo que é cada vez mais o suporte de uma economia que atrai a cada estação um número maior de investidores. Para suportar esta requisito, a cadeia industrial de produtos de moda tem de estar atenta às rápidas evoluções do mercado. Isto reflecte-se directamente nas exigências profissionais dos colaboradores envolvidos nos mais diversos processos que compõem o processo da moda, principalmente dos designers de têxteis e de moda, técnicos de modelagem, etc. Entre os desafios da actualidade estão a inovação em termos estéticos, de design, conforto, acabamentos de elevado desempenho, fácil manutenção e preço concorrencial. Tudo isto de acordo com as exigências dos consumidores, agregando a qualidade de criação com a qualidade produtiva. Neste contexto, enquadra-se este projecto que visa estudar a actual evolução da produção de moda em Portugal e no Brasil. Para tal, foi realizada uma pesquisa sobre o design de vestuário de moda contemporânea, baseado na experiência dos criadores de moda que apresentam os seus trabalhos nas “semanas de moda” mais importantes de ambos países. Foi ainda elaborado um inquérito destinado aos criadores que participam nas feiras: Moda Lisboa, Portugal Fashion, São Paulo Fashion Week e Fashion Rio com o intuito que conhecer como estes trabalham, seja em termos de criação, seja em termos de estrutura da empresa, produção e meios que costumam utilizar para a distribuição dos seus produtos. É objectivo deste trabalho conceber uma metodologia de criação de produtos de moda, com base na experiência de trabalho destes profissionais e pautada pelos princípios teóricos do Marketing, Gestão da Produção e de Criação de Moda. Esta pesquisa será uma ferramenta importante na criação de produtos de moda de autor, apesar de não existir uma metodologia única e ideal para todos os criadores.",
+        "pdf_url": null,
+        "citation_count": 13,
+        "work_type": "other",
+        "identifier": "W2242143447",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Estilista ou autor: o percurso das figuras criadoras no sistema da moda",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/18083129152021e0017",
+        "doi": "10.5965/18083129152021e0017",
+        "year": 2021,
+        "authors": [
+          "Amanda Queiróz Campos"
+        ],
+        "venue": "DAPesquisa",
+        "abstract": "O presente artigo decorre de investigação sobre figuras criadoras de moda. Seu objetivo é exibir as diferentes figuras e instituições consideradas aptas e hábeis à criação no decorrer da história da moda. Esta pesquisa pode ser classificada como qualitativa, descritiva e bibliográfica. A metodologia aplicada foi a de revisão teórica, conduzindo-se levantamento, análise e interpretação de fontes teóricas como livros, dissertações e teses sobre história da moda, de forma a identificar e descrever brevemente tais figuras especialistas. O critério adotado para levantar e sistematizar a bibliografia foram as obras de Lipovetsky (2007), Sant’Anna (2009), Riello (2013), Laver (2008) e Baldini (2005). Os dados foram analisados criticamente e as informações foram sintetizadas e apresentadas em ordem cronológica. Como resultado, pode-se identificar que desde as corporações de ofício (manufaturas reais) e as figuras aristocráticas (com ênfase nas rainhas), o campo da moda guia-se por especialistas na definição dos cânones da beleza, do estilo e do bem vestir. Também se aponta que o tardio processo de industrialização da moda cedeu às marcas o papel legitimado da criação, colocando designers de moda no centro das atividades de ideação e desenvolvimento de produtos. Essa industrialização encontra seu apogeu no fenômeno fast fashion. Tal modelo de criação e produção sofre veementes críticas, incluindo aquelas à própria 'insustentabilidade criativa' dos designers de moda. Assim, como consideração final deste trabalho, observa-se um retorno à moda autoral, a qual tem como base a singularidade do criador e a subjetividade de seu processo criativo.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/dapesquisa/article/download/17294/12945",
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "W3165030564",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade do Estado de Santa Catarina",
+          "openalex_type": "article",
+          "oa_status": "diamond",
+          "also_in": "openalex,crossref"
+        }
+      },
+      {
+        "title": "Moda e envelhecimento: mudanças corporais e conforto no vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/19847246252024e0509",
+        "doi": "10.5965/19847246252024e0509",
+        "year": 2024,
+        "authors": [
+          "Malusa Fernanda Schuch",
+          "Cláudia Schemes"
+        ],
+        "venue": "PerCursos",
+        "abstract": "Devido à perspectiva de aumento do número de idosos, existe uma crescente demanda por produtos que atendam às necessidades ergonômicas decorrentes do avanço da idade. Com isso, o objetivo deste trabalho consiste em analisar as mudanças corporais das mulheres idosas e o conforto das roupas para esse público, visando analisar se o conforto psico-estético se faz presente. Para tanto, serão conceituados o envelhecimento feminino e as mudanças corporais que ocorrem com o avanço da idade, bem como descritos os conceitos que consistem no conforto psico-estético. A metodologia utilizada foi a pesquisa de campo quali e quantitativa. Ao final deste estudo, podemos constatar que as roupas feitas para este nicho, não cumprem com os quatro pilares fundamentais de conforto.",
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "W4400983089",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Moda e imagem urbana: para além do vestuário.",
+        "source": "openalex",
+        "url": "https://dspace.palermo.edu/ojs/index.php/actas/article/view/3370",
+        "doi": "10.18682/add.vi2.3370",
+        "year": 2020,
+        "authors": [
+          "Syomara dos Santos Duarte Pinto"
+        ],
+        "venue": "Actas de Diseño",
+        "abstract": "O advento da moda através dos tempos em suas mais diversas manifestações estéticas permeou sociedades e culturas de tal forma que necessitamos um olhar mais atento para perceber que a influência desse campo, hoje presente na academia, transpôs os limites do corpo e do vestuário, apresentando-se em outros corpos e manisfestando-se para contribuir com imagens que bordam as tramas têxteis, mas também se mostram nas tramas urbanas, em novidades que são substituídas à medida que a estética se renova. Este trabalho faz uma análise histórica da estética da moda relacionando-a à outros campos como o design, a arquitetura e o urbanismo e os apresenta por intermérdio de pesquisa bibliográfica aliada à documentação fotográfica.",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/actas/article/download/3370/3466",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7216165107",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "VESTUÁRIO, MODA E CONSUMO: ALGUMAS NOTAS E REFLEXÕES",
+        "source": "openalex",
+        "url": "https://doi.org/10.15202/10.15202/19811896.2015v20n39p130",
+        "doi": "10.15202/10.15202/19811896.2015v20n39p130",
+        "year": 2015,
+        "authors": [
+          "Solange Riva Mezabarba"
+        ],
+        "venue": "Revista Augustus",
+        "abstract": "Este artigo tem o objetivo de discutir algumas definições de “moda” em contraposição ao que poderíamos chamar “não-moda”. Dentro deste escopo, pretende-se abordar alguns traços comportamentais em relação ao consumo de “moda-vestuário”, com base em pesquisas empíricas.",
+        "pdf_url": "http://apl.unisuam.edu.br/revistas/index.php/revistaaugustus/article/download/19811896.2015v20n39p130/562",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W2255247147",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A informação tecida na moda: o campo das micro e pequenas indústrias do vestuário em Minas Gerais",
+        "source": "openalex",
+        "url": "https://enancib.ancib.org/index/article/view/brapci-180044",
+        "doi": null,
+        "year": 2000,
+        "authors": [
+          "Maria Eugênia Albino Andrade"
+        ],
+        "venue": "Enancib",
+        "abstract": "ANDRADE, Maria Eugênia Albino. A informação tecida na moda: o campo das micro e pequenas indústrias do vestuário em Minas Gerais. Rio de Janeiro: UFRJ, 2000. 299p. (Tese, Doutorado em Ciência da Informação – IBICT/CNPq-ECO/UFRJ). Orientadora: Dra. Regina Maria Marteleto. Analisa as práticas informacionais dos micro e pequenos industriais do campo da moda, mais especificamente do setor do vestuário, em Minas Gerais, em sua interação com o universo social, cultural, político, econômico e organizacional. Busca entender como se caracterizam as atividades informacionais das micro e pequenas empresas do campo da moda e de que maneira sua posse e utilização constituem elemento diferencial na atuação dessas organizações e possibilitam a geração de novas informações consolidadas na roupa. A pesquisa se desenvolve em torno de três eixos básicos: a informação, a moda e as micro e pequenas empresas, tendo como suporte teórico os seguintes autores: Dervin, Marteleto, Rattner, Furtado, Prado Jr., Bourdieu, Lipovetsky e Wilson. O universo da pesquisa é constituído de micro e pequenas indústrias do setor de vestuário de Minas Gerais. Foram realizadas 19 entrevistas em 14 micro e pequenas indústrias localizadas em Belo Horizonte. Buscando ampliar a compreensão da representatividade das micro e pequenas empresas brasileiras em geral e das do vestuário em particular, foram analisados dados quantitativos sobre essas organizações em fontes secundárias. Foram estabelecidas, para fins de análise, três categorias de produtores de moda: os criadores, os adaptadores e os reprodutores. As conclusões apontam para uma diversidade das práticas informacionais das três categorias, influenciadas pelos capitais simbólico e econômico detidos pelos atores. A posição dos agentes sociais no campo da indústria da moda mostra uma relação direta entre sua capacidade de obter, processar e gerar informações. As informações sobre moda e sobre o contexto sóciopolítico-econômico são obtidas de diferentes fontes, tais como: viagens ao exterior, programas de TV, revistas internacionais e nacionais, fornecedores de matéria-prima e pessoas, principalmente familiares. O estilista está sempre atento às informações que transitam pelo mundo e suas práticas informacionais – que se iniciam antes de sua entrada no campo da moda, como elemento de seu capital social – vão se aprimorando com a convivência no campo.",
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W1531542887",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Ergonomia no vestuário: conceito de conforto como valor agregado ao produto de moda",
+        "source": "openalex",
+        "url": "https://dspace.palermo.edu/ojs/index.php/actas/article/view/3315",
+        "doi": "10.18682/add.vi3.3315",
+        "year": 2007,
+        "authors": [
+          "Eliana Gonçalves",
+          "Luciana Dornbusch Lopes"
+        ],
+        "venue": "Actas de Diseño",
+        "abstract": "Em uma economia globalizada, onde a concorrência é acirrada, a necessidade de se fabricar um produto que conquiste o consumidor de maneira instantânea é uma constante na indústria da moda. As estratégias para satisfazer este consumidor não são apenas as de ordem técnica. Além dessa característica, inerente à qualidade do produto, o conforto e a estética são aspectos exigidos cada vez mais por esta demanda de moda.",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/actas/article/download/3315/3594",
+        "citation_count": 34,
+        "work_type": "article",
+        "identifier": "W3165527938",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A influência chinesa na moda ocidental",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/1822/59771",
+        "doi": null,
+        "year": 2018,
+        "authors": [
+          "Ana Margarida Moreira Pereira"
+        ],
+        "venue": "RepositóriUM (Universidade do Minho)",
+        "abstract": "A moda é uma arte que está em constante mudança e, por isso, os designers referenciam diversas influências na criação das suas coleções. Uma dessas influências é denominada influência chinesa. A dissertação “A influência Chinesa na Moda Ocidental” pretende analisar os elementos da cultura chinesa presentes na moda ocidental. Ao longo da dissertação é feito um enquadramento teórico, analisando a relação da semiótica com a moda. De seguida são analisados os simbolismos culturais chineses e posteriormente é comparado o design tradicional com o design moderno. A inspiração dos estilistas ocidentais é também retratada a fim de analisar as peças de vestuário que compõem esta tendência, utilizando uma metodologia qualitativa, com o instrumento da grelha de avaliação. Seguidamente, são analisadas as peças de vestuário e as marcas europeias que adotaram a tendência nas suas recentes coleções. Ao longo da dissertação, pretendo verificar se existe alguma presença da influência chinesa na moda ocidental, bem como dos elementos da cultura chinesa que os designers utilizam em junção com elementos da cultura ocidental, com uma tentativa de identificar os simbolismos que os designers ocidentais adotam de modo a incorporar a cultura chinesa.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2953062986",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Moda e vestuário nos periódicos femininos brasileiros do século XIX",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/issn.2316-901x.v0i71p232-251",
+        "doi": "10.11606/issn.2316-901x.v0i71p232-251",
+        "year": 2018,
+        "authors": [
+          "Beatriz Albarez de Assunção",
+          "Isabel Cristina Italiano"
+        ],
+        "venue": "Revista do Instituto de Estudos Brasileiros",
+        "abstract": "Este artigo tem o objetivo de apresentar uma primeira relação entre moda e imprensa no Brasil oitocentista, além da importância dada ao vestuário feminino nos periódicos brasileiros do século XIX. No acervo da Biblioteca Nacional, escolheram-se os periódicos O Espelho Diamantino, O Jornal das Senhoras e A Estação, levando em consideração uma evolução cronológica e de conteúdo. A partir disso foram selecionadas as edições mais relevantes para discutir os temas recorrentes. Como resultado, foi possível depreender que: a diferença climática entre Brasil e Europa foi o principal empecilho na importação de moda; os periódicos oitocentistas, que são importante fonte de documentação da história da moda, porém não da moda brasileira, atuaram também como impulso para mudanças no vestuário, criando tanto um mercado de moda como de imprensa.",
+        "pdf_url": "https://www.revistas.usp.br/rieb/article/download/152750/149260",
+        "citation_count": 15,
+        "work_type": "article",
+        "identifier": "W2904549296",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Gestão da tecnologia de vestuário feminino de moda festa: um mapa do sistema informativo-comunicacional em ateliês",
+        "source": "openalex",
+        "url": "https://repositorio.udesc.br/handle/UDESC/20256",
+        "doi": null,
+        "year": 2024,
+        "authors": [
+          "Débora Jönck Hoffmann Koester"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Nos ateliês de moda festa, os quais são marcados por seu trabalho artesanal, as informações são sobretudo importantes na sua fase inicial referente ao setor de criação, que será o responsável por colher informações e as conduzir por todas as etapas de desenvolvimento. A informação tem o papel de conduzir e transmitir ações e decisões que refletem em todo um processo. No entanto esse fluxo comunicacional depende da capacidade de transmissão e compreensão dessa informação em todos os setores pelos quais irá percorrer. Ciente da necessidade de gerenciar o fluxo da informação no processo de concepção e produção das peças criadas pelo estilista, ou seja, a gestão da tecnologia do vestuário em ateliês de moda festa sob medida, esta dissertação tem por objetivo propor um mapa do sistema informativo-comunicacional digital para a gestão do conhecimento da tecnologia de vestuário em ateliês. A presente pesquisa se classifica como de finalidade aplicada, pois fará uso da abordagem qualitativa e descritiva quanto ao problema e objetivos, baseando-se no método científico indutivo como forma de análise do conhecimento adquirido. Quanto aos procedimentos técnicos a pesquisa será feita a partir de: revisão bibliográfica de livros, artigos científicos, teses e dissertações; pesquisa documental, acerca de documentos sobre o tema e empresa pesquisada; e pesquisa de levantamento, realizado através da aplicação de questionários para a coleta de dados com a empresa participante “Ateliê A” localizada no município de Florianópolis, Santa Catarina. Para a análise dos dados coletados será utilizado o método de análise por Triangulação de Dados, conforme Marcondes e Brisola (2014), entre outros autores. A dissertação trabalhará sua abordagem teórica em três eixos temáticos, sendo eles: (I) os ateliês de moda festa e suas características, abordando sua origem, como funcionam, quais são seus objetivos e o perfil do seu consumidor, conforme apresentado por Lipovetsky (2009), Vovelle (1991), Treptow (2013), e Sanches (2014; (II) gestão da tecnologia do vestuário em ateliês, descrevendo-se o fluxo de trabalho e da informação de um ateliê, identificando seus setores e suas respectivas finalidades; (III) a gestão da informação e comunicação, sua importância e essencialidade para o funcionamento de uma empresa formada por setores que se inter-relacionam, utilizando da teoria de Nonaka e Takeuchi (2008), e Choo (2006). Os resultados obtidos com a pesquisa serão utilizados para a construção do mapa do sistema informativo comunicacional de ateliê, para que seja possível gerir de forma ordenada as informações que regem o fluxo de trabalho dos ateliês de moda festa, otimizar tempo, minimizar erros e delinear a informação conforme cada etapa do processo de desenvolvimento da peça.",
+        "pdf_url": "https://repositorio.udesc.br/bitstreams/c20e818c-c7bb-485b-abdc-13807bb43826/download",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7120827898",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A MODA COMO FERRAMENTA DE CRÍTICA NO TRABALHO DE VIVIENNE WESTWOOD",
+        "source": "openalex",
+        "url": "http://revistas.utfpr.edu.br/ap/index.php/iconica/article/download/22/45",
+        "doi": null,
+        "year": 2016,
+        "authors": [
+          "Juliana Bortholuzzi",
+          "Denise Castilhos de Araújo"
+        ],
+        "venue": null,
+        "abstract": "Este trabalho propoe uma reflexao acerca do uso da vestimenta como ferramenta de critica no trabalho da estilista Vivienne Westwood, que sera construida a partir da analise semiotica de uma peca do vestuario, criada pela estilista na decada de 1970. Tal discussao tem como orientacao a moda como linguagem, considerando, pois, que atos de comunicacao sao realizados a partir da composicao de signos nao verbais, presentes nessa area de estudo.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2526284103",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "closed"
+        }
+      },
+      {
+        "title": "MODA E REPOSICIONAMENTO DE MARCAS POPULARES DE VESTUÁRIO E ACESSÓRIOS",
+        "source": "openalex",
+        "url": "https://doi.org/10.5902/2175497729879",
+        "doi": "10.5902/2175497729879",
+        "year": 2019,
+        "authors": [
+          "Sarah Schmithausen Schmiegelow",
+          "Richard Perassi Luiz de Sousa"
+        ],
+        "venue": "Animus Revista Interamericana de Comunicação Midiática",
+        "abstract": "Este artigo apresenta exemplos estratégicos do reposicionamento das marcas populares de vestuário e acessórios “C&A”, “Lojas Renner”, “Marisa” e “Riachuelo”, observados na atuação comercial e na comunicação de seus produtos. O termo posicionamento designa um conceito relacionado à necessidade de parâmetros para a atuação da marca no mercado, sendo percebido em comparação com a comunicação pública das outras marcas. Analisando o posicionamento das marcas populares de vestuário, observa-se que permanecem os argumentos baseados em “qualidade e preço”, mas esses são apresentados em constante e enfática associação da marca ao conceito de Moda. Como resultado, é evidenciado que houve o fechamento de um ciclo na relação entre o conceito de “Moda” e o posicionamento de mercado das marcas populares deste segmento, resultando na retomada da plena identificação publicitária entre Moda e produtos de vestuário e acessórios.",
+        "pdf_url": "https://periodicos.ufsm.br/animus/article/download/29879/pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2973567634",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Reflexões sobre o processo de criação de vestuário de moda",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.37780/ch.v24i2.4326",
+        "doi": "10.37780/ch.v24i2.4326",
+        "year": 2023,
+        "authors": [
+          "Almery Junior Ruviaro",
+          "Taís Steffenello Ghisleni",
+          "Elsbeth Léia Spode Becker"
+        ],
+        "venue": "Disciplinarum Scientia | Ciências Humanas",
+        "abstract": "Este artigo propõe uma reflexão sobre a relevância da ergonomia, antropometria e modelagem no desenvolvimento de projetos de design aplicados ao vestuário de moda. A metodologia adotada é exploratória, baseada em uma revisão bibliográfica abrangente. No decorrer do texto, destacam-se aspectos cruciais como conforto, segurança e usabilidade, oferecendo uma breve abordagem sobre as perspectivas de autores que enfatizam a compreensão da ergonomia aplicada ao vestuário de moda, a antropometria no design do vestuário e a modelagem como um capital ergonômico fundamental para o vestuário de moda. A análise revela a importância da aplicação de estudos ergonômicos e antropométricos em conjunto com técnicas de modelagem durante a concepção de produtos de vestuário. Essa abordagem resulta em impactos positivos diretos nas peças produzidas, garantindo qualidades essenciais como conforto físico e psicológico, segurança e usabilidade, elementos cruciais para a experiência do usuário ao vestir as peças ao longo de sua trajetória.",
+        "pdf_url": "https://periodicos.ufn.edu.br/index.php/disciplinarumCH/article/download/4326/3238",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4390516569",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "MODA, ARTE E HISTÓRIA: um encontro na obra da estilista Rei Kawakubo",
+        "source": "crossref",
+        "url": "https://doi.org/10.24824/978652511577.1",
+        "doi": "10.24824/978652511577.1",
+        "year": 2021,
+        "authors": [
+          "C. C. DIAS"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.24824/978652511577.1",
+        "extra": {
+          "crossref_type": "book",
+          "publisher": "EDITORA CRV"
+        }
+      },
+      {
+        "title": "Da criação à preservação: um estudo das coleções da moda no ateliê do estilista Reinaldo Lourenço",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.103.2022.tde-25052023-120420",
+        "doi": "10.11606/d.103.2022.tde-25052023-120420",
+        "year": 2023,
+        "authors": [
+          "Bernardo Baia dos Santos Conceição"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.103.2022.tde-25052023-120420",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de Sao Paulo, Agencia USP de Gestao da Informacao Academica (AGUIA)"
+        }
+      },
+      {
+        "title": "Moda y feminsmo: El vestuario como símbolo de protesta",
+        "source": "crossref",
+        "url": "https://doi.org/10.18682/cdc.vi214.11002",
+        "doi": "10.18682/cdc.vi214.11002",
+        "year": 2024,
+        "authors": [
+          "Madeleine Gómez Calle"
+        ],
+        "venue": "Cuadernos del Centro de Estudios de Diseño y Comunicación",
+        "abstract": "Con la lucha de la igualdad de género y la defensa de los derechos de las mujeres en la sociedad, nace el movimiento feminista, en la búsqueda de combatir las desigualdades que sufre este sexo en la sociedad y desligando la instancia de intentar obtener alguna ventaja o tener un puesto de superioridad para lograr la igualdad, surge este movimiento.",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/cdc/article/download/11002/18847",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.18682/cdc.vi214.11002",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Fundacion Universidad de Palermo"
+        }
+      },
+      {
+        "title": "Vestuario: entre el cine y la moda",
+        "source": "crossref",
+        "url": "https://doi.org/10.18682/cdc.vi57.1359",
+        "doi": "10.18682/cdc.vi57.1359",
+        "year": 2019,
+        "authors": [
+          "Luana Luca",
+          "Gladys Mercado"
+        ],
+        "venue": "Cuadernos del Centro de Estudios de Diseño y Comunicación",
+        "abstract": "Estructurados como industrias, la moda y el cine comparten también la característica de estar atravesados por el arte y producir objetos especiales, con una carga simbólica. ¿Qué vínculo podemos establecer entre los objetos producidos por la moda y la fabricación de una “estrella”? La clave está en el concepto de “fabricación”. Hay que entender que la estrella es el centro de una constelación, el star system, que representó el modo de producción capitalista del mundo cinematográfico y se hallaba cristalizado en el corazón de la industria a partir de 1919. Más allá de la estelaridad, el espectador tenía y tiene unrol importante al establecer un fuerte vínculo de identificación con sus estrellas favoritas.El vestuario contribuye a generarlo fundiendo persona y personaje a través de la cargasimbólica de la que se hace portador. Desde aquí se intentará analizar la simbiosis entrelos diseñadores y estrellas como un modelo de interacción donde mercado, publicidad ymedios son la escena principal de un juego en el que todos afirman su identidad e imagen.",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/cdc/article/download/1359/1108",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.18682/cdc.vi57.1359",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Fundacion Universidad de Palermo"
+        }
+      },
+      {
+        "title": "Moda y Vestuario: universos paralelos con infinitas posibilidades de encuentro",
+        "source": "crossref",
+        "url": "https://doi.org/10.18682/cdc.vi100.3992",
+        "doi": "10.18682/cdc.vi100.3992",
+        "year": 2020,
+        "authors": [
+          "Cecilia Turnes"
+        ],
+        "venue": "Cuadernos del Centro de Estudios de Diseño y Comunicación",
+        "abstract": "En el presente artículo se intentan proponer los puntos de encuentro y desencuentro entre el diseño de moda y vestuario. Si bien ambas disciplinas cuentan con el indumento como punto de contacto, como herramienta comunicacional y expresiva, ambos apuntan a objetivos diferentes. Transitando la experiencia docente y con la consigna de adentrar a las alumnas de moda al mundo del vestuario teatral, se deja ver la necesidad explícita de ejercitar el vínculo entre ambos universos. Se intentan exponer entonces básicas diferencias entre sí, pero que, lejos de distanciar, habiliten la posibilidad subyacente de contar el uno con el otro para nutrir y posibilitar nuevos universos y lenguajes creativos.",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/cdc/article/download/3992/2265",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.18682/cdc.vi100.3992",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Fundacion Universidad de Palermo"
+        }
+      },
+      {
+        "title": "El salón del vestuario. Un siglo de moda en Colombia. 1830 -1930",
+        "source": "crossref",
+        "url": "https://doi.org/10.7440/histcrit9.1994.15",
+        "doi": "10.7440/histcrit9.1994.15",
+        "year": 1994,
+        "authors": [
+          "Rosaema Arenas"
+        ],
+        "venue": "Historia Crítica",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.7440/histcrit9.1994.15",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidad de los Andes"
+        }
+      },
+      {
+        "title": "La mujer a la moda en la película Bajo el cielo antioqueño (1925): el vestuario como marcador de la distinción social",
+        "source": "crossref",
+        "url": "https://doi.org/10.18234/secuencia.v0i118.2133",
+        "doi": "10.18234/secuencia.v0i118.2133",
+        "year": 2023,
+        "authors": [
+          "Robinson Salazar Carreño"
+        ],
+        "venue": "Secuencia",
+        "abstract": "Este artículo evidencia las prendas de vestir femeninas de los años veinte en Medellín (Colombia), describiéndolas en la película colombiana Bajo el cielo antioqueño, filme dirigido por Arturo Acevedo en 1925, en la que actuaron y participaron miembros de la elite de la ciudad. El objetivo es estudiar la moda femenina como mecanismo de distinción social a partir de la película seleccionada, en la cual hay una intención de representar a los sectores privilegiados como modernos, capitalistas, urbanos y cosmopolitas, aunque respetuosos de las tradiciones imperantes. Se muestra que la moda es expresión de riqueza y poder de aquellos sectores pudientes y modernos, que mediante el vestido revelaban y legitimaban su posición social frente a los demás, a través de la calidad de los trajes y “el estar a la moda”; siguiendo los cánones de la moda francesa comunicaban la superioridad de clase.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.18234/secuencia.v0i118.2133",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Instituto de Investigaciones Dr. Jose Maria Luis Mora"
+        }
+      },
+      {
+        "title": "A TRAJETÓRIA DA ESTILISTA DE MODA MONA GOROVITZ: UM RECORTE DE SUA PRODUÇÃO NA METADE DA DÉCADA DE 1960",
+        "source": "crossref",
+        "url": "https://doi.org/10.25112/rpr.v1.3189",
+        "doi": "10.25112/rpr.v1.3189",
+        "year": 2023,
+        "authors": [
+          "Walter Karwatzki",
+          "Airan Milititsky Aguiar"
+        ],
+        "venue": "Revista Prâksis",
+        "abstract": "Este artigo apresenta a produção da estilista de moda brasileira Mona Gorovitz (Cruz Alta – RS, 1937), em um período da metade da década de 1960. O recorte aqui apresentado representa o ano de maior produtividade de Mona Gorovitz, e é realizado através do acervo de croquis de moda da própria estilista. O seu grande acervo de croquis de moda vai do ano de 1958 até o ano de 1994 – somando cerca de 445 croquis. A importância destes croquis é que eles revelam, além de sua atuação como estilista, uma rica fonte de informações da estética visual das vestimentas de épocas variadas e apresenta, ainda, graças às amostras de tecidos existentes em vários croquis, o que podemos chamar de índice da produção da indústria têxtil do Brasil ao longo do período em que Gorovitz atuou como estilista de moda. Mona foi responsável pelo editorial de moda e criadora de coleções para a revista Claudia, além de ter criado vários figurinos para programas de televisão, filmes e cantoras da época. Poucas são as referências sobre a trajetória de Mona Gorovitz como estilista de moda. Assim, este artigo torna-se de grande importância para a construção de um referencial sobre sua trajetória.",
+        "pdf_url": "https://periodicos.feevale.br/seer/index.php/revistapraksis/article/download/3189/3133",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.25112/rpr.v1.3189",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Associacao Pro-Ensino Superior em Novo Hamburgo"
+        }
+      },
+      {
+        "title": "A afromoda e o estilista Isaac Silva",
+        "source": "crossref",
+        "url": "https://doi.org/10.26563/dobras.i30.1244",
+        "doi": "10.26563/dobras.i30.1244",
+        "year": 2020,
+        "authors": [
+          "Sheila Cristina Silva Aragão Caetano"
+        ],
+        "venue": "dObra[s] – revista da Associação Brasileira de Estudos de Pesquisas em Moda",
+        "abstract": "Estamos acostumados a viver em uma sociedade que privilegia o conhecimento do vencedor, de quem está no poder. Assim a história acaba por escrever uma narrativa única, inclusive a da moda. Contudo, a partir da École des Annales, a história abre espaço para que sejam contadas outras histórias além das dominantes: começa a ser valorizada a história oral.",
+        "pdf_url": "https://dobras.emnuvens.com.br/dobras/article/download/1244/653",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.26563/dobras.i30.1244",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Dobras"
+        }
+      },
+      {
+        "title": "Transformações do audiovisual na moda brasileira: O fashion film ManioColor do estilista indígena Sioduhi",
+        "source": "crossref",
+        "url": "https://doi.org/10.23899/9786589284529.1",
+        "doi": "10.23899/9786589284529.1",
+        "year": 2024,
+        "authors": [
+          "Brener Neves Silva",
+          "Paulo César Marques Holanda"
+        ],
+        "venue": "Outras Narrativas em Cena: Caminhos Artísticos do Audiovisual na América do Sul",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.23899/9786589284529.1",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CLAEC e-Books"
+        }
+      },
+      {
+        "title": "Masculinidad y moda: el vestuario de los hombres en el cine colombiano de la década de 1920",
+        "source": "crossref",
+        "url": "https://doi.org/10.17151/kepes.2023.20.28.4",
+        "doi": "10.17151/kepes.2023.20.28.4",
+        "year": 2024,
+        "authors": [
+          "Robinson Salazar-Carreño"
+        ],
+        "venue": "Kepes",
+        "abstract": "Este artículo aborda la moda como lenguaje que contribuye a la construcción de lo que significa ser varón en dos películas colombianas de la década de 1920: Bajo el cielo antioqueño (1925) y Alma provinciana (1926). Son filmes melodramáticos que narran los vaivenes de los enamorados para consolidar su amor. Además, proyectan los valores, las vivencias, las actividades productivas, el incipiente proceso de modernización, las diferencias de clase, las prácticas sociales, el consumo y la moda. Mediante un enfoque cualitativo de análisis de texto fílmico, se plantea como objetivo estudiar la construcción de las masculinidades expresadas en los atributos de los personajes y en el lenguaje de su vestuario, explorando las distintas manifestaciones de lo que se consideraba ser hombre en Colombia durante el decenio de 1920. Como resultado de esta indagación se establece una reflexión de la existencia de diversos tipos de masculinidades (hegemónicas, cómplices y marginales), en las que se tuvieron en cuenta las relaci nes jerárquicas y de poder con mujeres y hombres. Además,este trabajo permite establecer que los atributos de la hombría, la autoridad, la violencia, el trabajo, el papel de proveedor en la familia, el galantear, el vestuario usado y el protagonismo del hombre en los diferentes ámbitos, público y privado, constituyen las características que definen los diversos tipos de masculinidades. Se concluye que la indumentaria se constituyó en un marcador de la identidad de los hombres, entre ellos y con relación a las mujeres, en expresión de sus valores, ideales, atributos, su actividad económica y su lugar en la sociedad y en la familia.",
+        "pdf_url": "https://revistasojs.ucaldas.edu.co/index.php/kepes/article/download/8591/7014",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.17151/kepes.2023.20.28.4",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidad de Caldas"
+        }
+      },
+      {
+        "title": "Conexões entre moda, luxo e tecnologia no trabalho da estilista Iris van Herpen",
+        "source": "crossref",
+        "url": "https://doi.org/10.29327/9786527226604.1228155",
+        "doi": "10.29327/9786527226604.1228155",
+        "year": 2026,
+        "authors": [
+          "Danielle Ayumi Ihara",
+          "Beatriz Junko Soares Silva",
+          "Carolina Fernandes Evangelista Mendes",
+          "Júlia Niz Silva Santos"
+        ],
+        "venue": "Anais do Colóquio Internacional de Design 2025: Inteligência Social",
+        "abstract": null,
+        "pdf_url": "https://static.even3.com/anais/1228155.pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.29327/9786527226604.1228155",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "De la pasarela al cine, del cine a la pasarela. El vestuario y la moda en el cine argentino hoy",
+        "source": "crossref",
+        "url": "https://doi.org/10.18682/cdc.vi58.1248",
+        "doi": "10.18682/cdc.vi58.1248",
+        "year": 2019,
+        "authors": [
+          "Cecilia Garizoain"
+        ],
+        "venue": "Cuadernos del Centro de Estudios de Diseño y Comunicación",
+        "abstract": "Son incontables las ocasiones en que la moda y el cine han coqueteado el unocon el otro. Son innumerables las ocasiones en se han inspirado y reinventado. Los personajes que vemos en las pantallas son quienes, a través del vestuario, sus matices, telas,colores y formas hablan de cómo éramos en los inicios del cine en Argentina en 1896, y decómo somos ahora, cómo nos vemos reflejados como pueblo/público por los vestuarios ylas modas de hoy. El rol del vestuarista en el cine nacional y el rol de la moda llevada a lapantalla grande cobra entonces gran protagonismo. Un rol que ha cambiado a lo largo deltiempo y que sufrió una gran transformación: una transformación que nos lleva a pensardicho rol en un contexto donde el “canje” parece dominar el ambiente del diseño de vestuario. ¿Puede el “canje” ser el último grito de la moda en el cine nacional?",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/cdc/article/download/1248/1081",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.18682/cdc.vi58.1248",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Fundacion Universidad de Palermo"
+        }
+      },
+      {
+        "title": "Entre la tinta, la curva y la seducción: La función de la moda en los bocetos de vestuario de Cecilia para la película de Humberto Solás",
+        "source": "crossref",
+        "url": "https://doi.org/10.1353/hir.2026.a997069",
+        "doi": "10.1353/hir.2026.a997069",
+        "year": 2026,
+        "authors": [
+          "Kaly Smith"
+        ],
+        "venue": "Hispanic Review",
+        "abstract": "resumen: Este artículo analiza el papel fundamental del vestuario en la configuración de las identidades nacionales y poscoloniales en la Cuba del siglo XIX, al destacar que estas se construyen mediante símbolos como la moda, que actúa a la vez como artefacto cultural y como dispositivo narrativo, tal como se representa en la película Cecilia (1982) de Humberto Solás, basada en la novela Cecilia Valdés o La loma del ángel de Cirilo Villaverde. A través de los bocetos de María Elena Molinet, los vestuarios trascienden la mera representación visual y reflejan dinámicas sociopolíticas y culturales más amplias. El estudio subraya la interrelación entre la literatura, el cine y la moda revelando cómo Molinet reimagina a Cecilia—alineándola con nociones cambiantes de identidad cubana al incorporar perspectivas poscoloniales—, y propone que el diseño de vestuario mediatiza los relatos históricos y culturales tanto en la novela como en su adaptación cinematográfica. Abstract: Este artículo analiza el papel fundamental del vestuario en la configuración de las identidades nacionales y poscoloniales en la Cuba del siglo XIX, al destacar que estas se construyen mediante símbolos como la moda, que actúa a la vez como artefacto cultural y como dispositivo narrativo, tal como se representa en la película Cecilia (1982) de Humberto Solás, basada en la novela Cecilia Valdés o La Loma del Ángel de Cirilo Villaverde. A través de los bocetos de María Elena Molinet, los vestuarios trascienden la mera representación visual y reflejan dinámicas sociopolíticas y culturales más amplias. El estudio subraya la interrelación entre la literatura, el cine y la moda revelando cómo Molinet reimagina a Cecilia -alineándola con nociones cambiantes de identidad cubana al incorporar perspectivas poscoloniales-, y propone que el diseño de vestuario mediatiza los relatos históricos y culturales tanto en la novela como en su adaptación cinematográfica. Abstract: This article explores the critical role of costume design in shaping national and postcolonial identities in 19th-century Cuba, as depicted in the film Cecilia (1982) by Humberto Solás, adapted from Cirilo Villaverde's novel. Through María Elena Molinet's sketches, the costumes transcend mere visual representation, reflecting broader sociopolitical and cultural dynamics. The analysis highlights how Cuban identity is constructed through symbols like fashion, which serves as both a cultural artifact and a narrative device. The study emphasizes the interplay between literature, cinema, and fashion, revealing how Molinet's designs reimagine Cecilia, aligning her with evolving notions of Cuban identity while incorporating postcolonial perspectives. This interdisciplinary approach underscores the importance of fashion in narrating the transformation of Cuban society, offering insights into how costume design mediates historical and cultural narratives in both the novel and its cinematic adaptation",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.1353/hir.2026.a997069",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Project MUSE"
+        }
+      },
+      {
+        "title": "Moda, Vestuario y Mensaje Político de la Presidenta Claudia Sheinbaum Pardo. Los diseños Presidenciales de Olivia Trujillo Cortés, una Modista-Costurera de la Clase Trabajadora",
+        "source": "crossref",
+        "url": "https://doi.org/10.37811/cl_rcm.v10i1.22440",
+        "doi": "10.37811/cl_rcm.v10i1.22440",
+        "year": 2026,
+        "authors": [
+          "Úrsula Viridiana Córdova Morales"
+        ],
+        "venue": "Ciencia Latina Revista Científica Multidisciplinar",
+        "abstract": "En este escrito les hablaré sobre la moda, y el mensaje político detrás del vestuario de la presidenta Claudia Sheinbaum Pardo, por medio del diseño y confección de Olivia Trujillo Cortés. Una las diseñadoras más presentes en el vestuario de la presidenta. Podremos conocer de cerca el proceso de elaboración, el diseño y la comunicación con el equipo de presidencia. Así como parte de la historia de vida de una mujer que pertenece a la clase trabajadora mexicana, parte de las costureras, diseñadoras y modistas de la ciudad de México. Una de las aportaciones del escrito será utilizar la dimensión de la imagen para crear otro plano descriptivo, ilustrativo del estilo y la ropa. El ejercicio narrativo del relato literario le dará al lector otro elemento explicativo para comprender el mensaje político de la mandataria mexicana.",
+        "pdf_url": "https://ciencialatina.org/index.php/cienciala/article/download/22440/31843",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.37811/cl_rcm.v10i1.22440",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Asociacion Latinoamericana para el Avance de la Ciencia"
+        }
+      },
+      {
+        "title": "Per-formar el vestuario en escenografías del cuerpo: diseñar en el campo de la escena expandida",
+        "source": "crossref",
+        "url": "https://doi.org/10.26563/dobras.v18i43.1887",
+        "doi": "10.26563/dobras.v18i43.1887",
+        "year": 2025,
+        "authors": [
+          "Mahatma Ordaz Domínguez"
+        ],
+        "venue": "dObra[s] – revista da Associação Brasileira de Estudos de Pesquisas em Moda",
+        "abstract": "El vestuario en el campo de lo expandido tiene como propósito desbordar el medio que lo sostiene: el cuerpo. En este texto, nos enfocamos en explorar las posibilidades del vestuario fuera de los límites del lenguaje teatral, atendiendo a tres elementos: el cuerpo, el espacio y la tela. A diferencia de la escena canónica, la escena expandida no se delimita u organiza como un modelo estable de creación. Este paradigma no sólo nos lleva a reflexionar en nuestro rol como diseñadores sino que nos da la oportunidad de formular lenguajes visuales, acercamientos y conexiones disciplinares con el vestuario2. Para este análisis, partimos de la premisa: “si es el cuerpo quien moviliza y pone en acción el vestuario, es entonces, el vestuario quien visibiliza al cuerpo como espacio” (Velásquez3, 2010, p. 30 citado por Farías, 2022, p. 31). En Per-formar el vestuario tomo como caso de estudio el vestuario escenográfico4 que diseñé para la obra Somos Arena. Canto de una madre, una pieza textil que, para su proyección conjunta dos disciplinas: el vestuario y la escenografía.",
+        "pdf_url": "https://dobras.emnuvens.com.br/dobras/article/download/1887/938",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.26563/dobras.v18i43.1887",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Dobras"
+        }
+      },
+      {
+        "title": "Diseño como estrategia de Postponement en la MVM... El Diseño como estrategia de Postponement en la MVM Manufactura del Vestuario de la Moda",
+        "source": "crossref",
+        "url": "https://doi.org/10.18682/cdc.vi58.1281",
+        "doi": "10.18682/cdc.vi58.1281",
+        "year": 2019,
+        "authors": [
+          "Francisca Dantas Mendes"
+        ],
+        "venue": "Cuadernos del Centro de Estudios de Diseño y Comunicación",
+        "abstract": "Esta investigación es el resultado del trabajo del Grupo de Investigación “La moda de la cadena textil”, según el registro del Directorio de los Grupos de Investigación CNPQ. El producto de moda tiene características específicas ofrecidas por el diseño quien otorga, a través de la creación, un estilo cuya finalidad es satisfacer el deseo de un determinado público objetivo. Hoy en día la moda puede ser considerada democrática, yaque el público consumidor es el protagonista en la toma de decisiones sobre lo que debe ser producido. En cada temporada la moda tiene que presentar una amplia variedad de novedades en sus formas, colores, materiales y texturas, haciendo posible que las marcas que producen prendas de moda lleguen a diferentes públicos objetivos para satisfacer los deseos de los más osados e innovadores, los que siguen la moda y los más conservadores que consumen una moda más moderada. El producto de moda tiene que satisfacer unademanda del mercado que busca productos altamente diversificados y com un alto nivel de diferenciación. Es importante que al final del proceso de producción, pocas piezas tengan la misma apariencia. El Postponement es un término que define la decisión de posponer las etapas finales del proceso de producción por varias razones. Puede ser utilizado en la FRM como una estrategia para aumentar la tasa de diferenciación de los productos, tal como determina la demanda del consumidor de moda.",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/cdc/article/download/1281/1103",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.18682/cdc.vi58.1281",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Fundacion Universidad de Palermo"
+        }
+      },
+      {
+        "title": "La concepción de “moda-escultura” en el vestuario de Rei Kawakubo para la coreografía “Scenario” (1997)",
+        "source": "crossref",
+        "url": "https://doi.org/10.24135/link2021.v2i1.118.g186",
+        "doi": "10.24135/link2021.v2i1.118.g186",
+        "year": 2021,
+        "authors": [
+          "Larissa Elias",
+          "Maria Luisa Garrido"
+        ],
+        "venue": "Link Proceedings Collection",
+        "abstract": "“La ‘moda-escultura’ de Rei Kawakubo” es un proyecto de maestría en curso, desarrollado en el Programa de Posgrado en Diseño Visual de la Universidad Federal de Río de Janeiro. La investigación se centra en el estudio del vestuario (y su relación con los movimientos y la espacialidad) creado por la diseñadora de moda japonesa Rei Kawakubo para el espectáculo de danza “Scenario” (1997), de la bailarina y coreógrafa estadounidense Merce Cunningham (1919-2009). El vestuario fue adaptado de la colección primavera-verano “El cuerpo se encuentra con el vestido, el vestido se encuentra con el cuerpo”, diseñado por Rei y lanzado por su marca Comme des Garçons en 1997. Rei Kawakubo es conocida como una de las diseñadoras de moda conceptualista más importantes de la actualidad. Visionaria, vanguardista y atemporal son algunos de los adjetivos que se le atribuyen. Su trabajo también es denominado antimoda. A través de una serie de deconstrucciones visuales, sus creaciones abordan, directa o indirectamente, temas como el feminismo y la identidad de género. La colección “El cuerpo se encuentra con el vestido, el vestido se encuentra con el cuerpo” y los trajes de “Scenario” invierten en una estética que explora posibilidades inusuales de relaciones entre cuerpo y vestido; una estética que pretende deformar las formas. En la obra aparecen ideas que problematizan los contornos y movimientos convencionales del cuerpo: volúmenes desproporcionados, desalineaciones de siluetas, inversiones de perspectiva, asimetrías, automatismos, desdibujamiento de fronteras entre cuerpo y vestido, el vestido como objeto. En este campo nace la sugerencia de la noción de “moda-escultura”. Una noción que se pretende formular a partir de la obra y para la comprensión de la obra. Se propone, en este sentido, una aproximación a la concepción de escultura trabajada por Deleuze y Guattari en el ensayo “Percepción, afecto y concepto”, con el concepto de “über-marionette” de Gordon Craig y el concepto de “grotesco”, basado en las consideraciones de Mikhail Bakhtin. El vestuario del espectáculo de danza “Scenario” —objeto de este estudio, en el que se pueden observar ejemplarmente los aspectos destacados— es una fuerte expresión de la idea de “moda-escultura”. En esta comunicación se presentarán fragmentos de la sección final de la muestra. En ellos se puede apreciar que la alineación de los bailarines en parejas o tríos reconfigura en el espacio el volumen compuesto por cuerpo y vestido. La ropa creada por Kawakubo para la colección proponía el rediseño del cuerpo. Esta propuesta se radicaliza en la coreografía: con el movimiento del body-dress ambientado en el espacio se intensifican las distorsiones y ambigüedades. Se introduce la teatralidad y se forman dramáticas composiciones escultóricas. Con el juego teatral también se evidencia la función objeto de la prenda.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.24135/link2021.v2i1.118.g186",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Tuwhera Open Access"
+        }
+      },
+      {
+        "title": "Cocina y vestuario. ¿Cómo hacer del miedo una fiesta? Resignificación de la memoria del conflicto armado en Medellín",
+        "source": "crossref",
+        "url": "https://doi.org/10.33571/revinterseccion.v2n4a1",
+        "doi": "10.33571/revinterseccion.v2n4a1",
+        "year": 2021,
+        "authors": [
+          "Natalia Ramírez Gutiérrez",
+          "Laura Rojas Saldarriaga",
+          "Irene Colorado Builes",
+          "María C Delgado",
+          "Susan Katherine Peláez",
+          "Paula Andrea Villa Alcaraz"
+        ],
+        "venue": "Revista Intersección. Eventos, turismo, gastronomía y moda",
+        "abstract": "Desde la década del cincuenta, el conflicto armado en Medellín ha marcado la memoria de la población. Las diferentes modalidades de violencia han pautado una larga historia de dolor, generando una serie de sentimientos que fragmentan el tejido social. En un contexto enmarcado por la expectativa sobre las negociaciones de paz entre las FARC y el gobierno colombiano, se propicia un ambiente de esperanza. Este motiva, desde la academia, la formulación de nuevas propuestas investigativas que aporten a la conciliación. En esta coyuntura histórica, que convoca pensarse como sociedad incluyente, surgió ¿Cómo hacer del miedo una fiesta?, como una oportunidad investigativa de co-creación para resignificar la memoria del conflicto armado en Medellín y aportar a la construcción del tejido social. El cocer y el coser, a través de experiencias creativas, desde la gastronomía y el diseño, propicia el encuentro entre distintos actores del conflicto armado y los integrantes del semillero de investigación. Con esto se buscó incentivar un cambio de perspectiva del miedo en gozo, conllevando a una “fiesta”. La cocina y el vestuario se configuran como elementos de mediación que establecen vínculos de encuentro en espacios de ciudad y, de igual manera vislumbran la posibilidad de coexistir en comunidad. Como resultado de la investigación-creación, se construyeron de manera conjunta, los siguientes productos: un recetario narrativo, un molde de una prenda de vestir y una huerta. Con estos se logró alcanzar un cambio de perspectiva entre los diferentes actores vinculados a la investigación, al considerar factible la resignificación de la memoria del conflicto armado desde la sensibilidad, la identidad y la autonomía.",
+        "pdf_url": "https://revistas.elpoli.edu.co/index.php/int/article/download/1933/1907",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.33571/revinterseccion.v2n4a1",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Politecnico Colombiano Jaime Isaza Cadavid"
+        }
+      },
+      {
+        "title": "Vestuario Para La Escena 2022, curated by Edyta Rzewuska and Jerildy Bosch, Vestuario a Escena MX",
+        "source": "crossref",
+        "url": "https://doi.org/10.1386/scp_00090_5",
+        "doi": "10.1386/scp_00090_5",
+        "year": 2023,
+        "authors": [
+          "Zuzu Hudek"
+        ],
+        "venue": "Studies in Costume &amp; Performance",
+        "abstract": "Review of: Vestuario Para La Escena 2022, curated by Edyta Rzewuska and Jerildy Bosch, Vestuario a Escena MX National Centre for the Arts (CENART), Mexico City, 12 May–3 July 2022",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.1386/scp_00090_5",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Intellect"
+        }
+      }
+    ]
+  },
+  "count": 45,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:07:50.439480+00:00"
+}

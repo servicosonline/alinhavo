@@ -164,3 +164,46 @@ export async function deleteMilestone(formData: FormData) {
   await ctx.supabase.from("milestones").delete().eq("id", id).eq("org_id", ctx.orgId);
   revalidatePath(ctx.back);
 }
+
+/** Editar nome, temporada e datas da coleção. */
+export async function updateCollection(orgId: string, collectionId: string, _prev: FormState, formData: FormData): Promise<FormState> {
+  if (!isUuid(orgId) || !isUuid(collectionId)) return { error: "Coleção inválida." };
+  const path = `/painel/${orgId}/colecoes/${collectionId}`;
+  const supabase = await ready(path);
+  if (!supabase) return { error: NO_CONFIG };
+
+  const name = text(formData.get("name"), 120);
+  const season = text(formData.get("season"), 60);
+  const startsOn = readDay(formData.get("starts_on"));
+  const launchOn = readDay(formData.get("launch_on"));
+  if (!name) return { error: "Dê um nome à coleção (até 120 caracteres)." };
+  if (season === null) return { error: "Temporada com até 60 caracteres." };
+  if (startsOn === undefined || launchOn === undefined) return { error: "Data inválida." };
+  if (startsOn && launchOn && launchOn < startsOn) return { error: "O lançamento não pode vir antes do início." };
+
+  const { data, error } = await supabase
+    .from("collections")
+    .update({ name, season: season || null, starts_on: startsOn, launch_on: launchOn })
+    .eq("id", collectionId)
+    .eq("org_id", orgId)
+    .select("id");
+  if (error || !data?.length) return { error: error?.code === "42501" || !data?.length ? NO_PERMISSION : "Não foi possível salvar a coleção." };
+  revalidatePath(path);
+  revalidatePath(`/painel/${orgId}/colecoes`);
+  return { ok: "Coleção salva." };
+}
+
+/** Arquivar (some de "Em andamento" e "Entregues") ou restaurar a coleção. Nada é apagado. */
+export async function setCollectionArchived(formData: FormData) {
+  const ctx = await simple(formData);
+  const id = formData.get("collectionId");
+  const archive = formData.get("archive") === "1";
+  if (!ctx || !isUuid(id)) return;
+  await ctx.supabase
+    .from("collections")
+    .update({ archived_at: archive ? new Date().toISOString() : null })
+    .eq("id", id)
+    .eq("org_id", ctx.orgId);
+  revalidatePath(`/painel/${ctx.orgId}/colecoes`);
+  revalidatePath(ctx.back);
+}

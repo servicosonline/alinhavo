@@ -213,6 +213,27 @@ describe("lista da equipe (org_team)", () => {
     ]);
   });
 
+  it("traz nome e sobrenome do perfil de cada membro (o perfil continua fechado)", async () => {
+    const dono = await createUser(db, "dono@nomes.com");
+    const mod = await createUser(db, "mod@nomes.com");
+    const org = await novaOrg(dono);
+    await aceitar(mod, (await convidar(dono, org.id, "mod@nomes.com", "modelista")).token);
+    await as(db, mod, (q) => q.query("insert into public.profiles (user_id, first_name, last_name) values ($1, 'Rita', 'Moura')", [mod.id]));
+
+    const equipe = await as(db, dono, async (q) =>
+      (await q.query<{ email: string; first_name: string | null; last_name: string | null }>(
+        "select email, first_name, last_name from public.org_team($1)",
+        [org.id],
+      )).rows,
+    );
+    expect(equipe).toEqual([
+      { email: "dono@nomes.com", first_name: null, last_name: null },
+      { email: "mod@nomes.com", first_name: "Rita", last_name: "Moura" },
+    ]);
+    // A tabela de perfis continua só da própria pessoa.
+    expect(await contar(dono, "select 1 from public.profiles where user_id = $1", [mod.id])).toBe(0);
+  });
+
   it("quem é de fora não vê a equipe, e visitante nem consegue chamar", async () => {
     const dono = await createUser(db, "dono@fora.com");
     const fora = await createUser(db, "fora@fora.com");

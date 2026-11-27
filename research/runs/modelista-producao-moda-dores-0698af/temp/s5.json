@@ -1,0 +1,556 @@
+{
+  "ok": true,
+  "data": {
+    "query": "virtual prototyping garment sample reduction percentage 3D CAD",
+    "scope": "all",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab",
+      "clinicaltrials"
+    ],
+    "per_source": {
+      "openalex": 0,
+      "crossref": 25,
+      "doab": 0,
+      "clinicaltrials": 0
+    },
+    "raw_records": 25,
+    "merged_records": 25,
+    "returned": 25,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref.",
+      "SEC EDGAR: set HYPERRESEARCH_CONTACT_EMAIL — the SEC rejects requests whose User-Agent carries no contact address (HTTP 403)",
+      "FRED: set FRED_API_KEY"
+    ],
+    "results": [
+      {
+        "title": "3D Garment Simulation with Applications to Women's Sportswear: An Integrative Review of Workflow Reliability, Virtual Fit, and CAD Interoperability",
+        "source": "crossref",
+        "url": "https://doi.org/10.2139/ssrn.7230018",
+        "doi": "10.2139/ssrn.7230018",
+        "year": 2026,
+        "authors": [
+          "Shakhnoza Jurakulova"
+        ],
+        "venue": null,
+        "abstract": "Digital garment simulation is increasingly used to connect two-dimensional pattern engineering with threedimensional evaluation; however, claims of faster development, lower sampling costs, and improved fit often exceed the available validation. This study critically examines the conditions under which CLO and related apparel-CAD workflows can support applications to women's sportswear pattern development. A purposive integrative review was conducted using eleven peer-reviewed studies and three official technical documents retrieved from publisher pages, DOI records, institutional repositories, and the CLO Help Center up to 4 August 2026. The reviewed materials were charted across six analytical domains: pattern geometry, avatar fidelity, fabric parameters, simulation and fit assessment, CAD interoperability, and physical validation. The synthesis indicates that 3D simulation is most defensible as an iterative decision-support tool rather than a substitute for pattern engineering or physical testing. Its reliability depends on the combined fidelity of the 2D pattern, anthropometric avatar, fabric mechanics, sewing configuration, and simulation settings. For close-fitting sportswear, visual tension and pressure maps may support comparative diagnosis, but published evidence does not justify treating them as direct estimates of in-vivo pressure without physical validation. Interoperability is also conditional: CLO's documented exchange route is DXF-AAMA/ASTM, not generic DXF without apparelspecific quality checks. The study contributes operational reliability criteria and a testable validation protocol for future controlled comparisons. It concludes that efficiency claims should be reported only through measured reductions in development time, physical samples, material use, revision cycles, and fit defects.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "preprint",
+        "identifier": "10.2139/ssrn.7230018",
+        "extra": {
+          "crossref_type": "posted-content",
+          "publisher": "Elsevier BV"
+        }
+      },
+      {
+        "title": "Best practices for 3D CAD interoperability",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/9781003759591-41",
+        "doi": "10.1201/9781003759591-41",
+        "year": 2026,
+        "authors": [
+          "D. Prawel"
+        ],
+        "venue": "Virtual Modelling and Rapid Manufacturing",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/9781003759591-41",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "CAD and 3D data acquisition technologies",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/b15961-8",
+        "doi": "10.1201/b15961-8",
+        "year": 2013,
+        "authors": [],
+        "venue": "High Value Manufacturing: Advanced Research in Virtual and Rapid Prototyping",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 4,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/b15961-8",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "CAD and 3D Data Acquisition Technologies",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/b11341-26",
+        "doi": "10.1201/b11341-26",
+        "year": 2011,
+        "authors": [],
+        "venue": "Innovative Developments in Virtual and Physical Prototyping",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/b11341-26",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "Prototipagem Virtual: Softwares 3D para Modelagem de Vestuário",
+        "source": "crossref",
+        "url": "https://doi.org/10.5433/2236-2207.2024.v15.n3.50575",
+        "doi": "10.5433/2236-2207.2024.v15.n3.50575",
+        "year": 2024,
+        "authors": [
+          "Silvia Cristina Silveira dos Santos",
+          "Icléia Silveira",
+          "Sandra Regina Rech"
+        ],
+        "venue": "Projetica",
+        "abstract": "O objetivo desta pesquisa foi elencar softwares 3D aplicados ao desenvolvimento de modelagem do vestuário, prototipagem virtual e geração de moldes para uso na indústria de vestuário. Para isso foi feita uma pesquisa básica, com abordagem qualitativa e descritivo. Foi utilizada a revisão teórica de literatura por meio de artigos científico, livros, relatório de tendências, sites de empresas de tecnologia e dissertações. Como resultado foi listado os softwares de modelagem 3D, sites de lojas de ativos digitais para softwares de assim como alguns softwares de modelagem 2D de código aberto. Constatou-se que a indústria de vestuário está iniciando a transição para às tecnologias digitais e os profissionais de desenvolvimento de produto precisam de novas habilidades e novas competências.",
+        "pdf_url": "https://ojs.uel.br/revistas/uel/index.php/projetica/article/download/50575/51429",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5433/2236-2207.2024.v15.n3.50575",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Estadual de Londrina"
+        }
+      },
+      {
+        "title": "CAD and 3D data acquisition technologies",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/b15961-71",
+        "doi": "10.1201/b15961-71",
+        "year": 2013,
+        "authors": [],
+        "venue": "High Value Manufacturing: Advanced Research in Virtual and Rapid Prototyping",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/b15961-71",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "Digital Fashion Twins for Virtual Prototyping, Fit Optimization and Zero-Waste Garment Manufacturing",
+        "source": "crossref",
+        "url": "https://doi.org/10.62311/nesx/rb47ag-978-81-68314-53-5",
+        "doi": "10.62311/nesx/rb47ag-978-81-68314-53-5",
+        "year": 2026,
+        "authors": [
+          "Murali Krishna Pasupuleti"
+        ],
+        "venue": null,
+        "abstract": "Digital fashion twins create a computational counterpart of garments, bodies, materials and manufacturing processes that can be tested before costly physical decisions are made. This book develops a research architecture for virtual prototyping, fit optimization and zero-waste garment manufacturing by integrating parametric representation, uncertainty-aware statistics, causal inference, machine learning, scalable data engineering and governance. It treats the twin as a versioned evidence system rather than a static three-dimensional visualization. The analysis connects body-shape variability, fabric mechanics, surrogate simulation, generative pattern design, marker optimization, closed-loop production data and lifecycle traceability. Particular attention is given to model calibration, simulation-to-reality validation, multimodal generalization, human oversight, interoperability and reproducible MLOps. The proposed framework links design quality with material utilization, sample reduction, inclusive fit and circular manufacturing outcomes while preserving explicit limits on automation. Global applicability is considered across South Asian apparel clusters, European design and regulatory ecosystems, African industrial development contexts and American retail and technology environments. The resulting models, metrics, protocols and governance artifacts provide a foundation for rigorous experimentation, responsible industrial deployment and future research on digitally integrated, low-waste fashion production. Keywords digital fashion twins, virtual prototyping, garment simulation, fit optimization, anthropometric modelling, statistical shape models, fabric mechanics, surrogate modelling, generative design, pattern engineering, multimodal AI, machine learning, causal inference, marker optimization, zero-waste manufacturing, digital thread, MLOps, edge intelligence, circular fashion, trustworthy AI, industrial analytics, sustainable apparel",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.62311/nesx/rb47ag-978-81-68314-53-5",
+        "extra": {
+          "crossref_type": "reference-book",
+          "publisher": "National Education Services"
+        }
+      },
+      {
+        "title": "From a 3D point cloud to an engineering CAD model: a knowledge-product-based approach for reverse engineering",
+        "source": "crossref",
+        "url": "https://doi.org/10.1080/17452750802047917",
+        "doi": "10.1080/17452750802047917",
+        "year": 2008,
+        "authors": [
+          "A Durupt",
+          "S. Remy",
+          "G. Ducellier",
+          "B. Eynard"
+        ],
+        "venue": "Virtual and Physical Prototyping",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 49,
+        "work_type": "article",
+        "identifier": "10.1080/17452750802047917",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Informa UK Limited"
+        }
+      },
+      {
+        "title": "Virtual and rapid prototyping by means of 3D optical acquisition and CAD modeling: application to cultural heritage and to the automotive domain",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/9781003759591-39",
+        "doi": "10.1201/9781003759591-39",
+        "year": 2026,
+        "authors": [
+          "G. Sansoni",
+          "F. Docchio",
+          "M. Trebeschi",
+          "S. Filippi",
+          "B. Motyl"
+        ],
+        "venue": "Virtual Modelling and Rapid Manufacturing",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/9781003759591-39",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "Perception of Size Variations in 3D Virtual Garment Simulation",
+        "source": "crossref",
+        "url": "https://doi.org/10.31274/itaa_proceedings-180814-461",
+        "doi": "10.31274/itaa_proceedings-180814-461",
+        "year": 2013,
+        "authors": [
+          "Dong-Eun Kim"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "10.31274/itaa_proceedings-180814-461",
+        "extra": {
+          "crossref_type": "report",
+          "publisher": "Iowa State University, Digital Repository"
+        }
+      },
+      {
+        "title": "Applicability of 3D Garment Prototyping in Assessment of Garment Fit",
+        "source": "crossref",
+        "url": "https://doi.org/10.15221/14.066",
+        "doi": "10.15221/14.066",
+        "year": 2014,
+        "authors": [
+          "Agnieszka Cichocka",
+          "Sylwia Serwatka-Bober",
+          "Pascal Bruniaux",
+          "Paulina Podlas"
+        ],
+        "venue": "Proceedings of the 5th International Conference on 3D Body Scanning Technologies, Lugano, Switzerland, 21-22 October 2014",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.15221/14.066",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Hometrica Consulting - Dr. Nicola D'Apuzzo"
+        }
+      },
+      {
+        "title": "SUPPORTING DIGITALIZATION IN GARMENT ENGINEERING THROUGH VIRTUAL PROTOTYPING",
+        "source": "crossref",
+        "url": "https://doi.org/10.35530/tt.2019.02",
+        "doi": "10.35530/tt.2019.02",
+        "year": 2019,
+        "authors": [
+          "Andreja RUDOLF",
+          "Andrej CUPAR",
+          "Zoran STJEPANOVIČ"
+        ],
+        "venue": "TEXTEH Proceedings",
+        "abstract": "This contribution deals with the new trends related to the digitalization in garment engineering. More than ten years ago can be found complaints of clothing companies on the lack of effective CAD software to design garments directly in 3D and to provide pattern designer tools for shape modelling and simulation of cloth behavior. Today, with a mass customization, e-commerce, advances in virtual reality applications, the virtual garment development is strongly desired in order to optimize apparel industry’s design and development processes. To survive in global competitive market, garment manufacturers are forced to transform their manufacturing processes toward, having a more flexible production system to meet the rapid changes in the global market, and started the transition to a new technological level through digitalization advances and challenges of Industry 4.0. Described are the possibilities for exploiting advances in digitization in garment engineering through virtual prototyping and production of smart clothing.",
+        "pdf_url": null,
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "10.35530/tt.2019.02",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "The National Research and Development Institute for Textiles and Leather"
+        }
+      },
+      {
+        "title": "Application of Digital 3D Technology in Garment Design and Virtual Prototyping for Sustainable Fashion",
+        "source": "crossref",
+        "url": "https://doi.org/10.63468/sshrr.475",
+        "doi": "10.63468/sshrr.475",
+        "year": 2024,
+        "authors": [
+          "Sajjad Ahmed Lakhnavi",
+          "Rizwan Munir",
+          "Aliya Shafqat",
+          "Muhammad Muddasar Mehmood"
+        ],
+        "venue": "Social Sciences &amp; Humanity Research Review",
+        "abstract": "The fashion industry is one of the worst culprits when it comes to environmental degradation, as textile manufacturing and the creation of physical samples waste lots of water, produce greenhouse gases and consume a ton of materials. The use of digital three-dimensional (3D) technology in garment design and virtual prototyping as a way to sustainable fashion practice is discussed in this paper. Based on an analysis of over 30 peer-reviewed and industry sources, the study consolidates advances of 3D body scanning, computer-aided pattern making, physics-based cloth simulation and virtual try-on systems and situates these technologies in the context of the circular economy. A mathematical model of cloth drape is presented using a discrete mass-spring system, as well as a garment-fit measurement and a formulation for measuring the amount of material saved when physical sampling is replaced by digital prototyping for a garment. Industry statistics show that physical sample usage can be cut by 30-70 per cent, product development cycles can be cut by up to half and the carbon footprint of the sampling stage can be significantly reduced with digital sampling. Five leading 3D garment design platforms are compared in a table, and a summary of the results of the designer-perception survey is presented to complement the quantitative results. The results show that the digital 3D technology can offer measurable sustainability improvements, but it is limited by the technical skills needed to be trained, the costs and the fact that it is unable to simulate certain categories of fabrics. The paper ends with suggestions for applying 3D virtual prototyping to the mainstream of apparel product development processes and future research directions in relation to artificial-intelligence (AI) based pattern creation and life-cycle evaluation using 3D digital twins",
+        "pdf_url": "https://sshrr.online/index.php/4/article/download/674/718",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.63468/sshrr.475",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Creative Business & Social Research"
+        }
+      },
+      {
+        "title": "A decision support framework for garment fit prediction: standardizing fabric mechanical properties in 3D virtual prototyping",
+        "source": "crossref",
+        "url": "https://doi.org/10.1108/rjta-12-2025-0278",
+        "doi": "10.1108/rjta-12-2025-0278",
+        "year": 2026,
+        "authors": [
+          "Ha Nhu Ngoc Phan",
+          "Huong Mai Bui",
+          "Song Thanh Quynh Le"
+        ],
+        "venue": "Research Journal of Textile and Apparel",
+        "abstract": "Purpose The apparel and fashion industry is one of the most dynamic industries, constantly changing in response to market trends and increasing consumer demand for product quality. In this sector, garment fit criteria greatly influence product development and fashion quality control. This study aims to propose a decision-support framework by integrating standardized fabric mechanical properties with 3D virtual prototyping and machine learning (ML) models to predict deformation-related indicators of garment–body interaction, including deformation region, strain and stress, to support early-stage pattern development, material screening and more efficient virtual prototyping. Design/methodology/approach The research process consisted of four stages: fabric mechanical data collection, and data set construction; data preprocessing and feature selection to ensure data accuracy; developing a predictive model using a sequential decision tree–linear regression approach and a multi-target random forest (MT-RF); and evaluation and verification of the model’s performance in early-stage pattern development. Findings The sequential model generated clear decision rules and region-specific regression equations, achieving a classification accuracy of 78.3%. The MT-RF achieved 97.0% accuracy in deformation-region classification. Notably, the coefficient of determination was 0.916 for strain and 0.884 for stress, confirming robust joint prediction of categorical and continuous outcomes. The predicted deformation indicators enabled the identification of localized deformation-prone zones, providing useful guidance for early-stage pattern refinement and fabric selection in digital garment development. Originality/value This study contributes a design-oriented decision-support framework by translating standardized fabric measurements into deformation-related indicators for decision-making in garment development. It offers an interpretable and application-oriented framework that supports early-stage pattern refinement, material screening and more efficient virtual prototyping.",
+        "pdf_url": "https://www.emerald.com/rjta/article-pdf/doi/10.1108/RJTA-12-2025-0278/11717857/rjta-12-2025-0278en.pdf",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.1108/rjta-12-2025-0278",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Emerald"
+        }
+      },
+      {
+        "title": "Innovation in Product Design: From CAD to Virtual Prototyping",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/978-0-85729-775-4",
+        "doi": "10.1007/978-0-85729-775-4",
+        "year": 2011,
+        "authors": [],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/978-0-85729-775-4.pdf",
+        "citation_count": 54,
+        "work_type": "book",
+        "identifier": "10.1007/978-0-85729-775-4",
+        "extra": {
+          "crossref_type": "book",
+          "publisher": "Springer London"
+        }
+      },
+      {
+        "title": "CAD and the Rapid Construction of Physical Objects",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/978-0-85729-775-4_9",
+        "doi": "10.1007/978-0-85729-775-4_9",
+        "year": 2011,
+        "authors": [
+          "Stefano Filippi"
+        ],
+        "venue": "Innovation in Product Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/978-0-85729-775-4_9",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer London"
+        }
+      },
+      {
+        "title": "Hollowing and reinforcing 3D CAD models and representing multiple material objects for rapid prototyping",
+        "source": "crossref",
+        "url": "https://doi.org/10.5353/th_b2976847",
+        "doi": "10.5353/th_b2976847",
+        "year": 2012,
+        "authors": [
+          "Wai-kei Chiu"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "10.5353/th_b2976847",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "The University of Hong Kong Libraries"
+        }
+      },
+      {
+        "title": "3D-Digitalization of ankle movement and 3D-CAD-method for patient specific external ankle support development and Rapid Manufacturing",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/9780203859476-36",
+        "doi": "10.1201/9780203859476-36",
+        "year": 2009,
+        "authors": [],
+        "venue": "Innovative Developments in Design and Manufacturing",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/9780203859476-36",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "3D Garment Design and Virtual Prototyping as Tools for Sustainable Clothing Production",
+        "source": "crossref",
+        "url": "https://doi.org/10.68064/jshe.2026.bf9ven9u",
+        "doi": "10.68064/jshe.2026.bf9ven9u",
+        "year": 2026,
+        "authors": [
+          "E. S. Nasara",
+          "P. M. Ojike",
+          "W. G. Enefola",
+          "P. O. Osabo",
+          "S. A. D. Anda"
+        ],
+        "venue": "Journal of The Society for Human Ecologists",
+        "abstract": "This study examined 3D garment design and virtual prototyping as tools for sustainable clothing production among fashion designers in Nasarawa State, Nigeria. Specifically, the study established the perceived effectiveness of 3D garment design in improving pattern accuracy and reducing material waste, evaluated the perceived contribution of virtual prototyping to reducing reliance on physical garment sampling, and determined the perceived contribution of 3D garment design and virtual prototyping to sustainable clothing production. A descriptive survey research design was adopted. The population of the study comprised 1,625 fashion designers in Nasarawa State, from which a sample of 120 respondents was purposively selected. The respondents were practicing fashion designers whose activities involved garment design and production. Data were collected using a researcher-developed 3D Garment Design and Virtual Prototyping Questionnaire (3DGPQ), which was validated by three experts. Data were analyzed using mean and standard deviation, with a criterion mean of 3.00 for decision-making. Tailornova was presented as an illustration of a digital platform for 3D garment design and virtual prototyping rather than as an experimentally evaluated intervention. Findings showed that respondents agreed that 3D garment design contributes to improved pattern accuracy and reduced material waste, with mean scores ranging from 3.29 to 3.45 and a grand mean of 3.38. Respondents also agreed that virtual prototyping contributes to reducing reliance on physical garment sampling, improving garment fitting and design adjustments, reducing repeated sewing of garment samples, and supporting more efficient garment development, with mean scores ranging from 3.33 to 3.44 and a grand mean of 3.39. Respondents perceived 3D garment design and virtual prototyping as contributing to sustainable clothing production through efficient use of production resources, improved production workflow, reduced production time, and improved production efficiency, with mean scores ranging from 3.35 to 3.42 and a grand mean of 3.39. These findings represent respondents’ perceptions and not direct measurements of material savings, sampling reduction, production efficiency, or sustainability performance. In conclusion, 3D garment design and virtual prototyping are perceived as useful digital approaches for improving garment development and supporting sustainable clothing production. It recommends increased adoption of digital garment technologies by fashion designers, practical training and capacity development, integration of these technologies into clothing and textile education, and institutional support for improved access to relevant digital infrastructure.",
+        "pdf_url": "https://jshe.shen.com.ng/jshe/article/3d-garment-design-and-virtual-prototyping-as-tools-for-sustainable-clothing-production.pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.68064/jshe.2026.bf9ven9u",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "The Society for Human Ecologists in Nigeria"
+        }
+      },
+      {
+        "title": "CAD and 3DDataAcquisitionTechnologies",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/b11341-3",
+        "doi": "10.1201/b11341-3",
+        "year": 2011,
+        "authors": [],
+        "venue": "Innovative Developments in Virtual and Physical Prototyping",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/b11341-3",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "Enhancing the sensitivity of 3D printed sensors via ironing and void reduction",
+        "source": "crossref",
+        "url": "https://doi.org/10.1080/17452759.2024.2331153",
+        "doi": "10.1080/17452759.2024.2331153",
+        "year": 2024,
+        "authors": [
+          "Gianni Stano",
+          "Antonio Pavone",
+          "Md Abu Jafor",
+          "Khaled Matalgah",
+          "Gianluca Percoco",
+          "Trevor J. Fleck"
+        ],
+        "venue": "Virtual and Physical Prototyping",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 26,
+        "work_type": "article",
+        "identifier": "10.1080/17452759.2024.2331153",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Informa UK Limited"
+        }
+      },
+      {
+        "title": "Automatic 3D shape recovery for rapid prototyping",
+        "source": "crossref",
+        "url": "https://doi.org/10.1080/17452750802102506",
+        "doi": "10.1080/17452750802102506",
+        "year": 2008,
+        "authors": [
+          "Nuno M. F. Alves",
+          "Paulo J. S. Bártolo"
+        ],
+        "venue": "Virtual and Physical Prototyping",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 10,
+        "work_type": "article",
+        "identifier": "10.1080/17452750802102506",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Informa UK Limited"
+        }
+      },
+      {
+        "title": "The use of rapid prototyping in the design of a customised ankle brace structure for ACL injury risk reduction: This paper explores the use of three-dimensional (3D) printing in designing a customised ankle brace structure for anterior cruciate ligament (ACL) injury risk reduction",
+        "source": "crossref",
+        "url": "https://doi.org/10.1080/17452759.2013.863533",
+        "doi": "10.1080/17452759.2013.863533",
+        "year": 2013,
+        "authors": [
+          "Phillis S.P. Teng",
+          "K.F. Leong",
+          "P.W. Kong",
+          "B.J. Halkon",
+          "P.Y. Huang"
+        ],
+        "venue": "Virtual and Physical Prototyping",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "10.1080/17452759.2013.863533",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Informa UK Limited"
+        }
+      },
+      {
+        "title": "Creation of a 3D Digital Fashion Show with 3D Virtual Prototyping of Clothing",
+        "source": "crossref",
+        "url": "https://doi.org/10.31274/itaa_proceedings-180814-1837",
+        "doi": "10.31274/itaa_proceedings-180814-1837",
+        "year": 2017,
+        "authors": [
+          "Ju-Young M. Kang"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "10.31274/itaa_proceedings-180814-1837",
+        "extra": {
+          "crossref_type": "report",
+          "publisher": "Iowa State University, Digital Repository"
+        }
+      },
+      {
+        "title": "Using 3D CAD Prototyping as a Learning Tool: The Possibilities Go Beyond its Intended Function",
+        "source": "crossref",
+        "url": "https://doi.org/10.31274/itaa_proceedings-180814-1689",
+        "doi": "10.31274/itaa_proceedings-180814-1689",
+        "year": 2016,
+        "authors": [
+          "Mitzi Cook"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "10.31274/itaa_proceedings-180814-1689",
+        "extra": {
+          "crossref_type": "report",
+          "publisher": "Iowa State University, Digital Repository"
+        }
+      }
+    ]
+  },
+  "count": 25,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T06:06:01.326368+00:00"
+}

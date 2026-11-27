@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Indústrias de confecção enfrentam dificuldades operacionais críticas no Planejamento e Controle da Produção (PCP) decorrentes de lead time longo, alta variabilidade de demanda e baixa flexibilidade nos processos produtivos.",
+    "stance": "supports",
+    "stance_target": "Gargalos operacionais de PCP, lead time e flexibilidade em confecções",
+    "evidence_type": "empirical",
+    "scope_conditions": "Estudo de caso em indústria de confecção no Brasil (Ceará)",
+    "quoted_support": "A pesquisa foi realizada em uma empresa do setor, que enfrentava desafios relacionados ao lead time longo, alta variabilidade de demanda e baixa flexibilidade nos processos de produção.",
+    "numbers": [],
+    "entities": ["UNICHRISTUS", "Brazilian Journal of Production Engineering"],
+    "time_period": "2025",
+    "region": "Brasil (Ceará)",
+    "confidence": "high",
+    "source_note_id": "otimização-do-planejamento-e-controle-da-produção-em-uma-indústria-de-confecção"
+  },
+  {
+    "claim": "A aplicação de ferramentas de Lean Manufacturing (mapeamento do fluxo de valor, kanbans e reorganização de layout) no PCP de uma indústria de confecção reduziu o lead time de produção em 30%, diminuiu os estoques em processo em 20% e aumentou a flexibilidade produtiva em 25%.",
+    "stance": "supports",
+    "stance_target": "Eficácia de ferramentas Lean e controle de fluxo para mitigar gargalos de WIP e lead time em confecções",
+    "evidence_type": "empirical",
+    "scope_conditions": "Estudo de caso de implementação de Lean Manufacturing em indústria de confecção brasileira",
+    "quoted_support": "Foram aplicadas ferramentas como o mapeamento do fluxo de valor, implementação de kanbans e reorganização do layout da fábrica. Houve uma redução de 30% no lead times de produção, uma diminuição de 20% nos estoques em processo e uma melhoria de 25% na flexibilidade da produção para atender as variações na demanda.",
+    "numbers": ["30%", "20%", "25%"],
+    "entities": ["Lean Manufacturing", "Kanban"],
+    "time_period": "2025",
+    "region": "Brasil (Ceará)",
+    "confidence": "high",
+    "source_note_id": "otimização-do-planejamento-e-controle-da-produção-em-uma-indústria-de-confecção"
+  },
+  {
+    "claim": "A gestão de PCP em confecções exige coordenar simultaneamente o abastecimento de costura interna e de facções externas, além de relatórios gerenciais e análise do processo produtivo.",
+    "stance": "supports",
+    "stance_target": "Complexidade da coordenação entre produção interna e terceirizada (facções) na rotina da confecção",
+    "evidence_type": "anecdotal",
+    "scope_conditions": "Operação de PCP em empresa do ramo de confecção no Ceará",
+    "quoted_support": "Analista de PCP - Responsável pelo abastecimento de costura interna e externa, relatórios gerenciais e análise do processo produtivo (Empresa no ramo de confecção).",
+    "numbers": [],
+    "entities": ["UNICHRISTUS"],
+    "time_period": "2025",
+    "region": "Brasil (Ceará)",
+    "confidence": "medium",
+    "source_note_id": "otimização-do-planejamento-e-controle-da-produção-em-uma-indústria-de-confecção"
+  }
+]

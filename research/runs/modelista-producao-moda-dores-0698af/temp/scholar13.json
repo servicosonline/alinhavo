@@ -1,0 +1,865 @@
+{
+  "ok": true,
+  "data": {
+    "query": "condicoes de trabalho saude trabalhador industria confeccao vestuario",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 20,
+      "doab": 0
+    },
+    "raw_records": 40,
+    "merged_records": 40,
+    "returned": 40,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Diagnóstico ergonômico do setor de corte de uma confecção de vestuário de Santa Catarina: um estudo de caso",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/ergodesign2023-1",
+        "doi": "10.5151/ergodesign2023-1",
+        "year": 2025,
+        "authors": [
+          "Marina Schmitt",
+          "Flaica Wippel Pinheiro",
+          "Eugenio Andrés Díaz Merino",
+          "Rodrigo Augusto de Sousa Cavalcante"
+        ],
+        "venue": null,
+        "abstract": "Na indústria de confecção de vestuário, especialmente no setor de corte, o trabalhador exerce atividades que podem resultar em doenças ocupacionais por estar exposto a riscos ergonômicos.A problemática está relacionada ao aumento do número de afastamentos e de acidentes de trabalho, na cidade de Blumenau-SC, em 2021.Portanto, o objetivo é avaliar as condições ergonômicas do setor de corte de uma indústria de confecção de vestuário de Santa Catarina, identificando lesões e doenças ocupacionais que os trabalhadores estão expostos, por meio do Checklist de Couto.A pesquisa possui caráter exploratório e descritivo, sendo que os procedimentos metodológicos foram divididos em três etapas: definição da empresa para o estudo de caso, coleta e análise dos dados.Os resultados do checklist, mostraram que o setor de corte possui uma condição biomecânica ruim, apresentando altíssimo risco para o desenvolvimento de tenossinovites e lesões dos membros superiores e alto risco para o desenvolvimento de lombalgias, porém a organização do sistema foi avaliada como razoável.Conclui-se que o setor é propício para o desenvolvimento de problemas de saúde como DORT.Adaptando as condições de trabalho, evitam-se os riscos ergonômicos, proporcionando aumento na produtividade e redução das despesas relacionadas a tratamentos de saúde e absenteísmo.",
+        "pdf_url": "https://pdf.blucher.com.br/designproceedings/ergodesign2023/1.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4386056423",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Superexploração da força de trabalho e saúde do trabalhador: o trabalho precário na confecção",
+        "source": "openalex",
+        "url": "https://doi.org/10.1590/s0103-73312020300106",
+        "doi": "10.1590/s0103-73312020300106",
+        "year": 2020,
+        "authors": [
+          "Paulo Victor Rodrigues de Azevedo Lira",
+          "Idê Gomes Dantas Gurgel",
+          "Ângela Santana do Amaral"
+        ],
+        "venue": "Physis Revista de Saúde Coletiva",
+        "abstract": "Resumo É essencial o entendimento das mudanças ocorridas no mundo do trabalho e de como estas se relacionam com o processo saúde-doença. Objetivou-se analisar as expressões da superexploração da força de trabalho e sua repercussão na saúde dos trabalhadores de facções instaladas em dois municípios do arranjo produtivo local de confecções do Agreste pernambucano. A pesquisa foi orientada por uma perspectiva que considera a totalidade e a historicidade das relações sociais e sua articulação com os processos sociais particulares. Foram aplicados questionários e entrevistas semiestruturadas para trabalhadores da confecção dos municípios de Toritama e Santa Cruz do Capibaribe, no ano de 2017. Os resultados foram analisados com base no método dialético. A superexploração da força de trabalho se expressou nas relações de trabalho por meio da articulação da remuneração da força de trabalho abaixo de seu valor, do aumento do valor histórico moral da força de trabalho sem seu pagamento correspondente, da extensão das jornadas de trabalho e da intensificação do trabalho exercido nas facções. Tais características tendem a violar o fundo de consumo e de vida dos trabalhadores, que poderão apresentar um desgaste precoce de sua força de trabalho, podendo ser evidenciado pelo adoecimento e/ou perda precoce da capacidade para o trabalho.",
+        "pdf_url": "http://www.scielo.br/pdf/physis/v30n1/0103-7331-physis-30-01-e300106.pdf",
+        "citation_count": 12,
+        "work_type": "article",
+        "identifier": "W3033961153",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "FATORES MOTIVACIONAIS EM INDÚSTRIAS DE CONFECÇÃO E VESTUÁRIO",
+        "source": "openalex",
+        "url": "https://revista.domalberto.edu.br/index.php/revistadeadministracao/article/view/383",
+        "doi": null,
+        "year": 2020,
+        "authors": [
+          "Carine Vogt",
+          "Priscila Melina Narváez García"
+        ],
+        "venue": "REVISTA DE ADMINISTRAÇÃO DOM ALBERTO",
+        "abstract": "Atualmente motivar funcionários tornou-se uma necessidade para as empresas. Propor benefícios e ambientes de trabalho agradáveis podem trazer resultados positivos às organizações. Assim, o presente estudo tem como objetivo geral identificar os fatores que motivam os funcionários da Indústria de Confecção e Vestuário de Santa Cruz do Sul. Esta pesquisa se caracteriza como aplicada e descritiva, na qual foram aplicados 165 questionários e analisou-se quantitativamente os resultados. Os dados apresentados demonstram que os trabalhadores se preocupam em alcançar a necessidade de estima, devido almejarem o reconhecimento profissional em sua organização como um dos fatores motivacionais. Suas necessidades sociais, de segurança e fisiológicas estão sendo satisfeitas, devido já terem alcançado estes objetivos a partir do seu trabalho. Desta forma, sentem orgulho das atividades que exercem, respeito pelos colegas e empregadores. Fazendo com que permaneçam no emprego para conseguir atender suas carências básicas, possibilitando percorrer um caminho para poder alcançar objetivos e expectativas futuras.",
+        "pdf_url": "https://revista.domalberto.edu.br/index.php/revistadeadministracao/article/download/383/372",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W3128604162",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Tecendo a precarização: trabalho a domicílio e estratégias sindicais na indústria de confecção em São Paulo",
+        "source": "openalex",
+        "url": "https://doi.org/10.1590/s1981-77462004000100005",
+        "doi": "10.1590/s1981-77462004000100005",
+        "year": 2004,
+        "authors": [
+          "Marcía de Paula Leite"
+        ],
+        "venue": "Trabalho Educação e Saúde",
+        "abstract": "O artigo, à luz da indústria de confecções de São Paulo, discute as transformações das relações e das condições de trabalho no contexto da reestruturação produtiva. Para tal, o texto trata, de forma pormenorizada, da divisão do trabalho entre as empresas no interior da cadeia produtiva e das relações de trabalho que predominam nos diferentes níveis da mesma, com especial ênfase no trabalho a domicílio. A análise revela que, à medida que o processo de terceirização avança, o emprego diminui na ponta virtuosa da cadeia - as empresas líderes dos encadeamentos produtivos - onde se difunde o trabalho qualificado, mais bem pago e mais estável, e aumenta na ponta precária, onde abunda o trabalho pouco qualificado, instável, mal pago e, muitas vezes, executado sem vínculo empregatício - ou seja, onde se difundem as condições de trabalho e relações de emprego mais deterioradas. O artigo discute ainda como essas antigas formas de trabalho revitalizadas em um novo contexto atingem mais fortemente as mulheres do que os homens, evidenciando a exclusão social dos setores mais vulneráveis do mercado de trabalho.",
+        "pdf_url": "https://www.scielo.br/j/tes/a/gzWZChZQbdRtxKBCtjyb7fx/?lang=pt&format=pdf",
+        "citation_count": 68,
+        "work_type": "article",
+        "identifier": "W1994818511",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Redes de subcontratação e trabalho a domicílio na indústria de confecção: um estudo na região de Campinas",
+        "source": "openalex",
+        "url": "https://doi.org/10.1590/s0104-83332002000100010",
+        "doi": "10.1590/s0104-83332002000100010",
+        "year": 2002,
+        "authors": [
+          "Angela Maria Carneiro Araújo",
+          "Elaine Regina Aguiar Amorim"
+        ],
+        "venue": "Cadernos Pagu",
+        "abstract": "Este artigo tem como propósito discutir as redes de subcontratação e os novos \"usos\" do trabalho a domicílio como elementos centrais do processo de reestruturação do setor de confecção nos anos 90, bem como seus impactos sobre as condições de trabalho e saúde das mulheres trabalhadoras. Para isso, partimos de uma pesquisa realizada na região de Campinas/SP, que contemplou o estudo de empresas de confecção de pequeno e médio porte, como também uma extensa rede de subcontratação, que tem na sua ponta inferior o trabalho a domicílio. A pesquisa mostra que as mulheres constituem a força de trabalho tradicionalmente subcontratada pelas empresas confeccionistas e ocupam as posições inferiores e mais vulneráveis na cadeia produtiva. Mostra também que o trabalho a domicílio aparece revitalizado, como instrumento central de aumento da produtividade a baixos custos e como forma alternativa de enfrentar a concorrência com grandes empresas do ramo.",
+        "pdf_url": "https://www.scielo.br/j/cpa/a/C9ZXZQzWkTLhSvJzVJHbhXb/?lang=pt&format=pdf",
+        "citation_count": 57,
+        "work_type": "article",
+        "identifier": "W1991190399",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Impacto das condições de trabalho na saúde e bem-estar: estudo numa empresa da industria têxtil e do vestuário",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10284/6943",
+        "doi": null,
+        "year": 2015,
+        "authors": [
+          "Ana Isabel Quintas Leones"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "Um dos objetivos primordiais da Psicologia do Trabalho e das Organizações centra-se no estudo do sujeito inserido no contexto de trabalho, de forma a promover um melhor bem-estar e qualidade de vida do mesmo. Neste sentido, neste estudo pretendeu-se compreender de que forma se relacionam as condições de trabalho de uma empresa têxtil e de vestuário com a saúde dos seus trabalhadores e o seu bem-estar, tendo em conta os riscos profissionais identificados na empresa. Assim, este é um estudo quantitativo de natureza observacional, descritivo e transversal. Para a recolha de dados foi utilizado o INSAT de forma a avaliar as condições de trabalho mas também a saúde e bem-estar dos trabalhadores. A amostra, não probabilística de conveniência, foi constituída por 38 mulheres trabalhadoras da empresa Confecções Argaçosa S.A. Os resultados deste estudo denotam que as trabalhadoras se apresentam envelhecidas pela atividade de trabalho e pelas suas exigências. Verifica-se um desgaste físico e emocional, decorrente das condições de trabalho, como as solicitações constantes, o ritmo de trabalho interno e as condições insuficientes ao nível de iluminação e proteção contra o ruído. Por este facto, constata-se que efetivamente se verifica que as condições de trabalho estão a afetar a saúde e o bem-estar destas mulheres. Os resultados aqui apresentados apontam para a necessidade de uma preocupação crescente no que respeita às condições de trabalho e à sua ligação com o bem-estar físico, psicológico e relacional. Além disso, a realização deste estudo permitiu a obtenção de um conhecimento mais aprofundado sobre a perceção das condições de trabalho e o estado de saúde das trabalhadoras da empresa em questão e permitiu focar-nos nas condições de trabalho que devem merecer uma intervenção, de forma a minimizar os riscos ao nível da saúde e bem-estar destas trabalhadoras.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W2902019668",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Análise da qualidade de vida no trabalho no setor de costura em uma indústria de confecção",
+        "source": "openalex",
+        "url": "https://doi.org/10.14488/1676-1901.v12i3.871",
+        "doi": "10.14488/1676-1901.v12i3.871",
+        "year": 2012,
+        "authors": [
+          "Danielly Silva de Aquino",
+          "Rúbia Carla Maier",
+          "juliano dias de freitas",
+          "Antônio Carlos de Francisco"
+        ],
+        "venue": "Revista Produção Online",
+        "abstract": "O objetivo desta pesquisa foi analisar a qualidade de vida no trabalho no setor de costura em uma indústria de confecção, localizada no Noroeste do Paraná. A pesquisa se caracteriza quanto aos procedimentos técnicos como estudo de caso, em relação aos objetivos se classifica como exploratória e descritiva, quanto à abordagem do problema como quantitativa. O instrumento de coleta de dados utilizado foi uma adaptação do modelo proposto por Walton. Para análise dos dados foram utilizados a estatística descritiva e o diagrama de caixas (boxplot). Os resultados revelaram que os oitos critérios da qualidade de vida no trabalho investigados apresentaram níveis de satisfação superior a 50%. Pode-se constatar uma média geral satisfatória (66,85%) entre os funcionários do setor de costura em relação à qualidade de vida no trabalho. Apesar dos níveis de satisfação apresentados, verificou-se que seria interessante a empresa tomar algumas medidas com o intuito de melhorar ainda mais este nível de satisfação, como analisar melhor o critério “compensação justa e adequada”, por este critério ter apresentado a menor média e maior dispersão dos dados em relação aos demais critérios.",
+        "pdf_url": "https://www.producaoonline.org.br/rpo/article/download/871/922",
+        "citation_count": 30,
+        "work_type": "article",
+        "identifier": "W2011197868",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Costurando gênero e processo de trabalho na indústria brasileira do vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.47456/argumentum.v14i1.35149",
+        "doi": "10.47456/argumentum.v14i1.35149",
+        "year": 2022,
+        "authors": [
+          "Patrícia Rocha Lemos",
+          "Mariana Pereira de Castro"
+        ],
+        "venue": "Argumentum",
+        "abstract": "A reorganização global da produção tem impactado de forma significativa os processos e condições de trabalho na indústria do vestuário, um dos setores mais tradicionais e expressivos da indústria brasileira. Fundamentado em extensa pesquisa de campo e entrevista com trabalhadoras e dirigentes sindicais, o artigo evidencia as formas como o gênero é mobilizado nos processos de trabalho nessa indústria e seus impactos sobre as trabalhadoras. Composto majoritariamente por mulheres, o sentido dessas transformações está fortemente marcado pelo aprofundamento da precarização das condições de trabalho já características do setor, viabilizada por um conjunto de mecanismos (velhos e novos) de controle e práticas de violência fundados na divisão sexual do trabalho.",
+        "pdf_url": "https://periodicos.ufes.br/argumentum/article/download/35149/25050",
+        "citation_count": 5,
+        "work_type": "article",
+        "identifier": "W4225130185",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Superexploração e desgaste precoce da força de trabalho: a saúde dos trabalhadores de confecção",
+        "source": "openalex",
+        "url": "https://doi.org/10.1590/1981-7746-sol00275",
+        "doi": "10.1590/1981-7746-sol00275",
+        "year": 2020,
+        "authors": [
+          "Paulo Victor Rodrigues de Azevedo Lira",
+          "Idê Gomes Dantas Gurgel",
+          "Pedro Costa Cavalcanti de Albuquerque",
+          "Ângela Santana do Amaral"
+        ],
+        "venue": "Trabalho Educação e Saúde",
+        "abstract": "Resumo Objetivou-se analisar a relação entre a superexploração da força de trabalho com o conceito de desgaste em trabalhadores de facções instaladas em dois municípios do Polo de Confecções do Agreste Pernambucano. O estudo, baseado em abordagem qualitativa, desenvolveu-se nos anos de 2017 e 2018 nos municípios de Toritama e Santa Cruz do Capibaribe. Foram realizadas 14 entrevistas semiestruturadas que seguiram roteiro pré-estabelecido organizado em três eixos prioritários: perfil do trabalhador; aspectos sociais e de trabalho; e aspectos relacionados à saúde. Na análise dos dados, considerou-se a totalidade e historicidade das relações sociais e sua articulação com os processos sociais particulares (método dialético). As categorias orientadoras essenciais para compreender a estrutura e a dinâmica do processo saúde-doença dos trabalhadores das facções foram: superexploração da força de trabalho, jornada de trabalho, processo de trabalho e de produção. Os conceitos de: precarização, intensificação, cargas de trabalho, desgaste da força de trabalho também foram importantes mediadores teóricos da análise. A superexploração da força de trabalho foi elemento essencial para compreensão do processo de desgaste precoce da força de trabalho, revelando tendência a um esgotamento prematuro destes trabalhadores ao longo dos anos.",
+        "pdf_url": "http://www.scielo.br/pdf/tes/v18n3/0102-6909-tes-18-3-e00275107.pdf",
+        "citation_count": 11,
+        "work_type": "article",
+        "identifier": "W3040748801",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "O LEAN MANUFACTURING E A INDÚSTRIA DA CONFECÇÃO DO VESTUÁRIO: MODELO DE AVALIAÇÃO PARA SUSTENTABILIDADE",
+        "source": "openalex",
+        "url": "https://doi.org/10.56238/levv16n46-069",
+        "doi": "10.56238/levv16n46-069",
+        "year": 2025,
+        "authors": [
+          "José Paulo de Sousa",
+          "José Irivaldo Alves Oliveira Silva"
+        ],
+        "venue": "LUMEN ET VIRTUS",
+        "abstract": "O lean manufacturing é um modelo de gestão não focado diretamente no estudo do trabalho (taylorismo), mas uma gestão que se concentra em analisar a relação dos empregados com o seu trabalho e o propósito deles com a empresa. Assim, a pesquisa tem como objetivo geral identificar a aplicação do lean manufacturing nas atividades das indústrias de confecção do vestuário, afim de entender qual o nível de execução que as empresas estão realizando do lean. Para isso, desenvolveu-se metodologia qualitativa descritiva com análise de conteúdo, realizada por meio de entrevista semiestruturadas para análise das experiências de trabalho dos empregados em relação ao lean. Portanto, os resultados mostraram que as indústrias possuem aplicação do lean manufacturing, mas de forma ainda falha, pois não possuem uma administração por objetivos, capacitação dos empregados de forma contínua, assim como critérios ambientais como exigências para contratação de fornecedores; contudo, as tecnologias modernas aplicadas ao LM para controle produtivo (softwares e maquinário) ainda continuam sendo um dos maiores desafios para os empresários pelo fato de terem um alto valor aquisitivo.",
+        "pdf_url": "https://periodicos.newsciencepubl.com/LEV/article/download/3990/5268",
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "W4408715515",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "A saúde por um fio? o trabalho escravo contemporâneo e migração na indústria da moda e confecção",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.20396/sss.v21i00.8670449",
+        "doi": "10.20396/sss.v21i00.8670449",
+        "year": 2023,
+        "authors": [
+          "Cristiane Batista Andrade",
+          "Ellen de Lima Alves",
+          "Patrícia Constantino"
+        ],
+        "venue": "Serviço Social e Saúde",
+        "abstract": "O Trabalho Escravo Contemporâneo (TEC) é uma realidade vivida ainda por muitos(as) trabalhadores(as) na indústria da moda e confecção, embora a legislação brasileira o considere crime. O objetivo é analisar o TEC na indústria da moda e confecção no Brasil, a saúde e as violências no trabalho por meio das análises de mídias jornalísticas on-line e o aplicativo “Moda Livre”. Foram utilizadas as informações de 22 reportagens divulgadas em mídias jornalísticas. A Análise de Conteúdo Temática permitiu elencar duas categorias para avaliação: configurações do TEC, condições de trabalho e violências; influências do TEC na saúde e subjetividade. Como resultados estão: as condições de trabalho precárias e degradantes, servidão por dívidas, jornadas intensas e extenuantes, produção acelerada de roupas, baixíssimos salários, mesmo espaço físico para a atividade laboral e de moradia, migrantes bolivianos(as) em situações de vulnerabilidade, abusos físicos e psicológicos, cerceamento da liberdade, sobrecarga de trabalho, presença de crianças nas oficinas que as colocam em risco de acidentes e adoecimento, esgotamento físico e mental, poucas horas de repouso, alimentação inadequada e riscos de acidentes corporais. Existe a necessidade de políticas públicas para a erradicação do TEC e de estudos sobre as repercussões dele no decorrer das trajetórias de vida destes(as) trabalhadores(as).",
+        "pdf_url": "https://periodicos.sbu.unicamp.br/ojs/index.php/sss/article/download/8670449/32527",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4387106382",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Relações de subcontratação e condições de trabalho em empresas da indústria têxtil e do vestuário da zona norte de Portugal",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/10216/78602",
+        "doi": "10.34626/m55n-dn50",
+        "year": 2014,
+        "authors": [
+          "Ana Lúcia Cardoso da Silva"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "foram essenciais para a concretização deste estudo.Por fim, desejo agradecer a todos os meus amigos, que me apoiaram e me acompanharam ao longo desta caminhada. Muito Obrigada a todos.iv Resumo Tendo como finalidade dar um contributo para a compreensão das relações saúde-trabalho, esta investigação procura constituir também uma fonte de informações para futuros estudos a serem desenvolvidos na comparação das condições de trabalho de empresas que se encontram em relações de subcontratação.A presente investigação foi desenvolvida com recurso ao instrumento INSAT 2013, tendo a análise dos dados sido complementada com outras informações conseguidas no seio das empresas e em momentos de verbalização com os 50 colaboradores que participaram neste estudo.O recurso às várias fontes de dados sustentou uma interpretação que se situa na perspetiva de uma \"estatística aberta\".Os resultados obtidos permitiram verificar condições de trabalho menos favoráveis nas pequenas empresas, com incidência particular a nível psicológico.Mas as consequências das condições de trabalho em termos físicos são mais evidenciadas na grande empresa.O regime de subcontratação que define o laço de ligação entre as três empresas desta amostra, contribui a explicar em que medida as colaboradoras das duas pequenas empresas se encontram face a uma dupla prescrição do trabalho, sendo particularmente evidenciada uma forte pressão para o cumprimento de prazos e de normas de qualidade, com impacto negativo muito significativo, especialmente ao nível psicossocial.",
+        "pdf_url": "https://repositorio-aberto.up.pt/bitstream/10216/78602/2/34378.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2286791348",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A precarização do trabalho na indústria do vestuário: apontamentos sobre a realidade brasileira e portuguesa",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10400.5/5692",
+        "doi": null,
+        "year": 2013,
+        "authors": [
+          "Ana Elizabete Mota"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "O texto contém uma reflexão sobre o trabalho na indústria do vestuário no Nordeste do Brasil e na região Noroeste de Portugal. Destaca a atual conjuntura econômica dos dois países e discute sobre o processo de precarização do trabalho nas duas realidades. Além de fazer uma revisão da literatura sobre a precarização do trabalho, qualifica o caso do Nordeste brasileiro como ambiente de superexploração do trabalhador. A exposição dos dados empíricos e os apontamentos analíticos permitem concluir que tanto no “cluster de confecção” localizado numa das regiões mais pobres do Brasil, como na secular indústria têxtil-confecção no Noroeste de Portugal, a precarização do trabalho é determinada pela desregulação do trabalho e pelas reformas do Estado Social. Conclui sobre a mediação das políticas ativas de emprego na formação da ideologia do empreendedorismo e na tendência de assistencialização da proteção social, cuja figura do trabalhador-pobre substituiria a do cidadão-trabalhador ao apagar a referência do direito ao trabalho.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "report",
+        "identifier": "W17591019",
+        "extra": {
+          "openalex_type": "report",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Análise do risco ruído em indústria de confecção de roupa",
+        "source": "openalex",
+        "url": "https://doi.org/10.1590/1982-021620149912",
+        "doi": "10.1590/1982-021620149912",
+        "year": 2014,
+        "authors": [
+          "Daniela Dalapicula Barcelos",
+          "Soraya Ataide"
+        ],
+        "venue": "Revista CEFAC",
+        "abstract": "Objetivo : verificar a presença do ruído em indústria de confecção de roupas, visto que este risco é pouco difundido nas pesquisas relacionadas a este ambiente de trabalho.Métodos : a empresa escolhida foi uma fábrica de confecção de roupa localizada em Colatina no Espírito Santo/Brasil. Foram analisados os dois setores com maior risco ruído na empresa, após a exclusão dos funcionários com menos de cinco anos de trabalho neste local, totalizamos uma amostra de seis funcionários. Os trabalhadores selecionados responderam questionário sobre informações e sintomas auditivos e posteriormente, foram analisadas as audiometrias realizadas nos últimos cinco anos.Resultados : por meio de medições realizadas nos setores analisados, constatou-se produção de ruído de 83,5 a 97,8 dB(A). Após observar o histórico das audiometrias, obteve-se 83% dos trabalhadores, destes setores, sem perda auditiva, 16% com perda ocupacional, sendo classificada como estável. Os dados levantados no questionário revelaram que 33% dos trabalhadores sentem-se irritados quando expostos a sons elevados, 50% sentem-se estressados após a jornada de trabalho, e nenhum trabalhador relatou queixa de zumbido, insônia ou dificuldade em entender as pessoas.Conclusão : este ambiente de trabalho apresenta risco ruído, uma vez constatados os níveis de pressão sonora no qual os trabalhadores são expostos durante a jornada de trabalho, bem como a presença de perda auditiva ocupacional, mesmo em menor escala – atribuído ao tempo mínimo de cinco anos de serviços prestados utilizado na pesquisa.",
+        "pdf_url": "https://www.scielo.br/j/rcefac/a/vSCbkVWWtrzdHzwSrXxVcSC/?lang=pt&format=pdf",
+        "citation_count": 15,
+        "work_type": "article",
+        "identifier": "W2141487208",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Acreditação no varejo da indústria têxtil-confecção",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.5965/1982615x07132014173",
+        "doi": "10.5965/1982615x07132014173",
+        "year": 2014,
+        "authors": [
+          "Vilma Caleffi",
+          "Suelen Borges Comin"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "A acreditação assegura a existência de sistemas de gestão da qualidade nas organizações, e situa-se de forma mais expressiva no setor da saúde, no entanto vem estendo-se a outros segmentos. O presente estudo analisa o processo de implantação de padrão de acreditação nos subcontratados de uma indústria de confecção localizada no sul de Santa Catarina. A acreditação ocorre via certificação, sendo condição sine qua nonpara que a mesma continue em funcionamento. Destaca-se que a indústria têxtil compõe-se das etapas de fiação, tecelagem, beneficiamento, sendo a indústria de confecção do vestuário a etapa final.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/modapalavra/article/download/5124/3311",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W2142319192",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Ação coletiva transnacional na cadeia de confecção do vestuário e a questão de gênero",
+        "source": "openalex",
+        "url": "https://doi.org/10.1590/15174522-019004506",
+        "doi": "10.1590/15174522-019004506",
+        "year": 2017,
+        "authors": [
+          "João Paulo Cândia Veiga",
+          "Katiuscia Moreno Galhera"
+        ],
+        "venue": "Sociologias",
+        "abstract": "Resumo O objetivo central deste artigo é discutir os processos de transnacionalização sindical na confecção do vestuário. Tendo como estudo de caso a cadeia de produção do vestuário ligada à holding Inditex, proprietária de uma das marcas mais valiosas da indústria têxtil (Zara), partimos da hipótese de que os(as) trabalhadores(as) deste setor enfrentam um problema de ação coletiva ligado aos limites de suas próprias capacidades de agência. A partir de procedimentos de tipo qualitativo com métodos cruzados - surveys, entrevistas, levantamento bibliográfico e arquivístico - para São Paulo capital e tendo como comparação o desastre do edifício Rana Plaza, em Bangladesh, os resultados da pesquisa indicam que na confecção do vestuário, ao contrário de outros setores, a ação coletiva sindical se dilui em arranjos institucionais a partir de iniciativas multistakeholder que acabam por promover processos decisórios de cúpula, com implementação do tipo top-down, sem a influência e participação dos trabalhadores de base, exatamente aqueles(as) que vivenciam a precarização e a violação dos direitos sociais e trabalhistas na cadeia do vestuário.",
+        "pdf_url": "http://www.scielo.br/pdf/soc/v19n45/1517-4522-soc-19-45-00142.pdf",
+        "citation_count": 13,
+        "work_type": "article",
+        "identifier": "W2739714104",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Implementação de um novo layout visando à competitividade global no setor de customização da maior indústria de confecção de vestuário da América Latina",
+        "source": "openalex",
+        "url": "https://doi.org/10.24023/futurejournal/2175-5825/2017.v9i3.319",
+        "doi": "10.24023/futurejournal/2175-5825/2017.v9i3.319",
+        "year": 2017,
+        "authors": [
+          "Rafaella De Freitas Gurgel",
+          "Hélio Roberto Hékis",
+          "Ricardo Pires de Souza",
+          "Lawrence Cézar Medeiros Araújo de Moura",
+          "Maíra Luciano Sidrim",
+          "Lara Cavalcante Freitas da Silva"
+        ],
+        "venue": "Future Studies Research Journal Trends and Strategies",
+        "abstract": "O objetivo deste estudo é avaliar e otimizar o arranjo físico do setor da customização da maior indústria de confecção de vestuário da América Latina, por meio do Planejamento Sistemático de Layout (SLP). Três novos layouts foram elaborados, o que melhor atendeu às necessidades do projeto foi implementado, gerando melhorias como: eliminação do maior fluxo de deslocamento entre os carrosséis e as esteiras, maior integração entre os demais setores, redução da quantidade de operadores no setor, aumento da qualidade final do produto, redução de perdas e retrabalho, melhoraria das condições ergonômicas dos operadores e redução do lead time da peça.",
+        "pdf_url": "https://www.revistafuture.org/FSRJ/article/download/319/406",
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "W2855188617",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "O Private Label e Seu Estímulo à Cópia na Indústria de Confecção de Vestuário: uma reflexão a partir de um estudo de caso",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2010v1n1p68",
+        "doi": "10.5433/2236-2207.2010v1n1p68",
+        "year": 2010,
+        "authors": [
+          "Lucimar de Fátima Bilmaia Emídio",
+          "Maria Lívia Sabioni"
+        ],
+        "venue": "Projetica",
+        "abstract": "The current work aims to approach the influence of the business model known as Private Label on triggering copy habits inside the Fashion Industry, establishing grounds for reflection over a study case developed upon a working experience on a company whose methods can be equaled to those aforementioned. The author describes actions commonly observed on industries that use copying as their main tool on product development and the incitement major labels offer on this form of production, later submitting this findings to critical analysis based on subject-related literature.",
+        "pdf_url": null,
+        "citation_count": 7,
+        "work_type": "article",
+        "identifier": "W2050495165",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Incidência e tendência temporal de acidentes de trabalho na indústria têxtil e de confecção: análise de Santa Catarina, Brasil, entre 2008 e 2017",
+        "source": "openalex",
+        "url": "https://doi.org/10.1590/1980-549720210005",
+        "doi": "10.1590/1980-549720210005",
+        "year": 2021,
+        "authors": [
+          "Lizandra da Silva Menegon",
+          "Fabrício Augusto Menegon",
+          "Maria Maeno",
+          "Emil Kupek"
+        ],
+        "venue": "Revista Brasileira de Epidemiologia",
+        "abstract": "OBJECTIVE: To estimate the incidence and time trend of typical work accidents in the textile and clothing industry in Santa Catarina from 2008 to 2017. METHODS: This was a retrospective epidemiological study based on data from the Annual Social Information Report (RAIS). The time trend was analyzed by calculating the average annual change and logistic regression. RESULTS: There was a downward trend in the incidence of occupational accidents in Santa Catarina during the period studied (8.8%). The highest incidence occurred in 2008 among men (12.6%), workers aged between 40 and 49 years (6.7%), black people (7.4%), people with less than 12 years of education (5.0%), with an average income of 3 to 7 minimum wages (7.0%), with up to 4 years of employment (6.9%), workers in the manufacture of textile products (10, 3%), medium-sized establishments (that is, between 100 and 499 workers; 7.9%) and in the regions of Greater Florianópolis (7.0%) and Vale do Itajaí (6.8%). CONCLUSIONS: The risk for typical occupational accidents dropped significantly over the period studied. However, future studies are needed to analyze new relationships that may point to other associated factors. It is hoped that this study can contribute to support measures for the prevention, promotion, protection and rehabilitation of the health of workers in this production sector.",
+        "pdf_url": "https://www.scielo.br/j/rbepid/a/VXCgsDgHHMrvnFp7cfVvS8g/?lang=pt&format=pdf",
+        "citation_count": 32,
+        "work_type": "article",
+        "identifier": "W3118535566",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Uma Análise Crítica das Condições de Trabalho na Indústria Têxtil desde a Industrialização do Setor até os dias atuais",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/2316796305102016073",
+        "doi": "10.5965/2316796305102016073",
+        "year": 2017,
+        "authors": [
+          "Tatiana Castro Longhi",
+          "Flávio Anthero Nunes Vianna dos Santos"
+        ],
+        "venue": "Human Factors in Design",
+        "abstract": "As atividades ligadas à indústria têxtil foram parte do processo que levou à Revolução industrial na Inglaterra e no mundo. Porém, as condições de trabalho dos operários (a maioria mulheres e crianças) eram penosas, e a segurança no trabalho não era uma preocupação dos empregadores. Atualmente, através da Ergonomia, que adapta o trabalho ao homem, há uma série de normas para garantir a integridade do trabalhador. Entretanto, ainda hoje existem empresas que utilizam mão de obra infantil, jornadas exaustivas, pagamentos irrisórios e ambientes insalubres. Esse artigo apresenta uma visão crítica acerca das condições de trabalho especialmente na confecção do vestuário na atualidade.",
+        "pdf_url": "http://www.revistas.udesc.br/index.php/hfd/article/download/8832/6198",
+        "citation_count": 8,
+        "work_type": "article",
+        "identifier": "W2591726625",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Processo de trabalho em saude: uma cartografia de fluxos e tempos trabalhador-centrada",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2001.262321",
+        "doi": "10.47749/t/unicamp.2001.262321",
+        "year": 2021,
+        "authors": [
+          "Mauricio Chakkour"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2001.262321",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Saude e trabalho na industria quimica: um estudo da qualidade de vida de trabalhadores aposentados",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2001.246128",
+        "doi": "10.47749/t/unicamp.2001.246128",
+        "year": 2021,
+        "authors": [
+          "Letícia Marin-León"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2001.246128",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "As transformações produtivas na industria textil-vestuario e seus impactos sobre a distribuição territorial da produção e a divisão do trabalho industrial",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2004.306983",
+        "doi": "10.47749/t/unicamp.2004.306983",
+        "year": 2021,
+        "authors": [
+          "Marcio Paschoino Lupatini"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2004.306983",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "As causas da ineficacia da legislação brasileira na proteção a saude e segurança do trabalhador na mineração carbonifera: aspectos de meio ambiente do trabalho",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2002.257652",
+        "doi": "10.47749/t/unicamp.2002.257652",
+        "year": 2021,
+        "authors": [
+          "Daniela Antunes Lucon"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2002.257652",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Desafios da vigilancia e da prevenção de acidentes do trabalho: a experiencia do Programa de Saude do Trabalhador de Piracicaba; Construindo Prevenção e Desvelando a Impunidade",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2002.273803",
+        "doi": "10.47749/t/unicamp.2002.273803",
+        "year": 2021,
+        "authors": [
+          "Rodolfo Andrade de Gouveia Vilela"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2002.273803",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Trabalho e saúde do trabalhador no contexto atual: ensinamentos da Enquete Europeia sobre Condições de Trabalho",
+        "source": "crossref",
+        "url": "https://doi.org/10.1590/s0104-12902019170507",
+        "doi": "10.1590/s0104-12902019170507",
+        "year": 2019,
+        "authors": [
+          "Ana Claudia Cardoso",
+          "Luciana Morgado"
+        ],
+        "venue": "Saúde e Sociedade",
+        "abstract": "Resumo Este artigo visa contribuir para as reflexões sobre a construção de uma pesquisa nacional, no Brasil, que aborde a relação entre trabalho e saúde dos trabalhadores. Uma pesquisa que produza conhecimentos para subsidiar as ações dos atores sociais nos seus diferentes espaços, como o da negociação coletiva e da construção de políticas públicas, e sobre os determinantes do processo saúde-doença, dado que, se a sociedade tiver como objetivo resolver o problema do sofrimento, do adoecimento e dos acidentes vinculados ao trabalho, não será possível manter o foco apenas nas consequências desses eventos, sendo necessário também atuar sobre suas causas. Para realizar tal reflexão, será utilizado a European Working Conditions Survey (EWCS), aplicada nos países da União Europeia (UE) desde 1990, que traz informações sobre como as diferentes dimensões do trabalho vêm impactando a saúde dos trabalhadores, servindo como importante referência para a elaboração de políticas públicas objetivando melhoria das condições de vida e trabalho dos trabalhadores europeus.",
+        "pdf_url": null,
+        "citation_count": 9,
+        "work_type": "article",
+        "identifier": "10.1590/s0104-12902019170507",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "FapUNIFESP (SciELO)"
+        }
+      },
+      {
+        "title": "Saude do trabalhador",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1996.114922",
+        "doi": "10.47749/t/unicamp.1996.114922",
+        "year": 2021,
+        "authors": [
+          "Francisco Antonio de Castro Lacaz"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1996.114922",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Saude do trabalhador no Brasil: analise do modelo de atenção proposto para o Sistema Unico de Saude (SUS)",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1998.175466",
+        "doi": "10.47749/t/unicamp.1998.175466",
+        "year": 2021,
+        "authors": [
+          "Sandra Maria Spedo"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1998.175466",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Trabalho sedentario: um problema para a saude do trabalhador, estudo eletromiografico dos musculos reto anterior da coxa e biceps femural (porção longa)",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1989.36483",
+        "doi": "10.47749/t/unicamp.1989.36483",
+        "year": 2021,
+        "authors": [
+          "Antonio Carlos Francischetti"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1989.36483",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "O significado do trabalho em funerárias sob a perspectiva do trabalhador",
+        "source": "crossref",
+        "url": "https://doi.org/10.1590/s0104-12901998000100003",
+        "doi": "10.1590/s0104-12901998000100003",
+        "year": 1998,
+        "authors": [
+          "Kátia Cristina Caparroz de Souza",
+          "Magali Roseira Boemer"
+        ],
+        "venue": "Saúde e Sociedade",
+        "abstract": "A proposta do presente estudo foi buscar a essência do significado do trabalho em funerária, sob a perspectiva do trabalhador. Utilizando o referencial teórico-metodológico da fenomenologia foi possível, através da análise dos depoimentos dos trabalhadores, desvelar facetas que integram a essência do exercício de sua profissão. Os trabalhadores são conscientes do constrangimento e desconforto gerado pelo seu trabalho às pessoas de sua família e sociedade. Tal trabalho se mostra a eles como preocupante na medida em que os expõem à riscos de saúde e penoso, dado o lidar com o corpo humano afetado em sua integridade. Os resultados constituem-se em subsídios relevantes para a saúde do trabalhador.",
+        "pdf_url": null,
+        "citation_count": 6,
+        "work_type": "article",
+        "identifier": "10.1590/s0104-12901998000100003",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "FapUNIFESP (SciELO)"
+        }
+      },
+      {
+        "title": "A saude do trabalhador na rede de atenção basica de saude: construindo viabilidades a partir de um projeto pedagogico",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2004.301953",
+        "doi": "10.47749/t/unicamp.2004.301953",
+        "year": 2021,
+        "authors": [
+          "Elisabete de Fatima Polo de Almeida Nunes"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2004.301953",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "A sublimação e o trabalho: sofrimento e adoecimento do trabalhador no contexto reestruturação produtiva do mundo do trabalho",
+        "source": "crossref",
+        "url": "https://doi.org/10.29388/978-85-53111-38-1-0-f.29-64",
+        "doi": "10.29388/978-85-53111-38-1-0-f.29-64",
+        "year": 2019,
+        "authors": [
+          "Santos Irella Borges dos",
+          "França Robson Luiz de"
+        ],
+        "venue": "Trabalho, educação e flexibilização das relações de trabalho: impactos sobre a saúde do trabalhador",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.29388/978-85-53111-38-1-0-f.29-64",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Navegando Publicações"
+        }
+      },
+      {
+        "title": "Vigilancia em saude do trabalhador no sistema unico de saude: a vigilancia do conflito e o conflito da vigilancia",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1996.133428",
+        "doi": "10.47749/t/unicamp.1996.133428",
+        "year": 2021,
+        "authors": [
+          "Tarcisio Marcio Magalhães Pinheiro"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1996.133428",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "O centro de referencia em saude do trabalhador de Campinas: trajetoria de uma experiencia",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2001.206376",
+        "doi": "10.47749/t/unicamp.2001.206376",
+        "year": 2021,
+        "authors": [
+          "Maria Angelica Tavares de Medeiros"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2001.206376",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "O perfil epidemiológico dos acidentes de trabalho no Vale dos Sinos e o sistema de vigilância em saúde do trabalhador",
+        "source": "crossref",
+        "url": "https://doi.org/10.1590/s0104-59702006000400005",
+        "doi": "10.1590/s0104-59702006000400005",
+        "year": 2006,
+        "authors": [
+          "Élida Azevedo Hennington",
+          "Márcia Monteiro"
+        ],
+        "venue": "História, Ciências, Saúde-Manguinhos",
+        "abstract": "O Vale do Rio dos Sinos (RS) congrega catorze cidades, totalizando um contingente populacional de cerca de um milhão e trezentos mil habitantes. A fabricação de calçados concentrada nessa região já ao final do século XX era a que mais empregava no setor industrial no estado. A força de trabalho insere-se principalmente na indústria de transformação, comércio e prestação de serviços. Este artigo apresenta o perfil epidemiológico de acidentes de trabalho (AT) da região e discute o papel e a relevância do sistema de vigilância em saúde do trabalhador. Implantado em 2000, o Sistema de Informação em Saúde do Trabalhador da Secretaria Estadual de Saúde registrou a ocorrência de 645 AT no período de 2000 a 2003. As informações sobre ocorrência de acidentes são ainda limitadas em virtude da subnotificação por grande parte dos municípios da região e do elevado número de trabalhadores subcontratados, inseridos no setor informal da economia e em atividades domiciliares.",
+        "pdf_url": null,
+        "citation_count": 17,
+        "work_type": "article",
+        "identifier": "10.1590/s0104-59702006000400005",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "FapUNIFESP (SciELO)"
+        }
+      },
+      {
+        "title": "Consumo e trabalho: impactos no meio ambiente do trabalho e na saúde do trabalhador",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/t.2.2017.tde-02082017-152602",
+        "doi": "10.11606/t.2.2017.tde-02082017-152602",
+        "year": 2018,
+        "authors": [
+          "Victor Hugo de Almeida"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "10.11606/t.2.2017.tde-02082017-152602",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "A \"colcha de retalhos\" da metropole paulista: simples aglomerados ou sistemas produtivos e inovativos na industria do vestuario?",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2005.361904",
+        "doi": "10.47749/t/unicamp.2005.361904",
+        "year": 2021,
+        "authors": [
+          "Maria das Graças Moura Brito"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2005.361904",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Recursos humanos e o novo trabalhador em saude: a experiencia da SecretariaMunicipal de Saude na cidade de São Paulo durante a gestão do Partido dos Trabalhadores (1989-1992)",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1996.112067",
+        "doi": "10.47749/t/unicamp.1996.112067",
+        "year": 2021,
+        "authors": [
+          "Maria de Lourdes Mattos"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1996.112067",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Reconstrução de coortes: metodos, tecnicas e interfaces com a vigilancia em saude do trabalhador",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2009.439444",
+        "doi": "10.47749/t/unicamp.2009.439444",
+        "year": 2021,
+        "authors": [
+          "Marcos Oliveira Sabino"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2009.439444",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "O trabalhador migrante indocumentado como sujeito de direitos na organização internacional do trabalho",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.2.2019.tde-24072020-141457",
+        "doi": "10.11606/d.2.2019.tde-24072020-141457",
+        "year": 2020,
+        "authors": [
+          "Rodrigo de Souza Rodrigues"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.2.2019.tde-24072020-141457",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de Sao Paulo, Agencia USP de Gestao da Informacao Academica (AGUIA)"
+        }
+      }
+    ]
+  },
+  "count": 40,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:05:11.393441+00:00"
+}

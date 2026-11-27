@@ -1,0 +1,1033 @@
+{
+  "ok": true,
+  "data": {
+    "query": "clothing product development sampling fit approval bottlenecks rework",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 25,
+      "crossref": 25,
+      "doab": 0
+    },
+    "raw_records": 50,
+    "merged_records": 50,
+    "returned": 50,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Production upgrading and skills development in the Western Cape clothing sector: are industry requirements being met by institutional policy implications?",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/11427/22815",
+        "doi": null,
+        "year": 2016,
+        "authors": [
+          "Zara Danielle Christie"
+        ],
+        "venue": "Open University of Cape Town (University of Cape Town)",
+        "abstract": "This research paper presents an overview and analysis of skills development in the Western Cape clothing sector in the context of production upgrading. The analysis touches on the broader South African skills development framework and industrial policy towards the clothing sector, notably the shift from mass production towards the adoption of Lean Production and the Quick Response retail model. As clothing firms based in the Western Cape evolved their production strategies and moved up the value-chain and towards Lean Production methods and Quick Response capabilities, skills requirements also evolved. As such, suitable skills development initiatives are required to support this evolution and industry innovation. Skills development institutions such as SETAs are unable to provide the necessary training required by these firms to successfully transition to the new production methods and retail supply model, with skills gaps and shortages occurring both at a technical and managerial level. Due to publicly funded institutions not providing the required associated training, a number of manufacturing firms are privately funding training programmes for their workers in an attempt to resolve this problem, but many cannot afford this intervention. While privately provided skills training may be a short-term transitional solution, it is not sustainable to ensure overall industry development, growth and success as firms undertake the implementation of evolved production methodologies and implement the Quick Response retail model.",
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W2587035306",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "EXPLORATION OF PRODUCTION METHODS BEING USED BY CLOTHING MANUFACTURING COMPANIES IN ZIMBABWE TOWARDS A COMPETITIVE STRATEGY",
+        "source": "openalex",
+        "url": "https://doi.org/10.47604/ijfd.1625",
+        "doi": "10.47604/ijfd.1625",
+        "year": 2022,
+        "authors": [
+          "Cathrine Mauwa",
+          "Tarirai Dandira",
+          "Felisia Chimbindi"
+        ],
+        "venue": "International Journal of Fashion and Design",
+        "abstract": "Purpose: The purpose of the study is to analyse production methods used by clothing manufacturers in order to improve competitiveness of clothing products on the market. Methodology: The study adopted a qualitative research approach and utilised a descriptive case study design. The population of the study comprised of clothing manufacturing companies in which company managers, supervisors and designers were the study participants. Data was gathered using telephonic interviews. Thematic analysis was used to get meaning out of the collected data. Findings: The findings were presented in narrative form. The findings reflected that clothing manufacturing industries used batch production hence they did not meet the demands of the market. They also used progressive bundle system. It was suggested that the manufacturing companies should use work study as strategy to enhance productivity levels, meeting lead times, reducing costs as well as producing competitive clothing products among other recommendations. Unique contributions to theory and practice: The Fit manufacturing framework by Pham and Thomas (2012) was used to explore the production methods being used by clothing manufacturing companies in Zimbabwe. Themes that emerged from the data analysis helped the researcher gain a better understanding of the production processes used. The clothing manufacturing industry is lagging behind with regards to advanced machinery, skilled manpower and good quality fabrics. If these areas are improved it may help improve productivity and competitiveness of products, enhance growth of clothing industry and boost the economy at large.",
+        "pdf_url": "https://www.iprjb.org/journals/index.php/IJFD/article/download/1625/1686",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W4293567690",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A collaborative framework for feasibility analysis in automotive product development with global supply chain",
+        "source": "openalex",
+        "url": "http://gala.gre.ac.uk/id/eprint/10212/1/Syed_M._Hasan_2013.pdf",
+        "doi": null,
+        "year": 2013,
+        "authors": [
+          "Syed Mehmood Hasan"
+        ],
+        "venue": "Greenwich Academic Literature Archive (University of Greenwich)",
+        "abstract": "In the competitive world, time to market, new technology and innovation are the measures of the performance of New Product Development (NPD). Companies tend to use a conventional approach to NPD by assigning representatives from their own support functions to review and recommend changes as projects evolve. In recent years, this approach has been questioned since it is a costly and time-consuming approach due to its iterative nature. Researchers argue that the time to market process and the cost of NPD can be reduced considerably by involving the support functions of the supply chain to a greater extent and also earlier in the NPD process. There is a potential industrial requirement for a collaborative framework that facilitates the linkage between Supply Chain Management (SCM) and New Product Development (NPD). This research project focuses on the early stages of the collaborative product development process in the extended enterprise. The research output includes the functional requirements of a framework and a developed prototype methodology with tools and technologies that are tested from case studies within industry. The research also introduces the development and analysis of the framework that allows the integration of the flow of product development related activities within original equipment manufacturers (OEM) and suppliers providing future business benefits. An industrial investigation of an OEM in the automotive industry within the research identified that there are different decision making points in product development and manufacturing. The proposed methodology and framework use key drives to predict and quantify its impact on four main criteria namely: feasibility, time, cost and capability that support or advise on key decision making of OEM’s product development and management process.",
+        "pdf_url": "http://gala.gre.ac.uk/id/eprint/10212/1/Syed_M._Hasan_2013.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W88022201",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Communication Patterns and Strategies in Software Development Communities of Practice",
+        "source": "openalex",
+        "url": "https://doi.org/10.37099/mtu.dc.etdr/186",
+        "doi": "10.37099/mtu.dc.etdr/186",
+        "year": 2016,
+        "authors": [
+          "Shreya Kumar"
+        ],
+        "venue": "Digital Commons - Michigan Tech (Michigan Technological University)",
+        "abstract": "Some of the greatest challenges in the relatively new field of software development lie in the decidedly old technology of communication between humans. Software projects require sophisticated and varied communication skills because software developers work in a world of incomplete, imperfect information where teams evolve rapidly in response to evolving requirements and changing collaborators. While prescriptive models for software process such as Agile suggest ways of doing, in reality these codified practices must adapt to the complexities of a real workplace. Patterns, rather than rules of behavior within software process are more suitable to the varied and mutable nature of software development. Software development communities are also learning communities, attempting to sustain themselves through internal ambiguity and external changes. We study different types of software development communities to fulfill our goal of understanding how these communities implement and evolve different communication strategies to sustain themselves through change. We observe student software development projects, open source software development, and a professional, rigorously Agile software development community. We employ Wenger's concept of Community of Practice to frame our understanding, especially focusing on the notions of identity, participation, reification, negotiation of meaning and trajectory of the participants of the software development communities. From these different sources, we identify the emergent themes of mentoring and knowledge management as critical for sustainable communities. Through our long running, immersive, participant observer, ethnographic study of the Agile software development community, we contribute both a quantitative and qualitative analysis of the their communication practices and depict the evolving nature of their onboarding and mentoring strategies. We share our experience of implementing such an immersive industry ethnographic study. We employ a pattern language approach to capturing, analyzing and representing our results, thereby contributing and relating to the larger bodies of work in Scrum and Organizational Patterns. This work also informs our concurrent efforts to enhance our undergraduate computer science and software engineering curriculum, exposing students to the communication challenges of real software development and help them to develop skills to meet these challenges through practice in inquiry, critique and reflection.",
+        "pdf_url": "https://digitalcommons.mtu.edu/cgi/viewcontent.cgi?article=1200&context=etdr",
+        "citation_count": 4,
+        "work_type": "thesis",
+        "identifier": "W2563705910",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Corporate Sustainability Systems Development Framework for Comfort Socks, Hosiery and Bodywear Textiles Production: Türkiye Case Study",
+        "source": "openalex",
+        "url": "https://doi.org/10.3390/su18073326",
+        "doi": "10.3390/su18073326",
+        "year": 2026,
+        "authors": [
+          "Saliha Karadayi‐Usta"
+        ],
+        "venue": "Sustainability",
+        "abstract": "The socks, hosiery, bodywear (SHB) industry is a critical segment of the textile sector, characterized by high-volume production and rapid delivery requirements, making efficiency and resource optimization essential. A corporate sustainability system is needed to minimize environmental impact, ensure long-term competitiveness, and align operations with global sustainability standards. Thus, this research aims to propose an integrated Corporate Sustainability System (CSS) framework that synergizes Lean Manufacturing (LM), Digital Transformation (DT), and sustainability transition through a methodological triangulation of (1) a narrative review, (2) in-depth expert interviews, and (3) a comprehensive Turkish case study. The proposed framework integrates foundational lean principles such as 5S, TPM, and Value Stream Mapping with Industry 4.0 technologies, including RFID traceability, real-time ERP integration and machine vision systems. Empirical demonstration through the case study reveals that establishing foundational lean maturity is a critical foundation for successful digital adoption. Furthermore, the study demonstrates that transitioning from manual tracking to integrated digital platforms resolves data silos and enhances the transparency of customer revisions and warehouse accuracy. The framework also incorporates human-centric Lean 5.0 improvements, proving that ergonomic interventions such as rail-mounted cable systems are vital for operational sustainability. Ultimately, the CSS provides a scalable model that aligns SHB production with global mandates like the EU Green Deal and CBAM, positioning the sector for long-term competitive advantage in an increasingly eco-conscious global market.",
+        "pdf_url": "https://www.mdpi.com/2071-1050/18/7/3326/pdf?version=1774856286",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7143307792",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Achieving Development Outcomes by Building Practical Authority in WASH Participatory Collectives in Melanesia",
+        "source": "openalex",
+        "url": "https://research.monash.edu/en/publications/042e8cbf-955b-4a76-b321-8f493c9689b9",
+        "doi": null,
+        "year": 2022,
+        "authors": [
+          "Katherine F. Shields",
+          "Dani Barrington",
+          "Semisi Meo",
+          "Srinivas Sridharan",
+          "Jamie Bartram",
+          "Regina Souter",
+          "Stephen Graham Saunders"
+        ],
+        "venue": "Monash University Research Portal (Monash University)",
+        "abstract": "ABSTRACT: The strength of the 'enabling environment' for development is often considered to be one of the key elements in whether development initiatives fail or succeed. Attempts to strengthen the enabling environment have resulted in a series of checklists and frameworks that imagine it largely to be fixed, static, and separated from 'beneficiaries'. In the Water, Sanitation, and Hygiene (WASH) sector, there is a preoccupation with fostering an optimal enabling environment that will result naturally in 'ideal' and formalised user participation, which will in turn lead to universal access to water and sanitation. In this paper, we challenge this simplistic and linear view of an enabling environment that is perpetuated by checklists and frameworks. We conducted a three-and-a-half-year transdisciplinary participatory action research (PAR) project which sought to foster WASH solutions in impoverished informal settlements in Fiji, Solomon Islands and Vanuatu. In a critical reflection on this project, we analyse the ways in which we both perpetuated problematic checklists and worked collaboratively with our participants to reimagine the enabling environment. We show how individuals challenged the expert–beneficiary dichotomy as they built 'practical authority' from their peers through taking action. Our study demonstrates that conceptualising the enabling environment as a dynamic ecology of actors, relationships and processes that includes the users of WASH as active participants was essential to supporting progress towards universal WASH access. We argue that working within the politics of development rather than seeking to render problems as technical was crucial to fostering WASH improvements that were determined by residents themselves and supported by stakeholders. Such an inclusive approach is essential to fully leveraging the co-productive possibilities of participation. If development practitioners and scholars are to achieve development outcomes in an equitable and participatory manner, they must shift their conceptualisation of the enabling environment as being a checklist of things 'out there' to one where they work to find their place within an ecology of participatory collectives.",
+        "pdf_url": null,
+        "citation_count": 6,
+        "work_type": "article",
+        "identifier": "W4378552760",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Production Scheduling for Waste Prevention in Recovered-Material Manufacturing: A Lagos Denim Workshop Study Protocol",
+        "source": "openalex",
+        "url": "https://doi.org/10.64388/ire1725590",
+        "doi": "10.64388/ire1725590",
+        "year": 2024,
+        "authors": [
+          "Prince Keshi"
+        ],
+        "venue": "Iconic Research and Engineering Journals",
+        "abstract": "In small-batch production from recovered material, a workshop can hold enough cloth by weight and still lack a piece that fits a required panel. Production scheduling determines when that incompatibility becomes visible and which responses remain open. This protocol describes a paired-batch feasibility study in a Lagos denim workshop that tests one scheduling change: moving the detailed fit check and the reservation of compatible pieces from the usual pre-cut review, after pattern freeze, to a scheduled review before pattern freeze. Fit criteria, reservation procedure, release gate, sequencing rule, capacity checks, rescue options, substitute-material budget and quality thresholds are identical in both arms, so the comparison estimates the effect of moving the check and reservation together. The central trade-off is explicit: earlier checking may prevent late pattern changes, recutting and emergency buying, but it requires inspection time and can hold material in reservation for longer. The primary sustainability outcome is the dry mass of unusable textile residue generated per batch and per planned garment, recorded in a closed material ledger with mutually exclusive fate categories. Secondary outcomes are new denim purchased and consumed, person-minutes by task, first-pass quality and complete on-time delivery against the original commitment. The protocol specifies the observation boundary, weighing procedure, concealed allocation within matched pairs, run-in objectives, progression criteria and a descriptive pair-level analysis without significance testing. Published reporting on AZACH, a Lagos label that sorts discarded denim item by item, and on Lagos denim practitioners provides context but not outcome data. No results are reported. Findings will be interpreted as workshop-level evidence on waste prevention, consistent with but distinct from the national recycling indicator for Sustainable Development Goal Target 12.5.",
+        "pdf_url": "https://www.irejournals.com/formatedpaper/1725590.pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7238796759",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Crystal Martin Apparel Bangladesh Limited: Overview of industrial engineering, production, quality assurance, planning, and merchandising",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/10361/29140",
+        "doi": null,
+        "year": 2026,
+        "authors": [
+          "Md. Shydur Rahaman"
+        ],
+        "venue": "BRAC University Institutional Repository (BRAC University)",
+        "abstract": "I worked on a variety of tasks in five different departments during my internship at Crystal Martin Apparel Bangladesh Limited (CMBD), a prestigious Garments Manufacturer IE, Production, Quality Assurance, Planning and Merchandising. During my internship, which ran from December 2025 to February 2026, I learned how to overcome everyday obstacles and challenges. The following are the main sections that make up my report. Industry Synopsis, An explanation of the tasks completed in Planning, IE, Production, Quality Assurance, and Merchandising. Evaluation of internship work critically, Final Thought. This report aims to highlight the activities that take place in each department, their significance to the organization, the working methods and relationships among various functional departments, and the areas that could use improvement. I also emphasized how the internship helped me grow personally and learn new things. This internship report concludes by confirming that Crystal Martin Apparel Bangladesh Limited is a profitable, well-run company that is genuinely committed to both customer happiness and manufacturing excellence. All things considered, my internship offered priceless professional insights into the operations, culture, and strategic priorities of a top-tier clothing manufacturing company.",
+        "pdf_url": "https://dspace.bracu.ac.bd/bitstreams/1b09abfa-f7f3-4b33-ad0b-0a123d3446ed/download",
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "W7203659501",
+        "extra": {
+          "openalex_type": "report",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "DBL Group: Green manufacturing and sustainable practices in the knit garment industry",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/10361/29135",
+        "doi": null,
+        "year": 2026,
+        "authors": [
+          "Md. Amzad Hossain"
+        ],
+        "venue": "BRAC University Institutional Repository (BRAC University)",
+        "abstract": "This report summarizes my internship experience at DBL Group. During my internship, I observed that the company wants to grow as a sustainable way and increase business worldwide. Its main goal is to improve operations, develop skilled manpower and build strong relationships with customers while maintaining sustainability. I was able to apply classroom knowledge and skills in several departments such as Merchandising, Planning, Industrial Engineering, Production, Quality Assurance and Human Resource Management. I have learned how samples are prepared and how buyers and factories communicate, Accurate production planning, calculate working time, production line balancing, rook cause and defects analysis, final inspection procedure and how labor laws are followed, etc. During my internship, I got the chance to develop my practical knowledge by assisting the team during quick changeover activities and supported them to complete the work faster. I also made a simple root cause analysis format to help identify problems more easily. During this time, I observed workplace ergonomics and took some skill development training sessions. From these activities, I learned how to review performance data, understand where problems occur and think about possible ways to improve the process. It helped me understand how small changes can increase efficiency and productivity in daily operations. I would also like to recommend some areas where the industry can improve efficiency and buyer satisfaction by using 3D sampling systems, quick changeover methods, automated machines, and AI-based defect detection. In the end, I sincerely thank the top management for the internship opportunity and appreciate my supervisor and team members for their guidance and support.",
+        "pdf_url": "https://dspace.bracu.ac.bd/bitstreams/cd7cc2b4-124a-4713-b5b9-904e58149521/download",
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "W7203657444",
+        "extra": {
+          "openalex_type": "report",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Evaluating lead time performance through cross-functional coordination in merchandising operations: A study of A.G Dresses Limited",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/10361/29266",
+        "doi": null,
+        "year": 2026,
+        "authors": [
+          "Wasi Shameem Chaudhury"
+        ],
+        "venue": "BRAC University Institutional Repository (BRAC University)",
+        "abstract": "This internship report is submitted in partial fulfillment of the requirements for the degree of Bachelor of Business Administration, 2026.",
+        "pdf_url": "https://dspace.bracu.ac.bd/bitstreams/5cc20640-e63e-49b4-92e8-d959e160bb42/download",
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "W7203854592",
+        "extra": {
+          "openalex_type": "report",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Enhancing operation efficiency of leather manufacturing industry through hybrid of value stream mapping and discrete event simulation",
+        "source": "openalex",
+        "url": "https://doi.org/10.1080/23311916.2024.2375423",
+        "doi": "10.1080/23311916.2024.2375423",
+        "year": 2024,
+        "authors": [
+          "Wogiye Wube",
+          "Eshetie Berhan",
+          "Daniel Kitaw",
+          "Gezahegn Tesfaye"
+        ],
+        "venue": "Cogent Engineering",
+        "abstract": "Traditional value stream mapping (VSM) has played substantial role in reducing lean wastes in the manufacturing sector overall as well as specifically within automotive companies. However, it provides only a static view of linear production systems with limited process details. This research is conducted in the case of leather industry. The case study is challenged with work -in- progress inventory, unnecessary processes, long waiting time, and long lead time. Therefore, the purpose of this research is to address literature gaps and challenges faced by a case leather company and enhance operational efficiency by combining VSM with discrete event simulation. Product matrix analysis is used to categorize leather goods into product families and select a representative product. Data collection involves direct observation (Gemba-walk) and report reviews. Numerical results from the enhanced current state VSM (ECSVSM) quantify value-added time, non-value-added time, value-added ratio, Takt Time, and total production lead time as 2198.24 s, 14.59 d, 0.54%, 230.1 s, and 14.67 d, respectively. This ECSVSM data is then applied to develop a simulation model of the As-Is system. Based on findings from the ECSVSM and As-Is simulation, shop floor wastes are identified. Alternative scenarios are proposed to mitigate these wastes, with one scenario selected along with additional proposals involving 5S, supermarkets, and layout adjustments. A future state VSM incorporates these solutions. Results demonstrate major improvements, including enhanced operational efficiency up 8.16%, and reductions in non-value-added time by 42.9%, lead time by 42.72%, alongside increased value-added ratio by 55.56% and lowered key waste categories.",
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/23311916.2024.2375423?needAccess=true",
+        "citation_count": 18,
+        "work_type": "article",
+        "identifier": "W4400468235",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Process flow improvement in services and healthcare",
+        "source": "openalex",
+        "url": "https://handle.uba.uva.nl/personal/pure/en/publications/process-flow-improvement-in-services-and-healthcare(588a19b2-9762-44e9-9e59-6bd66864623e).html",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Benjamin P. H. Kemper"
+        ],
+        "venue": "UvA-DARE (University of Amsterdam)",
+        "abstract": "17 november 20111. Een brug tussen de wetenschap en de praktijk ontstaat door het beantwoorden van elkaars vragen, niet door het overnemen van elkaars gebruiken. Hoofdstuk 1 van dit proefschrift. 2. Denk in problemen, niet in oplossingen. Voor procesverbetering is het een valkuil om te snel in oplossingen te denken, en is het belangrijk eerst een goede beschrijving en analyse te maken van de problemen. Hoofdstuk 2 van dit proefschrift. 3. Een klant die verwacht lang te moeten wachten, kan beter wachten met afspreken. Hoofdstuk 3 van dit proefschrift. 4. Een benaderingsformule voor de procesprestatie die alleen door simulatie geëvalueerd kan worden, mist haar doel. Hoofdstuk 4 van dit proefschrift 6. In het opleiden van professionals in het gebruik van methoden en technieken voor procesverbetering moet men streven naar realistische en situationele voorbeelden en oefeningen.",
+        "pdf_url": "https://pure.uva.nl/ws/files/1153546/98574_thesis.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W2145231700",
+        "extra": {
+          "openalex_type": "other",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Kaizen Implementation and Performance of Manufacturing Firms in Nairobi County Kenya",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.35942/jbmed.v5i2.324",
+        "doi": "10.35942/jbmed.v5i2.324",
+        "year": 2023,
+        "authors": [
+          "Caroline Githongo",
+          "Janesther Karugu"
+        ],
+        "venue": "International Journal of Business Management Entrepreneurship and Innovation",
+        "abstract": "All across the world, firms are experiencing dynamic changes in their environments and this may present challenges. The Kenyan manufacturing sector is key in the development plan as envisioned in Kenya’s vision 2030. To achieve this, the manufacturing sector in Kenya must therefore come up with ways to ensure their sustainability moving forward. The general objective of the study was to establish the effects of Kaizen implementation on operations performance in the case of manufacturing firms in Nairobi, Kenya. Specifically, the study sought to establish the effect of quality circles, teamwork, total productive maintenance systems and personal discipline on the operations performance of manufacturing firms in Nairobi County. The study was guided by the operations management theory, dynamic capabilities theory, the kaizen theory and the balance score card theory. The study used the descriptive research design and targeted 52 manufacturing firms in Nairobi, Kenya. Simple random sampling was used to select 175 respondents from the 52 manufacturing companies were conducted where the unit of observation was the operations manager, human resource managers, finance managers, strategic managers, marketing managers and the sales manager from each of the manufacturing companies. The researcher collected primary data using questionnaires while secondary data from the companies’ financial statements was collected. Content validity was established by subjecting the research instruments thorough scrutiny by the supervisors overseeing the study while Cronbach’s alpha coefficient was used to determine reliability. Descriptive analysis was conducted to establish percentages, means and standard deviation. Further, inferential data analysis techniques that include correlation (Pearson Correlation Momentum) and regression statistics (multiple regression analysis) was used to draw inferences on the relationship between kaizen implementation and operations performance of manufacturing firms in Kenya. The study concluded that quality circles aim to give individual members the opportunity to contribute to problem-solving and have an emphasis on teamwork and collaboration. Teamwork is one of the most important tools when it comes to organizational efficiency as it cultivates effective communication. Total productive maintenance system helps to frame maintenance as a business advantage. Implementing total productive maintenance system enables manufacturers to decrease planned and unplanned downtime from breakdowns, equipment and maintenance cost, defects, and risk of damage or accidents. Discipline ensures individuals maintain silence at workplace and work as a single unit with their team members to achieve organization goals and objectives. The study recommended that the firms should recruit volunteers from different departments as volunteers are more likely to take their role seriously and want to see the group succeed. The management of the firm should build diverse and inclusive teams for effective decision making. The management should aim at reducing worry and stress to allow employees to stay on track with personal and professional goals and prevent them from getting behind or submitting work after the deadline has passed.",
+        "pdf_url": "https://journals.ijcab.org/journals/index.php/jbmed/article/download/324/292",
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "W4380264883",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Biopharmaceutical Manufacturing, Volume 2: Unit processes",
+        "source": "openalex",
+        "url": "https://doi.org/10.1088/978-0-7503-3179-1",
+        "doi": "10.1088/978-0-7503-3179-1",
+        "year": 2022,
+        "authors": [
+          "Sarfaraz K. Niazi",
+          "Sunitha Lokesh"
+        ],
+        "venue": "Institute of Physics eBooks",
+        "abstract": "This two-volume set provides a comprehensive guide to the essential aspects of commercial biopharmaceutical manufacturing. Covering the planning, layout and operation of successful commercial manufacturing, the aim of the books is to enable innovations, new drug development, and make affordable biological drugs available to patients worldwide. This volume covers the unit processes involved in producing a GMP (Good Manufacturing Practice) biopharmaceutical product, laid out in the order of operation, with complete details on equipment, compliance and yield improvement suggestions. The unit processes described include several emerging trends and advice on reducing the costs of the product and efficient scale up techniques. Intended for practitioners in the commercial biopharmaceutical manufacturing industry, the text is an ideal resource for practitioners looking to develop their ability to manufacture biopharmaceutical products at a large scale. Volume 1 is available here. Key features • Covers the essential aspects of commercial biopharmaceutical manufacturing for industry practitioners, including the planning, layout and operation. • Provides sufficient information for industry practitioners to establish and operate GMP (good manufacturing practice) compliant manufacturing operations. • Includes case studies and step-by-step procedures for manufacturing specific biopharmaceutical products. • Focused exclusively on products intended for human use. • Includes coverage of regulatory requirements, intellectual property challenges, training of manufacturing teams and issues around cost optimization.",
+        "pdf_url": "https://iopscience.iop.org/book/mono/978-0-7503-3179-1.preview.pdf",
+        "citation_count": 4,
+        "work_type": "book",
+        "identifier": "W4213387198",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Danys Knitwear Limited: Practices of merchandising, commercial, operation, Human resource & accounts",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/10361/29010",
+        "doi": null,
+        "year": 2026,
+        "authors": [
+          "Md Nayem Shikder"
+        ],
+        "venue": "BRAC University Institutional Repository (BRAC University)",
+        "abstract": "This internship report presents a comprehensive overview of my practical learning experience at Danys Knitwear Ltd., a concern of Mahbub Group, located in Shurabari, Kashimpur, Gazipur. The organization is a growing knitwear manufacturing company specializing in the production of baby, children’s, women’s, and men’s knit garments, along with services such as knitting, printing, and sewing. With a workforce of approximately 2,000 employees, the company plays a significant role in the Ready-Made Garments (RMG) sector of Bangladesh and maintains business relationships with reputed international buyers. The primary objective of this internship was to bridge the gap between theoretical knowledge and practical application in the industrial environment. During the internship program, I gained hands-on experience across five key departments: Marketing & Merchandising, Commercial, Operations (Production), Finance, Accounts & Audit, and Human Resources. Each department plays a vital role in ensuring smooth business operations and achieving organizational goals. In the Marketing & Merchandising department, I observed buyer communication, costing, order development, and production planning processes. In the Commercial department, I learned about export-import documentation, L/C handling, customs procedures, and shipment management. Within the Operations department, I gained knowledge about production planning, line balancing, quality control, and efficiency management. In the Finance, Accounts & Audit department, I worked with cost sheet preparation, budgeting, payroll management, financial reporting, and compliance procedures. In the Human Resources department, I observed recruitment, training, attendance management, and labor law compliance practices. The report also highlights the interrelationship among these five departments. Effective coordination among them ensures timely production, quality maintenance, cost control, compliance, and successful export operations. Any weakness in one department directly affects the overall organizational performance. Overall, this internship provided valuable exposure to the operational and financial structure of a modern knitwear manufacturing company. It enhanced my professional skills, analytical ability, communication competence, and practical understanding of the RMG industry. The knowledge and experience gained from this internship will contribute significantly to my future career development in the field of Finance and Accounts.",
+        "pdf_url": "https://dspace.bracu.ac.bd/bitstreams/da89e009-35e1-4700-91a2-be55dbbc9c42/download",
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "W7203656492",
+        "extra": {
+          "openalex_type": "report",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Management Support and Self-Reported Employee Productivity in Garment Manufacturing: The Mediating Role of Workload Management",
+        "source": "openalex",
+        "url": "https://doi.org/10.2139/ssrn.7576807",
+        "doi": "10.2139/ssrn.7576807",
+        "year": 2026,
+        "authors": [
+          "Hayat  Mohammed Ahmed Ali Galhof",
+          "Ahmet BULUM"
+        ],
+        "venue": "SSRN Electronic Journal",
+        "abstract": null,
+        "pdf_url": "https://doi.org/10.2139/ssrn.7576807",
+        "citation_count": 0,
+        "work_type": "preprint",
+        "identifier": "W7220836961",
+        "extra": {
+          "openalex_type": "preprint",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Potential challenges of collaborative robot implementation in Vietnamese garment manufacturing",
+        "source": "openalex",
+        "url": "https://doi.org/10.11591/ijra.v13i3.pp283-292",
+        "doi": "10.11591/ijra.v13i3.pp283-292",
+        "year": 2024,
+        "authors": [
+          "Kim Phung Nguyen",
+          "Yoon Jin Ma"
+        ],
+        "venue": "IAES International Journal of Robotics and Automation (IJRA)",
+        "abstract": "Collaborative robots (cobots) are a new significant technology in the integration of Industry 4.0 (I4.0) and Industry 5.0 (I5.0). Working alongside humans in open environments, cobots can boost safety and productivity. However, manufacturers are facing some potential challenges in adopting cobots, such as technological challenges, social problems, cost barriers, and labor issues. Vietnam has a great potential for outsourcing in the top supply chains for many famous fashion brands globally, with thousands of textile and garment factories. The purpose of this study was to explore potential challenges of cobot implementations in the context of Vietnam’s garment factories from factory employees’ perspectives. Data were collected from 29 garment factory managers in Vietnam. Findings revealed a rapid change in fashion trends and many unskilled workers may limit cobots’ flexibility, precision, and innovation. Furthermore, cobot implementation is affected by the cost of cobots, infrastructure upgrades, and risks of possible failure in deployment. Cobot firms, application partners, technology programmers, and manufacturers need to discuss how to maximize cobots’ benefits in diverse aspects of the garment manufacturing setting. These insights could boost the industry’s economy and sustainability.",
+        "pdf_url": "https://ijra.iaescore.com/index.php/IJRA/article/download/20675/13074",
+        "citation_count": 7,
+        "work_type": "article",
+        "identifier": "W4401175297",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Modeling the implementation of advanced manufacturing technologies in the Cypriot manufacturing industry",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10068/424036",
+        "doi": null,
+        "year": 1997,
+        "authors": [
+          "Andreas Efstathiades"
+        ],
+        "venue": "OpenGrey (Institut de l'Information Scientifique et Technique)",
+        "abstract": "For the Cyprus Manufacturing Industry, previously committed to the production of medium quality standard products, the increased and changing nature of competitive pressures represents a fundamental challenge.The major problems the Cyprus manufacturing industry is facing appear to be labour shortages, together with low product competitiveness and poor production organization.It is widely believed that the introduction of Advanced Manufacturing technologies (AMTs) offers a means of resolving the above problems but their implementation is a risky venture.The main objective of the study was to examine the implementation of AMTs in the Cyprus Manufacturing Industry, identify the factors leading to successful application of these technologies and based on these factors develop an integrated process plan to facilitate their successful implementation.A survey was conducted on a sample of 40 companies using personal interviews based on a purpose designed comprehensive questionnaire.The questionnaire encompassed the international trends in the management and implementation of AMT.Successes and failures have been considered in terms of the Technical, Manufacturing and the Business aspects and influences of each technology.It has been found that the most important factors contributing to the successful implementation of AMT were the level of long term planning, the fitness level of AMT in the existing processes and the attention given to infrastructure preparation and human resource development.Based on the success factors identified an integrated planning model has been developed.The model incorporates all the planning procedures and implementation parameters to be followed in order to ensure successful AMT adoption and implementation.The model addresses the three main stages of A!vlT adoption and implementation: (a) the planning phase, (b) the selection, transfer and preimplementation phase and (c) the post implementation phase.For each phase the steps to be followed are fully explored and analysed.Finally the usefulness of the model in facilitating the successful application of A0.1T is illustrated through t\\vo case studies.",
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W163101918",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "LA multifamily housing : obstacles to the adoption of off-site construction as a method of increasing production",
+        "source": "openalex",
+        "url": "https://doi.org/10.17760/d20350265",
+        "doi": "10.17760/d20350265",
+        "year": 2019,
+        "authors": [
+          "Brent Musson"
+        ],
+        "venue": "Digital Repository Service (Northeastern University)",
+        "abstract": "Los Angeles Metro, like many other U.S. metropolitan regions, currently suffers from a shortage of housing and a lack of housing affordability. The application of off-site construction (OSC), an industrialized production method, has been recognized as one potential solution to these problems, but adoption has remained low, despite a consensus opinion that this means of housing delivery has the potential to address both issues facing the region. This dissertation has examined the obstacles to the adoption of OSC in Los Angeles through the theoretical framework of oligopoly theory, a current macro-economic framework that offers an explanation as to why key housing production actors might be motivated to limit the supply of housing during a housing shortage. This theory was tested in the Los Angeles Metro market using qualitative data collected from the top-6 most prolific incumbent multifamily landlords. Findings include persuasive data that disqualify oligopoly as a viable theoretical framework within which to understand OSC's poor adoption or the current housing shortage and affordability crisis in the Los Angeles Metro region. This study is the first to examine OSC through the lens of the housing crisis as an economic market failure and contributes to the body of knowledge regarding the obstacles to the adoption of OSC. It examines the motives of the decisionmakers that set housing production levels by either exploiting OSC to boost production or by acting as a bottleneck impediment to OSC housing production in the LA Metro area--Author's abstract",
+        "pdf_url": "https://repository.library.northeastern.edu/files/neu:m045qf96v/fulltext.pdf",
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W3044536588",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Vocation, professional practice, internships and capstone integration: Applying business knowledge with integrity and service",
+        "source": "openalex",
+        "url": "https://doi.org/10.65655/ocp.m23.c81",
+        "doi": "10.65655/ocp.m23.c81",
+        "year": 2026,
+        "authors": [
+          "Sixbert Sangwa"
+        ],
+        "venue": null,
+        "abstract": "Professional competence is proved when knowledge survives contact with consequential work. This final chapter integrates the book through vocation, work-integrated learning, professional judgment and capstone execution. It distinguishes work exposure from designed learning; develops the Foundation and Mission/Capstone Internship as progressive forms of professional formation; and explains placement selection, learning plans, evidence logs, feedback, reflection, confidentiality, professional identity and moral courage. It then shows how workplace observations become bounded capstone problems, how approved research designs are executed without methodological drift, and how evidence is translated into feasible recommendations, implementation roadmaps, executive communication and oral defence. African analysis centers on the 2026 International Business and Trade internship architecture at African Leadership University, while the University of Waterloo provides a large-scale global comparison. Contemporary evidence on work-integrated learning, inclusion and graduate employability is interpreted cautiously. Christian moral reasoning frames professional practice as truthful, competent and courageous service under accountable stewardship.",
+        "pdf_url": "https://books.openchristian.education/index.php/ocp/catalog/download/23/140/361",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W7204599604",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "A Simulation-Based Approach for Production Lead-Time Analysis in Leather Processing: A Case Study at Nakara, Namibia",
+        "source": "openalex",
+        "url": "https://doi.org/10.47941/ijce.2748",
+        "doi": "10.47941/ijce.2748",
+        "year": 2025,
+        "authors": [
+          "Thomas Shilongo"
+        ],
+        "venue": "International Journal of Computing and Engineering",
+        "abstract": "Purpose: A study was conducted to analyze production lead time challenges in the leather processing industry by use of simulation techniques. Methodology: The study was able to successfully develop a simulation model that predicts the production lead time by using past data that was obtained from the case factory and using discrete event simulation method in Arena Software. A case study undertaken at a worldly recognized leather manufacturing factory in Namibia called Nakara proved that there are challenges faced when estimating the production lead time. Findings: The research highlighted the significance of leather manufacture’s ability to know their processing facility’s production lead time as it proved to be a huge boost in client attraction and degree of satisfaction. Unique Contribution to Theory, Practice and Policy: Many leather manufacturing factories in the world experience high difficulties when estimating their production lead time, therefore the study contributes to theory, practice and policy by developing a simulation model for production lead-time estimation. Moreover, a good production lead time reflects an efficient and effective production system.",
+        "pdf_url": "https://carijournals.org/journals/index.php/IJCE/article/download/2748/3156",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4410704318",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Reducing Lead Times for Organizations Handling Multiple Projects in an Engineer to Order Environment - A Case Study at Jensen Sweden",
+        "source": "openalex",
+        "url": "http://studentarbeten.chalmers.se/publication/257250-reducing-lead-times-for-organizations-handling-multiple-projects-in-an-engineer-to-order-environment",
+        "doi": null,
+        "year": 2019,
+        "authors": [
+          "Philip Karlsson",
+          "Rikard Garcia Wernersson"
+        ],
+        "venue": "Chalmers Publication Library (Chalmers University of Technology)",
+        "abstract": "This report is based on a case study made at an organization working in a multi-project engineer to order environment and aims to shorten the total customer project lead time for their customer projects.The report is based on interviews, workshops and quantitative data collection.Some identified challenges are that the organization is operating with a traditional structure without any appointed project manager.This type of organizational structure hinders effective communication, coordination and collaboration between departments.The structure is an essential element in the organizational design and the effects of it reveals itself in long lead times and unclear responsibilities.The solutions presented in this report are aimed at reorganizing the company structure from a traditional structure to a matrix structure.The report also aims at investigating what type of matrix structure is most suitable for the organization and how a project manager role could be implemented.Furthermore, by changing the organizational structure, processes are also affected, and by doing a business process reengineering, processes can be resettled upstream the supply chain and a more cross functional integration can be achieved.By doing this, the report fulfils its intended purpose to reduce project lead times.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2966040813",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Application of lean manufacturing tools in cash centres to improve operational efficiency",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/10948/2012203",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Ryan E. Smith"
+        ],
+        "venue": "Nelson Mandela University Research Repository",
+        "abstract": "typically banks",
+        "pdf_url": "https://dspacecris-nc1.mandela.ac.za/bitstreams/cfdf2525-57a4-4c1e-8f72-985a2c0a29de/download",
+        "citation_count": 7,
+        "work_type": "thesis",
+        "identifier": "W2785603696",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "New Trends in Business Management. Strategy, Branding, Teamwork",
+        "source": "openalex",
+        "url": "https://doi.org/10.15611/2025.44.3",
+        "doi": "10.15611/2025.44.3",
+        "year": 2025,
+        "authors": [
+          "Anna Witek-Crabb",
+          "J. Radomska"
+        ],
+        "venue": "Wroclaw University of Economics and Business eBooks",
+        "abstract": "Some fashion products go beyond their functional purpose and become cultural symbols.In the luxury fashion industry, iconic items can significantly impact a brand.This study aims to discover how companies can benefit from signature products and implement them in their overall branding and marketing strategies.It specifically focuses on the Tabi Boot by Maison Margiela, a unique item that has gained increased media attention in recent years.The analysis of branding concepts and the various case studies on iconic products revealed especially a gap in the research on Tabi boots.The main research problem focuses on how consumer perceptions and what behaviours can be observed in regard to iconic products with a focus on Maison Margiela and Tabi boots.This study uses a quantitative method to collect data using a CAWI questionnaire.The findings present valuable insights about the impact that iconic products can have on branding and marketing strategies.",
+        "pdf_url": "https://dbc.wroc.pl/Content/141875/Witek-Crabb_Radomska_New_Trends_in_business_management.pdf",
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "W4416418237",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Supplier Resilience During Global Dis ruptions: Lessons from Bangladeshi RMG Factories Post-COVID",
+        "source": "openalex",
+        "url": "http://www.theseus.fi/handle/10024/907262",
+        "doi": null,
+        "year": 2025,
+        "authors": [
+          "Mime, Nazma Ara"
+        ],
+        "venue": "Theseus (Ammattikorkeakoulujen)",
+        "abstract": "The objective of this study was to investigate the operational, financial, and technological adaptations of a Bangladeshi Ready-Made Garment (RMG) supplier. The analysis has been conducted in several steps. The first step was to conduct a qualitative single embedded case study design, followed by an investigation into the dynamic capabilities which included sensing, seizing, and transforming. What followed after was the data collection which was measured through semi-structured interviews with ten functional leads across strategy, operations, and finance. Furthermore, the study utilized organizational artifacts which was cancellation logs, weekly dashboards, and production records. The analysis helped to determine that specific operational vulnerabilities which included hidden work-in-progress and liquidity constraints were present. Here it can be seen that resilience was achieved not through large capital investments but through the institutionalisation of specific micro-routines. This goes on to show that the adaptive mechanisms were critical for the supplier to survive the power asymmetry within the global supply chain. Key adaptive strategies included the establishment of a fixed weekly decision cadence, the enforcement of a 48-hour industrial engineering verification rule before commitment, and the explicit coupling of overtime caps to defect trends. These practices were observed to function as dynamic capabilities that stabilized cash flow, protected quality, and restored schedule reliability. A contextual framework was developed to demonstrate how suppliers stabilize operations under constraint. It is concluded that supplier resilience is grounded in codified, cross-functional routines that enforce visibility and govern the trade-offs between liquidity, quality, and delivery performance.",
+        "pdf_url": "http://www.theseus.fi/bitstream/10024/907262/2/Mime_Nazma%20Ara.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7115977511",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Objective evaluation of clothing fit",
+        "source": "crossref",
+        "url": "https://doi.org/10.1533/9781845690380.72",
+        "doi": "10.1533/9781845690380.72",
+        "year": 2004,
+        "authors": [
+          "W. Yu"
+        ],
+        "venue": "Clothing Appearance and Fit",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 8,
+        "work_type": "book-chapter",
+        "identifier": "10.1533/9781845690380.72",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Subjective assessment of clothing fit",
+        "source": "crossref",
+        "url": "https://doi.org/10.1533/9781845690380.31",
+        "doi": "10.1533/9781845690380.31",
+        "year": 2004,
+        "authors": [
+          "W. Yu"
+        ],
+        "venue": "Clothing Appearance and Fit",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 13,
+        "work_type": "book-chapter",
+        "identifier": "10.1533/9781845690380.31",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Objective evaluation of clothing fit",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/9781439823446.ch5",
+        "doi": "10.1201/9781439823446.ch5",
+        "year": 2004,
+        "authors": [],
+        "venue": "Clothing appearance and fit",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/9781439823446.ch5",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "Subjective assessment of clothing fit",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/9781439823446.ch3",
+        "doi": "10.1201/9781439823446.ch3",
+        "year": 2004,
+        "authors": [],
+        "venue": "Clothing appearance and fit",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/9781439823446.ch3",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "Fabric properties related to clothing appearance and fit",
+        "source": "crossref",
+        "url": "https://doi.org/10.1533/9781845690380.89",
+        "doi": "10.1533/9781845690380.89",
+        "year": 2004,
+        "authors": [
+          "L. Hunter",
+          "J. Fan"
+        ],
+        "venue": "Clothing Appearance and Fit",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "book-chapter",
+        "identifier": "10.1533/9781845690380.89",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Fabric properties related to clothing appearance and fit",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/9781439823446.ch6",
+        "doi": "10.1201/9781439823446.ch6",
+        "year": 2004,
+        "authors": [],
+        "venue": "Clothing appearance and fit",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/9781439823446.ch6",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "Rework of New High-Speed Press-Fit Connectors, Part II",
+        "source": "crossref",
+        "url": "https://doi.org/10.37665/smwnnig81820",
+        "doi": "10.37665/smwnnig81820",
+        "year": 2017,
+        "authors": [],
+        "venue": "SMTA International",
+        "abstract": "Circuit board assemblies for various server or telecom infrastructure applications often need to fit into rigid enclosures or racks to provide their intended function. Warpage of such circuit assemblies during the solder reflow process is not uncommon and must be accommodated in final product assembly. Bolting warped boards into server racks and other structures forces them flat and imposes strain on the various solder interconnects on the surface of the board. Reliability testing of surface mount solder joints is most often done with laboratory thermal cycling of unstressed boards. It is anticipated that any additional solder joint preload arising from a mechanically distorted board will negatively affect the measured solder joint reliability. This study evaluates the reliability consequences of board bending by imposing a 0 and 2% bend from the as-reflowed condition concurrent with thermal cycle exposure. Various component types were tested including CBGA 625, 2512 resistors, LGA 133, PBGA 1156 packages.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.37665/smwnnig81820",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Surface Mount Technology Association"
+        }
+      },
+      {
+        "title": "Assembly &amp; Rework: High-Speed Press-Fit Connectors",
+        "source": "crossref",
+        "url": "https://doi.org/10.37665/weqyalj95615",
+        "doi": "10.37665/weqyalj95615",
+        "year": 2023,
+        "authors": [
+          "Lars Bruno"
+        ],
+        "venue": "On-Demand Webinars",
+        "abstract": "Technical Presentation: This topic should be of particular interest to process engineers and operators using or thinking about using press-fit connectors Speaker Bio: Lars Bruno is a Senior Engineer in PCBA Manufacturing & Reliability at the Engineering group within the Network Development Unit at Ericsson based in Stockholm, Sweden. Lars holds a M.Sc. in Mechanical Engineering from the Institute of Technology at Linköping University. He is responsible for the Ericsson participation in the Universal AREA Consortium and coordinates two global competence groups at Ericsson; one about solder paste screen-printing and dispensing and the other about PCBA rework and repair. Lars is also a member of the IPC press-fit standard committee and the driver of the IPC press-fit committee rework sub-group. Lars Bruno On Demand Webinar",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.37665/weqyalj95615",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Surface Mount Technology Association"
+        }
+      },
+      {
+        "title": "Business Plan Development and Getting Management Approval",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/9781315119502-6",
+        "doi": "10.1201/9781315119502-6",
+        "year": 2017,
+        "authors": [],
+        "venue": "Automotive Product Development",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/9781315119502-6",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "Winning Product Review Approval",
+        "source": "crossref",
+        "url": "https://doi.org/10.1002/9780470172483.ch22",
+        "doi": "10.1002/9780470172483.ch22",
+        "year": 2004,
+        "authors": [
+          "Bob Lonadier"
+        ],
+        "venue": "The PDMA Handbook of New Product Development",
+        "abstract": null,
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9780470172483.ch22",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1002/9780470172483.ch22",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Wiley"
+        }
+      },
+      {
+        "title": "PENURUNAN REWORK PRODUCT DENGAN PENDEKATAN LEAN SIX SIGMA",
+        "source": "crossref",
+        "url": "https://doi.org/10.36499/psnst.v14i1.11569",
+        "doi": "10.36499/psnst.v14i1.11569",
+        "year": 2025,
+        "authors": [
+          "Hari Supriyanto",
+          "Rindi Kusumawardani",
+          "Ega Rizkiyah"
+        ],
+        "venue": "Prosiding Sains Nasional dan Teknologi",
+        "abstract": "Produk tangki adalah salah satu komponen dalam truk tangki secara keseluruhan. Kecenderungan permintaan yang semakin tinggi, dengan lead time yang semakin pendek; menuntut perusahaan untuk dapat menghasilkan produk dengan pengiriman yang tepat waktu. Persaingan pasar yang semakin ketat dan kualitas produk yang semakin baik, mengharuskan perusahaan melakukan improvement yang terus menerus. Sering terjadi proses produksi berhenti dan menyebabkan kerugian finansial yang tinggi, ini menunjukkan aktifitas yang bersifat non value added.Â Aktifitas tersebut menyebabkan timbulnya losses. Diperlukan alat untuk menelusuri penyebab terjadinya waste atau losses pada aktivitas produksi dengan pendekatan lean six sigma. Tools yang dipakai untuk mengidentifikasi permasalahan adalah E-DOWNTIME waste, RCA (root cause Analisys) dan FMEA (Failure modes and effect analysis). Untuk itu diperlukan pengolahan sumber daya dan perusahaan selalu berupaya untuk melakukan perbaikan proses agar dapat berproduksi secara lebih efektif dan efisien melalui pendekatan Lean. Konsep ini dapat mengidentifikasi dan mengeliminasi pemborosan atau kegiatan yang tidak bernilai tambah. Paper ini menyuguhkan kegiatan identifikasi aktivitas yang mengandung pemborosan (waste). Identifikasi dimulai dengan memetakan proses berdasarkan pada value stream mapping dan process activity mapping. Diperoleh hasil bahwa value added activity sebesar 24%, necessary but non value added activity yaitu 44% dan non value added activity sebesar 32%. Diperoleh tiga waste kritis yaitu waiting, defect dan excess processing waste. Nilai sigma awal pada defect waste yaitu sebesar 2,65; nilai sigma ini merupakan permasalahan. Rekomendasi perbaikan adalah pembmntukan tim dan pengawas SOP dan pengadaan pelatihan guna meningkatkan kemampuan dan keterampilan tenaga kerja. Dengan penerapan alternatif solusi, terjadi kenaikan nilai sigma sebesar 3.25 dan terjadi pengurangan biaya sampai 34%. Â",
+        "pdf_url": "https://publikasiilmiah.unwahas.ac.id/PROSIDING_SNST_FT/article/download/11569/6204",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.36499/psnst.v14i1.11569",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Fakultas Teknik Universitas Wahid Hasyim"
+        }
+      },
+      {
+        "title": "Product Development and New Drug Approval",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/978-1-59259-705-5_14",
+        "doi": "10.1007/978-1-59259-705-5_14",
+        "year": 1999,
+        "authors": [
+          "Victoria G. Hale"
+        ],
+        "venue": "Biopharmaceutical Drug Design and Development",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/978-1-59259-705-5_14",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Humana Press"
+        }
+      },
+      {
+        "title": "Subjective assessment of clothing appearance",
+        "source": "crossref",
+        "url": "https://doi.org/10.1533/9781845690380.15",
+        "doi": "10.1533/9781845690380.15",
+        "year": 2004,
+        "authors": [
+          "J. Fan"
+        ],
+        "venue": "Clothing Appearance and Fit",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1533/9781845690380.15",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Biostatistics in Pharmaceutical Product Development Facts, Recommendations, and Solutions",
+        "source": "crossref",
+        "url": "https://doi.org/10.3109/9781420088502-22",
+        "doi": "10.3109/9781420088502-22",
+        "year": 2016,
+        "authors": [],
+        "venue": "New Drug Approval Process",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.3109/9781420088502-22",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "Coordination policies in product development with rework",
+        "source": "crossref",
+        "url": "https://doi.org/10.1109/ieem.2011.6118219",
+        "doi": "10.1109/ieem.2011.6118219",
+        "year": 2011,
+        "authors": [
+          "Bingyin Bao",
+          "Suxiu Xu",
+          "Qiang Lu"
+        ],
+        "venue": "2011 IEEE International Conference on Industrial Engineering and Engineering Management",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.1109/ieem.2011.6118219",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "IEEE"
+        }
+      },
+      {
+        "title": "Equipment Cleaning During Pharmaceutical Product Development and Its Importance to Pre-Approval Inspection",
+        "source": "crossref",
+        "url": "https://doi.org/10.3109/9781420020489-8",
+        "doi": "10.3109/9781420020489-8",
+        "year": 2016,
+        "authors": [
+          "Lisa Ray"
+        ],
+        "venue": "Pharmaceutical Pre-Approval Inspections",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.3109/9781420020489-8",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "Garment design for individual fit",
+        "source": "crossref",
+        "url": "https://doi.org/10.1533/9781845690380.196",
+        "doi": "10.1533/9781845690380.196",
+        "year": 2004,
+        "authors": [
+          "M.Y. Kwong"
+        ],
+        "venue": "Clothing Appearance and Fit",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 9,
+        "work_type": "book-chapter",
+        "identifier": "10.1533/9781845690380.196",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Development of Half Scale Dress Forms in Active Body Positions for Bicycle Clothing Design and Fit",
+        "source": "crossref",
+        "url": "https://doi.org/10.31274/itaa_proceedings-180814-10",
+        "doi": "10.31274/itaa_proceedings-180814-10",
+        "year": 2015,
+        "authors": [
+          "Arzu Vuruskan",
+          "Susan Ashdown"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "10.31274/itaa_proceedings-180814-10",
+        "extra": {
+          "crossref_type": "report",
+          "publisher": "Iowa State University, Digital Repository"
+        }
+      },
+      {
+        "title": "Business Plan Development and Getting Management Approval",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/9781003606376-7",
+        "doi": "10.1201/9781003606376-7",
+        "year": 2026,
+        "authors": [
+          "Vivek D. Bhise"
+        ],
+        "venue": "Automotive Product Development",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/9781003606376-7",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "Copyright",
+        "source": "crossref",
+        "url": "https://doi.org/10.1016/b978-1-85573-745-7.50012-6",
+        "doi": "10.1016/b978-1-85573-745-7.50012-6",
+        "year": 2004,
+        "authors": [],
+        "venue": "Clothing Appearance and Fit",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1016/b978-1-85573-745-7.50012-6",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Legal and Legislative Hurdles to Generic Drug Development, Approval, andMarketing",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/9781420030419-17",
+        "doi": "10.1201/9781420030419-17",
+        "year": 2014,
+        "authors": [],
+        "venue": "Generic Drug Product Development",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/9781420030419-17",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "Figures",
+        "source": "crossref",
+        "url": "https://doi.org/10.1016/b978-1-85573-745-7.50013-8",
+        "doi": "10.1016/b978-1-85573-745-7.50013-8",
+        "year": 2004,
+        "authors": [],
+        "venue": "Clothing Appearance and Fit",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1016/b978-1-85573-745-7.50013-8",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Exploring College Students’ Clothing Fit Perception and Overall Fit Satisfaction in General",
+        "source": "crossref",
+        "url": "https://doi.org/10.31274/itaa_proceedings-180814-953",
+        "doi": "10.31274/itaa_proceedings-180814-953",
+        "year": 2014,
+        "authors": [
+          "Eonyou Shin",
+          "Mary Lynn Damhorst"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "10.31274/itaa_proceedings-180814-953",
+        "extra": {
+          "crossref_type": "report",
+          "publisher": "Iowa State University, Digital Repository"
+        }
+      },
+      {
+        "title": "Index",
+        "source": "crossref",
+        "url": "https://doi.org/10.1533/9781845690380.index",
+        "doi": "10.1533/9781845690380.index",
+        "year": 2004,
+        "authors": [],
+        "venue": "Clothing Appearance and Fit",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "book-chapter",
+        "identifier": "10.1533/9781845690380.index",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Subjective assessment of clothing appearance",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/9781439823446.ch2",
+        "doi": "10.1201/9781439823446.ch2",
+        "year": 2004,
+        "authors": [],
+        "venue": "Clothing appearance and fit",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/9781439823446.ch2",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      }
+    ]
+  },
+  "count": 50,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:11:07.853936+00:00"
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "claim": "A estruturação sistematizada de dados técnicos para a produção de fichas técnicas é um requisito metodológico para traduzir referências de criação de moda em especificações reprodutíveis na produção de vestuário.",
+    "stance": "supports",
+    "stance_target": "Importância da ficha técnica na comunicação entre desenvolvimento de produto e chão de fábrica na confecção",
+    "evidence_type": "theoretical",
+    "scope_conditions": "Ensino e prática de Design de Moda e Produção de Vestuário (2023)",
+    "quoted_support": "Coleta de dados para produção de fichas técnicas para o Design de Moda. Palabras clave: Design de Moda ; Metodologia ; Dados técnicos ; Produção de vestuário.",
+    "numbers": [],
+    "entities": ["Universidad de Palermo", "Actas de Diseño"],
+    "time_period": "2023",
+    "region": "Brasil / América Latina",
+    "confidence": "medium",
+    "source_note_id": "coleta-de-dados-para-produção-de-fichas-técnicas-para-o-design-de-moda-actas-de"
+  }
+]

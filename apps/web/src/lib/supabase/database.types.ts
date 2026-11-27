@@ -267,6 +267,12 @@ type ProductRow = {
   due_on: string | null;
   /** Foto enviada pela equipe, bucket privado `produtos` (`<org>/<produto>/<nome>`). */
   photo_path: string | null;
+  /** Custo de costura/facção por peça, em centavos. */
+  sewing_cents: number | null;
+  /** Custo de lavanderia/beneficiamento por peça, em centavos. */
+  laundry_cents: number | null;
+  /** Perda operacional/corte sobre o tecido (0 a 50%). */
+  waste_pct: number | null;
 } & Timestamps;
 type ApiKeyRow = {
   id: string;
@@ -375,6 +381,12 @@ type FabricRow = {
   weight_gsm: number | null;
   /** centavos por metro linear */
   price_cents: number | null;
+  /** centavos por quilo (malharia) */
+  price_per_kg_cents: number | null;
+  /** encolhimento no urdume/comprimento (%) */
+  shrinkage_warp_pct: number | null;
+  /** encolhimento na trama/largura (%) */
+  shrinkage_weft_pct: number | null;
   preset: FabricPreset | null;
 } & FabricProvaColumns &
   Timestamps;
@@ -592,6 +604,9 @@ export type Database = {
           pattern_id?: string | null;
           fabric_id?: string | null;
           due_on?: string | null;
+          sewing_cents?: number | null;
+          laundry_cents?: number | null;
+          waste_pct?: number | null;
         };
         Update: {
           due_on?: string | null;
@@ -605,6 +620,9 @@ export type Database = {
           fabric_id?: string | null;
           sales_description?: string | null;
           technical_description?: string | null;
+          sewing_cents?: number | null;
+          laundry_cents?: number | null;
+          waste_pct?: number | null;
         };
         Relationships: [
           Fk<"products_org_id_fkey", "org_id", "orgs">,
@@ -780,6 +798,9 @@ export type Database = {
           width_mm?: number | null;
           weight_gsm?: number | null;
           price_cents?: number | null;
+          price_per_kg_cents?: number | null;
+          shrinkage_warp_pct?: number | null;
+          shrinkage_weft_pct?: number | null;
           preset?: FabricPreset | null;
         } & Partial<FabricProvaColumns>;
         Update: {
@@ -788,6 +809,9 @@ export type Database = {
           width_mm?: number | null;
           weight_gsm?: number | null;
           price_cents?: number | null;
+          price_per_kg_cents?: number | null;
+          shrinkage_warp_pct?: number | null;
+          shrinkage_weft_pct?: number | null;
           preset?: FabricPreset | null;
         } & Partial<FabricProvaColumns>;
         Relationships: [Fk<"fabrics_org_id_fkey", "org_id", "orgs">];
@@ -889,7 +913,7 @@ export type Database = {
       };
       org_team: {
         Args: { p_org_id: string };
-        Returns: { user_id: string; email: string; role: OrgRole; joined_at: string }[];
+        Returns: { user_id: string; email: string; role: OrgRole; joined_at: string; first_name: string | null; last_name: string | null }[];
       };
       save_pattern_version: {
         Args: {

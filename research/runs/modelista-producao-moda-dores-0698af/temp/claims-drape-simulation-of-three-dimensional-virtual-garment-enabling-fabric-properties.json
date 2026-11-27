@@ -1,0 +1,16 @@
+[
+  {
+    "claim": "Physical fabric properties measured via the FAST system—specifically bending, thickness, weight, stretch, and shear—directly alter the drape stiffness, silhouette, and fit of 3D virtual garments simulated on virtual avatars.",
+    "stance": "supports",
+    "stance_target": "necessity of inputting accurate physical fabric parameters (bend, thickness, weight, stretch, shear) into 3D CAD to avoid distorted virtual fit and silhouette",
+    "evidence_type": "empirical",
+    "scope_conditions": "3D virtual garment simulation comparing charmeuse (#F1), stretch-modified charmeuse (#F1-S), and gabardine (#F2) measured via FAST",
+    "quoted_support": "This study measures the properties of real fabrics that include a charmeuse (#F1) and gabardine (#F2) using the Fabric Analysis by Simple Testing system; in addition, the material properties of different real fabrics were applied to that of the virtual fabric. The results show that the fabric properties including bend, thickness, weight, stretch, shear values affect the drape stiffness, silhouette, and fit of the virtual garment simulated on virtual avatars and may be used for the realistic virtual garment technology.",
+    "numbers": ["#F1", "#F2", "#F1-S"],
+    "entities": ["Hosun Lim", "Cynthia L. Istook", "Konkuk University", "North Carolina State University", "FAST"],
+    "time_period": "2011",
+    "region": "South Korea / USA",
+    "confidence": "high",
+    "source_note_id": "drape-simulation-of-three-dimensional-virtual-garment-enabling-fabric-properties"
+  }
+]

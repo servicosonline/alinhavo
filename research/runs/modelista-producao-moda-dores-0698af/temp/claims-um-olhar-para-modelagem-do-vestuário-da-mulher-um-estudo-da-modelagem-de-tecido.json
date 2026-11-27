@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "A prática industrial de graduação linear (ampliar proporcionalmente moldes base desenvolvidos para os manequins 38 ou 40) ignora a dinâmica morfológica do corpo gordo (deslocamento de volumes, variação de curvatura dorsal, aumento de circunferências abdominais, flacidez e alterações posturais), gerando peças com ajuste inadequado, desconforto e distorção do caimento.",
+    "stance": "supports",
+    "stance_target": "Falha estrutural da graduação linear a partir do manequim 38/40 quando estendida para grades plus size (46 ao 56+)",
+    "evidence_type": "empirical",
+    "scope_conditions": "Modelagem industrial do vestuário feminino brasileiro em tecido plano",
+    "quoted_support": "Esses métodos frequentemente ampliam de forma proporcional as medidas de moldes desenvolvidos para manequins do tamanho 38 ou 40, desconsiderando que corpos gordos apresentam outras dinâmicas morfológicas, como deslocamentos de volume, variação de curvatura dorsal, aumento de circunferências abdominais, flacidez e alterações posturais. Essa prática, conhecida como graduação linear, ignora aspectos fundamentais da ergonomia do corpo gordo, resultando em peças com ajuste inadequado, desconforto e distorção do caimento.",
+    "numbers": ["tamanhos 38 ou 40"],
+    "entities": ["Aparecida de Fátima Cardoso", "EACH-USP", "ABNT NBR 16933:2021"],
+    "time_period": "2025-2026",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "um-olhar-para-modelagem-do-vestuário-da-mulher-um-estudo-da-modelagem-de-tecido"
+  },
+  {
+    "claim": "A comparação das medidas corporais reais de mulheres com sobrepeso frente à norma ABNT NBR 16933:2021 revela discrepâncias antropométricas significativas que exigem adaptações estruturais nas bases de blusas e calças de tecido plano.",
+    "stance": "supports",
+    "stance_target": "Inadequação das tabelas padronizadas (ABNT NBR 16933:2021) frente aos corpos reais de mulheres brasileiras com sobrepeso",
+    "evidence_type": "empirical",
+    "scope_conditions": "Mulheres brasileiras com sobrepeso e modelagem de tecido plano",
+    "quoted_support": "A pesquisa comparou medidas reais de mulheres com sobrepeso com os referenciais estabelecidos pela norma ABNT NBR 16933:2021, identificando diferenças significativas, especialmente nas medidas antropométricas. Com base nas diferenças encontradas em relação à norma, foram analisadas bases de modelagem para blusas e calças, adaptando-as por meio de ajustes técnicos.",
+    "numbers": [],
+    "entities": ["Aparecida de Fátima Cardoso", "EACH-USP", "ABNT NBR 16933:2021"],
+    "time_period": "2025-2026",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "um-olhar-para-modelagem-do-vestuário-da-mulher-um-estudo-da-modelagem-de-tecido"
+  },
+  {
+    "claim": "A falta de acurácia dimensional das publicações e métodos tradicionais de modelagem aplicados a corpos gordos resulta em ajustes recorrentes na pilotagem e aumento do desperdício de materiais nos processos produtivos.",
+    "stance": "supports",
+    "stance_target": "Impacto produtivo (retrabalho e desperdício de tecido) da ausência de blocos base específicos para o segmento plus size",
+    "evidence_type": "empirical",
+    "scope_conditions": "Indústria brasileira de confecção de vestuário feminino",
+    "quoted_support": "Essa defasagem compromete a acurácia dimensional das peças, resultando em ajustes recorrentes, aumento de desperdício e insatisfação por parte das consumidoras.",
+    "numbers": [],
+    "entities": ["Aparecida de Fátima Cardoso", "EACH-USP"],
+    "time_period": "2025-2026",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "um-olhar-para-modelagem-do-vestuário-da-mulher-um-estudo-da-modelagem-de-tecido"
+  }
+]

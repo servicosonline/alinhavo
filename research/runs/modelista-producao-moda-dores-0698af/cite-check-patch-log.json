@@ -1,0 +1,163 @@
+{
+  "total_findings": 31,
+  "applied": [
+    {
+      "id": "dangling-1",
+      "severity": "critical",
+      "action": "Fixed truncated wikilink [[design-workflow-for-virtual-design-of-clothing-for-pregnant-women-communications]]"
+    },
+    {
+      "id": "dangling-2",
+      "severity": "critical",
+      "action": "Fixed truncated wikilink [[análise-de-conteúdo-sobre-a-qualidade-ergonômica]]"
+    },
+    {
+      "id": "cc-1",
+      "severity": "major",
+      "action": "swap citation"
+    },
+    {
+      "id": "cc-2",
+      "severity": "major",
+      "action": "soften claim to what the source supports"
+    },
+    {
+      "id": "cc-3",
+      "severity": "critical",
+      "action": "swap citation"
+    },
+    {
+      "id": "cc-4",
+      "severity": "critical",
+      "action": "soften claim to what the source supports"
+    },
+    {
+      "id": "cc-5",
+      "severity": "major",
+      "action": "soften claim to what the source supports"
+    },
+    {
+      "id": "cc-6",
+      "severity": "major",
+      "action": "soften claim to what the source supports"
+    },
+    {
+      "id": "cc-7",
+      "severity": "major",
+      "action": "soften claim to what the source supports"
+    },
+    {
+      "id": "cc-8",
+      "severity": "critical",
+      "action": "swap citation"
+    },
+    {
+      "id": "cc-9",
+      "severity": "major",
+      "action": "soften claim to what the source supports"
+    },
+    {
+      "id": "cc-10",
+      "severity": "critical",
+      "action": "swap citation"
+    },
+    {
+      "id": "cc-11",
+      "severity": "major",
+      "action": "soften claim to what the source supports"
+    },
+    {
+      "id": "cc-12",
+      "severity": "major",
+      "action": "swap citation"
+    },
+    {
+      "id": "cc-13",
+      "severity": "major",
+      "action": "soften claim to what the source supports"
+    },
+    {
+      "id": "cc-14",
+      "severity": "major",
+      "action": "soften claim to what the source supports"
+    },
+    {
+      "id": "cc-15",
+      "severity": "major",
+      "action": "soften claim to what the source supports"
+    },
+    {
+      "id": "cc-16",
+      "severity": "major",
+      "action": "soften claim to what the source supports"
+    },
+    {
+      "id": "cc-17",
+      "severity": "major",
+      "action": "swap citation"
+    },
+    {
+      "id": "cc-18",
+      "severity": "critical",
+      "action": "swap citation"
+    },
+    {
+      "id": "cc-19",
+      "severity": "critical",
+      "action": "swap citation"
+    },
+    {
+      "id": "cc-20",
+      "severity": "major",
+      "action": "soften claim to what the source supports"
+    },
+    {
+      "id": "cc-21",
+      "severity": "critical",
+      "action": "soften claim to what the source supports"
+    },
+    {
+      "id": "cc-22",
+      "severity": "critical",
+      "action": "soften claim to what the source supports"
+    },
+    {
+      "id": "cc-23",
+      "severity": "critical",
+      "action": "swap citation"
+    },
+    {
+      "id": "cc-24",
+      "severity": "critical",
+      "action": "soften claim to what the source supports"
+    },
+    {
+      "id": "cc-25",
+      "severity": "critical",
+      "action": "soften claim to what the source supports"
+    },
+    {
+      "id": "cc-26",
+      "severity": "critical",
+      "action": "soften claim to what the source supports"
+    },
+    {
+      "id": "cc-27",
+      "severity": "critical",
+      "action": "soften claim to what the source supports"
+    },
+    {
+      "id": "cc-28",
+      "severity": "major",
+      "action": "soften claim to what the source supports"
+    },
+    {
+      "id": "cc-29",
+      "severity": "critical",
+      "action": "soften claim to what the source supports"
+    }
+  ],
+  "skipped": [],
+  "conflicts": [],
+  "orchestrator_escalated": []
+}

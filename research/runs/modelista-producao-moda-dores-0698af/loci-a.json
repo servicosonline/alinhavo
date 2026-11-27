@@ -1,0 +1,192 @@
+{
+  "analyst_id": "a",
+  "loci": [
+    {
+      "name": "comunicacao-criacao-modelagem-desenho-e-ficha-tecnica",
+      "flavor": "dialectical",
+      "one_line": "As falhas de tradução e o retrabalho entre estilo e modelagem decorrem principalmente da precariedade dos desenhos técnicos/fichas enviados pelos estilistas ou de lacunas na formação técnica e metodológica das modelistas?",
+      "rationale": "O corpus apresenta uma tensão direta sobre a principal dor na interface criação-modelagem, mas várias notas brasileiras no vault (`o-desenho-técnico-do-vestuário-sob-a-ótica-do-modelista-projetica`, `desenho-técnico-de-moda-e-suas-funções-na-confecção-do-vestuário-revista-da-meta`, `a-formação-e-o-trabalho-dos-modelistas-nas-empresas-do-vestuário-do-estado-de-sa`, `análise-da-formação-dos-profissionais-do-setor-de-modelagem-do-vestuário-da-regi`) capturaram apenas o resumo da página OJS (sem o PDF integral), deixando de quantificar exatamente quais omissões gráficas, cotas faltantes e conflitos de ficha técnica mais geram retrabalho na pilotagem.",
+      "corpus_evidence": [
+        "o-desenho-técnico-do-vestuário-sob-a-ótica-do-modelista-projetica",
+        "desenho-técnico-de-moda-e-suas-funções-na-confecção-do-vestuário-revista-da-meta",
+        "delimitação-do-usuário-nas-etapas-de-criação-modelagem-e-prototipagem-do-produto",
+        "a-formação-e-o-trabalho-dos-modelistas-nas-empresas-do-vestuário-do-estado-de-sa",
+        "análise-da-formação-dos-profissionais-do-setor-de-modelagem-do-vestuário-da-regi",
+        "universidade-de-são-paulo-7"
+      ],
+      "opposing_positions": [
+        {
+          "position": "A maior fonte de erro, atraso e retrabalho na modelagem e pilotagem decorre de desenhos técnicos incompletos, desproporcionais, sem vistas posteriores/internas, sem indicação de recortes, pespontos ou comportamento físico do tecido entregues pelos estilistas/designers.",
+          "sources": [
+            "o-desenho-técnico-do-vestuário-sob-a-ótica-do-modelista-projetica",
+            "desenho-técnico-de-moda-e-suas-funções-na-confecção-do-vestuário-revista-da-meta",
+            "delimitação-do-usuário-nas-etapas-de-criação-modelagem-e-prototipagem-do-produto"
+          ]
+        },
+        {
+          "position": "Grande parte dos profissionais de modelagem no Brasil formou-se empiricamente no chão de fábrica (ex-costureiras e cortadores) ou em cursos curtos, apresentando lacunas em metodologia projetual, leitura de desenho técnico sistematizado e domínio avançado de sistemas CAD, o que agrava os ruídos de comunicação com o setor de criação.",
+          "sources": [
+            "a-formação-e-o-trabalho-dos-modelistas-nas-empresas-do-vestuário-do-estado-de-sa",
+            "análise-da-formação-dos-profissionais-do-setor-de-modelagem-do-vestuário-da-regi",
+            "universidade-de-são-paulo-7",
+            "o-ensino-e-aprendizagem-da-modelagem-do-vestuário-uma-revisão-sistemática-de-lit"
+          ]
+        }
+      ],
+      "suggested_starting_urls": [
+        "https://ojs.uel.br/revistas/uel/index.php/projetica/article/view/8787",
+        "https://ojs.uel.br/revistas/uel/index.php/projetica/article/view/7737",
+        "https://periodicos.udesc.br/index.php/modapalavra/article/view/7686",
+        "https://periodicos.cefetmg.br/index.php/revistadameta/article/view/848"
+      ],
+      "suggested_searches": [
+        "\"desenho técnico\" \"modelista\" falhas comunicação estilista ficha técnica pdf",
+        "\"Celso Tetsuro Suono\" \"desenho técnico do vestuário sob a ótica do modelista\" pdf",
+        "\"Icléia Silveira\" \"A formação e o trabalho dos modelistas\" pdf",
+        "\"ficha técnica\" vestuário erros retrabalho modelagem pilotagem confecção"
+      ]
+    },
+    {
+      "name": "prototipagem-virtual-3d-vs-peca-piloto-fisica",
+      "flavor": "dialectical",
+      "one_line": "Até que ponto a simulação e prototipagem virtual 3D (CLO 3D, Optitex, Lectra Modaris 3D, Audaces 3D) elimina a dor de múltiplas peças-piloto físicas e retrabalho da modelista versus introduz novas dores técnicas de calibração de tecido e distorção de caimento?",
+      "rationale": "Enquanto `tekstilna-industrija-broj-4-2021` e `utilização-das-ferramentas-da-indústria-40-para-a-prototipagem-no-setor-de-vestu` sustentam que o CAD 3D reduz drasticamente o tempo e o custo de prototipagem física, os estudos empíricos de `istanbul-technical-university-graduate-school-of-science`, `comparative-study-of-real-and-virtual-garments-appearance-and-distance-ease-mate` e `apparel-fit-language-suited-to-3d-body-processing-ecosystems` demonstram discrepâncias severas de folga (até 29,9% no busto e 47,3% na cintura por rugas), travas de software para espessura de tecido (<0,5 mm em Optitex), incapacidade de refletir rigidez à flexão extrema e distorções de 120% na postura sentada. Além disso, `utilização-das-ferramentas-da-indústria-40-para-a-prototipagem-no-setor-de-vestu` está apenas com o resumo no vault e referencia a dissertação integral da UNESP (Pires) que precisa ser lida para o contexto brasileiro.",
+      "corpus_evidence": [
+        "istanbul-technical-university-graduate-school-of-science",
+        "comparative-study-of-real-and-virtual-garments-appearance-and-distance-ease-mate",
+        "tekstilna-industrija-broj-4-2021",
+        "utilização-das-ferramentas-da-indústria-40-para-a-prototipagem-no-setor-de-vestu",
+        "drape-simulation-of-three-dimensional-virtual-garment-enabling-fabric-properties",
+        "apparel-fit-language-suited-to-3d-body-processing-ecosystems"
+      ],
+      "opposing_positions": [
+        {
+          "position": "A simulação virtual 3D reduz substancialmente o tempo de desenvolvimento de amostras e o custo de iterações físicas, permitindo que a modelista identifique e corrija problemas preliminares de comprimento, largura, tensão e alinhamento de costuras em tempo real antes do corte do tecido.",
+          "sources": [
+            "tekstilna-industrija-broj-4-2021",
+            "utilização-das-ferramentas-da-indústria-40-para-a-prototipagem-no-setor-de-vestu",
+            "innovation-in-cad-3d-simulation-and-virtual-prototyping-at-itma-2023-journal-of"
+          ]
+        },
+        {
+          "position": "A prototipagem 3D apresenta limitações críticas na tradução de propriedades físico-mecânicas reais dos tecidos (flexão, cisalhamento, espessura mínima travada em 0,5 mm, encolhimento pós-lavanderia), divergências de até 47,3% na folga da cintura e falha na modelagem para posturas dinâmicas/sentadas (120% de distorção), mantendo a peça-piloto física indispensável e exigindo trabalho extra de parametrização da modelista.",
+          "sources": [
+            "istanbul-technical-university-graduate-school-of-science",
+            "comparative-study-of-real-and-virtual-garments-appearance-and-distance-ease-mate",
+            "drape-simulation-of-three-dimensional-virtual-garment-enabling-fabric-properties",
+            "apparel-fit-language-suited-to-3d-body-processing-ecosystems"
+          ]
+        }
+      ],
+      "suggested_starting_urls": [
+        "https://repositorio.unesp.br/bitstream/handle/11449/132882/pires_ga_me_bauru_int.pdf?sequence=3&isAllowed=y",
+        "https://www.udesc.br/arquivos/ceart/id_cpmenu/3348/livro_teses_de_moda_icleia_silveira_15232959222134_3348.pdf"
+      ],
+      "suggested_searches": [
+        "\"prototipagem virtual\" \"peça piloto\" modelista vestuário limitações tecido",
+        "\"Audaces 3D\" OR \"CLO 3D\" modelagem vestuário dificuldades implantação confecção Brasil",
+        "virtual prototyping apparel patternmaker workload fabric parameters limitations"
+      ]
+    },
+    {
+      "name": "normalizacao-abnt-vs-gradacao-real-e-biotipos",
+      "flavor": "dialectical",
+      "one_line": "Por que as normas de medidas da ABNT (NBR 16933, NBR 16060, NBR 15800) não eliminaram a dor crônica da modelista na construção de bases e na gradação de tamanhos na indústria brasileira?",
+      "rationale": "Existe um choque direto no corpus entre a visão normativa de `referenciais-de-medidas-da-abnt-instrumento-para-a-normalização-do-produto-de-ve` e `comparação-ergonômica-e-antropométrica-das-tabelas-abnt-para-vestuário-feminino` (que tratam a ABNT e o estudo SizeBR como solução de padronização) e a realidade empírica documentada em `universidade-de-são-paulo-6` (Brandão, 2015) e nos artigos de ergonomia plus size/idosos (`a-importância-das-bases-de-modelagem-no-desenvolvimento-de-vestuário-plus-size-u`, `uma-reflexão-sobre-modelagem-e-ergonomia-considerando-a-forma-do-corpo-gordo-fem`, `ergonomia-do-vestuário-para-idosas-de-60-a-75-anos-ergodesign-hci`). Como os artigos sobre ABNT e plus size na UDESC/PUC-Rio estão apenas com resumos no vault, a investigação profunda precisa extrair os dados exatos de desvios antropométricos, quebras de grade e problemas de gradação cartesiana.",
+      "corpus_evidence": [
+        "referenciais-de-medidas-da-abnt-instrumento-para-a-normalização-do-produto-de-ve",
+        "comparação-ergonômica-e-antropométrica-das-tabelas-abnt-para-vestuário-feminino",
+        "universidade-de-são-paulo-6",
+        "a-importância-das-bases-de-modelagem-no-desenvolvimento-de-vestuário-plus-size-u",
+        "uma-reflexão-sobre-modelagem-e-ergonomia-considerando-a-forma-do-corpo-gordo-fem",
+        "a-relação-da-modelagem-do-vestuário-para-diferentes-biótipos-revista-eixos-tech",
+        "ergonomia-do-vestuário-para-idosas-de-60-a-75-anos-ergodesign-hci"
+      ],
+      "opposing_positions": [
+        {
+          "position": "Os referenciais normativos da ABNT (como a NBR 16933:2021 para o vestuário feminino, NBR 16060 para o masculino e NBR 15800 para o infantil, apoiados no levantamento antropométrico SizeBR) fornecem os parâmetros técnicos necessários para padronizar tabelas de medidas, orientar a construção de bases e guiar a gradação industrial.",
+          "sources": [
+            "referenciais-de-medidas-da-abnt-instrumento-para-a-normalização-do-produto-de-ve",
+            "comparação-ergonômica-e-antropométrica-das-tabelas-abnt-para-vestuário-feminino"
+          ]
+        },
+        {
+          "position": "Por não terem caráter compulsório e por aplicarem progressões lineares que falham diante da diversidade morfológica brasileira (biótipo colher, corpo gordo/plus size, idosos e variações regionais), as normas ABNT têm baixa adesão nas confecções, forçando a modelista a lidar com tabelas arbitrárias ('vanity sizing') e distorções graves ao graduar moldes a partir do tamanho-base 40/M.",
+          "sources": [
+            "universidade-de-são-paulo-6",
+            "a-importância-das-bases-de-modelagem-no-desenvolvimento-de-vestuário-plus-size-u",
+            "uma-reflexão-sobre-modelagem-e-ergonomia-considerando-a-forma-do-corpo-gordo-fem",
+            "a-relação-da-modelagem-do-vestuário-para-diferentes-biótipos-revista-eixos-tech",
+            "ergonomia-do-vestuário-para-idosas-de-60-a-75-anos-ergodesign-hci"
+          ]
+        }
+      ],
+      "suggested_starting_urls": [
+        "https://periodicos.udesc.br/index.php/modapalavra/article/view/8506",
+        "http://periodicos.puc-rio.br/index.php/revistaergodesign-hci/article/view/1651",
+        "http://periodicos.puc-rio.br/index.php/revistaergodesign-hci/article/view/1301",
+        "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/view/764"
+      ],
+      "suggested_searches": [
+        "\"NBR 16933\" modelagem vestuário gradação tabela de medidas dificuldades",
+        "\"gradação\" modelagem vestuário \"plus size\" distorção base molde pdf",
+        "\"Referenciais de Medidas da ABNT: Instrumento para a normalização\" pdf"
+      ]
+    },
+    {
+      "name": "ergonomia-fisica-cognitiva-e-condicoes-de-trabalho-da-modelista",
+      "flavor": "convergent",
+      "one_line": "Quais são as exigências ergonômicas (físicas, posturais, visuais e cognitivas), os riscos ocupacionais (LER/DORT) e as pressões de tempo/terceirização que afetam especificamente a modelista de mesa e a modelista de CAD no Brasil?",
+      "rationale": "A nota `ergonomia-física-as-exigências-presentes-na-atuação-de-modelista-do-vestuário-mo` (Planca, Merino & Merino, 2016, UFSC) aborda exatamente a ergonomia física da modelista no Vale do Itajaí/SC, mas o fetch da página OJS capturou apenas o resumo e as referências (1.577 palavras), sem os dados biomecânicos, posturais, mobiliário (altura de mesa de modelagem vs. estação CAD), ferramentas manuais e queixas álgicas do texto completo. De modo similar, `physis-revista-de-saúde-coletiva-rio-de-janeiro-v-301-e300106-2020` e `análise-da-qualidade-de-vida-no-trabalho-no-setor-de-costura-em-uma-indústria-de` focam mais na costura/facção do que na função específica da modelista.",
+      "corpus_evidence": [
+        "ergonomia-física-as-exigências-presentes-na-atuação-de-modelista-do-vestuário-mo",
+        "uma-análise-crítica-das-condições-de-trabalho-na-indústria-têxtil-desde-a-indu-2",
+        "physis-revista-de-saúde-coletiva-rio-de-janeiro-v-301-e300106-2020",
+        "a-formação-e-o-trabalho-dos-modelistas-nas-empresas-do-vestuário-do-estado-de-sa"
+      ],
+      "suggested_starting_urls": [
+        "https://periodicos.udesc.br/index.php/modapalavra/article/view/6881",
+        "http://201.2.114.147/bds/bds.nsf/9AFBA8F1EE63475983257457004FA761/$File/NT0003798A.pdf"
+      ],
+      "suggested_searches": [
+        "\"Ergonomia física: as exigências presentes na atuação de modelista do vestuário\" pdf",
+        "\"Sabrina Helena Planca\" modelista ergonomia vestuário pdf",
+        "ergonomia posto de trabalho \"modelista\" vestuário postura mesa CAD LER DORT",
+        "CBO 3188-10 7631-15 modelista de roupas atribuições condições de trabalho SENAI"
+      ]
+    },
+    {
+      "name": "interfaces-chao-de-fabrica-pilotagem-encaixe-corte-e-faccoes",
+      "flavor": "convergent",
+      "one_line": "Como funcionam na prática as tarefas e dores da modelista nas interfaces operacionais a jusante — pilotagem, encaixe/risco (aproveitamento têxtil vs. restrições de fio e largura), sala de corte, lavanderia (testes de encolhimento) e controle de qualidade em facções terceirizadas?",
+      "rationale": "As teses `universidade-de-são-paulo-8` (Marcelo, 2016), `marília-piccinini-da-carvalhinha` (Carvalhinha, 2008) e os artigos do ENEGEP (`xliv-encontro-nacional-de-engenharia-de-produção-3`, `xli-encontro-nacional-de-engenharia-de-produção`) apontam que os erros e gargalos de produção estouram no encaixe, no corte e na terceirização (facções), mas o corpus ainda carece de sistematização detalhada das dores técnicas da modelista com variações de largura de rolo, cálculo de encolhimento pós-lavanderia (especialmente em jeans e malharia), falta de piques/gabaritos para facções externas e cobrança contraditória por aproveitamento de tecido no risco.",
+      "corpus_evidence": [
+        "universidade-de-são-paulo-8",
+        "marília-piccinini-da-carvalhinha",
+        "xliv-encontro-nacional-de-engenharia-de-produção-3",
+        "xli-encontro-nacional-de-engenharia-de-produção",
+        "zero-waste-in-apparel-industry-limitations-and-alternatives-sustainability-in-de",
+        "universidade-federal-rural-de-pernambuco-ufrpe"
+      ],
+      "suggested_starting_urls": [
+        "https://bibliotecas.sebrae.com.br/chronus/ARQUIVOS_CHRONUS/bds/bds.nsf/b4a04ab45a138e42aec2a4762f18b5c8/$File/7585.pdf",
+        "https://wiki.ifsc.edu.br/mediawiki/images/temp/5/52/20080729221515!Apostila_CTQ_edi%C3%A7%C3%A3o_1.pdf"
+      ],
+      "suggested_searches": [
+        "\"peça piloto\" \"pilotista\" \"modelista\" retrabalho facção confecção vestuário",
+        "\"teste de encolhimento\" molde modelista lavanderia jeans malha tolerância",
+        "encaixe risco aproveitamento tecido modelista corte desperdício confecção SENAI"
+      ]
+    }
+  ],
+  "skip_loci": [
+    {
+      "slug": "modelagem-plana-vs-moulage-isoladamente",
+      "reason": "Rejeitado como locus isolado porque o próprio grafo de contradições (`modelagem-plana-cad-vs-moulage-tridimensional`) e as notas `universidade-de-são-paulo-7` (Beduschi, 2013, texto integral de 41 mil palavras no vault) e `modelagem-plana-x-modelagem-tridimensional-estudo-comparativo-em-artigos-de-malh` já demonstram consenso de que na indústria os métodos são complementares (moulage na concepção/formas complexas e modelagem plana/CAD para gradação e encaixe)."
+    },
+    {
+      "slug": "ensino-aprendizagem-pbl-universitario",
+      "reason": "Rejeitado por ser tangencial à query central do usuário: notas como `o-ensino-da-modelagem-do-vestuário-sob-as-diretrizes-do-método-pbl-revista-de-en` e `a-importância-da-extensão-no-ensino-no-curso-de-moda-um-relato-de-experiência-do` tratam de didática acadêmica para estudantes de graduação, e não das responsabilidades, tarefas e dores da modelista no processo produtivo industrial."
+    }
+  ]
+}

@@ -1,0 +1,877 @@
+{
+  "ok": true,
+  "data": {
+    "query": "gestao custos micro pequenas empresas confeccoes vestuario Simples Nacional",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 20,
+      "doab": 0
+    },
+    "raw_records": 40,
+    "merged_records": 40,
+    "returned": 40,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Determinantes da gestão de custos nas Micro e Pequenas Empresas",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/2764747111212022038",
+        "doi": "10.5965/2764747111212022038",
+        "year": 2022,
+        "authors": [
+          "Wênyka Preston Leite Batista da Costa",
+          "Ozeana Celestino de Lima",
+          "Sérgio Luiz Pedrosa Silva",
+          "Jandeson Dantas da Silva"
+        ],
+        "venue": "Revista Brasileira de Contabilidade e Gestão",
+        "abstract": "Objetivo(s): O objetivo desta pesquisa foi evidenciar os determinantes da gestão de custos nas micro e pequenas empresas (MPE) na cidade de Mossoró (RN). Método: As MPE são instituições imprescindíveis para a economia brasileira por sua representatividade em número de empresas e pela geração de emprego e renda. Para atingir o objetivo proposto, foi realizada uma pesquisa com abordagem quantitativa, com aplicação de um questionário aos gestores das MPE. Resultados: Os resultados evidenciaram que a gestão de custos oferece subsídios que auxiliam na tomada de decisão, sendo o controle e a avaliação de estoque, assim como o incremento da competitividade, os determinantes para a gestão de custos. Verificou-se que os participantes consideram relevantes as informações de controle de custos para o planejamento e a análise de desempenho da empresa. Constatou-se ainda que o nível de utilização da gestão de custos nesta pesquisa sobrepujou a média do Sebrae, que aponta que 60% das empresas não adotam tal medida, enquanto nesta pesquisa apenas 30% declararam não adotar o controle de custos. Contribuições: A pesquisa tem como contribuição mostrar a relevância dos fatores determinantes para as MPE realizarem uma gestão de custos eficaz, apontando um rol de práticas utilizadas nas empresas pesquisadas que pode servir de orientação para outras empresas em suas decisões. Tais resultados foram convergentes em alguns aspectos e divergentes em outros com relação a estudos empíricos pesquisados na literatura.",
+        "pdf_url": "https://www.periodicos.udesc.br/index.php/reavi/article/download/22073/14925",
+        "citation_count": 18,
+        "work_type": "article",
+        "identifier": "W4311871300",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "USO DE INDICADORES DE GESTÃO NO VAREJO DE VESTUÁRIO DAS MICRO E PEQUENAS EMPRESAS DO SERIDÓ/RN E OUTRAS REGIÕES",
+        "source": "openalex",
+        "url": "https://doi.org/10.20873/uftv1n123-13771",
+        "doi": "10.20873/uftv1n123-13771",
+        "year": 2023,
+        "authors": [
+          "Hyasnaia Luanna Barros de Oliveira Silva Lima",
+          "Napiê Galvê de Araújo Silva"
+        ],
+        "venue": "DESAFIOS Revista Interdisciplinar da Universidade Federal do Tocantins",
+        "abstract": "RESUMO O presente trabalho buscou discutir o uso de indicadores de gestão nas Micro e Pequenas Empresas (MPES) do comércio de vestuário do Seridó/RN e outras regiões que participaram do programa para desenvolvimento de inovação e produtividade, o Brasil Mais. Os resultados foram obtidos por meio de diagnóstico em dois momentos distintos, via questionário, um radar que exprime a maturidade da empresa em 6 dimensões aplicados em 11 empresas. Neste contexto, a pesquisa exploratória observacional reforça a relevância do uso de mecanismos para dar suporte à administração empresarial com foco em gestão estratégica para melhoria dos resultados e sustentabilidade dos negócios. Os proventos da pesquisa demonstraram um progresso no uso de indicadores de quando o primeiro radar foi aplicado, bem como aqueles dados que as empresas varejistas não tem se atentado para analisar. De forma conclusiva, apresenta que houve evolução positiva, bem como, que parte da amostra ainda possui lacunas no gerenciamento estratégico por indicadores. Palavras-chave: Indicadores. Inovação. Gestão.",
+        "pdf_url": "https://sistemas.uft.edu.br/periodicos/index.php/desafios/article/download/13771/21026",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4322603892",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "GESTÃO DE MARKETING NA PEQUENA EMPRESA DE CONFECÇÃO DE VESTUÁRIOS/MARKETING MANAGEMENT IN A SMALL COMPANY OF CLOTHING MANUFACTURING",
+        "source": "openalex",
+        "url": "https://doi.org/10.15210/reat.v11i6.11905",
+        "doi": "10.15210/reat.v11i6.11905",
+        "year": 2017,
+        "authors": [
+          "Jackson Cittadin",
+          "Aléssio Bessa Sarquis",
+          "João Coelho Soares",
+          "Eric David Cohen"
+        ],
+        "venue": "Revista Eletrônica de Administração e Turismo - ReAT",
+        "abstract": "A gestão de marketing tem papel relevante na pequena empresa de confecção de vestuários. Este estudo analisa como acontece a gestão de marketing na pequena empresa de confecção de vestuários da região AMREC, no Estado de Santa Catarina, Brasil. Trata-se de pesquisa exploratória, qualitativa e na forma de estudos de caso (múltiplos), com coleta de dados por meio de levantamento documental, entrevista em profundidade e observação direta. Os dados coletados foram analisados pela análise de conteúdo com categorização temática e uso do software Atlas TI. Os resultados contêm evidências relacionadas ao processo de planejamento de marketing, estratégias convencionais e contemporâneas utilizadas e processo de avaliação do desempenho de marketing. O estudo contribui para ampliar o conhecimento acadêmico sobre o tema, na medida em que permitiu coletar dados detalhados e evidências relacionadas à gestão de marketing na pequena empresa de confecção de vestuários e para a verificação de proposições teóricas e resultados de outros estudos.",
+        "pdf_url": "https://periodicos.ufpel.edu.br/ojs2/index.php/AT/article/download/11905/7953",
+        "citation_count": 6,
+        "work_type": "article",
+        "identifier": "W2776416323",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Planejamento estratégico : aplicação nas micros e pequenas empresas do comércio varejista de vestuário e calçados em Roraima",
+        "source": "openalex",
+        "url": "https://doi.org/10.26512/2011.12.tcc.3005",
+        "doi": "10.26512/2011.12.tcc.3005",
+        "year": 2011,
+        "authors": [
+          "José Leônidas Moreira Araújo"
+        ],
+        "venue": null,
+        "abstract": "O presente estudo teve como propósito identificar e avaliar a existência e a concepção do planejamento estratégico nas micros e pequenas empresas de comercio varejista de artigos de vestuários e calçados do Estado de Roraima. A pesquisa caracteriza-se como um estudo exploratório descritivo, com abordagem quanti-qualitativa, realizada nos principais municípios do estado e na capital Boa Vista-RR. Verificou-se que as empresas possuem algum tipo de planejamento, porém seja por falta de conhecimento, comprometimento ou interesse, não existe um processo formal de planejamento estratégico na maior parte das micros e pequenas empresas no estado de Roraima. Entretanto, por meio da aplicação da pesquisa de campo, comprovou-se que as micros e pequenas empresas do ramo de calçados e confecções de Roraima, com aberturas de firmas recentes, concebem e praticam um planejamento. Dessa forma, este trabalho apresenta um estudo sobre a importância de planejar estrategicamente nesses pequenos empreendimentos para o uso eficiente de recursos e para o estabelecimento de estratégias voltadas para o crescimento e a permanência (sobrevivência) dessas empresas no Estado.",
+        "pdf_url": "https://bdm.unb.br/bitstream/10483/3005/1/2011_JoseLeonidasMoreiraAraujo.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7167888014",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "O IMPACTO DA SAZONALIDADE NA GESTÃO DE ESTOQUES DE UMA EMPRESA DE CONFECÇÕES EM ITAMARAJU–BA",
+        "source": "openalex",
+        "url": "https://doi.org/10.51891/rease.v11i11.22126",
+        "doi": "10.51891/rease.v11i11.22126",
+        "year": 2025,
+        "authors": [
+          "Kauane Vieira dos Santos",
+          "Gustavo Souza de Melo",
+          "Emauel Vieira Pinto"
+        ],
+        "venue": "Revista Ibero-Americana de Humanidades, Ciências e Educação",
+        "abstract": "A gestão de estoques representa um desafio crítico para a sustentabilidade de microempresas (MPEs) do setor de confecções, especialmente quando confrontadas com flutuações de demanda culturalmente enraizadas. Este artigo investiga o impacto da sazonalidade, especificamente o período das festas juninas, nas práticas de gestão de uma MPE de confecções em Itamaraju, Bahia. O objetivo central foi compreender como a empresa articula suas estratégias de estoque diante dessa demanda atípica e quais os desafios operacionais decorrentes. A pesquisa utilizou uma abordagem qualitativa, configurada como um estudo de caso único. Os dados foram coletados por meio de análise documental e de uma entrevista semiestruturada aprofundada com a gestora do negócio. Os resultados revelam uma gestão predominantemente visual e reativa, fortemente dependente da experiência da gestora, mas carente de sistemas formais de controle. Constatou-se que o receio de obsolescência póssazonalidade leva a compras conservadoras, que, paradoxalmente, resultam em custos de ruptura de estoque nos momentos de pico. Conclui-se que a ausência de ferramentas simples de previsão e planejamento, adaptadas à realidade da MPE, limita a eficiência operacional, destacando a lacuna entre as práticas intuitivas de gestão e a otimização de recursos no varejo local.",
+        "pdf_url": "https://periodicorease.pro.br/rease/article/download/22126/13736",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4416253968",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Gestão da Inovação em Micro e Pequenas Empresas Goianienses atendidas no programa Brasil Mais",
+        "source": "openalex",
+        "url": "https://doi.org/10.22279/navus.v16.1825",
+        "doi": "10.22279/navus.v16.1825",
+        "year": 2025,
+        "authors": [
+          "Melissa Bitencourt Santos",
+          "Rodrigo Franklin Frogeri"
+        ],
+        "venue": "Navus - Revista de Gestão e Tecnologia",
+        "abstract": "A gestão da inovação na Administração Pública ganhou espaço a partir da Lei Federal n°10.973/2004. No ano de 2020, com o Decreto n° 10.246/2020, foi criado o Programa Brasil Mais (B+) - uma política pública coordenada pela Secretaria de Produtividade, Emprego e Competitividade do Ministério da Economia e executado, nas Micro e Pequenas Empresas (MPEs), pelo Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (SEBRAE). O B+ objetiva tornar as MPEs brasileiras mais produtivas e competitivas por meio de práticas inovadoras. Destarte, o objetivo principal dessa pesquisa é analisar a influência de práticas inovadoras na produtividade de MPEs a partir da política pública Programa Brasil Mais (B+). Metodologicamente, o estudo se caracterizou como de abordagem qualitativa e quantitativa. Análises quantitativas (análise descritiva e análise de correlação) e qualitativas (análise lexical) foram aplicadas a dados de 306 MPEs atendidas pelo Programa Brasil Mais na cidade de Goiânia, GO. Os resultados sugerem que soluções inovadoras promovem melhorias na produtividade das MPEs independentemente do porte, do setor e do segmento da empresa, mesmo havendo diferenças na variação de inovação entre os segmentos.",
+        "pdf_url": "https://navus.sc.senac.br/navus/article/download/1825/1260",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4413212908",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "GESTÃO DE RECURSOS HUMANOS EM MICRO E PEQUENAS EMPRESAS: UM ENFOQUE DE GESTÃO AMBIENTAL E RESPONSABILIDADE SOCIAL PARA SEU CRESCIMENTO",
+        "source": "openalex",
+        "url": "https://www.cc.faccamp.br/ojs-2.4.8-2/index.php/RMPE/article/view/13",
+        "doi": "10.6034/13",
+        "year": 2007,
+        "authors": [
+          "Hamilton Pozo",
+          "Takeshy Tachizawa"
+        ],
+        "venue": "Revista da Micro e Pequena Empresa",
+        "abstract": "O trabalho fundamenta-se em uma pesquisa empírica abrangendo as atividades econômicas do universo das micro e pequenas empresas da região de Jundiaí, região centro sul do estado de São Paulo, relacionando-as com seus efeitos socioambientais. Foi desenvolvido um modelo de diagnóstico socioambiental para classificar os diferentes tipos de organizações da região paulista. Foram envolvidas, na pesquisa, empresas do setor industrial, comercial e de serviços. A proposta da pesquisa foi levantar dados das empresas com relação às práticas de gestão ambiental e responsabilidade social em quatro dimensões: voluntariado, meio ambiente, público interno e a comunidade externa (fornecedores, clientes e sociedade). Os resultados indicam a necessidade de significantes mudanças na gestão dos negócios das micro e pequenas empresas que, apoiadas por novos padrões de sustentabilidade, irão nortear ações direcionadas ao desenvolvimento socioambiental, convergente com o seu crescimento econômico.",
+        "pdf_url": "https://www.cc.faccamp.br/ojs-2.4.8-2/index.php/RMPE/article/download/13/12",
+        "citation_count": 12,
+        "work_type": "article",
+        "identifier": "W1543326653",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Micro e pequenas empresas em arranjos produtivos locais: um estudo de caso do segmento de confecções de bonés em Apucarana/ PR",
+        "source": "openalex",
+        "url": "https://doi.org/10.5380/re.v36i1.22995",
+        "doi": "10.5380/re.v36i1.22995",
+        "year": 2010,
+        "authors": [
+          "Stefânia Q. M. B. Teixeira",
+          "Jucélio Kretzer"
+        ],
+        "venue": "Revista de Economia",
+        "abstract": "Este trabalho tem com objetivo analisar o comportamento de micro epequenas empresas (MPEs) no arranjo produtivo de confecções de bonés em Apucarana/PR. Baseado na literatura sobre Arranjos Produtivos Locais (APL), este estudobusca salientar os fatores que contribuíram para a consolidação da competitividadelocal, que extrapolam a proximidade geográfica. Para tanto, parte-se da análise daconfiguração do referido arranjo produtivo, destacando os aspectos que norteiam odesenvolvimento de capacidades tecnológicas e o ambiente competitivo, no qual oarranjo está inserido. Neste sentido, notou-se que o arranjo se desenvolveu a partirda iniciativa privada com pouca participação de atores públicos. O associativismofoi uma característica marcante no arranjo, na medida em que se relacionou coma busca de solução de problemas comuns e tem sido responsável pelo aumento de qualidade e criação de marcas próprias.",
+        "pdf_url": "https://revistas.ufpr.br/economia/article/download/22995/15111",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2040664623",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Desenvolvimento de um modelo lógico para a consolidação das ações de cooperação entre micro e pequenas empresas em arranjo produtivo local no segmento de confecções",
+        "source": "openalex",
+        "url": "https://doi.org/10.15675/gepros.v32i4.1010",
+        "doi": "10.15675/gepros.v32i4.1010",
+        "year": 2014,
+        "authors": [
+          "Márcio Coutinho de Souza",
+          "Fernando Celso de Campos"
+        ],
+        "venue": "GEPROS. Gestão da Produção, Operações e Sistemas",
+        "abstract": "A pesquisa tem como objetivo elaborar um modelo lógico para consolidação de ações de coopera-ção entre micro e pequenas empresas de confecções, atuantes em arranjo produtivo local. Realiza uma pesquisa de natureza aplicada, com objetivos exploratórios, sendo utilizados fragmentos da pesquisa bibliográfica para o desenvolvimento de um modelo lógico. Para a avaliação do modelo é aplicado um questionário de pesquisa em um APL de confecções em Vila Velha – ES. A concepção do modelo é descrita em 4 fases: ações de estruturação para cooperação; ações para cooperações operacionais entre micro e pequenas empresas de confecções; ações cooperativas para o crescimen-to do arranjo produtivo local; e, ações cooperativas de aprendizagem. Identifica que as ações de cooperação devem levar em consideração o grau de maturidade do APL e algumas particularidades das empresas. Ademais, os limites das ações de cooperação ultrapassam o interior das MPE e de-vem ser pensadas como ações envolvendo diversos tipos de organizações.Palavras-chave: Micro Empresas. Pequenas Empresas. Arranjo Produtivo Local. Cooperação.",
+        "pdf_url": "https://revista.feb.unesp.br/gepros/article/download/1010/516",
+        "citation_count": 8,
+        "work_type": "article",
+        "identifier": "W1544509875",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "IMPASSES E CONTRASTES NA MODERNIZAÇÃO DAS EMPRESAS DO SETOR DE CONFECÇÕES",
+        "source": "openalex",
+        "url": "https://revistas.ucpel.edu.br/rsd/article/view/524",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Antônia de Lourdes Colbari"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Este ensaio está estruturado em duas partes: a primeira destaca aspectos gerais da indústria do vestuário, alinha um conjunto de informações relativas ao setor no estado do Espírito Santo, com ênfase no município de Vila Velha, e a partir destas referências situa os esforços de modernização empresarial nas unidades de confecção; e a segunda está centrada nas particularidades da qualificação profissional nesse segmento industrial.",
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W1727442823",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A administração do capital de giro em pequenas e médias empresas do setor de confecções do Estado de Goiás",
+        "source": "openalex",
+        "url": "https://repositorio.ufsc.br/handle/123456789/106552",
+        "doi": null,
+        "year": 2003,
+        "authors": [
+          "Ivelcy Rocha Caciquinho Pinheiro"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "Este trabalho apresenta um levantamento dos principais problemas na administração do capital de giro em micro, pequenas e médias empresas do setor de confecções, no Estado de Goiás, e propostas para contornar os problemas enfrentados. Realizaram-se entrevistas, abordando os aspectos de controle gerencial, de produção e financeiro. Foram entrevistadas quatro empresas e, em uma delas, elaborou-se uma pesquisa-ação. A pesquisa contou, também, com entrevista de uma consultora do setor de confecções e do diretor da Associação Goiana das Indústrias de Confecções (Agicon). Conclui-se pela necessidade de controles adequados, reforma tributária para o setor de confecções, capacitação dos gestores, incentivo para modernização tecnológica, união dos empresários, visando fortalecimento nas negociações, e maior atuação dos órgão de classe.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W1945121858",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Gestão de marcas no mercado externo: um estudo das empresas paulistas produtoras de alimentos, calçados e confecções para exportação",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.12.2004.tde-10052007-171113",
+        "doi": "10.11606/d.12.2004.tde-10052007-171113",
+        "year": 2004,
+        "authors": [
+          "Angela Cristina Marqui"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "The main purpose of this study is to evaluate brands value in São Paulo states companies that manufacture food, shoes and clothing for foreign trade. The author researches brand management models available and select four of them. The four selected models are the logical brand management model, the brand asset management model, building brand equity model and the consumer based brand equity model, that are used as base for the development of a questionary that allows the measurement of the companies brands value in the foreign market. During the empirical research, this questionary was answered by an amount of 125 companies located in the state of São Paulo and that have exported between the years of 2001 and 2003. The results show that the researched companies brand value can be considered positive. However all segments researched have been evaluated with positive brand value, the brand value has changed from one segment to other and among companies of different sizes, but a direct relation between company size and brand value couldnt be observed.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/12/12139/tde-10052007-171113/publico/GESTAO_DE_MARCAS_PARA_O_MERCADO_EXTERNO.pdf",
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W1543123107",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "O setor do vestuário: uma análise sobre as possibilidades estratégicas das empresas do vestuário no Brasil.",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.3.2007.tde-28032008-173655",
+        "doi": "10.11606/d.3.2007.tde-28032008-173655",
+        "year": 2007,
+        "authors": [
+          "Marília Piccinini da Carvalhinha"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This work presents a picture of the clothing business in Brazil, analyzing the industryretail chain and the firms strategic possibilities. It was studied the distribution of activities behind different enterprises, recognizing the value sources for each type of business. The information basis raised for this analysis includes an overview of this sector, a description of the manufacture and product development activities, and the chain configuration by other authors point of view. Forward, it was researched six case studies of small or medium enterprises that operate connecting manufacture to retail activities. This cases were source of information about their insertion in this market and their suppliers and customers insertion. The data extracted were connected to the information available on other sources, as empirical evidences of this market and published articles. The result was a frame of insertion shapes on the market, visible to this study, classified by three dimensions: chain position, brand presence or absence, and design capability. Then, it was possible to analyze the dynamic of the cases course, the value source by the view of the agents on the firms, and the basis to make decision along their path. This view brought the evaluation of trends possibilities for the clothing sector, following the forces that seem to act, in the direction of the specialization of the business in certain roles on the chain, and bring some hypothesis about the evolution of the current configuration of this sector in Brazil.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/3/3136/tde-28032008-173655/publico/CARVALHINHA_MARILIA_PICCININI_O_Setor_do_Vestuario_rev01.pdf",
+        "citation_count": 9,
+        "work_type": "thesis",
+        "identifier": "W1922116853",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "PERCEPÇÃO DO ASPECTO AMBIENTAL DA GESTÃO DAS MICRO E PEQUENAS EMPRESAS DO SETOR DE VESTUÁRIO NA REGIÃO DE MURIAÉ, ESTADO DE MINAS GERAIS, A LUZ DO TRIPLE BOTTON LINE, BRASIL",
+        "source": "openalex",
+        "url": "https://doi.org/10.18616/ta.v27i0.6572",
+        "doi": "10.18616/ta.v27i0.6572",
+        "year": 2021,
+        "authors": [
+          "Samira Novaes Alcon"
+        ],
+        "venue": "Tecnologia e Ambiente",
+        "abstract": "As Micro e Pequenas Empresas (MPEs) têm alta representatividade econômica, social e ambiental nas mais diversas economias, incluindo no Brasil. No setor do ramo de confecção foram investidos U$ 894,4 milhões e a produção média foi de 8,9 bilhões de peças onde foram gastos 1,2 milhão de toneladas de material têxtil, levando assim a um faturamento de U$ 48,3 bilhões da cadeia têxtil e confecção brasileira em 2019. O setor têxtil brasileiro, como um todo, gera resíduos na ordem de 175.000 toneladas/ano. O objetivo desta pesquisa é identificar a percepção de empresários do setor no Brasil, quanto à relevância das questões ambientais para as MPEs do ramo de confecção. A investigação deu-se por meio de pesquisa bibliográfica e exploratória descritiva realizada junto a sete MPEs do segmento na cidade de Muriaé e região no Estado de Minas Gerais. Os resultados indicam carência de estrutura e de informações e condições para a efetiva absorção de conceitos e práticas de sustentabilidade nesta tipologia empresarial. Conclui-se que é necessário que as empresas, o arranjo produtivo local, as associações e sindicatos, desenvolvam estratégias e ações de apoio para a implementação e monitoramento de práticas sustentáveis no âmbito da MPEs deste segmento na região estudada.",
+        "pdf_url": "http://periodicos.unesc.net/tecnoambiente/article/download/6572/pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W3196103325",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "ESTRATÉGIAS EMPRESARIAIS NO CONTEXTO DA PANDEMIA DE COVID-19: UM ESTUDO EM PEQUENAS EMPRESAS FAMILIARES DO SETOR DE VESTUÁRIO",
+        "source": "openalex",
+        "url": "https://doi.org/10.33362/visao.v12i1.3136",
+        "doi": "10.33362/visao.v12i1.3136",
+        "year": 2023,
+        "authors": [
+          "Gislaine Aparecida Kszan",
+          "Sérgio Luís Dias Doliveira",
+          "Flávia Massuga",
+          "Marli Kuasoski"
+        ],
+        "venue": "Revista Visão Gestão Organizacional",
+        "abstract": "Este estudo teve como objetivo identificar as estratégias e ações organizacionais adotadas pelas Micro e Pequenas Empresas (MPEs) familiares do setor de vestuário na cidade de Irati, PR. Trata-se de uma pesquisa qualitativa multicasos, cuja coleta de dados foi efetuada a partir de entrevistas semiestruturadas com os sócios proprietários de três organizações. Os resultados demonstram que o fechamento do comércio, a redução na demanda, a queda nas vendas e nas receitas e dificuldades para aquisição de novos produtos são os principais impactos sentidos pelas empresas investigadas no período pandêmico. Estratégias prescritivas relacionadas ao bom atendimento e ao planejamento estratégico se demonstram fundamentais para a sobrevivência das organizações. Como medidas para o gerenciamento da crise foram observadas ações reativas associadas principalmente à inclusão das mídias e do marketing digital, mudanças na operacionalização das vendas e, em alguns casos, a redução do quadro operacional. De uma maneira geral as empresas tiveram suas ações orientadas principalmente para as estratégias de estabilidade e redução de despesas, enquanto que uma delas também focalizou na estratégia de crescimento com a ampliação de sua estrutura física. Por fim, a análise SWOT evidenciou pontos positivos das organizações como utilização de recursos próprios e parcerias com fornecedores, os quais contribuíram para o aproveitamento de oportunidades, e apontou para a necessidade da introdução de novas tecnologias para adaptação a um ambiente incerto e competitivo. Palavras-Chave: MPEs. Empresas familiares. Gerenciamento de crise. COVID-19. Abstract: This study aimed to identify the strategies and organizational actions adopted by Micro and Small Enterprises (MSEs) familiar in the clothing sector in the city of Irati, PR. This is a multi-case qualitative research, whose data collection was carried out from semi-structured interviews with the owner partners of three organizations. The results show that the closure of trade, the reduction in demand, the drop in sales and revenues and difficulties in acquiring new products are the main impacts felt by the companies investigated in the pandemic period. Prescriptive strategies related to good service and strategic planning are essential for the survival of organizations. As measures for managing the crisis, reactive actions were observed, mainly associated with the inclusion of media and digital marketing, changes in the operationalization of sales and, in some cases, the reduction of the operational staff. In general, the companies had their actions mainly oriented towards stability strategies and cost reduction, while one of them also focused on the growth strategy with the expansion of its physical structure. Finally, the SWOT analysis showed the organizations' positive points, such as the use of their own resources and partnerships with suppliers, which contributed to taking advantage of opportunities, and pointed to the need to introduce new technologies to adapt to an uncertain and competitive environment. Keywords: MEPs. Family businesses. Crisis management. COVID-19.",
+        "pdf_url": "https://periodicos.uniarp.edu.br/index.php/visao/article/download/3136/1530",
+        "citation_count": 15,
+        "work_type": "article",
+        "identifier": "W4381249650",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "As práticas de gestão de recursos humanos em pequenas e médias empresas",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/1822/69980",
+        "doi": null,
+        "year": 2020,
+        "authors": [
+          "Inglity Defreyn Nascimento Jonck"
+        ],
+        "venue": "RepositóriUM (Universidade do Minho)",
+        "abstract": "AGRADECIMENTOSAgradeço primeiramente a Deus pela minha vida e pelas portas abertas ao longo da minha trajetória.Ao meu esposo, Leandro Jonck, pelo companheirismo e força nos momentos difíceis, e por não medir esforços para ajudar no alcance dos meus objetivos.Especialmente aos meus pais, Gorete Defreyn do Nascimento e Rogério Jorge do Nascimento, que com muito carinho e apoio me inspiram a melhorar continuamente.Às minhas irmãs, Thuyanne Defreyn Nascimento e Natálya Defreyn Nascimento, pelo apoio neste período.A prof.Dra.Carolina Feliciana Sá Cunha Machado, agradeço por todo o auxílio e incentivo prestado que tornaram possível a conclusão deste trabalho.A todos os professores que colaboraram através de seu conhecimento para a minha formação acadêmica.As minhas colegas de Mestrado por estarem ao meu lado e me motivarem a finalizar este trabalho.As empresas que participaram do estudo, pelos responsáveis terem disponibilizado seu tempo fazendo com que fosse possível realizar esta investigação acadêmica.Aos meus familiares e amigos que, de alguma forma participaram no desenvolvimento da minha vida acadêmica e no alcance deste objetivo.iv DECLARAÇÃO DE INTEGRIDADE Declaro ter atuado com integridade na elaboração do presente trabalho acadêmico e confirmo que não recorri à prática de plágio nem a qualquer forma de utilização indevida ou falsificação de informações ou resultados em nenhuma das etapas conducente à sua elaboração.Mais declaro que conheço e que respeitei o Código de Conduta Ética da Universidade do Minho.v RESUMO Em um ambiente cada vez mais competitivo e globalizado, a Gestão de Recursos Humanos (GRH) assume um papel importante nas empresas, pois permite que sejam desenvolvidas estratégias, políticas e práticas capazes de atender as demandas tanto das empresas quanto dos colaboradores.Entretanto, as Pequenas e Médias Empresas (PME's), pela sua dimensão reduzida, muitas vezes não apresentam condições de implementar práticas adequadas ao desenvolvimento das suas atividades.É evidente que não existe um conjunto de práticas de GRH aplicáveis a todas as empresas, uma vez que cada uma possui a sua particularidade.Porém, as PME's apresentam algumas semelhanças, e por isso, considerou-se pertinente conhecer a realidade e funcionamento das práticas de GRH das PME`s associadas a ACIP (Associação Empresarial de Palhoça).O principal objetivo desta investigação é perceber quais são as práticas de Gestão de Recursos Humanos implementadas nas PME's, especialmente dentro do âmbito de recrutamento e seleção, formação e desenvolvimento, avaliação de desempenho, e remuneração, prêmios e recompensas, além de verificar o grau de implementação da GRH nas PME's; e identificar a importância da GRH nas PME's.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W3136898165",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A tecnologia nos processos de desenvolvimento de produto e na produção das micro e pequenas empresas de confecção do vestuário de Porto Alegre - RS e Sombrio - SC",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/36048",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Paula Rodrigues Bittencourt"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "O objetivo deste trabalho foi abordar a inserção da tecnologia nos processos de desenvolvimento de produto e na produção das micro e pequenas empresas de confecção de Porto Alegre – RS e Sombrio - SC. O software CAD/CAM que permite economizar tempo e reduzir os custos de produção e desenvolvimento de produto, reduzindo o número de protótipos físicos e facilitando o encaixe. Sobretudo, o presente trabalho visa analisar como as micro empresas inserem a tecnologia em seus processos. O uso do sistema CAD (Desenho Assistido por computador) é uma tecnologia em que a computação suporta quase todas as áreas da confecção: design e criação, design têxtil, modelagem, ampliação, encaixe e risco, ficha técnica, cálculo de custos industriais, ordem de corte e gestão da produção. A evolução da tecnologia para a indústria do vestuário representa um fator significativo, possibilitando mudanças radicais que podem reduzir o tempo de fabricação do produto, acelerando e aperfeiçoando os processos. O estudo de caso englobou três micro empresas e uma pequena empresa de confecção do vestuário de Porto Alegre – RS e Sombrio - SC cuja análise dos dados qualitativos resultou em sugestões de melhorias para cada empresa estudadas.",
+        "pdf_url": null,
+        "citation_count": 5,
+        "work_type": "thesis",
+        "identifier": "W2199212968",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Proposta de procedimento para desenvolvimento de produtos sustentáveis têxteis a partir de sobras dos materiais de Micro e Pequenas Confecções",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2016.tde-06012016-230110",
+        "doi": "10.11606/d.100.2016.tde-06012016-230110",
+        "year": 2016,
+        "authors": [
+          "Fernanda Marinho Pereira da Silva"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "Through the new interpretation and understanding of the aspects about fashion-identity, social design, and how the behavior of the consumer society, tend to increase the demand of the contemporary individual, worried about the future. The emergence of new models and actors indicates a greater visibility to the posture of social and environmental responsibility in the area of fashion and enables consolidation of a contemporary society. Due to these premises, this research aimed to propose procedures, using as a reference the design methodology of Löbach for development of sustainable textile products from leftovers from materials of micro and small manufacturing. The methodology used was bibliographical research to which constitutes the basic procedure for the monographic studies and exploratory research because it does not require the formulation of hypotheses to be tested. She is restricted by set goals, get more information about a particular subject to study and identify the best method to be used, in the case of this project, the idea was to adapt the Löbach synthesis in the design process, linking it with the problem-solving process and the creative process, on four key initiatives to clearly define the problem (preparation); gather information about the problem, analyze them and relate them creatively with each other (generation); create alternative solutions to the problem, judging the second criteria (evaluation) and develop the most suitable alternative, establishing the (realization). After the elaboration of the project proved that the methodology used proved to be viable for the development of sustainable products, geared to society and consumption",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-06012016-230110/publico/Fernanda_Marinho.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2392923728",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "CONFECÇÕES TÊXTIL MINAS: OS DESAFIOS DO CRESCIMENTO E DA PROFISSIONALIZAÇÃO EM UMA EMPRESA FAMILIAR",
+        "source": "openalex",
+        "url": "https://doi.org/10.56238/arev7n5-406",
+        "doi": "10.56238/arev7n5-406",
+        "year": 2025,
+        "authors": [
+          "Cristina Sayuri Côrtes Ouchi Dusi",
+          "Maria Clara Rezende Pitondo Dias",
+          "Thiago Gomes de Almeida",
+          "Tatiana Dornelas de Oliveira Mendes",
+          "Fabrício Pereira Soares"
+        ],
+        "venue": "Aracê.",
+        "abstract": "Este caso de ensino aborda os desafios de crescimento e profissionalização enfrentados pela Confecções Têxtil Minas, uma pequena empresa familiar do setor de moda íntima, com a entrada da filha do fundador, Ana, no negócio. Fundada há mais de duas décadas e gerida de forma centralizadora e informal pelo seu fundador, Roberto, a empresa demonstrava estabilidade, mas também sinais de estagnação e desalinhamento com as novas dinâmicas de mercado. O caso centra-se na perspectiva de Ana, recém-formada em Administração, que identifica oportunidades de modernização, principalmente por meio do comércio eletrônico, mas enfrenta a resistência cultural e o estilo de gestão consolidado do pai. O dilema proposto convida à discussão sobre como equilibrar a necessidade de inovação e profissionalização com a preservação das relações familiares e o respeito ao legado do fundador. O objetivo é permitir a análise de temas como dinâmica intergeracional, sucessão, profissionalização, planejamento estratégico, resistência à mudança e adoção de novas tecnologias (e-commerce) no contexto específico de empresas familiares. Baseado em dados reais, nomes fictícios.",
+        "pdf_url": "https://periodicos.newsciencepubl.com/arace/article/download/5457/7673",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4410848757",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "O cenário das micro e pequenas empresas e dos microempreendedores individuais na economia brasileira e seu regime de tributação",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10284/7802",
+        "doi": null,
+        "year": 2019,
+        "authors": [
+          "Antônio Carlos da Silva"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "A presente investigação tem como objetivo fornecer subsídios para a discussão sobre a participação das Micro e Pequenas Empresas e dos Microempreendedores Individuais no cenário da economia brasileira no período de 2008 a 2017, bem como o seu regime de tributação exclusiva, o Simples Nacional. O enfoque delineia-se em pesquisas, levantamentos e análises da participação das Micro e Pequenas Empresas e dos Microempreendedores Individuais na economia do país, no Produto Interno Bruto, na organização e gestão empresarial e financeira; planejamento e estudo do comportamento dos empreendedores. Outro ponto importante é o regime de tributação exclusivo das Micro e Pequenas Empresas e do Microempreendedor Individual, que terá estudo, análise e pesquisa da evolução, bem como formalização das leis e fases de implantação. A escolha do tema desta dissertação tem como objetivo colocar em discussão a importância dos pequenos negócios na economia brasileira, atuando como agentes dinamizadores e que visam a descentralização industrial, comercial e prestação de serviços, apresentando mais uma opção na geração de empregos formais, aumentando a massa salarial, abrindo oportunidades de novos investimentos, contribuindo para o crescimento econômico, melhorando a distribuição de renda e assumindo um relevante papel socioeconômico da população. Os principais tópicos que serão analisados e pesquisados são: o cenário das Micro e Pequenas Empresas, a descrição e definição de empreendedor e empreendedorismo na economia brasileira, como co-participação para o desenvolvimento econômico, o processo de legalização e formalização dos pequenos negócios, o planejamento estratégico, a gestão administrativa e financeira, bem como as atualizações das leis que tratam das Micro e Pequenas Empresas e dos Microempreendedores Individuais; melhorias no processo de formalização, a nova forma de tributação simplificada (Simples Nacional) e como tal procedimento impacta na redução das despesas das empresas, contribuindo para o seu resultado financeiro.",
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W2976482614",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "O simples nacional e a sua contribuição para micro e pequenas empresas",
+        "source": "crossref",
+        "url": "https://doi.org/10.22482/dspace/560",
+        "doi": "10.22482/dspace/560",
+        "year": 2025,
+        "authors": [
+          "Laysa Carolina Faro Costa"
+        ],
+        "venue": null,
+        "abstract": "O artigo intitulado - O Simples Nacional e a sua Contribuição para Micro e Pequenas Empresas, buscou responder a questão: como o simples nacional afeta as empresas de micro e pequeno porte? Seu objetivo principal foi compreender o que é o simples nacional e identificar os seus impactos em microempresas e pequenas empresas. O trabalho abordou desde o que é tributo na legislação brasileira, até quais são os regimes tributários existentes. Além disso, destacou a importância das micro e pequenas empresas para o Brasil e do planejamento fiscal para empresas de micro e pequeno porte. Demonstrou, por meio das metodologias descritiva, bibliográfica, documental e qualitativa qual é a proposta do simples como regime tributário. E, por meio da pesquisa bibliográfica, identificou quais os pontos positivos oferecidos pelo simples nacional e suas questões a melhorar. A relevância para área se deu pela importância em verificar se o simples cumpre com o seu papel e realmente beneficia as empresas tributadas por ele.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.22482/dspace/560",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Editora da Universidade de Sorocaba - UNISO"
+        }
+      },
+      {
+        "title": "As micro e pequenas produtoras de bebidas alcoólicas artesanais excluídas do Simples Nacional e os custos tributários: uma necessidade de revisão legislativa",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.107.2019.tde-04022019-152139",
+        "doi": "10.11606/d.107.2019.tde-04022019-152139",
+        "year": 2019,
+        "authors": [
+          "Carolina Silva Campos"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 6,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.107.2019.tde-04022019-152139",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "As micro e pequenas produtoras de bebidas alcoólicas artesanais excluídas do Simples Nacional e os custos tributários: uma necessidade de revisão legislativa",
+        "source": "crossref",
+        "url": "https://doi.org/10.48021/978-65-270-3153-6",
+        "doi": "10.48021/978-65-270-3153-6",
+        "year": 2024,
+        "authors": [
+          "C. S. CAMPOS"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.48021/978-65-270-3153-6",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "Dialética"
+        }
+      },
+      {
+        "title": "Custos de transação e informação contábil na recuperação judicial de micro e pequenas empresas",
+        "source": "crossref",
+        "url": "https://doi.org/10.48021/978-65-252-5409-8",
+        "doi": "10.48021/978-65-252-5409-8",
+        "year": 2022,
+        "authors": [
+          "F. I. BERTUCHI"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.48021/978-65-252-5409-8",
+        "extra": {
+          "crossref_type": "book",
+          "publisher": "Dialética"
+        }
+      },
+      {
+        "title": "A exclusão das micro e pequenas transportadoras de passageiros do Simples Nacional",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.107.2020.tde-01082022-164121",
+        "doi": "10.11606/d.107.2020.tde-01082022-164121",
+        "year": 2022,
+        "authors": [
+          "Henrique Nimer Chamas"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.107.2020.tde-01082022-164121",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de Sao Paulo, Agencia USP de Gestao da Informacao Academica (AGUIA)"
+        }
+      },
+      {
+        "title": "Utilização de sistemas de custos em micro e pequenas empresas de Santa Catarina",
+        "source": "crossref",
+        "url": "https://doi.org/10.21574/remipe.v3i2.12",
+        "doi": "10.21574/remipe.v3i2.12",
+        "year": 2017,
+        "authors": [
+          "Giovanni Dutra Menegazzo",
+          "Rogério João Lunkes",
+          "Alcindo Mendes",
+          "Darci Schnorrenberger"
+        ],
+        "venue": "REMIPE - Revista de Micro e Pequenas Empresas e Empreendedorismo da Fatec Osasco",
+        "abstract": "O objetivo deste estudo consiste em identificar os sistemas de custos mais utilizados em Micro e Pequenas Empresas (MPEs), e as possíveis motivações. Para tanto, elaborou-se um questionário com questões fechadas que foram respondidas por 327 gestores de MPEs do Estado de Santa Catarina (Brasil). Na análise dos dados aplicou-se estatística descritiva e distribuição de frequências. Os resultados mostram que 79,5% dos gestores afirmam identificar a margem de lucro e aproximadamente 80% afirma conhecer o ponto de equilíbrio da empresa. Por outro lado, aproximadamente 38% dos gestores sabem informar se a organização utiliza ou não algum sistema de custeio e dos que sabem, a maioria (74%), afirma utilizar o custeio variável. Na investigação das possíveis causas constatou-se que o percentual de gestores com formação em áreas afins é bastante próximo ao daqueles que conhecem qual sistema é utilizado, indicando que a formação pode ser um fator explicativo do uso deste tipo de informações. Estes achados podem ser um importante aliado para consulta e orientação de pesquisadores e autoridades responsáveis pelas políticas públicas para as MPEs.",
+        "pdf_url": "http://remipe.fatecosasco.edu.br/index.php/remipe/article/download/12/4",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.21574/remipe.v3i2.12",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Remipe - Revista da Micro e Pequenas Empresas e Empreendedorismo"
+        }
+      },
+      {
+        "title": "CONTABILIDADE DE CUSTOS COMO FERRAMENTA ESTRATÉGICA PARA TOMADA DE DECISÃO EM MICRO E PEQUENAS EMPRESAS",
+        "source": "crossref",
+        "url": "https://doi.org/10.14488/enegep2024_tn_st_417_2052_48302",
+        "doi": "10.14488/enegep2024_tn_st_417_2052_48302",
+        "year": 2024,
+        "authors": [
+          "ELIZABETE CASAGRANDE LAZAROTTO",
+          "ADRIANA SILVEIRA DE ASSIS",
+          "IGOR BOSA"
+        ],
+        "venue": "Anais do Encontro Nacional de Engenharia de Produção",
+        "abstract": null,
+        "pdf_url": "http://www.abepro.org.br/biblioteca/TN_ST_417_2052_48302.pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.14488/enegep2024_tn_st_417_2052_48302",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "ENEGEP 2024 - Encontro Nacional de Engenharia de Produção"
+        }
+      },
+      {
+        "title": "Por que as empresas morrem? Efeitos do Simples Nacional e da Conjuntura Econômica na Taxa de Falência das Micro e Pequenas Empresas Brasileiras",
+        "source": "crossref",
+        "url": "https://doi.org/10.5151/v-enei-717",
+        "doi": "10.5151/v-enei-717",
+        "year": 2021,
+        "authors": [
+          "Luiz Gustavo Fernandes Sereno",
+          "Carlos Cesar Santejo Saiani",
+          "Cássio Garcia Ribeiro Soares da Silva"
+        ],
+        "venue": "Blucher Engineering Proceedings",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 5,
+        "work_type": "article",
+        "identifier": "10.5151/v-enei-717",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Editora Blucher"
+        }
+      },
+      {
+        "title": "A Percepção da Carga Tributária nas Micro e Pequenas Empresas antes e após o Simples Nacional",
+        "source": "crossref",
+        "url": "https://doi.org/10.21714/19-82-25372017v11n1p3451",
+        "doi": "10.21714/19-82-25372017v11n1p3451",
+        "year": 2017,
+        "authors": [
+          "Roberta Manfron de Paula",
+          "Daiane Leal Costa",
+          "Manuel Portugal Ferreira"
+        ],
+        "venue": "Revista da Micro e Pequena Empresa",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "10.21714/19-82-25372017v11n1p3451",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Revista da Micro e Pequena Empresa - RMPE"
+        }
+      },
+      {
+        "title": "Importância da Gestão Orçamentária e de Custos como Suporte à Tomada de Decisões em Micro e Pequenas Empresas",
+        "source": "crossref",
+        "url": "https://doi.org/10.21574/remipe.v6i1.194",
+        "doi": "10.21574/remipe.v6i1.194",
+        "year": 2020,
+        "authors": [
+          "Graciele Bergamim",
+          "Emanuele Engelage",
+          "Marcelo Haendchen Dutra"
+        ],
+        "venue": "REMIPE - Revista de Micro e Pequenas Empresas e Empreendedorismo da Fatec Osasco",
+        "abstract": "Este estudo objetiva demonstrar a importância e fomentar a utilização da gestão orçamentária e de custos em Micro e Pequenas Empresas (MPEs), ao evidenciar sua aplicabilidade e suporte à tomada de decisão em um restaurante situado no estado de Santa Catarina, Brasil. A coleta de dados ocorre entre os meses de agosto de 2017 a fevereiro de 2018. Realizam-se entrevistas e acompanhamentos dos procedimentos junto ao sócio proprietário, funcionários e membros próximos da cadeia. Também se analisam relatórios e documentos e apuram-se dados pertinentes ao mercado de atuação. Elaboram-se os orçamentos operacionais da empresa (venda, matéria-prima, mão de obra, custos indiretos e custos com venda, distribuição e administração) de maio a dezembro de 2018. As informações orçamentárias são validadas pelo gestor e analisa-se sua percepção quanto à relevância do instrumento. Segundo o gestor as informações orçamentárias proporcionaram reflexão e conhecimento e o fizeram ponderar sobre a importância do planejamento e controle, incorrendo, inclusive, em mudança de algumas práticas. Isso porque, por mais que os resultados financeiros apurados sejam satisfatórios, o detalhamento das informações demonstrou que há possibilidades para maximizá-los. Portanto, esta ferramenta cumpre seu papel como instrumento gerencial a MPEs, ao proporcionar maior compreensão da situação atual, projetar cenários futuros e indicar pontos a serem aperfeiçoados. Apesar de reconhecer suas vantagens informacionais, o gestor apontou algumas dificuldades quanto à utilização dos orçamentos e alega que sua implantação deve ser um processo gradual.",
+        "pdf_url": "http://remipe.fatecosasco.edu.br/index.php/remipe/article/download/194/187",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.21574/remipe.v6i1.194",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Remipe - Revista da Micro e Pequenas Empresas e Empreendedorismo"
+        }
+      },
+      {
+        "title": "O papel da contabilidade na gestao das micro e pequenas empresas em Floriano/PI",
+        "source": "crossref",
+        "url": "https://doi.org/10.58969/25947125.2.1.2018.34",
+        "doi": "10.58969/25947125.2.1.2018.34",
+        "year": 2018,
+        "authors": [
+          "Mary Correia Moreira Kalume",
+          "Helder Cronemberger Cavalcante"
+        ],
+        "venue": "REVISTA DA FAESF",
+        "abstract": "As micro e pequenas empresas são importantes tanto como geradoras de emprego bem como responsáveis por boa parte da movimentação econômica dos municípios. O profissional da contabilidade é de suma importância para um bom gerenciamento da empresa privada. OBJETIVO: Analisar as práticas contábeis nas micro e pequenas empresas de Floriano/PI para identificar e compreender as conseqüências para o processo de gestão e tomada de decisão dessas organizações. METODOLOGIA: Como instrumento de coleta de dados utilizou-se entrevistas semi-estruturadas, aos contadores e empresários do município de Floriano/PI. Resultados: Os serviços mais citados foram a folha de pagamento e o cálculo e preenchimento de guias. Dentre os relatórios gerenciais, as análises de balanços margem de contribuição foram os mais expressivos. O índice de empresas que não recebe nenhum tipo de relatório é de 56% no comércio. Por fim, a pesquisa indica que mais de 56% das firmas comerciais e 50% das prestadoras de serviços não recebem nenhum tipo de relatório gerencial.",
+        "pdf_url": "https://www.faesfpi.com.br/revista/index.php/faesf/article/viewFile/34/32",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.58969/25947125.2.1.2018.34",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "FAESF - Faculdade de Ensino Superior de Floriano"
+        }
+      },
+      {
+        "title": "CUSTOS LOGÍSTICOS - UMA ANÁLISE PARA AS MICRO E PEQUENAS EMPRESAS DE FAST FOOD DE UBERABA/MG",
+        "source": "crossref",
+        "url": "https://doi.org/10.14488/enegep2021_tn_sto_355_1829_41917",
+        "doi": "10.14488/enegep2021_tn_sto_355_1829_41917",
+        "year": 2021,
+        "authors": [
+          "JULIENE BARBOSA FERREIRA",
+          "LARISSA CAROLINE VERMEULEN",
+          "ALEXSANDRO SILVA SOLON"
+        ],
+        "venue": "Anais do Encontro Nacional de Engenharia de Produção",
+        "abstract": null,
+        "pdf_url": "http://www.abepro.org.br/biblioteca/TN_STO_355_1829_41917.pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.14488/enegep2021_tn_sto_355_1829_41917",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "ENEGEP 2021 - Encontro Nacional de Engenharia de Produção"
+        }
+      },
+      {
+        "title": "A exclusão das micro e pequenas transportadoras de passageiros do Simples Nacional",
+        "source": "crossref",
+        "url": "https://doi.org/10.48021/978-65-252-5893-5",
+        "doi": "10.48021/978-65-252-5893-5",
+        "year": 2022,
+        "authors": [
+          "H. N. CHAMAS"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.48021/978-65-252-5893-5",
+        "extra": {
+          "crossref_type": "book",
+          "publisher": "Dialética"
+        }
+      },
+      {
+        "title": "A INFLUÊNCIA DO REGIME TRIBUTÁRIO DO SIMPLES NACIONAL NA SUSTENTABILIDADE E NO DESENVOLVIMENTO DAS MICRO E PEQUENAS EMPRESAS",
+        "source": "crossref",
+        "url": "https://doi.org/10.51891/rease.v11i11.22559",
+        "doi": "10.51891/rease.v11i11.22559",
+        "year": 2025,
+        "authors": [
+          "Maria Clara Anes Silva dos Santos",
+          "Adive Cardoso Ferreira Júnior"
+        ],
+        "venue": "Revista Ibero-Americana de Humanidades, Ciências e Educação",
+        "abstract": "Introdução: O regime tributário do Simples Nacional representa uma das principais políticas públicas voltadas às micro e pequenas empresas no Brasil, sua implementação visa simplificar a arrecadação fiscal e reduzir a burocracia para os pequenos empreendimentos. Objetivo: Compreender, sob a perspectiva jurídica, a influência do regime tributário do Simples Nacional na promoção da sustentabilidade e no desenvolvimento das micro e pequenas empresas no Brasil. Metodologia: Revisão bibliográfica descritiva, com abordagem qualitativa, contemplando produções acadêmicas, legislações e documentos oficiais publicados entre os anos de 2020 e 2025. O estudo buscou identificar os principais impactos do Simples Nacional na gestão financeira e administrativa das empresas, bem como as limitações enfrentadas pelos empreendedores diante da complexidade normativa e da carga tributária ainda elevada em alguns setores. Resultados: Embora o regime represente um avanço significativo na redução da burocracia e na ampliação da formalização empresarial, ainda há desafios quanto à efetividade das políticas de incentivo à inovação, digitalização e sustentabilidade. Conclusão: O Simples Nacional tem papel essencial na consolidação das micro e pequenas empresas como agentes de desenvolvimento econômico e social, mas requer aprimoramentos que integrem tributação, capacitação empreendedora e políticas públicas de fortalecimento da governança empresarial.",
+        "pdf_url": "https://periodicorease.pro.br/rease/article/download/22559/13903",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.51891/rease.v11i11.22559",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Revista Ibero-Americana de Humanidades, Ciencias e Educacao"
+        }
+      },
+      {
+        "title": "Micro e pequenas empresas formais afetam o fato de seus empregados serem formais? Um estudo utilizando o SIMPLES como uma variável instrumental",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.96.2007.tde-15052007-153741",
+        "doi": "10.11606/d.96.2007.tde-15052007-153741",
+        "year": 2015,
+        "authors": [
+          "Renan Makoto Herculano Silva"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.96.2007.tde-15052007-153741",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "As Empresas Simples de Crédito como alternativa na concessão de Crédito às Micro e Pequenas Empresas - MPE",
+        "source": "crossref",
+        "url": "https://doi.org/10.21574/remipe.v7i2.308",
+        "doi": "10.21574/remipe.v7i2.308",
+        "year": 2021,
+        "authors": [
+          "Ana Carolina Do Nascimento Felizardo",
+          "Kelvin Pinheiro Casanova Vargas",
+          "Lorrainy Kelly Da Silva Bortoli",
+          "Eloir Trindade Vasques Vieira",
+          "Fortunato Bennett"
+        ],
+        "venue": "REMIPE - Revista de Micro e Pequenas Empresas e Empreendedorismo da Fatec Osasco",
+        "abstract": "O presente artigo reportou a concessão de crédito mediante a Lei Complementar 167/2019, a qual sancionou a criação da Empresa Simples Crédito (ESC) que, por sua vez, trouxe à premissa de facilitação a obtenção de empréstimos e financiamentos para micro e pequenas empresas. Tendo em vista que as MPE possuem vasta relevância no cenário econômico e carecem de empréstimos e financiamentos para se estabelecerem economicamente, na prática, a relação entre as instituições financeiras e MPE se mostra limitante em função (em parte) à burocratização e onerosidade do Sistema Financeiro Nacional (SFN) quanto à concessão de crédito aos pequenos empresários (SEBRAE, 2018). O objetivo geral foi apresentar às Empresas Simples de Crédito como possível alternativa no cenário de crédito para micro e pequenas empresas; especificamente, o enfoque do trabalho foi analisar a evolução histórica do crédito para as MPE no Brasil; evidenciar a importância da análise de crédito; e, demonstrar se as ESC terão a capacidade de facilitar a concessão de crédito.",
+        "pdf_url": "http://remipe.fatecosasco.edu.br/index.php/remipe/article/download/308/236",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.21574/remipe.v7i2.308",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Remipe - Revista da Micro e Pequenas Empresas e Empreendedorismo"
+        }
+      },
+      {
+        "title": "As micro e pequenas empresas, o Simples Nacional e o problema dos créditos de ICMS",
+        "source": "crossref",
+        "url": "https://doi.org/10.1590/2317-6172201614",
+        "doi": "10.1590/2317-6172201614",
+        "year": 2016,
+        "authors": [
+          "Leonel Cesarino Pessôa",
+          "Giovane da Costa",
+          "Emerson Antonio Maccari"
+        ],
+        "venue": "Revista Direito GV",
+        "abstract": "Resumo A partir dos anos 1970, a importância das micro e pequenas empresas (MPE) para a economia passou, cada vez mais, a ser reconhecida, principalmente em função do seu papel na geração de empregos. Entre as medidas tomadas pelo governo brasileiro para incentivar e promover as MPE destaca-se a Lei do Simples Nacional, que passou a incluir entre os tributos abrangidos pelo regime tributário diferenciado o ICMS e o ISS. No entanto, muitas empresas que possuem condições de fazer a opção pelo Simples Nacional não optam por esse sistema, pois essa opção traria problemas relacionados à apropriação e à transferência de créditos de ICMS. O objetivo do presente trabalho é identificar e analisar os fatores que levam essas empresas a optar por um sistema de pagamento de tributos que lhes seria, em princípio, desfavorável para, a partir disso, contribuir com a discussão sobre o Simples Nacional como política pública de incentivo às MPE. Trata-se de uma pesquisa exploratória de natureza qualitativa em que foi utilizado o método de estudo de caso. Os resultados mostram que o Simples Nacional não funciona para empresas que têm como clientes grandes redes de varejo, pois elas são forçadas pelo mercado a não fazer a opção pelo Simples. Conclui-se assim que, para determinados setores como o da empresa estudada, o Simples Nacional não resultou em vantagem alguma e, além disso, acarretou uma grande desvantagem: a lei que o instituiu revogou o Simples Federal e essas MPE deixaram de poder pagar os tributos federais de forma unificada.",
+        "pdf_url": null,
+        "citation_count": 8,
+        "work_type": "article",
+        "identifier": "10.1590/2317-6172201614",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "FapUNIFESP (SciELO)"
+        }
+      },
+      {
+        "title": "CUSTOS DE LOGÍSTICA NAS MICRO E PEQUENAS EMPRESAS",
+        "source": "crossref",
+        "url": "https://doi.org/10.22408/reva802023146393-98",
+        "doi": "10.22408/reva802023146393-98",
+        "year": 2023,
+        "authors": [
+          "Ismael Barbieri",
+          "Luciane Malta",
+          "Lucas da Silva Vital"
+        ],
+        "venue": "Revista Valore",
+        "abstract": "O problema proposto por esse estudo é buscar fornecer resposta sobre qual é o papel da redução dos custos na aplicação da gestão estratégica da logística para vantagem competitiva. Para tanto será apresentado os dados e pesquisas sobre custos logísticos e seu papel na formação dos preços dos produtos. Buscou-se verificar se os administradores compreendem esses custos e identificam o índice que ocupam nos gastos da empresa. Para dar embasamento teórico à pesquisa foi realizado um levantamento bibliográfico. A abordagem da pesquisa é de natureza qualitativa, uma vez que foi realizado o levantamento das percepções dos empresários com objetivo de identificar as dificuldades encontradas pelas micro e pequenas empresas na gestão de logística e o conhecimento que possuem dos métodos e tipos de estoques.",
+        "pdf_url": "https://revistavalore.emnuvens.com.br/valore/article/download/1463/1076",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.22408/reva802023146393-98",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Instituto de Cultura Tecnica Sociedade Civil Ltda"
+        }
+      },
+      {
+        "title": "Contribuição das micro e pequenas empresas optantes pelo simples nacional na arrecadação do ICMS: Um estudo nos estados brasileiros.",
+        "source": "crossref",
+        "url": "https://doi.org/10.33448/rsd-v11i5.27950",
+        "doi": "10.33448/rsd-v11i5.27950",
+        "year": 2022,
+        "authors": [
+          "Joaquim de Siqueira Furtado Neto",
+          "António Jorge Fernandes",
+          "Nilton Soares Formiga"
+        ],
+        "venue": "Research, Society and Development",
+        "abstract": "O presente artigo trata da contribuição das Micro e Pequena Empresas (MPEs) na arrecadação do Imposto sobre Circulação de Mercadoria e Serviços de transporte interestadual e intermunicipal e de comunicação (ICMS), como principal meio gerador de riquezas aos Estados do Brasil. O objetivo da pesquisa consiste em analisar a contribuição das MPEs optantes pelo Simples Nacional na arrecadação do ICMS nos Estados brasileiros. Para tanto, foi realizado um estudo descritivo, exploratório e correlacional, através de dados documentais, analisando o período de 2007 a 2011, correspondendo ao período de governo, respectivamente, de Lula e Dilma. Os resultados apontaram que as variáveis em estudo se correlacionam entre si de forma positiva e significativa, quando analisadas as variáveisde forma isolada, bem como em conjunto, destacando na Balança Comercial as médias de pareamento entre os anos de 2007 e 2011, assim como também nesses mesmos anos, mas com ênfase na região Sudeste, o estudo mostrou como destaque as divergências de valores para as arrecadações de ICMS, número de optantes do Simples Nacional e do ICMS arrecadado por esse regime. Deste modo, foi possível concluir a relevância das empresas optantes pelo Simples Nacional e do ICMS arrecadado por elas perante a arrecadação do ICMS como um todo nos Estados brasileiros.",
+        "pdf_url": "https://rsdjournal.org/index.php/rsd/article/download/27950/24333",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.33448/rsd-v11i5.27950",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Research, Society and Development"
+        }
+      },
+      {
+        "title": "CUSTOS DA QUALIDADE EM MICRO E PEQUENAS EMPRESAS DO APL DO VESTUÁRIO: UMA ANÁLISE EMPÍRICA",
+        "source": "crossref",
+        "url": "https://doi.org/10.47179/abcustos.v12i3.471",
+        "doi": "10.47179/abcustos.v12i3.471",
+        "year": 2018,
+        "authors": [
+          "Juliane Andressa Pavão",
+          "Reinaldo Rodrigues Camacho"
+        ],
+        "venue": "ABCustos",
+        "abstract": "Esta pesquisa teve como objetivo analisar a forma como os custos da qualidade são gerenciados em micro e pequenas empresas do Arranjo Produtivo Local (APL) do vestuário dos municípios de Cianorte e Maringá, no Estado do Paraná. Trata-se de um estudo quantitativo e descritivo que tem como estratégia de pesquisa o levantamento, e para coleta de dados utilizou-se o questionário. Foram investigadas 113 empresas, tendo os dados sido analisados por meio da análise descritiva e análise não paramétrica de Mann-Whitney. Os achados evidenciam que micro e pequenas empresas preocupam-se com a qualidade dos produtos, visto que os custos de prevenção e avaliação possuem maior ocorrência em comparação com a ocorrência dos custos de falhas internas e falhas externas. Constatou-se também que existem algumas diferenças quando se trata da ocorrência dos custos da qualidade entre as micro e pequenas empresas investigadas. Por meio dos testes estatísticos, foi possível verificar que todos os custos classificados como de prevenção, mais o custo de falha interna “desconto no preço de venda de produtos defeituosos” e o custo de falha externa com a “devolução de produtos defeituosos” ocorrem de forma diferente em empresas de micro e pequeno porte. E que ainda, essa diferença se dá porque nas empresas de pequeno porte há maior ocorrência desses custos em comparação com as microempresas.",
+        "pdf_url": "https://abcustos.emnuvens.com.br/abcustos/article/viewFile/471/435",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.47179/abcustos.v12i3.471",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Associacao Brasileira de Custos"
+        }
+      }
+    ]
+  },
+  "count": 40,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:07:05.289469+00:00"
+}

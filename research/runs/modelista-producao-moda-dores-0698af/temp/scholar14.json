@@ -1,0 +1,801 @@
+{
+  "ok": true,
+  "data": {
+    "query": "faccao costura terceirizacao controle qualidade ficha tecnica confeccao",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 18,
+      "crossref": 20,
+      "doab": 0
+    },
+    "raw_records": 38,
+    "merged_records": 38,
+    "returned": 38,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Vestuário de moda luxo no Brasil: um estudo sobre a qualidade e a terceirização no processo produtivo",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2016.tde-30112016-004750",
+        "doi": "10.11606/d.100.2016.tde-30112016-004750",
+        "year": 2016,
+        "authors": [
+          "Camila Vitorino Marcelo"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "When thinking of luxury garments, there is a premise of a high added value and near exclusivity. Questions arise as regards to sustaining the quality of a luxury fashion product with its outsourced processes of development and production. The increased use of an outsourcing strategy for processes that do not make up the core business of enterprises has been present in the fashion sector. The luxury fashion manufacturers in Brazil did not escape the rule, and began to outsource parts of their development and production processes in order to increase their production capacity. From the aforementioned, the present paper aims to study the luxury fashion product and its quality with outsourcing. To that end, luxury was studied, taking into consideration its concepts and parameters, the luxury fashion product, the quality of this product, its development and production processes, seeking to identify possible inadequacies based on a case study. Regarding the methodological procedures, this research is characterized as exploratory, bibliographical, documentary and as a case study. The instrument for data collection was a field observation along with a semi structured interview with individuals who are in direct contact with the development and production of luxury fashion apparel products, using as a case study a renowned luxury fashion brand located in the west borough of city. What has been gathered is that there is a difference between the parameters of what is luxury fashion for national and international consumers and that somehow, outsourcing influences the quality of the final luxury fashion apparel product in Brazil",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-30112016-004750/publico/d.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2623559898",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "REGULAÇÃO DA TERCEIRIZAÇÃO E ESTRATÉGIAS EMPRESARIAIS: O APROFUNDAMENTO DA LÓGICA DESSE INSTRUMENTO DE GESTÃO DA FORÇA DE TRABALHO",
+        "source": "openalex",
+        "url": "https://doi.org/10.25247/2447-861x.2016.n239.p742-770",
+        "doi": "10.25247/2447-861x.2016.n239.p742-770",
+        "year": 2017,
+        "authors": [
+          "Vitor Araújo Filgueiras"
+        ],
+        "venue": "Cadernos do CEAS Revista crítica de humanidades",
+        "abstract": "Este texto analisa a recente expansão das modalidades de denominaras formas de organização do trabalho no Brasil, particularmente por meio da terceirização, e sua relação com o processo de regulação, pelo Estado, da limitação da exploração do trabalho. O objetivo geral do artigo é discutir o processo de incremento das tentativas de externalização, pelos tomadores de serviços, da incidência da regulação protetiva do direito do trabalho. A regulação da terceirização do trabalho pelo Estado brasileiro, em que pese a flexibilização trazida pela Súmula 331 do Tribunal Superior do Trabalho, no início da década de 1990, impõe condições, ainda em vigor, que têm se mostrado como restrições muito superiores àquelas que os empregadores estão dispostos a cumprir. Nos últimos anos, tem crescido em modalidades e relevância a adoção de diferentes terminologias, pelas empresas, para definir suas relações produtivas: sistema de integração, contrato de compras, venda de frutas no “pé”, contrato de facção, incorporação, aluguel de cadeira, são algumas das designações utilizadas pelas empresas para definir os arranjos formatados nos seus processos produtivos. Argumenta-se que a regulação do Estado, ao invés de apreender a terceirização como uma estratégia de gestão da força de trabalho, normalmente admite o pressuposto do aprofundamento da divisão social do trabalho e, consequentemente, a dicotomia entre boa e má terceirização; desse modo, as instituições estatais não apenas deixam de contribuir para eliminar a terceirização, como tendem a admitir os novos jogos de palavras dos empregadores, renovando ou radicalizando a externalização de responsabilidades.",
+        "pdf_url": "https://portaldeperiodicos.ucsal.br/index.php/cadernosdoceas/article/download/260/233",
+        "citation_count": 10,
+        "work_type": "article",
+        "identifier": "W2601078823",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Moda e desenvolvimento local: reconversões culturais na criação e confecção do jeans em Toritama – Pernambuco",
+        "source": "openalex",
+        "url": "http://www.tede2.ufrpe.br:8080/tede2/handle/tede2/6112",
+        "doi": null,
+        "year": 2009,
+        "authors": [
+          "Rosiane Pereira Alves"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "A partir de década de 1980, em meio à crise econômica que atingiu o Brasil, e com o declínio da atividade calçadista em Toritama, as pessoas dessa localidade passaram a produzir e comercializar calça jeans, como uma estratégia de sobrevivência. Desde então, ocorreram diferentes mudanças no modo de criar e confeccionar essa peça do vestuário, desencadeando um processo de desenvolvimento no município, hoje integrante do Arranjo Produtivo Local de Confecções de Pernambuco. Assim sendo, a presente pesquisa teve por objetivo analisar os processos de reconversões culturais na criação da moda popular do Arranjo Produtivo Local de Confecções do Agreste de Pernambuco, particularmente os processos de mudanças ocorridos no design de moda, entre 1980 e 2009, no município de Toritama, e suas possíveis implicações no desenvolvimento local. Buscou-se também identificar na criação e projeção da moda local os elementos transpostos das culturas popular e massiva hegemônica, por meio dos movimentos de ebulição (bubble-up) e gotejamento (trickle-down). Para tanto, realizou-se um estudo de caso, de caráter qualitativo. Elegeu-se como principal categoria metodológica a história oral, priorizando como procedimento técnico as entrevistas semiestruturadas. Estas revelaram ter havido, nesses quase trinta anos, sucessivos ciclos de hibridizações na moda popular em meio à interação com o massivo e com o mercado, que gerou mudanças na forma de aquisição, apresentação e manipulação do tecido, aviamentos, maquinaria e tecnologia empregada, todas reconvertidas em novas técnicas de criação, produção e comercialização da calça jeans, como, por exemplo, a inclusão do planejamento prévio nos procedimentos de trabalho, com repercussão, em meio aos processos de globalização e reestruturação produtiva, no desenvolvimento local. Muitas dessas reconversões se intensificaram em função das intervenções governamentais e não governamentais, tais como projetos, cursos de capacitação, eventos de moda e negócio. E se por um lado a atividade ligada à criação e produção da moda gerou no município de Toritama emprego e renda, criou uma estrutura organizacional e estabeleceu parcerias; por outro lado, também desencadeou um processo de comprometimento ambiental.",
+        "pdf_url": "http://www.tede2.ufrpe.br:8080/tede2/bitstream/tede2/6112/2/Rosiane%20Pereira%20Alves.pdf",
+        "citation_count": 6,
+        "work_type": "thesis",
+        "identifier": "W3121861938",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "O Private Label e Seu Estímulo à Cópia na Indústria de Confecção de Vestuário: uma reflexão a partir de um estudo de caso",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2010v1n1p68",
+        "doi": "10.5433/2236-2207.2010v1n1p68",
+        "year": 2010,
+        "authors": [
+          "Lucimar de Fátima Bilmaia Emídio",
+          "Maria Lívia Sabioni"
+        ],
+        "venue": "Projetica",
+        "abstract": "The current work aims to approach the influence of the business model known as Private Label on triggering copy habits inside the Fashion Industry, establishing grounds for reflection over a study case developed upon a working experience on a company whose methods can be equaled to those aforementioned. The author describes actions commonly observed on industries that use copying as their main tool on product development and the incitement major labels offer on this form of production, later submitting this findings to critical analysis based on subject-related literature.",
+        "pdf_url": null,
+        "citation_count": 7,
+        "work_type": "article",
+        "identifier": "W2050495165",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "IMPASSES E CONTRASTES NA MODERNIZAÇÃO DAS EMPRESAS DO SETOR DE CONFECÇÕES",
+        "source": "openalex",
+        "url": "https://revistas.ucpel.edu.br/rsd/article/view/524",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Antônia de Lourdes Colbari"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Este ensaio está estruturado em duas partes: a primeira destaca aspectos gerais da indústria do vestuário, alinha um conjunto de informações relativas ao setor no estado do Espírito Santo, com ênfase no município de Vila Velha, e a partir destas referências situa os esforços de modernização empresarial nas unidades de confecção; e a segunda está centrada nas particularidades da qualificação profissional nesse segmento industrial.",
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W1727442823",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Luta de classes entre trabalhadores e grande capital: as relações entre as facções e a empresa Guararapes no Rio Grande do Norte",
+        "source": "openalex",
+        "url": "https://doi.org/10.22481/ccsa.v18i31.7889",
+        "doi": "10.22481/ccsa.v18i31.7889",
+        "year": 2021,
+        "authors": [
+          "William Eufrásio Nunes Pereira",
+          "Renata Rayane Moura da Silva Rodrigues"
+        ],
+        "venue": "Cadernos de Ciências Sociais Aplicadas",
+        "abstract": "O objetivo deste trabalho é analisar o conflito entre o Ministério Público do Trabalho (MPT) do Rio Grande do Norte e o grupo Guararapes, considerando o papel das facções e dos trabalhadores em meio ao conflito jurídico, econômico, político e ideológico travado por esses atores. De um lado da história está o grande capitalista, de outro, trabalhadores em atuação como costureiros e aqueles a quem o MPT denomina “travestidos de microempresários”. Essas duas categorias assumem o papel dos que vendem a força de trabalho para subsistir e, nesse caminho, submetem-se ao controle do capitalista, a regras unilaterais, à pressão por produtividade e à redução de direitos. O artigo expõe esse paralelo com base em supostas irregularidades que o MPT investigou na contratação e no modo de operação de “facções da Guararapes”. Tais irregularidades fundamentam uma ação civil pública e mostram que discurso e práticas de mais de um século atrás ainda alimentam a linha de produção. A metodologia usada neste trabalho inclui pesquisa bibliográfica e documental. Resultados encontrados mostram um intenso conflito entre capital e trabalho, no qual o primeiro amplia seus lucros com a redução dos custos, em particular, os do trabalho.",
+        "pdf_url": "https://periodicos2.uesb.br/index.php/ccsa/article/download/7889/5400",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W3131805463",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Institucionalização da sustentabilidade organizacional: o processo produtivo na indústria faccionista têxtil no Seridó Potiguar",
+        "source": "openalex",
+        "url": "https://doi.org/10.21680/1984-3879.2022v22n1id31057",
+        "doi": "10.21680/1984-3879.2022v22n1id31057",
+        "year": 2023,
+        "authors": [
+          "Sócrates Dantas Lopes",
+          "Ione Rodrigues Diniz Morais"
+        ],
+        "venue": "Saberes Revista interdisciplinar de Filosofia e Educação",
+        "abstract": "As discussões acerca do tema sustentabilidade foram ampliadas em meio à crise socioambiental, que se revela por meio da elevada degradação ambiental, do aumento da pobreza e da desigualdade social. Nesse contexto, a noção de sustentabilidade adquire proeminência, passando a ser institucionalizada por empresas que atuam em diferentes escalas geográficas, enfatizando a importância da Sustentabilidade Organizacional enquanto conceito que norteia princípios éticos que reordenam as práticas operacionais das empresas rumo à promoção do desenvolvimento sustentável. O objetivo deste trabalho é analisar a institucionalização da sustentabilidade organizacional pelas facções têxteis do Seridó. Para sua realização utilizou-se pesquisa bibliográfica, documental e de campo, ressaltando-se a aplicação do Método para Avaliação de Indicadores de Sustentabilidade Organizacional (M.A.I.S). Os procedimentos seguiram a sistemática da Triangulação de Dados: entrevistas, levantamento documental nas empresas faccionistas e observação in loco. Considerando os resultados da pesquisa quanto ao nível de sustentabilidade organizacional, a pontuação obtida pelo conjunto da amostra indica que as empresas faccionistas têxteis se na faixa Sustentável. Palavras-chave: Sustentabilidade organizacional. Indicadores de sustentabilidade. Facções têxteis.",
+        "pdf_url": "https://periodicos.ufrn.br/saberes/article/download/31057/16666",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4319921210",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Evaluating production efficiency: an analysis of the performance indicators of a uniform manufacture",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/34712",
+        "doi": null,
+        "year": 2023,
+        "authors": [
+          "Kevin Henrique Dos Santos"
+        ],
+        "venue": "Institutional Repository of the Federal Technological University of Paraná (RIUT) (Federal University of Technology – Paraná)",
+        "abstract": "Apucarana is a center for cap manufacturing in Brazil. Additionally, there are numerous clothing manufacturers, ranging from small to large sizes. The structured companies, in particular, possess specialized workforces and high production quality. By implementing automated machines and providing workforce training, these enterprises constantly strive to enhance their productivity. To evaluate the efficacy of these enhancements, this study analyzes the performance of a uniform supplier in Apucarana using the quantum method to establish time, quality, and cost performance metrics. The findings indicate that the company lacks indicator analysis and that implementing quality indicators in the external production area was imperative due to the issue of backordered batches. The time indicators reveal that the company has organizational issues that could negatively affect productivity, as numerous batches remain idle in different sectors, thus reducing overall productivity. Conversely, the cost indicator suggests that by implementing recommendations based on the analysis conducted in this study, the company can boost profitability.",
+        "pdf_url": "http://repositorio.utfpr.edu.br:8080/jspui/bitstream/1/34712/1/eficienciaprodutiva.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7155467023",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "O trabalho no design de moda na contemporaneidade e o futuro será sustentável? o Arranjo Produtivo Local de Toritama",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/ped2022-2889153",
+        "doi": "10.5151/ped2022-2889153",
+        "year": 2022,
+        "authors": [
+          "Janice Accioli Ramos Rodrigues",
+          "Mônica MOURA",
+          "Aguinaldo SANTOS"
+        ],
+        "venue": null,
+        "abstract": "O presente artigo versa sobre a situação atual da moda, destacando diversos aspectos relacionados aos contextos; social, ambiental e econômico. Evidencia, também, o caso de Toritama (PE), exemplificando como se dá o sistema predominante da produção de vestuário de moda. Com o intuito de destacar a necessidade de mudança do contexto atual para um cenário mais sustentável, aborda a responsabilidade do designer, neste processo, trazendo dois exemplos de manifestações sustentáveis na moda que tem surgido e que, provavelmente, permanecerão. Como contribuições pretendidas com esta pesquisa têm-se; trazer um entendimento mais abrangente de como está à moda e, a importância do designer para a condução do quadro atual para um horizonte mais animador. Por fim, apontar direções de melhoria no município de Toritama para alcançar uma moda mais sustentável, as quais acontecendo, possuem grandes chances de reforçar esta forma mais consciente de olhar, projetar e produzir no mundo.",
+        "pdf_url": "http://pdf.blucher.com.br/designproceedings/ped2022/2889153.pdf",
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "W4319313637",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Aplicação do fluxo unitário da produção na manufatura do vestuário de moda",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2016.tde-02052016-103850",
+        "doi": "10.11606/d.100.2016.tde-02052016-103850",
+        "year": 2016,
+        "authors": [
+          "Wan Chi Ming"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "The objective of this paper is to discuss the implementation of Flow Unit of Production in the manufacturing of fashion apparel process, with emphasis on women\\'s fashion products. For this purpose, a field research was conducted through case study, in company of the sector. The survey results show that despite the particularities of the industry, such as production volume, short cycle product life and wide range of models, the application of Flow Unit of Production in the fashion garment manufacturing indicates a possible process optimization productive, allowing the assembly line balancing and capacity of the productive capacity, factors that minimize the risk of production bottlenecks and assist in the preparation of planning, scheduling and production control. This study has the following objectives: i) search the manufacturing processes used, ii) focus on the techniques and processes applied in manufactured products; iii) physically characterize the industrial structure and describe their production processes for the manufacture of products with the application of flow unit in Fashion Garment Manufacturing (MVM); iv) point out suggestions for the use of new tools such as the continuous improvement of the production process. The recommendations made are based on literature review and case study on the manufacturer of custom products. These will be legitimized by experts of information on the subject and by employees of the studied company. It has been raised to date a list of external vendors and their installed capacities to manufacture products sold, as the company A pointed out the presence of bottleneck productive for failing to deliver the production volumes requested. Although the study is taking place within the execution schedule, many of the concepts and techniques of lean manufacturing are applicable in production environments high variety of the same product family, with low volume and can contribute significantly to improving the company\\'s performance, for continuous process improvement, to improve competitiveness and elimination of production 9 losses with performance indicators in the sectors involved. After research with the application of the unitary flow of Manufacture of fashionable clothes in the company in A, will be checked the hypothesis of application of Flow Unit of Production, the automotive industry, it is possible for the clothing industry. Collected the results of that application, after the data analysis and evaluation check for approval of Manufacture of Fashionable Clothes",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-02052016-103850/publico/DEFESA_DO_MESTRADO.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2346183652",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Maintenance management diagnosis in micro and small manufacturing companies in the city of Apucarana - Paraná",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/33572",
+        "doi": null,
+        "year": 2023,
+        "authors": [
+          "Matheus Fernando Ceolin Teixeira"
+        ],
+        "venue": "Institutional Repository of the Federal Technological University of Paraná (RIUT) (Federal University of Technology – Paraná)",
+        "abstract": "With the advancement of technology in the industrial sector, through the development of new machines, the training of teams to carry out the maintenance of this equipment is becoming increasingly indispensable. Within the textile and clothing sector, there has been a demand to manufacture new products, in greater quantity, with greater quality, in the shortest time, and for this it is necessary not only more employees, but also new equipment with high production capacity. Due to the need to keep this equipment in good condition and working, it is necessary to implement good maintenance management, so that the correct action is taken at the correct time, avoiding losses and minimizing losses. Within the clothing segment there is a special emphasis on the city of Apucarana, which is recognized as \"Cap Capital\" and one of the largest clothing manufacturing centers in the state of Paraná, through this information the present work presents the methodology of a research, which has The objective is to carry out a characterization of the main types of maintenance used in micro and small clothing companies in the city of Apucarana, in order to evaluate and provide improvements according to the demands of companies, in addition to contributing to the academic environment. In this way, the work was concluded presenting proposals for improvements that can be implemented individually, which involve the application of indicators, standardization of the maintenance history, analysis of the purchasing system for parts and components and the training of employees and interested parties who seek enter the area, and this improvement is applied jointly between companies and institutions in the industrial, educational and clothing segment present in the city, where these improvements seek to cause an impact on maintenance management, generating greater productivity, quality, cost reduction and safety for collaborators.",
+        "pdf_url": "http://repositorio.utfpr.edu.br:8080/jspui/bitstream/1/33572/1/gestaomanutencaoconfeccaoapucarana.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7155461589",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "O lugar do imigrante indocumentado no Estado Democrático de Direito: identificação e reparação dos danos aos direitos metaindividuais decorrentes da exploração de trabalhadores bolivianos na cadeia de produção têxtil de São Paulo",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.107.2019.tde-20062018-162637",
+        "doi": "10.11606/d.107.2019.tde-20062018-162637",
+        "year": 2019,
+        "authors": [
+          "Amanda Morais de Melo"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This dissertation addresses an analysis of cases involving Bolivian workers whose employment relationship with three major textile and garment manufacturers in the city of São Paulo, Brazil, was recognized by three courts of the Regional Labor Court of the second region. The study identified contents in the decisions that would contribute to the socioeconomic protection and inclusion of undocumented Bolivian immigrants to social rights, in accordance with the objectives of the Democratic State of Law set forth in Article 3 of the Brazilian Federal Constitution. The analysis aimed at revealing the place conferred to those individuals in labor courts when metaindividual labor rights are disrespected in the textile production chain in São Paulo. A database was comprised of five judicial decisions that recognized the employment relationship between workers and employers\\' clothing stores for the validation of labor infraction notices and inspection reports issued by the Brazilian Ministry of Labor and Employment and held the companies accountable for social dumping and collective moral damage. Despite the Regional Labor Court\\'s progress towards understanding the responsibility of major brands regarding the restructuring of production chains and the international labor division, the undocumented immigrant is still deemed a menace to the local labor market. Moreover, the fines imposed by the court contributed to the continued discrimination of undocumented and exploited immigrants, which is against the intent of the Democratic State of Law incorporated in the Brazilian Constitution towards precluding inequality and segregation of such minorities.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/107/107131/tde-20062018-162637/publico/AmandaMMeloCorrigida.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2933785669",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A produção reticular no arranjo produtivo local de confecções de Pernambuco",
+        "source": "openalex",
+        "url": "https://doi.org/10.6008/cbpc2179-684x.2022.003.0007",
+        "doi": "10.6008/cbpc2179-684x.2022.003.0007",
+        "year": 2023,
+        "authors": [
+          "Hannah Miranda Morais",
+          "Fernando Gomes de Paiva Júnior",
+          "Bianca Gabriely Ferreira Silva"
+        ],
+        "venue": "Revista Brasileira de Administração Científica",
+        "abstract": "A presente pesquisa possui como objetivo geral discutir a produção fragmentada no Arranjo Produtivo Local de confecções de Pernambuco, como uma forma de precarização do processo de trabalho na economia neoliberal. ​Um Arranjo Produtivo Local é caracterizado por uma aglomeração produtiva local, uma concentração de organizações envolvidas em uma mesma atividade e em um território comum. Os Arranjos Produtivos Locais são incentivados pelas políticas públicas por estimularem a renda, o emprego e o desenvolvimento local. Contudo, esses aglomerados produtivos podem esconder formas diversas de precarizar a mão de obra da região. Nesse panorama, é possível afirmar que o estudo tem caráter qualitativo e descritivo e se apoia na análise de conteúdo da fala do gestor de uma empresa que cuida do setor de relacionamento com as facções. Por conseguinte, os achados de pesquisa apontam para cinco categoria analíticas temáticas, sendo essas: (1) A rede é um arranjo móvel e multiespecializada; (2) Para a rede ser grande a rede tem que ser pequena; (3) A rede é organizada por contratos morais; (4) A precarização do trabalho e pobreza são estruturais na rede e (5) Na rede o trabalho é doméstico, portanto, pertence à família. Tem-se que, as Considerações finais mostram que o processo organizativo em rede nesse território estrutura e oculta uma severa exploração do trabalho fora do emprego.",
+        "pdf_url": "https://sustenere.inf.br/index.php/rbadm/article/download/7655/4479",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4411734268",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Polos de confecções no Nordeste: migração e organização do trabalho",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/9786555503975",
+        "doi": "10.5151/9786555503975",
+        "year": 2026,
+        "authors": [
+          "Wilson Fusco",
+          "Maria das Neves Medeiros de Melo",
+          "Darcilene Cláudio Gomes"
+        ],
+        "venue": "Editora Blucher eBooks",
+        "abstract": "Polos de confecções no Nordeste: migração e organização do trabalho reúne análises sobre transformações recentes em arranjos produtivos de confecções da região, com base nos municípios de Toritama (PE), Caicó (RN) e Pacatuba (CE). Os capítulos examinam as relações entre migração, informalidade, organização do trabalho, educação e reestruturação produtiva, considerando suas manifestações nas condições de vida e trabalho nesses territórios. O livro resulta da pesquisa “Polos de confecções do Nordeste: migração e pendularidade no contexto recente”, desenvolvida pela Fundação Joaquim Nabuco (Fundaj) com apoio do CNPq, e dirige-se a pesquisadores, estudantes, gestores públicos e demais interessados nas dinâmicas do trabalho, das migrações e do desenvolvimento regional.",
+        "pdf_url": "https://openaccess.blucher.com.br/download-pdf/385",
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "W7223000466",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "A administração do capital de giro em pequenas e médias empresas do setor de confecções do Estado de Goiás",
+        "source": "openalex",
+        "url": "https://repositorio.ufsc.br/handle/123456789/106552",
+        "doi": null,
+        "year": 2003,
+        "authors": [
+          "Ivelcy Rocha Caciquinho Pinheiro"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "Este trabalho apresenta um levantamento dos principais problemas na administração do capital de giro em micro, pequenas e médias empresas do setor de confecções, no Estado de Goiás, e propostas para contornar os problemas enfrentados. Realizaram-se entrevistas, abordando os aspectos de controle gerencial, de produção e financeiro. Foram entrevistadas quatro empresas e, em uma delas, elaborou-se uma pesquisa-ação. A pesquisa contou, também, com entrevista de uma consultora do setor de confecções e do diretor da Associação Goiana das Indústrias de Confecções (Agicon). Conclui-se pela necessidade de controles adequados, reforma tributária para o setor de confecções, capacitação dos gestores, incentivo para modernização tecnológica, união dos empresários, visando fortalecimento nas negociações, e maior atuação dos órgão de classe.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W1945121858",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Collaboration principles for the sustainable fashion business models design",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/220629",
+        "doi": null,
+        "year": 2020,
+        "authors": [
+          "Marina Anderle Giongo"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Inovação e sustentabilidade são muito favorecidas com a colaboração entre organizações. Isso porque o compartilhamento de conhecimento provê um ambiente amigável à inovação e a partilha de recursos entre organizações próximas reduz o impacto negativo dos processos e logística. O setor de moda em Porto Alegre hoje tem grande potencial para a formação de redes, com centenas de empresas da cadeia produtiva e diversas instituições de ensino e formação profissional. Colaborar é uma vontade de muitas das empresas, entretanto a falta de confiança nos demais atores (outras empresas, entidades de apoio, instituições de ensino, governo) faz com que elas se resguardem desse tipo de relação. Nesse sentido, o design é uma área que pode fomentar a colaboração, potencializar a inovação e sustentabilidade, a partir da sua vocação estratégica de busca de solução de problemas. Com essa premissa foi realizada esta pesquisa, tendo como tema o design das relações de colaboração entre empresas de moda sustentável e foi desenvolvida junto a micro e pequenas empresas de Porto Alegre/RS. O objetivo geral foi desenvolver princípios de colaboração para o design de modelos de negócio de moda sustentável. Com estratégia metodológica qualitativa foram utilizadas ferramentas como notas de campo, entrevistas semiestruturadas e grupo focal com especialistas, para desenvolver, propor e aprimorar os princípios de colaboração. Como resultados, a pesquisa gerou princípios para despertar, viabilizar e preservar a colaboração, com base em três tipos de relação percebidos: colaboração proposital, colaboração intrínseca e contribuição serendipitária.",
+        "pdf_url": "https://lume.ufrgs.br/bitstream/10183/220629/1/001125182.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7119294554",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Os principais benefícios proporcionados ao trabalhador informal para formalização através do Microempreendedor Individual",
+        "source": "openalex",
+        "url": "https://repositorio.ufsc.br/xmlui/handle/123456789/127035",
+        "doi": null,
+        "year": 2010,
+        "authors": [
+          "Dayanne Marlene Souza"
+        ],
+        "venue": "DSpace (Federal University of Santa Catarina)",
+        "abstract": "SOUZA, Dayanne Marlene.Os principais benefícios proporcionados ao trabalhador informal para formalização através do Microempreendedor Individual.95 fls.Monografia (Curso de Ciências Contábeis) -Universidade Federal de Santa Catarina, Florianópolis, 2010.De acordo com o último levantamento do IBGE (2003) realizado no Brasil, sobre o setor da informalidade, observou-se que existiam mais de dez milhões de trabalhadores atuando na informalidade.Diante deste panorama, o governo verificou a necessidade de buscar alternativas para trazer estes trabalhadores para a formalidade.Com o advento da LC nº.128/2008 surge a oportunidade para legalização dos milhares de trabalhadores que se encontram no mercado informal, tornando-os totalmente legalizados pela figura jurídica do Microempreendedor Individual.Neste trabalho de natureza descritiva e de levantamento, pretendeu-se verificar quais dos benefícios oferecidos na legislação do MEI estão trazendo os trabalhadores informais a buscarem a formalização.Para realizar o levantamento dos dados foram aplicados trinta questionários com trabalhadores que se formalizaram, sendo dois em escritórios de contabilidade listados no portal do empreendedor e vinte e oito através dos trabalhadores que se formalizaram entre os dias 22 e 23 de outubro de 2010, em Florianópolis, na Semana do Empreendedor Individual realizada pelo SEBRAE/SC.Os dados levantados receberam tratamento qualitativo e quantitativo.Os principais resultados encontrados demonstram que: i) os principais benefícios motivadores para os trabalhadores informais procurarem a formalização através do MEI foram: a possibilidade de emissão de nota fiscal e a comprovação de renda, os direitos previdenciários, baixa burocracia e facilidades na formalização, e a redução dos impostos e as obrigações acessórias exigidas; ii) os benefícios considerados com maior relevância no dia-a-dia dos Empreendedores Individuais são: os direitos previdenciários, a possibilidade de emissão de nota fiscal e comprovação de renda, redução dos impostos e obrigações acessórias e facilidade de acesso a créditos e financiamentos; iii) que o perfil dos Empreendedores Informais que se formalizaram se enquadrava na faixa etária entre 31 a 40 anos, que 70% (setenta por cento) da amostra possuem o nível de escolaridade até o ensino médio e que 76% (setenta e seis por cento) da amostra estudada exercia suas atividades como informal ou autônomo antes da sua",
+        "pdf_url": null,
+        "citation_count": 29,
+        "work_type": "thesis",
+        "identifier": "W257783642",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "TEMA 1 - GESTÃO DA PRODUÇÃO (parte 2)",
+        "source": "openalex",
+        "url": "https://doi.org/10.18407/issn.1983-0629.2018.231",
+        "doi": "10.18407/issn.1983-0629.2018.231",
+        "year": 2019,
+        "authors": [
+          "EMEPRO"
+        ],
+        "venue": "Anais EMEPRO",
+        "abstract": "Resumo: Atualmente o aumento na demanda por conforto térmico e acústico nas edificações torna-se cada vez mais expressivo nas sociedades modernas.Entretanto, tal indicador necessita ser suportado pela conscientização da necessidade de minimização da utilização dos recursos energéticos para sua aquisição.Com as elevadas temperaturas geradas pelo aquecimento global, aliado ao intenso aumento do ruído urbano provocado pelo aumento dos grandes centros, torna-se objeto desse estudo apresentar soluções que contribuam para a melhoria do conforto térmico e acústico das novas edificações.O referencial teórico utilizouse do estudo de materiais que contribuem para o conforto termo acústico das edificações, como as vedações em drywall, emprego de lã mineral, utilização de janelas de vidro duplo, adoção de telhados verdes, e incorporação de vermiculita e o poliestireno expandido em argamassas e concretos.Os materiais e métodos construtivos citados são considerados de extrema importância para o tema, pois, além de suas inúmeras vantagens, possuem a habilidade de reduzir o uso de energia elétrica, economizando dessa forma os sistemas de refrigeração de ar.Palavras-chave: Conforto térmico.Conforto acústico.Meioambiente.dos habitantes com a utilização de itens que favoreçam o isolamento térmico e acústico das edificações. DesenvolvimentoPara tratar o tema \"eficiência termo acústica\" é necessário, antes de tudo, demonstrar o comportamento da transmissão de calor e de som no espaço.Apenas após a apresentação desses conceitos físicos, será possível aplicar as definições de conforto acústico e térmico e demonstrar a eficácia dos materiais de construção alternativos aos convencionais.Alternativamente, este trabalho apresenta, na seção 2.4,os materiais e soluções construtivas mais utilizadas atualmente no mercado da construção civil, com excelentes resultados e custo-benefício, sejam eles materiais distintos aos utilizados nos métodos convencionais ou complementares a eles. Conceitos físicos Propagação de ondas sonorasComo ensina Halliday, Walker e Resnick (2016), o som é uma onda mecânica, ou seja, necessita dapresença de um meio material para a sua propagação, seja ele sólido, líquidoou gasoso.Além disso, propaga-se em todas as direções, assumindo a característica de tridimensionalidade e também pode ser considerado uma onda do tipo longitudinal, em que a vibração que gera é paralela à sua propagação como pode ser exemplificado na FIG 01.Além dessas principais características, as ondas sonoras podem sofrer os fenômenos ondulatórios da reflexão, difração e interferência, além da refração, fenômeno dificilmente percebido.No fenômeno da reflexão, o som é produzido por uma fonte e refletido por um obstáculo.Já no fenômeno da difração, as ondas sonoras contornam obstáculos, como por exemplo, a passagem de som por uma porta entreaberta.Como o próprio nome sugere, a interferência surge quando ondas sonoras distintas se cruzam, ainda segundo Halliday, Walker e Resnick (2016).Figura 1 -Propagação tridimensional e longitudinal de uma onda sonora Fonte: Sistema Novi, 20171 Propagação térmicaDe acordo com Livi (2012), a propagação de calor é a transmissão de energia térmica em função da diferença de temperatura, via de regra, de um meio mais quente para um meio mais frio, resultando na troca de energia calorífica entre dois sistemas cujas temperaturas originais apresentavam-se distintas e consequentemente objetivando o equilíbrio térmico entre eles.Já a NBR 15575 (ABNT, 2013), que regulamenta os sistemas de vedações internas e externas das edificações, cita que os isolamentos sonoros das edificações devem atender, para a adjacência entre recintos, os seguintes valores: a) Comunicabilidade entre recintos claramente audível: 35 dB; b) Comunicabilidade entre recintos audível: 40 dB; c) Comunicabilidade entre recintos pouco audível: 45 dB; d) Incomunicabilidade entre recintos: acima de 50 dB.Nakamura (2006), diz que, \"a partir da combinação de diversos materiais em forros, pisos, paredes e divisórias, é possível obter resultados satisfatórios e reduzir as vulnerabilidades aos sons indesejados\".Segundo a autora, qualquer material tem a capacidade de absorver, refletir e transmitir sons e ruídos, mas existem materiais que, usados de forma correta, contribuem para a melhoria no conforto acústico da edificação.\"Forros e paredes com recheio absorvente, como lãs minerais, isopor e vermiculita, por exemplo, podem corrigir o tempo de reverberação do som, muitas vezes em excesso e agravado em ambientes com grandes áreas, pé-direito alto e com superfícies metálicas aparentes\" (NAKAMURA, 2006). Conforto térmicoSegundo apontam Frota e Schiffer (2001), adequar a edificação ao clima de um determinado local significa construir espaços que possibilitem ao homem condições de conforto, conforme.Aos profissionais da construção cabem, tanto amenizar as sensações de desconforto impostas por climas muito rígidos, tais como os de excessivo calor, frio ou ventos, como também propiciar ambientes que sejam, no mínimo, tão confortáveis como os espaços ao ar livre em climas amenos, utilizando materiais que possam proporcionar essas sensações.Dentre as variáveis climáticas que caracterizam uma região, podem-sedistinguir as que mais interferem no desempenho térmico dos espaços construídos:a oscilação diária e anual da temperatura e umidade relativa, a quantidadede radiação solar incidente, o grau de nebulosidade do céu, a predominância das estações e o sentido dos ventos e índices pluviométricos.No Brasil, a norma NBR 15575 (ABNT, 2013) trata o desempenho térmico nas edificações.Para regulamentação da transmitância térmica (U) exigida pela norma, todos os critérios de desempenho foram estabelecidos com base em diversas características do local da obra (topografia, temperatura e umidade do ar, direção e velocidade do vento, etc.) e da edificação (materiais constituintes, número de pavimentos, dimensões dos cômodos, pé direito, orientação das fachadas, dimensões e tipo de janelas etc.).Nessas condições, a NBR 15575 (ABNT, 2013) aponta como satisfatórios valores de transmitância térmica7para coberturas menores que 2,3 [W/(m2.K)] para as regiões Sudeste e Sul e menores que 1,5 [W/(m2.K)] para as regiões Centro-Oeste, Norte e Nordeste.Ainda, segundo a norma, somente as lajes de cobertura expostas dotadas de isolação térmica atendem à norma, eliminando como candidatas as lajes expostas sem nenhum tipo de tratamento, por possuírem transmitância térmica superiores a 2,3 [W/(m2.K)].Para elevações internas e externas, a norma assume como adequados, valores menores que 3,7 [W/(m2.K)] para as regiões Sudeste e Sul e menores que 2,5 [W/(m2.K)] para as regiões Centro-Oeste, Norte e Nordeste.Dessa forma, em atendimento aos preceitos da NBR 15575 (ABNT, 2013), é importante observar os sistemas construtivos e materiais utilizados para a execução de uma edificação que apresente conforto térmico satisfatório aos usuários.Segundo Frota e Schiffer (2001), também é importante a observação da orientação do sol e a criação de um fluxo de ventilação para amenizar a absorção de calor, em períodos de altas temperaturas. O fenômeno das ilhas de calorA ilha de calor é um fenômeno climático que ocorre devido às elevadas temperaturas nas áreas urbanas e zonas metropolitanas provocadas pela alta taxa de pavimentações edificações que absorvem e refletem a luz solar, impedindo a circulação de ar, além da baixa taxa de permeabilidade da água no solo e do baixo índice de áreas verdes, importantes para a termo regulação ambiental e a alta concentração de poluentes.Segundo Teza e Baptista (2005), A utilização nos centros urbanos de grande quantidade de casas e prédios, ruas e avenidas, pontes e viadutos e uma série de outras construções, que aumenta gradativamente até a zona central dessas metrópoles, faz aumentar significativamente a irradiação de calor para a atmosfera em comparação com as zonas periféricas ou rurais onde, em geral, possui maior cobertura vegetal e consequentemente, maior área de permeabilidade para as águas pluviais.Nota-se que diferentes padrões de refletividade são altamente dependentes dos materiais empregados na construção civil.Percebe-se então que, dependendo dos materiais utilizados nos processos da construção civil, mais radiação será absorvida e mais calor será emitido pela superfície das obras construídas.De acordo com Lopes (2006), as ilhas de calor podem ser vistas como um recurso energético, especialmente no Norte da Europa e da América, porque a temperatura da cidade não diminui tanto, evitando o consumo excessivo no inverno.Nas cidades de clima quente este padrão térmico pode ser encarado como uma limitação, porque pode levar a um consumo de energia suplementar na refrigeração dos ambientes urbanos.Ainda de acordo com Lopes (2006), as ilhas de calor das cidades são mais facilmente detectáveis à noite, sobretudo quando o céu está límpido e o ar calmo.À noite, o calor armazenado durante o dia vê-se liberado, contribuindo para o contraste 2.4 Materiais de construção e sistemas construtivos auxiliares no processo da obtenção de conforto térmico e acústico Painéis de vedação em drywallSegundo Costa e Nascimento (2015), o drywall é o sistema de construção de paredes de vedação e forros mais utilizado nos Estados Unidos e Europa.Também conhecido no Brasil como vedação em gesso acartonado, visualmente, nasfaces externas, é similar à alvenaria, após aplicados os acabamentos finais, combinando internamente, porém, estruturas de aço galvanizado com chapas de gesso de alta resistência, mecânica e acústica, produzidas com rigoroso padrão de qualidade.Costa e Nascimento (2015), ainda corroboram o conceito drywall, a lã de rocha, o poliestireno expandido e a vermiculita como excelentes isolantes termoacústicos.",
+        "pdf_url": "http://www.fmepro.org/ojs/index.php/aem/article/download/231/112",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2925226716",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Implantação de sistema de qualidade em escola tecnica",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2002.269957",
+        "doi": "10.47749/t/unicamp.2002.269957",
+        "year": 2021,
+        "authors": [
+          "Milton Nunes Pedroso"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2002.269957",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Los jóvenes y las Fuerzas Armadas",
+        "source": "crossref",
+        "url": "https://doi.org/10.2307/40183256",
+        "doi": "10.2307/40183256",
+        "year": 1986,
+        "authors": [
+          "Ficha Tecnica de la Encuesta"
+        ],
+        "venue": "Reis",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.2307/40183256",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "JSTOR"
+        }
+      },
+      {
+        "title": "Discursos da qualidade na educação e performance da tecnica",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2000.212011",
+        "doi": "10.47749/t/unicamp.2000.212011",
+        "year": 2021,
+        "authors": [
+          "Debora Martins de Souza"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2000.212011",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Divulgação científica em controle de qualidade de alimentos: uma compilação dos textos escritos por alunos da pós graduação em Controle de Qualidade em Alimentos do IFMA",
+        "source": "crossref",
+        "url": "https://doi.org/10.37423/2020.edcl57",
+        "doi": "10.37423/2020.edcl57",
+        "year": 2020,
+        "authors": [],
+        "venue": "Divulgação científica em controle de qualidade de alimentos: uma compilação dos textos escritos por alunos da pós graduação em Controle de Qualidade em Alimentos do IFMA",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "book",
+        "identifier": "10.37423/2020.edcl57",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "Editora Conhecimento Livre"
+        }
+      },
+      {
+        "title": "El futuro del MAB; Ficha tecnica de las compañias cotizadas en MAB; Bibliografia",
+        "source": "crossref",
+        "url": "https://doi.org/10.4272/978-84-9745-559-6.ch2",
+        "doi": "10.4272/978-84-9745-559-6.ch2",
+        "year": 2012,
+        "authors": [],
+        "venue": "Mercado Alternativo Bursatil",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "book-chapter",
+        "identifier": "10.4272/978-84-9745-559-6.ch2",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Netbiblo"
+        }
+      },
+      {
+        "title": "Los parados: condiciones de vida y actitudes políticas",
+        "source": "crossref",
+        "url": "https://doi.org/10.2307/40183150",
+        "doi": "10.2307/40183150",
+        "year": 1985,
+        "authors": [
+          "Ficha Tecnica Del Estudio"
+        ],
+        "venue": "Reis",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.2307/40183150",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "JSTOR"
+        }
+      },
+      {
+        "title": "Caos em sistemas de controle de motores C.C. pela tecnica PLL-DUAL",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1991.42211",
+        "doi": "10.47749/t/unicamp.1991.42211",
+        "year": 2021,
+        "authors": [
+          "Adelheid Ingeborg Mahla Alvarez"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1991.42211",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Controle da qualidade de projetos de edificações",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.18.2017.tde-12042017-155134",
+        "doi": "10.11606/d.18.2017.tde-12042017-155134",
+        "year": 2018,
+        "authors": [
+          "Helen Ulrich"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.18.2017.tde-12042017-155134",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Controle de qualidade do concreto.",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.3.1981.tde-25072025-133805",
+        "doi": "10.11606/d.3.1981.tde-25072025-133805",
+        "year": 2025,
+        "authors": [
+          "Paulo R. L. Helene"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.3.1981.tde-25072025-133805",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "AVALIAÇÃO DAS CONDIÇÕES HIGIÊNICO-SANITÁRIA DO RESTAURANTE POPULAR DA CIDADE DE PEDREIRAS – MA",
+        "source": "crossref",
+        "url": "https://doi.org/10.37423/200802326",
+        "doi": "10.37423/200802326",
+        "year": 2020,
+        "authors": [
+          "Vanusa Cristina Santos Xavier",
+          "Thaís Silva da Rocha"
+        ],
+        "venue": "Divulgação científica em controle de qualidade de alimentos: uma compilação dos textos escritos por alunos da pós graduação em Controle de Qualidade em Alimentos do IFMA",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.37423/200802326",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Editora Conhecimento Livre"
+        }
+      },
+      {
+        "title": "AVALIAÇÃO DAS CONDIÇÕES HIGIÊNICO-SANITÁRIASDE FEIRAS DO MUNICÍPIO DE SÃO LUÍS –MA",
+        "source": "crossref",
+        "url": "https://doi.org/10.37423/200902590",
+        "doi": "10.37423/200902590",
+        "year": 2020,
+        "authors": [
+          "ANA PAULA GALVÃO DE SOUSA",
+          "THAÍS SILVA DA ROCHA"
+        ],
+        "venue": "Divulgação científica em controle de qualidade de alimentos: uma compilação dos textos escritos por alunos da pós graduação em Controle de Qualidade em Alimentos do IFMA",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.37423/200902590",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Editora Conhecimento Livre"
+        }
+      },
+      {
+        "title": "Controle descentralizado: tecnicas e aplicação ao controle da qualidade da agua de rios",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1992.55340",
+        "doi": "10.47749/t/unicamp.1992.55340",
+        "year": 2021,
+        "authors": [
+          "Angel Fernando Torrico Caceres"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1992.55340",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Controle de qualidade de serviço em redes ATM.",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/t.3.2000.tde-05112024-155632",
+        "doi": "10.11606/t.3.2000.tde-05112024-155632",
+        "year": 2024,
+        "authors": [
+          "Karen Langona"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/t.3.2000.tde-05112024-155632",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Rotulagem para alergênicos: análise dos rótulos de leite e produtos lácteos preconizado pela legislação brasileira",
+        "source": "crossref",
+        "url": "https://doi.org/10.37423/200902695",
+        "doi": "10.37423/200902695",
+        "year": 2020,
+        "authors": [
+          "Mykael Italo Cantanhede Diniz",
+          "Cintia Barros Nascimento",
+          "Livia Xerez Pinho"
+        ],
+        "venue": "Divulgação científica em controle de qualidade de alimentos: uma compilação dos textos escritos por alunos da pós graduação em Controle de Qualidade em Alimentos do IFMA",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.37423/200902695",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Editora Conhecimento Livre"
+        }
+      },
+      {
+        "title": "Perfil e percepção dos consumidores de vísceras bovinas comercializadas no município de Codó/MA",
+        "source": "crossref",
+        "url": "https://doi.org/10.37423/200902698",
+        "doi": "10.37423/200902698",
+        "year": 2020,
+        "authors": [
+          "Sabrina Káren de Castro de Sousa",
+          "Francisco Antonio Gudemberg Almeida Moura"
+        ],
+        "venue": "Divulgação científica em controle de qualidade de alimentos: uma compilação dos textos escritos por alunos da pós graduação em Controle de Qualidade em Alimentos do IFMA",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.37423/200902698",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Editora Conhecimento Livre"
+        }
+      },
+      {
+        "title": "Controle da qualidade 3D de tratamentos de radioterapia em lesões pulmonares com controle de movimento respiratório",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.59.2025.tde-27082025-101646",
+        "doi": "10.11606/d.59.2025.tde-27082025-101646",
+        "year": 2025,
+        "authors": [
+          "Gabriel Meira Delgado"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.59.2025.tde-27082025-101646",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "A qualidade de educação profissional e a perspectiva da flexibilidade e competencia tecnica do trabalhador",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2000.202477",
+        "doi": "10.47749/t/unicamp.2000.202477",
+        "year": 2021,
+        "authors": [
+          "Claudio Fernando Hartman"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2000.202477",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Qualidade hospitalar: estudo de caso em hospitais selados pelo CQH - Programa de Controle de Qualidade Hospitalar",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.6.2004.tde-27122021-164122",
+        "doi": "10.11606/d.6.2004.tde-27122021-164122",
+        "year": 2021,
+        "authors": [
+          "Adriana Serra Cypriano"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.6.2004.tde-27122021-164122",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de Sao Paulo, Agencia USP de Gestao da Informacao Academica (AGUIA)"
+        }
+      },
+      {
+        "title": "Automação dos processos de controle de qualidade da água e esgoto dos laboratórios de controle sanitário.",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/t.3.2000.tde-22102024-153021",
+        "doi": "10.11606/t.3.2000.tde-22102024-153021",
+        "year": 2024,
+        "authors": [
+          "José Benedito de Almeida"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/t.3.2000.tde-22102024-153021",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "INSPEÇÃO DE PRODUTOS DE ORIGEM ANIMAL, CONTROLE DE QUALIDADE E BENEFICIAMENTO – REVISÃO: CONTROLE DE QUALIDADE E BENEFICIAMENTO – REVISÃO",
+        "source": "crossref",
+        "url": "https://doi.org/10.37885/240215737",
+        "doi": "10.37885/240215737",
+        "year": 2024,
+        "authors": [
+          "Mariany Silveira"
+        ],
+        "venue": "Ciência Animal e Veterinária: o avanço da ciência no Brasil",
+        "abstract": "O consumo de alimentos de origem animal muitas vezes não inspecionado traz riscos à saúde pública. Nesse sentido, os objetivos principais da inspeção compreendem prevenir a disseminação de doenças transmitidas por alimentos e zoonoses. Para que se tenha uma segurança com relação ao consumo de alimentos, é de suma importância um acompanhamento deste produto desde o início de sua cadeia produtiva até o produto final. Se tem, que a metodologia está baseada na descrição dos produtos e sistemas de inspeção de forma geral, conceitual e discursava em torno do tema. Não obstante, com o aumento da população mundial e o exponente consumo e comercialização de produtos de origem animal, destacando-se os de bovinos, o abate clandestino encontrou subterfúgios para a sua existência, corroborando com o aparecimento de zoonoses ao favorecer a exposição dos animais a condições insalubres. Fica evidente que é impossível imaginar a trajetória para a obtenção de alimentos saudáveis, em processos que compreendem o manejo sanitário adequado dos animais e seu acompanhamento na cadeia de produção de forma adequada.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.37885/240215737",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Editora Científica Digital"
+        }
+      }
+    ]
+  },
+  "count": 38,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:05:22.192332+00:00"
+}

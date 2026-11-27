@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "O desenho técnico de moda atua como o principal instrumento de comunicação entre os setores de criação (designer), compras e modelagem/produção na indústria de confecção do vestuário.",
+    "stance": "supports",
+    "stance_target": "dependência da modelista em relação à clareza do desenho técnico enviado pela criação/estilo",
+    "evidence_type": "empirical",
+    "scope_conditions": "Indústria de confecção do vestuário e ensino técnico em Produção de Moda (CEFET/MG)",
+    "quoted_support": "O desenho de moda na indústria do vestuário tem grande importância na melhoria da comunicação entre as diferentes etapas de produção, principalmente entre os setores de criação e de modelagem. Por ser utilizado como base para no desenvolvimento de novos produtos, o desenho técnico é a ferramenta mais importante em um projeto de moda, sendo o meio de comunicação entre quem cria (o designer), quem compra e quem produz.",
+    "numbers": [],
+    "entities": ["Mariana Arantes e Silva", "Lucília Lemos de Andrade", "CEFET/MG", "Revista da META"],
+    "time_period": "2018",
+    "region": "Divinópolis, Minas Gerais, Brasil",
+    "confidence": "high",
+    "source_note_id": "desenho-técnico-de-moda-e-suas-funções-na-confecção-do-vestuário-revista-da-meta"
+  },
+  {
+    "claim": "A incompletude das especificações e partes do desenho técnico compromete a otimização do processo produtivo e a comunicação entre criação e modelagem nas confecções.",
+    "stance": "supports",
+    "stance_target": "falhas ou omissões no desenho técnico/ficha técnica geram gargalos e retrabalho para o setor de modelagem",
+    "evidence_type": "empirical",
+    "scope_conditions": "Confecções do vestuário no Brasil",
+    "quoted_support": "Por isso, a completude das partes do desenho é fundamental para otimização do processo produtivo. Baseado nessa realidade, o presente projeto busca levantar dados sobre os padrões de representação gráfica do desenho técnico de moda, suas principais funções e a importância desse tipo de desenho dentro das confecções do vestuário.",
+    "numbers": [],
+    "entities": ["CEFET/MG", "Revista da META"],
+    "time_period": "2018",
+    "region": "Minas Gerais, Brasil",
+    "confidence": "high",
+    "source_note_id": "desenho-técnico-de-moda-e-suas-funções-na-confecção-do-vestuário-revista-da-meta"
+  }
+]

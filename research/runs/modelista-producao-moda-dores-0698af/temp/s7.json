@@ -1,0 +1,494 @@
+{
+  "ok": true,
+  "data": {
+    "query": "Audaces 3D Lectra Modaris Optitex CLO 3D protótipo piloto vestuário tempo",
+    "scope": "all",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab",
+      "clinicaltrials"
+    ],
+    "per_source": {
+      "openalex": 0,
+      "crossref": 24,
+      "doab": 0,
+      "clinicaltrials": 0
+    },
+    "raw_records": 24,
+    "merged_records": 24,
+    "returned": 24,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref.",
+      "SEC EDGAR: set HYPERRESEARCH_CONTACT_EMAIL — the SEC rejects requests whose User-Agent carries no contact address (HTTP 403)",
+      "FRED: set FRED_API_KEY"
+    ],
+    "results": [
+      {
+        "title": "3D Virtual Prototype",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350065147.ch-006",
+        "doi": "10.5040/9781350065147.ch-006",
+        "year": 2019,
+        "authors": [],
+        "venue": "Digital Pattern Cutting for Fashion with Lectra Modaris®",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350065147.ch-006",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "3D Advanced",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350065147.ch-008",
+        "doi": "10.5040/9781350065147.ch-008",
+        "year": 2019,
+        "authors": [],
+        "venue": "Digital Pattern Cutting for Fashion with Lectra Modaris®",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350065147.ch-008",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Introduction And Preparation For 3D",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350065147.ch-005",
+        "doi": "10.5040/9781350065147.ch-005",
+        "year": 2019,
+        "authors": [],
+        "venue": "Digital Pattern Cutting for Fashion with Lectra Modaris®",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350065147.ch-005",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Moving On – Industrialization",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350065147.ch-004",
+        "doi": "10.5040/9781350065147.ch-004",
+        "year": 2019,
+        "authors": [],
+        "venue": "Digital Pattern Cutting for Fashion with Lectra Modaris®",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350065147.ch-004",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Digital Pattern Cutting for Fashion with Lectra Modaris®: From 2D Pattern Modification to 3D Prototyping",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350065147",
+        "doi": "10.5040/9781350065147",
+        "year": 2019,
+        "authors": [
+          "Patricia Grice"
+        ],
+        "venue": null,
+        "abstract": "Design your own original 2D patterns and use 3D prototyping to test your designs, achieve the perfect fit and make quick alterations. Pattern Cutting For Fashion with Lectra Modaris® will guide you from the basics of pattern modification through to 3D realisation, alteration and visual effects, as well as the completion of a finished production pattern. By viewing your garment in a virtual environment first, you will also be able to make design, colour, print and fabric decisions prior to toile making. Workshops include: A basic t-shirt; Dart modification; Darts into seams; Darts into flare; Button wrap and facings; A basic jean; Pleats in a skirt/trouser with pocket; A shirt with two piece collar/yoke; Modelling on the half scale stand and converting pattern to full scale.",
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "book",
+        "identifier": "10.5040/9781350065147",
+        "extra": {
+          "crossref_type": "book",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Getting Started",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350065147.ch-003",
+        "doi": "10.5040/9781350065147.ch-003",
+        "year": 2019,
+        "authors": [],
+        "venue": "Digital Pattern Cutting for Fashion with Lectra Modaris®",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350065147.ch-003",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Advanced Workshops",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350065147.ch-009",
+        "doi": "10.5040/9781350065147.ch-009",
+        "year": 2019,
+        "authors": [],
+        "venue": "Digital Pattern Cutting for Fashion with Lectra Modaris®",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350065147.ch-009",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Confidence Building Workshops",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350065147.ch-007",
+        "doi": "10.5040/9781350065147.ch-007",
+        "year": 2019,
+        "authors": [],
+        "venue": "Digital Pattern Cutting for Fashion with Lectra Modaris®",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350065147.ch-007",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Quick Reference Guide",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350065147.ch-010",
+        "doi": "10.5040/9781350065147.ch-010",
+        "year": 2019,
+        "authors": [],
+        "venue": "Digital Pattern Cutting for Fashion with Lectra Modaris®",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350065147.ch-010",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "What Is Digitizing?",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350065147.ch-002",
+        "doi": "10.5040/9781350065147.ch-002",
+        "year": 2019,
+        "authors": [],
+        "venue": "Digital Pattern Cutting for Fashion with Lectra Modaris®",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350065147.ch-002",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "How It Works",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350065147.ch-001",
+        "doi": "10.5040/9781350065147.ch-001",
+        "year": 2019,
+        "authors": [],
+        "venue": "Digital Pattern Cutting for Fashion with Lectra Modaris®",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350065147.ch-001",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Lectra Modaris terminology glossary",
+        "source": "crossref",
+        "url": "https://doi.org/10.1016/b978-0-85709-231-1.50022-4",
+        "doi": "10.1016/b978-0-85709-231-1.50022-4",
+        "year": 2012,
+        "authors": [],
+        "venue": "Pattern Cutting for Clothing Using CAD",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1016/b978-0-85709-231-1.50022-4",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Title blocks in Lectra Modaris pattern cutting software",
+        "source": "crossref",
+        "url": "https://doi.org/10.1533/9780857097095.14",
+        "doi": "10.1533/9780857097095.14",
+        "year": 2012,
+        "authors": [
+          "M. Stott"
+        ],
+        "venue": "Pattern Cutting for Clothing Using CAD",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1533/9780857097095.14",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Recommended abbreviations for naming pattern pieces in Lectra Modaris",
+        "source": "crossref",
+        "url": "https://doi.org/10.1016/b978-0-85709-231-1.50020-0",
+        "doi": "10.1016/b978-0-85709-231-1.50020-0",
+        "year": 2012,
+        "authors": [],
+        "venue": "Pattern Cutting for Clothing Using CAD",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1016/b978-0-85709-231-1.50020-0",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Facilitando a Transição: Audaces e Lectra em Foco",
+        "source": "crossref",
+        "url": "https://doi.org/10.18406/2359-1269v11n72024495",
+        "doi": "10.18406/2359-1269v11n72024495",
+        "year": 2025,
+        "authors": [
+          "Maria Luiza Teixeira Delfino",
+          "Maria Concebida Pereira"
+        ],
+        "venue": "Revista Eixos Tech",
+        "abstract": "A transição entre softwares de modelagem do vestuário, como Audaces Moldes e Lectra Modaris, representa um desafio significativo para os profissionais da indústria da moda. Este estudo visa analisar as diferenças nas ferramentas de modelagem entre esses dois softwares e seu impacto na adaptação dos modelistas. A pesquisa foi estruturada em quatro fases, conforme a metodologia do Double Diamond: descobrir, definir, desenvolver e entregar. Na fase descobrir foram identificadas as principais dificuldades enfrentadas pelos usuários por meio de pesquisas qualitativas e quantitativas. A fase definir envolveu uma análise sincrônica das ferramentas, enquanto a fase desenvolver foi proposto a elaboração de um guia \"DE-PARA\" que compara as funcionalidades equivalentes entre os softwares. Na fase entregar, o foco foi preparar a disponibilização do guia e planejar sessões de treinamento. Os resultados revelaram lacunas significativas na personalização e na usabilidade, e o feedback dos usuários foi muito importante para a construção do guia. Espera-se que este estudo contribua para uma melhor compreensão das necessidades dos modelistas e ofereça um recurso prático para simplificar e facilitar a transição entre os softwares, promovendo uma adaptação mais eficiente e eficaz ao novo ambiente de trabalho.",
+        "pdf_url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/download/495/300",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.18406/2359-1269v11n72024495",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "IFSULDEMINAS (Instituto Federal do Sul de Minas)"
+        }
+      },
+      {
+        "title": "Creating size ranges in Lectra Modaris pattern cutting software",
+        "source": "crossref",
+        "url": "https://doi.org/10.1533/9780857097095.117",
+        "doi": "10.1533/9780857097095.117",
+        "year": 2012,
+        "authors": [
+          "M. Stott"
+        ],
+        "venue": "Pattern Cutting for Clothing Using CAD",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1533/9780857097095.117",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Digitising a clothing pattern on Lectra Modaris pattern cutting software",
+        "source": "crossref",
+        "url": "https://doi.org/10.1533/9780857097095.24",
+        "doi": "10.1533/9780857097095.24",
+        "year": 2012,
+        "authors": [
+          "M. Stott"
+        ],
+        "venue": "Pattern Cutting for Clothing Using CAD",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1533/9780857097095.24",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "A guide to the toolbox in Lectra Modaris pattern cutting software: F4–F8",
+        "source": "crossref",
+        "url": "https://doi.org/10.1533/9780857097095.69",
+        "doi": "10.1533/9780857097095.69",
+        "year": 2012,
+        "authors": [
+          "M. Stott"
+        ],
+        "venue": "Pattern Cutting for Clothing Using CAD",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1533/9780857097095.69",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Reducing textile waste through digital technologies: Case study of CLO 3D and Audaces in fashion design",
+        "source": "crossref",
+        "url": "https://doi.org/10.5937/ct_iti25041p",
+        "doi": "10.5937/ct_iti25041p",
+        "year": 2025,
+        "authors": [
+          "Marija Pešić",
+          "Ineta Nemeša",
+          "Danka Đurđić"
+        ],
+        "venue": "Savremeni trendovi i inovacije u tekstilnoj industriji - Contemporary trends and innovations in the textile industry - CT&amp;ITI 2025 - zbornik radova",
+        "abstract": "The work deals with the problem of excessive generation of textile waste in the fashion industry, with a special focus on the stages of design and production of clothing. Modern methods and digital technologies that enable waste minimization are analyzed, including zero-waste design, 3D simulations, digital prototyping and artificial intelligence. Special attention is paid to CLO 3D and Audaces software solutions, which enable more precise tailoring, optimization of material consumption and more efficient production of clothing. The implementation of these technologies contributes to sustainability, reducing the negative impact on the environment and moving towards a circular model of the fashion industry.",
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "10.5937/ct_iti25041p",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Union of Engineers and Technicians of Serbia, Belgrade"
+        }
+      },
+      {
+        "title": "The upper tool bar in Lectra Modaris pattern cutting software",
+        "source": "crossref",
+        "url": "https://doi.org/10.1533/9780857097095.84",
+        "doi": "10.1533/9780857097095.84",
+        "year": 2012,
+        "authors": [
+          "M. Stott"
+        ],
+        "venue": "Pattern Cutting for Clothing Using CAD",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1533/9780857097095.84",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Introduction to the keyboard mouse and screen layout in Lectra Modaris pattern cutting software",
+        "source": "crossref",
+        "url": "https://doi.org/10.1533/9780857097095.7",
+        "doi": "10.1533/9780857097095.7",
+        "year": 2012,
+        "authors": [
+          "M. Stott"
+        ],
+        "venue": "Pattern Cutting for Clothing Using CAD",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1533/9780857097095.7",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "The lower tool bar menus and keyboard commands in Lectra Modaris pattern cutting software",
+        "source": "crossref",
+        "url": "https://doi.org/10.1533/9780857097095.100",
+        "doi": "10.1533/9780857097095.100",
+        "year": 2012,
+        "authors": [
+          "M. Stott"
+        ],
+        "venue": "Pattern Cutting for Clothing Using CAD",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1533/9780857097095.100",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Alisa-Bra Design Using a Digital Workflow Combining Clo 3D and 3D Knitting",
+        "source": "crossref",
+        "url": "https://doi.org/10.31274/itaa.17251",
+        "doi": "10.31274/itaa.17251",
+        "year": 2024,
+        "authors": [
+          "Krissi Riewe Stevenson"
+        ],
+        "venue": "Bridging the Divide",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.31274/itaa.17251",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Iowa State University Digital Press"
+        }
+      },
+      {
+        "title": "A guide to the toolbox in Lectra Modaris pattern cutting software: F1–F3",
+        "source": "crossref",
+        "url": "https://doi.org/10.1533/9780857097095.53",
+        "doi": "10.1533/9780857097095.53",
+        "year": 2012,
+        "authors": [
+          "M. Stott"
+        ],
+        "venue": "Pattern Cutting for Clothing Using CAD",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1533/9780857097095.53",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      }
+    ]
+  },
+  "count": 24,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T06:06:08.654097+00:00"
+}

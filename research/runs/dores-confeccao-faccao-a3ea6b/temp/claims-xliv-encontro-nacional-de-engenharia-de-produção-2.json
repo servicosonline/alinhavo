@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "A gestão familiar centralizada em pequenas confecções concentra as decisões na figura da gestora, gerando sobrecarga administrativa, impedindo a autonomia dos colaboradores e dificultando o controle produtivo e a identificação de perdas.",
+    "stance": "supports",
+    "stance_target": "centralização gerencial e sobrecarga do proprietário como causas de descontrole produtivo em pequenas confecções",
+    "evidence_type": "empirical",
+    "scope_conditions": "Estudo de caso em indústria de pequeno porte de confecção feminina em Feira de Santana-BA",
+    "quoted_support": "Tal realidade, dificulta o controle do processo produtivo em pequenas empresas, já que a gestão familiar centralizada dificulta a identificação de perdas existentes (LAZZARIN, 2019). Por conta disso, existe uma sobrecarga de atividades na gestora, que se tornou responsável por muitas decisões o que muitas vezes, resulta no descontrole da produção e ocorrência de desperdícios.",
+    "numbers": [],
+    "entities": ["UFRB", "ENEGEP", "Feira de Santana"],
+    "time_period": "2024",
+    "region": "Feira de Santana, Bahia, Brasil",
+    "confidence": "high",
+    "source_note_id": "xliv-encontro-nacional-de-engenharia-de-produção-2"
+  },
+  {
+    "claim": "Retrabalhos em pequenas confecções decorrem tanto de falhas na etapa de costura quanto da colocação recorrente de etiquetas com tamanho ou referência errados, gerando problemas diretos no momento da venda.",
+    "stance": "supports",
+    "stance_target": "ocorrência de retrabalho operacional e erros de etiquetagem/grade em pequenas confecções",
+    "evidence_type": "empirical",
+    "scope_conditions": "Estudo de caso em confecção de pequeno porte de vestuário feminino em Feira de Santana-BA",
+    "quoted_support": "Além disso, foi apontado a ocorrência de retrabalhos que em sua maioria são derivados tanto da produção da costura, como da falta de atenção na etapa de etiquetagem da peça. Segundo a gestora, a ocorrência de peças com etiquetas com referência errada é recorrente, o que gera problemas no momento da venda e atividades de retrabalho.",
+    "numbers": [],
+    "entities": ["UFRB", "ENEGEP"],
+    "time_period": "2024",
+    "region": "Feira de Santana, Bahia, Brasil",
+    "confidence": "high",
+    "source_note_id": "xliv-encontro-nacional-de-engenharia-de-produção-2"
+  },
+  {
+    "claim": "O armazenamento de fichas de produção em pastas físicas sem visualização acessível no setor de finalização causa falta de controle sobre o status das ordens e ausência de clareza quanto às prioridades do fluxo produtivo.",
+    "stance": "supports",
+    "stance_target": "descontrole de ordens de produção e falta de visibilidade de WIP (work in progress) em pequenas confecções",
+    "evidence_type": "empirical",
+    "scope_conditions": "Setor de finalização de pequena confecção de vestuário feminino em Feira de Santana-BA",
+    "quoted_support": "Assim, desenvolveu-se um quadro divido em 3 lacunas, a fazer, fazendo e feito, onde devem ser usadas as fichas das peças, que vão ocupar cada lacuna de acordo com o status da produção (Figura 4). Esse quadro foi implantado no setor de finalização, onde as fichas das peças ficavam armazenadas em uma pasta, sem muita visualização e fácil acesso.",
+    "numbers": ["3 lacunas"],
+    "entities": ["UFRB", "ENEGEP"],
+    "time_period": "2024",
+    "region": "Feira de Santana, Bahia, Brasil",
+    "confidence": "high",
+    "source_note_id": "xliv-encontro-nacional-de-engenharia-de-produção-2"
+  },
+  {
+    "claim": "A introdução de um dispositivo Poka-Yoke visual (adesivo demarcado com os tamanhos P, M e G na mesa de dobra e etiquetagem) induz a separação prévia por grade e previne a troca de etiquetas de tamanho nas peças confeccionadas.",
+    "stance": "supports",
+    "stance_target": "viabilidade de dispositivos simples de prevenção de erros (Poka-Yoke) na expedição/etiquetagem de confecções",
+    "evidence_type": "empirical",
+    "scope_conditions": "Setor de etiquetagem e dobra em pequena confecção feminina (grade P, M e G)",
+    "quoted_support": "Para evitar o erro, foi proposto o desenvolvimento de um adesivo que pudesse ser plotado na mesa em que as peças são dobradas e etiquetadas. Esse adesivo contém 3 lacunas, divididas em P, M e G que corresponde a grade usualmente utilizada pela empresa.",
+    "numbers": ["3 lacunas"],
+    "entities": ["UFRB", "ENEGEP"],
+    "time_period": "2024",
+    "region": "Feira de Santana, Bahia, Brasil",
+    "confidence": "high",
+    "source_note_id": "xliv-encontro-nacional-de-engenharia-de-produção-2"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "verdict": "partially-supported",
+    "severity": "critical",
+    "sentence": "Além disso, a adoção do 3D exige estações de trabalho cerca de **3 vezes mais caras** (**R$ 11.000** para rodar o CLO3D contra **R$ 3.500** para o CAD 2D Audaces no levantamento de Navarra, onde a economia de $425,43\\text{ g}$ distribuída entre o Vestido Morgan com $164,36\\text{ g}$, a Alça Vitória com $232,17\\text{ g}$ e a Calça Jules com $28,98\\text{ g}$ decorreu sobretudo do encaixe [[universidade-de-são-paulo-10]]) e transfere à modelista o encargo de medir rigidez de flexão, cisalhamento e extensão: embora preditores ópticos assistidos por IA como o **SEDDI Textura** alcancem erro médio de 5% a 8% e expliquem **86,7% da variância do caimento** (contra 75,3% do *CLO Fabric Kit*), a maioria das confecções não dispõe de tais instrumentos [[analysis-of-woven-fabric-mechanical-properties-in-the-context-of-sustainable-clo]].",
+    "cited_note_id": "analysis-of-woven-fabric-mechanical-properties-in-the-context-of-sustainable-clo",
+    "correct_note_id": null,
+    "evidence": "A nota citada (Glombikova et al., 2024) comprova a necessidade de calibração mecânica (flexão, cisalhamento e extensão) e os desvios de simulação no CLO3D, mas não menciona o sistema SEDDI Textura nem os percentuais específicos de erro médio (5% a 8%) e variância explicada (86,7% vs. 75,3%).",
+    "suggested_fix": "soften claim to what the source supports"
+  },
+  {
+    "verdict": "wrong-source",
+    "severity": "critical",
+    "sentence": "Contudo, há um conflito geométrico insolúvel entre conforto anatômico e compacidade retangular: curvas acentuadas de gancho traseiro (indispensáveis no *plus size*), recortes anatômicos e saias evasê ou godê — que aumentam o consumo têxtil em cerca de **+15%** frente à base reta nos testes de Habib et al. (2026) [[systematic-pattern-engineering-of-basic-bodice-blocks-2d3d-virtual-prototyping-a]] — geram vazios intersticiais inevitáveis de **15% a 20%** no enfesto [[zero-waste-in-apparel-industry-limitations-and-alternatives-sustainability-in-de]].",
+    "cited_note_id": "zero-waste-in-apparel-industry-limitations-and-alternatives-sustainability-in-de",
+    "correct_note_id": "universidade-de-são-paulo-5",
+    "evidence": "A nota citada contém apenas os metadados de submissão OJS do artigo de Kauvauti (2024) sem o percentual no corpo, enquanto o texto integral da dissertação de Kauvauti (universidade-de-são-paulo-5) documenta que cerca de 15% a 17% dos tecidos tornam-se resíduos sólidos no corte convencional.",
+    "suggested_fix": "swap citation"
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "critical",
+    "sentence": "Embora a modelagem *Zero Waste* (desperdício zero) busque eliminar esse resíduo na concepção criativa, Kauvauti (2022/2024, EACH-USP) demonstra que ela colide na produção seriada com a necessidade de participação direta da modelista desde o design, com a deformação não linear dos perímetros ao graduar uma grade ampla e com a variação na largura útil dos rolos entregues pelas tecelagens (que oscilam, por exemplo, de **$1,48\\text{ m}$ a $1,54\\text{ m}$** para um tecido nominal de $1,50\\text{ m}$, além de ourelas irregulares), obrigando a modelista a refazer o risco de última hora na sala de corte sempre que a partida chega mais estreita [[modelagem-zero-waste-e-sua-aplicação-na-indústria-do-vestuário-conceitos-prática]], [[zero-waste-in-apparel-industry-limitations-and-alternatives-sustainability-in-de]], [[universidade-de-são-paulo-12]].",
+    "cited_note_id": "universidade-de-são-paulo-12",
+    "correct_note_id": "universidade-de-são-paulo-5",
+    "evidence": "A nota universidade-de-são-paulo-12 (Dias, 2015) comprova a necessidade de controlar a variação da largura dos rolos no enfesto/corte, mas a faixa de largura de tecido para modelagem Zero Waste documentada por Kauvauti em universidade-de-são-paulo-5 é de 1,30 m a 1,50 m (e não 1,48 m a 1,54 m).",
+    "suggested_fix": "soften claim to what the source supports"
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "critical",
+    "sentence": "Esses achados confirmam a Análise Ergonômica do Trabalho conduzida por Planca, Merino e Merino (2016) em um *bureau* de modelagem em Gaspar–SC (Vale do Itajaí), onde uma modelista de 48 anos (com 27 anos de profissão, operando Audaces Moldes/Encaixe, mesa digitalizadora e duas *plotters*) chegava a cumprir **jornadas de 15 a 18 horas diárias** em picos de lançamento de coleção, apresentando pontuação **RULA nível 6** (*Rapid Upper Limb Assessment*, protocolo ergonômico de avaliação rápida dos membros superiores em escala de 1 a 7, cujo nível 6 indica necessidade de investigação e mudanças imediatas), dor cervical de intensidade máxima (5/5) e afastamento médico por crise lombar e compressão do nervo ciático [[m-o-d-a-p-a-l-a-v-r-a-e-p-e-r-i-ó-d-i-c-o-3]].",
+    "cited_note_id": "m-o-d-a-p-a-l-a-v-r-a-e-p-e-r-i-ó-d-i-c-o-3",
+    "correct_note_id": null,
+    "evidence": "O estudo de Planca, Merino e Merino (2016) comprova a modelista de 48 anos (27 anos de profissão) no bureau em Gaspar-SC operando Audaces e duas plotters com jornadas de 15 a 18 horas diárias, dor cervical e afastamento por crise lombar/nervo ciático, mas aplicou apenas entrevista e Questionário Nórdico — não aplicou o protocolo RULA (nem pontuação RULA nível 6) nem escala 5/5.",
+    "suggested_fix": "soften claim to what the source supports"
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "critical",
+    "sentence": "Além de **24% das confecções não possuírem modelista interna** — transferindo a pressão para escritórios terceirizados (*bureaux*) e profissionais autônomas submetidas a metas estritas de entrega por peça [[6-resultado-da-pesquisa]], [[ergonomia-física-as-exigências-presentes-na-atuação-de-modelista-do-vestuário-mo]], [[physis-revista-de-saúde-coletiva-rio-de-janeiro-v-301-e300106-2020]] —, Silveira (2011) documenta duas patologias organizacionais graves na gestão do setor: (1) a **divisão disfuncional entre modelista de papel e operador leigo de computador**, na qual empresários alocam jovens sem formação em modelagem para operar o CAD, obrigando a modelista sênior a despender parte de sua jornada auditando e corrigindo erros geométricos de quem desconhece a anatomia do vestuário; e (2) a **extensão compensatória de jornada**, exemplificada por trabalhadoras que, após cumprirem treinamento interno de CAD até as 18h, foram obrigadas a trabalhar no setor de corte até as **22 horas** para repor a meta diária de produção não abonada pela empresa [[6-resultado-da-pesquisa]], [[análise-dos-resultados-da-pesquisa-com-foco-na-gestão]].",
+    "cited_note_id": "6-resultado-da-pesquisa",
+    "correct_note_id": null,
+    "evidence": "A tese de Silveira (2011) comprova que 24% das empresas não possuem modelista interna, que empresários treinam auxiliares de corte leigas em modelagem no CAD e que uma funcionária teve de fazer hora extra após o treinamento diário para não atrasar o serviço, mas não especifica horário até as 18h nem trabalho no corte até as 22 horas.",
+    "suggested_fix": "soften claim to what the source supports"
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "critical",
+    "sentence": "Além de **24% das confecções não possuírem modelista interna** — transferindo a pressão para escritórios terceirizados (*bureaux*) e profissionais autônomas submetidas a metas estritas de entrega por peça [[6-resultado-da-pesquisa]], [[ergonomia-física-as-exigências-presentes-na-atuação-de-modelista-do-vestuário-mo]], [[physis-revista-de-saúde-coletiva-rio-de-janeiro-v-301-e300106-2020]] —, Silveira (2011) documenta duas patologias organizacionais graves na gestão do setor: (1) a **divisão disfuncional entre modelista de papel e operador leigo de computador**, na qual empresários alocam jovens sem formação em modelagem para operar o CAD, obrigando a modelista sênior a despender parte de sua jornada auditando e corrigindo erros geométricos de quem desconhece a anatomia do vestuário; e (2) a **extensão compensatória de jornada**, exemplificada por trabalhadoras que, após cumprirem treinamento interno de CAD até as 18h, foram obrigadas a trabalhar no setor de corte até as **22 horas** para repor a meta diária de produção não abonada pela empresa [[6-resultado-da-pesquisa]], [[análise-dos-resultados-da-pesquisa-com-foco-na-gestão]].",
+    "cited_note_id": "análise-dos-resultados-da-pesquisa-com-foco-na-gestão",
+    "correct_note_id": null,
+    "evidence": "O capítulo 7 de Silveira (2011) comprova a divisão disfuncional entre modelista de papel e operadora leiga de CAD e a realização de hora extra após o treinamento para não atrasar o serviço, mas não menciona os horários específicos de 18h e 22 horas.",
+    "suggested_fix": "soften claim to what the source supports"
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "* **Evolução de Softwares CAD 2D/3D e Inteligência Artificial Aplicada:** No horizonte tecnológico dos próximos anos, para superar a dependência do papel [[6-resultado-da-pesquisa]], as plataformas de modelagem e prova virtual precisam evoluir em quatro direções concretas: (1) **digitalização óptica direta por câmera (Scan de moldes de papel)** com detecção automática de contornos e piques, eliminando a fadiga de mesas digitalizadoras [[m-o-d-a-p-a-l-a-v-r-a-e-p-e-r-i-ó-d-i-c-o-3]]; (2) **calibração física simplificada e preditores ópticos por IA** (como réguas de comprimento de flexão, equilíbrio estático por gramatura e sistemas tipo SEDDI Textura que dispensam laboratórios KES-FB/FAST) [[analysis-of-woven-fabric-mechanical-properties-in-the-context-of-sustainable-clo]], [[universidade-de-são-paulo-13]]; (3) **avatares 3D morfologicamente plurais e cinemáticos**, que incluam corpos *plus size* (oval, diamante, colher), estaturas *petite* ($<1,50\\text{ m}$), posturas senis (60+) e simulação obrigatória na **postura sentada** para capturar os picos de deformação articular [[tekstilna-industrija-broj-4-2021]], [[universidade-de-são-paulo-11]], [[ergonomia-do-vestuário-para-idosas-de-60-a-75-anos]]; e (4) posicionamento da **prova 3D como filtro visual pré-físico** acoplado lado a lado ao editor 2D e ao encaixe automático — cuja meta projetada pela literatura da Indústria 4.0 é reduzir de 3–5 para 1 as rodadas de prototipagem física [[utilização-das-ferramentas-da-indústria-40-para-a-prototipagem-no-setor-de-ves-2]], embora ainda inexistam estudos longitudinais em confecções reais medindo a taxa efetiva de pilotos eliminadas pós-implantação —, sem jamais abolir a peça-piloto física final submetida à lavanderia real [[comparative-study-of-real-and-virtual-garments-appearance-and-distance-ease-mate]], [[universidade-de-são-paulo-12]].",
+    "cited_note_id": "m-o-d-a-p-a-l-a-v-r-a-e-p-e-r-i-ó-d-i-c-o-3",
+    "correct_note_id": null,
+    "evidence": "O artigo de Planca, Merino e Merino (2016) documenta o uso de mesa digitalizadora para transferir moldes de papel ao CAD no bureau de modelagem, mas não menciona digitalização óptica direta por câmera (Scan de moldes de papel).",
+    "suggested_fix": "soften claim to what the source supports"
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "critical",
+    "sentence": "* **Evolução de Softwares CAD 2D/3D e Inteligência Artificial Aplicada:** No horizonte tecnológico dos próximos anos, para superar a dependência do papel [[6-resultado-da-pesquisa]], as plataformas de modelagem e prova virtual precisam evoluir em quatro direções concretas: (1) **digitalização óptica direta por câmera (Scan de moldes de papel)** com detecção automática de contornos e piques, eliminando a fadiga de mesas digitalizadoras [[m-o-d-a-p-a-l-a-v-r-a-e-p-e-r-i-ó-d-i-c-o-3]]; (2) **calibração física simplificada e preditores ópticos por IA** (como réguas de comprimento de flexão, equilíbrio estático por gramatura e sistemas tipo SEDDI Textura que dispensam laboratórios KES-FB/FAST) [[analysis-of-woven-fabric-mechanical-properties-in-the-context-of-sustainable-clo]], [[universidade-de-são-paulo-13]]; (3) **avatares 3D morfologicamente plurais e cinemáticos**, que incluam corpos *plus size* (oval, diamante, colher), estaturas *petite* ($<1,50\\text{ m}$), posturas senis (60+) e simulação obrigatória na **postura sentada** para capturar os picos de deformação articular [[tekstilna-industrija-broj-4-2021]], [[universidade-de-são-paulo-11]], [[ergonomia-do-vestuário-para-idosas-de-60-a-75-anos]]; e (4) posicionamento da **prova 3D como filtro visual pré-físico** acoplado lado a lado ao editor 2D e ao encaixe automático — cuja meta projetada pela literatura da Indústria 4.0 é reduzir de 3–5 para 1 as rodadas de prototipagem física [[utilização-das-ferramentas-da-indústria-40-para-a-prototipagem-no-setor-de-ves-2]], embora ainda inexistam estudos longitudinais em confecções reais medindo a taxa efetiva de pilotos eliminadas pós-implantação —, sem jamais abolir a peça-piloto física final submetida à lavanderia real [[comparative-study-of-real-and-virtual-garments-appearance-and-distance-ease-mate]], [[universidade-de-são-paulo-12]].",
+    "cited_note_id": "utilização-das-ferramentas-da-indústria-40-para-a-prototipagem-no-setor-de-ves-2",
+    "correct_note_id": null,
+    "evidence": "O artigo de Bittencourt, Silveira e Rosa sustenta que a simulação 3D antecipa problemas de ajuste e reduz erros, retrabalhos e custos antes da peça-piloto física, mas não especifica os números de redução de 3–5 para 1 rodada de prototipagem física.",
+    "suggested_fix": "soften claim to what the source supports"
+  }
+]

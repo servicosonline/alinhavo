@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "Em indústrias de Private Label do segmento jeanswear, antes de construir a modelagem definitiva, o setor de modelagem precisa enviar uma tira de amostra do tecido à lavanderia industrial para aferir a porcentagem exata de encolhimento na trama e no urdume, evitando que a peça lavada fique disforme ou fora da tabela de medidas da marca contratante.",
+    "stance": "supports",
+    "stance_target": "Obrigatoriedade do teste prévio de encolhimento em lavanderia (trama e urdume) para dimensionamento do molde de jeanswear",
+    "evidence_type": "empirical",
+    "scope_conditions": "Estudo de caso em indústria de Private Label de jeanswear no Paraná",
+    "quoted_support": "Para que a modelagem seja feita de forma correta, antes de tudo, é preciso saber qual a porcentagem de encolhimento do tecido. Para isso é enviada uma tira do tecido para a lavanderia, onde passará pelo processo de lavagem que foi escolhido para a peça, e assim verificado o quanto encolheu na trama e no urdume, evitando que a peça saia disforme ou menor que o desejado depois de pronta.",
+    "numbers": [],
+    "entities": ["Haylton Acácio Gaspar", "Lucimar de Fátima Bilmaia Emidio", "Valdirene Aparecida Vieira Nunes", "UEL", "UNESP"],
+    "time_period": "2014",
+    "region": "Paraná, Brasil",
+    "confidence": "high",
+    "source_note_id": "gramado-rs-3"
+  },
+  {
+    "claim": "No setor de encaixe computadorizado (CAD) de empresas de confecção jeanswear, busca-se um aproveitamento de 80% a 90% da área útil do tecido para reduzir o desperdício de matéria-prima e viabilizar o custo final da peça.",
+    "stance": "supports",
+    "stance_target": "Benchmark industrial de aproveitamento de tecido no encaixe CAD (80% a 90%) e pressão de custos sobre o modelista/encaixador",
+    "evidence_type": "empirical",
+    "scope_conditions": "Indústria de Private Label de jeanswear no Paraná",
+    "quoted_support": "Depois de aprovada a peça piloto, a modelagem é graduada nos tamanhos pedidos pelo cliente e passa pelo processo de encaixe, onde se busca o aproveitamento de 80% a 90% do tecido, evitando o desperdício.",
+    "numbers": ["80% a 90% de aproveitamento do tecido"],
+    "entities": ["Haylton Acácio Gaspar", "Lucimar de Fátima Bilmaia Emidio", "Valdirene Aparecida Vieira Nunes"],
+    "time_period": "2014",
+    "region": "Paraná, Brasil",
+    "confidence": "high",
+    "source_note_id": "gramado-rs-3"
+  },
+  {
+    "claim": "A terceirização da costura e lavanderia em empresas de Private Label exige acompanhamento presencial diário de um responsável técnico munido da peça piloto e da ficha técnica, pois falhas de comunicação e má administração das oficinas terceirizadas geram erros na sequência operacional, retrabalhos e perdas financeiras substanciais.",
+    "stance": "supports",
+    "stance_target": "Riscos de retrabalho, desvios de sequência operacional e perdas financeiras na subcontratação de facções de costura e lavanderia",
+    "evidence_type": "empirical",
+    "scope_conditions": "Terceirização produtiva (facções de costura e lavanderias) no segmento de jeanswear",
+    "quoted_support": "Entende-se que processo produtivo mal administrado pode acarretar problemas futuros como retrabalhos e falhas nas sequências operacionais, resultando perdas substanciais para empresa.",
+    "numbers": ["100% do processo produtivo terceirizado em operações Private Label"],
+    "entities": ["Haylton Acácio Gaspar", "Lucimar de Fátima Bilmaia Emidio", "Valdirene Aparecida Vieira Nunes", "ABRAL"],
+    "time_period": "2014",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "gramado-rs-3"
+  },
+  {
+    "claim": "No modelo de negócios Private Label de jeanswear, devido à alta semelhança de matérias-primas, lavagens e aviamentos e à pressão por prazos mínimos, é prática recorrente que o fornecedor reaproveite bases e modelos, entregando peças piloto muito próximas ou idênticas a marcas concorrentes.",
+    "stance": "supports",
+    "stance_target": "Reaproveitamento de bases e padronização forçada de peças piloto sob pressão de tempo em empresas Private Label",
+    "evidence_type": "empirical",
+    "scope_conditions": "Empresas de Private Label do segmento jeanswear no Brasil",
+    "quoted_support": "Outra questão observada, neste perfil de empresa é o aproveitamento de peças e modelos, devido a grande semelhança de materiais, lavagens, e detalhes entre as marcas, é comum uma marca contratante obter ‘peças piloto’ muito próximas ou idênticas à outras empresas concorrentes.",
+    "numbers": [],
+    "entities": ["Haylton Acácio Gaspar", "Lucimar de Fátima Bilmaia Emidio", "Valdirene Aparecida Vieira Nunes"],
+    "time_period": "2014",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "gramado-rs-3"
+  }
+]

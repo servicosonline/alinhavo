@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Na avaliação postural pelo método REBA de 58 posturas em atividades de modelagem do vestuário, 100% exigiam intervenção ergonômica: 48,3% (28) apresentaram risco médio, 44,8% (26) risco alto, 5,1% (3) risco muito alto e apenas 1,8% (1) risco baixo, totalizando 98,2% de posturas em risco médio a muito alto.",
+    "stance": "supports",
+    "stance_target": "Alto risco biomecânico e necessidade de intervenção ergonômica nas bancadas de modelagem do vestuário",
+    "evidence_type": "statistical",
+    "scope_conditions": "Avaliação REBA de 58 posturas de 30 estudantes de curso técnico de modelagem do vestuário (15-35 anos)",
+    "quoted_support": "Observa-se que 28 (48,3%) posturas apresentaram risco médio, 26 (44,8 %) posturas são de risco alto, 3 (5,1 %) de risco muito alto e 1 (1,8 %) de risco baixo, analisando que 49% estão no nível médio, sendo que, no questionário nórdico, 11 estudantes apresentaram 18 queixas de dores em diversas regiões do corpo, que fizeram com que interrompessem as suas atividades normais (Tabela 3).",
+    "numbers": ["58 posturas", "98,2%", "28 (48,3%)", "26 (44,8%)", "3 (5,1%)", "1 (1,8%)"],
+    "entities": ["Método REBA", "UFRGS"],
+    "time_period": "2014-2018",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "revista-ação-ergonômica-v-13-n-1-2018"
+  },
+  {
+    "claim": "Durante as atividades de modelagem manual e computadorizada, as estudantes permanecem 60% do tempo na postura sentada e 40% em pé, adotando flexão cervical superior a 20°, flexão de tronco entre 20° e 60°, flexão de braços entre 20° e 90° e antebraços entre 60° e 100° devido ao tampo plano e sem regulagem de altura da mesa de modelagem.",
+    "stance": "supports",
+    "stance_target": "Sobrecarga cervical e lombar causada por mesas de modelagem de tampo plano horizontal sem regulagem de altura",
+    "evidence_type": "empirical",
+    "scope_conditions": "Observação direta e filmagem em laboratório de modelagem manual e informatizada",
+    "quoted_support": "Da aplicação da observação direta, das entrevistas e as filmagens, verificou-se que o tempo de manutenção na postura sentada é considerável, representando 60% do total de tempo que elas se dedicam às atividades de modelagem. O resto do tempo (40%) encontram-se modelando na posição em pé. Nas posturas analisadas durante as filmagens (Figura 6), observa-se que o pescoço fica com uma inclinação normalmente com mais de 20º em flexão, o tronco forma ângulos entre 20º e 60º, o punho sofre inclinações em flexão entre 0º e 15º com inclinação lateral em ambos os lados.",
+    "numbers": ["60%", "40%", ">20º", "20º e 60º", "0º e 15º", "20º e 90º", "60º e 100º"],
+    "entities": ["Método REBA"],
+    "time_period": "2014-2018",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "revista-ação-ergonômica-v-13-n-1-2018"
+  },
+  {
+    "claim": "No Questionário Nórdico aplicado a 30 estudantes de modelagem do vestuário, 46,7% (14) relataram dor ou desconforto em quadris/coxas e 40,0% (12) em pescoço, região dorsal, região lombar e tornozelos/pés nos últimos 12 meses, com 11 estudantes (18 ocorrências) tendo de interromper suas atividades normais.",
+    "stance": "supports",
+    "stance_target": "Prevalência de sintomas osteomusculares em coluna, membros inferiores e membros superiores na modelagem",
+    "evidence_type": "statistical",
+    "scope_conditions": "Questionário Nórdico aplicado a 30 estudantes de modelagem do vestuário",
+    "quoted_support": "Da Tabela 3, observa-se que as partes do corpo mais afetadas nos últimos doze meses são: - 14 estudantes (46,7% do total) apresentaram queixas nos quadris e coxas; - 12 estudantes (40,0% do total) apresentaram queixas no pescoço, na região dorsal, na região lombar e nos tornozelos e pés.",
+    "numbers": ["14 estudantes (46,7%)", "12 estudantes (40,0%)", "8 punho/mãos/dedos direito", "11 estudantes", "18 queixas"],
+    "entities": ["Questionário Nórdico", "NMQ"],
+    "time_period": "2014-2018",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "revista-ação-ergonômica-v-13-n-1-2018"
+  }
+]

@@ -1,0 +1,975 @@
+{
+  "ok": true,
+  "data": {
+    "query": "comunicacao criacao modelagem vestuario ruido ficha tecnica",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 25,
+      "crossref": 21,
+      "doab": 0
+    },
+    "raw_records": 46,
+    "merged_records": 46,
+    "returned": 46,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Laçando a história: um estudo sobre a criação de artigos de vestuário em malharia circular",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2017.tde-06072017-154415",
+        "doi": "10.11606/d.100.2017.tde-06072017-154415",
+        "year": 2017,
+        "authors": [
+          "Elga Lilian Buck Martins"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "Year after year Brazil has pointed to large numbers not only qualify as a potential consumer of fashion products as well as a solid importer of textile raw materials, including garments in circular knitting. Aim of this study, micro and small clothing companies in the metropolitan region of Campinas (SP) present important indicators of use of this textile as support to their product development. Given the situation of poor market demand for fashion items facing the country, seek to survival alternatives for these micro and small businesses in a fierce commercial space. So this research is guided by historical investigation of the social use of circular knitted items, understanding its manufacturing peculiarities, understanding of its commercial positioning it, and also investigates product development methods that can make garments arising from these knitwear, more interesting from a commercial point of view to small and medium-sized enterprises in the metropolitan region of Campinas. The starting point methodological references in industrial design exploited by Bernd Löbach, research sum concepts in fashion design run by Doris Treptow. The project also presents a case study of a microenterprise the said region should collaborate with the completion of this project",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-06072017-154415/publico/Original_ELGA.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2766412249",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A representação gráfica digital no vestuário",
+        "source": "openalex",
+        "url": "https://dspace.palermo.edu/ojs/index.php/actas/article/view/2638",
+        "doi": "10.18682/add.vi13.2638",
+        "year": 2020,
+        "authors": [
+          "Adriana Leiria Barreto Matos",
+          "Joana Cunha"
+        ],
+        "venue": "Actas de Diseño",
+        "abstract": "El Sector de la confección o vestuario se destaca por la agilidad, fundamental para la permanencia de las empresas dentro del mercado. Se sabe que la micro y pequeñas empresas realizan todos sus esfuerzos para sobrevivir en cada temporada, en busca de mantener su ritmo de trabajo en sintonía con el carácter efímero de los lanzamientos y tendencias. Dentro de este proceso, el dibujo técnico se utiliza casi siempre como una forma de expresar las ideas y propuestas del diseñador de moda para los nuevos productos. Este trabajo presenta los resultados y algunos matices de la investigación realizada al sector de la confección o vestuario, para verificar el estado de esta importante herramienta de trabajo y los puntos que requieren mejoría inmediata para que se obtengan ganancias reales de productividad.",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/actas/article/download/2638/4916",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7216375863",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Design de Malhas Multifuncionais para Aplicações Técnicas",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1822/9182",
+        "doi": null,
+        "year": 2008,
+        "authors": [
+          "Jefferson Mendes de Souza"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "Os têxteis têm sido utilizados pelo homem ao longo dos tempos, tendo evoluído, em termos de funcionalidade, de uma forma lenta. Os avanços tecnológicos em grande escala registados em todos os domínios científicos, nos últimos anos, possibilitaram que os materiais têxteis alargassem a sua gama de aplicações devido ao facto de apresentarem novas funcionalidades. Este trabalho centra-se na produção de uma colecção de vestuário interior destinado a prática de desporto, tendo como foco de desenvolvimento dois desportos, o futebol de salão, praticado por atletas masculinos e o voleibol, praticado por atletas femininos. Para cada desporto foi produzida uma colecção de vestuário interior desportivo em seamless com modelos de t-shirt e boxer para o futsal e t-shirt e cueca para o voleibol feminino, com base na técnica de produção patchwork, que permite dispor fibras que atendam às necessidades específicas de determinadas áreas do corpo. Para o desenvolvimento do trabalho foram realizadas ensaios subjectivos e objectivos numa colecção base de vestuário interior com modelos para ambos os desportos seleccionados, fornecidos pela empresa Sonicarla S.A. Após a recolha e análise dos dados, foi efectuada a selecção dos materiais funcionais em função das informações obtidas nos testes subjectivos. Posteriormente, foram desenvolvidas malhas funcionais em estrutura Jersey, onde foram aplicados ensaios laboratoriais no sentido de avaliar propriedades térmicas, controlo de humidade, atrito e bioactividade. Após o levantamento e interpretação dos resultados. Os dados obtidos permitiram elencar os materiais que melhor satisfizessem as necessidades dos atletas, sendo aplicados nos modelos de vestuário interior. Através dos dados recolhidos produziu-se uma colecção de vestuário interior aplicando o conceito patchwork. Conclui-se após a realização deste trabalho que o vestuário interior desportivo deve ser produzido de forma a atender as necessidades específicas de cada atleta tendo em conta as suas necessidades específicas com relação à prática do desporto. O vestuário desportivo para atletas de alto rendimento deve ser desvinculado da comercialização em massa, pois este não teria condições de ser produzido em série.",
+        "pdf_url": null,
+        "citation_count": 5,
+        "work_type": "thesis",
+        "identifier": "W2148387290",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Gestão da tecnologia de vestuário feminino de moda festa: um mapa do sistema informativo-comunicacional em ateliês",
+        "source": "openalex",
+        "url": "https://repositorio.udesc.br/handle/UDESC/20256",
+        "doi": null,
+        "year": 2024,
+        "authors": [
+          "Débora Jönck Hoffmann Koester"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Nos ateliês de moda festa, os quais são marcados por seu trabalho artesanal, as informações são sobretudo importantes na sua fase inicial referente ao setor de criação, que será o responsável por colher informações e as conduzir por todas as etapas de desenvolvimento. A informação tem o papel de conduzir e transmitir ações e decisões que refletem em todo um processo. No entanto esse fluxo comunicacional depende da capacidade de transmissão e compreensão dessa informação em todos os setores pelos quais irá percorrer. Ciente da necessidade de gerenciar o fluxo da informação no processo de concepção e produção das peças criadas pelo estilista, ou seja, a gestão da tecnologia do vestuário em ateliês de moda festa sob medida, esta dissertação tem por objetivo propor um mapa do sistema informativo-comunicacional digital para a gestão do conhecimento da tecnologia de vestuário em ateliês. A presente pesquisa se classifica como de finalidade aplicada, pois fará uso da abordagem qualitativa e descritiva quanto ao problema e objetivos, baseando-se no método científico indutivo como forma de análise do conhecimento adquirido. Quanto aos procedimentos técnicos a pesquisa será feita a partir de: revisão bibliográfica de livros, artigos científicos, teses e dissertações; pesquisa documental, acerca de documentos sobre o tema e empresa pesquisada; e pesquisa de levantamento, realizado através da aplicação de questionários para a coleta de dados com a empresa participante “Ateliê A” localizada no município de Florianópolis, Santa Catarina. Para a análise dos dados coletados será utilizado o método de análise por Triangulação de Dados, conforme Marcondes e Brisola (2014), entre outros autores. A dissertação trabalhará sua abordagem teórica em três eixos temáticos, sendo eles: (I) os ateliês de moda festa e suas características, abordando sua origem, como funcionam, quais são seus objetivos e o perfil do seu consumidor, conforme apresentado por Lipovetsky (2009), Vovelle (1991), Treptow (2013), e Sanches (2014; (II) gestão da tecnologia do vestuário em ateliês, descrevendo-se o fluxo de trabalho e da informação de um ateliê, identificando seus setores e suas respectivas finalidades; (III) a gestão da informação e comunicação, sua importância e essencialidade para o funcionamento de uma empresa formada por setores que se inter-relacionam, utilizando da teoria de Nonaka e Takeuchi (2008), e Choo (2006). Os resultados obtidos com a pesquisa serão utilizados para a construção do mapa do sistema informativo comunicacional de ateliê, para que seja possível gerir de forma ordenada as informações que regem o fluxo de trabalho dos ateliês de moda festa, otimizar tempo, minimizar erros e delinear a informação conforme cada etapa do processo de desenvolvimento da peça.",
+        "pdf_url": "https://repositorio.udesc.br/bitstreams/c20e818c-c7bb-485b-abdc-13807bb43826/download",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7120827898",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Cuidados e especificidades da comunicação médica",
+        "source": "openalex",
+        "url": "https://doi.org/10.31792/978-85-8458-049-1",
+        "doi": "10.31792/978-85-8458-049-1",
+        "year": 2025,
+        "authors": [
+          "Patrícia Regina Bastos Neder"
+        ],
+        "venue": "Universidade do Estado do Pará eBooks",
+        "abstract": "Como transformar palavras em cura? Este livro revela os segredos da comunicação médica que pode salvar vidas. Descubra estratégias revolucionárias para dialogar com pacientes analfabetos, vítimas de violência, portadores de HIV/AIDS e crianças autistas. Aprenda protocolos eficazes para comunicar diagnósticos difíceis como câncer e morte encefálica. Explore os desafios da telemedicina e da comunicação com pacientes surdos. Uma obra essencial que desvenda como a empatia, clareza e técnicas específicas podem transformar a relação médico-paciente, melhorar a adesão ao tratamento e humanizar o cuidado em saúde. Mais do que um manual: um convite à medicina verdadeiramente empática.",
+        "pdf_url": "https://doi.org/10.31792/978-85-8458-049-1",
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "W7239390374",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "A Comunicação mediada pelas tecnologias como fator de influência no desempenho de equipes em projetos de design de moda",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.23972/det2023iss26pp17-36",
+        "doi": "10.23972/det2023iss26pp17-36",
+        "year": 2023,
+        "authors": [
+          "Gabriela Kuhnen",
+          "Richard Perassi de Sousa",
+          "Gilson Braviano",
+          "Elton Moura Nickel"
+        ],
+        "venue": "Design e Tecnologia",
+        "abstract": "As equipes virtuais, assim como o trabalho remoto, possibilitam o agrupamento de indivíduos multidisciplinares de forma descentralizada, tornando, assim, as empresas capazes de atender as exigências competitivas do mercado e a concorrência global. Porém, a mediação da tecnologia e os novos processos comunicacionais podem afetar o desempenho da equipe à medida que surgem questões relacionadas aos aspectos psicossociais e à estruturação e padronização da informação. Nesse sentido, o presente trabalho tem como objeto de estudo a influência da comunicação mediada pelas tecnologias no desempenho das equipes em projetos de design de moda, com ênfase na indústria de confecção do vestuário. As modificações nas estruturas dos mercados, devido a incrementos tecnológicos, têm trazido desafios em relação à manutenção dessas equipes. No desenvolvimento de produto de moda, foi investigado como se estabelecem os processos de comunicação nos principais setores da fase executiva. Os principais indicadores de desempenho usados foram a satisfação relacionada a aspectos psicossociais; a eficiência associada a questões relacionadas ao retrabalho, conflitos e falta de convergência de significado; e a eficácia, medida através dos resultados alcançados em relação às metas estabelecidas. Através da triangulação de dados qualitativos, coletados em quatro empresas de desenvolvimento de produto de moda, com dados quantitativos extraídos de um questionário on-line, os resultados demonstraram que a complexidade da comunicação no design de moda se estabelece à medida que certas etapas necessitam de uma comunicação estruturada, padronizada e precisa, enquanto outras envolvem aspectos como interpretação de imagens, análise de cores ou formas e necessitam de uma comunicação mais rica e intersubjetiva, com alta variedade de símbolos de preferência síncrona.",
+        "pdf_url": "https://www.ufrgs.br/det/index.php/det/article/download/950/348",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4385756241",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Gestão de resíduos têxteis na manufatura do vestuário de moda em malharia retilínea: estudo de múltiplos casos",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2018.tde-06122017-215717",
+        "doi": "10.11606/d.100.2018.tde-06122017-215717",
+        "year": 2018,
+        "authors": [
+          "Ana Paula Gentile"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This qualitative research sought the environmental reality of some selected industrial knitting production in the region of Monte Sião, in Minas Gerais, regarding the greater or lesser presence of cleaner production concerns, as well as its vision in terms of reduction of water use, energy, and especially solid textile waste. It has been justified by the environmental concerns and their preservation that imply issues increasingly relevant and addressed in studies related to fashion clothing, such as design that is fully connected to everyday changes, and interested in reducing materials. Cleaner production is found in this context, aiming to add improvements in the process or product, seeking solutions through the presentation of some processes that guide these paths. A review of the literature on textiles, fashion and environmental scenarios and a field research were carried out based on qualitative exploratory research methods, using direct observations and semi-structured interviews accomplished on-site. Some research results suggest that the environmental reality of the industrial production of knitting products is in line with cleaner production, especially in relation to the treatment of solid textile waste. In the field research approach, differences were observed regarding actions aimed at minimizing water, energy, and solid textile waste generation, while showing them a concern and treatments, indicating in a certain way that there is a balance to the direction of the textile waste and the dedication in the treatment, being an important point of care of the industrial pole",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2788184908",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Ouro negro: a camiseta estampada como um veículo de comunicação do estilo do rap.",
+        "source": "openalex",
+        "url": "https://repositorio.ufsc.br/xmlui/handle/123456789/173181",
+        "doi": null,
+        "year": 2016,
+        "authors": [
+          "Mateus Ramon Falk Ramalho"
+        ],
+        "venue": "DSpace (Federal University of Santa Catarina)",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2594363346",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "REPRESENTAÇÃO DOS ATRIBUTOS DE AMOSTRAS TÊXTEIS EM MATERIOTECAS VIRTUAIS COMO SUPORTE À SELEÇÃO DE MATERIAL EM PROJETOS DE MODA E VESTUÁRIO",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.21726/pl.v6i1.2185",
+        "doi": "10.21726/pl.v6i1.2185",
+        "year": 2023,
+        "authors": [
+          "Emanoela Mardula",
+          "Dulce Maria Holanda Maciel",
+          "Icléía Silveira",
+          "Lucas da Rosa",
+          "Daniela Novelli"
+        ],
+        "venue": "Plural Design",
+        "abstract": "O presente artigo discute a digitalização de materiais têxteis no contexto de acervos acadêmicos. O objetivo que guiou esta pesquisa foi mapear, por meio de informações visuais, alternativas à apresentação dos materiais, de maneira que possam auxiliar designers de moda e de vestuário enquanto usuários de materiotecas virtuais. Foram utilizadas pesquisas qualitativa e descritiva, incluindo revisão da literatura e análise de acervos virtuais de naturezas diversas que apresentam tecidos digitalizados. Como resultado, são apresentadas estratégias para atender às necessidades de informação dos designers de moda ao pesquisar em materiotecas online.",
+        "pdf_url": "https://periodicos.univille.br/PL/article/download/2185/1704",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W4389575400",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "CAPACITAÇÃO TÉCNICA PARA AUTOMAÇÃO INDUSTRIAL",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.22533/at.ed.0612411013",
+        "doi": "10.22533/at.ed.0612411013",
+        "year": 2024,
+        "authors": [
+          "Marcelo Musci",
+          "Ian Suzano Marques de Sousa",
+          "Luís Eduardo Casemiro",
+          "Carlos Augusto Cruz da Silva",
+          "Marcos de Souza Freitas Machado",
+          "George Silva Cardoso Filho"
+        ],
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "abstract": "With the publication of ANEEL REN 482 in 2012, Brazilian electricity consumers gained the right to generate their own energy locally from renewable sources and benefit financially.The research aimed to carry out an investigation through a case study to analyze the investment of a photovoltaic system technically and economically for generating electricity in an industry.We used financial analysis tools to define the discounted payback, the internal rate of return and the net present value, considering the system's useful life of 25 years.The investment amounted to R$ 170,000.00 and showed a discounted payback of 5 years and 8 months, an IRR of 20.13%, which is higher than the 5% APR initially considered in the project, and a positive NPV of R$ 299,192.39,indicating that the project can be accepted.The investment made, when compared to savings, proved to be more attractive, with a higher financial return.In the simulation carried out considering the new scenario of ANEEL REN 1059/2022 (DG II), the consumer would see a reduction in benefit of 27.52% over the 25 years compared to DG I, with systems installed before 7/1/2023.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4390765230",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Curso de Formação para Professores da Base Técnica - ETE PROFESSOR FRANCISCO JONAS FEITOSA COSTA",
+        "source": "openalex",
+        "url": "https://doi.org/10.5281/zenodo.3952373",
+        "doi": "10.5281/zenodo.3952373",
+        "year": 2020,
+        "authors": [
+          "DANIEL DOS SANTOS ROCHA",
+          "ANA MARIA DE SIQUEIRA CAVALCANTI"
+        ],
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "abstract": "O curso de complementação pedagógica para professores da Base Técnica da ETE Arcoverde tem o objetivo de auxiliar os professores, que são em sua maioria bacharéis, sem formação pedagógica, a obterem uma visão mais didática dos processos educativos em sala de aula e adotarem novas práticas. Esperamos que possamos contribuir para a melhoria da sua prática em sala de aula, através das leituras de textos de renomados estudiosos brasileiros. Profissionais da educação, como nós, que tiveram sua prática de sala de aula como ferramenta de estudo, e hoje estão contribuindo com suas obras publicadas. A cada semana vivenciaremos uma competência que será concluída com uma Atividade, a qual terá quatro questões de múltipla escolha e uma aberta, que serão somadas as notas das quatro competências e divididas para obtenção da média do módulo.",
+        "pdf_url": "https://zenodo.org/record/3952374/files/CADERNO_CURSO%20DE%20COMPLEMENTA%C3%87%C3%83O%20PEDAG%C3%93GICA%20PARA%20PROFESSORES%20DA%20BASE%20T%C3%89CNICA.pdf",
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "W4287710923",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Garment design for the nursing field using User Experience (UX)",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/11449/244599",
+        "doi": null,
+        "year": 2023,
+        "authors": [
+          "Henrique Gil Arnoni"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Profissionais da área de saúde necessitam vestimentas que favoreçam suas atividades e mobilidade no local de trabalho, e garantam a prevenção contra a transmissão de agentes infecciosos no ambiente médico-hospitalar. Seu vestuário deve ser funcional, facilitando o acesso aos pacientes e o manuseio dos diferentes instrumentos de trabalho, de forma mais eficiente e segura, evitando o risco de contágio por infecções, vírus ou doenças. Assim, quando se busca a melhoria desse vestuário deve-se explorar soluções efetivas que proporcionem o bem-estar e o conforto dessa classe laboral, associado à sua proteção. Uma análise preliminar desse vestuário demonstrou insatisfação em relação aos aspectos de usabilidade, modelagem e funcionalidade nos trajes. Limitações em relação ao conforto foram apontadas, bem como falhas de ergonomia, má transpiração, falta de praticidade e estética, entre outros aspectos. Configurou-se a possibilidade de uma investigação que levasse ao desenvolvimento de um produto que melhor atendesse às necessidades desses usuários. Nesse sentido, a presente pesquisa propôs a melhoria do jaleco, peça de uso diário, atendendo às necessidades de conforto e movimento dos usuários de forma mais funcional e segura, corrigindo as inadequações pontuadas. A fundamentação se deu por meio de questionários e entrevistas com os profissionais de modo a identificar suas necessidades e expectativas, além de rastrear na literatura o estado da arte e os avanços tecnológicos do vestuário da área da saúde. Foram realizados três levantamentos em pesquisas online com usuários: o 1º deles teve como objetivo identificar o segmento a ser trabalhado, concluindo-se que a área da enfermagem no atendimento clínico seria a mais indicada; a 2ª pesquisa priorizou o tipo de peça e as necessidades dessa vestimenta e dos usuários, gerando os requisitos necessários para o desenvolvimento do produto. Com base nas duas coletas, foram estabelecidas as especificidades para a proposição da melhoria e inovação do jaleco. A 3ª pesquisa foi realizada para o refinamento dos requisitos previamente estabelecidos, para o aperfeiçoamento do traje, sendo complementada por entrevistas diretas validando essas informações. A partir dessa confirmação a peça foi idealizada e está em desenvolvimento. Será testada com o apoio de um grupo amostral de seis profissionais selecionados que atuam na área, sendo aprimorada com base na experiência do usuário (UX). Em concordância com as indicações de ajustes e correções apontadas neste teste, serão feitas as adaptações necessárias para a construção da peça final, devidamente aperfeiçoada como resultado e conclusão da pesquisa.",
+        "pdf_url": "https://repositorio.unesp.br/server/api/core/bitstreams/a070af77-e348-4fd7-9370-4a5f50245cfe/content",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7120826471",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A influência chinesa na moda ocidental",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/1822/59771",
+        "doi": null,
+        "year": 2018,
+        "authors": [
+          "Ana Margarida Moreira Pereira"
+        ],
+        "venue": "RepositóriUM (Universidade do Minho)",
+        "abstract": "A moda é uma arte que está em constante mudança e, por isso, os designers referenciam diversas influências na criação das suas coleções. Uma dessas influências é denominada influência chinesa. A dissertação “A influência Chinesa na Moda Ocidental” pretende analisar os elementos da cultura chinesa presentes na moda ocidental. Ao longo da dissertação é feito um enquadramento teórico, analisando a relação da semiótica com a moda. De seguida são analisados os simbolismos culturais chineses e posteriormente é comparado o design tradicional com o design moderno. A inspiração dos estilistas ocidentais é também retratada a fim de analisar as peças de vestuário que compõem esta tendência, utilizando uma metodologia qualitativa, com o instrumento da grelha de avaliação. Seguidamente, são analisadas as peças de vestuário e as marcas europeias que adotaram a tendência nas suas recentes coleções. Ao longo da dissertação, pretendo verificar se existe alguma presença da influência chinesa na moda ocidental, bem como dos elementos da cultura chinesa que os designers utilizam em junção com elementos da cultura ocidental, com uma tentativa de identificar os simbolismos que os designers ocidentais adotam de modo a incorporar a cultura chinesa.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2953062986",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Inclusive design : beachwear for women with intestinal and /or urinary stoma, developed through an adapted method",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/156920",
+        "doi": null,
+        "year": 2016,
+        "authors": [
+          "Jessica Andressa Collet"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Diversas vezes, como artifício de cura de algumas doenças do aparelho intestinal ou do trato urinário, um procedimento cirúrgico nomeado por estomia é uma técnica médica utilizada para manter o paciente em vida. Este procedimento acarreta em uma série de questões físicas e psicológicas para o estomizado, cuja falta de informação e de produtos modernos disponíveis no mercado podem agravar a situação. Através destas constatações, surgiu a intenção de criar produtos de moda, no segmento moda praia, para mulheres que passaram pela cirurgia em questão. Mas o intuito de desenvolvimento de tais produtos fez surgir, ainda, a constatação de outro problema: a carência de um método específico da moda que levasse em consideração as necessidades reais do usuário em questão. Enquanto as metodologias de design de produto têm focado no usuário, os métodos de projeto de moda costumam ignorar a pesquisa e as necessidades humanas, identificando o desenvolvimento com o estilo de quem o projeta. A possibilidade da constatação de necessidades reais do usuário, em projetos de moda, pode ser um caminho promissor se forem considerados os princípios do design. Sendo assim, o presente estudo teve como objetivo geral: desenvolver um método adaptado, embasado em métodos já consagrados do design e da moda, destinado para a criação de produtos de moda que possam atender às necessidades reais do usuário. Neste caso, para a criação de produtos no segmento moda praia que contemplem os anseios de mulheres com estoma. A criação e a aplicação da referida adaptação propiciou o desenvolvimento facilitado dos produtos pretendidos. Pretende-se que o método gerado seja válido para projetos de moda que, assim como este, possuam uma problemática bem definida e uma verificação de necessidade do usuário, assim como acontece nos projetos de design.",
+        "pdf_url": "https://lume.ufrgs.br/bitstream/10183/156920/1/001018735.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7119361419",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A importância da sensibilização e da informação para a melhoria da perceção real do risco",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1822/71011",
+        "doi": null,
+        "year": 2020,
+        "authors": [
+          "Daniela Filipa Freitas da Costa"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "Nos dias de hoje, a Segurança é palavra-chave nos processos de gestão de qualquer organização. Mediante este facto, torna-se imperativo que as empresas minimizem ou eliminem os riscos existentes, por forma a prevenir a ocorrência de acidentes de trabalho e doenças profissionais. Dado que o ruído ocupacional é um dos fatores de risco ocupacionais que prevalece em ambientes industriais e a consequência mais óbvia da exposição ao ruído é a alteração ou a perda da sensibilidade auditiva, a exposição a níveis elevados de pressão sonora tem particular importância. Os comportamentos e atitudes tomadas pelos trabalhadores que se deparam com situações que podem causar lesões e/ou acidentes de trabalho estão relacionados com as perceções que os mesmos possuem ao risco. A formação é essencial para que a competência dos trabalhadores seja assegurada. Uma vez assegurada, os trabalhadores tornam-se muito menos suscetíveis de sofrerem lesões ou acidentes. Posto isto e uma vez que a formação constitui um dos aspetos fulcrais na sensibilização dos trabalhadores e na minimização dos efeitos provocados pela exposição ocupacional ao ruído, o objetivo deste estudo é, então, verificar se a sensibilização e a informação aos trabalhadores melhoram a perceção real que estes possuem ao risco, designadamente pela utilização dos protetores auditivos, antes e após serem informados e sensibilizados em matéria de ruído ocupacional e proteção auditiva. Com a finalidade de avaliar a perceção dos trabalhadores relativamente ao ruído ocupacional através da utilização de proteção auditiva, recorreu-se à aplicação de um questionário em duas empresas da indústria transformadora, dos setores do calçado e têxteis lar, a uma amostra de 128 trabalhadores. Aplicou-se o mesmo questionário, com um intervalo de tempo de cerca de 5 meses. Durante esse período, ocorreram várias sessões de informação e sensibilização aos trabalhadores em matéria de ruído ocupacional e proteção auditiva. Seguidamente, procedeu-se à recolha e análise dos dados. Com a finalidade de tirar conclusões por intermédio dos dados obtidos através da aplicação da ferramenta de avaliação, recorreu-se ao método estatístico. Os resultados não evidenciam que a sensibilização e a informação se traduzem, de facto, numa melhoria da perceção real que os trabalhadores possuem ao risco.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W3152592864",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "The phenomenon of eponymy in fabric names: terminological glossary and sociocultural aspects that underlie these terms",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/11449/152849",
+        "doi": null,
+        "year": 2018,
+        "authors": [
+          "Marta de Oliveira Silva Arantes"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Por meio do estudo da terminologia recorrente em apostilas que denominam tecidos e são utilizadas em cursos técnicos e de graduação da Indústria Têxtil, esta tese tem como objetivos identificar e dar tratamento terminológico aos termos que denominam tecidos, elaborar um glossário desses termos, estudar os termos eponímicos encontrados no material de extração e apresenta como público-alvo os estudantes de cursos técnicos e de graduação do setor Têxtil e profissionais que trabalham diretamente com a venda de tecidos. Para tanto, consideramos algumas características dos termos eponímicos de nosso estudo e são elas: termos formados com base em topônimos ou antropônimos, termos de origem estrangeira sob forma de xenismos e empréstimos e países, regiões ou cidades de referência para a formação dos termos eponímicos. No arcabouço teórico estão Cabré (1999), Barros (2004), Krieger e Finatto (2004), Pavel; Nolet (2002), Guilbert (1975) e Van Hoof (2001). A pesquisa beneficiou-se de um conjunto de textos que serviram de ponto de partida para a extração dos termos que comporiam o glossário e de um conjunto de obras lexicográficas e terminográficas que serviram para a constatação do uso real dos termos selecionados no discurso de profissionais do setor têxtil. Os dados terminológicos dos termos foram retirados de obras e sites do domínio têxtil que trabalham com a subárea “tecidos”. O glossário terminológico dos nomes de tecidos contém 157 termos, organizados em ordem alfabética, mas com um sistema de conceito que permite ao consulente visualizar os termos em sistema e recuperar as relações conceituais mantidas entre eles. O estudo do conjunto terminológico desta tese constitui em uma contribuição para o ensino-aprendizagem realizado nas escolas técnicas e Faculdades brasileiras que preparam estudantes do campo da Indústria Têxtil e uma contribuição à comunicação entre os profissionais da área. Esta tese compõem-se de cinco seções: 1) Fundamentação Teórica, 2) Indústria têxtil mundial e nacional, 3) Metodologia, 4) Análise dos termos eponímicos encontrados nos nomes de tecidos, 5) Glossário Terminológico dos nomes de tecidos.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7120805239",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "UMA IDEIA, UM DESENHO, O PRODUTO: VER, PERCEBER E CONSTRUIR",
+        "source": "openalex",
+        "url": "https://doi.org/10.17771/pucrio.acad.48535",
+        "doi": "10.17771/pucrio.acad.48535",
+        "year": 2020,
+        "authors": [
+          "Gisela Friaça de Souza Pereira"
+        ],
+        "venue": null,
+        "abstract": "Esta pesquisa analisa a dificuldade que os alunos de Faculdades de Design de Moda do Rio de Janeiro demonstram na transposição das representações mentais (ideia) para a representação real (desenho), redundando em um produto final, a roupa, desvinculado da representação mental inicial. Nossa hipótese é a de que a maioria carece de experimentar com reflexão, de perceber o todo e as partes que o constituem, de ser incentivado a explorar e desenvolver suas competências, ampliando suas habilidades, desenvolvendo uma visão holística do processo do Design de Moda. O ponto de partida deste estudo foi a experiência da autora, em sala de aula, fazendo uso da observação, da investigação e da identificação, a partir de pesquisa bibliográfica, entrevista e questionário, dos fatores que impedem o trânsito livre no processo de construção de uma roupa. Assim, o objetivo é propor subsídios facilitadores a partir de uma metodologia que visa propiciar a autonomia e consequente liberdade do aluno em um processo que envolve a Prática aliada à Teoria, na tríade proposta: ideia – desenho – produto, à luz do ver, do perceber e do construir. Tendo como suporte a aplicação de algumas técnicas artísticas, a partir de constante experimentação, buscou-se promover, num primeiro momento, a liberação de aspectos que bloqueiam a criatividade e que ampliam a visão espacial. Concluímos também que é necessário desenvolver conhecimentos de técnicas/arte de Modelagem, de Desenho Técnico, de Costura, que influenciarão na materialização da ideia, representada no Desenho/Ilustração de Moda.",
+        "pdf_url": "https://www.maxwell.vrac.puc-rio.br/48535/48535.PDF",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4252729760",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Fashion design: the different representation styles applied in the design process",
+        "source": "openalex",
+        "url": "http://www.uel.br/revistas/uel/index.php/projetica/article/view/33012",
+        "doi": "10.5433/2236-2207.2019v10n2p63",
+        "year": 2019,
+        "authors": [
+          "Sheila Fernanda Bona",
+          "Icléía Silveira",
+          "Sandra Regina Rech",
+          "Célio Teodorico dos Santos"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "This paper aims to investigate different representation styles and which are most suitable for each stage of the fashion/clothing design process, as well as present their specificities. Through a bibliographic review, we verified the importance of design as a means of representation and as a channel of communication for the production of clothing pieces, as well as the different styles applied along the methodological path.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2980092275",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Imitação e Inovação na Moda: Mapeando o Processo Criativo no Segmento de \"Modinha\" em uma Feira Regional",
+        "source": "openalex",
+        "url": "https://doi.org/10.5585/iji.v4i2.104",
+        "doi": "10.5585/iji.v4i2.104",
+        "year": 2016,
+        "authors": [
+          "Thalita Silva Calíope",
+          "José Carlos Lázaro da Silva Filho"
+        ],
+        "venue": "International Journal of Innovation",
+        "abstract": "Fashion is recognized by transience, resulting in its short life cycle, since the constant changes make what was previously considered \"fashionable\" obsolete (Emidio Sabione, 2010). In this market, innovate and act before competitors, accelerate the launch of products, reduce design time and the placement of new items on the market is a survival condition (Lipovetsky, 2007). A central factor in the fashion spread is imitation, as this promotes both innovation and obsolescence, forcing producers to set up periodically (Caulkins et al., 2007, Pesendorfer, 1995). The research object is the \"modinha\", women's clothing that follows media trends, is the copying, with or without changes, to the mass market (Avelar, 2009; Victor, 2007), in this study, \"José Avelino Street Fair\". This fair meets weekly hundreds of manufacturers in a metropolis of northeastern Brazil that has been established as a fashion hub. Thus, it was proposed to identify the process of innovation in companies that make “modinha” in this Fair. The research was conducted through a survey and data were obtained from a questionnaire administered with 78 stallholders. One descriptive and exploratory data analysis was performed. It was found that, contrary to expectation, a considerable formality, with 49 of the 78 respondents with CNPJ; its customers are small retailers; and their competitors are the stallholders. Regarding the creation of clothes models, the stallholders research in various sources and said imitating models from these sources, but they try to make changes.",
+        "pdf_url": null,
+        "citation_count": 8,
+        "work_type": "article",
+        "identifier": "W2485101464",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Pesquisas em design, gestão e tecnologia de têxtil e moda: 2º semestre de 2017",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/9788564842410",
+        "doi": "10.11606/9788564842410",
+        "year": 2023,
+        "authors": [
+          "Isabel Cristina Italiano",
+          "Jo�ão Paulo Pereira Marcicano",
+          "Júlia Baruque-Ramos",
+          "Maria Sílvia Barros de Held",
+          "Regina Aparecida Sanches"
+        ],
+        "venue": "Universidade de São Paulo. Escola de Artes, Ciências e Humanidades eBooks",
+        "abstract": "Este volume faz parte da coleção “Pesquisas em Design, Gestão e Tecnologia de Têxtil e Moda”, referente ao 2º semestre de 2017. A coleção é referencial para integrar empresas e academia, divulgando os conteúdos e estudos dos programas de pós-graduação das universidades paulistas, com o objetivo de proporcionar à sociedade conhecimento dos melhores trabalhos acadêmicos realizados na área. Dessa maneira, propicia maior integração e amplia a sinergia entre academia e mundo empresarial. A proposta da coleção é contribuir para o desenvolvimento científico, tecnológico, social, cultural e artístico em Têxtil e Moda, prevendo métodos e abordagens interdisciplinares e inovadores, com potencial de utilização no âmbito acadêmico, da pesquisa, como fora deles.",
+        "pdf_url": "https://www.livrosabertos.sibi.usp.br/portaldelivrosUSP/catalog/download/191/173/814",
+        "citation_count": 1,
+        "work_type": "book",
+        "identifier": "W2915310814",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Quality tools applied to development clothing products process: a study´s case",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/35312",
+        "doi": null,
+        "year": 2024,
+        "authors": [
+          "Luis Carlos Mateo García"
+        ],
+        "venue": "Institutional Repository of the Federal Technological University of Paraná (RIUT) (Federal University of Technology – Paraná)",
+        "abstract": "The growth of the textile market in particular the fashion industry is guided by new trends and their technologies, bringing into the business more attention to enterprises that work with developments products, searching to attend the demands of new products increasing the company name in the textile market as a reference. For a Product Development Process (PDP) faster, the quality tools are used to have guarantee of an effective process with less or without mistakes. Therefore, the main objective of this research was to characterize the quality tools which could be within PDP´s levels, by theoretical research and presential interviews in a company that works with clothes confection, comparing the usages of this quality tools in Industry and giving suggestions of new possible tools that can help with better levels in development of textile field. This study’s case has pointed that some quality tools are present inside the process in an informal way without digital or physical knowledges registers, so has the necessity of one deeper research in the tools quality and its new methods in uses, searching a more detailed work in the PDP’s process development, therefore was suggested which quality tools can do an auxiliary job for each level of their textile development.",
+        "pdf_url": "http://repositorio.utfpr.edu.br:8080/jspui/bitstream/1/35312/1/ferramentasqualidadedesenvolvimentoconfec%c3%a7ao.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7155461118",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Fashion design for cost (FDfC): o processo de desenvolvimento de produto de moda quando quando priorizado o custo do produto",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2024.tde-15102025-111949",
+        "doi": "10.11606/d.100.2024.tde-15102025-111949",
+        "year": 2024,
+        "authors": [
+          "Pedro Porto Chadud"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This research proposes to investigate and problematize the design method used by apparel industries that have affordable product prices as their value proposition. The method employed in this research was problem-centered interviews, as it allows the researcher to challenge the interviewee if any inconsistency is identified in their responses. The interviews were conducted with professionals who worked in the aforementioned company profile and held a position in one of the three areas responsible for collection development: planning, creation, and development. As part of the final objective, a final flowchart was created to exemplify and illustrate the design process used by the companies in question.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-15102025-111949/publico/PedroPorto_original.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4415250337",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Proposal for the development of protective clothing for bull riding",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/33476",
+        "doi": null,
+        "year": 2022,
+        "authors": [
+          "Nayara Karoline da Costa"
+        ],
+        "venue": "Institutional Repository of the Federal Technological University of Paraná (RIUT) (Federal University of Technology – Paraná)",
+        "abstract": "Developing a product means understanding the needs of the market and, from detailed studies and modeling, manufacturing a product or offering a service that will meet the needs of customers. Knowing that rodeo is a radical sport and of great risk of injuries and even deaths, the case study aimed to elaborate a proposal for the development of a protective clothing for bull riding based on the reference model of Rozenfeld et al. (2006), aiming to improve the quality of those that already exist, thus bringing greater comfort, practicality, quality, flexibility and safety to the realization of these mounts. Using rozenfeld's reference model it was possible to develop a long sleeve vest, which met the requested requirements. During the product evaluation stage, the sketch was presented informally to two pedestrians and showed positive results in relation to the proposal to develop a long-sleeved vest, which will be used as protective clothing for the mount.",
+        "pdf_url": "http://repositorio.utfpr.edu.br:8080/jspui/bitstream/1/33476/1/roupaprote%c3%a7%c3%a3omontariatouro.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7155454936",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Teciteca: formação de um acervo básico como ferramenta de pesquisa dos alunos de moda para o conhecimento dos substratos têxteis",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2016.tde-23052016-113218",
+        "doi": "10.11606/d.100.2016.tde-23052016-113218",
+        "year": 2016,
+        "authors": [
+          "Antonio Corradi"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "The purpose of this research is to analyze and understand how Teciteca can be used as a learning tool in teaching fashion textiles. Discusses qualitative research and aims to analyze the understanding of textile substrates and their appropriate use in the construction of fashion products, making use of the teciteca the collection as a source of information in the process of teaching and learning. The work also took into account the model that organizes the collection, cataloging and searches and access to training. In turn, the consideration of the situation of professionals working with procurement, qualification, cataloging, analysis and control of textile substrates reveals another important parameter for obtaining reliable information that support students and researchers. All together they form a set of aspects that go through the effective development of fashion education in universities, have knowledge, specific skills and characteristics worked in the professional environment. The qualification of the professionals who are entering the labor market undergoes transformation and the university is urgent to adapt the education of students. The bachelor should be himself, the driver of his career according to his will / inspiration. In front of the table concludes by pointing out that education policies need to give another importance level of the teacher\\'s work, and in general the techniques used for incrementing resources, laboratories, workshops, study rooms, libraries and especially tecitecas, collaborating for better training of clothing and fashion professionals. In this sense, it indicates new proposals for educational resources that result in improving the quality of education of the workforce",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-23052016-113218/publico/teciteca.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2515469375",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Seminário nacional de pesquisa e extensão em moda: deslocamentos",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/9788583021247",
+        "doi": "10.5965/9788583021247",
+        "year": 2017,
+        "authors": [
+          "Sandra Regina Rech"
+        ],
+        "venue": "Editora Udesc eBooks",
+        "abstract": "O Seminário Nacional de Pesquisa e Extensão em Moda (SNPEM 2017) teve como tema Deslocamentos, explorando diferentes interpretações culturais e a contemporaneidade globalizada, em perspectivas geográficas, conceituais e simbólicas. Realizado no Centro de Artes da UDESC, o evento ocorreu em duas etapas: Academia (09 a 11 de agosto), com conferências de Ronaldo Vasques (UEM), Sandra Regina Rech (UDESC) e Valter Carlos Cardim (ULISBOA), e Mercado (04 a 06 de outubro), com palestras de empresárias da moda – Andrea Greca Kruger, Simone Rech e Daniele Diniz Warken. Os trabalhos apresentados abordaram temas como análise de têxteis do século XIX, cultura de consumo e tendências, influência da tradição védica na moda, design estratégico e gestão de marcas, além da experiência do Cocreation Lab em Florianópolis como modelo de economia criativa. O evento integrou as atividades do Programa de Pós-Graduação em Moda da UDESC (PPGMODA), sendo organizado pelo Futuro do Presente Lab (FPlab), em projeto de extensão financiado pela UDESC.",
+        "pdf_url": "https://repositorio.udesc.br/bitstreams/bbf5333f-709e-4fb9-a613-31fbf6cdb629/download",
+        "citation_count": 1,
+        "work_type": "book",
+        "identifier": "W4416275214",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Metodologia y ficha tecnica del estudio; Identificacion y grado de molestia de las principales fuentes del ruido; Impacto social y percepcion subjetiva del ruido",
+        "source": "crossref",
+        "url": "https://doi.org/10.4272/978-84-9745-548-0.ch1",
+        "doi": "10.4272/978-84-9745-548-0.ch1",
+        "year": 2011,
+        "authors": [],
+        "venue": "Impacto social de la contaminacion acustica de las infraestructuras lineales en España",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.4272/978-84-9745-548-0.ch1",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Netbiblo"
+        }
+      },
+      {
+        "title": "AM: Uma Plataforma Digital para Criacao e Uso de Veículos de Comunicacao Locativos para Atividades Pedagogicas",
+        "source": "crossref",
+        "url": "https://doi.org/10.5753/cbie.sbie.2015.131",
+        "doi": "10.5753/cbie.sbie.2015.131",
+        "year": 2015,
+        "authors": [
+          "Bernard Pereira",
+          "Renan Almeida",
+          "Orivaldo Tavares",
+          "Crediné De Menezes"
+        ],
+        "venue": "Simpósio Brasileiro de Informática na Educação",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5753/cbie.sbie.2015.131",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Sociedade Brasileira de Computação - SBC"
+        }
+      },
+      {
+        "title": "Criacao e Tecnica no Romance de Moacir C. Lopes",
+        "source": "crossref",
+        "url": "https://doi.org/10.2307/324519",
+        "doi": "10.2307/324519",
+        "year": 1980,
+        "authors": [
+          "Bobby J. Chamberlain",
+          "Michael Fody",
+          "Ilza Viegas",
+          "Jose Augusto Carvalho"
+        ],
+        "venue": "The Modern Language Journal",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.2307/324519",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Wiley"
+        }
+      },
+      {
+        "title": "Modelagem de microbomba peristaltica de elastomero usando a tecnica de analogias eletro-mecanicas",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2006.368722",
+        "doi": "10.47749/t/unicamp.2006.368722",
+        "year": 2021,
+        "authors": [
+          "Alexey Marques Espindola"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2006.368722",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Los jóvenes y las Fuerzas Armadas",
+        "source": "crossref",
+        "url": "https://doi.org/10.2307/40183256",
+        "doi": "10.2307/40183256",
+        "year": 1986,
+        "authors": [
+          "Ficha Tecnica de la Encuesta"
+        ],
+        "venue": "Reis",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.2307/40183256",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "JSTOR"
+        }
+      },
+      {
+        "title": "El futuro del MAB; Ficha tecnica de las compañias cotizadas en MAB; Bibliografia",
+        "source": "crossref",
+        "url": "https://doi.org/10.4272/978-84-9745-559-6.ch2",
+        "doi": "10.4272/978-84-9745-559-6.ch2",
+        "year": 2012,
+        "authors": [],
+        "venue": "Mercado Alternativo Bursatil",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "book-chapter",
+        "identifier": "10.4272/978-84-9745-559-6.ch2",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Netbiblo"
+        }
+      },
+      {
+        "title": "Los parados: condiciones de vida y actitudes políticas",
+        "source": "crossref",
+        "url": "https://doi.org/10.2307/40183150",
+        "doi": "10.2307/40183150",
+        "year": 1985,
+        "authors": [
+          "Ficha Tecnica Del Estudio"
+        ],
+        "venue": "Reis",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.2307/40183150",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "JSTOR"
+        }
+      },
+      {
+        "title": "Vestuario Para La Escena 2022, curated by Edyta Rzewuska and Jerildy Bosch, Vestuario a Escena MX",
+        "source": "crossref",
+        "url": "https://doi.org/10.1386/scp_00090_5",
+        "doi": "10.1386/scp_00090_5",
+        "year": 2023,
+        "authors": [
+          "Zuzu Hudek"
+        ],
+        "venue": "Studies in Costume &amp; Performance",
+        "abstract": "Review of: Vestuario Para La Escena 2022, curated by Edyta Rzewuska and Jerildy Bosch, Vestuario a Escena MX National Centre for the Arts (CENART), Mexico City, 12 May–3 July 2022",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.1386/scp_00090_5",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Intellect"
+        }
+      },
+      {
+        "title": "O uso combinado da tecnica de modelagem baseada em objetos OMT com a linguagem de especificação formal SDL como metodologia alternativa para o desenvolvimento do ambiente de software AIDA",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1997.124316",
+        "doi": "10.47749/t/unicamp.1997.124316",
+        "year": 2021,
+        "authors": [
+          "Carla Geovana do Nascimento Macario"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1997.124316",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Conversatorio Remedios Zafra, Marta Labad y María Ruido",
+        "source": "crossref",
+        "url": "https://doi.org/10.57149/re-visiones.12.14",
+        "doi": "10.57149/re-visiones.12.14",
+        "year": 2024,
+        "authors": [
+          "Remedios Zafra",
+          "Marta Labad",
+          "María Ruido"
+        ],
+        "venue": "Re-visiones",
+        "abstract": null,
+        "pdf_url": "https://revistas.ucm.es/index.php/REVI/article/download/95295/4564456568929",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.57149/re-visiones.12.14",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidad Complutense de Madrid (UCM)"
+        }
+      },
+      {
+        "title": "O simbolismo do vestuario em Machado de Assis",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2008.421628",
+        "doi": "10.47749/t/unicamp.2008.421628",
+        "year": 2021,
+        "authors": [
+          "Susana Coutinho de Souza"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2008.421628",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Paruma: vestuario tradicional del pueblo indígena embera",
+        "source": "crossref",
+        "url": "https://doi.org/10.29097/9789585303096",
+        "doi": "10.29097/9789585303096",
+        "year": 2022,
+        "authors": [
+          "Pastora Chasoy Agreda"
+        ],
+        "venue": null,
+        "abstract": "El contenido de este documento se relaciona con la historia del vestuario y los accesorios tradicionales utilizados por los indígenas embera. Se trata de un pueblo nativo con tradiciones y características semejantes, actualmente divido en cuatro grupos: los embera chami —ubicados en los departamentos de Caldas y Quindío—; los embera katío, —en el Alto Sinú y Alto San Jorge en el departamento de Córdoba, y en la región de Urabá y el Bajo Atrato en el departamento de Chocó—, y los embera siapidara, quienes viven dispersos en el Pacifico, en la zona sur de Buenaventura y en la costa caucana y de Nariño. Distintos hechos históricos ocurridos en la Conquista y la Colonia provocaron su dispersión hacia diferentes lugares de la geografía colombiana. Sin embargo, uno de los elementos, cohesionador de identidad, es su vestuario tradicional, del cual conoceremos distintas características, gracias a los relatos de los abuelos y abuelas integrantes del asentamiento Resguardo Motordorchaque, ubicado en la vereda Dos Pozos del municipio de Puerto Boyacá.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.29097/9789585303096",
+        "extra": {
+          "crossref_type": "monograph",
+          "publisher": "Fundación Universidad de América"
+        }
+      },
+      {
+        "title": "Del Vestuario",
+        "source": "crossref",
+        "url": "https://doi.org/10.7764/apuntesdeteatro.29.83174.1963",
+        "doi": "10.7764/apuntesdeteatro.29.83174.1963",
+        "year": 2024,
+        "authors": [
+          "Gabriela Roepke"
+        ],
+        "venue": "Apuntes de Teatro",
+        "abstract": "Sugerencias para el diseño de vestuario. Traducción por Gabriela Roepke.",
+        "pdf_url": "https://uc_revision.escire.site/index.php/RAT/article/download/83174/63478",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.7764/apuntesdeteatro.29.83174.1963",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Pontificia Universidad Catolica de Chile"
+        }
+      },
+      {
+        "title": "Massificacao e jornalismo: retorica e linguagem no escopo da comunicacao social",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.27.2010.tde-05112010-112004",
+        "doi": "10.11606/d.27.2010.tde-05112010-112004",
+        "year": 2015,
+        "authors": [
+          "Rafael Duarte Oliveira Venancio"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.27.2010.tde-05112010-112004",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Mucho ruido y ¿pocas nueces?: así nos enferma el ruido",
+        "source": "crossref",
+        "url": "https://doi.org/10.64628/aao.ccadqsut4",
+        "doi": "10.64628/aao.ccadqsut4",
+        "year": 2023,
+        "authors": [
+          "Ane Otxotorena"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "preprint",
+        "identifier": "10.64628/aao.ccadqsut4",
+        "extra": {
+          "crossref_type": "posted-content",
+          "publisher": "The Conversation Media Group Ltd"
+        }
+      },
+      {
+        "title": "abc da criacao",
+        "source": "crossref",
+        "url": "https://doi.org/10.2307/3684286",
+        "doi": "10.2307/3684286",
+        "year": 1973,
+        "authors": [
+          "Ariel Marques",
+          "Lissa Hirsch",
+          "Jeffrey Jerred"
+        ],
+        "venue": "SubStance",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.2307/3684286",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Project MUSE"
+        }
+      },
+      {
+        "title": "Dolo e processo de comunicacao",
+        "source": "crossref",
+        "url": "https://doi.org/10.5212/lumiar.v.2.i1.007016",
+        "doi": "10.5212/lumiar.v.2.i1.007016",
+        "year": 2008,
+        "authors": [
+          "Paulo Cesar Busato"
+        ],
+        "venue": "Lumiar",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5212/lumiar.v.2.i1.007016",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Estadual de Ponta Grossa (UEPG)"
+        }
+      },
+      {
+        "title": "CONCEPTUALIZACIÓN JURÍDICA DEL RUIDO",
+        "source": "crossref",
+        "url": "https://doi.org/10.2307/j.ctv8xngzw.5",
+        "doi": "10.2307/j.ctv8xngzw.5",
+        "year": 2018,
+        "authors": [],
+        "venue": "Derecho a la tranquilidad. Control jurídico del ruido",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.2307/j.ctv8xngzw.5",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Sello Editorial Javeriano"
+        }
+      },
+      {
+        "title": "Piel cultural: Formación, antropología y vestuario",
+        "source": "crossref",
+        "url": "https://doi.org/10.21500/9786287946033",
+        "doi": "10.21500/9786287946033",
+        "year": 2026,
+        "authors": [
+          "Dolly Viviana Polo Flórez"
+        ],
+        "venue": null,
+        "abstract": "En la apuesta teórico-conceptual de Piel cultural: formación, antropología y vestuario, se estudia cómo la antropologización y la formación inciden en el valor que se les otorga al vestuario y a los recubrimientos como parte de una imagen maleable del ser humano con el paso del tiempo. A su vez, se estudia cómo la materialidad del cuerpo y su subjetividad modifican el juego del encubrimiento. En ese orden de ideas, no debe sorprender que el presente documento sea en sí mismo un entretejido multidisciplinar cuya plataforma es la educación. Un aporte fundamental que brinda esta apuesta –que deriva de la tesis doctoral homónima– es el cambio en las representaciones de lo educativo. Se propone aquí que lo educativo no es la escolaridad, sino cómo y a través de qué –en este espacio, lo referente al vestuario– se forma la subjetividad.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.21500/9786287946033",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "Editorial Bonaventuriana"
+        }
+      },
+      {
+        "title": "INSTRUMENTOS PARA EL CONTROL DEL RUIDO",
+        "source": "crossref",
+        "url": "https://doi.org/10.2307/j.ctv8xngzw.7",
+        "doi": "10.2307/j.ctv8xngzw.7",
+        "year": 2018,
+        "authors": [],
+        "venue": "Derecho a la tranquilidad. Control jurídico del ruido",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.2307/j.ctv8xngzw.7",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Sello Editorial Javeriano"
+        }
+      },
+      {
+        "title": "Conservación preventiva de colecciones de vestuario escénico. Colección de vestuario compañía de danza española Ángel Pericet",
+        "source": "crossref",
+        "url": "https://doi.org/10.18682/cdc.vi100.3991",
+        "doi": "10.18682/cdc.vi100.3991",
+        "year": 2020,
+        "authors": [
+          "Cecilia Gómez García"
+        ],
+        "venue": "Cuadernos del Centro de Estudios de Diseño y Comunicación",
+        "abstract": "La investigación recopila las acciones de recuperación de la colección de vestuario de la compañía de danza española Ángel Pericet y las confronta con los métodos propuestos desde la conservación preventiva con criterio museológico. Se describe la historia y composición de la colección y se analizan otras experiencias de conservación con colecciones similares. El objetivo principal es reflexionar sobre cuál es el mejor camino a seguir en relación al restante de la colección que aún no ha sido relevado.",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/cdc/article/download/3991/2264",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.18682/cdc.vi100.3991",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Fundacion Universidad de Palermo"
+        }
+      }
+    ]
+  },
+  "count": 46,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:03:31.254937+00:00"
+}

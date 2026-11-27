@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Na validação óptica 3D (sistema ARAMIS) de protótipos dinâmicos de blusa e calça feminina simulados no CLO3D v.2025.0.408, as diferenças médias de deformação entre o protótipo digital e o protótipo físico real foram de até 6%, com desvio padrão de 8%, dependendo do método de parametrização mecânica do tecido.",
+    "stance": "supports",
+    "stance_target": "precisão condicional da simulação 3D quando alimentada por parâmetros mecânicos reais do tecido",
+    "evidence_type": "empirical",
+    "scope_conditions": "Tecido plano sarja misto (urdume algodão, trama poliéster/elastano) simulado no CLO3D v.2025.0.408 e validado com ARAMIS 3D",
+    "quoted_support": "Results show average differences between digital and real prototype deformation data up to 6% with an 8% standard deviation, confirming the high accuracy of 3D simulations based on the determined mechanical parameters of the real fabric sample.",
+    "numbers": ["6%", "8%", "v.2025.0.408"],
+    "entities": ["CLO3D", "ARAMIS", "KES-FB", "Fabric Kit", "SEDDI Textura 2024"],
+    "time_period": "2024-2025",
+    "region": "Croatia",
+    "confidence": "high",
+    "source_note_id": "analysis-of-woven-fabric-mechanical-properties-in-the-context-of-sustainable-clo"
+  },
+  {
+    "claim": "Protótipos digitais no CLO3D parametrizados pelo sistema KES-FB superestimaram as deformações reais (devido à força máxima limitada a 490,35 N/m e conversão por ponto único), enquanto o protocolo Fabric Kit subestimou as deformações e a ferramenta de IA multimodal SEDDI Textura 2024 obteve a maior correspondência com a peça física.",
+    "stance": "supports",
+    "stance_target": "sensibilidade crítica da simulação 3D ao método de medição e conversão dos parâmetros físicos do tecido",
+    "evidence_type": "empirical",
+    "scope_conditions": "Comparação experimental entre KES-FB, CLO Fabric Kit (com Emulator) e SEDDI Textura 2024 no CLO3D",
+    "quoted_support": "Digital prototypes simulated using mechanical parameters determined by the KES-FB system showed higher deformation values compared to the results of the real prototypes analysis. In contrast, simulations using parameters obtained using the Fabric Kit methodology showed lower deformations compared to the real prototypes... Digital prototypes, simulated based on SEDDI Textura mechanical properties, showed the closest match to real prototypes in both value and distribution of deformations.",
+    "numbers": ["490.35 N/m", "1 mm", "10 mm"],
+    "entities": ["KES-FB", "Fabric Kit", "SEDDI Textura 2024", "CLO3D"],
+    "time_period": "2024-2025",
+    "region": "Croatia",
+    "confidence": "high",
+    "source_note_id": "analysis-of-woven-fabric-mechanical-properties-in-the-context-of-sustainable-clo"
+  },
+  {
+    "claim": "Segundo revisão de literatura e estudos de caso citados pelos autores, a implementação de prototipagem digital no desenvolvimento de vestuário reduz o tempo de modelagem em 85% e o número de amostras físicas em 60% a 80% (reduzindo a média de 3–5 para 1–2 amostras físicas).",
+    "stance": "supports",
+    "stance_target": "potencial de redução de amostras físicas e tempo de modelagem com prototipagem 3D (citação secundária)",
+    "evidence_type": "statistical",
+    "scope_conditions": "Revisão de literatura secundária na introdução do artigo; valores exigem qualificação quanto à fidelidade de parâmetros e porte empresarial",
+    "quoted_support": "According to different research and case studies, the implementation of digital prototyping in apparel product development reduces the time of pattern making by 85% and the number of physical samples up to a 60–80% (on average from 3–5 to 1–2 samples), thus significantly reducing material waste, energy consumption and greenhouse gas emissions in the development phase.",
+    "numbers": ["85%", "60–80%", "3–5 samples", "1–2 samples"],
+    "entities": ["Lectra", "Optitex", "Assyst", "CLO3D", "Browzwear"],
+    "time_period": "2025",
+    "region": "Global",
+    "confidence": "medium",
+    "source_note_id": "analysis-of-woven-fabric-mechanical-properties-in-the-context-of-sustainable-clo"
+  }
+]

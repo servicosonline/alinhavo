@@ -1,0 +1,21 @@
+[
+  {
+    "claim": "A adaptação de bases de modelagem plana para os sete biótipos corporais (ampulheta, colher, retângulo, oval, triângulo, triângulo invertido e diamante) exige alterações estruturais específicas nas linhas de cintura, quadril e tórax em vez de gradação uniforme.",
+    "stance": "supports",
+    "stance_target": "Necessidade de ajustes geométricos por biótipo na modelagem plana",
+    "evidence_type": "theoretical",
+    "scope_conditions": "Adaptação de moldes de vestuário feminino para múltiplos biótipos",
+    "quoted_support": "O ajuste para o biótipo retângulo é o de aumentar a largura da cintura nas laterais, comparando a medida do contorno da cintura do molde com o biótipo. O foco aqui é garantir que a cintura do molde coincida com a cintura do biótipo, valorizando a parte mais fina do corpo Berg (2019).",
+    "numbers": [
+      "7 biótipos"
+    ],
+    "entities": [
+      "IFSULDEMINAS",
+      "SENAI CETIQT"
+    ],
+    "time_period": "2025",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "instituto-federal-de-educação-ciência-e-tecnologia-do-sul-de-minas-gerais-pass-2"
+  }
+]

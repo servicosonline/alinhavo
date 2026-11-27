@@ -1,0 +1,856 @@
+{
+  "ok": true,
+  "data": {
+    "query": "industria confeccao vestuario dificuldades gestao producao Brasil",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 20,
+      "doab": 0
+    },
+    "raw_records": 40,
+    "merged_records": 40,
+    "returned": 40,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Dificuldades na reciclagem de resíduos têxteis originários de confecções de vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/003162874",
+        "doi": "10.11606/003162874",
+        "year": 2022,
+        "authors": [
+          "Guilherme Monteiro Viana"
+        ],
+        "venue": null,
+        "abstract": "A indústria de confecção de vestuário no Brasil apresenta um valor de produção anual equivalente a R{dollar}161 bilhões de reais em 2021, divididos entre 24,6 mil unidades produtivas (IEMI, 2021), e o país é a maior cadeia têxtil completa do Ocidente e está entre os 4 maiores produtores de malhas do mundo (ABIT, 2022). Porém, apesar da relevância econômica da indústria para o país, o setor de vestuário é responsável por uma produção anual de resíduos têxteis sólidos que supera o valor de 170 mil toneladas anuais (ZONATTI, 2017), das quais aproximadamente 80% (136 mil toneladas) acabam nos lixões do país (SEBRAE, 2014). Esta produção em massa alinhada ao desperdício e má gestão dos resíduos não são fenômenos exclusivos ao Brasil, visto que o universo da moda está com tempos de vida cada vez mais curtos, resultando em um cenário global de produção de resíduos têxteis insustentável no longo prazo. Tal afirmação pode ser suportada pelo fato de que até 24 novas coleções são lançadas anualmente por grandes varejistas de roupa (Recovery Worldwide, 2019), e apenas o Brasil, com uma população próxima a 215 milhões de habitantes (IBGE, 2022) foi responsável pela produção de 7,93 bilhões de peças em 2020 (IEMI, 2021), sendo algodão e poliéster as principais matérias-primas utilizadas no setor (AMARAL, 2016). Este trabalho, portanto, reúne informações de publicações recentes no campo da reciclagem de resíduos têxteis, com o objetivo de estudar as principais dificuldades no processo de reciclagem de resíduos têxteis originários de confecções de vestuários, partindo desde antes do início efetivo da reciclagem, como em etapas de separação e classificação de resíduos, e cobrindo ineficiências e faltas de avanços tecnológicos na ação efetiva de reciclar os resíduos seja por métodos mecânicos ou químicos.",
+        "pdf_url": "https://bdta.abcd.usp.br/directbitstream/ee1a1e46-f161-4d87-8aa6-e1ef3d0a9157/GuilhermeMonteiroViana.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7203785677",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Indústria têxtil versus indústria de confecção de vestuário no Brasil: entendendo as diferenças e as conexões",
+        "source": "openalex",
+        "url": "https://doi.org/10.18406/2359-1269v11n72024526",
+        "doi": "10.18406/2359-1269v11n72024526",
+        "year": 2025,
+        "authors": [
+          "Heliana Márcia Santos",
+          "Olimpio José Pinheiro",
+          "Maria Concebida Pereira"
+        ],
+        "venue": "Revista Eixos Tech",
+        "abstract": "O objetivo deste estudo foi analisar as diferenças e conexões entre a indústria têxtil e a indústria de confecção de vestuário no Brasil, com foco nos resíduos gerados por ambos os setores e nas soluções para minimizar os impactos ambientais. A indústria têxtil, responsável pela produção de fios e tecidos, gera resíduos como águas residuárias e efluentes. A indústria de confecção, que transforma os tecidos em roupas, enfrenta desafios como desperdício de matérias-primas e produtos não vendidos. A metodologia adotada foi uma revisão da literatura, com ênfase em estudos acadêmicos e relatórios setoriais. Os resultados indicaram que, embora os tipos de resíduos gerados sejam distintos, há grande potencial para a reutilização, especialmente no reaproveitamento de retalhos de tecido e fibras recicladas. A pesquisa destacou ainda os desafios para a implementação de práticas sustentáveis, como a falta de infraestrutura e políticas públicas. Concluiu-se que a colaboração entre as indústrias, o governo e a sociedade civil são essenciais para avançar na sustentabilidade em ambos os setores.",
+        "pdf_url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/download/526/288",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4407162555",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "FATORES MOTIVACIONAIS EM INDÚSTRIAS DE CONFECÇÃO E VESTUÁRIO",
+        "source": "openalex",
+        "url": "https://revista.domalberto.edu.br/index.php/revistadeadministracao/article/view/383",
+        "doi": null,
+        "year": 2020,
+        "authors": [
+          "Carine Vogt",
+          "Priscila Melina Narváez García"
+        ],
+        "venue": "REVISTA DE ADMINISTRAÇÃO DOM ALBERTO",
+        "abstract": "Atualmente motivar funcionários tornou-se uma necessidade para as empresas. Propor benefícios e ambientes de trabalho agradáveis podem trazer resultados positivos às organizações. Assim, o presente estudo tem como objetivo geral identificar os fatores que motivam os funcionários da Indústria de Confecção e Vestuário de Santa Cruz do Sul. Esta pesquisa se caracteriza como aplicada e descritiva, na qual foram aplicados 165 questionários e analisou-se quantitativamente os resultados. Os dados apresentados demonstram que os trabalhadores se preocupam em alcançar a necessidade de estima, devido almejarem o reconhecimento profissional em sua organização como um dos fatores motivacionais. Suas necessidades sociais, de segurança e fisiológicas estão sendo satisfeitas, devido já terem alcançado estes objetivos a partir do seu trabalho. Desta forma, sentem orgulho das atividades que exercem, respeito pelos colegas e empregadores. Fazendo com que permaneçam no emprego para conseguir atender suas carências básicas, possibilitando percorrer um caminho para poder alcançar objetivos e expectativas futuras.",
+        "pdf_url": "https://revista.domalberto.edu.br/index.php/revistadeadministracao/article/download/383/372",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W3128604162",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "GESTÃO EMPRESARIAL PARA O DESENVOLVIMENTO SUSTENTÁVEL: UM ESTUDO DE CASO NA INDÚSTRIA DE CONFECÇÃO DO VESTUÁRIO",
+        "source": "openalex",
+        "url": "https://doi.org/10.55333/rima-978-65-84811-43-0_011",
+        "doi": "10.55333/rima-978-65-84811-43-0_011",
+        "year": 2024,
+        "authors": [
+          "Paula Piva Linke",
+          "Silvia Mara Bortoloto Damasceno Barcelos"
+        ],
+        "venue": null,
+        "abstract": "Considerando o fato de que vivemos em uma sociedade capitalista que sobrevive do consumo de bens e que as empresas têm um papel fundamental nessa produção e também nos problemas ambientais que enfrentamos, este texto tem por objetivo compreender a importância da gestão empresarial voltada para o desenvolvimento sustentável.Foram definidas algumas categorias teóricas, como crise ambiental, o papel da gestão e a incorporação da questão ambiental no processo administrativo, com foco na relação de economia e meio ambiente, juntamente com a nova roupagem de sustentabilidade ligadas aos Objetivos de Desenvolvimento Sustentável (ODS).A abordagem desta pesquisa é qualitativa e apresenta um estudo de caso.A empresa selecionada neste estudo pertence ao setor de confecção de vestuário, um dos setores mais impactantes em termos de danos ambientais e exploração de mão de obra.Ao observar a rotina de produção da empresa β, percebeu-se resistência à implantação de práticas como o processo de gerenciamento de resíduos, que a empresa não tem conhecimento aprofundado do desperdício de materiais e que a iniciativa de controle ambiental na produção partiu dos gerentes de produção, que demoraram a implantar medidas de produção mais limpa no setor produtivo.Com o tempo, os gestores da empresa perceberam a necessidade de implantação de tais práticas ambientais e passaram a incentivar melhorias e maior comprometimento da empresa com a sustentabilidade.",
+        "pdf_url": "http://dx.doi.org/10.55333/rima-978-65-84811-43-0_011",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4400227312",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Melhorias no processo de desenvolvimento de produto de uma indústria do vestuário do segmento Fast-Fashion",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/196292",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Renata Lodi",
+          "Márcia Elisa Soares Echeveste"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "ResumoNo setor têxtil brasileiro, a gestão do PDP é caracterizada por uma baixa organização no que se refere às metodologias e adoção de modelos de referência.Em geral, estas empresas não possuem uma estrutura organizada em etapas consistentes e atribuição de funções para o desenvolvimento de novos produtos.Este trabalho tem como objetivo sugerir melhores práticas encontradas na literatura para o processo de desenvolvimento de produtos de uma indústria do vestuário que não possui marca própria e fornece produtos para o segmento fast-fashion.Para atingir esse objetivo foi realizada uma busca na literatura por modelos de PDP de manufatura e relacionados ao setor.Por meio da comparação entre eles, juntamente com o levantamento das particularidades e dificuldades do segmento do vestuário escolhido, foram propostas atividades para melhoria do processo da empresa.A contribuição deste trabalho foi demonstrar como empresas de porte pequeno no setor do vestuário podem melhorar seus produtos por meio de uma sistematização nos seus processos de desenvolvimento, trazendo as melhores práticas publicadas em modelos de outros segmentos de atividade econômica, para o setor.Entende-se que o método realizado possa ser estendido a outras empresas que desejem aperfeiçoar sua gestão no desenvolvimento de novos produtos e serviços.Palavras-chave: PDP; Indústria Têxtil/Vestuário; Gestão de projetos de novos produtos. IntroduçãoA indústria do vestuário é uma das mais antigas e tradicionais do Brasil.Conforme informa o SINDIVESTUÁRIO (2008), remonta ao século XIX, e é um dos marcos do início da industrialização do país.Mesmo fazendo parte do dia a dia de todas as pessoas, os números, estatísticas e importância do setor do vestuário no cenário brasileiro nem sempre são conhecidos em toda sua extensão.Segundo o IEMI (Instituto de Estudos e Marketing Industrial), a produção do vestuário no Brasil em 2009 foi de 5,2 bilhões de peças, empregando mão-de-obra de 1.100.259trabalhadores, num total de 22.303 unidades industriais formais.A maioria dessas indústrias está distribuída na região sudeste, sul e nordeste do país, sendo que 77% delas são micro e pequenas, 20% são médias e apenas 3% são grandes empresas.(SINDIVESTUÁRIO, 2011).No início dos anos 90, as indústrias de confecção do vestuário faziam de duas a quatro coleções ao ano.Este cenário, em resposta às solicitações do mercado da moda, vem se transformando e se tornando muito mais dinâmico.Para Rech (2003), o desenvolvimento do produto de moda, em grande parte das empresas brasileiras, é concretizado através de coleções pequenas (quantidade de peças), concisas e bem definidas quanto ao conceito/estilo (qualidade), principalmente por causa da velocidade das informações sobre moda a que os consumidores têm acesso.Surgem então, as empresas que trabalham em função das tendências da moda.Segundo Oliveira (2007), elas fazem parte do segmento fast-follower, ou seja, são as que monitoram as tendências mundiais e as lançam rapidamente no mercado.Grandes redes de varejo como C&A, Renner, Riachuelo, Marisa e Hering aderiram à essa tendência, aqui denominada fast-fashion (moda rápida), que é um movimento importado de marcas da Europa, como a Zara e a H&M que na prática, significa estar sempre com as prateleiras abastecidas de",
+        "pdf_url": null,
+        "citation_count": 4,
+        "work_type": "other",
+        "identifier": "W2983471905",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Trabalho feminino na indústria do vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.1590/s0101-73301997000400005",
+        "doi": "10.1590/s0101-73301997000400005",
+        "year": 1997,
+        "authors": [
+          "Raquel da Silva Gazzona"
+        ],
+        "venue": "Educação & Sociedade",
+        "abstract": "Este artigo analisa as mudanças que vêm ocorrendo em uma empresa de grande porte do ramo do vestuário do Rio Grande do Sul e suas relações com as formas de ocupação, controle e qualificação da mão-de-obra feminina. Predominam, na empresa estudada, a baixa escolaridade, os baixos níveis salariais entre as trabalhadoras e a organização do trabalho baseada no parcelamento de tarefas. No entanto, a partir da introdução de tecnologia microeletrônica e de novas formas de gestão da mão-de-obra abrem-se, em pontos estratégicos da produção, oportunidades de treinamento e reinserção profissional para algumas mulheres.",
+        "pdf_url": "https://www.scielo.br/j/es/a/FGWpYdqsXfRPmPLgjRvH79k/?lang=pt&format=pdf",
+        "citation_count": 14,
+        "work_type": "article",
+        "identifier": "W1990179643",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "A Indústria de Confecção do Vestuário de Pato Branco: Aspectos de Gestão, Design, Caracterização de Matérias-Primas e Geração de Resíduos Têxteis",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1982615x10202017023",
+        "doi": "10.5965/1982615x10202017023",
+        "year": 2017,
+        "authors": [
+          "Andréia Mesacasa",
+          "Mário Antônio Alves da Cunha"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "Esta pesquisa possui como foco a indústria de confecção do vestuário no município de Pato branco, evidenciando aspectos relativos à gestão, design, caracterização de matérias-primas e geração de resíduos. No presente estudo foi realizado um diagnóstico junto às empresas, com o intuito de obter informações referentes aos perfis das mesmas, destacando as formas de gestão, design e desenvolvimento de produto, matérias-primas utilizadas e geração de resíduos têxteis. Tais empresas caracterizam-se como empreendimentos de micro e pequeno porte, atuando em diferentes segmentos de mercado, com forte tendência a produção de uniformes profissionais. Em consequência disso, grande parte dos resíduos gerados é constituída por retalhos de malha. Neste sentido, uma alternativa para o reaproveitamento destes resíduos poderia contribuir tanto do ponto de vista ambiental por meio de um melhor direcionamento destes, como economicamente, uma vez que poderiam ser voltados para a produção de produtos de maior valor agregado.",
+        "pdf_url": "http://revistas.udesc.br/index.php/modapalavra/article/download/9554/6800",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W2634651200",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A indústria de confecção do vestuário do município de Pato Branco: aspectos de desenvolvimento, gestão, design, e proposta de reaproveitamento dos resíduos têxteis",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/309",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Andréia Mesacasa"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "A cultura industrial proporcionou uma série de benefícios à sociedade moderna, contudo, impactos ambientais negativos tem sido gerados, em função da exploração inadequada dos recursos naturais do planeta e pela geração excessiva de resíduos. Dentro deste contexto, esta pesquisa possui como foco a indústria de confecção do vestuário no município de Pato branco, e busca evidenciar aspectos relativos à gestão, design, caracterização de matérias-primas e geração de resíduos. Além disso, na tentativa de amenizar o gargalo referente ao correto destino dos resíduos têxteis gerados no processo produtivo, propõe como alternativa o reaproveitamento destes por meio do desenvolvimento de produtos de moda voltados ao público feminino, tais como bolsas e cachecóis. O presente estudo compreendeu três etapas distintas, a primeira, foi composta por um diagnóstico realizado junto às empresas, com o intuito de obter informações referentes aos perfis das mesmas, destacando as formas de gestão, design e desenvolvimento de produto, matérias-primas utilizadas e geração de resíduos têxteis. Tais empresas caracterizam-se como empreendimentos de micro e pequeno porte, atuando em diferentes segmentos de mercado, com forte tendência a produção de uniformes profissionais. Em conseqüência disso, grande parte dos resíduos gerados é constituída por retalhos de malha. Foi evidenciada carência de profissionais qualificados para atuarem tanto nas áreas de criação, desenvolvimento e produção, o que de certa forma constitui um entrave para o crescimento das empresas do município. Na segunda etapa, foi realizada pesquisa com 200 potenciais consumidoras de produtos de moda do município de Pato Branco, buscando verificar as preferências das mesmas em relação à moda, incluindo aspectos como disposição em adquirir produtos confeccionados a partir de resíduos têxteis e técnicas artesanais como tricô, crochê, bordados, fatores estes relevantes para traçar o perfil das consumidoras. Com base nos dados coletados, foram desenvolvidos produtos de moda a partir de resíduos têxteis. Partindo da premissa que o lançamento de produtos ecologicamente corretos requer aceitação cultural e social por parte dos consumidores, na terceira etapa da pesquisa foi realizada avaliação da aceitação dos produtos de moda, empregando-se, de forma inovadora em produtos de moda, a metodologia de avaliação sensorial por escala hedônica e teste de intenção de compra. Foram avaliados atributos técnicos, ergonômicos e estéticos dos produtos. Os produtos desenvolvidos a partir dos resíduos têxteis tiveram boa aceitação e apreciável intenção de compra, demonstrando elevado potencial de reaproveitamento tecnológico dos mesmos. O reaproveitamento dos resíduos poderia contribuir tanto do ponto de vista ambiental através de um melhor direcionamento destes, como economicamente, uma vez que poderiam ser direcionados para a produção de produtos de maior valor agregado.",
+        "pdf_url": null,
+        "citation_count": 8,
+        "work_type": "thesis",
+        "identifier": "W761725874",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "MAPEAMENTO DA INDÚSTRIA TÊXTIL E DE CONFECÇÕES EM SANTA CATARINA",
+        "source": "openalex",
+        "url": "https://doi.org/10.29327/11simep.613216",
+        "doi": "10.29327/11simep.613216",
+        "year": 2023,
+        "authors": [
+          "Diego Milnitz",
+          "Mônica Maria Mendes Luna"
+        ],
+        "venue": "Anais do ... Simpósio de Engenharia de Produção",
+        "abstract": "A indústria têxtil e de confecções brasileira é considerada um dos setores indústrias mais importantes, sendo referência mundialmente, entretanto, tem apresentado diversas dificuldades, frente ao desempenho da economia nacional e a complexidade das diversas empresas que compõem sua cadeia de suprimentos.Este artigo realiza uma caracterização das principais empresas que compõem a cadeia de suprimentos têxtil e de confecções no estado de Santa Catarina, bem como dos seus parceiros de negócio e produtos comercializados.Com base em uma revisão da literatura de trabalhos sobre a indústria têxtil e de confecções e em dados secundários obtidos nas bases de dados nacionais do Ministério do Trabalho e Emprego brasileiro e na Secretaria do Comércio Exterior brasileiro, a cadeia de suprimentos da indústria têxtil e de confecções é descrita e caracterizada em função do tamanho das empresas e os volumes de produção que permitem estimar os fluxos de materiais desta indústria no estado de Santa Catarina e, mais especificamente, na mesorregião do Vale do Itajaí, permitindo assim uma melhor compreensão dessa cadeia de suprimentos e da sua importância econômica para o estado e país.Palavras-Chaves: (Confecção; Mapeamento da indústria; Têxtil) 1. Introdução A indústria têxtil e de confecção brasileira tem se destacado no cenário mundial, não apenas por seu profissionalismo, criatividade e tecnologia, mas também pela dimensão do seu parque produtivo: é a quinta maior indústria têxtil do mundo e a quarta maior em confecção de artigos de vestuário (ABIT, 2016).Contudo, nos últimos anos tem-se observado que a sua produção vem caindo, tanto para manufaturados têxteis quanto nas confecções de artigos de vestuário (ABIT, 2016).Um dos motivos está relacionado com a própria deficiência na gestão dessa cadeia, que é altamente complexa (SARDAR e LEE, 2012; MAHMOOD e KESS, XI SIMPÓSIO DE ENGENHARIA DE PRODUÇÃO \"A Engenharia de Produção no contexto das organizações \"Data Driven\".\"Campina Grande, Paraíba, Brasil -24 a 26 de Maio de 2023.2015).Toda essa complexidade que prejudica sua gestão, também torna o processo de produção e distribuição demorado, imprevisível e pouco competitivo (CAO et al., 2008).Além disso, tem-se verificado que poucos estudos foram realizados com o intuito de discutir assuntos relacionados com a sua cadeia de suprimentos, por conseguinte sobre sua própria estrutura (ROCHA et al., 2008; KIECKBUSCH, 2010;BEZERRA et al., 2014;ABIT, 2016).Rajput e Bakar (2011) afirmam que poucas tentativas foram realizadas para investigar a cadeia de suprimentos têxtil e de confecção.Sardar e Lee (2012) destacam a necessidade de clarificar os conceitos sobre a cadeia de suprimentos nesse setor industrial.Para isso, é fundamental ter o conhecimento explícito e a compreensão de como a cadeia de suprimentos está estruturada (LAMBERT, 2014; GEREFFI e FERNANDEZ-STARK, 2016; LAMBERT E ENZ, 2017).Diante deste contexto, este artigo tem como objetivo a caracterização da indústria têxtil e de confecções do estado de Santa Catarina em específico da mesorregião do Vale do Itajaí, mostrando os principais elos da cadeia de suprimentos, seus parceiros de negócio e produtos comercializados.Para isso, realiza uma revisão da literatura de trabalhos sobre a indústria têxtil e de confecções e em dados secundários retirados das bases de dados do Ministério do Trabalho e Emprego brasileiro e da Secretaria do Comércio Exterior, onde essa cadeia é descrita e caracterizada em função do tamanho das empresas e os volumes de produção no estado de Santa Catarina e, mais especificamente, na mesorregião do Vale do Itajaí, mostrando a importância das empresas para economia do estado e da região pesquisa.Assim, além dessa introdução, o artigo apresenta os procedimentos metodológicos na seção dois, apresenta a caracterização da cadeia de suprimentos têxtil e de confecções na seção três, as discussões da pesquisa na seção quatro e, por fim, traz as considerações finais da pesquisa e sugestões de trabalhos futuros.2. Referencial teórico O mapeamento da indústria têxtil e de confecções tem como objetivo mostrar a importância desse setor industrial bem como sua distribuição em termos de quantidade empresas e funcionários, principais parceiros e produtos comercializados no Brasil, no estado de Santa Catarina, e em específico na mesorregião do Vale do Itajaí.",
+        "pdf_url": "https://static.even3.com/anais/613216.pdf?v=639017382117490399",
+        "citation_count": 2,
+        "work_type": "other",
+        "identifier": "W4376610285",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "O PAPEL DO DESIGN NA GESTÃO DE RESÍDUOS DA INDÚSTRIA DE CONFECÇÃO: UMA PROPOSTA DE PRODUTO",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/designpro-ped-01402",
+        "doi": "10.5151/designpro-ped-01402",
+        "year": 2014,
+        "authors": [
+          "Heliana Marcia Santos",
+          "Bruno Montanari Razza",
+          "João Eduardo Guarnetti dos Santos"
+        ],
+        "venue": "Congresso Brasileiro de Pesquisa e Desenvolvimento em Design (P&D Design)",
+        "abstract": "Resumo: A produção do vestuário gera um volume grande de resíduos têxteis que podem ser reaproveitados para a geração de novos produtos.Neste contexto, é papel do design desenvolver soluções criativas para esses problemas.Atualmente, as preocupações com o meio ambiente estão diretamente ligadas à qualidade de vida e às futuras gerações, o que torna a procura por produtos com desenvolvimento sustentável agregado a responsabilidade social.A indústria têxtil gera desperdícios em quantidades consideráveis, nomeadamente as confecções, através das aparas, retalhos e peças rejeitadas.A indústria de confecção de vestuário é o setor principal na produção de bens finais dentro da cadeia de produção têxtil, no entanto, o ciclo de vida da maior parte dos produtos produzidos pelas confecções é curto, durando cerca de seis meses.O objetivo deste artigo é pontuar o papel do design como um dos agentes responsáveis para o desenvolvimento de novos produtos inseridos na gestão de resíduos das indústrias de confecção e apresentar uma proposta de produto inserido neste contexto.O material desenvolvido com o descarte das indústrias de confecção traz uma proposta para o desenvolvimento de têxteis de forma sustentável.Tendo em vista a responsabilidade social do designer de moda, a proposta de ação sustentável apresentada neste trabalho se aplica na conscientização de se reutilizar materiais já descartados, economia de um novo processo industrial relacionado à extração de recursos naturais, redução da poluição com o descarte de resíduos envolvidos no processo e interagir com a sociedade para introduzir essa consciência no consumo de produtos de origem reciclada.",
+        "pdf_url": "http://pdf.blucher.com.br/designproceedings/11ped/01402.pdf",
+        "citation_count": 4,
+        "work_type": "other",
+        "identifier": "W1977359429",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "GESTÃO DE MARKETING NA PEQUENA EMPRESA DE CONFECÇÃO DE VESTUÁRIOS/MARKETING MANAGEMENT IN A SMALL COMPANY OF CLOTHING MANUFACTURING",
+        "source": "openalex",
+        "url": "https://doi.org/10.15210/reat.v11i6.11905",
+        "doi": "10.15210/reat.v11i6.11905",
+        "year": 2017,
+        "authors": [
+          "Jackson Cittadin",
+          "Aléssio Bessa Sarquis",
+          "João Coelho Soares",
+          "Eric David Cohen"
+        ],
+        "venue": "Revista Eletrônica de Administração e Turismo - ReAT",
+        "abstract": "A gestão de marketing tem papel relevante na pequena empresa de confecção de vestuários. Este estudo analisa como acontece a gestão de marketing na pequena empresa de confecção de vestuários da região AMREC, no Estado de Santa Catarina, Brasil. Trata-se de pesquisa exploratória, qualitativa e na forma de estudos de caso (múltiplos), com coleta de dados por meio de levantamento documental, entrevista em profundidade e observação direta. Os dados coletados foram analisados pela análise de conteúdo com categorização temática e uso do software Atlas TI. Os resultados contêm evidências relacionadas ao processo de planejamento de marketing, estratégias convencionais e contemporâneas utilizadas e processo de avaliação do desempenho de marketing. O estudo contribui para ampliar o conhecimento acadêmico sobre o tema, na medida em que permitiu coletar dados detalhados e evidências relacionadas à gestão de marketing na pequena empresa de confecção de vestuários e para a verificação de proposições teóricas e resultados de outros estudos.",
+        "pdf_url": "https://periodicos.ufpel.edu.br/ojs2/index.php/AT/article/download/11905/7953",
+        "citation_count": 6,
+        "work_type": "article",
+        "identifier": "W2776416323",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Práticas Cotidianas de Gerenciamento de Resíduos Sólidos na Indústria da Confecção de Vestuário no Município de Maringá, Paraná",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/9786555502671-17",
+        "doi": "10.5151/9786555502671-17",
+        "year": 2022,
+        "authors": [
+          "Paula Piva Linke",
+          "Sílvia Helena Zanirato"
+        ],
+        "venue": "Editora Blucher eBooks",
+        "abstract": "O texto se refere a uma sínteseda tese de Doutorado defendida no PROCAM, que buscou entender como empresas daconfecção de vestuário lidam com os resíduos resultantes do processo deprodução. Para tanto, voltou-se para o processo produtivo da confecção dovestuário em três empresas selecionadas; a partir dessa seleção, foramanalisadas a geração de resíduos, as normativas legais que se aplicam aogerenciamento de resíduos nas empresas e as posições dos sujeitos que lidamcotidianamente com esse tipo de produção. Como fundamentação teórica, foramprecisos os conceitos de meio ambiente, desenvolvimento, desenvolvimentosustentável e moda. Além disso, com o intuito de apreender as práticascotidianas dos sujeitos envolvidos com a produção do vestuário em relação aosresíduos, foram considerados entendimentos a respeito dos conceitos de habituse representação social. A metodologia de abordagem foi qualitativa, maisespecificamente de estudo de casos múltiplos e análise de entrevistas semiestruturadas,aplicadas aos sujeitos sociais envolvidos com a produção e o gerenciamento dosresíduos. Ao final do processo, constatou-se que, ainda que as normativasnacional e local orientem o gerenciamento dos resíduos de forma a minimizar suaprodução, ainda persistem formas de produzir que não só geram perdassignificativas na indústria da confecção, como há destinação nem sempre corretados resíduos gerados. Considerou-se que tais ações são decorrentes dos limitesda aplicação da normativa e da não assimilação pelas empresas das normasrecomendadas nas leis nacionais e municipais no sentido da não geração deresíduos.",
+        "pdf_url": "https://openaccess.blucher.com.br/download-pdf/576/23473",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4288780799",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Modelagem Plana Industrial do Vestuário: diretrizes para a indústria do vestuário e o ensino-aprendizado",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2010v1n1p82",
+        "doi": "10.5433/2236-2207.2010v1n1p82",
+        "year": 2010,
+        "authors": [
+          "Marizilda dos Santos Menezes",
+          "Patrícia Aparecida de Almeida Spaine"
+        ],
+        "venue": "Projetica",
+        "abstract": "The work shows the importance of process modeling in industrial flat field fashion design. This was achieved by a qualitative study identifying vision of modelers, students and teachers about this stage of development and production clothing product in the regional center of Londrina - PR. This research allowed the development of methodological guidelines for the teaching and preparation Modeling Industrial flat clothing.",
+        "pdf_url": "https://ojs.uel.br/revistas/uel/index.php/projetica/article/download/7737/6858",
+        "citation_count": 41,
+        "work_type": "article",
+        "identifier": "W1967048349",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Confronto: necessidade de modernização tecnológica e gestão das indústrias de confecção em Londrina",
+        "source": "openalex",
+        "url": "https://ojs.uel.br/revistas/uel/index.php/geografia/article/view/10203",
+        "doi": "10.5433/2447-1747.1999v8n1p49",
+        "year": 1999,
+        "authors": [
+          "José Barreira"
+        ],
+        "venue": "GEOGRAFIA (Londrina)",
+        "abstract": "Mão-de-obra \"qualificada\" fora dos países centrais. A América Latina representa perto de 1% nas exportações de roupas para o mercado internacional, embora haja uma crescente participação dos países da América Central como fornecedores para o mercado dos Estados Unidos da América. Os trabalhadores da Guatemala, de Honduras, do México são os mais desejados. As limitações na formação e qualificação da mão-de-obra neste ramo carregam uma herança histórica impressa numa antiga prática do \"putting-out\" na Inglaterra ou verlag na Alemanha do século XVI: qual seja a nossa contemporânea instituição denominada de facção, uma divisão técnica do trabalho realizado fora dos muros dos mais variados tipos de manufaturas, ou seja, tarefas encaminhadas para serem feitas fora da grande unidade fabril, e também fora do país. Ao refazer o perfil de sua atuação local, o SENAI pode estar interpretando a manifestação de uma possível divisão espacial do trabalho com forte presença dos ramos têxtil e de confecção no Norte e Noroeste do estado. A precisão das suas escalas possibilita uma reprodução uniforme dos modelos em quaisquer dos tamanhos requeridos pelo mercado de uma referida fábrica.",
+        "pdf_url": "https://ojs.uel.br/revistas/uel/index.php/geografia/article/download/10203/9014",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W2143952511",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "USO DO LEAN MANUFACTURING PARA MELHORIA DOS PROCESSOS DE UMA INDÚSTRIA DE CONFECÇÃO DE VESTUÁRIO FEMININO",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.14488/enegep2024_tn_wg_414_2035_47540",
+        "doi": "10.14488/enegep2024_tn_wg_414_2035_47540",
+        "year": 2024,
+        "authors": [
+          "KATYLLA BEATRIZ GONÇALVES SOARES ALVES",
+          "Gabriel de Oliveira Cerqueira",
+          "Kalil Figueiredo Almeida",
+          "Djoille Denner Damm",
+          "André de Mendonça Santos"
+        ],
+        "venue": "Anais ... Encontro Nacional de Engenharia de Produção/Anais do Encontro Nacional de Engenharia de Produção",
+        "abstract": "As ferramentas do lean manufacturing podem ser aplicadas em diferentes etapas dos fluxos produtivos, resultando em produo mais eficiente com reduo de desperdcios. Assim, essa pesquisa foi desenvolvida com o objetivo de otimizar os processos produtivos de uma indstria de pequeno porte no ramo de confeco de vesturio feminino na cidade de Feira de Santana, Bahia, por meio da utilizao de ferramentas do Lean Manufacturing. Desta forma, foi realizado um levantamento bibliogrfico acerca do tema abordado e em seguida foram feitas visitas na fbrica, de maneira gerar conhecimento acerca dos processos produtivos e poder realizar entrevistas tanto com a gerncia como com os colaboradores dos setores. Assim, foram identificados pontos para serem realizadas propostas de melhorias e em seguida aplic-las na fbrica. Os principais resultados foram a reduo do erro de etiquetagem errada nas peas com o uso do poka-yoke; o uso do kanban para obter melhorias significativas na clareza de informaes para os colaboradores e uma maior visibilidade do andamento do processo produtivo; a ferramenta de gesto para melhorar a comunicao da gerncia com os colaboradores dos setores e o uso do 5S, que gerou um ambiente mais organizado e um fluxo produtivo mais eficiente, possibilitando a existncia de um novo cenrio na fbrica.",
+        "pdf_url": "http://www.abepro.org.br/biblioteca/TN_WG_414_2035_47540.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4404139433",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "VISÃO BASEADA EM RECURSOS (VBR) NA FORMULAÇÃO DAS ESTRATÉGIAS DAS INDÚSTRIAS DE CONFECÇÃO DO VESTUÁRIO DE SARANDI (RS)",
+        "source": "openalex",
+        "url": "https://periodicos.univali.br/index.php/ra/article/view/12315",
+        "doi": "10.14210/alcance.v27n1(jan/abr).p63-81",
+        "year": 2020,
+        "authors": [
+          "Aline Schwertner Palma",
+          "Ana Claudia Machado Padilha Correio"
+        ],
+        "venue": "Revista Alcance",
+        "abstract": "The Resource Based View (RBV) incorporates traditional strategy insights into the distinct competencies and heterogeneous capabilities of a company. Moreover, the allocation, exploitation and combination of resources reaches a decisive threshold for competition in markets permeated by uncertainty and pressures of all kinds. The objective of the study was to understand how clothing manufacturers in Sarandi (Rio Grande do Sul) formulate their strategies based on tangible and intangible resources. For this purpose, qualitative and exploratory research was carried out, with data collection through interviews with the directors of three industries. The data obtained were submitted to content analysis. The results show that the manufacturers adopt emerging strategies, relying on entrepreneurship, environmental, design, planning and learning. In terms of resources, intangible assets help promote competitiveness, and can lead to competitive advantage, being characterized as fundamental in the execution of objectives, goals and strategies. However, despite the manufacturers’ potential for strategic exploration, and the possibility of increasing their competitiveness in their market, no sustainable competitive advantage was identified.",
+        "pdf_url": "https://periodicos.univali.br/index.php/ra/article/download/12315/pdf",
+        "citation_count": 13,
+        "work_type": "article",
+        "identifier": "W3216243236",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "INDICADORES DE SUSTENTABILIDADE E DOS ODS PARA A MITIGAÇÃO DE IMPACTOS DA INDÚSTRIA DE CONFECÇÃO DO VESTUÁRIO",
+        "source": "openalex",
+        "url": "https://doi.org/10.55333/rima-978-65-84811-42-3_021",
+        "doi": "10.55333/rima-978-65-84811-42-3_021",
+        "year": 2024,
+        "authors": [
+          "Silvia Mara Bortoloto Damasceno Barcelos",
+          "Paula Piva Linke"
+        ],
+        "venue": null,
+        "abstract": "É de suma importância acompanhar os avanços e recuos relacionados à sustentabilidade, que vem ganhando elevada importância devido a problemas ambientais, econômicos e sociais, além de ser um diferencial entre as organizações.Através da sustentabilidade, elas podem desenvolver estratégias e ações mais competitivas e sustentáveis.Além disso, as organizações têm incorporado informações importantes em suas tomadas de decisões por meio de indicadores de sustentabilidade.Sendo assim, este capítulo tem por objetivo estudar como os indicadores de sustentabilidade e os ODS podem contribuir para a mitigação de impactos da indústria de confecção do vestuário.A abordagem desta pesquisa é qualitativa e apresenta um estudo de caso do APL α, referente ao setor de confecção de vestuário, considerado um dos setores mais impactantes em termos de danos ambientais e exploração de mão de obra.Neste estudo, dá-se maior ênfase ao Global Reporting Initiative (GRI) e, na sequência, apresentam-se os indicadores de sustentabilidade que, focados no triple-botton-line , possibilitam a geração de relatórios de sustentabilidade com foco na transparência da organização e sua relação com os objetivos do desenvolvimento sustentável.Os resultados demonstram que uma organização relatora iniciante precisa identificar a materialidade respondendo a um mínimo de indicadores, incluindo pelo menos um de cada uma das seguintes áreas de desempenho: ambiental, social e econômica.",
+        "pdf_url": "https://doi.org/10.55333/rima-978-65-84811-42-3_021",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4410613651",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Design de vestuário de moda contemporânea: criação versus produção",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1822/19256",
+        "doi": null,
+        "year": 2009,
+        "authors": [
+          "Anne Anicet Rüthschilling"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "No mundo globalizado em que vivemos, a moda está a ganhar cada vez mais importância, tanto em termos de indústria e economia, como no domínio do saber científico. A crescente evolução das “semanas de moda”, no mundo inteiro, é resultado de todo este processo que é cada vez mais o suporte de uma economia que atrai a cada estação um número maior de investidores. Para suportar esta requisito, a cadeia industrial de produtos de moda tem de estar atenta às rápidas evoluções do mercado. Isto reflecte-se directamente nas exigências profissionais dos colaboradores envolvidos nos mais diversos processos que compõem o processo da moda, principalmente dos designers de têxteis e de moda, técnicos de modelagem, etc. Entre os desafios da actualidade estão a inovação em termos estéticos, de design, conforto, acabamentos de elevado desempenho, fácil manutenção e preço concorrencial. Tudo isto de acordo com as exigências dos consumidores, agregando a qualidade de criação com a qualidade produtiva. Neste contexto, enquadra-se este projecto que visa estudar a actual evolução da produção de moda em Portugal e no Brasil. Para tal, foi realizada uma pesquisa sobre o design de vestuário de moda contemporânea, baseado na experiência dos criadores de moda que apresentam os seus trabalhos nas “semanas de moda” mais importantes de ambos países. Foi ainda elaborado um inquérito destinado aos criadores que participam nas feiras: Moda Lisboa, Portugal Fashion, São Paulo Fashion Week e Fashion Rio com o intuito que conhecer como estes trabalham, seja em termos de criação, seja em termos de estrutura da empresa, produção e meios que costumam utilizar para a distribuição dos seus produtos. É objectivo deste trabalho conceber uma metodologia de criação de produtos de moda, com base na experiência de trabalho destes profissionais e pautada pelos princípios teóricos do Marketing, Gestão da Produção e de Criação de Moda. Esta pesquisa será uma ferramenta importante na criação de produtos de moda de autor, apesar de não existir uma metodologia única e ideal para todos os criadores.",
+        "pdf_url": null,
+        "citation_count": 13,
+        "work_type": "other",
+        "identifier": "W2242143447",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Práticas cotidianas acerca do gerenciamento de resíduos sólidos na indústria da confecção de vestuário no município de Maringá, Paraná",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/t.106.2018.tde-09022018-131442",
+        "doi": "10.11606/t.106.2018.tde-09022018-131442",
+        "year": 2018,
+        "authors": [
+          "Paula Piva Linke"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "In the present research I sought to understand how businesses from the clothing industry deal with residues from the production process. To do so, I reflected on: the production process of clothing industries in the three selected companies, named here N, I and A; the residues generation; legal rulings which apply to residue management in the clothing industry; and the subject positions of those who deal daily with this king of production. Hence, the hypotheses which guided the theses is that although there is large legal ruling on residues management and proper production technologies, there are also daily procedures of doing which prevent the process from working better. As a theoretical base, it is relevant to understand what can be understood as environment, development, sustainable development and fashion. Supplementary, in order to encompass daily practices of the subjects linked with clothing production in relation to the residues, the concepts of habitus and social representation are paramount. I used a methodology of qualitative approach, namely the multiple case study, and applied production and analyses methods of semi structured interview. The thesis is structured as follows: in the first chapter the theoretical reference essential to the formulated hypothesis is presented. In it, I explain the concepts used as well as the methodology used to conduct the research. In the second, I discuss the legal ruling on residue management. In the third, I present the specificity of the clothing sector in Maringá town. In the fourth, I contemplate the production process of clothing within the three companies studied. In the fifth, I bring the analyses of the residues management process. In the sixth, the perceptions of the social subjects involved in the production process. Lastly, I present the final considerations. I could indeed verify that as there are national and local legal rulings weighing on the residues management in order to minimize its production, there still are ways in which production not only generates significant losses in the clothing industry, but also result in a not always correct destination of generated residues. I could realize that this results from subjects not assimilating the guidelines recommended in the national and local law, and that this can be explained by how subjects involved in the production process as a whole appropriate the understandings of the law and represent it in actions which show acting limitations and possibilities. It is important to consider that the companies are part of capitalism and follow the rules stablished by this system. As to the analyzed companies, I do not consider them sustainable, but with little impact on the environment, highlighting N, followed by I and A. I also do not see the possibility of reaching a sustainable society with the current lifestyle and philosophy of capitalism.",
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W2808897783",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Avaliação da satisfação dos usuários de sistemas integrados de gestão (ERP) nas médias empresas de confecção do vestuário de Fortaleza",
+        "source": "openalex",
+        "url": "https://repositorio.ufpb.br/jspui/handle/tede/5210",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Francismilton Teles"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "As empresas de pequeno e médio porte são a grande maioria no cenário nacional, gerando emprego e renda de forma pulverizada para a nação. Uma das ferramentas que colaboram para o aumento da competitividade nestas empresas é o uso de Sistemas Integrados de Gestão (ERP), os quais, quando bem utilizados, auxiliam no processo de planejamento, gestão e controle. É muito importante a verificação do sucesso de utilização destes sistemas nas empresas e um dos meios mais aceitos de analisá-los é por meio da avaliação da satisfação dos seus usuários. Esta dissertação avalia a satisfação dos usuários de sistemas ERP‟s nas médias empresas de confecção do vestuário no município de Fortaleza, um dos maiores pólos de confecção do Brasil. O método utilizado foi a pesquisa Survey, através da qual foram entrevistados 117 usuários de 25 empresas e seguiu o modelo de avaliação customizado por Ely (2010), onde são avaliados de forma quantitativa a satisfação dos usuários finais e usuários-chave de um sistema ERP. Os resultados apresentam, de forma geral, que os usuários estão satisfeitos com os sistemas ERP implantados. Também foi verificado por meio de análise multivariada, que o modelo utilizado foi adequado ao contexto das médias empresas, pois os testes estatísticos (Alfa de Cronbach, esfericidade de Bartlett e KMO) obtiveram valores bastante confiáveis.",
+        "pdf_url": "https://repositorio.ufpb.br/jspui/bitstream/tede/5210/1/arquivototal.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2561276547",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Gestao da producao em foco: volume 7",
+        "source": "crossref",
+        "url": "https://doi.org/10.5935/978-85-93729-46-1.2018b001",
+        "doi": "10.5935/978-85-93729-46-1.2018b001",
+        "year": 2018,
+        "authors": [
+          "Editora Poisson"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.5935/978-85-93729-46-1.2018b001",
+        "extra": {
+          "crossref_type": "book",
+          "publisher": "10.5935"
+        }
+      },
+      {
+        "title": "A \"colcha de retalhos\" da metropole paulista: simples aglomerados ou sistemas produtivos e inovativos na industria do vestuario?",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2005.361904",
+        "doi": "10.47749/t/unicamp.2005.361904",
+        "year": 2021,
+        "authors": [
+          "Maria das Graças Moura Brito"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2005.361904",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "ENGENHARIA DE PRODUCAO E DE MATERIAIS 4.0: METODOS PREVENTIVOS, PREDITIVOS, IOT E 5S PARA EFICIENCIA E SUSTENTABILIDADE NA INDUSTRIA",
+        "source": "crossref",
+        "url": "https://doi.org/10.47879/ed.ep.2025024",
+        "doi": "10.47879/ed.ep.2025024",
+        "year": 2025,
+        "authors": [
+          "Bruno Matos de Farias"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.47879/ed.ep.2025024",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "Epitaya"
+        }
+      },
+      {
+        "title": "As transformações produtivas na industria textil-vestuario e seus impactos sobre a distribuição territorial da produção e a divisão do trabalho industrial",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2004.306983",
+        "doi": "10.47749/t/unicamp.2004.306983",
+        "year": 2021,
+        "authors": [
+          "Marcio Paschoino Lupatini"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2004.306983",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "AS DIFICULDADES DE PLANEJAMENTO SUCESSÓRIO NO BRASIL",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.10146",
+        "doi": "10.17771/pucrio.acad.10146",
+        "year": 2015,
+        "authors": [
+          "MONICA SAPUCAIA MACHADO"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.10146",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "A industria de sais de litio no Brasil: estudo da implantação de uma industria mineral pioneira no Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1996.107803",
+        "doi": "10.47749/t/unicamp.1996.107803",
+        "year": 2021,
+        "authors": [
+          "Jose Paulo Mansur Marques"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1996.107803",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Practical tool in classification of animals for slaughter by fuzzy logic",
+        "source": "crossref",
+        "url": "https://doi.org/10.5897/ajar2014.9429",
+        "doi": "10.5897/ajar2014.9429",
+        "year": 2015,
+        "authors": [
+          "Producao e Gestao Agroindustrial da Universidade Anhanguera Uniderp. Campo Grande, Brazil.",
+          "Francisco Sebastiao Ramos",
+          "Celso Correia de Souza",
+          "Jose Francisco dos Reis Neto",
+          "Daniel Massen Frainer"
+        ],
+        "venue": "African Journal of Agricultural Research",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.5897/ajar2014.9429",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Academic Journals"
+        }
+      },
+      {
+        "title": "O uso de estatísticas industriais no Brasil: dificuldades metodológicas e operacionais",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/1413-8050/ea217542",
+        "doi": "10.11606/1413-8050/ea217542",
+        "year": 1997,
+        "authors": [
+          "Fernando Sarti",
+          "Wilson Suzigan"
+        ],
+        "venue": "Economia Aplicada",
+        "abstract": "O trabalho avalia a adequabilidade do atual sistema de estatísticas industriais para analisar os complexos fenômenos e transformações em curso na economia e, particularmente, na indústria brasileira, decorrentes de tendências internacionais, mudanças na política econômica interna, incorporação de novas tecnologias e reestruturações produtivas, organizacionais e gerenciais. Enfatiza-se a importância de ampliar o escopo e a desagregação de indicadores e informações qualitativas para uso de executivos de empresas, policy makers e pesquisadores acadêmicos, bem como de revigorar o papel do IBGE, tanto na geração de estatísticas quanto na coordenação de um sistema nacional de informações econômicas com participação de outras instituições públicas e privadas.",
+        "pdf_url": "https://www.revistas.usp.br/ecoa/article/download/217542/198931",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.11606/1413-8050/ea217542",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Transplante de córnea no Brasil: progresso e dificuldades em 16 anos",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/t.5.2018.tde-28092018-104410",
+        "doi": "10.11606/t.5.2018.tde-28092018-104410",
+        "year": 2018,
+        "authors": [
+          "Hirlana Gomes Almeida"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/t.5.2018.tde-28092018-104410",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "GILMAR MASIERO. Negocios com Japao, Coréia do Sul e China: economia, gestao e relacoes con Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.31050/re.v0i20.13377",
+        "doi": "10.31050/re.v0i20.13377",
+        "year": 2016,
+        "authors": [
+          "Secretario Redacción"
+        ],
+        "venue": "Estudios digital",
+        "abstract": "Negocios com Japao, Coréia do Sul e China: economia, gestao e relacoes con Brasil, de Gilmar Masiero. Editora Saraiva, Sao Paulo, 2007, 356 páginas.",
+        "pdf_url": "http://revistas.unc.edu.ar/index.php/restudios/article/download/13377/13561",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.31050/re.v0i20.13377",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidad Nacional de Cordoba"
+        }
+      },
+      {
+        "title": "Mudanças tecnologicas e reestruturação da industria agroalimentar: o caso da industria de frangos no Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1993.63906",
+        "doi": "10.47749/t/unicamp.1993.63906",
+        "year": 2021,
+        "authors": [
+          "Aldair Tarcisio Rizzi"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1993.63906",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "PERFIL DA PRODUCAO CIENTIFICA SOBRE TERCEIRO SETOR NO CONTECSI USP - CONGRESSO INTERNACIONAL DE GESTAO DA TECNOLOGIA E SISTEMAS DE INFORMACAO - 24 A 218",
+        "source": "crossref",
+        "url": "https://doi.org/10.5748/16contecsi/soc-6251",
+        "doi": "10.5748/16contecsi/soc-6251",
+        "year": 2019,
+        "authors": [
+          "GUILHERME FERREIRA DE MORAES",
+          "NELMA T ZUBEK VALENTE",
+          "JOCIMAR DONIZETI DO PRADO"
+        ],
+        "venue": "CONTECSI International Conference on Information Systems and Technology Management",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5748/16contecsi/soc-6251",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "TECSI"
+        }
+      },
+      {
+        "title": "GESTAO ESTRATÉGICA NO MERCADO COMPETITIVO",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.33277",
+        "doi": "10.17771/pucrio.acad.33277",
+        "year": 2018,
+        "authors": [
+          "GABRIELA BRUM MOREIRA FONSECA"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.33277",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "Fragmentos do SCculo XX. Bibliografia Cronologica e Comentada de Textos sobre a Producao Linguistica Brasileira",
+        "source": "crossref",
+        "url": "https://doi.org/10.31819/9783865278357-005",
+        "doi": "10.31819/9783865278357-005",
+        "year": 1997,
+        "authors": [
+          "Maria Cristina Altman"
+        ],
+        "venue": "Pesquisas linguísticas em Portugal e no Brasil",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.31819/9783865278357-005",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Iberoamericana Vervuert"
+        }
+      },
+      {
+        "title": "Producao Cientifica na Area de Letras e Artes",
+        "source": "crossref",
+        "url": "https://doi.org/10.17699/workshopnpt.11.8.a",
+        "doi": "10.17699/workshopnpt.11.8.a",
+        "year": 2015,
+        "authors": [
+          "Jose Dutra"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "10.17699/workshopnpt.11.8.a",
+        "extra": {
+          "crossref_type": "report",
+          "publisher": "NPT Educacional"
+        }
+      },
+      {
+        "title": "Avaliacao da gestao ambiental dos hoteis de selva na Amazonia, Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.25145/j.pasos.2008.06.040",
+        "doi": "10.25145/j.pasos.2008.06.040",
+        "year": 2008,
+        "authors": [
+          "Adriana Gomes de Moraes"
+        ],
+        "venue": "PASOS Revista de turismo y patrimonio cultural",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.25145/j.pasos.2008.06.040",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "University of La Laguna"
+        }
+      },
+      {
+        "title": "Uma contribuição ao estudo do processo de recuperação de empresas em dificuldades financeiras no Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/t.12.2008.tde-02092008-155403",
+        "doi": "10.11606/t.12.2008.tde-02092008-155403",
+        "year": 2015,
+        "authors": [
+          "Marcelo Monteiro Perez"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/t.12.2008.tde-02092008-155403",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Análise das dificuldades de gestão de inovação encontradas por duas grandes empresas industriais no Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2020.1127364",
+        "doi": "10.47749/t/unicamp.2020.1127364",
+        "year": 2021,
+        "authors": [
+          "Lucas Marques Matos"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2020.1127364",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Neo-crafts in the Contemporary Film Industry: the Costume Design of Captain Marvel as a Case Study",
+        "source": "crossref",
+        "url": "https://doi.org/10.46840/ec.2026.24.797",
+        "doi": "10.46840/ec.2026.24.797",
+        "year": 2026,
+        "authors": [
+          "Atena Pou Clavell"
+        ],
+        "venue": "Economía Creativa",
+        "abstract": "Costume making in major film productions features a duality between the integration of new technologies and the persistence of artisanal techniques. This article analyses the praxis of the textile artisan in contemporary industry through a case study, focusing on the author's professional practice of designing and executing prints for Carol Danvers's uniforms in The Marvels (2023). Through technical data sheets, comparative observation, and document analysis, the study explores, on one hand, how transmedia storytelling conditions the creation and symbolism of costumes; on the other hand, it addresses the material and technical study of printing under the framework of neo-crafts, contrasting various manual and digital printing methodologies in the workshop. Based on this case study, the article argues for high-density screen printing as a highly complex technique essential to achieving futuristic fabrics and resolving material challenges that digital post-production cannot address. The study concludes that the survival of the craft does not lie in competing with the digital environment but in creating technical synergies that revalue artisanal praxis in contemporary cinema.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.46840/ec.2026.24.797",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Centro de Diseño y Comunicacion"
+        }
+      },
+      {
+        "title": "TD 2601 -Gestão Comunitária da Água: soluções e dificuldades do saneamento rural no Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.38116/td2601",
+        "doi": "10.38116/td2601",
+        "year": 2020,
+        "authors": [],
+        "venue": "Texto para Discussão",
+        "abstract": "A infraestrutura de serviços públicos para o meio rural e periferias das cidades tem, no plano global, os piores indicadores de cobertura e de qualidade. A Organização Mundial da Saúde (OMS) relatou, em 2017, que 55% dos habitantes do meio rural tinham acesso à água tratada de forma segura e apenas 35% tinham acesso a algum sistema de esgotamento sanitário seguro. A situação não é diferente na América Latina e no Brasil, como se destaca neste trabalho. No país, cerca de 31 milhões de pessoas vivem no campo e dependem de soluções individuais ou coletivas. Diante da baixa quantidade de dados e de publicações sobre o tema, o objetivo principal deste texto é descrever esta realidade e evidenciar soluções de provimento de água no meio rural, assim como sua importância, dificuldades e desafios. Ilustra-se a experiência da América Latina e do Brasil com soluções por meio das Organizações Comunitárias de Serviços de Água e Saneamento (OCSAS), ou gestão comunitária da água (GCA), cujas ações são alinhadas aos Objetivos de Desenvolvimento Sustentável (ODS) das Nações Unidas. Destaca-se a necessidade do protagonismo e organização comunitária, bem como a participação de organizações sociais, além das ações do Estado e de empresas de saneamento, para viabilizar as soluções simplificadas de fornecimento de água para produtores rurais, comunidades indígenas e tradicionais. Diversos gargalos foram identificados, bem como sugestões foram apontadas para garantir o financiamento, a ampliação e a continuidade dos sistemas de água.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.38116/td2601",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Instituto de Pesquisa Economica Aplicada - IPEA"
+        }
+      }
+    ]
+  },
+  "count": 40,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T01:58:55.310749+00:00"
+}

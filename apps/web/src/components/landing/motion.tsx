@@ -275,8 +275,39 @@ export function LandingMotion() {
         });
         parallax("aprovar");
 
-        /* 7. O encaixe: as peças caem de alturas diferentes e se encaixam no tecido. */
+        /* 7. O encaixe: o rolo de tecido abre na mesa e as peças caem e se encaixam no risco. */
         const en = '[data-cena="encaixe"]';
+        const roloMesa = document.querySelector<HTMLElement>(`${en} .lp-rolo-mesa`);
+        if (roloMesa) {
+          const tr = gsap.timeline({
+            scrollTrigger: { trigger: roloMesa, start: "top 88%", end: "bottom 52%", scrub: 0.5 },
+          });
+          tr.fromTo(
+            `${en} .lp-rolo-pano`,
+            { clipPath: "inset(0 92% 0 0)" },
+            { clipPath: "inset(0 0% 0 0)", duration: 1, ease: "none" },
+            0,
+          );
+          tr.fromTo(
+            `${en} .lp-rolo-cilindro`,
+            { x: -730 },
+            { x: 0, duration: 1, ease: "none" },
+            0,
+          );
+          tr.fromTo(
+            `${en} .lp-rolo-miolo`,
+            { rotation: -540, svgOrigin: "824 130" },
+            { rotation: 0, svgOrigin: "824 130", duration: 1, ease: "none" },
+            0,
+          );
+          gsap.utils.toArray<SVGGElement>(`${en} [data-rolo-peca]`).forEach((p, i) => {
+            tr.from(
+              p,
+              { y: -38, opacity: 0, rotation: i % 2 ? 6 : -6, transformOrigin: "50% 50%", duration: 0.32, ease: "power2.out" },
+              0.2 + i * 0.17,
+            );
+          });
+        }
         const contador = document.querySelector<HTMLElement>(`${en} .lp-contador`);
         const pecas = gsap.utils.toArray<SVGGElement>(`${en} [data-peca]`);
         const te = gsap.timeline({
@@ -296,6 +327,59 @@ export function LandingMotion() {
           te.to(n, { v: pecas.length, duration: te.duration(), ease: "none", onUpdate: () => (contador.textContent = String(Math.floor(n.v))) }, 0);
         }
         parallax("encaixe");
+
+        /* 7b. Da ideia à peça pronta para cortar: zoom de abertura, trilha horizontal por papel e giro do manequim. */
+        const ent = '[data-cena="entrega"]';
+        const entregaPalco = document.querySelector<HTMLElement>(`${ent} .lp-entrega-palco`);
+        const entregaTrilho = document.querySelector<HTMLElement>(`${ent} .lp-entrega-trilho`);
+        if (entregaPalco && entregaTrilho && grande) {
+          const distEntrega = () => Math.max(0, entregaTrilho.scrollWidth - window.innerWidth);
+          const tent = gsap.timeline({
+            scrollTrigger: {
+              trigger: entregaPalco,
+              start: "top top",
+              end: () => `+=${distEntrega() + window.innerHeight * 0.65}`,
+              pin: true,
+              scrub: 0.5,
+              invalidateOnRefresh: true,
+            },
+          });
+          tent.fromTo(
+            `${ent} .lp-entrega-zoom`,
+            { scale: 0.9, y: 24 },
+            { scale: 1, y: 0, duration: 0.22, ease: "power2.out" },
+            0,
+          );
+          tent.to(entregaTrilho, { x: () => -distEntrega(), ease: "none", duration: 1 }, 0.12);
+          tent.to(`${ent} .lp-entrega-fundo`, { x: () => -distEntrega() * 0.4, ease: "none", duration: 1 }, 0.12);
+          gsap.utils.toArray<HTMLElement>(`${ent} .lp-entrega-card`).forEach((card, i) => {
+            if (i === 0) return;
+            tent.from(
+              card,
+              { scale: 0.92, y: 28, rotation: i % 2 ? 2 : -2, duration: 0.28, ease: "power2.out" },
+              0.08 + i * 0.16,
+            );
+          });
+          tent.fromTo(
+            `${ent} .lp-giro-corpo`,
+            { rotateY: -28, scaleX: 0.92 },
+            { rotateY: 28, scaleX: 1, duration: 0.7, ease: "sine.inOut" },
+            0.45,
+          );
+          tent.fromTo(
+            `${ent} .lp-giro-anel`,
+            { strokeDashoffset: 90 },
+            { strokeDashoffset: 0, duration: 0.7, ease: "none" },
+            0.45,
+          );
+        } else if (entregaPalco) {
+          gsap.from(`${ent} .lp-entrega-zoom`, {
+            scale: 0.94,
+            y: 20,
+            ease: "power2.out",
+            scrollTrigger: { trigger: `${ent} .lp-entrega-zoom`, start: "top 90%", end: "top 55%", scrub: true },
+          });
+        }
 
         /* 8. Marca-texto amarelo que passa sobre a frase. */
         gsap.utils.toArray<HTMLElement>(".lp-marca").forEach((el) => {

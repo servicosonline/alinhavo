@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "No desenvolvimento de modelagem para vestuário em malha, o molde não deve ser reduzido linearmente por um único fator de elasticidade nem obtido pela simples adaptação de blocos de tecido plano, pois o ajuste desejado, a gramatura, a composição e a região anatômica do corpo alteram o comportamento do alongamento da malha.",
+    "stance": "supports",
+    "stance_target": "Inadequação de fatores únicos de redução linear e da adaptação direta de blocos de tecido plano para modelagem de malha",
+    "evidence_type": "empirical",
+    "scope_conditions": "Modelagem plana de vestuário feminino em malha (casualwear e sportswear)",
+    "quoted_support": "Também mostraram uma qualidade superior da modelagem de Cole em comparação aos outros dois autores, tanto nas blusas quanto no macacão, de forma que o uso de um único valor de redução e a adaptação dos blocos de tecidos planos nem sempre geram bons resultados. Mostrou-se que não é apenas o alongamento que possui influência em peças em tecidos de malha, mas também sua gramatura e composição, as quais devem ser consideradas no desenvolvimento de peças do vestuário em malha.",
+    "numbers": [],
+    "entities": ["Julia Maria Percebom", "Isabel Cristina Italiano", "EACH-USP", "Julie Cole", "Keith Richardson", "Helen Joseph-Armstrong"],
+    "time_period": "2021",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "diretrizes-para-o-desenvolvimento-de-modelagem-de-vestuário-em-malha"
+  },
+  {
+    "claim": "Há carência de abordagens objetivas no âmbito acadêmico e técnico brasileiro que relacionem o teste de carga de alongamento da malha aos valores exatos de redução do molde por região do corpo.",
+    "stance": "supports",
+    "stance_target": "Lacuna metodológica no Brasil sobre cálculo de fatores de redução em modelagem de malha",
+    "evidence_type": "empirical",
+    "scope_conditions": "Ensino e prática de modelagem de malha no Brasil",
+    "quoted_support": "Especialmente no âmbito acadêmico brasileiro, há uma carência de abordagens mais objetivas sobre todos os aspectos que envolvem a modelagem para peças em malha.",
+    "numbers": [],
+    "entities": ["Julia Maria Percebom", "EACH-USP"],
+    "time_period": "2021",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "diretrizes-para-o-desenvolvimento-de-modelagem-de-vestuário-em-malha"
+  },
+  {
+    "claim": "Os protótipos experimentais de blusas e macacões demonstraram a necessidade de um método mais preciso de teste de carga de alongamento que considere a gramatura da malha para evitar erros de dimensionamento do molde.",
+    "stance": "supports",
+    "stance_target": "Limitações dos testes manuais e de carga fixa para determinar o fator de redução do molde em malharia",
+    "evidence_type": "empirical",
+    "scope_conditions": "Ensaios de elasticidade e prototipagem de vestuário em malha",
+    "quoted_support": "Os resultados dos protótipos mostraram a necessidade de um método mais preciso de teste de carga de alongamento.",
+    "numbers": [],
+    "entities": ["Julia Maria Percebom", "EACH-USP"],
+    "time_period": "2021",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "diretrizes-para-o-desenvolvimento-de-modelagem-de-vestuário-em-malha"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "claim": "In several areas, the prototyping method using 3D modeling is already widespread, but for the fashion market, the technology can be better explored.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "3D modeling for fashion design\n\t\t\t\t\t\t\t| DAT Journal",
+    "quoted_support": "In several areas, the prototyping method using 3D modeling is already widespread, but for the fashion market, the technology can be better explored.",
+    "numbers": [],
+    "entities": [
+      "3D modeling for fashion design\n\t\t\t\t\t\t\t| DAT Journal"
+    ],
+    "time_period": "2016-2026",
+    "region": "Brasil",
+    "confidence": "medium",
+    "source_note_id": "3d-modeling-for-fashion-design-dat-journal"
+  },
+  {
+    "claim": "With this in mind, the article reports on exploratory research that, through a bibliographic survey, aimed at identify social and market scenarios where the use of this technology is prominent in the production of fashion design.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "3D modeling for fashion design\n\t\t\t\t\t\t\t| DAT Journal",
+    "quoted_support": "With this in mind, the article reports on exploratory research that, through a bibliographic survey, aimed at identify social and market scenarios where the use of this technology is prominent in the production of fashion design.",
+    "numbers": [],
+    "entities": [
+      "3D modeling for fashion design\n\t\t\t\t\t\t\t| DAT Journal"
+    ],
+    "time_period": "2016-2026",
+    "region": "Brasil",
+    "confidence": "medium",
+    "source_note_id": "3d-modeling-for-fashion-design-dat-journal"
+  },
+  {
+    "claim": "contributing as a source for new discussions._ Bacharel em Design de Moda pela UNIVILLE, com especialização em modelagem plana pelo Orbitato e mestrado em Design pela Univille.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "3D modeling for fashion design\n\t\t\t\t\t\t\t| DAT Journal",
+    "quoted_support": "contributing as a source for new discussions._ Bacharel em Design de Moda pela UNIVILLE, com especialização em modelagem plana pelo Orbitato e mestrado em Design pela Univille.",
+    "numbers": [],
+    "entities": [
+      "3D modeling for fashion design\n\t\t\t\t\t\t\t| DAT Journal"
+    ],
+    "time_period": "2016-2026",
+    "region": "Brasil",
+    "confidence": "medium",
+    "source_note_id": "3d-modeling-for-fashion-design-dat-journal"
+  }
+]

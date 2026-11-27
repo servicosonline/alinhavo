@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "Em 2022, o parque industrial formal do setor têxtil e de confecção brasileiro era composto por 17 unidades de produção de fibras e filamentos (4,8 mil empregos), 2.468 unidades têxteis (245,7 mil empregos) e 20.036 confecções (1,1 milhão de empregos).",
+    "stance": "supports",
+    "stance_target": "Dimensionamento e pulverização do elo de confecção na cadeia produtiva têxtil brasileira",
+    "evidence_type": "statistical",
+    "scope_conditions": "Parque industrial formal têxtil e de confecção no Brasil (dados IEMI / Inteligência de Mercado 2022)",
+    "quoted_support": "Em 2022, o parque industrial nacional era formado por 17 unidades de produção de fibras e filamentos, 2.468 unidades têxteis – fabricantes de tecido plano, malha e nãotecido – e 20.036 confecções, que empregam 4,8 mil, 245,7 mil e 1,1 milhão de pessoas, em cada setor, respectivamente (INTELIGÊNCIA DE MERCADO, 2022).",
+    "numbers": ["17 unidades", "2.468 unidades têxteis", "20.036 confecções", "4,8 mil", "245,7 mil", "1,1 milhão"],
+    "entities": ["IEMI - Inteligência de Mercado", "USP"],
+    "time_period": "2022",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo-3"
+  },
+  {
+    "claim": "Empresas brasileiras da cadeia têxtil e de confecção apresentam baixa competitividade internacional e deslocam o design e a inovação para segundo plano porque direcionam mais recursos ao pagamento de impostos e conformidade legal do que a atividades de pesquisa e desenvolvimento.",
+    "stance": "supports",
+    "stance_target": "Impacto da carga tributária, complexidade fiscal e falta de parceria integrada nas indústrias têxteis e de confecção do Brasil",
+    "evidence_type": "empirical",
+    "scope_conditions": "Indústria têxtil e de confecção brasileira frente ao mercado global",
+    "quoted_support": "Frente a uma relação comercial agressiva do mercado global, verifica-se o baixo grau de competitividade internacional do Brasil, devido ao seu histórico de cultura agrária e exportação de produtos primários, incluindo fases oscilantes de industrialização e de políticas fiscais onerosas e controversas. Algumas empresas, infelizmente, direcionam mais recursos para o pagamento de impostos e para a conformidade legal do que investem em atividades de pesquisa, desenvolvimento e inovação, como apontado por Vartanian e Maciel (2019, p. 165).",
+    "numbers": [],
+    "entities": ["BNDES", "Vartanian e Maciel (2019)", "Monteiro Filho e Corrêa (2002)"],
+    "time_period": "2002-2023",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo-3"
+  },
+  {
+    "claim": "A ausência de parceria integrada entre empresas das cadeias têxtil e de confecção e a falta de curso superior específico em design têxtil no Brasil obrigam os profissionais do setor a se qualificarem de forma empírica pela própria experiência de mercado.",
+    "stance": "supports",
+    "stance_target": "Déficit de qualificação técnica especializada e desarticulação entre fornecedores têxteis e confecções",
+    "evidence_type": "empirical",
+    "scope_conditions": "Formação acadêmica e atuação profissional na cadeia têxtil e de confecção no Brasil (2023)",
+    "quoted_support": "A partir da investigação bibliográfica sobre a formação acadêmica em design e a configuração do parque fabril nacional visto que não há curso superior específico em design têxtil no país, confirmou-se a prática realizada por profissionais de diferentes áreas do ramo que acabaram se qualificando pela própria experiência de mercado. Um estudo do BNDES, de 2002, já havia sinalizado alguns gargalos a ser superados para atuar eficientemente numa economia aberta, num setor exportador como o têxtil, dentre deles a ausência de parceria integrada entre empresas das cadeias têxtil e de confecção, e o baixo investimento em desenvolvimento de produto e design.",
+    "numbers": ["2002", "2023"],
+    "entities": ["USP", "BNDES", "SENAI CETIQT"],
+    "time_period": "2002-2023",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo-3"
+  },
+  {
+    "claim": "As principais marcas de moda e varejistas divulgam apenas parte do primeiro nível de seus fornecedores (confecção: corte, costura, acabamento e embalagem), mantendo falta generalizada de transparência nos elos anteriores da cadeia têxtil.",
+    "stance": "supports",
+    "stance_target": "Opacidade e governança fragmentada da cadeia de suprimentos de moda e confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Cadeia de suprimentos de marcas e varejistas de moda (Fashion Revolution, 2021)",
+    "quoted_support": "Segundo o movimento global Fashion Revolution, que promove uma maior transparência na produção de moda, as principais marcas do setor e varejistas têm divulgado somente parte de suas cadeias de suprimento do primeiro nível de fornecedores, onde ocorre a fase final da produção, ou seja, localizada na área de confecção, em corte, costura, acabamentos e embalagens. Os níveis mais distantes do produto confeccionado, relacionados à indústria têxtil, lugares onde os tecidos são fabricados, tratados e lavados, os fios são fiados e tingidos, as fibras são classificadas e processados e as matérias-primas são cultivadas e colhidas, há uma falta generalizada de transparência (FASHION REVOLUTION, 2021).",
+    "numbers": ["1º nível"],
+    "entities": ["Fashion Revolution"],
+    "time_period": "2021-2023",
+    "region": "Brasil / Global",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo-3"
+  },
+  {
+    "claim": "A difusão da tecnologia de estamparia digital a partir dos anos 2000 pulverizou a produção têxtil em pequenas metragens no Brasil, permitindo personalização rápida no elo de beneficiamento.",
+    "stance": "supports",
+    "stance_target": "Transformação tecnológica para produção em pequenos lotes na cadeia têxtil-confecção",
+    "evidence_type": "historical",
+    "scope_conditions": "Empresas de beneficiamento e estamparia têxtil no Brasil a partir dos anos 2000",
+    "quoted_support": "Não por menos, o Brasil possui um maior número de empresas de beneficiamento instaladas, quando comparado às tecelagens (figura 16, p.83), sendo nesta etapa a atuação do designer de estampa. O design de estampas é uma das vertentes em design têxtil bastante difundidas a partir dos anos 2000, por ter tido uma série de investimentos na tecnologia digital que pulverizou a produção em pequenas metragens, e consequentemente uma forma rápida de personalizar um tecido via a estampa.",
+    "numbers": ["anos 2000"],
+    "entities": ["USP"],
+    "time_period": "2000-2023",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo-3"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "Conducting garment fit evaluation predominantly on static models leads to high time consumption and elevated product development costs in apparel manufacturing.",
+    "stance": "supports",
+    "stance_target": "time and cost pain points of traditional static fit evaluation in patternmaking and prototyping",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apparel product development and fit evaluation of knitted garments",
+    "quoted_support": "Apparel fit is influenced by body proportion, fabric, and design parameters, but much of the fit evaluation is carried out in a static model, which leads to time consumption and higher development costs.",
+    "numbers": [],
+    "entities": ["Tekstil ve Mühendis"],
+    "time_period": "2024",
+    "region": "India / Turkey",
+    "confidence": "high",
+    "source_note_id": "virtual-fit-evaluation-for-optimization-of-garment-components-parameters-tekstil"
+  },
+  {
+    "claim": "When pattern design parameters are varied across three levels in 3D CAD, low-stress mechanical properties of knitted fabrics interact significantly with pattern parameters, with cotton-lycra blended single jersey garments exhibiting lower ease allowance across body fit zones compared to 100% cotton.",
+    "stance": "supports",
+    "stance_target": "elastane/lycra composition alters ease allowance and strain across fit zones, requiring specific pattern adjustments by the patternmaker",
+    "evidence_type": "empirical",
+    "scope_conditions": "Men's basic crewneck T-shirt in cotton and cotton-lycra single jersey knitted fabric evaluated in 3D CAD",
+    "quoted_support": "Virtual 3D fit software evaluates the fit zones of the garment by incorporating the low-stress mechanical properties of knitted fabrics into an avatar model. Desen parametreleri ve malzeme bileşimleri üzerinde önemli bir etki vardır; pamuk-likra giysiler çeşitli uyum bölgelerinde daha düşük rahatlık gösterir.",
+    "numbers": ["3 levels"],
+    "entities": ["Tekstil ve Mühendis"],
+    "time_period": "2024",
+    "region": "India / Turkey",
+    "confidence": "high",
+    "source_note_id": "virtual-fit-evaluation-for-optimization-of-garment-components-parameters-tekstil"
+  }
+]

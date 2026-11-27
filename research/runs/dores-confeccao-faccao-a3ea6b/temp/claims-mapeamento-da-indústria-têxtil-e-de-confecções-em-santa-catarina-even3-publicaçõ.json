@@ -1,0 +1,16 @@
+[
+  {
+    "claim": "O mapeamento da indústria têxtil e de confecções em Santa Catarina constitui tema de investigação em Gestão Estratégica e Organizacional na Engenharia de Produção brasileira.",
+    "stance": "neutral",
+    "stance_target": "Caracterização estrutural do setor têxtil e de confecções em Santa Catarina",
+    "evidence_type": "historical",
+    "scope_conditions": "Santa Catarina, Brasil, publicado no XI SIMEP (2023)",
+    "quoted_support": "MILNITZ, Diego; LUNA, Mônica Maria Mendes. MAPEAMENTO DA INDÚSTRIA TÊXTIL E DE CONFECÇÕES EM SANTA CATARINA.. In: Anais do Simpósio de Engenharia de Produção - SIMEP.",
+    "numbers": [],
+    "entities": ["Diego Milnitz", "Mônica Maria Mendes Luna", "SIMEP"],
+    "time_period": "2023",
+    "region": "Santa Catarina, Brasil",
+    "confidence": "high",
+    "source_note_id": "mapeamento-da-indústria-têxtil-e-de-confecções-em-santa-catarina-even3-publicaçõ"
+  }
+]

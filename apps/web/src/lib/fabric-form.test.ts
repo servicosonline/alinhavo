@@ -18,6 +18,9 @@ describe("formulário de tecido", () => {
         width_mm: null,
         weight_gsm: null,
         price_cents: null,
+        price_per_kg_cents: null,
+        shrinkage_warp_pct: null,
+        shrinkage_weft_pct: null,
         preset: null,
         stretch_pct: null,
         drape: null,
@@ -66,5 +69,19 @@ describe("formulário de tecido", () => {
     // Preset desconhecido não é erro: fica sem preset.
     const r = readFabricForm(form({ name: "X", preset: "lycra" }));
     expect("fields" in r && r.fields.preset).toBeNull();
+  });
+
+  it("converte preço por quilo (R$/kg) em preço por metro quando tem largura e gramatura e guarda encolhimento", () => {
+    const r = readFabricForm(
+      form({ name: "Meia malha 30/1", width: "160", weight: "160", pricePerKg: "50,00", shrinkageWarp: "5", shrinkageWeft: "3,5" }),
+    );
+    expect("fields" in r && r.fields).toMatchObject({
+      width_mm: 1600,
+      weight_gsm: 160,
+      price_per_kg_cents: 5000,
+      price_cents: 1280, // 50,00 * 1,6 m * 0,16 kg/m² = R$ 12,80/m
+      shrinkage_warp_pct: 5,
+      shrinkage_weft_pct: 3.5,
+    });
   });
 });

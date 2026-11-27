@@ -1,0 +1,23 @@
+[
+  {
+    "claim": "Embora o mercado brasileiro plus size tenha crescido cerca de 75% em 10 anos e a NBR 16933:2021 vá do tamanho 34 ao 62, a norma contempla apenas os biótipos retângulo e colher, deixando desassistidos os biótipos oval e diamante (nos quais a circunferência da cintura/abdômen supera busto e quadril).",
+    "stance": "supports",
+    "stance_target": "Insuficiência da NBR 16933:2021 para representar a morfologia do corpo gordo feminino brasileiro",
+    "evidence_type": "empirical",
+    "scope_conditions": "Vestuário feminino plus size no Brasil; análise da NBR 16933:2021",
+    "quoted_support": "Já o biótipo diamante foi classificado por Carvalho e Poci (2023) como aquele que apresenta uma circunferência de cintura maior em relação as circunferências de busto e quadril, sobressaindo muito mais o abdômen nas dimensões de largura desta estrutura corporal. Com relação as normas de medidas direcionadas para ao corpo feminino, temos a NBR 16933/2021, lançada no final de 2021 e que apresenta um apanhado das medidas corporais femininas contemplando o biótipo retângulo, com uma tabela de medidas configurada do tamanho 34 até o tamanho 62.",
+    "numbers": [
+      "75% (crescimento em 10 anos)",
+      "tamanho 34 ao 62"
+    ],
+    "entities": [
+      "ABNT NBR 16933:2021",
+      "ABPS (Associação Brasil Plus Size)",
+      "PUC-Rio"
+    ],
+    "time_period": "2013-2024",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "15º-congresso-brasileiro-de-pesquisa-e-desenvolvimento-em-design-manaus-am"
+  }
+]

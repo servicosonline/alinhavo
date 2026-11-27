@@ -1,0 +1,841 @@
+{
+  "ok": true,
+  "data": {
+    "query": "apparel sizing system grading anthropometric fit dissatisfaction",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 20,
+      "doab": 0
+    },
+    "raw_records": 40,
+    "merged_records": 40,
+    "returned": 40,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "The Relationship Between Anthropometric Sizing, Fit Issues, and Return Rates in Plus-Size Women's Apparel",
+        "source": "openalex",
+        "url": "https://scholarworks.waldenu.edu/dissertations/17281",
+        "doi": null,
+        "year": 2025,
+        "authors": [
+          "Smith, Cassondra"
+        ],
+        "venue": "ScholarWorks (Walden University)",
+        "abstract": "Retail business owners remain concerned with apparel sizing and return sales, as sizing is a frequent predictor of apparel returns and decreased revenue. Grounded in new product development theory (NPD), the purpose of this quantitative correlational study was to examine the relationship between anthropometric apparel sizing standards, sizing and fit issues, and return sales. The participants were 89 women’s bridal apparel owners and leaders within the retail business sector who completed a 5-point Likert-type survey. The results of the multiple linear regression were significant, 3, 85) = 32.301, p < .001, R2 = .533. In the final model, there were two predictors which were significant, sizing and fit (t = 9.718, p = <.001, ß = .735) and sizing standards (t = 2.478, p = .01, ß = .205). A key recommendation is for retail business leaders to acknowledge the growth in the U.S. female apparel consumer. Further, the alignment of sizing standards and product offerings provides functional apparel and mitigates return sales due to sizing. The implications for positive social change include the potential for the apparel industry to acknowledge the growing complexity of women’s sizing, which is influenced by diverse cultural backgrounds and body types. This shift could promote greater inclusivity, enhance consumer confidence, reduce return rates, and foster broader acceptance of diverse female body types within the industry.",
+        "pdf_url": "https://scholarworks.waldenu.edu/context/dissertations/article/18951/viewcontent/1133558.pdf",
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W7112861960",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "APPAREL SIZING AND FIT FOR GIRLS",
+        "source": "openalex",
+        "url": "https://uknowledge.uky.edu/mat_etds/18",
+        "doi": "10.13023/etd.2020.126",
+        "year": 2020,
+        "authors": [
+          "Ashia Sowah"
+        ],
+        "venue": "UKnowledge (University of Kentucky)",
+        "abstract": "The act of shopping for girl's clothes is a delight of most parents. It ignites the pleasure of being a parent. However, many parents and their girls have experienced the frustration of inconsistent sizing and fit of their girl's clothes across brands. The purpose of this study was to understand the sizing and fit problems of girls ages 7-12 and to evaluate how brands utilize the current sizing standards. A structured questionnaire was used to collect data from a population of 150 (N=150) female parents. A survey was administered to help gain a better understanding and assess parent opinion of sizing and fitting problems for girls age 7-12 when shopping for jeans. Laboratory measurement was taken from 12 jeans samples brands category. This study compares and contrasts the sizing and fit of the four popular brands of girl's jeans boot cut groups: Children's Place, Gap, Levi's, and Old Navy. The study also evaluates the published ASTM (American Society for Testing and Materials) standard of the body dimensions of girls wearing the size 12 and compares the measurements to the online size chart. In addition, an examination and the evaluation of the study were to measure the physical jeans in various locations to assess if it conforms to the ASTM standard (ASTM chart) and to discover any variations of the same size 12 jeans to determine any fit and sizing issues.",
+        "pdf_url": "https://uknowledge.uky.edu/cgi/viewcontent.cgi?article=1017&context=mat_etds",
+        "citation_count": 4,
+        "work_type": "thesis",
+        "identifier": "W3023640293",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Exploring the Precision of Sizing Charts Applying Anthropometric Data in the Bangladeshi Retail Market Concerning Women's Ready-Made Apparel Fit Dilemmas",
+        "source": "openalex",
+        "url": "https://propulsiontechjournal.com/index.php/journal/article/view/7656",
+        "doi": null,
+        "year": 2024,
+        "authors": [
+          "Most. Naznin Akter"
+        ],
+        "venue": "Journal of Propulsion Technology",
+        "abstract": "This article explores the issue of fit and style in women's clothing considering the Bangladesh market, using anthropometric data to reflect proper sizing patterns. Consumers mostly assume garment fit as an ultimate factor when buying readymade garments. The clothing industry in Bangladesh still uses the Western sizing system, modified to fit the ideal body type, as standard sizes are not available. Research shows that most mature women are over the age of 26 and then the body undergoes physical changes due to certain conditions. Therefore, they prefer to wear semi-fit or loose-fit clothes instead of finding a better fit from Bangladeshi brands. The complexity of garment sizing and poor fit leads to dissatisfaction for most consumers. This study leads to an analysis of the anatomy of the female body and provides details used to develop a size chart in terms of anthropometric measurements to present the steps. A total of 135 Bangladeshi women aged 25 to 34 years were measured using manual measurement methods and anthropometric surveys were obtained to target her group from size range, size code, and upper size limit. determined the lower bound. To provide quality clothing for consumer comfort and satisfaction, this study is designed to help consumers by providing detailed, process-based anthropometric data that serves as a guide for creating an appropriate sizing system. It will significantly pay its way to advance our understanding of size charts and provide the groundwork for more research in Bangladesh.",
+        "pdf_url": "https://propulsiontechjournal.com/index.php/journal/article/download/7656/4907",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7218250548",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Apparel sizing and fit preferences and problems of plus-size Swazi working women",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/2263/25978",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Minah Thembi Nkambule"
+        ],
+        "venue": "UpSpace Institutional Repository (University of Pretoria)",
+        "abstract": "Clothes are not only for body protection and covering, but they also have social and emotional aspects attached to them. For them to be appealing, they need to have a proper fit while remaining fashionable and aesthetically pleasing to the eye (Anderson, Brannon, Ulrich, Presley&Woronka, Grasso&Gray,2000; Yoo, 2003). Swaziland has a large population of plus-size women who are working in different departments and need to dress for the job on a daily basis. Their apparel sizing and fit preferences and problems are not known. This research investigates apparel sizing and fit preferences and problems of the plus-size Swazi working women. It concentrates specifically on the functional, aesthetic and economic fit preferences, as well as on determining size labelling preferences, knowledge and clothing styles preferences and problems. This was a descriptive study using a quantitative approach. Purposive sampling was used. This design was chosen as it focused on studying plus-size working women who were experiencing fit problems with the apparel they bought from local apparel retail shops. A survey using a questionnaire to collect data was done in exploring apparel sizing and fit problems and preferences of plus-size working women of Swaziland. A sample of plus-size Swazi working female teachers (n = 249) between the ages of 25 and 60 years who had indicated that they wore clothes of size 16 to 28+ or size 40 to 52+ participated in the study. A self-administered questionnaire was used to answer set objectives. The results of the study indicated that the plus-size Swazi working women preferred clothes that were functionally comfortable, fitted well and were made in comfortable fabric. They also indicated that they preferred clothes that were well sized, had a fit that was functional, sensually and emotionally pleasing in respect of style, the fabric used and comfort. The study also reflected that plus-size Swazi working women experienced sizing and fit problems in most of the apparel they bought from local retail outlets. A high number of the plus-size women consumers reported experiencing difficulty in finding clothes that were aesthetically pleasing. They could not find clothes that were fashionable in their size nor clothes that could satisfy their emotional and symbolic egos. A high number of respondents also indicated that they experienced a lot of fit problems on several areas of their bodies. The waist, hips, buttocks, abdomen and upper arms seemed to be the most problematic body areas respondents reported to be having fit problems. The lengths were also a challenge as most had problems with sleeve and pants length. Findings in this study also reflected that sizing in clothes was still a major problem for most of the plus-size consumers. Many of the respondents had problems understanding information on the size tags. The sizing systems were most probably confusing for the consumer as some came in varying numbers and letters. This study may contribute to a better understanding of sizing and fit preferences and problems experienced by the plussize Swazi working women with regard to work apparel. Consumers come in different shapes and sizes. The clothing producer has a task of ensuring that clothes are made to fit most of the prevailing figure types, rather than the common ideal figure.",
+        "pdf_url": "http://upetd.up.ac.za/thesis/available/etd-07012011-131243/",
+        "citation_count": 18,
+        "work_type": "thesis",
+        "identifier": "W818097279",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Influence of Size and Fit on Malaysian Apparel Industry Sustainability: A Scoping Review",
+        "source": "openalex",
+        "url": "https://doi.org/10.3390/su16062486",
+        "doi": "10.3390/su16062486",
+        "year": 2024,
+        "authors": [
+          "Yiyan Wang",
+          "Norsaadah Zakaria"
+        ],
+        "venue": "Sustainability",
+        "abstract": "Mass production and global trade have fuelled apparel industry economic growth since the industrial revolution. Mass production and global trade have also contributed to sustainability issues, such as pollution and resource depletion. This scoping review explores how garment sizing and fit affect the sustainability of the Malaysian garment industry. The research objective was achieved using an in-depth analysis of the literature to identify the main sizing and fit issues and research gaps in the Malaysian apparel industry. Furthermore, the sustainability challenges resulting from sizing and fit issues were explored and the strategies to address these issues for apparel industry sustainability were proposed. Finally, the authors suggest that Malaysia should establish its own standard sizing system to contribute to the sustainable development of the local industry. This comprehensive analysis aims to provide an empirical basis and strategic guide for sustainable development by the Malaysian apparel industry.",
+        "pdf_url": "https://www.mdpi.com/2071-1050/16/6/2486/pdf?version=1710735365",
+        "citation_count": 13,
+        "work_type": "article",
+        "identifier": "W4392915091",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Improvement of Methods for Evaluation of Anthropometric Fit and Ergonomics of Clothing",
+        "source": "openalex",
+        "url": "https://doi.org/10.7250/9789934227622",
+        "doi": "10.7250/9789934227622",
+        "year": 2022,
+        "authors": [
+          "Eva Lapkovska"
+        ],
+        "venue": "RTU Press eBooks",
+        "abstract": "The Doctoral Thesis presents the developed method – algorithm for assessing the anthropometric fit and ergonomics of clothing. Based on the performed research and the author's experience in the implementation of practical research on clothing sizing problems, a method for assessing the anthropometric fit and ergonomics of clothing has been developed with the aim to promote the efficiency of appropriate clothing selection processes. The concept of this method is outlined, its implementation and operation are described, specifying the structure and elements of the algorithm – parts of the process. The approbation of the method is described, and the results of validation experiments with evaluation are included.",
+        "pdf_url": "https://doi.org/10.7250/9789934227622",
+        "citation_count": 5,
+        "work_type": "book",
+        "identifier": "W4284676924",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Mass-Produced Apparel",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.1201/9781003397533-5",
+        "doi": "10.1201/9781003397533-5",
+        "year": 2024,
+        "authors": [
+          "Daisy E. Veitch"
+        ],
+        "venue": "CRC Press eBooks",
+        "abstract": "This chapter discusses how to apply the Sustainable Product Evaluation, Engineering, and Design process (SPEED) process to mass-produced apparel products. Examples of the concept-of-fit (COF), pilot testing, trade studies, prototype tests, and applications in the sizing loop are presented in the form of real-world case studies. The case studies include examples from manufacturers, retailers, and procurement groups for organizations such as the military, firefighters, hospitals, and so on. Retailers and procurement groups may or may not be able to influence the design and sizing of existing products. However, they want to understand the sizing for several reasons such as: (1) to ensure it will accommodate their target population (TP), (2) to decide which sizes to purchase, (3) to decide how many of each size to purchase, and (4) to specify design criteria and sizing for future products. This knowledge enables better decisions that lead to improved efficiencies, profitability, and sustainability of their business. The case studies include examples of full fit tests, creating and checking a size selection chart, creating a sustainable fit standard, grading, and calculating tariffs.",
+        "pdf_url": "https://api.taylorfrancis.com/content/chapters/oa-edit/download?identifierName=doi&identifierValue=10.1201/9781003397533-5&type=chapterpdf",
+        "citation_count": 1,
+        "work_type": "book-chapter",
+        "identifier": "W4401454633",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "An explication of the problems with apparel fit experienced by female Kenyan consumers in terms of their unique body shape characteristics",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/2263/25450",
+        "doi": null,
+        "year": 2009,
+        "authors": [
+          "Anne Mastamet‐Mason"
+        ],
+        "venue": "UpSpace Institutional Repository (University of Pretoria)",
+        "abstract": "Problems related to apparel fit stem from a variety of factors, such as an outdated anthropometric database from which sizing systems could be developed, lack of and/or inadequate classified body forms, non-standardised communication of sizing and fit and non-standardised fit quality management, amongst the clothing industries (Chun-Yoon&Jasper, 1996; Holzman, 1996; Winks, 1997; Desmarteau, 2000; Anderson, Brannon, Ulrich, Presley; Woronka; Grasso&Stevenson, 2001; Ashdown, 2003; Simmons&Istook, 2004). Anthropometric data in Kenya was taken in 1975 and the measurements were obtained from girls and women of Kenya’s learning institutions and organisations (KEBS, 2001). The source of the original data from which the size tables were derived is obscure, to authenticate the quality of the techniques and instruments used for the data collection. Apparently, there is no known research that has been carried out on clothing anthropometry, sizing (body measurements) and fit (body shape) for women. In the absence of representative sizing systems, wrong styles and sizes based on estimates and not on the actual sizes and body shapes of women consumers in Kenya, contribute to fit problems. Consumers’ lack of knowledge about size (body measurements) and fit (body shape) issues also contributes to the disillusionment, confusion and inappropriate apparel selection. Consumers’ fit preferences contribute to fit problems, if the available styles do not consider consumers’ body shapes, and even further, if the consumers are uninformed about their shapes and how to dress accordingly. The aim of this research was therefore to identify and describe distinctive female body shapes of career women in Kenya using body dimensions and photographs, to describe the differences between the emerging distinctive body shapes (measurements and photographs) and the Western distinctive shapes, and to finally describe and analyse implications for the fit of apparel associated with the emerging distinctive body shapes of Kenya’s career women. It also intended to assess and describe career women’s self-perceived fit issues with the ready-made apparel in Kenya, to determine and describe Kenyan career women’s knowledge about the communication of size (key body dimensions) and fit (body shapes), and also to determine and describe career women’s fit preferences for differently fitted apparel items in Kenya. This research is descriptive as an attempt is made to describe and understand body shape(s) and tendencies in consumers’ behaviour regarding fit issues. It is exploratory as it aims to obtain insight into a relatively new area of study, namely identification of the most prevalent (distinctive) body shape of Kenya’s career women, consumers’ perceived size and fit issues, their knowledge about size and fit, and their fit preferences. Various theories were consulted and adapted in this study, while practical training in anthropometry and photography was undertaken to ensure that measurements and photographs were taken accurately and reliably. Traditional anthropometric-related theories and standards of obtaining body measurements were consulted and applied. Photography rules were set and observed while photographing the women. Phase one of the study focused on the variables in the body characteristics thought to be appropriate for identifying and describing distinctive female body shapes. Phase two applied the quantitative research that focused on the variables obtained from fit problems with apparel, the communication of size and fit, and fit preferences. A structured questionnaire was used to get the broader picture of the respondents’ perceived fit problems, their knowledge about the communication of size and fit, as well as their fit preferences for differently fitted apparel items. The questionnaire measured specific dimensions of fit problems with apparel, the communication of size and fit, as well as fit preferences. The body dimensions that were recorded, body evaluations, and the responses to the questionnaire were coded, captured and analysed. It is apparent from this study that the most dominant body shape is a curvy rectangular shape that differs not only from the ideal (hourglass) body shape, but also from the Western (USA) prevalent straight rectangular shape. The fit problems such as tight hips, crotch, bust and stomach experienced by Kenya’s career women are therefore inevitable, as confirmed by the dissatisfaction with the unavailability of appropriate styles for their sizes and shapes. It is clear that most Kenyan female consumers are familiar with the non-informative lettered and numbered size labels, but unfamiliar with size label terms that represent established body types. They understand neither the meanings of various size and fit descriptions, nor their own key body dimensions; this leads to confusion as to where the cause of their problems lies. Apparently most Kenyan career women consumers prefer fitted and semi-fitted skirts and jackets. In the absence of a distinctive body shape in Kenya, it is possible that the available styles do not cater for their curvy rectangular body shape; hence, they experience fit problems. Consumers’ lack of knowledge about body shape may also lead to inappropriate fit preferences that do not take into account their distinctive body shape and its critical fit points. This study makes certain recommendations to the ready-made apparel industry in Kenya and foreign companies that export their apparel items to Kenya, government agencies such as the Kenya Bureau of Standards, and to consumer-oriented organisations. The results contribute to the body of knowledge regarding the theory of apparel size and fit, Ashdown’s sizing systems theory, research methodology theory, and consumer education theory.",
+        "pdf_url": "https://repository.up.ac.za/bitstream/2263/25450/5/Complete.pdf",
+        "citation_count": 18,
+        "work_type": "thesis",
+        "identifier": "W206848682",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Evaluating garment size and fit for petit women using 3D body scanned anthropometric data",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10500/24014",
+        "doi": null,
+        "year": 2017,
+        "authors": [
+          "MM Phasha"
+        ],
+        "venue": "Unisa Institutional Repository (University of South Africa)",
+        "abstract": "Research suggests that there is a plethora of information on the size and shape of the average and plus sized women in South Africa (Winks, 1990; Pandarum, 2009; Muthambi, 2012; Afolayan & Mastamet-Mason, 2013 and Makhanya, 2015). However, there is very little information on petite women‟s body shapes, their body measurements and their shopping behaviour, especially in South Africa, for manufacturing ready-to-wear garments. The purpose of this petite women study was to investigate the shapes and sizes of a sample of petite South African women and develop size charts for the upper and lower body dimensions. This study used a mixed-method; purposive, non-probability sampling method to achieve the objectives of the study. A (TC)² NX16 3D full body scanner and an Adam‟s® medical scale were used to collect the body measurement data of 200 petite South African women, aged between 20-54 years with an average height range of 157cm, residing in Gauteng (Pretoria and Johannesburg). Other data collection instruments included a demographic questionnaire to collect the subjects‟ demographic information such as, age, height, weight, etc.; and the psychographic questionnaire to gather the petite subjects‟ demographics as well as their perceptions and preferences on currently available ready-to-wear shirt and trouser garments. Of the 200 subjects that were initially recruited, based on the petite women‟s body height that ranged from 5‟ 4” (163 cm) and below, the most prevalent body shape profile that emerged from the dataset, was the pear body shape which was evident in 180 of the 3D full body scanned petite women subjects. Therefore, the anthropometric data for these 180 subjects was used in the development of the experimental upper and lower body dimensions size charts and as the basis for the fit test garments developed in this study. The collected data was analysed and interpreted in Microsoft Excel and the IBM SPSS Statistics 24 (2016) software package, using principal component analysis (PCA) to produce the experimental size charts for the upper and lower body dimensions necessary for creating prototype shirt and trouser garments. Regression analysis was used to establish the primary and secondary body dimensions for the development of the size charts and for determining the size ranges. The experimental upper and lower body dimensions size charts were developed for sizes ranging from size 6/30 to size 26/50. Subsequently, the accuracy of the size charts developed in this study was evaluated by a panel of experts who analysed the fit of the prototype shirt and trouser garments, manufactured using measurements for a size 10/34 size range from the size chart, on a sample of the petite subjects. The fit of these garments was also compared with the fit of garments manufactured using the 3D full body scanned measurements of a size 10/34 petite tailoring mannequin, that is currently commercially available for use in the production of garments for petite women in South Africa. The shirt and trouser prototype garments developed using the size 10/34 upper and lower body dimensions size chart measurements had, overall, a better quality of fit than the garments made to fit the current, commercially available, size 10/34 mannequin. These findings thereby confirmed that the data extracted from the (TC)² NX16 3D full body scanner and the size charts subsequently developed using the data, has the potential to provide better/improved fit in garments for petite South African women than data hitherto published. From the evidence of this study, it is recommended that the South African garment manufacturing industry needs to revise the current sizing system for petite women to accommodate the body dimensions and shape variations that currently prevail amongst consumers. The South African garment manufacturers and retailers also need to familiarise themselves with the needs, challenges and preferences of the petite consumers‟ target market that purchase ready-to-wear shirt and trouser garments in South Africa.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2808895316",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Anthropometric Evaluation of NFPA 1977 Sizing System for U.S. Female Wildland Firefighters: A Contingency Table Analysis",
+        "source": "openalex",
+        "url": "https://doi.org/10.3390/fire8070270",
+        "doi": "10.3390/fire8070270",
+        "year": 2025,
+        "authors": [
+          "Ziwen Qiu",
+          "Josephine Bolaji",
+          "Meredith McQuerry",
+          "Cassandra Kwon"
+        ],
+        "venue": "Fire",
+        "abstract": "Ensuring proper sizing and fit for U.S. female firefighters’ personal protective clothing and equipment (PPE) is a crucial challenge for researchers and manufacturers. The National Fire Protection Association (NFPA) establishes design and performance standards in the U.S., with NFPA 1977 specifying sizing guidelines for wildland firefighting gear. However, the absence of an anthropometric database representing female firefighters limits the effectiveness of these standards. This research evaluates the effectiveness of NFPA 1977 sizing system by investigating whether correlated body measurements maintain internal consistency and provide data-driven recommendations for improvement. Anthropometric data from 187 U.S. female firefighters were analyzed to assess the 2016 and 2022 NFPA 1977 upper and lower torso sizing systems. Correlation analysis was performed between body measurements and corresponding sizes. Contingency tables presented proportion of participants accommodated. Results indicated significant correlations between chest and wrist measurements and sizes in the upper torso, though these were the only available measurements. In the lower torso, hip size strongly correlated with thigh and knee sizes. However, the system inadequately accommodates female firefighters with larger waist and hip measurements. Furthermore, rise sizes demonstrated inconsistent, weak relationships with hip circumference. Overall, the NFPA 1977 sizing requires revision to better serve U.S. female firefighters.",
+        "pdf_url": "https://www.mdpi.com/2571-6255/8/7/270/pdf?version=1751967668",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4412104090",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Anthropometric Measurement Extraction of Saudi Women Using 3D Body Scanning Technology within a Cultural Context: Implications for Apparel Design",
+        "source": "openalex",
+        "url": "https://doi.org/10.15221/25.56",
+        "doi": "10.15221/25.56",
+        "year": 2025,
+        "authors": [
+          "Faizah ALMALKI"
+        ],
+        "venue": null,
+        "abstract": "When designing, sizing, and customising apparel, it is necessary to take accurate measurements of the human form.The current research sets out to examine Saudi women's anthropometric features by means of a three-dimensional (3D) body scanner, taking into consideration the relevant ethical and cultural concerns.A 3D body scanner was used to collect data for 250 women aged between 18 and 55 years, yielding volumetric, linear, and circumferential measurements.The findings indicate that there is considerable variation in in terms of limb, hip, waist, bust, and height dimensions, thereby suggesting that imported size charts should not be relied upon.Moreover, the most common body shape categories revealed by cluster analysis are markedly different to those in the Western world.The research suggests that it is feasible to undertake 3D body scanning in a culturally sensitive way and the resulting data can be used by Saudi apparel brands to improve the fit of their garments, offer customisable features, and make their offering more competitive.",
+        "pdf_url": "https://proc.3dbody.tech/papers/2025/2556.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4414832694",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Body shape characteristics body cathexis and apparel fit preferences and problems of African and Caucasian women",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/2263/50669",
+        "doi": null,
+        "year": 2015,
+        "authors": [
+          "Bukisile P. Makhanya"
+        ],
+        "venue": "UpSpace Institutional Repository (University of Pretoria)",
+        "abstract": "Apparel firms base their sizing systems on a standard figure. The South African apparel industry adapted an old British sizing system that is not only foreign but is also out dated and inaccurate. Consumer populations consist of varied body shapes and sizes. Yet the South African industry like a majority of apparel industries around the world does not cater for figure shape variations. Consequently, consumers whose body shape characteristics differ from the ideal figure are likely to experience fit problems from the standard apparel. Ready-to-wear (RTW) apparel fit problems are further compounded if the target population consists of diverse ethnic groups, as body shapes, sizes and proportions differ between ethnic groups. An individual‟s body shape characteristics and ethnicity influence one‟s body cathexis. Furthermore, consumers of different body shapes and ethnicity are likely to have different RTW apparel fit preferences. This research aimed to compare body measurements, measurement ratios, body cathexis, fit problems and fit preferences of 234 young African and Caucasian women selected by the purposive and snowballing techniques. This descriptive and exploratory research employed quantitative techniques for collecting and analysing the data. The data was collected using a 3-D body scanner, a questionnaire and a Body Shape Assessment Scale. Virtual body images were generated, from which measurements were extracted. Thereafter, the drop values: hip minus bust and bust minus waist circumferences were used to classify participants into different body shape categories. Virtual images were then used to confirm and adopt the assigned body shapes. Descriptive statistics, Chi-square and Kruskal-Wallis tests were used to compare body measurements, body cathexis, fit problems and fit preferences of the predominant African and Caucasian body shapes. The three most predominant body shapes were the triangle, the hourglass and the rectangle in varying numbers among the African and Caucasian women, showing a significant association between body shapes and ethnicity (p = 0.004). A comparison of the body measurements of the predominant shapes with those of the Caucasian hourglass, assumed to be identical to the Western ideal figure used by the apparel industry, reveal that most differences that impact on apparel fit are between the Caucasian hourglass and the Caucasian triangle, the African hourglass and the African triangle. The present study also found body shape differences between African and Caucasian women of the same body shape, which strongly points to the role of ethnicity in body shape differences. In most cases there were discrepancies between predicted and perceived fit problems. The Caucasian triangle experienced the predicted fit problems and apparel tightness around the hips and buttocks, which did not record significant differences. Even though the Caucasian rectangle did not differ much from the Caucasian hourglass, they experienced a too tight fit at the bust, stomach, abdomen, hips and thighs and not at the significantly larger waist where tight fit was predicted. Ethnicity proved to influence body shape characteristics as the African hourglass recorded a significantly smaller abdomen than the Caucasian hourglass and as predicted resulted in loose fitting skirts and trousers just below the waist. However, the African hourglass did not experience loose fit around the abdomen. The African triangular body shape had a significantly smaller bust, smaller abdomen, with larger hips, buttocks and thighs, and therefore, loose fitting in the waist of bodices and tight fitting in the lower body were as predicted. The African rectangular shape had a few minor differences compared to the Caucasian hourglass, yet they perceived a too tight fit at the bust, stomach, abdomen, hips and thighs although none of these were predicted from the body measurements. The African hourglass was the only shape that was satisfied with all body parts, while other shapes were dissatisfied with most of the lower body parts. Although almost all the predominant body shapes mostly experienced a too tight fit at stomach and abdomen and lower body parts, all except the Caucasian rectangular, preferred closely fitted apparel at all body parts, despite their dissatisfaction.",
+        "pdf_url": "https://repository.up.ac.za/bitstreams/8a50e15e-ada6-4d7f-aafd-c99a57f238ca/download",
+        "citation_count": 9,
+        "work_type": "thesis",
+        "identifier": "W2208311826",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Apparel Fit Language Suited to 3D Body Processing Ecosystems",
+        "source": "openalex",
+        "url": "https://doi.org/10.15221/22.41",
+        "doi": "10.15221/22.41",
+        "year": 2022,
+        "authors": [
+          "Emma L. Scott",
+          "Simeon Gill",
+          "Susan P. Ashdown",
+          "Gerald RUDERMAN"
+        ],
+        "venue": "International Conference on 3D Body Scanning Technologies (3DBST)",
+        "abstract": "Colloquial language, reflective of the diversity of practitioners involved in 3D Body Processing (3DBP), has proven to be an obstacle toward shared digitization efforts. Here we distill language specific to apparel manufacturing for clarity toward the shared goals of the 3DBP ecosystem. The whitepaper \"3D Body Processing Ecosystem Overview\" simplified the processes within the 3DBP ecosystem using four assets: cover, coveroid, human, and humanoid. From this we understand a cover to be any product, garment, or material worn on a human and a coveroid and humanoid to be the models of the finished forms. Here we build upon this foundation to consider where language fails to provide clarity crossing the physical to virtual realms within the 3DBP ecosystem. Through this discussion, apparel challenges are highlighted from both the perspective of the apparel practitioner (requiring subjective, heuristic, sensory processes) and the software architect (requiring objective, logical processes). Perspectives on fit are provided clarity for future dialogue toward cross-platform solutions suited to the 3DBP ecosystem. The terms are applicable beyond the influence of current trends or style aesthetics and therefore scalable, relevant to well established manufacturing practices, yet sensitive to the art of garment design which is, and will remain, foundational to apparel practice.",
+        "pdf_url": "https://www.3dbody.tech/cap/papers/2022/2241scott.pdf",
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "W4300861465",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "An Investigation of the Sizing, Grading, and Fit of Commercial Sewing Patterns.",
+        "source": "openalex",
+        "url": "http://www.lib.ncsu.edu/resolver/1840.16/7392",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Debra McLendon"
+        ],
+        "venue": "NCSU Libraries Repository (North Carolina State University Libraries)",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W2255606839",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Sizing and Fit of Men's Underwear",
+        "source": "openalex",
+        "url": "http://www.lib.ncsu.edu/resolver/1840.16/2951",
+        "doi": null,
+        "year": 2005,
+        "authors": [
+          "Taihesia Altovise Ross"
+        ],
+        "venue": "NCSU Libraries Repository (North Carolina State University Libraries)",
+        "abstract": "The purpose of the research was to determine if ASTM Standards used for producing men's underwear satisfy the measurements of males in the U.S. Additionally, this research determined whether or not males in the U.S. are satisfied with the fit of underwear made available to them. The results provided insight into a relatively untapped area of research, men's apparel sizing and men's fit satisfaction. This study employed the use of two data sources: the Size USA National Study and an administered online Men's Fit Survey. A considerable amount of the data was statistically analyzed using SAS and JMP statistics programs. The research aimed to substantiate findings cited in the literature regarding inadequate size standards and consumer's dissatisfaction with the fit of ready to wear clothing produced from these standards. This study further evaluated the effect of ethnic group and age group on a subject's ability to meet ASTM Standards. \"Proposed\" classifications were recommended in an effort to enable a larger percentage of U.S. males to meet size designations (small to 2x-large). In addition, the responses from the Men's Fit Survey were used to assess fit satisfaction of underwear in key locations. This study found that at a 95% confidence level, ethnicity and age of male subjects are significant factors that influence measurements used to produce underwear. In comparing the body measurements of 3,691 male, Size USA subjects to ASTM Standards, results showed that only 3% met size specifications for underpants and 1% met size specifications for undershirts. Using the \"Proposed\" classifications 75% would meet specifications for underpants and 81% would meet specifications for undershirts. In addition, this study found that of the 205 respondents that were surveyed, at least 70% were dissatisfied with the fit of their underpants while 59% were dissatisfied with the fit of undershirts.",
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "W2519218773",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Breast Size and Anthropometric Changes through Brassieres",
+        "source": "openalex",
+        "url": "https://jtatm.textiles.ncsu.edu/index.php/JTATM/article/view/15450",
+        "doi": null,
+        "year": 2021,
+        "authors": [
+          "Minyoung Suh"
+        ],
+        "venue": "Journal of textile and apparel technology and management",
+        "abstract": "The objective of this research is to compare and analyze breast size from various perspectives, such as physical size and perception of the size, and identify how users expect to change their breast anthropometry by wearing an everyday bra. Forty-five females are invited to an onsite measurement session. Their breast sizes are evaluated by body scanning and they are given a short questionnaire asking about their personal opinions on their breast size. Each subject is requested to choose a brassiere that gives her a desired effect, and the impact of those brassieres is analyzed. There was a reasonable agreement among cup indicator, breast volume, and subjective judgment. However, cup indicators were limited to capture breast size in a general sense, but could not be effective enough to assign an exact bra size to an individual. Participants’ subjective judgments coincided with breast volume. After wearing the brassieres, breast volume and full bust girth significantly grew. Bust points were relocated inwards and upwards. There were statistically significant effects of breast volume on these anthropometric changes.",
+        "pdf_url": "https://jtatm.textiles.ncsu.edu/index.php/JTATM/article/download/15450/8441",
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "W3157780368",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A Detailed Review of Artificial Intelligence Applied in the Fashion and Apparel Industry",
+        "source": "openalex",
+        "url": "https://doi.org/10.1109/access.2019.2928979",
+        "doi": "10.1109/access.2019.2928979",
+        "year": 2019,
+        "authors": [
+          "Chandadevi Giri",
+          "Sheenam Jain",
+          "Xianyi Zeng",
+          "Pascal Bruniaux"
+        ],
+        "venue": "IEEE Access",
+        "abstract": "The enormous impact of artificial intelligence has been realized in transforming the fashion and apparel industry in the past decades. However, the research in this domain is scattered and mainly focuses on one of the stages of the supply chain. Due to this, it is difficult to comprehend the work conducted in the distinct domain of the fashion and apparel industry. Therefore, this paper aims to study the impact and the significance of artificial intelligence in the fashion and apparel industry in the last decades throughout the supply chain. Following this objective, we performed a systematic literature review of research articles (journal and conference) associated with artificial intelligence in the fashion and apparel industry. Articles were retrieved from two popular databases “Scopus” and “Web of Science” and the article screening was completed in five phases resulting in 149 articles. This was followed by article categorization which was grounded on the proposed taxonomy and was completed in two steps. First, the research articles were categorized according to the artificial intelligence methods applied such as machine learning, expert systems, decision support system, optimization, and image recognition and computer vision. Second, the articles were categorized based on supply chain stages targeted such as design, fabric production, apparel production, and distribution. In addition, the supply chain stages were further classified based on business-to-business (B2B) and business-to-consumer (B2C) to give a broader outlook of the industry. As a result of the categorizations, research gaps were identified in the applications of AI techniques, at the supply chain stages and from a business (B2B/B2C) perspective. Based on these gaps, the future prospects of the AI in this domain are discussed. These can benefit the researchers in academics and industrial practitioners working in the domain of the fashion and apparel industry.",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08763948.pdf",
+        "citation_count": 230,
+        "work_type": "article",
+        "identifier": "W2959048647",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "A Standard Sizing System for Garments based on Anthropometric Statistics of Ghanaian Girls aged Six to Twelve",
+        "source": "openalex",
+        "url": "https://doi.org/10.66731/jher.v32i1.533",
+        "doi": "10.66731/jher.v32i1.533",
+        "year": 2025,
+        "authors": [
+          "Vivian Biney-Aidoo",
+          "Mercy Kuma-Kpobee",
+          "William Kwesi Senayah",
+          "D Appeadu"
+        ],
+        "venue": "Journal of Home Economics Research",
+        "abstract": "The general objective of the study was to develop a standard sizing system using the anthropometric statistics of Ghanaian pre-teen girls. Specifically, it determined: key dimensions, size intervals, and created a size chart for Ghanaian pre-teen girls. It adopted an experimental design. It was conducted in the Greater Accra Region of Ghana. Population consisted of all pre-teen girls in the area of the study. Thirty-two (32) body dimensions were measured based on anthropometric measurement protocols, specified in International Organization for Standardization (ISO) 8559 (2017; 2018). Pearson’s correlation coefficient was employed for determining relationships among body dimensions, based on the British Standard Institution (BSI) standard 7231 (BSI, 1990) related to clothing. Four key dimensions; namely height, bust, waist, and hip were identified. Size intervals were height - 6.0, bust - 3.0, waist - 2.0, and hip - 3.5 and size designation was based on age and height, with three size variations; small, medium and large. The size chart offers essential anthropometric attributes that are of utmost importance for local and international manufacturers, enabling them to effectively meet the sizing and fit needs of the expanding children's wear market.",
+        "pdf_url": "https://journals.heran.org/index.php/JHER/article/download/533/474",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7160154145",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Innovative Apparel Design fix for Plus-Size Women in Ghana",
+        "source": "openalex",
+        "url": "https://doi.org/10.54976/tjfdm.1603453",
+        "doi": "10.54976/tjfdm.1603453",
+        "year": 2026,
+        "authors": [
+          "Naa Omai Sawyerr",
+          "Kweku Safo-Ankama",
+          "Ophelia Ohenewa Mefful"
+        ],
+        "venue": "Turkish Journal of Fashion Design and Management",
+        "abstract": "The purpose of this study was to utilize the apparel design framework to develop innovative apparel designs catering to the specific needs of plus-size Ghanaian women. Design is the foundation of all products including those in the fashion industry. It involves the systematic creation and strategic organization of elements to achieve a desired purpose or aesthetic result. Adopting a qualitative research approach, a total of twenty-five (25) plus-size women actively participated in three (3) focus group discussions. Their valuable insights were then incorporated into the creation of three (3) prototype designs. These prototypes were subsequently produced, worn, and assessed by a group of five (5) consumers to ensure effective concealment of plus size figure orientation, promote illusionary aesthetic appeal, and optimal fit. The finding suggest that plus size women face challenges in finding apparel that aligns with their preferences, and even if they do find something, it may not be suitable for their figure type. The study also highlighted that incorporating innovative elements like style lines and colours could offer apparel options that cater to the requirements of Ghanaian women who wear plus sizes. Apparel stores and designers should acknowledge the market potential of the plus size market and make sure that a diverse range of sizes and styles are easily accessible. It is also important to implement initiatives that foster body positivity and boost self-confidence. These initiatives can include awareness campaigns, fashion shows, and diverse representation in the media.",
+        "pdf_url": "https://dergipark.org.tr/en/download/article-file/4449397",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7214927762",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Study of anthropometrical data in knitted garments",
+        "source": "openalex",
+        "url": "https://eprints.staffs.ac.uk/4224/1/21%20-%202007%20Study%20of%20anthropometric.doc",
+        "doi": null,
+        "year": 2007,
+        "authors": [
+          "Jess Power"
+        ],
+        "venue": "Staffordshire Online Repository (Staffordshire University)",
+        "abstract": "The role of fit and sizing in promoting consumer satisfaction is increasingly recognised and this, together with an awareness of variations in garment sizing requirements in world markets is at the core of anthropometrics.Knitwear sizing is a branch of anthropometrics that has not previously been considered for academic research.However, various new techniques have become available in modern weft knitting which has enabled knitwear to be shaped three-dimensionally as not previously achievable through the sophisticated CAD software.Despite these advancements in programming software and electronic needle selection, garment development is still heavily reliant on the skill of the operator or designer to develop new shapes and manipulate this advanced technology into innovative knitwear.This advance in technology has opened up a large knowledge gap with regards to fit and styling within knitwear, and many questions have arisen; do we really understand the relationship between anthropometrical data and knitwear sizing, styling and fit, and do we utilise the knowledge effectively to enable predictions of fit to occur?This paper presents the findings of an investigation into the use and understanding of anthropometrical data in knitted garments.",
+        "pdf_url": "http://eprints.hud.ac.uk/id/eprint/13869/1/Power21_-_2007_Study_of_anthropometric.pdf",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W177230649",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "The development of apparel sizing systems from anthropometric data",
+        "source": "crossref",
+        "url": "https://doi.org/10.1533/9780857096890.2.167",
+        "doi": "10.1533/9780857096890.2.167",
+        "year": 2014,
+        "authors": [
+          "A.C.K. Chan"
+        ],
+        "venue": "Anthropometry, Apparel Sizing and Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "book-chapter",
+        "identifier": "10.1533/9780857096890.2.167",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Developing apparel sizing system using anthropometric data: Body size and shape analysis, key dimensions, and data segmentation",
+        "source": "crossref",
+        "url": "https://doi.org/10.1016/b978-0-08-102604-5.00004-4",
+        "doi": "10.1016/b978-0-08-102604-5.00004-4",
+        "year": 2020,
+        "authors": [
+          "Norsaadah Zakaria",
+          "Wan Syazehan Ruznan"
+        ],
+        "venue": "Anthropometry, Apparel Sizing and Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 22,
+        "work_type": "book-chapter",
+        "identifier": "10.1016/b978-0-08-102604-5.00004-4",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Digital fashion technology: a review of online fit and sizing",
+        "source": "crossref",
+        "url": "https://doi.org/10.1016/b978-0-12-823969-8.00008-3",
+        "doi": "10.1016/b978-0-12-823969-8.00008-3",
+        "year": 2022,
+        "authors": [
+          "Simeon Gill",
+          "Monika Januszkiewicz",
+          "Maryam Ahmed"
+        ],
+        "venue": "Digital Manufacturing Technology for Sustainable Anthropometric Apparel",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 16,
+        "work_type": "book-chapter",
+        "identifier": "10.1016/b978-0-12-823969-8.00008-3",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Importance of sizing and fit using 3D technology",
+        "source": "crossref",
+        "url": "https://doi.org/10.1016/b978-0-12-823969-8.00006-x",
+        "doi": "10.1016/b978-0-12-823969-8.00006-x",
+        "year": 2022,
+        "authors": [
+          "Shaliza Mohd Shariff",
+          "Suhana Japar",
+          "Norazmi Shahlal",
+          "Asma Ahmad Shariff"
+        ],
+        "venue": "Digital Manufacturing Technology for Sustainable Anthropometric Apparel",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 4,
+        "work_type": "book-chapter",
+        "identifier": "10.1016/b978-0-12-823969-8.00006-x",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Apparel Sizing and Fit Strategies Lab",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501303272.ch-005",
+        "doi": "10.5040/9781501303272.ch-005",
+        "year": 2014,
+        "authors": [],
+        "venue": "Apparel Quality Lab Manual",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501303272.ch-005",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Inc."
+        }
+      },
+      {
+        "title": "Improving apparel sizing and fit",
+        "source": "crossref",
+        "url": "https://doi.org/10.1533/9781845694463.1.73",
+        "doi": "10.1533/9781845694463.1.73",
+        "year": 2008,
+        "authors": [
+          "R.B. Otieno"
+        ],
+        "venue": "Advances in Apparel Production",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "book-chapter",
+        "identifier": "10.1533/9781845694463.1.73",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Improving apparel sizing and fit",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/9781439832424.ch4",
+        "doi": "10.1201/9781439832424.ch4",
+        "year": 2008,
+        "authors": [
+          "R Otieno"
+        ],
+        "venue": "Advances in Apparel Production",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/9781439832424.ch4",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "Apparel Sizing and Fit Strategies",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501303265.ch-005",
+        "doi": "10.5040/9781501303265.ch-005",
+        "year": 2014,
+        "authors": [],
+        "venue": "Apparel Quality",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501303265.ch-005",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Inc."
+        }
+      },
+      {
+        "title": "Apparel Sizing and Fit Strategies",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501359545.ch-005",
+        "doi": "10.5040/9781501359545.ch-005",
+        "year": 2022,
+        "authors": [],
+        "venue": "Apparel Quality",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501359545.ch-005",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Inc"
+        }
+      },
+      {
+        "title": "Anthropometric methods for apparel design: body measurement devices and techniques",
+        "source": "crossref",
+        "url": "https://doi.org/10.1533/9780857096890.1.67",
+        "doi": "10.1533/9780857096890.1.67",
+        "year": 2014,
+        "authors": [
+          "M. Kouchi"
+        ],
+        "venue": "Anthropometry, Apparel Sizing and Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 18,
+        "work_type": "book-chapter",
+        "identifier": "10.1533/9780857096890.1.67",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Anthropometric methods for apparel design: Body measurement devices and techniques",
+        "source": "crossref",
+        "url": "https://doi.org/10.1016/b978-0-08-102604-5.00002-0",
+        "doi": "10.1016/b978-0-08-102604-5.00002-0",
+        "year": 2020,
+        "authors": [
+          "M. Kouchi"
+        ],
+        "venue": "Anthropometry, Apparel Sizing and Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 8,
+        "work_type": "book-chapter",
+        "identifier": "10.1016/b978-0-08-102604-5.00002-0",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Sizing and Fit",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501393914.ch-15",
+        "doi": "10.5040/9781501393914.ch-15",
+        "year": 2025,
+        "authors": [],
+        "venue": "Apparel Production Terms and Processes",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501393914.ch-15",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Sizing and Fit",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501315602.ch-017",
+        "doi": "10.5040/9781501315602.ch-017",
+        "year": 2017,
+        "authors": [],
+        "venue": "Apparel Production Terms and Processes",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501315602.ch-017",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Inc"
+        }
+      },
+      {
+        "title": "Sizing and fit for protective clothing",
+        "source": "crossref",
+        "url": "https://doi.org/10.1016/b978-0-08-102604-5.00011-1",
+        "doi": "10.1016/b978-0-08-102604-5.00011-1",
+        "year": 2020,
+        "authors": [
+          "Inga Dāboliņa",
+          "Eva Lapkovska"
+        ],
+        "venue": "Anthropometry, Apparel Sizing and Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 5,
+        "work_type": "book-chapter",
+        "identifier": "10.1016/b978-0-08-102604-5.00011-1",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Segmentation and classification of anthropometric data for the apparel industry",
+        "source": "crossref",
+        "url": "https://doi.org/10.1533/9780857096890.2.123",
+        "doi": "10.1533/9780857096890.2.123",
+        "year": 2014,
+        "authors": [
+          "E. Paquet",
+          "H.L. Viktor"
+        ],
+        "venue": "Anthropometry, Apparel Sizing and Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1533/9780857096890.2.123",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Sizing and fit for pressure garments",
+        "source": "crossref",
+        "url": "https://doi.org/10.1016/b978-0-08-102604-5.00013-5",
+        "doi": "10.1016/b978-0-08-102604-5.00013-5",
+        "year": 2020,
+        "authors": [
+          "V.E. Kuzmichev",
+          "Zhe Cheng"
+        ],
+        "venue": "Anthropometry, Apparel Sizing and Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 10,
+        "work_type": "book-chapter",
+        "identifier": "10.1016/b978-0-08-102604-5.00013-5",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "New directions in the field of anthropometry, sizing and clothing fit",
+        "source": "crossref",
+        "url": "https://doi.org/10.1016/b978-0-08-102604-5.00001-9",
+        "doi": "10.1016/b978-0-08-102604-5.00001-9",
+        "year": 2020,
+        "authors": [
+          "Deepti Gupta"
+        ],
+        "venue": "Anthropometry, Apparel Sizing and Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 23,
+        "work_type": "book-chapter",
+        "identifier": "10.1016/b978-0-08-102604-5.00001-9",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Sizing and Fit Specifications",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501366581.ch-010",
+        "doi": "10.5040/9781501366581.ch-010",
+        "year": 2022,
+        "authors": [],
+        "venue": "Beyond Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501366581.ch-010",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Fairchild Books"
+        }
+      },
+      {
+        "title": "Sizing and Fit Specifications",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501315442.ch-010",
+        "doi": "10.5040/9781501315442.ch-010",
+        "year": 2017,
+        "authors": [],
+        "venue": "Beyond Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501315442.ch-010",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Exploration of plus-size female teens' apparel fit and sizing in the United States",
+        "source": "crossref",
+        "url": "https://doi.org/10.31274/etd-180810-3450",
+        "doi": "10.31274/etd-180810-3450",
+        "year": 2018,
+        "authors": [
+          "Laurel Dawn Romeo"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.31274/etd-180810-3450",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Iowa State University"
+        }
+      }
+    ]
+  },
+  "count": 40,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:04:57.035201+00:00"
+}

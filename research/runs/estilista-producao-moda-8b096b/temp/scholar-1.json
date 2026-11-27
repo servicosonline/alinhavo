@@ -1,0 +1,1039 @@
+{
+  "ok": true,
+  "data": {
+    "query": "desenvolvimento de produto vestuario estilista modelagem",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 25,
+      "crossref": 24,
+      "doab": 0
+    },
+    "raw_records": 49,
+    "merged_records": 49,
+    "returned": 49,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "O ensino da modelagem do vestuário no processo de desenvolvimento de produtos: uma revisão sistemática de literatura",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/ped2022-2463318",
+        "doi": "10.5151/ped2022-2463318",
+        "year": 2022,
+        "authors": [
+          "Mara Rubia Theis",
+          "Emanoela Mardula",
+          "Eugênio Andrés Díaz Merino"
+        ],
+        "venue": null,
+        "abstract": "O objetivo deste estudo está em mapear e analisar a produção científica sobre o ensino da modelagem do vestuário no processo de desenvolvimento de produtos. Como recorte temporal, avaliaram-se trabalhos publicados entre 2010 e 2022. Por meio de uma abordagem qualitativa, realizou-se uma Revisão Sistemática de Literatura. Foram identificados 117 documentos entre dissertações e teses, após análise de metadados, restaram 23 trabalhos para a análise indutiva de conteúdo. Entende-se que as pesquisas stricto sensu possuem relação com o planejamento pedagógico, e estão atreladas aos métodos de ensino acadêmicos. Constatou-se que professores e pesquisadores têm se dedicado em proposições metodologias educacionais inovadoras, estratégias didáticas, ferramentas, modelos ou diretrizes para facilitar o ensino e a aprendizagem da modelagem do vestuário. Estima-se que há necessidade de desenvolvimento de métodos de ensino que contemplem a usabilidade e favoreça a compreensão do conhecimento procedural.",
+        "pdf_url": "http://pdf.blucher.com.br/designproceedings/ped2022/2463318.pdf",
+        "citation_count": 2,
+        "work_type": "other",
+        "identifier": "W4319313938",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Modelagem através do CLO3D : redução de custos no processo de pilotagem e produção têxtil",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/003273578",
+        "doi": "10.11606/003273578",
+        "year": 2022,
+        "authors": [
+          "Barbara Baptista Navarra"
+        ],
+        "venue": null,
+        "abstract": "Durante o processo de desenvolvimento do produto, o estilista pode realizar alterações no modelo, o que gera o desenvolvimento de várias peças pilotos - protótipos, confeccionadas a partir do desenho enviado pela estilista. O processo de repilotagem não só causa desperdício têxtil, mas também causa atrasos nos processos de desenvolvimento da coleção. Nesse contexto é inserido o software CLO3D, utilizado por profissionais de moda para desenvolver o design, modelagem, ajustes e modificações do produto. O seguinte trabalho objetiva avaliar determinados aspectos do processo de produção de vestuário, tendo como objeto de estudo uma empresa paulista de Private Label, através da modelagem manual (moulage e plana) e, posteriormente, modelagem no Audaces. A partir dessa avaliação, será realizado uma análise de três modelos produzidos pela empresa, realizando o mesmo processo através do software CLO3D, comparando o consumo e resíduos gerados pelas duas formas de modelar.",
+        "pdf_url": "https://bdta.abcd.usp.br/directbitstream/2fa50599-945d-4c8d-b097-3eb7951a1672/Te0086-Navarra.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7204466171",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Modelagem no design do vestuário",
+        "source": "openalex",
+        "url": "https://dspace.palermo.edu/ojs/index.php/actas/article/view/2781",
+        "doi": "10.18682/add.vi9.2781",
+        "year": 2020,
+        "authors": [
+          "Walkiria Guedes De Souza"
+        ],
+        "venue": "Actas de Diseño",
+        "abstract": "A indústria de confecção do vestuário, atende a uma necessidade básica do ser humano, o vestir. Inserida na cadeia têxtil, cujas etapas industriais vão desde o beneficiamento das fibras até a confecção de peças prontas para o uso, a confecção é a última atividade industrial antes da comercialização. Ela produz, em escala industrial, a transformação de tecidos planos ou malhas em peças do vestuário.",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/actas/article/download/2781/4642",
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "W7216037875",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Modelagem básica do vestuário feminino",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/9788583021070",
+        "doi": "10.5965/9788583021070",
+        "year": 2017,
+        "authors": [
+          "Silveira, Icleia",
+          "Rosa, Lucas Da",
+          "Lopes, Luciana Dornbusch"
+        ],
+        "venue": "Editora Udesc eBooks",
+        "abstract": "O e-book apresenta inicialmente conhecimentos teóricos, fundamentais ao traçado dos diagramas básicos e na obtenção da qualidade do projeto produto de vestuário. Destacam-se, os conhecimentos anatômicos, tendo em vista a funcionalidade, usabilidade, bem como as qualidades estéticas, ergonômicas e antropométricas do produto. Abordam-se os paramctros medidas do corpo para a execução do diagrama básico do corpo humano e do vestuário, bem como as regras para o traçado da base do corpo feminino Para o traçado dos Diagramas Básicos do Corpo Feminino (corpo, mangas, calça, ete) ntilizam-se ordens de execução e cálculos, que trazem o detalhamento de cada etapa que está sendo realizada. A explicação de cada procedimento, descrita de modo sequencial é apoiada em letras e números. O traçado pode ser observado no desenho gráfico (escala 1:2 ou 1:5) de cada diagrama, disponibilizado juntamente com a sua ordem de execução.",
+        "pdf_url": "https://repositorio.udesc.br/bitstreams/5e75fa4a-674f-4ff3-aa7b-32d5f7e52e99/download",
+        "citation_count": 8,
+        "work_type": "book",
+        "identifier": "W4409075733",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Diretrizes para o ensino de modelagem do vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2013.tde-19022014-213611",
+        "doi": "10.11606/d.100.2013.tde-19022014-213611",
+        "year": 2013,
+        "authors": [
+          "Danielle Paganini Beduschi"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This research discusses historical analysis of methodologies for pattern making teaching and proposes the development of guidelines for teaching. The study presents a historical survey about the various techniques and methods used since the 1960s, making a balance between method and socio-cultural period in order to search for techniques to facilitate the learning process under discussion. The analysis of the main pattern making techniques used over time, the curricula of leading Fashion Graduation programs, and the research with professional educators, will provide a broad overview of what can be used to optimize the learning process and what should be discarded for not favoring a faster and better training. After the study in question, this project proposes a set of guidelines that encourage the transformation of the student in a qualified professional to act in Pattern making clothing.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-19022014-213611/publico/DanielleBeduschirevisaoOutubro.pdf",
+        "citation_count": 16,
+        "work_type": "thesis",
+        "identifier": "W2163966604",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Delimitação do usuário nas etapas de criação, modelagem e prototipagem do produto de vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1982615x10192017201",
+        "doi": "10.5965/1982615x10192017201",
+        "year": 2017,
+        "authors": [
+          "Elen Makara",
+          "Giselle Schmidt Alves Diaz Marino",
+          "Lizandra Garcia Lupi Vergara"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "Em virtude das reclamações de roupas que não vestem bem e incomodam, ou mesmo da dificuldade de adquirir uma roupa adequada para uma ocasião, à indústria de confecção de vestuário pode estar deixando de considerar o usuário no desenvolvimento de seus produtos. O objetivo deste artigo foi verificar se nas etapas de criação, modelagem e prototipagem de produtos do vestuário o usuário está sendo considerado, visto que para um projeto de design o correto é considerá-lo em todas as etapas do desenvolvimento. Para isto foi realizada uma pesquisa bibliográfica e entrevistas com profissionais da área. Com os resultados obtidos foi possível perceber a dificuldade que os profissionais possuem em definir o público para a criação das peças. Também verificou-se que a maioria dos profissionais compreende a importância da tabela de medidas porém acabam ajustando-a de forma empírica, e para a realização dos testes de prototipagem, muitos escolhem modelos que não condizem com a realidade do público da empresa.",
+        "pdf_url": "http://revistas.udesc.br/index.php/modapalavra/article/download/8763/6309",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W2567067882",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Proposta de um modelo de referência para o processo de desenvolvimento de produto do vestuário",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/606",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Isabel Cristina Moretti"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "O processo de desenvolvimento de produto do vestuário (PDPV) sofre influência da moda, esse fator confere a esse processo dinamismo e exige rapidez durante o desenvolvimento. As empresas desenvolvem seus produtos em linhas sazonais (coleções) em vez de produtos individuais, com uma grande quantidade de produtos por coleção e várias coleções ao ano. Consequentemente apresentam um curto período de tempo para o desenvolvimento de cada coleção. Neste sentido, a adoção de estruturas organizacionais adequadas e de boas práticas para o PDP, pode ajudar a melhorar o desempenho desse processo na indústria de confecção, que é essencial para a competitividade das empresas. Por meio da utilização de modelo de referência a empresa pode criar sua própria estrutura para a realização das atividades, de modo que o modelo se adapte a realidade da empresa, e ao mesmo tempo sistematize as atividades e estruture o processo. O objetivo desse trabalho foi propor um modelo de referência específico para a indústria do vestuário, adaptado as suas características. Este pode ser um caminho para estas empresas estruturarem seu PDP, aumentando o desempenho do processo e consequentemente dessas empresas no mercado. A abordagem do problema foi qualitativa e o desenvolvimento do modelo foi por meio de revisão de literatura e pesquisa de campo. A coleta de dados foi realizada por meio de entrevistas com empresas, profissionais e professores da área de PDPV. O objetivo das entrevistas foi de mapear o PDP nestas áreas. A construção do modelo foi feita em três etapas. A primeira etapa foi de construção de uma representação teórica, ou seja, um modelo teórico desenvolvido por meio da comparação de um modelo de referência genérico e modelos específicos para o vestuário. A segunda etapa foi de comparação do mapeamento das entrevistas com a representação teórica, confrontando a teoria e a prática. A terceira etapa foi o desenvolvimento do modelo propriamente dito. O modelo está desmembrado em macro-fases, fases e atividades. Cada fase foi detalhada com o fluxo de atividades e seus responsáveis, além das entradas e saídas de documentos e informações. O desenvolvimento do modelo de referência proposto vem de encontro com essas informações levantadas na literatura e nas entrevistas. Logo, pode estar contribuindo para a estruturação do processo no âmbito industrial e pesquisas na área de desenvolvimento de produto do vestuário, no âmbito acadêmico. O modelo de referência para o PDPV é uma junção de boas práticas que podem ser utilizadas em sua totalidade para estruturar com flexibilidade o PDP, ou ser utilizado parcialmente por meio de uma adaptação, ajustando-se à realidade a qual será utilizado.",
+        "pdf_url": null,
+        "citation_count": 8,
+        "work_type": "thesis",
+        "identifier": "W2258493215",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A APLICAÇÃO DA INTELIGÊNCIA ARTIFICIAL NO DESENVOLVIMENTO DE PRODUTOS NA INDÚSTRIA DE VESTUÁRIO DE MODA",
+        "source": "openalex",
+        "url": "https://doi.org/10.29327/2766099.32.1-1",
+        "doi": "10.29327/2766099.32.1-1",
+        "year": 2025,
+        "authors": [
+          "Geovana Aparecida Bohn",
+          "Daniel Goulart"
+        ],
+        "venue": "Revista da UNIFEBE",
+        "abstract": "A Inteligência Artificial (IA) tem se tornado cada vez mais presente na indústria de vestuário de moda, contribuindo para a inovação e melhoria dos processos de criação, produção e personalização de produtos. Este estudo teve como objetivo analisar como a IA pode contribuir para o processo de criação de roupas na indústria do vestuário de moda. A pesquisa utilizou uma abordagem teórica para entender os conceitos fundamentais da IA e a sua viabilidade no setor têxtil, destacando as vantagens e desafios da implementação dessa tecnologia, especialmente para pequenas e médias empresas. A análise apontou que, embora a IA traga grandes benefícios, como maior eficiência e sustentabilidade, obstáculos como o alto custo e a falta de capacitação ainda limitam a sua adoção generalizada na indústria da moda.",
+        "pdf_url": "https://periodicos.unifebe.edu.br/index.php/RevistaUnifebe/article/download/1081/865",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7125132165",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Modernização do Setor de Modelagem de Vestuário: Desenvolvimento de uma Ferramenta de Gestão do Processo Produtivo",
+        "source": "openalex",
+        "url": "https://doi.org/10.18406/2359-1269v11n72024485",
+        "doi": "10.18406/2359-1269v11n72024485",
+        "year": 2025,
+        "authors": [
+          "Julia Alves Bittencourt",
+          "Maria Concebida Pereira"
+        ],
+        "venue": "Revista Eixos Tech",
+        "abstract": "Este é o resumo: O artigo analisa a crescente demanda por agilidade na modelagem de vestuário, que ainda depende de controles manuais apesar das inovações tecnológicas. Propõe o uso do software Power BI para otimizar a comunicação e o controle dos processos. A metodologia, envolvendo revisão de literatura e questionário, revelou que muitos modelistas enfrentam desafios de controle e organização, utilizando métodos manuais para registrar atividades. A partir dos dados coletados, foi desenvolvida uma planilha no software Excel para alimentar um dashboard no software Power BI, oferecendo uma visão geral das demandas e melhorando a gestão e a comunicação. Os resultados mostraram que a centralização digital das informações economiza tempo, evita retrabalhos e melhora a experiência do usuário. O estudo conclui que essa ferramenta pode ser valiosa para modelistas autônomos e industriais, promovendo maior eficiência e organização. Para pesquisas futuras, recomenda-se aplicar o dashboard em diferentes ambientes de modelagem para avaliar os benefícios e ajustes necessários.",
+        "pdf_url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/download/485/305",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4407171873",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Reflexão sobre a Inclusão da Mulher Mastectomizada a partir do Desenvolvimento de Produtos de Vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/ped2018-7.2_pte_07",
+        "doi": "10.5151/ped2018-7.2_pte_07",
+        "year": 2019,
+        "authors": [
+          "Luciana Aparecida Siqueira Silva",
+          "Victoria Fernandez Bastos"
+        ],
+        "venue": null,
+        "abstract": "O presente artigo busca refletir sobre os danos causados pelo câncer de mama, que vai muito além da questão física e analisar a autoestima da mulher mastectomizada com o objetivo de utilizar o desenvolvimento de peças do vestuário para auxiliar nessa reconstrução e adaptação coma imagem, analisando aspectos de antropometria, ergonomia, conforto e vestibilidade.Pretende-se com essa pesquisa despertar o interesse de profissionais da área, designers de moda, estudantes e afins na busca em atender as necessidades do público e preencher lacunas existentes nesse segmento.A pesquisa a ser realizada será de caráter exploratório com a finalidade de compreender as necessidades do público-alvo em questão buscando melhorias no desenvolvimento de produtos.",
+        "pdf_url": "http://pdf.blucher.com.br.s3-sa-east-1.amazonaws.com/designproceedings/ped2018/7.2_PTE_07.pdf",
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "W2941220981",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Melhorias no processo de desenvolvimento de produto de uma indústria do vestuário do segmento Fast-Fashion",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/196292",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Renata Lodi",
+          "Márcia Elisa Soares Echeveste"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "ResumoNo setor têxtil brasileiro, a gestão do PDP é caracterizada por uma baixa organização no que se refere às metodologias e adoção de modelos de referência.Em geral, estas empresas não possuem uma estrutura organizada em etapas consistentes e atribuição de funções para o desenvolvimento de novos produtos.Este trabalho tem como objetivo sugerir melhores práticas encontradas na literatura para o processo de desenvolvimento de produtos de uma indústria do vestuário que não possui marca própria e fornece produtos para o segmento fast-fashion.Para atingir esse objetivo foi realizada uma busca na literatura por modelos de PDP de manufatura e relacionados ao setor.Por meio da comparação entre eles, juntamente com o levantamento das particularidades e dificuldades do segmento do vestuário escolhido, foram propostas atividades para melhoria do processo da empresa.A contribuição deste trabalho foi demonstrar como empresas de porte pequeno no setor do vestuário podem melhorar seus produtos por meio de uma sistematização nos seus processos de desenvolvimento, trazendo as melhores práticas publicadas em modelos de outros segmentos de atividade econômica, para o setor.Entende-se que o método realizado possa ser estendido a outras empresas que desejem aperfeiçoar sua gestão no desenvolvimento de novos produtos e serviços.Palavras-chave: PDP; Indústria Têxtil/Vestuário; Gestão de projetos de novos produtos. IntroduçãoA indústria do vestuário é uma das mais antigas e tradicionais do Brasil.Conforme informa o SINDIVESTUÁRIO (2008), remonta ao século XIX, e é um dos marcos do início da industrialização do país.Mesmo fazendo parte do dia a dia de todas as pessoas, os números, estatísticas e importância do setor do vestuário no cenário brasileiro nem sempre são conhecidos em toda sua extensão.Segundo o IEMI (Instituto de Estudos e Marketing Industrial), a produção do vestuário no Brasil em 2009 foi de 5,2 bilhões de peças, empregando mão-de-obra de 1.100.259trabalhadores, num total de 22.303 unidades industriais formais.A maioria dessas indústrias está distribuída na região sudeste, sul e nordeste do país, sendo que 77% delas são micro e pequenas, 20% são médias e apenas 3% são grandes empresas.(SINDIVESTUÁRIO, 2011).No início dos anos 90, as indústrias de confecção do vestuário faziam de duas a quatro coleções ao ano.Este cenário, em resposta às solicitações do mercado da moda, vem se transformando e se tornando muito mais dinâmico.Para Rech (2003), o desenvolvimento do produto de moda, em grande parte das empresas brasileiras, é concretizado através de coleções pequenas (quantidade de peças), concisas e bem definidas quanto ao conceito/estilo (qualidade), principalmente por causa da velocidade das informações sobre moda a que os consumidores têm acesso.Surgem então, as empresas que trabalham em função das tendências da moda.Segundo Oliveira (2007), elas fazem parte do segmento fast-follower, ou seja, são as que monitoram as tendências mundiais e as lançam rapidamente no mercado.Grandes redes de varejo como C&A, Renner, Riachuelo, Marisa e Hering aderiram à essa tendência, aqui denominada fast-fashion (moda rápida), que é um movimento importado de marcas da Europa, como a Zara e a H&M que na prática, significa estar sempre com as prateleiras abastecidas de",
+        "pdf_url": null,
+        "citation_count": 4,
+        "work_type": "other",
+        "identifier": "W2983471905",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Modelagem Plana Industrial do Vestuário: diretrizes para a indústria do vestuário e o ensino-aprendizado",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2010v1n1p82",
+        "doi": "10.5433/2236-2207.2010v1n1p82",
+        "year": 2010,
+        "authors": [
+          "Marizilda dos Santos Menezes",
+          "Patrícia Aparecida de Almeida Spaine"
+        ],
+        "venue": "Projetica",
+        "abstract": "The work shows the importance of process modeling in industrial flat field fashion design. This was achieved by a qualitative study identifying vision of modelers, students and teachers about this stage of development and production clothing product in the regional center of Londrina - PR. This research allowed the development of methodological guidelines for the teaching and preparation Modeling Industrial flat clothing.",
+        "pdf_url": "https://ojs.uel.br/revistas/uel/index.php/projetica/article/download/7737/6858",
+        "citation_count": 41,
+        "work_type": "article",
+        "identifier": "W1967048349",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A IMPORTÂNCIA DAS BASES DE MODELAGEM NO DESENVOLVIMENTO DE VESTUÁRIO PLUS SIZE: UM ENFOQUE NA ANTROPOMETRIA E ERGONOMIA",
+        "source": "openalex",
+        "url": "https://doi.org/10.22570/ergodesignhci.v10i1.1651",
+        "doi": "10.22570/ergodesignhci.v10i1.1651",
+        "year": 2022,
+        "authors": [
+          "Suelen Rizzi",
+          "Rosimeire Araújo de Jesus"
+        ],
+        "venue": "Ergodesign & HCI",
+        "abstract": "O presente trabalho versou sobre a moda plus size, trazendo um recorte na modelagem das bases de corpo atreladas à antropometria e ergonomia do vestuário, para o público feminino em tamanhos grandes. O objetivo geral foi conhecer o perfil e demandas do público plus size para construir um conjunto de bases de corpo em tecido plano. Para tanto, foi realizada uma pesquisa bibliográfica sobre as temáticas norteadoras. Em seguida foi aplicado um questionário on-line e elaborada a compilação e análise dos dados coletados, sobre as 18 mulheres respondentes. Juntamente a isso, foi realizada uma pesquisa sobre as tabelas de medidas plus size e tomadas as medidas de duas modelos reais e de um manequim técnico, no tamanho 48. Com base nos dados coletados e na análise das medidas foram desenvolvidas as bases de saia, blusa e calça, as mesmas foram provadas, e as alterações realizadas de acordo com as demandas. Os resultados foram satisfatórios e com eles compreendeu-se a importância de estudar as demandas e medidas reais do público-alvo para construir peças com modelagem adequada ao corpo das mulheres plus size.",
+        "pdf_url": "http://periodicos.puc-rio.br/index.php/revistaergodesign-hci/article/download/1651/1007",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W4313289541",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Sistema de medição de desempenho para o processo de desenvolvimento do produto do vestuário de moda",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/2885",
+        "doi": null,
+        "year": 2017,
+        "authors": [
+          "Isabel Cristina Moretti"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "O processo de desenvolvimento e lançamento de novos produtos é decisivo para as empresas se manterem competitivas no mercado. Diante da importância deste processo, é preciso entender que o mesmo precisa ser controlado e bem gerenciado. Para garantir o processamento bem sucedido do desenvolvimento de produto, as empresas precisam constantemente avaliar o desempenho de seus esforços. Especificamente no processo de desenvolvimento de produto (PDP) do vestuário algumas particularidades precisam ser consideradas: influência da moda, desenvolvimento de produtos em linhas sazonais (coleções) em vez de produtos individuais, quantidade elevada de produtos por coleção, várias coleções ao ano e curto período de tempo para o desenvolvimento de cada coleção. Essas características incorporam a este processo dinamismo e rapidez durante o desenvolvimento. Sendo assim o objetivo geral deste trabalho é desenvolver um modelo para medição de desempenho do processo de desenvolvimento de produto, específico para o setor de confecção do vestuário de moda, composto por um conjunto de indicadores. Para embasar a elaboração da pesquisa, inicialmente foi apresentada uma fundamentação teórica sobre os conceitos que regem o PDP, os sistemas de medição de desempenho para este processo e seus indicadores. Os indicadores coletados foram ponderados por grau de importância por empresas de confecção do vestuário por meio da ferramenta Fuzzy-QFD, em conjunto foram identificados nas empresas os indicadores específicos para o PDP do vestuário. Baseado na fundamentação teórica e nas informações coletadas nas empresas, foi proposto o modelo para medição de desempenho do processo de desenvolvimento de produto do vestuário (MdDpV), composto por um sistema de medição de desempenho, atrelado a um Modelo para o PDP do vestuário, e por indicadores. O modelo proposto foi validado por especialistas da área (profissionais das empresas e professores) e se mostrou adequado para o PDP do vestuário. Neste sentido, conclui-se que o modelo proposto proporciona uma metodologia de suporte e controle para o PDP, por meio de atividades sistematizadas e um conjunto de indicadores. Em sua estrutura o modelo MdDpV se mostra simples, funcional e promissor para a condução e suporte do desenvolvimento de produto no âmbito industrial e acadêmico.",
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W2784148075",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "MODELAGEM DO VESTUÁRIO A PARTIR DAS PERCEPÇÕES DOS PROFESSORES EM SANTA CATARINA",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1808312912182017068",
+        "doi": "10.5965/1808312912182017068",
+        "year": 2017,
+        "authors": [
+          "Maicon Douglas Livramento Nishimura",
+          "Lizandra Garcia Lupi Vergara",
+          "Leila Amaral Gontijo"
+        ],
+        "venue": "DAPesquisa",
+        "abstract": "A modelagem é um processo fundamental para o desenvolvimento do produto de moda, afinal, é por meio dele que se concebe fisicamente a roupa. Entretanto, muitos defeitos que se apresentam no mercado poderiam ser evitados nessa etapa, a partir da adequação da peça às questões de usabilidade e o uso de medidas compatíveis com o público que se almeja atingir. Ao partir da premissa que o mercado tem buscado profissionais qualificados, com formações na área de moda, para ocupar o cargo de estilista, buscou-se conhecer sobre as percepções de professores sobre a etapa de modelagem no processo de desenvolvimento do produto de moda. Utilizou-se de entrevista semiestruturada para o levantamento dos dados e da análise de conteúdo para o tratamento dos mesmos. Participaram da pesquisa 15 professores de modelagem da Grande Florianópolis e do Vale do Itajaí e foi possível perceber que eles consideram a disciplina de grande importância para o desenvolvimento do produto de moda, porque é nessa etapa que o produto se materializa e a roupa é pensada ergonomicamente.",
+        "pdf_url": "http://www.revistas.udesc.br/index.php/dapesquisa/article/download/8712/6603",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W2612621793",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Ergonomia no vestuário: conceito de conforto como valor agregado ao produto de moda",
+        "source": "openalex",
+        "url": "https://dspace.palermo.edu/ojs/index.php/actas/article/view/3315",
+        "doi": "10.18682/add.vi3.3315",
+        "year": 2007,
+        "authors": [
+          "Eliana Gonçalves",
+          "Luciana Dornbusch Lopes"
+        ],
+        "venue": "Actas de Diseño",
+        "abstract": "Em uma economia globalizada, onde a concorrência é acirrada, a necessidade de se fabricar um produto que conquiste o consumidor de maneira instantânea é uma constante na indústria da moda. As estratégias para satisfazer este consumidor não são apenas as de ordem técnica. Além dessa característica, inerente à qualidade do produto, o conforto e a estética são aspectos exigidos cada vez mais por esta demanda de moda.",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/actas/article/download/3315/3594",
+        "citation_count": 34,
+        "work_type": "article",
+        "identifier": "W3165527938",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Produtos de vestuário: avaliando hipóteses de problemas de vestibilidade",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/ped2022-9999248",
+        "doi": "10.5151/ped2022-9999248",
+        "year": 2022,
+        "authors": [
+          "Daniele Deise Antunes Silveira Páris",
+          "Giselle Schmidt Alves Díaz Merino",
+          "Gilson Braviano"
+        ],
+        "venue": null,
+        "abstract": "No mercado do vestuário, são comuns as queixas relacionadas à peças que causam desconforto, ficam apertadas e sem caimento. Procurando ampliar seus consumidores, empresas costumam amparar-se em medidas baseadas na média corporal da população, muitas vezes, não condizendo com os usuários. Este artigo, procura levantar dados acerca dos principais problemas de vestibilidade encontradas pelos usuários, e, a partir daí, avaliar três hipóteses: Qualquer biotipo que não corresponda ao formato priorizado pelo setor de produção tem problemas de vestibilidade; Quanto maior a diferença corporal em relação ao modelo adotado como base para criação dos produtos, maiores serão as percepções de problemas; e, Os problemas tendem a estar localizados na parte do tronco do usuário. De natureza básica, abordagem qualitativa e quantitativa, e, objetivo exploratório, o artigo obteve como resultado, na primeira hipótese a confirmação; na segunda, confirmação parcial; e, na terceira, confirmação limitada aos casos relacionados à adaptação na circunferência do corpo.",
+        "pdf_url": "http://pdf.blucher.com.br/designproceedings/ped2022/9999248.pdf",
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "W4319313593",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Um estudo do processo de desenvolvimento de produto no vestuário de moda na malharia retilínea no Brasil",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2016.tde-23112015-170607",
+        "doi": "10.11606/d.100.2016.tde-23112015-170607",
+        "year": 2016,
+        "authors": [
+          "Laura Piccinini"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This study covers literature research about knitwear, the production process, technology, creative versatility and product development. It also includes field research based in the south of Minas Gerais (regiões de Monte Sião, e Águas de Lindóia), a place with a high concentration of knitwear companies. The focus of the field research consists of case studies in ten industrial companies and three technological leading centres of the region. The purpose of this dissertation is to explore the product development process in fashion clothes knitwear in Brasil, capturing the variables that influence the degree of product innovation, as well as the ability to achieve the idealized aesthetic goals, and to create viable products. To explore this subject, the knitwear product supply chain is presented, as well as the evolution of technological resources, including flat knitting machines. In order to understand the creative process in fashion knitwear, it is critical to closely examine the contribution and influence of the extended supply chain. The supply chain is crucial because the process of product creation includes the technological development of machines and yarns. However, innovation also depends on the knowledge and robust interaction of fashion designers, product10 modelers and software programmers. In order to understand the creation product development process and the challenges that have faced, and continue to face designers, and overview of the history of knitting and knitting technologies is explored. Upon examination, it is possible to observe that there are several ways to develop a collection, as the designer creativity depends on his own specific experiences and ability with certain manual techniques and mental models. In order to bring from other areas important knowledge for the development process in knitwear, it was also explored some product development methods in engineering, allowing the division of this process in structured concepts. Finally, it was made a field research with ten clothing manufacturers companies and other important players in the South Minas Gerais Area, including two suppliers of knitting machines, through which it identified applicable standards of the product development of these companies as well as their professional levels. It was expected to generate important information in this research, in order to contribute to the development of the knitting industry and their professionals",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-23112015-170607/publico/CorrigidaLAURAPICCININI.pdf",
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W2492121314",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Guia para a implantação de softwares de prototipagem 3D no processo de desenvolvimento de produtos das indústrias de vestuário",
+        "source": "openalex",
+        "url": "https://repositorio.udesc.br/handle/UDESC/20975",
+        "doi": null,
+        "year": 2024,
+        "authors": [
+          "Tauane Spanhol de Aguirre"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "O ambiente competitivo do mercado de moda mundial está constantemente transformando os processos produtivos de desenvolvimento de produtos de vestuário. Enquanto as empresas buscam atender a demanda de novidades dos usuários, concomitantemente o gerenciamento de recursos internos da empresa se torna um fator importante como diferencial competitivo no mercado. Existem no mercado diversas tecnologias que colaboram para um desenvolvimento de produtos mais assertivos, colocando as empresas em vantagem competitiva. Esta pesquisa tem como objetivo propor um guia para implantação de software de prototipagem 3D no processo de desenvolvimento de produtos das indústrias de vestuário. Desta forma, Indústrias de vestuário que ainda têm dificuldades na adaptação de seus processos de desenvolvimento de produtos com a implantação de software de simulação 3D, podem criar seus protótipos virtuais, reduzir a quantidade de tecidos e outros recursos necessários para a produção de roupas. Para alcançar as soluções apontadas para o problema em adesão ao software 3D pelas empresas de confecção, esta pesquisa é de natureza aplicada, apoiando-se na abordagem qualitativa, quanto ao problema de pesquisa e em relação ao objetivo pesquisa descritiva. Quanto aos procedimentos técnicos para a coleta de dados, foi realizada: (I) Revisão da Literatura, visando avaliar o atual estado do conhecimento sobre o assunto; (II) Entrevista com o representante da empresa sobre os produtos por ela ofertado; (III) Aplicação de questionário com empresas de confecção que possuem e que não possuem o software; (IV) Pesquisa básica em rede profissional para avaliar o perfil dos profissionais que utilizam o software. As teorias que embasaram o trabalho foram: Processos para transição de modelos de indústria e adesão a novas tecnologias (Chien; Hong; Guo, 2017), (Quintino et al., 2019), Administração da Produção (Slack, Brandon-Jones; Johnston, 2020); Etapas do Desenvolvimento de Produtos de Vestuário (Montemezzo, 2003), (Bitterncourt et al, 2021), (Silveira, 2017) e teorias sobre Indústria 3.0, 3.5, 4.0 e 5.0 (Schwab, 2016), (Chien; Hong; Guo, 2017), (Quintino et al., 2019). Como resultado do trabalho, foi produzido um Guia que contribui para a elucidação dos passos necessários para a implantação do software de prototipagem 3D no processo de desenvolvimento de produtos das indústrias de vestuário.",
+        "pdf_url": "https://repositorio.udesc.br/bitstreams/e91e0d8a-a74c-4d4c-9d57-a6b449688f8e/download",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7120527950",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Ergonomia Aplicada ao Projeto do Produto: O Ponto de Vista de Designers do Vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.15675/gepros.v14i2.2211",
+        "doi": "10.15675/gepros.v14i2.2211",
+        "year": 2019,
+        "authors": [
+          "Crislaine Gruber",
+          "Lizandra Garcia Lupi Vergara"
+        ],
+        "venue": "GEPROS. Gestão da Produção, Operações e Sistemas",
+        "abstract": "Este trabalho tem o objetivo de investigar a aplicação da ergonomia no processo de desenvolvimento de produtos do vestuário, do ponto de vista dos designers. Para isso, foram realizadas entrevistas semiestruturadas com 19 designers. As entrevistas foram gravadas e transcritas para realização de análise de conteúdo, baseada em três categorias: conceito de ergonomia; abordagem da ergonomia na formação acadêmica e na vivência profissional; aplicação da ergonomia no desenvolvimento de produtos. Foi constatado que a maioria dos participantes compreende o conceito de ergonomia e considera que ela é aplicada no processo de desenvolvimento de produtos do vestuário, contudo essa aplicação dá-se de forma intuitiva. Além disso, os participantes entendem que a aplicação da ergonomia e a obtenção de dados antropométricos dos usuários são atividades desenvolvidas apenas pelos modelistas. Acredita-se que é necessário abordar a ergonomia na formação profissional dos designers do vestuário, a fim de tornar essa aplicação sistemática e efetiva, afetando a satisfação dos usuários de forma positiva e, consequentemente, aumentando a competitividade das empresas.",
+        "pdf_url": "https://revista.feb.unesp.br/index.php/gepros/article/download/2211/pdf",
+        "citation_count": 19,
+        "work_type": "article",
+        "identifier": "W2964717479",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Riscos na moda: recomendações associadas ao desenvolvimento de mix de produtos de vestuário no varejo sob ótica de especialistas",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1982615x14342021284",
+        "doi": "10.5965/1982615x14342021284",
+        "year": 2021,
+        "authors": [
+          "Cristina Rodrigues Barbosa",
+          "Silene Seibel"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "O artigo investiga a temática dos riscos envolvidos no desenvolvimento de mix de produtos de vestuário no varejo. Devido a crescente complexidade dos negócios de moda em função dos curtos ciclos de produção, das variáveis subjetivas envolvidas na tomada de decisão do consumidor e da dificuldade em equilibrar os atributos do mix, foi proposto uma pesquisa aplicada e descritiva, que utiliza método quantitativo aliado ao qualitativo em uma pesquisa de campo. O resultado foi um conjunto de recomendações advindas de uma amostra composta por 94 profissionais de mercado que tem o propósito de reduzir os riscos ao longo do processo de desenvolvimento de mix de produtos de vestuário no varejo.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/modapalavra/article/download/20900/13469",
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "W3203780617",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Diagnóstico da gestão do processo de desenvolvimento de produto: um estudo de caso na indústria de confecção do vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.22456/1983-8026.24102",
+        "doi": "10.22456/1983-8026.24102",
+        "year": 2012,
+        "authors": [
+          "Isabel Cristina Moretti",
+          "Aline Silva Culchesk",
+          "Aldo Braghini"
+        ],
+        "venue": "Produto & Produção",
+        "abstract": "O processo de desenvolvimento de produtos (PDP) é um diferencial para manter as empresas competitivas. Na indústria de confecção, o desenvolvimento de produto é dinâmico e sofre grande influência das variações do mercado. Neste contexto, para a estruturação do PDP se faz necessária a utilização de modelos que estabeleçam etapas sistematizadas para o processo. O presente trabalho tem como objetivo apresentar um caso de utilização de um modelo para fins de diagnóstico do processo de desenvolvimento de produto em uma indústria têxtil de confecção de vestuário. Para isso, é realizada uma análise do PDP na empresa estudada, tomando como base o modelo de referência de Rozenfeld et al., (2006). O método principal é o estudo de caso, e os instrumentos de coleta são entrevistas e visitas técnicas a empresa. Como resultado, tem-se uma análise do PDP da empresa e posterior verificação do nível de maturidade do processo de desenvolvimento de produto. A utilização do modelo de referência demonstrou ser eficiente, sendo um bom padrão para avaliação do nível de evolução da empresa em desenvolvimento de produtos. Foi possível concluir que a empresa estudada apresenta um nível de maturidade básico para o desenvolvimento de produtos, revelando haver a necessidade de se intensificarem os estudos para estruturação do PDP da mesma, vislumbrando, ainda, uma conseqüente otimização.",
+        "pdf_url": "https://seer.ufrgs.br/ProdutoProducao/article/download/24102/23210",
+        "citation_count": 6,
+        "work_type": "article",
+        "identifier": "W1802920236",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "MODELAGEM DE VESTUÁRIO ENTRE SÉCULOS: uma análise comparativa em revistas de moda",
+        "source": "openalex",
+        "url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/view/760",
+        "doi": "10.18406/2359-1269v12n52025760",
+        "year": 2026,
+        "authors": [
+          "Marina Rosa de Moura",
+          "Ana Caroline Siqueira Martins"
+        ],
+        "venue": "Revista Eixos Tech",
+        "abstract": "This article presents a comparative analysis of garment patternmaking methods published in fashion magazines from the 19th and 21st centuries. The research focuses on a case study of the Harper’s Bazaar issue dated May 8, 1886, and the 750th edition of Manequim magazine, published in 2022. Through the analysis of the Étamine Dress Trimmed with Braid and model 103, the study investigates how graphic resources, instructions, and pattern structures have evolved over time. It is observed that, despite technological changes, graphic elements from the 19th century—such as symbols and legends—remain relevant and can be combined with current resources, such as the use of colors, to enhance contemporary patternmaking practices.",
+        "pdf_url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/download/760/369",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7216371491",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Modelagem cinética do vestuário: Um estudo de eficiência ergonômica de uma blusa",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2023.v14.n2.47346",
+        "doi": "10.5433/2236-2207.2023.v14.n2.47346",
+        "year": 2023,
+        "authors": [
+          "Samira Moraes Kroeff Troncoso",
+          "Fábio Gonçalves Teixeira"
+        ],
+        "venue": "Projetica",
+        "abstract": "Esta pesquisa tem como delimitação temática a construção da modelagem de uma blusa de manga longa no método cinético. Possui como objetivo geral empregar os conceitos da modelagem cinética de forma que viabilize a análise ergonômica comparando-a com a modelagem tradicional, por meio de princípios ergonômicos da biomecânica e de conforto em um produto. Para isso, realizou-se um estudo aprofundado, dos métodos de modelagem do vestuario e a coleta de dados para realizar a comparacao ocorreu através dos instrumentos de avaliação qualitativos como entrevista individual e estruturada com profissionais da área; registros fotográficos; e vídeos dos movimentos dos segmentos corporais durante o uso das blusas confeccionadas nos métodos cinético e tradicional. A análise comparative dos dados inicia com o levantamento dos pontos fortes e fracos de cada método e, postetiormente fez-se a triangulação desses dados. Observou-se que a modelagem cinética apresenta pontos fortes relevantes em eficiência biomecânica, qualidade ergonômica e psicoestética de um vestuário.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4389400041",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "O ponto de vendas de produtos de luxo da moda de vestuário feminino no Brasil",
+        "source": "openalex",
+        "url": "https://doi.org/10.1590/s1679-39512010000300009",
+        "doi": "10.1590/s1679-39512010000300009",
+        "year": 2010,
+        "authors": [
+          "Ricardo Rocha Leal Gomes de Sá",
+          "Reynaldo Cavalheiro Marcondes"
+        ],
+        "venue": "Cadernos EBAPE BR",
+        "abstract": "Este artigo procura identificar como os pontos de vendas de produtos de luxo da moda de vestuário e acessórios estão configurados no Brasil. Com esse objetivo, aborda aspectos como a apresentação externa das lojas, o seu ambiente interno, o atendimento, as práticas de vendas e de manutenção dos clientes, o crédito, as embalagens e pacotes, além dos serviços adicionais. O estudo está fundamentado em pesquisa exploratória com técnicas qualitativas de coleta e análise de dados. Foram entrevistados executivos e gerentes de lojas das empresas que detêm as marcas Fit, Andréa Saletto, Permanente e Marina Rinaldi, instaladas na cidade de São Paulo. Constatou-se que o ponto de vendas é um recurso essencial para esse negócio e que o relacionamento pessoal vendedor/cliente é indispensável para as vendas, associado a um conjunto de ações de encantamento que envolvem as vitrines e o ambiente interno. Foi igualmente observado que a hospitalidade resulta da integração entre atividades e recursos internos e, também, que 70% a 80% das vendas são parceladas no cartão de crédito. Além disso, verificou-se que as vendas são concluídas com a sofisticação das embalagens, pacotes e sacolas, além de serviços de ajuste das peças, que se estendem à casa das clientes. Cabe acrescentar que questões relevantes foram suscitadas, como o que seria uma vantagem competitiva entre essas marcas e se as pessoas efetivamente ricas compram à prestação.",
+        "pdf_url": "https://www.scielo.br/j/cebape/a/gDqRNYmrHdy479tkwqhyBRt/?lang=pt&format=pdf",
+        "citation_count": 21,
+        "work_type": "article",
+        "identifier": "W2094288675",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Modelagem e simulação de sistemas aplicadas ao desenvolvimento do projeto do produto: estudo de caso em empresa fornecedora de bancos de automóveis",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.18.2017.tde-10022017-151809",
+        "doi": "10.11606/d.18.2017.tde-10022017-151809",
+        "year": 2018,
+        "authors": [
+          "Pedro Marcelo Provazzi"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.18.2017.tde-10022017-151809",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Modelagem de sistemas de produto em estudos de avaliação do ciclo de vida - ACV.",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.3.2004.tde-15082025-084738",
+        "doi": "10.11606/d.3.2004.tde-15082025-084738",
+        "year": 2025,
+        "authors": [
+          "Paulo Henrique Ribeiro"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.3.2004.tde-15082025-084738",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Modelagem de sistemas de produto em estudos de ACV abrangendo o reaproveitamento de rejeitos.",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.3.2012.tde-15072013-155325",
+        "doi": "10.11606/d.3.2012.tde-15072013-155325",
+        "year": 2015,
+        "authors": [
+          "Alex Rodrigues Nogueira"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.3.2012.tde-15072013-155325",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "VESTUÁRIO INDUSTRIALIZADO: USO DA ERGONOMIA NAS FASES DE GERÊNCIA DE PRODUTO, CRIAÇÃO, MODELAGEM E PROTOTIPAGEM",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.18873",
+        "doi": "10.17771/pucrio.acad.18873",
+        "year": 2015,
+        "authors": [
+          "LUCAS DA ROSA"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.18873",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "Identificação de pontos de controle no ciclo de desenvolvimento de produto por meio de modelagem conceitual e mapeamento da informação",
+        "source": "crossref",
+        "url": "https://doi.org/10.1590/0104-530x610",
+        "doi": "10.1590/0104-530x610",
+        "year": 2014,
+        "authors": [
+          "Leonardo Geraldo de Oliveira Gomes",
+          "Andrea Franco Pereira"
+        ],
+        "venue": "Gestão &amp; Produção",
+        "abstract": "A complexidade do sistema produtivo e o conteúdo da informação relacionada a ele são os principais elementos deste trabalho. Traz como fio condutor a tentativa do melhor entendimento desta complexidade e da possibilidade do mapeamento e da representação da informação circulante em um sistema para a otimização de seu gerenciamento. O estudo ganha relevância ao se aproximar das atuais discussões e atitudes emergentes no tocante à sustentabilidade, principalmente nas áreas de desenvolvimento de produtos eco-orientados e no gerenciamento dos ciclos de vida. A proposta fundamenta-se na busca pela forma de representar a complexidade envolvida nos sistemas associados ao desenvolvimento do produto, de maneira a possibilitar a otimização da observação e do controle ao longo do seu ciclo de vida. Esta representação, necessariamente de alto nível, deve apresentar diagramas completos com possibilidades de evolução em detrimento das representações gráficas de baixa complexidade comumente utilizados, caracterizadas pelo reducionismo representativo. Procura-se o controle, o mais fino possível, da cadeia produtiva, objetivando maior organização, produtividade e conhecimento detalhado sobre um produto. O mapeamento da complexidade e a identificação dos pontos de controle propiciam um entendimento otimizado do ciclo de vida. Uma possibilidade de tratar a representação deste ciclo de maneira sistêmica, sem o perigo de uma redução em nível crítico da complexidade, está no uso da modelagem conceitual.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.1590/0104-530x610",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "FapUNIFESP (SciELO)"
+        }
+      },
+      {
+        "title": "Proposta de modelagem funcional integral do produto aplicável a projetos derivativos",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2016.976746",
+        "doi": "10.47749/t/unicamp.2016.976746",
+        "year": 2021,
+        "authors": [
+          "Gustavo dos Santos Gioria"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2016.976746",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Uma modelagem para o processo de negócio: processo de desenvolvimento de produto",
+        "source": "crossref",
+        "url": "https://doi.org/10.1145/1809980.1810049",
+        "doi": "10.1145/1809980.1810049",
+        "year": 2008,
+        "authors": [
+          "Maria T. Tamanini Andrade",
+          "Cristiano Vasconcelos Ferreira",
+          "Karina Barreto Villela"
+        ],
+        "venue": "Companion Proceedings of the XIV Brazilian Symposium on Multimedia and the Web",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.1145/1809980.1810049",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "ACM"
+        }
+      },
+      {
+        "title": "PROJETO DE PRODUTO UTILIZANDO PROCESSOS DE MODELAGEM PARAMÉTRICA, PROTOTIPAGEM E FABRICAÇÃO DIGITAL",
+        "source": "crossref",
+        "url": "https://doi.org/10.5151/designpro-ped-00737",
+        "doi": "10.5151/designpro-ped-00737",
+        "year": 2014,
+        "authors": [
+          "Felipe Schneider Viaro",
+          "Rogélio Pinheiro",
+          "Régio Pierre da Silva",
+          "Fábio Gonçalves Teixeira",
+          "Underléa Miotto Bruscato"
+        ],
+        "venue": "Anais do 11º Congresso Brasileiro de Pesquisa e Desenvolvimento em Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5151/designpro-ped-00737",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Editora Edgard Blücher"
+        }
+      },
+      {
+        "title": "A concepção de um Produto Educacional: do desenvolvimento de atividades em sala de aula à construção de um Blog de Modelagem Matemática",
+        "source": "crossref",
+        "url": "https://doi.org/10.5965/2357724x06102018021",
+        "doi": "10.5965/2357724x06102018021",
+        "year": 2018,
+        "authors": [
+          "Elenice Josefa Kolancko Setti",
+          "Rodolfo Eduardo Vertuan"
+        ],
+        "venue": "Boletim Online de Educação Matemática",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.5965/2357724x06102018021",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade do Estado de Santa Catarina"
+        }
+      },
+      {
+        "title": "DESENVOLVIMENTO DE PRODUTO PROJETO REGISTRO",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.7414",
+        "doi": "10.17771/pucrio.acad.7414",
+        "year": 2015,
+        "authors": [
+          "FLAVIO PINHEIRO DE OLIVEIRA FONCECA"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.7414",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "Fashion design for cost (FDfC): o processo de desenvolvimento de produto de moda quando quando priorizado o custo do produto",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.100.2024.tde-15102025-111949",
+        "doi": "10.11606/d.100.2024.tde-15102025-111949",
+        "year": 2025,
+        "authors": [
+          "Pedro Porto Chadud"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.100.2024.tde-15102025-111949",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Determinação da vida de prateleira de um produto alimentício com base em avaliações sensoriais: uma proposta alternativa de modelagem estatística.",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/t.3.2000.tde-27042026-104734",
+        "doi": "10.11606/t.3.2000.tde-27042026-104734",
+        "year": 2026,
+        "authors": [
+          "Marta Afonso Freitas"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/t.3.2000.tde-27042026-104734",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Desenvolvimento de produto : otimizador para mobile marketing",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/003095159",
+        "doi": "10.11606/003095159",
+        "year": 2026,
+        "authors": [
+          "Daniel Coelho Liberali"
+        ],
+        "venue": null,
+        "abstract": "Este trabalho tem como objetivo analisar a criação de um mecanismo para adequar a comunicação das empresas com aplicativos para cada usuário, de forma que consigam manter o engajamento do usuário com ele por meio de mensagens que considere mais relevantes. O estudo justifica-se pela necessidade da empresa focal deste trabalho, a Flowsense, auxiliar seus clientes a manterem essa comunicação eficiente com seus usuários. A base teórica do estudo são as teorias de Comunicação e Marketing de Kotler e, mais especificamente, teorias sobre Mobile Marketing como as de Kaplan e Shankar, além de técnicas e teorias de criação de produtos como as propostas por Baxter e pela metodologia de Design Thinking. O desenvolvimento do experimento foi descrito e analisado, com considerações críticas a respeito de seus resultados. A partir dos resultados, foi feita uma análise sobre o procedimento e então apresentadas as conclusões e os aprendizados.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/003095159",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Remodelagem do Processo de Desenvolvimento do Produto Cartão",
+        "source": "crossref",
+        "url": "https://doi.org/10.5585/iptec.v7i1.13910",
+        "doi": "10.5585/iptec.v7i1.13910",
+        "year": 2019,
+        "authors": [
+          "Aline Vieira Malanovicz"
+        ],
+        "venue": "Revista Inovação, Projetos e Tecnologias",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5585/iptec.v7i1.13910",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "University Nove de Julho"
+        }
+      },
+      {
+        "title": "Anais do 15º Congresso Brasileiro de Inovação e Gestão de Desenvolvimento de Produto",
+        "source": "crossref",
+        "url": "https://doi.org/10.29327/9786527219873",
+        "doi": "10.29327/9786527219873",
+        "year": 2025,
+        "authors": [],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.29327/9786527219873",
+        "extra": {
+          "crossref_type": "proceedings",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "Anais do Congresso Brasileiro de Inovação e Gestão de Desenvolvimento do Produto",
+        "source": "crossref",
+        "url": "https://doi.org/10.29327/1361104",
+        "doi": "10.29327/1361104",
+        "year": 2024,
+        "authors": [],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.29327/1361104",
+        "extra": {
+          "crossref_type": "proceedings",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "Práticas de desenvolvimento e implementação dos sistemas produto-serviço",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.18.2020.tde-06122021-155946",
+        "doi": "10.11606/d.18.2020.tde-06122021-155946",
+        "year": 2021,
+        "authors": [
+          "Érica Gonçalves Rezende"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.18.2020.tde-06122021-155946",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de Sao Paulo, Agencia USP de Gestao da Informacao Academica (AGUIA)"
+        }
+      },
+      {
+        "title": "Projeto organizacional e de equipes de desenvolvimento de produto : uma abordagem integrada",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/t.18.1997.tde-19072024-112403",
+        "doi": "10.11606/t.18.1997.tde-19072024-112403",
+        "year": 2024,
+        "authors": [
+          "Sérgio Takahashi"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/t.18.1997.tde-19072024-112403",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Avaliação de novas tecnologias para otimização de desenvolvimento do produto",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2005.359200",
+        "doi": "10.47749/t/unicamp.2005.359200",
+        "year": 2021,
+        "authors": [
+          "Emerson Roberto Pinardi"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2005.359200",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Desenvolvimento do produto de conveniência Quenelle de tilápia (Oreochromis niloticus)",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.11.2010.tde-29112010-084821",
+        "doi": "10.11606/d.11.2010.tde-29112010-084821",
+        "year": 2015,
+        "authors": [
+          "Maria Fernanda Calil Angelini"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.11.2010.tde-29112010-084821",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Adequação da tecnologia de modelagem tridimensional física computadorizada na obtenção de modelos de aparência voltados para o ensino de projeto em design de produto",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.16.2019.tde-18122017-160046",
+        "doi": "10.11606/d.16.2019.tde-18122017-160046",
+        "year": 2019,
+        "authors": [
+          "José Leonardo Otero Neto"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.16.2019.tde-18122017-160046",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Co-desenvolvimento de produto - um estudo na indústria automotiva.",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.3.2005.tde-16122014-162547",
+        "doi": "10.11606/d.3.2005.tde-16122014-162547",
+        "year": 2016,
+        "authors": [
+          "Dalicio Guiguer Filho"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.3.2005.tde-16122014-162547",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Desenvolvimento de um produto dietetico funcional para idosos",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2006.362293",
+        "doi": "10.47749/t/unicamp.2006.362293",
+        "year": 2021,
+        "authors": [
+          "Fabiane La Flor Ziegler"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2006.362293",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Estratégias funcionais no desenvolvimento de produto popular: um estudo de múltiplos casos",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/t.12.2008.tde-08102008-094748",
+        "doi": "10.11606/t.12.2008.tde-08102008-094748",
+        "year": 2015,
+        "authors": [
+          "Maria Cecilia Sobral"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/t.12.2008.tde-08102008-094748",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      }
+    ]
+  },
+  "count": 49,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T01:58:38.513803+00:00"
+}

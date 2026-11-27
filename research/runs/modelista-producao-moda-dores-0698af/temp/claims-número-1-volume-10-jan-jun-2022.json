@@ -1,0 +1,46 @@
+[
+  {
+    "claim": "A aferição de um manequim técnico de modelagem tamanho 48 (marca Draft) revelou discrepância de 9 cm na circunferência da cintura em relação à tabela de medidas padrão de mercado para o mesmo tamanho.",
+    "stance": "supports",
+    "stance_target": "Descompasso entre manequins técnicos industriais, tabelas de medidas e corpos reais plus size",
+    "evidence_type": "empirical",
+    "scope_conditions": "Modelagem feminina plus size tamanho 48 em laboratório de modelagem (IFSC Araranguá)",
+    "quoted_support": "As medidas relativas ao manequim de modelagem e a tabela padrão são semelhantes, exceto na cintura, onde existe uma diferença de 9 cm.",
+    "numbers": [
+      "9 cm",
+      "tamanho 48"
+    ],
+    "entities": [
+      "Draft",
+      "IFSC Araranguá"
+    ],
+    "time_period": "2021-2022",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "número-1-volume-10-jan-jun-2022"
+  },
+  {
+    "claim": "Protótipos tamanho 48 em tecido plano (100% algodão) construídos a partir de tabela padrão apresentaram sobra de 8 cm no gancho traseiro da calça, falta de 5 cm para fechar na cintura/quadril de uma modelo real e exigiram ampliar as costas da blusa em 5 cm e descer a cava em 4 cm.",
+    "stance": "supports",
+    "stance_target": "Inviabilidade de obter modelagem plus size por simples ampliação linear de grades menores",
+    "evidence_type": "empirical",
+    "scope_conditions": "Provas de vestibilidade de blusa e calça tamanho 48 em tecido plano 100% algodão em duas modelos reais",
+    "quoted_support": "Na blusa, foi descido 2 cm no decote da frente, foi ampliado o tamanho do molde das costas em 5 cm, além de baixar 4 cm na cava, redesenhando a mesma. A calça ficou grande no gancho, sobrando 8 cm, em sua maioria, na parte das costas.",
+    "numbers": [
+      "8 cm (sobra no gancho)",
+      "5 cm (ampliação costas)",
+      "4 cm (rebaixamento cava)",
+      "2 cm (decote frente)",
+      "5 cm (falta no quadril/cintura)",
+      "6 cm (sobra cintura modelo 1)"
+    ],
+    "entities": [
+      "IFSC",
+      "PUC-Rio"
+    ],
+    "time_period": "2021-2022",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "número-1-volume-10-jan-jun-2022"
+  }
+]

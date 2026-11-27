@@ -1,0 +1,101 @@
+[
+  {
+    "claim": "Sistemas de simulação virtual 3D (como o CLO3D) reduzem o lead time de desenvolvimento por acelerarem a tomada de decisão, mas em pequenas confecções e marcas a economia no custo de produção de amostras físicas pode ser anulada pelo aumento no custo de mão de obra especializada, ao contrário de grandes empresas como a H&M.",
+    "stance": "supports",
+    "stance_target": "Pequenas empresas de moda e estilistas independentes enfrentam barreiras de custo de mão de obra e tempo ao adotar softwares CAD 3D",
+    "evidence_type": "empirical",
+    "scope_conditions": "Grupo focal (FGI) com 5 estilistas e especialistas digitais na Coreia do Sul (3 a 15 anos de experiência na indústria)",
+    "quoted_support": "The best efficacy of 3D virtual simulation systems is that they can reduce lead time because the system can make decision-making faster. However, matters about costs and environments are case by case. The saved production cost can be offset by the increase in labor costs in small companies, whereas both cost savings and environmental protection can be accomplished in large companies, such as H&M.",
+    "numbers": [
+      "15 years of experience",
+      "five digital users"
+    ],
+    "entities": [
+      "CLO3D",
+      "H&M",
+      "Kyoung-Hee Choi"
+    ],
+    "time_period": "2021-2022",
+    "region": "Coreia do Sul / Global",
+    "confidence": "high",
+    "source_note_id": "3d-dynamic-fashion-design-development-using-digital-technology-and-its-potential"
+  },
+  {
+    "claim": "O uso eficiente de softwares de simulação 3D como o CLO3D é demorado e exige do estilista não apenas domínio do programa, mas amplo conhecimento técnico de modelagem (pattern-cutting) e métodos de costura, somado às demandas simultâneas de criação no escritório, busca de lojas de tecidos e gestão de fábricas.",
+    "stance": "supports",
+    "stance_target": "Estilistas sofrem sobrecarga operacional (acumulando criação, compra de tecidos e trato com fábricas) e necessitam de conhecimento profundo de modelagem e costura para operar CAD 3D com eficiência",
+    "evidence_type": "empirical",
+    "scope_conditions": "Estilistas de marcas próprias e fornecedores de vestuário utilizando CLO3D",
+    "quoted_support": "The most difficult problem for me in using CLO3D is that the system is time-consuming. Therefore, for me, using CLO3D efficiently does not always mean dealing with the program skillfully. I think that it also requires a larger scale of knowledge, including pattern-cutting and sewing methods because a variety of works, from designing garments in office, searching fabric stores, to handling factories are required to fashion designers.",
+    "numbers": [
+      "6 years of experience"
+    ],
+    "entities": [
+      "CLO3D",
+      "Kyoung-Hee Choi"
+    ],
+    "time_period": "2021-2022",
+    "region": "Coreia do Sul",
+    "confidence": "high",
+    "source_note_id": "3d-dynamic-fashion-design-development-using-digital-technology-and-its-potential"
+  },
+  {
+    "claim": "Fornecedores de vestuário (garment vendors) que utilizam o CLO3D no comércio B2B recebem comentários negativos frequentes dos compradores quanto à precisão de caimento (fitting) e tamanho nos avatares virtuais, preferindo manequins técnicos parametrizados (dummies como os da Alvanon) para reduzir erros de tamanho.",
+    "stance": "supports",
+    "stance_target": "Erros de tamanho e caimento em avatares 3D geram rejeição por compradores B2B e exigem manequins técnicos padronizados",
+    "evidence_type": "empirical",
+    "scope_conditions": "Fornecedores de confecção B2B na Coreia do Sul utilizando CLO3D",
+    "quoted_support": "In fact, considering that the accuracy of garment sizes in B2B is one of the most important elements, neither avatars nor live model scanning images had lots of limitations and errors. However, because a dummy company, such as Alvanon, has produced dummies based on its own modeling information, the dummies could guarantee more exact fitting, reducing errors in sizes.",
+    "numbers": [
+      "4 years of experience"
+    ],
+    "entities": [
+      "CLO3D",
+      "Alvanon",
+      "Kyoung-Hee Choi"
+    ],
+    "time_period": "2021-2022",
+    "region": "Coreia do Sul / Global",
+    "confidence": "high",
+    "source_note_id": "3d-dynamic-fashion-design-development-using-digital-technology-and-its-potential"
+  },
+  {
+    "claim": "O processo digital de design de moda com sistemas 3D transforma o fluxo convencional ('croqui 2D -> molde 2D -> toile 3D -> alteração de design/molde -> amostra') em interações iterativas diretas entre moldes 2D e simulações 3D, permitindo que estilistas substituam desenhos técnicos planos (2D flats) por amostras 3D nas fichas técnicas (tech-packs) enviadas às fábricas.",
+    "stance": "supports",
+    "stance_target": "A integração entre modelagem 2D e simulação 3D nas fichas técnicas (tech-packs) reduz a necessidade de desenhos planos 2D e toiles físicos iniciais",
+    "evidence_type": "empirical",
+    "scope_conditions": "Processo de design de moda e desenvolvimento de fichas técnicas com CLO3D",
+    "quoted_support": "Among designers, I have often seen cases in which they added 3D samples in the place of 2D flats to tech-packs to produce a prototype immediately. Because CLO3D is able to load 2D patterns and simulate them in 3D immediately, the patterns can be sent to manufacturing companies repeatedly.",
+    "numbers": [],
+    "entities": [
+      "CLO3D",
+      "Holly McQuillan",
+      "Kyoung-Hee Choi"
+    ],
+    "time_period": "2020-2022",
+    "region": "Coreia do Sul / Global",
+    "confidence": "high",
+    "source_note_id": "3d-dynamic-fashion-design-development-using-digital-technology-and-its-potential"
+  },
+  {
+    "claim": "Projetos de customização e co-design de vestuário em plataformas online B2C (como o projeto sul-coreano WITHIN24 + ALLSTUDIOS com 15 marcas jovens usando escaneamento corporal 3D e quiosques CLO3D) enfrentam obstáculos severos para pequenas marcas devido ao alto custo de plataforma, elevado consumo de mão de obra, tempo de renderização e dependência da proficiência técnica da equipe de estilistas.",
+    "stance": "supports",
+    "stance_target": "A implementação de customização em massa e renderização 3D gera alto consumo de mão de obra e custos proibitivos para pequenas marcas de moda",
+    "evidence_type": "empirical",
+    "scope_conditions": "Projeto de moda customizada WITHIN24 + ALLSTUDIOS com 15 marcas jovens na Coreia do Sul",
+    "quoted_support": "For the project, I created two to three detail points as presets for a garment design to implement custom-made clothes. However, it was too expensive to build an online shopping platform, and the manpower consumption was also too high. As you know, I guess the 3D dynamic fashion garments you developed could also be very time-consuming because presenting rendered garment images or videos to customers took a lot of time. Time and cost issues are also related to designer staff proficiency.",
+    "numbers": [
+      "fifteen Korean young fashion brands",
+      "two to three detail points"
+    ],
+    "entities": [
+      "WITHIN24 + ALLSTUDIOS",
+      "CLO3D",
+      "Kyoung-Hee Choi"
+    ],
+    "time_period": "2021-2022",
+    "region": "Coreia do Sul",
+    "confidence": "high",
+    "source_note_id": "3d-dynamic-fashion-design-development-using-digital-technology-and-its-potential"
+  }
+]

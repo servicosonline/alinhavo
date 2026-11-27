@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "Fabricantes de vestuário técnico apontam o software de visualização 3D (CLO 3D, Optitex 3D Suite, Browzwear VStitcher) como ferramenta útil para otimizar regras de graduação em avatares multi-tamanho, alinhar segmentos de molde e interpretar linhas de tensão (draglines).",
+    "stance": "supports",
+    "stance_target": "utilidade da prototipagem 3D como ferramenta de apoio à otimização de moldes e graduação",
+    "evidence_type": "empirical",
+    "scope_conditions": "12 especialistas (modelistas, designers técnicos, designers e gerente) de 6 fabricantes de roupas de combate a incêndio nos EUA",
+    "quoted_support": "Both experienced and inexperienced users highlighted usefulness of 3D apparel visualization software for adjusting grading rules, fitting patterns on multi-size avatars to streamline manual grading, aligning pattern segments, interpreting draglines, and refining multilayered composites.",
+    "numbers": ["12 experts", "6 companies"],
+    "entities": ["CLO 3D", "Optitex 3D Suite", "Browzwear VStitcher"],
+    "time_period": "2025-2026",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "three-dimensional-virtual-prototyping-for-designing-firefighting-gear-an-explora"
+  },
+  {
+    "claim": "O custo elevado de licenciamento anual (cotado em US$ 13.000) e de hardware periférico (dispositivos de teste de tecido e scanners de textura) constitui a barreira financeira predominante e unânime para a adoção de softwares CAD 3D em pequenas e médias confecções.",
+    "stance": "supports",
+    "stance_target": "inviabilidade econômica e barreira de custo do CAD 3D para pequenas e médias confecções",
+    "evidence_type": "empirical",
+    "scope_conditions": "Pequenos e médios fabricantes de vestuário funcional/técnico operando sob restrições orçamentárias",
+    "quoted_support": "Participants unanimously identified cost as the predominant barrier, with smaller firms struggling to justify the high price of software licenses and peripheral hardware (e.g., fabric testing devices, texture scanners) against the perceived return on investment, irrespective of their current usage status. Participant D1 articulated concerns, noting, 'Our current system functions effectively, making it challenging to justify the annual software license fee, which previously quoted at $13,000.'",
+    "numbers": ["$13,000"],
+    "entities": ["3D apparel visualization software"],
+    "time_period": "2025-2026",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "three-dimensional-virtual-prototyping-for-designing-firefighting-gear-an-explora"
+  },
+  {
+    "claim": "A implementação de prototipagem 3D exige alto investimento em capital humano, enfrentando curva de aprendizado íngreme e a necessidade de desviar horas de trabalho da equipe das tarefas imediatas de produção para dominar os novos sistemas.",
+    "stance": "supports",
+    "stance_target": "barreira de capacitação técnica e tempo de operação na adoção de CAD 3D",
+    "evidence_type": "empirical",
+    "scope_conditions": "Usuários atuais e não usuários em fabricantes de vestuário (n=12)",
+    "quoted_support": "Both current users and non-users highlighted the steep learning curve and the substantial time required to upskill employees. Integrating the software into existing workflows demanded not just financial readiness but also a willingness to divert limited staff hours away from immediate production tasks to master complex new systems.",
+    "numbers": ["12 experts"],
+    "entities": ["3D apparel visualization software"],
+    "time_period": "2025-2026",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "three-dimensional-virtual-prototyping-for-designing-firefighting-gear-an-explora"
+  },
+  {
+    "claim": "Os softwares atuais de simulação 3D apresentam baixa maturidade tecnológica para simular sistemas compostos de três camadas, construção de costuras espessas e grandes folgas intencionais (ex.: tórax de 44 polegadas em casaco de 52 polegadas), tornando os mapas de tensão/deformação pouco relevantes para peças folgadas.",
+    "stance": "supports",
+    "stance_target": "limitações técnicas da simulação 3D em peças multicamadas e com folga acentuada",
+    "evidence_type": "empirical",
+    "scope_conditions": "Vestuário de proteção estrutural multicamadas (outer shell, moisture barrier, thermal liner)",
+    "quoted_support": "A central concern among companies producing structural turnout gear was the limited capacity of current software to accurately simulate three-layer composite systems, seam construction, and the substantial ease and air gaps required for thermal protection. Participant C1 noted, 'The wearer's chest circumference is 44 inches, but the coat should measure 52 inches to maintain an adequate air buffer.'",
+    "numbers": ["3 layers", "44 inches", "52 inches"],
+    "entities": ["NFPA", "3D apparel visualization software"],
+    "time_period": "2025-2026",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "three-dimensional-virtual-prototyping-for-designing-firefighting-gear-an-explora"
+  }
+]

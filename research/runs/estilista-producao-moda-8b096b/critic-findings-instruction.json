@@ -1,0 +1,12 @@
+{
+  "findings": [
+    {
+      "id": "inst-1",
+      "severity": "low",
+      "section": "Global",
+      "issue": "Todas as 5 seções obrigatórias (required_section_headings) estão presentes na ordem exata, com tabelas comparativas e estilo wikilink. Apenas garantir que todos os detalhes técnicos da revisão dialética e de profundidade sejam integrados sem ultrapassar o teto de 5.000 palavras do formato structured.",
+      "suggested_fix": "Aplicar os ajustes pontuais mantendo a contagem total entre 4.200 e 4.600 palavras.",
+      "needs_fetch": false
+    }
+  ]
+}

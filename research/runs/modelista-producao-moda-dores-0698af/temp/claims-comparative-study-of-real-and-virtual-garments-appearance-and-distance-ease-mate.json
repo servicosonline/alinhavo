@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Distance ease values between real 3D-scanned straight-fit dresses and virtual dresses simulated in Lectra Modaris 3D differed by up to 29.9% (1.16 cm) at the bust girth and varied from 7.3% (0.51 cm) to 47.3% (4.30 cm) at the waist due to wrinkling.",
+    "stance": "supports",
+    "stance_target": "discrepancies and technical limitations in 3D CAD virtual fit simulation of ease allowance at bust and waist zones",
+    "evidence_type": "empirical",
+    "scope_conditions": "Straight-fit woven dresses (5 fabrics, KES-F tested) on VITUS Smart XXL 3D scanned mannequins vs Lectra Modaris 3D",
+    "quoted_support": "Distance ease of virtual and scanned garments was compared in bust and waist cross-sections. It was defined that distance ease values at bust girth of real and virtual dresses differed till 29.9 % (1.16 cm), while at waist varied from 7.3 % (0.51 cm) to 47.3 % (4.30 cm) because of wrinkles in this area.",
+    "numbers": ["29.9%", "1.16 cm", "7.3%", "0.51 cm", "47.3%", "4.30 cm", "5 woven fabrics"],
+    "entities": ["Agnė Lagė", "Kristina Ancutienė", "Kaunas University of Technology", "Riga Technical University", "Modaris 3D", "CAD Lectra", "VITUS Smart XXL", "KES-F"],
+    "time_period": "2020",
+    "region": "Lithuania / Latvia",
+    "confidence": "high",
+    "source_note_id": "comparative-study-of-real-and-virtual-garments-appearance-and-distance-ease-mate"
+  },
+  {
+    "claim": "As mannequin size increases, the visual appearance and shape fluency similarity between 3D virtual garments and real physical garments decreases.",
+    "stance": "supports",
+    "stance_target": "degradation of 3D CAD virtual fit accuracy across larger graded sizes",
+    "evidence_type": "empirical",
+    "scope_conditions": "Women's mannequins of different sizes scanned with VITUS Smart XXL vs Modaris 3D simulation",
+    "quoted_support": "Generally, appearance of the virtual dresses was similar to real dresses with some differences in garment shape fluency, however by increasing of the mannequin size, similarities decreased.",
+    "numbers": [],
+    "entities": ["Agnė Lagė", "Kristina Ancutienė", "Modaris 3D"],
+    "time_period": "2020",
+    "region": "Lithuania / Latvia",
+    "confidence": "high",
+    "source_note_id": "comparative-study-of-real-and-virtual-garments-appearance-and-distance-ease-mate"
+  },
+  {
+    "claim": "3D CAD garment simulation systems fail to accurately reflect woven fabrics with very high shear rigidity (G), only achieving reliable virtual try-on accuracy when fabric shear rigidity is below 1.6 N/m·° and warp tensile strain is above 1.80%.",
+    "stance": "supports",
+    "stance_target": "mechanical fabric property thresholds where 3D CAD simulation diverges from real physical garment fit",
+    "evidence_type": "empirical",
+    "scope_conditions": "Woven fabrics tested with KES-F and simulated in Lectra Modaris 3D",
+    "quoted_support": "It was assumed that very high shear rigidity G could not be very well reflected in 3D CAD system, therefore differences between virtual and real dresses appearance occurred. So, comparative study showed that the accuracy of virtual try-on was quite useful comparing to real garments, if shear rigidity of fabrics was lower than 1.6 N/m*º and tensile strain in warp direction was higher than 1.80 %.",
+    "numbers": ["1.6 N/m*º", "1.80%"],
+    "entities": ["Agnė Lagė", "Kristina Ancutienė", "Modaris 3D", "KES-F"],
+    "time_period": "2020",
+    "region": "Lithuania / Latvia",
+    "confidence": "high",
+    "source_note_id": "comparative-study-of-real-and-virtual-garments-appearance-and-distance-ease-mate"
+  }
+]

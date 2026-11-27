@@ -1,0 +1,12 @@
+{
+  "findings": [
+    {
+      "id": "depth-1",
+      "severity": "medium",
+      "section": "## 3. Interfaces com Outras Funções do Processo",
+      "issue": "Detalhar com maior precisão quantitativa na Seção 3 os dados empíricos de Queiroz (2023 - USP, [[universidade-de-são-paulo-2]]) sobre o uso de CAD 2D Audaces em 100% das marcas sob demanda e os gargalos de modelagem industrial em pequenas confecções.",
+      "suggested_fix": "Incorporar a estatística de 100% de adoção de CAD 2D (Audaces) combinada à ausência de CAD 3D nas marcas sob demanda brasileiras e os requisitos de tolerância técnica de costura (agulha nº 14, barra de 2,5 cm e tolerância de 1 cm) de [[universidade-de-são-paulo-8]].",
+      "needs_fetch": false
+    }
+  ]
+}

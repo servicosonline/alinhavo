@@ -7,7 +7,8 @@ import { requireUser } from "@/lib/auth";
 import { isUuid } from "@/lib/ids";
 import { formatMoney } from "@/lib/money";
 import { getMyRole } from "@/lib/org-access";
-import { lastMonths, monthKey, monthLabel, roiMonth, type RoiBaseline } from "@/lib/roi";
+import { planName } from "@/lib/account";
+import { lastMonths, monthKey, monthLabel, roiFee, roiMonth, type RoiBaseline } from "@/lib/roi";
 import { getSupabaseConfig } from "@/lib/supabase/config";
 import { createClient } from "@/lib/supabase/server";
 import { BaselineForm, PilotsCutForm, type BaselineValues } from "./forms";
@@ -39,7 +40,7 @@ async function Resultados({ params }: { params: PageProps<"/painel/[orgId]/resul
   const months = lastMonths(MONTHS, monthKey());
   const since = `${months[months.length - 1]}T00:00:00-03:00`;
 
-  const [orgRes, role, setRes, monthRes, verRes, apRes, mkRes] = await Promise.all([
+  const [orgRes, role, setRes, monthRes, verRes, apRes, mkRes, planRes, teamRes] = await Promise.all([
     supabase.from("orgs").select("name").eq("id", orgId).maybeSingle(),
     getMyRole(supabase, orgId, user.id),
     supabase.from("roi_settings").select("*").eq("org_id", orgId).maybeSingle(),
@@ -47,7 +48,11 @@ async function Resultados({ params }: { params: PageProps<"/painel/[orgId]/resul
     supabase.from("pattern_versions").select("created_at").eq("org_id", orgId).eq("origin", "prova").gte("created_at", since),
     supabase.from("approvals").select("decided_at, status").eq("org_id", orgId).eq("status", "aprovado").gte("decided_at", since),
     supabase.from("markers").select("created_at, efficiency").eq("org_id", orgId).gte("created_at", since),
+    supabase.rpc("org_plan_status", { p_org_id: orgId }),
+    supabase.from("org_members").select("role").eq("org_id", orgId),
   ]);
+  // Mensalidade de hoje (plano que vale e equipe atual), descontada de todos os meses: estimativa.
+  const fee = roiFee(planRes.data?.[0] ?? null, (teamRes.data ?? []).map((m) => m.role));
   if (!orgRes.data) notFound();
   const canEdit = role === "owner" || role === "admin";
   const s = setRes.data;
@@ -77,11 +82,17 @@ async function Resultados({ params }: { params: PageProps<"/painel/[orgId]/resul
       approvals: (apRes.data ?? []).filter((x) => inMonth(x.decided_at, m)).length,
       markers: effs.length,
       avgEfficiency,
-      roi: baseline ? roiMonth(baseline, { pilotsCut, avgEfficiency }) : null,
+      roi: baseline ? roiMonth(baseline, { pilotsCut, avgEfficiency, feeCents: fee.cents }) : null,
     };
   });
   const now = rows[0]!;
-  const yearProjection = now.roi ? now.roi.totalCents * 12 : null;
+  const yearProjection = now.roi ? now.roi.netCents * 12 : null;
+  const feeNote =
+    fee.cents === null
+      ? `O plano ${planName(fee.plan)} ainda não tem preço: a conta mostra só a economia bruta.`
+      : fee.charging
+        ? `Mensalidade do plano ${planName(fee.plan)} com a equipe de hoje.`
+        : `Plano ${planName(fee.plan)} com a equipe de hoje, pelo valor de quando assinar (ainda não é cobrado).`;
 
   const fmt = (n: number | null | undefined, digits = 2) => (n ? br(n, digits) : "");
   const values: BaselineValues = {
@@ -106,7 +117,7 @@ async function Resultados({ params }: { params: PageProps<"/painel/[orgId]/resul
         <div className="space-y-6">
           <section aria-labelledby="este-mes" className="rounded-2xl bg-tinta p-6 text-papel sm:p-8">
             <h2 id="este-mes" className="font-mono text-[11px] tracking-[0.14em] text-papel/60 uppercase">
-              Economia estimada em {monthLabel(now.month)}
+              Economia líquida estimada em {monthLabel(now.month)}
             </h2>
             {!baseline ? (
               <p className="mt-4 font-display text-2xl leading-snug font-semibold">
@@ -115,11 +126,26 @@ async function Resultados({ params }: { params: PageProps<"/painel/[orgId]/resul
             ) : (
               <>
                 <p className="mt-3 font-display text-[clamp(2.4rem,7vw,4rem)] leading-none font-semibold tracking-tight text-fita tabular-nums" data-economia>
-                  {money0(now.roi!.totalCents)}
+                  {money0(now.roi!.netCents)}
                 </p>
                 <p className="mt-2 text-sm text-papel/70">
-                  no mês · projeção de <b className="font-mono text-papel">{money0(yearProjection!)}</b> em 12 meses
+                  no mês, já tirada a mensalidade · projeção de <b className="font-mono text-papel">{money0(yearProjection!)}</b> em 12 meses
                 </p>
+                <dl className="mt-5 grid grid-cols-3 gap-4 rounded-xl bg-papel/5 p-4 text-sm" data-mensalidade>
+                  <div>
+                    <dt className="text-xs text-papel/60">Economia bruta</dt>
+                    <dd className="font-mono text-papel">{money0(now.roi!.totalCents)}</dd>
+                  </div>
+                  <div>
+                    <dt className="text-xs text-papel/60">Mensalidade</dt>
+                    <dd className="font-mono text-papel">{now.roi!.feeCents === null ? "—" : `− ${money0(now.roi!.feeCents)}`}</dd>
+                  </div>
+                  <div>
+                    <dt className="text-xs text-papel/60">Retorno</dt>
+                    <dd className="font-mono text-papel">{now.roi!.paybackMultiple === null ? "—" : `${br(now.roi!.paybackMultiple)}× a mensalidade`}</dd>
+                  </div>
+                </dl>
+                <p className="mt-2 text-xs text-papel/60">{feeNote}</p>
                 {now.roi!.goalProgress !== null && (
                   <div className="mt-6 space-y-1.5">
                     <div className="flex justify-between text-sm text-papel/80">
@@ -167,7 +193,7 @@ async function Resultados({ params }: { params: PageProps<"/painel/[orgId]/resul
                     <th className="py-2 pr-3 font-normal">Ajustes na Prova</th>
                     <th className="py-2 pr-3 font-normal">Aprovações</th>
                     <th className="py-2 pr-3 font-normal">Aproveitamento</th>
-                    <th className="py-2 font-normal">Economia</th>
+                    <th className="py-2 font-normal">Economia líquida</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-tinta/10">
@@ -178,7 +204,7 @@ async function Resultados({ params }: { params: PageProps<"/painel/[orgId]/resul
                       <td className="py-2.5 pr-3 font-mono">{r.provaAdjustments}</td>
                       <td className="py-2.5 pr-3 font-mono">{r.approvals}</td>
                       <td className="py-2.5 pr-3 font-mono">{r.avgEfficiency ? `${br(r.avgEfficiency * 100)}%` : "—"}</td>
-                      <td className="py-2.5 font-mono">{r.roi ? money0(r.roi.totalCents) : "—"}</td>
+                      <td className="py-2.5 font-mono">{r.roi ? money0(r.roi.netCents) : "—"}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -186,7 +212,7 @@ async function Resultados({ params }: { params: PageProps<"/painel/[orgId]/resul
             </div>
             <p className="text-xs text-tinta-suave">
               Ajustes na Prova: versões do molde salvas pela Prova. Aprovações: links aprovados pela cliente. Aproveitamento: média dos riscos salvos no
-              mês.
+              mês. Economia líquida: a bruta menos a mensalidade de hoje.
             </p>
           </section>
         </div>

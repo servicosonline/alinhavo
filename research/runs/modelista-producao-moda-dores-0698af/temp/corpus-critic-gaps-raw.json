@@ -1,0 +1,69 @@
+{
+  "gaps": [
+    {
+      "id": "cc-1",
+      "type": "overturning",
+      "target_position": "Locus 1 & Tension 2 committed position: Exigir ficha técnica mínima completa antes da modelagem e reeditá-la após a aprovação da peça-piloto reduz significativamente o retrabalho entre criação, modelagem e pilotagem (atualmente 65% de confiança qualitativa, 0 estudos quantificando horas/taxa de reprovação de pilotos ou impacto de PLM/CAD integrado pós-2015).",
+      "search_queries": [
+        "\"ficha técnica\" \"peça piloto\" OR \"protótipo\" retrabalho confecção redução percentual estudo de caso",
+        "\"desenvolvimento de produto\" vestuário confecção \"retrabalho\" modelagem \"ficha técnica\" indicadores",
+        "PLM vestuário confecção \"ficha técnica\" modelista redução retrabalho pilotagem"
+      ],
+      "source_type": "academic",
+      "priority": "critical",
+      "rationale": "O Locus 1 sustenta sua posição em 3 estudos qualitativos anteriores a 2013 (Jordan 2004, Moretti 2012, Suono 2011) e admite explicitamente 0 estudos medindo o custo/tempo de retrabalho entre croqui e peça-piloto ou testando se a padronização da ficha técnica / PLM moderno efetivamente reduz a taxa de reprovação de protótipos."
+    },
+    {
+      "id": "cc-2",
+      "type": "overturning",
+      "target_position": "Locus 2 & Tension 1 committed position: A prototipagem virtual 3D (CLO3D, Audaces 3D, Optitex, VStitcher) funciona apenas como triagem visual e não reduz substancialmente o número de peças-piloto físicas até a aprovação em confecções reais (confiança média de 65%; nenhuma fonte no vault mediu contagem de pilotos físicos antes vs. depois da adoção do 3D).",
+      "search_queries": [
+        "\"CLO 3D\" OR \"CLO3D\" OR \"Audaces 3D\" redução \"peça piloto\" OR \"protótipos\" confecção estudo de caso",
+        "\"virtual prototyping\" apparel \"sample reduction\" OR \"physical samples\" case study percentage",
+        "prototipagem virtual 3D vestuário tempo parametrização modelista confecção"
+      ],
+      "source_type": "academic",
+      "priority": "critical",
+      "rationale": "O próprio investigador do Locus 2 aponta que o subagente fetcher sofreu erro 503 na etapa de profundidade e que nenhuma fonte lida no corpus mede a contagem real de peças-piloto físicas antes e depois da adoção do CAD 3D (Navarra 2022 mediu apenas gramas de tecido e encaixe). Uma evidência empírica de contagem de amostras (ou do tempo gasto pela modelista parametrizando tecido/avatar) pode reverter ou blindar a Tensão 1."
+    },
+    {
+      "id": "cc-3",
+      "type": "independent-verification",
+      "target_position": "Locus 4 & Consensus 4 committed position: As exigências ergonômicas físicas e cognitivas da modelista de mesa e de CAD (postura bípede, flexão cervical, LER/DORT, Questionário Nórdico e regime híbrido de 75% papel + CAD em Silveira 2011).",
+      "search_queries": [
+        "\"Ergonomia física: as exigências presentes na atuação de modelista do vestuário\" Planca Merino PDF",
+        "https://periodicos.udesc.br/index.php/modapalavra/article/download/6881",
+        "\"modelista\" \"CAD\" vestuário papel manual digitalização confecção 2018..2026"
+      ],
+      "source_type": "academic",
+      "priority": "critical",
+      "rationale": "A verificação contra a nota original [[ergonomia-física-as-exigências-presentes-na-atuação-de-modelista-do-vestuário-mo]] revelou que o vault contém apenas a página de resumo OJS (sem o PDF completo com as tabelas do Questionário Nórdico, alturas de bancada e ângulos posturais de Planca, Merino & Merino, 2016). Além disso, os dados de que 75% das modelistas traçam no papel antes do CAD e 100% reprovam o treinamento de 16-40h vêm exclusivamente de uma única pesquisa de 2008-2011 (Silveira, 2011), exigindo verificação pós-2016."
+    },
+    {
+      "id": "cc-4",
+      "type": "independent-verification",
+      "target_position": "Locus 3 committed position: A despadronização antropométrica brasileira, o histórico do levantamento do INT (1.600 pessoas em 1986) vs. SizeBR (SENAI CETIQT) e a baixa adesão industrial à ABNT NBR 16933:2021.",
+      "search_queries": [
+        "\"O vestuário e o corpo do brasileiro\" Carvalhinha UnB 2015 PDF",
+        "\"NBR 16933\" confecção adoção modelagem vestuário indústria",
+        "\"SizeBR\" SENAI CETIQT modelagem vestuário tabela de medidas aplicação industrial"
+      ],
+      "source_type": "academic",
+      "priority": "high",
+      "rationale": "A auditoria das notas originais detectou um erro de atribuição cruzada no Locus 3: a nota [[marília-piccinini-da-carvalhinha]] no vault é a dissertação de Carvalhinha de 2007 na Poli-USP (Engenharia de Produção), enquanto a citação sobre o INT (1.600 pessoas) está em Brandão (2015, EACH-USP, [[universidade-de-são-paulo-6]]) e a dissertação de Carvalhinha (2015, UnB) citada no relatório interino não está no vault. Ademais, falta evidência empírica de adoção industrial real da NBR 16933:2021 (além do teste laboratorial de Gomes & Teixeira, 2025)."
+    },
+    {
+      "id": "cc-5",
+      "type": "strengthening",
+      "target_position": "Locus 5 & Tension 3 committed position: O retrabalho crônico atribuído a 'molde torto' no corte, lavanderia e facções terceirizadas decorre da ausência de teste físico de encolhimento por partida de tecido (especialmente jeans/malha) e do conflito entre quebra de bloco-base (block break 44/46) e aproveitamento têxtil (>82-85%) no encaixe CAD.",
+      "search_queries": [
+        "\"teste de encolhimento\" modelagem jeans OR lavanderia confecção retrabalho molde",
+        "\"terceirização\" facção confecção \"peça piloto\" \"ficha técnica\" defeitos modelagem",
+        "\"encaixe\" aproveitamento tecido gradação \"plus size\" confecção desperdício"
+      ],
+      "source_type": "industry",
+      "priority": "high",
+      "rationale": "Enquanto o Locus 5 tem forte respaldo qualitativo em moda luxo (Marcelo 2016) e no polo de Toritama de 2009 (Alves 2009), faltam dados quantitativos ou técnicos recentes sobre o cálculo de matrizes de encolhimento longitudinal/transversal pós-lavanderia pela modelista e sobre a perda real de eficiência de encaixe (%) quando se separa o bloco-base plus size (46+) da grade regular (36-44)."
+    }
+  ]
+}

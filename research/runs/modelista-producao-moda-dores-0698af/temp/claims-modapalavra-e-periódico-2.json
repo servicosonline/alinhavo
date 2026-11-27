@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "Em levantamento com 503 indústrias de confecção de Santa Catarina (taxa de resposta de 54,08% do cadastro CIESC), 76% possuem modelistas no quadro interno, 69% utilizam modelagem computadorizada (CAD) e 73% destas operam com o sistema Audaces Vestuário.",
+    "stance": "supports",
+    "stance_target": "Predominância do sistema CAD Audaces e presença de setor interno de modelagem na indústria catarinense",
+    "evidence_type": "statistical",
+    "scope_conditions": "Survey quantitativo com 503 empresas do vestuário cadastradas no CIESC em Santa Catarina",
+    "quoted_support": "Os resultados desta abordagem foram satisfatórios, porque 503 empresas responderam ao questionário, num total de 54,08 %. Os dados mostram que 69% das empresas do pesquisadas desenvolvem a modelagem com o uso da tecnologia computadorizada, e apontam que o sistema utilizado por 73% dessas empresas é o Audaces Vestuário.",
+    "numbers": ["503 empresas", "54,08%", "76%", "24%", "69%", "73%"],
+    "entities": ["UDESC", "CIESC", "Audaces Vestuário"],
+    "time_period": "2009-2011",
+    "region": "Santa Catarina, Brasil",
+    "confidence": "high",
+    "source_note_id": "modapalavra-e-periódico-2"
+  },
+  {
+    "claim": "A formação dos modelistas nas empresas do vestuário de Santa Catarina divide-se em 46% com curso técnico, 29% antigas costureiras práticas e 25% com ensino superior; por porte, a formação técnica representa 58% nas microempresas, 48% nas pequenas, 53% nas médias e 70% nas grandes empresas.",
+    "stance": "supports",
+    "stance_target": "Perfil de escolaridade técnica e transição de ex-costureiras para modelistas na indústria brasileira",
+    "evidence_type": "statistical",
+    "scope_conditions": "503 empresas do vestuário de Santa Catarina",
+    "quoted_support": "Outro aspecto importante é que a maioria dos profissionais do setor de modelagem tem formação em nível técnico. Nas microempresas são 58%, nas pequenas, 48%, nas médias, 53% e nas grandes, 70%.",
+    "numbers": ["46% curso técnico", "29% antiga costureira", "25% universitário", "58%", "48%", "53%", "70%"],
+    "entities": ["UDESC", "SENAI", "SENAC"],
+    "time_period": "2009-2011",
+    "region": "Santa Catarina, Brasil",
+    "confidence": "high",
+    "source_note_id": "modapalavra-e-periódico-2"
+  }
+]

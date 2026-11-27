@@ -1,0 +1,453 @@
+{
+  "ok": true,
+  "data": {
+    "query": "modelista vestuario ergonomia trabalho confeccao",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 0,
+      "doab": 0
+    },
+    "raw_records": 20,
+    "merged_records": 20,
+    "returned": 20,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Ergonomia física: as exigências presentes na atuação de modelista do vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1982615x09182016281",
+        "doi": "10.5965/1982615x09182016281",
+        "year": 2016,
+        "authors": [
+          "Sabrina Helena Planca",
+          "Eugênio Andrés Díaz Merino",
+          "Giselle Schmidt Alves Díaz Merino"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "As indústrias de confecção de vestuário representam um setor importante da economia no Brasil. Em 2012, o país foi classificado como a quarta maior potência na atividade industrial de confecção de vestuário e acessórios do mundo. O estado de Santa Catarina se destaca no setor, principalmente, pela Região do Vale do Itajaí, sendo descrita como um dos polos têxteis e confeccionistas mais avançados do país. Uma das atividades que faz parte do processo produtivo de confecção é a de modelagem que, dependendo da empresa pode ser realizada internamente ou, de forma externa em escritórios (bureaux) de modelagem. Neste caso, foi analisada a atividade realizada em um escritório de modelagem com o objetivo de identificar as exigências físicas associadas a atividade, como forma de gerar um diagnóstico e propor medidas de melhoria. Para esta finalidade o estudo foi dividido em duas etapas, sendo uma de cunho teórico que buscou levantar uma base teórica sobre o assunto e outra de cunho aplicado, caracterizando-se como estudo de caso em um escritório de modelagem, localizado na cidade de Gaspar/SC, se utilizando de observações, visitas in loco, entrevistas e a aplicação do Questionário Nórdico. Como resultado foi possível evidenciar que a literatura apresenta limitados estudos focando esta atividade, e em específico o estudo de caso acusou problemas no ambiente de trabalho, como por exemplo: mobiliário inadequado, espaço reduzido, exigências de atingimento de metas, em se tratando de uma atividade autônoma, reflexos diretos na saúde física com queixas de dores e desconfortos em várias partes do corpo, principalmente na região cervical e membros superiores, os quais se associam diretamente às posturas adotadas, exigidas pela atividade e condicionadas pelo mobiliário. Outros aspectos que não faziam parte do estudo ficaram evidentes, como por exemplo, as exigências cognitivas advindas da pressão do trabalho.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/modapalavra/article/download/6881/5634",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W2468553404",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "O desenho técnico do vestuário sob a ótica do modelista",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2011v2n2p43",
+        "doi": "10.5433/2236-2207.2011v2n2p43",
+        "year": 2011,
+        "authors": [
+          "Celso Tetsuro Suono"
+        ],
+        "venue": "Projetica",
+        "abstract": "The proposal in this research is to verify the validity of principles and bases concerned with the technical drawing of clothes among the professionals of the patternmaking area from higher education and clothing industries. The corpus of this study consists of professionals who work as professors and modelists in the cities of Londrina and Maringá, North of Paraná. This is a qualitative research with an exploratory character, describing the subjects’opinions. It presents the findings inductively, crossing and comparing data simultaneously from the two groups. As a further step, this study raises the main issued to be discussed according to the variables pointed out and, finally, it brings meaningful conclusions to this investigation.",
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W2049752085",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Contribuição da ergonomia e antropometria no design do vestuário para crianças com deficiência física",
+        "source": "openalex",
+        "url": "https://doi.org/10.23972/det2014iss08pp1-10",
+        "doi": "10.23972/det2014iss08pp1-10",
+        "year": 2014,
+        "authors": [
+          "Bruna Brogin",
+          "Eugênio Andrés Díaz Merino",
+          "Vilson João Batista"
+        ],
+        "venue": "Design e Tecnologia",
+        "abstract": "A partir da observação de leis que promovem inclusão escolar de crianças com deficiência e garantem a entrega anual de dois pares de uniformes a elas, este artigo propõe-se a identificar aspectos centrais a serem observados durante a metodologia de produção de uniformes para crianças deficientes físicas, diferenças que contemplem a ergonomia física e a antropometria. Segundo a ergonomia física, designers de moda e modelistas devem analisar a criança em suas capacidades neuromusculares, coluna vertebral, metabolismo, visão, tato e senso sinestésico. Quanto à antropometria, deve ser realizada a medição antropométrica da criança, suas capacidades biomecânicas, suas demandas pessoais, o contexto em que esta inserida, as tecnologias assisitivas de que faz uso. Deve ainda fazer a medição e análise de pontos e eixos gravitacionais do corpo, seu biótipo, eixos articulares, movimentos de flexão/ extensão, adução/ abdução, flexão lateral, rotação e inclinação, a fim de produzir um vestuário eficiente. Os autores sugerem que deve haver uma revisão na forma de produção do uniforme para crianças com deficiência, a fim de contemplar a ergonomia e antropometria com maior abrangência na metodologia de produção de produtos do vestuário.",
+        "pdf_url": "https://www.ufrgs.br/det/index.php/det/article/download/210/130",
+        "citation_count": 20,
+        "work_type": "article",
+        "identifier": "W1506474804",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Ergonomia Aplicada ao Projeto do Produto: O Ponto de Vista de Designers do Vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.15675/gepros.v14i2.2211",
+        "doi": "10.15675/gepros.v14i2.2211",
+        "year": 2019,
+        "authors": [
+          "Crislaine Gruber",
+          "Lizandra Garcia Lupi Vergara"
+        ],
+        "venue": "GEPROS. Gestão da Produção, Operações e Sistemas",
+        "abstract": "Este trabalho tem o objetivo de investigar a aplicação da ergonomia no processo de desenvolvimento de produtos do vestuário, do ponto de vista dos designers. Para isso, foram realizadas entrevistas semiestruturadas com 19 designers. As entrevistas foram gravadas e transcritas para realização de análise de conteúdo, baseada em três categorias: conceito de ergonomia; abordagem da ergonomia na formação acadêmica e na vivência profissional; aplicação da ergonomia no desenvolvimento de produtos. Foi constatado que a maioria dos participantes compreende o conceito de ergonomia e considera que ela é aplicada no processo de desenvolvimento de produtos do vestuário, contudo essa aplicação dá-se de forma intuitiva. Além disso, os participantes entendem que a aplicação da ergonomia e a obtenção de dados antropométricos dos usuários são atividades desenvolvidas apenas pelos modelistas. Acredita-se que é necessário abordar a ergonomia na formação profissional dos designers do vestuário, a fim de tornar essa aplicação sistemática e efetiva, afetando a satisfação dos usuários de forma positiva e, consequentemente, aumentando a competitividade das empresas.",
+        "pdf_url": "https://revista.feb.unesp.br/index.php/gepros/article/download/2211/pdf",
+        "citation_count": 19,
+        "work_type": "article",
+        "identifier": "W2964717479",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Ergonomia, moda e vestuário: uma análise sistemática de artigos publicados em periódicos brasileiros",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1982615x15372022010",
+        "doi": "10.5965/1982615x15372022010",
+        "year": 2022,
+        "authors": [
+          "Glauber Soares",
+          "Fabiano Eloy Atílio Batista",
+          "Cláudia Schemes"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "O campo do vestuário e da moda é atravessado por diversas áreas, entre estas, destaca-se a ergonomia. Este estudo foi realizado com o objetivo principal de mapear e analisar de que forma o conceito de ergonomia vem sendo utilizado em pesquisas na área do design de moda e vestuário em periódicos do Brasil, utilizando o escopo de seis revistas compreendidas como de grande relevância para tais áreas, sendo estas: Modapalavra e-periódico; dObra[s]; Achiote.com - Revista Eletrônica de Moda; Revista de Ensino em Artes, Moda e Design; Projética; e Educação Gráfica. Em termos metodológicos, trata-se de uma pesquisa descritiva-exploratória, de natureza quantitativa-qualitativa, efetivada através de uma análise sistemática de bibliografia. Em relação aos principais resultados, foram analisados 23 trabalhos chegando-se ao entendimento central de que a maioria destes artigos possuíam como objetivação a solução de problemas relacionados ao vestuário através do desenvolvimento de produtos ergonômicos, salientando a importância do designer de moda entender o conceito de ergonomia e aplicá-lo na cadeia produtiva de forma eficaz. Enquanto resultados gerais, destaca-se a importância do estudo e aplicação da ergonomia no vestuário para que sejam otimizadas as necessidades humanas cotidianas.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/modapalavra/article/download/21753/14550",
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "W4285804049",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Modelagem no design do vestuário",
+        "source": "openalex",
+        "url": "https://dspace.palermo.edu/ojs/index.php/actas/article/view/2781",
+        "doi": "10.18682/add.vi9.2781",
+        "year": 2020,
+        "authors": [
+          "Walkiria Guedes De Souza"
+        ],
+        "venue": "Actas de Diseño",
+        "abstract": "A indústria de confecção do vestuário, atende a uma necessidade básica do ser humano, o vestir. Inserida na cadeia têxtil, cujas etapas industriais vão desde o beneficiamento das fibras até a confecção de peças prontas para o uso, a confecção é a última atividade industrial antes da comercialização. Ela produz, em escala industrial, a transformação de tecidos planos ou malhas em peças do vestuário.",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/actas/article/download/2781/4642",
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "W7216037875",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Modelagem Plana Industrial do Vestuário: diretrizes para a indústria do vestuário e o ensino-aprendizado",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2010v1n1p82",
+        "doi": "10.5433/2236-2207.2010v1n1p82",
+        "year": 2010,
+        "authors": [
+          "Marizilda dos Santos Menezes",
+          "Patrícia Aparecida de Almeida Spaine"
+        ],
+        "venue": "Projetica",
+        "abstract": "The work shows the importance of process modeling in industrial flat field fashion design. This was achieved by a qualitative study identifying vision of modelers, students and teachers about this stage of development and production clothing product in the regional center of Londrina - PR. This research allowed the development of methodological guidelines for the teaching and preparation Modeling Industrial flat clothing.",
+        "pdf_url": "https://ojs.uel.br/revistas/uel/index.php/projetica/article/download/7737/6858",
+        "citation_count": 41,
+        "work_type": "article",
+        "identifier": "W1967048349",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A compilação da ferramenta CAD com o método Zero Waste para melhor aproveitamento tecidos na confecção de vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/ped2022-8949310",
+        "doi": "10.5151/ped2022-8949310",
+        "year": 2022,
+        "authors": [
+          "Maria Fernanda Sornas Viggiani",
+          "Marizilda dos Santos Menezes",
+          "Mônica Cristina De Moura"
+        ],
+        "venue": null,
+        "abstract": "O artigo tem como objetivo estudar o método zero waste (zero resíduos) aplicado no design de moda e verificar a utilização deste método através da ferramenta CAD. Para abordar a temática foi realizada uma análise sobre a geração de resíduos têxteis e seus impactos ao meio ambiente; discorreu-se sobre dados históricos do método zero waste no setor da moda e métodos utilizados por designers na contemporaneidade. Por fim, analisou-se como a ferramenta CAD junto ao método zero waste facilitaria o processo de produção melhorando o aproveitamento de tecidos. O presente trabalho utilizou a metodologia elencada em pesquisas bibliográficas por meio de artigos científicos, dissertações e livros internacionais. Com base nesse estudo, pode-se verificar que a ferramenta CAD auxiliaria na produção de produtos zero waste, proporcionando total redução de resíduos têxteis, no entanto, este método ainda carece de estudos quanto à gradação para produção em larga escala.",
+        "pdf_url": "http://pdf.blucher.com.br/designproceedings/ped2022/8949310.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4319313731",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Práticas Cotidianas de Gerenciamento de Resíduos Sólidos na Indústria da Confecção de Vestuário no Município de Maringá, Paraná",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/9786555502671-17",
+        "doi": "10.5151/9786555502671-17",
+        "year": 2022,
+        "authors": [
+          "Paula Piva Linke",
+          "Sílvia Helena Zanirato"
+        ],
+        "venue": "Editora Blucher eBooks",
+        "abstract": "O texto se refere a uma sínteseda tese de Doutorado defendida no PROCAM, que buscou entender como empresas daconfecção de vestuário lidam com os resíduos resultantes do processo deprodução. Para tanto, voltou-se para o processo produtivo da confecção dovestuário em três empresas selecionadas; a partir dessa seleção, foramanalisadas a geração de resíduos, as normativas legais que se aplicam aogerenciamento de resíduos nas empresas e as posições dos sujeitos que lidamcotidianamente com esse tipo de produção. Como fundamentação teórica, foramprecisos os conceitos de meio ambiente, desenvolvimento, desenvolvimentosustentável e moda. Além disso, com o intuito de apreender as práticascotidianas dos sujeitos envolvidos com a produção do vestuário em relação aosresíduos, foram considerados entendimentos a respeito dos conceitos de habituse representação social. A metodologia de abordagem foi qualitativa, maisespecificamente de estudo de casos múltiplos e análise de entrevistas semiestruturadas,aplicadas aos sujeitos sociais envolvidos com a produção e o gerenciamento dosresíduos. Ao final do processo, constatou-se que, ainda que as normativasnacional e local orientem o gerenciamento dos resíduos de forma a minimizar suaprodução, ainda persistem formas de produzir que não só geram perdassignificativas na indústria da confecção, como há destinação nem sempre corretados resíduos gerados. Considerou-se que tais ações são decorrentes dos limitesda aplicação da normativa e da não assimilação pelas empresas das normasrecomendadas nas leis nacionais e municipais no sentido da não geração deresíduos.",
+        "pdf_url": "https://openaccess.blucher.com.br/download-pdf/576/23473",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4288780799",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Modelagem básica do vestuário feminino",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/9788583021070",
+        "doi": "10.5965/9788583021070",
+        "year": 2017,
+        "authors": [
+          "Silveira, Icleia",
+          "Rosa, Lucas Da",
+          "Lopes, Luciana Dornbusch"
+        ],
+        "venue": "Editora Udesc eBooks",
+        "abstract": "O e-book apresenta inicialmente conhecimentos teóricos, fundamentais ao traçado dos diagramas básicos e na obtenção da qualidade do projeto produto de vestuário. Destacam-se, os conhecimentos anatômicos, tendo em vista a funcionalidade, usabilidade, bem como as qualidades estéticas, ergonômicas e antropométricas do produto. Abordam-se os paramctros medidas do corpo para a execução do diagrama básico do corpo humano e do vestuário, bem como as regras para o traçado da base do corpo feminino Para o traçado dos Diagramas Básicos do Corpo Feminino (corpo, mangas, calça, ete) ntilizam-se ordens de execução e cálculos, que trazem o detalhamento de cada etapa que está sendo realizada. A explicação de cada procedimento, descrita de modo sequencial é apoiada em letras e números. O traçado pode ser observado no desenho gráfico (escala 1:2 ou 1:5) de cada diagrama, disponibilizado juntamente com a sua ordem de execução.",
+        "pdf_url": "https://repositorio.udesc.br/bitstreams/5e75fa4a-674f-4ff3-aa7b-32d5f7e52e99/download",
+        "citation_count": 8,
+        "work_type": "book",
+        "identifier": "W4409075733",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Uma reflexão sobre modelagem e ergonomia considerando a forma do corpo gordo feminino.",
+        "source": "openalex",
+        "url": "https://doi.org/10.29327/5457226.1-154",
+        "doi": "10.29327/5457226.1-154",
+        "year": 2024,
+        "authors": [
+          "Bárbara Valle Poci",
+          "Claudia Renata Mont'Alvão",
+          "Manuela Quaresma"
+        ],
+        "venue": "Congresso Brasileiro de Pesquisa e Desenvolvimento em Design (P&D Design)",
+        "abstract": "Este artigo traz uma reflexão sobre a aplicação da ergonomia no desenvolvimento do produto do vestuário voltado para o corpo gordo feminino. Contextualiza-se a evolução do vestuário ao longo das décadas, apontando as diferentes nuances no modo de vestir, chegando até o século XXI onde marcas de produtos de moda começam a preocupar-se com a representatividade do corpo gordo feminino. A modelagem é entendida como uma etapa crucial dentro deste processo de design para a adequação das questões ergonômicas em relação ao produto de vestuário, e, dentro deste contexto, apresenta-se a relação da ergonomia com a antropometria, onde as formas e dimensões do corpo gordo feminino são contempladas, entendendo suas necessidades com relação a conforto e mobilidade. Palavras-chave: moda; conforto; usabilidade.",
+        "pdf_url": "https://periodicos.ufam.edu.br/index.php/cadernoppgd/article/download/16615/10161",
+        "citation_count": 3,
+        "work_type": "other",
+        "identifier": "W4405309734",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "A tecnologia nos processos de desenvolvimento de produto e na produção das micro e pequenas empresas de confecção do vestuário de Porto Alegre - RS e Sombrio - SC",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/36048",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Paula Rodrigues Bittencourt"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "O objetivo deste trabalho foi abordar a inserção da tecnologia nos processos de desenvolvimento de produto e na produção das micro e pequenas empresas de confecção de Porto Alegre – RS e Sombrio - SC. O software CAD/CAM que permite economizar tempo e reduzir os custos de produção e desenvolvimento de produto, reduzindo o número de protótipos físicos e facilitando o encaixe. Sobretudo, o presente trabalho visa analisar como as micro empresas inserem a tecnologia em seus processos. O uso do sistema CAD (Desenho Assistido por computador) é uma tecnologia em que a computação suporta quase todas as áreas da confecção: design e criação, design têxtil, modelagem, ampliação, encaixe e risco, ficha técnica, cálculo de custos industriais, ordem de corte e gestão da produção. A evolução da tecnologia para a indústria do vestuário representa um fator significativo, possibilitando mudanças radicais que podem reduzir o tempo de fabricação do produto, acelerando e aperfeiçoando os processos. O estudo de caso englobou três micro empresas e uma pequena empresa de confecção do vestuário de Porto Alegre – RS e Sombrio - SC cuja análise dos dados qualitativos resultou em sugestões de melhorias para cada empresa estudadas.",
+        "pdf_url": null,
+        "citation_count": 5,
+        "work_type": "thesis",
+        "identifier": "W2199212968",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "O Private Label e Seu Estímulo à Cópia na Indústria de Confecção de Vestuário: uma reflexão a partir de um estudo de caso",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2010v1n1p68",
+        "doi": "10.5433/2236-2207.2010v1n1p68",
+        "year": 2010,
+        "authors": [
+          "Lucimar de Fátima Bilmaia Emídio",
+          "Maria Lívia Sabioni"
+        ],
+        "venue": "Projetica",
+        "abstract": "The current work aims to approach the influence of the business model known as Private Label on triggering copy habits inside the Fashion Industry, establishing grounds for reflection over a study case developed upon a working experience on a company whose methods can be equaled to those aforementioned. The author describes actions commonly observed on industries that use copying as their main tool on product development and the incitement major labels offer on this form of production, later submitting this findings to critical analysis based on subject-related literature.",
+        "pdf_url": null,
+        "citation_count": 7,
+        "work_type": "article",
+        "identifier": "W2050495165",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Modelagem ergonômica e antropométrica: valorizando o design de vestuário desportivo de PCNEMs",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1822/37004",
+        "doi": null,
+        "year": 2013,
+        "authors": [
+          "Michelle Silva Araújo",
+          "Miguel A. F. Carvalho"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "Este artigo resultado da pesquisa realizada com uma equipa de jogadores de basquetebol em cadeira de rodas da Associação Portuguesa de Deficientes – APD – Delegação Distrital de Braga- Portugal, investigou o design ideal de vestuário para desportistas cadeirantes. O trabalho apresenta a importância da utilização da ergonomia e antropometria no design da modelagem do vestuário para pessoas com necessidades especiais motoras - PCNEMs.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W1462646853",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Reflexões sobre o processo de criação de vestuário de moda",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.37780/ch.v24i2.4326",
+        "doi": "10.37780/ch.v24i2.4326",
+        "year": 2023,
+        "authors": [
+          "Almery Junior Ruviaro",
+          "Taís Steffenello Ghisleni",
+          "Elsbeth Léia Spode Becker"
+        ],
+        "venue": "Disciplinarum Scientia | Ciências Humanas",
+        "abstract": "Este artigo propõe uma reflexão sobre a relevância da ergonomia, antropometria e modelagem no desenvolvimento de projetos de design aplicados ao vestuário de moda. A metodologia adotada é exploratória, baseada em uma revisão bibliográfica abrangente. No decorrer do texto, destacam-se aspectos cruciais como conforto, segurança e usabilidade, oferecendo uma breve abordagem sobre as perspectivas de autores que enfatizam a compreensão da ergonomia aplicada ao vestuário de moda, a antropometria no design do vestuário e a modelagem como um capital ergonômico fundamental para o vestuário de moda. A análise revela a importância da aplicação de estudos ergonômicos e antropométricos em conjunto com técnicas de modelagem durante a concepção de produtos de vestuário. Essa abordagem resulta em impactos positivos diretos nas peças produzidas, garantindo qualidades essenciais como conforto físico e psicológico, segurança e usabilidade, elementos cruciais para a experiência do usuário ao vestir as peças ao longo de sua trajetória.",
+        "pdf_url": "https://periodicos.ufn.edu.br/index.php/disciplinarumCH/article/download/4326/3238",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4390516569",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A interdisciplinaridade no ensino da modelagem do vestuário",
+        "source": "openalex",
+        "url": "https://repositorio.unesp.br/handle/11449/153310",
+        "doi": null,
+        "year": 2018,
+        "authors": [
+          "Débora Mizubuti Brito"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W2795663509",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "closed"
+        }
+      },
+      {
+        "title": "Diretrizes para o ensino de modelagem do vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2013.tde-19022014-213611",
+        "doi": "10.11606/d.100.2013.tde-19022014-213611",
+        "year": 2013,
+        "authors": [
+          "Danielle Paganini Beduschi"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This research discusses historical analysis of methodologies for pattern making teaching and proposes the development of guidelines for teaching. The study presents a historical survey about the various techniques and methods used since the 1960s, making a balance between method and socio-cultural period in order to search for techniques to facilitate the learning process under discussion. The analysis of the main pattern making techniques used over time, the curricula of leading Fashion Graduation programs, and the research with professional educators, will provide a broad overview of what can be used to optimize the learning process and what should be discarded for not favoring a faster and better training. After the study in question, this project proposes a set of guidelines that encourage the transformation of the student in a qualified professional to act in Pattern making clothing.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-19022014-213611/publico/DanielleBeduschirevisaoOutubro.pdf",
+        "citation_count": 16,
+        "work_type": "thesis",
+        "identifier": "W2163966604",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Produto de moda: modelagem industrial com aspectos do design e da ergonomia",
+        "source": "openalex",
+        "url": "https://dspace.palermo.edu/ojs/index.php/actas/article/view/3309",
+        "doi": "10.18682/add.vi3.3309",
+        "year": 2020,
+        "authors": [
+          "Maria de Jesus Farias Medeiros"
+        ],
+        "venue": "Actas de Diseño",
+        "abstract": "O presente artigo enfatiza a importância da modelagem industrial, elemento da engrenagem de produção de roupas. Com enfoque bibliográfico sinaliza a importância de utilizar princípios científicos, informação, técnica, design e criatividade no desenvolvimento de produto de moda do vestuário, vislumbrando ocupar melhor posicionamento no mercado.",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/actas/article/download/3309/3582",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W7216407455",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Proposta de vestuário para indivíduos idosos com mobilidade reduzida",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1982615x18452025e0009",
+        "doi": "10.5965/1982615x18452025e0009",
+        "year": 2025,
+        "authors": [
+          "Thomás Czrnhak",
+          "Regina de Oliveira Heidrich",
+          "Bárbara Gisele Koch"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "O design para necessidades específicas requer estudos antropométricos personalizados que compreendam o usuário final, se conectando à ergonomia física, a qual corresponde ao estudo da adaptação do ambiente ao indivíduo, englobando questões de conforto, esforço, bem-estar e atividade motora. Assim, o presente estudo toma por objetivo relatar uma proposta de confecção de uma peça de vestuário adaptada para indivíduos com mobilidade reduzida, coligando o fenômeno da inclusão social com o design inclusivo e a moda. Para o desenvolvimento do artigo, foi realizada uma revisão bibliográfica de moda inclusiva, mormente de artefatos para deficiências de natureza motora. Foi executado um estudo de caso com uma PCD deste grupo. A metodologia projetual utilizada foi o Inclusive Design Toolkit, do Engineering Design Centre (2017).Para a realização da proposta, foram projetados, via software, croquis, representando a peça a ser confeccionada, com auxílio de modelagem digital. Conforme resposta da usuária, a peça não restringiu seus alcances, permitindo maior mobilidade de membros superiores, e facilitou o ato de vestir e despir. A compreensão de atividades rotineiras e de necessidades da usuária sobre o objeto roupa, partindo do estilo imaterial à escolha tangível e têxtil da peça, foi fundamental para entregar um resultado ajustado às necessidades específicas da usuária e que fosse de seu agrado. As propriedades térmicas do tecido e a vestibilidade agradaram à usuária, contudo, testes a médio prazo são necessários",
+        "pdf_url": "https://www.periodicos.udesc.br/index.php/modapalavra/article/download/25306/18656",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4411134867",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Interdisciplinaridade nas disciplinas de Ergonomia e Inclusão e Modelagem e Costura: Necessidades Específicas",
+        "source": "openalex",
+        "url": "https://doi.org/10.26563/dobras.i42.1848",
+        "doi": "10.26563/dobras.i42.1848",
+        "year": 2024,
+        "authors": [
+          "Bárbara Gisele Koch",
+          "Regina de Oliveira Heidrich"
+        ],
+        "venue": "dObra[s] – revista da Associação Brasileira de Estudos de Pesquisas em Moda",
+        "abstract": "Este artigo apresenta um relato de experiência que vem acontecendo no curso de Moda, com as disciplinas de Ergonomia e Inclusão e Modelagem e Costura: Necessida- des Específicas. O trabalho interdisciplinar tem obtido resultados relevantes e uma cons- ciência da importância de unir de forma fluida as disciplinas envolvidas no curso. Com isto, apresenta-se o relato de experiência de vestuário para gestante. A metodologia utili- zada no artigo é um relato de experiência, pois se trata de uma vivência acadêmica e/ou profissional em um dos pilares da formação universitária (ensino, pesquisa e extensão), cuja característica principal é a descrição da intervenção. Ao final, destacamos aqui a im- portância da interdisciplinaridade como catalisadora de inovação e inclusão ao apresen- tar projetos para um nicho de mercado invisibilizado pela mídia, tanto com necessidades específicas temporárias quanto deficiências permanentes. Além disso, com o processo de aumento de vida de pessoas idosas, esse nicho aumentará progressivamente.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4404913589",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      }
+    ]
+  },
+  "count": 20,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T01:59:21.643074+00:00"
+}

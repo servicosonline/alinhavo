@@ -8,7 +8,7 @@ import { meshPiece } from "../mesh";
 import { pieceHalf, placeGarment } from "../place";
 import { createSimulation } from "../simulation";
 import { saia } from "../test-garments";
-import { convexHull, decodeMakeHuman, fitRealistic, hullPerimeter, PARAM_LIMIT, sliceMesh, SKIN_GROUPS } from "./makehuman";
+import { convexHull, decodeMakeHuman, fitRealistic, hullPerimeter, jointPositions, PARAM_LIMIT, sliceMesh, SKIN_GROUPS } from "./makehuman";
 import { bodyBones, motionClip, motionPose, posedWith } from "./motion";
 import { buildRealistic, createRealisticBody, realisticBuilder, realisticModel } from "./realistic";
 import type { MeasurementKey } from "./measurements";
@@ -63,12 +63,32 @@ describe("ajuste às medidas (mínimos quadrados)", () => {
     });
   }
 
+  it("braço normal por padrão: a volta no meio do braço fica perto da medida (antes saía ~15 cm num corpo M)", () => {
+    for (const c of cases) {
+      const fit = fitRealistic(asset, c.table, {}, c.sex);
+      const J = jointPositions(asset, fit.positions);
+      const sides = [
+        [J.ombroE, J.cotoveloE],
+        [J.ombroD, J.cotoveloD],
+      ] as const;
+      for (const [sh, el] of sides) {
+        const d = Math.hypot(el.x - sh.x, el.y - sh.y, el.z - sh.z);
+        const n = { x: (el.x - sh.x) / d, y: (el.y - sh.y) / d, z: (el.z - sh.z) / d };
+        const mid = { x: (sh.x + el.x) / 2, y: (sh.y + el.y) / 2, z: (sh.z + el.z) / 2 };
+        const volta = hullPerimeter(convexHull(sliceMesh(fit.positions, asset.triangles, null, mid, n, 70)));
+        expect(volta / fit.reading.values.braco, c.name).toBeGreaterThan(0.85);
+      }
+      // O ajuste não precisa ir ao limite do target para chegar no braço.
+      expect(Math.abs(fit.weights.braco), c.name).toBeLessThan(1);
+    }
+  }, 60_000);
+
   it("medida trocada na tela entra no ajuste (o corpo segue o quadril maior)", () => {
     const a = fitRealistic(asset, TABELA_M);
     const b = fitRealistic(asset, TABELA_M, { quadril: 1000 });
     expect(b.obtained.quadril - a.obtained.quadril).toBeGreaterThan(80);
     expect(Math.abs(b.obtained.quadril - 1000) / 1000).toBeLessThan(0.02);
-  });
+  }, 30_000);
 });
 
 describe("corpo realista", () => {

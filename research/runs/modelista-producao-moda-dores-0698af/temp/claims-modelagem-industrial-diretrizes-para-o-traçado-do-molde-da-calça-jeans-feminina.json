@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "A ausência de referências bibliográficas nacionais e de formação técnica formal sobre o traçado do diagrama da calça jeans feminina leva as confecções brasileiras a operarem de modo empírico, resultando em falhas de vestibilidade e retrabalho.",
+    "stance": "supports",
+    "stance_target": "Formação empírica de chão de fábrica e falta de padronização na modelagem de calça jeans feminina no Brasil",
+    "evidence_type": "empirical",
+    "scope_conditions": "Indústria brasileira de confecção de jeanswear feminino",
+    "quoted_support": "Há, ainda, outra que passa despercebida, que é a inexistência de registros bibliográficos nacionais, que mapeiem e orientem, quanto ao desenvolvimento do diagrama de peças em jeans, sobretudo a calça feminina.",
+    "numbers": [],
+    "entities": ["Roberto Dias", "EACH-USP"],
+    "time_period": "2015",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "modelagem-industrial-diretrizes-para-o-traçado-do-molde-da-calça-jeans-feminina"
+  },
+  {
+    "claim": "O desenvolvimento do molde da calça jeans feminina exige compensação prévia da porcentagem de encolhimento sofrida pelo denim nos processos físicos e químicos de lavanderia industrial, tanto no sentido do urdume quanto da trama.",
+    "stance": "supports",
+    "stance_target": "Impacto do encolhimento em lavanderia industrial sobre a engenharia do molde de calça jeans",
+    "evidence_type": "empirical",
+    "scope_conditions": "Modelagem industrial de calça jeans feminina submetida a beneficiamento em lavanderia",
+    "quoted_support": "O ideal é de posse da porcentagem de encolhimento dos tecidos, sofrida na ação da lavagem, desenvolva-se um número de moldes base, que possam originar muitos modelos, durante várias estações.",
+    "numbers": [],
+    "entities": ["Roberto Dias", "EACH-USP"],
+    "time_period": "2015",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "modelagem-industrial-diretrizes-para-o-traçado-do-molde-da-calça-jeans-feminina"
+  },
+  {
+    "claim": "A cópia direta de peças prontas do mercado (engenharia reversa sem diagrama) falha no segmento de jeanswear porque a peça copiada já sofreu deformações irreversíveis na costura, lavagem e manuseio.",
+    "stance": "supports",
+    "stance_target": "Distorções dimensionais causadas pela cópia de peças prontas em vez de construção de diagrama técnico",
+    "evidence_type": "empirical",
+    "scope_conditions": "Confecções brasileiras de jeanswear",
+    "quoted_support": "Isso não acontece, primeiro, porque o ‘copiador’ não conhece a sequência da construção daquele molde, e também, porque o modelo copiado já sofreu tantas transformações significativas na costura, na lavagem, no manuseio, etc, que, dificilmente, se obterá uma calça semelhante à copiada.",
+    "numbers": [],
+    "entities": ["Roberto Dias", "EACH-USP"],
+    "time_period": "2015",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "modelagem-industrial-diretrizes-para-o-traçado-do-molde-da-calça-jeans-feminina"
+  }
+]

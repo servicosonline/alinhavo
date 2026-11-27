@@ -59,8 +59,13 @@ export function activityText(action: string, meta: Record<string, unknown>): str
 }
 
 /** Quem fez: o e-mail curto da equipe, "A cliente" (sem conta) ou "Alguém" (pessoa que saiu). */
-export function activityWho(userId: string | null, emails: Map<string, string>): string {
+export type ActivityPerson = { email: string; first_name?: string | null; last_name?: string | null };
+
+/** Quem fez: nome e sobrenome do perfil; sem nome, o começo do e-mail; quem saiu da equipe, "Alguém". */
+export function activityWho(userId: string | null, people: Map<string, ActivityPerson>): string {
   if (!userId) return "A cliente";
-  const email = emails.get(userId);
-  return email ? email.split("@")[0]! : "Alguém";
+  const p = people.get(userId);
+  if (!p) return "Alguém";
+  const name = [p.first_name, p.last_name].map((x) => x?.trim()).filter(Boolean).join(" ");
+  return name || p.email.split("@")[0]!;
 }

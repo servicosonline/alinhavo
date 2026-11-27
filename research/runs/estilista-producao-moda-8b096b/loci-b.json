@@ -1,0 +1,50 @@
+{
+  "analyst_id": "b",
+  "corpus_tag": "estilista-producao-moda-8b096b",
+  "loci": [
+    {
+      "name": "prototipagem-3d-e-ia-generativa-no-fluxo-da-estilista",
+      "one_line": "A adoção de CAD 3D (CLO3D, Browzwear, Audaces 3D) e IA Generativa (Midjourney, Stable Diffusion) resolve os gargalos de tempo e prototipagem da estilista ou cria novas dores de retrabalho técnico, incapacidade de gerar vistas traseiras/moldes e sobrecarga de mão de obra em PMEs?",
+      "flavor": "dialectical",
+      "corpus_evidence": [
+        "unlocking-the-potential-of-artificial-intelligence-in-fashion-design-and-e-comme",
+        "3d-dynamic-fashion-design-development-using-digital-technology-and-its-potential",
+        "fit-models-roles-in-identifying-fit-issues-in-the-apparel-technical-design-proce",
+        "the-intersection-of-fashion-immersive-technology-and-sustainability-a-literature",
+        "ai-tools-and-fashion-design-education-instructor-perspectives-on-student-challen"
+      ],
+      "rationale": "Crucial para avaliar as fronteiras tecnológicas atuais do trabalho da estilista, separando o hype de velocidade na geração de imagens conceituais das severas limitações construtivas (falta de costas, falha na simulação de tecidos moles em movimento e custo operacional em pequenas marcas)."
+    },
+    {
+      "name": "insustentabilidade-criativa-pressao-comercial-e-bloqueio-sustentavel",
+      "one_line": "Como a subordinação ao veto comercial, a compressão de calendários, a responsabilização solitária pelo sucesso de vendas e o bloqueio orçamentário a matérias-primas sustentáveis geram esgotamento ('insustentabilidade criativa') e limitam a autonomia projetual da estilista?",
+      "flavor": "dialectical",
+      "corpus_evidence": [
+        "estilista-ou-autor-o-percurso-das-figuras-criadoras-no-sistema-da-moda-dapesquis",
+        "matriz-de-aderência-conceitual-como-instrumento-de-apoio-à-autonomia-criativa-em",
+        "universidade-de-são-paulo-4",
+        "universidade-de-são-paulo",
+        "marisa-beatriz-poletto-jordan"
+      ],
+      "rationale": "Aborda as dores cognitivas, organizacionais e éticas da estilista: o conflito entre formação criativa/sustentável e a realidade de cópia comercial, restrição de target price e abandono de metodologias de pesquisa por falta de tempo."
+    },
+    {
+      "name": "interfaces-tecnicas-modelagem-pilotagem-encaixe-faccoes",
+      "one_line": "Como ocorrem as falhas de tradução bidimensional-tridimensional entre estilista, modelista, pilotista e facção, e quais parâmetros técnicos (caimento, encolhimento, largura de rolo, variantes de cor) determinam o retrabalho ou descarte de peças?",
+      "flavor": "technical",
+      "corpus_evidence": [
+        "fit-models-roles-in-identifying-fit-issues-in-the-apparel-technical-design-proce",
+        "universidade-de-são-paulo-8",
+        "universidade-de-são-paulo-5",
+        "marisa-beatriz-poletto-jordan"
+      ],
+      "rationale": "Essencial para detalhar a mecânica operacional das interfaces da estilista com o chão de fábrica e fornecedores."
+    }
+  ],
+  "skip_loci": [
+    {
+      "topic": "design-para-metaverso-nfts-zimbabue",
+      "reason": "Artigos focados exclusivamente em ativos virtuais/NFTs para metaverso têm baixa aderência à realidade produtiva física das confecções brasileiras."
+    }
+  ]
+}

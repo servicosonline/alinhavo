@@ -1,0 +1,1030 @@
+{
+  "ok": true,
+  "data": {
+    "query": "fashion designer role responsibilities garment production process challenges",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 25,
+      "crossref": 25,
+      "doab": 0
+    },
+    "raw_records": 50,
+    "merged_records": 50,
+    "returned": 50,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Digital 3D Fashion Designers: Cases of Atacac and The Fabricant",
+        "source": "openalex",
+        "url": "https://doi.org/10.1080/1362704x.2021.1981657",
+        "doi": "10.1080/1362704x.2021.1981657",
+        "year": 2021,
+        "authors": [
+          "Natalia Särmäkari"
+        ],
+        "venue": "Fashion Theory",
+        "abstract": "The phenomenon of “digital fashion” has been lately addressed in media as the next significant step in the fashion industry. The increasing use of the 3D-software in fashion design processes is part of a wider “fashion 4.0” digitalization process. This article frames the phenomenon of digital fashion and presents an in-depth case study research on two pioneering companies in this area, Atacac and The Fabricant. How and why are they building their fashion design practice on digital 3D-design? How are these companies redefining the fashion design culture and the fashion designer? Drawing from sociology of professions, this article proposes that digital fashion is an emerging subfield within the field of fashion design, differentiating itself from the professional conventions and building new strategies of jurisdiction and legitimation. Driven by sociotechnical affordances and elevation of professional pride through ethical, conceptual, artistic and skill differentiation, digital fashion designer becomes also a digital artisan. In the increasingly virtual, or “phygital” space and a networked synergetic community of digital fashion, the professional, authorial, bodily and material boundaries of designers become fluid, transforming the traditional figure of fashion designer.",
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/1362704X.2021.1981657?needAccess=true",
+        "citation_count": 163,
+        "work_type": "article",
+        "identifier": "W3205697275",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Fashion's Influence on Garment Mass Production : Knowledge, Commodities and the Capture of Value",
+        "source": "openalex",
+        "url": "https://vuir.vu.edu.au/340/",
+        "doi": null,
+        "year": 2004,
+        "authors": [
+          "Sally Weller"
+        ],
+        "venue": "Victoria University Research Repository (Victoria University)",
+        "abstract": "In affluent communities, it is difficult to think about clothing without considering issues of fashion. Yet, in analyses of the garment industries, fashion is rarely considered in detail, and is certainly not analysed as a structuring force over the configuration of garment production industries. Yet through fashion, garments as commodities are complexly embedded in social and cultural processes and in the specificities of place. Although the structures of the global garment production industries have been the subject of numerous studies from a variety of theoretical perspectives, none hitherto have addressed the influence of fashion on the structures and locations of garment production. This thesis begins with the idea that fashion is a complex and influential form of knowledge. It explores the effects of fashion ideas on the global garment system through a case study of the ideas and commodity flows that bring fashions and garments to the Australian market. It traces the interconnections between global knowledge flows and global commodity flows in a manner attuned to the relationships between knowledge, power, industrial organisation and the capture of surplus value from the production system. The analysis highlights how Australia's position in garment production is framed by its geographical position on the periphery of the fashion world.",
+        "pdf_url": "https://vuir.vu.edu.au/340/1/WELLER%20Sally-thesis.pdf",
+        "citation_count": 22,
+        "work_type": "thesis",
+        "identifier": "W1601703422",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Fashion Designer Behavior Toward Eco-Fashion Design",
+        "source": "openalex",
+        "url": "https://doi.org/10.5614/j.vad.2020.12.1.1",
+        "doi": "10.5614/j.vad.2020.12.1.1",
+        "year": 2020,
+        "authors": [
+          "Marzie Hatef Jalil",
+          "Siti Shukhaila Shaharuddin"
+        ],
+        "venue": "Journal of Visual Art and Design",
+        "abstract": "An important aspect of the future of fashion design is eco-fashion. The first aim of this study was to understand how personal attitude affects fashion designers in pursuing eco-fashion design in their work. Secondly, the designer's behavior toward eco-fashion design was investigated. This study applied the theory of reasoned action (TRA) as the foundation for understanding the designers' behavior. A mixed-method two-stage solution was used. Data were collected through qualitative open-ended questions distributed among eight sustainable fashion designers and 98 fashion designers who were selected as the research subjects for a survey. Direct logistic regression and MANOVA were applied for statistical analysis. The model was tested via structural equation modeling (PLS-SEM). The most important ﬁndings of the research were that a positive attitude toward eco-fashion design could predict the designer's intention toward sustainability better than social norms. Further, the participants confirmed that environmental knowledge, perceived quality and price, perceived functional and aesthetic values, and the perceived usefulness of technology in the application of eco-fashion materials affected their attitude towards eco-fashion design. Furthermore, corresponding policies are proposed to facilitate clothing waste minimization in design through the use of eco-fashion materials, which could gain widespread attention and become a new trend in fashion.",
+        "pdf_url": "https://journals.itb.ac.id/index.php/jvad/article/download/11964/4640",
+        "citation_count": 35,
+        "work_type": "article",
+        "identifier": "W3039177407",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "The role of fashion designer in cultivation of environmental ethics in consumers through fashion collections",
+        "source": "openalex",
+        "url": "https://aaltodoc.aalto.fi/handle/123456789/41416",
+        "doi": null,
+        "year": 2019,
+        "authors": [
+          "Nina Senskaia"
+        ],
+        "venue": "Aaltodoc (Aalto University)",
+        "abstract": "This thesis presents a research about fashion designer’s engagement into the consumer perception of sustainable fashion, possibility to influence the consumer behaviour through fashion collections only and a potential to cultivate environmental ethics in audience. As sustainability is a relatively new trend in fashion, which is known well by conscious consumers, but still not spread among all other people, who are not familiar with fashion industry problems and negative environmental impacts it causes, it is important to highlight the problems of perception of sustainable fashion in general. Used methods for this research include a group interview conducted during the time of fashion collection creation and a literature overview devoted to the problems of fashion industry, phenomena of sustainable fashion and circularity, psychology of fashion consumption, behaviour of consumers and the role of fashion designer in production of apparel. This study also gives a summary to the activity of sustainable fashion initiatives, brands and institutions operating today and promoting sustainable values. Their work is targeted to the change of the negative perception of sustainable fashion, which is quite strong in our modern society, and support of the shift from conventional fashion towards the sustainable one. This study examines the importance of a fashion designer in changing the fashion industry, the knowledge he/she obtains and actions he/she applies to communicate with the viewers and contribute to ecology. Fashion collection as an art object can be a powerful instrument to spread ideas, and this paper investigates the probability of this, and chances to be heard by people. The paper contains a description of a concept of a fashion collection which is an experiment aimed to provoke thoughts in viewers about ecology. This research could be useful for the fashion designers who are eager to create fashion collections with a goal to influence their audience in order to instill some new ideas and provoke thoughts about existing problems.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W3006020477",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Extended producer responsibility in the garments sector",
+        "source": "openalex",
+        "url": "https://doi.org/10.1787/8ee5adb2-en",
+        "doi": "10.1787/8ee5adb2-en",
+        "year": 2024,
+        "authors": [
+          "Andrew Brown",
+          "Peter Börkey"
+        ],
+        "venue": "OECD environment working papers",
+        "abstract": "Garments generate many environmental impacts. They use chemicals and water, produce greenhouse gas emissions and generate waste. The aim of this working paper is to evaluate the potential for the extended producer responsibility (EPR) approach to help achieve public ambitions for the adoption of circular economy principles in the garments product sector. The paper reviews the environmental impacts of garments, the landscape of current policy and an analysis of the impacts of existing EPR schemes. The limited available experience suggests that EPR improves rates of separate collection of garments. In addition to improving collection and sorting, there is the possibility that EPR can help to reduce environmental impacts generated by the production, use and disposal of garments. This is primarily by changing the economic incentives for producers, consumers and waste managers.",
+        "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/12/extended-producer-responsibility-in-the-garments-sector_3a2dec33/8ee5adb2-en.pdf",
+        "citation_count": 31,
+        "work_type": "report",
+        "identifier": "W4405228905",
+        "extra": {
+          "openalex_type": "report",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Fashion Upcycling: The Fashion Upcycling: The Challenges, Successes, and Solutions From A Designers Perspective",
+        "source": "openalex",
+        "url": "https://doi.org/10.32920/ryerson.14649336",
+        "doi": "10.32920/ryerson.14649336",
+        "year": 2022,
+        "authors": [
+          "Jennifer Dares"
+        ],
+        "venue": null,
+        "abstract": "Upcycling is a design practice that uses pre-consumer textile waste from apparel manufacturers or post-consumer textile waste derived from disassembled garments to create new fashion, providing a sustainable design solution to divert textile waste from landfills. Although Canadian data is scarce, Weber, Lynes and Young (2016) have determined that textile waste in the United States contributed 11.3 million tonnes to landfills in 2009, a 40% increase since 1999. This comparative case study was designed to include a literature review of past academic research, a demographic questionnaire, and interviews with Canadian fashion companies who practice upcycling. The objective of this study was to examine the challenges faced by companies that upcycle and the strategic solutions they integrated into their business models. The findings from this research study contribute to knowledge regarding strategies for designing, producing, and retailing upcycled fashion in Canada and on a global scale.",
+        "pdf_url": "https://rshare.library.torontomu.ca/articles/thesis/Fashion_Upcycling_The_Fashion_Upcycling_The_Challenges_Successes_and_Solutions_From_A_Designers_Perspective/14649336/1/files/28129545.pdf",
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "W3210631018",
+        "extra": {
+          "openalex_type": "other",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Suffering in fashion : relationships between suffering, the production of garments and their appropriation as fashionable items",
+        "source": "openalex",
+        "url": "http://eprints.hud.ac.uk/id/eprint/17485/1/kalmondfinalthesis.pdf",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Kevin Almond"
+        ],
+        "venue": "University of Huddersfield Repository (University of Huddersfield)",
+        "abstract": "In this commentary, I discuss several publications that explored relationships between suffering, the production of garments and their appropriation as fashionable items. The aim of the research was to investigate the role of suffering in initiating change within the creation and consumption of fashionable clothes. Suffering through pain, anguish or distress is an extreme affliction. Pushing something to its limits of endurance, making it suffer, can undermine order and to survive, it needs to be reassembled in a different way. This concept is somewhat akin to Charles Darwin’s ideas about evolution (1859). A quote attributed to him declared: “It’s not the strongest of the species that survive nor the most intelligent, but the one most responsive to change” (Megginson, 1963, p.4). His work coined the phrase “Survival of the fittest” (Peel, 1992, p.143), introducing the idea that survival is a struggle against environmental change in nature and a species evolves through a process of mutation and retention known as natural selection. In the commercial struggle for survival many fashionable styles are discarded while some remain durable due to their adaptability to new trends and ideas. These could be described as the ‘fittest’ styles surviving through their re-assemblance each season, sustaining the marketable cycle. Suffering in the ways clothes are worn and produced was examined through a number of approaches. Object based research investigated the design and manufacture of fashionable garments. Action based research and semi-structured interviews in a design environment considered the fashion designer’s responses to suffering and the changes it can initiate in production and consumption. The research findings indicate that suffering within the fashion industry can be a positive attribute that may be regarded as a part of life, a prerequisite for hope, a force for change and a source of creativity. It can influence the way clothes are produced and the skills necessary to produce them. A model depicting the connection between suffering and fashion is posited as a tentative theory suggesting there is a spiral relationship: changes in fashion production and consumption resulting from suffering evolve into a spiral of further suffering impacting on future fashion design and production.",
+        "pdf_url": "http://eprints.hud.ac.uk/id/eprint/17485/1/kalmondfinalthesis.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W1532833127",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Garments merchandising process, loophole and challenges in a company",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10361/14872",
+        "doi": null,
+        "year": 2020,
+        "authors": [
+          "Jannatul Ferdous"
+        ],
+        "venue": "BRAC University Institutional Repository (BRAC University)",
+        "abstract": "My topic of the report is “Internship report on Garments Merchandising process, loophole and challenges in a company”. The topic I have mentioned totally shows the purpose and jest of the report. Apex Holdings Limited manages their whole textile business and other subsidiary with a systematical process. They have well equipped factory to produce high quality garments to export outside the country. Merchandising is one of the main departments which actually connect with other departments to process the buyer orders and maximize the profit of the company. The work of merchandising starts with buyer sourcing and sample development to get the final order. When finally the order is confirmed, the merchandising team works for process the production and shipment systematically. In this report, most significantly I have focused on the loop hole and challenges of merchandising work which are the main jest of my report.",
+        "pdf_url": "https://dspace.bracu.ac.bd/bitstreams/8017a4fa-be41-4d0a-881b-11201d09c9c3/download",
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "W3217535513",
+        "extra": {
+          "openalex_type": "report",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "The Role of Fashion Forecasting in Guiding Designers and Shaping Consumer Preferences",
+        "source": "openalex",
+        "url": "https://doi.org/10.36948/ijfmr.2026.v08i02.72760",
+        "doi": "10.36948/ijfmr.2026.v08i02.72760",
+        "year": 2026,
+        "authors": [
+          "Pradeep Mandal",
+          "RAHUL PANDEY"
+        ],
+        "venue": "International Journal For Multidisciplinary Research",
+        "abstract": "Fashion forecasting is a vital process within the global fashion industry that enables designers and brands to anticipate future trends, consumer needs, and market shifts. It involves the systematic study of cultural, social, economic, and technological influences to predict styles, colors, fabrics, and consumer behavior. Fashion forecasting has emerged as a critical tool in bridging the gap between creative design innovation and dynamic consumer demands in the fashion industry. This study explores what fashion forecasting entails, why it holds strategic importance, and is to examine how fashion forecasting guides designers in their creative decision-making and how it shapes consumer preferences, thereby aligning innovation with market demands. The study aims to analyze the role of forecasting as both a creative compass for designers and a strategic tool for consumer engagement. It introduces the concept of fashion forecasting as a discipline that has evolved from instinctive prediction to evidence-based practice using data analytics, trend analysis, and cultural research. Methodologically, the research employs a mixed approach: qualitative data is gathered through interviews with fashion designers to understand their reliance on trend predictions, while quantitative surveys of consumers measure the impact of forecast-driven collections on purchasing choices. Results indicate that forecasting not only guides designers in aligning their creativity with market trends but also enhances consumer confidence by offering styles that resonate with evolving cultural and lifestyle shifts. The outcomes emphasizes that fashion forecasting is indispensable for sustaining innovation, guiding design processes, and shaping consumer demand, thereby ensuring long-term industry growth and consumer trust.",
+        "pdf_url": "https://www.ijfmr.com/papers/2026/2/72760.pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7143008611",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Culturally Inspired Fashion: Perceptions of Fashion Designers and Consumers",
+        "source": "openalex",
+        "url": "https://ualresearchonline.arts.ac.uk/id/eprint/17037/",
+        "doi": null,
+        "year": 2021,
+        "authors": [
+          "Camay Abraham",
+          "Ameerah Khadaroo"
+        ],
+        "venue": "University of the Arts London Research Online (University of the Arts London)",
+        "abstract": "Culturally inspired fashion is defined as contemporary clothing inspired by a cultural aesthetic, for example, a bodycon dress with a mandarin collar. This type of fashion generally has no actual connection to the original culture and is mostly designed for profit-making. Concerns and challenges around culturally inspired fashion have received very limited empirical attention despite being widely discussed in the media. There is speculation whether culturally inspired fashion is designed to meet consumers’ demands or if designers subconsciously dictate consumers’ demands. This study explores the line between what is cultural appreciation and what is cultural appropriation and how creativity and ethical transparency are approached. A qualitative approach was used to explore the perceptions of American fashion designers and consumers regarding culturally inspired fashion. For example, how designers differentiated between cultural appropriation and creative liberty, what were consumers’ experience with cultural appropriation and appreciation in wearing culturally inspired fashion, and how call-out culture affected designers and consumers. Semi-structured interviews were conducted with 14 participants (seven designers and seven consumers) and data was analysed using thematic analysis. It was found that designers struggled to find a balance between cultural authenticity and creativity. Fashion was mostly viewed by them as a business where the focus was on profit maximisation more than ethical authenticity. Although aware of the salability of cultural fashion, consumers demanded transparency from designers to credit the source of their cultural inspiration or clarify if their design teams collaborated with the culture or gave profits to culture. Fear of public outcry regarding designers’ creations and consumers’ choices of cultural clothing was also identified as a theme. Findings imply that designers must pivot how they design to promote culturally inspired clothing more ethically and consumers to try to adopt a culturally sensitive mindset regarding cultural fashion.",
+        "pdf_url": "https://ualresearchonline.arts.ac.uk/id/eprint/17037/1/CCD21_Book%20of%20Abstracts.pdf",
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "W3215615495",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Exploring the Learning Process of DIY Fashion Designers Embracing Entrepreneurship",
+        "source": "openalex",
+        "url": "https://doi.org/10.7916/d8-dzpc-f235",
+        "doi": "10.7916/d8-dzpc-f235",
+        "year": 2021,
+        "authors": [
+          "Ashli Ree"
+        ],
+        "venue": "Columbia Academic Commons (Columbia University)",
+        "abstract": "The purpose of this explorative field study using elements of case study design was to understand how DIY (Do It Yourself) fashion designers learn to engage in entrepreneurship. DIY fashion designers in this study refers to designers who personally design and make each garment without relying on manufacturers. These fashion designers all have design skills, but as they transition from designer to designer-entrepreneur with existing skills, they realize an additional set of skills is needed. To understand why they started the business and how they learned the skills necessary to maintain this dual role, the researcher interviewed 20 designer-entrepreneurs with different levels of experience: novice (3-5 years), middle-level (6-10 years), and seasoned (11 plus years). A selected literature review was conducted to shed light on the work of other researchers related to fashion entrepreneurship, entrepreneurship, and adult learning. The researcher used a qualitative methodology to explore how the designer-entrepreneurs learned and what they learned to maintain their dual role. A purposeful sample was drawn from a group of designer-entrepreneurs with different educational backgrounds and professional experiences. Data were collected through individual interviews followed by two focus group discussions. Data were examined to understand why certain DIY fashion designers chose to become designer-entrepreneurs, what challenges they faced in the dual role, how and what they learned, and which learning strategies they used. All designer-entrepreneurs in this study indicated that the motivation for becoming a designer-entrepreneur was to address their inner needs, which required both intrinsic reward and extrinsic validation. An overwhelming majority of them stated that most of the challenges stemmed from the entrepreneurial half of their dual role because they lacked the information needed to sustain it. All designer-entrepreneurs in this study learned through experiential and self-directed learning. A majority of them indicated that their main learning strategies consisted of finding or forming social networks for their design and business needs and developing their own learning habits. Based on these findings, the researcher made recommendations for educators teaching fashion or entrepreneurship and for current designer-entrepreneurs.",
+        "pdf_url": "https://academiccommons.columbia.edu/doi/10.7916/d8-z31y-yf65/download",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W3186460832",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Key Issues in Slow Fashion: Current Challenges and Future Perspectives",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.3390/su10072270",
+        "doi": "10.3390/su10072270",
+        "year": 2018,
+        "authors": [
+          "Róbert Štefko",
+          "Vladimira Steffek"
+        ],
+        "venue": "Sustainability",
+        "abstract": "The study seeks to explore and synthesize current issues in Slow Fashion and discuss potential future directions of the industry. While there are multiple definitions of the term, Slow Fashion typically describes long-lasting, locally manufactured clothing, primarily made from sustainably sourced fair-trade fabrics. It affords latitude to individual style, fosters education about clothing and emphasizes durability. While several challenges regarding the implementation of Slow Fashion principles in current society remain, the study offers an overview of the current state, and presents a fashion matrix-based framework for outlining the position of the Slow Fashion movement within industry-specific fashion segments and uses the matrix to present current knowledge and review future challenges. The support of networks serves as an indispensable tool for Slow Fashion designers, keeping them abreast of the competition.",
+        "pdf_url": "https://www.mdpi.com/2071-1050/10/7/2270/pdf?version=1530509392",
+        "citation_count": 191,
+        "work_type": "article",
+        "identifier": "W2811066556",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Garment Production Processes and their Health Challenges: A Case of Tailors and Dressmakers in the Small-Scale Clothing Industries in Sunyani Municipality",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.7176/jhmn/113-08",
+        "doi": "10.7176/jhmn/113-08",
+        "year": 2024,
+        "authors": [
+          "Moses Opoku",
+          "B Sarah",
+          "Josephine, Aboagyewaa-Ntiri"
+        ],
+        "venue": "Journal of Health, Medicine and Nursing",
+        "abstract": "The garment industry contributes enormously to the socio-economic development of societies. Inadequate facilities compel small-scale workers to carry out most of the garment production processes manually during long working hours, thereby affecting their health. Repetitive activities such as patternmaking and assembling have their own health challenges. The study envisages health-related problems involved in garment production processes and their effects on the wellbeing of tailors and dressmakers. To help achieve this, the research examines the workplace health and safety compliance situation in the small-scale garment industry and identifies health-related problems associated with production processes. A qualitative research approach was employed. The population for the study comprised tailors and dressmakers who have consecutively been in the garment production sector for a period of five to twenty years. A snowball sampling technique was used to gather a sample of forty (40) dressmakers and tailors. In-depth interviews with structural questions, observation, and focus group discussions constituted the data collection instruments. The study reveals that the knowledge level of tailors and dressmakers with respect to health issues is very low. Again, the research identified the use of unprescribed medications for the treatment of waist pain and headaches. This research highly recommends government and stakeholders’ interventions to help improve the welfare of tailors and dressmakers working in the small-scale garment industries.",
+        "pdf_url": "https://iiste.org/Journals/index.php/JHMN/article/download/62159/64191",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4392915580",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "The designer's role in fashion system transitions: A critical review of transition design",
+        "source": "openalex",
+        "url": "https://doi.org/10.21606/iasdr.2023.826",
+        "doi": "10.21606/iasdr.2023.826",
+        "year": 2023,
+        "authors": [
+          "Moe Sakaue",
+          "Daijiro Mizuno",
+          "Kazutoshi Tsuda"
+        ],
+        "venue": "International Association of Societies of Design Research Congress (IASDR)",
+        "abstract": "Based on the literature review, this paper discusses the role of designers in organizing designs that intervene and facilitate transitions in the fashion system. Four interventions are identified from the literature review and discussed in detail concerning multi-stakeholder collaboration and textile fashion design. A critical analysis of designers and the design process in production reveals that the place and time of design activity and experience are expanding. However, there needs to be more research that designs projects and analyzes their long-term outcomes. Finally, this paper makes recommendations regarding the role of designers in fashion system transitions. Further research on design processes and designer education on place-based design is needed to develop models that challenge the fashion system paradigm.",
+        "pdf_url": "https://dl.designresearchsociety.org/cgi/viewcontent.cgi?article=1335&context=iasdr",
+        "citation_count": 3,
+        "work_type": "other",
+        "identifier": "W4387370161",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Fashion diplomacy: Canada’s shared role in supporting garment worker safety in Bangladesh",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.24124/c677/20231870",
+        "doi": "10.24124/c677/20231870",
+        "year": 2023,
+        "authors": [
+          "Mary Frances Hanlon",
+          "Taylor Brydges"
+        ],
+        "venue": "Canadian Political Science Review",
+        "abstract": "In this article, we investigate Canada’s shared role in supporting worker safety and responsible fashion and apparel in Bangladesh. Drawing on two case studies, the Rana Plaza factory collapse and the COVID-19 pandemic, we investigate the Government of Canada’s varied response to the impact of these crises on garment workers. To investigate this, and to advance our understanding of Canada’s own role in supporting garment worker safety and agency in responsible fashion and apparel production, we turn to the concept of ‘fashion diplomacy.’ We argue that if Canada hopes to play a leading role in supporting responsible fashion and apparel practices in an ever-changing landscape, it must develop inclusive policy solutions capable of addressing the diverse and at times divergent interests of state and non-state actors both at home and abroad. In doing so, we identify possible strategies for Canada in addressing the new and emerging Indo-Pacific strategic environment.RésuméDans cet article, nous examinons le rôle partagé du Canada dans le soutien de la sécurité des travailleurs et de la mode et des vêtements au Bangladesh. En nous appuyant sur deux études de cas, l'effondrement de l'usine Rana Plaza et la pandémie de COVID-19, nous examinons la réponse variée du gouvernement du Canada à l'impact de ces crises sur ces travailleurs. Pour enquêter cela et pour avancer notre compréhension du rôle du Canada dans le soutien de la sécurité des travailleurs des s et de l'agence dans la production responsable de mode et de vêtements, nous nous tournons vers le concept de « diplomatie de la mode ». Nous soutenons que si le Canada espère jouer un rôle de premier plan dans le soutien des pratiques responsables en matière de mode et des vêtements dans un paysage en constante évolution, il doit élaborer des solutions politiques inclusives qui sont capables de répondre aux intérêts divers et parfois divergents des acteurs étatiques et non étatiques, tant au niveau du pays or de l’état et à l'étranger. Ce faisant, nous identifions des stratégies possibles pour le Canada face au nouvel environnement stratégique émergent de l'Indopacifique.Keywords: Fashion diplomacy, sustainable fashion, labour rights, cultural diplomacy, Canada, BangladeshMots-clés : Diplomatie de la mode, mode durable, droits du travail, diplomatie culturelle, Canada, Bangladesh",
+        "pdf_url": "https://ojs.unbc.ca/index.php/cpsr/article/download/1870/1451",
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "W4388334130",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Frantic fashion and Australia's invisible designers: Conversations on sustainability in the mass market",
+        "source": "openalex",
+        "url": "http://www.fashion.arts.ac.uk/research/news-events/fashioncolloquia-london/fashionassustainability/alicepayne/",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Alice Ruth Payne"
+        ],
+        "venue": "QUT ePrints (Queensland University of Technology)",
+        "abstract": "The majority of Australians will work, sleep and die in the garments of the mass market. Yet, as Ian Griffiths has termed it, the designers of these garments are ‘invisible’ (2000). To the general public, the values, opinions and individual design processes of these designers are as unknown as their names. However, the designer’s role is crucial in making decisions which will have impacts throughout the life of the garment. The high product volume within the mass market ensures that even a small decision in the design process to source a particular fabric, or to use a certain trim or textile finish, can have a profound environmental or social effect. While big companies in Australia have implemented some visible strategies for sustainability, it is uncertain how these may have flowed through to design practices. To explore this question, this presentation will discuss preliminary findings from in-depth semi-structured interviews with Australian mass market fashion designers and product developers. The aim of the interviews was to hear the voice of the insider – to listen to mass market designers describe their design process, discuss the Australian fashion industry and its future challenges and opportunities, and to comment on what a ‘sustainability’ for their industry could look like. These interviews will be discussed within the framework of design philosopher Tony Fry’s writing on design redirection for sustainability.",
+        "pdf_url": "https://eprints.qut.edu.au/47609/1/Payne_Frantic_Fashion_paper.pdf",
+        "citation_count": 5,
+        "work_type": "article",
+        "identifier": "W375530941",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "From Design Decisions to Sustainable Development: Exploring Textile and Fashion Designers’ Challenges in the Portuguese Textile and Fashion Industry",
+        "source": "openalex",
+        "url": "https://doi.org/10.3390/su18042141",
+        "doi": "10.3390/su18042141",
+        "year": 2026,
+        "authors": [
+          "Livia Lara",
+          "Isabel Dias Cabral",
+          "Joana Luísa Ferreira Lourenço da Cunha"
+        ],
+        "venue": "Sustainability",
+        "abstract": "Textile and fashion designers play a strategic role in sustainable development within the textile chain. Several studies highlight the decision-making role of designers, emphasizing how their choices influence the entire production sector. The aim of this research is to examine how design decisions within the Portuguese textile and fashion industry influence the implementation of sustainable development principles by exploring designers’ perceptions, practices, and the challenges they encounter throughout the design process. To achieve the proposed goal, semi-structured interviews were conducted with 11 designers from the industry. The collected data were qualitatively evaluated using NVivo software, highlighting the complexity of incorporating sustainability into the design process. The findings revealed that daily challenges are primarily related to fashion business models, greenwashing, limited knowledge of raw materials and finishing processes, cost constraints, lack of transparency and traceability in the supply chain, and low consumer awareness. By examining both the conceptual understanding and practical application of sustainability in the design process, this research provides strategic lines into designers’ decision-making processes, highlights barriers to sustainable practice, and underscores the importance of design education. The study contributes to academic debate and identifies opportunities for advancing sustainable practices and circularity in the textile and fashion industry, in alignment with the Sustainable Development Goals, especially SDGs 9, 12, and 13, to transform the current industrial and consumption models.",
+        "pdf_url": "https://www.mdpi.com/2071-1050/18/4/2141/pdf?version=1771754107",
+        "citation_count": 5,
+        "work_type": "article",
+        "identifier": "W7130979733",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "The Issue of Sub-Standard Ready-to-Wear Garments in Fashion Marketing: A Challenge Facing the Fashion Industry in Nigerian Economy",
+        "source": "openalex",
+        "url": "https://doi.org/10.66731/jher.v18i1.211",
+        "doi": "10.66731/jher.v18i1.211",
+        "year": 2024,
+        "authors": [
+          "Ugbah B. E.",
+          "Ugbah A. A."
+        ],
+        "venue": "Journal of Home Economics Research",
+        "abstract": "This paper examines the issue of sub-standard ready-to-wear garments infashion marketing: a challenge facing the fashion industry in Nigerianeconomy. Fashion is a global activity with a lot of stiff or hyper-competition. The manufacturers therefore have to strive to maintainstandards of quality products to meet the market target. Unfortunately,the Nigerian fashion industry is unable to compete in terms of qualitywith the foreign ready-to-wear garments produced, especially in thedeveloped nations of the world. This has lead to serious challenges in thefashion industry and consequently affecting the national economynegatively. This paper highlights these challenges and recommends waysof eradicating them.",
+        "pdf_url": "https://journals.heran.org/index.php/JHER/article/download/211/193",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W7160269857",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Development of responsibility in Bangladesh garment industry",
+        "source": "openalex",
+        "url": "http://www.theseus.fi/handle/10024/352938",
+        "doi": null,
+        "year": 2020,
+        "authors": [
+          "Tiia Hiltunen"
+        ],
+        "venue": "Theseus (Ammattikorkeakoulujen)",
+        "abstract": "The aim of this research is to study how have responsible sourcing actions of European clothing companies impacted the development of responsibility in Bangladesh garment industry. Bangladesh has had the image of being only a low-cost production country, where social responsibility is not in focus and regulation is loose. The 2013 collapse of Rana Plaza building, housing also garment factories, has been the biggest turning point for the Bangladesh garment industry. A lot of good progress has happened since. This thesis presents the main steps taken regarding responsibility issues. The study is conducted as qualitative research. Theoretical framework for this thesis is collected from public information provided by international organizations, industry literature and reports, as well as interviews of client company Tokmanni’s Product Line Managers. The empirical section consists of data collected from interviews of representatives of Tokmanni’s Bangladesh garment suppliers. Interviews were conducted as semi-structured interviews. The data was processed through thematic data analysis coding. Research shows that Bangladesh is highly dependent on its garment industry. The extensive growth of the garment industry has had a significant impact in Bangladesh’s economic and social development. Due to pressure from customer companies, Bangladesh garment industry has taken large steps towards more responsible business procedures and culture. Besides customer companies, the internal responsibility work of Bangladesh garment industry and government is contributing to the progress. The responsibility initiatives, compliance systems and demands of European clothing companies have impacted greatly into responsibility development of Bangladesh garment industry, for example in terms of building safety, safer working environment and fair treatment of workers. Even though the development is slow, Bangladesh garment industry can rise to the level of global standards.",
+        "pdf_url": null,
+        "citation_count": 4,
+        "work_type": "thesis",
+        "identifier": "W3111693139",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Designing Sustainable Fashion: Role of Psychosocial Factors of Fashion Consumption and the Challenges of Design",
+        "source": "openalex",
+        "url": "https://doi.org/10.17485/ijst/2016/v9i15/91980",
+        "doi": "10.17485/ijst/2016/v9i15/91980",
+        "year": 2016,
+        "authors": [
+          "Olive Nerurkar"
+        ],
+        "venue": "Indian Journal of Science and Technology",
+        "abstract": "Background/Objectives: The paper presents a theoretical framework for sustainable fashion design incorporating psychosocial factors of consumption. It calls for supplementing the fashion design models which usually cover life cycle analysis with an understanding of psychosocial factors relating to consumers. The paper identifies the psychosocial factors affecting fashion consumption, examines how these factors interact and the challenges for sustainable design. Further the implications of these on sustainable design are also identified. Methods/Statistical Analysis: The research is mainly based on theoretical data from academic publications, and research journal articles. The research covers the concept of consumption, models of sustainable fashion design, the shift from emphasis on sustainable production to sustainable consumption and the challenges of the psychosocial factors on sustainable design. Findings: In the present paper, the researcher suggests that the life cycle thinking used for sustainable fashion design should be complemented with an understanding of consumer psychosocial factors to facilitate engagement and consumer attachment. A designer should be able to appreciate the interplay of a mix of psychological factors: cognitive, affective and behavioural in order to facilitate better engagement and attachment. Consumers’ sociocultural factors influencing design must also be taken into consideration. The list of psychosocial factors affecting sustainable fashion design is presented in Figure 1. These factors are similar to [14 & 15]. However challenges with respect these factors are discussed in more detail. Factors discussed are psychological factors like needs/wants, meanings of consumption in relation to personal and social identity, and social factors like life style and values and the role of person – product attachment are discussed. The challenges these factors impose on sustainable fashion design are also identified. Application/Improvements: Sustainable fashion design needs to incorporate psychosocial aspects of consumption. These would motivate designers to discover new opportunities and consider novel designs and in turn would facilitate long term relationship between product and person.",
+        "pdf_url": null,
+        "citation_count": 20,
+        "work_type": "article",
+        "identifier": "W2351619890",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "The Competitive Foundations of Localized Learning and Innovation: The Case of Women's Garment Production in New York City",
+        "source": "openalex",
+        "url": "https://doi.org/10.1111/j.1944-8287.2002.tb00195.x",
+        "doi": "10.1111/j.1944-8287.2002.tb00195.x",
+        "year": 2002,
+        "authors": [
+          "Norma M. Rantisi"
+        ],
+        "venue": "Economic Geography",
+        "abstract": "This article considers the relevance of the “local” for firm learning in New York City's Garment District. By documenting the design innovation process in the district's women's wear industry and the ways in which designers draw on the district's specialized services and institutions to assist in the process, the article examines how a localized agglomeration or “cluster” facilitates the development of shared conventions and practices. It also shows how the district confers benefits on firms in indirect ways. Since apparel manufacturers operate in a U.S. regulatory framework that inhibits cooperation, the Garment District's support institutions serve as production intermediaries, providing firms with a means to monitor and observe rival firms' performances and solutions. As such, the case of the Garment District poses interesting challenges to the prevailing conceptions of the “local” as a site for cooperation and suggests the need to rethink the relevance of competition for learning and innovation.",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1944-8287.2002.tb00195.x",
+        "citation_count": 139,
+        "work_type": "article",
+        "identifier": "W2003312133",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Standard vs. Upcycled Fashion Design and Production",
+        "source": "openalex",
+        "url": "https://doi.org/10.1080/17569370.2016.1227146",
+        "doi": "10.1080/17569370.2016.1227146",
+        "year": 2016,
+        "authors": [
+          "Sara Li-Chou Han",
+          "Priscilla Y. L. Chan",
+          "Prabhuraj D. Venkatraman",
+          "PHOEBE R. APEAGYEI",
+          "Tracy Diane Cassidy",
+          "David Tyler"
+        ],
+        "venue": "Fashion Practice",
+        "abstract": "Value streams for collected post-consumer textiles continue to be analyzed within the global challenge to develop and employ commercially viable, yet ethical and sustainable strategies within the fashion industry. Upcycling is an existing strategy applicable to fashion production, with discarded materials used to design and create higher value products, keeping them in productive use for longer. A number of very small, niche upcycling enterprises have emerged in the UK. These brands have succeeded in creating stylistically relevant and commercially successful fashion styles utilizing waste textile materials. The advantages of scaling these enterprises up are not only environmental, but also economic and social, thereby creating a sustainable and innovative business model for UK-led fashion production. Due to high levels of three key metrics of carbon, water and waste, UK government agency WRAP (Waste & Resources Action Programme) has identified textile products as priority materials for reuse and recycling. Upcycling enables a sustainable design option for reuse techniques to be employed for greatest economic and environmental benefit, in which used clothing and textiles are sourced for the production of newly designed fashion products. This paper identifies the key differences between standard fashion design and production processes and upcycled fashion design and production processes, in order to aid the development of large-scale fashion upcycling in the UK, and contribute to a circular economy.",
+        "pdf_url": "https://e-space.mmu.ac.uk/617948/1/Han_Standard-vs%20-Upcycled-Design_Green2017.pdf",
+        "citation_count": 172,
+        "work_type": "article",
+        "identifier": "W2555094028",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Transparency considerations for the ethical fashion designer",
+        "source": "openalex",
+        "url": "https://eprints.hud.ac.uk/id/eprint/35565/1/FINAL%20THESIS%20-%20Perkins.pdf",
+        "doi": null,
+        "year": 2021,
+        "authors": [
+          "Laurie Perkins"
+        ],
+        "venue": "University of Huddersfield Repository (University of Huddersfield)",
+        "abstract": "The purpose of this research was to explore transparency in garment manufacturing and ethical sourcing, drawing on the researcher’s personal experience working within the fashion industry, specifically as part of the garment supply chain. The motivation for this research stems from the researcher’s personal experience that they have encountered during their career in the fashion industry. These personal experiences have been drawn upon and directed and added value to this research. Literature was reviewed on the practices in the fashion industry and other topical issues that relate. Primary research was conducted, and the researcher experimented with creative pattern cutting techniques as a design tool, whilst taking sustainability into account whilst designing. Three mini case studies were conducted on other self-proclaimed transparent and ethical fashion businesses and outlined the difficulties faced when running such a business. The research also included a consumer survey to study the purchasing behaviour of the consumer and investigating their opinion on the ethical considerations of products in the fashion and clothing industry, to validate the study. This research found that pattern cutting techniques, specifically with minimal wastage in mind, can create a space in which to design ethically and with transparency when wanting to create a fashion garment. The research also found that ethical fashion companies faced similar problems, in terms of ensuring their supply chain is transparent, as well as managing difficulties regarding cost price and therefore ensuring the retail price is attractive to the consumer. This was also a key theme that emerged from the consumer survey, in that consumers were willing to spend some more money on an ethical and sustainable product, but within limits. Overall, the consumer research survey found that consumers were interested in finding out more about the origins of the products they buy, and that sustainability can be an influence on their purchasing habits.",
+        "pdf_url": "https://eprints.hud.ac.uk/id/eprint/35565/1/FINAL%20THESIS%20-%20Perkins.pdf",
+        "citation_count": 4,
+        "work_type": "thesis",
+        "identifier": "W3194244530",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Revolutionizing Fashion Design: Optimizing Garments with OptiTex Software",
+        "source": "openalex",
+        "url": "https://doi.org/10.51316/jst.189.etsd.2026.36.2.12",
+        "doi": "10.51316/jst.189.etsd.2026.36.2.12",
+        "year": 2026,
+        "authors": [
+          "Tu Van Ha",
+          "Thi Viet Ha Ngo",
+          "Hoang Tuyet Van Luong"
+        ],
+        "venue": "Engineering and Technology For Sustainable Development",
+        "abstract": "In the context of digital transformation and sustainable development in the fashion industry, OptiTex software has emerged as a key solution for optimizing apparel design and production processes. This study aims to evaluate the practical effectiveness of OptiTex in Vietnam through a survey of 106 fashion professionals and real-world experiments conducted at Hai Ngoc Garment Co., Ltd. Survey results reveal that OptiTex helps reduce design time by 20%–60% and significantly lowers prototyping costs. Experimental findings further confirm a high simulation accuracy of 92% between the 3D virtual fit and the actual product. Furthermore, the automatic marker-making feature helps save approximately 12% of fabric on average. Despite these benefits, several challenges remain, including the high cost of licensing, the software's complex interface, and the need for user training. The study proposes improvements such as enhancing fabric simulation algorithms, simplifying the user interface, offering intensive training programs, and integrating advanced technologies like AI and blockchain. These findings highlight the considerable value of OptiTex in supporting the modernization and efficiency of Vietnam's fashion industry and provide practical insights for its broader implementation across enterprises and educational institutions in the digital era.",
+        "pdf_url": "https://jst.vn/index.php/etsd/article/download/1346/1284",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7160564497",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Fashion exposure: Sri Lankan apparel industry designer interactions with the world of fashion",
+        "source": "openalex",
+        "url": "https://doi.org/10.1108/jfmm-10-2018-0137",
+        "doi": "10.1108/jfmm-10-2018-0137",
+        "year": 2019,
+        "authors": [
+          "Sumith Gopura",
+          "Alice Ruth Payne",
+          "Laurie R. Buys",
+          "Deepthi C. Bandara"
+        ],
+        "venue": "Journal of Fashion Marketing and Management",
+        "abstract": "Purpose Developing countries engaged in apparel value chain are going global, seeking opportunities to upgrade the industry through providing higher value-added products and services. The purpose of this paper is to investigate how Sri Lankan apparel industry designers interact with the western fashion world in the apparel value chain process, and how they acquire, adapt and apply the knowledge needed to develop high-value fashion products in their fashion design practice. Design/methodology/approach The study adopts a qualitative approach through semi-structured interviews conducted with fashion design and product development professionals in the Sri Lankan apparel industry. An inductive thematic analysis is used in identifying participants’ experience of the western fashion world within their fashion design practice. Findings The study proposes a “fashion knowledge bridge” illustrating the ways in which Sri Lankan designers acquire and merge high-value fashion consumer culture and lifestyle knowledge with the manufacturing industry, through multisensory and virtual experience, termed “exposure”, in their interactions with the western fashion world as well as the manufacturing culture of the Sri Lankan apparel industry. Designers’ exposure improves the feasibility and reliability of their apparel products, aligning to the end-consumer needs. The study also proposes a “designers’ exposure framework” that illustrates gains made by the Sri Lankan apparel industry resulting from knowledge enhancement through the designers’ exposure. Research limitations/implications The study is based on a qualitative methodology that has potential subjective biases on the part of the researchers; in this case only the Sri Lankan designers’ perspectives were used in synthesising the findings. Originality/value The findings propose frameworks with theoretical and managerial implications for developing designers’ capabilities in apparel manufacturing countries that seek industrial upgrading through value-added fashion design practice.",
+        "pdf_url": "https://eprints.qut.edu.au/130768/2/130768.pdf",
+        "citation_count": 7,
+        "work_type": "article",
+        "identifier": "W2953105079",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "whole garment production system",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501365287.3068",
+        "doi": "10.5040/9781501365287.3068",
+        "year": 2022,
+        "authors": [],
+        "venue": "The Fairchild Books Dictionary of Fashion",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501365287.3068",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Opportunities and Challenges for the Korean Garment Business",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781666992090.ch-6",
+        "doi": "10.5040/9781666992090.ch-6",
+        "year": 2021,
+        "authors": [],
+        "venue": "From Sweatshop to Fashion Shop",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781666992090.ch-6",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "The Rowman & Littlefield Publishing Group"
+        }
+      },
+      {
+        "title": "Designer Perspective",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781474218504.ch-023",
+        "doi": "10.5040/9781474218504.ch-023",
+        "year": 2013,
+        "authors": [],
+        "venue": "Fashion Thinking",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781474218504.ch-023",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Designer Perspective",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781474218504.ch-011",
+        "doi": "10.5040/9781474218504.ch-011",
+        "year": 2013,
+        "authors": [],
+        "venue": "Fashion Thinking",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781474218504.ch-011",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Designer Perspective",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781474218504.ch-035",
+        "doi": "10.5040/9781474218504.ch-035",
+        "year": 2013,
+        "authors": [],
+        "venue": "Fashion Thinking",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781474218504.ch-035",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Dialogic Fashion: Rethinking the Garment -From Static Sign to Dynamic Process",
+        "source": "crossref",
+        "url": "https://doi.org/10.2139/ssrn.6734586",
+        "doi": "10.2139/ssrn.6734586",
+        "year": 2026,
+        "authors": [
+          "Viktorija Diak",
+          "Andrii Diak"
+        ],
+        "venue": null,
+        "abstract": "Classical fashion theory treats the garment as a static sign-a form fixed at the moment of production, its meaning secured by cultural code. Adaptive technologies-smart textiles, sensors, algorithms-seem to offer a way beyond this logic. Yet a jacket that regulates temperature but ignores context reveals a deeper problem: these technologies react, but they do not dialogue. The issue is not technical but semiotic: we lack a language for clothing that genuinely responds, learns, and transforms. Drawing on dialogical philosophy and process metaphysics, this article proposes such a language. The static object-sign is replaced by the diasign: a spectrum of possible configurations actualized as gesture. Meaning arises from encounter-the semiofield-while practice crystallizes in a living lexicon of modes (modothek). Through the example of a smart compression sleeve, the article traces the consequences of this shift for identity, authorship, ownership, and time. Within this framework, these questions become not obstacles but openings. Dialogic fashion offers a language for a mode that no longer speaks in finished forms but enters into dialogue.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "preprint",
+        "identifier": "10.2139/ssrn.6734586",
+        "extra": {
+          "crossref_type": "posted-content",
+          "publisher": "Elsevier BV"
+        }
+      },
+      {
+        "title": "Fashion Designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.4324/9781003396062-9",
+        "doi": "10.4324/9781003396062-9",
+        "year": 2025,
+        "authors": [
+          "Charlene Dunbar"
+        ],
+        "venue": "Discovering the Design Process",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.4324/9781003396062-9",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Routledge"
+        }
+      },
+      {
+        "title": "Designer Fashion Reports, Autumn/Winter 1988",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350942400",
+        "doi": "10.5040/9781350942400",
+        "year": 2019,
+        "authors": [],
+        "venue": "Designer Fashion Reports, Autumn/Winter 1988",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350942400",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "The Other Garment Industry: Politics, marketplaces and the informal production of fashion in Latin America",
+        "source": "crossref",
+        "url": "https://doi.org/10.14324/111.9781806550906",
+        "doi": "10.14324/111.9781806550906",
+        "year": 2026,
+        "authors": [],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.14324/111.9781806550906",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "UCL Press"
+        }
+      },
+      {
+        "title": "The Production Platforms of Modern Garment Manufacturing",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/b18902-7",
+        "doi": "10.1201/b18902-7",
+        "year": 2015,
+        "authors": [],
+        "venue": "The Dirty Side of the Garment Industry",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/b18902-7",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "Fashion as viscous knowledge: fashion's role in shaping trans-national garment production",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/jeg/lbl015",
+        "doi": "10.1093/jeg/lbl015",
+        "year": 2006,
+        "authors": [
+          "S. Weller"
+        ],
+        "venue": "Journal of Economic Geography",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 74,
+        "work_type": "article",
+        "identifier": "10.1093/jeg/lbl015",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Oxford University Press (OUP)"
+        }
+      },
+      {
+        "title": "Branded Garment Retailers in the Production Market",
+        "source": "crossref",
+        "url": "https://doi.org/10.2307/j.ctt7sgtm.8",
+        "doi": "10.2307/j.ctt7sgtm.8",
+        "year": 2010,
+        "authors": [],
+        "venue": "Orderly Fashion",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.2307/j.ctt7sgtm.8",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Princeton University Press"
+        }
+      },
+      {
+        "title": "From Production to Distribution: Expansion of the Korean Garment Business (1980s–1990s)",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781666992090.ch-4",
+        "doi": "10.5040/9781666992090.ch-4",
+        "year": 2021,
+        "authors": [],
+        "venue": "From Sweatshop to Fashion Shop",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781666992090.ch-4",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "The Rowman & Littlefield Publishing Group"
+        }
+      },
+      {
+        "title": "The Role of the Designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/978-1-349-15162-2_7",
+        "doi": "10.1007/978-1-349-15162-2_7",
+        "year": 1996,
+        "authors": [
+          "Pamela Stecker"
+        ],
+        "venue": "The Fashion Design Manual",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/978-1-349-15162-2_7",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Macmillan Education UK"
+        }
+      },
+      {
+        "title": "Production line process improvement with process reengineering - a case study in garment factory",
+        "source": "crossref",
+        "url": "https://doi.org/10.58837/chula.the.2021.120",
+        "doi": "10.58837/chula.the.2021.120",
+        "year": 2023,
+        "authors": [
+          "Yanin Palasri"
+        ],
+        "venue": null,
+        "abstract": "The production process concerns in ABC manufacturing are failing to meet daily production targets and having low productivities. Business Process Reengineering (BPR) is a method of employing process redesign heuristics to improve an existing production line process using an evaluation approach and fit-gap analysis. A simulation tool is used to model the production process redesign. After adopting the provided approach and conducting the simulation, the company's production productivity and service level increases by about 45 percent. To get the required simulation results, critical measurements such as manufacturing capacity and lead time are used. This research demonstrates the redesign production process that must be followed in order to overcome the critical issues.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.58837/chula.the.2021.120",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Office of Academic Resources, Chulalongkorn University"
+        }
+      },
+      {
+        "title": "Beyond the Aesthete: Transforming the Role of the Fashion Designer in an Emergent Social Construct",
+        "source": "crossref",
+        "url": "https://doi.org/10.36253/fh-2260",
+        "doi": "10.36253/fh-2260",
+        "year": 2023,
+        "authors": [
+          "Steven Faerm"
+        ],
+        "venue": "Fashion Highlight",
+        "abstract": "The role of the fashion designer must transform. The fashion marketplace has reached unprecedented levels of abundance, thus altering society’s relationship with design. Consumers’ basic needs are overmet and have surpassed the material realm; consumers are increasingly driven by their search for emotional fulfillment via design. This emerging behavior is pivoting the perception of design “value” from the tangible to the intangible. While traditional values of function and aesthetics remain fundamental, a design’s capacity to deliver “emotional value” to consumers must become the focus of design practice. This requires a transformation of the designer’s traditional role. Rather than creating from myopic biases, they must research consumers’ psychographics to “design emotion.” This new role—the “Designer-As- Social Scientist”—takes a holistic view of consumers’ needs. The designer’s transformed role will result in products having greater emotional value, enhanced product sustainability, and businesses increasing consumer loyalty and resultant sales by offering only those products that are truly desired by their target audience.",
+        "pdf_url": "https://riviste.fupress.net/index.php/fh/article/download/2260/1475",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.36253/fh-2260",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Firenze University Press"
+        }
+      },
+      {
+        "title": "The effects of technical knowledge related to garment production process on fashion designersâ€™ designs",
+        "source": "crossref",
+        "url": "https://doi.org/10.18844/prosoc.v2i1.1001",
+        "doi": "10.18844/prosoc.v2i1.1001",
+        "year": 2016,
+        "authors": [
+          "Fatma Gursoy",
+          "Nurgul Kilinc"
+        ],
+        "venue": "New Trends and Issues Proceedings on Humanities and Social Sciences",
+        "abstract": "Today, in the fashion sector, which can be regarded as the driving force behind Turkish exports, the need for designs and designers is increasing day by day in parallel with the developments in domestic and foreign markets. The process of production in the fashion sector can be divided into four groups, namely design, planning, production and marketing. The fundamental properties of the product are determined in the design department, which constitutes the basis of the production process. In this study, the purpose was to investigate how effects having or not having technical knowledge related to the garment production process on fashion designersâ€™ designs. This study, in which qualitative research methods were used, was conducted using the case study design. For the sample group, criterion sampling, one of the purposeful sampling methods, was used and four designer were selected as the sample group. Research data were collected through interview, observation and document review. The data that were collected were evaluated through description and comparative analysis and then made into a report. After evaluation of research findings it has been reached that designers with technical knowledge on garment production process scored higher points on their illustrations. In terms of sub dimensions, in evaluations related to creativity dimensions, designers with technical knowledge, even with a slight difference,Â scored higher. When design is studied in terms of commercial value which is the other sub dimension, again, points of designers with technical knowledge fount higher.Keywords: Fashion Designer, Illustration, Creativity, Technical Knowledge",
+        "pdf_url": "https://un-pub.eu/ojs/index.php/pntsbs/article/download/1001/6561",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.18844/prosoc.v2i1.1001",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Birlesik Dunya Yenilik Arastirma ve Yayincilik Merkezi"
+        }
+      },
+      {
+        "title": "The Production Platforms of Modern Garment Manufacturing",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/b18902-4",
+        "doi": "10.1201/b18902-4",
+        "year": 2015,
+        "authors": [],
+        "venue": "The Dirty Side of the Garment Industry",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/b18902-4",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "Multimodal Garment Designer: Human-Centric Latent Diffusion Models for Fashion Image Editing",
+        "source": "crossref",
+        "url": "https://doi.org/10.1109/iccv51070.2023.02138",
+        "doi": "10.1109/iccv51070.2023.02138",
+        "year": 2023,
+        "authors": [
+          "Alberto Baldrati",
+          "Davide Morelli",
+          "Giuseppe Cartella",
+          "Marcella Cornia",
+          "Marco Bertini",
+          "Rita Cucchiara"
+        ],
+        "venue": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 98,
+        "work_type": "article",
+        "identifier": "10.1109/iccv51070.2023.02138",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "IEEE"
+        }
+      },
+      {
+        "title": "McCartney, Stella, (born 13 Sept. 1971), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.u244929",
+        "doi": "10.1093/ww/9780199540884.013.u244929",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.u244929",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Mccartney, Stella, (born 13 Sept. 1971), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.244929",
+        "doi": "10.1093/ww/9780199540884.013.244929",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.244929",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Hamnett, Katharine, (born 16 Aug. 1947), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.18835",
+        "doi": "10.1093/ww/9780199540884.013.18835",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.18835",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Hamnett, Katharine, (born 16 Aug. 1947), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.u18835",
+        "doi": "10.1093/ww/9780199540884.013.u18835",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.u18835",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Chapter 4. Branded Garment Retailers in the Production Market",
+        "source": "crossref",
+        "url": "https://doi.org/10.1515/9781400835188-006",
+        "doi": "10.1515/9781400835188-006",
+        "year": 2010,
+        "authors": [],
+        "venue": "Orderly Fashion",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1515/9781400835188-006",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Princeton University Press"
+        }
+      },
+      {
+        "title": "The role of process monitoring devices and digital line balancing in achieving operational excellence in garment manufacturing",
+        "source": "crossref",
+        "url": "https://doi.org/10.15406/jteft.2024.10.00386",
+        "doi": "10.15406/jteft.2024.10.00386",
+        "year": 2024,
+        "authors": [
+          "Bülent Koç",
+          "Selin Hanife Eryürük"
+        ],
+        "venue": "Journal of Textile Engineering &amp; Fashion Technology",
+        "abstract": "This study investigates the transformative potential of integrating digital technologies with lean manufacturing principles to address the evolving challenges in the garment industry. The industry demands high-quality products, rapid delivery, cost efficiency, and production flexibility to maintain competitiveness and sustainability. While traditional lean methods have focused on waste reduction and process optimization, the advent of digitalization offers unprecedented opportunities for enhancing operational excellence. This research specifically examines the role of Internet of Things-based Process Monitoring Devices (PMDs) and digital line balancing in achieving these goals. PMDs, integrated within a digital lean framework, facilitate continuous monitoring of machine performance and operator efficiency, providing real-time insights into operational processes. This real-time visibility enables data-driven decision-making and centralized analysis, fostering agility and responsiveness. Furthermore, this study presents a dynamic digital line balancing algorithm that optimizes sewing line configurations and workload distribution. This dynamic approach allows for real-time adaptations in production flows to mitigate bottlenecks and boost productivity. By exploring the synergistic relationship between PMDs, digital line balancing, and lean principles, this paper contributes to a comprehensive understanding of how digital solutions can revolutionize operational efficiency in the garment manufacturing sector.",
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "10.15406/jteft.2024.10.00386",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "MedCrave Group Kft."
+        }
+      }
+    ]
+  },
+  "count": 50,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T01:59:24.754896+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "findings": [
+    {
+      "id": "dial-1",
+      "severity": "medium",
+      "section": "## 4. Dores da Estilista no Processo",
+      "issue": "Explicitar na Seção 4.4 a quinta tensão identificada em source-tensions.json: a bifurcação entre desenvolvimento interno (insourcing) e compra de produto acabado / private label (outsourcing) mediada por programação linear de mix (Ribeiro, 2018 - USP).",
+      "suggested_fix": "Adicionar o item 3 na subseção 4.4 detalhando o impacto do outsourcing e da programação linear ([[universidade-de-são-paulo-3]] e [[universidade-de-são-paulo]]) sobre o papel criativo vs. curatorial da estilista.",
+      "needs_fetch": false
+    }
+  ]
+}

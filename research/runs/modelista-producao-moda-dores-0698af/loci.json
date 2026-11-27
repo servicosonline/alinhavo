@@ -1,0 +1,78 @@
+{
+  "loci": [
+    {
+      "name": "comunicacao-criacao-modelagem-desenho-e-ficha-tecnica",
+      "one_line": "As falhas de tradução e o retrabalho entre estilo e modelagem decorrem principalmente da precariedade dos desenhos técnicos/fichas enviados pelos estilistas ou de lacunas na formação técnica e metodológica das modelistas?",
+      "flavor": "dialectical",
+      "importance": 10,
+      "uncertainty": 7,
+      "disagreement": 8,
+      "decision_impact": 9,
+      "composite_score": 34,
+      "source_budget": 9,
+      "rationale": "Existe tensão direta sobre a principal dor na interface criação-modelagem, e vários artigos brasileiros do corpus (Projética/UEL, Modapalavra/UDESC, Revista da META/CEFET-MG) estão apenas com resumo OJS, exigindo extração dos dados quantitativos de falhas de desenho técnico, fichas técnicas incompletas e lacunas formativas de estilistas e modelistas."
+    },
+    {
+      "name": "prototipagem-virtual-3d-vs-peca-piloto-fisica",
+      "one_line": "Em quais etapas e condições a simulação e prototipagem virtual 3D (CLO3D, Optitex, Lectra Modaris 3D, Audaces 3D) realmente reduz o retrabalho de pilotagem da modelista, e onde introduz novas dores técnicas de parametrização de tecido e distorção de caimento?",
+      "flavor": "dialectical",
+      "importance": 9,
+      "uncertainty": 8,
+      "disagreement": 8,
+      "decision_impact": 8,
+      "composite_score": 33,
+      "source_budget": 8,
+      "rationale": "Enquanto artigos da Indústria 4.0 afirmam redução de amostras físicas, estudos experimentais mostram travas de espessura de 0,5 mm, divergências de folga de até 47,3% na cintura, distorção de 120% na postura sentada e sobrecarga de parametrização físico-mecânica de tecidos para a modelista."
+    },
+    {
+      "name": "normalizacao-abnt-vs-gradacao-real-e-biotipos",
+      "one_line": "Por que as normas de medidas da ABNT (NBR 16933:2021, NBR 16060, NBR 15800) não eliminaram a dor crônica da modelista na construção de bases e na gradação de tamanhos (plus size, biótipo colher, idosos e infantil) na indústria brasileira?",
+      "flavor": "dialectical",
+      "importance": 9,
+      "uncertainty": 7,
+      "disagreement": 7,
+      "decision_impact": 8,
+      "composite_score": 31,
+      "source_budget": 8,
+      "rationale": "Choque direto entre a prescrição normativa da ABNT/SizeBR e a não obrigatoriedade, o vanity sizing comercial e as distorções geométricas da gradação cartesiana a partir do tamanho 40/M em biótipos reais brasileiros."
+    },
+    {
+      "name": "ergonomia-fisica-cognitiva-e-condicoes-de-trabalho-da-modelista",
+      "one_line": "Quais são as exigências ergonômicas (físicas, posturais, visuais e cognitivas), os riscos ocupacionais (LER/DORT), o perfil CBO/SENAI e as pressões organizacionais que afetam especificamente a modelista de mesa e a modelista de CAD no Brasil?",
+      "flavor": "technical",
+      "importance": 9,
+      "uncertainty": 7,
+      "disagreement": 5,
+      "decision_impact": 8,
+      "composite_score": 29,
+      "source_budget": 8,
+      "rationale": "O estudo específico sobre ergonomia física da modelista (Planca, Merino & Merino, 2016) e os referenciais ocupacionais CBO 3188-10 / 7631-15 e SENAI precisam de aprofundamento empírico para detalhar bancadas, posturas, ferramentas, carga mental e mercado de trabalho recente."
+    },
+    {
+      "name": "interfaces-chao-de-fabrica-pilotagem-encaixe-corte-e-faccoes",
+      "one_line": "Como funcionam na prática as tarefas e dores da modelista nas interfaces operacionais a jusante — pilotagem, encaixe/risco (aproveitamento têxtil vs. restrições de fio e largura), sala de corte, lavanderia (testes de encolhimento) e controle de qualidade em facções terceirizadas?",
+      "flavor": "synthesis",
+      "importance": 9,
+      "uncertainty": 6,
+      "disagreement": 5,
+      "decision_impact": 8,
+      "composite_score": 28,
+      "source_budget": 7,
+      "rationale": "Sistematiza as dores técnicas da modelista com variações de largura de rolo, cálculo de encolhimento pós-lavanderia em jeans e malha, ausência de piques/gabaritos para facções externas e pressão contraditória por aproveitamento de matéria-prima no encaixe."
+    }
+  ],
+  "skip_loci": [
+    {
+      "slug": "modelagem-plana-vs-moulage-isoladamente",
+      "reason": "Rejeitado como locus isolado porque o próprio grafo de contradições e as teses integrais no vault (Beduschi, 2013) já demonstram consenso de que na indústria os métodos são complementares (moulage na concepção/formas complexas e modelagem plana/CAD para gradação e encaixe)."
+    },
+    {
+      "slug": "ensino-aprendizagem-pbl-universitario",
+      "reason": "Rejeitado por ser tangencial à query central do usuário: foca em didática acadêmica para estudantes de graduação e não nas responsabilidades, tarefas e dores da modelista no processo produtivo industrial."
+    },
+    {
+      "slug": "zero-waste-vs-modelagem-convencional",
+      "reason": "Cluster de relevância média que cobre apenas uma sub-dor de encaixe/desperdício já bem documentada no corpus atual e integrada ao locus 5 de chão de fábrica e encaixe."
+    }
+  ]
+}

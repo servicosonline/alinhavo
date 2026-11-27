@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "O processo produtivo convencional da indústria de confecção do vestuário em larga escala gera grandes quantidades de resíduos têxteis durante o corte e modelagem.",
+    "stance": "supports",
+    "stance_target": "Desperdício de matéria-prima e geração de resíduos no setor de modelagem e corte das confecções",
+    "evidence_type": "theoretical",
+    "scope_conditions": "Indústria de confecção têxtil e do vestuário em larga escala",
+    "quoted_support": "O processo produtivo da indústria de confecção têxtil em larga escala, bem como em outros segmentos, é estimulado pelo constante aumento do consumo e produz grandes quantidades de resíduos, que ameaçam o meio ambiente e a sobrevivência do planeta.",
+    "numbers": [],
+    "entities": ["Escola de Artes, Ciências e Humanidades (EACH)", "USP", "Lilian Sayuri Kauvauti"],
+    "time_period": "2022",
+    "region": "Brasil (São Paulo)",
+    "confidence": "high",
+    "source_note_id": "modelagem-zero-waste-e-sua-aplicação-na-indústria-do-vestuário-conceitos-prática"
+  },
+  {
+    "claim": "A aplicação direta de abordagens de modelagem zero waste (zero resíduo) na indústria do vestuário em larga escala enfrenta limitações práticas e técnicas em comparação com o processo convencional de modelagem e encaixe.",
+    "stance": "supports",
+    "stance_target": "Barreiras técnicas na etapa de modelagem e encaixe para eliminar desperdício de tecido em escala industrial",
+    "evidence_type": "empirical",
+    "scope_conditions": "Produção de vestuário em larga escala comparada a experimentos de modelagem zero waste",
+    "quoted_support": "A pesquisa possibilitou a identificação de diversas limitações da modelagem zero waste, comparações com o processo convencional e discussões sobre alternativas viáveis para sua implementação no processo produtivo de confecção de vestuário em larga escala.",
+    "numbers": [],
+    "entities": ["USP", "Lilian Sayuri Kauvauti", "Isabel Cristina Italiano"],
+    "time_period": "2022",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "modelagem-zero-waste-e-sua-aplicação-na-indústria-do-vestuário-conceitos-prática"
+  }
+]

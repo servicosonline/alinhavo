@@ -1,0 +1,52 @@
+[
+  {
+    "claim": "A AUSÊNCIA DA PADRONIZAÇÃO DE MEDIDAS NO VESTUÁRIO INFANTIL Gisely Andressa Pires, mestranda do PPGDesign - UNESP Tamissa Juliana Barreto Berton, mestranda do PPGDesign – UNESP Marizilda dos Santos Menezes, docente do PPGDesign - UNESP Resumo: Na tentativa de criar produtos cada vez mais atraentes, a indústria do vestuário infantil busca inovar tanto em aspectos de design como conforto e qualidade.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Gramado – RS",
+    "quoted_support": "A AUSÊNCIA DA PADRONIZAÇÃO DE MEDIDAS NO VESTUÁRIO INFANTIL Gisely Andressa Pires, mestranda do PPGDesign - UNESP Tamissa Juliana Barreto Berton, mestranda do PPGDesign – UNESP Marizilda dos Santos Menezes, docente do PPGDesign - UNESP Resumo: Na tentativa de criar produtos cada vez mais atraentes, a indústria do vestuário infantil busca inovar tanto em aspectos de design como conforto e qualidade.",
+    "numbers": [],
+    "entities": [
+      "Gramado – RS"
+    ],
+    "time_period": "2016-2026",
+    "region": "Brasil",
+    "confidence": "medium",
+    "source_note_id": "gramado-rs"
+  },
+  {
+    "claim": "Considerado no mercado como um dos segmentos com crescimento acelerado, a indústria do vestuário infantil está deixando a desejar no desenvolvimento e estrutura da modelagem da roupa.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Gramado – RS",
+    "quoted_support": "Considerado no mercado como um dos segmentos com crescimento acelerado, a indústria do vestuário infantil está deixando a desejar no desenvolvimento e estrutura da modelagem da roupa.",
+    "numbers": [],
+    "entities": [
+      "Gramado – RS"
+    ],
+    "time_period": "2016-2026",
+    "region": "Brasil",
+    "confidence": "medium",
+    "source_note_id": "gramado-rs"
+  },
+  {
+    "claim": "Pensando em uma forma de padronizar as medidas a ABNT- Associação Brasileira de Normas e Técnicas colocou em vigor a NBR 15800, estabelecendo parâmetros com referenciais de medidas do corpo infantil para auxiliar as indústrias na padronização de Palavras-chave: padronização, modelagem, medidas, infantil Abstract: In trying to create increasingly attractive products, the children's clothing industry seeks to innovate in both design aspects such as comfort and quality.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Gramado – RS",
+    "quoted_support": "Pensando em uma forma de padronizar as medidas a ABNT- Associação Brasileira de Normas e Técnicas colocou em vigor a NBR 15800, estabelecendo parâmetros com referenciais de medidas do corpo infantil para auxiliar as indústrias na padronização de Palavras-chave: padronização, modelagem, medidas, infantil Abstract: In trying to create increasingly attractive products, the children's clothing industry seeks to innovate in both design aspects such as comfort and quality.",
+    "numbers": [
+      "15800,"
+    ],
+    "entities": [
+      "Gramado – RS"
+    ],
+    "time_period": "2016-2026",
+    "region": "Brasil",
+    "confidence": "medium",
+    "source_note_id": "gramado-rs"
+  }
+]

@@ -1,0 +1,454 @@
+{
+  "ok": true,
+  "data": {
+    "query": "modelagem do vestuario processo produtivo confeccao",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 0,
+      "doab": 0
+    },
+    "raw_records": 20,
+    "merged_records": 20,
+    "returned": 20,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Modelagem no design do vestuário",
+        "source": "openalex",
+        "url": "https://dspace.palermo.edu/ojs/index.php/actas/article/view/2781",
+        "doi": "10.18682/add.vi9.2781",
+        "year": 2020,
+        "authors": [
+          "Walkiria Guedes De Souza"
+        ],
+        "venue": "Actas de Diseño",
+        "abstract": "A indústria de confecção do vestuário, atende a uma necessidade básica do ser humano, o vestir. Inserida na cadeia têxtil, cujas etapas industriais vão desde o beneficiamento das fibras até a confecção de peças prontas para o uso, a confecção é a última atividade industrial antes da comercialização. Ela produz, em escala industrial, a transformação de tecidos planos ou malhas em peças do vestuário.",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/actas/article/download/2781/4642",
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "W7216037875",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "VESTUÁRIO INDUSTRIALIZADO: USO DA ERGONOMIA NAS FASES DE GERÊNCIA DE PRODUTO, CRIAÇÃO, MODELAGEM E PROTOTIPAGEM",
+        "source": "openalex",
+        "url": "https://doi.org/10.17771/pucrio.acad.18873",
+        "doi": "10.17771/pucrio.acad.18873",
+        "year": 2011,
+        "authors": [
+          "Lucas da Rosa"
+        ],
+        "venue": null,
+        "abstract": "A indústria de confecção do vestuário faz parte de um dos setores da economia mundial com grande destaque em termos de volume de produção, faturamento e geração de empregos diretos e indiretos. Porém, o sistema educacional brasileiro voltado para o ensino em nível superior, nesta área é de formação recente e as bases de pesquisa em várias fases do processo produtivo estão em construção, em especial, nas etapas de concepção do produto e produção em série. A hipótese desta pesquisa se refere ao uso intuitivo da ergonomia, na fase de concepção do produto do setor vestuarista e como isso impede a sua aplicação correta do método ergonômico, para agregar mais qualidade ao produto final. O objetivo principal deste trabalho foi o de sistematizar sobre a utilização da ergonomia nas fases de Gerência de Produto, Criação, Modelagem e Prototipagem na confecção do vestuário. Para alcançar esse objetivo geral foram estudadas, especificamente, as questões que permitiram apresentar a estrutura organizacional da cadeia têxtil, com ênfase na confecção do vestuário; investigar a aplicação da ergonomia na Gerência de Produto, Criação, Modelagem e Prototipagem; identificar a aplicação da qualidade ergonômica em produtos do vestuário. Com base na pesquisa de campo, confirmou-se a hipótese que a qualidade ergonômica é utilizada de forma intuitiva e, para tanto - apesar de ainda não ter sido testado em empresas - foi desenvolvido um modelo para auxiliar na etapa de concepção de produtos do vestuário e na disseminação da ergonomia, com o objetivo de melhorar a relação entre usuário e produto.",
+        "pdf_url": "https://www.maxwell.vrac.puc-rio.br/18873/18873_1.PDF",
+        "citation_count": 28,
+        "work_type": "thesis",
+        "identifier": "W4252118256",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Zero Waste na indústria do vestuário: limitações e alternativas",
+        "source": "openalex",
+        "url": "https://doi.org/10.18472/sustdeb.v13n2.2022.40716",
+        "doi": "10.18472/sustdeb.v13n2.2022.40716",
+        "year": 2022,
+        "authors": [
+          "Isabel Cristina Italiano",
+          "Lílian Sayuri Kauvauti",
+          "Jo�ão Paulo Pereira Marcicano"
+        ],
+        "venue": "Sustainability in Debate",
+        "abstract": "A abordagem Zero Waste (ou zero resíduo), aplicada à produção do vestuário, promete a eliminação dos descartes têxteis durante o processo produtivo, promovendo ações em direção à sustentabilidade. Dentro dessa perspectiva, o presente artigo busca identificar aspectos críticos e limitações do processo de criação e modelagem usando a abordagem Zero Waste, para sua aplicação na indústria do vestuário, na produção em larga escala. Para tanto, a pesquisa partiu de bibliografia relacionada ao tema e do estudo teórico e experimental das propostas dos principais designers do vestuário que utilizam as técnicas de criação e modelagem com a abordagem Zero Waste e, como resultado, o artigo apresenta uma discussão sobre os aspectos limitantes e alternativas viáveis para sua implementação no processo produtivo de confecção de vestuário em larga escala.",
+        "pdf_url": "https://periodicos.unb.br/index.php/sust/article/download/40716/34468",
+        "citation_count": 11,
+        "work_type": "article",
+        "identifier": "W4296167764",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Modernização do Setor de Modelagem de Vestuário: Desenvolvimento de uma Ferramenta de Gestão do Processo Produtivo",
+        "source": "openalex",
+        "url": "https://doi.org/10.18406/2359-1269v11n72024485",
+        "doi": "10.18406/2359-1269v11n72024485",
+        "year": 2025,
+        "authors": [
+          "Julia Alves Bittencourt",
+          "Maria Concebida Pereira"
+        ],
+        "venue": "Revista Eixos Tech",
+        "abstract": "Este é o resumo: O artigo analisa a crescente demanda por agilidade na modelagem de vestuário, que ainda depende de controles manuais apesar das inovações tecnológicas. Propõe o uso do software Power BI para otimizar a comunicação e o controle dos processos. A metodologia, envolvendo revisão de literatura e questionário, revelou que muitos modelistas enfrentam desafios de controle e organização, utilizando métodos manuais para registrar atividades. A partir dos dados coletados, foi desenvolvida uma planilha no software Excel para alimentar um dashboard no software Power BI, oferecendo uma visão geral das demandas e melhorando a gestão e a comunicação. Os resultados mostraram que a centralização digital das informações economiza tempo, evita retrabalhos e melhora a experiência do usuário. O estudo conclui que essa ferramenta pode ser valiosa para modelistas autônomos e industriais, promovendo maior eficiência e organização. Para pesquisas futuras, recomenda-se aplicar o dashboard em diferentes ambientes de modelagem para avaliar os benefícios e ajustes necessários.",
+        "pdf_url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/download/485/305",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4407171873",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Modelagem Plana Industrial do Vestuário: diretrizes para a indústria do vestuário e o ensino-aprendizado",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2010v1n1p82",
+        "doi": "10.5433/2236-2207.2010v1n1p82",
+        "year": 2010,
+        "authors": [
+          "Marizilda dos Santos Menezes",
+          "Patrícia Aparecida de Almeida Spaine"
+        ],
+        "venue": "Projetica",
+        "abstract": "The work shows the importance of process modeling in industrial flat field fashion design. This was achieved by a qualitative study identifying vision of modelers, students and teachers about this stage of development and production clothing product in the regional center of Londrina - PR. This research allowed the development of methodological guidelines for the teaching and preparation Modeling Industrial flat clothing.",
+        "pdf_url": "https://ojs.uel.br/revistas/uel/index.php/projetica/article/download/7737/6858",
+        "citation_count": 41,
+        "work_type": "article",
+        "identifier": "W1967048349",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A interdisciplinaridade no ensino da modelagem do vestuário",
+        "source": "openalex",
+        "url": "https://repositorio.unesp.br/handle/11449/153310",
+        "doi": null,
+        "year": 2018,
+        "authors": [
+          "Débora Mizubuti Brito"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W2795663509",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "closed"
+        }
+      },
+      {
+        "title": "Diretrizes para o ensino de modelagem do vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2013.tde-19022014-213611",
+        "doi": "10.11606/d.100.2013.tde-19022014-213611",
+        "year": 2013,
+        "authors": [
+          "Danielle Paganini Beduschi"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This research discusses historical analysis of methodologies for pattern making teaching and proposes the development of guidelines for teaching. The study presents a historical survey about the various techniques and methods used since the 1960s, making a balance between method and socio-cultural period in order to search for techniques to facilitate the learning process under discussion. The analysis of the main pattern making techniques used over time, the curricula of leading Fashion Graduation programs, and the research with professional educators, will provide a broad overview of what can be used to optimize the learning process and what should be discarded for not favoring a faster and better training. After the study in question, this project proposes a set of guidelines that encourage the transformation of the student in a qualified professional to act in Pattern making clothing.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-19022014-213611/publico/DanielleBeduschirevisaoOutubro.pdf",
+        "citation_count": 16,
+        "work_type": "thesis",
+        "identifier": "W2163966604",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Transformações digitais da confecção têxtil em domicílio no Brasil: práticas e percursos de apropriação de um software livre para a modelagem de vestuário",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.47328/ufvbbt.2024.376",
+        "doi": "10.47328/ufvbbt.2024.376",
+        "year": 2024,
+        "authors": [
+          "Juan Sebastián Restrepo González"
+        ],
+        "venue": null,
+        "abstract": "A transformação digital da manufatura configura-se como uma realidade concreta diante da qual as pessoas e as organizações precisam construir estratégias para a gestão dos espaços de produção em diálogo com as novas tecnologias e com as mudanças no mundo do trabalho associadas a elas. Nesta pesquisa, focamos a atenção na indústria da confecção de vestuário em domicílio, onde o trabalho feminino se destaca por sua natureza individualizada, informal e por enfrentar limitações no acesso, uso e adaptação de novas tecnologias. Nosso interesse específico reside na digitalização da etapa de modelagem, dada sua importância em ampliar a participação das costureiras no processo de produção. Nesse cenário identificamos o software livre Valentina como uma tecnologia adequada para a modelagem digital, considerando suas características alinhadas às condições comuns na confecção em domicílio. A popularização desse software no Brasil teve início em 2020, com a divulgação de conteúdo em português na internet e a formação de grupos em redes sociais digitais destinados ao compartilhamento de experiências e informações sobre o seu uso. O objetivo principal desta pesquisa foi analisar as mudanças nas práticas diárias de manufatura de indivíduos que participam desses grupos. Utilizamos o conceito de “percursos de apropriação” para analisar as trajetórias percorridas pelas participantes na integração de uma nova ferramenta digital em suas confecções. A participação em grupos de redes sociais foi abordada como uma prática de apropriação tecnológica, representando uma atividade recorrente na qual as costureiras buscam aumentar seu conhecimento sobre o software e outras tecnologias relacionadas, visando integrá-las ao cotidiano da confecção. Durante um período de 14 meses, foram conduzidas entrevistas semiestruturadas com seis participantes de um grupo no WhatsApp. Além disso, houve uma observação sistemática da interação no aplicativo e participação em algumas atividades do grupo. A pesquisa abrangeu participantes diversificadas em termos de práticas de manufatura, estratégias de apropriação e histórico envolvendo costura. Esse enfoque permitiu a identificação de elementos cruciais que influenciam os caminhos de apropriação de cada costureira, incluindo o histórico de envolvimento com a costura, as condições socioeconômicas, o tipo de formação e os objetivos produtivos e empresariais. A participação em redes sociais como estratégia de apropriação evidencia a importância dos processos autônomos de formação e capacitação fora do ambiente escolar, ressaltando também o papel das tecnologias de informação e comunicação nesses processos. As alterações nas práticas diárias de manufatura das participantes foram analisadas em três dimensões: a processual, que revelou transformações nos procedimentos das confecções, possibilitando a oferta de novos produtos e serviços; a dimensão tecnológica que explorou as relações entre as tecnologias anteriormente utilizadas, as tecnologias em processo de apropriação e as tecnologias para a apropriação; e a dimensão relacional, na qual foi identificada a construção de colaboração entre costureiras no Brasil e internacionalmente, assim como a formação de uma imagem moderna da costureira conectada às últimas tecnologias. Palavras-chave: Apropriação Tecnológica; Confecção em Domicílio; Modelagem Digital; Software Livre.",
+        "pdf_url": "https://locus.ufv.br/bitstreams/b29fce77-b809-4004-9ada-242ae8ae030f/download",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4401597362",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Modelagem do Vestuário: Catalogação de Técnicas e Métodos",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/9786555501421-18",
+        "doi": "10.5151/9786555501421-18",
+        "year": 2022,
+        "authors": [
+          "Régis Puppim",
+          "Danielle Paganini Beduschi"
+        ],
+        "venue": "Editora Blucher eBooks",
+        "abstract": "Através dos tempos o vestuário e a(s) prática(s) do vestir têm, claramente, se adequado às vogas, moda(s), modismos, costumes e/ou culturas. Com isso, as formas, cores, tecidos e ornamentos são facilmente identificados e, até mesmo, datados, temporalmente. Porém, nem sempre consegue-se observar a evolução existente nas “estruturas construtivas” do vestuário, conhecidamente como “modelagem”, “molde” e/ou “padrão”. Portanto, este capítulo apresenta uma catalogação de técnicas e métodos utilizadas na Modelagem do Vestuário, com objetivo de traçar diferentes panoramas: Histórico; Técnicas/Tipologias; e Questões emergentes/atuais e perspectivas do que está por vir.",
+        "pdf_url": "https://openaccess.blucher.com.br/download-pdf/554/23293",
+        "citation_count": 4,
+        "work_type": "book-chapter",
+        "identifier": "W4225665811",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "A RELAÇÃO DA MODELAGEM DO VESTUÁRIO PARA DIFERENTES BIÓTIPOS",
+        "source": "openalex",
+        "url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/view/773",
+        "doi": "10.18406/2359-1269v12n52025773",
+        "year": 2026,
+        "authors": [
+          "Andréa de Jesus Santos",
+          "Priscyla Kelly Vieira Abreu"
+        ],
+        "venue": "Revista Eixos Tech",
+        "abstract": "This article contributes to the understanding and advancement of research on garment patternmaking strategies, which enable the creation of various silhouettes through the use of volume, lines, and drape. The study aims to present, investigate, and analyze the relationship between garment patternmaking adapted to different body types and its influence on the fit of clothing items. To this end, the article presents the characteristics of each body type, as well as examples of pattern designs and templates that aim to visually balance the proportions of female body types. Furthermore, the research, which adopts a qualitative and theoretical methodology based on a literature review, seeks to aggregate studies on adjustments and adaptations for different bodies, serving as a source of information for the market and academia. The study also highlights how the conscious choice of patterns can value body diversity, promote self-esteem, and communicate identity, combining aesthetics, functionality, and social expression.",
+        "pdf_url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/download/773/355",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7216182405",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "SIMULAÇÃO DO PROCESSO PRODUTIVO DE UMA CONFECÇÃO UTILIZANDO O SOFTWARE ARENA: UM ESTUDO DE CASO",
+        "source": "openalex",
+        "url": "https://www.perspectivasonline.com.br/exatas_e_engenharia/article/view/1075",
+        "doi": "10.25242/885x71720171075",
+        "year": 2017,
+        "authors": [
+          "João Paulo Barros Rodrigues",
+          "César Paulo Barros Rodrigues",
+          "Tiago Bittencourt Nazaré",
+          "Bruno Carlos Alves Pinheiro"
+        ],
+        "venue": "Exatas & Engenharia",
+        "abstract": "A busca progressiva da produtividade e competitividade é a circunstância primordial para a sobrevivência das empresas. As indústrias de roupas vêm passando por varias mudanças em seus processos produtivos. Este trabalho tem como objetivo identificar a capacidade produtiva do processo de fabricação de calças jeans, por meio de técnicas de simulação computacional. Os dados foram coletados pelo processo de cronoanálise através de visitas a empresa de confecção de vestuário, que tem como seu produto a fabricação de calças jeans masculina. Os dados coletados foram processados por meio da simulação computacional através do software Arena® Student 12.O estudo apontou que a empresa tem uma capacidade produtiva 318 calças\\dia.",
+        "pdf_url": "http://www.aedb.br/seget/arquivos/artigos07/1183_Modelo%20de%20Simulacao%20de%20Lotes%20para%20a%20Producao%20na%20Industria%20de%20Confeccao.pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2608499792",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "O ensino da modelagem do vestuário sob as diretrizes do método PBL",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/25944630412020180",
+        "doi": "10.5965/25944630412020180",
+        "year": 2020,
+        "authors": [
+          "Débora Mizubuti Brito",
+          "Patrícia Aparecida de Almeida Spaine",
+          "Raquel Rabelo Andrade"
+        ],
+        "venue": "Revista de Ensino em Artes Moda e Design",
+        "abstract": "A modelagem enquanto parte do processo de desenvolvimento dos produtos do vestuário, é compreendida como decisiva para o sucesso do desempenho do produto. Sua execução e ensino, bem como as problemáticas que envolvem ambas estas atividades, têm sido tema de estudo de autores da área, dada a necessidade percebida de se reinventar e incrementar o modo de operação. Este estudo discorre sobre os métodos de ensino-aprendizado da modelagem que vinculam o hibridismo às técnicas tradicionais, apresentando diretrizes para seu processo de ensino; bem como estabelece conexões entre o ensino da modelagem entre a método PBL. Como resultado, visa apresentar um conjunto de ações para aplicação do PBL no processo de ensino e construção da modelagem híbrida.",
+        "pdf_url": "https://www.periodicos.udesc.br/index.php/ensinarmode/article/download/16356/11137",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W3005755731",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Ergonomia física: as exigências presentes na atuação de modelista do vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1982615x09182016281",
+        "doi": "10.5965/1982615x09182016281",
+        "year": 2016,
+        "authors": [
+          "Sabrina Helena Planca",
+          "Eugênio Andrés Díaz Merino",
+          "Giselle Schmidt Alves Díaz Merino"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "As indústrias de confecção de vestuário representam um setor importante da economia no Brasil. Em 2012, o país foi classificado como a quarta maior potência na atividade industrial de confecção de vestuário e acessórios do mundo. O estado de Santa Catarina se destaca no setor, principalmente, pela Região do Vale do Itajaí, sendo descrita como um dos polos têxteis e confeccionistas mais avançados do país. Uma das atividades que faz parte do processo produtivo de confecção é a de modelagem que, dependendo da empresa pode ser realizada internamente ou, de forma externa em escritórios (bureaux) de modelagem. Neste caso, foi analisada a atividade realizada em um escritório de modelagem com o objetivo de identificar as exigências físicas associadas a atividade, como forma de gerar um diagnóstico e propor medidas de melhoria. Para esta finalidade o estudo foi dividido em duas etapas, sendo uma de cunho teórico que buscou levantar uma base teórica sobre o assunto e outra de cunho aplicado, caracterizando-se como estudo de caso em um escritório de modelagem, localizado na cidade de Gaspar/SC, se utilizando de observações, visitas in loco, entrevistas e a aplicação do Questionário Nórdico. Como resultado foi possível evidenciar que a literatura apresenta limitados estudos focando esta atividade, e em específico o estudo de caso acusou problemas no ambiente de trabalho, como por exemplo: mobiliário inadequado, espaço reduzido, exigências de atingimento de metas, em se tratando de uma atividade autônoma, reflexos diretos na saúde física com queixas de dores e desconfortos em várias partes do corpo, principalmente na região cervical e membros superiores, os quais se associam diretamente às posturas adotadas, exigidas pela atividade e condicionadas pelo mobiliário. Outros aspectos que não faziam parte do estudo ficaram evidentes, como por exemplo, as exigências cognitivas advindas da pressão do trabalho.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/modapalavra/article/download/6881/5634",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W2468553404",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Desenho Técnico de Moda e Suas Funções na Confecção do Vestuário",
+        "source": "openalex",
+        "url": "https://periodicos.cefetmg.br/index.php/revistadameta/article/download/848/746",
+        "doi": null,
+        "year": 2018,
+        "authors": [
+          "Mariana Arantes e Silva",
+          "Lucília Lemos de Andrade"
+        ],
+        "venue": null,
+        "abstract": "O desenho de moda na industria do vestuario tem grande importância na melhoria da comunicacao entre as diferentes etapas de producao, principalmente entre os setores de criacao e de modelagem. Por ser utilizado como base para no desenvolvimento de novos produtos, o desenho tecnico e a ferramenta mais importante em um projeto de moda, sendo o meio de comunicacao entre quem cria (o designer), quem compra e quem produz. Por isso, a completude das partes do desenho e fundamental para otimizacao do processo produtivo. Baseado nessa realidade, o presente projeto busca levantar dados sobre os padroes de representacao grafica do desenho tecnico de moda, suas principais funcoes e a importância desse tipo de desenho dentro das confeccoes do vestuario. E assim, desenvolver uma cartilha com tecnicas, padroes e metodos de representacao grafica de pecas do vestuario, possibilitando um melhor ensino/aprendizagem aos professores e alunos do curso Tecnico em Producao de Moda do CEFET/MG.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2934248034",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "closed"
+        }
+      },
+      {
+        "title": "MODELAGEM DO VESTUÁRIO A PARTIR DAS PERCEPÇÕES DOS PROFESSORES EM SANTA CATARINA",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1808312912182017068",
+        "doi": "10.5965/1808312912182017068",
+        "year": 2017,
+        "authors": [
+          "Maicon Douglas Livramento Nishimura",
+          "Lizandra Garcia Lupi Vergara",
+          "Leila Amaral Gontijo"
+        ],
+        "venue": "DAPesquisa",
+        "abstract": "A modelagem é um processo fundamental para o desenvolvimento do produto de moda, afinal, é por meio dele que se concebe fisicamente a roupa. Entretanto, muitos defeitos que se apresentam no mercado poderiam ser evitados nessa etapa, a partir da adequação da peça às questões de usabilidade e o uso de medidas compatíveis com o público que se almeja atingir. Ao partir da premissa que o mercado tem buscado profissionais qualificados, com formações na área de moda, para ocupar o cargo de estilista, buscou-se conhecer sobre as percepções de professores sobre a etapa de modelagem no processo de desenvolvimento do produto de moda. Utilizou-se de entrevista semiestruturada para o levantamento dos dados e da análise de conteúdo para o tratamento dos mesmos. Participaram da pesquisa 15 professores de modelagem da Grande Florianópolis e do Vale do Itajaí e foi possível perceber que eles consideram a disciplina de grande importância para o desenvolvimento do produto de moda, porque é nessa etapa que o produto se materializa e a roupa é pensada ergonomicamente.",
+        "pdf_url": "http://www.revistas.udesc.br/index.php/dapesquisa/article/download/8712/6603",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W2612621793",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "O ensino da modelagem do vestuário no processo de desenvolvimento de produtos: uma revisão sistemática de literatura",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/ped2022-2463318",
+        "doi": "10.5151/ped2022-2463318",
+        "year": 2022,
+        "authors": [
+          "Mara Rubia Theis",
+          "Emanoela Mardula",
+          "Eugênio Andrés Díaz Merino"
+        ],
+        "venue": null,
+        "abstract": "O objetivo deste estudo está em mapear e analisar a produção científica sobre o ensino da modelagem do vestuário no processo de desenvolvimento de produtos. Como recorte temporal, avaliaram-se trabalhos publicados entre 2010 e 2022. Por meio de uma abordagem qualitativa, realizou-se uma Revisão Sistemática de Literatura. Foram identificados 117 documentos entre dissertações e teses, após análise de metadados, restaram 23 trabalhos para a análise indutiva de conteúdo. Entende-se que as pesquisas stricto sensu possuem relação com o planejamento pedagógico, e estão atreladas aos métodos de ensino acadêmicos. Constatou-se que professores e pesquisadores têm se dedicado em proposições metodologias educacionais inovadoras, estratégias didáticas, ferramentas, modelos ou diretrizes para facilitar o ensino e a aprendizagem da modelagem do vestuário. Estima-se que há necessidade de desenvolvimento de métodos de ensino que contemplem a usabilidade e favoreça a compreensão do conhecimento procedural.",
+        "pdf_url": "http://pdf.blucher.com.br/designproceedings/ped2022/2463318.pdf",
+        "citation_count": 2,
+        "work_type": "other",
+        "identifier": "W4319313938",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Diagnóstico da gestão do processo de desenvolvimento de produto: um estudo de caso na indústria de confecção do vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.22456/1983-8026.24102",
+        "doi": "10.22456/1983-8026.24102",
+        "year": 2012,
+        "authors": [
+          "Isabel Cristina Moretti",
+          "Aline Silva Culchesk",
+          "Aldo Braghini"
+        ],
+        "venue": "Produto & Produção",
+        "abstract": "O processo de desenvolvimento de produtos (PDP) é um diferencial para manter as empresas competitivas. Na indústria de confecção, o desenvolvimento de produto é dinâmico e sofre grande influência das variações do mercado. Neste contexto, para a estruturação do PDP se faz necessária a utilização de modelos que estabeleçam etapas sistematizadas para o processo. O presente trabalho tem como objetivo apresentar um caso de utilização de um modelo para fins de diagnóstico do processo de desenvolvimento de produto em uma indústria têxtil de confecção de vestuário. Para isso, é realizada uma análise do PDP na empresa estudada, tomando como base o modelo de referência de Rozenfeld et al., (2006). O método principal é o estudo de caso, e os instrumentos de coleta são entrevistas e visitas técnicas a empresa. Como resultado, tem-se uma análise do PDP da empresa e posterior verificação do nível de maturidade do processo de desenvolvimento de produto. A utilização do modelo de referência demonstrou ser eficiente, sendo um bom padrão para avaliação do nível de evolução da empresa em desenvolvimento de produtos. Foi possível concluir que a empresa estudada apresenta um nível de maturidade básico para o desenvolvimento de produtos, revelando haver a necessidade de se intensificarem os estudos para estruturação do PDP da mesma, vislumbrando, ainda, uma conseqüente otimização.",
+        "pdf_url": "https://seer.ufrgs.br/ProdutoProducao/article/download/24102/23210",
+        "citation_count": 6,
+        "work_type": "article",
+        "identifier": "W1802920236",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Vestuário de moda luxo no Brasil: um estudo sobre a qualidade e a terceirização no processo produtivo",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2016.tde-30112016-004750",
+        "doi": "10.11606/d.100.2016.tde-30112016-004750",
+        "year": 2016,
+        "authors": [
+          "Camila Vitorino Marcelo"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "When thinking of luxury garments, there is a premise of a high added value and near exclusivity. Questions arise as regards to sustaining the quality of a luxury fashion product with its outsourced processes of development and production. The increased use of an outsourcing strategy for processes that do not make up the core business of enterprises has been present in the fashion sector. The luxury fashion manufacturers in Brazil did not escape the rule, and began to outsource parts of their development and production processes in order to increase their production capacity. From the aforementioned, the present paper aims to study the luxury fashion product and its quality with outsourcing. To that end, luxury was studied, taking into consideration its concepts and parameters, the luxury fashion product, the quality of this product, its development and production processes, seeking to identify possible inadequacies based on a case study. Regarding the methodological procedures, this research is characterized as exploratory, bibliographical, documentary and as a case study. The instrument for data collection was a field observation along with a semi structured interview with individuals who are in direct contact with the development and production of luxury fashion apparel products, using as a case study a renowned luxury fashion brand located in the west borough of city. What has been gathered is that there is a difference between the parameters of what is luxury fashion for national and international consumers and that somehow, outsourcing influences the quality of the final luxury fashion apparel product in Brazil",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-30112016-004750/publico/d.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2623559898",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Prototipagem Virtual: Softwares 3D para Modelagem de Vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2024.v15.n3.50575",
+        "doi": "10.5433/2236-2207.2024.v15.n3.50575",
+        "year": 2024,
+        "authors": [
+          "Silvia Cristina Silveira dos Santos",
+          "Icléía Silveira",
+          "Sandra Regina Rech"
+        ],
+        "venue": "Projetica",
+        "abstract": "O objetivo desta pesquisa foi elencar softwares 3D aplicados ao desenvolvimento de modelagem do vestuário, prototipagem virtual e geração de moldes para uso na indústria de vestuário. Para isso foi feita uma pesquisa básica, com abordagem qualitativa e descritivo. Foi utilizada a revisão teórica de literatura por meio de artigos científico, livros, relatório de tendências, sites de empresas de tecnologia e dissertações. Como resultado foi listado os softwares de modelagem 3D, sites de lojas de ativos digitais para softwares de assim como alguns softwares de modelagem 2D de código aberto. Constatou-se que a indústria de vestuário está iniciando a transição para às tecnologias digitais e os profissionais de desenvolvimento de produto precisam de novas habilidades e novas competências.",
+        "pdf_url": "https://ojs.uel.br/revistas/uel/index.php/projetica/article/download/50575/51429",
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "W4406216955",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "MODELAGEM DO VESTUÁRIO E ESTAMPA BARRADA: limitações, adaptações e simulações técnicas",
+        "source": "openalex",
+        "url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/view/761",
+        "doi": "10.18406/2359-1269v12n52025761",
+        "year": 2026,
+        "authors": [
+          "Daniele Cristina Coelho de Queiroz",
+          "Jussara Aparecida Teixeira"
+        ],
+        "venue": "Revista Eixos Tech",
+        "abstract": "This paper investigates the challenges encountered when fitting patterns onto fabrics with border prints, especially in long garments where the limited positioning of the print restricts fabric usage and may compromise both the aesthetic and functionality of the final product. The aim was to analyze the limitations imposed by this type of print and identify technical adaptations that could optimize pattern making, fabric layout, and the overall quality of the produced garments. The research involved a literature review, direct observation in the production environment, and digital simulations using CLO3D software to assess the positioning and the results of the patterning in relation to the print. The findings highlighted that border prints create challenges in fabric utilization, size grading, and aesthetic consistency, requiring adjustments in pattern making and the placement of the pattern pieces on the fabric. It concludes that collaboration between design and pattern making departments, combined with the use of digital tools, helps reduce fabric waste and improves the visual quality of garments made with border prints.",
+        "pdf_url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/download/761/357",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7216091538",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      }
+    ]
+  },
+  "count": 20,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T01:59:09.310327+00:00"
+}

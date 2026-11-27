@@ -230,7 +230,9 @@ export function RiscoEncaixe({ className = "" }: { className?: string }) {
   );
 }
 
-/** O símbolo partido nas duas partes do molde, para o carregamento juntar. */
+/**
+ * O símbolo partido nas duas partes do molde, para o carregamento juntar.
+ */
 export function SimboloEmPartes({ className = "" }: { className?: string }) {
   return (
     <svg viewBox="0 0 100 100" className={className} aria-hidden="true">
@@ -263,6 +265,273 @@ export function SimboloEmPartes({ className = "" }: { className?: string }) {
         strokeLinecap="round"
         strokeDasharray="9.52 8.57"
       />
+    </svg>
+  );
+}
+
+/**
+ * Rolo de tecido que se abre sobre a mesa com a rolagem:
+ * `.lp-rolo-cilindro` rola para a direita enquanto `.lp-rolo-pano` revela o tecido desenrolado
+ * com as partes do molde e a linha de fio pousadas por cima.
+ */
+export function RoloDesenrolando({ className = "" }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 920 260" className={`overflow-visible ${className}`} aria-hidden="true">
+      <defs>
+        <Sarja id="sarja-mesa" />
+        <Sarja id="sarja-tubo" />
+      </defs>
+      {/* Pano estendido na mesa (parado aparece inteiro; com scroll abre da esquerda para a direita). */}
+      <g className="lp-rolo-pano">
+        <rect x="48" y="36" width="770" height="188" rx="6" fill="url(#sarja-mesa)" stroke="var(--tinta)" strokeWidth="3" />
+        {/* Ourelas com pesponto amarelo */}
+        <path d="M58 48 L808 48 M58 212 L808 212" stroke="var(--fita)" strokeWidth="2.5" strokeDasharray="8 6" />
+        {/* Marcações de metragem na ourela */}
+        {[140, 280, 420, 560, 700].map((x, i) => (
+          <text
+            key={x}
+            x={x}
+            y="64"
+            fill="var(--papel)"
+            fillOpacity="0.7"
+            fontFamily="var(--font-geist-mono), monospace"
+            fontSize="10"
+          >
+            {`${i + 1},0 m`}
+          </text>
+        ))}
+        {/* Peças de molde pousadas sobre o tecido desenrolado */}
+        <g className="lp-rolo-pecas">
+          {/* Frente do corpete na dobra */}
+          <g data-rolo-peca="0">
+            <path
+              d="M84 74 L236 74 L252 118 C228 134 224 166 244 196 L84 196 Z"
+              fill="var(--papel)"
+              stroke="var(--tinta)"
+              strokeWidth="2.2"
+              strokeLinejoin="round"
+            />
+            <path d="M94 84 L228 84 L240 118 C218 132 214 162 232 186 L94 186 Z" fill="none" stroke="var(--linha)" strokeWidth="1.5" strokeDasharray="6 4" />
+            <path d="M122 135 L198 135 M190 130 L198 135 L190 140" fill="none" stroke="var(--tinta)" strokeWidth="1.6" strokeLinecap="round" />
+            <text x="122" y="126" fill="var(--tinta)" fontFamily="var(--font-geist-mono), monospace" fontSize="10">FRENTE · 1× DOBRA</text>
+          </g>
+          {/* Costas */}
+          <g data-rolo-peca="1">
+            <path
+              d="M278 74 L438 74 L450 196 L290 196 C302 158 298 118 278 74 Z"
+              fill="var(--papel)"
+              stroke="var(--tinta)"
+              strokeWidth="2.2"
+              strokeLinejoin="round"
+            />
+            <path d="M290 84 L428 84 L438 186 L300 186" fill="none" stroke="var(--linha)" strokeWidth="1.5" strokeDasharray="6 4" />
+            <path d="M330 135 L406 135 M398 130 L406 135 L398 140" fill="none" stroke="var(--tinta)" strokeWidth="1.6" strokeLinecap="round" />
+            <text x="330" y="126" fill="var(--tinta)" fontFamily="var(--font-geist-mono), monospace" fontSize="10">COSTAS · PAR</text>
+          </g>
+          {/* Manga com cabeça curva */}
+          <g data-rolo-peca="2">
+            <path
+              d="M484 82 C522 64 574 64 612 82 L636 192 L468 192 Z"
+              fill="var(--papel)"
+              stroke="var(--tinta)"
+              strokeWidth="2.2"
+              strokeLinejoin="round"
+            />
+            <path d="M492 92 C524 76 572 76 604 92 L624 182 L480 182 Z" fill="none" stroke="var(--linha)" strokeWidth="1.5" strokeDasharray="6 4" />
+            <path d="M520 140 L586 140 M578 135 L586 140 L578 145" fill="none" stroke="var(--tinta)" strokeWidth="1.6" strokeLinecap="round" />
+            <text x="512" y="128" fill="var(--tinta)" fontFamily="var(--font-geist-mono), monospace" fontSize="10">MANGA · PAR</text>
+          </g>
+          {/* Gola / revel */}
+          <g data-rolo-peca="3">
+            <path
+              d="M662 78 L788 78 L780 134 L670 134 Z"
+              fill="var(--fita)"
+              stroke="var(--tinta)"
+              strokeWidth="2.2"
+              strokeLinejoin="round"
+            />
+            <path
+              d="M666 148 L790 148 L782 194 L658 194 Z"
+              fill="var(--papel)"
+              stroke="var(--tinta)"
+              strokeWidth="2.2"
+              strokeLinejoin="round"
+            />
+            <text x="684" y="110" fill="var(--tinta)" fontFamily="var(--font-geist-mono), monospace" fontSize="10">CÓS · 89,4%</text>
+          </g>
+        </g>
+      </g>
+      {/* Cilindro do rolo na ponta direita, que gira e avança abrindo o tecido */}
+      <g className="lp-rolo-cilindro">
+        <ellipse cx="824" cy="130" rx="32" ry="108" fill="url(#sarja-tubo)" stroke="var(--tinta)" strokeWidth="3.2" />
+        <ellipse cx="824" cy="130" rx="22" ry="76" fill="none" stroke="var(--papel)" strokeOpacity="0.5" strokeWidth="2" />
+        <ellipse cx="824" cy="130" rx="13" ry="44" fill="var(--papel-escuro)" stroke="var(--tinta)" strokeWidth="2.5" />
+        <g className="lp-rolo-miolo">
+          <ellipse cx="824" cy="130" rx="5" ry="16" fill="var(--tinta)" />
+          <path d="M824 92 L824 168 M808 130 L840 130" stroke="var(--linha)" strokeWidth="2.5" strokeLinecap="round" />
+        </g>
+      </g>
+    </svg>
+  );
+}
+
+/**
+ * Manequim com frente, lado e costas que giram com o scroll (`.lp-giro-anel`),
+ * piques e costura animada que descem conforme a peça gira.
+ */
+export function ManequimGiro({ className = "" }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 320 420" className={`overflow-visible ${className}`} aria-hidden="true">
+      <defs>
+        <Sarja id="sarja-giro" />
+      </defs>
+      {/* Anel de giro 360° no chão do ateliê */}
+      <ellipse
+        className="lp-giro-anel"
+        cx="160"
+        cy="386"
+        rx="122"
+        ry="22"
+        fill="none"
+        stroke="var(--fita)"
+        strokeWidth="2.5"
+        strokeDasharray="10 7"
+      />
+      <path
+        className="lp-giro-seta"
+        d="M262 374 L282 384 L264 396"
+        fill="none"
+        stroke="var(--fita)"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      {/* Pedestal e haste */}
+      <path d="M160 342 L114 388 M160 342 L206 388 M160 342 L160 394" stroke="var(--tinta)" strokeWidth="6" strokeLinecap="round" />
+      <rect x="155" y="248" width="10" height="98" rx="3" fill="var(--tinta)" />
+
+      {/* Silhueta lateral suave atrás (mostra que o volume 3D tem profundidade e costas) */}
+      <g className="lp-giro-sombra" opacity="0.38">
+        <path
+          d="M82 68 C68 84 66 122 72 154 C76 178 64 218 58 278 L118 278 C114 218 106 178 108 150 C110 118 104 82 82 68 Z"
+          fill="var(--papel-escuro)"
+          stroke="var(--tinta)"
+          strokeWidth="2"
+          strokeDasharray="4 4"
+        />
+        <path
+          d="M238 68 C252 84 254 122 248 154 C244 178 256 218 262 278 L202 278 C206 218 214 178 212 150 C210 118 216 82 238 68 Z"
+          fill="var(--papel-escuro)"
+          stroke="var(--tinta)"
+          strokeWidth="2"
+          strokeDasharray="4 4"
+        />
+      </g>
+
+      {/* Busto principal que gira no eixo vertical */}
+      <g className="lp-giro-corpo">
+        <rect x="148" y="26" width="24" height="28" fill="var(--papel-escuro)" stroke="var(--tinta)" strokeWidth="2.5" />
+        <ellipse cx="160" cy="26" rx="19" ry="6" fill="var(--tinta)" />
+        {/* Corpete em sarja jeans */}
+        <path
+          d="M146 52 C128 56 90 58 78 74 C68 90 74 118 78 138 C84 166 102 178 104 196 L216 196 C218 178 236 166 242 138 C246 118 252 90 242 74 C230 58 192 56 174 52 Z"
+          fill="url(#sarja-giro)"
+          stroke="var(--tinta)"
+          strokeWidth="2.8"
+          strokeLinejoin="round"
+        />
+        {/* Saia / calça em fita amarela com pences */}
+        <path
+          d="M104 196 C100 220 78 242 74 298 L154 298 L160 236 L166 298 L246 298 C242 242 220 220 216 196 Z"
+          fill="var(--fita)"
+          stroke="var(--tinta)"
+          strokeWidth="2.8"
+          strokeLinejoin="round"
+        />
+        {/* Mapa de folga/tensão discreto na cintura (verde/terracota do ofício) */}
+        <path
+          className="lp-giro-tensao"
+          d="M104 196 Q160 206 216 196"
+          fill="none"
+          stroke="var(--linha)"
+          strokeWidth="5"
+          strokeLinecap="round"
+        />
+        {/* Costura central e linhas de princesa */}
+        <path
+          className="lp-giro-costura"
+          d="M160 54 L160 236 M124 66 C118 118 126 158 126 196 M196 66 C202 118 194 158 194 196"
+          fill="none"
+          stroke="var(--papel)"
+          strokeWidth="2.2"
+          strokeDasharray="7 5"
+        />
+      </g>
+      {/* Etiqueta de ângulo */}
+      <g fontFamily="var(--font-geist-mono), monospace" fontSize="10" fill="var(--papel)">
+        <rect x="112" y="398" width="96" height="18" rx="9" fill="var(--tinta)" stroke="var(--fita)" strokeWidth="1.5" />
+        <text x="160" y="410" textAnchor="middle">GIRO 360° · 3 VISTAS</text>
+      </g>
+    </svg>
+  );
+}
+
+/**
+ * Cartão de entrega da peça pronta: caderno de oficina com molde graduado,
+ * prova 3D aprovada, risco encaixado e ficha técnica fechada com carimbo de corte.
+ */
+export function FichaPronta({ className = "" }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 380 230" className={className} aria-hidden="true">
+      <rect x="6" y="6" width="368" height="218" rx="10" fill="var(--papel)" stroke="var(--tinta)" strokeWidth="2.5" />
+      <path d="M6 42 L374 42" stroke="var(--tinta)" strokeWidth="2" />
+      {/* Cabeçalho da ordem de corte */}
+      <circle cx="24" cy="24" r="5" fill="var(--linha)" />
+      <text x="38" y="28" fill="var(--tinta)" fontFamily="var(--font-geist-mono), monospace" fontSize="11" fontWeight="bold">
+        REF 042 · CONJUNTO SARJA · PP–GG
+      </text>
+      <rect x="276" y="13" width="84" height="20" rx="4" fill="var(--fita)" stroke="var(--tinta)" strokeWidth="1.5" />
+      <text x="318" y="27" textAnchor="middle" fill="var(--tinta)" fontFamily="var(--font-geist-mono), monospace" fontSize="10" fontWeight="bold">
+        LIBERADO
+      </text>
+      {/* Mini molde graduado em 4 tamanhos */}
+      <g transform="translate(22, 58)">
+        <rect width="148" height="112" rx="6" fill="var(--papel-escuro)" stroke="var(--tinta)" strokeWidth="1.6" />
+        {[0, 4, 8, 12].map((off, i) => (
+          <path
+            key={off}
+            d={`M${24 - off * 0.5} ${18 - off * 0.4} L${86 + off} ${18 - off * 0.4} L${96 + off} ${94 + off * 0.5} L${20 - off * 0.5} ${94 + off * 0.5} Z`}
+            fill={i === 0 ? "var(--papel)" : "none"}
+            stroke={i === 3 ? "var(--linha)" : "var(--tinta)"}
+            strokeWidth={i === 0 ? "2" : "1.2"}
+            strokeDasharray={i === 0 ? undefined : "4 3"}
+          />
+        ))}
+        <text x="12" y="106" fill="var(--tinta)" fontFamily="var(--font-geist-mono), monospace" fontSize="9">
+          DXF-AAMA · PDF 1:1
+        </text>
+      </g>
+      {/* Mini checklist de entrega na direita */}
+      <g transform="translate(186, 62)" fontFamily="var(--font-geist-mono), monospace" fontSize="10.5" fill="var(--tinta)">
+        {[
+          "1. Molde + grade PP–GG",
+          "2. Prova 3D sem aperto",
+          "3. Link aprovado (Ana)",
+          "4. Risco 1,60 m · 88,4%",
+          "5. Ficha + consumo real",
+        ].map((item, i) => (
+          <g key={item} transform={`translate(0, ${i * 22})`}>
+            <rect x="0" y="-10" width="14" height="14" rx="3" fill="var(--fita)" stroke="var(--tinta)" strokeWidth="1.5" />
+            <path d="M3 -3 L6 0 L11 -6" fill="none" stroke="var(--tinta)" strokeWidth="1.8" strokeLinecap="round" />
+            <text x="22" y="1">{item}</text>
+          </g>
+        ))}
+      </g>
+      {/* Alinhavo de fechamento no rodapé da ficha */}
+      <path d="M22 196 L358 196" stroke="var(--linha)" strokeWidth="2.5" strokeDasharray="8 6" strokeLinecap="round" />
+      <text x="22" y="214" fill="var(--tinta-suave)" fontFamily="var(--font-geist-mono), monospace" fontSize="10">
+        DO DESENHO AO TECIDO CORTADO · SEM PILOTO PERDIDO
+      </text>
     </svg>
   );
 }

@@ -1,0 +1,836 @@
+{
+  "ok": true,
+  "data": {
+    "query": "moulage modelagem tridimensional modelagem plana vestuario",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 20,
+      "doab": 0
+    },
+    "raw_records": 40,
+    "merged_records": 39,
+    "returned": 39,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Modelagem plana e tridimensional – moulage – na indústria do vestuário",
+        "source": "openalex",
+        "url": "http://revistas.unipar.br/empresarial/article/view/2679/0",
+        "doi": null,
+        "year": 2007,
+        "authors": [
+          "Maria Cleuza Borbas",
+          "Rosana Ruiz Bruscagim"
+        ],
+        "venue": "Revista de Ciências Empresariais da UNIPAR",
+        "abstract": "O objetivo do artigo foi analisar dois metodos de modelagem de roupas, bidimensional e tridimensional, apresentando o estudo dos planos e linhas que se relacionam com o equilibrio e harmonia das pecas. Mais do que comparar os dois metodos, o estudo busca salientar suas principais vantagens e mostrar como suas tecnicas podem ser complementares no desenvolvimento do produto de moda.",
+        "pdf_url": null,
+        "citation_count": 19,
+        "work_type": "article",
+        "identifier": "W1587041091",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A modelagem tridimensional",
+        "source": "openalex",
+        "url": "https://dspace.palermo.edu/ojs/index.php/actas/article/view/3538",
+        "doi": "10.18682/add.vi1.3538",
+        "year": 2020,
+        "authors": [
+          "Artemísia Caldas"
+        ],
+        "venue": "Actas de Diseño",
+        "abstract": "Esse estudo apresenta a técnica de Modelagem Tridimensional, que consiste na construção de modelar e criar peças diretamente sobre o corpo ou manequim. Como a modelagem é a base fundamental de uma roupa, a utilização dessa técnica serve como ferramenta para o resultado final de peça com bom design, como forma necessária para ajustes e correções do corpo.",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/actas/article/download/3538/3199",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7216237247",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Modelagem no design do vestuário",
+        "source": "openalex",
+        "url": "https://dspace.palermo.edu/ojs/index.php/actas/article/view/2781",
+        "doi": "10.18682/add.vi9.2781",
+        "year": 2020,
+        "authors": [
+          "Walkiria Guedes De Souza"
+        ],
+        "venue": "Actas de Diseño",
+        "abstract": "A indústria de confecção do vestuário, atende a uma necessidade básica do ser humano, o vestir. Inserida na cadeia têxtil, cujas etapas industriais vão desde o beneficiamento das fibras até a confecção de peças prontas para o uso, a confecção é a última atividade industrial antes da comercialização. Ela produz, em escala industrial, a transformação de tecidos planos ou malhas em peças do vestuário.",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/actas/article/download/2781/4642",
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "W7216037875",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Modelagem Plana x Modelagem Tridimensional: Estudo comparativo em artigos de malha com alta compressão",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1982615x09172016222",
+        "doi": "10.5965/1982615x09172016222",
+        "year": 2016,
+        "authors": [
+          "Universidade Federal de Santa Catarina",
+          "Daiane de Lourdes Toledo",
+          "Ricardo Triska"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "O crescimento da busca por produtos mais confortáveis e de qualidade têm demandado do desenvolvimento e da confecção de vestuário o aprimoramento de seus processos. Neste sentido, esta pesquisa busca desenvolver um estudo comparativo sobre a modelagem tridimensional e a modelagem plana quanto à confecção de artigos em malha de alta compressão. A modelagem tridimensional é muito utilizada no desenvolvimento de artigos de tecido plano, enquanto sua aplicação em malha é relativamente rara. No entanto, um estudo preliminar já demostrou a facilidade de construção de modelagens mais ergonômicas com essa técnica. Para aprofundar e viabilizar esta discussão, a investigação será dividida em duas etapas, sendo a primeira teórica e a segunda, aplicada e subdividida em três fases: I) elaboração das modelagens de um modelo de top feminino esportivo em tecido de malha com alta compressão (suplex) utilizando as duas técnicas; II) coleta de informações sobre a construção dos moldes em cada técnica; III) análise das informações obtidas e elaboração de descrição comparativa dos resultados.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/modapalavra/article/download/1982615x09172016222/4769",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W2340572705",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade do Estado de Santa Catarina",
+          "openalex_type": "article",
+          "oa_status": "diamond",
+          "also_in": "openalex,crossref"
+        }
+      },
+      {
+        "title": "Metodologias colaborativas do design para modelagem plana do vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/25944630422020092",
+        "doi": "10.5965/25944630422020092",
+        "year": 2020,
+        "authors": [
+          "Elida Beqluice Araújo Santiago",
+          "Raquel Gomes Noronha",
+          "Ana Lúcia Alexandre de Oliveira Zandomeneghi"
+        ],
+        "venue": "Revista de Ensino em Artes Moda e Design",
+        "abstract": "Este artigo reflete sobre a importância das metodologias colaborativas do design na construção de novas configurações para o ensino de modelagem plana do vestuário, entendendo que, por meios colaborativos, é possível contribuir com atividades e solutos de diversos campos partindo de um novo olhar ao conceber conceitos e soluções formais. A metodologia utilizada nesta pesquisa seguiu os pressupostos da abordagem qualitativa, realizada por meio de estudo bibliográfico e Revisão Sistemática de Literatura. A partir dos levantamentos conceituais e experimentais de pesquisas realizadas sobre o ensino e aprendizagem de modelagem plana do vestuário, apresentamos formas de aplicação do design colaborativo e suas abordagens metodológicas para problemáticas levantadas nesse ensino. Os resultados evidenciaram que a partir do planejamento de uma metodologia colaborativa aplicada à modelagem plana do vestuário, é possível a construção de projetos que, na prática, são mais concisos e próximos da realidade dos usuários, que nesta pesquisa inclui docentes e discentes dos cursos de design de moda e vestuário, isto ocorre, resultante da contribuição colaborativa no processo. Apresentando assim as metodologias colaborativas como uma grande aliada ao papel do designer na contemporaneidade.",
+        "pdf_url": "https://www.periodicos.udesc.br/index.php/ensinarmode/article/download/17049/11499",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W3033251449",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A visão tácita e explícita da modelagem",
+        "source": "openalex",
+        "url": "http://repositorio.roca.utfpr.edu.br:8080/jspui/bitstream/1/4814/1/AP_CODEM_2012_1_11.PDF",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Juliana Ribeiro de Rezende"
+        ],
+        "venue": null,
+        "abstract": "A presente pesquisa tem como meta analisar o conhecimento explicito e tacito aplicado no departamento de modelagem em uma industria de confeccao, unidas a revisoes de literaturas e a experiencias profissionais, para demonstrar a importância dessa tecnica na concepcao de novos produtos e como meio para inovar. A metodologia utilizada foi o levantamento de informacoes no departamento de modelagem de uma industria do vestuario, observacao in loco; o levantamento de dados, atraves do uso de questionarios, a fim de realizar comparacoes do conhecimento estudado na Instituicao de Ensino Superior com a de modelistas das industrias de Londrina/PR e o desenvolvimento da colecao baseado em conhecimentos da tecnica de modelagem moulage ou tridimensional e a plana, como ferramentas de inovacao nas formas e na utilizacao de material textil. A colecao seguira as tendencias do verao 2013, com uma estetica A Sporting Life ou Sport a Porter, estilo Contemporâneo e Efemero e como conceitos a Velocidade e o Futurismo.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2157331440",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "closed"
+        }
+      },
+      {
+        "title": "Modelagem básica do vestuário feminino",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/9788583021070",
+        "doi": "10.5965/9788583021070",
+        "year": 2017,
+        "authors": [
+          "Silveira, Icleia",
+          "Rosa, Lucas Da",
+          "Lopes, Luciana Dornbusch"
+        ],
+        "venue": "Editora Udesc eBooks",
+        "abstract": "O e-book apresenta inicialmente conhecimentos teóricos, fundamentais ao traçado dos diagramas básicos e na obtenção da qualidade do projeto produto de vestuário. Destacam-se, os conhecimentos anatômicos, tendo em vista a funcionalidade, usabilidade, bem como as qualidades estéticas, ergonômicas e antropométricas do produto. Abordam-se os paramctros medidas do corpo para a execução do diagrama básico do corpo humano e do vestuário, bem como as regras para o traçado da base do corpo feminino Para o traçado dos Diagramas Básicos do Corpo Feminino (corpo, mangas, calça, ete) ntilizam-se ordens de execução e cálculos, que trazem o detalhamento de cada etapa que está sendo realizada. A explicação de cada procedimento, descrita de modo sequencial é apoiada em letras e números. O traçado pode ser observado no desenho gráfico (escala 1:2 ou 1:5) de cada diagrama, disponibilizado juntamente com a sua ordem de execução.",
+        "pdf_url": "https://repositorio.udesc.br/bitstreams/5e75fa4a-674f-4ff3-aa7b-32d5f7e52e99/download",
+        "citation_count": 8,
+        "work_type": "book",
+        "identifier": "W4409075733",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Diretrizes para o ensino de modelagem do vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2013.tde-19022014-213611",
+        "doi": "10.11606/d.100.2013.tde-19022014-213611",
+        "year": 2013,
+        "authors": [
+          "Danielle Paganini Beduschi"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This research discusses historical analysis of methodologies for pattern making teaching and proposes the development of guidelines for teaching. The study presents a historical survey about the various techniques and methods used since the 1960s, making a balance between method and socio-cultural period in order to search for techniques to facilitate the learning process under discussion. The analysis of the main pattern making techniques used over time, the curricula of leading Fashion Graduation programs, and the research with professional educators, will provide a broad overview of what can be used to optimize the learning process and what should be discarded for not favoring a faster and better training. After the study in question, this project proposes a set of guidelines that encourage the transformation of the student in a qualified professional to act in Pattern making clothing.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-19022014-213611/publico/DanielleBeduschirevisaoOutubro.pdf",
+        "citation_count": 16,
+        "work_type": "thesis",
+        "identifier": "W2163966604",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Modelagem do Vestuário: Catalogação de Técnicas e Métodos",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/9786555501421-18",
+        "doi": "10.5151/9786555501421-18",
+        "year": 2022,
+        "authors": [
+          "Régis Puppim",
+          "Danielle Paganini Beduschi"
+        ],
+        "venue": "Editora Blucher eBooks",
+        "abstract": "Através dos tempos o vestuário e a(s) prática(s) do vestir têm, claramente, se adequado às vogas, moda(s), modismos, costumes e/ou culturas. Com isso, as formas, cores, tecidos e ornamentos são facilmente identificados e, até mesmo, datados, temporalmente. Porém, nem sempre consegue-se observar a evolução existente nas “estruturas construtivas” do vestuário, conhecidamente como “modelagem”, “molde” e/ou “padrão”. Portanto, este capítulo apresenta uma catalogação de técnicas e métodos utilizadas na Modelagem do Vestuário, com objetivo de traçar diferentes panoramas: Histórico; Técnicas/Tipologias; e Questões emergentes/atuais e perspectivas do que está por vir.",
+        "pdf_url": "https://openaccess.blucher.com.br/download-pdf/554/23293",
+        "citation_count": 4,
+        "work_type": "book-chapter",
+        "identifier": "W4225665811",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Otimização de técnicas de modelagem bidimensional visando o desenvolvimento de aplicativo para a produção de bases para vestuário feminino",
+        "source": "openalex",
+        "url": "https://repository.ufrpe.br/bitstream/123456789/918/1/tcc_thayelenkarinesilvadonascimento.pdf",
+        "doi": null,
+        "year": 2019,
+        "authors": [
+          "Thayelen Karine Silva do Nascimento"
+        ],
+        "venue": null,
+        "abstract": "A modelagem equivale a concepcao de moldes e gabaritos que resultam na criacao de pecas do vestuario. Existem diversas formas de modelagem, destacando-se a modelagem plana ou bidimensional, e a moulage, draping ou modelagem tridimensional. A modelagem plana e realizada com a utilizacao de instrumentos que proporcionam os tracados dos moldes, como reguas, esquadros, grafites e ate sistemas computadorizados (CAD - Computer Aided Design ou Desenho Assistido por Computador) como os programas do Sistema Audaces. Por outro lado, a modelagem tridimensional e realizada sobre o manequim, pois apresenta formas\r\nparecidas com o corpo humano. Atualmente existem muitos metodos de modelagem, a se destacar o metodo de modelagem desenvolvido por Gil Brandao (1983), de Sidney Cunha de Souza (1997) e do SENAC (2003) que garantem a concepcao de moldes basicos. Os seres humanos apresentam medidas corporeas equivalentes, porem contornos especificos que nem sempre tem a adequacao das pecas produzidas pela industria e fornecidas pelo mercado. E devido a isso, a concepcao de um novo metodo de modelagem que proporcione conformidade e adequacao a diferentes corpos se faz necessaria. Com isso, nesta pesquisa aplicaram-se conceitos da Engenharia Reversa para o desenvolvimento de um novo metodo de modelagem,\r\ne a concepcao de comandos em planilha do Microsoft Excel e tracados para os moldes. Os resultados obtidos apontam que o metodo desenvolvido se caracteriza como bom instrumento na elaboracao de pecas basicas, pois proporciona a criacao de pecas com bom caimento e adequacao as caracteristicas do corpo humano. Adicionado a isto, esse metodo tambem caracteriza-se como uma ferramenta utilizavel na concretizacao de um aplicativo de uso em computadores, Android e IOS para a concepcao de moldes.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2972820259",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "closed"
+        }
+      },
+      {
+        "title": "Prototipagem Virtual: Softwares 3D para Modelagem de Vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2024.v15.n3.50575",
+        "doi": "10.5433/2236-2207.2024.v15.n3.50575",
+        "year": 2024,
+        "authors": [
+          "Silvia Cristina Silveira dos Santos",
+          "Icléía Silveira",
+          "Sandra Regina Rech"
+        ],
+        "venue": "Projetica",
+        "abstract": "O objetivo desta pesquisa foi elencar softwares 3D aplicados ao desenvolvimento de modelagem do vestuário, prototipagem virtual e geração de moldes para uso na indústria de vestuário. Para isso foi feita uma pesquisa básica, com abordagem qualitativa e descritivo. Foi utilizada a revisão teórica de literatura por meio de artigos científico, livros, relatório de tendências, sites de empresas de tecnologia e dissertações. Como resultado foi listado os softwares de modelagem 3D, sites de lojas de ativos digitais para softwares de assim como alguns softwares de modelagem 2D de código aberto. Constatou-se que a indústria de vestuário está iniciando a transição para às tecnologias digitais e os profissionais de desenvolvimento de produto precisam de novas habilidades e novas competências.",
+        "pdf_url": "https://ojs.uel.br/revistas/uel/index.php/projetica/article/download/50575/51429",
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "W4406216955",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "ANÁLISE ERGONÔMICA COMPARATIVA ENTRE TRÊS METODOLOGIAS DE MODELAGEM DO VESTUÁRIO A PARTIR DAS HEURÍSTICAS DE NIELSEN",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/16ergodesign-0066",
+        "doi": "10.5151/16ergodesign-0066",
+        "year": 2017,
+        "authors": [
+          "Raquel Pizzolato de Oliveira",
+          "Bruna Marina Bischoff"
+        ],
+        "venue": null,
+        "abstract": "A análise ergonômica apresentada neste artigo consiste em comparar a usabilidade de três métodos distintos de modelagem do vestuário: Modelagem Plana, Moulage e Modelagem em CAD, a partir do conjunto das dez heurísticas definidas por Nielsen, a fim de identificar qual método atinge a meta desejada e satisfaz melhor as necessidades do usuário.",
+        "pdf_url": "http://pdf.blucher.com.br/designproceedings/16ergodesign/0066.pdf",
+        "citation_count": 2,
+        "work_type": "other",
+        "identifier": "W2751901636",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "O ensino da modelagem do vestuário sob as diretrizes do método PBL",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/25944630412020180",
+        "doi": "10.5965/25944630412020180",
+        "year": 2020,
+        "authors": [
+          "Débora Mizubuti Brito",
+          "Patrícia Aparecida de Almeida Spaine",
+          "Raquel Rabelo Andrade"
+        ],
+        "venue": "Revista de Ensino em Artes Moda e Design",
+        "abstract": "A modelagem enquanto parte do processo de desenvolvimento dos produtos do vestuário, é compreendida como decisiva para o sucesso do desempenho do produto. Sua execução e ensino, bem como as problemáticas que envolvem ambas estas atividades, têm sido tema de estudo de autores da área, dada a necessidade percebida de se reinventar e incrementar o modo de operação. Este estudo discorre sobre os métodos de ensino-aprendizado da modelagem que vinculam o hibridismo às técnicas tradicionais, apresentando diretrizes para seu processo de ensino; bem como estabelece conexões entre o ensino da modelagem entre a método PBL. Como resultado, visa apresentar um conjunto de ações para aplicação do PBL no processo de ensino e construção da modelagem híbrida.",
+        "pdf_url": "https://www.periodicos.udesc.br/index.php/ensinarmode/article/download/16356/11137",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W3005755731",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "MODELAGEM DO VESTUÁRIO A PARTIR DAS PERCEPÇÕES DOS PROFESSORES EM SANTA CATARINA",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1808312912182017068",
+        "doi": "10.5965/1808312912182017068",
+        "year": 2017,
+        "authors": [
+          "Maicon Douglas Livramento Nishimura",
+          "Lizandra Garcia Lupi Vergara",
+          "Leila Amaral Gontijo"
+        ],
+        "venue": "DAPesquisa",
+        "abstract": "A modelagem é um processo fundamental para o desenvolvimento do produto de moda, afinal, é por meio dele que se concebe fisicamente a roupa. Entretanto, muitos defeitos que se apresentam no mercado poderiam ser evitados nessa etapa, a partir da adequação da peça às questões de usabilidade e o uso de medidas compatíveis com o público que se almeja atingir. Ao partir da premissa que o mercado tem buscado profissionais qualificados, com formações na área de moda, para ocupar o cargo de estilista, buscou-se conhecer sobre as percepções de professores sobre a etapa de modelagem no processo de desenvolvimento do produto de moda. Utilizou-se de entrevista semiestruturada para o levantamento dos dados e da análise de conteúdo para o tratamento dos mesmos. Participaram da pesquisa 15 professores de modelagem da Grande Florianópolis e do Vale do Itajaí e foi possível perceber que eles consideram a disciplina de grande importância para o desenvolvimento do produto de moda, porque é nessa etapa que o produto se materializa e a roupa é pensada ergonomicamente.",
+        "pdf_url": "http://www.revistas.udesc.br/index.php/dapesquisa/article/download/8712/6603",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W2612621793",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "O ensino e aprendizagem da modelagem do vestuário: uma revisão sistemática de literatura",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/25944630722023e3564",
+        "doi": "10.5965/25944630722023e3564",
+        "year": 2023,
+        "authors": [
+          "Mara Rubia Theis",
+          "Emanoela Mardula",
+          "Eugênio Andrés Díaz Merino"
+        ],
+        "venue": "Revista de Ensino em Artes Moda e Design",
+        "abstract": "O objetivo deste estudo concentra-se em sintetizar e sistematizar pesquisas científicas nacionais e internacionais que apresentem diretrizes e estratégias didáticas para o processo ensino e aprendizagem de modelagem de roupas. Por meio de uma abordagem qualitativa, realizou-se uma Revisão Sistemática de Literatura (RSL) em bases de dados de teses e dissertações, artigos científicos, em periódicos e anais de eventos. Para o recorte temporal foi estipulada a coleta de documentos publicados entre os anos de 2010 e 2022. Foram identificados um total 625 documentos dos quais, após a análise dos metadados, 173 documentos foram classificados em cinco categorias: ensino e didática, métodos, ergonomia, tecnologia e matemática. A partir da análise indutiva de 36 documentos da categoria ensino e didática, os dados foram sintetizados e sistematizados em cinco subcategorias: as metodologias pedagógicas e ferramentas inovadoras; a interdisciplinaridade; as dimensões do corpo e a antropometria; tecnologia e recursos educacionais; a integração da modelagem de roupas ao processo criativo.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/ensinarmode/article/download/23564/15575",
+        "citation_count": 9,
+        "work_type": "article",
+        "identifier": "W4384704592",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "O corpo biológico e o corpo vestido no ensino da modelagem de vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.15536/2594-4398.2021.v5.n5.pp.001-026.2615",
+        "doi": "10.15536/2594-4398.2021.v5.n5.pp.001-026.2615",
+        "year": 2021,
+        "authors": [
+          "Janaina Figueiredo Lorbiéski",
+          "Valdecir Babinski Júnior",
+          "Dulce Maria Holanda Maciel",
+          "Lucas da Rosa",
+          "Icléía Silveira"
+        ],
+        "venue": "Revista Poliedro",
+        "abstract": "Por meio de uma revisão bibliográfica assistemática, este artigo tem como objetivo prescrever instrumentos e critérios acerca do ensino de modelagem que possam ser empregados para avaliar o desempenho de estudantes de moda em práticas pedagógicas cujo objeto central consiste no corpo dos usuários. Para tanto, a pesquisa apresenta dois eixos: (I) corpo biológico; e (II) corpo vestido. Como instrumentos, elencaram-se: (I) perfil antropométrico; e (II) lista de verificação de requisitos ergonômicos; entre outros. Quanto aos critérios de avaliação, destacaram-se: (I) a precisão de medidas tabeladas; e (II) a qualidade dos requisitos cumpridos; entre outros. Ademais, foram sugeridos pontos de partida para as práticas pedagógicas que envolvem o corpo como objeto de estudo no ensino de modelagem.",
+        "pdf_url": "https://periodicos.ifsul.edu.br/index.php/poliedro/article/download/2615/1930",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4200352689",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Diretrizes para o desenvolvimento de modelagem de vestuário em malha",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2021.tde-19082021-145048",
+        "doi": "10.11606/d.100.2021.tde-19082021-145048",
+        "year": 2021,
+        "authors": [
+          "Julia Maria Percebom"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "In the development of knitted garments patternmaking, not only the degree of elasticity of the knit should be considered, but also the desired fit, the composition and the weight of the knit. Its emphasized that a knitwear pattern doesnt need to be totally reduced according to the degree of elasticity of the fabric. Especially in the Brazilian academic sphere, there is a lack of more objective approaches on all aspects that involve knitwear patternmaking. Therefore, the objective of this research is to develop a set of guidelines for the development of womens knitted garments flat patternmaking. These guidelines include: suggesting how to use the direction of knit stretch in garment products; suggesting how to define the degree of knit stretch and how this value should be used in the patternmaking development; and showing how each body area influences the pattern reduction values. The research sought to gather specific patternmaking materials and methods. Comparative studies were carried out of the top slopers patternmaking methods of three authors: Keith Richardson, Helen Joseph Armstrong and Julie Cole; according to three fitting variations: fitted, semi-fitted and loose-fit. And, also, through the three catsuits analysis, based on each of these three authors methods, a study was made on the fabric stretch behavior on the body. The results of the prototypes showed the need of a more accurate method of testing the elasticity load. They also showed a superior quality of Cole\\'s patternmaking compared to the other two authors, both in blouses and the catsuit, so that the use of a single reduction value and the woven fabrics slopers adaptation do not always produce good results. It was shown that it is not only the elasticity that influences pieces in knitted fabrics, but also their weight and composition, which must be considered in the development of knitted garments.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-19082021-145048/publico/ME_Julia_Percebom.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4307884531",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Evoluçâo da modelagem no design do vestuário: do simples “ritual ancestral” às técnicas informatizadas",
+        "source": "openalex",
+        "url": "https://dspace.palermo.edu/ojs/index.php/actas/article/view/2952",
+        "doi": "10.18682/add.vi7.2952",
+        "year": 2020,
+        "authors": [
+          "Vera Lúcia Lins Soares"
+        ],
+        "venue": "Actas de Diseño",
+        "abstract": "O fator que mais influenciou a “invenção” das roupas foi a necessidade de proteção do corpo pelos nossos ancestrais. A partir do uso das peles, simplesmente jogadas sobre o corpo, surge também a necessidade de torná-las maleáveis para que tivessem melhor assentamento e conforto.",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/actas/article/download/2952/4337",
+        "citation_count": 5,
+        "work_type": "article",
+        "identifier": "W7216200110",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "O uso da moulage como ferramenta pedagógica no ensino do design de vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2014.tde-18112014-142009",
+        "doi": "10.11606/d.100.2014.tde-18112014-142009",
+        "year": 2014,
+        "authors": [
+          "Jonathan Gurgel de Lima"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "The present work aims to conduct a study on the possibility of using moulage mannequim as a tool for the creative development of future professionals in the fashion field. The creation in moulage, a process in which the cloth designer will develop their ideas while manipulating a material similar behavior to the outfit that seeks to create, directly on the mannequin, consists of a well-known practice, but still little explored in the formation of Professional fashion area. This study contemplates the presentation of fundamentals that underlie the high potential of this creative process as a means of motivating the student\\'s learning, and also, developing more innovative professionals. With a focus on facilitating and encouraging greater ownership and use of this process in training fashion professionals, some aspects that are considered fundamental for the development of activities that include this practice in the classroom were identified. With this in mind, it´s proposed a set of building exercises in moulage followed by their respective application guidelines. This paper also presents the application results in one of these exercises.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-18112014-142009/publico/Dissertacao_JonathanGurgeldeLima.pdf",
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W1604025752",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Modelagem cinética do vestuário: Um estudo de eficiência ergonômica de uma blusa",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2023.v14.n2.47346",
+        "doi": "10.5433/2236-2207.2023.v14.n2.47346",
+        "year": 2023,
+        "authors": [
+          "Samira Moraes Kroeff Troncoso",
+          "Fábio Gonçalves Teixeira"
+        ],
+        "venue": "Projetica",
+        "abstract": "Esta pesquisa tem como delimitação temática a construção da modelagem de uma blusa de manga longa no método cinético. Possui como objetivo geral empregar os conceitos da modelagem cinética de forma que viabilize a análise ergonômica comparando-a com a modelagem tradicional, por meio de princípios ergonômicos da biomecânica e de conforto em um produto. Para isso, realizou-se um estudo aprofundado, dos métodos de modelagem do vestuario e a coleta de dados para realizar a comparacao ocorreu através dos instrumentos de avaliação qualitativos como entrevista individual e estruturada com profissionais da área; registros fotográficos; e vídeos dos movimentos dos segmentos corporais durante o uso das blusas confeccionadas nos métodos cinético e tradicional. A análise comparative dos dados inicia com o levantamento dos pontos fortes e fracos de cada método e, postetiormente fez-se a triangulação desses dados. Observou-se que a modelagem cinética apresenta pontos fortes relevantes em eficiência biomecânica, qualidade ergonômica e psicoestética de um vestuário.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4389400041",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Modelagem Tridimensional de Rostos Por Características Robustas",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.55.2023.tde-10012024-121818",
+        "doi": "10.11606/d.55.2023.tde-10012024-121818",
+        "year": 2024,
+        "authors": [
+          "Pedro Regattieri Rocha"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.55.2023.tde-10012024-121818",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Modelagem tridimensional da dispersão de poluentes em rios",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2006.363247",
+        "doi": "10.47749/t/unicamp.2006.363247",
+        "year": 2021,
+        "authors": [
+          "Marcio Bezerra Machado"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2006.363247",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Modelagem e simulação tridimensional transiente do escoamento gas-solido",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2003.283370",
+        "doi": "10.47749/t/unicamp.2003.283370",
+        "year": 2021,
+        "authors": [
+          "Rodrigo Koerich Decker"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2003.283370",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "MODELAGEM GEOMTRICA TRIDIMENSIONAL DA SEQNCIA METASSEDIMENTAR DE ITATAIA-CE",
+        "source": "crossref",
+        "url": "https://doi.org/10.71190/2003-2pdpetro-1109",
+        "doi": "10.71190/2003-2pdpetro-1109",
+        "year": 2025,
+        "authors": [],
+        "venue": "Anais do 2º PdPetro",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.71190/2003-2pdpetro-1109",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "ABPG"
+        }
+      },
+      {
+        "title": "MODELAGEM DE PROTEÍNAS NO EASYMODELLER",
+        "source": "crossref",
+        "url": "https://doi.org/10.22533/at.ed.8252228104",
+        "doi": "10.22533/at.ed.8252228104",
+        "year": 2022,
+        "authors": [
+          "João Marcos Pereira Galúcio"
+        ],
+        "venue": "Métodos de modelagem da estrutura tridimensional de proteínas: Um guia teórico e prático",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.22533/at.ed.8252228104",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Atena Editora"
+        }
+      },
+      {
+        "title": "MODELAGEM GEOMÉTRICA TRIDIMENSIONAL DE MACIÇOS ROCHOSOS E FEIÇÕES ESTRUTURAIS",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.1980",
+        "doi": "10.17771/pucrio.acad.1980",
+        "year": 2015,
+        "authors": [
+          "ANTONIO CARLOS DE FREITAS NASCIMENTO"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.1980",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "Modelagem paramétrica tridimensional para análise de cavernas de navios não convencionais.",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.3.2000.tde-11032024-111422",
+        "doi": "10.11606/d.3.2000.tde-11032024-111422",
+        "year": 2024,
+        "authors": [
+          "Sdepan Bogosian Neto"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.3.2000.tde-11032024-111422",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "MODELAGEM E REPRESENTAÇÃO GRÁFICA DO CAMPO TRIDIMENSIONAL DE DESLOCAMENTOS DE TECIDOS",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.25610",
+        "doi": "10.17771/pucrio.acad.25610",
+        "year": 2016,
+        "authors": [
+          "ANDRES M VILLAFUERTE OYOLA"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.25610",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "Modelagem tridimensional não linear de veículos articulados pesados do tipo cavalo mecânico - carreta",
+        "source": "crossref",
+        "url": "https://doi.org/10.14393/ufu.di.1995.19",
+        "doi": "10.14393/ufu.di.1995.19",
+        "year": 2020,
+        "authors": [
+          "Jose Borges"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.14393/ufu.di.1995.19",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "EDUFU - Editora da Universidade Federal de Uberlandia"
+        }
+      },
+      {
+        "title": "Modelagem geológica tridimensional : implicações na bacia sedimentar de São Paulo",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/003151137",
+        "doi": "10.11606/003151137",
+        "year": 2026,
+        "authors": [
+          "Wilson de Lima Gomes Junior"
+        ],
+        "venue": null,
+        "abstract": "Nas grandes Metrópoles, como a Região Metropolitana de São Paulo, a intensa urbanização contribuiu para extensa impermeabilização superficial do solo, consequentemente, afetando na recarga do sistema Aquífero. Para este presente trabalho, responsável pelo abastecimento do bairro Bela Vista. O presente trabalho fará a coleta, organização e uniformização das informações geológicas, a fim de construir um modelo conceitual geológico 3D, com auxílio do GMS (2019). A partir do modelo conceitual geológico pode-se observar que a área do bairro Bela Vista, possui uma alta heterogeneidade litológica, sendo a argila o material mais predominante, com camadas, por vezes lentes, arenosas mapeadas verticalmente e horizontalmente nas maiores concentrações de dados, por fim pode se analisar a ocorrência do embasamento por volta de 680 m. Considerando esta configuração, e as incertezas, pode-se concluir que o modelo conceitual geológico mesmo não conseguindo mapear em sua totalidade as litologias que perfazem a região do bairro Bela Vista, mostrou que a região possui uma baixa taxa de recarga dos aquíferos.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/003151137",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "MODELAGEM DE PROTEÍNAS NO MODELLER",
+        "source": "crossref",
+        "url": "https://doi.org/10.22533/at.ed.8252228103",
+        "doi": "10.22533/at.ed.8252228103",
+        "year": 2022,
+        "authors": [
+          "Kauê Santana da Costa",
+          "João Marcos Pereira Galúcio"
+        ],
+        "venue": "Métodos de modelagem da estrutura tridimensional de proteínas: Um guia teórico e prático",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.22533/at.ed.8252228103",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Atena Editora"
+        }
+      },
+      {
+        "title": "Simulação tridimensional de uma coluna de bolhas-diferentes abordagens geometricas e modelagem",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2007.413509",
+        "doi": "10.47749/t/unicamp.2007.413509",
+        "year": 2021,
+        "authors": [
+          "Renato Prado Dionisio"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2007.413509",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Modelagem física e numérica tridimensional de dutos enterrados submetidos a cargas móveis",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.18.2018.tde-01022021-095446",
+        "doi": "10.11606/d.18.2018.tde-01022021-095446",
+        "year": 2021,
+        "authors": [
+          "Juliana Braguim Neves"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.18.2018.tde-01022021-095446",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de Sao Paulo, Agencia USP de Gestao da Informacao Academica (AGUIA)"
+        }
+      },
+      {
+        "title": "Modelagem tridimensional de problemas inversos em condução de calor: aplicação em processos de usinagem",
+        "source": "crossref",
+        "url": "https://doi.org/10.14393/ufu.te.2001.2",
+        "doi": "10.14393/ufu.te.2001.2",
+        "year": 2020,
+        "authors": [
+          "Frederico Lima"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.14393/ufu.te.2001.2",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "EDUFU - Editora da Universidade Federal de Uberlandia"
+        }
+      },
+      {
+        "title": "Modelagem tridimensional de problemas potenciais usando o método dos elementos de contorno",
+        "source": "crossref",
+        "url": "https://doi.org/10.26512/2017.02.d.23468",
+        "doi": "10.26512/2017.02.d.23468",
+        "year": 2024,
+        "authors": [
+          "Fernando Morais de Loyola"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.26512/2017.02.d.23468",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Biblioteca Central da UNB"
+        }
+      },
+      {
+        "title": "Modelagem computacional de impressão tridimensional de concreto com o método dos elementos discretos.",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.3.2024.tde-27052025-110226",
+        "doi": "10.11606/d.3.2024.tde-27052025-110226",
+        "year": 2025,
+        "authors": [
+          "Victor Hugo Morais Avancini"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.3.2024.tde-27052025-110226",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "MODELAGEM DE PROTEÍNAS NO I-TASSER",
+        "source": "crossref",
+        "url": "https://doi.org/10.22533/at.ed.8252228107",
+        "doi": "10.22533/at.ed.8252228107",
+        "year": 2022,
+        "authors": [
+          "Kauê Santana da Costa",
+          "Anderson Henrique Lima e Lima"
+        ],
+        "venue": "Métodos de modelagem da estrutura tridimensional de proteínas: Um guia teórico e prático",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.22533/at.ed.8252228107",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Atena Editora"
+        }
+      },
+      {
+        "title": "MODELAGEM TRIDIMENSIONAL DE GOLFADA UNITÁRIA EM TUBULAÇÃO HORIZONTAL COM MODELO VOF (VOLUME OF FLUID)",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.15125",
+        "doi": "10.17771/pucrio.acad.15125",
+        "year": 2015,
+        "authors": [
+          "MIJAIL FEBRES SORIA"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.15125",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "Modelagem geológica tridimensional no campo de Namorado com base na modelagem unidimensional de eletrofácies",
+        "source": "crossref",
+        "url": "https://doi.org/10.11137/2006_2_275-276",
+        "doi": "10.11137/2006_2_275-276",
+        "year": 2006,
+        "authors": [
+          "Camila Faria de Albuquerque"
+        ],
+        "venue": "Anuário do Instituto de Geociências",
+        "abstract": null,
+        "pdf_url": "https://revistas.ufrj.br/index.php/aigeo/article/viewFile/6676/5273",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.11137/2006_2_275-276",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Instituto de Geociencias - UFRJ"
+        }
+      }
+    ]
+  },
+  "count": 39,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:04:10.630209+00:00"
+}

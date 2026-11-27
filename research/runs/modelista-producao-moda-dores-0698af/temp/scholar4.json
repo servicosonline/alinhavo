@@ -1,0 +1,807 @@
+{
+  "ok": true,
+  "data": {
+    "query": "patternmaking apparel production process CAD 3D virtual prototyping",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 20,
+      "doab": 0
+    },
+    "raw_records": 40,
+    "merged_records": 40,
+    "returned": 40,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Innovation in CAD: 3D simulation and virtual prototyping at ITMA 2023",
+        "source": "openalex",
+        "url": "https://jtatm.textiles.ncsu.edu/index.php/JTATM/article/view/20738",
+        "doi": null,
+        "year": 2024,
+        "authors": [
+          "Chanmi Gloria Hwang"
+        ],
+        "venue": "Journal of textile and apparel technology and management",
+        "abstract": null,
+        "pdf_url": "https://jtatm.textiles.ncsu.edu/index.php/JTATM/article/download/20738/9704",
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "W7217599853",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A Case Study of 2D/3D CAD Virtual Prototype Simulation Programs to Enhance Student Performance in Student-Centered Fashion Design Education",
+        "source": "openalex",
+        "url": "https://doi.org/10.15406/jteft.2017.03.00088",
+        "doi": "10.15406/jteft.2017.03.00088",
+        "year": 2017,
+        "authors": [
+          "Ja Young Hwang"
+        ],
+        "venue": "Journal of Textile Engineering & Fashion Technology",
+        "abstract": "To consider rapid development of advanced technology in the fashion industry, this study focuses on analyzing how 2D CAD patternmaking and 3D garment simulation programs have been used as tools for enhancing student performance in student-centered fashion design education. A case study is used to capture students’ perceptions while they are using 2D and 3D software for design development and measure student performance with respect to enhancement of understanding of 3D visualization in student-centered education. This study discovered that both 2D patternmaking and 3D simulation program usage increased and enhanced student learning and helped them be more efficient in their pattern development process. It was also found that both programs encouraged students to think critically about their design process. This study provides insight with respect to how fashion design classes can properly equip future professionals with new technology developments in the fashion industry.",
+        "pdf_url": "https://medcraveonline.com/JTEFT/JTEFT-03-00088.pdf",
+        "citation_count": 14,
+        "work_type": "article",
+        "identifier": "W2770265918",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Digital 3D garment development process: From concept to virtual prototype",
+        "source": "openalex",
+        "url": "https://doi.org/10.5937/ct_iti26028b",
+        "doi": "10.5937/ct_iti26028b",
+        "year": 2026,
+        "authors": [
+          "Nadiia Petar Bukhonka"
+        ],
+        "venue": "International Scientific Conference Contemporary Trends and Innovations in Textile Industry (CT&ITI)",
+        "abstract": "The digital transformation of the apparel industry is increasingly driven by the integration of 2D pattern development and 3D virtual simulation technologies. This study focuses on the digital 3D garment development process using VStitcher (Browzwear), presenting a structured workflow from the initial design concept to the final virtual prototype. The proposed approach emphasizes the transition from traditional physical sampling to digital prototyping, enabling improved efficiency, faster design interactions, and reduced material consumption. The workflow includes 2D pattern construction, material definition and mapping, virtual garment assembly, 3D simulation, and fit evaluation on a digital avatar. The results demonstrate that integrating 2D and 3D environments creates a continuous feedback loop that supports iterative refinement of design parameters and early detection of construction and fit issues. The study further confirms that virtual prototyping, supported by styling tools, enhances garment evaluation by enabling advanced manipulation and simulation of manual fitting adjustments. This contributes to reduced physical sampling, improved development accuracy, and increased workflow efficiency. However, simulation accuracy remains dependent on precise pattern construction, material parameter definition, garment complexity, and user expertise, while certain tactile fabric properties cannot yet be fully replicated digitally. Overall, the study demonstrates that 3D garment development systems such as VStitcher provide a robust methodological framework for more efficient, accurate, and sustainable apparel product development in both industrial and educational contexts.",
+        "pdf_url": "https://scindeks-clanci.ceon.rs/data/pdf/proc-0087/2026/proc-00872600028B.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W7204458729",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Spatial ability of transitioning 2d to 3d apparel design : applying apparel spatial visualization test (asvt) into virtual environment",
+        "source": "openalex",
+        "url": "https://doi.org/10.32469/10355/88091",
+        "doi": "10.32469/10355/88091",
+        "year": 2021,
+        "authors": [
+          "Anna Moritz"
+        ],
+        "venue": "MOspace Institutional Repository (University of Missouri)",
+        "abstract": "The purpose of this was to develop a 3D Apparel Spatial Visualization Test to examine visualization skills and mental imagery in a virtual prototyping environment of students who major in textile apparel management at the college level. By examining the visualization skills and mental imagery in a virtual prototyping, this research sought to understand how 3D ASVT training could influence student's performance in a product development course. It also sought to examine how experience level (i.e.., number of courses a student has taken) effects performance on 3D ASVT. Results from this study indicated there was no relationship among general spatial ability tests and the developed 3D ASVT. Generally speaking, the study found that the number of product development courses taken positively influence scores on 3D ASVT; and there was not a significant difference among number of courses taken and performance. The study also found that scores on 3D ASVT positively influence performance in product development course",
+        "pdf_url": "https://mospace.umsystem.edu/xmlui/bitstream/10355/88091/1/MoritzAnnaResearch.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W3215237666",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Enhancing the process of prototype development in the Egyptian apparel industry",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.21608/idj.2015.101934",
+        "doi": "10.21608/idj.2015.101934",
+        "year": 2015,
+        "authors": [
+          "Khalid El Sheikh"
+        ],
+        "venue": "التصميم الدولية",
+        "abstract": "The purpose of this research is to develop a new and improved system for prototype development within the Egyptian industry, the suggested system supposed to shorten the times required for the prototyping process, in addition to improving the appearance, and fit goodness of the prototypes results in final products improvements and better market advantage for Egyptian manufactories. For the development of this research, a number of five Egyptian small and medium apparel manufactories were investigated for their current prototype development methods, initial field observations were made within each factory, with participation of the corresponding prototype employee in each factory. A model of the current prototypes developing method in the Egyptian factories was illustrated after investigation, this model was then analysed. A new suggested model for prototype development was developed. A number of two prototypes were made using the current methods, then another two prototypes were developed using suggested system, observations were collected of times required for the four prototypes development before and after applying the new system, the fit goodness of the four prototypes were evaluated as well. Data were analysed using the f-distribution test followed by t-test, both of the testes indicated a significant difference between the observations before and after applying the new system, the new prototype development system helped shortening the times required for the process, in addition to improving the fit goodness of the process results. Using the suggested system, the apparel industry can enjoy cost-cutting effects by using this suggested system. A company does not have to spend money and time repeating the prototyping process to apply too many fixes, moreover, applying this suggested system supposed to help them acquiring competition advantages for their improved fit, as well as the ability to apply a wider variety of fashion features into their garments.",
+        "pdf_url": "https://idj.journals.ekb.eg/article_101934_8114d7603ac147765557f0c939cd1db8.pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W3048281548",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Spatial ability of transitioning 2D to 3D designs in virtual environment: understanding spatial ability in apparel design education",
+        "source": "openalex",
+        "url": "https://doi.org/10.1186/s40691-022-00293-w",
+        "doi": "10.1186/s40691-022-00293-w",
+        "year": 2022,
+        "authors": [
+          "Anna Moritz",
+          "Song‐yi Youn"
+        ],
+        "venue": "Fashion and Textiles",
+        "abstract": "As the apparel industry has been transforming through digital-driven technologies in the apparel design process, the need for students to learn spatial visualization skills specified within a three-dimensional virtual environment is critical. By applying an apparel spatial visualization test into a virtual environment (ASVT-V), the purpose of this study is to examine the three-dimensional visualization skills in a virtual prototype environment of students who are majoring in apparel design and product development at the college level. The dataset was collected from 70 college students and analyzed by adopting correlation and variance analysis (ANOVA). Results from an online survey indicate that their ASVT-V scores were positively related to their general spatial visualization skills measured by a paper folding test. The results also indicate that students who received higher scores on the ASVT-V performed better in apparel design-related courses, while there was no influence on their perceived performance from the number of apparel design-related courses taken. This study provides practical implications for professionals in apparel design and product development education in that they can consider ASVT-V scores to understand and enhance domain-specific spatial visualization skills.",
+        "pdf_url": "https://fashionandtextiles.springeropen.com/counter/pdf/10.1186/s40691-022-00293-w",
+        "citation_count": 24,
+        "work_type": "article",
+        "identifier": "W4293202075",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Apparel Fit Language Suited to 3D Body Processing Ecosystems",
+        "source": "openalex",
+        "url": "https://doi.org/10.15221/22.41",
+        "doi": "10.15221/22.41",
+        "year": 2022,
+        "authors": [
+          "Emma L. Scott",
+          "Simeon Gill",
+          "Susan P. Ashdown",
+          "Gerald RUDERMAN"
+        ],
+        "venue": "International Conference on 3D Body Scanning Technologies (3DBST)",
+        "abstract": "Colloquial language, reflective of the diversity of practitioners involved in 3D Body Processing (3DBP), has proven to be an obstacle toward shared digitization efforts. Here we distill language specific to apparel manufacturing for clarity toward the shared goals of the 3DBP ecosystem. The whitepaper \"3D Body Processing Ecosystem Overview\" simplified the processes within the 3DBP ecosystem using four assets: cover, coveroid, human, and humanoid. From this we understand a cover to be any product, garment, or material worn on a human and a coveroid and humanoid to be the models of the finished forms. Here we build upon this foundation to consider where language fails to provide clarity crossing the physical to virtual realms within the 3DBP ecosystem. Through this discussion, apparel challenges are highlighted from both the perspective of the apparel practitioner (requiring subjective, heuristic, sensory processes) and the software architect (requiring objective, logical processes). Perspectives on fit are provided clarity for future dialogue toward cross-platform solutions suited to the 3DBP ecosystem. The terms are applicable beyond the influence of current trends or style aesthetics and therefore scalable, relevant to well established manufacturing practices, yet sensitive to the art of garment design which is, and will remain, foundational to apparel practice.",
+        "pdf_url": "https://www.3dbody.tech/cap/papers/2022/2241scott.pdf",
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "W4300861465",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Application of 3D Virtual Prototyping Technology to the Integration of Wearable Antennas into Fashion Garments",
+        "source": "openalex",
+        "url": "https://doi.org/10.3390/technologies10030062",
+        "doi": "10.3390/technologies10030062",
+        "year": 2022,
+        "authors": [
+          "Evridiki Papachristou",
+          "Hristos T. Anastassiu"
+        ],
+        "venue": "Technologies",
+        "abstract": "A very large number of scientific papers have been published in the literature on wearable antennas of several types, structure and functionality. The main focus is always antenna efficiency from an engineering point of view. However, antenna integration into actual, realistic garments is seldom addressed. In this paper, 2D pattern and 3D virtual prototyping technology is utilized to develop regular clothing, available in the market, in which wearable antennas are incorporated in an automated manner, reducing the chances of compromising the garment elegance or comfort. The functionality of various commercial software modules is described, and particular design examples are implemented, proving the efficiency of the procedure and leading the way for more complex configurations.",
+        "pdf_url": "https://www.mdpi.com/2227-7080/10/3/62/pdf?version=1652768672",
+        "citation_count": 35,
+        "work_type": "article",
+        "identifier": "W4280556287",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Fit models’ roles in identifying fit issues in the apparel technical design process and implications for improving 3D virtual fitting",
+        "source": "openalex",
+        "url": "https://doi.org/10.1186/s40691-024-00398-4",
+        "doi": "10.1186/s40691-024-00398-4",
+        "year": 2024,
+        "authors": [
+          "Yoon Joung Yang",
+          "Fatma Baytar"
+        ],
+        "venue": "Fashion and Textiles",
+        "abstract": "Fit sessions are essential in making well-fitted clothing. During these sessions, apparel fit is determined iteratively by a team of designers, technical designers, fit models, and merchandisers. With the advent of the digitalization of new product development processes in the fashion industry, fit sessions have been seen as a bottleneck for they are still held in person. However, the process is currently still irreplaceable, and what makes the feedback provided by fit models important is an area that has never been tapped. Therefore, the present study aimed to understand fit models’ role in fit sessions as well as how they assess the fit of garments and deliver their feedback. On-site observation during fit sessions and individual interviews with fit models were conducted. It was found that fit models gave comfort, fit, and tactile comments by testing garments while standing and moving between several postures. They had knowledge that overlapped with those of technical designers and designers and this empowerment enabled them to take part in the decision-making process in fit sessions. It also was found that fit models’ feedback on garments was essential as they were the first people to try on the garments and present the customers’ points of view.",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1186/s40691-024-00398-4.pdf",
+        "citation_count": 14,
+        "work_type": "article",
+        "identifier": "W4402642452",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "From 3D Scans to Haptic Models: Apparel Design with Half Scale Dress Forms",
+        "source": "openalex",
+        "url": "https://doi.org/10.15221/17.031",
+        "doi": "10.15221/17.031",
+        "year": 2017,
+        "authors": [
+          "Susan P. Ashdown",
+          "Arzu Vuruşkan"
+        ],
+        "venue": "International Conference on 3D Body Scanning Technologies (3DBST)",
+        "abstract": "Any design process requires prototype development to test properties and perfect proportional or functional relationships before committing to production.Prototypes are also used to communicate concepts or solutions using limited materials and at an affordable cost.Architects have communicated their ideas using scaled models beginning as far back as medieval times.These models demonstrate their design ideas and help address functional issues in 3D.Scaled down dress forms used in fashion design are a more recent concept.One of the first uses of 3D body scanning for apparel in the early 2000s was to make dress forms based on body scans.In 2007, in a collaborative effort between Cornell University and Alvanon, a half scale form from body scan data was developed for educational use.This form is an exact reduction of a full scale form made from a body scan, and allows students to develop their designs with limited fabric, time commitment, and studio space.Students digitize the patterns they develop into a patternmaking CAD program and then scale them up to full scale.These forms have been used very effectively in product development and patternmaking classes at Cornell, and are now popular in schools around the world.Further uses of half scale forms are being investigated for apparel research, creative pattern making, and pattern development for different body types.Half scale forms can be made in-house from body scans easily and economically.By using 3D body scan technology and transferring 3D digital data to sliced foam models or 3D printed models, custom half scale forms are developed.These forms have the potential to benefit both academia and industry.",
+        "pdf_url": "https://www.3dbody.tech/cap/papers/2017/17031ashdown.pdf",
+        "citation_count": 9,
+        "work_type": "other",
+        "identifier": "W2757941042",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "A study of patternmaking and the contributing factors making it a scarce and critical skill",
+        "source": "openalex",
+        "url": "https://doi.org/10.51415/10321/3198",
+        "doi": "10.51415/10321/3198",
+        "year": 2018,
+        "authors": [
+          "Williamson, Karin"
+        ],
+        "venue": "DUT Open Scholar (Durban University of Technology)",
+        "abstract": "Patternmaking skills have been identified as being scarce and critical by the Fibre-Processing and Manufacturing Sector Education and Training Authority (FP&MSETA 2015) and this presents a potential threat to the South African clothing industry. Exploratory discussion with clothing industry stakeholders and subject matter experts indicated that the need for patternmaking knowledge and skills is increasing, while the availability of these skills is decreasing. The purpose of this research was to identify education and training areas of development with respect to patternmaking. The research was informed by an extensive literature study covering three critical areas, namely, the identification of the diverse patternmaking skills required, the expectations of the clothing industry in relation to these skills, and how the education and training of patternmakers’ skills can be improved. Primary data was collected from a focus group comprised of subject matter experts in the patternmaking field and then from an online survey questionnaire to clothing industry stakeholders. Finally, an analysis of current teaching approaches and learning practices was undertaken. This was to establish what changes needed to be implemented to address the new requirements for patternmaking skills in the changing manufacturing landscape.",
+        "pdf_url": "https://openscholar.dut.ac.za/bitstream/10321/3198/1/Williamson_2018.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2944395807",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Integration of computer aided design (CAD) technology in apparel design curricula",
+        "source": "openalex",
+        "url": "http://scholar.lib.vt.edu/theses/available/etd-03172010-020735/",
+        "doi": null,
+        "year": 1994,
+        "authors": [
+          "Janet R. Wimmer"
+        ],
+        "venue": "VTechWorks (Virginia Tech)",
+        "abstract": "The purposes of this study were to assess student attitudes toward CAD technology and use, to determine the efficient use of computer-aided design (CAD) systems in the design curriculum, and to investigate the current use of CAD at other colleges and universities in the United States with apparel design programs. A questionnaire was administered to students enrolled in a computer-aided design course to determine previous computer experience, previous design courses taken, and attitudes toward the use of computers. Another questionnaire that focused on the student’s attitudes toward the two CAD systems used in the class was administered after completion of the final assignment. The students in the apparel design course had positive attitudes toward computers and the usage of CAD as a tool for design applications. The students preferred to use the Lectra system and felt that it was the most efficient CAD system to use for assignments in the apparel design course. However, further study needs to be conducted concerning the efficient use of CAD in apparel design courses. A questionnaire was mailed to faculty at universities with apparel design programs to determine how CAD was being used in the curriculum, the type(s) of CAD system(s) being used, and the future plans for CAD in the curriculum. Frequency and percentage distributions were used to analyze the data. The data collected from educators teaching CAD at other colleges and universities in the United States indicate that CAD is being used in the classroom to teach flat pattern techniques (18%), pattern grading (16%), and marker making (16%). Thirty-three apparel design programs were using IBM computers to teach CAD with 14 programs using MicroDesign equipment to teach CAD. The programs that were using IBM computers or compatibles were using AutoCAD software (39%). The results also showed a significant increase in the number of programs with CAD in the curriculum from 21 between 1982 and 1989 to 38 between 1990 and 1993. This indicated that apparel design programs realized the importance of integrating CAD into the design curriculum to better prepare students for employment in the apparel industry.",
+        "pdf_url": "http://hdl.handle.net/10919/41729",
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W2593296173",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "The Impact of Technology on the New Product Development Process for Intimate Apparel",
+        "source": "openalex",
+        "url": "https://doi.org/10.15221/26.31",
+        "doi": "10.15221/26.31",
+        "year": 2026,
+        "authors": [
+          "Cassie M. Lambert",
+          "Elizabeth P. Easter"
+        ],
+        "venue": "International Conference on 3D Body Scanning Technologies (3DBST)",
+        "abstract": "This research aimed to better understand how 3D CAD Software impacts the new product development process for intimate apparel.As a category, Intimate Apparel lags behind other categories in adopting new technology.Interviews with industry professionals explored their adoption and use of 3D CAD Software.Two case studies also compared the adoption strategies of a small and a large company.Coding of the interview and case study data revealed similar relationships and common themes across all participants.Findings show that the strategic implementation of 3D CAD Software reduces sample iterations and lead time, enhances cross-functional team communication, and supports earlier decisionmaking on fit, pattern adjustments, and material selection.The research also identified barriers to technology use and adoption.These include limitations on material digitalization, training time, and reduced fit model input.The study contributes a practical framework for integrating 3D CAD software into the New Product Development Process of Intimate Apparel.",
+        "pdf_url": "https://proc.3dbody.tech/papers/2026/2631.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W7160855860",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Toward advanced three‐dimensional modeling of garment prototype from draping technique",
+        "source": "openalex",
+        "url": "https://doi.org/10.1108/09556221311326301",
+        "doi": "10.1108/09556221311326301",
+        "year": 2013,
+        "authors": [
+          "Xuyuan Tao",
+          "Pascal Bruniaux"
+        ],
+        "venue": "International Journal of Clothing Science and Technology",
+        "abstract": "Purpose The study in this article aims to focus on a novel design concept of virtual 3D garment which is realized with the help of traditional patternmaking methodology and the CAD softwares in order to directly conceive the virtual clothing on a mannequin morphotype in cyberspace in consideration of the ease allowance between the body shape and the garment. Design/methodology/approach The method of acquisition of 3D human body was explained at first. Then the process of creation of garment 3D model associated with the draping technique was presented. The superposition of patterns from the 3D modeling and the traditional method used in industries was done in order to visualize the right results. At last, the dynamic validation of the garment was carried out in order to analyze the fitting results of try‐on simulation. Findings The 3D modeling technique method based on the draping technique shows that the garment fits perfectly to the body shape of the wearer. Social implications For the ready‐to‐wear manufacture, this method can be also involved on the parametric mannequin in order to reduce the lifetime of development by eliminating the process of pattern grading in the future. Originality/value The originality of this article comes from the combination of the traditional draping technique with the advanced CAD softwares in consideration of the fitting and draping of the garment. This concept is used not only in the context of mass customized product but also in mass production for the ready‐to‐wear apparel industries. The patterns are directly adjusted in 3D and can immediately be tried on in 3D simulation. As a result, the process in 2D patternmaking design can be eliminated.",
+        "pdf_url": null,
+        "citation_count": 65,
+        "work_type": "article",
+        "identifier": "W2018140620",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "closed"
+        }
+      },
+      {
+        "title": "A Comparative Study of 3D Virtual Pattern and Traditional Pattern Making",
+        "source": "openalex",
+        "url": "https://doi.org/10.4236/jtst.2024.101001",
+        "doi": "10.4236/jtst.2024.101001",
+        "year": 2023,
+        "authors": [
+          "Md. Ahshan Habib",
+          "Md. Shamsul Alam"
+        ],
+        "venue": "Journal of Textile Science and Technology",
+        "abstract": "Pattern making plays a key role in the aspect of fashion design and garment production, as it serves as the transformative process that turns a simple drawing into a consistent accumulation of garments. The process of creating conventional or manual patterns requires a significant amount of time and a specialized skill set in various areas such as grading, marker planning, and fabric utilization. This study examines the potential of 3D technology and virtual fashion designing software in optimizing the efficiency and cost-effectiveness of pattern production processes. The proposed methodology is characterized by a higher level of comprehensiveness and reliability, resulting in time efficiency and providing a diverse range of design options. The user is not expected to possess comprehensive knowledge of traditional pattern creation procedures prior to engaging in the task. The software offers a range of capabilities including draping, 3D-to-2D and 2D-to-3D unfolding, fabric drivability analysis, ease allowance calculation, add-fullness manipulation, style development, grading, and virtual garment try-on. The strategy will cause a shift in the viewpoints and methodologies of business professionals when it comes to the use of 3D fashion design software. Upon recognizing the potential time, financial, and resource-saving benefits associated with the integration of 3D technology into their design development process, individuals will be motivated to select for its utilization over conventional pattern making methods. Individuals will possess the capacity to transfer their cognitive processes and engage in introspection regarding their professional endeavors and current activities through the utilization of 3D virtual pattern-making and fashion design technologies. To enhance the efficacy and ecological sustainability of designs, designers have the potential to integrate 3D technology with virtual fashion software, thereby compliant advantages for both commercial enterprises and the environment.",
+        "pdf_url": "http://www.scirp.org/journal/PaperDownload.aspx?paperID=129669",
+        "citation_count": 47,
+        "work_type": "article",
+        "identifier": "W4389411791",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Examining Apparel Design students’ self- efficacy and willingness towards using Virtual Reality in the design process",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.31274/td-20240329-313",
+        "doi": "10.31274/td-20240329-313",
+        "year": 2022,
+        "authors": [
+          "Aseel Binhajib"
+        ],
+        "venue": null,
+        "abstract": "Virtual reality (VR) is an emerging technology in garment design that has demonstrated promising results in student achievement (Wyss et al., 2014). Studies that have investigated the value of VR have shown that it positively affects student creativity (Yang et al., 2018), student engagement levels (Kennedy, 2019), and learning motivation (Wyss et al., 2014). Although these positive outcomes are acknowledged, little attention has been given to understanding students’ self-efficacy and willingness to adopt VR in garment design. For example, understanding both self-efficacy and willingness to adopt VR are related to students’ learning motivations (Dinther et al., 2011; Wyss et al., 2014). Furthermore, developing educational plans based on students’ confidence is related to their willingness to adopt a technology (Svenningsson et al., 2021). Therefore, the purpose of this study was to examine both students’ willingness to adopt VR during the design process and their self-efficacy level when adopting VR as a sketching tool in the design process. A multiple case studies design was used to analyze the views and interactions of eight undergraduate Apparel Design participants who explored the use of VR during the idea-generation stage of the apparel design process. Student selection was linked to an Apparel Design course in which students engage in the apparel design process and had acquired several skills in fashion sketches and technology software. This ensured that all potential participants possessed a similar skill range. Measures of individual students’ “willingness to adopt VR” data were collected using a scale based on the UTAUT framework. In addition, several open-ended questions were included to determine the type of facilitating conditions students preferred when using VR. The variables for “willingness to adopt VR” were: 1) performance expectancy, 2) effort expectancy, 3) perceived enjoyment, 4) facilitating conditions, and 5) social influence. The data for examining self-efficacy were derived by means of a self-efficacy scale and open-ended questions. The data helped determine self-efficacy levels when using VR and the factors that impacted those levels. The variables for self-efficacy were: 1) previous experience, 2) psychological responses, 3) social modeling, and 4) performance accomplishment. The investigation compared research propositions with the findings by employing a pattern matching analysis technique. Findings show that the eight Apparel Design students evaluated their self-efficacy level as medium or high. Factors impacting self-efficacy levels were similar for both self-efficacy levels, and they supported findings reported in the literature. Student “willingness to adopt VR” did not show a specific pattern in VR performance expectancy and effort expectancy. However, based on student scores there might be a descriptive pattern between the variables for perceived enjoyment, social influence and facilitating conditions, yet not statistically significant given the small sample size. Types of facilitating conditions favorable for VR use were listed to provide educators with factors to consider when adopting VR in the design process. The findings were reported in two manuscripts: one that covered self-efficacy, and one in another that covered students’ willingness to adopt VR.",
+        "pdf_url": "https://dr.lib.iastate.edu/bitstreams/641abc43-2899-4d7c-b46b-5b7c44a92b17/download",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4393304168",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Equipping apparel design students with the knowledge of 3D/ 2D simulation technologies: A case study and its implications for curriculum development",
+        "source": "openalex",
+        "url": "https://doi.org/10.31274/itaa_proceedings-180814-781",
+        "doi": "10.31274/itaa_proceedings-180814-781",
+        "year": 2013,
+        "authors": [
+          "Fatma Baytar",
+          "Allison Meyer"
+        ],
+        "venue": null,
+        "abstract": "In the competitive global apparel industry, fast-changing fashion trends and offshore sourcing of production necessitate flexibility and efficiency for product development and communication among designers, manufactures, and retailers. Three dimensional (3D) virtual prototyping technologies have potential to offer solutions for minimizing lead times and costs associated with product development (Sayem, Kennon & Clarke, 2010). 3D body scanning and 3D Computer Aided Design (CAD) systems can be used to generate realistic body models, develop patterns, and simulate digital garments onto body models. When these 3D technologies are fully adopted it will be vital for apparel designers in the near future to exhibit competency in using these technologies for product development, communication and collaboration with cross-cultural and global distributed teams.",
+        "pdf_url": "https://www.iastatedigitalpress.com/itaa/article/id/2126/download/pdf/",
+        "citation_count": 1,
+        "work_type": "report",
+        "identifier": "W2797085210",
+        "extra": {
+          "openalex_type": "report",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "A Comparative Study of Open-Source and Licensed CAD Software to Support Garment Development Learning",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.3390/machines7020030",
+        "doi": "10.3390/machines7020030",
+        "year": 2019,
+        "authors": [
+          "Evridiki Papachristou",
+          "Panagiotis Kyratsis",
+          "Nikolaos Bilalis"
+        ],
+        "venue": "Machines",
+        "abstract": "Most universities have included computer-aided design (CAD) pattern making systems education and training in their clothing technology courses in recent years, so as to respond to the actual needs of the fashion world for high-skilled fashion designers and clothing engineers. With the rapid rise in the use of open source software (OSS) in all types of applications, it is important to know if the existing OSS CAD software for garment prototyping development can successfully support the learning process. The present study compares two commercial licensed CAD systems for pattern design (Polypattern and Create) to an open source software, Seamly2D, and to Wild Ginger’s Caveo V6 programme, which runs within an OSS. In total, two licensed and two OSS systems have been evaluated in their weights in accomplishing the garment development of ten different pattern designs. The results obtained for the evaluation of a set of OS and licensed CAD systems are presented and critically discussed.",
+        "pdf_url": "https://www.mdpi.com/2075-1702/7/2/30/pdf?version=1558946473",
+        "citation_count": 44,
+        "work_type": "article",
+        "identifier": "W2943372996",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Three Dimensional (3D) Body Scanner for Apparel Shoppers Would Make Commerce Easier",
+        "source": "openalex",
+        "url": "https://doi.org/10.15221/10.068",
+        "doi": "10.15221/10.068",
+        "year": 2010,
+        "authors": [
+          "Marie‐Eve Faust",
+          "Serge Carrier"
+        ],
+        "venue": "International Conference on 3D Body Scanning Technologies (3DBST)",
+        "abstract": "If a 5',8\", 115 lbs woman, a 5',6\", 135 lbs woman and a 5',9\", 125 lbs woman all claim to wear a size 8 ([TC]2, 2004) then what are the measurements of the garment they purchase?In the ancient regime measurements, all things differed from one place to another.Besides the livre poids-de-marc, that was the most consistent in time, the toise (linear measurement) Toise de France, Toise de Chalet, Toise du Perou or de l'Academie varied over time.Moreover each King, Duke and Mont Seigneur, had their own measurements for an aune, a pied (foot) and a pouce (thumb).Everyone used what was most appropriate according to the circumstances and their need.This lasted until the end of the Eighteen Century when Louis XVI convened les Etats Generaux.One of the critical issues written by French citizens in the Cahier de doleances was uniformity of weight and measures.(Guedj, 2000). « Qu'il n'y ait plus sur le territoire deux poids et deux mesures. » … « Variété de mesures et leurs dénominations bizarre jettent nécessairement de la confusion dans nos idées, de l'embarras dans le commerce. » […]… différence des choses sous l'uniformité des noms. » « La différence des poids et des mesures est cause qu'on nous dupe »People were convinced the suppression of diversity in measures would facilitate commerce between buyers and sellers.The Academie des sciences made 'table raze' and decided that measurement uniformity would be based on something that was not arbitrary, thus ephemera.From that day, measurements were based on something universal, invariable and eternal : the meridian, measured by triangulation which served as the basis for what is today known as the meter.This unit of measurement was extraordinary for linear measurements.It helped commercialization by ensuring that each piece of land be, from thereon, calculated in the same units.But how can this measure apply to a three dimensional human body?How do these measures translate to produce garment matching these measurements?More importantly how can these measurements be conveyed in size labels?A number of our previous papers present an overview of research conducted on women's body measurements, using data extracted from the latest national survey in the U.S.A., performed using a 3D body scanner.We demonstrated that the body scanning technology was accurate (if imprecise for a few specific parts of the body) and that women may be classified according to their body shape and size measurements.We further showed that even when classified, it is almost impossible to arrive at a manageable number of sizes when taking into consideration the whole spectrum of measurements and shapes.These observations led us to conclude that manufacturers and retailers should stop using standard \"numbered size labels\" or \"small, medium, large\", and worst, use vanity sizing.We further believe apparel manufacturers and retailers should work with technology such as 3D body scanners.They could then either (1) use 3D body data measurements along with other technologies, software, or solutions to cut and sew garments specifically matching individuals' data (mass customization) or (2) use an individual's measurements to identify the standard sized garment that would suit them best.3D body scanners (at least the one from [TC]2) are accurate, and, nowadays, relatively accessible.Contrary to the existing labeling system which uses standardized sizes, the 3D body scanner enables the seller to direct consumers toward garments that should fit their silhouette and size.Used in combination with visualization and communication technologies it could even allow for the socialization component so important in the shopping experience.Mass customization would reduce returns and waste of time as well as increase consumer satisfaction.Some of our previous research has demonstrated that being scanned and experiencing virtual visualization are part of a shopping experience that consumers are ready to experiment.Yet even if we now have the most reliable measuring tools, communicating sizing information still needs to be improved.Manufacturers, retailers, consumers and academics must sit together and agree on a new size label.",
+        "pdf_url": "https://www.3dbody.tech/cap/papers/2010/10068_53faust.pdf",
+        "citation_count": 3,
+        "work_type": "other",
+        "identifier": "W2024913504",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Utilising Virtual Environments in a Clothing Design Process",
+        "source": "openalex",
+        "url": "https://research.ulapland.fi/fi/publications/eb0b3e0d-4838-475e-afdc-ca65f8684c35",
+        "doi": null,
+        "year": 2015,
+        "authors": [
+          "Sanna Konola"
+        ],
+        "venue": "LaCRIS (University of Lapland)",
+        "abstract": "Virtual or digital clothing or clothing design is a concept yet to be defined. Virtual, today, is usually something created with a computer, or existing on the Internet. Digital, or digitalisation usually refers to electronic technology that converts data like text or sound into an electronic form or something that creates or processes data (FDS 2015). Digital watches convert time into electronic form while digital televisions use digital signals. Body scanners today can digitalise human form, create a virtual avatar. Digitalisation can also refer to a phenomena of business activities transitioning to electronic channels and contents (Teknologiateollisuus 2014). The Fashion Digital Studio at the London College of Fashion understands digital fashion as a very all-encompassing concept that that connects to ways we research people and clothing and how we design, manufacture and consume fashion (FDS 2015). Digital technologies create not only avatars and game characters with fancy clothing, but also new product design and management tools, computer aided manufacturing, new shopping and communication possibilities as well as new business models and content. Research has already been conducted on virtual product design and management in Finland, for example in the VIRTA (Virtuaalinen tuotesuunnittelu ja -hallinta) project in 2013, that was coordinated by Finatex and funded by Tekes (Finatex 2013). It is noteworthy that here I am not even mentioning wearable technology and the Internet of Things that can in a way physically digitise garment pieces and turn them into data processing objects. At the University of Lapland, we are utilising as well as researching the formation of these new virtual and digital possibilities with the means we have in our possession. Computer aided design is embedded into the curriculum in the form of digital visualisation software programs as well as 2D patternmaking and 3D virtual fitting software. Researching the possibilities of using virtual patternmaking and fitting in clothing design processes is continuous at the University of Lapland. This is done in courses as well as in the context of projects. The Body Fit project, for example, researched virtual patternmaking, fitting and visualisation with protective clothing, sports and outdoor clothing. We have also had a Symcad –bodyscanner in our possession for a few years now. Bodyscanner related research that has been conducted before, is summarised elsewhere in this publication. As digitalisation connects with any possible field today, a project dealing with artic and protective wear cannot escape it either. In the ArticPro Lapland project it wasn’t a special focus area, but since interviewed companies expressed interest in further research and examining possibilities of virtual fitting, it was adopted as one development theme. This article is a brief overview on how virtual learning and innovation environments were developed and utilised in the context of clothing design. A pair of students researched how the 3D virtual fitting software translates into a tool in designing and fitting workwear. The possibilities of utilising the virtual environment of Service Innovation Corner (SINCO) laboratory at the University of Lapland, as a tool or a method in user-centred clothing design have examined. We also examined possibilities to connect clothing design with pLAB, a software engineering laboratory at the Lapland University of Applied Sciences, and their game and virtual environment development know-how.",
+        "pdf_url": "http://www.theseus.fi/bitstream/handle/10024/96820/B%2010%202015%20Konola%20Kahkonen.pdf?sequence=1",
+        "citation_count": 1,
+        "work_type": "book-chapter",
+        "identifier": "W2613392914",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Patternmaking Tools",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501317644.ch-016",
+        "doi": "10.5040/9781501317644.ch-016",
+        "year": 2016,
+        "authors": [],
+        "venue": "Apparel Production Terms and Processes",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.5040/9781501317644.ch-016",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Fairchild Books"
+        }
+      },
+      {
+        "title": "Camisole",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501303395.ch-007",
+        "doi": "10.5040/9781501303395.ch-007",
+        "year": 2008,
+        "authors": [],
+        "venue": "Computerized Patternmaking for Apparel Production",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501303395.ch-007",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Digitizing",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501303395.ch-018",
+        "doi": "10.5040/9781501303395.ch-018",
+        "year": 2008,
+        "authors": [],
+        "venue": "Computerized Patternmaking for Apparel Production",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501303395.ch-018",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Jean Skirt",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501303395.ch-004",
+        "doi": "10.5040/9781501303395.ch-004",
+        "year": 2008,
+        "authors": [],
+        "venue": "Computerized Patternmaking for Apparel Production",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501303395.ch-004",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Essential",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501303395.ch-011",
+        "doi": "10.5040/9781501303395.ch-011",
+        "year": 2008,
+        "authors": [],
+        "venue": "Computerized Patternmaking for Apparel Production",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501303395.ch-011",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Computerized Patternmaking for Apparel Production",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501303395",
+        "doi": "10.5040/9781501303395",
+        "year": 2008,
+        "authors": [
+          "Laura Nugent"
+        ],
+        "venue": null,
+        "abstract": "Computerized Patternmaking for Apparel Production takes a unique approach to learning Gerber AccuMark technology. This book includes all the procedures that the fashion industry uses to create a style and rush it to a factory for cutting and mass production. Through 20 lessons focusing on patternmaking, digitizing, grading, and marker making, students will grasp the cycle of apparel production from patternmaking to cutting. This book bridges the gap between knowing what the software functions do and applying them in today’s working environment.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.5040/9781501303395",
+        "extra": {
+          "crossref_type": "book",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Bustier",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501303395.ch-006",
+        "doi": "10.5040/9781501303395.ch-006",
+        "year": 2008,
+        "authors": [],
+        "venue": "Computerized Patternmaking for Apparel Production",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501303395.ch-006",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Starting Gerber AccuMark",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501303395.ch-001",
+        "doi": "10.5040/9781501303395.ch-001",
+        "year": 2008,
+        "authors": [],
+        "venue": "Computerized Patternmaking for Apparel Production",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501303395.ch-001",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Introduction",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501303395.0005",
+        "doi": "10.5040/9781501303395.0005",
+        "year": 2008,
+        "authors": [],
+        "venue": "Computerized Patternmaking for Apparel Production",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501303395.0005",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Marker-Making",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501303395.ch-020",
+        "doi": "10.5040/9781501303395.ch-020",
+        "year": 2008,
+        "authors": [],
+        "venue": "Computerized Patternmaking for Apparel Production",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501303395.ch-020",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Patternmaking Tools",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501315602.ch-016",
+        "doi": "10.5040/9781501315602.ch-016",
+        "year": 2017,
+        "authors": [],
+        "venue": "Apparel Production Terms and Processes",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501315602.ch-016",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Inc"
+        }
+      },
+      {
+        "title": "Cargo Pant",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501303395.ch-012",
+        "doi": "10.5040/9781501303395.ch-012",
+        "year": 2008,
+        "authors": [],
+        "venue": "Computerized Patternmaking for Apparel Production",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501303395.ch-012",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Pleat Skirt",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501303395.ch-005",
+        "doi": "10.5040/9781501303395.ch-005",
+        "year": 2008,
+        "authors": [],
+        "venue": "Computerized Patternmaking for Apparel Production",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501303395.ch-005",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Ruffle Dress",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501303395.ch-014",
+        "doi": "10.5040/9781501303395.ch-014",
+        "year": 2008,
+        "authors": [],
+        "venue": "Computerized Patternmaking for Apparel Production",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501303395.ch-014",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Patternmaking Methods and Computer Technology",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501317644.ch-015",
+        "doi": "10.5040/9781501317644.ch-015",
+        "year": 2016,
+        "authors": [],
+        "venue": "Apparel Production Terms and Processes",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.5040/9781501317644.ch-015",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Fairchild Books"
+        }
+      },
+      {
+        "title": "Pockets and Tabs",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501303395.ch-002",
+        "doi": "10.5040/9781501303395.ch-002",
+        "year": 2008,
+        "authors": [],
+        "venue": "Computerized Patternmaking for Apparel Production",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501303395.ch-002",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Revere Jacket",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501303395.ch-008",
+        "doi": "10.5040/9781501303395.ch-008",
+        "year": 2008,
+        "authors": [],
+        "venue": "Computerized Patternmaking for Apparel Production",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501303395.ch-008",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Alterations I",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501303395.ch-010",
+        "doi": "10.5040/9781501303395.ch-010",
+        "year": 2008,
+        "authors": [],
+        "venue": "Computerized Patternmaking for Apparel Production",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501303395.ch-010",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Handkerchief Skirt",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501303395.ch-003",
+        "doi": "10.5040/9781501303395.ch-003",
+        "year": 2008,
+        "authors": [],
+        "venue": "Computerized Patternmaking for Apparel Production",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501303395.ch-003",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Alterations II",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501303395.ch-015",
+        "doi": "10.5040/9781501303395.ch-015",
+        "year": 2008,
+        "authors": [],
+        "venue": "Computerized Patternmaking for Apparel Production",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501303395.ch-015",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      }
+    ]
+  },
+  "count": 40,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T01:59:57.541902+00:00"
+}

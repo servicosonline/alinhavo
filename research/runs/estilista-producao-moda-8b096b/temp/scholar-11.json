@@ -1,0 +1,992 @@
+{
+  "ok": true,
+  "data": {
+    "query": "fashion designer burnout workload fast fashion collection calendar",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 25,
+      "crossref": 25,
+      "doab": 0
+    },
+    "raw_records": 50,
+    "merged_records": 50,
+    "returned": 50,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "“We’re All Suicidal. What’s the Issue?”: A Qualitative Investigation into the Mental Health of Fashion Designers",
+        "source": "openalex",
+        "url": "https://doi.org/10.1080/17569370.2026.2714774",
+        "doi": "10.1080/17569370.2026.2714774",
+        "year": 2026,
+        "authors": [
+          "Elliot Rickerby",
+          "Maxi Heitmayer"
+        ],
+        "venue": "Fashion Practice",
+        "abstract": "The fashion industry is notorious for its intense stress, toxic work environments, and the romanticization of overwork, all of which take a significant toll on the mental health of its workforce. Yet, academic research has largely neglected this reality. The mental health of fashion designers, in particular, has received little attention in academic research, which prevents the industry from gaining the insights needed to implement meaningful change. This qualitative study explores the lived experiences of fashion designers, focusing on the mental health challenges they face within both educational and professional contexts. Based on 15 semi-structured interviews, the research identifies five key themes including educational & organizational culture, the tension between capitalism and creativity, and the lack of social support. The study’s findings suggest that, rather than being an exception, fashion designers experience work-related stress very similar to that of overworked professionals in other industries, which is then exacerbated by a culture that normalizes sacrifice and exploitation. The results highlight the urgent need for systemic reforms in the industry, advocating for the integration of mental health support and a shift toward sustainable, human-centric practices. The paper concludes by proposing future research directions to support policy development and encourages a reexamination of fashion’s entrenched toxic dynamics with the aim to end fashion exceptionalism.",
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/17569370.2026.2714774?needAccess=true",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7212060139",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "“FASHION IN THE TIMES OF COVID-19: A LITERATURE REVIEW",
+        "source": "openalex",
+        "url": "https://doi.org/10.55248/gengpi.2022.3.6.3",
+        "doi": "10.55248/gengpi.2022.3.6.3",
+        "year": 2022,
+        "authors": [
+          "Madhurendra Kumar"
+        ],
+        "venue": "International Journal of Research Publication and Reviews",
+        "abstract": "History reveals a series of nasty occurrences which affected mankind severely resulting in a reformed shape of the complete eco-system where humans have to start again from scratch to showcase their resilience towards the disorder, the same is true in the case of recent pa ndemic Covid-19 also. This Chaos affected all the facets of human life whether it is society, industry, ecology, belief system, or the way we live on the planet earth. So, seeing the Fashion industry struggling hard during the recent pandemic should not be a matter of surprise as it is also part of the same ecosystem, after all. To delve deeper into this tale, a series of research papers, journal articles, research projects, media reports, and forecasts by a reputed agency is reviewed and presented in this paper which will be beneficial in unlocking the true potential and adaptive measures for the future. A qualitative approach to review the past reputed articles in context to Covid-19 impact on fashion industry is followed here.",
+        "pdf_url": "https://doi.org/10.55248/gengpi.2022.3.6.3",
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "W4281617693",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Eco-anarchism and Sustainable Fashion: Towards Autonomy and the Reappropriation of Production Methods",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/11250/5276906",
+        "doi": null,
+        "year": 2025,
+        "authors": [
+          "Leblanc Marieke"
+        ],
+        "venue": "NVA (Nasjonalt vitenarkiv)",
+        "abstract": "I would like to express my deep gratitude to all the textile practitioners who",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7236868753",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Faculty Perceptions of Condensed Online Learning in Higher Education",
+        "source": "openalex",
+        "url": "https://doi.org/10.31390/gradschool_dissertations.40",
+        "doi": "10.31390/gradschool_dissertations.40",
+        "year": 2016,
+        "authors": [
+          "H.I. Mellieon"
+        ],
+        "venue": "Louisiana State University",
+        "abstract": "In the past 10 years the realm of distance and online education has been expanding very fast. With the help of the Internet, it has cut the need for a student to be in the same space as the instructor in order to receive information and be assessed for learning. As more universities are using distance-learning platforms, faculty members are having issues adjusting and being successful. While the educational landscape continues to be reformed with technology in the United States, there are individuals and institutions that are engaging in distance learning to better serve a larger population of students. It is agreed that faculty support is necessary for a successful distance program and it is up to the administration to make this happen. One of their biggest suggestions is that instructors join and communicate in professional networks and organizations to continue to push the field forward. The purpose of this study is to explore faculty perceptions of online learning in condensed degree programs at a traditionally “brick and mortar” campuses. This research will seek to consider the context of online learning no longer being considered the exclusive right of ‘virtual universities’ and how faculty feel it will influence the future of higher education. Qualitative methods of data collection and analysis were used in this case study with interviews being conducted with each participant. Rogers’ (2003) Change Theory guided the interview questions. The findings of the study indicated that faculty member’s perceived online education to be valuable when used to help people that would otherwise not have the ability to receive an education. Also, they agreed that online education would continue to grow as more universities see its value in educating the masses and expanding their brand. Although this study is based on perceptions of current faculty members, the findings also provide data on ways to support faculty members in the online environment in the condensed format.",
+        "pdf_url": "https://repository.lsu.edu/cgi/viewcontent.cgi?article=1039&context=gradschool_dissertations",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2738295174",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Modern technology adoption and professional development of lecturers",
+        "source": "openalex",
+        "url": "https://doi.org/10.1007/s10639-023-11790-w",
+        "doi": "10.1007/s10639-023-11790-w",
+        "year": 2023,
+        "authors": [
+          "Afam Uzorka",
+          "Shiellah Namara",
+          "Ademola Olatide Olaniyan"
+        ],
+        "venue": "Education and Information Technologies",
+        "abstract": "As technology becomes increasingly integrated with education, research regarding the professional development needs of lecturers making the transition to working in a technology-mediated environment following technological advancement is paramount in improving learning experiences. This study was carried out to investigate the lecturers’ professional development needs with regard to technology. This qualitative study randomly selected a convenience sample of 130 faculty and administrators. Using an interview guide, the interviewers met with 89 participants. Data were transcribed and entered into a database for analysis. The findings reported are uses of technology and professional development initiatives. Most lecturers identify time as their greatest barrier. Recognizing that time is also their most valued asset, lecturers look for professional development opportunities designed to meet their needs, relevant to how they want to apply the technology, with trainers and support people who use principles of andragogy and constructivism when teaching, training, and communicating. The study shows that there is a need for those involved in planning and implementing professional development opportunities to consider the needs of administrators and lecturers, and principles of adult education and constructivism when planning and implementing professional development opportunities.",
+        "pdf_url": "https://www.researchsquare.com/article/rs-1864746/latest.pdf",
+        "citation_count": 114,
+        "work_type": "article",
+        "identifier": "W4366089217",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Co-op mode: the emancipatory potential of freelancer co-operatives in the UK videogames industry following the COVID-19 pandemic",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.1080/09548963.2023.2181688",
+        "doi": "10.1080/09548963.2023.2181688",
+        "year": 2023,
+        "authors": [
+          "Jack K. Morton"
+        ],
+        "venue": "Cultural Trends",
+        "abstract": "With government-imposed lockdowns due to the COVID-19 pandemic, one would expect the videogames industry to experience a windfall as locked-down individuals turn to games to fill the time. Despite successful profit margins for game studios, a multitude of issues have affected videogames freelancers, with this paper displaying how the pandemic has not been plain sailing for the industry. Informed by 31 interviews with freelancers and videogames practitioners, this paper adds to knowledge on the viability of worker co-operatives and how they offer hope to those workers looking for more emotional and financial security post-pandemic. The paper concludes by suggesting that although co-operatives provide alleviation for workers against a multitude of concerns, there needs to be more education, promotion and funding for co-ops to make them an accessible corporate structure.",
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/09548963.2023.2181688?needAccess=true",
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "W4321769904",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Images of a Broken World",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1773/36412",
+        "doi": null,
+        "year": 2016,
+        "authors": [
+          "David M. Shrauger"
+        ],
+        "venue": "ResearchWorks at the University of Washington (University of Washington)",
+        "abstract": "Images of a Broken World is a creative thesis and a collection of short stories that explore violence in all of its forms and the destiny of humanity in a world that often rejects its humanity in favor of technology. An incisive, laser-pointed interrogation of atrocity and the banal outrages that we all tolerate, inch by inch until the weight of it shatters our lives. What broke the world? This work cannot answer that. All that it can do is explore the pieces and try to puzzle out what it looked like before it shattered. A young boy is abandoned in a library and pursued by beasts that exist in his memory. A woman with a dangerous job is troubled by the daughter she left behind. A call from an old friend brings an end to an old friendship. A single act of childhood bravery haunts a man for the rest of his life. A professional mourner who cannot cry for himself cries for others. A grim messenger delivers bad news with a smile. A career woman finds herself trapped by her work in more ways than one. A man of the not-so-distant future has the appointment of his life and makes a fateful decision. Another man lives in a world so immersed in technology that decisions are no longer necessary. The tales contained in Images of a Broken World present pictures of a world that exists right outside our window and stories that that will haunt the reader long after the final page has turned.",
+        "pdf_url": "https://digital.lib.washington.edu/bitstreams/d7737641-b62f-47f8-813e-fb564e81dab0/download",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2528046649",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Everyday emergencies: Exploring challenges and designs involving 9-1-1 systems",
+        "source": "openalex",
+        "url": "https://summit.sfu.ca/_flysystem/fedora/2023-04/etd22364.pdf",
+        "doi": null,
+        "year": null,
+        "authors": [
+          "Punyashlok Dash"
+        ],
+        "venue": "Summit (Simon Fraser University)",
+        "abstract": "This thesis explores everyday emergencies and looks at the challenges and opportunities that surround in designing and implementing Next Generation 9-1-1 systems.The thesis looks at two stakeholders of a 911 emergency call, call takers/supervisors and callers.It explores how callers and call takers will be affected with the potential introduction of video calls in emergency calling and how introduction of multimedia affects privacy of both callers and call takers.The thesis also looks at potential work from home scenarios for call takers, opportunities around designing user interfaces that enable such collaboration and challenges to privacy under such conditions.The thesis is divided in three stages which also reflect the order in which I carried out my research.The first stage involves designing and evaluating call taking user interfaces for Next Generation 9-1-1.The second stage involves building an innovative user interface that allows work from home call taking for callers and promotes remote collaboration over software between various stakeholders of emergency call centre.The final stage of my research involves building a next generation mobile application that allows 911 callers to use multimedia capabilities like photo sharing and video calls within a 911 call.The three stages of my research contribute valuable insights into the challenges around incorporating video in 911 calls and present various design considerations for future designers in this space.My research also highlights the potential threat to privacy for call takers who may be monitored by a supervisor with always on video cameras in future remote collaboration setups that promote work from home scenarios for 911 employees.The thesis highlights some limitations that constrains current design work and can act as a guide for future researchers in improving their designs, should they consider this area of research.",
+        "pdf_url": "https://summit.sfu.ca/_flysystem/fedora/2023-04/etd22364.pdf",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W7137568704",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Never too late to learn: Unlocking the potential of aging workforce in manufacturing and service industries",
+        "source": "openalex",
+        "url": "https://doi.org/10.1016/j.ijpe.2024.109193",
+        "doi": "10.1016/j.ijpe.2024.109193",
+        "year": 2024,
+        "authors": [
+          "Thilini Ranasinghe",
+          "Eric H. Grosse",
+          "Christoph  H. Glock",
+          "Mohamad Y. Jaber"
+        ],
+        "venue": "International Journal of Production Economics",
+        "abstract": "This study systematically reviews 51 articles from Scopus and Web of Science databases to investigate the learning of aging workers in the manufacturing and service industries. It focuses on three key research questions: factors influencing learning among aging workers, effective learning approaches for this demographic, and strategies for enhancing their learning outcomes. The factors influencing learning were categorized into individual, organizational, and societal dimensions, illustrating the sophisticated interaction that shapes the learning environment. Effective learning approaches identified include lifelong learning, utilizing technology, and intergenerational learning, which are interrelated and reinforce each other. Furthermore, we propose a seven-step socio-technical system approach to enhance learning for the aging workforce. This novel approach considers technological tools, as well as human, organizational, and societal elements that play an essential role in the learning process. Our findings present a comprehensive perspective on the complexities of older workers' learning and offer actionable insights to enhance their learning experience. The proposed socio-technical model contributes to creating an inclusive and supportive learning environment, aiming to boost key areas, such as job performance, satisfaction, health, and well-being. This study's implications extend to organizations aiming to optimize the potential of an aging workforce in a rapidly evolving digital world.",
+        "pdf_url": null,
+        "citation_count": 61,
+        "work_type": "article",
+        "identifier": "W4391915383",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Online Education: Perceptions of Faculty and Administrators at Three Different Types of Institutions of Higher Education.",
+        "source": "openalex",
+        "url": "https://dc.etsu.edu/etd/2340",
+        "doi": null,
+        "year": 2014,
+        "authors": [
+          "Sneha Elizabeth Abraham"
+        ],
+        "venue": "Digital Commons - East Tennessee State University (East Tennessee State University)",
+        "abstract": "The purpose of this study was to investigate faculty and administrator perceptions of online learning compared to traditional face-to-face instruction by exploring the factors that impact online instruction. Strategies that can lead to effective online learning environments were explored. Faculty and administrators working with online education at 6 traditional, regionally accredited, degree granting higher education institutions were included in the study. The number of participants consisted of 169 from the public university, 98 from the private institutions, and 33 from the community college. The survey used a Likert-type scale, and had 4 dimensions (student engagement, student-student interactions, faculty engagement, and academic dishonesty) to measure faculty and administrator perceptions of online education. It contained 17 statements and 9 demographic questions. Statistical analyses of the data revealed: (1) No significant difference in the perceptions of faculty and administrators as measured by mean scores on the 4 dimensions of the survey by type of higher education institution, (2) No significant difference in the perceptions on the 4 dimensions of the survey between administrators and faculty, (3) No significant relationship in participants’ years of service and mean scores on the 4 dimensions of the survey, (4) No significant difference in the perceptions on the student-student interactions dimension between faculty who teach primarily online and those who teach primarily face-to-face, and a significant difference in the perceptions on the other 3 dimensions, (5) A significant difference in the perceptions of faculty towards academic dishonesty dimension depending on the percentage of online classes taught by the faculty (25% or less, about 50%, about 75%, and 100%). Group 1 (25% or less) had significantly lower mean score than the groups 2 (about 50%), 3 (about 75%), and 4 (100%), (6) A significant positive relationship in the perceptions on the academic dishonesty dimension based on the number of years teaching online courses, (7) No significant difference in participants’ mean scores on the 4 dimensions based on faculty members’ and administrators’ age, and (8) The perceptions of male faculty and administrators on student engagement tended to be significantly higher than the perceptions of female faculty and administrators.",
+        "pdf_url": "https://dc.etsu.edu/context/etd/article/3701/viewcontent/AbrahamS041714f.pdf",
+        "citation_count": 9,
+        "work_type": "article",
+        "identifier": "W200539368",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "IMPRESSIONS OF VIABILITY: HOW CURRENT ENROLLMENT MANAGEMENT PERSONNEL AND FORMER STUDENTS PERCEIVE THE IMPLEMENTATION OF A CHATBOT FOCUSED ON STUDENT FINANCIAL COMMUNICATION",
+        "source": "openalex",
+        "url": "https://aquila.usm.edu/highereddoctoralprojects/2",
+        "doi": null,
+        "year": 2019,
+        "authors": [
+          "Courtney Robinson"
+        ],
+        "venue": "Aquila Digital Community (University of Southern Mississippi)",
+        "abstract": "The increasingly competitive modern higher educational environment has forced student services professionals to increase focus on recruitment and retention, which corresponds with an expanding body of scholarly literature and research on retention practices (Moore, Hossler, Ziskin, & Wakhungu, 2008). These large-scale recruitment and retention goals coincide with significant declines in state and federal funding, leaving many financially-limited institutions struggling to balance higher expectations and declining resources. Oftentimes, institutions seek out technological platforms that streamline the workload, while remaining cognizant that selected platforms must appeal to the current student population, the technologically-savvy Generation Z (Castillo, 2018; Stillman & Stillman, 2017). Outside of higher education, chatbots, often presented as AI assistants, have proven their popularity via products like Amazon’s Alexa, Google Assistant, Microsoft’s Cortana, and Apple’s Siri (Dale, 2016). Now, this technology is appearing in higher education, where it has been implemented at several institutions to automate processes and facilitate communication between students and staff (Herndon, 2017). The purpose of this action research study was to evaluate the perceptions, specifically linked to viability, of a chatbot that provides information to Southern Miss students in real-time. This research was focused on student finances and the communications that connect a student to his or her financial information. This research found that there was significant support for financial aid and business services chatbots at USM. Although a chatbot would not alter most respondents’ enrollment plans, a majority of the former student respondents indicated that if an institution implemented a chatbot, they would have a better perception of that institution.",
+        "pdf_url": "https://aquila.usm.edu/context/highereddoctoralprojects/article/1002/viewcontent/FINAL_CAPSTONE_COURTNEY_ROBINSON.pdf",
+        "citation_count": 11,
+        "work_type": "article",
+        "identifier": "W2948650390",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Toimisto yhteisöllisyyden fasilitoijana: Miten tietotyöläisten kokemus toimiston yhteisöllisyydestä ja yhteenkuuluvuudesta on muuttunut koronaviruspandemian aikana",
+        "source": "openalex",
+        "url": "https://aaltodoc.aalto.fi/handle/123456789/102390",
+        "doi": null,
+        "year": 2020,
+        "authors": [
+          "Kristian Linnoinen"
+        ],
+        "venue": "Aaltodoc (Aalto University)",
+        "abstract": "The office has long been the main physical environment where knowledge work takes place, where employees interact with each other and where work communities are built. The office holds an esteemed role as part of our social lives. In 2020, the coronavirus pandemic forced employees across the globe to start working from their homes. This thesis aims to answer the research question “What is the role of the office in creating communality and belonging, and how has the employee experience of these changed during the pandemic?”. This topic is relevant to managers and designers who have been trying to create fruitful and functional office spaces for decades with varying success. Working together is a force that bonds communities together. Communality offers companies a sustainable advantage by increasing productivity, reducing employee turnover and attracting talent. People experience belonging to their community through a complex web of interactions. Physical environments affect how people behave, interact and work, by limiting and enabling actions and informing what conduct is acceptable, through the operation of affordances. Offices thus allow for interactions that cannot be replicated virtually. When working remotely, building relationships is slower and face-to-face interactions are lacking. This study uses an exploratory case study research approach, using semi-structured interviews conducted with employees of knowledge work industries for data collection. The interviews are analysed using the thematic analysis method to identify common experiences concerning communality. The findings are mapped on to a theoretical framework using deductive analysis. The findings of this research indicate that the office is instrumental in creating communality, evident by how the pandemic-caused switch to remote working has in general lowered experienced communality. The office as an environment allows for proximity in a way that remote environments cannot replicate. Proximity allows for better communication, more authentic relationships and spontaneity. Belonging is experienced as manifesting in the shared spaces of offices that individuals also feel ownership over and can identify with. In addition, social events are an integral part of the office experience that bonds communities together. While organisations operating fully in remote environments may have acceptable levels of communality, the office can be utilised as a powerful tool to further improve it. Remote working will continue to be an important tool for many organisations but should not fully replace the office. The pandemic-caused switch to remote work thus illustrates how the purposeful design and accessible location of offices are significantly valuable for facilitating communality and moulding individuals’ behaviours and belonging.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W7128410976",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "QUESTION OF «COMPLEX LAW» IN JURISPRUDENCE",
+        "source": "openalex",
+        "url": "https://doi.org/10.34660/inf.2024.91.69.031",
+        "doi": "10.34660/inf.2024.91.69.031",
+        "year": 2024,
+        "authors": [
+          "Y.V. Volkov"
+        ],
+        "venue": "Practice Oriented Science: UAE – Russia – India",
+        "abstract": "This paper attempts to substantiate the existence of complexity in law and the existence of complex branches of law (using information law as an example) for classification purposes. Complex branches of law are not opposed to other branches of law. Complexity is presented as a statistical feature that does not manifest itself arbitrarily, but only in the presence of a certain number of significant elements. The complexity of property rights is shown using materials from English-speaking authors. The complexity of information law is proven. A criterion of complexity for any branches of law is proposed. The materials can serve as a basis for further research and for the formation of topics in textbooks.",
+        "pdf_url": "https://doi.org/10.34660/inf.2024.91.69.031",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4406799051",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Assessing the Usability of a Digital Bridge Tool for Hospital-To-Home Transition for Older Adults with Multimorbidity",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/1807/149968",
+        "doi": null,
+        "year": 2025,
+        "authors": [
+          "Obinna Emmanuel Ezeani"
+        ],
+        "venue": "TSpace (University of Toronto)",
+        "abstract": "Background: Care transition from hospital-to-home is a vulnerable time for older adults with multimorbidity due to the complexity of care. The goal of this study is to evaluate the usability of the Digital Bridge tool. We will collect user-centered insights to guide the design and development process.Method: The study followed a multi-method approach. Data was collected via think-aloud, cognitive walkthrough, and PSSUQ and analyzed through rapid qualitative analysis and descriptive statistics. Results: Findings showed that users had positive usability experiences with the technology. 19 participants completed the PSSUQ (mean score: 2.97) with the benchmark mean at 2.82 (99% CI 2.62–3.02). Both providers and patients have unique priorities, where providers need technology that integrates into clinical workflows, while patients require technology that easily helps them manage their care. Conclusion: The differing priorities from both user groups pose an interesting implementation challenge, emphasizing the need for iterative design and continuous usability testing.",
+        "pdf_url": "https://utoronto.scholaris.ca/bitstreams/74c71281-3dc7-40bc-9592-25ff1222c432/download",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7132906111",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Reconstructing creative work due to COVID-19 : Exploring the impact of COVID-19 and the role of media for creatives newly working from home",
+        "source": "openalex",
+        "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:sh:diva-41180",
+        "doi": null,
+        "year": 2020,
+        "authors": [
+          "Lucie Vanova"
+        ],
+        "venue": "DiVA - Södertörn University (Södertörns högskola)",
+        "abstract": "The purpose of this thesis is to explore the impact of the situation imposed by the spread of COVID-19 on people working in creative industries and their creative processes, and analyse the role of media in reconstructing their work and leisure spaces at home. The research topics include handling of this change by the creatives, the role of media in reconstructing creatives' homes and the impact of this situation on their creativity. The methodology for gathering data is centred around interviews with the representatives of the group of people working in the creative industries. The empirical data is analysed with the help of the theoretical framework. Among the theories, the six most important topics are: Connectivity versus connectedness, Front region and back region, Boundary theory, Transformations between regions, Reasons to disconnect from media, and Influences on creativity. On one hand, the conclusion of this thesis is that creatives were handling the change of their work environment mostly well, possibly, perhaps creativity is usually influenced by internal factors, and as such the changed work environment as an external factor doesn't influence it as much as the social isolation situation due to COVID-19 as a whole. On the other hand, for many creatives the changed work environment provided calmer conditions for work and offered more time for leisure, although the majority of the participants were working more in this new situation than before. Due to the fact that all of the interviewees had to use their digital technologies and internet in order to work, the escape to the offline world often served as a place for relaxation. Moreover, the majority of the interviewees' devices was used for multi-functional purposes, for both work and for relax. Ultimately the impact on the creatives and their work was studied from different perspectives, offering a snapshot of creative work in extraordinary times.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W3132458018",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "To learn to see: a mixed methods case study on the professional identity formation of medical educators",
+        "source": "openalex",
+        "url": "https://doi.org/10.17918/00000591",
+        "doi": "10.17918/00000591",
+        "year": 2021,
+        "authors": [
+          "Delores Amorelli",
+          "Kristen Betts"
+        ],
+        "venue": "iDEA - Drexel University Institutional Repository",
+        "abstract": "Many medical students in the United States are entering residency without the skills that they need to provide safe patient care. The responsibility for preparing medical students for residency rests on undergraduate medical educators, many of whom lack formal training as educators, and who, as a result, many not see themselves as educators capable of impacting student learning. If medical school faculty do not see themselves as educators, they may not be able to successfully prepare students to enter their residences with the appropriate skills they need to provide safe, high-quality patient care. The purpose of this proposed study was to explore the process of professional identity formation for undergraduate medical educators, including what factors support or hinder these faculty in the development of their professional identities, how faculty development might impact the process of their identity formation, and how their identity as educators impacts their teaching practice. Using an explanatory sequential mixed methods case study design, the researcher explored the process of professional identity formation for undergraduate medical educators at the Case Based School of Medicine (KPSOM). The study was designed to answer the following research questions: How do didactic and clinical medical school faculty see themselves as educators? How do medical school faculty construct their professional identities as educators? What role, if any, does faculty development play in the formation of the professional identities of medical educators? What is the perceived impact of professional identity on the teaching practice of medical educators? Primary data collection methods included a researcher-developed quantitative survey tool that focuses on participants' primary professional identity and their sense of being an educator while conducting various educational activities and semi-structured interviews that explored the quantitative findings. The findings revealed that although most medical educators do not see themselves primarily as educators, they do see themselves as educators to some degree. This is especially true when they are interacting with students and with the peers. The findings also revealed that participating in faculty development makes medical school faculty feel like educators, and the degree to which they feel like an educator impacts their confidence in the classroom.",
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W4245206280",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Risk Managing Complex Projects through Alliancing",
+        "source": "openalex",
+        "url": "http://www.journalmodernpm.com/public/issue06/JMPM_issue06_Jan-Apr2015.pdf",
+        "doi": "10.3963/jmpm.v2i3.85",
+        "year": 2014,
+        "authors": [
+          "Derek H.T. Walker"
+        ],
+        "venue": "RMIT Research Repository (RMIT University Library)",
+        "abstract": "Complex projects are characterised by not only known risks that present challenges in integrating technical and human related interface issues but also by uncertainty about unknown unknowns and ambiguity about that which is assumed to be known but is indeed a potential source of confusion. How best to establish a project delivery approach for these types of projects? We know from government reports, audit office reports, academic research and often personal experience that typically such complex projects are delivered late and well over budget. Surely, there must be a better way to deliver complex projects. One project delivery approach that has generally offered a great deal of promise to managing risk, uncertainty and ambiguity is through the use of alliancing. This paper draws upon evidence from government reports, academic studies and a wide body of risk management and project delivery theory to illuminate this issue and to suggest a way forward. Several key points are drawn in this paper: 1. Alliancing is not a panacea for managing any complex projects, there are some important pre-conditions that need to be met and these are discussed further in the paper; 2. Where alliancing has been used in both Australia and New Zealand it has been successful in delivering in terms of time/cost/ quality as well as in delivering many intangible benefits, these delivery benefits are also briefly discussed; 3. Alliancing requires additional skill sets, knowledge, personal attributes and experience of participants and this is perhaps the most important issue facing the future of alliancing and similar project delivery firms that are evolving from alliancing; and 4. Australia and New Zealand lead the world in this form of project delivery. A short section concludes the paper.",
+        "pdf_url": "http://www.journalmodernpm.com/public/issue06/JMPM_issue06_Jan-Apr2015.pdf",
+        "citation_count": 11,
+        "work_type": "article",
+        "identifier": "W1548943465",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Ethnodrama as a Path to Teacher Euphoria: How Might Ethnodrama Influence Teachers' Perceptions of Themselves and Promote Teacher Euphoria?",
+        "source": "openalex",
+        "url": "http://rave.ohiolink.edu/etdc/view?acc_num=antioch1446304885",
+        "doi": null,
+        "year": 2015,
+        "authors": [
+          "Rodney W. Grist"
+        ],
+        "venue": "OhioLink ETD Center (Ohio Library and Information Network)",
+        "abstract": null,
+        "pdf_url": "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=antioch1446304885&disposition=inline",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W1934791796",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Places of Engagement: Reflections on Higher Education in 2040 - A Global Approach",
+        "source": "openalex",
+        "url": "https://doi.org/10.1515/9789048543656",
+        "doi": "10.1515/9789048543656",
+        "year": 2018,
+        "authors": [
+          "Armand Heijnen",
+          "Rob van der Vaart"
+        ],
+        "venue": "Amsterdam University Press eBooks",
+        "abstract": "Top: With about 150 other professors, Bert van der Zwaan bikes to a primary school in order to teach a class of ten to twelve-year-olds.Each professor visits a different group of children, and altogether over 100 primary schools participate.The classroom activities focus on research, the fun of science, and what it is like at a university.This highly successful annual event is called 'Meet the professor' and was started in 2016.",
+        "pdf_url": null,
+        "citation_count": 4,
+        "work_type": "book",
+        "identifier": "W4242168315",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Frugal Innovation",
+        "source": "openalex",
+        "url": "https://directory.doabooks.org/handle/20.500.12854/176680",
+        "doi": null,
+        "year": 2026,
+        "authors": [],
+        "venue": "Directory of Open access Books (OAPEN Foundation)",
+        "abstract": "Frugal Innovation: The Systematic Design of Resource-Intelligent Solutions advocates for a systematic approach to developing impactful, resource-efficient solutions in low-resource and high-resource settings. It integrates frugal innovation principles with design thinking and lean impact strategies, bridging the gap between theory and practice. This book explores themes like resource-constrained design, iterative development, and stakeholder-centric innovation, aligning with global challenges like environmental sustainability and global inequality and aligning with global agendas like the Sustainable Development Goals (SDGs). This book combines theoretical insights with real-world case studies to demonstrate how systematic processes—spanning needs assessment, stakeholder engagement, prototyping, and scaling—can address complex social challenges sustainably. It emphasises achieving maximum impact with minimal resources, ensuring solutions are efficient, accessible, and relevant across diverse socio-economic contexts. With a blend of conceptual depth and practical tools, the book provides repeatable steps for designing cost-effective, scalable, and context-appropriate solutions. Key concepts like resource-intelligent design, lean experimentation, and stakeholder-centric innovation are illustrated through case studies, showing how abstract ideas are applied in real-world social and technological settings. Ideal for designers, engineers, social innovators, and professionals in social enterprise, sustainable development, and humanitarian design, the book offers guidance on driving inclusive, scalable progress within real-world constraints. Edited by experts in fields like biomedical innovation, systems thinking, and co-created health technologies, it equips readers to design technically robust and socially responsive solutions for meaningful impact. A PDF version of this book is available for free in Open Access at http://www.taylorfrancis.com. It has been made available under a Creative Commons Attribution-Non Commercial-No Derivatives (CC BY-NC-ND) 4.0 license.",
+        "pdf_url": "https://library.oapen.org/bitstream/20.500.12657/113160/1/9781040585962.pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7162061829",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Places of Engagement: Reflections on Higher Education in 2040 - A Global Approach",
+        "source": "openalex",
+        "url": "https://doi.org/10.5117/9789463726702",
+        "doi": "10.5117/9789463726702",
+        "year": 2025,
+        "authors": [
+          "Vaart",
+          "Armand Heijnen"
+        ],
+        "venue": "Routledge eBooks",
+        "abstract": "In his book 'Higher Education in 2040 - A Global Approach' (2017) Bert van der Zwaan developed a thought-provoking vision of the university of the future, based on a thorough discussion of current trends and on a large number of conversations with leaders in higher education worldwide., This book, 'Places of Engagement', offer reflections on themes discussed by Van der Zwaan, written by twenty of his peers and other opinion leaders from around the world. The book was written in honour of Bert van der Zwaan at the occasion of his departure as Vice-Chancellor of Utrecht University., With contributions by John Sexton, José van Dijck, Karl Dittrich, Dilly Fung, Michael Crow and many others.",
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "book",
+        "identifier": "W2937251523",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "An exploration of the time-management behaviours of small-business owner-managers",
+        "source": "openalex",
+        "url": "https://ro.uow.edu.au/theses/4814",
+        "doi": null,
+        "year": 2016,
+        "authors": [
+          "Peter McNamara"
+        ],
+        "venue": "Research Online (University of Wollongong)",
+        "abstract": "The ongoing success and growth of the Australian economy, like that of many world economies, largely depends on the contribution of small business. Whilst failure rates for small businesses are reportedly high in some industry sectors, the sheer hard work, motivation and entrepreneurship of small-business managers helps to ensure that there is more success than failure. Struggling with the pressure of impending deadlines, caused in part by today’s highly accelerated work environment, small-business managers are in a constant battle with time. Small-business owner-managers, in particular, face the added burdens of keeping the business afloat, pursuing new opportunities and managing their employees. Studying the time-management behaviours of owner-managers is becoming even more important in this highly competitive, global and time-driven environment. Time management is widely acknowledged, particularly in the populist literature, as a positive approach to improving productivity and work-life balance whilst also helping to reduce stress. It is said to do so through practices such as goal-setting, planning, prioritising and scheduling. The literature review in this study revealed that the value and benefits of time management, which are widely acknowledged, have not been supported by rigorous research. In particular, the gap in the literature that is most evident, and the subject of this research, is the application of time management in the context of small business. This study is therefore motivated by three research questions: (1) What are the planning, monitoring, executive and time-assessment behaviours of small-business owner-managers? (2) How do personal and environmental factors influence the time-management behaviours of small-business owner-managers? and (3) What are the productivity, work-life balance and stress-related consequences that result from the adoption of time-management behaviours by small-business owner-managers? To conduct this exploration, a case-study methodology was chosen that incorporated a series of semi-structured interviews, time logs and participant feedback from 10 smallbusiness owner-managers (SBOMs). The findings, which emerged during the course of this study, reinforce the significant role that time management plays in small-business management. The study also showed that the way in which SBOMs manage their time is characterised by personalisation, flexibility, integration, informality and pragmatism. The influences that affect these behaviours include personal and environmental influences; together, they shape and influence the capacity of SBOMs to manage time effectively. To complete the exploration of behaviour, through the eyes of experienced SBOMs, three consequences of time-management behaviours are examined which include productivity, work-life balance and stress. Examining these consequences along with influences provides a more complete picture about the benefits and motivations of SBOMs and their adoption of timemanagement behaviours. The demands on the time of SBOMs, who lead and manage their small businesses, show no signs of slowing down, and this research may help to provide the basis for dealing with present and future timemanagement challenges within this context.",
+        "pdf_url": "https://ro.uow.edu.au/cgi/viewcontent.cgi?article=5839&context=theses",
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W2588190214",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Chapter 8. The Risks of Contingent Writing Center Directorships",
+        "source": "openalex",
+        "url": "https://doi.org/10.37514/per-b.2017.0858.2.08",
+        "doi": "10.37514/per-b.2017.0858.2.08",
+        "year": 2017,
+        "authors": [
+          "Dawn Fels"
+        ],
+        "venue": "The WAC Clearinghouse; University Press of Colorado eBooks",
+        "abstract": null,
+        "pdf_url": "https://wac.colostate.edu/docs/books/contingency/collection.pdf",
+        "citation_count": 3,
+        "work_type": "book-chapter",
+        "identifier": "W3083299923",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "A Qualitative Study of the Job Challenges of Instructional Deans in the Technical College System of Georgia.",
+        "source": "openalex",
+        "url": "https://eric.ed.gov/?id=ED569315",
+        "doi": null,
+        "year": 2014,
+        "authors": [
+          "Perrin J. Alford"
+        ],
+        "venue": "ProQuest LLC eBooks",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "book-chapter",
+        "identifier": "W2525241745",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "closed"
+        }
+      },
+      {
+        "title": "Bridging the ehealth chasm : Towards a synergy between academia and practice in ehealth implementation",
+        "source": "openalex",
+        "url": "https://doi.org/10.3990/1.9789036561457",
+        "doi": "10.3990/1.9789036561457",
+        "year": 2024,
+        "authors": [
+          "Sofia Bastoni"
+        ],
+        "venue": "University of Twente Research Information",
+        "abstract": "This thesis explores the dynamic intersection between psychology, eHealth, and implementation science. Its main aim is to investigate the implementation of eHealth and eMental health technologies, with a specific focus on the context of informal care. Furthermore, the studies included in this thesis took place during the COVID-19 pandemic that, apart from dramatically impacting everyone’s lives between 2020 and 2022, offered an interesting scenario to study implementation in. Thus, the concepts of i) eHealth and eMental health, ii) informal care, iii) implementation science will be introduced, and, in the spirit of blooming where one is planted, the possible role of COVID-19 in the implementation of eHealth will be discussed. The chapters contained in this thesis have multiple focuses and consider different angles, keeping the fil rouge of implementation of eHealth and eMental health technologies. More specifically, the thesis moves from the understanding that often eHealth is not reaching its full potential due to implementation issues (i.e. the eHealth chasm). Therefore, it aims at gaining insights into how to mitigate these issues by drawing from real life examples. As the title suggests, the chapters include both technologies developed by academia and practice, hinting at how a collaboration between the two might contribute to a better uptake of eHealth and eMental health technologies.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4396898994",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "The Fashion Calendar ’s Second Act: Digitizing the Ruth Finley Collection",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350385863.0011",
+        "doi": "10.5040/9781350385863.0011",
+        "year": 2024,
+        "authors": [],
+        "venue": "In American Fashion",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350385863.0011",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Designer Fashion Reports, Autumn/Winter 1988",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350942400",
+        "doi": "10.5040/9781350942400",
+        "year": 2019,
+        "authors": [],
+        "venue": "Designer Fashion Reports, Autumn/Winter 1988",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350942400",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Torn designer jeans against fast fashion",
+        "source": "crossref",
+        "url": "https://doi.org/10.1386/csfb.6.2.187_1",
+        "doi": "10.1386/csfb.6.2.187_1",
+        "year": 2015,
+        "authors": [
+          "Ana Finel Honigman"
+        ],
+        "venue": "Critical Studies in Fashion &amp; Beauty",
+        "abstract": "In this article, I argue that the qualities distinguishing luxury fashion from its ‘fast fashion’ imitators are conceptually akin to the subversive street-statements which inspire both catwalk designers and mass retailers. To demonstrate how designers’ catwalk creations and counterculture street-style share inherent conceptual qualities that are contrary to fast fashion, I illustrate my argument with the example of ripped denim and tears or holes in other fabrics. While scholars offer insight into the sociological, aesthetic and ideological importance of ripped denim, lesser attention has gone towards examining high-end designers’ artful tearing of opulent fabrics in their catwalk collections. This article discusses the origins of this style and examines the meaning of tears in five influential designers’ representative catwalk collections: Rei Kawakubo (for A/W Comme des Garçons, 1982), Marc Jacobs (for Perry Ellis, SS ‘92), Ann-Sofie Back (A/W ‘08), Rodarte (A/W ‘08) and Ashish (S/S ’14). By examining these collections, I analyse the ascent of the tear as a story of fashion functioning as art and social commentary. Although street-style and catwalk garments function as fodder for fast fashion trends, this article argues that individuals who wear their jeans to threads and designers who painstakingly craft handmade holes are aligned in making conceptual counterpoints to fast fashion. Contrary to fast fashion that relies on commercial considerations, it is only designer fashion that can participate in the critical discourse about fashion. It does so by reflecting subcultural anti-materialist viewpoints, or making anti-consumerist statements.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.1386/csfb.6.2.187_1",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Intellect"
+        }
+      },
+      {
+        "title": "Starting up a Fashion Calendar",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350385863.0007",
+        "doi": "10.5040/9781350385863.0007",
+        "year": 2024,
+        "authors": [],
+        "venue": "In American Fashion",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350385863.0007",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781474269728.1041",
+        "doi": "10.5040/9781474269728.1041",
+        "year": 2017,
+        "authors": [],
+        "venue": "The Dictionary of Fashion History",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781474269728.1041",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Working in the Fashion Industry as a Fashion Designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350088665.ch-003",
+        "doi": "10.5040/9781350088665.ch-003",
+        "year": 2013,
+        "authors": [],
+        "venue": "Fashion Designer’s Resource Book",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350088665.ch-003",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "McCartney, Stella, (born 13 Sept. 1971), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.u244929",
+        "doi": "10.1093/ww/9780199540884.013.u244929",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.u244929",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Mccartney, Stella, (born 13 Sept. 1971), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.244929",
+        "doi": "10.1093/ww/9780199540884.013.244929",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.244929",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501365287.1023",
+        "doi": "10.5040/9781501365287.1023",
+        "year": 2022,
+        "authors": [],
+        "venue": "The Fairchild Books Dictionary of Fashion",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501365287.1023",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Hamnett, Katharine, (born 16 Aug. 1947), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.18835",
+        "doi": "10.1093/ww/9780199540884.013.18835",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.18835",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Hamnett, Katharine, (born 16 Aug. 1947), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.u18835",
+        "doi": "10.1093/ww/9780199540884.013.u18835",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.u18835",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Emanuel, David, (born 17 Nov. 1952), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.u14971",
+        "doi": "10.1093/ww/9780199540884.013.u14971",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.u14971",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Emanuel, David, (born 17 Nov. 1952), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.14971",
+        "doi": "10.1093/ww/9780199540884.013.14971",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.14971",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "The Social Calendar: Fashion Culture for Philanthropy, Diplomacy, and Politics",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350385863.0009",
+        "doi": "10.5040/9781350385863.0009",
+        "year": 2024,
+        "authors": [],
+        "venue": "In American Fashion",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350385863.0009",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Gaultier, Jean-Paul, (born 24 April 1952), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.41466",
+        "doi": "10.1093/ww/9780199540884.013.41466",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.41466",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Chalayan, Hussein, (born 12 Aug. 1970), fashion designer; artist",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.u261280",
+        "doi": "10.1093/ww/9780199540884.013.u261280",
+        "year": 2014,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.u261280",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Miyake, Kazunaru, (Issey), (born 22 April 1938), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.27752",
+        "doi": "10.1093/ww/9780199540884.013.27752",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.27752",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Emanuel, Elizabeth Florence, (born 5 July 1953), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.14972",
+        "doi": "10.1093/ww/9780199540884.013.14972",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.14972",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Fashion Designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781474264716.0006152",
+        "doi": "10.5040/9781474264716.0006152",
+        "year": 2010,
+        "authors": [
+          "Francesca Sterlacci"
+        ],
+        "venue": "The Berg Companion to Fashion",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "10.5040/9781474264716.0006152",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing (UK)"
+        }
+      },
+      {
+        "title": "Klein, Calvin Richard, (born 19 Nov. 1942), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.u23281",
+        "doi": "10.1093/ww/9780199540884.013.u23281",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.u23281",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Gaultier, Jean-Paul, (born 24 April 1952), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.u41466",
+        "doi": "10.1093/ww/9780199540884.013.u41466",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.u41466",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Klein, Calvin Richard, (born 19 Nov. 1942), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.23281",
+        "doi": "10.1093/ww/9780199540884.013.23281",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.23281",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Armani, Giorgio, (born 11 July 1934), Italian fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.5696",
+        "doi": "10.1093/ww/9780199540884.013.5696",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.5696",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "The Ultimate Guide to Fast Fashion in 2022",
+        "source": "crossref",
+        "url": "https://doi.org/10.1163/9789004322714_cclc_2022-0077-0228",
+        "doi": "10.1163/9789004322714_cclc_2022-0077-0228",
+        "year": 2025,
+        "authors": [],
+        "venue": "Climate Change and Law Collection",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "dataset",
+        "identifier": "10.1163/9789004322714_cclc_2022-0077-0228",
+        "extra": {
+          "crossref_type": "dataset",
+          "publisher": "Walter de Gruyter GmbH"
+        }
+      },
+      {
+        "title": "Emanuel, Elizabeth Florence, (born 5 July 1953), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.u14972",
+        "doi": "10.1093/ww/9780199540884.013.u14972",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.u14972",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      }
+    ]
+  },
+  "count": 50,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:03:56.689493+00:00"
+}

@@ -1,0 +1,55 @@
+[
+  {
+    "claim": "O presente artigo resulta do Projeto Interdisciplinar do módulo Criação de Moda do curso superior detecnologia em Design de Moda, cujo objetivo geral consistiu no desenvolvimento de peças de vestuáriocom requisitos ergonômicos para mulheres da terceira idade, com mais de 70 anos, residentes em umaInstituição de Longa Permanência para Idosos (ILPI).",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Vestuário Ergonômico para Idosas de uma Instituição de Longa Permanência - Blucher Proceedings",
+    "quoted_support": "O presente artigo resulta do Projeto Interdisciplinar do módulo Criação de Moda do curso superior detecnologia em Design de Moda, cujo objetivo geral consistiu no desenvolvimento de peças de vestuáriocom requisitos ergonômicos para mulheres da terceira idade, com mais de 70 anos, residentes em umaInstituição de Longa Permanência para Idosos (ILPI).",
+    "numbers": [
+      "70 anos"
+    ],
+    "entities": [
+      "Vestuário Ergonômico para Idosas de uma Instituição de Longa Permanência - Bluch"
+    ],
+    "time_period": "2016-2026",
+    "region": "Brasil",
+    "confidence": "medium",
+    "source_note_id": "vestuário-ergonômico-para-idosas-de-uma-instituição-de-longa-permanência-blucher"
+  },
+  {
+    "claim": "DA SILVA JÚNIOR, José Adilson; VIEIRA, Erton Wagner; VASCONCELOS, Ana Caroline Ribeiro Godoy de; \"Vestuário Ergonômico para Idosas de uma Instituição de Longa Permanência\", p-304-323.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Vestuário Ergonômico para Idosas de uma Instituição de Longa Permanência - Blucher Proceedings",
+    "quoted_support": "DA SILVA JÚNIOR, José Adilson; VIEIRA, Erton Wagner; VASCONCELOS, Ana Caroline Ribeiro Godoy de; \"Vestuário Ergonômico para Idosas de uma Instituição de Longa Permanência\", p-304-323.",
+    "numbers": [
+      "304",
+      "323"
+    ],
+    "entities": [
+      "Vestuário Ergonômico para Idosas de uma Instituição de Longa Permanência - Bluch"
+    ],
+    "time_period": "2016-2026",
+    "region": "Brasil",
+    "confidence": "medium",
+    "source_note_id": "vestuário-ergonômico-para-idosas-de-uma-instituição-de-longa-permanência-blucher"
+  },
+  {
+    "claim": "In: **Anais do 18º Congresso Internacional de Ergonomia e Usabilidade de Interfaces Humano-Tecnologia e o 18º Congresso Internacional de Ergonomia e Usabilidade de Interfaces e Interação Humano-Computador**.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Vestuário Ergonômico para Idosas de uma Instituição de Longa Permanência - Blucher Proceedings",
+    "quoted_support": "In: **Anais do 18º Congresso Internacional de Ergonomia e Usabilidade de Interfaces Humano-Tecnologia e o 18º Congresso Internacional de Ergonomia e Usabilidade de Interfaces e Interação Humano-Computador**.",
+    "numbers": [],
+    "entities": [
+      "Vestuário Ergonômico para Idosas de uma Instituição de Longa Permanência - Bluch"
+    ],
+    "time_period": "2016-2026",
+    "region": "Brasil",
+    "confidence": "medium",
+    "source_note_id": "vestuário-ergonômico-para-idosas-de-uma-instituição-de-longa-permanência-blucher"
+  }
+]

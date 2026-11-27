@@ -1,0 +1,841 @@
+---
+title: 'Article Designation: Special Issue'
+id: article-designation-special-issue
+tags:
+- modelista-producao-moda-dores-0698af
+- locus-prototipagem-virtual-3d-vs-peca-piloto-fisica
+created: '2026-11-27T03:56:31.052484Z'
+source: https://jtatm.textiles.ncsu.edu/index.php/JTATM/article/download/20738/9704
+source_domain: jtatm.textiles.ncsu.edu
+fetched_at: '2026-11-27T03:56:31.050475Z'
+fetch_provider: builtin
+status: draft
+type: note
+tier: institutional
+content_type: paper
+deprecated: false
+raw_file: raw/article-designation-special-issue.pdf
+---
+
+Article Designation: Special Issue       
+1 
+JTATM 
+ITMA, 2023 
+Special Issue 2: ITMA, 2023 
+Innovation in CAD: 3D simulation and virtual prototyping at ITMA 2023 
+Chanmi “Gloria” Hwang, Assistant Professor, 
+Textile and Apparel, Technology and Management, 
+Wilson College of Textiles, NC State University, 
+Raleigh, NC, USA 
+Introduction 
+At ITMA 2023, there were continuous 
+efforts from companies to push boundaries 
+with Industry 4.0-certified technologies for 
+creating more realistic virtual sampling and 
+integrating it into the product life cycle. This 
+digital transformation is imperative to 
+accelerating every aspect of the product life 
+cycle, including planning, design, the 
+facilitation of sustainable manufacturing, and 
+sales 
+promotion. 
+At 
+the 
+exhibition, 
+companies presented different levels of three-
+dimensional (3D) simulation and virtual 
+prototyping software and system platforms. 
+The concept of 3D simulation in 
+computer-aided design (CAD) includes 
+developing 3D virtual samples out of 2D 
+digital patterns and allows users to customize 
+and develop 3D virtual fitting models, 
+present 360-degree views, and expand reality 
+on the computer (Hudson & Hwang, 2022). 
+Some advantages of virtual prototyping 
+include minimized time and cost spent on 
+actual sample making, reduced lead time for 
+product planning, the ability to use realistic 
+virtual samples in presale events, and the 
+ability to determine market potential for 
+optimizing inventory (Shima Seiki, 2023).  
+Virtual prototypes provide different 
+levels of visualization depending on their 
+immersion. For instance, some companies 
+use 2.5D visualization for rapid virtual 
+sampling, such as texture mapping over a 
+static view where the base image does not 
+change, producing image-type output in 
+formats such as jpeg, png, and tiff. On the 
+other hand, some companies use 3D 
+visualization, such as rendering 3D effects of 
+garments and virtual models in a 2D 
+environment, producing various output types, 
+including STL, OBJ, fbx, and avi along with 
+other 2D outputs such as dxf, AAMA, and 
+jpeg that can be seamlessly imported for 
+other virtual environments. In addition, 
+creative support tools have emerged that 
+adopt 
+artificial 
+intelligence 
+(AI) 
+that 
+leverages big data and computational 
+capabilities to advance the CAD process of 
+developing effective virtual sampling to 
+facilitate the product development process. 
+This paper deals with innovation in 
+3D simulation and virtual prototyping with 
+regard to the CAD process. The paper 
+presents a range of virtual sampling systems 
+and software, including cloud-based 3D suite 
+systems and stand-alone software for 
+garments and textile development, with 
+different levels of immersion. It also 
+discusses software and tools that would 
+facilitate the visualization process, including 
+the contributions of two start-up companies 
+that use AI-based tools such as fit validation 
+and print development for virtual sampling. 
+This paper addresses the opportunities in 
+virtual sampling for the apparel product 
+development process and contributes to new 
+innovative technologies and sustainable 
+manufacturing. 
+
+
+---
+
+ 
+Article Designation: Special Issue                      
+2 
+JTATM 
+ITMA, 2023 
+ 
+3D Apparel Design System 
+Audaces is an Italian-Brazilian 
+company that provides software that is “easy 
+to learn, use, and maintain” with the goal of 
+accelerating apparel creation, development, 
+and production. The software can also be 
+used in the upholstery, footwear, furniture, 
+and other flexible material sectors (Audaces, 
+2023). 
+The 
+company 
+produces 
+AUDACES360, a complete system that 
+develops software and plug-in options and 
+provides a platform for CAD processes such 
+as PLM (Isa), spec sheets and automated 
+preliminary costing (Idea), virtual designs 
+(Fashion Studio), 2D garment pattern making 
+(Pattern), pattern digitizing (Digiflash), 
+pattern markers (Marker), and 3D simulation 
+(3D). In particular, Fashion Studio software 
+provides a unique function compared to other 
+3D simulation and pattern-making tools. It 
+promotes the creation of “pre-patterns” and 
+designs directly in a three-dimensional avatar 
+without the need for 2D patterns, which 
+facilitates a faster product development 
+process (Audaces, 2023). This is particularly 
+important for the CAD process. The user can 
+visualize his or her visions by clicking and 
+drawing 3D outfits directly on a 3D 
+mannequin, 
+and 
+the 
+system 
+will 
+automatically generate 2D garment “pre-
+patterns.” The software also generates a 
+quick 3D virtual sample without needing 
+high-quality renders or assembling. As 
+shown in Figure 1, the avatar wears a pre-set 
+garment of white tights, and the designer can 
+use the embedded tools to edit and create new 
+patterns by manipulating the garment in 3D 
+(e.g., shortening, lengthening, tapering). In 
+addition, the model pre-cost is created 
+automatically, which allows designers to test 
+and define the variants of designs quickly and 
+to improve their accuracy before needing a 
+higher resolution and data processing. Thus, 
+one can easily attach images to the tech pack, 
+reduce 
+cutting 
+costs, 
+and 
+enhance 
+sustainability with digital approval from the 
+initial stage of design without making a 
+pattern. The software also allows novice 
+pattern-makers, such as merchandisers or 
+those involved in the product lifecycle 
+management (PLM) stages, to use the tool to 
+communicate since it is user-friendly in 
+creating design variations. Compared to 
+Fashion Studio, Audaces 3D provides higher 
+rendered 
+3D 
+simulation 
+with 
+test 
+measurement and fitting. This allows one to 
+digitally approve the first prototype, render 
+images for marketing and sales, and further 
+enable an online fitting room with compatible 
+output generated using the software.  
+ 
+ 
+Figure 1. Creating pre-patterns and rapid visualization using Fashion Studio, 
+AUDACES360 
+ 
+Linctex is a company located in 
+China that offers software and service 
+platforms for apparel design and product 
+development 
+specializing 
+in 
+3D 
+visualization. As shown in Figure 2, it offers 
+a variety of 3D functions, including 3D 
+modeling, 3D rendering, 3D animation, 
+fabric simulation, and virtual sampling in a 
+VR showroom.  
+ 
+
+
+---
+
+ 
+Article Designation: Special Issue                      
+3 
+JTATM 
+ITMA, 2023 
+ 
+ 
+ 
+Figure 2. An overview of Style 3D software using 3D virtual sampling (Style 3D, 2023) 
+ 
+Style 3D Fabric, especially, captures 
+and processes textiles into highly rendered, 
+digital twin assets that can be further edited 
+with various textile attributes. The hardware 
+comes with 1 scanning device, 2 stretch-
+testing devices, and 3 bending-strength-
+testing auto-devices, as shown in Figure 3. 
+The system measures the physical parameters 
+of the fabric, including weight, thickness, 
+tensile strength, and bending strength. With 
+the 3D fabric test, those parameters can be 
+transferred as digital fabrics. The scanning 
+device can obtain more realistic colors than 
+other methods, since its high light sensitivity 
+captures up to 45.7 million pixels of a sample. 
+It automatically generates 6 PBR maps that 
+virtualize fabric, and many fabric properties, 
+such as existing transparency, metallicity, 
+and roughness, can be transferred to digital 
+format as well (Style 3D, 2023).  
+ 
+ 
+Figure 3. Style 3D fabric-digitizing 
+devices (Style 3D, 2023) 
+ 
+Another software entry from Linctex 
+is Style Studio, a patternmaking and virtual 
+fitting workplace that includes 2D and 3D 
+pattern making, virtual avatars, CPU and 
+GPU 
+rendering, 
+and 
+output 
+presents, 
+producing hyper-realistic 3D data as a result. 
+The function offers the visualization of 2D 
+progress in 3D simulation, and one can 
+directly draw on the 3D avatar and generate 
+2D garment patterns. The software offers a 
+large number of preset poses, environments, 
+props, light settings, and motion capture 
+actions that can facilitate the visualization of 
+virtual samples. Other tools contributing to 
+virtual sampling include Style Cloud, an all-
+in-one platform for collaboration, 3D asset 
+management, sourcing, and networking, 
+offering online design and collaboration 
+opportunities. For instance, one can create, 
+edit, and visualize samples in a 3D 
+environment on the platform and customize 
+styles with modular components, which 
+makes it easier to communicate design 
+variations in real time throughout the product 
+life cycle. This leads to the development of 
+virtual show spaces where customers can 
+explore and click on a hyperlink for details to 
+visualize and interact with virtual samples.  
+SDS-ONE APEX 4 is a 3D apparel 
+design system produced by a Japanese 
+company, 
+Shima 
+Seiki, 
+a 
+notable 
+manufacturer of computerized flat knitting 
+machines and design systems (Shima Seiki, 
+2023). SDS-ONE APEX is a continuously 
+evolving design system with integrated 
+hardware and software, and it provides a 
+lineup of an all-in-one design system with 3D 
+virtual sampling, pattern CAD functions, and 
+knitting machine programming, which are 
+useful for planning and designing various 
+products for prototype creation and sales 
+promotion. Unlike general-purpose software, 
+the specialized simulation CAD system for 
+knit items is specially linked with machine 
+production and produces virtual sampling in 
+ultra-high 
+resolution, 
+which 
+facilitates 
+
+
+---
+
+ 
+Article Designation: Special Issue                      
+4 
+JTATM 
+ITMA, 2023 
+ 
+improved 
+accuracy 
+and 
+the 
+product 
+development process. The system offers 
+software for yarn creation and loop 
+simulation, patternmaking and grading, 3D 
+simulated fitting, real-time 3D viewing, and 
+3D virtual sampling. As shown in Figure 4, 
+APEXFiz 
+is 
+a 
+subscription 
+service 
+specifically for design software, and data 
+produced by APEXFiz can be converted to 
+machine data by a qualified manufacturer to 
+directly produce a physical sample. The 
+system offers a wide range of CAD software, 
+such as Design Jr. (for fabric simulation and 
+the production of virtual fabrics), Design-
+Standard (for powerful imaging tools, 
+including 3D), Design-Knit (for tools that aid 
+flat knit or circular knit designers), and 
+Design-Weave (for tools that aid weave and 
+towel designers). 
+ 
+ 
+Figure 4. An example of proceeding from 
+virtual sampling to production using 
+APEXFiz 
+ 
+Another CAD tool offered by Shima 
+Seiki is Yarnbank, a digital yarn-sourcing 
+website for virtual sampling in the SDS-ONE 
+APEX series (Windows 10 or later). One can 
+review an extensive library from Yarnbank, 
+with categories that include wool, cashmere, 
+cotton, and other sustainable materials. These 
+categories 
+can 
+be 
+searched 
+through 
+subcategories that include season, yarn count, 
+gauge, features, price range, and color. 
+Designers can further contact yarn suppliers 
+directly through the website after reviewing a 
+variety of information attached to each yarn. 
+The high-quality data from the website can be 
+downloaded free of charge and used to 
+produce high-quality rendered fabric and 3D 
+simulations, 
+allowing 
+efficient 
+product 
+planning and sustainable manufacturing.  
+A new addition contributing to 
+virtual sampling is the SHIMA Datamall. 
+This new web service offers digital data, such 
+as original knit samples, jacquard patterns 
+and knit designs, and 3D model patterns, 
+comprising over 8,000 items. The site allows 
+users to search, browse, and purchase a 
+variety of useful data for the planning, 
+production, and sale of apparel items. 
+Further, as shown in Figure 5, the site is 
+compatible with other SPEX series 3D design 
+systems and APEXFiz software, so users can 
+streamline their operations and download 
+knitting, pattern, and 3D virtual sample data 
+for product planning.  
+Finally, VRknit.com is Shima Seiki’s 
+virtual showroom. It features 3D virtual 
+samples and suggests new ways of utilizing 
+virtual 
+samples 
+for 
+presentation 
+and 
+promotion. For instance, virtual sample data 
+produced by the SDS-ONE-APEX series can 
+be exported and imported into a virtual space 
+and output in VR and AR modes, and there is 
+an opportunity to showcase designs in 
+various Metaverse platforms.  
+ 
+ 
+Figure 5. An overview of SHIMA 
+Datamall and other services that promote 
+digitalization and improve business 
+efficiency 
+ 
+Logica 
+3D 
+Suite 
+with 
+cloud 
+technology is another specialized 3D virtual 
+sampling CAD system for knitwear. Logica 
+is an Italian company that develops software 
+and hardware in the mechanical-textile 
+sector. Using 3D Simulation software, virtual 
+sampling can be visualized with natural 
+stretch effects, shadows, and the natural 
+curves of the pattern. The simulation can be 
+
+
+---
+
+ 
+Article Designation: Special Issue                      
+5 
+JTATM 
+ITMA, 2023 
+ 
+generated from most compatible format files 
+used in the industry (e.g., Dat, .000, .Sin-Jac-
+Setx, Lg). A newly launched software 
+product is New Shaping, which offers an 
+integral 
+garment 
+module 
+for 
+flatting 
+machines and allows one to quickly create a 
+pattern from preset shapes (e.g., raglan, set 
+in, parachute) and apply graphic functions. It 
+also 
+allows 
+modifying 
+values 
+and 
+simultaneously viewing changes in shape as 
+well as automatically generating various 
+sizes. When simulating virtual sampling, 
+potential errors can be visualized, which can 
+be difficult for technicians to see in integral 
+garment patterns from physical samples.  
+Logica also showcased the Paintknit 
+system, which allows simulating a large 
+variety of stitches. This allows the possibility 
+of choosing the yarn type and varying 
+combinations, such as single jersey, double 
+jersey, jacquard, structure and cable, fully 
+fashioned, and rib with tuck. Virtual 
+sampling developed on PaintKnit can be 
+streamlined through PaintKnit Tryon, which 
+offers a 3D interactive visualization of 
+textures on self-try-on totems (Logica, 2023). 
+Animations can be applied to various types of 
+models and scenes, and textures can be 
+applied to enhance the colorway and 
+photorealistic rendering characteristics. This 
+virtual sampling can be used in virtual 
+showrooms and allows one to create 
+collections and knits directly in the 
+Metaverse and PaintKnit VR platforms, 
+which provide a highly immersive virtual 
+reality environment using compatible VR 
+headsets such as Oculus.  
+AraView 3D is a cloud-based 
+platform that makes it easy to apply fabric 
+texture and visualize 3D virtual sampling. 
+The software was developed by Arahne, a 
+software company located in Slovenia that 
+specializes 
+in 
+developing 
+CAD/CAM 
+systems for dobby and jacquard weaving. 
+The company offers a range of software, such 
+as ArahPaint (for seamless patterns with 
+fabric density), ArahWeave (for woven fabric 
+design and simulation), ArahDrape (for 
+creating simulations of final products), and 
+ArahView 3D (for showing fabric on 3D 
+models). AraView 3D offers a selection of 
+more than 40 different 3D models, including 
+clothing, furniture, bags, and fabric samples 
+to which one can apply the fabrics designed 
+in ArahWeave CAD software for dobby and 
+jacquard fabric design. This is done with a 
+compatible image file format, shown in 
+Figure 6, which allows designers to quickly 
+render from the preset 3D models and 
+visualize what their fabric design would look 
+like on a final product in 360 degrees. 
+Another software entry by Arahne is 
+ArrahDrape, in which one uses a flat image 
+of the model (e.g., sofa, apparel, bags, shoes, 
+bed linen, curtain) and applies fabric textures 
+to the fabric area.  
+ 
+ 
+Figure 6. Virtual sampling through (a) 
+AraView 3D and (b) ArahDrape (Arahne, 
+2023) 
+ 
+Textronics 
+Design 
+Systems, 
+developed 
+by 
+India-based 
+Textronics, 
+provides a range of CAD and CAM textile 
+design software aimed at a variety of textile 
+mills and apparel and fabric designers. 
+Textronics offers a range of virtual sampling 
+platforms with different immersion levels. 
+For rapid visualization, its Design 3D 
+software offers 3D texture mapping in which 
+surface depth dimensions are extracted from 
+2D scanned images. Rendering factors such 
+as light source, viewing distance, and shading 
+information are defined and stored in 3DP 
+formats for accuracy. One can also drag and 
+drop original designs on an image to create 
+realistic 3D texture mapping, and ATLAS, an 
+intelligent library management system, 
+graphically maintains the 3DP images on 
+designated objects. The 3D texture-mapped 
+images can be exported and can be sent to 
+customers 
+or 
+transferred 
+to 
+pre-press 
+advertising companies. The company also 
+offers 3D Images, which functions on mobile 
+A
+B
+
+
+---
+
+ 
+Article Designation: Special Issue                      
+6 
+JTATM 
+ITMA, 2023 
+ 
+devices and empowers one to easily create, 
+refer to, archive, and edit virtual samples and 
+download them. Another software entry, 
+Tailor-I, is an augmented reality-based 
+interactive platform that can be used for 
+visualizing and customizing clothing. The 
+program has a simple user interface that helps 
+one select different silhouettes and design 
+details such as cuffs, collars, plackets, lapels, 
+and fits. The configurator enables combining 
+these elements into a garment and visualizes 
+virtual sampling in a customized made-to-
+measure 
+outfit. 
+This 
+promotes 
+mass 
+customization and interactions between 
+designers and customers for a sustainable 
+product development process. Finally, TryOn 
+is 
+an 
+augmented reality-based 
+virtual 
+dressing room app that digitally manages 
+product options. It allows customers to 
+visualize their selected garments and try on 
+clothes virtually by simple wave and swipe 
+gestures.  
+ 
+3D Virtual Sampling Tools 
+ 
+Along with the 3D apparel design 
+systems discussed above, there were other 
+tools at ITMA 2023 that seem to be 
+accelerating 
+virtual 
+sampling 
+process. 
+MYTH is a start-up company founded in 
+Turkey that has developed an AI-based 
+pattern design tool that contributes to virtual 
+sampling. 
+AI-powered 
+tools 
+increase 
+efficiency 
+and 
+productivity 
+and 
+offer 
+accessibility to novice designers, as well as 
+enhance the overall value of creative work 
+(Myth, 2023). By employing AI algorithms 
+and machine learning, designers can analyze 
+extensive data, develop novel designs, and 
+automatically generate customized patterns, 
+which significantly reduces time and effort 
+and streamlines the CAD process. As shown 
+in Figure 7, one can input an image for 
+inspiration, and the program will generate a 
+final pattern design with unlimited variations. 
+These pattern repeats can be exported and 
+used for 3D visual models, facilitating the 
+CAD process and taking inspiration from 
+new design ideas that were automatically 
+generated. TAILR is another start-up 
+company that offers a cloud-based platform 
+that simplifies a complicated production 
+process and helps companies streamline 
+production and ensures consistent sizing. In 
+particular, size grading rules ensure garment 
+sizing is consistent with brand guidelines 
+across all styles and from season to season 
+and its fit recommendation function can be 
+used to facilitate the 3D simulated virtual 
+sampling process (Tailr, 2023).   
+ 
+ 
+Figure 7. AI-generated pattern design from Myth (Myth, 2023) 
+ 
+ 
+Patterns Room is an Australian-
+based online pattern company that offers 
+“commercially-ready, 
+premium 
+sized” 
+clothing patterns, focusing on sportswear 
+patterns (Patterns Room, 2023). It offers a 
+library of more than 300,000 quality patterns 
+that are consistent in fit from babies (size 00) 
+to size 28 in women’s and 8XL in men’s 
+sizing. According to the company, the 
+patterns have been tried and tested over 13 
+years for better fit.  The patterns can be 
+digitally downloaded in standard DXF and 
+AI formats, along with graded sets of six and 
+12 sizes for an extra cost, and can be used for 
+3D virtual sampling. Other types of formats, 
+such as cardstock, paper, or sketch, are 
+available in addition to the digital formats. 
+The CAD and virtual sampling processes can 
+be enhanced by using better clothing patterns, 
+so Patterns Room could contribute to a more 
+sustainable manufacturing process.  
+PhotoSHAPE, 
+an 
+automatic 
+
+
+---
+
+ 
+Article Designation: Special Issue                      
+7 
+JTATM 
+ITMA, 2023 
+ 
+digitizer for patterns, was developed by 
+Lakeview Technology, based in Switzerland. 
+The system allows one to quickly vectorize 
+perimeter, holes, and reference points of a 
+garment with .3 mm precision and internal 
+annotations (Lakeview Technology, 2023). 
+After taking a picture directly from the 
+software, it is ready to be edited within any 
+CAD system. The company also offers 
+CAD4Fashion where 2D garment patterns 
+can be developed and edited and then 
+exported 
+as 
+DXF 
+(AAMA, 
+ASTM, 
+AUTOCAD), HPGL, and ISO formats to be 
+used in 3D software for virtual sampling. 
+Finally, CadModeling is an Italian company 
+specializing in designing and customizing 
+made-to-measure 
+anthropometric 
+fit 
+mannequins. It offers 3D/AR models, and 
+using the Formax 3D Virtual model, one can 
+conduct regular simulations and fitting 
+sessions as well as ergonomic simulations. 
+The range of fit mannequins is based on 
+realistic human anatomy called Theory of 
+Body Shape, which was developed by the 
+company’s founder. It offers eight different 
+mannequin types, including Formax Woman 
+(12 body shapes), men, kids, and form heads 
+with fifteen different head circumferences 
+with facial features ranging from baby to 
+adult. Figure 8 shows virtual and physical 
+mannequins, which are fully customizable in 
+size, shape, and volume. The virtual avatars 
+can be imported and used in any CAD system 
+for the virtual sampling process.  
+ 
+ 
+Figure 8. Virtual and physical forms from 
+CadModeling (CadModeling, 2023) 
+ 
+Conclusion 
+This 
+paper 
+summarized 
+the 
+innovation in 3D simulation and virtual 
+prototyping for the CAD process presented at 
+ITMA 2023. A range of virtual sampling 
+systems and software for garments and textile 
+development 
+with 
+different 
+levels 
+of 
+immersion, along with other tools that 
+facilitate virtual sampling, were presented. 
+Rapid visualization, ease of digitalization, 
+and seamless integration of 3D simulation 
+were the main themes. It is essential for 
+companies to create and integrate more 
+realistic virtual sampling into their product 
+life cycle process to accelerate their planning 
+and designing and to facilitate sustainable 
+manufacturing. The various CAD software 
+products and platforms discussed here could 
+be adopted to suit a company’s need to 
+initiate and advance virtual sampling to 
+accelerate its planning and sustainable 
+production process.  
+ 
+References 
+Arahne (2023). Arahdrape. Retrieved from 
+https://www.arahne.si/products/arahdr
+ape/  
+Audaces (2023). We are a future-ready 
+company. 
+Retrieved 
+from 
+https://audaces.com/en 
+Audaces (2023). A tool for you to enter a new 
+dimension. 
+Retrieved 
+from 
+https://audaces.com/en/solutions/fashi
+on-studio 
+CadModeling (2023). Formax apparel fit 
+mannequin. 
+Retrieved 
+from 
+https://cadmodellingfit.com/apparel-
+fit/ 
+Hudson, 
+K., 
+& 
+Hwang, 
+C. 
+(2022). 
+Application of 3D prototyping to 
+promote 
+size-inclusive 
+design 
+practices for plus-size apparel. Fashion 
+Practice, 14(1), 5-25. 
+Lakeview Technology (2023). PhotoShape. 
+Retrieved 
+from 
+https://lakeview-
+technology.com/en/products/automati
+c-photo-digitizer/photoshape/ 
+Logica (2023). Visualization of textures on 
+selftryon 
+totems. 
+Retrieved 
+from 
+https://www.paintknit.com/?lang=en 
+
+
+---
+
+ 
+Article Designation: Special Issue                      
+8 
+JTATM 
+ITMA, 2023 
+ 
+Myth (2023). Revolutionizing creative work: 
+The power of AI-powered design for 
+sustainable value. Retrieved from 
+https://myth-
+ai.com/2023/06/10/revolutionizing-
+creative-work-the-power-of-ai-
+powered-design-for-sustainable-value-
+enhancement/ 
+Pattern Room (2023). Clothing patterns that 
+fit. 
+Retrieved 
+from 
+https://www.patternroom.com/ 
+Shima Seiki (2023). Total fashion system. 
+Retrieved 
+from 
+https://www.shimaseiki.com 
+Style 3D (2023). Digital fabric age: Fabric 
+5.0? 
+Retrieved 
+from 
+https://blog.linctex.com/digital-fabric-
+age-fabric-5-0%ef%bc%9f/ 
+Tailr (2023). Redefining production for the 
+clothing industry. Retrieved from 
+https://tailr.ai/#nextsection 
+Textronics 
+(2023). 
+Create 
+realistic 
+simulations. 
+Retrieved 
+from 
+https://www.textronic.com/index.html 
+ 

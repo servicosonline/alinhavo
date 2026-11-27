@@ -1,0 +1,8322 @@
+---
+title: UNIVERSIDADE DE SÃO PAULO
+id: universidade-de-são-paulo
+tags:
+- estilista-producao-moda-8b096b
+created: '2026-11-27T02:24:31.390336Z'
+source: http://www.teses.usp.br/teses/disponiveis/100/100133/tde-30102017-171831/publico/GISELLE_ARAUJO_DESIGN_COLABORATIVO.pdf
+source_domain: www.teses.usp.br
+fetched_at: '2026-11-27T02:24:31.388330Z'
+fetch_provider: crawl4ai
+status: draft
+type: note
+tier: institutional
+content_type: paper
+deprecated: false
+raw_file: raw/universidade-de-são-paulo.pdf
+utility_score: 16.0
+---
+
+UNIVERSIDADE DE SÃO PAULO 
+ESCOLA DE ARTES, CIÊNCIAS E HUMANIDADES 
+PROGRAMA DE PÓS-GRADUAÇÃO EM TÊXTIL E MODA 
+ 
+ 
+ 
+GISELLE DA COSTA ARAÚJO 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+O design na indústria da moda no Brasil no século XXI:  
+Uma proposta de design colaborativo 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+São Paulo 
+2017
+
+
+---
+
+ 
+GISELLE DA COSTA ARAÚJO 
+ 
+ 
+ 
+O design na indústria da moda no Brasil no século XXI: 
+Uma proposta de design colaborativo 
+ 
+ 
+Versão Corrigida 
+Dissertação apresentada à Escola de Artes, 
+Ciências e Humanidades da Universidade de 
+São Paulo para obtenção do título de Mestre em 
+Ciências pelo Programa de Pós-Graduação em 
+Têxtil e Moda. 
+ 
+Versão corrigida contendo as alterações 
+solicitadas pela comissão julgadora em 28 de 
+agosto de 2017. A versão original encontra-se 
+em acervo reservado na Biblioteca da 
+EACH/USP e na Biblioteca Digital de Teses e 
+Dissertações da USP (BDTD), de acordo com a 
+Resolução CoPGr 6018, de 13 de outubro de 
+2011. 
+ 
+ 
+Área de Concentração:  
+Têxtil e Moda 
+ 
+Orientadora:  
+Profª Dra. Suzana Helena de Avelar Gomes 
+ 
+ 
+ 
+ 
+São Paulo 
+2017
+
+
+---
+
+ 
+Autorizo a reprodução e divulgação total ou parcial deste trabalho, por qualquer meio 
+convencional ou eletrônico, para fins de estudo e pesquisa, desde que citada a fonte. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CATALOGAÇÃO NA PUBLICAÇÃO 
+(Universidade de São Paulo. Escola de Artes, Ciências e Humanidades. Biblioteca) 
+ 
+ 
+ 
+
+
+---
+
+ 
+Nome: ARAÚJO, Giselle da Costa  
+Título: O design na indústria da moda no Brasil no século XXI: uma proposta de design 
+colaborativo 
+ 
+ 
+Dissertação apresentada à Escola de Artes, 
+Ciências e Humanidades da Universidade de 
+São Paulo para obtenção do título de Mestre em 
+Ciências pelo Programa de Pós-Graduação em 
+Têxtil e Moda  
+ 
+Área de Concentração: 
+Têxtil e Moda 
+ 
+Aprovada em: 28 / 08 / 2017 
+ 
+ 
+Banca Examinadora 
+ 
+Prof. Dr. 
+Marcelo Caldeira Pedroso  
+Instituição: 
+FEA - USP 
+Julgamento: 
+____________________ 
+ 
+Assinatura: 
+__________________ 
+ 
+ 
+ 
+ 
+ 
+Profª Dra 
+Francisca Dantas Mendes  
+Instituição: 
+EACH - USP 
+Julgamento: 
+____________________ 
+ 
+Assinatura: 
+__________________ 
+ 
+ 
+ 
+ 
+ 
+Profª Dra 
+Kathia Castilho Cunha 
+ 
+Instituição: 
+PUC SP 
+Julgamento: 
+____________________ 
+ 
+Assinatura: 
+_________________ 
+ 
+
+
+---
+
+ 
+AGRADECIMENTOS 
+ 
+Agradeço à minha orientadora, Profa. Dra. Suzana Helena de Avelar Gomes, por sua 
+contribuição efetiva como pesquisadora, abrindo-me os olhos para novos horizontes e caminhos 
+de pesquisa, fornecendo ricas e oportunas referências e materiais que fundamentaram esse 
+estudo. 
+À Profa. Dra. Maria Cecília Loschiavo dos Santos, pela sua contribuição para a 
+discussão e a crítica às teorias do design, que trouxeram insights e valiosas referências. 
+Aos professores e colegas do Mestrado Profissional em Empreendedorismo da 
+FEAUSP, agradeço pela troca de informações sobre marketing, inovação e modelos de negócios 
+com exemplos inspiradores, em especial ao Prof. Dr. Marcelo Caldeira Pedroso, pela sua 
+disponibilidade em corrigir este trabalho e indicar novas fontes de pesquisa e à Profa. Dra. Jane 
+Aparecida Marques, pela sua participação no exame de Qualificação desta dissertação e a 
+gentileza de indicar a metodologia adequada ao meu trabalho. 
+Aos colegas do programa Têxtil e Moda da EACHUSP, Renata Mayumi Fujita, Jorge 
+Eduardo Armendariz e Cristina Roberto, pela convivência afetuosa e o compartilhamento 
+espontâneo de conhecimento e informações. À Profa. Dra. Claudia Regina Garcia Vicentini, 
+pela participação na qualificação e à Profa. Dra Francisca Dantas Mendes, pela valiosa 
+contribuição na banca. Ao doutorando Jeferson Hugo Pacheco de Rezende pelas aulas sobre a 
+obra de Milton Santos, pelos livros emprestados e pelas discussões sobre o fast fashion. 
+À Profa. Dra. Kathia Castilho pela contribuição durante a defesa deste trabalho.  
+Em especial, à Profa. Dra. Delacir Poloni, por ter me impulsionado para um desafio 
+acadêmico e pelo empréstimo de livros raros.  
+Ao meu amigo de longa data o Prof. João Baptista Braga Neto, cuja trajetória como 
+educador e bibliografia extensa me influenciaram a trilhar o caminho da pesquisa acadêmica.  
+ Por fim, agradeço à minha família, principalmente ao meu pai, Prof. Dalton Moreira de 
+Araújo, pelo seu exemplo intelectual, ético e moral, pela sua influência como educador 
+preocupado com o futuro dessa nação. 
+ À minha mãe, minha grande incentivadora, minha saudade e gratidão eterna. 
+
+
+---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DIVAGAÇÃO SOBRE AS ILHAS 1 
+ 
+Quando me acontecer alguma pecúnia, passante de um milhão de cruzeiros, compro uma 
+ilha; não muito longe do litoral, que o litoral faz falta; nem tão perto, também, que de lá possa eu 
+aspirar a fumaça e a graxa do porto. Minha ilha (e só de a imaginar já me considero seu habitante) 
+ficará no justo ponto de latitude e longitude que, pondo-me a coberto de ventos, sereias e pestes, 
+nem me afaste demasiado dos homens nem me obrigue a praticá-los diuturnamente. Porque esta 
+é a ciência e, direi, a arte do bem viver; uma fuga relativa, e uma não muito estouvada 
+confraternização. De há muito sonho esta ilha, se é que não a sonhei sempre. Se é que a não 
+sonhamos sempre, inclusive os mais agudos participantes. Objetais-me: "Como podemos amar as 
+ilhas, se buscamos o centro mesmo da ação?" Engajados; vosso engajamento é a vossa ilha, 
+dissimulada e transportável. Por onde fordes, ela irá convosco. Significa a evasão daquilo para 
+que toda alma necessariamente tende, ou seja, a gratuidade dos gestos naturais, o cultivo das 
+formas espontâneas, o gosto de ser um com os bichos, as espécies vegetais, os fenômenos 
+atmosféricos. Substitui, sem anular. Que miragens vê o iluminado no fundo de sua iluminação? 
+Supõe-se político, e é um visionário. Abomina o espírito de fantasia, sendo dos que mais o 
+possuem. Nessa ilha tão irreal, ao cabo, como as da literatura, ele constrói a sua cidade de ouro, 
+e nela reside por efeito da imaginação, administra-a, e até mesmo a tiraniza. Seu mito vale o da 
+liberdade nas ilhas. E, contemptor do mundo burguês, que outra coisa faz senão aplicar a técnica   
+do sonho, com que os sensíveis dentre os burgueses se acomodam à realidade, elidindo-a? 
+ 
+(ANDRADE, 2011, p. 15)  
+ 
+
+
+---
+
+ 
+RESUMO 
+ 
+ARAÚJO, Giselle da Costa. O design na indústria da moda no Brasil no século XXI: uma 
+proposta de design colaborativo. 2017. 212 f. Dissertação (Mestrado em Têxtil e Moda) – 
+Escola de Artes, Ciências e Humanidades, Universidade de São Paulo, São Paulo, 2017. 
+Versão corrigida. 
+ 
+Essa dissertação está fundamentada em experiência de atuação no mercado da moda e em 
+elementos históricos sobre a indústria têxtil e de confecção, nas duas últimas décadas do século 
+XX e nas primeiras décadas do século XXI. Ela pretende contextualizar   a questão do design 
+de moda neste tempo globalizado sob o ponto de vista do olhar interdisciplinar de uma 
+engenheira têxtil e designer de moda. Questiona-se aqui o dilema vivido pelos jovens designers, 
+seus pares dentro das organizações em que atuam e alguns pontos da realidade da prática do 
+design dentro das empresas de vestuário no Brasil. Nesse contexto, se discute a importância de 
+redefinir o processo de desenvolvimento das coleções, o papel do designer de moda e de 
+viabilizar o diálogo entre os diferentes sujeitos do processo de criação, durante o ciclo de vida 
+de desenvolvimento do produto, a partir da sua conceituação a sua execução. Por fim, o estudo 
+apresenta uma proposta de design integrado e interdisciplinar para a indústria da moda por meio 
+de plataformas colaborativas, utilizando como referencial as teorias de design centrado no 
+usuário e a participação em projetos de transformação por meio de Product Lifecycle 
+Management (PLM) em empresas de confecção no Brasil. 
+ 
+Palavras-chave: Moda. Design centrado no usuário. Interdisciplinaridade. Tecnologia. PLM. 
+ 
+
+
+---
+
+ 
+ABSTRACT 
+ 
+ARAÚJO, Giselle da Costa. Design in the fashion industry in Brazil in the 21st century: a 
+proposal of collaborative design. 2017. 212p. Dissertation (Master of Textiles and Fashion) – 
+School of Arts, Sciences and Humanities, University of São Paulo, São Paulo, 2017. Revised 
+version. 
+ 
+This study is based in the actual experience of the author in the fashion market and refers to 
+historical elements of the Brazilian Textile and Clothing industry. The impact of the globalized 
+moment on the intricated context of Brazil’s contemporary fashion is approached in an 
+exploratory manner through the point of view of a textile engineer and fashion designer. The 
+dilemma faced by young designers when practicing design and their relationships with peers is 
+discussed with the aim of introducing best practices inside the Apparel Industry of Brazil.  It is 
+relevant to discuss the role of the fashion designer as well as to investigate the product 
+development processes in the Brazilian companies to stimulate dialogues between the different 
+actors involved in the product development cycle, from concept to execution.  The study 
+proposes an integrated and interdisciplinary method of user centered design by means of 
+collaborative platforms of Product Lifecycle Management (PLM) in Change Management 
+Projects for Brazilian Apparel Industries. 
+ 
+Keywords: Fashion. User-centered design. Interdisciplinarity. Technology. PLM. 
+
+
+---
+
+ 
+LISTA DE FIGURAS 
+ 
+Figura 1 – Etapas da pesquisa neste estudo ........................................................................... 33 
+Figura 2 - Linha do tempo do cenário da moda ..................................................................... 54 
+Figura 3 - Exemplo de Fab Lab ............................................................................................ 70 
+Figura 4 – Valores relevantes para cada modelo de negócio ................................................. 81 
+Figura 5 – Cadeia de Suprimentos – anos 90 ........................................................................ 84 
+Figura 6 – Cadeia de Suprimentos – Era pós-industrial ........................................................ 85 
+Figura 7 – Sequência integrada ............................................................................................ 85 
+Figura 8 – Exemplo de ciclo de vida longo (12 a 18 meses) ................................................. 86 
+Figura 9 – Exemplo de ciclo médio (9 meses) ...................................................................... 87 
+Figura 10 – Exemplo de ciclo curto (3 meses) ...................................................................... 87 
+Figura 11 – Qual o significado da palavra Design? ............................................................. 109 
+Figura 12 – The minimal design team, Victor Papanek ....................................................... 112 
+Figura 13 – Hipótese de linha do tempo do discurso de design ........................................... 114 
+Figura 14 – A trajetória da artificialidade segundo Krippendorff ........................................ 116 
+Figura 15 – Diferentes discursos do design e sua relevância para este estudo ..................... 117 
+Figura 16 – O processo macro de desenvolvimento de coleções (séc.XX) – parte 1 ............ 119 
+Figura 17 – O processo macro de desenvolvimento de coleções (séc.XX) – parte 2 ............ 119 
+Figura 18 – O processo de desenvolvimento de coleções .................................................... 122 
+Figura 19 – Desenvolvimento detalhado de uma coleção .................................................... 124 
+Figura 20 – A linguagem do designer ................................................................................. 125 
+Figura 21 – Evoluímos porque nos comunicamos ............................................................... 138 
+Figura 22 – Fases do projeto de PLM ................................................................................. 142 
+Figura 23 - Os problemas e seus desdobramentos em diferentes níveis de requisitos .......... 146 
+Figura 24 - SIPOC das etapas de pré-desenvolvimento de produto ..................................... 148 
+Figura 25 - SIPOC das etapas de desenvolvimento de coleção de outsourcing .................... 150 
+Figura 26 - SIPOC das etapas de criação e desenvolvimento de produto interno ................. 152 
+Figura 27 - SIPOC das etapas finais do desenvolvimento de Coleção ................................. 153 
+Figura 28 - Plano de coleção .............................................................................................. 160 
+Figura 29 - Design de um modelo ...................................................................................... 161 
+Figura 30 - Especificações das matérias primas principais do produto no PLM .................. 162 
+Figura 31 - Modelagem do Modelo no PLM ...................................................................... 163 
+Figura 32 – Cálculo de encaixe, ou risco ou texografia ....................................................... 164 
+
+
+---
+
+ 
+Figura 33 – Cartela de cores por temas ............................................................................... 185 
+Figura 34 – Storyboard de um tema de Verão 2018 ............................................................ 188 
+Figura 35 – Processo de desenvolvimento de moldes prévio em moulage ........................... 190 
+Figura 36 – Processo com uma alteração, duas peças piloto ................................................ 191 
+Figura 37 – Processo de desenvolvimento enxuto com uma peça piloto .............................. 192 
+Figura 38 – Moldes feitos em software ............................................................................... 202 
+Figura 39 – Estudo de mini-risco para cálculo de consumo................................................. 205 
+Figura 40 - Fluxograma genérico do processo de desenvolvimento clássico ....................... 206 
+Figura 41 - Fluxograma dos processos futuros de planejamento e criação ........................... 208 
+Figura 42 - Desenvolvimento de produto interno ................................................................ 210 
+Figura 43 - Desenvolvimento de produto do tipo outsourcing ............................................. 212 
+ 
+
+
+---
+
+ 
+SUMÁRIO 
+ 
+1. 
+INTRODUÇÃO .................................................................................................... 19 
+1.1. 
+COMENTÁRIO INICIAL ...................................................................................... 19 
+1.2. 
+A TEMÁTICA DO DESIGN COLABORATIVO NA INDÚSTRIA DA MODA ... 22 
+1.3. 
+JUSTIFICATIVA ................................................................................................... 25 
+1.4. 
+HIPÓTESES DE PESQUISA ................................................................................. 27 
+1.5. 
+OBJETIVOS .......................................................................................................... 28 
+1.6. 
+ESTRUTURA TEÓRICA ...................................................................................... 29 
+1.7. 
+METODOLOGIA DA PESQUISA ........................................................................ 30 
+1.7.1. 
+A coleta de dados .................................................................................................. 33 
+1.7.2. 
+A Análise dos dados .............................................................................................. 35 
+1.7.3. 
+Limitações ............................................................................................................. 36 
+2. 
+CENÁRIO DA MODA CONTEMPORÂNEA NO BRASIL E NO MUNDO ... 37 
+2.1. 
+O CONTEXTO DA MODA DIANTE DA MUDANÇA DE PARADIGMAS 
+OCORRIDA A PARTIR DE 1980 ......................................................................... 39 
+2.1.1. 
+A década de 1980 .................................................................................................. 40 
+2.1.2. 
+A década de 1990 .................................................................................................. 44 
+2.1.3. 
+O século XXI e o contexto da contemporaneidade .............................................. 47 
+2.1.4. 
+A condição pós-moderna: o surgimento de uma nova linguagem cultural ........ 54 
+2.1.5. 
+A moda e a pós-modernidade............................................................................... 56 
+2.1.6. 
+Era pós-industrial, globalização da economia e da técnica e mundialização da 
+cultura ................................................................................................................... 58 
+2.1.7. 
+O global e o local .................................................................................................. 62 
+2.1.8. 
+A compressão do Tempo e a Moda espírito do tempo ........................................ 63 
+2.2. 
+A ERA DIGITAL E SUA INFLUÊNCIA NOS MODOS DE CONSUMO DE MODA
+ ............................................................................................................................... 65 
+2.3. 
+A COMPLEXIDADE DA CADEIA DE VALOR TÊXTIL NO CONTEXTO 
+GLOBALIZADO ................................................................................................... 72 
+2.3.1. 
+O surgimento de novos modelos de negócios híbridos de moda ......................... 78 
+2.3.2. 
+O encurtamento do ciclo de vida do produto no século XXI .............................. 83 
+2.3.3. 
+A gestão da complexidade na cadeia de valor da moda ...................................... 88 
+3. 
+O CONTEXTO BRASIL E SUAS IMPLICAÇÕES NO PROJETO DE 
+COLEÇÕES ......................................................................................................... 91 
+
+
+---
+
+ 
+3.1. 
+OS NOVOS HÁBITOS DE CONSUMO ................................................................ 92 
+3.2. 
+UM PAÍS DE GRANDE DIVERSIDADE: A IMPORTÂNCIA DO INTERIOR ... 94 
+3.3. 
+A QUESTÃO DO CUSTO BRASIL E A TERCEIRIZAÇÃO DA FABRICAÇÃO 97 
+3.4. 
+A LACUNA TECNOLÓGICA E O KNOW HOW ESCASSO ............................... 99 
+3.5. 
+A FALTA DE UMA METODOLOGIA DE DESENVOLVIMENTO DE PRODUTO 
+CONSISTENTE E DE TECNOLOGIA ADEQUADA AOS NOVOS MODELOS DE 
+NEGÓCIOS ......................................................................................................... 102 
+4. 
+A PROBLEMÁTICA DO PROJETO DE COLEÇÃO NO CONTEXTO DO 
+BRASIL .............................................................................................................. 105 
+4.1. 
+A NATUREZA AMBÍGUA E INTERDISCIPLINAR DO DESIGN E SUA 
+RELAÇÃO COM O DESIGN DE MODA ........................................................... 106 
+4.2. 
+A CONTRIBUIÇÃO DAS TEORIAS EM DESIGN PARA ESTE ESTUDO ....... 111 
+4.3. 
+A EVOLUÇÃO DOS PROCESSOS DE DESIGN DE MODA E DO 
+DESENVOLVIMENTO DE PRODUTOS NA INDÚSTRIA DO VESTUÁRIO .. 118 
+4.4. 
+AS FERRAMENTAS, PRODUTOS E SUBPRODUTOS DO PROJETO DE 
+COLEÇÃO ........................................................................................................... 125 
+5. 
+A INTRODUÇÃO DE FERRAMENTAS DIGITAIS COMO UM MEIO DE 
+ESTABELECER DIÁLOGOS DE COLABORAÇÃO ..................................... 127 
+5.1. 
+AS DIFERENTES LINGUAGENS COMUNICATIVAS DO SETOR DA MODA E 
+AS TENSÕES ENTRE OS SUJEITOS DO DESENVOLVIMENTO DAS 
+COLEÇÕES ......................................................................................................... 127 
+5.2. 
+A 
+NECESSIDADE 
+DE CRIAR 
+UM 
+MEDIADOR DAS 
+DIFERENTES 
+LINGUAGENS E DE VIABILIZAR DIÁLOGOS DE COOPERAÇÃO ENTRE OS 
+ATORES DO PROJETO DE COLEÇÃO ............................................................. 131 
+5.3. 
+AS PLATAFORMAS DIGITAIS DE GESTÃO DE CICLO DE VIDA DO 
+PRODUTO OU PLM (PRODUCT LIFECYCLE MANAGEMENT) COMO 
+FERRAMENTA COLABORATIVA ................................................................... 133 
+5.4. 
+UM MODELO DE DESIGN COLABORATIVO ................................................. 136 
+5.4.1. 
+A produção de dados, informação, conhecimento e a sabedoria ...................... 137 
+5.4.2. 
+As etapas do projeto de implementação de uma plataforma colaborativa ...... 140 
+6. 
+O PROJETO DE INTERVENÇÃO DE PLM ................................................... 145 
+6.1. 
+VERIFICAÇÃO DO CONTEXTO DO PROBLEMA E DOS RESULTADOS 
+ESPERADOS ....................................................................................................... 145 
+6.2. 
+ANÁLISE DO CASO: INTERVENÇÃO E ANÁLISE DE PROCESSOS ............ 146 
+
+
+---
+
+ 
+6.2.1. 
+Revisão de processos .......................................................................................... 147 
+6.3. 
+IMPLANTAÇÃO E RESOLUÇÃO DO PROBLEMA ORGANIZACIONAL POR 
+MEIO DE AÇÃO ................................................................................................. 155 
+6.3.1. 
+Melhorias previstas com o objetivo de aperfeiçoar o processo de desenvolvimento 
+de produto a fim de garantir a qualidade da criação ........................................ 156 
+6.3.2. 
+Melhorias previstas com o objetivo de antecipar o processo de decisão, 
+aperfeiçoar a previsão de vendas e o planejamento de coleção ........................ 156 
+6.3.3. 
+Melhorias previstas com o objetivo de redução de custos................................. 157 
+6.3.4. 
+Melhoria prevista com o objetivo de reduzir o leadtime e consequentemente 
+reduzir o ciclo de desenvolvimento de produto ................................................. 157 
+6.3.5. 
+Melhorias com o objetivo de melhorar a colaboração e a comunicação entre 
+equipes de desenvolvimento entre si e as outras áreas ...................................... 158 
+6.4. 
+O DESENHO DE UMA PLATAFORMA COLABORATIVA DE PLM .............. 159 
+6.4.1. 
+O Plano de Coleção dentro de uma plataforma de PLM. ................................. 159 
+6.4.2. 
+O projeto ou design de um produto e a ficha técnica virtual com todas as 
+especificações do modelo .................................................................................... 160 
+6.4.3. 
+Especificações do produto no nível dos seus componentes ............................... 162 
+6.4.4. 
+A Modelagem de um Modelo no PLM ............................................................... 163 
+6.4.5. 
+O cálculo de consumo de matérias primas: texografia ..................................... 164 
+6.5. 
+AVALIAÇÃO ...................................................................................................... 164 
+7. 
+CONSIDERAÇÕES FINAIS ............................................................................. 169 
+ 
+REFERÊNCIAS ................................................................................................. 173 
+ 
+APÊNDICE A - PROCESSOS ........................................................................... 183 
+ 
+APÊNDICE B - PESSOAS ................................................................................. 195 
+ 
+APÊNDICE C - FERRAMENTAS E RELATÓRIOS DAS COLEÇÕES ....... 199 
+ 
+ANEXO A - FLUXO CLÁSSICO DO PROCESSO DE DESENVOLVIMENTO
+ ............................................................................................................................. 206 
+ 
+ANEXO B - PROCESSOS FUTUROS PLANEJAMENTO E CRIAÇÃO DAS 
+COLEÇÕES ....................................................................................................... 207 
+ 
+ANEXO 
+C 
+- 
+INTERVENÇÃO 
+- 
+PROCESSOS 
+FUTUROS 
+DE 
+DESENVOLVIMENTO DE PRODUTO INTERNO ....................................... 209 
+ 
+ANEXO 
+D 
+- 
+INTERVENÇÃO: 
+PROCESSOS 
+FUTUROS 
+DE 
+DESENVOLVIMENTO EXTERNO ................................................................. 211 
+ 
+
+
+---
+
+19 
+1. INTRODUÇÃO 
+ 
+O presente estudo é uma reflexão sobre a prática do desenvolvimento de coleções dentro 
+da indústria brasileira de confecção como consequência da volatilização do consumo na era 
+digital e da velocidade de mudanças imposta pela globalização. Discute-se o dilema vivenciado 
+pela indústria da moda no Brasil com o surgimento do fast fashion no contexto dinâmico e 
+globalizado contemporâneo. Além disso, esse estudo traz uma crítica à questão da cultura de 
+moda neste momento de desestabilização da indústria têxtil brasileira, cujas características de 
+gestão familiar e de resistência a se atualizar, com ideias arcaicas sobre o próprio papel dos 
+estilistas nas empresas e míope em relação a metodologia de design, têm direta influência no 
+seu resultado em termos de inovação. 
+A trajetória multidisciplinar da autora, a levou a abranger áreas distintas e abordar a 
+problemática da indústria por diversos ângulos. Como engenheira têxtil, a autora procurou 
+ressaltar a necessidade de se desenvolver uma metodologia de desenvolvimento de produtos 
+mais adequada aos novos paradigmas da era pós-industrial. Como designer, o estudo também 
+procurou fundamentar sua proposta de design colaborativo nas teorias de design centrado no 
+fator humano. Como gestora de áreas de produto, procurou analisar os diferentes modelos de 
+negócios surgidos a partir da globalização para propor uma integração dos atores do processo 
+de desenvolvimento de produtos a fim de solucionar as questões complexas das organizações. 
+Como testemunha das transformações ocorridas durante sua trajetória, o estudo narra as 
+mudanças ocorridas com a passagem de um capitalismo industrial para um novo tipo de 
+capitalismo pós-industrial. O impacto dos novos paradigmas acabou por mudar o trabalho 
+projetual dos gestores, designers, estilistas e analistas da indústria da moda, tamanha a 
+influência da tecnologia ubíqua na forma de conceber e desenvolver coleções. A autora quis 
+instigar os profissionais desse setor a adquirir um conhecimento de tecnologia e de outras áreas 
+de conhecimento, como uma forma de atualizar a indústria de vestuário brasileira para a 
+indústria 4.0, dando um cunho interdisciplinar ao presente estudo. 
+ 
+1.1. 
+COMENTÁRIO INICIAL 
+ 
+Partindo de uma reflexão sobre a perspectiva de identificação de novos valores para os 
+processos de gestão, planejamento e da prática do projeto de coleção, esse estudo pretende 
+indicar que é necessário ressignificar o design de moda, com a introdução de novas tecnologias 
+e boas práticas na indústria de confecção brasileira.  
+
+
+---
+
+20 
+Para esta dissertação, ressalta-se o trabalho projetual de moda, o que engloba não 
+somente o processo criativo, mas o planejamento e o desenvolvimento de coleções, o que vem 
+exigindo cada vez mais a aproximação de áreas distintas, a fim de responder à referida 
+aceleração do consumo bem como às particularizações dos produtos de moda. 
+Ao mesmo tempo que se relata um testemunho da referida desaceleração do crescimento 
+econômico, do declínio do consumo (GRIMBERG, 2014; YOUNG, 2014) e do processo de 
+desindustrialização do Brasil, levanta-se a questão recorrente na indústria de moda no novo milênio: 
+a grande aceleração dos lançamentos de coleções e o encurtamento do ciclo de vida dos produtos 
+de moda. 
+A dissertação está dividida em 6 capítulos.  
+O primeiro capítulo trata do problema, das hipóteses, dos objetivos, da metodologia de 
+pesquisa e da fundamentação teórica. As diferentes vertentes teóricas são apresentadas ao longo dos 
+capítulos, tanto para fundamentar como para explicar a interdisciplinaridade do trabalho, que reúne 
+teorias da globalização, da cibercultura, da pesquisa em design, da antropologia e sociologia da 
+moda, da inovação em novos modelos de negócios e das novas ferramentas tecnológicas que 
+surgiram com o advento da revolução informacional.  
+O segundo capítulo, se desenvolve como uma retrospectiva dos anos 80, 90, 2000 até as 
+primeiras décadas do século XXI, tecendo um panorama da moda na contemporaneidade mediante 
+o contexto da cultura de moda globalizada, amplamente impactada pelo novo paradigma da era 
+digital e pela introdução de novos modelos de negócios, mais especificamente a partir do 
+surgimento do fast fashion. Nesse capítulo, contextualiza-se a presente condição do design de moda 
+no mundo e mais especificamente no Brasil, sob o ponto de vista do olhar interdisciplinar de uma 
+engenheira têxtil e designer de moda que presenciou as mudanças de paradigmas ocorridas a partir 
+da introdução da sociedade em rede e da globalização.  
+Para construir o cenário das grandes transformações ocorridas durante os últimos 40 
+anos, a teoria da globalização pauta-se em Milton Santos, na sua visão de uma globalização 
+perversa que se manifesta pelo meio técnico-científico-informacional; em David Harvey, no 
+que concerne a compressão do tempo e espaço; em André Lemos, quando trata da cibercultura 
+e seus imbricamentos com a globalização e a pós-modernidade; em Renato Ortiz, quando faz a 
+distinção da globalização e da mundialização; em Manuel Castells, quando trata do paradigma 
+da sociedade em rede, da globalização e da nova identidade dos sujeitos. Diana Crane contribuiu 
+para contextualizar o papel social da moda e junto com o relato de historiadores e antropólogos, 
+o cenário da moda contemporânea se formou. A literatura sobre novos modelos de negócios 
+aponta as mudanças de paradigmas ocorridas nos modelos de negócio tradicionais. 
+
+
+---
+
+21 
+No terceiro capítulo, os fatores que afetam a problemática da prática do design de moda 
+no Brasil são elencados de forma crítica, sem a pretensão de fazer um inventário das indústrias 
+deste ramo, mas sim citando os fatores econômicos, sociais e identitários relevantes. 
+No quarto capítulo, para fundamentar a problemática vivenciada pelos sujeitos dos 
+processos de design de coleções de moda, o estudo pretende identificar os principais atores, os 
+processos, os produtos e as ferramentas utilizadas em cada processo, as diferentes linguagens, 
+que por sua vez, geram tensão entre aspectos cognitivos e não cognitivos existentes. As 
+diferentes teorias projetuais do discurso do design industrial foram comparadas e elementos 
+delas foram indicados como base para se elaborar uma metodologia de desenvolvimento do 
+design de moda para a indústria.  
+No quinto capítulo, o estudo propõe uma reflexão sobre os elementos de linguagem 
+comunicativa dos sujeitos envolvidos no processo de desenvolvimento de produto nas 
+confecções e a necessidade de estabelecer um meio de compreensão entre diferentes perfis dos 
+sujeitos nas organizações de moda, com o intuito de introduzir uma proposta de design 
+colaborativo e integrado, por meio de suporte de plataformas de softwares de gestão de ciclo de 
+vida de produto, enquanto a literatura sobre as novas tecnologias de PLM aponta quais 
+inovações tecnológicas sustentam o novo paradigma informacional. 
+O sexto capítulo relata o projeto de intervenção que forneceu os fundamentos da 
+pesquisa-ação. Ele contém as etapas do projeto, assim como as etapas da pesquisa acadêmica.  
+O sétimo capítulo trata das considerações finais.  
+Os elementos apontados foram colhidos principalmente em pesquisa exploratória 
+bibliográfica e outros foram detectados e vivenciados em projetos de intervenção de 
+Plataformas de Gestão do Ciclo de Vida do Produto em várias indústrias de confecção 
+brasileiras e mais especificamente na empresa onde a intervenção ocorreu de forma completa. 
+Como resultado dessa pesquisa, o presente estudo se refere à moda em grande escala industrial 
+e pouco se referirá às pequenas indústrias locais, que podem incorporar tendências oriundas da 
+moda de rua ou da moda de luxo e propor narrativas autorais voltadas para nichos de 
+consumidores, com suas especificidades.  
+Fundamentada em elementos das diferentes teorias do design e nas novas tecnologias 
+lançadas para a indústria da moda, a autora propõe a criação de um mediador interativo que 
+contribua para a cooperação entre equipes que utilizam diferentes formas e ferramentas de 
+comunicação, com o intuito de constituir um facilitador de diálogos entre todos os sujeitos do 
+desenvolvimento de produto.  
+
+
+---
+
+22 
+Sem a pretensão de conferir soluções mágicas num campo tão complexo, o presente 
+estudo abre um caminho de reflexão sobre o aperfeiçoamento do Design de Moda no Brasil, 
+além de investigar novas metodologias de Desenvolvimento de Produtos para a indústria. 
+ 
+1.2. 
+A TEMÁTICA DO DESIGN COLABORATIVO NA INDÚSTRIA DA MODA 
+ 
+Diversos autores de diferentes áreas e disciplinas têm buscado estudar os fatores chave 
+para o sucesso das empresas consideradas benchmarks no mercado global. Não é novidade o 
+que lemos em artigos de revistas científicas, entre elas a Harvard Business Review, que estudam 
+os modelos de negócios bem-sucedidos, geralmente analisados pelo olhar de administradores e 
+profissionais do marketing que estabelecem relações de causa e efeito entre a proposta de valor 
+da empresa e seu desempenho para traçar uma fórmula para seu sucesso. 
+ Outros estudos, oriundos do meio acadêmico contemporâneo, contextualizam a 
+artificialidade. Especificamente o Human-Centered Design, o design focado no aspecto humano, 
+procurou estudar o método projetual dos designers, no intuito de reunir pessoas de competências 
+distintas para projetar produtos através de métodos mais em consonância com as complexidades 
+dos estilos de vida e das necessidades dos sujeitos.  
+Os estudos sobre inovação em processos tratam do desenvolvimento de novos produtos 
+(NPD), traçando uma metodologia projetual baseada em teóricos como Cooper (1993), cujo 
+modelo de stage-gates não atribui estágios a funções organizacionais específicas como P&D, 
+marketing ou operações e argumenta que seu sistema funciona essencialmente como um 
+processo de negócios; Rozenfeld, Forcellini e Amaral (2006), que esquematiza o PDP (processo 
+de desenvolvimento de produto), dividindo todo o processo em estágios agrupados em 3 
+macrofases distintas, que vão desde o planejamento estratégico dos produtos até sua 
+descontinuação, acrescentando marcos intermediários como pontos de monitoramento e 
+controle de atividades; a teoria de Hansen e Birkinshaw (2007) de que as organizações devem 
+avaliar seus esforços de inovação a partir de uma visão expandida da cadeia de valor, em busca 
+de suas forças e fraquezas em relação às competências necessárias em cada fase do processo 
+como um todo, o que pressupõe melhoria do processo de inovação partindo da geração de ideias 
+de forma colaborativa. Sucessivas avaliações promoveriam oportunidades de aprendizagem e 
+geração de conhecimento. Echeveste (2003, p. 27) elaborou uma metodologia projetual com 
+um sistema de métricas baseado nas características do produto, capaz de gerenciar as tomadas 
+de decisão, construindo um modelo de estruturação do processo inteiro de desenvolvimento de 
+produto ao integrar as atividades de todos os atores envolvidos. 
+
+
+---
+
+23 
+Em 2015 e 2016, durante a atuação da autora como pesquisadora participante e 
+integrante de uma equipe de projeto de plataformas de gerenciamento do ciclo de vida do 
+produto – o PLM – no mercado de confecção brasileiro, surgiu, durante workshops com equipes 
+multifuncionais, a necessidade de analisar a problemática do design de moda mais a fundo e 
+fazer uma proposta de revisão da metodologia projetual de desenvolvimento de coleções 
+aplicada à indústria de vestuário brasileira. Durante esses projetos, houve uma constatação de 
+que há uma defasagem do perfil clássico dos estilistas à nova realidade das empresas, onde é 
+necessário ser interdisciplinar, unir os aspectos criativos aos avanços das novas tecnologias, 
+além de abordar estudos socioculturais. 
+Os exemplos vindos das próprias confecções trouxeram evidências de que é necessária 
+uma ruptura de paradigmas na abordagem do desenvolvimento de produtos na indústria do 
+vestuário no Brasil. Os desafios da indústria de moda, no contexto globalizatório são muitos – 
+processos complexos e fragmentados, superposição de muitas coleções simultâneas, ciclos de 
+desenvolvimento longos que dificultam que as empresas reajam rapidamente ao desejo do 
+consumidor e a evolução dos modelos de negócio tradicionais para modelos híbridos. 
+ Além disso, existem problemas específicos do setor, tais como a pressão para produzir 
+coleções alinhadas às tendências chave, à imagem da marca, seguindo uma narrativa única no 
+mercado; as exigências de custo que impõem limitadores à criatividade da equipe de estilistas; 
+as mudanças sofridas por cada modelo (cor, modelagem, construção e tecido) ao longo do 
+processo de coleção, acarretando em novos moldes e novas peças piloto; a exigência de que os 
+estilistas e projetistas trabalhem de forma colaborativa com outras equipes para assegurar que 
+a coleção seja desenvolvida dentro de prazos pré-definidos e no padrão de qualidade estética 
+desejado; a necessidade de sinergia entre equipes de estilistas e as equipes de engenharia e de 
+modelagem, de modo que as especificações da construção dos modelos nas fichas técnicas 
+garantam que a peça piloto seja fiel ao conceito original, evitando má interpretação por parte 
+dos fornecedores.  
+Tudo isso, somado à alta complexidade da cadeia de suprimentos, aos cronogramas 
+intrincados e gerenciados por cada setor individualmente, à dificuldade de comunicação entre 
+os sujeitos envolvidos, à pressão para atingir custos mais baixos, resulta em uma série de fatores 
+desafiadores e muitas vezes desfavoráveis, se não forem bem resolvidos. 
+Percebeu-se, durante experiência de atuação em projetos de intervenção, que existem 
+linguagens diferentes típicas de cada setor, que requerem um mediador comum de comunicação 
+entre todos os sujeitos do processo de criação e do desenvolvimento de produto. 
+
+
+---
+
+24 
+Para alinhar a comunicação entre os sujeitos do processo de criação, uma metodologia 
+robusta de criação e de desenvolvimento de coleções precisa ser introduzida. No que concerne 
+ao fator humano, os papéis e responsabilidades dos integrantes dos processos devem ser 
+ajustados de forma hábil, já que alguns perfis falam uma linguagem mais alinhada com a era 
+digital e outros perfis ainda estão se comunicando por meio de anotações em papel e de 
+documentos inconsistentes. Ferramentas tecnológicas de suporte ao design não são suficientes 
+para mediar a comunicação. Outras ferramentas, tais como técnicas de gestão de pessoas no que 
+diz respeito a formação de equipe e gestão da mudança, se fazem necessárias na hora de 
+estruturar as empresas brasileiras para uma mudança de cultura.  
+Ao implementar uma ferramenta tecnologicamente avançada, os gerentes de projetos 
+que ignoram a necessidade de fazer a gestão da mudança antes de implementar qualquer 
+plataforma digital, correm o risco de ver seu projeto abortado antes mesmo da implementação 
+do mesmo. Se a mudança de cultura não ocorrer, os usuários têm o poder de colocar toda a 
+estratégia de transformação da empresa em risco. 
+Por outro lado, uma sensação de impotência tomou conta de muitos profissionais da 
+moda, que se sentem reféns da atual falta de definição estratégica das empresas ou das 
+mudanças estratégicas repentinas. Muitas delas têm gestores e equipes executivas míopes em 
+relação a necessidade de estruturação do processo de desenvolvimento de novos produtos e da 
+pesquisa de moda, diante do mecanismo de obsolescência rápida dos produtos e da própria 
+instabilidade do entorno da indústria e do varejo de moda. 
+O fato é que dentro das empresas de moda, sejam elas do segmento varejo, da indústria 
+têxtil ou da indústria do vestuário, existe uma falta de integração entre as áreas de criação, de 
+marketing e de comercialização com as áreas de engenharias de produto, processos e produção. 
+O mecanismo da moda globalizada torna os desafios da indústria e do varejo de moda ainda 
+mais complexos, caracterizando uma problemática multifacetada. Para encontrar soluções para 
+uma problemática de tal complexidade, se faz necessário buscar uma abordagem 
+interdisciplinar. 
+No espaço conturbado da indústria têxtil e de moda brasileira devido à atual crise 
+política e econômica1, é pertinente buscar soluções que visem tirar proveito das oportunidades, 
+dos valores culturais e das qualidades que temos, com atualizações de tecnologias, incorporação 
+                                               
+1 No capítulo 2, os tópicos referentes ao contexto da indústria têxtil brasileira nesses 3 últimos anos, mostrarão um 
+processo instável e um processo de desindustrialização. Dados de pesquisa de mercado do IEMI, Boston 
+Consulting Group e Capgemini comprovam o declínio da nossa indústria. 
+
+
+---
+
+25 
+dos saberes tradicionais à criação, resgate dos elementos da nossa cultura, tais como os valores 
+reconhecidos no mundo por serem tipicamente brasileiros,  
+a alegria de viver; a espontaneidade nos relacionamentos humanos; a simplicidade 
+cotidiana; o acesso a uma experiência feliz para todos (o carnaval), como também os 
+valores de naturalidade dos produtos; de frescor no consumo (as frutas exóticas e 
+desconhecidas por outros países); a variedade e a riqueza das cores; a sensualidade 
+dos corpos e dos sorrisos: a naturalidade dos ambientes e das pessoas (MORACE, 
+2009, p. 155). 
+É importante pensar em quebrar paradigmas arcaicos do meio do design de moda no 
+Brasil, 
+principalmente 
+aqueles 
+que 
+representam 
+propostas 
+dissonantes 
+com 
+a 
+contemporaneidade, tais como as visões alienantes, dentre elas, a ilusão de que os designers 
+não devem se importar com o planeta e devem continuar criando produtos comerciais em 
+detrimento do uso indevido dos recursos do planeta. Esse tipo de mentalidade ainda existente 
+no setor da moda está na contramão das correntes conscientes que se questionam como 
+equilibrar o consumo exacerbado com a sustentabilidade social e ambiental, tendo em vista o 
+mecanismo destrutivo criado pela exploração dos locais do mundo de mão de obra barata e a 
+comoditização da moda.  
+A introdução de uma abordagem interdisciplinar no contexto da gestão de 
+desenvolvimento de produtos e da pesquisa em design pode encurtar a distância entre o usuário 
+e os sujeitos do desenvolvimento e ao mesmo incorporar valores de ética, transparência e 
+responsabilidade aos produtos e às próprias narrativas das marcas. 
+ 
+1.3. 
+JUSTIFICATIVA 
+ 
+A problemática do setor de moda no Brasil à qual esse trabalho se refere, surgiu durante 
+os projetos de intervenção nas empresas pesquisadas. Constatou-se que o método de trabalho 
+dos estilistas e de projetistas das empresas de moda, em geral, ainda está muito próximo ao que 
+se fazia nos anos 1980 e 1990.  
+Portanto, é pertinente refletir em atualizar o perfil do designer de moda às novas 
+demandas e fazer o seguinte questionamento: em que medida a prática do design de moda 
+poderia se atualizar diante dos novos paradigmas da globalização, da era digital e dos ciclos 
+curtos dos lançamentos de coleções? Qual o impacto das mudanças no desenvolvimento de 
+produtos e no modo de projetar coleções? 
+A proposta deste estudo é propor um desenvolvimento de produto inovador na indústria 
+do vestuário, levando em conta a complexidade dos aspectos interdisciplinares, sejam eles 
+tecnológicos, de gestão ou de comunicação, reunindo ferramentas facilitadoras dos diálogos 
+
+
+---
+
+26 
+entre todos os sujeitos do desenvolvimento de produto, inclusive entre os principais 
+stakeholders do processo de desenvolvimento e os próprios sujeitos a quem o design está 
+endereçado - os usuários finais.  
+A contribuição deste estudo é abrir um questionamento em relação a própria atividade 
+de design e de desenvolvimento de produtos na indústria brasileira e indicar soluções para suas 
+problemáticas por meio de uma nova abordagem multidisciplinar. Numa indústria em crise e 
+com o grande risco de se extinguir, propor meios eficazes para reduzir o tempo de chegada dos 
+produtos ao mercado (time-to-market), por meio do design focado no fator humano e aplicar 
+boas práticas na gestão do conhecimento e do capital intelectual nas empresas, é algo relevante 
+e providencial. 
+Echeveste (2003, p. 24) menciona que “para estabelecer um controle do PDP”, processo 
+de desenvolvimento do produto, “é necessário como base um modelo referencial de 
+desenvolvimento que pregue, em última análise, o estabelecimento de interfaces entre as 
+diversas funções e a condução das necessidades do consumidor, em consonância com a visão 
+estratégica”. Citando Beaumont (1996), Echeveste (2003, p. 24) afirma que para medir se o 
+processo está sendo realizado, é preciso incluir “qualificação e motivação de equipes, utilização 
+de equipamentos, materiais e sistemas de informação”. 
+Nesse ponto, Papanek (1972) afirma que a solução para a prática do design industrial 
+vem das interfaces. Pode parecer exagerado vê-lo afirmar que a sobrevivência do planeta virá 
+do design. Autores mais contemporâneos na pesquisa em design propõem novas teorias que 
+contestam o papel heroico dos designers modernistas. No entanto, sua teoria continua relevante, 
+já que, para Papanek (1972), o design é algo abrangente e integrado que poderá propor soluções 
+para o planeta. Ao mencionar a habilidade humana inata de projetar, explica que o  
+design integrado, abrangente e antecipatório é o ato de planejar e formatar realizado 
+através de várias disciplinas, ato este que se desenvolve por interfaces. É na divisa 
+entre diferentes técnicas ou disciplinas que é feita a maior parte das novas descobertas 
+e que a maioria das ações é inaugurada (PAPANEK, 1972, p. 320). 
+É importante ressaltar que este estudo é interdisciplinar. Ele aborda a metodologia de 
+processos de desenvolvimento de produtos, porém vai além de um projeto de engenharia, ao 
+refletir sobre a problemática projetual sob diversos ângulos. A trajetória multidisciplinar da 
+autora vem confirmar que as linguagens de áreas distintas não têm uma convergência para o 
+foco principal: o usuário final e a proposta de valor das empresas em questão. O design centrado 
+no humano trará soluções para problemas complexos próprios dessa indústria veloz e instável, 
+a do vestuário, tão impactada por novos modelos de negócios e tecnologias ubíquas. 
+ 
+
+
+---
+
+27 
+1.4. 
+HIPÓTESES DE PESQUISA 
+ 
+a. Introduzir o conceito de equipes multifuncionais com profissionais interdisciplinares 
+nas organizações, junto com um sistema de métricas projetuais de desenvolvimento 
+de produto, levando em conta as teorias do design integrado e colaborativo, poderá 
+melhorar a eficácia dos processos e o nível de inovação das empresas de moda. 
+O conceito de equipes multifuncionais é antigo, “basta trabalhar em equipe entre 
+setores”, é comum ouvirmos. Quando propomos às empresas quebrar o paradigma da dicotomia 
+entre design e engenharia, propondo projetos que integrem equipes de setores distintos, a 
+resistência é enorme. O fato é que parece simples. Quebrar silos dentro das empresas, utilizar 
+competências distintas no intuito de encarar o produto como um projeto, projeto esse que tem 
+que ser validado pelo consumidor final, levando em conta o valor percebido que ele lhe dará, 
+não é tarefa simples e requer mudança de cultura, gestão do conhecimento e valorização do 
+capital humano e intelectual das empresas. É preciso criar a cultura colaborativa dentro das 
+empresas.  
+Por outro lado, é preciso abordar os conceitos de desenvolvimento de produto integrado 
+da engenharia simultânea e de produção enxuta, acrescentando métricas para reduzir o ciclo de 
+desenvolvimento de produto, criando, assim, um processo de desenvolvimento de produto que 
+além de integrado é ágil. 
+ 
+b. Introduzir uma plataforma de gestão do ciclo do desenvolvimento de produto, como 
+viabilizadora de diálogos entre os sujeitos das equipes de desenvolvimento de 
+produto, pode produzir resultados positivos em termos de produtos mais 
+consoantes com a identidade cultural brasileira levando em conta todos os 
+aspectos, sejam eles os humanos, os sociológicos e os culturais. 
+O uso de uma linguagem digital poderá favorecer a conectividade entre os sujeitos dos 
+processos, enquanto uma mudança de cultura por meio de ferramentas de gestão organizacional 
+poderá trazer ganhos em comunicação, colaboração, empatia, transparência e inovação. Uma 
+plataforma de gestão de ciclo de vida de produtos (product lifecycle management), assim 
+denominada na indústria de tecnologias em softwares, para ter resultados concretos, não poderá 
+ser simplesmente um conjunto de ferramentas digitais para cada tipo de atividade e usuário, 
+sem o uso de uma metodologia de projetos como modelo referência, tendo premissas e métricas 
+claras a seguir. 
+
+
+---
+
+28 
+Interligar departamentos é conectar pessoas. Conectar-se por meios digitais não é 
+necessariamente fazer com que essas pessoas falem a mesma linguagem. A comunicação entre 
+áreas e o rompimento dos silos é uma tarefa que exige ferramentas de gestão de pessoas e gestão 
+da mudança. Cada vez mais, fica evidente a importância do fator humano dentro das empresas, 
+o resgate de valores verdadeiros da própria cultura da empresa e a vivência no dia-a-dia da 
+narrativa e do DNA da marca. Marcas que tratam seus colaboradores, fornecedores e clientes 
+com a mesma transparência que divulgam sua narrativa, têm mais chance de encontrar 
+ressonância nos sujeitos num mundo onde transparência e ética são valorizadas. 
+Quando o produto é desenvolvido mediante métricas que garantem o conceito original 
+planejado, o projeto inicial é executado fielmente. Aprimorando a pesquisa em design por meio 
+da integração de elementos socioculturais e aspectos tecnológicos na prática projetual em si, o 
+resultado obtido, ou seja, o produto, poderá cumprir seu papel de significante e mediador 
+cultural em sintonia com o aqui e agora do local onde for colocado. 
+Para isso, será preciso provar a necessidade de uma mudança substancial nas 
+organizações de moda em relação aos processos de design, levando em conta as interfaces entre 
+sujeitos de funções distintas, cada qual defendendo diferentes aspectos cognitivos e intuitivos 
+que fazem parte da criação e do desenvolvimento de produtos de moda. Desse modo, se unirá 
+a pesquisa de moda à prática do design desde o planejamento e concepção do produto até a sua 
+execução. 
+ 
+1.5. 
+OBJETIVOS 
+ 
+O principal objetivo deste estudo é introduzir o conceito de design colaborativo com 
+equipes multifuncionais no setor de moda, com o suporte de plataformas digitais, que sirva de 
+modelo referencial para o desenvolvimento de produtos nas indústrias de vestuário e do setor 
+têxtil do Brasil. A abordagem desse conceito é fundamentada nas teorias de design voltado para 
+o fator humano, portanto considera pessoas, processos, produtos e o planeta. 
+A ideia central é sugerir a introdução de um facilitador para que as equipes de 
+desenvolvimento de produtos de vestuário possam se adaptar às mudanças constantes e 
+consigam elaborar projetos de coleção de forma multidisciplinar, valorizando as diferentes 
+competências dos sujeitos envolvidos e ressaltando as necessidades e valores dos usuários. 
+Os objetivos secundários do estudo são: 
+
+
+---
+
+29 
+ Fazer uma análise crítica das mudanças ocorridas na moda com a introdução de novos 
+paradigmas, nomeadamente os paradigmas da globalização, da era digital e do surgimento 
+do fast fashion e apontar o impacto que tiveram no modo projetual de desenvolver produtos. 
+ Verificar as divergências entre os aspectos cognitivos e intuitivos das práticas projetuais de 
+desenvolvimento de coleções e relacionar esses fatores às tensões existentes entre as equipes de 
+design de moda e as equipes de desenvolvimento de produto, no intuito de propor diálogos e 
+ferramentas que possam mitigar os riscos de conflitos, criando um ambiente colaborativo.  
+ Identificar as convergências entre as teorias em design industrial, para adaptá-las à prática de 
+design de moda. 
+ Abrir o campo de discussão sobre as metodologias de desenvolvimento de produtos. 
+ 
+1.6. 
+ESTRUTURA TEÓRICA 
+ 
+Por se tratar de uma reflexão ampla e interdisciplinar, esse estudo se fundamentou em 
+diferentes abordagens, que conferiram uma cobertura do setor de moda tanto no que diz respeito 
+aos aspectos culturais e sociológicos e aos aspectos de gestão de processos de setores de 
+desenvolvimento de produto, vistos segundo a visão de uma engenheira preocupada em 
+estruturar empresas para enfrentar seus desafios. A fundamentação está inserida ao longo de 
+todo o estudo. Para responder o problema de pesquisa, foram pesquisados os seguintes assuntos 
+e principais autores, com as respectivas localizações dos temas dentro do texto: 
+• 
+Globalização: Suzana Avelar, Manuel Castells, David Harvey, Renato Ortiz, 
+Milton Santos, Jean Pierre Warnier (cap. 2); 
+• 
+Cibercultura: André Lemos, Pierre Lévy e o Manuel Castells (cap. 2); 
+• 
+Sociologia e antropologia da moda: Malcolm Barnard, Jean Baudrillard, Diane 
+Crane, Caroline Evans (cap. 2); 
+• 
+Modelos de Negócios de Fast fashion: Enrico Cietta; Kasra Ferdows, Michael 
+Lewis e Jose Machuca (HBR), Marcelo Pedroso e de artigos Lectra (item 2.3.1); 
+• 
+História da Moda: João Braga, Daniela Calanca, Marília Scalzo e Hélio Hara, 
+Deise Sabbag Thamer, NJ Stevenson, François Baudot e Françoise Vincent-Ricard 
+(cap.2); 
+• 
+Design: Gui Bonsiepe, Rafael Cardoso Denis, Klaus Krippendorff, Victor Papanek, 
+Nigel Cross, Richard Buchanan, entre outros teóricos da articialidade (cap. 4); 
+• 
+PLM:  Michael Abramovici (cap.5); 
+
+
+---
+
+30 
+• 
+Gestão do Desenvolvimento de Produto: Henrique Rozenfeld e Márcia Echeveste 
+(cap.3); 
+• 
+Pesquisa-ação: Paul Coughlan, David Coghlan, Teresa Branick, Sueli Menelau 
+(cap.1). 
+ 
+1.7. 
+METODOLOGIA DA PESQUISA 
+ 
+Os procedimentos metodológicos utilizados para este estudo são de natureza qualitativa 
+e os métodos utilizados são: 
+A. Investigação exploratória por meio de revisão bibliográfica em diversos campos –
+globalização, cibercultura, pós-modernismo, história da moda, sociologia e antropologia da 
+moda, teorias de modelos de negócios, pesquisa em design industrial, tecnologia da 
+informação especificamente sobre softwares de gerenciamento do ciclo de desenvolvimento 
+de produto, inovação e mais especificamente dados econômicos sobre a indústria têxtil e de 
+confecção do Brasil. 
+B. Pesquisa-ação em empresa do setor de moda no Brasil. 
+Severino (2013, p. 120) descreve a pesquisa-ação como: 
+Aquela que, além de compreender, visa intervir na situação, com vistas a modificá-la. 
+O conhecimento visado articula-se a uma finalidade intencional de alteração da 
+situação pesquisada. Assim, ao mesmo tempo que realiza um diagnóstico e a análise 
+de uma determinada situação, a pesquisa-ação propõe ao conjunto de sujeitos 
+envolvidos, mudanças que levem a um aprimoramento das práticas analisadas. 
+Walliman (2015, p. 10) menciona que numa pesquisa-ação, “não há uma tentativa de 
+separar o problema do seu contexto para estudá-lo isoladamente. Fazem-se mudanças 
+consideradas úteis e, então, executa-se constante monitoração, bem como avaliação, para 
+observar os efeitos das mudanças”. 
+A escolha desse método foi feita por ser um tipo de pesquisa projetado para tratar de 
+uma situação específica, ou seja, analisar como é o processo projetual de desenvolvimento de 
+produtos numa indústria de vestuário determinada, no contexto dos paradigmas mencionados e 
+indicar como poderá ser aperfeiçoado partindo de parâmetros de empresas maduras. 
+Segundo Coghlan e Brannick (2005, p. XII, tradução nossa), “a pesquisa-ação, como o 
+nome sugere, é uma abordagem de pesquisa que tem o objetivo tanto de realizar ações e criar 
+conhecimento como teorizar sobre a ação tomada”. Para os autores, esse tipo de pesquisa é 
+diferente dos outros métodos que têm o objetivo de gerar somente conhecimento. A diferença 
+entre esse método de pesquisa e outros métodos de pesquisas próprios da ciência positivista é 
+
+
+---
+
+31 
+que, na pesquisa-ação, o pesquisador é um ator participante e como tal, agente da mudança, 
+imerso no contexto, ao contrário do pesquisador acadêmico que pretende gerar conhecimento 
+universal, atuando como observador neutro e utilizando a lógica para mensurar a consistência 
+da sua hipótese (COUGHLAN; COGHLAN, 2002, p. 224). Segundo esses autores, a origem 
+da pesquisa-ação é datada dos anos 1940, com o trabalho de Kurt Lewin e seus colegas, tendo 
+sido aplicado por décadas tanto nos Estados Unidos como na Escandinávia.  
+Os autores Coughlan e Coghlan (2002, p. 227 apud COGHLAN; BRANNICK, 2005, 
+tradução nossa), mencionam que: 
+A pesquisa-ação é apropriada quando a questão de pesquisa consiste em descrever 
+uma série de ações que se desenrolam durante um período de tempo num determinado 
+grupo, comunidade ou empresa; quando a pesquisa consiste em compreender, como 
+parte do grupo estudado, como e porque a ação muda e melhora o trabalho em alguns 
+aspectos dentro de um sistema; quando se quer aplicar um processo de mudança ou 
+aperfeiçoamento para aprender com ele. 
+Portanto, o método pesquisa-ação é adequado ao tópico pesquisado e ao projeto de 
+intervenção que será usado como base desse trabalho. 
+Coghlan e Brannick (2005, p. XII) dividem o processo dessa pesquisa em processos 
+cíclicos que incluem as seguintes fases: (a) planejamento; (b) tomada de ação ou intervenção; 
+c) avaliação da ação, o que causa um novo ciclo de intervenção. Os autores ainda mencionam 
+a seguinte definição de Shani e Pasmore (1985, p. 439, tradução nossa). 
+Pesquisa-ação pode ser definida como um processo investigativo em que é aplicado o 
+conhecimento de ciências do comportamento integrado com o conhecimento 
+organizacional, ambos aplicados para resolver os problemas organizacionais. Além 
+de trazer mudança nas empresas e desenvolver as competências dos membros da 
+empresa pesquisada, produz conhecimento científico. Enfim, é um processo evolutivo 
+adotado com um espírito de colaboração e co-investigação. 
+Há uma curiosa similaridade entre a pesquisa aqui apresentada e um estudo de 
+aperfeiçoamento de processos em desenvolvimento de produtos que os autores. Nesse estudo, 
+os pesquisadores procuraram estabelecer parâmetros para a prática vigente com o objetivo de 
+aumentar a consciência as áreas escolhidas e de compreender a dinâmica da colaboração entre 
+pesquisadores e gerentes. Uma colocação feita por um integrante de uma empresa pesquisada 
+por eles é pertinente: 
+Queremos compreender como atingir a meta de redução do tempo do ciclo de produto 
+(conseguir fazer direito da primeira vez seria um sub-objetivo deste). Para isso, 
+precisamos entender os detalhes do processo de desenvolvimento de produtos. Como 
+não sabemos como fazer um benchmark, precisamos de um facilitador (os 
+pesquisadores) que forneçam a estrutura para analisar o processo. Então analisaremos 
+os dados nós mesmos para identificar o que temos que fazer para conseguir reduzir o 
+tempo do ciclo (COUGHLAN; COGHLAN, 1995 apud COUGHLAN; BRADY, 
+1995, p. 43, tradução nossa). 
+As características que Gummesson (2000 apud COUGHLAN; COGHLAN, 2002, 
+tradução nossa) desenvolveu para a pesquisa-ação, a seguir, confirmam a natureza desse estudo: 
+
+
+---
+
+32 
+a) os pesquisadores literalmente são parte da ação e não somente observadores; 
+b) a pesquisa-ação deverá ter sempre dois objetivos: resolver um problema e contribuir 
+para a ciência; 
+c) a pesquisa-ação é interativa e depende da cooperação entre o pesquisador e os atores 
+da empresa cliente, sendo assim, co-pesquisadores. A colaboração entre as equipes 
+de pesquisadores e do cliente se unirão para resolver os problemas que surgirão; 
+d) a pesquisa-ção tem o objetivo de ser holística, no sentido de reconhecer a sua 
+complexidade, causada por uma séries de causas e efeitos; 
+e) a pesquisa-ação trata de mudança. Portanto, conhecimento de gestão da mudança é 
+essencial para atingir o fim, já que para desenhar o futuro, será preciso que a 
+empresa reconheça a necessidade da mudança, manifeste o futuro que quer e 
+articule os meios de implementar a mudança; 
+f) 
+requer conhecimento de ética e inclui todos os tipos de coletas de dados; 
+g) deve ser conduzida em tempo real concomitante com o projeto acadêmico.A 
+pesquisa-ação tem seus próprios critérios, diferentes dos de pesquisa acadêmica 
+porque há duplicidade de intenções. 
+Menelau et al. (2015 apud MCKAY; MARSHALL, 2007, p. 142) ilustraram essa 
+duplicidade de intenções (pesquisa acadêmica e ação) por meio de uma espiral, representada na 
+Figura 1. 
+A espiral possui dois ciclos que se desenvolvem concomitantemente e se inter-
+relacionam: o acadêmico e o da ação. No ciclo acadêmico, o pesquisador tem interesse 
+em gerar conhecimento por meio da pesquisa em uma organização, segundo sua 
+orientação epistemológica e temas de pesquisas. Preliminarmente, busca na literatura 
+acadêmica algumas referências que lhe permitam desenvolver um retrato das 
+questões, dos desafios e das perspectivas em discussão em sua área de conhecimento; 
+com essa reflexão, o objetivo de pesquisa é definido. Faz-se necessário, então, 
+estabelecer um referencial teórico a partir do qual o objetivo poderá ser examinado e 
+compreendido; desenvolve-se um plano de pesquisa que deve conduzir o projeto ao 
+alcance desse objetivo. O projeto é estabelecido no ambiente e constantemente 
+acompanhado e avaliado segundo o interesse de investigação. Se, após a avaliação 
+dos resultados, for verificado o atendimento satisfatório do objetivo, o pesquisador 
+afasta-se do ciclo acadêmico. Nesse ponto, ressalta-se que o engajamento com a PA 
+ainda permanece, caso ainda haja etapas sendo desenvolvidas no ciclo. Além disso, 
+por sua natureza, a experiência proporcionada em um dos ciclos pode ser útil na 
+construção do conhecimento do outro ciclo. 
+ 
+ 
+ 
+ 
+
+
+---
+
+33 
+Figura 1 – Etapas da pesquisa neste estudo 
+ 
+Fonte: Menelau et al. (2015 apud MCKAY; MARSHALL, 2007). 
+ 
+1.7.1. A coleta de dados 
+ 
+A pesquisa-ação ocorreu concomitante a um projeto de implementação de uma 
+plataforma de gerenciamento de ciclo de vida de produto, o PLM. Essa plataforma de softwares 
+integrados será melhor explicada no capítulo 5, onde estão descritos o formato e as etapas de 
+um projeto de intervenção de gestão do ciclo de desenvolvimento de produtos para a indústria 
+de confecção, que envolve tanto um salto em inovação tecnológica quanto uma mudança de 
+processos e da cultura organizacional. A fornecedora da plataforma mencionada foi uma 
+empresa multinacional especializada em softwares para a indústria de vestuário. 
+A coleta de dados do ciclo acadêmico (Figura 1) foi realizada simultaneamente ao ciclo 
+da ação durante o projeto de intervenção mencionado, com a atuação da autora como 
+pesquisadora participante e especialista em processos de desenvolvimento de produtos, durante 
+o período de novembro de 2015 a junho de 2016, numa indústria de vestuário infantil do sul do 
+Brasil, de porte grande2, de gestão familiar, com fabricação têxtil própria e confecção no mesmo 
+                                               
+2 Segundo fonte do SEBRAE (2014), uma grande empresa tem a partir de 500 funcionários. 
+
+
+---
+
+34 
+local, detentora de várias marcas para perfis distintos, com canal de vendas no varejo, vendas 
+online e o canal  principal para multimarcas. 
+O primeiro critério adotado para a escolha da empresa, entre outras que foram 
+analisadas, são as características de empresa de porte grande, com setores de design e 
+desenvolvimento de produto já estruturados, com maturidade3 para absorver uma tecnologia de 
+softwares integrados, com um nível bom de gerenciamento do processo, com as equipes 
+utilizando medidas para monitorar o desenvolvimento e corrigir desvios do alvo, tais como 
+desvios de custo dos modelos e de prazos não cumpridos. O segundo critério foi o nível de 
+desejo da equipe em fazer uma mudança com o intuito de atingir um alto nível de otimização 
+do processo, conscientes dos gargalos, caminhos críticos e das dores relacionadas às etapas 
+onde as melhorias teriam que ser realizadas. 
+Ao longo do projeto, a equipe de projeto, compostas de pessoas de competências 
+distintas, demonstrou já trabalhar de forma colaborativa, a partir da fase de apresentação e 
+aprovação dos primeiros croquis. Isto indicava que a evolução para um modelo colaborativo 
+mais abrangente, principalmente nas fases de pré-projeto, era apenas um passo adiante do que 
+já estavam fazendo.  
+Nesse ponto, essa empresa se destacou entre todas as empresas onde houve a 
+oportunidade de se fazer uma análise e um diagnóstico. Comparando a empresa escolhida com 
+outras empresas, a empresa escolhida pode ser considerada um benchmark, pelo nível de 
+trabalho colaborativo e excelente clima organizacional, o que demonstra uma gestão empática. 
+Apesar de que as equipes do desenvolvimento de produto viam muitas dificuldades no processo 
+em si, já tinham aplicativos e softwares não integrados para controle de processos e um grande 
+número de documentos e relatórios relativos a coleção, o que denota maturidade. 
+A primeira etapa do ciclo da ação foi um processo investigativo pré-projeto, onde 
+entrevistas estruturadas com os stakeholders da empresa identificaram os problemas a serem 
+endereçados pelo projeto. Após as entrevistas com os formadores de opinião, que mais tarde, 
+iriam compor a equipe de projeto, além do patrocinador do projeto, as seguintes necessidades 
+foram levantadas: 
+• 
+Aperfeiçoar o processo de desenvolvimento de produto a fim de garantir 
+a qualidade do design; 
+• 
+Antecipar a tomada de decisão sobre a coleção (quais modelos ou não 
+adotar); 
+                                               
+3 Segundo Jordan (2004), em relação ao nível de maturidade desta empresa, ela pode ser considerada de nível 3, 
+onde já tem documentação para monitorar os processos.  
+
+
+---
+
+35 
+• 
+Aperfeiçoar o planejamento estratégico de coleção (sortimento, 
+inteligência de negócios, análise de vendas de coleções passadas, 
+cruzamento com as tendências de moda); 
+• 
+Reduzir custos (dos modelos, da coleção e o custo operacional do 
+desenvolvimento); 
+• 
+Reduzir prazos de lançamento (time-to-market); 
+• 
+Aumentar a colaboração e a comunicação entre as equipes de 
+desenvolvimento entre si e com as outras áreas. 
+Tendo definido o problema principal, reduzir o ciclo de vida do produto, por meio de 
+processo integrado e colaborativo, consequentemente, chegou-se aos objetivos secundários 
+como descritos acima. A sequência de fases de planejamento (análise dos processos existentes 
+ou as is), intervenção (proposta de processos futuros enxutos ou to be, nova estrutura 
+organizacional com claras metas de desempenho e design da solução tecnológica), avaliação 
+(anterior a fase de implementação), se seguiram. Estas fases estão explícitas no capítulo 5. 
+ 
+1.7.2. A Análise dos dados 
+ 
+A análise dos dados coletados constitui um objeto de reflexões e anotações da autora 
+desse estudo, que, durante todo a pesquisa-ação, pode testemunhar o que ocorre quando há uma 
+intervenção externa à empresa. Eles podem ser conferidos em mais detalhe no Apêndice. 
+ Após a 1ª etapa do projeto mencionada acima, onde se obteve o problema por trás dos 
+problemas, houve a 2ª etapa do pré-projeto, definindo o escopo detalhado e a abrangência do 
+projeto, com número de usuários, perfis de usuários, gerando um orçamento de licenças e tipos 
+de aplicativos que deveriam compor a plataforma. Essa segunda etapa foi mais objetiva, no 
+sentido de entender quem acessaria a plataforma e com que objetivo funcional. 
+Quando o orçamento foi aprovado e antes do projeto efetivamente se iniciar, a equipe 
+de projeto, composta de um elemento de cada perfil de usuário, se formou. Dois gerentes de 
+projetos internos (o gerente de tecnologia de informática e o diretor de produto), a gerente da 
+engenharia de produto, uma analista de produtos e outra de processos, um desenhista de 
+superfície, uma estilista de uma das marcas, uma gerente de produto da mesma marca, a gerente 
+de marketing e a coordenadora do setor de modelagem, faziam parte da equipe.  
+Uma reunião de brainstorm, com o objetivo de alinhar expectativas foi realizada onde 
+as seguintes necessidades principais de melhorias foram citadas: 
+
+
+---
+
+36 
+• 
+gestão do conhecimento com informações de fácil entendimento por todos os 
+atores; 
+• 
+custo inicial automatizado durante o início do desenvolvimento e sua evolução até 
+o custo final do produto; 
+• 
+integração da área de criação com as áreas de engenharia e de marketing; 
+• 
+controle do cronograma com visualização do status do desenvolvimento, 
+visualização fácil e gerenciamento dos gargalos e dos caminhos críticos; 
+• 
+agilidade na construção do sortimento de coleção, com relatórios visualmente 
+claros. 
+Alguns receios e riscos foram detectados, principalmente o receio dos estilistas de que 
+seu trabalho aumentasse pelo grau de exigência de alimentação do sistema; receio de que a 
+tomada de decisão sobre a coleção tivesse que ser muito antecipada; resistência geral a mudar 
+o perfil de trabalho após a plataforma ser implementada. A sugestão de incluir um componente 
+de gestão de pessoas, para mediar as reuniões já era um prenúncio dos conflitos que estavam 
+por vir no decorrer das etapas do projeto. O nível de envolvimento da equipe de projeto foi 
+muito intenso, com alta expectativa de atingir as melhorias e sanar suas dores. O modelo do 
+projeto de intervenção de PLM, que reúne as etapas de análise e diagnóstico de processos, assim 
+como as melhorias propostas será resumido no capítulo 6 e os resultados da intervenção está 
+ilustrado nos anexos, detalhados dentro do capítulo. 
+ 
+1.7.3. Limitações 
+ 
+Esse estudo se limita somente à indústria de confecção brasileira de porte médio a 
+grande. A empresa escolhida representa um tipo de modelo de negócios híbrido, que reúne tanto 
+marcas próprias, quanto a fabricação e a comercialização em cadeias de varejo e seu canal de 
+multimarcas. Porém, para empresas que lidam somente com o varejo, que não têm seu próprio 
+desenvolvimento de produtos interno e compram peças prontas dos fabricantes, o modelo de 
+desenvolvimento de produto e da plataforma diferem do mencionado neste estudo. Por motivo 
+ético, não se divulgou o nome das empresas envolvidas, seja o nome da empresa   fornecedora 
+da plataforma de softwares seja o nome da indústria pesquisada. 
+
+
+---
+
+37 
+2. CENÁRIO DA MODA CONTEMPORÂNEA NO BRASIL E NO MUNDO 
+ 
+Durante três décadas de vivência na indústria da moda brasileira, foi possível 
+testemunhar a problemática do setor e a evolução de modelos de negócios tradicionais para 
+modelos de negócios surgidos após a globalização. 
+Passamos por conjunturas de grandes mudanças durante as últimas décadas, sejam elas 
+de origem econômica, política ou social. Enquanto a China conquistava seu espaço em âmbito 
+global como maior produtora e exportadora dos artigos de moda, os olhos do setor de vestuário 
+brasileiro se voltavam para o consumidor local e os olhos do mundo se voltavam para o Brasil 
+durante o recente período de aquecimento da economia. Observamos que o estilo despojado e 
+sensual da moda brasileira conquistou destaque nas mídias internacionais, não só através das 
+coberturas das semanas de moda em São Paulo e Rio de Janeiro, mas também por meio da 
+ascensão dos novos talentos da moda brasileira. Editoriais das revistas internacionais passaram 
+a citar a moda brasileira como um lifestyle desejado, às vezes se referindo ao estilo de vida do 
+carioca, já reconhecido fora do país. 
+No entanto, chegamos ao momento atual em que a indústria têxtil e de confecção no 
+país vive um desmoronamento radical e sofre um processo de desindustrialização. Na crise que 
+se apresentou, poucas indústrias sobrevivem e aquelas que continuam lucrando, possuem um 
+modelo de negócios bem resolvido ou um domínio econômico que não depende somente do 
+retraído consumidor brasileiro a exemplo de várias indústrias exportadoras de calçados. A 
+indústria da moda tem apresentado diversas facetas de modos produtivos em virtude da 
+aceleração do consumo, da diversificação e particularização de seu mercado, muito 
+característico do contexto globalizatório. 
+Com o intuito de buscar soluções projetuais que contribuam para que a indústria brasileira 
+vença a problemática desafiadora do contexto atual, precisaremos analisar a mudança no 
+mecanismo da moda desde os anos 80 até este momento, na segunda década do século XXI, através 
+de uma retrospectiva um tanto empírica, utilizando a vivência da autora como testemunha das 
+mudanças ocorridas e os relatos de historiadores, geógrafos e teóricos das ciências humanas. 
+É diante de um ambiente econômico global extremamente competitivo, juntamente com 
+a velocidade de difusão das informações na era da cibercultura, que os modelos tradicionais de 
+negócios estão sendo desafiados a evoluir a fim de responder melhor à volatilidade dos desejos 
+dos consumidores. 
+Como consequência do aceleramento do consumo, ocorre um movimento de adequação 
+da indústria de moda do mundo ao inevitável encurtamento do ciclo de vida do produto, ao 
+
+
+---
+
+38 
+aumento dos lançamentos de coleções e às novas estratégias de gestores das marcas e das 
+cadeias de varejo, que, na maioria dos casos, exigem coleções superpostas e muito complexas, 
+um mecanismo que impõe um nível de exigências e de inovação em design de produto, que 
+desafia a criatividade dos profissionais desse setor, levando-os a buscar uma reestruturação da 
+engenharia de processos e de produto no que concerne a metodologia de planejamento, a 
+concepção e o desenvolvimento das coleções.4  
+As grandes cadeias de varejo brasileiras seguem o modelo de negócios chamado de fast 
+fashion, introduzido pelos gigantes Zara e H&M. Os modelos de negócios das empresas 
+departamentais de varejo de moda, a exemplo das Lojas Renner e Lojas Riachuelo, assim como 
+outras empresas do sul e sudeste do Brasil, tiveram que se adaptar ao contexto desafiador pós 
+boom de consumo (BEVINS, 2015), seja buscando investir em marcas e submarcas dedicadas 
+a perfis específicos de consumidores ou mesmo ampliando sua abrangência nas regiões ainda 
+não exploradas, ou mesmo mudando seu portfólio de produtos, comunicando suas coleções 
+através das redes sociais ou ainda investindo em cadeias de suprimentos complexas por meio 
+de outsourcing5 para otimização de custo. 
+Por outro lado, grandes conglomerados de marcas brasileiras se formaram neste século 
+e são controlados por investidores. A maioria das pequenas e médias empresas brasileiras, no 
+entanto, está sofrendo as consequências da crise político-econômica e ainda não adequou seu 
+modelo de negócios e sua proposta de valor ao novo cenário econômico. 
+Considerando o consumidor já inserido na sociedade informacional do Século XXI, o 
+varejo de moda brasileiro busca acompanhar a aceleração das mudanças globais, num formato 
+que imita as grandes cadeias de varejo globais, enquanto a indústria têxtil brasileira continua 
+trabalhando num formato do século XX, com suas releituras ou cópias idênticas das marcas 
+americanas ou europeias e muitas vezes dividindo as suas coleções por grandes estações 
+outono/inverno e primavera/verão como se fazia antes de 2000. As duas visões, a do varejo e a 
+da indústria, não convergem. Em alguns casos, quando a empresa tem um modelo de negócios 
+baseado no domínio sobre a sua própria fabricação e, ao mesmo tempo, atua no mercado com 
+suas marcas próprias, o choque das visões discrepantes entre atores da indústria e os atores da 
+operação de comercialização, resultará numa proposta de valor inconsistente. 
+                                               
+4 Aqui a autora se refere ao mecanismo das marcas de moda e das grandes cadeias de varejo que lançam múltiplas 
+coleções anualmente. Não se pode generalizar essa afirmação para todas as empresas do Brasil, algumas ainda 
+trabalhando com 2 a 3 coleções por ano.  
+5 Fornecimento externo, aqui se referindo a importação da China e dos países do sudeste asiático. 
+
+
+---
+
+39 
+Além da problemática do próprio método de desenvolvimento de produto, a pesquisa de 
+moda realizada pelas equipes de criação tem se baseado nos moldes do Século XX ao importar 
+tendências do outro hemisfério, sem especificar a leitura dessas tendências para o consumidor 
+brasileiro e sem adequar os estilos, as formas e as cores para os estilos de vida locais. As 
+indústrias têxtil e de confecção brasileiras precisam ainda compreender que embora estejam 
+afetadas pelo processo globalizatório, existem diferenças regionais e saberes tradicionais que 
+precisam ser explorados. É necessário “nativizar”6 as tendências da moda.  
+Nos anos 80 e 90, a indústria de confecção no Brasil era insipiente e se valia de um 
+simulacro da moda internacional. O novo paradigma exige a apreensão do que é global e a sua 
+releitura para o mercado local. O glocalismo 7ainda é algo pouco implantado pela indústria 
+brasileira. A tarefa de mudar o paradigma é um tanto desafiadora e muitas vezes um só perfil 
+profissional não consegue fazer essa leitura. É imprescindível capacitar pessoas em novas 
+competências além de criar equipes com perfis multidisciplinares para atingir tal objetivo. 
+Para fundamentar a prática de desenvolvimento de coleções no Brasil, faz-se necessário 
+elencar os fatores que afetam a moda no mundo - os paradigmas da globalização, da era digital, da 
+pós-modernidade, do surgimento de modelos de negócios inovadores com cadeias de suprimento 
+complexas, assim como o encurtamento do time-to-market8 a partir do fenômeno fast fashion.9 Para 
+complementar, é relevante listar os fatores problemáticos do setor de moda no Brasil, criando-se 
+assim, o cenário e seus desafios na contemporaneidade. Nos próximos subcapítulos, uma 
+retrospectiva breve da história e do que afeta a moda desde 1980 até o momento atual, indicará a 
+intensidade das mudanças ocorridas com o surgimento dos novos paradigmas e suas devidas 
+implicações nos aspectos projetuais de desenvolvimento de coleções de vestuário, que sustentarão 
+a fundamentação de uma proposta mais adequada a essa nova realidade. 
+ 
+2.1. 
+O CONTEXTO DA MODA DIANTE DA MUDANÇA DE PARADIGMAS 
+OCORRIDA A PARTIR DE 1980 
+ 
+A transformação radical ocorrida nas duas últimas décadas do século XX e nas duas 
+primeiras do século XXI não pode ser olhada apenas como uma mudança nos estilos de vida e 
+                                               
+6 Termo utilizado por Suzana Avelar ao se referir à necessidade de adequar a identidade do Brasil ou do local. 
+7 Termo utilizado por Milton Santos que se refere ao global com a especificidade do local. 
+8 Tempo de chegada ao mercado, desde a concepção da coleção até a entrega dos produtos. 
+9 Fast fashion ou modelo de moda de ciclo rápido será explicado no tópico que trata de modelos de negócios. 
+
+
+---
+
+40 
+nos modos de vestir. Houve uma mudança de paradigmas. A sociedade, o mundo e o ser 
+humano se transformaram radicalmente. A sociedade se conectou em rede. O mundo se tornou 
+interdependente (CASTELLS, 1999a). O ser humano, em constante perplexidade diante de 
+múltiplas imagens e mensagens sem referências sólidas, se fragmentou. A própria identidade 
+dos sujeitos se diluiu na diversidade e na noção de “mercado”. O ser humano passou a ser 
+considerado pelas novas correntes de pensamento como um ser plural, sua identidade passou a 
+ser compreendida como alterativa, conforme as circunstâncias e o momento (NÚCLEO DE 
+ESTUDOS DA VIOLÊNCIA, 2016). 
+Se um sétimo da população do mundo está conectado, a percepção do tempo real mudou. 
+A noção de natural e de artificial se misturou. O ser humano de hoje busca mais pertencimento 
+do que distinção (CPFLCULTURA, 2012). E a moda, por consequência, se tornou “um modelo 
+para a constante troca de identidades de nosso mundo” e também um “antídoto contra o horror 
+de falhar num mundo em alta velocidade” (GIRON, 2014). 
+ 
+2.1.1. A década de 1980 
+ 
+Uma mudança de paradigmas ocorreu no fim dos anos 1970 e início dos anos 1980, com 
+o surgimento do conceito de pós-modernidade. Aquela década foi marcada por transformações 
+não só na moda, como também nos costumes e na linguagem da cultura contemporânea. Ao 
+citar as mudanças ocorridas entre 1979 a 1986, Vincent-Ricard (1989) menciona que  
+em 40 anos, passou-se ‘do modelo de criação que dita a lei’ para todos os segmentos 
+sociais a uma verdadeira eclosão dos agentes da criatividade. A consequência 
+imediata do fenômeno foi o surgimento e o fortalecimento de um poder específico, 
+capaz de ‘desorganizar tudo’: a iniciativa criadora e personalíssima do sujeito, que 
+permite a cada um exercer sua própria criatividade em função de sua imaginação e de 
+suas visões. Como é possível esse novo dado do ‘jogo criativo’ – ante as exigências 
+da indústria têxtil cada vez mais informatizada – conseguir assimilar a retomada do 
+poder do imaginário pessoal? (VINCENT-RICARD, 1989, p. 137). 
+Esse questionamento feito em 1987 continua sendo relevante diante da mudança de 
+paradigmas ocorrida a partir daquela década. Apesar de que toda essa abertura possibilite um 
+enorme campo de criatividade, nosso setor ainda está preso ao modo de pensar dos anos 80 e 
+90 e atrelado as tendências vindas da Europa. 
+Kalil (2010) escreveu que, a partir dos anos 80, a moda parecia ter entrado na moda. O 
+fato é que a moda se tornou um espetáculo e como todo espetáculo precisa de um palco e de 
+um público, os desfiles de moda tornaram-se espetáculos teatrais, com direito a cenografia, 
+performances e roupas excêntricas muitas vezes feitas somente para o desfile, frequentado pela 
+mídia e formadores de opinião, atrizes e celebridades. Uma aura de glamour se desenhou em 
+
+
+---
+
+41 
+torno das top models Claudia Schiffer, Naomi Campbell, Linda Evangelista, Christy Turlington, 
+Kate Moss e Helena Christensen. 
+Thamer (1987, p. 94) escreveu que a década de 1980 pode ser lembrada como a era do 
+culto ao corpo, da valorização da saúde, que deu origem ao atual segmento activewear. 
+“Trainings, agasalhos, calças de montaria, camisas polo [...] além de tênis” saíram das calçadas 
+e quadras para entrar no ambiente do dia a dia de trabalho e de lazer. O vídeo de Jane Fonda 
+Workout tornou-se um best-seller e as roupas de ginástica foram incorporadas ao guarda-roupa 
+cotidiano (SCALZO; HARA, 2009). 
+O desenvolvimento industrial verificado no setor, nesta década, proporcionou maiores 
+opções para os consumidores que, segundo Thamer (1987, p. 127), afirmavam sua identidade 
+com as roupas que escolhiam. 
+Thamer (1987) descreve a década de 1980 como uma década de rebeldia. A cultura da 
+juventude que havia sido estabelecida nos anos 1950 e que se tornou popular a partir dos anos 
+1960, chegou ao auge na década de 1980. Françoise Vincent-Ricard (VINCENT-RICARD, 
+1989), em Espirais da Moda, descreve a força da linguagem de moda das gerações mais jovens 
+durante a década de 1980. Ela descreveu as tribos punks, os preppies ou BCBG (bon chic bon 
+genre), os yuppies (VINCENT-RICARD, 1989, p. 151). 
+Thamer (1987, p. 24) fala da característica de dualidade do ser humano, presente na 
+moda da década de 1980: “a dualidade do homem é tão visível que se pode pensar que temos 
+duas almas [...] A convivência entre o bem e o mal, o amor e a raiva, a descrença e a fé, refletia 
+as tensões e a pressão da vida marcada pelo excesso de atividades”. Na moda, essa dualidade 
+se refletiu na oscilação entre silhuetas e estilos opostos tais como o comprimento longo e o 
+curto, que se alternavam, a simplicidade e o luxo, o estilo minimalista e o estilo neobarroco. 
+Outra característica daquela década é a alternância entre a moda saudosista inspirada no passado 
+e um estilo futurista, interpretado com matérias primas sintéticas, segundo Thamer (1987, p. 
+134). 
+Thamer (1987, p. 28) menciona que o mundo se rendeu à influência japonesa, ao se 
+referir aos designers Kenzo, Issey Miyake, Yohji Yamamoto e Rei Kawakubo, da Comme des 
+Garçons, lançando uma estética absolutamente nova e com novas proporções. Rei Kawakubo 
+questionava o status quo em termos de estilo, construção, fabricação, apresentação, marketing 
+e distribuição. Segundo ela, “O design de Moda não é sobre revelar ou acentuar a forma do 
+corpo feminino, mas seu propósito é permitir que a pessoa seja o que ela é” (EVANS, 2003). 
+Foi a primeira vez que se falou em neutralidade dos gêneros no meio da moda. A moda 
+minimalista japonesa com sua estética minimalista, desestruturada e assimétrica, dava o 
+
+
+---
+
+42 
+contraponto ao cenário da alta costura e do prêt-à-porter de luxo, onde a perfeição era 
+indispensável. 
+Os papéis dos gêneros se inverteram. As mulheres invadiram a arena que antes era somente 
+dos homens. E o novo homem passou a lavar louça, nutrir seus bebês, limpar a casa e tratar de 
+coisas reservadas antes só para as mulheres. Novos valores de feminismo vieram à tona.  
+Vincent-Ricard (1989, p. 164) cita o jeans como um dos dois trajes absolutamente 
+inovadores do século XX (o outro traje mencionado por ela é o traje esportivo). Embora o jeans 
+tenha sido inventado no século anterior, foi transformado em símbolo de juventude e rebeldia 
+nos anos 1960, popularizado nos anos 1970 e consagrado como um item de moda nos anos 80.  
+Essa década também foi marcada pela ascensão das lojas de departamento, quando a C&A 
+trouxe um novo conceito de loja e um modelo de negócio que hoje chamamos de magazine. 
+Renner, Riachuelo e Lojas Marisa, as concorrentes atuais da C&A, já existiam quando 
+a rede holandesa chegou ao Brasil. Mas nenhuma tinha o formato que tem hoje. 
+“Quando a C&A veio para o Brasil foi extremamente inovadora, principalmente com 
+o sistema de self-service e o vendedor não comissionado. Foi uma quebra de 
+paradigma no setor”, diz Flavio Rocha, presidente da Riachuelo (ABDALLAH, 
+2014). 
+Apesar da lembrança dos anos 80 terem sido “anos dourados” de crescimento para a 
+indústria de vestuário e a indústria têxtil no Brasil, com o boom de novas matérias primas 
+sintéticas e o jeans diferenciado, essa foi uma década considerada perdida pelos economistas, 
+“consequente do alto endividamento externo herdado dos militares e de um processo 
+inflacionário que devorou a Poupança Nacional”, afirmam Braga e Prado (2011, p. 410). “O 
+primeiro tecido exclusivo que apareceu, na época, e que foi exclusividade por pouco tempo, foi 
+o denim com lycra (com elastano)”, escrevem, “a demanda por jeans naquela época crescia a 
+taxas anuais de 20%” (BRAGA; PRADO, 2011, p. 426). A calça jeans justa e moldada ao corpo 
+vinha bem ao encontro do DNA da brasileira que queria realçar o corpo e mostrar suas curvas. 
+Nessa década os softwares de modelagem foram desenvolvidos. Thamer (1987, p. 136) 
+lembra que nessa época, surgiram as mesas digitalizadoras dos moldes feitos em papel pela 
+modelista. Um computador recebia os dados e traduzia em moldes já em várias numerações. 
+Em 1985, a autora desse estudo foi contratada pela indústria de vestuário Levis do 
+Brasil, filial da empresa americana detentora da marca Levis. Nessa época, a Levis do Brasil 
+fabricava sua própria coleção, adaptando as tendências internacionais ao mercado brasileiro. A 
+Levis já utilizava a tecnologia mais evoluída da época, o setor de modelagem já fazia seus 
+
+
+---
+
+43 
+moldes com os recentes programas de CAD10 e se podia fazer as fichas técnicas no programa 
+de design precursor do atual software Kaledo da empresa de softwares francesa Lectra. 
+Como o ciclo de desenvolvimento era longo nessa época, era comum os estilistas fazerem, 
+a cada semestre e estação, viagens internacionais de pesquisa pelos grandes centros urbanos 
+europeus, de 20 a 30 dias, especialmente às cidades onde a moda jovem e o streetwear 
+efervesciam. Londres, Paris, Amsterdam eram paradas obrigatórias. Muito diferente do momento 
+atual, em que o ciclo curto de desenvolvimento muitas vezes não proporciona o tempo necessário 
+para a pesquisa de tendências internacional e nem mesmo para a pesquisa local, a abordagem 
+sobre a prática da pesquisa de moda carece de reformulação. 
+ Apesar de tantas crises econômicas, a Levis cresceu naquela década e o trabalho de 
+pesquisa de tendências internacionais tinha um orçamento invejável gasto com viagens a feiras 
+internacionais, compras de cahiers de tendances, os livros elaborados pelos estúdios de moda 
+franceses, entre eles Promostyl, Nelly Rodi, Dominique Peclers e as compras de amostras, que 
+permitiriam reproduzir os fits, ou caimentos, as lavanderias e os detalhes de aviamentos a serem 
+desenvolvidos na indústria local.  
+Braga e Prado (2011, p. 485) descrevem que: 
+Na segunda metade da década de 1980, havia no Brasil uma superoferta de jeans que 
+contrastava com uma realidade econômica de recessão, inflação e perda de poder 
+aquisitivo [...] O mercado também estava saturado de modismos: os modismos 
+perderam a força. O jeans voltou a sua posição real, como uma roupa de estudante, do 
+trabalhador e, também, do executivo nos finais de semana [...] 
+Embora a indústria de vestuário de jeans e as tecelagens de denim sejam muito 
+relevantes nos dias de hoje no Brasil, aquele fim de década foi um período amargo para muitas 
+marcas deste segmento. Ao contrário do que se temia na época, essa é a indústria que mais tem 
+condições de resistir à ameaça das importações, por ter se especializado e por ter tornado o 
+Brasil um dos principais polos fabricantes de jeans do mundo. O investimento em máquinas de 
+lavanderia sofisticadas, com gasto menor de água e em fábricas de alto volume nas diversas 
+regiões, como a fábrica de jeans da Guararapes, no Ceará e outras tantas no Paraná, Santa 
+Catarina e São Paulo, é uma prova desse exemplo de superação dos desafios enfrentados desde 
+aquela época até hoje. 
+Em resumo, uma nova visão de mundo surgia nesse período a partir da nova concepção 
+de identidade dos sujeitos, da mudança de paradigmas de produção, circulação e comunicação, 
+da nova sociedade do espetáculo e do paradigma da pós-modernidade. Segundo Foucault 
+(CPFLCULTURA, 2012), o ser humano, a partir de então, não poderia ser considerado mais 
+                                               
+10 CAD ou Computer-Aided Design foram os precursores dos atuais programas de modelagem. 
+
+
+---
+
+44 
+como um simples sujeito, pois ele se torna sujeito à medida que passa a fazer parte das relações 
+de poder. O sujeito passou a ser responsável por suas ações e poderia se dizer adeus à ideia da 
+identidade concebida anteriormente, agora ligada a ideia de pertencimento e é essa ideia que 
+vai permear a moda da contemporaneidade com meios hábeis para seduzir o novo sujeito, 
+chamado agora de “o consumidor” (CPFLCULTURA, 2012). 
+ 
+2.1.2. A década de 1990 
+ 
+Como todo final de século, a década de 1990 exalava um sentimento apocalíptico no ar. 
+Referências à crise e ao trauma estavam implícitas no design da época, refletindo uma sensação 
+de término. Na Europa, a queda do muro de Berlim sinalizou a dissolução dos regimes 
+comunistas. Pode-se dizer que entramos na era digital nessa década. Os celulares se 
+multiplicaram no mundo (SCALZO; HARA, 2009). A internet, antes restrita às instituições de 
+pesquisa, chegou ao grande público na chamada “e-década”. Com a revolução informacional, 
+a vida dos sujeitos passou a ter mais velocidade. O tempo se tornou relativo. Virtual ou real, o 
+tempo passou por um processo de compressão. 
+Evans (2003, p. 38, tradução nossa) descreveu esse período da seguinte forma:  
+Assim como o modernismo do início do século XX achava que poderia produzir um 
+admirável mundo novo, o período pós-moderno foi marcado por uma sensação de 
+término. Essa mudança se refletiu em uma série de poesias culturais dos designers 
+contemporâneos cujas evocações de história e a passagem do tempo sugerem uma 
+certa sensação de crise e trauma no presente. Freud explicava a compulsiva repetição 
+do trauma, por exemplo, em sonhos recorrentes noite após noite. Assim, Freud 
+escreveu ‘a histeria sofre basicamente de reminiscências’. No final do século passado, 
+assim como a histeria de Freud, muitos dos experimentos de criação de moda pareciam 
+sofrer de reminiscências. 
+Além das reminiscências recorrentes de fatos históricos nem sempre felizes, a década 
+de 90 foi permeada do convívio com os opostos. A arte, o design e a moda refletiam a dualidade 
+e os caminhos contraditórios dessa década. Evans (2003, p. 20, tradução nossa), ao escrever 
+sobre a moda do final do século XX, explica que quis “detalhar apenas a atração entre os 
+opostos, entre a moda e as ideias que antes eram consideradas inimigas da moda”. 
+Esse questionamento estava explícito no trabalho de vários designers da época, a 
+sensação que se tinha era de uma grande inquietação própria de fim de ciclo. Vários estilistas 
+se referiram aos séculos anteriores, evocando períodos de excesso, instabilidade e mudanças 
+para desenhar a moda do momento então presente. Os estilistas de vanguarda britânicos e belgas 
+reprisavam temas históricos infelizes e na maioria das vezes sombrios e trágicos, com uma 
+linguagem de desespero e morte. De forma completamente oposta, os desfiles de John Galliano, 
+
+
+---
+
+45 
+para a Maison Dior nos anos 90, eram um espetáculo, usando técnicas teatrais para encenar suas 
+narrativas de moda, transformando locais vazios em palcos de total fantasia. Galliano 
+reproduzia estilos de diversos períodos, superpondo-os na mesma coleção e às vezes as 
+referências de épocas distintas estavam na mesma roupa. 
+Falava-se em desconstrução não somente no sentido filosófico, porém na desconstrução 
+da moda. Como uma crítica à opulência da moda de luxo, Martin Margiela, desconstruía as 
+técnicas de alta costura cientificamente, a partir de roupas desgastadas de segunda mão, que 
+transformava em novas propostas.  
+Uma analogia de Evans (2003, p. 25) a figura do DJ nos anos 90, era que a moda se 
+tornou um pastiche, de modo que os estilistas colhiam amostras e as mesclavam a partir de uma 
+infinidade de fontes para criar algo novo. Evans (2003, p. 25, tradução nossa) descreveu a 
+seguinte cena: “A estética de bricolagem que caracterizou os clubes britânicos e subculturas 
+[...] forneceu um modelo para o processo de criação de designers como Jean Paul Gaultier, 
+Vivienne Westwood e John Galliano” Evans (2003, p. 25). A estética de bricolagem da moda 
+refletia a promiscuidade de formas e culturas da época, “fazendo a bricolagem de um ano no 
+outro, daquilo que ‘foi’ com uma liberdade combinatória muito grande” (EVANS, 2003, p. 
+113)11. 
+Braga e Prado (2011, p. 538) escrevem sobre as “tribos” de pertencimento que se 
+formaram nos anos 90, avessas à moda padronizada da década anterior. Eles descrevem que  
+a roupa passou a ser vista como elemento de criação, com múltiplas possibilidades 
+estéticas expressas por opções individuais ou por multifacetadas subtribos: foi o início 
+do ‘supermercado de estilos’ que [...] contribuiu para amalgamar inteiramente o 
+sentido da palavra tendência de moda. 
+Naquela virada de década, no início dos anos 90, a pesquisa de tendências de moda se 
+tornou mais complexa devido ao surgimento de inúmeras tribos urbanas, principalmente 
+influenciadas pelas vertentes da música. Para compreender as influências do momento, era 
+primordial fazer parte do estilo de vida de algumas dessas tribos e pesquisar os diferentes perfis 
+oriundos dos clubs e das ruas de Londres e de outros centros como Nova Iorque, Dublin e São 
+Paulo. Durante esse período, os estilistas que se viam na desafiadora tarefa de interpretar o 
+caleidoscópio de tendências emergentes, poderiam se inspirar no DJ, figura icônica naquele 
+período, mas teriam que conhecer os perfis multifacetados das tribos que frequentavam a cena 
+noturna, sabendo relacionar seus trajes com a vertente musical por eles apreciada. A própria 
+                                               
+11 Barnard (2003, p. 244) explica a discussão antropológica levantada por Lévi-Strauss, que definiu o sujeito 
+“bricoleur” como um faz tudo, que usa ferramentas que estão a mão para completar um trabalho. Evans (2003) 
+faz uma analogia a esse tipo de bricolagem quando fala da moda da década de 90. 
+
+
+---
+
+46 
+estética de bricolagem se tornou mais complexa, com tantos movimentos contraditórios e o 
+“pesquisar tendências de moda” já não era tão simples de se codificar e traduzir em coleções 
+vendáveis no Brasil. No Brasil, nas cidades como São Paulo e Rio, surgiram várias culturas 
+relacionadas com as vertentes musicais e com as cenas urbanas.  
+Os desfiles daquela década eram verdadeiros espetáculos, com inclusão de músicos, 
+DJs, uma cenografia elaborada e efeitos especiais (SCALZO; HARA, 2009). A moda 
+espetáculo não só se restringia às passarelas das semanas de moda. A colaboração entre artistas 
+e estilistas se intensificou nessa década.  
+As próprias lojas se transformaram, com projetos arquitetônicos que remetiam a uma 
+galeria de arte, dando início ao conceito de “customer experience” ou a experiência do cliente 
+ao visitar a loja. A Colette surgiu em 1997 em Paris como um novo tipo de loja conceito, a 
+concept store, unindo design, moda, livros e exposições no mesmo espaço, com um bar de 
+águas minerais raras no subsolo. Esse conceito de loja, que representa um espaço de lazer, arte 
+e moda se tornou referência como modelo de varejo de moda. 
+A prova dessa relação da moda com a arte foi a Bienal da Arte e da Moda ocorrida em 
+1996 em Florença, que teve como tópico o trabalho de artistas e estilistas em conjunto, 
+interpretando a roupa como ''segunda superfície'' cromática e volumétrica. A mostra expôs as 
+pesquisas futuristas de Giacomo Balla e Fortunato Depero, assim como protótipos de vestidos 
+construtivistas dos russos Aleksandr Rodchenko e Varvara Stepanova, experimentos de Sonia 
+Delaunay, assim como colaborações dadaístas e surrealistas entre Salvador Dali e Elsa 
+Schiaparelli, Man Ray e a revista Vogue.  
+Outro fator que permeou a moda do período foi a ambiguidade de gêneros. Estilistas 
+faziam uma releitura dos papéis femininos, muitas vezes questionando a sexualidade e usando 
+a nudez como forma de poder feminino e insubordinação. 
+Em 1990, no Brasil, houve a abertura de mercado para as importações. Kalil (2010, p. 
+9) lembra-se que, a partir dos anos 90, a moda brasileira passou a ter grande visibilidade no 
+exterior. Segundo ela, a moda no Brasil se tornou um negócio a partir de então. Antes disso, a 
+moda não era um negócio? Sim, a indústria da moda sempre foi um negócio, porém a partir de 
+então a indústria brasileira começou a se profissionalizar.  
+Braga e Prado (2011, p. 539) escreveram que  
+a cadeia produtiva da moda brasileira parecia, finalmente, ter se completado, com 
+semanas de lançamentos semestrais ajustadas (ou tentando se ajustar) aos ciclos de 
+renovação das coleções disponibilizadas nas vitrines das lojas, estimulando maior 
+inventividade, qualificação e preços competitivos com o produto importado. 
+
+
+---
+
+47 
+Braga e Prado (2011, p. 539) ainda descrevem o movimento de profissionalização da 
+moda no Brasil naquela década a partir da formação acadêmica de uma nova geração de 
+estilistas: 
+Foi a partir da década de 90 que as primeiras gerações de estilistas e profissionais de 
+moda graduados nas escolas pioneiras do país chegaram ao mercado. Criar moda 
+deixava de ser, finalmente, resultado da oportunidade fortuita de poucos, para se 
+tornar área de formação profissionalizada, com metodologias e técnicas próprias. As 
+novas gerações de estilistas formados em escolas encontraram um mercado 
+confeccionista mais bem estruturado, mas ainda profundamente marcado pela tradição 
+da cópia e da imitação da moda estrangeira. Lenta e gradualmente, o setor passou a 
+absorver profissionais de criação de moda, já os entendendo como elementos 
+fundamentais para agregar maior valor de design e identidade a seus produtos [...] Os 
+estilistas surgidos a partir da década de 90 tinham maior independência criativa e 
+buscavam referências próprias.  
+Baudot (1999, p. 381) explica que  
+ao término dos anos 90, a moda, com seus múltiplos sistemas, parece um fenômeno 
+definitivamente admitido até nos recônditos mais perdidos do planeta [...]. No entanto, 
+a moda não está mais em moda [...] Era fatal, ela teria que se ver ultrapassada. 
+Paciência. Um movimento pendular inerente a seu sistema irá trazê-la de volta a nós, 
+e virgem apesar de tudo, desconcertando todas as predições. 
+Não é que a moda tenha saído da moda naquela época. O desenvolvimento de uma mídia 
+poderosa, com uma multiplicidade de imagens pós-modernas, democratizou a moda. A moda 
+“de classe”, que expressava a posição social dos sujeitos, foi substituída pela moda “de 
+consumo”, mais inclusiva e mais associada a difusão veloz das informações pela rede. O street 
+fashion atingiu o seu auge e o luxo se expandiu e revitalizou marcas icônicas esquecidas. Lenços 
+e pulseiras com logomarcas viraram febre (SCALZO; HARA, 2009). 
+A moda, fenômeno cultural, passou a incorporar estilos de pessoas comuns das ruas e por 
+ser o termômetro da época pós-moderna, se tornou o retrato instantâneo do “aqui e agora”, o espírito 
+do tempo. As roupas e a moda passaram a ter outros significados, mais apropriados a identidade 
+pluralista do novo sujeito, às sociedades pós-industriais e aos novos códigos e valores 
+transgressores. A pesquisa de moda não seria mais a mesma nesse novo paradigma. O ciclo de 
+desenvolvimento de produto já começara a se encurtar, com algumas etapas se superpondo12. 
+ 
+2.1.3. O século XXI e o contexto da contemporaneidade 
+ 
+Se os anos 90 foram o início da era digital, a criação de uma infraestrutura global de 
+telecomunicações com fibra ótica e a transmissão digital já estavam bem encaminhadas em fins 
+do século XX, o início dos anos 2000 foram marcados pela velocidade. A velocidade da 
+                                               
+12 Nos 2° e 3° capítulos, a evolução do ciclo de produto será detalhada. 
+
+
+---
+
+48 
+informação, a compressão do tempo e do espaço e o fenômeno da interatividade transformaram 
+radicalmente o cotidiano dos sujeitos. 
+Com as inovações naquele período em microeletrônica, comunicação e engenharia 
+genética, o paradigma industrial se tornou obsoleto e foi substituído por um paradigma 
+tecnológico que trouxe vantagens em produtividade e eficiência, devido à sinergia de seus 
+componentes (GARAY, 2005). 
+Com a banda larga, a velocidade tornou-se fundamental. Filmes e músicas passaram a 
+ser disponibilizados gratuitamente na internet, e novas poderosas ferramentas de 
+“descentralização da informação” surgiram, os blogs, o facebook, o twitter. O youtube e o skype 
+tornaram-se canais de comunicação nessa década (SCALZO; HARA, 2009).  
+A sociedade informacional, segundo Castells (1996 apud GARAY, 2005, p. 47), 
+permeia quatro tipos de relações: as de produção, as de consumo, as de poder e as da experiência 
+cotidiana. Portanto, a relação dos sujeitos com o trabalho mudou, as novas tecnologias se 
+tornaram indispensáveis para as atividades corporativas globais. 
+Quanto à moda dessa primeira década do século XXI, Giron (2014) argumentou que  
+o que a fez tão espetacularmente presente em nossa vida diária é o impacto combinado 
+da comunicação digital em tempo real e da produção em massa com a associação entre 
+butiques de alta-costura e grandes redes de lojas. As manifestações culturais e 
+artísticas são arrastadas pelo motor da moda. 
+Em 2004, Karl Lagerfeld firmou uma parceria com a rede de varejo H&M. Avelar 
+(2011, p. 80) menciona que quando o prêt-à-porter de luxo se uniu à moda industrial, foi como 
+se uma inversão no processo de criação da moda estivesse ocorrendo, no sentido de que a moda 
+era anteriormente um mecanismo que funcionava de cima para baixo. O mais comum era que 
+a alta costura e a moda de luxo influenciassem a moda de grande difusão. Ao aceitar a parceria, 
+o criador à testa da Maison Chanel lançou a própria cópia das suas coleções para distribuição 
+em grande rede de varejo popular, um efeito que pode ser considerado como uma inversão do 
+mecanismo clássico da moda. 
+As lojas conceito floresceram nessa década estabelecendo uma ligação forte entre moda 
+e arte. Olafur Eliasson expôs suas obras nas vitrines da marca Louis Vuitton, a Maison Hermés 
+criou o projeto Hermés Box, a Maison Chanel criou o “Chanel Mobile Art” e a marca Comme 
+des Garçons criou um espaço de arte e moda em Londres, o Dover Street Market (SCALZO; 
+HARA, 2009). 
+O conceito de experiência no varejo deriva do fato de o consumidor ter que experimentar 
+o universo da marca num espaço que traduzia DNA e conceito da marca. Termos como 
+branding e brand experience se incorporaram na moda (SCALZO; HARA, 2009). 
+
+
+---
+
+49 
+Em 1999, a rede espanhola Zara chegou ao Brasil e introduziu no país o conceito fast 
+fashion, com duas renovações de produto por semana. No mundo, ela concorria com a sueca 
+H&M (SCALZO; HARA, 2009). Logo as grandes cadeias de varejo nacionais iriam trilhar a 
+mesma fórmula dessas duas empresas.  
+Se os anos 80 foram marcados pelo crescimento da indústria têxtil e os anos 90 
+trouxeram os holofotes para a moda brasileira, poderíamos dizer que as duas primeiras décadas 
+do século XXI trouxeram investidores para o Brasil, deslumbrados com a classe média com 
+sede de consumo em sua recente ascensão. Foi cunhado o termo BRIC, para designar os países 
+emergentes (SCALZO; HARA, 2009). No início de 2000, os países do chamado BRIC (Brasil, 
+Rússia, Índia e China) emergiram e o Brasil estava no caminho certo para a prosperidade 
+econômica. 
+Por volta de 2010, houve um aquecimento da economia no Brasil, o mercado interno 
+aumentou e os brasileiros passaram a consumir mais. A estabilização econômica e a ascensão 
+de uma camada da sociedade a bens de consumo, roupas, viagens, criou certa euforia de 
+consumo por alguns anos, embora alguns economistas previssem que o fenômeno não passasse 
+de uma bolha isolada, que poderia estourar a qualquer momento. 
+Após a passagem de fim de milênio e o início de outro milênio, havia uma euforia da 
+indústria têxtil brasileira com o boom do consumo. As alianças entre as malharias e tecelagens 
+com as multinacionais Rhodia, produtora de poliamida e a Du Pont, então produtora do elastano 
+e detentora da patente Lycra®, antecessora da Invista, se tornaram relevantes como 
+patrocinadoras dos novos estilistas que despontavam nas semanas de moda. Muitos desses 
+estilistas contavam com as verbas da indústria para patrocinar seus desfiles, suas campanhas, 
+catálogos e até a matéria prima para produzir suas coleções.  
+Uma série de situações favoráveis, tais como os altos investimentos das indústrias 
+têxteis em campanhas de marketing, a organização das semanas de moda com o apoio das 
+produtoras de fibras e um amadurecimento de certos estilistas brasileiros em relação à criação 
+de uma moda autoral formou uma reação positiva da cadeia de valor têxtil e de vestuário 
+nacional. Como a indústria têxtil brasileira buscava se reinventar frente ao mercado global, 
+havia uma maior possibilidade de desenvolver materiais tecnológicos inovadores. Até mesmo 
+as indústrias catarinenses, antes tradicionais em algodão, passaram a inovar com tecidos 
+sintéticos e texturas ricas, mais adequadas aos novos códigos de vestir. 
+Kalil (2010) lembra que neste início de milênio, estilistas brasileiros começaram a 
+divulgar suas marcas fora do país. Alexandre Herchcovitch e Walter Rodrigues, Amir Slama e 
+Carlos Miele começaram a investir no exterior Kalil (2010, p. 10). Os estilistas brasileiros 
+
+
+---
+
+50 
+passaram a apresentar coleções nas semanas de moda de Nova York e Paris. Modelos brasileiras 
+estrelaram campanhas de grandes grifes mundiais e invadiram as passarelas (SCALZO; HARA, 
+2009). 
+Quando, numa determinada manhã em Paris em 2000, Isabela Blow, então editora de 
+moda do The Sunday Times, surgiu com um vestido em vinyl preto, criação de Walter 
+Rodrigues, no seu apartamento, para um brunch com seus mais recentes amigos brasileiros, a 
+imagem da jornalista inglesa, completamente estilizada com o look recém visto na semana de 
+moda de São Paulo, representou um retrato daquela época. Ali estavam a autora desse estudo, 
+o estilista Fause Haten e Daniel Klajmic, fotógrafo que se tornou protégé de Blow. Isabella 
+Blow veio pela primeira vez ao Brasil em 2000 para a semana da moda de São Paulo e escreveu 
+em um dos editoriais de moda: "O Brasil é o lugar para se estar". O Brasil se tornou o “país da 
+moda” nesse período. Da Amazônia aos prédios de Oscar Niemeyer, o Brasil virou cenário para 
+campanhas internacionais (SCALZO; HARA, 2009) 
+Braga e Prado (2011, p. 540) descrevem essa década como um Brasil de mercado aberto 
+Conquistada a estabilização da moeda, os maiores problemas para o setor têxtil e de 
+confecção no Brasil passaram a ser os altos tributos (o chamado ‘custo Brasil’), o 
+câmbio e a concorrência externa – em particular dos produtos chineses [...] a moda 
+brasileira, nosso principal destino. 
+Ao longo dessa década, a indústria têxtil brasileira sofreu a ameaça da produção chinesa 
+e indiana, com preços imbatíveis enquanto o custo Brasil crescia. Até então a segunda 
+empregadora de mão de obra do país, empregando muitas mulheres arrimo de família, o 
+desaparecimento da indústria do vestuário era uma ameaça real. Uma providência imediata se 
+fizera urgente. A indústria tinha que se tornar mais ágil, ter preços mais adequados e mão de 
+obra de boa qualidade, além de marcas sólidas e bem construídas (KALIL, 2010). 
+Em relação à crise financeira que abalou o mundo em 2008, Kalil (2010, p. 15) lembra 
+que “o Brasil conseguiu passar relativamente ao largo desse desastre e até mesmo crescer e 
+firmar-se como um país de grandes possibilidades de negócios e investimentos estrangeiros. O 
+mundo voltou os olhos para nós”. 
+Com a estabilidade econômica que perdurou desde a gestão de Fernando Henrique até três 
+anos atrás, o Brasil se tornou um país interessante para investidores. Marcas estrangeiras 
+chegaram aqui ao mesmo tempo em que marcas brasileiras atravessaram fronteiras. 
+Mesmo quando grande parte do mundo desenvolvido sofria com a crise econômica de 
+2008, o Brasil parecia imune. O crescimento continuou aparentemente inabalável, 
+com as vendas da indústria de moda e o consumo de produtos de luxo por brasileiros 
+em ascensão. No entanto, depois de um aumento do PIB de 7,5% em 2010, o 
+crescimento caiu para cerca de 3% em 2011. Apesar dessa desaceleração da economia, 
+os bons resultados da década de 2000 a 2010 trouxeram algumas modificações 
+fundamentais para o país, como a ascensão de uma parcela da população à classe 
+
+
+---
+
+51 
+média e o florescimento do interior do país como polo de desenvolvimento (LECTRA, 
+2015, p. 4). 
+Kalil (2010, p. 10) lembra que “em 2008, entretanto, uma novidade surgiu no campo da 
+gestão das empresas de moda: as fusões com holdings financeiras ou as compras das empresas 
+por grandes grupos do ramo têxtil ou por grupos financeiros”. Marcas renomadas como Forum, 
+Zoomp, Ellus, Animale, Richards, Salinas e muitas outras, deixaram de ter uma estrutura de 
+gestão familiar e passaram a ser geridas por grupos investidores que não tinham uma relação 
+emocional com a identidade original da marca, nem com as pessoas que construíram a história 
+da marca. No início desse movimento, ainda havia uma preocupação em manter vivo o DNA 
+da marca comprada. Após algum tempo, com a saída dos seus criadores, a narrativa dessas 
+marcas mudou e a nova gestão das empresas de moda brasileiras, mais focada em lucros do que 
+no universo emocional de cada marca, mudou o panorama da moda nacional. A pressão por 
+ciclos mais curtos que reduziriam os riscos, a pressão por preços mais baixos e para processos 
+mais enxutos, se tornou a ordem do dia. 
+No mundo, nesse período, a China emergiu como grande potência, com crescimento que 
+chegou a dois dígitos (SCALZO; HARA, 2009). As cadeias de suprimentos das maiores cadeias 
+de varejo, já dependentes da indústria chinesa, tiveram que buscar outras fábricas no sudeste 
+asiático, pois a mão de obra chinesa passou a custar mais caro. Uma nova classe média com alto 
+poder aquisitivo surgiu na China e o mercado doméstico chinês se tornou importante consumidor. 
+Com isso, os países do sudeste asiático passaram a ser os novos fornecedores das cadeias de 
+varejo globais. O Brasil seguiu o exemplo das cadeias internacionais de varejo e passou a comprar 
+não só da China, mas da Índia, da Indonésia e de Bangladesh. 
+Em reação a esse movimento da cadeia de suprimentos global para países de mão de 
+obra muito barata, em 2015, surgiu o Manifesto Antifashion escrito por Li Edelkoort, 
+pesquisadora holandesa de tendências em consumo e design.  
+A holandesa Li Edelkoort é um dos nomes mais respeitados no mundo da moda. Do 
+escritório da sua empresa, a Trend Union, em Paris, ela coordena uma equipe que 
+pesquisa tendências globais de moda, design, arte e comportamento para gigantes 
+como Coca-Cola, Warner, Gap, Lacoste e L’Oréal, entre muitas outras. Há quatro 
+décadas nesse mercado, já foi eleita um dos 25 nomes mais influentes da moda pela 
+revista “Time” e uma das 40 pessoas mais importantes no design pela “Icon 
+Magazine”(MARTINI, 2014).  
+Em 2015, Li Edelkoort escreveu sobre o processo de industrialização da moda, 
+mencionando que a busca por “enxugamento” das cadeias de suprimento causou “um processo 
+rápido e sórdido de reestruturação, onde vimos a produção deixar o mundo ocidental para lucrar 
+através da exploração de países de baixos salários" (FAIRS, 2015). Edelkoort afirmou que  
+em vez de boicotar as marcas que empregam mão de obra barata, os consumidores se 
+deixaram seduzir pelas roupas descartáveis e baratas [...] Agora que muitas roupas são 
+
+
+---
+
+52 
+oferecidas num preço mais barato do que um sanduíche, todos nós sentimos que algo 
+está profundamente errado. O pior é o simbolismo de tudo isso (FAIRS, 2015, 
+tradução nossa). 
+Edelkoort continua: “Os preços já profeciam que as roupas são feitas para serem jogadas 
+fora [...] e esquecidas antes mesmo de serem saboreadas e amadas, ensinando os consumidores 
+jovens que a moda não tem valor. A cultura da moda, portanto está destruída” (FAIRS, 2015, 
+tradução nossa). 
+Edelkoort tem influência na mídia de moda europeia e nos formadores de opinião da 
+indústria brasileira. Visitou o Brasil em 2016 para lançar um livro e participar de um ciclo de 
+palestras. O livro Bloom, projeto de Li Edelkoort em parceria com a Renner, patrocinado pelo 
+MinC, reúne inúmeras expressões culturais do Brasil, de diversos campos, como moda, design, 
+pintura, escultura e fotografia. 
+Um movimento ecofashion com tecidos orgânicos, couro de peixe e fibras celulósicas 
+de última geração apareceram nas semanas de moda. Stella McCartney, Donna Karan e outros 
+estilistas passaram a utilizar matérias primas orgânicas e ecofriendly nas suas coleções. No 
+Brasil, novos movimentos de pequenas empresas e associações com rendeiras e bordadeiras 
+tentaram resgatar saberes ancestrais do artesanato brasileiro. O instituto E, criado por Oscar 
+Metsavah, é uma iniciativa da indústria de vestuário com o objetivo de fazer parcerias com 
+artesãos e ao mesmo tempo criar uma moda sustentável. 
+Ucho Carvalho, especialista em varejo de moda, definiu que o consumidor de hoje é 
+fruto do cenário de instabilidade política, das catástrofes ambientais, das perspectivas 
+ameaçadoras do futuro econômico e do excesso de informação. A consequência de tudo isso é 
+um consumidor vulnerável, desconfiado e exausto (KALIL, 2010, p. 79). A resposta a esse 
+sentimento de insegurança e perplexidade se traduz numa demanda de retorno aos valores de 
+um mundo que ofereçam segurança e tranquilidade. 
+Na opinião de Carvalho, “quem vai sobreviver no mercado é quem tiver a esperteza de fazer 
+um bom posicionamento para que seja reconhecido como marca ou produto”. Alguns pontos são 
+importantes para o varejo de moda conquistar os consumidores dessa época. Segundo ele, esses 
+pontos são: autenticidade, compromisso, humor, tecnologia, humanismo, preocupação com 
+serviços, criação de networks e definição de um lifestyle próprio. Ucho acredita que “o varejo de 
+moda brasileiro precisa aprender a respeitar as diferenças regionais, as especificidades do lugar 
+onde está trabalhando e responder com atitudes a esse grande painel de consumidores”. Agir 
+localmente apesar de pensar globalmente é o caminho sugerido por Ucho Carvalho (KALIL, 2010, 
+p. 82). 
+
+
+---
+
+53 
+Essa colocação foi feita antes da atual crise que vivenciamos, porém, num momento em 
+que existe mais oferta de produtos do que potencial de consumo, saber ofertar produtos que vão 
+ao encontro das preferências culturais, com custo-benefício e valor agregado comprovados tem 
+sido o diferencial das empresas que estão obtendo sucesso apesar dos desafios da instabilidade 
+econômica e da concorrência com marcas locais e de fora. 
+Com a crise econômica mais dura da indústria têxtil entre 2014 e 2017, a situação no 
+Brasil se agravou. Muitas indústrias pequenas e outras tantas marcas tradicionais, não resistiram 
+a crise e fecharam. Empresas grandes de fast fashion13, no entanto, cresceram com a crise, 
+expandindo sua pegada para os países vizinhos da América do Sul ou para os confins do norte 
+do país, onde poucas empresas estão presentes.  
+O ritmo do fast fashion e o acesso às vias digitais, complementado pela consulta a sites 
+pagos de pesquisa de moda, passaram a fazer parte do cotidiano dos profissionais de design das 
+indústrias de vestuário nacionais a partir de então. Um fenômeno gigantesco de “pasteurização” 
+dos estilos de vestir transformou a cena de moda brasileira numa mesmice.  
+Quebrar o paradigma da moda que é refém dos interesses das grandes organizações 
+hegemônicas, do design de moda que não leva em conta o planeta e nem o fator humano, será 
+um dos desafios que o setor de moda no Brasil terá que enfrentar. Felizmente, órgãos setoriais 
+como a ABIT, têm na sua agenda tópicos relacionados com a sustentabilidade, a capacitação de 
+profissionais e a transferência de know-how especializado na área. 
+A retrospectiva aqui descrita é relevante para situar a condição da indústria de vestuário 
+e têxtil brasileira no contexto da globalização, com toda a sua problemática de estabelecer uma 
+cultura de moda nativizada e de se profissionalizar para se tornar mais ágil, competitiva e 
+sobreviver diante dos revezes econômicos atuais e dos que estão ainda por vir. 
+                                               
+13 Como explicado por Barnes e Lea-Greenwood (2006, p. 260), “o fast fashion é uma estratégia de negócios que 
+visa reduzir os processos envolvidos no ciclo de compra e nos prazos para conseguir ter novos produtos de moda 
+nas lojas, de forma a satisfazer a demanda do consumidor na sua fase de pico.” É uma abordagem voltada para o 
+consumidor da cadeia de suprimentos e se tornou cada vez mais predominante na indústria da moda no Reino 
+Unido, nas últimas duas décadas. O fast fashion requer uma contínua renovação de gamas de produtos com modelos 
+de moda que atraem a atenção da mídia e atraem os consumidores jovens às lojas frequentemente”. 
+O fast fashion representa 12% da indústria da moda no Reino Único, tendo com seus principais jogadores os 
+gigantes das cadeias de varejo de moda de difusão Zara, Topshop, H&M e New Look (BARNES; LEA-
+GREENWOOD, 2006). Nos anos 1990, as cadeias de varejo do Reino Unido experimentou uma pressão vinda 
+de baixo para baixar preços já que as lojas baratas como New Look e Asda emergiram como forças propulsoras 
+no mercado de moda. A fim de manter vantagem competitiva, as lojas britânicas passaram a focar em preço e 
+começaram a produzir fora em países da Ásia onde o custo era baixo .Com isso, as cadeias de suprimentos 
+tornaram-se mais complexas e leadtimes mais longos apesar dos custos terem baixado e assim essas lojas 
+passaram a vendar mais barato as roupas da moda (SHETE, 2013).  
+
+
+---
+
+54 
+A Figura 2 resume as grandes transformações ocorridas que impactaram o setor de moda 
+e representam o cenário em que estamos inseridos. 
+ 
+Figura 2 - Linha do tempo do cenário da moda 
+ 
+Fonte: elaborado pela autora. 
+ 
+2.1.4. A condição pós-moderna: o surgimento de uma nova linguagem cultural 
+ 
+A transformação multidimensional operada no fim do milênio passado e início do atual 
+marcou o surgimento de uma nova sociedade, onde houve uma profunda redefinição da família, 
+das relações de gênero, da sexualidade e da própria personalidade dos sujeitos. Tanto por 
+motivos estruturais, ligados à economia informacional, como em razão do impacto dos 
+movimentos feministas e de liberação sexual, a autoridade patriarcal foi contestada na maior 
+parte do mundo, embora sob várias formas e com diferente intensidade dependendo dos 
+contextos culturais/institucionais (CASTELLS, 1999a). Essa nova sociedade foi cunhada de 
+pós-moderna. 
+A pós-modernidade pode ser entendida como descrito por Jameson (1985, p. 26, 
+tradução nossa): 
+Acredito que a emergência da pós-modernidade está estreitamente relacionada à 
+emergência desta nova fase do capitalismo avançado, multinacional e de consumo. 
+Acredito também que seus traços formais expressam de muitas maneiras a lógica mais 
+profunda do próprio sistema social. No entanto, vou limitar-me a indicar esta relação 
+a propósito de um só de seus temas capitais: o desaparecimento do sentido da história, 
+o modo pelo qual o sistema social contemporâneo como um todo demonstra que 
+começou, pouco a pouco, a perder a sua capacidade de preservar o próprio passado e 
+
+
+---
+
+55 
+começou a viver em um presente perpétuo, em uma perpétua mudança que apaga 
+aquelas tradições que as formações sociais anteriores, de uma maneira ou de outra, 
+tiveram de preservar.  
+Lemos (2015, p. 63) associa o aparecimento da ideia da pós-modernidade “à queda das 
+grandes ideologias modernas e de ideais centrais como história, razão, progresso”. Lemos 
+(2015, p. 63) explica que todos os campos foram afetados, desde a política, ciência e tecnologia, 
+arte até a vida cotidiana, o conhecimento e a comunicação, todos sofreram uma mudança 
+radical. Portanto, ele define a pós-modernidade como “a expressão desse sentimento de 
+mudança cultural e social correspondente ao aparecimento de uma ordem econômica chamada 
+de pós-industrialismo” (LEMOS, 2015, p. 63). 
+Na definição de Lyotard (1996) o pós-modernismo é visto como uma contraposição à 
+modernidade “entendida como a vontade de construir sistemas, teorias, interpretações 
+totalizantes, como sistema que acredita na racionalidade, no valor positivo da ciência e da 
+tecnologia [...] no progresso do desenvolvimento histórico e do pensamento” (CALANCA, 2008, 
+p. 190). Calanca (2008) explica que o pós-modernismo implica no fim das fronteiras entre 
+diferentes formas culturais e propõe uma visão crítica da ciência e da tecnologia.  
+No entanto, Hardt e Negri (2004), observam que a economia pós-moderna apresenta 
+uma nova migração do setor secundário para o terciário, ou de serviços, o que os autores 
+chamam de produção biopolítica ou trabalho imaterial. A produção imaterial, segundo esses 
+autores, seja ela relativa a “a produção de ideias, imagens, conhecimentos, comunicação, 
+cooperação e relações afetivas, tende a criar, não só os meios da vida social, mas a própria vida 
+social. A produção imaterial é biopolítica” Hardt e Negri (2004, p. 194 apud PRIMO, 2008). 
+Primo (2008) mencionam a visão do homem pós-moderno, que valoriza o trabalho em equipe 
+e o compartilhamento de informações e resultados, muito diferente do homem individualista 
+próprio da modernidade. A isso Surowiecki (2005, p. 2 apud PRIMO, 2008) denomina a 
+sabedoria das multidões. 
+Ortiz (2009, p. 236) afirma que na sociedade pós-moderna, “valoriza-se, assim, uma 
+teoria das diferenças [...] A expansão do mercado global teria padronizado os gostos e as 
+expectativas. Se para uma corrente de pensamento preza-se o singular, para outra, é a extensão 
+do globo terrestre que merece atenção” 
+Sendo assim, é importante fundamentar a moda contemporânea, relacionando-a com 
+essa nova cultura cunhada de pós-moderna e explicar como o projeto de moda tem que se 
+sujeitar às novas experiências de tempo e espaço e de fragmentação de imagens midiáticas. 
+ 
+ 
+
+
+---
+
+56 
+2.1.5. A moda e a pós-modernidade 
+ 
+Em 1984, Fredric Jameson mencionou que a história foi sendo saqueada pela cultura 
+visual contemporânea, formando um “carnaval pós-moderno” (EVANS, 2003, p. 24, tradução 
+nossa). Esse incessante retorno ao passado, segundo Jameson (1991), consistia num tipo de 
+reciclagem mórbida que esvaziava a própria história de qualquer significado, tornando-a tão 
+arruinada, que servia apenas como figurino de teatro. Através desta análise, podemos dizer que 
+a moda contemporânea, surgida nesta década, é uma forma quintessencialmente pós-moderna. 
+O resultado do capitalismo pós-industrial em que estamos inseridos na 
+contemporaneidade é que “os produtos são absolutamente sem profundidade”, declarou 
+Jameson (1971, p. 104 apud BARNARD, 2003, p. 223, tradução nossa). Jameson (1971, p. 104 
+apud BARNARD, 2003, p. 223) comparou as mercadorias durante a modernidade, que traziam 
+um vestígio do trabalho humano que as havia produzido, com as da pós-modernidade, em que 
+esse vestígio se perdera ou se ocultara. 
+O fato é que o pós-modernismo como criação de moda estava imbuído de ambiguidade 
+e contradição, muitas vezes fazendo uma paródia da versão original ou do tema já utilizado 
+previamente, sem pretensão de ser coerente, justapondo diferentes períodos, referências étnicas 
+e mesmo atmosferas distintas (CRANE, 2006). 
+Discussões sobre moda e pós-modernidade foram debate de grandes teóricos como 
+Baudrillard, Jameson e Wilson. Barnard (2003, p. 223, tradução nossa) retoma esse tema 
+explicando de forma simples que “enquanto a modernidade concebia o objeto em termos de 
+produção, a pós-modernidade o concebe em termos de consumo”. 
+Baudrillard (1996, p. 129) se refere à moda, em “a moda ou a magia do código”, como 
+algo que está além do bem e do mal, do belo ou feio, do racional ou do irracional, pois ela 
+relativiza todos os signos. Mesmo quando surge algo que se opõe a moda, essa novidade acaba 
+se incorporando ao sistema da moda. A moda, segundo o antropólogo francês, está numa 
+desconstrução da forma do signo da própria moda.  
+Tanto Baudrillard como Wilson enxergam a moda como um meio de restaurar tanto a 
+desigualdade cultural como a discriminação social. Wilson explica que a moda funciona para 
+mascarar a natureza imutável da dominação sob o capitalismo (WILSON, 1992, p. 220 apud 
+BARNARD, 2003, p. 225). 
+Baudrillard (1996), por sua vez, refinou o conceito de fetichismo de Marx e Freud, 
+defendendo que os objetos são signos que têm códigos com determinados valores significantes 
+que podem ser manipulados entre funcionalidade e ostentação.  No conceito de fetichismo 
+
+
+---
+
+57 
+desenvolvido por Baudrillard, o objeto adquire fetiche devido ao alto grau de ostentação que ele 
+demonstra, o que está intrinsecamente atrelado ao valor que o possuidor do objeto atribui a ele. 
+A lógica da moda, segundo Baudrillard, é a lógica da diferenciação, a lógica do signo, a lógica 
+do consenso, todas elas emaranhadas em outras lógicas (DANT, 1999, p. 49). 
+Baudrillard se refere ao item de moda como um signo que só existe dentro de uma rede 
+de diferenças 
+diferente de todas as vestimentas que existem ao mesmo tempo que ele [...] diferente 
+de todas as vestimentas que vêm antes ou depois dele, que poderiam ser usadas em 
+vez dele [...] Com base na descrição de Baudrillard, dir-se-ia que desse jogo da 
+diferença é que provém a identidade do item e seu significado como moda 
+(BARNARD, 2003, p. 227, tradução nossa). 
+Barnard (2003) explica que “a moda, entretanto, é diferente: logo que um item se exaure, 
+outro toma seu lugar e assim por diante”. Ele define que a moda é um ciclo de obsolescência 
+planejado. Na pós-modernidade, o desejo por outro modelo, o mais recente possível, é 
+instantaneamente satisfeito pelo ciclo da moda (BARNARD, 2003, p. 226). Esse ciclo sem fim 
+é definido por Baudrillard (1996, p. 79 apud BARNARD, 2003, p. 227, tradução nossa) como 
+uma “compulsão de inovar signos”. 
+Baudrillard (1996) afirma que a moda é sempre retrô, mas baseada na abolição do 
+passado: morte e ressurreição espectrais da forma. A sua atualidade é sempre uma reciclagem, 
+portanto, ela é o “não atual reciclado”. E como a moda é obcecada pelo novo, ela carrega um 
+desejo suicida que a atormenta e se concretiza quando ela atinge o seu apogeu 
+(BAUDRILLARD, 1996, p. 112, tradução nossa). 
+Faurschou (1988, p. 82 apud BARNARD, 2003, p. 226, tradução nossa) descreve a 
+sociedade pós-moderna como uma sociedade “dirigida para criar um desejo perpétuo de 
+necessidade, de novidade, de diferença sem fim”. Barnard (2003, p. 226) complementa: 
+Não é de se surpreender, portanto, que a moda seja considerada como tendo uma 
+afinidade especial com a pós-modernidade. Faurschou vai ao ponto de dizer que ‘na 
+pós-modernidade, a moda tornou-se a mercadoria par excellence’ (FAURSCHOU, 
+1988, p.82). Não fosse ela uma metáfora absolutamente modernista, e por isso 
+inadequada, poder-se-ia dizer que a moda e a pós-modernidade são igualmente 
+conduzidas pela máquina da diferença. 
+Barnard (2003, p. 83) menciona que na pós-modernidade, a beleza é simplesmente um 
+efeito da diferença codificada e lembra o comentário de Faurschou sobre Baudrillard, que se 
+refere à moda como “a epítome da sobrevivência cíclica do capitalismo, a celebração de uma 
+paixão perversa, fetichizada pelo código abstrato, à custa de qualquer investimento coletivo em 
+troca simbólica” (FAURSCHOU, 1988, p. 83, tradução nossa). 
+A obsessão pelo novo, a rápida obsolescência dos estilos, a fragmentação das tendências 
+e o fetiche pelo luxo, com o sistema de cópias e de disseminação das tendências, vão desafiar 
+
+
+---
+
+58 
+todos os atores do processo de desenvolvimento de coleções. Como ser original, ter sua própria 
+identidade e ter seus produtos desejados por um consumidor cada vez menos fiel e de gosto 
+influenciável? A moda, espírito do tempo, passou a misturar referências, combinando-as num 
+caleidoscópio visualmente rico e fragmentado. Essa liberdade de mistura de referências vai 
+influenciar o trabalho dos atores da moda nos dias de hoje. 
+ 
+2.1.6.  Era pós-industrial, globalização da economia e da técnica e mundialização da 
+cultura 
+ 
+Para inserir o panorama da moda contemporânea na era globalizada, é preciso 
+contextualizar os termos globalização, mundialização, termos esses que têm conotações e 
+significados distintos, segundo ilustres teóricos, alguns deles aqui citados.  
+Importantes transformações ocorreram nas últimas três décadas, afetando a vida dos 
+sujeitos em níveis profundos. Scarlett Marton em entrevista sobre o anticlímax da sociedade 
+contemporânea (CPFLCULTURA, 2012) lembrou que na década de 1990, iniciou-se uma 
+transformação na sociedade como um todo, que pode ser considerada a 3ª revolução, a 
+informacional, e com ela, surgira um sentimento crescente de uma sociedade planetária. 
+De todas as teorias que abordam a relação entre as mudanças tecnológica e econômica 
+que resultaram no processo cunhado de globalização, duas delas serão mais relevantes para esse 
+estudo: a sociedade em rede e os espaços de fluxos de Manuel Castells e a transformação 
+técnico-científico-informacional de Milton Santos, fundamentada no espaço como um 
+complexo de sistemas de objetos e de ações, nomeadamente, a unicidade da técnica, a 
+convergência dos momentos, a cognoscibilidade do planeta e a existência de um motor único 
+na história. Os outros autores, aqui citados, fundamentarão os conceitos que são pertinentes a 
+essa discussão (GARAY, 2005, p. 46).  
+Castells (1999b, p. 98) referindo-se à origem da tecnologia informacional, mencionou 
+que “a utilização dessas tecnologias nos anos 80 condicionou seus usos e trajetórias na década 
+de 1990”. Castells (1999b) lembra que, nos anos 1990 com a privatização da internet, a 
+tecnologia se tornou comercial. 
+Castells (1999a, p. 411) escreveu que  
+foi apenas no final do século XX que a economia mundial se tornou verdadeiramente 
+global, com base na nova infraestrutura propiciada pelas tecnologias da informação e 
+da comunicação, com a ajuda da política de desregulamentação e da liberalização 
+postas em prática pelos governos e pelas instituições internacionais. 
+
+
+---
+
+59 
+Castells (1999a, p. 411) define que economia global “é uma economia com capacidade 
+de funcionar como uma unidade em tempo real em escala planetária”. 
+Castells (1999a, p. 411) se refere a três grandes mudanças ocorridas na década de 1990: 
+a revolução da tecnologia, a economia informacional/global e a cultura da virtualidade real. 
+Esses três fatores convergiram para “uma redefinição histórica das relações de produção, poder 
+e experiência em que se baseia a sociedade [...] Essas transformações conduzem a uma 
+modificação também substancial das formas sociais de espaço e tempo e ao aparecimento de 
+uma nova cultura”. 
+Castells (1999a, p. 414) explica a economia globalizada que se formara nesse período: 
+Após o fim do estatismo como sistema, em menos de uma década o capitalismo 
+prospera no mundo e aumenta sua penetração nos países, culturas e domínios da vida. 
+Não obstante um panorama social e cultural bastante diversificado, pela primeira vez 
+na história, todo o planeta está organizado com base em um conjunto de regras 
+econômicas em grande parte comuns. É, todavia, um tipo de capitalismo diferente 
+daquele formado ao longo da Revolução Industrial ou do capitalismo resultante da 
+Depressão dos anos 30 e da Segunda Guerra Mundial, sob a forma de keynesianismo 
+econômico e ênfase no estado do bem-estar social. É uma forma de capitalismo com 
+objetivos mais firmes, porém com meios incomparavelmente mais flexíveis que 
+qualquer um de seus predecessores. É o capitalismo informacional, que consta com a 
+produtividade promovida pela inovação e a competitividade voltada para a 
+globalização a fim de gerar riqueza e apropriá-la de forma seletiva. 
+Surgiu uma nova forma de capitalismo, cujas características eram a globalização das 
+principais atividades econômicas, a flexibilidade organizacional e um maior poder para o 
+patronato em suas relações com os trabalhadores. A poderosa economia global, novos processos 
+de industrialização e o empoderamento dos países asiáticos formaram a base multicultural de 
+interdependência econômica que é a condição contemporânea (CASTELLS, 1999a). 
+Castells (1999a, p. 414) afirma que, mais do que nunca, este capitalismo informacional 
+está  
+inserido na cultura e é equipado pela tecnologia, mas, desta vez, tanto a cultura como 
+a tecnologia dependem da capacidade de conhecimentos e informação agirem sobre 
+conhecimentos e informação em uma rede recorrente de intercâmbios conectados em 
+âmbito global. 
+A mudança significativa do capitalismo keynesiano vinculado ao industrialismo 
+fordista, para um tipo de acumulação de capital flexível, foi objeto de várias teorias, entre elas 
+as de como explicado por David Harvey ao teorizar essa transição que se iniciou a partir dos 
+anos 1970. De acordo com Harvey (2001) e Swyngedouw (1986), a introdução de novas 
+tecnologias nos processos industriais permitiu a transição de um tipo de produção fordista, 
+baseada em economias de escala, para uma produção just-in-time, baseada em economias de 
+escopo, com fabricação em pequenos lotes. No fordismo, a produção era voltada para os 
+
+
+---
+
+60 
+recursos das firmas, enquanto na produção just-in-time, a produção é voltada para a demanda 
+de mercado.  
+Uma evolução ocorreu no trabalho dos sujeitos, pois no novo capitalismo, havia menos 
+especialização do trabalhador e a aprendizagem e a corresponsabilidade do trabalhador eram 
+valorizadas. Como ideologia, o consumo de massa da era fordista veio se individualizar. A 
+transição para esse novo capitalismo também significou a passagem do modernismo para o pós-
+modernismo e a individualização acabou por formar a sociedade do “espetáculo” (HARVEY, 
+2001, p. 169). 
+Com a revolução informacional, a vida dos sujeitos passou a ter mais velocidade. O 
+tempo se tornou relativo. Virtual ou real, o tempo passou por um processo de compressão.  
+O termo globalização está relacionado com o processo que é descrito por Castells 
+(1999a) como um conjunto de regras econômicas que está sendo a base da organização do 
+planeta. Esse novo processo, o qual Castells (1999a) chama de capitalismo informacional, 
+difere do capitalismo keynesiano por ser flexível, por estar inserido na cultura, por estar sendo 
+sustentado pela tecnologia e por estar intimamente ligado a uma corrente de informações que 
+flui na rede de intercâmbios em âmbito global. 
+Castells (1999a) define que as redes financeiras globais são o centro nervoso do 
+capitalismo informacional. Essas redes financeiras fazem parte de um mercado que, segundo 
+Castells (1999a, p. 420), é  
+manipulado e transformado por uma combinação de manobras estratégicas acionadas 
+por computadores, psicologia das multidões a partir de fontes multiculturais e 
+turbulências inesperadas causadas por graus cada vez maiores de complexidade na 
+interação entre os fluxos de capital em escala global. 
+Santos (2008, p. 239) define que “o meio técnico-científico-informacional14 é a cara 
+geográfica da globalização”. Esse meio assegura o funcionamento dos processos encadeados a 
+que se está chamando de globalização. 
+Para Santos, a mudança qualitativa e substancial que a sociedade contemporânea 
+experimenta se fundamenta na possibilidade técnica que se tem para conhecer e explorar tudo 
+em escala planetária. Assistimos assim à universalização de técnicas e ações, que permeiam 
+grande parte das dimensões da vida social (produção, intercâmbio, capitais) (SANTOS, 1996b 
+apud GARAY, 2005). Não é uma universalidade homogênea nem desafortunada, por ter 
+intenções claras de agentes hegemônicos, o que Santos identifica como uma “globalização 
+perversa”. Santos defende que mais que um espaço de globalização, existem espaços de 
+                                               
+14 O termo o meio técnico-científico-informacional cunhado por Milton Santos se refere à união da ciência, 
+tecnologia e informação em que os objetos técnicos tendem a ser ao mesmo tempo técnicos e informacionais. 
+
+
+---
+
+61 
+globalização, unidos por redes que não são nem maciças nem específicas, controladas física e 
+informacionalmente por uns poucos atores em seu próprio benefício Santos (1995, p. 13 apud 
+GARAY, 2005, p. 53). 
+Garay (2005,p. 47 ) explica que há críticas ao paradigma informacional proposto por 
+Castells (1996, p. 65), por representar uma ruptura histórica e por marcar um determinismo 
+tecnológico que penetra o centro da vida social e da mente dos sujeitos, enquanto a proposta de 
+Santos (2000, p. 34) defende que os objetos técnicos são apropriados de modo específico pelo 
+espaço técnico pré-existente. 
+Ambos os autores, Castells e Santos, veem a globalização como um processo perverso. 
+Santos defende que a unicidade das técnicas, na qual o computador é a peça central, possibilita 
+a existência de uma finança universal, responsável por impor ao globo “uma mais-valia 
+mundial” controlada pelos interesses de empresas e grupos hegemônicos (SANTOS, 2001, p. 
+24). 
+Castells (1999a) menciona que a globalização cria buracos negros e uma estratificação 
+social baseada no conhecimento, que cria pessoas excluídas no mundo, por não terem acesso à 
+tecnologia, que acabam criando redes de crime, o que ele denominou de conexão perversa. 
+Ortiz (2009) explica o porquê de ter separado os termos “globalização” do termo 
+"mundialização” relacionando o primeiro à economia e à técnica e o segundo à cultura, no âmbito 
+dos universos simbólicos. Ele distingue ainda internacionalização de globalização e 
+mundialização de nação. Ortiz (2009, p. 246) define internacionalização como uma mera extensão 
+das operações econômicas de uma empresa para além das fronteiras nacionais, enquanto 
+globalização seria um fenômeno de natureza qualitativamente nova. A globalização, segundo 
+Ortiz (2009), é como um conceito que se aplica à produção, à distribuição de bens e serviços, 
+organizados a partir de uma estratégia mundial, voltada para um mercado mundial.  
+Ortiz (2009, p. 241) menciona a “sociedade global” e uma “visão de mundo”, como um 
+universo simbólico específico da civilização atual, resultado da integração dos dois processos, 
+a globalização da economia e a mundialização da cultura. 
+Ortiz (2009, p. 246) defende que não haveria uma “cultura global” ou uma “identidade 
+global”, pelo simples fato de que a unicidade postulada no plano econômico e tecnológico seria 
+imprópria para se compreender a dimensão cultural contemporânea. Segundo ele, os dois 
+conceitos, mundialização da cultura e globalização da economia e da técnica são úteis para 
+explicar a diversidade cultural, hoje tão controversa. 
+Warnier (2003), ao escrever sobre a mundialização da cultura, defende que não há uma 
+convergência das culturas do mundo inteiro para um modelo único, nem uma unificação do 
+
+
+---
+
+62 
+planeta pela “cibercultura”. Warnier (2003, p. 34, tradução nossa) acredita na fragmentação 
+cultural, que descreve dessa forma: 
+A humanidade é constitutivamente destinada a produzir clivagens sociais, reservas de 
+grupos, distinção cultural, modos de vida e de consumo muito diversos, em suma, que 
+ela continua a ser uma formidável máquina de produzir a diferença cultural, a despeito 
+de todos os processos que agem em sentido contrário [...] a cultura é sempre particular 
+e local, em função do isolamento e da distinção dos grupos. Por outro lado, ela se 
+agrega, em função da disposição em rede das comunidades locais e suas 
+recomposições. 
+Os significados dos conceitos de globalização, ordem global e ordem local, devem ser 
+elucidados para que o contexto da moda contemporânea seja compreendido e os processos de 
+desenvolvimento de coleções levem em consideração os novos paradigmas. Parece óbvio, nas 
+nem sempre é o que acontece no setor. A pesquisa de tendências é baseada em referências 
+internacionais, que raramente são traduzidas para os gostos regionais, ou seja, não são 
+“nativizadas”. 
+ 
+2.1.7. O global e o local 
+ 
+Mondardo (2012) explica os conceitos de “coexistência espacial” e de “trânsito 
+identitário”, no contexto da América Latina, da seguinte forma: 
+Torna-se comum, hoje, no contexto latino-americano discutir a diferença, a 
+identidade, a alteridade, a cultura, a desterritorialização dentre outros termos/noções 
+que emergem e transbordam na academia, na mídia e na sociedade para representar, 
+via de regra, a ‘falta’ de identificação das pessoas com as culturas e os lugares em um 
+mundo em constante e acelerada mutação. Essa mutabilidade de nosso tempo e espaço 
+diz respeito a um conjunto de transformações econômicas, políticas e culturais 
+vivenciadas, que alguns referendam como resultado da relação entre o local e global  
+(SOUSA SANTOS, 2005), à reestruturação do capitalismo na sua “era de servidão 
+financeira” (OLIVEIRA, 2007), ou, que estão associados às várias crises propaladas, 
+seja do trabalho, financeira, ambiental, do Estado, da ética, dos valores e, ainda, 
+ligados aos fenômenos da globalização como a “compressão tempo-espaço” 
+(HARVEY, 1994), “alongamento espaço-temporal” (GIDDENS, 1991) e “aceleração 
+da história” (SANTOS, 2006). No contexto da economia globalizada, é importante 
+distinguir o conceito de global e do conceito de local.  
+Milton Santos explica que a ordem global é “desterritorializada” (separa o centro da 
+ação) enquanto a ordem local é “reterritorializada” (reúne numa mesma lógica todos os seus 
+elementos). A ordem global impõe um sistema racional e organizado. A ordem local é orgânica, 
+pois os objetos são regidos pela interação. Na primeira, prima a informação. Na segunda, prima 
+a comunicação, garantida pelo “cotidiano imediato localmente vivido de homens, empresas, 
+instituições, formas sociais e jurídicas e formas geográficas” (SANTOS, 2008, p. 272). 
+Para Santos (2008, p. 273), “cada lugar é, ao mesmo tempo, objeto de uma razão global 
+e de uma razão local, convivendo dialeticamente”. Há uma relação íntima entre ambas. 
+
+
+---
+
+63 
+Warnier (2003) explica que a globalização dos mercados também implica numa 
+concorrência entre todas as empresas que produzem bens culturais no mundo. Segundo ele, essa 
+concorrência provoca debates interessantes tais como: “Como múltiplas culturas singulares, as 
+culturas tradicionais e locais, reagem diante de tal invasão? Por outro lado, a globalização 
+significaria a americanização generalizada do planeta”?. 
+Reaparece a relação com a hegemonia americana por meio de uma interpretação da 
+globalização como uma “colonização” cultural dos Estados Unidos em todo o planeta. 
+Suzana Avelar (AVELAR, 2011) explica a proposta de Hardt e Negri (2004) sobre a 
+dinâmica do Império, no que diz respeito a hegemonia e influência dos Estados Unidos sobre 
+os países desfavorecidos, numa nova configuração sem fronteiras e desterritorializada. Avelar 
+(2011, p. 85) explica que a cultura, nesse contexto, “pode tornar-se internacional, sem que adote 
+um cunho imperialista”. Segundo Avelar (2011), isso se explica pelo fato de que nossas vidas 
+são afetadas pelos organismos supranacionais, pela desmaterialização da vida real e pela crise 
+de identidade, por estarmos inseridos numa dinâmica desterritorializada e pluralizada. 
+ 
+2.1.8. A compressão do Tempo e a Moda espírito do tempo 
+ 
+A aceleração de “praticamente tudo” teve como consequência a compressão do tempo 
+até um ponto que ele pareceu desaparecer.  
+“As sociedades contemporâneas estão em grande parte dominadas pelo conceito do tempo 
+cronológico”, explica Castells (1999b, p. 523). O domínio do tempo cronológico sobre o espaço e 
+a sociedade é um tema desenvolvido por Harvey, Lash, Urry e Giddens. Castells (1999b, p. 523) 
+defende a teoria de um tempo intemporal, quando se refere ao limiar do eterno. Nessa nova 
+sociedade, a transformação do tempo, regida pelo paradigma tecnológico, está sujeita ao espaço de 
+fluxos. 
+Castells (1999a, p. 426) explica que do 
+paradigma informacional surgiu uma nova cultura a partir da superação dos lugares e 
+da invalidação do tempo pelo espaço de fluxos e pelo tempo intemporal: a cultura da 
+virtualidade real [...]. O tempo intemporal, como tendência social rumo à invalidação 
+do tempo pela tecnologia, supera a lógica do tempo cronológico da era industrial. 
+O tempo linear e mensurável está fragmentado na sociedade em rede, numa 
+transformação profunda: é a mistura de tempos para criar um universo eterno, um tempo 
+intemporal que se utiliza da tecnologia para apropriar valores que se encaixem no contexto de 
+um presente que parece eterno (CASTELLS, 1999b, p. 526). 
+
+
+---
+
+64 
+Harvey (2001) fala da compressão do tempo-espaço e a associa à própria aceleração 
+provocada pela era digital e a nova ordem econômica. Esta última, associada a aceleração da 
+produção, o just-in-time, como os processos de trabalho, provocou uma outra aceleração na 
+troca e no consumo das mercadorias (HARVEY, 2001, p. 257). Os mercados financeiros se 
+aceleraram e em 24h muita coisa pode acontecer no mercado de ações globais. 
+Harvey (2001, p. 258) explica um importante desenvolvimento, na contemporaneidade, 
+se referindo à aceleração generalizada do consumo da nossa era: 
+A mobilização da moda em mercados de massa (em oposição a mercados de elite) 
+forneceu um meio de acelerar o ritmo do consumo não somente em termos de roupas, 
+ornamentos e decoração, mas também numa ampla gama de estilos de vida e 
+atividades de recreação [...]. Dentre as inúmeras consequências dessa aceleração 
+generalizada dos tempos de giro do capital, destacarei as que têm influência particular 
+nas maneiras pós-modernas de pensar, sentir e de agir. 
+Com isso, para Harvey (2001), a aceleração generalizada teve consequências nas 
+denominadas formas pós-modernas de pensar, sentir e agir. Essa sensação de que tudo que é 
+sólido se desmancha no ar, teve efeito na acentuação da volatilidade das escolhas, na 
+efemeridade de modas, produtos, técnicas de produção, processos de trabalho, ideias e 
+ideologias valores e práticas estabelecidas (HARVEY, 2001). Harvey (2001, p. 258) menciona 
+“a sociedade do descarte” cunhada por Alvin Toffler em 1970. Valores antes sólidos como os 
+de relacionamentos, pessoas, edifícios e estilos de vida passaram a ser jogados fora.  
+Outra visão do tempo, citada por Evans (2003, p. 22), é o conceito de momento, na 
+teoria de (BENJAMIN, 1973). No conceito de temporalidade histórica, segundo Benjamin, este 
+tempo presente, ou o Jetztzeit, foi traduzido como o “aqui e agora” ou o now-time. 
+(BENJAMIN, 1973) concebeu essa noção de tempo como uma relação dialética: os motivos do 
+passado e do presente funcionam como tese e antítese. “Não é que o passado ilumine o presente 
+ou que o presente ilumine o passado; as duas imagens surgem como uma ‘constelação crítica’, 
+traçando uma conexão oculta entre elas” (BENJAMIN, 1973, p. 22). O flash de reconhecimento 
+entre o passado e as imagens do presente formam a imagem dialética que transforma ambos.  
+Evans (2003) se refere ao “aqui e agora” por ser relevante para explicar os retornos 
+históricos da moda contemporânea “constituindo uma rede de constelações históricas em que 
+ambos, passado e presente, são aumentados telescopicamente juntos”. Evans (2003) cita Michel 
+Serres e Lynda Nead, que definiram a moda do fim do século XX como um tempo que está 
+aglutinado como um tecido plissado onde as múltiplas pregas estão superpostas.  
+Lynda Nead desenvolveu a ideia de que a ‘modernidade pode ser compreendida como 
+um conjunto de discursos e processos que estão necessariamente amarrados a 
+construção do passado’. Assim, a moda, enquanto ostensivamente um paradigma da 
+novidade e da inovação, é de fato, amarrada pelas próprias condições históricas que a 
+produziram (NEAD, 2000, p. 8 apud EVANS, 2003, p. 20, tradução nossa). 
+
+
+---
+
+65 
+A moda proclama o “espírito do tempo”, e assim reflete as mudanças na sociedade, 
+analisando pessoas, aspirando perspicazes transformações a sua volta, promovendo uma 
+reflexão sobre a apreensão do tempo. 
+É válido citar o exemplo do filme “Dior and I”, em que o estilista Raf Simons traduz o 
+estilo icônico de Dior para o tempo presente. Simons imagina como a mulher contemporânea 
+urbana desejaria unir sua feminilidade à liberdade de movimentos e atitudes. Assim, interpreta 
+a silhueta de ampulheta, mudando suas proporções, projetando uma blusa usada com uma calça.  
+No nível do projeto de produto, as equipes de estilistas e projetistas de moda poderiam 
+se valer dessa possibilidade de apreensão do “espírito do tempo” e do “aqui e agora” para criar 
+o projeto de coleção com grande liberdade de escolha e muitas possibilidades a explorar. 
+ 
+2.2. 
+A ERA DIGITAL E SUA INFLUÊNCIA NOS MODOS DE CONSUMO DE MODA 
+ 
+O paradigma de uma nova sociedade se formou, tendo seus alicerces na revolução da 
+tecnologia da informação. Essa nova visão de mundo teve um enorme impacto no modo de 
+planejar as coleções, pesquisar as tendências e projetar os produtos, de maneira que o trabalho 
+dentro das equipes de criação e de desenvolvimento de produto se tornou mais complexo. 
+Portanto, é válido contextualizar o que surgiu a partir dessa transformação. 
+No seu texto Dilúvios, Lévy (1999, p. 13), filósofo francês radicado no Canadá, um dos 
+maiores expoentes no campo de estudos da mídia cibernética, refere-se a uma entrevista nos 
+anos 50, em que Albert Einstein reconheceu a explosão de três bombas: a bomba demográfica, 
+a bomba atômica e a bomba das telecomunicações, denominada de “segundo dilúvio”, o das 
+informações. Lévy (1999) acrescenta que “as telecomunicações geram esse novo dilúvio por 
+conta da natureza exponencial, explosiva e caótica de seu crescimento. A quantidade bruta de 
+dados disponíveis se multiplica e se acelera”.  
+No seu livro Cibercultura, Lévy (1999) traça suas percepções sobre o crescimento do 
+ciberespaço – o novo meio de comunicação que surge da interconexão de computadores - e o 
+consequente surgimento da cibercultura. Segundo ele, “a cibercultura expressa o surgimento de 
+um novo universal, diferente das formas que vieram antes dele no sentido de que ele se constrói 
+sobre a indeterminação de um global qualquer” (LÉVY, 1999, p. 15). Trata-se de um “novo 
+dilúvio”, provocado pelos avanços tecnológicos das telecomunicações, em especial, o advento 
+da internet.  
+Os conceitos de cibercultura e de ciberespaço são centrais na obra de Lévy e deles 
+derivam todas as suas reflexões. Lévy (1999) trouxe uma discussão acerca do que a cibercultura 
+
+
+---
+
+66 
+representa hoje para a sociedade. Segundo o filósofo, “o crescimento do ciberespaço resulta de 
+um movimento internacional de jovens ávidos para experimentar coletivamente, formas de 
+comunicação diferentes daquelas que as mídias clássicas nos propõem” (LÉVY, 1999, p. 11). 
+O ciberespaço, cunhado pelo escritor William Gibson, marcou o início da era digital 
+(SCALZO; HARA, 2009). Castells (1999b, p. 80) menciona que o lançamento do Macintosh 
+da Apple em 1984, “foi o primeiro passo rumo aos computadores de fácil utilização, com a 
+introdução da tecnologia baseada em ícones e interfaces com o usuário”. Castells (1999b, p. 98) 
+afirma que, se em 1970 houve uma disponibilidade de novas tecnologias constituídas como um 
+sistema, foi em 1980 que se criou uma base fundamental para o processo de reestruturação 
+socioeconômica. Castells (1999a, p. 412) explica que as novas tecnologias da informação 
+desempenharam um papel decisivo nessa reestruturação ao facilitarem o surgimento de um 
+capitalismo flexível e rejuvenescido. 
+Castells (1999b, p. 68, tradução nossa), escreveu, em A Rede e o Ser que “vivemos em 
+um mundo que, segundo Nicholas Negroponti, se tornou digital”. Ele se referiu a transformação 
+ocorrida nas duas últimas décadas do século XX, definindo essa era como uma verdadeira 
+revolução, comparável à revolução industrial nos séculos XVIII e XIX, influenciando a 
+economia, a cultura e a sociedade. A era digital é caracterizada pela convergência tecnológica 
+e pela informatização total das sociedades contemporâneas  
+Castells (1999b, p. 69, tradução nossa) explica que 
+o que caracteriza a atual revolução tecnológica não é a centralidade de conhecimentos 
+e informação, mas a aplicação desses conhecimentos e de dispositivos de 
+processamento, comunicação da informação em um ciclo de realimentação 
+cumulativo entre a inovação e seu uso. 
+Castells (1999b, tradução nossa) ainda afirma que esse “ciclo de realimentação entre a 
+introdução de uma nova tecnologia, seus usos e seus desenvolvimentos em novos domínios 
+torna-se muito mais rápido no novo paradigma tecnológico”. 
+A velocidade dessa realimentação é tão rápida que um novo software pode ser lançado 
+“atrasado” em relação a outro que já tem incorporado as funcionalidades que ele propõe e até 
+mesmo o nome de alguns desenvolvimentos se tornam rapidamente substituídos por outros com 
+versões mais “adiantadas”. 
+Lévy, no prefácio do livro Cibercultura de André Lemos (LEMOS, 2015, p. 15), fala 
+que a  
+Internet é um espaço de comunicação propriamente surrealista, do qual ‘nada é 
+excluído’, nem o bem, nem o mal, nem suas múltiplas definições, nem a discussão 
+que tende a separá-los sem jamais o conseguir. A Internet encarna a presença da 
+humanidade a ela própria, já que todas culturas, todas as disciplinas, todas as paixões 
+
+
+---
+
+67 
+aí se entrelaçam. Já que tudo é possível, ela manifesta a conexão do homem com a sua 
+própria essência, que é a aspiração à liberdade. 
+A rede é a Babilônia da nossa era. Há uma aspiração à liberdade real e a prova disso é a 
+revolução que se formou no oriente, a partir da mobilização das massas nas redes sociais. O 
+terrorismo se expande pela rede invisível. As inverdades também proliferam em instantes, 
+destruindo reputações. A liberdade tão desejada é discutível e relativa, se concluirmos que 
+grupos hegemônicos estão controlando os fluxos das informações e que a privacidade de cada 
+sujeito já não existe mais. 
+Avelar (2011, p. 93) se refere à economia atual globalizada como uma economia 
+informacional tecnológica na qual existem centros controladores. Avelar (2011) explica que 
+esses centros são chamados de “nós”, que transmitem digitalmente informações por conexões 
+ou “espaços de fluxos”, como Castells (1999a, p. 412) os chamou, com isso, “a cultura das 
+diversas localidades sofre a influência das relações globais, formadas pela ligação em rede de 
+inúmeras localidades”. 
+Lemos (2015), fala da mudança de paradigma em que estamos vivendo onde os celulares 
+e outros dispositivos móveis estão conectados de forma a mudar o panorama das cidades e as 
+relações das pessoas. Lemos (2015), define que essa era da conexão está relacionada com a 
+mobilidade.  
+A era da informação, caracterizada pela convergência tecnológica e pela 
+informatização total das sociedades contemporâneas (CASTELLS, 1996 apud. 
+LEMOS, 2005) passa hoje por uma nova fase, a dos computadores coletivos móveis, 
+que chamaremos aqui de “era da conexão” (WEINBERGER, 2003 apud LEMOS, 
+2005), caracterizando-se pela emergência da computação ubíqua, pervasiva 
+(“pervasive computing”, permeante, disseminada) ou senciente (LEMOS, 2015, p. 1). 
+Cria-se, na era da conexão, um ambiente de acesso e troca de informações que envolve 
+os usuários. A fase atual da computação ubíqua, dos objetos sencientes, dos 
+computadores pervasivos e do acesso sem fio mostra a emergência da era da conexão 
+e da relação cada vez mais intrínseca entre os espaços físicos da cidade e o espaço 
+virtual das redes telemáticas. O desafio da gestão informacional, comunicacional e 
+urbanística das cidades passa pelo reconhecimento dessa era da conexão e da 
+mobilidade (LEMOS, 2015, p. 16). 
+A pesquisadora de tendências em consumo Anne-Elise Kjaer (KJAER, 2015) explica 
+que, das 8 principais tendências de consumo para 2020, a transformação digital é uma das mais 
+impactantes. Os jovens ávidos a que Lévy se referiu foram denominados por Kjaer (2015) de 
+“nômades leves”, se referindo ao fato de que os “millennials”15 enxergam o mundo sem 
+fronteiras. Segundo Kjaer (2015), 
+esses cidadãos móveis, globais, exímios conhecedores da tecnologia, são 
+influenciadores e tornam-se vitais para fazerem parte da comunidade das empresas 
+                                               
+15 millenials ou Geração Y, é a geração das pessoas que nasceram após os anos 80, são as pessoas conhecidas 
+também por serem chamadas de geração do milênio ou geração da Internet, que surgiu exatamente por essa 
+época. 
+
+
+---
+
+68 
+como clientes ou empregados. Está estimado que eles se tornarão metade da força de 
+trabalho e da maioria dos negócios internacionais até 2020. 
+Kjaer (2015) explica que o número de dispositivos conectados à internet já ultrapassou 
+o número de pessoas no planeta. Previsões indicam que em 2020, de 50 a 70 bilhões de 
+dispositivos estarão conectados com o advento da Internet das Coisas.16  
+Consultora de grandes empresas europeias, Kjaer (2015) as aconselha a não só usar 
+ferramentas digitais para se comunicar com seus consumidores, mas usá-las positivamente para 
+fazer uma diferença positiva em suas vidas. Isso quer dizer, propor plataformas de multicanais 
+acessíveis que tragam benefícios tangíveis aos clientes. Portanto, uma empresa para ser 
+reconhecida em nível local e global precisará ter “Criatividade Digital” e isso Kjaer (2015) 
+define que se trata de fazer uma diferença positiva na vida dos sujeitos. 
+Kjaer Global (2014, tradução nossa) explicou a linha do tempo da evolução digital: 
+2013 e 2014 foram os anos de avanços em tecnologia vestível e de auto 
+monitoramento. Em 2015, os sensores com tecnologia de baixo custo abasteceram a 
+Internet Of Things e a conectividade se ampliou. Em 2016, o wifi se tornou 5 vezes 
+mais rápido. Em 2017, a Near Field Communications se tornará comum, fazendo com 
+que seu celular seja a única ferramenta que você precisa ter para resolver sua vida. 
+Em 2018, Long-Term Evolution 4G penetrará toda a América do Norte. Em 2019, na 
+Europa ocidental, a LTE chegará a ter 50% de penetração e o tráfego dos smartphones 
+aumentará 7 vezes em relação a 2013. Em 2020 os dispositivos Mini Me e os 
+dispositivos vestíveis de proteção serão indispensáveis. 
+Onde vamos chegar? Imaginemos um cenário onde tudo estará conectado: celulares, 
+produtos vestíveis e dispositivos que conversam com o ambiente e uns com os outros, 
+facilitando uma nova compreensão do comportamento do usuário e sua necessidade, enquanto 
+preveem seu próximo movimento e ainda sugerem opções e soluções. Redes vivas, as cidades 
+inteligentes do futuro terão ofertas em tempo real. Essas cidades do futuro serão organismos 
+vivos que agirão como redes inteligentes e automatizadas de distribuição entre edifícios, 
+transportes, bens, produtos e serviços, conectando pessoas e negócios instantaneamente.  
+Em relação ao modo de projetar as coleções, a cadeia de suprimentos e os atores do 
+desenvolvimento de produto dentro e fora das empresas poderão estar conectados de forma a 
+criar seu próprio ecossistema como um ente vivo formado pela participação de todos, 
+reproduzindo o modelo das cidades inteligentes. 
+                                               
+16 A Internet das coisas é uma revolução tecnológica que representa o futuro da computação e da comunicação e cujo 
+desenvolvimento depende da inovação técnica dinâmica em campos tão importantes como os sensores wireless e 
+a nanotecnologia. Os avanços ao nível da miniaturização e da nanotecnologia significam que cada vez mais 
+pequenos objetos terão a capacidade de interagir e se conectar. A combinação destes desenvolvimentos criará uma 
+Internet das Coisas (Internet of Things) que liga os objetos do mundo de um modo sensorial e inteligente. 
+(MASTER NEWS, 2016). 
+
+
+---
+
+69 
+Derrick de Kerckhove (IMBESI, 2010, p. 129) explica que a própria tecnologia é um 
+produto do design, que por sua vez, o retribui oferecendo novas ferramentas ao design, não só 
+por meio de simulação, mas também por meio de ferramentas cognitivas e conectivas. 
+Sempre pensamos que o design dependia da cognição, mas podemos descobrir para 
+nosso assombro que a cognição é dependente do design. O Design e a Tecnologia são 
+como irmãos siameses que não podem se separar. Toda tecnologia é o resultado de 
+um design paciente que evolui com recursos científicos e materiais. Ao contrário, a 
+tecnologia afeta o design ao criar sua própria mentalidade. 
+Essa influência da tecnologia no design e do design na tecnologia é nítida nos artefatos 
+contemporâneos de todas as áreas. Em 2011, numa exposição no Museu Victoria & Albert, em 
+Londres, intitulada The Power of Making, pôde-se perceber as grandes mudanças na arte do 
+“making”, ou seja, na arte de fazer artefatos. Falando da cultura material, o curador Daniel 
+Charny (CHARNY, 2011) explica que as sutilezas do “making” deveriam ser parte da nossa 
+cultura e ignorá-las poderia nos levar a grandes perdas em valor. “As artes não deveriam estar 
+separadas da ciência, tecnologia, engenharia e matemática”, Charny (2011, p. 7, tradução nossa) 
+conclui17. 
+A prova disso é que existem iniciativas de cocriação por meio de tecnologias digitais. 
+Um certo movimento de do-it-yourself protagonizado por artesãos amadores, cocriadores e 
+prosumers18 está surgindo a partir do aumento da acessibilidade dos softwares de open-source, 
+design digital, prototipagem rápida e outras ferramentas.  A cocriação ou codesign é a 
+colaboração do consumidor com marcas e produtores, invertendo a ordem top-down (de cima 
+para baixo) dos setores têxteis e de moda de ofertar algo. Esse nível de interatividade dá o 
+controle na mão do artesão ou designer e o artesão pode ser o próprio consumidor (SAW, 2012, 
+p. 42). 
+“Codesign é uma nova forma de interagir com pessoas e materiais”, diz Jen Ballie 
+(SAW, 2012, tradução nossa), doutoranda da Chelsea College of Arts and Design. “A rede e as 
+plataformas online estão influenciando essa mudança junto com a democratização das 
+ferramentas de design. Antes era necessário um produtor para fabricar as coisas. Agora existem 
+os laboratórios e bureaux de impressão para produzir protótipos”. A Figura 3 é exemplo de um 
+Fab Lab, laboratório de fabricação de protótipos em 3 dimensões. 
+Qual a influência dessa transformação no sistema da moda?  “O que diferencia a 
+atualidade é o volume de informação que podemos obter quase simultaneamente, graças aos 
+                                               
+17 Essa discussão será retomada nos capítulos seguintes. 
+18O termo prosumer, de acordo com Toffler, deriva da união de duas palavras antagônicas a princípio: produtor e 
+consumidor (Produtor – Producer; Consumidor – Consumer). Esses consumidores além de interferir na forma 
+de produção, também poderiam customizar seus produtos. 
+
+
+---
+
+70 
+meios de comunicação, em especial, os digitais”, explica (AVELAR, 2011, p. 102). “A 
+velocidade com que a indústria da moda se apropria do comportamento não nos dá tempo de 
+perceber o surgimento de novos dados, em razão das tecnologias digitais” (AVELAR, 2011, p. 
+102). 
+ 
+Figura 3 - Exemplo de Fab Lab 
+ 
+Fonte: Fab Lab Ajaccio (c2015). 
+ 
+No contexto geral, nenhuma mudança foi tão radical como o processo de globalização 
+e a disseminação da informação por meios digitais. Seu consequente impacto sobre os modos 
+de vida dos sujeitos gerou tamanha volatilidade das escolhas e dos desejos, que acabou por 
+exigir uma resposta das grandes empresas da indústria da moda.  
+A prova disso é o lançamento de softwares sofisticados para a indústria da moda. As 
+empresas de tecnologia têm que lançar versões mais sofisticadas e mais amigáveis, fáceis de 
+utilizar, a cada ano. Colhem informações do usuário final, descobrem a necessidade de novas 
+funcionalidades e desenvolvem suas tecnologias rapidamente antes que entrem na 
+obsolescência. A concorrência é tão grande que uma empresa rival pesquisa, desenvolve e lança 
+algo mais avançado em pouco tempo.  
+Em alguns casos, as empresas grandes, como a própria Inditex, podem ter seu setor de 
+P&D interno com especialistas criando sistemas para conseguir dar suporte a todos os níveis de 
+
+
+---
+
+71 
+processos do ciclo do produto. Isso faz com que a tecnologia desenvolvida fique interna e mais 
+protegida.  
+Existem vários fatores que impulsionaram o desenvolvimento de novas tecnologias 
+digitais para a indústria da moda. A necessidade de desenvolver uma inteligência de negócios 
+é uma delas. As análises de mercado para fins de previsão de vendas hoje têm uma importância 
+tão grande que as empresas formam departamentos de analistas de consumo equipados de 
+tecnologias específicas para este fim.  
+Cietta (2017, p. 404) em seu mais recente livro, A Economia da Moda, explica que a 
+abordagem do marketing e o estudo do comportamento nas indústrias culturais mudaram e o 
+setor de moda também mudou como consequência.  
+Enquanto no passado se buscava entender o perfil do cliente para conhecer os hábitos 
+de consumo, hoje se estudam os hábitos de consumo para definir os perfis dos clientes 
+[...] Assim a venda não é mais o resultado de uma coleta de informações sobre o 
+cliente; é a venda em si que incorpora uma informação que pode ser transformada em 
+venda futura (CIETTA, 2017, p. 404). 
+Segundo Cietta (2017), os sistemas de previsão de moda ainda estão sendo calculados por 
+variáveis proporcionais às estatísticas. Ele dá o exemplo da Zara, que em vez de pensar em ofertas 
+que agradem aos consumidores, procura incorporar as escolhas dos usuários às suas ofertas.  
+Um fato que comprova esse ponto ocorreu quando importante profissional da empresa 
+Inditex, detentora da cadeia Zara, deu uma palestra sobre as particularidades da empresa que a 
+levaram ao sucesso19. A autora deste estudo teve a oportunidade de perguntar a palestrante quais 
+eram as tecnologias empregadas para a análise da demanda dos produtos nas lojas da Zara. A 
+resposta dada foi que a empresa investe em profissionais que têm o feeling do que vai vender, 
+além de usar softwares para análise das vendas nas lojas. 
+Se por um lado, a empresa Inditex se vale do talento pessoal de profissionais da moda, 
+que são devidamente antenados para tudo que será o next big thing, ou seja, o próximo produto 
+de sucesso, o avanço em tecnologias digitais feitas para  as cadeias de varejo de moda 
+transnacionais, como por exemplo, para a Inditex, permitem que a informação do que é vendido 
+chegue às centrais de criação em pouco tempo e a reação de projetar um novo produto com as 
+características dos produtos bem vendidos é imediata. Assim os próprios dispositivos de leitura 
+RFID (Radio-Frequency Identification), hoje amplamente empregados em automação 
+industrial, podem ler o estoque de toda uma loja em pouquíssimo tempo no final do dia. Esses 
+leitores alimentam os bancos de dados integrados a eles, que, por sua vez, geram relatórios de 
+                                               
+19 Seminário em Inovação e Novos Negócios, sugerido pela Profa. Dra. Luciane Ortega no 1° semestre de 2016. 
+
+
+---
+
+72 
+estoques. Esses relatórios diários, são verdadeiros mananciais de informações das escolhas dos 
+consumidores.  
+A evolução das novas tecnologias para prever a demanda do consumo poderá chegar em 
+breve a prever o que o cliente quer, de modo direto ou indireto, ao ponto de ter um produto sob 
+medida (CIETTA, 2017, p. 406). Uma grande tendência de participação do consumidor no 
+processo criativo dos produtos culturais de moda depende grandemente das tecnologias digitais. 
+Como exemplo, o design de uma roupa em 3D, hoje realizado através de softwares específicos 
+para as indústrias de moda, poderá, num futuro próximo, ser aberto para o uso do próprio 
+consumidor, num fenômeno de cocriação que (KOTLER; KARTAJAYA; IWAN, 2010) 
+denominou de marketing 3.0, um processo que conta com a participação do consumidor no 
+processo de criação. 
+Outro fator de influência das tecnologias digitais na moda é o desenvolvimento do e-
+commerce. Cietta (2017, p. 400) explica que muitos não acreditavam no progresso da compra 
+online neste mercado dos produtos de moda, pela particularidade de que a roupa tem que ser 
+provada e tocada. Contrariamente a opinião dos céticos, o e-commerce cresceu e hoje é um 
+importante canal de distribuição de produtos da maioria das marcas. Com os altos preços de 
+aluguéis e luvas em shopping centers, esse canal é uma forma de reduzir custos. 
+Se por um lado, na economia globalizada, as empresas transnacionais têm maiores 
+oportunidades de investir em novas tecnologias digitais que permitam a previsão rápida da demanda 
+de consumo, a necessidade de adequação da sua estrutura em grande escala para um novo tipo de 
+produto que exige novos processos de produção, as coloca em desvantagem em relação a empresas 
+pequenas, que, segundo Cietta (2017, p. 408), têm flexibilidade e a disponibilidade à mudança, 
+graças a uma estrutura que dispõe de processos e pessoas velozes em mudança e adaptação. Essa 
+nova estrutura não é obtida sem a introdução de ferramentas de gestão da mudança e sem a 
+capacitação de pessoas numa nova forma de pensar e de projetar o produto. 
+ 
+2.3. 
+A COMPLEXIDADE DA CADEIA DE VALOR TÊXTIL NO CONTEXTO 
+GLOBALIZADO  
+ 
+Os paradigmas mencionados anteriormente, afetaram a sociedade como um todo, o 
+consumo, o trabalho, as relações humanas e foram eles que formaram o alicerce sobre o qual a 
+moda contemporânea, como produto cultural criativo, se manifestou. Como mencionado antes 
+por Harvey (2001), o capitalismo flexível agiu nas maneiras pós-modernas de pensar, de sentir 
+e agir. Com isso, um novo paradigma no mecanismo da moda surgiu: a moda de consumo tal 
+
+
+---
+
+73 
+como ela é industrializada nos dias de hoje. Calanca (2008, p. 190) explica “a fragmentação da 
+moda reflete a fragmentação cultural do pós-moderno”. 
+Essa fragmentação da moda teve um impacto na forma projetual de fazer as coleções. 
+Dos anos 80 para cá, o desenvolvimento de coleções se transformou radicalmente de modo que 
+as implicações desses novos paradigmas anteriormente mencionados criaram uma tal 
+complexidade que é necessário compreender o contexto onde estamos para traçar soluções 
+relativas a metodologias e processos de coleções.  
+Ortiz (2009) explicou que no passado, durante a era do Fordismo, o importante era fabricar 
+em altos volumes produtos que eram praticamente padronizados. Ele compara aquele tempo com 
+o momento atual, em que uma empresa tem que produzir produtos especializados em 
+determinados segmentos de mercado, com incorporação de novas tecnologias para poder se 
+diferenciar das outras, ao mesmo tempo que precisa pensar em baratear sua produção. Ortiz 
+(2009, p. 237) escreve que “a passagem do fordismo para o capitalismo flexível determinaria uma 
+mudança nas atitudes do consumo em escala mundial”. O mesmo aconteceu nas atitudes do 
+consumo de moda. 
+Crane (2000, p. 269, tradução nossa) explicou a moda contemporânea num contexto de 
+mercado global:  
+No final do século XX, a moda não se origina mais exclusivamente em Paris ou 
+Londres ou até mesmo na indústria da moda. Milhares de organizações em inúmeros 
+países produzem uma vasta variedade de escolhas para o consumidor.  O 
+desenvolvimento de uma mídia eletrônica poderosa com uma penetração de audiência 
+enorme e uma produção de imagens pós-modernas mudaram a difusão da moda e 
+redefiniram os tópicos da democratização.  As mudanças sociais e econômicas que 
+deram origem às sociedades pós-industriais alteraram o significado do vestuário de 
+moda e dos bens de consumo em geral. 
+A questão levantada por Crane (2000) é como a natureza das organizações de moda 
+afeta o que está disponível para os consumidores e como, em troca, certos tipos de 
+consumidores influenciam o que é definido como moda. Primeiramente ela explica:  
+Desde a década de 1960, a diversificação dos gêneros de moda multiplicou o número 
+e a visibilidade de estilistas da moda de luxo e em outros países, tornando a moda de 
+Paris menos dominante, ao mesmo tempo que outros polos de lançamento de moda 
+cresceram em importância [...] Desde então, mudanças na essência das empresas do 
+mundo da moda, além de um gigantesco crescimento no número de organizações que 
+fazem parte desse mercado,  têm produzido um cenário cada vez mais turbulento, que 
+afeta a natureza da inovação na moda e sua mudança (CRANE, 2000, p. 270, tradução 
+nossa). 
+Uma conjunção do entorno onde os produtos são vendidos e o ambiente da empresa 
+onde eles são criados é o que vai determinar as características do produto cultural de moda. O 
+tamanho da indústria influencia no nível de inovação, sendo que nas empresas grandes o nível 
+de inovação e de qualidade estética não é tão valorizado por gestores somente focados em lucro. 
+
+
+---
+
+74 
+São as pequenas e médias indústrias que têm o entorno favorável para que o criador faça sua 
+proposta inovadora, mesmo que seja um risco a assumir. 
+Crane (2000, p. 273) explica que a “moda de classe”, modo a que se referiu à moda 
+ditada pela alta costura até o início do século XX, acabou por ser substituída pela “moda de 
+consumo”, mais orientada para gostos e interesses de grupos sociais de todos os níveis. Essa 
+nova moda de consumo se subdividiu em três grandes categorias de estilos: a moda de luxo, a 
+moda industrial e a moda de rua. 
+Segundo Crane (2000, p. 273), se referindo à indústria da moda de prêt-à-porter, “essas 
+empresas anunciam amplamente seus produtos na mídia, em catálogos elaborados ou mesmo nas 
+próprias roupas. Aqui a principal marca não é o estilo em si, mas uma imagem que possa competir 
+no mundo de imagens disseminadas entre as massas, que formam a cultura de mídia”. Crane (2000, 
+p. 274) conclui que “o prêt-à-porter é uma forma de cultura de mídia, no sentido de que seus valores 
+e atrativos para o consumidor são criados pela publicidade”. 
+Em cada uma dessas 3 categorias o processo de criação e a disseminação varia. Tanto 
+os estilistas quanto as confecções oferecem um leque amplo de opções, pelas quais o 
+consumidor deve montar um “look” compatível com sua identidade [...] Modelos de 
+comportamento são extraídos da cultura de mídia, a saber: astros da televisão, da 
+música popular, do cinema e dos esportes (CRANE, 2000, p. 274, tradução nossa). 
+As grandes indústrias são dependentes, na maioria das vezes, dos estúdios de 
+coolhunting ou bureaux de style para previsão das tendências e para apostar naquilo que vai 
+vender entre a profusão de estilos propostos nas passarelas internacionais e na moda de rua. 
+Prevendo as cores 24 meses antes da estação e da chegada ao mercado, essas empresas 
+constroem propostas baseando -se em determinados perfis de consumidores (CRANE, 2000, p. 
+275). 
+Harvey (2001) mencionou que o investimento na construção de imagens é tão importante 
+quanto o investimento em novas fábricas e maquinário para as empresas. A concorrência entre 
+empresas se dá através da produção de imagens para que o subjeito possa adquirir a imagem ou o 
+signo. A aquisição de um item de moda, a compra da imagem ou signo por um sujeito faz parte da 
+busca por identidade individual, por autorrealização e por um significado na vida (HARVEY, 2001, 
+p. 260). 
+Hoje, a narrativa das marcas baseia-se num estilo de vida ou comportamento de 
+consumidor. Não é surpresa ver as imagens das vitrines das lojas de determinados centros de 
+moda de uma forma pasteurizada. Muitos dos estilos que estão ali representados tem sua origem 
+na mesma fonte, seja na interpretação direta das passarelas, seja na tradução do que é proposto 
+pelos estúdios de previsão de tendências, pelas blogueiras e formadores de opinião das redes 
+sociais ou pelas vitrines internacionais do momento. 
+
+
+---
+
+75 
+Crane (2000, p. 335) explica que a difusão da moda nos dias de hoje é altamente complexa, 
+em virtude da dispersão geográfica do sistema de moda, do número de atores envolvidos e da 
+enorme variedade de produtos. A antiga fórmula da disseminação da moda de cima para baixo, com 
+origem na moda de luxo já não tem um consenso devido ao grande número de propostas muitas 
+vezes conflitantes e que representam uma miscelânea de ideias. “Hoje a moda industrial acaba por 
+assimilar inovações vindas de diferentes fontes da moda de rua ou de subculturas” afirma Crane 
+(2000, p. 274, tradução nossa). Crane (2000) explica que as três categorias, moda de luxo, moda 
+industrial e moda de rua estão interligadas já que a moda de luxo muitas vezes se inspira na moda 
+de rua e vice-versa e ambas influenciam a moda de difusão, a moda industrial em larga escala. 
+Quanto à inspiração da moda industrial de hoje, Crane (2000, p. 332) escreve que os estilistas 
+franceses e americanos costumam mencionar a influência exercida em seu trabalho pelas pessoas 
+nas ruas ou na vida noturna. Geralmente eles procuram por pessoas que têm um talento especial de 
+manipular os signos do vestuário, se vestindo de um modo muito próprio. 
+Em lugar de ditar a moda, tanto os estilistas como as indústrias de confecção oferecem 
+um amplo leque de escolhas com o qual o consumidor deve compor uma aparência 
+compatível com sua personalidade, em consonância com a ênfase dada à importância 
+da identidade pessoal nas sociedades pós-industriais de cultura de mídia pós-moderna 
+(CRANE, 2000, p. 335, tradução nossa). 
+Crane (2000, p. 336, tradução nossa) conclui seu livro dizendo que a porcentagem de 
+mulheres interessadas em moda tem diminuído gradualmente. 
+O desaparecimento da moda que incorporava ideais sociais e culturais amplamente 
+aceitos – substituída por um conjunto pluralista de modas que representam valores e 
+símbolos conflitantes e às vezes fora dos padrões, identificados com segmentos 
+específicos do público – parece ter afastado uma grande parcela do público e levanta 
+a questão de se a moda, em seu verdadeiro sentido, ainda existe. 
+Um fenômeno de democratização da moda refere-se ao modelo de negócios que a 
+empresa Zara desenvolveu, modelo este que se denominou de fast fashion. Esse modelo, por 
+sua vez, impactou a forma de desenvolver os produtos dentro da indústria, que para se adaptar, 
+teve que reduzir o ciclo de desenvolvimento para prazos cada vez mais curtos.  
+Segundo Čiarnienė e Vienažindienė (2014 apud BRUNO, 2016, p. 41), a origem do fast 
+fashion tem relação com a diversidade de escolhas, o conteúdo de moda, a redução de custos e 
+de preços, já que a “moda rápida” designa a possibilidade de oferta de produtos que incorporam 
+algum elemento de estilo com ciclos de vida curta e pode ser entendido, também, como uma 
+estratégia de oferta de produtos de alta qualidade, intensivos em moda, de alta frequência de 
+coleções, que procuram atender a demanda de consumo em seu pico, mas com preços 
+relativamente acessíveis.  
+
+
+---
+
+76 
+Ao buscar as raízes do surgimento fast fashion20,  pode-se dizer que esse fenômeno diz 
+respeito ao consumo na era pós-moderna, cujo mecanismo é resultante da própria globalização 
+da economia e mundialização da cultura.  
+Empresas como Zara, o grupo Inditex e H&M, que conseguem colocar na loja em 
+poucos dias uma cópia de uma roupa que acabou de ser desfilada nas semanas de moda, foram 
+as precursoras do fenômeno fast fashion. Seus designers ajustam a oferta todos os dias fazendo 
+alterações em modelos existentes. Num único dia os modelos originais são reinterpretados em 
+novas versões e a decisão de produzi-los é feita. No máximo em três semanas esse modelo é 
+entregue nas lojas dos principais centros europeus. 
+Seguindo o sucesso da Zara, outras cadeias de varejo, como a H&M, a Uniqlo, a Forever21, 
+a Primark e, no Brasil, as lojas Riachuelo, a C&A e as lojas Renner procuraram adotar o mesmo 
+modelo de negócios.  
+O panorama da moda brasileira foi afetado pelo próprio processo globalizatório. A 
+própria competição com marcas globais, a abertura do mercado para as importações, além da 
+interatividade dos consumidores brasileiros em meios digitais, com acesso a informação de tudo 
+que há no mundo em tempo real, o fácil acesso a marcas estrangeiras pela classe média em 
+ascensão, em viagens ao exterior, mudou o contexto de uma indústria acomodada em seu 
+“mundinho” doméstico. Marcas que outrora foram consideradas importantes no mercado 
+brasileiro, sucumbiram por falta de competitividade em face dessa concorrência acirrada. 
+Michetti (2015, p. 516) explica que a moda brasileira estava “em gestação no país desde 
+pelo menos os anos 1980 e que, com a aproximação da virada do século, assume a vontade de ser 
+global”. Michetti (2015) escreve que esse querer está hoje sendo demonstrado pelo interesse de 
+certas marcas em estar presentes no mercado internacional, através de participação em feiras do 
+setor em Paris e da abertura de pontos de vendas em grandes capitais da moda.  
+Michetti (2015, p. 519): 
+a busca pela globalidade toma a forma de iniciativas que visam alcançar empréstimos 
+de legitimidade e transferências de capital simbólico entre agentes distintamente 
+posicionados. Como a valorização simbólico-econômica das empresas do setor 
+caminha por vias sinuosas, para muitas das empresas brasileiras de prêt-à-porter, 
+acessórios e mesmo de têxteis e componentes ligados à moda, a participação em salões 
+internacionais é ativada como uma forma de carimbo, ou selo de qualidade, como uma 
+credencial. Tal participação pode ser exibida nas estratégias de marketing das 
+empresas em sua atuação no Brasil, nas quais o caráter internacional ou global das 
+marcas será ressaltado. 
+                                               
+20 O fenômeno do fast fashion é explicado por inúmeros autores. Enrico Cietta se refere às empresas que adotam 
+modelos de produção e distribuição rápida, ou seja, acelerados em relação aos 24 meses tradicionais do ciclo de 
+desenvolvimento. 
+
+
+---
+
+77 
+Michetti (2015), em pesquisa de campo em diferentes empresas do setor, coletou dados 
+e relacionou os motivos que levam algumas delas a aspirarem uma participação em mercados 
+internacionais. Os motivos relevantes mencionados em sua pesquisa são o enfrentamento da 
+concorrência mundial e a própria valorização da marca (sobretudo no mercado interno) quando 
+ela está exposta ao crivo internacional. Significa dizer que para os seus consumidores locais, o 
+fato da marca estar presente fora do país, a torna mais desejável. 
+Estilistas de grandes empresas no Brasil dizem que a moda como moda acabou e que 
+nada restou ao estilista a não ser fazer cópias daquilo que já foi lançado por algum designer 
+renomado do prêt-a-porter europeu. Como resultado da massificação do mecanismo da moda, 
+esses profissionais se encontram desorientados, pressionados pelo tempo, pelos custos e 
+limitados em sua criatividade. O problema é quando todas as empresas fazem a releitura da 
+mesma imagem, a moda se torna uma mesmice sem atrativos. Como o tempo de chegada ao 
+mercado se torna cada vez mais curto, na maioria das vezes, não há o tempo para sair do ciclo 
+vicioso da cópia, portanto, uma reformulação desse mecanismo autodestrutivo se torna urgente. 
+A moda contemporânea é complexa, mas há possibilidades de inovar. 
+O próximo tópico explicará o complexo entorno em que se encontra o sistema produtivo 
+da moda, atrelada a diferentes modelos de negócios. Embora esse estudo se proponha a 
+contribuir com uma metodologia projetual de coleção, cada modelo de negócios do setor de 
+moda exige uma solução adaptada a atividades específicas. Nos projetos de pesquisa-ação em 
+que a autora pode participar, cada metodologia foi desenvolvida a partir do estudo inicial do 
+modelo de negócios das empresas investigadas. Apesar de que a metodologia referida seja 
+baseada num conjunto de boas práticas obtidas por vivência no setor, cada caso é único e exige 
+um conhecimento vasto da cadeia de valor têxtil e do ecossistema da empresa pesquisada, sendo 
+que sua aplicação sempre significará uma intervenção, com o intuito de gerar inovação em 
+modelos de negócios ou em processos ou em produto. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+---
+
+78 
+2.3.1. O surgimento de novos modelos de negócios híbridos21 de moda 
+ 
+O cenário econômico, tecnológico e sociocultural mudou radicalmente nos últimos anos 
+e, com ele, as forças dominantes na moda. Com isso, os modelos tradicionais de negócios estão 
+sendo desafiados a evoluir a fim de responder melhor à inconstância dos desejos dos 
+consumidores na era globalizada. A própria questão da oferta de produtos e da forma como eles 
+são lançados e comercializados, afeta a concepção e o projeto de coleções. Se as coleções serão 
+destinadas a um determinado canal de distribuição, ou para um tipo de consumidor, ou para 
+uma determinada região, se ela será uma cápsula ou um evento comemorativo, tudo isso está 
+atrelado a estratégia da empresa em questão e essa estratégia se baseia num dos pilares da 
+proposta de valor de um determinado modelo de negócios. Eis a razão de que a evolução dos 
+modelos de negócios no setor de moda tem impacto no modo de planejar, projetar e produzir 
+as coleções.  
+O que é de fato um modelo de negócios? A resposta a esta pergunta formulada por Cietta 
+(2017, p. 194), de forma simples, “é o modo pelo qual uma empresa pretende alcançar a 
+lucratividade. Em resumo, é como perguntar a empresa: o que você vende? Como cria valor? 
+O que oferece a seus clientes”? Essa explicação representa apenas uma primeira parte da 
+definição do próprio modelo de negócio.  
+Cietta (2017) explica que os modelos de negócios são praticamente infinitos. 
+Especificamente para o setor da moda, ele explica que “em um setor dominado por uma 
+inovação de produto não patenteável e de curto prazo, a busca de um modelo de negócio 
+diferente daquele do competidor representa um modo relevante (serei tentado a dizer, o único) 
+de se diferenciar da concorrência” (CIETTA, 2017, p. 195). 
+Segundo Cietta (2017, p. 197), no setor de moda, a criação de valor obedece a três 
+funções centrais: a criativa, a de produção e a de distribuição. 
+Até pouco tempo atrás, três modelos de negócios dominavam a indústria e o varejo de 
+moda: as marcas, os varejistas (lojistas) e os fabricantes, cada um com um conjunto específico 
+de prioridades e conhecimento de negócios. 
+                                               
+21 Híbrido no dicionário de português: animal proveniente de duas espécies diferentes; o que tem elementos 
+diferentes em sua composição; ou composto de elementos de diferentes línguas; ou o que utiliza mais do que uma 
+fonte de energia para o seu funcionamento. Neste estudo, a autora usa o termo híbrido com o significado semiótico 
+quando fala das linguagens da moda. Aqui, nesse contexto, a autora se refere à combinação de dois modelos de 
+negócios distintos. Frederico Braida Rodrigues de Paula explica a origem da palavra em seu significado semiótico 
+(PAULA, 2013). 
+Wolfgang Grassl explica o signicado dos modelos de negócios híbridos em Grassl (2012). 
+ 
+
+
+---
+
+79 
+Segundo um artigo recente da empresa de softwares (LECTRA, 2014a, p. 2) 
+O vestuário tem sido tradicionalmente desenhado, produzido e vendido por 
+organizações que se especializaram em uma dessas três atividades.22 Como 
+consequência, muitas empresas tendem, hoje, a reter certos pontos fortes: as marcas 
+dominam a imagem, os varejistas dominam o ciclo de vendas e os fabricantes 
+dominam a técnica. Cada um podendo se envolver nas especialidades dos outros, mas 
+hoje muitos procuram a mesma coisa — o controle, desde a conceituação do produto 
+até o consumidor final, embora por motivos diferentes. 
+O mesmo artigo aponta algumas causas para a mudança nos modelos de negócios 
+tradicionais da indústria da moda: 
+A necessidade de flexibilidade e controle resultou em uma mudança no setor de 
+proporções sísmicas: as empresas estão percebendo que o que importa é ter o máximo 
+de controle possível sobre a cadeia de valor. Isso significa que varejistas estão criando 
+marcas e fabricando, as marcas estão entrando no varejo e fabricando e as fábricas 
+estão criando marcas e vendendo no varejo — o resultado é o surgimento de um 
+modelo de negócio híbrido (LECTRA, 2014a, p. 3). 
+Houve uma mudança de paradigma: varejistas estão criando suas próprias marcas, as 
+marcas que antes vendiam somente por atacado estão entrando no setor do varejo, as confecções 
+que antes eram fornecedoras das marcas e do varejo estão criando suas marcas e investindo em 
+suas lojas próprias e franquias. A indústria da moda se hibridizou. Novos modelos de negócios, 
+mais complexos, surgiram. 
+No Brasil, há um movimento de lojistas multimarcas que começam a mudar seus 
+modelos de negócios para investir em marcas próprias. Algumas cadeias de varejo começaram 
+a fabricar seus próprios produtos (a exemplo das Lojas Riachuelo) enquanto as marcas que 
+apenas vendiam por atacado para lojas multimarcas entraram no varejo (um exemplo é a Lupo). 
+Por sua vez, muitos fabricantes acabaram por abrir suas próprias marcas e suas cadeias de lojas 
+(a Hering antes de ter suas lojas próprias fabricava e vendia no atacado). 
+Segundo o mesmo artigo, essa evolução dos modelos de negócios tradicionais tem 
+grandes implicações. 
+Com a expansão na cadeia de valor, as empresas estão obtendo uma vantagem 
+imediata, trazendo essas áreas, por assim dizer, sob o mesmo teto. Mas esta expansão 
+vem com uma ressalva: as empresas não podem mais se contentar em dominar a sua 
+área tradicional de conhecimento, devem dominar agora todo o processo, de ponta a 
+ponta. Para desenvolver modelos de negócio híbridos, as empresas procuram maneiras 
+de construir usando seus pontos fortes. Isso inclui o uso de tecnologia dentro de um 
+processo inovador para aumentar a vantagem competitiva e oferecer algo realmente 
+interessante aos consumidores (LECTRA, 2014a, p. 3). 
+As empresas de moda têm uma tendência a evoluir a partir do seu modelo de negócios 
+original para outros modelos de negócios, à medida que pensam em expandir, aumentar sua 
+lucratividade e ganhar novos mercados. A partir do momento que adotam um novo modelo de 
+negócios, querem controlar desde o processo de criação a produção até o varejo, buscando 
+                                               
+22 Marcas, varejistas e fabricantes são as três atividades. 
+
+
+---
+
+80 
+satisfazer o consumidor. O mesmo artigo explica as especificidades de cada tipo de modelo de 
+negócios tradicional e o fenômeno de hibridização dos modelos de negócios: 
+As marcas23 são muitas vezes reconhecidas por seus logotipos, mas são lembradas 
+pelas histórias que contam e os relacionamentos que constroem com os consumidores. 
+As marcas criam valor por meio das experiências que transmite através de seus 
+produtos. Tradicionalmente, as marcas fazem o design internamente e terceirizam a 
+fabricação de produtos que então fornecem aos varejistas, que estabelecem o elo com 
+os consumidores (LECTRA, 2014a, p. 2). 
+Os principais pilares do modelo de negócio das empresas de marcas próprias são a 
+diferenciação, além do próprio estilo do seu design que traduz o DNA da marca e sua própria 
+narrativa. Constroem sua narrativa a partir de valores que chamam de Brand Equity. As marcas 
+mundiais estão se expandindo para o modelo de varejo e para o controle do fornecimento, para 
+conseguir alcançar margens de lucro maiores, além de monitorar completamente como os 
+produtos são produzidos e apresentados aos consumidores finais.  
+A função tradicional dos varejistas é vender produtos. Como grandes conhecedores 
+do comportamento dos consumidores, determinam quais produtos venderão mais, a 
+que preço e para quem. Se as marcas se preocupam com a criatividade e pertinência, 
+os varejistas devem garantir com perfeição o timing e a apresentação do produto. 
+Manter produtos novos para capitalizar na demanda do consumidor por novidade é a 
+preocupação principal do varejista (LECTRA, 2014a, p. 2). 
+Os pilares do modelo de negócios do varejo sempre focaram em margem de lucro, em 
+canais de distribuição e em visual merchandising, ou seja, o modo como o sortimento é 
+apresentado ao público é fundamental. As cadeias de varejo estão desenvolvendo suas próprias 
+marcas para oferecer produtos exclusivos e únicos. 
+A fábrica é onde os projetos de produtos ganham forma e é onde o custo e a pressão 
+sobre o prazo para lançamentos se tornam realidade. Os fabricantes podem criar seus 
+próprios materiais ou trabalhar com o que foi criado por uma marca. As principais 
+preocupações do fabricante são controlar os custos e garantir a qualidade, 
+minimizando o tempo de inatividade e gerenciando uma complexa matriz de tempos 
+de execução (LECTRA, 2014a, p. 2). 
+O custo da matéria prima e da mão de obra, além do time-to-market vai ser o principal 
+desafio dos fabricantes. Muitas indústrias também estão mudando de lado e expandindo a cadeia 
+de valor, criando marcas próprias e desenvolvendo redes de lojas. Para não se sentirem reféns 
+dos varejistas e dos clientes de lojas multimarcas, procuram criar seu próprio canal de vendas. 
+A Figura 4 resume os valores relevantes para cada modelo de negócios e sua 
+hibridização, ou seja, o movimento de evolução dos modelos de negócios tradicionais. 
+ 
+ 
+                                               
+23 Porter e Kramer (2006) propuseram uma nova interpretação dessa relação baseada em uma dependência mútua 
+entre as corporações e a sociedade. Esses modelos incluem um modelo de negócios social e um modelo de 
+negócios inclusivo (TEECE, 2010). 
+
+
+---
+
+81 
+Figura 4 – Valores relevantes para cada modelo de negócio 
+ 
+Fonte: elaborado pela autora. 
+ 
+“Para desenvolver um modelo de negócio híbrido, as empresas procuram maneiras de 
+construir valor usando seus pontos fortes” (LECTRA, 2014a, p. 3). Isso passa por uma 
+introdução de um método de desenvolvimento de produtos, que reúna inovação em produto, 
+por meio de otimização de custo e de valor percebido, para aumentar a vantagem competitiva 
+e oferecer algo realmente relevante para os consumidores e mais de acordo com suas 
+expectativas e necessidades. 
+“Existem ainda empresas que inovam no produto de modo a serem extremamente 
+diferenciadas no mercado e empresas que inventam novos sistemas de produção ou distribuição, 
+mas são exceções”, explica Cietta (2017, p. 195). 
+Cietta (2017) definiu o fast fashion como um modelo de negócios híbrido, já que 
+combinou dois sistemas opostos: o sistema do luxo (prêt-à-porter de preço médio e alto) com 
+produção programada e o sistema de moda rápida (baseado em copiar rapidamente os produtos 
+do prêt-à-porter de luxo e oferecê-los sem o agregado da narrativa de marca). 
+A razão desse movimento de hibridização, ou mesmo multiplicação de modelos de 
+negócios está na concorrência acirrada criada pelas empresas do modelo de negócios fast 
+fashion e pela própria fragmentação do cenário de moda com uma oferta maior de marcas, 
+linhas de produto e canais de distribuição, o que resultou numa expansão na cadeia de valor, 
+com uma complexidade de fornecimento que muitas vezes escapa ao controle das áreas de 
+planejamento, desenvolvimento e criação dos setores de vestuário. 
+
+
+---
+
+82 
+A indústria do vestuário é simplesmente aquela onde há mais transformação e é a mais 
+impulsionada pelos sujeitos, que cada vez mais buscam novidades; a mundialização gerou 
+novas atitudes de consumo; a globalização do mercado aumentou a pressão sobre o preço do 
+produto; a mudança contínua do desejo dos sujeitos exige que as empresas reduzam o Time-to-
+Market24; o espaço de fluxos de informação aumentou o número de normas e regras para a 
+indústria. Em qualquer uma das categorias mencionadas, sejam elas da moda de luxo, do prêt-
+à-porter ou do fast fashion, em qualquer segmento de atuação, a adaptação a dois novos 
+parâmetros se faz necessária: inovação e diferenciação. 
+Quando se fala de inovação, o produto é o coração do modelo de negócios de moda, seja 
+ele qual for. O produto, esse obscuro objeto do desejo, é o grande significador. Quando se fala 
+de produto cultural de moda, significa falar em “coleções”. O número de entradas ou 
+sortimentos e entregas lançadas no mercado por ano aumentou enormemente. Em alguns casos, 
+entre 2 estações, 33 entradas. Um estudo feito pelo Draper’s Brand Market (KNOWLES, 2013) 
+mostrou que 22% das marcas saíram dos lançamentos por estação para ter lançamentos 
+contínuos. 48% das marcas femininas e 67% das marcas de luxo aumentaram o número de 
+lançamentos por estação. A inovação, seja em produto ou em processos ou na forma de 
+produção, nunca foi tão importante para as empresas de moda como é hoje.  
+O segundo ponto, a diferenciação, é o ponto em que todas as empresas de moda estão 
+buscando: formas novas de se diferenciar dos concorrentes, novas maneiras de ganhar 
+participação no mercado, novas formas de agarrar as oportunidades e conquistar o desejo dos 
+consumidores.  
+Ambos os pontos, inovação e diferenciação, envolvem desenvolver novos canais de 
+venda, expandir para novos territórios, desenvolver novas linhas de produtos, adquirir novas 
+marcas e produzir tamanhos adicionais ou concentrar-se num novo tipo de morfologia. 
+O equilíbrio entre estilo, qualidade, valor e custo é fundamental para fornecer novos 
+produtos consoantes com os desejos dos consumidores diante do contexto que mencionamos. 
+“Encontrar este equilíbrio exige atenção para três áreas fundamentais: diferenciação, preço, 
+valor e tempo. Estas preocupações clássicas passaram a ter novo significado à luz das mudanças 
+discutidas anteriormente” (LECTRA, 2014a, p. 3). 
+Para atingir todos esses objetivos é necessário implementar novas formas de trabalhar, 
+o que implica numa mudança de paradigma.  Levar pessoas a agir e pensar diferente é mais 
+complexo do que se pode imaginar. O pronto fulcral é a questão humana.  
+                                               
+24 Ciclo do produto desde a criação até a chegada ao mercado. 
+
+
+---
+
+83 
+Kotler, Kartajaya e Iwan (2010), no seu livro Marketing 3.0 nos faz refletir sobre o 
+contexto do mundo contemporâneo que 
+[...] passa por um período de mudanças rápidas e avassaladoras. O aumento da pobreza 
+e do desemprego, a mudança climática e o aumento da poluição estão desafiando os 
+países a limitarem a liberação de dióxido de carbono na atmosfera, ainda que isso 
+imponha maior sobrecarga aos negócios. A taxa de crescimento nos países ricos 
+ocidentais está diminuindo e o poder econômico está rapidamente passando às mãos 
+de países orientais com taxas muito mais altas. A tecnologia está mudando – do mundo 
+mecânico para o mundo digital, internet, computadores, celulares e redes sociais – e 
+isso tem profundo impacto no comportamento de produtores e consumidores. 
+Neste momento globalizado em que o jogo ficou mais complicado, com os jogadores 
+mudando de lado, as empresas de moda precisam oferecer algo com um valor único para seus 
+consumidores: a inovação, a qualidade, o preço certo, o tempo certo, a mensagem consistente. 
+A proposta de valor das empresas precisa se voltar para estratégias focadas não apenas 
+no consumidor, mas em valores mais relevantes para o sujeito do século XXI: reputação, 
+comunidade e acesso compartilhado (KJAER, 2015). 
+ 
+2.3.2. O encurtamento do ciclo de vida do produto no século XXI 
+ 
+Como já mencionado anteriormente, a nova realidade da era pós-industrial forçou as 
+empresas de moda brasileiras a adotar novos modelos de negócios surgidos com o processo de 
+globalização. Nenhuma das empresas ficou imune à transformação dos ciclos de produto longos 
+para ciclos muito curtos. Até mesmo as indústrias brasileiras consideradas produtoras de itens 
+básicos de malha se transformaram em fornecedoras de moda diferenciada, incluindo outros 
+produtos no lugar dos básicos, como o jeans elaborado, a roupa íntima e a esportiva, muitas 
+vezes tentando lidar com a demanda inconstante de itens de moda.  
+Isso fez com que as empresas de modelos de negócios tradicionais evoluíssem e 
+mudassem as suas estratégias e ofertas para algo tão diferente do que faziam inicialmente que 
+resultou numa reestruturação das suas coleções. 
+Essa reestruturação não foi simples e muitas dessas empresas ainda estão em processo 
+de evolução dos seus modelos de negócios e da sua oferta de produtos. O resultado é que todas 
+estão preocupadas em encurtar seu ciclo de produtos para diminuir o risco de lançar produtos 
+ultrapassados em relação às tendências de moda e, por consequência, aumentar suas margens.  
+O planejamento estratégico, a pesquisa de moda, a criação e o desenvolvimento de coleções 
+nas indústrias de moda no Brasil, em sua maioria, ainda estão sendo concebidos no modus operandi 
+do século XX, mais precisamente na visão dos anos 80 e 90. Como pesquisadora participante, a 
+
+
+---
+
+84 
+autora pode presenciar que muitas empresas ainda não mudaram a sua metodologia de 
+desenvolvimento de coleções, mesmo aquelas que mudaram sua proposta de valor. 
+Nos anos 80 e 90, no Brasil, existia uma influência dos grandes estilistas na moda de grande 
+difusão, surgia a moda de rua, gerada por tribos distintas, com uma repercussão do que acontecia 
+nos mercados europeu e americano, apenas com uma defasagem de um a dois anos em relação a 
+origem da tendência. Nestas décadas, os processos de produção eram longos e consecutivos, com 
+duas coleções anuais. Até então, se fazia duas coleções ao ano, se planejava a coleção de 6 a 9 meses 
+antes do seu lançamento, pensando num cliente fiel à marca. Por décadas, o modelo da maioria das 
+marcas foi o seguinte:  
+• 
+a empresa mandava estilistas e gerentes de produto em viagens internacionais aos 
+grandes centros de moda, como Paris, Londres, Milão e Nova Iorque, para pesquisar 
+tendências; 
+• 
+selecionava designs ou modelos de 6 a 9 meses antes do lançamento da coleção 
+baseando-se em tendências de moda, geralmente proposta por estúdios de moda 
+europeus; 
+• 
+fazia apostas grandes nos produtos que os gerentes de produto acreditavam que 
+seriam os campeões, baseando-se em análise de vendas de coleções passadas; 
+• 
+lançava novos produtos e os números de vendas determinavam o quanto todo o 
+processo de criação trazia ou não resultados em lucro. 
+Até os anos 90, o processo da cadeia de suprimentos era sequencial (Figura 5). 
+ 
+Figura 5 – Cadeia de Suprimentos – anos 90 
+ 
+Fonte: elaborado pela autora. 
+ 
+No entanto, a aceleração do consumo exigiu que os processos se encurtassem e algumas 
+etapas se superpuseram. Já na passagem do século XX para o XXI o processo mudou para outro 
+mais reduzido como na Figura 6. 
+ 
+ 
+
+
+---
+
+85 
+Figura 6 – Cadeia de Suprimentos – Era pós-industrial 
+ 
+Fonte: elaborado pela autora. 
+ 
+Isso significa que apesar de ainda ser um processo de suprimentos sequencial, o design 
+se inicia antes mesmo do planejamento de um novo grupo de produtos terminar, a prototipagem 
+se dá antes de se terminar a criação da coleção toda e a seleção de modelos acontece quando 
+um primeiro grupo de modelos já foi confeccionado em protótipos. Com isso, uma parte da 
+produção pode ser iniciada, o lançamento antecipado e uma parte da coleção chega antes às 
+lojas. Nesse novo modelo de cadeia de suprimentos, não há tempo hábil para esperar o fim de 
+cada etapa para começar a outra. Equipes distintas têm que estar começando uma etapa seguinte 
+enquanto outra equipe finaliza a etapa precedente. 
+Com o advento do fast fashion, empresas do tipo da Zara já estão trabalhando no ciclo 
+mais reduzido ainda, com lançamento de múltiplas coleções que gera um ciclo curto em que as 
+fases são superpostas e muitas vezes concomitantes. De forma simplificada, as etapas macro de 
+uma determinada coleção estão acontecendo simultaneamente a outras etapas de uma outra 
+coleção, como na Figura 7. 
+ 
+Figura 7 – Sequência integrada 
+ 
+Fonte: elaborado pela autora. 
+ 
+
+
+---
+
+86 
+No século XXI, com um ciclo de desenvolvimento de produtos reduzido, empresas de 
+fast fashion determinaram que é o próprio consumidor, graças a suas decisões de compra, que 
+orienta o trabalho das equipes de designers. Centenas de designers adequam a oferta 
+diariamente, alterando modelos que já obtiveram bom resultado de vendas. Em 24h eles estão 
+em condições de decidir a produzir o modelo modificado, que será entregue 3 semanas depois 
+nas lojas da Europa, com uma defasagem pequena nos outros grandes centros dos outros 
+continentes. Flexibilidade, resposta rápida e um modelo de negócios com total parceria com 
+seus fornecedores são os pilares desse modelo de negócios.  
+O terceiro modelo de fluxo de cadeia de suprimentos (Figura 6) exige um nível de 
+organização das equipes de estilo, compras, planejamento e de desenvolvimento de produto, 
+pois há uma superposição das etapas. Uma empresa pode estar trabalhando com quatro ou mais 
+coleções simultaneamente e desenhando para canais de distribuição distintos. Para isso, as 
+coleções muitas vezes estão divididas por segmento e por tipo de ciclo de vida de produto 
+(ciclos longos, médios e curtos). Algumas empresas trabalham com ciclos longos, outras com 
+ciclos médios e outras muito curtos, mas quando seu modelo de negócios é híbrido, seu portfólio 
+de coleção é dividido em linhas de produtos de ciclos longos, médios e curtos, todos sendo 
+elaborados ao mesmo tempo, cada grupo na sua respectiva fase.  
+Esses ciclos longos (Figura 8) geralmente acontecem em marcas esportivas, marcas de 
+luxo ou de prêt-à-porter premium. Há exceções, em modelos de negócio de fast fashion, por 
+exemplo a cadeia de lojas japonesa Uniqlo. Seu presidente define a proposta de valor da Uniqlo 
+como a oferta de tecnologia em forma de roupa. Portanto, a pesquisa e o desenvolvimento 
+podem demorar mais do que um ano e o ciclo inteiro poderá ser de dois anos para lançar um 
+produto cuja inovação tecnológica é disruptiva, a exemplo dos produtos que promovem controle 
+térmico, insulação e ao mesmo tempo são muito leves. 
+ 
+Figura 8 – Exemplo de ciclo de vida longo (12 a 18 meses) 
+ 
+Fonte: elaborado pela autora. 
+ 
+Os ciclos médios (Figura 9) são próprios de empresas de moda com foco em seu próprio 
+canal de varejo, marcas próprias que trabalham com lançamentos a cada trimestre, quando há 
+uma grande virada de vitrines e cores, mudando a atmosfera das lojas de um tema principal para 
+JAN
+FEV
+MARÇO
+ABRIL
+MAIO
+JUNHO
+JULHO
+AGOSTO SETEMBROOUTUBRONOVEM
+DEZ
+JAN
+FEV
+MARÇO
+ABRIL
+MAIO
+JUNHO
+JULHO
+AGOSTO SETEMBROOUTUBRONOVEM
+DEZ
+ANO 2
+ETAPAS  
+COLEÇÃO B
+COLEÇÃO C
+COLEÇÃO B
+COLEÇÃO A
+COLEÇÃO C
+COLEÇÃO E
+ANO 1
+PLANEJAR E 
+DESIGN
+DESENVOLVER
+PRODUZIR
+COLEÇÃO A
+COLEÇÃO A
+COLEÇÃO B
+
+
+---
+
+87 
+outro. Esses ciclos são os mais comuns nas marcas brasileiras, algumas até com mais 
+lançamentos anuais, em que as etapas são divididas em semanas e não meses. 
+ 
+Figura 9 – Exemplo de ciclo médio (9 meses) 
+ 
+Fonte: elaborado pela autora. 
+ 
+Os ciclos muito curtos (Figura 10) são típicos de empresas de modelo de negócios fast 
+fashion, cujas minicoleções têm ciclos de 3 a 6 semanas. As empresas de modinha e venda por 
+atacado brasileiras também costumam trabalhar com ciclos curtos. Uma rede de varejo 
+colombiana, Permoda, detentora de várias marcas, reportou que seus ciclos são de uma semana 
+para cada etapa. As equipes de designers estão divididas por marca e por coleção. 
+ 
+Figura 10 – Exemplo de ciclo curto (3 meses) 
+ 
+Fonte: elaborado pela autora. 
+ 
+No caso da Zara e da H&M, os produtos estão divididos em ciclos curtos e médios. Os 
+produtos de ciclo médio geralmente são mais básicos, como as tee-shirts, os tricôs e as camisas 
+masculinas e o jeans. A moda feminina geralmente é de ciclo curto e muito curto. Os produtos 
+de ciclo muito curto são as coleções cápsula e aquelas assinadas por designers. 
+ 
+ 
+JAN
+FEV
+MARÇO
+ABRIL
+MAIO
+JUNHO
+JULHO
+AGOSTO SETEMBROOUTUBRONOVEM
+DEZ
+ANALISAR VENDAS 
+E REABASTECER
+COLEÇÃO A
+COLEÇÃO A
+COLEÇÃO B
+COLEÇÃO B
+COLEÇÃO C
+PRODUZIR E 
+ENTREGAR
+COLEÇÃO A
+COLEÇÃO B
+COLEÇÃO C
+COLEÇÃO D
+COLEÇÃO A
+COLEÇÃO B
+ETAPAS  
+ANO 1
+PLANEJAR E 
+DESIGN
+DESENVOLVER 
+E COMPRAR
+JAN
+FEV
+MARÇO
+ABRIL
+MAIO
+JUNHO
+JULHO
+AGOSTO SETEMBROOUTUBRONOVEM
+DEZ
+H
+I
+J
+H
+I
+J
+J
+K
+L
+I
+J
+K
+I
+G
+H
+G
+E
+F
+G
+F
+F
+E
+E
+F
+G
+H
+D
+E
+C
+D
+C
+D
+A
+B
+B
+B
+B
+C
+D
+C
+A
+ANALISAR VENDAS E 
+REABASTECER
+PRODUZIR E 
+ENTREGAR
+ETAPAS  
+ANO 1
+PLANEJAR E 
+DESIGN
+DESENVOLVER 
+E COMPRAR
+A
+A
+
+
+---
+
+88 
+2.3.3. A gestão da complexidade na cadeia de valor da moda 
+ 
+O efeito da mundialização da cultura e da inserção do sujeito dentro de um espaço que 
+Rodrigo Ortiz e Pierre Lévy cunharam de ciberespaço, teve um impacto no mercado como um 
+todo e na indústria da moda, que ainda se encontra em contínua transformação. 
+Este cenário foi descrito por Zygmunt Bauman (GIRON, 2014), numa entrevista em que 
+o filósofo foi questionado sobre o motivo pelo qual ele acreditaria no fato de que a cultura se 
+tornou dependente da moda, pergunta que foi respondida por Bauman desta forma: 
+Modas vêm e vão e são tão velhas quanto a cultura, tão antigas quanto o homo sapiens 
+[…] O que a fez tão espetacularmente presente em nossa vida diária é o impacto 
+combinado da comunicação digital em tempo real e da produção em massa com a 
+associação entre butiques de alta-costura e grandes redes de lojas. As manifestações 
+culturais e artísticas são arrastadas pelo motor da moda (GIRON, 2014). 
+Thomas (2008, p. 290) relata que em setembro de 2004, ocorreu no mundo da moda um 
+fato inusitado: a parceria entre o estilista da Maison Chanel, Karl Lagerfeld e a H&M, a popular 
+cadeia de varejo sueca. Ao contrário de suas peças da Chanel, todos são vendidos a um preço 
+acessível. Lagerfeld (apud THOMAS, 2008) quis mostrar que o barato também pode ser 
+maravilhoso. “No final, a boa moda não tem a ver com o preço”, disse ele, “tem a ver com o 
+gosto”. 
+Já foi mencionado que o fenômeno do fast fashion surgiu a partir do contexto dos 
+paradigmas da globalização e da era digital. Considerando este cenário complexo para as 
+empresas que não nasceram com este tipo de modelo de negócios, é importante listar as 
+consequências que afetam diretamente o projeto de coleções: 
+• 
+expansão geográfica das marcas e do varejo de moda, o que implica em fazer 
+produtos para diferentes biótipos (BASTOS et al., [201-]); 
+• 
+aumento de coleções e modelos, gerando um elevado número de skus (stock units 
+ou unidades de estoque) e exigindo uma equipe de estilo e de desenvolvimento 
+robusta; 
+• 
+as expectativas do consumidor mudaram, assim como as atitudes de compras. O 
+consumidor está sensível às mudanças, e seu desejo se tornou imprevisível. Fala-se 
+muito em time-to-market, já que o prazo de chegada do produto ao mercado se torna 
+cada vez mais curto; 
+• 
+há uma pressão sobre o preço, causando mudança de fornecimento para as regiões de 
+custo de fabricação mais baixo. Com isso, a logística de suprimentos ficou mais 
+complexa. Muitas empresas buscam mão de obra em regiões mais pobres do globo, um 
+movimento que explora os países do sudeste asiático e se encaminha para a África; 
+
+
+---
+
+89 
+• 
+com o lançamento contínuo de marcas, submarcas e novos canais de distribuição, a 
+competição entre elas se tornou mais acirrada. Há um excesso de mensagens e 
+narrativas contraditórias bombardeando o consumidor; 
+• 
+a necessidade de inovação sazonal foi substituída pela inovação contínua, por meio 
+da introdução de minicoleções, coleções cápsula, coleções comemorativas e 
+coleções especiais assinadas por designers renomados; 
+• 
+a tomada de decisão precisa ser mais rápida, o que implica em pouco tempo para as 
+atividades de planejamento e pesquisa em design, o que ocorre em detrimento da 
+qualidade estética e de inovação e desafia a criatividade dos designers; 
+• 
+o problema da análise de demanda tem se tornado o ponto fulcral das empresas. 
+Sem inteligência de negócios, não há previsão de vendas assertiva, um forecasting 
+ineficaz, o que aumenta os riscos de não se acertar a quantidade de peças a produzir 
+e as proporções das categorias de produtos a lançar. 
+Exemplos do aumento de número de lançamentos por coleção são as coleções cápsula 
+exclusivas de celebridades ou as marcas relacionadas a estilos de vida que muitas cadeias de 
+varejo usam para atrair a atenção e direcionar o tráfego às lojas. Coleções cápsula são um 
+exemplo extremo, mas a ideia de alcançar a velocidade certa dos lançamentos se aplica a 
+qualquer varejista, marca ou fabricante que tenha a intenção de atender a demanda do 
+consumidor. 
+O tempo é crucial quando a coleção é inteiramente montada segundo o conceito “compre 
+antes que acabe”. “Vender Moda é como vender peixe”, declarou Amancio Ortega, fundador 
+do grupo Inditex (THE ECONOMIST, 2012 tradução nossa). “Peixe fresco, assim como uma 
+jaqueta na cor, corte e tecido da última estação e tendência se vende rapidamente a preço cheio. 
+O peixe de ontem deve ser vendido com desconto e talvez não venda nem assim” (THE 
+ECONOMIST, 2012 tradução nossa). 
+Toda essa aceleração do consumo teve um impacto no desenvolvimento de produtos, 
+gerando ciclos mais curtos. Para reduzir o ciclo do desenvolvimento, procurou-se fazer a 
+prototipagem mais rapidamente.  
+A expansão de categorias de produtos, por sua vez, gerou ofertas de produto mais 
+relevantes e direcionadas para os diferentes tipos de consumidor, o que aumenta a importância 
+de se endereçar a determinados segmentos individualmente.  
+O controle do ciclo de desenvolvimento de produtos ficou mais complexo, com 
+empresas grandes dividindo suas coleções em produtos de ciclo longo (os mais básicos ou de 
+continuidade e os produtos que exigem longo investimento em Pesquisa e Desenvolvimento), 
+
+
+---
+
+90 
+os de ciclo médio (os sazonais) e os de ciclo curto (sujeitos as mudanças rápidas da moda). 
+Todo esse aumento de coleções, em ciclos superpostos, faz com que as empresas trabalhem 
+com 4 a 5 coleções ao mesmo tempo e distribuam suas equipes em diferentes coleções. Os 
+processos de cada tipo de coleção e marca são difíceis de controlar.  
+A exigência de lançar o produto certo, na hora certa, com o preço certo, aumentou o 
+impacto na prática do projeto de coleção de moda. Todo o processo teve que se acelerar para 
+atender a demanda do consumidor. O controle de custos em empresas de fast fashion tem sido 
+impositivo, já que é importante lançar produtos com um preço acessível sem o sacrifício do 
+design, da qualidade e do caimento da roupa. Como resultado, há necessidade de aprovações 
+mais rápidas sem tantas alterações e com redução do número de peças piloto. Há uma urgência 
+de gerenciar o desenvolvimento das coleções em diferentes níveis, desde a visão macro da 
+estação, por coleção, por marca e por canal de distribuição, passando pelo nível das categorias 
+de produtos, até a visão micro num nível de modelo, suas cores e seus componentes. O 
+monitoramento de tantas informações, a gestão de todos os skus (stock units), exige um nível 
+tecnológico com ferramentas sofisticadas que auxiliem na orquestração de todos os processos.  
+Quando se chega a esse nível de complexidade, a comunicação entre os atores dos 
+processos, a centralização de dados, a interligação de departamentos e a colaboração entre 
+equipes e pares são a chave para alcançar os objetivos da proposta de valor. Departamentos 
+desconectados, ferramentas que não se conversam, falta de interface entre sistemas fazem com 
+que haja muitas versões da verdade e abrem espaço para erros. Qual a última versão desse 
+relatório? Ninguém sabe. Esta realidade é comum em muitas empresas nos dias de hoje. 
+Em algumas empresas grandes, quando os processos não são bem mapeados, há uma 
+sensação de caos. Equipes estão sempre com a sensação de estarem apagando um incêndio. O 
+risco de erro é alto e o clima organizacional é tenso. Nessas empresas, apenas ferramentas 
+tecnológicas não são suficientes para melhorar o clima. Introduzir ferramentas de formação de 
+equipe, que estimulem a colaboração e interliguem setores, pode ajudar a solucionar parte da 
+problemática. A solução não é somente proveniente da tecnologia. A metodologia de 
+colaboração no setor da moda não é um conceito de uma única faceta. Parte dela vem das 
+ferramentas tecnológicas que falam a linguagem do usuário; parte dela se origina no processo 
+de desenvolvimento bem pensado; em grande parte, ela é construída pelas pessoas que 
+compartilham as informações sobre a coleção por um método de trabalho diferente do método 
+centralizado em alguns atores trabalhando em ilhas. Esse assunto será retomado no 3°capítulo. 
+ 
+
+
+---
+
+91 
+3. O CONTEXTO BRASIL E SUAS IMPLICAÇÕES NO PROJETO DE COLEÇÕES 
+ 
+Existem fatores que são específicos do contexto do Brasil contemporâneo e que se 
+somam aos fatores já mencionados anteriormente. O erro comum das empresas de tecnologia 
+estrangeiras que tentam introduzir no Brasil os softwares de gestão empresarial e as plataformas 
+de gerenciamento de ciclo de vida do produto (PLM), tem sido ignorar a complexidade do Brasil 
+e a disparidade entre as práticas da indústria e do varejo de moda locais com aquelas dos países 
+centrais, onde se originaram a pesquisa e o desenvolvimento dessas novas tecnologias. 
+Problemas locais exigem soluções igualmente locais. Portanto, é relevante criar soluções que 
+atendam nossas próprias especificidades, já que os desafios da indústria e do varejo estão 
+diretamente ligados à problemática do país em si.  
+Importar uma metodologia projetual dos países centrais não traz resultado significativo 
+sem que se leve em conta as particularidades do setor desse país. A autora presenciou ações de 
+empresas renomadas com investimento em consultorias especializadas em mudança 
+organizacional e outras em softwares. Essas consultorias trazem uma metodologia característica 
+dos países centrais, a bem dizer dos Estados Unidos, que infelizmente não é adaptada à 
+realidade local com todas as dificuldades de percalço encontradas ao trilhar arduamente a 
+jornada da moda brasileira. A defasagem tecnológica dos países periféricos, entre eles o Brasil, 
+em relação aos países centrais, tem implicações profundas que vão além do escopo deste estudo. 
+Um dos fatores que denota uma defasagem da nossa indústria em relação às indústrias de 
+outros países produtores, é que a maioria das empresas de moda tem gestão familiar, com decisão 
+calcada em experiência dos proprietários e não em estratégias de gestão verdadeiramente 
+inovadoras, mesmo que acreditem que estejam inovando em produto. Quando o modelo de 
+negócios é inovador, a cadeia de suprimentos e a logística apresentam fatores limitadores. Quando 
+a indústria tem equipamentos de última geração, não há visão estratégica. É muito raro ver empresas 
+de moda brasileiras cujos modelos de negócios são coerentes com a proposta de valor e a oferta de 
+produtos. Na maioria dos casos, as equipes de criação e desenvolvimento trabalham num modus 
+operandi próprio do século passado, pouco colaborativo e com carência de reformulação para 
+modelos de gestão mais transparentes e participativos.  
+Kotler, Kartajaya e Iwan (2010) explica que ao longo dos últimos 60 anos, o foco das 
+empresas deixou de ser centrado no produto (Marketing 1.0), passou a ser centrado no 
+consumidor (Marketing 2.0) e mais recentemente, se expandiu para as questões humanas, a 
+visão estratégica voltada para o lucro não pode ignorar a responsabilidade corporativa. Kotler, 
+Kartajaya e Iwan (2010) falam de um marketing 3.0, que tem seus pilares na era da participação 
+
+
+---
+
+92 
+e da colaboração por meio da tecnologia, pelo paradoxo da globalização e mundialização da 
+cultura, pela sociedade criativa voltada para o espírito humano. Para Kotler, Kartajaya e Iwan 
+(2010), o marketing 3.0 é aquele que coloca as questões culturais no âmago do modelo de 
+negócios da empresa. 
+Em se tratando da participação do consumidor no processo de definição das coleções, a 
+realidade das empresas brasileiras ainda está longe disso. Muitos fatores são a causa dessa 
+lacuna. Dentre eles, vale citar os fatores que afetam o projeto de coleção (LECTRA, 2014a): 
+• 
+o desconhecimento dos hábitos de consumo e dos perfis de consumidores; 
+• 
+a importância do interior do Brasil (o rural e o urbano); 
+• 
+a disparidade entre as regiões do Brasil (gosto, morfologia, valores); 
+• 
+a questão do custo Brasil (a burocracia e os altos impostos); 
+• 
+a terceirização e o outsourcing; 
+• 
+a falta de profissionalização em modelagem e em engenharia de produto; 
+• 
+a defasagem tecnológica no que tange as ferramentas projetuais; 
+• 
+a ausência de uma metodologia enxuta de desenvolvimento de produtos e coleções; 
+• 
+a busca por uma identidade da moda brasileira e a marca Brasil; 
+• 
+a criação de valor emocional (brand equity); 
+• 
+a sustentabilidade ambiental e social; 
+• 
+a democratização da moda. 
+A seguir, o estudo abordará alguns desses tópicos.  
+ 
+3.1. 
+OS NOVOS HÁBITOS DE CONSUMO 
+ 
+Apesar da desaceleração da economia nos dois últimos anos, no período entre 2000 e 
+2013 houve um crescimento do consumo devido a ascensão da classe média e o florescimento 
+do interior do país como polo de desenvolvimento.  
+Há características muito particulares de consumo dos brasileiros. Uma delas é a 
+preferência por comprar em shopping centers. Segundo a Associação Brasileira de Shopping 
+Centers (Abrasce) (ABRASCE, 2017), o número total de shoppings no Brasil é de 558, com 
+mais uns 30 que estão em fase de abertura em 2017, somando um total de 99.990 lojas. Embora 
+inicialmente os shoppings fossem dirigidos para as camadas mais abastadas da população, com 
+o crescimento do poder aquisitivo das camadas de classe média, existem shoppings 
+considerados mais “populares”. 
+
+
+---
+
+93 
+Segundo o estudo de 2017 do IEMI com base em 2016 (O CONFECCIONISTA, 2017), 
+o consumidor colocou o pé no freio nas compras de artigos de vestuário nos dois últimos anos. 
+O estudo busca diretrizes para o futuro, considerando a presente crise. “A forte recessão que se 
+abateu sobre a economia brasileira afetou de maneira significativa o consumo de moda, 
+resultando no encolhimento das vendas de roupas no varejo interno em 11%”, informa Marcelo 
+Prado (O CONFECCIONISTA, 2017). Segundo Prado (O CONFECCIONISTA, 2017), em 
+2017 a oferta de preços baixos foi o principal fator de escolha das lojas, mencionado por 34% 
+dos consumidores entrevistados na pesquisa mais recente. 
+Outro fator que se destacou na pesquisa é que a importância da marca não diminuiu com 
+a crise. As razões alegadas pelos entrevistados mostraram que a imagem e o estilo das roupas 
+são o fator com que o consumidor mais se identifica, sendo que o poder de despertar o desejo, 
+a satisfação e o conforto de vestir foram os mais mencionados. 
+Outro ponto importante retratado nesta pesquisa se refere ao crescimento do número de 
+consumidores que incorporaram a internet como um de seus canais de compra de roupas. No 
+entanto, o e-commerce ainda é tímido no Brasil, diferentemente de outros países do hemisfério 
+norte. Esse resultado pode ser atribuído a dificuldade de achar os tamanhos certos, devido à falta 
+de bom caimento de muitas marcas que estão disponíveis online. Embora o economista veja uma 
+possibilidade de crescimento neste canal de distribuição, muito tem que ser melhorado para que 
+o consumidor tenha confiança de que o que está comprando lhe cairá bem.  
+Em recente pesquisa etnográfica com grupos de foco, apresentada pela empresa 
+Invista, durante seminário em 25 de abril de 2017, intitulado de Denim Meeting, foi 
+apresentado um levantamento indicando que o consumidor brasileiro consome uma média 
+de 9,3 pares de jeans por ano, sendo que 38% das pessoas entrevistadas tinham mais de 10 
+pares de jeans. Além disso, foi levantado que muitos dos brasileiros utilizam o jeans não só 
+para o momento de lazer, mas para ir a faculdade e como uniforme de trabalho. Para muitos 
+consumidores, a importância do conforto do jeans, aliado a aparência é fundamental, sendo 
+que a maior parte da frustração tem a ver com o fit, ou seja, o caimento. Um entrevistado 
+menciona o fato de que não há uma padronização dos tamanhos, o 38 de algumas marcas 
+pode vestir como 34 ou 36 de outra marca. Outro depoimento foi: “considero difícil 
+encontrar o melhor estilo para o meu tipo de corpo”, o que reflete uma lacuna da indústria 
+de vestuário na questão de padronização de medidas. 
+O interessante fator levantado é que os consumidores brasileiros também têm um 
+envolvimento emocional com seus jeans. Existe uma expectativa de que o melhor jeans seja o 
+
+
+---
+
+94 
+mais caro também. Isso resulta num outro fator: o consumidor pagaria mais pelo jeans perfeito. 
+Se o ticket médio de um jeans é R$ 131, o consumidor pagaria até 36% por este jeans perfeito. 
+No seu recente estudo de Macrotendências do Comportamento do Consumidor Bain & 
+Company (2016) indicou alguns comportamentos que merecem destaque no contexto do 
+consumo no Brasil. Os principais são a conectividade e a velocidade, a saúde e o bem-estar. 
+Um indicador de tal tendência pode ser percebido, por exemplo, no mercado de roupas sociais, 
+que vem perdendo terreno para o de roupas casuais e de esporte. A moda fitness e de lazer está 
+em crescimento. 
+Além disso, o consumo sustentável é relevante, pois a  
+procura por produtos com embalagens recicláveis ou mesmo que sejam eles mesmos 
+criados com materiais provenientes de reciclagem é notória em países desenvolvidos 
+e crescente no Brasil, de forma que os consumidores têm demonstrado preocupação 
+crescente em analisar o impacto socioambiental das empresas e de seus produtos ao 
+escolher o que colocarão em suas cestas de compras (BAIN & COMPANY, 2016). 
+ 
+3.2. 
+UM PAÍS DE GRANDE DIVERSIDADE: A IMPORTÂNCIA DO INTERIOR  
+ 
+Uma pesquisa do Boston Consulting Group (BCG) de abril de 2014 aponta um 
+crescimento no consumo das cidades do interior devido a afluência das famílias de classe média 
+(CUNHA et al., 2014). Segundo a pesquisa, esses consumidores podem representar mais de 
+US$ 600 bilhões até 2020, o que representará mais da metade do crescimento do consumo do 
+país até lá. Essa parcela de consumidores será fonte importante de crescimento em setores 
+relevantes como o automotivo, o vestuário e o de serviços financeiros. 
+Portanto, há a questão de explorar as regiões interioranas com suas características 
+peculiares. Marcas que souberam perceber o potencial e o estilo de vida das cidades do interior 
+do estado de São Paulo e da região sudeste tiveram um sucesso rápido.   
+Segundo a pesquisa, as cidades brasileiras do interior têm um grande potencial de 
+consumo ainda pouco explorado. Apesar do Brasil ser fortemente urbanizado, com 85% de seus 
+mais de 200 milhões de habitantes residentes em áreas urbanas, as cidades menores localizadas 
+no interior do país representam a metade da população do país, segundo o estudo.  
+De acordo com outro estudo do site Business of Fashion (YOUNG, 2014), as cidades 
+do interior representam a metade da população do Brasil. “Em 2020, uma empresa precisará 
+estar presente em mais de 400 cidades para atingir 75% da população do Brasil, em comparação 
+com 229 cidades em 2000”. O mesmo estudo ainda mostra que poucas empresas estão 
+preparadas para aproveitar as oportunidades dessas regiões.  
+
+
+---
+
+95 
+Apenas metade da classe média abastada dos lares entrevistados relataram que 
+consideram marcas de roupas importantes, comparado com 70 a 80% dos 
+entrevistados que disseram que marcas são importantes quando se trata de comprar 
+celulares, carros, comidas e bebidas assim como artigos de cuidados pessoais e bens 
+de consumo duráveis. A boa notícia nesta descoberta é que as marcas ainda não estão 
+fixadas nas mentes da maioria dos consumidores de cidades do interior. Há uma 
+oportunidade considerável para as empresas de vestuário se estabelecerem como 
+líderes com suas marcas no interior (CUNHA et al., 2014).  
+Segundo o estudo, as empresas para conquistarem essa fatia de mercado das cidades 
+interioranas, precisam de tomar as seguintes atitudes: 
+• 
+mapear a vida cotidiana das famílias das cidades do interior com o intuito de 
+descobrir como esses consumidores entram em contato com as marcas e fazem suas 
+escolhas; 
+• 
+construir estratégias de chegada ao mercado eficazes. A maioria das empresas 
+precisam expandir suas pegadas tanto físicas como online nas cidades ou nos 
+conglomerados urbanos, a fim de estar mais perto das concentrações dos lares da 
+classe média. Essa presença física precisa ser apoiada por logística de cadeia de 
+fornecimento e ações de marketing mais pé-no-chão e até mesmo fabricação local.  
+• 
+fazer um upgrade nas suas competências no e-commerce para que a experiência de 
+compra seja confiável; 
+• 
+adotar modelos de negócios inovadores, como por exemplo, introduzir uma variedade 
+de formatos de lojas de escala menor e flexíveis, com conceitos mais viáveis 
+economicamente, se dirigindo a preferências específicas e necessidades dos 
+consumidores do interior. 
+O Brasil é descrito como uma “colcha de retalhos” de pequenos países, com diferenças 
+relevantes no clima, na cultura e até no biotipo da população (LECTRA, 2015).Para uma marca 
+estar presente nas diversas regiões tem que se endereçar aos diferentes estilos de vida desses 
+muitos brasis. As diferenças começam pela percepção da cor devido ao clima, a luminosidade 
+e questões intangíveis como o próprio gosto regional, o que implica em criar uma cartela de 
+cores adequada ao clima e ao gosto de cada região. As diferenças de clima tornam mais 
+complexa a oferta de coleções das empresas que estão em todas as partes do país.  
+Apesar destas diferenças, o antropólogo Darcy Ribeiro abordou a história da formação 
+étnica e cultural do povo brasileiro no livro “O Povo Brasileiro” (RIBEIRO, 1995). Ribeiro 
+(1995) estabeleceu 5 “brasis” diferentes: o Brasil sertanejo, o Brasil crioulo, o Brasil caboclo, 
+o Brasil caipira e o Brasil sulino. Apesar das diferenças desses “brasis”, Ribeiro (1995) 
+acreditava que os brasileiros são um só povo, todos pertencentes a uma mesma etnia, a etnia 
+nacional. “O povo brasileiro é um ‘povo-nação’”, ele afirmava. 
+
+
+---
+
+96 
+Estudos mais contemporâneos discutem a inexistência dessa dicotomia urbano e rural. 
+Há a teoria da urbanização do campo, que traduziria o fim da realidade rural (WANDERLEY, 
+2001). E também há a teoria que reafirma a existência do rural, aproxima o rural-urbano, sendo 
+que mesmo com a aproximação de suas semelhanças, suas peculiaridades não desaparecem 
+(SIQUEIRA; OSÓRIO, 2001). Outra teoria defende o processo de urbanização do campo e a 
+ruralização da cidade (GRAMMONT, 2005). Girardi (2008) afirma que: 
+Falamos na urbanização do campo porque foram incrementadas as ocupações não 
+agrícolas no campo, os meios de comunicação em massa (rádio, televisão, telefone, 
+rádio de ondas curtas) chegam até as regiões mais distantes, as migrações permitiram 
+o estabelecimento de redes sociais e a reconstrução das comunidades camponesas nos 
+lugares de migração com o qual nasce o conceito de comunidade transnacional. Porém 
+também falamos em ruralização da cidade tanto porque as cidades latino americanas 
+se parecem com “grandes fazendas” devido à falta de desenvolvimento urbano, como 
+pela reprodução das formas de organização e a penetração de cultura de migrantes 
+camponeses e indígenas em bairros periféricos onde se estabelecem. 
+Para a indústria da moda aproveitar essa onda de crescimento, será preciso se dirigir a 
+esses consumidores de diferentes regiões, adequando as tendências de moda internacionais ao 
+gosto desses “brasis”, aos tipos de corpos com morfologias distintas e às preferências por cores 
+e estilos muito díspares. O “glocalismo” e a “nativização” da moda são relevantes para as 
+empresas de moda que querem vender para todo o país. As equipes de mercado e de produto 
+das empresas de moda raramente conhecem a periferia da sua própria cidade, de modo que falar 
+de regionalização da moda é uma realidade bem distante da rotina do dia a dia de trabalho de 
+designers e planejadores, todos pressionados pelo tempo. 
+O desafio de fazer roupas adequadas a morfologia de corpos de cada região, não é tarefa 
+simples devido à diversidade. Apesar de já existir um projeto de estudo dos corpos de pessoas 
+em cidades das várias regiões do país, (BASTOS et al., [201-]) o fato é que hoje cada empresa 
+utiliza uma tabela de medidas distinta. 
+Não é raro vestir um determinado tamanho de uma marca e vestir outro tamanho em 
+outra marca, enquanto uma veste bem e a outra não. Isso tem sido um grande problema para os 
+responsáveis pelo desenvolvimento de produto das indústrias e marcas brasileiras, que 
+compromete muito a aceitação de seus produtos. Cada região tem uma morfologia distinta e por 
+consequência exige tabelas de medidas por região. 
+Uma profissional da área de produto de uma grande cadeia de lojas explicou a estratégia 
+de expansão da empresa onde atua: abrir lojas em cidades remotas do norte e centro-oeste. Para 
+adotar essa estratégia, a empresa deveria fazer algo para “regionalizar” seus moldes e tabelas 
+de medidas, segmentando suas coleções. Não basta somente substituir manga longa por manga 
+curta e cor neutra por cor viva, mas é importante tratar o Brasil como um continente com uma 
+
+
+---
+
+97 
+biodiversidade que merece atenção. Numa entrevista com a pessoa responsável pela engenharia 
+de produto de cadeia de varejo concorrente da primeira, a coleta de dados mostrou que não há 
+um ajuste de modelagens por região. 
+Há marcas regionais que pouco conhecemos nos grandes centros metropolitanos do 
+Brasil, que fazem coleções direcionadas para o consumidor das regiões do interior e que têm 
+sucesso na sua proposta de valor. No entanto, quando resolvem expandir para outras regiões, 
+forçosamente acabam por ter que mudar suas coleções. 
+Esse novo cenário faz do Brasil um mercado com imenso potencial para a indústria 
+da moda nacional. As marcas locais podem atender à evolução das classes médias e 
+abastadas do país, especialmente nas regiões ainda não exploradas do interior. Boa 
+parte dessa população ainda não desenvolveu afinidades claras com as marcas, então 
+é a hora de conquistá-la. Se as empresas brasileiras puderem superar as dificuldades, 
+implementando modelos de varejo inovadores e um gerenciamento sofisticado da 
+cadeia de suprimentos, elas terão uma chance de garantir a fidelidade do cliente antes 
+que as marcas internacionais entrem em seu caminho (LECTRA, 2015, p. 4). 
+ 
+3.3. 
+A QUESTÃO DO CUSTO BRASIL E A TERCEIRIZAÇÃO DA FABRICAÇÃO 
+ 
+Apesar de o Brasil já ter tido uma indústria verticalizada, desde o fio até a confecção, a 
+recente tendência de desindustrialização está afetando a produção local. Desde que o alto custo 
+Brasil inviabilizou a fabricação interna, muitos têm terceirizado sua fabricação de roupas e 
+insumos têxteis em países asiáticos de menor custo de mão de obra. 
+Um fator que contribuiu para essa mudança foi a valorização do dólar. Fernando 
+Pimentel, diretor da ABIT, em entrevista ao jornal Valor Econômico menciona que: 
+A valorização do dólar, que já se depreciou nos últimos dias, trouxe, num primeiro 
+momento, uma nova dinâmica na questão de importar ou comprar localmente. Nos 
+últimos dez anos, todo o movimento do grande varejo foi no sentido de ampliar a 
+participação de compras e atendimento das suas necessidades no exterior. No grande 
+varejo, a porcentagem de produtos importados chegou a 25% na média, número 
+bastante impactante para a indústria (FASHION NETWORK, 2016). 
+A competição com os países asiáticos de 2003 a 2015 surgiu com o aumento da 
+importação de vestuário, que nesse período cresceu 23 vezes no Brasil, alcançando um  
+patamar geral da ordem de 15% do consumo, sendo que em determinadas categorias, 
+a participação de produtos importados é muito maior, chegando a 60% ou 80%. Esse 
+foi um período de forte e desequilibrada concorrência para a indústria brasileira de 
+uma forma geral e, evidentemente, para a indústria têxtil e de confecção, em 
+particular, segundo Pimentel (FASHION NETWORK, 2016). 
+Essa tendência exige um esforço de controle da cadeia de suprimentos complexa e 
+fragmentada e desafia as empresas a reduzir o tempo de colocação no mercado.  
+Nos últimos anos, houve uma grande mudança para substituir a terceirização na China 
+para outros países do Sudeste Asiático. Quando se trata de malha em algodão de alto valor 
+
+
+---
+
+98 
+agregado, há uma aposta no Peru, principalmente causada pela alta qualidade do algodão pima 
+peruano de fibra longa e pelo aumento das importações da fibra do algodão brasileiro, o que 
+cria uma escassez para o mercado interno. 
+Essa tendência de outsourcing acabou por dividir o mercado em marcas que apenas 
+controlam o design e o desenvolvimento de produtos, sendo que muitas apenas determinam o 
+conceito e deixam todo o desenvolvimento para ser feito pelos seus fornecedores e marcas que 
+se especializaram em fazer “private label”, ou seja, desenvolver, fabricar todo o produto e 
+comprar a matéria prima. Poucas empresas têm um processo completo interno desde o projeto 
+à produção das roupas e a maioria dessas empresas se localiza em Santa Catarina.  
+O modelo de negócios das grandes empresas catarinenses, quase verticais, constitui dois 
+dos exemplos usados para este estudo, tendo sua própria fabricação têxtil e unidades fabris 
+espalhadas pelo Brasil, geralmente no Nordeste, onde há incentivos fiscais. Antes algodoeiras, 
+fabricavam produtos básicos como camisetas e hoje têm coleções diferenciadas, com sistemas de 
+suprimentos complexos e processos intrincados que são um verdadeiro laboratório de estudo 
+sobre a mudança ocorrida na indústria nacional. Fora as empresas catarinenses, destaca-se o 
+Grupo Guararapes, com suas unidades fabris em Natal e Fortaleza, completamente verticalizado 
+desde a fabricação têxtil ao varejo, exemplo de um modelo de negócios híbrido por incluir 
+desenvolvimento, fabricação e varejo. 
+Um fator que dificulta a industrialização do vestuário aqui no Brasil, seja em empresas 
+que possuem seu próprio parque de confecção, seja por meio de terceirização ou produção 
+própria, é a mão de obra especializada, cada vez mais escassa. Bruno (2016, p. 17) menciona 
+essa problemática no seu estudo sobre a indústria: 
+Um caso exemplar é o desequilíbrio entre oferta e demanda de costureiras industriais. 
+A carência de operadoras de máquinas de costura se deve mais às transformações 
+sociais produzidas pela mobilidade econômica, programas nacionais de transferência 
+de renda, explosão das redes sociais, regimes de cotas universitárias e valorização das 
+identidades e diversidades étnicas e culturais do que ao emprego de novas tecnologias 
+de produção. Jovens de diferentes classes econômicas passaram a compartilhar 
+propostas de futuro semelhantes, onde o emprego industrial tradicional não aparece 
+como opção. Assim, em sentido oposto ao das correntes que promoveram o 
+desenvolvimento tecnológico em muitos setores industriais dos países desenvolvidos, 
+é a escassez da oferta de trabalho que está provocando a necessidade de automação e 
+robotização industrial em setores intensivos em trabalho humano, mesmo em países 
+que possuem grandes contingentes de mão de obra barata. 
+A outra mão de obra escassa nesse setor é a de profissionais de modelagem. A falta de 
+escolas profissionalizantes e o envelhecimento dos profissionais com essa expertise são as 
+causas dessa escassez preocupante. 
+Sobre o desafio enfrentado pelas indústrias brasileiras em relação à questão do custo 
+Brasil, Pimentel, explica a problemática: 
+
+
+---
+
+99 
+O Brasil tem uma estrutura produtiva para confecção muito fragmentada, fruto de um 
+sistema tributário e trabalhista pouco amigável, e eu não estou falando aqui de 
+precarização do trabalho e nem do não pagamento de impostos. Estou dizendo que é 
+uma situação de muita imprevisibilidade, burocracia e complexidade que trazem 
+custos altíssimos, sem que estes representem necessariamente benefícios aos 
+trabalhadores ou competitividade para a empresa. É o emprego de uma quantia 
+importante de recursos que não tem retorno em benefícios, produtividade ou eficiência 
+(FASHION NETWORK, 2016). 
+A indústria têxtil brasileira, como já mencionado na retrospectiva das últimas décadas, 
+vem sofrendo nos últimos anos não só com a concorrência da China, mas com os altos impostos 
+que tornam o custo de fabricação no Brasil pouco competitivo, somado à crise econômica que 
+reduziu o consumo.  
+“Desde o período do plano Collor, sofremos a concorrência internacional”, comenta 
+Fernando Pimentel, diretor da ABIT, em seminário de 25 de abril de 2017. A problemática da 
+indústria de vestuário e têxtil brasileira foi resumida por ele: 
+Então, é preciso que esse novo momento da economia se traduza numa perspectiva de 
+que existe uma visão de futuro. Não é possível conviver e ser competitivo com o 
+chamado tripé do mal: câmbio apreciado, carga tributária elevadíssima e juros 
+extorsivos. E ainda ter que pagar o custo de uma infraestrutura ineficiente, o custo da 
+burocracia e o custo da imprevisibilidade. Não é à toa que o Brasil está vivendo 
+momentos dramáticos (FASHION NETWORK, 2016). 
+ 
+3.4. 
+A LACUNA TECNOLÓGICA E O KNOW HOW ESCASSO 
+ 
+Um fator que desafia o crescimento da indústria do vestuário é a lacuna tecnológica. A 
+implicação dessa defasagem em relação aos outros países produtores de vestuário, resulta em 
+falta de agilidade em processos e falta de coordenação entre as áreas de criação, 
+desenvolvimento de produto e de produção e entre produtores, compradores e fornecedores. 
+Um estudo do Banco Nacional do Desenvolvimento (BNDES) sobre a cadeia têxtil 
+(COSTA; ROCHA, 2009, p. 199) fala dessa problemática: 
+Os esforços inovativos na cadeia TC no Brasil ainda são tímidos e fortemente 
+baseados na compra de máquinas e equipamentos, o que enfraquece a própria 
+estratégia competitiva escolhida e abre cada vez mais espaço para os produtos 
+importados. O país corre o risco de ter sua cadeia desestruturada em território 
+nacional, com um pequeno grupo de empresas formais e competitivas de caráter 
+exportador, ao lado de um grande número de pequenas empresas informais 
+fornecendo para o mercado interno apenas nos espaços não alcançados pelas 
+importações. Na conjuntura brasileira, as empresas têm a seguinte equação a ser 
+resolvida: de um lado, enfrentar as dificuldades tributárias e de acesso a 
+financiamentos, questões de ordem trabalhista, problemas logísticos e de 
+infraestrutura precária, conjugado ao envelhecimento do parque fabril nacional; e, de 
+outro lado, atender de forma adequada às exigências impostas pelos consumidores, 
+fornecedores e concorrentes. Por conseguinte, é fundamental que as empresas 
+procurem desenvolver atividades inovativas de forma colaborativa, visando ao 
+desenvolvimento de soluções que fortaleçam a montagem de sistemas integrados de 
+produção e comercialização, associando grandes empresas a empresas menores, com 
+vistas a diminuir custos de ordem operacional, ambiental, de energia etc. 
+
+
+---
+
+100 
+Uma publicação de 2014 da produtora de softwares para a indústria, Lectra (2015), traz 
+o resultado de uma pesquisa do IEMI realizada em 2013 (LECTRA, 2015), na qual foi 
+comprovado que a maioria das empresas de confecção ainda faz seus moldes no papel e o 
+desenho do produto a mão, o que mostra um nível de adoção de tecnologia muito baixo 
+comparado com outras regiões produtivas do mundo. Nesse estudo, 757 indústrias brasileiras 
+de grande porte foram entrevistadas. Dessas 757, apenas 100 possuíam nesta data 
+departamentos de design, desenvolvimento de produtos (modelagem, gradação) encaixe, corte, 
+costura e acabamento.  
+A adoção de uma tecnologia básica é comum nas áreas de modelagem, gradação e 
+encaixe, mas 76% das empresas ainda fazem design à mão, método utilizado também 
+por 67% das entrevistadas para cortar tecido. Isso demonstra que o nível de adoção de 
+tecnologia e racionalização da produção é baixo [...] A inovação tecnológica consiste 
+em um dos itens da agenda de prioridades para o período de 2015 a 2018 da ABIT 
+(LECTRA, 2015). 
+A consequência de fazer o design e a modelagem manualmente é gerar erros e gastar 
+muito tempo em cada tarefa, reduzindo a produtividade. Em comparação com as empresas 
+internacionais, a forma de trabalhar o design e o desenvolvimento ainda é desconectada e 
+arcaica. O resultado muitas vezes é de produtos sem caimento, custos mais altos e o time-to-
+market longo, ou seja, a chegada ao mercado é atrasada em relação às tendências de consumo. 
+Quando se trata de tecnologia, não significa falar somente de investimento em máquinas 
+e hardware. É relevante mencionar as tecnologias que afetam a competitividade da nossa 
+indústria em relação às outras indústrias do mundo. Para propor a adoção de tecnologia de 
+softwares integrados de compartilhamento de informações para a cadeia têxtil, antes é preciso 
+refletir que nossa indústria está anos atrás de países centrais e mesmo da China e da Índia, no 
+que diz respeito à qualificação da mão de obra. Softwares de Design como Adobe Illustrator e 
+Kaledo, largamente utilizados nos países citados, aqui ainda são raros – a maioria das empresas 
+de confecção brasileiras não investem neles, optando por softwares menos eficientes e mais 
+baratos ou nenhum deles. Quando se trata de modelagem, softwares baratos e piratas 
+predominam nas salas de modelagem de muitas empresas.  
+As consequências da manutenção de uma abordagem tão desconectada e primitiva 
+podem variar da produção de roupas mal ajustadas e desenhos desatualizados até o 
+retrabalho excessivo, um gasto maior de tempo para a colocação dos produtos no 
+mercado e custos inflacionados para embarques atrasados que, finalmente, resultam 
+em um produto ruim a um custo elevado (LECTRA, 2015). 
+
+
+---
+
+101 
+No entanto, nos últimos anos, temos visto nas grandes empresas, núcleos de informática 
+envolvidos em projetos de implantação de ERP25 como o SAP26 e outros em softwares mais 
+intuitivos como o Salesforce (CRM). Poucas empresas do ramo têxtil investem em plataformas 
+colaborativas de compartilhamento e em inteligência competitiva e de análises de vendas, como 
+as já incorporadas em outros tipos de indústria e em países centrais, esses já em fases avançadas 
+de utilização dessas ferramentas. A falta de tecnologia no Brasil esbarra na falta de uma 
+metodologia de processos mais ágeis e na própria imaturidade da indústria quanto a 
+qualificação. 
+Bruno (2016) acredita que, em futuro próximo, a indústria têxtil e de confecção deve 
+intensificar a aplicação de ciência e da tecnologia em toda a cadeia de valor. Segundo ele, as 
+novas tecnologias de impressão em 3D e 4D revolucionarão os modelos de negócios 
+tradicionais. No estudo “A Quarta Revolução Industrial do Setor Têxtil e de Confecção: a visão 
+de futuro para 2030”, Bruno (2016, p. 124) fala de “produção ágil, que reúne os princípios de 
+produção enxuta com os do just in time e do quick response” e de robotização. 
+No entanto, a indústria de vestuário, para aplicar essas tecnologias e métodos terá que 
+adotar uma política de investimento em capacitação de novos profissionais multidisciplinares, 
+além de desenvolvimento de know-how em risco de extinção, como por exemplo, técnicas em 
+modelagem. Em recente atuação em indústria de grande porte, o setor de modelagem possuía 
+um software de modelagem em 3D com a possibilidade de enxergar o caimento de um modelo 
+num avatar antes mesmo de confeccionar um protótipo. A falta de know-how dos técnicos da 
+sala de modelagem impedia que a empresa pudesse desfrutar das vantagens dessa ferramenta. 
+A tecnologia isolada não apresenta soluções sem profissionais que tenham domínio sobre as 
+técnicas de modelagem. Mesmo os softwares mais inteligentes dependem de quem os manipula. 
+ 
+ 
+ 
+                                               
+25 ERP ou Enterprise Resource Planning. Sistema de informática responsável por cuidar de todas as operações diárias 
+de uma empresa, desde o faturamento até o balanço contábil, de compras ao fluxo de caixa, de apuração de impostos 
+a administração de pessoal, de inventário de estoque, enfim, todo o trabalho administrativo e operacional de uma 
+empresa (PORTAL ERP, [201-]). 
+26 SAP é a sigla de Systems Applications Products, empresa alemã, criadora de softwares de gestão de empresas. 
+
+
+---
+
+102 
+3.5. 
+A FALTA DE UMA METODOLOGIA DE DESENVOLVIMENTO DE PRODUTO 
+CONSISTENTE E DE TECNOLOGIA ADEQUADA AOS NOVOS MODELOS DE 
+NEGÓCIOS  
+ 
+A maioria das confecções brasileiras começou num formato pequeno e bem familiar. As 
+metodologias projetuais aplicadas foram desenvolvidas empiricamente, por ensaio e erro.  O 
+processo de pesquisas de muitas empresas ainda é pautado na cópia das tendências e o pior, a 
+cópia da moda de difusão já lançada nas grandes cadeias de varejo internacionais. Segundo 
+Cietta (2017, p. 278), o resultado é sempre estar em atraso, um passo atrás em relação aos outros 
+e ao mercado. “A empresa tem um certo atraso ao copiar: deve atentar-se a uma tendência, 
+transformá-la em um produto próprio e levá-la rapidamente ao seu mercado. Se isso não 
+acontece com a velocidade adequada, o produto chega quando a tendência já tiver passado” 
+(CIETTA, 2017, p. 278). 
+O que ainda é surpreendente é se deparar com confecções que têm visões românticas de 
+que sua coleção está desconectada do mercado, das tendências de consumo, dos modos de vida 
+dos sujeitos. Outra visão equivocada, algo que é bem comum, é a de que os estilistas são artistas 
+e não têm uma lógica ou um método de criação, portanto, é preciso deixá-los livres para 
+exercitar sua criatividade. Essa afirmação sempre soa ingênua e alienada porque o projeto de 
+um produto envolve processos cognitivos e não cognitivos e um método projetual. 
+Cietta (2017), no capítulo sobre planejamento da coleção e gestão de riscos, questiona 
+se a transformação do produto de moda, no contexto contemporâneo globalizado, não teria 
+transformado também, de modo estrutural e permanente, o papel do criativo na empresa e a 
+própria função da criatividade no interior dos processos. Definitivamente esse papel se 
+transformou. Conciliar criatividade com as limitações da empresa em questão, seus processos, 
+sua cadeia de suprimentos e seu parque fabril, com as informações de mercado, não é tarefa 
+simples, além de ser bem arriscada. Portanto, hoje, o papel de um diretor criativo se pauta num 
+instinto muito particular de lançar produtos novos de forma coerente com a estrutura industrial 
+e comercial da empresa.   
+A genialidade do diretor criativo, mencionada por Cietta (2017, p. 278), se referindo ao 
+diretor criativo da marca Bottega Veneta, é dosar sua criatividade, pois aplicá-la 
+descontroladamente é tão perigoso que pode levar uma empresa a ruína. Cietta (2017, p. 281) 
+que raramente viu o conceito de risco ser usado na preparação do planejamento da coleção. 
+“Normalmente, ainda se usa instrumentos e processos que espelham o modo antigo de pensar 
+o estilista como o rei do reino da criatividade” (CIETTA, 2017, p. 281). 
+
+
+---
+
+103 
+Coincidentemente, a experiência de atuação em empresa de porte grande, onde a 
+criatividade deveria ser menos evidente do que em empresas pequenas, a criação era livre até 
+uma certa etapa no final do processo, quando a precificação era feita e o produto era literalmente 
+“reduzido” para se encaixar na faixa de preço almejada. Em outras vezes acontecia o inverso, 
+alguns detalhes ou insumos complicados de serem executados eram adicionados no final, com 
+o intuito de melhorar o valor percebido do modelo. O resultado era um atraso imenso na entrega 
+de peças de mostruário, pois o processo de mudança ocorria numa fase tardia. 
+Outro fator que é comum em muitas empresas é a falta de softwares para diferentes 
+partes dos processos de desenvolvimento de produto. Muitos processos são manuais, a maior 
+parte da informação é escrita em papel e tarefas também são feitas manualmente, tomando como 
+exemplo a ficha técnica, que pode chegar a ter 50 páginas escritas a mão, percorrendo 
+fisicamente o trajeto da cadeia de valor interna ou externa. Informações se perdem ou são 
+interpretadas erroneamente.  
+Muitas empresas não têm um cronograma de ações com visões por departamento e 
+raramente possuem softwares que calculam os tempos e prazos por capacidade instalada. O 
+planejamento de coleção com base em análise de vendas criteriosa ou mesmo com o uso de 
+ferramenta de business intelligence (inteligência de negócios) e big data27, ainda está longe da 
+realidade da confecção brasileira. Algumas empresas ainda compartilham seus arquivos via 
+sharepoint ou as armazenam na nuvem, mas plataformas de softwares integrados são 
+praticamente inexistentes. E se forem questionadas sobre como é o processo de um determinado 
+setor, cada ator do processo em questão contará a sua versão. Isso gera um grande 
+desalinhamento e desorganização, que resulta sempre em retrabalho e inevitavelmente, redução 
+do time-to-market. Falar em desenvolvimento ágil e processos enxutos na indústria têxtil 
+brasileira é ainda considerado visionário. Portanto, qualquer plataforma colaborativa requer 
+premissas claras de inovação em processos antes mesmo de investir em tecnologia para gestão 
+empresarial e de gerenciamento do ciclo de desenvolvimento de produto. 
+                                               
+27 Big data tem relação com os 3 ‘V’s: Volume, que está relacionado à grande quantidade de dados que possuímos 
+dentro e fora da empresa; o segundo é a Velocidade, pois a cada segundo muitos dados novos são criados na 
+internet, e alguns destes dados podem ser interessantes a sua empresa; o terceiro está relacionado à Variedade, 
+sendo que o dado pode ser um compartilhamento de um texto em uma rede social, um post no blog, um review em 
+um e-commerce.Juntando estes três pilares, é possível analisar praticamente tudo que está público, envolvendo 
+dados estruturados, no caso de nós conhecermos a estrutura de armazenamento daquele contexto, e também os 
+dados não estruturados, como imagens, vídeos, áudios e documentos. O objetivo é melhorar os processos de 
+trabalho e adquirir insights valiosos acerca das tendências de mercado, comportamento dos consumidores e suas 
+expectativas (TARIFA, 2014). 
+
+
+---
+
+105 
+4. A PROBLEMÁTICA DO PROJETO DE COLEÇÃO NO CONTEXTO DO BRASIL  
+ 
+A necessidade de obter conhecimento sobre a ciência e a tecnologia está assumindo um 
+papel grande na solução dos problemas do design na contemporaneidade. O mesmo se pode 
+afirmar para o design de moda no momento em que se fala de indústria 4.0. Pode-se dizer que 
+o discurso do design, na contemporaneidade, assumiu um cunho multidisciplinar. 
+Gui Bonsiepe, no seu estudo The Uneasy Relationship between Design and Design 
+Research (BONSIEPE, 2007), levantou a questão da existência de uma tensão entre as 
+atividades relativas a cognição (a pesquisa do design) e as atividades relativas a não-cognição 
+(o projeto ou o design em si). Essa tensão se dá pelo fato de que o designer observa o mundo 
+com o olhar da sua designability (modo projetual de pensar), enquanto os cientistas interpretam 
+o mundo por meio da perspectiva cognitiva28. 
+Bonsiepe (2007, p. 28, tradução nossa) escreveu que “os cientistas e os pesquisadores 
+geram novo conhecimento, enquanto o designer proporciona novas experiências no cotidiano 
+de uma sociedade por meio de produtos, símbolos e serviços, experiências de caráter estético 
+sujeitas à dinâmica sociocultural”. Bonsiepe (2007) reforça a necessidade de encontrarmos um 
+meio termo entre essas duas áreas, a criativa e a cognitiva, não deixando de instigar a 
+competência cognitiva dos designers. Ele escreve que há algo em comum entre o cientista 
+inovador e o designer inovador: a experimentação.  
+Como aplicar o pensamento de Bonsiepe (2007) à pesquisa de moda e à prática projetual 
+de moda, onde a ligação da roupa com o corpo do sujeito tem outras implicações?  
+Pode-se fazer uma analogia em relação a tensão igualmente complicada entre designers 
+de moda (estilistas) e técnicos em modelagem e a relação conflituosa entre áreas de criação e 
+aquelas de engenharia de produto na indústria do vestuário. O designer propõe um conceito 
+para as coleções das indústrias e para o varejo de moda por processos e ferramentas 
+principalmente não cognitivas, muitas vezes associadas a outras mais cognitivas. Os 
+profissionais das áreas de modelagem e engenharia de produto desenvolvem o produto 
+utilizando uma metodologia também projetual, porém com processos que utilizam meios 
+cognitivos pouco intuitivos.  
+Para que o projeto de moda seja eficaz e seus processos fluam dentro de uma empresa, 
+é preciso entender as relações entre pessoas e encontrar um mediador das suas linguagens em 
+                                               
+28 Bonsiepe menciona o termo designability como uma capacidade intuitiva de projetar, em oposição ao processo 
+cognitivo dos cientistas. 
+
+
+---
+
+106 
+cada processo. O objetivo de ter uma plataforma colaborativa para projetar coleções é aliviar 
+as tensões, facilitar diálogos e tornar o projeto como propriedade de todos os atores e suas etapas 
+visíveis em tempo real. Os meios hábeis para tal finalidade é uma combinação de ferramentas 
+metodológicas e tecnológicas, todas elas centradas no fator humano. A forma de trabalho 
+centralizada na figura do estilista é defasada do contexto da atualidade. A solução para isso é 
+descentralizar a criação, por meio de uma equipe multifuncional, presente nas teorias de 
+Papanek, Cross e Buchanan. 
+A discussão sobre a ambiguidade29 da função do designer e sobre a interdisciplinaridade 
+do design será demonstrada nas argumentações dos historiadores e das teorias dos 
+pesquisadores acadêmicos do design industrial, cada qual trazendo sua contribuição com seus 
+respectivos discursos sobre a prática e a pesquisa do design, que, por sua vez, farão parte da 
+fundamentação do design colaborativo proposto neste estudo. 
+As contribuições para compreender a simultaneidade de acepções do design, 
+consideradas adequadas para aplicar ao design de moda são:  
+• 
+o design integrado de Victor Papanek (PAPANEK, 1972); 
+• 
+o design como cultura material por Rafael Cardoso Denis (DENIS, 1998); 
+• 
+o design como uma atividade de solucionar problemas por Richard Buchanan 
+(BUCHANAN, 1992); 
+• 
+a relação entre artefato e usuário por Gui Bonsiepe (BONSIEPE, 2007); 
+• 
+o design como uma forma de dar sentido as coisas por Nigel Cross (CROSS, 2011); 
+• 
+o design centrado no humano, por Klaus Krippendorff (ID KONSTFACK, 2012; 
+KRIPPENDORFF, 2006). 
+ 
+4.1. 
+A NATUREZA AMBÍGUA E INTERDISCIPLINAR DO DESIGN E SUA RELAÇÃO 
+COM O DESIGN DE MODA 
+ 
+Nas últimas décadas, o discurso sobre a natureza do design tem provocado debates, 
+seminários e congressos por toda a parte do mundo. Para chegar a uma proposta de um design 
+de moda mais adequado a contemporaneidade, é importante primeiramente conhecer as recentes 
+                                               
+29 “Ambiguidade não é falha, defeito, carência de um sentido que seria rigoroso se fosse unívoco. Ambigüidade é 
+a forma de existência dos objetos da percepção e cultura, sendo elas também ambíguas, constituídas não de 
+elementos ou de partes separáveis, mas de dimensões simultâneas que, como dizia Merleau Ponty, somente serão 
+alcançadas por uma racionalidade alargada para além do intelectualismo e do empirismo” (CHAUÍ, 1993). 
+
+
+---
+
+107 
+teorias sobre a natureza do design propriamente dito, no intuito de criar uma relação com a 
+prática do design de moda, com as suas especificidades e particularidades. 
+Para compreender o que seria um projeto colaborativo de moda, é importante 
+compreender a própria natureza do design como projeto do artefato roupa e de coleções. 
+O historiador Denis (1998, p. 17), considera o design como parte da cultura material de 
+uma sociedade e no seu artigo sobre o fetichismo dos objetos, questiona a natureza do design: 
+Neste momento em que os avanços da informática tendem a ‘democratizar’ cada vez 
+mais o instrumental básico do designer – desenho, modelagem, projeção, 
+diagramação, impressão etc. – torna-se lícito perguntar até que ponto o profissional 
+de design pode vir a ser substituído por um bom software. Ao meu ver, isso não 
+ocorrerá nunca, pela simples razão que a natureza essencial do design não reside nem 
+nos seus processos e nem nos seus produtos, mas em uma conjunção muito particular 
+de ambos: mais precisamente, na maneira que os processos do design incidem sobre 
+os seus produtos, investindo-os de significados alheios à sua natureza intrínseca. 
+Denis se refere a um certo fetichismo dos objetos que está por trás da própria natureza 
+do design. O surgimento do design historicamente, segundo Denis, remonta ao momento em 
+que se separou trabalho manual e trabalho intelectual nas indústrias, com o advento da 
+Revolução Industrial. O design, segundo ele, é considerado em termos antropológicos, uma das 
+atividades projetuais que visa dar existência concreta e autônoma a ideias abstratas e subjetivas. 
+O produto dessa atividade é o artefato, produzido a partir do trabalho humano. Artefato está 
+ligado na contemporaneidade a cultura material.30 
+Segundo o historiador, o conceito de cultura material “começou a suscitar um interesse 
+renovado [...] no sentido de entender melhor o papel dos artefatos em um mundo em que o 
+consumo de mercadorias e o consumismo constituem-se em fenômenos da maior importância 
+social e cultural”. Denis se refere ao conceito de “sistemas de objetos” de Baudrillard para 
+argumentar que, para compreender a sociedade contemporânea, é preciso abordar a análise 
+desse “sistema de objetos” que a constitui. Mais adiante, Denis (1998, p. 2) questiona onde o 
+design se encaixa nessa discussão sobre cultura material. A resposta é a seguinte explicação: 
+O design ainda exerce uma influência considerável sobre a paisagem semiótica 
+moderna, principalmente no que diz respeito à transmissão de informação [...] O 
+design constitui, grosso modo, a fonte mais importante da maior parte da cultura 
+material de uma sociedade que, mais do que qualquer outra sociedade que já existiu, 
+pauta sua identidade cultural na abundância material que tem conseguido gerar. (1998, 
+p.2) 
+Marcelo Bicudo, define o design como híbrido e transdisciplinar da seguinte forma: 
+“projetar ou fazer design, significa então, decodificar e recodificar a própria cultura, 
+                                               
+30 Cultura material, segundo o próprio historiador Denis (1998, p. 19) é “uma maneira de designar os artefatos que 
+produzimos e consumimos, bem como a maneira em que eles se encaixam em sistemas simbólicos e ideológicos 
+mais amplos [...] A ideia de decifrar os sentidos da cultura de um povo através do estudo sistemático de sua 
+produção material, remonta às grandes descobertas arqueológicas do século XVIII”. 
+
+
+---
+
+108 
+produzindo, através desses processos de tradução, novas linguagens e novas informações. 
+Assim, projetar significa construir híbridos” (BICUDO, 2011, p. 66). 
+Flusser (2007 apud BICUDO, 2011) no seu estudo semiótico, quando este último 
+procurou definir o que é design e como este trabalha em conjunção com a comunicação, em um 
+mundo cada vez mais codificado. Flusser (2007, p. 66 apud BICUDO, 2011) “através da 
+etimologia da palavra, consegue criar uma relação profunda entre arte e técnica”. A partir do 
+estudo de Flusser (2007), Bicudo (2011) descreve a natureza interdisciplinar do designer: 
+Assim, o designer é colocado entre dois mundos, ora aquele que produz artifícios, 
+adentrando o universo das artes, ora aquele que maquina estratégias, no âmbito da 
+técnica. De qualquer maneira, por onde cheguemos, atingiremos o ponto de que o 
+designer é um ser astucioso que engendra maneiras de seduzir seus enunciatários.  Se 
+o equivalente latino do termo grego techné é ars, que significa manobra, de onde 
+deriva a palavra arte, e artista deriva de artifex, que quer dizer impostor, temos que o 
+designer será sempre essa figura que trabalha de maneira a conspirar nas brechas entre 
+esses dois mundos, construindo territórios, definidos nos extratos dos sistemas que 
+cria e, ao mesmo tempo, desterritorrializando, assim como codifica e descodifica 
+aquilo que produz (DELEUZE; GUATARI, 1997). 
+Bicudo argumenta que o design assumiu um grande papel na nossa sociedade pelo fato 
+de que a imagem tem uma relevância alta nos dias atuais. O design também constrói processos 
+identitários, se referindo as “comunidades de destino” mencionadas por Giron (2014). Esses 
+processos se formam porque as imagens produzidas pelos designers são portadoras de 
+significados. “Isso significa que o design assume um poder transformador em nossa cultura” 
+(BICUDO, 2011, p. 67). No diagrama da Figura 11, desenhado pela doutoranda Iana Chaves, 
+um mapa sistêmico explica “qual o significado da palavra design” a partir do estudo semiótico 
+de Flusser (1999). 
+Tais considerações, explicam a posição da palavra design no discurso contemporâneo. 
+Na cultura moderna, houve uma rígida separação entre arte e técnica. A arte está ligada ao 
+mundo estético, qualitativo e intuitivo. A técnica está ligada ao mundo científico, à tecnologia, 
+às máquinas, a tudo que é quantificável e cognitivo. O elo de ligação entre esses dois mundos 
+é uma nova forma de cultura possível. 
+A problemática das diferentes linguagens a que esse estudo irá se referir já se inicia na 
+própria natureza ambígua do “fazer” ou do projetar.
+
+
+---
+
+109 
+Figura 11 – Qual o significado da palavra Design? 
+ 
+Fonte: elaborado por Iana Chaves31. 
+ 
+                                               
+31 Imagem criada a partir de seminário apresentado por Iana Chaves durante a disciplina de Design Posto em Questão (1º semestre 2016) na FAUUSP – Profª Dra. Maria Cecília 
+Loschiavo dos Santos. 
+
+
+---
+
+110 
+Em 2011, numa exposição do Museu Victoria & Albert em Londres, intitulada de The 
+Power of Making, o poder de fazer, foi publicado um ensaio sobre a natureza do making, sendo 
+que nesse estudo, o making, ou o fazer, equivale ao modo projetual de fazer artefatos. No livro 
+publicado sobre a exposição, sete pensadores exploraram as atitudes atuais em torno do “fazer” 
+ou do “design” de artefatos. Um deles, Charny (2011, p. 7, tradução nossa), explica que a 
+diferença entre arte e técnica não deveria existir. 
+Embora haja valor em tudo que é “fazer”, cada vez menos pessoas sabem fazer as 
+coisas que elas usam, precisam ou desejam; ou até mesmo como essas coisas são 
+feitas. Essa é uma herança infeliz da Revolução Industrial, que deu forma ao mundo 
+em que vivemos. A distância entre o “maker” e o usuário está crescendo e, com ela, o 
+conhecimento, a compreensão e a apreciação estão diminuindo. Isso é verdadeiro em 
+vários aspectos da vida e cada vez mais em várias disciplinas profissionais. 
+Charny (2011, tradução nossa) explica que o “fazer” não é domínio exclusivo das artes 
+criativas e que o poder do “projetar” vai além de dar suporte técnico para quem “faz”.  
+O pensamento aplicado é o alicerce da criação de novos conhecimentos de todos os 
+tipos e as sutilezas do ‘fazer’ deveriam cada vez mais fazer parte do nosso futuro. 
+Senão, isso nos levará a um grande prejuízo em valor. A Arte nunca deveria estar 
+separada da Ciência, da Tecnologia, da Engenharia e da Matemática (CHARNY, 
+2011, tradução nossa). 
+Charny (2011) fala que em todos as formas de “fazer”, de projetar artefatos, seja fazer 
+uma renda de lingerie, seja cortar o couro para fazer um sapato ou programar uma máquina 
+impressora 3D, dois aspectos entram em jogo. “Como pode ser feito. E o quanto o designer está 
+apto para isso. A primeira questão tem a ver com a técnica e a segunda com a competência 
+pessoal”. Ele explica que esses são dois grandes poderes do designer. 
+Já a pesquisadora e curadora da exposição citada, Margetts (2011), no seu ensaio “Ação 
+e não Palavras”, reflete sobre o papel do designer em seu processo criativo. Margetts (2011) 
+defende o argumento de que “fazer”, no sentido de desenhar um artefato, é criar novas maneiras 
+de pensar, através de envolvimento com materiais, técnicas e ideias. Ela propõe, em última 
+instância, que “fazer” é uma “revelação do impulso humano de explorar e expressar formas de 
+conhecimento numa gama de emoções”, com a recompensa de experienciar “um senso individual 
+de liberdade e controle no mundo”. A reflexão de Margetts (2011, tradução nossa) corrobora a 
+afirmação de que “a tarefa do design é a de transformar o mundo”32. 
+Fazendo uma referência ao que Denis (1998) descreveu sobre o design como cultura 
+material, a proposta de um design híbrido e transdisciplinar,  na visão de Margetts (2011), na qual 
+o design pode criar novas e diferentes maneiras de pensar, pode-se complementar que o design 
+de moda, diferente do design de outros objetos, lida com um invólucro que reveste o corpo dos 
+                                               
+32 Apontamento em aula de Design Posto em Questão, FAUUSP, 2° semestre de 2015. 
+
+
+---
+
+111 
+sujeitos com signos sociais, ideais, símbolos de sedução ou prazer, entre outros, portanto o papel 
+do designer de moda precisa ser redefinido a partir da própria cultura material contemporânea 
+como um enunciador de novas imagens identitárias para os sujeitos que, por sua vez, se apropriam  
+do  significado e lhe imputam um certo valor. O designer de moda assim deixa de ser somente 
+um projetista e passa a ter uma grande contribuição como decodificador de símbolos e criador de 
+significados na sociedade contemporânea. 
+Indo mais além dessa analogia, o designer de moda na contemporaneidade, exerce um 
+papel importante na democratização dos estilos de vida. Ele torna-se um disseminador do 
+zeitgeist, o aqui e agora, como um fotógrafo que clica um retrato instantâneo da realidade, sendo 
+que as imagens que ele produz constituem a própria linguagem do momento presente. 
+A natureza “híbrida” dos produtos do design de moda é discutida por Cietta (2017), que 
+define que “ a moda tem, na realidade, características que são criativas e não criativas, materiais 
+e imateriais, que fazem dela não simplesmente um outro setor criativo, mas um setor criativo 
+especial”. Ele reforça que a natureza “híbrida” da moda se dá porque ela não se encaixa numa 
+classificação de produtos manufatureiros puros, nem de produto puramente criativo. Ele 
+menciona que não há uma separação clara dessas duas naturezas, a material e a imaterial. Na 
+cadeia de valor de vestuário existe uma convivência entre as duas naturezas. O produto de moda 
+tem componentes criativos, semi criativos e não criativos. O componente criativo é o processo 
+de design cujo responsável é o estilista; o componente semi criativo é o trabalho do modelista; 
+o componente não criativo é o trabalho de outros atores: os planejadores, os técnicos, os 
+engenheiros de produto e as outras funções administrativas. Portanto, no que concerne à moda, 
+o projeto de coleção, que começa no planejamento e vai até a prototipagem, sempre será um 
+processo híbrido com elementos criativos, cognitivos e ambos elementos juntos.  
+ 
+4.2. 
+A CONTRIBUIÇÃO DAS TEORIAS EM DESIGN PARA ESTE ESTUDO 
+ 
+Embora a ideologia dos designers modernistas hoje seja considerada ultrapassada, por 
+terem criado o mito do papel do designer como um “profeta social acima das vicissitudes 
+históricas” parte das suas teorias não deixa de ter um fundo de verdade, como admitido pelo 
+próprio historiador (DENIS, 1998, p. 18). Um deles, o designer e arquiteto Victor Papanek 
+(1927-1998), nascido em Viena, pesquisou as tribos e os povos primitivos da Austrália, 
+Indonésia, Nova Guiné e os esquimós, com quem viveu. Como escritor e pensador, sua temática 
+foi a do design sustentável e responsável. 
+
+
+---
+
+112 
+Papanek (1995) apresentou uma proposta visionária de um tipo de ensino de design 
+multidisciplinar. O que é pertinente para esse estudo na obra de Papanek (1995) é a proposta de 
+um design integrado que sustenta a teoria de um design de moda feito a partir de uma plataforma 
+colaborativa com a participação do usuário e com a contribuição de múltiplas competências. 
+Na Figura 12, uma ilustração de Papanek (1995) descreve a equipe de projeto mínima: 
+um designer, um sociólogo, um antropólogo, um psicólogo, um ecologista, um arquiteto, um 
+matemático, um biólogo, um engenheiro, um profissional da comunicação e um representante do 
+grupo de clientes, pois, segundo ele, um representante dos usuários tem que fazer parte da equipe. 
+Outras competências poderiam ser desenvolvidas pelos designers como teoria dos jogos, 
+demografia, estatística, economia, ciências da computação, cinema, ciências da terra, ergonomia, 
+climatologia, medicina e legislação, segundo a visão do designer. 
+ 
+Figura 12 – The minimal design team, Victor Papanek 
+ 
+Fonte: Papanek (1995, p. 384) 
+ 
+Richard Buchanan, professor de design, gestão e inovação em Cleveland, se tornou 
+conhecido por ter ampliado o uso do design em novas áreas de teoria e prática, pela sua literatura 
+sobre conceitos e métodos de design interativo (WEATHERHEAD SCHOOL OF 
+MANAGEMENT, [201-]). Seu discurso de “Gestão através do Design” foi o primeiro a dar um 
+
+
+---
+
+113 
+formato ao atual Design Thinking. Buchanan apresentou a outras áreas exteriores ao design, a 
+forma do designer pensar ao lidar com a solução de problemas complexos, cunhado por ele de 
+wicked problems33. 
+Buchanan (1992, p. 7) foi o primeiro a introduzir o conceito de canais ou ferramentas 
+para formatar uma situação de design, intuitivamente ou pragmaticamente, que se dá por meio 
+de identificar as visões de participantes, os tópicos de consideração e a intervenção que se torna 
+a hipótese de trabalho para exploração e desenvolvimento, de modo que a formulação do 
+problema e sua solução andem de mãos dadas e não sequencialmente.  
+“A perspectiva de Buchanan concerne um aprofundamento do conhecimento do 
+pensamento do design numa cultura tecnológica complexa, de modo que haja uma comunicação 
+entre os participantes envolvidos no processo do design” (JOHANSSON-SKÖLDBERG; 
+WOODILLA; ÇETINKAYA, 2013, p. 125, tradução nossa). 
+Para efeito deste estudo, a proposta de Buchanan de design pluralista e complexo é 
+atualmente aplicada à área de moda como uma metodologia para os projetos de transformação 
+por meio de plataformas colaborativas. Segundo o teórico, “o pluralismo da pesquisa projetual 
+sugere que o design é um campo que engloba muitos campos, cada um formado por seus 
+próprios problemas e linhas de investigação” (BUCHANAN, 2007, p. 56, tradução nossa). Cada 
+vez que examina e tenta solucionar problemas, o designer se depara com outros problemas que, 
+por sua vez, requerem um estudo de outros campos. Por este motivo, nos projetos de 
+implementação de um PLM, há pelo menos um representante de cada campo de estudo na 
+equipe de projeto. 
+Bonsiepe (2007), tendo estudado e lecionado em Ulm até 1968, criou e coordenou o 
+Laboratório Brasileiro de Desenho Industrial, em Florianópolis (1984-1987) e lecionou na 
+ESDI (Escola Superior de Desenho Industrial) do Rio de Janeiro. Trabalhou em escritórios de 
+projetos e foi docente em diversas universidades latino-americanas, europeias, norte-
+americanas e asiáticas. Sua perspectiva abrangente do papel do design, unindo a ciência e a 
+tecnologia à prática do design, é relevante para este estudo. 
+A Figura 13, a linha do tempo hipotética do discurso do design, a seguir ilustra as 
+disciplinas utilizadas na prática do design até o início do milênio. A inclusão de temas como 
+branding, sustentabilidade, globalização, identidade cultural, virtualidade, cognição e as novas 
+mídias surgiram, a partir do fim do milênio, no discurso do design. 
+                                               
+33O problema complexo ou wicked foi conceitualmente sugerido por Horst Rittel, um pioneiro do design e projeto, 
+e professor da Universidade da Califórnia, Berkeley (RITTEL; WEBBER, 1973). 
+
+
+---
+
+114 
+ 
+Figura 13 – Hipótese de linha do tempo do discurso de design 
+ 
+Fonte: Bonsiepe (2007, p. 33). 
+ 
+Em seu discurso de 2011, Bonsiepe (2007), explicou que  
+na atual fase histórica, que se caracteriza por uma intensa inovação científica, 
+tecnológica e industrial, torna-se cada vez mais evidente a necessidade de gerar 
+conhecimentos a partir da perspectiva do projetar, sobretudo tratando-se de problemas 
+complexos que excedem o know-how de uma disciplina particular. Tomemos o caso 
+muito divulgado do design sustentável, que excede o know-how de uma única 
+disciplina e exige o trabalho em equipe com ampla base científica, não se limitando 
+aos aspectos ambientais, mas considerando também a sustentabilidade social 
+(BONSIEPE, 2011a). 
+Cross (2011), pesquisador e educador britânico, escreveu uma série de artigos e textos 
+de conferências sobre o tema Designerly Ways of Knowing e em 2011 escreveu o livro 
+"Understanding how designers think and work". Sua formação transdisciplinar permitiu que 
+suas pesquisas etnográficas revelassem o que os designers fazem durante sua atividade 
+projetual, com o objetivo de obter uma compreensão do processo cognitivo próprio do design, 
+o que ele chama de “designerly ways of knowing and thinking”.  
+Para Cross (2011), o conhecimento sobre design reside primeiramente nas pessoas, por 
+meio de estudos empíricos do comportamento dos designers e a reflexão sobre a natureza da 
+
+
+---
+
+115 
+habilidade de projetar, de como desenvolvê-la e ensiná-la. Esse pilar foi denominado por ele de 
+epistemologia do design. 
+O segundo pilar, os processos, são as táticas, as estratégias de projetar, a metodologia e 
+as técnicas a serem aplicadas no projeto. Cross (2011) menciona as maquetes como a linguagem 
+do design, assim como os croquis são a linguagem do design de moda, hoje enriquecidos pela 
+realidade virtual. Esse pilar foi denominado como praxeologia do design. 
+O terceiro pilar, os próprios produtos, nas suas formas, materiais e acabamentos que 
+constituem seus atributos, leva a estudos teóricos da morfologia, ergonomia e configuração dos 
+artefatos que foram denominados de fenomenologia do design. 
+Para fins deste estudo, a contribuição da teoria de Cross (2011) se dará no 
+desenvolvimento de uma metodologia de design de moda colaborativo baseada em três pilares: 
+pessoas, processos e produtos. 
+Klaus Krippendorff, formado pela extinta escola de design de Ulm, portador do legado 
+do pensamento Bauhaus, cunhou o “O Design Centrado no Humano”. De acordo com Ehn 
+(2007, tradução nossa), Krippendorff sugere que 
+o design tem que sair da preocupação com a aparência e a superfície dos produtos 
+tangíveis para projetar materiais e artefatos sociais que tenham condições de fazer 
+sentido para seus usuários, ajudar as grandes comunidades e dar suporte a sociedade 
+que está se reconstruindo numa velocidade recorde e de formas sem precedentes”, 
+escreve. 
+Para Krippendorff (2007, p. 6, tradução nossa), o axioma mais importante para o design 
+centrado no humano é: “os seres humanos não reagem as qualidades físicas das coisas, mas 
+agem sobre aquilo que tem significado para eles”. 
+Em conferência em Estocolmo, em maio de 2012, Krippendorff (2007) relatou a trajetória 
+do discurso da artificialidade para chegar a sua teoria sobre a linguagem e o significado das coisas. 
+Na Figura 14, o teórico da cibernética, mostra a evolução da pesquisa e do projeto em design. 
+Durante a sociedade industrial, onde o fordismo era dominante, quando havia pouca 
+diversidade de produtos e o discurso principal era o das ciências naturais, o foco era na função do 
+produto. Depois, a economia de mercado de massa provocou a diversificação dos produtos e suas 
+múltiplas possibilidades de escolha. Já na era digital, os artefatos passaram a ter uma linguagem, 
+a serem comunicativos, a interagirem com os usuários por meio de interfaces. O momento atual 
+é de uma cultura do design, onde o discurso do design é dominante e onde os produtos têm alta 
+diversidade e devem ser focados no fator humano e no planeta. O resultado da cultura digital 
+promoveu um aumento da participação do consumidor nos produtos. É esse fator participativo, 
+
+
+---
+
+116 
+chamado por Krippendorff (2007) de pensamento de segunda ordem, o qual envolve o 
+consumidor na concepção de um produto, que fundamentará a proposta deste estudo. 
+ 
+Figura 14 – A trajetória da artificialidade segundo Krippendorff 
+ 
+Fonte: baseado em ID Konstfack (2012)34 
+ 
+Quais dos pontos levantados são relevantes para se construir um discurso próprio no 
+campo da moda e do vestuário? A relação entre os processos de desenvolvimento e o significado 
+dos produtos, contextualizada por Denis (1998); o design integrado, abrangente e antecipatório 
+ou o ato de planejar e formatar realizado através de várias disciplinas, por meio das interfaces, 
+proposto por Papanek (1995); a sugestão de Bonsiepe (2007) de ter um mediador entre as áreas 
+relativas a cognição e as relativas a não-cognição por meio de experimentação; a pesquisa 
+focada na trajetória do vestuário na vida social, ou seja, de como as pessoas são convencidas a 
+comprar as roupas, como elas as usam na vida cotidiana e como os produtos refletem ou formam 
+valores e costumes e se comunicam com as pessoas, além de como as pessoas usam os produtos 
+para se comunicar (BUCHANAN, 2007, p. 64); finalmente, o design não deveria tratar somente 
+de fazer coisas mas fundamentalmente dar sentido às coisas, portanto, o ato de projetar é uma 
+atividade criativa que cria produtos que fazem algum sentido para seus usuários Krippendorff 
+(2007). 
+                                               
+34 Tradução da figura apresentada pelo próprio autor em ID Konstfack (2012) 
+
+
+---
+
+117 
+Na Figura 15, pode-se ver uma comparação dos diferentes discursos dos teóricos do 
+design, no sentido de ilustrar a sua relevância para uma proposta de metodologia projetual para 
+a indústria da moda. 
+ 
+Figura 15 – Diferentes discursos do design e sua relevância para este estudo 
+ 
+Fonte: adaptado de Johansson-Sköldberg, Woodilla e Çetinkaya (2013). 
+ 
+O setor têxtil e de vestuário precisa ter seu próprio discurso, no entanto, a contribuição 
+dos teóricos do Design Industrial pode ser utilizada em projetos de plataformas colaborativas 
+de desenvolvimento de coleções de moda, por meio de equipes multidisciplinares, levando em 
+conta fatores tecnológicos, culturais e sociais, com o claro intuito de criar coleções inclusivas 
+e ambientalmente responsáveis plenas de significados desejáveis para os sujeitos.  
+Antes de propor um mediador para os diferentes diálogos do setor de moda, será 
+necessário analisar que elementos compõem as plataformas referidas – pessoas, processos e 
+produtos, assim como ferramentas utilizadas no projeto de coleções. 35 
+ 
+ 
+                                               
+35 Os subcapítulos seguintes são mais fundamentados em experiência prática do que em pesquisa teórica. Algumas 
+referências serviram de base de comparação e emprego da terminologia adequada ao ramo de atuação da autora. 
+processos e produtos
+design  multidisciplinar
+design colaborativo e 
+participativo
+integração da ciência e da 
+tecnologia na vida 
+cotidiana da 
+sociedade(relação 
+artefato/usuário)
+ produtos, processos, 
+pessoas
+criação de significado e a 
+interação com todos os 
+stakeholders
+Metodologia projetual, 
+cognitiva e epistemológica: os 
+modos dos designers de 
+conhecer e pensar 
+Investigação do Design para 
+Análise e solução de 
+problemas complexos
+Design, Arquitetura
+      Papanek 
+design sustentável
+Design Visual e Design de 
+Interfaces  
+Denis
+ História 
+cultura material
+o Design Centrado no Humano
+Krippendorff
+Filosofia e Semântica
+Bonsiepe
+Cross
+ Filosofia, Retórica e  Artes
+Arquitetura, Desenho 
+Industrial, Design 
+Computacional (CAD)
+ Desenho Gráfico,  
+Arquitetura, Desenho 
+Industrial
+Buchanan
+COMPARAÇÃO DOS DIFERENTES DISCURSOS DO DESIGN E SUA RELEVÂNCIA PARA ESTE ESTUDO
+AUTOR
+FORMAÇÃO
+CONCEITO CENTRAL
+RELAÇÃO COM 
+DESIGN DE MODA
+
+
+---
+
+118 
+4.3. 
+A 
+EVOLUÇÃO 
+DOS 
+PROCESSOS 
+DE 
+DESIGN 
+DE 
+MODA 
+E 
+DO 
+DESENVOLVIMENTO DE PRODUTOS NA INDÚSTRIA DO VESTUÁRIO 
+ 
+No momento desafiador em que estamos, se faz urgente rever alguns valores da prática 
+projetual de coleções de moda e ressignificar o próprio papel do estilista dentro das empresas 
+de vestuário. 
+Hoje existem modelos de Processos de Desenvolvimento de Produto (PDP) com 
+abordagens distintas36. Embora cada modelo de negócios da cadeia têxtil requeira um tipo de 
+modelo de desenvolvimento de produto diferente, podemos dizer que há uma característica 
+comum entre eles no que diz respeito às grandes etapas do desenvolvimento de produto. A 
+indústria têxtil, por ser muito específica e lidar com mudanças muito rápidas, precisa ter seu 
+próprio modelo de PDP, adaptado a cada modelo de negócios. 
+Para contextualizar as mudanças radicais que causaram o encurtamento do ciclo de 
+produto, de 1980 aos dias de hoje, é importante exemplificar o modelo de processo de 
+desenvolvimento de produto como era feito no século passado, antes da globalização e 
+compará-lo com o modo como é feito hoje na indústria do vestuário.  
+Nos anos 80 e 90, o método de desenvolvimento utilizado pela empresa Levis do Brasil 
+já tinha um fluxo com processos bem desenhados e com 3 stage gates37 distintos. Esse processo 
+clássico tinha três fases macro distintas divididas em: 
+• 
+o pré-desenvolvimento de produto (a pesquisa de moda, a definição de materiais e 
+o planejamento estratégico da coleção); 
+• 
+o projeto de coleção (temas, grupos de produto, mix ou sortimento, criação de 
+croquis); 
+• 
+o desenvolvimento de Produto em si (a modelagem e a prototipagem). 
+Os macroprocessos estão ilustrados na Figura 16 e continuam na Figura 17. 
+ 
+                                               
+36 Segundo apontamentos em disciplina EPR00112 - Metodologia de Desenvolvimento de Produtos, há várias 
+abordagens: a de  Engenharia Simultânea, baseada em Ward et al. (1995); a abordagem dos gates baseada em Cooper 
+(1990); a abordagem do Funil de Desenvolvimento baseada em Wheelwright e Clark (1992); o Desenvolvimento 
+Integrado de Produtos (DIP) baseado em Echeveste (2003) e Rozenfeld, Forcellini e Amaral (2006); o Lean 
+Development, o desenvolvimento de produto enxuto, baseado em Clark e Fujimoto (1991), Womack, Jones e Roos 
+(2004), Ward et al. (1995), Chase (2000), McManus (2005), e Morgan e Liker (2006); a abordagem de Mapeamento 
+Fluxo de Valor PDVSM (Product Development Value Stream Mapping); a abordagem sobre Processo de 
+Desenvolvimento de Produtos por Modelos de Maturidade baseada em Capability Maturity Model Integration 
+(CMMI®), proposto pela Software Engineering Institute (SEI) e a abordagem de Gerenciamento do ciclo de vida do 
+produto - PLM (Product Lifecycle Management) baseada em Abramovici (2007) e Rozenfeld, Forcellini e Amaral 
+(2006). 
+37 Stage gates são momentos de validação por diretores. O processo somente continua após aprovação. 
+
+
+---
+
+119 
+Figura 16 – O processo macro de desenvolvimento de coleções (séc.XX) – parte 1 
+ 
+Fonte: elaborado pela autora. 
+ 
+Figura 17 – O processo macro de desenvolvimento de coleções (séc.XX) – parte 2 
+ 
+Fonte: elaborado pela autora. 
+ 
+O pré-desenvolvimento de produto e suas etapas: 
+• 
+avaliação preliminar do mercado (pela alta gerência de marketing, produto e 
+comercial); 
+• 
+definição do plano macro de coleção com as principais categorias de produto e 
+suas metas financeiras, definição do cronograma de lançamento e do 
+desenvolvimento em si; 
+
+
+---
+
+120 
+• 
+pesquisa de Tendências, geração de ideias e do conceito da coleção através de 
+pesquisa de elementos inspiracionais, tais como cores, formas, texturas, grafismos; 
+• 
+pesquisa e desenvolvimento de matérias primas (tecidos, insumos): as matérias 
+primas eram desenvolvidas com 3 meses de antecedência em relação ao 
+desenvolvimento da coleção, havia um stage gate de aprovação das matérias primas 
+antes do início da coleção. 
+O Projeto de Coleção e suas etapas: 
+• 
+o desenvolvimento do conceito da coleção: o conceito obtido na etapa anterior é 
+convertido em uma versão detalhada dos elementos significativos para o consumidor. 
+Cada empresa utiliza uma metodologia para este conceito e ferramentas distintas. 
+Algumas utilizam-se de vídeos com conceitos de estilo de vida e inspirações em 
+viagens, música, locais, outras se utilizam de um guia que denominam de fashion guide, 
+macrotendências, que define situações de uso e um styling de peças a serem sugeridas 
+para perfis determinados de consumidor, outras empresas pesquisam em sites de moda. 
+Na Levis, entre 80 e 90, essa pesquisa era baseada em materiais de tendências franceses 
+e ingleses e em pesquisa de moda de rua. 
+Apresentação dos conceitos por painéis temáticos ou storyboards: 
+• 
+definição do Plano detalhado de Coleção: definição de quantos modelos em cada 
+categoria (quantitativo) e a definição dos tipos de modelos (qualitativo) para 
+construir um sortimento de coleção (mix); 
+• 
+o desenvolvimento do projeto ou de cada modelo da coleção: criação dos modelos 
+através de croquis, amostras de tecidos e aviamentos e reprodução da cartela de cores 
+em materiais distintos, com cada grupo de cor e material relacionados com os temas 
+definidos. 
+O segundo stage gate era a aprovação dos modelos, que ocorria antes do processo 
+prosseguir para o desenvolvimento. O gerente de produto do segmento ou marca, normalmente 
+validava a proposta. A análise de viabilidade era feita no final quando as peças piloto estavam 
+prontas, depois da aprovação visual e comercial. O fato da análise de viabilidade ser colocada 
+no final do processo, tem a ver com um fator de organização muito diferente do que a maioria 
+das empresas fazem hoje: havia uma aprovação de bases38 de modelagem antes mesmo da 
+coleção ser aprovada. Quando os modelos eram apresentados em croquis no papel para a 
+                                               
+38 Base é um nome comumente usado no meio da confecção no Brasil, alguns chamam de caixa, na Europa e nos 
+Estados Unidos a base se chama basic block. 
+
+
+---
+
+121 
+validação dos gerentes de produto de cada divisão, já havia uma peça piloto com a modelagem 
+base proposta. Cada base, caixa ou bloco tinha sua numeração, alinhada com a linha de fits que 
+a Levis internacional lançava. Naquela época surgiram os fits de jeans baggy, as calças clochard 
+e outras tantas novas formas que, para entrarem na coleção, era preciso um desenvolvimento 
+prévio e uma prova de roupas antes mesmo de serem mostradas para os gerentes de produto. 
+Portanto, essa definição era anterior ao próprio processo de modelagem dos modelos aprovados 
+nos croquis e uma análise de viabilidade dessas bases era previamente feita. 
+O desenvolvimento de produto  
+• 
+especificação dos produtos: momento de elaboração da ficha técnica do modelo 
+com informação dos detalhes, dos componentes e da construção; 
+• 
+modelagem e produção de amostras: nesta fase os moldes são feitos e testados 
+através de amostras. Nas amostras são feitos os ajustes de modelagem e 
+acabamento. Essas amostras ou peças piloto serão os protótipos para a produção; 
+• 
+aprovação das peças piloto: esse é um stage gate importante, embora tratado como 
+algo relacionado ao modelista e ao estilista; 
+• 
+preparação para a produção: aprovadas as peças piloto, a partir delas e da ficha 
+técnica, estuda-se os métodos e os processos para a produção em maior escala 
+(sequência de operações); 
+• 
+manufatura das amostras: nesta fase são produzidas as amostras que seguem para 
+mostruário de representantes comerciais ou para os showrooms. Geralmente essa 
+manufatura serve de base para ajustes dos métodos e processos de produção. 
+O stage gate mais importante é a aprovação final, quando todas as peças piloto da 
+coleção estão prontas. A Levis reunia os principais representantes, clientes importantes e 
+formadores de opinião para selecionar os modelos que julgassem mais comerciais. Um ranking 
+de pontuação classificava os modelos em muito ou pouco comerciais, alguns modelos eram 
+vetados e outros eram colocados na coleção, independentemente da sua classificação, por 
+representarem uma tendência importante ou o DNA da empresa ou por fazerem parte da aposta 
+da direção criativa. 
+O pós-desenvolvimento de produto, em empresas de grande escala, é uma etapa de testes 
+que precede o início da produção, onde os modelos serão feitos em escala maior. Nestes casos 
+há um “pulmão” de produção, um setor para testes de produção, onde a coleção é fabricada para 
+ajustes e testes. Após testada a coleção, há uma avaliação dos registros e dos processos: consiste 
+em conferir e transformar as especificações das etapas do processo para precificação, pesquisas 
+
+
+---
+
+122 
+futuras ou mesmo um versionamento da ficha técnica por motivo de alteração de métodos ou 
+de processos detectados em produção do mostruário ou durante a primeira manufatura de teste. 
+Já no século XXI, com a necessidade de lançar muitas coleções por ano e cada qual com 
+produtos de ciclo curto, médio e longo, há a necessidade de fazer algumas coleções superpostas 
+a outras. Um modelo de referência dos processos macro de desenvolvimento de produtos numa 
+confecção no momento presente, pode ser ilustrado como na Figura 18. 
+ 
+Figura 18 – O processo de desenvolvimento de coleções 
+ 
+Fonte: elaborado pela autora. 
+ 
+Com o recente fenômeno do encurtamento do ciclo de coleção, muitas dessas etapas 
+estão sendo superpostas às etapas seguintes, com uma equipe fazendo simultaneamente uma 
+etapa enquanto outra equipe realiza a etapa seguinte, em diferentes partes da coleção. Um 
+estudo mais aprofundado de cada etapa permite um aperfeiçoamento das metodologias 
+empregadas para desenvolvimento, a fim de evitar múltiplas revisões, iterações e mudanças a 
+cada validação. 
+A tendência de muitas empresas de pequeno porte e das empresas que fazem um design 
+autoral em pequena escala, é não inserir momentos de aprovação ou terem um único stage gate 
+no final da coleção, os chamados big shows, quando não há mais tempo para refazer ou 
+redesenhar os modelos. Geralmente, essas empresas têm a direção criativa do próprio 
+proprietário, o qual preserva a autonomia sobre a tomada de decisão. Nesses casos, quando a 
+marca cresce, é muito difícil mudar a cultura enraizada e antecipar as aprovações.  
+
+
+---
+
+123 
+Em outras empresas maiores, por terem alta distribuição, por serem mais voltadas para 
+processos ou por terem uma metodologia de desenvolvimento de produto implementada, os 
+pontos de aprovação ou stage gates39  podem ser muitos, o que pode “engessar” as equipes de 
+produtos e emperrar os próprios processos com inúmeras alterações. 
+Empresas de grande porte americanas e europeias, sejam elas do modelo de negócios 
+voltado para o varejo ou com fabricação própria, tiveram que reduzir processos numa 
+metodologia lean.40 Hoje a metodologia desenvolvida para a indústria automotiva está sendo 
+adaptada para a indústria do vestuário. O pensamento enxuto no desenvolvimento de produto 
+(lean product development) procura colocar ênfase nas atividades e processos que efetivamente 
+geram criação de valor para o cliente, sendo que um dos principais focos do trabalho passa a 
+ser a redução de desperdícios nestes processos e mais ainda, a busca de soluções parte da própria 
+escala do que é valor percebido pelo cliente. 
+Um resumo do processo inteiro utilizado em grandes empresas americanas e europeias 
+pode ser ilustrado como na Figura 19. 
+Esses processos serão detalhados por área de responsabilidade e relacionados com as 
+pessoas responsáveis e as pessoas envolvidas em todo o processo ou stakeholders nos 
+Apêndices 1 e 2. 
+A autora preferiu incluir o tópico sobre ferramentas pois ele é relevante para a definição 
+de quais ferramentas serão úteis para solucionar os problemas de cada perfil ou função e elas 
+terão que ser levadas em conta na hora de se introduzir um PLM. 
+Richard Buchanan denominou essas ferramentas de placements ou canais. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                               
+39 Stage gates se referem ao modelo de inovação de Cooper (1993). 
+40 O ponto de partida trata-se do "Lean Thinking", ou seja, é definir o que é valor para o cliente, traduzido em 
+produtos e/ou serviços, ou como preferimos dizer, soluções para os clientes. Com esta filosofia, a Toyota tem 
+conseguido, sistematicamente, desenvolver produtos e respectivos processos com menores custos, mais 
+rapidamente e com melhor qualidade do que seus concorrentes (BATTAGLIA; PICCHI; FERRO, 2005). 
+
+
+---
+
+124 
+Figura 19 – Desenvolvimento detalhado de uma coleção 
+ 
+Fonte: elaborado pela autora. 
+ 
+Apesar do design de moda já ter nascido interdisciplinar, ainda assim, percebe-se que a 
+descrição seguinte do desenvolvimento de produto nas empresas é pertinente. 
+No desenvolvimento de vestuário, pode ser difícil identificar onde as 
+responsabilidades de uma pessoa terminam e as da próxima começam, porque cada 
+uma depende das informações da outra: os estilistas não podem escolher tecidos sem 
+saber o orçamento; os modelistas precisam de mais do que um rápido rascunho para 
+fazer a modelagem; os fornecedores precisam de informações precisas sobre as cores 
+para entregar o tecido certo. Ao mesmo tempo, cada elemento – design, 
+desenvolvimento, merchandising etc. – é motivado por prioridades distintas que estão, 
+muitas vezes, em conflito entre si. Para o design, o importante é a criatividade. O 
+desenvolvimento enxerga principalmente o lado técnico. O merchandising, por sua 
+vez, se preocupa com os custos (ROBINSON, 2015). 
+Com o aumento de complexidade  do ciclo de desenvolvimento, existe uma  sofisticação 
+nos controles e no planejamento dos processos de criação e de desenvolvimento, com novas 
+funções e novos atores surgindo, como fusões entre técnicos e estilistas, entre designers gráficos 
+e estilistas, que tanto conseguem fazer o molde em três dimensões utilizando um avatar e um 
+simulador do caimento do tecido, como também são capazes de compreender as necessidades 
+estéticas e culturais que pertencem ao universo do estilista. 
+Com a evolução da tecnologia digital voltada para o desenvolvimento de produto, novas 
+profissões surgirão, exigindo novas competências dos profissionais deste setor, enquanto as 
+profissões que não se adequam mais ao paradigma digital estarão em risco de extinção. Pessoas 
+multidisciplinares serão valiosas nesse setor no futuro próximo. 
+ 
+
+
+---
+
+125 
+4.4. 
+AS FERRAMENTAS, PRODUTOS E SUBPRODUTOS DO PROJETO DE 
+COLEÇÃO  
+ 
+Para entender o contexto onde o design está inserido, um simples diagrama (Figura 20) 
+mostra as principais atividades da área de Design ou Estilo em sua fase de pesquisa e definição 
+conceitual. 
+ 
+Figura 20 – A linguagem do designer 
+ 
+Fonte: elaborado pela autora. 
+ 
+Na Figura 20, estão ilustrados alguns dos elementos que fazem parte da linguagem 
+utilizada pelo designer, relacionados com os processos já descritos no item anterior. Alguns 
+deles resultam de pesquisa imagética intuitiva e outros de processos cognitivos que reúnem os 
+componentes do projeto de produto. 
+As principais ferramentas utilizadas pelos designers nos processos de design de coleções 
+em indústrias de moda podem ser visualizadas no Apêndice 3. Ali se pode perceber as diferentes 
+linguagens utilizadas. Cada subproduto ou entregável é uma forma de comunicar a coleção ou 
+o modelo, seja através de imagens, de códigos, ou descrição do produto. 
+A conclusão a que chegamos é de que durante o processo de desenvolvimento de 
+produtos dentro da indústria de vestuário, existem processos criativos, semi criativos e não 
+criativos, cada qual utilizando ferramentas distintas, com linguagens que não são 
+compreendidas na sua integridade se não forem convertidas ou traduzidas visualmente.  
+
+
+---
+
+126 
+Muitos dos conflitos de uma indústria de confecção está na falta de visibilidade de todas 
+as informações da coleção, desde o planejamento da coleção até sua finalização. Como há 
+aspectos cognitivos e não cognitivos, tecnológicos e intuitivos, a falta de entendimento das 
+linguagens de cada ator acarreta em tensão entre áreas e dificulta o processo como um todo, 
+resultando em risco de inviabilidade e empobrecimento da coleção.  
+Sobre a necessidade de comunicar para colaborar, a produtora francesa de plataformas 
+de PLM, Lectra (2014b, p. 5) esclarece: 
+Conseguir levar a informação às pessoas certas e no tempo certo para tomarem 
+decisões de negócio é um dos maiores desafios para as empresas da indústria da moda 
+em virtude da enorme diversidade e complexidade dos produtos. Respeitar prazos 
+apertados e definir claramente o papel de cada pessoa pode ser tão difícil para uma 
+marca de luxo com um calendário de estações pouco preenchido como para um 
+varejista de moda rápida de produção cadenciada. Quando todos os envolvidos no 
+desenvolvimento podem ver desde o início todos os pontos decisivos, se torna mais 
+fácil avaliar quando se deve tomar decisões e por quem devem ser tomadas. 
+No intuito de resolver as causas das tensões, propõe-se dissolver o trabalho realizado 
+em silos e estimular o trabalho colaborativo em equipes multifuncionais, de modo que desde o 
+momento em que o projeto nasce, ele já é tratado de forma interdisciplinar.  
+No capítulo a seguir, esse assunto será tratado com mais clareza, detalhando-se as etapas 
+de projetos de implementação das plataformas de PLM. 
+ 
+
+
+---
+
+127 
+5. A INTRODUÇÃO DE FERRAMENTAS DIGITAIS COMO UM MEIO DE 
+ESTABELECER DIÁLOGOS DE COLABORAÇÃO 
+ 
+Para solucionar o problema das tensões e da falta de comunicação entre as áreas 
+envolvidas no processo do desenvolvimento de produto nas empresas, poderia se propor a 
+introdução de uma forma de trabalho em equipes multifuncionais com uma troca consistente de 
+informações inerentes aos processos de design, o que significa uma mudança de paradigma.  
+Embora a proposta mencionada trate de aspectos de gestão organizacional e de 
+metodologias projetuais, é válido afirmar que, na busca pelo pensamento enxuto (lean thinking), 
+a busca de atividades e processos com ênfase na criação de valor para o cliente, um dos 
+principais focos do trabalho passa a ser a redução de desperdícios nos processos de 
+desenvolvimento (lean product development). A busca de soluções leva em conta a própria 
+escala de valor do cliente, o usuário final, e envolve o uso de ferramentas digitais facilitadoras, 
+sendo uma delas o objeto deste estudo, o PLM. 
+ 
+5.1. 
+AS DIFERENTES LINGUAGENS COMUNICATIVAS DO SETOR DA MODA E AS 
+TENSÕES ENTRE OS SUJEITOS DO DESENVOLVIMENTO DAS COLEÇÕES 
+ 
+Como explicado antes por Bonsiepe (2007), a tensão entre áreas de aspectos cognitivos 
+e as de aspectos não cognitivos tem suas raízes em um certo desconhecimento sobre a natureza 
+interdisciplinar do design no contexto contemporâneo onde a tecnologia tem uma participação 
+fundamental no processo projetual. Saindo do âmbito do design industrial, para tratar mais 
+especificamente do design de   moda, um conjunto de pessoas, entre elas estilistas, designers 
+gráficos e técnicos em modelagem, transforma conceitos, narrativas e significados em produtos 
+tangíveis e comercializáveis. Apesar de todo o processo dentro da indústria de confecção ser 
+realizado por equipes com competências distintas, as equipes têm a tendência de se agruparem 
+ou se isolarem em ilhas ou clusters. Essas ilhas podem não ter fronteiras físicas, porém de fato, 
+elas existem e dificultam o fluxo de compartilhamento de informações. 
+É dessa problemática de troca de conhecimentos e de informações, que faz parte da 
+rotina do setor de moda, que esse estudo procurou tratar. Afinal, o projeto ou design não é 
+eficiente se não houver compartilhamento ao longo de todo processo de desenvolvimento de 
+produtos. Os exemplos vindos das indústrias do vestuário que foram objeto dessa pesquisa, 
+confirmam a tensão entre as áreas criativas e as não criativas. 
+
+
+---
+
+128 
+Durante um seminário ocorrido em setembro de 2015 no Senai de Blumenau, 
+organizado pela empresa francesa de softwares Lectra para a indústria de vestuário, havia uma 
+boa representação de profissionais da área de modelagem, atuantes nas principais empresas de 
+moda do país. Ali pode-se constatar a aversão que os profissionais de modelagem, ou seja, 
+aqueles que fazem os moldes das roupas e concretizam o projeto criado pelo estilista, sentem 
+em relação aos estilistas. Essa complicada relação entre modelistas e estilistas pode estar 
+relacionada com algo ainda maior, a falta de diálogo entre as áreas onde os processos são 
+realizados por meios cognitivos e aquelas onde os processos são intuitivos, sendo esta a 
+problemática que esse estudo se propõe discutir. 
+Vale citar o exemplo de uma empresa catarinense de moda feminina, que tem sua sede 
+muito bem projetada, num prédio único, com galpão de pé direito alto, que chama a atenção 
+dos visitantes pelo fato de ser decorado primorosamente e ter um estilo Bauhaus em meio a um 
+campo verdejante. Lá havia uma curiosa divisão dos setores, que dispunha as áreas de criação 
+e produto de um lado do andar térreo e as áreas comerciais, financeiras e administrativas, do 
+outro lado. A ilha da criação é colorida, lúdica, intensa, agitada e a temperatura deste setor 
+curiosamente parece mais quente. A outra ilha, o setor administrativo, mais silencioso, calmo, 
+parece mais frio que o lado onde a área de criação se situa. Ao transitar entre os dois setores, 
+percebe-se a diferença entre eles mais facilmente. Quem vem de fora nota algo muito peculiar 
+que distingue a área de produto da área administrativa. Parece uma simples divisão, porém ela 
+coincide com a diferença entre os lados yin e yang das indústrias da moda. Existe algo muito 
+mais complexo na relação entre diferentes atores do processo de desenvolvimento de produto 
+do que a disposição física e a temperatura ambiental. 
+Em outra empresa catarinense, de moda infantil, no início de um workshop de revisão 
+de processos com utilização de uma técnica com mapas sistêmicos, um representante de cada 
+equipe dos setores do projeto estava presente: um designer gráfico, uma estilista de uma das 
+marcas, a coordenadora do setor de modelagem, a gestora da engenharia de produto, uma 
+engenheira de processos, uma gerente de produtos, um gestor de produtos têxteis e uma gestora 
+de marketing.  
+A ideia desse workshop era compreender de que forma cada ator do processo de design 
+desta empresa se comunicava e que linguagem usava. Embora o exercício fosse individual, três 
+equipes se formaram por iniciativa própria. O exercício era desenhar o processo de fazer uma 
+torrada. Embora parecesse ser algo muito simples, as três equipes fizeram desenhos e relataram 
+seus processos de formas muito distintas. A equipe de engenheiros de produto, que incluía a 
+responsável pela modelagem, desenhou um processo milimetricamente detalhado, desde a 
+
+
+---
+
+129 
+plantação do trigo, passando pelo transporte do trigo ao local onde se faria o pão, depois onde 
+seria vendido e o transporte deste até a residência do usuário.  Ilustrou as ferramentas utilizadas 
+para fazer o pão, dando detalhes dos ingredientes que iriam ser utilizados para se comer junto 
+com a torrada. O outro grupo, que reunia pessoas de criação em sua maioria, fez um desenho 
+mais lúdico, esteticamente agradável para mostrar como iriam fazer a torrada a partir de um pão, 
+sem detalhar muito os processos, mas muito bem desenhado como uma história em quadrinhos. 
+O terceiro grupo reunia as pessoas de marketing, a analista de vendas, o gestor de produto e a 
+gerente da marca. Esse grupo fez um desenho mais simples do que todos os outros desenhos, 
+pois a proposta era comprar a torrada pronta, que seria entregue por um caminhão. Detalhes 
+como ferramentas e processos foram esquecidos por este último grupo.   
+O resultado mostrou que as pessoas se agrupam por afinidade e que cada pessoa estava 
+certa dentro do seu modo de atuar e pensar o processo. A equipe de marketing enxergava a 
+perspectiva global, a equipe de criadores pensava no processo de forma mais lúdica e 
+inspiradora, enquanto a equipe de engenheiros pensava em detalhar o processo complexo inteiro 
+de fabricar uma torrada, entregar e preparar num passo a passo que não omitia nada da cadeia 
+de suprimentos relacionada a fabricação e o modo de consumir o pão.  
+Esse workshop foi uma espécie de preparação para os workshops seguintes de 
+detalhamento de 
+processos 
+que envolveriam equipes 
+multifuncionais 
+de 
+criação, 
+desenvolvimento e planejamento de coleções. Todas as etapas que se seguiram foram cheias de 
+discussões e conflitos e precisaram ser mediadas por um profissional de gestão de pessoas. Via-
+se ali que cada um enxergava o processo de desenvolvimento de coleções segundo a sua ótica. 
+Embora houvesse um bom clima organizacional nessa empresa, a diferença de linguagens 
+comunicativas entre os tipos de atores era uma barreira para a realização do projeto. 
+Numa outra situação, durante atuação em outra empresa de confecção catarinense de 
+grande porte, a autora estava baseada numa área fornecedora de insumos para o setor de estilo, 
+que fazia interface com as áreas de engenharia de produtos e as áreas industriais. Pelo fato de ter 
+atuado como designer durante tantos anos, era natural perceber claramente a linguagem da área 
+criativa. A formação técnica favorecia a tradução das necessidades da área de estilo para as áreas 
+industriais. Toda a área industrial e de engenharia se queixava da área criativa, da dificuldade de 
+obter as informações corretas, das mudanças de última hora, do refazimento das peças piloto, que 
+causavam um impacto grande nos atrasos das entregas de mostruários de coleção. A área de estilo, 
+por sua vez, se sentia limitada no tempo, tendo que produzir muitos modelos por dia, sem ter 
+tempo para projetar o produto, pesquisar e planejar a coleção, sendo refém de cronogramas 
+incoerentes. Curiosamente, durante as reuniões com a área de engenharia e planejamento, 
+
+
+---
+
+130 
+percebia-se claramente o antagonismo entre essas áreas e a área de estilo, considerada nesse 
+contexto como a vilã dos atrasos das coleções.  De fato, a causa desses atrasos se originava no 
+próprio processo falho de planejamento de atividades por recurso, em metas inalcançáveis e nos 
+prazos irreais. Naquele momento, ficou claro que as diferentes equipes trabalham em ilhas e 
+hostilizam as outras como se fossem suas rivais. Era inútil explicar para certos componentes da 
+equipe de engenharia, que a área de estilo era o cliente interno e não se hostiliza um cliente, muito 
+pelo contrário, procura-se compreendê-lo e dar-lhe apoio.  
+Quando uma integrante da equipe da engenharia literalmente declarou: “Elas (as 
+estilistas) pensam diferente de nós e não estão do nosso lado. Apoiar a outra equipe é falta de 
+parceria”, o antagonismo ficou evidente.  Essa colocação serviu para elucidar a razão do 
+conflito: a linguagem dos setores era diferente e apesar de terem o mesmo objetivo de 
+desenvolver uma coleção comercial, dentro dos prazos e margens propostas, a área de criação 
+não era compreendida nas suas necessidades pela área de engenharia de produtos, e esta, 
+ignorava as necessidades de tempo e de recursos para cumprir as etapas do processo de 
+pesquisa, ou seja, o alicerce do projeto. Não se levava em conta o tempo necessário para o 
+processo de pré-criação, quando se constrói os conceitos da coleção. Informações importantes 
+não eram compartilhadas, tais como datas limites de entrega das coleções e os prazos para as 
+atividades detalhadas que precedem o design. A comunicação era falha e isso tinha um impacto 
+muito grande no time-to-market e no resultado final. 
+O modo projetual de pensar, the designerly way of thinking41,cunhado pelos teóricos do 
+design, sem o qual não se consegue projetar com eficácia, muitas vezes é ignorado pelas áreas 
+não criativas das empresas e pelos sujeitos que não são voltados para a inovação.  
+Fatos como esses indicam a necessidade de um mediador entre áreas conflitantes, que 
+traduza as diferentes linguagens. O grande desafio a partir desse contexto é construir pontes 
+entre as ilhas invisíveis que as equipes constroem, no intuito de formar um sentimento de 
+comunidade e de pertencimento que induza à colaboração e integre as áreas historicamente não 
+afins. Essa é uma tarefa que requer ferramentas de mudança de cultura e de formação de equipe, 
+que estimulem a colaboração e a empatia entre os sujeitos do desenvolvimento. No âmbito das 
+empresas, razão e emoção precisam conviver juntas. Aspectos cognitivos e não-cognitivos 
+fazem parte da rotina das empresas onde o design é considerado central. Para se criar novas 
+                                               
+41 “Nas duas décadas passadas, vimos uma mudança significativa de foco dentro do meio da pesquisa em design. 
+É uma mudança do objetivo de criar uma ciência do design para o objetivo de criar uma disciplina do design.  O 
+foco agora é entender o processo através da percepção da cognição do design, ou seja, a ‘designerly’ ways of 
+knowing and thinking” (CROSS, 2007). 
+
+
+---
+
+131 
+formas de comunicação, é necessário constituir um facilitador que contribua para a cooperação 
+entre pares e equipes, já que no setor de moda todo o trabalho é interdisciplinar. 
+ 
+5.2. 
+A 
+NECESSIDADE 
+DE 
+CRIAR 
+UM 
+MEDIADOR 
+DAS 
+DIFERENTES 
+LINGUAGENS E DE VIABILIZAR DIÁLOGOS DE COOPERAÇÃO ENTRE OS 
+ATORES DO PROJETO DE COLEÇÃO 
+ 
+A era da conexão e da mobilidade, apesar de dispor de todas as ferramentas para a 
+compartilhamento de informações está longe de ser verdadeiramente agregadora (LEMOS, 
+2005). 
+Ortiz (2009, p. 247) reforça essa hipótese dizendo: 
+O mundo está, certamente, interconectado, mas não, necessariamente, integrado. É 
+indubitável a existência de um sistema mundial de comunicação (internet, satélites, 
+computadores, cabos ópticos, telefone celular) que propicia o contato entre lugares 
+distantes do planeta. Mas não devemos esquecer que a noção de conexão é de natureza 
+técnica. Sua materialidade não garante a integração entre as pessoas, ela não gera uma 
+“consciência coletiva global”. A realidade de uma rede eletrônica não é a mesma de 
+uma rede de relações sociais, muito menos de uma “comunidade global”. 
+A falta de integração apesar da existência da possibilidade de conexão técnica, como 
+mencionada por Ortiz (2009), também se reflete na indústria têxtil e de vestuário do Brasil. Em 
+empresas que já possuem novas tecnologias de gerenciamento dos dados das suas coleções, ainda 
+há uma grande dificuldade de compartilhamento tanto de informações como de conhecimento. Na 
+maioria das empresas pesquisadas, a comunicação interpessoal está longe de refletir um sentimento 
+de comunidade e de pertencimento. 
+Como mencionado anteriormente, os processos de design de coleções de moda se 
+dividem em etapas: a etapa inicial do processo que dá sustentação ao negócio da empresa, ou 
+seja, o planejamento da coleção, a segunda etapa do design da coleção propriamente dito e uma 
+etapa de desenvolvimento que executa o projeto, para chegar numa última que dá sustentação 
+ao projeto e em última análise, ao negócio, quando se analisa os resultados e se cria inteligência 
+para as próximas coleções. Nesses processos, há elementos cognitivos e outros não cognitivos. 
+Dificilmente um estilista consegue ter todas as competências necessárias. Portanto, a ideia de 
+propor equipes interdisciplinares partiu da exploração das teorias da pesquisa de design para 
+depois somar as correntes contemporâneas de design interativo, design centrado no humano e 
+as correntes de inovação que falam de capital intelectual, onde a colaboração é criação de valor 
+para a empresa e para a sociedade. 
+
+
+---
+
+132 
+Uma forma de melhorar a comunicação entre áreas e pessoas é usar ferramentas visuais 
+que estimulem a compreensão das diferentes linguagens entre equipes. Bonsiepe (2007) 
+menciona os recursos audiovisuais que existem hoje, ferramentas gráficas capazes de traduzir 
+signos e linguagem em imagens, já que o discurso hoje se transformou em “viscurso”, termo 
+cunhado por ele, para designar a linguagem visual. 
+Geralmente, a linguagem visual se restringe a área de criação em si e poucas são as 
+empresas que conseguem que essa linguagem permeie toda a organização. Geralmente, os 
+analistas de produto e os técnicos em modelagem lidam com ferramentas que não têm a mesma 
+capacidade de comunicar o conceito inicial do produto concebido, podendo gerar falhas de 
+comunicação e fazer com que o projeto do produto seja mal interpretado e que surjam versões 
+que estão longe de refletir a ideia do estilista.  
+A inovação em softwares voltados para a indústria e o varejo da moda, já está avançando 
+em pesquisa e desenvolvimento de ferramentas que permitem a comunicação de uma ideia, um 
+conceito, mais claramente no âmbito do design de moda, usando recursos audiovisuais 
+intuitivos que aproximam o virtual do real. Imaginemos um mundo onde será possível enxergar 
+o produto em 3 dimensões antes mesmo de ser confeccionado, analisar o caimento do modelo 
+sem precisar fazer o protótipo com o tecido definitivo e até mesmo enxergar o sortimento da 
+coleção dentro de uma loja virtual, podendo escolher cenários diferentes. A tecnologia em 
+softwares para esse setor está na 4ª geração e já tem soluções com esses fins. No entanto, é 
+preciso entender que, para mediar as diferentes linguagens dos atores dos processos de moda, 
+é preciso conhecer um pouco do sistema semiológico da moda (MONNEYRON, 2007). No 
+desenvolvimento de coleções de vestuário é preciso armazenar conhecimentos dos atores do 
+processo e permitir que eles fluam de um ator para outro sem barreiras. Uma plataforma de PLM 
+é um ambiente onde todos os usuários organizam seu próprio “espaço virtual” de trabalho para a 
+busca, obtenção, armazenamento e troca das informações dos produtos. Essa plataforma virtual é 
+uma forma de vincular todos os principais processos de negócios, as pessoas e os produtos de 
+uma empresa e ter uma única versão da verdade, ou seja, uma visão panorâmica e detalhada do 
+desenvolvimento de produtos de uma empresa ou marca. 
+Monneyron (2007, p. 82) explica como Roland Barthes diferenciou os três tipos de 
+linguagens do sistema da moda: “a roupa imagem, que é ‘fotografada ou desenhada’; ‘a roupa-
+escrita’, que é ‘descrita e transformada em linguagem’ e a ‘roupa real’ que as duas primeiras 
+representam”. Monneyron (2007) explica que Barthes aplicou um procedimento semiológico a 
+roupa, cuja tradução do real para a imagem se faz pelo molde de costura; a tradução do real 
+para a linguagem se dá pelo “programa de costura”, ou seja, o que é chamado na indústria de 
+
+
+---
+
+133 
+confecção, de sequência operacional e que funciona como uma receita ou um manual de como 
+fazer a roupa. A outra forma de tradução é a da imagem para a linguagem, pois a “roupa-escrita” 
+é definida com anáforas da língua, geralmente usadas pela mídia de moda para descrever as 
+roupas (ex: um jeans com pata de elefante ou flair, uma saia midi, um pantacourt). Essa última 
+é a linguagem das revistas de moda e dos estilistas. 
+Barthes (1967) explica que “a sociologia da moda está, toda ela, voltada para o vestuário 
+real, enquanto a semiologia para um conjunto de representações coletivas”. Barthes ainda 
+percebe outro tipo de linguagem, o storytelling, ou a narrativa da marca. Se por um lado há a 
+linguagem interna das empresas com todo um “código indumentário”, por outro lado a 
+comercialização cria um sistema retórico que atua tanto no nível do significante quanto no do 
+significado e no do signo (BARTHES, 1967, p. 277; MONNEYRON, 2007, p. 83). 
+As diferentes linguagens precisam ser traduzidas, mediadas e compreendidas. Somente 
+o uso da tecnologia não é suficiente para tal fim. Quanto às plataformas colaborativas, para que 
+os meios digitais possam facilitar os processos comunicativos, é preciso integrar não só os 
+processos e as ferramentas, mas principalmente as pessoas. 
+Lemos (2005, p. 9) conclui alguns pontos relevantes sobre a sociedade de comunicação 
+em que estamos inseridos 
+a disseminação de instrumentos de informação não necessariamente melhoram a 
+performance comunicativa”; “não há determinismo técnico nesse sentido, e o controle 
+sobre o quotidiano, tendo o celular (ou outros meios digitais), como um controle 
+remoto da vida, não garante a construção de uma sociedade da comunicação aberta, 
+melhor ou em direção ao entendimento; o determinismo tecnológico deve ser aqui 
+rechaçado e as máscaras da ideologia reveladas. A era da conexão não é 
+necessariamente uma era da “comunicação”.  
+ 
+5.3. 
+AS PLATAFORMAS DIGITAIS DE GESTÃO DE CICLO DE VIDA DO PRODUTO 
+OU PLM (PRODUCT LIFECYCLE MANAGEMENT) COMO FERRAMENTA 
+COLABORATIVA 
+ 
+O controle sobre todo o processo do ciclo de desenvolvimento de produto é uma maneira 
+de garantir que os produtos sejam criados de acordo com o conceito e o planejamento da 
+coleção, dentro das limitações técnicas e orçamentárias que o próprio modelo de negócios 
+impõe. Para garantir que o projeto de coleção se realize com os resultados esperados, 
+plataformas de softwares interligados dão visibilidade a todo o processo e permitem a tomada 
+de decisões em tempo hábil. 
+
+
+---
+
+134 
+Nos Estados Unidos, na Europa, na China e na Coréia, esses conjuntos de softwares já 
+são amplamente utilizados nas empresas de moda. Mais do que um simples sharepoint ou um 
+espaço de armazenagem dos dados da ficha técnica dos produtos, esses softwares integrados, 
+muitas vezes alocados em nuvem, outras vezes num ambiente virtual em rede, armazenam um 
+grande número de informações num local único alimentado por todos os atores envolvidos no 
+projeto de coleção. As recentes evoluções desses softwares permitem o seu uso em dispositivos 
+móveis, o que já seria a 4ª geração da tecnologia. 
+As plataformas de gestão de ciclo de vida de produto inicialmente foram desenvolvidas 
+para outras indústrias, como a automotiva para depois serem adaptadas para a indústria da 
+moda.  
+O que é um PLM, a plataforma de gerenciamento do ciclo de produto de moda?  
+O gerenciamento do ciclo de vida do produto, também conhecido como sistemas de 
+Product Lifecycle Management (PLM), oferece uma oportunidade para a integração, 
+tanto interna quanto externa da organização. O PLM consiste em um conjunto de 
+métodos, modelos e ferramentas de informação utilizadas para gerenciar as 
+informações sobre o produto e processos durante as diferentes fases do ciclo de vida 
+do produto, entendendo o ciclo de vida como todo o período compreendido desde a 
+concepção de um produto até sua obsolescência, passando pelas etapas de projeto e 
+produção. Desta forma, a proposta do PLM é integrar pessoas, arquivos, processos e 
+o sistema de negócio e prover uma estrutura de informação para a organização e suas 
+ramificações (ABRAMOVICI, 2007, p. 665). 
+As indústrias de varejo e de vestuário precisam gerenciar a comunicação e as 
+informações entre diversos agentes durante o ciclo de vida do produto. O PLM interliga pessoas, 
+dados, processos e modelos de negócios, fornecendo uma estrutura de informação de produto 
+para as empresas e seus braços. Por meio de um monitoramento da definição de produto e seus 
+componentes, padroniza a informação e reúne as instruções necessárias para a fabricação do 
+modelo, monitorando pedidos de amostras e rastreando as peças piloto até chegar ao cálculo do 
+custo do produto. Permite a visibilidade do status do desenvolvimento do produto em si, como 
+dos seus componentes e as aprovações dos mesmos. 
+Alguns fornecedores de softwares oferecem uma plataforma que é simplesmente um 
+PDM (Product Data Management), ou seja, um sistema desenhado para gerenciar os dados 
+necessários para gerar uma ficha técnica. O PDM, dentro de uma plataforma de PLM é mais do 
+que um banco de dados da ficha técnica, ele é um ente vivo, que está sempre sendo alimentado 
+por todos os usuários, sempre em mutação, permitindo que todas as mudanças ocorridas no 
+processo fiquem visíveis por todos em tempo real. 
+As plataformas mais avançadas de PLM estimulam a colaboração em diversos níveis. 
+Esses estágios de colaboração são: 
+
+
+---
+
+135 
+• 
+colaboração interna: entre as áreas de design e planejamento, marketing e 
+comercial, compras, sourcing e de logística; 
+• 
+colaboração entre o varejo e seus fornecedores, os confeccionistas, que vai além da 
+tradicional transação de ordens de compras, ordens de produção ou ordens de 
+embarque, pois inclui o fornecedor como um parceiro integrante dos processos 
+próprios da empresa. As plataformas dedicadas ao varejo, por meio de dispositivos 
+de RFDI, monitoram resultados de vendas por meio de softwares inteligentes que 
+armazenam dados para gerar relatórios de análises de vendas e forecasting (previsão 
+de vendas); 
+• 
+colaboração com clientes B2B com a finalidade de receber informações de demanda 
+de produtos e focar ou alterar a coleção em tempo hábil; 
+• 
+colaboração com consumidores finais, não só para saber quais produtos são mais 
+vendidos e a que preço mas para detectar o contexto social que está influindo nas 
+tendências de consumo.  
+O PLM vincula os softwares de suporte ao modelo de negócios, abrigando desde a ideia 
+do produto, passando pelo seu projeto, sua produção e em alguns casos até a sua colocação no 
+varejo. Há diversos tipos de PLM voltados para o setor de moda, como os desenvolvidos pelas 
+empresas Dassault Systèmes, PTC, Lectra, Gerber, NGC e Centric Softwares.  
+Entretanto, existe uma visão mais abrangente do que a desenvolvida pela indústria de 
+softwares, uma visão de gestão de processos e de gestão da mudança. Atualmente, diversos 
+autores concordam que o projeto de implementação de um PLM não se refere somente a uma 
+plataforma de softwares, mas está mais relacionado ao conceito mais amplo de gestão, o qual 
+depende da integração de múltiplos componentes e funcionalidades (features) dos diferentes 
+softwares utilizados em toda a cadeia de valor. 42 
+Indo mais além, uma plataforma de PLM pode ser usada como um facilitador da 
+comunicação entre todos os stakeholders e um mediador das diferentes linguagens utilizadas 
+dentro de uma empresa de moda.  A ideia de desenvolver uma cultura colaborativa, seja entre 
+os estilistas e os técnicos, ou entre o varejo e seus fornecedores, é familiar às novas gerações, 
+os millenials e a geração Z. Esses nômades digitais absorvem facilmente o conceito de 
+                                               
+42 Outras funcionalidades do PLM é a integração das informações e da comunicação originada pelos clientes (CRM 
+- Customer Relationship Management), dos recursos dentro da empresa (ERP – Enterprise Resource Planning,) 
+em toda a cadeia de suprimentos (SCM – Supply Chain Management), dos dados do projeto  (CAD – computer-
+aided design), da manufatura do produto (CAM – computer-aided manufacturing), da engenharia de produto 
+(CAE – computer-aided engineering) e de integração do computador a manufatura (CIM – computer integrated 
+manufacturing).  
+
+
+---
+
+136 
+compartilhamento por terem nascido na era da cibercultura, portanto já habituados ao uso de 
+sistemas interativos e de dispositivos móveis desde cedo. 
+ 
+5.4. 
+UM MODELO DE DESIGN COLABORATIVO  
+ 
+As experiências em projetos de implementação de plataformas de softwares integrados 
+de gestão de ciclo de produto (PLM), como pesquisadora participante, instigaram a autora desse 
+estudo a pensar numa metodologia de desenvolvimento de produtos multidisciplinar, 
+inspirando-se em iniciativas, como a do InovaLab@POLI, a disciplina Desenvolvimento 
+Integrado de Produtos e nos estudos de Pesquisa em Desenho Industrial, com enfoque nos 
+teóricos já mencionados. 
+Em recente aula de Inovação e Novos Negócios, da FEAUSP, pode-se ver que os projetos 
+interdisciplinares de alunos de uma nova disciplina de Design Integrado, podem ser prototipados 
+nas impressoras 3D do laboratório InovaLab@POLI em parceria com a Universidade de Stanford. 
+A experiência acumulada no InovaLab@POLI e no projeto com Stanford levou os 
+professores Eduardo Zancul e Roseli Lopes a propor uma nova disciplina de 
+graduação, com abordagem multidisciplinar, focada em desenvolvimento de produtos 
+inovadores. A disciplina prevê a participação de alunos de toda a USP, atuando 
+conjuntamente. De acordo com os professores responsáveis, serão 10 equipes, cada 
+uma composta por seis alunos, sendo três das engenharias, um da administração ou 
+economia, um aluno de design ou arquitetura e mais um aluno de outra especialidade 
+da USP. “Essa composição de equipe, com diferentes perspectivas, tem como objetivo 
+gerar soluções mais inovadoras e mais alinhadas com as necessidades da sociedade. 
+A multidisciplinaridade permite melhor entendimento dos requisitos, melhor 
+aproveitamento de ideias complementares, bem como melhor exploração das 
+possibilidades técnicas”, explicam. As soluções serão desenvolvidas e prototipadas no 
+InovaLab@POLI (POLI-USP, 2014). 
+Um dos projetos mencionados nesta visita foi contratado por conhecida empresa de 
+aeronáutica e tinha como objetivo desenvolver meios de acessibilidade nos aviões e aeroportos 
+para pessoas com dificuldades de locomoção.  
+ Traduzindo a ideia da disciplina para a área da moda, porque não reunir mentes de 
+diferentes competências para criar soluções projetuais eficazes e produtos mais adequados a 
+realidade brasileira regionalizada? 
+A experiência em projetos de Mudança Organizacional por meio das plataformas de 
+PLM, em 3 empresas de Santa Catarina, duas delas de porte médio e uma de grande porte, cada 
+qual com suas características e modelos de negócios distintos, trouxe as seguintes informações: 
+• 
+cada empresa tem uma identidade de marca e modelo de negócios únicos, seus 
+próprios processos e seu próprio vocabulário, portanto cada projeto de 
+
+
+---
+
+137 
+implementação de tecnologias colaborativas tem que levar em conta o DNA da 
+empresa e sua narrativa ao traçar uma linha do tempo para a mudança de cultura; 
+• 
+cada equipe das áreas de design e de desenvolvimento de produto, de cada empresa, 
+tem diferentes linguagens comunicativas, portanto, a solução tecnológica tem que 
+refletir uma linguagem comum a todos; 
+• 
+a gestão da maioria das grandes empresas, na sua maioria, é míope em relação a 
+questão da linguagem do design, seja ela projetual, criativa, técnica ou de inovação 
+e muitas vezes nem percebe a importância de retenção de seu capital humano e 
+intelectual; 
+• 
+os jovens estilistas e designers de moda geralmente são de uma geração de 
+millennials, portanto, têm uma mente já inclinada à interatividade e à comunicação 
+por meios digitais. São ávidos por inovação e sabem interagir em equipe. Falta-lhes 
+uma metodologia, uma visão projetual, a formação em modelagem, conhecimento 
+de materiais e mais do que tudo, tempo e recursos para uma pesquisa voltada para 
+o usuário; 
+• 
+os profissionais de modelagem, principalmente na pequena e média empresa, 
+definem o projeto do produto e sua execução nas etapas seguintes de pilotagem e 
+de manufatura em larga escala, porém muitos deles aprenderam a técnica sem uma 
+formação acadêmica sólida e outros são de uma geração em que se fazia o molde 
+em papel, anterior a era digital. Esse tipo de profissão tão importante para o setor, 
+está em risco de extinção 
+Portanto, qualquer metodologia projetual de design colaborativo tem que ter uma 
+abordagem voltada para as pessoas, já que lida com uma transformação no modo de pensar. 
+Para realizar transformações desse porte, é necessário a utilização de ferramentas de formação 
+de equipe, gestão da mudança, metodologias de projeto e de desenvolvimento ágil.  
+O subcapítulo a seguir irá tratar de como um mediador de gerenciamento de ciclo de 
+desenvolvimento (PLM) poderá funcionar, levando em conta métodos de design centrado no 
+usuário. 
+ 
+5.4.1.  A produção de dados, informação, conhecimento e a sabedoria 
+ 
+“We Evolve Because We Communicate”, nós evoluímos porque nos comunicamos, 
+explica Dave Evans, no artigo da Cisco intitulado “Como a Próxima Revolução da Internet está 
+Mudando Tudo” (EVANS, 2011). Segundo Evans (2011),  
+
+
+---
+
+138 
+os seres humanos evoluem porque se comunicam. Quando o fogo foi descoberto e 
+compartilhado, por exemplo, ele não precisou ser redescoberto e comunicado. Um 
+exemplo mais recente é a descoberta da estrutura helicoidal do DNA, moléculas que 
+carregam informação genética de uma geração para outra. 
+Evans continua explicando que “o princípio de compartilhamento de informações e de 
+aprender a partir das descobertas pode ser melhor entendido quando examinamos como os seres 
+humanos processam dados”. Na Figura 21, pode-se notar que, de baixo para cima, as camadas 
+da pirâmide incluem dados, informações, conhecimento e sabedoria, em graus de importância, 
+as de cima sendo as de maior benefício para a humanidade. 
+ 
+Figura 21 – Evoluímos porque nos comunicamos 
+ 
+Fonte Evans (2011). 
+ 
+Os dados são o material bruto que é processado e convertido em informação. Dados 
+individuais não são muito úteis quando isolados, mas um grande número deles pode 
+indicar tendências e padrões. Isso e outras fontes de informação se juntam para formar 
+o conhecimento. Num sentido mais simples, o conhecimento é a informação a qual 
+todos percebem. Sabedoria então nasce do conhecimento somado à experiência. 
+Enquanto o conhecimento muda com o passar do tempo, a sabedoria é atemporal. 
+Tudo começa com a aquisição de dados (EVANS, 2011, p. 6). 
+Bonsiepe (2011a) fez uma análise do grau do envolvimento do design no processo de 
+transformação de dados primários em informação e da informação em conhecimento, sem a 
+pretensão de tocar no ponto da sabedoria, mais abstrato e relacionado com experiências de vida 
+dos sujeitos. Ele explica que os dados brutos precisam ser estruturados, a partir de um estado 
+desordenado para um estado de ordem.  
+Aí o design começa a participar, contribuindo para organizar os dados receptíveis e 
+perceptíveis, um aspecto que é omitido na discussão sobre o uso das informações e 
+dados em geral, porque o instrumental conceitual dos estudos de usabilidade (usability 
+studies) não o detecta (BONSIEPE, 2011a, p. 83). 
+Segundo ele, somente quando a informação estiver estruturada é que poderá ser 
+compreendida pelo usuário que conheça o significado dela. O simples uso da informação não leva 
+a conhecimento, somente leva à apreensão do contexto. Bonsiepe (2011b) argumentou que o 
+
+
+---
+
+139 
+passo seguinte, então, é transformar os dados em conhecimento e interpretar a informação a fim 
+de usá-la em ações, o que denominou de goal directed behaviour, isto é o comportamento voltado 
+para o objetivo. “O design pode facilitar a recepção e a interpretação, permitindo uma ação mais 
+eficiente”, conclui Bonsiepe (2011a, p. 84), “o conhecimento é mais que informação. O 
+conhecimento permite filtrar um valor informativo a partir de uma massa de dados” (BONSIEPE, 
+2011a, p. 84). 
+Bonsiepe (2011b) fala da diferença entre informação e conhecimento, que deveriam ser 
+tratados de forma distinta. “Dados, informações e conhecimentos são tratados como entidades 
+abstratas, separadas da sua base material e do processo de transmissão que incluem, 
+inevitavelmente, componentes de design” (BONSIEPE, 2011b, p. 84). Bonsiepe (2011b) cita o 
+argumento de dois especialistas em administração de empresas, Davenport e Prusak (1998, p. 
+85) que definem o conhecimento:  
+Conhecimento é uma mistura fluida de experiências, valores, informação contextual 
+e conhecimento especializado que fornece o âmbito para a avaliação e a inclusão de 
+novas experiências e informações. Nas empresas, o conhecimento é incorporado não 
+apenas a documentos e arquivos, mas a rotinas de trabalho, a procedimentos, práticas 
+e normas. 
+Bonsiepe (2011b, p. 85) se refere a uma característica importante do design, “os 
+conhecimentos, considerados como experiência acumuladas, devem ser comunicados e 
+compartilhados. Esse processo de mediação entre a fonte e o receptor está ligado à forma de 
+apresentação dos conhecimentos, que deveria ser uma tarefa central do design”. 
+É relevante tocar nesse assunto, porque não é evidente para os designers de informação, 
+os arquitetos de sistemas, que a apresentação do conhecimento requer um ato projetual que 
+deveria ser uma tarefa central do design. 
+Essa conclusão de Bonsiepe (2011b), sendo um estudioso do design gráfico, reforça a 
+hipótese de que qualquer tecnologia precisa ter uma aceitação dos usuários, pois, como 
+mencionado por ele, a mediação, a transmissão e a apresentação dos conhecimentos ocorrem em 
+“uma interface em que o conhecimento pode ser percebido e assimilado pelo usuário”. Bonsiepe 
+(2011b, p. 86) mencionou que, apesar de estarmos na era digital “temos dificuldade de entender 
+a informação”. 
+A experiência de atuação em projetos de PLM veio confirmar a teoria de Bonsiepe 
+(2011a, p. 84). Softwares complexos que reúnem informações de diferentes partes da cadeia 
+têxtil precisam ter uma forma simples e didática de transmiti-las aos usuários. Somente através 
+de recursos de design visual, essas informações ficam claras. 
+O índice de rejeição por parte dos usuários, em empresas brasileiras que tiveram a 
+iniciativa de implantar as plataformas de PLM e abortaram a ideia, em grande parte foi porque 
+
+
+---
+
+140 
+as interfaces eram muito pouco atrativas, o design interativo e a ergonomia eram pouco 
+amigáveis e nada intuitivos.  
+Uma grande rede de varejo de moda, muito ligada a estética e a aparência visual da 
+tecnologia, investiu num projeto piloto de PLM. Os usuários habituados aos aplicativos e 
+computadores da Apple, concluíram que o aspecto visual dos aplicativos da plataforma piloto 
+eram mais feios e “quadrados” que planilhas de Excel. O projeto foi abortado em seguida. 
+Em outro projeto em empresa de porte médio, a rejeição veio porque o fornecedor do 
+software não conseguiu compreender as necessidades dos usuários, que esperavam uma solução 
+mais avançada do que os softwares já existentes dentro da organização que eram eficientes, 
+porém pouco ergonômicos e sem integração entre diferentes programas.  
+A conclusão da autora é que os fornecedores dessas tecnologias precisam entender as 
+linguagens dos diferentes atores dos processos do desenvolvimento de produto para poder converter 
+informações, dados, relatórios em visualizações e processos ocultos em processos visíveis, 
+informações codificadas em informações visuais (BONSIEPE, 2011b, p. 86). 
+Segundo a própria visão de Bonsiepe (2011a, p. 87), é necessário incluir profissionais 
+de design visual que conheçam linguística, psicologia cognitiva, teoria da percepção, teoria da 
+aprendizagem e semiótica, na primeira etapa do projeto de plataformas de PLM anterior a fase 
+do desenho da solução, o pré-projeto, a chamada de fase de investigação. 
+ 
+5.4.2. As etapas do projeto de implementação de uma plataforma colaborativa 
+ 
+Em projetos de PLM realizados no Brasil, com a participação da autora deste estudo, 
+foi possível observar que há uma tendência para que o projeto seja considerado um projeto de 
+tecnologia da informática, deixando de lado o aspecto da Gestão da Mudança e a introdução de 
+uma Cultura Colaborativa. O conceito de que um projeto de PLM é somente um projeto de 
+implementação de uma nova tecnologia é comum nas empresas e resulta em grandes equívocos. 
+Geralmente esses projetos são contratados por uma equipe de técnicos em informática e 
+programadores, que ignoram a funcionalidade dos softwares no nível da linguagem de cada 
+usuário. 
+Bonsiepe (2011b) explica que a funcionalidade da solução tecnológica se refere a um 
+determinado serviço que ele oferece em primeiro plano, para depois se referir a maneira da sua 
+implementação e por último, como ele apresenta essa função. Essa última etapa poderia se dizer 
+que é como o software ou o aplicativo interage com o usuário e a maneira como o usuário lida 
+com o aplicativo. Bonsiepe (2011b) reforça o conceito de design de interação ou de 
+
+
+---
+
+141 
+experiência”, que está relacionado “com a dimensão dinâmica do comportamento”. Bonsiepe 
+(2011b, p. 99) também argumenta que o “neologismo experience design serve para enfatizar a 
+ligação do design com experiências e emoções”. 
+O conceito de design centrado no humano43 leva em consideração a perspectiva do 
+usuário, a experiência de cada ator no processo. Considerando-se essa abordagem, é importante 
+entender que os projetos de desenvolvimento de plataformas de softwares de PLM são projetos 
+de consultoria de transformação organizacional, ou seja, gestão de pessoas. 
+O design bom é mais do que se pode perceber e sentir – isso é a ponta do iceberg. 
+Abaixo da superfície, está a base de um design bem-sucedido: o processo de design 
+centrado no usuário. É um ciclo de desenvolvimento no qual se leva em conta o que 
+os usuários realmente precisam e faz ajustes através da exploração, testes, 
+sintonizando o projeto até que essas necessidades sejam satisfeitas. O resultado é que 
+há um alto nível de usabilidade: o design é eficaz e eficiente, envolvente e fácil de 
+aprender. O processo pode ser aplicado para todas as práticas de design que têm o 
+objetivo de fornecer uma experiência boa ao usuário (“User Centred Design”, c2010 
+tradução nossa).  
+Os projetos de PLM têm abordagens importantes: 
+• 
+estratégia: Planejamento de todos os objetivos e metas do projeto, especificando os 
+requisitos organizacionais, projetando o espaço, a agenda, selecionando a 
+metodologia, as técnicas e o briefing; 
+• 
+requisitos: definição de escopo, das necessidades do usuário, exigências de 
+conteúdo e informação, especificações técnicas, identificação das personas, 
+acessibilidade, conjunto de funcionalidades, pesquisa etnográfica, propósito e 
+diferencial; 
+• 
+estrutura: fase de design estrutural do ambiente virtual que facilitará o acesso 
+intuitivo para acessar o conteúdo (arquitetura da informação, design interativo, 
+wireframe,44 progressive disclosure)45; 
+• 
+design informacional: Desenho da apresentação da informação para facilitar a 
+navegação, definição do conteúdo, dos índices, da hierarquia visual; 
+                                               
+43 Mencionado no capítulo 3, na teoria de K. Krippendorff, comumente chamado de Design Thinking por outra 
+corrente ligada a Gestão, por Tim Brown, da IDEO. “A principal premissa do design centrado no usuário é que 
+os produtos mais bem projetados são os que resultam de compreender as necessidades das pessoas que irão usá-
+los”, definição do Design Council, Reino Unido (TOWNSON, 2017 tradução nossa). 
+44 Wireframe é um desenho básico, como um esqueleto, que demonstra de forma direta a arquitetura de como o 
+objeto (interface, página da internet, modelo, etc.) final será de acordo com as especificações relatadas 
+(PEREIRA, 2008). 
+45 Progressive disclosure é uma técnica de design interativo que sequencia as informações e ações em várias telas 
+com o objetivo de reduzir o impacto para o usuário (SPILLERS, [201-]). 
+
+
+---
+
+142 
+• 
+design visual: Tratamento visual de elementos gráficos, do aspecto das telas, 
+fontes, alinhamento, texturas e ergonomia. 
+As duas primeiras abordagens são abstratas. Devem ser conduzidas por equipes 
+multidisciplinares, em reuniões de brainstorm com os principais sujeitos do processo de 
+desenvolvimento de produto, incluindo os influenciadores e os patrocinadores do projeto. As 
+três últimas abordagens envolvem um trabalho de tradução do desejo e da necessidade dos 
+usuários no design de uma série de aplicativos que farão parte da plataforma.  
+As etapas de projeto, apesar de mudarem de nome segundo cada empresa, basicamente 
+estão descritas na Figura 22. A avaliação de cada etapa se desenvolve ao longo de todo o projeto. 
+ 
+Figura 22 – Fases do projeto de PLM 
+ 
+Fonte: elaborado pela autora. 
+ 
+• 
+Análise e planejamento: num espaço específico destinado ao projeto, as 
+entrevistas, as pesquisas e visualizações podem ser organizadas espacialmente em 
+paredes, criando um ambiente de trabalho criativo onde as reuniões e workshops 
+ocorrerão, sempre mediadas. Construir uma história sobre o projeto nesse espaço 
+irá permitir que todos contribuam. As notas coladas serão úteis para tomadas de 
+decisão. As ideias escritas serão organizadas por critérios de custo, qualidade, 
+velocidade, etc. Os próprios usuários podem colocar suas necessidades e suas dores 
+por ordem de importância. Essa etapa é dividida em sub etapas onde são analisados 
+os processos de cada negócio ou marca da empresa (ferramentas de SIPOC e 
+mapas); as definições de papéis e responsabilidade por tipo de função/usuário 
+(ferramenta RACI); definição dos indicadores de desempenho e dos stage gates, as 
+etapas de validação. 
+
+
+---
+
+143 
+• 
+Conceituação ou síntese: 
+o Mapeamento das exigências dos usuários: é imprescindível usar todo os 
+recursos para reunir informações sobre a rotina dos usuários, seus processos e 
+procedimentos, quais relatórios produzem e a finalidade deles. Isso pode 
+acontecer em grupos de foco, entrevistas individuais ou discussões em grupo 
+por área e por simples observação. 
+o Workshop de personas e cenários: uma persona é um arquétipo de um público 
+alvo, com suas características e hábitos. Os cenários são histórias descrevendo 
+o dia a dia de cada usuário e as tarefas que ele desempenha. Essas ferramentas 
+ajudam a identificar quais ações e decisões serão tomadas pelo usuário e qual 
+o ambiente virtual necessário para exercer sua função. 
+o Síntese: descrição do conteúdo e da complexidade de cada processo por tipo de 
+ator envolvido, seus processos cognitivos e intuitivos, sintetizando-os de forma 
+compreensível para os arquitetos de sistemas e designers visuais criarem telas, 
+relatórios e interfaces. 
+• 
+Desenho da solução:  
+o Estética: O design visual dos aplicativos e telas impactam na usabilidade dos 
+aplicativos. Geralmente os usuários, principalmente os estilistas, preferem uma 
+aparência intuitiva e esteticamente agradável. Se a aparência for boa, a 
+percepção do aplicativo é de ser fácil de usar. Acessibilidade e estética juntas 
+criam uma boa usabilidade do aplicativo. 
+o Prototipagem ou Maquete: É feito um modelo inacabado, que será apenas para 
+avaliar as reações de forma, aparência e funcionalidade do aplicativo. Essa 
+maquete evolui a partir dos wireframes para modelos mais fiéis ao protótipo 
+final com o desenrolar do projeto. Para o desenho da maquete, é necessário 
+definir o modelo de dados, os sistemas de cada grupo de usuários, um servidor 
+para armazenamento. 
+o Visualização rápida: Os conceitos e ideias podem ser comunicados para a 
+equipe de projeto através de desenhos a fim de testá-los rapidamente sem 
+investir muito tempo. Essa é uma forma de se certificar que o desenho da 
+solução tecnológica está indo de encontro ao desejo dos usuários.  
+o Envolvimento dos usuários: O resultado de um projeto de PLM, para ser bem-
+sucedido, depende muito do envolvimento da equipe e dos principais usuários 
+
+
+---
+
+144 
+em cada etapa do processo de desenho, seja por meio de feedback direto ou 
+de testes de uso, observação e avaliação. 
+o Análise da brecha ou gap: Como há um processo de mudança, é preciso 
+desenhar o processo da mudança do estágio “as is” (atual) para o “to be” 
+(futuro) em relação a organização, a infraestrutura e aos próprios processos que 
+deverão ter uma nova abordagem mais colaborativa desde o início do projeto 
+de coleção. Como isso faz parte de gestão da mudança organizacional, é preciso 
+alinhar com todos um plano de ação. 
+• 
+Implementação:  
+o Essa fase tem suas regras baseadas em boas práticas, onde é importante 
+considerar o que é relevante para o projeto em relação a tudo que foi recolhido 
+dos requisitos dos usuários e dos padrões de acessibilidade, o que inclui 
+normas, validações e princípios ergonômicos. Para diminuir o nível de 
+ansiedade da equipe de projeto e dos usuários é importante informar, 
+direcionar, instruir, envolver, guiar e revelar os benefícios da mudança. 
+Funções gerenciais podem necessitar de um coaching, afinal o processo de 
+mudança da cultura é inquietante.  
+• 
+Lançamento: 
+o O lançamento ou go live é o momento em que todos os aplicativos da 
+plataforma estão instalados numa versão final do ambiente virtual, com suas 
+devidas configurações definidas na implementação. Nesse momento, pode 
+haver dificuldades dos usuários, bugs (falhas) surgem, portanto, há um 
+treinamento dos usuários nas ferramentas e funcionalidades dos aplicativos por 
+tipo de função. Nesse momento, percebe-se que cada tipo de usuário tem 
+diferentes exigências dependendo de sua função, competências e limitações 
+(visão, habilidade motora, audição), portanto, é imprescindível descobrir esses 
+fatores para criar acessibilidade e tornar o design inclusivo. Esse é um 
+momento de refinamento dos aplicativos. Pode haver por parte dos usuários, 
+barreiras linguísticas, falta de confiança em si mesmo, medo de adaptação, o 
+que requer um coaching adicional. 
+
+
+---
+
+145 
+6. O PROJETO DE INTERVENÇÃO DE PLM 
+ 
+O objeto desse estudo tomou sua forma ao longo do projeto de intervenção mencionado. 
+Inicialmente, o projeto de intervenção com a implementação de um PLM numa empresa de 
+vestuário brasileira apresentou um grande desafio por ser de uma complexidade tecnológica 
+digna das maiores empresas internacionais. A partir do momento em que se iniciou o projeto, 
+nos primeiros workshops, a complexidade pareceu maior e muito mais desafiadora do que se 
+previa, devido ao seu cunho multidisciplinar e a necessidade de reunir competências muito 
+distintas para chegar as soluções esperadas. Um encadeamento de ações e resultados de todas 
+as partes acabou por culminar num desfecho que foi conclusivo para a comprovação da hipótese 
+desse estudo. 
+ 
+6.1. 
+VERIFICAÇÃO DO CONTEXTO DO PROBLEMA E DOS RESULTADOS 
+ESPERADOS 
+ 
+A primeira etapa do projeto envolveu um workshop chamado de sandbox46, em que os 
+problemas iniciais que levaram a empresa em questão a comprar uma plataforma de PLM, 
+foram aumentados e enxergados com uma lupa. Quase como um projeto piloto a sandbox iria 
+ser a prova de fogo em que os usuários iriam aprovar ou reprovar, aderir ou rejeitar a solução 
+tecnológica. Essa etapa deveria ter acontecido mesmo antes da compra da plataforma, como 
+prova de conceito e teria evitado os resultados negativos que se seguiram. 
+Nesse workshop, uma equipe mais extensa de usuários se reuniu para um treinamento 
+das funcionalidades iniciais de uma plataforma padrão, construída como um ambiente de testes. 
+O objetivo dessa etapa é uma avaliação inicial da cobertura da plataforma.  
+Uma especialista em funcionalidades da empresa de tecnologia do PLM viera da China 
+para demonstrar o software. Esse foi um erro crucial que teve um impacto muito grande no 
+projeto. Se neste momento, cada usuário iria imaginar como seria seu trabalho no dia-a-dia após 
+a implantação da plataforma, a falha de comunicação com a profissional chinesa e a miopia de 
+visão de que o projeto era uma introdução tecnológica e não uma mudança na forma projetual 
+de trabalhar, puseram todo o projeto em risco.  
+                                               
+46 Sandbox, ou caixa de areia, é um protótipo virtual que simula a plataforma de PLM que será desenhada no 
+futuro. Não tem ainda as configurações e nem o aspecto visual da plataforma final, mas serve para que o usuário 
+imagine como será seu dia-a-dia de trabalho no futuro com a plataforma já implementada. 
+
+
+---
+
+146 
+As pessoas tiveram reações muito surpreendentes diante de mudanças de tamanho 
+impacto. A primeira reação foi a rejeição, medo de inadequação e de ser percebida como 
+ineficiente ou desnecessária. Outra forte reação é uma conclusão de que as expectativas de que 
+o software faz tudo automaticamente são infundadas, já que muito tem que se fazer para 
+alimentar os dados da coleção na plataforma, para que ela atenda os pré-requisitos esperados. 
+Se o problema anteriormente detectado era reduzir o ciclo do desenvolvimento de 
+produto, a problemática da integração entre equipes e da mediação de suas diferentes linguagens 
+ali se tornou mais relevante. 
+ 
+6.2. 
+ANÁLISE DO CASO: INTERVENÇÃO E ANÁLISE DE PROCESSOS 
+ 
+Mais de 100 requisitos foram levantados pela equipe de projeto durante uma reunião de 
+alinhamento de expectativas e de riscos. A Figura 23 resume as grandes expectativas esperadas 
+da plataforma de PLM. 
+ 
+Figura 23 - Os problemas e seus desdobramentos em diferentes níveis de requisitos 
+ 
+Fonte: elaborado pela autora. 
+ 
+Os principais problemas a serem solucionados eram a redução do ciclo de vida do 
+desenvolvimento de produto ou seja, o leadtime de desenvolvimento das coleções, a eliminação 
+de atividades sem valor, criando um processo mais enxuto, a integração de dados entre todos 
+os programas utilizados, principalmente o ERP já existente, sendo o aumento de margem de 
+lucro uma consequência de todos os outros pontos.  
+Das quatro grandes necessidades, a velocidade de chegada no mercado implica numa 
+sincronicidade e monitoramento de atividades que requer uma sofisticação de softwares de 
+controles de workflow, com capacidade de cálculo de produtividade de cada perfil envolvido e 
+acompanhamento de todas as ações de todos os departamentos, com visões macro (o todo da 
+coleção de uma marca) e visões micro, por modelo e até por componentes. Geralmente, um 
+
+
+---
+
+147 
+bom software de controle de atividades e tarefas, mostra um gráfico ou dashboard diariamente, 
+indicando quanto de cada etapa foi cumprida e quantas tarefas estão em atraso. 
+A meta de aumento de margem e a de acompanhar o progresso do cálculo de custo com 
+uma lupa, é comum a todas as empresas, afinal as margens de lucro são parte das metas 
+orçamentárias. No entanto, nas empresas que deixam para ver o modelo no momento final da 
+coleção, o resultado de ter um custo final fora dos targets iniciais resulta em retrabalho e até 
+em margens menores, em modelos que serão alterados e provavelmente não terão o mesmo 
+valor percebido dado inicialmente, além dos atrasos na entrega de mostruários. 
+A eficiência almejada pode ser traduzida em fazer mais em menos tempo e de um jeito 
+mais simples. Antes mesmo de implantar uma plataforma de PLM, é necessário estabelecer 
+padrões e métodos de trabalho. Um passo a passo de como se começa a coleção, como se 
+documenta a coleção, como se especifica o modelo, como se aprova um material, além da 
+definição dos stage gates, de quem participará, o que será definido e quais os entregáveis da 
+reunião, tem que ser definido como manual de como fazer a coleção. Nas consultorias de 
+revisão de processos, após a definição da mudança que irá ser feita, escreve-se um manual ou 
+blueprint. As etapas seguintes são as anotações do que se obteve na etapa inicial de análise ou 
+diagnóstico de processos, estrutura organizacional e o nível de desempenho da empresa 
+pesquisada antes da intervenção. 
+ 
+6.2.1. Revisão de processos 
+ 
+Como já mencionado no item 6.4.2. o projeto de PLM começou com a fase de análise, 
+onde uma das etapas principais é a revisão de processos ou a análise dos processos as is. Uma 
+série de estágios ocorreram na seguinte sequência cronológica:  
+• 
+um workshop inicial com a ferramenta de SIPOC47, onde foi documentado quais 
+eram os fornecedores, quais eram os clientes, quais as entradas e saídas dos 
+principais processos, deixou evidente quais processos eram traumáticos e os que 
+não tinham dono. 
+ 
+ 
+ 
+                                               
+47 SIPOC é a abreviação de Supplier (fornecedor), Input (entrada), Processo, Output (saída) e Cliente. SIPOC é 
+uma ferramenta que faz parte da metodologia Six Sigma DMAIC, um conjunto de práticas desenvolvidas para 
+melhoria de processos organizacionais. 
+
+
+---
+
+148 
+Figura 24 - SIPOC das etapas de pré-desenvolvimento de produto 
+ 
+Fonte: elaborado pela autora. 
+ 
+Vendas anteriores, Preço 
+Target, Valor percebido, 
+Previsão de vendas, 
+Mix,Briefing, Relatório de 
+vendas, Cartela de cores
+Desenvolvimento estampas 
+rotativas, bordado, estampa 
+de sublimação
+Arquivo digital 
+das artes (des. 
+superfície)
+Produto (estilo), 
+Desenho de 
+decoração
+Aprovação de materiais
+Cadastro de 
+Materiais, Plano 
+de compras
+Produto (estilo), 
+Logistica, Engenharia
+Aprovação de plano de 
+coleção detalhado
+Briefing 
+validado
+Gerente criativa, 
+Diretora de produto, 
+Gerente de Produto, 
+Gerente de Marca
+Elaboração do plano de 
+coleção
+Desenho, modelagem, 
+Inovação Têxtil
+Elaboração do Painel da 
+coleção
+Painel de 
+inspiração
+Marketing, varejo/e-
+commerce, 
+Modelagem
+Estilista; Analista de 
+mercado; Analista de 
+inovação; Laboratório
+Estilista, Analista de 
+mercado, Laboratório, 
+Gerente de inovação, 
+Gerente de produto
+Gerente inovação têxtil, 
+Analista mercado
+Estilistas
+Comercial, Produto, 
+Marketing, Logística, 
+Comercial, Gestão da 
+demanda
+Pesquisa de estilo
+Imagens de 
+inspiração
+Gestão da Marca, 
+Gestão de Produto, 
+Diretora de produto
+Apresentação do 
+comportamento consumidor
+Pesquisa de 
+mercado
+Estilo, Marketing, 
+Desenho de 
+superfície, 
+Modelagem, 
+Comercial
+Construção do Mix
+Mix
+Estilo, Gestão de 
+demanda, 
+Engenharia, 
+Logistica, Comercial, 
+Outsourcing
+Desenvolvimento de 
+materiais,tecidos,aviamentos,
+malhas, malhas fios tintos
+Material 
+cadastrado; 
+Pasta técnica; 
+Amostras
+Estilo, Eng. Produto, 
+Eng.Processos, Sala 
+de amostras, PCP
+Pesquisas de inovação em 
+matérias primas, superfície e 
+acabamentos
+Relatório de 
+inovação
+Estilistas, 
+Eng.Produto, Eng. 
+Processos,  Eng. 
+Textil, Modelagem
+Briefing
+Mix Macro, Relatórios de 
+Desempenho das vendas, 
+Diretrizes do conselho
+Sites especializados, 
+Revistas, Amostras, Fotos 
+de viagens, Pantone, Midia 
+social
+Sites, Revistas têxteis, 
+Amostras colhidas em feiras, 
+Amostras de fornecedores
+Amostras de fornecedores, 
+Pesquisa inovação, Pesquisa 
+de  tendências; Cartela de 
+cores
+Desempenho vendas, 
+Orçamento, Concorrencia, 
+Pesquisa de mercado
+Pesquisa mercado; Sites 
+especializados
+Macrotendências; Pesquisa 
+de Materiais, Pesquisa de 
+campo, sites especializados, 
+Amostras, Revistas, 
+Materiais fornecedores
+Pesquisa de tendências
+Pesquisa selecionada; Mix; 
+Catálogos anteriores; 
+Amostras; Amostras malhas 
+e tecidos; Pasta 
+técnica/material cadastrado; 
+Cartela de cores
+Relatórios técnicos, 
+Resultados testes
+Briefing, sites especializados
+Clientes
+Saída
+Entradas
+Processo (macro)
+Fornecedores
+Gerentes regionais de 
+vendas, Gestão da 
+demanda, Gerente 
+Inovação, Gerente produto, 
+Conselho Diretivo, 
+Fontes externas 
+ 
+  
+Fontes externas 
+ 
+  
+Gerente de Estilo, Gerente 
+de Produto e de Inovação 
+Textil, Fornecedores, 
+Laboratório 
+Gestão demanda, Analista 
+de mercado 
+  
+Gerente marketing, Gerente 
+produto, Gerente inovação 
+ 
+  
+Gerente criativa, Gerente de 
+inovação Têxtil, Gerente de 
+produto, Analista de 
+inovação Têxtil, 
+Fornecedores 
+Estilista; Gerente criativa
+Aprovação de orçamento
+Orçamento
+Pesquisar e compartilhar 
+tendencias
+Macro-
+tendências, 
+cartela de cores
+Produto, Modelagem, 
+Desenho de 
+Superfície, Inovação 
+Têxtil, Marketing
+
+
+---
+
+149 
+• 
+Ao se identificar onde estavam as dores e quais as causas das dores, a reunião se 
+tornou muito intensa e elucidou muito a necessidade de cada departamento ou perfil 
+de atuação; este foi um momento controvertido, devido ao fato de que alguns 
+membros da equipe acharam desnecessário fazer essa análise, porém a importância 
+dessa etapa foi ter uma visão macro dos processos da empresa, onde os stage gates48 
+foram identificados e as principais dores foram externadas.  
+• 
+Na Figura 24, os principais processos e stage gates estão descritos, as dores estão 
+identificadas com estrelas e os stage gates estão em negrito. 
+• 
+Na tabela acima, as estrelas representam os processos onde havia as principais 
+dores, ou seja, onde focar atenção para solucionar as causas dos problemas. Como 
+exemplo, a dor principal na construção do sortimento da empresa era devido à falta 
+de parâmetros na data tão antecipada de planejamento em que essa fase ocorre. 
+Valores como custo de matéria prima e a taxa certa do dólar iriam influir nas 
+decisões. A falta de tempo suficiente para fazer as atividades, o número de 
+alterações e a falta de precisão nas informações para gerar um pré-custo eram 
+algumas das dores dessa etapa. 
+• 
+Os stage gates e sua eficácia iriam ser questionados mais tarde.  Nesta etapa, foi 
+identificado que o Plano de Sortimento ou Mix era feito por duas equipes. O 
+primeiro, chamado de Construção de Mix era uma etapa quantitativa, com as metas 
+de volumes, margens, preços a serem praticados no atacado e no varejo, com os 
+faturamentos previstos, com a participação da diretoria. Já o plano de coleção 
+detalhado, chamado de briefing nessa empresa, era uma qualificação dos estilos de 
+modelos, dos coordenados de produtos, aos quais os modelos estariam relacionados. 
+O nome briefing surgiu porque as estilistas criavam painéis de inspiração, 
+moodboards, para brifar a equipe de criação do design de superfície. 
+• 
+Um fato que chamou a atenção, era que as áreas de criação estavam divididas entre 
+inovação têxtil, a área criativa que pesquisava as tendências de moda e efetivamente 
+desenhava os modelos e uma área de desenho de superfície, que era sofisticada no 
+sentido de criar não só estampas, mas bordados, decorações e aviamentos. Por 
+estarem debaixo da mesma gerência, tinham um bom nível de comunicação. Mesmo 
+assim, uma estilista externou que era difícil passar a ideia ou um conceito por meio 
+                                               
+48 Stage gate é um ponto importante de validação onde a coleção pode mudar. Para que seja uma validação 
+verdadeira, há a necessidade de participação dos tomadores de decisão, geralmente a alta gerência e na maioria 
+das empresas, a diretoria. 
+
+
+---
+
+150 
+de imagens para um designer de superfície. A plataforma poderia ajudar com um 
+banco de imagens como facilitador e compartilhamento em tempo real, mas não 
+poderia resolver o problema da discrepância de linguagens.  
+• 
+Já se via a preocupação em criar a coleção para diferentes perfis de consumidores 
+e cada marca tinha sua própria identidade vinculada com estilos de vida de crianças 
+diferentes. 
+• 
+A expectativa de sanar a dor principal do processo, que era o planejamento da 
+coleção já indicava o risco de que a solução não atendesse as expectativas da equipe 
+de projeto. O que se imaginara naquela data era que os softwares de PLM 
+auxiliariam na análise de inteligência de negócios (Business Intelligence) e isso não 
+fazia parte do escopo desses aplicativos, teria que ser feito fora da plataforma e seus 
+resultados de análise imputados e inseridos manualmente.  
+• 
+As etapas seguintes descrevem processos de desenvolvimento de matérias primas e 
+de desenho de superfície. 
+ 
+Figura 25 - SIPOC das etapas de desenvolvimento de coleção de outsourcing 
+ 
+Fonte: elaborado pela autora. 
+ 
+• 
+Paralelo ao processo de desenvolvimento de matérias primas, antes do processo de 
+desenvolvimento interno, havia outro desenvolvimento de outsourcing, as peças 
+desenvolvidas fora, seja na Ásia e ou em outra confecção no Brasil. No momento 
+de aprovação dos croquis, as áreas de engenharia definem a viabilidade do modelo, 
+o make or buy, ou se faz internamente ou se compra a peça pronta. O processo de 
+outsourcing (Figura 25) é um pouco diferente, as etapas ocorrem antes das etapas 
+do processo de desenvolvimento interno (Figura 26). Um briefing do modelo ou um 
+croqui é enviado com um pedido de cotação, já com quantidades estimadas e um 
+custo almejado, esperando que vários fornecedores mandassem amostras e somente 
+após o recebimento delas, começam as negociações e pedidos de alterações. As 
+Prótótipos com 
+pedido de compra
+Plano de compras 
+de materiais 
+(referência, cor, 
+tamanho)
+Tabelas de 
+medidas 
+Outsourcing
+Croqui detalhado 
+Outsourcing
+Gestão da demanda; 
+Produto (estilista)
+Croqui detalhado; mix
+Outsourcing
+Amostras de Outsourcing
+Modelagem outsourcing
+Definição de volume 
+Outsourcing
+Aprovar e comprar 
+produtos OutSourcing
+Outsourcing
+PCP; Outsourcing
+Fornecedores
+Entradas
+Processo (macro)
+Saída
+Clientes
+Produto; comercial
+
+
+---
+
+151 
+dores desse processo estavam mais relacionadas com o tempo longo de negociação 
+com os fornecedores. 
+• 
+Essa fase principal de desenvolvimento apresentava várias dores e gargalos. 
+Nenhum croqui poderia ser desenvolvido sem a aprovação das áreas comerciais e 
+de engenharia, o que denotava uma atuação de perfis multifuncionais opinando na 
+coleção. No entanto, para a área de criação, as dores eram causadas pelo número de 
+alterações, além da falta de tempo para refazimentos. Embora a empresa já estivesse 
+trabalhando de forma interdisciplinar e colaborativa, as linguagens ainda eram 
+distintas, o poder da área comercial de vetar, pedir alterações, era grande e causava 
+impactos. Os gargalos estavam claramente na área de custos, que não tinha, nesta 
+fase, as premissas para os cálculos de pré-custo e muitos modelos ficavam parados 
+à espera do cálculo de custo, aguardando uma solução, o que iria gerar outro gargalo 
+no setor de modelagem, que receberia muitos modelos de uma vez só para executar. 
+Para definir a rota produtiva ideal para cada modelo, alguns parâmetros estavam 
+ainda indefinidos e o processo era também impreciso. A dor na etapa de fazer as 
+primeiras peças piloto era que muitos aviamentos não estavam definidos. Isso veio 
+a confirmar que o processo de desenvolvimento e pesquisa de insumos corria 
+paralelo ao desenvolvimento de modelos e isso não é saudável para o 
+desenvolvimento da coleção. 
+• 
+Na Figura 27 , o processo final de desenvolvimento se completa com o mostruário 
+sendo confeccionado e a campanha de marketing da coleção sendo realizada.    
+• 
+Muitas dores estão assinaladas neste processo de finalização, até mesmo alterações 
+dos mostruários depois das ordens de produção feitas. Para finalizar a ficha técnica, 
+muitas informações faltavam, o cálculo de custo final acabava por ser o gargalo 
+mais impactante e todas as ações de marketing tinham que ser executadas apenas 
+no final, com informações técnicas dos modelos que não tinham sido ainda 
+preenchidas em lugar nenhum, definições tardias de etiquetas tipo tags ou 
+decorativas e materiais de ponto de venda, sendo que as etapas tinham muitas 
+alterações que reduziam os prazos de execução. Em resumo, haviam muito o que 
+modificar nos processos, alguns paradigmas teriam que ser mudados. 
+ 
+ 
+ 
+ 
+
+
+---
+
+152 
+Figura 26 - SIPOC das etapas de criação e desenvolvimento de produto interno 
+ 
+Fonte: elaborado pela autora. 
+Fornecedores
+Entradas
+Processo (macro)
+Saída
+Clientes
+Aprovação 
+croquis(diretoria); 
+Aprovação 
+comercial/representantes
+Avaliação comercial
+Desenho; Produto; 
+Gestão da Marca 
+Análise de pré-custo
+Avaliação do valor 
+percebido
+Gerente de produto; 
+Inovação; 
+varejo/monomarca/e-
+Descrições, croquis, estilistas
+Croqui; Mapa de 
+Coleção/sortimento; 
+Mapa cor Mostruário; 
+Mapa Geral de 
+merchandising
+Eng. Processos; 
+Custos; Modelagem; 
+Outsourcing; G. 
+Comercial; Gestão 
+demanda; Inovação; 
+Marketing; Eng. De 
+produto; Dir. de 
+Desenvolvimento de croquis
+Gerente criativa; 
+GRV; Diretora de 
+produto; Ger. 
+Produto; Inovação 
+Têxtil; Gerências 
+Comerciais
+Estamparia 
+localizada/rotativa; 
+Bordado/ Engenharia
+Pré custo calculado
+Eng. Produto; Eng. 
+Processos; Suprimentos; 
+Desenvolvimento de 
+materiais; Diretoria de 
+Produto
+Estilistas; Texografia; 
+Sala de amostras; 
+Eng.produto; Eng. 
+Processos; 
+Des.materiais; Custo.
+Eng. Processos; 
+Modelagem; Eng. 
+Produto
+Modelagem; Eng. 
+Produto
+Produto; Custos; 
+Eng.Produto
+Eng. Processos; Eng. Textil
+Eng. Processos
+Croqui detalhado; Cartela 
+de cores
+Croqui; Rota; Sequencia 
+Operacional
+Rota produtiva (sequência , 
+tempo, método)
+Cálculo de custos
+ Detalhamento técnico, 
+procedimentos, 
+Sequência operacional 
+cadastrada
+Sala de amostras; 
+PCP e Custos
+Produto
+ Gerente da Marca, Gerente 
+de Produto, Gerente 
+Inovação Têxtil, Analista de 
+inovação, Analista de 
+Mercado, Desenhistas, 
+Laboratório
+Analista Mercado; Estilista; 
+Analista Inovação
+Modelagem; Estilistas
+Molde; Aprovação de 
+desenho
+Modelagem; 
+PCP/produção; Produto
+Molde; Croqui detalhado; 
+Malha/tecido; Tabela de 
+medidas; Mapa de 
+Merchandising
+Painel talhado
+Costura; Estamparia; 
+sublimação; Bordado
+Eng. Processos; Produto
+Croqui detalhado; Mapão; 
+Grade encaixe
+Eng. Processos; Eng. 
+Textil; Desenho; 
+Modelagem
+Detalhar croqui
+Croqui detalhado; Arte 
+finalizada para aprovação 
+TM; Molde; Tabela de 
+medidas; Cartela de cores
+Produto Cadastrado; 
+Ficha de Croqui
+Ficha de Croqui de peça 
+de outsourcing
+Decorações 
+desenvolvimento, Ficha 
+técnica de decorações 
+cadastradas
+Modelagem Processo de 
+fornecimento interno
+Descrever e traduzir croqui p/ 
+fornecedores locais  e de 
+outsourcing
+Desenvolvimento de 
+lavanderia;sublimação; golas 
+retilíneas;bordado;estampa 
+localizada;cristais
+Finalização de artes
+Talhar Painéis (de estamparia 
+de sublimação ou de 
+bordados)
+Croqui de produto liberado; 
+Cartela de cores; Mapa 
+Geral de Merchandising
+Croqui de Produto Liberado
+Estilistas
+Estilistas; Eng.Textil
+Seq. Operacional; 
+Aviamentos; Painéis 
+decorados; Complementos; 
+Peças de outsourcing; Peças 
+confeccionadas 
+Confecção e aprovação 
+prototipo  
+Protótipo confeção; 
+Protótipo aprovado
+Produto; Lavanderia; 
+Eng.Produto; 
+Eng.processos; 
+Modelagem; 
+Marketing
+Mapa Geral de Coleção 
+Mapa da Coleção; 
+Moodboards; Sortimento; 
+Amostras fornecedores; 
+Amostras tecidos; Catálogos 
+anteriores; Material 
+cadastrado; cartela de cores
+Arquivos digitais 
+decorações; Relatório das 
+aprovações; Amostras 
+fornecedor; Amostras 
+malhas/tecidos; catálogos 
+anteriores; Material 
+Croquis de coleções 
+anteriores; Mapão; 
+Avaliação comercial; 
+Material cadastrado/Pasta 
+técnica; Amostras 
+malhas/tecidos; Cartela de 
+cores; Cartelas fornecedores
+Croqui; Catálogo de pré-
+custo; Catálogos anteriores
+Estilistas; Analista de 
+custos
+Arquivo digital das artes
+Cálculo do 
+consumo(texografia) - 
+Moldes e tabelas de 
+medidas
+Estilista; Analista de 
+inovação; Gerente de 
+produto; Laboratório
+
+
+---
+
+153 
+ 
+• 
+Nos workshops seguintes de revisão de processos, várias reuniões se realizaram, 
+cada uma com uma equipe diferente, no intuito de analisar os processos de 
+planejamento estratégico da coleção, de pesquisa de tendências de moda e o de 
+criação, de desenvolvimento de produto interno, de desenvolvimento de produtos 
+de outsourcing, de desenvolvimento de matérias primas e de desenvolvimento de 
+materiais promocionais.  
+ 
+Figura 27 - SIPOC das etapas finais do desenvolvimento de Coleção 
+ 
+Fonte: elaborado pela autora. 
+ 
+Rota Produtiva,  Sequência 
+Operacional, Ficha Técnica
+Custos; Sala de Amostras
+Custo final calculado; 
+Protótipo aprovado
+Inovação Têxtil, Estilistas, 
+Gerentes de Produto, Eng. 
+Textil
+Lista de nomes técnicos, 
+Croquis, % vendas, Cartela 
+de cores
+Finalização da Ficha técnica. 
+Desenvolvimento de 
+etiquetas de 
+composição.Cadastros de 
+modelos, cadastro de 
+insumos. 
+Cálculo de custo final
+Fornecedores
+Entradas
+Processo (macro)
+Saída
+Clientes
+Elaboração de campanhas 
+comerciais
+Pesquisa de materiais 
+anteriores, Relatórios,  
+Pesquisa em sites, Banco de 
+imagens, Fotos da coleção
+Book Visual 
+Merchandising e Peças 
+PDV
+Varejo, 
+representantes 
+comerciais; Lojas, e- 
+commerce.
+Marketing, Varejo, 
+Fornecedores
+Comercial, 
+Varejo,Marketing; Inovação 
+Têxtil
+Relação de produtos para 
+campanha; Pesquisa de 
+imagens(banco de img.); 
+Previsão de vendas
+Visual merchandising 
+(vitrines e materiais PDV)
+Metodologia e peças da 
+campanha
+Representantes; 
+Varejo; e-commerce; 
+Lojas
+Produto, Fornecedor, 
+Marketing, Inovação Têxtil
+Entrevistas c/ Ger.Produto, 
+Fotos da coleção, Captação 
+de imagens, Pesquisa de 
+imagens referência; 
+Amostras novos materiais
+Conceito das coleções,  
+Apresentação comercial p/ 
+convenção, vídeos. Sites e 
+Blogs. Acompanhamento 
+comercial da coleção.
+Conceitos, 
+Apresentações, Vídeos, 
+Imagens, Arquivo digital 
+das imagens
+Varejo, 
+representantes 
+comerciais, lojas, e- 
+commerce.
+PCP, Custos, Central 
+de distribuição,  
+acabamento final, 
+Varejo/lojas, E-
+commerce
+Produtos  das lojas 
+próprias cadastratos. 
+Etiquetas 
+aprovadas.Ficha. técnica 
+finalizada
+Custo final e preço de 
+venda com margem ideal
+Forn. Ext., Eng. Processos, 
+G. Demanda, 
+Estilo,Model., Decoração, 
+Eng. Textil, Gestão da 
+Marca, Inov. Tex.
+Histórico de vendas
+Definição da grade de 
+produção da coleção
+Relatório de grade
+Logistica
+Produto, Eng. Produto, 
+PCP, Marketing
+Protótipo aprovado, Ficha 
+técnica, Tags,Catálogo
+Mostruário
+Mostruário
+Representantes, 
+PCP,Qualidade
+Precificação da coleção. 
+Aprovação dos preços e 
+margens. Previsão de 
+vendas
+Informações técnicas para 
+catálogo
+Relatório de informações 
+técnicas
+Relatórios c/ volume de 
+produção.  Produção 
+teste. Tabela de preços.
+Marketing
+Representantes
+Comercial, Estilo
+Fornecedores Externos, 
+Eng. Processos, Gestão da 
+demanda, Estilo, Des. 
+Decoração, Eng. Textil, 
+Inovação de Materiais, 
+Gestão da Marca 
+ Composição de 
+insumos/malha/tecidos. 
+Croqui detalhado. 
+Tamanho, quantidade e cor 
+de mostruário.Tabela de  
+medidas.Ficha técnica 
+bordado/golas retilíneas/est. 
+rotativa. Códigos de todos 
+os materiais aprovados.
+Eng. Produto, Eng. 
+Processos
+
+
+---
+
+154 
+• 
+Um outro pequeno fluxo de custo foi analisado para detectar a causa dos gargalos 
+nesse ponto nervoso. O processo de custo era complicado por motivos que não 
+dependiam da equipe responsável, mas era causado por erros de falta de informação 
+precisa na data da execução do desenvolvimento, o que comprovava que as tarefas 
+de apurar essas premissas e parâmetros teriam que ser feitas antecipadamente.  
+• 
+Um resumo dos problemas detectados foram: 
+a) A construção do mix ou a elaboração do sortimento da coleção, dependia de 
+análises numéricas das curvas de vendas das coleções anteriores por categoria, 
+que eram feitas em outros softwares de inteligência de negócios e extraídas em 
+relatórios para alimentar o que era chamado do plano macro da coleção (pré-
+mix). Como o sortimento é um cruzamento das estatísticas do que aconteceu 
+no passado com a previsão do que aconteceria no futuro, por meio de análise 
+empírica de tendências de moda, o resultado era sempre impreciso e dependia 
+de algum ator que tivesse o feeling para apostar nas categorias e quantidades 
+com assertividade. Apesar de ser feito em equipe multifuncional, era 
+complicado, pois as informações estavam espalhadas em inúmeras fontes, 
+dificultando sua compilação. 
+b) A pesquisa de matérias primas não definia todas os componentes antes da etapa 
+de construção do sortimento, parte dela corria paralelo ao desenvolvimento, 
+pelo menos no que se tratava de aviamentos e matérias primas inovadoras. Isso 
+gerava gargalos pela falta de informações antecipadas para a área de 
+modelagem, para o cálculo de consumo e o cálculo de custo. Essa etapa poderia 
+ser feita em conjunto e paralela com a pesquisa de macrotendências. 
+c) A pesquisa de tendências também só gerava os coordenados de temas de 
+produtos no momento da reunião de briefing, após a elaboração do plano 
+estratégico de coleção. Isso também gerava indefinições, causando os gargalos 
+na engenharia, na modelagem, na sala de amostras e para o design de superfície. 
+O briefing para o desenho de superfície precisaria ser mais assertivo e 
+colaborativo, incluindo os desenhistas no processo de pesquisa e trabalhando 
+antecipadamente juntos para chegar a um resultado de direção de arte antes 
+mesmo de começar a desenhar modelos, enfim a direção de arte deveria ser 
+antecipada e envolver o desenvolvimento de superfícies no processo de 
+pesquisa. 
+
+
+---
+
+155 
+d) A definição de novos volumes, silhuetas para gerar pedidos de 
+desenvolvimento de moldes era concomitante com o desenvolvimento dos 
+croquis da coleção, o que gerava gargalos na modelagem e na sala de amostras, 
+já que novas bases de modelagem poderiam ser estudadas com calma 
+antecipadamente, com tempo para serem testadas em diferentes tecidos. 
+e) Para simulações de cenários de custo e cálculos de pré-custo, o custo inicial, 
+seria necessário antes ter definido os insumos, ter o bill of materials, a lista de 
+materiais com seus respectivos consumos estimados, ou seja, a texografia feita 
+baseada num histórico de cálculos anteriores de moldes similares e a sequência 
+de operações (lista técnica), o bill of labour, já calculada. No processo como 
+estava, o pré-custo era o causador dos gargalos, com muitas idas e vindas e 
+refazimentos pois o processo precisava ser melhorado drasticamente. No 
+processo futuro, o PLM iria ajudar a solucionar este problema. 
+f) A etapa final de precificação, deveria ser uma atualização final do Plano de 
+Coleção, com margens, preços targets definidos e volumes previstos, como 
+resultado de um trabalho de otimização do custo e melhoramento de margens 
+em conjunto e ao longo de todo o processo. 
+Não é a proposta deste estudo detalhar todos os fluxos e discussões ocorridas, mas é 
+importante ressaltar que uma mudança substancial teria que ser proposta, pois alguns processos 
+de pesquisa, projeto e planejamento eram imaturos, ainda que os processos de desenvolvimento 
+interno estivessem mais maduros, já que as engenharias tinham métodos, padrões, controles de 
+prazo e atividades bem definidos. 
+A empresa pesquisada já tinha um anseio em resolver suas dores e suas equipes tinham 
+atitudes pró-ativas e colaborativas, no entanto, faltava um bom sistemas de controle de 
+atividades, uma metodologia de processos de planejamento e de criação e havia a necessidade 
+de se introduzir um sistema de cálculo de custo automatizado e alimentado por todos.  De uma 
+forma geral, o caminho para um design colaborativo já estava traçado por eles mesmos e só 
+precisaria ser aprimorado. 
+ 
+6.3. 
+IMPLANTAÇÃO E RESOLUÇÃO DO PROBLEMA ORGANIZACIONAL POR 
+MEIO DE AÇÃO 
+ 
+As etapas seguintes foram discussões para desenhar processos futuros mais enxutos e 
+racionalizados pela introdução de um PLM. Todos os processos desenhados foram definidos 
+
+
+---
+
+156 
+junto com a equipe de projetos durante workshops em que os processos futuros eram 
+imaginados já que as ferramentas da solução PLM ainda não estavam completamente prontas. 
+Paredes foram cobertas com os desenhos dos novos fluxos dos processos. 49 
+Quanto a responder aos problemas iniciais, definidos pela própria empresa, numa etapa 
+conclusiva, houve a apresentação dos objetivos principais, sinalizando-se onde estes não seriam 
+atendidos como imaginados previamente. 
+ 
+6.3.1. Melhorias previstas com o objetivo de aperfeiçoar o processo de desenvolvimento 
+de produto a fim de garantir a qualidade da criação 
+ 
+Cada um dos principais requisitos da empresa foi endereçado com uma lista de 
+melhorias a serem implementadas com o projeto de intervenção. A seguinte lista foi apresentada 
+para a equipe de projeto: 
+a) uma ficha técnica centralizada, compartilhada e atualizada em tempo real para todos 
+os atores alimentarem e consultarem; 
+b) facilidade de criar bancos de imagens de inspiração e fazer moodboards; 
+c) menos relatórios e mapas em papel com simples extração de dados das telas; 
+d) controle das requisições de peças piloto e monitoramento das provas de roupa; 
+e) histórico compartilhado de moldes-base, matérias primas e decorações; 
+f) 
+maior número de croquis dentro do custo alvo, já que o custo inicial seria quase que 
+automaticamente calculado. 
+ 
+6.3.2. Melhorias previstas com o objetivo de antecipar o processo de decisão, aperfeiçoar 
+a previsão de vendas e o planejamento de coleção 
+ 
+Este era um dos principais requisitos já que o processo de previsão de vendas e de 
+elaboração de um mix era longo, complicado e doloroso. Foi demonstrado que o PLM traria: 
+a) redução do tempo de construção do plano de sortimento da coleção (mix) pela 
+concentração de informações no mesmo local e histórico de coleções anteriores; 
+b) gerenciamento do desenvolvimento de matérias primas e insumos; 
+c) compactação e antecipação do processo de cálculo de custo; 
+                                               
+49 Um resumo do processo macro desenhado pode ser visto no anexo. 
+
+
+---
+
+157 
+d) visibilidade e controle de tempos em qualquer fase do processo com visibilidade de 
+Tempos & Ações.  
+Não houve solução para que a informação das vendas de coleções passadas fosse 
+integrada à solução de forma automática ou pelo menos sem que houvesse uma customização 
+de aplicativos capazes de converter as informações de inteligência competitiva e de estatísticas 
+das vendas em dados fáceis de leitura. O fato de que esse modelo de PLM não incluía essa 
+funcionalidade, gerou decepção, pois essa era uma expectativa que influiu na compra da 
+ferramenta. Esse risco de não atender uma das necessidades principais do cliente não havia sido 
+mitigado na fase inicial do projeto, logo após ao brainstorm, gerando um grande impacto e 
+reação negativa. 
+Não houve solução para obter uma visualização de relatórios automatizada com filtros 
+por canal, categoria de produto, coleção e segmento, para gerar diferentes tipos de relatórios. 
+Essa funcionalidade era muito esperada, já que se poderia visualizar a coleção por diferentes 
+ângulos, dependendo da função do sujeito. Algumas versões de PLM já mostram essas telas em 
+dispositivos móveis, o que facilita o trabalho e a comunicação remota. 
+ 
+6.3.3. Melhorias previstas com o objetivo de redução de custos 
+ 
+A redução de custos é meta de todas empresas. Um processo de desenvolvimento mais 
+enxuto e curto, exige um planejamento e antecipação de premissas, que acabarão, por gerar: 
+a) diminuição de retrabalhos em modelos que não se encaixam no custo target; 
+b) rapidez nas simulações de diferentes cenários de custo; 
+c) compra de matérias primas mais acertada com a antecipação do cálculo do 
+consumo. 
+Para se obter o cálculo de custos automatizado em tempo real, é preciso ter alimentado 
+o Sistema com premissas atualizadas. O sonho de ter um custo automático no momento da 
+criação ainda não foi possível de ser realizado, resultando em insatisfação da equipe. 
+ 
+6.3.4. Melhoria prevista com o objetivo de reduzir o leadtime e consequentemente reduzir 
+o ciclo de desenvolvimento de produto 
+ 
+O objetivo principal de um PLM é reduzir o leadtime pela eliminação de tarefas 
+desnecessárias e pela concentração de informações em um único lugar. Suas vantagens são: 
+
+
+---
+
+158 
+a) a lista de materiais e a sequência operacional na plataforma facilitariam a 
+visualização das dificuldades antecipadamente; 
+b) histórico de moldes e consumo de modelos anteriores iriam ser utilizados para a 
+elaboração da ficha técnica; 
+c) a integração de subprocessos seria facilitada; 
+d) o processo de cálculo de custo, desde o pré-custo ao custo final seria uma 
+progressão a partir das mudanças de parâmetros alimentados;  
+e) simulação de cenários de custos e margens simplificada; 
+f) 
+revisão dos critérios durante os Stage Gates ou pontos de validação descomplicaria 
+os processos e diminuiria o número de alterações de última hora, facilitando as 
+relações entre as funções conflitantes; 
+g) simulação de custo de matérias primas com cenários para comparações antes das 
+compras colocadas. 
+Nesse quesito, a importância de se antecipar as decisões sobre as matérias primas e as 
+diretrizes dos desenhos de estampas foi proposta como melhoria. Isso evitaria alguns gargalos 
+no processo. 
+ 
+6.3.5. Melhorias com o objetivo de melhorar a colaboração e a comunicação entre 
+equipes de desenvolvimento entre si e as outras áreas 
+ 
+A ferramenta de PLM estimula a colaboração entre os atores do processo de 
+planejamento, criação, desenvolvimento de produtos. Embora a comunicação entre atores de 
+linguagens distintas sempre precisa mediada por técnicas de formação de equipe e outras 
+intervenções, a plataforma é uma forma de compartilhar que tem como seus atributos: 
+a) visibilidade dos painéis de inspiração da coleção em tempo real; 
+b) acompanhamento de tarefas e prazos com visibilidade dos status de caminhos 
+críticos por todos os atores envolvidos no processo; 
+c) integração da modelagem e do estudo de encaixe para cálculo de consumo facilitaria 
+a interface entre setor de estilo e outras áreas; 
+d) visibilidade das diretrizes de orçamento por todos envolvidos com adequação do 
+plano orçamentário, do pré-mix e do mix em tempo real. 
+e) visão completa do processo de desenvolvimento por todos os atores. 
+Os pontos relacionados com os requisitos que não foram atendidos causaram uma reação 
+no cliente negativa, que decidiu descontinuar o projeto e interromper o processo de 
+
+
+---
+
+159 
+implantação, portanto, após todos os processos terem sido revisados e novos processos serem 
+desenhados, a plataforma não foi implementada. 
+ 
+6.4. 
+O DESENHO DE UMA PLATAFORMA COLABORATIVA DE PLM 
+ 
+Para facilitar a visualização de como os processos são tratados dentro de uma plataforma 
+de softwares de PLM, procurou-se ilustrar os aplicativos principais com suas respectivas 
+funcionalidades. Nesse caso, o PLM ilustrado aqui representa em aspecto figurativo o que foi 
+desenvolvido para uma indústria que faz seu desenvolvimento em casa, portanto o estudo de 
+encaixe e de modelagem estão integrados na plataforma. Não tem a pretensão de mostrar a 
+tecnologia utilizada mas sim a cobertura de processos e de usuários de uma forma genérica. 
+ 
+6.4.1. O Plano de Coleção dentro de uma plataforma de PLM. 
+ 
+O surgimento do produto ou modelo é uma consequência da elaboração do plano de 
+sortimento, que por sua vez, surge a partir do detalhamento qualitativo e quantitativo do plano 
+orçamentário. O projeto do modelo surge a partir da alocação de uma lacuna (um espaço) com 
+um determinado código no Plano de Coleção (Figura 28). Elementos hierárquicos formam uma 
+árvore de produtos com níveis distintos: a marca, a estação, a categoria do produto (short, tee-
+shirt, calça, vestido, saia) e o detalhamento de cada uma das categorias, com suas respectivas 
+qualificações por critérios que variam de empresa para empresa (ex: se a empresa tiver jeans, a 
+classificação pode ser por tipo de base de modelagem tais como referências às bocas das calças, 
+às cinturas altas ou baixas, e os caimentos). O produto somente estará formando um mix ou item 
+dentro do sortimento se tiver todos os seus skus (stock units) definidos (cor, tamanho, 
+fornecimento, estação, etc). O nível dos skus na árvore hierárquica de sortimento vai variar de 
+empresa para empresa. Empresas que fazem o mesmo produto com moldes diferentes 
+adequados a biótipos distintos, terão a região como um dos skus.  Muitas empresas definem as 
+cores do produto por último. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+---
+
+160 
+Figura 28 - Plano de coleção 
+ 
+Fonte: elaborado pela autora. 
+ 
+6.4.2. O projeto ou design de um produto e a ficha técnica virtual com todas as 
+especificações do modelo 
+ 
+O projeto de um produto nasce a partir do Plano de Coleção, que abri um “espaço” no 
+banco de dados com um determinado código para o modelo. Numa plataforma de PLM, não 
+existe a ficha técnica propriamente dita. No PLM, o croqui ou a ficha de desenho é um ente 
+vivo, como se fosse um embrião que, alimentado por vários atores, se torna a ficha completa 
+do produto, onde as informações sobre o produto são armazenadas num banco de dados 
+chamado de PDM. Dentro do PLM, a ficha técnica física é um relatório extraído do histórico 
+do produto armazenado. Alimentado por muitos atores, esse histórico sempre está em constante 
+mudança até o momento em que o produto é validado para ser produzido. A Figura 29 mostra 
+como a ficha técnica se torna um banco de dados vivo e em contínua transformação. 
+ 
+ 
+
+
+---
+
+161 
+Figura 29 - Design de um modelo 
+ 
+Fonte: elaborado pela autora. 
+ 
+Inicia-se com uma designação e um código dentro do sortimento, para depois tomar 
+forma por meio do croqui inserido pelo estilista. O estilista ou designer irá desenhar o croqui e 
+dar forma ao projeto iniciado na construção do sortimento. As especificações do produto são 
+feitas pela engenharia de produto e engenharia de processos. O modelista irá fazer o molde a 
+partir do croqui e das especificações do modelo. O coordenador da marca irá definir tamanhos 
+e cores, as categorias dos produtos e suas características. A partir do momento em que a ficha 
+de projeto do modelo é criada na plataforma do PLM, os analistas de desenvolvimento de 
+produto (engenharia de produto) irão detalhar o roteiro ou sequência de operações e os analistas 
+de matérias primas irão detalhar a lista de materiais dentro do banco de dados do produto 
+(PDM). Com essas informações alimentadas, os analistas de custos irão obter um pré-custo ao 
+acessar o produto dentro da plataforma. O custo final somente será calculado na etapa quando 
+o protótipo é validado. Vários cálculos intermediários, com cenários de volumes e margens 
+diferentes, são uma progressão do pré-custo para o custo final. O Pré-custo sempre terá como 
+meta alcançar uma determinada margem e/ou um custo target. 
+ 
+ 
+
+
+---
+
+162 
+6.4.3. Especificações do produto no nível dos seus componentes 
+ 
+Analistas de produto e analistas de materiais vão alimentar as características do produto 
+e seus insumos, como ilustrado na Figura 30. Antes disso, uma biblioteca de materiais precisa 
+ser alimentada e construída com suas características, composições, desenhos caso haja uma 
+padronagem diferenciada, com seus respectivos custos. A composição do produto poderá ser 
+especificada não só em termos de construção, fios e percentual das matérias primas, mas o 
+próprio desenho da matéria prima estará armazenado na galeria de materiais e vinculado ao 
+projeto do produto. O modelista irá construir o molde a partir das especificações de matérias 
+primas e de suas características. A largura do tecido influenciará no encaixe do molde e no 
+consumo. O caimento influenciará no volume desejado pelos estilistas. 
+ 
+Figura 30 - Especificações das matérias primas principais do produto no PLM 
+ 
+Fonte: elaborado pela autora. 
+ 
+ 
+ 
+ 
+
+
+---
+
+163 
+6.4.4. A Modelagem de um Modelo no PLM 
+ 
+A modelagem do produto ou projeto do modelo geralmente é feita num software de 
+modelagem em dimensões ou mesmo num software com um recurso de visualização em 3 
+dimensões por meio de avatar construído com as medidas pré-definidas (Figura 31). Com isso, 
+a prova de roupa pode ser inicialmente feita virtualmente sem a necessidade de se fazer uma 
+peça piloto inicial. 
+ 
+Figura 31 - Modelagem do Modelo no PLM 
+ 
+Fonte: elaborado pela autora. 
+ 
+Vale a pena ressaltar que esse tipo de PLM que integra o software de modelagem na 
+plataforma é feito para o modelo de negócios de empresas que fazem a modelagem 
+internamente e não no fornecedor. Geralmente, as empresas que são híbridas, indústria de 
+vestuário, têm suas marcas próprias ou fazem peças para outras marcas, têm uma meta de 
+reduzir custo muito crucial. Ter a modelagem dentro da plataforma ajudará a estudar cenários 
+de modelagem que simulem diferentes situações de custo. Para modelos de negócios de lojas 
+departamentais que têm o desenvolvimento do produto feito pelas confecções fornecedoras de 
+peças prontas, O PLM não chega a ter o detalhamento de moldes. 
+ 
+
+
+---
+
+164 
+6.4.5. O cálculo de consumo de matérias primas: texografia 
+ 
+O cálculo do consumo dos tecidos utilizados no projeto do produto é realizado por um 
+software, a partir do molde inserido e os parâmetros de quantos tamanhos serão utilizados e a 
+proporção da grade de tamanhos, além da largura útil do tecido (Figura 32). Cenários diversos 
+podem ser analisados, já que diferentes combinações de tamanhos, grades e larguras de tecidos 
+podem ser comparadas. O primeiro cálculo se refere ao pré-custo, pois geralmente a definição 
+dos tamanhos e as grades de tamanhos não estará ainda determinada e o cálculo é feito a partir 
+do tamanho de mostruário. O segundo cálculo já tem elementos suficientes para um cálculo 
+mais próximo do final: os tamanhos, as variantes de cores e suas proporções e a grade de 
+tamanhos já estão definidos. Um custo real somente poderá ser calculado quando a produção 
+com o tecido correto e as ordens de corte estiverem definidas. 
+ 
+Figura 32 – Cálculo de encaixe, ou risco ou texografia 
+ 
+Fonte: elaborado pela autora. 
+ 
+6.5. 
+AVALIAÇÃO 
+ 
+No projeto de intervenção descrito, apesar de terem sido apresentadas as melhorias já 
+mencionadas, após a intervenção feita em relação a mudança de processos e a sugestão de 
+
+
+---
+
+165 
+procedimentos mais enxutos, surgiu uma forte crítica de alguns líderes da equipe de projeto em 
+relação a falta de algumas funcionalidades muito esperadas, o que resultou em interrupção do 
+projeto PLM. Embora num projeto como esse não exista um só culpado, ao ignorar o poder do 
+usuário de rejeitar a nova tecnologia, já que membros influentes da equipe de projeto se 
+decepcionaram com as funcionalidades da plataforma de softwares, os riscos previstos nas fases 
+iniciais não foram mitigados a contento. Na fase inicial de brainstorm já havia indícios 
+documentados de que a expectativa em relação a plataforma de PLM era tão alta que, na visão 
+das equipes, parecia uma solução mágica para um mundo melhor onde tudo seria mais fácil, 
+rápido e automático.  
+As plataformas de última geração oferecem aplicativos móveis e visualizações de dados 
+em tempo real com facilidade de configuração das interfaces de acordo com a necessidade e 
+linguagem do usuário (CAMPBELL, 2017). 
+A evolução da plataforma de softwares de gerenciamento do ciclo de produto acabará, 
+mais cedo ou mais tarde, por ampliar seu uso no sentido de sustentar o processo de co-criação 
+ou codesign, permitindo que consumidores comuns colaborem com marcas e produtores para 
+conceber novos padrões, designs e produtos, tendo seus alicerces num processo interativo entre 
+empresa-consumidor e designer-consumidor. Iniciativas locais e de preço acessível já estão 
+sendo feitas por empresas nacionais, como a Implement Systems, cuja plataforma é um PLM 
+simplificado e fácil de adoção por empresas pequenas.  
+Cietta (2017, p. 446) prevê o advento dos creators e um processo de co-criação de 
+profissionais com usuários amadores. A tendência de consumidores buscarem novas 
+experiências fará com que grupos de pessoas se apaixonem pelo uso dos produtos. Para que 
+isso aconteça, no entanto, é preciso que haja uma evolução das plataformas de softwares para 
+um tipo de integração mais democrática como os softwares de open-source. 
+Iniciativas locais e de preço acessível já estão sendo feitas por empresas nacionais, como 
+a Implement Systems, cuja plataforma é um PLM simplificado e fácil de adoção por empresas 
+pequenas.  
+Ainda há um caminho a percorrer para que as mini-fábricas relatadas por Bruno (2016), 
+na sua descrição de tendências para indústria 4.0, se concretizem. Como explicado por Cietta 
+(2017), a produção de certos modelos de roupa é complexa demais para ser feita de forma 
+caseira. Seria preciso ter um escâner para o corpo, um software ou CAD que recebesse a leitura 
+do escâner e o convertesse em medidas e proporções e em muitos casos, uma impressora em 
+3D. No entanto, Cietta (2017) prevê um meio do caminho, como a aliança de produtores 
+terceirizados que entram em contato com o consumidor e se tornam intermediários entre a 
+
+
+---
+
+166 
+fábrica e o usuário final. Esse futuro em que as ferramentas de design serão mais acessíveis, 
+intuitivas e mais táteis pode estar mais próximo do que pensamos. 
+Derrick de Kerckhove (IMBESI, 2010, p. 132) em debate sobre tecnologia, crise e 
+design interativo afirmou que: 
+A relação das pessoas comuns com o meio ambiente, sejam elas imediatas ou 
+distantes, está se tornando cada vez mais consciente ou envolvida. Eu vejo a 
+possibilidade de ao invés de julgar as coisas sob um ponto de vista racional, muitas 
+pessoas estarão tentadas a perceber as coisas de uma maneira mais ‘física’ ou 
+‘experiencial’. Isso significa perceber o mundo sob seu ‘ponto-de-ser’ mais do que 
+meramente olhar para ele de uma maneira distanciada”.  Isso reforça a visão de um 
+futuro não muito longínquo em que o design deverá evoluir de visual em 2 e 3 
+dimensões para um design táctil. Podemos imaginar um futuro onde as ferramentas 
+de design serão mais tácteis, mais intuitivas e quem sabe em 3 a 4 dimensões. 
+Portanto, a questão problema deste estudo não foi resolvida durante aquele projeto, já 
+que a missão de facilitar diálogos entre equipes e criar um ambiente colaborativo ficou sem 
+resolução. A ferramenta de gerenciamento de ciclo de vida do produto, embora fundamental 
+para gerar inovação, não é capaz de mudar a cultura das empresas sem outras inovações em 
+processos e ferramentas adicionais. 
+Para futuros estudos, será necessário incluir ações de gestão da mudança e um 
+acompanhamento passo a passo das expectativas dos usuários-chave, alinhando e informando 
+todos os stakeholders com as metas iniciais, no intuito de construir a solução da tecnologia 
+como suporte às mudanças desejadas.  
+Os autores Coghlan e Brannick (2005, p. 94) se referem ao processo de mudança numa 
+empresa como algo intensamente político e muitas vezes o pesquisador se envolve em dois 
+papéis conflitantes, o de pesquisador e o de ator da mudança. Os dois autores acham mais 
+importante lidar com o sistema político a cada etapa do que se preocupar rigidamente com a 
+aderência a uma imagem idealizada de como as etapas podem funcionar. Outro ponto apontado 
+por eles é que se deve identificar se a mudança é de 1ª ou 2ª ordem50. 
+No entanto, um grande aprendizado se deu pelo fato de que o projeto tornou possível se 
+perceber de que é necessário antes de implementar uma tecnologia de suporte, fazer a trajetória 
+da mudança de forma transparente e envolvendo a todos os atores. Desenhar a mudança envolve 
+as etapas de determinar a necessidade da mudança, definir o estado futuro, avaliar a lacuna entre 
+presente e futuro e estimar o trabalho a ser feito para a transição e o mais difícil, gerenciar a 
+transição (COGHLAN; BRANNICK, 2005). 
+                                               
+50 1ª ordem é uma mudança incremental nos processos e como fazem algo. 2ª ordem é uma mudança ampla na 
+natureza da cultura da empresa, seu modo de pensar e de agir (COGHLAN; BRANNICK, 2005, p. 93). 
+
+
+---
+
+167 
+O design centrado no fator humano deve se aplicar aí no sentido de levar em conta que 
+a comunicação entre pessoas é muito mais do que uma interface. É preciso construir empatia e 
+perceber as limitações e necessidades de todos. É preciso que se compreenda o ganho da 
+mudança. 
+
+
+---
+
+169 
+7. CONSIDERAÇÕES FINAIS 
+ 
+Esse estudo procurou analisar o contexto do setor da moda no mundo e mais 
+particularmente no Brasil a partir das teorias do contemporâneo. Procurou fundamentar-se nas 
+mudanças de paradigma ocorridas nas últimas décadas, especialmente, as teorias da 
+globalização, da era da conexão, da sociedade em rede e a introdução de novos modelos de 
+negócios, cujos ciclos de vida se encurtaram, a partir do aceleramento do consumo, da 
+fragmentação identitária e da pós-modernidade com seus novos significados culturais. O 
+capítulo sobre o cenário da moda contemporânea procurou responder à pergunta de pesquisa 
+“qual o impacto das mudanças no desenvolvimento de produtos e no modo de projetar coleções” 
+de uma forma interdisciplinar e por diferentes ângulos e abordagens. 
+A pergunta de pesquisa “em que medida a prática do design de moda poderia se atualizar 
+diante dos novos paradigmas da globalização, da era digital e dos ciclos curtos dos lançamentos 
+de coleções” foi respondida com um direcionamento de design colaborativo, fundamentado na 
+pesquisa-ação e projeto de intervenção em indústria de confecção, nas teorias do design 
+industrial e das ciências da artificialidade do século XX e XXI.  
+Apesar do projeto de intervenção ter sido interrompido, as fases da pesquisa-ação foram 
+completadas concomitantemente com o projeto de intervenção. O fato de que a empresa rejeitou 
+a plataforma apenas comprovou a teoria de que o projeto de PLM deveria ter sido considerado 
+como uma mudança de cultura e de paradigmas de 2ª ordem, portanto, deveria ter sido abordado 
+com ferramentas de mudança organizacional sujeitas as dinâmicas políticas no contexto da 
+empresa estudada. 
+Quanto a hipótese de “introduzir o conceito de equipes multifuncionais com 
+profissionais interdisciplinares nas organizações, junto com um sistema de métricas projetuais 
+de desenvolvimento de produto, levando em conta as teorias do design integrado, para melhorar 
+a eficácia dos processos e as chances de sucesso das coleções de moda”, se pode observar que 
+a melhor forma de chegar a soluções complexas é iniciar o projeto de coleções de uma forma 
+colaborativa desde a fase de planejamento até os últimos estágios de validação. 
+A hipótese de que “a introdução de uma plataforma de gestão do ciclo do 
+desenvolvimento de produto, como viabilizadora de diálogos entre os sujeitos das equipes de 
+desenvolvimento de produto, pode produzir resultados positivos” é válida, desde que o projeto 
+de PLM seja encarado de forma holística, abrangendo aspectos humanos, levando em conta a 
+cultura da empresa  e fatores locais, já que fornecedores de softwares internacionais  tendem a 
+utilizar uma estrutura de projeto não adequada a cultura local. 
+
+
+---
+
+170 
+Para propor uma forma de projetar mais colaborativa e centrada no fator humano, o 
+estudo investigou quem são as pessoas envolvidas no projeto de coleção, a complexidade dos 
+processos e as ferramentas utilizadas para planejar, criar, desenvolver e produzir produtos e 
+coleções de moda. Foram aqui resumidas diferentes abordagens interdisciplinares que 
+convergem para a uma união da pesquisa com a prática efetiva do design de moda. 
+Devido à complexidade dos negócios e do contexto da moda contemporânea, é relevante 
+propor uma ressignificação do papel do estilista ou designer de moda, reunindo processos 
+cognitivos e intuitivos simultaneamente na sua formação. Como a realidade da indústria e da 
+própria moda é multifacetada, a proposta de trabalho colaborativa com ferramentas interativas 
+parece ser uma solução adequada ao paradigma da era digital.  
+A reunião de mentes com competências distintas em equipes multidisciplinares, 
+descentralizaria o projeto de moda, que não seria mais realizado por um “rei do reino da 
+criatividade”51 ou árbitro do bom gosto, mas por uma equipe de pessoas com competências 
+complementares, voltando-se para o ser humano e em última análise, para o planeta.  
+No contexto do processo perverso de globalização, que coloca os estilistas brasileiros 
+reféns do que é lançado nos países centrais, a busca por soluções adequadas as nossas 
+especificidades é um caminho para profissionalizar os sujeitos dos projetos de coleção, com o 
+intuito de atualizar a tão sofrida indústria têxtil e de vestuário brasileira. 
+Sendo assim, as soluções para o design de moda no Brasil virão da nossa própria cultura, 
+da nossa criatividade e adaptabilidade diante dos desafios que enfrentamos, nos apropriando de 
+nossos valores, lutando para preservar a indústria local, os saberes tradicionais e visando reduzir 
+as lacunas de uma sociedade desigual guiada por uma aceleração de consumo insustentável. 
+Esse estudo para ser conclusivo ainda carece de respostas as seguintes questões: 
+Introduzir a metodologia de design integrado e multidisciplinar no ensino de moda no 
+Brasil, contribuiria para um alargamento das competências dos futuros designers?   
+Como introduzir as plataformas colaborativas na grande maioria das empresas 
+brasileiras de vestuário, quase todas pequenas e médias? Por meio de opensource ou 
+de softwares de baixo custo ou associações com empresas produtoras de softwares 
+independentes? 
+Por fim, o estudo sobre o design de moda no Brasil merece um aprofundamento, em 
+futuras pesquisas, tanto em metodologia do desenvolvimento de coleções por tipo de modelo 
+de negócios, como em novas tecnologias interativas de desenvolvimento de coleções e práticas 
+de gestão da mudança organizacional para o setor de moda e vestuário. 
+                                               
+51 Frase de Enrico Cietta, na Economia da moda, repetida por ele em várias partes do seu livro (CIETTA, 2017) e 
+em entrevistas. 
+
+
+---
+
+171 
+No intuito de deixar um questionamento às gerações futuras de estilistas, designers e 
+profissionais da moda, essa pesquisa se propôs a investigar um novo modo de projetar coleções 
+mais consoante com a contemporaneidade. 
+
+
+---
+
+173 
+REFERÊNCIAS52 
+ 
+ABDALLAH, A. Desvendamos a cultura C&A. Época Negócios. 2014.  Disponível em: 
+<http://epocanegocios.globo.com/Informacao/Visao/noticia/2014/05/desvendamos-cultura-
+c.html>. Acesso em: 20 jun. 2017.  
+ABIT. Perfil do Setor. Abit: têxtil e confecção. 2017. Disponível em: 
+<http://www.abit.org.br/cont/perfil-do-setor>. Acesso em: 27 abr. 2017.  
+ABRAMOVICI, M. Future Trends in Product Lifecycle Management (PLM). In: L, K. F. 
+(Ed.). The Future of Product Development. Berlim: Heidelberg, 2007.  
+ABRASCE. Números do setor. Abrasce. 2017. Disponível em: 
+<http://abrasce.com.br/monitoramento>. Acesso em: 3 abr. 2017.  
+ANDRADE, C. D. Passeios na Ilha: divagações sobre a vida literária e outras matérias. São 
+Paulo: Cosac Naify, 2011.  
+AVELAR, S. Moda: globalização e novas tecnologias. Rio de Janeiro: Senac, 2011.  
+BAIN & COMPANY. Conheça as 5 tendências comportamentais que influenciarão o 
+consumo brasileiro nos próximos anos, segundo a Bain & Company. Bain & Company 
+Brasil. 2016. Disponível em: <http://www.bain.com/offices/saopaulo/pt/press/the-five-
+behavioral-trends-that-will-influence-the-brazilian-consumption-in-the-coming-years-
+according-to-bain-and-company.aspx>. Acesso em: 29 abr. 2017.  
+BARNARD, M. Moda e Comunicação. Rio de Janeiro: Rocco, 2003.  
+BARNES, L.; LEA-GREENWOOD, G. Fast fashioning the supply chain: shaping the 
+research agenda. Journal of Fashion Marketing and Management: An International 
+Journal, v. 10, n. 3, p. 259–271, 2006.  
+BARTHES, R. Système de la Mode. Paris: Seuil, 1967.  
+BASTOS, S. F. et al. SizeBR: o estudo antropométrico brasileiro. [s.d.]. Disponível em: 
+<https://static-cms-si.s3.amazonaws.com/media/filer_public/76/45/76457548-37cc-4c47-
+9107-2e224bf34334/sizebr_por.pdf>. Acesso em: 20 jan. 2017 
+BATTAGLIA, F.; PICCHI, F.; FERRO, J. R. Desenvolvimento Lean de Produtos. São 
+Paulo: Lean Institute Brasil, 2005.  
+BAUDOT, F. A moda do Século. São Paulo: Cosac Naify, 1999.  
+BAUDRILLARD, J. A Troca simbólica e a morte. São Paulo: Loyola, 1996.  
+BEAUMONT, L. R. Metrics: a practical example. In: ROSENAU, M. D. et al. (Eds.). The 
+PDMA Handbook of New Product Development. Nova Jersey: John Wiley & Sons, 1996.  
+BENJAMIN, W. Thesis on the Philosophy of History (1955). Londres: Fontana/Collins, 
+1973.  
+BEVINS, V. A Shrinking Market: Is This Brazil’s “New Normal?” Business of Fashion. 
+2015. Disponível em: <https://www.businessoffashion.com/articles/market-gps/a-shrinking-
+market-is-this-brazils-new-normal>. Acesso em: 5 jun. 2017.  
+BICUDO, M. Interdisciplinaridade no Design. O antimétodo.in: Design: Quo Vadis? In: 
+Seminário do Curso de Design da FAUUSP. 1., 2011, São Paulo. Anais... São Paulo: 
+                                               
+52 De acordo com a Associação Brasileira de Normas Técnicas. NBR 6023 (2002). 
+
+
+---
+
+174 
+FAUUSP, 2011.  
+BONSIEPE, G. A crise, a partir da periferia e do projeto. Revista Brasileira de Design 
+Repertório, v. 4, n. 41, 2011a. Disponível em: 
+<http://www.agitprop.com.br/?pag=repertorio_det&id=74&titulo=repertorio>. Acesso em: 1 
+maio. 2017 
+______. Design, Cultura e Sociedade. São Paulo: Blucher, 2011b.  
+______. The uneasy relationship between design and design research. In: Swiss Design 
+Network. 2007, Basiléia. Anais... Basiléia: Birkhäuser Verlag AG, 2007.  
+BOUÇAS, C. Lojas de roupas revertem tendência de queda em março. Valor Econômico. 
+2017. Disponível em: <http://www.valor.com.br/empresas/4951568/lojas-de-roupas-
+revertem-tendencia-de-queda-em-marco>. Acesso em: 28 abr. 2017.  
+BRAGA, J.; PRADO, L. A. História da Moda no Brasil. São Paulo: Pyxis, 2011.  
+BRUNO, F. A Quarta Revolução Industrial do Setor Têxtil e de Confecção: a visão de 
+futuro para 2030. São Paulo: Estação das Letras e Cores, 2016.  
+BUCHANAN, R. Strategies of Design Research: productive science and rhetorical inquiry. 
+Berlim: Birkhäuser Verlag AG, 2007.  
+______. Wicked problems in design thinking. Design issues, v. 8, n. 2, p. 5–21, 1992.  
+CALANCA, D. História Social da Moda. São Paulo: Senac SP, 2008.  
+CAMPBELL, C. Major Market-Driven Innovations: Centric Software PLM V6. 
+CentricSoftware. 2017. Disponível em: <https://www.centricsoftware.com/major-market-
+driven-innovations-centric-software-plm-v6/>. Acesso em: 12 jul. 2017.  
+CARDOSO, M. X.; DEMARCHI, A. P. P. O Processo de Desenvolvimento de Produtos de 
+Moda baseado no Design Thinking um estudo de caso. Projetica, v. 3, n. 2, p. 51–65, 2012.  
+CASTELLS, M. A Sociedade em Rede. 8. ed. São Paulo: Paz e Terra, 1999b. (A Era da 
+Informação: economia, sociedade e cultura, v. 1).  
+______. O Fim do Milênio. 8. ed. São Paulo: Paz e Terra, 1999a. (A Era da Informação: 
+economia, sociedade e cultura, v. 3).  
+______. The rise of the network society. Cambridge: Blackwell Publishers, 1996.  
+CHARNY, D. Thinking of Making. The Power of Making: the importance of being skilled. 
+Londres: V&A, 2011.  
+CHASE, J. Measuring Value in Product Development. Working Paper Series - WP00-05, 
+Massachusetts: Massachusetts Institute of Technology, 2000.  
+CHAUÍ, M. Conformismo e Resistência, Aspectos da cultura popular no Brasil. [s.l.] 
+Brasiliense, 1993.  
+ČIARNIENĖ, R.; VIENAŽINDIENĖ, M. Agility and Responsiveness Managing Fashion 
+Supply Chain. Procedia-Social and Behavioral Sciences, v. 150, p. 1012–1019, 2014.  
+CIETTA, E. A Economia da Moda: porque hoje um bom modelo de negócios vale mais do 
+que uma boa coleção. São Paulo: Estação das Letras, 2017.  
+______. A Revolução do Fast-Fashion: estratégias e modelos organizativos para competir 
+nas indústrias híbridas. São Paulo: Estação das Letras e Cores, 2010.  
+CLARK, K. B.; FUJIMOTO, T. Product development performance: strategy, organization, 
+
+
+---
+
+175 
+management in the world auto industry. Boston: Harvard Business School Press, 1991.  
+COGHLAN, D.; BRANNICK, T. Doing Action Research in your organization. 2. ed. 
+Thousand Oaks: Sage, 2005.  
+COOPER, R. G. Stage-gate systems: a new tool for managing new products. Business 
+horizons, v. 33, n. 3, p. 44–54, 1990.  
+______. Winning at New Products: accelerating the process from idea to launch. 2. ed. 
+Cambridge: Addison-Wesley, 1993.  
+COSTA, A. C. R.; ROCHA, É. R. P. Panorama da Cadeia Produtiva Têxtil e de Confecções e 
+a Questão da Inovação. BNDES Setorial, n. 29, p. 159–202, 2009.  
+COUGHLAN, P.; BRADY, E. Self-assessment and benchmarking product development in 
+five Irish firms. Journal of Managerial Psychology, v. 10, n. 6, p. 41–47, 1995.  
+______.; COGHLAN, D. Action research for operations management. International journal 
+of operations & production management, v. 22, n. 2, p. 220–240, 2002.  
+CPFLCULTURA. Café Filosófico: Foucault, Deleuze e Derrida frente à crise - Scarlett 
+Marton. Youtube. 2012. Video online. Disponível em: 
+<https://www.youtube.com/watch?v=mPBN2vYsOLI>. Acesso em: 11 abr. 2017.  
+CRANE, D. A Moda e seu Papel Social: classe, gênero e identidade das roupas. São Paulo: 
+Senac, 2006.  
+______. Fashion and its Social Agendas: class, gender and identity in clothing. 
+Chicago/Londres: University of Chicago, 2000.  
+CROSS, N. Design Thinking: understanding how designers think and work. Oxford: Berg, 
+2011.  
+______. From a Design Science to a Design Discipline: understanding designerly ways of 
+knowing and thinking. Berlim: Birkhäuser Verlag AG, 2007.  
+CUNHA, O. et al. Brazil’s Next Consumer Frontier: capturing growth in the rising interior. 
+bcg.perspectives. 2014. Disponível em: 
+<https://www.bcgperspectives.com/content/articles/consumer_insight_globalization_brazil_n
+ext_consumer_frontier_capturing_growth_rising_interior/>. Acesso em: 3 abr. 2017.  
+DANT, T. Material Culture in the Social World. Buckingham: Open University Press, 
+1999.  
+DAVENPORT, T.; PRUSAK, L. Working Knowledge. Cambridge: Harvard, 1998.  
+DELEUZE, G.; GUATARI, F. Mil Platôs. São Paulo: 34, 1997.  
+DENIS, R. C. Design, Cultura Material e o Fetichismo dos objetos. Arcos, v. 1, 1998.  
+ECHEVESTE, M. E. S. Uma abordagem para a estruturação e controle do processo 
+integrado de desenvolvimento de produtos. 2003Tese (Doutorado em Engenharia de 
+Produção)—UERGS, Porto Alegre, 2003 
+EHN, P. Work-Oriented Design of Computer Artifacts. [s.l.] Lawrence Erlbaum Assoc, 
+2007.  
+EVANS, C. Fashion at the Edge: spectacle, modernity & deathliness. Londres: Yale, 2003.  
+EVANS, D. The Internet of things: How the Next Evolution of the Internet Is Changing 
+Everything. [s.l.] Cisco Internet Business Solutions Group (IBSG), 2011.  
+
+
+---
+
+176 
+FAB LAB AJACCIO. What is a Fab Lab? FABLABAJACCIO. c2015. Disponível em: 
+<http://fablabajaccio.com/en/what-is-a-fab-lab/>. Acesso em: 25 jan. 2017.  
+FAIRS, M. Li Edelkoort publishes manifesto explaining why “fashion is obsolete”. Dezeen. 
+2015. Disponível em: <https://www.dezeen.com/2015/03/02/li-edelkoort-manifesto-anti-
+fashion-obsolete/>. Acesso em: 29 mar. 2017.  
+FASHION NETWORK. Dirigente da ABIT aborda o mercado de moda e suas dificuldades. 
+FashionNetwork. 2016. Disponível em: <http://br.fashionnetwork.com/news/Dirigente-da-
+ABIT-aborda-o-mercado-de-moda-e-suas-dificuldades,716237.html#.Weokm2hSzIV>. 
+Acesso em: 1 maio. 2017.  
+FAURSCHOU, G. Fashion and the cultural logic of postmodernity. Canadian Journal of 
+Political and Social Theory, v. 11, p. 68–82, 1988.  
+FERDOWS, K.; LEWIS, M. A.; MACHUCA, J. A. D. Rapid-fire fulfillment. Harvard 
+business review, v. 82, n. 11, p. 104–117, 2004. 
+FLUSSER, V. About the word Design. Londres: Reaktion, 1999.  
+______. O Mundo Codificado: por uma filosofia do Design e da Comunicação. São Paulo: 
+Cosac Naify, 2007.  
+GARAY, J. W. M. Cambio Urbano y Evolucion Discursiva en el Análisis de la Ciudad 
+Latino-Americana: de la dependencia a la globalización. Bogotá: Universidad Nacional de 
+Colombia, 2005.  
+GIRARDI, E. P. O rural e o urbano: é possível uma tipologia? Presidente Prudente: 
+FCT/Unesp, 2008. Disponível em: 
+<http://www.uel.br/cce/geo/didatico/omar/modulo_b/a12.pdf>. Acesso em: 1 maio. 2017. 
+GIRON, L. A. Zygmunt Bauman: “Vivemos o fim do futuro”. Época. 2014. Disponível em: 
+<http://epoca.globo.com/ideias/noticia/2014/02/bzygmunt-baumanb-vivemos-o-fim-do-
+futuro.html>. Acesso em: 10 jan. 2017.  
+GRAMMONT, H. C. El concepto de nueva ruralidad. In: PÉREZ, C. E.; FARAH, Q. M. A.; 
+GRAMMONT, H. C. (Eds.). La nueva ruralidad en América Latina: avances teóricos y 
+evidencias empíricas. Buenos Aires: CLACSO, 2005.  
+GRASSL, W. Business models of social enterprise: A design approach to hybridity. ACRN 
+Journal of entrepreneurship Perspectives, v. 1, n. 1, p. 37–60, 2012.  
+GRIMBERG, J. In Brazil, Fast Fashion Heats Up. Business of Fashion. 2014. Disponível 
+em: <https://www.businessoffashion.com/articles/global-currents/brazil-fast-fashion-heats>. 
+Acesso em: 22 mar. 2017.  
+GUMMESSON, E. Qualitative Methods in Management Research. 2. ed. Thousand Oaks: 
+Sage, 2000.  
+HANSEN, M.; BIRKINSHAW, J. The Innovation Value Chain. Harvard Business Review, 
+v. 85, n. 6, p. 121, 2007.  
+HARDT, M.; NEGRI, A. Império. Rio de Janeiro: Record, 2004.  
+HARVEY, D. A Condição Pós-Moderna: uma pesquisa sobre as origens da mudança 
+cultural. São Paulo: Loyola, 2001.  
+ID KONSTFACK. Klaus Krippendorff on The Key Concepts of The Semantic Turn. vimeo. 
+2012. Disponível em: <https://vimeo.com/43316950>. Acesso em: 22 maio. 2017.  
+
+
+---
+
+177 
+IMBESI, L. Technology, Crisis and Interaction Design: a conversation with Bruce Sterling, 
+Donald Norman and Derrick de Kerckhove. Media Tropes, v. 2, n. 2, p. 128–135, 2010.  
+JAMESON, F. Pós-modernidade e Sociedade de Consumo. Novos Estudos CEBRAP, n. 12, 
+p. 16–26, 1985.  
+JAMESON, F. Postmodernism, or, the cultural logic of late capitalism. Durham: Duke 
+University Press, 1991.  
+______. The Cultural Turn: selected writings on the postmodern, 1983-1998. Londres: 
+Verso, 1998.  
+JOHANSSON-SKÖLDBERG, U.; WOODILLA, J.; ÇETINKAYA, M. Design thinking: past, 
+present and possible futures. Creativity and Innovation Management, v. 22, n. 2, p. 121–
+146, 2013.  
+JORDAN, M. B. P. Processo de Desenvolvimento de Produto: um estudo para a indústria 
+têxtil. 2004. 80 f. Trabalho de Conclusão de Curso (Mestrado Profissionalizante em 
+Engenharia)—Universidade Federal do Rio Grande do Sul, Porto Alegre, 2004. 
+KALIL, G. (ED.). Fashion Marketing: relação da moda com o mercado. São Paulo: Senac 
+SP, 2010.  
+KJAER GLOBAL. 8 key trends 2015-2020: shaping people, cities & businesses. [s.l.] Kjaer 
+Global, 2014. Disponível em: 
+<http://markedsforing.dk/sites/default/files/courses/8_key_trends_2015-2020.pdf>. Acesso 
+em: 29 mar. 2017. 
+KJAER, A. E. Key Trends for 2015-2020: 8. #Meaningful Experiences (by Anne Lise Kjaer). 
+Huguesrey. 2015. Disponível em: <https://huguesrey.wordpress.com/2015/04/22/key-trends-
+for-2015-2020-8-meaningful-experiences-by-anne-lise-kjaer/>. Acesso em: 23 abr. 2015.  
+KNOWLES, J. Brand market report: Product is king. Drapers. 2013. Disponível em: 
+<https://www.drapersonline.com/business-operations/brand-market-report-product-is-
+king/5047764.article>. Acesso em: 17 jul. 2017.  
+KOTLER, P.; KARTAJAYA, H.; IWAN, S. Marketing 3.0: as forças que estão definindo o 
+novo marketing centrado no ser humano. Rio de Janeiro: Elsevier, 2010.  
+KRIPPENDORFF, K. The cybernetics of design and the design of cybernetics. Kybernetes, 
+v. 36, n. 9/10, p. 1381–1392, 2007.  
+______. The Semantic Turn: a new foundation for design. Boca Raton: Taylor & Francis, 
+2006.  
+LEATHER INTERNATIONAL. Lectra upgrade marker-maker. leather international. 2011. 
+Disponível em: <http://www.leathermag.com/features/featurelectra-upgrade-marker-maker/>. 
+Acesso em: 9 maio. 2017.  
+LECTRA. O Brasil está mudando: o panorama da moda. [s.l.] lectra.com, 2015. Disponível 
+em: <https://www.lectra.com/sites/lectra.com/files/document/lectra-white-paper-brasil-
+panorama-da-industria-da-moda-pt-br.pdf>. Acesso em: 29 jan. 2017. 
+______. O Cenário Mutante da Moda: o surgimento do modelo de negócio híbrido. São 
+Paulo: lectra.com, 2014a. Disponível em: 
+<https://www.lectra.com/sites/lectra.com/files/document/lectra-white-paper-fashion-
+changing-landscape-pt-br.pdf>. Acesso em: 5 jul. 2017. 
+______. PLM para o setor da moda: harmonizando design, desenvolvimento e a cadeia de 
+
+
+---
+
+178 
+abastecimento. [s.l.] Lectra, 2014b. Disponível em: 
+<https://www.lectra.com/sites/lectra.com/files/document/lectra-white-paper-plm-for-fashion-
+pt-br.pdf>. Acesso em: 8 jul. 2017. 
+LEMOS, A. Cibercultura e Mobilidade. A Era da Conexão. In: Congresso Brasileiro de 
+Ciências da Comunicação. 28., 2005, Rio de Janeiro. Anais... Rio de Janeiro: UERJ, 2005.  
+______. Cibercultura: tecnologia e vida social na cultura contemporânea. 7. ed. Porto 
+Alegre: Sulina, 2015.  
+LÉVY, P. Cibercultura. São Paulo: 34, 1999.  
+LYOTARD, J. F. La condizione Postmoderna. Milão: Feltrinelli, 1996.  
+MARGETTS, M. Action not words. The Power of Making: the importance of being skilled. 
+Londres: V&A, 2011.  
+MARTINI, E. Referência mundial, trend hunter Li Edelkoort faz previsões sobre moda 
+brasileira. Fashion Foward. 2014. Disponível em: 
+<http://ffw.uol.com.br/noticias/gente/referencia-mundial-pesquisadora-de-tendencias-li-
+edelkoort-faz-previsoes-sobre-moda-brasileira/>. Acesso em: 17 abr. 2017.  
+MASTER NEWS. Internet das coisas & coisas da internet. Master News. 2016. Disponível 
+em: 
+<https://www.masternews.com.br/internet+das+coisas++amp++coisas+da+internet/1430>. 
+Acesso em: 22 mar. 2017.  
+MCKAY, J.; MARSHALL, P. Driven by two masters, serving both: The interplay of problem 
+solving and research in information systems action research projects. In: KOCK, N. (Ed.). 
+Information systems action research: An applied view of emerging concepts and methods. 
+Nova York: Springer, 2007. p. 131–155.  
+MCMANUS, H. L. Product Development Value Stream Mapping (PDVSM) Manual 1.0. 
+Massachusetts: Massachusetts Institute of Technology, 2005.  
+MENELAU, S. et al. Realizar pesquisa sem ação ou pesquisa-ação na área de Administração? 
+Uma reflexão metodológica. Revista de Administração, v. 50, n. 1, p. 40–55, 2015.  
+MICHETTI, M. Por que a “moda brasileira” quer ser global? desigualdade das trocas 
+simbólicas mundiais e ethos dos atores da moda nacional. Revista UFRJ, v. 5, n. 2, p. 515–
+533, 2015.  
+MONDARDO, M. Sujeitos em trânsito identitário na América Latina: da territorialidade 
+moderna-ocidental ao devir de territorialidades pós-coloniais. Contribuciones a las Ciencias 
+Sociales, 2012. Disponível em: <http://www.eumed.net/rev/cccss/21/mm.html>. Acesso em: 
+20 mar. 2017 
+MONNEYRON, F. A Moda e seus Desafios: 50 questões fundamentais. São Paulo: Senac 
+SP, 2007.  
+MONTEMEZZO, M. C. F. S. Diretrizes Metodológicas para o Projeto de Produtos de 
+Moda no Âmbito Acadêmico. 2003. 98 f.Dissertação (Mestrado em Desenho Industrial)—
+Universidade Estadual Paulista (UNESP), Bauru, 2003 
+MORACE, F. A globalização e o futuro brasileiro. DNA Brasil. São Paulo: Estação das 
+Letras e Cores, 2009.  
+MORGAN, J. M.; LIKER, J. K. Toyota de desenvolvimento de produto: integrando 
+pessoas, processo e tecnologia. Porto Alegre: Bookman, 2006.  
+
+
+---
+
+179 
+NEAD, L. Victorian Babylon: people, streets and images in the nineteenth century-
+London. Londres: Yale, 2000.  
+NÚCLEO DE ESTUDOS DA VIOLÊNCIA. Uma conversa sobre o livro “Brasil: Uma 
+Biografia” (com Lilia Schwarcz e Heloisa Starling). Youtube. 2016. Video online. 
+Disponível em: <https://www.youtube.com/watch?v=DwD_z_6Tpn4>. Acesso em: 28 mar. 
+2017.  
+O CONFECCIONISTA. Comportamento de compra do consumidor de vestuário na crise. 
+Ofertas e marcas são atrativos. O Confeccionista. 2017. Disponível em: 
+<http://www.oconfeccionista.com.br/2017/04/07/comportamento-de-compra-do-consumidor-
+de-vestuario-na-crise-ofertas-e-marcas-sao-atrativos/>. Acesso em: 24 abr. 2017.  
+ORTIZ, R. Globalização: notas sobre um debate. Sociedade e Estado, v. 24, n. 1, p. 231–254, 
+2009.  
+PANTONE. Celebrate Color: 50 years in color infographic. Pantone. c2013. Disponível em: 
+<http://www.pantone.com/pages/pantone.aspx?pg=21111&ca=90>. Acesso em: 27 abr. 2017.  
+PAPANEK, V. Design for the Real World: human ecology and social change. Londres: 
+Thames and Hudson, 1972.  
+______. The Green Imperative: ecology and ethics in design and architecture. Singapura: 
+Thames & Hudson, 1995.  
+PATTERNBANK. Première Vision New York – S/S 2018 Print & Pattern Trend Round Up. 
+Patternbank Blog. c2017. Disponível em: <http://blog.patternbank.com/premiere-vision-
+new-york-ss-2018-print-pattern-trend-round/#more-30135>. Acesso em: 22 out. 2017.  
+PAULA, F. B. R. DE. A linguagem híbrida do design: um estudo sobre as manifestações 
+contemporâneas. 2013. 297 f.Tese (Doutorado em Design)—Pontifícia Universidade Católica 
+do Rio de Janeiro (PUC-RIO), Rio de Janeiro, 2013 
+PEREIRA, A. P. O que é Wireframe? Tecmundo. 2008. Disponível em: 
+<https://www.tecmundo.com.br/programacao/976-o-que-e-wireframe-.htm>. Acesso em: 12 
+jul. 2017.  
+POLI-USP. Poli lança laboratório e disciplina de graduação voltados para a inovação. USP. 
+2014. Disponível em: <http://www5.usp.br/40730/poli-lanca-laboratorio-e-disciplina-de-
+graduacao-voltados-para-a-inovacao/>. Acesso em: 11 maio. 2017.  
+PORTAL ERP. Entenda ERP. Portal ERP. [201-]. Disponível em: 
+<https://portalerp.com/erp/5-entenda-erp>. Acesso em: 15 jan. 2017.  
+PORTER, M.; KRAMER, M. R. Estrategia y sociedad. Harvard business review, v. 84, n. 
+12, p. 42–56, 2006.  
+PRIMO, A. Fases do Desenvolvimento Tecnológico e suas implicações nas formas de ser, 
+conhecer, comunicar e produzir em sociedade. In: PRETTO, N. L.; SILVEIRA, S. A. (Eds.). 
+Além das redes de colaboração: internet, diversidade cultural e tecnologias do poder. 
+Salvador: Edufba, 2008.  
+PRINTI. O que são RGB e CMYK? Printi. 2016. Disponível em: 
+<https://www.printi.com.br/blog/o-que-sao-rgb-e-cmyk>. Acesso em: 28 jan. 2017.  
+RIBEIRO, D. O Povo Brasileiro: a formação e o sentido do Brasil. 2. ed. São Paulo: 
+Companhia das Letras, 1995.  
+RITTEL, H. W. J.; WEBBER, M. M. Dilemmas in a general theory of planning. Policy 
+
+
+---
+
+180 
+sciences, v. 4, n. 2, p. 155–169, 1973.  
+ROBINSON, K. Tecendo o “Nós” no Desenvolvimento de Vestuário: colaboração na 
+indústria da moda. São Paulo: Lectra, 2015.  
+ROZENFELD, H.; FORCELLINI, F. A.; AMARAL, D. C. Gestão do Desenvolvimento de 
+Produtos: uma referência para a melhoria do processo. São Paulo: Saraiva, 2006.  
+SANTOS, M. A Natureza do Espaço: técnica e tempo, razão e emoção. São Paulo: USP, 
+2008.  
+______. La naturaleza del espacio: técnica y tiempo; razón y emoción. Barcelona: Ariel, 
+2000.  
+SANTOS, M. Por uma outra globalização: do pensamento único a consciência universal. 6. 
+ed. Rio de Janeiro: Record, 2001.  
+SAW, M. A. Material Textiles. Londres: TRFC, 2012.  
+SCALZO, M.; HARA, H. 30 Anos de Moda: uma breve história. São Paulo: Cultura, 2009.  
+SCHWARZ, L. M.; STARLING, H. M. Brasil: uma biografia. 1. ed. São Paulo: Companhia 
+das Letras, 2015.  
+SEBRAE. Participação das Micro e Pequenas Empresas na Economia Brasileira. 
+Brasília: Sebrae, 2014.  
+SEVERINO, A. J. Metodologia do Trabalho Científico. São Paulo: Cortez, 2013.  
+SHANI, A. B.; PASMORE, W. A. Organization inquiry:Towards a new model of the action 
+research process. In: WARRICK, D. D. (Ed.). Contemporary Organization Development: 
+Current Thinking and Applications. Glenview: Scott, Foresman, 1985. p. 438–448.  
+SHETE, V. The Contemporary Fashion Industry And Its Futures. VIR SHETE. 2013. 
+Disponível em: <https://virshete.wordpress.com/tag/fashion-worlds-and-global-markets-from-
+class-to-consumer/>. Acesso em: 22 mar. 2017.  
+SIQUEIRA, D.; OSÓRIO, R. O conceito de rural. In: GIARRACCA, N. (Ed.). Una nueva 
+ruralidad em America Latina? Buenos Aires: CLACSO, 2001. p. 67–97.  
+SOFTONIC. My Label. softonic.com. c1997-2017. Disponível em: <https://my-
+label.en.softonic.com/>. Acesso em: 6 jul. 2017.  
+SPILLERS, F. The Glossary of Human Computer Interaction. Interaction Design 
+Foundation. [201-]. Disponível em: <https://www.interaction-design.org/literature/book/the-
+glossary-of-human-computer-interaction/progressive-disclosure>. Acesso em: 12 jul. 2017.  
+STEVENSON, N. J. Cronologia da Moda: de Maria Antonieta a Alexander McQueen. 
+1980-2020. Rio de Janeiro: Zahar, 2012.  
+SUROWIECKI, J. A sabedoria das multidões. Rio de Janeiro: Record, 2005.  
+SUROWIEKI, J. A Sabedoria das Multidões. Rio de Janeiro: Record, 2006.  
+SWYNGEDOUW, E. The socio-spatial implications of innovations in industrial 
+organisation. Working Paper no.20, Lille: Johns Hopkins European Centre for Regional 
+Planning and Research, 1986.  
+TARIFA, A. O que é big data e como usar na sua pequena empresa. EXAME.com. 2014. 
+Disponível em: <https://exame.abril.com.br/pme/o-que-e-big-data-e-como-usar-na-sua-
+pequena-empresa/>. Acesso em: 29 jun. 2017.  
+
+
+---
+
+181 
+TEECE, D. J. Business models, business strategy and innovation. Long range planning, v. 
+43, n. 2, p. 172–194, 2010.  
+THAMER, D. S. A Moda nos Anos 80. São Paulo: DCI, 1987.  
+THE ECONOMIST. Inditex: Fashion forward. The Economist. 2012. Disponível em: 
+<http://www.economist.com/node/21551063>. Acesso em: 23 maio. 2015.  
+THOMAS, D. Deluxe: como o luxo perdeu o brilho. Rio de Janeiro: Elsevier, 2008.  
+TOWNSON, D. The seven tenets of human-centred design. Design Council. 2017. 
+Disponível em: <http://www.designcouncil.org.uk/news-opinion/seven-tenets-human-centred-
+design>. Acesso em: 2 maio. 2017.  
+User Centred Design. Pascal Raabe. c2010. Disponível em: 
+<http://paznow.s3.amazonaws.com/User-Centred-Design.pdf>. Acesso em: 14 maio. 2017.  
+VINCENT-RICARD, F. As Espirais da Moda. Rio de Janeiro: Paz e Terra, 1989.  
+WALLIMAN, N. Métodos de Pesquisa. São Paulo: Saraiva, 2015.  
+WANDERLEY, M. N. B. A Ruralidade no Brasil Moderno: por um pacto social pelo 
+desenvolvimento rural. In: GIARRACCA, N. (Ed.). Una nueva ruralidad em America 
+Latina? CLACSO ed. Buenos Aires: [s.n.]. p. 31–44.  
+WARD, A. et al. The second Toyota paradox: How delaying decisions can make better cars 
+faster. Sloan management review, v. 36, n. 3, p. 43, 1995.  
+WARNIER, J.-P. A Mundialização da Cultura. Bauru: Edusc, 2003.  
+WEATHERHEAD SCHOOL OF MANAGEMENT. Faculty – Richard Buchanan. 
+Weatherhead School of Management: Case Western Reserve University. [201-]. Disponível 
+em: <https://weatherhead.case.edu/faculty/richard-buchanan>. Acesso em: 2 maio. 2017.  
+WHEELWRIGHT, S. C.; CLARK, K. B. Revolutionizing new product development. Nova 
+York: The Free Press, 1992.  
+WILSON, E. Fashion and the Postmodern Body. In: ASH, J.; WILSON, E. (Eds.). Chic 
+thrills: a fashion reader. Londres: Pandora, 1992.  
+WOMACK, J. P.; JONES, D. T.; ROOS, D. A. Máquina que Mudou o Mundo. 7. ed. Rio 
+de Janeiro: Campus, 2004.  
+YAPP, N. Decades of the 20th Century. Londres: Getty Images, 2001.  
+YOUNG, R. Tapping Brazil’s Next Tier. Business of Fashion. 2014. Disponível em: 
+<https://www.businessoffashion.com/articles/market-gps/tapping-brazils-next-tier>. Acesso 
+em: 22 mar. 2017.  
+
+
+---
+
+183 
+APÊNDICE A - PROCESSOS 
+ 
+Detalhamento dos Processos de Planejamento de Coleção 
+O processo de planejamento de coleção é tão importante quanto o processo de criação 
+da coleção e quando integrado ao processo global do projeto de coleção, faz parte do projeto na 
+sua etapa inicial. É a partir do planejamento que a equipe de estilo e de produto começam a 
+trabalhar.  
+O Planejamento de Coleção tem várias denominações cunhadas por diferentes empresas 
+e setores da indústria. Uns chamam de Plano de Sortimento, outros de Plano de Compras ou 
+Mix de Coleção. O fato é que ele parte do Plano de Orçamento Financeiro da empresa, que dá 
+a diretriz das metas financeiras de faturamento e lucratividade a serem alcançadas. A partir 
+disso, surge um Plano de Orçamento da Coleção em si, com volumes e um faturamento a atingir, 
+que por sua vez, gera um Plano Macro de Coleção, com as categorias de produtos já definidas 
+e quantidades target (volumes alvo) markup (margem de lucro) e preços target (preços de venda 
+alvo) a serem realizados como uma previsão. 
+Esse plano é semi-qualitativo, porque já tem as categorias pré-definidas, mas a base é 
+ainda muito quantitativa em termos de volumes a atingir. Somente um estudo criterioso das 
+análises de vendas passadas cruzado com tendências de mercado e tendências de moda é que 
+poderão qualificar o Plano de Sortimento da coleção. Portanto, por ser complexo, é feito em 
+muitas mãos. Analistas de inteligência de mercado têm uma grande participação nesse processo 
+e os Gerentes de Produtos ou de Marcas são os que fazem o Plano ou Mix. Em algumas 
+empresas é feito em equipe multifuncional, interdisciplinar com a validação de uma Diretoria 
+de Marketing ou de Produto. 
+ As etapas do planejamento são as seguintes: 
+ 
+Análise de vendas 
+Por meio de históricos, relatórios de BI (Business Intelligence) e avaliação de experts 
+em mercado. As entregas são mapas e curvas estatísticas junto com análise empírica e muitas 
+vezes intangível por meio de avaliação baseada em experiência e feeling. 
+ 
+Plano Orçamentário da Coleção 
+O Plano Orçamentário ou Budget Plan é composto de números a serem atingidos. As 
+entregas são: faturamento, volume, margens. Ele é mais quantitativo do que os outros dois. 
+ 
+
+
+---
+
+184 
+ 
+Plano de Coleção 
+ Tem o objetivo de definir a meta para a nova estação. Suas saídas são: número de 
+modelos por faixa de preço, quantidade projetadas por modelo e número de produtos por nível 
+hierárquico e categoria de produto. Ele tem como premissa o orçamento, incluindo o markup. 
+ 
+Plano de Sortimento 
+Esse plano é o mais qualitativo dos três, pois nele a definição da estrutura do sortimento 
+já especifica as características do modelo (ex: camisa manga longa em tecido fluido). 
+ 
+Planejamento do Cronograma de Atividades da Coleção 
+Tem como objetivo estabelecer metas de prazos para as atividades da coleção e rastrear 
+o andamento dos processos de desenvolvimento. Nele existem marcos com determinadas datas 
+definidas e uma lista de atividades, com datas limites e responsáveis pelas entregas. Quando 
+bem feito, tem divisões por categoria de produto e por área responsável por cada atividade. 
+ 
+Detalhamento dos Processos Criativos da Área de Estilo 
+ 
+Definição de Cartela de Cores: 
+O primeiro ponto importante na definição de uma cartela é fazer uma rápida 
+retrospectiva (Figura 33). Nos anos 80, a importância das cores neon refletia o culto ao esporte, 
+os movimentos de arte Memphis e a influência das discotecas; nos anos 1990, houve uma onda 
+de neutros, tendo o cinza como cor chave e as cores da natureza inspiradas num minimalismo 
+Zen; aos poucos, essas cores neutras foram sendo substituídas por cores lavadas e pastel no 
+início dos anos 2000. Na atual década, a paixão pela cor está de volta, seja pela influência das 
+marcas esportivas ou pela ascensão da tecnologia no cotidiano das pessoas, a cor é um fator 
+chave de sucesso de uma coleção e acertar a cartela de cores de uma estação é fator fundamental 
+para uma marca de moda expressar a sua narrativa. A clássica cena do filme “O Diabo veste 
+Prada” em que a editora Miranda pergunta sobre qual era a cor do sweater da sua assistente e 
+quando esta responde que é azul, Miranda afirma que não é um azul comum, é um azul cerúleo 
+e complementa, dizendo que foi uma cor lançada por Oscar de La Renta em uma determinada 
+estação, é um exemplo de como a cor é importante para esse setor. 
+ 
+ 
+ 
+ 
+
+
+---
+
+185 
+Figura 33 – Cartela de cores por temas 
+ 
+Fonte: Pantone (c2013). 
+ 
+
+
+---
+
+186 
+A pesquisa de tendências em moda e cores, como parte de uma metodologia do processo 
+de desenvolvimento de coleções, surgiu na segunda metade do século XX, quando as grandes 
+fabricantes de corantes alemãs promoviam os encontros de um comitê europeu de pesquisadores 
+de tendências que definia a cartela de cores da estação, reunindo formadores de opinião para 
+definir as cores de cada estação. No Brasil, no final dos anos 70, início dos 80, um grupo 
+chamado CIT (Coordenação Industrial Têxtil) “editava, criava e promovia, para todas as áreas 
+da cadeia têxtil, as tendências de cores, na perspectiva de seleção de matérias primas e até de 
+formas para as confecções” (BRAGA; PRADO, 2011, p. 494). 
+A cartela de cores determinada pelas grandes empresas de moda, nos dias de hoje é 
+baseada em pesquisa nos sites de informação tais como WGSN, que compilam as influências 
+de diversas vertentes de estilos de vida, além das feiras como a Première Vision, que realizam 
+um encontro onde já um acordo entre formadores de opinião de vários países sobre a cartela de 
+cores de uma estação. Mesmo que designers e criadores de moda façam sua pesquisa autoral e 
+lancem sua cartela de cores exclusiva, essa cartela está sujeita às correntes socioculturais que 
+irão influenciar a aceitação ou rejeição. 
+O fato é que não é fácil reproduzir as cores tecnicamente. Cada substrato têxtil tem sua 
+afinidade tintorial e sua própria interpretação da nuance da cor. Há diversos tipos de codificação 
+de cores e a mais conhecida delas é da empresa Pantone Inc., que fabrica um catálogo de cores 
+com códigos em tecido ou papel e até em outros materiais. Um dos problemas dos estilistas é 
+se apaixonar por cores que não são reprodutíveis em determinadas matérias primas igualmente 
+e combiná-las numa mesma roupa ou coleção. Outro problema é a diferença entre o sistema de 
+cores da tela do computador, o sistema de tintas de uma impressora e o que é reproduzido no 
+tecido da roupa. As três versões nunca serão iguais e há uma tendência para esquecer essa 
+limitação ao se projetar a coleção. 
+Ao falarmos de plataformas colaborativas, esse tópico será relevante quanto a 
+necessidade de padronizar a comunicação das cores internamente nas indústrias. 
+ 
+ 
+A Pesquisa Inspiracional 
+Nos anos 80 e 90, os estilistas das grandes indústrias tinham como referência para sua 
+pesquisa de moda, os bureaux de style tais como Promostyl, Dominique Perclers e Nelly Rodi, 
+que traduziam em temas ou conceitos, as tendências em estilo de vida, a moda de rua e os hits 
+das passarelas durante as semanas da moda. Todos esses meios, sejam os livros físicos (cahiers 
+
+
+---
+
+187 
+de tendances) ou os virtuais, obtidos nos sites, eram meios gráficos, cujas imagens 
+influenciavam os estilistas naquela época.  
+No contexto contemporâneo, com a facilidade de encontrar informações na internet, 
+muitos desses órgãos difusores de informação de moda se tornaram obsoletos e o processo de 
+pesquisa foi substituído pelo uso de sites de informação de moda, como o WGSN, unidos às 
+imagens obtidas em pesquisas feitas em feiras de moda e vitrines dos grandes centros de moda. 
+Com o advento da era digital as informações de desfiles da semana de moda passaram a ser 
+disponibilizadas em tempo real. A pesquisa nas redes sociais se tornou instrumento valioso. A 
+influência das blogueiras e do comércio online também mudou o sistema de pesquisa. Poucas 
+empresas se valem de pesquisa etnográfica para definir que temas ou inspirações serão 
+compatíveis com o cotidiano do seu consumidor. Geralmente, a voz do cliente é escutada quando 
+a coleção sofre críticas, porém, neste momento, já é tarde para fazer alguma alteração. 
+A importância de comunicar internamente o resultado da pesquisa é vital, seja qual for 
+a metodologia adotada, pois as áreas relacionadas com o setor de estilo, as de design gráfico, 
+de design de superfície, o laboratório, o visual merchandising e o marketing utilizarão essa 
+informação para desenvolver outros produtos, tais como estampas, cores, vitrines ou lookbooks. 
+Quanto mais clara a informação estiver, organizada e ilustrada, melhor resultado de absorção e 
+compreensão a proposta terá. 
+ 
+Elaboração de storyboards ou painéis conceituais 
+Os storyboards ou moodboards são os instrumentos mais usados pelas equipes criativas 
+das empresas para ilustrar os conceitos de uma coleção (Figura 34). Neles, os elementos de 
+cores, silhuetas e texturas traduzem o conceito da coleção ou de subtemas da coleção, 
+geralmente retratando uma tendência específica que se destina a um consumidor de um 
+determinado estilo de vida. Muitas empresas ainda preferem cobrir suas paredes com esses 
+painéis a fim de alinhar a comunicação entre equipes de criação, gestão e desenvolvimento, que 
+terão que aprovar ou executar os grupos de modelos relacionados com cada painel. 
+Possivelmente, no futuro, esses painéis físicos terão que se sofisticar proporcionalmente 
+ao avanço tecnológico, dando a sensação táctil, de volumes e de combinação de texturas e cores 
+de forma mais virtual do que física, evitando gastos de tempo com prototipagem numa fase 
+inicial. No contexto atual, é importante equipar as equipes de design e desenvolvimento com 
+ferramentas para visualizar e compartilhar ideias, croquis, tecidos, moldes. Simulações virtuais 
+de produtos podem ser feitas e compartilhadas entre departamentos antes mesmo da coleção ter 
+amostras físicas. A utilização de ferramentas que utilizam linguagem visual pode ajudar a 
+
+
+---
+
+188 
+quebrar os silos e estimula a colaboração, afinal todos podem ter acesso a mesma informação e 
+trabalhar com a mesma direção criativa. 
+ 
+Figura 34 – Storyboard de um tema de Verão 2018 
+ 
+Fonte: Patternbank (c2017). 
+ 
+ 
+Design Criativo da área de estilo 
+O processo de design criativo se dá após as aprovações dos temas ou moods ou conceitos 
+da coleção. Em algumas empresas onde a importância do design gráfico da coleção se sobrepõe 
+as outras partes, todo o processo começa com a definição de estampas. Nesse caso, o processo 
+de desenvolvimento de temas em estamparia precede o de design dos próprios modelos. As 
+cores ou grupos de cores são estreitamente relacionados com a pesquisa de estamparia.  
+Em empresas que baseiam seu desenvolvimento em desenvolvimento de tecidos e 
+inovação têxtil, os desenvolvimentos tecnológicos darão suporte ao divisor de grupos de 
+produto e as silhuetas serão resultantes dos volumes criados pelas texturas desenvolvidas. 
+Outras empresas ainda podem não dividir suas coleções por nenhum dos critérios acima, 
+
+
+---
+
+189 
+embora a gama de cores seja geralmente usada para diferenciar um grupo do outro que se 
+destinam a vitrines distintas.  
+Há empresas que pautam sua divisão de temas de coleção em universos de estilo de vida 
+dos consumidores a quem se destina. Numa empresa de surfwear renomada, a divisão de 
+coleção, antes mesmo de se determinar as estampas e cores, classificava seus temas de acordo 
+com três tipos de usuários, um deles era o surfista praticante que viajava para regiões ou picos 
+onde se pratica o surf, outro era aquele que aspirava a ter esse estilo de vida mas não praticava 
+o esporte e se atraía por estampas e imagens que identificavam o universo do surf, ou então o 
+consumidor que gosta do mundo do surf mas não necessariamente pratica o esporte, porém 
+frequenta as praias e se insere dentro do contexto do surf de uma forma mais discreta e menos 
+óbvia. 
+ 
+ 
+O Design de Superfície 
+Nas empresas interessadas em diferenciar suas coleções pela textura ou pela estamparia, 
+um grupo de designers de estamparia ou designers de superfície, fazem uma pesquisa de 
+imagens que darão suporte a temática previamente definida. Se a empresa tem um trabalho 
+autoral, a estamparia tem também propostas autorais (Obs: “design de superfície” não é apenas 
+estamparia). Como exemplo, a Osklen, cujas estampas com palmeiras e folhas tropicais 
+desenhadas a aquarela são propostas originais da própria designer criativa da marca. A marca 
+Salinas também tem uma equipe de designers que primam pela autenticidade de seus desenhos. 
+Outras empresas de grande difusão, preocupam-se em detectar as grandes influências através 
+das consultorias contratadas, de escritórios de estamparia italianos, franceses ou ingleses.  
+Nos casos onde a pesquisa de estampas é central na proposta de valor da marca e sua 
+diferenciação, o processo de estampas ganha mais enfoque, é trazido para o início da coleção e 
+é a partir dos conceitos gráficos e imagéticos que a coleção é direcionada e dividida em grupos 
+ou temas por tipo de linguagem de estamparia. 
+ 
+Detalhamento dos processos de desenvolvimento de produto 
+ 
+O Desenvolvimento de moldes 
+Nesse quesito há uma grande disparidade entre os tipos de empresa, seja pelo tipo de 
+produto ou segmento e em que atuam, ou pela estratégia de produto ou mesmo pelo nível 
+tecnológico em que se situam. Algumas ainda fazem os moldes manualmente. Muitas empresas 
+moldam seus modelos e depois de o fazerem manualmente, em papel pardo, digitalizam os 
+
+
+---
+
+190 
+moldes numa mesa digitalizadora, processo que data do século passado com o advento das 
+mesas digitalizadoras e se tornou obsoleto com a utilização dos softwares de modelagem de 
+última geração, que eliminam a digitalização, pois o molde já é feito virtualmente e pode ser 
+lido pelas áreas que fazem estudo de encaixe e as áreas de corte. As empresas mais modernas 
+fazem quase todo o processo virtualmente, já que softwares sofisticados de modelagem (CAD 
+ou computer aided design) facilitam o processo que pode ser feito em poucos minutos.  
+Há vários tipos de processo. Pode-se ilustrar os principais nos diagramas seguintes e 
+uma correspondência com o encurtamento do ciclo de vida dos produtos. 
+No tipo de processo ilustrado na Figura 35, o modelista recebe um croqui do estilista e 
+faz um primeiro molde com técnica de moulage53 ou draping num manequim para definir o 
+volume do modelo em três dimensões em tecido genérico e após ter feito o primeiro piloto, o 
+estilista e o modelista fazem ajustes. Ao aprovar o volume, um segundo molde é feito se 
+necessário e um molde plano em duas dimensões é desenvolvido. Somente após a aprovação 
+num tecido similar é que o protótipo é finalmente feito no tecido final. 
+ 
+Figura 35 – Processo de desenvolvimento de moldes prévio em moulage 
+ 
+Fonte: elaborado pela autora. 
+ 
+No processo 2 (Figura 36) o modelista recebe o croqui ou ficha de desenho, faz um 
+molde e uma amostra ou peça piloto inicial. Após essa etapa, modelista e estilista fazem uma 
+                                               
+53 Moulage é uma técnica antiga com origem na alta costura francesa. O modelista constrói a modelagem num tecido 
+em 3 dimensões no tamanho original utilizando-se de um manequim dentro das medidas da tabela antropométrica. 
+
+
+---
+
+191 
+prova e o modelista altera o molde se necessário, um molde completo é desenvolvido e o 
+primeiro protótipo é feito. Esse processo pode ser repetido muitas vezes, dependendo do tipo 
+de indústria. No Brasil, pela falta de profissionais que saibam fazer moulage e pela falta de 
+tempo de analisar os volumes dos modelos com mais cuidado, esse é o processo mais comum. 
+A gradação do molde em tamanhos geralmente é feita após a aprovação da peça piloto ajustada. 
+ 
+Figura 36 – Processo com uma alteração, duas peças piloto 
+ 
+Fonte: elaborado pela autora. 
+ 
+No processo 3 (Figura 37), o modelista recebe um croqui ou ficha de desenho, faz um 
+molde completo e já faz o protótipo final. Neste caso não há necessidade de vários pilotos pois 
+toda a etapa de definição de volumes, medidas, ou a definição dos moldes bases, já ocorreu 
+antes mesmo de iniciar a etapa de início de desenvolvimento dos modelos. A gradação em 
+tamanhos pode até ser feita juntamente com o molde, caso haja a utilização de um software 
+inteligente que faz gradação automática. Nesse caso, o nível de especificações é bem completo 
+e provavelmente o modelo já tenha um custo inicial validado pelas áreas de engenharia de 
+produto e pelas outras áreas envolvidas no processo. Esse processo mais enxuto requer 
+assertividade em fases iniciais do desenvolvimento.  
+ 
+ 
+ 
+ 
+ 
+
+
+---
+
+192 
+Figura 37 – Processo de desenvolvimento enxuto com uma peça piloto 
+ 
+Fonte: elaborado pela autora. 
+ 
+Infelizmente, devido ao uso de metodologias defasadas, muitas empresas têm 
+dificuldade de encurtar seu ciclo de produto, pois o número de repetições das etapas, com 
+diversas peças pilotos a partir de alterações a cada prova de roupas, vão fazendo com que 
+equipes de modelagem produzam várias versões do molde inicial. Desenhos que não têm 
+clareza, croquis que podem gerar má interpretação, falta de informação de medidas dos detalhes 
+e proporções, falta de uso de bases de modelagem pré-definidas, especificações vagas ou a falta 
+delas, vão gerar retrabalho indesejado.  
+A sinergia entre os modelistas e os estilistas, se for muito boa, evitará os erros de 
+interpretação tão comuns em todas as empresas, que gastam tempo em inúmeras provas de 
+roupa. Discrepâncias nos volumes, comprimentos, proporções e nos detalhes de construção 
+poderiam ser evitadas se a comunicação estiver alinhada e a padronização no modo de entregar 
+o croqui fosse definida.  
+Como a etapa de modelagem está entre o desenho dos croquis e a elaboração dos 
+mostruários ou da própria manufatura, a relação do modelista com as áreas industriais é muito 
+próxima. Nessa etapa do processo, o tempo de elaboração dos moldes e de aprovação é crucial. 
+A construção do molde vai diretamente afetar o custo do modelo, seja pelo consumo do tecido 
+ou pela definição do número de operações para confeccionar a peça.  
+Alguns desafios dos técnicos de modelagem nessa etapa do processo são: os corpos de 
+prova que podem mudar de uma prova para outra, os conflitos de opinião entre o que é bonito 
+ou feio, mudanças no próprio projeto para atender o custo ou a qualidade estética do modelo, 
+variações nas características dos tecidos que mudam desde a fase de testes até as fases finais de 
+O modelista
+recebe o croqui 
+ou a ficha de 
+desenho
+Um molde 
+completo é 
+desenvolvido 
+A primeira peça 
+piloto é 
+confeccionada
+
+
+---
+
+193 
+produção e a limitação de custo almejado, target cost, que na maioria das vezes impede um 
+nível de acabamento mais sofisticado.  
+ 
+Desenvolvimento de produto e prototipagem 
+Nos Estados Unidos, essa etapa pode ser chamada de design técnico. No Brasil, se 
+denomina de desenvolvimento de produtos ou de processo de engenharia de produto e 
+engenharia de processos.  
+O desenvolvimento começa com uma análise de viabilidade do modelo, a partir do 
+croqui ou ficha de desenho fornecida pelo estilista, quando essa ficha é aprovada, durante um 
+stage gate ou reunião de validação em que o designer apresenta o croqui com seu projeto ou 
+modelo. É comum ter um comitê multifuncional nesse momento para validar o projeto. 
+Geralmente, analistas de viabilidade dão o aval de que o produto é factível em produção; 
+analistas de custo podem estar presentes para entender se os custos de matérias primas ou de 
+mão de obra cabem dentro do preço ou custo almejado; gerentes de produto, planejadores e 
+profissionais de inteligência de mercado podem dar sua opinião se o produto é comercial ou 
+não e qual o valor percebido poderia ser imputado ao modelo. 
+A análise de viabilidade do modelo é feita a partir de uma especificação detalhada de 
+todo o modelo, desde a definição dos acabamentos e da construção da peça, dos tecidos e outros 
+componentes secundários, inclusive suas cores e tamanhos por sortimento, consumo e 
+quantidades. O conjunto de componentes ou lista de materiais é uma parte importante do custo 
+do modelo. Portanto, essa parte de especificação da lista de materiais vai influenciar 
+diretamente no custo inicial do produto, o que será analisado pelos gestores de produto a fim 
+de manter uma determinada margem de lucro do produto. 
+Outras especificações incluem as etiquetas, os aviamentos, as decorações bordadas, 
+aplicadas ou estampadas. Todas essas especificações são completadas por tipos de atores 
+diferentes de modo que a ficha de desenho vai se transformando em ficha técnica ao longo deste 
+processo. Inconsistência de informações, má interpretação ou falta de comunicação podem gerar 
+um nível de retrabalho que afetará todo o processo e todos os envolvidos. Essa etapa é crucial 
+pois ela vai acompanhar o caminho de todas as peças piloto, do momento em que ela nasce até o 
+momento em que ela se torna um protótipo. Os atores desse processo terão que estar presentes 
+nas provas de roupa, para anotar todas as alterações e deverão ajustar medidas, posicionamento 
+dos aviamentos e decorações, ajustes nas construções e acabamentos.  
+No processo final, quando a peça piloto é aprovada, a amostra aprovada é chamada de 
+protótipo por ser a base utilizada para a fabricação em grande escala. Outras nomenclaturas da 
+
+
+---
+
+194 
+peça piloto, dependendo da etapa em questão, são: peças de mostruário, peças de foto, peças de 
+sortimento (tamanhos), amostras de produção e amostras de embarque (quando a peça é uma 
+amostra da produção feita fora num processo de outsourcing).  
+No processo de desenvolvimento de produto, há ainda micro processos, tais como o de 
+determinação do custo, que envolve todas as etapas de confecção do modelo e de seus 
+componentes. Pode se incluir nesse processo a escolha da facção ou do fornecedor que irá 
+fabricar o modelo, o pedido de cotação para fabricar externamente ou a simulação de vários 
+cenários de fornecimento ou fabricação, com o intuito de se obter o melhor custo e benefício.  
+ 
+
+
+---
+
+195 
+APÊNDICE B - PESSOAS 
+ 
+Os diferentes sujeitos do design de moda, do planejamento ao desenvolvimento da 
+coleção 
+No processo industrial de desenvolvimento de coleções e na produção dos modelos, 
+pode-se listar os seguintes atores com seus respectivos papéis e responsabilidades: 
+a) Planejadores, Merchandisers, Planners, Allocation Managers: dependendo de 
+cada empresa e modelo de negócios, essa nomenclatura varia. São responsáveis por 
+planejar e desenvolver uma estratégia que possibilite que a empresa venda uma 
+gama de produtos que alcance as metas de vendas e de lucratividade. Pode 
+monitorar as análises de vendas a fim de adequar a estratégia as mudanças de 
+mercado. 
+Nos 
+Estados 
+Unidos, 
+essa 
+função 
+faz 
+uma 
+ponte 
+entre 
+Design/Compras/Vendas par assegurar que o produto seja desenhado/comprado e 
+que o Plano de Vendas seja atingido. Quando a empresa tem sua própria cadeia de 
+lojas de varejo, ele assegura que o estoque seja direcionado a determinadas lojas 
+nos volumes adequados na época certa a fim de otimizar a lucratividade.   
+b) Comprador de Moda: aquele que é antenado com as tendências de mercado 
+emergentes. Ele assegura que o desenvolvimento esteja dentro das tendências, 
+dentro do orçamento e das margens desejadas. Geralmente tem um elo com o 
+Designer e o Merchandiser. Compra produtos que asseguram que a oferta que a 
+empresa está entregando esteja equilibrada, coesa e comercial para todos os canais 
+do negócio.  
+c) Estilistas ou Designers de Moda: geralmente um setor de estilo pode incluir além 
+dos estilistas, os designers gráficos (designers de superfície) e diretores criativos. Os 
+Estilistas criam modelos ou desenhos de estampas a mão ou utilizam computer-aided 
+design (CAD). Eles têm que estar sintonizados com todas as tendências de moda 
+relacionadas a cores, tecidos, estampas, formas. Quando trabalham em empresas de 
+grande distribuição, adaptam seus projetos para produção em massa. Têm interface 
+com os setores comercial, compras e produção (ou fornecedores) regularmente, de 
+modo a assegurar que os modelos se adequem ao consumidor, ao mercado e estejam 
+dentro dos pontos de preço target (preços almejados). 
+d) Designers têxteis: quando a empresa é verticalizada e tem a sua própria fabricação 
+de tecidos ou de malhas ou de estampas, há uma equipe que desenvolve as matérias 
+
+
+---
+
+196 
+primas. O desenho de estampas ou de superfície normalmente envolve uma 
+pesquisa de tendências internacional, algumas empresas além da pesquisa compram 
+desenhos feitos por artistas de estúdios de estampas italianos, franceses ou ingleses 
+ou têm seus próprios desenhistas e artistas. Um outro grupo de arte finalistas, separa 
+as cores das estampas e as prepara para a fabricação de cilindros ou quadros de 
+estamparia. Já o desenho de matérias primas é algo que envolve os aspectos técnicos 
+da fabricação de malhas ou tecidos planos, como os fios, a construção e os 
+beneficiamentos que darão as características físicas do produto têxtil, seja malha ou 
+tecido. 
+e) Designers Técnicos ou Analistas de Viabilidade, de Processos e de Engenharia 
+de Produto:  esse grupo é chamado, no Brasil, de engenharia de produto. A 
+engenharia de produto engloba os analistas de custos, os analistas de viabilidade, 
+os analistas de processos, aqueles que especificam as fichas técnicas de produto. Os 
+analistas de viabilidade asseguram que o desenvolvimento de produto se mantenha 
+no custo target, coordena a comunicação com as equipes de produção e 
+fornecedores, especifica as cores, as estampas, os tecidos, modelos e detalhes de 
+forma técnica. Analisa e pré-aprova os protótipos pela aparência visual, qualidade, 
+peso, toque, usando diretrizes formais ou conhecimento técnico, analisa os 
+protótipos em relação a construção e acabamento. Nos Estados Unidos, esse perfil 
+é chamado de designer técnico, pois ele traduz o conceito do design para a realidade 
+fabril, fornecendo os detalhes de construção dentro dos limites de fabricação. Ele 
+fornece especificação de tamanhos, detalhes internos como entretelas, vivos, fitas; 
+avalia amostras se estão dentro de padrão de qualidade de vestibilidade e 
+construção. Está presente nas provas de roupa, seja em manequins ou corpos vivos. 
+Aconselha a fábrica ou a modelagem a fazer ajustes para que a qualidade seja 
+mantida.  
+f) 
+Controllers de workflow: equipe que monitora as etapas dos processos para que 
+sejam realizadas dentro dos prazos. Podem utilizar softwares de cálculo de tempo 
+de cada atividade, levando em conta a capacidade e os recursos instalados. 
+g) Especialistas em Sourcing: os compradores e sourcers, aqueles que fazem a busca 
+das matérias primas, ou seja, de todos os componentes dos modelos e que trabalham 
+com as equipes de criação para buscar tecidos, aviamentos e mandam desenvolver 
+cores e estampas em cada material. Analisam as cotações de preço e negociam com os 
+fornecedores para que os custos target sejam atingidos. Para isso, conhecem custos de 
+
+
+---
+
+197 
+tecidos e fios. Sejam eles compradores de matérias primas ou de peças prontas, têm 
+que encontrar os melhores recursos pelos melhores preços e manter o processo de 
+fabricação nos prazos para assegurar um custo eficaz. Eles devem determinar se o 
+fornecedor é confiável e compatível ou se deve buscar opções de melhor qualidade, 
+custo e prazo. 
+h) Modelistas: responsável por fazer os moldes e suas gradações. Fornecem 
+recomendações para que o modelo seja viável e tenha um custo eficaz, assegura que 
+haja consistência de construção. Aconselha a fábrica em relação a padrões de 
+qualidade de fit (vestibilidade). Alguns desses profissionais faz o mini-risco ou 
+estudo texográfico de consumo do modelo. 
+i) 
+Planejadores ou programadores Industriais (PCP): esse grupo varia de empresa 
+em empresa dependendo do modelo de negócios e é responsável por colocar os 
+pedidos das matérias primas que serão utilizadas numa sequência de ordens de 
+produção. 
+j) 
+Equipe de Manufatura: pessoas que trabalham na sala de corte e de costura e nos 
+almoxarifados que reúnem todos os materiais componentes dos modelos. 
+Geralmente há um gerente de produção como líder ou gerente de facções se a 
+produção é terceirizada. 
+k) Equipe Comercial: diretores e gerente de vendas, equipe interna e externa de 
+vendas, equipe de visual merchandising se encontram nesse grupo. Em algumas 
+empresas a área de marketing engloba esta área. 
+l) 
+Equipe de Logística: tudo o que diz respeito a armazenagem, como estoques e 
+distribuição está neste grupo. 
+m) Técnicos em informática: essa área, com o avanço da tecnologia, tem cada vez 
+mais importância nas empresas. Atuam como suporte de todas as áreas da empresa 
+e muitas vezes tomam posições estratégicas ao definir quais as ferramentas que 
+serão utilizadas por cada área. Muitas empresas optam por usar tecnologia avançada 
+de sistemas de gestão de ciclo de vida de produto tais como o PLM (product 
+lifecycle management) e de ERP (Enterprise Resource Planning) para controlar e 
+administrar os custos com mais eficiência e fornecer produtos ao cliente final a um 
+preço competitivo.  
+n) Coordenador de Produção: responsável por gerenciar e rastrear todo o ciclo de 
+produção desde o início a entrega. Coordena os prazos de entrega, e as datas de frete 
+para as ordens externas.  Muitas vezes também coloca as ordens de produção e 
+
+
+---
+
+198 
+mantém as fábricas atualizadas em vendas, dentro dos prazos, trabalhando de perto 
+para resolver os problemas que surgem durante o processo.  
+o) Analistas de custo: fazem o composto de custo, desde o pré-custo, os custos 
+projetados até o custo final. 
+
+
+---
+
+199 
+APÊNDICE C - FERRAMENTAS E RELATÓRIOS DAS COLEÇÕES 
+ 
+Plano de sortimento ou mix 
+Essa ferramenta varia muito de empresa para empresa. A maioria das empresas cria 
+planilhas em excel, porém as mais avançadas tecnologicamente, criam uma ferramenta de 
+Sharepoint que possa ser editada por cada usuário e compartilhada sem que haja o risco de ser 
+editada ao mesmo tempo por várias pessoas, o que produziria versões diferentes. O mais 
+inovador meio de comunicação desse plano é compartilhá-lo em rede numa plataforma digital 
+em nuvem, onde os usuários com permissão de acesso podem editar e compartilhar para que as 
+pessoas da equipe de criação tenham acesso ao Projeto de Coleção em tempo real. 
+ 
+Conceito da coleção  
+Todos os modelos que vemos nas lojas começam sua vida com um “conceito” baseado 
+em cor, texturas e formas que juntas combinadas criam uma linguagem própria que traduz uma 
+narrativa de marca e uma determinada inspiração ou estilo de vida. As grandes cadeias de varejo 
+e de difusão procuram inspiração nos sites de moda como o WGSN a partir de uma pesquisa de 
+tendências de moda que identificará uma inspiração temática para construir o conceito de suas 
+coleções, geralmente resultado de uma interpretação das passarelas. Marcas próprias com 
+grande ênfase em diferenciação e focada em consumidores que são atraídos pela sua narrativa 
+de moda, geralmente definem de um a três grandes temas por coleção e os conceituam de acordo 
+com os diferentes estilos de vida de seus consumidores alvo. Os designers deste tipo de marcas 
+muitas vezes viajam para lugares relacionados com uma determinada inspiração temática no 
+intuito de criar os conceitos da coleção em termos de estampas, texturas e cores.  
+ 
+Moods, moodboards ou storyboards  
+Painéis ou conjunto de materiais, imagens e textos que pretendem projetar um estilo de 
+vida ou conceito. Os moodboards podem ser painéis físicos ou virtuais e são uma ferramenta 
+utilizada por diversos designers para ajudar a comunicar a essência ou o conceito dos seus 
+projetos, através de referências imagéticas. Na Figura 23, pode-se ver um exemplo de 
+moodboards, que pode conter o conceito geral da coleção, os tecidos, as cores e as estampas de 
+um determinado tema. Geralmente, quando se junta o conceito inspiracional, os temas, as 
+propostas de silhuetas e formas, os tecidos com suas propostas de cores, criam-se coordenados. 
+
+
+---
+
+200 
+Esses coordenados são subgrupos de uma coleção e são destinados a entrarem numa 
+determinada época da estação e costuma-se a se referir a eles como uma entrada ou drop. 
+ 
+Croqui ou ficha de desenho  
+Cada “conceito” é desenvolvido na forma de um croqui ou desenho feito a mão ou por 
+meio de ferramentas tais como Photoshop, Adobe Illustrator, Corel Draw ou mesmo softwares 
+voltados para a indústria da moda, Kaledo Style. Numa plataforma de PLM, o croqui faz parte 
+do banco de dados que contém o histórico do produto e suas alterações são visíveis em tempo 
+real. 
+ 
+Cartela de cores 
+As cores são designadas por códigos para cada modelo. Grupos de cores são designados 
+para grupo de produtos, derivados dos moods que refletem as tendências de moda ou o conceito 
+de estilo de vida definido previamente pelas áreas de marketing. Há marcas de varejo que 
+definem as cores que serão lançadas para cada entrada de coleção. Cores de vitrines podem ser 
+definidas no momento da aprovação ou da criação de coleção. O sortimento de um modelo é o 
+conjunto de variantes de cores que será oferecido.  
+O gerenciamento das cores nas coleções de uma empresa pode ser bem complexo. 
+Geralmente elas são definidas por um código de uma ferramenta que cataloga cores, o 
+PANTONE®, que apresenta uma classificação das cores por códigos em diferentes substratos, 
+seja em papel ou tecido. A dificuldade de imitar cores no processo de desenvolvimento de 
+produto está relacionada à diferença das cores em papel, na tela do computador e no tecido, 
+tinto com classes de corantes distintas dependendo da sua composição. Cada um desses veículos 
+tem sistemas diferentes, como o RGB, o CMYK e PANTONE.54 Encontrar as cores certas, 
+comunicá-las para os fornecedores é uma das tarefas mais árduas do negócio da moda, pois 
+                                               
+54 Pantone é conhecido na indústria da moda e em outras indústrias como um sistema de catalogar cores. A 
+abreviatura RGB (Red, Green, Blue) representa o método de cores utilizado nos monitores, que fazem uso das 
+cores Vermelho, Verde e Azul para compor imagens coloridas no computador. Já o padrão CMYK (Cyan, 
+Magenta, Yellow, Black) emprega as cores Ciano, Magenta, Amarelo e Preto, e é utilizada para produção de 
+materiais impressos.Ao fazer a sua escolha de qual esquema de cores empregar em seu projeto, é importante 
+lembrar que a proposta principal do RGB é reproduzir cores em monitores de TV e computadores de maneira 
+fiel, enquanto a proposta do CMYK reproduzir da maneira mais fiel possível a maioria das cores do espectro 
+visível. Por isso o CMYK é o esquema utilizado pela indústria gráfica. O método RGB, baseado em luz, não 
+serve para impressão de materiais (PRINTI, 2016). 
+
+
+---
+
+201 
+muitos desafios têm que ser enfrentados. Os principais desafios para imitar cores corretamente 
+podem ter as seguintes causas: 
+a) As pessoas veem as cores diferentemente. 
+b) A luz ou iluminação do ambiente afeta como as pessoas percebem as cores. Geralmente 
+se utiliza a luz do dia como a luz adequada a aprovação da cor, mas nem toda empresa 
+tem a câmara de luz para esse fim e o produto estará exposto numa loja onde a luz será 
+diferente daquela onde foi produzida e aprovada.  
+c) Aparelhos ou hardware utilizados pelos designers para mostrar as cores, por exemplo, 
+scanners, monitores e impressoras, interpretam e produzem as cores diferentemente das 
+cores produzidas por corantes ou pigmentos para tecidos. 
+d) Uma impressora do mesmo modelo pode produzir cores diferentemente de outra 
+impressora igual e do mesmo modelo, pois o tipo de papel e tinta afetam os resultados.  
+e) Imputar um número de cor ou código para reproduzir determinada nuance não é garantia 
+de consistência da cor.  Cada substrato ou tipo de material tinge com um tipo de corante, 
+que tem um espectro distinto de outra classe de corantes e dependendo da composição do 
+substrato, o corante pode ter mais ou menos luminosidade e limpeza das cores. 
+ 
+Tecido 
+As matérias primas, sejam elas, tecidos, malhas e outros componentes são a principal 
+ferramenta para caracterizar um produto de moda. A definição das matérias primas não é tarefa 
+simples, pois é feita com antecedência e exige uma busca ou sourcing por determinadas 
+texturas, construções e composições. Dependendo do objetivo do designer, o tecido tem que ter 
+um determinado caimento que corresponde a uma determinada fibra ou composição. 
+Dependendo do tipo de negócio, as limitações de preço podem restringir a escolha da área de 
+criação. Quando o preço target vai direcionar a escolha da matéria prima para bases acessíveis, 
+normalmente o sourcing é mais difícil e geralmente se escolhe um material que imite o desejado 
+em composições com preço mais baixo, como o poliéster e o fornecimento pode ser remoto e a 
+logística mais complexo. As unidades de confecção geralmente só estão equipadas para um tipo 
+de tecido. É comum surgirem problemas quando a marca ou o cliente insiste em trocar os tecidos 
+para outros que requerem manuseio e equipamentos não adequados à confecção designada para 
+fabricar o produto ou linha de produtos. Hoje há tecidos complexos, com misturas de fibras, 
+que têm determinadas características únicas porque se comportam como outro tipo de material, 
+o que pode trazer dificuldades para a fabricação. O exemplo disso são os denins em índigo de 
+
+
+---
+
+202 
+lyocell, leves e escorregadios, que não se encaixam em confecções de calças jeans e nem nas 
+confecções de malhas, tendo que ser feitos em unidades treinadas e equipadas para esse tipo de 
+matéria prima.  Bordados e rendas grandemente utilizadas hoje em peças femininas, apresentam 
+dificuldades para serem costuradas em escala industrial. 
+ 
+Base de modelagem 
+A forma geométrica bidimensional do modelo está relacionada com uma base de 
+modelagem. Essa base muitas vezes é denominada de “caixa” (block) por se referir a um molde 
+com determinadas medidas e proporções definidas pelo designer e desenvolvidas pelo 
+modelista por meio de ferramentas sofisticadas em duas ou três dimensões. A sofisticação dos 
+softwares causou um grande avanço em relação aos CADS dos anos 80. Pode-se simular o 
+modelo e suas proporções, com os efeitos de caimento de diferentes tecidos em avatares 
+construídos nas medidas utilizadas pela empresa, como ilustrado na Figura 38. 
+ 
+Figura 38 – Moldes feitos em software 
+ 
+Fonte: Softonic (c1997-2017). 
+ 
+Referência ou código 
+Cada modelo tem um número de referência ou um único identificador que é usado para 
+rastrear o produto durante todo o ciclo de desenvolvimento e de vida. Embora hoje esses 
+códigos sejam fornecidos pelos softwares que a indústria utiliza, ele nasce com o croqui do 
+produto aprovado para desenvolvimento. Ao longo desse processo, o designer utiliza diferentes 
+ferramentas, cada uma delas com sua própria linguagem. Os painéis ou moodboards e a cartela 
+
+
+---
+
+203 
+de cores têm uma linguagem gráfica. O croqui tem uma linguagem visual. Numa das empresas 
+visitadas da indústria têxtil brasileira, detentora de marcas reconhecidas no mercado de moda 
+como formadoras de opinião, os designers têm total liberdade de escolher que ferramentas irão 
+utilizar, seja desenho em aquarela manual, seja em Photoshop ou Adobe Illustrator55, pois a 
+empresa quer preservar a liberdade e criatividade da sua equipe de criadores. A cartela de cores 
+também é visual, geralmente com amostras de Pantone ou amostras já reproduzidas em tecidos. 
+E os tecidos são elementos não só visuais como tácteis. Cada vez mais as texturas e o design de 
+superfície passam a ter uma enorme importância. E a tecnologia dos materiais deverá atender a 
+necessidades mais profundas do consumidor. 
+ 
+Ficha técnica  
+A ficha técnica é o manual para informar a indústria de como fazer um modelo 
+específico industrialmente, o mapa do projeto, ou seja, o DNA do modelo. A ficha técnica 
+contém todas as diretrizes para as pessoas envolvidas na definição do produto, seu 
+desenvolvimento e produção:  
+a) Croquis desenhados pelo estilista ou fotos de como o modelo deve ficar ou ser construído. 
+b) Especificações de tamanho para toda a gama de tamanhos a ser utilizada (ex: 0-3 anos) 
+c)  Lista técnica de materiais (tecidos e aviamentos que serão os componentes do modelo com 
+a especificação da unidade de estoque SKU que será usada em cada sku do modelo (por 
+tamanho e cor).  
+d) Etiquetas externas ou internas 
+e)   Instruções de embalagem (como dobrar e armazenar) 
+f)  Roteiro para a produção do modelo tem a descrição dos processos desde o corte até a costura, 
+limpeza, passadoria e processos finais). Algumas empresas chamam de roteiro, outra de 
+sequência operacional. Outras empresas ainda chamam de rota, a sequência por onde o modelo 
+passa na produção (ex: corte/costura/bordado).  Softwares de tempos e métodos podem calcular 
+o tempo de cada operação do roteiro, para finalidade de cálculo de pré-custo. 
+Embora a ficha técnica na maioria das grandes empresas se inicie com o croqui feito 
+pelo estilista, algumas empresas diferenciam a ficha de desenho onde o estilista insere o croqui, 
+da ficha técnica. Nesses casos, a ficha técnica se completa quando a equipe de desenvolvimento 
+de produto ou os analistas de engenharia de produto inserem todas as especificações e o modelo 
+                                               
+55 Softwares de desenho. 
+
+
+---
+
+204 
+foi validado para fabricação. A ficha técnica pode ser monitorada por um analista com o input 
+de muitas pessoas, entre elas os próprios designers ou estilistas, os modelistas, as costureiras, 
+as pilotistas. Toda e qualquer atividade que envolve o modelo durante o ciclo de vida do 
+produto, estará registrada nessa ficha, que é uma diretriz para a execução de todas as etapas de 
+criação, desenvolvimento e industrialização desse modelo.  
+Quando o fornecedor está na Ásia, por exemplo, geralmente a ficha tem que ter todas as 
+especificações em inglês, inclusive como a peça será armazenada, colocada em contentores. 
+Quando o modelo é distribuído para regiões geográficas diferentes ou canais de distribuição 
+diferentes, ele pode ter diferenças de medidas, embalagem e etiquetas. Hoje a fichas físicas 
+podem ser substituídas pelas fichas virtuais ou por um sistema cuja base de dados armazena 
+todos os elementos da ficha (PDM=Product Data Management). Nesses softwares a ficha deixa 
+de ser ficha técnica, pois não é mais uma folha de papel física, mas um ente vivo que é 
+alimentado por inúmeros atores, ou seja, um conjunto de dados. 
+a) Tabelas de medidas: medidas são a base do trabalho do modelista, baseada em estudos 
+antropométricos. 
+b) Construção e detalhes de costura: quando o estilista não especifica que tipo de construção 
+o modelo deverá ter, o modelista e o analista da engenharia de produto são os responsáveis 
+por definir que tipo de construção é mais adequado ao custo e aos fatores limitantes de 
+industrialização. Em empresas de grande porte, as construções são padronizadas por tipo de 
+produto e tecido. 
+c) Pontos de medição: a ficha técnica tem que conter os pontos de medição entre as partes do 
+modelo, de modo que o modelista possa fazer o molde, obedecendo as medidas e devidas 
+proporções. 
+d) Amostras de matérias primas e insumos: parâmetros como o fio do tecido, o 
+encolhimento, a elasticidade e o laceamento do tecido, assim os pontos de medida para 
+colocar piques ou fazer gabaritos para localização de decorações. 
+e) Testes de qualidade (físicos e químicos): testes laboratoriais de encolhimento, solidez dos 
+tecidos e outros variam de acordo com a finalidade de uso do produto confeccionado. Outros 
+testes são importantes para a manufatura, entre eles os de costurabilidade e de corte, que 
+vão ter uma influência decisiva na definição da construção e tipos de equipamento 
+necessários. 
+f) Normas de conformidade: conjunto de normas que vão direcionar os parâmetros de 
+qualidade que regulam a industrialização do produto. As normas seguidas pela maioria das 
+empresas no Brasil são da ABNT. Outros países seguem outras normas o que pode gerar 
+
+
+---
+
+205 
+desacordo entre marca e fornecedor. Exemplos de normas são US ASTM D6193, ISO 4916 
+e JIS L0121 para instruções de costura; para etiquetas de composição e de cuidados, ASTM 
+D 5489, GINETEX e ISSO. Outras etiquetas podem atestar que o produto é ecologicamente 
+correto ou orgânico.  
+g) Lista de materiais: o conjunto de matérias primas componentes do modelo, incluindo o 
+tecido principal, todos os insumos, etiquetas, decorações e etiquetas de composição. 
+h) Roteiro ou lista técnica (bill of labour): é a lista de operações em sequência cronológica, que 
+inclui a rota por onde passam, a minutagem cronometrada de cada operação e o custo das 
+mesmas. Geralmente obtida por cronometragem e estudos de tempos e métodos e recentemente 
+pode ser obtida por softwares. 
+i) Estudos de encaixe ou risco (texografia): estudo do risco que comporá a folha de enfesto, 
+com o comprimento, o número de folhas e a largura do enfesto, com o percentual de 
+desperdício.  Hoje o consumo de tecidos é calculado por softwares de CAD que simulam 
+cenários com diferentes parâmetros para cálculo de consumo. Considerar os custos de 
+fabricação antes ou em conjunto com o design contribui para equilibrar estilo, custo e 
+qualidade. Se o custo de um produto for muito alto, nenhuma empresa perderá tempo em 
+projetá-lo. Conhecer antecipadamente os limites que a produção determina para o design é 
+essencial para a elaboração de coleções rentáveis. Na Figura 39 há um exemplo de software 
+Lectra que calcula o melhor encaixe. 
+ 
+Figura 39 – Estudo de mini-risco para cálculo de consumo 
+ 
+Fonte: Leather International (2011)
+
+
+---
+
+206 
+ANEXO A - FLUXO CLÁSSICO DO PROCESSO DE DESENVOLVIMENTO 
+ 
+Figura 40 - Fluxograma genérico do processo de desenvolvimento clássico 
+ 
+Fonte: elaborado pela autora. 
+
+
+---
+
+207 
+ANEXO B - PROCESSOS FUTUROS PLANEJAMENTO E CRIAÇÃO DAS 
+COLEÇÕES 
+ 
+A Figura 41 mostra como o processo se tornou mais curto depois da intervenção O plano 
+de coleção (mix) se forma a partir de inputs financeiros, de vendas, de pesquisa de consumo e 
+relatórios de análises de vendas e da pesquisa competitiva e de comportamento do consumidor.  
+Uma parte do processo de desenvolvimento já se inicia com a definição de novas bases, logo 
+após a pesquisa de tendências. O desenho de superfície, ao se iniciar logo após o direcionamento 
+dado pela diretora criativa, alimentará o banco de imagens e criará conceitos imagéticos que 
+formarão os moods que comporão o Plano de Coleção Qualificado, uma matriz de 
+merchandising, dando   diretrizes para a montagem dos coordenados ou de pequenos temas, 
+que no varejo podem formar vitrines, cantos ou paredes. Todo o desenvolvimento de matérias 
+primas é antecipado e sua pesquisa é ao mesmo tempo paralela a pesquisa de tendências em 
+moda, alimenta a pesquisa de tendências e é alimentado por ela, num mecanismo sincronizado 
+que depende muito d nível de colaboração entre atores 
+ 
+
+
+---
+
+208 
+Figura 41 - Fluxograma dos processos futuros de planejamento e criação 
+ 
+Fonte: elaborado pela autora. 
+
+
+---
+
+209 
+ANEXO C - INTERVENÇÃO - PROCESSOS FUTUROS DE DESENVOLVIMENTO 
+DE PRODUTO INTERNO 
+ 
+A Figura 42 mostra um processo de desenvolvimento simplificado a partir de uma 
+mudança de processos (antecipação da modelagem das bases, do cálculo de pré-custo, da 
+escolha das matérias primas, da direção criativa de cores e estampas no início do processo de 
+planejamento e design).  O processo de aprovação inicial (papel/tela) é colaborativo, tendo a 
+participação das áreas comerciais, de engenharia de produto (viabilidade) e engenharia de 
+processos, além dos estilistas, gestores de produto e diretor criativo.  O PLM contribui para um 
+design colaborativo e permite uma visão macro e micro de todo o processo, em tempo real. Não 
+há chance de discrepância ou redundância de dados porque a verdade passa ser uma só e 
+compartilhada por todos.  O PLM dará condições aos atores de trabalhar em conjunto, pois 
+todos estarão conectados e suas ações sincronizadas. Uma atividade reflete na atividade do 
+outro, com uma   clareza de quem é cliente e de quem é fornecedor de cada processo. As cores 
+dos processos diferenciam os principais responsáveis das etapas (lilás/engenharia, verde 
+/modelagem/pilotagem, amarelo salmão/texografia, piscina custos/controladoria). Pequenos 
+stage gates em cinza têm equipes multifuncionais de engenharia, modelagem e equipe de 
+produto e criação.  Os stage gates principais, em vermelho, para a aprovação inicial de croquis 
+e a validação da coleção de modo que o processo possa fluir mais. 
+ 
+
+
+---
+
+210 
+Figura 42 - Desenvolvimento de produto interno 
+Fonte: elaborado pela autora. 
+ 
+
+
+---
+
+211 
+ANEXO D - INTERVENÇÃO: PROCESSOS FUTUROS DE DESENVOLVIMENTO 
+EXTERNO 
+ 
+A Figura 43 lustra o processo de desenvolvimento por outsourcing, ou seja, a compra 
+de um full package, a peça pronta, sem um desenho de croqui, somente por briefing e custo 
+target, ou o desenvolvimento em fábricas fornecedoras com desenho de croqui e custo target. 
+O stage gate de validação será o mesmo como no processo de desenvolvimento interno ou 
+insourcing, embora ele não apareça aqui porque muitas vezes, os modelos de outsourcing são 
+aprovados em etapas e não podem esperar a grande reunião de validação porque os produtos 
+vindos da Ásia são definidos antecipadamente. Parece simples, mas as pessoas responsáveis 
+por esse processo dependem de muitas outras áreas, da área de produto estar disponível para 
+definir um briefing numa fase anterior a de criação dos produtos internos, da área de vendas ter 
+resultados de vendas para análises e definições de demanda ou quantidades iniciais, dos 
+fornecedores enviarem cotações e peças piloto no prazo estimado, enfim, o processo pode ter 
+muitas repetições, gargalos e caminhos críticos, por conta das negociações internas e externas. 
+O PLM contribuiria para ter simulação de cenários com diferentes alternativas de fornecimento. 
+A cor rosa é a da área de produto, a amarela é área comercial, a azul é de analistas de outsourcing 
+e a verde clara é a área de modelagem, que nesse caso, apenas dá parâmetros de medidas para 
+os modelos e os mede na sua chegada, também participando de uma prova de roupas exatamente 
+como feito no processo interno, com a diferença de que os ajustes são feitos pelo modelista da 
+empresa fornecedora. 
+ 
+ 
+
+
+---
+
+212 
+Figura 43 - Desenvolvimento de produto do tipo outsourcing 
+Fonte: elaborado pela autora. 

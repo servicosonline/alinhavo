@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "A sazonalidade, o ciclo de vida curto e a rápida obsolescência dos produtos no setor têxtil e de confecção obrigam as empresas a reformular e desenvolver novos produtos com frequência, exigindo práticas de Lean Manufacturing para garantir flexibilidade de volume e cumprimento de prazos de entrega.",
+    "stance": "supports",
+    "stance_target": "Pressão de sazonalidade, variedade de lotes e prazos curtos nas PMEs de confecção",
+    "evidence_type": "theoretical",
+    "scope_conditions": "Pequenas e médias empresas (PMEs) do setor têxtil e de confecção (revisão 2018-2023)",
+    "quoted_support": "No setor têxtil, anualmente são iniciados vários processos de desenvolvimento de produtos, devido à sazonalidade deles. O ciclo curto e a rápida obsolescência, obrigam uma reformulação e desenvolvimento de novos produtos com frequência. O LM aumenta a adaptabilidade das empresas ao proporcionar flexibilidade de produtos, volume de produção e prazos de entrega (Bento; Schuldt; Carvalho, 2020).",
+    "numbers": [],
+    "entities": ["UTFPR", "UEM", "ENEGEP 2024"],
+    "time_period": "2018-2023",
+    "region": "Global / Brasil",
+    "confidence": "high",
+    "source_note_id": "xliv-encontro-nacional-de-engenharia-de-produção"
+  },
+  {
+    "claim": "Em uma revisão sistemática de 17 estudos sobre Lean Manufacturing em PMEs têxteis (2018-2023), 10 trabalhos concentraram-se no setor de confecção do vestuário e 9 atuaram diretamente no nível operacional de chão de fábrica, com predomínio da aplicação combinada de múltiplas ferramentas (11 estudos) sobre ferramentas isoladas (6 estudos).",
+    "stance": "supports",
+    "stance_target": "Predomínio de gargalos operacionais de chão de fábrica em PMEs de confecção do vestuário",
+    "evidence_type": "statistical",
+    "scope_conditions": "17 artigos selecionados via método ProKnow-C na base Scopus (2018-2023)",
+    "quoted_support": "Dessa forma foi evidenciado 6 trabalhos no nível tático e 9 trabalhos no nível operacional. Enquanto a categoria de setor 10 trabalhos foram evidenciados no setor de confecção do vestuário, enquanto 4 trabalhos na parte operacional de engenharia têxtil ligado a manufatura, 2 trabalhos no setor de tecelagem e 1 trabalho em uma empresa mais ampla contendo os setores de tecelagem, beneficiamento e confecção. Foram 11 trabalhos utilizando diversas ferramentas no estudo de caso e 6 trabalhos com ferramentas específicas.",
+    "numbers": ["17 artigos", "10 trabalhos", "9 trabalhos", "6 trabalhos", "11 trabalhos"],
+    "entities": ["Scopus", "ProKnow-C", "ENEGEP 2024"],
+    "time_period": "2018-2023",
+    "region": "Global (destaque para Brasil e Índia com 3 publicações cada)",
+    "confidence": "high",
+    "source_note_id": "xliv-encontro-nacional-de-engenharia-de-produção"
+  },
+  {
+    "claim": "O sucesso da implementação de Lean Manufacturing em pequenas e médias empresas têxteis depende criticamente do engajamento dos colaboradores de diferentes níveis hierárquicos e da demonstração clara de seus benefícios aos gestores e operadores.",
+    "stance": "supports",
+    "stance_target": "Fatores humanos e organizacionais como barreira/facilitador do Lean em confecções",
+    "evidence_type": "empirical",
+    "scope_conditions": "Implementação de Lean Manufacturing em PMEs têxteis e de confecção",
+    "quoted_support": "Grigg, Goodyer & Frater (2018) apontam que o sucesso da implementação do sistema LM depende muito do engajamento das pessoas para chegar aos objetivos estabelecidos. Além disso, segundo as pesquisas de Jasti e Kodali (2019) o comprometimento dos funcionários foi uma das características essenciais para garantir um resultado favorável no processo de implementação do LM.",
+    "numbers": [],
+    "entities": ["Grigg, Goodyer & Frater (2018)", "Jasti e Kodali (2019)"],
+    "time_period": "2018-2023",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "xliv-encontro-nacional-de-engenharia-de-produção"
+  }
+]

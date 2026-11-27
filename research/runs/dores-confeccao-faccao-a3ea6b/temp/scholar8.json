@@ -1,0 +1,846 @@
+{
+  "ok": true,
+  "data": {
+    "query": "arranjo produtivo local confeccoes Agreste Pernambuco Santa Catarina Ceara",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 20,
+      "doab": 0
+    },
+    "raw_records": 40,
+    "merged_records": 39,
+    "returned": 39,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Dimensão da Arranjo Produtivo Local (APL) de confecções em Pernambuco através dos pedidos de depósito para desenhos industriais",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.21527/2237-6453.2022.58.12938",
+        "doi": "10.21527/2237-6453.2022.58.12938",
+        "year": 2022,
+        "authors": [
+          "Pedro Henrique Sobral de Souza Azevedo Mayrinck",
+          "Danielle Silva Simões-Borgiani"
+        ],
+        "venue": "Desenvolvimento em Questão",
+        "abstract": "A indústria da moda é considerada uma das maiores do mundo e, no Brasil, tem grande importância ao empregar milhares de trabalhadores e gerar grandes riquezas. Para a proteção de artigos de moda convém aplicar a tutela legal conferida pelos desenhos industriais, espécie de propriedade intelectual, capaz de proteger o titular diante da apropriação indevida. Sendo o Agreste pernambucano local de intensa produção no ramo da moda, de modo a ser considerada um APL por órgãos do setor, é pertinente investigar quais são as estatísticas e como isso pode afetar as indústrias locais. Destarte, o artigo teve como objetivo apresentar e propor uma análise acerca dos números de pedidos de depósitos de desenhos industriais para a região Agreste de Pernambuco. No campo bibliográfico, foi realizada sucinta exposição conceitual da moda e de que modo esta foi relacionada à gênese da propriedade intelectual e, especificamente, dos desenhos industriais. Em complemento, foram comparados dados sobre desenhos industriais com outros países líderes na proteção do respectivo ativo a partir de relatório do World Intelectual Property Indicators (Wipo), assim como, a partir do cenário nacional, baseado nas estatísticas apresentadas pelo Instituto Nacional da Propriedade Industrial (Inpi), com outros Estados e a própria capital de Pernambuco, Recife. Para alcançar tal resultado foram realizados levantamentos bibliográficos com os principais autores da matéria, assim como análise documental de órgãos internacionais, como o Wipo, e nacionais, a exemplo do Inpi e Sebrae. O resultado apresentado demonstrou alarmantes números para titulares com sede em cidades do APL de confecções, necessitando a aplicação de novas ações para a região.",
+        "pdf_url": "https://www.revistas.unijui.edu.br/index.php/desenvolvimentoemquestao/article/download/12938/7273",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4361800661",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Editora Unijui",
+          "openalex_type": "article",
+          "oa_status": "diamond",
+          "also_in": "openalex,crossref"
+        }
+      },
+      {
+        "title": "\"Trabalho de mulher, trabalho de homem\" no polo de confecções do Agreste de Pernambuco",
+        "source": "openalex",
+        "url": "https://doi.org/10.47749/t/unicamp.2018.1083022",
+        "doi": "10.47749/t/unicamp.2018.1083022",
+        "year": 2018,
+        "authors": [
+          "Elaine Maurício. Bezerra"
+        ],
+        "venue": null,
+        "abstract": "A Ata de Defesa com as respectivas assinaturas dos membros encontra-se no SIGA/Sistema de Fluxo de Dissertações/Teses e na Secretaria do Programa de Pós-Graduação em Ciências Sociais do Instituto de Filosofia e Ciências Humanas.Às minhas mães queridas, Maria Lucia e Rita, por terem me criado com valores éticos, humanos e, sobretudo, por me ensinarem a ser forte e não ter medo de alçar voos em busca de novos horizontes.Aos meus afilhados Luiz Felipe, Ana Júlia e Diego, que me proporcionam a alegria cotidiana e o desafio de poder contribuir com sua formação cultural e política.Agradecimentos É indiscutivelmente desafiadora a tarefa de tecer os devidos agradecimentos às pessoas e instituições que contribuíram e viabilizaram, de alguma forma, a finalização desse trabalho.Recuso-me a fazer desse espaço um mero registro formal, agradecendo de forma rápida a tríade da vida acadêmica: Universidade, Família e Amigos.Não que não a reconheça como importante na minha trajetória, mas seria muito simplista sintetizá-la assim.Eu jamais teria conseguido desenvolver a pesquisa de doutorado sem o suporte da Universidade Estadual de Campinas e de todos os seus funcionários, especialmente, os trabalhadores da Secretaria da Pós Graduação em Ciências Sociais, da Biblioteca Octávio Ianni, onde passei a maior parte do meu tempo no período de março de 2012 a janeiro de 2017, aos quais agradeço imensamente.Minha gratidão a Tereza, funcionária da copa do IFCH, uma mulher maravilhosa, forte, batalhadora, que nos acalenta com o seu cafezinho sempre quente e uma boa prosa.Nesse período de pós-graduanda na Unicamp tive o privilégio de a conhece e ganhar sua amizade.Nesse momento de crise e de cortes nos investimentos para a produção científica, gostaria de ressaltar a importância das agências públicas de fomento como a Capes e o Cnpq na manutenção da pesquisa acadêmica.Embora não tenha sido bolsista integral da Capes, o melhor período do doutorado foi o que pude contar com auxílio.A bolsa, inclusive, me permitiu fazer o doutorado-sanduíche na Universidade Nacional Autônoma do México, através da parceria com o ENSIINE (Programa de Implementação de Formação em Estudos em Inclusão, Interseccionalidade e Equidade).Aproveito para agradecer minha tutora Helena López do Programa Universitário de Estudos de Gênero e aos colegas e amigos da UNAM.Além dos ganhos acadêmicos, essa foi a primeira vez que fiz uma viagem internacional, conquista que não teria sido possível em outras condições.Lembro aqui, também, da contribuição do Projeto Temático: Contradições do Trabalho no Brasil, coordenado pela professora Márcia Leite, que disponibilizou recursos nas duas ocasiões em que estive em trabalho de campo, bem como pelas reflexões importantes no âmbito das atividades do grupo de pesquisa para a minha temática de estudo.Agradeço a minha orientadora pela paciência nessa longa jornada e pela contribuição nas reflexões teóricas desse estudo.Obrigada às professoras Magda Neves, Renata Gonçalves e Liliana Segnini por ter aceito o convite para participar da defesa.A finalização desse trabalho também contou com a colaboração de três pessoas muito especiais.Uma delas é a minha amiga querida e parceira Daniele ou \"Biscoito\" como é mais conhecida.Nesses seis anos, compartilhamos muita coisa juntas: vivências acadêmicas, luta política e, sobretudo, a amizade.Agradeço muito o incentivo e a força que me deu para que o texto da tese fosse concluído.A outra pessoa a quem quero agradecer é ao professor Roberto Véras que, mesmo depois da conclusão do mestrado, segue colaborando com a minha trajetória: desde a decisão de fazer o doutorado na Unicamp, passando pela escolha do doutorado sanduiche no México e até o momento em que me encontrava muito enrolada com a finalização da tese e solidariamente se dispôs a ajudar.A terceira é a Bernadete, uma grande companheira que é uma inspiração pela sua trajetória de luta feminista, pelo exemplo e solidariedade.Sinto-me uma privilegiada em compartilhar com ela a construção cotidiana por uma sociedade justa e igualitária.Durante a vivência na pós graduação, além das dificuldades teóricas e políticas que fazem parte desse universo, houve muito aperto financeiro, principalmente nos dois últimos anos.Berna não mediu esforços e mobilizou uma campanha financeira entre os amigos para que eu pudesse permanecer em Campinas",
+        "pdf_url": "https://doi.org/10.47749/t/unicamp.2018.1083022",
+        "citation_count": 5,
+        "work_type": "thesis",
+        "identifier": "W4206750882",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Vestibilidade de camisas masculinas produzidas no APL de Confecções do Agreste de Pernambuco",
+        "source": "openalex",
+        "url": "https://repositorio.ufpe.br/handle/123456789/54733",
+        "doi": null,
+        "year": 2023,
+        "authors": [
+          "Wanderlayne Fernandes do Amaral"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "O vestuário desempenha um papel fundamental na vida humana, presente desde o nascimento até a morte, apresenta-se como uma extensão da identidade e da interação entre o corpo e o mundo. Neste contexto, o estudo da interação entre roupas e indivíduos torna-se complexa, envolvendo aspectos de conforto, estética e funcionalidade. Em soma, os conhecimentos limitados sobre ferramentas, metodologias e programas de qualidade nos Arranjos Produtivos Locais (APLs), incluindo o APL de Confecções de Pernambuco, estimulam estudos na área de ergonomia aplicada à vestibilidade. Partindo desta perspectiva, a avaliação da vestibilidade tem potencial em colaborar com a qualificação dos produtos vestíveis de moda. Na qual, esta pesquisa buscou responder ―Quais são as métricas de vestibilidade para a camisa masculina e como estas podem ser avaliadas em testes com usuários durante a prototipagem da peça?‖. Os resultados obtidos possibilitaram a identificação das métricas de vestibilidade, destacando-se a função estética (eficácia), o desempenho da peça durante a execução dos movimentos da parte superior do corpo (eficiência) e o conforto térmico e físico (satisfação) durante o uso. Isso é particularmente relevante, pois todas as métricas identificadas puderam ser avaliadas durante os testes de vestibilidade em contexto real de uso (laboral), o que possibilitou conferir o desempenho por camisa, somado à satisfação do usuário. Assim, evidenciou-se a importância do estudo para área de design e ergonomia no vestuário, ao inserir procedimentos sistematizados de avaliação da vestibilidade na atividade projetual e suas implicações na qualidade do produto para atendimento das necessidades do público consumidor.",
+        "pdf_url": "https://repositorio.ufpe.br/bitstream/123456789/54733/1/DISSERTA%c3%87%c3%83O%20Wanderlayne%20Fernandes%20do%20Amaral.pdf",
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W7120795581",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Políticas públicas para o desenvolvimento regional e local: o que podemos aprender com os arranjos produtivos locais (APLs)?",
+        "source": "openalex",
+        "url": "https://doi.org/10.1590/s1984-92302008000300003",
+        "doi": "10.1590/s1984-92302008000300003",
+        "year": 2008,
+        "authors": [
+          "Francisco Teixeira"
+        ],
+        "venue": "Organizações & Sociedade",
+        "abstract": "Políticas voltadas para o desenvolvimento regional e local a partir da dinamização de aglomerações produtivas especializadas vêm sendo amplamente difundidas em vários países da América Latina e em vários estados e municípios brasileiros. Os resultados dessas políticas, no entanto, ainda são pouco avaliadas e as suas dificuldades não são devidamente analisadas. Uma das dificuldades apontadas pela literatura é a falta de pessoas qualificadas para lidar com projetos de dinamização dessas aglomerações. Nesse sentido, uma parceria entre o SEBRAE, a CEPAL e o BID resultou na criação de um curso de pós-graduação em gestão de projetos de APLs, oferecido para 54 alunos brasileiros e dois de países da América do Sul. Este artigo tem por objetivo apresentar e discutir os resultados dos trabalhos feitos com 53 APLs, focando em algumas questões levantadas pela literatura. Para tanto, é feita uma sintética revisão da literatura sobre políticas públicas de desenvolvimento regional e local. Em seguida, os trabalhos são analisados a partir dos seus dados gerais, diagnóstico de competitividade, estratégias propostas e projetos prioritários. Por último, são apresentadas as principais conclusões e implicações para políticas de dinamização de APLs, enfatizando os riscos e incertezas a elas associadas.",
+        "pdf_url": "https://www.scielo.br/j/osoc/a/z94xhkXGhYSHLPTdX7VvCVD/?lang=pt&format=pdf",
+        "citation_count": 33,
+        "work_type": "article",
+        "identifier": "W2169516035",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Análise da inovação em arranjos produtivos locais: revisão da literatura brasileira",
+        "source": "openalex",
+        "url": "https://doi.org/10.55905/oelv23n12-079",
+        "doi": "10.55905/oelv23n12-079",
+        "year": 2025,
+        "authors": [
+          "Paloma Rayanne Silva Bezerra",
+          "Marconi Freitas da Costa",
+          "Taciana de Barros Jerônimo"
+        ],
+        "venue": "OBSERVATÓRIO DE LA ECONOMÍA LATINOAMERICANA",
+        "abstract": "Diante da pouca sistematização da literatura brasileira sobre modelos de análise da inovação em Arranjos Produtivos Locais, esta revisão analisa como a inovação vem sendo estudada nesses contextos, identificando estratégias, formas de operacionalização e temas recorrentes. Realizou-se uma Revisão Sistemática da Literatura com buscas em bibliotecas digitais, cuja amostra foi analisada qualitativamente pela técnica de análise de conteúdo (Bardin, 2016). Os resultados reiteram que as análises são conduzidas de modos diversos e abrangem vários eixos temáticos. Conclui-se que ainda faltam modelos específicos, baseados em indicadores ou índices consistentes, e que a diversidade temática é essencial para captar diferentes dimensões da inovação.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7115167646",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A Governança em Arranjos Produtivos Locais (APLS): Algumas Considerações Teóricas e Metodológicas",
+        "source": "openalex",
+        "url": "https://ojs.uel.br/revistas/uel/index.php/geografia/article/view/14390",
+        "doi": "10.5433/2447-1747.2014v23n1p57",
+        "year": 2014,
+        "authors": [
+          "Lucas Labigalini Fuini"
+        ],
+        "venue": "GEOGRAFIA (Londrina)",
+        "abstract": "O presente artigo visa explorar com mais profundidade um dos aspectos mais difundidos e de mais difícil compreensão e sistematização nos estudos sobre aglomerações e Arranjos Produtivos Locais (APLs): suas formas de governança. Entendemos que a governança em APLs representa um tipo de coordenação entre agentes que constroem, em um processo contínuo de conflito e cooperação, pactos e compromissos para o desenvolvimento econômico de territórios locais e regionais. Posto isso, nossa análise se assenta em um conjunto de referenciais bibliográficos selecionados que nos permite analisar a governança dos arranjos produtivos nos seguintes aspectos: do conceito, das metodologias, da política pública e de suas limitações enquanto tema científico e ferramenta prática de intervenção.",
+        "pdf_url": "https://ojs.uel.br/revistas/uel/index.php/geografia/article/download/14390/16287",
+        "citation_count": 11,
+        "work_type": "article",
+        "identifier": "W1831002089",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Moda e desenvolvimento local: reconversões culturais na criação e confecção do jeans em Toritama – Pernambuco",
+        "source": "openalex",
+        "url": "http://www.tede2.ufrpe.br:8080/tede2/handle/tede2/6112",
+        "doi": null,
+        "year": 2009,
+        "authors": [
+          "Rosiane Pereira Alves"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "A partir de década de 1980, em meio à crise econômica que atingiu o Brasil, e com o declínio da atividade calçadista em Toritama, as pessoas dessa localidade passaram a produzir e comercializar calça jeans, como uma estratégia de sobrevivência. Desde então, ocorreram diferentes mudanças no modo de criar e confeccionar essa peça do vestuário, desencadeando um processo de desenvolvimento no município, hoje integrante do Arranjo Produtivo Local de Confecções de Pernambuco. Assim sendo, a presente pesquisa teve por objetivo analisar os processos de reconversões culturais na criação da moda popular do Arranjo Produtivo Local de Confecções do Agreste de Pernambuco, particularmente os processos de mudanças ocorridos no design de moda, entre 1980 e 2009, no município de Toritama, e suas possíveis implicações no desenvolvimento local. Buscou-se também identificar na criação e projeção da moda local os elementos transpostos das culturas popular e massiva hegemônica, por meio dos movimentos de ebulição (bubble-up) e gotejamento (trickle-down). Para tanto, realizou-se um estudo de caso, de caráter qualitativo. Elegeu-se como principal categoria metodológica a história oral, priorizando como procedimento técnico as entrevistas semiestruturadas. Estas revelaram ter havido, nesses quase trinta anos, sucessivos ciclos de hibridizações na moda popular em meio à interação com o massivo e com o mercado, que gerou mudanças na forma de aquisição, apresentação e manipulação do tecido, aviamentos, maquinaria e tecnologia empregada, todas reconvertidas em novas técnicas de criação, produção e comercialização da calça jeans, como, por exemplo, a inclusão do planejamento prévio nos procedimentos de trabalho, com repercussão, em meio aos processos de globalização e reestruturação produtiva, no desenvolvimento local. Muitas dessas reconversões se intensificaram em função das intervenções governamentais e não governamentais, tais como projetos, cursos de capacitação, eventos de moda e negócio. E se por um lado a atividade ligada à criação e produção da moda gerou no município de Toritama emprego e renda, criou uma estrutura organizacional e estabeleceu parcerias; por outro lado, também desencadeou um processo de comprometimento ambiental.",
+        "pdf_url": "http://www.tede2.ufrpe.br:8080/tede2/bitstream/tede2/6112/2/Rosiane%20Pereira%20Alves.pdf",
+        "citation_count": 6,
+        "work_type": "thesis",
+        "identifier": "W3121861938",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Capacidade tecnol?gica dos arranjos produtivos locais (APLS): um estudo prospectivo nos munic?pios de Pedras de Fogo (PB) e Itamb? (PE)",
+        "source": "openalex",
+        "url": "http://repositorio.ifpb.edu.br/jspui/handle/177683/3134",
+        "doi": null,
+        "year": 2023,
+        "authors": [
+          "Danielle Silva Ferreira"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "As profundas mudanças na economia mundial obriga os micros, pequenos e médios empreendedores a mudar de postura para conseguir enfrentar as novas demandas surgidas no mercado de trabalho. Por isso, é importante avaliar as melhores estratégias a serem utilizadas com a finalidade de fortalecer os negócios locais. Assim, a formação de APLs torna-se instrumento potencializador das capacidades e competências de uma região. Os municípios de Pedras de Fogo (PB) e Itambé (PE) são carentes de pesquisas que indiquem seu potencial e tornem viável inovações e investimentos nos seus setores produtivos. Diante desse cenário, este trabalho teve por objetivo realizar pesquisa prospectiva a fim de identificar potenciais Arranjos Produtivos Locais (APLs) nos municípios de Pedras de Fogo (PB) e Itambé (PE). A pesquisa foi realizada no período compreendido entre 01 de agosto de 2019 e 31 de julho de 2020, no âmbito do Programa Institucional de Apoio à Pesquisa e ao Desenvolvimento Tecnológico para Inovação (InovaPós) do IFPB, através da pesquisa de campo buscou-se conhecer os segmentos produtivos dos municípios, identificando as atividades de maior potencial para formação de APLs, com o intuito de desenvolvimento local, através da geração de emprego e renda e do engajamento dos atores locais em benefício da região. Para efeitos de realização da pesquisa, utilizou se do método qualitativo, de natureza exploratória e da pesquisa de campo, com observação assistemática, não-participante e com aplicação de entrevista não estruturada. A realidade socioeconômica desses municípios não corresponde com as potencialidades encontradas na região, com destaque aos setores da indústria da transformação e agropecuária. Além disso, possuem uma diversidade empresarial que necessita de suporte e investimentos público e privado, com ênfase no setor educacional técnico/profissionalizante, um dos seus maiores gargalos, componente indispensável para atingir a capacidade de produzir com excelência operacional e expandir seus negócios para além do consumo local, agregando qualidade e, consequentemente, valor ao produto idealizado. A existência de um centro de tecnologia, como um campus de um Instituto Federal, serve como unidade formadora e capacitadora dessa mão de obra, inclusive estão se tornando referência na busca de soluções sociais, culturais e tecnológicas para APLs.",
+        "pdf_url": "http://repositorio.ifpb.edu.br/jspui/bitstream/177683/3134/1/disserta%c3%a7%c3%a3o%20Danielle%20Ferreira.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7120836171",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Fatores determinantes para o desenvolvimento de arranjos produtivos locais no Brasil: uma análise territorial das políticas e parcerias institucionais",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.55905/revconv.17n.6-190",
+        "doi": "10.55905/revconv.17n.6-190",
+        "year": 2024,
+        "authors": [
+          "Flávio Martins Dias",
+          "Jeferson de Castro Vieira"
+        ],
+        "venue": "Contribuciones a las Ciencias Sociales",
+        "abstract": "O desenvolvimento regional equilibrado tem sido um ponto focal nas agendas governamentais brasileiras. Nesse contexto, os Arranjos Produtivos Locais (APLs) ganharam destaque como potenciais vetores para impulsionar o progresso regional de forma descentralizada. Contudo, observa-se uma distribuição desigual dos impactos das políticas de apoio a esses arranjos. Diante disso, este estudo tem como objetivo analisar os fatores que influenciam a formação e consolidação dos APLs nas diversas Unidades da Federação. A hipótese é que a participação em projetos e redes setoriais, bem como parcerias com instituições de ensino, capacitação, financiamento e promoção comercial impactam positivamente o desenvolvimento dos APLs. Combinando análise qualitativa e quantitativa, foram examinados dados sobre os arranjos em cada Unidade da Federação quanto a esses fatores. Os resultados evidenciam que as regiões Sudeste, Sul e parte do Nordeste concentram mais APLs e parcerias institucionais, com predomínio nos setores secundário e terciário, enquanto Norte e Nordeste apresentam mais APLs do setor primário e menor presença institucional. Conclui-se que políticas de fomento aos APLs devem considerar especificidades territoriais e setoriais, fortalecer as estruturas de governança local e estimular maior cooperação entre atores para alavancar o desenvolvimento regional.",
+        "pdf_url": "https://ojs.revistacontribuciones.com/ojs/index.php/clcs/article/download/7581/4831",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W4399800181",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "IMPLEMENTAÇÃO DA METODOLOGIA SSM PARA IMPLEMENTAÇÃO DA GESTÃO DA INFORMAÇÃO EM UMA EMPRESA INDUSTRIAL DE CONFECÇÕES DO MUNICÍPIO DE CARUARU-PE",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.14488/enegep2023_tn_st_404_1987_46165",
+        "doi": "10.14488/enegep2023_tn_st_404_1987_46165",
+        "year": 2023,
+        "authors": [
+          "THAYNÁ PATRÍCIA CASSEMIRO DA SILVA",
+          "Aldênia Karla Barrêto Candido",
+          "THÁRCYLLA REBECCA NEGREIROS CLEMENTE"
+        ],
+        "venue": "Anais ... Encontro Nacional de Engenharia de Produção/Anais do Encontro Nacional de Engenharia de Produção",
+        "abstract": "O setor txtil do Agreste Pernambucano desempenha um papel de grande relevncia para a economia nacional. No entanto, muitas das empresas existentes neste Arranjo Produtivo Local adotam estruturas organizacionais familiares com parmetros tradicionais de gesto, conhecimentos especficos baseados na experincia no setor. A partir desta problemtica, este trabalho props a implementao da Soft System Methodology (SSM) em uma empresa industrial de confeces localizada no municpio de Caruaru-PE. Esta metodologia permite analisar situaes problemticas desestruturadas e formular aes de melhoria do mundo sistmico para o mundo real. Para o estudo, so propostas aes de implementao e/ou melhoria da gesto da informao na empresa. Sabendo do potencial econmico dessa regio, buscou-se com esse estudo compreender causas raiz de problemas existentes e verificar sua viabilidade atravs da aplicao da SSM, importante no auxlio da estruturao de problemas, e sugerir alteraes visando o melhor desempenho da empresa em estudo.",
+        "pdf_url": "http://www.abepro.org.br/biblioteca/TN_ST_404_1987_46165.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4387970994",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Os nexos entre o circuito inferior da economia urbana Lapense e o circuito espacial produtivo do vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.51359/2238-6211.2017.229243",
+        "doi": "10.51359/2238-6211.2017.229243",
+        "year": 2016,
+        "authors": [
+          "Suelí Almeida dos Santos"
+        ],
+        "venue": "Revista de Geografia",
+        "abstract": "Este artigo busca contribuir para o entendimento do circuito inferior da economia urbana de Bom Jesus da LapaBA. Para tanto, analisou-se a participação do circuito inferior lapense em circuitos espaciais produtivos mais amplos. Como recorte empírico, investigou-se os nexos entre o circuito inferior do comércio de rua e o circuito espacial produtivo do vestuário. A metodologia pautou-se na aplicação de questionários no pequeno comércio localizado na área central da cidade, para investigar a origem das mercadorias comercializadas, as principais dificuldades enfrentadas em relação aos fornecedores e a frequência de reposição dos estoques.Palavras-chave: circuito espacial de produção; circuito inferior lapense; comércio de rua.",
+        "pdf_url": "https://periodicos.ufpe.br/revistas/revistageografia/article/download/229243/23614",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2752863326",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Cidades médias e redefinição de relações na rede urbana:: processos e formas instituídas na formação das aglomerações urbanas na Bahia e em Pernambuco",
+        "source": "openalex",
+        "url": "https://revista.fct.unesp.br/index.php/cpg/article/view/11364",
+        "doi": null,
+        "year": 2026,
+        "authors": [
+          "Rizia Mendes Mares",
+          "Cleiton Silva"
+        ],
+        "venue": "Caderno Prudentino de Geografia",
+        "abstract": "A formação da aglomeração urbana nos estados da Bahia e Pernambuco, é um fenômeno complexo e multifacetado, resultante de uma série de processos históricos, sociais, econômicos e políticos. A estrutura urbano-regional e os processos territoriais que lhe são atinentes é o foco dessa reflexão tendo como recorte analítico a rede urbana no Nordeste, mais especificamente, as Regiões Geográficas Imediatas e Regiões Geográficas Intermediárias (2017) e, a Região de Influência das Cidades (2018) de Barreiras, Vitória da Conquista e Ilhéus-Itabuna na Bahia, e, Caruaru e Petrolina, em Pernambuco. Assim, objetiva-se analisar os processos e formas instituídas nesse recorte analítico, considerando tanto os elementos que as identificam, quanto aqueles que caracterizam a especificidade, potencialidade, funcionalidade e a polarização. Como metodologia adotou-se uma abordagem quali-quantitativa, fundamentada na análise documental e na revisão bibliográfica e no levantamento de dados estatísticos sobre as aglomerações urbanas, como fontes primárias e secundárias, ou seja, relatórios governamentais e análise dos dados com base em técnicas de categorização, interpretação e síntese, buscando identificar padrões, tendências e características dos aglomerados urbanos objeto deste estudo.",
+        "pdf_url": "https://revista.fct.unesp.br/index.php/cpg/article/download/11364/7861",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7215601883",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "INDUSTRIAL DYNAMICS AND URBANIZATION IN THE NORTHEAST OF BRAZIL",
+        "source": "openalex",
+        "url": "https://doi.org/10.4215/rm2015.1404.0005",
+        "doi": "10.4215/rm2015.1404.0005",
+        "year": 2015,
+        "authors": [
+          "Edilson Pereira Júnior"
+        ],
+        "venue": "Mercator",
+        "abstract": "ResumoO contexto que materializa no espaço novas forças de aceleração dos objetos e dos fluxos, decorrentes da hegemonia de interesses econômicos, engendra uma mobilidade sem precedentes em escala local, nacional e mundial, ao integrar sistemas urbanos e regionais por meio de uma rede de relações comandadas por investimentos produtivos industriais.Ressalta-se os efeitos dessas mudanças na região Nordeste do Brasil, em especial sobre o seu processo de urbanização, que condiciona a divisão territorial do trabalho, os aspectos concernentes à reestruturação urbana e a articulação entre cidades e regiões.O artigo investiga essas questões considerando os diferentes impactos de três \"configurações espaciais produtivas\", responsáveis pela redefinição dos papeis centrais de algumas cidades e pela refuncionalização dos tradicionais arranjos da rede urbana nordestina, agora delineados por diferentes centralidades e conexões.",
+        "pdf_url": null,
+        "citation_count": 33,
+        "work_type": "article",
+        "identifier": "W2499644662",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Uso corporativo do território e a nova divisão territorial do trabalho da indústria do vestuário no Rio Grande do Norte",
+        "source": "openalex",
+        "url": "https://doi.org/10.5216/ag.v14i1.60143",
+        "doi": "10.5216/ag.v14i1.60143",
+        "year": 2020,
+        "authors": [
+          "Leonardo da Silva Galindo",
+          "Francisco Fransualdo de Azevedo"
+        ],
+        "venue": "Ateliê Geográfico",
+        "abstract": "A produção do vestuário no Rio Grande do Norte (RN) caracterizava-se pela concentração de empresas e empregos em Natal. Recentemente houve redução dessas variáveis na capital, enquanto observou-se movimento contrário no interior do estado. O objetivo deste artigo é compreender as transformações na divisão territorial do trabalho da indústria do vestuário no RN. A metodologia contemplou revisão bibliográfica, sistematização de dados secundários e pesquisa emp�rica. Constatamos uma redefinição da divisão do trabalho, com agentes promovendo um uso corporativo do território. Este provoca a dispersão de unidades produtivas que realizam serviços de costura para munic�pios do Seridó potiguar. Já as grandes fábricas continuam no comando da produção realizando outras etapas do processo produtivo em Natal e Parnamirim. A terceirização da costura consolidou no Seridó uma divisão interna do trabalho voltada ao setor têxtil e de confecções, com alguns munic�pios realizando a costura para grandes indústrias, e outros se especializando em produzir acessórios do vestuário e artefatos têxteis para uso doméstico. Palavras-chave: Rio Grande do Norte; vestuário; divisão territorial do trabalho; terceirização.",
+        "pdf_url": "https://www.revistas.ufg.br/atelie/article/download/60143/34992",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W3044103442",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Aplicação da ferramenta de Análise de Ciclo de Vida (ACV) no processo de tratamento de efluentes em uma lavanderia de beneficiamento de jeans",
+        "source": "openalex",
+        "url": "https://doi.org/10.5585/exactaep.v18n2.8370",
+        "doi": "10.5585/exactaep.v18n2.8370",
+        "year": 2020,
+        "authors": [
+          "Armando Dias Duarte",
+          "Gilson Lima da Silva"
+        ],
+        "venue": "Exacta",
+        "abstract": "A temática de sustentabilidade na indústria têxtil ganha cada vez mais força, através da adoção de práticas e ferramentas de gestão ambiental como a Análise de Ciclo de Vida (ACV) que permitam minimizar os impactos ambientais negativos e otimizar processos produtivos em busca de estratégias sustentáveis. O presente estudo teve como objetivo a aplicação da ferramenta de ACV na Estação de Tratamento de Efluentes (ETE) em uma Lavanderia de Beneficiamento de Jeans (LBJ) e comparar os danos ambientais e sociais relacionadas ao tratamento do Efluente Industrial (EI) gerado após o beneficiamento das peças. Foi verificado que o uso de produtos químicos inorgânicos, apresentam os principais poluentes nas categorias do estudo, com impactos acima de 90%. A energia elétrica apresentou impactos significativos, o que sugere a adoção de alternativas como a dosagem manual ou redução do tempo de funcionamento dos equipamentos.",
+        "pdf_url": "https://periodicos.uninove.br/exacta/article/download/8370/8138",
+        "citation_count": 10,
+        "work_type": "article",
+        "identifier": "W3020174713",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Coleções Contemporâneas do Vestuário: Proposição para Classificação em Coleções-Unidade e Coleções-Mix",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/9786555501087-10",
+        "doi": "10.5151/9786555501087-10",
+        "year": 2021,
+        "authors": [
+          "Danielle Silva Simões-Borgiani",
+          "Hans da Nóbrega Waechter"
+        ],
+        "venue": "Editora Blucher eBooks",
+        "abstract": "O avanço dos estudos relacionados à moda no meio acadêmico-científico levanta questionamentos e faz surgir novas reflexões referentes ao sistema de moda. Essas contribuições favorecem um amadurecimento da área, no que diz respeito ao fazer produtos do vestuário. Atualmente, a moda apresenta importância de caráter mundial, uma vez que é responsável por uma parcela significativa da economia. Diante disto, o profissional deve agregar qualidade de criação à qualidade produtiva, de acordo com as exigências de mercado, com flexibilidade e rapidez de resposta (RUTHSCHILLING & BROEGA, 2009).",
+        "pdf_url": "https://openaccess.blucher.com.br/download-pdf/524/22890",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4206263521",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Caracterização polifásica de Fusarium lateritium, F. oxysporum e F. solani depositadas na micoteca URM e o potencial na degradação de efluentes de lavanderia têxtil do município de Toritama- PE",
+        "source": "openalex",
+        "url": "https://repositorio.ufpe.br/handle/123456789/24281",
+        "doi": null,
+        "year": 2015,
+        "authors": [
+          "Gianne Rizzuto Araújo Magalhães"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "O pólo têxtil e de confecções do agreste de Pernambuco, que abriga várias indústrias, tem, erroneamente, despejado grandes volumes de efluentes das lavanderias e tinturarias têxteis, muitas vezes não tratados, em corpos hídricos da região, causando intensos danos ao ambiente. Estudos apontam o tratamento biológico como uma boa alternativa para solucionar os problemas com efluentes têxteis, pois são eficientes e de baixo custo. Os fungos se destacam nesse processo devido a algumas espécies degradarem compostos recalcitrantes. O gênero Fusarium é apontado como importante bioindicador e biorremediador de ambientes contaminados. No estudo dos fungos, a taxonomia polifásica utilizada atualmente objetiva integrar informações diversas, tais como: características morfológicas, dados moleculares e de produção de metabólitos para identificação mais precisa dos organismos. O objetivo deste estudo foi caracterizar culturas de espécies de Fusarium depositadas na Micoteca URM quanto à taxonomia por uma abordagem polifásica, e quanto à capacidade de degradação de efluentes de lavanderia de indústria têxtil do município de Toritama-PE. Foram utilizadas 25 culturas de Fusarium oxysporum (10), F. lateritium (7) e F. solani (8) depositadas na Micoteca URM. Foi realizada análise morfológica, molecular e quantificação do ergosterol, além da análise de descoloração de efluente têxtil coletado de uma lavanderia do município de Toritama-PE. Os fungos foram inoculados em 50 ml do efluente esterilizado, adicionado de 0,5 g de farelo de trigo, contido em frascos de Erlenmeyer e foram incubados durante seis e doze dias. Em seguida, foram feitas leituras em espectrofotômetro (360nm). Na análise morfológica dos fungos foram observadas características que concordam com as descritas na literatura, permanecendo as espécies, segundo a morfologia, sem alterações no registro URM. A análise filogenética de sequencias das regiões ITS e do fator de elongação Tef-1α confirmou que a maioria dos espécimes de F. oxysporum e F. solani são, de fato, das espécies que constam no registro de depósito, que estão distribuídas em complexos. Entretanto, para melhor resolução das relações entre os clados e, consequentemente, melhor delimitação dessas espécies, será necessário realizar o estudo de pelo menos mais uma região do genoma. Quanto à produção do ergosterol, as espécies não apresentaram variação significativa. Todos os espécimes de Fusarium apresentaram baixo percentual de descoloração do efluente quando este foi utilizado esterilizado nos ensaios. No entanto, novas pesquisas devem ser realizadas com esses isolados para desvendar seu verdadeiro potencial biotecnológico.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2797352604",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A Requalificação funcional, estética e simbólica de retalhos de tecidos composto por poliamida e elastano",
+        "source": "openalex",
+        "url": "https://doi.org/10.23972/det2022iss25pp28-37",
+        "doi": "10.23972/det2022iss25pp28-37",
+        "year": 2022,
+        "authors": [
+          "Renata Garcia Wanderley",
+          "Laís Helena Gouveia Rodrigues",
+          "Camila Brito de Vasconcelos",
+          "Andréa Fernanda de Santana Costa",
+          "Jacqueline da Silva Macêdo"
+        ],
+        "venue": "Design e Tecnologia",
+        "abstract": "Os polos da moda, como omitido para revisão cega, envolvem diversas atividades, geram inúmeras peças, mas também produzem resíduos diversos. Como resíduos sólidos destacam-se os retalhos de tecidos de composições diversas. O volume de resíduos têxteis de origem química compostos de poliamida, elastano e poliéster chega a ser imensurável. Não existe uma coleta especial para os resíduos têxteis, sendo eles descartados como lixo comum em aterros sanitários ou doados para comunidades para sua aplicação em produtos com pouco valor agregado. Esse cenário transforma esses resíduos em um problema econômico (desperdício), social (desvalorização) e ambiental (poluição). Esse contexto exige a requalificação funcional, estética e simbólicas desses resíduos com a construção de um novo material para aplicação em produtos de design. Suas características permitem a eles serem trabalhados por processo físicos e químicos. Para tanto foi experimentado dois processos: (a) Processo de fusão por calor indireto e (b) Processo por dissolução por glicerina. Ambos os processos foram eficientes para a reciclagem desses resíduos gerando materiais diversos, placas plásticas e pó e equipamentos distintos, equipamentos domésticos (forno e formas) e laboratoriais (becker, chapa térmica, estufa, filtro a vácuo), respectivamente. Contudo, foi concluído que o Processo de fusão por calor indireto é o mais indicado com algumas modificações do processo original. Ele é (a) econômico, com custo baixo em estrutura, material e temporal; (b) culturalmente representativo, adaptação e criação de símbolos materiais e imateriais, (c) ambientalmente sustentável, com reaproveitamento de resíduos, uso pequeno de recursos, (d) socialmente relevante, possibilitando sua execução por diferentes perfis de produtores. Além disso, segue os princípios da economia criativa, da sustentabilidade e da inovação. O material final é um material termoplástico, resistente e com flexibilidade dependente do espessura, com superfície heterógena, possibilidade de transformação (furação, lixamento, corte. Como aplicação indica-se acessórios (colar, brinco e anel, bolsas e botões) e martes de móveis (tampo de mesa, assento de cadeiras e bancos).",
+        "pdf_url": "https://www.ufrgs.br/det/index.php/det/article/download/987/340",
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "W4313336388",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "As Metamorfoses da Feira: Elementos da Produção, Distribuição, Circulação e Consumo da Confecção Popular",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/9788580393576-05",
+        "doi": "10.5151/9788580393576-05",
+        "year": 2018,
+        "authors": [
+          "Luiz Antônio Araújo Gonçalves"
+        ],
+        "venue": "Editora Blucher eBooks",
+        "abstract": "Etimologicamente e segundo o Dicionário Aurélio, a palavra metamorfose significa transformação. Do ponto de vista da Zoologia, indica mudança de forma e estrutura no ciclo de vida de um dado animal. Um exemplo ilustrativo de ordem biológica é da lagarta que um dia se transformará em bela borboleta, mas, para isso, deve passar por metamorfose de seu corpo. O verbo metamorfosear é a ação de passar por transformação, de modificar-se, implicando uma sequência de fatos e movimentos que ocorrem num dado espaço e em certo tempo, alterando as condições primeiras do objeto em metamorfose. Entendendo que a feira tem umadinâmica socioespacial, ela passa por alterações e adaptações1 com o comércio de confecção popular. Além disso, ela também expressa as contradições sociais marcadas pela precariedade do trabalho.",
+        "pdf_url": "https://openaccess.blucher.com.br/download-pdf/417/21583",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W2968161016",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "O POTENCIAL DA INTEGRAÇÃO ENTRE PEQUENAS E GRANDES EMPRESAS COMO INSTRUMENTO EFICAZ DE DESENVOLVIMENTO DO NORDESTE",
+        "source": "openalex",
+        "url": "https://doi.org/10.48075/rfc.v13i18.7974",
+        "doi": "10.48075/rfc.v13i18.7974",
+        "year": 2000,
+        "authors": [
+          "Alexandre Rands Barros"
+        ],
+        "venue": "Revista Faz Ciência",
+        "abstract": "A integração entre pequenas e grandes empresas pode ter um papel importante no fomento ao desenvolvimento do Nordeste. Há uma série de benefícios sociais decorrentes dessas integrações, que no Nordeste podem ser particularmente importantes por causa da existência de uma dualidade elevada na economia da região. Essas integrações podem assumir várias formas. Nelas empresas modernas, muitas vezes de grande porte, podem contribuir para o desenvolvimento de pequenas empresas com tecnologias mais arcaicas, se houver políticas adequadas de promoção da integração. Nesse trabalho, busca-se apresentar um pouco os mecanismos econômicos que levam a essas interações, os ganhos advindos delas, assim como suas possíveis formas, e os benefícios em particular que podem ser muito importantes no Nordeste.",
+        "pdf_url": "https://e-revista.unioeste.br/index.php/fazciencia/article/download/7974/6697",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W3203549304",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "UMA ANÁLISE DOS ELEMENTOS NECESSÁRIOS PARA PROMOÇÃO DA CAPACITAÇÃO E INOVAÇÃO DO ARRANJO PRODUTIVO LOCAL DE AGRICULTURA FAMILIAR EM PERNAMBUCO",
+        "source": "crossref",
+        "url": "https://doi.org/10.31692/2526-7701.icointerpdvagro.2016.00129",
+        "doi": "10.31692/2526-7701.icointerpdvagro.2016.00129",
+        "year": 2016,
+        "authors": [
+          "Joás Tomaz de Aquino",
+          "Vanessa de Cássia Lima da Silva"
+        ],
+        "venue": "UMA ANÁLISE DOS ELEMENTOS NECESSÁRIOS PARA PROMOÇÃO DA CAPACITAÇÃO E INOVAÇÃO DO ARRANJO PRODUTIVO LOCAL DE AGRICULTURA FAMILIAR EM PERNAMBUCO",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.31692/2526-7701.icointerpdvagro.2016.00129",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Instituto Internacional  Despertando Vocações"
+        }
+      },
+      {
+        "title": "Relações interativas e estruturas de governança no arranjo produtivo local de transformados plásticos de Santa Catarina",
+        "source": "crossref",
+        "url": "https://doi.org/10.5007/2175-8085.2013v16n1p138",
+        "doi": "10.5007/2175-8085.2013v16n1p138",
+        "year": 2013,
+        "authors": [
+          "Carla Cristina Rosa de Almeida",
+          "Silvio Antonio Ferraz Cario"
+        ],
+        "venue": "Textos de Economia",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.5007/2175-8085.2013v16n1p138",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Federal de Santa Catarina (UFSC)"
+        }
+      },
+      {
+        "title": "Relações de subcontratação no arranjo produtivo de transformados plásticos da região norte de Santa Catarina",
+        "source": "crossref",
+        "url": "https://doi.org/10.4013/pe.2012.82.05",
+        "doi": "10.4013/pe.2012.82.05",
+        "year": 2013,
+        "authors": [
+          "Carla Cristina Rosa de Almeida",
+          "Silvio Antonio Ferraz Cario"
+        ],
+        "venue": "Perspectiva Econômica",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.4013/pe.2012.82.05",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "UNISINOS - Universidade do Vale do Rio Dos Sinos"
+        }
+      },
+      {
+        "title": "A construção das competências de empreendedores líderes do segmento de confecções do arranjo produtivo local do Agreste Pernambucano",
+        "source": "crossref",
+        "url": "https://doi.org/10.61673/ren.2012.206",
+        "doi": "10.61673/ren.2012.206",
+        "year": 2016,
+        "authors": [
+          "Romilson Marques Cabral"
+        ],
+        "venue": "Revista Econômica do Nordeste",
+        "abstract": "A questão que orienta o trabalho é: que competências alguns empreendedores alcançaram para atingir posição de liderança nessa área? Como suporte, utiliza a Teoria Evolucionista da Firma, especialmente o conceito de competências econômicas de David Teece. Focaliza-se essa abordagem em áreas de aglomeração em articulação com os atributos da Teoria dos Custos de Transação. A metodologia utilizada nesta pesquisa é predominantemente qualitativa. Os resultados apontam que essas firmas atingiram a liderança local ao desenvolverem competências nas atividades de compras, criação, produção e vendas. Considera-se a relevância da evolução, tendo em vista os empreendedores, em sua maioria, terem formação escolar baixa no início e os recursos de capital bastante limitados.",
+        "pdf_url": "https://www.bnb.gov.br/revista/ren/article/download/206/184",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.61673/ren.2012.206",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Banco do Nordeste do Brasil S/A"
+        }
+      },
+      {
+        "title": "O arranjo produtivo local de biotecnologia de Belo Horizonte - Minas Gerais",
+        "source": "crossref",
+        "url": "https://doi.org/10.14393/ufu.di.2005.35",
+        "doi": "10.14393/ufu.di.2005.35",
+        "year": 2020,
+        "authors": [
+          "Michelle Carrijo"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.14393/ufu.di.2005.35",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "EDUFU - Editora da Universidade Federal de Uberlandia"
+        }
+      },
+      {
+        "title": "Agrupamentos de Responsabilidade Corporativa: a Percepção de Stakeholders sobre o Arranjo Produtivo Local de Confecções do Agreste Pernambucano.",
+        "source": "crossref",
+        "url": "https://doi.org/10.7867/1980-4431.2010v15n3p29-48",
+        "doi": "10.7867/1980-4431.2010v15n3p29-48",
+        "year": 2011,
+        "authors": [
+          "Claudinete De Fátima Silva Oliveira Santos",
+          "Carla Regina Pasa Gómez"
+        ],
+        "venue": "Revista de Negócios",
+        "abstract": null,
+        "pdf_url": "http://proxy.furb.br/ojs/index.php/rn/article/viewFile/1918/1608",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.7867/1980-4431.2010v15n3p29-48",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Fundacao Universidade Regional de Blumenau"
+        }
+      },
+      {
+        "title": "DESENVOLVIMENTO LOCAL-REGIONAL NO NORDESTE BRASILEIRO: UM ESTUDO SITUACIONAL DO ARRANJO PRODUTIVO LOCAL DE CAPRINOVINOCULTURA DE PERNAMBUCO",
+        "source": "crossref",
+        "url": "https://doi.org/10.28998/contegeo.v3i6.6719",
+        "doi": "10.28998/contegeo.v3i6.6719",
+        "year": 2019,
+        "authors": [
+          "José Geraldo Pimentel Neto",
+          "Heitor Salvador de Oliveira",
+          "Keilha Correia da Silveira"
+        ],
+        "venue": "Revista Contexto Geográfico",
+        "abstract": "<p>O presente trabalho tem como foco compreender as dificuldades do não desenvolvimento do arranjo produtivo local (APL) da caprinovinocultura no Estado de Pernambuco. Para tanto, foram desenvolvidas visitas técnicas em diversas instituições que atuam no desenvolvimento do setor na região do APL, além de realizar uma análise mais detalhada das dificuldades desse respectivo setor produtivo no Estado de Pernambuco. A falta de estrutura e produção com forte vinculação rural e práticas laborais arcaicas gerando dificuldades em pontos estratégicos da atividade econômica. A falta de equipamento, como um matadouro, e de gestão integrada de políticas públicas direcionadas para diversas áreas do setor econômico, tais como capacitação aos produtores, são indicadores que dificultam a consolidação do APL da caprinovinocultura no Estado. Além dessas visitas, foram realizadas entrevistas qualitativas para o entendimento do APL, os pontos trabalhados foram a problemáticas, visões e propostas para melhorar a cadeia produtiva. Das respostas, foram indicados os principais gargalos responsáveis pelo não desenvolvimento do setor junto ao território, pois essa situação é a que defini as características de um Arranjo Produtivo Local. Alguns resultados identificados para o APL caprovinicultura em Pernambuco foram: (a) problemas no manejo e produção, (b) problemas na convivência com a seca, (c) instalações apropriadas para a produção e manejo, (d) falta de conhecimento técnico do produtor, (e) problemas com a posse da terra, entre outros.</p>",
+        "pdf_url": "https://www.seer.ufal.br/index.php/contextogeografico/article/viewFile/6719/4849",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.28998/contegeo.v3i6.6719",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Federal de Alagoas"
+        }
+      },
+      {
+        "title": "A produção reticular no arranjo produtivo local de confecções de Pernambuco",
+        "source": "crossref",
+        "url": "https://doi.org/10.6008/cbpc2179-684x.2022.003.0007",
+        "doi": "10.6008/cbpc2179-684x.2022.003.0007",
+        "year": 2023,
+        "authors": [
+          "Hannah Miranda Morais",
+          "Fernando Gomes de Paiva Júnior",
+          "Bianca Gabriely Ferreira Silva"
+        ],
+        "venue": "Revista Brasileira de Administração Científica",
+        "abstract": "A presente pesquisa possui como objetivo geral discutir a produção fragmentada no Arranjo Produtivo Local de confecções de Pernambuco, como uma forma de precarização do processo de trabalho na economia neoliberal. ​Um Arranjo Produtivo Local é caracterizado por uma aglomeração produtiva local, uma concentração de organizações envolvidas em uma mesma atividade e em um território comum. Os Arranjos Produtivos Locais são incentivados pelas políticas públicas por estimularem a renda, o emprego e o desenvolvimento local. Contudo, esses aglomerados produtivos podem esconder formas diversas de precarizar a mão de obra da região. Nesse panorama, é possível afirmar que o estudo tem caráter qualitativo e descritivo e se apoia na análise de conteúdo da fala do gestor de uma empresa que cuida do setor de relacionamento com as facções. Por conseguinte, os achados de pesquisa apontam para cinco categoria analíticas temáticas, sendo essas: (1) A rede é um arranjo móvel e multiespecializada; (2) Para a rede ser grande a rede tem que ser pequena; (3) A rede é organizada por contratos morais; (4) A precarização do trabalho e pobreza são estruturais na rede e (5) Na rede o trabalho é doméstico, portanto, pertence à família. Tem-se que, as Considerações finais mostram que o processo organizativo em rede nesse território estrutura e oculta uma severa exploração do trabalho fora do emprego.",
+        "pdf_url": "https://sustenere.inf.br/index.php/rbadm/article/download/7655/4479",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.6008/cbpc2179-684x.2022.003.0007",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Editoriales Iberoamericanos"
+        }
+      },
+      {
+        "title": "ESTUDO DO MERCADO DE TRABALHO EM ARRANJO PRODUTIVO LOCAL (APL): TERRITÓRIO E PRODUÇÃO CERÂMICA EM SANTA GERTRUDES (SP)",
+        "source": "crossref",
+        "url": "https://doi.org/10.14393/rcg92615596",
+        "doi": "10.14393/rcg92615596",
+        "year": 2008,
+        "authors": [
+          "Lucas Labigalini Fuini"
+        ],
+        "venue": "Caminhos de Geografia",
+        "abstract": "No presente artigo, sob a perspectiva de que toda aglomeração produtiva está associada a um respectivo mercado de trabalho local, são analisadas as principais características do mercado de trabalho inerente à territorialidade da indústria de revestimentos cerâmicos da região de Santa Gertrudes/SP. No contexto de profundas modificações na atividade industrial e no mundo do trabalho que conduzem a novos formatos espaciais das relações econômicas, são discutidos no texto a pertinência da noção de mercado de trabalho local a luz da atual ênfase dada aos aglomerados territoriais de pequenas e médias empresas - chamados de APLs (Arranjos Produtivos Locais)- a partir de seu potencial gerador de competitividade e desenvolvimento territorial.",
+        "pdf_url": "https://seer.ufu.br/index.php/caminhosdegeografia/article/download/15596/8825",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.14393/rcg92615596",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "PPUFU - Portal de Periódicos da Universidade Federal de Uberlândia"
+        }
+      },
+      {
+        "title": "Arranjo Produtivo Local de Cerâmica Vermelha: Conceitos e Discussões da Potencialidade de Formatação no Estado de Pernambuco",
+        "source": "crossref",
+        "url": "https://doi.org/10.5585/exactaep.v12n3.5223",
+        "doi": "10.5585/exactaep.v12n3.5223",
+        "year": 2015,
+        "authors": [
+          "Yenê Medeiros Paz",
+          "Maria Monize Morais",
+          "Romildo Morant Holanda"
+        ],
+        "venue": "Exacta",
+        "abstract": "Arranjos Produtivos Locais (APL) são aglomerações territoriais de uma determinada atividade econômica, que possuam vínculos. O apoio dos empresários facilita a troca de experiências e informações, fortalecendo o grupo por meio do reconhecimento de pontos fortes e oportunidades. Com a formatação de um arranjo, por meio da colaboração, os empresários podem adquirir ganhos que individualmente seriam mais dispendiosos. Neste estudo, tem-se como objetivo analisar a situação atual da cerâmica vermelha do Estado de Pernambuco, visando-se a identificar oportunidades para formatação de um APL para elevação de competitividade e melhoria da qualidade dos produtos do setor.",
+        "pdf_url": "http://periodicos.uninove.br/index.php?journal=exacta&page=article&op=viewFile&path[]=5223&path[]=2899",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5585/exactaep.v12n3.5223",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "University Nove de Julho"
+        }
+      },
+      {
+        "title": "ESTUDO SOBRE AS FONTES ALTERNATIVAS PARA A MATRIZ ENERGÉTICA DO ARRANJO PRODUTIVO LOCAL DE GESSO DE PERNAMBUCO",
+        "source": "crossref",
+        "url": "https://doi.org/10.14488/enegep2021_tn_sto_362_1868_42716",
+        "doi": "10.14488/enegep2021_tn_sto_362_1868_42716",
+        "year": 2021,
+        "authors": [
+          "KELVIN EVERTON SANTOS DE MELO",
+          "THÁRCYLLA REBECCA NEGREIROS CLEMENTE"
+        ],
+        "venue": "Anais do Encontro Nacional de Engenharia de Produção",
+        "abstract": null,
+        "pdf_url": "http://www.abepro.org.br/biblioteca/TN_STO_362_1868_42716.pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.14488/enegep2021_tn_sto_362_1868_42716",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "ENEGEP 2021 - Encontro Nacional de Engenharia de Produção"
+        }
+      },
+      {
+        "title": "DESENVOLVIMENTO LOCAL-REGIONAL NO NORDESTE BRASILEIRO: UM ESTUDO SITUACIONAL DO ARRANJO PRODUTIVO LOCAL DE CAPRINOVINOCULTURA DE PERNAMBUCO",
+        "source": "crossref",
+        "url": "https://doi.org/10.28998/contegeo.3i6.6719",
+        "doi": "10.28998/contegeo.3i6.6719",
+        "year": 2019,
+        "authors": [
+          "José Geraldo Pimentel Neto",
+          "Heitor Salvador de Oliveira",
+          "Keilha Correia da Silveira"
+        ],
+        "venue": "Revista Contexto Geográfico",
+        "abstract": "O presente trabalho tem como foco compreender as dificuldades do não desenvolvimento do arranjo produtivo local (APL) da caprinovinocultura no Estado de Pernambuco. Para tanto, foram desenvolvidas visitas técnicas em diversas instituições que atuam no desenvolvimento do setor na região do APL, além de realizar uma análise mais detalhada das dificuldades desse respectivo setor produtivo no Estado de Pernambuco. A falta de estrutura e produção com forte vinculação rural e práticas laborais arcaicas gerando dificuldades em pontos estratégicos da atividade econômica. A falta de equipamento, como um matadouro, e de gestão integrada de políticas públicas direcionadas para diversas áreas do setor econômico, tais como capacitação aos produtores, são indicadores que dificultam a consolidação do APL da caprinovinocultura no Estado. Além dessas visitas, foram realizadas entrevistas qualitativas para o entendimento do APL, os pontos trabalhados foram a problemáticas, visões e propostas para melhorar a cadeia produtiva. Das respostas, foram indicados os principais gargalos responsáveis pelo não desenvolvimento do setor junto ao território, pois essa situação é a que defini as características de um Arranjo Produtivo Local. Alguns resultados identificados para o APL caprovinicultura em Pernambuco foram: (a) problemas no manejo e produção, (b) problemas na convivência com a seca, (c) instalações apropriadas para a produção e manejo, (d) falta de conhecimento técnico do produtor, (e) problemas com a posse da terra, entre outros.",
+        "pdf_url": "https://www.seer.ufal.br/index.php/contextogeografico/article/download/6719/4849",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.28998/contegeo.3i6.6719",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Federal de Alagoas"
+        }
+      },
+      {
+        "title": "Avaliação da Estrutura de Governança do Arranjo Produtivo de Software da Região da Grande Florianópolis – Estado de Santa Catarina, Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.70453/2344.9195.v2.n3.11504",
+        "doi": "10.70453/2344.9195.v2.n3.11504",
+        "year": 2015,
+        "authors": [
+          "Flavia Medeiros dos Anjos",
+          "Silvio Cario",
+          "Gabriela Fiates"
+        ],
+        "venue": "Pymes, Innovación y Desarrollo",
+        "abstract": "O propósito deste artigo é avaliar a estrutura de governança do arranjo produtivo local (APL) de software da região da Grande Florianópolis, localizado no Estado de Santa Catarina (SC), Brasil. Nesta região existem 181 empresas que desenvolvem atividades voltadas à produção e a prestação de serviços na área de software. Para atender o objetivo proposto, foram entrevistadas 40 empresas e 5 instituições de apoio. Os resultados apontaram a existência estrutura de governança desarticulada, fraca articulação entre a gestão das instituições de apoio, competição por liderança entre as instituições de apoio, reduzido número de ações cooperativas e a baixa sinergia entre as empresas e as instituições de apoio. Diante destes resultados, recomenda-se o desenvolvimento de políticas que promovam maior integração dos atores do APL.",
+        "pdf_url": "http://revistas.unc.edu.ar/index.php/pid/article/download/11504/17707",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.70453/2344.9195.v2.n3.11504",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidad Nacional de Córdoba"
+        }
+      },
+      {
+        "title": "Arranjo Produtivo Local (APL), competitividade e desenvolvimento local: um estudo sobre a Costa dos Corais – AL",
+        "source": "crossref",
+        "url": "https://doi.org/10.26512/2007.03.tcc.172",
+        "doi": "10.26512/2007.03.tcc.172",
+        "year": 2019,
+        "authors": [
+          "Atair Carneiro da Costa"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "10.26512/2007.03.tcc.172",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Biblioteca Central da UNB"
+        }
+      },
+      {
+        "title": "ESTUDO DO MERCADO DE TRABALHO EM ARRANJO PRODUTIVO LOCAL (APL): TERRITÓRIO E PRODUÇÃO CERÂMICA EM SANTA GERTRUDES/SP",
+        "source": "crossref",
+        "url": "https://doi.org/10.14393/sn-v20-2008-9307",
+        "doi": "10.14393/sn-v20-2008-9307",
+        "year": 2008,
+        "authors": [
+          "Lucas Labigalini Fuini"
+        ],
+        "venue": "Sociedade &amp; Natureza",
+        "abstract": "No presente artigo, sob a perspectiva de que toda aglomeração produtiva está associada a um respectivo mercado de trabalho local, são analisadas as principais características do mercado de trabalho inerente à territorialidade da indústria de revestimentos cerâmicos da região de Santa Gertrudes/SP. No contexto de profundas modificações na atividade industrial e no mundo do trabalho que conduzem a novos formatos espaciais das relações econômicas, são discutidos no texto a pertinência da noção de mercado de trabalho local a luz da atual ênfase dada aos aglomerados territoriais de pequenas e médias empresas - chamados de APLs (Arranjos Produtivos Locais)- a partir de seu potencial gerador de competitividade e desenvolvimento territorial.",
+        "pdf_url": "https://seer.ufu.br/index.php/sociedadenatureza/article/download/9307/5717",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.14393/sn-v20-2008-9307",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "EDUFU - Editora da Universidade Federal de Uberlandia"
+        }
+      },
+      {
+        "title": "Oportunidades para setor farmacêutico em Pernambuco: planta industrial de proteína recombinante, arranjo produtivo do bioma caatinga e óleo de licuri",
+        "source": "crossref",
+        "url": "https://doi.org/10.48021/978-65-252-8665-5",
+        "doi": "10.48021/978-65-252-8665-5",
+        "year": 2023,
+        "authors": [
+          "I. E. VASCONCELOS"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "book",
+        "identifier": "10.48021/978-65-252-8665-5",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "Dialética"
+        }
+      },
+      {
+        "title": "Estudo Fenomenológico Social da Ação Estratégica em um Arranjo Produtivo Local Moveleiro",
+        "source": "crossref",
+        "url": "https://doi.org/10.5585/riae.v12i3.1862",
+        "doi": "10.5585/riae.v12i3.1862",
+        "year": 2013,
+        "authors": [
+          "Fernanda Maria Felicio Macedo",
+          "Luiz Marcelo Antonialli"
+        ],
+        "venue": "Revista Ibero-Americana de Estratégia",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5585/riae.v12i3.1862",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "University Nove de Julho"
+        }
+      },
+      {
+        "title": "A influência do compromisso e da confiança para a efetividade de um arranjo produtivo local: um estudo do arranjo produtivo local de hortifrutigranjeiros de Veranópolis-RS",
+        "source": "crossref",
+        "url": "https://doi.org/10.15675/gepros.v10i2.1210",
+        "doi": "10.15675/gepros.v10i2.1210",
+        "year": 2015,
+        "authors": [
+          "Renato Breitenbach",
+          "Fernando Fantoni Bencke",
+          "Ilciane Maria Sganzerla Breitenbach"
+        ],
+        "venue": "Revista Gestão da Produção Operações e Sistemas",
+        "abstract": "O presente artigo aborda um estudo de caso sobre a prática do marketing de relacionamento entre os membros da cadeia de suprimentos de um arranjo produtivo local de hortifruticultura na cidade de Veranópolis-RS. Objetiva analisar as relações de compromisso e confiança como base de fortalecimento das relações entre os atacadistas, distribuidores e varejistas, de acordo com as práticas do marketing de relacionamento. Como método de pesquisa, utiliza abordagem qualitativa, de caráter exploratório e descritivo. Foram realizadas entrevistas individuais em profundidade com os principais executivos das empresas estudadas, observação não participante e análise documental. A técnica de análise utilizada foi análise de conteúdo. Pelos resultados é possível concluir que a presença das variáveis confiança e compromisso nas relações pesquisadas é resultado de investimentos relevantes e significativos de longo prazo, envolvendo planejamento conjunto. No ambiente estudado, por vezes, as relações de confiança e comprometimento estão presentes, além do oportunismo percebido em algumas relações.Palavras-chave: Compromisso. Confiança. Marketing de Relacionamentos. Arranjos Produtivos. Cadeia de Suprimentos.",
+        "pdf_url": "https://revista.feb.unesp.br/gepros/article/download/1210/644",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.15675/gepros.v10i2.1210",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "A Fundacao para o Desenvolvimento de Bauru (FunDeB)"
+        }
+      },
+      {
+        "title": "Estudo do mercado de trabalho em Arranjo Produtivo Local (APL): território e produção cerâmica em Santa Gertrudes/SP",
+        "source": "crossref",
+        "url": "https://doi.org/10.1590/s1982-45132008000100005",
+        "doi": "10.1590/s1982-45132008000100005",
+        "year": 2008,
+        "authors": [
+          "Lucas Labigalini Fuini"
+        ],
+        "venue": "Sociedade &amp; Natureza",
+        "abstract": "No presente artigo, sob a perspectiva de que toda aglomeração produtiva está associada a um respectivo mercado de trabalho local, são analisadas as principais características do mercado de trabalho inerente à territorialidade da indústria de revestimentos cerâmicos da região de Santa Gertrudes/SP. No contexto de profundas modificações na atividade industrial e no mundo do trabalho que conduzem a novos formatos espaciais das relações econômicas, são discutidos no texto a pertinência da noção de mercado de trabalho local à luz da atual ênfase dada aos aglomerados territoriais de pequenas e médias empresas - chamados de APLs (Arranjos Produtivos Locais)- a partir de seu potencial gerador de competitividade e desenvolvimento territorial.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.1590/s1982-45132008000100005",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "FapUNIFESP (SciELO)"
+        }
+      }
+    ]
+  },
+  "count": 39,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:02:41.479647+00:00"
+}

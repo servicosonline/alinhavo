@@ -1,0 +1,860 @@
+{
+  "ok": true,
+  "data": {
+    "query": "formacao preco custo confeccao vestuario micro pequenas empresas",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 20,
+      "doab": 0
+    },
+    "raw_records": 40,
+    "merged_records": 40,
+    "returned": 40,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "CUSTOS DA QUALIDADE EM MICRO E PEQUENAS EMPRESAS DO APL DO VESTUÁRIO: UMA ANÁLISE EMPÍRICA",
+        "source": "openalex",
+        "url": "https://doi.org/10.47179/abcustos.v12i3.471",
+        "doi": "10.47179/abcustos.v12i3.471",
+        "year": 2018,
+        "authors": [
+          "Juliane Andressa Pavão",
+          "Reinaldo Rodrigues Camacho"
+        ],
+        "venue": "ABCustos",
+        "abstract": "Esta pesquisa teve como objetivo analisar a forma como os custos da qualidade são gerenciados em micro e pequenas empresas do Arranjo Produtivo Local (APL) do vestuário dos municípios de Cianorte e Maringá, no Estado do Paraná. Trata-se de um estudo quantitativo e descritivo que tem como estratégia de pesquisa o levantamento, e para coleta de dados utilizou-se o questionário. Foram investigadas 113 empresas, tendo os dados sido analisados por meio da análise descritiva e análise não paramétrica de Mann-Whitney. Os achados evidenciam que micro e pequenas empresas preocupam-se com a qualidade dos produtos, visto que os custos de prevenção e avaliação possuem maior ocorrência em comparação com a ocorrência dos custos de falhas internas e falhas externas. Constatou-se também que existem algumas diferenças quando se trata da ocorrência dos custos da qualidade entre as micro e pequenas empresas investigadas. Por meio dos testes estatísticos, foi possível verificar que todos os custos classificados como de prevenção, mais o custo de falha interna “desconto no preço de venda de produtos defeituosos” e o custo de falha externa com a “devolução de produtos defeituosos” ocorrem de forma diferente em empresas de micro e pequeno porte. E que ainda, essa diferença se dá porque nas empresas de pequeno porte há maior ocorrência desses custos em comparação com as microempresas.",
+        "pdf_url": "https://revista.abcustos.org.br/abcustos/article/download/471/435",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W2770952887",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "CUSTOS DE PRODUÇÃO PARA MICRO E PEQUENAS EMPRESAS",
+        "source": "openalex",
+        "url": "https://seer.faccat.br/index.php/contabeis/article/view/3103",
+        "doi": null,
+        "year": 2023,
+        "authors": [
+          "Filipe Rodrigues dos Santos",
+          "Carlos Fernando Jung"
+        ],
+        "venue": "Revista Eletrônica de Ciências Contábeis",
+        "abstract": "O objetivo deste artigo é apresentar uma revisão sistemática de pesquisas e publicações ao longo dos anos, com o objetivo de compreender os fatores que impactam as áreas empresariais em relação aos custos de produção para micro e pequenas empresas. Foram utilizadas publicações das seguintes plataformas Google Acadêmico, periódicos CAPES e Scielo. O estudo de revisão também teve por finalidade descobrir como as empresas lidam com custos, demandas e estratégias.",
+        "pdf_url": "https://seer.faccat.br/index.php/contabeis/article/download/3103/1880",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W7220289059",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Determinantes da gestão de custos nas Micro e Pequenas Empresas",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/2764747111212022038",
+        "doi": "10.5965/2764747111212022038",
+        "year": 2022,
+        "authors": [
+          "Wênyka Preston Leite Batista da Costa",
+          "Ozeana Celestino de Lima",
+          "Sérgio Luiz Pedrosa Silva",
+          "Jandeson Dantas da Silva"
+        ],
+        "venue": "Revista Brasileira de Contabilidade e Gestão",
+        "abstract": "Objetivo(s): O objetivo desta pesquisa foi evidenciar os determinantes da gestão de custos nas micro e pequenas empresas (MPE) na cidade de Mossoró (RN). Método: As MPE são instituições imprescindíveis para a economia brasileira por sua representatividade em número de empresas e pela geração de emprego e renda. Para atingir o objetivo proposto, foi realizada uma pesquisa com abordagem quantitativa, com aplicação de um questionário aos gestores das MPE. Resultados: Os resultados evidenciaram que a gestão de custos oferece subsídios que auxiliam na tomada de decisão, sendo o controle e a avaliação de estoque, assim como o incremento da competitividade, os determinantes para a gestão de custos. Verificou-se que os participantes consideram relevantes as informações de controle de custos para o planejamento e a análise de desempenho da empresa. Constatou-se ainda que o nível de utilização da gestão de custos nesta pesquisa sobrepujou a média do Sebrae, que aponta que 60% das empresas não adotam tal medida, enquanto nesta pesquisa apenas 30% declararam não adotar o controle de custos. Contribuições: A pesquisa tem como contribuição mostrar a relevância dos fatores determinantes para as MPE realizarem uma gestão de custos eficaz, apontando um rol de práticas utilizadas nas empresas pesquisadas que pode servir de orientação para outras empresas em suas decisões. Tais resultados foram convergentes em alguns aspectos e divergentes em outros com relação a estudos empíricos pesquisados na literatura.",
+        "pdf_url": "https://www.periodicos.udesc.br/index.php/reavi/article/download/22073/14925",
+        "citation_count": 18,
+        "work_type": "article",
+        "identifier": "W4311871300",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "GESTÃO DE MARKETING NA PEQUENA EMPRESA DE CONFECÇÃO DE VESTUÁRIOS/MARKETING MANAGEMENT IN A SMALL COMPANY OF CLOTHING MANUFACTURING",
+        "source": "openalex",
+        "url": "https://doi.org/10.15210/reat.v11i6.11905",
+        "doi": "10.15210/reat.v11i6.11905",
+        "year": 2017,
+        "authors": [
+          "Jackson Cittadin",
+          "Aléssio Bessa Sarquis",
+          "João Coelho Soares",
+          "Eric David Cohen"
+        ],
+        "venue": "Revista Eletrônica de Administração e Turismo - ReAT",
+        "abstract": "A gestão de marketing tem papel relevante na pequena empresa de confecção de vestuários. Este estudo analisa como acontece a gestão de marketing na pequena empresa de confecção de vestuários da região AMREC, no Estado de Santa Catarina, Brasil. Trata-se de pesquisa exploratória, qualitativa e na forma de estudos de caso (múltiplos), com coleta de dados por meio de levantamento documental, entrevista em profundidade e observação direta. Os dados coletados foram analisados pela análise de conteúdo com categorização temática e uso do software Atlas TI. Os resultados contêm evidências relacionadas ao processo de planejamento de marketing, estratégias convencionais e contemporâneas utilizadas e processo de avaliação do desempenho de marketing. O estudo contribui para ampliar o conhecimento acadêmico sobre o tema, na medida em que permitiu coletar dados detalhados e evidências relacionadas à gestão de marketing na pequena empresa de confecção de vestuários e para a verificação de proposições teóricas e resultados de outros estudos.",
+        "pdf_url": "https://periodicos.ufpel.edu.br/ojs2/index.php/AT/article/download/11905/7953",
+        "citation_count": 6,
+        "work_type": "article",
+        "identifier": "W2776416323",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "CONTROLADORIA EMPRESARIAL: GESTÃO ECONÔMICA PARA AS MICRO E PEQUENAS EMPRESAS",
+        "source": "openalex",
+        "url": "https://www.cc.faccamp.br/ojs-2.4.8-2/index.php/RMPE/article/view/194",
+        "doi": "10.6034/194",
+        "year": 2011,
+        "authors": [
+          "José Morais Monteiro",
+          "Jenny Dantas Barbosa"
+        ],
+        "venue": "Revista da Micro e Pequena Empresa",
+        "abstract": "O presente trabalho tem por objetivo identificar a aplicabilidade da Controladoria Empresarial nas micro e pequenas empresa para aperfeiçoar o processo da gestão. As informações foram coletadas com entrevistas aos gestores/proprietários de quarenta micro e pequenas empresas nos municípios de Aracaju e Nossa Senhora do Socorro, Sergipe. Dentre os resultados destacam-se: a) as ferramentas da Controladoria Empresarial (planejamento, orçamento, análise financeira, gestão da informação), não são utilizadas por completo nas empresas pesquisadas; b) os micro e pequenos empresários possuem uma visão integrada da gestão e da necessidade de informações para que os objetivos sejam alcançados de forma mais coerente e com minimização de riscos do negócio; c) a percepção dessa evolução é aparente quando os entrevistados afirmam a necessidade de ampliar o conhecimento sobre estratégia, controles, finanças e contabilidade gerencial, com o fim específico de ter informações para decidir os rumos do empreendimento. Dessa forma, consolida-se a necessidade de administrar as micro e pequenas empresas com profissionalismo, objetivando reduzir o óbito empresarial do segmento, uma vez que a representatividade no cenário econômico e social do país é considerável.",
+        "pdf_url": "https://www.cc.faccamp.br/ojs-2.4.8-2/index.php/RMPE/article/download/194/157",
+        "citation_count": 73,
+        "work_type": "article",
+        "identifier": "W1560826882",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A tecnologia nos processos de desenvolvimento de produto e na produção das micro e pequenas empresas de confecção do vestuário de Porto Alegre - RS e Sombrio - SC",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/36048",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Paula Rodrigues Bittencourt"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "O objetivo deste trabalho foi abordar a inserção da tecnologia nos processos de desenvolvimento de produto e na produção das micro e pequenas empresas de confecção de Porto Alegre – RS e Sombrio - SC. O software CAD/CAM que permite economizar tempo e reduzir os custos de produção e desenvolvimento de produto, reduzindo o número de protótipos físicos e facilitando o encaixe. Sobretudo, o presente trabalho visa analisar como as micro empresas inserem a tecnologia em seus processos. O uso do sistema CAD (Desenho Assistido por computador) é uma tecnologia em que a computação suporta quase todas as áreas da confecção: design e criação, design têxtil, modelagem, ampliação, encaixe e risco, ficha técnica, cálculo de custos industriais, ordem de corte e gestão da produção. A evolução da tecnologia para a indústria do vestuário representa um fator significativo, possibilitando mudanças radicais que podem reduzir o tempo de fabricação do produto, acelerando e aperfeiçoando os processos. O estudo de caso englobou três micro empresas e uma pequena empresa de confecção do vestuário de Porto Alegre – RS e Sombrio - SC cuja análise dos dados qualitativos resultou em sugestões de melhorias para cada empresa estudadas.",
+        "pdf_url": null,
+        "citation_count": 5,
+        "work_type": "thesis",
+        "identifier": "W2199212968",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Uma análise do arranjo produtivo de micro e pequenas empresas de confecção de Tobias Barreto-SE",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.61673/ren.2005.744",
+        "doi": "10.61673/ren.2005.744",
+        "year": 2017,
+        "authors": [
+          "Ricardo Lacerda de Melo",
+          "Dean Lee Hansen"
+        ],
+        "venue": "Revista Econômica do Nordeste",
+        "abstract": "O presente artigo revisa as noções emergentes que tratam dos elementos intangíveis presentes nos processos locais de desenvolvimento. De modo específico, analisa esses processos no arranjo produtivo local (APL) de Tobias Barreto (SE). O arranjo produtivo de Tobias Barreto conta com cerca de 1000 estabelecimentos voltados para a fabricação de confecções. A unidade de confecção típica é uma pequena fábrica informal instalada na residência do proprietário que desenvolve as atividades com o auxílio de alguns funcionários, familiares ou não. Duas características dão feição própria ao APL de Tobias Barreto: o mercado de trabalho relativamente amplo, com mão-de-obra treinada desde a infância para trabalhar com atividades de costura e bordado, e a feira local, ponto de atração de uma rede de pequenos intermediários que se deslocam freqüentemente para adquirir peças de cama, mesa e banho e de vestuário que são distribuídos numa área bastante extensa do território nordestino. Conclui que as externalidades de cunho mais tradicional não se revelaram suficientes. A transformação na estrutura produtiva local foi limitada pela governança pouco desenvolvida e pelo estado incipiente das práticas cooperativas, incorrendo o arranjo um path dependency do tipo lock-in, em um mercado limitado em termos de dimensão e crescimento.",
+        "pdf_url": "https://www.bnb.gov.br/revista/ren/article/download/744/581",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W2181813902",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Inovação sustentável em micro e pequenas empresas: estudo de caso em uma confecção de roupas",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1843/65280",
+        "doi": null,
+        "year": 2023,
+        "authors": [
+          "Talita Venilda Guimarães"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Innovation is traditionally seen as a competitive advantage, also in micro and small companies. The 20th century was marked by an acceleration of innovation processes, but also by the progressive deterioration of the environment and the prospect of scarcity of natural resources, increasing concern with environmental issues, both by citizens and by the public authorities, bringing these issues to the daily lives of companies. This paper seeks to discuss the conditions for sustainable innovation in small Brazilian apparel companies, a sector that is notably problematic, whether in environmental, social or economic terms. The work was carried out from a case study centered on a clothing factory located in the region of Itabirito (MG). The objective was the proposition of principles aimed at introducing innovations that guarantee the company's sustainability. Thus, environmental practices can generate value for the company, as well as benefit employees, the community and the environment, making it competitive in the market in which it operates. As a result, process and product improvements were proposed with the aim of making the company under study sustainable.",
+        "pdf_url": "https://repositorio.ufmg.br/bitstreams/cac4d709-29aa-4626-954e-537c8264fc4c/download",
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W7119423814",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Marketing para Micro e Pequenas Empresas",
+        "source": "openalex",
+        "url": "https://repositorio.uniceub.br/jspui/handle/123456789/1937",
+        "doi": null,
+        "year": 2009,
+        "authors": [
+          "Luiz Felipe Pereira Carrilho Donas"
+        ],
+        "venue": "CEUB (University Center of Brasília)",
+        "abstract": "Este trabalho faz uma abordagem sobre o marketing para as Micro e Pequenas Empresas – MPE's, por meio de uma análise comparativa entre a literatura existente e a visão dos empresários sobre o assunto. As MPE's são grandes responsáveis pelo desenvolvimento da economia brasileira, representando 99,2% dos empreendimentos em operação, sendo as maiores geradoras de renda e empregos no país. Apesar dos ótimos dados, 56,4% destes negócios se extinguem até os três primeiros anos de vida, em decorrência da falta de planejamento, inclusive em marketing. Atualmente, o mercado é altamente competitivo e os clientes são cada vez mais exigentes, desta forma, o marketing pode desempenhar um importante papel, contribuindo às empresas que possuem escassez de recursos, representando um valioso instrumento para otimização dos resultados. Isso porque, para que todas as áreas de uma empresa tenham um correto direcionamento, é de suma importância que o marketing esteja inserido em seu cotidiano. Entretanto, em virtude da falta de conhecimento, as MPE´s acabam realizando ações isoladas e sem planejamento que, muitas vezes, não são condizentes com a realidade das mesmas e, ao não atingir a meta traçada, uma ação torna-se dispendiosa. O interesse de estudar o marketing nas MPE´s surgiu do contato com empresários que têm uma visão errônea a respeito do marketing, por julgarem ser uma ferramenta de alto custo e desnecessária. O objetivo geral do trabalho é analisar como as MPE's trabalham o marketing e os itens do composto mercadológico: Produto, Praça, Preço e Promoção. Este trabalho trará uma revisão da literatura, seguida de uma pesquisa realizada com MPE's, para assim, diagnosticar a realidade do marketing no cotidiano das mesmas. Concluiu-se que as MPE's desconhecem a importância e o conceito do marketing e o valor de suas ferramentas para a sobrevivência e crescimento no mercado. Para trabalhar marketing não são necessários gastos exorbitantes e sim, planejamento, sendo aconselhável destinar 5% do faturamento para investimentos na área.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "book",
+        "identifier": "W2191756067",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Inovação em Micro e Pequenas Empresas: Recursos e Capacidades",
+        "source": "openalex",
+        "url": "https://doi.org/10.1590/1982-7849rac2021190106.por",
+        "doi": "10.1590/1982-7849rac2021190106.por",
+        "year": 2021,
+        "authors": [
+          "Renata Braga Berenguer de Vasconcelos",
+          "Joséte Florêncio dos Santos",
+          "Jackeline Amantino de Andrade"
+        ],
+        "venue": "Revista de Administração Contemporânea",
+        "abstract": "Objective: the article aims to identify the relevant resources for the composition of managerial and transactional capabilities in the context of micro and small enterprises (MSEs). Method: through a literature review, the resources associated with the innovation were identified: leadership, people management, information and knowledge, relationships with clients, suppliers, and society, and results. The resources were collected and measured using a structured questionnaire made available by the Local Agent for Innovation program, applied to 447 MSEs in the state of Pernambuco, between 2015 and 2017. Confirmatory factor analysis was used to verify how these resources contribute to the composition of capabilities. Results: the results demonstrate that the managerial capability is composed of the relationship with society and suppliers, leadership, the sharing of information and knowledge, and people management. Transactional capability is made up of the relationship with customers and the results obtained by the firm. Conclusions: although MSEs have restrictions on access to technologies, their organizational resources seem to contribute to the development of innovation capability and to obtain competitive advantage.",
+        "pdf_url": "https://www.scielo.br/j/rac/a/GMyVXhGHytngzb7ND6mvRsf/?lang=pt&format=pdf",
+        "citation_count": 33,
+        "work_type": "article",
+        "identifier": "W3100267347",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "MATHEMATICAL PROGRAMMING COMO FERRAMENTA GERENCIAL EM MICRO E PEQUENAS EMPRESAS: UMA PROPOSTA PARA APOIO À DECISÃO NO SETOR DE VESTUÁRIO",
+        "source": "openalex",
+        "url": "https://doi.org/10.47456/bjpe.v7i3.35493",
+        "doi": "10.47456/bjpe.v7i3.35493",
+        "year": 2021,
+        "authors": [
+          "Diego Vieira dos Santos",
+          "Keydson Quaresma Gomes",
+          "Alessandro Roberto Rocha",
+          "Fernando Nascimento Zatta",
+          "Aliomar Lino Mattos",
+          "Wellington Gonçalves"
+        ],
+        "venue": "Brazilian Journal of Production Engineering",
+        "abstract": "Em um ambiente de instabilidade econômica a busca de estratégias que garantam a subsistência do empreendimento tem impulsionado as Micro e Pequenas Empresas (MPE’s) no Brasil a assumirem uma postura mais ágil nas tomadas de decisão. Assim, o presente estudo teve como objetivo a elaboração de uma proposta para auxiliar a tomada de decisão – voltada à gestão de produção e operações – de uma empresa do setor de vestuário utilizando-se de Linear Programming (LP). A coleta de dados e aplicação da metodologia foi direcionada a uma MPE localizada na região do Vale do Rio Doce (Minas Gerais). O desenvolvimento da solução ocorreu por meio de linguagem de programação primária. Os resultados permitiram, além de subsídios para decisões, parametrizar a solução para necessidades cotidianas. O modelo determinístico apresentado neste caso se mostrou uma ferramenta eficaz para lidar com questões de gerência empresarial e de produção, sobretudo com relação a alocações ótimas de recursos, o qual pode e deve ser adaptado para diferentes cenários e condições.",
+        "pdf_url": "https://periodicos.ufes.br/bjpe/article/download/35493/23617",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W3182548113",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Tecnologias para uma economia circular na confecção de vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.18406/2359-1269v11n72024509",
+        "doi": "10.18406/2359-1269v11n72024509",
+        "year": 2025,
+        "authors": [
+          "Heliana Márcia Santos",
+          "Olimpio José Pinheiro",
+          "Maria Concebida Pereira"
+        ],
+        "venue": "Revista Eixos Tech",
+        "abstract": "Este estudo explora a aplicação da economia circular na indústria de confecção de vestuário, com o objetivo de integrar diferentes perspectivas sobre a transição do modelo linear para o circular, minimizando os impactos ambientais associados à produção e consumo de vestuário. A pesquisa adota uma abordagem teórica, baseada em uma revisão da literatura, para analisar as práticas atuais e as inovações tecnológicas que possibilitam uma produção mais sustentável. O estudo examina estratégias como reciclagem, reaproveitamento e prolongamento da vida útil dos produtos, além de discutir os desafios enfrentados pela indústria confeccionista, como a falta de infraestrutura e as limitações logísticas para a reciclagem de resíduos têxteis. Entre os principais resultados encontrados, destaca-se a necessidade de mudanças no comportamento do consumidor, políticas públicas mais eficazes e a implementação de novas tecnologias para viabilizar a transição para um modelo circular. O artigo conclui que, embora existam barreiras significativas, a adoção de modelos circulares de negócios é essencial para a sustentabilidade a longo prazo da indústria de vestuário.",
+        "pdf_url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/download/509/290",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4407162587",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "O setor do vestuário: uma análise sobre as possibilidades estratégicas das empresas do vestuário no Brasil.",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.3.2007.tde-28032008-173655",
+        "doi": "10.11606/d.3.2007.tde-28032008-173655",
+        "year": 2007,
+        "authors": [
+          "Marília Piccinini da Carvalhinha"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This work presents a picture of the clothing business in Brazil, analyzing the industryretail chain and the firms strategic possibilities. It was studied the distribution of activities behind different enterprises, recognizing the value sources for each type of business. The information basis raised for this analysis includes an overview of this sector, a description of the manufacture and product development activities, and the chain configuration by other authors point of view. Forward, it was researched six case studies of small or medium enterprises that operate connecting manufacture to retail activities. This cases were source of information about their insertion in this market and their suppliers and customers insertion. The data extracted were connected to the information available on other sources, as empirical evidences of this market and published articles. The result was a frame of insertion shapes on the market, visible to this study, classified by three dimensions: chain position, brand presence or absence, and design capability. Then, it was possible to analyze the dynamic of the cases course, the value source by the view of the agents on the firms, and the basis to make decision along their path. This view brought the evaluation of trends possibilities for the clothing sector, following the forces that seem to act, in the direction of the specialization of the business in certain roles on the chain, and bring some hypothesis about the evolution of the current configuration of this sector in Brazil.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/3/3136/tde-28032008-173655/publico/CARVALHINHA_MARILIA_PICCININI_O_Setor_do_Vestuario_rev01.pdf",
+        "citation_count": 9,
+        "work_type": "thesis",
+        "identifier": "W1922116853",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Impacto dos Custos na Formação de Preço de Venda em Pequenos Empreendimentos: Um Estudo Bibliográfico e Bibliométrico.",
+        "source": "openalex",
+        "url": "https://revista.unifacear.edu.br/rem/article/view/517",
+        "doi": null,
+        "year": 2024,
+        "authors": [
+          "Maria das Graças Viana da Silva",
+          "Adriano Alves de França"
+        ],
+        "venue": "Revista Eletrônica Multidisciplinar UNIFACEAR",
+        "abstract": "O conhecimento dos custos é de fundamental importância para o funcionamento de qualquer empreendimento, pois se os preços de vendas praticados por a empresa forem menores que seus custos, a mesma não sobreviverá no mercado. Neste contexto, esse estudo objetivou analisar os impactos do controle de custos nos pequenos empreendimentos, para formação do preço de venda. Buscando caracterizar os pequenos empreendimentos, identificar os métodos de controle de custos utilizados e apontar o impacto do controle de custos para a formação do preço de venda. A pesquisa feita foi de natureza básica e teve como objetivo o estudo exploratório, com uma abordagem quantitativa e qualitativa. Com a realização do estudo pode-se concluir que a avaliação e interpretação das informações relacionadas aos custos dos produtos ajudam a alavancar as vendas e o resultado operacional do negócio. E a falta desse conhecimento pode acarretar resultados negativos e bastantes comprometedores para a continuidade das atividades comerciais da empresa.",
+        "pdf_url": "https://revista.unifacear.edu.br/rem/article/download/517/507",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7220338545",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "AVALIAÇÃO DA PARTICIPAÇÃO DAS MICRO E PEQUENAS EMPRESAS – MPE’s – DO SEGMENTO DE CONFECÇÃO DE SANTA CATARINA NO MERCADO EXTERNO: caracterização, vantagens e dificuldades de inserção",
+        "source": "openalex",
+        "url": "https://doi.org/10.4025/aere.v19i2.12739",
+        "doi": "10.4025/aere.v19i2.12739",
+        "year": 2012,
+        "authors": [
+          "Jair Fabio de Souza",
+          "Sílvio Antônio Ferraz Cário",
+          "Ricardo Lopes Fernandes"
+        ],
+        "venue": "A Economia em Revista - AERE",
+        "abstract": "As MPE’s têm ganho importância no período recente devido às mudanças do padrão tecno-produtivo fordista a partir da década de 1970. No Brasil este processo tardou a ocorrer, vindo a efetivar-se na década de 1990, através da abertura comercial. Dentro deste contexto, no Brasil, através dos esforços de reestruturação e desverticalização, viabiliza-se o surgimento de um grande número de MPE’s. No estado de Santa Catarina, se verifica o mesmo processo, com destaque para o setor têxtil-confecção, bastante tradicional no estado, que apresenta crescimento no número de estabelecimentos acima da média nacional no período de 1995 a 2005. Também, neste período, constata-se desempenho favorável da balança comercial do setor têxtil-confecção no estado de SC, com grande colaboração das empresas de pequeno porte para a obtenção deste resultado. Apesar da propensão a exportar das MPE’s do setor, existem fatores que criaram dificuldades para melhorar o desempenho exportador, com destaque para burocracia, custo do frete internacional e dificuldades de financiamento. Em complemento, tais empresas sugerem como política de desenvolvimento, a desoneração tributária e melhor acesso aos financiamentos.",
+        "pdf_url": "https://periodicos.uem.br/ojs/index.php/EconRev/article/download/50698/751375148802",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W1765562561",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "ESTRUTURA DE CUSTOS DAS EMPRESAS DO SETOR DE VESTUÁRIO LISTADAS NA BOVESPA: UTILIZAÇÃO DA ANÁLISE DE REGRESSÃO LINEAR",
+        "source": "openalex",
+        "url": "https://doi.org/10.47179/abcustos.v6i1.137",
+        "doi": "10.47179/abcustos.v6i1.137",
+        "year": 2011,
+        "authors": [
+          "Ari Söthe",
+          "Adriana Kroenke"
+        ],
+        "venue": "ABCustos",
+        "abstract": "A estrutura de custos é fundamental para o gerenciamento de empresas de todos os setores e portes, pois possibilita um melhor acompanhamento do desempenho econômico e auxilia na tomada de decisão. As empresas do setor de vestuário que possuem uma rotatividade de processos bastante diversificada necessitam de um acompanhamento contínuo e rigoroso dos custos de cada operação, bem como a identificação dos custos fixos e variáveis de cada produto. O objetivo deste estudo é verificar a estrutura de custos das empresas do setor de vestuário listadas na Bovespa, com a utilização da análise de regressão linear. Para tal, foram coletados dados trimestrais do lucro líquido, receita líquida e resultado operacional das três empresas do setor de vestuário listadas na Bovespa. Nesse sentido, esta pesquisa caracteriza-se como descritiva, documental, com abordagem quantitativa. Os dados foram coletados no sítio da Bovespa e analisados por meio da aplicação da análise de regressão linear. Quanto aos resultados verifica-se que: a Botucatu Têxtil SA apresenta custos e despesas fixas superiores e custos e despesas variáveis inferiores; a Marisol SA apresenta custos e despesas variáveis superiores aos custos e despesas fixas. A margem de contribuição das empresas não apresenta diferença significativa. Apesar das três empresas analisadas serem do mesmo ramo e de capital aberto, a estrutura de custos apresenta uma diferença considerável nos custos e despesas fixas e custos e despesas variáveis.",
+        "pdf_url": "https://abcustos.emnuvens.com.br/abcustos/article/download/137/607",
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "W2129092577",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "INOVAÇÃO E ESTRATÉGIAS COMPETITIVAS NAS MICRO E PEQUENAS EMPRESAS PAULISTAS",
+        "source": "openalex",
+        "url": "https://www.repae-online.com.br/index.php/REPAE/article/view/158",
+        "doi": null,
+        "year": 2020,
+        "authors": [
+          "Anderson Smalci",
+          "Andako, Aline Yukie Kuroyuwa",
+          "Ferreira, Andreza Cristina de Oliveira",
+          "Martins, Pedro Paulo Costa"
+        ],
+        "venue": "REPAE - Revista de Ensino e Pesquisa em Administração e Engenharia",
+        "abstract": "As Micro e Pequenas Empresas (MPE’s) desempenham um papel fundamental no desenvolvimento da economia. Com a finalidade de enfatizar a sua importância e o processo de inovação, o objetivo deste estudo é compreender se as estratégias de inovação são determinantes para o aumento de competitividade nas MPE’s paulistas. Esta pesquisa utiliza o método qualitativo do tipo descritivo e exploratório, fundamentado em dados secundários, com apoio de artigos científicos, livros, relatórios de consultorias e de instituições que representam os interesses destas empresas. Constata-se que com o aumento da competitividade, as estratégias de inovação são vistas como uma oportunidade de impulsionar esses empreendimentos, permitindo às empresas criarem vantagem competitiva, desenvolvimento de tecnologias e melhores resultados. Conclui-se que o aperfeiçoamento constante em produtos, processos, marketing ou até no ambiente organizacional pode trazer relevantes contribuições para as empresas emergentes e levá-las ao alto nível de competitividade.",
+        "pdf_url": "https://www.repae-online.com.br/index.php/REPAE/article/download/158/pdf",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W3011516326",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Linear, Adaptativo ou Interpretativo? Compreendendo a Dinâmica da Formação de Estratégias em Pequenas Empresas",
+        "source": "openalex",
+        "url": "https://doi.org/10.14211/regepe.v7i1.633",
+        "doi": "10.14211/regepe.v7i1.633",
+        "year": 2018,
+        "authors": [
+          "Lucilaine Maria Pascuci",
+          "Claudinei Alves"
+        ],
+        "venue": "REGEPE Entrepreneurship and Small Business Journal",
+        "abstract": "Este estudo examina como ocorre o processo de formação de estratégias em pequenas empresas, tendo como base a existência de elementos de natureza racional, interpretativa e adaptativa que influenciam este processo. Para tanto, explora-se como tais elementos se intercalam e se complementam caracterizando a formação de estratégias, em um processo dinâmico que influencia como as estratégias surgem e são desenvolvidas em pequenas empresas. Trata-se de um estudo comparativo de natureza qualitativa com abordagem multimétodos. Os dados foram coletados por meio de observação não participante, documentos e entrevistas. Os dados foram analisados por meio da técnica de análise de narrativas. Os principais resultados demonstraram que a formação de estratégias na pequena empresa é caracterizada, predominantemente, por elementos de natureza adaptativa e interpretativa. Quando existentes, elementos de natureza racional estão relacionados a métodos de controle e de apuração de resultados. O processo de formação de estratégias apresentou uma característica cíclica, sendo retroalimentado pelo processo de aprendizagem do pequeno empresário, construído a partir das experiências vivenciadas. Por fim, a dinâmica de elementos de natureza racional, interpretativa e adaptativa permitiu a identificação de um comportamento padrão destes elementos no processo de formação de estratégias em pequenas empresas.",
+        "pdf_url": "https://www.regepe.org.br/regepe/article/download/633/pdf",
+        "citation_count": 7,
+        "work_type": "article",
+        "identifier": "W2810525166",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Avaliação da satisfação dos usuários de sistemas integrados de gestão (ERP) nas médias empresas de confecção do vestuário de Fortaleza",
+        "source": "openalex",
+        "url": "https://repositorio.ufpb.br/jspui/handle/tede/5210",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Francismilton Teles"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "As empresas de pequeno e médio porte são a grande maioria no cenário nacional, gerando emprego e renda de forma pulverizada para a nação. Uma das ferramentas que colaboram para o aumento da competitividade nestas empresas é o uso de Sistemas Integrados de Gestão (ERP), os quais, quando bem utilizados, auxiliam no processo de planejamento, gestão e controle. É muito importante a verificação do sucesso de utilização destes sistemas nas empresas e um dos meios mais aceitos de analisá-los é por meio da avaliação da satisfação dos seus usuários. Esta dissertação avalia a satisfação dos usuários de sistemas ERP‟s nas médias empresas de confecção do vestuário no município de Fortaleza, um dos maiores pólos de confecção do Brasil. O método utilizado foi a pesquisa Survey, através da qual foram entrevistados 117 usuários de 25 empresas e seguiu o modelo de avaliação customizado por Ely (2010), onde são avaliados de forma quantitativa a satisfação dos usuários finais e usuários-chave de um sistema ERP. Os resultados apresentam, de forma geral, que os usuários estão satisfeitos com os sistemas ERP implantados. Também foi verificado por meio de análise multivariada, que o modelo utilizado foi adequado ao contexto das médias empresas, pois os testes estatísticos (Alfa de Cronbach, esfericidade de Bartlett e KMO) obtiveram valores bastante confiáveis.",
+        "pdf_url": "https://repositorio.ufpb.br/jspui/bitstream/tede/5210/1/arquivototal.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2561276547",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "MICRO E PEQUENAS EMPRESAS: UMA ANÁLISE NO MUNICÍPIO DE CONCEIÇÃO DO CASTELO, ES",
+        "source": "openalex",
+        "url": "https://doi.org/10.17648/intelletto-2525-9075-v2-n3-03",
+        "doi": "10.17648/intelletto-2525-9075-v2-n3-03",
+        "year": 2018,
+        "authors": [
+          "Kriscia de Souza Feriani",
+          "Andréa Ferreira da Costa",
+          "Inarei José Paulini",
+          "Luiz Fernando Favarato"
+        ],
+        "venue": "Revista Científica Intelletto",
+        "abstract": "Estudar como as pequenas empresas se inserem no mercado é muito importante, pois, segundo o SEBRAE, de cada 100 empresas abertas no país, 56 desaparecem até o terceiro ano de vida. Ao contrário do que muita gente pensa, o que leva a maioria das empresas ao fechamento não são os impostos ou a necessidade de crédito, mas principalmente a falta de preparo, informação, planejamento e conhecimento específico sobre o negócio. Neste sentido, há importância de se estudar esse ramo, devido também a falta de estudos para pequenas empresas em Conceição do Castelo, ES. Portanto, o objetivo do artigo foi de caracterizar o perfil dos empreendedores e características das empresas naquele município. Para tanto um questionário foi aplicado a 20 empreendedores da cidade, em seguida os dados foram tabulados e analisados. A confecção infantil e adulto respondeu por 25% das empresas abertas. Cerca de 80% das pessoas que empreendem são mulheres, sendo que 50% tem mais de 40 anos de idade. A maioria não possuí formação acadêmica, porém possui experiência em administração de empresas, e se preocupam sempre em proporcionar diferenciais em seu negócio, buscando oferecer produtos de qualidade e bom serviços. Um ponto negativo é que a maioria não fez pesquisa de mercado antes da abertura do negócio. Foi possível constatar também, que a maior parte dos entrevistados procuram estratégias para sobreviver no mercado cada vez mais competitivo.",
+        "pdf_url": "https://revista.grupofaveni.com.br/index.php/revista-intelletto/article/download/61/53",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W2802926513",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "FORMACAO DO PRECO DE VENDA NAS MICROS E PEQUENAS EMPRESAS: UMA CONTRIBUICAO NO DESENVOLVIMENTO LOCAL",
+        "source": "crossref",
+        "url": "https://doi.org/10.5748/16contecsi/agb-6125",
+        "doi": "10.5748/16contecsi/agb-6125",
+        "year": 2019,
+        "authors": [
+          "WANDERLEI SARAIVA",
+          "ITALO CAMPELO",
+          "MARIA DAS DORES SILVA"
+        ],
+        "venue": "CONTECSI International Conference on Information Systems and Technology Management",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5748/16contecsi/agb-6125",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "TECSI"
+        }
+      },
+      {
+        "title": "Práticas sustentáveis e sua relação com o faturamento e custo variável das micro e pequenas empresas no Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.12.2025.tde-20012026-152622",
+        "doi": "10.11606/d.12.2025.tde-20012026-152622",
+        "year": 2026,
+        "authors": [
+          "Hygor Athayde Aleixo de Souza"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.12.2025.tde-20012026-152622",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "O Custo do medo – o efeito da violência nas micro e pequenas empresas",
+        "source": "crossref",
+        "url": "https://doi.org/10.37811/cl_rcm.v6i4.2644",
+        "doi": "10.37811/cl_rcm.v6i4.2644",
+        "year": 2022,
+        "authors": [],
+        "venue": "Ciencia Latina Revista Científica Multidisciplinar",
+        "abstract": "Informações do SEBRAE dão conta que em 2021, as micro e pequenas empresas foram responsáveis por 27% do PIB, 52% dos empregos registrados e 40% dos salários pago. Somam 8,9 empresas nestas condições. De outro lado a violência se tornou um grande problema de saúde pública no Brasil. O objetivo dessa pesquisa é demonstrar o efeito da violência nas micro e pequenas empresas da cidade de Ipatinga – MG. A compreensão de como a violência é percebida pelas ciências sociais é de suma importância para a relação medo e empreendedorismo. Embora não seja o foco do presente artigo, entende-se que não é possível ir à diante sem o entendimento de como o efeito da violência em seus múltiplos aspectos afetam a sociedade como um todo. No que tange ao micro e pequeno empresário, o mesmo pode encerrar atividade além dos efeitos psicológicos. Para essa pesquisa foi utilizada um levantamento bibliográfico, seguida de pesquisa qualitativa e quantitativa. Utilizou-se aplicação de questionário e entrevistas das vitimas da violência (empresas assaltadas) e relatórios policiais, reportagens, relatório e entrevistas com a Associação Comercial, Industrial, Agropecuária e de Prestação de Serviços de Ipatinga (Aciapi).",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.37811/cl_rcm.v6i4.2644",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Asociacion Latinoamericana para el Avance de la Ciencia"
+        }
+      },
+      {
+        "title": "O Custo Benefício da Implementação da Controladoria nas Micro e Pequenas Empresas",
+        "source": "crossref",
+        "url": "https://doi.org/10.14295/idonline.v13i43.1465",
+        "doi": "10.14295/idonline.v13i43.1465",
+        "year": 2018,
+        "authors": [
+          "Jayny Andrade Joaquim",
+          "Maria Erilúcia Cruz Macêdo"
+        ],
+        "venue": "ID on line REVISTA DE PSICOLOGIA",
+        "abstract": "O objetivo desse trabalho é avaliar o custo benefício da controladoria nas micro e pequenas empresas, apresentando a importâncias desses empreendimentos na economia brasileira assim como as dificuldades encontradas para se manter no mercado. Logo, mostrar o conceito e como atua a controladoria nas entidades. Buscando analisar os benefícios gerados e os custos desembolsados. A metodologia realizada para elaboração esse artigo é baseado em pesquisas bibliográficas, elaborados a partir de livros e artigos científicos, a abordagem da pesquisa é de natureza qualitativa. De acordo com realização deste estudo foi observado que a controladoria pode trazer benefícios econômicos, através de controles de processamentos, analise para redução de custo, estratégias e na tomada de decisões. E o custo podem se apropriar de acordo com o porte das empresas. A controladoria pode ser um diferencial competitivo para as micro e pequenas empresas, ajudando na proteção dos ativos e na continuidade da entidade.",
+        "pdf_url": "https://idonline.emnuvens.com.br/id/article/viewFile/1465/2253",
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "10.14295/idonline.v13i43.1465",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Lepidus Tecnologia"
+        }
+      },
+      {
+        "title": "A Gestão Contábil Financera nas Micro e Pequenas Empresas",
+        "source": "crossref",
+        "url": "https://doi.org/10.20872/2447-8407/regmpe.v1n4p143-155",
+        "doi": "10.20872/2447-8407/regmpe.v1n4p143-155",
+        "year": 2016,
+        "authors": [
+          "W.M.B. Assis",
+          "R.A.T. Costa"
+        ],
+        "venue": "Revista de Empreendedorismo e Gestão de Micro e Pequenas Empresas",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.20872/2447-8407/regmpe.v1n4p143-155",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "Estrutura de capital de pequenas empresas: como os gestores de empresas brasileiras não listadas tomam suas decisões de estrutura de custo de capital",
+        "source": "crossref",
+        "url": "https://doi.org/10.48021/978-65-252-7917-6",
+        "doi": "10.48021/978-65-252-7917-6",
+        "year": 2023,
+        "authors": [
+          "B. FRANÇA"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.48021/978-65-252-7917-6",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "Dialética"
+        }
+      },
+      {
+        "title": "A SUSTENTABILIDADE NAS MICRO E PEQUENAS EMPRESAS",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.22679",
+        "doi": "10.17771/pucrio.acad.22679",
+        "year": 2015,
+        "authors": [
+          "PHILIP MACHADO MARTINS"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.22679",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "O USO DA CONTABILIDADE NAS EMPRESAS: UM ESTUDO EM MICRO E PEQUENAS EMPRESAS DO LEBLON",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.32973",
+        "doi": "10.17771/pucrio.acad.32973",
+        "year": 2018,
+        "authors": [
+          "RAFAEL FREIRE LEVY"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 6,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.32973",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "Gestão socioambiental para micro e pequenas empresas",
+        "source": "crossref",
+        "url": "https://doi.org/10.51795/9786526523001",
+        "doi": "10.51795/9786526523001",
+        "year": 2025,
+        "authors": [
+          "Cleiton Paiva"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.51795/9786526523001",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "Pedro e Joao Editores"
+        }
+      },
+      {
+        "title": "A PRÁTICA LOGÍSTICA NAS MICRO E PEQUENAS EMPRESAS: ESTUDO DE QUATRO EMPRESAS DO SEGMENTO",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.27057",
+        "doi": "10.17771/pucrio.acad.27057",
+        "year": 2016,
+        "authors": [
+          "BRUNO BARKI GAMEZ"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.27057",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "MODELO DE GESTÃO PROJETIZADO PARA MICRO E PEQUENAS EMPRESAS",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.74473",
+        "doi": "10.17771/pucrio.acad.74473",
+        "year": 2025,
+        "authors": [
+          "SONIA CRISTINA GONÇALVES"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.74473",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "Consultoria financeira: micro e pequenas empresas",
+        "source": "crossref",
+        "url": "https://doi.org/10.48021/978-65-252-0514-4",
+        "doi": "10.48021/978-65-252-0514-4",
+        "year": 2021,
+        "authors": [
+          "A. MORONI NETO"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.48021/978-65-252-0514-4",
+        "extra": {
+          "crossref_type": "book",
+          "publisher": "Dialética"
+        }
+      },
+      {
+        "title": "A Análise de Demonstrativos Financeiros: Uma Ferramenta para Tomada de Decisão nas Micro e Pequenas Empresas",
+        "source": "crossref",
+        "url": "https://doi.org/10.20872/2447-8407/regmpe.v1n5p114-127",
+        "doi": "10.20872/2447-8407/regmpe.v1n5p114-127",
+        "year": 2016,
+        "authors": [
+          "R.R. Santos"
+        ],
+        "venue": "Revista de Empreendedorismo e Gestão de Micro e Pequenas Empresas",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 6,
+        "work_type": "article",
+        "identifier": "10.20872/2447-8407/regmpe.v1n5p114-127",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "Contabilidade: Uma Ferramenta Necessária para as Micro e Pequenas Empresas",
+        "source": "crossref",
+        "url": "https://doi.org/10.20872/2447-8407/regmpe.v1n1p11-22",
+        "doi": "10.20872/2447-8407/regmpe.v1n1p11-22",
+        "year": 2016,
+        "authors": [
+          "R.A.T. Costa",
+          "S.F. Barbosa",
+          "R.S. Rodrigues",
+          "E.M. Rocha"
+        ],
+        "venue": "Revista de Empreendedorismo e Gestão de Micro e Pequenas Empresas",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.20872/2447-8407/regmpe.v1n1p11-22",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "Revista de Empreendedorismo e Gestão de Micro e Pequenas Empresas",
+        "source": "crossref",
+        "url": "https://doi.org/10.20872/2447-8407/regmpe",
+        "doi": "10.20872/2447-8407/regmpe",
+        "year": 2016,
+        "authors": [],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.20872/2447-8407/regmpe",
+        "extra": {
+          "crossref_type": "journal",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "Fatores financeiros determinantes da mortalidade de micro e pequenas empresas",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.12.2007.tde-30012008-094646",
+        "doi": "10.11606/d.12.2007.tde-30012008-094646",
+        "year": 2015,
+        "authors": [
+          "Carlos Alberto Ercolin"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.12.2007.tde-30012008-094646",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Indicadores sustentáveis aplicados às micro e pequenas empresas de software.",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/t.3.2022.tde-22082023-113759",
+        "doi": "10.11606/t.3.2022.tde-22082023-113759",
+        "year": 2023,
+        "authors": [
+          "Márcia Cristina Machado"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/t.3.2022.tde-22082023-113759",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de Sao Paulo, Agencia USP de Gestao da Informacao Academica (AGUIA)"
+        }
+      },
+      {
+        "title": "Inovação em micro e pequenas empresas: uma análise do caso brasileiro",
+        "source": "crossref",
+        "url": "https://doi.org/10.14393/ufu.di.2012.226",
+        "doi": "10.14393/ufu.di.2012.226",
+        "year": 2022,
+        "authors": [
+          "Adriano Maia"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.14393/ufu.di.2012.226",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "EDUFU - Editora da Universidade Federal de Uberlandia"
+        }
+      },
+      {
+        "title": "REMIPE - Revista de Micro e Pequenas Empresas e Empreendedorismo da Fatec-Osasco",
+        "source": "crossref",
+        "url": "https://doi.org/10.21574/remipe.v1i1",
+        "doi": "10.21574/remipe.v1i1",
+        "year": 2018,
+        "authors": [],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.21574/remipe.v1i1",
+        "extra": {
+          "crossref_type": "journal",
+          "publisher": "Remipe - Revista da Micro e Pequenas Empresas e Empreendedorismo"
+        }
+      },
+      {
+        "title": "Revista de Empreendedorismo e Gestão de Micro e Pequenas Empresas",
+        "source": "crossref",
+        "url": "https://doi.org/10.29327/237867",
+        "doi": "10.29327/237867",
+        "year": 2021,
+        "authors": [],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.29327/237867",
+        "extra": {
+          "crossref_type": "journal",
+          "publisher": "Even3"
+        }
+      }
+    ]
+  },
+  "count": 40,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:01:28.763926+00:00"
+}

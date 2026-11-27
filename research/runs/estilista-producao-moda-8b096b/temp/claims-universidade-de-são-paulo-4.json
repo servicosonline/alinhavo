@@ -1,0 +1,45 @@
+[
+  {
+    "claim": "Na confecção brasileira de jeans, a fabricação de uma calça consome 1,14 kg de tecido denim e gera uma peça pronta de 0,959 kg com 0,181 kg de resíduo sólido pré-consumo na etapa de corte industrial, representando uma perda de até 15,87% de tecido (convergente com a média industrial de 10% a 15% de desperdício no corte).",
+    "stance": "supports",
+    "stance_target": "O encaixe e o corte industrial concentram a maior geração de desperdício físico de matéria-prima (10% a 16%) após a criação e modelagem",
+    "evidence_type": "empirical",
+    "scope_conditions": "Produção industrial de jeans (denim 100% algodão) no Brasil",
+    "quoted_support": "Na produção de jeans, o processo começa com 1,14 kg de tecido denim e resulta, após o processo de fabricação, em uma calça com peso igual a 0,959 kg e 0,181 kg de resíduo, perdendo até 15,87 % de tecido (MORITA 2013).",
+    "numbers": [
+      "1,14 kg",
+      "0,959 kg",
+      "0,181 kg",
+      "15,87 %",
+      "10% e 15%"
+    ],
+    "entities": [
+      "Bárbara Contin",
+      "USP",
+      "Morita"
+    ],
+    "time_period": "2013-2023",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo-4"
+  },
+  {
+    "claim": "Embora os designers responsáveis pelo desenvolvimento de produto nas confecções paulistanas possuam conhecimento técnico sobre sustentabilidade, nas pequenas empresas o custo elevado dos materiais sustentáveis restringe o poder de escolha e aplicação pelo designer por limitar a competitividade comercial, enquanto pequenas, médias e grandes empresas relatam que o consumidor final não escolhe a peça por critérios de sustentabilidade.",
+    "stance": "supports",
+    "stance_target": "Estilistas e designers enfrentam bloqueio orçamentário e baixa disponibilidade têxtil ao tentar aplicar práticas sustentáveis na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Empresas de vestuário de moda de pequeno, médio e grande porte na cidade de São Paulo (SP)",
+    "quoted_support": "Quanto os custos, nas empresas menores eles afetam o poder de escolha e aplicação de materiais, uma vez que se demostra limitante no quesito competitividade mercadológica (VELENTURF, 2021), e em empresas de porte maior, a prática sustentável não aumentou seu faturamento ou diminui seu custo de manufatura.",
+    "numbers": [
+      "5 respondentes"
+    ],
+    "entities": [
+      "Bárbara Contin",
+      "USP"
+    ],
+    "time_period": "2023",
+    "region": "São Paulo, Brasil",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo-4"
+  }
+]

@@ -167,6 +167,26 @@ describe("cortar par e perna", () => {
     expect(legChecked).toBeGreaterThan(50);
   });
 
+  it("parte de cortar par ancorada na cintura que desce abaixo do gancho veste a perna correspondente mesmo sem leg explícito", () => {
+    const mesh = meshPiece(rect("p", 240, 700), { spacing: 25 });
+    const [esq, dir] = placeGarment(
+      [
+        { mesh, placement: { side: "frente", anchor: "cintura", offset: 0 }, half: "esquerda" },
+        { mesh, placement: { side: "frente", anchor: "cintura", offset: 0 }, half: "direita" },
+      ],
+      L,
+    );
+    for (let i = 0; i < mesh.positions.length / 2; i++) {
+      const y = esq![i * 3 + 1]!;
+      if (y < L.crotch.y - 20) {
+        const cEsq = legAt(L, "esquerda", y);
+        const cDir = legAt(L, "direita", y);
+        expect(Math.hypot(esq![i * 3]! - cEsq.x, esq![i * 3 + 2]! - cEsq.z)).toBeCloseTo(cEsq.r + PLACEMENT_CLEARANCE, 6);
+        expect(Math.hypot(dir![i * 3]! - cDir.x, dir![i * 3 + 2]! - cDir.z)).toBeCloseTo(cDir.r + PLACEMENT_CLEARANCE, 6);
+      }
+    }
+  });
+
   it("ombro é o alto da linha do ombro, junto do pescoço", () => {
     expect(anchorHeight(L, "ombro")).toBe(L.neck.y);
     expect(L.neck.y).toBeGreaterThan(L.shoulder.y);

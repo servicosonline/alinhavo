@@ -1,0 +1,60 @@
+# Source Analysis — USO DO LEAN MANUFACTURING PARA MELHORIA DOS PROCESSOS DE UMA INDÚSTRIA DE CONFECÇÃO DE VESTUÁRIO FEMININO (XLIV ENCONTRO NACIONAL DE ENGENHARIA DE PRODUÇÃO)
+
+**Original source:** [[xliv-encontro-nacional-de-engenharia-de-produção-2]]
+**Source type:** paper
+**Source word count:** 5082
+**Your judgment:** Estudo de caso empírico recente (ENEGEP 2024) que mapeia em detalhe a sobrecarga gerencial da proprietária e 7 dores operacionais de chão de fábrica em uma pequena confecção familiar no Nordeste.
+
+*Suggested by [[xliv-encontro-nacional-de-engenharia-de-produção-2]] — source analyst's digest of the full source body*
+
+## Thesis / Central claim
+Pequenas indústrias de confecção de vestuário sob gestão familiar sofrem com a centralização excessiva de decisões na figura do proprietário, o que gera sobrecarga gerencial, falta de autonomia operacional da equipe e invisibilidade das perdas no chão de fábrica. A aplicação estruturada de ferramentas básicas do Lean Manufacturing (Poka-Yoke, Kanban de produção com fichas técnicas, Gestão à Vista e 5S) guiada pelo ciclo PDCA permite descentralizar a rotina operacional, reduzir retrabalhos de costura e etiquetagem e dar visibilidade ao fluxo produtivo, embora esbarre em resistências culturais e recaídas na organização sem monitoramento contínuo e sistemas informatizados.
+
+## Methodology / Basis of claims
+Pesquisa qualitativa e descritiva no formato de estudo de caso único (pesquisa-ação estruturada pelo ciclo PDCA) em uma indústria de pequeno porte de confecção de vestuário feminino localizada em Feira de Santana (BA). A coleta de dados baseou-se em 5 visitas técnicas de observação direta do fluxo produtivo por setor e entrevistas semiestruturadas com a proprietária/gestora e com 1 colaborador de cada setor produtivo. Não há medição quantitativa de tempos cronometrados, taxas percentuais de defeito ou retorno financeiro antes/depois; a validação dos resultados (etapa *Check*) é inteiramente qualitativa, baseada em observação visual (registro fotográfico antes/depois) e feedback verbal da gestora e dos funcionários.
+
+## Key findings / Claims (with specific numbers where present)
+1. **Perfil típico da pequena confecção estudada (híbrido interna + facção terceirizada):** Empresa de vestuário feminino em Feira de Santana (BA) com 23 anos de mercado, faturamento concentrado 90% no atacado e 10% no varejo (atendendo BA, AL e PE), operando com 14 colaboradores internos e 13 terceirizados (total de 27 trabalhadores).
+2. **Centralização e sobrecarga da proprietária:** A proprietária atua como gestora desde a fundação (23 anos) e concentra todas as atividades críticas — compras, contratação de pessoal e desenvolvimento de peças — além das decisões operacionais diárias. Essa centralização impede a independência decisória dos colaboradores, sobrecarrega a dona e causa descontrole da produção e cegueira para desperdícios.
+3. **Falta de controle e invisibilidade das fichas de produção:** No setor de finalização, as fichas técnicas/de produção das peças ficavam guardadas dentro de uma pasta física, sem visibilidade nem fácil acesso para os operadores saberem prioridades ou status do lote.
+4. **Retrabalho recorrente por falha de costura e erro de etiquetagem:** A proprietária relata ocorrência frequente de retrabalhos originados na costura e, sobretudo, na etapa de dobra e etiquetagem, onde peças recebiam etiquetas com tamanho ou referência errados, gerando problemas diretos no momento da venda no atacado/varejo e necessidade de reprocessamento.
+5. ** Sete dores operacionais diagnosticadas no chão de fábrica (Tabela 1):** (i) peças com etiqueta com tamanho/referência errados; (ii) falta de controle na produção; (iii) falta de clareza do fluxo produtivo; (iv) falta de comunicação interna entre gerência e setores; (v) falta de clareza nas metas da empresa (os funcionários não sabiam quanto precisavam produzir no dia nem quanto faltava para a meta); (vi) falta de organização física da fábrica (especialmente no corte e almoxarifado); e (vii) falta de rotina de limpeza.
+6. **Intervenções de baixo custo aplicadas (*Do*):**
+   - *Poka-Yoke na mesa de etiquetagem:* plotagem de adesivo na mesa de dobra/etiquetagem dividido em 3 lacunas fixas (`P`, `M` e `G`, grade padrão da empresa) para induzir a separação física antes de etiquetar.
+   - *Quadro Kanban no setor de finalização:* substituição da pasta oculta por um quadro visual com 3 colunas (*A fazer*, *Fazendo*, *Feito*) onde as próprias fichas de produção circulam como cartões Kanban.
+   - *Gestão à Vista e metas diárias:* implantação de mural de comunicação interna, gráficos de produção acumulada versus meta e quadro de lançamento diário no setor de finalização.
+   - *Programa 5S no setor de corte e fábrica:* organização de bancadas e materiais com previsão de auditorias mensais.
+7. **Alívio da sobrecarga gerencial pós-intervenção (*Check*):** A visibilidade das metas e do fluxo pelo Kanban e Gestão à Vista permitiu que os colaboradores compreendessem suas próprias atividades sem depender de direcionamento constante, proporcionando descentralização operacional e redução da sobrecarga da proprietária.
+8. **Dificuldade de manutenção cultural e recaída operacional (*Check* / *Action*):** Após a implementação inicial, a fábrica voltou a apresentar materiais armazenados de forma desorganizada no almoxarifado e nos setores, e a limpeza periódica deixou de ser cumprida por falta de comprometimento da equipe e ausência de funcionário exclusivo de limpeza (exigindo criar escala fixa, contratar diarista/terceirizado mensal e instituir premiação em forma de lanche para o setor com menos pontos negativos na auditoria).
+9. **Carência de sistema informatizado de produção:** Os autores apontam nas considerações finais que o controle manual por quadros físicos ainda é limitado e que a empresa carece de um sistema informacional e automatizado para coleta de dados de produção, geração confiável de relatórios e análise gerencial, além de treinamento gerencial para a própria dona.
+
+## Load-bearing citations / sources this source depends on
+- **ABIT (2021)** — *Perfil do setor (dados de 2019 atualizados em ago/2021)*: usado para ancorar os números macro do setor (25,5 mil empresas têxteis/confecção no Brasil e ~1,5 milhão de trabalhadores diretos).
+- **Mendonça, Almeida & Baze (2020)** — *Gerenciamento da cadeia de suprimentos como modelo para alcance de competitividade no setor têxtil (EIGEDIN)*: sustenta que micro e pequenas empresas predominam na confecção com baixo grau de tecnologia, capacidade limitada e gerência familiar.
+- **Bittar, Serio & Vasconcellos (2018)** — *Micro e pequenas empresas inovadoras: evidências em empresas paulistanas (REGEPE)*: sustenta os entraves estruturais das MPEs (conhecimento técnico limitado, dependência de fornecedores locais, restrição de crédito para inovação, infraestrutura física inadequada e carência de mão de obra qualificada e comprometida).
+- **Lazzarin (2019)** — *Aplicação do lean office para micro e pequenas empresas (IX CONBREPRO)*: sustenta o argumento central de que a gestão familiar centralizada no proprietário impede o controle por etapa e oculta perdas e desperdícios.
+- **Bento, Gomes & Tontini (2019)** — *O impacto da cultura organizacional no sucesso do Lean Manufacturing (Revista GEPROS)*: sustenta a análise da recaída operacional por falta de cultura organizacional e monitoramento contínuo da liderança.
+
+## Caveats, limitations, contradictions
+- **Ausência total de métricas quantitativas de impacto:** Embora o artigo afirme que houve redução de erros de etiquetagem, redução de desperdícios e aumento de eficiência, não apresenta nenhum indicador numérico antes/depois (ex.: taxa de defeitos, lead time, produtividade diária em peças/hora). Todos os resultados são reportados de forma puramente qualitativa/perceptiva.
+- **Estudo de caso único com janela curta de observação:** Baseado em 5 visitas técnicas a uma única fábrica em Feira de Santana (BA); os próprios autores alertam na Seção 5 que as soluções não são generalizáveis sem diagnóstico prévio.
+- **Foco restrito ao chão de fábrica interno (finalização e corte):** Apesar de mencionar que a empresa possui 13 colaboradores terceirizados (quase metade da força de trabalho de 27 pessoas), o artigo não analisa como funciona o controle, o envio de lotes ou os problemas de qualidade com essas facções externas.
+
+## Relevance to research_query
+Esta fonte é diretamente relevante (**useful / load-bearing para o eixo de gestão operacional e rotina do proprietário**) para responder à query sobre as necessidades e dificuldades de um proprietário de confecção. Ela documenta empiricamente, no contexto brasileiro recente (2024), o "paradoxo do dono de pequena confecção": a proprietária acumula compras, RH e desenvolvimento de produto (modelagem/criação) enquanto tenta microgerenciar o chão de fábrica sem ferramentas visuais ou digitais. Além disso, expõe dores concretas e cotidianas que conectam o desenvolvimento do produto à produção: fichas técnicas guardadas em pastas sem visibilidade no chão de fábrica, erros básicos de identificação de grade (`P/M/G`) e referência na finalização que chegam até a venda, desconhecimento das metas diárias pelos operadores e a dificuldade crônica de manter disciplina operacional (5S, organização de almoxarifado e corte) com equipe enxuta.
+
+## Extracted quotes
+> "A gestora da empresa é a proprietária, que exerce essa função desde a fundação da empresa, sendo responsável por atividades de maior responsabilidade, como compras, contratação de pessoal e desenvolvimento de peças."
+Contexto: Seção 4 (p. 4), descrevendo o acúmulo de funções estratégicas e técnicas na pessoa da proprietária em uma confecção de 14 funcionários internos e 13 terceirizados.
+
+> "Após a aplicação das entrevistas foi possível perceber que a tomada de decisões está basicamente concentrada na gestora da empresa e que esse posicionamento impede a independência na tomada de decisões por parte dos colaboradores. Tal realidade, dificulta o controle do processo produtivo em pequenas empresas, já que a gestão familiar centralizada dificulta a identificação de perdas existentes (LAZZARIN, 2019). Por conta disso, existe uma sobrecarga de atividades na gestora, que se tornou responsável por muitas decisões o que muitas vezes, resulta no descontrole da produção e ocorrência de desperdícios."
+Contexto: Seção 4.1 (p. 6), diagnóstico central sobre como a centralização na dona gera sobrecarga pessoal e perda de controle produtivo.
+
+> "Além disso, foi apontado a ocorrência de retrabalhos que em sua maioria são derivados tanto da produção da costura, como da falta de atenção na etapa de etiquetagem da peça. Segundo a gestora, a ocorrência de peças com etiquetas com referência errada é recorrente, o que gera problemas no momento da venda e atividades de retrabalho."
+Contexto: Seção 4.1 (p. 7), detalhando as fontes principais de retrabalho no chão de fábrica e seu impacto comercial direto.
+
+> "Esse quadro foi implantado no setor de finalização, onde as fichas das peças ficavam armazenadas em uma pasta, sem muita visualização e fácil acesso."
+Contexto: Seção 4.2.2 (p. 8), evidenciando a precariedade do controle de ordens/fichas de produção antes do quadro Kanban.
+
+> "Apesar dos resultados das melhorias identificadas, percebeu-se pontos em que as propostas implementadas não tiveram resultados como o esperado, como a existência de materiais armazenados dispostos de maneira desorganizada novamente, assim como a limpeza dos setores não estava ocorrendo de maneira periódica como deveria. Identificou-se que ainda persistia a falta de comprometimento de alguns setores com a limpeza, desorganização de determinados materiais do almoxarifado e demais materiais de trabalho armazenados nos setores."
+Contexto: Seção 4.3 (p. 11), mostrando a dificuldade real do proprietário em sustentar a organização física e o comprometimento da equipe no dia a dia da fábrica.

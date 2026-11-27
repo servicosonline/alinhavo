@@ -1,0 +1,54 @@
+[
+  {
+    "claim": "Dezembro 2022, vol.10, num.5 - 14º Congresso Brasileiro de Pesquisa e Desenvolvimento em Design Artigo - Open Access Idioma principal;) | Segundo principal;) # Produtos de vestuário: avaliando hipóteses de problemas de vestibilidade # Apparel products: evaluating hypotheses of wearability problems No mercado do vestuário, são comuns as queixas relacionadas à peças que causam desconforto, ficam apertadas e sem caimento.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Produtos de vestuário: avaliando hipóteses de problemas de vestibilidade - Blucher Proceedings",
+    "quoted_support": "Dezembro 2022, vol.10, num.5 - 14º Congresso Brasileiro de Pesquisa e Desenvolvimento em Design Artigo - Open Access Idioma principal;) | Segundo principal;) # Produtos de vestuário: avaliando hipóteses de problemas de vestibilidade # Apparel products: evaluating hypotheses of wearability problems No mercado do vestuário, são comuns as queixas relacionadas à peças que causam desconforto, ficam apertadas e sem caimento.",
+    "numbers": [
+      "2022,",
+      "10,",
+      "5"
+    ],
+    "entities": [
+      "Produtos de vestuário: avaliando hipóteses de problemas de vestibilidade - Bluch"
+    ],
+    "time_period": "2016-2026",
+    "region": "Brasil",
+    "confidence": "medium",
+    "source_note_id": "produtos-de-vestuário-avaliando-hipóteses-de-problemas-de-vestibilidade-blucher"
+  },
+  {
+    "claim": "Procurando ampliar seus consumidores, empresas costumam amparar-se em medidas baseadas na média corporal da população, muitas vezes, não condizendo com os usuários.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Produtos de vestuário: avaliando hipóteses de problemas de vestibilidade - Blucher Proceedings",
+    "quoted_support": "Procurando ampliar seus consumidores, empresas costumam amparar-se em medidas baseadas na média corporal da população, muitas vezes, não condizendo com os usuários.",
+    "numbers": [],
+    "entities": [
+      "Produtos de vestuário: avaliando hipóteses de problemas de vestibilidade - Bluch"
+    ],
+    "time_period": "2016-2026",
+    "region": "Brasil",
+    "confidence": "medium",
+    "source_note_id": "produtos-de-vestuário-avaliando-hipóteses-de-problemas-de-vestibilidade-blucher"
+  },
+  {
+    "claim": "Este artigo, procura levantar dados acerca dos principais problemas de vestibilidade encontradas pelos usuários, e, a partir daí, avaliar três hipóteses: Qualquer biotipo que não corresponda ao formato priorizado pelo setor de produção tem problemas de vestibilidade; Quanto maior a diferença corporal em relação ao modelo adotado como base para criação dos produtos, maiores serão as percepções de problemas; e, Os problemas tendem a estar localizados na parte do tronco do usuário.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Produtos de vestuário: avaliando hipóteses de problemas de vestibilidade - Blucher Proceedings",
+    "quoted_support": "Este artigo, procura levantar dados acerca dos principais problemas de vestibilidade encontradas pelos usuários, e, a partir daí, avaliar três hipóteses: Qualquer biotipo que não corresponda ao formato priorizado pelo setor de produção tem problemas de vestibilidade; Quanto maior a diferença corporal em relação ao modelo adotado como base para criação dos produtos, maiores serão as percepções de problemas; e, Os problemas tendem a estar localizados na parte do tronco do usuário.",
+    "numbers": [],
+    "entities": [
+      "Produtos de vestuário: avaliando hipóteses de problemas de vestibilidade - Bluch"
+    ],
+    "time_period": "2016-2026",
+    "region": "Brasil",
+    "confidence": "medium",
+    "source_note_id": "produtos-de-vestuário-avaliando-hipóteses-de-problemas-de-vestibilidade-blucher"
+  }
+]

@@ -1,0 +1,1059 @@
+{
+  "ok": true,
+  "data": {
+    "query": "fashion designer role responsibilities challenges small medium enterprises apparel",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 25,
+      "crossref": 25,
+      "doab": 0
+    },
+    "raw_records": 50,
+    "merged_records": 49,
+    "returned": 49,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Conceptualizing Social and Environmental Responsibility and Its Challenges in Small and Micro Fashion and Apparel Enterprises",
+        "source": "openalex",
+        "url": "https://doi.org/10.3390/su18021050",
+        "doi": "10.3390/su18021050",
+        "year": 2026,
+        "authors": [
+          "Anne Léger",
+          "Jocelyn Bellemare",
+          "James Lapalme"
+        ],
+        "venue": "Sustainability",
+        "abstract": "This study explores how small and micro fashion and apparel enterprises (SMFAEs) conceptualize and structure social and environmental responsibility within an industry characterized by fragmented supply chains and limited institutional guidance. A qualitative, exploratory case study design examined four Québec-based enterprises through semi-structured interviews; these were analyzed using a hybrid thematic approach interpreted through stakeholder and legitimacy theories. The findings reveal three interdependent dimensions of responsible entrepreneurship: foundational commitments rooted in personal values; organizing mechanisms combining formal tools and informal learning to support continuous improvement; and contextual constraints related to sourcing and systemic opacity. The study advances understanding of early-stage responsibilization as a dynamic alignment between conviction, method, and feasibility. It contributes an integrative model that reframes sustainability from a compliance-oriented goal to an adaptive practice grounded in dialogue and learning. This perspective shows that meaningful sustainability emerges not from universal standards alone but from strengthening everyday human-scale processes of collaboration and adaptation.",
+        "pdf_url": "https://www.mdpi.com/2071-1050/18/2/1050/pdf?version=1768915725",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W7124983043",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "MDPI AG",
+          "openalex_type": "article",
+          "oa_status": "gold",
+          "also_in": "openalex,crossref"
+        }
+      },
+      {
+        "title": "Financing Ceramic Artists and Fashion Designers in Small and Medium Scale Enterprises (SMEs) in Sekondi-Takoradi, Ghana",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.37745/ijsber.2013/vol11n3111",
+        "doi": "10.37745/ijsber.2013/vol11n3111",
+        "year": 2023,
+        "authors": [
+          "Ophelia O. Mefful",
+          "Kofi Asante-Kyei",
+          "John Mefful"
+        ],
+        "venue": "International Journal of Small Business and Entrepreneurship Research",
+        "abstract": "Small and Medium Scale Enterprises (SMEs) face numerous financial challenges in their contribution towards the socio-economic development in Ghana. As a result, most ceramic artists and fashion designers in SMEs often are confronted with global economic crisis and are unable to grow their businesses to become big firms. The general objective of the study was to investigate the funding challenges facing Ceramic Artists and Fashion designers who owned small and medium scale enterprises in Ghana as well as examined what could be done to help mitigate these challenges. The study adopted purposive sampling technique to select forty (40) respondents comprising twenty (20) ceramic artists and twenty (20) fashion designers who owned SMEs within Sekondi -Takoradi Metropolis. Questionnaires and interview schedules were developed and used to collect data from the sampled ceramic and fashion enterprises. Statistical techniques such as mean and percentages were used to analyze the data collected while descriptive analysis was used to generate graphs, charts and tables. It was established that some of the financial challenges facing ceramic artists and fashion designers in Sekondi-Takoradi metropolis included financial constraints such as raising capital in starting the business, lack of collateral, the fear of taking risk, high cost of lending, the demand for collateral by banks and micro finance as well as the delay in the processing of loans to access credit. The study concluded by recommending among others that, loan acquisition processes could be shorter and simple. Additionally, low interest and financial training could be given to the ceramic artists and fashion designers to aid them in keeping proper financial records so as to sustain their art businesses.",
+        "pdf_url": "https://eajournals.org/ijsber/wp-content/uploads/sites/85/2023/08/001.pdf",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W4388370600",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Sustainability passion in fashion : Challenges and Opportunities for Small and Medium-sized Swedish Apparel Brands when Working with Corporate Social Responsibility in their Global Supply Chain",
+        "source": "openalex",
+        "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:su:diva-108845",
+        "doi": null,
+        "year": 2014,
+        "authors": [
+          "Erik Weidstam"
+        ],
+        "venue": "DiVA (Stockholm University)",
+        "abstract": "The overall economic development during the nineteenth and twentieth century has left us with an interconnected global society. However, the pollution does not adhere to the boundaries of nation-states. Therefore, the sustainability issue calls for holistic solutions on all levels of society, from individuals to states, large NGOs, and in particular the companies that produce the goods we consume. Corporate initiatives on this matter are usually referred to as Corporate Social Responsibility, or CSR. Many large corporations have been under scrutiny from different stakeholders ever since the early 1990’s and it is no longer possible for them to neglect their responsibility for i.e. pollution or human rights. However, smaller actors do not receive as much attention as their larger competitors, due to lower stakeholder awareness. With this background, this master thesis aims at investigating how small to medium-sized enterprises (SMEs) within the apparel industry in Sweden perceive their opportunities and challenges when working with CSR in their global supply chain. Thus, the thesis hopes to help bridge a scientific gap, and also connects to Supply Chain Management, SCM. This was accomplished through a literature review that identified and categorized different aspects of the problem. Following this, a multiple-case study with eight different brands was carried out, interviewing representatives from the organizations. The results show, among other things, that for SMEs, top management and/or owner values and commitment are of significant importance. This is in line with the literature. On the other hand, aspects like difficulties with language and cultural barriers were not an issue, contrary to the current academic research on SMEs. This was said to be due to the organizations extensive implementation or use of social capital through long-lasting business relations, which is another characteristic of the SME sector identified by the literature. Existing industry initiatives and cooperation between brands can work, but external help to manage these projects is essential for their success. Available Environmental Management Systems (EMS) on the other hand are often considered too expensive, time-consuming or unknown to end-consumers to be implemented. On the contrary, harsher government regulation and enforcement, both in Sweden as well as in the production countries are advocated. This is particularly noticeable, since generally, private sector representatives tend to be against government regulations.",
+        "pdf_url": "https://su.diva-portal.org/smash/get/diva2:760885/FULLTEXT01",
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W2123532020",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Constructing a fashion managerial skills competency framework in Small-Medium Enterprise fashion business in Malaysia",
+        "source": "openalex",
+        "url": "http://psasir.upm.edu.my/id/eprint/120817/1/120817.pdf",
+        "doi": null,
+        "year": 2023,
+        "authors": [
+          "Kamarulzaman, Zulina"
+        ],
+        "venue": "Universiti Putra Malaysia Institutional Repository (Universiti Putra Malaysia)",
+        "abstract": "Entrepreneurs in the fashion industry face significant challenges in acquiring and practicing business skills and competencies. The purpose of this study is to identify the skill requirements that fashion design entrepreneurs (FDE) need to succeed in a competitive business environment. Having a diverse set of skills is essential for FDE to ensure the efficient functioning, stability, and long-term success of the company. This study adopted a qualitative methodology in which fashion experts assessed a series of questions. The data collection process involved virtual focus group discussions, interviews, and question-and-answer sessions with fashion design entrepreneurs, established fashion industry professionals, and government employees who support and train FDEs. Study data were analysed using NVivo12 software to extract codes and themes that led to the final results, and descriptive analysis was performed using SPSS statistical software. This study identifies five essentials for successful business management: mastering personal leadership, competent design management, competent financial management, efficient human resource management, and strong networking skills. The importance of the elements is emphasised. The Fashion Design Entrepreneurs' Managerial Sustainability Framework (FDEMARS) research framework was developed based on key findings. The research framework was validated by a group of 30 fashion-related industry experts, including fashion design entrepreneurs, academic experts specialising in fashion and textiles, as well as industry representatives. The validation process yielded positive results. Experts agreed that FDEMARS is a comprehensive and effective tool for FDEs of different business ability levels. In conclusion, this paper highlights the importance of incorporating business skills management into the FDE function to improve effectiveness and address the various issues faced by the country's economic fashion industry.",
+        "pdf_url": "http://psasir.upm.edu.my/id/eprint/120817/1/120817.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7111938429",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Women and apparel entrepreneurship: An exploration of small business challenges and strategies in three countries",
+        "source": "openalex",
+        "url": "https://doi.org/10.1108/ijge-07-2014-0021",
+        "doi": "10.1108/ijge-07-2014-0021",
+        "year": 2015,
+        "authors": [
+          "Nancy Nelson Hodges",
+          "Kittichai Watchravesringkan",
+          "Jennifer Yurchisin",
+          "Elena E Karpova",
+          "Sara B. Marcketti",
+          "Jane E. Hegland",
+          "Ruoh‐Nan Yan",
+          "Michelle Lynn Childs"
+        ],
+        "venue": "International Journal of Gender and Entrepreneurship",
+        "abstract": "Purpose – The purpose of this study was to explore strategies used by successful female entrepreneurs to manage the challenges of running a small apparel business. Design/methodology/approach – A qualitative research design was used. Primary and secondary data were collected on small business in three countries: Russia, South Africa and Thailand. In-depth interviews were conducted with a total of 11 female small apparel business owners. Businesses ranged from tailoring and custom clothing shops, to small-scale design and production, as well as small apparel retail stores. Findings – Three emergent themes highlight the similarities and differences that surfaced across the participants’ narratives. Key issues within the thematic areas point to the need for these women to be creative in finding resources to start and grow their small apparel businesses, and to manage the competition that they face within this industry. Research limitations/implications – It is difficult to generalize the findings of this study beyond the sample. Implications of the findings for understanding the needs of female apparel entrepreneurs and small business owners are considered. Originality/value – Despite the significance of women to the apparel industry as well as small business ownership, thus far, the role of women as apparel entrepreneurs and small business owners has been under-examined in the literature. This study offers insight into what it is like for women seeking to succeed as apparel entrepreneurs and small business owners.",
+        "pdf_url": "http://libres.uncg.edu/ir/uncg/f/E_Karpova_Women_2015.pdf",
+        "citation_count": 66,
+        "work_type": "article",
+        "identifier": "W1482772128",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Fashion Upcycling: The Fashion Upcycling: The Challenges, Successes, and Solutions From A Designers Perspective",
+        "source": "openalex",
+        "url": "https://doi.org/10.32920/ryerson.14649336",
+        "doi": "10.32920/ryerson.14649336",
+        "year": 2022,
+        "authors": [
+          "Jennifer Dares"
+        ],
+        "venue": null,
+        "abstract": "Upcycling is a design practice that uses pre-consumer textile waste from apparel manufacturers or post-consumer textile waste derived from disassembled garments to create new fashion, providing a sustainable design solution to divert textile waste from landfills. Although Canadian data is scarce, Weber, Lynes and Young (2016) have determined that textile waste in the United States contributed 11.3 million tonnes to landfills in 2009, a 40% increase since 1999. This comparative case study was designed to include a literature review of past academic research, a demographic questionnaire, and interviews with Canadian fashion companies who practice upcycling. The objective of this study was to examine the challenges faced by companies that upcycle and the strategic solutions they integrated into their business models. The findings from this research study contribute to knowledge regarding strategies for designing, producing, and retailing upcycled fashion in Canada and on a global scale.",
+        "pdf_url": "https://rshare.library.torontomu.ca/articles/thesis/Fashion_Upcycling_The_Fashion_Upcycling_The_Challenges_Successes_and_Solutions_From_A_Designers_Perspective/14649336/1/files/28129545.pdf",
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "W3210631018",
+        "extra": {
+          "openalex_type": "other",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Circular Fashion in the Apparel and Textile Industry A Systematic Review of Innovations and Challenges",
+        "source": "openalex",
+        "url": "https://doi.org/10.71317/kjard.2.6.2026.290",
+        "doi": "10.71317/kjard.2.6.2026.290",
+        "year": 2026,
+        "authors": [
+          "Rizwan Munir",
+          "Ayesha Hussain",
+          "Fareeha Khan",
+          "Muhammad Muddasar Mehmood",
+          "Tayyab Raza"
+        ],
+        "venue": "Kashmir Journal of Academic Research and Development",
+        "abstract": "The situation of the fashion industries linear “take make dispose” model has caused an environmental crisis involving overuse of water, large GHG emissions (4 to 10% of global GHGs), resource depletion, and massive textile waste (92 million tonnes per year). Synthetic fibres account for 35% of ocean microplastic and conventional manufacturing processes uses ecosystem and explores finite resources. Circular fashion offers a revolutionizing alternative that focuses on design to last, resource efficiency and closed loop recycling, and new business models such as resale and rental. The second paradigm is oriented towards environmental protection, decreasing resource consumption, emission and waste, and also opens economic opportunities, with the second-hand market growing to the size of 350 billion dollars by 2050. In line with these pivotal Sustainable Development Goals, circular fashion provides a systematic answer to the growth of the industry and the parliamentary boundaries that need joint action from everyone interested in the sector to send towards a waste-free future.",
+        "pdf_url": "https://rjsaonline.org/index.php/KJARD/article/download/290/433",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7171457075",
+        "extra": {
+          "openalex_type": "review",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Innovating the apparel industry in the United States: Designers and small brands purchasing sustainable textiles",
+        "source": "openalex",
+        "url": "https://lib.dr.iastate.edu/cgi/viewcontent.cgi?article=8477&context=etd",
+        "doi": null,
+        "year": 2019,
+        "authors": [
+          "Jennifer Siobhan Ingram"
+        ],
+        "venue": "Iowa State University Digital Repository (Iowa State University)",
+        "abstract": "The purpose of this study was to explore the purchasing practices of designers and small apparel brands in the United States regarding sustainable textiles. In this study, sustainable textiles was defined as textiles composed of fibers that reduce negative environmental and social impact. Small apparel brands was defined as businesses of five or fewer full-time employees that produce small or large batch units or apparel to sell to stores or on a website to consumers. Due to the magnitude of environmental and social problems attributed to the apparel industry, both academic and industry literature have stressed the need to integrate sustainability into the entire product development pipeline, starting with textile selection. The purchasing of sustainable textiles by small apparel brands can be viewed as an innovative business practice. Rogers’ (2003) diffusion of innovation (DOI)- decision process provides a framework to understand the knowledge, persuasion, decision, implementation, and confirmation of designers and small apparel brands purchasing of sustainable textiles. The innovation-decision perspective explains how and why new ideas spread, and the factors that influence purchase decisions concerning new and alternative materials such as sustainable textiles. Numerous publications call for designers to function as change agents (innovators) regarding sustainability and convey that small businesses can potentially implement such practices quickly. Various studies have attempted to explain why small apparel brands do not purchase sustainable textiles, but few explain why some brands do purchase such materials. Other research has addressed large United States apparel brands that have engaged in sustainable textiles, but small apparel brands have been largely ignored. Thus, a gap exists in the literature concerning what innovative sustainable textiles are being used by small apparel brands and designers, sectors that constitute a majority of the United States apparel industry. This qualitative study used a semi-structured interview methodology to gather responses from 14 designers or employees of small apparel brands in the United States and have purchased sustainable textiles. Participants were solicited by contacting the brands directly, posting an invitation in Facebook sustainable fashion groups, and by contacting designers directly through professional networks such as LinkedIn and the International Textile and Apparel Association. Data were analyzed using MAXQDA qualitative data analysis software. The findings show that designers and small apparel brands do indeed function as change agents by integrating many different types of natural and manufactured sustainable textiles into materials selected for garment design and production. Most purchased these textiles because they strive to make an environmental and social impact by making sustainable textile selection as a priority. Knowledge and relative advantage of sustainable textiles and processes were key factors that positively influenced purchasing decisions. On the contrary, the factors that negatively influenced purchasing were complexity, trialability, and observability. Findings show that through independent research, designers and small apparel brands purchase textiles composed of sustainable fibers, or made through sustainable processes, online and directly from mills at tradeshows. This research increases not only awareness knowledge, principle knowledge, and how-to knowledge, but develops a list of sustainability terms and textiles used by designers and small apparel brands. Further research can include developing a data base for sourcing with pricing and minimum order quantities, providing a labeling system for products, and creating infrastructure for biodegrading and recycling textiles. Additional research may include further refinement of a working definition for sustainable textiles and adding environmental and social responsibility to the DOI sub-dimensions of relevant advantage within the perceived characteristics of the diffusions of innovation-decision process. This research also contributes to the fashion industry by providing practical methods for students, sewers, educators, designers, and small apparel brands to adopt sustainable textiles.",
+        "pdf_url": "https://lib.dr.iastate.edu/etd/17470",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W2990805814",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "WAGE STRUCTURE AND SCALE DESIGN FOR SMALL APPAREL ENTERPRISES IN BOGOR REGENCY",
+        "source": "openalex",
+        "url": "https://doi.org/10.30998/jabe.v13i1.4894",
+        "doi": "10.30998/jabe.v13i1.4894",
+        "year": 2026,
+        "authors": [
+          "Donita Fahdini Amalina",
+          "Lindawati Kartika"
+        ],
+        "venue": "JABE (Journal of Applied Business and Economic)",
+        "abstract": "The apparel industry subsector is one of the largest sources of employment in Indonesia's manufacturing sector, yet small enterprises in this subsector generally lack a structured wage system, leaving pay decisions largely informal. Existing studies on wage structure and scale design have mostly examined other sectors or used point system and double-scale methods, leaving a gap in research applying the two-point method to small apparel enterprises. This study analyzed job positions, examined compensation based on pay for person, position, and performance compared with external job titles, and designed a wage structure and scale for ten small apparel enterprises in Bogor Regency using primary data from interviews and questionnaires, analyzed descriptively and through job evaluation and the two-point method. The analysis identified ten core positions, with the sewing machine operator driving the main production process. Compensation practices varied and relied mainly on base pay, and although wage strategies differed across enterprises, most internal median wages remained below external market medians, except for the sewing machine operator. The proposed structure produced spread values ranging from 64–126% for staff, 130% for supervisory, and 133% for managerial positions, placing all wages within an equitable range and offering a practical, regulation-compliant reference for small apparel enterprises.",
+        "pdf_url": "https://newjournal.lppmunindra.ac.id/index.php/JABE/article/download/4894/1078",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7225325286",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Sustainability in fashion supply chains: Examining the dynamics of small and medium enterprise sustainability in fashion industry multitier supply chains",
+        "source": "openalex",
+        "url": "https://eresearch.qmu.ac.uk/handle/20.500.12289/11165",
+        "doi": null,
+        "year": 2020,
+        "authors": [
+          "Croos Moraes",
+          "Joseph Tivanka"
+        ],
+        "venue": "Queen Margaret University Publications Repository (Queen Margaret University)",
+        "abstract": "Sustainability in supply chain management (SSCM) has become established in both academia and increasingly in practice (Fraser, Müller and Schwarzkopf, 2020). As stakeholders continue to require organisations to take more responsibility for their entire supply chains, this has led to the development of multitier SSCM. Despite small and medium enterprises’ (SMEs’) pivotal impact on the global economy, environmental and social responsibility commitments and SSCM have been largely overlooked (Chow et al., 2017). Little attention has been paid to the convergence of sustainability dimensions in SMEs. This thesis examines how sustainability-inspired SMEs in the fashion industry in Scotland implement sustainability and diffuse sustainability across the diverse supply chain. This leads to an investigation of the factors that influence sustainability practices along the supply chain and practices adopted to verify sustainability in the supply chain, with an overall view to improving multidimensional performance. This research adopts an exploratory multiple case study approach that combines multiple data sources: semi-structured interviews, observation, and secondary data analysis. The empirical study includes two SME fashion retailers registered in Scotland and their respective supply chain partners. This thesis contributes to SSCM research in SMEs by exploring from both the conceptual and empirical points of view, investigating fashion SMEs’ sustainability and SSCM and developing a conceptual sustainability performance rating model. This conceptual model uses multidimensional sustainability measurement criteria derived from the literature to determine sustainability performance levels from the farm to the retailer. Evaluation of the supply chain is likely to aid supplier selection, sustainability comparison and transparency. The investigated fashion SMEs and their supply chains are used to exemplify the usefulness of the proposed conceptual sustainability performance model. Based on the supply chains investigated, both retailers’ sustainability performances are similar, while one supply chain outperformed the other. In addition, the research findings show that SME retailers face the greatest challenge in managing supply chain sustainability, while the most influential suppliers can develop creative approaches to diffuse sustainability within the supply chain. This thesis suggests that there is considerable need for further qualitative research and the proposed model perhaps needs to be implemented in various business models to evaluate its validity.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W3159129729",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Shaping the Climate Action trajectory within the Fashion Industry : a case study of a Small Medium Sized Enterprise",
+        "source": "openalex",
+        "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-388637",
+        "doi": null,
+        "year": 2019,
+        "authors": [
+          "Marta Karen Kristjónsdóttir"
+        ],
+        "venue": "Uppsala University Publications (Uppsala University)",
+        "abstract": "The apparel and footwear industry’s contribution to global greenhouse gas (GHG) emissions is one of the fifth largest per industry, equal to that of livestock, after electricity and heat, oil and gas, agriculture, and transportation (Ellen MacArthur Foundation, 2017). For industry-wide emissions reduction, investing in renewable energy and energy efficiency programs across highest impacting life cycle phases offer the most effective solution. However, identifying the highest impacting life cycles phases shows varied results depending on the particular type of business model under examination. This paper responds to the lack of existing data and empirical research on how to accurately measure, report and reduce carbon emissions across the highly complex and globally interconnected apparel value chain. This is done through a single case study investigation of an Icelandic fashion brand. A hybrid approach of a standard Life Cycle Assessment (LCA) and the Sustainable Global Value Chain (SGVC) functions to produce a Hotspot Identification Tool (HIT) to establish a holistic portrayal of business operations in relation to emission impacts and level of controllability across Scopes. The conceptual analysis and qualitative results identify the most relevant emission hotspots to lie within the company’s privately owned manufacturing facilities, as well as the procurement phase, due to its direct connection with and influence on material production, user phase, and end-of-life. The main obstacle in this pursuit is identified as restriction of resources in terms of time, capital and expertise. It is suggested that this be overcome by joining a Multi-Stakeholder Initiative where resources and expertise is pooled in a pre-competitive manner to reach common objectives. The investigation further suggests a need for global fashion brands to leverage their influential position on down- and upstream activities across the value chain, i.e. with their supply chain partners and consumers. I argue that fashion brands play an integral role in supporting local efforts to build a decarbonisation pathway towards climate neutral economies on a global scale.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W3036413536",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Redesign and upcycling – a solution for the competitiveness of small and medium-sized enterprises in the clothing industry",
+        "source": "openalex",
+        "url": "https://doi.org/10.35530/it.069.01.1417",
+        "doi": "10.35530/it.069.01.1417",
+        "year": 2018,
+        "authors": [
+          "Sunhilde Cuc",
+          "Simona Tripa"
+        ],
+        "venue": "Industria Textila",
+        "abstract": "The paper aims to open a new field of research applicable to small and medium enterprises in the clothing industry, namely, the focus on new product design by increasing the efficiency of fabric use and recycling and a value chain perspective that concentrates on downstream in the chain. The main objective of this paper is to present how small and medium-sized enterprises (SMEs) in the clothing industry can achieve a competitive advantage by using a sustainable approach. This study provides useful solutions for understanding the product development processes for fashion to rethink, reuse or upcycle the waste in the production stage. We propose a better connection between different links of the value chain: design, production, marketing to create fashion items so when possible, this waste to be used to make new products and highlights the advantages of implementing this solution. Sustainable production can be a way of gaining a competitive advantage. This strategy can be successful by integrating the vertical value chain by strengthening the creative department, fashion design, and involvement in marketing and sales. In the clothing industry, the strategy of integrating design and retail can lead to a more flexible design process and, therefore, to an increased product performance.",
+        "pdf_url": "https://doi.org/10.35530/it.069.01.1417",
+        "citation_count": 61,
+        "work_type": "article",
+        "identifier": "W2965188696",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "The Emergence of a New Business Approach in the Fashion and Apparel Industry: The Ethical Retailer",
+        "source": "openalex",
+        "url": "https://doi.org/10.1177/02761467231180456",
+        "doi": "10.1177/02761467231180456",
+        "year": 2023,
+        "authors": [
+          "Lívia Tiemi Bastos",
+          "Mariana Bassi Suter",
+          "Simone R. Barakat"
+        ],
+        "venue": "Journal of Macromarketing",
+        "abstract": "This study sought to examine new marketing ethics (ME) practices that can foster strong moral grounding in the fashion and apparel retail firms to delineate a new approach within this industry. We built on the distributive justice and stakeholder orientation literature to conduct a multi-case study with 15 self-proclaimed ethical fashion and apparel retailers to identify whether and how they differ from traditional and fast fashion retailers. Several data collection techniques were used to gather the evidence (i.e., direct observation, physical and online interviews) combined with a netnographic approach (i.e., online observation of websites and social media content). Our findings show that these firms are guided by ethical-centered values, which are reflected in their product components, purpose, communication practices, and sourcing practices, which point to the emergence of a new business approach. We contribute to the macromarketing literature by identifying a new perspective on the role of morality in ME based on distributive justice principles and stakeholder orientation. We also propose a more refined definition of ethical fashion and apparel retailers.",
+        "pdf_url": null,
+        "citation_count": 31,
+        "work_type": "article",
+        "identifier": "W4379386871",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "closed"
+        }
+      },
+      {
+        "title": "From conspicuous to considered fashion: A harm-chain approach to the responsibilities of luxury-fashion businesses",
+        "source": "openalex",
+        "url": "https://doi.org/10.1080/0267257x.2013.798675",
+        "doi": "10.1080/0267257x.2013.798675",
+        "year": 2013,
+        "authors": [
+          "Marylyn Carrigan",
+          "Caroline Moraes",
+          "Morven G. McEachern"
+        ],
+        "venue": "Journal of Marketing Management",
+        "abstract": "Throughout the marketing literature, little attention has been paid to the responsibilities of luxury-fashion businesses. Harnessing Polonsky, Carlson, and Fry’s harm chain, the extended harm chain, and the theoretical lens of institutional theory, this conceptual paper explores a systematic way to examine the potential for value co-creation, the harmful outcomes linked to luxury-fashion marketing activities, and how those harms might be addressed. Our analysis identifies a number of harms occurring throughout the luxury-fashion supply chain. The paper concludes by urging luxury-fashion businesses to sustain their success through ‘deep’ corporate social responsibility (CSR), adding voice to the developing conversation that seeks to change the scope of the critique of marketing practice beyond the economic and competitive advantages that CSR delivers.",
+        "pdf_url": null,
+        "citation_count": 188,
+        "work_type": "article",
+        "identifier": "W1991129948",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Advancing the circular economy through dynamic capabilities and extended customer engagement: Insights from small sustainable fashion enterprises in the UK",
+        "source": "openalex",
+        "url": "https://doi.org/10.1002/bse.2999",
+        "doi": "10.1002/bse.2999",
+        "year": 2022,
+        "authors": [
+          "Patrick Elf",
+          "Andrea Werner",
+          "Sandy Black"
+        ],
+        "venue": "Business Strategy and the Environment",
+        "abstract": "The circular economy holds the potential to significantly reduce resource use. However, attempts to fully utilize its potential have fallen short so far. Based on a longitudinal interview‐based study, we examine how micro, small and medium enterprises (MSMEs) in the UK fashion industry advance the circular economy (CE). Whereas the dynamic capabilities framework is mostly used for medium and large businesses, our findings advance the current literature, demonstrating how the distinctive development and use of dynamic capabilities enable MSMEs to act in agile ways, allowing them to introduce, test and advance CE solutions, while providing them with more resilience during times of crises. Our study further shows that fashion MSMEs adopt circular economy business models (CEBMs) by going beyond conventional, technology‐focused approaches currently dominating business thinking. The research highlights MSMEs' ability to engage in circular practices through an extension of existing business models in the form of close interactions with their customers demonstrating the importance and potential of extended business‐customer engagement in businesses' attempts to adopt CE practices.",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/bse.2999",
+        "citation_count": 233,
+        "work_type": "article",
+        "identifier": "W4210300548",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "From Design Decisions to Sustainable Development: Exploring Textile and Fashion Designers’ Challenges in the Portuguese Textile and Fashion Industry",
+        "source": "openalex",
+        "url": "https://doi.org/10.3390/su18042141",
+        "doi": "10.3390/su18042141",
+        "year": 2026,
+        "authors": [
+          "Livia Lara",
+          "Isabel Dias Cabral",
+          "Joana Luísa Ferreira Lourenço da Cunha"
+        ],
+        "venue": "Sustainability",
+        "abstract": "Textile and fashion designers play a strategic role in sustainable development within the textile chain. Several studies highlight the decision-making role of designers, emphasizing how their choices influence the entire production sector. The aim of this research is to examine how design decisions within the Portuguese textile and fashion industry influence the implementation of sustainable development principles by exploring designers’ perceptions, practices, and the challenges they encounter throughout the design process. To achieve the proposed goal, semi-structured interviews were conducted with 11 designers from the industry. The collected data were qualitatively evaluated using NVivo software, highlighting the complexity of incorporating sustainability into the design process. The findings revealed that daily challenges are primarily related to fashion business models, greenwashing, limited knowledge of raw materials and finishing processes, cost constraints, lack of transparency and traceability in the supply chain, and low consumer awareness. By examining both the conceptual understanding and practical application of sustainability in the design process, this research provides strategic lines into designers’ decision-making processes, highlights barriers to sustainable practice, and underscores the importance of design education. The study contributes to academic debate and identifies opportunities for advancing sustainable practices and circularity in the textile and fashion industry, in alignment with the Sustainable Development Goals, especially SDGs 9, 12, and 13, to transform the current industrial and consumption models.",
+        "pdf_url": "https://www.mdpi.com/2071-1050/18/4/2141/pdf?version=1771754107",
+        "citation_count": 5,
+        "work_type": "article",
+        "identifier": "W7130979733",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "The Readiness of Lasem Batik Small and Medium Enterprises to Join the Metaverse",
+        "source": "openalex",
+        "url": "https://doi.org/10.3390/computers12010005",
+        "doi": "10.3390/computers12010005",
+        "year": 2022,
+        "authors": [
+          "Theresia Dwi Hastuti",
+          "Ridwan Sanjaya",
+          "Freddy Koeswoyo"
+        ],
+        "venue": "Computers",
+        "abstract": "Today’s business competitiveness necessitates the capacity of all company players, particularly small and medium enterprises (SMEs), to enter a broader market through information technology. However, the Lasem Batik SMEs have endured a great deal of turmoil during the COVID-19 pandemic. Marketing has been conducted through physical and internet channels, but the results have not been maximized. The purpose of this research was to consider the possibilities of Lasem Batik SMEs adopting metaverse technology as a marketing medium to enhance sales. The investigation was conducted on 40 Lasem Batik SMEs who met the requirements of using online media to sell their products, having a medium-sized firm, and displaying marketing that has reached the provincial level. The findings of this study are as follows: (1) The majority of participants stated that the metaverse is a virtual 3D space. This understanding is deepened by discussions about virtual 3D spaces that combine VR and AR, which today is often referred to as the metaverse. (2) Batik business owners hope that by using the metaverse, they will be able to obtain many benefits, especially related to market expansion. (3) Lasem Batik SMEs show great interest in expanding their marketing channels to a wider area; Lasem Batik entrepreneurs also accept the challenge of studying the metaverse with new knowledge and techniques they have never considered. (4) Overall, 75% of participants were ready to use the metaverse, and 25% still required guidance. (5) Local communities, universities, and large corporations provide great support for the use of the metaverse. (6) The commercial success of Lasem Batik SMEs is defined by product quality; ongoing online and offline advertising; originality and innovation; and the capacity to capitalize on possibilities, retain local wisdom, and preserve strong customer connections. The main conclusion is that the readiness of batik entrepreneurs to use the metaverse is highly dependent on the support of various parties. A strong desire to progress and develop one’s business is the main factor determining one’s intention to use the metaverse. As a result of the research, a prototype of a metaverse platform for Lasem Batik exhibitions has been developed. SMEs can use the room template provided by the platform and join other SMEs to hold a metaverse exhibition to attract global customers. These results can be connected to create a metaverse exhibition to attract global customers.",
+        "pdf_url": "https://www.mdpi.com/2073-431X/12/1/5/pdf?version=1672035612",
+        "citation_count": 42,
+        "work_type": "article",
+        "identifier": "W4313260431",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "THE IMPACT OF SLOW AND CIRCULAR FASHION ON CONSUMERS’ CHOICE OF CLOTHING APPAREL",
+        "source": "openalex",
+        "url": "https://publish.ojs-indonesia.com/index.php/SIBATIK/article/view/1844",
+        "doi": null,
+        "year": 2024,
+        "authors": [
+          "Stella Daah Siaw",
+          "Moses Opoku",
+          "B Sarah"
+        ],
+        "venue": "SIBATIK JOURNAL Jurnal Ilmiah Bidang Sosial Ekonomi Budaya Teknologi dan Pendidikan",
+        "abstract": "In the current period characterised by heightened awareness of environmental sustainability and ethical consumerism, the fashion industry is undergoing a significant transformation as it embraces slow and circular fashion practices. This development has been very promising due to the environmental dangers associated with fast fashion. There are many factors that shape consumer preferences within the context of sustainable fashion. The emergence of slow fashion, which is defined by deliberate consumption and ethical manufacturing and circular fashion, prioritises closed-loop systems and responsible end-of-life practices, have presented an attractive and a new dimension of producing environmental-friendly fashion for consumers. Irrespective, of the global efforts in protecting the environment through the right choice of clothes, which is supported by the slow fashion paradigm, some people are still glued to fast fashion model without necessarily considering its associated impacts. This study examines the impact of slow and circular fashion on customers' clothing choices and their effects on the environment. Again, it underscores the psychological, social, economic, and environmental issues that influence the adoption of slow and circular fashion. Data were obtained via online questionnaire. The study revealed that the development of slow and circular fashion models among customers has been impeded due to a deficiency in proactive communication from various retailers who contribute to the sustainability mission.",
+        "pdf_url": "https://publish.ojs-indonesia.com/index.php/SIBATIK/article/download/1844/1005",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W7216673575",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Challenging the fast fashion product: a method for use-value apparel design",
+        "source": "openalex",
+        "url": "https://doi.org/10.32920/ryerson.14665440",
+        "doi": "10.32920/ryerson.14665440",
+        "year": 2021,
+        "authors": [
+          "Jennifer Triemstra-Johnston"
+        ],
+        "venue": null,
+        "abstract": "Sustainable apparel design is a discipline based on challenging the status quo. Applying an interdisciplinary approach, this paper integrates the methodologies of research through practice, sustainable design, and material culture to challenge contemporary products found on the fast fashion market. Exploring use-value as an avenue for sustainable design, a typology is developed addressing the identifiers of function, aesthetics, expression, and durability as a method for generating sustainable solutions. The interpretative methods of material culture are adapted into a use-value challenge as a process for establishing sustainable and unsustainable elements embedded within a product. The concept of best practices is introduced as a procedure for assessing the solutions for the creation of alternative prototypes. A case study, challenging children’s princess costumes found on the contemporary market, provides an example of how the use-value method for apparel design can be applied to fast fashion products.",
+        "pdf_url": "https://rshare.library.ryerson.ca/articles/thesis/Challenging_the_fast_fashion_product_a_method_for_use-value_apparel_design/14665440/1/files/28152171.pdf",
+        "citation_count": 3,
+        "work_type": "other",
+        "identifier": "W3217764576",
+        "extra": {
+          "openalex_type": "other",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Research on Apparel Design Innovation based on Sustainable Fashion --Taking the Transformation of Fast Fashion Brands as an Example",
+        "source": "openalex",
+        "url": "https://doi.org/10.53469/wjimt.2025.08(06).18",
+        "doi": "10.53469/wjimt.2025.08(06).18",
+        "year": 2025,
+        "authors": [
+          "Mengyue Zhang"
+        ],
+        "venue": "Journal of improved oil and gas recovery technology.",
+        "abstract": "This paper focuses on the design innovation path of fast fashion brands in the context of sustainable fashion transformation, constructs an analysis framework based on sustainable fashion theory, and adopts a multi-case study method to systematically analyze three representative international fast fashion enterprises, namely SHEIN, H&M, and C&A. The study finds that the three companies have carried out multi-dimensional practical exploration in digital-driven material reuse, life-cycle oriented recycling design and green control of the whole chain, presenting systematic optimization features from raw material selection, structural design to production management and consumption guidance, while SHEIN relies on flexible supply chain and big data algorithms to implement ‘on-demand production’, H&M builds a sustainable fashion system, and C&A builds an ‘on-demand production’ system. SHEIN implements ‘on-demand production’ based on a flexible supply chain and big data algorithm, H&M builds a recycling consumption network, and C&A guarantees the sustainability of the whole process through raw material certification and green technology. On this basis, this paper further proposes four optimization paths for design innovation in fast fashion: firstly, to establish a sustainable design standard system and promote the standardization of the design process; secondly, to build a cross-sectoral synergy mechanism and enhance the effectiveness of organizational linkage; thirdly, to strengthen the consumer education and co-creative mechanism, and to enhance the participation in green consumption; and fourthly, to promote the industry's synergistic policy linkage, and to create a benign ecological environment. The study aims to provide operational green transformation strategies for the fast fashion industry and promote the construction of a responsibility-oriented sustainable fashion system.",
+        "pdf_url": "https://adwenpub.com/index.php/wjimt/article/download/713/694/731",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4411792949",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Small-series supply network configuration priorities and challenges in the EU textile and apparel industry",
+        "source": "openalex",
+        "url": "https://doi.org/10.1108/jfmm-07-2021-0173",
+        "doi": "10.1108/jfmm-07-2021-0173",
+        "year": 2022,
+        "authors": [
+          "Sara Harper",
+          "Rudrajeet Pal"
+        ],
+        "venue": "Journal of Fashion Marketing and Management",
+        "abstract": "Purpose Technology and market pressures are encouraging localized and small-series production in customer-driven industries. The purpose of this paper is to explore and understand the supply chain-, product- and process-design factors for small-series production in EU's textile and apparel industry, to understand configuration decisions, priorities and challenges. Design/methodology/approach An interview study was undertaken with ten companies that represent diverse small-series production models and value chain roles. Interview data was analysed to identify supply network configuration characteristics, decision priorities and challenges. Findings Three small-series production models emerged from the analysis, differing with respect to adoption of process postponement and customization. The findings confirm and extend past research regarding diverse decision priorities and product, process, supply chain structure/relationship configurations. Challenges identified relate to planning (priorities) and implementation (configuration). Whereas competence availability and digital technology challenges are common, several difficulties are linked to production model like tensions related to priorities and small volumes, which are not found with customization. Research limitations/implications Future research can make comparisons with other industry and location contexts; adopt dynamic approaches to distinguish between design and reconfiguration processes; and address indicated paradoxical-tensions. Practical implications The study findings can provide guidance for companies regarding identification of priorities and management of (planning/implementation) challenges impacting small-series production in T&A. Originality/value The paper brings a configuration perspective at the supply chain level to the problem of small-series production implementation, which demands holistic and context-specific understanding.",
+        "pdf_url": "https://www.emerald.com/insight/content/doi/10.1108/JFMM-07-2021-0173/full/pdf?title=small-series-supply-network-configuration-priorities-and-challenges-in-the-eu-textile-and-apparel-industry",
+        "citation_count": 11,
+        "work_type": "article",
+        "identifier": "W4229449830",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Mitigating perceived external export barriers for small and medium-sized enterprises that sell and manufacture \"Made in the USA\" consumer apparel products in Washington State",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/20.500.11803/862",
+        "doi": null,
+        "year": 2020,
+        "authors": [
+          "Jordan Lucas Knox"
+        ],
+        "venue": "National University System Repository (National University System)",
+        "abstract": "The rapid decline of the U.S. apparel industry has not gone unnoticed by U.S. politicians and decision-makers, yet the vertical disintegration of apparel manufacturing is still commonplace in America. Robock (1993) and Rowan (2014) contend that the revitalization of the domestic apparel manufacturing industry depends upon the export of “Made in the USA” consumer apparel products to other industrialized nations. The perceptions of external barriers among employees of Washington State small and medium-sized enterprises (SMEs) that manufacture and sell “Made in the USA” consumer apparel products were examined in this study to shed light on the factors inhibiting internationalization and preventing firms from exporting at higher levels. A case study research design and stratified purposeful criterion sampling approach were utilized to collect qualitative data using semi-structured interview questions and document analysis. Cross-case analysis and inductive coding were utilized to identify key themes and reveal lessons learned for Washington State SMEs that manufacture and sell “Made in the USA” consumer apparel products. Hybrid exporters have the greatest degree of flexibility when it comes to internationalization, enabling them to get closer to customers in all locations, instead of just those in nearby areas. The external barriers that seem to affect hybrid exporters relate to taxes and customs delays, but qualitative data from this dissertation indicate that using export promotion programs might be a model for mitigating these obstacles. Utilizing the international entrepreneurship approach with the addition of direct-to-consumer export options could also increase internationalization among firms considering exporting to Canada and those using indirect internationalization strategies. Additionally, despite the inclusion of document analysis and the introduction of the cross-case analysis table, more complete data from the semi-structured interviews may result in different lessons learned and key themes, particularly concerning indirect exporting or exports through wholesale agreements with other stores. Finally, researchers should replicate this study in different geographic locations, particularly the mid-west and the northeastern U.S., which border Canada and have a significant amount of apparel manufacturing activity, to determine if and how the findings differ.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W3014273907",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Challenges Hampering the Growth of Dress Fashion Design in the Ghana Fashion Industry",
+        "source": "openalex",
+        "url": "https://doi.org/10.15640/jsbed.v7n2a1",
+        "doi": "10.15640/jsbed.v7n2a1",
+        "year": 2019,
+        "authors": [
+          "Osuanyi Quaicoo Essel"
+        ],
+        "venue": "Journal of Small Business and Entrepreneurship Development",
+        "abstract": "Ghana's fashion culture is predominately bespoke.People approach their designers for custom-made dresses and other fashion accessories.This fashion system has its own merits and demerits.This study has the primary objective of ascertaining the major challenges hampering the growth of dress fashion design in the Ghana fashion industry in the perspective of both beneficiary and non-beneficiary fashion designers of the direct social intervention trade policies aimed at promoting fashion development.Narrative inquiry constituted the research design.Twelve (12) fashion designer-respondents, consisting of seven (7) beneficiaries of AGOA and five (5) non-beneficiaries constituted the study sample.Semi-structured interviews enabled the respondents to share their lived experiences in their fashion design careers.It is evident from the study that major challenges hampering the growth of dress fashion design industry in Ghana include influx of smuggled cheap imported dress fashion products from the Asiatic countries, Europe and America; and retailing of dress fashion products by foreigners.Government must, ensure rigorous enforcement of the laws on smuggled goods to protect Ghanaian dress fashion businesses, while the law that proscribes foreigners in engaging in petty trading be observed strictly.",
+        "pdf_url": "http://jsbednet.com/journals/jsbed/Vol_7_No_2_December_2019/1.pdf",
+        "citation_count": 9,
+        "work_type": "article",
+        "identifier": "W2998556479",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Using Internet Videoconferencing to Connect Fashion Students With Apparel Industry Professionals",
+        "source": "openalex",
+        "url": "https://doi.org/10.22371/05.2010.020",
+        "doi": "10.22371/05.2010.020",
+        "year": 2010,
+        "authors": [
+          "Vera Bruce Ashley"
+        ],
+        "venue": "Digital USD (University of San Diego)",
+        "abstract": "The purpose of this study was to explore the efficacy, benefits and student perceptions of using Internet videoconferencing and a web camera to connect college and university fashion students with apparel industry professionals. A total of 70 college and university fashion students, three instructors, and three apparel industry professionals participated in this introductory study. Data was collected through pre and post surveys from all three groups. Industry professionals were invited as guest speakers into the classroom via Internet videoconferencing using Skype and a web camera. The findings in the study indicated that students, instructors, and apparel industry professionals overwhelmingly benefited from this type of interaction. Although technical difficulties occurred, the effectiveness, cost, and overall benefits to the instructor, students, and industry professionals indicate a need to have this type of interaction regularly in the classroom",
+        "pdf_url": "https://digital.sandiego.edu/cgi/viewcontent.cgi?article=1902&context=dissertations",
+        "citation_count": 6,
+        "work_type": "thesis",
+        "identifier": "W1608108508",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "An examination of the Lithuanian fashion designer's use of marketing in their success",
+        "source": "openalex",
+        "url": "http://eprints.hud.ac.uk/id/eprint/25388/1/vbubnytefinalthesis.pdf",
+        "doi": null,
+        "year": 2015,
+        "authors": [
+          "Vaida Bubnyte"
+        ],
+        "venue": "University of Huddersfield Repository (University of Huddersfield)",
+        "abstract": "The aim of this research is to provide young fashion designers in Lithuania with information on how to become recognised and successful. There is an increased interest and demand for fashion within Lithuania but limited literature regarding this developing industry, therefore comparators are drawn from available literature about the more established British fashion industry. A principal objective to this enquiry was to investigate how the Lithuanian fashion houses used marketing tools to achieve popularity and fame. Qualitative, in-depth and semi-structured interviews with three Lithuanian designers at their studios in Lithuania were conducted about how they became established and the roles of marketing, branding and PR, creativity and talent, consumer’s trust and reliance and finances. Results indicate the following helped the designer entering the industry: identifying a niche market, combining talent and creativity with business knowledge, a good preparation for the industry, finance management, appropriate funding, business partner and networking, the importance of branding, and the implications with the consumers’ addiction to famous brands. This research contributes to the existing literature on the Lithuanian fashion industry and the general scholarly debate on the importance of marketing and branding in the fashion industry. The study identifies prospects for and opportunities to improve the Lithuanian fashion industry and concludes with recommendations for the designer’s preparation for the industry, and identifies issues for further research such as: individual clients versus collections, the right time to start, consumerism, or fashion in the future.",
+        "pdf_url": "http://eprints.hud.ac.uk/id/eprint/25388/1/vbubnytefinalthesis.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2594317699",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Fashion Practices in Cambodia: Contrasting Paradigms Between the Export Apparel Industry and Small–medium Enterprises in Cambodia",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350058170.ch-005.5",
+        "doi": "10.5040/9781350058170.ch-005.5",
+        "year": 2019,
+        "authors": [
+          "Lauren Solomon"
+        ],
+        "venue": "Global Perspectives on Sustainable Fashion",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.5040/9781350058170.ch-005.5",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Bloomsbury Visual Arts"
+        }
+      },
+      {
+        "title": "Assessing the challenges and opportunities for small and medium enterprises (SMEs) in the Vietnamese apparel retail market",
+        "source": "crossref",
+        "url": "https://doi.org/10.31274/etd-180810-3741",
+        "doi": "10.31274/etd-180810-3741",
+        "year": 2018,
+        "authors": [
+          "Jong Geun Lee"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.31274/etd-180810-3741",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Iowa State University"
+        }
+      },
+      {
+        "title": "Assessing the Challenges and Opportunities for Small and Medium Enterprises (SMEs) in the Vietnamese Apparel Retail Market",
+        "source": "crossref",
+        "url": "https://doi.org/10.31274/itaa_proceedings-180814-1503",
+        "doi": "10.31274/itaa_proceedings-180814-1503",
+        "year": 2016,
+        "authors": [
+          "Jong Geun Lee",
+          "Niehm Linda"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "10.31274/itaa_proceedings-180814-1503",
+        "extra": {
+          "crossref_type": "report",
+          "publisher": "Iowa State University, Digital Repository"
+        }
+      },
+      {
+        "title": "Ecommerce adoption by small medium enterprises in fashion : the case of Durban fashion fair designers",
+        "source": "crossref",
+        "url": "https://doi.org/10.51415/10321/4301",
+        "doi": "10.51415/10321/4301",
+        "year": 2022,
+        "authors": [
+          "Chiedza Elizabeth Nhuvira"
+        ],
+        "venue": null,
+        "abstract": "Small Medium Enterprises are one of the country’s engineers for transformation through economic growth, innovation and employment creation. The fashion industry is rated the second largest manufacturing curbing unemployment for both formal and informal sectors of fashion through providing one of the human basic needs. Due to the low entry barriers, the competition is rife both locally (other fashion designers) and internationally (imports) which has led to initiatives such as ‘fast fashion’ which represents the process of selling designs showcased on the catwalk in stores in the shortest possible. However, this is a challenge without the right platforms to advertise and sell the clothing. Initiatives such as Durban fashion fair have been good in providing the Durban designers with a local platform to showcase but Small Medium Enterprises greatest challenge is that Durban market is flooded despite designers offering niche products because it’s the same customers with limited income to buy the offerings, such that customer acquisition beyond the confines of the Durban is a necessity for business sustenance. Durban fashion designers are creative business people, knowledgeable in the fashion industry, however with the challenges that they are facing, there is limited research of their use of ecommerce in solving the stated problems. Ecommerce is perceived as an innovation that has transformed Small Medium Enterprises is developed nations such as China and America however the case is unknown for developing nations such as South Africa. The purpose of the case study is to determine how far the fashion designers have used ecommerce in their businesses and the factors that influence them to adopt taking into account the benefits and challenges that they face. The case study encourages multiple sources and techniques to gather data. Mixed method approach was conducted for data collection, for the Durban fashion fair designers quantitative study was undertaken while the Durban fashion fair management were interviewed. The data was analysed using statistical method SPSS and use of thematic analysis for quantitative. Results from the study supported the literature while other results revealed gaps for further research. The study revealed the following results, that the majority of fashion SMMES are cognisant that the South African population is moving to online buying and that there are business opportunities to be exploited online. Secondly, the challenges hindering the fashion SMMEs was the low profits and internet fraud. The findings revealed that the greater percentages of fashion SMME are survivalist entities earning profits of less than 50 000 rand annually. The low profit margin affects the acquisition of gadgets and infrastructure is deemed costly; moreover the SMMEs lack the financial collateral security to borrow from the banks. The other challenge mentioned was that internet fraud was the lack of digital training literacy and training such that fashion SMME perception of internet fraud was exaggerated. Thirdly, the results highlighted that the management benefited from the adoption by making better decisions. The better decisions can be attributed to knowledge of customer, the promptness of making decisions and the management’s previous online experience. Fashion SMME highlighted the benefits accrued from implementation of effective ecommerce practices, were increase in sales despite the number of years the business has been trading. The use of ecommerce, the results indicate that the fashion designers use free applications available since their profitability margins are low. Most of the SMME advertise on the social media Facebook and Instagram, they also use the social platforms for product research and prevailing trends too. And lastly they use banking applications to make payments to suppliers as well as receive payments from customers. The fashions SMME have not adopted ecommerce by using second parties such as paid second party sites.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.51415/10321/4301",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Durban University of Technology"
+        }
+      },
+      {
+        "title": "Designer: a Job Description",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501303449.ch-001",
+        "doi": "10.5040/9781501303449.ch-001",
+        "year": 2011,
+        "authors": [],
+        "venue": "Designer’s Guide to Fashion Apparel",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "10.5040/9781501303449.ch-001",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Challenges in Micro, Small and Medium Enterprises",
+        "source": "crossref",
+        "url": "https://doi.org/10.2139/ssrn.2626736",
+        "doi": "10.2139/ssrn.2626736",
+        "year": 2015,
+        "authors": [
+          "Aakriti Goel"
+        ],
+        "venue": null,
+        "abstract": "MSMEs are the power engines of the economy. Micro, Small and Medium Enterprise (MSMEs) constitute over 90 percent of total enterprises in most of the economies and are credited with generating highest rate of employment growth and also account for a major share of industrial production and exports. This study aims to investigate the major challenges faced by MSMEs today. It also suggests policy recommendations that would help in overcoming those challenges. The government needs to hand-hold the MSME units in order to promote growth in the manufacturing sector. The state of infrastructure is not satisfactory and calls for more investment from the government. Banks are not so willing to provide loans to these units which challenge the prospects of growth in these units. Delayed payments are a big problem which needs tighter rules on the buyer-side in order to safeguard the interests of the manufacturers. Although the current government in power has been taking an active interest in the manufacturing sector, there is still a long way to go when it comes to policy implementations. The need of the hour is to protect these units and take measures which will support them and would help them flourish. Promising alone is not sufficient; making it happen is the key.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "preprint",
+        "identifier": "10.2139/ssrn.2626736",
+        "extra": {
+          "crossref_type": "posted-content",
+          "publisher": "Elsevier BV"
+        }
+      },
+      {
+        "title": "Business and Human Rights and the Challenges for Small and Medium-Sized Enterprises",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/acprof:oso/9780198795650.003.0013",
+        "doi": "10.1093/acprof:oso/9780198795650.003.0013",
+        "year": 2017,
+        "authors": [
+          "Michael K Addo"
+        ],
+        "venue": "Oxford Scholarship Online",
+        "abstract": "This chapter assesses the challenges posed by the implementation of business and human rights standards, especially the United Nations Guiding Principles on Business and Human Rights (UNGPs) in small and medium-sized enterprises (SMEs). Although SMEs make up between 85 and 99 per cent of global enterprises, they have not been directly involved in the crafting of these standards and this coupled with the traditional focus on transnational enterprises gives a flavour of the formidably challenging context in which the UNGPs are to be implemented. Drawing on lessons from related disciplines such as corporate social responsibility (CSR) and environmental sustainability, the chapter explores the implications for human rights of issues such as SME identity, organizational structures, and their place in supply chains. The chapter concludes that the challenges are not overwhelming, especially if the unique characteristics of SMEs such as their flexibility, adaptability, and clear leaderships can be leveraged to achieve the objectives of the business and human rights standards.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.1093/acprof:oso/9780198795650.003.0013",
+        "extra": {
+          "crossref_type": "book",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Collaborative Consumption for Small- and Medium-Sized Fashion Enterprises in South Korea",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350058170.ch-004.3",
+        "doi": "10.5040/9781350058170.ch-004.3",
+        "year": 2019,
+        "authors": [
+          "Eunsuk Hur"
+        ],
+        "venue": "Global Perspectives on Sustainable Fashion",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "book-chapter",
+        "identifier": "10.5040/9781350058170.ch-004.3",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Bloomsbury Visual Arts"
+        }
+      },
+      {
+        "title": "Opportunities and Challenges in Capital Markets for Small-to-Medium-Sized Enterprises",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/978-981-15-9015-3_13",
+        "doi": "10.1007/978-981-15-9015-3_13",
+        "year": 2021,
+        "authors": [
+          "Kevin Lai"
+        ],
+        "venue": "Succession and Innovation in Asia’s Small-and-Medium-Sized Enterprises",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/978-981-15-9015-3_13",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer Singapore"
+        }
+      },
+      {
+        "title": "Policy Supports for Small and Medium Enterprises in Developing Countries: Rationale and Practice",
+        "source": "crossref",
+        "url": "https://doi.org/10.4324/9780429438295-2",
+        "doi": "10.4324/9780429438295-2",
+        "year": 2019,
+        "authors": [
+          "Moha Asri Abdullah"
+        ],
+        "venue": "Small and Medium Enterprises in Malaysia",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.4324/9780429438295-2",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Routledge"
+        }
+      },
+      {
+        "title": "What explains small- and medium-sized apparel retailers’ international market involvement? An application of Uppsala model",
+        "source": "crossref",
+        "url": "https://doi.org/10.1186/s40691-015-0045-6",
+        "doi": "10.1186/s40691-015-0045-6",
+        "year": 2015,
+        "authors": [
+          "Hyeon Jeong Cho",
+          "Byoungho Jin"
+        ],
+        "venue": "Fashion and Textiles",
+        "abstract": "The purpose of this study is to investigate U.S. small- and medium-sized apparel retailers’ international expansion by proposing a theoretical framework that incorporates the antecedents of small- and medium-sized apparel retail firms’ international market involvement. Data were collected via a self-administered questionnaire completed by apparel retailers nationwide. A total of 76 usable questionnaires were collected based on Dillman et al. (Internet, mail, and mixed-mode surveys: The tailored design method, 2009) Mail Survey technique. The results indicate that small- and medium-sized apparel retailers who have more foreign networks are likely to have foreign market knowledge. Firm age and market knowledge were found to influence a firm’s international market involvement. The results further reveal that market knowledge mediates the relationship between foreign networking and international market involvement. This study contributes to the growing knowledge base about small- and medium-sized retailers’ international expansion in the apparel industry.",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1186/s40691-015-0045-6.pdf",
+        "citation_count": 7,
+        "work_type": "article",
+        "identifier": "10.1186/s40691-015-0045-6",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Springer Science and Business Media LLC"
+        }
+      },
+      {
+        "title": "Sustainability and the Environment: Textiles Used in Small and Medium Apparel Firms in the United States",
+        "source": "crossref",
+        "url": "https://doi.org/10.31274/susfashion.11484",
+        "doi": "10.31274/susfashion.11484",
+        "year": 2020,
+        "authors": [
+          "Jennifer S. Ingram",
+          "Young-A Lee"
+        ],
+        "venue": "Sustainability in Fashion -",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.31274/susfashion.11484",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Iowa State University Digital Press"
+        }
+      },
+      {
+        "title": "Determining the antecedents for a strategy of corporate social responsibility by small- and medium-sized enterprises in the UK fashion apparel industry",
+        "source": "crossref",
+        "url": "https://doi.org/10.1016/j.jretconser.2009.05.003",
+        "doi": "10.1016/j.jretconser.2009.05.003",
+        "year": 2009,
+        "authors": [
+          "Patsy Perry",
+          "Neil Towers"
+        ],
+        "venue": "Journal of Retailing and Consumer Services",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 64,
+        "work_type": "article",
+        "identifier": "10.1016/j.jretconser.2009.05.003",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Elsevier BV"
+        }
+      },
+      {
+        "title": "Enhancing the Role and Contributions of Small and Medium Enterprises (SMEs) in a Globalized and Innovative Economy: Challenges and Opportunities",
+        "source": "crossref",
+        "url": "https://doi.org/10.20944/preprints202305.1748.v1",
+        "doi": "10.20944/preprints202305.1748.v1",
+        "year": 2023,
+        "authors": [
+          "Andrew Enaifoghe"
+        ],
+        "venue": null,
+        "abstract": "This article explores the Role and Contributions of Small and Medium Enterprises (SMEs) in a globalized and innovative economy, looking specifically at the challenges and opportunities. The establishment and expansion of new firms provides a sizable amount of net new jobs. While high-expectation entrepreneurial enterprises and gazelles are usually found among innovative and technology-based new organizations, it is also essential that there be a sizable supply for them to play a significant part in economic growth. In other words, encouraging all forms of en-trepreneurship is likely to increase the number of innovative, fast-growing enterprises as well as entrepreneurship. In many European countries, entrepreneurship needs to be encouraged. Findings show the crucial role the SME sector plays in the South African economy in tackling sustainable development. About 90% of all official firms in South Africa are thought to be small, medium, or micro-enterprises. The study concluded that one of the major contributions to the South African economy is the SME sector. The SME is not just viewed as a source of new jobs, but also as a sector that absorbs laid-off workers from both the private and public sectors.",
+        "pdf_url": null,
+        "citation_count": 14,
+        "work_type": "preprint",
+        "identifier": "10.20944/preprints202305.1748.v1",
+        "extra": {
+          "crossref_type": "posted-content",
+          "publisher": "MDPI AG"
+        }
+      },
+      {
+        "title": "Employees’ behavioural intentions as a mediator of artificial intelligence adoption: a UTAUT-TOE study of Chinese small and medium-sized apparel manufacturing enterprises",
+        "source": "crossref",
+        "url": "https://doi.org/10.1186/s40691-026-00497-4",
+        "doi": "10.1186/s40691-026-00497-4",
+        "year": 2026,
+        "authors": [
+          "Chen Qu",
+          "Eunyoung Kim"
+        ],
+        "venue": "Fashion and Textiles",
+        "abstract": "While artificial intelligence (AI) is reshaping China’s manufacturing industry, its implementation in the labour-intensive apparel manufacturing sector remains constrained by limited digitalisation and relatively low technological readiness. To address this gap, this study examined how employees’ behavioural intentions mediate the relationships between key technological, organisational, environmental, and social predictors and organisations’ decisions to adopt AI in the Chinese apparel manufacturing sector. We combined the unified theory of acceptance and use of technology with the technological-organisational-environmental framework and evaluated the resulting model using partial least squares structural equation modelling with paired responses from 200 managers and 200 technicians representing 200 Chinese small- and medium-sized apparel manufacturing firms. The results showed a significant negative indirect effect of performance expectancy (β = −0.081, p =.037) and significant positive indirect effects of peer influence (β = 0.232, p =.002) and regional context (β = 0.501, p <.001) on organisational AI adoption decisions through employees’ behavioural intentions. For organisational AI adoption decisions, the model accounted for 71.4% of the observed variance. These findings highlight the mediating role of employees’ behavioural intentions in organisational AI adoption and provide theoretical and practical insights for promoting AI adoption in small and medium-sized enterprises in Chinese apparel manufacturing.",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1186/s40691-026-00497-4.pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.1186/s40691-026-00497-4",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Springer Science and Business Media LLC"
+        }
+      },
+      {
+        "title": "Small and Medium Enterprises in Malaysia: Policy issues and challenges",
+        "source": "crossref",
+        "url": "https://doi.org/10.4324/9780429438295",
+        "doi": "10.4324/9780429438295",
+        "year": 2019,
+        "authors": [
+          "Moha Asri Abdullah"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "book",
+        "identifier": "10.4324/9780429438295",
+        "extra": {
+          "crossref_type": "book",
+          "publisher": "Routledge"
+        }
+      },
+      {
+        "title": "Artificial Intelligence Adoption in the Apparel Supply Chain in Sri Lanka: Strategies for Small and Medium-sized Enterprises",
+        "source": "crossref",
+        "url": "https://doi.org/10.55248/gengpi.6.0425.1409",
+        "doi": "10.55248/gengpi.6.0425.1409",
+        "year": 2025,
+        "authors": [
+          "Prabodhani L.H.K.N",
+          "Wijerathna R.M.K.K",
+          "Dr. Lekamge L.S.",
+          "Erandi J.D.T"
+        ],
+        "venue": "International Journal of Research Publication and Reviews",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.55248/gengpi.6.0425.1409",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Genesis Global Publication"
+        }
+      },
+      {
+        "title": "AI-Powered Growth: Unlocking Opportunities and Navigating Challenges for Micro, Small, and Medium Enterprises",
+        "source": "crossref",
+        "url": "https://doi.org/10.4018/979-8-3373-2817-1.ch006",
+        "doi": "10.4018/979-8-3373-2817-1.ch006",
+        "year": 2026,
+        "authors": [
+          "Usha Prabhu",
+          "Varanasi Rahul",
+          "G. Srividhya",
+          "Y. Fathima",
+          "G. Laxmana Rao"
+        ],
+        "venue": "Opportunities and Challenges of AI in Micro, Small, and Medium-Sized Enterprises",
+        "abstract": "AI in MSMEs is transforming worldwide business by boosting operational efficiency, creativity, and inclusive economic growth. AI technologies, including machine learning, natural language processing, and predictive analytics, assist MSMEs in automating processes, simplifying value chains, customising customer interactions, and leveraging alternative financing. AIaaS, subscription-based, and data-driven business models are developed to enable resource-constrained MSMEs to compete in the digital economy. The chapter notes budget constraints, lack of digital infrastructure, human resource skill gaps, and organisational aversion to technology despite its revolutionary promise. Theories like TOE and DOI identify leadership, policy support, and innovation ecosystems as AI preparedness success factors. Case studies in India, Indonesia, and Jordan recommend digital literacy, localised AI technologies, ethical data governance, and cooperative tactics to boost MSME AI deployments.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.4018/979-8-3373-2817-1.ch006",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "IGI Global Scientific Publishing"
+        }
+      },
+      {
+        "title": "Challenges and Opportunities in Digital Transformation for Small and Medium-Sized Manufacturing Enterprises",
+        "source": "crossref",
+        "url": "https://doi.org/10.5220/0014437800004018",
+        "doi": "10.5220/0014437800004018",
+        "year": 2026,
+        "authors": [
+          "Alex Wang",
+          "Sherah Kurnia"
+        ],
+        "venue": "Proceedings of the 28th International Conference on Enterprise Information Systems",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5220/0014437800004018",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "SCITEPRESS - Science and Technology Publications"
+        }
+      },
+      {
+        "title": "The Effects of Marketing Capabilities on Financial Performance through Innovation Capabilities in Fashion Small and Medium Enterprises in Medan",
+        "source": "crossref",
+        "url": "https://doi.org/10.5220/0009204003510355",
+        "doi": "10.5220/0009204003510355",
+        "year": 2019,
+        "authors": [
+          "Yeni Absah",
+          ". Rismayani",
+          "R. Hamdani Harahap"
+        ],
+        "venue": "Proceedings of the 2nd Economics and Business International Conference",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.5220/0009204003510355",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "SCITEPRESS - Science and Technology Publications"
+        }
+      },
+      {
+        "title": "Introduction: The Role of Small and Medium-Sized Enterprises in Achieving and Sustaining Growth and Performance",
+        "source": "crossref",
+        "url": "https://doi.org/10.4337/9781845425630.00009",
+        "doi": "10.4337/9781845425630.00009",
+        "year": 2005,
+        "authors": [
+          "Charles Harvie",
+          "Boon-Chye Lee"
+        ],
+        "venue": "Sustaining Growth and Performance in East Asia",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 8,
+        "work_type": "book-chapter",
+        "identifier": "10.4337/9781845425630.00009",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Edward Elgar Publishing"
+        }
+      },
+      {
+        "title": "MICRO, SMALL AND MEDIUM ENTERPRISES ACCESS TO FINANCE CHALLENGES IN SUPPLY SIDE PERSPECTIVE IN ETHIOPIA",
+        "source": "crossref",
+        "url": "https://doi.org/10.46281/ijsmes.v5i1.1808",
+        "doi": "10.46281/ijsmes.v5i1.1808",
+        "year": 2022,
+        "authors": [
+          "Temesgen Woldamanuel Wajebo"
+        ],
+        "venue": "International Journal of Small and Medium Enterprises",
+        "abstract": "Empirical evidence shows that the contribution of Micro, Small and Medium Enterprises Empirical evidence shows that the contribution of Micro, Small and Medium Enterprises (MSMEs) to gross domestic product growth, job creation, and poverty alleviation is high. Because of limited access to finance and other factors, a significant number of MSMEs, particularly in developing countries, cannot realize their full potential. The study investigates the micro, small, and medium enterprises' access to finance challenges from the supply-side perspective in Ethiopia. The study employed descriptive analysis using survey data collected from purposely selected 11 banks and 9 micro-finance institutions (MFI). The results show that the lack of collateral, unavailability of financial records, poor pre-loan savings, low loan repayment rate, business feasibility problems, credit information asymmetry, attitudinal problems of the MSMEs, and diversion of the loan are demand-side constraints. From the financial institution’s perspective, the result shows that the liquidity problem, the influence of unfair competition from government banks, the lack of competent human resources, political leaders’ intervention, especially in MFI, corruption, the COVID-19 pandemic, political instability, and inadequate capital are major obstacles. Macroeconomic conditions related to challenges such as foreign exchange shortages, inflation, and trade imbalances are also mentioned as major obstacles. According to the findings of this study, designing and implementing business skill development in mindset, business planning, business bookkeeping, and financial reports can help MSMEs access loans. For financial institutions, the study suggests cash flow-based lending products, applying psychometric testing for credit scoring, improving the governance of the government-affiliated MFIs, and automating the MFIs. JEL Classification Codes: G21, G23, G32.",
+        "pdf_url": "https://www.cribfb.com/journal/index.php/ijsmes/article/download/1808/1202",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.46281/ijsmes.v5i1.1808",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Centre for Research on Islamic Banking and Finance and Business"
+        }
+      },
+      {
+        "title": "Small and Medium-Sized Enterprises (SMEs) Difficulties and Challenges in Lao PDR",
+        "source": "crossref",
+        "url": "https://doi.org/10.2139/ssrn.2842492",
+        "doi": "10.2139/ssrn.2842492",
+        "year": 2016,
+        "authors": [
+          "Soukvina Philavanh"
+        ],
+        "venue": null,
+        "abstract": "Although the Government of Lao PDR has implemented several mechanisms to promote both small- and medium-sized private sector enterprises since the private sector has emerged as a significant force in the economic development. In addition, the government has carried out a number of development projects involving several sectors such as credit and income generation, health care, education and infrastructure development, in order to increase the benefits of market reforms for domestic investors. Recently, the SMEs sector contributes significantly to economic activity in Lao PDR and accounts for substantial employment and business locally. According to latest available data from the 2013 Economic census, there are 178,557 enterprises of which 158,915 (89.9%) are small and medium-sized enterprises employing less than 10-99 workers. Moreover, it found that most enterprises are located in the urban areas at 65.9% and 34.1% in the rural areas in which had shown that most enterprises are doing businesses in the big cities that related to trade, merchandising, wholesaling, retailing, car and motorcycle repairing covered at 62.8%, industrial processing at 12.5% and services at 11.7%. However, most production of goods and services is for domestic consumption at 94.4%.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "preprint",
+        "identifier": "10.2139/ssrn.2842492",
+        "extra": {
+          "crossref_type": "posted-content",
+          "publisher": "Elsevier BV"
+        }
+      },
+      {
+        "title": "SECURE SOFTWARE DEVELOPMENT LIFE CYCLE: Implementation Challenges in Small and Medium Enterprises (SMEs)",
+        "source": "crossref",
+        "url": "https://doi.org/10.22541/au.174585836.63395541/v1",
+        "doi": "10.22541/au.174585836.63395541/v1",
+        "year": 2025,
+        "authors": [
+          "Shubham Singh"
+        ],
+        "venue": null,
+        "abstract": "As cyber threats continue to grow in complexity and frequency, integrating security into software development life cycle (SDLC) has become a critical need. However, Small and Medium Enterprises (SMEs) often face significant challenges in adopting Secure SDLC practices. The literature review explores key barriers such as limited budgets, lack of in-house security expertise, time constraints, poor integration of security tools, and remediating detected vulnerabilities without affecting the business. The findings highlight that SMEs tend to prioritize rapid development, cost-efficiency, rapid business growth over robust security, leaving their applications vulnerable. Addressing these challenges requires simplified, cost-effective, business enabler security solution, better awareness, and targeted training programs to support SMEs in building secure software from the ground up.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "preprint",
+        "identifier": "10.22541/au.174585836.63395541/v1",
+        "extra": {
+          "crossref_type": "posted-content",
+          "publisher": "Wiley"
+        }
+      }
+    ]
+  },
+  "count": 49,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:10:29.667114+00:00"
+}

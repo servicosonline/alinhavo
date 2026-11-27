@@ -1,0 +1,862 @@
+{
+  "ok": true,
+  "data": {
+    "query": "3D virtual garment prototyping fit evaluation patternmaking",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 20,
+      "doab": 0
+    },
+    "raw_records": 40,
+    "merged_records": 39,
+    "returned": 39,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Interactive virtual try-on based three-dimensional garment block design for disabled people of scoliosis type",
+        "source": "openalex",
+        "url": "https://doi.org/10.1177/0040517516651105",
+        "doi": "10.1177/0040517516651105",
+        "year": 2016,
+        "authors": [
+          "Yan Hong",
+          "Xianyi Zeng",
+          "Pascal Bruniaux",
+          "Kaixuan Liu"
+        ],
+        "venue": "Textile Research Journal",
+        "abstract": "This paper introduces a co-design-based method for generating two-dimensional (2D) block patterns for physically disabled people with scoliosis, using three-dimensional (3D) virtual technology. A parameterization process is first performed on a scanned 3D body for creating a digitalized model of the human body, permitting simulation of the consumer's morphological shape with atypical physical deformations. Feature points of the human body for designing a garment block are discussed and classified with wearing ease for obtaining a desired fit effect based on the parameterized model. A basic garment block wire-frame aligned with body features is then established based on the defined feature points of the human body. Based on the deformed wireframe, a 3D expandable garment block is modeled. Customized 2D and 3D virtual garment prototyping tools are applied to create customized garment products based on the general concept of co-design by running the sequence Design–Display–Evaluation–Adjustment using the garment design process and design knowledge, which have already been applied to normal body shapes successfully. Through this process, the classical 2D garment design knowledge, especially 2D pattern design rules, will be modified according to the virtual garment evaluation procedure. The proposed method is validated and compared with the conventional block patternmaking methods in the virtual environment. The experimental results show that the proposed method is easier to implement and can generate garment patterns with satisfactory fit. Furthermore, the method can be used to create fit-ensured mass-customized apparel products (the top body type) for disabled people with scoliosis.",
+        "pdf_url": null,
+        "citation_count": 93,
+        "work_type": "article",
+        "identifier": "W2410925333",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "closed"
+        }
+      },
+      {
+        "title": "Digital 3D garment development process: From concept to virtual prototype",
+        "source": "openalex",
+        "url": "https://doi.org/10.5937/ct_iti26028b",
+        "doi": "10.5937/ct_iti26028b",
+        "year": 2026,
+        "authors": [
+          "Nadiia Petar Bukhonka"
+        ],
+        "venue": "International Scientific Conference Contemporary Trends and Innovations in Textile Industry (CT&ITI)",
+        "abstract": "The digital transformation of the apparel industry is increasingly driven by the integration of 2D pattern development and 3D virtual simulation technologies. This study focuses on the digital 3D garment development process using VStitcher (Browzwear), presenting a structured workflow from the initial design concept to the final virtual prototype. The proposed approach emphasizes the transition from traditional physical sampling to digital prototyping, enabling improved efficiency, faster design interactions, and reduced material consumption. The workflow includes 2D pattern construction, material definition and mapping, virtual garment assembly, 3D simulation, and fit evaluation on a digital avatar. The results demonstrate that integrating 2D and 3D environments creates a continuous feedback loop that supports iterative refinement of design parameters and early detection of construction and fit issues. The study further confirms that virtual prototyping, supported by styling tools, enhances garment evaluation by enabling advanced manipulation and simulation of manual fitting adjustments. This contributes to reduced physical sampling, improved development accuracy, and increased workflow efficiency. However, simulation accuracy remains dependent on precise pattern construction, material parameter definition, garment complexity, and user expertise, while certain tactile fabric properties cannot yet be fully replicated digitally. Overall, the study demonstrates that 3D garment development systems such as VStitcher provide a robust methodological framework for more efficient, accurate, and sustainable apparel product development in both industrial and educational contexts.",
+        "pdf_url": "https://scindeks-clanci.ceon.rs/data/pdf/proc-0087/2026/proc-00872600028B.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W7204458729",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "VIRTUAL FIT EVALUATION FOR OPTIMIZATION OF GARMENT COMPONENT’S PARAMETERS",
+        "source": "openalex",
+        "url": "https://doi.org/10.7216/teksmuh.1500589",
+        "doi": "10.7216/teksmuh.1500589",
+        "year": 2024,
+        "authors": [
+          "Sai Krishnan Arumbakkam Narasimhan",
+          "Kanakaraj P",
+          "Ramachandran Rajaopalan"
+        ],
+        "venue": "Tekstil ve Mühendis",
+        "abstract": "Apparel fit is influenced by body proportion, fabric, and design parameters, but much of the fit evaluation is carried out in a static model, which leads to time consumption and higher development costs. In this work, an attempt has been made to quantify the fit objectively for a basic crewneck T-shirt for men’s wear made of cotton and cotton-lycra blended single jersey knitted fabric. A parametric avatar model was created, and virtual patterns were developed by changing the design parameters at three levels in the CAD platform. The fit is objectively quantified as strain and ease in different garment fit zones of the body. Virtual 3D fit software evaluates the fit zones of the garment by incorporating the low-stress mechanical properties of the knitted fabrics into an avatar model. There is a significant influence on pattern parameters and material compositions; cotton-lycra garments reveal lower ease at various fit zones.",
+        "pdf_url": "https://dergipark.org.tr/en/download/article-file/4002942",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W4405731225",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "UCTEA Chamber of Textile Engineers",
+          "openalex_type": "article",
+          "oa_status": "diamond",
+          "also_in": "openalex,crossref"
+        }
+      },
+      {
+        "title": "Regression-based custom skirt patternmaking using 3D body scanning data.",
+        "source": "openalex",
+        "url": "https://doi.org/10.1080/17543266.2026.2702505",
+        "doi": "10.1080/17543266.2026.2702505",
+        "year": 2026,
+        "authors": [
+          "Ruqey Alhassawi",
+          "Simeon Gill",
+          "Steve Hayes",
+          "Kristina Brubacher"
+        ],
+        "venue": "International Journal of Fashion Design Technology and Education",
+        "abstract": "This study proposes a regression-based patternmaking framework to improve garment fit by accommodating body shape variation within standardised size categories. A total of 200 body measurements were extracted from 677 female 3D body scans to capture morphological diversity. The findings reveal substantial variability in body proportions within the same size category, highlighting the limitations of conventional sizing systems that rely primarily on bust, waist, and hip measurements. Linear regression models were developed to establish predictive relationships between body measurements and the coordinate-level adjustments required for a standard skirt pattern block. Results show that regression-based methods enable tailored, measurement-specific modifications to pattern coordinates for individual body shapes. The proposed modifications were evaluated through their statistical correspondence with body measurements rather than through physical or virtual garment fit testing. Accordingly, physical and virtual validation are identified as necessary future steps to evaluate improvements in garment fit.",
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/17543266.2026.2702505?needAccess=true",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7170151929",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "3 Dimensional Virtual Fabric and Garment Simulation",
+        "source": "openalex",
+        "url": "http://rave.ohiolink.edu/etdc/view?acc_num=ucin1212101542",
+        "doi": null,
+        "year": 2008,
+        "authors": [
+          "Marit Schilder"
+        ],
+        "venue": "OhioLink ETD Center (Ohio Library and Information Network)",
+        "abstract": "This thesis explores the possibilities of virtual 3D garment simulation software for fashion design.The available software for simulating virtual clothing can roughly be separated into two groups.The first group of software is focused on animation and used to visualize cloth for games, movies, commercials.The second group is used for the virtual prototyping of garments in the apparel industry.Their main focus is to check a garment for the fit, and the 3D software is an extension on patternmaking software that was already available.Various software applications are explored in this thesis.An overview of functionality and a comparison of pros and cons are identified.Software aimed at the apparel industry is not very flexible in accurately visualizing a garment and especially the fabric of that garment.Through the use of sophisticated fabric design, this thesis shows how to use existing visualization techniques available in Autodesk Maya 8.5 differently to enhance the realism of virtual fabric and garment simulation.",
+        "pdf_url": "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=ucin1212101542&disposition=inline",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W2599624125",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "CASP Methodology for Virtual Prototyping of Garments for People with Postural Disorders and Spinal Deformities",
+        "source": "openalex",
+        "url": "https://doi.org/10.5772/intechopen.68632",
+        "doi": "10.5772/intechopen.68632",
+        "year": 2017,
+        "authors": [
+          "Andrej Cupar",
+          "Zoran Stjepanović",
+          "Simona Jevšnik",
+          "Rija Erveš",
+          "Andreja Rudolf"
+        ],
+        "venue": "InTech eBooks",
+        "abstract": "“Nobody is Perfect” is a phrase we often hear and use for different purposes. It can relate to our physical appearances or behavioral properties. A great share of the world’s population is faced with difficulties caused by postural disorders and spinal deformities. In our chapter we are not dealing with medical points of view. Instead, our intention is to highlight the problems and needs of affected people for suitable, well-fitted, and attractive garments. It is a fact that they need clothing items, not only for everyday use but also for special, festive occasions and sports. Finding suitable garments can be a nightmare for them. Normally, ready-made garments cannot be used if the postural disorders and spinal deformities are very expressive. Therefore, an individual approach is needed for planning, designing, and producing such garments. We propose virtual prototyping and CASP methodology for analyzing digitized geometry supported by computer-aided pattern designs for designing suitable, well-fitted garments for people with postural disorders and spinal deformities. “CASP” stands for Curvature, Acceleration, Symmetry, and Proportionality. It is used for methodology to analyze those four properties on surfaces in a virtual computer environment, as explained further on.",
+        "pdf_url": "https://www.intechopen.com/citation-pdf-url/55160",
+        "citation_count": 3,
+        "work_type": "book-chapter",
+        "identifier": "W2760128492",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Exploring 3D Garment Simulation as a Prototype Validation Tool for Costume Design.",
+        "source": "openalex",
+        "url": "http://www.lib.ncsu.edu/resolver/1840.16/10005",
+        "doi": null,
+        "year": 2015,
+        "authors": [
+          "Anne Porterfield"
+        ],
+        "venue": "NCSU Libraries Repository (North Carolina State University Libraries)",
+        "abstract": "PORTERFIELD, JANE ANNE. Exploring 3D Garment Simulation as a Prototype Validation Tool for Costume Design. (Under the direction of Dr",
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W2526713377",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Comparative Study of Real and Virtual Garments Appearance and Distance Ease",
+        "source": "openalex",
+        "url": "https://doi.org/10.5755/j01.ms.26.2.22162",
+        "doi": "10.5755/j01.ms.26.2.22162",
+        "year": 2020,
+        "authors": [
+          "Agnė Lagė",
+          "Kristina Ancutienė",
+          "Rūta Pukienė",
+          "Eva Lapkovska",
+          "Inga Dāboliņa"
+        ],
+        "venue": "Materials Science",
+        "abstract": "Nowadays, virtual try-on is an irreplaceable technology in fashion industry, so it is very important to prove virtual try-on matching with the real garments. Therefore, the aim of this research was to compare garment fit using virtual try-on and scanning technologies. For this reason, garment visual appearance and distance ease between straight fit dress and mannequin in respect to fabrics properties were investigated. Women mannequins in different sizes were scanned by 3D scanner VITUS Smart XXL without and with the real straight fit dresses made from five different woven fabrics. Fabrics mechanical properties were defined by KES-F. Scanned mannequins were covered with the same size and fabric virtual dresses by Modaris 3D (CAD Lectra). Distance ease of virtual and scanned garments was compared in bust and waist cross-sections. It was defined that distance ease values at bust girth of real and virtual dresses differed till 29.9 % (1.16 cm), while at waist varied from 7.3 % (0.51 cm) to 47.3 % (4.30 cm) because of wrinkles in this area. Generally, appearance of the virtual dresses was similar to real dresses with some differences in garment shape fluency, however by increasing of the mannequin size, similarities decreased. It was assumed that very high shear rigidity G could not be very well reflected in 3D CAD system, therefore differences between virtual and real dresses appearance occurred. The general appearance and form of bust and waist cross-sections of virtual dresses with fabric 03 had less similarities comparing with real dresses due to high G value. So, comparative study showed that the accuracy of virtual try-on was quite useful comparing to real garments, if shear rigidity of fabrics was lower than 1.6 N/m*º and tensile strain in warp direction was higher than 1.80 %.",
+        "pdf_url": "https://matsc.ktu.lt/index.php/MatSc/article/download/22162/12959",
+        "citation_count": 20,
+        "work_type": "article",
+        "identifier": "W2999969602",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Evaluating garment size and fit for petit women using 3D body scanned anthropometric data",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10500/24014",
+        "doi": null,
+        "year": 2017,
+        "authors": [
+          "MM Phasha"
+        ],
+        "venue": "Unisa Institutional Repository (University of South Africa)",
+        "abstract": "Research suggests that there is a plethora of information on the size and shape of the average and plus sized women in South Africa (Winks, 1990; Pandarum, 2009; Muthambi, 2012; Afolayan & Mastamet-Mason, 2013 and Makhanya, 2015). However, there is very little information on petite women‟s body shapes, their body measurements and their shopping behaviour, especially in South Africa, for manufacturing ready-to-wear garments. The purpose of this petite women study was to investigate the shapes and sizes of a sample of petite South African women and develop size charts for the upper and lower body dimensions. This study used a mixed-method; purposive, non-probability sampling method to achieve the objectives of the study. A (TC)² NX16 3D full body scanner and an Adam‟s® medical scale were used to collect the body measurement data of 200 petite South African women, aged between 20-54 years with an average height range of 157cm, residing in Gauteng (Pretoria and Johannesburg). Other data collection instruments included a demographic questionnaire to collect the subjects‟ demographic information such as, age, height, weight, etc.; and the psychographic questionnaire to gather the petite subjects‟ demographics as well as their perceptions and preferences on currently available ready-to-wear shirt and trouser garments. Of the 200 subjects that were initially recruited, based on the petite women‟s body height that ranged from 5‟ 4” (163 cm) and below, the most prevalent body shape profile that emerged from the dataset, was the pear body shape which was evident in 180 of the 3D full body scanned petite women subjects. Therefore, the anthropometric data for these 180 subjects was used in the development of the experimental upper and lower body dimensions size charts and as the basis for the fit test garments developed in this study. The collected data was analysed and interpreted in Microsoft Excel and the IBM SPSS Statistics 24 (2016) software package, using principal component analysis (PCA) to produce the experimental size charts for the upper and lower body dimensions necessary for creating prototype shirt and trouser garments. Regression analysis was used to establish the primary and secondary body dimensions for the development of the size charts and for determining the size ranges. The experimental upper and lower body dimensions size charts were developed for sizes ranging from size 6/30 to size 26/50. Subsequently, the accuracy of the size charts developed in this study was evaluated by a panel of experts who analysed the fit of the prototype shirt and trouser garments, manufactured using measurements for a size 10/34 size range from the size chart, on a sample of the petite subjects. The fit of these garments was also compared with the fit of garments manufactured using the 3D full body scanned measurements of a size 10/34 petite tailoring mannequin, that is currently commercially available for use in the production of garments for petite women in South Africa. The shirt and trouser prototype garments developed using the size 10/34 upper and lower body dimensions size chart measurements had, overall, a better quality of fit than the garments made to fit the current, commercially available, size 10/34 mannequin. These findings thereby confirmed that the data extracted from the (TC)² NX16 3D full body scanner and the size charts subsequently developed using the data, has the potential to provide better/improved fit in garments for petite South African women than data hitherto published. From the evidence of this study, it is recommended that the South African garment manufacturing industry needs to revise the current sizing system for petite women to accommodate the body dimensions and shape variations that currently prevail amongst consumers. The South African garment manufacturers and retailers also need to familiarise themselves with the needs, challenges and preferences of the petite consumers‟ target market that purchase ready-to-wear shirt and trouser garments in South Africa.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2808895316",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Effects of 3D Virtual Garment Pattern Simulation Technology on Students’ Learning Quality",
+        "source": "openalex",
+        "url": "https://doi.org/10.31031/nrs.2021.08.000695",
+        "doi": "10.31031/nrs.2021.08.000695",
+        "year": 2021,
+        "authors": [
+          "Ah Pun Chan"
+        ],
+        "venue": "Novel Research in Sciences",
+        "abstract": "3D virtual garment simulation technology in apparel design, virtual fitting, pattern drafting, and production management contributes significantly to retail sales. It is widely used in the product development stage for apparel design. Combined with computer-aid manufacturing system, it significantly shortens the numerous trials and errors in the sampling process and provides a positive impact on the clothing industry by effectively creating individualized products in fashion items with short product life cycles. To fulfill the industry’s increasing demand for technical designers with skills using 3D virtual garment simulation software, students need to start training in their undergraduate studies. A pedagogy for 3D virtual garment simulation learning methods needs to be developed to help refine course structure and outline to undergraduate students how to meet the high demands in the industry on achieving the concept of customer orientation with proper garment fitting. This study recruited a total of 154 undergraduate students from two different design streams: womenswear design and knitwear design. A focus group interview was conducted to confirm and refine the items in the structured questionnaire and served to assert or explain the quantitative data through triangulation, which was based previous research findings from other researchers. The findings of this study showed that some technical skills must be learnt before using or learning 3D virtual garment simulation software",
+        "pdf_url": "http://crimsonpublishers.com/nrs/pdf/NRS.000695.pdf",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W7167605176",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "An experimental study to test a 3D laser Scanner for body measurement and 3D virtual garment design in Fashion education",
+        "source": "openalex",
+        "url": "http://eprints.hud.ac.uk/id/eprint/780/1/Wearable_Futures_2005.pdf",
+        "doi": null,
+        "year": 2005,
+        "authors": [
+          "Andrew M. Taylor",
+          "Ertu Unver"
+        ],
+        "venue": "University of Huddersfield Repository (University of Huddersfield)",
+        "abstract": "Artists, scientists, anthropometrists and tailors have accurately measured the human body with traditional tools, such as tape measures, callipers and accumulated visceral experience for centuries. Due to the progressive acceleration in the quality of 3D graphics technology and computer processing power, many product industries that traditionally use 3D software as a 3D design and prototyping tool, are also successfully measuring, customizing and re-engineering the products they design and manufacture through the integrated use of 3D Laser scanning technology. In the changing world of Fashion, 3D graphics technology has at last emerged from the shadows of academic research projects and hit the high streets. 3D body measurement surveys, using mobile 3D laser scanners, have mapped the true shape and body sizes of the UK and USA populations. Virtual fit and 3D visualisation technology has expanded out from the Internet, into the physical world, and is now available for shoppers to visualise made to measure garments. The acceptance of three-dimensional body-scanning and 3D digital design tools into our everyday experiences can be seen as a significant move toward encouraging and developing new, innovative learning and teaching methods in Art & Design education. This paper describes an experimental study into the application of 3D laser scanner technology for use in learning and teaching of undergraduate and postgraduate fashion and textiles design; clothing manufacture, fashion marketing, merchandising and promotion. The study focuses on testing the 3D scanning equipment with a student sample group. The use of the sample group attempts to simulate a range of body shapes, categorised by the traditional standard size chart specification method, currently used to design new fashion collections for high street clothing retail and UK fashion education. The methods applied for evaluation and testing of the 3D laser scanner for body measurement are described, and the results of the initial user experiences are discussed. The study seeks to establish the overall efficiency of 3D scanning technology and investigates the potential value for integration of the 3D Laser scanner with 3D clothing design and construction software. Conclusions provide recommendations on the potential effectiveness of connecting the results of the 3D body measurement study to the fashion curriculum",
+        "pdf_url": "http://eprints.hud.ac.uk/id/eprint/780/1/Wearable_Futures_2005.pdf",
+        "citation_count": 6,
+        "work_type": "book-chapter",
+        "identifier": "W67111925",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A Case Study of 2D/3D CAD Virtual Prototype Simulation Programs to Enhance Student Performance in Student-Centered Fashion Design Education",
+        "source": "openalex",
+        "url": "https://doi.org/10.15406/jteft.2017.03.00088",
+        "doi": "10.15406/jteft.2017.03.00088",
+        "year": 2017,
+        "authors": [
+          "Ja Young Hwang"
+        ],
+        "venue": "Journal of Textile Engineering & Fashion Technology",
+        "abstract": "To consider rapid development of advanced technology in the fashion industry, this study focuses on analyzing how 2D CAD patternmaking and 3D garment simulation programs have been used as tools for enhancing student performance in student-centered fashion design education. A case study is used to capture students’ perceptions while they are using 2D and 3D software for design development and measure student performance with respect to enhancement of understanding of 3D visualization in student-centered education. This study discovered that both 2D patternmaking and 3D simulation program usage increased and enhanced student learning and helped them be more efficient in their pattern development process. It was also found that both programs encouraged students to think critically about their design process. This study provides insight with respect to how fashion design classes can properly equip future professionals with new technology developments in the fashion industry.",
+        "pdf_url": "https://medcraveonline.com/JTEFT/JTEFT-03-00088.pdf",
+        "citation_count": 14,
+        "work_type": "article",
+        "identifier": "W2770265918",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "3D GARMENT SIMULATION AS A TOOL TO ACTUALIZE THE DESIGN IDEAS OF FASHION STUDENTS",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.54976/tjfdm.1321102",
+        "doi": "10.54976/tjfdm.1321102",
+        "year": 2023,
+        "authors": [
+          "Evrim BUYUKASLAN OOSTEROM"
+        ],
+        "venue": "Turkish Journal of Fashion Design and Management",
+        "abstract": "This study explores how fashion design students perceive using 3D garment simulation to create their design ideas. As a part of an elective course taught in Fall 2022, twelve students were given a project to prepare virtual and physical garments of their design. The study had two parts: First was understanding students' expectations about 3D garment simulation before starting the project, and second was understanding students’ experience after completing the project and comparing their before and after project experiences. Accordingly, a structured questionnaire measured on a seven-point Likert scale was applied to the students before starting their project to see their self-confidence of using 3D garment simulation, and after the project to understand their self-evaluations of their performance and difficulties they encountered during the project. The first part of the study presented here shows that students had a high self-confidence (M=5.16) that they will successfully apply their project digitally and it will be similar to their physical garment (M=5.50). Still, they were not so confident if the digital garment would be visually satisfying (M=4.92). Students were highly convinced that using 3D garment simulation is very useful (M=6.42) to visualize their projects before starting to work on it and they had high intention (M= 6.00) to use it in the future. After project results showed that students self-evaluated their performance higher than before project expectations. Students' evaluations for the perceived usefulness of 3D garment simulation to visualize their project and intention to use it in the future dropped after the project (M= 6.17 and M=5.75, respectively). Finally, students had the most difficulty creating the patterns and achieving the correct digital fit.",
+        "pdf_url": "https://dergipark.org.tr/en/download/article-file/3237372",
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "W4388023753",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "A study of patternmaking and the contributing factors making it a scarce and critical skill",
+        "source": "openalex",
+        "url": "https://doi.org/10.51415/10321/3198",
+        "doi": "10.51415/10321/3198",
+        "year": 2018,
+        "authors": [
+          "Williamson, Karin"
+        ],
+        "venue": "DUT Open Scholar (Durban University of Technology)",
+        "abstract": "Patternmaking skills have been identified as being scarce and critical by the Fibre-Processing and Manufacturing Sector Education and Training Authority (FP&MSETA 2015) and this presents a potential threat to the South African clothing industry. Exploratory discussion with clothing industry stakeholders and subject matter experts indicated that the need for patternmaking knowledge and skills is increasing, while the availability of these skills is decreasing. The purpose of this research was to identify education and training areas of development with respect to patternmaking. The research was informed by an extensive literature study covering three critical areas, namely, the identification of the diverse patternmaking skills required, the expectations of the clothing industry in relation to these skills, and how the education and training of patternmakers’ skills can be improved. Primary data was collected from a focus group comprised of subject matter experts in the patternmaking field and then from an online survey questionnaire to clothing industry stakeholders. Finally, an analysis of current teaching approaches and learning practices was undertaken. This was to establish what changes needed to be implemented to address the new requirements for patternmaking skills in the changing manufacturing landscape.",
+        "pdf_url": "https://openscholar.dut.ac.za/bitstream/10321/3198/1/Williamson_2018.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2944395807",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Evaluation of Different 3D Visualization Software and Impact of Design Details on the Simulation of Garments.",
+        "source": "openalex",
+        "url": "https://www.lib.ncsu.edu/resolver/1840.20/38367",
+        "doi": null,
+        "year": 2020,
+        "authors": [
+          "Shahida Afrin"
+        ],
+        "venue": "NCSU Libraries Repository (North Carolina State University Libraries)",
+        "abstract": "North Carolina State University Theses Textile Management and Technology.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W3106429089",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "3D Virtual-Try-On: The Avatar at Center Stage",
+        "source": "openalex",
+        "url": "https://doi.org/10.15221/13.056",
+        "doi": "10.15221/13.056",
+        "year": 2013,
+        "authors": [
+          "Jean-Marc Surville",
+          "Thierry Moncoutie"
+        ],
+        "venue": "International Conference on 3D Body Scanning Technologies (3DBST)",
+        "abstract": "Being the true clones of real humans - regardless if they have been body-scanned or built from scratch -, 3D avatars are getting more attention in the fashion industry, thanks to the development of virtual try-on. With increased confidence in the virtual representation of reality (human body, garment and fabrics), fashion designers and pattern makers now work collaboratively. The 3D representation of a garment on a 3D avatar is now the base of discussion between professionals with different technical backgrounds and vocabulary - before a single piece of fabric is cut and assembled! Thanks to body-scanning capabilities, the numerous postures of a 3D avatar can facilitate the development of styles and collections. A demanding consumer can now literally give his/her own avatar - his/her body-scan - for apparel professionals to adjust garments to his/her own morphology. The 3D avatar is at center stage, boosting virtual try-ons. The lecturer will present how the 3D representation of postures, garment pieces, and fabrics are crucial in making informed decisions, before a garment is produced. Both ready-to-wear and made-to-measure market segments will benefit from a 3D-based enhanced collaboration between fashion designers and pattern makers.",
+        "pdf_url": "https://www.3dbody.tech/cap/papers/2013/13056_19surville.pdf",
+        "citation_count": 9,
+        "work_type": "other",
+        "identifier": "W2059060829",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Fit models’ roles in identifying fit issues in the apparel technical design process and implications for improving 3D virtual fitting",
+        "source": "openalex",
+        "url": "https://doi.org/10.1186/s40691-024-00398-4",
+        "doi": "10.1186/s40691-024-00398-4",
+        "year": 2024,
+        "authors": [
+          "Yoon Joung Yang",
+          "Fatma Baytar"
+        ],
+        "venue": "Fashion and Textiles",
+        "abstract": "Fit sessions are essential in making well-fitted clothing. During these sessions, apparel fit is determined iteratively by a team of designers, technical designers, fit models, and merchandisers. With the advent of the digitalization of new product development processes in the fashion industry, fit sessions have been seen as a bottleneck for they are still held in person. However, the process is currently still irreplaceable, and what makes the feedback provided by fit models important is an area that has never been tapped. Therefore, the present study aimed to understand fit models’ role in fit sessions as well as how they assess the fit of garments and deliver their feedback. On-site observation during fit sessions and individual interviews with fit models were conducted. It was found that fit models gave comfort, fit, and tactile comments by testing garments while standing and moving between several postures. They had knowledge that overlapped with those of technical designers and designers and this empowerment enabled them to take part in the decision-making process in fit sessions. It also was found that fit models’ feedback on garments was essential as they were the first people to try on the garments and present the customers’ points of view.",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1186/s40691-024-00398-4.pdf",
+        "citation_count": 14,
+        "work_type": "article",
+        "identifier": "W4402642452",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "A Machine Learning-Enhanced 3D Reverse Design Approach to Personalized Garments in Pursuit of Sustainability",
+        "source": "openalex",
+        "url": "https://doi.org/10.3390/su15076235",
+        "doi": "10.3390/su15076235",
+        "year": 2023,
+        "authors": [
+          "Zhujun Wang",
+          "Xuyuan Tao",
+          "Xianyi Zeng",
+          "Yingmei Xing",
+          "Zhenzhen Xu",
+          "Pascal Bruniaux"
+        ],
+        "venue": "Sustainability",
+        "abstract": "The fashion industry is facing increasing pressure to move toward sustainable development, especially with concern to cost and environmental sustainability. Innovative digital technologies are regarded as a promising solution for fashion companies to resolve this issue. In this context, this paper put forth a new 3D reverse garment design approach embedded with a garment fit prediction and structure self-adaptive adjustment mechanism, using machine learning (ML) techniques. Initially, the 3D basic garment was drawn directly on the scanned mannequin of a specific consumer. Next, a probabilistic neural network (PNN) was employed to predict the garment’s fit. Afterwards, genetic algorithms (GA) and support vector regression (SVR) were utilized to estimate and control the garment structural parameters following the feedback of fit evaluation and the consumer’s personalized needs. Meanwhile, a comprehensive evaluation was constructed to characterize the quantitative relationships between the consumer profile and the designed garment profile (garment fit and styles). Ultimately, the desired garment which met the consumer’s needs was obtained by performing the routine of “design–fit evaluation–pattern adjustment–comprehensive evaluation”, iteratively. The experimental results show that the proposed approach provides a new solution to develop quality personalized fashion products (garments) more accurately, economically, and in an environmentally friendly way. It is feasible to facilitate the sustainable development of fashion companies by simultaneously reducing costs and negative impacts on the environment.",
+        "pdf_url": "https://www.mdpi.com/2071-1050/15/7/6235/pdf?version=1680792599",
+        "citation_count": 31,
+        "work_type": "article",
+        "identifier": "W4362614348",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Assessment of user democratization in 2D to 3D garment assemblage",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.32469/10355/94043",
+        "doi": "10.32469/10355/94043",
+        "year": 2022,
+        "authors": [
+          "Lida Aflatoony"
+        ],
+        "venue": "MOspace Institutional Repository (University of Missouri)",
+        "abstract": "[EMBARGOED UNTIL 8/1/2023] This research study aimed to explore strategies for transformable clothing design to engage consumers in the design process, in turn, establish an awareness of sustainable fashion. The first goal of this design research was to create a 2D to 3D apparel design process that places agency in the hands of the user. The 2D to 3D apparel design in this research study was related to the transition of a 2D flat textile into a 3D garment. Therefore, the second goal of this research study was to evaluate the sense of control and connection between a user and a transformable garment. The primary purpose of this process was to investigate whether this involvement was tied to prolonged clothing lifespan. To achieve this goal, this study used the participatory design research method. The information received from the participatory design stage was combined with the researcher's tacit knowledge and the information found in literature about specific design strategies for a 2D to a 3D process to develop the final designs. This study's findings support the underlying argument of democratization, which suggests that design democratization is achieved when designers involve consumers in the final stages of the garment-making process. Democratization can provide the users with a simple hands-on activity and a sense of satisfaction",
+        "pdf_url": "https://mospace.umsystem.edu/xmlui/bitstream/10355/94043/1/AflatoonyLidaResearch.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4319336352",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A Comparative Study of 3D Virtual Pattern and Traditional Pattern Making",
+        "source": "openalex",
+        "url": "https://doi.org/10.4236/jtst.2024.101001",
+        "doi": "10.4236/jtst.2024.101001",
+        "year": 2023,
+        "authors": [
+          "Md. Ahshan Habib",
+          "Md. Shamsul Alam"
+        ],
+        "venue": "Journal of Textile Science and Technology",
+        "abstract": "Pattern making plays a key role in the aspect of fashion design and garment production, as it serves as the transformative process that turns a simple drawing into a consistent accumulation of garments. The process of creating conventional or manual patterns requires a significant amount of time and a specialized skill set in various areas such as grading, marker planning, and fabric utilization. This study examines the potential of 3D technology and virtual fashion designing software in optimizing the efficiency and cost-effectiveness of pattern production processes. The proposed methodology is characterized by a higher level of comprehensiveness and reliability, resulting in time efficiency and providing a diverse range of design options. The user is not expected to possess comprehensive knowledge of traditional pattern creation procedures prior to engaging in the task. The software offers a range of capabilities including draping, 3D-to-2D and 2D-to-3D unfolding, fabric drivability analysis, ease allowance calculation, add-fullness manipulation, style development, grading, and virtual garment try-on. The strategy will cause a shift in the viewpoints and methodologies of business professionals when it comes to the use of 3D fashion design software. Upon recognizing the potential time, financial, and resource-saving benefits associated with the integration of 3D technology into their design development process, individuals will be motivated to select for its utilization over conventional pattern making methods. Individuals will possess the capacity to transfer their cognitive processes and engage in introspection regarding their professional endeavors and current activities through the utilization of 3D virtual pattern-making and fashion design technologies. To enhance the efficacy and ecological sustainability of designs, designers have the potential to integrate 3D technology with virtual fashion software, thereby compliant advantages for both commercial enterprises and the environment.",
+        "pdf_url": "http://www.scirp.org/journal/PaperDownload.aspx?paperID=129669",
+        "citation_count": 47,
+        "work_type": "article",
+        "identifier": "W4389411791",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Digital Fashion Twins for Virtual Prototyping, Fit Optimization and Zero-Waste Garment Manufacturing",
+        "source": "crossref",
+        "url": "https://doi.org/10.62311/nesx/rb47ag-978-81-68314-53-5",
+        "doi": "10.62311/nesx/rb47ag-978-81-68314-53-5",
+        "year": 2026,
+        "authors": [
+          "Murali Krishna Pasupuleti"
+        ],
+        "venue": null,
+        "abstract": "Digital fashion twins create a computational counterpart of garments, bodies, materials and manufacturing processes that can be tested before costly physical decisions are made. This book develops a research architecture for virtual prototyping, fit optimization and zero-waste garment manufacturing by integrating parametric representation, uncertainty-aware statistics, causal inference, machine learning, scalable data engineering and governance. It treats the twin as a versioned evidence system rather than a static three-dimensional visualization. The analysis connects body-shape variability, fabric mechanics, surrogate simulation, generative pattern design, marker optimization, closed-loop production data and lifecycle traceability. Particular attention is given to model calibration, simulation-to-reality validation, multimodal generalization, human oversight, interoperability and reproducible MLOps. The proposed framework links design quality with material utilization, sample reduction, inclusive fit and circular manufacturing outcomes while preserving explicit limits on automation. Global applicability is considered across South Asian apparel clusters, European design and regulatory ecosystems, African industrial development contexts and American retail and technology environments. The resulting models, metrics, protocols and governance artifacts provide a foundation for rigorous experimentation, responsible industrial deployment and future research on digitally integrated, low-waste fashion production. Keywords digital fashion twins, virtual prototyping, garment simulation, fit optimization, anthropometric modelling, statistical shape models, fabric mechanics, surrogate modelling, generative design, pattern engineering, multimodal AI, machine learning, causal inference, marker optimization, zero-waste manufacturing, digital thread, MLOps, edge intelligence, circular fashion, trustworthy AI, industrial analytics, sustainable apparel",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.62311/nesx/rb47ag-978-81-68314-53-5",
+        "extra": {
+          "crossref_type": "reference-book",
+          "publisher": "National Education Services"
+        }
+      },
+      {
+        "title": "Interactive 3D Garment Simulation: A Technologically Enhanced and Leading Patternmaking Tool with Project-based Learning Methods Virtual Setting",
+        "source": "crossref",
+        "url": "https://doi.org/10.31274/itaa_proceedings-180814-1529",
+        "doi": "10.31274/itaa_proceedings-180814-1529",
+        "year": 2016,
+        "authors": [
+          "Ja Young Hwang",
+          "Kim HongYoun Hahn"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "10.31274/itaa_proceedings-180814-1529",
+        "extra": {
+          "crossref_type": "report",
+          "publisher": "Iowa State University, Digital Repository"
+        }
+      },
+      {
+        "title": "Applicability of 3D Garment Prototyping in Assessment of Garment Fit",
+        "source": "crossref",
+        "url": "https://doi.org/10.15221/14.066",
+        "doi": "10.15221/14.066",
+        "year": 2014,
+        "authors": [
+          "Agnieszka Cichocka",
+          "Sylwia Serwatka-Bober",
+          "Pascal Bruniaux",
+          "Paulina Podlas"
+        ],
+        "venue": "Proceedings of the 5th International Conference on 3D Body Scanning Technologies, Lugano, Switzerland, 21-22 October 2014",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.15221/14.066",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Hometrica Consulting - Dr. Nicola D'Apuzzo"
+        }
+      },
+      {
+        "title": "A decision support framework for garment fit prediction: standardizing fabric mechanical properties in 3D virtual prototyping",
+        "source": "crossref",
+        "url": "https://doi.org/10.1108/rjta-12-2025-0278",
+        "doi": "10.1108/rjta-12-2025-0278",
+        "year": 2026,
+        "authors": [
+          "Ha Nhu Ngoc Phan",
+          "Huong Mai Bui",
+          "Song Thanh Quynh Le"
+        ],
+        "venue": "Research Journal of Textile and Apparel",
+        "abstract": "Purpose The apparel and fashion industry is one of the most dynamic industries, constantly changing in response to market trends and increasing consumer demand for product quality. In this sector, garment fit criteria greatly influence product development and fashion quality control. This study aims to propose a decision-support framework by integrating standardized fabric mechanical properties with 3D virtual prototyping and machine learning (ML) models to predict deformation-related indicators of garment–body interaction, including deformation region, strain and stress, to support early-stage pattern development, material screening and more efficient virtual prototyping. Design/methodology/approach The research process consisted of four stages: fabric mechanical data collection, and data set construction; data preprocessing and feature selection to ensure data accuracy; developing a predictive model using a sequential decision tree–linear regression approach and a multi-target random forest (MT-RF); and evaluation and verification of the model’s performance in early-stage pattern development. Findings The sequential model generated clear decision rules and region-specific regression equations, achieving a classification accuracy of 78.3%. The MT-RF achieved 97.0% accuracy in deformation-region classification. Notably, the coefficient of determination was 0.916 for strain and 0.884 for stress, confirming robust joint prediction of categorical and continuous outcomes. The predicted deformation indicators enabled the identification of localized deformation-prone zones, providing useful guidance for early-stage pattern refinement and fabric selection in digital garment development. Originality/value This study contributes a design-oriented decision-support framework by translating standardized fabric measurements into deformation-related indicators for decision-making in garment development. It offers an interpretable and application-oriented framework that supports early-stage pattern refinement, material screening and more efficient virtual prototyping.",
+        "pdf_url": "https://www.emerald.com/rjta/article-pdf/doi/10.1108/RJTA-12-2025-0278/11717857/rjta-12-2025-0278en.pdf",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.1108/rjta-12-2025-0278",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Emerald"
+        }
+      },
+      {
+        "title": "Color histogram analysis of virtual garment fit image for automated fit evaluation",
+        "source": "crossref",
+        "url": "https://doi.org/10.31274/itaa.17286",
+        "doi": "10.31274/itaa.17286",
+        "year": 2024,
+        "authors": [
+          "Seowon Heo",
+          "Yeonghoon Kang",
+          "Sungmin Kim",
+          "Jihyun Oh"
+        ],
+        "venue": "Bridging the Divide",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.31274/itaa.17286",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Iowa State University Digital Press"
+        }
+      },
+      {
+        "title": "3D Garment Simulation with Applications to Women's Sportswear: An Integrative Review of Workflow Reliability, Virtual Fit, and CAD Interoperability",
+        "source": "crossref",
+        "url": "https://doi.org/10.2139/ssrn.7230018",
+        "doi": "10.2139/ssrn.7230018",
+        "year": 2026,
+        "authors": [
+          "Shakhnoza Jurakulova"
+        ],
+        "venue": null,
+        "abstract": "Digital garment simulation is increasingly used to connect two-dimensional pattern engineering with threedimensional evaluation; however, claims of faster development, lower sampling costs, and improved fit often exceed the available validation. This study critically examines the conditions under which CLO and related apparel-CAD workflows can support applications to women's sportswear pattern development. A purposive integrative review was conducted using eleven peer-reviewed studies and three official technical documents retrieved from publisher pages, DOI records, institutional repositories, and the CLO Help Center up to 4 August 2026. The reviewed materials were charted across six analytical domains: pattern geometry, avatar fidelity, fabric parameters, simulation and fit assessment, CAD interoperability, and physical validation. The synthesis indicates that 3D simulation is most defensible as an iterative decision-support tool rather than a substitute for pattern engineering or physical testing. Its reliability depends on the combined fidelity of the 2D pattern, anthropometric avatar, fabric mechanics, sewing configuration, and simulation settings. For close-fitting sportswear, visual tension and pressure maps may support comparative diagnosis, but published evidence does not justify treating them as direct estimates of in-vivo pressure without physical validation. Interoperability is also conditional: CLO's documented exchange route is DXF-AAMA/ASTM, not generic DXF without apparelspecific quality checks. The study contributes operational reliability criteria and a testable validation protocol for future controlled comparisons. It concludes that efficiency claims should be reported only through measured reductions in development time, physical samples, material use, revision cycles, and fit defects.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "preprint",
+        "identifier": "10.2139/ssrn.7230018",
+        "extra": {
+          "crossref_type": "posted-content",
+          "publisher": "Elsevier BV"
+        }
+      },
+      {
+        "title": "3D Garment Modeling from Garment Contours for Patternmaking",
+        "source": "crossref",
+        "url": "https://doi.org/10.5057/isase.2022-c000020",
+        "doi": "10.5057/isase.2022-c000020",
+        "year": 2022,
+        "authors": [
+          "KyoungOk KIM",
+          "Takumi MIYAJI",
+          "Masayuki TAKATERA"
+        ],
+        "venue": "International Symposium on Affective Science and Engineering",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.5057/isase.2022-c000020",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Japan Society of Kansei Engineering"
+        }
+      },
+      {
+        "title": "An Exploratory Study of Virtual Fit Testing Using 3D Virtual Fit Models and Garment Simulation Technology in Technical Design",
+        "source": "crossref",
+        "url": "https://doi.org/10.15221/13.067",
+        "doi": "10.15221/13.067",
+        "year": 2013,
+        "authors": [
+          "MyungHee Sohn",
+          "Lushan Sun"
+        ],
+        "venue": "Proceedings of the 4th International Conference on 3D Body Scanning Technologies, Long Beach CA, USA, 19-20 November 2013",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.15221/13.067",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Hometrica Consulting - Dr. Nicola D'Apuzzo"
+        }
+      },
+      {
+        "title": "Prototipagem Virtual: Softwares 3D para Modelagem de Vestuário",
+        "source": "crossref",
+        "url": "https://doi.org/10.5433/2236-2207.2024.v15.n3.50575",
+        "doi": "10.5433/2236-2207.2024.v15.n3.50575",
+        "year": 2024,
+        "authors": [
+          "Silvia Cristina Silveira dos Santos",
+          "Icléia Silveira",
+          "Sandra Regina Rech"
+        ],
+        "venue": "Projetica",
+        "abstract": "O objetivo desta pesquisa foi elencar softwares 3D aplicados ao desenvolvimento de modelagem do vestuário, prototipagem virtual e geração de moldes para uso na indústria de vestuário. Para isso foi feita uma pesquisa básica, com abordagem qualitativa e descritivo. Foi utilizada a revisão teórica de literatura por meio de artigos científico, livros, relatório de tendências, sites de empresas de tecnologia e dissertações. Como resultado foi listado os softwares de modelagem 3D, sites de lojas de ativos digitais para softwares de assim como alguns softwares de modelagem 2D de código aberto. Constatou-se que a indústria de vestuário está iniciando a transição para às tecnologias digitais e os profissionais de desenvolvimento de produto precisam de novas habilidades e novas competências.",
+        "pdf_url": "https://ojs.uel.br/revistas/uel/index.php/projetica/article/download/50575/51429",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5433/2236-2207.2024.v15.n3.50575",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Estadual de Londrina"
+        }
+      },
+      {
+        "title": "Computer-aided design—garment designing and patternmaking",
+        "source": "crossref",
+        "url": "https://doi.org/10.1016/b978-0-08-101211-6.00011-2",
+        "doi": "10.1016/b978-0-08-101211-6.00011-2",
+        "year": 2018,
+        "authors": [
+          "Yamini Jhanji"
+        ],
+        "venue": "Automation in Garment Manufacturing",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 32,
+        "work_type": "book-chapter",
+        "identifier": "10.1016/b978-0-08-101211-6.00011-2",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Fit Repository: Storing Measurement-Based 3d Garment Fits",
+        "source": "crossref",
+        "url": "https://doi.org/10.2139/ssrn.5205382",
+        "doi": "10.2139/ssrn.5205382",
+        "year": 2025,
+        "authors": [
+          "Jongwon Park",
+          "Jiyoung Jung"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "preprint",
+        "identifier": "10.2139/ssrn.5205382",
+        "extra": {
+          "crossref_type": "posted-content",
+          "publisher": "Elsevier BV"
+        }
+      },
+      {
+        "title": "Exploring Machine Learning Models to Predict Garment Fit in 3d Fit Sessions",
+        "source": "crossref",
+        "url": "https://doi.org/10.2139/ssrn.5171092",
+        "doi": "10.2139/ssrn.5171092",
+        "year": 2025,
+        "authors": [
+          "Mona Maher",
+          "Nuray  Y. Özden",
+          "Fatma Baytar"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "preprint",
+        "identifier": "10.2139/ssrn.5171092",
+        "extra": {
+          "crossref_type": "posted-content",
+          "publisher": "Elsevier BV"
+        }
+      },
+      {
+        "title": "Garment Details",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501360251.ch-014",
+        "doi": "10.5040/9781501360251.ch-014",
+        "year": 2022,
+        "authors": [],
+        "venue": "Apparel Design through Patternmaking",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501360251.ch-014",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Inc"
+        }
+      },
+      {
+        "title": "A customized garment collaborative design process by using virtual reality and sensory evaluation on garment fit",
+        "source": "crossref",
+        "url": "https://doi.org/10.1016/j.cie.2017.10.023",
+        "doi": "10.1016/j.cie.2017.10.023",
+        "year": 2018,
+        "authors": [
+          "Xuyuan Tao",
+          "Xiao Chen",
+          "Xianyi Zeng",
+          "Ludovic Koehl"
+        ],
+        "venue": "Computers &amp; Industrial Engineering",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 40,
+        "work_type": "article",
+        "identifier": "10.1016/j.cie.2017.10.023",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Elsevier BV"
+        }
+      },
+      {
+        "title": "3D printer selection: A decision-making evaluation and ranking model",
+        "source": "crossref",
+        "url": "https://doi.org/10.1080/17452759.2013.830939",
+        "doi": "10.1080/17452759.2013.830939",
+        "year": 2013,
+        "authors": [
+          "D.A. Roberson",
+          "D. Espalin",
+          "R.B. Wicker"
+        ],
+        "venue": "Virtual and Physical Prototyping",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 115,
+        "work_type": "article",
+        "identifier": "10.1080/17452759.2013.830939",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Informa UK Limited"
+        }
+      },
+      {
+        "title": "A Study on Garment Fit Using 3D Virtual Simulation : Focusing on Educational Pants Patterns",
+        "source": "crossref",
+        "url": "https://doi.org/10.33097/jncta.2025.09.9.2466",
+        "doi": "10.33097/jncta.2025.09.9.2466",
+        "year": 2025,
+        "authors": [
+          "국립목포대학교 패션의류학과 조교수",
+          "Kyoung Sun Kim",
+          "Yunjeong Kim"
+        ],
+        "venue": "The Journal of Next-generation Convergence Technology Association",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.33097/jncta.2025.09.9.2466",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "International Next-Generation Convergence Technology Association"
+        }
+      },
+      {
+        "title": "One-Piece Garment Applications",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501360251.part-007",
+        "doi": "10.5040/9781501360251.part-007",
+        "year": 2022,
+        "authors": [],
+        "venue": "Apparel Design through Patternmaking",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501360251.part-007",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Inc"
+        }
+      },
+      {
+        "title": "Study on knowledge-based garment design and fit evaluation system",
+        "source": "crossref",
+        "url": "https://doi.org/10.70675/17951226z5d0cz4f75z858bz18370262200d",
+        "doi": "10.70675/17951226z5d0cz4f75z858bz18370262200d",
+        "year": 2026,
+        "authors": [
+          "Kaixuan Liu"
+        ],
+        "venue": null,
+        "abstract": "Contribution à la mise en place d’un processus automatique de création de vêtement et d’évaluation de son ajustement à partir d’une base de connaissance métier Le design et le bien aller d’un vêtement joue un rôle majeur pour l’industrie du textile-habillement. Actuellement, il apparait trois inconvénients majeurs dans le processus de création et d’évaluation d’un vêtement: il est très coûteux en temps pour une efficacité moindre, il est subordonné à l’expérience des designers et modélistes, il n’est pas adapté au e-commerce.Afin de résoudre cette problématique, trois concepts à la fois technologiques et mathématiques ont été développées. Le premier s’appuie sur l’outil GFPADT (Garment Flat and Pattern Associated design technology) permettant de créer une correspondance entre le style du vêtement choisi et la morphologie du consommateur. Le second utilise l’interactivité entre deux espaces de conception 2D et 3D intégrée à l’outil 3DIGPMT (3D Interactive Garment Pattern Making Technology). Le dernier appelé MLBGFET (Machine learning-based Garment Fit Evaluation Technology) évalue l’ajustement du vêtement par un apprentissage automatique. Finalement, nous avons fourni des solutions de conception et d'évaluation de vêtements basées sur la connaissance en intégrant ces trois concepts basés sur des technologies clés pour résoudre certains problèmes de conception et de production de vêtements dans les entreprises de mode.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.70675/17951226z5d0cz4f75z858bz18370262200d",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Agence Bibliographique de l'Enseignement Supérieur"
+        }
+      },
+      {
+        "title": "In-plane energy absorption evaluation of 3D printed polymeric honeycombs",
+        "source": "crossref",
+        "url": "https://doi.org/10.1080/17452759.2017.1291354",
+        "doi": "10.1080/17452759.2017.1291354",
+        "year": 2017,
+        "authors": [
+          "F. N. Habib",
+          "P. Iovenitti",
+          "S. H. Masood",
+          "M. Nikzad"
+        ],
+        "venue": "Virtual and Physical Prototyping",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 127,
+        "work_type": "article",
+        "identifier": "10.1080/17452759.2017.1291354",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Informa UK Limited"
+        }
+      }
+    ]
+  },
+  "count": 39,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:04:47.865896+00:00"
+}

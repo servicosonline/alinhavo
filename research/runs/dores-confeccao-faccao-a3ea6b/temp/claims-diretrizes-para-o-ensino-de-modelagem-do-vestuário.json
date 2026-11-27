@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "As metodologias de ensino de modelagem do vestuário no Brasil desde a década de 1960 apresentam defasagens que exigem diretrizes curriculares específicas para formar modelistas qualificados capazes de atender às demandas da indústria de confecção.",
+    "stance": "supports",
+    "stance_target": "Deficiência na formação técnica de modelistas para a indústria do vestuário no Brasil",
+    "evidence_type": "historical",
+    "scope_conditions": "Ensino de modelagem do vestuário no Brasil desde os anos 1960",
+    "quoted_support": "A análise das principais técnicas de modelagem utilizadas ao longo do tempo, das organizações curriculares dos principais cursos de graduação de Moda, e das pesquisas com profissionais educadores da área, proporcionarão uma ampla visão do que pode ser utilizado para otimizar o processo de aprendizado e o que deve ser descartado, por não favorecer uma formação mais rápida e de melhor qualidade. Após o estudo em questão, este projeto propõe um conjunto de diretrizes que favoreça a transformação do aluno em um profissional qualificado para atuar na área de modelagem do vestuário.",
+    "numbers": ["1960"],
+    "entities": ["Danielle Paganini Beduschi", "Isabel Cristina Italiano", "EACH-USP"],
+    "time_period": "1960-2013",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "diretrizes-para-o-ensino-de-modelagem-do-vestuário"
+  },
+  {
+    "claim": "A formação completa em modelagem do vestuário requer a articulação entre modelagem plana e modelagem tridimensional (moulage), superando abordagens puramente mecânicas ou fragmentadas nos cursos de moda.",
+    "stance": "supports",
+    "stance_target": "Necessidade de integração entre métodos bidimensionais e tridimensionais na modelagem industrial",
+    "evidence_type": "empirical",
+    "scope_conditions": "Cursos de graduação em Design de Moda no Brasil",
+    "quoted_support": "Para tanto, realiza um levantamento histórico a respeito das diversas técnicas e métodos utilizados desde a década de 1960, fazendo uma comparação entre método e período sociocultural, visando à busca de técnicas que facilitem o processo de aprendizado em discussão.",
+    "numbers": ["1960"],
+    "entities": ["Danielle Paganini Beduschi", "Universidade de São Paulo"],
+    "time_period": "1960-2013",
+    "region": "Brasil",
+    "confidence": "medium",
+    "source_note_id": "diretrizes-para-o-ensino-de-modelagem-do-vestuário"
+  },
+  {
+    "claim": "Existe uma desconexão histórica entre parte das técnicas ensinadas em cursos de moda e a agilidade e qualidade exigidas para a atuação profissional na modelagem do vestuário.",
+    "stance": "supports",
+    "stance_target": "Gargalo de mão de obra qualificada em modelagem na indústria de confecção",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "Mercado de trabalho e ensino de moda no Brasil",
+    "quoted_support": "The analysis of the main pattern making techniques used over time, the curricula of leading Fashion Graduation programs, and the research with professional educators, will provide a broad overview of what can be used to optimize the learning process and what should be discarded for not favoring a faster and better training.",
+    "numbers": [],
+    "entities": ["Danielle Paganini Beduschi", "EACH-USP"],
+    "time_period": "2013",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "diretrizes-para-o-ensino-de-modelagem-do-vestuário"
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "claim": "Em teste experimental de modelagem plana tamanho 40, o protótipo construído pela NBR 13.377:1995 apresentou maior largura no busto e menor volume no quadril, enquanto o protótipo pela NBR 16.933:2021 (biótipo colher) teve maior volume e curvatura no quadril e melhor ajuste de cava.",
+    "stance": "supports",
+    "stance_target": "Evolução ergonômica da NBR 16.933:2021 em relação à NBR 13.377:1995 para o biótipo colher",
+    "evidence_type": "empirical",
+    "scope_conditions": "Vestido básico feminino tamanho 40 em tecido plano 100% poliéster sem elastano",
+    "quoted_support": "O protótipo confeccionado a partir da NBR 13.377:1995 apresentou maior largura na região do busto, enquanto o desenvolvido segundo a NBR 16.933:2021 evidenciou maior volume na área do quadril, coerente com o biótipo “colher” adotado pela norma.",
+    "numbers": [
+      "tamanho 40",
+      "1,5 cm (rebaixamento de cava)",
+      "1 cm (decote frente)"
+    ],
+    "entities": [
+      "ABNT NBR 13.377:1995",
+      "ABNT NBR 16.933:2021",
+      "IFSULDEMINAS"
+    ],
+    "time_period": "1995-2025",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "instituto-federal-de-educação-ciência-e-tecnologia-do-sul-de-minas-gerais-passos"
+  },
+  {
+    "claim": "A ausência de medidas complementares na antiga NBR 13.377:1995 obrigava o modelista a recorrer a estimativas subjetivas, ao passo que a NBR 16.933:2021 reduz a subjetividade na modelagem ao fornecer medidas básicas e complementares para os biótipos retângulo e colher.",
+    "stance": "supports",
+    "stance_target": "Importância das medidas secundárias e de biótipo para evitar decisões subjetivas do modelista",
+    "evidence_type": "empirical",
+    "scope_conditions": "Modelagem plana industrial feminina no Brasil",
+    "quoted_support": "Os resultados revelaram variações no volume do quadril e no ajuste das cavas, indicando que a NBR 16.933:2021 contempla de forma mais adequada a diversidade de silhuetas femininas e reduz a subjetividade na modelagem ao apresentar medidas básicas e complementares.",
+    "numbers": [
+      "2 biótipos (retângulo e colher)"
+    ],
+    "entities": [
+      "ABNT NBR 16.933:2021",
+      "ABNT NBR 13.377:1995"
+    ],
+    "time_period": "2021-2025",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "instituto-federal-de-educação-ciência-e-tecnologia-do-sul-de-minas-gerais-passos"
+  }
+]

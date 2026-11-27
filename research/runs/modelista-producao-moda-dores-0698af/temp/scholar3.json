@@ -1,0 +1,830 @@
+{
+  "ok": true,
+  "data": {
+    "query": "ficha tecnica vestuario modelagem graduacao encaixe",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 20,
+      "doab": 0
+    },
+    "raw_records": 40,
+    "merged_records": 39,
+    "returned": 39,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Modelagem básica do vestuário feminino",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/9788583021070",
+        "doi": "10.5965/9788583021070",
+        "year": 2017,
+        "authors": [
+          "Silveira, Icleia",
+          "Rosa, Lucas Da",
+          "Lopes, Luciana Dornbusch"
+        ],
+        "venue": "Editora Udesc eBooks",
+        "abstract": "O e-book apresenta inicialmente conhecimentos teóricos, fundamentais ao traçado dos diagramas básicos e na obtenção da qualidade do projeto produto de vestuário. Destacam-se, os conhecimentos anatômicos, tendo em vista a funcionalidade, usabilidade, bem como as qualidades estéticas, ergonômicas e antropométricas do produto. Abordam-se os paramctros medidas do corpo para a execução do diagrama básico do corpo humano e do vestuário, bem como as regras para o traçado da base do corpo feminino Para o traçado dos Diagramas Básicos do Corpo Feminino (corpo, mangas, calça, ete) ntilizam-se ordens de execução e cálculos, que trazem o detalhamento de cada etapa que está sendo realizada. A explicação de cada procedimento, descrita de modo sequencial é apoiada em letras e números. O traçado pode ser observado no desenho gráfico (escala 1:2 ou 1:5) de cada diagrama, disponibilizado juntamente com a sua ordem de execução.",
+        "pdf_url": "https://repositorio.udesc.br/bitstreams/5e75fa4a-674f-4ff3-aa7b-32d5f7e52e99/download",
+        "citation_count": 8,
+        "work_type": "book",
+        "identifier": "W4409075733",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Diretrizes para o ensino de modelagem do vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2013.tde-19022014-213611",
+        "doi": "10.11606/d.100.2013.tde-19022014-213611",
+        "year": 2013,
+        "authors": [
+          "Danielle Paganini Beduschi"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This research discusses historical analysis of methodologies for pattern making teaching and proposes the development of guidelines for teaching. The study presents a historical survey about the various techniques and methods used since the 1960s, making a balance between method and socio-cultural period in order to search for techniques to facilitate the learning process under discussion. The analysis of the main pattern making techniques used over time, the curricula of leading Fashion Graduation programs, and the research with professional educators, will provide a broad overview of what can be used to optimize the learning process and what should be discarded for not favoring a faster and better training. After the study in question, this project proposes a set of guidelines that encourage the transformation of the student in a qualified professional to act in Pattern making clothing.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-19022014-213611/publico/DanielleBeduschirevisaoOutubro.pdf",
+        "citation_count": 16,
+        "work_type": "thesis",
+        "identifier": "W2163966604",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Prototipagem Virtual: Softwares 3D para Modelagem de Vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2024.v15.n3.50575",
+        "doi": "10.5433/2236-2207.2024.v15.n3.50575",
+        "year": 2024,
+        "authors": [
+          "Silvia Cristina Silveira dos Santos",
+          "Icléía Silveira",
+          "Sandra Regina Rech"
+        ],
+        "venue": "Projetica",
+        "abstract": "O objetivo desta pesquisa foi elencar softwares 3D aplicados ao desenvolvimento de modelagem do vestuário, prototipagem virtual e geração de moldes para uso na indústria de vestuário. Para isso foi feita uma pesquisa básica, com abordagem qualitativa e descritivo. Foi utilizada a revisão teórica de literatura por meio de artigos científico, livros, relatório de tendências, sites de empresas de tecnologia e dissertações. Como resultado foi listado os softwares de modelagem 3D, sites de lojas de ativos digitais para softwares de assim como alguns softwares de modelagem 2D de código aberto. Constatou-se que a indústria de vestuário está iniciando a transição para às tecnologias digitais e os profissionais de desenvolvimento de produto precisam de novas habilidades e novas competências.",
+        "pdf_url": "https://ojs.uel.br/revistas/uel/index.php/projetica/article/download/50575/51429",
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "W4406216955",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Estadual de Londrina",
+          "openalex_type": "article",
+          "oa_status": "diamond",
+          "also_in": "openalex,crossref"
+        }
+      },
+      {
+        "title": "CorelDRAW como suporte na criação de moldes de vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.18406/2359-1269v11n72024477",
+        "doi": "10.18406/2359-1269v11n72024477",
+        "year": 2025,
+        "authors": [
+          "Vanessa Mariozi",
+          "Maria Concebida Pereira"
+        ],
+        "venue": "Revista Eixos Tech",
+        "abstract": "A modelagem bidimensional digital tem se tornado essencial na indústria do vestuário, garantindo precisão na criação de moldes. Tradicionalmente realizada de forma manual, a modelagem evoluiu com os softwares CAD/CAM específicos, mas seu alto custo limita o acesso para autônomos e pequenas empresas. Neste estudo o software CorelDRAW foi utilizado como uma alternativa acessível para modelagem digital, mesmo não sendo desenvolvido para esta finalidade. Explorando o software como ferramenta para modelagem digital, focando em sua capacidade de auxiliar na criação de moldes de vestuário. O objetivo foi analisar como o CorelDRAW pode ser utilizado para essa finalidade, identificando suas características, benefícios e desafios. A metodologia envolveu a utilização prática do software na modelagem de uma saia lápis, desde a criação do molde até a prototipagem. Os resultados indicaram que, embora o CorelDRAW tenha limitações, como a falta de ferramentas específicas para certos ajustes, o software provou ser uma solução eficiente e econômica. A modelagem digital com o CorelDRAW resultou em moldes precisos e um protótipo bem ajustado, demonstrando sua viabilidade como uma alternativa acessível para modelistas independentes e pequenas empresas no setor de vestuário.",
+        "pdf_url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/download/477/281",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4407171855",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Aplicação de técnicas e princípios de produção lean e celular numa empresa de vestuário",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1822/16173",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Stéphanie Bastos Barbosa"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "Esta dissertação desenvolveu-se no âmbito do 2º semestre do 5º ano do Mestrado Integrado em Engenharia e Gestão Industrial num contexto industrial e apresenta os resultados de um projeto sobre aplicação de técnicas e princípios de produção Lean e produção celular numa empresa de vestuário. O projeto teve como principal objetivo a aplicação de técnicas Lean e a reconfiguração da secção da costura em células de produção. As práticas Lean Production permitem às empresas a redução de desperdícios para reduzir custos encurtando, por exemplo, prazos de entrega através da utilização de métodos e ferramentas, favorecendo a competitividade e a inovação entre as empresas. Inicialmente, foi realizada uma revisão bibliográfica sobre as práticas Lean Production, desde a evolução do conceito até às ferramentas, e sobre a produção celular. Apresentaram-se ainda, alguns casos de implementação de Lean e produção celular em empresas de vestuário. Depois de uma apresentação e caracterização da empresa em estudo seguiu-se então, a descrição e a análise crítica do sistema atual da empresa para diagnosticar e identificar os problemas existentes. Sabendo que, a empresa já tinha tido células de produção construiu-se um questionário para tentar perceber os motivos da não continuação deste sistema na empresa. Seguidamente fizeram-se propostas de melhoria relacionadas com algumas ferramentas Lean, nomeadamente, 5S, gestão visual e normalização. Propôs-se ainda, o projeto de uma célula para o produto mais produzido e específico de um cliente importante para a empresa. Identificado o produto, agruparam-se as máquinas e as pessoas para a produção desse produto e projetou-se a implantação intracelular e intercelular. As propostas sugeridas passaram pela implementação de vários documentos de apoio ao controlo de defeitos, à aplicação de 5S e de gestão visual, novos mapas de emergência e a preparação de um plano para implementar uma célula para produzir um dos produtos para um cliente importante da empresa. Esta ultima proposta, embora não se tivesse conseguido implementar criaram-se algumas condições para, no futuro, avançar com o projeto, pois as células contribuem para uma menor taxa de defeitos, menores movimentações, menor WIP e menor lead time.",
+        "pdf_url": null,
+        "citation_count": 5,
+        "work_type": "thesis",
+        "identifier": "W115770193",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "O setor do vestuário: uma análise sobre as possibilidades estratégicas das empresas do vestuário no Brasil.",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.3.2007.tde-28032008-173655",
+        "doi": "10.11606/d.3.2007.tde-28032008-173655",
+        "year": 2007,
+        "authors": [
+          "Marília Piccinini da Carvalhinha"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This work presents a picture of the clothing business in Brazil, analyzing the industryretail chain and the firms strategic possibilities. It was studied the distribution of activities behind different enterprises, recognizing the value sources for each type of business. The information basis raised for this analysis includes an overview of this sector, a description of the manufacture and product development activities, and the chain configuration by other authors point of view. Forward, it was researched six case studies of small or medium enterprises that operate connecting manufacture to retail activities. This cases were source of information about their insertion in this market and their suppliers and customers insertion. The data extracted were connected to the information available on other sources, as empirical evidences of this market and published articles. The result was a frame of insertion shapes on the market, visible to this study, classified by three dimensions: chain position, brand presence or absence, and design capability. Then, it was possible to analyze the dynamic of the cases course, the value source by the view of the agents on the firms, and the basis to make decision along their path. This view brought the evaluation of trends possibilities for the clothing sector, following the forces that seem to act, in the direction of the specialization of the business in certain roles on the chain, and bring some hypothesis about the evolution of the current configuration of this sector in Brazil.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/3/3136/tde-28032008-173655/publico/CARVALHINHA_MARILIA_PICCININI_O_Setor_do_Vestuario_rev01.pdf",
+        "citation_count": 9,
+        "work_type": "thesis",
+        "identifier": "W1922116853",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A tecnologia nos processos de desenvolvimento de produto e na produção das micro e pequenas empresas de confecção do vestuário de Porto Alegre - RS e Sombrio - SC",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/36048",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Paula Rodrigues Bittencourt"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "O objetivo deste trabalho foi abordar a inserção da tecnologia nos processos de desenvolvimento de produto e na produção das micro e pequenas empresas de confecção de Porto Alegre – RS e Sombrio - SC. O software CAD/CAM que permite economizar tempo e reduzir os custos de produção e desenvolvimento de produto, reduzindo o número de protótipos físicos e facilitando o encaixe. Sobretudo, o presente trabalho visa analisar como as micro empresas inserem a tecnologia em seus processos. O uso do sistema CAD (Desenho Assistido por computador) é uma tecnologia em que a computação suporta quase todas as áreas da confecção: design e criação, design têxtil, modelagem, ampliação, encaixe e risco, ficha técnica, cálculo de custos industriais, ordem de corte e gestão da produção. A evolução da tecnologia para a indústria do vestuário representa um fator significativo, possibilitando mudanças radicais que podem reduzir o tempo de fabricação do produto, acelerando e aperfeiçoando os processos. O estudo de caso englobou três micro empresas e uma pequena empresa de confecção do vestuário de Porto Alegre – RS e Sombrio - SC cuja análise dos dados qualitativos resultou em sugestões de melhorias para cada empresa estudadas.",
+        "pdf_url": null,
+        "citation_count": 5,
+        "work_type": "thesis",
+        "identifier": "W2199212968",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Utilização das ferramentas da indústria 4.0 para a prototipagem no setor de vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/18083129152021e0023",
+        "doi": "10.5965/18083129152021e0023",
+        "year": 2021,
+        "authors": [
+          "Leide Laura Bittencourt",
+          "Icléía Silveira",
+          "Lucas da Rosa",
+          "Daniela Novelli"
+        ],
+        "venue": "DAPesquisa",
+        "abstract": "As tecnologias digitais da Indústria 4.0, trazem benefícios para as empresas de vestuário, com a otimização dos processos, a velocidade de produção e a conexão entre as máquinas, que permite a integração de toda a cadeia de valor. O presente artigo aborda a utilização de ferramentas da indústria 4.0 na prototipagem de produtos de vestuário. Aplicou-se a pesquisa básica com fundamentos teóricos, com uma abordagem qualitativa e descritiva. A coleta de dados foi realizada em livros, artigos científicos, teses e dissertações, trazendo os princípios e pilares da indústria 4.0, bem como as ferramentas que possibilitam a prototipagem 3D (tridimensional) de produtos de vestuário. Destaca-se a relevância da pesquisa tendo em vista que a análise global da viabilidade técnica do produto, que avalia o traçado da modelagem, a vestibilidade, os aspectos ergonômicos e o caimento das peças, são feitos em ambiente virtual, dispensando assim: a plotagem dos moldes, seleção e preparação do tecido para o corte, traçado do risco e corte dos moldes e montagem (preparação e costura) das peças do modelo de vestuário. Os resultados da pesquisa revelam que é possível ter eficácia na produção e na redução do tempo de trabalho e benefícios sustentáveis com o uso das ferramentas de prototipagem 3D para produtos de vestuário, em termos sociais, ambientais e financeiros.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/dapesquisa/article/download/19997/13151",
+        "citation_count": 10,
+        "work_type": "article",
+        "identifier": "W3186360964",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Análise da formação dos profissionais do setor de modelagem do vestuário da região do Vale do Itajaí – SC e o software mais utilizado neste setor",
+        "source": "openalex",
+        "url": "https://www.revistas.udesc.br/index.php/dapesquisa/article/view/14216",
+        "doi": "10.5965/1808312904062009548",
+        "year": 2018,
+        "authors": [
+          "Icléía Silveira",
+          "Giovana Lótici Baggio Zappia"
+        ],
+        "venue": "DAPesquisa",
+        "abstract": "Este artigo apresenta os resultados da pesquisa quantitativa, a qual teve como objetivo identificar a formação dos profissionais do setor de modelagem que atuam nas em- presas do vestuário da região do Vale do Itajaí de Santa Catarina, bem como o sistema CAD mais utilizado. Os dados das empresas para a pesquisa foram obtidos através do Guia Web SC. A análise das informações mostram que 53% dos profissionais do setor de modelagem possuem curso de nível técnico, 34% são formados pelas universidades e 13% são antigas costureiras que aprenderam o oficio no seu trabalho diário. Quanto ao software, o mais uti- lizado pelas empresas é o sistema Audaces Vestuário.",
+        "pdf_url": "https://www.revistas.udesc.br/index.php/dapesquisa/article/download/14216/9290",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W3213558906",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Os caminhos da pesquisa em modelagem: história, ensino, conceitos e práticas: volume1",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/9788564842526",
+        "doi": "10.11606/9788564842526",
+        "year": 2020,
+        "authors": [
+          "Isabel Cristina Italiano",
+          "Patrícia de Mello Souza"
+        ],
+        "venue": "Universidade de São Paulo. Escola de Artes, Ciências e Humanidades eBooks",
+        "abstract": "Este livro reúne trabalhos provenientes de projetos de pesquisa realizados por professores e pesquisadores na área de Modelagem do Vestuário, no Brasil e no exterior. Percebe-se a presença relevante em constante crescimento dessa área pelas pesquisas cada vez mais abrangentes que vêm ampliando as relações com outros campos, promovendo novos diálogos, além de estudos que estão inserindo a modelagem como instrumento significativo no contexto das práticas projetuais do design. As organizadoras entendem que esses importantes trabalhos devam ser compartilhados e divulgados, visando ampliar o conhecimento do campo. O objetivo é que a publicação seja um veículo para isso, visando informar aos inúmeros pesquisadores, professores, alunos e profissionais da Modelagem do Vestuário, os resultados de pesquisas inovadoras nas diversas vertentes da área, possibilitando a aplicação de conceitos, técnicas e práticas.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "W3172833018",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "A utilização do software 3D como suporte ao ensino de modelagem Zero waste",
+        "source": "openalex",
+        "url": "https://doi.org/10.29327/coloquio-internacional-de-design-2023-464332.879013",
+        "doi": "10.29327/coloquio-internacional-de-design-2023-464332.879013",
+        "year": 2024,
+        "authors": [
+          "Ana Clara Waintuch Reiter",
+          "Tauane Spanhol de Aguirre",
+          "Icléía Silveira"
+        ],
+        "venue": "Colóquio Internacional de Design",
+        "abstract": "Ações e métodos sustentáveis são essenciais para o design de produtos em todas as etapas dos processos de desenvolvimento e produção, sobretudo na área do vestuário, devido ao seu impacto ambiental. Neste contexto a abordagem zero waste, aplicada a modelagem de vestuário, se mostra uma estratégia para minimizar a geração de resíduos têxteis nestas etapas. No entanto, seu ensino ainda é rudimentar pois seu entendimento envolve a percepção espacial, que ainda se encontra em fase de desenvolvimento durante a formação do aluno e demanda experimentações para total compreensão desta abordagem. Desta forma este artigo visa propor a utilização do software 3D como suporte ao ensino de modelagem zero waste, sendo utilizado como ferramenta de prototipagem digital. Para isso, foi realizada uma pesquisa básica, qualitativa e descritiva, usando como procedimentos técnicos para a coleta de dados a pesquisa bibliográfica. Ao final foi elaborada uma proposta para a utilização desta ferramenta de forma a auxiliar os alunos a desenvolver sua compreensão espacial tridimensional, elemento necessário para o entendimento e aplicação da zero waste.",
+        "pdf_url": "https://static.even3.com/anais/879013.pdf?v=639020520665695676",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4400077231",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "O CAD 3D aplicado na validação de protótipos na indústria do vestuário",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/11449/132882",
+        "doi": null,
+        "year": 2015,
+        "authors": [
+          "Gisely Andressa Pires"
+        ],
+        "venue": "Acervo Digital da Universidade Estadual Paulista (Universidade Estadual Paulista)",
+        "abstract": "This research discusses the practice of prototyping in the apparel industry. The prototype relates to the construction of a model which is in testing process to be marketed. Currently the most widespread form is the actual construction of the pieces, However there is software on the market that perform this activity virtually. Thus, this study aims to verify the visual similarity between the virtual prototypes and those produced in the traditional process, in order to trim, shape and volume for validation of new projects in the clothing industry. To this end, an exploratory research was conducted, and as a way of addressing the problem were conducted four experiments which include the construction of prototypes for virtual and technical manual.",
+        "pdf_url": null,
+        "citation_count": 10,
+        "work_type": "thesis",
+        "identifier": "W2238131005",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Prevenção do desperdício no setor de vestuário e moda: inovação no processo de design",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.5965/1982615x06122013036",
+        "doi": "10.5965/1982615x06122013036",
+        "year": 2013,
+        "authors": [
+          "Iana Uliana Perez",
+          "Suzana Barreto Martins"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "O presente artigo parte da problemática da geração de resíduos têxteis no setor de confecção de produtos de moda e vestuário e do estudo de estratégias de produção mais limpa apresentando o processo de design zero waste como alternativa para a redução do desperdício têxtil e sua aplicação como inovação radical de processo comparado com processos convencionais de desenvolvimento de produtos de moda. Os resultados são validados em uma empresa de confecção de produtos de moda e apontam a viabilidade da aplicação do estudo proposto desde a criação, desenvolvimento e produção no âmbito do setor de vestuário.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/modapalavra/article/download/3478/6848",
+        "citation_count": 7,
+        "work_type": "article",
+        "identifier": "W1494244738",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A formação e o trabalho dos modelistas nas empresas do vestuário do Estado de Santa Catarina",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.5965/1982615x02042009004",
+        "doi": "10.5965/1982615x02042009004",
+        "year": 2009,
+        "authors": [
+          "Icléía Silveira",
+          "Silva Giorgio",
+          "Bianca Valente"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "A pesquisa aborda os conhecimentos necessários para a formação profissional do modelista do vestuário, bem como dos setores produtivos com os quais seu trabalho está vinculado. Busca-se caracterizar suas funções básicas e habilidades necessárias para a qualidade da modelagem. Neste sentido, a pesquisa propõe identificar a formação e o perfil dos modelistas que atuam nas empresas do vestuário em Santa Catarina, bem como o uso do sistema como ferramenta de trabalho. Os procedimentos metodológicos alicerçam-se na proposta do método quantitativo, com abordagem exploratória e descritiva, a ser realizada através de uma pesquisa de campo. Pretende-se com os dados obtidos apresentar indicadores que irão contribuir para serem elaboradas ações que permitam contribuir para a complementação da capacitação do modelista e a valorização do seu trabalho por parte das empresas do vestuário.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/modapalavra/article/download/7686/5215",
+        "citation_count": 7,
+        "work_type": "article",
+        "identifier": "W2611820382",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Open design no Setor de Vestuário: estado da arte",
+        "source": "openalex",
+        "url": "https://doi.org/10.23972/det2019iss17pp10-19",
+        "doi": "10.23972/det2019iss17pp10-19",
+        "year": 2019,
+        "authors": [
+          "Iana Uliana Perez",
+          "Aguinaldo dos SANTOS",
+          "Suzana Barreto Martins"
+        ],
+        "venue": "Design e Tecnologia",
+        "abstract": "O presente artigo tem como objetivo revisar o estado da arte acerca da aplicação do open design no Setor de Vestuário. Para a realização da pesquisa, de abordagem qualitativa, foram empregadas estratégias da Design Science Research referentes à etapa de problematização. Primeiramente, foi realizada revisão bibliográfica sistemática (RBS) e assistemática (RBA) para verificar os principais constructos acerca do open design, de modo a compreender o que o caracteriza. Depois, foram identificados artefatos de vestuário associados ao open design e à fabricação digital, os quais foram analisados por meio de pesquisa documental e tendo como referência classes de problemas configuradas a partir da revisão bibliográfica. Desse modo, objetivou-se investigar como o open design tem sido praticado no Setor de Vestuário. Os principais resultados apresentados são: 1) análise bibliométrica de teses e dissertações brasileiras, assim como de artigos científicos internacionais identificados por meio da revisão bibliográfica; 2) definição dos princípios do open design; 3) configuração de sete classes de problemas e análise de nove artefatos de vestuário. Com essa investigação, foram detectadas as ênfases e lacunas da teoria e da práxis relativas ao open design no Setor de Vestuário. Comprovou-se que há uma lacuna de publicações científicas que conectem o open design ao Setor de Vestuário, tanto em âmbito nacional quanto internacional. Os artefatos identificados, por sua vez, mostram que o open design já vem sendo explorado pelo Setor de Vestuário de diferentes maneiras, com ênfase em soluções que facilitam a montagem e instigam a personalização, mas ainda há diversas questões que precisam ser mais exploradas.",
+        "pdf_url": "https://www.ufrgs.br/det/index.php/det/article/download/577/254",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2944474301",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Modelagem através do CLO3D : redução de custos no processo de pilotagem e produção têxtil",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/003273578",
+        "doi": "10.11606/003273578",
+        "year": 2022,
+        "authors": [
+          "Barbara Baptista Navarra"
+        ],
+        "venue": null,
+        "abstract": "Durante o processo de desenvolvimento do produto, o estilista pode realizar alterações no modelo, o que gera o desenvolvimento de várias peças pilotos - protótipos, confeccionadas a partir do desenho enviado pela estilista. O processo de repilotagem não só causa desperdício têxtil, mas também causa atrasos nos processos de desenvolvimento da coleção. Nesse contexto é inserido o software CLO3D, utilizado por profissionais de moda para desenvolver o design, modelagem, ajustes e modificações do produto. O seguinte trabalho objetiva avaliar determinados aspectos do processo de produção de vestuário, tendo como objeto de estudo uma empresa paulista de Private Label, através da modelagem manual (moulage e plana) e, posteriormente, modelagem no Audaces. A partir dessa avaliação, será realizado uma análise de três modelos produzidos pela empresa, realizando o mesmo processo através do software CLO3D, comparando o consumo e resíduos gerados pelas duas formas de modelar.",
+        "pdf_url": "https://bdta.abcd.usp.br/directbitstream/2fa50599-945d-4c8d-b097-3eb7951a1672/Te0086-Navarra.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7204466171",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "MODELAGEM MODULAR AJUSTÁVEL PARA MULHERES MIDSIZE NO MERCADO DE LOCAÇÃO DE ROUPAS",
+        "source": "openalex",
+        "url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/view/783",
+        "doi": "10.18406/2359-1269v12n52025783",
+        "year": 2026,
+        "authors": [
+          "Denise Justino Felipe da Rosa",
+          "Maria Concebida Pereira"
+        ],
+        "venue": "Revista Eixos Tech",
+        "abstract": "The study presented in this article proposed adjustable modular patternmaking for eveningwear designed for midsize women, focusing on the clothing rental market. This technically exploratory research developed and tested two physical prototypes using a hybrid approach that combined digital flat patternmaking and moulage techniques. The models were evaluated on mannequins in sizes 44, 46, and 50 to assess fit, drape, adjustment functionality, and the structural stability of the modules. The results showed good adaptation to different body proportions, reinforcing the technical and aesthetic feasibility of the proposal. The use of fabrics suitable for eveningwear and digital tools such as CorelDRAW and Optitex contributed to streamlining the garment development process. Although the tests did not include real midsize users, the experiment demonstrated practical application potential for this target group. It was concluded that adjustable modular patternmaking can be a viable strategy for including midsize women in the market, promoting greater flexibility and sustainability within the eveningwear rental segment.",
+        "pdf_url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/download/783/358",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7216251704",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Intervenção pedagógica em modelagem: construindo a base do corpo feminino sob um novo olhar",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/25944630312019060",
+        "doi": "10.5965/25944630312019060",
+        "year": 2019,
+        "authors": [
+          "Káritha Bernardo de Macedo",
+          "Andressa Schneider Alves"
+        ],
+        "venue": "Revista de Ensino em Artes Moda e Design",
+        "abstract": "Este trabalho refere-se à intervenção pedagógica realizada na unidade curricular “Modelagem”, com carga de 80h, da 7a fase (turma V7) do Curso Técnico Integrado ao Ensino Médio em Vestuário, do Instituto Federal de Santa Catarina, Campus Gaspar. Com a intervenção, espera-se apresentar alternativas e aprimoramentos para o estado atual da referida unidade curricular. Assim, o objetivo foi capacitar as alunas a compreender o processo de planificação do corpo feminino, e a construírem a base do corpo feminino tomando suas medidas individuais como parâmetro, a fim de obter uma base de modelagem com encaixe adequado e anatômico. Para tanto, aplicou-se um projeto de quatro etapas, distribuídas em três encontros de quatro horas cada: 1) Apresentação expositiva e visual sobre os conceitos iniciais da modelagem; 2) Tirar medidas do corpo humano (do colega); 3) Moulage da base do corpo feminino utilizando manequim; 4) Construção da base do corpo feminino a partir das técnicas de modelagem plana. Notou-se que os exercícios das etapas 1, 2 e 3 foram constantemente acessados para possibilitar a compreensão da construção da modelagem plana, de forma que a experiência se provou muito útil.",
+        "pdf_url": "https://www.revistas.udesc.br/index.php/ensinarmode/article/download/14308/9737",
+        "citation_count": 5,
+        "work_type": "article",
+        "identifier": "W2911675231",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Ergonomia Aplicada ao Projeto do Produto: O Ponto de Vista de Designers do Vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.15675/gepros.v14i2.2211",
+        "doi": "10.15675/gepros.v14i2.2211",
+        "year": 2019,
+        "authors": [
+          "Crislaine Gruber",
+          "Lizandra Garcia Lupi Vergara"
+        ],
+        "venue": "GEPROS. Gestão da Produção, Operações e Sistemas",
+        "abstract": "Este trabalho tem o objetivo de investigar a aplicação da ergonomia no processo de desenvolvimento de produtos do vestuário, do ponto de vista dos designers. Para isso, foram realizadas entrevistas semiestruturadas com 19 designers. As entrevistas foram gravadas e transcritas para realização de análise de conteúdo, baseada em três categorias: conceito de ergonomia; abordagem da ergonomia na formação acadêmica e na vivência profissional; aplicação da ergonomia no desenvolvimento de produtos. Foi constatado que a maioria dos participantes compreende o conceito de ergonomia e considera que ela é aplicada no processo de desenvolvimento de produtos do vestuário, contudo essa aplicação dá-se de forma intuitiva. Além disso, os participantes entendem que a aplicação da ergonomia e a obtenção de dados antropométricos dos usuários são atividades desenvolvidas apenas pelos modelistas. Acredita-se que é necessário abordar a ergonomia na formação profissional dos designers do vestuário, a fim de tornar essa aplicação sistemática e efetiva, afetando a satisfação dos usuários de forma positiva e, consequentemente, aumentando a competitividade das empresas.",
+        "pdf_url": "https://revista.feb.unesp.br/index.php/gepros/article/download/2211/pdf",
+        "citation_count": 19,
+        "work_type": "article",
+        "identifier": "W2964717479",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Aplicação do fluxo unitário da produção na manufatura do vestuário de moda",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2016.tde-02052016-103850",
+        "doi": "10.11606/d.100.2016.tde-02052016-103850",
+        "year": 2016,
+        "authors": [
+          "Wan Chi Ming"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "The objective of this paper is to discuss the implementation of Flow Unit of Production in the manufacturing of fashion apparel process, with emphasis on women\\'s fashion products. For this purpose, a field research was conducted through case study, in company of the sector. The survey results show that despite the particularities of the industry, such as production volume, short cycle product life and wide range of models, the application of Flow Unit of Production in the fashion garment manufacturing indicates a possible process optimization productive, allowing the assembly line balancing and capacity of the productive capacity, factors that minimize the risk of production bottlenecks and assist in the preparation of planning, scheduling and production control. This study has the following objectives: i) search the manufacturing processes used, ii) focus on the techniques and processes applied in manufactured products; iii) physically characterize the industrial structure and describe their production processes for the manufacture of products with the application of flow unit in Fashion Garment Manufacturing (MVM); iv) point out suggestions for the use of new tools such as the continuous improvement of the production process. The recommendations made are based on literature review and case study on the manufacturer of custom products. These will be legitimized by experts of information on the subject and by employees of the studied company. It has been raised to date a list of external vendors and their installed capacities to manufacture products sold, as the company A pointed out the presence of bottleneck productive for failing to deliver the production volumes requested. Although the study is taking place within the execution schedule, many of the concepts and techniques of lean manufacturing are applicable in production environments high variety of the same product family, with low volume and can contribute significantly to improving the company\\'s performance, for continuous process improvement, to improve competitiveness and elimination of production 9 losses with performance indicators in the sectors involved. After research with the application of the unitary flow of Manufacture of fashionable clothes in the company in A, will be checked the hypothesis of application of Flow Unit of Production, the automotive industry, it is possible for the clothing industry. Collected the results of that application, after the data analysis and evaluation check for approval of Manufacture of Fashionable Clothes",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-02052016-103850/publico/DEFESA_DO_MESTRADO.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2346183652",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Modelagem de microbomba peristaltica de elastomero usando a tecnica de analogias eletro-mecanicas",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2006.368722",
+        "doi": "10.47749/t/unicamp.2006.368722",
+        "year": 2021,
+        "authors": [
+          "Alexey Marques Espindola"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2006.368722",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Los jóvenes y las Fuerzas Armadas",
+        "source": "crossref",
+        "url": "https://doi.org/10.2307/40183256",
+        "doi": "10.2307/40183256",
+        "year": 1986,
+        "authors": [
+          "Ficha Tecnica de la Encuesta"
+        ],
+        "venue": "Reis",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.2307/40183256",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "JSTOR"
+        }
+      },
+      {
+        "title": "El futuro del MAB; Ficha tecnica de las compañias cotizadas en MAB; Bibliografia",
+        "source": "crossref",
+        "url": "https://doi.org/10.4272/978-84-9745-559-6.ch2",
+        "doi": "10.4272/978-84-9745-559-6.ch2",
+        "year": 2012,
+        "authors": [],
+        "venue": "Mercado Alternativo Bursatil",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "book-chapter",
+        "identifier": "10.4272/978-84-9745-559-6.ch2",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Netbiblo"
+        }
+      },
+      {
+        "title": "Los parados: condiciones de vida y actitudes políticas",
+        "source": "crossref",
+        "url": "https://doi.org/10.2307/40183150",
+        "doi": "10.2307/40183150",
+        "year": 1985,
+        "authors": [
+          "Ficha Tecnica Del Estudio"
+        ],
+        "venue": "Reis",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.2307/40183150",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "JSTOR"
+        }
+      },
+      {
+        "title": "ENCAIXE FINANCEIRO",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.20781",
+        "doi": "10.17771/pucrio.acad.20781",
+        "year": 2015,
+        "authors": [
+          "LEANDRO MACEDO TAVARES"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.20781",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "ENCAIXE GERAL DE FIGURAS PLANAS",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.19764",
+        "doi": "10.17771/pucrio.acad.19764",
+        "year": 2015,
+        "authors": [
+          "ALTAMIR DIAS"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.19764",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "O uso combinado da tecnica de modelagem baseada em objetos OMT com a linguagem de especificação formal SDL como metodologia alternativa para o desenvolvimento do ambiente de software AIDA",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1997.124316",
+        "doi": "10.47749/t/unicamp.1997.124316",
+        "year": 2021,
+        "authors": [
+          "Carla Geovana do Nascimento Macario"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1997.124316",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "SISTEMA DE ENCAIXE DE FIGURAS PLANAS UTILIZANDO COMPUTAÇÃO GRÁFICA",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.33308",
+        "doi": "10.17771/pucrio.acad.33308",
+        "year": 2018,
+        "authors": [
+          "JOAO CARLOS ESPINDOLA FERREIRA"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.33308",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "Vestuario Para La Escena 2022, curated by Edyta Rzewuska and Jerildy Bosch, Vestuario a Escena MX",
+        "source": "crossref",
+        "url": "https://doi.org/10.1386/scp_00090_5",
+        "doi": "10.1386/scp_00090_5",
+        "year": 2023,
+        "authors": [
+          "Zuzu Hudek"
+        ],
+        "venue": "Studies in Costume &amp; Performance",
+        "abstract": "Review of: Vestuario Para La Escena 2022, curated by Edyta Rzewuska and Jerildy Bosch, Vestuario a Escena MX National Centre for the Arts (CENART), Mexico City, 12 May–3 July 2022",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.1386/scp_00090_5",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Intellect"
+        }
+      },
+      {
+        "title": "Protese com encaixe de semi-precisão",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1971.279728",
+        "doi": "10.47749/t/unicamp.1971.279728",
+        "year": 2021,
+        "authors": [
+          "Ataualpa Francisco Pacheco Meneghel"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1971.279728",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Diretrizes para racionalização construtiva em coberturas com telhados por encaixe: proposta e aplicação.",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/t.3.2001.tde-08072026-144638",
+        "doi": "10.11606/t.3.2001.tde-08072026-144638",
+        "year": 2026,
+        "authors": [
+          "Marcela Meneguetti"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/t.3.2001.tde-08072026-144638",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "O simbolismo do vestuario em Machado de Assis",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2008.421628",
+        "doi": "10.47749/t/unicamp.2008.421628",
+        "year": 2021,
+        "authors": [
+          "Susana Coutinho de Souza"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2008.421628",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Paruma: vestuario tradicional del pueblo indígena embera",
+        "source": "crossref",
+        "url": "https://doi.org/10.29097/9789585303096",
+        "doi": "10.29097/9789585303096",
+        "year": 2022,
+        "authors": [
+          "Pastora Chasoy Agreda"
+        ],
+        "venue": null,
+        "abstract": "El contenido de este documento se relaciona con la historia del vestuario y los accesorios tradicionales utilizados por los indígenas embera. Se trata de un pueblo nativo con tradiciones y características semejantes, actualmente divido en cuatro grupos: los embera chami —ubicados en los departamentos de Caldas y Quindío—; los embera katío, —en el Alto Sinú y Alto San Jorge en el departamento de Córdoba, y en la región de Urabá y el Bajo Atrato en el departamento de Chocó—, y los embera siapidara, quienes viven dispersos en el Pacifico, en la zona sur de Buenaventura y en la costa caucana y de Nariño. Distintos hechos históricos ocurridos en la Conquista y la Colonia provocaron su dispersión hacia diferentes lugares de la geografía colombiana. Sin embargo, uno de los elementos, cohesionador de identidad, es su vestuario tradicional, del cual conoceremos distintas características, gracias a los relatos de los abuelos y abuelas integrantes del asentamiento Resguardo Motordorchaque, ubicado en la vereda Dos Pozos del municipio de Puerto Boyacá.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.29097/9789585303096",
+        "extra": {
+          "crossref_type": "monograph",
+          "publisher": "Fundación Universidad de América"
+        }
+      },
+      {
+        "title": "Del Vestuario",
+        "source": "crossref",
+        "url": "https://doi.org/10.7764/apuntesdeteatro.29.83174.1963",
+        "doi": "10.7764/apuntesdeteatro.29.83174.1963",
+        "year": 2024,
+        "authors": [
+          "Gabriela Roepke"
+        ],
+        "venue": "Apuntes de Teatro",
+        "abstract": "Sugerencias para el diseño de vestuario. Traducción por Gabriela Roepke.",
+        "pdf_url": "https://uc_revision.escire.site/index.php/RAT/article/download/83174/63478",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.7764/apuntesdeteatro.29.83174.1963",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Pontificia Universidad Catolica de Chile"
+        }
+      },
+      {
+        "title": "Metodologia y ficha tecnica del estudio; Identificacion y grado de molestia de las principales fuentes del ruido; Impacto social y percepcion subjetiva del ruido",
+        "source": "crossref",
+        "url": "https://doi.org/10.4272/978-84-9745-548-0.ch1",
+        "doi": "10.4272/978-84-9745-548-0.ch1",
+        "year": 2011,
+        "authors": [],
+        "venue": "Impacto social de la contaminacion acustica de las infraestructuras lineales en España",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.4272/978-84-9745-548-0.ch1",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Netbiblo"
+        }
+      },
+      {
+        "title": "Piel cultural: Formación, antropología y vestuario",
+        "source": "crossref",
+        "url": "https://doi.org/10.21500/9786287946033",
+        "doi": "10.21500/9786287946033",
+        "year": 2026,
+        "authors": [
+          "Dolly Viviana Polo Flórez"
+        ],
+        "venue": null,
+        "abstract": "En la apuesta teórico-conceptual de Piel cultural: formación, antropología y vestuario, se estudia cómo la antropologización y la formación inciden en el valor que se les otorga al vestuario y a los recubrimientos como parte de una imagen maleable del ser humano con el paso del tiempo. A su vez, se estudia cómo la materialidad del cuerpo y su subjetividad modifican el juego del encubrimiento. En ese orden de ideas, no debe sorprender que el presente documento sea en sí mismo un entretejido multidisciplinar cuya plataforma es la educación. Un aporte fundamental que brinda esta apuesta –que deriva de la tesis doctoral homónima– es el cambio en las representaciones de lo educativo. Se propone aquí que lo educativo no es la escolaridad, sino cómo y a través de qué –en este espacio, lo referente al vestuario– se forma la subjetividad.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.21500/9786287946033",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "Editorial Bonaventuriana"
+        }
+      },
+      {
+        "title": "Conservación preventiva de colecciones de vestuario escénico. Colección de vestuario compañía de danza española Ángel Pericet",
+        "source": "crossref",
+        "url": "https://doi.org/10.18682/cdc.vi100.3991",
+        "doi": "10.18682/cdc.vi100.3991",
+        "year": 2020,
+        "authors": [
+          "Cecilia Gómez García"
+        ],
+        "venue": "Cuadernos del Centro de Estudios de Diseño y Comunicación",
+        "abstract": "La investigación recopila las acciones de recuperación de la colección de vestuario de la compañía de danza española Ángel Pericet y las confronta con los métodos propuestos desde la conservación preventiva con criterio museológico. Se describe la historia y composición de la colección y se analizan otras experiencias de conservación con colecciones similares. El objetivo principal es reflexionar sobre cuál es el mejor camino a seguir en relación al restante de la colección que aún no ha sido relevado.",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/cdc/article/download/3991/2264",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.18682/cdc.vi100.3991",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Fundacion Universidad de Palermo"
+        }
+      },
+      {
+        "title": "Danzas guerreras en Guanajuato: Historia, vestuario y reinvindicación identitaria",
+        "source": "crossref",
+        "url": "https://doi.org/10.61437/ugto.9786075802213",
+        "doi": "10.61437/ugto.9786075802213",
+        "year": 2025,
+        "authors": [
+          "Alejandro Martínez"
+        ],
+        "venue": null,
+        "abstract": "La danza es una de las expresiones tradicionales más importantes del estado de Guanajuato, tanto por su variedad como por su relación con hechos históricos de gran importancia identitaria, local y regional. Tales representaciones contienen un argumento donde dos bandos opuestos se enfrentan en una lucha simbólica que, más allá de exponer un acercamiento fidedigno a los sucesos del pasado, sirven para plantear una postura identitaria entre el yo y el otro, donde aparece una reivindicación cultural y política en el más amplio sentido. Este libro aborda, desde un punto de vista etnohistórico, las relaciones interculturales entre la idealización del guerrero salvaje de raigambre prehispánica frente al invasor extranjero usurpador histórico de un territorio asumido como ancestral. Por ello, sin ser indispensable el pertenecer a una etnia con rasgos diferenciables específicos, es en el vestuario y la parafernalia de la danza donde se expone la lectura paradójica de adscripción identitaria entre el argumento católico y la lucha actuada ante el forastero, en el contexto de la defensa del territorio y la identidad local a lo largo de los últimos siglos. Publicación disponible en su versión acceso abierto de descarga gratuita, así como ejemplar físico (consultar costos de compra y envío).",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.61437/ugto.9786075802213",
+        "extra": {
+          "crossref_type": "monograph",
+          "publisher": "Universidad de Guanajuato"
+        }
+      },
+      {
+        "title": "Vestuario y sociedad andina: Desarrollo del Complejo Pica-Tarapacá (800-1400 DC)",
+        "source": "crossref",
+        "url": "https://doi.org/10.22199/isbn.9789563352504",
+        "doi": "10.22199/isbn.9789563352504",
+        "year": 2015,
+        "authors": [
+          "Carolina Agüero-Piwonka"
+        ],
+        "venue": null,
+        "abstract": "El texto sostiene que los textiles son una fuente clave para comprender las sociedades andinas prehispánicas, ya que reflejan identidades culturales y sociopolíticas. A partir del estudio de la vestimenta del Complejo Pica-Tarapacá (Período Intermedio Tardío), la autora busca identificar un estilo textil propio que permita entender la integración regional, las relaciones con grupos vecinos y la construcción de identidades sociales y políticas en Tarapacá. El objetivo es demostrar cómo el análisis textil contribuye a reconstruir procesos históricos y culturales que otras evidencias arqueológicas no revelan por sí solas.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "book",
+        "identifier": "10.22199/isbn.9789563352504",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "qillqa"
+        }
+      }
+    ]
+  },
+  "count": 39,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T01:59:38.444728+00:00"
+}

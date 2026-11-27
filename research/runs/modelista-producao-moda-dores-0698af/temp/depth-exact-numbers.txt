@@ -1,0 +1,1698 @@
+=== universidade-estadual-paulista (1653 lines) ===
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Figura 56: Molde saia godê executado no Audaces Vestuário
+Fonte:  Elaborado por Gisely A. Pires, 2015
+A segunda etapa compreendeu a simulação do protótipo como apresenta a
+Tabela 222: Processo de simulação da saia godê
+1 – Posicionamento e
+aplicação de costura
+2 - Simulação
+Reposicionamento
+do cós para
+simulação com o
+mesmo dobrado
+4 - Simulação
+5 – Aplicação de cor
+Fonte:  Elaborado por Gisely A. Pires, 2015
+A partir da simulação realizada foi configurado as propriedades para
+os Tecidos 5 e 6, resultando nos modelos apresentados na Tabela 23.
+Tabela 23: Simulação protótipos modelo 4 (saia godê)
+Modelo 4 – Tecido 7 (toque de seda)
+Modelo 4 – Tecido 8 (chamois)
+Fonte:  Elaborado por Gisely A. Pires, 2015
+5.8. Prototipagem Manual – Modelo 4: Saia Godê
+O protótipo físico da saia godê foi realizado em cinco etapas conforme Figura
+Figura 57: Etapas do processo de prototipagem manual saia godê
+Fonte:  Elaborado por Gisely A. Pires, 2015
+A primeira assim como no processo virtual, foi a elaboração da modelagem em
+CAD 2D. No entanto, para a construção do protótipo físico foi necessário inserir as
+margens de costura na circunferência da cintura e cós (Figura 58).
+Figura 58: Modelagem saia godê com margem de costura
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Os valores das margens de costura foram aplicados de acordo com as
+máquinas utilizadas para a montagem da peça, no qual podem ser acompanhas
+na Tabela 24, junto com a sequência operacional.
+Tabela 244: Sequência operacional para costura da saia godê
+Margem de costura
+Fechar costura traseira e
+pregar zíper
+Barra (corte a fio)
+Fonte:  Elaborado por Gisely A. Pires, 2015
+A segunda etapa compreendeu na execução do encaixe para os
+tecidos 7 e 8 (Figura 59). Ambos possuíam 1,40cm de largura. Dessa forma, tal
+processo foi realizado somente uma vez.
+Figura 59: Encaixe para corte dos tecidos 7 e 8
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Na terceira etapa realizou-se a impressão do encaixe para o corte. Na
+quarta ocorreu o corte dos tecidos 7 e 8. Os mesmos foram sobrepostos sobre a
+mesa de corte, assim o processo foi executado somente uma vez para os dois
+tecidos. Na quinta e última etapa foram efetuadas as costuras das saias,
+resultando nas peças apresentadas na Tabela 25.
+Tabela 255: Protótipos Físicos (saia godê)
+Modelo 4 – Tecido 7 (toque de seda)
+Modelo 4 – Tecido 8 (chamois)
+Fonte:  Elaborado por Gisely A. Pires, 2015
+6. ANÁLISE COMPARATIVA DOS PROTÓTIPOS VIRTUAIS E REAIS
+A partir de uma avaliação dos questionários aplicados com 21 alunos
+do 4º período do curso de Design de moda, da Faculdade Tecnológica Federal
+do Paraná, foram analisados os resultados das perguntas.
+A apresentação dos dados obtidos inicia-se pela identificação dos
+protótipos virtuais indicados pelos alunos. Em seguida são mostrados os
+resultados das comparações entre as imagens dos protótipos virtuais e físicos
+em relação ao caimento forma e volume.
+6.1. Resultados apresentados na identificação dos modelos virtuais
+Em um primeiro momento foram apresentadas as imagens
+vetorizadas da parte da frente por meio de um retroprojetor. Assim, os
+estudantes indicaram qual o protótipo executado no software Audaces 3D. A
+Figura 60 e 61, mostra as imagens do modelo 1, sendo a opção A, o protótipo
+Figura 60: Parte da frente do modelo 1 vetorizado no tecido Cotton
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Figura 61: Parte da frente do modelo 1 vetorizado no tecido Viscolycra
+Fonte:  Elaborado por Gisely A. Pires, 2015
+A seguir são apresentadas as imagens vetorizados do modelo 2, ambos são
+confeccionados no tecido Brim, no entanto os mesmos possuem gramaturas
+diferentes.   A Figura 62 apresenta a opção B como virtual, e a Figura 63, alternativa A.
+Figura 62: Parte da frente do modelo 2 vetorizado no tecido Brim 175g/m2
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Figura 63: Parte da frente do modelo 2 vetorizado no tecido Brim 300g/m2
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Para o modelo 3, as alternativas apresentadas como virtual é A para Figura 64,
+e B para Figura 65. Os mesmos foram executados nas malha Lurex e Suedine
+respectivamente.
+Figura 64: Parte da frente do modelo 3 vetorizado no tecido Lurex
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Figura 65: Parte da frente do modelo 3 vetorizado no tecido Suedine
+Fonte:  Elaborado por Gisely A. Pires, 2015
+O quarto e último modelo foi a Saia Godê, em que a alternativa virtual
+disponível na Figura 66 e 67, são representadas pela opção B. Os tecidos
+utilizados para confecção dos mesmos foram respectivamente: Toque de Seda e
+Figura 66: Parte da frente do modelo 4 vetorizado no tecido Toque de Seda
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Figura 67: Parte da frente do modelo 4 vetorizado no tecido Chamois
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Os resultados obtidos são apresentados na Tabela 26.
+Tabela 266: Identificação dos protótipos virtuais
+Modelo virtual
+apresentado
+Respostas dos
+Modelo 1 – tecido 1 (cotton)
+Modelo 1 – tecido 2 (viscolycra)
+Modelo 2 – tecido 3 (brim 175g/m2)
+Modelo 2 – tecido 4 (brim 300g/m2)
+Modelo 3 – tecido 5 (lurex)
+Modelo 3 – tecido 6 (suedine)
+Modelo 4 – tecido 7 (toque de seda)
+Modelo 5 – tecido 8 (Chamois)
+Fonte:  Elaborado por Gisely A. Pires, 2015
+A partir dos dados expostos é possível observar que os alunos
+identificaram na maioria das imagens apresentadas quais representavam o
+modelo virtual. No entanto, o modelo de número 4, tecido 8, o percentual das
+respostas são muito próximos. Neste caso pode-se concluir que houve certa
+dificuldade em reconhecer o protótipo virtual quando comparado ao físico.  Já o
+modelo de número 3, desenvolvido no tecido 4 e o modelo de número 5, tecido
+8, os modelos reais foram selecionados como virtuais, verificando assim que a
+similaridade dos protótipos desenvolvidos em CAD 3D pode se aproximar tanto
+do físico, a ponto de ocorrer confusão para identificar qual imagem é
+representa o modelo virtual.
+6.2. Resultados apresentados relativos às similaridades os protótipos
+virtuais e reais
+Em um segundo momento a imagem de todos os modelos foram apresentados
+com identificação de quais eram os modelos virtuais e reais (Figura 68). Assim, os
+alunos receberam um questionário (Apêndice A) referente à avaliação de caimento,
+forma e volume, para que mediante a observação das imagens frente, costa e lateral
+expostas por meio do retroprojetor, indicassem o grau de semelhança entre os
+Figura 688: Imagem do modelo identificado
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Com o intuito de sintetizar os dados analisados e de modo a torná-los visualmente
+perceptíveis, foram elaboradas quatro  tabelas  que classificam  as semelhanças entre
+os mesmo. Na primeira (Tabela 27) é possível verificar os resultados obtidos para o
+modelo da Calça Saruel, nos tecidos 1 e 2. A Tabela 28, indica os resultados do Vestido
+Trapézio, tecidos 3 e 4. Na Tabela 29 os dados estão relacionados aos protótipos da
+Blusa Transpassada, tecidos 5 e 6. A última, Tabela 30, permite comparar os resultados
+de caimento , forma e volume da Saia Godê, nos tecidos 7 e 8.
+Tabela 277: Identificação dos protótipos virtuais modelo 1
+Calça Saruel
+(viscolycra)
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Tabela 288: Identificação dos protótipos virtuais modelo 2
+Vestido Trapézio
+tecido 2 (brim
+tecido 2 (brim
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Tabela 299: Identificação dos protótipos virtuais modelo 3
+Blusa Transpassada
+tecido 2 (brim
+tecido 2 (brim
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Tabela 30: Identificação dos protótipos virtuais modelo 4
+Fonte:  Elaborado por Gisely A. Pires, 2015
+A observação dos dados apresentados nas Tabelas acima permite afirmar que
+os protótipos desenvolvidos virtualmente apresentam características visuais muito
+próximas dos protótipos físicos, pois nota-se na maioria das respostas obtidas que os
+mesmos são classificados como idênticos ou muito próximos dos reais. No entanto,
+torna-se relevante destacar que na Tabela 29 o modelo apresentado obteve na
+classificação de pouco semelhante, um percentual maior em relação aos outros.
+Provavelmente isso ocorreu devido aos problemas de modelagem da peça.
+Este trabalho iniciou-se com o objetivo principal de verificar as
+convergências e divergências entre os protótipos virtuais e os produzidos nos
+processos tradicionais, tendo em vista analisar a similaridade do caimento,
+forma e volume, para validação de novos projetos na indústria do vestuário, a
+fim de conferir a confiabilidade dos aspectos visuais dos modelos virtuais.
+Para proceder a esse estudo, foram desenvolvidos quatro modelos
+de protótipos, cada um executado em dois tecidos diferentes. No entanto, as
+características de comportamento dos materiais utilizados, não se encontravam
+disponíveis no software Audaces 3D. Em virtude disto, foi necessário
+desenvolver um método visual de caimento dos tecidos selecionados. Pois assim
+como na maioria das indústrias do vestuário, a autora não possuía acesso e nem
+o conhecimento exigido para o manuseio de equipamentos que avaliam as
+características técnicas dos tecidos.
+Feito isto, foram executados os protótipos virtuais e físicos. Os
+mesmo foram apresentados a um grupo de 21 alunos, do 4o período do curso de
+Design de Moda, da Universidade Tecnológica Federal do Paraná, a fim de
+verificar a semelhança entre os mesmos em relação ao caimento, forma e
+volume. Assim, comprovou-se a hipótese de que a utilização de softwares de
+prototipagem 3D específicos para indústria do vestuário possibilita o
+desenvolvimento de peças virtuais com características visuais muito próximas
+dos protótipos reais.
+Ressalta-se que mesmo sendo possível identificar a maioria dos protótipos
+virtuais em relação aos físicos, como mostra a análise da Tabela 24, tais fatores não
+influenciaram nas similaridades das características visuais dos mesmos. A síntese
+apresentada nas Tabelas 25, 26, 27 e 28, demostram com clareza tal fato, ao
+apresentar dados expressivos que comprovam a semelhança muito próxima ou mesmo
+idênticas entre os mesmos.
+Portanto, comprova-se a hipótese de que a utilização de softwares de
+prototipagem 3D específicos para indústria do vestuário possibilita o desenvolvimento
+de peças virtuais com características visuais muito próximas dos protótipos reais.
+Assim, a utilização de softwares 3D aplicados na aprovação prévia dos protótipos,
+pode ser validada como eficaz no processo de construção do vestuário, seja para
+analisar forma, caimento ou volume.
+Também é pertinente salientar que o alcance da similaridade entre o protótipo
+virtual e o físico, está diretamente relacionado ao conhecimento do tecido utilizado,
+modelagem, costura e a manipulação das ferramentas disponíveis no software 3D.
+Dessa forma, uma nova abordagem é aplicada para construção de protótipos,
+que até então é pouco conhecida. Isto deve contribuir para compreensão de um novo
+contexto e antever questões relativas aos novos processos e possibilidades de
+construção de protótipos na indústria do vestuário.
+No decorrer desta pesquisa outras questões foram surgindo como
+possibilidades e continuidade deste  trabalho. Entre as propostas de futuras pesquisas,
+incluem investigações que abordem: aspectos ergonômicos do vestuário virtual tanto
+de forma estática ou dinâmica; o conhecimento dos profissionais e docentes sobre a
+construção de protótipos virtuais; entre tantas outras, pois o campo de estudo é vasto
+e comprova-se grande carência de pesquisas com este enfoque.
+REFERÊNCIAS
+ABNT – Associação Brasileira da Indústria Têxtil e de Confecção. NBR 13483 - Material
+têxtil - Tipos de pontos, 1995.
+ABLING, Bina; MAGGIO, Kathleen. Moulage, modelagem e desenho – Prática
+integrada. Porto Alegre: Bookman, 2014.
+ALDRICH, Winifred. Modelagem Plana para moda feminina. Porto Alegre: Bookman,
+ALDRICH, Winifred. Tejido, forma y patronaje plano.  Barcelona: Gustavo Gili, 2010.
+AMADEN-CRAWFORD, Connie. Costura de Moda: técnicas básicas. Porto Alegre:
+Bookman, 2014.
+ARAÚJO, Mário de. Tecnologia do vestuário. Lisboa: Fundação Calouste Gulbenkian,
+AQUINO, Marco Silva de. Análise Tribológica da malhas multifuncionais obtidas por
+multicamadas. Tese de Doutorado - Programa de Pós-Graduação em Engenharia
+Mecânica do Centro de Tecnologia da Universidade Federal do Rio Grande do Norte.
+UFRN, 2012.
+BOUERI, José Jorge.  Sob medida: antropometria, projeto e modelagem. In: PIRES,
+Dorotéia Baduy. Design de Moda: Olhares diversos. São Paulo: Estação das Letras e
+Cores, 2008. Parte III, Cap. 4. p. 347-369.
+BREHM, Leda Maria Stumpf. Contribuição para classificação e descrição do caimento
+dos tecidos de seda 100% empregados em vestuário. Dissertação (Mestrado em
+Design) – Programa de Pós-Graduação em Design, UFRGS, 2011.
+BRIGGES-GOOD, Amanda. Design de estamparia têxtil. Porto Alegre: Bookman, 2014.
+CHATAIGNIER, Gilda. Fio a Fio: tecidos, moda e linguagem. São Paulo: Estação das
+Letras, 2006.
+CHONG, Andrew. Animação Digital. Porto Alegre: Bookman, 2011.
+ENDO, Diego Yoshihiro. O Design têxtil aplicado no design de produto. Dissertação
+(Mestrado em Design de equipamentos – Especialização em Design de produto) –
+Universidade de Lisboa – Faculdade Belas Artes, Lisboa, 2013.
+FAERM, Steven. Curso de Design de Moda: princípios, práticas e técnicas. Barcelona:
+Gustavo Gili, 2012.
+FISCHER, Anette. Construção de vestuário. Porto Alegre: Bookman, 2010.
+GIL, Antonio Carlos. Como elaborar projetos de pesquisa. 5. ed. São Paulo: Atlas,
+GODOI, Márcia Grazie Bragato de. O conceito da alta-costura aplicado na moda festa.
+Monografia (Graduação em Design de moda) – Universidade Tecnológica Federal do
+Paraná. Apucarana, 2014.
+GOMES, Paula. et al. Manual do Formando – Nível 1: Tecnologia de confecção nível
+básico. Portugal: Citeve, 2005.
+GOKARNESHAN, N. Fabric and Structure Design. New Delhi: New Age International,
+GUERRERO, José Antonio. Nuevas Tecnologías aplicadas a la moda. Barcelona:
+Parramón, 2009.
+JONES, Sue Jenkyn. Fashion Design: manual do estilista. São Paulo: Cosac Naify, 2011.
+KENKARE, Narahare Sreenath. Three Dimensional Modeling of Garment drape. Tese
+(Doutorado) - North Carolina state University. Raleigh, 2005.
+LASCHUCK, Tatiana. Design Têxtil: da estrutura à superfície. Porto Alegre: UniRitter,
+LEVINBOOK, Mirian. Design de Superfície: técnicas e processos em estamparia têxtil
+para produção industrial. Dissertação (Mestrado em Design) –, Universidade Anhembi
+Morumbi. São Paulo, 2008.
+LUTTERLOH, Silvia. O corte de Ouro Lutterloh. Kemptener: Alemanha, 2014.
+MAGNENAT-THALMANN, Nádia. Modeling and Simulating Bodies and Garments.
+London: Springer-Verlag London, 2010.
+MONTEMEZZO, Maria celeste de Fátima Sanches. Diretrizes metodológicas para o
+projeto de produtos de moda no âmbito acadêmico. Dissertação (Mestrado em
+Desenho Industrial) – Faculdade de Arquitetura, Artes e Comunicação, Universidade
+Estadual Paulista, Bauru, 2003.
+MENDES, Francisca Dantas; SACOMANO, José Benedito; FUSCO, José Paulo Alves. Rede
+de Empresas – A cadeia têxtil e as estratégias de manufatura na indústria brasileira
+do vestuário de moda. São Paulo: Arte & Ciência, 2010.
+MARVELOUSDESIGNER.
+<http://www.marvelousdesigner.com/cases/wetadigital>Acesso em: 21 jul.2015.
+NAVEIRO, Ricardo Manfredi. A Representação do Produto. In: ROMEIRO FILHO,
+Eduardo. Projeto de Produto. Rio de Janeiro: Elsevier, 2010. Cap. 21. p. 285-297.
+NEVES, Manuela. Desenho Têxtil – Tecidos, Vol I. Tecminho, 2000.
+OPTITEX. Disponível em <http://www.optitex.com/en/3D-Digitizer-Digitize-on-3D-
+View-See-Results-on-2D-pieces> Acesso em: 18 maio.2015.
+PEZZOLO, Dinah Bueno. Tecidos: história, tramas, tipos e uso. São Paulo: Senac-SP,
+PIPES, Alan. Desenho para designers: habilidades de desenho, esboços de conceito,
+computador,
+ilustração,
+ferramentas
+apresentações, técnicas de produção. São Paulo: Blucher, 2010.
+PRENDERGAST, Jennifer. Técnicas de Costura: uma introdução as habilidades de
+confecção no âmbito do processo criativo. São Paulo: Gustavo Gili, 2015.
+ROSA, Stefania. Alfaiataria: Modelagem Plana Masculina. 3a Ed – Brasília: Senac – DF,
+SABRA, Flávio.  Modelagem: tecnologia em produção do vestuário. São Paulo: Estação
+das letras e cores, 2009.
+SAMPIERE, Roberto Hernánde; COLLADO, Carlos Fernández; LUCIO, Pilar Baptista.
+Metodologia de Pesquisa.  São Paulo: McGraw-Hill, 2006.
+SATO, Hisako. Drapeados: a arte de modelar roupas. São Paulo: Gustavo Gili, 2014.
+SILVEIRA, Icléia. Um modelo para capacitação dos instrutores do sistema CAD para
+vestuário e dos modelistas, com foco na gestão do conhecimento. Tese (Doutorado
+em Design) Pontifícia Universidade Católica. Rio de Janeiro, 2011.
+SMITH, Alisson. Corte e Costura. São Paulo: Publifolha, 2012.
+SORGER, Richard; UDALE, Jenny. Fundamentos de Design de moda. Porto Alegre:
+Bookman, 2009.
+SOUZA, Patricia de Mello. Estratégias de construção para estruturas têxteis vestíveis.
+São Paulo, 2013.
+SMITH, Alison. O grande livro da costura: material, técnicas, moldes, projetos.
+[tradução Rosemarie Ziegelmaier]. São Paulo: Publifolha, 2013.
+TERZOPOULOS, D. et al. Elastically deformable models. Computer Graphics, volume
+21, number 4. California, 1987.
+TREPTOW, Doris. Inventando Moda: planejamento de coleção. Brusque: D. Treptow,
+A seguir serão apresentadas algumas imagens de peças do vestuário feminino que
+correspondem a protótipos confeccionados de forma tradicional (físico) e em
+softwares especializados (virtual).
+Essas imagens deverão ser observadas detalhadamente para uma análise do
+CAIMENTO, FORMA e VOLUME das peças.
+Universidade Estadual Paulista “Júlio de Mesquita Filho”
+Faculdade de Arquitetura, Artes e Comunicação
+Pós-graduação em Design
+Análise visual para identificação dos modelos virtuais e reais
+Modelo 1 – Calça drapeada
+Material: Cotton
+1- Na sua opnião, o protótipo físico e virtual  apresenta características de CAIMENTO:
+(   ) Identico     (   ) muito semelhante  (   ) pouco semelhante    (   ) muito diferente
+2- Na sua opnião, o protótipo físico e virtual  apresenta características de FORMA:
+(   ) Identico     (   ) muito semelhante  (   ) pouco semelhante    (   ) muito diferente
+3- Na sua opnião, o protótipo físico e virtual  apresenta características de VOLUME:
+(   ) Identico     (   ) muito semelhante  (   ) pouco semelhante    (   ) muito diferente
+Modelo 1 – Calça drapeada
+Material: Viscolycra
+1- Na sua opnião, o protótipo físico e virtual  apresenta características de CAIMENTO:
+(   ) Identico     (   ) muito semelhante  (   ) pouco semelhante    (   ) muito diferente
+2- Na sua opnião, o protótipo físico e virtual  apresenta características de FORMA:
+(   ) Identico     (   ) muito semelhante  (   ) pouco semelhante    (   ) muito diferente
+3- Na sua opnião, o protótipo físico e virtual  apresenta características de VOLUME:
+=== universidade-de-são-paulo-10 (792 lines) ===
+https://mindminers.com/blog/pesquisa-descritiva-o-que-e-e-como-aplicar/> (acesso 15/10/2022)
+5. REVISÃO DE LITERATURA
+CAPITULO I – A MODELAGEM
+A modelagem no design do vestuário trata de
+uma atividade que atende às necessidades
+de conforto, durabilidade e funcionalidade do
+responsável pela criação dos moldes, que
+reproduzem as formas e medidas do corpo
+humano, adaptados ao estilo proposto pelo
+designer. Elas são executadas a partir de
+uma análise feita pela modelista, profissional
+que elabora o molde‐ da interpretação do
+desenho técnico e das demais especificações
+do produto criado (MENEZES, SPAINE, 2010
+apud JONES, 2005. p. 83).
+O desenvolvimento de um produto de moda se inicia com a seleção das
+fibras que serão usadas na criação dos tecidos e seu posterior beneficiamento.
+Algumas etapas adiante, o estilista desenha uma coleção de roupas utilizando
+esses tecidos e pensando sobre sua usabilidade, versatilidade e combinação
+aviamentos.
+estilizados
+desenvolvimento17 que são entregues à modelista. A partir da análise do
+desenho e das fichas, a profissional desenvolve a modelagem e libera a peça
+piloto para o corte. Após corte, costura, acabamentos e provas de roupa, a
+estilista aprova a peça e lacra para a produção. Então, o molde é inserido no
+sistema Audaces, esse software faz a gradação da modelagem em todos os
+tamanhos e posiciona os moldes visando a redução de desperdícios de tecidos
+na produção. O passo seguinte é cortar, costurar e finalizar as peças.
+17 Ficha técnica é um documento que reúne todas as informações necessárias para a
+confecção da peça – tecidos, aviamentos, acabamentos, estampas, etc.
+Contudo, o processo de modelagem é mais complexo do que se
+imagina. A modelagem é onde a ideia de concretiza, sendo assim, a estilista e
+a modelista devem estar em contato constante para que o resultado final da
+peça seja o planejado. Além disso, processo de modelagem é responsável pela
+consolidação da ideia no produto, “determina por meio de suas características
+as formas, volumes, caimento, conforto que se configuram ao redor do corpo e
+deve, portanto, analisar detalhadamente a morfologia do corpo e seus
+movimentos realizados” (MENEZES; SPAINE, 2010. p. 83).
+Mesmo que a modelagem faça parte de uma
+área técnica, a sensibilidade do profissional
+que constrói molde – o modelista-, ao inserir
+nesses moldes folgas e volumes para atingir
+a silhueta desejada, harmonizando o desenho
+das costuras que ficarão visíveis na peça,
+transcende o caráter técnico e dá “vida” à
+roupa (BERG, 2017. p 20).
+Todo profissional e marca de moda possui uma tabela de medidas
+padrão, baseado nesses números que são traçados os pontos, linhas retas e
+curvas que originam os moldes base. Depois de concluído, o molde base serve
+de orientação para a criação dos mais diversos modelos de roupa. A
+modelagem no design do vestuário trata de uma atividade que atende as
+necessidades de conforto, durabilidade e funcionalidade do produto (SABRÁ,
+2009. JONES, 2005).
+[...]não bastam as medidas. É necessário
+observar a conformação corporal, ou seja, a
+distribuição
+medidas, analisar o caimento do ombro, ver o
+volume dos seios (prótese de silicone alteram
+significativamente
+deformidades,
+contornos que possam auxiliar na construção
+ou nos justes das modelagens (BERG, 2017.
+Modelagens realizadas a partir de medidas adequadas ao biotipo do
+público alvo resulta em produtos de melhor qualidade – que satisfazem o
+novos clientes, consequentemente aumentando o
+faturamento, diminui a margem de erros – evitando a oscilação nos custos e
+redução de produtividade.
+relacionadas à produtividade também vão dar
+elementos, requisitos e restrições para que a
+equipe envolvida na criação, desenvolvimento
+e produção do protótipo, e posterior produção
+em escala, possa obter um produto mais
+vendável, rentável, não deixando de lado
+questões que possam dar a ele maior valor
+agregado, já que o consumidor global tenderá
+para um consumo responsável nos próximos
+anos. (SABRÁ, 2010. p. 61)
+Todavia, durante o processo de desenvolvimento de produto, a estilista
+pode decidir por alterar o modelo, o tecido, acrescentar ou retirar algum detalhe
+da peça ou até mesmo desistir do produto se ele não se entrega o que foi
+idealizado anteriormente. Isso faz com que sejam costuradas peças piloto
+desnecessariamente, gerando o desperdício de tecidos, insumos e mão de
+O processo tradicional de desenvolvimento e produção de vestuário na
+indústria brasileira gera gastos e resíduos de tecidos muito elevados. Esse fato
+colabora para que a indústria têxtil seja uma das maiores poluentes do planeta,
+descartando todo o material derivado de sobra e restos de produção, que não
+possuem mais utilidade e valor depois do processo (SARAIVA, 2014).
+Segundo a Norma Brasileira 10.004/2004,
+sobre a classificação de resíduos sólidos,
+estes resultam de práticas industriais, entre
+outras, podendo apresentar características de
+combustibilidade, biodegradabilidade e que
+contaminação,
+assumir propriedades tóxicas. (MENEGUCCI
+et al, 2015. p. 4)
+Imagem 1: Quadro com os processos para o desenvolvimento de uma peça de roupa.
+Fonte: Desenvolvimento autoral, 2022.
+CAPITULO II – O ESTADO DA ARTE: DO COMEÇO AOS DIAS
+O CAD (computer-aided design18) surgiu em meados de 1950, à medida
+que a computação foi se desenvolvendo. Com a evolução da computação
+gráfica interativa e a criação das primeiras impressoras, grandes companhias
+desenvolveram
+(computador central)19. Contudo, esses programas só eram
+automobilística,
+aeroespacial
+governamentais (CORSO et al, 2016).
+A utilização do CAD na modelagem de vestuário só teve início na
+década seguinte, em 1960, com a invenção da primeira máquina de corte
+automatizado de tecido – acontecimento que revolucionou a indústria têxtil
+mundialmente. As primeiras empresas que desenvolveram seus softwares para
+modelagem foram a Gerber/Camsco, Lectra System and Microdynamics
+System, Assyst e Investronica. No Brasil, a Audaces e Moda-01 viriam a se
+destacar na década de 1990. A utilização desses programas revolucionou
+imediatamente dois setores de produção nas confecções: a gradação e o
+encaixe (Ibidem).
+A maioria dos programas CAD agora permite
+a criação de modelos tridimensionais, que
+podem ser vistos de qualquer ângulo. O CAD
+é essencialmente um sistema automatizado
+informações orientadas graficamente. Além
+fabricação de layouts. (DWIVEDI; DWIVEDI,
+2013. p. 174)20
+Imagem 2: Interface do software Audaces Molde.
+20 Texto original: “Most CAD programs now permit creation of three-dimensional models, which
+may be viewed from any angle. State-of-the-art solid modelling CAD programs are a virtual
+reality for machine design that helps architects, engineers, and designers in design activities. It
+involves both software and special-purpose hardware. CAD is essentially an automated system
+for the design, drafting, and display of graphically oriented information. Furthermore, CAD is
+used in the manufacturing process for layouts.” (DWIVEDI; DWIVEDI, 2013. p. 174)
+19 Um mainframe é um computador de alto desempenho usado para fins de computação em
+grande escala que exige mais disponibilidade e segurança do que uma máquina de menor
+https://gaea.com.br/o-que-sao-mainframes/#:~:text=Um%20mainframe%20%C3%A9%20um%2
+0computador,99%2C99%25%20de%20disponibilidade. (acesso 04/12/2022)
+18 Em tradução livre: desenho auxiliado por computador.
+Fonte: https://audaces.com/sistemas-audaces-360/ (acesso 05/12/2022)
+Nesse contexto, em 2010 é lançado a primeira versão do software CLO,
+com o objetivo de “para ser o mais preciso e realista possível, para que as
+roupas virtuais criadas no CLO pareçam e funcionem exatamente da mesma
+forma que as roupas físicas”21. O CLO3D é utilizado para concluir o design e
+dar inicio a produção das roupas, atendendo completamente a vários requisitos
+profissionais
+modelagens,
+modificações, seleção de tecidos, exibição e gradação de tamanho, etc. O uso
+deste software pode não apenas reduzir muito a duração do processo de
+design, mas também economizar no custo e tempo de produção, tornando-se
+uma roupa muito conveniente e prática (WANG; LIU, 2010).
+21 Texto original: “We create CLO to be as accurate and realistic as possible so that the virtual
+garments created in CLO look and act exactly the same as the physical garments.” Fonte:
+https://www.clovirtualfashion.com/story (acesso 04/12/2022)
+Imagem 3: Interface do software CLO3D.
+https://www.researchgate.net/figure/Clo-Virtual-Fashion-Clo-3D-interface-Equally-similar-is-the-simulation-f
+eedback_fig3_329895711 (acesso 05/12/2022)
+Antes de iniciar o desenvolvimento da peça piloto virtual, é necessário
+realizar a configuração do avatar conforme a tabela de medidas da empresa. O
+software funciona em duas telas, o lado direito no qual é criada a modelagem
+2D –mesmo formato que é utilizado no papel pelas empresas – e o lado
+esquerdo no qual tem-se o manequim 3D. O CLO3D permite não só o
+desenvolvimento de novos moldes, mas também a importação de moldes que
+já foram feitos no Audaces, por exemplo, para que possa ser gerado a peça em
+3D. Após sinalizar as partes que devem ser costuradas, quais serão os
+acabamentos e tecidos, o posicionamento no manequim e a ativação da
+costura automática cria a peça que apresenta o caimento similar ao da peça
+O CLO3D possibilita que seja realizado o processo de forma completa,
+da modelagem à peça pronta sem testes físicos. Com os resultados gerados no
+programa, as avaliações da peça piloto são realizadas pela tela do computador,
+decidindo se a peça será aprovada ou se sofrerá alguma modificação e, caso a
+peça não seja aprovada, outra peça pode ser desenvolvida sem a perda e
+desperdício de matérias primas (MENEZES, 2010. PIRES, 2015).
+Outro ponto positivo está na hora da venda, já que se torna possível
+apresentar aos compradores diferentes opções de tecidos, acabamentos e
+cores, se distanciando dos processos limitados de amostras de produto físicas
+que, normalmente, se concentram em cores neutras e acompanham longos
+completamente essa dinâmica (Ibidem).
+3D de roupas é tão
+confiável na visualização de designs antes da
+criação de um protótipo físico, a tecnologia
+também pode ser usada para criar imagens
+fotorrealistas
+eletrônico.
+departamento de vendas pode acessar todas
+as variações de uma coleção e os clientes
+fotorrealista das variações de vestuário –
+eliminando a necessidade de sessões de
+fotos – através do site da empresa ou canais
+de mídia social e comprá-los antes que uma
+disso, o 3D pode ser usado no e-commerce
+para construir um configurador com fins de
+customização,
+os consumidores
+possam visualizar peças de vestuário em
+diversas variantes e cores com facilidade.
+(FEBRATEX GROUP, 2022) 22
+https://fcem.com.br/noticias/como-a-prototipagem-virtual-com-3d-melhora-cada-etapa-da-cadei
+a-de-suprimentos/ (acesso 04/12/2022)
+Imagem 4: Comparação dos tecidos físicos e virtuais no CLO3D.
+Fonte: (PIRES, 2015. p. 20)
+Para a utilização do Audaces 360, recomenda-se o uso de um
+computador com sistema operacional Windows 10 Pro 64 Bits; Processador
+Intel Core i7 terceira geração (Ivy Bridge); 1 GB de espaço em disco rígido; 8
+GB de memória RAM; Placa de vídeo NVIDIA GTX 750 ou superior (GTX 1650
+SUPER™ Single Fan); monitor 19’’ ou maior; teclado e mouse com scroll.
+Já para a utilização do CLO3D, recomenda-se Windows 10 64 Bits,
+processador AMD® Ryzen 4ª geração 7/9 5000 series ou Intel® Core-7/9 11ª
+geração ou posterior, 2GB memória RAM, placa de vídeo NVIDIA® RTX 3000
+series ou NVIDIA® Quadro RTX, RTX A series 3 ou 4, SSD 20GB de espaço
+rígido, monitor de 27” ou mais, teclado e mouse com scroll.
+Os requisitos para a utilização do software CLO3D são maiores, o que
+gera uma diferença significativa no custo para adquirir uma máquina para rodar
+os programas. Enquanto o sistema completo do Audaces ficaria na média de
+valor de R$3.500, o sistema para o CLO3D alcançaria a média de R$11.000.
+6. DESCRIÇÃO
+Para realizar a análise comparativa entre o software Audaces e o
+CLO3D, selecionamos três modelos de uma empresa de confecção Private
+Label, na qual são desenvolvidas e produzidas peças femininas para grandes
+marcas brasileiras. As peças selecionadas foram o Vestido Morgan e Calça
+Jules, da marca Bô.Bô23 e o Vestido Alça Vitoria da marca LeLis Blanc24.
+Com o objetivo de determinar qual método de modelagem e pilotagem é
+mais otimizado, as informações colhidas comparam o consumo nos cortes da
+peça quando feitos manualmente, na modelagem do Audaces e na modelagem
+feita através do CLO3D. Importante considerar a quantidade de vezes que a
+peça piloto é refeita e registrar o resíduo têxtil para a produção final de cada
+23 Criada em 2006 pelas estilistas Carla Di Palma e Flávia Viacava, a marca Bo.Bô está entre
+as grifes mais luxuosas e conceituadas do Brasil. Suas produções são voltadas para um
+público feminino mais jovem, que é a mulher moderna e independente, dona de um estilo
+personalidade
+e que possui um alto poder aquisitivo. Fonte:
+https://blog.etiquetaunica.com.br/bo-bo/ (acesso 05/12/2022)
+24 Em 1988, Waltraut, responsável pela parte de estilo e desenvolvimento de produtos, e
+Rahyja, responsável pela área comercial, resolveram criar a marca Le Lis Blanc Deux
+(inicialmente batizada assim) com o objetivo de desenvolver um negócio de moda feminina
+direcionada
+aquisitivo.
+https://mundodasmarcas.blogspot.com/2017/01/le-lis-blanc.html (acesso em 05/12/22)
+7. VESTIDO MORGAN
+confeccionado
+manualmente consumiu 2,10m do tecido com 1,45m de largura, enquanto no
+Audaces consumiu 1,97m do tecido com 1,40m de largura. Percebe-se que a
+=== universidade-de-são-paulo-10 (792 lines) ===
+Fonte: Desenvolvimento autoral, 2022.
+Imagem 15: Consumo de tecido do Vestido Alça Vitória feito pelo CLO3D.
+Fonte: Desenvolvimento autoral, 2022.
+Imagem 16: Peça final do Vestido Alça Vitória.
+Fonte: Empresa analisada pela pesquisa de campo, 2022.
+9. CALÇA JULES
+Para a Calça Jules no tamanho 36, o corte manual consumiu 1,55m na
+largura de 1,42m do tecido principal. Nesta forma de corte, para fazer o cálculo
+de aproveitamento, foi usada uma balança para pesar a quantidade de tecido
+total utilizado (=345g) e, em seguida, o corte apenas da calça, o que resultou
+em um aproveitamento de 79,23%, enquanto a perda foi de 23,77% (=82g). No
+cálculo realizado no Audaces, o aproveitamento foi de 79,26% com a perda de
+20,74% e, por fim, foi feita a modelagem no CLO3D, resultando em um
+aproveitamento de 80,27% contra a perda de 19,73%.
+Imagem 17: Ficha de desenvolvimento da Calça Jules
+Fonte: Empresa analisada pela pesquisa de campo, 2022.
+Imagem 18: Consumo de tecido da Calça Jules, no tamanho 38, feito através do Audaces.
+Fonte: Empresa analisada pela pesquisa de campo, 2022.
+Tabela 3: Grade do pedido de produção da Calça Jules.
+Fonte: Empresa analisada pela pesquisa de campo, 2022.
+Analisando a Imagem 128, é possível verificar que o comprimento do
+risco da Calça Jules possui 310,99cm com uma sobra de 20,74%, totalizando
+64,49cm de sobra por peça e 141,89m para a produção das 220 peças (vide
+Imagem 19: Calça Jules feito pelo CLO3D.
+Fonte: Desenvolvimento autoral, 2022.
+Imagem 20: Consumo de tecido do Calça Jules feito pelo CLO3D.
+Fonte: Desenvolvimento autoral, 2022.
+Imagem 21: Consumo de tecido do Calça Jules feito pelo CLO3D.
+Fonte: Desenvolvimento autoral, 2022.
+Imagem 22: Peça final do Calça Jules.
+Fonte: Empresa analisada pela pesquisa de campo, 2022.
+10. ANÁLISE DOS RESULTADOS
+A Tabela 3 apresenta todos os dados coletados durante a pesquisa de
+campo. Para obter os dados de aproveitamento em porcentagem do consumo
+manual foi feito o risco no tecido, usado uma balança para pesar o consumo
+total do mesmo e, em seguida, foi realizado a pesagem apenas da peça
+talhada, o que resultou na porcentagem do aproveitamento da peça.
+Tabela 4: Análise de aproveitamento e descarte das peças Vestido Morgan, Vestido Alça Vitória e Calça
+Jules através dos métodos de modelagem manual, Audaces e CLO3D.
+Fonte: Desenvolvimento autoral, 2022. (dados Audaces e modelagem manual fornecidos pela empresa
+analisada).
+Um dos principais problemas enfrentados durante a pesquisa foi a falta
+de um método preciso para calcular a quantidade de aproveitamento do tecido
+no processo de corte manual das peças, já que não existe um sistema que
+calcule esse dado. Para chegar ao objetivo desejado e a unidade de medida
+certa para fazer o comparativo, foi necessário pesar a parte total do tecido no
+encaixe do molde e, em seguida, pesar novamente apenas a parte cortada da
+modelagem. Posteriormente foi feita a regra de três – utilizada para descobrir
+um valor desconhecido, que segue a mesma razão de outros já conhecidos,
+obtendo como resultado a porcentagem de aproveitamento.
+Além das três peças escolhidas para a análise, foi registrado a
+quantidade total de peças desenvolvidas no mês de agosto de 2022 e quantas
+dessas peças foram entregues ao cliente no mês de outubro de 2022. Em
+agosto, o desenvolvimento se iniciou com a modelagem e pilotagem de 38
+modelos, contudo, em outubro, no final do desenvolvimento da coleção, foram
+passados para a produção apenas 17 modelos, ou seja, 21 peças foram
+canceladas ou postergadas.
+Analisando os dados da Tabela 4 juntamente ao consumo do sistema
+Audaces de aproveitamento do tecido, foram feitos cálculos para descobrir a
+quantidade de tecido descartada apenas com a produção dos 17 modelos
+aprovados. Dessa forma, com as informações de aproveitamento e sobras de
+resíduos têxteis da empresa analisada, contata-se que no mês de novembro de
+2022 foram descartados 1.118,09m de tecidos na produção de 5.275 peças.
+O valor ideal de produção para essa empresa em específico, é de 8.000
+peças por mês, ou seja, se esse valor fosse produzido com as mesmas
+proporções de descarte de novembro de 2022, seriam descartados 1.695,73m
+de tecido. Caso essa quantidade fosse produzida por um ano inteiro, o
+descarte têxtil chegaria a 20.348,85m.
+Tabela 5: Aproveitamento e sobras de resíduos têxteis
+Fonte: Empresa analisada pela pesquisa de campo, 2022.
+Com base nos dados colhidos e analisados, notou-se uma redução
+considerável entre os resíduos têxteis gerados pelo corte manual, Audaces e
+O Vestido Morgan apresentou uma perda de 365,05g com a modelagem
+desenvolvida no CLO3D, totalizando uma economia de 164,36g no descarte
+comparado com a perda de 529,41g gerada pelo corte manual. O Vestido Alça
+Vitória totalizou uma economia de 232,17g no descarte do tecido ao comparar
+a perda de 390,11g gerada pelo CLO3D com a perda de 622,28g gerada pelo
+corte manual. E por fim, a Calça Jules apresentou uma economia de 28,98g no
+descarte têxtil, com perda de 315,26g no CLO3D contra 344,24 no corte
+Haja vista, o CLO3D surge como uma alternativa mais econômica para a
+modelagem e pilotagem, permitindo não só que as estilistas e modelistas
+visualizem o produto e previnam defeitos, mas também reduzindo o descarte
+têxtil. No caso das três peças analisadas, a utilização do software auxiliou na
+redução de 425,43g de tecido que seriam descartados. O software possui uma
+interface interativa, a forma de encaixe do sistema é visualmente simples e de
+fácil manuseio, gerando um melhor encaixe das partes do molde no tecido,
+consequentemente, o consumo se torna menor.
+Para evidenciar ainda mais a economia que o software CLO3D
+proporciona para os processos têxteis, a Tabela 6 apresenta os resíduos que
+seriam descartados para a produção de cada uma das três peças, de acordo
+com o pedido realizado pelo cliente.
+Tabela 6: Resíduos gerados nas diferentes formas de corte para produção têxtil.
+Fonte: Desenvolvimento autoral, 2022.
+Sendo assim, conclui-se que a utilização do software CLO3D têm grande
+potencial para remodelar os setores de pilotagem e produção têxtil na indústria
+da moda. Sabendo que, atualmente, a indústria têxtil não se atenta para a
+análise dos dados acerca a quantidade de descarte gerado, o CLO3D pode
+proporcionar diversos benefícios seguros e comprovados de economia de
+tempo e recursos financeiros, já que as peças pilotos não precisarão ser
+confeccionadas mais de uma vez.
+11. CONCLUSÃO
+Neste trabalho analisamos a indústria de confecção têxtil de moda e
+realizamos um estudo de campo utilizando dados de uma empresa Private
+Label de médio porte, que produz roupas femininas para grandes varejistas,
+focando na quantidade de resíduos têxteis provenientes de seu processo de
+Comparamos detalhadamente os processos de desenvolvimento e
+confecção de roupas sob a perspectiva de dois grandes modos de produção
+técnica com relação à modelagem – o primeiro e mais comum, onde a
+modelagem se inicia manualmente e é transferida para o software Audaces, e a
+técnica mais moderna, onde todo o processo é realizado pelo software CLO3D.
+Após finalizar a comparação, realizamos uma análise comparativa
+detalhada entre os métodos, a fim de observar o gasto de tempo e eficiência
+sob a perspectiva dos dois vieses de produção de modelagem e pilotagem.
+Para tanto, selecionamos três artigos, sendo esses o Vestido Morgan, o Vestido
+Alça Vitória e a Calça Jules; e elegemos o aproveitamento e sobras de matéria
+prima e a quantidade de peças piloto como os principais elementos para a
+análise, tendo em vista que esses são os elementos que contribuem para a
+eficácia e otimização na confecção de um produto, interferindo no resultado
+positivo e/ou recompensa pela produção.
+A análise apontou que o método de modelagem através do software
+CLO3D é o mais otimizado, reduzindo tempo e economizando matéria prima no
+que diz respeito a pilotagem – já que exige menos ajustes e retrabalho, além
+de potencializar o aproveitamento de tecido no posicionamento do corte,
+diminuindo consideravelmente os resíduos têxteis.
+12. REFERÊNCIAS
+12.1 BIBLIOGRÁFICAS
+ANDALÔ, Fábio. MODELAGEM E ANIMAÇÃO 2D E 3D PARA JOGOS. Ed.
+Erica. São Paulo, 2015.
+ANDREJA, Rudolf; METKA Zadravec; ZORAN, Stjepanovič. Investigations
+Regarding the Effects of Simulating Parameters During 3D Garments'
+Drape Simulations. FIBRES & TEXTILES in Eastern Europe, 2016.
+CONSTRUÇÃO DE BASES E VOLUMES. São Paulo. Editora Senac São
+Paulo, 2017.
+CORSO, Priscila Zimmer; CASAGRANDE, Heide Gomes; SANTOS, Heloisa
+Helena de Oliveira. O USO DA TECNOLOGIA CAD 3D NA INDÚSTRIA DE
+CONFECÇÃO. Archiote, Revista Eletrônica de Moda. Vol. 4. N. 2., 2016.
+AUTOMATION IN DESIGN AND MANUFACTURING FOR MECHANICAL
+AND TEXTILE INDUSTRIES: CAD/CAM. International Journal of Innovative
+Technology and Exploring Engineering (IJITEE). Vol. 3, 2013.
+JONES, Sue Jenkyn. FASHION DESIGN: MANUAL DO ESTILISTA. Ed: Cosac
+Naify. São Paulo, 2005.
+MENEGUCCI, Franciele, MARTELI, Leticia; CAMARGO, Maristela; VITO,
+REAPROVEITAMENTO NAS INDÚSTRIAS DE CONFECÇÃO. XI Congresso
+Nacional de Excelência em Gestão, 2015.
+MENEZES, Marizilda dos Santos; SPAINE, Patrícia Aparecida de Almeida.
+MODELAGEM PLANA INDUSTRIAL DO VESTUÁRIO: DIRETRIZES PARA A
+INDÚSTRIA DO VESTUÁRIO E O ENSINO‐APRENDIZADO. Ed. Projética.
+Londrina, 2010.
+PAPACHRISTOU, Evridiki; BILALIS Nikolaos. CAN 3D VIRTUAL PROTOTYPE
+CONQUER THE APPAREL INDUSTRY? Journal of Fashion Technology &
+Textile Engineering, 2016.
+PIRES, Gisely Andressa. O CAD 3D APLICADO NA VALIDAÇÃO DE
+PROTÓTIPOS NA INDÚSTRIA DO VESTUÁRIO. Dissertação apresentada ao
+Programa de Pós Graduação em Design da Universidade Estadual Paulista,
+Faculdade de Arquitetura, Artes e Comunicação. Bauru, 2015.
+SABRÁ, Flávio Glória Caminada. ANÁLISE QUANTITATIVA DE MODA: O
+DESENVOLVIMENTO
+TÊXTIL E DE
+Dissertação
+apresentada
+Profissionalizante em Administração como requisito parcial para obtenção do
+Grau de Mestre em Administração. Rio de Janeiro, 2010.
+PRODUÇÃO DE VESTUÁRIO. Ed. Estação das Letras e Cores. São Paulo,
+SARAIVA, Cátia Vanessa Madaleno. Modelagem: zero-waste. Dissertação
+apresentada para a Faculdade de Engenharia da Universidade da Beira Interior
+para obtenção do Grau de Mestre em Design de Moda. Covilhã, 2014.
+=== fit-models-roles-in-identifying-fit-issues (749 lines) ===
+Casual wear, formal
+wear, evening
+gowns, PPE, luxury
+ready-to-wear (run-
+way), swimwear,
+jeans, activewear (all
+Personal contact
+Plus size casual wear,
+formal wear, inti-
+mates (all seasons)
+Medium 15 + years
+Snowball sampling
+Casual wear, formal
+wear (all seasons)
+Medium 14 years
+Personal contact
+Casual wear,
+formal wear, jeans,
+activewear, sports
+gear, swimwear (all
+Medium 14 years
+Snowball sampling
+Casual wear,
+formal wear, jeans,
+activewear (all
+Medium 5 years
+Company observa-
+tion session (phase
+Wovens business
+casual (e.g., jackets,
+shirts, shorts, slacks,
+and joggers) (all
+Medium 2 years
+Company observa-
+tion session (phase
+Wovens business
+casual (e.g., jackets,
+shirts, shorts, slacks,
+and joggers) (all
+Page 9 of 17
+Yang and Baytar ﻿Fashion and Textiles           (2024) 11:32
+adequacy at the same time. Although some tactile comments, such as “the fabric is soft
+enough that it is not irritating my skin”, may not be easily replicated in 3D simulations,
+feedback related to “placement” can be integrated into 3D simulations to improve the
+success of the garment design and fitting. Avatars can move 360 degrees in every joint,
+but humans have some limitations. Fit models’ comments on the placement of elements
+such as pockets or zippers that are difficult to reach can be collected. The accumulated
+data would help determine the right angle, depth, or length that wearers could reach and
+use. Such data would increase the efficacy of 3D garment fits and serve as a guide for
+designers to add practical features to clothing.
+The second category was ’Design comments’ (Category 2). Fit models elaborated on
+how their feedback was significant as they were the first ‘Customers’ trying on new gar-
+ments and how they gained aesthetic insights and built a ‘Personal database’ while work-
+ing in the fashion industry (Fig. 2b).
+Olivia, Ava, and John, who were in the industry for over 14 years as full-time fit mod-
+els gave detailed examples of how they provided design comments. ‘Customer’s point of
+view (POV)’ and ‘how to wear’ were some of the descriptive codes, which were included
+in the theme ‘Customer’ after pattern coding. When fit models share their ideas refer-
+ring to the ‘length of garments’, it was based on their ‘Personal database’ (Fig. 2b). Given
+that the full-time fit models had clients of 25 apparel brands on average, they have been
+seeing and trying greater numbers of clothing than average customers, junior technical
+designers, and/or designers. Unlike designers or technical designers, who work in-house
+or work for only a few brands at a time, fit models work for multiple brands at the same
+time serving as “the first customer of the garment” (Olivia). John explained the reason
+why a fit session team asks for design comments as follows:
+Fig. 2  The hierarchical trees of themes for a Fit comments/ feedback from fit sessions and fit model
+interviews, b Design comments related to fit models’ points of view., c The clues that fit models use when
+identifying fit issues, and d Fit models’ fit issue problem-solving based on fit session settings
+Page 10 of 17
+Yang and Baytar ﻿Fashion and Textiles           (2024) 11:32
+It is not my job to give design feedback … But inevitably, people start asking me,
+and designers start asking me for validation about their design ideas and things
+like that … one of the strange things about being a fit model is that, like, you got
+up every day, and went to the mall, and walked through every store in the mall
+and tried on everything in there. And you just did that every day all day. That’s
+basically what I do. I fit for 30-40 brands. But every 30-40 brands they are bring-
+ing in 10-15 different reference styles. And so, I literally see everything in the mar-
+ket, plus see what everybody’s planning to do a year or two from now. So, there is
+some design knowledge there, I would say, but you don’t want to cross lines with
+intellectual property … But like, over time, I have come to realize how aware I am
+of design, even though it is not part of the job.
+Olivia’s ‘design comments’ (Fig. 2b) were to give feedback as a customer that some
+garments can be made easier to wear as indicated below:
+I am like a regular customer who just goes in and like ‘How does this work?’ So, if
+I’m back in the fitting room for 10 minutes, and like ‘I don’t know how to put this
+on!’ Those swimsuits, Oh my gosh, there’s so many straps. I don’t know what goes
+where. And so that’s important for me to come out and be like yes, if I can’t figure
+this out and you guys are taking 10 minutes, then how is the regular person going
+to figure this out?
+Fit models’ comments revealed that their knowledge can overlap with that of
+designers. While discussing design aesthetics, they use their work experience of wear-
+ing numerous garments. The major difference between dressing bodies in 3D simu-
+lations and physical settings is the formation of garments. In a 3D CAD program,
+pattern pieces are placed on the corresponding body parts of the avatars and then
+sewn digitally (Magnenat-Thalmann, 2010). For example, sleeve patterns are placed
+on the arms and the front bodice pattern piece is placed on the chest of the avatar.
+However, physical garment patterns are sewn first and then garments are worn by
+pulling them down from the head or pulling them up from the feet. The present study
+findings highlighted the importance of the dressing process. Potentially, future stud-
+ies can document the variety of motions and provide technical designers with specific
+information to predict fit issues in advance related to the effect of the dressing pro-
+cess on garment fit.
+In conclusion, feedback types provided by fit models were found to be related to gar-
+ment fit and design. Fit comments pointed out where and how they feel discomfort
+(Fig. 2a). Tactile feedback regarding fabrics, stitches, or trims was available only when
+garments were worn on the body. During fit sessions, fit models analyze the garments
+themselves by moving their bodies and identifying whether each element of the garment
+serves its purpose. For example, the location of openings or pockets should be conveni-
+ent and intuitive as well as aesthetically pleasing for wearers. Fit comments delivered by
+fit models verified if garments were useful, protective, and fit well. Design comments
+were based on the fit models’ database or knowledge that was accumulated over years of
+experience (Fig. 2b). During the interviews, experienced fit models, who have seen and
+worn more clothes than junior designers, provided detailed design comments explaining
+how they naturally became aware of designs and how they should fit because of working
+Page 11 of 17
+Yang and Baytar ﻿Fashion and Textiles           (2024) 11:32
+for many brands on the market. Additionally, the findings indicated that as they give
+design comments, they also look at the garment fit from customers’ perspectives.
+Processes to identify and solve fit issues (RQ2)
+Pattern coding revealed two categories, ‘Fit issue identification’ (Category 3) and ‘Fit
+issue solving’ (Category 4). ‘Fit issue identification’ had three subcategories, ‘Body specs’,
+‘Garment samples’, and ‘Posture’, and explained the mechanism through which fit models
+can pinpoint fit issues. The themes that were identified for ‘Body Specs’ included ‘Per-
+manent’ and ‘Temporary’, the themes under’Garment samples’ were ‘Pattern change’
+and ‘Fabric change’, and the themes under ‘Posture’ were ‘Upper body’ and ‘Lower body’
+John gave fit comments based on his body specifications, which were summed as sub-
+category 1 ‘Body specs’ (Fig. 2c), because he remembered all his body measurements,
+which hardly changed, and thus stayed ‘permanent’ (Fig.  2c), over repetitive fit ses-
+sions. However, two of the female participants indicated menstruating as a ‘temporary’
+(Fig. 2c) factor that affected body measurements with a comment such as, “As a woman,
+feeling a little full today” (Olivia). ‘Body specs’ (Fig. 2c) showed how precisely the fit
+models understood their bodies and used their knowledge as a baseline to evaluate the
+fit of garments. The theme, ‘Permanent’, emphasized how the fit models made comments
+based on their original physical features. John mentioned that he usually used his arms
+as a ruler as follows:
+The arm length is a huge one. … And I know that 33 and a half is right there (point-
+ing at the part on his arm near his wrist). And I know where all those sleeve lengths
+hit. And I know where the averages are.
+Another way the fit models identified fit issues was by comparing the new samples
+with the samples they tested before and recalling their experiences. In subcategory 2
+(Fig. 2c), i.e., ‘Garment Samples’, themes ‘pattern change’ and ‘fabric change’ refer to fit
+models’ comments based on their repetitive fit assessments in identical brands. After
+several rounds of fit sessions, garment fit changes due to pattern alterations. Fit models
+remembered how each garment fitted in the previous session and compared the new
+sample with the previous sample. For example, fit session team members asked fit mod-
+els, “Do you remember how the last one felt like?” (Kai) and had them compare new
+samples with the previous samples. Typically, apparel brands sell a few selected gar-
+ments throughout multiple seasons if they are sold well. Based on the season that they
+are released; designers only change the fabrics of the garments. Fabric properties affect
+the fit of garments although they are constructed from the same patterns. If fit models
+work with the brands for several seasons, they could remember the tactile experience of
+the same garment made from different fabrics.
+Under subcategory 3 (Fig. 2c), ‘Posture’, codes such as ‘stand’, ‘sit’, ‘squat’, ‘lunge’, and
+‘arms up’, which represented fit models’ movements, were grouped based on the body
+parts the fit models were moving. As fit models had their expertise in fitting various gar-
+ments such as activewear, evening gowns, and lingerie, how they moved during fit ses-
+sions was diverse. For tops with sleeves, such as jackets and shirts, all fit models replied
+that they raised their arms to test the fit comfort (Fig. 3a). Moreover, fit testing with arm
+Page 12 of 17
+Yang and Baytar ﻿Fashion and Textiles           (2024) 11:32
+movements was found to be essential in women’s bras or swimwear fittings, for garments
+without sleeves (Fig. 3a). Codes, ‘sit’, ‘squat’, and ‘lunge’, under the theme ‘Lower body’
+were related to fit testing of bottoms. Two common postures identified were sitting and
+squatting (Fig. 3b). Olivia and Ava stated that sitting was necessary to check if dresses
+were short in length and understand where the hem would be when sitting. On the other
+hand, ‘squat’ and ‘lunge’ were found when assessing the fit of activewear which were
+designed to promote athletic performance. The movements were intended to examine
+whether the garment served its purpose. Fit models made several initial movements to
+evaluate the fit of bottoms but the purposes behind each posture varied. Current virtual
+avatars in 3D simulations are not soft avatars that replicate the fat distribution or mimic
+the elastic changes of human skin upon various postures (Balach et al., 2021; McDonald
+et al., 2023). The present study underscored some of the key movements that fit mod-
+els hold during fit sessions to identify fit issues. Although 3D simulations enable virtual
+avatars to move every joint in 360 degrees, identifying how body parts and surface skin
+change in the key movements would be a starting point for improving 3D simulations to
+provide reliable fit results.
+For the ‘Fit issue solving’ category (Category 4), the identified fit issues varied depend-
+ing on the fit session settings, i.e., in-person or remote, which became popular during the
+COVID-19 pandemic. How fit models provided solutions differed between the settings
+(Fig. 2d). In in-person settings, some experienced fit models gave comfort comments
+which were a combination of ‘Discomfort areas’ (Fig. 2d) that they were experiencing
+with the ‘Ease amount’, which would be needed to fix the discomfort. For example, “the
+Fig. 3  The initial postures that fit models demonstrated during the observation and Zoom interviews were
+visualized in Browzwear VStitcher, as no pictures were taken during data collection. a Avatars with arms up to
+replicate fit models’ movements as demonstrated, b Sitting (left) and squatting (right) postures to assess the
+fit of bottoms
+Page 13 of 17
+Yang and Baytar ﻿Fashion and Textiles           (2024) 11:32
+front armhole feels like it’s diving into my arm, and I feel like I need about half an inch
+more front saddle” (Luna). She pointed out the front armhole as a ‘discomfort area’
+(Fig. 2d) and added comments that the front armhole had to be lowered half an inch.
+Fit models who performed fitting sessions remotely included Olivia, John, and Luna.
+They were full-time fit models during the COVID-19 pandemic. They emphasized the
+importance of ‘Physical studio settings’ (Fig.  2d) they had for remote fittings such as
+“the correct color temperature of lights, it’s 5600 overhead bar lights, I have front-facing
+LED light panels… I had a $7,000 camera, and my iPad as a mirror” (John) and “we used
+Zoom. I had like two or three spotlights set up. And I had two different cameras, that
+you had a clip, I had a close-up camera that I could use to show detail. And then I had a
+camera that I would set for the entire landscape” (Luna). Besides the lights and cameras,
+fit models also had full-length mirrors, clothing racks, steam irons, scissors, pins, seam
+rippers, tape measures, and sewing machines right next to them in the studio where they
+had remote fittings.
+The theme, ‘Technical designer’ (Fig. 2d) referred to the fit models’ practice of fitting
+and pattern alterations based on their technical knowledge when a technical designer is
+not in the same environment. On top of giving fit feedback, they ironed, pinned, cut, and
+marked the garments as delivering fit solutions. John explained the process as follows:
+I am a half-assistant tech designer at this point… I will be like, you know, making
+adjustments and pulling things… And maybe not all fit models are capable of being
+like, Oh, this is where you pin, you know, or I need to cut it. Like, I will cut things
+and let them drop and do things like that.
+While assessing garment fit, fit models suggested solutions to fit issues as well which
+were considered technical comments. Luna described the process as follows:
+I took on the role of the tech designer, I basically became a technical designer while I
+was doing that. So, you have to not only take notes and communicate with your fac-
+tories, or your pattern makers, but you also have to pin and mark on the garment so
+that they know exactly where what part of the garment you’re talking about. So, it is
+about creating that physical mark on the garment that you have to put on. In order
+to show exactly what sleeves you are talking about in the garment. So, I was doing
+it. Yeah, it was very much more technical design … I think I have been doing it long
+enough. I kind of did like three people’s jobs in one and I was ready to take on the job.
+The current research underlined the plausibility of quantifying and expressing the
+pressure applied to different body areas using fit models’ comments. Moreover, the
+necessary ease amount identified by fit models in fit assessments can be systematically
+recorded and used as a foundation in subsequent fit sessions to 3D simulations. If future
+studies gather data on pattern adjustments related to a specific amount of body pressure,
+the associated pressure maps could serve as a more precise tool for analyzing fit.
+Fit models reported that they identified fit issues by using their bodies as precise tools
+to evaluate garment measurements (Fig. 2c). They remembered the garment fit of each
+fit session to refer to the fit of new samples. Moreover, they developed specific postures
+to examine garments such as skirt lengths. Fit models understood that the fit of gar-
+ments that share the same design would be different if they were made with different
+Page 14 of 17
+Yang and Baytar ﻿Fashion and Textiles           (2024) 11:32
+fabrics. They were able to recall fit information from previous seasons and comment on
+fit differences driven by fabric differences. When they found fit issues, they provided
+solutions for them by stating where they occurred and how to fix them (Fig. 2d). Dur-
+ing in-person fit sessions, the conversations revolved around discomfort areas and sug-
+gested ease amounts. When they operated remote fit sessions, for example during the
+pandemic, they made sure that fitting room settings were well-prepared for Zoom calls
+as well as conducting garment alterations while taking the technical designer role and
+fitting garments.
+In short, the study findings indicated that there were four primary roles fit models held
+in fit sessions. First, they were live models who could give tactile and comfort comments
+about sample garments. Second, they had technical knowledge related to pattern altera-
+tion when discussing where and how much additional ease to add. Remote fit sessions
+during COVID-19 were viable due to the technical knowledge that fit models already
+had. Considering technical suggestions were regarded as significant or accepted as final
+pattern alterations, fit models had technical design knowledge and performed with the
+knowledge during fit assessments. Third, their knowledge, which was collected over
+years of experience, enabled them to take technical designer and designer roles. Fourth,
+they were the first customers of mass-produced garments and were able to provide cus-
+tomers’ points of view. They commented not only on their experience of wearing the
+garments but also on their experience of putting them on and taking them off.
+To better connect the feedback collected from the fit models with quantitative indica-
+tors, the present study guided what should be documented in future studies to improve
+3D simulations and eventually better utilize them in fit assessments. The ranges of
+motion, key postures, and fit alteration comments based on the amount of pressure on
+fit models’ bodies can direct how avatar rigging and 3D simulations can be improved to
+support fit sessions. Even though 3D avatars are not human beings, a detailed database
+of fit models’ experiences can be developed to acquire some fit experience predictions.
+The present study had limitations in that the number of fit models and technical design
+teams recruited was small. Additionally, the limited number of fit models that were
+recruited for the study may not provide extensive details in certain garment categories
+such as snow clothes; but the years of experience and number of brands each fit model
+was participating in provided sufficient details related to fit sessions in most categories of
+garments. While the study findings cannot be generalized, our findings identified a room
+to improve technologies to support fit sessions when using virtual fitting in 3D CAD.
+For instance, the poor fit that appears when fit models move is one of the most essential
+comments in fit sessions. In the current study, it was also found that fit models’ com-
+ments of where and how to fix the area when garments were ‘digging in’ instead of ‘feel-
+ing snug’ were valid. The amount of pressure that the body parts sense can be translated
+into the amount of extra ease that fit models and technical design teams would agree on.
+The pressure map tool in 3D simulations currently does not represent the actual pres-
+sure the wearer is experiencing (Brubacher et al., 2023; Zangue et al., 2020). Therefore, it
+is still not ready to be used as a direct communication tool that indicates the level of dis-
+comfort the wearer feels. In 3D CAD programs tools such as stress, pressure, and strain
+maps use color-coding to show the tightness of the garment. However, it is challenging
+to interpret the colored maps and guess how tight the actual garment would be (Zangue
+Page 15 of 17
+Yang and Baytar ﻿Fashion and Textiles           (2024) 11:32
+et al., 2020). The present study suggested that the amount of pressure on each body part
+could be captured, thus supporting tools such as pressure maps to serve as a fit analyzing
+tool with higher accuracy. Additionally, the extra ease amount that fit models identified
+during fit assessment can be tracked and accumulated as a baseline in fit test sessions to
+improve digital avatar offerings.
+Future studies should also hold in-depth interviews with fit models with fit specialties
+in various types of clothing and identify movements or postures developed to assess cer-
+tain garments. Muscle, joints, and fat distribution changes from the movements and cor-
+responding garment placements could explain more of fit. Avatars should be improved
+based on how the body changes when squatting, sitting, and lifting arms to improve fit
+assessments when using 3D simulations. As shown in Fig. 3, four postures were iden-
+tified throughout the present study, and there might be other postures to be found in
+future studies if the studies focus on fitting specific types of garments that were not
+included in the current study.
+Conclusions
+The fashion industry aims to digitalize the entire process of design and production of
+garments to enhance its sustainability efforts as the digital workflow can reduce the
+number of prototypes. Currently, new styles are designed and draped on avatars in 3D
+CAD programs for fit testing. Even though parametric, body scan, and soft avatars can
+=== open-access (797 lines) ===
+with characteristics of extensibility (− 0.503**) (p-value < 0.01), and weight (− 0.402*)
+(p-value < 0.05). In addition, drape coefficient showed significant positive correlations
+with characteristics of tensile resilience (0.432*), bending rigidity (0.431*) and mean
+deviation of MIU(Coefficient of friction) (0.533**). The extensibility representing elonga-
+tion deformation when a maximum load of 500 gf/cm was applied showed a result con-
+sistent with a previous study. It was found that the more difficult the stretch, the higher
+the drape coefficient. In addition, the greater the linearity caused by weight and com-
+pression, the smaller the drape coefficient (Sung et al., 1987). Komatsu and Niwa (1981)
+y= 0.8886x + 0.3457
+KES-FB Weight
+y= 0.4478x + 0.0703
+CLO Thickness
+KES-FB Thickness
+y= 4E·10.047x + -0.4314
+r= -0.518**
+CLO Bending stiffness
+KES-FB Bending rigidity
+Fig. 3  Comparison of KES-FB and CLO fabric kit parameters: a Weight, b Thickness, and c Bending property
+Page 10 of 20
+Kim and Lee ﻿Fashion and Textiles           (2024) 11:21
+have reported that the greater the tensile resilience, the greater the shape retention. They
+also found that when the bending rigidity had a large value, the space was maintained
+from the body and a box-shaped silhouette was formed. Hu and Chan have suggested
+that mean deviation of the friction coefficient is closely related to the drape ratio of a
+fabric (Hu & Chan, 1998). That is, when Mean deviation of MIU (MMD) representing
+resistance to slip is large, it means that the irregularity of the surface is large. This result
+is related to the drape ratio of the fabric.
+Multiple regression analysis was performed between drape coefficient and KES-FB
+properties. As shown in Table 4, ­r2 of the regression model was about 78.6%. Among
+variables as independent variables, bending rigidity, thickness, compressional energy,
+tensile energy and hysteresis width at shear angle 0.5° were influential variables that
+could explain drape coefficient of the fabrics.
+y= -0.474x + 1.0823
+r= -0.503**
+Drape coefficient
+KES-FB Extensibility
+y= -0.032x + 0.9843
+Drape coefficient
+KES-FB Weight
+y= 0.0049x + 0.3301
+Drape coefficient
+KES-FB Tensile resilience
+0.05 0.10 0.15 0.20 0.25 0.30 0.35 0.40 0.45 0.50
+y= 0.7031x + 0.5947
+Drape coefficient
+KES-FB Bending ridigity
+y= 7.1015x + 0.6011
+Drape coefficient
+KES-FB Mean deviation MIU
+Fig. 4  Comparisons of drape coefficient and KES-FB parameters: a Extensibility, b Weight, c Tensile resilience,
+d Bending rigidity, e Mean deviation of MIU
+Page 11 of 20
+Kim and Lee ﻿Fashion and Textiles           (2024) 11:21
+The regression equation of this regression model was expressed in Eq. (3) as follows:
+Tokmak et al. (2010) also studied drape in which the drape coefficient was correlated
+with mechanical properties, a high correlation was obtained between multi regression
+models of drape ratio-bending-shear property and the additional tightness factor. Col-
+lier (1991), and Shyr et al. (2007) have also performed a step-by-step multiple regression
+analysis to study the relationship between drape coefficient and the physical properties,
+the bending and shearing properties were found to be most closely associated with the
+static drape coefficient for the test fabrics. To determine multicollinearity (Hair et al.,
+1998), which represents the relationship between three or more variables, tolerance and
+VIF (variance inflation factor) checks were performed. The tolerance check revealed that
+KES-FB bending rigidity, thickness, compressional energy, tensile energy and hysteresis
+width at shear angle 0.5° had values above 0.1. The VIF revealed that these variables had
+values below 10. Therefore, it could be said that multicollinearity between independent
+variables in this regression model was not a problem. In addition, the above independ-
+ent variables used for the regression equation had a p-value of less than 0.05, meaning
+that they had significant effects on the dependent variable. In contrast, KES-FB weight,
+extensibility, linearity of load, hysteresis of bending moment, shear stiffness, coefficient
+of friction, hysteresis of shear force at 5° shear angle, geometrical roughness, tensile
+resilience and mean deviation of MIU had p-value greater than 0.05, indicating no sig-
+nificant effect on the dependent variable.
+Correlation and regression analysis between CLO fabric kit measurement results
+and drapability of silk fabrics
+Results of correlation analysis between drape coefficient and CLO fabric kit properties
+are shown in Fig. 5. The drape ratio showed a significant positive correlation with bend-
+ing stiffness (0.431**) (p-value < 0.01) and a significant negative correlation with weight
+Drape coeﬃcient = 0.541−0.547 ×
+KES −FB Tensile energy
+KES −FB Bending rigidity
+KES −FB Hysteresis width at shear angle 0.5◦
+KES −FB Compressional energy
+−1.652 × (KES −FB Thickness)
+Table 4  Regression analysis results of KES-FB variables for drape coefficient of silk fabrics
+* p < 0.05, **p < 0.01, ***p < 0.001
+Independent variables
+Unstandardized
+coefficients
+Standardized
+coefficients
+Standard error
+KES-FB Tensile energy
+KES-FB Bending rigidity
+KES-FB Hysteresis width at shear angle 0.5°
+KES-FB Compressional energy
+KES-FB Thickness
+Page 12 of 20
+Kim and Lee ﻿Fashion and Textiles           (2024) 11:21
+(-0.418**). Similar to the correlation between KES-FB properties and drape coefficient,
+bending properties and weight showed similar correlations. However, tensile properties
+and shearing properties did not show significant correlations.
+Table 5 shows results of multiple regression analysis between CLO fabric kit fabric
+properties and the drape coefficient, and the explanatory power ­(r2) of the regression
+equation was 69.6%. Equation (4) is the regression equation of the regression model.
+The drape coefficient is also expressed by bending property, thickness and weight with
+the CLO fabric kit results. As a result of checking the multicollinearity, CLO bending
+stiffness, thickness, and weight showed values of 0.1 or more in the case of tolerance and
+10 or less in the case of variance inflation factor, indicating no problem of collinearity. In
+addition, the above three variables were found to have significant effects on the depend-
+ent variable (p-value < 0.05). On the other hand, CLO stretch stiffness and shear stiffness
+did not significantly affect the dependent variable (p-value > 0.05).
+Comparison of drape coefficient between real and virtual silk fabrics
+As a result of correlation analysis between drape coefficient of real fabric and the drape
+coefficient of virtual fabric, a high correlation of 0.824** was shown in Fig. 6.
+Drape coeﬃcient = 0.479 + 1.209 × (CLO Thickness) −0.254
++ 1.476 × 10−6
+CLO Bending stiﬀness
+y= -0.1827x + 0.9971
+Drape coefficient
+y= 3.632×10
+-6 + 0.6908
+Drape coefficient
+CLO Bending stiffness
+Fig. 5  Comparisons of drape coefficient and CLO fabric kit measurement values: a Weight, b Bending
+Table 5  Regression analysis results of CLO fabric kit variables for drape coefficient of silk fabrics
+* p < 0.05, **p < 0.01, ***p < 0.001
+Independent variables
+Unstandardized coefficients
+Standardized
+coefficients
+Standard error
+CLO Thickness
+CLO Bending stiffness
+1.476 × ­10–6
+Page 13 of 20
+Kim and Lee ﻿Fashion and Textiles           (2024) 11:21
+Although a high correlation was confirmed between the real and virtual drape coef-
+ficients, an independent t-test in SPSS was performed to determine whether there
+was a statistically significant difference between the real and virtual drape coeffi-
+cients. At this time, the null hypothesis was set that there was no difference between
+the drape coefficient of the real fabric and the drape coefficient of the virtual fabric,
+and the alternative hypothesis was set that there was a difference between the two
+drape coefficients, and then the analysis was conducted. The analysis results showed
+that t = 5.330, p = 0.03 were statistically significant with a significance level of < 0.05
+(Table 6). This means that there is a significant difference between the real and vir-
+tual drape coefficient. The real drape coefficient was found to be 0.7619 on average,
+and the virtual drape coefficient was 0.6735, showing a tendency for the virtual drape
+coefficient to be smaller for the same fabric. In the system that measures the tensile
+stiffness of the CLO fabric kit, the force gauge does not set the maximum force, but
+measures the stretched length and the force applied at that point by point. It is pre-
+sumed that the resulting values, which did not sufficiently reflect the tensile strength
+of the stiff silk fabric used in this study, were reflected in the drape coefficient.
+In order to group silk fabrics with similar drape coefficient (characteristics),
+K-means cluster analysis was performed on the actual drape coefficient, and as a
+result, they were classified into 4 grades. As shown in Table 7, grade A had the lowest
+drape coefficient. The drape coefficient increased as grades B, C, and D were classified
+into fabric groups. Figure 7 shows drape images and real and virtual drape profiles
+for three silk fabrics corresponding to the median value of each grade. Comparing
+the difference in drape coefficient by grade of silk fabric, the difference between the
+y= 0.6815x + 0.1542
+Virtual Drape coefficient
+Real Drape coefficient
+Fig. 6  Comparison between real and virtual drape coefficient of silk fabrics
+Table 6  Independent samples t-test between real and virtual drape coefficient of silk fabrics
+Drape coefficient
+Number of fabric
+Real drape coefficient
+Virtual drape coefficient
+Page 14 of 20
+Kim and Lee ﻿Fashion and Textiles           (2024) 11:21
+real and virtual drape coefficient tended to increase as the grade increased. In other
+words, it was confirmed that the worse the drapability, that is, the stiffer the fabric,
+the larger the difference in drape coefficient between real and virtual, similar to Yoon’s
+study (Yoon, 2021b). To analyze these results by grade, an independent sample t-test
+was conducted for real and virtual drape coefficient of silk fabrics belonging to each
+grade. As shown in Table 7, there was no statistically significant difference between
+real and virtual drape coefficients of fabrics belonging to grade A. There was a sta-
+tistically significant difference between real and virtual drape coefficients of fabrics
+belonging to grades B, C, and D.
+Table 7  Cluster analysis according to drape coefficient and independent sample t-test results
+between real & virtual drape coefficient of silk fabrics
+** p < 0.01
+*** p < 0.001
+coefficient
+Virtual drape
+coefficient
+Similarity of
+coefficient
+Virtual drape
+coefficient
+coefficient
+Page 15 of 20
+Kim and Lee ﻿Fashion and Textiles           (2024) 11:21
+Looking at similarity of real and virtual drape coefficients according to grades
+divided by cluster analysis, the similarity between real and virtual drape coefficients
+of fabrics belonging to grade A was 94.5%, showing no statistical difference. However,
+it was found that there was a difference between real and virtual drape coefficients
+of silk fabrics belonging to grades B, C, and D. To analyze the cause of these results,
+physical properties of silk fabrics belonging to each grade were examined.
+Table 8 shows weight, thickness, bending rigidity, and extensibility among KES-FB
+properties. These parameters showed high correlations with the drape coefficient. Silk
+fabrics belonging to grade A are plain weave fabrics woven with degummed silk yarns
+and patterned jacquard fabrics with a plain weave ground texture woven with deg-
+ummed silk yarns. The bending rigidity had the smallest value of 0.089 gf·cm2/cm and
+the extensibility had the highest value of 1.03%. Therefore, silk fabrics belonging to
+grade A were thin and flexible fabrics woven with degummed yarns having low fabric
+Fig. 7  Drape images and profiles of real and virtual silk fabrics
+Page 16 of 20
+Kim and Lee ﻿Fashion and Textiles           (2024) 11:21
+density. It is known that if the bending rigidity value is small, it is easy to form a sil-
+houette that is rich in elasticity, thus emphasizing curves of the body because it shows
+flexibility (Omeroglu et al., 2010). Lagé et al. (2020) have reported that the accuracy
+of the virtual try-on is significantly more useful than that of the actual garment when
+the bending rigidity of the fabric is less than 5.3 Nm (0.054 gf·cm2/cm) and the ten-
+sile strain in the warp direction is 1.80% or more similar to our results. The fabrics
+belonging to grades B and C were heavy in weight because they were woven with high
+warp and weft densities using degummed silk yarn. The jacquard fabrics and plain
+weave fabrics belonging to the middle group in thickness and bending property were
+groups with small values of extensibility. Fabrics belonging to grade D had the highest
+bending rigidity. They were mostly plain weave fabrics woven with thicker weft raw
+silk yarns.
+Su¨le (2012) has reported that the drape coefficient of fabrics with high bending stiff-
+ness was found to be high, which proved that the effect of bending stiffness of fabrics on
+drape properties is quite important. Therefore, when a virtual fabric was implemented
+with the CLO 3D virtual clothing program, the drape coefficient of the virtual fabric was
+realized almost similar to that of the real fabric for flexible and yielding fabrics. However,
+it was found that the drape coefficient difference between real and virtual fabrics was
+large for stiff and less stretchable fabrics. Lim and Istook (2011) have found that as flex-
+ural properties of fabrics increase, the stretch decreases and the drape becomes stiffer
+similar to results to the present study. When implementing virtual materials using the
+CLO 3D virtual clothing program, Lee and Kim (2011) have reported that the similarity
+between real fabrics and virtual fabrics with high warp and weft stiffness characteristics
+such as organza or thick and form-stable fabrics such as denim is generally low.
+There is a lack of practical data for fabric properties in the 3D virtual clothing indus-
+try (Lee et al., 2011). To compensate for this, it is possible to express fabric properties
+in virtual space by applying physical properties measured in real fabrics. However, in
+addition to fabric properties provided by the virtual program, it is necessary to find
+appropriate values through various manual simulations (Chang & Lee, 2017). Based
+on the results of this study, virtual drape images were implemented for eight types
+of silk fabrics built in the fabric library in the CLO 7.1 program. As shown in Fig. 8,
+these eight types of virtual silk fabrics were taffeta, charmeuse, faille, crepe de-chine,
+double georgette, chiffon, duchess satin, and organza. Among them, taffeta, faille, and
+Table 8  Physical properties of silk fabrics belonging to each grade
+Weight (mg/cm2)
+Thickness (mm)
+Bending Rigidity
+(gf·cm2/cm)
+Extensibility (%)
+Page 17 of 20
+Kim and Lee ﻿Fashion and Textiles           (2024) 11:21
+organza showed large drape coefficient of 0.814, 0.822, and 0.872, respectively. Drape
+coefficient of the other five silk fabrics showed small values of 0.284 to 0.420. In other
+words, looking at the drape coefficient of silk fabric built into the CLO 3D program,
+the drapability of silk fabric in a low and high range can be realized. However, in the
+case of silk fabrics with a drape coefficient in the range of 0.5 to 0.7, there is a lack of
+actual silk fabric data base for use in implementing 3D virtual clothing. It seems nec-
+essary to secure a substantial data base that can accurately reflect the physical char-
+acteristics of silk fabric. In the virtual clothing simulation system currently in use,
+unlike the actual physical properties that have units, the bending and tensile property
+defined based on the particle system exist as dimensionless constant values without
+units, making it difficult to find a connection with the properties of the actual fabric.
+The three required fabric specimens through database creation.
+Conclusions
+The basic physical properties of fabrics were measured and conducted statistical analysis
+to investigate parameters affecting drapability for realizing 3D virtual clothing made of
+silk fabric. Additionally, the drapability of a virtual fabric implemented by the 3D CLO
+virtual clothing program and that of real fabrics were compared.
+The drape coefficient of silk fabric was significantly correlated with extensibility,
+weight, tensile resilience, bending stiffness, and mean MIU deviation among KES-FB
+properties, and significantly correlated with bending stiffness and weight among CLO
+fabric kit measurements. The bending rigidity and weight per unit area were parameters
+influencing the drape coefficient.
+Among the KES-FB properties, the tensile energy, bending stiffness, hysteresis width,
+thickness, and compression energy variables at a 0.5° shear angle predicted 78.6% of the
+drape coefficient. In addition, the drape coefficient could be predicted by 69.6% through
+Crepe de-chine
+coefficient
+coefficient
+Fig. 8  Drape profile and drape coefficient of virtual silk fabrics in 3D CLO fabric library
+Page 18 of 20
+Kim and Lee ﻿Fashion and Textiles           (2024) 11:21
+thickness, weight, and bending stiffness variables among the CLO fabric kit properties.
+It was found that bending is the variable that determines the drape coefficient of the silk
+fabric the most.
+The physical property evaluation values of KES-FB and CLO fabric kits showed a high
+correlation in weight, thickness, and bending characteristics. However, no significant
+correlation was obtained between the two systems in terms of tensile properties. There-
+fore, it is necessary to adjust the physical properties of the program according to the
+tensile characteristics of the sample.
+For stretchable and flexible silk fabrics, the real and virtual drape coefficients were in
+statistically significant agreement, confirming the possibility of clothing material imple-
+mentation of the 3D digital clothing program. The CLO 7.1 program showed that the
+accuracy of virtual fabric was quite useful compared to real fabric if bending rigidity was
+lower than 0.089 gf·cm2/cm and extensibility was higher than 1.03%. However, it also
+confirmed a difference in similarity between real and virtual silk fabrics, which had a
+large drape coefficient of 0.6 or more with stiffness. In the case of stiff fabrics with low
+elasticity and high bending properties, more research is needed on the program mod-
+eling method considering the mechanical and physical properties of real fabric and its
+Author contributions
+JL proposed the research idea and JHK carried out the research. JHK were mainly responsible for data analysis and the
+experiment along with writing the manuscript, and JL was involved in the edition of the manuscript as well as data
+analysis and the experiments. All of the authors read and approved the final version of the manuscript.
+This work was supported by the National Research Foundation of Korea(NRF) grant funded by the Korea
+government(MCST)(2022M3C1C5A02094018).
+Availability of data and materials
+The datasets used and/or analysed during the current study are available from the corresponding author on reasonable
+Declarations
+Ethics approval and consent to participate
+Not applicable.
+Competing interests
+The author declares no competing interests.
+Received: 9 January 2024   Accepted: 3 May 2024
+Abdin, Y., Taha, I., El-Sabbagh, A., & Ebeid, S. (2013). Description of draping behaviour of woven fabrics over single curva‑
+tures by image processing and simulation techniques. Composites Part B: Engineering, 45(1), 792–799. https://​doi.​
+org/​10.​1016/j.​compo​sitesb.​2012.​06.​004
+Buyukaslan, E., Kalaoglu, F., & Jevsnik, S. (2017). Drape simulation and subjective assessment of virtual drape. Materials
+Science and Engineering, 254(16), 1–6. https://​doi.​org/​10.​1088/​1757-​899X/​254/​16/​162002
+Chan, C. K., Jiang, X. Y., Liew, K. L., Wong, W. K., & Lau, M. P. (2006). Evaluation of mechanical properties of uniform fabrics
+in garment manufacturing. Journal of Materials Processing Technology., 174(1–3), 183–189. https://​doi.​org/​10.​1016/j.​
+jmatp​rotec.​2006.​01.​002
+Chang, H., & Lee, J. (2017). A compative analysis of virtual clothing materials using a digital clothing. Journal of Fashion
+Business, 21(5), 30–42. https://​doi.​org/​10.​12940/​jfb.​2017.​21.5.​30
+Choi, K. H. (2022). 3D dynamic fashion design development using digital technology and its potential in online platforms.
+Fashion and Textiles, 9(9). https://​doi.​org/​10.​1186/​s40691-​021-​00286-1
+Page 19 of 20
+Kim and Lee ﻿Fashion and Textiles           (2024) 11:21
+Choi, Y. L., & Nam, Y. J. (2009). The qualitative study on the evaluation and the application of 3D scan and virtual try-on
+technology. Journal of the Korean Society for Clothing Industry, 11(3), 437–444.
+Collier, B. J. (1991). Measurement of fabric drape and its relation to fabric mechanical properties and subjective evalua‑
+tion. Clothing and Textile Research Journal, 10(1), 46–52. https://​doi.​org/​10.​1177/​08873​02X91​01000​107
+Cusick, G. E. (1968). 21-The measurement of fabric drape. The Journal of the Textile Institute, 59(6), 253–260. https://​doi.​org/​
+10.​1080/​00405​00680​86599​85
+Fontana, M., Rizzi, C., & Cugini, U. (2005). 3D virtual apparel design for industrial applications. Computer-Aided Design,
+37(6), 609–622. https://​doi.​org/​10.​1016/j.​cad.​2004.​09.​004
+Glombikova, V., & Zdenek, K. U. S. (2014). Drape evaluation by the 3D drape scanner. Textile and Apparel, 24(3), 279–285.
+Hair, J. F., Black, W. C., Babin, B. J., & Anderson, R. E. (2009). Multivariate data analysis (7th ed.). New Jersey: Prentice-Hall.
+Hu, J. L., & Chan, Y. F. (1998). Effect of fabric mechanical properties on drape. Textile Research Journal, 68(1), 57–64. https://​
+doi.​org/​10.​1177/​00405​17598​06800​107
+Ju, E., & Choi, M. G. (2020). Estimating cloth simulation parameters from a static drape using neural networks. IEEE Access,
+8, 195113–195121. https://​doi.​org/​10.​1109/​ACCESS.​2020.​30337​65
+Kawabata, S. (2000). Fabric quality desubjectivised. Textile Asia, 31(7), 30–32.
+Kenkare, N., & May-Plumlee, T. (2005). Evaluation of drape characteristics in fabrics. International Journal of Clothing Science
+and Technology, 17(2), 109–123.
+Kim, H. S., & Na, M. H. (2013). Effects of bending properties and drapability on the hand and appearance of wool-blended
+fabrics: Comparison of real clothing with online and 3D virtual garments. Fibers & Polymers, 14(12), 2148–2156.
+https://​doi.​org/​10.​1007/​s12221-​013-​2148-2
+Kim, M., Kim, M. O., & Park, S. (2014a). Comparison and analysis of men’s classic-fit and slim-fit shirt patterns-Utilizing the
+3D virtual try-on system-. The Research Journal of the Costume Culture, 22(2), 209–224. https://​doi.​org/​10.​7741/​rjcc.​
+2014.​22.2.​209
+Kim, S. (2011). Determination of fabric physical properties for the simulation of Cusick drapemeter. Fibers and Polymers,
+12(1), 132–136. https://​doi.​org/​10.​1007/​s12221-​011-​0132-2
+Kim, Y., Yin, S., & Song, H. K. (2014b). A comparison of fit and appearance between real pants with 3D virtual pants. Fash-
+ion & Textile Research Journal, 16(6), Article 961. https://​doi.​org/​10.​5805/​SFTI.​2014.​16.6.​961
+Komatsu, K., & Niwa, M. (1981). Characteristics of physical properties of kimono fabric. Research Journal of Living Science,
+28(1), 235–243. https://​doi.​org/​10.​5772/​48585
+Korean Agency for Technology and standards. (2021, October). KS K ISO9073-9 Textiles-Test methods for nonwovens-Part
+9: Determination of drapability including drape coefficient. Korean Standards & Certifications. Korean Agency for
+Technology and standards.   https://​stand​ard.​go.​kr/​strea​mdocs/​view/​sd;​strea​mdocs​Id=​72059​30779​96330​49
+Lage, A., & Ancutiene, K. (2017). Virtual try-on technologies in the clothing industry. Part 1: investigation of distance ease
+between body and garment. The Journal of the Textile Insitute, 108(10), 1787–1793. https://​doi.​org/​10.​1080/​00405​
+000.​2017.​12867​01
+Lagé, A., Ancutiené, K., Pukiené, R., Lapkovska, E., & Dãbolina, I. (2020). Comparative study of real and virtual garments
+appearance and distance ease. Material Science, 26(2), 233–239. https://​doi.​org/​10.​5755/​j01.​ms.​26.2.​22162
+Lee, M., Sohn, H., & Kim, J. (2011). A study on representation of 3D virtual fabric simulation with drape image analysis II-
+focus on the comparison between real clothing and 3D virtual clothing-. Journal of Fashion Business, 15(3), 97–111.
+Lee, R., & Kim, J. (2016). A study on the three-dimensional expression of fashionable textiles based on analysis of 3D scan‑
+ning and textile properties-focus on the work of Iris van Herpen-. Journal of Fashion Business, 20(2), 124–133. https://​
+doi.​org/​10.​12940/​jfb.​2016.​20.2.​124
+Lee, Y., & Kim, J. (2011). A study on the drape profile analysis of the apparel textiles and 3D virtual textiles using a 3D
+digital clothing software. Journal of Fashion Business, 15(5), 103–114.
+Lim, H., & Istook, C. L. (2011). Drape simulation of three-dimensional virtual garment enabling fabric properties. Fibers and
+Polymers, 12(8), 1077–1082. https://​doi.​org/​10.​1007/​s12221-​011-​1077-1
+Lozen, D. Z., & Jevsnik, S. (2007). Some aspects of fabric drape. Fibres and Textiles in Eastern Europe, 15(4), 39–45.
+Matsudaira, M., & Yang, M. (2000). Some features of the static and dynamic drape behaviour of polyester-fibre Shingosen
+=== issn-13921320-materials-science-medžiagotyra-vol-26-no-2-2020 (529 lines) ===
+and virtual dress was tested at bust and waist cross-sections
+Table 1. Structural and mechanical characteristics of tested fabrics
+Composition
+Tensile strain
+Bending rigidity
+Shear rigidity
+98 % cotton, 2 % elastane
+97 % cotton, 3 % elastane
+96 % cotton, 4 % elastane
+95 % cotton, 5 % elastane
+93 % cotton, 7 % elastane
+Fig. 2. Methodology sequence: a – initial mannequin; b – mannequin with cover; c – mannequin with the real dress; d – scanned
+unclothed mannequin; e – scanned mannequin with real dress; f – scanned mannequin with virtual dress
+Fig. 3. Preparation of cross-sections: a – planes of cross-sections in real scanned dress (3D Max); b – planes of cross-sections in virtual
+dress (Modaris); c – view of bust and waist cross-sections
+3D distance ease (ES3D_bust,waist, cm) between body and
+a garment at bust and waist cross-sections of real and
+virtual dresses were investigated by 3Ds Max and
+AutoCAD software packages. Scanned unclothed and
+clothed mannequins in appropriate size were imported into
+3Ds Max software; the subjects were matched with each
+other and then sliced by planes at bust and waist girths.
+Distance ease of virtual garment was estimated in Modaris
+3D software using measuring tool. 3D distance ease was
+calculated according to Eq. 1 [24].
+where L3D_bust,waist, cm (Fig. 3 c) is the perimeter of 3D
+garment at correspondent cross-section, it was measured
+by AutoCAD for real dress (L3DR_bust,waist) and by Modaris
+3D for virtual dress (L3DV_bust,waist); Lbust,waist, cm is the length
+of perimeter of mannequin at correspond cross-section.
+Mismatch h (Fig. 1) between Lbust,waist and L3D_bust,waist
+measure lines were evaluated of real and virtual dresses.
+Virtual try-on of each virtual dress was done three
+times and then measurement of 3D distance ease values at
+bust and waist girths was taken and quotient of variation v
+was calculated. The quotient of variation did not exceed
+Real dresses were scanned once using scanning
+equipment which is compatible with ISO 20685 (3-D
+scanning methodologies for internationally compatible
+anthropometric databases – Part 1: Evaluation protocol for
+body dimensions extracted from 3-D body scans). There
+are stated maximum error between extracted value and
+traditionally measured value, which is 9 mm for large
+circumferences (e.g. bust circumference) and 4 mm for
+small circumferences (e.g. neck circumference). This is
+called as the systematic measurement error which will be
+the same for all scans in the same equipment therefore can
+be declared as statistically indifferent. Theoretically
+calculated quotient of variation of scanned objects did not
+exceed 0.7 %.
+3. RESULTS AND DISCUSION
+It was defined that differences between the length of
+real and virtual dresses perimeter lines at bust girth L3D_bust
+varied from 0.1 % to 3.4 % and from 0.1 % to 4.9 % at
+waist girth L3D_waist. However, 3D distance ease values had
+higher differences comparing virtual and real garments.
+Distance ease values at bust girth of real and virtual
+dresses differed up to 29.9 % (1.16 cm), except fabric 03 in
+all sizes (Table 2). The difference of ES3D_bust using fabric
+03 varied from 12.3 % (1.04 cm) to 48.3 % (1.46 cm).
+Virtual dresses had higher distance ease values than
+real dresses with all tested fabrics (except fabric 03) in
+almost all sizes (Table 2). Virtual dresses with fabric 03
+showed the biggest differences; it had ES3D_bust values from
+12.3 % to 48.3 % lower than real dresses for all mannequin
+sizes. These dresses occurred with wrinkles in bust area
+because of the highest shear rigidity G (Table 1) what
+might be not simulated precisely and caused differences
+comparing with other fabrics. The lowest differences of
+distance ease in all sizes showed fabric 05 (Table 2).
+Linear relations of real (Fig. 4) and virtual (Fig. 5)
+dresses between mannequin size and 3D distance ease
+values at bust girth showed, that the highest distance ease
+of real dresses was formed with fabric 03 and 06, and the
+lowest with fabrics 02 and 04. While the highest distance
+ease of virtual dresses was formed with fabric 06. However
+virtual dresses in different sizes with different fabrics did
+not have a clear tendency that could be seen in the real
+The difference of distance ease between real and
+virtual dresses at waist girth ES3D_waist varied from 7.3 %
+(0.51 cm) to 43.3 % (3.21 cm), except fabric 03 in all sizes
+(Table 3). The difference ES3D_waist of fabric 03 varied from
+31.2 % (4.08 cm) to 47.3 % (4.30 cm). This could be
+explained due to the wrinkles occurred at waist area,
+because garment had not enough distance ease at hip,
+therefore it stacked and wrinkles at waist originated [24].
+Real dresses had higher ES3D_waist values than virtual
+dresses in all cases. The highest difference between real
+fabric 03 – from 31.2 % to 47.3 %, while fabric 04 had the
+best match (Table 3).
+Fig. 4. Linear relations between mannequin size and 3D distance
+ease of real dress at bust girth
+Fig. 5. Linear relations between mannequin size and 3D distance
+ease of virtual dress at bust girth
+Table 2. 3D distance ease ES3D_bust values at bust girth: R – real dress, V – virtual dress (the best coincidence in each size are marked in
+bold, while the biggest differences – in Italic)
+Size/Fabric
+Table 3. 3D distance ease ES3D_waist values at waist girth: R – real dress, V – virtual dress (the best coincidence in each size are marked
+in bold, while the biggest differences – in Italic)
+Size/Fabric
+Virtual dress with fabric 03 wrinkled in the waist area,
+while real dress fitted to the body good and no wrinkles
+were formed. Wrinkles in virtual dress occurred due to the
+highest shear rigidity G what might not be simulated
+precisely. There was tendency observed, that by increasing
+of the mannequin size, the differences between real and
+virtual dresses at waist girth increased.
+Analysing linear relation between mannequin size and
+3D distance ease at waist girth of real (Fig. 6) and virtual
+(Fig. 7) dresses, it was seen that the highest distance ease
+of real dresses was formed with fabric 03 and 06, while the
+highest distance ease of virtual dresses was formed with
+fabric 02 and 06.
+Fig. 6. Linear relations between mannequin size and 3D distance
+ease of real dress at waist girth
+Fig. 7. Linear relations between mannequin size and 3D distance
+ease of virtual dress at waist girth
+It was defined that the position of 3D measure lines at
+bust and waist girths L3D_bust,waist  do not match the position
+of corresponding girths Lbust,waist of mannequin (Fig. 1).
+This mismatch h was caused by two reasons: fabric
+deformation which is related to mechanical properties and
+construction of the garment. Distance ease values strongly
+depend on the position of L3D_bust,waist measure line which
+can be higher or lower than the girth line Lbust.waist on the
+mannequin. Due to the undefined bust and waist lines in
+scanned dress, the position of these lines in real and virtual
+garments cannot be evaluated, so mismatches h cannot be
+Analysing cross-sections of real (Fig. 8 a, Fig. 8 c) and
+virtual (Fig. 8 b, Fig. 8 d) dresses with different fabrics and
+88 size mannequin, it was seen that good fit with the body
+was obtained in the front side with all fabrics at bust girth,
+however uneven extra looseness at garment back side was
+formed. Also wrinkles were formed at left and right sides
+also back side at waist girth. Size 88 was chosen for the
+comparison because of the highest values of distance ease.
+Differences of cross-section forms of real and virtual
+dresses at bust and waist girths (Fig. 8) were noted. Cross-
+sections of real and virtual dresses had similar form with
+all fabrics, especially with 02, 05 and 06 at bust and with
+04, 05 and 06 at waist girth. High tensile strain EMT
+values, the lowest bending rigidity B, mass per unit area
+and thickness values of fabric 05 ensured the greatest
+similarity of cross-section forms. The form of bust and
+waist cross-sections with fabric 03 had less similarity. The
+most similar forms were observed at bust in front side and
+at waist in front left and right sides. Virtual dresses at bust
+girth had deeper wrinkles in back side and less but deeper
+wrinkles in both sides. Real dresses at waist girth were
+tighter in back side than the virtual ones.
+It was defined, that by increasing of mannequin size,
+similarities between real and virtual dresses appearance
+decreased (Fig. 9). Visual appearance and shape of real and
+virtual dresses was similar from 88 to 92 mannequin size;
+wrinkles had similar positions, though directions and forms
+of them were not identical.
+Dresses on 92 size mannequin had the most similar
+form and position of wrinkles (Fig. 9), while on larger
+sizes similarities decreased; from 94 size form and position
+of wrinkles differed more, especially at waist area back
+Comparing visual appearance of real and virtual
+dresses with all tested fabrics (Fig. 10), it was seen that
+fabric 03 had the worst fit because the most wrinkles
+appeared in the garment due to the highest shear rigidity G.
+Fabric 02 had the best fit to the body (smooth garment
+shape, few wrinkles) because of the lowest shear rigidity
+G. Virtual dress made of fabric 02 had similar appearance
+in comparison to corresponding real dress. When shear
+rigidity had very high value G > 1.60 (Nm-1/º) in weft
+direction, virtual dress appearance differed from the real
+one. So, 3D CAD system could not simulate high Gwf
+value precisely what could cause less realistic simulation
+Fig. 8. Cross-sections of bust (a, b) and waist (c, d) girths using different fabrics and 88 size mannequin: a/c – real dresses, b/d – virtual
+Virtual dress
+Virtual dress
+Virtual dress
+Fig. 9. Scanned mannequin with real and virtual dresses (fabric 02)
+Virtual dress
+Fig. 10. Scanned mannequin (size 92) with real and virtual dresses using different fabrics
+4. CONCLUSIONS
+The paper concluded that, generally, appearance of the
+two main cross-sections of the simulated dresses was
+satisfactory in terms of the real scanned images, but there
+were some differences in garment shape fluency also in
+distance ease values between body and garment.
+1. The difference of distance ease values between real
+and virtual dress at bust girth varied up to 29.9 %
+(1.16 cm) while analysing without fabric 03 and up to
+48.3 % (1.46 cm) with fabric 03;
+2. Distance ease values of real and virtual dress at waist
+girth differed from 7.3 % (0.51 cm) to 47.3 %
+3. Linear relations of real dresses between mannequin
+size and 3D distance ease values at bust and waist
+girths showed more clear tendency than of virtual
+dresses. It was found that the highest distance ease of
+real dresses at bust and waist girths was formed with
+fabrics 03 and 06, while of virtual dresses with fabric
+06 at bust and with fabric 02 also 06 at waist girths;
+4. The most similar appearance, shape also position and
+form of wrinkles had virtual and scanned dresses on
+the basic mannequin size of 92;
+5. Cross-sections of real and virtual dresses had the most
+similar form with fabric 05 at bust and waist girths due
+to quite high tensile strain EMT values and the lowest
+bending rigidity B, mass per unit area and thickness
+6. Fabric 03 had the worst fit, wrinkles occurred due to
+the highest shear rigidity. It has been assumed that 3D
+CAD systems could not reflected very high shear
+rigidity Gwf > 1.60 Nm-1/º value precisely and it could
+cause less realistic simulation effect, so higher
+differences between virtual and real dress view;
+7. Results showed that the accuracy of virtual try-on was
+quite useful comparing to real garments especially for
+distance ease evaluation at tight-fitting area, but not to
+the extent that experts could fully use it as a visual fit
+analysis tool. It is recommended to use for the
+simulation fabrics with the shear rigidity lower than
+1.6 Nm-1/º, tensile strain in warp direction higher than
+1.80 % and bending rigidity lower than 5.3 Nm.
+Values of 3D dress perimeter and distance ease at bust
+and waist girths depend on the L3D_bust,waist measure line
+position which could be higher or lower than the girth line
+Lbust,waist on mannequin. It is very complicated task to
+ensure the same place of girth in the real and virtual dress.
+So in our future research, we are going to measure the
+volumetric air gap at the bust and waist girths. This should
+reduce the mismatch between real and virtual garment
+distance ease caused by the location of the measuring line.
+Sayem, A.S.M.
+Prototyping:
+Opportunities for Clothing Manufacturers Textile Research
+Conference, 26 December 2015, Dhaka, Bangladesh, TRC
+Book of Papers   2015: pp. 15 – 18.
+Song, H.K., Ashdown, S.P. Investigation of the Validity of
+3-D Virtual Fitting for Pants   Clothing and Textiles
+Research Journal   33 (4)   2015: pp. 314 – 330.
+https://doi.org/10.1177/0887302X15592472
+Apeagyei, P.R., Otieno, R. Usability of Pattern Customising
+Technology in the Achievement and Testing of Fit
+for Mass Customisation   Journal of Fashion Marketing
+and Management: An International Journal   11 (3)
+2007: pp. 349 – 365.
+https://doi.org/10.1108/13612020710763100
+Al-Ahmari, A.M., Abidi, M.H., Ahmad, A., Darmoul, S.
+Development of a Virtual Manufacturing Assembly
+Simulation System   Advances in Mechanical Engineering
+8 (3)   2016: pp. 1 – 13.
+https://doi.org/10.1177/1687814016639824
+Yan, J.Q., Zhang, S.C., Kuzmichev, V.E., Adolphe, D.C.
+New Database for Improving Virtual System “Body-Dress”
+IOP Conference Series: Materials Science and Engineering
+254 (17)   2017: pp. 1 – 6.
+https://doi.org/10.1088/1757-899X/254/17/172029
+Jevšnik, S.,
+Stjepanovič, Z.,
+Prototyping of Garments: Approaches, Developments and
+Challenges   Journal of Fiber Bioengineering and
+Informatics   10 (1)   2017: pp. 51 – 63.
+https://doi.org/10.3993/jfbim00253
+Jevšnik, S., Pilar, T., Stjepanovic, Z., Rudolf, A. Virtual
+Prototyping of Garments and Their Fit to the Body   DAAAM
+International   2012: pp. 601 – 618.
+Jevšnik, S., Kalaoğlu, F., Terliksiz, S., Purgaj, J. Review
+of Computer Models for Fabric Simulation   Tekstilec
+57 (4)   2014: pp. 300 – 314.
+https://doi.org/ 10.14502/Tekstilec2014.57.300–314
+Liu, K., Zeng, X., Bruniaux, P., Wang, J., Kamalha, E.,
+Tao, X. Fit Evaluation of Virtual Garment Try-on by
+Learning from Digital Pressure Data   Knowledge-Based
+Systems   133   2017: pp. 174 – 182.
+https://doi.org/10.1016/j.knosys.2017.07.007 0950 7051
+10. Baytar, F.,
+Ashdown, S.
+Exploratory
+Interaction Patterns Around the Use of Virtual Apparel
+Design and Try-on Technology, Fashion Practice   The
+Journal of Design, Creative Process & the Fashion Industry
+7 (1)   2015: pp. 31 – 52.
+https://doi.org /10.2752/175693815X14182200335655
+11. Ji, F.,
+Three-dimensional
+Simulation Based on a Mass-Spring System   Textile
+Research Journal   76 (1)   2006: pp. 12 – 17.
+https://doi.org /10.1177/0040517506057169
+12. Dāboliņa, I., Viļumsone, A., Dāboliņš, J., Strazdiene, E.,
+Lapkovska, E. Usability of 3D Anthropometrical Data in
+International
+Fashion Design, Technology and Education   10 (1)
+2017: pp. 41 – 52.
+https://doi.org /10.1080/17543266.2017.1298848
+13. Liu, Y.J, Zhang, D.L., Yuen, M.M.F. A Survey on CAD
+Methods in 3D Garment Design   Computers in Industry   61
+2010: pp. 576 – 593.
+https://doi.org/10.1016/j.compind.2010.03.007
+14. Jevšnik, S., Kalaoğlu, F., Hanife Eryuruk, S., Bizjak, M.,
+Stjepanovič, Z. Evaluation of a Garment Fit Model Using
+AHP   Fibres & Textiles in Eastern Europe   23 2 (110)
+2015: pp. 116 – 122.
+15. Buyukaslan, E., Jevšnik, S., Kalaoglu, F. Virtual Fitting of
+a Skirt on a Parametric and a Scanned Body Model
+Marmara Journal of Pure and Applied Sciences Special

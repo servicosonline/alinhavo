@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Embora o Brasil figure entre os maiores produtores mundiais de fios, tecidos planos, malhas e vestuário, a geração de resíduos sólidos oriundos dos processos industriais e de corte nas confecções constitui um grave passivo ambiental e operacional pouco equacionado no país.",
+    "stance": "supports",
+    "stance_target": "Problemática da geração e destinação de resíduos sólidos têxteis nas confecções brasileiras",
+    "evidence_type": "empirical",
+    "scope_conditions": "Setor têxtil e confeccionista no Brasil",
+    "quoted_support": "O Brasil se configura como um dos maiores produtores mundiais do setor têxtil e vestuário. É um importante produtor da fibra de algodão, de fios, de tecidos planos e de malha, além de estimular o PIB do País gerando milhões de empregos diretos e indiretos no referido setor. Contudo, tal atividade cria diversos problemas ambientais como, por exemplo, a geração de resíduos sólidos oriundos dos processos industriais, confeccionistas e também do pós-consumo.",
+    "numbers": [],
+    "entities": ["Welton Fernando Zonatti", "ABIT", "EACH-USP"],
+    "time_period": "2015",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "reciclagem-de-resíduos-do-setor-têxtil-e-confeccionista-no-brasil-panorama-e-açõ"
+  },
+  {
+    "claim": "A reciclagem e a logística reversa de resíduos têxteis gerados por confecções enfrentam problemáticas técnicas no processamento físico-mecânico das aparas e carecem de estímulo e articulação em nível nacional.",
+    "stance": "supports",
+    "stance_target": "Dificuldades técnicas e falta de infraestrutura de logística reversa para aparas e retalhos de confecção no Brasil",
+    "evidence_type": "empirical",
+    "scope_conditions": "Indústria recicladora e setor confeccionista no Brasil",
+    "quoted_support": "Além disso, foram analisadas manualmente amostras de resíduos têxteis cedidas por uma indústria recicladora a fim de constatar algumas problemáticas referentes ao processamento desse material. Assim, apresenta-se um panorama sobre a reciclagem têxtil no Brasil, relacionando as principais problemáticas ligadas a essa atividade, ainda não muito estimulada em nível nacional.",
+    "numbers": [],
+    "entities": ["Welton Fernando Zonatti", "Júlia Baruque-Ramos", "EACH-USP"],
+    "time_period": "2015",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "reciclagem-de-resíduos-do-setor-têxtil-e-confeccionista-no-brasil-panorama-e-açõ"
+  },
+  {
+    "claim": "A gestão de resíduos têxteis no Brasil exige a integração entre análise morfológica/química de fibras (incluindo misturas e contaminantes), logística reversa e diretrizes da legislação ambiental nacional.",
+    "stance": "supports",
+    "stance_target": "Complexidade técnica de reciclagem de retalhos mistos e conformidade regulatória nas confecções",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "Setor têxtil e de confecção brasileiro",
+    "quoted_support": "Como metodologia, foram analisadas literatura científica, patentes, legislação e outras fontes bibliográficas, bem como foram consultadas informações de diferentes órgãos e instituições relacionadas ao setor têxtil, confeccionista e meio ambiente.",
+    "numbers": [],
+    "entities": ["Welton Fernando Zonatti", "Mariana Correa do Amaral", "ABIT"],
+    "time_period": "2015",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "reciclagem-de-resíduos-do-setor-têxtil-e-confeccionista-no-brasil-panorama-e-açõ"
+  }
+]

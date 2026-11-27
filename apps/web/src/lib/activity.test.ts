@@ -12,9 +12,15 @@ describe("registro de atividade na tela", () => {
   });
 
   it("quem fez", () => {
-    const emails = new Map([["u1", "rita@ateliê.com"]]);
-    expect(activityWho("u1", emails)).toBe("rita");
-    expect(activityWho(null, emails)).toBe("A cliente");
-    expect(activityWho("u2", emails)).toBe("Alguém");
+    const people = new Map([
+      ["u1", { email: "rita@ateliê.com" }],
+      ["u3", { email: "ana@ateliê.com", first_name: " Ana ", last_name: "Souza Lima" }],
+      ["u4", { email: "bia@ateliê.com", first_name: "Bia", last_name: null }],
+    ]);
+    expect(activityWho("u3", people)).toBe("Ana Souza Lima");
+    expect(activityWho("u4", people)).toBe("Bia");
+    expect(activityWho("u1", people)).toBe("rita");
+    expect(activityWho(null, people)).toBe("A cliente");
+    expect(activityWho("u2", people)).toBe("Alguém");
   });
 });

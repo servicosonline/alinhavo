@@ -1,0 +1,62 @@
+[
+  {
+    "consensus_id": "macroetapas-pdp-vestuario-e-papel-nuclear-da-estilista",
+    "claim": "O processo de trabalho do estilista na indústria de confecção estrutura-se nas macroetapas de Pré-Desenvolvimento (planejamento estratégico, análise de mercado/vendas, definição quantitativa de mix/sortimento e cronograma), Desenvolvimento Conceitual e Técnico (pesquisa de tendências e matérias-primas, briefing/conceito, cartela de cores e tecidos, geração de croquis e desenhos técnicos planos, seleção de aviamentos e elaboração da ficha técnica preliminar), Prototipagem e Validação (interação com modelagem 2D/3D, corte e costura da peça-piloto, 2 a 3 rodadas de prova de caimento/vestibilidade em modelo ou manequim, ajustes de pré-custo, lacre da peça aprovada e fechamento da Ficha Técnica definitiva com BOM, tabela de medidas e sequência operacional) e Pós-Desenvolvimento (mostruário comercial, acompanhamento de lote piloto/produção em facções e avaliação da coleção).",
+    "independent_cluster_score": 7.0,
+    "sources": [
+      "marisa-beatriz-poletto-jordan",
+      "universidade-de-são-paulo",
+      "universidade-de-são-paulo-8",
+      "universidade-de-são-paulo-2",
+      "guia-de-orientação-para-o-desenvolvimento-de-projetos-godp-aplicado-à-prática-pr",
+      "proposta-de-um-modelo-de-referência-para-o-desenvolvimento-de-produtos-do-vestuá",
+      "a-tomada-de-decisão-para-o-desenvolvimento-de-novos-produtos-um-estudo-na-indúst"
+    ]
+  },
+  {
+    "consensus_id": "ficha-tecnica-incompleta-ou-tardia-como-gargalo-critico",
+    "claim": "A Ficha Técnica é o documento-ponte essencial (DNA do produto) entre estilista, modelista, pilotagem, compras/custos e facções de costura; contudo, nas confecções brasileiras é recorrente que a ficha técnica seja emitida apenas após o protótipo físico ou chegue incompleta ao final do ciclo (sem atualização das alterações feitas na peça-piloto), gerando erros de interpretação do croqui pela modelista, atraso no cálculo de custo final e falhas de montagem nas oficinas terceirizadas.",
+    "independent_cluster_score": 5.0,
+    "sources": [
+      "marisa-beatriz-poletto-jordan",
+      "universidade-de-são-paulo",
+      "universidade-de-são-paulo-8",
+      "3d-dynamic-fashion-design-development-using-digital-technology-and-its-potential",
+      "universidade-de-são-paulo-2"
+    ]
+  },
+  {
+    "consensus_id": "atrito-estilista-modelista-e-multiplas-provas-de-caimento",
+    "claim": "A passagem do desenho bidimensional (croqui/desenho técnico) do estilista para o molde tridimensional pela modelista e para a peça-piloto constitui o principal ponto de atrito técnico do desenvolvimento: mais de 90% das peças exigem de 2 a 3 rodadas de prova física (com limite de descarte do modelo após a 3ª reprovação em marcas estruturadas) devido a falhas de interpretação visual, troca de tecidos sem reajuste de molde, falta de aviamentos definitivos na pilotagem e restrições de maquinário não previstas na criação.",
+    "independent_cluster_score": 5.0,
+    "sources": [
+      "fit-models-roles-in-identifying-fit-issues-in-the-apparel-technical-design-proce",
+      "marisa-beatriz-poletto-jordan",
+      "universidade-de-são-paulo-8",
+      "universidade-de-são-paulo",
+      "análise-da-formação-dos-profissionais-do-setor-de-modelagem-do-vestuário-da-regi"
+    ]
+  },
+  {
+    "consensus_id": "desperdicio-corte-10-a-17-porcento-e-desconexao-criacao-encaixe",
+    "claim": "A etapa de encaixe, risco e corte industrial gera um desperdício físico pré-consumo de 10% a 17% da matéria-prima têxtil (ex.: 15,87% no jeans e 17% em tecido plano convencional), agravado pelo desconhecimento do estilista sobre restrições de largura útil do rolo (1,30 m a 1,50 m), sentido do fio e eficiência de encaixe no momento de desenhar recortes e curvas.",
+    "independent_cluster_score": 4.0,
+    "sources": [
+      "universidade-de-são-paulo-4",
+      "universidade-de-são-paulo-5",
+      "oecd-environment-working-papers-no-253",
+      "university-of-huddersfield-repository"
+    ]
+  },
+  {
+    "consensus_id": "riscos-e-falhas-de-qualidade-na-terceirizacao-para-faccoes",
+    "claim": "A subcontratação de facções de costura terceirizadas — utilizada pelas confecções para absorver a sazonalidade das coleções criadas pelo setor de estilo — impõe dores severas de controle de qualidade, atrasos de entrega, erros de leitura de variantes de cor na Ordem de Corte (mesmo com envio de peça-piloto lacrada e tabela de medidas com tolerância de 1 cm), incompatibilidade de maquinário para tecidos finos/especiais e riscos jurídicos/trabalhistas.",
+    "independent_cluster_score": 4.0,
+    "sources": [
+      "terceirização-na-indústria-de-vestuário-projetica",
+      "universidade-de-são-paulo-8",
+      "sociologias-porto-alegre-ano-19-no-45-maiago-2017-p-142-174",
+      "universidade-de-são-paulo"
+    ]
+  }
+]

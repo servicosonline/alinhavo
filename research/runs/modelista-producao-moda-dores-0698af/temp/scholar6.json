@@ -1,0 +1,815 @@
+{
+  "ok": true,
+  "data": {
+    "query": "tabela de medidas vestuario ABNT antropometria modelagem",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 20,
+      "doab": 0
+    },
+    "raw_records": 40,
+    "merged_records": 37,
+    "returned": 37,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "A IMPORTÂNCIA DAS BASES DE MODELAGEM NO DESENVOLVIMENTO DE VESTUÁRIO PLUS SIZE: UM ENFOQUE NA ANTROPOMETRIA E ERGONOMIA",
+        "source": "openalex",
+        "url": "https://doi.org/10.22570/ergodesignhci.v10i1.1651",
+        "doi": "10.22570/ergodesignhci.v10i1.1651",
+        "year": 2022,
+        "authors": [
+          "Suelen Rizzi",
+          "Rosimeire Araújo de Jesus"
+        ],
+        "venue": "Ergodesign & HCI",
+        "abstract": "O presente trabalho versou sobre a moda plus size, trazendo um recorte na modelagem das bases de corpo atreladas à antropometria e ergonomia do vestuário, para o público feminino em tamanhos grandes. O objetivo geral foi conhecer o perfil e demandas do público plus size para construir um conjunto de bases de corpo em tecido plano. Para tanto, foi realizada uma pesquisa bibliográfica sobre as temáticas norteadoras. Em seguida foi aplicado um questionário on-line e elaborada a compilação e análise dos dados coletados, sobre as 18 mulheres respondentes. Juntamente a isso, foi realizada uma pesquisa sobre as tabelas de medidas plus size e tomadas as medidas de duas modelos reais e de um manequim técnico, no tamanho 48. Com base nos dados coletados e na análise das medidas foram desenvolvidas as bases de saia, blusa e calça, as mesmas foram provadas, e as alterações realizadas de acordo com as demandas. Os resultados foram satisfatórios e com eles compreendeu-se a importância de estudar as demandas e medidas reais do público-alvo para construir peças com modelagem adequada ao corpo das mulheres plus size.",
+        "pdf_url": "http://periodicos.puc-rio.br/index.php/revistaergodesign-hci/article/download/1651/1007",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W4313289541",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Revista Ergodesign e HCI",
+          "openalex_type": "article",
+          "oa_status": "diamond",
+          "also_in": "openalex,crossref"
+        }
+      },
+      {
+        "title": "Referenciais de Medidas da ABNT: Instrumento para a normalização do produto de vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1982615x10192017135",
+        "doi": "10.5965/1982615x10192017135",
+        "year": 2017,
+        "authors": [
+          "Maicon Douglas Livramento Nishimura",
+          "Eugênio Andrés Díaz Merino",
+          "Leila Amaral Gontijo"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "Com o objetivo de padronizar as unidades de medidas do vestuário, a ABNT (Associação Brasileira de Normas e Técnicas) desenvolve pesquisas para a elaboração de referenciais de medidas nacional nos segmentos infantil, feminino e masculino. As normas de medidas infantil e masculina já estão em vigor, entretanto, ainda se trabalha para o aprimoramento de uma norma feminina. Nesse âmbito, de normalizar as medidas do vestuário brasileiro, buscou-se identificar a metodologia do sistema adotado para a elaboração das normas de medidas do vestuário existentes e analisar como essa informação é absorvida pelo mercado. A pesquisa possui uma abordagem qualitativa, de caráter exploratório e teve seu procedimento pautado no levantamento bibliográfico e documental. Foram analisadas, principalmente, as normas de referenciais de medidas brasileiras e os projetos dessas normas que apresentaram pouco ou nenhum estudo antropométrico na sua metodologia. Consequentemente, percebeu-se uma fragilidade dos referenciais de medidas com que se trabalha hoje. Porém, vislumbra-se uma acuidade com os estudos que estão em desenvolvimento e em breve devem estar disponíveis.",
+        "pdf_url": "http://revistas.udesc.br/index.php/modapalavra/article/download/8506/6306",
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "W2564253271",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "COMPARAÇÃO ERGONÔMICA E ANTROPOMÉTRICA DAS TABELAS ABNT PARA VESTUÁRIO FEMININO",
+        "source": "openalex",
+        "url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/view/764",
+        "doi": "10.18406/2359-1269v12n52025764",
+        "year": 2026,
+        "authors": [
+          "Paul Winter Marciano Ramos Gomes",
+          "Jussara Aparecida Teixeira"
+        ],
+        "venue": "Revista Eixos Tech",
+        "abstract": "The present study aimed to compare two prototypes of a basic dress model, constructed using the measurement tables of the ABNT standards NBR 13.377:1995 (withdrawn) and NBR 16.933:2021 (current), by analyzing anthropometric and ergonomic differences between them. The research was experimental and exploratory in nature, supported by a literature review on ergonomics, anthropometry, apparel patternmaking, and their interrelations. The experiment consisted of analyzing the measurement tables from both standards, followed by the construction of pattern bases and interpretation of the model in size 40, employing the manual flat-pattern method of Saggese and Duarte (2013) and fabrics with similar physical characteristics, which enabled a comparative evaluation of the prototypes. The results revealed variations in hip volume and armhole fit, indicating that NBR 16.933:2021 more adequately reflects the diversity of female body silhouettes and reduces subjectivity in patternmaking by providing both basic and complementary measurements. In conclusion, the adoption of measurement tables that represent different body biotypes supports the development of more ergonomic and comfortable women’s apparel, although testing on real bodies is recommended to validate aspects of fit and comfort.",
+        "pdf_url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/download/764/372",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7216066138",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A AUSÊNCIA DA PADRONIZAÇÃO DE MEDIDAS NO VESTUÁRIO INFANTIL",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/designpro-ped-00946",
+        "doi": "10.5151/designpro-ped-00946",
+        "year": 2014,
+        "authors": [
+          "Gisely Andressa Pires",
+          "Tamissa Juliana Barreto Berton",
+          "Marizilda dos Santos Menezes",
+          "Celso Tetsuro Suono"
+        ],
+        "venue": "Congresso Brasileiro de Pesquisa e Desenvolvimento em Design (P&D Design)",
+        "abstract": "Na tentativa de criar produtos cada vez mais atraentes, a indústria do vestuário infantil busca inovar tanto em aspectos de design como conforto e qualidade. No entanto encontra-se uma falta de padronização das medidas nas roupas infantis. Considerado no mercado como um dos segmentos com crescimento acelerado, a indústria do vestuário infantil está deixando a desejar no desenvolvimento e estrutura da modelagem da roupa. Assim encontramos peças com diferenças grandes nas medidas do vestuário de um mesmo tamanho, o que dificulta a compra para o consumidor. Pensando em uma forma de padronizar as medidas a ABNT- Associação Brasileira de Normas e Técnicas colocou em vigor a NBR 15800, estabelecendo parâmetros com referenciais de medidas do corpo infantil para auxiliar as indústrias na padronização de medidas.",
+        "pdf_url": "https://pdf.blucher.com.br/designproceedings/11ped/00946.pdf",
+        "citation_count": 2,
+        "work_type": "other",
+        "identifier": "W2054434222",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Tabela de medidas para o desenvolvimento de vestuário para mulheres gestantes: uma proposição empírica",
+        "source": "openalex",
+        "url": "https://doi.org/10.15536/2594-4398.2021.v5.n5.pp.154-180.2654",
+        "doi": "10.15536/2594-4398.2021.v5.n5.pp.154-180.2654",
+        "year": 2021,
+        "authors": [
+          "Fabiane Fischer Murara",
+          "Mariana Luísa Schaeffer Brilhante",
+          "Vivian Andreatta Los",
+          "Valdecir Babinski Júnior",
+          "F. Fontana",
+          "Isadora Rodolfo da Silva",
+          "Izabela Schwitzki",
+          "Maria Eduarda Alves da Silva",
+          "Nicolly Colaço Pereira"
+        ],
+        "venue": "Revista Poliedro",
+        "abstract": "O presente artigo teve como objetivo propor um modelo de tabela de medidas que possa servir para o desenvolvimento de peças do vestuário para gestantes. A abordagem utilizada foi pautada em um levantamento bibliográfico, a partir de uma perspectiva voltada ao modo como são construídas as tabelas de medidas em vigor, e pelo mercado de vestuário, de forma que represente o público gestante. Com base na pesquisa realizada, concluiu-se que: (I) as medidas aferidas de gestantes do 1º ao 6º mês variam de acordo com seu tipo corpóreo, por exemplo, podem aumentar de dois a dez centímetros na circunferência do busto; e (II) não existem muitos estudos científicos e tabelas medidas assertivas para todos os biótipos corporais nesse segmento do ramo de vestuário.",
+        "pdf_url": "https://periodicos.ifsul.edu.br/index.php/poliedro/article/download/2654/1942",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4200584450",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Proposta de Tabela de Medidas Associáveis para uso no vestuário feminino a partir dos sete biótipos brasileiros",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/ped2018-3.3_aco_68",
+        "doi": "10.5151/ped2018-3.3_aco_68",
+        "year": 2019,
+        "authors": [
+          "Tatiana Castro Longhi",
+          "Flávio Anthero Nunes Vianna dos Santos"
+        ],
+        "venue": "Blucher Design Proceedings",
+        "abstract": "Associable Body Measurements for use in women's apparel from the seven Brazilian biotypes",
+        "pdf_url": "http://pdf.blucher.com.br.s3-sa-east-1.amazonaws.com/designproceedings/ped2018/3.3_ACO_68.pdf",
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "W2941843484",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Editora Blucher",
+          "openalex_type": "conference-paper",
+          "oa_status": "gold",
+          "also_in": "openalex,crossref"
+        }
+      },
+      {
+        "title": "Contribuição da ergonomia e antropometria no design do vestuário para crianças com deficiência física",
+        "source": "openalex",
+        "url": "https://doi.org/10.23972/det2014iss08pp1-10",
+        "doi": "10.23972/det2014iss08pp1-10",
+        "year": 2014,
+        "authors": [
+          "Bruna Brogin",
+          "Eugênio Andrés Díaz Merino",
+          "Vilson João Batista"
+        ],
+        "venue": "Design e Tecnologia",
+        "abstract": "A partir da observação de leis que promovem inclusão escolar de crianças com deficiência e garantem a entrega anual de dois pares de uniformes a elas, este artigo propõe-se a identificar aspectos centrais a serem observados durante a metodologia de produção de uniformes para crianças deficientes físicas, diferenças que contemplem a ergonomia física e a antropometria. Segundo a ergonomia física, designers de moda e modelistas devem analisar a criança em suas capacidades neuromusculares, coluna vertebral, metabolismo, visão, tato e senso sinestésico. Quanto à antropometria, deve ser realizada a medição antropométrica da criança, suas capacidades biomecânicas, suas demandas pessoais, o contexto em que esta inserida, as tecnologias assisitivas de que faz uso. Deve ainda fazer a medição e análise de pontos e eixos gravitacionais do corpo, seu biótipo, eixos articulares, movimentos de flexão/ extensão, adução/ abdução, flexão lateral, rotação e inclinação, a fim de produzir um vestuário eficiente. Os autores sugerem que deve haver uma revisão na forma de produção do uniforme para crianças com deficiência, a fim de contemplar a ergonomia e antropometria com maior abrangência na metodologia de produção de produtos do vestuário.",
+        "pdf_url": "https://www.ufrgs.br/det/index.php/det/article/download/210/130",
+        "citation_count": 20,
+        "work_type": "article",
+        "identifier": "W1506474804",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Sistematizações de medidas de vestuário no Brasil: percepções e perspectivas",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2015.tde-22062015-103755",
+        "doi": "10.11606/d.100.2015.tde-22062015-103755",
+        "year": 2015,
+        "authors": [
+          "Júlia Coelho Brandão"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This research investigated the issue of systematization and standardization of clothing measures in Brazil. The standardization of such measures, the need for tables, existing norms and ongoing research are some of the points raised. To do so opinions of experts, scholars, technicians and designers were incorporated into the discussion through semi-structured in-depth interviews with diversified samples of the categories involved. Qualitative methods were employed in an essentially descriptive approach. Data collection was done through interviews with professionals in the field and experts in anthropometry and fashion design, as well as through the use of questionnaires, on-site observations, literature review and technical visits in the cities of São Paulo and Rio de Janeiro. One of the reflections that this study leads to is the possibility of developing a national reference table for clothing that covers both female and male at all ages. The existence of such a table would not necessarily imply at first on a massive standardization by businesses. It would increase the chances of fashion industries adopt a standardized framework and this, in turn, would contribute to strengthening the culture of companies that respect and maintain in their products a nationally shared standard size. This would bring clear benefits for society as a whole.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-22062015-103755/publico/JBrandaocorrigida.pdf",
+        "citation_count": 4,
+        "work_type": "thesis",
+        "identifier": "W2130235193",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Delimitação do usuário nas etapas de criação, modelagem e prototipagem do produto de vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1982615x10192017201",
+        "doi": "10.5965/1982615x10192017201",
+        "year": 2017,
+        "authors": [
+          "Elen Makara",
+          "Giselle Schmidt Alves Diaz Marino",
+          "Lizandra Garcia Lupi Vergara"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "Em virtude das reclamações de roupas que não vestem bem e incomodam, ou mesmo da dificuldade de adquirir uma roupa adequada para uma ocasião, à indústria de confecção de vestuário pode estar deixando de considerar o usuário no desenvolvimento de seus produtos. O objetivo deste artigo foi verificar se nas etapas de criação, modelagem e prototipagem de produtos do vestuário o usuário está sendo considerado, visto que para um projeto de design o correto é considerá-lo em todas as etapas do desenvolvimento. Para isto foi realizada uma pesquisa bibliográfica e entrevistas com profissionais da área. Com os resultados obtidos foi possível perceber a dificuldade que os profissionais possuem em definir o público para a criação das peças. Também verificou-se que a maioria dos profissionais compreende a importância da tabela de medidas porém acabam ajustando-a de forma empírica, e para a realização dos testes de prototipagem, muitos escolhem modelos que não condizem com a realidade do público da empresa.",
+        "pdf_url": "http://revistas.udesc.br/index.php/modapalavra/article/download/8763/6309",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W2567067882",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Reflexões sobre o processo de criação de vestuário de moda",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.37780/ch.v24i2.4326",
+        "doi": "10.37780/ch.v24i2.4326",
+        "year": 2023,
+        "authors": [
+          "Almery Junior Ruviaro",
+          "Taís Steffenello Ghisleni",
+          "Elsbeth Léia Spode Becker"
+        ],
+        "venue": "Disciplinarum Scientia | Ciências Humanas",
+        "abstract": "Este artigo propõe uma reflexão sobre a relevância da ergonomia, antropometria e modelagem no desenvolvimento de projetos de design aplicados ao vestuário de moda. A metodologia adotada é exploratória, baseada em uma revisão bibliográfica abrangente. No decorrer do texto, destacam-se aspectos cruciais como conforto, segurança e usabilidade, oferecendo uma breve abordagem sobre as perspectivas de autores que enfatizam a compreensão da ergonomia aplicada ao vestuário de moda, a antropometria no design do vestuário e a modelagem como um capital ergonômico fundamental para o vestuário de moda. A análise revela a importância da aplicação de estudos ergonômicos e antropométricos em conjunto com técnicas de modelagem durante a concepção de produtos de vestuário. Essa abordagem resulta em impactos positivos diretos nas peças produzidas, garantindo qualidades essenciais como conforto físico e psicológico, segurança e usabilidade, elementos cruciais para a experiência do usuário ao vestir as peças ao longo de sua trajetória.",
+        "pdf_url": "https://periodicos.ufn.edu.br/index.php/disciplinarumCH/article/download/4326/3238",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4390516569",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Antropometria para a confecção – dados de Cianorte e região",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.15675/gepros.v0i4.887",
+        "doi": "10.15675/gepros.v0i4.887",
+        "year": 2012,
+        "authors": [
+          "Aline Aristides Bazán",
+          "Crisitina do Carmo Lucio",
+          "Bruno Montanari Razza",
+          "Alessandra Sumiko Tanabe",
+          "Carla Hidalgo Capelassi"
+        ],
+        "venue": "GEPROS. Gestão da Produção, Operações e Sistemas",
+        "abstract": "A falta de padronização de medidas para a confecção de produtos de vestuário causa transtornos aos usuários que não encontram tamanhos adequados a seus biótipos. A indústria do vestuário é uma das maiores geradoras de emprego no Paraná, destacando-se o chamado “Corredor da moda”, do qual a cidade de Cianorte faz parte. Este estudo teve por objetivo gerar uma base de dados dimensionais e parâmetros ergonômicos, para a indústria de confecção, a partir da coleta de dados antropométricos de mulheres adultas. As medidas foram apresentadas divididas em faixas etárias e manequins. Palavras-chave: vestuário; antropometria; ergonomia",
+        "pdf_url": "https://revista.feb.unesp.br/gepros/article/download/887/382",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W1598385933",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "ESTUDO SOBRE DIMENSÃO DE ESTAMPA LOCALIZADA EM ARTIGO DE VESTUÁRIO PERSONALIZADO: adequação de estampa a partir da antropometria e da digitalização tridimensional do corpo humano",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/designpro-ped-00906",
+        "doi": "10.5151/designpro-ped-00906",
+        "year": 2014,
+        "authors": [
+          "Bruna Bertotto",
+          "Nathalia Alborghetti Carvalho",
+          "Fábio Pinto da Silva"
+        ],
+        "venue": "Congresso Brasileiro de Pesquisa e Desenvolvimento em Design (P&D Design)",
+        "abstract": "Resumo: Considerando os avanços das tecnologias tridimensionais e dos estudos antropométricos, a proposta deste estudo é analisar o tamanho mais favorável de estampas localizadas através da digitalização 3D, baseadas nos percentis de estatura.Pode-se dizer que o aprimoramento da antropometria se deu através dos sistemas de digitalização do corpo humano, que existem a mais de quinze anos.O objetivo da pesquisa é verificar a viabilidade e eficiência do escaneamento do corpo humano como ferramenta de apoio à estamparia localizada para a aplicação de estampagem, tendo em vista que um dos maiores negócios do mercado é a indústria de moda.Fato que se deve não só ao alto volume de vendas e a sucessão de tendências em curto espaço de tempo, mais também à quantidade de pessoas e empresas envolvidas desde a concepção dos produtos até sua distribuição.Essa é uma das causas de interesse em utilizar essas tecnologias à moda e indústria do vestuário.Quanto mais rápidos e precisos forem os estudos de modelagem, estética e design dos produtos, mais competitivos esses eles se tornam.Com fins comparativos os testes foram realizados com três modelos masculinos e três modelos femininos enquadrados em três percentis de estatura (5, 50 e 95 %) com idades entre 18 e 34 anos, onde se aplicou a mesma estampa localizada nos seis modelos, comparando o comportamento da mesma em cada um.",
+        "pdf_url": "http://pdf.blucher.com.br/designproceedings/11ped/00906.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W2133416858",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Usabilidade do vestuário: fatores técnicos/funcionais",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.5965/1982615x01012008021",
+        "doi": "10.5965/1982615x01012008021",
+        "year": 2008,
+        "authors": [
+          "Icléía Silveira"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "O estudo apresenta abordagem teórica da aplicação dos procedimentos técnicos, para o desenvolvimento da modelagem do vestuário com vistas à usabilidade. A pesquisa qualitativa e exploratória identificou as ações projetuais com base em fatores ergonômicos essenciais pra a usabilidade do vestuário.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/modapalavra/article/download/7566/5070",
+        "citation_count": 63,
+        "work_type": "article",
+        "identifier": "W2739216161",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Desenvolvimento de tabela de medidas de corpo para idosas: estudo antropométrico",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2016.tde-15062015-102243",
+        "doi": "10.11606/d.100.2016.tde-15062015-102243",
+        "year": 2016,
+        "authors": [
+          "Ana Maria Cardoso"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "According to data from the Brazilian Institute of Geography and Statistics (IBGE, 2010), Brazil announced that the country moves towards an increasingly aging demographic profile since 2039, will be recorded the named zero growth; in 2050, the picture changes: for every 100 children 0-14 years there will be 172.7 older. Many are the challenges faced by older people, especially for women who now represent 56% of the elderly population. One such challenge is the transformation of the body, and with a shortage of garment products with appropriate measures, that in addition to dressing the body presents a perfect fit that meets the physical need to use. This research aims to propose procedure, using anthropometric data obtained with the equipment Body Scanner to prepare tables of measures, to establish standards to be applied in making modeling aimed at older women. The measures used in this work are part of Anthropometric Study in Brazil and were provided by the National Industrial Training Service / Center for Chemical Technology of Textile Industry (SENAI/CETIQT). Through the studies, it was possible to classify bodies in various types: rectangle with thick and thin waist, thin triangle with thick waist and inverted triangle with thick waistand propose measures tables. The results indicated the feasibility of applying the proposed methodology for the preparation of measurements tables",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2623486369",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais",
+          "openalex_type": "dissertation",
+          "oa_status": "green",
+          "also_in": "openalex,crossref"
+        }
+      },
+      {
+        "title": "MODELAGEM PARA MULHERES IDOSAS",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/16ergodesign-0097",
+        "doi": "10.5151/16ergodesign-0097",
+        "year": 2017,
+        "authors": [
+          "Claudia Vianna",
+          "Manuela Quaresma"
+        ],
+        "venue": null,
+        "abstract": "Palavras-chave: Idoso, Antropometria, Design de Moda Com o crescimento da população mundial, e a expectativa de vida aumentando consideravelmente o número de idosos nos países desenvolvidos e nos em desenvolvimento, como o Brasil, é preciso considerar essa fatia da população nos diversos segmento de mercado.Este artigo defende que os designers de moda devem adequar em seus projetos essa população, que sofre alterações corporais específicas.Os dados antropométricos utilizados nas tabelas de medidas existentes não contribuem para a modelagem do setor industrial, especialmente porque não incluem as medidas corporais das mulheres idosas.Estudos vem sendo desenvolvidos em diversos países, mas no Brasil levantamentos recentes da população ainda não contemplam essa faixa de idade, cuja demanda só tende a crescer.",
+        "pdf_url": "http://pdf.blucher.com.br/designproceedings/16ergodesign/0097.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W2739494531",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Modelagem de Roupas Ergonomicamente Projetadas para Mulheres Portadoras de Nanismo Acondroplásico",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/ergodesign2019-2.57",
+        "doi": "10.5151/ergodesign2019-2.57",
+        "year": 2019,
+        "authors": [
+          "Gracineide H. BARBOSA",
+          "Elaine RADICETTI",
+          "Maria José C. CORREA"
+        ],
+        "venue": null,
+        "abstract": "Este artigo consiste em desenvolver estudos ergonômicos e antropométricos para a criação de uma tabela de medidas corpo, através da medição de mulheres portadoras de nanismo acondroplásico, buscando o conforto, a qualidade, bem como, a estética através da ergonomia aplicada à roupa.Considerando a modelagem parte fundamental do design de produto na área do vestuário, as medidas estudadas estão de acordo com as normas e técnicas usuais para a construção de moldes ergonomicamente projetados, Com foco nos membros superiores e inferiores e a curva acentuada no final da coluna vertebral.Os objetivos foram delimitados para entender melhor as principais necessidades das mulheres portadoras de nanismo, com relação ao uso da roupa.Foram discutidos no resultado deste estudo, benefícios e dificuldades relacionadas ao desenvolvimento de produtos de moda, ergonomicamente adequados para o público feminino em questão.Assim, de acordo com o diagnóstico efetuado entre a revisão de literaturas e as pesquisas de campo, constatou-se a relevância da ergonomia na modelagem para o desenvolvimento de produtos do vestuário que facilite o bem-estar e o conforto no uso das roupas para pessoas com acondroplasia, de acordo com as tendências da moda.Esta pesquisa demonstra a preocupação em desenvolver estudos da ergonomia na modelagem com medidas antropométricas adequadas para esse público e consumidor específico, permitindo assim, que sejam incluídos em uma sociedade plural, onde o futuro tecnológico dará suporte não só a criação de uma coleção, mas também a comercialização virtual.",
+        "pdf_url": "http://pdf.blucher.com.br/designproceedings/ergodesign2019/2.57.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W2994806142",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "ERGONOMIA DO VESTUÁRIO PARA IDOSAS DE 60 A 75 ANOS",
+        "source": "openalex",
+        "url": "https://doi.org/10.22570/ergodesignhci.v7iespecial.1301",
+        "doi": "10.22570/ergodesignhci.v7iespecial.1301",
+        "year": 2019,
+        "authors": [
+          "Claudia Vianna",
+          "Manuela Quaresma"
+        ],
+        "venue": "Ergodesign & HCI",
+        "abstract": "Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE), em 2000 a população idosa com mais de 60 anos era de 14,5 milhões de pessoas, um aumento de 35,5% ante os 10,7 milhões em 1991. As revisões feitas pelo IBGE em 2013 mostram que o Brasil se tornara um país idoso em 2029, e em 2018 o número de jovens já caiu em relação ao número de idosos, 63 idosos para cada 100 jovens. Apesar de todas estas estatísticas e programas para inclusão do idoso, nem todos os aspectos característicos do envelhecimento são considerados no desenvolvimento de produtos de moda, por exemplo. Em se tratando da mulher idosa e sua relação com vestuário, ainda existe uma grande lacuna na oferta mais adequada de roupas para esse público. Este artigo tem como objetivo constatar que apesar de ser considerado idoso, os indivíduos acima de sessenta anos, ainda são ativos, saudáveis e estão inseridos no mercado de trabalho. Foram conduzidos grupos de foco com mulheres entre 60 e 75 anos, a fim de levantar as suas opiniões a respeito da oferta atual de produtos de moda. Notou-se que, mesmo dentro desta faixa etária existe diferença entre corpos, mercado e desejos.",
+        "pdf_url": "http://periodicos.puc-rio.br/index.php/revistaergodesign-hci/article/download/1301/730",
+        "citation_count": 5,
+        "work_type": "article",
+        "identifier": "W3044350167",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Ergonomia Aplicada ao Projeto do Produto: O Ponto de Vista de Designers do Vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.15675/gepros.v14i2.2211",
+        "doi": "10.15675/gepros.v14i2.2211",
+        "year": 2019,
+        "authors": [
+          "Crislaine Gruber",
+          "Lizandra Garcia Lupi Vergara"
+        ],
+        "venue": "GEPROS. Gestão da Produção, Operações e Sistemas",
+        "abstract": "Este trabalho tem o objetivo de investigar a aplicação da ergonomia no processo de desenvolvimento de produtos do vestuário, do ponto de vista dos designers. Para isso, foram realizadas entrevistas semiestruturadas com 19 designers. As entrevistas foram gravadas e transcritas para realização de análise de conteúdo, baseada em três categorias: conceito de ergonomia; abordagem da ergonomia na formação acadêmica e na vivência profissional; aplicação da ergonomia no desenvolvimento de produtos. Foi constatado que a maioria dos participantes compreende o conceito de ergonomia e considera que ela é aplicada no processo de desenvolvimento de produtos do vestuário, contudo essa aplicação dá-se de forma intuitiva. Além disso, os participantes entendem que a aplicação da ergonomia e a obtenção de dados antropométricos dos usuários são atividades desenvolvidas apenas pelos modelistas. Acredita-se que é necessário abordar a ergonomia na formação profissional dos designers do vestuário, a fim de tornar essa aplicação sistemática e efetiva, afetando a satisfação dos usuários de forma positiva e, consequentemente, aumentando a competitividade das empresas.",
+        "pdf_url": "https://revista.feb.unesp.br/index.php/gepros/article/download/2211/pdf",
+        "citation_count": 19,
+        "work_type": "article",
+        "identifier": "W2964717479",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "ANTROPOMETRIA DO PÉ FEMININO EM DIFERENTES ALTURAS DE SALTO COMO FUNDAMENTO PARA CONFORTO DE CALÇADOS",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/31577",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Elenilton Gerson Berwanger"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "O cenário brasileiro do mercado de calçados caracteriza-se cada vez mais por consumidores que procuram produtos com maior valor agregado. Para o universo feminino, é perceptível que o fator moda possui relevância vital, mas os requisitos de conforto do calçado ganham cada vez mais importância. Através da união de recursos tecnológicos e da experiência pragmática do setor calçadista, esta pesquisa antropométrica sobre pés femininos procura contribuir com um embasamento científico que traga mais suporte ao processo de desenvolvimento de produto. Neste contexto, a dissertação tem por objetivo organizar e validar uma sistemática atualizada de medição de pés em diferentes posições de altura de salto com base em recursos tecnológicos disponíveis, com os quais é possível mensurar parâmetros antropométricos importantes para o desenvolvimento de novos projetos de formas e calçados. Para a consecução deste objetivo, o trabalho foi embasado por uma revisão e fundamentação teórica que apontou a antropometria como um elemento em comum para estudos sobre biomecânica e ergonomia. A amostra do estudo foi composta por 407 brasileiras adultas, considerando-se a faixa etária entre 16 e 55 anos, sendo realizado experimentalmente com mulheres com residência fixa ou temporária na Região Metropolitana de Porto Alegre, no Vale do Rio dos Sinos, no Vale do Paranhana e em cidades vizinhas dessas regiões no Estado do Rio Grande do Sul. O projeto foi aprovado em Comitê de Ética e contou com o uso de equipamentos e softwares que permitiram a investigação proposta pela pesquisa, propiciando desde a coleta de dados antropométricos, tratamento, conversão e leitura dos arquivos digitalizados até a análise estatística destes mesmos dados de modo a permitir a apresentação de resultados coerentes com o objetivo estabelecido. Como resultados, são expostas uma série de características demográficas e dados antropométricos da amostra investigada. A metodologia utilizada mostrou-se consistente, trazendo resultados que contribuem com o trabalho do designer de formas e calçados. Os resultados das medidas das variáveis antropométricas dos pés da amostra foram avaliados em 20 diferentes seções em cada pé, sendo que 2 correspondem a comprimentos, 6 correspondem a perímetros, 6 correspondem a alturas e 6 correspondem a larguras. A variabilidade das medidas apresentadas ratifica a importância do desenvolvimento e fabricação de formas e calçados com perfis diferenciados e instiga a análise pormenorizada de cada variável antropométrica como fundamento para o desenvolvimento de produtos mais adequados à geração de conforto.",
+        "pdf_url": "https://lume.ufrgs.br/bitstream/10183/31577/1/000780162.pdf",
+        "citation_count": 4,
+        "work_type": "thesis",
+        "identifier": "W68868521",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Mulheres Petite: como a adaptação do vestuário infuencia a experiência do vestir",
+        "source": "openalex",
+        "url": "https://doi.org/10.18406/2359-1269v11n72024479",
+        "doi": "10.18406/2359-1269v11n72024479",
+        "year": 2025,
+        "authors": [
+          "Andréia Bragança Moura"
+        ],
+        "venue": "Revista Eixos Tech",
+        "abstract": "Este artigo se trata de uma pesquisa para ampliar a discussão a respeito das dificuldades que as mulheres petites encontram na hora de comprar suas roupas. Tem o objetivo de apresentar o público petite no Brasil, demonstrar através de comparativo de informações quais os principais pontos que incomodam as mulheres petites durante o processo de comprar roupas, apontar algumas dificuldades de adaptação antropométricas e quais os problemas aparecem também na ergonomia quando são realizados os ajustes básicos das roupas. Verificar como os aspectos intrínsecos ao processo de modelagem interferem diretamente na ergonomia e na vestibilidade das peças petite. Esta pesquisa se dedica em fundamentações teóricas e pesquisas que tratam a problemática ergonômica e a adaptabilidade das vestimentas para mulheres petite, a fim de trazer foco a alternativas que proporcionem melhores experiências no processo de aquisição de uma vestimenta. Foi feito o recorte e explicação de quem são as mulheres petites no Brasil e quais as maiores dificuldades encontradas no processo de compra de roupas devido as variações de tabelas de medidas e a falta de tamanhos menores disponíveis no mercado regular de moda",
+        "pdf_url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/download/479/282",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4407162614",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Modelagem de medidas de controle em redes de movimentação de animais",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/t.10.2015.tde-06112015-111048",
+        "doi": "10.11606/t.10.2015.tde-06112015-111048",
+        "year": 2016,
+        "authors": [
+          "Raul Ossada"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/t.10.2015.tde-06112015-111048",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Integrando Escaneamento 3D e Modelagem Digital no Ensino de Antropometria: Uma Abordagem Multidisciplinar",
+        "source": "crossref",
+        "url": "https://doi.org/10.5151/ergodesign2023-55",
+        "doi": "10.5151/ergodesign2023-55",
+        "year": 2025,
+        "authors": [
+          "Arabella Natal Galvão da Silva",
+          "Isabella de Souza Sierra"
+        ],
+        "venue": "Design Proceedings",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5151/ergodesign2023-55",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Editora Blucher"
+        }
+      },
+      {
+        "title": "Tabela periódica: o uso da modelagem no ensino de Ciências",
+        "source": "crossref",
+        "url": "https://doi.org/10.31792/rbecn.v1i1.11710",
+        "doi": "10.31792/rbecn.v1i1.11710",
+        "year": 2026,
+        "authors": [
+          "Cássia Regina Rosa Venâncio"
+        ],
+        "venue": "Revista Brasileira de Ensino de Ciências Naturais",
+        "abstract": "Atualmente a preocupação com a qualidade de ensino estimula muitos pesquisadores para o trabalho científico voltado para a diversificação de metodologias que consigam atingir os estudantes de maneira significativa. Baseado na ideia da construção do conhecimento, o uso de modelos no processo de ensino-aprendizagem objetiva proporcionar ao professor e ao aluno um momento de socialização e prática dos conceitos previamente adquiridos na teoria. As Ciências Naturais, especificamente a Química, foram muito beneficiadas por esse novo momento na educação, devido à necessidade que a disciplina exige de visualizar alguns conceitos importantes para seu total entendimento. Nesse caso, o uso de modelos funciona como uma importante ferramenta pedagógica. O método adotado nesta pesquisa contou com a aplicação de um questionário de sondagem, construção do modelo de Tabela Periódica na sala de aula e, por fim, um questionário para avaliar o processo de ensino-aprendizagem. Os dados foram coletados a partir de entrevista semiestruturada com o professor e questionários com os alunos da 8a série/9o ano do ensino fundamental de uma escola pública de Belém-PA e em seguida foi realizada a análise quantitativa e interpretativa dos questionários. De acordo com os resultados obtidos, percebeu-se que os objetivos foram alcançados e que cada vez mais a educação precisa de novas metodologias que consigam articular a teoria à prática.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.31792/rbecn.v1i1.11710",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade do Estado do Para"
+        }
+      },
+      {
+        "title": "Deposição de asfaltenos:: medidas experimentais e modelagem termodinamica",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1993.62606",
+        "doi": "10.47749/t/unicamp.1993.62606",
+        "year": 2021,
+        "authors": [
+          "Julio Cesar Castelo Branco Reis Moreira"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1993.62606",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Precipitação de parafina em misturas de petroleo: medidas experimentais e modelagem termodinamica",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1994.76728",
+        "doi": "10.47749/t/unicamp.1994.76728",
+        "year": 2021,
+        "authors": [
+          "Paulo Cesar Souza dos Santos"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1994.76728",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Modelagem computacional de funções de proteção baseadas em medidas de frequência para detecção de ilhamento de geração distribuída",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.18.2014.tde-14032014-083240",
+        "doi": "10.11606/d.18.2014.tde-14032014-083240",
+        "year": 2015,
+        "authors": [
+          "Daniel Motter"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.18.2014.tde-14032014-083240",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "ANTROPOMETRIA E MEDIDAS CORPORAIS DE MULHERES PRATICANTES DE EXERCÍCIOS RÍTMICOS E RESISTIDOS: UMA COMPARAÇÃO",
+        "source": "crossref",
+        "url": "https://doi.org/10.22533/at.ed.7762109043",
+        "doi": "10.22533/at.ed.7762109043",
+        "year": 2021,
+        "authors": [
+          "Nestor Persio Alvim Agricola",
+          "Tânia Ferreira de Andrade Carvalho"
+        ],
+        "venue": "Educação para Atividade Física e Saúde",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.22533/at.ed.7762109043",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Atena Editora"
+        }
+      },
+      {
+        "title": "MODELAGEM TEMPORAL DAS MEDIDAS DE VAZÃO DE DRENOS NA BARRAGEM DE FUNIL (RJ) UTILIZANDO REDES NEURAIS E MÉTODOS ESTATÍSTICOS",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.7060",
+        "doi": "10.17771/pucrio.acad.7060",
+        "year": 2015,
+        "authors": [
+          "JANAINA VEIGA CARVALHO"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.7060",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "Modelagem matemática da dinâmica da Leishmaniose visceral canina incluindo medidas de prevenção e controle",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2021.1258908",
+        "doi": "10.47749/t/unicamp.2021.1258908",
+        "year": 2023,
+        "authors": [
+          "Caren Louize Brancaglioni"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2021.1258908",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Tabela periódica: o uso da modelagem no ensino de Ciências",
+        "source": "crossref",
+        "url": "https://doi.org/10.31792/rbecn.v1i1.11824",
+        "doi": "10.31792/rbecn.v1i1.11824",
+        "year": 2026,
+        "authors": [
+          "Márcia Castelano Gama",
+          "Cassia Regina Rosa Venâncio"
+        ],
+        "venue": "Revista Brasileira de Ensino de Ciências Naturais",
+        "abstract": "Atualmente a preocupação com a qualidade de ensino estimula muitos pesquisadores para o trabalho científico voltado para a diversificação de metodologias que consigam atingir os estudantes de maneira significativa. Baseado na ideia da construção do conhecimento, o uso de modelos no processo de ensino-aprendizagem objetiva proporcionar ao professor e ao aluno um momento de socialização e prática dos conceitos previamente adquiridos na teoria. As Ciências Naturais, especificamente a Química, foram muito beneficiadas por esse novo momento na educação, devido à necessidade que a disciplina exige de visualizar alguns conceitos importantes para seu total entendimento. Nesse caso, o uso de modelos funciona como uma importante ferramenta pedagógica. O método adotado nesta pesquisa contou com a aplicação de um questionário de sondagem, construção do modelo de Tabela Periódica na sala de aula e, por fim, um questionário para avaliar o processo de ensino-aprendizagem. Os dados foram coletados a partir de entrevista semiestruturada com o professor e questionários com os alunos da 8a série/9o ano do ensino fundamental de uma escola pública de Belém-PA e em seguida foi realizada a análise quantitativa e interpretativa dos questionários. De acordo com os resultados obtidos, percebeu-se que os objetivos foram alcançados e que cada vez mais a educação precisa de novas metodologias que consigam articular a teoria à prática.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.31792/rbecn.v1i1.11824",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade do Estado do Para"
+        }
+      },
+      {
+        "title": "O CORPO GORDO FEMININO: FORMAS, MEDIDAS E MODELAGEM",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.77515",
+        "doi": "10.17771/pucrio.acad.77515",
+        "year": 2026,
+        "authors": [
+          "BARBARA VALLE POCI"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.77515",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "Novas tecnologias no ensino da Química: modelagem prática da tabela periódica em sala de aula",
+        "source": "crossref",
+        "url": "https://doi.org/10.26669/2359-2664.2018.168",
+        "doi": "10.26669/2359-2664.2018.168",
+        "year": 2018,
+        "authors": [
+          "Denis Ribeiro Carvalho"
+        ],
+        "venue": "Boletim Técnico-Científico",
+        "abstract": "A modelagem prática virtual é uma ferramenta atrativa e também de aperfeiçoamento de metodologias nas atividades desenvolvidas em sala de aula sob o tema Tabela Periódica, possibilitando ao aluno trabalhar com os componentes curriculares de Química de forma simplificada. O estudo de caso focalizou-se em trabalhar a periodicidade dos elementos e famílias, pois é um estudo essencial. Surge a proposta de que os próprios estudantes moldem uma ferramenta de estudo de acordo com a sua necessidade uma vez que Química é vista microscopicamente por muitas pessoas desde que estudamos o átomo, pois é difícil para alguém imaginar que o mesmo está na ponta do seu dedo e que pode ser até uma partícula de giz. O que tange os conhecimentos empíricos e os conhecimentos científicos, a modelagem prática é de suma importância para favorecer a relação entre o aluno e o professor em um processo de ensino-aprendizagem, tornando possível a criação de trabalhos com elevado grau de qualidade e significatividade. Tendo em vista a contribuição desse processo com as vivências em sala de aula, enquanto professores em formação, e para os alunos ao fazer referência a Modelagem Prática Virtual, destaca-se que o propósito é reinventar um trabalho que já existe, com o intuito de alterar sua figura sem perder suas propriedades básicas fundamentais e adequar para atender à necessidade desses alunos. A interdisciplinaridade no ensino é trabalhada de inúmeras formas principalmente nas disciplinas de Informática e Química, que quando aliadas possibilitam grandes construções e inovações.",
+        "pdf_url": "https://periodicos.iffarroupilha.edu.br/index.php/boletim-tecnico-cientifico/article/download/39-47/pdf_15",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.26669/2359-2664.2018.168",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Revista de  Ciencia e Inovacao"
+        }
+      },
+      {
+        "title": "MODELAGEM DA DISTRIBUIÇÃO CONJUNTA DOS LOG-RETORNOS DE TAXAS DE JUROS PRÉ-FIXADAS A PARTIR DE MEDIDAS DE DEPENDÊNCIA DE CAUDA",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.13065",
+        "doi": "10.17771/pucrio.acad.13065",
+        "year": 2015,
+        "authors": [
+          "ALDO FERREIRA DA SILVA"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.13065",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "Identificação, modelagem, análise e estudo de medidas para o controle dos níveis de ruído gerado por compressores herméticos rotativos",
+        "source": "crossref",
+        "url": "https://doi.org/10.14393/ufu.di.2012.318",
+        "doi": "10.14393/ufu.di.2012.318",
+        "year": 2022,
+        "authors": [
+          "Marlipe Fagundes Neto"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.14393/ufu.di.2012.318",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "EDUFU - Editora da Universidade Federal de Uberlandia"
+        }
+      },
+      {
+        "title": "Tabela 1.25. Na América Latina e no Caribe, apenas o Brasil divulga as medidas adotadas para lidar com os resultados dos relatórios da instituição superior de auditoria, 2017",
+        "source": "crossref",
+        "url": "https://doi.org/10.1787/888934173281",
+        "doi": "10.1787/888934173281",
+        "year": 2020,
+        "authors": [],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1787/888934173281",
+        "extra": {
+          "crossref_type": "component",
+          "publisher": "Organisation for Economic Co-Operation and Development  (OECD)"
+        }
+      },
+      {
+        "title": "Onde estão as mulheres de corpo gordo na tabela de medidas da Revista Manequim?",
+        "source": "crossref",
+        "url": "https://doi.org/10.5965/1982615x18442025285",
+        "doi": "10.5965/1982615x18442025285",
+        "year": 2025,
+        "authors": [
+          "Évora Juliene França Ferreira",
+          "Renata Fratton Noronha"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "A representatividade é fundamental, tanto nas questões sociais quanto no âmbito da moda, especialmente quando se trata de corpos reais. Esta pesquisa teve como objetivo analisar como a representação das mulheres de corpos gordos é retratada na revista Manequim na década de 1990 e na atualidade. Para isso, foram selecionadas quatro edições da revista que apresentaram alterações nas suas tabelas de medidas, sendo duas edições correspondentes aos anos de 1991 e 1996 e duas edições do ano de 2022. A metodologia aplicada baseou-se em uma revisão bibliográfica e na análise de conteúdo centrada nas tabelas de medidas, nos moldes e na interpretação das edições mencionadas. Foi possível constatar que, na década de 1990, houve um breve período de melhora na representatividade das mulheres com corpos gordos na revista. No entanto, ao longo dos anos, muito se discutiu sobre representação, mas pouco se fez para atender às demandas das consumidoras. Os resultados indicam que, embora haja uma intenção de incluir mulheres gordas na revista Manequim, essa inclusão ocorre nos textos, porém não se reflete nas tabelas de medidas. Isso demonstra uma discrepância entre o discurso e a prática, evidenciando que a representatividade ainda é um desafio a ser superado no campo da moda.",
+        "pdf_url": "https://www.periodicos.udesc.br/index.php/modapalavra/article/download/25955/18152",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5965/1982615x18442025285",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade do Estado de Santa Catarina"
+        }
+      },
+      {
+        "title": "Avaliação geológico-geotécnica da área do lixão de Poços de Caldas (MG): problemas ambientais, modelagem de fluxo e de transporte de poluentes e medidas de remediação",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.18.2018.tde-06082018-104605",
+        "doi": "10.11606/d.18.2018.tde-06082018-104605",
+        "year": 2018,
+        "authors": [
+          "Janaina Barrios Palma"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.18.2018.tde-06082018-104605",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      }
+    ]
+  },
+  "count": 37,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:00:33.142310+00:00"
+}

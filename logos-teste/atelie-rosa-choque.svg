@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="56" fill="#E6007E"/>
+  <g transform="translate(256 168)">
+    <g fill="#FFFFFF">
+      <ellipse rx="34" ry="62" transform="rotate(0)  translate(0 -46)"/>
+      <ellipse rx="34" ry="62" transform="rotate(72) translate(0 -46)"/>
+      <ellipse rx="34" ry="62" transform="rotate(144) translate(0 -46)"/>
+      <ellipse rx="34" ry="62" transform="rotate(216) translate(0 -46)"/>
+      <ellipse rx="34" ry="62" transform="rotate(288) translate(0 -46)"/>
+    </g>
+    <circle r="30" fill="#E6007E"/>
+    <circle r="30" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-dasharray="8 7"/>
+  </g>
+  <text x="256" y="336" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#FFD3EA" letter-spacing="2">Ateliê</text>
+  <text x="256" y="404" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-style="italic" font-size="62" fill="#FFFFFF">Rosa Choque</text>
+</svg>

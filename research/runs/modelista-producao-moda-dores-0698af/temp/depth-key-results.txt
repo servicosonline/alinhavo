@@ -1,0 +1,1998 @@
+**************************************************
+ID: universidade-estadual-paulista
+Modelo 2 – Tecido 3 (Brim 300g/m2)
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Prototipagem Virtual – Modelo 3: Blusa Transpassada
+O modelo de número três foi executado em quatro etapas como
+Figura 47: Etapas do Processo de Prototipagem virtual blusa transpassada
+Fonte:  Elaborado por Gisely A. Pires, 2015
+O desenvolvimento dos moldes compreendeu a primeira etapa, em
+que foi utilizado o método de modelagem Lutterloh. As medidas do quadril e
+busto foram respectivamente 88 e 98 cm. Com a ilustração dos moldes em
+miniatura sobre o papel branco e a escala fornecida pelo método, os moldes
+frente e costas foram reproduzidos em tamanho real (Figura 48).
+Figura 48: Moldes em miniatura do método Lutterloh
+Fonte: Lutterloh, 2014
+Na segunda etapa foram digitalizados os moldes por meio do sistema
+de fotos Audaces Digiflash versão 4 (Figura 49).
+Figura 49: Digitalização dos moldes parte costas e frente
+Fonte:  Elaborado por Gisely A. Pires, 2015
+A terceira etapa compreendeu a organização dos moldes no software
+Audaces vestuário, versão 13, em que foi indicado o sentido de fio para corte,
+nome dos moldes, desdobramento do molde das costas e configuração da
+quantidade de vezes que cada parte deveria ser cortada no tecido. Também foi
+construído o molde do cós diretamente no CAD 2D, conforme a medida utilizada
+do quadril, resultando em um retângulo de 16 cm por 98 cm (Figura 50)
+Figura 50: Moldes da blusa transpassada organizados no Audaces Vestuário
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Na quarta etapa ocorreu a simulação do protótipo virtual como
+Tabela 17: Etapas de simulação modelo 3
+Simulação virtual Blusa Transpassada
+4 – Ajuste de posicionamento
+da peça sobre o manequim
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Ao finalizar a simulação da blusa foram observadas alterações
+necessárias na modelagem, entre elas: sobras de tecido na cava frente e costas,
+largura do ombro muito amplo e o cós largo, que acarretou na ondulação na
+parte da costura e não o franzido desejado. Os defeitos identificados podem ser
+acompanhados na Tabela 18.
+Tabela 18: Defeitos identificados no modelo 3
+1- Sobra de tecido na
+Fonte:  Elaborado por Gisely A. Pires, 2015
+No entanto, as alterações no molde não foram realizadas para a
+simulação dos Tecidos 3 e 4, pois o objetivo deste experimento não é a
+aprovação do modelo, mas sim a análise das convergências e divergências entre
+os protótipos virtuais e físicos. O resultado final da simulação realizada com a
+aplicação de cores e texturas, pode ser acompanhados na Tabela 19.
+Tabela 19: Protótipos virtuais (blusa transpassada)
+Modelo 3 – Tecido 5 (Lurex)
+Modelo 3 –Tecido 6 (Suedine)
+Fonte:  Elaborado por Gisely A. Pires, 2015
+5.6. Prototipagem Manual – Modelo 3: Blusa Drapeada
+O protótipo físico da Blusa Transpassada foi executado em sete etapas (Figura
+Figura 51: Etapas do processo de prototipagem Manual
+Fonte:  Elaborado por Gisely A. Pires, 2015
+As três primeiras etapas compreendeu o mesmo processo utilizado
+para a prototipagem virtual, no qual foram executadas:
+ Desenvolvimento da modelagem no papel branco utilizando
+ Digitalização dos moldes por meio do sistema Audaces Digiflash
+ Organização dos moldes, no qual foi direcionado o sentido do fio,
+nome dos moldes, quantidade de vezes a serem cortadas no
+tecido e o desdobramento da parte das costas;
+Ainda na terceira etapa ocorreu a aplicação das margens de costuras
+aos moldes (Figura 52). As mesmas foram inseridas de acordo com as máquinas
+utilizadas. A Tabela 20 apresenta os valores de costuras inseridos e a sequência
+operacional para montagem da peça.
+Figura 52: Moldes da blusa transpassada com margens de costuras
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Tabela 20: Sequência operacional para costura do modelo 3
+Fazer barras no decote
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Na quarta etapa foram realizados os encaixes para corte no tecido,
+sendo um com a largura de 1,40cm para o Lurex (Figura 53), e 0,90cm para o
+Figura 53: Encaixe para corte no tecido lurex
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Figura 54: Encaixe para corte no tecido tubular Suedine
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Na quinta etapa ocorreu a plotagem dos encaixes, seguidos da sexta
+e ultima etapa, onde foram realizados os cortes da malha lurex e  suedine.
+A sétima etapa compreendeu o processo de costura dos protótipos,
+utilizando as máquinas: overlock e galoneira. A Tabela 21 apresenta os
+resultados de todo esse processo.
+Tabela 211: Protótipos físicos (blusa transpassada)
+Modelo 3 –  Tecido 5 (Lurex)
+Modelo 3 – Tecido 6 (Suedine)
+Fonte:  Elaborado por Gisely A. Pires, 2015
+5.7. Prototipagem Virtual – Modelo 4: Saia Godê
+A prototipagem da saia godê compreendeu somente duas etapas
+A primeira etapa consistiu na elaboração da modelagem da saia godê
+no software Audaces Vestuário. O molde foi construído a partir das diretrizes
+propostas por Aldrich (2014), seguindo as medidas de 68 cm de cintura e de 40
+cm de comprimento. Posteriormente foi produzido o molde do cós, traçado com
+as medidas de 8 cm de altura e 68 cm de largura (Figura 56).
+Figura 55: Etapas do processo de prototipagem virtual saia godê
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Figura 56: Molde saia godê executado no Audaces Vestuário
+Fonte:  Elaborado por Gisely A. Pires, 2015
+A segunda etapa compreendeu a simulação do protótipo como apresenta a
+Tabela 222: Processo de simulação da saia godê
+Fonte:  Elaborado por Gisely A. Pires, 2015
+A partir da simulação realizada foi configurado as propriedades para
+os Tecidos 5 e 6, resultando nos modelos apresentados na Tabela 23.
+Tabela 23: Simulação protótipos modelo 4 (saia godê)
+Modelo 4 – Tecido 7 (toque de seda)
+Modelo 4 – Tecido 8 (chamois)
+Fonte:  Elaborado por Gisely A. Pires, 2015
+5.8. Prototipagem Manual – Modelo 4: Saia Godê
+O protótipo físico da saia godê foi realizado em cinco etapas conforme Figura
+Figura 57: Etapas do processo de prototipagem manual saia godê
+Fonte:  Elaborado por Gisely A. Pires, 2015
+A primeira assim como no processo virtual, foi a elaboração da modelagem em
+CAD 2D. No entanto, para a construção do protótipo físico foi necessário inserir as
+margens de costura na circunferência da cintura e cós (Figura 58).
+Figura 58: Modelagem saia godê com margem de costura
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Os valores das margens de costura foram aplicados de acordo com as
+máquinas utilizadas para a montagem da peça, no qual podem ser acompanhas
+na Tabela 24, junto com a sequência operacional.
+Tabela 244: Sequência operacional para costura da saia godê
+Fechar costura traseira e
+Fonte:  Elaborado por Gisely A. Pires, 2015
+A segunda etapa compreendeu na execução do encaixe para os
+tecidos 7 e 8 (Figura 59). Ambos possuíam 1,40cm de largura. Dessa forma, tal
+processo foi realizado somente uma vez.
+Figura 59: Encaixe para corte dos tecidos 7 e 8
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Na terceira etapa realizou-se a impressão do encaixe para o corte. Na
+quarta ocorreu o corte dos tecidos 7 e 8. Os mesmos foram sobrepostos sobre a
+mesa de corte, assim o processo foi executado somente uma vez para os dois
+tecidos. Na quinta e última etapa foram efetuadas as costuras das saias,
+resultando nas peças apresentadas na Tabela 25.
+Tabela 255: Protótipos Físicos (saia godê)
+Modelo 4 – Tecido 7 (toque de seda)
+Modelo 4 – Tecido 8 (chamois)
+Fonte:  Elaborado por Gisely A. Pires, 2015
+6. ANÁLISE COMPARATIVA DOS PROTÓTIPOS VIRTUAIS E REAIS
+A partir de uma avaliação dos questionários aplicados com 21 alunos
+do 4º período do curso de Design de moda, da Faculdade Tecnológica Federal
+do Paraná, foram analisados os resultados das perguntas.
+A apresentação dos dados obtidos inicia-se pela identificação dos
+protótipos virtuais indicados pelos alunos. Em seguida são mostrados os
+resultados das comparações entre as imagens dos protótipos virtuais e físicos
+em relação ao caimento forma e volume.
+6.1. Resultados apresentados na identificação dos modelos virtuais
+Em um primeiro momento foram apresentadas as imagens
+vetorizadas da parte da frente por meio de um retroprojetor. Assim, os
+estudantes indicaram qual o protótipo executado no software Audaces 3D. A
+Figura 60 e 61, mostra as imagens do modelo 1, sendo a opção A, o protótipo
+Figura 60: Parte da frente do modelo 1 vetorizado no tecido Cotton
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Figura 61: Parte da frente do modelo 1 vetorizado no tecido Viscolycra
+Fonte:  Elaborado por Gisely A. Pires, 2015
+A seguir são apresentadas as imagens vetorizados do modelo 2, ambos são
+confeccionados no tecido Brim, no entanto os mesmos possuem gramaturas
+diferentes.   A Figura 62 apresenta a opção B como virtual, e a Figura 63, alternativa A.
+Figura 62: Parte da frente do modelo 2 vetorizado no tecido Brim 175g/m2
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Figura 63: Parte da frente do modelo 2 vetorizado no tecido Brim 300g/m2
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Para o modelo 3, as alternativas apresentadas como virtual é A para Figura 64,
+e B para Figura 65. Os mesmos foram executados nas malha Lurex e Suedine
+Figura 64: Parte da frente do modelo 3 vetorizado no tecido Lurex
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Figura 65: Parte da frente do modelo 3 vetorizado no tecido Suedine
+Fonte:  Elaborado por Gisely A. Pires, 2015
+O quarto e último modelo foi a Saia Godê, em que a alternativa virtual
+disponível na Figura 66 e 67, são representadas pela opção B. Os tecidos
+utilizados para confecção dos mesmos foram respectivamente: Toque de Seda e
+Figura 66: Parte da frente do modelo 4 vetorizado no tecido Toque de Seda
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Figura 67: Parte da frente do modelo 4 vetorizado no tecido Chamois
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Os resultados obtidos são apresentados na Tabela 26.
+Tabela 266: Identificação dos protótipos virtuais
+Modelo 1 – tecido 1 (cotton)
+Modelo 1 – tecido 2 (viscolycra)
+Modelo 2 – tecido 3 (brim 175g/m2)
+Modelo 2 – tecido 4 (brim 300g/m2)
+Modelo 3 – tecido 5 (lurex)
+Modelo 3 – tecido 6 (suedine)
+Modelo 4 – tecido 7 (toque de seda)
+Modelo 5 – tecido 8 (Chamois)
+Fonte:  Elaborado por Gisely A. Pires, 2015
+A partir dos dados expostos é possível observar que os alunos
+identificaram na maioria das imagens apresentadas quais representavam o
+modelo virtual. No entanto, o modelo de número 4, tecido 8, o percentual das
+respostas são muito próximos. Neste caso pode-se concluir que houve certa
+dificuldade em reconhecer o protótipo virtual quando comparado ao físico.  Já o
+modelo de número 3, desenvolvido no tecido 4 e o modelo de número 5, tecido
+8, os modelos reais foram selecionados como virtuais, verificando assim que a
+similaridade dos protótipos desenvolvidos em CAD 3D pode se aproximar tanto
+do físico, a ponto de ocorrer confusão para identificar qual imagem é
+representa o modelo virtual.
+6.2. Resultados apresentados relativos às similaridades os protótipos
+Em um segundo momento a imagem de todos os modelos foram apresentados
+com identificação de quais eram os modelos virtuais e reais (Figura 68). Assim, os
+alunos receberam um questionário (Apêndice A) referente à avaliação de caimento,
+forma e volume, para que mediante a observação das imagens frente, costa e lateral
+expostas por meio do retroprojetor, indicassem o grau de semelhança entre os
+Figura 688: Imagem do modelo identificado
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Com o intuito de sintetizar os dados analisados e de modo a torná-los visualmente
+perceptíveis, foram elaboradas quatro  tabelas  que classificam  as semelhanças entre
+os mesmo. Na primeira (Tabela 27) é possível verificar os resultados obtidos para o
+modelo da Calça Saruel, nos tecidos 1 e 2. A Tabela 28, indica os resultados do Vestido
+Trapézio, tecidos 3 e 4. Na Tabela 29 os dados estão relacionados aos protótipos da
+Blusa Transpassada, tecidos 5 e 6. A última, Tabela 30, permite comparar os resultados
+de caimento , forma e volume da Saia Godê, nos tecidos 7 e 8.
+Tabela 277: Identificação dos protótipos virtuais modelo 1
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Tabela 288: Identificação dos protótipos virtuais modelo 2
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Tabela 299: Identificação dos protótipos virtuais modelo 3
+Fonte:  Elaborado por Gisely A. Pires, 2015
+Tabela 30: Identificação dos protótipos virtuais modelo 4
+Fonte:  Elaborado por Gisely A. Pires, 2015
+A observação dos dados apresentados nas Tabelas acima permite afirmar que
+os protótipos desenvolvidos virtualmente apresentam características visuais muito
+próximas dos protótipos físicos, pois nota-se na maioria das respostas obtidas que os
+mesmos são classificados como idênticos ou muito próximos dos reais. No entanto,
+torna-se relevante destacar que na Tabela 29 o modelo apresentado obteve na
+classificação de pouco semelhante, um percentual maior em relação aos outros.
+Provavelmente isso ocorreu devido aos problemas de modelagem da peça.
+Este trabalho iniciou-se com o objetivo principal de verificar as
+convergências e divergências entre os protótipos virtuais e os produzidos nos
+processos tradicionais, tendo em vista analisar a similaridade do caimento,
+forma e volume, para validação de novos projetos na indústria do vestuário, a
+fim de conferir a confiabilidade dos aspectos visuais dos modelos virtuais.
+Para proceder a esse estudo, foram desenvolvidos quatro modelos
+de protótipos, cada um executado em dois tecidos diferentes. No entanto, as
+características de comportamento dos materiais utilizados, não se encontravam
+disponíveis no software Audaces 3D. Em virtude disto, foi necessário
+desenvolver um método visual de caimento dos tecidos selecionados. Pois assim
+como na maioria das indústrias do vestuário, a autora não possuía acesso e nem
+o conhecimento exigido para o manuseio de equipamentos que avaliam as
+características técnicas dos tecidos.
+Feito isto, foram executados os protótipos virtuais e físicos. Os
+mesmo foram apresentados a um grupo de 21 alunos, do 4o período do curso de
+Design de Moda, da Universidade Tecnológica Federal do Paraná, a fim de
+verificar a semelhança entre os mesmos em relação ao caimento, forma e
+volume. Assim, comprovou-se a hipótese de que a utilização de softwares de
+prototipagem 3D específicos para indústria do vestuário possibilita o
+desenvolvimento de peças virtuais com características visuais muito próximas
+dos protótipos reais.
+Ressalta-se que mesmo sendo possível identificar a maioria dos protótipos
+virtuais em relação aos físicos, como mostra a análise da Tabela 24, tais fatores não
+influenciaram nas similaridades das características visuais dos mesmos. A síntese
+apresentada nas Tabelas 25, 26, 27 e 28, demostram com clareza tal fato, ao
+apresentar dados expressivos que comprovam a semelhança muito próxima ou mesmo
+idênticas entre os mesmos.
+Portanto, comprova-se a hipótese de que a utilização de softwares de
+prototipagem 3D específicos para indústria do vestuário possibilita o desenvolvimento
+de peças virtuais com características visuais muito próximas dos protótipos reais.
+Assim, a utilização de softwares 3D aplicados na aprovação prévia dos protótipos,
+pode ser validada como eficaz no processo de construção do vestuário, seja para
+analisar forma, caimento ou volume.
+Também é pertinente salientar que o alcance da similaridade entre o protótipo
+virtual e o físico, está diretamente relacionado ao conhecimento do tecido utilizado,
+modelagem, costura e a manipulação das ferramentas disponíveis no software 3D.
+Dessa forma, uma nova abordagem é aplicada para construção de protótipos,
+que até então é pouco conhecida. Isto deve contribuir para compreensão de um novo
+contexto e antever questões relativas aos novos processos e possibilidades de
+construção de protótipos na indústria do vestuário.
+No decorrer desta pesquisa outras questões foram surgindo como
+possibilidades e continuidade deste  trabalho. Entre as propostas de futuras pesquisas,
+incluem investigações que abordem: aspectos ergonômicos do vestuário virtual tanto
+de forma estática ou dinâmica; o conhecimento dos profissionais e docentes sobre a
+construção de protótipos virtuais; entre tantas outras, pois o campo de estudo é vasto
+e comprova-se grande carência de pesquisas com este enfoque.
+ABNT – Associação Brasileira da Indústria Têxtil e de Confecção. NBR 13483 - Material
+têxtil - Tipos de pontos, 1995.
+ABLING, Bina; MAGGIO, Kathleen. Moulage, modelagem e desenho – Prática
+integrada. Porto Alegre: Bookman, 2014.
+ALDRICH, Winifred. Modelagem Plana para moda feminina. Porto Alegre: Bookman,
+ALDRICH, Winifred. Tejido, forma y patronaje plano.  Barcelona: Gustavo Gili, 2010.
+AMADEN-CRAWFORD, Connie. Costura de Moda: técnicas básicas. Porto Alegre:
+ARAÚJO, Mário de. Tecnologia do vestuário. Lisboa: Fundação Calouste Gulbenkian,
+AQUINO, Marco Silva de. Análise Tribológica da malhas multifuncionais obtidas por
+multicamadas. Tese de Doutorado - Programa de Pós-Graduação em Engenharia
+Mecânica do Centro de Tecnologia da Universidade Federal do Rio Grande do Norte.
+BOUERI, José Jorge.  Sob medida: antropometria, projeto e modelagem. In: PIRES,
+Dorotéia Baduy. Design de Moda: Olhares diversos. São Paulo: Estação das Letras e
+Cores, 2008. Parte III, Cap. 4. p. 347-369.
+BREHM, Leda Maria Stumpf. Contribuição para classificação e descrição do caimento
+dos tecidos de seda 100% empregados em vestuário. Dissertação (Mestrado em
+Design) – Programa de Pós-Graduação em Design, UFRGS, 2011.
+BRIGGES-GOOD, Amanda. Design de estamparia têxtil. Porto Alegre: Bookman, 2014.
+CHATAIGNIER, Gilda. Fio a Fio: tecidos, moda e linguagem. São Paulo: Estação das
+CHONG, Andrew. Animação Digital. Porto Alegre: Bookman, 2011.
+ENDO, Diego Yoshihiro. O Design têxtil aplicado no design de produto. Dissertação
+(Mestrado em Design de equipamentos – Especialização em Design de produto) –
+Universidade de Lisboa – Faculdade Belas Artes, Lisboa, 2013.
+FAERM, Steven. Curso de Design de Moda: princípios, práticas e técnicas. Barcelona:
+FISCHER, Anette. Construção de vestuário. Porto Alegre: Bookman, 2010.
+GIL, Antonio Carlos. Como elaborar projetos de pesquisa. 5. ed. São Paulo: Atlas,
+GODOI, Márcia Grazie Bragato de. O conceito da alta-costura aplicado na moda festa.
+Monografia (Graduação em Design de moda) – Universidade Tecnológica Federal do
+Paraná. Apucarana, 2014.
+GOMES, Paula. et al. Manual do Formando – Nível 1: Tecnologia de confecção nível
+básico. Portugal: Citeve, 2005.
+GOKARNESHAN, N. Fabric and Structure Design. New Delhi: New Age International,
+GUERRERO, José Antonio. Nuevas Tecnologías aplicadas a la moda. Barcelona:
+JONES, Sue Jenkyn. Fashion Design: manual do estilista. São Paulo: Cosac Naify, 2011.
+KENKARE, Narahare Sreenath. Three Dimensional Modeling of Garment drape. Tese
+(Doutorado) - North Carolina state University. Raleigh, 2005.
+LASCHUCK, Tatiana. Design Têxtil: da estrutura à superfície. Porto Alegre: UniRitter,
+LEVINBOOK, Mirian. Design de Superfície: técnicas e processos em estamparia têxtil
+para produção industrial. Dissertação (Mestrado em Design) –, Universidade Anhembi
+Morumbi. São Paulo, 2008.
+LUTTERLOH, Silvia. O corte de Ouro Lutterloh. Kemptener: Alemanha, 2014.
+MAGNENAT-THALMANN, Nádia. Modeling and Simulating Bodies and Garments.
+London: Springer-Verlag London, 2010.
+MONTEMEZZO, Maria celeste de Fátima Sanches. Diretrizes metodológicas para o
+projeto de produtos de moda no âmbito acadêmico. Dissertação (Mestrado em
+Desenho Industrial) – Faculdade de Arquitetura, Artes e Comunicação, Universidade
+Estadual Paulista, Bauru, 2003.
+MENDES, Francisca Dantas; SACOMANO, José Benedito; FUSCO, José Paulo Alves. Rede
+de Empresas – A cadeia têxtil e as estratégias de manufatura na indústria brasileira
+do vestuário de moda. São Paulo: Arte & Ciência, 2010.
+<http://www.marvelousdesigner.com/cases/wetadigital>Acesso em: 21 jul.2015.
+NAVEIRO, Ricardo Manfredi. A Representação do Produto. In: ROMEIRO FILHO,
+Eduardo. Projeto de Produto. Rio de Janeiro: Elsevier, 2010. Cap. 21. p. 285-297.
+NEVES, Manuela. Desenho Têxtil – Tecidos, Vol I. Tecminho, 2000.
+OPTITEX. Disponível em <http://www.optitex.com/en/3D-Digitizer-Digitize-on-3D-
+View-See-Results-on-2D-pieces> Acesso em: 18 maio.2015.
+PEZZOLO, Dinah Bueno. Tecidos: história, tramas, tipos e uso. São Paulo: Senac-SP,
+PIPES, Alan. Desenho para designers: habilidades de desenho, esboços de conceito,
+apresentações, técnicas de produção. São Paulo: Blucher, 2010.
+PRENDERGAST, Jennifer. Técnicas de Costura: uma introdução as habilidades de
+confecção no âmbito do processo criativo. São Paulo: Gustavo Gili, 2015.
+ROSA, Stefania. Alfaiataria: Modelagem Plana Masculina. 3a Ed – Brasília: Senac – DF,
+SABRA, Flávio.  Modelagem: tecnologia em produção do vestuário. São Paulo: Estação
+das letras e cores, 2009.
+SAMPIERE, Roberto Hernánde; COLLADO, Carlos Fernández; LUCIO, Pilar Baptista.
+Metodologia de Pesquisa.  São Paulo: McGraw-Hill, 2006.
+SATO, Hisako. Drapeados: a arte de modelar roupas. São Paulo: Gustavo Gili, 2014.
+SILVEIRA, Icléia. Um modelo para capacitação dos instrutores do sistema CAD para
+vestuário e dos modelistas, com foco na gestão do conhecimento. Tese (Doutorado
+em Design) Pontifícia Universidade Católica. Rio de Janeiro, 2011.
+SMITH, Alisson. Corte e Costura. São Paulo: Publifolha, 2012.
+SORGER, Richard; UDALE, Jenny. Fundamentos de Design de moda. Porto Alegre:
+SOUZA, Patricia de Mello. Estratégias de construção para estruturas têxteis vestíveis.
+SMITH, Alison. O grande livro da costura: material, técnicas, moldes, projetos.
+[tradução Rosemarie Ziegelmaier]. São Paulo: Publifolha, 2013.
+TERZOPOULOS, D. et al. Elastically deformable models. Computer Graphics, volume
+21, number 4. California, 1987.
+TREPTOW, Doris. Inventando Moda: planejamento de coleção. Brusque: D. Treptow,
+A seguir serão apresentadas algumas imagens de peças do vestuário feminino que
+correspondem a protótipos confeccionados de forma tradicional (físico) e em
+softwares especializados (virtual).
+Essas imagens deverão ser observadas detalhadamente para uma análise do
+CAIMENTO, FORMA e VOLUME das peças.
+Universidade Estadual Paulista “Júlio de Mesquita Filho”
+Faculdade de Arquitetura, Artes e Comunicação
+**************************************************
+ID: universidade-de-são-paulo-10
+estes resultam de práticas industriais, entre
+outras, podendo apresentar características de
+combustibilidade, biodegradabilidade e que
+assumir propriedades tóxicas. (MENEGUCCI
+Imagem 1: Quadro com os processos para o desenvolvimento de uma peça de roupa.
+Fonte: Desenvolvimento autoral, 2022.
+CAPITULO II – O ESTADO DA ARTE: DO COMEÇO AOS DIAS
+O CAD (computer-aided design18) surgiu em meados de 1950, à medida
+que a computação foi se desenvolvendo. Com a evolução da computação
+gráfica interativa e a criação das primeiras impressoras, grandes companhias
+(computador central)19. Contudo, esses programas só eram
+governamentais (CORSO et al, 2016).
+A utilização do CAD na modelagem de vestuário só teve início na
+década seguinte, em 1960, com a invenção da primeira máquina de corte
+automatizado de tecido – acontecimento que revolucionou a indústria têxtil
+mundialmente. As primeiras empresas que desenvolveram seus softwares para
+modelagem foram a Gerber/Camsco, Lectra System and Microdynamics
+System, Assyst e Investronica. No Brasil, a Audaces e Moda-01 viriam a se
+destacar na década de 1990. A utilização desses programas revolucionou
+imediatamente dois setores de produção nas confecções: a gradação e o
+A maioria dos programas CAD agora permite
+a criação de modelos tridimensionais, que
+podem ser vistos de qualquer ângulo. O CAD
+é essencialmente um sistema automatizado
+informações orientadas graficamente. Além
+fabricação de layouts. (DWIVEDI; DWIVEDI,
+Imagem 2: Interface do software Audaces Molde.
+20 Texto original: “Most CAD programs now permit creation of three-dimensional models, which
+may be viewed from any angle. State-of-the-art solid modelling CAD programs are a virtual
+reality for machine design that helps architects, engineers, and designers in design activities. It
+involves both software and special-purpose hardware. CAD is essentially an automated system
+for the design, drafting, and display of graphically oriented information. Furthermore, CAD is
+used in the manufacturing process for layouts.” (DWIVEDI; DWIVEDI, 2013. p. 174)
+19 Um mainframe é um computador de alto desempenho usado para fins de computação em
+grande escala que exige mais disponibilidade e segurança do que uma máquina de menor
+https://gaea.com.br/o-que-sao-mainframes/#:~:text=Um%20mainframe%20%C3%A9%20um%2
+0computador,99%2C99%25%20de%20disponibilidade. (acesso 04/12/2022)
+18 Em tradução livre: desenho auxiliado por computador.
+Fonte: https://audaces.com/sistemas-audaces-360/ (acesso 05/12/2022)
+Nesse contexto, em 2010 é lançado a primeira versão do software CLO,
+com o objetivo de “para ser o mais preciso e realista possível, para que as
+roupas virtuais criadas no CLO pareçam e funcionem exatamente da mesma
+forma que as roupas físicas”21. O CLO3D é utilizado para concluir o design e
+dar inicio a produção das roupas, atendendo completamente a vários requisitos
+modificações, seleção de tecidos, exibição e gradação de tamanho, etc. O uso
+deste software pode não apenas reduzir muito a duração do processo de
+design, mas também economizar no custo e tempo de produção, tornando-se
+uma roupa muito conveniente e prática (WANG; LIU, 2010).
+21 Texto original: “We create CLO to be as accurate and realistic as possible so that the virtual
+garments created in CLO look and act exactly the same as the physical garments.” Fonte:
+https://www.clovirtualfashion.com/story (acesso 04/12/2022)
+Imagem 3: Interface do software CLO3D.
+https://www.researchgate.net/figure/Clo-Virtual-Fashion-Clo-3D-interface-Equally-similar-is-the-simulation-f
+eedback_fig3_329895711 (acesso 05/12/2022)
+Antes de iniciar o desenvolvimento da peça piloto virtual, é necessário
+realizar a configuração do avatar conforme a tabela de medidas da empresa. O
+software funciona em duas telas, o lado direito no qual é criada a modelagem
+2D –mesmo formato que é utilizado no papel pelas empresas – e o lado
+esquerdo no qual tem-se o manequim 3D. O CLO3D permite não só o
+desenvolvimento de novos moldes, mas também a importação de moldes que
+já foram feitos no Audaces, por exemplo, para que possa ser gerado a peça em
+3D. Após sinalizar as partes que devem ser costuradas, quais serão os
+acabamentos e tecidos, o posicionamento no manequim e a ativação da
+costura automática cria a peça que apresenta o caimento similar ao da peça
+O CLO3D possibilita que seja realizado o processo de forma completa,
+da modelagem à peça pronta sem testes físicos. Com os resultados gerados no
+programa, as avaliações da peça piloto são realizadas pela tela do computador,
+decidindo se a peça será aprovada ou se sofrerá alguma modificação e, caso a
+peça não seja aprovada, outra peça pode ser desenvolvida sem a perda e
+desperdício de matérias primas (MENEZES, 2010. PIRES, 2015).
+Outro ponto positivo está na hora da venda, já que se torna possível
+apresentar aos compradores diferentes opções de tecidos, acabamentos e
+cores, se distanciando dos processos limitados de amostras de produto físicas
+que, normalmente, se concentram em cores neutras e acompanham longos
+completamente essa dinâmica (Ibidem).
+confiável na visualização de designs antes da
+criação de um protótipo físico, a tecnologia
+também pode ser usada para criar imagens
+departamento de vendas pode acessar todas
+as variações de uma coleção e os clientes
+fotorrealista das variações de vestuário –
+eliminando a necessidade de sessões de
+fotos – através do site da empresa ou canais
+de mídia social e comprá-los antes que uma
+disso, o 3D pode ser usado no e-commerce
+para construir um configurador com fins de
+possam visualizar peças de vestuário em
+diversas variantes e cores com facilidade.
+(FEBRATEX GROUP, 2022) 22
+https://fcem.com.br/noticias/como-a-prototipagem-virtual-com-3d-melhora-cada-etapa-da-cadei
+a-de-suprimentos/ (acesso 04/12/2022)
+Imagem 4: Comparação dos tecidos físicos e virtuais no CLO3D.
+Fonte: (PIRES, 2015. p. 20)
+Para a utilização do Audaces 360, recomenda-se o uso de um
+computador com sistema operacional Windows 10 Pro 64 Bits; Processador
+Intel Core i7 terceira geração (Ivy Bridge); 1 GB de espaço em disco rígido; 8
+GB de memória RAM; Placa de vídeo NVIDIA GTX 750 ou superior (GTX 1650
+SUPER™ Single Fan); monitor 19’’ ou maior; teclado e mouse com scroll.
+Já para a utilização do CLO3D, recomenda-se Windows 10 64 Bits,
+processador AMD® Ryzen 4ª geração 7/9 5000 series ou Intel® Core-7/9 11ª
+geração ou posterior, 2GB memória RAM, placa de vídeo NVIDIA® RTX 3000
+series ou NVIDIA® Quadro RTX, RTX A series 3 ou 4, SSD 20GB de espaço
+rígido, monitor de 27” ou mais, teclado e mouse com scroll.
+Os requisitos para a utilização do software CLO3D são maiores, o que
+gera uma diferença significativa no custo para adquirir uma máquina para rodar
+os programas. Enquanto o sistema completo do Audaces ficaria na média de
+valor de R$3.500, o sistema para o CLO3D alcançaria a média de R$11.000.
+Para realizar a análise comparativa entre o software Audaces e o
+CLO3D, selecionamos três modelos de uma empresa de confecção Private
+Label, na qual são desenvolvidas e produzidas peças femininas para grandes
+marcas brasileiras. As peças selecionadas foram o Vestido Morgan e Calça
+Jules, da marca Bô.Bô23 e o Vestido Alça Vitoria da marca LeLis Blanc24.
+Com o objetivo de determinar qual método de modelagem e pilotagem é
+mais otimizado, as informações colhidas comparam o consumo nos cortes da
+peça quando feitos manualmente, na modelagem do Audaces e na modelagem
+feita através do CLO3D. Importante considerar a quantidade de vezes que a
+peça piloto é refeita e registrar o resíduo têxtil para a produção final de cada
+23 Criada em 2006 pelas estilistas Carla Di Palma e Flávia Viacava, a marca Bo.Bô está entre
+as grifes mais luxuosas e conceituadas do Brasil. Suas produções são voltadas para um
+público feminino mais jovem, que é a mulher moderna e independente, dona de um estilo
+e que possui um alto poder aquisitivo. Fonte:
+https://blog.etiquetaunica.com.br/bo-bo/ (acesso 05/12/2022)
+24 Em 1988, Waltraut, responsável pela parte de estilo e desenvolvimento de produtos, e
+Rahyja, responsável pela área comercial, resolveram criar a marca Le Lis Blanc Deux
+(inicialmente batizada assim) com o objetivo de desenvolver um negócio de moda feminina
+https://mundodasmarcas.blogspot.com/2017/01/le-lis-blanc.html (acesso em 05/12/22)
+manualmente consumiu 2,10m do tecido com 1,45m de largura, enquanto no
+Audaces consumiu 1,97m do tecido com 1,40m de largura. Percebe-se que a
+largura do tecido da produção comparado com o da peça piloto apresentou
+encolhimento de 5cm, isto é, um encolhimento de 1,65% e, mesmo assim,
+obteve um resultado menor do consumo de 13cm no tecido principal e de 8cm
+no forro. Já no CLO3D, o consumo foi de 1,31m na largura de 1,40m do tecido,
+com a redução de 0,66m no consumo total do tecido comparado ao Audaces.
+Imagem 5: Ficha de desenvolvimento do Vestido Morgan.
+Fonte: Empresa analisada pela pesquisa de campo, 2022.
+O processo de criação do Vestido Morgan feito manualmente seguiu os
+seguintes passos: primeiramente foi recebido a ficha de desenvolvimento
+enviada pelo setor de estilo com o desenho técnico, descrições e explicações
+de acabamentos, larguras e comprimentos desejados e em qual tecido seria
+feita a peça; em seguida, foi cortado um pedaço do tecido escolhido que foi
+aplicado sob o manequim de moulage, onde a modelista posicionou cada parte,
+construindo a o busto da peça, adicionando recortes e pences, para que o
+produto final ficasse idêntico ao desenho recebido. Para a saia, recortes do
+elástico e alças, foi realizado a modelagem 2D em papel kraft, calculando a
+quantidade de tecido necessária para a execução do franzido e para o conforto
+Com a modelagem finalizada, o corte ficou responsável por entretelar as
+partes necessárias para estruturar a peça – processo realizado tanto no tecido
+principal quanto no forro. Em seguida, os tecidos talhados são entregues para
+as piloteiras que, após finalizarem a peça, anotam na ficha o grau de
+dificuldade do modelo, para que esse seja uma das referências de valor para o
+cálculo de preço de venda da peça.
+Na ficha de desenvolvimento do Vestido Morgan (Imagem 3) é possível
+verificar as marcações 1ª e 2ª piloto, indicando o corte de duas peças, contudo,
+na parte inferior, a piloteira anotou três datas distintas. Ou seja, o modelo em
+questão foi pilotado três vezes até ser aprovado e lacrado. Para a confecção
+das peças pilotos do Vestido Morgan, foi utilizado 6,30m do tecido principal e
+Para a análise aproximada da quantidade de sobra desse corte, foi
+levado em consideração o mesmo percentual de resíduo gerado pelo Audaces
+– apesar do processo manual ser menos eficiente que o virtual. Dessa forma,
+com o aproveitamento de 81,46% dos 6,30m do tecido principal utilizado nas
+três peças piloto, o resíduo gerado apenas nas sobras do corte foi de 1,17m
+por peça, totalizando 3,51m para as três peças. Somando as duas peças piloto
+que não foram lacradas, o total de resíduo gerado foi de 7,71m apenas para
+uma peça ser lacrada e liberada para produção.
+Imagem 6: Consumo de tecido do Vestido Morgan, no tamanho 36, feito através do Audaces.
+Fonte: Empresa analisada pela pesquisa de campo, 2022.
+Tabela 1: Grade do pedido de produção do Vestido Morgan.
+Fonte: Empresa analisada pela pesquisa de campo, 2022.
+Com as informações fornecidas pela Imagem 6, é possível verificar que
+o risco do tecido principal tem 392,94cm de comprimento e um aproveitamento
+de 81,46%. Assim, apresentou uma sobra de 18,54%, totalizando 72,85cm por
+peça e 160,27m de resíduo gerado pelas 220 peças que foram produzidas
+(vide Tabela 1). Além da sobra, os ajustes de modelagem realizados nas peças
+piloto poderiam ter sido evitados se o desenvolvimento fosse realizado no
+CLO3D ao invés de manualmente.
+Imagem 7: Vestido Morgan feito pelo CLO3D.
+Fonte: Desenvolvimento autoral, 2022.
+Imagem 8: Consumo de tecido do Vestido Morgan feito pelo CLO3D.
+Fonte: Desenvolvimento autoral, 2022.
+Imagem 9: Consumo de tecido do Vestido Morgan feito pelo CLO3D.
+Fonte: Desenvolvimento autoral, 2022.
+Comparando as informações de consumo fornecidas pelo CLO3D e o
+Audaces, é possível perceber que o consumo do Audaces foi de 90,63%
+enquanto o do CLO3D foi de 81,46%, gerando um aumento de 9,17% no
+Imagem 10: Peça final do Vestido Morgan.
+Fonte: Empresa analisada pela pesquisa de campo, 2022.
+8. VESTIDO ALÇA VITÓRIA
+Para Vestido Alça Vitória no tamanho 38, o consumo do corte manual foi de
+3,30m do tecido principal com 1,30m de largura, enquanto no Audaces o
+consumo do tecido principal foi de 3,20m com 1,27m de largura. Neste caso o
+consumo diminuiu 12cm através do Audaces do tecido principal. Já no CLO3D
+o consumo foi de 2,07m gerando uma redução de 1,13m.
+Imagem 11: Ficha de desenvolvimento do Vestido Alça Vitória.
+Fonte: Empresa analisada pela pesquisa de campo, 2022.
+Imagem 12: Consumo de tecido do Vestido Alça Vitória, no tamanho 38, feito através do Audaces.
+Fonte: Empresa analisada pela pesquisa de campo, 2022.
+Tabela 2: Grade do pedido de produção do Vestido Alça Vitória.
+Fonte: Empresa analisada pela pesquisa de campo, 2022.
+Com as informações fornecidas pela Imagem 12, é possível verificar que
+o comprimento do risco do Vestido Vitória possui 317,15cm com uma sobra de
+29,04%, totalizando 92,10cm de sobra por peça e 210,90m para a produção
+das 229 peças (vide Tabela 2).
+Imagem 13: Vestido Alça Vitória feito pelo CLO3D.
+Fonte: Desenvolvimento autoral, 2022.
+Imagem 14: Consumo de tecido do Vestido Alça Vitória feito pelo CLO3D.
+Fonte: Desenvolvimento autoral, 2022.
+Imagem 15: Consumo de tecido do Vestido Alça Vitória feito pelo CLO3D.
+Fonte: Desenvolvimento autoral, 2022.
+Imagem 16: Peça final do Vestido Alça Vitória.
+Fonte: Empresa analisada pela pesquisa de campo, 2022.
+Para a Calça Jules no tamanho 36, o corte manual consumiu 1,55m na
+largura de 1,42m do tecido principal. Nesta forma de corte, para fazer o cálculo
+de aproveitamento, foi usada uma balança para pesar a quantidade de tecido
+total utilizado (=345g) e, em seguida, o corte apenas da calça, o que resultou
+em um aproveitamento de 79,23%, enquanto a perda foi de 23,77% (=82g). No
+cálculo realizado no Audaces, o aproveitamento foi de 79,26% com a perda de
+20,74% e, por fim, foi feita a modelagem no CLO3D, resultando em um
+aproveitamento de 80,27% contra a perda de 19,73%.
+Imagem 17: Ficha de desenvolvimento da Calça Jules
+Fonte: Empresa analisada pela pesquisa de campo, 2022.
+Imagem 18: Consumo de tecido da Calça Jules, no tamanho 38, feito através do Audaces.
+Fonte: Empresa analisada pela pesquisa de campo, 2022.
+Tabela 3: Grade do pedido de produção da Calça Jules.
+Fonte: Empresa analisada pela pesquisa de campo, 2022.
+Analisando a Imagem 128, é possível verificar que o comprimento do
+risco da Calça Jules possui 310,99cm com uma sobra de 20,74%, totalizando
+64,49cm de sobra por peça e 141,89m para a produção das 220 peças (vide
+Imagem 19: Calça Jules feito pelo CLO3D.
+Fonte: Desenvolvimento autoral, 2022.
+Imagem 20: Consumo de tecido do Calça Jules feito pelo CLO3D.
+Fonte: Desenvolvimento autoral, 2022.
+Imagem 21: Consumo de tecido do Calça Jules feito pelo CLO3D.
+Fonte: Desenvolvimento autoral, 2022.
+Imagem 22: Peça final do Calça Jules.
+Fonte: Empresa analisada pela pesquisa de campo, 2022.
+10. ANÁLISE DOS RESULTADOS
+A Tabela 3 apresenta todos os dados coletados durante a pesquisa de
+campo. Para obter os dados de aproveitamento em porcentagem do consumo
+manual foi feito o risco no tecido, usado uma balança para pesar o consumo
+total do mesmo e, em seguida, foi realizado a pesagem apenas da peça
+talhada, o que resultou na porcentagem do aproveitamento da peça.
+Tabela 4: Análise de aproveitamento e descarte das peças Vestido Morgan, Vestido Alça Vitória e Calça
+Jules através dos métodos de modelagem manual, Audaces e CLO3D.
+Fonte: Desenvolvimento autoral, 2022. (dados Audaces e modelagem manual fornecidos pela empresa
+Um dos principais problemas enfrentados durante a pesquisa foi a falta
+de um método preciso para calcular a quantidade de aproveitamento do tecido
+no processo de corte manual das peças, já que não existe um sistema que
+calcule esse dado. Para chegar ao objetivo desejado e a unidade de medida
+certa para fazer o comparativo, foi necessário pesar a parte total do tecido no
+encaixe do molde e, em seguida, pesar novamente apenas a parte cortada da
+modelagem. Posteriormente foi feita a regra de três – utilizada para descobrir
+um valor desconhecido, que segue a mesma razão de outros já conhecidos,
+obtendo como resultado a porcentagem de aproveitamento.
+Além das três peças escolhidas para a análise, foi registrado a
+quantidade total de peças desenvolvidas no mês de agosto de 2022 e quantas
+dessas peças foram entregues ao cliente no mês de outubro de 2022. Em
+agosto, o desenvolvimento se iniciou com a modelagem e pilotagem de 38
+modelos, contudo, em outubro, no final do desenvolvimento da coleção, foram
+passados para a produção apenas 17 modelos, ou seja, 21 peças foram
+canceladas ou postergadas.
+Analisando os dados da Tabela 4 juntamente ao consumo do sistema
+Audaces de aproveitamento do tecido, foram feitos cálculos para descobrir a
+quantidade de tecido descartada apenas com a produção dos 17 modelos
+aprovados. Dessa forma, com as informações de aproveitamento e sobras de
+resíduos têxteis da empresa analisada, contata-se que no mês de novembro de
+2022 foram descartados 1.118,09m de tecidos na produção de 5.275 peças.
+O valor ideal de produção para essa empresa em específico, é de 8.000
+peças por mês, ou seja, se esse valor fosse produzido com as mesmas
+proporções de descarte de novembro de 2022, seriam descartados 1.695,73m
+de tecido. Caso essa quantidade fosse produzida por um ano inteiro, o
+descarte têxtil chegaria a 20.348,85m.
+Tabela 5: Aproveitamento e sobras de resíduos têxteis
+Fonte: Empresa analisada pela pesquisa de campo, 2022.
+Com base nos dados colhidos e analisados, notou-se uma redução
+considerável entre os resíduos têxteis gerados pelo corte manual, Audaces e
+O Vestido Morgan apresentou uma perda de 365,05g com a modelagem
+desenvolvida no CLO3D, totalizando uma economia de 164,36g no descarte
+comparado com a perda de 529,41g gerada pelo corte manual. O Vestido Alça
+Vitória totalizou uma economia de 232,17g no descarte do tecido ao comparar
+a perda de 390,11g gerada pelo CLO3D com a perda de 622,28g gerada pelo
+corte manual. E por fim, a Calça Jules apresentou uma economia de 28,98g no
+descarte têxtil, com perda de 315,26g no CLO3D contra 344,24 no corte
+Haja vista, o CLO3D surge como uma alternativa mais econômica para a
+modelagem e pilotagem, permitindo não só que as estilistas e modelistas
+visualizem o produto e previnam defeitos, mas também reduzindo o descarte
+têxtil. No caso das três peças analisadas, a utilização do software auxiliou na
+redução de 425,43g de tecido que seriam descartados. O software possui uma
+interface interativa, a forma de encaixe do sistema é visualmente simples e de
+fácil manuseio, gerando um melhor encaixe das partes do molde no tecido,
+consequentemente, o consumo se torna menor.
+Para evidenciar ainda mais a economia que o software CLO3D
+proporciona para os processos têxteis, a Tabela 6 apresenta os resíduos que
+seriam descartados para a produção de cada uma das três peças, de acordo
+com o pedido realizado pelo cliente.
+Tabela 6: Resíduos gerados nas diferentes formas de corte para produção têxtil.
+Fonte: Desenvolvimento autoral, 2022.
+Sendo assim, conclui-se que a utilização do software CLO3D têm grande
+potencial para remodelar os setores de pilotagem e produção têxtil na indústria
+da moda. Sabendo que, atualmente, a indústria têxtil não se atenta para a
+análise dos dados acerca a quantidade de descarte gerado, o CLO3D pode
+proporcionar diversos benefícios seguros e comprovados de economia de
+tempo e recursos financeiros, já que as peças pilotos não precisarão ser
+confeccionadas mais de uma vez.
+Neste trabalho analisamos a indústria de confecção têxtil de moda e
+realizamos um estudo de campo utilizando dados de uma empresa Private
+Label de médio porte, que produz roupas femininas para grandes varejistas,
+focando na quantidade de resíduos têxteis provenientes de seu processo de
+Comparamos detalhadamente os processos de desenvolvimento e
+confecção de roupas sob a perspectiva de dois grandes modos de produção
+técnica com relação à modelagem – o primeiro e mais comum, onde a
+modelagem se inicia manualmente e é transferida para o software Audaces, e a
+técnica mais moderna, onde todo o processo é realizado pelo software CLO3D.
+Após finalizar a comparação, realizamos uma análise comparativa
+detalhada entre os métodos, a fim de observar o gasto de tempo e eficiência
+sob a perspectiva dos dois vieses de produção de modelagem e pilotagem.
+Para tanto, selecionamos três artigos, sendo esses o Vestido Morgan, o Vestido
+Alça Vitória e a Calça Jules; e elegemos o aproveitamento e sobras de matéria
+prima e a quantidade de peças piloto como os principais elementos para a
+análise, tendo em vista que esses são os elementos que contribuem para a
+eficácia e otimização na confecção de um produto, interferindo no resultado
+positivo e/ou recompensa pela produção.
+A análise apontou que o método de modelagem através do software
+CLO3D é o mais otimizado, reduzindo tempo e economizando matéria prima no
+que diz respeito a pilotagem – já que exige menos ajustes e retrabalho, além
+de potencializar o aproveitamento de tecido no posicionamento do corte,
+diminuindo consideravelmente os resíduos têxteis.
+ANDALÔ, Fábio. MODELAGEM E ANIMAÇÃO 2D E 3D PARA JOGOS. Ed.
+Erica. São Paulo, 2015.
+ANDREJA, Rudolf; METKA Zadravec; ZORAN, Stjepanovič. Investigations
+Regarding the Effects of Simulating Parameters During 3D Garments'
+Drape Simulations. FIBRES & TEXTILES in Eastern Europe, 2016.
+CONSTRUÇÃO DE BASES E VOLUMES. São Paulo. Editora Senac São
+CORSO, Priscila Zimmer; CASAGRANDE, Heide Gomes; SANTOS, Heloisa
+Helena de Oliveira. O USO DA TECNOLOGIA CAD 3D NA INDÚSTRIA DE
+CONFECÇÃO. Archiote, Revista Eletrônica de Moda. Vol. 4. N. 2., 2016.
+AUTOMATION IN DESIGN AND MANUFACTURING FOR MECHANICAL
+AND TEXTILE INDUSTRIES: CAD/CAM. International Journal of Innovative
+Technology and Exploring Engineering (IJITEE). Vol. 3, 2013.
+JONES, Sue Jenkyn. FASHION DESIGN: MANUAL DO ESTILISTA. Ed: Cosac
+Naify. São Paulo, 2005.
+MENEGUCCI, Franciele, MARTELI, Leticia; CAMARGO, Maristela; VITO,
+REAPROVEITAMENTO NAS INDÚSTRIAS DE CONFECÇÃO. XI Congresso
+Nacional de Excelência em Gestão, 2015.
+MENEZES, Marizilda dos Santos; SPAINE, Patrícia Aparecida de Almeida.
+MODELAGEM PLANA INDUSTRIAL DO VESTUÁRIO: DIRETRIZES PARA A
+INDÚSTRIA DO VESTUÁRIO E O ENSINO‐APRENDIZADO. Ed. Projética.
+PAPACHRISTOU, Evridiki; BILALIS Nikolaos. CAN 3D VIRTUAL PROTOTYPE
+CONQUER THE APPAREL INDUSTRY? Journal of Fashion Technology &
+Textile Engineering, 2016.
+PIRES, Gisely Andressa. O CAD 3D APLICADO NA VALIDAÇÃO DE
+**************************************************
+ID: fit-models-roles-in-identifying-fit-issues
+uploaded to Otter.ai for transcribing.
+The transcripts from both phases were coded in Microsoft Excel and analyzed through
+first and second-cycle coding (Saldaña, 2016). In vivo coding was used for the first cycle
+coding which was later followed by descriptive coding because in vivo codes contained
+participants’ movements and needed to be translated into descriptive codes. The codes
+found in the first cycle of in vivo coding were cross-checked with the field notes. Physical
+movements of assessing fit issues were identified. On top of the physical motions, initial
+comments that fit models made in the fit session were reviewed. Codes from both data
+collections were integrated through pattern coding in the second cycle coding (Fig. 1).
+As a result of pattern coding, themes were organized into main categories and subcat-
+egories, building the hierarchical tree of themes for detailed data analysis. For example,
+the code ‘fabric’, which later became a theme after pattern coding, was derived from the
+fit model’s words such as “this is for summer”. The fit model was touching the fabric after
+recognizing one of the garments, which had the same construction/design as a garment
+from the previous season but was made with summery seersucker fabric. Codes such as
+‘temporary’, which later became a theme after pattern coding, derived from fit models’
+quotes such as “feeling a little full today”. The findings were summarized and shared with
+the fit session attendees for their further comments and to achieve the trustworthiness
+Yang and Baytar ﻿Fashion and Textiles           (2024) 11:32
+Results and Discussion
+In phase 1, two male designers, one female designer, one female technical designer, and
+two fit models (one man and one woman) participated in the fit session that was con-
+ducted at the business wear company. Both models fitted a range of woven garments
+that were cut and sewn. Additionally, they fitted shirts, jackets, short pants, and long
+pants from womenswear and menswear accordingly.
+In addition, five fit models, four women, and one man were recruited for individual
+interviews in phase 2 (Table 2). Four of the models were size medium whereas one of
+them was a plus-size model. Moreover, four of the fit models had more than 14 years of
+professional experience while one of them (i.e., the plus-size fit model) was in the indus-
+try for less than three years. The clothing brands that they were working for spanned
+from athletic sports apparel to lingerie, and from luxury dresses to formal business wear
+(Table 2). None of the seven fit models had fashion-related education before they started
+working as fit models. Only one of them received a brief informal overview of the job
+professions from formal fit models. Most of the technical terms that they understood
+and used during their work were gained from their work experiences. Four fit models
+out of seven were full-time fit models, who did not have other occupations. The full-time
+fit models had clients of 25 apparel brands on average that they fit most womenswear or
+menswear ranging from business attire to casual attire. They also participated in fitting
+personal protective equipment (PPE) and scrubs during the COVID-19 crisis. The other
+three fit models were part-time fit models who had additional occupations with rather
+flexible schedules such as actors/actresses or estheticians.
+Feedback types provided by fit models (RQ1)
+Pattern coding revealed two main categories, which were labeled based on the feed-
+back types of the fit models. The first category was ‘Fit comments’ (Category 1), which
+had two subcategories, i.e., ‘Tactile’ and ‘Comfort’, under which themes such as ‘Fabric’,
+‘Stitch’, ‘Trim’, ‘Placement’, and ‘Movement’ were identified (Fig. 2a).
+In subcategory 1, tactile refers to fit models’ comments related to tactile experience,
+for example, “tension is too tight on the stitches and rolling in” (Olivia). They com-
+mented on how each fabric, trim, or stitch felt on their bodies. For example, “fabric too
+itchy” (Luna) and “tension is too tight on the stitches and rolling in” (Olivia) were some
+Fig. 1  The first and second cycles of coding to process the observation and individual interviews
+Yang and Baytar ﻿Fashion and Textiles           (2024) 11:32
+of the comments that the fit models elaborated on during the interviews. How accurately
+the fit models can sense the garment fit could be related to their knowledge, skill levels,
+and years of expertise in the field. For example, Ava shared her experience as being a
+‘very precise tool’ of fit testing as follows:
+I know this is kind of a bragging statement. But I remember working with one of my
+last clients and you know, tried the garment on and I said you know, I think this is
+like an eighth of an inch off. Because did you check the specs on it? And they look
+at the paper and they go ‘oh my god’. So, I was really proud that I just had this very
+In subcategory 2, comfort comments refer to the wear comfort whether the garment
+stayed in the right place when worn or whether it allowed the wearer to move freely. The
+fit models also exemplified some cases during which they did “a hug test” (Emma) to
+test the mobility of a jacket and armhole area. Additional placement comments included
+in this category explained whether zippers, pockets, buttons, and additional functional
+elements were in convenient spots where wearers could easily utilize them. One of the
+examples was “pockets work great, location and size” (Liam) while the fit model sim-
+ulated putting his cell phone into the pocket to explain the placement and movement
+Table 2  Phase 2 (fit model interviews) participants
+* Fit models, who participated in phase 1 data collection
+the fit models fitted
+jeans, activewear (all
+Plus size casual wear,
+casual (e.g., jackets,
+shirts, shorts, slacks,
+casual (e.g., jackets,
+shirts, shorts, slacks,
+Yang and Baytar ﻿Fashion and Textiles           (2024) 11:32
+adequacy at the same time. Although some tactile comments, such as “the fabric is soft
+enough that it is not irritating my skin”, may not be easily replicated in 3D simulations,
+feedback related to “placement” can be integrated into 3D simulations to improve the
+success of the garment design and fitting. Avatars can move 360 degrees in every joint,
+but humans have some limitations. Fit models’ comments on the placement of elements
+such as pockets or zippers that are difficult to reach can be collected. The accumulated
+data would help determine the right angle, depth, or length that wearers could reach and
+use. Such data would increase the efficacy of 3D garment fits and serve as a guide for
+designers to add practical features to clothing.
+The second category was ’Design comments’ (Category 2). Fit models elaborated on
+how their feedback was significant as they were the first ‘Customers’ trying on new gar-
+ments and how they gained aesthetic insights and built a ‘Personal database’ while work-
+ing in the fashion industry (Fig. 2b).
+Olivia, Ava, and John, who were in the industry for over 14 years as full-time fit mod-
+els gave detailed examples of how they provided design comments. ‘Customer’s point of
+view (POV)’ and ‘how to wear’ were some of the descriptive codes, which were included
+in the theme ‘Customer’ after pattern coding. When fit models share their ideas refer-
+ring to the ‘length of garments’, it was based on their ‘Personal database’ (Fig. 2b). Given
+that the full-time fit models had clients of 25 apparel brands on average, they have been
+seeing and trying greater numbers of clothing than average customers, junior technical
+designers, and/or designers. Unlike designers or technical designers, who work in-house
+or work for only a few brands at a time, fit models work for multiple brands at the same
+time serving as “the first customer of the garment” (Olivia). John explained the reason
+why a fit session team asks for design comments as follows:
+Fig. 2  The hierarchical trees of themes for a Fit comments/ feedback from fit sessions and fit model
+interviews, b Design comments related to fit models’ points of view., c The clues that fit models use when
+identifying fit issues, and d Fit models’ fit issue problem-solving based on fit session settings
+Yang and Baytar ﻿Fashion and Textiles           (2024) 11:32
+It is not my job to give design feedback … But inevitably, people start asking me,
+and designers start asking me for validation about their design ideas and things
+like that … one of the strange things about being a fit model is that, like, you got
+up every day, and went to the mall, and walked through every store in the mall
+and tried on everything in there. And you just did that every day all day. That’s
+basically what I do. I fit for 30-40 brands. But every 30-40 brands they are bring-
+ing in 10-15 different reference styles. And so, I literally see everything in the mar-
+ket, plus see what everybody’s planning to do a year or two from now. So, there is
+some design knowledge there, I would say, but you don’t want to cross lines with
+intellectual property … But like, over time, I have come to realize how aware I am
+of design, even though it is not part of the job.
+Olivia’s ‘design comments’ (Fig. 2b) were to give feedback as a customer that some
+garments can be made easier to wear as indicated below:
+I am like a regular customer who just goes in and like ‘How does this work?’ So, if
+I’m back in the fitting room for 10 minutes, and like ‘I don’t know how to put this
+on!’ Those swimsuits, Oh my gosh, there’s so many straps. I don’t know what goes
+where. And so that’s important for me to come out and be like yes, if I can’t figure
+this out and you guys are taking 10 minutes, then how is the regular person going
+Fit models’ comments revealed that their knowledge can overlap with that of
+designers. While discussing design aesthetics, they use their work experience of wear-
+ing numerous garments. The major difference between dressing bodies in 3D simu-
+lations and physical settings is the formation of garments. In a 3D CAD program,
+pattern pieces are placed on the corresponding body parts of the avatars and then
+sewn digitally (Magnenat-Thalmann, 2010). For example, sleeve patterns are placed
+on the arms and the front bodice pattern piece is placed on the chest of the avatar.
+However, physical garment patterns are sewn first and then garments are worn by
+pulling them down from the head or pulling them up from the feet. The present study
+findings highlighted the importance of the dressing process. Potentially, future stud-
+ies can document the variety of motions and provide technical designers with specific
+information to predict fit issues in advance related to the effect of the dressing pro-
+In conclusion, feedback types provided by fit models were found to be related to gar-
+ment fit and design. Fit comments pointed out where and how they feel discomfort
+(Fig. 2a). Tactile feedback regarding fabrics, stitches, or trims was available only when
+garments were worn on the body. During fit sessions, fit models analyze the garments
+themselves by moving their bodies and identifying whether each element of the garment
+serves its purpose. For example, the location of openings or pockets should be conveni-
+ent and intuitive as well as aesthetically pleasing for wearers. Fit comments delivered by
+fit models verified if garments were useful, protective, and fit well. Design comments
+were based on the fit models’ database or knowledge that was accumulated over years of
+experience (Fig. 2b). During the interviews, experienced fit models, who have seen and
+worn more clothes than junior designers, provided detailed design comments explaining
+how they naturally became aware of designs and how they should fit because of working
+Yang and Baytar ﻿Fashion and Textiles           (2024) 11:32
+for many brands on the market. Additionally, the findings indicated that as they give
+design comments, they also look at the garment fit from customers’ perspectives.
+Processes to identify and solve fit issues (RQ2)
+Pattern coding revealed two categories, ‘Fit issue identification’ (Category 3) and ‘Fit
+issue solving’ (Category 4). ‘Fit issue identification’ had three subcategories, ‘Body specs’,
+‘Garment samples’, and ‘Posture’, and explained the mechanism through which fit models
+can pinpoint fit issues. The themes that were identified for ‘Body Specs’ included ‘Per-
+manent’ and ‘Temporary’, the themes under’Garment samples’ were ‘Pattern change’
+and ‘Fabric change’, and the themes under ‘Posture’ were ‘Upper body’ and ‘Lower body’
+John gave fit comments based on his body specifications, which were summed as sub-
+category 1 ‘Body specs’ (Fig. 2c), because he remembered all his body measurements,
+which hardly changed, and thus stayed ‘permanent’ (Fig.  2c), over repetitive fit ses-
+sions. However, two of the female participants indicated menstruating as a ‘temporary’
+(Fig. 2c) factor that affected body measurements with a comment such as, “As a woman,
+feeling a little full today” (Olivia). ‘Body specs’ (Fig. 2c) showed how precisely the fit
+models understood their bodies and used their knowledge as a baseline to evaluate the
+fit of garments. The theme, ‘Permanent’, emphasized how the fit models made comments
+based on their original physical features. John mentioned that he usually used his arms
+as a ruler as follows:
+The arm length is a huge one. … And I know that 33 and a half is right there (point-
+ing at the part on his arm near his wrist). And I know where all those sleeve lengths
+hit. And I know where the averages are.
+Another way the fit models identified fit issues was by comparing the new samples
+with the samples they tested before and recalling their experiences. In subcategory 2
+(Fig. 2c), i.e., ‘Garment Samples’, themes ‘pattern change’ and ‘fabric change’ refer to fit
+models’ comments based on their repetitive fit assessments in identical brands. After
+several rounds of fit sessions, garment fit changes due to pattern alterations. Fit models
+remembered how each garment fitted in the previous session and compared the new
+sample with the previous sample. For example, fit session team members asked fit mod-
+els, “Do you remember how the last one felt like?” (Kai) and had them compare new
+samples with the previous samples. Typically, apparel brands sell a few selected gar-
+ments throughout multiple seasons if they are sold well. Based on the season that they
+are released; designers only change the fabrics of the garments. Fabric properties affect
+the fit of garments although they are constructed from the same patterns. If fit models
+work with the brands for several seasons, they could remember the tactile experience of
+the same garment made from different fabrics.
+Under subcategory 3 (Fig. 2c), ‘Posture’, codes such as ‘stand’, ‘sit’, ‘squat’, ‘lunge’, and
+‘arms up’, which represented fit models’ movements, were grouped based on the body
+parts the fit models were moving. As fit models had their expertise in fitting various gar-
+ments such as activewear, evening gowns, and lingerie, how they moved during fit ses-
+sions was diverse. For tops with sleeves, such as jackets and shirts, all fit models replied
+that they raised their arms to test the fit comfort (Fig. 3a). Moreover, fit testing with arm
+Yang and Baytar ﻿Fashion and Textiles           (2024) 11:32
+movements was found to be essential in women’s bras or swimwear fittings, for garments
+without sleeves (Fig. 3a). Codes, ‘sit’, ‘squat’, and ‘lunge’, under the theme ‘Lower body’
+were related to fit testing of bottoms. Two common postures identified were sitting and
+squatting (Fig. 3b). Olivia and Ava stated that sitting was necessary to check if dresses
+were short in length and understand where the hem would be when sitting. On the other
+hand, ‘squat’ and ‘lunge’ were found when assessing the fit of activewear which were
+designed to promote athletic performance. The movements were intended to examine
+whether the garment served its purpose. Fit models made several initial movements to
+evaluate the fit of bottoms but the purposes behind each posture varied. Current virtual
+avatars in 3D simulations are not soft avatars that replicate the fat distribution or mimic
+the elastic changes of human skin upon various postures (Balach et al., 2021; McDonald
+et al., 2023). The present study underscored some of the key movements that fit mod-
+els hold during fit sessions to identify fit issues. Although 3D simulations enable virtual
+avatars to move every joint in 360 degrees, identifying how body parts and surface skin
+change in the key movements would be a starting point for improving 3D simulations to
+provide reliable fit results.
+For the ‘Fit issue solving’ category (Category 4), the identified fit issues varied depend-
+ing on the fit session settings, i.e., in-person or remote, which became popular during the
+COVID-19 pandemic. How fit models provided solutions differed between the settings
+(Fig. 2d). In in-person settings, some experienced fit models gave comfort comments
+which were a combination of ‘Discomfort areas’ (Fig. 2d) that they were experiencing
+with the ‘Ease amount’, which would be needed to fix the discomfort. For example, “the
+Fig. 3  The initial postures that fit models demonstrated during the observation and Zoom interviews were
+visualized in Browzwear VStitcher, as no pictures were taken during data collection. a Avatars with arms up to
+replicate fit models’ movements as demonstrated, b Sitting (left) and squatting (right) postures to assess the
+Yang and Baytar ﻿Fashion and Textiles           (2024) 11:32
+front armhole feels like it’s diving into my arm, and I feel like I need about half an inch
+more front saddle” (Luna). She pointed out the front armhole as a ‘discomfort area’
+(Fig. 2d) and added comments that the front armhole had to be lowered half an inch.
+Fit models who performed fitting sessions remotely included Olivia, John, and Luna.
+They were full-time fit models during the COVID-19 pandemic. They emphasized the
+importance of ‘Physical studio settings’ (Fig.  2d) they had for remote fittings such as
+“the correct color temperature of lights, it’s 5600 overhead bar lights, I have front-facing
+LED light panels… I had a $7,000 camera, and my iPad as a mirror” (John) and “we used
+Zoom. I had like two or three spotlights set up. And I had two different cameras, that
+you had a clip, I had a close-up camera that I could use to show detail. And then I had a
+camera that I would set for the entire landscape” (Luna). Besides the lights and cameras,
+fit models also had full-length mirrors, clothing racks, steam irons, scissors, pins, seam
+rippers, tape measures, and sewing machines right next to them in the studio where they
+The theme, ‘Technical designer’ (Fig. 2d) referred to the fit models’ practice of fitting
+and pattern alterations based on their technical knowledge when a technical designer is
+not in the same environment. On top of giving fit feedback, they ironed, pinned, cut, and
+marked the garments as delivering fit solutions. John explained the process as follows:
+I am a half-assistant tech designer at this point… I will be like, you know, making
+adjustments and pulling things… And maybe not all fit models are capable of being
+like, Oh, this is where you pin, you know, or I need to cut it. Like, I will cut things
+and let them drop and do things like that.
+While assessing garment fit, fit models suggested solutions to fit issues as well which
+were considered technical comments. Luna described the process as follows:
+I took on the role of the tech designer, I basically became a technical designer while I
+was doing that. So, you have to not only take notes and communicate with your fac-
+tories, or your pattern makers, but you also have to pin and mark on the garment so
+that they know exactly where what part of the garment you’re talking about. So, it is
+about creating that physical mark on the garment that you have to put on. In order
+to show exactly what sleeves you are talking about in the garment. So, I was doing
+it. Yeah, it was very much more technical design … I think I have been doing it long
+enough. I kind of did like three people’s jobs in one and I was ready to take on the job.
+The current research underlined the plausibility of quantifying and expressing the
+pressure applied to different body areas using fit models’ comments. Moreover, the
+necessary ease amount identified by fit models in fit assessments can be systematically
+recorded and used as a foundation in subsequent fit sessions to 3D simulations. If future
+studies gather data on pattern adjustments related to a specific amount of body pressure,
+the associated pressure maps could serve as a more precise tool for analyzing fit.
+Fit models reported that they identified fit issues by using their bodies as precise tools
+to evaluate garment measurements (Fig. 2c). They remembered the garment fit of each
+fit session to refer to the fit of new samples. Moreover, they developed specific postures
+to examine garments such as skirt lengths. Fit models understood that the fit of gar-
+ments that share the same design would be different if they were made with different
+Yang and Baytar ﻿Fashion and Textiles           (2024) 11:32
+fabrics. They were able to recall fit information from previous seasons and comment on
+fit differences driven by fabric differences. When they found fit issues, they provided
+solutions for them by stating where they occurred and how to fix them (Fig. 2d). Dur-
+ing in-person fit sessions, the conversations revolved around discomfort areas and sug-
+gested ease amounts. When they operated remote fit sessions, for example during the
+pandemic, they made sure that fitting room settings were well-prepared for Zoom calls
+as well as conducting garment alterations while taking the technical designer role and
+In short, the study findings indicated that there were four primary roles fit models held
+in fit sessions. First, they were live models who could give tactile and comfort comments
+about sample garments. Second, they had technical knowledge related to pattern altera-
+tion when discussing where and how much additional ease to add. Remote fit sessions
+during COVID-19 were viable due to the technical knowledge that fit models already
+had. Considering technical suggestions were regarded as significant or accepted as final
+pattern alterations, fit models had technical design knowledge and performed with the
+knowledge during fit assessments. Third, their knowledge, which was collected over
+years of experience, enabled them to take technical designer and designer roles. Fourth,
+they were the first customers of mass-produced garments and were able to provide cus-
+tomers’ points of view. They commented not only on their experience of wearing the
+garments but also on their experience of putting them on and taking them off.
+To better connect the feedback collected from the fit models with quantitative indica-
+tors, the present study guided what should be documented in future studies to improve
+3D simulations and eventually better utilize them in fit assessments. The ranges of
+motion, key postures, and fit alteration comments based on the amount of pressure on
+fit models’ bodies can direct how avatar rigging and 3D simulations can be improved to
+support fit sessions. Even though 3D avatars are not human beings, a detailed database
+of fit models’ experiences can be developed to acquire some fit experience predictions.
+The present study had limitations in that the number of fit models and technical design
+teams recruited was small. Additionally, the limited number of fit models that were
+recruited for the study may not provide extensive details in certain garment categories
+such as snow clothes; but the years of experience and number of brands each fit model
+was participating in provided sufficient details related to fit sessions in most categories of
+garments. While the study findings cannot be generalized, our findings identified a room
+to improve technologies to support fit sessions when using virtual fitting in 3D CAD.
+For instance, the poor fit that appears when fit models move is one of the most essential
+comments in fit sessions. In the current study, it was also found that fit models’ com-
+ments of where and how to fix the area when garments were ‘digging in’ instead of ‘feel-
+ing snug’ were valid. The amount of pressure that the body parts sense can be translated
+into the amount of extra ease that fit models and technical design teams would agree on.
+The pressure map tool in 3D simulations currently does not represent the actual pres-
+sure the wearer is experiencing (Brubacher et al., 2023; Zangue et al., 2020). Therefore, it
+is still not ready to be used as a direct communication tool that indicates the level of dis-
+comfort the wearer feels. In 3D CAD programs tools such as stress, pressure, and strain
+maps use color-coding to show the tightness of the garment. However, it is challenging
+to interpret the colored maps and guess how tight the actual garment would be (Zangue
+Yang and Baytar ﻿Fashion and Textiles           (2024) 11:32
+et al., 2020). The present study suggested that the amount of pressure on each body part
+could be captured, thus supporting tools such as pressure maps to serve as a fit analyzing
+tool with higher accuracy. Additionally, the extra ease amount that fit models identified
+during fit assessment can be tracked and accumulated as a baseline in fit test sessions to
+improve digital avatar offerings.
+Future studies should also hold in-depth interviews with fit models with fit specialties
+in various types of clothing and identify movements or postures developed to assess cer-
+tain garments. Muscle, joints, and fat distribution changes from the movements and cor-
+responding garment placements could explain more of fit. Avatars should be improved
+based on how the body changes when squatting, sitting, and lifting arms to improve fit
+assessments when using 3D simulations. As shown in Fig. 3, four postures were iden-
+tified throughout the present study, and there might be other postures to be found in
+future studies if the studies focus on fitting specific types of garments that were not
+included in the current study.
+The fashion industry aims to digitalize the entire process of design and production of
+garments to enhance its sustainability efforts as the digital workflow can reduce the
+number of prototypes. Currently, new styles are designed and draped on avatars in 3D
+CAD programs for fit testing. Even though parametric, body scan, and soft avatars can
+be useful in understanding garment fit in software programs to a certain degree, there is
+still room to improve 3D software offerings for technical designers. Investigating how fit
+models perform in physical fit sessions is one step toward improving fit assessments in
+3D simulations. In repetitive physical fit sessions, fit models’ comments help finalize gar-
+ments to be manufactured for the market. Despite their importance, the role of fit mod-
+els in this process has not been thoroughly studied due to the secrecy of fit sessions and
+the confidential nature of discussions about unreleased products. In the present study,
+we conducted an onsite observation with fit models to capture how they perform in the
+fit session settings. In addition, individual interviews were followed with fit models to
+understand their interpretation of the garments and to collect their knowledge. The find-
+ings uncovered the types of feedback fit models provide, and the process through which
+fit models identify fit issues and propose solutions. They brought their knowledge and
+tactile reviews to discuss with the team as live fit models, which were irreplaceable in fit
+sessions, but also had ample knowledge that intersects with that of technical designers
+and designers. Practical applications of the findings would include incorporating accu-
+rate representation of 3D virtual avatars with the key movements that fit models use to
+test the fit of garments, identifying the range of natural motions of human bodies to vali-
+date the location of garment details such as pockets or zippers, integrating dressing pro-
+cess in simulations to avoid potential design flaws, and improving pressure maps with
+realistic, quantified ease amount suggestions. The findings of this study could benefit the
+apparel CAD technology development, fostering the provision of well-fitted garments.
+Repetitive fit sessions with excessive garment samples can be simplified due to 3D soft-
+ware after they are updated with the findings that indicate how fit models identify fit
+issues and participate in fit sessions.
+Yang and Baytar ﻿Fashion and Textiles           (2024) 11:32
+YY and FB designed the study. YY conducted data collection and analysis and wrote the manuscript. FB supervised the
+research design, guided manuscript writing, reviewing, and revising, and supervised the overall project. Both authors
+read and approved the final manuscript.
+This material is based upon work partially supported by the National Science Foundation under Grant No. 2048022. Any
+opinions, findings, and conclusions, or recommendations expressed in this material are those of the authors and do not
+necessarily reflect the views of the National Science Foundation. This research was supported in part by a Cornell Center
+for Social Sciences Grant and the Department of Human Centered Design Graduate Student Research Awards Funds.
+Availability of data and materials
+All data is available via the Fashion and Body Tech Lab and archived electronically on Cornell Box.
+This study was approved by the Cornell Institutional Review Board for Human Participants (Approval No. 210801049).
+None of the authors have any competing interests.
+**************************************************
+ID: como-citar-este-artigo
+4. Quantidade de vezes que a parte aparece na peça (1X ou 1 par);
+5. Sentido do fio do urdimento.
+Destaca-se que todas estas etapas podem serem feitas pelo processo manual ou
+pelo sistema computadorizado, como evidencia-se a seguir.
+UEL | UNIVERSIDADE  ESTADUAL DE LONDRINA
+UEL | Projética, Londrina, v. 15, n. 3, novembro 2024
+Santos, S. C. S.; Silveira, I.; Rech, S. R.
+PROTOTIPAGEM VIRTUAL: Softwares 3D para Modelagem de Vestuário
+2.3 PROTOTIPAGEM E SIMULAÇÃO 3D
+O processo de prototipagem tradicional de uma peça de roupa pode ter várias
+alterações, precisando ser refeitos para nova avaliação e validação dos modelos,
+resultando na produção de várias amostras com prazos mais longos. No
+contexto contemporâneo, a junção entre software de simulação 3D e software de
+modelagem 2D permite ajustes no produto virtualmente, de forma precisa, sem
+a utilização de materiais físicos durante o processo criativo (Arribas; Alfaro, 2018)
+e (Amorim; Boldt, 2020).
+Terzopoulos e Fleischer, em 1987, desenvolveram as primeiras simulações sobre
+deformação de materiais flexíveis em um ambiente virtual. A experiência foi feita
+a partir de um tecido retangular preso a um mastro. Perceberam nitidamente
+a diferença entre outras matérias não deformáveis como plástico e ferro. Já a
+primeira experiência feita para uma peça do vestuário aconteceu em 1991, com
+uma referência ao vestido branco da atriz Marilyn Monroe, usado no filme ‘O
+pecado mora ao lado’. Esta animação contava com recursos limitados, por isso,
+a saia era a única parte da simulação que se movia (Pires et al., 2016).
+A modelagem computadorizada é disponibilizada em vários softwares, mais
+especificamente com o CAD/CAM (desenho assistido por computador/manufatura
+assistida por computador), aplicando os mesmos princípios de construção de
+diagramas com base nas tabelas de medidas (Rosa, 2009). Sabrá (2009) explica
+que estes softwares são ferramentas que trabalham por meio de coordenadas
+cartesianas x, y e z com precisão nos traçados, são tidos como vetores que
+aceleram do trabalho do modelista. Podem serem utilizados moldes base, já salvos
+anteriormente ou modelos prontos arquivados no sistema. Muitas empresas que
+usam softwares 2D já empregam estas estratégias para agilizar a construção da
+modelagem. Porém, para fazer a simulação de um protótipo virtual com o uso de
+software 3D, é necessário que além da modelagem, informações sobre os tecidos
+já tenham sido inseridas no sistema. “Os softwares 3D, em sua maioria, possuem
+UEL | UNIVERSIDADE  ESTADUAL DE LONDRINA
+UEL | Projética, Londrina, v. 15, n. 3, novembro 2024
+Santos, S. C. S.; Silveira, I.; Rech, S. R.
+PROTOTIPAGEM VIRTUAL: Softwares 3D para Modelagem de Vestuário
+bibliotecas virtuais de amostras de tecidos, estes simulam a estética e os aspectos
+relacionados aos aspectos físicos dos produtos têxteis” (Amorim; Boldt, 2020, p.
+9). Portanto, o princípio do desenvolvimento da roupa virtual parte da construção
+da modelagem plana, que pode ser realizada manualmente, sendo depois
+digitalizada por meio de mesa ou quadro digitalizador ou pode ser construída
+diretamente no sistema 2D (Pires, 2015).
+Spahiu et al. (2021) relatam as vantagens da prototipagem virtual em suas
+experiências com a simulação de protótipos a partir de três tipos diferentes
+de vestuário: dois vestidos e um macacão. Iniciaram o processo com o
+escaneamento 3D do corpo dos participantes para gerar dados antropométricos
+digitais, que foram usados para personalizar os avatares, já disponíveis na
+biblioteca do sistema computadorizado. Os moldes dos três modelos foram
+construídos no software de modelagem de vestuário Lectra Modaris, exportados
+e importados para o software CLO 3D. Os autores explicam que o software
+3D oferece a possibilidade de simular, avaliar e modificar dentro do mesmo
+ambiente, reduzindo o tempo de espera para aprovação do modelo. É realizada
+a apresentação virtual do protótipo de vestuário para a análise e aprovação.
+As alterações que se fizerem necessárias são feitas no protótipo digital até
+finalmente o modelo ser aprovado. A interatividade com o protótipo virtual é
+feita tempo real, sendo ajustada qualquer alteração de forma instantâneas e
+testados outros detalhes de caimento, e os relacionados a cores ou diferentes
+padronagens têxteis, que possam melhorar a qualidade do design e estética
+do modelo de vestuário. Para finalizar os moldes 2D são plotados e cortados
+em tecidos para que os protótipos físicos sejam costurados. A comparação dos
+modelos virtuais e reais podem ser observadas na Figura 1.
+UEL | UNIVERSIDADE  ESTADUAL DE LONDRINA
+UEL | Projética, Londrina, v. 15, n. 3, novembro 2024
+Santos, S. C. S.; Silveira, I.; Rech, S. R.
+PROTOTIPAGEM VIRTUAL: Softwares 3D para Modelagem de Vestuário
+Figura 1 – Comparação entre modelo virtual e modelo real
+Fonte: adaptado de Spahiu et al. (2021).
+UEL | UNIVERSIDADE  ESTADUAL DE LONDRINA
+UEL | Projética, Londrina, v. 15, n. 3, novembro 2024
+Santos, S. C. S.; Silveira, I.; Rech, S. R.
+PROTOTIPAGEM VIRTUAL: Softwares 3D para Modelagem de Vestuário
+Outro experimento de prototipagem virtual feito por Pires (2015), comparou cinco
+modelos diferentes: calça drapeada, vestido trapézio, blusa transpassada e saia
+godê. Estes modelos foram selecionados pela variação das silhuetas e caimentos
+dos mesmos, obtendo uma diversidade de drapeados e formas. Pires também
+usou oito tipos diferente de tecidos - viscolycra; cotton; brim; chamois; toque
+de seda; lurex; suedine - no quesito gramatura, composição, entrelaçamento e
+drapeabilidade, para que cada modelo fosse feito com dois tecidos diferentes. “O
+alcance de similaridade na peça confeccionada com o projeto de prototipagem 3D,
+[...] está ligado diretamente com o conhecimento dos materiais a serem utilizados
+no projeto” (Pires, 2015, p. 42).
+Os softwares utilizados para o experimento, segundo Pires (2015), foram: Audaces Digiflash
+4 para digitalização dos moldes, Audaces Moldes versão 13 para o desenvolvimento e
+organização das modelagens, Audaces 3D para simulação dos protótipos virtuais, Adobe
+Photoshop CC para tratamento de cor das imagens, Corel Draw X7 para validação da
+análise entre os protótipos virtuais e físicos. A modelagem foi feita de forma manual e
+em seguida digitalizada, depois configurada no software 2D, já pronta, foi plotada para a
+confecção do prototipo do modelo na forma física. A mesma modelagem foi exportada
+para o software 3D para simulação da prototipagem virtual.
+Após a construção dos protótipos físicos e virtuais foi aplicado um questionário com
+21 alunos do 4º período do curso de Design de moda, da Faculdade Tecnológica
+Federal do Paraná. Uma etapa do questionário era identificar entre os protótipos
+qual era o virtual. A imagem dos protótipos foi manipulada para retirar a presença
+do corpo e a peça de roupa foi posicionada em um corpo chapado, para todas as
+amostras. Pires (2015) observou que a maioria dos alunos conseguiu identificar o
+modelo virtual, porém, houve dificuldade em reconhecer o protótipo virtual nos
+tecidos com maior gramatura. A outra etapa do questionário era para comparar
+caimento, forma e volume. A autora constatou, na maioria das respostas obtidas
+que eles são classificados como idênticos ou muito próximos dos reais. Pode-se
+observar na Figura 2, um dos modelos usados no experimento de Pires (2015)
+UEL | UNIVERSIDADE  ESTADUAL DE LONDRINA
+UEL | Projética, Londrina, v. 15, n. 3, novembro 2024
+Santos, S. C. S.; Silveira, I.; Rech, S. R.
+PROTOTIPAGEM VIRTUAL: Softwares 3D para Modelagem de Vestuário
+em que o protótipo real está à esquerda vestindo um manequim de moulage e o
+protótipo virtual está à direita. O mesmo modelo de blusa foi testado em dois tecidos
+diferentes e simulados tanto no protótipo real quanto no virtual. O lurex, que está na
+parte superior e no tecido suedine, que está na parte inferior da Figura 2.
+Figura 2 - Comparação entre modelo real e modelo virtual
+Destaca-se que a prototipagem virtual tem um papel importante na indústria
+têxtil e de vestuário, assim como em outras áreas, onde já é usada a mais tempo,
+como a automobilístico, pois contribui para conservação de recursos e do meio
+ambiente. Porém, não descarta a prototipagem real para validação do virtual, antes
+da aprovação final para produção (Papahristou; Bilalis, 2016). Mesmo porque, o
+protótipo é um teste e somente após a aprovação se torna uma peça piloto, que é
+a peça guia da produção em série.
+Alguns dos experimentos encontrados durante esta pesquisa, foram elaborados
+a partir do escaneamento corporal de corpos que não estão dentro de padrões
+UEL | UNIVERSIDADE  ESTADUAL DE LONDRINA
+UEL | Projética, Londrina, v. 15, n. 3, novembro 2024
+Santos, S. C. S.; Silveira, I.; Rech, S. R.
+PROTOTIPAGEM VIRTUAL: Softwares 3D para Modelagem de Vestuário
+normativos. Indivíduos com alteração genética, características físicas específicas,
+pessoas com deficiência, fazem parte de um segmento populacional considerável.
+Carulli et al. (2017), descrevem um estudo de caso feito na Itália, de uma estrutura
+para permitir que os clientes avaliem as roupas projetadas usando manequins
+virtuais realistas de seus corpos, em vez dos corpos padrões do software.
+Ainda segundo Pires (2015), a prototipagem 3D a partir de softwares específicos
+para indústria do vestuário, possibilita o desenvolvimento de peças virtuais com
+características visuais muito próximas dos protótipos reais. Além disso, Spahiu et
+al. (2021) consideram a possibilidade de avaliação do produto nos estágios iniciais
+da criação, o que contribui para a sustentabilidade na indústria da moda. Nesse
+contexto é importante conhecer os softwares disponíveis no mercado para este fim.
+2.4 SOFTWARES DE MODELAGEM E PROTOTIPAGEM 3D
+As inovações tecnológicas apresentadas pela Indústria 4.0, tem o objetivo de
+otimizar os processos industriais e promover a produção inteligente. Estando de
+acordo, com os princípios da Industria 4.0 descritos por Bittencourt et al. (2021): a
+capacidade de operação em tempo real e a virtualização características de softwares
+3D utilizados para a prototipagem virtual.
+Pires (2015) explica que existem dois tipos de softwares, os genéricos e os
+específicos. Os softwares CAD genéricos são usados pelas diversas vertentes
+projetuais (Engenharias, Arquitetura, Design, entre outros). Porém os softwares
+específicos são direcionados para uma determinada função, como por exemplo, os
+softwares de modelagem do vestuário 2D ou encaixe 2D aplicados na indústria de
+confecção. Outro exemplo, de software específico é a integração dos sistemas CAD
+2D, aos softwares 3D para simulação de protótipos, permitindo a visualização de
+como ficará a peça no modelo fisco, mas de forma virtual.
+UEL | UNIVERSIDADE  ESTADUAL DE LONDRINA
+UEL | Projética, Londrina, v. 15, n. 3, novembro 2024
+Santos, S. C. S.; Silveira, I.; Rech, S. R.
+PROTOTIPAGEM VIRTUAL: Softwares 3D para Modelagem de Vestuário
+A maioria dos softwares 3D específicos para a indústria do vestuário operam
+com interfaces similares, composta por janelas de propriedades, menu de
+ferramentas, visualização de manequim virtual e do molde bidimensional. A
+peças de roupas podem ser construídas de forma planificada, obedecendo as
+medidas da tabela ou pode ser desenhada diretamente sobre o corpo do avatar.
+O avatar já vem disponibilizado na biblioteca do programa, mas pode sofrer a
+alterações de medidas desejadas pelo usuário promovendo assim, a assertividade
+da prototipagem, já que é possível adaptar as medidas do avatar com a tabela
+de medidas da empresa, ou do cliente. A simulação do protótipo acontece por
+inserção de costuras nos moldes, para a união das partes que formam o modelo,
+sendo possível visualizar a movimentação das peças no avatar, enquanto são
+virtualmente costuradas. Neste momento é feita a análise e os ajustes do modelo
+de forma simultânea nas duas telas.
+Para introduzir os dados técnicos do tecido a maioria dos programas utiliza o
+sistema KES-F (Kawabata Evaluation System – Sistema de Avaliação Kawabata), que
+é um conjunto de instrumentos sofisticados para caracterizar as propriedades
+mecânicas de baixa tensão do tecido, que incluem propriedades de tração, flexão,
+compressão e superfície.
+Na Figura 3 é possível contemplar a interface do software V-stitcher da empresa
+UEL | UNIVERSIDADE  ESTADUAL DE LONDRINA
+UEL | Projética, Londrina, v. 15, n. 3, novembro 2024
+Santos, S. C. S.; Silveira, I.; Rech, S. R.
+PROTOTIPAGEM VIRTUAL: Softwares 3D para Modelagem de Vestuário
+Figura 3 - Interface do software V-stitcher
+Fonte: Browzwear (2024).
+Como resultado da pesquisa o Quadro 1 elenca-se os softwares de modelagem
+que integram as técnicas 2D e 3D para simulação de protótipo, por meio do qual
+todos geram moldes que podem ser impressos para confecção física de peças
+de vestuário. Algumas empresas já são mais conhecidas no mercado da moda,
+como a Browzwear, a Clo, a Lectra e Audaces. Outras estão crescendo com essa
+onda do mercado digital como a Optitex, a Tuka3d, a Tailornova 3d, a 3d-Vidya,
+a Style3d Studio e a Sampless.
+UEL | UNIVERSIDADE  ESTADUAL DE LONDRINA
+UEL | Projética, Londrina, v. 15, n. 3, novembro 2024
+Santos, S. C. S.; Silveira, I.; Rech, S. R.
+PROTOTIPAGEM VIRTUAL: Softwares 3D para Modelagem de Vestuário
+Quadro 1 – Softwares de modelagem 3D
+https://browzwear.com/
+https://www.clo3d.com/en/
+https://tukatech.com/tuka3d/
+https://tailornova.com/
+https://www.lectra.com/en/
+library/gerber-accumark-3d
+https://www.assyst.de/de/
+produkte/cad/index.html
+https://www.linctex.com/
+https://www.sampless.io/
+Fonte: Dados da pesquisa (2024).
+A implementação do software de modelagem 3D permite aos profissionais de
+desenvolvimento de produto de moda criar e visualizar as peças em um ambiente
+virtual de forma realista antes de prototipar qualquer peça física, reduzindo o
+UEL | UNIVERSIDADE  ESTADUAL DE LONDRINA
+UEL | Projética, Londrina, v. 15, n. 3, novembro 2024
+Santos, S. C. S.; Silveira, I.; Rech, S. R.
+PROTOTIPAGEM VIRTUAL: Softwares 3D para Modelagem de Vestuário
+tempo para esta peça chegar a produção.  Em acréscimo a esta pesquisa, alguns
+softwares de modelagem 2D de código aberto foram encontrados como mostrado
+Quadro 2 – Softwares 2D de código aberto
+https://smart-pattern.com.ua/en/
+https://www.wildginger.com/gallery/
+Fonte: Dados da pesquisa (2024).
+Os softwares de código aberto são ferramentas valiosas, por serem uma alternativa
+acessíveis e personalizáveis. Democratizam ao acesso a modelagem digital,
+estimulam a inovação e permitem que usuários e desenvolvedores contribuam
+com a melhoria das funcionalidades.
+3 RESULTADOS E DISCUSSÕES
+O problema de pesquisa proposto foi a busca por softwares específicos que
+integrem as duas técnicas de modelagem, 2D e 3D e gerem moldes para simulação
+de protótipos na indústria de confecção do vestuário. Na revisão de literatura
+foram encontrados os mais conhecidos como V-stitcher da Browzwear, CLO3D da
+CLO Virtual Fashion, Audaces 3D da Audaces, OPTITEX, Gerber AccuMark 3D agora
+da Lectra. Na pesquisa em sites de outras empresas do ramo foram encontrados
+UEL | UNIVERSIDADE  ESTADUAL DE LONDRINA
+UEL | Projética, Londrina, v. 15, n. 3, novembro 2024
+Santos, S. C. S.; Silveira, I.; Rech, S. R.
+PROTOTIPAGEM VIRTUAL: Softwares 3D para Modelagem de Vestuário
+os softwares TUKA3D da empresa Tukatech, Tailornova 3D, 3D-Vidya da empresa
+Assyst e Style3D Studio.
+Estas duas últimas; 3D-Vidya da empresa Assyst e Style3D Studio, assim como as
+empresas Sampless e Swatchbook foram citadas por fornecerem ativos digitais para
+os softwares 3D. As Empresas Seamly, Valentina e Wild Ginger não fazem parte da
+busca específica desta pesquisa, porém achou-se importante citar empresas que
+fornecem softwares de modelagem 2D de código aberto.
+Verificou-se a partir dos autores pesquisados que testes de prototipagem
+podem ser acelerado com soluções de simulação 3D. Não houve observações
+negativas quanto a simulação dos protótipos. Apenas alguns questionamentos.
+Pires, (2015), por exemplo, em seu experimento, descreveu o uso dos Softwares da empresa
+Audaces para as etapas de modelagem 2D e 3D. A autora esclarece que na técnica virtual
+não é possível prever possíveis dificuldades nos processos de costura e acabamento, pois,
+apresentam um volume sutilmente maior que os protótipos reais. Porém, essa diferença
+não compromete o entendimento da estrutura e caimento das peças.
+Spahiu et al. (2021) utilizou os softwares Modaris 2D da Lectra e Clo3D para seus
+protótipos. Aponta, em concordância com Arribas e Alfaro (2018), que para a
+indústria da moda, como em outros setores industriais, a prototipagem virtual traz
+muitas vantagens em relação à forma tradicional. Estas ferramentas inovadoras são
+capazes de criar uma apresentação realista da peça virtual garantindo uma melhor
+visualização do produto nas fases iniciais antes da sua produção física. Assim como
+Bittencourt et al. (2021) concorda que as inovações desenvolvidas para o setor têxtil
+e vestuário podem aumentar a produtividade, dando mais rapidez no processo até
+chegar ao cliente, reduzir custos e diminuir desperdícios.
+No entanto, questiona-se se o profissional de modelagem ou design de moda
+está preparado para esta nova tecnologia, pois mal passou-se do papel para o 2D.
+UEL | UNIVERSIDADE  ESTADUAL DE LONDRINA
+UEL | Projética, Londrina, v. 15, n. 3, novembro 2024
+Santos, S. C. S.; Silveira, I.; Rech, S. R.
+PROTOTIPAGEM VIRTUAL: Softwares 3D para Modelagem de Vestuário
+Porém acredita-se que a virtualização contribuirá para o processo de conservação
+de recursos, sendo compatível com a preservação o meio ambiente, por evitar o
+desperdício de matéria prima, energia elétrica, bem como a redução do tempo de
+criação e fabricação. Além disso, muitas perspectivas se abrirão para o mundo da
+moda e a produção têxtil, com o uso das tecnologias 3D. Constatou-se que esses
+softwares permitem ao projetista ver em tempo real as consequências das suas
+decisões. Sendo assim, o uso de ferramentas 3D abre novas oportunidades para a
+aplicação da prática, articulando novas maneiras de trabalhar.
+Destaca-se os impactos do uso de softwares 3D no processo de desenvolvimento
+Criação - O software 3D pode servir de suporte à criação de produtos
+de moda, auxiliando os designers neste processo com mais
+assertividade e economia de recursos. Permite aos profissionais de
+desenvolvimento de produto de moda criar, visualizar e manipular
+os detalhes do modelo, sem a utilização de materiais físicos durante
+b.	 A modelagem 3D - permite aos modelistas visualizarem virtualmente
+e experimentar facilmente uma variedade de tecidos e modelagens
+em um manequim virtual dinâmico em 3D antes que a roupa real
+Softwares específicos de 2D e 3D integram as duas técnicas de
+modelagem 2D e modelagem 3D e gerem moldes para simulação
+d.	 Prototipagem - a aplicação da virtualização na etapa de
+prototipagem, pode ser vista como uma forma de melhoria nos
+processos produtivos de desenvolvimento de produtos. Esta
+ferramenta permite que o processo de desenvolvimento dos
+protótipos seja realizado de forma virtual, integrando as etapas
+que antes dependiam de um processo físico em um ambiente
+UEL | UNIVERSIDADE  ESTADUAL DE LONDRINA
+UEL | Projética, Londrina, v. 15, n. 3, novembro 2024
+Santos, S. C. S.; Silveira, I.; Rech, S. R.
+PROTOTIPAGEM VIRTUAL: Softwares 3D para Modelagem de Vestuário
+virtual, com interações simultâneas entre os setores de criação e
+modelagem, com a validação sendo feita sem a necessidade de um
+protótipo físico, pois este ambiente virtual permite que qualquer
+alteração que seja realizada tanto na criação, quanto na modelagem
+e prontamente visualizadas na simulação 3D;
+Análise e avaliação do produto - nos estágios iniciais da criação,
+com a simulação de cores, tecidos, padronagens. Ocorre também,
+a inserção de costuras nos moldes, para a união das partes que
+formam o modelo, sendo possível visualizar a movimentação das
+peças no avatar, enquanto são virtualmente costuradas;
+Bibliotecas virtuais - Os softwares 3D, em sua maioria, possuem
+amostras de tecidos, estes simulam a estética e os aspectos
+relacionados aos aspectos físicos dos produtos têxteis;
+Redução de custos – Com a economia em matérias primas, tempo,
+transportes, gastos de maquinários etc. As possibilidades virtuais
+criativas de experimentação, não há gastos físicos para simular
+diversas possibilidades no 3D;
+h.	 Neste ambiente é realizado o processo de renderização que consiste
+em agregar aspectos visuais à simulação do protótipo como texturas,
+iluminação e diferentes poses do avatar, tendo como intuito agregar
+aspectos mais realistas a estas simulações, possibilitando que
+estas possam ser integradas em setores como o marketing para
+disponibilização e antecipação de vendas em plataformas digitais.
+Portanto, os impactos são positivos para as indústrias de vestuário, atingindo
+todos os setores produtos, contribuindo para a qualidade do produto e para a
+competitividade no mercado da moda.
+Neste contexto, surgem novos profissionais para os setores de desenvolvimento de
+produto com a implementação das tecnologias digitais, cuja atuação depende das
+tecnologias adotadas pelas empresas de vestuário:
+UEL | UNIVERSIDADE  ESTADUAL DE LONDRINA
+UEL | Projética, Londrina, v. 15, n. 3, novembro 2024
+Santos, S. C. S.; Silveira, I.; Rech, S. R.
+PROTOTIPAGEM VIRTUAL: Softwares 3D para Modelagem de Vestuário
+Designer de moda – profissional da criação, que se integra com todo
+o desenvolvimento de produtos, sendo o articulador e facilitador de
+fluxo de informações entre os diversos setores envolvidos;
+Designer de vestuário 3D - profissionais com conhecimentos e
+habilidade para trabalhar na criação, modelagem e prototipagem,
+realizando ambos os processos em um software, promovendo uma
+integração entre modelagem 2D e simulação virtual de protótipo;
+Modelista de vestuário 3D – o responsável por operar o sistema
+de simulação de prototipagem 3D, realizando a tarefa de modelar e
+Prototipista 3D - o responsável pela montagem do protótipo em
+ambiente virtural será diferente daquele que realiza a criação e a
+As empresas de vestuário que tem seu processo flexível, devem buscar por
+profissionais com capacidades que permeiem tanto as etapas de criação,
+modelagem e prototipagem, assim como a utilização de softwares de soluções
+autônomas, para que o desenvolvimento dos produtos possa ser realizado em um
+4 CONSIDERAÇÕES FINAIS
+Diante dos resultados obtidos nesta pesquisa, foram encontrados dez softwares 3D
+específicos para modelagem de vestuário, que geram moldes físicos para serem
+reproduzidos na indústria de confecção de vestuário. O mercado de tecnologias
+digitais 3D, já vem sendo apresentado desde os anos 1990 para jogos e cinema.
+Porém, na indústria do vestuário o uso destes softwares ainda é novidade. O
+UEL | UNIVERSIDADE  ESTADUAL DE LONDRINA
+UEL | Projética, Londrina, v. 15, n. 3, novembro 2024
+Santos, S. C. S.; Silveira, I.; Rech, S. R.
+PROTOTIPAGEM VIRTUAL: Softwares 3D para Modelagem de Vestuário
+período da pandemia do Covid19 impulsionou o uso desses softwares na indústria
+da moda por meio dos desfiles virtuais, mas sem a preocupação com a geração
+de um produto físico ou de moldes. Mas, como visto na pesquisa, vários softwares
+específicos de modelagem que integram as técnicas 2D e 3D para prototipagem
+do vestuário, e já existem disponíveis no mercado a alguns anos. Esse tipo de
+tecnologia favorece a diversificação da produção em massa, permitindo ao cliente a
+visualização da roupa antes de ser produzida, com a possiblidade de personalização,
+de acordo com gosto do cliente e possibilitando assim, o aumento de satisfação com
+o produto. Outra experiência inovadora para o cliente é a integração da realidade
+aumentada e virtual associada a modelagem 3D.
+Neste sentido, conclui-se que as habilidades adicionais são necessárias para ser
+competitivo no mercado. Um questionamento importante foi justamente sobre
+o perfil dos novos profissionais que trabalham com a tecnologia 3D, por isso a
+área acadêmica de formação do profissional de moda precisa se estruturar para
+fornecer este novo conhecimento.
+A indústria têxtil e da moda no geral, vestuário, calçados e acessórios está se
+estruturando aos poucos, pois o valor destas tecnologias ainda é alto, porém a
+flexibilidade oferecida por essas ferramentas digitais e a economia com materiais e
+tempo destinado ao processo de desenvolvimento de produto, estão transformando
+o modo como a moda é projetada, desenvolvida e apresentada ao mercado. Para
+trabalhos futuros, um acréscimo a esta pesquisa na forma de um estudo de caso
+em uma organização que utilize a tecnologia de modelagem 3D aplicada ao setor
+de modelagem e prototipagem, onde poderia ser verificado quantos ajustes
+foram feitos no protótipo virtual para chegar ao resultado esperado. Pois, nos
+experimentos citados nesta pesquisa, nenhum comentário sobre os ajustes foi
+feito pelos autores pesquisados. Outra suposição seria a aplicação desta tecnologia
+para Ateliers de roupas sob medida, testando a digitalização de corpos de clientes.
+Santos, S. C. S.; Silveira, I.; Rech, S. R.
+UEL | Projética, Londrina, v. 15, n. 3, novembro 2024
+PROTOTIPAGEM VIRTUAL:  Softwares 3D para Modelagem de Vestuário
+AMORIM, Wadson G.; BOLDT, Rachel S. Moda virtual: aceleração no processo
+de transformação digital devido à pandemia de covid-19. Blucher Design
+Proceedings, São Paulo, SP, v. 8, n. 5, p. 1088-1101, dez. 2020. DOI: http://
+dx.doi.org/10.5151/cid2020-82. Disponível em: https://www.proceedings.
+blucher.com.br/article-details/35907. Acesso em: 8 maio 2024.
+ARRIBAS, Veronica; ALFARO, José A. 3D technology in fashion: from concept to
+consumer. Journal of Fashion Marketing and Management, Madrid, v. 22, n. 2, p.
+240-251, Jan. 2018. Disponível em: https://www.emerald.com/insight/content/
+doi/10.1108/JFMM-10-2017-0114/full/html. Acesso em: 8 maio 2024.
+ASSYST 3D- VIDYA. Disponível em: https://www.assyst.de/de/produkte/cad/
+index.html Acesso em: 8 maio 2024.
+AUDACES. Disponível em: Audaces 3D. Acesso em: 8 maio 2024.
+BITTENCOURT, Leide L.; SILVEIRA, Icléia; ROSA, Lucas da; NOVELLI, Daniela.
+Utilização das ferramentas da indústria 4.0 para a prototipagem no setor de
+vestuário. DA Pesquisa, Florianópolis, SC, v. 16, p. 1-25, 27 jul. 2021. DOI: http://
+dx.doi.org/10.5965/18083129152021e0023. Disponível em: https://periodicos.
+udesc.br/index.php/dapesquisa/article/view/19997. Acesso em: 8 maio 2024.
+BROWZWEAR. Disponível em: https://browzwear.com/products/v-stitcher.
+Acesso em: 8 maio 2024.
+CARULLI, Marina; VITALI, Andrea; CARUSO, Giandomenico; BORDEGONI,
+Monica; RIZZI, Caterina; CUGINI, Umberto. ICT technology for innovating the
+garment design process in Fashion industry. In: INTERNATIONAL CONFERENCE
+ON RESEARCH INTO DESIGN, 2017. Conference paper […]. London: Springer
+Nature, 2017. v. 1, p. 525-535. DOI: http://dx.doi.org/10.1007/978-981-10-
+Santos, S. C. S.; Silveira, I.; Rech, S. R.
+UEL | Projética, Londrina, v. 15, n. 3, novembro 2024
+PROTOTIPAGEM VIRTUAL: Softwares 3D para Modelagem de Vestuário
+GERBER ACCUMARK 3D. Disponível em: https://www.lectra.com/en/library/
+gerber-accumark-3d Acesso em: 08 maio 2024.
+MONTEMEZZO, Maria Celeste de F. S. Diretrizes metodológicas para o projeto
+de produtos de moda no âmbito acadêmico. 2003. Dissertação (Mestrado
+em Desenho Industrial) - Faculdade de Arquitetura, Artes e Comunicação,
+Universidade Estadual Paulista, Bauru, SP, 2003. Disponível em: https://
+repositorio.unesp.br/handle/11449/97020. Acesso em: 8 maio 2024.
+10.	 OPTITEX. Disponível em: https://optitex.com. Acesso em: 8 maio 2024
+11.	 PAPAHRISTOU, Evridiki; BILALIS, Nikolaos. Can 3D virtual prototype conquer
+**************************************************
+ID: utilização-das-ferramentas-da-indústria-40-para-a-prototipagem-no-setor-de-ves-2
+coletas, cruzamentos de dados, pesquisas e análises para tomadas de decisões. As
+indústrias com base nos dados que considerarem relevantes podem processá-los
+com o intuito de transformá-los em informações, com a finalidade de utilizar estas
+informações na criação de conhecimentos, usados nas tomadas de decisões
+inteligentes para agregar valor aos produtos e aos processos industriais;
+Utilização das ferramentas da indústria 4.0 para a prototipagem no setor de vestuário
+Leide Laura Bittencourt, Icléia Silveira, Lucas da Rosa, Daniela Novelli
+DAPesquisa, Florianópolis, v. 16,  p. 01-25, jul. 2021.
+DOI: https://doi.org/10.5965/18083129152021e0023
+h) Nuvem – Banco de dados criado pelo usuário, capaz de ser acessado de qualquer
+lugar do mundo, por meio de uma infinidade de dispositivos conectados à internet;
+i) Segurança Cibernética – A interligação de dados e informações entre todos os
+departamentos da cadeia produtiva da indústria exige muita cautela e segurança,
+sendo esta uma das principais preocupações e desafios na manufatura da indústria
+4.0. Todas as tomadas de decisões devem levar em conta a segurança dos dados
+armazenados, o controle dos equipamentos e a eficácia dos sistemas de informações
+utilizados, garantindo o objetivo de uma automação independente, inteligente,
+eficiente e customizáveis; e
+j) Realidade Aumentada – Sistemas baseados nesta tecnologia executam uma
+variedade de serviços, como selecionar peças em um armazém e enviar instruções
+de reparação por meio de dispositivos móveis.
+A partir das tecnologias explanadas pelos autores citados, composto por princípios e
+benefícios, nota-se que é possível utilizar-se dessas ferramentas para promover novos avanços e
+rupturas para o setor de vestuário. No próximo tópico apresenta-se o contexto industrial de
+produção de vestuário.
+Pode-se evidenciar algumas ferramentas já existentes que podem promover tais avanços,
+com ênfase nas ferramentas para a prototipagem de produtos de vestuário. Inclusive, mostrando
+imagens e explicando-as ou integrando-as no texto escrito.
+3. A INDÚSTRIA DO VESTUÁRIO
+Entre os anos de 1900 e 1925 aconteceu uma grande transformação na indústria de
+confecção: a confecção feita à mão passou gradativamente para a confecção industrializada,
+precursora do modelo de empresa do tempo presente. Já no século XX, a engenharia industrial
+começou a influenciar os métodos e os processos da indústria de confecção. E assim, as fábricas
+começaram a adotar métodos científicos para solucionar problemas de planejamento e produção,
+cronogramas e controles (LIDÓRIO, 2008).
+Utilização das ferramentas da indústria 4.0 para a prototipagem no setor de vestuário
+Leide Laura Bittencourt, Icléia Silveira, Lucas da Rosa, Daniela Novelli
+DAPesquisa, Florianópolis, v. 16,  p. 01-25, jul. 2021.
+DOI: https://doi.org/10.5965/18083129152021e0023
+Na indústria do vestuário contemporânea, a tecnologia da confecção pode ser dividida pelas
+etapas de planejamento, desenvolvimento e produção. O Quadro 1 apresenta a classificação das
+etapas do processo de confecção de vestuário:
+Quadro 1 - Etapas processo de confecção de vestuário
+Pesquisa de comportamento do público-alvo
+Pesquisa de tendências de consumo
+Pesquisa sobre o tema da coleção
+Pesquisa das vendas de coleções anteriores
+Definição das características do produto e perfil
+Definição do cronograma
+Definição dos parâmetros e dimensão da
+Estratégias de produção e de comercialização
+Definição do tema da coleção
+Tema de coleções – Painéis; tendências
+Amostra de tecidos e aviamentos
+Geração de alternativas
+Desenho técnico/Ficha técnica
+Traçado Básico do corpo humano
+Interpretação do desenho técnico
+Graduação (após aprovação do protótipo)
+Confecção do protótipo
+Aprovação do protótipo
+PLANEJAMENTO E CONTROLE DA
+Programação das peças para o risco e corte
+Lotes das peças para costura
+Controle da qualidade
+Fonte: Adaptado de Montemezzo (2003), Treptow (2013) e Silveira; Puls (2017).
+Utilização das ferramentas da indústria 4.0 para a prototipagem no setor de vestuário
+Leide Laura Bittencourt, Icléia Silveira, Lucas da Rosa, Daniela Novelli
+DAPesquisa, Florianópolis, v. 16,  p. 01-25, jul. 2021.
+DOI: https://doi.org/10.5965/18083129152021e0023
+As etapas exibidas no Quadro 1, mostram um panorama geral da indústria de vestuário, em
+relação às etapas do processo de confecção de vestuário. Essas etapas podem ter alterações na
+sequência ou em nomenclaturas de acordo com a empresa, e o seu segmento. Ressalta-se que
+esses processos foram se moldando de acordo com a evolução da indústria, e contam com diversas
+ferramentas já existentes que auxiliam na conclusão de cada uma das etapas.
+A Indústria de vestuário, assim como os demais setores, também passou por
+transformações durante as revoluções industriais. Segundo Vasques; Pelegrini (2011, p. 2)
+“adventos tecnológicos, a industrialização e aumento do comércio, o mercado têxtil ganhou espaço
+considerável e, à medida que a produção e o consumo foram crescendo, a modernização da
+mecanização das operações foi acelerando”. A modernização no processo de confecção aconteceu
+em vários segmentos desde a produção do tecido até a confecção do produto.
+Como o objetivo da pesquisa é identificar a utilização das ferramentas da indústria 4.0 na
+prototipagem de produtos de vestuário, descreve-se esse processo.
+3.1 PROTOTIPAGEM DE PRODUTOS DE VESTUÁRIO
+De acordo com o Quadro 1, no âmbito do convencional, a prototipagem é iniciada pela
+confecção do protótipo que na grande maioria das vezes é feito com tecido similar, não é utilizado
+o tecido final para otimizar os custos nessa etapa, devido às alterações que podem ocorrer. Com o
+protótipo confeccionado acontece a verificação de caimento e vestibilidade e sempre que tiver
+alguma alteração, o molde deve ser atualizado e reinicia-se o processo de prototipagem até se
+alcançar o pretendido (SILVEIRA, 2011).
+Na indústria do vestuário, a prototipagem pode apontar diversas inconformidades. São
+realizados testes técnicos e ergonômicos para verificar a eficiência técnica, a qualidade e a
+interação com o usuário, estes são primordiais para antecipar situações de uso e aceitação no
+mercado, prevendo a incidência de eventuais correções (MONTEMEZZO, 2003). Esses testes são
+feitos geralmente em uma pessoa com as medidas padrões da tabela adotada pela empresa ou em
+manequins. O protótipo é avaliado e conforme os resultados é definido se a peça está aprovada ou
+se ainda são necessários ajustes (PIRES, 2015).
+Utilização das ferramentas da indústria 4.0 para a prototipagem no setor de vestuário
+Leide Laura Bittencourt, Icléia Silveira, Lucas da Rosa, Daniela Novelli
+DAPesquisa, Florianópolis, v. 16,  p. 01-25, jul. 2021.
+DOI: https://doi.org/10.5965/18083129152021e0023
+A peça piloto é confeccionada quando o protótipo é aprovado sem restrições, como
+também os moldes são encaminhados para setor de modelagem, onde serão graduados (ampliação
+e redução para os demais tamanhos). Finalmente, a peça piloto é encaminhada para o setor de
+confecção como modelo padrão para orientar a produção, por esse motivo deve contemplar todos
+os aspectos do produto final (SILVEIRA, 2011). Com o advento da I.4.0 alguns processos manuais
+usados na prototipagem são substituídos por ferramentas digitais, como descreve-se a seguir.
+3.2 FERRAMENTAS DA INDÚSTRIA 4.0 PARA A PROTOTIPAGEM DE PRODUTOS DE VESTUÁRIO
+Na indústria de vestuário, as etapas de criação e prototipagem, podem ser consideradas
+fundamentais para definir os padrões que devem ser seguidos na produção em escala. É recorrente
+as empresas usarem ferramentas da indústria 4.0 para o planejamento e criação de coleção,
+modelagem, graduação, risco e no corte do tecido, porém o protótipo ainda é desenvolvido em sua
+forma física em um processo manual, com a necessidade da matéria-prima e todo o maquinário
+usado para a produção em massa, incluindo o tempo gasto e mão de obra.
+Contudo é possível encontrar uma grande variedade de empresas que desenvolvem e
+oferecem sistemas de prototipagem 3D para a indústria do vestuário, como por exemplo: Accumark
+V-Sticher da Gerber, com a parceria da empresa Browzwear, especialista em 3D para indústria da
+Moda (PIRES, 2015). A Figura 1 mostra alguns exemplos. Runwawy da Optitex, Modaris fit 3D
+oferecido pela Lectra, software Vidya criado pela Assist Bullmer, o Audaces 3D e o Clo 3D,
+desenvolvido pela Clo Virtual Fashion, responsável também pelo desenvolvimento de outros
+softwares 3D para o setor de computação gráfica (PIRES, 2015).
+Figura 1– Interface dos softwares de prototipagem 3D
+Utilização das ferramentas da indústria 4.0 para a prototipagem no setor de vestuário
+Leide Laura Bittencourt, Icléia Silveira, Lucas da Rosa, Daniela Novelli
+DAPesquisa, Florianópolis, v. 16,  p. 01-25, jul. 2021.
+DOI: https://doi.org/10.5965/18083129152021e0023
+Fonte: Adaptado de Pires (2015).
+É possível observar na Figura 1, que as interfaces dos softwares são muito similares, elas são
+compostas por uma a janela onde fica o manequim virtual e outra janela onde aparece a
+modelagem bidimensional e as caixas de ferramentas.
+Como esclarece Pires (2015), esses softwares de prototipagem 3D, possuem manequins
+virtuais que simulam o corpo humano, e suas medidas podem ser configuradas de acordo com a
+necessidade do usuário. O manequim virtual pode ser do gênero masculino ou feminino, adulto ou
+infantil, cujas medidas das dimensões corpóreas podem ser de alteradas de acordo com o perfil de
+consumidor que a empresa deseja atingir.
+Utilização das ferramentas da indústria 4.0 para a prototipagem no setor de vestuário
+Leide Laura Bittencourt, Icléia Silveira, Lucas da Rosa, Daniela Novelli
+DAPesquisa, Florianópolis, v. 16,  p. 01-25, jul. 2021.
+DOI: https://doi.org/10.5965/18083129152021e0023
+A partir da preparação dos manequins virtuais, inicia-se o processo de desenvolvimento da
+modelagem e simulação das costuras de cada parte do molde desenvolvido.
+É fundamental para a prototipagem 3D a construção prévia de uma modelagem plana, que
+pode ser feita de forma informatizada, utilizando softwares das mesmas empresas citadas ou de
+forma manual para serem digitalizadas na sequência. É necessário também conhecimento de
+construção de peça (costura) para ativar os comandos corretos da prototipagem 3D. Os pontos de
+costura são identificados para a montagem da peça como podem ser observados na Figura 2 e 3.
+Figura 2 – Aplicação das costuras no protótipo (Audaces 3D)
+Na Figura 2 é possível ver de forma ampliada as janelas do manequim e da modelagem
+bidimensional e como são aplicadas as costuras das partes, evidenciando como os conhecimentos
+técnicos, dos profissionais que atuam na prototipagem física dos produtos de vestuário são
+indispensáveis mesmo na virtualização da prototipagem. Completa-se a observação da colocação
+das costuras na Figura 3.
+Utilização das ferramentas da indústria 4.0 para a prototipagem no setor de vestuário
+Leide Laura Bittencourt, Icléia Silveira, Lucas da Rosa, Daniela Novelli
+DAPesquisa, Florianópolis, v. 16,  p. 01-25, jul. 2021.
+DOI: https://doi.org/10.5965/18083129152021e0023
+Figura 3 - Costuras aplicadas no software Audaces 3D para simulação
+Fonte: https://www.researchgate.net/figure/Figura-14-Costuras-aplicadas-no-software-Audaces-
+3D-para-simulacao-Para-o-alcance-de_fig14_313593099
+Com as costuras inseridas é realizada a simulação da união dos moldes, sendo possível
+visualizar a transição que faz com que as peças sejam “costuradas”, moldando o corpo do
+manequim virtual. Como pode ser observado na Figura 3, a simulação inclui o tecido do modelo do
+vestuário. Os designers, modelista e demais profissionais do setor de vestuário, precisam conhecer
+os tipos de tecidos, para selecionar os que mais se adequam ao modelo. Silveira (2011), explica que
+quando um tecido não é adequado ao modelo do vestuário, a peça pode não ficar com o
+caimento desejado e o resultado acaba sendo completamente diferente do que se esperava.
+Assim, é preciso conhecer as características dos tecidos e observar os detalhes do estilo do modelo,
+o caimento no corpo e a ocasião em que vai ser utilizado.
+Sobre o caimento, Chataignier (2006) explica que é a queda proporcionada pelo grau de
+flexibilidade, maleabilidade ou consistência do tecido. Portanto, o aspecto visual de qualquer peça
+de vestuário está relacionado com as características técnicas dos tecidos e também sobre a forma
+com que os moldes são posicionados no momento do corte do tecido.
+Portanto, para o desenvolvimento de protótipos de vestuário nos softwares CAD 3D, é
+necessário inserir no sistema as informações referentes ao tecido. Tendo em vista que a construção
+do tecido influência diretamente na concepção do protótipo
+Utilização das ferramentas da indústria 4.0 para a prototipagem no setor de vestuário
+Leide Laura Bittencourt, Icléia Silveira, Lucas da Rosa, Daniela Novelli
+DAPesquisa, Florianópolis, v. 16,  p. 01-25, jul. 2021.
+DOI: https://doi.org/10.5965/18083129152021e0023
+Os softwares de modelagem virtual 3D também favorecem a prototipagem de produtos de
+vestuário, com ferramentas que proporcionam a visualização e o teste das cores e estampas no
+protótipo virtual, pois permitem a simulação do modelo com diferentes cores, padronagens e
+estampas. Diante do exposto, a análise de modelos de vestuário em protótipos virtuais, diminuem
+as etapas de trabalho executadas com protótipos físicos, pois além da diminuição do tempo e
+custos, permite a visualização do modelo, das cores, estampas e caimento facilitando as correções
+necessárias antes da confecção da peça piloto, como destacado na análise dos resultados.
+4. ANÁLISE DE RESULTADOS DA PESQUISA
+A simulação 3D na produção industrial de vestuário antecipa as etapas de corte e costura,
+prova de peça teste, ajustes na modelagem, corte da peça piloto (protótipo), estampa/bordado
+peça piloto (protótipo), costura da peça piloto (protótipo), simplificando e compactando todas as
+etapas em uma única ferramenta (Quadro 2).
+Quadro 2 - comparação de processos de prototipagem Física e 3D
+sistema CAD (2D)  ou digitalização de
+modelagem realizada em processo manual
+sistema CAD (2D)  ou digitalização de
+modelagem realizada em processo manual
+Encaixe automatizado - CAD (2D)
+SIMULAÇÃO DE PROTOTIPAGEM EM 3D -
+realizada em sistema computadorizado
+Fonte: adaptado Pires (2015).
+A utilização da ferramenta de simulação apontada pelos autores Gaia (2016), Ashton (2016)
+e relatório de Boston Consulting Group (RÜßMANN et al., 2015) como pilar da indústria 4.0, pode
+otimizar a prototipagem de produtos de vestuário. Oferecendo os seguintes benefícios da indústria
+4.0 apontados também pelo autor Spricigo (2018):
+Utilização das ferramentas da indústria 4.0 para a prototipagem no setor de vestuário
+Leide Laura Bittencourt, Icléia Silveira, Lucas da Rosa, Daniela Novelli
+DAPesquisa, Florianópolis, v. 16,  p. 01-25, jul. 2021.
+DOI: https://doi.org/10.5965/18083129152021e0023
+a) Redução de custos – Com a simulação 3D dos protótipos de produtos do
+vestuário, pode acontecer uma redução de custo, considerando a economia de
+tempo (plotagem dos moldes, seleção e preparação do tecido para o corte,
+traçado do risco e corte dos moldes, costura das peças do modelo de vestuário).
+Toda a análise global da modelagem, vestibilidade, aspectos ergonômicos e
+caimentos das peças serão feitos no ambiente virtual;
+b) Economia de energia – A redução na quantidade de peças testes produzidos,
+diminui o consumo de energia com as máquinas de costura e corte;
+c) Aumento da segurança – As operações de corte e costura de peças teste no
+setor de vestuário, tem um grande de risco de acidentes, logo a diminuição da
+produção das mesmas diminui esse risco, e
+d) Conservação ambiental e fim do desperdício – A produção de peças testes gera
+um número considerável de resíduos têxteis (no corte e quando não são
+aprovadas), visto que nem todas as peças são aprovadas na primeira
+prototipagem e nem finalizadas, acabando muitas vezes se tornando resíduo.
+Diante do exposto, constatou-se que utilizar softwares 3D para uma pré-aprovação de
+protótipos é uma forma eficaz de analisar a modelagem, a estrutura do modelo sobre o corpo, o
+caimento e volume do tecido, bem como a sua forma estética, com diferentes cores, tecidos e
+padronagens. Contudo, é importante ressaltar que essa eficácia é possível apenas, quando os
+profissionais responsáveis no desenvolvimento do protótipo virtual, tenham amplo conhecimentos
+das ferramentas do software, de modo que possam manuseá-la de forma adequada, na
+representação dos tecidos, modelagem e costura.
+Spricigo (2018), coloca que as indústrias de vestuário contam com o software “Made to
+Measure” (Gerber's AccuMark®), embora existam outros, que fazem o escaneamento do corpo em
+3D, podendo ser ajustada as medidas dos protótipos, enquanto os movimentos são simulados
+Utilização das ferramentas da indústria 4.0 para a prototipagem no setor de vestuário
+Leide Laura Bittencourt, Icléia Silveira, Lucas da Rosa, Daniela Novelli
+DAPesquisa, Florianópolis, v. 16,  p. 01-25, jul. 2021.
+DOI: https://doi.org/10.5965/18083129152021e0023
+Figura 4 – Obtenção das medidas do corpo com a simulação de movimentos
+Fonte:https://www.researchgate.net/figure/The-simulation-of-RULA-analysis-using-CATIA-software_fig1_282273079.
+O body scanner faz a obtenção de medidas do corpo de forma rápida e precisa, e isso pode
+contribuir para gerar a possibilidade realizar a prototipagem de peças de vestuário de acordo com a
+silhueta de cada usuário.
+O processo de modelagem requer vários testes de prototipagem para a adequação das
+medidas do modelo ao corpo do público-alvo e do tecido ao caimento requerido para o modelo, até
+chegar ao molde desejado, tendo em vista a vestibilidade do produto. Este processo pode ser
+acelerado com este tipo de soluções 3D. Destaca-se como exemplo na Figura 5, a comparação de
+caimento de tecidos e vestibilidade de acordo com o processo manual e virtual do protótipo.
+Utilização das ferramentas da indústria 4.0 para a prototipagem no setor de vestuário
+Leide Laura Bittencourt, Icléia Silveira, Lucas da Rosa, Daniela Novelli
+DAPesquisa, Florianópolis, v. 16,  p. 01-25, jul. 2021.
+DOI: https://doi.org/10.5965/18083129152021e0023
+Figura 5: Comparação de caimento de tecidos e vestibilidade
+Na figura 5 é possível observar a similaridade entre a prototipagem física e 3D, o que
+comprova juntamente com os dados anteriores a viabilidade e eficácia da utilização da
+prototipagem 3D no setor de vestuário.
+O alto nível de fidelidade da simulação 3D é um grande avanço também, na possibilidade de
+compras pela internet. Essa integração entre o design de roupas e a modelagem, resultam em um
+produto 3D interativo, que pode facilitar a virtualização do desenvolvimento de produtos e do
+marketing (BRUNO, 2016).
+A utilização dos softwares como Computer Aided Design (CAD) ou Computer Aided
+Manufacturing (CAM) - (Desenho Assistido por Computador e Manufatura Assistida por
+Computador) são usados para projetar e fabricar protótipos, sendo capazes de interagir com
+sistemas inteligentes de prototipagem em tempo real, permitindo a integração da impressão 3D
+com recurso de sistemas ciber-físicos e Realidade Aumentada.
+Utilização das ferramentas da indústria 4.0 para a prototipagem no setor de vestuário
+Leide Laura Bittencourt, Icléia Silveira, Lucas da Rosa, Daniela Novelli
+DAPesquisa, Florianópolis, v. 16,  p. 01-25, jul. 2021.
+DOI: https://doi.org/10.5965/18083129152021e0023
+A modelagem das peças de vestuário, são arquivadas no sistema CAD e facilmente integrada
+a base de dados de tecidos, podendo assim, ser realizado testes de protótipos 3D com diferentes
+tipos de tecidos. A prototipagem em 3D e as tecnologias da comunicação podem também reduzir
+as despesas de viagem e o número de protótipos e amostras utilizados no processo, enquanto se
+minimiza desperdícios de tecido e se poupa tempo.
+A ferramenta da Realidade Aumentada pode ser utilizada para criar modelos de protótipos
+virtuais, ajudando os utilizadores a avaliar melhor os seus desenhos e a modificá-los
+adequadamente (TORI, 2009). Na indústria de vestuário o aspeto estético tem um grande peso na
+tomada de decisão dos consumidores quando adquirem uma peça. Além dos aspectos estéticos, os
+modelos de vestuário devem vestir bem o corpo do público-alvo. Como existe uma grande
+variedade de pessoas com diferentes características físicas, é um grande desafio desenvolver um
+produto que assente bem em vários tipos de corpos ou desenvolver várias variantes de um produto
+para os vários tipos de corpos. Neste caso, a Realidade Aumentada é uma boa solução para
+conseguir desenvolver peças virtuais tendo por base um corpo humano real. Amostras digitais
+podem acabar com a necessidade produzir mostruários, o que ajuda os designers, os fabricantes e
+os representantes comerciais.
+As inovações desenvolvidas para o setor têxtil e vestuário a integradas na cadeia de valor
+deste setor, podem aumentar a produtividade, dando mais rapidez no processo até chegar ao
+cliente, redução de custos e diminuição de desperdícios. Deste modo é possível concluir que a
+iniciativa Indústria 4.0 poderá ser benéfica para a produção de vestuário em todas as fases da
+cadeia de valor com os desafios impostos pelo mercado de moda, que requerem modelos cada vez
+mais inovadores e diferenciados.
+Por meio da observação dos dados apresentados no presente artigo é possível constatar que
+o objetivo proposto foi alcançado. As ferramentas de simulação 3D existentes para a prototipagem
+na indústria do vestuário se mostram altamente eficazes, e destaca-se a   importância da
+consolidação do seu uso para a prototipagem, de forma a otimizar a fabricação de produtos de
+vestuário, tendo em vista os inúmeros benefícios relatados na pesquisa.
+Utilização das ferramentas da indústria 4.0 para a prototipagem no setor de vestuário
+Leide Laura Bittencourt, Icléia Silveira, Lucas da Rosa, Daniela Novelli
+DAPesquisa, Florianópolis, v. 16,  p. 01-25, jul. 2021.
+DOI: https://doi.org/10.5965/18083129152021e0023
+O uso de ferramentas da indústria 4.0 para solução de problemas recorrentes do setor de
+vestuário, pode ser considerada fundamental, diante dos atuais paradigmas encontrados no
+segmento como por exemplo a necessidade de aceleração e customização na entrega dos
+produtos, além da conscientização quanto a exploração de recursos e o descarte de resíduos, que
+na realidade contemporânea podem ser favorecidos com soluções da indústria 4.0.
+Destaca-se ainda, que a implantação da Indústria 4.0 será alavancada pelos robôs, sensores
+e tecnologia da informação e comunicação. Porém, mesmo com a indicação de ganhos de
+produtividade e qualidade, essa profusão tecnológica tende a exigir dos profissionais do setor
+industrial de vestuário, qualidades como talento e raciocínio, e não apenas conhecimentos
+técnicos, que podem fazer diferença no desempenho de funções.
+Esta pesquisa, pode ainda ser aprofundada, dentro do eixo da utilização de ferramentas
+indústria 4.0 na indústria do vestuário, abordando o estudo das minis fábricas, de produtos
+personalizados, além da automatização da produção em série, aumentando assim, contribuição
+com novos conhecimentos para a sociedade e para a academia.
+ALMEIDA,  P. S. de. Indústria 4.0: princípios básicos, aplicabilidade e implantação na área Industrial.
+Editora: Saraiva Educação, 2019.
+ASHTON, K. A história secreta da criatividade.  Rio de Janeiro: Sextante, 2016.
+BRUNO, F. da S. A quarta revolução industrial do setor têxtil e de confecção: a visão de futuro para
+2030. São Paulo : Estação das Letras e Cores, 2016. Disponível em:
+https://bibliotecas.sebrae.com.br/chronus/ARQUIVOS_CHRONUS/bds/bds.nsf/b4a04ab45a138e42
+aec2a4762f18b5c8/$File/7585.pdf. Acesso em: 24 nov. 2020.
+CHATAIGNIER, G. Fio a fio: tecidos, moda e linguagem. São Paulo: Estação das Letras, 2006.
+FOLHA informativa sobre COVID-19. In: OPAS/OMS . Brasília : Organização Pan-Americana da
+**************************************************
+ID: a-comparative-study-of-open-source-and-licensed
+similar tools for apparel pattern development were hard to ﬁnd. Moreover, reviews on open source
+and freeware CAD systems for disciplines other than fashion and clothing have already been done,
+for example, Junk & Kuen [26] have researched OSS for 3D Printing. Subsequently, a search for
+classiﬁcation of open source CAD systems available online for pattern drafting have veriﬁed that
+the only CAD open-source, parametric, variational, feature-based, and procedural software available
+(15 December 2017) is Seamly2D. Another CAD software tool which was chosen for evaluation and
+comparison was Wild Ginger’s Cameo v6, as it is not such a costly educational version when compared
+with the other licensed CAD software tools.
+The licensed tools that were used to complete the comparison and evaluation were Crea’s Create
+for 2D CAD pattern development and Polytropon’s Polypattern. Students were shown a demonstration
+of all the software solutions, and after the completion of their learning process the students that were
+most eﬃcient in the use of the tools and understanding of garment pattern developing were selected to
+participate in the research.
+Seamly2D (formerly Valentina) is a patternmaking cross-platform programme that allows the
+development of garment patterns by professional designers or individual users. The software allows
+the user to insert his/her individual set of measurements or to use standard sizing tables as another
+option. The programme runs on Windows, Mac OSX, and Ubuntu, and is downloadable. Seamly2D
+can provide any sewer or clothing manufacturer the opportunity to create and develop digital patterns
+of any garment style; it can be easily downloaded from the internet and oﬀers support in the context
+of using the interface and its tools. According to its forum [27], Seamy2D’s open data formats and
+collaborative culture enables independent designers to become ethically proﬁtable, and can empower
+designers focused on eco fashion and slow fashion. Another advantage of downloading Seamly2D and
+creating digital patterns with it instead of choosing a licensed and costly software is that independent
+small designers and manufacturers can create small-batch and custom-sized clothing collections which
+are essential to create a sustainable future. This way, local garment districts can be rebuilt, can reduce or
+eliminate low-wage labour and unethical working conditions, and even scale up to bigger productions.
+Wild Ginger’s Cameo v6 Pattern Design is an apparel pattern development software for
+professional pattern makers. Cameo’s apparel production tools allow users to draft and edit patterns,
+customise size or grade patterns, lay markers, and create technical drawings and speciﬁcations. The
+software solution allows pattern creation and modiﬁcation by anyone having appropriate skills. It
+contains all the tools that a pattern maker needs, such as the creation and transfer of darts, slash/spread,
+adding seam allowance, and pattern marking. Cameo is not an open source tool; it is sold in modules
+and libraries. Cameo runs only in Windows and, for the purpose of the research, the authors worked
+in the downloadable demo version of the software.
+From observing Cameo v6’s webpage, it is clear that the speciﬁc software is mainly focused on
+new CAD pattern making users and/or students as it suggested in the Digital Flat Pattern: The Apparel
+Designer’s Handbook. This instruction book, which is not free, provides instructions for creating patterns
+for a wide range of styles—including bodices, dresses, jackets, skirts, pants, sleeves, collars, and
+pockets. Although, as mentioned above, the CAD software is not an OSS, its price is more aﬀordable
+compared with other commercial programmes, and it includes free tutorial CAD software and example
+ﬁles for completing all styles illustrated in the book.
+3.1. Aim of the Research
+The aim of this research was to evaluate the usability of the existing OSS CAD software for
+garment prototype development and see if it can successfully support the learning process compared
+with two licensed forms of software. The metric used was the amount of time required to create a
+speciﬁc garment in all four CAD systems (Table 1). In order to do so, fourth year students with the
+knowledge of all four systems were asked to create 10 diﬀerent digital patterns at the end of their
+learning process of CAD modelling in garment pattern making.
+Table 1. Developing time for each style and each CAD system.
+Time in Minutes for Each Pattern Cutting Programme
+3.2. Literature Research
+In other sectors (i.e., mechanical engineering) companies commonly organise tailored courses and
+training sessions in collaboration with leading global vendors in order to achieve a deeper knowledge
+on speciﬁc CAD-based software for speciﬁc ﬁelds of application according to the professional proﬁle
+and the level of expertise of their users [28]. Such an approach, however, is not completely satisfactory,
+since it produces very well-trained CAD users but, often, does not take care of either the design
+thinking [29] or the linguistic basics [30] needed to fully exploit CAD performance. On the contrary,
+in the fashion industry, garment development learning and pattern design skills can be obtained
+through higher education fashion courses. Digital pattern development can be taught individually by
+CAD-software companies and their training teams, by attending a pattern design course (full-time,
+part-time, seminar) in a college, or attending an online course. Most of the higher educational institutes
+that provide fashion courses or clothing technology courses have access to educational licenses of
+CAD software for pattern development. However, according to [31], online education is increasingly
+becoming a dominant part of our education system.
+3.3. Problem Statement
+Leaving aside the question of the economic and ethical implications of adopting open-source
+software instead of licensed software, the issue addressed in the present paper is connected to the
+following question: Can any open-source CAD system for developing clothing patterns eﬀectively
+support university courses when the teaching focus needs to be on the method rather than on the
+In order to evaluate the performance of a 2D CAD system, the authors established a comparison
+between the already taught commercial CAD systems, an open-sourced software, and a fairly accessible
+–in terms of price-software available to fashion students. In a design-oriented approach, CAD students
+need to complete the assigned tasks by using the various tools available within the CAD environment.
+Hence, a CAD system is considered compliant with design education and training if it oﬀers all the
+tools requested for modelling and drawing clothing products. The related CAD workbenches are
+New pattern creation—the workbench to draw a new pattern piece from scratch with
+speciﬁc measurements;
+Insert new points and notches—the workbench to put grading and curve points on any place of
+Measuring—the workbench to evaluate if a speciﬁc distance is correct;
+Curves—the workbench to model curves;
+Editing—the workbench to edit any part of the pattern by move, cut, unite, rotate, mirror, etc.;
+Darts, folds and gathers—the workbench to create, edit, and delete darts, and to fold and gather
+to any point of the garment.
+The method workﬂow consists of three steps:
+Selection of the basic pattern blocks in a standard size (12) that the students have the skills to
+Development of prototype patterns in all four CAD systems through monitoring the passage of
+time for every task and every diﬀerent CAD system.
+Analysis of the results with respect to the time, eﬃciency, and number of steps.
+4.1. Selection of Basic Pattern Blocks in a Standard Size 12
+Basic block patterns in a standard size 12 [32], were used to develop designs for the prototypes
+based on the instruction of metric pattern cutting of Winifred Aldrich [33]. More speciﬁcally, 10 styles
+were decided to be developed in all four programmes:
+1. Straight skirt, 2. culottes 3. basic trousers, 4. tracksuit trousers, 5. close ﬁtting bodice block,
+6. tracksuit top, 7. basic shirt, 8. vest, 9. the tailored jacket block, and 10. two-piece sleeve block.
+Seam allowance was only put where it was permitted by the software. Grading was omitted,
+since it was not supported by the four and was not part of the current research. Size 12 was indicated
+as appropriate, therefore the basic block for each individual garment was based on the body measures
+4.2. Development of Prototype Patterns in All Four CAD Systems with Monitoring the Passage of Time for
+Every Task and Every Diﬀerent CAD System
+Figures 1 and 2 show the digital patterns of the previous selection in the Polypattern CAD system:
+Figure 1. Polypattern computer-aided design (CAD): basic skirt (a), basic trousers (b), culottes (c),
+track-suit top (d), tracksuit trousers (e), close-ﬁt bodice block (f).
+Figure 2. Polypattern CAD: basic shirt (a), vest (b), two-piece sleeve (c), basic jacket block (d).
+4.3. Analysis of the Results with Respect to the Time, Eﬃciency, and Number of Steps
+From the results obtained when analysing and comparing Seamly2D and Wild Ginger’s Cameo v6
+with the licensed Polypattern and Create, it has been concluded that currently this open-source CAD
+has not reached a suﬃcient level to replace commercial licensed parametric, variational, feature-based,
+and procedural CAD systems in academic courses. This is mainly because it lacks the implementation
+of some strategic tools:
+Creation of a new pattern piece: The development method in the non-licensed software (Seamly2D
+and Cameo) has many similarities to the traditional pattern development by hand. Above all, it is
+New point and notch inputs: All four software tools have diﬀerent ways to put a new point or a
+notch on a pattern. However, moving a point takes longer in Seamly2D and Cameo.
+Measure tape: The ruler and measure tape for distances and curves is one of the basic tools of a
+programme. However Seamly2D does not support such a feature.
+Create curves: All four programmes can easily create curves
+Section move: Too complicated for Seamly2D, feasible in Cameo, easier in Polypattern and Crea
+Darts, folds and gatherings: The easier way to create them is in Crea and Polypattern. Open
+source Seamly2D needs to create a new pattern from the beginning and the exact distances for
+every new point are required by the user. Cameo requires multiple moves; the functions are
+Cut and unite of pattern pieces: Seamly2D cannot unite cut pieces. Comparing all four, Polypattern
+provides the easiest and more eﬃcient method.
+Rotation of pattern pieces: Seamly2D cannot rotate; the other three can do this easily.
+Seams: An older version of Seamly2D had a tool for seam allowance. The newer version has none.
+Cameo also lacks this function. If the user wants to add seams, they need to create parallel lines
+with the desired distance. Polypattern and Crea provide the seam allowance with three clicks.
+Sizing: Seamly2D and Cameo cannot cover this very important need for a pattern developer. Crea
+and Polypattern are both focused in satisfying the demands of creating complex styles in a rapid
+changing manufacturing environment like the one of apparel.
+OSS for garment pattern development is still at an experimental stage. While such software can
+manipulate standard demands in digital garment prototyping—such as the creation of a new pattern
+piece from the beginning and drawing lines—dealing with commands such as cutting, rotating, adding
+seam allowance, and especially grading in other sizes, is still problematic. Procedures in OSS are
+complicated and follow the mentality of doing the pattern by hand. Within the experimental work,
+certain processes could only be done in licensed CAD systems and not in OSS. For example, section
+distance measuring could be done only in Polypattern, Crea, and Cameo, but not in OSS Seamly2S.
+The study found that the creation of darts, folds, and fabric gathering in OSS was by trial and error.
+Although prescribed procedures were followed, the control of adding seam allowance or moving
+a section was problematic, as the tutorial for Seamly2D referred to an older version that probably
+provided the function, but was no longer found in the newer version. Two-dimensional pattern design
+software based on ﬂat patternmaking techniques has been successfully explored for patternmaking,
+grading, and creating pattern libraries within software for future retrieval [34]. More importantly,
+grading in diﬀerent sizes, which is an irreplaceable tool and command for pattern developers in the
+fashion industry, is simpliﬁed as a process only in professional licensed CAD systems. Wild Ginger
+lacks this function, catering well to the needs of only small garment units, boutiques, and custom
+apparel makers. Measurements need to be put into the system to obtain the pattern block. OSS, like
+Seamly 2D, cannot successfully support the learning process. Unless the complexity decreases, and the
+OSS project employs a modular approach to software production, the project becomes less attractive
+to new users, resulting in a technical success decrease. Academic institutions, in order to prepare
+fashion students for situations they will face once they have entered the job market, need to provide
+the industry-based experiential-learning opportunities required for translating innovative designs
+into marketable garments. OSS tools for garment prototyping need further development in order to
+Author Contributions: Data curation, E.P.; Formal analysis, E.P.; Investigation, E.P.; Methodology, E.P.; Resources,
+P.K.; Supervision, N.B.; Writing—review & editing, E.P.
+Funding: This research received no external funding.
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+Papachristou, E.; Bilalis, N. 3D virtual prototyping traces new avenues for fashion design & product
+development—A qualitative study. J. Text. Sci. Eng. 2017, 6, 297. [CrossRef]
+Papachristou, E.; Bilalis, N. Can 3D prototype conquer the apparel industry? J. Fash. Technol. Text. Eng. 2016,
+Istook, C. Rapid prototyping in the textile & apparel industry: A pilot project. J. Text. Appar. Technol. Manag.
+Bae, J.; May-Plumplee, T. Customer focused textile & apparel manufacturing systems: Toward an Eﬀective
+e-commerce model. J. Text. Appar. Technol. Manag. 2005, 4, 1–19.
+Summers, J.D.; Shah, J.J. Mechanical Engineering Design Complexity Metrics: Size, Coupling, and Solvability.
+J. Mech. Des. 2010, 132, 021004. [CrossRef]
+Amadori, K.; Tarkian, M.; Ölvander, J.; Krus, P. Flexible and robust CAD models for design automation. Adv.
+Eng. Inform. 2012, 26, 180–195. [CrossRef]
+Bodein, Y.; Rose, B.; Caillaud, E. A roadmap for parametric CAD eﬃciency in the automotive industry.
+Comput. Aided Des. 2013, 45, 1198–1214. [CrossRef]
+Bodein, Y.; Rose, B.; Caillaud, E. Explicit reference modeling methodology in parametric CAD system.
+Comput. Ind. 2014, 65, 136–147. [CrossRef]
+Johnson, M.D.; Valverde, M.L.; Thomison, D.W. An investigation and evaluation of computer-aided design
+model complexity metrics. Comput.-Aided Des. Appl. 2018, 15, 61–75. [CrossRef]
+Diwakaran, R.P.; Johnson, M.D. Analyzing the eﬀect of alternative goals and model attributes on CAD model
+creation and alteration. Comput.-Aided Des. 2012, 44, 343–353. [CrossRef]
+Hamade, R.F.; Ammouri, A.H.; Artail, H. Toward pre-dicting the performance of novice CAD users based on
+their proﬁled technical attributes. Eng. Appl. Artif. Intell. 2012, 25, 628–639. [CrossRef]
+Hamade, R.F.; Artail, H.A.; Jaber, M.Y. A study of the impact of the willingness-to-learn of CAD novice users
+on their competence development. Comput. Ind. Eng. 2011, 61, 709–720. [CrossRef]
+Camba, J.D.; Contero, M.; Company, P. Parametric CAD modelling: An analysis of strategies for design
+reusability. Comput.-Aided Des. 2016, 74, 18–31. [CrossRef]
+Johnson, M.D.; Diwakaran, R.P. An educational exercise examining the role of model attributes on the
+creation and alteration of CAD models. Comput. Educ. 2011, 57, 1749–1761. [CrossRef]
+Seamly2D. Available online: http://valentina-project.org/ (accessed on 10 October 2017).
+Cameo v.6 (Wild Ginger). Available online: https://www.wildginger.com/downloads/cameo6download.htm
+(accessed on 10 October 2017).
+ABET. Available online: https://www.abet.org/accreditation/accreditation-criteria/criteria-for-accrediting-
+engineering-programs-2019-2020/#GC3 (accessed on 20 January 2019).
+Ullah, S.; Harib, K. Tutorials for Integrating CAD/CAM in Engineering Curricula. Educ. Sci. 2018, 8, 151.
+Di Angelo, L.; Di Stefano, P.; Leali, F. Can Open-Source 3D Mechanical CAD Systems Eﬀectively Support

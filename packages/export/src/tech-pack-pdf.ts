@@ -200,9 +200,18 @@ export async function exportTechPackPdf(data: TechPackData, opts: { number?: num
   if (!f) text(ctx, "Nenhum tecido ligado ao produto.", { color: SOFT });
   else {
     text(ctx, `${f.name}${f.composition ? ` · ${f.composition}` : ""}`, { bold: true });
+    const yieldMPerKg = f.widthMm && f.weightGsm ? Math.round((1_000_000 / (f.widthMm * f.weightGsm)) * 100) / 100 : null;
     text(
       ctx,
-      [f.widthMm && `Largura útil ${cm(f.widthMm)}`, f.weightGsm && `${f.weightGsm} g/m²`, f.priceCents != null && `${money(f.priceCents)} por metro`]
+      [
+        f.widthMm && `Largura útil ${cm(f.widthMm)}`,
+        f.weightGsm && `${f.weightGsm} g/m²`,
+        yieldMPerKg && `Rendimento ${String(yieldMPerKg).replace(".", ",")} m/kg`,
+        f.priceCents != null && `${money(f.priceCents)} por metro`,
+        f.pricePerKgCents != null && `${money(f.pricePerKgCents)} por kg`,
+        (f.shrinkageWarpPct != null || f.shrinkageWeftPct != null) &&
+          `Encolhimento: urdume ${String(f.shrinkageWarpPct ?? 0).replace(".", ",")}% · trama ${String(f.shrinkageWeftPct ?? 0).replace(".", ",")}%`,
+      ]
         .filter(Boolean)
         .join("   ·   ") || "Sem largura, gramatura ou preço cadastrados.",
       { color: SOFT },
@@ -245,6 +254,49 @@ export async function exportTechPackPdf(data: TechPackData, opts: { number?: num
       data.trims.map((t) => [t.name, `${String(t.quantity).replace(".", ",")} ${t.unit}`, money(t.unitPriceCents), money(t.totalCents)]),
     );
     text(ctx, `Total de aviamentos: ${money(data.trimsCents)}`, { bold: true, x: PAGE.w - MARGIN - 160 });
+  }
+
+  if (data.operations) {
+    heading(ctx, "Custos operacionais e custo industrial");
+    const op = data.operations;
+    text(
+      ctx,
+      [
+        op.sewingCents != null && `Costura / facção: ${money(op.sewingCents)}`,
+        op.laundryCents != null && `Lavanderia / beneficiamento: ${money(op.laundryCents)}`,
+        op.wastePct != null && `Perda de corte: ${String(op.wastePct).replace(".", ",")}%`,
+      ]
+        .filter(Boolean)
+        .join("   ·   "),
+      { color: SOFT },
+    );
+    table(
+      ctx,
+      [
+        { title: "Tamanho", width: 0.25 },
+        { title: "Material (tecido + aviamentos)", width: 0.37, align: "right" },
+        { title: "Custo industrial total", width: 0.38, align: "right" },
+      ],
+      data.pattern.sizes.map((s) => [s, money(data.materialCentsBySize[s] ?? null), money(op.totalCentsBySize[s] ?? null)]),
+    );
+  }
+
+  if (data.sizeChart && data.sizeChart.rows.length > 0 && data.sizeChart.sizes.length > 0) {
+    heading(ctx, `Tabela de medidas (${data.sizeChart.name})`);
+    const sizes = data.sizeChart.sizes;
+    const sizeWidth = Math.min(0.14, 0.64 / sizes.length);
+    const firstWidth = 1 - sizeWidth * sizes.length;
+    table(
+      ctx,
+      [
+        { title: "Medida", width: firstWidth },
+        ...sizes.map((s) => ({ title: s, width: sizeWidth, align: "right" as const })),
+      ],
+      data.sizeChart.rows.map((r) => [
+        r.name,
+        ...sizes.map((s) => (r.bySizeMm[s] != null ? cm(r.bySizeMm[s]!) : "—")),
+      ]),
+    );
   }
 
   return doc.save();
