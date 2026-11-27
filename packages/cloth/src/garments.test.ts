@@ -1,6 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { garmentAtSize, validatePattern, type PatternDocument } from "@alinhavo/geometry";
 import { createMannequin, type BodyConditions } from "./body/mannequin";
+import { bodySeat, seatCollider } from "./body/motion";
+import type { BodyPose } from "./body/types";
 import { floorCollider } from "./collider";
 import { FABRICS } from "./fabrics";
 import { meshPiece } from "./mesh";
@@ -11,8 +13,9 @@ import { calca, saia, top } from "./test-garments";
 const BODY = { busto: 880, cintura: 720, quadril: 900, altura: 1650 };
 
 /** Monta e simula `seconds` s; devolve a simulação, o corpo e as peças. */
-function provar(doc: PatternDocument, seconds: number, conditions: BodyConditions = {}) {
-  const body = createMannequin(BODY, "em-pe", {}, conditions);
+function provar(doc: PatternDocument, seconds: number, conditions: BodyConditions = {}, pose: BodyPose = "em-pe") {
+  const body = createMannequin(BODY, pose, {}, conditions);
+  const seat = pose === "sentada" ? bodySeat(body) : null;
   const { pieces, seams, foldLine } = garmentAtSize(doc, "M");
   // Como no Worker da Prova: malha simétrica pela linha da dobra.
   const meshes = pieces.map((p) => meshPiece(p, { spacing: 30, mirror: foldLine[p.id] }));
@@ -22,11 +25,17 @@ function provar(doc: PatternDocument, seconds: number, conditions: BodyCondition
   );
   const sim = createSimulation(
     meshes.map((mesh, i) => ({ mesh, initial: initial[i] })),
-    { fabric: FABRICS.planoLeve, seams, colliders: [body.collider, floorCollider(0)], iterations: 2, sewingTime: 2 },
+    {
+      fabric: FABRICS.planoLeve,
+      seams,
+      colliders: [body.collider, floorCollider(0), ...(seat ? [seatCollider(seat)] : [])],
+      iterations: 2,
+      sewingTime: 2,
+    },
   );
   const gap0 = sim.seamGap();
   for (let f = 0; f < seconds * 60; f++) sim.step();
-  return { sim, body, gap0, pieces };
+  return { sim, body, seat, gap0, pieces };
 }
 
 function resumo(sim: ReturnType<typeof provar>["sim"], body: ReturnType<typeof provar>["body"]) {
@@ -121,4 +130,25 @@ describe("roupa em corpo com condição", () => {
     expect(r.gap).toBeLessThan(2);
     expect(r.closest).toBeGreaterThan(-3);
   }, 60_000);
+
+  it("saia e calça na pose sentada: costuram, pousam sobre o banco e não entram no corpo", () => {
+    for (const [name, doc] of [["saia", saia()], ["calca", calca()]] as const) {
+      const { sim, body, seat, gap0 } = provar(doc, 4, {}, "sentada");
+      const r = resumo(sim, body);
+      console.info(`sentada:${name}`, { gap0: Math.round(gap0), ...r, waist: body.landmarks.waist.y, seatTop: seat?.top });
+      expect(seat).not.toBeNull();
+      expect(r.finite).toBe(true);
+      expect(r.gap).toBeLessThan(5);
+      expect(r.top).toBeGreaterThan(body.landmarks.hip.y);
+      expect(r.bottom).toBeGreaterThan(-1);
+      // Menos de 2% dos vértices com penetração > 3 mm (dobras da virilha/banco).
+      let deep = 0;
+      for (let i = 0; i < sim.vertexCount; i++) {
+        const d = body.collider.query(sim.positions[i * 3]!, sim.positions[i * 3 + 1]!, sim.positions[i * 3 + 2]!).distance;
+        if (d < -3) deep++;
+      }
+      expect(deep / sim.vertexCount).toBeLessThan(0.02);
+      expect(r.closest).toBeGreaterThan(-8);
+    }
+  }, 180_000);
 });

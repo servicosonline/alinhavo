@@ -117,7 +117,7 @@ export function GradeView({ doc, measurementsBySize, fabric, pose, bodyKind = "m
         // Mensagem que chegou depois de o tamanho terminar: ignora.
         if (states[i] !== "montando" && states[i] !== "simulando") return;
         if (msg.type === "ready") {
-          scene.setBody(i, msg.body.positions, msg.body.indices);
+          scene.setBody(i, msg.body.positions, msg.body.indices, msg.seat ?? null);
           scene.setGarment(i, msg.garment.positions, msg.garment.indices, colorRef.current, msg.decals, msg.garment.uv, msg.parts);
           partsRef.current[i] = { parts: msg.parts, vertices: msg.garment.positions.length / 3 };
           setFabricLimit(msg.fabricLimit);

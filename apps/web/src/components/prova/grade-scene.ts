@@ -1,14 +1,15 @@
 import * as THREE from "three";
-import type { Decal } from "@alinhavo/cloth";
+import type { Decal, Seat } from "@alinhavo/cloth";
 import { GRADE_SPACING_MM, gradeCameraDistance, gradeOffsets } from "@/lib/prova/grade";
 import type { ProvaPart } from "@/lib/prova/protocol";
 import type { RenderQuality } from "@/lib/prova/quality";
 import { DecalLayer } from "./decal-layer";
-import { bodyMesh, disposeMesh, garmentGroups, garmentMesh, liftGarment, paintGarment, Stage } from "./stage";
+import { bodyMesh, disposeMesh, garmentGroups, garmentMesh, liftGarment, paintGarment, seatMesh, Stage } from "./stage";
 
 type Slot = {
   group: THREE.Group;
   body: THREE.Mesh | null;
+  seat: THREE.Mesh | null;
   garment: THREE.Mesh | null;
   decals: DecalLayer | null;
   label: THREE.Sprite;
@@ -88,7 +89,7 @@ export class GradeScene {
       label.position.set(0, 1950, 0);
       group.add(label);
       this.stage.world.add(group);
-      return { group, body: null, garment: null, decals: null, label, parts: [], color: "#ffffff" };
+      return { group, body: null, seat: null, garment: null, decals: null, label, parts: [], color: "#ffffff" };
     });
     const halfRow = ((sizes.length - 1) * GRADE_SPACING_MM) / 2000;
     this.stage.setFloor(halfRow + 0.9, 0.9);
@@ -104,10 +105,19 @@ export class GradeScene {
     return next;
   }
 
-  setBody(i: number, positions: Float32Array, indices: Uint32Array) {
+  setBody(i: number, positions: Float32Array, indices: Uint32Array, seat: Seat | null = null) {
     const slot = this.slots[i];
     if (!slot) return;
     slot.body = this.replace(slot.group, slot.body, bodyMesh(positions, indices));
+    if (slot.seat) {
+      slot.group.remove(slot.seat);
+      disposeMesh(slot.seat);
+      slot.seat = null;
+    }
+    if (seat) {
+      slot.seat = seatMesh(seat);
+      slot.group.add(slot.seat);
+    }
     // A plaquinha fica um pouco acima da cabeça deste corpo.
     slot.body.geometry.computeBoundingBox();
     slot.label.position.y = (slot.body.geometry.boundingBox?.max.y ?? 1800) + 150;
@@ -161,6 +171,7 @@ export class GradeScene {
     for (const slot of this.slots) {
       this.stage.world.remove(slot.group);
       disposeMesh(slot.body);
+      disposeMesh(slot.seat);
       disposeMesh(slot.garment);
       slot.decals?.dispose();
       const material = slot.label.material;

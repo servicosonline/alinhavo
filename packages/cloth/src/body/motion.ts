@@ -393,17 +393,15 @@ export function motionSeat(clip: MotionClip, table: Record<string, number>, over
   return motionSeatWith(clip, mannequinBuilder(table, overrides, conditions));
 }
 
-/** Como motionSeat, com qualquer corpo (o montador). */
-export function motionSeatWith(clip: MotionClip, builder: BodyBuilder): Seat | null {
-  if (!clip.seat) return null;
-  // A pose mais baixa do clipe (o quadril mais perto do chão).
-  let best: Body | null = null;
-  for (const k of clip.keys) {
-    const b = posedWith(builder, k.pose, { mesh: false }).body;
-    if (!best || b.landmarks.legs.left[0]!.y < best.landmarks.legs.left[0]!.y) best = b;
-  }
-  const [hipL, kneeL] = best!.landmarks.legs.left;
-  const hip = best!.landmarks.hip;
+/**
+ * O banco de um corpo sentado: o alto fica SEAT_CLEARANCE mm abaixo do ponto
+ * mais baixo do corpo sobre ele (o bumbum ou a coxa), e a caixa vai das costas
+ * do quadril até um pouco antes do joelho, para as canelas e os pés ficarem de
+ * fora.
+ */
+export function bodySeat(body: Body): Seat {
+  const [hipL, kneeL] = body.landmarks.legs.left;
+  const hip = body.landmarks.hip;
   const box = {
     minX: -hip.halfWidth * 1.2,
     maxX: hip.halfWidth * 1.2,
@@ -417,13 +415,25 @@ export function motionSeatWith(clip: MotionClip, builder: BodyBuilder): Seat | n
       const x = box.minX + ((box.maxX - box.minX) * i) / 6;
       const z = box.minZ + ((box.maxZ - box.minZ) * j) / 6;
       for (let y = hipL!.y; y > 0; y -= 2) {
-        if (best!.collider.query(x, y, z).distance <= 0) bottom = Math.min(bottom, y);
+        if (body.collider.query(x, y, z).distance <= 0) bottom = Math.min(bottom, y);
       }
     }
   }
   if (!Number.isFinite(bottom)) bottom = hipL!.y - hipL!.r;
   // Espaço para o tecido entre o corpo e o banco (sem ele o banco espreme o pano para dentro do corpo).
   return { top: bottom - SEAT_CLEARANCE, ...box, hip: hipL!.y };
+}
+
+/** Como motionSeat, com qualquer corpo (o montador). */
+export function motionSeatWith(clip: MotionClip, builder: BodyBuilder): Seat | null {
+  if (!clip.seat) return null;
+  // A pose mais baixa do clipe (o quadril mais perto do chão).
+  let best: Body | null = null;
+  for (const k of clip.keys) {
+    const b = posedWith(builder, k.pose, { mesh: false }).body;
+    if (!best || b.landmarks.legs.left[0]!.y < best.landmarks.legs.left[0]!.y) best = b;
+  }
+  return bodySeat(best!);
 }
 
 /** Colisor do banco (caixa do chão até o alto). */

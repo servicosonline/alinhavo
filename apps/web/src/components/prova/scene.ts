@@ -7,7 +7,7 @@ import type { RenderQuality } from "@/lib/prova/quality";
 import { turntableAngle, turntablePosition } from "@/lib/prova/video";
 import { DecalLayer } from "./decal-layer";
 import { grainGridTexture } from "./grain-texture";
-import { bodyMesh, disposeMesh, garmentGroups, garmentMesh, liftGarment, paintGarment, Stage } from "./stage";
+import { bodyMesh, disposeMesh, garmentGroups, garmentMesh, liftGarment, paintGarment, seatMesh, Stage } from "./stage";
 
 /**
  * Cena 3D da Prova de um tamanho: corpo, roupa, bordas clicáveis e capturas.
@@ -38,8 +38,10 @@ export class ProvaScene {
     restBody: Float32Array | null;
     restGarment: Float32Array | null;
   } | null = null;
-  /** O banco do "sentar" (só enquanto o movimento toca). */
+  /** O banco da pose sentada ou do movimento "sentar". */
   private seat: THREE.Mesh | null = null;
+  /** O banco da pose parada (voltando quando um movimento para). */
+  private restSeat: Seat | null = null;
   private edgeLines: Uint32Array = new Uint32Array(0);
   private edgeOwner: Int32Array = new Int32Array(0);
   private selected: number | null = null;
@@ -86,8 +88,22 @@ export class ProvaScene {
     this.stage.resetView();
   }
 
-  setBody(positions: Float32Array, indices: Uint32Array) {
+  private showSeat(seat: Seat | null) {
+    if (this.seat) {
+      this.world.remove(this.seat);
+      disposeMesh(this.seat);
+      this.seat = null;
+    }
+    if (seat) {
+      this.seat = seatMesh(seat);
+      this.world.add(this.seat);
+    }
+  }
+
+  setBody(positions: Float32Array, indices: Uint32Array, seat: Seat | null = null) {
     this.stopMotion(false);
+    this.restSeat = seat;
+    this.showSeat(seat);
     this.body = this.replace(this.body, bodyMesh(positions, indices));
   }
 
@@ -106,18 +122,7 @@ export class ProvaScene {
       restBody: bodyPos ? Float32Array.from(bodyPos.array as Float32Array) : null,
       restGarment: this.raw ? Float32Array.from(this.raw) : null,
     };
-    if (m.seat) {
-      const s = m.seat;
-      const box = new THREE.Mesh(
-        new THREE.BoxGeometry(s.maxX - s.minX, s.top, s.maxZ - s.minZ),
-        new THREE.MeshStandardMaterial({ color: 0xb9a184, roughness: 0.7, metalness: 0 }),
-      );
-      box.position.set((s.minX + s.maxX) / 2, s.top / 2, (s.minZ + s.maxZ) / 2);
-      box.castShadow = true;
-      box.receiveShadow = true;
-      this.seat = box;
-      this.world.add(box);
-    }
+    this.showSeat(m.seat);
     this.stage.animate = () => this.motionTick();
   }
 
@@ -126,11 +131,7 @@ export class ProvaScene {
     const m = this.motion;
     this.motion = null;
     this.stage.animate = null;
-    if (this.seat) {
-      this.world.remove(this.seat);
-      disposeMesh(this.seat);
-      this.seat = null;
-    }
+    this.showSeat(restore ? this.restSeat : null);
     if (!m || !restore) return;
     if (m.restBody) this.setBodyPositions(m.restBody);
     if (m.restGarment) this.updateGarment(m.restGarment);
@@ -486,6 +487,7 @@ export class ProvaScene {
 
   dispose() {
     this.stopMotion(false);
+    this.showSeat(null);
     this.setSelected(null);
     this.renderer.domElement.removeEventListener("pointerdown", this.onPointerDown);
     this.renderer.domElement.removeEventListener("pointerup", this.onPointerUp);

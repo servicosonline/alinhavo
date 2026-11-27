@@ -80,6 +80,30 @@ const unit = (a: Vec3): Vec3 => {
 };
 
 /**
+ * Ponto do eixo da perna a `s` mm da articulação do quadril, medidos ao longo
+ * do eixo (quadril → joelho → tornozelo; antes do quadril e depois do
+ * tornozelo continua reto), com a direção do eixo ali e o raio da perna.
+ */
+export function legAxisAt(landmarks: BodyLandmarks, leg: BodyLeg, s: number): { p: Vec3; dir: Vec3; r: number } {
+  const pts = landmarks.legs[leg === "esquerda" ? "left" : "right"];
+  let i = 0;
+  let start = 0;
+  while (i < pts.length - 2) {
+    const len = Math.hypot(pts[i + 1]!.x - pts[i]!.x, pts[i + 1]!.y - pts[i]!.y, pts[i + 1]!.z - pts[i]!.z);
+    if (s < start + len) break;
+    start += len;
+    i++;
+  }
+  const a = pts[i]!;
+  const b = pts[i + 1]!;
+  const d = sub(b, a);
+  const len = Math.hypot(d.x, d.y, d.z) || 1;
+  const t = (s - start) / len;
+  const tc = Math.min(1, Math.max(0, t));
+  return { p: { x: a.x + d.x * t, y: a.y + d.y * t, z: a.z + d.z * t }, dir: unit(d), r: a.r + (b.r - a.r) * tc };
+}
+
+/**
  * Ponto do eixo do braço a `s` mm do ombro, medidos ao longo do eixo
  * (ombro → cotovelo → punho; antes do ombro e depois do punho continua reto),
  * com a direção do eixo ali e o raio do braço.
@@ -257,22 +281,63 @@ export function placeGarment(pieces: PlacedPiece[], landmarks: BodyLandmarks): F
     }
     const legStart = placement.side === "costas" ? -Math.PI / 2 : placement.side === "esquerda" ? 0 : placement.side === "direita" ? Math.PI : Math.PI / 2;
 
+    const [hipL, kneeL] = landmarks.legs.left;
+    const dThigh = sub(kneeL!, hipL!);
+    const thighForward = dThigh.z > Math.abs(dThigh.y) * 0.5;
+
     const out = new Float64Array(count * 3);
     for (let i = 0; i < count; i++) {
       const u = mesh.positions[i * 2]!;
       const v = mesh.positions[i * 2 + 1]!;
-      const y = top - (v - vMin);
+      let y = top - (v - vMin);
       const e = bodyEllipse(landmarks, y, clearance);
       const phi = angleAtArc(e.a, e.b, start, u - uCenter);
       let x = e.a * Math.cos(phi);
       let z = e.centerZ + e.b * Math.sin(phi);
       if (leg && y < crotch + LEG_BLEND) {
-        const c = legAt(landmarks, leg, y);
-        const R = c.r + clearance;
-        const psi = legStart - (u - legCenter) / R; // arco positivo anda para a direita de quem olha
         const w = Math.min(1, (crotch + LEG_BLEND - y) / LEG_BLEND);
-        x = x * (1 - w) + (c.x + R * Math.cos(psi)) * w;
-        z = z * (1 - w) + (c.z + R * Math.sin(psi)) * w;
+        if (thighForward) {
+          const s = Math.max(0, landmarks.legs[leg === "esquerda" ? "left" : "right"][0]!.y - y);
+          const { p, dir, r } = legAxisAt(landmarks, leg, s);
+          const R = r + clearance;
+          const psi = legStart - (u - legCenter) / R;
+          const cPsi = Math.cos(psi);
+          const sPsi = Math.sin(psi);
+          const o0 = { x: 1, y: 0, z: 0 };
+          const right = unit(sub(o0, { x: dir.x * dot(o0, dir), y: dir.y * dot(o0, dir), z: dir.z * dot(o0, dir) }));
+          // Para a frente/cima da coxa: dir × right apontando para fora (+Y/+Z).
+          const forward = unit({
+            x: dir.y * right.z - dir.z * right.y,
+            y: dir.z * right.x - dir.x * right.z,
+            z: dir.x * right.y - dir.y * right.x,
+          });
+          const lx = p.x + R * (right.x * cPsi + forward.x * sPsi);
+          const ly = p.y + R * (right.y * cPsi + forward.y * sPsi);
+          const lz = p.z + R * (right.z * cPsi + forward.z * sPsi);
+          x = x * (1 - w) + lx * w;
+          y = y * (1 - w) + ly * w;
+          z = z * (1 - w) + lz * w;
+        } else {
+          const c = legAt(landmarks, leg, y);
+          const R = c.r + clearance;
+          const psi = legStart - (u - legCenter) / R; // arco positivo anda para a direita de quem olha
+          x = x * (1 - w) + (c.x + R * Math.cos(psi)) * w;
+          z = z * (1 - w) + (c.z + R * Math.sin(psi)) * w;
+        }
+      } else if (!leg && thighForward && y < landmarks.hip.y) {
+        // Saia/vestido na pose sentada: abaixo do quadril, acompanha o eixo da coxa.
+        const s = landmarks.hip.y - y;
+        const { p, dir, r } = legAxisAt(landmarks, "esquerda", s);
+        const w = Math.min(1, s / LEG_BLEND);
+        const f0 = { x: 0, y: 0, z: 1 };
+        const fa = dot(f0, dir);
+        const front = unit({ x: f0.x - dir.x * fa, y: f0.y - dir.y * fa, z: f0.z - dir.z * fa });
+        // Meio das duas coxas em (0, p.y, p.z); metade da frente sobe por cima das coxas, costas desce por baixo.
+        const rad = Math.sin(phi);
+        const sy = p.y + (r + clearance) * front.y * rad;
+        const sz = p.z + (r + clearance) * front.z * rad;
+        y = y * (1 - w) + sy * w;
+        z = z * (1 - w) + sz * w;
       }
       out[i * 3] = x;
       out[i * 3 + 1] = y;

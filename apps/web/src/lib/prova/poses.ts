@@ -4,6 +4,7 @@ import type { BodyPose } from "@alinhavo/cloth";
 export const POSE_OPTIONS: { id: BodyPose; name: string; hint: string }[] = [
   { id: "em-pe", name: "Em pé", hint: "Postura neutra" },
   { id: "passo", name: "Passo", hint: "A perna ao caminhar" },
+  { id: "sentada", name: "Sentada", hint: "A cintura, o quadril e a coxa ao sentar" },
   { id: "braco-dobrado", name: "Braço dobrado", hint: "A manga com o cotovelo dobrado" },
   { id: "bracos-abertos", name: "Braços abertos", hint: "A cava e a lateral" },
 ];

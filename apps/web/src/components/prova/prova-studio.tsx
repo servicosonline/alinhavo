@@ -273,7 +273,7 @@ export function ProvaStudio({ doc: sourceDoc, measurementsBySize, saveMode, appr
     /** A cena carrega à parte: o último "pronto" fica guardado até ela existir. */
     let lastReady: Extract<FromWorker, { type: "ready" }> | null = null;
     const show = (scene: ProvaScene, msg: Extract<FromWorker, { type: "ready" }>) => {
-      scene.setBody(msg.body.positions, msg.body.indices);
+      scene.setBody(msg.body.positions, msg.body.indices, msg.seat ?? null);
       scene.setGarment(msg.garment.positions, msg.garment.indices, colorRef.current, msg.decals, msg.garment.uv, msg.parts);
       scene.setEdges(msg.edges.lines, msg.edges.owner);
       paint(scene);

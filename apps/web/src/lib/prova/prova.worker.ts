@@ -22,6 +22,8 @@ import {
   realisticBuilder,
   realisticModel,
   buildRealistic,
+  bodySeat,
+  seatCollider,
   type Body,
   type BodyBuilder,
   type MakeHumanAsset,
@@ -201,9 +203,11 @@ async function build(setup: ProvaSetup, fresh: () => boolean = () => true) {
     body.landmarks,
   );
   const fabric = wears[0]!.physics;
+  const seat = setup.pose === "sentada" ? bodySeat(body) : null;
+  const colliders = [body.collider, floorCollider(0), ...(seat ? [seatCollider(seat)] : [])];
   const sim = createSimulation(
     meshes.map((mesh, i) => ({ mesh, initial: initial[i], fabric: placed[i]!.wear.physics, layer: placed[i]!.wear.layer })),
-    { fabric, seams, openings, colliders: [body.collider, floorCollider(0)], iterations: PROVA_ITERATIONS, sewingTime: PROVA_SEWING_TIME },
+    { fabric, seams, openings, colliders, iterations: PROVA_ITERATIONS, sewingTime: PROVA_SEWING_TIME },
   );
 
   // Área de cada triângulo no molde, na ordem da simulação (para o resumo).
@@ -227,12 +231,13 @@ async function build(setup: ProvaSetup, fresh: () => boolean = () => true) {
     frame: 0,
     table: setup.measurements,
     builder: made.builder,
-    colliders: [body.collider, floorCollider(0)],
+    colliders,
   };
 
   post({
     type: "ready",
     body: { positions: body.mesh.positions, indices: body.mesh.indices },
+    seat,
     garment: {
       positions: Float32Array.from(sim.positions),
       indices: Uint32Array.from(sim.triangles),

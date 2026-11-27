@@ -197,12 +197,17 @@ describe("condições do corpo", () => {
 });
 
 describe("poses e salto", () => {
-  it("em toda pose os pés tocam o chão e a cabeça fica na altura", () => {
+  it("em toda pose os pés tocam o chão e a cabeça fica na altura (sentada desce a coxa)", () => {
     for (const pose of BODY_POSES) {
       const r = yRange(createMannequin(TABELA_M, pose).mesh.positions);
       expect(r.min, pose).toBeGreaterThan(-1);
       expect(r.min, pose).toBeLessThan(2);
-      expect(r.max, pose).toBeGreaterThan(1600);
+      if (pose === "sentada") {
+        expect(r.max, pose).toBeGreaterThan(1200);
+        expect(r.max, pose).toBeLessThan(1400);
+      } else {
+        expect(r.max, pose).toBeGreaterThan(1600);
+      }
     }
   });
 
