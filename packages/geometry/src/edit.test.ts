@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   addRectPiece,
+  applyShrinkageCompensation,
   emptyDocument,
   moveHandle,
   moveSegment,
@@ -9,7 +10,9 @@ import {
   removePoint,
   renamePiece,
   setEdgeSeamAllowance,
+  setGrainlineAngle,
   setSeamAllowance,
+  setSegmentLength,
   splitSegment,
   toggleCurve,
   translatePiece,
@@ -265,5 +268,47 @@ describe("moveSegment", () => {
     expect(moveSegment(doc, "outra", 2, 10)).toBe(doc);
     expect(moveSegment(doc, "frente", 2, -700)).toBe(doc);
     expect(validatePattern(moveSegment(doc, "frente", 1, 25))).toEqual([]);
+  });
+});
+
+describe("setSegmentLength, setGrainlineAngle e applyShrinkageCompensation", () => {
+  it("setSegmentLength ajusta o comprimento exato de uma reta movendo o ponto final", () => {
+    const doc = documento();
+    const ajustado = setSegmentLength(doc, "frente", 0, 240); // cintura A->B era 200
+    expect(segmentLengths(peca(ajustado))[0]).toBeCloseTo(240, 5);
+    expect(peca(ajustado).points.B).toEqual({ x: 240, y: 0 });
+    // Recusa curva ou valor inválido
+    const curva = documento([saiaCurva()]);
+    expect(setSegmentLength(curva, "frente", 1, 500)).toBe(curva);
+    expect(setSegmentLength(doc, "frente", 0, 0)).toBe(doc);
+  });
+
+  it("setGrainlineAngle posiciona o fio em 0° (urdume), 90° (trama), 45° (viés) e remove com null", () => {
+    const doc = documento();
+    const urdume = peca(setGrainlineAngle(doc, "frente", 0)).grainline!;
+    expect(urdume.to.x - urdume.from.x).toBeCloseTo(0, 5);
+    expect(urdume.to.y - urdume.from.y).toBeGreaterThan(0);
+
+    const trama = peca(setGrainlineAngle(doc, "frente", 90)).grainline!;
+    expect(trama.to.y - trama.from.y).toBeCloseTo(0, 5);
+    expect(trama.to.x - trama.from.x).toBeGreaterThan(0);
+
+    const vies = peca(setGrainlineAngle(doc, "frente", 45)).grainline!;
+    expect(vies.to.x - vies.from.x).toBeCloseTo(vies.to.y - vies.from.y, 0);
+
+    expect(peca(setGrainlineAngle(doc, "frente", null)).grainline).toBeUndefined();
+  });
+
+  it("applyShrinkageCompensation amplia a parte na direção do urdume e da trama para compensar encolhimento", () => {
+    let doc = emptyDocument();
+    const r = addRectPiece(doc, { name: "Frente", width: 200, height: 500 });
+    doc = setGrainlineAngle(r.doc, r.pieceId, 0); // urdume = eixo Y, trama = eixo X
+    // 10% no urdume (Y) e 5% na trama (X): fator Y = 1 / 0.9, fator X = 1 / 0.95
+    const compensado = applyShrinkageCompensation(doc, 10, 5, r.pieceId);
+    const lens = segmentLengths(peca(compensado, r.pieceId));
+    expect(lens[0]).toBeCloseTo(200 / 0.95, 0); // largura (trama)
+    expect(lens[1]).toBeCloseTo(500 / 0.9, 0); // altura (urdume)
+    expect(applyShrinkageCompensation(doc, 0, 0)).toBe(doc);
+    expect(applyShrinkageCompensation(doc, 60, 0)).toBe(doc);
   });
 });

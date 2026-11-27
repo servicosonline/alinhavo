@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { removePiece, removePoint, splitSegment } from "./edit";
 import { documento, saiaCurva, saiaReta } from "./fixtures";
 import { migratePattern, validatePattern, type PatternDocument, type Piece } from "./pattern";
-import { addSeam, continuationSegments, removeSeam, seamAt, seamLengths } from "./seams";
+import { addSeam, continuationSegments, removeSeam, seamAt, seamIssuesAcrossSizes, seamLengths } from "./seams";
 
 function costas(): Piece {
   return { ...saiaReta(), id: "costas", name: "Costas" };
@@ -176,6 +176,23 @@ describe("seamLengths", () => {
     expect(l.a).toBeGreaterThan(600); // a lateral curva é mais comprida que a reta
     expect(l.diff).toBeGreaterThan(1);
     expect(l.diff).toBeCloseTo(l.a - l.b, 12);
+  });
+
+  it("seamIssuesAcrossSizes detecta costura que fecha no tamanho base mas abre nos tamanhos graduados", () => {
+    const c: Piece = {
+      ...costas(),
+      grading: {
+        ...costas().grading,
+        // No G a lateral das costas desce 25 mm em vez de 15 mm (diferença de 10 mm apenas no G)
+        C: { P: { x: -10, y: -15 }, G: { x: 10, y: 25 } },
+      },
+    };
+    const { doc } = addSeam(documento([saiaReta(), c]), { piece: "frente", segment: 1 }, { piece: "costas", segment: 1 });
+    expect(seamLengths(doc, "M").get("costura1")?.diff).toBe(0);
+    const issues = seamIssuesAcrossSizes(doc);
+    expect(issues).toHaveLength(1);
+    expect(Object.keys(issues[0]!.bySize)).toEqual(["G"]);
+    expect(issues[0]!.bySize.G!.diff).toBeCloseTo(-10, 5);
   });
 });
 

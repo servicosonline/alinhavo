@@ -486,3 +486,158 @@ export function translatePiece(doc: PatternDocument, pieceId: string, d: Point):
     return next;
   });
 }
+
+/**
+ * Ajusta o comprimento de um segmento reto movendo o seu ponto final (`to`)
+ * na direção atual do segmento. As alças adjacentes acompanham como em `movePoint`.
+ * Recusa segmento curvo ou comprimento menor que 1 mm.
+ */
+export function setSegmentLength(doc: PatternDocument, pieceId: string, index: number, lengthMm: number): PatternDocument {
+  if (!Number.isFinite(lengthMm) || lengthMm < 1 || lengthMm > 10_000) return doc;
+  const piece = doc.pieces.find((p) => p.id === pieceId);
+  if (!piece) return doc;
+  const seg = piece.outline[index];
+  if (!seg || seg.kind !== "line") return doc;
+  const fromId = segmentStart(piece, index);
+  const a = piece.points[fromId];
+  const b = piece.points[seg.to];
+  if (!a || !b) return doc;
+  const cur = distance(a, b);
+  if (cur < 1e-6 || Math.abs(cur - lengthMm) < 0.05) return doc;
+  const ux = (b.x - a.x) / cur;
+  const uy = (b.y - a.y) / cur;
+  return movePoint(doc, pieceId, seg.to, { x: a.x + ux * lengthMm, y: a.y + uy * lengthMm });
+}
+
+/**
+ * Define ou gira a linha de fio (`grainline`) da parte para um ângulo em graus
+ * em relação ao urdume vertical (0° = vertical/urdume, 90° = horizontal/trama, 45° = viés).
+ * Posiciona o fio no centro da caixa envolvente da parte com 60% da menor dimensão.
+ */
+export function setGrainlineAngle(doc: PatternDocument, pieceId: string, angleDeg: number | null): PatternDocument {
+  if (angleDeg !== null && !Number.isFinite(angleDeg)) return doc;
+  return updatePiece(doc, pieceId, (p) => {
+    if (angleDeg === null) {
+      if (!p.grainline) return null;
+      const next = { ...p };
+      delete next.grainline;
+      return next;
+    }
+    const pts = Object.values(p.points);
+    if (pts.length === 0) return null;
+    let minX = Infinity;
+    let minY = Infinity;
+    let maxX = -Infinity;
+    let maxY = -Infinity;
+    for (const q of pts) {
+      if (q.x < minX) minX = q.x;
+      if (q.y < minY) minY = q.y;
+      if (q.x > maxX) maxX = q.x;
+      if (q.y > maxY) maxY = q.y;
+    }
+    const cx = (minX + maxX) / 2;
+    const cy = (minY + maxY) / 2;
+    const span = Math.max(40, Math.min(maxX - minX, maxY - minY) * 0.55);
+    const half = span / 2;
+    // 0° = eixo Y (urdume vertical), 90° = eixo X (trama horizontal), 45° = viés.
+    const rad = (angleDeg * Math.PI) / 180;
+    const dx = Math.sin(rad) * half;
+    const dy = Math.cos(rad) * half;
+    return {
+      ...p,
+      grainline: {
+        from: { x: round(cx - dx), y: round(cy - dy) },
+        to: { x: round(cx + dx), y: round(cy + dy) },
+      },
+    };
+  });
+}
+
+/**
+ * Aplica compensação de encolhimento (urdume % e trama %) escalando as partes
+ * do molde a partir do centro de cada parte, ao longo do fio dela (urdume = direção
+ * do fio; trama = perpendicular ao fio). Se o tecido encolhe `s`% (0 < s <= 50),
+ * o molde é ampliado pelo fator `1 / (1 - s / 100)` para que, após lavar, volte
+ * à medida original.
+ */
+export function applyShrinkageCompensation(
+  doc: PatternDocument,
+  warpPct: number,
+  weftPct: number,
+  pieceId?: string,
+): PatternDocument {
+  if (!Number.isFinite(warpPct) || !Number.isFinite(weftPct)) return doc;
+  if (warpPct < 0 || warpPct > 50 || weftPct < 0 || weftPct > 50) return doc;
+  if (warpPct === 0 && weftPct === 0) return doc;
+  const kWarp = 1 / (1 - warpPct / 100);
+  const kWeft = 1 / (1 - weftPct / 100);
+
+  const scalePiece = (p: Piece): Piece => {
+    const pts = Object.values(p.points);
+    if (pts.length === 0) return p;
+    let minX = Infinity;
+    let minY = Infinity;
+    let maxX = -Infinity;
+    let maxY = -Infinity;
+    for (const q of pts) {
+      if (q.x < minX) minX = q.x;
+      if (q.y < minY) minY = q.y;
+      if (q.x > maxX) maxX = q.x;
+      if (q.y > maxY) maxY = q.y;
+    }
+    const cx = (minX + maxX) / 2;
+    const cy = (minY + maxY) / 2;
+
+    // Direção unitária do urdume (fio) na parte; padrão (0, 1).
+    let gx = 0;
+    let gy = 1;
+    if (p.grainline) {
+      const vx = p.grainline.to.x - p.grainline.from.x;
+      const vy = p.grainline.to.y - p.grainline.from.y;
+      const len = Math.hypot(vx, vy);
+      if (len > 1e-6) {
+        gx = vx / len;
+        gy = vy / len;
+      }
+    }
+    // Direção perpendicular (trama).
+    const wx = -gy;
+    const wy = gx;
+
+    const xform = (q: Point, center: Point): Point => {
+      const rx = q.x - center.x;
+      const ry = q.y - center.y;
+      const u = (rx * gx + ry * gy) * kWarp;
+      const v = (rx * wx + ry * wy) * kWeft;
+      return {
+        x: round(center.x + u * gx + v * wx),
+        y: round(center.y + u * gy + v * wy),
+      };
+    };
+
+    const center = { x: cx, y: cy };
+    const points: Record<string, Point> = {};
+    for (const [id, q] of Object.entries(p.points)) points[id] = xform(q, center);
+    const outline = p.outline.map((s): Segment =>
+      s.kind === "cubic" ? { ...s, c1: xform(s.c1, center), c2: xform(s.c2, center) } : s,
+    );
+    const next: Piece = { ...p, points, outline };
+    if (p.grainline) {
+      next.grainline = { from: xform(p.grainline.from, center), to: xform(p.grainline.to, center) };
+    }
+    if (p.grading) {
+      const grading: Record<string, Record<string, Point>> = {};
+      const zero = { x: 0, y: 0 };
+      for (const [ptId, bySize] of Object.entries(p.grading)) {
+        const g: Record<string, Point> = {};
+        for (const [sz, d] of Object.entries(bySize)) g[sz] = xform(d, zero);
+        grading[ptId] = g;
+      }
+      next.grading = grading;
+    }
+    return next;
+  };
+
+  if (pieceId) return updatePiece(doc, pieceId, scalePiece);
+  return { ...doc, pieces: doc.pieces.map(scalePiece) };
+}
