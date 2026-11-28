@@ -1,0 +1,852 @@
+{
+  "ok": true,
+  "data": {
+    "query": "peça piloto retrabalho modelagem confecção estudo de caso",
+    "scope": "all",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab",
+      "clinicaltrials"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 20,
+      "doab": 0,
+      "clinicaltrials": 0
+    },
+    "raw_records": 40,
+    "merged_records": 40,
+    "returned": 40,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref.",
+      "SEC EDGAR: set HYPERRESEARCH_CONTACT_EMAIL — the SEC rejects requests whose User-Agent carries no contact address (HTTP 403)",
+      "FRED: set FRED_API_KEY"
+    ],
+    "results": [
+      {
+        "title": "Diagnóstico da gestão do processo de desenvolvimento de produto: um estudo de caso na indústria de confecção do vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.22456/1983-8026.24102",
+        "doi": "10.22456/1983-8026.24102",
+        "year": 2012,
+        "authors": [
+          "Isabel Cristina Moretti",
+          "Aline Silva Culchesk",
+          "Aldo Braghini"
+        ],
+        "venue": "Produto & Produção",
+        "abstract": "O processo de desenvolvimento de produtos (PDP) é um diferencial para manter as empresas competitivas. Na indústria de confecção, o desenvolvimento de produto é dinâmico e sofre grande influência das variações do mercado. Neste contexto, para a estruturação do PDP se faz necessária a utilização de modelos que estabeleçam etapas sistematizadas para o processo. O presente trabalho tem como objetivo apresentar um caso de utilização de um modelo para fins de diagnóstico do processo de desenvolvimento de produto em uma indústria têxtil de confecção de vestuário. Para isso, é realizada uma análise do PDP na empresa estudada, tomando como base o modelo de referência de Rozenfeld et al., (2006). O método principal é o estudo de caso, e os instrumentos de coleta são entrevistas e visitas técnicas a empresa. Como resultado, tem-se uma análise do PDP da empresa e posterior verificação do nível de maturidade do processo de desenvolvimento de produto. A utilização do modelo de referência demonstrou ser eficiente, sendo um bom padrão para avaliação do nível de evolução da empresa em desenvolvimento de produtos. Foi possível concluir que a empresa estudada apresenta um nível de maturidade básico para o desenvolvimento de produtos, revelando haver a necessidade de se intensificarem os estudos para estruturação do PDP da mesma, vislumbrando, ainda, uma conseqüente otimização.",
+        "pdf_url": "https://seer.ufrgs.br/ProdutoProducao/article/download/24102/23210",
+        "citation_count": 6,
+        "work_type": "article",
+        "identifier": "W1802920236",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Estudo sobre a gestão de resíduos em uma indústria de confecção têxtil do município de Ponta Grossa - PR",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/23419",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Elisandra Montes Pizyblski"
+        ],
+        "venue": "Institutional Repository of the Federal Technological University of Paraná (RIUT) (Federal University of Technology – Paraná)",
+        "abstract": "This research was conducted in order to identify the waste generated in the production process of a textile manufacturing industry of the city of Ponta Grossa - PR. Solid wastes are present in almost all sectors of the textile production chain. The following topics were addressed in the literature review: characterization of the Brazilian textile industry, paranaense and pontagrossense, solid waste management, production processes that are part of the textile and clothing industries tools to minimize waste throughout the supply chain. The research is classified as a case study, carried out in a textile manufacturing in the city of Ponta Grossa - PR, grounded through a semi-structured interview and observation. With this research we could analyze the waste textiles, diagnose processes in which they were generated and show alternatives to waste.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W2803051293",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "O Processo de Desenvolvimento de Produtos de Moda baseado no Design Thinking um estudo de caso",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2012v3n2p51",
+        "doi": "10.5433/2236-2207.2012v3n2p51",
+        "year": 2012,
+        "authors": [
+          "Marina Xavier Cardoso",
+          "Ana Paula Perfetto Demarchi"
+        ],
+        "venue": "Projetica",
+        "abstract": "This article discusses the process of development of fashion products, a process that is rapidly changingface and constant exchange of information. Given this scenario, one approach stands out: designthinking. Therefore, this article aims to structure and suggest improvements to the development processof a product manufacturing industry, based on Design Thinking. For that was diagnosed in the processof product development and a proposal for intervention in order to strengthen the weaknesses identifiedby the analysis performed.",
+        "pdf_url": "https://ojs.uel.br/revistas/uel/index.php/projetica/article/download/13496/12179",
+        "citation_count": 12,
+        "work_type": "article",
+        "identifier": "W2038040563",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Inovações incrementais na indústria têxtil: um estudo de caso de otimização de set up",
+        "source": "openalex",
+        "url": "https://doi.org/10.38152/bjtv8n1-002",
+        "doi": "10.38152/bjtv8n1-002",
+        "year": 2025,
+        "authors": [
+          "Bruno Heryson Chaves Sobral",
+          "Ênio Antunes Rezende"
+        ],
+        "venue": "Brazilian Journal of Technology",
+        "abstract": "Em um contexto mercadológico crescentemente dinâmico e competitivo, eliminar desperdícios e promover a melhoria contínua, passou a ser um pré-requisito no desenvolvimento de empresas e processos produtivos. O objetivo do presente trabalho é analisar as possibilidades de inovações incrementais a partir da identificação e análise desperdícios existentes nas máquinas Sem Costura do setor de malharia, em uma Industria têxtil localizada no Sul da Bahia. Para tanto, a metodologia PDCA foi utilizada aliada a algumas ferramentas da qualidade como: Brainstorming, Diagrama de Pareto, Fluxograma e o 5W1H. Por meio dessas ferramentas, foram encontradas falhas no processo de parada de máquinas para produção de uma nova peça. Ademais a Troca Rápida de Ferramenta proposta por Shingo foi utilizada para mitigar as falhas no processo e apresentou resultado significativo, causando 27,8% de redução do tempo de set up o que consequentemente aumentou a disponibilidade de máquina.",
+        "pdf_url": "https://ojs.brazilianjournals.com.br/ojs/index.php/BJT/article/download/76489/53194",
+        "citation_count": 9,
+        "work_type": "article",
+        "identifier": "W4406198054",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Instituições públicas de ensino superior: estudo de casos de aperfeiçoamento de processos administrativos.",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.3.2007.tde-09082007-181330",
+        "doi": "10.11606/d.3.2007.tde-09082007-181330",
+        "year": 2007,
+        "authors": [
+          "Monica Rottmann de Biazzi"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "During the past two decades, the public sector has been under pressure for improving its performance and showing more transparency and assessment of results. Historically, the Brazilian public sector has developed a departmental and bureaucratic structure, which makes difficult the activity coordination and service efficiency and efficacy. In this scenario, some public institutions of the Brazilian public sector have searched for improvements in its modus operandi. Process approach provides an alternative to the static and fragmented structure of organization, providing a systemic vision, focused on the customer or citizen. In this context, the object of the present study were Public Institutions of Undergraduate Education (PIUE), focusing on their administrative processes. The objectives reached with this work were: study of administrative PIUE characteristics, their modus operandi and organizational culture; research of process improvement methodologies, developed both in private and public sectors; multiple-case study of administrative process improvement in PIUE; identification of patterns and differences in the studied cases, evaluating viable models in different situations; and, finally, proposal of a model for administrative process improvement in PIUE, based on the studied cases. The methodology used was multiple-case study, with qualitative approach. Data were collected through direct observation (authors participated in cases as consultants), documental analysis and semi-structured interviews. As conclusion of the present work, it was possible to identify activities that must be emphasized in leading change interventions in Brazilian PIUE: (1) Prepare organization to intervention - essential to change success and necessary to obtain an appropriate comprehension of interventions\\' objectives and the compromise of all, including high direction; (2) Implement process improvement with active participation of employees, which must have high autonomy level in generating improvement suggestions, in order to obtain more motivation and less change resistance; (3) Capacitate organizations employees, diffusing the concepts and techniques used during intervention, with the objective of obtaining active participation and improving motivation and work comprehension; (4) Report the results obtained to motivate work continuity; (5) Create an internal group, to support process owners and continue with the work. Considering that there are few academic studies about process improvement in the Brazilian public sector, the results obtained in this work consist of contribution to theory, since they enclose specific aspects of the public sector and their influence in improvement programs. Moreover, given the major need for improvement of the administrative processes of the sector, the cases description and the analysis of the interventions\\' results present evident practical application, because they provide a base for future work.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/3/3136/tde-09082007-181330/publico/DissertacaoMonicaRottmanndeBiazzi.pdf",
+        "citation_count": 24,
+        "work_type": "thesis",
+        "identifier": "W1930048053",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Planejamento de produto e fluxo informacional em empresas do setor de confecção",
+        "source": "openalex",
+        "url": "https://doi.org/10.23972/det2019iss18pp32-50",
+        "doi": "10.23972/det2019iss18pp32-50",
+        "year": 2019,
+        "authors": [
+          "Letícia Cunico",
+          "Claudelino Martins Dias"
+        ],
+        "venue": "Design e Tecnologia",
+        "abstract": "Empresas que trabalham orientadas ao consumidor são pressionadas a buscar inovações constantes em curtos prazos para o lançamento de produtos. Assim, para tornarem-se competitivas, empregam processos e ferramentas que possam qualificar informações para decisões. A preocupação em vender de forma eficiente condiciona a oferta de produtos a valores e desejos do consumidor, desafiando o desempenho comercial do setor confecção. O presente estudo parte do preceito que um melhor desempenho comercial esteja atrelado ao planejamento e desenvolvimento do produto, por meio do aperfeiçoamento do uso da informação. Nesse sentido, propõe: identificar os elementos formadores do planejamento de produto na indústria; analisar as características dos modelos de referência no planejamento do uso da informação, especialmente em empresas do setor de confecção. Para definir preliminarmente o problema de pesquisa e determinar sua relevância, importância e oportunidade do estudo, foi realizada uma revisão sistemática da literatura. Ademais, quanto à classificação da metodologia, utiliza a pesquisa qualitativa básica, destinada à ampliação do conhecimento. Quanto aos objetivos, o trabalho apresenta-se como descritivo, tendo como parâmetro o estudo do planejamento de produto e do fluxo informacional. Como resultados constam a identificação dos elementos formadores do planejamento de produto e do fluxo informacional correspondente. Elementos esses que podem subsidiar a percepção de melhorias ao gerenciamento do contexto de Planejamento de produto em empresas do setor de confecção.",
+        "pdf_url": "https://www.ufrgs.br/det/index.php/det/article/download/527/278",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W2978247048",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Modelagem através do CLO3D : redução de custos no processo de pilotagem e produção têxtil",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/003273578",
+        "doi": "10.11606/003273578",
+        "year": 2022,
+        "authors": [
+          "Barbara Baptista Navarra"
+        ],
+        "venue": null,
+        "abstract": "Durante o processo de desenvolvimento do produto, o estilista pode realizar alterações no modelo, o que gera o desenvolvimento de várias peças pilotos - protótipos, confeccionadas a partir do desenho enviado pela estilista. O processo de repilotagem não só causa desperdício têxtil, mas também causa atrasos nos processos de desenvolvimento da coleção. Nesse contexto é inserido o software CLO3D, utilizado por profissionais de moda para desenvolver o design, modelagem, ajustes e modificações do produto. O seguinte trabalho objetiva avaliar determinados aspectos do processo de produção de vestuário, tendo como objeto de estudo uma empresa paulista de Private Label, através da modelagem manual (moulage e plana) e, posteriormente, modelagem no Audaces. A partir dessa avaliação, será realizado uma análise de três modelos produzidos pela empresa, realizando o mesmo processo através do software CLO3D, comparando o consumo e resíduos gerados pelas duas formas de modelar.",
+        "pdf_url": "https://bdta.abcd.usp.br/directbitstream/2fa50599-945d-4c8d-b097-3eb7951a1672/Te0086-Navarra.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7204466171",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Diretrizes para o ensino de modelagem do vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2013.tde-19022014-213611",
+        "doi": "10.11606/d.100.2013.tde-19022014-213611",
+        "year": 2013,
+        "authors": [
+          "Danielle Paganini Beduschi"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This research discusses historical analysis of methodologies for pattern making teaching and proposes the development of guidelines for teaching. The study presents a historical survey about the various techniques and methods used since the 1960s, making a balance between method and socio-cultural period in order to search for techniques to facilitate the learning process under discussion. The analysis of the main pattern making techniques used over time, the curricula of leading Fashion Graduation programs, and the research with professional educators, will provide a broad overview of what can be used to optimize the learning process and what should be discarded for not favoring a faster and better training. After the study in question, this project proposes a set of guidelines that encourage the transformation of the student in a qualified professional to act in Pattern making clothing.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-19022014-213611/publico/DanielleBeduschirevisaoOutubro.pdf",
+        "citation_count": 16,
+        "work_type": "thesis",
+        "identifier": "W2163966604",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Melhoria de processos em empresas do setor de varejo no Brasil: estudo de casos.",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.3.2011.tde-31102011-123456",
+        "doi": "10.11606/d.3.2011.tde-31102011-123456",
+        "year": 2011,
+        "authors": [
+          "Gabriel Bassetti Martinho"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "Retail market is said to be highly competitive and dynamic, demanding excellence in the operation in order to obtain good results. Companies from that sector need to adapt the business management to the reality experienced by improving process performance in order to make them more effective, efficient and integrated. As far as the academic production goes, the growing number of published articles related to empirical research of processes management, either continuous or radical improvement, shows an increasing interest in the field research on this subject. The literature provides examples of process improvement in various economic sectors such as manufacturing, services, education, health, finance and government. However, there are few reports on process improvement in Brazilian retail companies using process approach. In this sense, this paper seeks to contribute to the theory evolution, and it could be a basis for future research related to process improvement and retail. The object of this study are large companies in the Brazilian retail sector that have an area dedicated to the improvement of their processes. This work reached the following objectives: to identify how these companies define processes, how they map their processes and which of these processes are selected to be improved; to describe how they plan and organize activities to make process improvement; to analyze how these companies operate to implement processes improvement, identifying difficulties and critical success factors; in addition, to examine how companies use indicators to put in evidence processes improvement. From case studies, this paper develops a qualitative analysis of the way three of the largest Brazilian retail companies tackle with process improvement. Qualitative methods to collect and analyze data from multiple sources of evidence were employed: semi-structured interviews with managers and consultants in the concerned areas, analysis of official documents as well as direct and participant observation in the work evolution during the studied period. Within its limitations, this study reveals that if large retail companies have an area dedicated to processes continuous improvement, the process culture is nonetheless recent and its concepts are applied as maturity of the company in quality.knowledge emerges. It is usually administrative and support processes that are selected for improvement, not necessarily aligned with corporate strategic goals, neither directly related to the business model of the organization or the end customer, since the choice depends on the sponsor area interest of that process improvement project. The Process area is recognized as the responsible for structuring processes, acting in a coordinated and disciplined way, highlighting planning before execution, without losing focus on the desired end result, promoting partnerships among other areas and a sense of joint participation in the implementation of new process. The studied companies have no common methodology for improving processes, each of them adapts existing methodologies to the local culture and reality, taking into consideration benchmarking and team experience. Among the improvement projects, processes have formally assigned owners responsible for their implementation, and they may (or not) be disseminated to all hierarchical levels of the company. In addition, companies experience in an idiosincratic way difficulties (human; time and financial resources; technique, technology and methodology; policy and management) and critical success factors (top management support; strategic alignment; performance evaluation and demonstration effect, the presence of leadership; effective use of information technology; communication and knowledge transfer; rigorous on implementation of improvements; change management in human resources; careful selection of employees; and market competition). The use of indicators, if any, aims at creating historical data to analyze and evaluate potential for continuous improvement of that process and they are not, once more, formally aligned neither with the strategic perspective of the company nor related to the final customer. Although relatively well under way, companies still have some time to reach maturity in process management and to improve processes that add value directly to the final customer.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/3/3136/tde-31102011-123456/publico/Dissertacao_Gabriel_Bassetti_Martinho.pdf",
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W1760498016",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Planejamento de processo automático para peças paramétricas",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.11606/d.18.1997.tde-28062024-110122",
+        "doi": "10.11606/d.18.1997.tde-28062024-110122",
+        "year": 1997,
+        "authors": [
+          "Haroldo Thomaz Kerry"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "The CAPP (Computer Aided Process Planning) acts on process planning as CAD (Computer Aided Design) acts on part design, and has acquired more and more importance to balance the manufacturing integration efforts. Despite its strategic position, CAPP systems application is not very large, due to its history of trials to automate human reasoning and its inherent complexity. In this work the development and practical application of an automatic CAPP system for parametric parts will be shown, where automation is focused on the use of mathematical formulas for process tooling calculation and automatic generation of drafts for helping the shop floor.",
+        "pdf_url": null,
+        "citation_count": 8,
+        "work_type": "thesis",
+        "identifier": "W4400109730",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Modelo De Aperfeiçoamento Do Processo De Desenvolvimento Na Indústria Da Manufatura Da Confecção",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2023.v14.n3.49258",
+        "doi": "10.5433/2236-2207.2023.v14.n3.49258",
+        "year": 2023,
+        "authors": [
+          "Marcelo Silva",
+          "Rodolfo Miranda de Barros",
+          "Sebastião Ribeiro Xavier Júnior"
+        ],
+        "venue": "Projetica",
+        "abstract": "O conceito de processos mais enxutos, redução de custo de mão de obra e materiais aplicados na cadeia produtiva tem sido cada vez mais empregados nos meios de trabalho, principalmente quando se fala da indústria de manufatura da confecção, que tem como fator crítico de seu processo os custos envolvidos em sua cadeia de desenvolvimento e produção, comparando-se, principalmente, com a produção dos países asiáticos. Diante deste cenário, o objetivo desta pesquisa é, a partir das análises dos processos envolvidos na área de criação e desenvolvimento de produtos na manufatura da confecção e do emprego de metodologias, tais como os conceitos de produção enxuta e da melhoria contínua do seis sigma, compreender, mapear e propor melhoria nos processos envolvidos no desenvolvimento e produção, visando construir uma modelo de ferramenta computacional de banco de dados, que permita ao usuário desenvolvedor uma rápida e assertiva tomada de decisão sobre os produtos a serem desenvolvidos.",
+        "pdf_url": "https://ojs.uel.br/revistas/uel/index.php/projetica/article/download/49258/49804",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4390114588",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "APLICAÇÃO DO FMEA PARA ANÁLISE E REDUÇÃO DE RETRABALHOS NO PROCESSO DE COSTURA EM UMA INDÚSTRIA DE BONÉS NO NORTE DO PARANÁ",
+        "source": "openalex",
+        "url": "https://doi.org/10.14488/enegep2026_tn_st_439_2173_53572",
+        "doi": "10.14488/enegep2026_tn_st_439_2173_53572",
+        "year": 2026,
+        "authors": [
+          "Alexandre José Sousa Ferreira",
+          "Nívea Taís Vila",
+          "André Luiz Gazoli de Oliveira",
+          "PAMELA GABRIELLE ROSE LIDUÁRIO"
+        ],
+        "venue": "Anais ... Encontro Nacional de Engenharia de Produção/Anais do Encontro Nacional de Engenharia de Produção",
+        "abstract": "Este trabalho aplicou o mtodo FMEA (Failure Mode and Effects Analysis) ao setor de preparao da costura de uma indstria de confeco de bons localizada em Apucarana (PR), cidade conhecida como a Capital Nacional do Bon. A partir de observaes diretas no cho de fbrica, entrevistas com operadores e anlise de registros internos de retrabalho referentes ao perodo de janeiro a julho de 2025, foram identificados oito modos de falha distribudos entre quatro operaes do setor de preparao: costurinha, aba, pesponto e traseiro. Os modos de falha foram avaliados pelos ndices de Severidade (S), Ocorrncia (O) e Deteco (D), gerando o Nmero de Prioridade de Risco (RPN) para priorizao das aes. As principais causas identificadas foram regulagem emprica das mquinas e ausncia de procedimentos padronizados. As aes propostas incluram a criao de Procedimentos Operacionais Padro (POPs), padronizao de regulagens, checklist de primeira pea e rotina de manuteno preventiva. A simulao ps-melhoria indicou reduo dos RPNs entre 50% e 87,5%. A anlise econmica demonstrou custo mensal da no qualidade de R$ 928,55, com projeo de reduo para R$ 245,69 aps as melhorias, gerando economia mensal de R$ 682,86 e payback de aproximadamente 16 dias. Os resultados confirmam o potencial do FMEA como instrumento de melhoria contnua em ambientes produtivos com alta dependncia da habilidade humana.",
+        "pdf_url": "http://www.abepro.org.br/biblioteca/TN_ST_439_2173_53572.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W7225048414",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Utilização de big data analytics nos sistemas de medição de desempenho: estudos de caso",
+        "source": "openalex",
+        "url": "https://repositorio.ufscar.br/handle/20.500.14289/3784",
+        "doi": null,
+        "year": 2015,
+        "authors": [
+          "RAQUEL GAMA SOARES DE MELLO"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Big data is associated with large amounts of data of different types that come from different sources in a very fast way, able to add value to business and with veracity. Nowadays, many companies are looking for ways to extract useful information from this huge amount of data. This can be attained applying analytical techniques. The application of these techniques to big data is denominated big data analytics. It can influence how managers make their decisions and manage the company businesses. This influences the use of performance measurement systems (PMSs). These systems are composed by a multidimensional set of performance measures that can support decision making and business planning. This way, performance measurement systems and big data analytics can be used to support decision making and the implementation of actions. There is evidence, in the literature, that big data analytics can be used in performance measurement systems. Following this context, this study aims at investigating how companies apply the big data analytics in using performance measurement systems. To achieve this objective, a systematic literature review was carried out for checking existing studies on the relationship between big data and performance measurement system. Then, case study method was applied. The empirical findings showed that big data analytics supports the decision making process, making it more efficient and effective. The results showed that big data analytics helps PMS identify, through analyses, how past actions can influence the future performance. Such analyses are in essence descriptive and predictive and it was applied in sales process. The empirical findings from the case studies showed that big data analytics contributes mainly to the use of PMSs related to planning and to influencing behavior. Therefore, it is possible to conclude that there is a contribution when big data analytics is used in performance measurement system.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W2779902161",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Automação de processos e eficiência operacional: um estudo de caso em uma incorporadora imobiliária de Uberlândia",
+        "source": "openalex",
+        "url": "https://doi.org/10.14393/mip-v6n3-2025-78881",
+        "doi": "10.14393/mip-v6n3-2025-78881",
+        "year": 2025,
+        "authors": [
+          "Eduardo Rezende de Sousa Cecílio",
+          "Jean Carlos Domingos"
+        ],
+        "venue": "Management in Perspective",
+        "abstract": "Este artigo avalia o impacto da automação de processos na eficiência operacional de uma incorporadora imobiliária de Uberlândia. Com a integração de sistemas via APIs e RPA como premissa central, mostra‑se como fluxos automatizados reduzem erros e ampliam a produtividade. A análise apoia‑se na literatura sobre transformação digital e vantagem competitiva e adota um estudo de caso qualitativo que combina questionários, observação participante e documentação interna. A empresa investigada opera um ecossistema digital integrado formado por ERP, plataforma colaborativa, bot de atendimento e ferramentas intermediárias responsáveis por orquestrar scripts automatizados. Entre as rotinas analisadas, destacam‑se a emissão automatizada do documento “Nada Consta” e a consulta de disponibilidade de lotes, cujos tempos de execução foram substancialmente reduzidos após a automação. Os dados coletados evidenciam economia de tempo, diminuição de falhas manuais e liberação de colaboradores para tarefas analíticas, mas também revelam desafios ligados à capacitação técnica e à resistência a mudanças. Observou‑se que a empresa ainda não utiliza indicadores formais de desempenho; os ganhos são avaliados empiricamente, indicando oportunidade para estabelecer métricas que consolidem a evolução dos resultados. Conclui‑se que a automação, quando planejada em consonância com a estratégia corporativa e sustentada por cultura de inovação, fortalece a competitividade organizacional, exigindo monitoramento constante para expandir benefícios e estimular novos processos orientados a dados e melhoria contínua.",
+        "pdf_url": "https://seer.ufu.br/index.php/RevistaMiP/article/download/78881/42458",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4416877327",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "ANÁLISE ERGONÔMICA COMPARATIVA ENTRE TRÊS METODOLOGIAS DE MODELAGEM DO VESTUÁRIO A PARTIR DAS HEURÍSTICAS DE NIELSEN",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/16ergodesign-0066",
+        "doi": "10.5151/16ergodesign-0066",
+        "year": 2017,
+        "authors": [
+          "Raquel Pizzolato de Oliveira",
+          "Bruna Marina Bischoff"
+        ],
+        "venue": null,
+        "abstract": "A análise ergonômica apresentada neste artigo consiste em comparar a usabilidade de três métodos distintos de modelagem do vestuário: Modelagem Plana, Moulage e Modelagem em CAD, a partir do conjunto das dez heurísticas definidas por Nielsen, a fim de identificar qual método atinge a meta desejada e satisfaz melhor as necessidades do usuário.",
+        "pdf_url": "http://pdf.blucher.com.br/designproceedings/16ergodesign/0066.pdf",
+        "citation_count": 2,
+        "work_type": "other",
+        "identifier": "W2751901636",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "MODELAGEM EM EXPERIMENTOS FATORIAIS REPLICADOS PARA MELHORIA DE PROCESSOS INDUSTRIAIS TÊXTEIS",
+        "source": "openalex",
+        "url": "https://doi.org/10.17771/pucrio.acad.24390",
+        "doi": "10.17771/pucrio.acad.24390",
+        "year": 2014,
+        "authors": [
+          "Aline Ramos Borges"
+        ],
+        "venue": null,
+        "abstract": "Esta dissertação descreve a aplicação de Modelos Lineares Generalizados (MLGs) à análise de um experimento visando identificar a combinação dos níveis das variáveis independentes: concentração de hidróxido de sódio (A), volume de hipoclorito de sódio (B) e sua interação (AB), que minimiza a variável resposta: proporção de itens com defeitos, em um processo de beneficiamento numa indústria têxtil de pequeno porte. A variável resposta encontra-se na forma de proporção, violando os pressupostos básicos do Modelo Linear Clássico e com isso as estimativas dos coeficientes pelo método de Mínimos Quadrados Ordinários (MQO) é menos confiável. O planejamento utilizado foi o fatorial completo 22 com ponto central e replicado. Após o planejamento, a modelagem pelo MLG é aplicada, só então é possível identificar uma subdispersão dos dados, verificar que o modelo empregado está correto e que o volume de hipoclorito de sódio (B) é o único fator significativo, no processo de alvejamento industrial da empresa. Portanto, como a finalidade é minimizar a resposta, utiliza-se o nível inferior (-1) desta variável. Consequentemente, como o intuito é reduzir os custos com insumos químicos pode-se utilizar o nível mínimo da concentração de hidróxido de sódio (A) e o nível máximo da interação entre os fatores (AB), já que eles não são significativos ao modelo.",
+        "pdf_url": "https://www.maxwell.vrac.puc-rio.br/24390/24390.PDF",
+        "citation_count": 15,
+        "work_type": "thesis",
+        "identifier": "W4233154912",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Processo de desenvolvimento de produto : um estudo para a indústria têxtil",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/6151",
+        "doi": null,
+        "year": 2004,
+        "authors": [
+          "Marisa Beatriz Poletto Jordan"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "Esta dissertação apresenta uma abordagem para a gestão do Processo de Desenvolvimento de Produto (PDP) para empresas do setor têxtil. A gestão refere-se à proposição de uma alternativa de modelo referencial genérico de Desenvolvimento de Produtos para este setor. Como ponto de partida apresenta-se uma análise da situação atual do desenvolvimento do setor, através de pesquisas exploratórias que revelam a necessidade de uma metodologia e definição dos processos de desenvolvimento para que as empresas possam elevar seu nível de competitividade. Para a realização da proposta, foram utilizados conceitos de Desenvolvimento Integrado de Produtos e uma análise através de pesquisa exploratória das dificuldades do setor. Como principal contribuição este trabalho apresenta um modelo referencial para auxiliar as empresas a planejarem seus processos de desenvolvimento e assim aumentarem as chances de sucesso do produto.",
+        "pdf_url": "https://lume.ufrgs.br/bitstream/10183/6151/1/000481618.pdf",
+        "citation_count": 16,
+        "work_type": "thesis",
+        "identifier": "W1568608892",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "GESTÃO DA QUALIDADE NA INDÚSTRIA DE CONFECÇÃO: UMA ANÁLISE DE NÃO CONFORMIDADE POR MEIO DA APLICAÇÃO DE FERRAMENTAS DA QUALIDADE",
+        "source": "openalex",
+        "url": "https://doi.org/10.14488/enegep2025_tn_wg_427_2094_50037",
+        "doi": "10.14488/enegep2025_tn_wg_427_2094_50037",
+        "year": 2025,
+        "authors": [
+          "Leopoldo Pedro Guimarães Filho",
+          "PETERSON VIEIRA CASTRO",
+          "Vilson Menegon Bristot",
+          "Mateus Alexandre Floriano",
+          "MARIA EDUARDA ZOCHE FERREIRA"
+        ],
+        "venue": "Anais ... Encontro Nacional de Engenharia de Produção/Anais do Encontro Nacional de Engenharia de Produção",
+        "abstract": "Este estudo teve como objetivo geral da pesquisa consiste em analisar o registro de dados do Sistemas, Aplicativos e Produtos em Processamento de Dados (SAP) utilizado no processo de cadastro de informaes em uma indstria de confeco localizada no sul de Santa Catarina. Para alcanar o objetivo geral, prope-se os seguintes objetivos especficos: i) identificar as no conformidades geradas pelo setor Garantia da Informao na indstria de confeco; ii) aplicar ferramentas da qualidade que contribuam com a identificao das causas das no conformidades; iii) sugerir aes para soluo dos problemas encontrados no controle da produo na indstria de confeco pesquisada. A anlise, combinada com ferramentas da qualidade, mostrou que a ausncia de informaes no desenvolvimento das peas gerava atrasos, desperdcios e aumento de custos, assim, foi possvel sugerir aes corretivas que incentivaram a melhoria contnua e otimizao dos processos. Os objetivos foram alcanados, com benefcios evidentes para a empresa, destacando-se a eficcia do uso dos Diagramas de Pareto e de Ishikawa na estruturao dos problemas enfrentados.",
+        "pdf_url": "http://www.abepro.org.br/biblioteca/TN_WG_427_2094_50037.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4415895678",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Proposição de um framework para criação de células de trabalho em compras hospitalares: estudo de caso único em um hospital público",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.18.2020.tde-07122021-163222",
+        "doi": "10.11606/d.18.2020.tde-07122021-163222",
+        "year": 2020,
+        "authors": [
+          "Felix Amancio de Sousa"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "As a result of the increased demand for high-quality services in the healthcare environment, the managers began to adopt Lean tools and techniques that were originally applied in the industrial field, and are now adopted to the service environment, call it Lean Office, to reduce waste, improve the quality of service processes, and customer satisfaction. With the specific focus on the process of hospital purchases, are found opportunities for improvement, aiming at the competitiveness and survival of the organization, as well as improvements in this key process can bring substantial advantages, especially in public offices, that work with budget restrictions and an operational structure, still very functional, causing segmented and time-consuming processes. Among the Lean techniques for improving office processes, the use of work cells can be an ally, with the purpose to have your employees closer, improve communication, reduce excessive transportation and create cross-functional teams, consequently, reduce operations lead time and leverage the quality of services. Based on this, the present study aims to propose a framework for the implementation of work cells in purchasing environment. To achieve this objective, the methodology adopted is based on exploratory and systematic literature reviews, to bring concepts, applications, indicators, and structures used to deploy work cells in service. In the practical part, an exploratory-descriptive case study was also used to analyze an environment that has work cells with consolidated maturity and to investigate the process of implantation and operation up to the current stage. With the result of the contributions, both theoretical and practice, the framework was structured in 4 phases to develop work cells in purchases. Initially, the project phase analyzes the key elements and the flow of operations performed, then the project is put to the test in the pilot phase, and then be executed in the next phase, finally, the framework suggests the constant monitoring of indicators and that they are analyzed with the objective of achieving incremental improvements in the work cell. It is hoped that the developed structure can assist purchasing managers in the application of work cells in the sector, coupled with other Lean Office tools, provide reduce operations lead time, improve communication, and problem-solver. In addition, it is suggested as the main research opportunity, the use of the model in a new purchase environment, with the possibility to improve and validate the proposed framework.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/18/18156/tde-07122021-163222/publico/FelixAmanciodeSousaJuniorDEFINITIVO.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4200609220",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Contribuição ao estudo de materiais, processos e modelos utilizados na fabricação de joias em larga escala",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/67834",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Mariana Pohlmann de Oliveira"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "Tendo em vista ganhos expressivos na inovação e na competitividade, o setor joalheiro nacional busca constantemente incorporar novos recursos a fim de eliminar erros e agilizar a fabricação de modelos. Dentre as diversas tecnologias passíveis de serem empregadas na produção de joias, a usinagem CNC, é amplamente utilizada por empresas de todos os portes. A usinagem, associada à microfusão, aprimora o processo de produção de joias em larga escala, pois reduz o índice de retrabalho, de perda de material e garante maior qualidade e produtividade mantendo a expressividade formal da peça original. O presente trabalho propõe um estudo acerca das tecnologias de modelagem do setor joalheiro, dando foco aos processos de fresamento. Com o auxílio da digitalização tridimensional, foi feita uma análise comparativa das etapas envolvidas no processo de fabricação de joias. Foi possível verificar, pelos resultados obtidos, que a influência da velocidade de avanço no acabamento das peças: velocidades mais baixas resultaram em superfícies com menor rugosidade aparente e permitiram a obtenção de seções mais estreitas. Além disso, os ensaios possibilitaram a definição das velocidades adequadas para a relação produtividade versus acabamento. Foram ainda determinadas relações entre as propriedades mecânicas do material e os parâmetros testados, comprovando-se que, dentre as ceras estudadas, aquela de maior dureza (63 na escala Shore D) resulta em melhores condições de acabamento. Este trabalho indica a viabilidade de otimização do processo de fabricação de joias, pois avalia as condições de usinagem em relação ao tempo, bem como a possibilidade de redução das operações de acabamento realizadas após obtenção dos modelos por usinagem. Análises realizadas por digitalização tridimensional indicam que o principal ponto de perda dimensional é a etapa de confecção dos moldes de borracha de silicone e injeção de cera, seguido pela usinagem dos modelos. Entretanto, se esse significativo desvio resultante da produção dos moldes e da injeção for corrigido, a qualidade superficial dos modelos obtidos por usinagem CNC passa a ser fundamental. Esses processos devem, portanto, ser reavaliados, a fim de reduzir os erros gerados nas etapas intermediárias da produção de joias em larga escala.",
+        "pdf_url": "https://lume.ufrgs.br/bitstream/10183/67834/1/000869699.pdf",
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W283417501",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "MODELAGEM DE SISTEMAS SÓCIO-TÉCNICOS: ESTUDO DE CASO DE UM PILOTO AUTOMÁTICO PARA AUTOMÓVEL",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.14128",
+        "doi": "10.17771/pucrio.acad.14128",
+        "year": 2015,
+        "authors": [
+          "KARLA CLEMENTE"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.14128",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "UMA ANÁLISE SOBRE O PLANEJAMENTO ESTRATÉGICO: ESTUDO DE CASO APLICADO A UMA EMPRESA DE CONFECÇÃO TÊXTIL",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.63447",
+        "doi": "10.17771/pucrio.acad.63447",
+        "year": 2023,
+        "authors": [
+          "LUCAS MOSSI COELHO"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.63447",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "Contribuição ao estudo da modelagem de sistemas hidroviários: estudo de caso na Hidrovia Tietê-Paraná",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2024.1408753",
+        "doi": "10.47749/t/unicamp.2024.1408753",
+        "year": 2025,
+        "authors": [
+          "Vinicius Silva Caruso"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2024.1408753",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Modelagem matemática para a otimização da produção de cafés finos: um estudo de caso",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.11.2008.tde-30052008-160948",
+        "doi": "10.11606/d.11.2008.tde-30052008-160948",
+        "year": 2015,
+        "authors": [
+          "Patrícia Milan"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.11.2008.tde-30052008-160948",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Aplicao da Tcnica de Modelagem de Misturas na Formulao de Aditivos - Estudo de Caso",
+        "source": "crossref",
+        "url": "https://doi.org/10.71190/2001-1pdpetro-qa/qui-045",
+        "doi": "10.71190/2001-1pdpetro-qa/qui-045",
+        "year": 2025,
+        "authors": [],
+        "venue": "Anais do 1º PdPetro",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.71190/2001-1pdpetro-qa/qui-045",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "ABPG"
+        }
+      },
+      {
+        "title": "MODELAGEM E SIMULAO DE UM VASO SEPARADOR BIFSICO HORIZONTAL: UM ESTUDO DE CASO",
+        "source": "crossref",
+        "url": "https://doi.org/10.71190/2017-9pdpetro-71784",
+        "doi": "10.71190/2017-9pdpetro-71784",
+        "year": 2025,
+        "authors": [],
+        "venue": "Anais do 9º PdPetro",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.71190/2017-9pdpetro-71784",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "ABPG"
+        }
+      },
+      {
+        "title": "O mal-das-cadeiras em capivaras: estudo, modelagem e simulação de um caso",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2002.270941",
+        "doi": "10.47749/t/unicamp.2002.270941",
+        "year": 2021,
+        "authors": [
+          "Silvio de Alencastro Pregnolatto"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2002.270941",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "APLICAÇÃO DE MODELAGEM MATEMÁTICA NA OTIMIZAÇÃO DA DISTRIBUIÇÃO DE ASFALTOS NO BRASIL: UM ESTUDO DE CASO",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.24397",
+        "doi": "10.17771/pucrio.acad.24397",
+        "year": 2015,
+        "authors": [
+          "LEONARDO NOGUEIRA FINAMORE"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.24397",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "Modelagem matemática de doenças infecciosas considerando heterogeneidade etária: estudo de caso de rubéola no Mexico",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2011.802485",
+        "doi": "10.47749/t/unicamp.2011.802485",
+        "year": 2021,
+        "authors": [
+          "Cíntia Dalila Soares"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2011.802485",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Integração de Dados LiDAR e batimétricos na modelagem hidrológica: estudo de caso - Rio Piranhas-Açu",
+        "source": "crossref",
+        "url": "https://doi.org/10.47328/ufvbbt.2025.378",
+        "doi": "10.47328/ufvbbt.2025.378",
+        "year": 2025,
+        "authors": [
+          "Victória Gibrim Teixeira"
+        ],
+        "venue": null,
+        "abstract": "A modelagem hidrológica é fundamental para a gestão eficiente dos recursos hídricos, especialmente em regiões semiáridas, onde a disponibilidade de água é limitada e a variabilidade climática impacta diretamente a segurança hídrica. No Brasil, o Projeto de Integração do Rio São Francisco com as Bacias do Nordeste Setentrional (PISF) representa uma das principais iniciativas para garantir o abastecimento hídrico no Nordeste, demandando estudos detalhados para otimizar a distribuição da água. Neste contexto, a presente pesquisa avaliou a integração de dados LiDAR aerotransportados e batimetria monofeixe na modelagem hidrológica do rio Piranhas-Açu, trecho essencial para a transposição hídrica entre os estados da Paraíba e do Rio Grande do Norte. A coleta de dados envolveu a definição de uma rede geodésica, com a utilização de estações da Rede Brasileira de Monitoramento Contínuo (RBMC) e de marcos geodésicos previamente existentes. O levantamento aerofotogramétrico e LiDAR cobriu uma área superior a 290 km², com resolução espacial de 10 cm, enquanto a batimetria foi realizada ao longo do canal fluvial por meio de 500 seções transversais espaçadas a cada 500 metros. A combinação desses dados possibilitou a geração de Modelos Digitais de Terreno (MDT) de alta precisão que, em seguida, foram incorporados à modelagem hidrológica no software HEC-RAS, permitindo a simulações hidrodinâmicas diante da liberação da vazão máxima operacional do PISF. Dessa forma, este estudo reforça a importância da escolha adequada da base cartográfica para modelagens hidrológicas e contribui para o aprimoramento da gestão hídrica em regiões semiáridas, fornecendo subsídios técnicos para o planejamento de medidas mitigadoras e intervenções estruturais. Como recomendação, sugere-se a realização de novos estudos que avaliem diferentes estratégias de liberação da vazão do PISF, visando reduzir perdas por evaporação e minimizar os impactos operacionais sobre infraestruturas existentes. Palavras-chave: Base cartográfica; Dados geoespaciais; Simulações hidrológicas",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47328/ufvbbt.2025.378",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Pro-Reitoria de Pesquisa e Pos-Graduacai - UFV"
+        }
+      },
+      {
+        "title": "Modelagem de processo \"supply chain\" informado usando tecnologia RFID: estudo de caso para a cadeia do agronegócio.",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/t.3.2013.tde-26062014-105310",
+        "doi": "10.11606/t.3.2013.tde-26062014-105310",
+        "year": 2015,
+        "authors": [
+          "Roberto Candido"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/t.3.2013.tde-26062014-105310",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Heterogeneidade de risco na modelagem de doenças infecciosas: um estudo de caso de malária na Bacia Amazônica.",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/t.42.2021.tde-05092024-160601",
+        "doi": "10.11606/t.42.2021.tde-05092024-160601",
+        "year": 2024,
+        "authors": [
+          "Rodrigo Malavazi Corder"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/t.42.2021.tde-05092024-160601",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Modelagem conceitual do transporte para transplante de coração : estudo do caso do InCOR",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/003191660",
+        "doi": "10.11606/003191660",
+        "year": 2025,
+        "authors": [
+          "Pedro Henrique Mantovani Maruff de Oliveira"
+        ],
+        "venue": null,
+        "abstract": "Este trabalho visa compreender por meio de modelagem conceitual o processo de transporte para transplante de coração. Os órgãos diversas vezes são oferecidos, quando na situação de doação, para receptores de outro Estado, a chamada captação à distância. Primeiramente foi realizada uma revisão da literatura para identificar como autores tratam este tema, para depois seguir com a metodologia da modelagem conceitual. O principal parâmetro do problema do transporte de órgãos com captação a distância para transplante é o chamado tempo de isquemia, que refere-se ao tempo ao qual cada órgão pode ficar sem a circulação de sangue, ou seja, do momento em que o órgão é retirado do doador até o momento em que ele ´e implantado no receptor. Por meio de entrevistas e pesquisas de como o processo funciona, este estudo elabora um modelo de 30 (trinta) possíveis rotas entre dois hospitais, o doador e o receptor, considerando as restrições do processo como a existência de apenas três principais meios de transporte sendo eles ambulâncias, helicópteros e aviões, dado que os veículos com maior velocidade também possuem maior tempo de embarque e desembarque. Esta elaboração de rotas ocorreu por meio do desenho das rotas através da representação de grafos. Foram identificados padrões como o máximo de uma viagem de avião por rota e de duas viagens de helicóptero por rota. São feitas análises a partir de um hospital receptor (Instituto do Coração do Hospital das Clínicas da FMUSP) e 10 (dez) hospitais doadores das regiões que mais doam órgãos no país, Santa Catarina e Paraná (neste estudo usando o conjunto região sul do país), identificadas a partir de dados oficiais. Estes valores são então comparados entre si para a identificação de padrões e posteriormente comparados com a preferência médica da equipe do||InCOR, que realiza esses trajetos com recorrência, a fim de avaliar discrepâncias entre os critérios usados na prática e os resultados calculados. De forma sintética, quanto menor for o número de transbordos, menor o tempo de isquemia. Também, se os aeroportos estiverem próximos aos hospitais, trajetos de helicóptero se mostram mais lentos. O critério prático usado pela equipe é diferente do visto pelos valores calculados, pois eles possuem uma preferência de viagens baseado na velocidade dos automóveis, mostrando uma diferente perspectiva. Também, foi feita uma análise inicial dos custos destas rotas, baseados principalmente no gasto de combustível.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/003191660",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "IMPLEMENTAÇÃO DE PROCESSOS DA QUALIDADE PARA OTIMIZAÇÃO DE CUSTOS DE RETRABALHO: UM ESTUDO DE CASO",
+        "source": "crossref",
+        "url": "https://doi.org/10.5151/2594-5327-2005-15055-0252",
+        "doi": "10.5151/2594-5327-2005-15055-0252",
+        "year": 2007,
+        "authors": [
+          "Marcio André Marcon Gusmão",
+          "Paulo César Correia Lindgren",
+          "Edson Aparecida de Araújo Querido Oliveira"
+        ],
+        "venue": "ABM Proceedings",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5151/2594-5327-2005-15055-0252",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Editora Blucher"
+        }
+      },
+      {
+        "title": "Modelagem, aproximação e simulações computacionais de impacto ambiental com difusibilidade variável: um estudo de caso",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2017.982351",
+        "doi": "10.47749/t/unicamp.2017.982351",
+        "year": 2021,
+        "authors": [
+          "Danuza Bermond Equer"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2017.982351",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "SIMULAÇÃO DE EVENTOS DISCRETOS NA INDÚSTRIA DE CONFECÇÃO: UM ESTUDO DE CASO",
+        "source": "crossref",
+        "url": "https://doi.org/10.29327/xxxi_simpep.878428",
+        "doi": "10.29327/xxxi_simpep.878428",
+        "year": 2025,
+        "authors": [
+          "Larissa de Castro Silva",
+          "Gustavo Alencar Rolim",
+          "Davi Garcia"
+        ],
+        "venue": "Anais - SIMPEP",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.29327/xxxi_simpep.878428",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "ANÁLISE DE INTEROPERABILIDADE ENTRE SOFTWARES DE MODELAGEM BIM: ESTUDO DE CASO DE INTERFACE ENTRE TQS E REVIT",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.71938",
+        "doi": "10.17771/pucrio.acad.71938",
+        "year": 2025,
+        "authors": [
+          "VICTOR HUGO ALMEIDA DE OLIVEIRA"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.71938",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "Modelagem geológica 3D aplicada à soluções geotécnicas - um estudo de caso - estação Pinheiros do Metrô",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.44.2020.tde-18082021-105525",
+        "doi": "10.11606/d.44.2020.tde-18082021-105525",
+        "year": 2021,
+        "authors": [
+          "Angélica Pedro Santana"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.44.2020.tde-18082021-105525",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de Sao Paulo, Agencia USP de Gestao da Informacao Academica (AGUIA)"
+        }
+      },
+      {
+        "title": "A contribuição do analista de requisitos na redução de retrabalho: um estudo de caso",
+        "source": "crossref",
+        "url": "https://doi.org/10.22167/2675-6528-202604562",
+        "doi": "10.22167/2675-6528-202604562",
+        "year": 2026,
+        "authors": [
+          "Laís Helena Chiachio de Miranda",
+          "Luiz Gustavo Antônio De Souza"
+        ],
+        "venue": "Revista E&amp;S",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.22167/2675-6528-202604562",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "I-PECEGE"
+        }
+      },
+      {
+        "title": "Modelagem numérica hidrodinâmica para apoio a operações portuárias: estudo de caso da Baía de São Marcos (MA)",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.21.2023.tde-22062023-152830",
+        "doi": "10.11606/d.21.2023.tde-22062023-152830",
+        "year": 2023,
+        "authors": [
+          "Douglas Marchioni Paschoaleti"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.21.2023.tde-22062023-152830",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de Sao Paulo, Agencia USP de Gestao da Informacao Academica (AGUIA)"
+        }
+      }
+    ]
+  },
+  "count": 40,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T05:51:00.492534+00:00"
+}

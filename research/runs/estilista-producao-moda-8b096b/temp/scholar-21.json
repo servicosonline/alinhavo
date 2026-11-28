@@ -1,0 +1,1026 @@
+{
+  "ok": true,
+  "data": {
+    "query": "designer de moda mercado de trabalho atribuicoes confeccao",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 25,
+      "crossref": 25,
+      "doab": 0
+    },
+    "raw_records": 50,
+    "merged_records": 50,
+    "returned": 50,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Moda de luxo, desfiles de moda e a capitalização do “gênio criador”",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/ped2022-8459231",
+        "doi": "10.5151/ped2022-8459231",
+        "year": 2022,
+        "authors": [
+          "Joana Martins Contino"
+        ],
+        "venue": null,
+        "abstract": "No Campo do Design, é bastante comum observarmos a valorização do trabalho criativo e a ênfase nos relatos biográficos acerca dos designers e suas obras, o que reforça a noção mítica do “gênio criador”. Este artigo, de cunho bibliográfico e documental, tem como objetivo refletir acerca da construção histórica dessa noção na moda de luxo, cuja origem está atrelada ao surgimento da Alta Costura e dos desfiles de moda. Além disso, demonstramos que a ideia do “gênio criativo” se manifesta claramente nesse setor até os dias de hoje e analisamos de que modo ela impulsiona a acumulação de capital simbólico e financeiro das marcas de luxo.",
+        "pdf_url": "http://pdf.blucher.com.br/designproceedings/ped2022/8459231.pdf",
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "W4319313566",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Fast-Slow: o paradoxo do cenário têxtil-confecção-moda",
+        "source": "openalex",
+        "url": "https://doi.org/10.26563/dobras.i32.1365",
+        "doi": "10.26563/dobras.i32.1365",
+        "year": 2021,
+        "authors": [
+          "Felipe Guimarães Fleury",
+          "Mirtes Marins de Oliveira"
+        ],
+        "venue": "dObra[s] – revista da Associação Brasileira de Estudos de Pesquisas em Moda",
+        "abstract": "O objetivo do artigo, a partir de pressupostos ideológicos que sustentam os movimentos de moda fast-fashion e slow fashion, é analisar os discursos construídos acerca da obsolescência de produtos de moda sob a ótica dos sistemas de produção linear e circular relacionados à significação do paradoxo Fast-Slow. Tais análises não se limitam a negar o fast-fashion e afirmar o slow fashion como possível alternativa à obsolescência. Conforme Weber (1999), o entendimento das questões subjetivas e empíricas desses fenômenos sociais levam ao interesse preliminar de repensar a própria estrutura do cenário têxtil-confecção-moda e sua organização social e ambiental para rever os desafios futuros. Ainda como base teórica, utiliza-se Berlim (2015), Fletcher e Grose (2011), Kazazian (2005), Minney (2016) e Salcedo (2014) a fim de fundamentar as perspectivas de um possível caminho para a atuação ética do profissional de moda em uma sociedade de consumo com vistas à transição do modelo econômico linear para o circular com maiores conhecimentos sobre desenvolvimento sustentável.",
+        "pdf_url": "https://dobras.emnuvens.com.br/dobras/article/download/1365/700",
+        "citation_count": 7,
+        "work_type": "article",
+        "identifier": "W3187597680",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Estudo de obstáculos na ampliação do mercado da moda através da web",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1822/7980",
+        "doi": null,
+        "year": 2008,
+        "authors": [
+          "Taciana Vicente Viana"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "O comércio electrónico demonstrou um enorme crescimento global na última década, tendo sido possível observar a adesão de inúmeras empresas de vários sectores. O sucesso inicial dos livros vendidos através da livraria virtual Amazon.com foi exemplo e inspiração para vários produtos, considerados globalizados, como CDs, electrónico, até automóveis. Contudo, as empresas do vestuário e da moda não demonstraram adesão ao mesmo nível que os outros sectores. Assim, este mercado perde a oportunidade de ascendência e ampliação com as diversas vantagens e oportunidades que, nomeadamente, as vendas online proporcionam. Neste trabalho apresenta-se uma investigação dos motivos que levaram o mercado da moda a não acompanhar a adesão ao comércio virtual. Com este fim, foi feita uma análise a 246 websites de empresas do vestuário para constatação de quantas oferecem ao consumidor a venda online e foi aplicado um inquérito junto aos utilizadores de Internet que obteve 227 respostas válidas. Todos estes recursos de investigação somados a 17 entrevistas com profissionais do sector possibilitaram criar uma lista dos obstáculos encontrados e assim propor uma solução ideal de website para venda específica do produto de moda através da web. A proposta representa um contributo para se ultrapassarem os obstáculos encontrados, de maneira simples e acessível a pequenas, médias e grandes empresas da moda. Desta forma, os produtos do vestuário podem participar de forma mais efectiva das compras online do consumidor virtual, que demonstra necessidades específicas e diferenciadas quando se trata de compra de produtos do vestuário.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W25538910",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Sistema de medição de desempenho para o processo de desenvolvimento do produto do vestuário de moda",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/2885",
+        "doi": null,
+        "year": 2017,
+        "authors": [
+          "Isabel Cristina Moretti"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "O processo de desenvolvimento e lançamento de novos produtos é decisivo para as empresas se manterem competitivas no mercado. Diante da importância deste processo, é preciso entender que o mesmo precisa ser controlado e bem gerenciado. Para garantir o processamento bem sucedido do desenvolvimento de produto, as empresas precisam constantemente avaliar o desempenho de seus esforços. Especificamente no processo de desenvolvimento de produto (PDP) do vestuário algumas particularidades precisam ser consideradas: influência da moda, desenvolvimento de produtos em linhas sazonais (coleções) em vez de produtos individuais, quantidade elevada de produtos por coleção, várias coleções ao ano e curto período de tempo para o desenvolvimento de cada coleção. Essas características incorporam a este processo dinamismo e rapidez durante o desenvolvimento. Sendo assim o objetivo geral deste trabalho é desenvolver um modelo para medição de desempenho do processo de desenvolvimento de produto, específico para o setor de confecção do vestuário de moda, composto por um conjunto de indicadores. Para embasar a elaboração da pesquisa, inicialmente foi apresentada uma fundamentação teórica sobre os conceitos que regem o PDP, os sistemas de medição de desempenho para este processo e seus indicadores. Os indicadores coletados foram ponderados por grau de importância por empresas de confecção do vestuário por meio da ferramenta Fuzzy-QFD, em conjunto foram identificados nas empresas os indicadores específicos para o PDP do vestuário. Baseado na fundamentação teórica e nas informações coletadas nas empresas, foi proposto o modelo para medição de desempenho do processo de desenvolvimento de produto do vestuário (MdDpV), composto por um sistema de medição de desempenho, atrelado a um Modelo para o PDP do vestuário, e por indicadores. O modelo proposto foi validado por especialistas da área (profissionais das empresas e professores) e se mostrou adequado para o PDP do vestuário. Neste sentido, conclui-se que o modelo proposto proporciona uma metodologia de suporte e controle para o PDP, por meio de atividades sistematizadas e um conjunto de indicadores. Em sua estrutura o modelo MdDpV se mostra simples, funcional e promissor para a condução e suporte do desenvolvimento de produto no âmbito industrial e acadêmico.",
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W2784148075",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "O que faz a Coco virar Chanel? : uma investigação de práticas agenciais de luxo no mercado da moda",
+        "source": "openalex",
+        "url": "http://repositorio.unb.br/handle/10482/35662",
+        "doi": null,
+        "year": 2019,
+        "authors": [
+          "Daiane Pereira da Fonseca Lopes"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "Dissertação (mestrado)—Universidade de Brasília, Faculdade de Agronomia e Medicina Veterinária, Programa de Pós-Graduação em Agronegócios, 2019.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2988470484",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Autoria e cópia de roupas no ensino do Design de Moda",
+        "source": "openalex",
+        "url": "https://dspace.palermo.edu/ojs/index.php/actas/article/view/5705",
+        "doi": "10.18682/add.vi39.5705",
+        "year": 2022,
+        "authors": [
+          "Sérgio Luís Sudsilowsky",
+          "Thais Leticia Pinto Vieira",
+          "Gisela Costa Pinheiro Monteiro",
+          "Priscila Andrade"
+        ],
+        "venue": "Actas de Diseño",
+        "abstract": "Esse artigo propõe uma breve reflexão sobre a evolução histórica do papel de quem projeta coleções de roupas visando a compreensão do limite entre a inspiração e a cópia para o ensino do design de moda. A conscientização do valor da autoria do produto e suas várias possibilidades considerando as referências visuais utilizadas no processo criativo e a maneira de emprega-las buscando um resultado inédito, que agrade aos consumidores e que não caracterize cópia.",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/actas/article/download/5705/8571",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7215767441",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A modelagem em 3D para o Design de moda",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.29147/datjournal.v9i2.811",
+        "doi": "10.29147/datjournal.v9i2.811",
+        "year": 2024,
+        "authors": [
+          "Tom Igor Costa Albano",
+          "Marli Teresinha Everling"
+        ],
+        "venue": "DAT Journal",
+        "abstract": "A criação de protótipos é de extrema importância para a validação no desenvolvimento de novos produtos. Em diversas áreas, o método de prototipagem utilizando modelagem em 3D já é difundido, mas para o mercado de moda a tecnologia pode ser mais bem explorada. Tendo isso em vista, o artigo relata a pesquisa exploratória que, por meio de levantamento bibliográfico, objetivou identificar cenários sociais e mercadológicos onde a utilização dessa tecnologia tem destaque na produção de design de moda. Foram abordados aspectos que se relacionam com o ensino, o comportamento de consumo e a produção de produtos. Como resultado, ampliou-se os conhecimentos acerca do objeto de estudo. contribuindo como fonte para novas discussões.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4402355735",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Mapeamento de exposições de moda na cidade de São Paulo (1980-2018)",
+        "source": "openalex",
+        "url": "https://repositorio.ufjf.br/jspui/handle/ufjf/11314",
+        "doi": null,
+        "year": 2019,
+        "authors": [
+          "Thomas Walter Dietz"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "A presente pesquisa versa sobre exposições de moda, especificamente aquelas apresentadas na cidade de São Paulo entre o início da década de 1980 e o ano de 2018, tendo como propósito analisar o desenvolvimento das práticas expositivas de moda e compreender a relevância das exposições na consolidação da capital paulista como centro de profissionalização e difusão da moda no Brasil. A partir da realização de um mapeamento de exposições, a dissertação realiza investigação sobre os conceitos atrelados ao termo exposição e os estudos da história das exposições, sobretudo daquelas dedicadas à moda. Realiza-se também uma retrospectiva histórica acerca das práticas expositivas de moda na cidade de São Paulo. Por meio de estudos estatísticos, são apresentadas informações sobre quantidade, categoria e frequência das exposições mapeadas em diversos locais da cidade. A partir do mapeamento, são evidenciadas correlações com o momento histórico, político e econômico do país. O texto aborda ainda a função do curador e sua importância na concepção das exposições de moda. Discute-se também, outros aspectos relacionados às exposições de moda, tais como as megaexposições, o número de visitantes e os catálogos, traçando paralelos entre o contexto brasileiro e internacional. Constata-se que, as práticas expositivas de moda acompanharam o processo de organização do campo na cidade de São Paulo, destacando a relevância das exposições para o estudo da história da moda no país.",
+        "pdf_url": "https://repositorio.ufjf.br/jspui/bitstream/ufjf/11314/1/thomaswalterdietz.pdf",
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W3080347024",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Planejamento de carreira para alunos e egressos de graduações em Design de Moda: Necessidade e relevância",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2018v9n2p83",
+        "doi": "10.5433/2236-2207.2018v9n2p83",
+        "year": 2018,
+        "authors": [
+          "Cláudia Cyléia de Lima",
+          "Icléía Silveira",
+          "Sandra Regina Rech",
+          "José Alfredo Beirão Filho"
+        ],
+        "venue": "Projetica",
+        "abstract": "Investiga-se a necessidade e a relevância do planejamento de carreira para alunos e egressos de graduações em Design de Moda. Após pesquisa quali-quantitativa e descritiva, subsidiada por questionário aplicado em pesquisa de campo, os resultados apontam a carência e a importância de orientações, obtidas ainda na graduação, sobre mercado, possibilidades profissionais e planejamento de carreira na área em questão.",
+        "pdf_url": "http://www.uel.br/revistas/uel/index.php/projetica/article/download/33007/24675",
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "W2909568847",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A Comunicação mediada pelas tecnologias como fator de influência no desempenho de equipes em projetos de design de moda",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.23972/det2023iss26pp17-36",
+        "doi": "10.23972/det2023iss26pp17-36",
+        "year": 2023,
+        "authors": [
+          "Gabriela Kuhnen",
+          "Richard Perassi de Sousa",
+          "Gilson Braviano",
+          "Elton Moura Nickel"
+        ],
+        "venue": "Design e Tecnologia",
+        "abstract": "As equipes virtuais, assim como o trabalho remoto, possibilitam o agrupamento de indivíduos multidisciplinares de forma descentralizada, tornando, assim, as empresas capazes de atender as exigências competitivas do mercado e a concorrência global. Porém, a mediação da tecnologia e os novos processos comunicacionais podem afetar o desempenho da equipe à medida que surgem questões relacionadas aos aspectos psicossociais e à estruturação e padronização da informação. Nesse sentido, o presente trabalho tem como objeto de estudo a influência da comunicação mediada pelas tecnologias no desempenho das equipes em projetos de design de moda, com ênfase na indústria de confecção do vestuário. As modificações nas estruturas dos mercados, devido a incrementos tecnológicos, têm trazido desafios em relação à manutenção dessas equipes. No desenvolvimento de produto de moda, foi investigado como se estabelecem os processos de comunicação nos principais setores da fase executiva. Os principais indicadores de desempenho usados foram a satisfação relacionada a aspectos psicossociais; a eficiência associada a questões relacionadas ao retrabalho, conflitos e falta de convergência de significado; e a eficácia, medida através dos resultados alcançados em relação às metas estabelecidas. Através da triangulação de dados qualitativos, coletados em quatro empresas de desenvolvimento de produto de moda, com dados quantitativos extraídos de um questionário on-line, os resultados demonstraram que a complexidade da comunicação no design de moda se estabelece à medida que certas etapas necessitam de uma comunicação estruturada, padronizada e precisa, enquanto outras envolvem aspectos como interpretação de imagens, análise de cores ou formas e necessitam de uma comunicação mais rica e intersubjetiva, com alta variedade de símbolos de preferência síncrona.",
+        "pdf_url": "https://www.ufrgs.br/det/index.php/det/article/download/950/348",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4385756241",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Logística reversa e design: uma proposta aplicada a uma empresa de confecção de uniformes profissionais",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/ped2018-5.1_pte_02",
+        "doi": "10.5151/ped2018-5.1_pte_02",
+        "year": 2019,
+        "authors": [
+          "Dorivalda Santos Neira MEDEIROS",
+          "Bruna Melo Martins",
+          "Jaqueline de Almeida MIRANDA"
+        ],
+        "venue": null,
+        "abstract": "uma empresa de confecção de uniformes profissionaisReverse logistics and design: a proposal applied to a professional uniforms company",
+        "pdf_url": "http://pdf.blucher.com.br.s3-sa-east-1.amazonaws.com/designproceedings/ped2018/5.1_PTE_02.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W2941566543",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "PROPOSIÇÃO DE UM PLANO DE RESPOSTAS A RISCOS: ESTUDO DE CASO DE UMA EMPRESA DE CONFECÇÃO DO ESTADO DO CEARÁ",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.37423/231208616",
+        "doi": "10.37423/231208616",
+        "year": 2023,
+        "authors": [
+          "Luiz Neto Paiva e Silva Müller"
+        ],
+        "venue": "Editora Conhecimento Livre eBooks",
+        "abstract": "Segundo Capello et al. (2010), o surgimento das patologias pode advir de um projeto mal feito, que dispõe de materiais de má qualidade, da deficiência de influência tecnológica, especialmente associada ao concreto, de ter intercorrência em algum momento de construção, em algumas obras estar com equipe sem ter a capacidade adequada para executar o projeto, e pôr fim a falta de fiscalização por parte dos responsáveis pelo desempenho do empreendimento.Portanto, esta pesquisa tem como objetivo abordar os problemas patológicos mais comuns em estruturas de concreto armado por meio de uma pesquisa de revisão de literatura.Destacam-se fissuras, manchas, geadas, corrosão do aço e deterioração das estruturas de concreto, indicando suas causas e possíveis medidas preventivas.O estudo patológico de estruturas de concreto armado é o objeto deste trabalho, pois a maioria das estruturas no Brasil é executada com esse material e muitos profissionais da área de construção civil enfrentam essa situação.A patologia pode prejudicar a vida útil do edifício e até impedir seu uso.2. REVISÃO BIBLIOGRÁFICA O termo patologia é normalmente utilizado em muitos campos da investigação científica, especialmente na área da medicina, envolvendo tanto o conhecimento científico como a prática clínica.Este campo estuda as mudanças estruturais e funcionais de células, tecidos e órgãos que podem estar sofrendo de doenças. PATOLOGIA E MANIFESTAÇÕES PATOLÓGICASDe acordo com Fonseca ( 2017), a responsabilidade técnica requer \"conformidade com \"Normas, Taxas e Requisitos Técnicos\", Responsabilidade Civil Relacionado a medidas para fazer cumprir a compensação moral ou hereditária de propriedade Baseia-se no novo Código Civil Brasileiro e na Lei 5.194 / 66 e 6.496 / 77.Finalmente, a responsabilidade criminal pode, em última análise, sujeitar os profissionais à pena de reclusão, a depender da gravidade das ações por ele cometidas, relativas ao exercício de sua profissão.Quanto à responsabilidade criminal, no capítulo das Lesões Corporais, art.129 do Código Penal é válido ressaltar que aquele que ofender a integridade corporal ou a saúde de alguém, pode pegar uma pena de três meses até doze anos de detenção; e no art.132 dispõe que \" expor a vida ou a saúde de outrem a perigo direto e iminente pode gerar pena de três meses a um ano de detenção\" (LEI nº 2.848, 1940).Vale ressaltar que o item VIII do art.39 do Código de Defesa do Consumidor (LEI Nº 8.078, 1990) veda que os serviços sejam feitos em desacordo com as normas da ABNT, ou seja, devemos cumprir todas as normas pertinentes ao assunto, principalmente a NBR 5674 (ABNT, 2012) que trata sobre a manutenção nas edificações.2.2 PATOLOGIA O termo patologia vem sido discutido e elaborado durante o decorrer do tempo, inicialmente o emprego dos termos de sua origem se relacionam diretamente com a medicina, termos estes que são da junção de duas palavras gregas pathos, referindo-se a sofrimento/doenças e logos, que faz significado de ciência/estudo; Bolina et al. (2019).De acordo com (SENA, et al. 2020), patologia é o estudo de doenças gerais com condições anormais, cuja etiologia pode ser conhecida ou desconhecida.Portanto, o estudo da doença, ou seja, a patologia, estuda o surgimento de anormalidades no sistema; os causadores de imperfeições, defeitos, deficiências ou \"doenças\".Tendo em vista as circunstâncias necessárias o tratamento de anomalias em certo desempenho, as soluções adotadas partem de princípios comum: quando o corpo padece com uma enfermidade que afeta o seu bom funcionamento, ele pode ser tratado com medicamentos, da mesma forma, uma edificação pode passar por reparos para a recuperação de seu uso esperado (FRANÇA et al. 2011).Entretanto, da mesma forma que o profissional da saúde, precisa entender a causa da doença para ser capaz de aplicar o método correto tratamento, medicando adequadamente, o engenheiro patologista, necessita conhecer bem as causas das anomalias que possam surgir nas construções, afim de propor soluções mais adequadas a cada situação, para tratar, recuperar e corrigir os problemas, com a intenção de reestruturar e deixar a edificação em boas condições de uso para seus usuários. PRINCIPAIS TIPOS DE MANIFESTAÇÕES PATOLÓGICAS NAS EDIFICAÇÕESAs patologias mais comuns encontradas nas edificações hoje são fissuras, corrosões em armaduras, eflorescências e infiltrações de água; podendo aparecer durante a construção do edifício, após o trabalho ou durante o uso do usuário (THOMAZ, 1989).",
+        "pdf_url": "https://doi.org/10.37423/231208616",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4391829241",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "PROPOSTA DE IMPLANTAÇÃO DA FERRAMENTA KANBAN EM UMA INDÚSTRIA DE CONFECÇÃO NO CEARÁ",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.37423/231208632",
+        "doi": "10.37423/231208632",
+        "year": 2023,
+        "authors": [
+          "Luiz Neto Paiva e Silva Müller"
+        ],
+        "venue": "Editora Conhecimento Livre eBooks",
+        "abstract": null,
+        "pdf_url": "https://doi.org/10.37423/231208632",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4391829223",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "A TECNOLOGIA DOS FAB LABS NO PROCESSO DE ESTÍMULO CRIATIVO NA MODA",
+        "source": "openalex",
+        "url": "https://zenodo.org/record/5768382",
+        "doi": "10.5281/zenodo.5768381",
+        "year": 2016,
+        "authors": [
+          "Maria Cecília Palma Magalhães",
+          "Flávia Emilio dos Santos Barbosa"
+        ],
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "abstract": "This work proposition lends itself to elucidate how accessible technology can provide a potential revolution for the new ways to create, commercialize and consuming Fashion through the use of experimental, innovation and collaboration spaces, inherent from the current digital culture called fab labs or manufacturing labs that are democratic spaces with the digital manufacturing and equipped with computers, softwares and other digital and electronic tools. This tools are free for knowledge and sharing between people from variousfields of knowledge. As in other sectors of the economy, the creative technological innovation in fashion is largely in the hands of industries by limiting its application for a reduced and prefixed number of projects with creative content and with economic value wich seeks for demand soluction and wishes in the fashion sector. Based on the concept of “do it yourself”, the Fab Labs promote participation and real ownership of technological tools at low cost and the sharing model and production of knowledge stimulates the creative freedom of individuals generating a maker culture where anyone can create a product with autonomy. For a fashion designer this behavior provides the front of prototype and test the acceptance of your idea, lowering costs and an exchange of mutual knowledge. The possibilities for the Fashion market guides, especially the use of 3D printers in the manufacture of collections but there is a strong tendency for wearables or \"wearable technology\" using basically microchips and Arduino circuit, essentially materials present in Fab Labs. These concepts are still not ingrained in our productive culture, they seems to be in a rising and bring them to a universe that dictates behaviors as Fashion results in expansion of a creative and innovative market and besides, expands the production of knowledge. Essa proposição de trabalho se presta a elucidar como a tecnologia acessível pode proporcionar uma revolução potencial para novas formas de criar, comercializar e consumir moda através do uso de espaços de experimentação, inovação e colaboração inerentes do impacto da cultura digital atual denominados fab labs ou laboratórios de fabricação que são espaços democráticos com foco em fabricação digital e equipados com computadores, softwares e demais ferramentas digitais e eletrônicas de uso gratuito e livre para o compartilhamento do conhecimento entre pessoas dos mais diversos âmbitos do saber. Assim como em outros setores da economia, a inovação tecnológica criativa na moda está em grande parte em poder das industrias limitando sua aplicação para um número reduzido e anteposto de projetos com conteúdo criativo e de valor econômico que buscam por soluções da demanda de desejos do setor Fashion. Partindo do conceito do faça você mesmo os Fab Labs promovem a participação e apropriação real de ferramentas tecnológicas a baixo custo e o modelo de compartilhamento e produção do conhecimento estimula a liberdade criativa dos indivíduos gerando uma cultura maker onde qualquer pessoa pode criar um produto com autonomia. Para um designer de moda esse comportamento proporciona a dianteira de prototipar e testar a aceitação de sua ideia, barateando custos e em uma troca de conhecimento mútua. As possibilidades para o mercado de moda norteiam, principalmente, o uso de impressoras 3D na confecção de coleções mas há uma forte tendência para wearables ou “tecnologias vestíveis” utilizando basicamente microchips e circuito arduíno, materiais essencialmente presentes nos Fab Labs. Esses conceitos ainda não estão arraigados em nossa cultura produtiva, mas se mostram em grande ascensão e traze-los à um universo que dita comportamentos como o da moda resulta em expansão de um mercado criativo e inovador além de expandir a produção de conhecimento.",
+        "pdf_url": "https://zenodo.org/records/5768382/files/07_fab_labs.pdf",
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "W4205169514",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Costurar invisibilidades: gênero, trabalho e prestígio na história da moda",
+        "source": "openalex",
+        "url": "https://doi.org/10.26563/dobras.v19i47.2023",
+        "doi": "10.26563/dobras.v19i47.2023",
+        "year": 2026,
+        "authors": [
+          "Maria Paula Guimarães"
+        ],
+        "venue": "dObra[s] – revista da Associação Brasileira de Estudos de Pesquisas em Moda",
+        "abstract": "Este artigo propõe investigar as diferenças de gênero presentes na interpretação subjetiva incorporada nas denominações “costureiro” e “costureira”, a partir de uma abordagem histórica e sociocultural da moda. A análise busca compreender como tais designações, embora indiquem funções semelhantes no ato de confeccionar roupas, foram historicamente carregadas de valores simbólicos distintos, que conferiram prestígio e reconhecimento diferenciados a homens e mulheres no campo da moda. Amparado nos estudos de Pierre Bourdieu sobre distinção e campo simbólico, o trabalho examina de que maneira a autoria e o status de “costureiro” se consolidaram como categorias de poder e capital cultural, em contraste com a figura da “costureira”, associada ao trabalho manual e à esfera doméstica. O percurso histórico, que se estende do surgimento da alta-costura no século XIX às práticas contemporâneas, evidencia como o processo de consagração estética e social da moda esteve ancorado em construções de gênero e em hierarquias simbólicas. Assim, o artigo propõe uma reflexão crítica sobre o apagamento histórico das mulheres que sustentaram a prática da costura e sobre os mecanismos de legitimação que transformaram o “fazer” em “assinatura” no campo da moda. Conclui-se que a diferenciação entre “costureiro” e “costureira” ultrapassa o léxico e revela dinâmicas profundas de poder, autoria e distinção.",
+        "pdf_url": "https://dobras.emnuvens.com.br/dobras/article/download/2023/1000",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7171491849",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Da prancheta ao Algoritmo: Explorando a representação visual de moda",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2025.v16.n2.50807",
+        "doi": "10.5433/2236-2207.2025.v16.n2.50807",
+        "year": 2025,
+        "authors": [
+          "Lauren Arrussul Carús",
+          "Ana Cleia Christovam Hoffmann"
+        ],
+        "venue": "Projetica",
+        "abstract": "A facilidade de uso de sotfwares, juntamente com o uso a inteligência artificial, faz com que muitos alunos de moda acreditem não ter habilidade para expressar suas ideias por meio do desenho à mão livre. No entanto, essa prática é considerada essencial para o ensino e aprendizado da criatividade. Neste contexto, surgem novos desafios no processo metodológico do ensino de desenho de moda. Este trabalho tem como objetivo demonstrar as diferenças na representação gráfica de peças de vestuário e a importância de cada técnica em sua respectiva etapa projetual. Para isso, analisa as variações nas formas de representação realizados em uma atividade de colagem desenvolvida em sala de aula. A pesquisa também busca contemplar as novas ferramentas de criação de imagens, explorando conceitos de concept art e design, reconhecendo a multiplicidade de signos no universo da moda",
+        "pdf_url": "https://ojs.uel.br/revistas/uel/index.php/projetica/article/download/50807/52836",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W7106790200",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "DINÂMICAS DE TRABALHO NOS SETORES CRIATIVOS",
+        "source": "openalex",
+        "url": "https://doi.org/10.46848/960008",
+        "doi": "10.46848/960008",
+        "year": 2021,
+        "authors": [
+          "Thais Dornelles",
+          "Cristiano Max Pereira",
+          "Pinheiro Mauricio Barth",
+          "Tiago de Souza Bergenthal"
+        ],
+        "venue": "Revista de Humanidades, Tecnologia e Cultura",
+        "abstract": "RESUMO: O presente artigo tem o objetivo de desenvolver uma revisão da conceituação dos setores criativos e produzir uma análise das dinâmicas de trabalho entre eles, para que seja possível compreender as semelhanças que compartilham entre si.Para o desenvolvimento desse estudo, produziu-se uma revisão bibliográfica, que possibilitou a análise da temática de maneira mais detalhada.Mostra-se bem perceptível a diversidade dos setores criativos, haja vista que cada indivíduo criativo transforma experiências, vivências e saberes em processos, serviços e produtos, e os valores culturais obtidos geram o ambiente necessário para a criação, o que influencia diretamente no comportamento das pessoas.Mediante a análise desenvolvida, foram identificadas semelhanças nas dinâmicas de trabalho e paridade nas ferramentas utilizadas para a produção dos produtos nestes setores.",
+        "pdf_url": "https://doi.org/10.46848/960008",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4210963294",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "O Uso da Informação no Processo Criativo de Design: análise da aplicação de tendências de moda em empresas autorais na cidade de Recife",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1982615x11222018332",
+        "doi": "10.5965/1982615x11222018332",
+        "year": 2018,
+        "authors": [
+          "Maria Débora Fernandes Pontes",
+          "Maria Alice Vasconcelos Rocha"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "O presente artigo tem por finalidade apresentar uma análise acerca das etapas iniciais do processo de desenvolvimento de produtos de moda-vestuário, buscando delinear como as informações são utilizadas pelo designer, como profissional responsável pela criação. Tendo como locus de pesquisa a cidade de Recife e como objeto de investigação empresas do setor criativo de Design de Moda (vestuário, calçados e acessórios), é apresentado como questão norteadora a seguinte abordagem: como os profissionais da Indústria Criativa de Moda conciliam criatividade e inspiração com as informações que lhes são externas, tais como tendências de moda e de mercado, no processo de criação desse setor? A partir de um levantamento de caráter exploratório e descritivo, fundamentado em entrevistas semiestruturadas com profissionais responsáveis pelo desenvolvimento criativo nas empresas, foi possível levantar considerações sobre o processo criativo desses profissionais e os mecanismos que envolvem o exercício constante que envolve a manutenção de informações estratégicas na elaboração de projetos criativos.",
+        "pdf_url": "http://www.revistas.udesc.br/index.php/modapalavra/article/download/11903/8390",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W2810699612",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Design de joias: proposição de metodologia para ensino voltado ao mercado joalheiro",
+        "source": "openalex",
+        "url": "https://doi.org/10.23972/det2022iss24pp57-72",
+        "doi": "10.23972/det2022iss24pp57-72",
+        "year": 2022,
+        "authors": [
+          "Mariana Kuhl Cidade",
+          "Felipe Luís Palombini"
+        ],
+        "venue": "Design e Tecnologia",
+        "abstract": "A joalheria é uma atividade técnico-artística executada por profissionais com variadas formações, desde designers, arquitetos, engenheiros, artistas e outros. Historicamente, a joalheria vem evoluindo não apenas com relação a materiais, processos de fabricação e estilos, mas com novos métodos de criação e desenvolvimento. Recentemente, com uma maior implementação de práticas instrucionais de joalheria, tanto em nível superior quanto em cursos de aperfeiçoamento, nota-se uma carência de metodologias específicas voltadas à esta área, que possam ser empregadas tanto no meio acadêmico quanto profissional, a partir da formação do aluno. Este artigo apresenta uma proposição de metodologia para instrução de design de joias, com o objetivo de mostrar ao discente diferentes perfis que envolvem a cadeia produtiva para capacitá-lo a atuar no ramo. Foram conduzidas entrevistas informais com profissionais da área com diferentes estilos de projeto, levando à identificação de características essenciais para a construção de um determinado perfil de atuação em joalheria. A partir dessas propriedades, foi elaborada uma metodologia abrangendo desde a motivação inicial do projeto, passando por etapas de identificação de tipo de atuação, definição de problema, pesquisa, elaboração de conceito e requisitos de projeto, execução de processo criativos e de fabricação, até a validação da peça obtida. Por fim, destaca-se que a metodologia proposta surge como uma base para diferentes níveis de ensino, para que o aluno possa conhecer as etapas gerais da cadeia produtiva e se tornar apto a seguir profissionalmente, mas que, sobretudo, possa adaptá-la conforme seu fluxo de trabalho e seu modo preferido de atuação.",
+        "pdf_url": "https://www.ufrgs.br/det/index.php/det/article/download/906/334",
+        "citation_count": 11,
+        "work_type": "article",
+        "identifier": "W4295866772",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Moda e Consumo Sustentável: um exemplo de Florianópolis (SC)",
+        "source": "openalex",
+        "url": "https://doi.org/10.29183/2447-3073.mix2020.v7.n1.93-110",
+        "doi": "10.29183/2447-3073.mix2020.v7.n1.93-110",
+        "year": 2020,
+        "authors": [
+          "Valdecir Babinski Júnior",
+          "Paula Martin",
+          "Mariana Luísa Schaeffer Brilhante",
+          "Lucas da Rosa",
+          "Dulce Maria Holanda Maciel"
+        ],
+        "venue": "MIX Sustentável",
+        "abstract": "In order to verify through a Fashion business in Florianópolis (SC), how sustainable consumption is configured locally, this article explores the example of the Black Purpurin handbag and accessory brand. As a hypothesis, it is estimated that local consumers look for the company for its emphasis on sustainability and, in a reciprocal way, it legitimizes their pro-sustainabilitybehavior. Methodologically, this article fits as applied, qualitative, descriptive, bibliographic and field re-search. As a data collection instrument, a scripted interview with twenty open questions for the co-owner of the brand was used.The literature was investigated in the light of Sustainable Development Objective (SDG) 12 — Sustainable Consumption and Production — of the United Nations (UN). Finally, the hypothesis outlined by the authors was refuted in the verifiedexample and it was evidenced that local consumers seek to exercise the power of consumption through aesthetic-formal aspects and immaterial values. That is, before sustainable criteria, they value the design, exclusivity, the possibility ofcus-tomization and the 3D printing process of the pieces sold by the aforementioned brand.",
+        "pdf_url": "https://ojs.sites.ufsc.br/index.php/mixsustentavel/article/download/4287/3486",
+        "citation_count": 5,
+        "work_type": "article",
+        "identifier": "W3117191363",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "DESIGN E LOGÍSTICA REVERSA: CONTRIBUIÇÕES DO DESIGN À CADEIA DE RESÍDUOS DA INDÚSTRIA TÊXTIL E DE CONFECÇÃO",
+        "source": "openalex",
+        "url": "https://doi.org/10.17771/pucrio.acad.70464",
+        "doi": "10.17771/pucrio.acad.70464",
+        "year": 2025,
+        "authors": [
+          "Adriana Basto Aquim"
+        ],
+        "venue": null,
+        "abstract": "e Design, Pontifícia Universidade Católica do Rio de Janeiro.O estudo investiga como o design pode contribuir para a formulação de diretrizes nacionais de logística reversa na indústria têxtil e de confecção (T&C), considerando sua complexidade e múltiplos atores.O objetivo principal é desenvolver diretrizes projetuais que incorporem os conceitos do design para a sustentabilidade.O referencial teórico aborda a economia circular, a logística reversa, a gestão de resíduos sólidos e o design sustentável.A pesquisa utilizou a metodologia de Flick (2009), aplicando codificação, categorização e redes de categorias em documentos legislativos sobre logística reversa têxtil, além de entrevistas com especialistas.A análise levou à formulação de diretrizes apresentadas no capítulo 7 do estudo.Na revisão da literatura, destacam-se conceitos essenciais como economia circular, legislação brasileira sobre resíduos sólidos, a Política Nacional de Resíduos Sólidos (2010) e a evolução do design sustentável conforme Ceschin e Gaziulusoy (2016).Também é abordado o livro \"Design como atitude\", de Alice Rawsthorn (2024).Os resultados indicam a viabilidade da criação de regulamentações para a logística reversa têxtil por meio de acordos setoriais, termos de compromisso ou decretos.Propõe-se a formação de grupos de trabalho que incluam indústria, especialistas, legisladores e sociedade civil.O estudo reforça a necessidade de conscientização para impulsionar ações efetivas e aponta como outros países já avançam na regulamentação.Por fim, destaca a urgência de um debate aprofundado sobre o tema para fomentar tecnologias e soluções sustentáveis.",
+        "pdf_url": "https://www.maxwell.vrac.puc-rio.br/70464/70464.PDF",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4410431266",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Protocolo para análise de imagem de moda e figurino no audiovisual: uma proposta metodológica",
+        "source": "openalex",
+        "url": "https://doi.org/10.18682/cdc.vi310.13757",
+        "doi": "10.18682/cdc.vi310.13757",
+        "year": 2026,
+        "authors": [
+          "Ana Paula Celso de Miranda",
+          "Amílcar Almeida Bezerra"
+        ],
+        "venue": "Cuadernos del Centro de Estudios de Diseño y Comunicación",
+        "abstract": "Este artículo presenta un protocolo para analizar imágenes de moda en narrativas audiovisuales, centrándose en el vestuario, las marcas y las celebridades o personalidades de los medios. Inicialmente, el artículo aborda la importancia de reconocer aspectos de la preproducción y la producción de la obra/película.",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/cdc/article/download/13757/24285",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7167699972",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Moda da natureza: inter-relações entre moda e biônica",
+        "source": "openalex",
+        "url": "http://tede.mackenzie.br/jspui/handle/tede/2730",
+        "doi": null,
+        "year": 2009,
+        "authors": [
+          "Juliana Bertolini"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "A presente pesquisa propõe um diálogo entre Moda e Biônica, apontando possibilidades de práticas metodológicas, criativas e conceituais de forma a compreender o que seria a moda da natureza. O trabalho parte de uma contextualização histórica e social da moda na sociedade de consumo com o objetivo de localizar o contexto onde esta inter-relação é proposta. Desta forma, procura levantar as características de funcionamento e as aberturas do sistema da moda a este diálogo inter-relacionado. Busca também entender o que é Biônica e suas transformações ao longo da história e do desenvolvimento tecnológico, de modo a poder compreender as possibilidades projetuais geradas por meio do contato e investigação da natureza, inclusive traçando paralelos entre conceitos da biologia e conceitos do design com o intuito de gerar conceitos híbridos para o design e a moda. Nesse sentido, procura explorar formas metodológicas de trabalho e possibilidades de aplicações na moda, além de formas operantes para a moda da natureza. São também localizados alguns projetos de estilistas, designers e artistas para exemplificar os conceitos de projeto explorados nesta pesquisa. A dissertação também apresenta informações que são resultado tanto de pesquisas de campo realizadas no Laboratório de Design e Seleção de Materais da Universidade Federal do Rio Grande do Sul quanto de entrevista realizada com Carmelo di Bartolo, designer italiano e pesquisador de Biônica no Design Innovation Institute, em Milão.",
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W2767777384",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Moda vestida de Arte: Um pouco além do efêmero",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.93.2011.tde-11072012-101331",
+        "doi": "10.11606/d.93.2011.tde-11072012-101331",
+        "year": 2011,
+        "authors": [
+          "Heloisa de Sá Nobriga"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "The ephemeral is the prerogative of Fashion mechanism. Currently its spectacular view derives from the necessity of maintaining the capitalist machine, where the use of design takes care of programmed obsolescence, pointing to the superfluous and masking cosmetic. The endless quest for novelty culminates in the formal appropriation for elements of artistry, that reconfigure the functionality of the dressing, adding hybridity Art and Fashion personhood and their own individual reading of postmodern art. If in the The Empire of Fashion: Dressing Modern Democracy by Lipovetsky of individuality leads the circuit, this new conformation realize that valuing individual is permeated by collective values of eternal and immutable beauty by Baudelaire, where the elevation of functional products initially to the category of Art has the ability to pierce the time of these contemporary sliding, making the art dressed in fashion spread toward the future of consecration, in a quest to stay a little ahead of its time inherently ephemererity.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/93/93131/tde-11072012-101331/publico/2011_HeloisadeSaNobriga_VOrig.pdf",
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W1481765604",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Corpo, forma e técnica: inter-relações na criação de moda",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.5965/1982615x04072011027",
+        "doi": "10.5965/1982615x04072011027",
+        "year": 2011,
+        "authors": [
+          "Lucas da Rosa",
+          "Cristiane Poelking"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "O texto aborda as inter-relações do corpo, da forma e da matéria têxtil no contexto da produção de moda, ressaltando o uso da técnica da Moulage como instrumento de criação e inovação formal. Traçam-se paralelos entre os processos de criação no campo da moda e das artes por meio da aproximação teórica de ambas as áreas, explorando, por fim, as técnicas de modelagem e seu emprego na criação dos produtos de moda.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/modapalavra/article/download/7910/5443",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2736471034",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Análise do mercado de trabalho",
+        "source": "crossref",
+        "url": "https://doi.org/10.38116/bmt74/analisedomercado",
+        "doi": "10.38116/bmt74/analisedomercado",
+        "year": 2022,
+        "authors": [],
+        "venue": "Boletim Mercado de Trabalho",
+        "abstract": "O texto apresenta os principais indicadores de mercado de trabalho do país, obtidos da Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua e do Novo Cadastro Geral de Empregados e Desempregados (Novo Caged). O texto mostra um cenário positivo para o país, seguindo uma trajetória de recuperação e expansão desde meados de 2021. A população ocupada avançou 7,5%, na comparação interanual, abarcando aproximadamente 100,2 milhões de pessoas, e a taxa de desemprego recuou pelo 14º mês consecutivo, chegando a 8,9% e atingindo o menor patamar desde julho de 2015. Apesar de o crescimento estar concentrado proporcionalmente no trabalho informal, o mercado formal também apresentou expansão. A população de trabalhadores sem carteira de trabalho assinada no setor privado avançou 19,8%, na comparação interanual; enquanto o contingente de ocupados com carteira no setor privado cresceu 10%. Finalmente, vale destacar que o crescimento anual na ocupação vem ocorrendo de forma generalizada em termos de regiões, segmentos etários, educacionais e setores da economia, com exceção dos grupos agricultura e administração pública.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.38116/bmt74/analisedomercado",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Instituto de Pesquisa Economica Aplicada - IPEA"
+        }
+      },
+      {
+        "title": "Análise do mercado de trabalho",
+        "source": "crossref",
+        "url": "https://doi.org/10.38116/bmt75/analisedomercado",
+        "doi": "10.38116/bmt75/analisedomercado",
+        "year": 2023,
+        "authors": [],
+        "venue": "Boletim Mercado de Trabalho",
+        "abstract": "Este artigo visa analisar a conjuntura laboral recente a partir de um conjunto de indicadores principais do mercado de trabalho brasileiro, com horizonte temporal até o final do terceiro trimestre de 2022. Para tanto, o texto está organizado em seis seções, incluindo esta introdução. Na seção 2, são apresentadas as informações referentes a variações nos indicadores de ocupação e participação da força de trabalho no Brasil. Na seção 3, são desagregados os dados de desocupação para diversos recortes populacionais. A seção 4 conduz a discussão para o nível setorial, verificando as condições de ocupação entre os principais setores de atividade agregados. A seção 5 fornece dados sobre o rendimento médio (habitual e efetivo) do trabalho no país, no nível domiciliar, entre setores e características populacionais, além de variações na massa salarial nacional. Por fim, a seção 6 traz um breve resumo dos pontos apresentados ao longo do texto e algumas considerações finais.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.38116/bmt75/analisedomercado",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Instituto de Pesquisa Economica Aplicada - IPEA"
+        }
+      },
+      {
+        "title": "ANÁLISE DO MERCADO DE TRABALHO",
+        "source": "crossref",
+        "url": "https://doi.org/10.38116/bmt70/mercadodetrabalho",
+        "doi": "10.38116/bmt70/mercadodetrabalho",
+        "year": 2020,
+        "authors": [],
+        "venue": "Boletim Mercado de Trabalho",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.38116/bmt70/mercadodetrabalho",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Instituto de Pesquisa Economica Aplicada - IPEA"
+        }
+      },
+      {
+        "title": "Análise do mercado de trabalho",
+        "source": "crossref",
+        "url": "https://doi.org/10.38116/bmt76/analisedomercado",
+        "doi": "10.38116/bmt76/analisedomercado",
+        "year": 2023,
+        "authors": [],
+        "venue": "Boletim Mercado de Trabalho",
+        "abstract": "Apresenta os principais indicadores de mercado de trabalho do país, obtidos da Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua e do novo Cadastro Geral de Empregados e Desempregados (Caged). O texto mostra um cenário positivo para o país, seguindo uma trajetória de recuperação e expansão desde meados de 2021. A população ocupada avançou 1,2% nesse segundo trimestre de 2023, na comparação interanual, abarcando aproximadamente 98,9 milhões de pessoas, e a taxa de desemprego recuou para 8,0%, o que indica diminuição de 1,3 p.p. ante o mesmo período do ano anterior. Esse recuo na desocupação pode ser observado em todos os recortes de desagregação (por região, gênero, raça, idade, escolaridade e setor de atividade). O crescimento da ocupação tem ocorrido mais intensamente no segmento formalizado, com taxa de crescimento de 1,4%, contra um decréscimo de 0,4% entre os informais. Em termos de renda habitual média mensal do trabalho, o crescimento interanual foi de 6,2%, atingindo o valor de R$ 2.921 no segundo trimestre de 2023. A massa de rendimentos do trabalho fechou em R$ 284,1 bilhões, com crescimento real de 7,2% na comparação interanual. Todos os diferentes recortes regionais, populacionais e setoriais mantiveram a trajetória de crescimento da renda média do trabalho, ainda que à taxa decrescente na maioria deles quanto ao primeiro trimestre de 2023. Contudo, não obstante a relevância dessas informações, o país segue com um contingente de 8,6 milhões de indivíduos em situação de desemprego involuntário, e mais da metade da população ocupada segue na informalidade, desconectadas da rede pública de proteção previdenciária. Ademais, os níveis de desigualdade de renda no país se mantêm elevados para os padrões internacionais. Isso demonstra a necessidade de esforços estruturados e coordenados em termos de políticas públicas de curto, médio e longo prazo para a inclusão produtiva e geração de trabalho digno, com mais igualdade de oportunidades para todos os segmentos da população brasileira.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.38116/bmt76/analisedomercado",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Instituto de Pesquisa Economica Aplicada - IPEA"
+        }
+      },
+      {
+        "title": "Análise do mercado de trabalho",
+        "source": "crossref",
+        "url": "https://doi.org/10.38116/bmt72/analisedomercado",
+        "doi": "10.38116/bmt72/analisedomercado",
+        "year": 2022,
+        "authors": [],
+        "venue": "Boletim Mercado de Trabalho",
+        "abstract": "O texto destaca movimentos nos principais indicadores para o primeiro e segundo trimestres de 2021 (a depender da disponibilidade da informação). Foram utilizados dados da Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua e do Cadastro Geral de Empregados e Desempregados (Caged e Novo Caged). É possível ressaltar que, apesar de as taxas de desocupação e informalidade registrarem patamares elevados, nota-se o ritmo de recuperação da população ocupada nos últimos meses, a ponto de reduzir a taxa de desemprego mesmo em um cenário de recuperação da taxa de participação. De acordo com a PNAD Contínua, após atingir 15,1% em março, a taxa de desocupação recuou para 13,7% em junho. No entanto, esse avanço da população ocupada vem ocorrendo em setores que empregam relativamente mais mão de obra informal.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.38116/bmt72/analisedomercado",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Instituto de Pesquisa Economica Aplicada - IPEA"
+        }
+      },
+      {
+        "title": "ANÁLISE DO MERCADO DE TRABALHO",
+        "source": "crossref",
+        "url": "https://doi.org/10.38116/bmt71/analisedomercado",
+        "doi": "10.38116/bmt71/analisedomercado",
+        "year": 2021,
+        "authors": [],
+        "venue": "Boletim Mercado de Trabalho",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "10.38116/bmt71/analisedomercado",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Instituto de Pesquisa Economica Aplicada - IPEA"
+        }
+      },
+      {
+        "title": "MODA, STATUS E HOMOSSEXUALIDADES: O TRABALHO NO MERCADO DE LUXO E AS PERFORMANCES DE GÊNERO EM INTERAÇÃO",
+        "source": "crossref",
+        "url": "https://doi.org/10.5380/sclplr.v1i1.64755",
+        "doi": "10.5380/sclplr.v1i1.64755",
+        "year": 2013,
+        "authors": [
+          "Tatiana Araújo Berghauser"
+        ],
+        "venue": "Sociologias Plurais",
+        "abstract": "Este trabalho é fruto de pesquisa sociológica exploratória sobre a performance de gênero de homens homossexuais que trabalham em lojas de roupa de padrão médio-alto, em shopping de Curitiba. Ele analisa os discursos e as performances observados ao longo do trabalho de campo, à luz da bibliografia da área de gênero e sexualidade. Os objetivos são: elucidar para o papel social que o gay assume na loja de moda; apontar as possibilidades performáticas permitidas a ele neste espaço; e apontar a contribuição desse mercado de trabalho na construção do imaginário sobre a homossexualidade.",
+        "pdf_url": "https://revistas.ufpr.br/sclplr/article/viewFile/64755/37681",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5380/sclplr.v1i1.64755",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Federal do Parana"
+        }
+      },
+      {
+        "title": "Análise do Mercado de Trabalho",
+        "source": "crossref",
+        "url": "https://doi.org/10.38116/bmt69/mercadodetrabalho",
+        "doi": "10.38116/bmt69/mercadodetrabalho",
+        "year": 2020,
+        "authors": [],
+        "venue": "Boletim Mercado de Trabalho",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "10.38116/bmt69/mercadodetrabalho",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Instituto de Pesquisa Economica Aplicada - IPEA"
+        }
+      },
+      {
+        "title": "IDEOLOGIA, DIVISÃO CAPITALISTA DO TRABALHO E PAPEL SOCIAL DO DESIGNER: UM ESTUDO SOBRE A PRODUÇÃO DE MATERIALIDADE NO DESIGN DE MODA",
+        "source": "crossref",
+        "url": "https://doi.org/10.5151/despro-ped2016-0063",
+        "doi": "10.5151/despro-ped2016-0063",
+        "year": 2016,
+        "authors": [
+          "Joana Martins Contino",
+          "Alberto Cipiniuk"
+        ],
+        "venue": "Blucher Design Proceedings",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5151/despro-ped2016-0063",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Editora Blucher"
+        }
+      },
+      {
+        "title": "O perfil do UX designer: um panorama da visão do mercado de trabalho",
+        "source": "crossref",
+        "url": "https://doi.org/10.5151/ped2018-7.1_aic_03",
+        "doi": "10.5151/ped2018-7.1_aic_03",
+        "year": 2019,
+        "authors": [
+          "Bárbara Souza",
+          "Manuela Quaresma"
+        ],
+        "venue": "Blucher Design Proceedings",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.5151/ped2018-7.1_aic_03",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Editora Blucher"
+        }
+      },
+      {
+        "title": "MERCADO DE TRABALHO E PANDEMIA DA COVID-19: AMPLIAÇÃO DE DESIGUALDADES JÁ EXISTENTES?",
+        "source": "crossref",
+        "url": "https://doi.org/10.38116/bmt69/notastecnicas1",
+        "doi": "10.38116/bmt69/notastecnicas1",
+        "year": 2020,
+        "authors": [],
+        "venue": "Boletim Mercado de Trabalho",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "10.38116/bmt69/notastecnicas1",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Instituto de Pesquisa Economica Aplicada - IPEA"
+        }
+      },
+      {
+        "title": "Boletim Mercado de Trabalho - Conjuntura e Análise",
+        "source": "crossref",
+        "url": "https://doi.org/10.38116/bmt74",
+        "doi": "10.38116/bmt74",
+        "year": 2022,
+        "authors": [],
+        "venue": "Boletim Mercado de Trabalho",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.38116/bmt74",
+        "extra": {
+          "crossref_type": "journal-issue",
+          "publisher": "Instituto de Pesquisa Economica Aplicada - IPEA"
+        }
+      },
+      {
+        "title": "Boletim Mercado de Trabalho - Conjuntura e Análise",
+        "source": "crossref",
+        "url": "https://doi.org/10.38116/bmt73",
+        "doi": "10.38116/bmt73",
+        "year": 2022,
+        "authors": [],
+        "venue": "Boletim Mercado de Trabalho",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.38116/bmt73",
+        "extra": {
+          "crossref_type": "journal-issue",
+          "publisher": "Instituto de Pesquisa Economica Aplicada - IPEA"
+        }
+      },
+      {
+        "title": "Boletim Mercado de Trabalho - Conjuntura e Análise",
+        "source": "crossref",
+        "url": "https://doi.org/10.38116/bmt70",
+        "doi": "10.38116/bmt70",
+        "year": 2020,
+        "authors": [],
+        "venue": "Boletim Mercado de Trabalho",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.38116/bmt70",
+        "extra": {
+          "crossref_type": "journal-issue",
+          "publisher": "Instituto de Pesquisa Economica Aplicada - IPEA"
+        }
+      },
+      {
+        "title": "Boletim Mercado de Trabalho - Conjuntura e Análise",
+        "source": "crossref",
+        "url": "https://doi.org/10.38116/bmt72",
+        "doi": "10.38116/bmt72",
+        "year": 2022,
+        "authors": [],
+        "venue": "Boletim Mercado de Trabalho",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "10.38116/bmt72",
+        "extra": {
+          "crossref_type": "journal-issue",
+          "publisher": "Instituto de Pesquisa Economica Aplicada - IPEA"
+        }
+      },
+      {
+        "title": "Boletim Mercado de Trabalho - Conjuntura e Análise",
+        "source": "crossref",
+        "url": "https://doi.org/10.38116/bmt76",
+        "doi": "10.38116/bmt76",
+        "year": 2023,
+        "authors": [],
+        "venue": "Boletim Mercado de Trabalho",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.38116/bmt76",
+        "extra": {
+          "crossref_type": "journal-issue",
+          "publisher": "Instituto de Pesquisa Economica Aplicada - IPEA"
+        }
+      },
+      {
+        "title": "Boletim Mercado de Trabalho - Conjuntura e Análise",
+        "source": "crossref",
+        "url": "https://doi.org/10.38116/bmt71",
+        "doi": "10.38116/bmt71",
+        "year": 2021,
+        "authors": [],
+        "venue": "Boletim Mercado de Trabalho",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.38116/bmt71",
+        "extra": {
+          "crossref_type": "journal-issue",
+          "publisher": "Instituto de Pesquisa Economica Aplicada - IPEA"
+        }
+      },
+      {
+        "title": "Boletim Mercado de Trabalho - Conjuntura e Análise",
+        "source": "crossref",
+        "url": "https://doi.org/10.38116/bmt75",
+        "doi": "10.38116/bmt75",
+        "year": 2023,
+        "authors": [],
+        "venue": "Boletim Mercado de Trabalho",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.38116/bmt75",
+        "extra": {
+          "crossref_type": "journal-issue",
+          "publisher": "Instituto de Pesquisa Economica Aplicada - IPEA"
+        }
+      },
+      {
+        "title": "INSERÇÃO DOS JOVENS NO MERCADO DE TRABALHO EM TEMPOS DE CRISE",
+        "source": "crossref",
+        "url": "https://doi.org/10.38116/bmt70/dossiea1",
+        "doi": "10.38116/bmt70/dossiea1",
+        "year": 2020,
+        "authors": [
+          "Carlos Henrique Corseuil",
+          "Maíra Franca"
+        ],
+        "venue": "Boletim Mercado de Trabalho",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 5,
+        "work_type": "article",
+        "identifier": "10.38116/bmt70/dossiea1",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Instituto de Pesquisa Economica Aplicada - IPEA"
+        }
+      },
+      {
+        "title": "A EMERGÊNCIA DE NOVOS TERRITÓRIOS DA MODA ÍNTIMA NO SERTÃO NOROESTE DO CEARÁ: UM ESTUDO DE FRECHEIRINHA",
+        "source": "crossref",
+        "url": "https://doi.org/10.22533/at.ed.79422240513",
+        "doi": "10.22533/at.ed.79422240513",
+        "year": 2022,
+        "authors": [
+          "Milvane Regina Eustáquia Gomes Vasconcelos",
+          "Virgínia Célia Cavalcante De Holanda"
+        ],
+        "venue": "Economia: Mercado e relações de trabalho",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.22533/at.ed.79422240513",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Atena Editora"
+        }
+      },
+      {
+        "title": "Avaliação do desempenho recente do mercado de trabalho brasileiro (2012-2022) : uma proposta de análise",
+        "source": "crossref",
+        "url": "https://doi.org/10.38116//bmt76/nt3",
+        "doi": "10.38116//bmt76/nt3",
+        "year": 2023,
+        "authors": [
+          "Lauro Ramos"
+        ],
+        "venue": "Boletim Mercado de Trabalho",
+        "abstract": "Buscou investigar o comportamento recente do mercado de trabalho brasileiro, com destaque para a análise do impacto da pandemia de covid-19 sobre seu desempenho, a partir de uma proposta metodológica de avaliação conjunta da evolução da oferta e da demanda, conforme retratado pelas evoluções das taxas de participação e de ocupação entre 2012 e 2022. Esse exercício analítico, chamado pelo autor de “diagrama de fases”, foi constituído para distintos recortes da população economicamente ativa do país, possibilitando a identificação de diferentes dinâmicas do comportamento do mercado de trabalho.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.38116//bmt76/nt3",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Instituto de Pesquisa Economica Aplicada - IPEA"
+        }
+      },
+      {
+        "title": "Estilista? Designer de moda... ou um designer de objetos do vestuário?",
+        "source": "crossref",
+        "url": "https://doi.org/10.26563/dobras.v7i15.69",
+        "doi": "10.26563/dobras.v7i15.69",
+        "year": 2014,
+        "authors": [
+          "Deborah Chagas Christo",
+          "Alberto Cipiniuk"
+        ],
+        "venue": "dObra[s] – revista da Associação Brasileira de Estudos de Pesquisas em Moda",
+        "abstract": "Ate o fim da década de 1990, a criação, bem como o desenvolvimento e a produção de objetos do vestuário, vinculados a noção de moda no Brasil, não era considerada como atividade pertencente ao campo do design. Com a indicação do Ministério da Educação, em 2004, para que os cursos de nível superior de estilismo ou moda se adequassem as Diretrizes Curriculares Nacionais do Curso de Graduação em Design, noções sobre a definição, delimitação e diferenciação das atividades do que, então, era nomeado como estilista e designer de moda se estabeleceram ou se alteraram. Assim, este artigo relata as conclusões da analise sobre a constituição, a estrutura e o funcionamento do campo de produção de objetos do vestuário no Brasil.",
+        "pdf_url": "https://dobras.emnuvens.com.br/dobras/article/download/69/69",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.26563/dobras.v7i15.69",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Dobras"
+        }
+      },
+      {
+        "title": "APRESENTAÇÃO",
+        "source": "crossref",
+        "url": "https://doi.org/10.38116/bmt74/apresentacao",
+        "doi": "10.38116/bmt74/apresentacao",
+        "year": 2022,
+        "authors": [],
+        "venue": "Boletim Mercado de Trabalho",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.38116/bmt74/apresentacao",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Instituto de Pesquisa Economica Aplicada - IPEA"
+        }
+      },
+      {
+        "title": "Boletim Mercado de Trabalho - Conjuntura e Análise (Especial Covid-19)",
+        "source": "crossref",
+        "url": "https://doi.org/10.38116/bmt69",
+        "doi": "10.38116/bmt69",
+        "year": 2020,
+        "authors": [],
+        "venue": "Boletim Mercado de Trabalho",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "10.38116/bmt69",
+        "extra": {
+          "crossref_type": "journal-issue",
+          "publisher": "Instituto de Pesquisa Economica Aplicada - IPEA"
+        }
+      },
+      {
+        "title": "Apresentação",
+        "source": "crossref",
+        "url": "https://doi.org/10.38116/bmt75/apresentacao",
+        "doi": "10.38116/bmt75/apresentacao",
+        "year": 2023,
+        "authors": [],
+        "venue": "Boletim Mercado de Trabalho",
+        "abstract": "A edição de número 75 do boletim Mercado de Trabalho: conjuntura e análise (BMT) traz uma série de textos que abordam temáticas diversas relacionadas ao universo do trabalho no Brasil. Primeiramente, essa edição contém o tradicional texto de Análise do mercado de trabalho, que analisa a conjuntura laboral recente a partir de um conjunto de indicadores principais do mercado de trabalho brasileiro, com horizonte temporal até o final do terceiro trimestre de 2022. Conta também com as três seções costumeiras de textos, com a participação de pesquisadores de diferentes instituições do país, quais sejam: Notas técnicas; Política em foco; e Economia solidária e políticas públicas.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.38116/bmt75/apresentacao",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Instituto de Pesquisa Economica Aplicada - IPEA"
+        }
+      }
+    ]
+  },
+  "count": 50,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:08:31.424598+00:00"
+}

@@ -1,0 +1,161 @@
+[
+  {
+    "claim": "Mais de 90% das peças de vestuário avaliadas em sessões de prova (fit sessions) passam por duas a três rodadas de prova em modelos humanos durante o processo de desenvolvimento do produto, testando de 8 a 20 peças por visita.",
+    "stance": "supports",
+    "stance_target": "As sessões de prova física e aprovação de peças-piloto constituem um gargalo repetitivo e demorado entre estilista, modelista/designer técnico e produção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Desenvolvimento de novos produtos (NPD) e design técnico na indústria de vestuário",
+    "quoted_support": "They usually test eight to 20 garments per visit. Over ninety percent of garments in fit sessions are evaluated on fit models two to three times during the product development process (Bye & LaBat, 2005).",
+    "numbers": [
+      "eight to 20 garments",
+      "Over ninety percent",
+      "two to three times"
+    ],
+    "entities": [
+      "Yoon Yang",
+      "Fatma Baytar",
+      "Cornell University",
+      "Bye & LaBat"
+    ],
+    "time_period": "2005-2024",
+    "region": "Estados Unidos",
+    "confidence": "high",
+    "source_note_id": "fit-models-roles-in-identifying-fit-issues-in-the-apparel-technical-design-proce"
+  },
+  {
+    "claim": "Antes do teste de mercado, os croquis confirmados dos estilistas passam pelo processo de design técnico e sessões de prova iterativas onde estilistas, designers técnicos (responsáveis pela modelagem 2D) e modelos de prova alteram a primeira peça-piloto em segunda e terceira amostras até atingir o padrão de caimento da empresa.",
+    "stance": "supports",
+    "stance_target": "A transição do croqui do estilista para a modelagem 2D e peça-piloto exige múltiplas iterações físicas de ajuste de caimento antes da produção em massa",
+    "evidence_type": "empirical",
+    "scope_conditions": "Sete estágios do processo de desenvolvimento de novos produtos (NPD) no vestuário",
+    "quoted_support": "Once the prototype sample is ready, designers who developed fashion sketches, technical designers who oversee 2D patternmaking to realize the design ideas, and fit models who are the representative of customer baseline meet for fit sessions. The first prototype sample garment is altered in the first fit session and becomes the second sample to be tested in the next fit session.",
+    "numbers": [
+      "seven stages",
+      "2D patternmaking"
+    ],
+    "entities": [
+      "Yoon Yang",
+      "Fatma Baytar"
+    ],
+    "time_period": "2022-2024",
+    "region": "Estados Unidos",
+    "confidence": "high",
+    "source_note_id": "fit-models-roles-in-identifying-fit-issues-in-the-apparel-technical-design-proce"
+  },
+  {
+    "claim": "Estilistas frequentemente solicitam validação de suas ideias criativas aos modelos de prova durante as sessões de prova porque modelos de prova em tempo integral atendem em média 25 marcas (chegando a 30-40 marcas com 10-15 estilos de referência cada), acumulando um banco de dados mental de tudo o que o mercado está planejando um a dois anos à frente.",
+    "stance": "supports",
+    "stance_target": "Estilistas que trabalham internamente em uma única marca enfrentam isolamento de referências técnicas de caimento e dependem de validação externa nas provas",
+    "evidence_type": "empirical",
+    "scope_conditions": "Observação de sessão de prova e entrevistas com 7 modelos de prova profissionais nos EUA",
+    "quoted_support": "It is not my job to give design feedback … But inevitably, people start asking me, and designers start asking me for validation about their design ideas and things like that … I fit for 30-40 brands. But every 30-40 brands they are bringing in 10-15 different reference styles.",
+    "numbers": [
+      "25 apparel brands on average",
+      "30-40 brands",
+      "10-15 different reference styles",
+      "a year or two from now"
+    ],
+    "entities": [
+      "Yoon Yang",
+      "Fatma Baytar"
+    ],
+    "time_period": "2022-2024",
+    "region": "Estados Unidos",
+    "confidence": "high",
+    "source_note_id": "fit-models-roles-in-identifying-fit-issues-in-the-apparel-technical-design-proce"
+  },
+  {
+    "claim": "Falhas de concepção do estilista quanto à vestibilidade prática (como excesso e complexidade de alças em moda praia que levam mais de 10 minutos para descobrir como vestir) só são detectadas quando o modelo de prova tenta vestir a peça fisicamente como primeiro cliente.",
+    "stance": "supports",
+    "stance_target": "Diferenças críticas entre a concepção estética do estilista e a usabilidade/vestibilidade real causam retrabalho no desenvolvimento de produto",
+    "evidence_type": "empirical",
+    "scope_conditions": "Sessões de prova física de vestuário e moda praia",
+    "quoted_support": "So, if I'm back in the fitting room for 10 minutes, and like ‘I don’t know how to put this on!’ Those swimsuits, Oh my gosh, there's so many straps. I don't know what goes where.",
+    "numbers": [
+      "10 minutes"
+    ],
+    "entities": [
+      "Yoon Yang",
+      "Fatma Baytar"
+    ],
+    "time_period": "2022-2024",
+    "region": "Estados Unidos",
+    "confidence": "high",
+    "source_note_id": "fit-models-roles-in-identifying-fit-issues-in-the-apparel-technical-design-proce"
+  },
+  {
+    "claim": "Quando os estilistas mantêm a mesma modelagem/construção de uma peça de sucesso entre diferentes estações e alteram apenas o tecido (ex.: troca para seersucker de verão), as propriedades do novo tecido alteram o caimento e exigem novas provas e ajustes de molde.",
+    "stance": "supports",
+    "stance_target": "A troca de matéria-prima/tecido pelo estilista em modelagens já aprovadas altera o comportamento físico da peça e gera necessidade de revalidação técnica",
+    "evidence_type": "empirical",
+    "scope_conditions": "Reedição de peças de vestuário entre coleções sazonais",
+    "quoted_support": "Typically, apparel brands sell a few selected garments throughout multiple seasons if they are sold well. Based on the season that they are released; designers only change the fabrics of the garments. Fabric properties affect the fit of garments although they are constructed from the same patterns.",
+    "numbers": [],
+    "entities": [
+      "Yoon Yang",
+      "Fatma Baytar"
+    ],
+    "time_period": "2022-2024",
+    "region": "Estados Unidos",
+    "confidence": "high",
+    "source_note_id": "fit-models-roles-in-identifying-fit-issues-in-the-apparel-technical-design-proce"
+  },
+  {
+    "claim": "Os softwares CAD 3D de vestuário (como CLO3D, Optitex PDS e Browzwear V-Stitcher) possuem limitações severas para substituir a prova física porque os avatares digitais não replicam a compressibilidade e elasticidade dos tecidos moles humanos em posturas dinâmicas (levantar os braços, sentar, agachar, dar passo/lunge) e porque posicionam os moldes abertos ao redor do avatar em vez de simular o ato físico de vestir pela cabeça ou pelos pés.",
+    "stance": "supports",
+    "stance_target": "Softwares de simulação 3D ainda não eliminam a dependência de peças-piloto físicas e provas presenciais para validação final de caimento e vestibilidade",
+    "evidence_type": "empirical",
+    "scope_conditions": "Simulação virtual 3D no desenvolvimento de produto de vestuário (CLO3D, Optitex PDS, Browzwear V-Stitcher)",
+    "quoted_support": "When the garments are simulated in a 3D CAD software program such as CLO3D, Optitex PDS, or Browzwear V-Stitcher, the virtual fitting may not give information on how snug the garment is. This is because digital avatars cannot replicate the soft tissue of human bodies effectively.",
+    "numbers": [
+      "360 degrees"
+    ],
+    "entities": [
+      "CLO3D",
+      "Optitex PDS",
+      "Browzwear V-Stitcher"
+    ],
+    "time_period": "2022-2024",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "fit-models-roles-in-identifying-fit-issues-in-the-apparel-technical-design-proce"
+  },
+  {
+    "claim": "Os mapas de tensão, estresse e pressão codificados por cores nos programas CAD 3D não representam a pressão real sentida pelo usuário em movimento e são difíceis de interpretar na prática para determinar quanto de folga (ease) adicional deve ser acrescentado ao molde.",
+    "stance": "supports",
+    "stance_target": "A tradução entre mapas de tensão 3D e ajustes quantitativos de folga na modelagem 2D permanece uma dor técnica sem padronização",
+    "evidence_type": "empirical",
+    "scope_conditions": "Ferramentas de mapa de pressão/tensão em softwares CAD 3D de vestuário",
+    "quoted_support": "In 3D CAD programs tools such as stress, pressure, and strain maps use color-coding to show the tightness of the garment. However, it is challenging to interpret the colored maps and guess how tight the actual garment would be (Zangue et al., 2020).",
+    "numbers": [],
+    "entities": [
+      "Zangue et al.",
+      "Brubacher et al."
+    ],
+    "time_period": "2020-2024",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "fit-models-roles-in-identifying-fit-issues-in-the-apparel-technical-design-proce"
+  },
+  {
+    "claim": "Em sessões de prova remotas, a ausência física do designer técnico força o modelo de prova a assumir o papel de designer técnico assistente, tendo que alfinetar, cortar, marcar fisicamente a peça e comunicar alterações diretamente às fábricas e modelistas.",
+    "stance": "supports",
+    "stance_target": "A comunicação remota de ajustes técnicos de modelagem e costura com fábricas e modelistas exige marcação física na peça-piloto e gera sobrecarga de funções",
+    "evidence_type": "empirical",
+    "scope_conditions": "Sessões de prova remotas via videoconferência (Zoom) na indústria de vestuário",
+    "quoted_support": "So, you have to not only take notes and communicate with your factories, or your pattern makers, but you also have to pin and mark on the garment so that they know exactly where what part of the garment you're talking about. So, it is about creating that physical mark on the garment that you have to put on.",
+    "numbers": [
+      "5600 overhead bar lights",
+      "$7,000 camera",
+      "three people's jobs in one"
+    ],
+    "entities": [
+      "Yoon Yang",
+      "Fatma Baytar"
+    ],
+    "time_period": "2020-2024",
+    "region": "Estados Unidos",
+    "confidence": "high",
+    "source_note_id": "fit-models-roles-in-identifying-fit-issues-in-the-apparel-technical-design-proce"
+  }
+]

@@ -1,0 +1,865 @@
+{
+  "ok": true,
+  "data": {
+    "query": "industria 4.0 transformacao digital confeccao vestuario Brasil",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 20,
+      "doab": 0
+    },
+    "raw_records": 40,
+    "merged_records": 40,
+    "returned": 40,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Indústria têxtil versus indústria de confecção de vestuário no Brasil: entendendo as diferenças e as conexões",
+        "source": "openalex",
+        "url": "https://doi.org/10.18406/2359-1269v11n72024526",
+        "doi": "10.18406/2359-1269v11n72024526",
+        "year": 2025,
+        "authors": [
+          "Heliana Márcia Santos",
+          "Olimpio José Pinheiro",
+          "Maria Concebida Pereira"
+        ],
+        "venue": "Revista Eixos Tech",
+        "abstract": "O objetivo deste estudo foi analisar as diferenças e conexões entre a indústria têxtil e a indústria de confecção de vestuário no Brasil, com foco nos resíduos gerados por ambos os setores e nas soluções para minimizar os impactos ambientais. A indústria têxtil, responsável pela produção de fios e tecidos, gera resíduos como águas residuárias e efluentes. A indústria de confecção, que transforma os tecidos em roupas, enfrenta desafios como desperdício de matérias-primas e produtos não vendidos. A metodologia adotada foi uma revisão da literatura, com ênfase em estudos acadêmicos e relatórios setoriais. Os resultados indicaram que, embora os tipos de resíduos gerados sejam distintos, há grande potencial para a reutilização, especialmente no reaproveitamento de retalhos de tecido e fibras recicladas. A pesquisa destacou ainda os desafios para a implementação de práticas sustentáveis, como a falta de infraestrutura e políticas públicas. Concluiu-se que a colaboração entre as indústrias, o governo e a sociedade civil são essenciais para avançar na sustentabilidade em ambos os setores.",
+        "pdf_url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/download/526/288",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4407162555",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "DESAFIOS E ADAPTAÇÕES DOS PROFISSIONAIS DA INDÚSTRIA DO VESTUÁRIO NA TRANSFORMAÇÃO DIGITAL",
+        "source": "openalex",
+        "url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/view/769",
+        "doi": "10.18406/2359-1269v12n52025769",
+        "year": 2026,
+        "authors": [
+          "Fabiane Motta Martino",
+          "Mariana Dias de Almeida"
+        ],
+        "venue": "Revista Eixos Tech",
+        "abstract": "The digital transformation accelerated by the COVID-19 pandemic has led to significant changes in the fashion industry, particularly in garment modeling processes. This article aims to investigate the impact of 3D software and artificial intelligence on the daily practices of apparel modeling professionals. A mixed-methods approach was adopted, combining a literature review with semi-structured interviews conducted both online via Google Meet and in person. The interviews were subsequently transcribed and analyzed. Four industry professionals participated in the study, all of whom were required to use Audaces 3D and CLO 3D software—selected for their current relevance in the fashion market. The research explores the perceptions and adaptations of patternmakers and 3D designers in the face of digital transformation, reflecting on the boundaries of automation and the enduring value of human expertise. Initial findings reveal tensions between technological innovation and the preservation of critical human engagement, emphasizing the necessity for continuous upskilling in light of the advancements brought by Industry 4.0. Despite increasing automation, the study reinforces the indispensable role of human labor in the creative and technical dimensions of fashion modeling.",
+        "pdf_url": "https://eixostech.pas.ifsuldeminas.edu.br/index.php/eixostech/article/download/769/361",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7215928102",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Utilização das ferramentas da indústria 4.0 para a prototipagem no setor de vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/18083129152021e0023",
+        "doi": "10.5965/18083129152021e0023",
+        "year": 2021,
+        "authors": [
+          "Leide Laura Bittencourt",
+          "Icléía Silveira",
+          "Lucas da Rosa",
+          "Daniela Novelli"
+        ],
+        "venue": "DAPesquisa",
+        "abstract": "As tecnologias digitais da Indústria 4.0, trazem benefícios para as empresas de vestuário, com a otimização dos processos, a velocidade de produção e a conexão entre as máquinas, que permite a integração de toda a cadeia de valor. O presente artigo aborda a utilização de ferramentas da indústria 4.0 na prototipagem de produtos de vestuário. Aplicou-se a pesquisa básica com fundamentos teóricos, com uma abordagem qualitativa e descritiva. A coleta de dados foi realizada em livros, artigos científicos, teses e dissertações, trazendo os princípios e pilares da indústria 4.0, bem como as ferramentas que possibilitam a prototipagem 3D (tridimensional) de produtos de vestuário. Destaca-se a relevância da pesquisa tendo em vista que a análise global da viabilidade técnica do produto, que avalia o traçado da modelagem, a vestibilidade, os aspectos ergonômicos e o caimento das peças, são feitos em ambiente virtual, dispensando assim: a plotagem dos moldes, seleção e preparação do tecido para o corte, traçado do risco e corte dos moldes e montagem (preparação e costura) das peças do modelo de vestuário. Os resultados da pesquisa revelam que é possível ter eficácia na produção e na redução do tempo de trabalho e benefícios sustentáveis com o uso das ferramentas de prototipagem 3D para produtos de vestuário, em termos sociais, ambientais e financeiros.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/dapesquisa/article/download/19997/13151",
+        "citation_count": 10,
+        "work_type": "article",
+        "identifier": "W3186360964",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "TRANSFORMAÇÃO DIGITAL: UM ESTUDO DO IMPACTO E RELEVÂNCIA NA INDÚSTRIA TÊXTIL SUL-BRASILEIRA",
+        "source": "openalex",
+        "url": "https://doi.org/10.55388/paic.v26i.652",
+        "doi": "10.55388/paic.v26i.652",
+        "year": 2025,
+        "authors": [
+          "Nicholas Fuchs Paulo",
+          "Marcelo Augusto Gonçalves Bardi"
+        ],
+        "venue": "Caderno PAIC",
+        "abstract": "A defasagem tecnológica da indústria têxtil sul-brasileira frente às tendências globais de inovação e de transformação digital, com destaque para seus desafios, é motivo de preocupação do referido setor econômico. Dessa maneira, tem-se como objetivodeste trabalho compreender o avanço do segmento , a sua relação com transformação digital como fator de impacto nos negócios para que seja possível identificar e analisar os fatores que se cruzam com o mercado atuante de hoje. A metodologia adotada baseou-se em entrevistas abertas com gestores de empresas têxteis da região sul do Brasil, cujos dados qualitativos foram transcritos e analisados com apoio de inteligência artificial. Os resultados obtidos permitiram evidenciar que há uma aplicação limitada de tecnologias digitais, predominantemente no ambiente fabril, com destaque para o uso de sistemas de gestão e inteligência artificial. Foram identificados obstáculos como informalidade, falta de mão de obra qualificada, aumento do custo de vida e pressão do mercado asiático. Assim, considera-se que a transformação digital no setor têxtil sul-brasileiro ocorre de forma lenta e desigual, sendo necessário maior investimento em capacitação tanto nas habilidades de carencia como na introdução de tecnologias, garantindo competitividade e o desenvolvimento sustentável do setor.",
+        "pdf_url": "https://cadernopaic.fae.edu/cadernopaic/article/download/652/611",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W7147300331",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "A contribuição da modelagem tridimensional para a transformação digital e a sustentabilidade na indústria da moda",
+        "source": "openalex",
+        "url": "https://doi.org/10.14488/1676-1901.v26i2.5789",
+        "doi": "10.14488/1676-1901.v26i2.5789",
+        "year": 2026,
+        "authors": [
+          "Rosiane Serrano",
+          "JOÃO VICTOR SCANDOLARA",
+          "Ana Júlia Dal Forno"
+        ],
+        "venue": "Revista Produção Online",
+        "abstract": "A digitalização tem impactado significativamente o desenvolvimento de produtos de moda, promovendo maior eficiência nos processos criativos e produtivos, além de contribuir para a redução de impactos ambientais. Nesse contexto, a modelagem tridimensional (3D) destaca-se como ferramenta estratégica ao possibilitar a prototipagem virtual, testes de caimento e ajustes sem a necessidade de múltiplas amostras físicas, reduzindo o consumo de materiais, energia e tempo produtivo e aproximando o setor dos princípios da Economia Circular. Apesar de seu potencial, a adoção da modelagem 3D ainda enfrenta desafios relacionados aos custos de aquisição, à necessidade de hardware avançado e às exigências de capacitação técnica, especialmente para pequenas empresas e designers independentes. Diante desse cenário, este estudo teve como objetivo avaliar comparativamente como as tecnologias de modelagem 3D apoiam a transformação digital e a sustentabilidade na indústria da moda, por meio da análise dos softwares CLO3D e Z-Weave. A metodologia adotada foi a Design Science Research (DSR), na qual foram definidos critérios de análise relacionados à usabilidade, curva de aprendizado, diferenças funcionais, fluidez operacional e etapas de desenvolvimento da modelagem. Os resultados indicaram que o CLO3D apresentou melhor desempenho em cinco critérios, enquanto o Z-Weave se destacou em três, evidenciando que a escolha da ferramenta depende das prioridades do usuário e do contexto produtivo. Os achados contribuem para a tomada de decisão de profissionais e empresas do setor, ao fornecer subsídios técnicos para a adoção de soluções digitais alinhadas à sustentabilidade.",
+        "pdf_url": "https://www.producaoonline.org.br/rpo/article/download/5789/2602",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7160215834",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "“Indústria 4.0”: organização do trabalho e indústria da moda",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/ped2018-6.1_aco_04",
+        "doi": "10.5151/ped2018-6.1_aco_04",
+        "year": 2019,
+        "authors": [
+          "Joana Martins Contino",
+          "Alberto Cipiniuk"
+        ],
+        "venue": null,
+        "abstract": "Neste trabalho, buscando compreender as práticas do Design no contexto político-econômico e social, realizamos um debate sobre a organização do trabalho na \"Indústria 4.0\".Através da contraposição de dois estudos sobre a \"Indústria 4.0\" -um alemão, lançador do conceito, e um brasileiro voltado ao setor têxtil e de confecção -a um referencial teórico proveniente da crítica da economia política marxiana, consideramos que a implementação da \"Indústria 4.0\" não representa ruptura com os métodos de controle do trabalho da reestruturação produtiva.Demonstramos também que o cenário atual da indústria da moda está bem distante do previsto pelo estudo setorial brasileiro.Finalmente, argumentamos que a plena implementação da automação correspondente à \"Indústria 4.0\" em todos os setores industriais implicaria em aprofundamento das contradições e crises do capitalismo, com efeitos nocivos para o funcionamento do próprio sistema.Assim, concluímos que, na indústria da moda, a \"Indústria 4.0\" não deve ser plenamente implementada.",
+        "pdf_url": "http://pdf.blucher.com.br.s3-sa-east-1.amazonaws.com/designproceedings/ped2018/6.1_ACO_04.pdf",
+        "citation_count": 2,
+        "work_type": "other",
+        "identifier": "W2942422529",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Tecendo transformações: a Lito Indústria do vestuário rumo à sustentabilidade",
+        "source": "openalex",
+        "url": "https://doi.org/10.12660/gvcasos.v16.n2.97222",
+        "doi": "10.12660/gvcasos.v16.n2.97222",
+        "year": 2026,
+        "authors": [
+          "Priscila Nesello",
+          "Silvana Pilotto Figueiredo",
+          "Vanessa Roveda"
+        ],
+        "venue": "Revista Brasileira de Casos de Ensino em Administração",
+        "abstract": "Em 2023, a Lito Indústria do Vestuário chegava a um ponto decisivo. Pressionada pela concorrência global, por novas demandas de sustentabilidade e pelo avanço das tecnologias digitais na moda, a empresa familiar seguia operando com processos manuais e foco na sobrevivência. Paola, representante da segunda geração, defendia que a Lito precisava se modernizar, aproximar-se da universidade e incorporar práticas de gestão do conhecimento e inovação. Já Wander, fundador e gestor, temia os riscos financeiros e culturais de uma mudança mais profunda. Diante desse conflito, surge a questão central que orienta este caso: Como equilibrar as práticas tradicionais que moldaram a identidade da Lito com a necessidade urgente de incorporar inovação tecnológica e sustentabilidade, sem comprometer os valores familiares que sustentam sua trajetória?",
+        "pdf_url": "https://periodicos.fgv.br/gvcasos/article/download/97222/91330",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7172493468",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Transformações digitais da confecção têxtil em domicílio no Brasil: práticas e percursos de apropriação de um software livre para a modelagem de vestuário",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.47328/ufvbbt.2024.376",
+        "doi": "10.47328/ufvbbt.2024.376",
+        "year": 2024,
+        "authors": [
+          "Juan Sebastián Restrepo González"
+        ],
+        "venue": null,
+        "abstract": "A transformação digital da manufatura configura-se como uma realidade concreta diante da qual as pessoas e as organizações precisam construir estratégias para a gestão dos espaços de produção em diálogo com as novas tecnologias e com as mudanças no mundo do trabalho associadas a elas. Nesta pesquisa, focamos a atenção na indústria da confecção de vestuário em domicílio, onde o trabalho feminino se destaca por sua natureza individualizada, informal e por enfrentar limitações no acesso, uso e adaptação de novas tecnologias. Nosso interesse específico reside na digitalização da etapa de modelagem, dada sua importância em ampliar a participação das costureiras no processo de produção. Nesse cenário identificamos o software livre Valentina como uma tecnologia adequada para a modelagem digital, considerando suas características alinhadas às condições comuns na confecção em domicílio. A popularização desse software no Brasil teve início em 2020, com a divulgação de conteúdo em português na internet e a formação de grupos em redes sociais digitais destinados ao compartilhamento de experiências e informações sobre o seu uso. O objetivo principal desta pesquisa foi analisar as mudanças nas práticas diárias de manufatura de indivíduos que participam desses grupos. Utilizamos o conceito de “percursos de apropriação” para analisar as trajetórias percorridas pelas participantes na integração de uma nova ferramenta digital em suas confecções. A participação em grupos de redes sociais foi abordada como uma prática de apropriação tecnológica, representando uma atividade recorrente na qual as costureiras buscam aumentar seu conhecimento sobre o software e outras tecnologias relacionadas, visando integrá-las ao cotidiano da confecção. Durante um período de 14 meses, foram conduzidas entrevistas semiestruturadas com seis participantes de um grupo no WhatsApp. Além disso, houve uma observação sistemática da interação no aplicativo e participação em algumas atividades do grupo. A pesquisa abrangeu participantes diversificadas em termos de práticas de manufatura, estratégias de apropriação e histórico envolvendo costura. Esse enfoque permitiu a identificação de elementos cruciais que influenciam os caminhos de apropriação de cada costureira, incluindo o histórico de envolvimento com a costura, as condições socioeconômicas, o tipo de formação e os objetivos produtivos e empresariais. A participação em redes sociais como estratégia de apropriação evidencia a importância dos processos autônomos de formação e capacitação fora do ambiente escolar, ressaltando também o papel das tecnologias de informação e comunicação nesses processos. As alterações nas práticas diárias de manufatura das participantes foram analisadas em três dimensões: a processual, que revelou transformações nos procedimentos das confecções, possibilitando a oferta de novos produtos e serviços; a dimensão tecnológica que explorou as relações entre as tecnologias anteriormente utilizadas, as tecnologias em processo de apropriação e as tecnologias para a apropriação; e a dimensão relacional, na qual foi identificada a construção de colaboração entre costureiras no Brasil e internacionalmente, assim como a formação de uma imagem moderna da costureira conectada às últimas tecnologias. Palavras-chave: Apropriação Tecnológica; Confecção em Domicílio; Modelagem Digital; Software Livre.",
+        "pdf_url": "https://locus.ufv.br/bitstreams/b29fce77-b809-4004-9ada-242ae8ae030f/download",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4401597362",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "COOPERAÇÃO INTERORGANIZACIONAL E APROPRIAÇÃO DE VALOR DAS INOVAÇÕES CRIADAS PELAS EMPRESAS DA INDÚSTRIA DE TRANSFORMAÇÃO NO BRASIL",
+        "source": "openalex",
+        "url": "https://doi.org/10.17771/pucrio.acad.47394",
+        "doi": "10.17771/pucrio.acad.47394",
+        "year": 2019,
+        "authors": [
+          "MARCELO OLIVEIRA GASPAR DE CARVALHO"
+        ],
+        "venue": null,
+        "abstract": "O objetivo da dissertação é analisar e comparar a influência de diferentes tipos de parceiros em arranjos cooperativos para projetos de PD&I sobre a apropriação de valor pelas empresas inovadoras da indústria de transformação no Brasil, considerando-se condições ambientais distintas, como nível de intensidade tecnológica e força do regime de apropriabilidade dos setores em que atuam, bem como características internas, como tamanho da empresa e capacidade para cooperar em projetos de PDeI (focalizando inovações de produto e/ou processo). A fonte de dados é a Pesquisa Nacional de Inovação (Pintec 2014), realizada pelo Instituto Brasileiro de Geografia e Estatística (IBGE). A pesquisa pode ser considerada descritiva e aplicada. A metodologia adotada compreende pesquisa bibliográfica sobre inovação; mecanismos de apropriação de valor; cooperação interorganizacional para inovação e classificações tecnológicas, destacando-se a classificação de intensidade tecnológica proposta pela Organização para a Cooperação e Desenvolvimento Econômico (OCDE); pesquisa documental referente à Classificação CNAE e ao Manual da Pintec 2014, ambas divulgadas pelo IBGE; análise de conteúdo para classificar as atividades econômicas das empresas inovadoras da indústria de transformação (respondentes da Pintec 2014), segundo quatro níveis de intensidade tecnológica e regime de apropriabilidade dos setores em que atuam e três faixas de pessoal alocado; solicitação ao IBGE de acesso aos microdados não desidentificados da Pintec 2014; e desenvolvimento de modelos econométricos logit para os doze agrupamentos de empresas, classificadas por intensidade tecnológica/força do regime de apropriabilidade do setor e por faixa de pessoal ocupado. A utilização dos microdados da Pintec 2014 para analisar a influência da cooperação interorganizacional sobre a apropriação de valor pelas empresas inovadoras da indústria de transformação no Brasil em diferentes condições ambientais conferem à pesquisa um caráter original, uma vez que os estudos anteriores baseados em Pesquisas Nacionais de Inovação não exploraram essa abordagem metodológica.",
+        "pdf_url": "https://www.maxwell.vrac.puc-rio.br/47394/47394.PDF",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4245601259",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "A APLICAÇÃO DA INTELIGÊNCIA ARTIFICIAL NO DESENVOLVIMENTO DE PRODUTOS NA INDÚSTRIA DE VESTUÁRIO DE MODA",
+        "source": "openalex",
+        "url": "https://doi.org/10.29327/2766099.32.1-1",
+        "doi": "10.29327/2766099.32.1-1",
+        "year": 2025,
+        "authors": [
+          "Geovana Aparecida Bohn",
+          "Daniel Goulart"
+        ],
+        "venue": "Revista da UNIFEBE",
+        "abstract": "A Inteligência Artificial (IA) tem se tornado cada vez mais presente na indústria de vestuário de moda, contribuindo para a inovação e melhoria dos processos de criação, produção e personalização de produtos. Este estudo teve como objetivo analisar como a IA pode contribuir para o processo de criação de roupas na indústria do vestuário de moda. A pesquisa utilizou uma abordagem teórica para entender os conceitos fundamentais da IA e a sua viabilidade no setor têxtil, destacando as vantagens e desafios da implementação dessa tecnologia, especialmente para pequenas e médias empresas. A análise apontou que, embora a IA traga grandes benefícios, como maior eficiência e sustentabilidade, obstáculos como o alto custo e a falta de capacitação ainda limitam a sua adoção generalizada na indústria da moda.",
+        "pdf_url": "https://periodicos.unifebe.edu.br/index.php/RevistaUnifebe/article/download/1081/865",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7125132165",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Moda Virtual: aceleração no processo de transformação digital devido à pandemia de COVID-19",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/cid2020-82",
+        "doi": "10.5151/cid2020-82",
+        "year": 2020,
+        "authors": [
+          "Wadson Gomes Amorim",
+          "Rachel Sager Boldt"
+        ],
+        "venue": null,
+        "abstract": "A pandemia global de 2020 levou o sistema da moda à uma nova crise.Embora a sua duração e a gravidade permaneçam desconhecidas é evidente que essa indústria está apenas no começo de sua luta.Neste artigo, temos o objetivo de apresentar e discutir o papel das novas soluções tecnológicas ligadas ao conceito de Indústria 4.0 frente à crise gerada pela pandemia de Covid-19.A redação do trabalho foi possível a partir de uma revisão sistemática da literatura relacionada às tecnologias digitais emergentes na indústria da moda e a análise de notícias recentes que apontaram possíveis aplicações como soluções alternativas para as incertezas do agora.O estudo, realizado entre maio e agosto de 2020, considera contextos da indústria, pesquisa e ensino.Explora uma série de exemplos de tecnologias em uso nesses contextos, revelando novos fluxos de trabalho e oportunidades resultantes do uso de softwares 3D no processo de Design.Argumenta que as vantagens das tecnologias digitais para melhorar o processo de Design de Moda são particularmente evidentes diante desse momento adverso que vivemos.",
+        "pdf_url": "http://pdf.blucher.com.br/designproceedings/cid2020/82.pdf",
+        "citation_count": 23,
+        "work_type": "other",
+        "identifier": "W3133197087",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "DESENVOLVIMENTO DE UM FRAMEWORK DE MULTICANALIDADE NA CADEIA DE SUPRIMENTOS DA INDÚSTRIA TÊXTIL DE VESTUÁRIOS",
+        "source": "openalex",
+        "url": "https://revista.fateccruzeiro.edu.br/index.php/htec/article/view/410",
+        "doi": null,
+        "year": 2024,
+        "authors": [
+          "Fabio Santo Caram",
+          "Rosinei Batista Ribeiro",
+          "Erik Leonel Luciano",
+          "Abinel Santiago Cerqueira",
+          "Carlos Hideo Arima"
+        ],
+        "venue": "Revista H-TEC Humanidades e Tecnologia",
+        "abstract": "Este artigo destaca os desafios enfrentados pelo setor varejista no Brasil devido a instabilidades econômicas e políticas, enfatizando a necessidade de estratégias inovadoras e resilientes. O objetivo do artigo é desenvolver um projeto lógico framework de multicanalidade na cadeia de suprimentos sob a ótica da inovação disruptiva. Para isso, a metodologia envolveu um Estudo Exploratório, Análise S.I.P.O.C e a Estratégia Omnichannel. Vale ressaltar que a ferramenta S.I.P.O.C é uma ferramenta da qualidade, em formato de diagrama, que visa mapear processos. Ele objetiva definir o principal processo envolvido no projeto e, consequentemente, facilitar a visualização do escopo do trabalho. As abreviações significam (Supplier, Input, Process, Outputs e Customer) que em português fornecedores, entrada, processo, saída e consumidores. A padronização de processos é uma atividade fundamental para o bom funcionamento de uma empresa. A análise S.I.P.O.C da empresa \"Alpha\" revelou oportunidades de melhoria em toda a cadeia de valor, desde os fornecedores até os clientes finais. A estratégia Omnichannel permitiu uma experiência unificada para os clientes, contribuindo para a competitividade da empresa no mercado. A inovação e a integração de sistemas foram elementos-chave para otimizar a eficiência operacional e aumentar a satisfação do cliente. Além disso, o comprometimento com o treinamento da equipe desempenhou um papel crucial no sucesso da inovação. Em suma, este estudo evidencia como a inovação pode impulsionar o crescimento econômico e a sustentabilidade no mercado varejista, abrindo caminho para o desenvolvimento de um framework de multicanalidade na cadeia de suprimentos da indústria têxtil de vestuários.",
+        "pdf_url": "https://revista.fateccruzeiro.edu.br/index.php/htec/article/download/410/273",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7215580219",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Guia para a implantação de softwares de prototipagem 3D no processo de desenvolvimento de produtos das indústrias de vestuário",
+        "source": "openalex",
+        "url": "https://repositorio.udesc.br/handle/UDESC/20975",
+        "doi": null,
+        "year": 2024,
+        "authors": [
+          "Tauane Spanhol de Aguirre"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "O ambiente competitivo do mercado de moda mundial está constantemente transformando os processos produtivos de desenvolvimento de produtos de vestuário. Enquanto as empresas buscam atender a demanda de novidades dos usuários, concomitantemente o gerenciamento de recursos internos da empresa se torna um fator importante como diferencial competitivo no mercado. Existem no mercado diversas tecnologias que colaboram para um desenvolvimento de produtos mais assertivos, colocando as empresas em vantagem competitiva. Esta pesquisa tem como objetivo propor um guia para implantação de software de prototipagem 3D no processo de desenvolvimento de produtos das indústrias de vestuário. Desta forma, Indústrias de vestuário que ainda têm dificuldades na adaptação de seus processos de desenvolvimento de produtos com a implantação de software de simulação 3D, podem criar seus protótipos virtuais, reduzir a quantidade de tecidos e outros recursos necessários para a produção de roupas. Para alcançar as soluções apontadas para o problema em adesão ao software 3D pelas empresas de confecção, esta pesquisa é de natureza aplicada, apoiando-se na abordagem qualitativa, quanto ao problema de pesquisa e em relação ao objetivo pesquisa descritiva. Quanto aos procedimentos técnicos para a coleta de dados, foi realizada: (I) Revisão da Literatura, visando avaliar o atual estado do conhecimento sobre o assunto; (II) Entrevista com o representante da empresa sobre os produtos por ela ofertado; (III) Aplicação de questionário com empresas de confecção que possuem e que não possuem o software; (IV) Pesquisa básica em rede profissional para avaliar o perfil dos profissionais que utilizam o software. As teorias que embasaram o trabalho foram: Processos para transição de modelos de indústria e adesão a novas tecnologias (Chien; Hong; Guo, 2017), (Quintino et al., 2019), Administração da Produção (Slack, Brandon-Jones; Johnston, 2020); Etapas do Desenvolvimento de Produtos de Vestuário (Montemezzo, 2003), (Bitterncourt et al, 2021), (Silveira, 2017) e teorias sobre Indústria 3.0, 3.5, 4.0 e 5.0 (Schwab, 2016), (Chien; Hong; Guo, 2017), (Quintino et al., 2019). Como resultado do trabalho, foi produzido um Guia que contribui para a elucidação dos passos necessários para a implantação do software de prototipagem 3D no processo de desenvolvimento de produtos das indústrias de vestuário.",
+        "pdf_url": "https://repositorio.udesc.br/bitstreams/e91e0d8a-a74c-4d4c-9d57-a6b449688f8e/download",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7120527950",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Indústria 4.0, consumidores e sustentabilidade na cadeia de moda",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/9786555503456-14",
+        "doi": "10.5151/9786555503456-14",
+        "year": 2024,
+        "authors": [
+          "Rimena Canuto Oliveira",
+          "Solimar Garcia"
+        ],
+        "venue": "Editora Blucher eBooks",
+        "abstract": "Na cadeia têxtil, a economia circular se torna cada vez mais importante devido aos diversos tipos de impactos que ela causa ao meio ambiente. As mudanças estão acontecendo vagarosamente e pulverizadas em diversos setores da cadeia e do mundo, envolvendo desde a concepção até a produção e o consumo dos produtos de uma forma mais sustentável. As abordagens inovadoras são de diversos tipos e buscam reduzir o desperdício, minimizar o consumo de recursos e criar formas de transformar a indústria em um modelo sustentável. Este capítulo apresenta um pouco da história da indústria têxtil no Brasil e o caminho que arduamente vem sendo trilhado pelo setor para chegar a algum tipo de sustentabilidade e caminhar para a economia circular. Este é o terceiro segmento mais poluente do mundo, ficando atrás apenas de petróleo e gás e do setor alimentício.",
+        "pdf_url": "https://pdf.blucher.com.br/openaccess/9786555503456/14.pdf",
+        "citation_count": 2,
+        "work_type": "book-chapter",
+        "identifier": "W4399408516",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "INOVAÇÃO E TECNOLOGIA NO SETOR TÊXTIL: ANÁLISE DA INDÚSTRIA 4.0",
+        "source": "openalex",
+        "url": "https://doi.org/10.29327/xcontexmod.922080",
+        "doi": "10.29327/xcontexmod.922080",
+        "year": 2024,
+        "authors": [
+          "Adriane Aparecida Andrade Gomes",
+          "Daiane Maria De Genaro Chiroli",
+          "Janaina Piana"
+        ],
+        "venue": "Congresso Científico de Têxtil e Moda (CONTEXMOD)",
+        "abstract": "O presente artigo objetiva realizar uma revisão sistemática da literatura sobre a gestão da inovação no contexto da indústria têxtil e confecção sob a perspectiva do modelo de indústria 4.0. Esse tema é importante pois há a necessidade da indústria têxtil se atualizar com tecnologias da Indústria 4.0 para se manter competitiva no mercado. Para realizar a revisão sistemática foi utilizada a metodologia PRISMA, metodologia que é amplamente reconhecida para revisões sistemáticas e meta-análises. Dentre os principais desafios enfrentados pelas indústrias têxteis relatados na literatura, foi identificada a falta de capital para investimento devido se tratar de um setor composto majoritariamente por PMEs, resistência a mudança e pouco conhecimento sobre a Indústria 4.0 nos parques fabris e por isso a necessidade de desenvolver o capital humano para se adaptar aos novos meios de produção e exigências do mercado.",
+        "pdf_url": "https://static.even3.com/anais/922080.pdf?v=639024236778856540",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4404912796",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "A inteligência artificial para a inovação do design de vestuário: pesquisa nas indústrias do setor em Minas Gerais",
+        "source": "openalex",
+        "url": "https://doi.org/10.29147/datjournal.v10i2.887",
+        "doi": "10.29147/datjournal.v10i2.887",
+        "year": 2025,
+        "authors": [
+          "Wadson Gomes Amorim",
+          "Hérika Sendas Resende",
+          "Maria Regina Álvares Correia Dias"
+        ],
+        "venue": "DAT Journal",
+        "abstract": "Este artigo explora a Inteligência Artificial (IA) como uma estratégia potencial para aumentar a inovação e o valor no design e na cadeia de produção da indústria da moda. O estudo analisa a literatura especializada para descrever o setor têxtil e de vestuário no Brasil e em Minas Gerais, bem como o estado atual da IA e suas aplicações em diversas áreas do setor: design, materiais, produção, logística, distribuição, marketing e vendas. A pesquisa teve como objetivo entender o nível de conhecimento, adoção, interesse e importância do uso da IA no desenvolvimento de produtos pelas empresas de vestuário em Minas Gerais. Foram entrevistadas 65 empresas de 12 cidades do estado. Os resultados indicam que é preciso melhorar a educação sobre IA e criar estratégias para superar as barreiras que impedem a implementação eficaz dessas tecnologias no setor.",
+        "pdf_url": "https://datjournal.emnuvens.com.br/dat/article/download/887/685",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4413562135",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Sustentabilidade e indústria 4.0 no setor têxtil: uma revisão sistemática",
+        "source": "openalex",
+        "url": "https://doi.org/10.6008/cbpc2179-684x.2023.003.0001",
+        "doi": "10.6008/cbpc2179-684x.2023.003.0001",
+        "year": 2023,
+        "authors": [
+          "Francisco Nogueira Lima",
+          "Djalma Silva Guimarães Júnior"
+        ],
+        "venue": "Revista Brasileira de Administração Científica",
+        "abstract": "O presente manuscrito tem como objetivo contribuir no sentido de elencar as principais ferramentas e tendências da indústria 4.0 (I4.0) aplicadas no setor têxtil de forma sustentável, a fim de fomentar uma discussão sobre um relevante tema de pesquisa. A indústria têxtil é uma das maiores fontes mundiais de crescimento econômico e de poluição industrial, e questões sustentáveis estão se tornando uma preocupação cada vez maior. Sendo assim, I4.0 surge com alternativas tecnológicas a fim de impactar positivamente a indústria de confecção. Foi realizada uma revisão de literatura aplicando-se a técnica de revisão sistemática. Os resultados verificados indicaram a categorização de 03 principais tendências e seus impactos aplicando a sustentabilidade na indústria têxtil. Dentre estas, pode-se citar: (1) economia circular e produção sustentável; (2) blockchain e cadeia de suprimentos; e (3) ferramentas da I4.0 aplicadas na indústria têxtil. Contudo, conclui-se que o presente artigo busca servir como uma ferramenta de acesso e visibilidade para possíveis implementações das inovações sustentáveis na indústria têxtil no Brasil.",
+        "pdf_url": "https://sustenere.inf.br/index.php/rbadm/article/download/8314/4683",
+        "citation_count": 5,
+        "work_type": "article",
+        "identifier": "W4411733966",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Prototipagem Virtual: Softwares 3D para Modelagem de Vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2024.v15.n3.50575",
+        "doi": "10.5433/2236-2207.2024.v15.n3.50575",
+        "year": 2024,
+        "authors": [
+          "Silvia Cristina Silveira dos Santos",
+          "Icléía Silveira",
+          "Sandra Regina Rech"
+        ],
+        "venue": "Projetica",
+        "abstract": "O objetivo desta pesquisa foi elencar softwares 3D aplicados ao desenvolvimento de modelagem do vestuário, prototipagem virtual e geração de moldes para uso na indústria de vestuário. Para isso foi feita uma pesquisa básica, com abordagem qualitativa e descritivo. Foi utilizada a revisão teórica de literatura por meio de artigos científico, livros, relatório de tendências, sites de empresas de tecnologia e dissertações. Como resultado foi listado os softwares de modelagem 3D, sites de lojas de ativos digitais para softwares de assim como alguns softwares de modelagem 2D de código aberto. Constatou-se que a indústria de vestuário está iniciando a transição para às tecnologias digitais e os profissionais de desenvolvimento de produto precisam de novas habilidades e novas competências.",
+        "pdf_url": "https://ojs.uel.br/revistas/uel/index.php/projetica/article/download/50575/51429",
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "W4406216955",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Mapeamento da literatura sobre as tecnologias da indústria 4.0 no segmento têxtil brasileiro",
+        "source": "openalex",
+        "url": "http://doi.org/10.34117/bjdv6n7-019",
+        "doi": "10.34117/bjdv6n7-019",
+        "year": 2020,
+        "authors": [
+          "Leila Araújo Falani",
+          "Cátia Rosana Lange de Aguiar",
+          "Ana Júlia Dal Forno"
+        ],
+        "venue": "Brazilian Journal of Development",
+        "abstract": "RESUMOO presente trabalho objetiva descrever o resultado de uma revisão da literatura brasileira do termo indústria 4.0, aplicado ao segmento têxtil, identificando as áreas de aplicação, as tecnologias e os benefícios.Portanto, utilizou-se a metodologia proposta por Tranfield et al. (2003), que organiza a Revisão Sistemática da Literatura para as áreas de gestão em três estágios (Planejamento, Condução e Relatório e disseminação).Assim, foram analisados sete artigos, nos quais ocorreram aplicação de todas as tecnologias da indústria 4.0 (RÜBMANN et al., 2015), onde a Internet das Coisas (IoT) apresentou-se como a ferramenta mais aplicada, em cinco diferentes processos produtivos têxteis.Foram citados 14 benefícios dessa aplicação tais como ganho de produtividade, redução de perdas e refrações e controle e monitoramento das atividades industriais, dentre outros.",
+        "pdf_url": "https://www.brazilianjournals.com/index.php/BRJD/article/download/12506/10676",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W3046956141",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A INDÚSTRIA 4.0 E SUA APLICAÇÃO NO SETOR TÊXTIL: UMA REVISÃO DA LITERATURA BRASILEIRA",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/cbgdp2019-39",
+        "doi": "10.5151/cbgdp2019-39",
+        "year": 2019,
+        "authors": [
+          "Leila Araújo Falani",
+          "Cátia Rosana Lange de Aguiar",
+          "Ana Júlia Dal Forno"
+        ],
+        "venue": null,
+        "abstract": "O presente trabalho objetiva descrever o resultado de uma revisão sistemática da literatura brasileira do termo indústria 4.0, aplicado ao segmento têxtil, para apresentar as áreas de aplicação, ferramentas e os benefícios.Portanto, utilizou-se a metodologia proposta por Tranfield et al. (2003), que organiza a Revisão Sistemática da Literatura para as áreas de gestão em três estágios (Planejamento, Condução e Relatório e disseminação).Assim, foram analisados seis artigos, nos quais ocorreram aplicação de oito pilares da indústria 4.0, onde a Internet das Coisas -IoT apresentou-se como a ferramenta mais aplicada, em cinco diferentes processos produtivos têxteis.Foram citados 14 benefícios dessa aplicação, sendo os mais citados: ganho de produtividade, intercomunicação de sistemas de produção e redução de perdas e refrações.",
+        "pdf_url": "http://pdf.blucher.com.br/engineeringproceedings/cbgdp2019/39.pdf",
+        "citation_count": 2,
+        "work_type": "other",
+        "identifier": "W2987185637",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "TRANSFORMACAO DIGITAL – PERCEPCOES E ACOES NO CONTEXTO BRASILEIRO: O QUE OS EXECUTIVOS DAS EMPRESAS ATUANTES NO BRASIL ENTENDEM POR TRANSFORMACAO DIGITAL",
+        "source": "crossref",
+        "url": "https://doi.org/10.5748/17contecsi/pse-6461",
+        "doi": "10.5748/17contecsi/pse-6461",
+        "year": 2021,
+        "authors": [
+          "DIOGO DE AZEVEDO VASCONCELLOS",
+          "CLAUDIO LUIS CARVALHO LARIEIRA",
+          "ALBERTO LUIZ ALBERTIN"
+        ],
+        "venue": "CONTECSI International Conference on Information Systems and Technology Management",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5748/17contecsi/pse-6461",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "TECSI"
+        }
+      },
+      {
+        "title": "A transformacao digital e o uso de tecnicas inteligencia artificial (IA) no Sistema de Justica do Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.47345/v11n1art5",
+        "doi": "10.47345/v11n1art5",
+        "year": 2024,
+        "authors": [
+          "Alexandre Zavaglia Coelho"
+        ],
+        "venue": "e-Publica",
+        "abstract": "A digitalização do Sistema de Justiça no Brasil tem criado o ambiente adequado para o uso de tecnologia aplicada aos serviços jurisdicionais. Essa transformação digital abrange desde a automação dos processos até a implementação de sistemas avançados para análise e gestão de dados jurídicos, objetivando uma prestação de serviços mais eficiente e acessível. Especialmente nos últimos anos, esse contexto tem permitido a ampliação da quantidade de projetos em desenvolvimento e produção que se utilizam de técnicas de ciência de dados e, assim de inteligência artificial (IA), especialmente por se tratar de um país com um dos maiores volumes de processos judiciais em andamento. Ao longo desse estudo, discute-se desde as formas adequadas para a interligação entre a técnica jurídica e o uso dessas novas tecnologias, a gestão estratégica dos litígios, os desafios éticos e profissionais relacionados ao uso dessa tecnologia, assim como as implicações para a formação dos profissionais do Direito para essa nova realidade, como forma de contribuição para o debate global sobre estratégias de aprimoramento da prestação de serviços jurisdicionais, oferecendo insights importantes de uma trajetória de mais de 20 anos, com os detalhes de seus passos, desafios e conquistas ao longo de muitas etapas necessárias para a efetividade desse caminho.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.47345/v11n1art5",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Instituto de Ciencias Juridico-Politicas"
+        }
+      },
+      {
+        "title": "A \"colcha de retalhos\" da metropole paulista: simples aglomerados ou sistemas produtivos e inovativos na industria do vestuario?",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2005.361904",
+        "doi": "10.47749/t/unicamp.2005.361904",
+        "year": 2021,
+        "authors": [
+          "Maria das Graças Moura Brito"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2005.361904",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "SOCIEDADE 50 CORRELACIONADA COM A INDUSTRIA 40 E A TRANSFORMACAO DIGITAL",
+        "source": "crossref",
+        "url": "https://doi.org/10.5748/17contecsi/pse-6413",
+        "doi": "10.5748/17contecsi/pse-6413",
+        "year": 2021,
+        "authors": [
+          "PABLO FERNANDO LOPES",
+          "THIAGO SILVA SOUZA",
+          "FERNANDO HADAD ZAIDAN"
+        ],
+        "venue": "CONTECSI International Conference on Information Systems and Technology Management",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5748/17contecsi/pse-6413",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "TECSI"
+        }
+      },
+      {
+        "title": "As transformações produtivas na industria textil-vestuario e seus impactos sobre a distribuição territorial da produção e a divisão do trabalho industrial",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2004.306983",
+        "doi": "10.47749/t/unicamp.2004.306983",
+        "year": 2021,
+        "authors": [
+          "Marcio Paschoino Lupatini"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2004.306983",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Trabajo digital y su precarización en Brasil.",
+        "source": "crossref",
+        "url": "https://doi.org/10.31428/10317/9856",
+        "doi": "10.31428/10317/9856",
+        "year": 2024,
+        "authors": [
+          "Nagao Menezes Daniel Francisco"
+        ],
+        "venue": "Congreso Internacional \"Retos interdisciplinares en el entorno de la Industria 4.0\"",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.31428/10317/9856",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Universidad Politécnica de Cartagena"
+        }
+      },
+      {
+        "title": "A industria de sais de litio no Brasil: estudo da implantação de uma industria mineral pioneira no Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1996.107803",
+        "doi": "10.47749/t/unicamp.1996.107803",
+        "year": 2021,
+        "authors": [
+          "Jose Paulo Mansur Marques"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1996.107803",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Mudanças tecnologicas e reestruturação da industria agroalimentar: o caso da industria de frangos no Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1993.63906",
+        "doi": "10.47749/t/unicamp.1993.63906",
+        "year": 2021,
+        "authors": [
+          "Aldair Tarcisio Rizzi"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1993.63906",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Neo-crafts in the Contemporary Film Industry: the Costume Design of Captain Marvel as a Case Study",
+        "source": "crossref",
+        "url": "https://doi.org/10.46840/ec.2026.24.797",
+        "doi": "10.46840/ec.2026.24.797",
+        "year": 2026,
+        "authors": [
+          "Atena Pou Clavell"
+        ],
+        "venue": "Economía Creativa",
+        "abstract": "Costume making in major film productions features a duality between the integration of new technologies and the persistence of artisanal techniques. This article analyses the praxis of the textile artisan in contemporary industry through a case study, focusing on the author's professional practice of designing and executing prints for Carol Danvers's uniforms in The Marvels (2023). Through technical data sheets, comparative observation, and document analysis, the study explores, on one hand, how transmedia storytelling conditions the creation and symbolism of costumes; on the other hand, it addresses the material and technical study of printing under the framework of neo-crafts, contrasting various manual and digital printing methodologies in the workshop. Based on this case study, the article argues for high-density screen printing as a highly complex technique essential to achieving futuristic fabrics and resolving material challenges that digital post-production cannot address. The study concludes that the survival of the craft does not lie in competing with the digital environment but in creating technical synergies that revalue artisanal praxis in contemporary cinema.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.46840/ec.2026.24.797",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Centro de Diseño y Comunicacion"
+        }
+      },
+      {
+        "title": "Sobre mundialização da industria fonografica Brasil: anos 70-90",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1997.120831",
+        "doi": "10.47749/t/unicamp.1997.120831",
+        "year": 2021,
+        "authors": [
+          "Marcia Regina Tosta Dias"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1997.120831",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Reestruturação internacional e inserção do Brasil na industria de calçados",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1992.55137",
+        "doi": "10.47749/t/unicamp.1992.55137",
+        "year": 2021,
+        "authors": [
+          "Marisa dos Reis"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1992.55137",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Fatores de competitividade da industria de tratores agricolas no Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1998.206454",
+        "doi": "10.47749/t/unicamp.1998.206454",
+        "year": 2021,
+        "authors": [
+          "Wlamir Jose Paschoalino"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1998.206454",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Reestruturação produtiva e emprego na industria de linha branca no Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2003.295234",
+        "doi": "10.47749/t/unicamp.2003.295234",
+        "year": 2021,
+        "authors": [
+          "Daniel Perticarrari"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2003.295234",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "O programa softex e a industria de software no Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2004.322212",
+        "doi": "10.47749/t/unicamp.2004.322212",
+        "year": 2021,
+        "authors": [
+          "Giancarlo Nuti Stefanuto"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2004.322212",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Vestuario Para La Escena 2022, curated by Edyta Rzewuska and Jerildy Bosch, Vestuario a Escena MX",
+        "source": "crossref",
+        "url": "https://doi.org/10.1386/scp_00090_5",
+        "doi": "10.1386/scp_00090_5",
+        "year": 2023,
+        "authors": [
+          "Zuzu Hudek"
+        ],
+        "venue": "Studies in Costume &amp; Performance",
+        "abstract": "Review of: Vestuario Para La Escena 2022, curated by Edyta Rzewuska and Jerildy Bosch, Vestuario a Escena MX National Centre for the Arts (CENART), Mexico City, 12 May–3 July 2022",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.1386/scp_00090_5",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Intellect"
+        }
+      },
+      {
+        "title": "Trajetorias tecnologicas e meio ambiente: a industria de agroquimicos/transgenicos no Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2000.316160",
+        "doi": "10.47749/t/unicamp.2000.316160",
+        "year": 2021,
+        "authors": [
+          "Paulo Roberto Martins"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2000.316160",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "A industria de pesticidas agricolas no Brasil:: dinamica inovativa e demandas ambientais",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1993.62382",
+        "doi": "10.47749/t/unicamp.1993.62382",
+        "year": 2021,
+        "authors": [
+          "Sonia Regina Paulino"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1993.62382",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "2014 Winner: Brasil Kirin Industria de Bebidas SA, Brazil",
+        "source": "crossref",
+        "url": "https://doi.org/10.1094/tq-51-2-0526-01",
+        "doi": "10.1094/tq-51-2-0526-01",
+        "year": 2014,
+        "authors": [
+          "Pereira"
+        ],
+        "venue": "Technical Quarterly",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.1094/tq-51-2-0526-01",
+        "extra": {
+          "crossref_type": "journal-article"
+        }
+      },
+      {
+        "title": "Transformación digital: aplicaciones de la inteligencia artificial en la gestión de la identidad digital en el Reniec",
+        "source": "crossref",
+        "url": "https://doi.org/10.70303/nombres.v9i2.6",
+        "doi": "10.70303/nombres.v9i2.6",
+        "year": 2025,
+        "authors": [
+          "Jaime Escobar Aguirre",
+          "Eric Villanueva Gonzales"
+        ],
+        "venue": "Nombres (Lima) Revista Académica del Reniec",
+        "abstract": "Digital identity management is a critical issue in the digital age, especially in the context of public administrations, where effciency and security are essential. This study focuses on analyzing the current applications of artificial intelligence (AI) in digital identity management at the National Registry of Identification and Civil Status (RENIEC) of Peru. The main objective is to explore how AI can optimize administrative processes and improve user experience, while also addressing the challenges associated with its implementation. A literature review article was conducted, where recent studies on the use of AI in public administration and its impact on identity management were collected and analyzed. The results indicate that, although AI has the potential to transform digital identity management, there are significant concerns about social acceptance and data privacy. In conclusion, this study underscores the need to address these challenges to facilitate the adoption of AI in RENIEC, which could have significant implications for the modernization of public services and citizen trust in digital technologies.",
+        "pdf_url": "https://revistas.reniec.gob.pe/index.php/nombres/article/download/6/26",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.70303/nombres.v9i2.6",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Registro Nacional de Identificación y Estado Civil - RENIEC"
+        }
+      },
+      {
+        "title": "Reestruturação produtiva e organização do trabalho na industria de autopeças do Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2003.294349",
+        "doi": "10.47749/t/unicamp.2003.294349",
+        "year": 2021,
+        "authors": [
+          "Geraldo Augusto Pinto"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2003.294349",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      }
+    ]
+  },
+  "count": 40,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:01:43.822726+00:00"
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "Grandes indústrias de vestuário recorrem à contratação de dezenas de facções terceirizadas (82 empresas no caso da Rovitex em dezembro de 2020) para absorver a sazonalidade do lançamento de coleções.",
+    "stance": "supports",
+    "stance_target": "dependência estrutural entre confecções de maior porte e redes de facções terceirizadas para lidar com a sazonalidade de coleções",
+    "evidence_type": "empirical",
+    "scope_conditions": "Estudo de caso na Rovitex Indústria e Comércio de Malhas Ltda. (dezembro de 2020)",
+    "quoted_support": "A contratação de serviços terceirizados é uma opção para atender a demanda de mercado da indústria de vestuário, tendo em vista a sazonalidade do lançamento de coleções. Os resultados indicaram que, no período da realização da pesquisa (dezembro de 2020), ela contava com 82 empresas terceirizadas e os aspectos relativos à qualidade do serviço prestado, cumprimento dos prazos de entrega e a conformidade jurídica da empresa eram seus principais critérios para escolha dessas empresas.",
+    "numbers": ["82 empresas terceirizadas", "dezembro de 2020"],
+    "entities": ["Rovitex Indústria e Comércio de Malhas Ltda.", "UDESC", "Revista Projética"],
+    "time_period": "dezembro de 2020",
+    "region": "Santa Catarina, Brasil",
+    "confidence": "high",
+    "source_note_id": "terceirização-na-indústria-de-vestuário-projetica-2"
+  },
+  {
+    "claim": "Os critérios determinantes exigidos pelas indústrias tomadoras para selecionar e manter facções terceirizadas são a qualidade do serviço prestado, o cumprimento dos prazos de entrega e a conformidade jurídica da facção.",
+    "stance": "supports",
+    "stance_target": "pressão por qualidade, prazo de entrega e regularidade fiscal/jurídica sobre facções de costura",
+    "evidence_type": "empirical",
+    "scope_conditions": "Seleção de 82 facções terceirizadas pela Rovitex em dezembro de 2020",
+    "quoted_support": "Os resultados indicaram que, no período da realização da pesquisa (dezembro de 2020), ela contava com 82 empresas terceirizadas e os aspectos relativos à qualidade do serviço prestado, cumprimento dos prazos de entrega e a conformidade jurídica da empresa eram seus principais critérios para escolha dessas empresas.",
+    "numbers": ["82 empresas terceirizadas"],
+    "entities": ["Rovitex Indústria e Comércio de Malhas Ltda.", "UDESC"],
+    "time_period": "dezembro de 2020",
+    "region": "Santa Catarina, Brasil",
+    "confidence": "high",
+    "source_note_id": "terceirização-na-indústria-de-vestuário-projetica-2"
+  }
+]

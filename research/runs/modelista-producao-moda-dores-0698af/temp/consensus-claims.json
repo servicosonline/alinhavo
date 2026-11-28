@@ -1,0 +1,68 @@
+[
+  {
+    "consensus_id": "modelista-elo-central-criacao-producao",
+    "claim": "A modelista atua como o elo técnico-operacional central na cadeia produtiva do vestuário, sendo responsável por traduzir o conceito criativo bidimensional (croqui/desenho técnico) em um produto tridimensional anatomicamente viável, escalável e reprodutível em série pela manufatura.",
+    "independence_score_sum": 8.0,
+    "supporting_sources": [
+      "a-formação-e-o-trabalho-dos-modelistas-nas-empresas-do-vestuário-do-estado-de-sa",
+      "modelagem-plana-industrial-do-vestuário-diretrizes-para-a-indústria-do-vestuár-2",
+      "universidade-de-são-paulo-6",
+      "marília-piccinini-da-carvalhinha",
+      "o-desenho-técnico-do-vestuário-sob-a-ótica-do-modelista-projetica",
+      "desenho-técnico-de-moda-e-suas-funções-na-confecção-do-vestuário-revista-da-meta",
+      "ergonomia-física-as-exigências-presentes-na-atuação-de-modelista-do-vestuário-mo",
+      "análise-da-formação-dos-profissionais-do-setor-de-modelagem-do-vestuário-da-regi"
+    ]
+  },
+  {
+    "consensus_id": "sequencia-cronologica-tarefas-modelista",
+    "claim": "O fluxo de trabalho da modelista na indústria de confecção compreende sete macroetapas interdependentes: (1) análise do briefing/croqui e viabilidade técnica; (2) construção da base e interpretação do modelo (plana, moulage ou CAD); (3) acompanhamento da pilotagem (montagem da peça-piloto); (4) prova de caimento (fitting) e ajustes; (5) consolidação da ficha técnica definitiva (medidas, tolerâncias, consumo); (6) gradação (ampliação e redução da grade); e (7) orientação de encaixe/risco e suporte ao corte e costura.",
+    "independence_score_sum": 7.0,
+    "supporting_sources": [
+      "modelagem-plana-industrial-do-vestuário-diretrizes-para-a-indústria-do-vestuár-2",
+      "a-formação-e-o-trabalho-dos-modelistas-nas-empresas-do-vestuário-do-estado-de-sa",
+      "marília-piccinini-da-carvalhinha",
+      "universidade-de-são-paulo-6",
+      "universidade-de-são-paulo-8",
+      "ergonomia-física-as-exigências-presentes-na-atuação-de-modelista-do-vestuário-mo",
+      "xliv-encontro-nacional-de-engenharia-de-produção-3"
+    ]
+  },
+  {
+    "consensus_id": "impacto-financeiro-erro-modelagem",
+    "claim": "Erros ou omissões na etapa de modelagem (como ausência de piques, margem de costura incorreta, erro de sentido do fio, cálculo falho de encolhimento ou tabela de medidas inconsistente) têm efeito multiplicador sobre toda a produção seriada, podendo inviabilizar lotes inteiros cortados e comprometer o custo da matéria-prima têxtil.",
+    "independence_score_sum": 5.0,
+    "supporting_sources": [
+      "modelagem-plana-industrial-do-vestuário-diretrizes-para-a-indústria-do-vestuár-2",
+      "a-formação-e-o-trabalho-dos-modelistas-nas-empresas-do-vestuário-do-estado-de-sa",
+      "xliv-encontro-nacional-de-engenharia-de-produção-3",
+      "xli-encontro-nacional-de-engenharia-de-produção",
+      "zero-waste-in-apparel-industry-limitations-and-alternatives-sustainability-in-de"
+    ]
+  },
+  {
+    "consensus_id": "dores-ergonomicas-fisicas-cognitivas",
+    "claim": "A atuação da modelista impõe severas exigências ergonômicas físicas e cognitivas: na modelagem manual/mesa e na prova, predominam a postura bípede prolongada, flexão cervical e lombar sobre bancadas inadequadas e movimentos repetitivos de membros superiores (corte de papel kraft, uso de carretilha, réguas e alfinetagem); na modelagem em CAD, destacam-se a postura sentada estática, fadiga visual, LER/DORT em punhos e ombros e alta carga mental de concentração sob pressão de tempo.",
+    "independence_score_sum": 5.0,
+    "supporting_sources": [
+      "ergonomia-física-as-exigências-presentes-na-atuação-de-modelista-do-vestuário-mo",
+      "physis-revista-de-saúde-coletiva-rio-de-janeiro-v-301-e300106-2020",
+      "uma-análise-crítica-das-condições-de-trabalho-na-indústria-têxtil-desde-a-indust",
+      "análise-da-qualidade-de-vida-no-trabalho-no-setor-de-costura-em-uma-indústria-de",
+      "a-formação-e-o-trabalho-dos-modelistas-nas-empresas-do-vestuário-do-estado-de-sa"
+    ]
+  },
+  {
+    "consensus_id": "dor-falta-padronizacao-antropometrica-gradacao",
+    "claim": "A falta de padronização antropométrica efetiva nas confecções e a heterogeneidade dos biótipos (especialmente no Brasil e em segmentos como plus size, infantil e idosos) tornam a construção de bases e a gradação de tamanhos um dos maiores focos de retrabalho, devolução de peças e insatisfação de caimento.",
+    "independence_score_sum": 6.0,
+    "supporting_sources": [
+      "referenciais-de-medidas-da-abnt-instrumento-para-a-normalização-do-produto-de-ve",
+      "comparação-ergonômica-e-antropométrica-das-tabelas-abnt-para-vestuário-feminino",
+      "universidade-de-são-paulo-7",
+      "a-importância-das-bases-de-modelagem-no-desenvolvimento-de-vestuário-plus-size-u",
+      "uma-reflexão-sobre-modelagem-e-ergonomia-considerando-a-forma-do-corpo-gordo-fem",
+      "a-relação-da-modelagem-do-vestuário-para-diferentes-biótipos-revista-eixos-tech"
+    ]
+  }
+]

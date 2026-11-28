@@ -5,6 +5,7 @@ import {
   addRectPiece,
   addSeam,
   applyGrade,
+  applyShrinkageCompensation,
   BODY_ANCHORS,
   BODY_SIDES,
   flipSeam,
@@ -12,11 +13,14 @@ import {
   removeFinish,
   removeSeam,
   seamAt,
+  seamIssuesAcrossSizes,
   updateFinish,
   seamLengths,
   setCutPair,
   setFold,
+  setGrainlineAngle,
   setPlacement,
+  setSegmentLength,
   type BodyAnchor,
   type BodyLeg,
   type BodySide,
@@ -93,16 +97,27 @@ type SideTab = "molde" | "prova";
 
 export type EditorRailItem = { icon: ModuleIconName; label: string; href?: string; active?: boolean };
 
-/** Costuras cujos dois lados não têm o mesmo comprimento (mais de 0,5 mm), com o número que falta. */
+/** Costuras cujos dois lados não têm o mesmo comprimento (mais de 0,5 mm), no base ou nos tamanhos da grade. */
 function openSeams(doc: PatternDocument): string[] {
   const out: string[] = [];
-  const lengths = seamLengths(doc);
-  for (const seam of doc.seams) {
-    const l = lengths.get(seam.id);
-    if (!l || Math.abs(l.diff) <= 0.5) continue;
+  const issues = seamIssuesAcrossSizes(doc, 0.5);
+  for (const issue of issues) {
+    const seam = doc.seams.find((s) => s.id === issue.seamId);
+    if (!seam) continue;
     const a = doc.pieces.find((p) => p.id === seam.a.piece)?.name ?? "";
     const b = doc.pieces.find((p) => p.id === seam.b.piece)?.name ?? "";
-    out.push(`A costura ${seamNumber(doc, seam)} não fecha: ${a} ${formatCm(l.a)} cm, ${b} ${formatCm(l.b)} cm.`);
+    const baseLen = issue.bySize[doc.baseSize];
+    const otherSizes = Object.keys(issue.bySize).filter((s) => s !== doc.baseSize);
+    if (baseLen) {
+      const gradeSuffix = otherSizes.length > 0 ? ` (e em ${otherSizes.join(", ")})` : "";
+      out.push(`A costura ${seamNumber(doc, seam)} não fecha: ${a} ${formatCm(baseLen.a)} cm, ${b} ${formatCm(baseLen.b)} cm${gradeSuffix}.`);
+    } else if (otherSizes.length > 0) {
+      const firstSize = otherSizes[0]!;
+      const l = issue.bySize[firstSize]!;
+      out.push(
+        `A costura ${seamNumber(doc, seam)} abre na grade (${otherSizes.join(", ")}): em ${firstSize}, ${a} ${formatCm(l.a)} cm e ${b} ${formatCm(l.b)} cm.`,
+      );
+    }
   }
   return out;
 }
@@ -533,6 +548,8 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
                   onSeam={(mm) => apply(setSeamAllowance(doc, piece.id, mm))}
                   onPlacement={(p) => apply(setPlacement(doc, piece.id, p))}
                   onCutPair={(on) => apply(setCutPair(doc, piece.id, on))}
+                  onGrainAngle={(deg) => apply(setGrainlineAngle(doc, piece.id, deg))}
+                  onShrinkage={(warpPct, weftPct) => apply(applyShrinkageCompensation(doc, warpPct, weftPct, piece.id))}
                   onSelectSegment={(i) => setSelection({ kind: "segment", pieceId: piece.id, index: i })}
                   onRemove={() => {
                     apply(removePiece(doc, piece.id));
@@ -588,6 +605,7 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
                   piece={piece}
                   index={sel.index}
                   readOnly={readOnly}
+                  viewingBase={viewingBase}
                   onStartSew={() => setSewFrom({ pieceId: piece.id, index: sel.index })}
                   onSewPair={() => {
                     const r = addSeam(doc, { piece: piece.id, segment: sel.index }, { piece: piece.id, segment: sel.index });
@@ -603,6 +621,7 @@ export function PatternEditor({ initialDocument, title, subtitle, readOnly = fal
                     if (pointId) setSelection({ kind: "point", pieceId: piece.id, pointId });
                   }}
                   onSeam={(mm) => apply(setEdgeSeamAllowance(doc, piece.id, sel.index, mm))}
+                  onLength={(mm) => apply(setSegmentLength(doc, piece.id, sel.index, mm))}
                 />
               )}
             </div>
@@ -741,6 +760,8 @@ function PieceInspector({
   onSeam,
   onPlacement,
   onCutPair,
+  onGrainAngle,
+  onShrinkage,
   onSelectSegment,
   onRemove,
 }: {
@@ -751,12 +772,17 @@ function PieceInspector({
   onSeam: (mm: number) => void;
   onPlacement: (p: PiecePlacement | null) => void;
   onCutPair: (on: boolean) => void;
+  /** Fio em graus a partir do urdume (0° urdume, 90° trama, 45° viés); null tira o fio. */
+  onGrainAngle: (deg: number | null) => void;
+  /** Amplia a parte para compensar o encolhimento do tecido (% no urdume e % na trama). */
+  onShrinkage: (warpPct: number, weftPct: number) => void;
   onSelectSegment: (i: number) => void;
   onRemove: () => void;
 }) {
   const lengths = segmentLengths(piece);
   const cut = seamAllowanceOutline(piece);
   const placement = piece.placement;
+  const grainDeg = grainAngleOf(piece);
   return (
     <div className="space-y-4">
       <TextField key={`nome-${piece.id}-${piece.name}`} label="Nome da parte" value={piece.name} disabled={readOnly} onCommit={onRename} />
@@ -864,6 +890,34 @@ function PieceInspector({
           />
         )}
       </fieldset>
+      <fieldset className="space-y-2 border-t border-tinta/10 pt-3" data-fio>
+        <legend className="text-xs font-medium">Fio do tecido</legend>
+        <p className="text-xs text-tinta-suave">
+          {grainDeg === null ? "Sem fio desenhado (o encaixe usa o vertical)." : `Fio a ${grainDeg}° do urdume.`}
+        </p>
+        {!readOnly && (
+          <div className="grid grid-cols-2 gap-2">
+            {GRAIN_PRESETS.map((g) => (
+              <button
+                key={g.deg}
+                type="button"
+                className={`${ui.buttonGhost} text-xs`}
+                aria-pressed={grainDeg === g.deg}
+                onClick={() => onGrainAngle(g.deg)}
+                data-grain={g.deg}
+              >
+                {g.label}
+              </button>
+            ))}
+            {piece.grainline && (
+              <button type="button" className={`${ui.buttonGhost} text-xs`} onClick={() => onGrainAngle(null)}>
+                Tirar fio
+              </button>
+            )}
+          </div>
+        )}
+      </fieldset>
+      {!readOnly && <ShrinkageCompensation key={piece.id} onApply={onShrinkage} />}
       <div>
         <h3 className={ui.eyebrow}>Segmentos</h3>
         <ul className="mt-1 divide-y divide-tinta/10 text-sm">
@@ -892,6 +946,66 @@ function PieceInspector({
         </button>
       )}
     </div>
+  );
+}
+
+const GRAIN_PRESETS: { deg: number; label: string }[] = [
+  { deg: 0, label: "0° urdume" },
+  { deg: 90, label: "90° trama" },
+  { deg: 45, label: "45° viés" },
+];
+
+/** Ângulo do fio da parte em graus a partir do urdume (eixo Y), de 0 a 179; null sem fio. */
+function grainAngleOf(piece: Piece): number | null {
+  const g = piece.grainline;
+  if (!g) return null;
+  const dx = g.to.x - g.from.x;
+  const dy = g.to.y - g.from.y;
+  if (Math.hypot(dx, dy) < 1e-6) return null;
+  const deg = Math.round((Math.atan2(dx, dy) * 180) / Math.PI);
+  return ((deg % 180) + 180) % 180;
+}
+
+/** Compensação de encolhimento: amplia a parte pelo urdume e pela trama (uma edição, desfaz com Ctrl+Z). */
+function ShrinkageCompensation({ onApply }: { onApply: (warpPct: number, weftPct: number) => void }) {
+  const [warp, setWarp] = useState("");
+  const [weft, setWeft] = useState("");
+  const [error, setError] = useState<string | null>(null);
+  const parse = (v: string) => (v.trim() === "" ? 0 : Number(v.replace(",", ".")));
+  return (
+    <fieldset className="space-y-2 border-t border-tinta/10 pt-3" data-encolhimento>
+      <legend className="text-xs font-medium">Compensar encolhimento</legend>
+      <div className="grid grid-cols-2 gap-2">
+        <label className="block text-xs">
+          <span>Urdume (%)</span>
+          <input className={`${ui.input} text-sm`} inputMode="decimal" value={warp} placeholder="0" onChange={(e) => setWarp(e.target.value)} />
+        </label>
+        <label className="block text-xs">
+          <span>Trama (%)</span>
+          <input className={`${ui.input} text-sm`} inputMode="decimal" value={weft} placeholder="0" onChange={(e) => setWeft(e.target.value)} />
+        </label>
+      </div>
+      <button
+        type="button"
+        className={`${ui.buttonGhost} w-full`}
+        onClick={() => {
+          const w = parse(warp);
+          const t = parse(weft);
+          if (!Number.isFinite(w) || !Number.isFinite(t) || w < 0 || t < 0 || w > 50 || t > 50 || (w === 0 && t === 0)) {
+            setError("Informe entre 0 e 50% em pelo menos um dos sentidos.");
+            return;
+          }
+          setError(null);
+          onApply(w, t);
+          setWarp("");
+          setWeft("");
+        }}
+      >
+        Ampliar a parte
+      </button>
+      <p className="text-xs text-tinta-suave">Amplia pelo fio da parte para a peça voltar à medida depois de lavada. Aplique uma vez só.</p>
+      {error && <p className="text-xs text-linha">{error}</p>}
+    </fieldset>
   );
 }
 
@@ -936,9 +1050,11 @@ function SegmentInspector({
   piece,
   index,
   readOnly,
+  viewingBase,
   onToggle,
   onSplit,
   onSeam,
+  onLength,
   onStartSew,
   onSewPair,
   onUnsew,
@@ -949,6 +1065,9 @@ function SegmentInspector({
   piece: Piece;
   index: number;
   readOnly: boolean;
+  /** Comprimento exato só no tamanho base (os outros vêm da gradação). */
+  viewingBase: boolean;
+  onLength: (mm: number) => void;
   onToggle: () => void;
   onSplit: () => void;
   onSeam: (mm: number | null) => void;
@@ -968,6 +1087,16 @@ function SegmentInspector({
       <p className="text-sm">
         Segmento {index + 1} de {piece.name}: <strong>{seg.kind === "cubic" ? "curva" : "reta"}</strong>, {formatCm(len)} cm
       </p>
+      {seg.kind === "line" && !readOnly && viewingBase && (
+        <CmField
+          key={`comp-${piece.id}-${index}-${len}`}
+          label="Comprimento exato (move o ponto final)"
+          valueMm={Math.round(len * 10) / 10}
+          min={1}
+          max={10000}
+          onCommit={(mm) => mm !== null && onLength(mm)}
+        />
+      )}
       {seam ? (
         <SeamInfo doc={doc} seam={seam} pieceId={piece.id} index={index} readOnly={readOnly} onUnsew={onUnsew} onFlip={onFlip} />
       ) : (

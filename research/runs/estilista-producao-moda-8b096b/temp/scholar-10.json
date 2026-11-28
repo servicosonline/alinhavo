@@ -1,0 +1,831 @@
+{
+  "ok": true,
+  "data": {
+    "query": "apparel product development tech pack sample approval fit rework",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 16,
+      "crossref": 25,
+      "doab": 0
+    },
+    "raw_records": 41,
+    "merged_records": 41,
+    "returned": 41,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Assessment of employee training and development of Ratool Apparels Limited",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/10361/29066",
+        "doi": null,
+        "year": 2026,
+        "authors": [
+          "Md. Imran"
+        ],
+        "venue": "BRAC University Institutional Repository (BRAC University)",
+        "abstract": "This internship report presents my practical learning experience at Ratool Apparels Ltd, a reputable knitwear manufacturing company in Bangladesh. This organization is involved in manufacturing and exporting knitwear and operates through key departments such as Quality Assurance and QMS, Merchandising, Planning, Production, and HR & Administration, etc. The primary objective of my internship was to gain practical exposure to a professional industrial environment, apply academic knowledge in real-life situations, and understand organizational development practices. Throughout my internship, I actively observed and participated in operational and administrative activities across five major departments. In the Quality Assurance & QMS Department, I learned about maintaining product quality at different stages of production, monitoring inspection procedures, documenting quality reports, and ensuring compliance with standard operating procedures. I observed how quality checkpoints are maintained from cutting to finishing to minimize defects and ensure buyer satisfaction. In the Merchandising department, I gained knowledge of various sample development methods (proto, fit, size set, pre-production samples), sourcing of fabrics and trims, and maintaining communication with buyers and suppliers, and how merchandising coordinates with production and planning to ensure the right product is delivered within the shipment deadline. In the Planning Department, I learned how production schedules are prepared based on order quantity, style complexity, and line capacity. I observed the preparation of Time and Action (TNA) plans and how effective coordination ensures smooth workflow and on-time shipment. In the Production department, I closely observed line balancing, sewing operations, workflow management, and daily production reporting, which helped me understand garment construction, technical requirements, and efficiency management in a real factory environment. In the HR and Admin department, I improved my communication and management skills and learned the importance of discipline, punctuality, teamwork, and corporate ethics. Ultimately, this internship enhanced my professional skills, confidence, understanding of the garment industry, and allowed me to connect theoretical knowledge from my academic course with practical industry application, and prepared me for future career challenges.",
+        "pdf_url": "https://dspace.bracu.ac.bd/bitstreams/3e593658-8ae8-4406-a330-af0580034d39/download",
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "W7203592978",
+        "extra": {
+          "openalex_type": "report",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Crystal Martin Apparel Bangladesh Limited: Overview of industrial engineering, production, quality assurance, planning, and merchandising",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/10361/29140",
+        "doi": null,
+        "year": 2026,
+        "authors": [
+          "Md. Shydur Rahaman"
+        ],
+        "venue": "BRAC University Institutional Repository (BRAC University)",
+        "abstract": "I worked on a variety of tasks in five different departments during my internship at Crystal Martin Apparel Bangladesh Limited (CMBD), a prestigious Garments Manufacturer IE, Production, Quality Assurance, Planning and Merchandising. During my internship, which ran from December 2025 to February 2026, I learned how to overcome everyday obstacles and challenges. The following are the main sections that make up my report. Industry Synopsis, An explanation of the tasks completed in Planning, IE, Production, Quality Assurance, and Merchandising. Evaluation of internship work critically, Final Thought. This report aims to highlight the activities that take place in each department, their significance to the organization, the working methods and relationships among various functional departments, and the areas that could use improvement. I also emphasized how the internship helped me grow personally and learn new things. This internship report concludes by confirming that Crystal Martin Apparel Bangladesh Limited is a profitable, well-run company that is genuinely committed to both customer happiness and manufacturing excellence. All things considered, my internship offered priceless professional insights into the operations, culture, and strategic priorities of a top-tier clothing manufacturing company.",
+        "pdf_url": "https://dspace.bracu.ac.bd/bitstreams/1b09abfa-f7f3-4b33-ad0b-0a123d3446ed/download",
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "W7203659501",
+        "extra": {
+          "openalex_type": "report",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Contextualisation of Closed-Loop Supply Chains for Sustainable Development in the Chinese Metal Industry",
+        "source": "openalex",
+        "url": "https://eprints.nottingham.ac.uk/10785/1/JL_HUANG.pdf",
+        "doi": null,
+        "year": 2009,
+        "authors": [
+          "Juanling Huang"
+        ],
+        "venue": "Nottingham ePrints (University of Nottingham)",
+        "abstract": "There are many factors influencing the sustainability of Closed-Loop Supply Chain (CLSC), in terms of industrial operation flows and environmental perspectives. This research aims to identify these factors in order to provide a better understanding of the process flows and interactions between the primary and secondary metal manufacturers and remanufacturers. In particular, it focuses on the influences of the Customer, Environment and Technology (CET) factors, with the intention of finding out “the specific approaches and techniques the Chinese metal manufacturers and remanufacturers adopt for sustainable development of the CLSC”. Qualitative case studies were performed in seven companies in the Pearl River Delta (PRD) region of South China. These companies are Small and Medium Enterprises (SMEs) of primary metal manufacturers, secondary metal remanufacturers, dismantlers, and third party reverse logistics providers. Data and information were collected through semi-structured interviews and observations on sites, in order to analyse the process flows in the supply chains. The key findings include the demonstration of the CLSC networks in the context of the Chinese metal industry, and the development of the process maps and Positioning Tool for case companies to identify themselves in the CLSC. These are theoretical and practical supports for academics and companies to understand the handling of various qualities and quantities of primary and secondary metals. Simultaneously, they assist companies in identifying and positioning themselves in the CLSC in order to define their direction for sustainable development in the long-term.",
+        "pdf_url": "https://repository.nottingham.ac.uk/bitstreams/f2ddb284-377f-4126-9ffa-f7d0a7a01897/download",
+        "citation_count": 6,
+        "work_type": "thesis",
+        "identifier": "W2134554029",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "The Designer’s Contribution to the 3D Knit Ecosystem",
+        "source": "openalex",
+        "url": "https://doi.org/10.32920/23302190",
+        "doi": "10.32920/23302190",
+        "year": 2023,
+        "authors": [
+          "Kirsten Schaefer"
+        ],
+        "venue": null,
+        "abstract": "The term 3D knitting is used in popular media and marketing to describe textile products knit in a single, shaped piece, without seams. 3D knit products provide: increased comfort in wearable items, greater product integrity, new design possibilities, reduction in manual labour, and new opportunities to integrate “smart” fibres. Due to the complex machinery and software used for this type of fabrication, designers engaging with 3D knitting require a different mindset compared to traditional cut and sew or knit design processes. This research was framed by the question: What role do designers play in the current 3D knit ecosystem? A secondary question asked: What are the opportunities and challenges in expanding designers’ skills for 3D knitting? Qualitative inquiry was used to examine designers’ experience in the 3D knit ecosystem in Canada and the United States from the perspectives of three primary stakeholders: designers, software technicians (programmers), and production managers (manufacturers). Modified touchstone tours including semi-structured interviews were conducted with participants (n=18) from the three key stakeholder groups at companies (n=10) across Canada and the United States. Thematic analysis was used to identify and organize key themes from the data. Results indicate that 3D knitting provides benefits in five categories: consumer/product, manufacturer, design and development, business strategy, and sustainability. Challenges and roadblocks were identified in four categories for all stakeholders: costs, education and employment, design and development, and communication. Challenges identified by one stakeholder group were frequently mirrored by or connected to the experience of another group. Results suggest that tacit knowledge contributes to the communication bottleneck in the 3D knit ecosystem. As access to 3D knitting increases, designers’ responsibilities and the scope of their considerations in the design and development process must expand. Designers who understand the goals and priorities of the other stakeholder groups are better equipped to successfully navigate the 3D knit design and development process. This research has implications for current practices in textile and apparel production as well as for higher education institutions preparing design students for careers in this evolving industry.",
+        "pdf_url": "https://rshare.library.torontomu.ca/articles/thesis/The_Designer_s_Contribution_to_the_3D_Knit_Ecosystem/23302190/1/files/41077997.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4379522973",
+        "extra": {
+          "openalex_type": "other",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Evaluating lead time performance through cross-functional coordination in merchandising operations: A study of A.G Dresses Limited",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/10361/29266",
+        "doi": null,
+        "year": 2026,
+        "authors": [
+          "Wasi Shameem Chaudhury"
+        ],
+        "venue": "BRAC University Institutional Repository (BRAC University)",
+        "abstract": "This internship report is submitted in partial fulfillment of the requirements for the degree of Bachelor of Business Administration, 2026.",
+        "pdf_url": "https://dspace.bracu.ac.bd/bitstreams/5cc20640-e63e-49b4-92e8-d959e160bb42/download",
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "W7203854592",
+        "extra": {
+          "openalex_type": "report",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "DBL Group: Green manufacturing and sustainable practices in the knit garment industry",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/10361/29135",
+        "doi": null,
+        "year": 2026,
+        "authors": [
+          "Md. Amzad Hossain"
+        ],
+        "venue": "BRAC University Institutional Repository (BRAC University)",
+        "abstract": "This report summarizes my internship experience at DBL Group. During my internship, I observed that the company wants to grow as a sustainable way and increase business worldwide. Its main goal is to improve operations, develop skilled manpower and build strong relationships with customers while maintaining sustainability. I was able to apply classroom knowledge and skills in several departments such as Merchandising, Planning, Industrial Engineering, Production, Quality Assurance and Human Resource Management. I have learned how samples are prepared and how buyers and factories communicate, Accurate production planning, calculate working time, production line balancing, rook cause and defects analysis, final inspection procedure and how labor laws are followed, etc. During my internship, I got the chance to develop my practical knowledge by assisting the team during quick changeover activities and supported them to complete the work faster. I also made a simple root cause analysis format to help identify problems more easily. During this time, I observed workplace ergonomics and took some skill development training sessions. From these activities, I learned how to review performance data, understand where problems occur and think about possible ways to improve the process. It helped me understand how small changes can increase efficiency and productivity in daily operations. I would also like to recommend some areas where the industry can improve efficiency and buyer satisfaction by using 3D sampling systems, quick changeover methods, automated machines, and AI-based defect detection. In the end, I sincerely thank the top management for the internship opportunity and appreciate my supervisor and team members for their guidance and support.",
+        "pdf_url": "https://dspace.bracu.ac.bd/bitstreams/cd7cc2b4-124a-4713-b5b9-904e58149521/download",
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "W7203657444",
+        "extra": {
+          "openalex_type": "report",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "One Plus Knitwear Limited: focuses on various functional departments",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/10361/28986",
+        "doi": null,
+        "year": 2026,
+        "authors": [
+          "Arif Khan"
+        ],
+        "venue": "BRAC University Institutional Repository (BRAC University)",
+        "abstract": "This report describes my internship experience at One Plus Knitwear Ltd., where I had the opportunity to observe and learn about the operational activities of a knitwear manufacturing factory. The internship helped me understand how different departments work together to complete garment production for international buyers. During the internship period I rotated through several departments including merchandising, supply chain management (SCM), knitting, cutting, sewing, quality control, finishing, packaging, industrial engineering, electro-mechanical engineering, and compliance. Observing these departments helped me understand the full production chain starting from order development and raw material sourcing to final shipment preparation. The experience helped me connect theoretical knowledge from my PGD-KIM program with real industrial practices. I also learned the importance of communication, teamwork, production planning, and quality control in meeting buyer requirements and shipment deadlines. The chapter-1 introduces the background and purpose of the internship program. It explains the importance of industrial training in bridging academic knowledge with practical industry experience. The chapter also outlines the objectives, scope, and methodology of the internship, as well as a brief overview of the Ready-Made Garments (RMG) sector in Bangladesh. The chapter-2 introduces the background and purpose of the internship program. It explains the importance of industrial training in bridging academic knowledge with practical industry experience. The chapter also outlines the objectives, scope, and methodology of the internship, as well as a brief overview of the Ready-Made Garments (RMG) sector in Bangladesh. The chapter-3 describes internship activities and departmental experience. It explains the key responsibilities, processes, and operational activities observed in departments such as Merchandising, SCM, Knitting, Cutting, Dyeing, Printing, QC, Finishing, Packaging, IE, Electro-Mechanical Engineering, and Compliance. The chapter highlights the workflow and coordination between departments in the garment production process. The critical assessment of internship experience in Chapter 3 evaluates the internship experience by analyzing what went well and what challenges were observed in each department. It identifies operational strengths, areas of improvement, and factors affecting efficiency and productivity within the organization. The learning outcomes and application of academic knowledge explains how theoretical concepts learned in academic courses such as Supply Chain Management, Industrial Engineering, Production Planning, and Quality Management were applied in real industrial practices during the internship. Recommendations and Self-Improvement presents suggestions for improving factory operations, management practices, and productivity. It also reflects on personal learning outcomes and identifies areas for self-development and future career growth. The Chapter 4 concludes the report summarizing the previous three chapters.",
+        "pdf_url": "https://dspace.bracu.ac.bd/bitstreams/0ff89179-954f-404a-b9c9-74860d0b904b/download",
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "W7203518138",
+        "extra": {
+          "openalex_type": "report",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A costing model to assess customer profitability within Li & Fung",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1721.1/104391",
+        "doi": null,
+        "year": 2016,
+        "authors": [
+          "David A Semko"
+        ],
+        "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+        "abstract": "Thesis: M.B.A., Massachusetts Institute of Technology, Sloan School of Management, 2016. In conjunction with the Leaders for Global Operations Program at MIT.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2525144951",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "An integrated quality management framework to improve project throughput rate in a selected laboratory environment",
+        "source": "openalex",
+        "url": "https://doi.org/10.51415/10321/5892",
+        "doi": "10.51415/10321/5892",
+        "year": 2023,
+        "authors": [
+          "Govender, Dolyn"
+        ],
+        "venue": null,
+        "abstract": "Recently there is growing consensus on the importance of advisability and reliability of testing laboratories adopting a Quality Management System (QMS) to support their activities. It has been noted, through literature that laboratories involved in research and development have specific difficulties implementing a QMS, due to the peculiar nature of their activities. In addition, literature indicates Lean Manufacturing provides useful tools and techniques to assist with improvement of quality and throughput rate of laboratories in industry. This study analyses the main challenges encountered by professionals, when implementing a QMS in a research and development laboratory, based on the literature reviewed. Furthermore, it has been noted the International Organisation for Standardisation (ISO) has a specific standard set for testing and calibrations laboratories to improve quality within the laboratory, namely ISO 17025:2017. The literature review analyses the pros and cons of ISO standards pertaining to laboratories and lean manufacturing tools which may assist to improve quality within the laboratory. Sappi Centre Of Excellence (COE) laboratories which is a research and development laboratory is currently experiencing issues associated with delayed turnaround time of results, due to repeat work in ageing kinetics, viscose production and associated application tests within a project. The aim of this research was to reduce or eliminate repeat work during projects, in order to improve throughput time for project deliverables, through an integrated quality management framework. To understand the cause of repeat work within a project, a pragmatic approach to the study was undertaken. A quantitative approach included the use of a self-administered pre-study questionnaire to understand the root cause of delays during the project, from the view of the participants within a project. Brainstorming sessions were used to encourage an interactive session between the researcher and teamsters to qualitatively understand challenges experienced during a project. A cause-and-effect diagram was constructed from information obtained through data analysed from the pre study questionnaire and brainstorming sessions, in order to outline the possible causes/challenges of repeat work. Value stream mapping was used to illustrate the flow of the process for ageing kinetics, viscose production, and application tests, proceeding from a macro perspective to the level of detail required to identify opportunities for improvement. All data generated for the study were through employees from Sappi COE laboratories. Census sampling was used, since the population size of Sappi COE is smaller than 50. After possible causes of repeat work were identified and analysed, possible solutions were instituted through an integrated quality management framework. A post-study questionnaire was conducted to verify whether the implementation of various tools led to an improvement in quality and reduced time spent within a project. The study results identified several major root causes that impact project duration within Sappi COE laboratories such as: lack of communication on all levels within the COE, inadequate systems available for sample management, lack of maintenance schedules for critical pieces of equipment, and unclear/outdated ISO procedures, as well as poor time management. An integrated quality management framework was developed and implemented considering the above root causes. The framework was primarily based on ISO 17025:2017 and lean manufacturing tools. From the post questionnaire, a significant improvement in sample management within the department was evident. In addition, there was an improvement in equipment maintenance, however, more interventions are required to make a significant improvement.",
+        "pdf_url": "https://openscholar.dut.ac.za/bitstreams/84d9ecdf-1c51-4de3-94ef-e1cf8359a21d/download",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4410233934",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Flexibility strategies for engineer-to-order construction supply chains",
+        "source": "openalex",
+        "url": "https://orca.cardiff.ac.uk/id/eprint/54426/3/U584527-%20DEC%20PAGE%20REMOVEDA.pdf",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Jonathan Gosling"
+        ],
+        "venue": "ORCA Online Research @Cardiff (Cardiff University)",
+        "abstract": "Product proliferation as a result of meeting ever increasing customer demand preferences is well documented. In addition, customisation has been promoted as a source of competitive advantage. Despite these factors, most of the published research in operations and supply chain management has neglected the needs of the engineer-to-order (ETO) sector, where each product, or project, is designed for the needs of a specific customer. This thesis investigates definitions, models, concepts and strategies for the ETO supply chain structure. In particular, it ETO supply chains are researched within the specific context of the construction sector. The high levels of uncertainty associated with such supply chains presents an array of challenges for organisations in the sector. This thesis focuses on methods to identify and categorize uncertainty, and the types of flexibility that can be developed to mitigate such uncertainties. The importance of good 'pipeline management' is also highlighted, which is an area that is lacking in the construction management literature. Initially, the ETO supply chain is defined in relation to five other 'structures', which describe the flow and control mechanisms of products throughout different supply chains. A key defining characteristic is that the 'decoupling point' is located before the design stage. A structured literature review is then undertaken, which integrates construction supply chain research with wider ETO research. Construction and ETO bodies of knowledge have largely evolved in isolation, within different disciplines, academic communities and journals. This thesis integrates these bodies of knowledge. A critical realist stance is adopted in the thesis, and a range of research methods are utilised within a multiple case design. The empirical research is structured in two phases. Firstly, case studies are undertaken in the construction industry. Three units of analysis are specified in the case research: network co-ordinators, projects and supplier pipelines. In total, the case investigation involves two 'network co-ordinators', five projects and twelve 'supplier pipelines', across two ETO construction systems. Secondly, six evaluation interviews are undertaken, using participants from a range of ETO construction industries. Flexibility is identified as an important strategic capability for ETO supply chains, and a conceptual model for supply chain flexibility is developed and investigated. A four step route map, which brings together different elements of the thesis, is a key output from the research, and provides a practical guide for practitioners to follow when considering flexibility strategies. The overall findings suggest that by becoming more flexible ETO construction supply chains can mitigate some of the uncertainties experienced, but this requires due consideration of supply chain uncertainties, pipeline management, and the correct types of flexibilities vis-a-vis collaborative arrangements. A contribution is made to the fields of uncertainty and flexibility within the context of ETO construction.",
+        "pdf_url": "http://orca.cf.ac.uk/54426/1/U584527.pdf",
+        "citation_count": 10,
+        "work_type": "thesis",
+        "identifier": "W1765111199",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Sustaining competitive advantage in the medical technology sector in the west of Ireland through workplace innovation",
+        "source": "openalex",
+        "url": "https://research.thea.ie/handle/20.500.12065/415",
+        "doi": null,
+        "year": 2007,
+        "authors": [
+          "Kevin Peter Fitzgerald"
+        ],
+        "venue": "Research@THEA",
+        "abstract": "This research examines the impact of workplace innovation on competitiveness in the medical technology sector in Ireland. Workplace innovation is the adoption of new work systems in organisations, including process or administrative changes, which lead to positive outcomes. The research methodology consists of a broad pilot study of five companies, and an in-depth case study of a large multinational company, resulting in the development of a number of key findings. Lean Manufacturing and Six Sigma are currently the means by which the studied companies are innovating in their workplace. A Workplace Innovation Life Cycle has been developed, which provides a means for companies to benchmark their Lean and Six Sigma efforts based on the Product Life Cycle model. An approach to workplace innovation is described. The case company utilises a work system encompassing a bundle of Lean and Six Sigma practices. An innovation ‘gear train’ model is developed, which describes the drivers of workplace innovation. A Champion is required to drive improvement teams, management and operators towards workplace improvement. Outcomes from workplace innovation implementation include increased throughput and reduced inventories, increased productivity, while yield levels remain relatively unchanged. Workplace innovation has allowed these companies to become more flexible and thus in a position to respond to market changes. However, innovation in the medical technology sector can be characterised primarily as ‘low road’, resulting in marginal but continuous improvements, through cost reduction and sales increases. High road approaches aim to develop and expand the business through innovation and higher value premium products. There is a need to develop high road innovation, to ensure continuing competitiveness, prosperity and growth for the sector.",
+        "pdf_url": "https://research.thea.ie/bitstream/20.500.12065/415/1/Kevin_Peter_Fitzgerald_20130916161435.pdf",
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W7132184899",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Revisiting operations agility and formalizing digitalization in response to varying levels of uncertainty and customization",
+        "source": "openalex",
+        "url": "https://doi.org/10.1080/09537287.2024.2321290",
+        "doi": "10.1080/09537287.2024.2321290",
+        "year": 2024,
+        "authors": [
+          "Soroosh Sam Saghiri",
+          "Maryam Mohammadipour",
+          "Vahid Mirzabeiki"
+        ],
+        "venue": "Production Planning & Control",
+        "abstract": "This paper aims to find how digitalization supports inter-organizational purchasing/order fulfillment processes and the required agility to respond to supply/demand uncertainties. The research method includes multiple case studies. Qualitative data are collected via interviews and documentation review. Within-case and cross-case analyses of the research lead to 14 propositions and a novel framework, which formalize and link agility and digitalization at different levels. The research findings point out the agility in micro and macro types for the demand and supply sides of the business, responding to different levels of uncertainties. The findings categorize the relevant applications of digitalization at three levels: data interchange, data integration, and predictive data analytics. Moreover, the agility-digitalization relationships are defined for different levels of customization, represented by customer order decoupling points. This paper contributes to the literature by offering an in-depth and explicit understanding of the impacts of digitalization on different types of agility for different levels of customization.",
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/09537287.2024.2321290?download=true",
+        "citation_count": 12,
+        "work_type": "article",
+        "identifier": "W4392197376",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Understanding Middle Eastern consumers through innovative research tools",
+        "source": "openalex",
+        "url": "https://eprints.mdx.ac.uk/13772/1/SKhan_thesis_EMBARGO.pdf",
+        "doi": null,
+        "year": 2014,
+        "authors": [
+          "Saber Khan"
+        ],
+        "venue": "Middlesex University Research Repository (Middlesex University Of London)",
+        "abstract": "The aim of this two-part DProf is to produce a portfolio of research approaches to: Understand how mainstream brands can effectively access and engage Middle East consumers across the Gulf Co-operation Council (GCC), comprising Bahrain, Oman, Qatar, Kuwait, Saudi Arabia, and United Arab Emirates; Lever mainstream luxury brands to access and engage Middle East Ultra-High Net Worth Individuals (UHNWI) across the GCC; Develop a training programme for Brands on insights of Middle East consumers, including UHNWI; Develop a website communication platform to act as a catalyst for enquiries. In achieving the aim of the project, the objectives were to: Review literature in relation to ‘hard-to-reach’ communities in the emerging market context, in particular the Middle East; Undertake a 600-strong face-to-face questionnaire survey of Middle East consumers across the six GCC nations; Undertake six gender-split focus groups across the GCC; Undertake a series of cognitive interviews with Middle East shoppers; Critically review five research projects undertaken in the Middle East; Carry out five in-depth interviews with brand influencers in the West and three practitioner influencers in the Middle East. The tangible outcomes that arose from the project included: A portfolio of new communication approaches pertaining to reaching Middle East consumers that incorporates a cognitive interview product and a culturally pertinent luxury brand health model; A refined ‘Middle East Millionaire Panel’ research product that appealed to Western brands. A number of distinct questions were the focus of this study: How can cultural features associated with Middle East consumers’ norms impact upon the suitability of research methodologies? What are the most appropriate qualitative and quantitative approaches that serve to maximise consumer engagement across research studies? What enhancements to research approaches can be developed to maximise consumer engagement by Middle East consumers? What will attract Western brands to take up the Middle East Millionaire Panel? How can the Panel and associated services be marketed in local and international markets? Whilst the products represent innovations for engaging consumers across this segment, they also recognise that rigour, validity of analysis and statistical significance have to be reconciled with tools that articulate novel ways of clustering and configuring heterogeneous Middle East consumer tastes and preferences.",
+        "pdf_url": "http://eprints.mdx.ac.uk/13772/1/SKhan_thesis_EMBARGO.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W413672789",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Innovating through Role Play:enabling students to be more creative",
+        "source": "openalex",
+        "url": "https://vbn.aau.dk/da/publications/bbe023ad-b311-4b95-a093-5f41e9ae42eb",
+        "doi": null,
+        "year": 2016,
+        "authors": [
+          "Birthe Lund",
+          "Maiken Lykke Pedersen"
+        ],
+        "venue": "VBN Forskningsportal (Aalborg Universitet)",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2467151605",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Uncovering the Barriers to Sustainable Music Consumption",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/20.500.14987/2463",
+        "doi": null,
+        "year": 2019,
+        "authors": [
+          "Alexander Campagnolo"
+        ],
+        "venue": "Digital Collections (Trent University)",
+        "abstract": "The study sought to uncover the motivations influencing collectors when they buy recorded music. These motivations were analyzed through the lenses of environmental, economic, and cultural sustainability. Trent Radio Programmers were interviewed because of their frequent use of recorded music, sizable collections, and active participation in the local music scene. The study identified disconnects between artist, industry, and consumer motivations that hinder the achievement of a sustainable system. Environmental sustainability was not considered, while the artists' economic and cultural sustainability were. This finding translates to the idea that in the music industry, to strengthen cultural sustainability, economics must be supported, which requires environmental impact. This research has the potential to catalyze critical conversations about digital media, artist welfare, and the state of the music industry. Author Keywords: College Radio, Cultural Sustainability, Economic Sustainability, Environmental Sustainability, Music Collecting",
+        "pdf_url": "https://trentu.scholaris.ca/bitstreams/c78f2f0c-0587-4e6e-b63c-67349e9628b4/download",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7206585731",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "The production of an amateur musical revue",
+        "source": "openalex",
+        "url": "http://rave.ohiolink.edu/etdc/view?acc_num=osu1486554418658499",
+        "doi": null,
+        "year": 1963,
+        "authors": [
+          "Elaine Adams Novak"
+        ],
+        "venue": "OhioLink ETD Center (Ohio Library and Information Network)",
+        "abstract": null,
+        "pdf_url": "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=osu1486554418658499&disposition=inline",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2892108421",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Sizing and Fit Specifications",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501315442.ch-010",
+        "doi": "10.5040/9781501315442.ch-010",
+        "year": 2017,
+        "authors": [],
+        "venue": "Beyond Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501315442.ch-010",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Sizing and Fit Specifications",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501366581.ch-010",
+        "doi": "10.5040/9781501366581.ch-010",
+        "year": 2022,
+        "authors": [],
+        "venue": "Beyond Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501366581.ch-010",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Fairchild Books"
+        }
+      },
+      {
+        "title": "Mass-Produced Apparel",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/9781003397533-5",
+        "doi": "10.1201/9781003397533-5",
+        "year": 2024,
+        "authors": [
+          "Daisy Veitch"
+        ],
+        "venue": "Product Fit and Sizing",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/9781003397533-5",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "Product Development and the Apparel Supply Chain",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501366581.ch-001",
+        "doi": "10.5040/9781501366581.ch-001",
+        "year": 2022,
+        "authors": [],
+        "venue": "Beyond Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501366581.ch-001",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Fairchild Books"
+        }
+      },
+      {
+        "title": "The Role of Product Development in the Apparel Supply Chain",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501315442.ch-001",
+        "doi": "10.5040/9781501315442.ch-001",
+        "year": 2017,
+        "authors": [],
+        "venue": "Beyond Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501315442.ch-001",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Product Design (Product Development)",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501317644.ch-014",
+        "doi": "10.5040/9781501317644.ch-014",
+        "year": 2016,
+        "authors": [],
+        "venue": "Apparel Production Terms and Processes",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.5040/9781501317644.ch-014",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Fairchild Books"
+        }
+      },
+      {
+        "title": "Development and approval of a plastic pack",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/b12651-14",
+        "doi": "10.1201/b12651-14",
+        "year": 2000,
+        "authors": [],
+        "venue": "Pharmaceutical Packaging Technology",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/b12651-14",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "DEVELOPMENT AND APPROVAL OF A PLASTIC PACK",
+        "source": "crossref",
+        "url": "https://doi.org/10.4324/9780203301814_chapter_8",
+        "doi": "10.4324/9780203301814_chapter_8",
+        "year": 2010,
+        "authors": [],
+        "venue": "PHARMACEUTICAL PACKAGING TECHNOLOGY",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.4324/9780203301814_chapter_8",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Taylor & Francis"
+        }
+      },
+      {
+        "title": "A NEW DAWN FOR FASHION MANUFACTURING",
+        "source": "crossref",
+        "url": "https://doi.org/10.26480/itechmag.07.2025.14.15",
+        "doi": "10.26480/itechmag.07.2025.14.15",
+        "year": 2024,
+        "authors": [
+          "Apparel Merchandising, Business Development, Project & Product Management, Digital Marketing and Entrepreneurship",
+          "Sudaraka ayanath Wijeweera"
+        ],
+        "venue": "i TECH MAG",
+        "abstract": "In the heart of every garment lies a story—of creativity, craftsmanship, and now, a revolution quietly weaving its way through factory floors. Picture a world where clothing is not just stitched by hands, but crafted through intelligent systems that understand design, predict trends, and bring to life ideas with unparalleled precision. The fashion industry, traditionally driven by human touch, is entering a new era, where digital innovation and Artificial Intelligence are the unsung tailors behind the scenes. Gone are the days when a designer’s sketch required weeks of laborious work to become a reality. Today, algorithms draw patterns, machines sew without human guidance, and virtual models showcase collections before a single thread is spun. But while retail has embraced this technological renaissance with open arms, the world of apparel manufacturing is just beginning to see the vast possibilities ahead. This article embarks on a journey into the future of fashion world where smart factories hum with the quiet efficiency of robotics, where creativity and technology form a seamless partnership, and where the challenges of yesterday become the opportunities of tomorrow. In this new fabric of innovation, we unravel how Artificial Intelligence and digital solutions are poised to redefine what it means to create, wear, and experience fashion.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.26480/itechmag.07.2025.14.15",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Zibeline International Publishing"
+        }
+      },
+      {
+        "title": "Advances in apparel product development",
+        "source": "crossref",
+        "url": "https://doi.org/10.1533/9781845694463.2.157",
+        "doi": "10.1533/9781845694463.2.157",
+        "year": 2008,
+        "authors": [
+          "D. Tyler"
+        ],
+        "venue": "Advances in Apparel Production",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "book-chapter",
+        "identifier": "10.1533/9781845694463.2.157",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "NEW PRODUCT DEVELOPMENT IN TEXTILES AND APPAREL INDUSTRY",
+        "source": "crossref",
+        "url": "https://doi.org/10.29121/ijoest.v5.i5.2021.227",
+        "doi": "10.29121/ijoest.v5.i5.2021.227",
+        "year": 2021,
+        "authors": [
+          "Arindam Basu"
+        ],
+        "venue": "International Journal of Engineering Science Technologies",
+        "abstract": "Product development is key to survival of any industry with change of time. This article discusses about the process of new product development in textile and apparel industry. Major points considered during this process are demand of customers, availability of new raw materials, sustainability, economic validity and responsibiiity towards nature. Engineering of products is a complicated issue here due to natural variability of textile materials, limitations of fibre available and use of old conventional machineries in many cases.",
+        "pdf_url": "https://www.granthaalayahpublication.org/ojs-sys/index.php/ijoest/article/download/IJOEST_227/157",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.29121/ijoest.v5.i5.2021.227",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Granthaalayah Publications and Printers"
+        }
+      },
+      {
+        "title": "Product Design (Product Development)",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501393914.ch-13",
+        "doi": "10.5040/9781501393914.ch-13",
+        "year": 2025,
+        "authors": [],
+        "venue": "Apparel Production Terms and Processes",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501393914.ch-13",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Product Design (Product Development)",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501315602.ch-014",
+        "doi": "10.5040/9781501315602.ch-014",
+        "year": 2017,
+        "authors": [],
+        "venue": "Apparel Production Terms and Processes",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501315602.ch-014",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Inc"
+        }
+      },
+      {
+        "title": "The Apparel Product Development Process and Technical Design",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501328435.ch-002",
+        "doi": "10.5040/9781501328435.ch-002",
+        "year": 2018,
+        "authors": [],
+        "venue": "Technical Sourcebook for Apparel Designers",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501328435.ch-002",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Inc"
+        }
+      },
+      {
+        "title": "Design and product development in high-performance apparel",
+        "source": "crossref",
+        "url": "https://doi.org/10.1016/b978-0-08-100904-8.00009-2",
+        "doi": "10.1016/b978-0-08-100904-8.00009-2",
+        "year": 2018,
+        "authors": [
+          "J. Ledbury"
+        ],
+        "venue": "High-Performance Apparel",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 10,
+        "work_type": "book-chapter",
+        "identifier": "10.1016/b978-0-08-100904-8.00009-2",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "The Apparel Product Development Process and Technical Design",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501391972.ch-2",
+        "doi": "10.5040/9781501391972.ch-2",
+        "year": 2024,
+        "authors": [],
+        "venue": "Technical Sourcebook for Apparel Designers",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501391972.ch-2",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Inc"
+        }
+      },
+      {
+        "title": "Advances in apparel product development",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/9781439832424.ch8",
+        "doi": "10.1201/9781439832424.ch8",
+        "year": 2008,
+        "authors": [
+          "D Tyler"
+        ],
+        "venue": "Advances in Apparel Production",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/9781439832424.ch8",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "A Product Development Perspective On Quality",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501315442.ch-011",
+        "doi": "10.5040/9781501315442.ch-011",
+        "year": 2017,
+        "authors": [],
+        "venue": "Beyond Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501315442.ch-011",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Pack it up: impact of message frames, perceived benefits and green consumer values for apparel product packaging on brand attitude",
+        "source": "crossref",
+        "url": "https://doi.org/10.1108/rjta-02-2024-0027",
+        "doi": "10.1108/rjta-02-2024-0027",
+        "year": 2024,
+        "authors": [
+          "Michelle Kolacz",
+          "Gargi Bhaduri"
+        ],
+        "venue": "Research Journal of Textile and Apparel",
+        "abstract": "Purpose While the fashion industry is beginning to comprehend the commercial imperative for sustainability, it is struggling to address the issues of overconsumption and accompanying packaging. Research indicates that framing of marketing messages makes an impact on consumers’ choices, particularly when it comes to supporting sustainable initiatives from brands. This study aims to investigate the impact of message framing, reference to perceived benefits and green consumer values on their choice of packaging reduction initiatives in the context of online retailing and the subsequent impact on brand attitude. Design/methodology/approach A 2 (frame: gain/loss) × 2 (reference to perceived benefits: personal/societal) × 2 (green consumer value: high/low) mixed method online experiment was conducted. Findings Results indicated that how the message is referenced in terms of benefits (personal gain/loss or societal gain/loss) and green consumer values act as moderators between message frame and attitude toward the packaging initiatives, which in turn impact brand attitude. Originality/value Overall, the findings contribute to message architecture, insight on consumer behavior, and add to the business case for sustainable packaging for fashion/apparel companies.",
+        "pdf_url": "https://www.emerald.com/rjta/article-pdf/29/4/860/10743642/rjta-02-2024-0027en.pdf",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "10.1108/rjta-02-2024-0027",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Emerald"
+        }
+      },
+      {
+        "title": "A Product Development Perspective on Quality",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501366581.ch-011",
+        "doi": "10.5040/9781501366581.ch-011",
+        "year": 2022,
+        "authors": [],
+        "venue": "Beyond Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501366581.ch-011",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Fairchild Books"
+        }
+      },
+      {
+        "title": "Can Augmented Reality Help E-shoppers Make Informed Purchases on Apparel Fit, Size, and Product Performance?",
+        "source": "crossref",
+        "url": "https://doi.org/10.31274/itaa_proceedings-180814-1385",
+        "doi": "10.31274/itaa_proceedings-180814-1385",
+        "year": 2016,
+        "authors": [
+          "Fatma Baytar",
+          "Te-lin (Doreen) Chung",
+          "Eonyou Shin"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 7,
+        "work_type": "report",
+        "identifier": "10.31274/itaa_proceedings-180814-1385",
+        "extra": {
+          "crossref_type": "report",
+          "publisher": "Iowa State University, Digital Repository"
+        }
+      },
+      {
+        "title": "Human measurement and product development for high-performance apparel",
+        "source": "crossref",
+        "url": "https://doi.org/10.1016/b978-0-08-100904-8.00010-9",
+        "doi": "10.1016/b978-0-08-100904-8.00010-9",
+        "year": 2018,
+        "authors": [
+          "S. Gill"
+        ],
+        "venue": "High-Performance Apparel",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "book-chapter",
+        "identifier": "10.1016/b978-0-08-100904-8.00010-9",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Apparel retail product development: model testing and expansion",
+        "source": "crossref",
+        "url": "https://doi.org/10.31274/td-20260812-326",
+        "doi": "10.31274/td-20260812-326",
+        "year": 2026,
+        "authors": [
+          "Jennifer Lea Wickett"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.31274/td-20260812-326",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Iowa State University"
+        }
+      },
+      {
+        "title": "Apparel Needs and Expectations Model: A New Paradigm of the Apparel Product Development Process",
+        "source": "crossref",
+        "url": "https://doi.org/10.31274/itaa_proceedings-180814-1179",
+        "doi": "10.31274/itaa_proceedings-180814-1179",
+        "year": 2015,
+        "authors": [
+          "Laurel Romeo",
+          "Young-A Lee"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "10.31274/itaa_proceedings-180814-1179",
+        "extra": {
+          "crossref_type": "report",
+          "publisher": "Iowa State University, Digital Repository"
+        }
+      },
+      {
+        "title": "Translating Concept to Product",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501315442.ch-009",
+        "doi": "10.5040/9781501315442.ch-009",
+        "year": 2017,
+        "authors": [],
+        "venue": "Beyond Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501315442.ch-009",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      }
+    ]
+  },
+  "count": 41,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:03:41.224414+00:00"
+}

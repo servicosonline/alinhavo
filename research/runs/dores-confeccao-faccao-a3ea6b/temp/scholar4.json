@@ -1,0 +1,879 @@
+{
+  "ok": true,
+  "data": {
+    "query": "planejamento controle producao PCP custos confeccao vestuario micro pequenas empresas",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 20,
+      "doab": 0
+    },
+    "raw_records": 40,
+    "merged_records": 40,
+    "returned": 40,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "ANÁLISE E MELHORIA DO PLANEJAMENTO E CONTROLE DA PRODUÇÃO DE UMA PEQUENA INDÚSTRIA DE CONFECÇÃO",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.14488/enegep2024_tce_411_2015_46913",
+        "doi": "10.14488/enegep2024_tce_411_2015_46913",
+        "year": 2024,
+        "authors": [
+          "Thiago de Almeida Rodrigues",
+          "THIAGO CORRÊA KNUPP",
+          "JAMILLY FURTADO SOANNO",
+          "R. J. P. de Oliveira",
+          "WENDELL MARTINS CRUZ"
+        ],
+        "venue": "Anais ... Encontro Nacional de Engenharia de Produção/Anais do Encontro Nacional de Engenharia de Produção",
+        "abstract": "Este estudo concentra-se na melhoria de processos em uma pequena empresa de confeco de roupas ntimas psparto, a ABC Moda ntima. O objetivo propor solues prticas para melhorar os processos de produo da empresa, superando desafios como a centralizao de processos em poucos colaboradores, a falta de controle de informaes, a tomada de decises sem a utilizao de dados histricos, e a ausncia de estruturas documentadas para orientar as operaes. A metodologia adotada iniciou-se com a modelagem de processos, buscando compreender a estrutura das operaes da ABC Moda ntima. Em seguida, realizou-se a coleta e anlise de dados para identificar reas com oportunidades de melhoria. Os resultados revelaram problemas nos processos produtivos que foram base para as propostas de solues, como a criao de uma ferramenta para o Planejamento e Controle da Produo (PCP), bem como a anlise de mtodos de previso de demanda. As implicaes prticas das solues propostas incluem a reduo da centralizao de processos, a melhoria na gesto de informaes, fundamentao para decises baseadas em dados, bem como a criao de estruturas de processos documentadas. Alm disso, este estudo representa uma contribuio para a aplicao das ferramentas da Engenharia de Produo no contexto do PCP em pequenas empresas de confeco de roupas ntimas. A integrao desses conceitos com os desafios especficos do setor enriquece o conhecimento disponvel para profissionais e pesquisadores que enfrentam desafios semelhantes na gesto de processos de produo em empresas de confeco.",
+        "pdf_url": "http://www.abepro.org.br/biblioteca/TCE_411_2015_46913.pdf",
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "W4404138778",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Desenvolvimento de Ferramenta Computacional para Apoiar o Planejamento e Controle da Produção em Micro e Pequenas Empresas",
+        "source": "openalex",
+        "url": "https://doi.org/10.12819/2026.23.3.6",
+        "doi": "10.12819/2026.23.3.6",
+        "year": 2026,
+        "authors": [
+          "Rodrigo Kapiche Soares de Oliveira",
+          "Rita de Cássia Feroni",
+          "Wander Demonel de Lima",
+          "Thiara Cezana Gomes",
+          "Silvia das Dores Rissino"
+        ],
+        "venue": "Revista FSA",
+        "abstract": "The absence of a structured Production Planning and Control (PPC) system represents a major challenge to the competitiveness of Micro and Small Enterprises (MSEs), especially due to difficulties in acquiring management systems available in the market, whether because of financial cost, operational complexity, or the need for specialized technical knowledge. In this context, the objective of the present study is to develop a computational tool capable of integrating fundamental PPC activities, with the purpose of supporting production management in MSEs. For the application of the tool, a microenterprise in the garment manufacturing sector, located in the state of Espírito Santo, Brazil, was selected. An applied research approach was adopted, conducted through a case study using structured interviews and on-site observation. The computational tool was developed in the Python programming language and includes essential modules for PPC activities in MSEs, namely: information flow (data registration), purchasing management, demand forecasting, Master Production Planning (MPP), and Material Requirements Planning (MRP). The results demonstrate that the use case diagram and the application of technological tools integrated into the company’s PPC enabled the manager to achieve more efficient planning, with improved production control and reduced waste.",
+        "pdf_url": "http://www4.unifsa.com.br/revista/index.php/fsa/article/download/3264/491495104",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W7139038611",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A tecnologia nos processos de desenvolvimento de produto e na produção das micro e pequenas empresas de confecção do vestuário de Porto Alegre - RS e Sombrio - SC",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/36048",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Paula Rodrigues Bittencourt"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "O objetivo deste trabalho foi abordar a inserção da tecnologia nos processos de desenvolvimento de produto e na produção das micro e pequenas empresas de confecção de Porto Alegre – RS e Sombrio - SC. O software CAD/CAM que permite economizar tempo e reduzir os custos de produção e desenvolvimento de produto, reduzindo o número de protótipos físicos e facilitando o encaixe. Sobretudo, o presente trabalho visa analisar como as micro empresas inserem a tecnologia em seus processos. O uso do sistema CAD (Desenho Assistido por computador) é uma tecnologia em que a computação suporta quase todas as áreas da confecção: design e criação, design têxtil, modelagem, ampliação, encaixe e risco, ficha técnica, cálculo de custos industriais, ordem de corte e gestão da produção. A evolução da tecnologia para a indústria do vestuário representa um fator significativo, possibilitando mudanças radicais que podem reduzir o tempo de fabricação do produto, acelerando e aperfeiçoando os processos. O estudo de caso englobou três micro empresas e uma pequena empresa de confecção do vestuário de Porto Alegre – RS e Sombrio - SC cuja análise dos dados qualitativos resultou em sugestões de melhorias para cada empresa estudadas.",
+        "pdf_url": null,
+        "citation_count": 5,
+        "work_type": "thesis",
+        "identifier": "W2199212968",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "O FLUXO DA PRODUÇÃO E DA INFORMAÇÃO NO DESIGN DE MODA: UMA ANÁLISE APLICADA EM PEQUENAS EMPRESAS DE CONFECÇÃO DA GRANDE FLORIANÓPOLIS – SANTA CATARINA",
+        "source": "openalex",
+        "url": "http://periodicos.ufpb.br/ojs2/index.php/pgc/article/view/22866",
+        "doi": null,
+        "year": 2016,
+        "authors": [
+          "Claudia Finardi",
+          "Edna Lúcia da Silva",
+          "Gregório Jean Varvakis Rados"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "Relato de uma pesquisa que analisou o processo de desenvolvimento de produtos de vestuário, procurando detectar a influência do uso de informação em pequenas empresas. Define como questão para nortear o desenvolvimento da pesquisa: até que ponto a informação é aplicada ao design de moda e tem interferido no processo de criação e na modelagem de vestuário desse setor em Santa Catarina? Elege como lócus para a aplicação da pesquisa as pequenas empresas de confecção de Santa Catarina, especificamente, localizadas na região da Grande Florianópolis e como sujeitos os responsáveis diretos pelo desenvolvimento da coleção. Realiza uma pesquisa exploratória-descritiva, com base em dados de natureza qualitativa e quantitativa, levantados a partir de entrevistas semi-estruturadas. Os resultados mostram o uso de fontes de informação para subsidiar o processo de design de moda, bem como a produção de informações nesse processo que viabilizam a produção das coleções. com criação de modelos viáveis de produção e comercialização. O fluxo da informação detectado nas empresas lócus desta pesquisa permite a seguinte caracterização: uma como criadora de produtos de moda, três como adaptadoras e duas como reprodutoras. No fluxo da informação interno prevalece a comunicação informal, as fontes de informação externas mais valorizadas são os sítios da Internet, revistas especializadas e catálogos de fornecedores. As fichas técnicas consolidam as informações de todo o processo de design de moda e subsidiam o processo de produção das coleções.",
+        "pdf_url": "https://periodicos.ufpb.br/ojs2/index.php/pgc/article/download/22866/16524",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2587941162",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Avaliação da satisfação dos usuários de sistemas integrados de gestão (ERP) nas médias empresas de confecção do vestuário de Fortaleza",
+        "source": "openalex",
+        "url": "https://repositorio.ufpb.br/jspui/handle/tede/5210",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Francismilton Teles"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "As empresas de pequeno e médio porte são a grande maioria no cenário nacional, gerando emprego e renda de forma pulverizada para a nação. Uma das ferramentas que colaboram para o aumento da competitividade nestas empresas é o uso de Sistemas Integrados de Gestão (ERP), os quais, quando bem utilizados, auxiliam no processo de planejamento, gestão e controle. É muito importante a verificação do sucesso de utilização destes sistemas nas empresas e um dos meios mais aceitos de analisá-los é por meio da avaliação da satisfação dos seus usuários. Esta dissertação avalia a satisfação dos usuários de sistemas ERP‟s nas médias empresas de confecção do vestuário no município de Fortaleza, um dos maiores pólos de confecção do Brasil. O método utilizado foi a pesquisa Survey, através da qual foram entrevistados 117 usuários de 25 empresas e seguiu o modelo de avaliação customizado por Ely (2010), onde são avaliados de forma quantitativa a satisfação dos usuários finais e usuários-chave de um sistema ERP. Os resultados apresentam, de forma geral, que os usuários estão satisfeitos com os sistemas ERP implantados. Também foi verificado por meio de análise multivariada, que o modelo utilizado foi adequado ao contexto das médias empresas, pois os testes estatísticos (Alfa de Cronbach, esfericidade de Bartlett e KMO) obtiveram valores bastante confiáveis.",
+        "pdf_url": "https://repositorio.ufpb.br/jspui/bitstream/tede/5210/1/arquivototal.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2561276547",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "TEORIA DAS RESTRIÇÕES (TOC): CASO DE APLICAÇÃO EM UMA EMPRESA DE CONFECÇÃO",
+        "source": "openalex",
+        "url": "https://doi.org/10.3895/s1808-04482013000200008",
+        "doi": "10.3895/s1808-04482013000200008",
+        "year": 2013,
+        "authors": [
+          "Fabio Gonçalves Torres",
+          "Helder Gomes Costa"
+        ],
+        "venue": "Revista Gestão Industrial",
+        "abstract": "Normal.dotm 0 0 1 56 324 2 1 397 12.0 0 false 18 pt 18 pt 0 0 false false false Este artigo apresenta uma análise de um caso de aplicação da Teoria das Restrições (TOC) para o planejamento de um sistema de produção. A aplicação foi efetuada em uma empresa do ramo de confecção com 17 empregados à época da pesquisa, estando situada na cidade de Juiz de Fora, MG, Brasil. Os dados foram coletados entre 01/02/2010 à 5/02/2010. Durante a modelagem foram identificados os fluxos de produção e mapeados os tempos de operação em cada uma das estações de trabalho, as quais eram operadas manualmente. A modelagem e análise do sistema de produção também envolveram um estudo de sensibilidade dos resultados nos quesitos custo e tempo total de produção. Os resultados obtidos permitiram identificar e elevar os gargalos de produção, além de possibilitar a escolha da opção mais adequada para a configuração do sistema de produção.",
+        "pdf_url": "https://periodicos.utfpr.edu.br/revistagi/article/download/1037/1028",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W2009214397",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Adequação da produção de serviços terceirizados de uma confecção: um estudo de caso",
+        "source": "openalex",
+        "url": "https://doi.org/10.18624/e-tech.v7i2.464",
+        "doi": "10.18624/e-tech.v7i2.464",
+        "year": 2014,
+        "authors": [
+          "Wallace Nóbrega Lopo",
+          "Alini Cavichioli",
+          "Antonio José dos Santos",
+          "Cristiane Luiza Bleich Vetore",
+          "Daniele Cristina Gelain Rezende",
+          "Giancarlo Steffani"
+        ],
+        "venue": "Revista E-Tech Tecnologias para Competitividade Industrial",
+        "abstract": "O presente artigo é um estudo de caso que tem por objetivo analisar a adequação da produção de serviços terceirizados de uma pequena empresa do ramo de confecção de vestuário situada na cidade de Guabiruba - SC, que faz parte de um segmento intitulado de prestadora de serviços de costura de artigos de malha de linha básica. Os dados foram pesquisados de forma qualitativa com aplicação de um questionário previamente elaborado pelos autores e respondido pelo socioproprietário da fábrica que aqui denominamos de Confecções Cavichioli. O contato foi realizado de forma pessoal, obtendo-se informações a respeito do histórico de demanda dos últimos dois anos, capacidade produtiva, fluxo de produção, layout e uso de célula de confecção. A partir das propostas de Tubino (2009), Slack et al. (2002), Toledo (1992) entre outros citados neste artigo, foi possível confrontar a literatura com as práticas da cadeia produtiva investigada. Identificou-se que a previsão de demanda, baseada na capacidade produtiva da empresa, mostrou-se mais eficiente do que aquela relacionada ao histórico de produção e que a modificação do layout do maquinário, junto com a alteração para um sistema produtivo em célula e por batelada, apresentou o melhor resultado para o atendimento da demanda exigida pelo mercado.",
+        "pdf_url": "https://etech.sc.senai.br/edicao01/article/download/464/353",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W1554218574",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A Indústria de Confecção do Vestuário de Pato Branco: Aspectos de Gestão, Design, Caracterização de Matérias-Primas e Geração de Resíduos Têxteis",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1982615x10202017023",
+        "doi": "10.5965/1982615x10202017023",
+        "year": 2017,
+        "authors": [
+          "Andréia Mesacasa",
+          "Mário Antônio Alves da Cunha"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "Esta pesquisa possui como foco a indústria de confecção do vestuário no município de Pato branco, evidenciando aspectos relativos à gestão, design, caracterização de matérias-primas e geração de resíduos. No presente estudo foi realizado um diagnóstico junto às empresas, com o intuito de obter informações referentes aos perfis das mesmas, destacando as formas de gestão, design e desenvolvimento de produto, matérias-primas utilizadas e geração de resíduos têxteis. Tais empresas caracterizam-se como empreendimentos de micro e pequeno porte, atuando em diferentes segmentos de mercado, com forte tendência a produção de uniformes profissionais. Em consequência disso, grande parte dos resíduos gerados é constituída por retalhos de malha. Neste sentido, uma alternativa para o reaproveitamento destes resíduos poderia contribuir tanto do ponto de vista ambiental por meio de um melhor direcionamento destes, como economicamente, uma vez que poderiam ser voltados para a produção de produtos de maior valor agregado.",
+        "pdf_url": "http://revistas.udesc.br/index.php/modapalavra/article/download/9554/6800",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W2634651200",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A contribuição do diagnóstico para traçar a estratégia da empresa – Estudo de caso de uma empresa de confecção",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2013v4n1p23",
+        "doi": "10.5433/2236-2207.2013v4n1p23",
+        "year": 2013,
+        "authors": [
+          "Lucas do Carmo Dalbeto",
+          "Mayara Gonçalves"
+        ],
+        "venue": "Projetica",
+        "abstract": "This paper demonstrates the concept of design in its differents means, clarifying the relationship between doctrine and practice of the performance of designers, and relating to management and performance and contributions os the Design Management for the organizations. To illustrate the activities of design managers, the diagnostic is used as a method of verifying the current status of a clothing firm, in order to obtain the necessary information to develop plans and strategies to be implemented through actions of management design in order to value and benefit the company on the market.",
+        "pdf_url": "https://www.uel.br/revistas/uel/index.php/projetica/article/download/14628/13384",
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "W2131825496",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A contribuição do diagnóstico para traçar a estratégia da empresa – Estudo de caso de uma empresa de confecção",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/1981-8920.2013v4n1p23",
+        "doi": "10.5433/1981-8920.2013v4n1p23",
+        "year": 2013,
+        "authors": [
+          "Lucas do Carmo Dalbeto",
+          "Mayara Gonçalves"
+        ],
+        "venue": "Projetica",
+        "abstract": "This paper demonstrates the concept of design in its differents means, clarifying the relationship between doctrine and practice of the performance of designers, and relating to management and performance and contributions os the Design Management for the organizations. To illustrate the activities of design managers, the diagnostic is used as a method of verifying the current status of a clothing firm, in order to obtain the necessary information to develop plans and strategies to be implemented through actions of management design in order to value and benefit the company on the market.",
+        "pdf_url": "https://ojs.uel.br/revistas/uel/index.php/projetica/article/download/14628/13384",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4251863222",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A indústria de confecção do vestuário do município de Pato Branco: aspectos de desenvolvimento, gestão, design, e proposta de reaproveitamento dos resíduos têxteis",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/309",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Andréia Mesacasa"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "A cultura industrial proporcionou uma série de benefícios à sociedade moderna, contudo, impactos ambientais negativos tem sido gerados, em função da exploração inadequada dos recursos naturais do planeta e pela geração excessiva de resíduos. Dentro deste contexto, esta pesquisa possui como foco a indústria de confecção do vestuário no município de Pato branco, e busca evidenciar aspectos relativos à gestão, design, caracterização de matérias-primas e geração de resíduos. Além disso, na tentativa de amenizar o gargalo referente ao correto destino dos resíduos têxteis gerados no processo produtivo, propõe como alternativa o reaproveitamento destes por meio do desenvolvimento de produtos de moda voltados ao público feminino, tais como bolsas e cachecóis. O presente estudo compreendeu três etapas distintas, a primeira, foi composta por um diagnóstico realizado junto às empresas, com o intuito de obter informações referentes aos perfis das mesmas, destacando as formas de gestão, design e desenvolvimento de produto, matérias-primas utilizadas e geração de resíduos têxteis. Tais empresas caracterizam-se como empreendimentos de micro e pequeno porte, atuando em diferentes segmentos de mercado, com forte tendência a produção de uniformes profissionais. Em conseqüência disso, grande parte dos resíduos gerados é constituída por retalhos de malha. Foi evidenciada carência de profissionais qualificados para atuarem tanto nas áreas de criação, desenvolvimento e produção, o que de certa forma constitui um entrave para o crescimento das empresas do município. Na segunda etapa, foi realizada pesquisa com 200 potenciais consumidoras de produtos de moda do município de Pato Branco, buscando verificar as preferências das mesmas em relação à moda, incluindo aspectos como disposição em adquirir produtos confeccionados a partir de resíduos têxteis e técnicas artesanais como tricô, crochê, bordados, fatores estes relevantes para traçar o perfil das consumidoras. Com base nos dados coletados, foram desenvolvidos produtos de moda a partir de resíduos têxteis. Partindo da premissa que o lançamento de produtos ecologicamente corretos requer aceitação cultural e social por parte dos consumidores, na terceira etapa da pesquisa foi realizada avaliação da aceitação dos produtos de moda, empregando-se, de forma inovadora em produtos de moda, a metodologia de avaliação sensorial por escala hedônica e teste de intenção de compra. Foram avaliados atributos técnicos, ergonômicos e estéticos dos produtos. Os produtos desenvolvidos a partir dos resíduos têxteis tiveram boa aceitação e apreciável intenção de compra, demonstrando elevado potencial de reaproveitamento tecnológico dos mesmos. O reaproveitamento dos resíduos poderia contribuir tanto do ponto de vista ambiental através de um melhor direcionamento destes, como economicamente, uma vez que poderiam ser direcionados para a produção de produtos de maior valor agregado.",
+        "pdf_url": null,
+        "citation_count": 8,
+        "work_type": "thesis",
+        "identifier": "W761725874",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "SUSTENTABILIDADE NA INDÚSTRIA DO VESTUÁRIO: ESTUDO DE CASO EM UMA EMPRESA DO SEGMENTO MODA FESTA",
+        "source": "openalex",
+        "url": "https://doi.org/10.29183/2447-3073.mix2021.v7.n2.115-124",
+        "doi": "10.29183/2447-3073.mix2021.v7.n2.115-124",
+        "year": 2021,
+        "authors": [
+          "Stella Teles Barros",
+          "Viviane dos Guimarães Alvim Nunes"
+        ],
+        "venue": "MIX Sustentável",
+        "abstract": "The unbridled progress, especially that related to the Fashion’s Segment, has generated a series of economic, social and environmental impacts easily identified through unbalanced conditions such as environmental degradation and pollution. From this scenario, we sought to understand the relationship between Sustainability and the Apparel IndustryProductive System, with the objective of investigating alternatives to systematize productive practices for the apparel industry, mainly stimulating the environmental sustainability of the processes. Through a case study in a clothing industry in the Fashion Party segment in the city of Uberlândia/MG, this work, of a qualitative nature and exploratory character, analyzes and discusses the Fashion System and its elements, as well as the principles of Sustainable Design. The reflections on sustainability and fashion were based on the mentioned theoretical framework and allowed to identify the company's sustainable maturity level and the actions already achieved. The obtained results include general guidelines for the gradual systematization of actions focused on sustainability, which will enable companies especially those fromthe Fashion Party segment to continuously progress towards the growth of their level of sustainable maturity.",
+        "pdf_url": "https://ojs.sites.ufsc.br/index.php/mixsustentavel/article/download/4292/3580",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W3189730773",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Práticas cotidianas acerca do gerenciamento de resíduos sólidos na indústria da confecção de vestuário no município de Maringá, Paraná",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/t.106.2018.tde-09022018-131442",
+        "doi": "10.11606/t.106.2018.tde-09022018-131442",
+        "year": 2018,
+        "authors": [
+          "Paula Piva Linke"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "In the present research I sought to understand how businesses from the clothing industry deal with residues from the production process. To do so, I reflected on: the production process of clothing industries in the three selected companies, named here N, I and A; the residues generation; legal rulings which apply to residue management in the clothing industry; and the subject positions of those who deal daily with this king of production. Hence, the hypotheses which guided the theses is that although there is large legal ruling on residues management and proper production technologies, there are also daily procedures of doing which prevent the process from working better. As a theoretical base, it is relevant to understand what can be understood as environment, development, sustainable development and fashion. Supplementary, in order to encompass daily practices of the subjects linked with clothing production in relation to the residues, the concepts of habitus and social representation are paramount. I used a methodology of qualitative approach, namely the multiple case study, and applied production and analyses methods of semi structured interview. The thesis is structured as follows: in the first chapter the theoretical reference essential to the formulated hypothesis is presented. In it, I explain the concepts used as well as the methodology used to conduct the research. In the second, I discuss the legal ruling on residue management. In the third, I present the specificity of the clothing sector in Maringá town. In the fourth, I contemplate the production process of clothing within the three companies studied. In the fifth, I bring the analyses of the residues management process. In the sixth, the perceptions of the social subjects involved in the production process. Lastly, I present the final considerations. I could indeed verify that as there are national and local legal rulings weighing on the residues management in order to minimize its production, there still are ways in which production not only generates significant losses in the clothing industry, but also result in a not always correct destination of generated residues. I could realize that this results from subjects not assimilating the guidelines recommended in the national and local law, and that this can be explained by how subjects involved in the production process as a whole appropriate the understandings of the law and represent it in actions which show acting limitations and possibilities. It is important to consider that the companies are part of capitalism and follow the rules stablished by this system. As to the analyzed companies, I do not consider them sustainable, but with little impact on the environment, highlighting N, followed by I and A. I also do not see the possibility of reaching a sustainable society with the current lifestyle and philosophy of capitalism.",
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W2808897783",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "GERENCIAMENTO DE RISCOS NA CADEIA DE SUPRIMENTOS DE MICRO E PEQUENAS EMPRESAS TÊXTEIS: DISCUSSÃO EXPLORATÓRIA SOBRE OPORTUNIDADES DE PESQUISA",
+        "source": "openalex",
+        "url": "https://doi.org/10.14211/regepe.v4i1.172",
+        "doi": "10.14211/regepe.v4i1.172",
+        "year": 2015,
+        "authors": [
+          "Francisco Carlos Fernandes",
+          "Franciele Wrubel",
+          "Lara Fabiana Dallabona"
+        ],
+        "venue": "REGEPE Entrepreneurship and Small Business Journal",
+        "abstract": "O estudo objetiva identificar e analisar os riscos e mecanismos de gerenciamento de riscos inerentes à cadeia de suprimentos e logística de micro e pequenas empresas sediadas em Blumenau-SC, além de proporcionar discussão exploratória sobre oportunidades de pesquisas. Para tanto, desenvolveu-se pesquisa exploratória e qualitativa com aplicação de entrevista semiestruturada. A entrevista foi elaborada utilizando o COSO, estudos relacionados e estudos multicasos. Os resultados demonstram que os principais riscos relacionam-se com a compra, transporte, manuseio e qualidade da matéria-prima, softwares ineficientes, programação, prazos de entregas e processos complexos de importação. No que se refere aos mecanismos de gerenciamento, constatou-se o planejamento na compra de matéria-prima com qualidade e controles de pedidos. Destacaram-se possibilidades de pesquisas para explicar e explorar relações existentes na gestão de riscos logísticos/suprimentos para as micro e pequenas empresas. Maior institucionalização dessas pesquisas instigam possibilidades de comparações, discussão dos resultados e melhoramentos da gestão de riscos.",
+        "pdf_url": "https://www.regepe.org.br/regepe/article/download/172/pdf",
+        "citation_count": 9,
+        "work_type": "article",
+        "identifier": "W1566726690",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Implementation of PCP in a fitness clothing microenterprise",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/34414",
+        "doi": null,
+        "year": 2024,
+        "authors": [
+          "Viviane Cristina Arzani Frost"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "The production function has been examined since the origin of humanity. It can be defined as a set of activities that lead to the transformation of a tangible good into another with more excellent utility. Throughout history, production techniques have been improving, and with the Industrial Revolution, some requirements emerged, such as the organization of production, standardization of products, and production processes. This led to the development of new techniques and systems to organize, plan, and control production. With the advance of globalization, competitiveness also increased, and overcoming the ever-growing competition became a challenge to stay in the market. Nevertheless, consumers began to have greater demands regarding the delivery time of the finished product, price, personalized service, and, especially, quality. Thus, a company that is prepared against its competitors will gain new market shares. To meet these demands, planning and controlling production are essential processes; therefore, companies rely on a tool or department called Production Planning and Control (PPC), which aims to create plans that will guide production and serve as a guide for its control. Production planning and control determine what will be produced, when, how, where, and by whom. This work aimed to describe the stages of implementing PPC in a small clothing company, highlighting its importance and necessity. It was applied in a clothing microenterprise located in the city of Maringá-PR. For this study, a literature review was conducted, and data from the company were collected through visits and questionnaires applied to employees. The results indicated that the lack of planning contributes to delays in order delivery and timely acquisition of raw materials, among other issues. Based on the results, improvements were proposed to address the identified difficulties, such as the use of the Trello tool to organize production information, facilitate order tracking, standardization of processes to reduce rework, training of employees to equip them, and performance monitoring to identify areas that need adjustments and implement improvements as necessary.",
+        "pdf_url": "http://repositorio.utfpr.edu.br:8080/jspui/bitstream/1/34414/1/implantacaopcpindustriafitness.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7120334706",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Estratégias e sistema de gestão da inovação : o caso de uma empresa do setor do vestuário",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/13163",
+        "doi": null,
+        "year": 2008,
+        "authors": [
+          "Leonardo Schnorr"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "Posto o contexto de competitividade no mercado global, é fato que nações e organizações buscam formas de inovar para permanecerem sustentáveis. Entretanto, para efetivar os anseios de serem competitivas e inovadoras, há uma necessidade de manter estratégias e uma estrutura de rotinas que as possibilite gerir e gerar as inovações, de forma a transformar suas capacidades tecnológicas em algo efetivo. O objetivo deste trabalho é a identificação de uma estrutura de um sistema de gestão de inovação adequada para atender o posicionamento estratégico de inovação. Utilizando o caso de uma empresa do setor do vestuário, elaborou-se um modelo para análise de capacidade tecnológica, focando tópicos relacionados à estratégia. Os dados foram coletados por entrevistas em profundidade com o corpo diretivo e por questionários de pesquisa respondidos por 50 líderes da empresa. Os resultados obtidos convergiram na estruturação de um sistema de gestão da inovação que contemple: a) estratégia de inovação; b) capacidade tecnológica que sustente funções de alinhamento e funções da organização – produtos/serviços, gestão de projetos, processo/tecnologia e infra-estrutura e c) sistema de gestão da inovação que tenha relações com alinhamento às estratégias de inovação de produtos e processo, estrutura adequada para inovar oriunda de gestão de projetos eficaz, desenvolvimento de produtos que identifiquem a empresa no mercado como inovadora e por fim, foco em seus mercados de atuação.",
+        "pdf_url": "https://lume.ufrgs.br/bitstream/10183/13163/1/000639834.pdf",
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W121307713",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A MEDITAÇÃO EM UMA PEQUENA EMPRESA DO SETOR TÊXTIL",
+        "source": "openalex",
+        "url": "https://doi.org/10.17771/pucrio.acad.35670",
+        "doi": "10.17771/pucrio.acad.35670",
+        "year": 2018,
+        "authors": [
+          "RAFAEL LOUREIRO DIAS DE MACEDO"
+        ],
+        "venue": null,
+        "abstract": "Neste trabalho é empreendido um estudo de caso e uma pesquisa investigativa sobre a Meditação no ambiente empresarial, sob uma visão comportamental e holística. O objetivo do presente estudo é, com base nos dados coletados em pesquisa, procurar compreender e estabelecer a aplicabilidade da meditação no contexto organizacional, obter uma melhor compreensão dos efeitos e benefícios da prática da meditação, afim de refletir de que maneira a meditação pode beneficiar na qualidade de vida no trabalho (redução de estresse, etc.) e por conseguinte estabelecer um fundamento para a inserção/integração desta ferramenta na vida corporativa. Este documento inclui esclarecimento a respeito do que se define por meditação, e quais práticas podem ser benéficas para a melhora na qualidade do trabalho no ambiente organizacional.",
+        "pdf_url": "https://www.maxwell.vrac.puc-rio.br/35670/35670.PDF",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4246435595",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "DE CASO EM EMPRESA DO SETOR DE PRODUÇÃO DE MODA FEMININA",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.22533/at.ed.8052302023",
+        "doi": "10.22533/at.ed.8052302023",
+        "year": 2023,
+        "authors": [
+          "Paula Piva Linke",
+          "Natani Aparecida do Bem"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4318955129",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "closed"
+        }
+      },
+      {
+        "title": "Percepção da qualidade e uso competitivo de tecnologia de informação em empresas têxteis e de confecção de \"jeanswear\"",
+        "source": "openalex",
+        "url": "http://app.uff.br/riuff/handle/1/30949",
+        "doi": null,
+        "year": 2023,
+        "authors": [
+          "Sérgio Dias Moreira"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Este trabalho visa apresentar um estudo e suas conclusões sobre dois temas para o segmento têxtil e a confecção de roupas de Jeanswear. São eles, a percepção da qualidade de um produto têxtil pelos clientes e o uso competitivo de tecnologia da informação em empresas têxteis. Para utilização de dados confiáveis para embasar as conclusões, foram realizadas pesquisas em livros, revistas especializadas, sites, publicações (teses e artigos), bem como informações extraídas de entidades representativas do setor como: ABIT (Associação Brasileira da Indústria Têxtil), CNI (Confederação Nacional da Indústria), SENAI_CETIQT (Centro de Tecnologia da Indústria Química e Têxtil), ABNT (Associação Brasileira de Normas Técnicas), dentre outras. Foram utilizados como referencial teórico Zeithaml, Parassuraman e Berry (1990), para avaliar a percepção da qualidade do produto (Hipótese I), através do modelo SERVQUAL. O modelo SERVQUAL, para este trabalho, foi adaptado para produto , já que o mesmo foi desenvolvido para avaliar a qualidade de serviços. Como referencial dos resultados da pesquisa sobre o uso competitivo de Tecnologia da Informação, que faz parte do projeto de Fatores Humanos e Tecnológicos da competitividade desenvolvido na Universidade Federal Fluminense, foram utilizados os modelos de Cadeia de Valor de Michael Porter (1989) e de Estabilidade Dinâmica de Joseph Pine (1994 - Hipótese II e IV). Foi usado ainda, em conjunto a esses 2 autores, Philip Kotler (1993 - Hipótese III), onde foi realizada uma comparação da qualidade com outros fatores de competitividade, que são: preço, inovação e diferenciação. A metodologia do presente estudo é baseada no filósofo austríaco Karl Popper (1902 1994) que consiste em propor soluções a partir de conjecturas ou hipótese elaboradas na forma de questões passíveis de teste. Se a hipótese não supera os testes será falseada, refutada, e exige nova reformulação do problema e da hipótese. Para a hipótese I, das 5 dimensões do modelo SERVQUAL, foram utilizadas 3 dimensões, a tangibilidade, a empatia e a confiabilidade, excluindo-se a responsividade e a segurança. O segmento têxtil está fortemente ligado a dimensão empatia, somente esta dimensão atendeu aos critérios estabelecidos no estudo para validação da hipótese, seguido da dimensão confiabilidade. As demais hipótese (II, III e IV) que tratam da competitividade através do uso de tecnologia da informação, apresentaram os seguintes resultados: As empresa estão utilizando tecnologia da Informação como ferramenta gerencial (Hipótese II); A qualidade é fator de competitividade maior que o preço e a inovação e menor que a diferenciação (Hipótese III); As empresas têxteis não estão utilizando a tecnologia da informação para alcançarem melhor posicionamento estratégico e vantagem competitiva (Hipótese IV)",
+        "pdf_url": "https://app.uff.br/riuff/bitstream/1/30949/1/Dissert%20S%c3%a9rgioDiasMoreira.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7120607796",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Impactos do tamanho do lote de produção na capacidade produtiva de um recurso crítico de uma empresa calçadista",
+        "source": "openalex",
+        "url": "https://doi.org/10.5585/exactaep.v16n4.7763",
+        "doi": "10.5585/exactaep.v16n4.7763",
+        "year": 2018,
+        "authors": [
+          "Pedro Gomes Spohr",
+          "Maurício Johnny Loos"
+        ],
+        "venue": "Exacta",
+        "abstract": "O mercado da moda exige constante inovação e variedade de produtos, que devem atender as diversas estações do ano e tendências. Para a manufatura industrial, tamanha variedade torna-se mais desafiadora quando acrescidos fatores como: diferentes numerações e cores. Cada fator tende a reduzir o tamanho das ordens de produção, resultando em aumento dos setups em diversos processos produtivos. Nesse contexto, esse artigo objetiva avaliar o impacto do tamanho dos lotes de produção na capacidade produtiva de um recurso crítico de uma empresa calçadista e sugerir mudanças no processo para aumentar a produtividade do equipamento. A abordagem metodológica utilizada nesse trabalho foi o estudo de caso. Os resultados mostraram que, por meio do estudo realizado foi possível aumentar 60% a eficiência do equipamento analisado, mudando o sequenciamento de carga para a produção de um mesmo modelo agrupando todas as ordens de produção nas matérias primas que não variavam de cor.",
+        "pdf_url": "https://periodicos.uninove.br/exacta/article/download/7763/5190",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2906169261",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A Importância do Planejamento Tributário nas Micro e Pequenas Empresas",
+        "source": "crossref",
+        "url": "https://doi.org/10.32586/rcda.v13i1.28",
+        "doi": "10.32586/rcda.v13i1.28",
+        "year": 2015,
+        "authors": [
+          "Lucilaine Escobar Teixeira Sampaio",
+          "Heitor Romero Marques"
+        ],
+        "venue": "Revista Controle - Doutrina e Artigos",
+        "abstract": "O objetivo geral deste estudo é demonstrar a importância do planejamento tributário para as micro e pequenas empresas (MPE) no Brasil. Já os alvos específicos são: identificar as formas de tributação existentes que podem ser utilizadas pelas MPE e verificar qual é a mais viável. Para atingir os objetivos deste estudo, foi realizada pesquisa bibliográfica a partir de artigos e livros do acervo da Faculdade Anhanguera, da Universidade Católica Dom Bosco (UCDB) e de acervos pessoais, bem como de artigos de periódicos e legislação disponíveis na internet e manuais de pesquisa no site do Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (Sebrae). Dos resultados encontrados, verificou-se que as MPE possuem papel relevante para a economia e, por esse motivo, o governo, nas últimas décadas, tem proporcionado vários incentivos visando estimular a abertura de mais empresas desse porte, bem como evitar que muitas entrem em falência, tendo em vista que pesquisas realizadas, principalmente pelo Sebrae, demonstram que é alto o índice de MPE que entram em falência todos os anos. Nas últimas décadas, após os incentivos adotados, entre eles a criação do Simples, nova forma de tributação especial para as MPE, verificou-se uma redução no fechamento de empresas desse porte, porém, o índice continua elevado. Várias são as causas para a falência das MPE, e dentre elas se destaca a alta carga tributária. Dessa forma, torna-se imprescindível que os empresários invistam na realização do planejamento tributário, a fim de escolher a melhor forma de tributação para evitar a falência.",
+        "pdf_url": "https://revistacontrole.tce.ce.gov.br/index.php/RCDA/article/download/28/30",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "10.32586/rcda.v13i1.28",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Tribunal de Contas do Estado do Ceara"
+        }
+      },
+      {
+        "title": "A utilização do planejamento estratégico nas micro e pequenas empresas",
+        "source": "crossref",
+        "url": "https://doi.org/10.26512/2011.tcc.3087",
+        "doi": "10.26512/2011.tcc.3087",
+        "year": 2024,
+        "authors": [
+          "Genivaldo dos Santos Moura"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.26512/2011.tcc.3087",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Biblioteca Central da UNB"
+        }
+      },
+      {
+        "title": "Planejamento estratégico e processo decisório em micro e pequenas empresas",
+        "source": "crossref",
+        "url": "https://doi.org/10.26512/2011.04.tcc.2848",
+        "doi": "10.26512/2011.04.tcc.2848",
+        "year": 2024,
+        "authors": [
+          "Daniel André Silva Ribeiro"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.26512/2011.04.tcc.2848",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Biblioteca Central da UNB"
+        }
+      },
+      {
+        "title": "DIFUSÃO DO CONHECIMENTO E CONTROLE DOS CUSTOS PARA MICRO E PEQUENAS EMPRESAS",
+        "source": "crossref",
+        "url": "https://doi.org/10.37423/200500952",
+        "doi": "10.37423/200500952",
+        "year": 2020,
+        "authors": [
+          "Vera Lúcia Cruz",
+          "Luiz Antonio Felix Júnior",
+          "Ramon Rodrigues dos Santos",
+          "Aldemar de Araújo Santos",
+          "Luciana Gondim de Almeida Guimarães"
+        ],
+        "venue": "Gestão de custos: contribuições teóricas e práticas",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.37423/200500952",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Editora Conhecimento Livre"
+        }
+      },
+      {
+        "title": "Um modelo de projeto de melhoria em planejamento e controle da produção para pequenas e médias empresas.",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.3.2019.tde-13092019-083039",
+        "doi": "10.11606/d.3.2019.tde-13092019-083039",
+        "year": 2019,
+        "authors": [
+          "Rogério Santos Cruz"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.3.2019.tde-13092019-083039",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Custos de transação e informação contábil na recuperação judicial de micro e pequenas empresas",
+        "source": "crossref",
+        "url": "https://doi.org/10.48021/978-65-252-5409-8",
+        "doi": "10.48021/978-65-252-5409-8",
+        "year": 2022,
+        "authors": [
+          "F. I. BERTUCHI"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.48021/978-65-252-5409-8",
+        "extra": {
+          "crossref_type": "book",
+          "publisher": "Dialética"
+        }
+      },
+      {
+        "title": "O planejamento financeiro e as Micro e Pequenas Empresas no Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.31219/osf.io/32j67",
+        "doi": "10.31219/osf.io/32j67",
+        "year": 2021,
+        "authors": [
+          "Kamila Lube-Kreitewolf"
+        ],
+        "venue": null,
+        "abstract": "A finalidade desse artigo é mostrar a importância do planejamento financeiropara as Micro e Pequenas Empresas sobreviverem. O obstáculo analisado foram ospróprios empreendedores, que muitas vezes não tem preparação para administrar osrecursos financeiros disponíveis. O estudo permitirá, também, apurar através de dadosestatísticos do SEBRAE a situação das Micro e Pequenas Empresas no Brasil.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "preprint",
+        "identifier": "10.31219/osf.io/32j67",
+        "extra": {
+          "crossref_type": "posted-content",
+          "publisher": "Center for Open Science"
+        }
+      },
+      {
+        "title": "O impacto do planejamento estratégico no desempenho financeiro de micro e pequenas empresas",
+        "source": "crossref",
+        "url": "https://doi.org/10.48021/978-65-252-8139-1",
+        "doi": "10.48021/978-65-252-8139-1",
+        "year": 2023,
+        "authors": [
+          "L. NICARETTA"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "book",
+        "identifier": "10.48021/978-65-252-8139-1",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "Dialética"
+        }
+      },
+      {
+        "title": "PLANEJAMENTO E CONTROLE DE PRODUÇÃO EM PEQUENAS EMPRESAS – METODOLOGIA DE IMPLATAÇÃO",
+        "source": "crossref",
+        "url": "https://doi.org/10.22533/at.ed.53021010415",
+        "doi": "10.22533/at.ed.53021010415",
+        "year": 2021,
+        "authors": [
+          "Ivan Silveira Teixeira",
+          "Fabiana Rocha Pinto"
+        ],
+        "venue": "Made in AMazônia",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.22533/at.ed.53021010415",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Atena Editora"
+        }
+      },
+      {
+        "title": "Utilização de sistemas de custos em micro e pequenas empresas de Santa Catarina",
+        "source": "crossref",
+        "url": "https://doi.org/10.21574/remipe.v3i2.12",
+        "doi": "10.21574/remipe.v3i2.12",
+        "year": 2017,
+        "authors": [
+          "Giovanni Dutra Menegazzo",
+          "Rogério João Lunkes",
+          "Alcindo Mendes",
+          "Darci Schnorrenberger"
+        ],
+        "venue": "REMIPE - Revista de Micro e Pequenas Empresas e Empreendedorismo da Fatec Osasco",
+        "abstract": "O objetivo deste estudo consiste em identificar os sistemas de custos mais utilizados em Micro e Pequenas Empresas (MPEs), e as possíveis motivações. Para tanto, elaborou-se um questionário com questões fechadas que foram respondidas por 327 gestores de MPEs do Estado de Santa Catarina (Brasil). Na análise dos dados aplicou-se estatística descritiva e distribuição de frequências. Os resultados mostram que 79,5% dos gestores afirmam identificar a margem de lucro e aproximadamente 80% afirma conhecer o ponto de equilíbrio da empresa. Por outro lado, aproximadamente 38% dos gestores sabem informar se a organização utiliza ou não algum sistema de custeio e dos que sabem, a maioria (74%), afirma utilizar o custeio variável. Na investigação das possíveis causas constatou-se que o percentual de gestores com formação em áreas afins é bastante próximo ao daqueles que conhecem qual sistema é utilizado, indicando que a formação pode ser um fator explicativo do uso deste tipo de informações. Estes achados podem ser um importante aliado para consulta e orientação de pesquisadores e autoridades responsáveis pelas políticas públicas para as MPEs.",
+        "pdf_url": "http://remipe.fatecosasco.edu.br/index.php/remipe/article/download/12/4",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.21574/remipe.v3i2.12",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Remipe - Revista da Micro e Pequenas Empresas e Empreendedorismo"
+        }
+      },
+      {
+        "title": "PLANEJAMENTO TRIBUTÁRIO COMO FERRAMENTA DE GESTÃO NAS MICRO E PEQUENAS EMPRESAS",
+        "source": "crossref",
+        "url": "https://doi.org/10.17648/egepe-2018-83368",
+        "doi": "10.17648/egepe-2018-83368",
+        "year": 2018,
+        "authors": [
+          "Raul Pinheiro",
+          "Adriana Santos",
+          "Lídia Carvalho",
+          "Marcus Vinicius Moreira Zittei"
+        ],
+        "venue": "Encontro de Estudos em Empreendedorismo e Gestão de Pequenas Empresas",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.17648/egepe-2018-83368",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Galoa"
+        }
+      },
+      {
+        "title": "Importância da Gestão Orçamentária e de Custos como Suporte à Tomada de Decisões em Micro e Pequenas Empresas",
+        "source": "crossref",
+        "url": "https://doi.org/10.21574/remipe.v6i1.194",
+        "doi": "10.21574/remipe.v6i1.194",
+        "year": 2020,
+        "authors": [
+          "Graciele Bergamim",
+          "Emanuele Engelage",
+          "Marcelo Haendchen Dutra"
+        ],
+        "venue": "REMIPE - Revista de Micro e Pequenas Empresas e Empreendedorismo da Fatec Osasco",
+        "abstract": "Este estudo objetiva demonstrar a importância e fomentar a utilização da gestão orçamentária e de custos em Micro e Pequenas Empresas (MPEs), ao evidenciar sua aplicabilidade e suporte à tomada de decisão em um restaurante situado no estado de Santa Catarina, Brasil. A coleta de dados ocorre entre os meses de agosto de 2017 a fevereiro de 2018. Realizam-se entrevistas e acompanhamentos dos procedimentos junto ao sócio proprietário, funcionários e membros próximos da cadeia. Também se analisam relatórios e documentos e apuram-se dados pertinentes ao mercado de atuação. Elaboram-se os orçamentos operacionais da empresa (venda, matéria-prima, mão de obra, custos indiretos e custos com venda, distribuição e administração) de maio a dezembro de 2018. As informações orçamentárias são validadas pelo gestor e analisa-se sua percepção quanto à relevância do instrumento. Segundo o gestor as informações orçamentárias proporcionaram reflexão e conhecimento e o fizeram ponderar sobre a importância do planejamento e controle, incorrendo, inclusive, em mudança de algumas práticas. Isso porque, por mais que os resultados financeiros apurados sejam satisfatórios, o detalhamento das informações demonstrou que há possibilidades para maximizá-los. Portanto, esta ferramenta cumpre seu papel como instrumento gerencial a MPEs, ao proporcionar maior compreensão da situação atual, projetar cenários futuros e indicar pontos a serem aperfeiçoados. Apesar de reconhecer suas vantagens informacionais, o gestor apontou algumas dificuldades quanto à utilização dos orçamentos e alega que sua implantação deve ser um processo gradual.",
+        "pdf_url": "http://remipe.fatecosasco.edu.br/index.php/remipe/article/download/194/187",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.21574/remipe.v6i1.194",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Remipe - Revista da Micro e Pequenas Empresas e Empreendedorismo"
+        }
+      },
+      {
+        "title": "Redução do lead time e entregas no prazo em pequenas e médias empresas que fabricam sob encomenda: a abordagem Worload Control (WLC) para o Planejamento e Controle da Produção (PCP)",
+        "source": "crossref",
+        "url": "https://doi.org/10.1590/s0104-530x2012000100004",
+        "doi": "10.1590/s0104-530x2012000100004",
+        "year": 2012,
+        "authors": [
+          "Matthias Thurer",
+          "Moacir Godinho Filho"
+        ],
+        "venue": "Gestão &amp; Produção",
+        "abstract": "A maior parte da literatura a respeito de Planejamento e Controle da Produção (PCP) é focada em estudar e desenvolver aplicativos para grandes empresas, principalmente de ambiente repetitivo. Nesse contexto, são as poucas as alternativas para o PCP para pequenas e médias empresas que fabricam sob encomenda, as quais têm papel fundamental na atual economia brasileira. Em resposta a essa demanda, o presente trabalho objetiva apresentar uma abordagem para o PCP denominada Controle de Carga (Workload Control - WLC). Essa abordagem é reconhecidamente um método com potencial para trazer melhorias no lead time, no estoque em processo e na pontualidade de entregas em ambientes que fabricam sob encomenda (Make-To-Order - MTO). Primeiramente, o artigo apresenta a abordagem WLC, revisando e discutindo os principais assuntos tratados pela literatura internacional na área. Após isso, o desempenho do WLC é avaliado por meio de simulação. Os resultados mostram o potencial de melhorias no lead time e nas ordens em atraso que o WLC pode trazer a pequenas e médias empresas que fabricam sob encomenda. Dessa forma, o presente trabalho pretende contribuir tanto para a teoria a respeito de tal abordagem, praticamente introduzindo tal assunto na literatura brasileira, como para a prática, fornecendo e demonstrando, por meio de simulação, aos gerentes de PCP, uma alternativa para suas empresas trabalharem rumo a baixos lead times e de acordo com modernos paradigmas de produção, tais como o Lean Manufacturing e o Quick Response Manufacturing.",
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "10.1590/s0104-530x2012000100004",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "FapUNIFESP (SciELO)"
+        }
+      },
+      {
+        "title": "PLANEJAMENTO TRIBUTÁRIO: UM ESTUDO SOBRE O PAPEL DO CONTADOR NA VISÃO DOS GESTORES DAS MICRO E PEQUENAS EMPRESAS",
+        "source": "crossref",
+        "url": "https://doi.org/10.20872/24478407/regmpe.v2n1p162-176",
+        "doi": "10.20872/24478407/regmpe.v2n1p162-176",
+        "year": 2017,
+        "authors": [
+          "Universidade Lusófona de Humanidade e Tecnologia",
+          "Weyla Maylane Bonfim de Assis"
+        ],
+        "venue": "Revista de Empreendedorismo e Gestão de Micro e Pequenas Empresas",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.20872/24478407/regmpe.v2n1p162-176",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "Planejamento estratégico em micro e pequenas empresas:: estudo de caso no setor de autopeças",
+        "source": "crossref",
+        "url": "https://doi.org/10.21574/remipe.v12i2.529",
+        "doi": "10.21574/remipe.v12i2.529",
+        "year": 2026,
+        "authors": [
+          "Katarina Leal Chaves Lacerda"
+        ],
+        "venue": "REMIPE - Revista de Micro e Pequenas Empresas e Empreendedorismo da Fatec Osasco",
+        "abstract": "O planejamento estratégico (PE) é uma ferramenta para formular objetivos empresariais e o percurso para sua consecução, considerando condições externas e internas à organização. No contexto brasileiro, as micro e pequenas empresas (MPEs) representam a base da economia, ainda que haja pouca evidência e aplicação de instrumentos administrativos em sua gestão. O objetivo deste estudo foi analisar a utilização e a contribuição do planejamento estratégico em MPEs do setor de autopeças atendidas pelo Projeto ALI, do SEBRAE, em João Pessoa-PB. Especificamente, procurou-se identificar as MPEs que adotam PE, verificar os benefícios do PE e identificar as dificuldades para a sua utilização. Trata-se de uma pesquisa qualitativa, a partir de estudo de caso, abrangendo seis MPEs do setor de autopeças atendidas por meio do Projeto ALI, com dados coletados por entrevistas semiestruturadas, tratados pela análise de conteúdo. Apenas uma organização utilizou continuamente PE, cujos maiores benefícios alcançados foram: controle dos recursos financeiros, compra de um imóvel para expandir o estabelecimento, redução dos gastos com energia elétrica e aquisição de equipamentos. Já as dificuldades envolvem a resistência dos funcionários às mudanças e os custos envolvidos na implantação do plano. Conclui-se que o PE representa uma ferramenta de segurança na tomada de decisão e um diferencial perante a concorrência para MPEs. A pesquisa avança o entendimento teórico acerca do PE em contextos específicos como o das MPEs e contribui para orientar gestores sobre as vantagens de se utilizar PE, visto que possibilita melhor aproveitamento das potencialidades e recursos, quase sempre escassos, dessas organizações.",
+        "pdf_url": "https://remipe.fatecosasco.edu.br/index.php/remipe/article/download/529/372",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.21574/remipe.v12i2.529",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Remipe - Revista da Micro e Pequenas Empresas e Empreendedorismo"
+        }
+      },
+      {
+        "title": "A demonstração do fluxo de caixa como instrumento de gerenciamento e controle financeiro para as micro e pequenas empresas",
+        "source": "crossref",
+        "url": "https://doi.org/10.21574/remipe.v1i2.21",
+        "doi": "10.21574/remipe.v1i2.21",
+        "year": 2015,
+        "authors": [
+          "Eloir Trindade Vasques Vieira",
+          "Janaina Vareiro da Costa Batistoti"
+        ],
+        "venue": "REMIPE - Revista de Micro e Pequenas Empresas e Empreendedorismo da Fatec-Osasco",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 7,
+        "work_type": "article",
+        "identifier": "10.21574/remipe.v1i2.21",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Remipe - Revista da Micro e Pequenas Empresas e Empreendedorismo"
+        }
+      },
+      {
+        "title": "CUSTOS DE LOGÍSTICA NAS MICRO E PEQUENAS EMPRESAS",
+        "source": "crossref",
+        "url": "https://doi.org/10.22408/reva802023146393-98",
+        "doi": "10.22408/reva802023146393-98",
+        "year": 2023,
+        "authors": [
+          "Ismael Barbieri",
+          "Luciane Malta",
+          "Lucas da Silva Vital"
+        ],
+        "venue": "Revista Valore",
+        "abstract": "O problema proposto por esse estudo é buscar fornecer resposta sobre qual é o papel da redução dos custos na aplicação da gestão estratégica da logística para vantagem competitiva. Para tanto será apresentado os dados e pesquisas sobre custos logísticos e seu papel na formação dos preços dos produtos. Buscou-se verificar se os administradores compreendem esses custos e identificam o índice que ocupam nos gastos da empresa. Para dar embasamento teórico à pesquisa foi realizado um levantamento bibliográfico. A abordagem da pesquisa é de natureza qualitativa, uma vez que foi realizado o levantamento das percepções dos empresários com objetivo de identificar as dificuldades encontradas pelas micro e pequenas empresas na gestão de logística e o conhecimento que possuem dos métodos e tipos de estoques.",
+        "pdf_url": "https://revistavalore.emnuvens.com.br/valore/article/download/1463/1076",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.22408/reva802023146393-98",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Instituto de Cultura Tecnica Sociedade Civil Ltda"
+        }
+      },
+      {
+        "title": "CUSTOS DA QUALIDADE EM MICRO E PEQUENAS EMPRESAS DO APL DO VESTUÁRIO: UMA ANÁLISE EMPÍRICA",
+        "source": "crossref",
+        "url": "https://doi.org/10.47179/abcustos.v12i3.471",
+        "doi": "10.47179/abcustos.v12i3.471",
+        "year": 2018,
+        "authors": [
+          "Juliane Andressa Pavão",
+          "Reinaldo Rodrigues Camacho"
+        ],
+        "venue": "ABCustos",
+        "abstract": "Esta pesquisa teve como objetivo analisar a forma como os custos da qualidade são gerenciados em micro e pequenas empresas do Arranjo Produtivo Local (APL) do vestuário dos municípios de Cianorte e Maringá, no Estado do Paraná. Trata-se de um estudo quantitativo e descritivo que tem como estratégia de pesquisa o levantamento, e para coleta de dados utilizou-se o questionário. Foram investigadas 113 empresas, tendo os dados sido analisados por meio da análise descritiva e análise não paramétrica de Mann-Whitney. Os achados evidenciam que micro e pequenas empresas preocupam-se com a qualidade dos produtos, visto que os custos de prevenção e avaliação possuem maior ocorrência em comparação com a ocorrência dos custos de falhas internas e falhas externas. Constatou-se também que existem algumas diferenças quando se trata da ocorrência dos custos da qualidade entre as micro e pequenas empresas investigadas. Por meio dos testes estatísticos, foi possível verificar que todos os custos classificados como de prevenção, mais o custo de falha interna “desconto no preço de venda de produtos defeituosos” e o custo de falha externa com a “devolução de produtos defeituosos” ocorrem de forma diferente em empresas de micro e pequeno porte. E que ainda, essa diferença se dá porque nas empresas de pequeno porte há maior ocorrência desses custos em comparação com as microempresas.",
+        "pdf_url": "https://abcustos.emnuvens.com.br/abcustos/article/viewFile/471/435",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.47179/abcustos.v12i3.471",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Associacao Brasileira de Custos"
+        }
+      },
+      {
+        "title": "As barreiras e os facilitadores encontrados pelas micro e pequenas empresas para a implantação do planejamento estratégico na visão do SEBRAE",
+        "source": "crossref",
+        "url": "https://doi.org/10.26512/2011.06.tcc.2678",
+        "doi": "10.26512/2011.06.tcc.2678",
+        "year": 2024,
+        "authors": [
+          "Hélio Manuel Tavares Júnior"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.26512/2011.06.tcc.2678",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Biblioteca Central da UNB"
+        }
+      },
+      {
+        "title": "PLANEJAMENTO E CONTROLE DE ESTOQUES: UM FATOR COMPETITIVO EM MICRO E PEQUENAS EMPRESAS",
+        "source": "crossref",
+        "url": "https://doi.org/10.14488/enegep2020_tn_sto_343_1758_39863",
+        "doi": "10.14488/enegep2020_tn_sto_343_1758_39863",
+        "year": 2020,
+        "authors": [
+          "ANDRÉ JERONIMO DA SILVA",
+          "JÉSSIKA ALVARES COPPI ARRUDA GAYER",
+          "THIAGO SHOJI OBI TAMACHIRO",
+          "FERNANDA ROBES DE OLIVEIRA",
+          "MARCOS AUGUSTO MENDES MARQUES"
+        ],
+        "venue": "Anais do Encontro Nacional de Engenharia de Produção",
+        "abstract": null,
+        "pdf_url": "http://www.abepro.org.br/biblioteca/TN_STO_343_1758_39863.pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.14488/enegep2020_tn_sto_343_1758_39863",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "ENEGEP 2020 - Encontro Nacional de Engenharia de Produção"
+        }
+      }
+    ]
+  },
+  "count": 40,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T01:59:40.309267+00:00"
+}

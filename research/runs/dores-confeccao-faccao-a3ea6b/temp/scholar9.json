@@ -1,0 +1,865 @@
+{
+  "ok": true,
+  "data": {
+    "query": "lean manufacturing desperdicio industria confeccao vestuario",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 20,
+      "doab": 0
+    },
+    "raw_records": 40,
+    "merged_records": 39,
+    "returned": 39,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "O LEAN MANUFACTURING E A INDÚSTRIA DA CONFECÇÃO DO VESTUÁRIO: MODELO DE AVALIAÇÃO PARA SUSTENTABILIDADE",
+        "source": "openalex",
+        "url": "https://doi.org/10.56238/levv16n46-069",
+        "doi": "10.56238/levv16n46-069",
+        "year": 2025,
+        "authors": [
+          "José Paulo de Sousa",
+          "José Irivaldo Alves Oliveira Silva"
+        ],
+        "venue": "LUMEN ET VIRTUS",
+        "abstract": "O lean manufacturing é um modelo de gestão não focado diretamente no estudo do trabalho (taylorismo), mas uma gestão que se concentra em analisar a relação dos empregados com o seu trabalho e o propósito deles com a empresa. Assim, a pesquisa tem como objetivo geral identificar a aplicação do lean manufacturing nas atividades das indústrias de confecção do vestuário, afim de entender qual o nível de execução que as empresas estão realizando do lean. Para isso, desenvolveu-se metodologia qualitativa descritiva com análise de conteúdo, realizada por meio de entrevista semiestruturadas para análise das experiências de trabalho dos empregados em relação ao lean. Portanto, os resultados mostraram que as indústrias possuem aplicação do lean manufacturing, mas de forma ainda falha, pois não possuem uma administração por objetivos, capacitação dos empregados de forma contínua, assim como critérios ambientais como exigências para contratação de fornecedores; contudo, as tecnologias modernas aplicadas ao LM para controle produtivo (softwares e maquinário) ainda continuam sendo um dos maiores desafios para os empresários pelo fato de terem um alto valor aquisitivo.",
+        "pdf_url": "https://periodicos.newsciencepubl.com/LEV/article/download/3990/5268",
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "W4408715515",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "USO DO LEAN MANUFACTURING PARA MELHORIA DOS PROCESSOS DE UMA INDÚSTRIA DE CONFECÇÃO DE VESTUÁRIO FEMININO",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.14488/enegep2024_tn_wg_414_2035_47540",
+        "doi": "10.14488/enegep2024_tn_wg_414_2035_47540",
+        "year": 2024,
+        "authors": [
+          "KATYLLA BEATRIZ GONÇALVES SOARES ALVES",
+          "Gabriel de Oliveira Cerqueira",
+          "Kalil Figueiredo Almeida",
+          "Djoille Denner Damm",
+          "André de Mendonça Santos"
+        ],
+        "venue": "Anais ... Encontro Nacional de Engenharia de Produção/Anais do Encontro Nacional de Engenharia de Produção",
+        "abstract": "As ferramentas do lean manufacturing podem ser aplicadas em diferentes etapas dos fluxos produtivos, resultando em produo mais eficiente com reduo de desperdcios. Assim, essa pesquisa foi desenvolvida com o objetivo de otimizar os processos produtivos de uma indstria de pequeno porte no ramo de confeco de vesturio feminino na cidade de Feira de Santana, Bahia, por meio da utilizao de ferramentas do Lean Manufacturing. Desta forma, foi realizado um levantamento bibliogrfico acerca do tema abordado e em seguida foram feitas visitas na fbrica, de maneira gerar conhecimento acerca dos processos produtivos e poder realizar entrevistas tanto com a gerncia como com os colaboradores dos setores. Assim, foram identificados pontos para serem realizadas propostas de melhorias e em seguida aplic-las na fbrica. Os principais resultados foram a reduo do erro de etiquetagem errada nas peas com o uso do poka-yoke; o uso do kanban para obter melhorias significativas na clareza de informaes para os colaboradores e uma maior visibilidade do andamento do processo produtivo; a ferramenta de gesto para melhorar a comunicao da gerncia com os colaboradores dos setores e o uso do 5S, que gerou um ambiente mais organizado e um fluxo produtivo mais eficiente, possibilitando a existncia de um novo cenrio na fbrica.",
+        "pdf_url": "http://www.abepro.org.br/biblioteca/TN_WG_414_2035_47540.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4404139433",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Avaliação de práticas e performances da produção enxuta na indústria de confecção do vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.26771/e-revista.logo/2019.1.05",
+        "doi": "10.26771/e-revista.logo/2019.1.05",
+        "year": 2019,
+        "authors": [
+          "Silene Seibel",
+          "Stefanie Cristine Araujo"
+        ],
+        "venue": "e-Revista LOGO",
+        "abstract": "Apparel manufacturing industries face a competitive market.Applying tools to constantly improve quality, productivity and reduce lead times is necessary to improve performance.The present article presents a method of evaluating the implementation of lean manufacturing in apparel industries, which can be applied by the company itself in a quick and simple way.Describes three stages of lean implementation: initial, intermediary and excellence, described in a practical and easy-to-identify manner, as well as describes performance indicators that should express improvements resulting from the practices implanted.The results of the self-assessment are presented in a visual way to facilitate the reading and prioritisation of the aspects to be improved, aiming at the excellence of production.The application framework was designed in checklist format, focusing on the accessibility of knowledge for small companies as well as for management and fashion professionals, who can support companies in the improvement of production management processes.",
+        "pdf_url": "http://incubadora.periodicos.ufsc.br/index.php/eRevistaLOGO/article/download/5324/5416",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2943693001",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Otimização do planejamento e controle da produção em uma indústria de confecção através do lean manufacturing",
+        "source": "openalex",
+        "url": "https://doi.org/10.47456/bjpe.v11i1.46903",
+        "doi": "10.47456/bjpe.v11i1.46903",
+        "year": 2025,
+        "authors": [
+          "Thaysa Mesquita",
+          "Patrícia Dias Araújo"
+        ],
+        "venue": "Brazilian Journal of Production Engineering",
+        "abstract": "Este artigo apresenta um estudo de caso sobre a aplicação do Lean Manufacturig para otimizar o Planejamento e Controle de Produção (PCP) em uma indústria de confecção. A pesquisa foi realizada em uma empresa do setor, que enfrentava desafios relacionados ao lead time longo, alta variabilidade de demanda e baixa flexibilidade nos processos de produção. Diante da competitividade do mercado, diversos negócios têm buscado padronizar e melhorar a previsibilidade de seus negócios. As empresas buscam características que permitam a obtenção de bons resultados relacionados à concorrência. Uma proposta como aperfeiçoamento de previsão de negócio é apresentada ao analisar o processo e identificar soluções com os princípios do Lean Manufacturing. Foram aplicadas ferramentas como o mapeamento do fluxo de valor, implementação de kanbans e reorganização do layout da fábrica. Os resultados obtidos após a implementação do Lean Manufacturing foram significativos, permitindo ganhos de produtividade e redução de custos com a melhoria dos indicadores. Houve uma redução de 30% no lead times de produção, uma diminuição de 20% nos estoques em processo e uma melhoria de 25% na flexibilidade da produção para atender as variações na demanda.",
+        "pdf_url": "https://periodicos.ufes.br/bjpe/article/download/46903/33003",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4407010937",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Federal do Espirito Santo",
+          "openalex_type": "article",
+          "oa_status": "diamond",
+          "also_in": "openalex,crossref"
+        }
+      },
+      {
+        "title": "Lean manufacturing management and waste reduction for the development of industrial sustainability.",
+        "source": "openalex",
+        "url": "http://dspace.sti.ufcg.edu.br:8080/jspui/handle/riufcg/37506",
+        "doi": null,
+        "year": 2024,
+        "authors": [
+          "José Wallisson de Abreu. SOUSA"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "O lean manufacturing (LM) surgiu através do Sistema Toyota de Produção com a finalidade de proporcionar mais eficiência aos processos industriais, assim como gerir pessoas através da filosofia de trabalho interligada ao perfil da indústria. Assim, para o LM é necessário propor disciplina na gestão das atividades, seja ela na métrica direcionada a infraestrutura e maquinário, ou a filosofia que destina-se a cultura da empresa e mudança de hábitos organizacionais. Para tanto, esse estudo teve por finalidade analisar como a Gestão do lean manufacturing pode contribuir para o desenvolvimento da sustentabilidade na indústria, sob a ótica de empresas de confecção do vestuário de Santa Cruz do Capibaribe/PE, no processo de eliminação dos principais desperdícios nos processos de fabricação. Dessa forma, dividiu-se o trabalho em três etapas, denominadas de capítulos: o primeiro capítulo, foi desenvolvido uma análise bibliométrica sobre as principais pesquisas cientificas e suas características (2011- 2021). Em sequência, estrutura-se o capítulo 02 para realizar-se estudos de casos múltiplos de seis indústrias que trabalham com o LM para analisar in loco as atividades para eliminação dos 08 desperdícios, e as tecnologias implantadas para validar relações para com a sustentabilidade. Por fim, o capítulo 03 desenvolveu-se pesquisa de campo com entrevistas semiestruturadas, direcionando-se a identificar as principais mudanças ocorridas com as ferramentas do atual modelo de gestão, e analisar a implantação do LM através dos níveis estratégicos, táticos e operacionais da amostra em estudo. Alcançou-se resultados promissores que demostram a eficácia da gestão manufacturing como sustentáveis as atividades industriais, contudo a principal barreira entre sua implantação advém dos empresários que não executam a metodologia lean de forma integral, além do alto custo em tecnologias que precisam ser instaladas para adequação ao green manufacturing. De certa forma, os achados demostraram que os empresários possuem o conhecimento o LM, mas parte das equipes industriais desconhecem a metodologia, enfraquecendo a cultura lean e sua potencialidade sustentável. Ressalta-se que os trabalhos foram desenvolvidos em uma construção lógica, ainda que separados possam ser analisados individualmente.",
+        "pdf_url": "https://dspace.sti.ufcg.edu.br/bitstream/riufcg/37506/1/JOS%c3%89%20PAULO%20DE%20SOUSA%20-%20DISSERTA%c3%87%c3%83O%20%28PPGA%29%202024.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7119450530",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "O lean manufacturing e sua relação com a sustentabilidade",
+        "source": "openalex",
+        "url": "https://doi.org/10.55905/oelv22n4-155",
+        "doi": "10.55905/oelv22n4-155",
+        "year": 2024,
+        "authors": [
+          "José Irivaldo Alves Oliveira Silva",
+          "José Paulo de Sousa"
+        ],
+        "venue": "OBSERVATÓRIO DE LA ECONOMÍA LATINOAMERICANA",
+        "abstract": "O lean manufacturing (LM) é um método de gestão que tem como expertise oferecer ferramentas e inovações para as atividades enxutas das indústrias, eliminando os oito principais desperdícios no sistema produtivo. Assim, sua desenvoltura para com a sustentabilidade está amadurecida em seus processos através de sua apresentação através do green manufacturing que estabelece quatorze práticas sustentáveis as indústrias, aplicadas juntas com as ferramentas originarias do LM. Assim, a pesquisa tem como objetivo compreender a relação do lean manufacturing para com a sustentabilidade, buscando-se mostrar as relações do lean manufacturing para com a sustentabilidade através do green manufacturing perante aporte teórico e metodologia de estudo empírico desenvolvido nas indústrias de confecções do vestuário. Portanto, a pesquisa demostrou que o LM ou green manufacturing oferece sustentabilidade em seu modelo de gestão para produção, contudo as indústrias não aplicam o lean por completo, não investindo em ações de combate a efluentes, programas de educação ambiental e logística reversa dos produtos confeccionados. Necessita-se de maior interesse dos empresários para execução integral do modelo lean, que mesmo com capacitações e consultorias de órgãos de fomento, os proprietários são resistentes a mudanças.",
+        "pdf_url": "https://ojs.observatoriolatinoamericano.com/ojs/index.php/olel/article/download/4265/2876",
+        "citation_count": 11,
+        "work_type": "article",
+        "identifier": "W4394971475",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Análise e redução de Lead Time em uma indústria de confecção",
+        "source": "openalex",
+        "url": "https://doi.org/10.14488/1676-1901.v22i2.4790",
+        "doi": "10.14488/1676-1901.v22i2.4790",
+        "year": 2023,
+        "authors": [
+          "CARLA MARINA WENDT",
+          "Bianca Giordani Baú"
+        ],
+        "venue": "Revista Produção Online",
+        "abstract": "Este trabalho científico, de natureza aplicada, objetivou implantar ferramentas da filosofia lean manufacturing em uma indústria de confecção. O propósito destas ações foi reduzir o lead time, visto que a empresa vinha enfrentando problemas com atrasos na entrega das encomendas. O método aplicado para guiar a pesquisa foi o hipotético-dedutivo, aliado a abordagem de pesquisa-ação. A partir disso, os resultados obtidos foram satisfatórios. Obteve-se uma redução de 82,85% do tempo de entrega dos pedidos aos clientes, maior organização dos processos e envolvimento da equipe na tomada de decisões. Ao final da pesquisa, concluiu-se que as ferramentas enxutas proporcionaram resultados positivos para a organização.",
+        "pdf_url": null,
+        "citation_count": 6,
+        "work_type": "article",
+        "identifier": "W4323031739",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "ANÁLISE DA CORRELAÇÃO DO LEAN MANUFACTURING COM PRODUTOS MODULARES",
+        "source": "openalex",
+        "url": "https://doi.org/10.5585/exactaep.0.11316",
+        "doi": "10.5585/exactaep.0.11316",
+        "year": 2021,
+        "authors": [
+          "José Antônio Carnevalli",
+          "Marcos Ricardo Rosa Georges",
+          "Samuel Carvalho De Benedicto",
+          "José Eduardo Rodrigues de Sousa"
+        ],
+        "venue": "Exacta",
+        "abstract": "A abordagem modular tem sido aplicada com bom desempenho na indústria automobilística e nos fabricantes de computadores que tradicionalmente utilizam o Lean Manufacturing. Mas qual é o seu efeito no Lean Manufacturing? Será que a modularidade está restrita somente a estes setores? Este trabalho responde a estas questões por meio de uma revisão da literatura e do uso dos diagramas de afinidade e de árvore em conjunto com a matriz de correlação. Nos resultados verificou-se o uso da modularidade na fabricação de máquinas industriais, residência, prédios, aviões, eletrodomésticos, brinquedos, bicicleta, software entre outros. Estes resultados mostram que a modularidade pode ser aplicada em vários tipos de produtos manufaturados. Em relação ao Lean Manufacturing a modularidade tem um efeito positivo nesta aplicação ajudando a atender alguns dos objetivos do Lean como redução do lead time.",
+        "pdf_url": "https://periodicos.uninove.br/exacta/article/download/11316/8905",
+        "citation_count": 32,
+        "work_type": "article",
+        "identifier": "W3162154441",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Aplicação de ferramentas lean manufacturing: estudo comparativo entre indústrias de bens de consumo não duráveis",
+        "source": "openalex",
+        "url": "https://tede.ufam.edu.br/handle/tede/7654",
+        "doi": null,
+        "year": 2019,
+        "authors": [
+          "Gisele Amaral Cintra"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "A presente pesquisa incide na proposta da aplicação do lean manufacturing no segmento de bens de consumo não duráveis, através do método de pesquisa-ação O tema destaca análise de eficiência pelo uso das ferramentas do lean manufacturing no segmento de bens não duráveis no estado de Rondônia. Foram analisados os segmentos de móveis planejados, confecção, açougue e panificadora. A busca por ofertar produtos com qualidade com o menor lead time é um desafio que começa na transformação da cultura organizacional. Analisando o cenário no qual se encontra vários processos produtivos, com vários desperdícios, tais como excesso de movimentação, transporte, retrabalho, superprodução, grandes estoques, processo desnecessário, espera e a não utilização dos intelectos dos funcionários, a proposta foi e avaliar o potencial das ferramentas em distintos segmentos de produção para criação de um processo produtivo mais enxuto obtendo maior capacidade de competividade no mercado. A análise realizada permitiu identificar vários problemas no processo produtivo, como as distâncias percorridas pelos componentes e operadores, o que origina custos elevados de transporte e movimentações, bem como perda de tempo na procura de ferramentas, matérias-primas e nas preparações dos equipamentos. A identificação dos problemas encontrados foi realizada recorrendo ao Mapa de fluxo de valor e através da análise do fluxo de materiais em todo a cadeia pertencente processo produtivo, desde o fornecedor até ao cliente final. Posteriormente, foram calculados e analisados os indicadores de desempenho, lead time e produtividade dos funcionários. Em seguida, sugeriram-se propostas de melhoria face aos problemas encontrados, destacando-se a proposta de alteração de layout, organização do ambiente, dentre outros. Como parte da metodologia deste trabalho foram utilizadas as seguintes ferramentas da metodologia lean como: MFV, takt time, cronoanálise, padronização, qualidade na fonte, fluxo continuo e 5S. Percebe-se que as ferramentas lean utilizadas de forma adequada podem ser aplicadas em vários segmentos de produtos de consumo não duráveis, tanto de móveis de MDF, produção de camisetas, processo de desossa e na produção de salgados, entre outros. Os resultados foram: maior rapidez na execução das tarefas, menor tempo no processo, organização das ferramentas e insumos e aumento significativo da produtividade. Significativos ganhos foram obtidos em todas a empresas estudadas. No açougue houve aumento na produtividade na ordem de 26% e redução de custo com colaboradores no setor na ordem de 75%. No que tange à empresa de móveis planejados houve aumento de 105,92% na produtividade. No vestuário houve aumento de 33,66% na produtividade e redução de movimentação dos colaboradores na ordem de 93,10%. Por fim, na panificadora, houve um aumento de 20,42% de produtividade.",
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W3005305036",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Aplicação de técnicas e princípios de produção lean e celular numa empresa de vestuário",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1822/16173",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Stéphanie Bastos Barbosa"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "Esta dissertação desenvolveu-se no âmbito do 2º semestre do 5º ano do Mestrado Integrado em Engenharia e Gestão Industrial num contexto industrial e apresenta os resultados de um projeto sobre aplicação de técnicas e princípios de produção Lean e produção celular numa empresa de vestuário. O projeto teve como principal objetivo a aplicação de técnicas Lean e a reconfiguração da secção da costura em células de produção. As práticas Lean Production permitem às empresas a redução de desperdícios para reduzir custos encurtando, por exemplo, prazos de entrega através da utilização de métodos e ferramentas, favorecendo a competitividade e a inovação entre as empresas. Inicialmente, foi realizada uma revisão bibliográfica sobre as práticas Lean Production, desde a evolução do conceito até às ferramentas, e sobre a produção celular. Apresentaram-se ainda, alguns casos de implementação de Lean e produção celular em empresas de vestuário. Depois de uma apresentação e caracterização da empresa em estudo seguiu-se então, a descrição e a análise crítica do sistema atual da empresa para diagnosticar e identificar os problemas existentes. Sabendo que, a empresa já tinha tido células de produção construiu-se um questionário para tentar perceber os motivos da não continuação deste sistema na empresa. Seguidamente fizeram-se propostas de melhoria relacionadas com algumas ferramentas Lean, nomeadamente, 5S, gestão visual e normalização. Propôs-se ainda, o projeto de uma célula para o produto mais produzido e específico de um cliente importante para a empresa. Identificado o produto, agruparam-se as máquinas e as pessoas para a produção desse produto e projetou-se a implantação intracelular e intercelular. As propostas sugeridas passaram pela implementação de vários documentos de apoio ao controlo de defeitos, à aplicação de 5S e de gestão visual, novos mapas de emergência e a preparação de um plano para implementar uma célula para produzir um dos produtos para um cliente importante da empresa. Esta ultima proposta, embora não se tivesse conseguido implementar criaram-se algumas condições para, no futuro, avançar com o projeto, pois as células contribuem para uma menor taxa de defeitos, menores movimentações, menor WIP e menor lead time.",
+        "pdf_url": null,
+        "citation_count": 5,
+        "work_type": "thesis",
+        "identifier": "W115770193",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Sete desperdícios: Utilização da filosofia enxuta em uma confecção",
+        "source": "openalex",
+        "url": "https://doi.org/10.14488/enegep2021_tn_sto_354_1820_42907",
+        "doi": "10.14488/enegep2021_tn_sto_354_1820_42907",
+        "year": 2021,
+        "authors": [
+          "SABRINA KARLA RODRIGUES DE OLIVEIRA",
+          "Maiko Saturnino Cabral de Oliveira",
+          "Amanda Gomes de Assis",
+          "Augusto André Santos de Souza",
+          "Ricardo Pires de Souza"
+        ],
+        "venue": "Anais ... Encontro Nacional de Engenharia de Produção/Anais do Encontro Nacional de Engenharia de Produção",
+        "abstract": "O setor têxtil emprega milhares de pessoas no Brasil gerando 1,5 milhões de empregados diretos e 8 milhões se somar com os indiretos. Devido a pandemia COVID-19, a produção têxtil no país acumulou queda de 11,4%, em comparação com o mesmo intervalo de 2019. No acumulado de 12 meses, a queda é de 9%. Em meio a crise, o setor tem enxugado seu quadro e diminuindo desperdícios. Com base nisso, este trabalho foi desenvolvido em uma confecção de uniformes de pequeno porte no estado Rio Grande do Norte com o intuito de aplicar os sete desperdícios no setor de corte com o objetivo de auxiliar a organização a aperfeiçoar sua produção com foco na filosofia lean, para que ela possa se sobressair no atual cenário de pandemia. O processo produtivo foi analisado como um todo e de forma qualitativa, o setor de corte se destacou como um setor que gera desperdícios. Um dos mais destacados é a espera da ordem de fabricação e programação. Espera-se que com o levantamento dos sete desperdícios se obtenha redução do desperdício, ganho de produtividade, redução dos índices de segunda qualidade e possibilidade de estabelecer uma previsibilidade na capacidade produtiva.",
+        "pdf_url": "http://www.abepro.org.br/biblioteca/TN_STO_354_1820_42907.pdf",
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "W3211119070",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Perspectivas individuais sobre a necessidade de mudança: estudo de caso na Indústria Têxtil e do Vestuário Portuguesa",
+        "source": "openalex",
+        "url": "https://doi.org/10.17013/risti.e2.115-127",
+        "doi": "10.17013/risti.e2.115-127",
+        "year": 2014,
+        "authors": [
+          "Laura Costa Maia",
+          "Anabela Carvalho Alves",
+          "Celina P. Leão"
+        ],
+        "venue": "RISTI - Revista Ibérica de Sistemas e Tecnologias de Informação",
+        "abstract": "MAIA, Laura Costa ; ALVES, Anabela Â eÂ LEAO, Celina Pinto . Perspectivas individuais sobre a necessidade de mudanÃ§a : estudo de caso na IndÃºstria TÃªxtil e do VestuÃ¡rio Portuguesa . RISTI [online]. 2014, n.spe2, pp.115-127. ISSN 1646-9895.Â https://doi.org/10.17013/risti.e2.115-127 . O objectivo deste trabalho Ã© perceber de uma forma individual a necessidade de mudanÃ§a e as suas causas, num estudo de caso na IndÃºstria TÃªxtil e do VestuÃ¡rio. Para atingir este objetivo, foram realizadas vÃ¡rias entrevistas semiestruturadas a chefias de nÃ­vel hierÃ¡rquico mÃ©dio/alto da empresa. Foi possÃ­vel perceber como os trabalhadores pretendem intervir na mudanÃ§a bem como as suas atitudes nessa mudanÃ§a. Para alÃ©m destes tÃ³picos, as estratÃ©gias usadas para participar na mudanÃ§a, o porquÃª e como fazer essa mudanÃ§a, alternativas e ganhos previstos foram tambÃ©m discutidos. Os resultados deste trabalho revelam uma consciencializaÃ§Ã£o dos trabalhadores Ã necessidade da mudanÃ§a e fatores como motivaÃ§Ã£o, envolvimento, informaÃ§Ã£o adaptaÃ§Ã£o, foram identificados como importantes para a mudanÃ§a. Risco e instabilidade foram fatores identificados como os mais negativos. Ã esta necessidade de mudanÃ§a indispensÃ¡vel para a implementaÃ§Ã£o de uma estratÃ©gia Lean Production bem-sucedida na empresa.",
+        "pdf_url": "http://scielo.pt/pdf/rist/nspe2/nspe2a09.pdf",
+        "citation_count": 5,
+        "work_type": "article",
+        "identifier": "W2256337190",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Aplicação de princípios e ferramentas de Produção Lean e celular na confeção de amostras de uma empresa de vestuário",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1822/58527",
+        "doi": null,
+        "year": 2018,
+        "authors": [
+          "Eduardo Henrique Moreira Pereira"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "Esta dissertação foi desenvolvida no âmbito do 5º ano do curso de Mestrado Integrado em Engenharia e Gestão Industrial, em contexto industrial. Apresenta os resultados da alteração do paradigma de produção com a aplicação de Princípios e Ferramentas de Produção Lean e Celular na Confeção de Amostras de uma Empresa de Vestuário. O principal objetivo foi demonstrar os ganhos obtidos com a aplicação de princípios e ferramentas de produção Lean e células na confeção de amostras, transformando linhas de produção em células, melhorando a secção, diminuindo desperdícios e aumentando a produtividade da empresa. A metodologia de investigação usada foi a Investigação-Ação, por se tratar de uma investigação ativa, onde há a envolvência dos trabalhadores e do investigador criando um ambiente de interajuda. No âmbito deste trabalho foi efetuada uma revisão bibliográfica abordando práticas de Lean Production, foi analisado o sistema atual da empresa onde se diagnosticaram e identificaram problemas existentes e foram apresentadas propostas de melhoria. Nas propostas apresentadas sugerimos a execução do planeamento das amostras, a criação de vias de comunicação, implementação de células de produção e aplicação de ferramentas Lean como a gestão visual e a normalização de processos. Das propostas implementadas ainda temos poucos resultados quantitativos, mas os resultados obtidos já nos permitem concluir que a empresa melhorou desde a primeira hora a sua organização, diminuiu a quantidade de produtos em espera e aumentou a produtividade e qualidade dos produtos.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2912991750",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Tecnologias e Potencialidades da Indústria 4.0 Aplicadas nas Indústrias de Vestuário para a Sustentabilidade",
+        "source": "openalex",
+        "url": "https://doi.org/10.29327/xsds2025.1114024",
+        "doi": "10.29327/xsds2025.1114024",
+        "year": 2025,
+        "authors": [
+          "ICLEIA SILVEIRA"
+        ],
+        "venue": "Simpósio de Design Sustentável / Sustainable Design Symposium (SDS)",
+        "abstract": "O artigo investiga a relação entre as tecnologias da Indústria 4.0 e a sustentabilidade nas indústrias de vestuário, destacando a crescente valorização das práticas sustentáveis nas dimensões social, econômica e ambiental. A pesquisa, de natureza qualitativa e descritiva, foi realizada por meio de revisão bibliográfica e entrevistas com duas indústrias da Região do Vale do Itajaí, em Santa Catarina. Os resultados demonstram que, embora as indústrias analisadas priorizem a sustentabilidade ambiental e econômica, negligenciam a dimensão social. As tecnologias da Indústria 4.0 contribuem significativamente para a sustentabilidade ao permitir monitoramento em tempo real da produção, automação que minimiza impactos ambientais, uso eficiente de materiais e energia por meio da manufatura aditiva, e digitalização avançada que maximiza a eficiência. Além disso, ferramentas como modelagem 3D, realidade aumentada e Big Data promovem inovação e proteção de dados, evidenciando o potencial transformador dessas tecnologias para o setor.",
+        "pdf_url": "https://static.even3.com/anais/1114024.pdf?v=639021142774976892",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W7116957348",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Aplicação do fluxo unitário da produção na manufatura do vestuário de moda",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2016.tde-02052016-103850",
+        "doi": "10.11606/d.100.2016.tde-02052016-103850",
+        "year": 2016,
+        "authors": [
+          "Wan Chi Ming"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "The objective of this paper is to discuss the implementation of Flow Unit of Production in the manufacturing of fashion apparel process, with emphasis on women\\'s fashion products. For this purpose, a field research was conducted through case study, in company of the sector. The survey results show that despite the particularities of the industry, such as production volume, short cycle product life and wide range of models, the application of Flow Unit of Production in the fashion garment manufacturing indicates a possible process optimization productive, allowing the assembly line balancing and capacity of the productive capacity, factors that minimize the risk of production bottlenecks and assist in the preparation of planning, scheduling and production control. This study has the following objectives: i) search the manufacturing processes used, ii) focus on the techniques and processes applied in manufactured products; iii) physically characterize the industrial structure and describe their production processes for the manufacture of products with the application of flow unit in Fashion Garment Manufacturing (MVM); iv) point out suggestions for the use of new tools such as the continuous improvement of the production process. The recommendations made are based on literature review and case study on the manufacturer of custom products. These will be legitimized by experts of information on the subject and by employees of the studied company. It has been raised to date a list of external vendors and their installed capacities to manufacture products sold, as the company A pointed out the presence of bottleneck productive for failing to deliver the production volumes requested. Although the study is taking place within the execution schedule, many of the concepts and techniques of lean manufacturing are applicable in production environments high variety of the same product family, with low volume and can contribute significantly to improving the company\\'s performance, for continuous process improvement, to improve competitiveness and elimination of production 9 losses with performance indicators in the sectors involved. After research with the application of the unitary flow of Manufacture of fashionable clothes in the company in A, will be checked the hypothesis of application of Flow Unit of Production, the automotive industry, it is possible for the clothing industry. Collected the results of that application, after the data analysis and evaluation check for approval of Manufacture of Fashionable Clothes",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-02052016-103850/publico/DEFESA_DO_MESTRADO.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2346183652",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Gestão da cadeia de abastecimento numa empresa de produção de vestuário",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1822/21582",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Jorge M. Simões"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "Este trabalho é o resultado de uma dissertação de mestrado no âmbito do 2º semestre do 5º ano do Mestrado Integrado em Engenharia e Gestão Industrial da Universidade do Minho e foi desenvolvido na empresa Valérius – Têxteis, S.A. O principal objetivo do projeto é aumentar a eficiência da coordenação dos fluxos de materiais e informação que passam ao longo da cadeia de abastecimento. Assim, após a sua análise, decidiu-se atuar sobre os processos do Sistema de Gestão de Armazém de Matérias- Primas da empresa, devido aos inúmeros inconvenientes causados no processo produtivo. Para o cumprimento do objetivo, inicialmente, foi necessário rever alguns conteúdos bibliográficos sobre a temática, como por exemplo os paradigmas lean, agile e leagile, bem como algumas práticas de relacionamento colaborativo (VMI e CPFR). A metodologia de investigação utilizada neste trabalho foi a Action-Research, ou seja, realizou-se uma descrição e análise do atual estado da organização detetando-se os problemas que teriam que ser resolvidos. Após a deteção destes problemas, planearam-se as revisões necessárias e implementaram-se essas revisões, cumprindo os princípios lean. Os resultados obtidos foram a diminuição do tempo de resposta do armazém e consequente diminuição do stock excedentário. Diminuiu-se ainda o tempo de processamento do controlo de qualidade da matéria-prima e tornou-se o abastecimento do posto do corte mais eficiente.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W205591578",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "DISCUSSÕES SOBRE A REVISÃO SISTEMÁTICA DA LITERATURA EM PRÁTICAS DE LEAN MANUFACTURING NA PRODUÇÃO TÊXTIL EM EMPRESAS DE PEQUENO E MÉDIO PORTE",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.14488/enegep2024_tn_st_411_2014_47685",
+        "doi": "10.14488/enegep2024_tn_st_411_2014_47685",
+        "year": 2024,
+        "authors": [
+          "ADINAN SOUTHIER SOARES",
+          "ISABELE PROENÇA MARIANO",
+          "Sérgio E. Gouvêa da Costa"
+        ],
+        "venue": "Anais ... Encontro Nacional de Engenharia de Produção/Anais do Encontro Nacional de Engenharia de Produção",
+        "abstract": "A ampla concorrncia exige que as indstrias busquem eficincia e eficcia continuamente. A filosofia Lean e suas ferramentas, proporcionam melhorias contnuas nas empresas, porm h uma variedade de ferramentas a serem estudadas, para selecionar a que mais ter sucesso em uma determinada empresa. Alm disso, h barreiras de implantao a serem investigadas, que buscam evitar a repetio de problemas j conhecidos por outras empresas. O trabalho apresenta uma reviso sistemtica de literatura de prticas Lean Manufacturing em empresas txteis de pequeno e mdio porte, de vrios pases e regies globais. O setor txtil muito dinmico, possui muitas particularidades e h poucas pesquisas cientficas, em relao a outros setores. Principalmente em empresas de pequeno e mdio porte. As pesquisas investigadas demonstraram que o Lean Manufacturing pode melhorar muito os processos das empresas txteis e que as barreiras encontradas, repetem-se entre as empresas investigadas.",
+        "pdf_url": "http://www.abepro.org.br/biblioteca/TN_ST_411_2014_47685.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4404138898",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Indústria 4.0 e sustentabilidade nos setores produtivos das empresas têxteis e de vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.29327/coloquio-internacional-de-design-2023-464332.868028",
+        "doi": "10.29327/coloquio-internacional-de-design-2023-464332.868028",
+        "year": 2024,
+        "authors": [
+          "Amanda da Silveira Bairros",
+          "Icléía Silveira"
+        ],
+        "venue": "Colóquio Internacional de Design",
+        "abstract": "A sociedade, de forma geral, está adquirindo um novo olhar para indústrias que utilizam de práticas sustentáveis. Neste contexto, estão as indústrias têxteis e de vestuário, que por intermédio das ferramentas da Indústria 4.0, dispõem de sistemas de informação que auxiliam a otimização de seus processos produtivos, a fim de se adequarem a soluções sustentáveis. Desta forma, esta pesquisa objetiva identificar os efeitos das tecnologias da Indústria 4.0 na sustentabilidade dos setores produtivos das empresas têxteis e de vestuário. Para a construção do caminho metodológico, utilizou-se de pesquisa qualitativa, descritiva e bibliográfica, bem como pesquisa de campo. Dividido em sete seções, o artigo ilustra brevemente seus procedimentos metodológicos, discorre acerca de indústrias têxteis e de vestuário no contexto da sustentabilidade e aponta sobre a indústria 4.0, bem como suas tecnologias nos setores produtivos das indústrias têxteis e de vestuário. Por fim, aborda os resultados e análise da pesquisa de campo e a conclusão.",
+        "pdf_url": "https://static.even3.com/anais/868028.pdf?v=639023312063048924",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4400112092",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "REVISÃO SISTEMÁTICA DA LITERATURA EM PRÁTICAS DE LEAN MANUFACTURING NA PRODUÇÃO TÊXTIL EM EMPRESAS DE PEQUENO E MÉDIO PORTE",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.14488/enegep2024_tn_st_411_2014_47687",
+        "doi": "10.14488/enegep2024_tn_st_411_2014_47687",
+        "year": 2024,
+        "authors": [
+          "ADINAN SOUTHIER SOARES",
+          "ISABELE PROENÇA MARIANO",
+          "Sérgio E. Gouvêa da Costa"
+        ],
+        "venue": "Anais ... Encontro Nacional de Engenharia de Produção/Anais do Encontro Nacional de Engenharia de Produção",
+        "abstract": "O Lean Manufacturing (LM) tem sua utilizao destacada nas empresas de diversas reas e tamanhos distintos. O setor txtil considerado um setor dinmico e complexo, pois enfrenta muitos desafios nos ltimos anos, incluindo mudanas climticas, crises econmicas, revoluo digital e a presso por prticas sustentveis devido ao fast fashion. O presente trabalho descreve a metodologia utilizada para apresentar o resultado de uma reviso de literatura, com estudos de casos de pequenas e mdias empresas do setor txtil abordados em 17 artigos, de diversos pases ao redor do mundo. O foco dos artigos estudados a utilizao do LM, destacando o sucesso obtido, seus facilitadores e barreiras para implementao. As pesquisas investigadas demonstraram que o LM pode melhorar significativamente os processos das empresas txteis. As barreiras e facilitadores encontrados na implementao do Lean Manufacturing repetem-se entre as empresas estudadas, sugerindo a necessidade de estratgias especficas para contextos distintos e destacam a importncia das pesquisas na rea, j que em diversas partes do mundo h problemas e solues possveis semelhantes.",
+        "pdf_url": "http://www.abepro.org.br/biblioteca/TN_ST_411_2014_47687.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4404137916",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Método para determinar a relação do portfólio de serviços tecnológicos e de inovação com as rotas tecnológicas: aplicação na indústria têxtil & confecção",
+        "source": "openalex",
+        "url": "https://doi.org/10.18624/e-tech.v9i2.898",
+        "doi": "10.18624/e-tech.v9i2.898",
+        "year": 2016,
+        "authors": [
+          "Claudia Romani",
+          "Germana Arcoverde Bezerra Zapata",
+          "Vanessa Venancio Pappetti Canhete",
+          "Tiago Schwingel Goulart",
+          "Ismar Henrique Silveira",
+          "Fábio Dutra",
+          "Juliano Anderson Pacheco"
+        ],
+        "venue": "Revista E-Tech Tecnologias para Competitividade Industrial",
+        "abstract": "O panorama do setor industrial brasileiro apresenta um decréscimo econômico com perspectivas de recuperação em longo prazo. Com este cenário e na busca de apoiar o setor produtivo nacional no restabelecimento de seu crescimento, o Serviço Nacional de Aprendizagem Industrial - SENAI vem realizando diversas ações. Entre eles, destaca-se a implementação de Institutos de Tecnologia e de Inovação, cujos princípios são a disponibilização de infraestrutura física e de pessoas qualificadas orientadas à prestação de serviços tecnológicos e de inovação, por meio do oferecimento às indústrias de um portfólio diversificado com alto valor agregado e que possam propiciar o aumento da competitividade de seus negócios, independentemente dos seus portes e dos setores a que pertençam. Neste contexto, este estudo tem como objetivo avaliar a relação entre as rotas tecnológicas do setor Têxtil, Vestuário e Design Catarinense com o portfólio de serviços tecnológicos e de inovação oferecidos pelo Instituto SENAI de Tecnologia correlato. Para a realização do estudo, o método proposto se baseia na avaliação quantitativa e qualitativa do Capital Intelectual do Instituto. O resultado desta avaliação proporcionou a identificação do grau de relação entre o portfólio (oferta) oferecido pelo Instituto SENAI de Tecnologia e as rota tecnológicas (demandas) oriundas da Indústria Têxtil & Confecção de Santa Catarina, uma vez que foram medidos as potencialidades e os aspectos do Instituto a serem melhorados para atender adequadamente às demandas desse setor entre 2015 e 2022.",
+        "pdf_url": "https://etech.sc.senai.br/edicao01/article/download/898/445",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2594868807",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Lean Manufacturing, una revolución: Donde cada minuto es dinero y cada desperdicio es una oportunidad",
+        "source": "crossref",
+        "url": "https://doi.org/10.59979/ecoe.9789585084971.9789585084995.9789585084988",
+        "doi": "10.59979/ecoe.9789585084971.9789585084995.9789585084988",
+        "year": 2025,
+        "authors": [
+          "Ricardo Martin",
+          "Ricardo Martin"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.59979/ecoe.9789585084971.9789585084995.9789585084988",
+        "extra": {
+          "crossref_type": "monograph",
+          "publisher": "ECOE Ediciones"
+        }
+      },
+      {
+        "title": "LEAN MANUFACTURING EN LA INDUSTRIA AUTOMOTRIZ DE MÉXICO",
+        "source": "crossref",
+        "url": "https://doi.org/10.33064/uaa/978-607-8909-02-5",
+        "doi": "10.33064/uaa/978-607-8909-02-5",
+        "year": 2023,
+        "authors": [
+          "Gonzalo Maldonado"
+        ],
+        "venue": null,
+        "abstract": "El inicio de la tercera década del actual milenio está generando una incertidumbre en la mayoría de las empresas manufactureras, particularmente en aquellas empresas que integran la industria automotriz, no solamente de México sino de cualquier otro país alrededor del mundo, ya que la pandemia del covid-19 que aún sigue padeciendo la sociedad global, dejó infinidad de familias sin alguno de sus miembros, pero también dejó fuera del mercado a miles de empresas, pues las familias no solo tuvieron que enterrar a parte de sus miembros, sino también su patrimonio fruto del esfuerzo de muchos años. De igual manera, los grandes corporativos internacionales también se vieron afectados con los estragos causados por la pandemia del covid-19, pues la contracción que está sufriendo el mercado mundial las está obligando a replantear sus estrategias empresariales para ser más competitivas. Bajo este escenario, son cada vez más las empresas manufactureras de la industria automotriz de México que están adoptando e implementando al lean manufacturing como una estrategia empresarial efectiva, la cual les puede apoyar no solamente en la reducción de los costos de producción y la mejora de la calidad de los productos, sino también en el incremento de sus niveles de rendimiento económico y financiero, especialmente porque el lean manufacturing es una metodología de trabajo en equipo que se basa en la eliminación de los residuos que se generan en los procesos productivos, así como en la atención prioritaria de las principales necesidades de clientes y consumidores, lo cual permite a las empresas manufactureras tanto un incremento significativo en el nivel de productividad y calidad, así como en su nivel de rendimiento financiero.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.33064/uaa/978-607-8909-02-5",
+        "extra": {
+          "crossref_type": "monograph",
+          "publisher": "Universidada Autonoma de Aguascalientes"
+        }
+      },
+      {
+        "title": "Metodologia para minimizar o desperdicio de pastilhas de metal duro em operações de torneamento na industria não automatizada",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1997.116447",
+        "doi": "10.47749/t/unicamp.1997.116447",
+        "year": 2021,
+        "authors": [
+          "Jose Roberto Pires"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1997.116447",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "A \"colcha de retalhos\" da metropole paulista: simples aglomerados ou sistemas produtivos e inovativos na industria do vestuario?",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2005.361904",
+        "doi": "10.47749/t/unicamp.2005.361904",
+        "year": 2021,
+        "authors": [
+          "Maria das Graças Moura Brito"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2005.361904",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Lean manufacturing y su aplicación en la industria de plástico",
+        "source": "crossref",
+        "url": "https://doi.org/10.26439/ing.ind2025.n48.7659",
+        "doi": "10.26439/ing.ind2025.n48.7659",
+        "year": 2025,
+        "authors": [
+          "Dayanara Daily Monserrate Salvatierra",
+          "Yanelis Ramos Alfonso",
+          "Ricardo Larry Castro Coello"
+        ],
+        "venue": "Ingeniería Industrial",
+        "abstract": "En este artículo se revisa la implementación y los impactos del en la industria del plástico, con el objetivo de sintetizar y evaluar cómo la adopción de esta metodología ha contribuido a mejorar la eficiencia, reducir costos y optimizar procesos productivos. Utilizando una metodología de revisión sistemática, se seleccionaron 97 artículos pertinentes. Los resultados principales de la revisión han indicado que lean no solo mejora la eficiencia operativa y reduce los desperdicios significativamente, sino que también fomenta la integración de tecnologías avanzadas como la industria 4.0. Además, se ha observado que, por lo general, tiene un enfoque basado en la sostenibilidad, pues lean facilita prácticas que apoyan la conservación ambiental y la reducción de la huella de carbono. En conclusión, se ha demostrado que lean manufacturing es una herramienta efectiva para mejorar las operaciones, pero su implementación efectiva requiere enfoques que se adapten a las particularidades culturales y estructurales de cada empresa.",
+        "pdf_url": "https://revistas.ulima.edu.pe/index.php/Ingenieria_industrial/article/download/7659/7740",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.26439/ing.ind2025.n48.7659",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidad de Lima"
+        }
+      },
+      {
+        "title": "As transformações produtivas na industria textil-vestuario e seus impactos sobre a distribuição territorial da produção e a divisão do trabalho industrial",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2004.306983",
+        "doi": "10.47749/t/unicamp.2004.306983",
+        "year": 2021,
+        "authors": [
+          "Marcio Paschoino Lupatini"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2004.306983",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Lean Manufacturing como Estratégia Competitiva de Produção",
+        "source": "crossref",
+        "url": "https://doi.org/10.18226/23185279.v9iss1p24",
+        "doi": "10.18226/23185279.v9iss1p24",
+        "year": 2021,
+        "authors": [
+          "Nicolas Martins Nunes",
+          "Carlos Alberto Costa"
+        ],
+        "venue": "Scientia cum Industria",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.18226/23185279.v9iss1p24",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Caixias do Sul"
+        }
+      },
+      {
+        "title": "Evaluación de las sinergias entre lean manufacturing y la Industria 4.0",
+        "source": "crossref",
+        "url": "https://doi.org/10.37610/dyo.v0i71.579",
+        "doi": "10.37610/dyo.v0i71.579",
+        "year": 2020,
+        "authors": [
+          "Jordi Fortuny-Santos",
+          "Patxi Ruiz-de-Arbulo López",
+          "Itziar Luján-Blanco",
+          "Chen Pin-Kuo"
+        ],
+        "venue": "Dirección y Organización",
+        "abstract": "Lean Manufacturing has been for years a successful paradigm that leads companies to operational excellence. However, changes in the market that require cheap mass customization seem beyond the scope of lean manufacturing, which relies on more stable schedules. Meanwhile, Industry 4.0 appears as one of the most promising approaches for dealing with future challenges in manufacturing environments through automation and data exchange thanks to cyber-physical systems and the Internet of Things. The relationship between lean manufacturing and Industry 4.0 attracts management scholars and the number of contributions that can be found in the literature is increasing quickly. However, the lack of real implementations leads to conceptual papers based on hypothetical outcomes on a number of aspects.The aim of this research paper is to explore and evaluate, through a systematic review of the literature up to September 2019, previous work focusing on the relationship and links between lean manufacturing and Industry 4.0, in order to understand whether lean manufacturing and Industry 4.0 can be integrated to achieve synergies between the two approaches. Besides, a bibliometric study is performed.Although different scenarios are considered possible, most relate to lean tools being enhanced by real-time information. The majority present an evolution, not a revolution. Lean manufacturing offers stable processes where automatization and digitalization can be successfully implemented. Otherwise, new technologies will fail to make the most of poorly managed processes. The role of employees has not been addressed in the reviewed literature.",
+        "pdf_url": "https://www.revistadyo.es/DyO/index.php/dyo/article/download/579/599",
+        "citation_count": 16,
+        "work_type": "article",
+        "identifier": "10.37610/dyo.v0i71.579",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Asociación para el Desarrollo de la Ingeniería de Organización"
+        }
+      },
+      {
+        "title": "Estudio de la relación entre Lean manufacturing y gestión medioambiental (Lean and green) en la industria Catalana",
+        "source": "crossref",
+        "url": "https://doi.org/10.31428/10317/12500",
+        "doi": "10.31428/10317/12500",
+        "year": 2024,
+        "authors": [
+          "Luján Blanco Itziar",
+          "Vintró Sánchez Carla",
+          "Fortuny Santos Jordi",
+          "Suñe Torrents Albert"
+        ],
+        "venue": "XV Congreso de Ingeniería de Organización",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.31428/10317/12500",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Universidad Politécnica de Cartagena"
+        }
+      },
+      {
+        "title": "Modelo de eliminación de desperdicios basado en Lean Manufacturing y Lean Maintenance para el incremento de la eficiencia en la industria manufacturera",
+        "source": "crossref",
+        "url": "https://doi.org/10.19083/tesis/652114",
+        "doi": "10.19083/tesis/652114",
+        "year": 2020,
+        "authors": [
+          "Universidad Peruana de Ciencias Aplicadas (UPC)",
+          "Paola Priscilla Aucasime Gonzales",
+          "Sofia Fernanda Tremolada Cruz"
+        ],
+        "venue": null,
+        "abstract": "En el presente artículo se aborda la problemática de la baja eficiencia de un proceso productivo en una empresa manufacturera. Esta investigación busca integrar y modelar diferentes herramientas de la ingeniería, con un modelo más eficiente que evite costos altos de mantenimiento de los equipos de producción, sin incurrir en elevados costos por implementación. En tal sentido, este artículo presenta un Modelo de Reducción de Desperdicios que busca reducir el tiempo de set up y desarrollar una gestión del mantenimiento adecuada para lograr el incremento de la Eficiencia General de los Equipos (OEE). La validación del modelo ha sido realizada en una empresa de manufactura de neumáticos en el Perú y arrojó resultados positivos tales como un incremento del OEE de 13%, una reducción de tiempos de set up de 22.5% y como consecuencia un incremento en la capacidad de cambios de componentes, la externalización de 37 actividades y un incremento del 80% en el índice de conocimiento de los operarios involucrados en la propuesta.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.19083/tesis/652114",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidad Peruana de Ciencias Aplicadas"
+        }
+      },
+      {
+        "title": "Lean manufacturing y cadena de suministro: hacia la excelencia en la industria manufacturera",
+        "source": "crossref",
+        "url": "https://doi.org/10.15649/2346030x.5804",
+        "doi": "10.15649/2346030x.5804",
+        "year": 2025,
+        "authors": [
+          "Elianne Magdiel Castro-Rejas",
+          "Claudia Angeles Chanca-Trillo",
+          "Carmen Luz Cuba-Cornejo"
+        ],
+        "venue": "AiBi Revista de Investigación, Administración e Ingeniería",
+        "abstract": "La optimización de la cadena de suministro representa un factor determinante para elevar la competitividad en el sector manufacturero. En este marco, el enfoque Lean Manufacturing (LM) se ha reconocido como una estrategia adecuada para minimizar desperdicios, incrementar la productividad y optimizar la gestión de proveedores. Esta Revisión Sistemática de Literatura (RSL) se propuso analizar la influencia del LM en la eficiencia de la cadena de suministro en empresas manufactureras. Se llevó a cabo la búsqueda principalmente en la base de datos Scopus, aplicando la metodología PIOCT para definir los criterios de inclusión y exclusión, y las directrices del modelo PRISMA, durante el proceso de selección. De 262 artículos identificados, 60 fueron analizados en profundidad. Los resultados evidenciaron que los principales impactos del LM se concentran en la optimización de recursos, la minimizacion del tiempo de ciclo y el aumento de la productividad, siendo la eficiencia y productividad el indicador de éxito más representativo. Asimismo, se identificaron limitaciones asociadas al diseño metodológico y a la falta de integración estratégica en la adopción de las herramientas Lean. Se concluye que el LM incide positivamente en el desempeño de la cadena de suministro y que su integración con tecnologías como la Industria 4.0 puede potenciar la adaptabilidad y sostenibilidad en los procesos de manufactura.",
+        "pdf_url": "https://revistas.udes.edu.co/aibi/article/download/5804/3830",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.15649/2346030x.5804",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidad de Santander - UDES"
+        }
+      },
+      {
+        "title": "Importancia del uso de las herramientas Lean Manufacturing en las operaciones de la industria del plástico en Lima",
+        "source": "crossref",
+        "url": "https://doi.org/10.47797/llamkasun.v1i2.16",
+        "doi": "10.47797/llamkasun.v1i2.16",
+        "year": 2020,
+        "authors": [
+          "Jorge Nelson Malpartida Gutiérrez"
+        ],
+        "venue": "Llamkasun",
+        "abstract": "El sector manufacturero, específicamente la industria del plástico en Lima, ha tenido un crecimiento continuo durante los últimos años, generando una marcada competitividad entre las empresas, lo cual implica la demanda de mejoras y la implementación de métodos para reducir los costos operativos. Teniendo esto en cuenta, se formula como propósito del presente artículo, identificar la importancia del uso de las herramientas de Lean Manufacturing en el manejo eficiente de los desperdicios generados en el proceso de producción de plástico, considerando su impacto ambiental, partiendo de la necesidad de concientización de la responsabilidad social de las industrias del sector, debido a los problemas de contaminación ambiental de la actualidad. Se realiza una proyección de los beneficios económicos que tendrían las empresas del sector, basándose en diferentes estudios de la industria del plástico en otros países donde se emplean las principales herramientas Lean Manufacturing.",
+        "pdf_url": "http://llamkasun.unat.edu.pe/index.php/revista/article/download/16/16",
+        "citation_count": 5,
+        "work_type": "article",
+        "identifier": "10.47797/llamkasun.v1i2.16",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidad Nacional Autónoma de Tayacaja Daniel Hernández Morillo"
+        }
+      },
+      {
+        "title": "UTILIZAÇÃO DO LEAN MANUFACTURING NA INDUSTRIA 4.0",
+        "source": "crossref",
+        "url": "https://doi.org/10.54751/revistafoco.v16n12-072",
+        "doi": "10.54751/revistafoco.v16n12-072",
+        "year": 2023,
+        "authors": [
+          "Francinei Ferreira De Lima Junior",
+          "Márcio de Souza Lima",
+          "Raylane Ribeiro De Lima"
+        ],
+        "venue": "REVISTA FOCO",
+        "abstract": "O presente trabalho destaca-se sobre a utilização do Lean Manufacturing na indústria 4.0 e tem como problemática, como a utilização do Lean Manufacturing pode trazer a eficiência operacional e benefícios para a indústria 4.0 com a eliminação ou redução de desperdício? O objetivo do estudo é discutir a utilização do Lean Manufacturing na indústria 4.0 e demostrar suas contribuições na eliminação ou redução de desperdícios, custos e indicadores de produtividades para a melhoria da qualidade empresarial. Na metodologia será definido conforme o tipo de pesquisa e serão apresentados quanto à abordagem de forma quantitativa, quanto a natureza de forma básica, quanto aos objetivos de forma exploratória e descritiva e quanto aos procedimentos de forma bibliográfica. Conclui-se que para se chegar a um propósito, as empresas precisam entender o valor que oferecem aos clientes e tecnologicamente orientada em reduzir a complexidade de informações. O desafio para as empresas é a implementação do Lean Manufacturig, a introdução de novas tecnologias, em questão da interoperalidade entre as tecnologias emergentes, o alto investimentos inicial em tecnologia e custo de manutenção, a falta de capital humano competente no manuseio dos processos tecnológicos e retorno sobre os investimentos e reconhecer de que forma que as ferramentas do Lean com o auxílio das novas tecnologias podem contribuir para uma manutenção mais produtiva e com alta qualidade eficaz, reduzindo assim desperdícios de material e tempo.",
+        "pdf_url": "https://ojs.focopublicacoes.com.br/foco/article/download/3884/2711",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.54751/revistafoco.v16n12-072",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "South Florida Publishing LLC"
+        }
+      },
+      {
+        "title": "A Simulação Computacional como Ferramenta de Suporte a Aplicação dos Conceitos do Lean Manufacturing",
+        "source": "crossref",
+        "url": "https://doi.org/10.18226/23185279.v8iss2p30",
+        "doi": "10.18226/23185279.v8iss2p30",
+        "year": 2020,
+        "authors": [
+          "Clefer Genari",
+          "Ivandro Cecconello"
+        ],
+        "venue": "Scientia cum Industria",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.18226/23185279.v8iss2p30",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Caixias do Sul"
+        }
+      },
+      {
+        "title": "Diagnóstico do grau de maturidade em lean manufaturing: estudo de caso em uma industria de fios e cabos",
+        "source": "crossref",
+        "url": "https://doi.org/10.47456/bjpe.v10i2.44583",
+        "doi": "10.47456/bjpe.v10i2.44583",
+        "year": 2024,
+        "authors": [
+          "Manoel Isaac Teixeira Nunes Lopes",
+          "Francisca Jociele Oliveira de Sousa",
+          "Francismilton Teles",
+          "Hélio Cavalcanti Albuquerque Neto",
+          "Matheus das Neves Almeida",
+          "Geordy Souza Pereira"
+        ],
+        "venue": "Brazilian Journal of Production Engineering",
+        "abstract": "Empresas utilizam práticas do Lean Manufacturing (LM), porém, apresentam dificuldades em mensurar a maturidade para aperfeiçoá-las e direcionar metas. Diante deste contexto, objetivou-se avaliar a maturidade das práticas do LM de uma empresa de fios e cabos. Para tanto, utilizou-se o modelo Avaliação de Maturidade, que mensura 17 princípios, divididos nos Elementos Estruturais (EE): filosofia (3); processos (6); pessoas e parceiros (5); resolução de problemas e melhoria contínua (3). No total, 6 gestores e 21 colaboradores das áreas de operação e suporte responderam os questionários. Os princípios: criar valor para o cliente; identificar a cadeia de valor; usar a gestão visual; e ver por si mesmo para compreender a situação, convergiram no mesmo nível de maturidade entre os grupos. Além disso, os colaboradores da operação obtiveram o nível de maturidade mais baixo. Analisando os EE, percebeu-se destaque positivo para a filosofia com grau 4 (integrado), enquanto os demais se enquadraram em grau 3 (sistemático), com a nota global da organização em 3,80. Por fim, a metodologia utilizada forneceu um conjunto de metas objetivas para melhoria de processos, identificando seus pontos fortes e fracos, permitindo traçar planos levando ao desenvolvimento organizacional.",
+        "pdf_url": "https://periodicos.ufes.br/bjpe/article/download/44583/30326",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.47456/bjpe.v10i2.44583",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Federal do Espirito Santo"
+        }
+      },
+      {
+        "title": "Lean Manufacturing e Industria 4.0: modelo de integración tecnológica para la reducción de desperdicios y mejora de la productividad industrial",
+        "source": "crossref",
+        "url": "https://doi.org/10.63969/81wyh968",
+        "doi": "10.63969/81wyh968",
+        "year": 2026,
+        "authors": [
+          "Christian Anthony Lázaro Russell"
+        ],
+        "venue": "Multidisciplinary Journal of Sciences Discoveries and Society",
+        "abstract": "The integration of Lean Manufacturing and Industry 4.0 represents a strategic approach to improving the efficiency and productivity of industrial systems. Lean Manufacturing contributes through the identification and elimination of waste, resource optimisation and continuous improvement, while Industry 4.0 incorporates technologies such as the Internet of Things, artificial intelligence, data analytics, cloud computing, cyber-physical systems and advanced automation. The aim was to analyse the integration of both approaches to identify technological and methodological components focused on waste reduction and productivity improvement. A qualitative, descriptive and documentary study was conducted, structured in accordance with PRISMA 2020 to organise the search, selection and analysis of scientific publications related to production efficiency, digitalisation and industrial innovation. The analysis established that the incorporation of real-time data facilitates the detection of deviations, anticipation of failures, operational control and improvement-oriented decision-making. Integrating both approaches requires the alignment of technology, processes and people to achieve more agile, efficient, adaptable and sustainable production systems, while avoiding technological adoption that is disconnected from operational needs.",
+        "pdf_url": "https://sds.estrellaediciones.com/index.php/sciences_discoveries_and_society/article/download/384/677",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.63969/81wyh968",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Estrella Ediciones"
+        }
+      },
+      {
+        "title": "Cadenas de suministro sostenibles en la industria manufacturera: innovación, conocimiento y gestión Lean",
+        "source": "crossref",
+        "url": "https://doi.org/10.36390/telos273.07",
+        "doi": "10.36390/telos273.07",
+        "year": 2025,
+        "authors": [
+          "Bertha Lucía Santos-Hernández"
+        ],
+        "venue": "Telos: Revista de Estudios Interdisciplinarios en Ciencias Sociales",
+        "abstract": "Global concern about the effects of climate change has prompted business organizations to commit to meeting the Sustainable Development Goals. In this context, an increasing number of companies are integrating sustainability into their operations and supply chains, not only in response to external pressures but also as a vital requirement for their survival. They also recognize that adopting sustainable practices helps build a stronger competitive advantage that yields economic, environmental, and social benefits. Therefore, this research aims to analyze how innovation, knowledge management, and Lean management influence supply chain sustainability management in the manufacturing industry. The study was conducted using a quantitative approach with a correlational scope and causal design; the sample included 224 companies in the manufacturing sector in Aguascalientes. Data were collected through surveys and analyzed using multivariate techniques. The results emphasize the need to enhance sustainability practices, especially in their social aspect, while fostering product innovation, promoting collaboration, and assessing teamwork performance—all areas where management support is essential. The primary contribution of this research is providing empirical evidence of the causal relationships among the studied variables, including an analysis of an emerging topic: managing supply chain sustainability through structural equation models within the context of a developing economy.",
+        "pdf_url": "https://ojs.urbe.edu/index.php/telos/article/download/4048/6234",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.36390/telos273.07",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidad Dr. Rafael Belloso Chacín, URBE"
+        }
+      },
+      {
+        "title": "From Lean Manufacturing to Lean Construction: How Principles, Tools, and Techniques Evolved",
+        "source": "crossref",
+        "url": "https://doi.org/10.5772/intechopen.96191",
+        "doi": "10.5772/intechopen.96191",
+        "year": 2021,
+        "authors": [
+          "Sevilay Demirkesen"
+        ],
+        "venue": "Lean Manufacturing",
+        "abstract": "Lean manufacturing first emerged in the automotive industry. However, low productivity and low efficiency in production are major problems for the majority of industries relying on a heavy workforce. Being one of these, the construction industry suffers from low productivity rates along with inefficient work practices. To prevent those, the industry has shifted its focus from the traditional approach to a more innovative one, which is called Lean construction. Lean construction aims to maximize value while minimizing waste. Therefore, it intends to create safer, smoother, and more efficient processes to eliminate waste. This chapter focuses on Lean construction and highlights the generic Lean tools and techniques practiced in the construction industry indicating its historical journey from Lean manufacturing. The chapter aims to raise awareness towards the efficiency of Lean methods in the construction industry with respect to practices observed in manufacturing.",
+        "pdf_url": null,
+        "citation_count": 5,
+        "work_type": "book-chapter",
+        "identifier": "10.5772/intechopen.96191",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "IntechOpen"
+        }
+      },
+      {
+        "title": "Lean Manufacturing Practices and Environmental Performance",
+        "source": "crossref",
+        "url": "https://doi.org/10.5772/intechopen.96973",
+        "doi": "10.5772/intechopen.96973",
+        "year": 2021,
+        "authors": [
+          "Ruhet Genç"
+        ],
+        "venue": "Lean Manufacturing",
+        "abstract": "Lean manufacturing is considered a rewarding production strategy due to its positive effects on organizational and economic efficiency in various industries. Given the growing ecological consciousness, environmental achievements of lean manufacturing also incorporate a strong economic relevance. The main objective of this chapter is, therefore, to investigate the impact of lean manufacturing practices on environmental performance and the existing coherences between Lean and ecologically oriented variables such as resource usage, energy consumption, and air pollution. The methodology is literature review evaluating the findings of research in this sphere. Besides the discussion of its principles and methods, current trends and challenges regarding lean production as a business model that supports eco-efficiency are presented. The implications of this study will allow executives to better recognize and simultaneously solve both the economic and environmental problems posed by their companies.",
+        "pdf_url": null,
+        "citation_count": 5,
+        "work_type": "book-chapter",
+        "identifier": "10.5772/intechopen.96973",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "IntechOpen"
+        }
+      }
+    ]
+  },
+  "count": 39,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:03:56.260448+00:00"
+}

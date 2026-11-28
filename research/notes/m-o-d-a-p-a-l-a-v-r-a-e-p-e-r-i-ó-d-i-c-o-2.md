@@ -1,0 +1,881 @@
+---
+title: M o d a P a l a v r a E - p e r i ó d i c o
+id: m-o-d-a-p-a-l-a-v-r-a-e-p-e-r-i-ó-d-i-c-o-2
+tags:
+- modelista-producao-moda-dores-0698af
+- locus-normalizacao-abnt-vs-gradacao-real-e-biotipos
+- locus-gradacao-abnt-vs-tabelas-proprias
+- abnt
+- antropometria
+- tabela-de-medidas
+- gradacao
+created: '2026-11-27T03:54:14.099340Z'
+updated: '2026-11-27T04:14:20.360922Z'
+source: https://periodicos.udesc.br/index.php/modapalavra/article/download/8506/6306
+source_domain: revistas.udesc.br
+fetched_at: '2026-11-27T03:54:14.092810Z'
+fetch_provider: builtin
+status: draft
+type: note
+tier: institutional
+content_type: paper
+deprecated: false
+summary: Nishimura, Merino e Gontijo (2017, ModaPalavra v.10 n.19) analisam a metodologia
+  de elaboração e a adesão mercadológica dos referenciais de medidas de vestuário
+  da ABNT (NBR 13377:1995, NBR 12071:2002, NBR 15127:2004 com 54 parâmetros, NBR 15800:2009
+  infantil e NBR 16060:2012 masculino para biótipos normal, atlético e especial).
+  Revelam que a NBR 13377 não resultou de estudo antropométrico, mas de um acordo
+  entre representantes da cadeia têxtil (Sabrá, Santos e Dinis, 2008), e que as normas
+  NBR 15800 (elaborada por 53 representantes de empresas e entidades como ABIT, ABRAVEST
+  e Draft Manequins Industriais) e NBR 16060 (21 participantes) carecem de metodologia
+  antropométrica consistente em comparação ao projeto SizeBR do SENAI/CETIQT. Constatam
+  baixa adesão das confecções às normas ABNT e alta divergência de gradações entre
+  marcas nacionais e estrangeiras, embora e-commerces infantis que adotaram a NBR
+  15800 (como Chicleteria e YKZ Moda Infantil) relatem redução de devoluções e maior
+  satisfação.
+raw_file: raw/m-o-d-a-p-a-l-a-v-r-a-e-p-e-r-i-ó-d-i-c-o-2.pdf
+---
+
+*Suggested by [[referenciais-de-medidas-da-abnt-instrumento-para-a-normalização-do-produto-de-ve]] — full-text PDF for locus investigation*
+
+M o d a P a l a v r a E - p e r i ó d i c o  
+ 
+ 
+ 
+ 
+ 
+ 
+REFERENCIAIS DE MEDIDAS DA ABNT: 
+Instrumento para a normalização 
+do produto de vestuário                        
+MEASURES REFERENCES OF ABNT: Instrument for the 
+standardization of clothing products
+ 
+ 
+ 
+ 
+Maicon Douglas Livramento Nishimura                
+Graduação em Administração Empresarial – UDESC                               
+maiconnishimura@yahoo.com.br 
+Eugenio Andrés Díaz Merino                               
+Doutorado em Engenharia de Produção – UFSC                               
+eugenio.merino@ufsc.br 
+Leila Amaral Gontijo                
+Pós-doutorado na Universidade de Lund, na Suécia                               
+leila.gontijo@ufsc.br 
+ 
+
+
+---
+
+M o d a P a l a v r a E - p e r i ó d i c o  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ano 10, n.19, jan-jun 2017. ISSN 1982-615x 
+Página 135 de 149 
+ 
+ 
+REFERENCIAIS DE MEDIDAS DA ABNT: Instrumento para a normalização 
+do produto de vestuário                                                                                     
+MEASURES REFERENCES OF ABNT: Instrument for the standardization of clothing 
+products                                                                                                                            
+Maicon Douglas Livramento Nishimura, Eugenio Andrés Díaz Merino e Leila 
+Amaral Gontijo 
+ 
+Resumo  
+ 
+ 
+ 
+       
+Com o objetivo de padronizar as unidades 
+de medidas do vestuário, a ABNT 
+(Associação Brasileira de Normas e 
+Técnicas) desenvolve pesquisas para a 
+elaboração de referenciais de medidas 
+nacional nos segmentos infantil, feminino 
+e masculino. As normas de medidas 
+infantil e masculina já estão em vigor, 
+entretanto, ainda se trabalha para o 
+aprimoramento de uma norma feminina. 
+Em relação à normalização das medidas do 
+vestuário brasileiro, buscou-se identificar a 
+metodologia do sistema adotado para a 
+elaboração das normas de medidas já 
+existente e analisar como essa informação 
+é absorvida pelo mercado de moda. A 
+pesquisa foi pautada no levantamento 
+bibliográfico e documental, considerando, 
+principalmente, as normas de referenciais 
+de medidas brasileiras e os projetos dessas 
+normas 
+que 
+apresentaram 
+pouco 
+ou 
+nenhum estudo antropométrico na sua 
+metodologia. 
+Consequentemente, 
+percebeu-se 
+certa 
+fragilidade 
+dos 
+referenciais 
+de 
+medidas 
+utilizados 
+atualmente, 
+porém, 
+vislumbra-se 
+a 
+acuidade com os estudos que estão em 
+desenvolvimento e com os possíveis 
+resultados 
+que, 
+em 
+breve, 
+estarão 
+disponíveis para análise.    
+                                                                                                
+                                                        
+Palavras- chave: Antropometria; 
+Normalização; Vestuário  
+Abstract                                                 
+In order to standardize the units of clothing 
+measurements, 
+ABNT 
+(Brazilian 
+Association 
+of 
+Technical 
+Standards) 
+conducts research for the development of 
+national measures reference in children, 
+male and female segments. The standards 
+of child and male measures are already in 
+place, however, still works for the 
+improvement of a female norm. Regarding 
+the normalization of measures of Brazilian 
+clothing, sought to identify the system 
+methodology adopted for the development 
+of standards of existing measures and to 
+analyze how this information is absorbed 
+by the fashion market. The research was 
+based on bibliographic and documentary 
+survey, considering mainly the standards 
+of Brazilian measures benchmarks and 
+projects these rules had little or no 
+anthropometric study in its methodology. 
+Consequently, it was noticed certain 
+fragility of reference measures currently 
+used, however, the accuracy in sight with 
+the studies that are under development and 
+the possible outcomes that will soon be 
+available for analysis. 
+                                                              
+ 
+                                                      
+                                                        
+Keywords: Anthropometry; 
+Normalization; Clothing. 
+ 
+
+
+---
+
+M o d a P a l a v r a E - p e r i ó d i c o  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ano 10, n.19, jan-jun 2017. ISSN 1982-615x 
+Página 136 de 149 
+ 
+ 
+ 
+INTRODUÇÃO 
+Uma das dificuldades do consumidor em comprar roupas está na 
+incompatibilidade das medidas entre as diversas empresas existentes no mercado. Não 
+há uma conformidade entre os padrões de medidas e, ao considerar marcas estrangeiras 
+que se instalaram no Brasil nos últimos anos, percebe-se uma realidade de gradações 
+ainda mais divergente. Outra questão que se apresenta como empecilho para a decisão 
+de compra é a proporção de uma peça de roupa; encontra-se uma calça que fica 
+devidamente ajustada na cintura do consumidor, mas apertada na sua panturrilha, por 
+exemplo.  
+De fato, a população brasileira possui grande variedade de biótipos, e Iida 
+(2005) afirma que há diferenças étnicas, entre sexos e intraindividuais no estudo das 
+medidas antropométricas do corpo humano, ou seja, nas diversas esferas de análise do 
+corpo, existirão variáveis que individualizam as referências corporais. Esse fator 
+dificulta bastante o trabalho do modelista e é uma problemática constante para as 
+empresas do setor de vestuário. Contudo, há o consenso de que não é possível atender a 
+todos com uma mesma modelagem, sendo necessárias as adaptações. 
+Um nicho de mercado bastante segmentado é que pode minimizar o 
+problema de variação de medidas e o ajustamento da roupa ao corpo para o consumidor 
+final. Além disso, qualquer fator de diferenciação é positivo para elevar uma marca ou 
+mantê-la operante, principalmente em um mercado considerado competitivo, como é o 
+da moda. Para tal, é necessário alinhar o projeto de um produto às necessidades e aos 
+desejos do consumidor. Então, uma roupa com uma modelagem desenvolvida com base 
+em parâmetros antropométricos pode mudar o grau de satisfação de quem irá comprá-la, 
+considerando o desejo pela estética da vestimenta.  (SABRÁ; CIPINIUK; MACHADO, 
+2012).  
+Evidentemente, a planificação da roupa – fase conhecida como modelagem 
+– no processo de produção de vestuário é muito importante para a sua criação, 
+justamente porque é quando são extraídas as partes componentes do produto final, o 
+desenho técnico, além de outras especificações, como a ficha técnica com o passo a 
+passo para a execução da peça. 
+
+
+---
+
+M o d a P a l a v r a E - p e r i ó d i c o  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ano 10, n.19, jan-jun 2017. ISSN 1982-615x 
+Página 137 de 149 
+ 
+Quanto ao traçado da modelagem, faz-se necessário o conhecimento das 
+medidas corporais, através da aferição com uma fita métrica; mas, no caso de uma 
+grande confecção, a medida padrão a ser utilizada torna-se uma questão complexa. De 
+acordo com Silveira (2008), a confecção dos moldes só oferecerá qualidade ergonômica 
+por meio de medidas extraídas com base em estudos antropométricos focados no 
+público-alvo do segmento de vestuário desejado. 
+A fim de minimizar essa questão e trazer conhecimento estatístico para a 
+área de moda, órgãos normalizadores como a ISO (International Organization for 
+Standardization) e a ABNT (Associação Brasileira de Normas e Técnicas) realizaram 
+estudos que apresentam como proposta o fornecimento de medidas, baseando-se na 
+média populacional.  
+No Brasil, há uma norma para o vestuário infantil e outra para o masculino 
+que estão em vigor, bem como outros dois referenciais de medidas propostos pela 
+ABNT, sendo que um deles abrange o corpo feminino. Contudo, trabalha-se para 
+reformular essa norma, a exemplo do SENAI – CETIQT (Serviço Nacional de 
+Aprendizagem Industrial – Centro de Tecnologia da Indústria Química e Têxtil), que 
+desenvolve um trabalho que visa a oferecer uma tabela de medidas mais precisa e dentro 
+da realidade brasileira. 
+E para aumentar a competitividade e diferenciação de mercado, ressalta-se a 
+necessidade de desenvolver o conhecimento científico a partir das medidas do corpo 
+humano, para que o mercado possa oferecer produtos com qualidade e aferidos de 
+acordo com as normas que visam à normalização das informações sobre o consumidor 
+(SILVEIRA, 2008). 
+Ao serem consideradas as dificuldades recorrentes no setor do vestuário 
+quanto ao atendimento prestado a seus consumidores, faltando-lhes uniformidade nas 
+medidas por parte de diversas empresas, bem como os problemas de modelagens 
+ocasionados por desconhecimento das medidas dos brasileiros, destaca-se a importância 
+da análise dessas problemáticas. 
+Dado o exposto, buscou-se identificar a metodologia do sistema adotado 
+para a elaboração das normas de medidas do vestuário existentes no Brasil e caracterizar 
+como essa informação é absorvida pelo mercado, por meio dos relatórios fornecidos 
+pela instituição normalizadora e trabalhos desenvolvidos com a mesma temática.  
+
+
+---
+
+M o d a P a l a v r a E - p e r i ó d i c o  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ano 10, n.19, jan-jun 2017. ISSN 1982-615x 
+Página 138 de 149 
+ 
+Para propor o aprofundamento em relação à identificação de uma 
+metodologia e uma caraterização de mercado, foi utilizada, como embasamento 
+científico, a metodologia de Gil (2009). Com o intuito de responder aos objetivos, 
+houve uma pesquisa realizada em duas etapas: levantamento bibliográfico e 
+levantamento documental. Na primeira etapa, foram consultados materiais para elucidar 
+a temática; e, na segunda, houve a consulta das normas de referenciais de medidas do 
+vestuário da ABNT, assim como dos projetos da norma e de um boletim informativo, da 
+mesma instituição, a fim de identificar como são desenvolvidas as medidas propostas e 
+como elas são aplicadas ao mercado. 
+ 
+ERGONOMIA, ANTROPOMETRIA E A RELAÇÃO COM O VESTUÁRIO 
+A ergonomia estuda a relação do homem com o trabalho, e o vestuário faz 
+parte desse contexto ao proteger o corpo humano no momento em que exerce uma 
+atividade. Dessa forma, a moda se torna objeto de estudo da ergonomia, pelo fato de o 
+vestuário compor a relação entre homem e trabalho.  
+Iida (2005) define ergonomia como uma relação ampla na adaptação do 
+trabalho ao homem, ou seja, para analisar a interação do trabalho e do indivíduo, 
+consideram-se fatores que vão além do ambiente físico. Os aspectos cognitivos e 
+organizacionais, por exemplo, também são de interesse nessa análise, e, para o autor, a 
+ergonomia tem seu início após a Segunda Guerra Mundial, época em que havia o 
+trabalho de profissionais envolvidos em pesquisas militares, devido à necessidade de 
+novas tecnologias. 
+Segundo a IEA – International Ergonomics Association – (2008, p.03), 
+“ergonomia (ou Fatores Humanos) é a disciplina científica que trata da compreensão das 
+interações entre os seres humanos e outros elementos de um sistema”. A definição 
+internacional de Ergonomia ainda divide a disciplina em três competências: ergonomia 
+física, ergonomia cognitiva e ergonomia organizacional. A ergonomia física relaciona 
+características referentes ao corpo e ao trabalho; a ergonomia cognitiva aborda aspectos 
+mentais ao trabalho; e a ergonomia organizacional visualiza o sistema em que o trabalho 
+é desenvolvido. 
+Com uma definição voltada para o produto, Silveira (2008) sustenta que a 
+ergonomia se baseia na análise de critérios, cujos quais possibilitam a adaptação do 
+
+
+---
+
+M o d a P a l a v r a E - p e r i ó d i c o  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ano 10, n.19, jan-jun 2017. ISSN 1982-615x 
+Página 139 de 149 
+ 
+ambiente e do produto ao indivíduo, e que, para atingir esse objetivo, adota 
+fundamentos que preservam a vida humana nos quesitos saúde, segurança, conforto e 
+satisfação. 
+Nesse contexto, de preservação do corpo, a roupa assume um de seus 
+papéis, o de proteção. De acordo com Bezerra e Martins (2013), o vestuário faz uso de 
+estudos ergonômicos para contribuir na adequação da roupa ao usuário em seus 
+requisitos de conforto térmico, segurança, dinamismo e higiene, por exemplo, e a não 
+conformidade com esses quesitos pode acarretar prejuízo ao consumidor. 
+Para que o produto de moda atenda aos aspectos ergonômicos, todo seu 
+desenvolvimento deve atentar para requisitos de usabilidade, principalmente, na etapa 
+de modelagem, já que é nessa fase em que ocorre a materialização da ideia da criação 
+por meio do desenvolvimento de moldes que permitirão a reprodução em escala 
+industrial (MENEZES E SPAINE, 2010).  
+A aplicação de medidas antropométricas no desenvolvimento do produto de 
+moda deve estar focada no público-alvo de uma empresa. É fundamental, então, que se 
+tenha essa informação no início do projeto, na concepção, a fim de conhecer o usuário 
+para o qual se projeta para atender as suas características e necessidades (MENEZES E 
+SPAINE, 2010). 
+Segundo Iida (2005, p.97), “a antropometria trata das medidas físicas do 
+corpo humano”, sendo de grande interesse para a moda e servindo como um dos 
+instrumentos que a ergonomia utiliza para analisar a relação trabalho e homem. 
+Atualmente possui enfoque multidisciplinar, porque o conhecimento do corpo humano é 
+de interesse de diversas áreas, caracterizando-se pelo dimensionamento do corpo 
+humano e aplicação dessas medidas (SILVEIRA, 2008). 
+Apesar de a conceituação ser moderna, o estudo da antropometria pode ser 
+observado em períodos anteriores ao moderno, uma vez que diversos profissionais se 
+preocuparam em definir medidas corporais no decorrer da história. Todavia, Silveira 
+(2008) ressalta que foi somente a partir da década de 1940 que houve o interesse nos 
+estudos antropométricos pelo impulso decorrente da indústria, que tinha como 
+finalidade reduzir custos por meio da massificação de itens de vestuários e outros 
+produtos que precisavam se adequar em relação às medidas da população. 
+
+
+---
+
+M o d a P a l a v r a E - p e r i ó d i c o  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ano 10, n.19, jan-jun 2017. ISSN 1982-615x 
+Página 140 de 149 
+ 
+Dessa forma, expõe a autora que, para atender às exigências de mercado, o 
+produto de vestuário precisa ser pensado para o consumidor, a fim de que possam ser 
+aplicados, com qualidade, os critérios ergonômicos na confecção da roupa. 
+A criação de uma peça de vestuário dentro de aspectos da usabilidade 
+precisa levar em consideração que o corpo sofre diversas modificações no decorrer da 
+vida. Iida (2005) revela que a proporção da cabeça de um recém-nascido é de 3,8 vezes 
+do seu corpo, enquanto que, na vida adulta, essa proporção é de 7,5 aproximadamente. 
+Com a aproximação da velhice, o corpo sofre ainda alterações provocadas pela 
+gradativa perda de forças e mobilidade. 
+A proporção da cabeça é referência fundamental no desenho de moda, 
+porque é a partir dessa medida que se tem dimensão do corpo, conforme Maffei e 
+Menezes (2009). Para as mesmas autoras, a imprecisão da medida utilizada, da cabeça, 
+afeta as demais etapas do processo produtivo de moda, por permitir a interpretação da 
+falta de padronização das medidas. 
+Assim, as medidas e a compreensão de movimentos são essenciais nas 
+etapas de produção do vestuário de moda. São medidas apuradas, proporções adequadas 
+e um traçado harmônico que definem o caimento da roupa e conferem aspectos 
+ergonômicos a ela, além de que um produto adaptado ao consumidor permite a quem 
+produz diferenciar-se no mercado (MENEZES E SPAINE, 2010). 
+Projetos de design possuem suporte na antropometria para a resolução de 
+problemas, com o intuito de fornecer diferenciação ao produto no mercado (PIRES, 
+2014). Nesse sentido, ao considerar o vestuário como produto de uma metodologia de 
+design, é possível agregar valor por meio de medidas antropométricas do usuário a que 
+se destina a criação. 
+ 
+METODOLOGIAS PARA O DESENVOLVIMENTO DE REFERENCIAIS DE 
+MEDIDAS DO VESTUÁRIO NO BRASIL  
+Devido à dificuldade em disponibilizar ao consumidor um produto de 
+qualidade, principalmente em uma produção com escala industrial, países como Estados 
+Unidos, Alemanha e França iniciaram o século XX desenvolvendo grandes pesquisas 
+com o objetivo de propor uma tabela de medidas do corpo humano, segundo Yu (2014). 
+O mesmo autor apresenta, cronologicamente, a evolução de estudos antropométricos em 
+
+
+---
+
+M o d a P a l a v r a E - p e r i ó d i c o  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ano 10, n.19, jan-jun 2017. ISSN 1982-615x 
+Página 141 de 149 
+ 
+alguns países e verifica que o primeiro relatório sobre antropometria americana foi 
+publicado em 1921. Ele também salienta a recomendação de um padrão comercial 
+voltado para o vestuário 24 anos depois, em 1945, intitulado CS151. 
+Até o final dos anos 1980, Estados Unidos, Reino Unido, Dinamarca, 
+Alemanha, França, Japão, Austrália, Suécia e China já possuíam tabelas com 
+referenciais de medidas, e alguns desses países, inclusive, já haviam atualizado seus 
+estudos. 
+Somente na década de 1970, por iniciativa do INT (Instituto Nacional de 
+Tecnologia), iniciaram-se os primeiros estudos antropométricos no Brasil (BRANDÃO, 
+2015). Conforme a mesma autora, em 1977, o INT e a Coppe-UFRJ (Coordenação dos 
+Programas de Pós-Graduação e Pesquisa de Engenharia da Universidade Federal do Rio 
+de Janeiro), em conjunto, iniciaram um projeto intitulado “Medidas do Homem 
+Brasileiro”. Esse projeto teve diversas limitações técnicas, como equipamentos 
+inadequados para a realização das medidas antropométricas e até a localização da sede 
+para medição era desfavorável. 
+Essas dificuldades fizeram com que a pesquisa não fosse bem-sucedida, já 
+que não havia consistência e representatividade nos dados obtidos. Contudo, as 
+adversidades 
+serviram 
+como 
+aprendizado 
+sobre 
+as 
+limitações 
+do 
+projeto. 
+Posteriormente, segundo Brandão (2015), na década de 1980, o INT esteve à frente de 
+outra pesquisa voltada para a área agrícola que originou duas publicações: “Medidas 
+para Postos de Trabalho” e “Medidas para o Vestuário”. Percebeu-se, com isso, a 
+necessidade de criar um banco de dados com as informações sobre o vestuário, para 
+facilitar o acesso à informação. 
+Concomitantemente, surgiu, na ABNT, o Comitê de Têxtil e Vestuário, uma 
+vez que a carência e desconformidade nas etiquetas das roupas que estavam no mercado 
+eram comuns. As empresas se organizaram com o intuito de levantar dados 
+antropométricos, porém, ao final do processo, elas não quiseram compartilhar a 
+informação por uma questão estratégica. 
+A escassez de equipamentos antropométricos na década de 1970 e a falta de 
+cooperativismo na década de 1980 retardaram o acesso às informações acerca do perfil 
+físico do brasileiro. Por conta desses problemas, sugeriu-se a realização das medições, 
+mas, ainda assim, eram comuns os relatos de que não havia consenso entre os 
+
+
+---
+
+M o d a P a l a v r a E - p e r i ó d i c o  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ano 10, n.19, jan-jun 2017. ISSN 1982-615x 
+Página 142 de 149 
+ 
+profissionais da área da modelagem e de quais eram as posições corretas para medição. 
+Somente após 14 anos de estudo é que foi criado um referencial de medidas para o 
+corpo humano brasileiro, a NBR13377 (BRANDÃO, 2015). 
+Para suprir a dificuldade de identificação de parâmetros de medição no 
+vestuário, com o objetivo de uniformizar as medidas antropométricas, em 2002, a 
+ABNT disponibilizou a NBR12071. Nessa norma, podem ser verificados quais são os 
+pontos de importância para a confecção de um produto de vestuário, identificando a 
+posição de aferimento e considerando quatro peças de roupa como básicas: uma camisa, 
+um vestido, uma saia e uma calça. 
+Entretanto, em 2004, foi disponibilizada a NBR15127 (ABNT, 2004) que 
+trazia a maneira de como deveriam ser feitas as medidas corporais de um indivíduo. 
+Foram definidos 54 parâmetros que serviriam de auxílio para a confecção do vestuário e 
+para preencher hiatos existentes nas normas anteriores quanto à definição de marcações 
+do corpo humano. 
+Apesar de normalizar as marcações de medição de peças de roupas básicas e 
+desenvolver um referencial de medidas para o vestuário brasileiro, percebeu-se a 
+fragilidade das informações fornecidas, justamente porque a NBR13377 não 
+contemplava muitas medidas e perfis de usuários. Assim, nos anos posteriores, a ABNT 
+desenvolveu duas outras normas em busca de um maior aprofundamento nos gêneros de 
+vestuário.  
+Em um primeiro momento, normalizou-se a tabela de medidas infantil 
+(NBR15800), e, posteriormente, a masculina (NBR16060). Vale ressaltar que o 
+referencial de medida masculino é divido em três segmentos: normal, atlético e especial. 
+Essa divisão aponta a percepção da ABNT para uma sociedade de alta variabilidade de 
+medidas corporais e busca abranger um maior número de indivíduos para que a 
+indústria possa trabalhar com esses dados, a fim atender a um maior critério de 
+usabilidade no produto de vestuário. 
+Sobre as medidas dispostas na NBR13377, Sabrá, Santos e Dinis (2008) 
+afirmam que elas não são resultado de um estudo antropométrico, e sim de um acordo 
+entre representantes da cadeia têxtil da época em que foi desenvolvido o material. 
+Evidentemente, a análise do projeto de proposta da norma NBR16060, conforme 
+divulgado pela ABRAVEST (2011), não contempla a sugestão de um estudo 
+
+
+---
+
+M o d a P a l a v r a E - p e r i ó d i c o  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ano 10, n.19, jan-jun 2017. ISSN 1982-615x 
+Página 143 de 149 
+ 
+antropométrico, e o seu embasamento está nas medidas utilizadas pelas pessoas 
+envolvidas nesse projeto, ou seja, empresas, instituições de ensino e organizações do 
+setor do vestuário. 
+Maria Adelina Pereira, superintendente da ABNT/CB-17, comenta no 
+boletim informativo Na Medida Certa (2012) que a NBR 15800 contou com medições 
+de crianças em creches e escolas. Porém, quando analisado o projeto da norma infantil 
+(REVISTA ÉPOCA, 2011), percebeu-se que houve a fundamentação em informações 
+obtidas por empresas, como na norma masculina. 
+O projeto da NBR15800 (REVISTA ÉPOCA, 2011), por sua vez, apresenta 
+uma tabela com o nome de 53 pessoas e as instituições às quais elas estão vinculadas, e 
+são principalmente as empresas do setor de confecção que fazem parte desse projeto, 
+contando ainda com a participação de membros da ABNT, ABIT, ABRAVEST e da 
+Draft Manequins Industriais. 
+Vale ressaltar que o modelo de manequim oferecido pela Drat Manequins 
+Industriais é resultado da dissertação de mestrado de Elaine Radicetti, quem realizou o 
+estudo visando à padronização de medidas. Já a NBR16060 contou com 21 
+participantes, sendo que todos já haviam participado da elaboração da norma infantil de 
+2009.  
+O 
+SENAI/CETIQT, 
+com 
+uma 
+proposta 
+baseada 
+em 
+métodos 
+antropométricos e de uso do avanço tecnológico, também inovou e desenvolve, há 
+alguns anos, um projeto para a construção de um referencial de medidas feminino no 
+País: Projeto de Estudo de Levantamento Antropométrico. A pesquisa inicialmente 
+contou com a medição manual de 59 medidas definidas no escopo do projeto que, após 
+a aquisição de um body scanner (equipamento que faz o escaneamento do corpo 
+digitalmente) passou para 110 medidas (SABRÁ; SANTOS; DINIS, 2008).  
+Os autores apontam que, para o estudo, era necessário delimitar um modo e 
+condições de medição, definir quais as medidas a serem exploradas, um tempo para 
+medir e perguntas complementares a serem feitas, a fim de compor uma metodologia de 
+maior fidedignidade. Com a mudança da forma de medição, foi indispensável treinar 
+uma equipe para que o trabalho fosse feito de modo uniforme e em tempo estimado, 
+sempre com o objetivo de seguir um método que oferecesse maior credibilidade à 
+pesquisa. 
+
+
+---
+
+M o d a P a l a v r a E - p e r i ó d i c o  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ano 10, n.19, jan-jun 2017. ISSN 1982-615x 
+Página 144 de 149 
+ 
+O objetivo dessa pesquisa desenvolvida pelo SENAI/CETIQT foi o de 
+buscar mais informações e incorporá-las ao mercado do vestuário. Todavia, outros 
+dados podem ser coletados para servir de base em outros campos de pesquisa no futuro. 
+Desse modo, a complementação de um questionário qualitativo amplia a pesquisa e 
+pode auxiliar na segmentação dos setores analisados, conforme apontam Sabrá, Santos e 
+Dinis (2008) e Alves e Gruber (2011). 
+Nessa mesma perspectiva, Bastos et al. (2014) reiteram que a equipe do 
+Projeto de Estudo de Levantamento Antropométrico, ao visar à amplitude da pesquisa, 
+desenvolveu um questionário padronizado que aborda os hábitos de consumo da 
+população brasileira, para ser aplicado junto às medições. 
+ 
+A ABSORÇÃO DAS NORMAS PELO MERCADO 
+Os estudos de referenciais de medidas recebem importância cada vez maior 
+devido à necessidade desse tipo de informação para o mercado. A predominância do seu 
+caráter estratégico permanece, assim como foi na década de 1980, e as empresas que 
+atuam no setor de confecção carecem de medidas e informações sobre o consumidor 
+para desenvolver seus produtos. 
+Sylvio Napoli, gerente de Infraestrutura e Tecnologia da ABIT (Associação 
+Brasileira da Indústria Têxtil e de Confecção), estabelece que o progresso técnico se dá 
+por meio do alinhamento entre produtor e consumidor e que normas podem agir como 
+um meio para o alcance do objetivo (NA MEDIDA CERTA, 2012). Ele atesta ainda 
+que, para satisfazer o mercado internacional, é necessário adequar o produto às medidas 
+estrangeiras, assim, as normas com referenciais de medidas são fundamentais para essa 
+adaptação. 
+Entretanto, pode-se perceber a não adesão das empresas às normas da 
+ABNT. Seu caráter normalizador não pressupõe que as normas estão sendo seguidas, 
+mas pode ajudar na conformidade do mercado, assim como ressalva o boletim 
+informativo Na Medida Certa (2012). Ao serem analisadas as peças do vestuário infantil 
+em comparação à norma NBR15800, verifica-se grande variação de mesmas medidas 
+(BAZÁN et al., 2010). 
+Por outro lado, empresas do setor infantil que atuavam com e-commerce e 
+que haviam adotado a NBR15800 estavam satisfeitos com o desempenho e retorno que 
+
+
+---
+
+M o d a P a l a v r a E - p e r i ó d i c o  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ano 10, n.19, jan-jun 2017. ISSN 1982-615x 
+Página 145 de 149 
+ 
+essa adaptação da modelagem proporcionou, como, por exemplo, a redução de erro no 
+momento de desenvolvimento da modelagem e consequente diminuição dos custos (NA 
+MEDIDA CERTA, 2012). 
+As empresas Chicleteria e YKZ Moda Infantil são exemplos de empresas 
+que aderiram à NBR15800, e os relatos das experiências e dos resultados estão no 
+boletim informativo da ABNT de 2012. Além do retorno em relação à redução de erros 
+na elaboração da modelagem e à padronização das medidas, os responsáveis pelas 
+empresas relatam que a adequação das etiquetas das roupas, conforme sugere a ABNT, 
+com a indicação das medidas referentes à peça, foi importante para fazer o consumidor 
+identificar uma medida que atendesse às suas exigências e necessidades.  
+ 
+CONCLUSÃO 
+O aprofundamento dos estudos em ergonomia, principalmente o 
+antropométrico, foi de grande valia para permitir a melhoria da usabilidade na 
+massificação de diversos produtos, como os de segmento da moda. Entretanto, diante da 
+realidade brasileira, ainda há espaços vazios de informações a serem preenchidos, e isso 
+se deve ao atraso no estabelecimento da conformidade de padrões de medidas, à falta de 
+instrumentos apropriados para uma medição precisa, à extensão do país e, 
+principalmente, à miscigenação que resulta em uma variabilidade de biótipos. 
+A segmentação do perfil antropométrico por regiões pode minimizar as 
+dificuldades encontradas em atender o público, como sugere Bazán et al. (2010). Assim, 
+seria possível, em um menor espaço de tempo, aferir medidas de uma amostragem de 
+uma população reduzida e, provavelmente, de menor variabilidade. Porém, ao se optar 
+por esse método, é fundamental que as empresas repensem a sua abrangência, uma vez 
+que a produção voltada para o ajustamento a um determinado mercado poderá deixar de 
+atender a outro. 
+O desenvolvimento das pesquisas de referenciais de medidas corporais no 
+Brasil foi um desafio, sobretudo, em relação ao tempo de duração. Aprendeu-se muito 
+no processo, e hoje se trabalha para o aperfeiçoamento dos resultados. 
+A construção de uma norma para a definição de parâmetros de medidas foi 
+fundamental no processo para tornar as pesquisas futuras uniformes. Entretanto, mesmo 
+com a constatação da superintendente da ABNT/CB-17 quanto à realização de medições 
+
+
+---
+
+M o d a P a l a v r a E - p e r i ó d i c o  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ano 10, n.19, jan-jun 2017. ISSN 1982-615x 
+Página 146 de 149 
+ 
+antropométricas em creches e escolas para a elaboração da NBR15800, percebe-se, pelo 
+projeto da norma, que as informações foram obtidas de empresas, associações e 
+profissionais do ramo. 
+Com base na proposta de projeto que originou as normas de vestuário da 
+ABNT, mais especificamente a NBR15800 e NBR16060, pode-se perceber uma 
+limitação da pesquisa por não abordar uma metodologia de medição antropométrica 
+consistente, diferente do projeto que está em desenvolvimento pelo SENAI/CETIQT. 
+A sugestão de um método baseado em princípios antropométricos é 
+interessante para se conferir maior confiabilidade à pesquisa. Além disso, a divisão do 
+perfil masculino na NBR16060 vem atender a uma dificuldade percebida no mercado e, 
+por esse motivo, poderia ser adotada no gênero infantil, afinal, a fase de crescimento da 
+criança é caracterizada por várias mudanças corporais e de maneira rápida, como 
+descreve Iida (2005).  
+As 
+barreiras 
+pela 
+falta 
+de 
+informação 
+antropométrica 
+para 
+o 
+desenvolvimento do produto de moda sugerem possibilidades para o empresário, até 
+porque a segmentação do público pode vir a agregar valor ao produto e garantir melhor 
+retorno de capital. Assim, referenciar tipos de tamanho infantil pode desenvolver um 
+nicho de mercado altamente lucrativo, como apresenta Duhigg (2012), no livro “O 
+Poder do Hábito”, em que pais de primeira viagem tendem a ser compradores 
+impulsivos. Ademais, uma tabela de medidas uniforme pode potencializar o e-
+commerce, pois as pessoas passariam a ter mais segurança na hora da compra à medida 
+que consumissem mais vezes, gerando, desse modo, um cliente fiel a uma marca. 
+Contudo, de acordo com o boletim informativo Na Medida Certa (2012),      
+percebe-se a satisfação do empresário com as normas NBR15800 e NBR16060. Outro 
+fator abordado no relatório e que abre margem para algumas reflexões é a adesão aos 
+referenciais de medidas como fator de diferenciação. No mesmo material, Sylvio 
+Napoli, da ABIT, comenta que, para a empresa atingir mercados internacionais, é 
+necessária a adequação às medidas do país que se busca explorar mercado, para facilitar 
+o processo de confecção. 
+Apesar de ter sido verificada uma evolução em relação aos referencias de 
+medidas no Brasil nos últimos anos, o País ainda carece de estudos antropométricos. 
+Isso é justificado com a variabilidade dos biótipos somada com a escassez de recursos 
+
+
+---
+
+M o d a P a l a v r a E - p e r i ó d i c o  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ano 10, n.19, jan-jun 2017. ISSN 1982-615x 
+Página 147 de 149 
+ 
+para o desenvolvimento de pesquisas de maior confiabilidade. Com base nisso, 
+sugerem-se, para estudos futuros, propostas de pesquisas antropométricas locais 
+integradas que possam vir a criar um banco de dados e verificar, junto às empresas, 
+como elas lidam com a dificuldade de parâmetros antropométricos.  
+ 
+ 
+Artigo recebido em Agosto de 2016. Aprovado em Setembro de 2016 
+DOI:http://dx.doi.org/105965/1982615x10192016135 
+ 
+REFERÊNCIAS 
+ 
+ALVES, Andressa Schneider; GRUBER, Crislaine. Estudo Comparativo Entre Tabelas 
+de Medidas Femininas para Modelagem. In: COLÓQUIO DE MODA, 7º, 2011, 
+Maringá. Anais Colóquio de Moda. 2011. Disponível em: 
+<http://coloquiomoda.com.br/anais/anais/7-Coloquio-de-
+Moda_2011/GT13/Comunicacao-
+Oral/CO_89501Estudo_Comparativo_entre_Tabelas_de_Medidas_Femininas_para_Mo
+delagem_.pdf>. Acesso em: 08 abr. 2016. 
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 13377: medidas do 
+corpo humano para vestuário - padrões referenciais. Rio de Janeiro: ABNT, 1995. 
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 12071: artigos 
+confeccionados para vestuário - determinação das dimensões. São Paulo: ABNT, 2002. 
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 15127: corpo 
+humano - definição de medidas. São Paulo: ABNT, 2004. 
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 15800: vestuário - 
+referenciais de medidas do corpo humano - vestibilidade de roupas para bebê e infanto-
+juvenil. São Paulo: ABNT, 2009. 
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 16060: vestuário - 
+referenciais de medidas do corpo humano - vestibilidade para homens corpo tipo 
+normal, atlético e especial. São Paulo: ABNT, 2012. 
+BASTOS, Sergio F. et al. SizeBR – O Estudo Antropomético Brasileiro. 2014. 
+Disponível em: 
+<http://arquivos.portaldaindustria.com.br/app/conteudo_18/2014/07/10/6822/SizeBR_P
+or.pdf?r=0.562248437169>. Acesso em: 08 abr. 2016. 
+BAZÁN, Aline Aristides et al. Antropometria para a confecção – dados de Cianorte e 
+região. Gepros: Gestão da Produção, Operações e Sistemas, Bauru, v. 4, n. 5, p.61-
+77, dez. 2010. Disponível em: < 
+http://revista.feb.unesp.br/index.php/gepros/article/viewFile/887/382>. Acesso em: 08 
+abr. 2016. 
+
+
+---
+
+M o d a P a l a v r a E - p e r i ó d i c o  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ano 10, n.19, jan-jun 2017. ISSN 1982-615x 
+Página 148 de 149 
+ 
+BEZERRA, Germana Maria Fonenelle; MARTINS, Suzana Barreto. Equação da 
+ergonomia no design de vestuário: espaço do corpo, modelagem e materiais. 2013. 
+Disponível em: <http://coloquiomoda.com.br/anais/anais/2-Coloquio-de-
+Moda_2006/artigos/107.pdf>. Acesso em: 27 out. 2016. 
+BRANDÃO, Júlia Coelho. Sistematizações de medidas de vestuário no Brasil: 
+percepções e perspectivas. 2015. Dissertação (Mestrado em Têxtil e Moda) - Escola de 
+Artes, Ciências e Humanidades, Universidade de São Paulo, São Paulo, 2015. 
+Disponível em: <http://www.teses.usp.br/teses/disponiveis/100/100133/tde-22062015-
+103755/>. Acesso em: 2016-04-01. 
+DRAFT MANEQUINS INDUSTRIAIS. Disponível em: 
+<http://www.draftmanequins.com.br/#!sport/cl3g>. Acesso em: 08 abr. 2016. 
+DUHIGG, Charles. O Poder do Hábito. Rio de Janeiro: Objetiva, 2012. 408 p. 
+GIL, Antonio Carlos. Como elaborar projetos de pesquisa. 4. ed. São Paulo: Atlas, 
+2002. 175 p. 
+IIDA, Itiro. Ergonomia: projeto e produção. 2. ed. São Paulo: E. Blucher, 2005. 614 p. 
+INTERNATIONAL ERGONOMICS ASSOCIATION (EUA). Conselho Científico 
+Internacional. Definição internacional de ergonomia. Ação Ergonômica: Revista 
+Brasileira de Ergonomia, São Paulo, v. 3, n. 2, 2008. Disponível em: 
+<http://www.abergo.org.br/revista/index.php/ae/article/view/61/58>. Acesso em: 08 abr. 
+2016. 
+MAFFEI, Simone Thereza Alexandrino; MENEZES, Marizilda dos Santos. 
+Antropometria no design de moda: da representação bidimensional ao uso 
+tridimensional. Educação Gráfica, Bauru, v. 13, n. 02, p.188-199, 2009. Disponível 
+em: <http://www.educacaografica.inf.br/revistas/vol-14-num-2-2009>. Acesso em: 08 
+abr. 2016. 
+MENEZES, Marizilda dos Santos; SPAINE, Patricia Aparecida de Almeida. 
+Modelagem Plana Industrial do Vestuário: diretrizes para a indústria do vestuário e o 
+ensino-aprendizado. Projética, Londrina, v. 1, n. 1, p.82-100, dez. 2010. Disponível 
+em: < http://www.uel.br/revistas/uel/index.php/projetica/article/view/7737/6858 >. 
+Acesso em: 27 out. 2016. 
+NA MEDIDA CERTA. São Paulo: Abnt, v. 10, mar. 2012. Disponível em: 
+<http://www.abnt.org.br/images/boletim/Marco-2012.pdf >. Acesso em: 27 abr. 2016. 
+PIRES, Gisely Andressa et al. A ausência da padronização de medidas no vestuário 
+infantil. In: Congresso Brasileiro De Pesquisa E Desenvolvimento Em Design, 11º, 
+2014, Gramado. Blucher Proceedings. São Paulo: Blucher, 2014. v. 1. Disponível em: 
+<http://www.ufrgs.br/ped2014/trabalhos/trabalhos/946_arq2.pdf>. Acesso em: 08 abr. 
+2016. 
+PROJETO ROUPAS MASCULINAS. São Paulo: ABRAVEST. 2011. Disponível em: 
+<http://www.abravest.org.br/arquivos/projetoroupasmasculinas.pdf>. Acesso em: 08 
+abr. 2016. 
+
+
+---
+
+M o d a P a l a v r a E - p e r i ó d i c o  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ano 10, n.19, jan-jun 2017. ISSN 1982-615x 
+Página 149 de 149 
+ 
+SABRÁ, Flávio. Inovação, estudos e pesquisas: reflexões para o universo têxtil e de 
+confecção. São Paulo: Estação das Letras e Cores, Rio de Janeiro: SENAI/CETIQT, 
+2012. 3 v. 
+SABRÁ, Flávio Glória Caminada; SANTOS, Cristiane de Souza dos; DINIS, Patrícia 
+Martins. Estabelecendo uma metodologia para medição do corpo humano. In: Colóquio 
+de Moda, 4º, 2008, Novo Hamburgo. Anais Colóquio de Moda. 2008. Disponível em: 
+<http://www.coloquiomoda.com.br/anais/anais/4-Coloquio-de-Moda_2008/42850.pdf>. 
+Acesso em: 08 abr. 2016. 
+SILVEIRA, Icléia; SILVA, Giorgio. Antropometria e a sua aplicação na ergonomia 
+do vestuário. In: Colóquio de Moda, 4º, 2008, Novo Hamburgo. Anais Colóquio de 
+Moda. 2008. Disponível em: < http://coloquiomoda.com.br/anais/anais/4-Coloquio-de-
+Moda_2008/40376.pdf>. Acesso em: 08 abr. 2016. 
+VIDA ÚTIL: Norma. São Paulo. Revista Época. 2011. Disponível em: 
+<http://epoca.globo.com/edic/662/662_vidautil_norma.pdf>. Acesso em: 08 abr. 2016. 
+YU, W. Human Anthropometrics and Sizing Systems. FAN, Jintu; YU, Winnie; 
+HUNTER, Lawrance. Clothing appearance and fit: Science and technology. 
+Cambridge, UK. The Textile Institute, 2004. 
+ 

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import type { CSSProperties } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Carretel, FitaMetrica, Manequim, RiscoEncaixe, RoloTecido, SimboloEmPartes, Tesoura } from "@/components/landing/art";
+import { Carretel, FichaPronta, FitaMetrica, Manequim, ManequimGiro, RiscoEncaixe, RoloDesenrolando, RoloTecido, SimboloEmPartes, Tesoura } from "@/components/landing/art";
 import { InstallApp } from "@/components/install-app";
 import { BrandLogo, BrandSymbol } from "@/components/brand-mark";
 import { SavingsCalculator } from "@/components/landing/calculator";
@@ -48,6 +48,49 @@ const PASSOS = [
   ["As partes do molde", "Frente, costas e saia saem do mesmo arquivo do desenho 2D."],
   ["Vestem o corpo pela sua tabela", "O manequim tem as medidas da sua tabela, tamanho por tamanho."],
   ["O alinhavo fecha a costura", "Você vê onde aperta e onde sobra antes do primeiro corte."],
+] as const;
+
+const PAPEIS = [
+  {
+    quem: "Para a estilista",
+    cor: "lp-tag-fita",
+    titulo: "Cria a coleção e aprova o caimento no corpo.",
+    entrega: "Ficha técnica, variantes de tecido e link de aprovação.",
+    itens: [
+      "Monta a coleção com referências, tecidos, cores e cronograma de entregas",
+      "Vê a peça vestida de frente, lado e costas na Prova 3D sem esperar o piloto físico",
+      "Manda link pelo WhatsApp para a cliente ou diretoria aprovar do celular",
+    ],
+  },
+  {
+    quem: "Para a modelista",
+    cor: "lp-tag-papel",
+    titulo: "Constrói, gradua e ajusta o molde uma vez só.",
+    entrega: "Molde 2D + grade PP–GG sincronizados com a Prova 3D.",
+    itens: [
+      "Desenha do zero, parte de uma base da biblioteca ou traz o molde de papel pelo Scan",
+      "Veste o manequim com a tabela de medidas real da marca, tamanho por tamanho",
+      "Alongou ou soltou na Prova 3D? O molde 2D já salva a versão nova com a medida exata",
+    ],
+  },
+  {
+    quem: "Para a confecção e o corte",
+    cor: "lp-tag-giz",
+    titulo: "Recebe o risco encaixado e corta sem surpresa.",
+    entrega: "DXF-AAMA, PLT, PDF 1:1 e consumo medido na ficha.",
+    itens: [
+      "Risco automático na largura real do rolo, respeitando fio e sentido do tecido",
+      "Consumo de tecido e aviamentos calculado direto do encaixe, sem chute na planilha",
+      "Ordem de corte com versão fechada: a mesa corta exatamente o que foi aprovado",
+    ],
+  },
+] as const;
+
+const ENTREGAS_PECA = [
+  ["01 · Molde 2D graduado", "Base, pences, piques, margem de costura e grade completa em DXF-AAMA e PDF 1:1."],
+  ["02 · Prova 3D aprovada", "Peça vestida no manequim da sua tabela, mapa de pressão e histórico de aprovação por link."],
+  ["03 · Risco encaixado no rolo", "Todas as partes da grade posicionadas na largura do tecido com aproveitamento medido."],
+  ["04 · Ficha técnica com consumo", "Metragem por peça, aviamentos, sequência operacional e custo prontos para a produção."],
 ] as const;
 
 // As objeções que seguram a compra vêm primeiro (preço, teste, confiança no 3D, troca de CAD); as técnicas depois.
@@ -206,6 +249,7 @@ export default function Home() {
             </Link>
             <nav className="ml-auto hidden items-center gap-7 text-[15px] text-tinta-suave md:flex" aria-label="Seções">
               <a href="#como-funciona" className="hover:text-tinta">Como funciona</a>
+              <a href="#para-quem" className="hover:text-tinta">Para quem é</a>
               <a href="#calculadora" className="hover:text-tinta">Calculadora</a>
               <a href="#preco" className="hover:text-tinta">Preço</a>
               <a href="#perguntas" className="hover:text-tinta">Perguntas</a>
@@ -227,8 +271,8 @@ export default function Home() {
               </h1>
               <span className="lp-entra alinhavo mt-7 w-44" style={d(0.16)} aria-hidden="true" />
               <p className="lp-entra mt-7 max-w-lg text-lg leading-relaxed text-tinta-suave sm:text-xl" style={d(0.22)}>
-                Desenhe o molde, vista no corpo em 3D e veja onde aperta. O ajuste feito na prova volta para o molde.
-                Tudo no navegador.
+                Do desenho à <b className="font-semibold text-tinta">peça pronta para cortar</b>: molde 2D graduado, prova 3D no manequim
+                da sua tabela, aprovação por link, risco encaixado e ficha com consumo real. Tudo no navegador.
               </p>
               <div className="lp-entra mt-9 flex flex-wrap gap-3" style={d(0.3)}>
                 <Link href="/experimentar" className="rounded-[10px] bg-linha px-6 py-3.5 font-medium text-white hover:bg-[#a93220]">
@@ -492,7 +536,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 7. Encaixe e ficha: as peças caem no tecido. */}
+      {/* 7. Encaixe e ficha: o rolo de tecido desenrola e as peças caem no risco. */}
       <section data-cena="encaixe" className="relative overflow-x-clip bg-tinta text-papel">
         <div className="lp-grade-clara absolute inset-0" aria-hidden="true" />
         <div className="relative mx-auto max-w-7xl px-5 py-24 sm:px-10 lg:py-28">
@@ -500,6 +544,10 @@ export default function Home() {
             <div>
               <p className="font-mono text-[12px] tracking-[0.14em] text-papel/60 uppercase">Encaixe e ficha técnica</p>
               <h2 className={`${h2} mt-5`}>Saiba o consumo antes de comprar o tecido.</h2>
+              <p className="mt-5 max-w-lg text-[17px] leading-relaxed text-papel/80">
+                O rolo abre na largura real da mesa, as peças da grade se encaixam respeitando o fio e a ficha técnica já sai
+                com metragem e aviamentos prontos para cortar.
+              </p>
             </div>
             <div className="grid gap-4 sm:grid-cols-2">
               {[
@@ -515,7 +563,21 @@ export default function Home() {
               ))}
             </div>
           </div>
-          <figure className="lp-risco mt-16">
+
+          {/* O rolo de tecido se desenrolando sobre a mesa com a rolagem */}
+          <figure className="lp-rolo-mesa mt-14">
+            <div className="mb-3 flex flex-wrap items-center justify-between gap-3 font-mono text-xs text-papel/70">
+              <span className="uppercase tracking-[0.14em] text-fita">01 · O rolo abre na largura do tecido</span>
+              <span>Sarja 1,60 m · ourela a ourela · linha de fio travada</span>
+            </div>
+            <RoloDesenrolando className="w-full" />
+          </figure>
+
+          <figure className="lp-risco mt-12">
+            <div className="mb-3 flex flex-wrap items-center justify-between gap-3 font-mono text-xs text-papel/70">
+              <span className="uppercase tracking-[0.14em] text-fita">02 · A grade inteira encaixa sem desperdício</span>
+              <span>DXF-AAMA · PLT · PDF 1:1</span>
+            </div>
             <RiscoEncaixe className="w-full" />
             <figcaption className="mt-4 flex flex-wrap items-center gap-x-6 gap-y-2 font-mono text-xs text-papel/70">
               <span>
@@ -524,6 +586,127 @@ export default function Home() {
               <span>Desenho ilustrativo. No app, o aproveitamento de cada risco é medido.</span>
             </figcaption>
           </figure>
+        </div>
+      </section>
+
+      {/* 7b. Da criação à peça pronta para cortar: vitrine horizontal com zoom, manequim girando e entrega por papel. */}
+      <section id="para-quem" data-cena="entrega" className="relative scroll-mt-4 overflow-x-clip bg-papel">
+        <div className="lp-entrega-palco relative flex flex-col justify-center py-24 lg:h-svh lg:py-0">
+          <p
+            className="lp-entrega-fundo pointer-events-none absolute top-[6%] left-0 font-display text-[20vw] leading-none font-semibold tracking-[-0.04em] whitespace-nowrap text-tinta/[0.05] lg:text-[14vw]"
+            aria-hidden="true"
+          >
+            estilista · modelista · confecção · peça pronta para cortar
+          </p>
+          <div className="relative mx-auto w-full max-w-7xl px-5 sm:px-10">
+            <div className="flex flex-wrap items-end justify-between gap-6">
+              <div>
+                <p className={rotulo}>Para quem é e o que entrega</p>
+                <h2 className={`${h2} mt-4`}>
+                  Da ideia à <span className="lp-marca">peça pronta para cortar</span>.
+                </h2>
+              </div>
+              <p className="max-w-md text-[16px] leading-relaxed text-tinta-suave">
+                Estilista, modelista e confecção trabalham sobre a mesma peça: cada uma faz a sua parte e o corte recebe tudo
+                fechado.
+              </p>
+            </div>
+            <p className="mt-4 font-mono text-[13px] text-tinta-suave lg:hidden">Arraste para ver cada etapa →</p>
+          </div>
+
+          <div className="lp-varal-janela relative mt-8">
+            <div className="lp-entrega-trilho relative flex w-max items-stretch gap-6 px-5 pb-6 sm:px-10 lg:gap-9">
+              {/* Cartão 1: A entrega completa — Peça pronta para cortar (abre em destaque com zoom no scroll) */}
+              <article className="lp-entrega-card lp-entrega-zoom papel-milimetrado flex w-[min(86vw,560px)] flex-none flex-col justify-between rounded-2xl border-2 border-tinta bg-papel p-6 shadow-[0_26px_45px_-26px_rgb(29_27_24/0.45)] sm:p-8">
+                <div>
+                  <div className="flex flex-wrap items-center justify-between gap-2">
+                    <span className="rounded-md bg-linha px-2.5 py-1 font-mono text-[11px] font-semibold tracking-[0.12em] text-papel uppercase">
+                      O pacote completo da peça
+                    </span>
+                    <span className="font-mono text-xs text-tinta-suave">01 / 05 · Entrega final</span>
+                  </div>
+                  <h3 className="mt-4 font-display text-3xl leading-tight font-semibold tracking-[-0.02em] sm:text-4xl">
+                    O que sai pronto quando a peça fecha.
+                  </h3>
+                  <p className="mt-2 text-[15px] leading-relaxed text-tinta-suave">
+                    Não é só o desenho 2D nem só uma imagem 3D solta: cada referência entrega os quatro arquivos que a mesa de
+                    corte e a oficina precisam.
+                  </p>
+                </div>
+                <div className="mt-5 grid gap-4 sm:grid-cols-[1.05fr_0.95fr] sm:items-center">
+                  <FichaPronta className="w-full" />
+                  <ul className="grid gap-2.5 text-[13.5px]">
+                    {ENTREGAS_PECA.map(([titulo, desc]) => (
+                      <li key={titulo} className="rounded-xl border border-tinta/15 bg-white/90 px-3.5 py-2.5">
+                        <p className="font-mono text-xs font-semibold text-tinta">{titulo}</p>
+                        <p className="mt-0.5 text-xs leading-snug text-tinta-suave">{desc}</p>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </article>
+
+              {/* Cartões 2, 3 e 4: Estilista, Modelista e Confecção */}
+              {PAPEIS.map((papel, idx) => (
+                <article
+                  key={papel.quem}
+                  className={`lp-entrega-card flex w-[min(82vw,390px)] flex-none flex-col justify-between rounded-2xl border-2 border-tinta p-6 shadow-[0_26px_45px_-26px_rgb(29_27_24/0.45)] sm:p-7 ${papel.cor}`}
+                >
+                  <div>
+                    <div className="flex items-center justify-between gap-3">
+                      <span className="rounded-full border border-current/35 px-3 py-1 font-mono text-[11px] font-semibold tracking-[0.1em] uppercase">
+                        {papel.quem}
+                      </span>
+                      <span className="font-mono text-xs opacity-70">0{idx + 2} / 05</span>
+                    </div>
+                    <h3 className="mt-5 font-display text-3xl leading-[1.06] font-semibold tracking-[-0.02em]">
+                      {papel.titulo}
+                    </h3>
+                    <ul className="mt-5 grid gap-3 text-[14.5px] leading-relaxed">
+                      {papel.itens.map((item) => (
+                        <li key={item} className="flex gap-2.5">
+                          <span className="mt-0.5 font-mono text-xs font-bold opacity-80" aria-hidden="true">
+                            ✓
+                          </span>
+                          <span className="opacity-90">{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div className="mt-6 rounded-xl border border-current/25 bg-black/[0.06] px-4 py-3">
+                    <p className="font-mono text-[10px] tracking-[0.12em] uppercase opacity-75">Entrega na mão</p>
+                    <p className="mt-1 font-mono text-xs font-semibold">{papel.entrega}</p>
+                  </div>
+                </article>
+              ))}
+
+              {/* Cartão 5: Manequim em giro 360° (frente, lado e costas na mesma tabela) */}
+              <article className="lp-entrega-card flex w-[min(86vw,500px)] flex-none flex-col justify-between rounded-2xl border-2 border-tinta bg-tinta p-6 text-papel shadow-[0_26px_45px_-26px_rgb(29_27_24/0.55)] sm:p-7">
+                <div className="grid gap-5 sm:grid-cols-[1.05fr_0.95fr] sm:items-center">
+                  <div>
+                    <span className="inline-block rounded-md bg-fita px-2.5 py-1 font-mono text-[11px] font-semibold tracking-[0.12em] text-tinta uppercase">
+                      Giro na prova · 05 / 05
+                    </span>
+                    <h3 className="mt-4 font-display text-3xl leading-tight font-semibold tracking-[-0.02em]">
+                      Frente, lado e costas antes da tesoura.
+                    </h3>
+                    <p className="mt-3 text-[14.5px] leading-relaxed text-papel/80">
+                      O manequim gira com as medidas da sua grade para a estilista aprovar o caimento, a modelista conferir
+                      pences e cavas e a confecção liberar o corte com segurança.
+                    </p>
+                    <div className="mt-5 flex flex-wrap gap-2 font-mono text-[11px]">
+                      <span className="rounded-md border border-papel/25 px-2.5 py-1 text-fita">PP ao GG Plus</span>
+                      <span className="rounded-md border border-papel/25 px-2.5 py-1 text-papel/85">Mapa de folga</span>
+                      <span className="rounded-md border border-papel/25 px-2.5 py-1 text-papel/85">Em pé ou sentada</span>
+                    </div>
+                  </div>
+                  <div className="mx-auto w-full max-w-[230px]" style={{ perspective: "900px" }}>
+                    <ManequimGiro className="w-full" />
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
         </div>
       </section>
 

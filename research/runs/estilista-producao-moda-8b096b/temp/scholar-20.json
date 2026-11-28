@@ -1,0 +1,1043 @@
+{
+  "ok": true,
+  "data": {
+    "query": "fashion product development process designer technical design fit approval",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 25,
+      "crossref": 25,
+      "doab": 0
+    },
+    "raw_records": 50,
+    "merged_records": 50,
+    "returned": 50,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Fashion Product Development: Foundations, Processes and Practice",
+        "source": "openalex",
+        "url": "https://research.manchester.ac.uk/en/publications/5ce520a0-e1b5-4f98-a5d8-1f2b56832bc1",
+        "doi": "10.71535/5ce520a0-e1b5-4f98-a5d8-1f2b56832bc1",
+        "year": 2026,
+        "authors": [
+          "Rachel Parker-Strak",
+          "Rachel Studd"
+        ],
+        "venue": "Research Explorer (The University of Manchester)",
+        "abstract": "Fashion Product Development: Foundations, Processes and Practice introduces the Fashion Product Development process through a clear, student-friendly and industry-informed approach. Moving from trend insight and consumer understanding through to product direction, range planning and commercial decision-making, the book helps readers understand how fashion ideas are researched, developed and brought to market. It connects creative thinking with brand, retail, digital, global and sustainability contexts, supporting students to apply Fashion Product Development concepts in practical and commercially relevant ways.",
+        "pdf_url": "https://manchester.pressbooks.pub/fashionproductdevelopment/open/download?type=pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W7223017579",
+        "extra": {
+          "openalex_type": "other",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "An evaluation of garment fit to improve customer body fit of fashion design clothing",
+        "source": "openalex",
+        "url": "https://doi.org/10.1007/s00170-022-08965-z",
+        "doi": "10.1007/s00170-022-08965-z",
+        "year": 2022,
+        "authors": [
+          "Kaixuan Liu",
+          "Hanhan Wu",
+          "Chun Zhu",
+          "Jianping P. Wang",
+          "Xianyi Zeng",
+          "Xuyuan Tao",
+          "Pascal Bruniaux"
+        ],
+        "venue": "The International Journal of Advanced Manufacturing Technology",
+        "abstract": "Currently, garment fit evaluation is one of the biggest bottlenecks for fashion design and manufacturing. In this paper, we proposed a garment fit prediction model using data learning technology, such as Back Propagation Artificial Neural Networks (BP-ANNs), Random Forest, Bayesian Classifier. The inputs of the proposed model are digital clothing pressures measured by virtual try-on; while the output of the model is one of the three fit conditions- tight, fit or loose. In order to acquire reliable learning data, virtual and real try-on experiments were carried out to collect input and output learning data respectively. After learning from the collected input and output experimental data, the proposed model can predict garment fit rapidly and automatically by inputting digital clothing pressures measured by virtual try-on. Test results showed that the prediction accuracies of data-learning-based garment fit evaluation methods are much better than that of traditional methods.",
+        "pdf_url": "https://www.researchsquare.com/article/rs-1088025/latest.pdf",
+        "citation_count": 62,
+        "work_type": "article",
+        "identifier": "W4214514168",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Integrated Digital Prototyping in the Fashion Product Development",
+        "source": "openalex",
+        "url": "https://doi.org/10.15406/jteft.2017.03.00089",
+        "doi": "10.15406/jteft.2017.03.00089",
+        "year": 2017,
+        "authors": [
+          "Evridiki Papahristou",
+          "Nikolas G. Bilalis"
+        ],
+        "venue": "Journal of Textile Engineering & Fashion Technology",
+        "abstract": "The research was set out to explore the effective integration of Digital Prototype in the product development process of the TCF industry, investigating the level of implementation of new digital technologies and especially 3D visualisation and virtualisation of a garment product comparing the enthusiasm, vision, scepticism, evangelism and restrained optimism between technology providers-vendors, entrepreneurs-independents, professional & experienced users and academics-researchers of clothing/fashion courses. A combination of primary and secondary sources was used. First hand interviews to investigate the level of technology implementation in the early adopters, the vision of the big corporations, entrepreneurs and professional users as well as the involvement of academics. Analysis of the collected primary and secondary data showed that on the one hand the traditional process of sample making has not changed but on the other hand fashion companies although using it, are facing many problems: time spent in developing and approving samples, lack of standardization of software solutions, and willingness to adopt new technology are some of them. It has been found that there has been a lack of research in the new dimensioned digital prototype of clothing at the product development level in a qualitative manner and from a perspective not so engineered-focused. Technology is revolutionary and overturning traditional processes. Therefore, the analysis of the effective integration of Digital Prototype in the product development process of the TCF industry is a key original factor of this paper.",
+        "pdf_url": "https://medcraveonline.com/JTEFT/JTEFT-03-00089.pdf",
+        "citation_count": 8,
+        "work_type": "article",
+        "identifier": "W2766392524",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Fit models’ roles in identifying fit issues in the apparel technical design process and implications for improving 3D virtual fitting",
+        "source": "openalex",
+        "url": "https://doi.org/10.1186/s40691-024-00398-4",
+        "doi": "10.1186/s40691-024-00398-4",
+        "year": 2024,
+        "authors": [
+          "Yoon Joung Yang",
+          "Fatma Baytar"
+        ],
+        "venue": "Fashion and Textiles",
+        "abstract": "Fit sessions are essential in making well-fitted clothing. During these sessions, apparel fit is determined iteratively by a team of designers, technical designers, fit models, and merchandisers. With the advent of the digitalization of new product development processes in the fashion industry, fit sessions have been seen as a bottleneck for they are still held in person. However, the process is currently still irreplaceable, and what makes the feedback provided by fit models important is an area that has never been tapped. Therefore, the present study aimed to understand fit models’ role in fit sessions as well as how they assess the fit of garments and deliver their feedback. On-site observation during fit sessions and individual interviews with fit models were conducted. It was found that fit models gave comfort, fit, and tactile comments by testing garments while standing and moving between several postures. They had knowledge that overlapped with those of technical designers and designers and this empowerment enabled them to take part in the decision-making process in fit sessions. It also was found that fit models’ feedback on garments was essential as they were the first people to try on the garments and present the customers’ points of view.",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1186/s40691-024-00398-4.pdf",
+        "citation_count": 14,
+        "work_type": "article",
+        "identifier": "W4402642452",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "3D dynamic fashion design development using digital technology and its potential in online platforms",
+        "source": "openalex",
+        "url": "https://doi.org/10.1186/s40691-021-00286-1",
+        "doi": "10.1186/s40691-021-00286-1",
+        "year": 2022,
+        "authors": [
+          "Kyunghee Choi"
+        ],
+        "venue": "Fashion and Textiles",
+        "abstract": "The purpose of this study is to develop 3D dynamic fashion garments with changeable styles, colors and textile patterns, especially using a 3D virtual simulation system, and to examine their potential possibilities in online fashion platforms. For designing and developing 3D dynamic fashion garments, CLO3D and Aftereffects were used with a design collaboration between a fashion designer and a motion graphic artist group. Ten samples of a ready-to-wear collection were developed to visualize aesthetic and technological explorations of 3D dynamic fashion garments, composed of short videos. This study also evaluated the potential of 3D dynamic fashion garments along with 3D virtual simulation systems through focus group interview with professional fashion designers and digital experts, which indicated social and industrial possibilities toward them. This survey showed a list of findings in terms of current status of 3D virtual simulation systems and their impact on companies, discourses on the uncanny valley surrounding avatars, changes in fashion design process derived from 3D virtual simulation systems, co-design and customization in online platforms, and future prospects of 3D virtual garments in the fashion and gaming industries. Finally, this study led to discussions on future possible digital fashion design with several implications, based on design criteria, including digital technology, dynamic range, wearability, expressivity, interactivity, sustainability, and context.",
+        "pdf_url": null,
+        "citation_count": 209,
+        "work_type": "article",
+        "identifier": "W4220844958",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Transparency considerations for the ethical fashion designer",
+        "source": "openalex",
+        "url": "https://eprints.hud.ac.uk/id/eprint/35565/1/FINAL%20THESIS%20-%20Perkins.pdf",
+        "doi": null,
+        "year": 2021,
+        "authors": [
+          "Laurie Perkins"
+        ],
+        "venue": "University of Huddersfield Repository (University of Huddersfield)",
+        "abstract": "The purpose of this research was to explore transparency in garment manufacturing and ethical sourcing, drawing on the researcher’s personal experience working within the fashion industry, specifically as part of the garment supply chain. The motivation for this research stems from the researcher’s personal experience that they have encountered during their career in the fashion industry. These personal experiences have been drawn upon and directed and added value to this research. Literature was reviewed on the practices in the fashion industry and other topical issues that relate. Primary research was conducted, and the researcher experimented with creative pattern cutting techniques as a design tool, whilst taking sustainability into account whilst designing. Three mini case studies were conducted on other self-proclaimed transparent and ethical fashion businesses and outlined the difficulties faced when running such a business. The research also included a consumer survey to study the purchasing behaviour of the consumer and investigating their opinion on the ethical considerations of products in the fashion and clothing industry, to validate the study. This research found that pattern cutting techniques, specifically with minimal wastage in mind, can create a space in which to design ethically and with transparency when wanting to create a fashion garment. The research also found that ethical fashion companies faced similar problems, in terms of ensuring their supply chain is transparent, as well as managing difficulties regarding cost price and therefore ensuring the retail price is attractive to the consumer. This was also a key theme that emerged from the consumer survey, in that consumers were willing to spend some more money on an ethical and sustainable product, but within limits. Overall, the consumer research survey found that consumers were interested in finding out more about the origins of the products they buy, and that sustainability can be an influence on their purchasing habits.",
+        "pdf_url": "https://eprints.hud.ac.uk/id/eprint/35565/1/FINAL%20THESIS%20-%20Perkins.pdf",
+        "citation_count": 4,
+        "work_type": "thesis",
+        "identifier": "W3194244530",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Exploring the Learning Process of DIY Fashion Designers Embracing Entrepreneurship",
+        "source": "openalex",
+        "url": "https://doi.org/10.7916/d8-dzpc-f235",
+        "doi": "10.7916/d8-dzpc-f235",
+        "year": 2021,
+        "authors": [
+          "Ashli Ree"
+        ],
+        "venue": "Columbia Academic Commons (Columbia University)",
+        "abstract": "The purpose of this explorative field study using elements of case study design was to understand how DIY (Do It Yourself) fashion designers learn to engage in entrepreneurship. DIY fashion designers in this study refers to designers who personally design and make each garment without relying on manufacturers. These fashion designers all have design skills, but as they transition from designer to designer-entrepreneur with existing skills, they realize an additional set of skills is needed. To understand why they started the business and how they learned the skills necessary to maintain this dual role, the researcher interviewed 20 designer-entrepreneurs with different levels of experience: novice (3-5 years), middle-level (6-10 years), and seasoned (11 plus years). A selected literature review was conducted to shed light on the work of other researchers related to fashion entrepreneurship, entrepreneurship, and adult learning. The researcher used a qualitative methodology to explore how the designer-entrepreneurs learned and what they learned to maintain their dual role. A purposeful sample was drawn from a group of designer-entrepreneurs with different educational backgrounds and professional experiences. Data were collected through individual interviews followed by two focus group discussions. Data were examined to understand why certain DIY fashion designers chose to become designer-entrepreneurs, what challenges they faced in the dual role, how and what they learned, and which learning strategies they used. All designer-entrepreneurs in this study indicated that the motivation for becoming a designer-entrepreneur was to address their inner needs, which required both intrinsic reward and extrinsic validation. An overwhelming majority of them stated that most of the challenges stemmed from the entrepreneurial half of their dual role because they lacked the information needed to sustain it. All designer-entrepreneurs in this study learned through experiential and self-directed learning. A majority of them indicated that their main learning strategies consisted of finding or forming social networks for their design and business needs and developing their own learning habits. Based on these findings, the researcher made recommendations for educators teaching fashion or entrepreneurship and for current designer-entrepreneurs.",
+        "pdf_url": "https://academiccommons.columbia.edu/doi/10.7916/d8-z31y-yf65/download",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W3186460832",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Fashion exposure: Sri Lankan apparel industry designer interactions with the world of fashion",
+        "source": "openalex",
+        "url": "https://doi.org/10.1108/jfmm-10-2018-0137",
+        "doi": "10.1108/jfmm-10-2018-0137",
+        "year": 2019,
+        "authors": [
+          "Sumith Gopura",
+          "Alice Ruth Payne",
+          "Laurie R. Buys",
+          "Deepthi C. Bandara"
+        ],
+        "venue": "Journal of Fashion Marketing and Management",
+        "abstract": "Purpose Developing countries engaged in apparel value chain are going global, seeking opportunities to upgrade the industry through providing higher value-added products and services. The purpose of this paper is to investigate how Sri Lankan apparel industry designers interact with the western fashion world in the apparel value chain process, and how they acquire, adapt and apply the knowledge needed to develop high-value fashion products in their fashion design practice. Design/methodology/approach The study adopts a qualitative approach through semi-structured interviews conducted with fashion design and product development professionals in the Sri Lankan apparel industry. An inductive thematic analysis is used in identifying participants’ experience of the western fashion world within their fashion design practice. Findings The study proposes a “fashion knowledge bridge” illustrating the ways in which Sri Lankan designers acquire and merge high-value fashion consumer culture and lifestyle knowledge with the manufacturing industry, through multisensory and virtual experience, termed “exposure”, in their interactions with the western fashion world as well as the manufacturing culture of the Sri Lankan apparel industry. Designers’ exposure improves the feasibility and reliability of their apparel products, aligning to the end-consumer needs. The study also proposes a “designers’ exposure framework” that illustrates gains made by the Sri Lankan apparel industry resulting from knowledge enhancement through the designers’ exposure. Research limitations/implications The study is based on a qualitative methodology that has potential subjective biases on the part of the researchers; in this case only the Sri Lankan designers’ perspectives were used in synthesising the findings. Originality/value The findings propose frameworks with theoretical and managerial implications for developing designers’ capabilities in apparel manufacturing countries that seek industrial upgrading through value-added fashion design practice.",
+        "pdf_url": "https://eprints.qut.edu.au/130768/2/130768.pdf",
+        "citation_count": 7,
+        "work_type": "article",
+        "identifier": "W2953105079",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Virtual Product Development and Product Management Opprtunies in Fashion Industry",
+        "source": "openalex",
+        "url": "http://dspace.cc.tut.fi/dpub/handle/123456789/21982",
+        "doi": null,
+        "year": 2014,
+        "authors": [
+          "Muhammad Iqbal"
+        ],
+        "venue": "Tampere University of Technology Institutional Repository",
+        "abstract": "The fashion industry is one of the largest global industry and one of the most profitable industries in the world. With the current economic meltdown and capital flows changing course, the fashion industry is witnessing huge changes. Design, product development and management tools and techniques are perhaps the main stream competitive factor in this industry because Conventional design, product development and management of textiles and fashion products is a long-stretching process taking often long time and consuming countless hours of work, material and energy in sampling, counter-sampling and sales-sampling, as well as preparing marketing material, i.e., photos, videos, etc. 3D tools already in the market make it possible to design and present products virtually without physical samples. The purpose of this Master of Science thesis was to analyze the current situation of the fashion industry with regard to 3D technology and then to investigate which virtual software designing tools are available commercially. By studying fashion case companies, an analysis is given that how fashion companies are currently applying virtual techniques in their businesses around the globe. What is the selection criteria adopted by these fashion companies for the selection of software providers as there are many software providers in the market with almost similar virtual tools offerings. The different forms of support provided by the other organizations in implementing 3D are presented. Also by interviewing various key personnel related to virtual product design and development, i.e., company heads, managers, designers, etc the research presents the challenges, expectations and future developments regarding to virtual software’s usage.",
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W1168679004",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "All That is Users Might Not be Gold: How Labeling Products as User Designed Backfires in the Context of Luxury Fashion Brands",
+        "source": "openalex",
+        "url": "https://doi.org/10.1509/jm.11.0330",
+        "doi": "10.1509/jm.11.0330",
+        "year": 2013,
+        "authors": [
+          "Christoph Fuchs",
+          "Emanuela Prandelli",
+          "Martin Schreier",
+          "Darren W. Dahl"
+        ],
+        "venue": "Journal of Marketing",
+        "abstract": "An emerging literature stream posits that drawing on users rather than internal designers in new product creation may benefit firms because the resulting products effectively satisfy consumer needs. Four studies conducted in the context of the luxury fashion industry uncover an important conceptual boundary condition of this positive user-design effect. Contrary to extant research, the results show that being “close” to users does not help but rather harms luxury fashion brands. Specifically, the authors find that user design backfires because consumer demand for a given luxury fashion brand collection is reduced if the collection is labeled as user (vs. company) designed. The results further reveal the underlying rationale for this reversal: user-designed luxury products are perceived to be lower in quality and fail to signal high status, which results in a loss of agentic feelings for the consumer. The authors explore several strategies luxury brands can pursue to overcome this negative user-design effect. Finally, they find that negative outcomes of user design are attenuated for luxury fashion products that are not used for status signaling—that is, product categories of a luxury brand that are characterized by lower status relevance for the consumer.",
+        "pdf_url": null,
+        "citation_count": 313,
+        "work_type": "article",
+        "identifier": "W2158815035",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Materialising the interface between business development and designer aesthetic on the catwalk : a case from the New Zealand designer fashion industry.",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10092/11350",
+        "doi": "10.26021/5204",
+        "year": 2015,
+        "authors": [
+          "Alexandra Leadley"
+        ],
+        "venue": "UC Research Repository  (University of Canterbury)",
+        "abstract": "This thesis explores how designers within the New Zealand designer fashion industry manage the interface between business development and designer aesthetic, then materialise this on the catwalk. The investigation is guided by two research questions. The first looks specifically at finding the creativity-business balance, asking how designers manage their business development processes while considering their aesthetic. The second shifts to the fabrication of this interface, inquiring into how designers experience the process of materialising on the catwalk. A qualitative exploratory research design was implemented in order to collect the data for this research, taking an interpretive approach. Under this approach nine designers who presented collections at the 2014 iD Fashion Show were interviewed. In-depth analysis was conducted on the data provided by these designers. The data analysis revealed the importance of identifying showing objectives. These objectives provide a valuable insight into how designers manage the interface between creativity and business aspects. It was found that showing objectives were established by determining a designer’s enterprise orientation and identifying their target audience. Mills (2011a, 2011b) developed the concept of enterprise orientations, highlighting features of businesses that distinguish their orientation. This research revealed that target audiences are based upon the businesses’ stage of development. The analysis went on to reveal modifying factors that influence the materialisation of these objectives. It explained that these factors can be categorised as limiting or enabling factors, and vary in degree of influence. The data revealed that modifying factors are either available resources (internal or external) or show conditions. This research conceptualises the materialisation process experienced by New Zealand fashion designers when presenting a collection in a catwalk show. It summarises the process of materialisation graphically in a model. This model illustrates how showing objectives are first influenced by modifying factors before materialising on the catwalk. These findings stress the significant impact modifying factors can have on catwalk presentations. The contribution this research makes is particularly significant. Despite its growth and economic importance the existing scholarly research into the New Zealand designer fashion industry is scarce. Specifically, this investigation was designed to close a gap in the existing literature, advancing understanding of designer aesthetics and the creativity-business tension as well as providing new insight into how this materialises on the catwalk. This information is particularly valuable for fashion designers, business support people, PR practitioners, industry bodies, design education providers, and the New Zealand Government. Each of these parties may benefit significantly from a greater understanding of the tension between business processes and creativity and the increased insight into the catwalk as a platform for materialisation. Though the findings make a welcome contribution to the existing literature, there is scope for future research to build on the understandings developed from this research.",
+        "pdf_url": "https://ir.canterbury.ac.nz/bitstreams/b6565061-c026-4dc3-8ed9-a392b80dbab8/download",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2177364504",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Digital fashion and the metaverse: perspectives from the emerging fashion designers in Zimbabwe",
+        "source": "openalex",
+        "url": "https://doi.org/10.35738/ftr.v6.2025.06",
+        "doi": "10.35738/ftr.v6.2025.06",
+        "year": 2025,
+        "authors": [
+          "Walter Chipambwa",
+          "Onismo Stephen Hahlani"
+        ],
+        "venue": "Fashion and Textiles Review.",
+        "abstract": "Purpose: This study aimed to investigate the experiences of emerging fashion designers in developing digital fashion content and their presence on the virtual spaces referred to as the metaverse. Methodology/Design: The research utilised a qualitative design by conducting five comprehensive interviews with emerging fashion designers and a focus group discussion with conveniently sampled participants. The interview participants were purposively sampled from the final participants who showcased at the exhibition themed Fashion Forward sponsored by the British Council in Harare, Zimbabwe. Each participant was expected to show how their collection fits into the digital world of fashion. The focus group discussion comprised of the guests who attended the event. This strategy was used to specifically choose participants who could offer insightful and varied opinions on the development of digital fashion and the metaverse from emerging fashion designers in Zimbabwe. Findings: The study reveals that fashion designers have acquired digital exposure and experience through self-teaching. The COVID-19 pandemic promoted the application and usage of digital technologies as physical interactions were prohibited. Inspiration in the development of a fashion collection is key, as highlighted by the designers. Digital fashion creates an environment where designers can share the intangible cultural heritage through their inspirations, which in turn supports sustainable fashion design. Practical and Social Implications: Practically, emerging fashion designers can use the metaverse to earn more income if they adopt physical and digital design-“phygital”. Fashion designers need to use diverse social media platforms to enhance brand visibility for their digital or virtual environments. Originality: The research explored how emerging fashion designers have integrated digital fashion concepts into their fashion collections. The focus of the study was on how these designers use the metaverse as a new technological tool that provides an opportunity to the fashion design industry. The study highlights the possibilities of virtual environments for fashion designers.",
+        "pdf_url": "https://journal.itfpgh.com/ftr/article/download/85/74",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4410323042",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Fashion in Shanghai : the designers of a new economy of style",
+        "source": "openalex",
+        "url": "https://eprints.qut.edu.au/67803/2/Timothy_Lindgren_Thesis.pdf",
+        "doi": null,
+        "year": 2014,
+        "authors": [
+          "Tim Lindgren"
+        ],
+        "venue": "QUT ePrints (Queensland University of Technology)",
+        "abstract": "This thesis is a study of Chinese fashion designers in Shanghai. It shows fashion designers are building businesses, forging their professional reputations and developing a design aesthetic. Some designers are extremely successful in applying some elements of Chinese philosophy to their work, such as Buddhism, Confucianism and Daoism. In doing so, they challenge the dominance of the European fashion system with a new global fashion system.",
+        "pdf_url": "https://eprints.qut.edu.au/67803/2/Timothy_Lindgren_Thesis.pdf",
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W53332855",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Data design for sustainable fashion processes and strategies for systemic innovation design",
+        "source": "openalex",
+        "url": "https://series.francoangeli.it/index.php/oa/catalog/view/1253/1361/7002",
+        "doi": null,
+        "year": 2024,
+        "authors": [
+          "Marino, Cristina"
+        ],
+        "venue": null,
+        "abstract": "The data revolution has reshaped our understanding of design, merging tradition and innovation in a world increasingly driven by complex data systems. This book explores the intersection of data science, design, and sustainability, with a particular focus on the fashion industry. It delves into how designers, historically skilled in tackling challenges posed by new technologies, are now navigating the data-rich environment. Through a systemic approach, the research proposes a framework for integrating data into design processes, promoting sustainable fashion practices.Designers are tasked with crafting systems that respond to both environmental needs and human values, bridging the gaps between diverse fields – from fashion to cutting-edge digital technologies. The book highlights the importance of data literacy for designers, emphasizing the potential of data to transform not just products, but entire systems. With insights from various case studies, it offers a comprehensive overview of strategies that integrate Data with design, showcasing how this can lead to a more sustainable and adaptive future for the fashion industry.",
+        "pdf_url": "https://series.francoangeli.it/index.php/oa/catalog/download/1253/1361/7002?inline=1",
+        "citation_count": 1,
+        "work_type": "book",
+        "identifier": "W7114343645",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Your new product development (NPD) is only as good as your process: an exploratory analysis of new NPD process design and implementation",
+        "source": "openalex",
+        "url": "https://doi.org/10.1111/j.1467-9310.2007.00486.x",
+        "doi": "10.1111/j.1467-9310.2007.00486.x",
+        "year": 2007,
+        "authors": [
+          "Nükhet Harmancioǧlu",
+          "Regina C. McNally",
+          "Roger J. Calantone",
+          "Serdar S. Durmuşoğlu"
+        ],
+        "venue": "R and D Management",
+        "abstract": "Given industry competitiveness, how do firms' new product development (NPD) process designs differ when responding to an innovation mandate? How do NPD design elements differ across firms when implementing NPD processes? These design elements are strategic business unit (SBU) senior management involvement, business case content, customer interactions, and cross‐functional integration. What are the consequences of different combinations of NPD process design elements for innovation productivity? We explore these questions via a collective case study of newly implemented NPD process designs at three different SBUs of a major US‐based international conglomerate, 1 year after receiving the mandate to grow through innovation. Our analysis suggests that industry competitiveness and firm characteristics influence the NPD process design as SBUs employ distinct combinations of NPD design elements. The differential emphasis on design elements leads to variation in process design and divergence in innovation productivity.",
+        "pdf_url": "https://repository.bilkent.edu.tr/bitstreams/a217d308-1482-41cf-8e7a-ddfe05b0d857/download",
+        "citation_count": 128,
+        "work_type": "article",
+        "identifier": "W1980828098",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Slow Fashion: Developing a Conceptual Apparel Design Process",
+        "source": "openalex",
+        "url": "https://doi.org/10.31390/gradschool_dissertations.2053",
+        "doi": "10.31390/gradschool_dissertations.2053",
+        "year": 2014,
+        "authors": [
+          "Stefanie Ramirez"
+        ],
+        "venue": "Louisiana State University",
+        "abstract": "The purpose of this study is to explore the application of a pre-existing apparel design process model and design framework to the development of a conceptual slow fashion apparel design process and framework. A content analysis of slow design and slow fashion literature identified 38 themes related to specific design criteria, which were applied to design considerations from the Lamb & Kallal Functional, Expressive, and Aesthetic (FEA) model (1992). Additional design considerations were revealed due to the nature of the research topic and relationship to the stages in the applied design framework. For the Slow Fashion Apparel Design model five considerations were established: functional, expressive, aesthetic, designer, and other. The Slow Fashion Apparel Design Framework established six considerations associated with six stages of the apparel design process framework: material, quality, production, design, evaluation, and implementation. Design criteria were placed into each consideration category according to design theory and Lamb & Kallal’s model and framework. A sample of 71 textiles, apparel design, and merchandising professionals with membership in the International Textiles and Apparel Association completed a survey regarding the application of the design criteria found in the content analysis to the design considerations established using the FEA model. Apparel design participants from the sample who volunteered for a follow-up survey were interviewed regarding creative scholarship and apparel design processes. Analysis of survey and interview results revealed a differentiation in the application of design criteria within the design considerations established for the design process model and design framework. These differentiations were divided into required, highly recommended, and recommended design criteria. The Slow Fashion Apparel Design Process model had 17 design criteria across five considerations distributed into the three levels of importance. The Slow Fashion Apparel Design Framework had 14 design criteria across four considerations distributed into only required and recommended differentiations. It was revealed that evaluation and implementation consideration categories were not included in the design criteria within the Slow Fashion Apparel Design Framework. Further study is needed to seek explanations for this occurrence. Future research will include the application of this conceptual model to develop of a slow fashion apparel collection.",
+        "pdf_url": "https://repository.lsu.edu/cgi/viewcontent.cgi?article=3052&context=gradschool_dissertations",
+        "citation_count": 7,
+        "work_type": "thesis",
+        "identifier": "W2591173783",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "DesignBridge: Bridging Designer Expertise and User Preferences through AI-Enhanced Co-Design for Fashion",
+        "source": "openalex",
+        "url": "https://doi.org/10.1145/3742413.3789081",
+        "doi": "10.1145/3742413.3789081",
+        "year": 2026,
+        "authors": [
+          "Yuheng Shao",
+          "Yuansong Xu",
+          "Yifan Jin",
+          "Shuhao Zhang",
+          "Wenxin Gu",
+          "Quan Li"
+        ],
+        "venue": "ACM International Conference on Intelligent User Interfaces (IUI)",
+        "abstract": "Effective collaboration between designers and users is important for fashion design, which can increase the user acceptance of fashion products and thereby create value. However, it remains an enduring challenge, as traditional designer-centric approaches restrict meaningful user participation, while user-driven methods demand design proficiency, often marginalizing professional creative judgment. Current co-design practices, including workshops and AI-assisted frameworks, struggle with low user engagement, inefficient preference collection, and difficulties in balancing user feedback with design considerations. To address these challenges, we conducted a formative study with designers and users experienced in co-design (N=7), identifying critical challenges for current collaboration between designers and users in the co-design process, and their requirements. Informed by these insights, we introduce DesignBridge, a multi-platform AI-enhanced interactive system that bridges designer expertise and user preferences through three stages: (1) Initial Design Framing, where designers define initial concepts. (2) Preference Expression Collection, where users intuitively articulate preferences via interactive tools. (3) Preference-Integrated Design, where designers use AI-assisted analytics to integrate feedback into cohesive designs. A user study demonstrates that DesignBridge significantly enhances user preference collection and analysis, enabling designers to integrate diverse preferences with professional expertise.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "W7133352484",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "The use of trend forecasting in the product development process",
+        "source": "openalex",
+        "url": "https://e-space.mmu.ac.uk/600391/1/one%20document%20-%2025%20jan%2016%20-10%20Dec%2015%20-%20Copy%20-%20Copy%20-%20Copy.pdf",
+        "doi": "10.83056/mmu.32437104",
+        "year": 2026,
+        "authors": [
+          "Christine Twine"
+        ],
+        "venue": "e-space (Manchester Metropolitan University)",
+        "abstract": "Fashion trend forecasting is often personnel and company dependant and is more likely to be influenced by intuition and personal inspiration. Trend forecasting had been regarded as a driving force of the fashion industry in determining the new fashion trends in fabric, colour and style. There is a dearth of information on the utilisation and application of trend forecasting. There was a need to explore the application of trend forecasting within contemporary design and retail environments. Hence, the rationale of this investigation was to identify how and where trend forecasting is incorporated in the product development process. Soft Systems Methodology (SSM) provided the framework to the primary research. The process focussed on the trend forecasting agencies and how trend forecasting was used by the fashion industry. The concept of fast fashion and its role in changing the model of fashion trend forecasting was critically analysed working through the stages of SSM. Interview data and process mapping were used to establish theoretical models which were tested, refined and validated for the timescales and process used in seasonal and fast fashion contexts. The research was addressed within the context of the UK clothing sector. From an initial analysis of the issues, shortcomings were identified in the seasonal process. These were linked to the buyers and designers having limited communication and fragmented decision making during the range planning process. The ‘open to buy’ process conducted at the end of the range planning season to address ‘close to season’ fashion relies upon repeated orders and unplanned inputs, copied from their competitors. This is because it is difficult to design completely new garments for the required timeframe. In the fast fashion process, it was found the designers had no input into the ‘bought-in’ fashion range resulting in a lack of continuity of how the total range would appear. Fast fashion relies upon ‘bought-in’ fashion and the ‘open to buy’ process relies upon trends based on ‘current influences’ and repeat orders because it is quicker than producing completely new garments within a reduced timescale. The final phase of this research contributes to a new synthesis of information relating to trend forecasting in contemporary design, marketing and retailing environments. A critique of the theoretical models was carried out for areas not discussed before with trend forecasters, buyers and designers. These industry personnel explained how trend forecasting was used in the model stages, alternatives to trend forecasting, the process, timeline and how ‘bought-in’ fashion is used as a solution to fast fashion. This research has resulted in revised models where trend forecasting is successfully located within the seasonal and fast fashion product development. The crux of this research identified the consultation meetings and communication channels which were accurately located in the new models. The models document how key personnel interact, specifically the trend forecaster, the product line manager, the designer and the buyer. In the fast fashion model the ‘bought-in’ range is clearly distinguished from the seasonal range. The new models quantify the timeline for seasonal fashion, fast fashion and ‘open to buy’. The current fashion forecasting system is derived from seasonal fashion and therefore reliant on long lead times. The rise of fast fashion provided the opportunity to identify a taxonomy of models with a shortened time frame. The original contribution to knowledge lies in the seasonal and fast fashion models directly arising from this research, that would facilitate the key personnel involved in the fashion industry to incorporate in their new product development. This results in greater involvement of personnel leading to efficient utilisation of time, resources and expertise in the trend forecasting process.",
+        "pdf_url": "https://e-space.mmu.ac.uk/600391/1/one%20document%20-%2025%20jan%2016%20-10%20Dec%2015%20-%20Copy%20-%20Copy%20-%20Copy.pdf",
+        "citation_count": 4,
+        "work_type": "thesis",
+        "identifier": "W2398124265",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Product Fit and Sizing: Sustainable Product Evaluation, Engineering, and Design",
+        "source": "openalex",
+        "url": "https://doi.org/10.1201/9781003397533",
+        "doi": "10.1201/9781003397533",
+        "year": 2024,
+        "authors": [
+          "Kathleen M. Robinette",
+          "Daisy E. Veitch",
+          "Sandra Alemany",
+          "Karen Bredenkamp"
+        ],
+        "venue": "CRC Press eBooks",
+        "abstract": "In this book, for the first time, the complexity of assessing fit and using fittings in the product design process is addressed from a scientific and systems engineering perspective. It includes methods to represent the anthropometry of the target market, good practices to develop protocols for more reliable and consistent fit testing, methods for developing and maintaining a fit database, comprehensive statistical analyses needed for fit and sizing analysis, and instructions for selecting and modeling cases for new product development. Product Fit and Sizing: Sustainable Product Evaluation, Engineering, and Design offers step-by-step instructions for the evaluation, engineering, and design of existing and new products and includes real-world examples of mass-produced apparel, head wearables, and footwear products. It also explains how to develop a sustainable fit standard for fit and sizing continuity for all styles across all seasons and iterations. This book is intended for industry professionals and undergraduate and graduate education to prepare students for design and engineering jobs. For organizations that purchase uniforms or protective equipment and apparel, it also provides instructions for purchasing professionals to evaluate the suitability of wearable products for their population. The Open Access version of this book, available at https://www.taylorfrancis.com , has been made available under a Creative Commons Attribution-Non Commercial-No Derivatives (CC-BY-NC-ND) 4.0 license.",
+        "pdf_url": null,
+        "citation_count": 7,
+        "work_type": "book",
+        "identifier": "W4401454301",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "An Integrated Printed Textile Design and Apparel Product Development Process",
+        "source": "openalex",
+        "url": "http://www.lib.ncsu.edu/resolver/1840.16/948",
+        "doi": null,
+        "year": 2004,
+        "authors": [
+          "Lesley Nicole Hatcher"
+        ],
+        "venue": "NCSU Libraries Repository (North Carolina State University Libraries)",
+        "abstract": "The purpose of this study was to acquire information about the textile print design process as it is executed at apparel companies who design and develop printed fabrics internally for their seasonal lines. Technologies used by apparel companies in the textile print design process were also surveyed. The sample consisted of nine companies who design and develop printed fabrics internally to be used in their seasonal apparel lines. Using a case study approach, company representatives were interviewed via the telephone. The data from each respondent company was organized by process steps and technologies used, and translated into a graphical representation. The graphical representations from all companies were compared for similarities and differences and consolidated into a graphical representation. The graphic representation of the textile print design process at an apparel company was then integrated into the No-interval Coherently Phased Product Development Process for Apparel by May-Plumlee and Little (1998). The result was a framework that serves as a theoretical foundation for academic research in the integration of the apparel design and textile print design processes, and a model for practioners.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2522016464",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Artisanal Fashion Design: Entrepreneurs on Thinking, Process, and Decision Making",
+        "source": "openalex",
+        "url": "https://doi.org/10.32920/ryerson.14657610",
+        "doi": "10.32920/ryerson.14657610",
+        "year": 2021,
+        "authors": [
+          "R.J. Ott"
+        ],
+        "venue": null,
+        "abstract": "This thesis examines the ways in which fashion designers think about themselves, the design process, and the fashion industry. Recent interest in design thinking has brought decision making to the forefront in an effort to resolve conflicts between creative individuals and managers during the design process. Within the fashion design literature there are studies of processes in large fashion manufacturing enterprises but very little has focused on small-scale fashion design entrepreneurs. In this inductive, qualitative study, I use grounded theory as the methodology in the analysis of semi-structured interviews of twelve Canadian fashion design entrepreneurs. The findings explore their perceptions of their identity as designers, their perceptions of design process, and their relationship to their business. This research has developed the concept of “artisanal fashion design” as a distinct subset of design for further study and for consideration by organizations, the fashion industry, and educators.",
+        "pdf_url": "https://rshare.library.ryerson.ca/articles/thesis/Artisanal_Fashion_Design_Entrepreneurs_on_Thinking_Process_and_Decision_Making/14657610/1/files/28139565.pdf",
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "W4235324421",
+        "extra": {
+          "openalex_type": "other",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Unlocking the Potential of Artificial Intelligence in Fashion Design and E-Commerce Applications: The Case of Midjourney",
+        "source": "openalex",
+        "url": "https://doi.org/10.3390/jtaer19010035",
+        "doi": "10.3390/jtaer19010035",
+        "year": 2024,
+        "authors": [
+          "Yanbo Zhang",
+          "Chuanlan Liu"
+        ],
+        "venue": "Journal of theoretical and applied electronic commerce research",
+        "abstract": "The fashion industry has shown increasing interest in applying artificial intelligence (AI), yet there is a significant gap in exploring the potential of emerging diffusion-modeling-based AI image-generation systems for fashion design and commerce. Therefore, this study aims to assess the effectiveness of Midjourney, one such AI system, in both fashion design and related commerce applications. We employed the action research approach with the Functional, Expressive, and Aesthetic (FEA) Consumer Needs Model as the theoretical framework. Our research comprised three stages: refining an initial idea into well-defined textual design concepts, facilitating concept development, and validating the preceding observations and reflections by creating a new line of hemp-based products that were evaluated by targeted consumers through an online survey. Findings reveal that this AI tool can assist fashion designers in creating both visually expressive attire and ready-to-wear products, meeting defined design criteria and consumer needs. Midjourney shows promise in streamlining the fashion design process by enhancing ideation and optimizing design details. Potential e-commercial applications of such AI systems were proposed, benefiting physical and digital fashion businesses. It is noted that, to date, the major limitations of using Midjourney encompass its restriction to only facilitating early fashion design stages and necessitating substantial involvement from designers.",
+        "pdf_url": "https://www.mdpi.com/0718-1876/19/1/35/pdf?version=1710754004",
+        "citation_count": 149,
+        "work_type": "article",
+        "identifier": "W4392911004",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "From Traditional to AI-Powered: The Way Artificial Intelligence is Transforming the Fashion Design and Development Process",
+        "source": "openalex",
+        "url": "https://doi.org/10.1016/j.procs.2026.10.078",
+        "doi": "10.1016/j.procs.2026.10.078",
+        "year": 2026,
+        "authors": [
+          "Anna-Maria Lioka",
+          "Natividad Martínez Madrid",
+          "Katerina Rose",
+          "Maksym Gaiduk"
+        ],
+        "venue": "Procedia Computer Science",
+        "abstract": "The fashion industry is undergoing a rapid digital shift in which 3D design software increasingly replaces conventional prototyping. Tools such as CLO3D and Browzwear VStitcher streamline virtual garment development by reducing physical samples, shortening product cycles, and lowering resource consumption. However, several workflow stages still rely on manual input and expert knowledge, particularly in pattern development and material simulation. In parallel, artificial intelligence (AI) supports creative tasks through tools like DALL E or Midjourney, enabling faster ideation and visual exploration for digital fashion workflows. This paper examines how AI can be integrated into fashion design and 3D development to automate repetitive tasks and increase efficiency. Through a semi-systematic literature review and workflow-oriented tool analysis, the study identifies key limitations and stages with high automation potential. Findings show that AI can accelerate early stage design activities, reduce manual workload, and complement human creativity when embedded into modular design environments. At the same time, challenges such as limited data availability, simulation accuracy, and workflow integration continue to restrict broader implementation. Future research should therefore focus on controllable and interoperable AI systems that support collaborative human-AI fashion design workflows.",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1877050926037373/pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W7225090734",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "AI tools and fashion design education: instructor perspectives on student challenges and design process tool support",
+        "source": "openalex",
+        "url": "https://doi.org/10.1186/s40691-025-00452-9",
+        "doi": "10.1186/s40691-025-00452-9",
+        "year": 2026,
+        "authors": [
+          "Hyosun An",
+          "Minjung Park"
+        ],
+        "venue": "Fashion and Textiles",
+        "abstract": "Despite growing interest in artificial intelligence (AI) in higher education, research on its pedagogical integration in fashion design education remains limited, with most studies focusing on the technical aspects of AI tools rather than their instructional roles or educational implications. This study explores how AI tools can be effectively integrated into fashion design education by examining student challenges, AI-supported learning competencies, and instructional considerations from the perspectives of instructors. Semi-structured interviews were conducted with 10 university-level instructors from South Korea and the United States who have experience teaching fashion design-related courses. Thematic analysis is employed to examine the educational roles of AI in supporting students across the various design process stages. Findings identify four primary areas where students commonly face difficulties: initial design planning, ideation and creative exploration, technical garment construction, and communication and feedback adaptation. This study presents a pedagogical framework that illustrates how AI tools, including large language models, image generators, simulations, and feedback systems, can enhance visualization, creative thinking, and student engagement. This framework aligns student challenges, AI tool functionalities, and instructional strategies across four stages of the design process—problem definition, ideation and refinement, prototype development, and evaluation—offering practical guidance for the intentional integration of AI in fashion design education that promotes learner autonomy and human–AI collaboration.",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1186/s40691-025-00452-9.pdf",
+        "citation_count": 22,
+        "work_type": "article",
+        "identifier": "W7124870201",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Patient, clinician and product designer perspectives on the design of a dysphagia rehabilitation tool",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/10344/4955",
+        "doi": "10.34961/9227",
+        "year": 2015,
+        "authors": [
+          "Tara Hussey"
+        ],
+        "venue": "University of Limerick Institutional Repository (University of Limerick)",
+        "abstract": "Background: There is an absence of available biofeedback tools for use in rehabilitation of people who have dysphagia. To create a suitable tool, ‘expert’ opinion from people such as clinicians and product designers is desirable to establish what may be achievable for a rehabilitation tool. More importantly, target clients are integral to any design process, as understanding their needs and potential patterns of use enhances the likelihood of a tool being designed to meet their needs. Objectives: To determine: (i) whether a dysphagia tool would be useful for patients rehabilitation; (ii) how would a dysphagia tool be used; (iii) the preferred product format for a dysphagia tool; (iv) views about a specific clinic-ready prototype tool, called OroPress. Method: Three focus groups were conducted with product designers, speech and language therapy clinicians, and post-surgical head and neck cancer patients. To facilitate discussion, a set of topic headings, photographs and models were introduced. Qualitative analysis was performed on the transcripted text using Glaserian coding principles to form open codes, selective codes and then themes. Results: Examination of concordance, across and within groups, identified five main themes: user interface, out-of-box experience, format, primary user usability, and views about OroPress. Conclusions: This study indicates that: (i) a tool was assessed as being useful and needed; (ii) a dysphagia tool would be used independently in the home, while connecting with a speech and language therapist electronically via the device; (iii) feedback was considered essential, with product designers and clinicians favouring visual, and patients preferring tactile. Preferred placement of the device varied; (iv) OroPress was considered to be bulky and unappealing. All groups agreed that it required reverse engineering.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2302895232",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Trends of Emerging Technologies in the Fashion Product Design and Development Process",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/978-3-030-91135-5_1",
+        "doi": "10.1007/978-3-030-91135-5_1",
+        "year": 2022,
+        "authors": [
+          "Young-A Lee"
+        ],
+        "venue": "Leading Edge Technologies in Fashion Innovation",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 14,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/978-3-030-91135-5_1",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer International Publishing"
+        }
+      },
+      {
+        "title": "The Apparel Product Development Process and Technical Design",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501304231.ch-002",
+        "doi": "10.5040/9781501304231.ch-002",
+        "year": 2016,
+        "authors": [],
+        "venue": "Technical Sourcebook for Designers",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.5040/9781501304231.ch-002",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Fairchild Books (US)"
+        }
+      },
+      {
+        "title": "Designer Perspective",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781474218504.ch-023",
+        "doi": "10.5040/9781474218504.ch-023",
+        "year": 2013,
+        "authors": [],
+        "venue": "Fashion Thinking",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781474218504.ch-023",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Designer Perspective",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781474218504.ch-011",
+        "doi": "10.5040/9781474218504.ch-011",
+        "year": 2013,
+        "authors": [],
+        "venue": "Fashion Thinking",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781474218504.ch-011",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Designer Perspective",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781474218504.ch-035",
+        "doi": "10.5040/9781474218504.ch-035",
+        "year": 2013,
+        "authors": [],
+        "venue": "Fashion Thinking",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781474218504.ch-035",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "Fashion Designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.4324/9781003396062-9",
+        "doi": "10.4324/9781003396062-9",
+        "year": 2025,
+        "authors": [
+          "Charlene Dunbar"
+        ],
+        "venue": "Discovering the Design Process",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.4324/9781003396062-9",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Routledge"
+        }
+      },
+      {
+        "title": "Trade Dress: An Unsuitable Fit for Product Design in the Fashion Industry",
+        "source": "crossref",
+        "url": "https://doi.org/10.2139/ssrn.2715146",
+        "doi": "10.2139/ssrn.2715146",
+        "year": 2016,
+        "authors": [
+          "Shayna Giles"
+        ],
+        "venue": null,
+        "abstract": "Fashion design is an uneasy fit for intellectual property law. Because trade dress is not clearly defined in the Lanham Act, the courts were able to expand this area of intellectual property to protect product design in the fashion industry. Congress does not concur with this expansion, as demonstrated by the lack of legislative action in the face of multiple opportunities to grant protection to fashion design. Despite Congressional intent, the courts attempted to fit fashion design into various types of intellectual property law, beginning with copyright and patent. After realizing that neither of those was an appropriate fit for fashion design, the courts settled on trademark law and more specifically trade dress. The Supreme Court leaves product design ambiguous as a trade dress category in Two Pesos. Recognizing its mistake, the Supreme Court then tries to clarify product design in Wal-Mart by distinguishing the trade dress at issue in Wal-Mart from Two Pesos, arguing that Two Pesos actually addressed product packaging while Wal-Mart was a product design issue. The Supreme Court in TrafFix further strengthened its warning from Wal-Mart against trade dress expansion. Nonetheless, the Second Circuit Court of Appeals ignored the Supreme Court’s caution and increased trade dress protection in Louboutin, overstepping its boundaries in a way that Congress, the Supreme Court, and public policy do not support.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "preprint",
+        "identifier": "10.2139/ssrn.2715146",
+        "extra": {
+          "crossref_type": "posted-content",
+          "publisher": "Elsevier BV"
+        }
+      },
+      {
+        "title": "Technical Aspects of Innovation in the Fashion Business",
+        "source": "crossref",
+        "url": "https://doi.org/10.4324/9781003332749-3",
+        "doi": "10.4324/9781003332749-3",
+        "year": 2024,
+        "authors": [
+          "Ruth Kelly",
+          "Helen Goworek"
+        ],
+        "venue": "Creativity and Innovation in the Fashion Business",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.4324/9781003332749-3",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Routledge"
+        }
+      },
+      {
+        "title": "The Apparel Product Development Process and Technical Design",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501328435.ch-002",
+        "doi": "10.5040/9781501328435.ch-002",
+        "year": 2018,
+        "authors": [],
+        "venue": "Technical Sourcebook for Apparel Designers",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501328435.ch-002",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Inc"
+        }
+      },
+      {
+        "title": "The Apparel Product Development Process and Technical Design",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501391972.ch-2",
+        "doi": "10.5040/9781501391972.ch-2",
+        "year": 2024,
+        "authors": [],
+        "venue": "Technical Sourcebook for Apparel Designers",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501391972.ch-2",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Inc"
+        }
+      },
+      {
+        "title": "The design process: why construction should matter to the fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501377143.ch-1",
+        "doi": "10.5040/9781501377143.ch-1",
+        "year": 2023,
+        "authors": [],
+        "venue": "Professional Sewing Techniques for Designers",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501377143.ch-1",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Inc"
+        }
+      },
+      {
+        "title": "Technical product documentation. Handling of computer-based technical information: Phases in the product design process",
+        "source": "crossref",
+        "url": "https://doi.org/10.3403/00822993u",
+        "doi": "10.3403/00822993u",
+        "year": 2015,
+        "authors": [],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.3403/00822993u",
+        "extra": {
+          "crossref_type": "standard",
+          "publisher": "BSI British Standards"
+        }
+      },
+      {
+        "title": "Technical product documentation. Handling of computer-based technical information: Phases in the product design process",
+        "source": "crossref",
+        "url": "https://doi.org/10.3403/00822993",
+        "doi": "10.3403/00822993",
+        "year": 2013,
+        "authors": [],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.3403/00822993",
+        "extra": {
+          "crossref_type": "standard",
+          "publisher": "BSI British Standards"
+        }
+      },
+      {
+        "title": "The Perceptions of U. S. Fashion Industry Professionals’ on Fashion Design Copyright Law and Creativity in Fashion Product Development Process",
+        "source": "crossref",
+        "url": "https://doi.org/10.21326/ksdt.2013..40.030",
+        "doi": "10.21326/ksdt.2013..40.030",
+        "year": 2013,
+        "authors": [
+          "JAEIL LEE",
+          "Yoon-Jung Lee"
+        ],
+        "venue": "Journal of Korea Design Forum",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "10.21326/ksdt.2013..40.030",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Korea Society of Design Trend"
+        }
+      },
+      {
+        "title": "The intersectionality of identity, fashion, and exploration: Where form meets fit and functionality (a biographical story of identity from a fashion designer)",
+        "source": "crossref",
+        "url": "https://doi.org/10.34074/scop.1028001",
+        "doi": "10.34074/scop.1028001",
+        "year": 2025,
+        "authors": [
+          "Kate Pierre"
+        ],
+        "venue": "Scope: Contemporary Research Topics (Art &amp; Design)",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.34074/scop.1028001",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Otago Polytechnic"
+        }
+      },
+      {
+        "title": "Processes and Pitfalls in Fashion Design and Product Development",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501303562.ch-004",
+        "doi": "10.5040/9781501303562.ch-004",
+        "year": 2016,
+        "authors": [],
+        "venue": "Ethics in the Fashion Industry",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.5040/9781501303562.ch-004",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Fairchild Publications"
+        }
+      },
+      {
+        "title": "Careers in Fashion Design, Product Development, and Fashion Promotion",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501303609.part-002",
+        "doi": "10.5040/9781501303609.part-002",
+        "year": 2016,
+        "authors": [],
+        "venue": "The Fashion Industry and Its Careers: An Introduction",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.5040/9781501303609.part-002",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Fairchild Books"
+        }
+      },
+      {
+        "title": "Understanding Designer Engagement in the Product Development Process:: Evidence from Japanese Manufacturing Companies",
+        "source": "crossref",
+        "url": "https://doi.org/10.4013/sdrj.2023.163.08",
+        "doi": "10.4013/sdrj.2023.163.08",
+        "year": 2025,
+        "authors": [
+          "Yosuke Kanno",
+          "Satoshi Shibata"
+        ],
+        "venue": "Strategic Design Research Journal",
+        "abstract": "The role of designers in the product development process (PDP) has become increasingly important. However, there is still insufficient empirical evidence regarding the actual engagement of designers in the PDP and their relationship with product development performance and market conditions. In this study, through quantitative surveys and analysis targeting Japanese manufacturing companies, we clarified how designers engage in each stage of the PDP and how their engagement is related to product development performance and market conditions. The analysis results revealed significant differences in how designers engage in the PDP between companies. Particularly, notable differences were observed in how designers contribute to screening and evaluation of product ideas, product concepts, and prototypes. Furthermore, it became evident that companies consistently engaging designers throughout the entire PDP achieve high design performance and market performance. On the other hand, in terms of development efficiency performance, consistent and high-degree designer engagement throughout the PDP was not shown to have a pronounced effect. Finally, the analysis results indicated that how designers engage in the PDP is closely related to design intensity rather than technological or competitive intensity in the market.",
+        "pdf_url": "https://revistas.unisinos.br/index.php/sdrj/article/download/27216/60750379",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.4013/sdrj.2023.163.08",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "UNISINOS - Universidade do Vale do Rio Dos Sinos"
+        }
+      },
+      {
+        "title": "A conceptual designer-led New Product Development process model for Chinese SMEs",
+        "source": "crossref",
+        "url": "https://doi.org/10.1109/tidms.2013.6981238",
+        "doi": "10.1109/tidms.2013.6981238",
+        "year": 2013,
+        "authors": [
+          "Ke Lou",
+          "Darren John Southee",
+          "Erik Bohemia"
+        ],
+        "venue": "2013 IEEE Tsinghua International Design Management Symposium",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.1109/tidms.2013.6981238",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "IEEE"
+        }
+      },
+      {
+        "title": "The fundamental traits of fashion &amp; product design to apply in the process of convergence design between fashion &amp; product",
+        "source": "crossref",
+        "url": "https://doi.org/10.17246/jkdk.2013..26.025",
+        "doi": "10.17246/jkdk.2013..26.025",
+        "year": 2013,
+        "authors": [
+          "Sooah Choi"
+        ],
+        "venue": "Journal of Korea Design Knowledge",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.17246/jkdk.2013..26.025",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Korea Design Knowledge Society"
+        }
+      },
+      {
+        "title": "Biostatistics in Pharmaceutical Product Development Facts, Recommendations, and Solutions",
+        "source": "crossref",
+        "url": "https://doi.org/10.3109/9781420088502-22",
+        "doi": "10.3109/9781420088502-22",
+        "year": 2016,
+        "authors": [],
+        "venue": "New Drug Approval Process",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.3109/9781420088502-22",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "Wearable Technology in Fashion",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/978-3-030-91135-5_3",
+        "doi": "10.1007/978-3-030-91135-5_3",
+        "year": 2022,
+        "authors": [
+          "Sumin Koo",
+          "Youngjin Chae"
+        ],
+        "venue": "Leading Edge Technologies in Fashion Innovation",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 14,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/978-3-030-91135-5_3",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer International Publishing"
+        }
+      },
+      {
+        "title": "Enhancing Fashion Design Education: The Impact of Digital Fit Analysis and 3D Prototyping Tools on Technical Proficiency, Fit Accuracy, and Sustainability",
+        "source": "crossref",
+        "url": "https://doi.org/10.31274/itaa.21919",
+        "doi": "10.31274/itaa.21919",
+        "year": 2026,
+        "authors": [
+          "Heajoo Lee"
+        ],
+        "venue": "Gateway to a Brighter Future",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.31274/itaa.21919",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Iowa State University Digital Press"
+        }
+      },
+      {
+        "title": "The Designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1016/b978-0-08-009793-0.50014-6",
+        "doi": "10.1016/b978-0-08-009793-0.50014-6",
+        "year": 1963,
+        "authors": [
+          "C. HEARN BUCK"
+        ],
+        "venue": "Problems of Product Design and Development",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1016/b978-0-08-009793-0.50014-6",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Careers in Fashion Design, Product Development, and Fashion Promotion",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501338625.part-002",
+        "doi": "10.5040/9781501338625.part-002",
+        "year": 2020,
+        "authors": [],
+        "venue": "The Fashion Industry and Its Careers",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501338625.part-002",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      }
+    ]
+  },
+  "count": 50,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:08:19.965804+00:00"
+}

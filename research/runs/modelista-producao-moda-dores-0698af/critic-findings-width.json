@@ -1,0 +1,76 @@
+{
+  "critic_type": "width",
+  "vault_tag": "modelista-producao-moda-dores-0698af",
+  "scope_note": "Draft cites ~60 of ~150 vault notes; 90 are uncited. Many uncited notes are duplicates, boilerplate, or off-topic (see unused list in report). Findings below cover only uncited clusters with real topical value. Query file and coverage-gaps.md were not re-read in this pass; findings are anchored to the draft headings and the orchestrator watchlist (small/medium/large firms, segments).",
+  "findings": [
+    {
+      "severity": "major",
+      "location": "Secao 4.2 (Paradoxo CAD) e 5.2 (Implicacoes)",
+      "issue": "CAD e tratado apenas pelo prisma de grandes sistemas comerciais (Audaces/Lectra, Silveira 2011, SC). O corpus tem um cluster sobre empresas pequenas e modelistas autonomos que nao tem acesso a esses sistemas, e o rascunho nao o menciona. A dor de custo/acesso a ferramenta fica invisivel, embora a watchlist peca cobertura de pequenas, medias e grandes empresas.",
+  "evidence": "Vault: coreldraw-como-suporte-na-criacao-de-moldes-de-vestuario-revista-eixos-tech (CorelDRAW como alternativa ao CAD/CAM de alto custo para autonomos e pequenas empresas, teste com saia lapis); a-comparative-study-of-open-source-and-licensed (Papachristou et al., 2019: Seamly2D e Cameo nao substituem CAD licenciado; faltam ferramentas de cavas, pences, rotacao, margens de costura, e o processo e lento); instituto-federal-...-minas-gerais (Bittencourt 2024, conclui que a ferramenta serve a modelistas autonomos e industriais). Todos uncited.",
+      "recommendation": "Inserir 2-3 frases em 4.2 (ou 5.2) reconhecendo que o custo de licenca exclui pequenas confeccoes e autonomos, que recorrem a improvisos (CorelDRAW) ou a CAD aberto ainda incompleto, e que os dados de Silveira descrevem so empresas que ja tinham CAD. Citar as tres notas acima."
+    },
+    {
+      "severity": "major",
+      "location": "Secao 4 (Dores Estruturais), subsecao 4.1 ou 4.2",
+      "issue": "A dimensao de gestao e comunicacao do proprio setor de modelagem (controle de demandas, registro de atividades) esta subtratada. O titulo da secao 4 promete 'Comunicacao', mas o texto se concentra em PDP, CAD e ergonomia. O corpus tem um estudo especifico sobre controles manuais no setor de modelagem.",
+      "evidence": "Vault: instituto-federal-de-educacao-...-sul-de-minas-gerais (Bittencourt e Pereira, Eixos Tech v.11 n.7, 2024): questionario mostra que muitos modelistas controlam e registram atividades por metodos manuais; propoe dashboard em Power BI, que centraliza informacao, evita retrabalho e melhora comunicacao. Tambem uncited: planejamento-de-produto-e-fluxo-informacional-em-empresas-do-setor-de-confeccao e anais-enegep (nao lidas em detalhe, verificar).",
+      "recommendation": "Acrescentar um paragrafo curto em 4.1 ou 4.2 sobre a ausencia de controle digital de demandas no setor de modelagem como dor de comunicacao, ligada a fichas tecnicas pos-fato (3.6). Nao criar nova secao."
+    },
+    {
+      "severity": "major",
+      "location": "Secao 3.5 (Fitting) e 3.3 (tabela de medidas)",
+      "issue": "O rascunho cita Rizzi e Jesus sobre manequim e modelos de prova, mas omite evidencia empirica de entrevistas com profissionais sobre como a tabela de medidas e o modelo de prova sao escolhidos na pratica. E uma dor causal direta da etapa de prova que o corpus sustenta.",
+  "evidence": "Vault: m-o-d-a-p-a-l-a-v-r-a-e-p-e-r-i-o-d-i-c-o (Makara et al., ModaPalavra n.19, 2017): profissionais entendem a importancia da tabela de medidas mas a ajustam empiricamente; tabelas copiadas de site especializado, baseadas em modelos que serviam ou na medida da proprietaria; modelos de prova nao correspondem ao publico da empresa; demanda regional de tamanhos difere (Nordeste sem GG). Nota analisada: analise-de-conteudo-sobre-a-qualidade-ergonomica (empresas opinam sobre conforto 'na maioria das vezes depois da peca pronta'). Ambas uncited (as variantes -2 e -3 do periodico ModaPalavra estao citadas, esta nao).",
+      "recommendation": "Inserir 2-3 frases em 3.5 (ou no inicio de 3.3) com os achados de Makara et al. (2017) sobre tabelas empiricas e escolha inadequada de modelo de prova, e uma frase de que o conforto costuma ser avaliado so apos o prototipo."
+    },
+    {
+      "severity": "major",
+      "location": "Secao 4.4 (Invisibilidade Academica) ou 1.1 (Perfil Sociotecnico)",
+      "issue": "A formacao e o ensino da modelagem (como a modelista aprende e por que o ensino reproduz a dificuldade 3D-2D) estao ausentes, apesar de haver revisao sistematica no corpus. O rascunho trata o treinamento comercial de CAD, mas nao a formacao de base.",
+      "evidence": "Vault: doi10596525944630722023e3564 e o-ensino-e-aprendizagem-da-modelagem-do-vestuario-uma-revisao-sistematica-de-lit (Theis, Mardula e Merino, REAMD 2023, 36 pesquisas): estudantes tem dificuldade em passar do corpo 3D ao traçado 2D; estrategias propostas incluem modelagem hibrida 2D+3D, PBL, metodologias colaborativas. Tambem uncited: o-ensino-da-modelagem-do-vestuario-sob-as-diretrizes-do-metodo-pbl, metodologias-colaborativas-do-design-para-modelagem-plana.",
+      "recommendation": "Adicionar 2 frases em 4.4 (ou 1.1, ao lado do perfil costureira-para-modelista) indicando que a literatura de ensino identifica o mesmo gargalo cognitivo 3D-2D e propoe ensino hibrido, reforcando o argumento de formacao continuada em 5.2."
+    },
+    {
+      "severity": "minor",
+      "location": "Secao 3.5 (Limites da Simulacao 3D)",
+      "issue": "A subsecao sobre 3D e unilateralmente negativa; ha evidencia no corpus de resultados favoraveis e com condicoes de contorno que equilibrariam o quadro e que o rascunho nao usa.",
+      "evidence": "Vault: como-citar-este-artigo (Santos, Silveira e Rech, Projetica 2024, relatando Pires 2015 e Spahiu 2021): 21 alunos classificaram caimento, forma e volume dos prototipos Audaces 3D como identicos ou muito proximos em maioria (ex.: caimento 52% identico), com dificuldade maior nos tecidos de maior gramatura; similaridade depende do conhecimento dos materiais. Tambem universidade-estadual-paulista (Pires 2015) e iop-conference-series (Spahiu 2021). Uncited.",
+      "recommendation": "Inserir uma frase de contraponto em 3.5 dizendo que estudos de percepcao encontraram alta similaridade com tecidos leves e que a falha aparece com gramaturas altas e parametrizacao ruim. Coordenar com o dialectic-critic para evitar duplicidade."
+    },
+    {
+      "severity": "minor",
+      "location": "Secao 3.3 (Colapso Antropometrico: plus size, petite, 60+)",
+      "issue": "Segmentos especializados do corpus alem de plus size, petite e idosas nao aparecem (gestantes, cadeirantes, idosos com mobilidade reduzida, infantil). O plus size ja tem bastante peso numerico; falta so a menção de que a mesma dor (base inadequada) se repete em nichos.",
+      "evidence": "Vault: design-workflow-for-virtual-design-of-clothing-for-pregnant-women; conceptual-design-framework-as-a-model-for-wheelchair-users-sportswear-comfort-f; proposta-de-vestuario-para-individuos-idosos-com-mobilidade-reduzida-modapalavra; a-importancia-da-extensao-no-ensino-no-curso-de-moda (vestuario infantil); 15o-congresso-...-manaus (Poci et al. 2024: 62,6% das brasileiras adultas com excesso de peso, mercado plus size +75% em 10 anos, biotipos incluindo diamante). Todos uncited.",
+      "recommendation": "Acrescentar uma frase de fechamento em 3.3 listando gestantes, usuarios de cadeira de rodas e idosos com mobilidade reduzida como outros segmentos sem base normativa, e usar Poci et al. (2024) para dimensionar o mercado plus size em uma linha."
+    },
+    {
+      "severity": "minor",
+      "location": "Secao 3.9 (Desvios em Faccoes Terceirizadas)",
+      "issue": "As faccoes sao tratadas apenas como problema tecnico (margem, piques). O corpus tem fontes sobre a relacao economica e trabalhista entre faccoes e grandes contratantes, que explicam por que a ficha tecnica nao e consultada. Nao li essas notas em detalhe (duas sem resumo), a recomendacao deve ser conferida pelo revisor.",
+      "evidence": "Vault (uncited): luta-de-classes-entre-trabalhadores-e-grande-capital-as-relacoes-entre-as-faccoes-e-a-empresa-guararapes-no-rn; regulacao-da-terceirizacao-e-estrategias-empresariais; sociologias-porto-alegre-ano-19-no-45-2017.",
+      "recommendation": "Se confirmado apos leitura rapida, adicionar 1-2 frases em 3.9 contextualizando a pressao de prazo e preco sobre faccoes como causa estrutural dos desvios, com qualificador de que a evidencia vem de casos regionais."
+    },
+    {
+      "severity": "major",
+      "location": "Relatorio inteiro (B1: dilucao de conteudo)",
+      "issue": "Relatorio com 7.741 palavras e 65,6 KB, bem acima da janela 'structured' de 2.000-5.000 palavras e da faixa de ~45-55 KB dos melhores relatorios. Excesso vem de empilhamento de 3-5 citacoes por frase, de estatisticas repetidas em varias secoes (75% hibrido, 98,2% REBA, 0 de 10 plus size, 83,3% tacito, 40% vs 96%) e de blocos descritivos longos.",
+      "evidence": "Contagem por secao: 3.3 com ~960 palavras; 2.9 com ~578 (inclui tabela das 9 etapas, que duplica o texto 2.1-2.9); resumo executivo ~299 palavras com os mesmos numeros que reaparecem em 4.1, 4.2, 4.3 e 5.1. A secao 2.2 e 2.3 repetem formulas e margens que o proprio texto ja apresenta.",
+      "recommendation": "Cortar as 3 passagens mais fracas: (1) a tabela-resumo de 2.9 ou o texto equivalente, mantendo so um; (2) a segunda enumeracao de indicadores na matriz 4.1, que repete 3.x e 4.2-4.3, deixando a matriz so com causas e alavancas; (3) enxugar o resumo executivo para ~150 palavras. Remover metanarracao de abertura de secao e reduzir citacoes empilhadas a no maximo 2 por afirmacao. Meta: abaixo de ~5.500 palavras."
+    },
+    {
+      "severity": "minor",
+      "location": "Resumo Executivo vs. Secao 5 (B2: repeticao)",
+      "issue": "O resumo executivo e a secao 5.1/5.2 reiteram a mesma tese (retroalimentacao tecnica-estrutural, CAD nao elimina a bancada, modelista como amortecedor) com as mesmas estatisticas. Li 5.1 e 5.2 apenas em parte, entao o grau exato de sobreposicao deve ser confirmado.",
+      "evidence": "Resumo cita 75% hibrido, 83,3% tacito, 98,2% REBA, ficha pos-fato; 5.1 padrao 1 e 4.1 repetem ficha pos-fato e amortecedor; 5.2 reabre CAD, malha e ergonomia com os mesmos numeros.",
+      "recommendation": "Diferenciar a conclusao: tirar numeros ja dados e manter em 5.2 so implicacoes prospectivas e priorizadas (o que fazer primeiro, para qual porte de empresa), em vez de recapitular os achados."
+    }
+  ],
+  "unused_notes_summary": {
+    "count_uncited": 90,
+    "noise_or_off_topic_ignore": ["making-sure-youre-not-a-bot", "making-sure-youre-not-a-bot-2", "ufrgs-pagina-nao-encontrada-2", "repositorio-institucional-unesp", "university-of-pretoria (107k palavras, ajuste de vestuario no Quenia)", "fashioning-business (76k palavras, designers independentes na Australia)", "physis-revista-de-saude-coletiva", "development-of-a-quantitative-system-for-subjective-evaluation-of-tracked-vehicle-crew-jackets"],
+    "duplicates_of_cited_sources": ["a-importancia-das-bases-de-modelagem-no-desenvolvimento-de-vestuario-plus-size-2 e -u", "modapalavra-e-periodico-2 (Silveira e Silva 2011, ja coberto por 6-resultado-da-pesquisa)", "procedimentos-metodologicos (Silveira 2011 cap. 5)", "icleia-silveira", "diretrizes-para-o-desenvolvimento-de-modelagem-de-vestuario-em-malha (Percebom 2021, provavelmente mesma obra de universidade-de-sao-paulo-13)", "um-olhar-para-modelagem-do-vestuario-da-mulher (Cardoso, mesma obra de universidade-de-sao-paulo-11)", "modelagem-industrial-diretrizes-para-o-tracado-do-molde-da-calca-jeans-feminina (Dias 2015, mesma obra de universidade-de-sao-paulo-12)"],
+    "possible_dropped_evidence_chains": ["ensino e formacao de modelistas", "autonomos e pequenas empresas / ferramentas de baixo custo", "gestao de demandas no setor de modelagem", "economia politica da terceirizacao", "segmentos de nicho (gestantes, cadeirantes, mobilidade reduzida, infantil)"]
+  }
+}

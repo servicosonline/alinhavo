@@ -1,0 +1,549 @@
+{
+  "ok": true,
+  "data": {
+    "query": "atribuicoes competencias designer de moda estilista industria confeccao",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 25,
+      "crossref": 0,
+      "doab": 0
+    },
+    "raw_records": 25,
+    "merged_records": 25,
+    "returned": 25,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "PROPOSTA DE IMPLANTAÇÃO DA FERRAMENTA KANBAN EM UMA INDÚSTRIA DE CONFECÇÃO NO CEARÁ",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.37423/231208632",
+        "doi": "10.37423/231208632",
+        "year": 2023,
+        "authors": [
+          "Luiz Neto Paiva e Silva Müller"
+        ],
+        "venue": "Editora Conhecimento Livre eBooks",
+        "abstract": null,
+        "pdf_url": "https://doi.org/10.37423/231208632",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4391829223",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Moda da natureza: inter-relações entre moda e biônica",
+        "source": "openalex",
+        "url": "http://tede.mackenzie.br/jspui/handle/tede/2730",
+        "doi": null,
+        "year": 2009,
+        "authors": [
+          "Juliana Bertolini"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "A presente pesquisa propõe um diálogo entre Moda e Biônica, apontando possibilidades de práticas metodológicas, criativas e conceituais de forma a compreender o que seria a moda da natureza. O trabalho parte de uma contextualização histórica e social da moda na sociedade de consumo com o objetivo de localizar o contexto onde esta inter-relação é proposta. Desta forma, procura levantar as características de funcionamento e as aberturas do sistema da moda a este diálogo inter-relacionado. Busca também entender o que é Biônica e suas transformações ao longo da história e do desenvolvimento tecnológico, de modo a poder compreender as possibilidades projetuais geradas por meio do contato e investigação da natureza, inclusive traçando paralelos entre conceitos da biologia e conceitos do design com o intuito de gerar conceitos híbridos para o design e a moda. Nesse sentido, procura explorar formas metodológicas de trabalho e possibilidades de aplicações na moda, além de formas operantes para a moda da natureza. São também localizados alguns projetos de estilistas, designers e artistas para exemplificar os conceitos de projeto explorados nesta pesquisa. A dissertação também apresenta informações que são resultado tanto de pesquisas de campo realizadas no Laboratório de Design e Seleção de Materais da Universidade Federal do Rio Grande do Sul quanto de entrevista realizada com Carmelo di Bartolo, designer italiano e pesquisador de Biônica no Design Innovation Institute, em Milão.",
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W2767777384",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A modelagem em 3D para o Design de moda",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.29147/datjournal.v9i2.811",
+        "doi": "10.29147/datjournal.v9i2.811",
+        "year": 2024,
+        "authors": [
+          "Tom Igor Costa Albano",
+          "Marli Teresinha Everling"
+        ],
+        "venue": "DAT Journal",
+        "abstract": "A criação de protótipos é de extrema importância para a validação no desenvolvimento de novos produtos. Em diversas áreas, o método de prototipagem utilizando modelagem em 3D já é difundido, mas para o mercado de moda a tecnologia pode ser mais bem explorada. Tendo isso em vista, o artigo relata a pesquisa exploratória que, por meio de levantamento bibliográfico, objetivou identificar cenários sociais e mercadológicos onde a utilização dessa tecnologia tem destaque na produção de design de moda. Foram abordados aspectos que se relacionam com o ensino, o comportamento de consumo e a produção de produtos. Como resultado, ampliou-se os conhecimentos acerca do objeto de estudo. contribuindo como fonte para novas discussões.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4402355735",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Sistema de medição de desempenho para o processo de desenvolvimento do produto do vestuário de moda",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/2885",
+        "doi": null,
+        "year": 2017,
+        "authors": [
+          "Isabel Cristina Moretti"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "O processo de desenvolvimento e lançamento de novos produtos é decisivo para as empresas se manterem competitivas no mercado. Diante da importância deste processo, é preciso entender que o mesmo precisa ser controlado e bem gerenciado. Para garantir o processamento bem sucedido do desenvolvimento de produto, as empresas precisam constantemente avaliar o desempenho de seus esforços. Especificamente no processo de desenvolvimento de produto (PDP) do vestuário algumas particularidades precisam ser consideradas: influência da moda, desenvolvimento de produtos em linhas sazonais (coleções) em vez de produtos individuais, quantidade elevada de produtos por coleção, várias coleções ao ano e curto período de tempo para o desenvolvimento de cada coleção. Essas características incorporam a este processo dinamismo e rapidez durante o desenvolvimento. Sendo assim o objetivo geral deste trabalho é desenvolver um modelo para medição de desempenho do processo de desenvolvimento de produto, específico para o setor de confecção do vestuário de moda, composto por um conjunto de indicadores. Para embasar a elaboração da pesquisa, inicialmente foi apresentada uma fundamentação teórica sobre os conceitos que regem o PDP, os sistemas de medição de desempenho para este processo e seus indicadores. Os indicadores coletados foram ponderados por grau de importância por empresas de confecção do vestuário por meio da ferramenta Fuzzy-QFD, em conjunto foram identificados nas empresas os indicadores específicos para o PDP do vestuário. Baseado na fundamentação teórica e nas informações coletadas nas empresas, foi proposto o modelo para medição de desempenho do processo de desenvolvimento de produto do vestuário (MdDpV), composto por um sistema de medição de desempenho, atrelado a um Modelo para o PDP do vestuário, e por indicadores. O modelo proposto foi validado por especialistas da área (profissionais das empresas e professores) e se mostrou adequado para o PDP do vestuário. Neste sentido, conclui-se que o modelo proposto proporciona uma metodologia de suporte e controle para o PDP, por meio de atividades sistematizadas e um conjunto de indicadores. Em sua estrutura o modelo MdDpV se mostra simples, funcional e promissor para a condução e suporte do desenvolvimento de produto no âmbito industrial e acadêmico.",
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W2784148075",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Modelos de Negócios na Área da Moda: Um Estudo Sobre Setores Tradicionais e Inovadores",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1982615x10202017004",
+        "doi": "10.5965/1982615x10202017004",
+        "year": 2017,
+        "authors": [
+          "Cristiano Max Pereira Pinheiro",
+          "Christine Bahia de Oliveira",
+          "Camilla Steinhaus",
+          "Milena Cherutti"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "O atual mercado extremamente competitivo leva às empresas a procurarem melhores desempenhos, como também, formas de diferenciação e outras organizações. Levando em consideração que modelo de negócios consiste na organização de detalhes estratégicos e operacionais do empreendimento, a fim de destacar-se no mercado e separar os diferentes setores nos quais a indústria abrange, e que a moda é uma das maiores indústrias existentes no mercado, procurou-se estabelecer a definição de diferentes modelos de negócios nesta área, dividindo-os em dois grandes grupos: os tradicionais e os inovadores. Tal pesquisa visa apontar alguns setores de negócios no âmbito da moda, de forma simplificada e resumida, servindo como base para futuros trabalhos. O presente estudo resultou da falta de exploração da área, com o objetivo de reconhecer e explorar o funcionamento de alguns modelos de negócios.",
+        "pdf_url": "http://revistas.udesc.br/index.php/modapalavra/article/download/6206/6799",
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "W2669472502",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Guia para a implantação de softwares de prototipagem 3D no processo de desenvolvimento de produtos das indústrias de vestuário",
+        "source": "openalex",
+        "url": "https://repositorio.udesc.br/handle/UDESC/20975",
+        "doi": null,
+        "year": 2024,
+        "authors": [
+          "Tauane Spanhol de Aguirre"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "O ambiente competitivo do mercado de moda mundial está constantemente transformando os processos produtivos de desenvolvimento de produtos de vestuário. Enquanto as empresas buscam atender a demanda de novidades dos usuários, concomitantemente o gerenciamento de recursos internos da empresa se torna um fator importante como diferencial competitivo no mercado. Existem no mercado diversas tecnologias que colaboram para um desenvolvimento de produtos mais assertivos, colocando as empresas em vantagem competitiva. Esta pesquisa tem como objetivo propor um guia para implantação de software de prototipagem 3D no processo de desenvolvimento de produtos das indústrias de vestuário. Desta forma, Indústrias de vestuário que ainda têm dificuldades na adaptação de seus processos de desenvolvimento de produtos com a implantação de software de simulação 3D, podem criar seus protótipos virtuais, reduzir a quantidade de tecidos e outros recursos necessários para a produção de roupas. Para alcançar as soluções apontadas para o problema em adesão ao software 3D pelas empresas de confecção, esta pesquisa é de natureza aplicada, apoiando-se na abordagem qualitativa, quanto ao problema de pesquisa e em relação ao objetivo pesquisa descritiva. Quanto aos procedimentos técnicos para a coleta de dados, foi realizada: (I) Revisão da Literatura, visando avaliar o atual estado do conhecimento sobre o assunto; (II) Entrevista com o representante da empresa sobre os produtos por ela ofertado; (III) Aplicação de questionário com empresas de confecção que possuem e que não possuem o software; (IV) Pesquisa básica em rede profissional para avaliar o perfil dos profissionais que utilizam o software. As teorias que embasaram o trabalho foram: Processos para transição de modelos de indústria e adesão a novas tecnologias (Chien; Hong; Guo, 2017), (Quintino et al., 2019), Administração da Produção (Slack, Brandon-Jones; Johnston, 2020); Etapas do Desenvolvimento de Produtos de Vestuário (Montemezzo, 2003), (Bitterncourt et al, 2021), (Silveira, 2017) e teorias sobre Indústria 3.0, 3.5, 4.0 e 5.0 (Schwab, 2016), (Chien; Hong; Guo, 2017), (Quintino et al., 2019). Como resultado do trabalho, foi produzido um Guia que contribui para a elucidação dos passos necessários para a implantação do software de prototipagem 3D no processo de desenvolvimento de produtos das indústrias de vestuário.",
+        "pdf_url": "https://repositorio.udesc.br/bitstreams/e91e0d8a-a74c-4d4c-9d57-a6b449688f8e/download",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7120527950",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Gestão da tecnologia de vestuário feminino de moda festa: um mapa do sistema informativo-comunicacional em ateliês",
+        "source": "openalex",
+        "url": "https://repositorio.udesc.br/handle/UDESC/20256",
+        "doi": null,
+        "year": 2024,
+        "authors": [
+          "Débora Jönck Hoffmann Koester"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Nos ateliês de moda festa, os quais são marcados por seu trabalho artesanal, as informações são sobretudo importantes na sua fase inicial referente ao setor de criação, que será o responsável por colher informações e as conduzir por todas as etapas de desenvolvimento. A informação tem o papel de conduzir e transmitir ações e decisões que refletem em todo um processo. No entanto esse fluxo comunicacional depende da capacidade de transmissão e compreensão dessa informação em todos os setores pelos quais irá percorrer. Ciente da necessidade de gerenciar o fluxo da informação no processo de concepção e produção das peças criadas pelo estilista, ou seja, a gestão da tecnologia do vestuário em ateliês de moda festa sob medida, esta dissertação tem por objetivo propor um mapa do sistema informativo-comunicacional digital para a gestão do conhecimento da tecnologia de vestuário em ateliês. A presente pesquisa se classifica como de finalidade aplicada, pois fará uso da abordagem qualitativa e descritiva quanto ao problema e objetivos, baseando-se no método científico indutivo como forma de análise do conhecimento adquirido. Quanto aos procedimentos técnicos a pesquisa será feita a partir de: revisão bibliográfica de livros, artigos científicos, teses e dissertações; pesquisa documental, acerca de documentos sobre o tema e empresa pesquisada; e pesquisa de levantamento, realizado através da aplicação de questionários para a coleta de dados com a empresa participante “Ateliê A” localizada no município de Florianópolis, Santa Catarina. Para a análise dos dados coletados será utilizado o método de análise por Triangulação de Dados, conforme Marcondes e Brisola (2014), entre outros autores. A dissertação trabalhará sua abordagem teórica em três eixos temáticos, sendo eles: (I) os ateliês de moda festa e suas características, abordando sua origem, como funcionam, quais são seus objetivos e o perfil do seu consumidor, conforme apresentado por Lipovetsky (2009), Vovelle (1991), Treptow (2013), e Sanches (2014; (II) gestão da tecnologia do vestuário em ateliês, descrevendo-se o fluxo de trabalho e da informação de um ateliê, identificando seus setores e suas respectivas finalidades; (III) a gestão da informação e comunicação, sua importância e essencialidade para o funcionamento de uma empresa formada por setores que se inter-relacionam, utilizando da teoria de Nonaka e Takeuchi (2008), e Choo (2006). Os resultados obtidos com a pesquisa serão utilizados para a construção do mapa do sistema informativo comunicacional de ateliê, para que seja possível gerir de forma ordenada as informações que regem o fluxo de trabalho dos ateliês de moda festa, otimizar tempo, minimizar erros e delinear a informação conforme cada etapa do processo de desenvolvimento da peça.",
+        "pdf_url": "https://repositorio.udesc.br/bitstreams/c20e818c-c7bb-485b-abdc-13807bb43826/download",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7120827898",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Planejamento de carreira para alunos e egressos de graduações em Design de Moda: Necessidade e relevância",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2018v9n2p83",
+        "doi": "10.5433/2236-2207.2018v9n2p83",
+        "year": 2018,
+        "authors": [
+          "Cláudia Cyléia de Lima",
+          "Icléía Silveira",
+          "Sandra Regina Rech",
+          "José Alfredo Beirão Filho"
+        ],
+        "venue": "Projetica",
+        "abstract": "Investiga-se a necessidade e a relevância do planejamento de carreira para alunos e egressos de graduações em Design de Moda. Após pesquisa quali-quantitativa e descritiva, subsidiada por questionário aplicado em pesquisa de campo, os resultados apontam a carência e a importância de orientações, obtidas ainda na graduação, sobre mercado, possibilidades profissionais e planejamento de carreira na área em questão.",
+        "pdf_url": "http://www.uel.br/revistas/uel/index.php/projetica/article/download/33007/24675",
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "W2909568847",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Coberturas de cabeça: diretrizes projetuais para o desenvolvimento de produtos - o caso de chapéus, bonés, gorros e viseiras das indústrias da cidade de Apucarana-PR",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/11449/143054",
+        "doi": null,
+        "year": 2016,
+        "authors": [
+          "Tamissa Juliana Barreto Berton"
+        ],
+        "venue": "Acervo Digital da Universidade Estadual Paulista (Universidade Estadual Paulista)",
+        "abstract": "Coberturas de cabeça como chapéus, bonés, boinas, entre outros, além de serem acessórios que possuem a função de proteger são itens que compõem e valorizam uma composição de Moda. Embora seu uso no Brasil não seja tão cotidiano como em outras partes do mundo, existe, na atualidade, um aumento na procura de tais acessórios de moda, e por consequência um significativo aumento da produção pelas indústrias, notadamente na região de Apucarana/PR, que conta com um núcleo de indústrias especializadas na confecção de bonés e demais coberturas de cabeça semelhantes. Apesar da pertinência destes elementos para o vestuário, para o Design e para a Moda, não são encontrados muitos registros sobre estas peças, impulsionando o interesse em realizar alguma contribuição para este ramo. O objetivo predominante deste trabalho consiste em compreender as características da concepção e processo produtivo das coberturas de cabeça, visando estabelecer orientações, baseadas em conceitos de Design e de Moda, para o seu desenvolvimento em indústrias. Inicialmente, a pesquisa conta com uma breve investigação sobre a história dos acessórios de cabeça, estabelecendo definições das funções do Design atreladas a estes elementos. Em seguida, averiguou-se os estilos de chapéus, bonés, boinas e gorros produzidos e utilizados atualmente. Doravante, há um afilamento por itens produzidos pelas indústrias de confecção, relatando suas propriedades. Aborda-se neste contexto também diretrizes projetuais de desenvolvimento de produto de Moda e acessórios em geral, além de uma metodologia de confecção do vestuário. Para atingir o conhecimento que propicia elaborar os direcionamentos pretendidos, busca-se observar empresas do ramo e realizar entrevistas com responsáveis pelo desenvolvimento do produto. Contudo, percebe-se que o processo de construção das coberturas de cabeça são adequadas, porém a concepção e elaboração do produto não possui um direcionamento específico, sendo que cada um desenvolve de uma maneira, havendo assim lacunas que obstruem o resultado final. Dessa forma, estabeleceu-se orientações a fim de conduzir os profissionais que desempenham a função de conceber e desenvolver coberturas de cabeça, embora ainda necessitem ser implementadas e aplicadas, os direcionamentos foram embasados na realidade industrial.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2514613391",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "UMA VISÃO HOLÍSTICA DO DESIGN DE MODA SUSTENTÁVEL: DA COTONICULTURA ORGÂNICA AO CONSUMIDOR",
+        "source": "openalex",
+        "url": "https://doi.org/10.17771/pucrio.acad.51337",
+        "doi": "10.17771/pucrio.acad.51337",
+        "year": 2020,
+        "authors": [
+          "Semira Guerra Casé da Cunha"
+        ],
+        "venue": null,
+        "abstract": "Tomando os materiais como ponto de partida para estimular práticas e processos mais sustentáveis na indústria da moda brasileira, essa pesquisa levanta o caso do algodão orgânico produzido no estado da Paraíba, como alternativa para minimizar impactos e reduzir os riscos da atividade produtiva ao meio ambiente e à vida das pessoas. Considerando o passado histórico da região, onde a cultura do algodão branco convencional já foi a principal atividade econômica, a pesquisa aborda a configuração da cadeia produtiva do material orgânico na atualidade até o estágio de comunicação das marcas de moda. Em razão disso, a pesquisa objetiva compreender o funcionamento da cadeia produtiva têxtil, observando as estratégias de design utilizadas, bem como o posicionamento das marcas que atuam no nicho da moda sustentável no mercado brasileiro, a fim de identificar os gargalos e as possíveis contribuições do design para que o material se torne mais amplamente utilizado. A perspectiva de desenvolvimento do cultivo do algodão orgânico está alinhada à ideia de fortalecimento do setor, que pode vir a ser uma mola propulsora para o desenvolvimento econômico, social e cultural da região, considerando ainda as particularidades da cotonicultura orgânica do ponto de vista ambiental. Esses são valores que estão inseridos no contexto da sustentabilidade e se tornaram indispensáveis ao futuro e desenvolvimento das organizações, como apontam tendências globais para o setor da indústria.",
+        "pdf_url": "https://www.maxwell.vrac.puc-rio.br/51337/51337.PDF",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4205993453",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "PROPOSIÇÃO DE UM PLANO DE RESPOSTAS A RISCOS: ESTUDO DE CASO DE UMA EMPRESA DE CONFECÇÃO DO ESTADO DO CEARÁ",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.37423/231208616",
+        "doi": "10.37423/231208616",
+        "year": 2023,
+        "authors": [
+          "Luiz Neto Paiva e Silva Müller"
+        ],
+        "venue": "Editora Conhecimento Livre eBooks",
+        "abstract": "Segundo Capello et al. (2010), o surgimento das patologias pode advir de um projeto mal feito, que dispõe de materiais de má qualidade, da deficiência de influência tecnológica, especialmente associada ao concreto, de ter intercorrência em algum momento de construção, em algumas obras estar com equipe sem ter a capacidade adequada para executar o projeto, e pôr fim a falta de fiscalização por parte dos responsáveis pelo desempenho do empreendimento.Portanto, esta pesquisa tem como objetivo abordar os problemas patológicos mais comuns em estruturas de concreto armado por meio de uma pesquisa de revisão de literatura.Destacam-se fissuras, manchas, geadas, corrosão do aço e deterioração das estruturas de concreto, indicando suas causas e possíveis medidas preventivas.O estudo patológico de estruturas de concreto armado é o objeto deste trabalho, pois a maioria das estruturas no Brasil é executada com esse material e muitos profissionais da área de construção civil enfrentam essa situação.A patologia pode prejudicar a vida útil do edifício e até impedir seu uso.2. REVISÃO BIBLIOGRÁFICA O termo patologia é normalmente utilizado em muitos campos da investigação científica, especialmente na área da medicina, envolvendo tanto o conhecimento científico como a prática clínica.Este campo estuda as mudanças estruturais e funcionais de células, tecidos e órgãos que podem estar sofrendo de doenças. PATOLOGIA E MANIFESTAÇÕES PATOLÓGICASDe acordo com Fonseca ( 2017), a responsabilidade técnica requer \"conformidade com \"Normas, Taxas e Requisitos Técnicos\", Responsabilidade Civil Relacionado a medidas para fazer cumprir a compensação moral ou hereditária de propriedade Baseia-se no novo Código Civil Brasileiro e na Lei 5.194 / 66 e 6.496 / 77.Finalmente, a responsabilidade criminal pode, em última análise, sujeitar os profissionais à pena de reclusão, a depender da gravidade das ações por ele cometidas, relativas ao exercício de sua profissão.Quanto à responsabilidade criminal, no capítulo das Lesões Corporais, art.129 do Código Penal é válido ressaltar que aquele que ofender a integridade corporal ou a saúde de alguém, pode pegar uma pena de três meses até doze anos de detenção; e no art.132 dispõe que \" expor a vida ou a saúde de outrem a perigo direto e iminente pode gerar pena de três meses a um ano de detenção\" (LEI nº 2.848, 1940).Vale ressaltar que o item VIII do art.39 do Código de Defesa do Consumidor (LEI Nº 8.078, 1990) veda que os serviços sejam feitos em desacordo com as normas da ABNT, ou seja, devemos cumprir todas as normas pertinentes ao assunto, principalmente a NBR 5674 (ABNT, 2012) que trata sobre a manutenção nas edificações.2.2 PATOLOGIA O termo patologia vem sido discutido e elaborado durante o decorrer do tempo, inicialmente o emprego dos termos de sua origem se relacionam diretamente com a medicina, termos estes que são da junção de duas palavras gregas pathos, referindo-se a sofrimento/doenças e logos, que faz significado de ciência/estudo; Bolina et al. (2019).De acordo com (SENA, et al. 2020), patologia é o estudo de doenças gerais com condições anormais, cuja etiologia pode ser conhecida ou desconhecida.Portanto, o estudo da doença, ou seja, a patologia, estuda o surgimento de anormalidades no sistema; os causadores de imperfeições, defeitos, deficiências ou \"doenças\".Tendo em vista as circunstâncias necessárias o tratamento de anomalias em certo desempenho, as soluções adotadas partem de princípios comum: quando o corpo padece com uma enfermidade que afeta o seu bom funcionamento, ele pode ser tratado com medicamentos, da mesma forma, uma edificação pode passar por reparos para a recuperação de seu uso esperado (FRANÇA et al. 2011).Entretanto, da mesma forma que o profissional da saúde, precisa entender a causa da doença para ser capaz de aplicar o método correto tratamento, medicando adequadamente, o engenheiro patologista, necessita conhecer bem as causas das anomalias que possam surgir nas construções, afim de propor soluções mais adequadas a cada situação, para tratar, recuperar e corrigir os problemas, com a intenção de reestruturar e deixar a edificação em boas condições de uso para seus usuários. PRINCIPAIS TIPOS DE MANIFESTAÇÕES PATOLÓGICAS NAS EDIFICAÇÕESAs patologias mais comuns encontradas nas edificações hoje são fissuras, corrosões em armaduras, eflorescências e infiltrações de água; podendo aparecer durante a construção do edifício, após o trabalho ou durante o uso do usuário (THOMAZ, 1989).",
+        "pdf_url": "https://doi.org/10.37423/231208616",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4391829241",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "A Biotecnologia como ferramenta de inovação para a indústria têxtil e de confecções : estudo de caso SUI",
+        "source": "openalex",
+        "url": "https://doi.org/10.26512/2021.11.d.42365",
+        "doi": "10.26512/2021.11.d.42365",
+        "year": 2021,
+        "authors": [
+          "Carolina Roberte de Oliveira"
+        ],
+        "venue": "RIUnB Institutional Repository (University of Brasília)",
+        "abstract": "This work investigates biotechnology as a potential tool for transforming the textile value chain, and how bio-based businesses have been innovating towards the processes of the textile and apparel industry. The investigation proposed here is supported by three axis: 1) the fashion industry regarding the transformation of its business models, consumption habits, and innovation; the textile and apparel industry in terms of the fragmentation of its production chains, the generation of solid waste, and pollution; 2) the sustainable development promoted by the circular economy and bioeconomy platforms in a context of the climate crisis, and how they influence the emergence of new bio-based businesses; 3) an innovation observatory that prospects the ecosystem of new bio-based businesses that have contributed to greener and more sustainable practices. The geographic scope of this investigation focuses on both international and national initiatives, to compare Brazilian and foreign innovation scenarios. Creations such as leather produced from bacteria, yeasts, or mycelia; natural and non-toxic dyeing processes; new textile fibers such as spider web silk; or materials from agricultural waste are already a reality. However, most researches are incipient or do not have commercially available products yet. The methodology focused on the case study of the startup SUI Biotecnologia, created to offer biofabricated solutions for the textile industry based on research, development, and innovation in biotechnology. The case study addresses the motivations for creating the company, its main projects, and its visions for the future. This study proposes a reflection on the urgency of the sustainable development and on how biotechnology questions the traditional and linear processes of the textile supply chains, proposing circular processes, services, and products that positively impact the environment and society, preserving natural resources.",
+        "pdf_url": "http://repositorio.unb.br/bitstream/10482/42365/1/2021_CarolinaRobertedeOliveira.pdf",
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W7213493393",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Fashion design for cost (FDfC): o processo de desenvolvimento de produto de moda quando quando priorizado o custo do produto",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2024.tde-15102025-111949",
+        "doi": "10.11606/d.100.2024.tde-15102025-111949",
+        "year": 2024,
+        "authors": [
+          "Pedro Porto Chadud"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This research proposes to investigate and problematize the design method used by apparel industries that have affordable product prices as their value proposition. The method employed in this research was problem-centered interviews, as it allows the researcher to challenge the interviewee if any inconsistency is identified in their responses. The interviews were conducted with professionals who worked in the aforementioned company profile and held a position in one of the three areas responsible for collection development: planning, creation, and development. As part of the final objective, a final flowchart was created to exemplify and illustrate the design process used by the companies in question.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-15102025-111949/publico/PedroPorto_original.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4415250337",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "As dinâmicas do mercado da moda e a inserção do design nas empresas : uma fertilização cruzada?",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/157499",
+        "doi": null,
+        "year": 2017,
+        "authors": [
+          "Bruna Ruschel Moreira",
+          "Maurício Moreira e Silva Bernardes"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Sabe-se que o sistema da moda possui elementos constitutivos embasados na efemeridade e, por isto, seu ciclo possui espaços cada vez mais curtos. As consequências desta característica podem ser analisadas por meio de diversos aspectos, desde os comportamentais até mercadológicos. Este capítulo faz um recorte nas relações existentes entre a dinâmica do mercado da moda e as possíveis consequências que este efêmero setor infere na inserção das competências do design nas empresas. Para tanto, o artigo apresenta uma pesquisa de campo, realizada com noventa designers, que analisou as diferenças das inserções das competências do design nas empresas dos segmentos da moda e em companhias atuantes em design de produto (geral), gráfico e serviço. Os resultados apontam que as empresas atuantes na área da moda, em muitos aspectos, apresentam a atividade do design inserida de forma mais significativa no desenvolvimento de produtos e em pesquisas de mercado. Mesmo que tais resultados não possam ser generalizados devido a pouca representatividade do tamanho da amostra, destaca-se que estes dados podem servir como indícios iniciais para pesquisas futuras que visam estruturar mecanismos para a inserção integral das competências dos designers nas empresas.",
+        "pdf_url": "https://lume.ufrgs.br/bitstream/10183/157499/1/001020177.pdf",
+        "citation_count": 1,
+        "work_type": "book-chapter",
+        "identifier": "W2625556932",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "MODA, LINGUAGEM E O REGIME ESTÉTICO DA MULTIDÃO",
+        "source": "openalex",
+        "url": "https://doi.org/10.17771/pucrio.acad.56284",
+        "doi": "10.17771/pucrio.acad.56284",
+        "year": 2021,
+        "authors": [
+          "AGUINALDO CONRADO PINTO"
+        ],
+        "venue": null,
+        "abstract": "As formas de produção produção e consumo do pós -fordismo, sob o signo da multidão, assumiram um caráter e uma configuração imateriais. O esforço empreendido pela pela presente tese é o de discutir os aspectos linguísticos desta desta transformação e refletir sobre o papel da moda e das artes para a constituição dos regimes sensíveis de legibilidade.",
+        "pdf_url": "https://www.maxwell.vrac.puc-rio.br/56284/56284.PDF",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4200056846",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "O professor no curso de Tecnologia em Design de Moda: o conhecimento específico e a formação pedagógica para o exercício da docência.",
+        "source": "openalex",
+        "url": "http://guaiaca.ufpel.edu.br/handle/prefix/6978",
+        "doi": null,
+        "year": 2020,
+        "authors": [
+          "Taíse Roza Garcia"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Este estudo buscou compreender as expressões de professores do curso de Tecnologia em Design de Moda (IFSul), quando instigados a falar sobre sua formação, suas experiências em sala de aula e sobre os conhecimentos necessários para exercer a docência. Através dessa pesquisa pode-se percorrer um caminho que proporcionou um olhar sobre as experiências desses docentes, os desafios e as dificuldades que encontraram para ensinar, uma vez que sua formação inicial não os habilitou para serem professores. É muito presente a concepção de que basta o domínio dos conhecimentos específicos da área de formação e de atuação para ser professor universitário. Pouca ênfase é dada aos conhecimentos próprios e específicos da docência. Analisar as respostas das docentes em relação as suas experiências em sala de aula, sua formação, seus saberes, suas concepções em relação aos conhecimentos específicos e pedagógicos nos encaminhou para a pesquisa qualitativa com os dados recolhidos através de entrevista semiestruturada. A discussão e interpretação dos dados, por meio da análise de conteúdo foram sustentadas nos referenciais teóricos sobre a docência universitária e a formação de professores. Os principais autores que subsidiaram o estudo foram Pimenta e Anastasiou (2002), Cunha (2003, 2006, 2010); Zabalza (2004), Marcelo García (1999), Masetto (2009) dentre outros. Foi possível perceber, a partir das vozes das quatro entrevistadas entrelaçadas com o referencial teórico, que apesar dos inúmeros desafios elas estão motivadas para a docência e acreditam que o conhecimento específico na área supre as necessidades para sua atuação. Podemos concluir que essas profissionais se fazem professoras no envolvimento e responsabilidade com suas aulas, com suas descobertas, com seus desafios, com a relação que estabelecem com seus alunos e com as reflexões que fazem sobre suas práticas, não remetendo a necessidade de outros conhecimentos para ser professor.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W3128453446",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Proteção à moda como patrimônio cultural e propriedade intelectual",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.2.2019.tde-24072020-135201",
+        "doi": "10.11606/d.2.2019.tde-24072020-135201",
+        "year": 2019,
+        "authors": [
+          "Luiza Silva Balthazar"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This work aims to study the possibility of considering garments as cultural heritage and evaluate the consequences of this application to the intellectual property of fashion. For this purpose, fashion was studied as a means of communication and cultural expression, identifying its sociological and anthropological aspects. The evolution of clothing and the history of fashion was studied in order to differentiate fashion - formed of seasonal tendencies - from typical costumes. Based on these concepts, international documents related to cultural heritage, especially the immaterial, were identified aiming to establish the evolution of the concept and its scope, going from buildings and landscape properties to intangible cultural practices. In the field of comparative law, it was verified how Portugal, France, Bolivia and Argentina deal with these issues. The Brazilian Law was studied from the perspective of the constitutional evolution of culture and intellectual property and, considering the Constitution, the construction of principles and public participation as a differentiating element of this document. Regarding the Laws, it was analysed how they fit within the Brazilian organizational structure and what consequences they bring to traditional communities and to the fashion industry. In addition, the possibility to protect traditional clothing and fashion creations by intellectual property means was studied. Finally, it was verified that the origin of the cultural appropriation conflicts lies in the difficulty in fitting into the intellectual property system the works created by traditional communities, which prioritize the collective construction, embodied in the oral tradition, which allows the constant evolution of cultural practices. Thus, in order to reduce negative externalities to these communities, it is understood that the simple application of these rights to traditional clothing would harm the communities, and there are other ways of meeting their needs without impairing cultural rights.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/2/2132/tde-24072020-135201/publico/9592727_Dissertacao_Corrigida.pdf",
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W3097006054",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Vida, história, moda e ativismo: uma revisão sistemática da literatura sobre a participação das mulheres no ofício da alfaiataria",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/ped2022-3385779",
+        "doi": "10.5151/ped2022-3385779",
+        "year": 2022,
+        "authors": [
+          "Manuela de AZAMBUJA",
+          "Marizilda dos Santos Menezes",
+          "Fernanda HENRIQUES"
+        ],
+        "venue": null,
+        "abstract": "Realizou-se uma revisão sistemática da literatura para analisar a dedicação das mulheres à alfaiataria, profissão tradicionalmente atribuída aos homens, na qual a participação feminina foi historicamente desconsiderada devido ao seu caráter doméstico. Utilizaram-se as bases de dados Web of Science, Scopus e Scielo para a busca na literatura, resultando em 22 artigos selecionados. Esses artigos foram divididos em 3 categorias: “estudos biográficos”, “revisões históricas” e “estudos de caso e de campo”. Em geral, esses trabalhos discutem as mulheres e suas relações com o trabalho da costura em contextos históricos e atuais. Embora aspectos sobre a participação feminina no ofício da alfaiataria tenham sido apontados, observou-se a necessidade de aprofundar o assunto em trabalhos futuros. Este artigo faz parte de um projeto de dissertação de mestrado em Design da FAAC/UNESP que visa documentar a participação feminina contemporânea no ofício da alfaiataria.",
+        "pdf_url": "http://pdf.blucher.com.br/designproceedings/ped2022/3385779.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4319313419",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Vida, história, moda e ativismo: uma revisão sistemática da literatura sobre a participação das mulheres no ofício da alfaiataria",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.5433/2236-2207.2022v13n3p282",
+        "doi": "10.5433/2236-2207.2022v13n3p282",
+        "year": 2022,
+        "authors": [
+          "Manuela de AZAMBUJA",
+          "Marizilda dos Santos Menezes",
+          "Fernanda Henriques"
+        ],
+        "venue": "Projetica",
+        "abstract": "Realizou-se uma revisão sistemática da literatura para analisar a dedicação das mulheres à alfaiataria, profissão tradicionalmente atribuída aos homens, na qual a participação feminina foi historicamente desconsiderada devido ao seu caráter doméstico. Utilizaram-se as bases de dados Web of Science, Scopus e Scielo para a busca na literatura, resultando em 22 artigos selecionados. Esses artigos foram divididos em 3 categorias: “estudos biográficos”, “revisões históricas” e “estudos de caso e de campo”. Em geral, esses trabalhos discutem as mulheres e suas relações com o trabalho da costura em contextos históricos e atuais. Embora aspectos sobre a participação feminina no ofício da alfaiataria tenham sido apontados, observou-se a necessidade de aprofundar o assunto em trabalhos futuros. Este artigo faz parte de um projeto de dissertação de mestrado em Design da FAAC/UNESP que visa documentar a participação feminina contemporânea no ofício da alfaiataria.",
+        "pdf_url": "https://ojs.uel.br/revistas/uel/index.php/projetica/article/download/46946/47992",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4315434318",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "ALTA MODA BRASILEIRA ENQUANTO ORGANIZAÇÃO: UM OLHAR PELA PERSPECTIVA DA ORGANIZAÇÃO DA PRODUÇÃO",
+        "source": "openalex",
+        "url": "https://doi.org/10.37423/220205369",
+        "doi": "10.37423/220205369",
+        "year": 2022,
+        "authors": [
+          "Vicky Lamberts",
+          "Silene Seibel",
+          "Icléía Silveira",
+          "Lucas da Rosa",
+          "Daniela Novelli"
+        ],
+        "venue": "Editora Conhecimento Livre eBooks",
+        "abstract": "Resumo: O surgimento do município de Passagem-RN apresenta forte ligação com a existência do rio Jacu na região onde a cidade está localizada.Seu desenvolvimento se deu em parte sob forte influência desse recurso hídrico naquele território.Seja pelos fatores sociais, ambientais, culturais ou econômicos, o rio Jacu desempenha importante relevância na história deste município.Partindo da sua importância, observou-se a necessidade da realização de um estudo com o objetivo avaliar as condições atuais em que o rio se encontra e assim diagnosticar possíveis impactos provindos de causas antrópicas ou naturais.Para a execução deste trabalho foi utilizado como recurso metodológico a caracterização física e química da água do rio Jacu, uma vez que este método é fundamental para a avaliação da qualidade de um recurso hídrico.Inicialmente foram selecionados 2 pontos para coleta das amostras, sendo um ponto à montante do rio (ponto 1) e outro à jusante (ponto 2).As coletas e análises das amostras ocorreram quinzenalmente num período de oito meses, com início em outubro de 2018 e conclusão em junho de 2019.Entre os parâmetros estudados, estão, os pertinentes a este trabalho, Oxigênio Dissolvido e pH, sendo estas análises realizadas in loco e laboratório, respectivamente.Os valores obtidos foram confrontados com os padrões estabelecidos pala resolução Conama 357/05 que dispõe sobre a classificação e enquadramento dos corpos de água.Diante dos resultados alcançados foi possível diagnosticar que o rio Jacu na área delimitada do estudo vem sofrendo impactos devido a causas antrópicas em seu percurso pelo município.Palavras-chave: Parâmetros químicos",
+        "pdf_url": "https://doi.org/10.37423/220205369",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4225944255",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Influenciadoras digitais de moda e beleza no Instagram: estratégias comunicacionais, institucionalidades e consumo midiatizado do público feminino",
+        "source": "openalex",
+        "url": "https://repositorio.ufrn.br/jspui/handle/123456789/28488",
+        "doi": null,
+        "year": 2019,
+        "authors": [
+          "Mayara de Sousa Guimarães Fonsêca"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "Esta tese se propõe compreender o surgimento e a institucionalização de influenciadoras digitais de moda e beleza a partir das estratégias comunicacionais adotadas no aplicativo Instagram para influenciar o consumo no universo feminino por meio de estudo de caso de cinco perfis selecionados (@camila_morais_, @achadinhosdanega, @ricademarre, @nicolepinheiro e @thuanyazevedo), com o intuito de caracterizar o consumo virtual feminino e suas transformações no século XXI mediatizado pelas mídias sociais digitais, com enfoque no Instagram, analisar como ocorre a interação entre as influenciadoras digitais de moda e beleza – selecionadas para este estudo de caso –, comparando as postagens no feed de notícias e no instastories a fim de verificar quais estratégias utilizam para fomento do consumo, apontar os impactos provocados no mercado publicitário com o surgimento dos influenciadores digitais no Instagram, apresentar as diferenças e confluências entre os conceitos de formador de opinião e influenciador digital e compreender o consumo midiatizado dos seguidores, enfatizando gostos e preferências de acordo com as curtidas e comentários no feed de notícias. Defende-se o pressuposto de que o nível de interação no aplicativo Instagram entre influenciadores digitais e seus seguidores define sua institucionalização. Assim, entende-se que os autores denominados influenciadores digitais estão em fase de consolidação no sistema publicitário ao associarem seu estilo de vida aos produtos e serviços que divulgam, os quais utilizam estratégias comunicacionais, que passamos a denominar como “produto-experiência” e “serviço-experiência”. O quadro teórico-metodológico desta tese apresenta como predominantes os estudos da Influência, sob a perspectiva da teoria “two-step flow” representados sobretudo pelos estudos de Paul Lazarsfeld (1955); Midiatização (HJARVARD, 2014, FAUSTO NETO, 2008, HEPP, 2014, VERÓN, 2014); Influenciadores digitais (KARHAWI, 2018, FINDLAY 2015, ROCAMORA, 2011) e do Consumo Midiatizado (TRINDADE e PEREZ, 2016), Interação (THOMPSON, 2018) e Publicidade Expandida (TRINDADE, 2017). As análises se fundamentam no monitoramento dos perfis do Instagram das cinco influenciadoras, durante um período de 60 dias, por meio da observação sistemática do tipo não participante. A pesquisa de natureza quanti-qualitativa, tem como base as métricas definidas pela autora e sistematizadas em planilha do programa Excel para atingir os objetivos específicos desta tese. Para a análise dos dados foi aplicada a Análise de Conteúdo. Em paralelo, aplicouse o instrumento de coleta de dados, entrevista, com as influenciadoras, em dias e horários distintos, de forma individual, via aplicativo de celular. A etapa qualitativa é complementada pela seleção das cinco postagens no feed de notícias do Instagram de cada influenciadora que tiveram maior número de comentários.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W3006404455",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Respostas não estatais de combate à precarização do trabalho na indústria têxtil: o papel da autorregulação e das organizações não governamentais",
+        "source": "openalex",
+        "url": "http://www.repositorio.jesuita.org.br/handle/UNISINOS/6987",
+        "doi": null,
+        "year": 2017,
+        "authors": [
+          "Camila Pinheiro Bergenthal"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "AGRADECIMENTOSMinha sincera gratidão a todos que de certo modo colaboraram para que este projeto se concretizasse, em especial: Ao meu marido, Daniel Costa Ferronatto, pelo apoio incondicional, abdicando dos próprios sonhos em nome dos meus.Aos meus pais, Jair Bergenthal e Irene Pinheiro, por se orgulharem sempre das minhas conquistas e pelos incansáveis incentivos.Ao meu orientador, Prof. Dr. José Rodrigo Rodriguez, pela paciência no meu processo de construção da maturidade intelectual, bem como toda dedicação expendida para que este projeto fosse concluído.Aos meus colegas, que compartilharam das dificuldades e desafios dessa trajetória, em especial minha colega Luana Caspari.Aos demais professores do PPG em Direito da UNISINOS, que ajudaram a trilhar este caminho, em particular, a colaboradora Vera. RESUMOA estratégia da globalização, em que pese ter contribuído para o avanço de diversos setores econômicos, acabou por exacerbar a perda de direitos, humanos e trabalhistas, agravando a exclusão social e as marcas de pobreza por todo o globo, sobretudo no segmento têxtil.Flagrantes de trabalhadores submetidos a situações análogas à escravidão, jornada exaustiva, trabalho forçado, condições degradantes, servidão por dívida, utilização de mão de obra infantil, hoje reconhecidos como práticas de escravidão moderna, são recorrentes na indústria da moda, não obstante a existência de esparsa legislação, no âmbito nacional e internacional, contrária a qualquer tipo de escravidão.Nesse sentido, a presente dissertação aborda as respostas não estatais de combate à precarização do trabalho na indústria têxtil: o papel dos direitos humanos e da autorregulação.A pesquisa justifica-se em face da ineficiência dos Estados-Nações na proteção de garantias fundamentais dos trabalhadores que atuam no segmento têxtil.Logo, é mais do que nunca atual e merece destaque diante dos reiterados casos de precarização do trabalho.Lança-se uma proposta sistemática alicerçada no método dialético.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2893681602",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Da griffe ao fast fashion: uma análise das estratégias de produção de coleções colaborativas",
+        "source": "openalex",
+        "url": "https://doi.org/10.47749/t/unicamp.2019.1094704",
+        "doi": "10.47749/t/unicamp.2019.1094704",
+        "year": 2019,
+        "authors": [
+          "Bárbara Venturini Ábile"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Resumo: Desde 2004 ocorre um movimento específico na indústria da moda, que recebeu o nome de coleções colaborativas. Elas consistem no encontro pontual entre dois segmentos, a marca de luxo e a marca fast fashion, na fabricação e venda de roupas. As peças de uma coleção colaborativa possuem a etiqueta da marca de luxo, mas são produzidas e vendidas pelas fast fashions em lojas selecionadas, sob o discurso de \"democratização da moda\". Temos como objetivo o mapeamento do processo de aliança entre essas duas marcas, no que diz respeito às suas estratégias de produção. Para isso, partiremos da ideia de que tais alianças são vistas pelos consumidores e divulgadas pela mídia como algo improvável. Defenderemos que tal ideia de improbabilidade não diz respeito exatamente à coleção em si, mas sim ao fato de uma marca de luxo se aliar com uma fast fashion. Traremos os aspectos que nos permitem explicar os motivos pelos quais as marcas de luxo, mesmo sendo marcas de roupas como as fast fashions são, possuem uma imagem de diferença e de superioridade. O fio condutor da explicação será como as marcas de luxo foram historicamente construídas como isoladas e diferentes das outras formas da produção de roupa, processo que tem origem na fundação da alta costura. Paradoxalmente, utilizaremos esse mesmo fio condutor para comprovar nossa hipótese, a de que o encontro entre marcas de luxo e fast fashion, na verdade, nada tem de inusitado. A demonstração desse ponto focará no fato de que, apesar de reproduzir sua característica de diferença, desde que foi criado, o espaço de produção da alta costura sofre um contínuo movimento de expansão, no qual a griffe - assinatura do costureiro, que através da transubstanciação simbólica transformava economicamente e simbolicamente uma peça de roupa - passa a ser explorada comercialmente, visando a conquista de mais lucros econômicos. Justificaremos que tal exploração adquire novas proporções no cenário de globalização, a ponto de ocorrer uma mudança que consideramos ser a grande condição para que exista algo como as coleções colaborativas: a transformação da griffe em um nome que passa a qualificar produtos, que é protegido por lei e regido por regras do mercado, ou seja, em uma marca. Demonstraremos através do conceito de universo que uma vez que as griffes tornam-se marcas, elas adquirem uma característica ambivalente que permite sua atuação na esfera simbólica (em referência à sua griffe) e na esfera comercial e racionalizada (através da sua marca). É por isso que a atuação dessas marcas hoje está na tensão entre a reprodução de sua imagem de restrição e sua prática de difusão de seus produtos. Compreendendo esse movimento das marcas é possível entender por que existe uma ideia geral de que encontros como as coleções colaborativas nos passe a impressão de que se trata de algo improvável, mesmo que marcas de luxo aliem-se cada vez mais com segmentos distantes daquele que lhe é próprio, o vestuário. Por fim, traremos a partir disso algumas reflexões sobre o quão factível seria falar de uma \"democratização da moda\" nesse sentido",
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W4253353506",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Investigação do método de desenvolvimento de calçados no pólo calçadista do Vale do Rio dos Sinos e Paranhana, no Estado do Rio Grande do Sul",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/15837",
+        "doi": null,
+        "year": 2008,
+        "authors": [
+          "Ronise Ferreira dos Santos"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "O objetivo desta dissertação foi investigar o método de desenvolvimento de calçados utilizado por profissionais atuantes no Pólo calçadista do Vale do Rio dos Sinos e Paranhana, no Estado do Rio Grande do Sul. O grupo amostrado foi composto por 31 profissionais independentes que atuam para diversas empresas de pequeno, médio e grande porte da região e pelos 11 profissionais do grupo de desenvolvimento de produto de uma empresa de grande porte situada no Pólo. Os dados levantados com a ferramenta Design Macroergonômico (DM) proposta por Flogliatto e Guimarães (1999) mostraram que o calçado é um produto de moda, desenvolvido com ênfase exclusivamente em critérios estético-simbólicos definidos com base na pesquisa de tendências em capitais mundiais de moda (principalmente européias), seguindo o método proposto por Carrasco (1994) na década de 70. O mapeamento do PDP da empresa estudo de caso mostrou que a fase de pré-desenvolvimento é uma \"caixa-preta\" para os integrantes da equipe de desenvolvimento de produto, que não têm clareza quanto à origem das decisões estratégicas de projeto, quanto à estrutura do portfólio da empresa, e quanto às incumbências de cada membro dentro da equipe, principalmente sobre as atividades de marketing dentro do processo e sobre a macro-etapa de pós-desenvolvimento. O PDP não incorpora o grupo de manufatura nas atividades de pré-desenvolvimento e no início das atividades de desenvolvimento. De um modo geral, a pesquisa evidenciou que, independente do porte da empresa e da qualificação dos profissionais, e do incentivo do Governo Federal através das entidades de classe, não há desenvolvimento de design de calçados no grupo amostrado, que as metas são formuladas em termos de custo de fabricação e quantidade de vendas, não havendo incentivo para a inovação, o que não contribui para tornar o Brasil competitivo no cenário mundial, apesar de ser o 3º maior fabricante de calçados do mundo.",
+        "pdf_url": null,
+        "citation_count": 6,
+        "work_type": "thesis",
+        "identifier": "W2306164187",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "DESENVOLVIMENTO DE FOTOPROTETOR A BASE DE ÓLEO ESSENCIAL DE HORTELÃ-PIMENTA (Mentha piperita) E ANÁLISE PRELIMINAR DE ESTABILIDADE",
+        "source": "openalex",
+        "url": "https://doi.org/10.37423/220205418",
+        "doi": "10.37423/220205418",
+        "year": 2022,
+        "authors": [
+          "Liliane Bezerra Tributino Simião",
+          "Valciere Gonzaga da Silva Cristiano",
+          "Ígor Prado de Barros Lima"
+        ],
+        "venue": "Editora Conhecimento Livre eBooks",
+        "abstract": "Resumo: O surgimento do município de Passagem-RN apresenta forte ligação com a existência do rio Jacu na região onde a cidade está localizada.Seu desenvolvimento se deu em parte sob forte influência desse recurso hídrico naquele território.Seja pelos fatores sociais, ambientais, culturais ou econômicos, o rio Jacu desempenha importante relevância na história deste município.Partindo da sua importância, observou-se a necessidade da realização de um estudo com o objetivo avaliar as condições atuais em que o rio se encontra e assim diagnosticar possíveis impactos provindos de causas antrópicas ou naturais.Para a execução deste trabalho foi utilizado como recurso metodológico a caracterização física e química da água do rio Jacu, uma vez que este método é fundamental para a avaliação da qualidade de um recurso hídrico.Inicialmente foram selecionados 2 pontos para coleta das amostras, sendo um ponto à montante do rio (ponto 1) e outro à jusante (ponto 2).As coletas e análises das amostras ocorreram quinzenalmente num período de oito meses, com início em outubro de 2018 e conclusão em junho de 2019.Entre os parâmetros estudados, estão, os pertinentes a este trabalho, Oxigênio Dissolvido e pH, sendo estas análises realizadas in loco e laboratório, respectivamente.Os valores obtidos foram confrontados com os padrões estabelecidos pala resolução Conama 357/05 que dispõe sobre a classificação e enquadramento dos corpos de água.Diante dos resultados alcançados foi possível diagnosticar que o rio Jacu na área delimitada do estudo vem sofrendo impactos devido a causas antrópicas em seu percurso pelo município.Palavras-chave: Parâmetros químicos",
+        "pdf_url": "https://doi.org/10.37423/220205418",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4225815633",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      }
+    ]
+  },
+  "count": 25,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:01:20.372320+00:00"
+}

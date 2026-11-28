@@ -1,0 +1,12 @@
+{
+  "findings": [
+    {
+      "id": "width-1",
+      "severity": "low",
+      "section": "## 4. Dores da Estilista no Processo",
+      "issue": "Mencionar as diretrizes internacionais de Ecodesign e Responsabilidade Estendida do Produtor (EPR) da OCDE ([[oecd-environment-working-papers-no-253]]) e de design circular ([[university-of-huddersfield-repository]]) que aumentam a pressão regulatória e técnica sobre as escolhas de materiais da estilista.",
+      "suggested_fix": "Incluir referência a [[oecd-environment-working-papers-no-253]] e [[university-of-huddersfield-repository]] no item sobre bloqueio ao design sustentável na Seção 4.3.",
+      "needs_fetch": false
+    }
+  ]
+}

@@ -118,10 +118,10 @@ async function Configuracoes({ params, searchParams }: Pick<Props, "params" | "s
               return (
                 <li key={m.user_id} className="flex flex-wrap items-center justify-between gap-3 px-5 py-3">
                   <span className="min-w-0 truncate">
-                    {m.email}
+                    {[m.first_name, m.last_name].filter(Boolean).join(" ") || m.email}
                     {me && <span className="text-tinta-suave"> (você)</span>}
                     <span className="block text-xs text-tinta-suave">
-                      desde {dataCurta.format(new Date(m.joined_at))}
+                      {m.first_name ? `${m.email} · ` : ""}desde {dataCurta.format(new Date(m.joined_at))}
                       {m.role !== "owner" && (canCreateOf.get(m.user_id) ? " · pode criar organizações" : " · não cria organizações")}
                     </span>
                   </span>

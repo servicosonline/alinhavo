@@ -1,0 +1,60 @@
+[
+  {
+    "claim": "A contratação de serviços terceirizados (facções) é utilizada pela indústria de vestuário como estratégia para absorver a sazonalidade do lançamento de coleções e melhorar as atividades dos setores de produção.",
+    "stance": "supports",
+    "stance_target": "A sazonalidade das coleções criadas pelo setor de estilo exige flexibilização produtiva via terceirização/facções",
+    "evidence_type": "empirical",
+    "scope_conditions": "Indústria de vestuário brasileira (estudo de caso na Rovitex Indústria e Comércio de Malhas Ltda., Santa Catarina, dezembro de 2020)",
+    "quoted_support": "A contratação de serviços terceirizados é uma opção para atender a demanda de mercado da indústria de vestuário, tendo em vista a sazonalidade do lançamento de coleções.",
+    "numbers": [],
+    "entities": [
+      "Rovitex Indústria e Comércio de Malhas Ltda.",
+      "Daniel Goulart",
+      "Icléia Silveira",
+      "Lucas Da Rosa",
+      "Daniela Novelli"
+    ],
+    "time_period": "dezembro de 2020",
+    "region": "Santa Catarina, Brasil",
+    "confidence": "high",
+    "source_note_id": "terceirização-na-indústria-de-vestuário-projetica"
+  },
+  {
+    "claim": "A empresa Rovitex operava com 82 oficinas terceirizadas em dezembro de 2020, selecionadas prioritariamente pelos critérios de qualidade do serviço prestado, cumprimento dos prazos de entrega e conformidade jurídica.",
+    "stance": "supports",
+    "stance_target": "Qualidade técnica, pontualidade de entrega das coleções e risco jurídico/trabalhista são os principais gargalos na gestão de facções de vestuário",
+    "evidence_type": "empirical",
+    "scope_conditions": "Rovitex Indústria e Comércio de Malhas Ltda., Santa Catarina",
+    "quoted_support": "Os resultados indicaram que, no período da realização da pesquisa (dezembro de 2020), ela contava com 82 empresas terceirizadas e os aspectos relativos à qualidade do serviço prestado, cumprimento dos prazos de entrega e a conformidade jurídica da empresa eram seus principais critérios para escolha dessas empresas.",
+    "numbers": [
+      "82 empresas terceirizadas",
+      "dezembro de 2020"
+    ],
+    "entities": [
+      "Rovitex Indústria e Comércio de Malhas Ltda."
+    ],
+    "time_period": "dezembro de 2020",
+    "region": "Santa Catarina, Brasil",
+    "confidence": "high",
+    "source_note_id": "terceirização-na-indústria-de-vestuário-projetica"
+  },
+  {
+    "claim": "A gestão de operações terceirizadas no vestuário apoia-se na economia da moda para cadeias híbridas, na gestão do conhecimento organizacional e no compliance jurídico-trabalhista (Fashion Law).",
+    "stance": "supports",
+    "stance_target": "A integração entre criação/desenvolvimento e produção terceirizada requer transferência estruturada de conhecimento e compliance",
+    "evidence_type": "theoretical",
+    "scope_conditions": "Indústria têxtil e do vestuário no Brasil",
+    "quoted_support": "Justifica-se a relevância da pesquisa por reconhecer nesse processo uma estratégia para a expansão dos negócios, bem como uma ferramenta para a melhoria das atividades dos setores de produção, o que torna a empresa mais competitiva e lucrativa.",
+    "numbers": [],
+    "entities": [
+      "Enrico Cietta",
+      "Ikujiro Nonaka",
+      "Hirotaka Takeuchi",
+      "Silvia Luisa Eifert Haas"
+    ],
+    "time_period": "2020-2021",
+    "region": "Brasil",
+    "confidence": "medium",
+    "source_note_id": "terceirização-na-indústria-de-vestuário-projetica"
+  }
+]

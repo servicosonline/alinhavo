@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "No desenvolvimento de três variações de vestidos (princesa, evasê A-line e assimétrico drapeado) a partir de um bloco base no CLO3D, o fluxo digital exigiu cerca de 45 a 60 minutos por protótipo (15–20 min de manipulação do molde, 0 min de corte/costura e 20–30 min de avaliação/revisão de caimento), contra uma estimativa de 12 a 16 horas no método físico tradicional (redução de até 90% no tempo de prototipagem inicial).",
+    "stance": "supports",
+    "stance_target": "ganho de velocidade na iteração geométrica inicial 2D-3D em comparação à confecção manual de toile física",
+    "evidence_type": "empirical",
+    "scope_conditions": "Estudo de engenharia de modelagem no CLO3D em tamanho único (M: busto 88 cm, cintura 70 cm, quadril 94 cm) com popeline de algodão 100% (120–150 g/m²), sem validação física real",
+    "quoted_support": "Particle Distance refers to the average distance between the points that make up a Garment Pattern, in other words, size of the mesh. The Garment quality and Simulation speed depend on the Particle Distance. Therefore, set the value at 20mm when making a Garment and dressing it on an Avatar for faster working process, and set it under 5mm to enhance the Garment quality once it is completed.",
+    "numbers": ["45-60 min", "12-16 hours", "90%", "20mm", "5mm", "88 cm bust", "70 cm waist", "94 cm hip", "+15% fabric consumption"],
+    "entities": ["CLO3D", "Sonargaon University"],
+    "time_period": "2026",
+    "region": "Bangladesh",
+    "confidence": "medium",
+    "source_note_id": "systematic-pattern-engineering-of-basic-bodice-blocks-2d3d-virtual-prototyping-a"
+  },
+  {
+    "claim": "Se o bloco básico mestre (sloper) possuir erros inerentes de equilíbrio entre os comprimentos centro-frente e centro-costas em relação ao busto, esses erros são amplificados exponencialmente quando o molde é pivotado em designs complexos no ambiente 3D, comprovando que o CAD 3D não substitui o domínio técnico da modelagem plana.",
+    "stance": "supports",
+    "stance_target": "dependência da simulação 3D em relação à precisão geométrica do bloco base 2D construído pela modelista",
+    "evidence_type": "theoretical",
+    "scope_conditions": "Engenharia de moldes 2D-3D para vestuário feminino (transformação de pences, slash-and-spread e nivelamento de barra)",
+    "quoted_support": "Scholarly work by Helen Joseph-Armstrong (2014) emphasizes that the basic bodice is a technical template containing zero design ease, yet harboring the exact volume required for the human form. This foundation is critical for pattern manipulation; if the master block possesses inherent balance errors, those errors are magnified exponentially when the pattern is pivoted into complex dress designs.",
+    "numbers": ["0 design ease", "3 variations"],
+    "entities": ["CLO3D"],
+    "time_period": "2026",
+    "region": "Bangladesh",
+    "confidence": "high",
+    "source_note_id": "systematic-pattern-engineering-of-basic-bodice-blocks-2d3d-virtual-prototyping-a"
+  }
+]

@@ -1,0 +1,441 @@
+{
+  "ok": true,
+  "data": {
+    "query": "pilotagem peca piloto prototipagem vestuario confeccao",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 0,
+      "doab": 0
+    },
+    "raw_records": 20,
+    "merged_records": 20,
+    "returned": 20,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Modelagem através do CLO3D : redução de custos no processo de pilotagem e produção têxtil",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/003273578",
+        "doi": "10.11606/003273578",
+        "year": 2022,
+        "authors": [
+          "Barbara Baptista Navarra"
+        ],
+        "venue": null,
+        "abstract": "Durante o processo de desenvolvimento do produto, o estilista pode realizar alterações no modelo, o que gera o desenvolvimento de várias peças pilotos - protótipos, confeccionadas a partir do desenho enviado pela estilista. O processo de repilotagem não só causa desperdício têxtil, mas também causa atrasos nos processos de desenvolvimento da coleção. Nesse contexto é inserido o software CLO3D, utilizado por profissionais de moda para desenvolver o design, modelagem, ajustes e modificações do produto. O seguinte trabalho objetiva avaliar determinados aspectos do processo de produção de vestuário, tendo como objeto de estudo uma empresa paulista de Private Label, através da modelagem manual (moulage e plana) e, posteriormente, modelagem no Audaces. A partir dessa avaliação, será realizado uma análise de três modelos produzidos pela empresa, realizando o mesmo processo através do software CLO3D, comparando o consumo e resíduos gerados pelas duas formas de modelar.",
+        "pdf_url": "https://bdta.abcd.usp.br/directbitstream/2fa50599-945d-4c8d-b097-3eb7951a1672/Te0086-Navarra.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7204466171",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Design de vestuário de moda contemporânea: criação versus produção",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1822/19256",
+        "doi": null,
+        "year": 2009,
+        "authors": [
+          "Anne Anicet Rüthschilling"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "No mundo globalizado em que vivemos, a moda está a ganhar cada vez mais importância, tanto em termos de indústria e economia, como no domínio do saber científico. A crescente evolução das “semanas de moda”, no mundo inteiro, é resultado de todo este processo que é cada vez mais o suporte de uma economia que atrai a cada estação um número maior de investidores. Para suportar esta requisito, a cadeia industrial de produtos de moda tem de estar atenta às rápidas evoluções do mercado. Isto reflecte-se directamente nas exigências profissionais dos colaboradores envolvidos nos mais diversos processos que compõem o processo da moda, principalmente dos designers de têxteis e de moda, técnicos de modelagem, etc. Entre os desafios da actualidade estão a inovação em termos estéticos, de design, conforto, acabamentos de elevado desempenho, fácil manutenção e preço concorrencial. Tudo isto de acordo com as exigências dos consumidores, agregando a qualidade de criação com a qualidade produtiva. Neste contexto, enquadra-se este projecto que visa estudar a actual evolução da produção de moda em Portugal e no Brasil. Para tal, foi realizada uma pesquisa sobre o design de vestuário de moda contemporânea, baseado na experiência dos criadores de moda que apresentam os seus trabalhos nas “semanas de moda” mais importantes de ambos países. Foi ainda elaborado um inquérito destinado aos criadores que participam nas feiras: Moda Lisboa, Portugal Fashion, São Paulo Fashion Week e Fashion Rio com o intuito que conhecer como estes trabalham, seja em termos de criação, seja em termos de estrutura da empresa, produção e meios que costumam utilizar para a distribuição dos seus produtos. É objectivo deste trabalho conceber uma metodologia de criação de produtos de moda, com base na experiência de trabalho destes profissionais e pautada pelos princípios teóricos do Marketing, Gestão da Produção e de Criação de Moda. Esta pesquisa será uma ferramenta importante na criação de produtos de moda de autor, apesar de não existir uma metodologia única e ideal para todos os criadores.",
+        "pdf_url": null,
+        "citation_count": 13,
+        "work_type": "other",
+        "identifier": "W2242143447",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A tecnologia nos processos de desenvolvimento de produto e na produção das micro e pequenas empresas de confecção do vestuário de Porto Alegre - RS e Sombrio - SC",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/36048",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Paula Rodrigues Bittencourt"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "O objetivo deste trabalho foi abordar a inserção da tecnologia nos processos de desenvolvimento de produto e na produção das micro e pequenas empresas de confecção de Porto Alegre – RS e Sombrio - SC. O software CAD/CAM que permite economizar tempo e reduzir os custos de produção e desenvolvimento de produto, reduzindo o número de protótipos físicos e facilitando o encaixe. Sobretudo, o presente trabalho visa analisar como as micro empresas inserem a tecnologia em seus processos. O uso do sistema CAD (Desenho Assistido por computador) é uma tecnologia em que a computação suporta quase todas as áreas da confecção: design e criação, design têxtil, modelagem, ampliação, encaixe e risco, ficha técnica, cálculo de custos industriais, ordem de corte e gestão da produção. A evolução da tecnologia para a indústria do vestuário representa um fator significativo, possibilitando mudanças radicais que podem reduzir o tempo de fabricação do produto, acelerando e aperfeiçoando os processos. O estudo de caso englobou três micro empresas e uma pequena empresa de confecção do vestuário de Porto Alegre – RS e Sombrio - SC cuja análise dos dados qualitativos resultou em sugestões de melhorias para cada empresa estudadas.",
+        "pdf_url": null,
+        "citation_count": 5,
+        "work_type": "thesis",
+        "identifier": "W2199212968",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Melhorias no processo de desenvolvimento de produto de uma indústria do vestuário do segmento Fast-Fashion",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/196292",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Renata Lodi",
+          "Márcia Elisa Soares Echeveste"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "ResumoNo setor têxtil brasileiro, a gestão do PDP é caracterizada por uma baixa organização no que se refere às metodologias e adoção de modelos de referência.Em geral, estas empresas não possuem uma estrutura organizada em etapas consistentes e atribuição de funções para o desenvolvimento de novos produtos.Este trabalho tem como objetivo sugerir melhores práticas encontradas na literatura para o processo de desenvolvimento de produtos de uma indústria do vestuário que não possui marca própria e fornece produtos para o segmento fast-fashion.Para atingir esse objetivo foi realizada uma busca na literatura por modelos de PDP de manufatura e relacionados ao setor.Por meio da comparação entre eles, juntamente com o levantamento das particularidades e dificuldades do segmento do vestuário escolhido, foram propostas atividades para melhoria do processo da empresa.A contribuição deste trabalho foi demonstrar como empresas de porte pequeno no setor do vestuário podem melhorar seus produtos por meio de uma sistematização nos seus processos de desenvolvimento, trazendo as melhores práticas publicadas em modelos de outros segmentos de atividade econômica, para o setor.Entende-se que o método realizado possa ser estendido a outras empresas que desejem aperfeiçoar sua gestão no desenvolvimento de novos produtos e serviços.Palavras-chave: PDP; Indústria Têxtil/Vestuário; Gestão de projetos de novos produtos. IntroduçãoA indústria do vestuário é uma das mais antigas e tradicionais do Brasil.Conforme informa o SINDIVESTUÁRIO (2008), remonta ao século XIX, e é um dos marcos do início da industrialização do país.Mesmo fazendo parte do dia a dia de todas as pessoas, os números, estatísticas e importância do setor do vestuário no cenário brasileiro nem sempre são conhecidos em toda sua extensão.Segundo o IEMI (Instituto de Estudos e Marketing Industrial), a produção do vestuário no Brasil em 2009 foi de 5,2 bilhões de peças, empregando mão-de-obra de 1.100.259trabalhadores, num total de 22.303 unidades industriais formais.A maioria dessas indústrias está distribuída na região sudeste, sul e nordeste do país, sendo que 77% delas são micro e pequenas, 20% são médias e apenas 3% são grandes empresas.(SINDIVESTUÁRIO, 2011).No início dos anos 90, as indústrias de confecção do vestuário faziam de duas a quatro coleções ao ano.Este cenário, em resposta às solicitações do mercado da moda, vem se transformando e se tornando muito mais dinâmico.Para Rech (2003), o desenvolvimento do produto de moda, em grande parte das empresas brasileiras, é concretizado através de coleções pequenas (quantidade de peças), concisas e bem definidas quanto ao conceito/estilo (qualidade), principalmente por causa da velocidade das informações sobre moda a que os consumidores têm acesso.Surgem então, as empresas que trabalham em função das tendências da moda.Segundo Oliveira (2007), elas fazem parte do segmento fast-follower, ou seja, são as que monitoram as tendências mundiais e as lançam rapidamente no mercado.Grandes redes de varejo como C&A, Renner, Riachuelo, Marisa e Hering aderiram à essa tendência, aqui denominada fast-fashion (moda rápida), que é um movimento importado de marcas da Europa, como a Zara e a H&M que na prática, significa estar sempre com as prateleiras abastecidas de",
+        "pdf_url": null,
+        "citation_count": 4,
+        "work_type": "other",
+        "identifier": "W2983471905",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Diretrizes para a normalização de desenhos técnicos do vestuário para o segmento de malharia circular",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/96393",
+        "doi": null,
+        "year": 2013,
+        "authors": [
+          "Renata Lodi"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "Esta dissertação trata do tema desenho técnico do vestuário. O objetivo deste trabalho foi sistematizar diretrizes para a representação gráfica técnica de acabamentos, detalhes, linhas e cotas em produtos do vestuário do segmento de malharia circular com vistas à sua normalização. A pesquisa foi classificada como aplicada, qualitativa e exploratória. A coleta de dados ocorreu por meio de entrevistas semiestruturadas e coleta documental realizadas de forma presencial e por meio eletrônico (e-mail). Os participantes foram sete docentes de disciplinas de desenho técnico que atuam em instituições de ensino superior que possuem cursos de moda em nível bacharelado e, oito profissionais do desenvolvimento de produto de empresas de confecção do vestuário que trabalham com malha circular. Com isso, foi possível diagnosticar como é feita a representação de desenhos técnicos do vestuário nestes dois ambientes, o acadêmico e o industrial, localizados em diferentes regiões brasileiras. Os resultados das entrevistas foram apresentados através de quadros comparativos com cruzamento dos dados coletados. Como resultado, apresentam-se diretrizes para a construção do desenho e representação de cores, linhas, cotas/medidas. Outro produto deste trabalho é um catálogo dos principais acabamentos e detalhes utilizados em malha circular com descrições, imagens e representações técnicas dos mesmos.",
+        "pdf_url": "https://lume.ufrgs.br/bitstream/10183/96393/1/000915079.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2292580252",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Proposta de um modelo de referência para o processo de desenvolvimento de produto do vestuário",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/606",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Isabel Cristina Moretti"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "O processo de desenvolvimento de produto do vestuário (PDPV) sofre influência da moda, esse fator confere a esse processo dinamismo e exige rapidez durante o desenvolvimento. As empresas desenvolvem seus produtos em linhas sazonais (coleções) em vez de produtos individuais, com uma grande quantidade de produtos por coleção e várias coleções ao ano. Consequentemente apresentam um curto período de tempo para o desenvolvimento de cada coleção. Neste sentido, a adoção de estruturas organizacionais adequadas e de boas práticas para o PDP, pode ajudar a melhorar o desempenho desse processo na indústria de confecção, que é essencial para a competitividade das empresas. Por meio da utilização de modelo de referência a empresa pode criar sua própria estrutura para a realização das atividades, de modo que o modelo se adapte a realidade da empresa, e ao mesmo tempo sistematize as atividades e estruture o processo. O objetivo desse trabalho foi propor um modelo de referência específico para a indústria do vestuário, adaptado as suas características. Este pode ser um caminho para estas empresas estruturarem seu PDP, aumentando o desempenho do processo e consequentemente dessas empresas no mercado. A abordagem do problema foi qualitativa e o desenvolvimento do modelo foi por meio de revisão de literatura e pesquisa de campo. A coleta de dados foi realizada por meio de entrevistas com empresas, profissionais e professores da área de PDPV. O objetivo das entrevistas foi de mapear o PDP nestas áreas. A construção do modelo foi feita em três etapas. A primeira etapa foi de construção de uma representação teórica, ou seja, um modelo teórico desenvolvido por meio da comparação de um modelo de referência genérico e modelos específicos para o vestuário. A segunda etapa foi de comparação do mapeamento das entrevistas com a representação teórica, confrontando a teoria e a prática. A terceira etapa foi o desenvolvimento do modelo propriamente dito. O modelo está desmembrado em macro-fases, fases e atividades. Cada fase foi detalhada com o fluxo de atividades e seus responsáveis, além das entradas e saídas de documentos e informações. O desenvolvimento do modelo de referência proposto vem de encontro com essas informações levantadas na literatura e nas entrevistas. Logo, pode estar contribuindo para a estruturação do processo no âmbito industrial e pesquisas na área de desenvolvimento de produto do vestuário, no âmbito acadêmico. O modelo de referência para o PDPV é uma junção de boas práticas que podem ser utilizadas em sua totalidade para estruturar com flexibilidade o PDP, ou ser utilizado parcialmente por meio de uma adaptação, ajustando-se à realidade a qual será utilizado.",
+        "pdf_url": null,
+        "citation_count": 8,
+        "work_type": "thesis",
+        "identifier": "W2258493215",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Aplicação do fluxo unitário da produção na manufatura do vestuário de moda",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2016.tde-02052016-103850",
+        "doi": "10.11606/d.100.2016.tde-02052016-103850",
+        "year": 2016,
+        "authors": [
+          "Wan Chi Ming"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "The objective of this paper is to discuss the implementation of Flow Unit of Production in the manufacturing of fashion apparel process, with emphasis on women\\'s fashion products. For this purpose, a field research was conducted through case study, in company of the sector. The survey results show that despite the particularities of the industry, such as production volume, short cycle product life and wide range of models, the application of Flow Unit of Production in the fashion garment manufacturing indicates a possible process optimization productive, allowing the assembly line balancing and capacity of the productive capacity, factors that minimize the risk of production bottlenecks and assist in the preparation of planning, scheduling and production control. This study has the following objectives: i) search the manufacturing processes used, ii) focus on the techniques and processes applied in manufactured products; iii) physically characterize the industrial structure and describe their production processes for the manufacture of products with the application of flow unit in Fashion Garment Manufacturing (MVM); iv) point out suggestions for the use of new tools such as the continuous improvement of the production process. The recommendations made are based on literature review and case study on the manufacturer of custom products. These will be legitimized by experts of information on the subject and by employees of the studied company. It has been raised to date a list of external vendors and their installed capacities to manufacture products sold, as the company A pointed out the presence of bottleneck productive for failing to deliver the production volumes requested. Although the study is taking place within the execution schedule, many of the concepts and techniques of lean manufacturing are applicable in production environments high variety of the same product family, with low volume and can contribute significantly to improving the company\\'s performance, for continuous process improvement, to improve competitiveness and elimination of production 9 losses with performance indicators in the sectors involved. After research with the application of the unitary flow of Manufacture of fashionable clothes in the company in A, will be checked the hypothesis of application of Flow Unit of Production, the automotive industry, it is possible for the clothing industry. Collected the results of that application, after the data analysis and evaluation check for approval of Manufacture of Fashionable Clothes",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-02052016-103850/publico/DEFESA_DO_MESTRADO.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2346183652",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A APLICAÇÃO DA INTELIGÊNCIA ARTIFICIAL NO DESENVOLVIMENTO DE PRODUTOS NA INDÚSTRIA DE VESTUÁRIO DE MODA",
+        "source": "openalex",
+        "url": "https://doi.org/10.29327/2766099.32.1-1",
+        "doi": "10.29327/2766099.32.1-1",
+        "year": 2025,
+        "authors": [
+          "Geovana Aparecida Bohn",
+          "Daniel Goulart"
+        ],
+        "venue": "Revista da UNIFEBE",
+        "abstract": "A Inteligência Artificial (IA) tem se tornado cada vez mais presente na indústria de vestuário de moda, contribuindo para a inovação e melhoria dos processos de criação, produção e personalização de produtos. Este estudo teve como objetivo analisar como a IA pode contribuir para o processo de criação de roupas na indústria do vestuário de moda. A pesquisa utilizou uma abordagem teórica para entender os conceitos fundamentais da IA e a sua viabilidade no setor têxtil, destacando as vantagens e desafios da implementação dessa tecnologia, especialmente para pequenas e médias empresas. A análise apontou que, embora a IA traga grandes benefícios, como maior eficiência e sustentabilidade, obstáculos como o alto custo e a falta de capacitação ainda limitam a sua adoção generalizada na indústria da moda.",
+        "pdf_url": "https://periodicos.unifebe.edu.br/index.php/RevistaUnifebe/article/download/1081/865",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7125132165",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Sistema de medição de desempenho para o processo de desenvolvimento do produto do vestuário de moda",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/2885",
+        "doi": null,
+        "year": 2017,
+        "authors": [
+          "Isabel Cristina Moretti"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "O processo de desenvolvimento e lançamento de novos produtos é decisivo para as empresas se manterem competitivas no mercado. Diante da importância deste processo, é preciso entender que o mesmo precisa ser controlado e bem gerenciado. Para garantir o processamento bem sucedido do desenvolvimento de produto, as empresas precisam constantemente avaliar o desempenho de seus esforços. Especificamente no processo de desenvolvimento de produto (PDP) do vestuário algumas particularidades precisam ser consideradas: influência da moda, desenvolvimento de produtos em linhas sazonais (coleções) em vez de produtos individuais, quantidade elevada de produtos por coleção, várias coleções ao ano e curto período de tempo para o desenvolvimento de cada coleção. Essas características incorporam a este processo dinamismo e rapidez durante o desenvolvimento. Sendo assim o objetivo geral deste trabalho é desenvolver um modelo para medição de desempenho do processo de desenvolvimento de produto, específico para o setor de confecção do vestuário de moda, composto por um conjunto de indicadores. Para embasar a elaboração da pesquisa, inicialmente foi apresentada uma fundamentação teórica sobre os conceitos que regem o PDP, os sistemas de medição de desempenho para este processo e seus indicadores. Os indicadores coletados foram ponderados por grau de importância por empresas de confecção do vestuário por meio da ferramenta Fuzzy-QFD, em conjunto foram identificados nas empresas os indicadores específicos para o PDP do vestuário. Baseado na fundamentação teórica e nas informações coletadas nas empresas, foi proposto o modelo para medição de desempenho do processo de desenvolvimento de produto do vestuário (MdDpV), composto por um sistema de medição de desempenho, atrelado a um Modelo para o PDP do vestuário, e por indicadores. O modelo proposto foi validado por especialistas da área (profissionais das empresas e professores) e se mostrou adequado para o PDP do vestuário. Neste sentido, conclui-se que o modelo proposto proporciona uma metodologia de suporte e controle para o PDP, por meio de atividades sistematizadas e um conjunto de indicadores. Em sua estrutura o modelo MdDpV se mostra simples, funcional e promissor para a condução e suporte do desenvolvimento de produto no âmbito industrial e acadêmico.",
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W2784148075",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Laçando a história: um estudo sobre a criação de artigos de vestuário em malharia circular",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2017.tde-06072017-154415",
+        "doi": "10.11606/d.100.2017.tde-06072017-154415",
+        "year": 2017,
+        "authors": [
+          "Elga Lilian Buck Martins"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "Year after year Brazil has pointed to large numbers not only qualify as a potential consumer of fashion products as well as a solid importer of textile raw materials, including garments in circular knitting. Aim of this study, micro and small clothing companies in the metropolitan region of Campinas (SP) present important indicators of use of this textile as support to their product development. Given the situation of poor market demand for fashion items facing the country, seek to survival alternatives for these micro and small businesses in a fierce commercial space. So this research is guided by historical investigation of the social use of circular knitted items, understanding its manufacturing peculiarities, understanding of its commercial positioning it, and also investigates product development methods that can make garments arising from these knitwear, more interesting from a commercial point of view to small and medium-sized enterprises in the metropolitan region of Campinas. The starting point methodological references in industrial design exploited by Bernd Löbach, research sum concepts in fashion design run by Doris Treptow. The project also presents a case study of a microenterprise the said region should collaborate with the completion of this project",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-06072017-154415/publico/Original_ELGA.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2766412249",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A importância da extensão no ensino no curso de moda: Um relato de experiência do projeto “Vestuário infantil: O ato de vestir desde o nascimento”",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.56238/futuroeducpesqutrans-036",
+        "doi": "10.56238/futuroeducpesqutrans-036",
+        "year": 2023,
+        "authors": [
+          "Paula Piva Linke",
+          "Eliane Pinheiro",
+          "Natani Aparecida do Bem",
+          "Cibelle Akemi Vallim",
+          "Gustavo Maurício Codogno"
+        ],
+        "venue": "Seven Editora eBooks",
+        "abstract": "Em se tratando da educação, é preciso destacar que o ensino é algo complexo e exige maior comprometimento entre o conhecimento aplicado em sala, a pesquisa e a extensão. A extensão é fundamental para ampliar a formação acadêmica, nesse caso, esse texto tem como objetivo apresentar o relato de experiência do projeto “Vestuário infantil: o ato de vestir desde o nascimento”. A intenção aqui é mostrar a importância das atividades extras para a formação dos alunos do curso de moda.",
+        "pdf_url": "https://sevenpublicacoes.com.br/index.php/editora/article/download/2609/3922",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4386758876",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Design de moda para a customização em massa: uma proposta de framework",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1982615x18462025122",
+        "doi": "10.5965/1982615x18462025122",
+        "year": 2025,
+        "authors": [
+          "Diva Lúcia Vieira Costa",
+          "Claudia Rocha Mourthé"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "O design de moda é um sistema complexo, que possui como alicerce a gestão estratégica de informações provenientes da pesquisa e da utilização de dados para a criação de novos produtos do vestuário. Com a evolução da tecnologia, bem como as mudanças no mercado de moda e nas dinâmicas de vida das pessoas, surgem demandas personalizadas de consumo. Para que os processos do design de moda sejam adequados às demandas cada vez mais personalizadas, faz-se necessário revisitar pensamentos projetuais para a criação de produtos do vestuário. O objetivo deste artigo consiste em realizar a proposta de um framework para o design de moda, com ênfase nos processos de criação de novos produtos do vestuário para o contexto da customização em massa. Utilizou-se como metodologia as pesquisas bibliográfica e documental, para relacionar as bases teóricas do design de moda e da customização em massa com as práticas encontradas em diferentes setores da indústria têxtil e de confecção. Como resultado, o frameworkevidencia a necessidade da valorização do envolvimento do cliente, principalmente durante o processo de design. Isso irá possibilitar identificar tanto os componentes comuns, quanto as diferentes perspectivas que ampliarão o potencial criativo no design de produtos de vestuário para a customização em massa.",
+        "pdf_url": "https://www.periodicos.udesc.br/index.php/modapalavra/article/download/26718/18735",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4411932036",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "O Desenvolvimento de Produtos de Moda sob a Perspectiva dos Processos Organizacionais de Inovação: um estudo de caso no segmento de moda premium",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1982615x11212018147",
+        "doi": "10.5965/1982615x11212018147",
+        "year": 2018,
+        "authors": [
+          "Marília Piccinini da Carvalhinha",
+          "Fernando Tobal Berssaneti"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "O objetivo deste estudo é analisar o processo de desenvolvimento de produtos de moda, identificar suas principais atividades e compreender como tais atividades estão distribuídas entre os elos da cadeia de valor. O referencial teórico clássico de processos organizacionais nos quais atividades são intercaladas por filtros que selecionam quais projetos devem evoluir, ser revisados ou cancelados, conforme critérios estabelecidos para, ao final, gerar um portfólio de produtos que serão lançados. Estes processos são análogos aos de desenvolvimento de produtos no mercado de moda, onde produtos são desenvolvidos em etapas e filtrados para formar uma coleção. À luz do quadro teórico, foram mapeados processos de desenvolvimento de produtos que permeiam a relação entre dois elos da cadeia: confecção e marca. Esta análise permitiu compreender a interdependência entre estes dois elos e os seus principais papéis de cada parte no processo de desenvolver e selecionar quais produtos serão efetivamente comercializados.",
+        "pdf_url": "http://www.revistas.udesc.br/index.php/modapalavra/article/download/10189/7181",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W2768936132",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A modelagem em 3D para o Design de moda",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.29147/datjournal.v9i2.811",
+        "doi": "10.29147/datjournal.v9i2.811",
+        "year": 2024,
+        "authors": [
+          "Tom Igor Costa Albano",
+          "Marli Teresinha Everling"
+        ],
+        "venue": "DAT Journal",
+        "abstract": "A criação de protótipos é de extrema importância para a validação no desenvolvimento de novos produtos. Em diversas áreas, o método de prototipagem utilizando modelagem em 3D já é difundido, mas para o mercado de moda a tecnologia pode ser mais bem explorada. Tendo isso em vista, o artigo relata a pesquisa exploratória que, por meio de levantamento bibliográfico, objetivou identificar cenários sociais e mercadológicos onde a utilização dessa tecnologia tem destaque na produção de design de moda. Foram abordados aspectos que se relacionam com o ensino, o comportamento de consumo e a produção de produtos. Como resultado, ampliou-se os conhecimentos acerca do objeto de estudo. contribuindo como fonte para novas discussões.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4402355735",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Adaptação e moda: Uma coleção inspirada em Julio Cortazar",
+        "source": "openalex",
+        "url": "https://repositorio.ufsc.br/handle/123456789/192128",
+        "doi": null,
+        "year": 2018,
+        "authors": [
+          "Ana Clara Reiter"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Entender e exercitar o processo de tradução de uma narrativa verbal em visual, usando a moda como o canal para fazer isso. Um projeto prático de design de moda, que consiste na criação e elaboração de duas coleções de moda vestuário, uma com foco conceitual e a outra comercial, através da metodologia Treptow de forma adaptada para este projeto específico. Foi realizado o entendimento do tema escolhido, que é o livro de contos “História de cronopios e famas” de Julio Cortazar, além de pesquisas relevantes para o comercio de moda, como de tendência e de mercado. Foram escolhidas diretrizes visuais e de design e criadas alternativas para as coleções e em seguida houve a materialização das mesmas, através de desenhos técnicos, ilustrações, pilotagem e por fim um catalogo de moda para a coleção comercial.",
+        "pdf_url": "https://repositorio.ufsc.br/bitstream/123456789/192128/1/PCC%20-%20Ana%20Clara%20Reiter.pdf",
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "W2922532170",
+        "extra": {
+          "openalex_type": "report",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Garment design for the nursing field using User Experience (UX)",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/11449/244599",
+        "doi": null,
+        "year": 2023,
+        "authors": [
+          "Henrique Gil Arnoni"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Profissionais da área de saúde necessitam vestimentas que favoreçam suas atividades e mobilidade no local de trabalho, e garantam a prevenção contra a transmissão de agentes infecciosos no ambiente médico-hospitalar. Seu vestuário deve ser funcional, facilitando o acesso aos pacientes e o manuseio dos diferentes instrumentos de trabalho, de forma mais eficiente e segura, evitando o risco de contágio por infecções, vírus ou doenças. Assim, quando se busca a melhoria desse vestuário deve-se explorar soluções efetivas que proporcionem o bem-estar e o conforto dessa classe laboral, associado à sua proteção. Uma análise preliminar desse vestuário demonstrou insatisfação em relação aos aspectos de usabilidade, modelagem e funcionalidade nos trajes. Limitações em relação ao conforto foram apontadas, bem como falhas de ergonomia, má transpiração, falta de praticidade e estética, entre outros aspectos. Configurou-se a possibilidade de uma investigação que levasse ao desenvolvimento de um produto que melhor atendesse às necessidades desses usuários. Nesse sentido, a presente pesquisa propôs a melhoria do jaleco, peça de uso diário, atendendo às necessidades de conforto e movimento dos usuários de forma mais funcional e segura, corrigindo as inadequações pontuadas. A fundamentação se deu por meio de questionários e entrevistas com os profissionais de modo a identificar suas necessidades e expectativas, além de rastrear na literatura o estado da arte e os avanços tecnológicos do vestuário da área da saúde. Foram realizados três levantamentos em pesquisas online com usuários: o 1º deles teve como objetivo identificar o segmento a ser trabalhado, concluindo-se que a área da enfermagem no atendimento clínico seria a mais indicada; a 2ª pesquisa priorizou o tipo de peça e as necessidades dessa vestimenta e dos usuários, gerando os requisitos necessários para o desenvolvimento do produto. Com base nas duas coletas, foram estabelecidas as especificidades para a proposição da melhoria e inovação do jaleco. A 3ª pesquisa foi realizada para o refinamento dos requisitos previamente estabelecidos, para o aperfeiçoamento do traje, sendo complementada por entrevistas diretas validando essas informações. A partir dessa confirmação a peça foi idealizada e está em desenvolvimento. Será testada com o apoio de um grupo amostral de seis profissionais selecionados que atuam na área, sendo aprimorada com base na experiência do usuário (UX). Em concordância com as indicações de ajustes e correções apontadas neste teste, serão feitas as adaptações necessárias para a construção da peça final, devidamente aperfeiçoada como resultado e conclusão da pesquisa.",
+        "pdf_url": "https://repositorio.unesp.br/server/api/core/bitstreams/a070af77-e348-4fd7-9370-4a5f50245cfe/content",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7120826471",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Os caminhos da pesquisa em modelagem: história, ensino, conceitos e práticas: volume1",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/9788564842526",
+        "doi": "10.11606/9788564842526",
+        "year": 2020,
+        "authors": [
+          "Isabel Cristina Italiano",
+          "Patrícia de Mello Souza"
+        ],
+        "venue": "Universidade de São Paulo. Escola de Artes, Ciências e Humanidades eBooks",
+        "abstract": "Este livro reúne trabalhos provenientes de projetos de pesquisa realizados por professores e pesquisadores na área de Modelagem do Vestuário, no Brasil e no exterior. Percebe-se a presença relevante em constante crescimento dessa área pelas pesquisas cada vez mais abrangentes que vêm ampliando as relações com outros campos, promovendo novos diálogos, além de estudos que estão inserindo a modelagem como instrumento significativo no contexto das práticas projetuais do design. As organizadoras entendem que esses importantes trabalhos devam ser compartilhados e divulgados, visando ampliar o conhecimento do campo. O objetivo é que a publicação seja um veículo para isso, visando informar aos inúmeros pesquisadores, professores, alunos e profissionais da Modelagem do Vestuário, os resultados de pesquisas inovadoras nas diversas vertentes da área, possibilitando a aplicação de conceitos, técnicas e práticas.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "W3172833018",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Tecnologias que influenciam no processo de concepção do design para a indústria da moda: projeto MEG: um estudo de caso",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/11449/89723",
+        "doi": null,
+        "year": 2013,
+        "authors": [
+          "Andréa Meneghetti Zatta"
+        ],
+        "venue": "Acervo Digital da Universidade Estadual Paulista (Universidade Estadual Paulista)",
+        "abstract": "As tecnologias digitais estão presentes nas mais variadas atividades do dia a dia, racionalizando procedimentos, facilitando a comunicação, dinamizando as relações sociais e profissionais. Em virtude do rápido desenvolvimento da área de moda, é necessário verificar como as novas tecnologias podem auxiliar o setor. A pesquisa objetivou apresentar como o plug-in de modelagem informatizada denominado sistema MEG (Modelagem, Encaixe e Gestão) possibilitou uma nova forma de conceber o design de produto de moda, aproximando-o da modelagem a fim de proporcionar às pequenas empresas de confecção a possibilidade de inserção no panorama de competição global",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W785448649",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Conceitos de produto de moda",
+        "source": "openalex",
+        "url": "https://dspace.palermo.edu/ojs/index.php/actas/article/view/2643",
+        "doi": "10.18682/add.vi13.2643",
+        "year": 2020,
+        "authors": [
+          "Sandra Regina Rech"
+        ],
+        "venue": "Actas de Diseño",
+        "abstract": "Como el proceso textil esta fragmentado y cada etapa es realizada sin comunicación con las etapas anteriores y posteriores, la especificidad de la creación de moda en la industria viene de la necesidad de acompañar ese flujo desde la generación de ideas de los diseñadores hasta la difusión en gran escala, para que la “idea” no se modifique durante el proceso. Por lo tanto, es necesario la investigación en estética, pilotaje o monitoreo, muestras experimentales, control de calidad en cada fase, siempre con los plazos determinados. La ropa para ser utilizada tarda dos años, comenzando por el hilado, pasando por el tejido, la confección y las ventas al por mayor y al por menor; sin embargo se renueva con cada estación (Vincent-Ricard, 1989).",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/actas/article/download/2643/4926",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7215695047",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Colmeia design estratégico: ferramenta orientada às abordagens críticas de design para repensar a sustentabilidade na moda",
+        "source": "openalex",
+        "url": "http://repositorio.jesuita.org.br/handle/UNISINOS/12990",
+        "doi": null,
+        "year": 2023,
+        "authors": [
+          "Victoria Dani Müller"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "This research presents a qualitative and exploratory character on critical design approaches for sustainability in the fashion industry. The research problem is as follows: How can critical design approaches, combined with strategic design, assist fashion designers in critically reflecting on their projects and the impacts caused by the industry, seeking disruptive approaches towards sustainability? The objective was to develop a strategic design tool that considers critical design approaches in fashion design processes aiming to integrate sustainable production and consumption modes in fashion. The method used firstly involved bibliographic research to problematize the research context and study speculative critical approaches, collection development processes in fashion, sustainable approaches, and strategic design. Based on the initial research, a tool called the \"Colmeia Strategic Design\" was developed, based on the concept of prompt cards. It consists of a set of hexagonal cards aimed at encouraging speculation and critical thinking regarding fashion while assisting in the development of sustainable solutions for the fashion industry. The tool was first tested in a pilot and then in a workshop. After the pilot, some changes were made to the tool, including the addition of cards presenting sustainability principles, adding text to image-only cards, and developing preparatory materials such as a video on the current fashion industry context and a presentation on how the tool works. The workshop tool contained 46 cards distributed into 6 categories: speculative cards, purpose, wildcard, experimentation and prototyping, critical approaches, and product/service definition. Through the workshop, it was observed how the developed tool aided discussions, enabling moments of design openness and encouraging reflection on various issues in the fashion world. After the workshop, further changes were made to the tool, this time dividing the cards into three levels: see, predict, and make see, and into five categories: speculation; purpose; tools and approaches; actors and feedback. Additionally, new cards were added, such as cards presenting concepts of different economies, and wildcard cards were distributed across all categories. The feedback category was added to guide participants throughout the dynamics, making the moment more intuitive and reminding them to use all the cards. These changes were made to transform the tool into a gamified system, incorporating elements from games to make the dynamics more intuitive and engaging for participants. Finally, the tool proved capable of providing moments of design openness in fashion, aiming to observe new problems and sustainable solutions through critical thinking and speculation.",
+        "pdf_url": "http://repositorio.jesuita.org.br/bitstream/UNISINOS/12990/1/Victoria%20Dani%20M%c3%bcller_PROTEGIDO.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7120278306",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      }
+    ]
+  },
+  "count": 20,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:03:53.934935+00:00"
+}

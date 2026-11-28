@@ -1,0 +1,1007 @@
+{
+  "ok": true,
+  "data": {
+    "query": "fashion designer work conditions stress creativity commercial pressure",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 25,
+      "crossref": 25,
+      "doab": 0
+    },
+    "raw_records": 50,
+    "merged_records": 50,
+    "returned": 50,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "The Influence of Cultural Values Towards Creativity Enhancement: The Case of Malaysian Fashion Designers",
+        "source": "openalex",
+        "url": "https://doi.org/10.24191/ijad.v6i1.1354",
+        "doi": "10.24191/ijad.v6i1.1354",
+        "year": 2022,
+        "authors": [
+          "Mursyida Rosihan",
+          "Asliza Bt Aris"
+        ],
+        "venue": "INTERNATIONAL JOURNAL OF ART AND DESIGN",
+        "abstract": "Malaysian fashion designers face difficulties and challenges in competing in the fashion industry due to the emerging international brands that exist in the market. Cultural values have influenced fashion designers in the process of design concept and use of textiles over time. This paper attempts to analyse the influence of cultural values on Malaysian fashion designer creativity and the elements that provide for creativity enhancement. The scope of this study was based on fashion designers located around the Klang Valley area. A qualitative approach is adopted using semi structured questions in an in-depth interview to gain an understanding of participants’ cultural values, the design flow process, and product identity during their creative process. Using purposive sampling and snowballing technique, a sample of eight Malaysian fashion designers with a minimum of two years of design experience were interviewed. Participants were asked about the development experience, design process, creativity process, inspiration, experience of flow and product identity. The data was analysed using a constant comparison process. The findings suggest that cultural values and work environment have an indirect influence towards Malaysian fashion designers’ creative design process. This study indicates that fashion designers’ experiences serve as sources of inspiration that could be linked to creative design ideas and creativity. During the development process, solutions to the problems faced by the designer tend to emerge and as a result of the workflow, creativity is enhanced. The findings of this study provide insight on the relationship between Malaysian fashion designers’ cultural values and experiences towards creative enhancement and in creative flow development which can assist them to be better prepared to compete in the local and global fashion industry. This study, however, finds a lack of focus on brand identity building amongst Malaysian fashion designers thus making them unnoticeable in the market.",
+        "pdf_url": "https://journal.uitm.edu.my/ojs/index.php/IJAD/article/download/1354/518",
+        "citation_count": 9,
+        "work_type": "article",
+        "identifier": "W4401315978",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "The Atmospherics of Creativity: Affective and spatial materiality in a designer’s studio",
+        "source": "openalex",
+        "url": "https://doi.org/10.1177/01708406221080141",
+        "doi": "10.1177/01708406221080141",
+        "year": 2022,
+        "authors": [
+          "Margot Leclair"
+        ],
+        "venue": "Organization Studies",
+        "abstract": "Encounters between materials and bodies matter throughout the creative process. This paper contends that creative work depends on these encounters generating and filling the atmosphere with affect. Based on an in-depth ethnography within a fashion design studio, the article empirically traces such affective encounters and corresponding atmospheres. In the studio, designing is performed through artefacts as well as experimental and collaborative gestures that inspire affective reactions and spark creative work. The creative body is part of a complex and atmospheric space where materials, bodies and external influences circulate via affective encounters and prompts. The analysis reveals the spatial and affective materiality of creativity and contributes to the recent interest in atmospheric organizational inquiry.",
+        "pdf_url": "https://hal.science/hal-03552332/document",
+        "citation_count": 47,
+        "work_type": "article",
+        "identifier": "W4210417985",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Perceptions of creativity in a fashion design course",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10464/1540",
+        "doi": null,
+        "year": 2004,
+        "authors": [
+          "Bernadine Murray"
+        ],
+        "venue": "Brock University Digital Repository (Brock University)",
+        "abstract": "Creativity is important to the growth and development of society, to educational institutions, and to the personal growth of individuals. Students who are aware of their creativity are assumed to have innovative ideas and fresh insights. Limited research has been conducted to see if students can identify their own creative abilities. In this study, I explored the students' perceptions and experiences in a fashion design course. This study documented the creative journey from the concept stage of an apparel collection to the final product. Participants were asked to reflect and document their creative moments, describe a creative process, and identify a creative environment. The participants were students who were enrolled in a fashion design course and were asked to participate in this study because they experienced all stages of the design process. Data were collected through personal reflection surveys, focus groups, and personal interviews. Themes of creative moments that emerged from this study were experiences that the participants had as they proceeded through the stages of the fashion design process. All of the participants identified a creative process, but the stages varied for each participant The participants identified themes related to promoting creativity in an environment, including the atmosphere, creative people, teachers, reflection, student needs, and assignments. The participants identified potential barriers in an environment, including rules and guidelines, teachers, the classroom, deadlines and time, feedback, and other important issues. The results ofthis study suggest that there needs to be a better understanding of creativity and greater support and encouragement for creativity in the classroom. Instructors need to support environments that are conducive to creative development and lead to effective learning for students. Students need to learn how to enhance their creativity as well as understand the barriers that block their creative development.",
+        "pdf_url": null,
+        "citation_count": 7,
+        "work_type": "thesis",
+        "identifier": "W245282712",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "closed"
+        }
+      },
+      {
+        "title": "Creativity, design and management in Australian fashion enterprises",
+        "source": "openalex",
+        "url": "https://ro.ecu.edu.au/theses/1770",
+        "doi": null,
+        "year": 2016,
+        "authors": [
+          "Bruno Santarelli"
+        ],
+        "venue": "Research Online (Edith Cowan University)",
+        "abstract": "In this study a number of Australian fashion enterprises are investigated in an effort to understand how product development is managed and creativity facilitated. Of particular interest was the interaction between the various actors in the creative process and the manner in which they influenced creative output. The study was underpinned by a wideranging review of the literature that reflects the multidisciplinary nature of creativity and innovation in business. The study is timely because Australian fashion enterprises are operating in an increasingly challenging market with a perfect storm of competitive drivers at play. Technology enables instant dissemination of fashion trends and easy international shopping online. Tariff reductions and free trade agreements provide less protection for local manufacturers and revenues have contracted sharply in recent years. Retail revenues have flat-lined at a time when a number of global superbrands are opening stores in Australia with aggressive expansion plans. In response, government and industry groups are promoting product differentiation and innovation as key levers for competitiveness for Australian businesses. The reason for undertaking the study was to investigate contemporary product development practices, to identify barriers to creativity and find ways that enterprises can leverage the creative abilities of employees to improve innovation practices. Managers of six enterprises from a diverse range of markets and enterprise types agreed to participate in a descriptive study of their product development practices. The study deployed a qualitative case based methodology and used a combination of data collection types including participant observation and field observation, field interviews, documents and artefacts. The data was analysed within case for key contextual findings and across case for broader themes and patterns. Participant enterprises employed a variety of approaches to product development as described in the innovation literature (for example, Cappetta, Cillo, & Ponti, 2006; Cillo & Verona, 2008; Dell'Era & Verganti, 2007; Payne, 2011; Perks, Cooper, & Jones, 2005; Ward, Runcie, & Morris, 2009; Weller, 2007), with hybrid approaches at work in some cases. Management were not always aware of the practice implications for the various approaches, and though all participants deemed creativity important, it was not explicitly measured or rewarded. The dichotomy between management and creativity, a prevalent theme in the literature (for example, Adorno, 1997; Caves, 2000; Townley, Beech, & McKinlay, 2009), did not present strongly in the participant cases. Instead, more collaborative creative practices were in evidence where designers, merchandisers, sales and business managers developed and decided on product together. The study provides rich detail about collaborative product development practices at an operational level that balances the management and leadership focus of the literature by leading creativity scholars in the field (for example, Amabile, Schatzel, Moneta, & Kramer, 2004; Basadur, 2004; Černe, Jaklič, & Škerlavaj, 2013; Mumford, Scott, Gaddis, & Strange, 2002; Shalley & Gilson, 2004). Similar to Tran’s (2010) detailed study on the practice of fashion designers, this study provides a window into distributed creative processes involving a variety of actors. Cross case analysis has revealed a number of themes that have implications for practice. These include the need for greater alignment of product development with strategic intent; the influence of organisational structure and reporting on creative processes; and the need to develop metrics and performance management systems that focus specifically on creativity.",
+        "pdf_url": "https://ro.ecu.edu.au/context/theses/article/2771/viewcontent/Creativity_design_and_management_in_Australian_fashion_enterpris.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2312100159",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "An examination of the Lithuanian fashion designer's use of marketing in their success",
+        "source": "openalex",
+        "url": "http://eprints.hud.ac.uk/id/eprint/25388/1/vbubnytefinalthesis.pdf",
+        "doi": null,
+        "year": 2015,
+        "authors": [
+          "Vaida Bubnyte"
+        ],
+        "venue": "University of Huddersfield Repository (University of Huddersfield)",
+        "abstract": "The aim of this research is to provide young fashion designers in Lithuania with information on how to become recognised and successful. There is an increased interest and demand for fashion within Lithuania but limited literature regarding this developing industry, therefore comparators are drawn from available literature about the more established British fashion industry. A principal objective to this enquiry was to investigate how the Lithuanian fashion houses used marketing tools to achieve popularity and fame. Qualitative, in-depth and semi-structured interviews with three Lithuanian designers at their studios in Lithuania were conducted about how they became established and the roles of marketing, branding and PR, creativity and talent, consumer’s trust and reliance and finances. Results indicate the following helped the designer entering the industry: identifying a niche market, combining talent and creativity with business knowledge, a good preparation for the industry, finance management, appropriate funding, business partner and networking, the importance of branding, and the implications with the consumers’ addiction to famous brands. This research contributes to the existing literature on the Lithuanian fashion industry and the general scholarly debate on the importance of marketing and branding in the fashion industry. The study identifies prospects for and opportunities to improve the Lithuanian fashion industry and concludes with recommendations for the designer’s preparation for the industry, and identifies issues for further research such as: individual clients versus collections, the right time to start, consumerism, or fashion in the future.",
+        "pdf_url": "http://eprints.hud.ac.uk/id/eprint/25388/1/vbubnytefinalthesis.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2594317699",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Re(dis)covering Fashion Designers: Interweaving Dressmaking and Placemaking",
+        "source": "openalex",
+        "url": "https://aaltodoc.aalto.fi/bitstreams/54d679eb-69fb-4bb2-8f4a-da916e07f174/download",
+        "doi": null,
+        "year": 2018,
+        "authors": [
+          "Namkyu Chun"
+        ],
+        "venue": "Aaltodoc (Aalto University)",
+        "abstract": "The starting point for this doctoral dissertation was the identification of the unclear social contribution of the fashion design profession in the contemporary fashion system. Concurrently, possibilities to expand the role of fashion designers were identified. This research was inspired by design thinking discourses in design research that have explored the practice of designers and encouraged them to question the boundaries of design as a profession. While reflecting critically on what it means to be a fashion designer, the main research question that arose aimed to conceptualize the role of fashion designers. In the research domain of design and fashion, a number of issues were noticed as a gap for studying fashion designers. In design research, the absent voice of fashion designers is acknowledged while exploring the generic characterization of design practice. The domain-specific knowledge and skills required to engage in fashion de¬sign were underexplored due to certain prejudices, including the view that fashion is feminized and frivolous, and lower in the hierarchy of design professions. In studies of fashion, the idea of fashion as an institutionalized system is widely accepted and explored. However, the aspect of designing, especially the dressmaking tradition, has been relatively overlooked compared to the meaning-making aspect due to “academicizing” and the image-making tendency. To overcome this gap between the domains, this dissertation aims to invite a dialogue embracing the symbolic and material worlds of fashion through two qualitative studies in Helsinki, the capital of Finland. The metaphor of weaving – which has a number of advantages in this context – was adopted to not just interlace the narratives of the substudies but also to be used as a piece of fabric patchworking the gap between design and fashion. The two substudies were constructed because the rediscovery of the dressmaking practice of fashion designers is required prior to expanding their role. Accordingly, the first substudy was conducted to theorize fashion design thinking by identifying distinctive features of the profession. Based on a data-driven study of Helsinki-based fashion designers, the entangled relationship between their individual practice and shared culture was discovered. For the second substudy, Pre Helsinki, a designer-driven platform aiming at increasing global recognition of Finnish fashion talents, was investigated as a single case study to explore the expanded role of fashion designers as placemakers. Themes of placemaking that emerged from previous studies were examined while identifying practical descriptions of the case and active involvements of fashion designers in the platform. For interweaving these substudies, the findings were analyzed theoretically to examine how fashion design thinking is employed in the placemaking of Helsinki and Finland. These studies woven together present an original contribution of fashion designers in society and their expanded roles as placemakers. Thus, it further recovers the meaning of fashion design as a profession balancing between the symbolic and material worlds. Altogether, this dissertation invites fashion designers to rethink their roles and to act as engaged members of society.",
+        "pdf_url": "https://aaltodoc.aalto.fi/handle/123456789/34874",
+        "citation_count": 16,
+        "work_type": "thesis",
+        "identifier": "W2914726148",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Fashion in Shanghai : the designers of a new economy of style",
+        "source": "openalex",
+        "url": "https://eprints.qut.edu.au/67803/2/Timothy_Lindgren_Thesis.pdf",
+        "doi": null,
+        "year": 2014,
+        "authors": [
+          "Tim Lindgren"
+        ],
+        "venue": "QUT ePrints (Queensland University of Technology)",
+        "abstract": "This thesis is a study of Chinese fashion designers in Shanghai. It shows fashion designers are building businesses, forging their professional reputations and developing a design aesthetic. Some designers are extremely successful in applying some elements of Chinese philosophy to their work, such as Buddhism, Confucianism and Daoism. In doing so, they challenge the dominance of the European fashion system with a new global fashion system.",
+        "pdf_url": "https://eprints.qut.edu.au/67803/2/Timothy_Lindgren_Thesis.pdf",
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W53332855",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Materialising the interface between business development and designer aesthetic on the catwalk : a case from the New Zealand designer fashion industry.",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10092/11350",
+        "doi": "10.26021/5204",
+        "year": 2015,
+        "authors": [
+          "Alexandra Leadley"
+        ],
+        "venue": "UC Research Repository  (University of Canterbury)",
+        "abstract": "This thesis explores how designers within the New Zealand designer fashion industry manage the interface between business development and designer aesthetic, then materialise this on the catwalk. The investigation is guided by two research questions. The first looks specifically at finding the creativity-business balance, asking how designers manage their business development processes while considering their aesthetic. The second shifts to the fabrication of this interface, inquiring into how designers experience the process of materialising on the catwalk. A qualitative exploratory research design was implemented in order to collect the data for this research, taking an interpretive approach. Under this approach nine designers who presented collections at the 2014 iD Fashion Show were interviewed. In-depth analysis was conducted on the data provided by these designers. The data analysis revealed the importance of identifying showing objectives. These objectives provide a valuable insight into how designers manage the interface between creativity and business aspects. It was found that showing objectives were established by determining a designer’s enterprise orientation and identifying their target audience. Mills (2011a, 2011b) developed the concept of enterprise orientations, highlighting features of businesses that distinguish their orientation. This research revealed that target audiences are based upon the businesses’ stage of development. The analysis went on to reveal modifying factors that influence the materialisation of these objectives. It explained that these factors can be categorised as limiting or enabling factors, and vary in degree of influence. The data revealed that modifying factors are either available resources (internal or external) or show conditions. This research conceptualises the materialisation process experienced by New Zealand fashion designers when presenting a collection in a catwalk show. It summarises the process of materialisation graphically in a model. This model illustrates how showing objectives are first influenced by modifying factors before materialising on the catwalk. These findings stress the significant impact modifying factors can have on catwalk presentations. The contribution this research makes is particularly significant. Despite its growth and economic importance the existing scholarly research into the New Zealand designer fashion industry is scarce. Specifically, this investigation was designed to close a gap in the existing literature, advancing understanding of designer aesthetics and the creativity-business tension as well as providing new insight into how this materialises on the catwalk. This information is particularly valuable for fashion designers, business support people, PR practitioners, industry bodies, design education providers, and the New Zealand Government. Each of these parties may benefit significantly from a greater understanding of the tension between business processes and creativity and the increased insight into the catwalk as a platform for materialisation. Though the findings make a welcome contribution to the existing literature, there is scope for future research to build on the understandings developed from this research.",
+        "pdf_url": "https://ir.canterbury.ac.nz/bitstreams/b6565061-c026-4dc3-8ed9-a392b80dbab8/download",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2177364504",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "The designer perspective: Opportunities and Obstacles toward circular fashion",
+        "source": "openalex",
+        "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-417960",
+        "doi": null,
+        "year": 2020,
+        "authors": [
+          "Sophie Joyce Ridler"
+        ],
+        "venue": "Uppsala University Publications (Uppsala University)",
+        "abstract": "Circular fashion has become a favoured option for the fashion industry to transition toward as the fast fashion industry becomes unsustainable. Current research within academia, business and policy focuses on the lifecycle stages of the garments, with the designer and design phase in focus. Research on circular economy predominantly looks at material flows and the lifecycle. This however fails to acknowledge potential innovation and the capacity for this change to occur. This study uncovers the perspectives of the designer, who are largely absent from the current research agenda, in order to identify leverage points in the current system which would allow accelerated transition toward a circular fashion system. Using workshops as a method to involve designers, paired together with critical systems theory; the study first highlights a large gap between academia and reality, and reveals that there is a large misconception between designers from fast fashion and designers from luxury fashion and the power influences they allow, while, underlying internal organizational structures pose as an obstacle minimizing capacities for change. Finally, using a three horizons framework as a technique, six leverage points are identified: cultural norm, strong teams, digitalization, leadership for sustainability, education & knowledge and reducing intergenerational conflicts. Overall, the study provides a holistic view of the current environment and the transition toward circular fashion, how lifecycle phases connect to circular economy frameworks and highlights innovation and the ways in which the designer can be re-empowered. The study bridges fashion business with sustainability science in a straightforward way and sets and refines the future research on solutions and challenges.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W3090602659",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Creativity Revisited",
+        "source": "openalex",
+        "url": "https://doi.org/10.4324/9780429295607-23",
+        "doi": "10.4324/9780429295607-23",
+        "year": 2023,
+        "authors": [
+          "Paula von Wachenfeldt"
+        ],
+        "venue": "Routledge eBooks",
+        "abstract": "This chapter sets out to explore the idea of creativity that defines the label “luxury fashion” in a time when the luxury sector has expanded globally. If luxury is commonly perceived as something opulent, comfortable, and exclusive, the notion of luxury fashion is much more imprecise. Therefore on one level, I suggest three major hallmarks of luxury fashion, namely craftwork, original design, and timeless expression, that together can sustain the idea of creativity. Different designers’ statements on the nature and conditions of their work, together with media representations of the creative process, are explored as a way to understand the view of this industry. On a second level, I explore the effects of media power activism on this acclaimed creativity and the ethical issues that this activism is raising in the twenty-first century. An examination of the critical posts of the activist Instagram account Diet Prada, which has millions of followers, reveals serious accusations against the luxury brands, where duplication of design, racism, and cultural appropriation are recurrent features. For the theoretical framework, the work of R. Sennett (2008) is used to define the idea of crafted work, while Bourdieu's claims on the objet d’art and the creator's signature (1995) help to shed light on the significance of the current accusations leveled against the brands. The results show that the luxury industry lacks rules of ethical conduct, and that social media activism has succeeded in revealing the lack of truthfulness of this global industry. What we experience today is a new unfavorable public opinion on the privileged world of luxury fashion, raised by the power of social media activism.",
+        "pdf_url": "https://api.taylorfrancis.com/content/chapters/oa-edit/download?identifierName=doi&identifierValue=10.4324/9780429295607-23&type=chapterpdf",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4387616043",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "“We’re All Suicidal. What’s the Issue?”: A Qualitative Investigation into the Mental Health of Fashion Designers",
+        "source": "openalex",
+        "url": "https://doi.org/10.1080/17569370.2026.2714774",
+        "doi": "10.1080/17569370.2026.2714774",
+        "year": 2026,
+        "authors": [
+          "Elliot Rickerby",
+          "Maxi Heitmayer"
+        ],
+        "venue": "Fashion Practice",
+        "abstract": "The fashion industry is notorious for its intense stress, toxic work environments, and the romanticization of overwork, all of which take a significant toll on the mental health of its workforce. Yet, academic research has largely neglected this reality. The mental health of fashion designers, in particular, has received little attention in academic research, which prevents the industry from gaining the insights needed to implement meaningful change. This qualitative study explores the lived experiences of fashion designers, focusing on the mental health challenges they face within both educational and professional contexts. Based on 15 semi-structured interviews, the research identifies five key themes including educational & organizational culture, the tension between capitalism and creativity, and the lack of social support. The study’s findings suggest that, rather than being an exception, fashion designers experience work-related stress very similar to that of overworked professionals in other industries, which is then exacerbated by a culture that normalizes sacrifice and exploitation. The results highlight the urgent need for systemic reforms in the industry, advocating for the integration of mental health support and a shift toward sustainable, human-centric practices. The paper concludes by proposing future research directions to support policy development and encourages a reexamination of fashion’s entrenched toxic dynamics with the aim to end fashion exceptionalism.",
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/17569370.2026.2714774?needAccess=true",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7212060139",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Collective Creativity by Design: Learning from an Italian Fashion Design Company.",
+        "source": "openalex",
+        "url": "https://mural.maynoothuniversity.ie/id/eprint/20391/1/EBSCO-FullText-07_27_2025%20%289%29.pdf",
+        "doi": "10.48460/mu.mural.00020391",
+        "year": 2012,
+        "authors": [
+          "Stefano Cirella",
+          "Abraham B. Rami Shani"
+        ],
+        "venue": "Maynooth University ePrints and eTheses Archive (Maynooth University)",
+        "abstract": "Developing collective creativity is viewed as a critical capability needed to sustain competitiveness within a variety of industries. The fashion design industry, with its seasonal cyclic demand, requires intense creativity over a short time cycle that repeats every three months. Such intensity in today's global economy relies on strong leadership to direct the creative designers, backed by precise management processes. These processes entail promoting extensive learning spread across a series of complex fields that go well beyond any single person and involve exchanging and integrating knowledge among individuals and groups. Drawing on literature in creativity and learning, this paper advances the proposal of a framework of collective creativity by design. The framework identifies the learning processes critical to developing collective creativity, the contextual features that regulate the process and the kinds of learning mechanisms that can be intentionally designed to foster collective creativity. The case study of an Italian fashion design company is used to illustrate and discuss the proposed framework. Implications for research and practice are then reviewed.",
+        "pdf_url": "https://mural.maynoothuniversity.ie/id/eprint/20391/1/EBSCO-FullText-07_27_2025%20%289%29.pdf",
+        "citation_count": 22,
+        "work_type": "article",
+        "identifier": "W2564551010",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "An investigation into how creativity is maintained by graphic designers in a digital environment with specific reference to design practice",
+        "source": "openalex",
+        "url": "https://doi.org/10.51415/10321/1350",
+        "doi": "10.51415/10321/1350",
+        "year": 2015,
+        "authors": [
+          "Nic Human"
+        ],
+        "venue": "DUT Open Scholar (Durban University of Technology)",
+        "abstract": "The primary objective of this study was to find out how practising graphic designers maintain creativity in a digital environment. The study also investigated three factors that may positively influence their creativity. First, whether practising creative experimentation outside commercial constraints positively impacts a designer's ability to produce creative design. Second, how drawing assists original design. Third, whether enriching sensory stimulation helps graphic designers maintain creativity. An action research method was used. The project reviewed current literature and gathered empirical data through qualitative interviews and a workshop. In addition, a practical component was developed that consisted of drawings made from observation, drawings as concept experiments and examples of a commercial design and illustration. Results proved that creativity is a multifaceted phenomenon, and it plays a pivotal role in contemporary graphic design. The three factors, practising creative experimentation, drawing, and sensory enrichment, proved to be beneficial to the creative abilities of graphic designers. The study concluded by acknowledging the challenges of the digital era within the field, and the importance for practising graphic designers to maintain creativity.",
+        "pdf_url": "https://openscholar.dut.ac.za/bitstream/10321/1350/1/HUMAN_2015.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2155680996",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "'The children of Marx and Coca-cola' : advertising and commercial creativity",
+        "source": "openalex",
+        "url": "http://summit.sfu.ca/item/7044",
+        "doi": null,
+        "year": 1996,
+        "authors": [
+          "Matt Soar"
+        ],
+        "venue": "Summit (Simon Fraser University)",
+        "abstract": "r nis tnesis is a*mut advertising.More specificaiiy, it is concerned with advertising rather than advertisements; with process rather than content.The central claim is that, in order to fully understand the social and cultural significance of advertising as a major cultural institution, we must take into consideration the role of the advertising process and, in particular, the contribution of advertising creatives to that process.The major routines of the culture of consumption have long since abandoned a strictly rational approach as their primary mode of address.Furthermore, they are increasingly reliant on the specialist expertise of 'cultural' workers, who inevitably draw on their own experience as consumersand who possess the skills to design commercial communications which appeal through emotional and empathetic resonance.Analysis centres on an investigation of the nature of commercial creativity, recognized in a particularly influential stratum of occupations which includes advertising, film, and the media more generally.In addition, contemporary culture is treated as a circuit in which meanings and values are transferred and transformed as they are carried by advertising messages from production, to consumption, and back again.An emergent theme is the stress and anxiety associated with the role of creative intermediaries, and indeed the business as a whole, ccnceived as an exercise in the management of uncertainty.Cinema, a medium in which creative constraints are much less marked, has served as a forum far the expression of some common frustrations habitually experienced by aI1 commercial creatives.A number of f W are examined in detail with this assertion in mind.The most pressing conclusion is that those in advertising and other creative occupations (such as screen-writing, graphic design, fashion, and style journalism) must be assessed collectively as an esoteric yet highly influential group of workers with much in commonand much to tell us about the production and continual reproduction of contemporary cultural values.iii Table of Contents. .",
+        "pdf_url": "https://summit.sfu.ca/_flysystem/fedora/sfu_migrate/7044/b1802645x.pdf",
+        "citation_count": 5,
+        "work_type": "thesis",
+        "identifier": "W2163175401",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Constrained to create: the regenerative dance between designer creativity, sustainability, and design",
+        "source": "openalex",
+        "url": "https://doi.org/10.17918/00001752",
+        "doi": "10.17918/00001752",
+        "year": 2023,
+        "authors": [
+          "Laurine Grere Osborne",
+          "Daniel Korschun"
+        ],
+        "venue": "iDEA - Drexel University Institutional Repository",
+        "abstract": "Design creativity is a valuable resource that significantly influences the outcomes designers generate for society. The process and delivery of design outcomes necessitate the presence of resilience and values. This research aims to gain a deeper understanding of the dynamics of design creativity when confronted with sustainability design constraints and stakeholder relationships. Within scholarly and professional circles, there remains to be more consensus regarding whether constraints diminish or enhance creativity. While prevailing research suggests that constraints generally hurt employee creativity, this is only sometimes the case for skilled designers. Nonetheless, clarifying the relationship between sustainability constraints and design creativity is crucial. The qualitative research involved 17 semi-structured in-depth interviews with designers specializing in various design disciplines, including industrial, product, surface, furniture, built interior, textile, and architectural design lasting 45 to 60 minutes each. The data collected from the interviews underwent constant comparison and selective coding analysis, leading to the emergence of grounded theory. The findings of this research provide valuable insights for design practitioners, shedding light on how their values and resilience drive creativity. However, further investigation is required to delve deeper into these relationships and identify opportunities for integrating the cultivation of authentic relationships into company business practices, ultimately yielding more effective design strategies.",
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W4387299445",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "The symbolic meaning of creativity - perceptions of routines and creativity in a contemporary office setting",
+        "source": "openalex",
+        "url": "http://lup.lub.lu.se/student-papers/record/4457600",
+        "doi": null,
+        "year": 2014,
+        "authors": [
+          "Victor C. Dahl",
+          "Stanislav Shahnovskij"
+        ],
+        "venue": "Lund University Publications Student Papers (Lund University)",
+        "abstract": "Our main finding was that creativity could be understood as a symbolic. The perceptions of creativity can be contagious, when the routinized worker associates him or herself with the creative outcome of the team. For the employee the symbolic meaning might also work as a distraction from alienation and provide more meaning to performing routinized tasks. We also saw how routines can be perceived enabling to reach work efficiency and organizational goals. However, we found that from an individual perspective the same routines can be perceived differently, where the employee might be constrained from performing challenging tasks and creative work. Routines in our case company stem from commercial goals such as work efficiency. We found that a salient commercial focus in organizations might direct creativity to a reactive nature. Hence, in Fashion Inc. employees mostly perceived creativity as solving problems in a creative manner.",
+        "pdf_url": "http://lup.lub.lu.se/student-papers/record/4457600/file/4457602.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W327341970",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Exploring the Learning Process of DIY Fashion Designers Embracing Entrepreneurship",
+        "source": "openalex",
+        "url": "https://doi.org/10.7916/d8-dzpc-f235",
+        "doi": "10.7916/d8-dzpc-f235",
+        "year": 2021,
+        "authors": [
+          "Ashli Ree"
+        ],
+        "venue": "Columbia Academic Commons (Columbia University)",
+        "abstract": "The purpose of this explorative field study using elements of case study design was to understand how DIY (Do It Yourself) fashion designers learn to engage in entrepreneurship. DIY fashion designers in this study refers to designers who personally design and make each garment without relying on manufacturers. These fashion designers all have design skills, but as they transition from designer to designer-entrepreneur with existing skills, they realize an additional set of skills is needed. To understand why they started the business and how they learned the skills necessary to maintain this dual role, the researcher interviewed 20 designer-entrepreneurs with different levels of experience: novice (3-5 years), middle-level (6-10 years), and seasoned (11 plus years). A selected literature review was conducted to shed light on the work of other researchers related to fashion entrepreneurship, entrepreneurship, and adult learning. The researcher used a qualitative methodology to explore how the designer-entrepreneurs learned and what they learned to maintain their dual role. A purposeful sample was drawn from a group of designer-entrepreneurs with different educational backgrounds and professional experiences. Data were collected through individual interviews followed by two focus group discussions. Data were examined to understand why certain DIY fashion designers chose to become designer-entrepreneurs, what challenges they faced in the dual role, how and what they learned, and which learning strategies they used. All designer-entrepreneurs in this study indicated that the motivation for becoming a designer-entrepreneur was to address their inner needs, which required both intrinsic reward and extrinsic validation. An overwhelming majority of them stated that most of the challenges stemmed from the entrepreneurial half of their dual role because they lacked the information needed to sustain it. All designer-entrepreneurs in this study learned through experiential and self-directed learning. A majority of them indicated that their main learning strategies consisted of finding or forming social networks for their design and business needs and developing their own learning habits. Based on these findings, the researcher made recommendations for educators teaching fashion or entrepreneurship and for current designer-entrepreneurs.",
+        "pdf_url": "https://academiccommons.columbia.edu/doi/10.7916/d8-z31y-yf65/download",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W3186460832",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Encounters in the Global Fashion Business",
+        "source": "openalex",
+        "url": "https://doi.org/10.1177/0011392106066817",
+        "doi": "10.1177/0011392106066817",
+        "year": 2006,
+        "authors": [
+          "Patrik Aspers",
+          "Lise Skov"
+        ],
+        "venue": "Current Sociology",
+        "abstract": "This issue of Current Sociology explores the relationship between fashion as a cultural form and fashion as business through five articles by scholars who have done extensive research on the fashion business.The question that underlies the articles concerns the connection between production and consumption of fashion.What is the relationship between them?How can they be studied without marginalizing one or the other?The articles capture in rich detail the way in which fashion is actually produced these days, and their answers are supported by empirical evidence.They offer a clear description of processes within the seemingly tumultuous fashion industry.The global fashion business is a large and diverse sector that comprises traditional manufacturing industry as well as creative sectors typical of the New Economy.The fashion business has long been a leader in industrial outsourcing, and new global peripheries of labour-intensive manufacturing change almost as rapidly as fashion itself.The same can be said about the volatile relationship between technologies, materials, manufacturing, design, branding, marketing and consumption.1 One implication of the fact that the fashion business is both a creative sector and an old-fashioned manufacturing industry is that professionals are required to make both ends of the value chain, i.e. production and consumption, hang together.This is the task of the middle managers, who know how to set up a factory in a developing country, of the buyers, who make decisions about the coming season's collection, as well as designers working for manufacturers who use their knowledge of fashion to mediate between overseas buyers' requirements and the abilities of the local factories and workforce.",
+        "pdf_url": null,
+        "citation_count": 75,
+        "work_type": "article",
+        "identifier": "W2033815684",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Unleashing the Creativity of Entrepreneurs with Digital Technologies",
+        "source": "openalex",
+        "url": "https://doi.org/10.1007/978-3-030-53914-6_2",
+        "doi": "10.1007/978-3-030-53914-6_2",
+        "year": 2020,
+        "authors": [
+          "Robert D. Hisrich",
+          "Mariusz Soltanifar"
+        ],
+        "venue": "Future of business and finance",
+        "abstract": "For decades, creativity has been used to generate ideas among entrepreneurs and their teams. Although extensive research has been conducted on creativity, the majority of studies have focused on traditional ways of stimulating creativity, such as focus groups, the collective notebook method, brainstorming, brainwriting, reverse brainstorming and problem inventory analysis. However, the digital age appears to challenge much of this existing work on the nature of creativity. It is clear that online creativity and audiences are affecting the meaning, expression and impact of creativity. The traditional techniques of stimulating creativity have been replaced and aided by technology-driven innovations, such as artificial intelligence (AI), virtual reality (VR) and the Internet of things (IoT). This chapter explores ways to activate the creativity of entrepreneurs and their teams through the use of digital technologies. We believe that this chapter provides a rich source of examples on how technology is currently being used to support creativity by encouraging entrepreneurs and their teams to make connections, develop ideas, create meaning, collaborate and communicate. We present, in detail, three case studies and discuss practical implications for the future.",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-53914-6_2.pdf",
+        "citation_count": 90,
+        "work_type": "book-chapter",
+        "identifier": "W3100495301",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Managing fashion creativity. The history of the Chambre Syndicale de la Couture Parisienne during the interwar period",
+        "source": "openalex",
+        "url": "https://doi.org/10.1016/j.ihe.2015.05.002",
+        "doi": "10.1016/j.ihe.2015.05.002",
+        "year": 2015,
+        "authors": [
+          "Véronique Pouillard"
+        ],
+        "venue": "Investigaciones de Historia Económica",
+        "abstract": "In the creative industries, managing creativity and business is a complex process. This article explores the history of the oldest and most prestigious employers’ syndicate in the fashion industry, the Chambre Syndicale de la Couture parisienne (1868) during the interwar period, a time of crisis and change. The study of the private, unpublished archives of the syndicate allows us to understand the tensions between management and creativity. Paris fashion entrepreneurs federated to face external and internal challenges. Two major topics emerge from their concerns: the relations of entrepreneurs with the workforce, and the protection of intellectual property rights. The Chambre Syndicale's members, in response, developed social services, schools for apprentices, lobbied the French institutions, and shared information among themselves. In so doing, the Chambre developed unmatched politics of exclusivity that underline the role of the syndicate as a gatekeeper.",
+        "pdf_url": null,
+        "citation_count": 41,
+        "work_type": "article",
+        "identifier": "W1218858913",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Key Issues in Slow Fashion: Current Challenges and Future Perspectives",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.3390/su10072270",
+        "doi": "10.3390/su10072270",
+        "year": 2018,
+        "authors": [
+          "Róbert Štefko",
+          "Vladimira Steffek"
+        ],
+        "venue": "Sustainability",
+        "abstract": "The study seeks to explore and synthesize current issues in Slow Fashion and discuss potential future directions of the industry. While there are multiple definitions of the term, Slow Fashion typically describes long-lasting, locally manufactured clothing, primarily made from sustainably sourced fair-trade fabrics. It affords latitude to individual style, fosters education about clothing and emphasizes durability. While several challenges regarding the implementation of Slow Fashion principles in current society remain, the study offers an overview of the current state, and presents a fashion matrix-based framework for outlining the position of the Slow Fashion movement within industry-specific fashion segments and uses the matrix to present current knowledge and review future challenges. The support of networks serves as an indispensable tool for Slow Fashion designers, keeping them abreast of the competition.",
+        "pdf_url": "https://www.mdpi.com/2071-1050/10/7/2270/pdf?version=1530509392",
+        "citation_count": 191,
+        "work_type": "article",
+        "identifier": "W2811066556",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Managing design and designers for strategic renewal",
+        "source": "openalex",
+        "url": "https://doi.org/10.1016/j.lrp.2004.11.010",
+        "doi": "10.1016/j.lrp.2004.11.010",
+        "year": 2005,
+        "authors": [
+          "Davide Ravasi",
+          "Gabriella Lojacono"
+        ],
+        "venue": "Long Range Planning",
+        "abstract": null,
+        "pdf_url": "https://openaccess.city.ac.uk/id/eprint/4600/3/Renewal_by_design_third_revision.pdf",
+        "citation_count": 286,
+        "work_type": "article",
+        "identifier": "W2060747118",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Sustainable Fashion In A Circular Economy",
+        "source": "openalex",
+        "url": "https://research.aalto.fi/en/publications/237b8ae2-90cd-43e9-aa5c-523d0802f8dd",
+        "doi": null,
+        "year": 2018,
+        "authors": [
+          "Kirsi Niinimäki"
+        ],
+        "venue": "Aaltodoc (Aalto University)",
+        "abstract": "The promotion of sustainable fashion within a circular economy is a vital contemporary topic. This publication presents up-to-date research about the various levels of circularity at work in the fashion industry. Experts of design, consumption, business and industry explain how circularity in the production and consumption of fashion can be approached in manifold ways. This collection of texts highlights the fresh, critical thinking that is currently influencing the fashion industry to adopt the practice of sustainable transformation within a circular economy. The publication addresses the following themes: How to include consumers within the changing process of fashion consumption?New design and business strategies for the circular transformation of fashion.Developing a systems approach to circularity, which includes the recycling and recovering of materials at an industrial level.",
+        "pdf_url": "https://aaltodoc.aalto.fi/bitstreams/ecb821c4-cd81-4491-a254-21da34ef210b/download",
+        "citation_count": 243,
+        "work_type": "article",
+        "identifier": "W2903221279",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Slow fashion - the answer for a sustainable fashion industry?",
+        "source": "openalex",
+        "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:hb:diva-20182",
+        "doi": null,
+        "year": 2010,
+        "authors": [
+          "Eleonor Johansson"
+        ],
+        "venue": "DiVA - University of Borås (Högskolan i Borås)",
+        "abstract": "The fashion industry is today a global industry and has huge effect on our environment as well as on people. It is dominated by fast fashion and just-in-time production that has lead to increased seasons and mini-collections in season, which generate new low price items in store every week and even every day. This in turn has lead to an escalation in fashion trends that spris our desires for new experiences and leads to overconsumption where consumers buy more than they need, which in the end results in fashion waste.",
+        "pdf_url": null,
+        "citation_count": 73,
+        "work_type": "thesis",
+        "identifier": "W98298880",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Durham commission on creativity and education.",
+        "source": "openalex",
+        "url": "https://durham-repository.worktribe.com/output/1634947",
+        "doi": null,
+        "year": 2019,
+        "authors": [
+          "James Spohrer",
+          "Anna M. Houston",
+          "Lauren Newton",
+          "Simon Daniels",
+          "Nick Morgan",
+          "W. Coho",
+          "A. Ruck",
+          "Bill Lucas"
+        ],
+        "venue": "Durham Research Online (Durham University)",
+        "abstract": "Creativity:The capacity to imagine, conceive, express, or make something that was not there before.Creative thinking: A process through which knowledge, intuition and skills are applied to imagine, express or make something novel or individual in its contexts.Creative thinking is present in all areas of life.It may appear spontaneous, but it can be underpinned by perseverance, experimentation, critical thinking and collaboration.Teaching for creativity: Explicitly using pedagogies and practices that cultivate creativity in young people.",
+        "pdf_url": "https://durham-repository.worktribe.com/file/1634947/1/Published%20Report",
+        "citation_count": 46,
+        "work_type": "report",
+        "identifier": "W3001055520",
+        "extra": {
+          "openalex_type": "report",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Jeff Banks CBE â International Fashion Designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1057/9781137292353.0023",
+        "doi": "10.1057/9781137292353.0023",
+        "year": 2014,
+        "authors": [],
+        "venue": "Stress in the Spotlight",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1057/9781137292353.0023",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Palgrave Macmillan"
+        }
+      },
+      {
+        "title": "The fashion designer in the technological workplace",
+        "source": "crossref",
+        "url": "https://doi.org/10.1080/14626269808567113",
+        "doi": "10.1080/14626269808567113",
+        "year": 1998,
+        "authors": [
+          "Bob Jerrard",
+          "Sylvia Bell"
+        ],
+        "venue": "Digital Creativity",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.1080/14626269808567113",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Informa UK Limited"
+        }
+      },
+      {
+        "title": "Streets of Style: Fashion Designer Retailing within London and New York",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781474214612.ch-012",
+        "doi": "10.5040/9781474214612.ch-012",
+        "year": 2014,
+        "authors": [],
+        "venue": "Commercial Cultures : Economies, Practices, Spaces",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.5040/9781474214612.ch-012",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Bloomsbury Academic"
+        }
+      },
+      {
+        "title": "Designer Fashion Reports, Autumn/Winter 1988",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350942400",
+        "doi": "10.5040/9781350942400",
+        "year": 2019,
+        "authors": [],
+        "venue": "Designer Fashion Reports, Autumn/Winter 1988",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350942400",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing"
+        }
+      },
+      {
+        "title": "At Work with an Up-and-coming Fashion Designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781350110175.ch-008",
+        "doi": "10.5040/9781350110175.ch-008",
+        "year": 2020,
+        "authors": [],
+        "venue": "The Most Beautiful Job in the World",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781350110175.ch-008",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Jeff Banks CBE — International Fashion Designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1057/9781137292353_20",
+        "doi": "10.1057/9781137292353_20",
+        "year": 2014,
+        "authors": [
+          "Brian Claridge",
+          "Cary L. Cooper"
+        ],
+        "venue": "Stress in the Spotlight",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1057/9781137292353_20",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Palgrave Macmillan UK"
+        }
+      },
+      {
+        "title": "Fashion Designer Algorithm: A Human-creativity Inspired Parameter-free Metaheuristic for Optimization Tasks",
+        "source": "crossref",
+        "url": "https://doi.org/10.22266/ijies2025.1130.50",
+        "doi": "10.22266/ijies2025.1130.50",
+        "year": 2025,
+        "authors": [],
+        "venue": "International Journal of Intelligent Engineering and Systems",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 9,
+        "work_type": "article",
+        "identifier": "10.22266/ijies2025.1130.50",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "The Intelligent Networks and Systems Society"
+        }
+      },
+      {
+        "title": "McCartney, Stella, (born 13 Sept. 1971), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.u244929",
+        "doi": "10.1093/ww/9780199540884.013.u244929",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.u244929",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Mccartney, Stella, (born 13 Sept. 1971), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.244929",
+        "doi": "10.1093/ww/9780199540884.013.244929",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.244929",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Hamnett, Katharine, (born 16 Aug. 1947), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.18835",
+        "doi": "10.1093/ww/9780199540884.013.18835",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.18835",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Hamnett, Katharine, (born 16 Aug. 1947), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.u18835",
+        "doi": "10.1093/ww/9780199540884.013.u18835",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.u18835",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Emanuel, David, (born 17 Nov. 1952), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.u14971",
+        "doi": "10.1093/ww/9780199540884.013.u14971",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.u14971",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Emanuel, David, (born 17 Nov. 1952), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.14971",
+        "doi": "10.1093/ww/9780199540884.013.14971",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.14971",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Emanuel, Elizabeth Florence, (born 5 July 1953), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.14972",
+        "doi": "10.1093/ww/9780199540884.013.14972",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.14972",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Chalayan, Hussein, (born 12 Aug. 1970), fashion designer; artist",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.u261280",
+        "doi": "10.1093/ww/9780199540884.013.u261280",
+        "year": 2014,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.u261280",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Miyake, Kazunaru, (Issey), (born 22 April 1938), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.27752",
+        "doi": "10.1093/ww/9780199540884.013.27752",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.27752",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Gaultier, Jean-Paul, (born 24 April 1952), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.41466",
+        "doi": "10.1093/ww/9780199540884.013.41466",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.41466",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Armani, Giorgio, (born 11 July 1934), Italian fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.5696",
+        "doi": "10.1093/ww/9780199540884.013.5696",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.5696",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Klein, Calvin Richard, (born 19 Nov. 1942), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.23281",
+        "doi": "10.1093/ww/9780199540884.013.23281",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.23281",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Gaultier, Jean-Paul, (born 24 April 1952), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.u41466",
+        "doi": "10.1093/ww/9780199540884.013.u41466",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.u41466",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Artificial Intelligence and Copyright: Commercial Interior Designer Perspectives on the Use of AI for Contracted Work",
+        "source": "crossref",
+        "url": "https://doi.org/10.2139/ssrn.4908111",
+        "doi": "10.2139/ssrn.4908111",
+        "year": 2024,
+        "authors": [
+          "Ashley Greenwald"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "preprint",
+        "identifier": "10.2139/ssrn.4908111",
+        "extra": {
+          "crossref_type": "posted-content",
+          "publisher": "Elsevier BV"
+        }
+      },
+      {
+        "title": "Measuring creativity: A case study in the UK's Designer Fashion sector",
+        "source": "crossref",
+        "url": "https://doi.org/10.1080/09548960500292383",
+        "doi": "10.1080/09548960500292383",
+        "year": 2005,
+        "authors": [
+          "Anne Creigh-Tyte"
+        ],
+        "venue": "Cultural Trends",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 20,
+        "work_type": "article",
+        "identifier": "10.1080/09548960500292383",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Informa UK Limited"
+        }
+      },
+      {
+        "title": "Emanuel, Elizabeth Florence, (born 5 July 1953), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.u14972",
+        "doi": "10.1093/ww/9780199540884.013.u14972",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.u14972",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Chalayan, Hussein, (born 12 Aug. 1970), fashion designer; artist",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.261280",
+        "doi": "10.1093/ww/9780199540884.013.261280",
+        "year": 2014,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.261280",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      },
+      {
+        "title": "Klein, Calvin Richard, (born 19 Nov. 1942), fashion designer",
+        "source": "crossref",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.u23281",
+        "doi": "10.1093/ww/9780199540884.013.u23281",
+        "year": 2007,
+        "authors": [],
+        "venue": "Who's Who",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.1093/ww/9780199540884.013.u23281",
+        "extra": {
+          "crossref_type": "reference-entry",
+          "publisher": "Oxford University Press"
+        }
+      }
+    ]
+  },
+  "count": 50,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:06:21.050308+00:00"
+}

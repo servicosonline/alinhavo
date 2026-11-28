@@ -1,0 +1,50 @@
+[
+  {
+    "claim": "Beyond the Aesthete\n\t\t\t\t\t\t\t| Fashion Highlight: # Beyond the Aesthete: Transforming the Role of the Fashion Designer in an Emergent Social Construct Faerm, S.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Beyond the Aesthete\n\t\t\t\t\t\t\t| Fashion Highlight",
+    "quoted_support": "# Beyond the Aesthete: Transforming the Role of the Fashion Designer in an Emergent Social Construct Faerm, S.",
+    "numbers": [],
+    "entities": [
+      "Beyond the Aesthete\n\t\t\t\t\t\t\t| Fashion Highlight"
+    ],
+    "time_period": "2016-2026",
+    "region": "Internacional",
+    "confidence": "medium",
+    "source_note_id": "beyond-the-aesthete-fashion-highlight"
+  },
+  {
+    "claim": "Beyond the Aesthete\n\t\t\t\t\t\t\t| Fashion Highlight: Beyond the Aesthete: Transforming the Role of the Fashion Designer in an Emergent Social Construct.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Beyond the Aesthete\n\t\t\t\t\t\t\t| Fashion Highlight",
+    "quoted_support": "Beyond the Aesthete: Transforming the Role of the Fashion Designer in an Emergent Social Construct.",
+    "numbers": [],
+    "entities": [
+      "Beyond the Aesthete\n\t\t\t\t\t\t\t| Fashion Highlight"
+    ],
+    "time_period": "2016-2026",
+    "region": "Internacional",
+    "confidence": "medium",
+    "source_note_id": "beyond-the-aesthete-fashion-highlight"
+  },
+  {
+    "claim": "Beyond the Aesthete\n\t\t\t\t\t\t\t| Fashion Highlight: The fashion marketplace has reached unprecedented levels of abundance, thus altering society’s relationship with design.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Beyond the Aesthete\n\t\t\t\t\t\t\t| Fashion Highlight",
+    "quoted_support": "The fashion marketplace has reached unprecedented levels of abundance, thus altering society’s relationship with design.",
+    "numbers": [],
+    "entities": [
+      "Beyond the Aesthete\n\t\t\t\t\t\t\t| Fashion Highlight"
+    ],
+    "time_period": "2016-2026",
+    "region": "Internacional",
+    "confidence": "medium",
+    "source_note_id": "beyond-the-aesthete-fashion-highlight"
+  }
+]

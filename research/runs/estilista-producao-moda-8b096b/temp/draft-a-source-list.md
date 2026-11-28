@@ -1,0 +1,40 @@
+# Draft A — must_read_note_ids (n=37)
+Angle: Engenharia do PDP, Governança Formal de 15 Etapas / 5 Gates, Matriz R/P/I e Chão de Fábrica (Modelagem, Pilotagem, Encaixe e Facções).
+
+- interim-locus-5-insustentabilidade-criativa-pressao-comercial-e-bloqueio-sustent: Interim Locus 5 - Insustentabilidade Criativa Pressao Comercial e Bloqueio Sustentavel
+- interim-locus-4-prototipagem-3d-e-ia-generativa-no-fluxo-da-estilista: Interim Locus 4 - Prototipagem 3D e IA Generativa no Fluxo da Estilista
+- interim-locus-3-ficha-tecnica-pdm-plm-vs-informalidade-operacional: Interim Locus 3 - Ficha Tecnica PDM PLM vs Informalidade Operacional
+- interim-locus-2-interfaces-tecnicas-com-modelagem-pilotagem-encaixe-e-faccoes: Interim Locus 2 - Interfaces Tecnicas com Modelagem Pilotagem Encaixe e Faccoes
+- interim-locus-1-arquitetura-de-responsabilidades-e-tarefas-da-estilista-no-pdp: Interim Locus 1 - Arquitetura de Responsabilidades e Tarefas da Estilista no PDP
+- source-analysis-design-colaborativo-e-implantação-de-plm-na-moda-no-brasil-araúj: Source Analysis — Design Colaborativo e Implantação de PLM na Moda no Brasil (Araújo, 2017 USP)
+- source-analysis-vestuário-de-moda-luxo-no-brasil-qualidade-e-terceirização-marce: Source Analysis — Vestuário de Moda Luxo no Brasil: Qualidade e Terceirização (Marcelo, 2016 USP)
+- source-analysis-modelagem-zero-waste-na-indústria-do-vestuário-kauvauti-2022-usp: Source Analysis — Modelagem Zero Waste na Indústria do Vestuário (Kauvauti, 2022 USP)
+- source-analysis-da-produção-linear-ao-planejamento-pela-sustentabilidade-contin: Source Analysis — Da Produção Linear ao Planejamento pela Sustentabilidade (Contin, 2023 USP)
+- source-analysis-design-for-customization-no-vestuário-queiroz-2023-usp: Source Analysis — Design for Customization no Vestuário (Queiroz, 2023 USP)
+- source-analysis-processo-de-desenvolvimento-de-produto-na-indústria-têxtil-jorda: Source Analysis — Processo de Desenvolvimento de Produto na Indústria Têxtil (Jordan 2004)
+- universidade-de-são-paulo: UNIVERSIDADE DE SÃO PAULO
+- universidade-federal-rural-de-pernambuco-ufrpe: UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO (UFRPE)
+- universidade-de-são-paulo-8: Universidade de São Paulo
+- universidade-de-são-paulo-2: UNIVERSIDADE DE SÃO PAULO
+- university-of-huddersfield-repository: University of Huddersfield Repository
+- universidade-de-são-paulo-4: UNIVERSIDADE DE SÃO PAULO
+- marisa-beatriz-poletto-jordan: Marisa Beatriz Poletto Jordan
+- 3d-dynamic-fashion-design-development-using-digital-technology-and-its-potential: 3D dynamic fashion design development using digital technology and its potential in online platforms | Fashion and Textiles | Springer Nature Link
+- oecd-environment-working-papers-no-253: OECD Environment Working Papers No. 253
+- the-intersection-of-fashion-immersive-technology-and-sustainability-a-literature: The Intersection of Fashion, Immersive Technology, and Sustainability: A Literature Review
+- ai-tools-and-fashion-design-education-instructor-perspectives-on-student-challen: AI tools and fashion design education: instructor perspectives on student challenges and design process tool support | Fashion and Textiles | Springer Nature Link
+- sociologias-porto-alegre-ano-19-no-45-maiago-2017-p-142-174: Sociologias, Porto Alegre, ano 19, no 45, mai/ago 2017, p. 142-174
+- fit-models-roles-in-identifying-fit-issues-in-the-apparel-technical-design-proce: Fit models’ roles in identifying fit issues in the apparel technical design process and implications for improving 3D virtual fitting | Fashion and Textiles | Springer Nature Link
+- unlocking-the-potential-of-artificial-intelligence-in-fashion-design-and-e-comme: Unlocking the Potential of Artificial Intelligence in Fashion Design and E-Commerce Applications: The Case of Midjourney
+- produto-produção-vol-13-n-3-p-37-48-out-2012: Produto & Produção, vol. 13, n. 3, p. 37-48, out. 2012
+- garment-fit-evaluation-for-fashion-design-and: Garment Fit Evaluation for Fashion Design and
+- fashion-pattern-maker-of-software-application-development-iopscience: Fashion pattern maker of software application development - IOPscience
+- gramado-rs-2: Gramado – RS
+- xlvi-encontro-nacional-de-engenharia-de-produção: XLVI ENCONTRO NACIONAL DE ENGENHARIA DE PRODUÇÃO
+- the-role-of-process-monitoring-devices-and-digital-line-balancing-in-achieving-o: The role of process monitoring devices and digital line balancing in achieving operational excellence in garment manufacturing - MedCrave online
+- digital-fashion-and-the-metaverse-perspectives-from-the-emerging-fashion-designe: Digital fashion and the metaverse: perspectives from the emerging fashion designers in Zimbabwe 							| Fashion and Textiles Review
+- gramado-rs: Gramado – RS
+- an-evaluation-of-garment-fit-to-improve-customer-body-fit-of-fashion-design-clot: An evaluation of garment fit to improve customer body fit of fashion design clothing | The International Journal of Advanced Manufacturing Technology | Springer Nature Link
+- framework-integrado-de-gestão-de-design-e-pensamento-enxuto-na-indústria-da-moda: Framework integrado de  gestão de design e pensamento enxuto na indústria da moda 							| Modapalavra e-periódico
+- guia-de-orientação-para-o-desenvolvimento-de-projetos-godp-aplicado-à-prática-pr: Guia de Orientação Para o Desenvolvimento de Projetos - GODP - Aplicado à Prática Projetual no Design de Moda 							| Modapalavra e-periódico
+- design-de-moda-para-a-customização-em-massa-uma-proposta-de-framework-modapalavr: Design de moda para a customização em massa: uma proposta de framework 							| Modapalavra e-periódico

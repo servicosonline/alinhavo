@@ -1,5 +1,17 @@
 import { describe, expect, it } from "vitest";
-import { daysLate, formatDay, isProductStatus, milestoneState, readDay, suggestApproved, todayInBrazil } from "./collection";
+import {
+  collectionPhase,
+  daysLate,
+  formatDay,
+  isProductStatus,
+  matchesProductFilter,
+  milestoneState,
+  readCollectionPhase,
+  readDay,
+  readProductFilter,
+  suggestApproved,
+  todayInBrazil,
+} from "./collection";
 
 describe("cronograma", () => {
   it("situação da etapa pela data", () => {
@@ -46,5 +58,27 @@ describe("datas de formulário", () => {
     expect(readDay("01/12/2026")).toBeUndefined();
     expect(formatDay("2026-12-01")).toBe("01/12/2026");
     expect(formatDay(null)).toBe("");
+  });
+});
+
+describe("abas e filtros das coleções", () => {
+  it("fase: arquivada vence; entregue só com todos em produção; sem produto é em andamento", () => {
+    expect(collectionPhase("2026-11-01T00:00:00Z", ["producao"])).toBe("arquivadas");
+    expect(collectionPhase(null, ["producao", "producao"])).toBe("entregues");
+    expect(collectionPhase(null, ["producao", "aprovado"])).toBe("andamento");
+    expect(collectionPhase(null, [])).toBe("andamento");
+    expect(readCollectionPhase("entregues")).toBe("entregues");
+    expect(readCollectionPhase("x")).toBe("andamento");
+  });
+
+  it("filtro dos produtos: estágio, atrasados (entregue não atrasa) e valor estranho vira todos", () => {
+    const today = "2026-11-17";
+    expect(matchesProductFilter({ status: "prova", due_on: null }, "prova", today)).toBe(true);
+    expect(matchesProductFilter({ status: "prova", due_on: null }, "ideia", today)).toBe(false);
+    expect(matchesProductFilter({ status: "modelagem", due_on: "2026-11-10" }, "atrasados", today)).toBe(true);
+    expect(matchesProductFilter({ status: "producao", due_on: "2026-11-10" }, "atrasados", today)).toBe(false);
+    expect(readProductFilter("atrasados")).toBe("atrasados");
+    expect(readProductFilter("aprovado")).toBe("aprovado");
+    expect(readProductFilter("nada")).toBe("todos");
   });
 });

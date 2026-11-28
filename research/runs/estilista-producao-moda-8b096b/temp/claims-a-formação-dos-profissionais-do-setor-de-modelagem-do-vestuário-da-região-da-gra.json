@@ -1,0 +1,54 @@
+[
+  {
+    "claim": "# A formação dos profissionais do setor de modelagem do vestuário da região da grande Florianópolis - SC modelagem, vestuário, sistema cad, formação profissional Este artigo apresenta os resultados da pesquisa quantitativa realizada junto ao Programa da Universidade do Estado de Santa Catarina - UDESC/CEART, o qual teve como objetivo identificar a formação dos profissionais do setor de modelagem que atuam nas empresas do vestuário da região da Grande Florianópolis.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "A formação dos profissionais do setor de modelagem do vestuário da região da grande Florianópolis - SC\n\t\t\t\t\t\t\t| DAPesquisa",
+    "quoted_support": "# A formação dos profissionais do setor de modelagem do vestuário da região da grande Florianópolis - SC modelagem, vestuário, sistema cad, formação profissional Este artigo apresenta os resultados da pesquisa quantitativa realizada junto ao Programa da Universidade do Estado de Santa Catarina - UDESC/CEART, o qual teve como objetivo identificar a formação dos profissionais do setor de modelagem que atuam nas empresas do vestuário da região da Grande Florianópolis.",
+    "numbers": [],
+    "entities": [
+      "A formação dos profissionais do setor de modelagem do vestuário da região da gra"
+    ],
+    "time_period": "2016-2026",
+    "region": "Brasil",
+    "confidence": "medium",
+    "source_note_id": "a-formação-dos-profissionais-do-setor-de-modelagem-do-vestuário-da-região-da-gra"
+  },
+  {
+    "claim": "A formação dos profissionais do setor de modelagem do vestuário da região da grande Florianópolis - SC\n\t\t\t\t\t\t\t| DAPesquisa: As empresas selecionadas para a pesquisa estão cadastradas no CIESC (Centro Das Indústrias Do Estado de Santa Catarina).",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "A formação dos profissionais do setor de modelagem do vestuário da região da grande Florianópolis - SC\n\t\t\t\t\t\t\t| DAPesquisa",
+    "quoted_support": "As empresas selecionadas para a pesquisa estão cadastradas no CIESC (Centro Das Indústrias Do Estado de Santa Catarina).",
+    "numbers": [],
+    "entities": [
+      "A formação dos profissionais do setor de modelagem do vestuário da região da gra"
+    ],
+    "time_period": "2016-2026",
+    "region": "Brasil",
+    "confidence": "medium",
+    "source_note_id": "a-formação-dos-profissionais-do-setor-de-modelagem-do-vestuário-da-região-da-gra"
+  },
+  {
+    "claim": "A análise dos dados mostram que 48% (quarenta e oito por cento) dos profis- sionais desse setor são antigas costureiras que ocupam a função de modelista, 35% (trinta e cinco por cento) possuem cursos de nível técnico e 17% (dezessete por cento) são formados pelas universidades.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "A formação dos profissionais do setor de modelagem do vestuário da região da grande Florianópolis - SC\n\t\t\t\t\t\t\t| DAPesquisa",
+    "quoted_support": "A análise dos dados mostram que 48% (quarenta e oito por cento) dos profis- sionais desse setor são antigas costureiras que ocupam a função de modelista, 35% (trinta e cinco por cento) possuem cursos de nível técnico e 17% (dezessete por cento) são formados pelas universidades.",
+    "numbers": [
+      "48",
+      "35",
+      "17"
+    ],
+    "entities": [
+      "A formação dos profissionais do setor de modelagem do vestuário da região da gra"
+    ],
+    "time_period": "2016-2026",
+    "region": "Brasil",
+    "confidence": "medium",
+    "source_note_id": "a-formação-dos-profissionais-do-setor-de-modelagem-do-vestuário-da-região-da-gra"
+  }
+]

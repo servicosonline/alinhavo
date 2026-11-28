@@ -1,0 +1,29 @@
+[
+  {
+    "claim": "Ao atualizar sua tabela de medidas em 2022 segundo a ABNT (NBR 16933), a revista Manequim aumentou a cintura de todos os tamanhos em 4 cm, mas reduziu o tamanho máximo da tabela do 62 (cintura 118 cm) para o 54 (cintura 110 cm), regredindo ao patamar de 1996.",
+    "stance": "supports",
+    "stance_target": "Exclusão prática de corpos gordos e inconsistência na aplicação comercial da NBR 16933",
+    "evidence_type": "empirical",
+    "scope_conditions": "Análise documental das tabelas de medidas e moldes da Revista Manequim (1991, 1996 e duas edições de 2022)",
+    "quoted_support": "Nesta edição, a revista atualizou sua tabela de medidas conforme as regras da ABNT e sua consultora Cristiane Laira, (Revista Manequim, 2022, p. 52). Dessa forma, para a consumidora saber se o tamanho EG realmente veste uma cintura com a medida de 110 centímetros, é necessário que esse molde seja copiado em um papel específico para modelagem e conferida as suas medidas antes de produzir a roupa.",
+    "numbers": [
+      "tamanho 50 / cintura 92 cm (1991)",
+      "tamanho 56 / cintura 110 cm (1996)",
+      "tamanho 62 / cintura 118 cm (2022 ed. 1)",
+      "tamanho 54 / cintura 110 cm (2022 ed. 2 pós-ABNT)",
+      "+4 cm na cintura",
+      "61,7% (excesso de peso adulto no Brasil)",
+      "26,8% (obesidade adulta PNS 2019)"
+    ],
+    "entities": [
+      "Revista Manequim",
+      "ABNT",
+      "NBR 16933",
+      "IBGE PNS 2019"
+    ],
+    "time_period": "1991-2025",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "v18-n44-2025"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "claim": "Uma revisão sistemática em seis periódicos brasileiros de moda e design identificou apenas 23 artigos relacionando ergonomia, moda e vestuário, dos quais apenas um estudo (Planca, Merino e Merino, 2016) investigou as exigências ergonômicas ocupacionais do trabalhador modelista, enquanto os demais focaram na ergonomia do produto para o usuário/consumidor.",
+    "stance": "supports",
+    "stance_target": "Escassez crítica de estudos ergonômicos sobre o trabalho do modelista na literatura científica brasileira",
+    "evidence_type": "empirical",
+    "scope_conditions": "Revisão sistemática em 6 periódicos brasileiros (Modapalavra, dObra[s], Achiote.com, Revista de Ensino em Artes, Moda e Design, Projética e Educação Gráfica)",
+    "quoted_support": "Também relacionado ao bem-estar do trabalhador, Planca, Merino e Merino (2016) analisaram a atividade do modelista verificando as exigências físicas relativas à execução dessa ocupação, percebendo que a profissão do modelista, assim como muitas outras, oferece riscos do ponto de vista ergonômico ao trabalhador, não somente físicos, como cognitivos e organizacionais.",
+    "numbers": ["6 periódicos", "23 artigos", "11 subtemas"],
+    "entities": ["Modapalavra", "dObra[s]", "Projética", "Iramuteq"],
+    "time_period": "2008-2022",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "v15-n37-2022"
+  }
+]

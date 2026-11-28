@@ -1,0 +1,470 @@
+{
+  "ok": true,
+  "data": {
+    "query": "ruidos comunicacao estilista modelista pilotagem confeccao",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 1,
+      "crossref": 21,
+      "doab": 0
+    },
+    "raw_records": 22,
+    "merged_records": 22,
+    "returned": 22,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "A modelagem em 3D para o Design de moda",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.29147/datjournal.v9i2.811",
+        "doi": "10.29147/datjournal.v9i2.811",
+        "year": 2024,
+        "authors": [
+          "Tom Igor Costa Albano",
+          "Marli Teresinha Everling"
+        ],
+        "venue": "DAT Journal",
+        "abstract": "A criação de protótipos é de extrema importância para a validação no desenvolvimento de novos produtos. Em diversas áreas, o método de prototipagem utilizando modelagem em 3D já é difundido, mas para o mercado de moda a tecnologia pode ser mais bem explorada. Tendo isso em vista, o artigo relata a pesquisa exploratória que, por meio de levantamento bibliográfico, objetivou identificar cenários sociais e mercadológicos onde a utilização dessa tecnologia tem destaque na produção de design de moda. Foram abordados aspectos que se relacionam com o ensino, o comportamento de consumo e a produção de produtos. Como resultado, ampliou-se os conhecimentos acerca do objeto de estudo. contribuindo como fonte para novas discussões.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4402355735",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Pilotagem automática de embarcações com emprego de controle estocástico.",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.3.2017.tde-05122017-093052",
+        "doi": "10.11606/d.3.2017.tde-05122017-093052",
+        "year": 2018,
+        "authors": [
+          "José Jaime da Cruz"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.3.2017.tde-05122017-093052",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Aplicações de algebra linear em ruidos quanticos",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2007.399683",
+        "doi": "10.47749/t/unicamp.2007.399683",
+        "year": 2021,
+        "authors": [
+          "Leandro Bezerra de Lima"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2007.399683",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Manuel Diaz Rodriguez, estilista del modernismo",
+        "source": "crossref",
+        "url": "https://doi.org/10.2307/336005",
+        "doi": "10.2307/336005",
+        "year": 1956,
+        "authors": [
+          "Henry Holland"
+        ],
+        "venue": "Hispania",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.2307/336005",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "JSTOR"
+        }
+      },
+      {
+        "title": "Massificacao e jornalismo: retorica e linguagem no escopo da comunicacao social",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.27.2010.tde-05112010-112004",
+        "doi": "10.11606/d.27.2010.tde-05112010-112004",
+        "year": 2015,
+        "authors": [
+          "Rafael Duarte Oliveira Venancio"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.27.2010.tde-05112010-112004",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "ANÁLISE DE PILOTAGEM DE MOTOCICLETA VISANDO ASPECTOS DE SEGURANÇA",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.23663",
+        "doi": "10.17771/pucrio.acad.23663",
+        "year": 2015,
+        "authors": [
+          "GABRIEL SCUSSEL BRASIL BEZERRA DE MIRANDA"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.23663",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "Dolo e processo de comunicacao",
+        "source": "crossref",
+        "url": "https://doi.org/10.5212/lumiar.v.2.i1.007016",
+        "doi": "10.5212/lumiar.v.2.i1.007016",
+        "year": 2008,
+        "authors": [
+          "Paulo Cesar Busato"
+        ],
+        "venue": "Lumiar",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5212/lumiar.v.2.i1.007016",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Estadual de Ponta Grossa (UEPG)"
+        }
+      },
+      {
+        "title": "MODA, ARTE E HISTÓRIA: um encontro na obra da estilista Rei Kawakubo",
+        "source": "crossref",
+        "url": "https://doi.org/10.24824/978652511577.1",
+        "doi": "10.24824/978652511577.1",
+        "year": 2021,
+        "authors": [
+          "C. C. DIAS"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.24824/978652511577.1",
+        "extra": {
+          "crossref_type": "book",
+          "publisher": "EDITORA CRV"
+        }
+      },
+      {
+        "title": "Construindo indicadores e escutando \"ruidos\": O Qualis/Zerbini/SP (uma modelagem do PSF)",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2003.290332",
+        "doi": "10.47749/t/unicamp.2003.290332",
+        "year": 2021,
+        "authors": [
+          "Lidia Tobias Silveira"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2003.290332",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Modelagem através do CLO3D : redução de custos no processo de pilotagem e produção têxtil",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/003273578",
+        "doi": "10.11606/003273578",
+        "year": 2026,
+        "authors": [
+          "Barbara Baptista Navarra"
+        ],
+        "venue": null,
+        "abstract": "Durante o processo de desenvolvimento do produto, o estilista pode realizar alterações no modelo, o que gera o desenvolvimento de várias peças pilotos - protótipos, confeccionadas a partir do desenho enviado pela estilista. O processo de repilotagem não só causa desperdício têxtil, mas também causa atrasos nos processos de desenvolvimento da coleção. Nesse contexto é inserido o software CLO3D, utilizado por profissionais de moda para desenvolver o design, modelagem, ajustes e modificações do produto. O seguinte trabalho objetiva avaliar determinados aspectos do processo de produção de vestuário, tendo como objeto de estudo uma empresa paulista de Private Label, através da modelagem manual (moulage e plana) e, posteriormente, modelagem no Audaces. A partir dessa avaliação, será realizado uma análise de três modelos produzidos pela empresa, realizando o mesmo processo através do software CLO3D, comparando o consumo e resíduos gerados pelas duas formas de modelar.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/003273578",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Editorial",
+        "source": "crossref",
+        "url": "https://doi.org/10.9771/contemporanea.v18i3.43813",
+        "doi": "10.9771/contemporanea.v18i3.43813",
+        "year": 2021,
+        "authors": [
+          "Contemporanea Revista de Comunicacao e Cultura"
+        ],
+        "venue": "Contemporânea Revista de Comunicação e Cultura",
+        "abstract": null,
+        "pdf_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/article/viewFile/43813/24260",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.9771/contemporanea.v18i3.43813",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Federal da Bahia"
+        }
+      },
+      {
+        "title": "Pilotagem de Fármacos",
+        "source": "crossref",
+        "url": "https://doi.org/10.52590/m3.p567.a3000501",
+        "doi": "10.52590/m3.p567.a3000501",
+        "year": 1990,
+        "authors": [
+          "Luis Filipe Vicente Constantino"
+        ],
+        "venue": "Boletim da Sociedade Portuguesa de Química",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.52590/m3.p567.a3000501",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Sociedade Portuguesa de Quimica"
+        }
+      },
+      {
+        "title": "O ESTUDO DE LÍNGUA PORTUGUESA EM CURSOS DE GRADUAÇÃO EM PILOTAGEM",
+        "source": "crossref",
+        "url": "https://doi.org/10.63656/kjv1xn83",
+        "doi": "10.63656/kjv1xn83",
+        "year": 2025,
+        "authors": [
+          "Delvanir Lopes"
+        ],
+        "venue": "EJ News",
+        "abstract": "Este artigo se propõe a analisar a presença do componente Língua Portuguesa em cursos superiores. Verifica-se que, mesmo em cursos de áreas diferentes da área de linguagens, a aprendizagem formal do idioma via suprir lacunas que possam não ter sido sanadas durante os anos do Ensino Médio. Daí que o traço preponderante deles seja de nivelamento ou de língua portuguesa instrumental. O método para o estudo foi investigativo para detectar a presença do componente em grades curriculares variadas, com destaque para os cursos de aviação, entre eles a da Faculdade de Tecnologia em Aviação Civil. Conclui-se que a Língua Portuguesa em cursos superiores promove vários fatores, entre eles: comunicação mais eficiente, auxílio na produção acadêmica, interdisciplinaridade e entendimento de conteúdos.",
+        "pdf_url": "https://ejnews.ej.edu.br/ej/article/download/2/19",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.63656/kjv1xn83",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "EJ Faculdade de Tecnologia em Aviação Civil"
+        }
+      },
+      {
+        "title": "Da criação à preservação: um estudo das coleções da moda no ateliê do estilista Reinaldo Lourenço",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.103.2022.tde-25052023-120420",
+        "doi": "10.11606/d.103.2022.tde-25052023-120420",
+        "year": 2023,
+        "authors": [
+          "Bernardo Baia dos Santos Conceição"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.103.2022.tde-25052023-120420",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de Sao Paulo, Agencia USP de Gestao da Informacao Academica (AGUIA)"
+        }
+      },
+      {
+        "title": "Los ruidos del desmoronamiento: Ensayo sobre el humanismo latinoamericano",
+        "source": "crossref",
+        "url": "https://doi.org/10.2307/jj.5699294",
+        "doi": "10.2307/jj.5699294",
+        "year": 2023,
+        "authors": [
+          "José Pablo Concha Lagos"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.2307/jj.5699294",
+        "extra": {
+          "crossref_type": "monograph",
+          "publisher": "Ediciones Metales Pesados"
+        }
+      },
+      {
+        "title": "Avaliação dos ruidos articulares como diagnóstico complementar de desordens temporomandibulares",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.23.2011.tde-16012012-144542",
+        "doi": "10.11606/d.23.2011.tde-16012012-144542",
+        "year": 2015,
+        "authors": [
+          "Marcus Vinicius Yamazato Kanashiro"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.23.2011.tde-16012012-144542",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "A era da iconofagia: ensaios de comunicacao e cultura",
+        "source": "crossref",
+        "url": "https://doi.org/10.31789/rpd-201808220033",
+        "doi": "10.31789/rpd-201808220033",
+        "year": 2005,
+        "authors": [
+          "Pontifícia Universidade Católica de São Paulo",
+          "Baitello Norval"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.31789/rpd-201808220033",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "Sao Paulo : Hacker"
+        }
+      },
+      {
+        "title": "Juan Montalvo: El escritor y el estilista",
+        "source": "crossref",
+        "url": "https://doi.org/10.2307/339665",
+        "doi": "10.2307/339665",
+        "year": 1975,
+        "authors": [
+          "William L. Siemens",
+          "Antonio Sacoto Salamea"
+        ],
+        "venue": "Hispania",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.2307/339665",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "JSTOR"
+        }
+      },
+      {
+        "title": "editorial dez 2017",
+        "source": "crossref",
+        "url": "https://doi.org/10.9771/contemporanea.v15i3.25565",
+        "doi": "10.9771/contemporanea.v15i3.25565",
+        "year": 2017,
+        "authors": [
+          "Contemporanea Revista de Comunicacao e Cultura"
+        ],
+        "venue": "Contemporanea",
+        "abstract": "dez 2017",
+        "pdf_url": "https://periodicos.ufba.br/index.php/contemporaneaposcom/article/download/25565/15626",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.9771/contemporanea.v15i3.25565",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Federal da Bahia"
+        }
+      },
+      {
+        "title": "Referencias",
+        "source": "crossref",
+        "url": "https://doi.org/10.2307/jj.5699294.9",
+        "doi": "10.2307/jj.5699294.9",
+        "year": 2023,
+        "authors": [],
+        "venue": "Los ruidos del desmoronamiento",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.2307/jj.5699294.9",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Ediciones Metales Pesados"
+        }
+      },
+      {
+        "title": "Ruidos y centelleos.: Experiencias liminales dentro y fuera del arte",
+        "source": "crossref",
+        "url": "https://doi.org/10.2307/j.ctvm7bd70.15",
+        "doi": "10.2307/j.ctvm7bd70.15",
+        "year": 2010,
+        "authors": [],
+        "venue": "Estética del aparecer",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.2307/j.ctvm7bd70.15",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Katz Editores"
+        }
+      },
+      {
+        "title": "Sistemas dinamicos governados por ruidos gaussianos branco e colorido",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1996.106038",
+        "doi": "10.47749/t/unicamp.1996.106038",
+        "year": 2021,
+        "authors": [
+          "Antonio Justino Ruas Madureira"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1996.106038",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      }
+    ]
+  },
+  "count": 22,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:08:06.107664+00:00"
+}

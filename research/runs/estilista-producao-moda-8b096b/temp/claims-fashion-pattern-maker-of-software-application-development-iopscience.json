@@ -1,0 +1,50 @@
+[
+  {
+    "claim": "The cookies that are categorized as \"Necessary\" are stored on your browser as they are essential for enabling the basic functionalities of the site.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Fashion pattern maker of software application development - IOPscience",
+    "quoted_support": "The cookies that are categorized as \"Necessary\" are stored on your browser as they are essential for enabling the basic functionalities of the site.",
+    "numbers": [],
+    "entities": [
+      "Fashion pattern maker of software application development - IOPscience"
+    ],
+    "time_period": "2016-2026",
+    "region": "Internacional",
+    "confidence": "medium",
+    "source_note_id": "fashion-pattern-maker-of-software-application-development-iopscience"
+  },
+  {
+    "claim": "Functional cookies help perform certain functionalities like sharing the content of the website on social media platforms, collecting feedback, and other third-party features.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Fashion pattern maker of software application development - IOPscience",
+    "quoted_support": "Functional cookies help perform certain functionalities like sharing the content of the website on social media platforms, collecting feedback, and other third-party features.",
+    "numbers": [],
+    "entities": [
+      "Fashion pattern maker of software application development - IOPscience"
+    ],
+    "time_period": "2016-2026",
+    "region": "Internacional",
+    "confidence": "medium",
+    "source_note_id": "fashion-pattern-maker-of-software-application-development-iopscience"
+  },
+  {
+    "claim": "Fashion pattern maker of software application development - IOPscience: Google cookie used to protect user security and prevent fraud, especially during the login process.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Fashion pattern maker of software application development - IOPscience",
+    "quoted_support": "Google cookie used to protect user security and prevent fraud, especially during the login process.",
+    "numbers": [],
+    "entities": [
+      "Fashion pattern maker of software application development - IOPscience"
+    ],
+    "time_period": "2016-2026",
+    "region": "Internacional",
+    "confidence": "medium",
+    "source_note_id": "fashion-pattern-maker-of-software-application-development-iopscience"
+  }
+]

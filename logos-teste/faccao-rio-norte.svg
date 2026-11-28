@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="56" fill="#0E4A6E"/>
+  <polygon points="256,62 276,112 256,102 236,112" fill="#F2C14E"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M100 160 Q 139 130 178 160 T 256 160 T 334 160 T 412 160" stroke="#8FD3F4" stroke-width="14"/>
+    <path d="M100 206 Q 139 176 178 206 T 256 206 T 334 206 T 412 206" stroke="#FFFFFF" stroke-width="5" stroke-dasharray="14 10"/>
+  </g>
+  <text x="256" y="318" text-anchor="middle" font-family="Bahnschrift, Arial, sans-serif" font-size="40" fill="#8FD3F4" letter-spacing="6">facção</text>
+  <text x="256" y="394" text-anchor="middle" font-family="Bahnschrift, 'Arial Narrow', Arial, sans-serif" font-weight="700" font-size="74" fill="#FFFFFF">Rio Norte</text>
+</svg>

@@ -1,0 +1,33 @@
+# Draft C — must_read_note_ids (n=30)
+Angle: Organizational Governance, Factory-Floor Interfaces & Practitioner Synthesis: foco nas interfaces entre criação, pilotagem, sala de corte, lavanderia e facções terceirizadas, separação entre dores técnicas e estruturais e travas operacionais.
+
+- interim-report-comunicacao-criacao-modelagem-desenho-e-ficha-tecnica: A dor central entre criação, modelagem e produção decorre da ausência de uma ficha técnica completa antes da modelagem e revisada após a peç
+- interim-report-prototipagem-virtual-3d-vs-peca-piloto-fisica: A prototipagem 3D desloca, mas não elimina, a peça piloto física: funciona como triagem visual e de consumo de tecido, porém desvios de folg
+- interim-report-antropometria-abnt-vs-grades-proprietarias-e-plus-size: A NBR 16933:2021 reduz a subjetividade do modelista na grade regular (36-44, biótipos colher e retângulo), mas falha nos segmentos plus size
+- interim-report-ergonomia-fisica-cognitiva-e-condicoes-de-trabalho-da-modelista: A informatização via CAD na confecção brasileira (69% das empresas; 73% Audaces) não eliminou o desgaste biomecânico da modelista de mesa (c
+- interim-report-interfaces-chao-de-fabrica-pilotagem-encaixe-corte-e-faccoes: Interim report: interfaces-chao-de-fabrica-pilotagem-encaixe-corte-e-faccoes
+- cbo-318810-modelista-de-roupas-classificação-brasileira-de-ocupações: Página oficial da CBO 3188-10 (Modelista de roupas / Moldador de roupas) do Ministério do Trabalho e Emprego (mtecbo.gov.br via ocupacoes.co
+- 6-resultado-da-pesquisa: Capítulo 6 (Resultado da Pesquisa, p. 146-203) da tese de doutorado de Icléia Silveira (PUC-Rio, 2011). Traz todos os dados primários quanti
+- análise-dos-resultados-da-pesquisa-com-foco-na-gestão: Capítulo 7 (Análise dos Resultados da Pesquisa com Foco na Gestão do Conhecimento, p. 204-219) da tese de doutorado de Icléia Silveira (PUC-
+- conhecimento-organizacional: Capítulos 1 (Introdução) e 2 (Conhecimento Organizacional) da tese de doutorado de Icléia Silveira (PUC-Rio, 2011). Contextualiza a transiçã
+- gestão-do-conhecimento: Capítulo 3 (Gestão do Conhecimento) da tese de doutorado de Icléia Silveira (PUC-Rio, 2011). Apresenta o referencial de Probst, Raub e Romha
+- marisa-beatriz-poletto-jordan: Marisa Beatriz Poletto Jordan
+- projética-revista-científica-de-design-l-universidade-estadual-de-londrina-l-v2: Projética  Revista Científica de Design l  Universidade Estadual de Londrina  l  V.2  l  N.2  l  Dezembro 2011
+- projética-londrina-v-1-n-1-p-82100-dez-2010-nº-inaugural: PROJÉTICA, LONDRINA, V. 1, N. 1, P. 82‐100, DEZ. 2010. Nº INAUGURAL
+- dapesquisa-florianópolis-v4-n6-p548-555-2009: DAPesquisa, Florianópolis, v.4 n.6, p.548-555, 2009.
+- produto-produção-vol-13-n-3-p-37-48-out-2012: Produto & Produção, vol. 13, n. 3, p. 37-48, out. 2012
+- universidade-de-são-paulo-8: Universidade de São Paulo
+- universidade-de-são-paulo-6: UNIVERSIDADE DE SÃO PAULO
+- marília-piccinini-da-carvalhinha: MARÍLIA PICCININI DA CARVALHINHA
+- universidade-federal-rural-de-pernambuco-ufrpe: UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO (UFRPE)
+- gramado-rs-3: Artigo completo de Haylton Acácio Gaspar, Lucimar de Fátima Bilmaia Emidio e Valdirene Aparecida Vieira Nunes (2014, 11º P&D Design, Blucher
+- xliv-encontro-nacional-de-engenharia-de-produção-3: XLIV ENCONTRO NACIONAL DE ENGENHARIA DE PRODUÇÃO
+- xli-encontro-nacional-de-engenharia-de-produção: XLI ENCONTRO NACIONAL DE ENGENHARIA DE PRODUÇÃO
+- zero-waste-in-apparel-industry-limitations-and-alternatives-sustainability-in-de: 1112Views: 1112 2195Downloads: 2195
+- utilização-das-ferramentas-da-indústria-40-para-a-prototipagem-no-setor-de-ves-2: Utilização das ferramentas da indústria 4.0 para a prototipagem no setor de vestuário
+- universidade-de-são-paulo-10: UNIVERSIDADE DE SÃO PAULO
+- universidade-de-são-paulo-12: Texto integral da dissertação de mestrado de Roberto Dias (EACH-USP, 2015, 21.901 palavras), Modelagem industrial: diretrizes para o traçado
+- universidade-de-são-paulo-13: Texto integral da dissertação de mestrado de Julia Maria Percebom (EACH-USP, 2021, 107.884 palavras), Diretrizes para o desenvolvimento de m
+- m-o-d-a-p-a-l-a-v-r-a-e-p-e-r-i-ó-d-i-c-o-3: Planca, Merino e Merino (2016, ModaPalavra v.9 n.18): estudo de caso em um bureau de modelagem em Gaspar/SC, com uma modelista de 48 anos, 2
+- revista-ação-ergonômica-v-13-n-1-2018: Silva (UFRGS, 2018, Ação Ergonômica v.13 n.1): riscos ergonômicos em atividades de modelagem de vestuário em estudantes de curso técnico. Us
+- sociologias-porto-alegre-ano-19-no-45-maiago-2017-p-142-174: Sociologias, Porto Alegre, ano 19, no 45, mai/ago 2017, p. 142-174

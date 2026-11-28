@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Quando o empresário designa um operador leigo em modelagem para operar o CAD enquanto a modelista tradicional permanece no papel, há perda de produtividade e retrabalho, pois a modelista profissional precisa gastar parte do seu tempo conferindo o trabalho executado pelo operador no sistema.",
+    "stance": "supports",
+    "stance_target": "Retrabalho e sobrecarga de conferência gerados pela separação entre modelista de bancada e operador de CAD",
+    "evidence_type": "empirical",
+    "scope_conditions": "Indústrias de confecção em transição para o sistema CAD",
+    "quoted_support": "O empresário não tem noção de que, com essa escolha, terá menor produtividade, já que não estará usando tudo o que o software permite. Além disso, o modelista profissional gasta, parte do seu tempo, conferindo o trabalho do outro, que usou o sistema.",
+    "numbers": ["100%"],
+    "entities": ["Icléia Silveira", "Audaces", "Lectra"],
+    "time_period": "2011",
+    "region": "Santa Catarina, Brasil",
+    "confidence": "high",
+    "source_note_id": "análise-dos-resultados-da-pesquisa-com-foco-na-gestão"
+  },
+  {
+    "claim": "O treinamento de implantação de sistemas CAD realizado no próprio ambiente de trabalho da confecção sofre interrupções constantes das demandas da rotina diária de produção, prejudicando a concentração e a aprendizagem da modelista.",
+    "stance": "supports",
+    "stance_target": "Interrupções operacionais e falta de ambiente protegido para capacitação cognitiva da modelista na fábrica",
+    "evidence_type": "empirical",
+    "scope_conditions": "Capacitação in-company de modelistas em indústrias do vestuário",
+    "quoted_support": "no treinamento na empresa, tem-se, pelo lado bom, o fato de o usuário ter fácil acesso às informações do seu trabalho do dia-a-dia, o que ajuda a customizar o treinamento. Mas, por outro lado, por estar no ambiente de trabalho ele corre o risco de ser interrompido por questões do mesmo dia-a-dia.",
+    "numbers": [],
+    "entities": ["Icléia Silveira", "Lectra", "Audaces"],
+    "time_period": "2011",
+    "region": "Santa Catarina, Brasil",
+    "confidence": "high",
+    "source_note_id": "análise-dos-resultados-da-pesquisa-com-foco-na-gestão"
+  },
+  {
+    "claim": "Metade (49,9%) dos modelistas entrevistados relatou que os instrutores das empresas de software dominam a ferramenta computacional mas não detêm conhecimentos práticos de modelagem nem didática de ensino, limitando-se a demonstrar funções genéricas em vez de ensinar a construir moldes reais da empresa.",
+    "stance": "supports",
+    "stance_target": "Descompasso entre a linguagem de software dos instrutores de CAD e o saber-fazer de construção do vestuário da modelista",
+    "evidence_type": "empirical",
+    "scope_conditions": "Treinamentos de implantação de CAD em confecções de Santa Catarina",
+    "quoted_support": "Concluíu-se, com base nos principais resultados, que mais da metade dos modelistas não usa todas as funções do sistema CAD; os instrutores dominam conhecimentos sobre o software, mas metade deles não sabe modelagem; os procedimentos para a seleção do instrutor e planejamento da capacitação não são adequados à interação e compartilhamento de conhecimento entre os participantes",
+    "numbers": ["49,9%", "50%"],
+    "entities": ["Icléia Silveira", "Audaces", "Lectra"],
+    "time_period": "2011",
+    "region": "Santa Catarina, Brasil",
+    "confidence": "high",
+    "source_note_id": "análise-dos-resultados-da-pesquisa-com-foco-na-gestão"
+  }
+]

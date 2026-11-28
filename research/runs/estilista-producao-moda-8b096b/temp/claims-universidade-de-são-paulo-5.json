@@ -1,0 +1,52 @@
+[
+  {
+    "claim": "Em simulações comparativas no software CAD Audaces (versão 17) para o corte em enfesto de 50 folhas (100 calças em tecido de 1,50 m de largura), a modelagem convencional no sentido do fio consome 114,5 m de tecido com 17% de perda (equivalente a 38 cm por encaixe de duas peças), enquanto a modelagem zero waste com moldes espelhados no contrafio consome 90 m com perda zero, economizando 24,5 m de tecido por enfesto.",
+    "stance": "supports",
+    "stance_target": "O encaixe e a modelagem integrada ao corte reduzem significativamente o desperdício de matéria-prima (15% a 17%) na confecção industrial",
+    "evidence_type": "empirical",
+    "scope_conditions": "Experimento comparativo em CAD Audaces v.17 entre Calça Espiral zero waste e calça convencional equivalente em tecido plano de 1,50 m",
+    "quoted_support": "Ao se considerar um enfesto com, por exemplo, 50 folhas, que produziria 100 calças do mesmo tamanho, o uso e a perda de tecido seriam: alternativa 2.2: uso = 90 m de tecido (com 1,50 m de largura), perda = zero; alternativa 2.3: uso = 114,5 m de tecido (com 1,50 m de largura), perda = 17%, que equivale a uma faixa de 38 cm de tecido.",
+    "numbers": [
+      "50 folhas",
+      "100 calças",
+      "114,5 m",
+      "90 m",
+      "17%",
+      "24,5 m",
+      "1,50 m"
+    ],
+    "entities": [
+      "Lilian Sayuri Kauvauti",
+      "USP",
+      "Audaces",
+      "Holly McQuillan",
+      "Timo Rissanen"
+    ],
+    "time_period": "2021-2022",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo-5"
+  },
+  {
+    "claim": "A aplicação de modelagens com aproveitamento integral do tecido na produção em larga escala é dificultada pela separação tradicional entre os setores de criação (estilista), modelagem, encaixe/risco e corte, pela variação na largura dos tecidos planos brasileiros (1,30 m a 1,50 m), pela complexidade de graduação da grade de tamanhos, pelas restrições de direito/avesso e sentido de estampas e pelo aumento no tempo de criação exigido do designer.",
+    "stance": "supports",
+    "stance_target": "A fragmentação departamental entre criação, modelagem e corte e a pressão por prazos curtos inviabilizam inovações de aproveitamento têxtil em larga escala",
+    "evidence_type": "empirical",
+    "scope_conditions": "Indústria de confecção do vestuário em larga escala no Brasil",
+    "quoted_support": "Após o estudo sobre a modelagem zero waste e a prática, com as experimentações, percebeu-se a importância na formação do designer com conhecimentos que possibilitem integrar os vários setores da produção, como modelagem, risco, corte e montagem, não se restringindo apenas aos aspectos da criação. [...] Ao realizar estes experimentos, notou-se que o tempo dedicado ao processo de criação, se torna mais longo, impactando diretamente na cadeia produtiva da indústria da confecção, o que pode ser considerado uma limitação em um mercado que preza pela rapidez na entrega de produtos.",
+    "numbers": [
+      "1,30 m",
+      "1,40 m",
+      "1,50 m"
+    ],
+    "entities": [
+      "Lilian Sayuri Kauvauti",
+      "USP",
+      "Isabel Cristina Italiano"
+    ],
+    "time_period": "2021-2022",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo-5"
+  }
+]

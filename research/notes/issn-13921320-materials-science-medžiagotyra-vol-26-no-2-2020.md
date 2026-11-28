@@ -1,0 +1,1045 @@
+---
+title: ISSN 1392–1320  MATERIALS SCIENCE (MEDŽIAGOTYRA).  Vol. 26,  No. 2.  2020
+id: issn-13921320-materials-science-medžiagotyra-vol-26-no-2-2020
+tags:
+- modelista-producao-moda-dores-0698af
+- locus-prototipagem-virtual-3d-vs-peca-piloto-fisica
+created: '2026-11-27T03:53:02.268105Z'
+source: https://matsc.ktu.lt/index.php/MatSc/article/download/22162/12959
+source_domain: matsc.ktu.lt
+fetched_at: '2026-11-27T03:53:02.260854Z'
+fetch_provider: builtin
+status: draft
+type: note
+tier: institutional
+content_type: paper
+deprecated: false
+raw_file: raw/issn-13921320-materials-science-medžiagotyra-vol-26-no-2-2020.pdf
+---
+
+*Suggested by [[comparative-study-of-real-and-virtual-garments-appearance-and-distance-ease-mate]] — Full PDF of Materials Science (Medziagotyra) comparative study of real and virtual garments*
+
+233 
+ 
+ISSN 1392–1320  MATERIALS SCIENCE (MEDŽIAGOTYRA).  Vol. 26,  No. 2.  2020 
+ 
+Comparative Study of Real and Virtual Garments Appearance and Distance Ease  
+ 
+Agnė  LAGĖ 1 , Kristina  ANCUTIENĖ 1, Rūta  PUKIENĖ 1, Eva  LAPKOVSKA 2,  
+Inga  DĀBOLIŅA 2 
+ 
+1 Faculty of Mechanical Engineering and Design, Department of Production Engineering, Kaunas University of 
+Technology, Studentu st. 56, LT-51424 Kaunas, Lithuania  
+2 Faculty of Material Science and Applied Chemistry, Institute of Design Technologies, Riga Technical University, 
+Kipsalas st. 6, LV-1048 Riga, Latvia 
+  http://dx.doi.org/10.5755/j01.ms.26.2.22162 
+Received 28 November 2018; accepted 27 January 2019 
+Nowadays, virtual try-on is an irreplaceable technology in fashion industry, so it is very important to prove virtual try-on 
+matching with the real garments. Therefore, the aim of this research was to compare garment fit using virtual try-on and 
+scanning technologies. For this reason, garment visual appearance and distance ease between straight fit dress and 
+mannequin in respect to fabrics properties were investigated. Women mannequins in different sizes were scanned by 3D 
+scanner VITUS Smart XXL without and with the real straight fit dresses made from five different woven fabrics. Fabrics 
+mechanical properties were defined by KES-F. Scanned mannequins were covered with the same size and fabric virtual 
+dresses by Modaris 3D (CAD Lectra). Distance ease of virtual and scanned garments was compared in bust and waist 
+cross-sections. It was defined that distance ease values at bust girth of real and virtual dresses differed till 29.9 % 
+(1.16 cm), while at waist varied from 7.3 % (0.51 cm) to 47.3 % (4.30 cm) because of wrinkles in this area. Generally, 
+appearance of the virtual dresses was similar to real dresses with some differences in garment shape fluency, however by 
+increasing of the mannequin size, similarities decreased. It was assumed that very high shear rigidity G could not be very 
+well reflected in 3D CAD system, therefore differences between virtual and real dresses appearance occurred. The 
+general appearance and form of bust and waist cross-sections of virtual dresses with fabric 03 had less similarities 
+comparing with real dresses due to high G value. So, comparative study showed that the accuracy of virtual try-on was 
+quite useful comparing to real garments, if shear rigidity of fabrics was lower than 1.6 Nm-1/º and tensile strain in warp 
+direction was higher than 1.80 %.  
+Keywords: 3D body scanning, fabric simulation, garment appearance, virtual try-on, distance ease. 
+ 
+1. INTRODUCTION 
+Today's industry is experiencing the 4th industrial 
+revolution of textiles and clothing, in which particular 
+attention is paid to digitization and virtualization. This 
+process is implemented on the basis of the most important 
+research priorities – virtual modelling and design of fibres, 
+fabrics and garments. Therefore, in the past decade, 3D 
+body scanning systems and 3D CAD systems with virtual 
+try-on software gained considerable attention.  
+Virtual prototyping with virtual try-on software 
+provides significant benefits to the apparel manufacturers 
+[1]. It helps to minimize physical samples for each garment 
+before production, ensures accuracy, flexibility, time 
+saving and suggests well-fitted garment for individual 
+body type [2 – 5]. Virtual prototyping of 3D garments 
+represents not only fit to body, what is the main purpose, 
+but also garment pattern design, style, colours, virtual 
+human body and mechanical properties of fabrics [6 – 8]. 
+3D virtual prototyping process includes the following 
+steps: determination of fabric properties, preparation of 
+virtual mannequin and garment pattern for simulation, 
+virtual sewing, virtual garment try-on, evaluation of the 
+virtual garment fit and appearance on the virtual 
+mannequin [6].  
+                                                 
+ Corresponding author. Tel.: +370-37-300237; fax: +370-37-323461. 
+E-mail address: agne.lage@ktu.edu (A. Lage) 
+3D CAD systems are used for 2D apparel pattern 
+assembly and draping on 3D virtual mannequins for 
+prototyping of garments, virtual fitting sessions and fabric 
+behaviour imitation. Today the majority of apparel CAD 
+software provides 3D virtual try-on modules, such as Clo 
+3D by CLO, Modaris 3D Fit by Lectra, V-StitcherTM by 
+Browzwear, i-designer by Technoa, Tuka3DTM by 
+Tukatech, Haute Couture 3D by PAD system, Vidya by 
+AssystBullmer, Qualoth, Narcis by D&MFT and others 
+[2, 9, 10, 11]. 
+Virtual mannequin preparation is one of the most 
+important parts of garment virtual try-on process. In order 
+to get the best result of garment fit to the human body, 
+precise anthropometric data are necessary. The virtual 
+human body mannequin based on 3D anthropometry can 
+be created by two methods: 1) the manual avatar, using 
+body measurement; 2) the direct avatar, using 3D body 
+scan form [8]. 3D body scanning is a relatively new 
+method [12]. By the advanced 3D scanning techniques, the 
+individual human body can be easily captured [13].  
+Many 
+researchers 
+compared 
+the 
+real 
+garment 
+appearance on the human body with the 3D virtual garment 
+appearance on the virtual mannequin using 3D scanning 
+and 3D CAD systems and evaluated garment fit taking into 
+account the structural and mechanical parameters of the 
+fabrics [2, 7, 14, 15]. There are mainly two methods to 
+evaluate garment fit and comfortability through virtual try-
+on. First of them is visual assessment of 3D garment fit 
+
+
+---
+
+234 
+ 
+when pressure, stress and fit maps are generated by virtual 
+try-on software [8, 14]. Second method is to measure the 
+ease allowances in the selected girths or air layer thickness 
+between the garment and the human body [9]. J. Q. Yan et 
+al. [5] used virtual database for designing garments. It was 
+called “dress-body” system. In order to analyse garment 
+fit, some parameters (bottom height of dress, angle of front 
+center contours, air volume and its distribution between 
+dress and mannequin) were related with fabrics mechanical 
+properties and pattern block indexes, to improve 
+construction, fit and appearance. V. Kuzmicev and M. Guo 
+[16] improved ”body-dress” system using the 3D body 
+scanning. They divided torso of scanned dresses into 6 
+sections from bust to hip level, calculated the volumetric 
+air gaps between the body and dress and analysed 
+relationships between the body sizes, pattern block indexes 
+and fabric properties. They determined that bending 
+stiffness B was the contributing factor in the upper part and 
+bottom bearing surface part of dress, while tensile ability 
+became the causative factor for the part between upper and 
+bottom surfaces. J. Su et al. [17] showed a way to solve the 
+problem of garment ease distribution using 3D scanning 
+data of a clothed and unclothed body. The scanned 
+surfaces were divided in selected cross sections for pants 
+ease determination; the air gap between the cross-sections 
+at each section was measured. The results showed that 
+when the ease allowance is given, the distance ease can be 
+calculated by regression equations. B. Gu et al. [18] used 
+similar method for jacket ease determination. J. Xu et al. 
+[19] calculated the distance ease – the shortest distance 
+from the body curve to the garment curve in cross-sections 
+of scanned clothed and unclothed mannequin.  
+Researchers try to combine 3D scanning and virtual 
+try-on technology together in order to design the best fit of 
+garment. For effective practical use of virtual try-on, it 
+needs to be investigating how practically garment fit is 
+simulated by the particular technology and whether there is 
+a gap between the real and virtual garment [20]. However, 
+the most of the scientists focuses into comparing the 
+garment fit of real and virtual body model with parametric 
+mannequin using 3D CAD system. There is another 
+approach for evaluating garment fit to use the actual 
+scanned 3D body model [7]. 
+H. K. Song 
+and 
+S. P. Ashdown 
+[2] 
+investigated 
+whether 3D virtual try-on technology can effectively 
+visualize the fit and silhouette of pants. Results showed 
+that the accuracy of virtual try-on is quite useful, especially 
+for pants with good fit, but not to the extent that experts 
+could fully use it as a visual fit analysis tool. 
+E. Buyukaslan et al. [15] evaluated fit differences from 
+images of a skirt on a real body, scanned and parametric 
+body models. They concluded that the scanned and the 
+parametric model especially differs at waist and hips areas. 
+Due to undefined waist line in scanned model and fabric 
+mechanical properties, for visual difference might be that 
+the fabric softness is not very well reflected in computer 
+program. J. Lee and J. Lee [22] compared the pants fit for 
+obese women using 3D virtual and real garment. They 
+stated, that 3D virtual garment simulation was reliable, 
+because there was no significant difference in appearance 
+caused by materials between real and virtual garment. The 
+ease of virtual and real garment was similar. 
+Virtual try-on and 3D body scanning technologies are 
+efficient, convenience and valuable tools for visual fit 
+analysis [2, 5]. It is very important to prove virtual try-on 
+matching with the real garments therefore, the aim of this 
+research was to compare distance ease between mannequin 
+and the garment, also appearance of a real and virtual 
+garments, using virtual try-on and scanning technologies.   
+2. EXPERIMENTAL DETAILS 
+In this research, 2D patterns of the straight fit dress 
+(Fig. 1) were constructed for standard size (170-92-100) 
+with 5 cm ease allowance by Modaris (CAD Lectra) 
+software. The basic block patterns were created according 
+to M. Müller and Sohn patternmaking system [23] and 
+were modified after initial virtual try-on to take account of 
+defects caused [24]. The bust girth of the mannequin 
+passes through the highest points of the bust, while the 
+waist girth is at the narrowest part of the waist. Bust and 
+waist girths on the garment correspond bust and waist lines 
+in the 2D basic block pattern.  
+ 
+Fig. 1. 2D dress patterns and 3D dress with marked bust and 
+waist girths on garment (red color) and mannequin (blue 
+color), also mismatches between girths (green color) 
+The 
+garment 
+fitting 
+was 
+done 
+using 
+five 
+cotton/elastane 
+blended 
+woven 
+fabrics. 
+The 
+main 
+mechanical characteristics of fabrics in warp (wp) and weft 
+(wf) directions were defined by KES-F (Kawabata 
+Evaluation System for Fabrics) using standard conditions 
+(Table 1). 
+Scanning 
+process 
+started 
+with 
+the 
+mannequin 
+preparation: initial women mannequin was covered by 
+stretchy fabric to hide the regulators (Fig. 2 a and b). Size 
+of the mannequin was changed uniformly from 88 to 
+95 cm; step was 1 cm. At first mannequin was scanned by 
+3D 
+scanner 
+VITUS 
+Smart 
+XXL 
+without 
+dress  
+(Fig. 2 b and d). Later, the mannequin was scanned with 
+the real dresses made from five different woven fabrics 
+(Fig. 2 c and e). There were 48 scans performed in total. 
+The views of scanned unclothed and clothed mannequins 
+are presented in Anthroscan software (Fig. 2 d and e). 
+Scanned unclothed mannequins were imported into 
+Modaris 3D software (CAD Lectra) to make virtual try-on 
+(Fig. 2 f) and to compare with the scanned ones. Each real 
+and virtual dress was tested at bust and waist cross-sections 
+(Fig. 3). 
+
+
+---
+
+235 
+ 
+Table 1. Structural and mechanical characteristics of tested fabrics 
+Code 
+Composition 
+Thickness, 
+mm 
+Mass per 
+unit area, 
+g/m2 
+Tensile strain 
+Bending rigidity 
+Shear rigidity 
+EMT, % 
+B, 10-6 Nm 
+G, Nm-1/º 
+wp 
+wf 
+wp 
+wf 
+wp 
+wf 
+02 
+98 % cotton, 2 % elastane 
+0.567 
+205 
+11.77 
+19.70 
+5.26 
+2.93 
+0.87 
+0.64 
+03 
+97 % cotton, 3 % elastane 
+0.423 
+130 
+4.28 
+27.90 
+8.99 
+3.09 
+1.69 
+1.66 
+04 
+96 % cotton, 4 % elastane 
+0.397 
+110 
+1.78 
+29.03 
+11.08 
+2.29 
+1.24 
+0.89 
+05 
+95 % cotton, 5 % elastane 
+0.270 
+90 
+6.37 
+31.63 
+4.82 
+1.47 
+1.11 
+0.96 
+06 
+93 % cotton, 7 % elastane 
+0.577 
+215 
+3.53 
+33.30 
+15.14 
+7.19 
+1.33 
+0.98 
+ 
+  
+  
+ 
+ 
+ 
+a 
+b 
+c 
+d 
+e 
+f  
+Fig. 2. Methodology sequence: a – initial mannequin; b – mannequin with cover; c – mannequin with the real dress; d – scanned 
+unclothed mannequin; e – scanned mannequin with real dress; f – scanned mannequin with virtual dress  
+ 
+ 
+ 
+a 
+b 
+c 
+ 
+Fig. 3. Preparation of cross-sections: a – planes of cross-sections in real scanned dress (3D Max); b – planes of cross-sections in virtual 
+dress (Modaris); c – view of bust and waist cross-sections 
+ 
+3D distance ease (ES3D_bust,waist, cm) between body and 
+a garment at bust and waist cross-sections of real and 
+virtual dresses were investigated by 3Ds Max and 
+AutoCAD software packages. Scanned unclothed and 
+clothed mannequins in appropriate size were imported into 
+3Ds Max software; the subjects were matched with each 
+other and then sliced by planes at bust and waist girths. 
+Distance ease of virtual garment was estimated in Modaris 
+3D software using measuring tool. 3D distance ease was 
+calculated according to Eq. 1 [24].  
+waist
+bust
+waist
+bust
+D
+waist
+bust
+D
+L
+L
+ES
+,
+,
+_
+3
+,
+_
+3
+
+
+; 
+(1) 
+where L3D_bust,waist, cm (Fig. 3 c) is the perimeter of 3D 
+garment at correspondent cross-section, it was measured 
+by AutoCAD for real dress (L3DR_bust,waist) and by Modaris 
+3D for virtual dress (L3DV_bust,waist); Lbust,waist, cm is the length 
+of perimeter of mannequin at correspond cross-section.  
+Mismatch h (Fig. 1) between Lbust,waist and L3D_bust,waist 
+measure lines were evaluated of real and virtual dresses. 
+Virtual try-on of each virtual dress was done three 
+times and then measurement of 3D distance ease values at 
+bust and waist girths was taken and quotient of variation v 
+was calculated. The quotient of variation did not exceed  
+10 %.  
+Real dresses were scanned once using scanning 
+equipment which is compatible with ISO 20685 (3-D 
+scanning methodologies for internationally compatible 
+anthropometric databases – Part 1: Evaluation protocol for 
+body dimensions extracted from 3-D body scans). There 
+are stated maximum error between extracted value and 
+traditionally measured value, which is 9 mm for large 
+circumferences (e.g. bust circumference) and 4 mm for 
+small circumferences (e.g. neck circumference). This is 
+called as the systematic measurement error which will be 
+the same for all scans in the same equipment therefore can 
+be declared as statistically indifferent. Theoretically 
+calculated quotient of variation of scanned objects did not 
+exceed 0.7 %. 
+
+
+---
+
+236 
+ 
+3. RESULTS AND DISCUSION 
+It was defined that differences between the length of 
+real and virtual dresses perimeter lines at bust girth L3D_bust 
+varied from 0.1 % to 3.4 % and from 0.1 % to 4.9 % at 
+waist girth L3D_waist. However, 3D distance ease values had 
+higher differences comparing virtual and real garments.  
+Distance ease values at bust girth of real and virtual 
+dresses differed up to 29.9 % (1.16 cm), except fabric 03 in 
+all sizes (Table 2). The difference of ES3D_bust using fabric 
+03 varied from 12.3 % (1.04 cm) to 48.3 % (1.46 cm).  
+Virtual dresses had higher distance ease values than 
+real dresses with all tested fabrics (except fabric 03) in 
+almost all sizes (Table 2). Virtual dresses with fabric 03 
+showed the biggest differences; it had ES3D_bust values from 
+12.3 % to 48.3 % lower than real dresses for all mannequin 
+sizes. These dresses occurred with wrinkles in bust area 
+because of the highest shear rigidity G (Table 1) what 
+might be not simulated precisely and caused differences 
+comparing with other fabrics. The lowest differences of 
+distance ease in all sizes showed fabric 05 (Table 2).  
+Linear relations of real (Fig. 4) and virtual (Fig. 5) 
+dresses between mannequin size and 3D distance ease 
+values at bust girth showed, that the highest distance ease 
+of real dresses was formed with fabric 03 and 06, and the 
+lowest with fabrics 02 and 04. While the highest distance 
+ease of virtual dresses was formed with fabric 06. However 
+virtual dresses in different sizes with different fabrics did 
+not have a clear tendency that could be seen in the real 
+dresses. 
+The difference of distance ease between real and 
+virtual dresses at waist girth ES3D_waist varied from 7.3 % 
+(0.51 cm) to 43.3 % (3.21 cm), except fabric 03 in all sizes 
+(Table 3). The difference ES3D_waist of fabric 03 varied from 
+31.2 % (4.08 cm) to 47.3 % (4.30 cm). This could be 
+explained due to the wrinkles occurred at waist area, 
+because garment had not enough distance ease at hip, 
+therefore it stacked and wrinkles at waist originated [24]. 
+Real dresses had higher ES3D_waist values than virtual 
+dresses in all cases. The highest difference between real 
+and 
+virtual 
+dresses 
+ES3D_waist 
+was 
+observed 
+with  
+fabric 03 – from 31.2 % to 47.3 %, while fabric 04 had the 
+best match (Table 3). 
+ 
+Fig. 4. Linear relations between mannequin size and 3D distance 
+ease of real dress at bust girth 
+ 
+Fig. 5. Linear relations between mannequin size and 3D distance 
+ease of virtual dress at bust girth 
+Table 2. 3D distance ease ES3D_bust values at bust girth: R – real dress, V – virtual dress (the best coincidence in each size are marked in 
+bold, while the biggest differences – in Italic) 
+Size/Fabric 
+02  
+03 
+04 
+05 
+06 
+R 
+V 
+R 
+V 
+R 
+V 
+R 
+V 
+R 
+V 
+88 
+6.19 
+8.16 
+8.46 
+7.42 
+7.15 
+7.23 
+7.16 
+7.16 
+7.67 
+7.88 
+89 
+5.80 
+7.30 
+7.67 
+5.63 
+5.65 
+6.08 
+6.32 
+6.31 
+6.91 
+7.31 
+90 
+4.18 
+5.45 
+6.32 
+4.65 
+4.52 
+5.55 
+5.03 
+4.78 
+5.85 
+6.13 
+91 
+3.43 
+3.68 
+5.34 
+4.08 
+3.26 
+3.59 
+3.72 
+3.75 
+4.68 
+4.41 
+92 
+3.77 
+2.92 
+5.74 
+3.63 
+4.83 
+3.94 
+4.29 
+3.84 
+5.24 
+3.9 
+93 
+1.96 
+2.25 
+3.84 
+2.00 
+1.87 
+2.16 
+2.58 
+1.90 
+3.88 
+2.72 
+94 
+1.27 
+1.38 
+3.02 
+1.56 
+1.23 
+1.61 
+1.58 
+1.29 
+2.15 
+1.82 
+95 
+1.49 
+1.31 
+2.60 
+1.59 
+1.86 
+1.87 
+2.02 
+1.45 
+2.32 
+2.22 
+Table 3. 3D distance ease ES3D_waist values at waist girth: R – real dress, V – virtual dress (the best coincidence in each size are marked 
+in bold, while the biggest differences – in Italic) 
+Size/Fabric 
+02  
+03 
+04 
+05 
+06 
+R 
+V 
+R 
+V 
+R 
+V 
+R 
+V 
+R 
+V 
+88 
+12.01 
+10.72 
+13.09 
+9.01 
+11.47 
+9.18 
+11.89 
+9.18 
+11.92 
+9.41 
+89 
+11.97 
+10.05 
+12.29 
+8.44 
+11.37 
+8.24 
+11.32 
+8.19 
+11.81 
+9.82 
+90 
+9.80 
+8.98 
+11.61 
+7.54 
+10.08 
+9.27 
+10.63 
+8.28 
+11.08 
+9.18 
+91 
+8.67 
+7.69 
+9.40 
+5.58 
+8.01 
+6.09 
+7.49 
+6.80 
+8.21 
+7.17 
+92 
+8.43 
+6.74 
+10.56 
+5.87 
+8.00 
+7.36 
+7.90 
+7.01 
+10.02 
+7.22 
+93 
+8.41 
+6.64 
+9.10 
+4.80 
+6.96 
+6.45 
+8.57 
+6.84 
+8.77 
+6.12 
+94 
+5.86 
+4.16 
+7.68 
+4.93 
+6.46 
+5.77 
+6.05 
+4.35 
+7.82 
+4.89 
+95 
+6.47 
+4.19 
+6.56 
+3.95 
+6.06 
+4.24 
+7.41 
+4.20 
+7.09 
+4.45 
+
+
+---
+
+237 
+ 
+Virtual dress with fabric 03 wrinkled in the waist area, 
+while real dress fitted to the body good and no wrinkles 
+were formed. Wrinkles in virtual dress occurred due to the 
+highest shear rigidity G what might not be simulated 
+precisely. There was tendency observed, that by increasing 
+of the mannequin size, the differences between real and 
+virtual dresses at waist girth increased. 
+Analysing linear relation between mannequin size and 
+3D distance ease at waist girth of real (Fig. 6) and virtual 
+(Fig. 7) dresses, it was seen that the highest distance ease 
+of real dresses was formed with fabric 03 and 06, while the 
+highest distance ease of virtual dresses was formed with 
+fabric 02 and 06. 
+ 
+Fig. 6. Linear relations between mannequin size and 3D distance 
+ease of real dress at waist girth 
+ 
+Fig. 7. Linear relations between mannequin size and 3D distance 
+ease of virtual dress at waist girth 
+It was defined that the position of 3D measure lines at 
+bust and waist girths L3D_bust,waist  do not match the position 
+of corresponding girths Lbust,waist of mannequin (Fig. 1). 
+This mismatch h was caused by two reasons: fabric 
+deformation which is related to mechanical properties and 
+construction of the garment. Distance ease values strongly 
+depend on the position of L3D_bust,waist measure line which 
+can be higher or lower than the girth line Lbust.waist on the 
+mannequin. Due to the undefined bust and waist lines in 
+scanned dress, the position of these lines in real and virtual 
+garments cannot be evaluated, so mismatches h cannot be 
+compared. 
+Analysing cross-sections of real (Fig. 8 a, Fig. 8 c) and 
+virtual (Fig. 8 b, Fig. 8 d) dresses with different fabrics and 
+88 size mannequin, it was seen that good fit with the body 
+was obtained in the front side with all fabrics at bust girth, 
+however uneven extra looseness at garment back side was 
+formed. Also wrinkles were formed at left and right sides 
+also back side at waist girth. Size 88 was chosen for the 
+comparison because of the highest values of distance ease. 
+Differences of cross-section forms of real and virtual 
+dresses at bust and waist girths (Fig. 8) were noted. Cross-
+sections of real and virtual dresses had similar form with 
+all fabrics, especially with 02, 05 and 06 at bust and with 
+04, 05 and 06 at waist girth. High tensile strain EMT 
+values, the lowest bending rigidity B, mass per unit area 
+and thickness values of fabric 05 ensured the greatest 
+similarity of cross-section forms. The form of bust and 
+waist cross-sections with fabric 03 had less similarity. The 
+most similar forms were observed at bust in front side and 
+at waist in front left and right sides. Virtual dresses at bust 
+girth had deeper wrinkles in back side and less but deeper 
+wrinkles in both sides. Real dresses at waist girth were 
+tighter in back side than the virtual ones.  
+It was defined, that by increasing of mannequin size, 
+similarities between real and virtual dresses appearance 
+decreased (Fig. 9). Visual appearance and shape of real and 
+virtual dresses was similar from 88 to 92 mannequin size; 
+wrinkles had similar positions, though directions and forms 
+of them were not identical.  
+Dresses on 92 size mannequin had the most similar 
+form and position of wrinkles (Fig. 9), while on larger 
+sizes similarities decreased; from 94 size form and position 
+of wrinkles differed more, especially at waist area back 
+side.  
+Comparing visual appearance of real and virtual 
+dresses with all tested fabrics (Fig. 10), it was seen that 
+fabric 03 had the worst fit because the most wrinkles 
+appeared in the garment due to the highest shear rigidity G. 
+Fabric 02 had the best fit to the body (smooth garment 
+shape, few wrinkles) because of the lowest shear rigidity 
+G. Virtual dress made of fabric 02 had similar appearance 
+in comparison to corresponding real dress. When shear 
+rigidity had very high value G > 1.60 (Nm-1/º) in weft 
+direction, virtual dress appearance differed from the real 
+one. So, 3D CAD system could not simulate high Gwf 
+value precisely what could cause less realistic simulation 
+effect.  
+ 
+ 
+ 
+ 
+a 
+b 
+c 
+d 
+Fig. 8. Cross-sections of bust (a, b) and waist (c, d) girths using different fabrics and 88 size mannequin: a/c – real dresses, b/d – virtual 
+dresses 
+
+
+---
+
+238 
+ 
+Size 88 
+Size 92 
+Size 95 
+Real dress 
+Virtual dress 
+Real dress 
+Virtual dress 
+Real dress 
+Virtual dress 
+Fig. 9. Scanned mannequin with real and virtual dresses (fabric 02) 
+ 
+Fabric 02 
+Fabric 03 
+Fabric 04 
+Fabric 05 
+Fabric 06 
+Real dress 
+ 
+ 
+ 
+ 
+Virtual dress 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Fig. 10. Scanned mannequin (size 92) with real and virtual dresses using different fabrics 
+ 
+4. CONCLUSIONS  
+The paper concluded that, generally, appearance of the 
+two main cross-sections of the simulated dresses was 
+satisfactory in terms of the real scanned images, but there 
+were some differences in garment shape fluency also in 
+distance ease values between body and garment.  
+1. The difference of distance ease values between real 
+and virtual dress at bust girth varied up to 29.9 % 
+(1.16 cm) while analysing without fabric 03 and up to 
+48.3 % (1.46 cm) with fabric 03;  
+2. Distance ease values of real and virtual dress at waist 
+girth differed from 7.3 % (0.51 cm) to 47.3 % 
+(4.30 cm); 
+3. Linear relations of real dresses between mannequin 
+size and 3D distance ease values at bust and waist 
+girths showed more clear tendency than of virtual 
+dresses. It was found that the highest distance ease of 
+real dresses at bust and waist girths was formed with 
+fabrics 03 and 06, while of virtual dresses with fabric 
+06 at bust and with fabric 02 also 06 at waist girths; 
+4. The most similar appearance, shape also position and 
+form of wrinkles had virtual and scanned dresses on 
+the basic mannequin size of 92; 
+5. Cross-sections of real and virtual dresses had the most 
+similar form with fabric 05 at bust and waist girths due 
+to quite high tensile strain EMT values and the lowest 
+bending rigidity B, mass per unit area and thickness 
+values; 
+6. Fabric 03 had the worst fit, wrinkles occurred due to 
+the highest shear rigidity. It has been assumed that 3D 
+CAD systems could not reflected very high shear 
+rigidity Gwf > 1.60 Nm-1/º value precisely and it could 
+cause less realistic simulation effect, so higher 
+differences between virtual and real dress view; 
+7. Results showed that the accuracy of virtual try-on was 
+quite useful comparing to real garments especially for 
+distance ease evaluation at tight-fitting area, but not to 
+the extent that experts could fully use it as a visual fit 
+analysis tool. It is recommended to use for the 
+simulation fabrics with the shear rigidity lower than 
+1.6 Nm-1/º, tensile strain in warp direction higher than 
+1.80 % and bending rigidity lower than 5.3 Nm. 
+Values of 3D dress perimeter and distance ease at bust 
+and waist girths depend on the L3D_bust,waist measure line 
+position which could be higher or lower than the girth line 
+Lbust,waist on mannequin. It is very complicated task to 
+ensure the same place of girth in the real and virtual dress. 
+So in our future research, we are going to measure the 
+volumetric air gap at the bust and waist girths. This should 
+reduce the mismatch between real and virtual garment 
+distance ease caused by the location of the measuring line. 
+
+
+---
+
+239 
+ 
+REFERENCES  
+1. 
+Sayem, A.S.M. 
+Advances 
+in 
+Virtual 
+Prototyping: 
+Opportunities for Clothing Manufacturers Textile Research 
+Conference, 26 December 2015, Dhaka, Bangladesh, TRC 
+Book of Papers   2015: pp. 15 – 18.  
+2. 
+Song, H.K., Ashdown, S.P. Investigation of the Validity of 
+3-D Virtual Fitting for Pants   Clothing and Textiles 
+Research Journal   33 (4)   2015: pp. 314 – 330. 
+https://doi.org/10.1177/0887302X15592472 
+3. 
+Apeagyei, P.R., Otieno, R. Usability of Pattern Customising 
+Technology in the Achievement and Testing of Fit  
+for Mass Customisation   Journal of Fashion Marketing  
+and Management: An International Journal   11 (3)    
+2007: pp. 349 – 365. 
+https://doi.org/10.1108/13612020710763100 
+4. 
+Al-Ahmari, A.M., Abidi, M.H., Ahmad, A., Darmoul, S. 
+Development of a Virtual Manufacturing Assembly 
+Simulation System   Advances in Mechanical Engineering   
+8 (3)   2016: pp. 1 – 13.  
+https://doi.org/10.1177/1687814016639824  
+5. 
+Yan, J.Q., Zhang, S.C., Kuzmichev, V.E., Adolphe, D.C. 
+New Database for Improving Virtual System “Body-Dress”   
+IOP Conference Series: Materials Science and Engineering   
+254 (17)   2017: pp. 1 – 6.  
+https://doi.org/10.1088/1757-899X/254/17/172029 
+6. 
+Jevšnik, S., 
+Stjepanovič, Z., 
+Rudolf, A. 
+3D 
+Virtual 
+Prototyping of Garments: Approaches, Developments and 
+Challenges   Journal of Fiber Bioengineering and 
+Informatics   10 (1)   2017: pp. 51 – 63.  
+https://doi.org/10.3993/jfbim00253 
+7. 
+Jevšnik, S., Pilar, T., Stjepanovic, Z., Rudolf, A. Virtual 
+Prototyping of Garments and Their Fit to the Body   DAAAM 
+International   2012: pp. 601 – 618. 
+8. 
+Jevšnik, S., Kalaoğlu, F., Terliksiz, S., Purgaj, J. Review 
+of Computer Models for Fabric Simulation   Tekstilec   
+57 (4)   2014: pp. 300 – 314.  
+https://doi.org/ 10.14502/Tekstilec2014.57.300–314 
+9. 
+Liu, K., Zeng, X., Bruniaux, P., Wang, J., Kamalha, E., 
+Tao, X. Fit Evaluation of Virtual Garment Try-on by 
+Learning from Digital Pressure Data   Knowledge-Based 
+Systems   133   2017: pp. 174 – 182. 
+https://doi.org/10.1016/j.knosys.2017.07.007 0950 7051 
+10. Baytar, F., 
+Ashdown, S. 
+An 
+Exploratory 
+Study 
+of 
+Interaction Patterns Around the Use of Virtual Apparel 
+Design and Try-on Technology, Fashion Practice   The 
+Journal of Design, Creative Process & the Fashion Industry   
+7 (1)   2015: pp. 31 – 52.  
+https://doi.org /10.2752/175693815X14182200335655 
+11. Ji, F., 
+Li, R., 
+Qiu, Y. 
+Three-dimensional 
+Garment 
+Simulation Based on a Mass-Spring System   Textile 
+Research Journal   76 (1)   2006: pp. 12 – 17.  
+https://doi.org /10.1177/0040517506057169 
+12. Dāboliņa, I., Viļumsone, A., Dāboliņš, J., Strazdiene, E., 
+Lapkovska, E. Usability of 3D Anthropometrical Data in 
+CAD/CAM 
+Patterns 
+ 
+ 
+International 
+Journal 
+of  
+Fashion Design, Technology and Education   10 (1)    
+2017: pp. 41 – 52. 
+https://doi.org /10.1080/17543266.2017.1298848 
+13. Liu, Y.J, Zhang, D.L., Yuen, M.M.F. A Survey on CAD 
+Methods in 3D Garment Design   Computers in Industry   61   
+2010: pp. 576 – 593. 
+https://doi.org/10.1016/j.compind.2010.03.007 
+14. Jevšnik, S., Kalaoğlu, F., Hanife Eryuruk, S., Bizjak, M., 
+Stjepanovič, Z. Evaluation of a Garment Fit Model Using 
+AHP   Fibres & Textiles in Eastern Europe   23 2 (110)   
+2015: pp. 116 – 122.  
+15. Buyukaslan, E., Jevšnik, S., Kalaoglu, F. Virtual Fitting of 
+a Skirt on a Parametric and a Scanned Body Model   
+Marmara Journal of Pure and Applied Sciences Special 
+Issue1   2015: pp. 23 – 26.  
+https://doi.org /10.7240/mufbed.52347 
+16. Kuzmichev, V.E., 
+Guo, M. 
+Realistic 
+Virtual 
+System 
+“Female Body – Dress” Based on Scanning Technologies 
+Proceedings 5th International Conference on 3D Body 
+Scanning Technologies (Lugano: Hometrica Consulting)   
+2014: pp. 196 – 204. 
+https://doi.org /10.15221/14.196 
+17. Su, J., Gu, B., Liu, G., Xu, B. Determination of Distance 
+Ease of Pants Using 3D Scanning Data   International 
+Journal of Clothing Science and Technology   27 (1)    
+2015: pp. 47 – 59.  
+https://doi.org/10.1108/IJCST-08-2013-0096 
+18. Gu, B., Su, J., Liu, G., Xu, B. Pattern Alteration of 
+Women’s Suits Based on Ease Distribution   International 
+Journal of Clothing Science and Technology   28 (2)    
+2016: pp. 201 – 215.  
+https://doi.org/10.1108/IJCST-07-2015-0083 
+19. Xu, J., Zhang, W., Xiao, P. A Study on Impact Factors of 
+the 
+Distance 
+Eases 
+between 
+Body 
+and 
+Garment   
+Proceedings of Information Conference on Computer-Aided 
+Industrial 
+Design 
+and 
+Conceptual 
+Design 
+ 
+ 
+1    
+2008: pp. 201 – 205. 
+20. Lee, E., Park, H. 3D Virtual Fit Simulation Technology: 
+Strengths and Areas of Improvement for Increased Industry 
+Adoption   International Journal of Fashion Design, 
+Technology and Education   10 (1)   2017: pp. 59 – 70. 
+https://doi.org /10.1080/17543266.2016.1194483 
+21. Lee, J., 
+Nam, Y., 
+Cui, M., 
+Choi, K., 
+Choi, Y. 
+Fit 
+Evaluation of 3D Virtual Garment; in Usability and 
+Internationalization HCI and Culture Lecture Notes in 
+Computer Science   4559   2007: pp. 550 – 558. 
+22. Lee, J., Lee, J. Comparison on the Pants Fitting for Obese 
+Women between 3D Virtual Garment and Real Garment 
+Journal of Fashion Business   17 (2)   2013: pp. 33 – 45. 
+http://dx.doi.org/10.12940/jfb.2013.17.2.33 
+23. Metric 
+Patternmaking 
+for 
+Dresses 
+and 
+Blouses. 
+Patternmaking system M. Müller & Sohn. Rundschau 
+Publishing, Germany, 2016.  
+24. Lage, A., Ancutiene, K. Virtual Try-On Technologies in the 
+Clothing Industry. Part 1: Investigation of Distance Ease 
+Between Body and Garment   The Journal of the Textile 
+Institute   108 (10)   2017: pp. 1787 – 1793.  
+https://doi.org / 10.1080/00405000.2017.1286701
+ 
+ 
+ 

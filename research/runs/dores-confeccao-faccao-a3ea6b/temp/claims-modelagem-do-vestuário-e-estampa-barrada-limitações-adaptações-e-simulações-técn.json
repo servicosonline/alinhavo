@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "O uso de tecidos com estampas barradas em confecções do vestuário restringe o posicionamento dos moldes no encaixe, reduzindo o aproveitamento do tecido e dificultando a gradação de tamanhos.",
+    "stance": "supports",
+    "stance_target": "Gargalos técnicos de modelagem, encaixe e desperdício de matéria-prima na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Confecção do vestuário no Brasil, especialmente peças longas com estampa localizada/barrada (2025-2026)",
+    "quoted_support": "Este artigo investigou as dificuldades no encaixe da modelagem em tecidos com estampas barradas, especialmente em peças longas, cujo posicionamento restrito da estampa limita o aproveitamento do tecido e pode comprometer a estética e a funcionalidade do produto final. Os resultados evidenciaram que a estampa barrada impõe desafios ao aproveitamento do tecido, à gradação de tamanhos e à manutenção da estética, demandando ajustes na modelagem e posicionamento do molde sobre o tecido.",
+    "numbers": [],
+    "entities": ["IFSULDEMINAS", "CLO3D"],
+    "time_period": "2025-2026",
+    "region": "Brasil (Minas Gerais)",
+    "confidence": "high",
+    "source_note_id": "modelagem-do-vestuário-e-estampa-barrada-limitações-adaptações-e-simulações-técn"
+  },
+  {
+    "claim": "A integração entre os setores de criação e modelagem, associada à simulação virtual 3D com softwares como o CLO3D, reduz o desperdício de tecido e melhora a qualidade visual das peças confeccionadas.",
+    "stance": "supports",
+    "stance_target": "Soluções digitais e organizacionais para redução de desperdício na modelagem e corte",
+    "evidence_type": "empirical",
+    "scope_conditions": "Setor de desenvolvimento e modelagem em confecções de vestuário",
+    "quoted_support": "A pesquisa utilizou revisão bibliográfica, observação direta no ambiente produtivo e simulações digitais com o software CLO3D para avaliar o posicionamento e o resultado da modelagem em relação à estampa. Conclui-se que a colaboração entre os setores de criação e modelagem, aliada ao uso de ferramentas digitais, contribui para a redução de desperdícios e a melhoria da qualidade visual das peças desenvolvidas em tecidos com estampas barradas.",
+    "numbers": [],
+    "entities": ["CLO3D", "IFSULDEMINAS"],
+    "time_period": "2025-2026",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "modelagem-do-vestuário-e-estampa-barrada-limitações-adaptações-e-simulações-técn"
+  }
+]

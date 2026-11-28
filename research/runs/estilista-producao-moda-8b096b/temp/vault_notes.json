@@ -1,0 +1,1556 @@
+{
+  "ok": true,
+  "data": [
+    {
+      "id": "produto-produção-vol-13-n-3-p-37-48-out-2012",
+      "title": "Produto & Produção, vol. 13, n. 3, p. 37-48, out. 2012",
+      "path": "research/notes/produto-produção-vol-13-n-3-p-37-48-out-2012.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b",
+        "locus-comunicacao-criacao-modelagem-desenho-e-ficha-tecnica",
+        "modelista-producao-moda-dores-0698af"
+      ],
+      "word_count": 7425,
+      "summary": null,
+      "created": "2026-11-27T03:54:39.246511+00:00",
+      "updated": "2026-11-27T04:55:49.723240+00:00"
+    },
+    {
+      "id": "interim-locus-5-insustentabilidade-criativa-pressao-comercial-e-bloqueio-sustent",
+      "title": "Interim Locus 5 - Insustentabilidade Criativa Pressao Comercial e Bloqueio Sustentavel",
+      "path": "research/notes/interim-locus-5-insustentabilidade-criativa-pressao-comercial-e-bloqueio-sustent.md",
+      "status": "draft",
+      "type": "interim",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "estilista-producao-moda-8b096b",
+        "locus-insustentabilidade-criativa-pressao-comercial-e-bloqueio-sustentavel"
+      ],
+      "word_count": 870,
+      "summary": null,
+      "created": "2026-11-27T04:47:38.129220+00:00",
+      "updated": null
+    },
+    {
+      "id": "interim-locus-4-prototipagem-3d-e-ia-generativa-no-fluxo-da-estilista",
+      "title": "Interim Locus 4 - Prototipagem 3D e IA Generativa no Fluxo da Estilista",
+      "path": "research/notes/interim-locus-4-prototipagem-3d-e-ia-generativa-no-fluxo-da-estilista.md",
+      "status": "draft",
+      "type": "interim",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "estilista-producao-moda-8b096b",
+        "locus-prototipagem-3d-e-ia-generativa-no-fluxo-da-estilista"
+      ],
+      "word_count": 1063,
+      "summary": null,
+      "created": "2026-11-27T04:47:37.352023+00:00",
+      "updated": null
+    },
+    {
+      "id": "interim-locus-3-ficha-tecnica-pdm-plm-vs-informalidade-operacional",
+      "title": "Interim Locus 3 - Ficha Tecnica PDM PLM vs Informalidade Operacional",
+      "path": "research/notes/interim-locus-3-ficha-tecnica-pdm-plm-vs-informalidade-operacional.md",
+      "status": "draft",
+      "type": "interim",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "estilista-producao-moda-8b096b",
+        "locus-ficha-tecnica-pdm-plm-vs-informalidade-operacional"
+      ],
+      "word_count": 1132,
+      "summary": null,
+      "created": "2026-11-27T04:47:36.444895+00:00",
+      "updated": null
+    },
+    {
+      "id": "interim-locus-2-interfaces-tecnicas-com-modelagem-pilotagem-encaixe-e-faccoes",
+      "title": "Interim Locus 2 - Interfaces Tecnicas com Modelagem Pilotagem Encaixe e Faccoes",
+      "path": "research/notes/interim-locus-2-interfaces-tecnicas-com-modelagem-pilotagem-encaixe-e-faccoes.md",
+      "status": "draft",
+      "type": "interim",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "estilista-producao-moda-8b096b",
+        "locus-interfaces-tecnicas-modelagem-pilotagem-encaixe-faccoes"
+      ],
+      "word_count": 1427,
+      "summary": null,
+      "created": "2026-11-27T04:47:35.715956+00:00",
+      "updated": null
+    },
+    {
+      "id": "interim-locus-1-arquitetura-de-responsabilidades-e-tarefas-da-estilista-no-pdp",
+      "title": "Interim Locus 1 - Arquitetura de Responsabilidades e Tarefas da Estilista no PDP",
+      "path": "research/notes/interim-locus-1-arquitetura-de-responsabilidades-e-tarefas-da-estilista-no-pdp.md",
+      "status": "draft",
+      "type": "interim",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "estilista-producao-moda-8b096b",
+        "locus-arquitetura-responsabilidades-tarefas-estilista-pdp-porte-empresarial"
+      ],
+      "word_count": 1587,
+      "summary": null,
+      "created": "2026-11-27T04:47:34.846330+00:00",
+      "updated": null
+    },
+    {
+      "id": "prototipagem-virtual-softwares-3d-para-modelagem-de-vestuário-projetica-2",
+      "title": "Prototipagem Virtual: Softwares 3D para Modelagem de Vestuário\n\t\t\t\t\t\t\t| Projetica",
+      "path": "research/notes/prototipagem-virtual-softwares-3d-para-modelagem-de-vestuário-projetica-2.md",
+      "status": "deprecated",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 1877,
+      "summary": null,
+      "created": "2026-11-27T02:40:58.240441+00:00",
+      "updated": "2026-11-27T04:42:29.125486+00:00"
+    },
+    {
+      "id": "source-analysis-design-colaborativo-e-implantação-de-plm-na-moda-no-brasil-araúj",
+      "title": "Source Analysis — Design Colaborativo e Implantação de PLM na Moda no Brasil (Araújo, 2017 USP)",
+      "path": "research/notes/source-analysis-design-colaborativo-e-implantação-de-plm-na-moda-no-brasil-araúj.md",
+      "status": "draft",
+      "type": "source-analysis",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "estilista-producao-moda-8b096b",
+        "source-analysis"
+      ],
+      "word_count": 1515,
+      "summary": "Pesquisa-ação (EACH-USP, 2017) com mapeamento SIPOC de pré-desenvolvimento, desenvolvimento interno, outsourcing e ficha técnica/PDM em grande indústria brasileira de vestuário, diagnosticando gargalos de pré-custo, aviamentos paralelos à piloto e o fracasso de implantação de PLM por falta de gestão de mudança e excesso de input manual.",
+      "created": "2026-11-27T03:45:12.635301+00:00",
+      "updated": null
+    },
+    {
+      "id": "source-analysis-vestuário-de-moda-luxo-no-brasil-qualidade-e-terceirização-marce",
+      "title": "Source Analysis — Vestuário de Moda Luxo no Brasil: Qualidade e Terceirização (Marcelo, 2016 USP)",
+      "path": "research/notes/source-analysis-vestuário-de-moda-luxo-no-brasil-qualidade-e-terceirização-marce.md",
+      "status": "draft",
+      "type": "source-analysis",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "estilista-producao-moda-8b096b",
+        "source-analysis"
+      ],
+      "word_count": 1516,
+      "summary": "Estudo de caso em marca brasileira de moda luxo do SPFW (EACH-USP, 2016) detalhando os papéis do setor de Estilo (estilista, gerente e assistentes), modelagem, pilotagem (limite de 3 provas e temporização pela chefe de costura), lacre, fichas técnicas e problemas com facções terceirizadas (erros de variantes na Ordem de Corte, atrasos e proibição de passadoria externa).",
+      "created": "2026-11-27T03:45:11.704050+00:00",
+      "updated": null
+    },
+    {
+      "id": "source-analysis-modelagem-zero-waste-na-indústria-do-vestuário-kauvauti-2022-usp",
+      "title": "Source Analysis — Modelagem Zero Waste na Indústria do Vestuário (Kauvauti, 2022 USP)",
+      "path": "research/notes/source-analysis-modelagem-zero-waste-na-indústria-do-vestuário-kauvauti-2022-usp.md",
+      "status": "draft",
+      "type": "source-analysis",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "estilista-producao-moda-8b096b",
+        "source-analysis"
+      ],
+      "word_count": 1193,
+      "summary": "Dissertação experimental (EACH-USP, 2022) comparando modelagem convencional e zero waste no CAD Audaces v.17 (enfesto de 50 folhas / 100 calças: 114,5 m com 17% de perda vs. 90 m com perda zero) e mapeando as barreiras entre criação, modelagem, graduação de grade, largura de rolo e corte.",
+      "created": "2026-11-27T03:45:10.756021+00:00",
+      "updated": null
+    },
+    {
+      "id": "source-analysis-da-produção-linear-ao-planejamento-pela-sustentabilidade-contin",
+      "title": "Source Analysis — Da Produção Linear ao Planejamento pela Sustentabilidade (Contin, 2023 USP)",
+      "path": "research/notes/source-analysis-da-produção-linear-ao-planejamento-pela-sustentabilidade-contin.md",
+      "status": "draft",
+      "type": "source-analysis",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "estilista-producao-moda-8b096b",
+        "source-analysis"
+      ],
+      "word_count": 994,
+      "summary": "Dissertação de mestrado (EACH-USP, 2023) sobre a transição do planejamento linear para o sustentável em 5 confecções de São Paulo, documentando perdas de 15,87% no corte de jeans e o bloqueio das escolhas criativas dos estilistas pelo alto custo de tecidos sustentáveis em PMEs.",
+      "created": "2026-11-27T03:45:09.539381+00:00",
+      "updated": null
+    },
+    {
+      "id": "source-analysis-design-for-customization-no-vestuário-queiroz-2023-usp",
+      "title": "Source Analysis — Design for Customization no Vestuário (Queiroz, 2023 USP)",
+      "path": "research/notes/source-analysis-design-for-customization-no-vestuário-queiroz-2023-usp.md",
+      "status": "draft",
+      "type": "source-analysis",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "estilista-producao-moda-8b096b",
+        "source-analysis"
+      ],
+      "word_count": 1436,
+      "summary": "Dissertação de mestrado (EACH-USP, 2023) que formula diretrizes de Fashion Design for Customization (FDfC) com base em survey com consumidores (n=199) e entrevistas em profundidade com 4 marcas brasileiras sob demanda/customização, revelando a sobreposição entre estilista e modelista, a preferência por CAD 2D sobre 3D e os gargalos de tempo e retrabalho no ateliê.",
+      "created": "2026-11-27T03:45:06.697492+00:00",
+      "updated": null
+    },
+    {
+      "id": "source-analysis-processo-de-desenvolvimento-de-produto-na-indústria-têxtil-jorda",
+      "title": "Source Analysis — Processo de Desenvolvimento de Produto na Indústria Têxtil (Jordan 2004)",
+      "path": "research/notes/source-analysis-processo-de-desenvolvimento-de-produto-na-indústria-têxtil-jorda.md",
+      "status": "draft",
+      "type": "source-analysis",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "estilista-producao-moda-8b096b",
+        "source-analysis"
+      ],
+      "word_count": 3874,
+      "summary": "Dissertação de mestrado em Engenharia de Produção (UFRGS, 2004) que diagnostica o Processo de Desenvolvimento de Produto (PDP) em 7 pequenas e médias confecções de vestuário da Região Sul (incluindo Blumenau e Rio do Sul/SC) e propõe um modelo integrado com Matriz de Responsabilidades da estilista e 5 gates. Revela que o PDP opera em nível 2 de maturidade (intuitivo e centrado na memória), sobrecarregando a estilista como única responsável pelo sucesso/fracasso da coleção, com fichas técnicas preenchidas apenas após o protótipo, modificações na peça-piloto não documentadas e cancelamento tardio de peças por restrições de maquinário ou falhas de matéria-prima (em 6 das 7 empresas).",
+      "created": "2026-11-27T03:27:41.645705+00:00",
+      "updated": null
+    },
+    {
+      "id": "conexões-entre-moda-luxo-e-tecnologia-no-trabalho-da-estilista-iris-van-herpen-e",
+      "title": "Conexões Entre Moda, Luxo E Tecnologia No Trabalho Da Estilista Iris Van Herpen | Even3 Publicações",
+      "path": "research/notes/conexões-entre-moda-luxo-e-tecnologia-no-trabalho-da-estilista-iris-van-herpen-e.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 304,
+      "summary": null,
+      "created": "2026-11-27T03:07:34.415651+00:00",
+      "updated": null
+    },
+    {
+      "id": "repositório-institucional-da-unb-a-biotecnologia-como-ferramenta-de-inovação-par",
+      "title": "Repositório Institucional da UnB: A Biotecnologia como ferramenta de inovação para a indústria têxtil e de confecções : estudo de caso SUI",
+      "path": "research/notes/repositório-institucional-da-unb-a-biotecnologia-como-ferramenta-de-inovação-par.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 958,
+      "summary": null,
+      "created": "2026-11-27T03:05:58.079624+00:00",
+      "updated": null
+    },
+    {
+      "id": "culturally-inspired-fashion-perceptions-of-fashion-designers-and-consumers-ual-r",
+      "title": "Culturally Inspired Fashion: Perceptions of Fashion Designers and Consumers  - UAL Research Online",
+      "path": "research/notes/culturally-inspired-fashion-perceptions-of-fashion-designers-and-consumers-ual-r.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 522,
+      "summary": null,
+      "created": "2026-11-27T03:05:48.895795+00:00",
+      "updated": null
+    },
+    {
+      "id": "a-tomada-de-decisão-para-o-desenvolvimento-de-novos-produtos-um-estudo-na-indúst",
+      "title": "A  TOMADA DE DECISÃO PARA O DESENVOLVIMENTO DE NOVOS PRODUTOS: UM ESTUDO NA INDÚSTRIA DA MODA DE BELO HORIZONTE\n\t\t\t\t\t\t\t| Revista Economia & Gestão",
+      "path": "research/notes/a-tomada-de-decisão-para-o-desenvolvimento-de-novos-produtos-um-estudo-na-indúst.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 401,
+      "summary": null,
+      "created": "2026-11-27T03:05:01.302710+00:00",
+      "updated": null
+    },
+    {
+      "id": "moda-de-luxo-desfiles-de-moda-e-a-capitalização-do-gênio-criador-blucher-proceed",
+      "title": "Moda de luxo, desfiles de moda e a capitalização do “gênio criador” - Blucher Proceedings",
+      "path": "research/notes/moda-de-luxo-desfiles-de-moda-e-a-capitalização-do-gênio-criador-blucher-proceed.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 847,
+      "summary": null,
+      "created": "2026-11-27T03:04:43.551231+00:00",
+      "updated": null
+    },
+    {
+      "id": "vestuário-ergonômico-para-idosas-de-uma-instituição-de-longa-permanência-blucher",
+      "title": "Vestuário Ergonômico para Idosas de uma Instituição de Longa Permanência - Blucher Proceedings",
+      "path": "research/notes/vestuário-ergonômico-para-idosas-de-uma-instituição-de-longa-permanência-blucher.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 710,
+      "summary": null,
+      "created": "2026-11-27T03:04:35.254393+00:00",
+      "updated": null
+    },
+    {
+      "id": "mercado-da-moda-e-modelagens-cadernos-ceru",
+      "title": "Mercado da moda e modelagens\n\t\t\t\t\t\t\t| Cadernos CERU",
+      "path": "research/notes/mercado-da-moda-e-modelagens-cadernos-ceru.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 529,
+      "summary": null,
+      "created": "2026-11-27T03:04:07.112815+00:00",
+      "updated": null
+    },
+    {
+      "id": "metodologia-centrada-no-usuário-para-a-prática-projetual-do-design-de-moda-godp",
+      "title": "Metodologia centrada no usuário para a prática projetual do Design de Moda: GODP- Guia de Orientação para o Desenvolvimento de Projetos - Blucher Proceedings",
+      "path": "research/notes/metodologia-centrada-no-usuário-para-a-prática-projetual-do-design-de-moda-godp.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 782,
+      "summary": null,
+      "created": "2026-11-27T03:03:37.179319+00:00",
+      "updated": null
+    },
+    {
+      "id": "beyond-the-aesthete-fashion-highlight",
+      "title": "Beyond the Aesthete\n\t\t\t\t\t\t\t| Fashion Highlight",
+      "path": "research/notes/beyond-the-aesthete-fashion-highlight.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 1083,
+      "summary": null,
+      "created": "2026-11-27T03:03:29.652438+00:00",
+      "updated": null
+    },
+    {
+      "id": "da-produção-linear-ao-planejamento-pela-sustentabilidade-estudo-de-caso-de-empre",
+      "title": "Da Produção Linear ao Planejamento pela Sustentabilidade: estudo de caso de empresas de Moda na cidade de São Paulo (SP - Brasil)",
+      "path": "research/notes/da-produção-linear-ao-planejamento-pela-sustentabilidade-estudo-de-caso-de-empre.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 798,
+      "summary": null,
+      "created": "2026-11-27T03:03:21.680343+00:00",
+      "updated": null
+    },
+    {
+      "id": "o-design-na-indústria-da-moda-no-brasil-no-século-xxi-uma-proposta-de-design-col",
+      "title": "O design na indústria da moda no Brasil no século XXI: uma proposta de design colaborativo",
+      "path": "research/notes/o-design-na-indústria-da-moda-no-brasil-no-século-xxi-uma-proposta-de-design-col.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 659,
+      "summary": null,
+      "created": "2026-11-27T03:02:29.665641+00:00",
+      "updated": null
+    },
+    {
+      "id": "representação-dos-atributos-de-amostras-têxteis-em-materiotecas-virtuais-como-su",
+      "title": "REPRESENTAÇÃO DOS ATRIBUTOS DE AMOSTRAS TÊXTEIS EM MATERIOTECAS VIRTUAIS COMO SUPORTE À SELEÇÃO DE MATERIAL EM PROJETOS DE MODA E VESTUÁRIO\n\t\t\t\t\t\t\t| Plural Design",
+      "path": "research/notes/representação-dos-atributos-de-amostras-têxteis-em-materiotecas-virtuais-como-su.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 272,
+      "summary": null,
+      "created": "2026-11-27T03:01:39.872736+00:00",
+      "updated": null
+    },
+    {
+      "id": "metodologia-projetual-para-educomunicar-o-desenvolvimento-de-coleções-de-moda-co",
+      "title": "Metodologia projetual para educomunicar o desenvolvimento de coleções de moda\n\t\t\t\t\t\t\t| Comunicação & Educação",
+      "path": "research/notes/metodologia-projetual-para-educomunicar-o-desenvolvimento-de-coleções-de-moda-co.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 1002,
+      "summary": null,
+      "created": "2026-11-27T03:01:11.434847+00:00",
+      "updated": null
+    },
+    {
+      "id": "iasdr2023826",
+      "title": "iasdr.2023.826",
+      "path": "research/notes/iasdr2023826.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 1002,
+      "summary": null,
+      "created": "2026-11-27T03:00:48.725606+00:00",
+      "updated": null
+    },
+    {
+      "id": "fashion-diplomacy-canadas-shared-role-in-supporting-garment-worker-safety-in-ban",
+      "title": "Fashion diplomacy: Canada’s shared role in supporting garment worker safety in Bangladesh\n\t\t\t\t\t\t\t| Canadian Political Science Review",
+      "path": "research/notes/fashion-diplomacy-canadas-shared-role-in-supporting-garment-worker-safety-in-ban.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 530,
+      "summary": null,
+      "created": "2026-11-27T03:00:09.118727+00:00",
+      "updated": null
+    },
+    {
+      "id": "moda-imagem-e-consumo-editoriais-de-moda-como-estratégia-de-comunicação-para-mar",
+      "title": "Moda, imagem e consumo: editoriais de moda como estratégia de comunicação para marcas\n\t\t\t\t\t\t\t| Modapalavra e-periódico",
+      "path": "research/notes/moda-imagem-e-consumo-editoriais-de-moda-como-estratégia-de-comunicação-para-mar.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 921,
+      "summary": null,
+      "created": "2026-11-27T02:58:40.141677+00:00",
+      "updated": null
+    },
+    {
+      "id": "designing-sustainable-fashion-role-of-psychosocial-factors-of-fashion-consumptio",
+      "title": "Designing Sustainable Fashion: Role of Psychosocial Factors of Fashion Consumption and the Challenges of Design",
+      "path": "research/notes/designing-sustainable-fashion-role-of-psychosocial-factors-of-fashion-consumptio.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 1232,
+      "summary": null,
+      "created": "2026-11-27T02:57:20.714751+00:00",
+      "updated": null
+    },
+    {
+      "id": "modelagem-de-vestuário-entre-séculos-uma-análise-comparativa-em-revistas-de-moda",
+      "title": "MODELAGEM DE VESTUÁRIO ENTRE SÉCULOS: uma análise comparativa em revistas de moda\n\t\t\t\t\t\t\t| Revista Eixos Tech",
+      "path": "research/notes/modelagem-de-vestuário-entre-séculos-uma-análise-comparativa-em-revistas-de-moda.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 502,
+      "summary": null,
+      "created": "2026-11-27T02:56:43.166347+00:00",
+      "updated": null
+    },
+    {
+      "id": "maxwell",
+      "title": "Maxwell",
+      "path": "research/notes/maxwell.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 723,
+      "summary": null,
+      "created": "2026-11-27T02:55:13.913438+00:00",
+      "updated": null
+    },
+    {
+      "id": "from-3d-scans-to-haptic-models-apparel-design-with-half-scale-dress-forms-3dbody",
+      "title": "From 3D Scans to Haptic Models: Apparel Design with Half Scale Dress Forms - 3DBODY.TECH 2017 Proceedings - Abstracts, Papers",
+      "path": "research/notes/from-3d-scans-to-haptic-models-apparel-design-with-half-scale-dress-forms-3dbody.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 461,
+      "summary": null,
+      "created": "2026-11-27T02:54:37.519551+00:00",
+      "updated": null
+    },
+    {
+      "id": "a-impressão-3d-no-mercado-de-moda-sustentabilidade-e-desenvolvimento-diálogo-com",
+      "title": "A impressão 3D no mercado de moda: sustentabilidade e desenvolvimento\n\t\t\t\t\t\t\t| Diálogo com a Economia Criativa",
+      "path": "research/notes/a-impressão-3d-no-mercado-de-moda-sustentabilidade-e-desenvolvimento-diálogo-com.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 813,
+      "summary": null,
+      "created": "2026-11-27T02:54:28.388289+00:00",
+      "updated": null
+    },
+    {
+      "id": "3d-dynamic-fashion-design-development-using-digital-technology-and-its-potential",
+      "title": "3D dynamic fashion design development using digital technology and its potential in online platforms | Fashion and Textiles | Springer Nature Link",
+      "path": "research/notes/3d-dynamic-fashion-design-development-using-digital-technology-and-its-potential.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "codesign",
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "modelagem",
+        "mpe",
+        "processo-produtivo"
+      ],
+      "word_count": 16419,
+      "summary": "Pesquisa aplicada e qualitativa (Choi, 2022, Fashion and Textiles) que desenvolve 10 protótipos de vestuário dinâmico 3D utilizando CLO3D e Adobe After Effects e avalia o impacto dos sistemas de simulação virtual 3D no processo de design de moda por meio de grupo focal (FGI) com 5 estilistas e especialistas digitais sul-coreanos (com 3 a 15 anos de experiência na indústria e 3 a 8 anos de uso de CAD 3D). Os resultados demonstram que o CAD 3D altera o fluxo tradicional ('croqui 2D -> molde 2D -> toile 3D -> alteração -> amostra') para uma interação direta entre modelagem 2D e toile 3D virtual, permitindo substituir desenhos planos (flats) em Illustrator nas fichas técnicas (tech-packs) por amostras 3D enviadas às fábricas. Contudo, o estudo identifica dores estruturais severas para estilistas e pequenas confecções: (1) em pequenas empresas, a economia de custo de amostragem física é anulada pelo aumento do custo de mão de obra e tempo exigido para operar o software, ao contrário de grandes varejistas como a H&M; (2) operar o CLO3D com eficiência exige que o estilista domine amplamente modelagem (pattern-cutting), métodos de costura, busca de tecidos e trato com fábricas; (3) fornecedores B2B recebem comentários negativos frequentes sobre a imprecisão de caimento/tamanho das simulações 3D e rejeitam avatares humanos devido ao efeito de 'uncanny valley', preferindo manequins técnicos parametrizados (como Alvanon); e (4) plataformas de customização 3D (como o projeto WITHIN24 + ALLSTUDIOS com 15 marcas jovens) enfrentam custos proibitivos de desenvolvimento, alto consumo de mão de obra de renderização e discrepância entre a peça renderizada no CLO3D e a peça real.",
+      "created": "2026-11-27T02:48:33.310148+00:00",
+      "updated": "2026-11-27T02:54:12.089020+00:00"
+    },
+    {
+      "id": "the-intersection-of-fashion-immersive-technology-and-sustainability-a-literature",
+      "title": "The Intersection of Fashion, Immersive Technology, and Sustainability: A Literature Review",
+      "path": "research/notes/the-intersection-of-fashion-immersive-technology-and-sustainability-a-literature.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "modelagem",
+        "mpe",
+        "processo-produtivo",
+        "sustentabilidade"
+      ],
+      "word_count": 12644,
+      "summary": "Revisão sistemática da literatura seguindo diretrizes PRISMA 2020 (Mesjar, Cross, Jiang & Steed, 2023, Sustainability/MDPI) analisando 74 publicações (52 artigos acadêmicos e 22 fontes de literatura cinzenta entre 2010 e 2022, sendo 61 publicadas pós-COVID entre 2020 e 2022) sobre a interseção entre moda, tecnologias imersivas (CAD 3D, simulação/visualização 3D, AR, VR, provadores virtuais/VTO e manufatura aditiva) e sustentabilidade. No domínio de design, desenvolvimento e produção (27 estudos), a revisão aponta que a simulação 3D e o CAD (incluindo prototipagem de upcycling/reforma de peças de segunda mão) reduzem o desperdício de recursos e o número de amostras físicas (sampling/prototyping) quando o produto exige múltiplas emendas. Entretanto, os autores documentam gargalos críticos enfrentados pelos profissionais de criação e pelas marcas: (1) simular com precisão o caimento e o fluxo do tecido em um corpo humano em movimento com múltiplos tamanhos corporais continua sendo um desafio tecnológico não resolvido e carente de feedback tátil (haptics); (2) adaptar modelos CAD 3D para ambientes VR/AR é um processo altamente técnico e demorado, frequentemente limitando o uso apenas à visualização passiva e não à manipulação projetual; (3) existe uma grave escassez global de competências digitais e técnicas (skills gap) que exige requalificar estilistas em ferramentas digitais, materiais engenheirados e negócios digitais, com alto custo de contratação que ameaça a capacidade de pequenas marcas adotarem essas soluções; e (4) há fragmentação de softwares e processos entre marcas ('piecemeal approach'), sem uma plataforma integrada ao longo da cadeia de valor.",
+      "created": "2026-11-27T02:48:42.221464+00:00",
+      "updated": "2026-11-27T02:53:12.713801+00:00"
+    },
+    {
+      "id": "matriz-de-aderência-conceitual-como-instrumento-de-apoio-à-autonomia-criativa-em",
+      "title": "Matriz de aderência conceitual como instrumento de apoio à autonomia criativa em projetos de moda\n\t\t\t\t\t\t\t| DAPesquisa",
+      "path": "research/notes/matriz-de-aderência-conceitual-como-instrumento-de-apoio-à-autonomia-criativa-em.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 1500,
+      "summary": "Artigo metodológico e relato de experiência educacional (Campos, 2025, DAPesquisa/UDESC) que apresenta a Matriz de Aderência Conceitual (MAC) como ferramenta projetual para apoiar o processo de criação autoral em moda e fortalecer a autonomia crítica de estudantes e estilistas. Fundamentada nos estudos de expressividade visual (Perassi, Dondis, Gomes) e nos atributos específicos de configuração do vestuário (Jones, Campos, Sanches), a MAC oferece parâmetros objetivos para avaliar se as escolhas formais, cromáticas, têxteis e de silhueta das peças permanecem alinhadas ao conceito gerador da coleção, podendo ser combinada com o Mapa de Categorias Expressivas (Sanches, 2017).",
+      "created": "2026-11-27T02:48:23.308089+00:00",
+      "updated": "2026-11-27T02:52:33.766258+00:00"
+    },
+    {
+      "id": "framework-integrado-de-gestão-de-design-e-pensamento-enxuto-na-indústria-da-moda",
+      "title": "Framework integrado de  gestão de design e pensamento enxuto na indústria da moda\n\t\t\t\t\t\t\t| Modapalavra e-periódico",
+      "path": "research/notes/framework-integrado-de-gestão-de-design-e-pensamento-enxuto-na-indústria-da-moda.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 1983,
+      "summary": null,
+      "created": "2026-11-27T02:51:50.444189+00:00",
+      "updated": null
+    },
+    {
+      "id": "anais-enegep-proceedings-icieom-5",
+      "title": "Anais Enegep | Proceedings ICIEOM",
+      "path": "research/notes/anais-enegep-proceedings-icieom-5.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 324,
+      "summary": null,
+      "created": "2026-11-27T02:51:42.663653+00:00",
+      "updated": null
+    },
+    {
+      "id": "o-codesign-para-geração-de-valor-e-inovação-no-desenvolvimento-de-produtos-de-2",
+      "title": "O codesign para geração de valor e inovação no desenvolvimento de produtos de vestuário\n\t\t\t\t\t\t\t| Modapalavra e-periódico",
+      "path": "research/notes/o-codesign-para-geração-de-valor-e-inovação-no-desenvolvimento-de-produtos-de-2.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 1208,
+      "summary": null,
+      "created": "2026-11-27T02:50:23.768524+00:00",
+      "updated": null
+    },
+    {
+      "id": "fashion-upcycling-the-fashion-upcycling-the-challenges-successes-and-solutions-f",
+      "title": "Fashion Upcycling: The Fashion Upcycling: The Challenges, Successes, and Solutions From A Designers Perspective",
+      "path": "research/notes/fashion-upcycling-the-fashion-upcycling-the-challenges-successes-and-solutions-f.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 285,
+      "summary": null,
+      "created": "2026-11-27T02:50:16.291799+00:00",
+      "updated": null
+    },
+    {
+      "id": "o-ensino-da-modelagem-do-vestuário-sob-as-diretrizes-do-método-pbl-revista-de-en",
+      "title": "O ensino da modelagem do vestuário sob as diretrizes do método PBL\n\t\t\t\t\t\t\t| Revista de Ensino em Artes, Moda e Design",
+      "path": "research/notes/o-ensino-da-modelagem-do-vestuário-sob-as-diretrizes-do-método-pbl-revista-de-en.md",
+      "status": "draft",
+      "type": "note",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "modelagem",
+        "modelista-producao-moda-dores-0698af",
+        "processo-produtivo",
+        "santa-catarina"
+      ],
+      "word_count": 1064,
+      "summary": "Debora Mizubuti Brito  UNIVERSIDADE ESTADUAL PAULISTA - UNESP  http://orcid.org/0000-0001-7529-2333 (não autenticado)",
+      "created": "2026-11-27T02:49:54.044550+00:00",
+      "updated": null
+    },
+    {
+      "id": "a-aplicação-da-inteligência-artificial-no-desenvolvimento-de-produtos-na-indústr",
+      "title": "A APLICAÇÃO DA INTELIGÊNCIA ARTIFICIAL NO DESENVOLVIMENTO DE PRODUTOS NA INDÚSTRIA DE VESTUÁRIO DE MODA\n\t\t\t\t\t\t\t| Revista da UNIFEBE",
+      "path": "research/notes/a-aplicação-da-inteligência-artificial-no-desenvolvimento-de-produtos-na-indústr.md",
+      "status": "draft",
+      "type": "note",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "modelista-producao-moda-dores-0698af",
+        "processo-produtivo"
+      ],
+      "word_count": 385,
+      "summary": "A Inteligência Artificial (IA) tem se tornado cada vez mais presente na indústria de vestuário de moda, contribuindo ...",
+      "created": "2026-11-27T02:49:53.995471+00:00",
+      "updated": null
+    },
+    {
+      "id": "produtos-de-vestuário-avaliando-hipóteses-de-problemas-de-vestibilidade-blucher",
+      "title": "Produtos de vestuário: avaliando hipóteses de problemas de vestibilidade - Blucher Proceedings",
+      "path": "research/notes/produtos-de-vestuário-avaliando-hipóteses-de-problemas-de-vestibilidade-blucher.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 987,
+      "summary": null,
+      "created": "2026-11-27T02:49:44.781067+00:00",
+      "updated": null
+    },
+    {
+      "id": "produto-de-moda-modelagem-industrial-com-aspectos-do-design-e-da-ergonomia-actas",
+      "title": "Produto de moda: modelagem industrial com aspectos do design e da ergonomia\n\t\t\t\t\t\t\t| Actas de Diseño",
+      "path": "research/notes/produto-de-moda-modelagem-industrial-com-aspectos-do-design-e-da-ergonomia-actas.md",
+      "status": "draft",
+      "type": "note",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "modelagem",
+        "modelista-producao-moda-dores-0698af"
+      ],
+      "word_count": 140,
+      "summary": "Ir al contenido principal Ir al menú de navegación principal Ir al pie de página del sitio",
+      "created": "2026-11-27T02:49:40.535143+00:00",
+      "updated": null
+    },
+    {
+      "id": "conceitos-de-produto-de-moda-actas-de-diseño",
+      "title": "Conceitos de produto de moda \n\t\t\t\t\t\t\t| Actas de Diseño",
+      "path": "research/notes/conceitos-de-produto-de-moda-actas-de-diseño.md",
+      "status": "draft",
+      "type": "note",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "modelista-producao-moda-dores-0698af"
+      ],
+      "word_count": 217,
+      "summary": "Ir al contenido principal Ir al menú de navegación principal Ir al pie de página del sitio",
+      "created": "2026-11-27T02:49:08.950715+00:00",
+      "updated": null
+    },
+    {
+      "id": "garment-production-processes-and-their-health-challenges-a-case-of-tailors-and-d",
+      "title": "Garment Production Processes and their Health Challenges: A Case of Tailors and Dressmakers in the Small-Scale Clothing Industries in Sunyani Municipality | Moses | Journal of Health, Medicine and Nursing",
+      "path": "research/notes/garment-production-processes-and-their-health-challenges-a-case-of-tailors-and-d.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 463,
+      "summary": null,
+      "created": "2026-11-27T02:49:02.965031+00:00",
+      "updated": null
+    },
+    {
+      "id": "coreldraw-como-suporte-na-criação-de-moldes-de-vestuário-revista-eixos-tech",
+      "title": "CorelDRAW como suporte na criação de moldes de vestuário\n\t\t\t\t\t\t\t| Revista Eixos Tech",
+      "path": "research/notes/coreldraw-como-suporte-na-criação-de-moldes-de-vestuário-revista-eixos-tech.md",
+      "status": "draft",
+      "type": "note",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "modelagem",
+        "modelista-producao-moda-dores-0698af"
+      ],
+      "word_count": 561,
+      "summary": "Vanessa Mariozi  Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais",
+      "created": "2026-11-27T02:48:48.155836+00:00",
+      "updated": null
+    },
+    {
+      "id": "sustentabilidade-ambiental-e-responsabilidade-social-na-cadeia-de-moda-brasileir",
+      "title": "Sustentabilidade ambiental e responsabilidade social na cadeia de moda Brasileira: uma proposta de aproveitamento de sobras de tecido\n\t\t\t\t\t\t\t| Projetica",
+      "path": "research/notes/sustentabilidade-ambiental-e-responsabilidade-social-na-cadeia-de-moda-brasileir.md",
+      "status": "draft",
+      "type": "note",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "modelista-producao-moda-dores-0698af",
+        "processo-produtivo",
+        "santa-catarina",
+        "sustentabilidade"
+      ],
+      "word_count": 1186,
+      "summary": "Maria Silvia Barros de Held  Universidade de São Paulo - USP   https://orcid.org/0000-0003-4373-4955",
+      "created": "2026-11-27T02:48:45.321285+00:00",
+      "updated": null
+    },
+    {
+      "id": "uma-análise-crítica-das-condições-de-trabalho-na-indústria-têxtil-desde-a-indu-2",
+      "title": "Uma Análise  Crítica das  Condições  de Trabalho na Indústria Têxtil desde a Industrialização do Setor até os dias atuais\n\t\t\t\t\t\t\t| Human Factors in Design",
+      "path": "research/notes/uma-análise-crítica-das-condições-de-trabalho-na-indústria-têxtil-desde-a-indu-2.md",
+      "status": "draft",
+      "type": "note",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "modelagem",
+        "modelista-producao-moda-dores-0698af",
+        "processo-produtivo",
+        "santa-catarina"
+      ],
+      "word_count": 451,
+      "summary": "Tatiana Castro Longhi  Universidade do Estado de Santa Catarina - UDESC",
+      "created": "2026-11-27T02:48:45.288280+00:00",
+      "updated": null
+    },
+    {
+      "id": "universidade-de-são-paulo-8",
+      "title": "Universidade de São Paulo",
+      "path": "research/notes/universidade-de-são-paulo-8.md",
+      "status": "draft",
+      "type": "note",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "modelagem",
+        "modelista-producao-moda-dores-0698af",
+        "processo-produtivo"
+      ],
+      "word_count": 33457,
+      "summary": "Universidade de São Paulo",
+      "created": "2026-11-27T02:48:44.221036+00:00",
+      "updated": null
+    },
+    {
+      "id": "marisa-beatriz-poletto-jordan",
+      "title": "Marisa Beatriz Poletto Jordan",
+      "path": "research/notes/marisa-beatriz-poletto-jordan.md",
+      "status": "draft",
+      "type": "note",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "modelagem",
+        "modelista-producao-moda-dores-0698af",
+        "processo-produtivo",
+        "santa-catarina"
+      ],
+      "word_count": 21022,
+      "summary": "Marisa Beatriz Poletto Jordan",
+      "created": "2026-11-27T02:48:44.187922+00:00",
+      "updated": null
+    },
+    {
+      "id": "universidade-federal-rural-de-pernambuco-ufrpe",
+      "title": "UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO (UFRPE)",
+      "path": "research/notes/universidade-federal-rural-de-pernambuco-ufrpe.md",
+      "status": "draft",
+      "type": "note",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "modelagem",
+        "modelista-producao-moda-dores-0698af",
+        "processo-produtivo",
+        "sustentabilidade"
+      ],
+      "word_count": 36828,
+      "summary": "UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO (UFRPE)",
+      "created": "2026-11-27T02:48:44.154631+00:00",
+      "updated": null
+    },
+    {
+      "id": "gramado-rs-2",
+      "title": "Gramado – RS",
+      "path": "research/notes/gramado-rs-2.md",
+      "status": "draft",
+      "type": "note",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "modelagem",
+        "modelista-producao-moda-dores-0698af",
+        "processo-produtivo",
+        "sustentabilidade"
+      ],
+      "word_count": 5353,
+      "summary": "De 30 de setembro a 2 de outubro de 2014",
+      "created": "2026-11-27T02:48:44.111390+00:00",
+      "updated": null
+    },
+    {
+      "id": "sociologias-porto-alegre-ano-19-no-45-maiago-2017-p-142-174",
+      "title": "Sociologias, Porto Alegre, ano 19, no 45, mai/ago 2017, p. 142-174",
+      "path": "research/notes/sociologias-porto-alegre-ano-19-no-45-maiago-2017-p-142-174.md",
+      "status": "draft",
+      "type": "note",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "modelista-producao-moda-dores-0698af",
+        "processo-produtivo",
+        "risco-trabalhista"
+      ],
+      "word_count": 10542,
+      "summary": "Sociologias, Porto Alegre, ano 19, no 45, mai/ago 2017, p. 142-174",
+      "created": "2026-11-27T02:48:44.093132+00:00",
+      "updated": null
+    },
+    {
+      "id": "ai-tools-and-fashion-design-education-instructor-perspectives-on-student-challen",
+      "title": "AI tools and fashion design education: instructor perspectives on student challenges and design process tool support | Fashion and Textiles | Springer Nature Link",
+      "path": "research/notes/ai-tools-and-fashion-design-education-instructor-perspectives-on-student-challen.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 12035,
+      "summary": null,
+      "created": "2026-11-27T02:48:07.880985+00:00",
+      "updated": null
+    },
+    {
+      "id": "an-evaluation-of-garment-fit-to-improve-customer-body-fit-of-fashion-design-clot",
+      "title": "An evaluation of garment fit to improve customer body fit of fashion design clothing | The International Journal of Advanced Manufacturing Technology | Springer Nature Link",
+      "path": "research/notes/an-evaluation-of-garment-fit-to-improve-customer-body-fit-of-fashion-design-clot.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 2608,
+      "summary": null,
+      "created": "2026-11-27T02:47:59.190906+00:00",
+      "updated": null
+    },
+    {
+      "id": "3d-modeling-for-fashion-design-dat-journal-2",
+      "title": "3D modeling for fashion design\n\t\t\t\t\t\t\t| DAT Journal",
+      "path": "research/notes/3d-modeling-for-fashion-design-dat-journal-2.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 1066,
+      "summary": null,
+      "created": "2026-11-27T02:47:50.556922+00:00",
+      "updated": null
+    },
+    {
+      "id": "moda-sustentabilidade-e-ergonomia-rbs-sobre-métodos-projetuais-para-o-desenvolvi",
+      "title": "Moda, sustentabilidade e ergonomia: RBS sobre métodos projetuais para o desenvolvimento de produtos de moda\n\t\t\t\t\t\t\t| Modapalavra e-periódico",
+      "path": "research/notes/moda-sustentabilidade-e-ergonomia-rbs-sobre-métodos-projetuais-para-o-desenvolvi.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 1728,
+      "summary": null,
+      "created": "2026-11-27T02:46:28.077959+00:00",
+      "updated": null
+    },
+    {
+      "id": "a-formação-dos-profissionais-do-setor-de-modelagem-do-vestuário-da-região-da-gra",
+      "title": "A formação dos profissionais do setor de modelagem do vestuário da região da grande Florianópolis - SC\n\t\t\t\t\t\t\t| DAPesquisa",
+      "path": "research/notes/a-formação-dos-profissionais-do-setor-de-modelagem-do-vestuário-da-região-da-gra.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 746,
+      "summary": null,
+      "created": "2026-11-27T02:46:20.197372+00:00",
+      "updated": null
+    },
+    {
+      "id": "digital-fashion-and-the-metaverse-perspectives-from-the-emerging-fashion-designe",
+      "title": "Digital fashion and the metaverse: perspectives from the emerging fashion designers in Zimbabwe\n\t\t\t\t\t\t\t| Fashion and Textiles Review",
+      "path": "research/notes/digital-fashion-and-the-metaverse-perspectives-from-the-emerging-fashion-designe.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 3107,
+      "summary": null,
+      "created": "2026-11-27T02:46:03.524844+00:00",
+      "updated": null
+    },
+    {
+      "id": "the-influence-of-cultural-values-towards-creativity-enhancement-the-case-of-mala",
+      "title": "The Influence of Cultural Values Towards Creativity  Enhancement: The Case of Malaysian  Fashion Designers\n\t\t\t\t\t\t\t| International Journal of Art and Design",
+      "path": "research/notes/the-influence-of-cultural-values-towards-creativity-enhancement-the-case-of-mala.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 462,
+      "summary": null,
+      "created": "2026-11-27T02:45:29.486478+00:00",
+      "updated": null
+    },
+    {
+      "id": "extended-producer-responsibility-in-the-garments-sector-oecd",
+      "title": "Extended producer responsibility in the garments sector | OECD",
+      "path": "research/notes/extended-producer-responsibility-in-the-garments-sector-oecd.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 562,
+      "summary": null,
+      "created": "2026-11-27T02:44:45.341723+00:00",
+      "updated": null
+    },
+    {
+      "id": "design-de-moda-para-a-customização-em-massa-uma-proposta-de-framework-modapalavr",
+      "title": "Design de moda para a customização em massa: uma proposta de framework\n\t\t\t\t\t\t\t| Modapalavra e-periódico",
+      "path": "research/notes/design-de-moda-para-a-customização-em-massa-uma-proposta-de-framework-modapalavr.md",
+      "status": "draft",
+      "type": "note",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "modelagem",
+        "modelista-producao-moda-dores-0698af",
+        "processo-produtivo",
+        "santa-catarina"
+      ],
+      "word_count": 1737,
+      "summary": "Diva Lúcia Vieira Costa  Universidade Federal do Rio de Janeiro - UFRJ  https://orcid.org/0000-0003-3941-6508 (não au...",
+      "created": "2026-11-27T02:43:15.094385+00:00",
+      "updated": null
+    },
+    {
+      "id": "modelagem-plana-industrial-do-vestuário-diretrizes-para-a-indústria-do-vestuár-2",
+      "title": "Modelagem Plana Industrial do Vestuário: diretrizes para a indústria do vestuário e o ensino-aprendizado\n\t\t\t\t\t\t\t| Projetica",
+      "path": "research/notes/modelagem-plana-industrial-do-vestuário-diretrizes-para-a-indústria-do-vestuár-2.md",
+      "status": "draft",
+      "type": "note",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "modelagem",
+        "modelista-producao-moda-dores-0698af",
+        "processo-produtivo",
+        "santa-catarina"
+      ],
+      "word_count": 1503,
+      "summary": "Marizilda dos Santos Menezes  Universidade Estadual Paulista - FAAC",
+      "created": "2026-11-27T02:43:13.839575+00:00",
+      "updated": null
+    },
+    {
+      "id": "modelagem-plana-x-modelagem-tridimensional-estudo-comparativo-em-artigos-de-malh",
+      "title": "Modelagem Plana x Modelagem Tridimensional: Estudo comparativo em artigos de malha com alta compressão\n\t\t\t\t\t\t\t| Modapalavra e-periódico",
+      "path": "research/notes/modelagem-plana-x-modelagem-tridimensional-estudo-comparativo-em-artigos-de-malh.md",
+      "status": "draft",
+      "type": "note",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "modelagem",
+        "modelista-producao-moda-dores-0698af",
+        "processo-produtivo",
+        "santa-catarina"
+      ],
+      "word_count": 941,
+      "summary": "Daiane de Lourdes Toledo  Universidade Federal de Santa Catarina  image/svg+xml   https://orcid.org/0000-0003-3520-71...",
+      "created": "2026-11-27T02:43:13.753381+00:00",
+      "updated": null
+    },
+    {
+      "id": "delimitação-do-usuário-nas-etapas-de-criação-modelagem-e-prototipagem-do-produto",
+      "title": "Delimitação do usuário nas etapas de criação, modelagem e prototipagem do produto de vestuário\n\t\t\t\t\t\t\t| Modapalavra e-periódico",
+      "path": "research/notes/delimitação-do-usuário-nas-etapas-de-criação-modelagem-e-prototipagem-do-produto.md",
+      "status": "draft",
+      "type": "note",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "modelagem",
+        "modelista-producao-moda-dores-0698af",
+        "processo-produtivo",
+        "santa-catarina"
+      ],
+      "word_count": 1120,
+      "summary": "Elen Makara  Universidade Federal de Santa Catarina  image/svg+xml",
+      "created": "2026-11-27T02:43:13.727863+00:00",
+      "updated": null
+    },
+    {
+      "id": "estilista-e-consumidor-uma-trasnferência-de-status-artístico-actas-de-diseño",
+      "title": "Estilista e consumidor, uma trasnferência de status artístico\n\t\t\t\t\t\t\t| Actas de Diseño",
+      "path": "research/notes/estilista-e-consumidor-uma-trasnferência-de-status-artístico-actas-de-diseño.md",
+      "status": "draft",
+      "type": "note",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "modelista-producao-moda-dores-0698af",
+        "processo-produtivo"
+      ],
+      "word_count": 190,
+      "summary": "Ir al contenido principal Ir al menú de navegación principal Ir al pie de página del sitio",
+      "created": "2026-11-27T02:43:13.703199+00:00",
+      "updated": null
+    },
+    {
+      "id": "gramado-rs",
+      "title": "Gramado – RS",
+      "path": "research/notes/gramado-rs.md",
+      "status": "draft",
+      "type": "note",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "modelagem",
+        "modelista-producao-moda-dores-0698af",
+        "processo-produtivo"
+      ],
+      "word_count": 2628,
+      "summary": "De 30 de setembro a 2 de outubro de 2014",
+      "created": "2026-11-27T02:43:12.425745+00:00",
+      "updated": null
+    },
+    {
+      "id": "intervenção-pedagógica-em-modelagem-construindo-a-base-do-corpo-feminino-sob-um",
+      "title": "Intervenção pedagógica em modelagem: construindo a base do corpo feminino sob um novo olhar\n\t\t\t\t\t\t\t| Revista de Ensino em Artes, Moda e Design",
+      "path": "research/notes/intervenção-pedagógica-em-modelagem-construindo-a-base-do-corpo-feminino-sob-um.md",
+      "status": "draft",
+      "type": "note",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "modelagem",
+        "modelista-producao-moda-dores-0698af",
+        "processo-produtivo",
+        "santa-catarina"
+      ],
+      "word_count": 967,
+      "summary": "Káritha Bernardo de Macedo Macedo  Instituto Federal de Santa Catarina – Campus Gaspar, R. Adriano Korman, 456, Bela ...",
+      "created": "2026-11-27T02:40:31.077698+00:00",
+      "updated": null
+    },
+    {
+      "id": "análise-da-formação-dos-profissionais-do-setor-de-modelagem-do-vestuário-da-regi",
+      "title": "Análise da formação dos profissionais do setor de modelagem do vestuário da região do Vale do Itajaí – SC e o software mais utilizado neste setor\n\t\t\t\t\t\t\t| DAPesquisa",
+      "path": "research/notes/análise-da-formação-dos-profissionais-do-setor-de-modelagem-do-vestuário-da-regi.md",
+      "status": "draft",
+      "type": "note",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "modelagem",
+        "modelista-producao-moda-dores-0698af",
+        "santa-catarina"
+      ],
+      "word_count": 754,
+      "summary": "Icléia Silveira  Universidade do Estado de Santa Catarina  image/svg+xml",
+      "created": "2026-11-27T02:40:31.043761+00:00",
+      "updated": null
+    },
+    {
+      "id": "a-importância-das-bases-de-modelagem-no-desenvolvimento-de-vestuário-plus-size-u",
+      "title": "A IMPORTÂNCIA DAS BASES DE MODELAGEM NO DESENVOLVIMENTO DE VESTUÁRIO PLUS SIZE: UM ENFOQUE NA ANTROPOMETRIA E ERGONOMIA\n\t\t\t\t\t\t\t| Ergodesign & HCI",
+      "path": "research/notes/a-importância-das-bases-de-modelagem-no-desenvolvimento-de-vestuário-plus-size-u.md",
+      "status": "draft",
+      "type": "note",
+      "tier": null,
+      "content_type": null,
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "modelagem",
+        "modelista-producao-moda-dores-0698af",
+        "santa-catarina"
+      ],
+      "word_count": 398,
+      "summary": "Suelen Rizzi  Instituto Federal de Santa Catarina, Araranguá, Brasil   http://orcid.org/0000-0002-8001-9232",
+      "created": "2026-11-27T02:39:41.729871+00:00",
+      "updated": null
+    },
+    {
+      "id": "fashion-pattern-maker-of-software-application-development-iopscience",
+      "title": "Fashion pattern maker of software application development - IOPscience",
+      "path": "research/notes/fashion-pattern-maker-of-software-application-development-iopscience.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 5801,
+      "summary": null,
+      "created": "2026-11-27T02:39:19.048196+00:00",
+      "updated": null
+    },
+    {
+      "id": "da-prancheta-ao-algoritmo-explorando-a-representação-visual-de-moda-projetica",
+      "title": "Da prancheta ao Algoritmo: Explorando a representação visual de moda\n\t\t\t\t\t\t\t| Projetica",
+      "path": "research/notes/da-prancheta-ao-algoritmo-explorando-a-representação-visual-de-moda-projetica.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 1682,
+      "summary": null,
+      "created": "2026-11-27T02:38:38.350872+00:00",
+      "updated": null
+    },
+    {
+      "id": "garment-fit-evaluation-for-fashion-design-and",
+      "title": "Garment Fit Evaluation for Fashion Design and",
+      "path": "research/notes/garment-fit-evaluation-for-fashion-design-and.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 6107,
+      "summary": null,
+      "created": "2026-11-27T02:37:58.690717+00:00",
+      "updated": null
+    },
+    {
+      "id": "3d-modeling-for-fashion-design-dat-journal",
+      "title": "3D modeling for fashion design\n\t\t\t\t\t\t\t| DAT Journal",
+      "path": "research/notes/3d-modeling-for-fashion-design-dat-journal.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 1067,
+      "summary": null,
+      "created": "2026-11-27T02:37:48.602123+00:00",
+      "updated": null
+    },
+    {
+      "id": "estilista-ou-autor-o-percurso-das-figuras-criadoras-no-sistema-da-moda-dapesquis",
+      "title": "Estilista ou autor: o percurso das figuras criadoras no sistema da moda\n\t\t\t\t\t\t\t| DAPesquisa",
+      "path": "research/notes/estilista-ou-autor-o-percurso-das-figuras-criadoras-no-sistema-da-moda-dapesquis.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "sustentabilidade"
+      ],
+      "word_count": 1644,
+      "summary": "Revisão teórica e histórica (Campos, 2021, DAPesquisa/UDESC) sobre a evolução das figuras criadoras no sistema da moda — das corporações de ofício e cortes aristocráticas ao surgimento do costureiro de alta-costura, do estilista industrial do prêt-à-porter, do designer de moda no fast fashion e do criador de moda autoral. Com base em Lipovetsky (2007), Sant'Anna (2009), Riello (2013), Cietta (2010) e Laver (2008), o artigo analisa como a industrialização da moda transferiu a legitimidade criativa do indivíduo para as marcas comerciais, posicionando o estilista/designer de moda no centro da ideação e desenvolvimento de produtos voltados ao mercado de massa. O estudo destaca que o apogeu desse modelo industrial no fast fashion impõe severas pressões de tempo, padronização comercial e ritmo acelerado de lançamentos, gerando o que a literatura critica como 'insustentabilidade criativa' dos designers de moda (esgotamento criativo, subordinação da criação às demandas da cadeia produtiva global e perda de subjetividade), o que impulsiona como reação contemporânea o retorno à moda autoral.",
+      "created": "2026-11-27T02:32:42.795847+00:00",
+      "updated": "2026-11-27T02:37:08.087495+00:00"
+    },
+    {
+      "id": "guia-de-orientação-para-o-desenvolvimento-de-projetos-godp-aplicado-à-prática-pr",
+      "title": "Guia de Orientação Para o Desenvolvimento de Projetos - GODP - Aplicado à Prática Projetual no Design de Moda\n\t\t\t\t\t\t\t| Modapalavra e-periódico",
+      "path": "research/notes/guia-de-orientação-para-o-desenvolvimento-de-projetos-godp-aplicado-à-prática-pr.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 1950,
+      "summary": null,
+      "created": "2026-11-27T02:36:37.268238+00:00",
+      "updated": null
+    },
+    {
+      "id": "unlocking-the-potential-of-artificial-intelligence-in-fashion-design-and-e-comme",
+      "title": "Unlocking the Potential of Artificial Intelligence in Fashion Design and E-Commerce Applications: The Case of Midjourney",
+      "path": "research/notes/unlocking-the-potential-of-artificial-intelligence-in-fashion-design-and-e-comme.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "processo-produtivo"
+      ],
+      "word_count": 8933,
+      "summary": "Pesquisa-ação (Zhang & Liu, 2024, JTAER/MDPI) fundamentada no modelo FEA (Functional, Expressive, Aesthetic Consumer Needs Model, de Lamb & Kallal) que avalia o uso de IA generativa text-to-image (Midjourney) no fluxo de trabalho do estilista/designer de moda e valida os resultados com um survey de 174 consumidores. O estudo estrutura o processo de design de moda em quatro estágios fundamentais (geração de conceito, desenvolvimento de design, prototipagem e solução) e destaca que a fase de ideação e geração de conceito é tradicionalmente uma dor para o estilista devido à sua ambiguidade inerente, especificidade de contexto e exigência de experimentação visual rápida. Ao longo de três ciclos iterativos (gerando 272 imagens na fase de conceito, 244 no desenvolvimento e 151 na validação com peças ready-to-wear de cânhamo), os autores demonstram que o estilista passa a atuar como diretor de criação e curador de design, gerando 12 imagens em menos de 60 segundos com comandos como /imagine, /describe, /blend e parâmetros (--iw, --seed, --chaos, --tile). Contudo, o estudo documenta dores técnicas severas das ferramentas de IA generativa para o estilista no processo produtivo: incapacidade de garantir fidelidade exata às especificações de tecido e silhueta, baixa consistência entre variações do mesmo modelo, falha em gerar vistas traseiras ou múltiplos ângulos da mesma peça (essenciais para a ficha técnica e modelagem), ausência de edição automática de detalhes estruturais (exigindo retrabalho manual em outros softwares) e restrição da utilidade apenas às etapas iniciais de concepção.",
+      "created": "2026-11-27T02:32:29.667259+00:00",
+      "updated": "2026-11-27T02:36:30.099402+00:00"
+    },
+    {
+      "id": "terceirização-na-indústria-de-vestuário-projetica",
+      "title": "Terceirização na indústria de vestuário\n\t\t\t\t\t\t\t| Projetica",
+      "path": "research/notes/terceirização-na-indústria-de-vestuário-projetica.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "estilista-producao-moda-8b096b",
+        "faccao",
+        "processo-produtivo",
+        "santa-catarina",
+        "terceirizacao"
+      ],
+      "word_count": 1109,
+      "summary": "Estudo de caso qualitativo e descritivo (Goulart, Silveira, Da Rosa & Novelli, 2021, Revista Projética/UEL) sobre a gestão da terceirização produtiva na indústria de vestuário Rovitex (Santa Catarina), com dados coletados junto ao gestor de engenharia de produção em dezembro de 2020. O artigo contextualiza a terceirização (facções) como estratégia para absorver a sazonalidade do lançamento de coleções na indústria têxtil e do vestuário, permitindo que a empresa mantenha internamente as atividades de maior valor agregado (como criação/estilo, desenvolvimento de produto e planejamento) enquanto subcontrata etapas produtivas. No período analisado, a empresa operava com 82 oficinas terceirizadas, selecionadas prioritariamente por três critérios críticos que impactam o fluxo entre criação e entrega: qualidade do serviço prestado, cumprimento rigoroso dos prazos de entrega das coleções e conformidade jurídica/trabalhista.",
+      "created": "2026-11-27T02:32:07.795486+00:00",
+      "updated": "2026-11-27T02:36:16.272858+00:00"
+    },
+    {
+      "id": "fit-models-roles-in-identifying-fit-issues-in-the-apparel-technical-design-proce",
+      "title": "Fit models’ roles in identifying fit issues in the apparel technical design process and implications for improving 3D virtual fitting | Fashion and Textiles | Springer Nature Link",
+      "path": "research/notes/fit-models-roles-in-identifying-fit-issues-in-the-apparel-technical-design-proce.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "desenvolvimento-de-produto",
+        "estilista-producao-moda-8b096b",
+        "modelagem",
+        "processo-produtivo"
+      ],
+      "word_count": 10213,
+      "summary": "Estudo qualitativo da Universidade de Cornell (Yang & Baytar, 2024, Fashion and Textiles) sobre sessões de prova (fit sessions) no desenvolvimento de produto de vestuário e implicações para prova virtual 3D. A pesquisa combinou observação presencial de uma sessão de prova de 4 horas (segunda rodada, avaliando 7 partes superiores e 6 inferiores das coleções Primavera/Outono 2023 com 3 estilistas/designers, 1 designer técnico e 2 modelos de prova) e entrevistas em profundidade com 5 modelos de prova adicionais (totalizando 7 modelos de prova que atendem em média 25 a 40 marcas cada). O estudo mapeia o fluxo de desenvolvimento de novos produtos (NPD) em 7 estágios e demonstra que a sessão de prova física continua sendo um gargalo insubstituível onde estilistas, modelistas/designers técnicos, modelos de prova e merchandisers iteram sobre 5 elementos de caimento (folga/ease, equilíbrio/balance, assentamento/set, fio/grain e linha/line), sendo que mais de 90% das peças passam por 2 a 3 provas antes da aprovação. Os resultados revelam que o conhecimento se sobrepõe entre estilistas, designers técnicos e modelos de prova: os designers frequentemente pedem validação estética e funcional aos modelos de prova (que atuam como 'primeiros clientes' e possuem um banco de dados mental do mercado), discutindo facilidade de vestir (ex.: complexidade de alças em moda praia), comprimento de peças, posicionamento de bolsos/zíperes e alterações de tecido entre coleções. Além disso, o artigo evidencia as limitações atuais dos softwares CAD 3D (CLO3D, Browzwear V-Stitcher, Optitex PDS): avatares digitais não replicam a compressibilidade de tecidos moles em movimento (levantar braços, sentar, agachar, dar passo/lunge), os mapas de pressão/tensão coloridos são difíceis de interpretar na prática para traduzir em ajustes de folga no molde, e a simulação 3D posiciona partes abertas ao redor do avatar em vez de simular o ato físico de vestir pela cabeça ou pelos pés.",
+      "created": "2026-11-27T02:31:50.356738+00:00",
+      "updated": "2026-11-27T02:36:01.969997+00:00"
+    },
+    {
+      "id": "proposta-de-um-modelo-de-referência-para-o-desenvolvimento-de-produtos-do-vestuá",
+      "title": "Proposta de um modelo de referência para o desenvolvimento de produtos do vestuário utilizando impressão 3D\n\t\t\t\t\t\t\t| Produto & Produção",
+      "path": "research/notes/proposta-de-um-modelo-de-referência-para-o-desenvolvimento-de-produtos-do-vestuá.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "unknown",
+      "content_type": "unknown",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 388,
+      "summary": null,
+      "created": "2026-11-27T02:36:01.473979+00:00",
+      "updated": null
+    },
+    {
+      "id": "oecd-environment-working-papers-no-253",
+      "title": "OECD Environment Working Papers No. 253",
+      "path": "research/notes/oecd-environment-working-papers-no-253.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 16141,
+      "summary": null,
+      "created": "2026-11-27T02:34:30.946900+00:00",
+      "updated": null
+    },
+    {
+      "id": "xlvi-encontro-nacional-de-engenharia-de-produção",
+      "title": "XLVI ENCONTRO NACIONAL DE ENGENHARIA DE PRODUÇÃO",
+      "path": "research/notes/xlvi-encontro-nacional-de-engenharia-de-produção.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 4389,
+      "summary": null,
+      "created": "2026-11-27T02:32:02.498646+00:00",
+      "updated": null
+    },
+    {
+      "id": "universidade-de-são-paulo-4",
+      "title": "UNIVERSIDADE DE SÃO PAULO",
+      "path": "research/notes/universidade-de-são-paulo-4.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 26135,
+      "summary": null,
+      "created": "2026-11-27T02:29:17.406352+00:00",
+      "updated": null
+    },
+    {
+      "id": "universidade-de-são-paulo-2",
+      "title": "UNIVERSIDADE DE SÃO PAULO",
+      "path": "research/notes/universidade-de-são-paulo-2.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 31008,
+      "summary": null,
+      "created": "2026-11-27T02:24:38.862858+00:00",
+      "updated": null
+    },
+    {
+      "id": "universidade-de-são-paulo",
+      "title": "UNIVERSIDADE DE SÃO PAULO",
+      "path": "research/notes/universidade-de-são-paulo.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 73190,
+      "summary": null,
+      "created": "2026-11-27T02:24:31.390336+00:00",
+      "updated": null
+    },
+    {
+      "id": "university-of-huddersfield-repository",
+      "title": "University of Huddersfield Repository",
+      "path": "research/notes/university-of-huddersfield-repository.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 29028,
+      "summary": null,
+      "created": "2026-11-27T02:24:27.963860+00:00",
+      "updated": null
+    },
+    {
+      "id": "the-role-of-process-monitoring-devices-and-digital-line-balancing-in-achieving-o",
+      "title": "The role of process monitoring devices and digital line balancing in achieving operational excellence in garment manufacturing - MedCrave online",
+      "path": "research/notes/the-role-of-process-monitoring-devices-and-digital-line-balancing-in-achieving-o.md",
+      "status": "draft",
+      "type": "note",
+      "tier": "institutional",
+      "content_type": "paper",
+      "tags": [
+        "estilista-producao-moda-8b096b"
+      ],
+      "word_count": 4285,
+      "summary": null,
+      "created": "2026-11-27T02:19:06.943137+00:00",
+      "updated": null
+    }
+  ],
+  "count": 89,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T05:03:50.445115+00:00"
+}

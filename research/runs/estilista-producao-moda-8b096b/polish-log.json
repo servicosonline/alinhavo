@@ -1,0 +1,7 @@
+{
+  "applied": [
+    "Converted rhetorical terms from double quotes to single quotes to preserve strict quote-integrity compliance",
+    "Verified zero interim-* or scaffold leaks in wikilink citations"
+  ],
+  "escalations": []
+}

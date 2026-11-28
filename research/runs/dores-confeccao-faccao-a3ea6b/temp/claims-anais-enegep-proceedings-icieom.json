@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "Indústrias de confecção de vestuário de pequeno porte sofrem com erros de etiquetagem de peças, baixa visibilidade do andamento da produção, falhas de comunicação entre gerência e chão de fábrica e desorganização do fluxo produtivo.",
+    "stance": "supports",
+    "stance_target": "existência de gargalos operacionais, retrabalho e falhas de controle de chão de fábrica em pequenas confecções",
+    "evidence_type": "empirical",
+    "scope_conditions": "Indústria de pequeno porte de confecção de vestuário feminino em Feira de Santana, Bahia",
+    "quoted_support": "Os principais resultados foram a redução do erro de etiquetagem errada nas peças com o uso do poka-yoke; o uso do kanban para obter melhorias significativas na clareza de informações para os colaboradores e uma maior visibilidade do andamento do processo produtivo; a ferramenta de gestão para melhorar a comunicação da gerência com os colaboradores dos setores e o uso do 5S, que gerou um ambiente mais organizado e um fluxo produtivo mais eficiente, possibilitando a existência de um novo cenário na fábrica.",
+    "numbers": ["5S"],
+    "entities": ["Universidade Federal do Recôncavo da Bahia", "ENEGEP", "Feira de Santana"],
+    "time_period": "2024",
+    "region": "Feira de Santana, Bahia, Brasil",
+    "confidence": "high",
+    "source_note_id": "anais-enegep-proceedings-icieom"
+  },
+  {
+    "claim": "A aplicação de ferramentas de Lean Manufacturing (poka-yoke, kanban e 5S) em confecções de pequeno porte reduz desperdícios operacionais e erros de identificação de peças.",
+    "stance": "supports",
+    "stance_target": "eficácia de ferramentas enxutas de controle visual e prevenção de erros em pequenas fábricas de roupas",
+    "evidence_type": "empirical",
+    "scope_conditions": "Confecção de pequeno porte de vestuário feminino em Feira de Santana, BA",
+    "quoted_support": "As ferramentas do lean manufacturing podem ser aplicadas em diferentes etapas dos fluxos produtivos, resultando em produção mais eficiente com redução de desperdícios. Assim, essa pesquisa foi desenvolvida com o objetivo de otimizar os processos produtivos de uma indústria de pequeno porte no ramo de confecção de vestuário feminino na cidade de Feira de Santana, Bahia, por meio da utilização de ferramentas do Lean Manufacturing.",
+    "numbers": [],
+    "entities": ["Universidade Federal do Recôncavo da Bahia", "ENEGEP"],
+    "time_period": "2024",
+    "region": "Feira de Santana, Bahia, Brasil",
+    "confidence": "high",
+    "source_note_id": "anais-enegep-proceedings-icieom"
+  }
+]

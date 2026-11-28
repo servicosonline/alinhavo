@@ -1,0 +1,47 @@
+{
+  "sub_questions": [
+    "Quais são as responsabilidades da modelista num processo de produção de moda/confecção?",
+    "Quais são as tarefas concretas da modelista, etapa por etapa (do briefing à produção em escala)?",
+    "Quais são as dores da modelista em cada etapa do processo?",
+    "Como a modelista se relaciona com estilo, ficha técnica, piloto, corte, costura, qualidade e produção?",
+    "Quais dores são estruturais (organização, comunicação, ferramentas, valorização) e quais são técnicas (medidas, gradação, caimento, encaixe)?"
+  ],
+  "entities": [
+    {"name": "modelista", "type": "role", "required_fields": ["responsabilidades", "tarefas", "dores"]},
+    {"name": "estilista/designer", "type": "role", "required_fields": ["interface com a modelista", "dores na passagem de briefing"]},
+    {"name": "pilotista/costureira de piloto", "type": "role", "required_fields": ["interface com a modelista"]},
+    {"name": "corte e encaixe (risco)", "type": "stage", "required_fields": ["tarefas", "dores"]},
+    {"name": "gradação", "type": "stage", "required_fields": ["tarefas", "dores"]},
+    {"name": "prova de modelo / aprovação de caimento", "type": "stage", "required_fields": ["tarefas", "dores"]},
+    {"name": "ficha técnica", "type": "artifact", "required_fields": ["papel da modelista", "dores"]}
+  ],
+  "required_formats": [],
+  "required_sections": [],
+  "required_section_headings": [
+    "## 1. Papel da Modelista na Cadeia de Produção de Moda",
+    "## 2. Responsabilidades e Tarefas por Etapa do Processo",
+    "## 3. Dores da Modelista em Cada Etapa",
+    "## 4. Dores Estruturais: Comunicação, Ferramentas e Valorização Profissional",
+    "## 5. Padrões Recorrentes e Implicações"
+  ],
+  "time_horizons": ["práticas atuais (cerca de 10 anos recentes)"],
+  "time_periods": [],
+  "scope_conditions": [
+    "processo de produção de moda/confecção (vestuário)",
+    "foco no contexto brasileiro quando houver fonte; literatura internacional como apoio",
+    "relatório em português do Brasil"
+  ],
+  "pipeline_tier": "full",
+  "response_format": "structured",
+  "citation_style": "wikilink",
+  "levers": {
+    "register": "survey",
+    "register_confidence": "high",
+    "domain_notes": "Sourcing: combinar literatura acadêmica e técnica (engenharia de vestuário, modelagem, gestão da produção) com fontes setoriais (SENAI, SEBRAE, Abit, ABNT, blogs e comunidades de modelistas, vagas e descrições de cargo). Evidência forte: estudos com entrevistas ou observação de chão de fábrica e normas técnicas; relatos de profissionais valem como evidência de dor, marcados como tal. Janela de recência: priorizar os últimos 10 anos; clássicos de modelagem valem como base.",
+    "inference_depth": "standard",
+    "rationale": {
+      "register": "a pergunta pede mapear responsabilidades, tarefas e dores, sem pedir veredito: formato de cobertura",
+      "inference_depth": "há literatura técnica e setorial razoável; revisar na análise de loci se as dores vierem só de relatos informais"
+    }
+  }
+}

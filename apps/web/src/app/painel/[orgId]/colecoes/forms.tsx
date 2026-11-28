@@ -4,7 +4,7 @@ import { useActionState } from "react";
 import { ActionForm } from "@/components/action-form";
 import { SubmitButton } from "@/components/submit-button";
 import { ui } from "@/components/ui";
-import { createCollection, createMilestone, createProduct } from "./actions";
+import { createCollection, createMilestone, createProduct, updateCollection } from "./actions";
 
 function Feedback({ state }: { state: { error?: string; ok?: string } | undefined }) {
   if (state?.error)
@@ -83,7 +83,7 @@ export function CreateMilestoneForm({
 }: {
   orgId: string;
   collectionId: string;
-  team: { user_id: string; email: string }[];
+  team: { user_id: string; label: string }[];
 }) {
   const [state, action, pending] = useActionState(createMilestone.bind(null, orgId, collectionId), undefined);
   return (
@@ -102,13 +102,50 @@ export function CreateMilestoneForm({
           <option value="">Ninguém</option>
           {team.map((m) => (
             <option key={m.user_id} value={m.user_id}>
-              {m.email}
+              {m.label}
             </option>
           ))}
         </select>
       </label>
       <SubmitButton pendingText="Criando…">Adicionar etapa</SubmitButton>
       <div className="sm:col-span-4">
+        <Feedback state={state} />
+      </div>
+    </ActionForm>
+  );
+}
+
+/** Editar a coleção (no menu ⋯ da lista e da página da coleção). */
+export function EditCollectionForm({
+  orgId,
+  collection,
+}: {
+  orgId: string;
+  collection: { id: string; name: string; season: string | null; starts_on: string | null; launch_on: string | null };
+}) {
+  const [state, action, pending] = useActionState(updateCollection.bind(null, orgId, collection.id), undefined);
+  return (
+    <ActionForm action={action} state={state} pending={pending} className="grid gap-3 sm:grid-cols-2" data-form="editar-colecao">
+      <label className="block sm:col-span-2">
+        <span className={ui.label}>Nome da coleção</span>
+        <input name="name" required maxLength={120} defaultValue={collection.name} className={ui.input} />
+      </label>
+      <label className="block sm:col-span-2">
+        <span className={ui.label}>Temporada</span>
+        <input name="season" maxLength={60} defaultValue={collection.season ?? ""} className={ui.input} />
+      </label>
+      <label className="block">
+        <span className={ui.label}>Início</span>
+        <input name="starts_on" type="date" defaultValue={collection.starts_on ?? ""} className={ui.input} />
+      </label>
+      <label className="block">
+        <span className={ui.label}>Lançamento</span>
+        <input name="launch_on" type="date" defaultValue={collection.launch_on ?? ""} className={ui.input} />
+      </label>
+      <div className="sm:col-span-2">
+        <SubmitButton pendingText="Salvando…">Salvar coleção</SubmitButton>
+      </div>
+      <div className="sm:col-span-2">
         <Feedback state={state} />
       </div>
     </ActionForm>

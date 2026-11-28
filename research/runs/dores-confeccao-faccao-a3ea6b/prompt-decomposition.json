@@ -1,0 +1,45 @@
+{
+  "sub_questions": [
+    "Quais são as necessidades de um proprietário de confecção (fábrica de roupas)?",
+    "Quais são as necessidades de um proprietário de facção (costura terceirizada)?",
+    "Quais são as principais dificuldades financeiras e de capital de giro?",
+    "Quais são as dificuldades com mão de obra, rotatividade e encargos trabalhistas?",
+    "Quais são os gargalos de produção, prazo, qualidade e planejamento?",
+    "Quais são as dificuldades com modelagem, gradação, encaixe e desperdício de tecido?",
+    "Como é a relação com clientes e contratantes: preço, margem, prazo de pagamento, dependência?",
+    "Quais são os desafios de tributação, formalização e conformidade (Simples Nacional, subcontratação, NR-12)?",
+    "Qual é o nível de tecnologia e gestão usado hoje (planilha, ERP, CAD) e onde falha?",
+    "Quais necessidades ainda não são atendidas e onde há oportunidade de solução?"
+  ],
+  "entities": [
+    {"name": "confecção de marca própria / verticalizada", "type": "category", "required_fields": ["necessidades", "dificuldades"]},
+    {"name": "facção (costura terceirizada)", "type": "category", "required_fields": ["necessidades", "dificuldades"]},
+    {"name": "pequeno proprietário (MEI/ME/EPP)", "type": "category", "required_fields": ["necessidades", "dificuldades"]}
+  ],
+  "required_formats": [],
+  "required_sections": [],
+  "required_section_headings": [
+    "## 1. Perfil do Setor: Confecção Própria, Verticalizada e Facção",
+    "## 2. Dificuldades Financeiras e de Capital de Giro",
+    "## 3. Mão de Obra: Escassez, Rotatividade e Encargos",
+    "## 4. Produção e Operação: Gargalos, Prazos e Qualidade",
+    "## 5. Modelagem, Gradação e Encaixe: Desperdício e Retrabalho",
+    "## 6. Clientes, Preço e Margem",
+    "## 7. Tributação, Formalização e Conformidade",
+    "## 8. Tecnologia, Gestão e Digitalização",
+    "## 9. Necessidades Prioritárias e Oportunidades de Solução"
+  ],
+  "time_horizons": ["2020-presente"],
+  "time_periods": [],
+  "scope_conditions": ["Brasil", "pequenas e médias confecções e facções", "foco em necessidades e dificuldades do proprietário"],
+  "pipeline_tier": "full",
+  "response_format": "structured",
+  "citation_style": "wikilink",
+  "levers": {
+    "register": "survey",
+    "register_confidence": "high",
+    "domain_notes": "Fontes setoriais primeiro: ABIT, SEBRAE, IEMI, SENAI/CETIQT, IBGE, e pesquisas acadêmicas brasileiras sobre arranjos produtivos de confecção. Dados de associações e entidades setoriais contam mais que blogs e opinião; relatos de donos de confecção valem como evidência qualitativa, com a ressalva de amostra pequena. Janela de recência: últimos 5 anos para números, mais ampla para problemas estruturais.",
+    "inference_depth": "standard",
+    "rationale": {"register": "a pergunta pede levantamento de necessidades e dificuldades, sem pedir veredito", "inference_depth": "há literatura setorial razoável; reavaliar na análise de loci"}
+  }
+}

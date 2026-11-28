@@ -1,0 +1,56 @@
+[
+  {
+    "claim": "Em uma marca brasileira de moda luxo de médio porte (50 funcionários internos, participante do SPFW), a coleção comercial (média de 240 modelos e produção de 1.000 peças/mês) leva 4 meses em desenvolvimento, passando por pesquisa de tendências pelo estilista, briefing, croqui à mão, Ficha de Desenvolvimento e Ficha de Corte de Piloto (feitas pelos assistentes de estilo), modelagem (2 modelistas), corte de piloto à tesoura, confecção da piloto (temporizada pela chefe de costura para precificação), prova em modelo tamanho 38, aprovação pelo estilista (com limite máximo de 3 provas antes do descarte da peça), lacre de peça e modelagem e Ficha Técnica de Produto.",
+    "stance": "supports",
+    "stance_target": "O fluxo técnico do setor de estilo exige desdobramento documental rigoroso entre estilista, assistente de estilo, modelista e pilotagem, com limite estrito de rodadas de prova",
+    "evidence_type": "empirical",
+    "scope_conditions": "Estudo de caso em marca de vestuário de moda luxo na cidade de São Paulo (SPFW)",
+    "quoted_support": "Prova de Roupa: feita juntamente com o estilista da marca e com a modelista da peça correspondente e com modelos de prova que estejam de acordo com as medidas pré-estabelecidas pela marca. Aprovação da piloto: a aprovação é feita pelo estilista e idealizador das peças. Uma peça pode levar no máximo 3 provas para ser aprovada, fora isso é descartada.",
+    "numbers": [
+      "50 funcionários",
+      "2 coleções anuais",
+      "240 peças",
+      "1000 peças/mês",
+      "40 looks",
+      "4 meses",
+      "2 modelistas",
+      "3 provas",
+      "tamanho 38",
+      "tolerância de 1cm"
+    ],
+    "entities": [
+      "Camila Vitorino Marcelo",
+      "USP",
+      "Francisca Dantas Mendes",
+      "SPFW"
+    ],
+    "time_period": "2016",
+    "region": "São Paulo, Brasil",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo-8"
+  },
+  {
+    "claim": "Mesmo enviando a peça-piloto lacrada, a tabela de medidas graduada (tolerância de 1 cm) e a Ordem de Corte às facções terceirizadas, a confecção de moda luxo enfrenta erros recorrentes na combinação de cores das variantes (pois a oficina recebe apenas 1 peça-piloto em uma única cor e falha ao ler as demais combinações na Ordem de Corte), atrasos de entrega, escassez de costureiros qualificados para tecidos finos (seda pura e rendas francesas) e risco de queima ou brilho nas fibras, o que obriga a empresa a proibir a passadoria nas oficinas e realizar internamente 100% da revisão, passadoria e aplicação manual de botões e colchetes.",
+    "stance": "supports",
+    "stance_target": "A terceirização da costura gera falhas de interpretação de variantes na Ordem de Corte, atrasos e riscos à qualidade que obrigam a retenção interna da revisão e do acabamento",
+    "evidence_type": "empirical",
+    "scope_conditions": "Terceirização de costura em marca de vestuário de moda luxo em São Paulo",
+    "quoted_support": "5- problemas de comunicação: é uma questão que é feita com muito critério na empresa, quando acontece por exemplo de um produto ter combinações de cores. O fornecedor terceirizado recebe apenas 1 peça piloto, com apenas 1 das combinações, as informações das outras combinações de cores estão relatadas na ordem de corte. Mesmo com essa informação na ordem de corte acontece de haver erros na combinação de cores das peças.",
+    "numbers": [
+      "1 peça piloto",
+      "100%",
+      "1cm",
+      "2,5 de largura",
+      "agulha nº14"
+    ],
+    "entities": [
+      "Camila Vitorino Marcelo",
+      "USP",
+      "Francisca Dantas Mendes"
+    ],
+    "time_period": "2016",
+    "region": "São Paulo, Brasil",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo-8"
+  }
+]

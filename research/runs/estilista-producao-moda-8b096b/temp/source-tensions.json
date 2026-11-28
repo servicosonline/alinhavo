@@ -1,0 +1,122 @@
+{
+  "tensions": [
+    {
+      "name": "Ficha Técnica Viva em PLM vs. Emissão Pós-Protótipo por Sobrecarga",
+      "side_a": {
+        "position": "A Ficha Técnica deve operar como banco de dados vivo em sistemas PDM/PLM alimentado desde a aprovação do croqui por 7 áreas (estilo, comercial, modelagem, laboratório, engenharia, texografia e compras) para garantir pré-custo exato e rastreabilidade.",
+        "evidence": "Mapeamento SIPOC em indústria brasileira de vestuário ([[universidade-de-são-paulo]]) e Matriz de Responsabilidades R/P/I de 15 etapas ([[marisa-beatriz-poletto-jordan]]; [[proposta-de-um-modelo-de-referência-para-o-desenvolvimento-de-produtos-do-vestuá]]).",
+        "proponents": [
+          "universidade-de-são-paulo",
+          "marisa-beatriz-poletto-jordan",
+          "proposta-de-um-modelo-de-referência-para-o-desenvolvimento-de-produtos-do-vestuá"
+        ]
+      },
+      "side_b": {
+        "position": "Impor fichas técnicas completas ou sistemas PLM pesados antes do protótipo paralisa a criação por excesso de digitação manual de parâmetros inexistentes, levando ao abandono de projetos PLM em grandes empresas e à emissão da ficha técnica somente após o protótipo nas PMEs.",
+        "evidence": "Estudo de caso real de interrupção de projeto PLM internacional em grande confecção brasileira ([[universidade-de-são-paulo]]) e pesquisa de campo em 7 PMEs do Sul onde fichas são feitas pós-protótipo e alterações de prova ficam apenas na memória ([[marisa-beatriz-poletto-jordan]]).",
+        "proponents": [
+          "universidade-de-são-paulo",
+          "marisa-beatriz-poletto-jordan",
+          "source-analysis-design-colaborativo-e-implantação-de-plm-na-moda-no-brasil-araúj"
+        ]
+      },
+      "resolution": "Ambos os extremos falham quando descolados da maturidade operacional: exigir BOM e minutagem completas no rascunho trava a estilista, enquanto postergar a ficha para depois do protótipo gera retrabalho na modelagem e perda de histórico das provas. A resolução validada empiricamente é a Ficha Técnica Progressiva em 3 estágios (Ficha de Desenvolvimento Visual no croqui com pré-custo por faixa de complexidade; Ficha de Corte e registro de provas na pilotagem; Ficha Técnica Definitiva pós-lacre com herança automática de parâmetros da base de modelagem 'caixa').",
+      "origin": "comparisons",
+      "decision_relevance": "high"
+    },
+    {
+      "name": "Substituição Digital por CAD 3D vs. Irredutibilidade das 2–3 Provas Físicas e Custo em PMEs",
+      "side_a": {
+        "position": "Softwares de modelagem e prototipagem virtual 3D (CLO3D, Browzwear, Audaces 3D) reduzem o tempo de desenvolvimento, substituem desenhos planos 2D nas fichas técnicas e eliminam amostras físicas.",
+        "evidence": "Revisões de Indústria 4.0 e estudos de simulação virtual apontam redução de desperdício de protótipos físicos na triagem de design ([[xlvi-encontro-nacional-de-engenharia-de-produção]]; [[prototipagem-virtual-softwares-3d-para-modelagem-de-vestuário-projetica-2]]; [[3d-modeling-for-fashion-design-dat-journal]]).",
+        "proponents": [
+          "xlvi-encontro-nacional-de-engenharia-de-produção",
+          "prototipagem-virtual-softwares-3d-para-modelagem-de-vestuário-projetica-2",
+          "3d-modeling-for-fashion-design-dat-journal"
+        ]
+      },
+      "side_b": {
+        "position": "Na operação real, mais de 90% das peças ainda exigem de 2 a 3 rodadas de prova física porque o 3D falha em simular compressibilidade de tecidos moles em movimento e o ato de vestir, e nas PMEs a economia de amostras físicas é anulada pelo aumento no custo de mão de obra e sobrecarga técnica da estilista.",
+        "evidence": "Observação presencial de sessões de fitting e entrevistas com modelos de prova na Universidade de Cornell ([[fit-models-roles-in-identifying-fit-issues-in-the-apparel-technical-design-proce]]), grupos focais com designers sul-coreanos usando CLO3D ([[3d-dynamic-fashion-design-development-using-digital-technology-and-its-potential]]), revisão PRISMA de 74 estudos ([[the-intersection-of-fashion-immersive-technology-and-sustainability-a-literature]]) e pesquisa em marcas brasileiras sob demanda ([[universidade-de-são-paulo-2]]).",
+        "proponents": [
+          "fit-models-roles-in-identifying-fit-issues-in-the-apparel-technical-design-proce",
+          "3d-dynamic-fashion-design-development-using-digital-technology-and-its-potential",
+          "the-intersection-of-fashion-immersive-technology-and-sustainability-a-literature",
+          "universidade-de-são-paulo-2"
+        ]
+      },
+      "resolution": "A evidência empírica de chão de fábrica (Side B) prevalece sobre o otimismo promocional (Side A): o CAD 3D funciona como filtro visual preliminar em médias e grandes empresas que possuem modelistas 3D dedicados, mas não substitui as 2–3 provas físicas de vestibilidade (donning/doffing, toque e compressão corporal) nem a peça-piloto física lacrada exigida pelas facções brasileiras; em PMEs, impor o 3D à estilista encarece e atrasa o ciclo.",
+      "origin": "comparisons",
+      "decision_relevance": "high"
+    },
+    {
+      "name": "Aceleração Visual por IA Generativa vs. Cegueira Construtiva de Costas e Molde",
+      "side_a": {
+        "position": "Ferramentas de IA generativa (Midjourney, Stable Diffusion, LLMs) aceleram radicalmente a criação de moda, gerando 12 conceitos visuais em menos de 60 segundos e apoiando a exploração estética sob o modelo FEA.",
+        "evidence": "Pesquisa-ação com geração de 667 imagens em três estágios + survey n=174 ([[unlocking-the-potential-of-artificial-intelligence-in-fashion-design-and-e-comme]]) e entrevistas com docentes de design de moda ([[ai-tools-and-fashion-design-education-instructor-perspectives-on-student-challen]]).",
+        "proponents": [
+          "unlocking-the-potential-of-artificial-intelligence-in-fashion-design-and-e-comme",
+          "ai-tools-and-fashion-design-education-instructor-perspectives-on-student-challen",
+          "da-prancheta-ao-algoritmo-explorando-a-representação-visual-de-moda-projetica"
+        ]
+      },
+      "side_b": {
+        "position": "A IA generativa é tecnicamente cega para a engenharia do vestuário: não respeita especificações de tecido, perde consistência estrutural entre variações, não consegue gerar vistas traseiras (costas) da mesma peça e obriga redesenho manual completo em Illustrator/CAD.",
+        "evidence": "Documentação das 4 barreiras técnicas severas na etapa de desenvolvimento técnico por Zhang & Liu (2024, [[unlocking-the-potential-of-artificial-intelligence-in-fashion-design-and-e-comme]]) e alerta sobre perda de competência construtiva por tentativa e erro em An & Park (2026, [[ai-tools-and-fashion-design-education-instructor-perspectives-on-student-challen]]).",
+        "proponents": [
+          "unlocking-the-potential-of-artificial-intelligence-in-fashion-design-and-e-comme",
+          "ai-tools-and-fashion-design-education-instructor-perspectives-on-student-challen"
+        ]
+      },
+      "resolution": "Há uma fronteira dura por etapa do processo: a IA generativa agrega alto valor na Etapa 1 (Pesquisa de Conceito, Moodboard e triagem estética rápida), mas torna-se um passivo de retrabalho na Etapa 2 (Desenho Técnico Plano frente/costas e Ficha Técnica), onde o estilista e o assistente precisam reconstruir vetorialmente a peça para viabilizar a modelagem.",
+      "origin": "contradiction-graph",
+      "decision_relevance": "high"
+    },
+    {
+      "name": "Modelagem Zero Waste / Ecodesign na Criação vs. Bloqueio de Custo, Largura de Rolo e Prazo nas PMEs",
+      "side_a": {
+        "position": "O estilista pode eliminar os 15% a 17% de desperdício têxtil pré-consumo no corte industrial adotando modelagem Zero Waste e seleção de materiais sustentáveis já na fase de criação.",
+        "evidence": "Simulações no CAD Audaces v.17 provam economia de 24,5 m de tecido (17% de perda reduzida a zero) em enfesto de 50 folhas para 100 calças ([[universidade-de-são-paulo-5]]), alinhadas às diretrizes de ecodesign e EPR ([[oecd-environment-working-papers-no-253]]; [[university-of-huddersfield-repository]]).",
+        "proponents": [
+          "universidade-de-são-paulo-5",
+          "oecd-environment-working-papers-no-253",
+          "university-of-huddersfield-repository"
+        ]
+      },
+      "side_b": {
+        "position": "Nas confecções brasileiras, o estilista é impedido de aplicar ecodesign e Zero Waste pelo alto custo dos tecidos sustentáveis nas PMEs, pela variação de largura dos rolos nacionais (1,30 m a 1,50 m), pela complexidade de graduação de grade e pelo aumento do tempo de criação sob calendários comprimidos.",
+        "evidence": "Entrevistas com confecções paulistanas de pequeno, médio e grande porte ([[universidade-de-são-paulo-4]]) e análise de restrições industriais de escala no corte e graduação ([[universidade-de-são-paulo-5]]).",
+        "proponents": [
+          "universidade-de-são-paulo-4",
+          "universidade-de-são-paulo-5"
+        ]
+      },
+      "resolution": "A viabilidade geométrica experimental (Side A) esbarra nas travas econômicas e departamentais das PMEs (Side B). Em vez de exigir Zero Waste artesanal (que alonga o tempo de criação e trava na graduação de grade), a redução pragmática dos 15,87%–17% de perda exige integrar a informação de largura útil do rolo (1,30–1,50 m) e a simulação preliminar de encaixe (texografia em 3 estágios) ao gate de aprovação do desenho.",
+      "origin": "comparisons",
+      "decision_relevance": "high"
+    },
+    {
+      "name": "Desenvolvimento Interno (Insourcing) vs. Compra de Produto Acabado / Private Label (Outsourcing) no Papel da Estilista",
+      "side_a": {
+        "position": "No fluxo tradicional de insourcing, a estilista projeta a peça do zero (croqui, escolha de tecido/aviamento, acompanhamento de modelagem, pilotagem interna e ficha técnica detalhada).",
+        "evidence": "Fluxo de desenvolvimento interno mapeado em [[universidade-de-são-paulo]], [[marisa-beatriz-poletto-jordan]] e [[universidade-de-são-paulo-8]].",
+        "proponents": [
+          "marisa-beatriz-poletto-jordan",
+          "universidade-de-são-paulo-8",
+          "universidade-de-são-paulo"
+        ]
+      },
+      "side_b": {
+        "position": "Com o avanço do outsourcing (full package / private label nacional ou asiático) e da programação linear de mix ([[universidade-de-são-paulo-3]]), o papel da estilista desloca-se de desenhista construtora para curadora/compradora técnica que emite briefings de target price, avalia amostras de fornecedores externos e valida qualidade física.",
+        "evidence": "Mapeamento comparativo SIPOC entre insourcing e outsourcing em [[universidade-de-são-paulo]] (Araújo, 2017 - USP) e modelo de programação linear para decisão de mix e compra de produtos acabados em [[universidade-de-são-paulo-3]] (Ribeiro, 2018 - USP).",
+        "proponents": [
+          "universidade-de-são-paulo",
+          "universidade-de-são-paulo-3"
+        ]
+      },
+      "resolution": "Esta tensão órfã do corpus revela uma bifurcação real na carreira da estilista brasileira: em marcas autorais e confecções próprias prevalece o insourcing construtivo (Side A), mas em grandes redes varejistas e multimarcas híbridas (Side B) a estilista divide seu tempo entre criar coleções internas e especificar/homologar pacotes fechados (outsourcing) guiados por margens de contribuição e target price.",
+      "origin": "orphan-scan",
+      "decision_relevance": "medium"
+    }
+  ]
+}

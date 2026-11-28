@@ -1,5 +1,7 @@
 import type { ProductStatus } from "./supabase/database.types";
 
+export type { ProductStatus };
+
 /** Regras da Coleção usadas nas telas. Puras, para testar sem banco. */
 
 export const PRODUCT_STATUSES: readonly ProductStatus[] = ["ideia", "modelagem", "prova", "aprovado", "producao"];
@@ -83,4 +85,39 @@ export function productDueState(dueOn: string | null, status: ProductStatus, tod
   if (!dueOn) return null;
   const delivered = PRODUCT_STATUSES.indexOf(status) >= PRODUCT_STATUSES.indexOf("aprovado");
   return milestoneState(dueOn, delivered ? dueOn : null, today);
+}
+
+// ---------------------------------------------------------------------------
+// Abas e filtros das telas de coleção
+// ---------------------------------------------------------------------------
+
+export type CollectionPhase = "andamento" | "entregues" | "arquivadas";
+
+export const COLLECTION_PHASES: { id: CollectionPhase; label: string }[] = [
+  { id: "andamento", label: "Em andamento" },
+  { id: "entregues", label: "Entregues" },
+  { id: "arquivadas", label: "Arquivadas" },
+];
+
+/** Aba da coleção: arquivada; entregue (todos os produtos, ao menos um, em produção); ou em andamento. */
+export function collectionPhase(archivedAt: string | null, statuses: readonly ProductStatus[]): CollectionPhase {
+  if (archivedAt) return "arquivadas";
+  return statuses.length > 0 && statuses.every((s) => s === "producao") ? "entregues" : "andamento";
+}
+
+export function readCollectionPhase(raw: unknown): CollectionPhase {
+  return COLLECTION_PHASES.some((p) => p.id === raw) ? (raw as CollectionPhase) : "andamento";
+}
+
+/** Filtro da lista de produtos da coleção: todos, um estágio ou os atrasados. */
+export type ProductFilter = "todos" | "atrasados" | ProductStatus;
+
+export function readProductFilter(raw: unknown): ProductFilter {
+  return raw === "atrasados" || isProductStatus(raw) ? raw : "todos";
+}
+
+export function matchesProductFilter(p: { status: ProductStatus; due_on: string | null }, filter: ProductFilter, today: string): boolean {
+  if (filter === "todos") return true;
+  if (filter === "atrasados") return productDueState(p.due_on, p.status, today) === "atrasada";
+  return p.status === filter;
 }

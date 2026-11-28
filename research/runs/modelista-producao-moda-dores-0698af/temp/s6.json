@@ -1,0 +1,527 @@
+{
+  "ok": true,
+  "data": {
+    "query": "product lifecycle management apparel tech pack sample approval rework",
+    "scope": "all",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab",
+      "clinicaltrials"
+    ],
+    "per_source": {
+      "openalex": 0,
+      "crossref": 25,
+      "doab": 0,
+      "clinicaltrials": 0
+    },
+    "raw_records": 25,
+    "merged_records": 25,
+    "returned": 25,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref.",
+      "SEC EDGAR: set HYPERRESEARCH_CONTACT_EMAIL — the SEC rejects requests whose User-Agent carries no contact address (HTTP 403)",
+      "FRED: set FRED_API_KEY"
+    ],
+    "results": [
+      {
+        "title": "Product lifecycle management systems",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/3-540-26906-1_3",
+        "doi": "10.1007/3-540-26906-1_3",
+        "year": 2005,
+        "authors": [],
+        "venue": "Product Lifecycle Management",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/3-540-26906-1_3",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer-Verlag"
+        }
+      },
+      {
+        "title": "ESG and Product Lifecycle Management in E-Commerce Apparel Retailing: A Dynamic Model of Returns, Resale, and Recycling",
+        "source": "crossref",
+        "url": "https://doi.org/10.2139/ssrn.5279679",
+        "doi": "10.2139/ssrn.5279679",
+        "year": 2025,
+        "authors": [
+          "Ziyang Sun",
+          "Shiyu Sun"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "preprint",
+        "identifier": "10.2139/ssrn.5279679",
+        "extra": {
+          "crossref_type": "posted-content",
+          "publisher": "Elsevier BV"
+        }
+      },
+      {
+        "title": "Understanding the product lifecycle",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/3-540-26906-1_10",
+        "doi": "10.1007/3-540-26906-1_10",
+        "year": 2005,
+        "authors": [],
+        "venue": "Product Lifecycle Management",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/3-540-26906-1_10",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer-Verlag"
+        }
+      },
+      {
+        "title": "Product lifecycle management systems",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/978-3-540-78172-1_3",
+        "doi": "10.1007/978-3-540-78172-1_3",
+        "year": 2008,
+        "authors": [],
+        "venue": "Product Lifecycle Management",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/978-3-540-78172-1_3",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer Berlin Heidelberg"
+        }
+      },
+      {
+        "title": "Product lifecycle management systems",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/978-3-540-24799-9_3",
+        "doi": "10.1007/978-3-540-24799-9_3",
+        "year": 2004,
+        "authors": [
+          "Antti Saaksvuori",
+          "Anselmi Immonen"
+        ],
+        "venue": "Product Lifecycle Management",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/978-3-540-24799-9_3",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer Berlin Heidelberg"
+        }
+      },
+      {
+        "title": "Understanding the product lifecycle",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/978-3-540-78172-1_11",
+        "doi": "10.1007/978-3-540-78172-1_11",
+        "year": 2008,
+        "authors": [],
+        "venue": "Product Lifecycle Management",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 5,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/978-3-540-78172-1_11",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer Berlin Heidelberg"
+        }
+      },
+      {
+        "title": "Introductory Chapter: Product Lifecycle Management",
+        "source": "crossref",
+        "url": "https://doi.org/10.5772/intechopen.1008994",
+        "doi": "10.5772/intechopen.1008994",
+        "year": 2025,
+        "authors": [
+          "Fausto Pedro García Márquez"
+        ],
+        "venue": "Industrial Engineering and Management",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.5772/intechopen.1008994",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "IntechOpen"
+        }
+      },
+      {
+        "title": "Produktdaten-Management und Product Lifecycle Management",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/b93672_3",
+        "doi": "10.1007/b93672_3",
+        "year": 2009,
+        "authors": [
+          "Martin Eigner",
+          "Ralph Stelzer"
+        ],
+        "venue": "Product Lifecycle Management",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 6,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/b93672_3",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer Berlin Heidelberg"
+        }
+      },
+      {
+        "title": "A Comparison between Consumer and Industry Perspectives on Sustainable Practices throughout the Apparel Product Lifecycle",
+        "source": "crossref",
+        "url": "https://doi.org/10.31274/itaa_proceedings-180814-404",
+        "doi": "10.31274/itaa_proceedings-180814-404",
+        "year": 2017,
+        "authors": [
+          "Xingqiu Lou",
+          "Huantian Cao"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "report",
+        "identifier": "10.31274/itaa_proceedings-180814-404",
+        "extra": {
+          "crossref_type": "report",
+          "publisher": "Iowa State University, Digital Repository"
+        }
+      },
+      {
+        "title": "Introductory Chapter: Product Lifecycle Management - Terminology",
+        "source": "crossref",
+        "url": "https://doi.org/10.5772/intechopen.81686",
+        "doi": "10.5772/intechopen.81686",
+        "year": 2018,
+        "authors": [
+          "Razvan Udroiu",
+          "Paul Bere"
+        ],
+        "venue": "Product Lifecycle Management - Terminology and Applications",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 6,
+        "work_type": "book-chapter",
+        "identifier": "10.5772/intechopen.81686",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "IntechOpen"
+        }
+      },
+      {
+        "title": "Product Lifecycle Management",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/978-3-319-17440-2_1",
+        "doi": "10.1007/978-3-319-17440-2_1",
+        "year": 2015,
+        "authors": [
+          "John Stark"
+        ],
+        "venue": "Decision Engineering",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 71,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/978-3-319-17440-2_1",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer International Publishing"
+        }
+      },
+      {
+        "title": "Product structures",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/3-540-26906-1_4",
+        "doi": "10.1007/3-540-26906-1_4",
+        "year": 2005,
+        "authors": [],
+        "venue": "Product Lifecycle Management",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/3-540-26906-1_4",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer-Verlag"
+        }
+      },
+      {
+        "title": "Product Lifecycle Management",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/978-0-85729-546-0_1",
+        "doi": "10.1007/978-0-85729-546-0_1",
+        "year": 2011,
+        "authors": [
+          "John Stark"
+        ],
+        "venue": "Decision Engineering",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 40,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/978-0-85729-546-0_1",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer London"
+        }
+      },
+      {
+        "title": "Applying Pumpkin Lifecycle Management as an Analogy for Product Lifecycle Management",
+        "source": "crossref",
+        "url": "https://doi.org/10.21275/sr241126004543",
+        "doi": "10.21275/sr241126004543",
+        "year": 2024,
+        "authors": [
+          "Prakhar Mittal"
+        ],
+        "venue": "International Journal of Science and Research (IJSR)",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.21275/sr241126004543",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "International Journal of Science and Research"
+        }
+      },
+      {
+        "title": "Product Lifecycle Management",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/978-3-319-24436-5_1",
+        "doi": "10.1007/978-3-319-24436-5_1",
+        "year": 2015,
+        "authors": [
+          "John Stark"
+        ],
+        "venue": "Decision Engineering",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 15,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/978-3-319-24436-5_1",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer International Publishing"
+        }
+      },
+      {
+        "title": "Product Lifecycle Management",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/978-3-319-24436-5_2",
+        "doi": "10.1007/978-3-319-24436-5_2",
+        "year": 2015,
+        "authors": [
+          "John Stark"
+        ],
+        "venue": "Decision Engineering",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/978-3-319-24436-5_2",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer International Publishing"
+        }
+      },
+      {
+        "title": "Product Lifecycle Management (PLM)",
+        "source": "crossref",
+        "url": "https://doi.org/10.3139/9783446452596.fm",
+        "doi": "10.3139/9783446452596.fm",
+        "year": 2017,
+        "authors": [
+          "Friedrich Peschke"
+        ],
+        "venue": "Product Lifecycle Management (PLM)",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "10.3139/9783446452596.fm",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Carl Hanser Verlag GmbH & Co. KG"
+        }
+      },
+      {
+        "title": "Principles of Product Lifecycle Management",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/9781003387909-3",
+        "doi": "10.1201/9781003387909-3",
+        "year": 2026,
+        "authors": [
+          "Uthayan Elangovan"
+        ],
+        "venue": "Handbook of Product Lifecycle Management (PLM)",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/9781003387909-3",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "Challenges of product management in manufacturing industry",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/3-540-26906-1_8",
+        "doi": "10.1007/3-540-26906-1_8",
+        "year": 2005,
+        "authors": [],
+        "venue": "Product Lifecycle Management",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/3-540-26906-1_8",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer-Verlag"
+        }
+      },
+      {
+        "title": "Product Lifecycle Management (PLM)",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/978-3-032-15225-1_1",
+        "doi": "10.1007/978-3-032-15225-1_1",
+        "year": 2026,
+        "authors": [
+          "John Stark"
+        ],
+        "venue": "Decision Engineering",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/978-3-032-15225-1_1",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer Nature Switzerland"
+        }
+      },
+      {
+        "title": "Knowledge Management Through Product Lifecycle",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/978-981-19-9626-9_1",
+        "doi": "10.1007/978-981-19-9626-9_1",
+        "year": 2023,
+        "authors": [
+          "Hongwei Wang",
+          "Gongzhuang Peng"
+        ],
+        "venue": "Collaborative Knowledge Management Through Product Lifecycle",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/978-981-19-9626-9_1",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer Nature Singapore"
+        }
+      },
+      {
+        "title": "MODERN AUTOMATION TOOLS FOR PRODUCT LIFECYCLE MANAGEMENT SYSTEMS’S SOFTWARE DEVELOPMENT",
+        "source": "crossref",
+        "url": "https://doi.org/10.46916/15062026-2-978-5-00276-121-0",
+        "doi": "10.46916/15062026-2-978-5-00276-121-0",
+        "year": 2026,
+        "authors": [
+          "Tatyana Andreevna Petrukhina"
+        ],
+        "venue": "MODERN AUTOMATION TOOLS FOR PRODUCT LIFECYCLE MANAGEMENT SYSTEMS’S SOFTWARE DEVELOPMENT",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.46916/15062026-2-978-5-00276-121-0",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "ICSP \"NEW SCIENCE\""
+        }
+      },
+      {
+        "title": "Product Lifecycle Management",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/b138258",
+        "doi": "10.1007/b138258",
+        "year": 2005,
+        "authors": [],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": "http://link.springer.com/content/pdf/10.1007/b138258.pdf",
+        "citation_count": 3,
+        "work_type": "book",
+        "identifier": "10.1007/b138258",
+        "extra": {
+          "crossref_type": "book",
+          "publisher": "Springer-Verlag"
+        }
+      },
+      {
+        "title": "Product Lifecycle Management (PLM)",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/978-3-030-98578-3_1",
+        "doi": "10.1007/978-3-030-98578-3_1",
+        "year": 2022,
+        "authors": [
+          "John Stark"
+        ],
+        "venue": "Decision Engineering",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 45,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/978-3-030-98578-3_1",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer International Publishing"
+        }
+      },
+      {
+        "title": "Product Lifecycle Management (PLM)",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/978-3-030-28864-8_1",
+        "doi": "10.1007/978-3-030-28864-8_1",
+        "year": 2019,
+        "authors": [
+          "John Stark"
+        ],
+        "venue": "Decision Engineering",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 22,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/978-3-030-28864-8_1",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer International Publishing"
+        }
+      }
+    ]
+  },
+  "count": 25,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T06:06:05.142192+00:00"
+}

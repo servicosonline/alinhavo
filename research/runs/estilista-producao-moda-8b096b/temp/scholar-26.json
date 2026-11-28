@@ -1,0 +1,1043 @@
+{
+  "ok": true,
+  "data": {
+    "query": "planejamento de colecao de moda etapas pesquisa briefing desenvolvimento",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 25,
+      "crossref": 25,
+      "doab": 0
+    },
+    "raw_records": 50,
+    "merged_records": 48,
+    "returned": 48,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Inserção do upcycling no planejamento de coleção de moda",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/cid2017-41",
+        "doi": "10.5151/cid2017-41",
+        "year": 2018,
+        "authors": [
+          "Ana Carolina Rodarte",
+          "Andréia Salvan Pagnan"
+        ],
+        "venue": null,
+        "abstract": "As propostas para inserção da sustentabilidade no design de moda incluem uma série de técnicas de utilização de resíduos, como o upcycling, técnica que ganha holofotes no âmbito da moda como uma solução para diminuir os impactos da indústria.Defendido por autores como Kate Fletcher, Michael Braungart e William McDonough, o upcycling se popularizou, sem, no entanto, ter seus processos e princípios esclarecidos.A proposta é sugerir um método de pesquisa de coleção que possa dialogar com a valorização de tecidos e roupas que poderiam ser descartados, de forma que o produto final se mantivesse fiel ao conceito elaborado para a peça e não tivesse o upcycling como mote principal.Para isso, buscou-se fundamentação na Metodologia Clássica do Design, bem como a introdução de novas ferramentas e métodos para elaboração do projeto de uma peça de moda.",
+        "pdf_url": "http://pdf.blucher.com.br/designproceedings/cid2017/41.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W2804750202",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Reflexões sobre o uso de metodologias de projeto de produto no desenvolvimento de coleção de moda",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.5965/1982615x06122013155",
+        "doi": "10.5965/1982615x06122013155",
+        "year": 2013,
+        "authors": [
+          "Bibiana Silveira Horn",
+          "Guilherme Corrêa Meyer",
+          "Vinícius Gadis Ribeiro"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "Este artigo é resultado de uma pesquisa que descreve o desenvolvimento de uma coleção de moda a partir de um compilado de metodologias de projeto. Tal compilado procurou combinar etapas projetuais adotadas em projetos de produto com etapas utilizadas no desenvolvimento de coleções de moda. Ao final, o artigo reflete sobre os efeitos gerais da pesquisa, e, mais particularmente, sobre a aproximação realizada entre o universo metodológico de design de produto, e o universo projetual do desenvolvimento de coleções.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/modapalavra/article/download/3482/6855",
+        "citation_count": 12,
+        "work_type": "article",
+        "identifier": "W2272371389",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Ferramenta digital para o ensino e o planejamento de uma coleção de moda",
+        "source": "openalex",
+        "url": "https://doi.org/10.37780/dsch.v21n1-019",
+        "doi": "10.37780/dsch.v21n1-019",
+        "year": 2020,
+        "authors": [
+          "Gabriel Rodrigues Felipetto",
+          "Rubiana de Quadros Sandri",
+          "Ricardo Fröhlich da Silva",
+          "Taís Steffenello Ghisleni",
+          "Elsbeth Léia Spode Becker"
+        ],
+        "venue": "Disciplinarum Scientia | Ciências Humanas",
+        "abstract": "No atual cenário de mudanças e a prática docente tem grande potencial para renovar a educação e proporcionar novas ferramentas e metodologias de ensino. O objetivo principal neste projeto foi criar uma ferramenta digital de ensino aplicada nos cursos de Moda para a criação de uma Coleção de Moda. A metodologia foi embasada na pesquisa qualitativa para compor o planejamento das etapas imprescindíveis para o desenvolvimento de uma ferramenta útil para o ensino e o planejamento de uma Coleção de Moda. A criação da ferramenta foi com a utilização do motor gráfico Unity com programação em linguagem C# no Microsoft Visual Studio. Na modelagem foi utilizado o software 3ds Max 9. A criação do cenário se baseou na Teoria das Cinco Peles ou a Teoria de Hundertwasser (1964). O resultado consistiu na composição de uma ferramenta destinada ao ensino de Moda, para a criação de uma Coleção de Moda. A ferramenta recria o espaço físico, com ambientes e utensílios, necessário para integrar um ateliê de Moda ou parte de uma indústria.",
+        "pdf_url": "https://periodicos.ufn.edu.br/index.php/disciplinarumCH/article/download/3453/2627",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W3109335880",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Estudo de caso de uma metodologia utilizada para a criação de uma coleção de moda",
+        "source": "openalex",
+        "url": "https://doi.org/10.15536/2594-4398.2019.v3.n3.pp.019-032.1414",
+        "doi": "10.15536/2594-4398.2019.v3.n3.pp.019-032.1414",
+        "year": 2019,
+        "authors": [
+          "Laiana Pereira da Silveira",
+          "Frantieska Huszar Schneid"
+        ],
+        "venue": "Revista Poliedro",
+        "abstract": "O artigo apresenta um estudo de caso que expõe ideias e traz exemplos de metodologias utilizadas para a criação e o desenvolvimento de uma coleção de moda, aplicadas ao longo do curso superior de tecnologia em Design de Moda do Instituto Federal Sul-rio-grandense campus Pelotas Visconde da Graça. As reflexões são apresentadas pelas autoras, uma delas docente do curso e outra egressa da primeira turma. Ao longo dos seis semestres de curso, foram criadas e desenvolvidas coleções de moda embasadas em Treptow (2013), que possui uma bibliografia atualizada e uma das mais completas na área de planejamento de coleção.",
+        "pdf_url": "https://periodicos.ifsul.edu.br/index.php/poliedro/article/download/1414/1317",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W3088637051",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Guia de Orientação Para o Desenvolvimento de Projetos - GODP - Aplicado à Prática Projetual no Design de Moda",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1982615x13272020008",
+        "doi": "10.5965/1982615x13272020008",
+        "year": 2020,
+        "authors": [
+          "Giselle Schmidt Alves Díaz Merino",
+          "Thiago Varnier",
+          "Elen Makara"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "A prática projetual do designer de moda está associada ao desenvolvimento de uma coleção, a qual passa por várias etapas até sua materialização e disponibilização no mercado. Assim, para coordenar sua criação, torna-se importante a aplicação de uma metodologia que auxilie e sistematize todo o processo de desenvolvimento do produto de vestuário. Desta maneira, este artigo tem como objetivo aplicar o Guia de Orientação para o desenvolvimento de Projetos, na prática projetual do Design de Moda. Foi utilizado a pesquisa aplicada, qualitativa de cunho descritivo, por meio de uma pesquisa bibliográfica. Os resultados apontam que o GODP aplicado a prática projetual do Design de moda, pode auxiliar os projetistas na compreensão das necessidades dos usuários e na gestão do processo operacional de desenvolvimento de vestuário. Contudo utilizar uma metodologia centrada no usuário permite a obtenção de informações relevantes para o projeto, além de levantar dados sobre o público-alvo, favorecendo o conforto, segurança e usabilidade das vestimentas.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/modapalavra/article/download/15386/11294",
+        "citation_count": 31,
+        "work_type": "article",
+        "identifier": "W3092014826",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "ANÁLISE DE USO DE CRIATIVIDADE NO PROCESSO DE DESENVOLVIMENTO DE ARTIGOS DE MODA",
+        "source": "openalex",
+        "url": "https://doi.org/10.14210/alcance.v29n2(mai/ago).p143-155",
+        "doi": "10.14210/alcance.v29n2(mai/ago).p143-155",
+        "year": 2022,
+        "authors": [
+          "Lenice Eli Lunkes Scarpato",
+          "Dusan Schreiber",
+          "Vanessa Theis"
+        ],
+        "venue": "Revista Alcance",
+        "abstract": "Objetivo: Analisar o processo criativo na percepção dos profissionais de áreas criativas, que atuam em empresas do setor coureiro-calçadista localizadas na região do Vale dos Sinos. Metodologia: Optou-se pela abordagem qualitativa e estratégia de pesquisa de campo, considerando seu caráter exploratório. Os dados foram coletados por meio de entrevistas semiestruturadas, sendo analisado por meio da análise textual discursiva. Resultados: Constatou-se que o processo criativo é constituído de etapas de desejo e motivação intrínseca, preparação, manipulação, geração, verificação e validação de ideias. Contudo, muitos elementos externos, como a pressão para reduzir o lead-time para criar e as responsabilidades sobre o sucesso de vendas e redução de custos, fazem parte do todo que compreende o fenômeno complexo da criatividade no âmbito organizacional. Implicações teóricas: Como os desafios das organizações, estão cada vez mais relacionados com problemas de caráter multidisciplinar, entende-se que o estudo oferece contribuições para incentivar mais pesquisadores a explorar o viés complexo inerente às organizações na temática de criatividade, de forma a auxiliar os gestores para concepção de práticas que podem potencializar a mesma. Originalidade: Existe uma necessidade de aplicação da criatividade ao longo das etapas do processo produtivo quando se refere a indústria da moda, o que se contradiz com as estruturas de moda que, muitas vezes, veem o processo criativo a par do processo produtivo. Portanto, torna-se oportuno contribuir com uma investigação que busca a compreensão da criatividade como fenômeno complexo em empresas do segmento da indústria criativa de moda, mais especificamente nos ambientes organizacionais do setor de calçados, na região do Vale dos Sinos.",
+        "pdf_url": "https://periodicos.univali.br/index.php/ra/article/download/17219/10994",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W4310683460",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A TEORIA E A PRÁTICA NO DESENVOLVIMENTO DE COLEÇÃO DE MODA: ESTUDO DE CASO EM EMPRESAS DE VESTUÁRIO NO ESTADO DO RIO GRANDE DO SUL",
+        "source": "openalex",
+        "url": "https://periodicos.feevale.br/seer/index.php/revistapraksis/article/view/1220",
+        "doi": "10.25112/rpr.v1i0.1220",
+        "year": 2017,
+        "authors": [
+          "Renata Pedron",
+          "Carla Pantoja Giuliano"
+        ],
+        "venue": "Revista Prâksis",
+        "abstract": "O contexto atual da moda brasileira é reconhecido como importante negócio no mercado nacional e internacional e visto pelo Ministério da Cultura como expressão da diversidade cultural do país. Este estudo originou-se a partir da pressuposição da existência de desconexão entre a teoria e a prática, em relação ao ensino de metodologias projetuais para desenvolvimento de coleção e indústria do vestuário, como também de relatos de alunos. Os conhecimentos dos teóricos da área de Design de Moda foram aproveitados na investigação das contribuições que as metodologias projetuais podem exercer no desenvolvimento de coleções nas indústrias do vestuário no Estado do Rio Grande do Sul. A pesquisa possui enfoque qualitativo sendo classificada em bibliográfica, descritiva e exploratória, tendo como método de investigação o estudo de caso múltiplo, com vistas a responder de forma concisa aos anseios desse estudo. Ao término do estudo esperou-se encontrar conexões propícias entre a proposta desenvolvida pelo ensino universitário e a aplicação desses conhecimentos no contexto do mercado de moda, objetivando contribuir com os conhecimentos na área, assim como estreitar relações entre a academia e indústria da moda. Palavras-chave: Design de Moda. Ensino de Moda. Metodologia projetual. Indústria do Vestuário. ABSTRACTThe current context of Brazilian fashion is recognized as an important business on the national and international market and seen by the Ministry of Culture as an expression of the cultural diversity in Brazil. This study originated from the presupposition of existence of disconnection between theory and practice, in relation to the teaching of methodologies projetuais to development of collection and the garment industry, as well as reports of students. The knowledge of the area of Fashion Design were used in the investigation of the contributions that the methodologies projetuais can exercise in collection development in the clothing industry in the state of Rio Grande do Sul. The research includes qualitative focus being classified in the bibliographic, descriptive and exploratory, having as a method of research the multiple case study, with a view to respond concisely the aspirations of this study. At the end of this study, it is expected to find suitable connections between the applied proposal in university education and the application of such knowledge in the context of the fashion market aiming to contribute to the knowledge in this area, as well as narrow the relationship between the academy and the fashion industry.Keywords: Fashion Design. Fashion Study. Projectual Methodology. Clothing Industry.",
+        "pdf_url": "https://periodicos.feevale.br/seer/index.php/revistapraksis/article/download/1220/1870",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W2739367339",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Metodologia projetual para educomunicar o desenvolvimento de coleções de moda",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/issn.2316-9125.v26i1p65-79",
+        "doi": "10.11606/issn.2316-9125.v26i1p65-79",
+        "year": 2021,
+        "authors": [
+          "Taís Steffenello Ghisleni",
+          "Rubiana de Quadros Sandri",
+          "Elsbeth Léia Spode Becker"
+        ],
+        "venue": "Comunicação & Educação",
+        "abstract": "El objetivo del artículo es describir una propuesta de práctica educomunicativa para recrear metodologías de diseño en la enseñanza y el desarrollo de colecciones de moda. La metodología es cualitativa basada en la revisión de la literatura. El texto presenta una breve comprensión de las metodologías de diseño en el desarrollo de colecciones de moda basadas en los auotres Montemezzo (2003), Jones (2005), Barcaro (2008), Sorger y Udale (2009), Renfrew (2010) y Treptow (2013) , además de describir algunas metodologías utilizadas en el diseño de moda y presenta una propuesta para la práctica educomunicativa en la enseñanza y el desarrollo de colecciones de moda. Se infirió que las metodologías de diseño para el desarrollo de colecciones de moda pueden utilizar prácticas educativas y así facilitar el proceso de enseñanza en el desarrollo de colecciones, articulando el proceso de colaboración entre los estudiantes.",
+        "pdf_url": "https://www.revistas.usp.br/comueduc/article/download/170265/173991",
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "W3183809817",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Gestão do design de moda sustentável: metodologia para a criação de um projeto de coleção",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10400.26/31055",
+        "doi": null,
+        "year": 2019,
+        "authors": [
+          "Maiara Pereira Dal Toé"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "No setor da moda discute-se amplamente a necessidade de mudar suas estruturas de sustentação, para incutir nelas um senso de responsabilidade ambiental, económica e social, porém o ensino superior de moda não debate sobre o tema sustentabilidade de maneira eficiente no processo de concepção dos produtos criativos. Este trabalho apresenta uma metodologia de projeto para os estudantes de moda, baseado na metodologia de design de Lobach (2001) e Camargo (2016) com os conceitos de sustentabilidade defendidos por Fletcher e Grose (2011) e McDonough e Braungart (2013). Ao inserir a metodologia projetual através da Gamification em sala de aula o designer de moda exerce o papel de gestor de design e por consequência o processo criativo obtém coerência para com os valores da sustentabilidade. O jogo tem por finalidade ensinar sobre a economia circular de uma calça jeans e desenvolver no estudante uma visão holística sobre o ciclo de vida do produto, assim como interligá-lo a todas as esferas do desenvolvimento de uma coleção de moda sustentável.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7135572671",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "O Processo de Desenvolvimento de Produtos de Moda baseado no Design Thinking um estudo de caso",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2012v3n2p51",
+        "doi": "10.5433/2236-2207.2012v3n2p51",
+        "year": 2012,
+        "authors": [
+          "Marina Xavier Cardoso",
+          "Ana Paula Perfetto Demarchi"
+        ],
+        "venue": "Projetica",
+        "abstract": "This article discusses the process of development of fashion products, a process that is rapidly changingface and constant exchange of information. Given this scenario, one approach stands out: designthinking. Therefore, this article aims to structure and suggest improvements to the development processof a product manufacturing industry, based on Design Thinking. For that was diagnosed in the processof product development and a proposal for intervention in order to strengthen the weaknesses identifiedby the analysis performed.",
+        "pdf_url": "https://ojs.uel.br/revistas/uel/index.php/projetica/article/download/13496/12179",
+        "citation_count": 12,
+        "work_type": "article",
+        "identifier": "W2038040563",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "My briefing: uma proposta de interface para designers autônomos no desenvolvimento de briefings de identidade visual",
+        "source": "openalex",
+        "url": "https://doi.org/10.36229/978-65-5866-522-9.cap.10",
+        "doi": "10.36229/978-65-5866-522-9.cap.10",
+        "year": 2025,
+        "authors": [
+          "Jéssica Azevedo da Silva",
+          "Romário Oliveira da Silva",
+          "Thalia Marinho Pereira",
+          "Andressa Maria Cruz dos Santos"
+        ],
+        "venue": "Editora Poisson eBooks",
+        "abstract": null,
+        "pdf_url": "https://doi.org/10.36229/978-65-5866-522-9.cap.10",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4410425903",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Design de Moda : framework para implementação de estratégias de inovação pelo Design no processo de desenvolvimento de produtos de moda em empresas de confecção do vestuário",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/182429",
+        "doi": null,
+        "year": 2018,
+        "authors": [
+          "Keila Marina Nicchelle"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "O Design, inserido na complexidade do atual ambiente social, cultural, produtivo e mercadológico se apresenta como uma atividade complexa, o que exige o estudo de estratégias de inovação direcionadas a resolução de problemas de projeto, aplicáveis ao Design de Moda. Nesse sentido, o presente estudo propõe a apresentação de um framework para implementação de estratégias de inovação pelo Design no processo de desenvolvimento de produtos de moda em empresas de confecção do vestuário, valendo-se da abordagem teórico-metodológica de Design Estratégico. Frente a essa proposta de estudo, a pesquisa foi desenvolvida em três fases sistêmicas: Epistemologia do Projeto, Praxiologia do Projeto e Pedagogia do Projeto. A primeira fase compreendeu a realização de uma Pesquisa Bibliográfica sobre o tema com o objetivo de refletir sobre a natureza complexa da atividade de Design sob a perspectiva da cultura de projeto, trazendo algumas abordagens conceituais e metodológicas em Design Estratégico e Design de Moda. A segunda fase compreendeu a realização de uma Pesquisa de Campo e de um Estudo de Caso com o objetivo identificar as práxis de Design adotadas em empresas de confecção do vestuário vinculadas ao Arranjo Produtivo Local Têxtil e do Vestuário (APL Polovest), localizado na região do Alto Uruguai Gaúcho. Inicialmente, buscou-se identificar a presença e as formas de atuação do Design nestas empresas, e posteriormente, diagnosticar a função do Design no processo de desenvolvimento de produtos de moda em três empresas com potencial para implementação de estratégias de inovação pelo Design. A terceira fase compreendeu a realização de uma Pesquisa Ação com o objetivo de implementar estratégias de inovação pelo Design no processo de desenvolvimento de produtos de moda nas três empresas que participaram da fase anterior do estudo. Os resultados obtidos nestas fases da pesquisa permitiram a reflexão sobre a teoria e a prática em Design de Moda, possibilitando a configuração de um framework para orientar a implementação de estratégias de inovação no processo de desenvolvimento de produtos de moda em empresas de confecção do vestuário. O framework propõe a construção de uma nova cultura de projeto nestas empresas, capitalizando um conjunto de conhecimentos em torno da ação projetual, a fim de direcionar à identificação, à análise e a resolução de problemas de projeto, inseridos na complexidade da atividade de Design. Portanto, espera-se que a aplicação do framework possa indicar oportunidades de inovação projetual, tornando estas empresas mais competitivas por meio de suas ofertas, com vistas ao fortalecimento do setor do vestuário na região do Alto Uruguai Gaúcho.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2910206897",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Moda, sustentabilidade e ergonomia: RBS sobre métodos projetuais para o desenvolvimento de produtos de moda",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1982615x19482026e0005",
+        "doi": "10.5965/1982615x19482026e0005",
+        "year": 2026,
+        "authors": [
+          "Maria Fernanda Sornas Viggiani",
+          "Mônica Cristina De Moura"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "The fashion industry faces challenges related to sustainability, from production processes to the disposal of textile waste. Adopting slow fashion, combined with ergonomic principles from the product conception stage, is crucial to ensure comfort, usability, and to avoid premature disposal. This paper investigates the integration of ergonomics and sustainability in fashion design methods, covering everything from the product conception phase to post-consumption for new products, aiming to strike a balance between aesthetics, user comfort, and sustainable practices. A Systematic Literature Review (SLR) was conducted to identify fashion design methods that incorporate ergonomic and/or sustainable principles at various stages. A total of 750 documents were identified, from which, after applying filters, five were selected for bibliometric and content analysis—two focusing on ergonomic methods and three on sustainable methods for the industry. The comparative analysis of these methods aimed to understand different approaches to problem identification, planning, generation of alternatives, idea development, and materialization. This research is part of a master's thesis by one of the authors and contributes to the development of guidelines for designing sustainable, ergonomic, and contemporary products, applied to teaching and learning in technical and higher education fashion design courses. It is concluded that integrating sustainable principles, especially ergonomics, results in more comprehensive and responsible solutions that effectively meet user needs and contribute to a more sustainable and balanced future.",
+        "pdf_url": "https://revistas.udesc.br/index.php/modapalavra/article/download/25180/20244",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7225783713",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Experiência pedagógica em torno de alternativas projetuais para o desenvolvimento de coleções de moda decoloniais.",
+        "source": "openalex",
+        "url": "https://doi.org/10.29327/5457226.1-40",
+        "doi": "10.29327/5457226.1-40",
+        "year": 2024,
+        "authors": [
+          "Ana Carla Figueiredo Gomes da Costa",
+          "Sandra Regina Rech"
+        ],
+        "venue": "Congresso Brasileiro de Pesquisa e Desenvolvimento em Design (P&D Design)",
+        "abstract": "Este artigo condensa as principais conclusões do relato de experiência pedagógica da disciplina Metodologia projetual, ofertada no Bacharelado de Design de Moda, semestre 2023.2, Universidade do Estado de Santa Catarina - UDESC. A investigação parte da perspectiva do \"Decolonizar o Design” utilizado como inspiração, referência para o processo de planejamento do produto. Sobre os métodos utilizados, analisou-se as experiências pedagógicas de duas turmas do bacharelado. O conteúdo programático consistiu em aulas expositivas com base no método de aprendizagem ativa ABP (aprendizagem baseada em problema), sendo apresentadas premissas do pensamento decolonial, procedimentos projetuais e aplicação dinâmicas criativas. Em relação aos procedimentos técnicos: pesquisa bibliográfica, análise sistemática da literatura (RSL). Quanto aos resultados apontaram para discussões sobre a utilização de referências decoloniais, limitações na formação do designer de moda, constatou-se que a colonização ainda está presente no imaginário social, refletindo no processo criativo, limitando a utilização de referências oriundas da América Latina. Palavras Chave: design decolonial; experiência pedagógica; design e moda.",
+        "pdf_url": "https://periodicos.ufam.edu.br/index.php/cadernoppgd/article/download/17098/10536",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4405312085",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Even3",
+          "openalex_type": "conference-paper",
+          "oa_status": "hybrid",
+          "also_in": "openalex,crossref"
+        }
+      },
+      {
+        "title": "ESTUDO PARA CONSTRUÇÃO DE METODOLOGIA DE DESIGN DE MODA SUSTENTÁVEL",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/designpro-ped-00598",
+        "doi": "10.5151/designpro-ped-00598",
+        "year": 2014,
+        "authors": [
+          "Evelise Anicet Rüthschilling",
+          "Anne Anicet"
+        ],
+        "venue": "Congresso Brasileiro de Pesquisa e Desenvolvimento em Design (P&D Design)",
+        "abstract": "Este texto descreve resultados de pesquisa e sugere um modelo de metodologia projetual para o design de moda sustentável com vistas à fabricação em baixa escala produtiva. Analisa o cenário e atores da cadeia produtiva e identifica o designer como elemento-chave para promover a mudança de um fazer tradicional para novos modos de criação e produção de roupas alinhados às estratégias de desenvolvimento sustentável. Considerando incipiente a produção científica nesta área e escassas as publicações, este trabalho visa apoiar o trabalho de alunos, professores e profissionais de design de moda no desenvolvimento de seus projetos, assim como também compartilhar resultados de investigação científica baseada na observação participante e levantamento bibliográfico.",
+        "pdf_url": "https://pdf.blucher.com.br/designproceedings/11ped/00598.pdf",
+        "citation_count": 14,
+        "work_type": "other",
+        "identifier": "W2163346646",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Editora Edgard Blücher",
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze",
+          "also_in": "openalex,crossref"
+        }
+      },
+      {
+        "title": "A TOMADA DE DECISÃO PARA O DESENVOLVIMENTO DE NOVOS PRODUTOS: UM ESTUDO NA INDÚSTRIA DA MODA DE BELO HORIZONTE",
+        "source": "openalex",
+        "url": "https://doi.org/10.5752/p.1984-6606.2021v21n58p79-99",
+        "doi": "10.5752/p.1984-6606.2021v21n58p79-99",
+        "year": 2021,
+        "authors": [
+          "Rita de Cássia Leal Campos",
+          "Uajará Pessoa Araújo",
+          "Lílian Bambirra de Assis"
+        ],
+        "venue": "Revista Economia & Gestão",
+        "abstract": "Este artigo teve como objetivo investigar como ocorre a tomada de decisão dos gestores na indústria de moda feminina de Belo Horizonte no processo de planejamento para o desenvolvimento de novos produtos. A pesquisa tem abordagem qualitativa e se classifica como descritiva. Para a coleta de dados, foram realizadas sete entrevistas semiestruturadas com gestoras de empresas da indústria da moda. Para a análise dos dados, utilizou-se a análise de conteúdo, contando com o auxílio do software QDA Miner. Os resultados indicaram que o processo decisório na indústria da moda se dá coletivamente e de modo mais informal, seguindo um modelo processual de tomada de decisão. O planejamento para o desenvolvimento de novas coleções geralmente é realizado pelo proprietário da marca com o apoio de sua equipe. Para tomar decisões, os gestores utilizam pesquisas de mercado e de tendências, mas também se baseiam em suas intuições, habilidades e experiências.",
+        "pdf_url": "http://periodicos.pucminas.br/index.php/economiaegestao/article/download/24790/18160",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W3168650844",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Metodologias e Ferramentas de Design aplicadas na graduação para o desenvolvimento de Coleções de Moda",
+        "source": "openalex",
+        "url": "https://dspace.palermo.edu/ojs/index.php/actas/article/view/2080",
+        "doi": "10.18682/add.vi32.2080",
+        "year": 2020,
+        "authors": [
+          "Gisela Costa Pinheiro Monteiro",
+          "Thais Vieira",
+          "Paola de Lima Vichy"
+        ],
+        "venue": "Actas de Diseño",
+        "abstract": "Este artigo descreve os principais modelos metodológicos e ferramentas utilizadas para o desenvolvimento de coleções ensinados aos alunos de Design de Moda ao longo dos últimos cinco anos (2011 a 2016). Os registros destas informações ocorreram durante a observação e anotações dos trabalhos dos alunos no decurso das disciplinas ministradas por três professoras, também autoras deste artigo. São descritas ferramentas apropriadas do design tradicional e de outras disciplinas correlatas para a configuração de produtos do vestuário. Pretende-se com isso contribuir para as discussões em curso sobre o desenvolvimento de uma metodologia própria para o campo do design de moda.",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/actas/article/download/2080/5975",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W7216374115",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Artesanato e o design de produto : limitações e potencialidades no desenvolvimento de uma coleção em renda de bilro",
+        "source": "openalex",
+        "url": "https://repositorio.ufpb.br/jspui/handle/123456789/34226",
+        "doi": null,
+        "year": 2024,
+        "authors": [
+          "Raíssa Schneweiss de Farias Rêgo"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Traditional crafts need to develop their sustainable value through innovations and the development of creative products with local cultural identity, as well as constantly improving the product development process through innovation and design. This work aims to contribute to the process of developing artisanal bobbin lace products in order to assist artisans, meet consumer needs and preserve local cultural characteristics and traditional artisanal techniques. Initially, a Systematic Literature Review (RSL) was carried out in order to analyze how design and crafts are approached in scientific literature in an integrated way. The RSL results point to the mutual benefits in integrating design with crafts, creating identity and cultural value for artisanal products, adding value to the product and promoting local development. Next, multiple case studies were carried out with four communities of bobbin lacemakers, using an adaptation of the Sustainable Value Exchange Matrix (SVEM), with the aim of analyzing how the perspective of business models for sustainability can contribute to craft enterprises. The results show that some aspects of sustainability are already practiced by these enterprises, however, there are some points that still require greater investment, such as the development of new products, marketing, organizational culture and corporate governance, so that can achieve sustainability and its benefits. Finally, action research was carried out at Associação Rendeiras da Vila - RN, with the objective of understanding the specificities of the product development process for a lingerie collection, using bobbin lace, to identify the potentialities and limitations of this process. As potentialities of the Association, the creative capacity and development of different lace design standards and the quality of the lace stand out and, as limitations, the difficulty in receiving and specifying demand, project management, preparation budget and the long income production time. Design and universities can work together with artisanal communities, helping artisans produce their own innovations and, thus, safeguard artisanal knowledge.",
+        "pdf_url": "https://repositorio.ufpb.br/jspui/bitstream/123456789/34226/1/Ra%c3%adssaSchneweissDeFariasR%c3%aago_Dissert.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7120315310",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Adaptação e moda: Uma coleção inspirada em Julio Cortazar",
+        "source": "openalex",
+        "url": "https://repositorio.ufsc.br/handle/123456789/192128",
+        "doi": null,
+        "year": 2018,
+        "authors": [
+          "Ana Clara Reiter"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Entender e exercitar o processo de tradução de uma narrativa verbal em visual, usando a moda como o canal para fazer isso. Um projeto prático de design de moda, que consiste na criação e elaboração de duas coleções de moda vestuário, uma com foco conceitual e a outra comercial, através da metodologia Treptow de forma adaptada para este projeto específico. Foi realizado o entendimento do tema escolhido, que é o livro de contos “História de cronopios e famas” de Julio Cortazar, além de pesquisas relevantes para o comercio de moda, como de tendência e de mercado. Foram escolhidas diretrizes visuais e de design e criadas alternativas para as coleções e em seguida houve a materialização das mesmas, através de desenhos técnicos, ilustrações, pilotagem e por fim um catalogo de moda para a coleção comercial.",
+        "pdf_url": "https://repositorio.ufsc.br/bitstream/123456789/192128/1/PCC%20-%20Ana%20Clara%20Reiter.pdf",
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "W2922532170",
+        "extra": {
+          "openalex_type": "report",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Jeans no segmento de moda íntima",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1822/22369",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Juliana Pessoa"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "A busca por novas tecnologias e tecidos diferenciados é algo permanente no mundo da moda. As pesquisas de tendências e de mercado têm demostrando que as empresas procuram aprimorar e diferenciar os seus tecidos de forma a customizar. As novas tecnologias, nomeadamente os tecidos diferenciados permitem obter mais conforto, um valor maior agregado para o consumidor, com um bom caimento e um ótimo ajustamento ao corpo, propriedade tão desejada pelos utilizadores no segmento de underwear. O presente trabalho tem como objetivo mostrar um estudo sobre a aplicação do Jeans no segmento de moda íntima. Inicialmente será apresentado uma pesquisa sobre a história do jeans e da moda íntima. Na continuidade do estudo um tecido Jeans bi-elástico ultrafino com acabamentos funcionais será utilizado para o desenvolvimento de três protótipos, com a finalidade de serem utilizados no segmento de moda íntima feminina. Numa última fase desta pesquisa será efetuada a validação ergonómica e funcional dos protótipos desenvolvidos, tendo em atenção as suas características de limpeza e conservação de acordo com as normas de qualidade. No primeiro momento na elaboração do tecido e das peças fez-se uma pesquisa de contextualização dos produtos, em que se procurou desenvolver um novo produto para responder as necessidades psicológicas e fisiologicas da usuária, que sempre está em busca de novidades e de produtos com novos valores agregados. Numa pesquisa realizada verificou-se que no mercado não existia um tecido plano bi-elástico que pudessem atender as necessidades dos consumidores de lingerie. Após a pesquisa feita que foram levantados os problemas, partiuse para a elaboração do novo produto que foram realizados desenhos, testes com o material e a prototipagem. O resultado obtido foi um tecido bi-elástico com 86% de algodão e 14% de elastano com aplicação ao segmento de lingerie, sendo confortável e usável, onde possui propriedades funcionais anti-odor e mais macio.",
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W1639389236",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Workflow para o desenvolvimento de projetos de design de superfície com foco em estamparia têxtil para a área da moda",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/163758",
+        "doi": null,
+        "year": 2017,
+        "authors": [
+          "Tatiana Laschuk"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "O desenvolvimento de projetos de design de superfície em estamparia têxtil exige o conhecimento da composição visual e também das tecnologias têxtil e de impressão. Na área da moda, esse conhecimento é ainda mais específico, visto que os projetos em estamparia podem ser desenvolvidos para setores como os de confecção, malharia retilínea e calçadista, os quais têm importante representatividade no estado do Rio Grande do Sul, Brasil. As particularidades de concepção, desenvolvimento e impressão dos projetos para cada setor devem ser consideradas para que os projetos atinjam o nível exigido industrialmente. Dessa forma, o trabalho dos designers de superfície depende da inter-relação afinada entre os clientes das indústrias de transformação da área da moda que encomendam seus serviços e os prestadores de serviços em estamparia, a fim de que os projetos executados estejam adequados aos requisitos projetuais e técnicos de cada setor. A partir desse contexto, o objetivo geral da presente tese é sistematizar o processo de desenvolvimento de projetos de design de superfície em estamparia têxtil para a área da moda por meio de fluxo de trabalho - workflow - integrado entre designers de superfície, indústrias de estamparia e de transformação da área da moda. A pesquisa, de natureza qualitativa, está dividida em sete fases. Na primeira e na segunda fases, utilizou-se a pesquisa bibliográfica para contextualizar o design de superfície e apresentar as principais tecnologias de impressão têxtil, o contexto da estamparia têxtil na área da moda e a utilização desse recurso nos setores de confecção, malharia retilínea e calçadista. Na terceira, quarta e quinta fases, foram realizadas entrevistas, guiadas por roteiro semiestruturado, com designers de superfície, indústrias prestadoras de serviços em estamparia e indústrias de transformação da área da moda. Junto aos designers de superfície, pôde-se identificar o desenvolvimento de estampas e os aspectos considerados nesse processo em cada setor. Com as indústrias de transformação, foi possível identificar as particularidades de cada setor em relação ao projeto e à produção de estampas. Na pesquisa junto às estamparias, verificaram-se as especificações das tecnologias de impressão disponíveis e seus processos de desenvolvimento. Na sexta fase da pesquisa, realizou-se a análise dos dados coletados sobre cada um dos atores em função das categorias: relação entre os atores, projetual e técnica. A seguir, na sétima fase, foi realizada a discussão desses dados, respaldada na fundamentação teórica. A partir dos conhecimentos levantados sobre os achados de campo, propõe-se o workflow para o desenvolvimento de projetos em design de superfície em estamparia têxtil, unificado para os setores de confecção, malharia retilínea e calçadista, calcado nas reais necessidades de interação entre os atores da pesquisa e nas diferenças verificadas entre os setores pesquisados no que se refere ao projeto e à impressão de estampas. Assim, apresentam-se alternativas para amenizar os entraves percebidos entre esses atores, e, em cada etapa do workflow, foram consideradas as especificidades de cada setor que se refletem na forma como as estampas são planejadas e impressas, com vistas à otimização do desenvolvimento e produção de estampas.",
+        "pdf_url": "https://lume.ufrgs.br/bitstream/10183/163758/1/001024941.pdf",
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W2761323954",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Metodologia centrada no usuário para a prática projetual do Design de Moda: GODP- Guia de Orientação para o Desenvolvimento de Projetos",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/18ergodesignusihc2022-40",
+        "doi": "10.5151/18ergodesignusihc2022-40",
+        "year": 2022,
+        "authors": [
+          "Giselle Schmidt Alves Diaz MERINO",
+          "Thiago Varnier",
+          "Elen Makara"
+        ],
+        "venue": null,
+        "abstract": "ResumoOs produtos de moda e vestuário desenvolvidos a partir de uma metodologia de projeto apresentam melhor desempenho se comparados aos desenvolvidos por métodos empíricos.No entanto, há poucos referenciais teóricos a respeito das metodologias de desenvolvimento de projeto de produto de vestuário.Dessa forma, este artigo tem como objetivo apresentar o Guia de Orientação para Desenvolvimento de Projetos (GODP) aplicado a prática projetual do Design de Moda.Para tanto foi realizado uma pesquisa teórica, pela abordagem qualitativa com objetivo descritivo.Os resultados apontam que GODP aplicado a Moda pode facilitar a gestão dos processos operacionais de desenvolvimento do produto de vestuário, melhorando os fluxos informacionais e, consequentemente, a tomada de decisão projetual.A utilização da metodologia garante uma sistemática organizada e planejada, o que permite o levantamento, a organização e a análise dos dados de forma consciente, fornece informações relevantes para o projeto, otimiza o tempo e a produtividade, fortalece a qualidade dos produtos desenvolvidos, garantindo conforto, segurança e usabilidade.",
+        "pdf_url": "http://pdf.blucher.com.br/designproceedings/18ergodesignusihc2022/40.pdf",
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "W4282921948",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Da Produção Linear ao Planejamento pela Sustentabilidade: estudo de caso de empresas de Moda na cidade de São Paulo (SP - Brasil)",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.11606/d.100.2023.tde-24072023-220755",
+        "doi": "10.11606/d.100.2023.tde-24072023-220755",
+        "year": 2023,
+        "authors": [
+          "Bárbara Contin"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "The demand for a change in clothing production is based on the consequences caused by economic growth and the continued neglect of socio-environmental factors inherent to its growing linear production. The Brazilian clothing and textile industry presents a complex chain and uses different materials. Waste minimization, pollution prevention and recycling can become intrinsic to industrial fashion productions. The objective of this study is to evaluate the linear system of clothing production and the planning of companies in the sector to produce in a sustainable and circular way. The methodology consists of systematic literature review; analysis of recycled jeans fibers and case studies of fashion companies in the city of São Paulo through semi-structured interviews. The choices of raw materials, new processes and recycling prove to be viable means of initiatives within more sustainable and circular production planning. In the material analyzed from the mechanical recycling of jeans fibers, it was verified that the threads became thinner in relation to the original material, both the warp and weft threads had a considerable loss of title. Furthermore, a fraction of the original waste material cannot be reinserted into the conventional textile process, but it is still possible to use it in other types of products, such as composites. Despite this, textile recycling is a viable and important alternative for the reuse of that would otherwise be discarded, allowing savings in raw materials and natural in the use of textile waste in second production cycles.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-24072023-220755/publico/dissertacaobarbaracontinfinal.pdf",
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W4399432081",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Fashion design for cost (FDfC): o processo de desenvolvimento de produto de moda quando quando priorizado o custo do produto",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2024.tde-15102025-111949",
+        "doi": "10.11606/d.100.2024.tde-15102025-111949",
+        "year": 2024,
+        "authors": [
+          "Pedro Porto Chadud"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This research proposes to investigate and problematize the design method used by apparel industries that have affordable product prices as their value proposition. The method employed in this research was problem-centered interviews, as it allows the researcher to challenge the interviewee if any inconsistency is identified in their responses. The interviews were conducted with professionals who worked in the aforementioned company profile and held a position in one of the three areas responsible for collection development: planning, creation, and development. As part of the final objective, a final flowchart was created to exemplify and illustrate the design process used by the companies in question.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-15102025-111949/publico/PedroPorto_original.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4415250337",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Design de uniformes esportivos escolares: proposta conceitual de coleção para a rede pública municipal de Ijuí",
+        "source": "openalex",
+        "url": "https://doi.org/10.37778/dscsa.v22i1.5879",
+        "doi": "10.37778/dscsa.v22i1.5879",
+        "year": 2026,
+        "authors": [
+          "Raquel Teloeken",
+          "Thiago Varnier",
+          "Diane Meri Weiller Johann"
+        ],
+        "venue": "Disciplinarum Scientia | Sociais Aplicadas",
+        "abstract": "O uniforme escolar constitui um importante artefato de design no contexto educacional, envolvendo aspectos funcionais, ergonômicos, simbólicos e sociais relacionados ao uso cotidiano dos estudantes. No entanto, muitos projetos de vestuário escolar ainda priorizam predominantemente fatores estéticos e institucionais, em detrimento de questões relacionadas ao conforto, à usabilidade, à mobilidade e à durabilidade das peças. Diante desse cenário, esta pesquisa teve como objetivo elaborar uma proposta conceitual de coleção de uniformes esportivos para a rede pública municipal de Ijuí, orientada pelas demandas institucionais e pelos requisitos ergonômicos, funcionais e estéticos sistematizados por meio da ferramenta ERGOM. A pesquisa caracteriza-se como aplicada, exploratória e descritiva, sendo estruturada em três fases: exploratória, desenvolvimento e apresentação. Na etapa de desenvolvimento projetual, foi aplicada a ferramenta ERGOM, contemplando o entendimento do usuário, do contexto e do produto, além da organização das informações de projeto e da aferição das alternativas desenvolvidas. Como resultado, foi elaborada uma proposta conceitual de coleção composta por peças e soluções projetuais concebidas para contemplar requisitos relacionados à mobilidade, segurança, conforto, identificação institucional e adequação ao contexto escolar. A aplicação da ERGOM contribuiu para sistematizar o processo projetual e integrar requisitos ergonômicos, funcionais e estéticos às decisões de design. Conclui-se que a abordagem adotada apresenta potencial para orientar o desenvolvimento de uniformes esportivos escolares, articulando ergonomia, funcionalidade e identidade institucional no processo projetual.",
+        "pdf_url": "https://periodicos.ufn.edu.br/index.php/disciplinarumSA/article/download/5879/3811",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7214095898",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "COLEÇÃO CÁPSULA – PROCESSO DE DESENVOLVIMENTO, PLANEJAMENTO E CRIAÇÃO",
+        "source": "crossref",
+        "url": "https://doi.org/10.29327/9786527226963.1564746",
+        "doi": "10.29327/9786527226963.1564746",
+        "year": 2026,
+        "authors": [
+          "Júlia Cardoso Bittencourt",
+          "GRAZIELA DOS SANTOS BENTO"
+        ],
+        "venue": "Anais do Hexágono de Moda",
+        "abstract": null,
+        "pdf_url": "https://static.even3.com/anais/1564746.pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.29327/9786527226963.1564746",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "Design de moda estratégico: princípios metodológicos de cenários futuros e pesquisa de tendencias para marcas de moda.",
+        "source": "crossref",
+        "url": "https://doi.org/10.29327/5457226.1-447",
+        "doi": "10.29327/5457226.1-447",
+        "year": 2024,
+        "authors": [
+          "Alice Sukiennik",
+          "Filipe Campelo Xavier da Costa"
+        ],
+        "venue": "Anais do XV Congresso Brasileiro de Pesquisa e Desenvolvimento em Design - P&amp;D Design",
+        "abstract": "A moda transcende simplesmente roupas e acessórios, sendo uma expressão do indivíduo e de comportamentos sociais. Ao adotar uma abordagem de Design Estratégico, que vai além das meras técnicas operacionais, a moda pode se beneficiar ao criar espaços para reflexão, promovendo a geração de cenários futuros no design e a análise de tendências emergentes na sociedade. Nesse sentido, este trabalho visa desenvolver uma proposta de princípios metodológicos para a criação de cenários futuros e pesquisa de tendências aplicadas às marcas de moda. Para isso, foram conduzidas entrevistas em profundidade, workshops e grupos focais com especialistas em pesquisa de tendências e executivos do setor. Os resultados da pesquisa fornecem insights para capacitar empreendedores na indústria da moda, enriquecendo seus conhecimentos práticos com habilidades de interpretação e criação de cenários futuros. Palavras Chave: moda; cenários futuros; pesquisa de tendências.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.29327/5457226.1-447",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "Literatura biomédica: Etapas da pesquisa bibliográfica e aspectos técnicos da redação de trabalho científico",
+        "source": "crossref",
+        "url": "https://doi.org/10.7476/9788570785237.0003",
+        "doi": "10.7476/9788570785237.0003",
+        "year": 2005,
+        "authors": [
+          "Maria Inês Bacchin"
+        ],
+        "venue": "Pesquisa na área biomédica: do planejamento à publicação",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.7476/9788570785237.0003",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "EDUFU"
+        }
+      },
+      {
+        "title": "Análise da etapas de planejamento e execução de uma edificação",
+        "source": "crossref",
+        "url": "https://doi.org/10.29327/41427711",
+        "doi": "10.29327/41427711",
+        "year": 2024,
+        "authors": [
+          "Alexandre Alves dos santos"
+        ],
+        "venue": null,
+        "abstract": "No presente trabalho, discute-se a execução de algumas etapas do planejamento e execução de cada uma delas, as maneiras de se executar e os tipos de materiais e formas para que seja atingido o objetivo de uma delas, focamos especialmente em orçamentos e cronogramas, superestruturas, fechamentos em alvenarias, revestimentos e instalações hidráulicas, impermeabilização e movimentação de terra. Em cada uma dessas etapas, discernimos sobre tipos de materiais a serem aplicados as técnicas de execução de cada uma delas, ferramentas e ou equipamentos mais adequados. Sabe-se que a engenharia civil muita flexibilidade na sua fase construtiva, pois possuímos uma gama enorme de procedimentos para se executar diversas etapas, por exemplo no revestimento seja ele paredes, piso ou lajes. Temos produtos cerâmicos, químicos como tintas ou argamassas, como também nas superestruturas de concreto, podemos variar o tipo de forma, tipos de concretos, armaduras. O objetivo desse trabalho é mostrar de forma dinâmica todas estas etapas citadas.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.29327/41427711",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "Planejamento, execução e registro de entrevistas sobre design de moda: pesquisa junto a empresas no Brasil e na Alemanha",
+        "source": "crossref",
+        "url": "https://doi.org/10.5965/25944630312019074",
+        "doi": "10.5965/25944630312019074",
+        "year": 2019,
+        "authors": [
+          "UNIVERSIDADE DO ESTADO DE SANTA CATARINA",
+          "Amanda Queiroz Campos"
+        ],
+        "venue": "Revista de Ensino em Artes, Moda e Design",
+        "abstract": "O presente artigo consiste no relato da experiência de abordagem de empresas de moda para desenvolvimento de entrevistas junto a designers e diretores criativos. A pesquisa em questão teve como o objetivo a coleta de dados para o desenvolvimento de tese doutoral em cotutela no Brasil e na Alemanha. O contato com as empresas e, principalmente, os desafios obtidos na criação e seleção de estratégias e ferramentas para a pesquisa qualitativa e de cunho antropológico levaram à redação deste artigo. Seu objetivo, portanto, consistiu em relatar o ocorrido em prol de servir como referência para futuras investigações qualitativas na área de design junto a empresas de design de moda.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5965/25944630312019074",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade do Estado de Santa Catarina"
+        }
+      },
+      {
+        "title": "Controle eletrônico das etapas do processo de planejamento de pacientes em radioterapia",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.17.2018.tde-06042018-104352",
+        "doi": "10.11606/d.17.2018.tde-06042018-104352",
+        "year": 2018,
+        "authors": [
+          "Carlos de Brito"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.17.2018.tde-06042018-104352",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Aplicação de planejamento de experimentos em diferentes etapas do refino de petroleo",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2009.437186",
+        "doi": "10.47749/t/unicamp.2009.437186",
+        "year": 2021,
+        "authors": [
+          "Leonardo Vasconcelos Fregolente"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2009.437186",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "PROCESSO CRIATIVO E O DESENVOLVIMENTO DA COLEÇÃO DE MODA: DISCIPLINA DE PESQUISA E CRIAÇÃO DE MODA/UDESC",
+        "source": "crossref",
+        "url": "https://doi.org/10.62507/a21.v12i1.135",
+        "doi": "10.62507/a21.v12i1.135",
+        "year": 2019,
+        "authors": [
+          "José Alfredo Beirão Filho",
+          "Maria Júlia Dassoler"
+        ],
+        "venue": "Arte 21",
+        "abstract": "Combinar referências previamente existentes é algo intrínseco ao ser humano. Desde sempre se associaram elementos distintos para a criação de novas tecnologias e produtos. Aliada à criatividade como forma de resolver um problema, esta prática está muito presente em diversas áreas, sobretudo no design e na moda. Assim, este estudo verifica o processo criativo utilizado na disciplina de Pesquisa e Criação de Moda do Curso de Bacharelado em Moda da UDESC e aponta a aplicação das técnicas de criatividade brainstorm, listagem de atributos, entre outras, no desenvolvimento de um book criativo.",
+        "pdf_url": "https://revistas.belasartes.br/arte21/article/download/135/134",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.62507/a21.v12i1.135",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Centro Universitário Belas Artes de São Paulo"
+        }
+      },
+      {
+        "title": "De blogueira à influenciadora: motivações, ethos e etapas profissionais na blogosfera de moda brasileira",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/t.27.2018.tde-17092018-163855",
+        "doi": "10.11606/t.27.2018.tde-17092018-163855",
+        "year": 2018,
+        "authors": [
+          "Issaaf Santos Karhawi"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/t.27.2018.tde-17092018-163855",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Planejamento de capacidade em organizações privadas sem fins lucrativos que atuam em pesquisa e desenvolvimento",
+        "source": "crossref",
+        "url": "https://doi.org/10.26512/2010.tcc.2813",
+        "doi": "10.26512/2010.tcc.2813",
+        "year": 2021,
+        "authors": [
+          "Renato Marigo Maletta de Paula"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.26512/2010.tcc.2813",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Biblioteca Central da UNB"
+        }
+      },
+      {
+        "title": "Briefing: ferramenta de planejamento",
+        "source": "crossref",
+        "url": "https://doi.org/10.46420/9786585756532",
+        "doi": "10.46420/9786585756532",
+        "year": 2025,
+        "authors": [
+          "Julio Candido de Meirelles Junior"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.46420/9786585756532",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "Pantanal Editora"
+        }
+      },
+      {
+        "title": "Moda virtual, digital e figital: o processo de desmaterialização da moda.",
+        "source": "crossref",
+        "url": "https://doi.org/10.29327/5457226.1-411",
+        "doi": "10.29327/5457226.1-411",
+        "year": 2024,
+        "authors": [
+          "Victoria Fernandez Bastos",
+          "Leonardo Castillo"
+        ],
+        "venue": "Anais do XV Congresso Brasileiro de Pesquisa e Desenvolvimento em Design - P&amp;D Design",
+        "abstract": "Este artigo apresenta parte dos resultados da pesquisa de doutorado desenvolvida na Universidade Federal de Pernambuco, que abordou a convergência entre as tecnologias e a moda, bem como as implicações decorrentes dessa interseção. A indústria da moda enfrenta um período de transformação sem precedentes, impulsionado pela pandemia de COVID-19 e pela consequente adoção de tecnologias digitais. Nesse sentido, em primeiro lugar, analisam-se os impactos imediatos da pandemia, destacando-se os desafios enfrentados e as oportunidades emergentes na indústria da moda. Em seguida, o estudo aprofunda-se na transformação digital, explorando como grandes marcas e as nativas digitais estão entrando nesse ambiente. Conceitos como “digital”, “virtual” e “figital” são discutidos, junto com o uso de tecnologias, a exemplo de Realidade Aumentada, Realidade Virtual, modelagem tridimensional e metaverso. Ademais, exploram-se as implicações da economia token, tokens não fungíveis e blockchain. Por fim, o artigo aborda o impacto da desmaterialização na indústria e propõe adaptações no ensino de design de moda para o futuro. Palavras-chave: moda digital; figital; NFT e tecnologia emergente.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.29327/5457226.1-411",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "APLICAÇÃO DE UM MODELO DE CORTE DE ESTOQUE UNIDIMENSIONAL NO PLANEJAMENTO DE NECESSIDADE DE MATERIAIS",
+        "source": "crossref",
+        "url": "https://doi.org/10.4322/podes.2019.007",
+        "doi": "10.4322/podes.2019.007",
+        "year": 2019,
+        "authors": [
+          "Frederico Montefeltro",
+          "Flávio Molina"
+        ],
+        "venue": "Pesquisa Operacional para o Desenvolvimento",
+        "abstract": "Os fornecedores de peças para montadoras de máquinas agrícolas têm uma alta diversidade de itens para produção. Em um dos fornecedores do interior de São Paulo, semanalmente, são recebidas ordens de fabricação de barras de corte com diferentes comprimentos. O problema tratado neste trabalho surge da necessidade de dimensionar adequadamente o estoque anual de barra chata (matéria-prima) de tal modo a evitar desperdícios. Para a resolução do problema é necessário fazer a previsão de vendas anual dos produtos que utilizam a barra chata. Tais previsões servem de entrada para calcular as necessidades dos insumos para a produção. Para agregar a demanda da matéria-prima é aplicado um problema de corte unidimensional com o objetivo de diminuir o desperdício da barra chata, que é o principal componente da barra de corte. Com isso, foi obtida uma redução nos custos da montagem das barras de corte e um menor valor de matéria-prima em estoque.",
+        "pdf_url": "https://revistapodes.emnuvens.com.br/podesenvolvimento/article/download/582/419",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.4322/podes.2019.007",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Sociedade Brasileira de Pesquisa Operacional"
+        }
+      },
+      {
+        "title": "Proposição de etapas para o planejamento e gestão de vendas para o setor de insumos agrícolas",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.12.2004.tde-26012006-155203",
+        "doi": "10.11606/d.12.2004.tde-26012006-155203",
+        "year": 2015,
+        "authors": [
+          "Luciano Thomé e Castro"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.12.2004.tde-26012006-155203",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "A influência dos clusters de moda do sul do Brasil no desenvolvimento de um território, sob o contexto do sistema regional de inovação",
+        "source": "crossref",
+        "url": "https://doi.org/10.3895/rbpd.v13n3.16073",
+        "doi": "10.3895/rbpd.v13n3.16073",
+        "year": 2024,
+        "authors": [
+          "Andressa Rando Favorito",
+          "Silvestre Labiak Junior"
+        ],
+        "venue": "Revista Brasileira de Planejamento e Desenvolvimento",
+        "abstract": "O Sistema Regional de Inovação se configura como uma política de arranjo de atores voltada para o desenvolvimento da inovação e da sustentabilidade dos territórios, por meio de uma rede de atores, onde as empresas da região ficam no centro desta rede. A interação competente entre clusters da moda com os Sistemas Regionais de Inovação se apresenta fundamental para a sua competitividade e sustentabilidade em tempos de concorrência global. Assim, o estudo objetivou caracterizar as relações entre os atores de dois clusters de alta relevância da indústria de moda do sul do Brasil dentro dos respectivos sistemas na busca pelo Desenvolvimento Territorial Sustentável. A pesquisa, se caracteriza como exploratória-descritiva e método de análise qualitativo. Os estudos de casos foram realizados nos estados do Paraná e Santa Catarina, ambos localizados na região sul do Brasil, sendo que no Paraná os resultados demonstraram que os atores institucionais são considerados os mais ativos e os atores governamentais os menos ativos, observou-se ainda, que as empresas são consideradas resistentes à interação e à inovação. Em Santa Catarina também os atores institucionais são reconhecidamente mais presentes e atuantes, sendo o ator governamental criticado por alguns da rede e considerado atuante por outros atores, trazendo às conclusões sobre os efeitos positivos e negativos no desenvolvimento sustentável destas regiões. O estudo revelou que todos os atores da Hélice Sêxtupla estão presentes nos territórios estudados e interagem em diversos níveis com o cluster de moda.",
+        "pdf_url": "https://periodicos.utfpr.edu.br/rbpd/article/viewFile/16073/10370",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.3895/rbpd.v13n3.16073",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Tecnologica Federal do Parana (UTFPR)"
+        }
+      },
+      {
+        "title": "Modelos e frameworks de pesquisa de tendências na moda: uma revisão sistemática da literatura.",
+        "source": "crossref",
+        "url": "https://doi.org/10.29327/5457226.1-494",
+        "doi": "10.29327/5457226.1-494",
+        "year": 2024,
+        "authors": [
+          "Pam Ignowski",
+          "Sandra Regina Rech"
+        ],
+        "venue": "Anais do XV Congresso Brasileiro de Pesquisa e Desenvolvimento em Design - P&amp;D Design",
+        "abstract": "Os estudos de tendências permitem uma compreensão aprofundada entre grupos, objetos, pessoas e ideias, bem como o entendimento da aderência de produtos por parte dos consumidores. Diante disso, essa área surge como um campo profundo e rico em diferentes interações, conexões e oportunidades. Assim, o objetivo do presente artigo é organizar e apresentar os diferentes tipos de métodos e modelos de pesquisa de tendência em moda que foram indexados no período de 2014 a 2024. A fim de concluir o objetivo proposto, foi realizada uma Revisão Sistemática da Literatura, com indexação de oito escritas integrais que eram pertinentes à temática proposta. Os resultados demonstraram uma gama bastante variada de abordagens de modelos de pesquisa que permearam entre diferentes formas de observar frequências e padrões de repetições que compunham o escopo da moda e basearam-se, principalmente, em: modelos matemáticos, explorações etnográficas e análises sistematizadas de deep learning. Palavras Chave: Modelos de Pesquisa; Frameworks; Tendência; Moda",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.29327/5457226.1-494",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "A moda nos cursos de Design do Rio de Janeiro: análise de nomenclaturas utilizadas nas ementas dos cursos de Design e Moda.",
+        "source": "crossref",
+        "url": "https://doi.org/10.29327/5457226.1-6",
+        "doi": "10.29327/5457226.1-6",
+        "year": 2024,
+        "authors": [
+          "Maria Clara Morsch Schmid",
+          "Deborah Chagas Christo"
+        ],
+        "venue": "Anais do XV Congresso Brasileiro de Pesquisa e Desenvolvimento em Design - P&amp;D Design",
+        "abstract": "Neste artigo, são apresentados os resultados iniciais do projeto de pesquisa \"A moda nos cursos de Design do Rio de Janeiro\". Esta pesquisa tem como objetivo investigar como se dá o ensino do desenvolvimento de produtos de vestuário nos cursos de graduação em Design do Rio de Janeiro e analisar o impacto que a adequação dos cursos de nível superior de Moda às Diretrizes Curriculares Nacionais para os cursos de graduação em Design, proposta pelo MEC em 2004, causou nos cursos de Design do Rio de Janeiro. O artigo apresenta uma breve síntese e análise de bibliografias específicas sobre a relação entre design e moda no Brasil e, especificamente no Rio de Janeiro, e um estudo sobre nomenclaturas específicas sobre a prática projetual em design e em design de moda que foram aplicados na análise das ementas de disciplinas de projetos dos cursos de design do Rio de Janeiro. Palavras Chave: design; moda; ensino.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.29327/5457226.1-6",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "Desenvolvimento de Identidade Visual: o E-Moda como ferramenta de aprendizagem aplicada ao design e comunicação em moda",
+        "source": "crossref",
+        "url": "https://doi.org/10.29327/9786527216209.1112598",
+        "doi": "10.29327/9786527216209.1112598",
+        "year": 2025,
+        "authors": [
+          "Carolina Cizeski Meneghel",
+          "Letícia Casagrande Dal Bello",
+          "Charlene Vicente Amâncio Nunes"
+        ],
+        "venue": "Anais do SIMPEX 2025 - Simpósio de Ensino, Pesquisa e Extensão",
+        "abstract": null,
+        "pdf_url": "https://static.even3.com/anais/1112598.pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.29327/9786527216209.1112598",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "Representatividade da região norte no setor da moda: as vocações locais como ferramenta de transição para moda circular.",
+        "source": "crossref",
+        "url": "https://doi.org/10.29327/5457226.1-237",
+        "doi": "10.29327/5457226.1-237",
+        "year": 2024,
+        "authors": [
+          "Barbara Cruz",
+          "Luiz Lagares Izidio"
+        ],
+        "venue": "Anais do XV Congresso Brasileiro de Pesquisa e Desenvolvimento em Design - P&amp;D Design",
+        "abstract": "A valorização territorial representa uma ferramenta na busca de um modelo de produção no setor da moda circular e sustentável. A cadeia produtiva do setor é extensa e complexa oferecendo muitos postos de trabalho em diferentes áreas. O setor apresenta um grande potencial como vetor de desenvolvimento socioambiental. Para isso é preciso que haja uma transição de um modelo de produção linear, que prevalece no sistema, para um modelo circular. O artigo promove essa reflexão a partir da valorização das atividades e vocações locais, priorizando para esta análise o potencial que a região norte pode representar para o setor. Identificamos ainda os impactos causados pelo setor e possíveis estratégias de valorização de cultura e vocações locais. Palavras Chave: moda circular; sustentabilidade; região Norte; vocação local.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.29327/5457226.1-237",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "Ferramenta para Análise e Avaliação de Riscos no Planejamento de Projetos de Pesquisa e Desenvolvimento",
+        "source": "crossref",
+        "url": "https://doi.org/10.5585/gep.v5i2.253",
+        "doi": "10.5585/gep.v5i2.253",
+        "year": 2014,
+        "authors": [
+          "Marta Fatima Vencato"
+        ],
+        "venue": "Revista de Gestão e Projetos",
+        "abstract": "Este trabalho é parte da dissertação de mestrado apresentada ao Programa de Pós-Graduação em Desenvolvimento de Tecnologia, dos Institutos LACTEC, em parceria com o Instituto de Engenharia do Paraná – PRODETEC. A pesquisa teve como objetivo desenvolver um modelo para análise e avaliação de riscos inerentes em projetos de pesquisa e desenvolvimento (P&D), bem como classificar os riscos baseando-se na metodologia do Project Management Institute (PMI). A coleta de dados foi por meio da aplicação de questionário eletrônico para pesquisadores voluntários, vinculados a (1) uma instituição pública de ensino, a (2) uma instituição privada de ensino e a (3) uma instituição pública de pesquisa. Foi também objetivo deste trabalho elaborar uma ferramenta informatizada para análise e avaliação dos riscos durante o planejamento de projetos de P&D, identificando custos mínimos e máximos do projeto a partir da análise das ameaças e das oportunidades identificadas. Foi proposto ainda um índice de risco para apoio na análise das propostas de projetos pelas instituições de pesquisa como requisito para sua avaliação. A ferramenta informatizada foi validada por pesquisadores por meio de uma ficha de avaliação.",
+        "pdf_url": "http://periodicos.uninove.br/index.php?journal=gep&page=article&op=viewFile&path[]=9599&path[]=4344",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5585/gep.v5i2.253",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "University Nove de Julho"
+        }
+      },
+      {
+        "title": "A força das coisas: \"etapas do desenvolvimento histórico\" - notas de pesquisa",
+        "source": "crossref",
+        "url": "https://doi.org/10.1590/s0101-31731982000100003",
+        "doi": "10.1590/s0101-31731982000100003",
+        "year": 1982,
+        "authors": [
+          "Reginaldo Carmello Corrêa de Moraes"
+        ],
+        "venue": "Trans/Form/Ação",
+        "abstract": "Este texto veio a constituir, modificado, o primeiro capítulo de nossa tese de mestrado - A Fênix tropical: nota crítica sobre o dualismo e a teoria da dependência, Faculdade de Filosofia, Letras e Ciências Humanas, Universidade de São Paulo. Trata dos seguintes temas: I - A \"filosofia da história\", o marxismo e a \"objetividade\"; II - O pensamento social brasileiro: as teorias do/sobre o desenvolvimento e o marxismo apologético: 1.º Werner Baer: a \"objetividade\" conservadora contra as \"paixões\" reformistas; 2.º Carlos Lessa: Industrialização como \"decisão\"; 3.º ISEB: objetividade reformista contra paixões socialistas; 4.º Maturidade política contra aventuras socialistas; III - Os pressupostos comuns.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.1590/s0101-31731982000100003",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "FapUNIFESP (SciELO)"
+        }
+      },
+      {
+        "title": "FUNÇÃO SOCIAL DA CIDADE E O PLANEJAMENTO URBANO",
+        "source": "crossref",
+        "url": "https://doi.org/10.37423/240809225",
+        "doi": "10.37423/240809225",
+        "year": 2024,
+        "authors": [
+          "Gustavo Fialkowski de Oliveira",
+          "Daniela dos Santos Pereira"
+        ],
+        "venue": "Pesquisa e Desenvolvimento: um olhar sobre a humanidade",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.37423/240809225",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Editora Conhecimento Livre"
+        }
+      },
+      {
+        "title": "Desenvolvimento de produtos de moda: um framework para qualidade da informação.",
+        "source": "crossref",
+        "url": "https://doi.org/10.29327/5457226.1-535",
+        "doi": "10.29327/5457226.1-535",
+        "year": 2024,
+        "authors": [
+          "Flaica Wippel Pinheiro",
+          "Lia Caetano Bastos",
+          "Rogério Cid Bastos",
+          "Julio monteiro Teixeira"
+        ],
+        "venue": "Anais do XV Congresso Brasileiro de Pesquisa e Desenvolvimento em Design - P&amp;D Design",
+        "abstract": "Este artigo apresenta um framework conceitual para avaliar e aprimorar a qualidade da informação no desenvolvimento de produtos de vestuário e moda. A metodologia da pesquisa envolveu uma análise descritiva, integrando as dimensões da qualidade da informação conforme delineado no Framework de Eppler (2006), com o objetivo de atender às demandas específicas e desafios da indústria da moda. Inspirados por estudos prévios, como o de Montemezzo (2007) sobre desenvolvimento de produtos no setor do vestuário e as percepções de Sanches (2017) sobre o fluxo e relevância das informações, os esforços foram direcionados para a criação de um framework adaptável e abrangente. Este framework valoriza a importância da informação em todas as fases do ciclo de vida do produto, desde sua concepção inicial até sua introdução no mercado. A pesquisa baseou-se também em um referencial teórico obtido por meio de revisão bibliográfica, legitimando a aplicação das ideias no campo da moda. Palavras Chave: qualidade da informação; desenvolvimento de produtos; indústria da moda e framework conceitual.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.29327/5457226.1-535",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Even3"
+        }
+      }
+    ]
+  },
+  "count": 48,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:10:50.933449+00:00"
+}

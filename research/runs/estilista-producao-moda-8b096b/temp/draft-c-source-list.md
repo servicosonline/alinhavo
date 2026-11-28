@@ -1,0 +1,40 @@
+# Draft C — must_read_note_ids (n=37)
+Angle: Síntese por Condições de Contorno (PMEs vs. Moda Luxo vs. Grande Indústria) e Arquitetura de Soluções Operacionais Práticas.
+
+- interim-locus-5-insustentabilidade-criativa-pressao-comercial-e-bloqueio-sustent: Interim Locus 5 - Insustentabilidade Criativa Pressao Comercial e Bloqueio Sustentavel
+- interim-locus-4-prototipagem-3d-e-ia-generativa-no-fluxo-da-estilista: Interim Locus 4 - Prototipagem 3D e IA Generativa no Fluxo da Estilista
+- interim-locus-3-ficha-tecnica-pdm-plm-vs-informalidade-operacional: Interim Locus 3 - Ficha Tecnica PDM PLM vs Informalidade Operacional
+- interim-locus-2-interfaces-tecnicas-com-modelagem-pilotagem-encaixe-e-faccoes: Interim Locus 2 - Interfaces Tecnicas com Modelagem Pilotagem Encaixe e Faccoes
+- interim-locus-1-arquitetura-de-responsabilidades-e-tarefas-da-estilista-no-pdp: Interim Locus 1 - Arquitetura de Responsabilidades e Tarefas da Estilista no PDP
+- source-analysis-design-colaborativo-e-implantação-de-plm-na-moda-no-brasil-araúj: Source Analysis — Design Colaborativo e Implantação de PLM na Moda no Brasil (Araújo, 2017 USP)
+- source-analysis-vestuário-de-moda-luxo-no-brasil-qualidade-e-terceirização-marce: Source Analysis — Vestuário de Moda Luxo no Brasil: Qualidade e Terceirização (Marcelo, 2016 USP)
+- source-analysis-modelagem-zero-waste-na-indústria-do-vestuário-kauvauti-2022-usp: Source Analysis — Modelagem Zero Waste na Indústria do Vestuário (Kauvauti, 2022 USP)
+- source-analysis-da-produção-linear-ao-planejamento-pela-sustentabilidade-contin: Source Analysis — Da Produção Linear ao Planejamento pela Sustentabilidade (Contin, 2023 USP)
+- source-analysis-design-for-customization-no-vestuário-queiroz-2023-usp: Source Analysis — Design for Customization no Vestuário (Queiroz, 2023 USP)
+- source-analysis-processo-de-desenvolvimento-de-produto-na-indústria-têxtil-jorda: Source Analysis — Processo de Desenvolvimento de Produto na Indústria Têxtil (Jordan 2004)
+- digital-fashion-and-the-metaverse-perspectives-from-the-emerging-fashion-designe: Digital fashion and the metaverse: perspectives from the emerging fashion designers in Zimbabwe 							| Fashion and Textiles Review
+- gramado-rs: Gramado – RS
+- an-evaluation-of-garment-fit-to-improve-customer-body-fit-of-fashion-design-clot: An evaluation of garment fit to improve customer body fit of fashion design clothing | The International Journal of Advanced Manufacturing Technology | Springer Nature Link
+- framework-integrado-de-gestão-de-design-e-pensamento-enxuto-na-indústria-da-moda: Framework integrado de  gestão de design e pensamento enxuto na indústria da moda 							| Modapalavra e-periódico
+- guia-de-orientação-para-o-desenvolvimento-de-projetos-godp-aplicado-à-prática-pr: Guia de Orientação Para o Desenvolvimento de Projetos - GODP - Aplicado à Prática Projetual no Design de Moda 							| Modapalavra e-periódico
+- design-de-moda-para-a-customização-em-massa-uma-proposta-de-framework-modapalavr: Design de moda para a customização em massa: uma proposta de framework 							| Modapalavra e-periódico
+- moda-sustentabilidade-e-ergonomia-rbs-sobre-métodos-projetuais-para-o-desenvolvi: Moda, sustentabilidade e ergonomia: RBS sobre métodos projetuais para o desenvolvimento de produtos de moda 							| Modapalavra e-periódico
+- da-prancheta-ao-algoritmo-explorando-a-representação-visual-de-moda-projetica: Da prancheta ao Algoritmo: Explorando a representação visual de moda 							| Projetica
+- estilista-ou-autor-o-percurso-das-figuras-criadoras-no-sistema-da-moda-dapesquis: Estilista ou autor: o percurso das figuras criadoras no sistema da moda 							| DAPesquisa
+- modelagem-plana-industrial-do-vestuário-diretrizes-para-a-indústria-do-vestuár-2: Modelagem Plana Industrial do Vestuário: diretrizes para a indústria do vestuário e o ensino-aprendizado 							| Projetica
+- matriz-de-aderência-conceitual-como-instrumento-de-apoio-à-autonomia-criativa-em: Matriz de aderência conceitual como instrumento de apoio à autonomia criativa em projetos de moda 							| DAPesquisa
+- designing-sustainable-fashion-role-of-psychosocial-factors-of-fashion-consumptio: Designing Sustainable Fashion: Role of Psychosocial Factors of Fashion Consumption and the Challenges of Design
+- o-codesign-para-geração-de-valor-e-inovação-no-desenvolvimento-de-produtos-de-2: O codesign para geração de valor e inovação no desenvolvimento de produtos de vestuário 							| Modapalavra e-periódico
+- sustentabilidade-ambiental-e-responsabilidade-social-na-cadeia-de-moda-brasileir: Sustentabilidade ambiental e responsabilidade social na cadeia de moda Brasileira: uma proposta de aproveitamento de sobras de tecido 							| Projetica
+- delimitação-do-usuário-nas-etapas-de-criação-modelagem-e-prototipagem-do-produto: Delimitação do usuário nas etapas de criação, modelagem e prototipagem do produto de vestuário 							| Modapalavra e-periódico
+- terceirização-na-indústria-de-vestuário-projetica: Terceirização na indústria de vestuário 							| Projetica
+- beyond-the-aesthete-fashion-highlight: Beyond the Aesthete 							| Fashion Highlight
+- 3d-modeling-for-fashion-design-dat-journal: 3D modeling for fashion design 							| DAT Journal
+- 3d-modeling-for-fashion-design-dat-journal-2: 3D modeling for fashion design 							| DAT Journal
+- o-ensino-da-modelagem-do-vestuário-sob-as-diretrizes-do-método-pbl-revista-de-en: O ensino da modelagem do vestuário sob as diretrizes do método PBL 							| Revista de Ensino em Artes, Moda e Design
+- metodologia-projetual-para-educomunicar-o-desenvolvimento-de-coleções-de-moda-co: Metodologia projetual para educomunicar o desenvolvimento de coleções de moda 							| Comunicação & Educação
+- iasdr2023826: iasdr.2023.826
+- produtos-de-vestuário-avaliando-hipóteses-de-problemas-de-vestibilidade-blucher: Produtos de vestuário: avaliando hipóteses de problemas de vestibilidade - Blucher Proceedings
+- intervenção-pedagógica-em-modelagem-construindo-a-base-do-corpo-feminino-sob-um: Intervenção pedagógica em modelagem: construindo a base do corpo feminino sob um novo olhar 							| Revista de Ensino em Artes, Moda e Design
+- repositório-institucional-da-unb-a-biotecnologia-como-ferramenta-de-inovação-par: Repositório Institucional da UnB: A Biotecnologia como ferramenta de inovação para a indústria têxtil e de confecções : estudo de caso SUI
+- modelagem-plana-x-modelagem-tridimensional-estudo-comparativo-em-artigos-de-malh: Modelagem Plana x Modelagem Tridimensional: Estudo comparativo em artigos de malha com alta compressão 							| Modapalavra e-periódico

@@ -1,0 +1,33 @@
+# Draft B — must_read_note_ids (n=30)
+Angle: Technical-Biomechanical & Anthropometric Depth: foco profundo nas tensões de antropometria (ABNT NBR 16933:2021 vs. plus size/petite/60+), desvios físico-mecânicos do CAD 3D (KES-FB vs. Fabric Kit) e ergonomia física/cognitiva (REBA, QNSO e regime híbrido papel-CAD).
+
+- interim-report-comunicacao-criacao-modelagem-desenho-e-ficha-tecnica: A dor central entre criação, modelagem e produção decorre da ausência de uma ficha técnica completa antes da modelagem e revisada após a peç
+- interim-report-prototipagem-virtual-3d-vs-peca-piloto-fisica: A prototipagem 3D desloca, mas não elimina, a peça piloto física: funciona como triagem visual e de consumo de tecido, porém desvios de folg
+- interim-report-antropometria-abnt-vs-grades-proprietarias-e-plus-size: A NBR 16933:2021 reduz a subjetividade do modelista na grade regular (36-44, biótipos colher e retângulo), mas falha nos segmentos plus size
+- interim-report-ergonomia-fisica-cognitiva-e-condicoes-de-trabalho-da-modelista: A informatização via CAD na confecção brasileira (69% das empresas; 73% Audaces) não eliminou o desgaste biomecânico da modelista de mesa (c
+- interim-report-interfaces-chao-de-fabrica-pilotagem-encaixe-corte-e-faccoes: Interim report: interfaces-chao-de-fabrica-pilotagem-encaixe-corte-e-faccoes
+- m-o-d-a-p-a-l-a-v-r-a-e-p-e-r-i-ó-d-i-c-o-3: Planca, Merino e Merino (2016, ModaPalavra v.9 n.18): estudo de caso em um bureau de modelagem em Gaspar/SC, com uma modelista de 48 anos, 2
+- revista-ação-ergonômica-v-13-n-1-2018: Silva (UFRGS, 2018, Ação Ergonômica v.13 n.1): riscos ergonômicos em atividades de modelagem de vestuário em estudantes de curso técnico. Us
+- v15-n37-2022: Soares Junior, Batista e Schemes (2022, ModaPalavra v.15 n.37): revisão sistemática de 23 artigos sobre ergonomia, moda e vestuário em seis 
+- 6-resultado-da-pesquisa: Capítulo 6 (Resultado da Pesquisa, p. 146-203) da tese de doutorado de Icléia Silveira (PUC-Rio, 2011). Traz todos os dados primários quanti
+- instituto-federal-de-educação-ciência-e-tecnologia-do-sul-de-minas-gerais-passos: Gomes e Teixeira (2025, Revista Eixos Tech v.12 n.5) realizam estudo experimental comparativo confeccionando dois protótipos de vestido bási
+- m-o-d-a-p-a-l-a-v-r-a-e-p-e-r-i-ó-d-i-c-o-2: Nishimura, Merino e Gontijo (2017, ModaPalavra v.10 n.19) analisam a metodologia de elaboração e a adesão mercadológica dos referenciais de 
+- número-1-volume-10-jan-jun-2022: Rizzi e Jesus (2022, Revista Ergodesign & HCI v.10 n.1) investigam o desenvolvimento de bases de modelagem em tecido plano (100% algodão) pa
+- 15º-congresso-brasileiro-de-pesquisa-e-desenvolvimento-em-design-manaus-am: Poci, Mont'Alvão e Quaresma (2024, 15º P&D Design Manaus) analisam a relação entre modelagem, ergonomia e antropometria no vestuário voltado
+- v18-n44-2025: Ferreira e Noronha (2025, ModaPalavra v.18 n.44, p.285-335) analisam a representação das mulheres de corpo gordo nas tabelas de medidas e mo
+- instituto-federal-de-educação-ciência-e-tecnologia-do-sul-de-minas-gerais-2: Moura (2024, Revista Eixos Tech v.11 n.7) analisa as dificuldades antropométricas e ergonômicas de mulheres petite (baixa estatura, 1,42 m a
+- ergonomia-do-vestuário-para-idosas-de-60-a-75-anos: Vianna e Quaresma (2019, Revista Ergodesign & HCI v.7 n.Especial) investigam a ergonomia, antropometria e usabilidade do vestuário para mulh
+- universidade-de-são-paulo-11: Texto integral da dissertação de mestrado de Aparecida de Fátima Cardoso (EACH-USP, 2025/2026, 36.545 palavras), sobre modelagem de tecido p
+- universidade-de-são-paulo-12: Texto integral da dissertação de mestrado de Roberto Dias (EACH-USP, 2015, 21.901 palavras), Modelagem industrial: diretrizes para o traçado
+- universidade-de-são-paulo-13: Texto integral da dissertação de mestrado de Julia Maria Percebom (EACH-USP, 2021, 107.884 palavras), Diretrizes para o desenvolvimento de m
+- istanbul-technical-university-graduate-school-of-science: Büyükaslan (2018, PhD Dissertation, Istanbul Technical University & Cornell University, 46,703 words) investigates real vs. virtual garment 
+- issn-13921320-materials-science-medžiagotyra-vol-26-no-2-2020: ISSN 1392–1320  MATERIALS SCIENCE (MEDŽIAGOTYRA).  Vol. 26,  No. 2.  2020
+- drape-simulation-of-three-dimensional-virtual-garment-enabling-fabric-properties: Lim & Istook (2011, Fibers and Polymers) evaluate how physical fabric properties measured via the FAST (Fabric Assurance by Simple Testing) 
+- tekstilna-industrija-broj-4-2021: Jankoska (2021) evaluates 3D virtual fitting (CLO 3D) and 2D parametric patternmaking (Lectra Modaris, Müller method) for women's straight t
+- analysis-of-woven-fabric-mechanical-properties-in-the-context-of-sustainable-clo: Polymers 2025 (open-access, recovered via Europe PMC copy). Compara tres metodos de obtencao de parametros mecanicos de tecido plano (KES-FB
+- comparison-of-the-silhouette-of-virtual-clothes-by-fabric-characteristics-of-nyl: ACS Omega 2022 (open-access via Europe PMC). Mediu propriedades fisicas de 57 tecidos de nylon para jaquetas corta-vento (de um acervo de ~2
+- three-dimensional-virtual-prototyping-for-designing-firefighting-gear-an-explora: Fashion and Textiles 2026. Entrevistas semiestruturadas com 12 especialistas (modelistas, designers, designers tecnicos, gerente) de 6 empre
+- development-of-a-parametric-production-jacket-pattern-for-an-automated-pattern-m: Fashion and Textiles 2025 (acesso aberto, vol. 12, art. 20). Desenvolve e valida um metodo de geracao de molde parametrico de producao para 
+- exploration-of-the-bodygarment-relationship-theory-through-the-analysis-of-a-she: Fashion and Textiles 2020 (Carufel e Bye). Estudo de caso baseado na teoria Body-Garment Relationship (Gazzuolo, 1985) que ajusta virtualmen
+- apparel-fit-language-suited-to-3d-body-processing-ecosystems: Apparel Fit Language Suited to 3D Body Processing Ecosystems
+- modelagem-plana-x-modelagem-tridimensional-estudo-comparativo-em-artigos-de-malh: Daiane de Lourdes Toledo  Universidade Federal de Santa Catarina  image/svg+xml   https://orcid.org/0000-0003-3520-71...

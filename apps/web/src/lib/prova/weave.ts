@@ -36,6 +36,12 @@ export type FabricLook = {
   heatherStreaks: number;
   /** Quanto o mesclado escurece a cor no ponto mais escuro (0 a 1). No jeans, o índigo irregular. */
   heather: number;
+  /** Fração de luz que atravessa o tecido (0 = opaco, 1 = transparente). Só chiffon, linho fino e viscose. */
+  transmission?: number;
+  /** Distância em mm para a luz perder metade da intensidade dentro do tecido (espessura óptica). */
+  attenuationDistance?: number;
+  /** Cor da luz após atravessar o tecido (hex). Tinge a translucidez com a cor do próprio tecido. */
+  attenuationColor?: string;
 };
 
 export const FABRIC_LOOK: Record<FabricId, FabricLook> = {
@@ -44,10 +50,10 @@ export const FABRIC_LOOK: Record<FabricId, FabricLook> = {
   jeans: { weave: "sarja", tileMm: 6, threads: 12, normalScale: 0.85, roughness: 0.93, sheen: 0.12, sheenRoughness: 0.7, heatherMm: 80, heatherStreaks: 64, heather: 0.24 },
   // Biblioteca (nov/2026): também de olho, a calibrar.
   tricoline: { weave: "tela", tileMm: 3, threads: 14, normalScale: 0.3, roughness: 0.8, sheen: 0.3, sheenRoughness: 0.55, heatherMm: 50, heatherStreaks: 50, heather: 0.04 },
-  viscose: { weave: "tela", tileMm: 3, threads: 14, normalScale: 0.2, roughness: 0.65, sheen: 0.6, sheenRoughness: 0.35, heatherMm: 50, heatherStreaks: 40, heather: 0.03 },
-  linho: { weave: "tela", tileMm: 6, threads: 10, normalScale: 0.6, roughness: 0.92, sheen: 0.2, sheenRoughness: 0.65, heatherMm: 40, heatherStreaks: 80, heather: 0.14 },
+  viscose: { weave: "tela", tileMm: 3, threads: 14, normalScale: 0.2, roughness: 0.65, sheen: 0.6, sheenRoughness: 0.35, heatherMm: 50, heatherStreaks: 40, heather: 0.03, transmission: 0.2, attenuationDistance: 3, attenuationColor: "#f5f0e8" },
+  linho: { weave: "tela", tileMm: 6, threads: 10, normalScale: 0.6, roughness: 0.92, sheen: 0.2, sheenRoughness: 0.65, heatherMm: 40, heatherStreaks: 80, heather: 0.14, transmission: 0.3, attenuationDistance: 5, attenuationColor: "#f0e8d8" },
   crepe: { weave: "tela", tileMm: 2, threads: 16, normalScale: 0.5, roughness: 0.88, sheen: 0.35, sheenRoughness: 0.5, heatherMm: 40, heatherStreaks: 40, heather: 0.05 },
-  chiffon: { weave: "tela", tileMm: 2, threads: 16, normalScale: 0.15, roughness: 0.6, sheen: 0.7, sheenRoughness: 0.3, heatherMm: 50, heatherStreaks: 30, heather: 0.02 },
+  chiffon: { weave: "tela", tileMm: 2, threads: 16, normalScale: 0.15, roughness: 0.6, sheen: 0.7, sheenRoughness: 0.3, heatherMm: 50, heatherStreaks: 30, heather: 0.02, transmission: 0.6, attenuationDistance: 2, attenuationColor: "#fff8f0" },
   sarja: { weave: "sarja", tileMm: 5, threads: 12, normalScale: 0.7, roughness: 0.9, sheen: 0.15, sheenRoughness: 0.65, heatherMm: 60, heatherStreaks: 50, heather: 0.08 },
   jeansElastano: { weave: "sarja", tileMm: 6, threads: 12, normalScale: 0.8, roughness: 0.92, sheen: 0.15, sheenRoughness: 0.65, heatherMm: 80, heatherStreaks: 64, heather: 0.2 },
   ribana: { weave: "jersey", tileMm: 4, threads: 4, normalScale: 0.9, roughness: 0.9, sheen: 0.5, sheenRoughness: 0.45, heatherMm: 50, heatherStreaks: 40, heather: 0.06 },

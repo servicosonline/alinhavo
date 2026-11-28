@@ -43,6 +43,17 @@ const POSES: Record<BodyPose, { arms: [ArmPose, ArmPose]; legs: [LegPose, LegPos
       { abduction: 2, flexion: -12, knee: 4 },
     ],
   },
+  // Sentada num banco: coxas horizontais, joelhos a 90° e mãos à frente.
+  sentada: {
+    arms: [
+      { abduction: 14, flexion: 35, elbow: 60 },
+      { abduction: 14, flexion: 35, elbow: 60 },
+    ],
+    legs: [
+      { abduction: 4, flexion: 90, knee: 90 },
+      { abduction: 4, flexion: 90, knee: 90 },
+    ],
+  },
   // Cotovelo dobrado, antebraço à frente: a manga no cotovelo.
   "braco-dobrado": {
     arms: [

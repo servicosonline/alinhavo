@@ -1,0 +1,16 @@
+[
+  {
+    "claim": "Como não há curso superior específico em design têxtil no Brasil, a atuação ao longo da cadeia produtiva têxtil e de confecção é exercida por profissionais de diferentes áreas que se qualificam pela própria experiência prática de mercado.",
+    "stance": "supports",
+    "stance_target": "Lacuna de formação superior especializada na cadeia têxtil e de confecção brasileira",
+    "evidence_type": "empirical",
+    "scope_conditions": "Cadeia produtiva têxtil e de confecção no Brasil (2023)",
+    "quoted_support": "A partir da investigação bibliográfica sobre a formação acadêmica em design e a configuração do parque fabril nacional visto que não há curso superior específico em design têxtil no país, confirmou-se a prática realizada por profissionais de diferentes áreas do ramo que acabaram se qualificando pela própria experiência de mercado.",
+    "numbers": ["2023"],
+    "entities": ["Universidade de São Paulo (USP)", "Escola de Artes, Ciências e Humanidades (EACH)", "Monika Debasa"],
+    "time_period": "2023",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "design-têxtil-desdobramentos-e-conexões-na-cadeia-produtiva-do-brasil"
+  }
+]

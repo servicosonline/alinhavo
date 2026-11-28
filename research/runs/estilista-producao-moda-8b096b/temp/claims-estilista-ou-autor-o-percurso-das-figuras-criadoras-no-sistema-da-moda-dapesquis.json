@@ -1,0 +1,55 @@
+[
+  {
+    "claim": "A industrialização tardia da moda transferiu a legitimidade criativa do indivíduo para as marcas comerciais, posicionando os designers e estilistas no centro das atividades de ideação e desenvolvimento de produtos em escala.",
+    "stance": "supports",
+    "stance_target": "O estilista na indústria de confecção atua subordinado à estrutura de marca e ao desenvolvimento de produto industrial",
+    "evidence_type": "empirical",
+    "scope_conditions": "Sistema da moda ocidental e indústria do vestuário contemporânea",
+    "quoted_support": "Também se aponta que o tardio processo de industrialização da moda cedeu às marcas o papel legitimado da criação, colocando designers de moda no centro das atividades de ideação e desenvolvimento de produtos.",
+    "numbers": [],
+    "entities": [
+      "Amanda Queiroz Campos",
+      "UDESC",
+      "Gilles Lipovetsky",
+      "Enrico Cietta"
+    ],
+    "time_period": "Século XX ao presente",
+    "region": "Global / Brasil",
+    "confidence": "high",
+    "source_note_id": "estilista-ou-autor-o-percurso-das-figuras-criadoras-no-sistema-da-moda-dapesquis"
+  },
+  {
+    "claim": "O modelo de criação e produção do fast fashion impõe condições que geram 'insustentabilidade criativa' para os designers e estilistas de moda, levando a críticas severas ao esgotamento e padronização do trabalho criativo.",
+    "stance": "supports",
+    "stance_target": "Estilistas enfrentam esgotamento criativo ('insustentabilidade criativa') e perda de autonomia sob a pressão de prazos e volume do fast fashion",
+    "evidence_type": "theoretical",
+    "scope_conditions": "Sistema industrial de moda e cadeias de fast fashion",
+    "quoted_support": "Essa industrialização encontra seu apogeu no fenômeno fast fashion. Tal modelo de criação e produção sofre veementes críticas, incluindo aquelas à própria 'insustentabilidade criativa' dos designers de moda.",
+    "numbers": [],
+    "entities": [
+      "Amanda Queiroz Campos",
+      "Enrico Cietta"
+    ],
+    "time_period": "Século XXI",
+    "region": "Global / Brasil",
+    "confidence": "high",
+    "source_note_id": "estilista-ou-autor-o-percurso-das-figuras-criadoras-no-sistema-da-moda-dapesquis"
+  },
+  {
+    "claim": "Em reação à padronização e à insustentabilidade criativa do modelo industrial e do fast fashion, observa-se na moda contemporânea um movimento de retorno à moda autoral, fundamentada na singularidade do criador e na subjetividade do seu processo criativo.",
+    "stance": "supports",
+    "stance_target": "A tensão entre criação autoral e produção comercial massificada é uma dor estrutural da carreira de estilista",
+    "evidence_type": "theoretical",
+    "scope_conditions": "Mercado de moda contemporâneo e design autoral",
+    "quoted_support": "Assim, como consideração final deste trabalho, observa-se um retorno à moda autoral, a qual tem como base a singularidade do criador e a subjetividade de seu processo criativo.",
+    "numbers": [],
+    "entities": [
+      "Amanda Queiroz Campos",
+      "Julia Valle Noronha"
+    ],
+    "time_period": "2014-2021",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "estilista-ou-autor-o-percurso-das-figuras-criadoras-no-sistema-da-moda-dapesquis"
+  }
+]

@@ -1,0 +1,877 @@
+{
+  "ok": true,
+  "data": {
+    "query": "mortalidade sobrevivencia micro pequenas empresas confeccao vestuario SEBRAE",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 20,
+      "doab": 0
+    },
+    "raw_records": 40,
+    "merged_records": 40,
+    "returned": 40,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "CONTROLADORIA EMPRESARIAL: GESTÃO ECONÔMICA PARA AS MICRO E PEQUENAS EMPRESAS",
+        "source": "openalex",
+        "url": "https://www.cc.faccamp.br/ojs-2.4.8-2/index.php/RMPE/article/view/194",
+        "doi": "10.6034/194",
+        "year": 2011,
+        "authors": [
+          "José Morais Monteiro",
+          "Jenny Dantas Barbosa"
+        ],
+        "venue": "Revista da Micro e Pequena Empresa",
+        "abstract": "O presente trabalho tem por objetivo identificar a aplicabilidade da Controladoria Empresarial nas micro e pequenas empresa para aperfeiçoar o processo da gestão. As informações foram coletadas com entrevistas aos gestores/proprietários de quarenta micro e pequenas empresas nos municípios de Aracaju e Nossa Senhora do Socorro, Sergipe. Dentre os resultados destacam-se: a) as ferramentas da Controladoria Empresarial (planejamento, orçamento, análise financeira, gestão da informação), não são utilizadas por completo nas empresas pesquisadas; b) os micro e pequenos empresários possuem uma visão integrada da gestão e da necessidade de informações para que os objetivos sejam alcançados de forma mais coerente e com minimização de riscos do negócio; c) a percepção dessa evolução é aparente quando os entrevistados afirmam a necessidade de ampliar o conhecimento sobre estratégia, controles, finanças e contabilidade gerencial, com o fim específico de ter informações para decidir os rumos do empreendimento. Dessa forma, consolida-se a necessidade de administrar as micro e pequenas empresas com profissionalismo, objetivando reduzir o óbito empresarial do segmento, uma vez que a representatividade no cenário econômico e social do país é considerável.",
+        "pdf_url": "https://www.cc.faccamp.br/ojs-2.4.8-2/index.php/RMPE/article/download/194/157",
+        "citation_count": 73,
+        "work_type": "article",
+        "identifier": "W1560826882",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Mortalidade das micro e pequenas empresas: a importância de um plano de continuidade de negócios",
+        "source": "openalex",
+        "url": "https://doi.org/10.7769/gesec.v15i7.3879",
+        "doi": "10.7769/gesec.v15i7.3879",
+        "year": 2024,
+        "authors": [
+          "Alessandro Bandeira de Oliveira",
+          "Gustavo Henrique Mendes Fernandes",
+          "Bruno Bonifácio Luzia",
+          "Ely Severiano"
+        ],
+        "venue": "Revista de Gestão e Secretariado (Management and Administrative Professional Review)",
+        "abstract": "O estudo aborda a importância de um Plano de Continuidade de Negócios (PCN) para Micro e Pequenas Empresas (MPE) na Região Serrana do Rio de Janeiro, especialmente em Petrópolis, após as fortes chuvas de fevereiro de 2022. Utilizando uma abordagem bibliográfica e uma análise descritiva e exploratória, o objetivo foi verificar como as MPE podem se beneficiar da implementação de um PCN. A pesquisa destaca que um PCN eficaz deve ser dinâmico, com testes e atualizações regulares para garantir sua praticidade em situações reais de crise. A análise revela que, quando as empresas possuem um PCN, elas conseguem mitigar riscos e aumentar suas chances de sobrevivência. O estudo cita a catástrofe no Rio Grande do Sul em maio de 2024 como um exemplo dos impactos devastadores de desastres naturais, ressaltando a necessidade de preparação e planos de contingência. As principais dificuldades enfrentadas pelas MPE incluem a falta de estrutura adequada, recursos financeiros limitados e a ausência de responsabilidades claramente definidas, tornando essencial o desenvolvimento de PCN robustos e aderentes às necessidades do negócio. Para pesquisas futuras, sugere-se investigar o papel dos governos na prevenção e recuperação de desastres, além de explorar a eficácia dos PCN em diversos contextos.",
+        "pdf_url": "https://ojs.revistagesec.org.br/secretariado/article/download/3879/2492",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4400420004",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Inovação sustentável em micro e pequenas empresas: estudo de caso em uma confecção de roupas",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1843/65280",
+        "doi": null,
+        "year": 2023,
+        "authors": [
+          "Talita Venilda Guimarães"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Innovation is traditionally seen as a competitive advantage, also in micro and small companies. The 20th century was marked by an acceleration of innovation processes, but also by the progressive deterioration of the environment and the prospect of scarcity of natural resources, increasing concern with environmental issues, both by citizens and by the public authorities, bringing these issues to the daily lives of companies. This paper seeks to discuss the conditions for sustainable innovation in small Brazilian apparel companies, a sector that is notably problematic, whether in environmental, social or economic terms. The work was carried out from a case study centered on a clothing factory located in the region of Itabirito (MG). The objective was the proposition of principles aimed at introducing innovations that guarantee the company's sustainability. Thus, environmental practices can generate value for the company, as well as benefit employees, the community and the environment, making it competitive in the market in which it operates. As a result, process and product improvements were proposed with the aim of making the company under study sustainable.",
+        "pdf_url": "https://repositorio.ufmg.br/bitstreams/cac4d709-29aa-4626-954e-537c8264fc4c/download",
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W7119423814",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Marketing para Micro e Pequenas Empresas",
+        "source": "openalex",
+        "url": "https://repositorio.uniceub.br/jspui/handle/123456789/1937",
+        "doi": null,
+        "year": 2009,
+        "authors": [
+          "Luiz Felipe Pereira Carrilho Donas"
+        ],
+        "venue": "CEUB (University Center of Brasília)",
+        "abstract": "Este trabalho faz uma abordagem sobre o marketing para as Micro e Pequenas Empresas – MPE's, por meio de uma análise comparativa entre a literatura existente e a visão dos empresários sobre o assunto. As MPE's são grandes responsáveis pelo desenvolvimento da economia brasileira, representando 99,2% dos empreendimentos em operação, sendo as maiores geradoras de renda e empregos no país. Apesar dos ótimos dados, 56,4% destes negócios se extinguem até os três primeiros anos de vida, em decorrência da falta de planejamento, inclusive em marketing. Atualmente, o mercado é altamente competitivo e os clientes são cada vez mais exigentes, desta forma, o marketing pode desempenhar um importante papel, contribuindo às empresas que possuem escassez de recursos, representando um valioso instrumento para otimização dos resultados. Isso porque, para que todas as áreas de uma empresa tenham um correto direcionamento, é de suma importância que o marketing esteja inserido em seu cotidiano. Entretanto, em virtude da falta de conhecimento, as MPE´s acabam realizando ações isoladas e sem planejamento que, muitas vezes, não são condizentes com a realidade das mesmas e, ao não atingir a meta traçada, uma ação torna-se dispendiosa. O interesse de estudar o marketing nas MPE´s surgiu do contato com empresários que têm uma visão errônea a respeito do marketing, por julgarem ser uma ferramenta de alto custo e desnecessária. O objetivo geral do trabalho é analisar como as MPE's trabalham o marketing e os itens do composto mercadológico: Produto, Praça, Preço e Promoção. Este trabalho trará uma revisão da literatura, seguida de uma pesquisa realizada com MPE's, para assim, diagnosticar a realidade do marketing no cotidiano das mesmas. Concluiu-se que as MPE's desconhecem a importância e o conceito do marketing e o valor de suas ferramentas para a sobrevivência e crescimento no mercado. Para trabalhar marketing não são necessários gastos exorbitantes e sim, planejamento, sendo aconselhável destinar 5% do faturamento para investimentos na área.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "book",
+        "identifier": "W2191756067",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A tecnologia nos processos de desenvolvimento de produto e na produção das micro e pequenas empresas de confecção do vestuário de Porto Alegre - RS e Sombrio - SC",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/36048",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Paula Rodrigues Bittencourt"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "O objetivo deste trabalho foi abordar a inserção da tecnologia nos processos de desenvolvimento de produto e na produção das micro e pequenas empresas de confecção de Porto Alegre – RS e Sombrio - SC. O software CAD/CAM que permite economizar tempo e reduzir os custos de produção e desenvolvimento de produto, reduzindo o número de protótipos físicos e facilitando o encaixe. Sobretudo, o presente trabalho visa analisar como as micro empresas inserem a tecnologia em seus processos. O uso do sistema CAD (Desenho Assistido por computador) é uma tecnologia em que a computação suporta quase todas as áreas da confecção: design e criação, design têxtil, modelagem, ampliação, encaixe e risco, ficha técnica, cálculo de custos industriais, ordem de corte e gestão da produção. A evolução da tecnologia para a indústria do vestuário representa um fator significativo, possibilitando mudanças radicais que podem reduzir o tempo de fabricação do produto, acelerando e aperfeiçoando os processos. O estudo de caso englobou três micro empresas e uma pequena empresa de confecção do vestuário de Porto Alegre – RS e Sombrio - SC cuja análise dos dados qualitativos resultou em sugestões de melhorias para cada empresa estudadas.",
+        "pdf_url": null,
+        "citation_count": 5,
+        "work_type": "thesis",
+        "identifier": "W2199212968",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "USO DE INDICADORES DE GESTÃO NO VAREJO DE VESTUÁRIO DAS MICRO E PEQUENAS EMPRESAS DO SERIDÓ/RN E OUTRAS REGIÕES",
+        "source": "openalex",
+        "url": "https://doi.org/10.20873/uftv1n123-13771",
+        "doi": "10.20873/uftv1n123-13771",
+        "year": 2023,
+        "authors": [
+          "Hyasnaia Luanna Barros de Oliveira Silva Lima",
+          "Napiê Galvê de Araújo Silva"
+        ],
+        "venue": "DESAFIOS Revista Interdisciplinar da Universidade Federal do Tocantins",
+        "abstract": "RESUMO O presente trabalho buscou discutir o uso de indicadores de gestão nas Micro e Pequenas Empresas (MPES) do comércio de vestuário do Seridó/RN e outras regiões que participaram do programa para desenvolvimento de inovação e produtividade, o Brasil Mais. Os resultados foram obtidos por meio de diagnóstico em dois momentos distintos, via questionário, um radar que exprime a maturidade da empresa em 6 dimensões aplicados em 11 empresas. Neste contexto, a pesquisa exploratória observacional reforça a relevância do uso de mecanismos para dar suporte à administração empresarial com foco em gestão estratégica para melhoria dos resultados e sustentabilidade dos negócios. Os proventos da pesquisa demonstraram um progresso no uso de indicadores de quando o primeiro radar foi aplicado, bem como aqueles dados que as empresas varejistas não tem se atentado para analisar. De forma conclusiva, apresenta que houve evolução positiva, bem como, que parte da amostra ainda possui lacunas no gerenciamento estratégico por indicadores. Palavras-chave: Indicadores. Inovação. Gestão.",
+        "pdf_url": "https://sistemas.uft.edu.br/periodicos/index.php/desafios/article/download/13771/21026",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4322603892",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "AS DIFICULDADES DE PLANEJAMENTO DE MARKETING NAS MICRO E PEQUENAS EMPRESAS",
+        "source": "openalex",
+        "url": "https://doi.org/10.68087/sdg477",
+        "doi": "10.68087/sdg477",
+        "year": 2015,
+        "authors": [
+          "Marcos Vinícius Barboza da Silva",
+          "Alonso Luiz Pereira"
+        ],
+        "venue": "Journal of SDGs Research in Emerging Business",
+        "abstract": "Resumo: As Micro e Pequenas Empresas (MPEs) são maioria no mercado brasileiro e imprescindíveis para economia. São grandes geradoras de emprego e renda para o país, mas infelizmente boa parte não chega nem aos dois anos de vida, segundo pesquisa do SEBRAE. Este trabalho faz uma abordagem sobre os fatores que levam as Micro e Pequenas Empresas da Ceilândia Norte (DF) a não planejar e executar adequadamente o marketing, por meio de uma análise comparativa entre a literatura existente e a visão dos empresários, sobre o assunto. Para tanto, o trabalho analisará se essas empresas têm o costume de analisar o mercado e elaborar um plano escrito da estratégia de marketing, bem como investigar se as MPEs da Ceilândia Norte trabalham o marketing e os itens do composto mercadológico (4 Ps) e quais os motivos que dificultam o planejamento e execução adequada do marketing. De acordo com muitos profissionais da área, trabalhar com o marketing não é uma tarefa que exija uma enorme quantia em dinheiro, mas sim planejamento e atenção ao mercado e formas mais eficazes e baratas de atingir o consumidor. Os resultados da pesquisa confirmaram a dificuldade de planejamento nas MPEs devido à insuficiência de recursos e ao não conhecimento técnico necessário.",
+        "pdf_url": "https://sdgbusinessjournal.org/index.php/ojs/article/download/477/417",
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "W7219554883",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Avaliação da satisfação dos usuários de sistemas integrados de gestão (ERP) nas médias empresas de confecção do vestuário de Fortaleza",
+        "source": "openalex",
+        "url": "https://repositorio.ufpb.br/jspui/handle/tede/5210",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Francismilton Teles"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "As empresas de pequeno e médio porte são a grande maioria no cenário nacional, gerando emprego e renda de forma pulverizada para a nação. Uma das ferramentas que colaboram para o aumento da competitividade nestas empresas é o uso de Sistemas Integrados de Gestão (ERP), os quais, quando bem utilizados, auxiliam no processo de planejamento, gestão e controle. É muito importante a verificação do sucesso de utilização destes sistemas nas empresas e um dos meios mais aceitos de analisá-los é por meio da avaliação da satisfação dos seus usuários. Esta dissertação avalia a satisfação dos usuários de sistemas ERP‟s nas médias empresas de confecção do vestuário no município de Fortaleza, um dos maiores pólos de confecção do Brasil. O método utilizado foi a pesquisa Survey, através da qual foram entrevistados 117 usuários de 25 empresas e seguiu o modelo de avaliação customizado por Ely (2010), onde são avaliados de forma quantitativa a satisfação dos usuários finais e usuários-chave de um sistema ERP. Os resultados apresentam, de forma geral, que os usuários estão satisfeitos com os sistemas ERP implantados. Também foi verificado por meio de análise multivariada, que o modelo utilizado foi adequado ao contexto das médias empresas, pois os testes estatísticos (Alfa de Cronbach, esfericidade de Bartlett e KMO) obtiveram valores bastante confiáveis.",
+        "pdf_url": "https://repositorio.ufpb.br/jspui/bitstream/tede/5210/1/arquivototal.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2561276547",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Modelos de duração aplicados à sobrevivência das empresas paulistas entre 2003 e 2007",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/t.12.2013.tde-24072013-154206",
+        "doi": "10.11606/t.12.2013.tde-24072013-154206",
+        "year": 2013,
+        "authors": [
+          "André Luís Pavão"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This thesis presents the main results that determined the bankruptcy of enterprises located in the São Paulo State from 2003 to 2007. The models used in this work were possible due to the partnership with SEBRAE, Small Business Service Supporting, located in the State of São Paulo. This institution provided the data basis for this research and its final version was compound by 662 enterprises and 33 variables, which were collected from a survey done by SEBRAE and the related enterprise. For first time available for research like this The research was supported by econometrics models, more precisely duration models, which identified the most important factors regarding enterprises survival. Two enterprise groups were distinguished: that one that will survive and grow and another will fail. In this work, three models were used: parametric, non-parametric and proportional risk with all of them presenting similar results. The proportional risk approach was applied for economic sectors and enterprises size. For the micro size business, the entrepreneurship\\'s age and the resources applied on the employee\\'s qualification were important to reduce the risk to fail in the time, whereas for small enterprises, variables like innovation and business plan building were the most important variables. For the commerce and service sectors, the enterprises related to the first one, the enterprises which kept attention on financial results (cash flow) presented lower risk to fail. For service sector, variables such as: entrepreneur\\'s age, investment on the employee\\'s qualification and enterprise\\'s size were the most important variables to explain the difference the risk to fail between the enterprises. Another result presented was the risk to fail, which indicates the likelihood of an enterprise to leave its business activity. In this case, the parametric model using Weibull distribution concluded that the risk grows in the first five years. However, this result must be carefully evaluated since it would be necessary a longer term data to ensure this result.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/12/12140/tde-24072013-154206/publico/AndreLuisPavao.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W1575503173",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "PRIORIDADES COMPETITIVAS DAS MICRO E PEQUENAS EMPRESAS DO ARRANJO PRODUTIVO LOCAL DE MURIAÉ (MG)",
+        "source": "openalex",
+        "url": "https://doi.org/10.21714/2179-8834/2016v21n3p51-72",
+        "doi": "10.21714/2179-8834/2016v21n3p51-72",
+        "year": 2016,
+        "authors": [
+          "Natália Michele Ferreira",
+          "Bruno Tavares",
+          "Marco Aurélio Marques Ferreira",
+          "Lucas Maia dos Santos"
+        ],
+        "venue": "Reuna",
+        "abstract": "This study describes clothing local productive arrangement (LPA) of Muriaé - MG by its companies’ production strategy. It reveals existing diversity in this agglomeration and shed light on the importance of internal particularities of that LPA. The following question defines the research problem: are competitive priorities an approach to reveal productive diversity in a productive agglomeration? This research carried out 70 questionnaires to interview different company owners from that LPA. The statistical technique of analysis of variance (ANOVA) and analysis of clusters supported quantitative data analysis. Results identified three different clusters according its competitive priorities. Even though clusters presented little representation in the international market, Clusters 1 and 2 have 27.58% and 29.16% of international retails and the Cluster 3 only 6.25%. That can be a hypothesis to explain the choice of competing priorities.",
+        "pdf_url": "https://portaldeperiodicos.animaeducacao.com.br/index.php/reuna/article/download/48702/45265",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W2531593584",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "CONTABILIDADE COMO UMA FERRAMENTA DA GESTÃO: UM ESTUDO EM MICRO E PEQUENAS EMPRESAS DO RAMO DE COMÉRCIO DE DOURADOS-MS",
+        "source": "openalex",
+        "url": "https://www.cc.faccamp.br/ojs-2.4.8-2/index.php/RMPE/article/view/473",
+        "doi": "10.6034/347",
+        "year": 2012,
+        "authors": [
+          "Rosemar José Hall",
+          "Vanilson Camacho da Costa",
+          "Fernanda Kreuzberg",
+          "Geovanne Dias de Moura",
+          "Nelson Hein"
+        ],
+        "venue": "Revista da Micro e Pequena Empresa",
+        "abstract": "A contabilidade e a gestão sempre estiveram interligadas, sendo o contador o elo para descrever as evoluções econômicas e financeiras das organizações. Quando as técnicas contábeis são plenamente utilizadas, é possível contribuir não somente com as obrigações fiscais e trabalhistas, mas também auxiliar no processo de tomada de decisão, sendo possível prever problemas, fazendo com que os administradores tomem medidas preventivas, antecipando soluções. Este trabalho tem por objetivo identificar e avaliar o uso das ferramentas contábeis na gestão das micro e pequenas empresas do comércio de vestuário na cidade de Dourados-MS. Para a realização da pesquisa foi realizado uma pesquisa descritiva, por meio de um estudo de campo, com abordagem quantitativa. O levantamento de dados foi realizado com sócios gerentes ou gerentes das empresas do comercio de confecções na área central da cidade de Dourados-MS. Utilizou-se um questionário estruturado composto de variáveis descritivas e analíticas. Os resultados revelam que os empresários utilizam das informações contábeis, mas, ainda de forma tímida e muito mais pelos seus conhecimentos do negócio do que pelas informações geradas pela contabilidade.The accounting and management have always been intertwined, and the accountant the link to describe the evolution of economic and financial organizations. When the accounting techniques are fully utilized, can contribute not only with the fiscal obligations and labor, but also assist in the process of decision making, and can anticipate problems, causing administrators taking preventative measures, anticipating solutions. This study aims to identify and evaluate the use of accounting tools in the management of micro and small enterprises in the garment trade city of Golden-MS. To conduct the survey was conducted a descriptive study through a field study with a quantitative approach. The survey was conducted with the managing partners or managers of companies in the garment trade in the downtown area of Golden-MS. We used a structured questionnaire composed of descriptive and analytical variables. The results show that business use of accounting information, but still a shy way and more by their knowledge of business than the information generated by accounting.",
+        "pdf_url": "https://www.cc.faccamp.br/ojs-2.4.8-2/index.php/RMPE/article/download/473/251",
+        "citation_count": 49,
+        "work_type": "article",
+        "identifier": "W1544322891",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A importância da lei geral das micro e pequenas empresas para o desenvolvimento dos pequenos empreendimentos - o caso do cariri oriental paraibano.",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.52446/espgestaopolpubcdsa.2017.tccmon.souto",
+        "doi": "10.52446/espgestaopolpubcdsa.2017.tccmon.souto",
+        "year": 2017,
+        "authors": [
+          "José Cavalcante Silva Souto"
+        ],
+        "venue": null,
+        "abstract": "As Micro e Pequenas Empresas têm um importante papel no desenvolvimento econômico do Brasil. São elas que geram a maior parcela de emprego e renda no país. Percebendo o potencial deste segmento econômico, foram criadas políticas de apoio e fomento a estas empresas, como a Lei Geral das Micro e Pequenas Empresas. Assim, considerando o exposto, este estudo tem por objetivo geral analisar a Implementação da Lei Geral das Micro e Pequenas Empresas nos municípios do Cariri Oriental Paraibano, através das políticas públicas de Desenvolvimento Territorial do Serviço Brasileiro de Apoio às Micro e Pequenas Empresas da Paraíba (SEBRAE/PB). Em termos metodológicos, a pesquisa é exploratória e descritiva, com abordagem quanti-qualitativa com recorte geográfico. A fim de atingir o objetivo geral proposto, esta pesquisa apresenta uma abordagem teórico-conceitual que trata inicialmente da definição de Microempresa e Empresa de Pequeno Porte, discutindo os conceitos trazidos na legislação. Em seguida apresenta um breve histórico da Lei Geral (lei 123/2006), de que se trata e suas aplicações. Como resultado dos estudos, foram analisadas as ações do SEBRAE no Cariri Oriental Paraibano, através de políticas públicas de desenvolvimento territorial e a aplicação da Lei Geral das Micro e Pequenas Empresas. Foi verificada que através de uma gestão compartilhada, ou seja, da parceria entre a gestão municipal, empresas e instituições parceiras, se pode vislumbrar uma melhor qualidade de vida, e geração de emprego e renda, de forma sustentável e igualitária para os cidadãos do Cariri Oriental Paraibano e com potencial de aplicação em nível estadual.",
+        "pdf_url": "http://dspace.sti.ufcg.edu.br:8080/jspui/bitstream/riufcg/5101/3/JOS%c3%89%20CAVALCANTE%20SILVA%20SOUTO%20-%20TCC%20Especializa%c3%a7%c3%a3o%20em%20Gest%c3%a3o%20das%20Pol%c3%adticas%20P%c3%bablicas%202017.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4383370799",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Contabilidade de custos e contabilidade gerencial como ferramentas para a sustentabilidade de micro e pequenas empresas",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.55905/revconv.17n.7-077",
+        "doi": "10.55905/revconv.17n.7-077",
+        "year": 2024,
+        "authors": [
+          "Maria Caroline da Silva Rosa",
+          "Murilo Josué Batista da Costa Oliveira",
+          "Larissa Vale",
+          "Gilberto de Araújo Costa",
+          "Josimar Alcantara de Oliveira",
+          "Rhubens Ewald Moura Ribeiro",
+          "Aluysio Ricardo Nunes Fonseca",
+          "Mônica Maria Lima Fialho Alcantara"
+        ],
+        "venue": "Contribuciones a las Ciencias Sociales",
+        "abstract": "A presente pesquisa discorre sobre a gestão financeira baseada na contabilidade de custos e na contabilidade gerencial, com o intuito de avaliar as ferramentas e processos mais adequados para a manutenção da saúde financeira das micro e pequenas empresas (MPEs) no médio e longo prazo, tendo em vista o cenário cada vez mais competitivo e profissionalizado. Este projeto busca identificar e apresentar as melhores práticas de gestão financeira adotadas por empresas, apontando a possibilidade de utilização destas práticas nas MPEs. Nesse sentido, propõe-se uma pesquisa de revisão integrativa que tem como questão norteadora: Quais as principais rotinas e métodos que o pequeno empreendedor deve adotar, a fim de sintetizar uma sequência de métodos capazes de gerir mais apropriadamente os recursos de empresas com capital social enxuto, considerando seu contexto específico? A coleta de dados será realizada por meio de busca segundo protocolo de pesquisa previamente definido, e os dados, submetidos à análise de conteúdo conforme a temática. Após análise dos trabalhos publicados, foi possível identificar como fatores que levam à sustentabilidade das MPEs: a formação da gestão empresarial, a utilização de consultoria contábil, a contratação de profissionais qualificados e especializados, a utilização de ferramentas gerenciais e operacionais e a inserção de práticas de gestão de custos.",
+        "pdf_url": "https://ojs.revistacontribuciones.com/ojs/index.php/clcs/article/download/8183/5109",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W4400409371",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Um safári de estratégia no Cerrado Mineiro: concepções de estratégia em micro, pequenas e médias empresas",
+        "source": "openalex",
+        "url": "https://doi.org/10.19177/reen.v7e320144-29",
+        "doi": "10.19177/reen.v7e320144-29",
+        "year": 2014,
+        "authors": [
+          "João Paulo Seno",
+          "Lucas Borges Kappel",
+          "Marlos Vinícius Ramos",
+          "Jacquelaine Florindo Borges"
+        ],
+        "venue": "Revista Eletrônica de Estratégia & Negócios",
+        "abstract": "Nós analisamos as concepções de estratégia de empresários que participam do Programa Empreender, desenvolvido pela Associação Comercial e Industrial de Uberlândia - ACIUB. O objetivo foi identificar quais escolas (MINTZBERG; AHLSTRAND; LAMPEL, 2000) fundamentam as concepções, visto que o programa busca formar agentes estratégicos para conquistar mercados e atuar no desenvolvimento da cidade e da região. Para a coleta de dados, empregamos a observação direta extensiva por meio de formulário e o método de análise de conteúdo. Os resultados mostram que a atuação ampla e transformadora que se espera desses agentes pode ser limitada por um imaginário dominado pela escola do planejamento e a concepção da estratégia é deliberada como plano.",
+        "pdf_url": "https://portaldeperiodicos.animaeducacao.com.br/index.php/EeN/article/download/1438/1954",
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "W2169476104",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Um estudo exploratório sobre a contribuição da comunicação para a inovação em micro e pequenas empresas",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/11449/140191",
+        "doi": null,
+        "year": 2016,
+        "authors": [
+          "Verônica Ferreira Gonçalves"
+        ],
+        "venue": "UNESP Institutional Repository (São Paulo State University)",
+        "abstract": "The research it is a result of an exploratory study about the contribution of communication for innovation on micro and small enterprises. Use theoretical and applied research together to investigate what are the obstacles that affect the generation of innovation and the development of a culture of innovation in micro and small businesses, in Bauru, São Paulo. A second aim was identify whether organizational communication can facilitate the development of an innovative environment in these companies. It is considered that the theme and funding in areas such as communication and innovation are still precarious in these organizations, for lack of knowledge in these areas",
+        "pdf_url": "http://www.athena.biblioteca.unesp.br/exlibris/bd/capelo/2016-06-13/000866404.pdf",
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W2493154932",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Análise da gestão financeira das micro e pequenas empresas do setor varejista da Cidade de Cláudio",
+        "source": "openalex",
+        "url": "https://doi.org/10.33448/rsd-v9i12.10952",
+        "doi": "10.33448/rsd-v9i12.10952",
+        "year": 2020,
+        "authors": [
+          "Júlio César Amorim Castro",
+          "Valdilene Gonçalves Machado Silva"
+        ],
+        "venue": "Research Society and Development",
+        "abstract": "Capital de giro são recursos financeiros que custeiam as atividades operacionais da empresa. Sua gestão eficiente proporciona aumento da lucratividade, liquidez e longevidade das organizações. Micro e pequenas empresas - MPEs são importantes para o desenvolvimento socioeconômico brasileiro, gerando emprego e renda. O objetivo deste trabalho foi analisar os principais fatores que influenciam a gestão do capital de giro das MPEs varejistas de Cláudio. Realizou-se uma pesquisa descritiva com abordagem quantitativa. Os dados foram coletados com aplicação de questionário a uma amostra intencional de 38 empresas. Obteve-se que as empresas estavam no mercado há mais de 10 anos. Os sócios faziam a gestão financeira do empreendimento, eram do gênero masculino e atuavam em finanças há mais de 10 anos. Grande parte tinha curso superior completo, outra parte significativa possuía apenas o ensino médio completo, poucos tinham conhecimento técnico de finanças. As empresas possuíam capital suficiente para efetuar pagamentos. Tinham controle financeiro de bancos, contas a receber, vendas e inadimplência. Calculavam o prazo médio de recebimento e faziam planejamento financeiro. As principais dificuldades na gestão financeira eram utilizar mais ferramentas úteis para aumentar o lucro, analisar os demonstrativos contábeis, implementar um Sistema de Informações Gerenciais, fazer provisão para pagamento de férias, décimo terceiro salário e realizar o controle de estoque. A hipótese foi confirmada, pois os gestores financeiros por possuírem pouco conhecimento técnico da área, não tinham as competências necessárias para uma gestão mais eficiente do capital de giro.",
+        "pdf_url": "https://rsdjournal.org/index.php/rsd/article/download/10952/9962",
+        "citation_count": 6,
+        "work_type": "article",
+        "identifier": "W3113962792",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Mapeamento das micro e pequenas empresas do ramo industrial localizadas nas cidades de Agudo e Silveira Martins –RS",
+        "source": "openalex",
+        "url": "https://doi.org/10.21710/rch.v15i0.255",
+        "doi": "10.21710/rch.v15i0.255",
+        "year": 2016,
+        "authors": [
+          "Carla Hartmann Sturm",
+          "Flaviani Souto Bolzan Medeiros",
+          "Patrícia Schrippe",
+          "Andreas Dittmar Weise"
+        ],
+        "venue": "Revista Científica Hermes - FIPEN",
+        "abstract": "No desenvolvimento de um país são as empresas as responsáveis por gerar emprego, pagar tributo e, consequentemente, ocasionar desenvolvimento econômico e regional. No Brasil, a maior parte dessas instituições é formada por empresas de micro e pequeno porte que, muitas vezes, enfrentam dificuldades para sobrevivência no mercado. Por isso, são necessários investimentos e incentivos públicos para fomentar o seu desenvolvimento tornando-as competitivas. Assim, o presente artigo pretende desenvolver um mapeamento das micro e pequenas empresas do ramo industrial localizadas nas cidades de Agudo e Silveira Martins, no Rio Grande do Sul (RS). Utilizou-se uma pesquisa descritiva, quanto aos fins, e bibliográfica, quanto aos meios, sendo elaborado um questionário para a coleta dos dados. Como resultados obtidos, foram encontradas dez microempresas e três empresas de pequeno porte em Agudo – RS, sendo que os principais ramos industriais são o setor madeireiro e a fabricação de produtos de padaria, em que atuam 65,5% dos funcionários das micro e pequenas empresas analisadas no município. Já em Silveira Martins – RS foram constatadas seis microempresas e apenas uma como pequena empresa. Constatou-se, ainda, que o principal ramo industrial é o setor madeireiro (seis empresas), no qual 96% dos funcionários atuam em alguma atividade relacionada ao processamento de madeira.",
+        "pdf_url": "http://www.fipen.edu.br/hermes1/index.php/hermes1/article/download/255/pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2513305078",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Gestão das micro e pequenas empresas da indústria de transformação na contribuição do desenvolvimento de Imperatriz – MA",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/11612/1205",
+        "doi": null,
+        "year": 2019,
+        "authors": [
+          "Antônia Francisca da Silva Saraiva"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "As micro e pequenas empresas da indústria de transformação (MPEITs) são consideradas instrumentos que estimulam o desenvolvimento econômico e social, tendo um papel importante nos municípios brasileiros. Dessa forma, no estado do Maranhão existem muitas MPEITs, destacando-se o município de Imperatriz, onde as mesmas impulsionam o desenvolvimento local. O objetivo dessa pesquisa foi analisar a gestão das MPEITs e os elementos que contribuem influenciando no desenvolvimento do município de Imperatriz-MA. A metodologia utilizada, nesta pesquisa apresenta características descritivas e exploratórias, com abordagem quantitativa, realizada através da aplicação de questionários a 65 proprietários/gestores das MPEITs. A amostra é constituída por 65 MPEITs, que fazem parte dos resultados, onde as panificadoras representam 49,24% dos estabelecimentos pesquisados. Outro dado relevante em relação a essas indústrias, foram que 50,76% têm mais de dez anos no mercado, superando as estimativas dessas indústrias. O total das indústrias pesquisadas geraram 424 empregos formais e informais para o município de Imperatriz. Essas indústrias apresentaram que 83,08% dos seus administradores são os próprios proprietários. Os dados da pesquisa revelaram que a eficiência na gestão é comprometida por pouco conhecimento em gestão, baixa escolaridade dos proprietários/gestores e funcionários com pouca qualificação, além da falta de interesse do poder público no incentivo a essas indústrias. Conclui-se que a gestão das MPEITs é praticada de forma intuitiva pelos seus proprietários/gestores. Mesmo assim, é notório que essas indústrias têm contribuído para o desenvolvimento social e econômico do município de Imperatriz, em especial, na geração de emprego e renda, arrecadação de tributos, responsabilidade social através das doações eventuais financeiras e de seus produtos, além de fornecer produtos para suprir a necessidade do mercado. Essas indústrias têm cumprido com seu papel no desenvolvimento.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2949269801",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A dinâmica da utilização das redes sociais no processo de comunicação pelas micro e pequenas empresas têxteis: um estudo exploratório",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2014.tde-29052014-154630",
+        "doi": "10.11606/d.100.2014.tde-29052014-154630",
+        "year": 2014,
+        "authors": [
+          "Marcela Bortotti Fávero"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "The research discusses the use of social networks as a communication platform for micro and small enterprises of the textile industry. The search is relevant to discuss todays important subjects: marketing communication through social networks in micro and small enterprises of the textile industry, justifying for the difficulty of micro and small enterprises to do actions of marketing because of the high investments that traditional medias require. The researchs proposal is identify how fashion micro and small enterprises are using social networks to communication with its customers. To achieve this target were defined the following steps: a) Identify an overview of the use of social networks by fashion micro and small enterprises; b) Map the developed actions taken by these companies on Facebook; c) Check the response from users regarding companies publication; d) Collect the posting by users on companies wall on Facebook; e) Identify the potential for programing the messages. This research had an exploratory, qualitative and descriptive character. The data base was collect in two moments, a non-participant observation of the social networks on companies pages and the application of a questionnaire with the companies managers. The data analyses allowed observing that although the literature presents as an advantage using social networks as close contact with the consumer, facilitating dialogue with low investment, actually what its observed is informal publications with informal language concentrated in disclosure of the products, making the fan page similar to a virtual catalog, sometimes even enabling the commercialization. The user interaction focuses on likes. When the user freely writes a comment ou something on the companies wall often approaches issues of interest, such as: buying, praise the brand and complaints.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-29052014-154630/publico/Marcela.pdf",
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W2124043653",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Gestão da informação no suporte a tomada de decisão em micro e pequenas empresas do setor comerciário de Bauru",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/11449/180859",
+        "doi": null,
+        "year": 2019,
+        "authors": [
+          "Erick Pacheli Pereira"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "No Brasil, as Micro e Pequenas Empresas possuem um papel socioeconômico importante, além de serem organizações que mais geram empregos na sociedade. Todavia, essas empresas enfrentam fatores que prejudicam seu desenvolvimento e consistência no mercado, como falhas gerenciais, altas taxas de mortalidade, dificuldades na realização de planejamento estratégico e em se adaptar ao atual cenário informacional, entre outros. Os gestores e os funcionários inseridos nas micro e pequenas empresas apresentam dificuldades com relação à percepção da necessidade, busca, disseminação, uso, armazenamento e recuperação da informação na prática das suas atividades e nos seus processos decisórios. Diante disso, tornou-se imprescindível um estudo que enfocasse a análise das particularidades das micro e pequenas empresas e concomitantemente que abordasse como o processo de gestão da informação pode contribuir de maneira significativa para a tomada de decisão nesse universo, uma vez que apesar de existirem diversas pesquisas que enfocam a contribuição da gestão da informação para a tomada de decisão, essa contribuição é analisada predominantemente no âmbito de médias e grandes empresas. Nessa conjuntura, o problema condutor desse estudo foi: como as micro e pequenas empresas podem realizar a gestão da informação levando-se em consideração suas limitações e particularidades no processo decisório? À vista disso, o objetivo geral foi encontrar regularidades em Micro e Pequenas Empresas do setor comerciário da cidade de Bauru, no interior de São Paulo, a fim de verificar procedimentos relacionados à gestão da informação e à tomada de decisão, de maneira a estabelecer orientações sobre como as Micro e Pequenas Empresas podem realizar a gestão da informação para tomarem decisões que contribuam para o seu desenvolvimento no mercado. É uma pesquisa de natureza qualitativa, caracterizada como exploratória e utiliza como metodologia o estudo de casos múltiplos. Contempla como instrumento de coleta de dados o questionário e o roteiro de entrevista semiestruturada aplicados em três empresas que atuam no setor de comércio da cidade de Bauru/SP. Para análise dos dados coletados, utilizou-se as técnicas de combinação de padrão e a síntese cruzada de dados. Como resultados, a análise demonstrou que a gestão da informação no suporte à tomada de decisão em MPEs do setor comerciário, que atua no comércio de produtos relacionados à moda, deve considerar: (i) a estrutura simples que predomina nas MPEs; (ii) a necessidade de centralização demonstrada pelos gestores; (iii) a flexibilidade inerente à estrutura simples; (iv) as redes sociais como ferramentas para a coleta de informações; (v) as práticas e atitudes relativas à informação já existentes nas empresas; e (vi) a inclusão das informações provenientes dos departamentos terceirizados nas ferramentas de apoio à tomada de decisão. Como considerações finais, a pesquisa demonstrou que a modificação da cultura é uma questão complexa, e tais empresas já possuem tradição de mercado, o que torna essas mudanças mais difíceis. Portanto, as práticas e diretrizes para a gestão da informação devem estar em sintonia com a cultura organizacional da empresa.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W2944147619",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Fatores financeiros determinantes da mortalidade de micro e pequenas empresas",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.12.2007.tde-30012008-094646",
+        "doi": "10.11606/d.12.2007.tde-30012008-094646",
+        "year": 2015,
+        "authors": [
+          "Carlos Alberto Ercolin"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.12.2007.tde-30012008-094646",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Análise financeira das demonstrações contábeis do Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (SEBRAE)",
+        "source": "crossref",
+        "url": "https://doi.org/10.26512/2019.tcc.22763",
+        "doi": "10.26512/2019.tcc.22763",
+        "year": 2022,
+        "authors": [
+          "Eduardo de Jesus Carvalho"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 49,
+        "work_type": "thesis",
+        "identifier": "10.26512/2019.tcc.22763",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Biblioteca Central da UNB"
+        }
+      },
+      {
+        "title": "SEBRAE: Serviço Brasileiro de Apoio às Micro e Pequenas Empresas",
+        "source": "crossref",
+        "url": "https://doi.org/10.4337/9781783472338.00020",
+        "doi": "10.4337/9781783472338.00020",
+        "year": 2016,
+        "authors": [
+          "Jeff Roberts",
+          "Nathalia Myrrha"
+        ],
+        "venue": "Institutional Case Studies on Necessity Entrepreneurship",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 20,
+        "work_type": "book-chapter",
+        "identifier": "10.4337/9781783472338.00020",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Edward Elgar Publishing"
+        }
+      },
+      {
+        "title": "As barreiras e os facilitadores encontrados pelas micro e pequenas empresas para a implantação do planejamento estratégico na visão do SEBRAE",
+        "source": "crossref",
+        "url": "https://doi.org/10.26512/2011.06.tcc.2678",
+        "doi": "10.26512/2011.06.tcc.2678",
+        "year": 2024,
+        "authors": [
+          "Hélio Manuel Tavares Júnior"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.26512/2011.06.tcc.2678",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Biblioteca Central da UNB"
+        }
+      },
+      {
+        "title": "Estudo dos fatores contribuintes para a mortalidade precoce de micro e pequenas empresas de São Paulo",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/t.12.2006.tde-20112006-093303",
+        "doi": "10.11606/t.12.2006.tde-20112006-093303",
+        "year": 2015,
+        "authors": [
+          "Luis Fernando Filardi"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "10.11606/t.12.2006.tde-20112006-093303",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Diagnóstico da mortalidade das micro e pequenas empresas de Rio Verde-GO no período de 1998 a 2000",
+        "source": "crossref",
+        "url": "https://doi.org/10.14393/ufu.di.2001.27",
+        "doi": "10.14393/ufu.di.2001.27",
+        "year": 2019,
+        "authors": [
+          "Luiz Silva"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.14393/ufu.di.2001.27",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "EDUFU - Editora da Universidade Federal de Uberlandia"
+        }
+      },
+      {
+        "title": "Análise dos principais determinantes da inovação em micro e pequenas empresas: uma análise com dados do Programa Agente Locais de Inovação do Sebrae",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2024.1396054",
+        "doi": "10.47749/t/unicamp.2024.1396054",
+        "year": 2024,
+        "authors": [
+          "Murilo de Freitas Silva"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2024.1396054",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Micro e pequenas empresas: quais as alternativas, papéis e como impulsionar o seu crescimento na era digital?",
+        "source": "crossref",
+        "url": "https://doi.org/10.52959/2021235308",
+        "doi": "10.52959/2021235308",
+        "year": 2021,
+        "authors": [
+          "SEBRAE",
+          "Carlos Melles"
+        ],
+        "venue": "Digital: negócios e transformação digital",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.52959/2021235308",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Fundação Dom Cabral"
+        }
+      },
+      {
+        "title": "MODA PLUS SIZE: ANÁLISE DO MERCADO PLUS SIZE INFANTIL NO BRASIL",
+        "source": "crossref",
+        "url": "https://doi.org/10.20872/24478407/regmpe.v3n1p65-81",
+        "doi": "10.20872/24478407/regmpe.v3n1p65-81",
+        "year": 2018,
+        "authors": [
+          "Faculdade de Tecnologia SEBRAE São Paulo",
+          "Rosililia Lima David",
+          "Neyla Souza Simas da Silva",
+          "Faculdade de Tecnologia SEBRAE São Paulo"
+        ],
+        "venue": "Revista de Empreendedorismo e Gestão de Micro e Pequenas Empresas",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.20872/24478407/regmpe.v3n1p65-81",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "PLANO DE AÇÃO COMO FERRAMENTA ESTRATÉGICA PARA INOVAÇÃO NAS MICRO E PEQUENAS EMPRESAS",
+        "source": "crossref",
+        "url": "https://doi.org/10.35170/ss.ed.9786580261383.03",
+        "doi": "10.35170/ss.ed.9786580261383.03",
+        "year": 2024,
+        "authors": [
+          "Everton Linard dos Anjos",
+          "Dionatas Ulises de Oliveira Meneguetti"
+        ],
+        "venue": "ARTIGOS E ESTUDOS DE CASO PROGRAMA ALI SEBRAE ACRE 2023-2024",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.35170/ss.ed.9786580261383.03",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Stricto Sensu Editora"
+        }
+      },
+      {
+        "title": "Novas abordagens a promoção das pequenas empresas: um estudo do programa SEBRAE de desenvolvimento de arranjos produtivos locais",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2003.281238",
+        "doi": "10.47749/t/unicamp.2003.281238",
+        "year": 2021,
+        "authors": [
+          "Sueli Aparecida de Marco"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2003.281238",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Fatores de mortalidade de pequenas empresas: análise de empresas do setor varejista a partir do ciclo de vida organizacional",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/t.18.2013.tde-18112013-102833",
+        "doi": "10.11606/t.18.2013.tde-18112013-102833",
+        "year": 2015,
+        "authors": [
+          "Alexandre Farias Albuquerque"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "10.11606/t.18.2013.tde-18112013-102833",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Estudo sobre o histórico de atuação do Sebrae na consultoria para micro e pequenas empresas brasileiras",
+        "source": "crossref",
+        "url": "https://doi.org/10.15675/gepros.v10i2.1223",
+        "doi": "10.15675/gepros.v10i2.1223",
+        "year": 2015,
+        "authors": [
+          "Vanise Rafaela Zivieri Ralio",
+          "Julio Cesar Donadone"
+        ],
+        "venue": "Revista Gestão da Produção Operações e Sistemas",
+        "abstract": "No cenário organizacional brasileiro destaca-se a presença e cada vez maior das micro e pequenas empresas (MPEs), tendo como consequência a crescente demanda por serviços de suporte à sua gestão. Nesse sentido, o presente artigo visa contribuir para o entendimento do espaço de consultoria brasileiro, principalmente no que se refere a sua relação com as MPEs, particularmente analisando as formas de atuação do Sebrae, desde seu surgimento dentro deste espaço e sua participação no fortalecimento deste segmento. Trata-se de uma pesquisa exploratória, partindo-se de revisão bibliográfica sobre o tema e de realização de entrevistas semiestruturadas com funcionários, consultores e ex-presidentes da instituição. A análise se deu de forma qualitativa considerando como base a análise cronológica dos dados. Os resultados permitem notar os principais produtos oferecidos pelo Sebrae, ao longo de seu histórico, e identifica-se o seu papel no fornecimento de consultoria para as MPEs e como grande produtor de conhecimento acerca do setor e também como agente articulador entre as instituições que se relacionam com o segmento.Palavras-chave: Micro e Pequenas Empresas. Consultoria Organizacional. Espaço de Consultoria Brasileiro. Sebrae.",
+        "pdf_url": "https://revista.feb.unesp.br/gepros/article/download/1223/642",
+        "citation_count": 5,
+        "work_type": "article",
+        "identifier": "10.15675/gepros.v10i2.1223",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "A Fundacao para o Desenvolvimento de Bauru (FunDeB)"
+        }
+      },
+      {
+        "title": "Produtividade e Competividade para as Micro e Pequenas empresas através da participação no Projeto ALI do SEBRAE",
+        "source": "crossref",
+        "url": "https://doi.org/10.18540/revesvl5iss4pp14687-01e",
+        "doi": "10.18540/revesvl5iss4pp14687-01e",
+        "year": 2022,
+        "authors": [
+          "Anderson de Souza Nunes",
+          "Rafael Mozart da Silva"
+        ],
+        "venue": "REVES - Revista Relações Sociais",
+        "abstract": "A presente pesquisa teve como objetivo geral investigar a repentina mudança de rotina imposta pela COVID-19 às MPEs atendidas pelo Projeto ALI do SEBRAE. Por meio de análises quantitativas foi possível concluir que as empresas pesquisadas que conseguiram retomar o seu faturamento não tiveram avanços significativos nas dimensões de gestão da operação e marketing, mostrando como as empresas renunciam a avanços e novas práticas em detrimento de ganhos de faturamento no curto prazo. A pesquisa também corrobora com a ideia de as MPEs ainda precisam de muita dedicação e abertura para a implantação real de novas culturas e de soluções digitais.",
+        "pdf_url": "https://periodicos.ufv.br/reves/article/download/14687/7477",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.18540/revesvl5iss4pp14687-01e",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Federal de Vicosa"
+        }
+      },
+      {
+        "title": "Mortalidade de micro e pequenas empresas industriais do polo calçadista de Jaú/SP",
+        "source": "crossref",
+        "url": "https://doi.org/10.17058/redes.v27i1.16937",
+        "doi": "10.17058/redes.v27i1.16937",
+        "year": 2022,
+        "authors": [
+          "Vera Mariza Henriques de Miranda Costa",
+          "Paulo Fernando Lima",
+          "Claudio Luís Piratelli"
+        ],
+        "venue": "Redes",
+        "abstract": "O artigo tem por objetivo identificar e analisar as razões da mortalidade das MPEs industriais do polo calçadista do município de Jaú/SP e apresentar ações que possam alterar positivamente a atuação dessas empresas, contribuindo para o desenvolvimento local e regional. Trata-se de pesquisa descritiva, quanto aos objetivos, de natureza aplicada, desenvolvida com abordagem qualitativa e utilizando como estratégia de pesquisa, além da pesquisa bibliográfica, o estudo de campo. São poucos os estudos desenvolvidos sobre o setor calçadista em Jaú/SP e há carência de literatura referente às razões da mortalidade das empresas industriais desse setor. A pesquisa qualitativa, com a participação de diversos tipos de stakeholders com relacionamento com o setor, propiciou a identificação de diversos fatores responsáveis pela mortalidade: internos às empresas e externos a elas, de caráter estrutural e sistêmico. Os resultados da investigação possibilitaram: a) identificação de evidências e achados, que poderão ser utilizados, em pesquisas quantitativas, para a escolha da população, seleção da amostra e estruturação do instrumento para o levantamento de dados e informações e b) apresentação de sugestões de melhoria para a atuação das empresas do setor calçadista, com impactos positivos sobre: o desempenho e a competitividade delas e o fortalecimento do polo, em articulação com a localidade e a região.",
+        "pdf_url": "https://online.unisc.br/seer/index.php/redes/article/download/16937/10634",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.17058/redes.v27i1.16937",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "APESC - Associacao Pro-Ensino em Santa Cruz do Sul"
+        }
+      },
+      {
+        "title": "MORTALIDADE DOS EMPREENDIMENTOS DE MICRO E PEQUENAS EMPRESAS: CAUSAS E APRENDIZAGEM",
+        "source": "crossref",
+        "url": "https://doi.org/10.13037/gr.vol25n74.220",
+        "doi": "10.13037/gr.vol25n74.220",
+        "year": 2009,
+        "authors": [
+          "Carlos Alberto Grespan Bonacim",
+          "Julio Araújo Carneiro Da Cunha",
+          "Hamilton Luiz Corrêa"
+        ],
+        "venue": "Gestão &amp; Regionalidade",
+        "abstract": "As micro e pequenas empresas (MPEs) são essenciais para o crescimento e desenvolvimento econômico de qualquer nação. No entanto, grande parte das novas empresas encerra suas atividades nos primeiros anos de funcionamento. O objetivo deste trabalho é apontar os principais fatores propulsores da mortalidade de MPEs do Município de Ituverava, em São Paulo. Os procedimentos metodológicos contaram com entrevistas individuais com nove empresários de negócios não bem-sucedidos, seguidos de duas sessões de grupos focais. A pesquisa identificou fatores que podem levar as MPEs ao fechamento prematuro e concluiu que a causa da mortalidade ocorre devido a um conjunto de fatores associados que, acumulados, contribuem para o fenômeno. Os principais deles são os seguintes: falta de planejamento prévio; escassez de linhas de crédito; baixa demanda por seus produtos e serviços; elevada carga tributária. Para solucionar os problemas, sugere-se o estímulo à criação de capital social regional e de incubadoras capazes de dar suporte aos empreendimentos. Palavras-chave: empreendedorismo, PMEs, empreendedor.",
+        "pdf_url": "https://seer.uscs.edu.br/index.php/revista_gestao/article/download/220/95",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.13037/gr.vol25n74.220",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "USCS Universidade Municipal  de Sao Caetano do Sul"
+        }
+      },
+      {
+        "title": "ESTUDOS DE CASO: DILEMAS E SOLUÇÕES EM MICRO E PEQUENAS EMPRESAS, COM APOIO DOS AGENTES LOCAIS DE INOVAÇÃO DO SEBRAE GOIÁS",
+        "source": "crossref",
+        "url": "https://doi.org/10.18224/baru.v10i1.14251",
+        "doi": "10.18224/baru.v10i1.14251",
+        "year": 2024,
+        "authors": [
+          "Antônio Pasqualetto"
+        ],
+        "venue": "Revista Baru - Revista Brasileira de Assuntos Regionais e Urbanos",
+        "abstract": "Cada empresário ou empresa constitui sua própria história. Assim sendo, objetivou-se avaliar estudos de caso selecionados de MPEs pelos agentes locais de inovação - ALI produtividade das regionais Centro-leste, Sul e Metropolitana do Sebrae Goiás. A metodologia envolveu o programa Brasil Mais Produtivo com a participação de Agentes Locais de Inovação – ALI produtividade. Para tal, foram empregadas ferramentas como radar de inovação e índice de produtividade. Os Resultados demonstraram que, guardadas as peculiaridades de cada segmento, houve melhoria na performance empresarial. Sugere-se que os estudos de caso sejam replicados aos setores em as empresas atuam, de forma a difundir boas práticas e replicar bons exemplos.",
+        "pdf_url": "https://seer.pucgoias.edu.br/index.php/baru/article/download/14251/7131",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.18224/baru.v10i1.14251",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Pontificia Universidade Catolica de Goias -PUC Goias"
+        }
+      },
+      {
+        "title": "Oyster grow-out system adapted to environmental stress in tropical estuaries",
+        "source": "crossref",
+        "url": "https://doi.org/10.1590/s1678-3921.pab2025.v60.04146",
+        "doi": "10.1590/s1678-3921.pab2025.v60.04146",
+        "year": 2025,
+        "authors": [
+          "Jefferson Francisco Alves Legat",
+          "Angela Puchnick Legat",
+          "Kadja Luana Almeida de Souza",
+          "Lucicleide Souza Bomfim",
+          "Alitiene Moura Lemos Pereira",
+          "Maria Geovania Lima Manos"
+        ],
+        "venue": "Pesquisa Agropecuária Brasileira",
+        "abstract": "The objective of this work was to evaluate the performance and economic viability of a relocatable floating system compared with the traditional fixed system for cultivating native oysters in estuarine areas of Northeastern Brazil. Two experiments were conducted at the aquaculture park on the north coast of the state of Sergipe. In the first experiment, two farming phases (seed and juvenile) were evaluated in floating and fixed systems, with a focus on growth, survival, and the size-class distribution of the oysters. In the second experiment, the performance of the floating system was compared between shrimp ponds and estuarine areas. The oysters in the floating system exhibited a significantly superior growth and survival in both phases (p<0.001), with a higher frequency in commercial-size classes. The economic analysis indicated that the floating system is financially viable, yielding a better return on investment than the fixed system. Additionally, oysters cultivated in shrimp ponds presented an improved performance (p<0.001), likely due to an increased environmental stability. The obtained results suggest that adaptable floating systems are a promising strategy for resilient oyster farming, particularly in facing climatic and salinity fluctuations in tropical estuarine environments.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.1590/s1678-3921.pab2025.v60.04146",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "FapUNIFESP (SciELO)"
+        }
+      },
+      {
+        "title": "GESTÃO DE RECURSOS HUMANOS EM MICRO E PEQUENAS EMPRESAS: DIRECIONAMENTOS DO SEBRAE PARA ESTIMULAR O DESENVOLVIMENTO DE POLÍTICAS E PRÁTICAS",
+        "source": "crossref",
+        "url": "https://doi.org/10.25112/rgd.v14i2.1152",
+        "doi": "10.25112/rgd.v14i2.1152",
+        "year": 2017,
+        "authors": [
+          "Teodoro Malta Campos",
+          "Marta Correa Machado",
+          "André Luiz Fischer"
+        ],
+        "venue": "Revista Gestão e Desenvolvimento",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.25112/rgd.v14i2.1152",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Associacao Pro-Ensino Superior em Novo Hamburgo"
+        }
+      },
+      {
+        "title": "Estudos dos Fatores Contribuintes para a Mortalidade das Micro e Pequenas Empresas do Estado do Maranhão",
+        "source": "crossref",
+        "url": "https://doi.org/10.5585/iji.v4i2.36",
+        "doi": "10.5585/iji.v4i2.36",
+        "year": 2016,
+        "authors": [
+          "Rodrigo Arraes Alvarenga"
+        ],
+        "venue": "International Journal of Innovation",
+        "abstract": "Enterprises are taking on an increasingly important role in society, both in the generation of employment and income, as in identifying niche markets not identified by large corporations. However, year after year a significant number of these companies end their activities. In this sense, the objective of this study was to identify and characterize the causes that contributed to the mortality of the State of Maranhão micro enterprises from 2005 to 2011. Thus, this research is classified as descriptive and explanatory, given the search for the identification of factors which led to the closure of activities, and a description of the characteristics of the owners of these organizations. The study sample of 3,752 companies, compared to a population of 39,039. And for economically viable research, it was used as a strategy for data collection a Call Center given by a dealership located in Bacabal - MA. Two months after making at least two connections for each entrepreneur, it was concluded that of the 10 cases tested, 6 had substantial involvement in the bankruptcy of the companies studied. Finally, recommendations are made for further studies, recommending a study that seeks to identify what activity the entrepreneur has ended after his venture.",
+        "pdf_url": "https://periodicos.uninove.br/innovation/article/viewFile/10181/4854",
+        "citation_count": 8,
+        "work_type": "article",
+        "identifier": "10.5585/iji.v4i2.36",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "University Nove de Julho"
+        }
+      }
+    ]
+  },
+  "count": 40,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:04:18.897331+00:00"
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "cluster_id": "prototipagem-3d-substituicao-vs-complemento-oneroso",
+    "fight": "A modelagem e prototipagem 3D (CLO3D, Browzwear, Audaces 3D) substitui a peça-piloto física e reduz custos/tempo do estilista e da confecção, ou adiciona sobrecarga operacional, falha na avaliação tátil/vestibilidade dinâmica e exige manutenção de 2 a 3 rodadas de prova física?",
+    "side_a": {
+      "position": "A prototipagem virtual 3D reduz o tempo de desenvolvimento de produto, substitui desenhos planos 2D nas fichas técnicas e reduz o desperdício de amostras físicas na etapa de aprovação.",
+      "claims": [
+        "No desenvolvimento de produto, tecnologias como modelagem 3D, prototipagem virtual e sistemas colaborativos permitem redução do tempo de desenvolvimento e maior integração entre criação e produção (Serrano, Scandolara & Dal Forno, 2026).",
+        "O uso do CLO3D permite substituir desenhos técnicos planos (2D flats) por amostras 3D nas fichas técnicas enviadas às fábricas e reduz o desperdício de amostras físicas na etapa de design (Choi, 2022; Mesjar et al., 2023)."
+      ],
+      "sources": [
+        "xlvi-encontro-nacional-de-engenharia-de-produção",
+        "prototipagem-virtual-softwares-3d-para-modelagem-de-vestuário-projetica-2",
+        "3d-modeling-for-fashion-design-dat-journal"
+      ]
+    },
+    "side_b": {
+      "position": "Na prática fabril e em PMEs, o 3D não elimina a peça-piloto física (mais de 90% das peças exigem 2 a 3 provas físicas): o 3D falha em simular compressibilidade de tecidos moles em movimento e o ato de vestir, mapas de tensão coloridos não se traduzem em folga (ease) exata no molde, e em pequenas confecções a economia de amostras físicas é anulada pelo aumento no custo de mão de obra e sobrecarga do estilista.",
+      "claims": [
+        "Mais de 90% das peças passam por 2 a 3 rodadas de prova física (8 a 20 peças por visita); softwares CAD 3D (CLO3D, Browzwear V-Stitcher, Optitex PDS) falham em simular compressibilidade de tecidos moles em movimento, não simulam o ato de vestir e apresentam mapas de tensão que não se traduzem diretamente em quantidade exata de folga (ease) no molde (Yang & Baytar, 2024).",
+        "Em pequenas empresas, a economia de amostras físicas com o CLO3D é anulada pelo aumento no custo de mão de obra e tempo de operação, exigindo que o estilista acumule profundo conhecimento de modelagem e costura, além de rejeição de avatares 3D no B2B por erros de caimento (Choi, 2022).",
+        "Nas marcas brasileiras de customização e sob demanda, todas utilizam CAD 2D (Audaces) mas nenhuma adota simulação 3D como substituto da peça física devido à necessidade de validação física do caimento têxtil (Queiroz, 2023 USP)."
+      ],
+      "sources": [
+        "fit-models-roles-in-identifying-fit-issues-in-the-apparel-technical-design-proce",
+        "3d-dynamic-fashion-design-development-using-digital-technology-and-its-potential",
+        "the-intersection-of-fashion-immersive-technology-and-sustainability-a-literature",
+        "universidade-de-são-paulo-2"
+      ]
+    },
+    "evidence_quality_delta": "Side B detém evidência empírica de campo superior (observação direta de sessões de prova na Universidade de Cornell, grupos focais com designers industriais na Coreia do Sul, revisão sistemática PRISMA de 74 estudos e entrevistas em confecções brasileiras na USP), demonstrando que os ganhos de Side A ocorrem apenas em grandes corporações com especialistas 3D dedicados e mesmo assim sem eliminar a prova física.",
+    "scope_overlap": "Parcialmente escopado por porte empresarial e etapa do funil: o 3D acelera a visualização preliminar e triagem visual em grandes marcas, mas falha na validação técnica final de caimento/vestibilidade e inviabiliza-se economicamente em PMEs quando imposto ao estilista.",
+    "decision_relevance": "high"
+  },
+  {
+    "cluster_id": "ia-generativa-aceleracao-conceitual-vs-inviabilidade-tecnica-produtiva",
+    "fight": "A Inteligência Artificial generativa (Midjourney, Stable Diffusion, LLMs) acelera o fluxo de criação de moda ou gera peças tecnicamente inviáveis para modelagem/costura que exigem retrabalho manual em CAD 2D?",
+    "side_a": {
+      "position": "A IA generativa acelera drasticamente a ideação e geração de conceito visual (gerando 12 imagens em menos de 60 segundos) e apoia a definição de problema e exploração estética inicial.",
+      "claims": [
+        "O uso do Midjourney em três estágios de design de moda permitiu gerar 667 imagens (produzindo ~12 imagens em menos de 60 segundos no modo rápido), acelerando a fase de ideação conceitual e exploração estética segundo o modelo FEA (Zhang & Liu, 2024).",
+        "Ferramentas de IA apoiam estudantes e designers na definição do problema, ideação visual e geração rápida de variações conceituais (An & Park, 2026; Da prancheta ao Algoritmo, Projética)."
+      ],
+      "sources": [
+        "unlocking-the-potential-of-artificial-intelligence-in-fashion-design-and-e-comme",
+        "ai-tools-and-fashion-design-education-instructor-perspectives-on-student-challen",
+        "da-prancheta-ao-algoritmo-explorando-a-representação-visual-de-moda-projetica"
+      ]
+    },
+    "side_b": {
+      "position": "A IA generativa é incapaz de entregar especificações técnicas para a produção: falha no alinhamento fiel a tecidos e silhuetas, não mantém consistência estrutural entre variações, não gera vistas traseiras (costas) nem ficha técnica/molde, e induz perda de repertório construtivo por tentativa e erro.",
+      "claims": [
+        "Quatro limitações severas restringem a IA generativa apenas à ideação inicial: (1) imprecisão no alinhamento às especificações de tecido e silhueta; (2) falta de consistência estrutural entre variações; (3) incapacidade de gerar vistas traseiras (costas) ou múltiplos ângulos da mesma peça; e (4) impossibilidade de editar detalhes técnicos automaticamente, exigindo redesenho manual em Illustrator/Photoshop/CAD (Zhang & Liu, 2024).",
+        "Instrutores de design de moda alertam que a adoção acrítica de saídas de IA prejudica o desenvolvimento de competências técnicas fundamentais adquiridas por tentativa e erro na construção do vestuário (An & Park, 2026)."
+      ],
+      "sources": [
+        "unlocking-the-potential-of-artificial-intelligence-in-fashion-design-and-e-comme",
+        "ai-tools-and-fashion-design-education-instructor-perspectives-on-student-challen"
+      ]
+    },
+    "evidence_quality_delta": "Ambos os lados são sustentados pelos mesmos estudos empíricos (pesquisa-ação + survey n=174 de Zhang & Liu 2024 e estudo qualitativo com docentes de An & Park 2026), revelando uma bifurcação clara entre velocidade de moodboard/conceito (Side A) e bloqueio na tradução para desenho técnico plano, costas, modelagem e ficha técnica (Side B).",
+    "scope_overlap": "Bifurcação por fase do PDP: alta utilidade na Fase 1 (Conceito/Moodboard) vs. ruptura técnica na Fase 2/3 (Desenho Técnico Plano frente/costas, Modelagem e Ficha Técnica).",
+    "decision_relevance": "high"
+  },
+  {
+    "cluster_id": "plm-pdm-integracao-colaborativa-vs-rejeicao-burocratica",
+    "fight": "Sistemas de gestão do ciclo de vida do produto (PLM/PDM) e fichas técnicas parametrizadas promovem o design colaborativo e reduzem o lead time, ou fracassam na indústria brasileira por sobrecarga de alimentação manual de dados, rigidez criativa e choque cultural?",
+    "side_a": {
+      "position": "A ficha técnica viva em banco de dados (PDM/PLM) centraliza BOM, roteiro operacional, tabela de medidas e texografia, integrando criação, engenharia, custos e compras e eliminando planilhas paralelas.",
+      "claims": [
+        "No PDM/PLM, a ficha técnica deixa de ser estática e funciona como um banco de dados vivo alimentado por múltiplos atores (estilista, coordenador de marca, modelista, laboratório, engenharia de processos e texografia), permitindo rastrear alterações em tempo real e simular cenários de outsourcing (Araújo, 2017 USP).",
+        "Modelos formais de referência para o PDP com gates de aprovação e Matriz de Responsabilidades R/P/I integram Estilo, Comercial e Produção (Jordan, 2004 UFRGS)."
+      ],
+      "sources": [
+        "universidade-de-são-paulo",
+        "marisa-beatriz-poletto-jordan",
+        "proposta-de-um-modelo-de-referência-para-o-desenvolvimento-de-produtos-do-vestuá"
+      ]
+    },
+    "side_b": {
+      "position": "Na realidade das confecções brasileiras, projetos de PLM fracassam e são abandonados porque os usuários esperam automação mágica mas enfrentam intensa digitação manual de parâmetros inexistentes (BOM, minutagem, encaixe prévio), medo político de exposição de ineficiências e engessamento do fluxo criativo.",
+      "claims": [
+        "O projeto de intervenção de implantação de PLM internacional em grande empresa brasileira de vestuário fracassou e foi interrompido pela cliente devido à falta de gestão de mudança cultural, medo dos usuários de parecerem ineficientes, frustração com a sobrecarga de alimentação manual para cálculo de pré-custo e ausência de integração nativa com histórico de vendas/BI (Araújo, 2017 USP).",
+        "Nas pequenas e médias confecções (N=7 no Sul do Brasil), o PDP opera no Nível 2 de maturidade (intuitivo e guardado na memória), estilistas abandonam metodologias formais por falta de tempo e sobrecarga, e fichas técnicas só são preenchidas após o protótipo pronto (Jordan, 2004 UFRGS)."
+      ],
+      "sources": [
+        "universidade-de-são-paulo",
+        "marisa-beatriz-poletto-jordan"
+      ]
+    },
+    "evidence_quality_delta": "Side B possui evidência empírica direta de pesquisa-ação (estudo de caso real de interrupção de PLM na USP e diagnóstico de 7 fábricas na UFRGS), provando que a arquitetura idealizada de Side A entra em colapso se exigir entrada manual pesada antes do protótipo ou se não conversar com o repertório visual livre da estilista.",
+    "scope_overlap": "Tensão direta entre o modelo normativo da Engenharia de Produção (Side A) e a realidade sociotécnica e cognitiva das confecções brasileiras (Side B).",
+    "decision_relevance": "high"
+  },
+  {
+    "cluster_id": "ecodesign-zero-waste-potencial-estilista-vs-bloqueio-comercial-industrial",
+    "fight": "O estilista detém poder decisório para viabilizar a sustentabilidade e o aproveitamento integral de tecido (Zero Waste / Ecodesign) na criação, ou é bloqueado pelo custo comercial nas PMEs, pela separação departamental com modelagem/encaixe e pela pressão de prazos?",
+    "side_a": {
+      "position": "Até 80% do impacto ambiental do vestuário é definido na fase de design/planejamento pelo estilista, e a modelagem Zero Waste integrada à criação elimina os 15% a 17% de desperdício de tecido no corte industrial.",
+      "claims": [
+        "Na simulação em CAD Audaces v.17 para enfesto de 50 folhas (100 calças em tecido de 1,50 m), a modelagem convencional consome 114,5 m com 17% de perda, enquanto a modelagem zero waste com moldes espelhados no contrafio consome 90 m com perda zero, economizando 24,5 m por enfesto (Kauvauti, 2022 USP).",
+        "A literatura de transição sustentável e responsabilidade estendida do produtor (EPR/OECD) aponta a etapa de criação e seleção de materiais pelo designer como determinante para mitigar o resíduo têxtil pré-consumo (Contin, 2023 USP; OECD, 2024; Perkins, 2021)."
+      ],
+      "sources": [
+        "universidade-de-são-paulo-5",
+        "universidade-de-são-paulo-4",
+        "oecd-environment-working-papers-no-253",
+        "university-of-huddersfield-repository"
+      ]
+    },
+    "side_b": {
+      "position": "Na prática das confecções brasileiras, o estilista tem seu poder de escolha bloqueado pelo alto custo dos insumos sustentáveis (que inviabiliza o preço competitivo nas PMEs), pela falta de valorização pelo consumidor final, pela variação de largura dos rolos de tecido (1,30 m a 1,50 m), pela complexidade de graduação de grade e pela fragmentação entre estilo, modelagem e corte.",
+      "claims": [
+        "Embora os designers nas confecções paulistanas possuam conhecimento técnico sobre sustentabilidade, nas pequenas empresas o custo elevado dos materiais sustentáveis restringe o poder de escolha do designer por limitar a competitividade comercial, e pequenas, médias e grandes empresas relatam que o consumidor final não compra por critérios sustentáveis (Contin, 2023 USP).",
+        "A aplicação de modelagem zero waste na produção em larga escala é inviabilizada pela separação tradicional entre criação, modelagem, encaixe/risco e corte, pela variação na largura dos tecidos planos brasileiros (1,30 m a 1,50 m), pela complexidade de graduação da grade de tamanhos e pelo aumento no tempo de criação exigido do designer sob pressão de prazos (Kauvauti, 2022 USP)."
+      ],
+      "sources": [
+        "universidade-de-são-paulo-4",
+        "universidade-de-são-paulo-5"
+      ]
+    },
+    "evidence_quality_delta": "Ambos os lados têm forte base empírica (experimentos em CAD Audaces e entrevistas com confecções de SP na USP): Side A demonstra a viabilidade técnica geométrica, enquanto Side B comprova as travas econômicas, organizacionais e de escala industrial no Brasil.",
+    "scope_overlap": "Conflito real entre viabilidade geométrica de ateliê/laboratório (Side A) e restrições econômicas/industriais de escala em PMEs brasileiras (Side B).",
+    "decision_relevance": "high"
+  },
+  {
+    "cluster_id": "autonomia-autoral-estilista-vs-subordinacao-comercial-industrial",
+    "fight": "O estilista atua como criador autoral e líder estratégico do conceito da coleção, ou sofre proletarização e insustentabilidade criativa subordinado ao veto comercial, cópia de tendências e tarefas operacionais?",
+    "side_a": {
+      "position": "Metodologias projetuais estruturadas (GODP, Matriz de Aderência Conceitual - MAC, Design Centrado no Usuário) fortalecem a autonomia criativa do estilista e alinham escolhas formais, cromáticas e têxteis à identidade autoral e às necessidades do usuário.",
+      "claims": [
+        "A Matriz de Aderência Conceitual (MAC) e o Guia de Orientação para o Desenvolvimento de Projetos (GODP) oferecem parâmetros objetivos para sustentar a autonomia criativa do estilista e traduzir conceitos em atributos formais, cromáticos e têxteis (Campos, 2025 UDESC; Merino et al., GODP)."
+      ],
+      "sources": [
+        "matriz-de-aderência-conceitual-como-instrumento-de-apoio-à-autonomia-criativa-em",
+        "guia-de-orientação-para-o-desenvolvimento-de-projetos-godp-aplicado-à-prática-pr",
+        "metodologia-centrada-no-usuário-para-a-prática-projetual-do-design-de-moda-godp"
+      ]
+    },
+    "side_b": {
+      "position": "No sistema industrial e de fast fashion, a legitimidade criativa migrou para marcas comerciais, submetendo o estilista à insustentabilidade criativa (esgotamento, compressão de prazos, poder de veto da área comercial sobre croquis e responsabilidade solitária pelo fracasso de vendas).",
+      "claims": [
+        "A industrialização da moda e o fast fashion geram a insustentabilidade criativa dos designers de moda: esgotamento criativo, compressão de tempo e padronização comercial (Campos, 2021 UDESC).",
+        "Na indústria brasileira, nenhum croqui avança sem aprovação comercial e de engenharia, e o poder da área comercial de vetar e exigir alterações constantes nos croquis gera sobrecarga e falta de tempo para refazimentos na equipe de estilo (Araújo, 2017 USP).",
+        "Em pequenas e médias confecções, o estilista acumula múltiplas funções operacionais sob pressão de prazos (impedindo o uso das ferramentas metodológicas aprendidas na academia) e carrega sozinho a culpa pelo sucesso ou fracasso comercial da coleção (Jordan, 2004 UFRGS; Queiroz, 2023 USP)."
+      ],
+      "sources": [
+        "estilista-ou-autor-o-percurso-das-figuras-criadoras-no-sistema-da-moda-dapesquis",
+        "universidade-de-são-paulo",
+        "marisa-beatriz-poletto-jordan",
+        "universidade-de-são-paulo-2"
+      ]
+    },
+    "evidence_quality_delta": "Side B é sustentado por estudos empíricos em fábricas e análise histórica do sistema da moda, enquanto Side A propõe instrumentos metodológicos prescritivos justamente para mitigar a dor diagnosticada em Side B.",
+    "scope_overlap": "Complementaridade dialética: Side B descreve a patologia real do mercado de confecção; Side A prescreve ferramentas projetuais de defesa da coerência conceitual.",
+    "decision_relevance": "medium"
+  }
+]

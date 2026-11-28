@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "Mesmo dentro de um único tamanho comercial (39 mulheres dos EUA cujas circunferências de busto, cintura e quadril coincidiam dentro da tolerância de ±1 polegada), existem 27 variações de forma corporal distribuídas em 99 categorias que impedem a obtenção de um bloco básico único de vestido tubinho com bom caimento para todo o grupo.",
+    "stance": "supports",
+    "stance_target": "insuficiência das medidas lineares tradicionais de tabela e da graduação cartesiana padrão para garantir vestibilidade sem ajustes de modelagem",
+    "evidence_type": "empirical",
+    "scope_conditions": "39 mulheres da base CAESAR (EUA) ajustadas virtualmente no Optitex com blocos básicos de vestido tubinho (sheath dress)",
+    "quoted_support": "This study concludes that for this sample there are multiple body-form variations across a single size and that the findings from comparing body-form variations to pattern dimensions can provide important suggestions for the development of a body-form based block system. Unfortunately, complete pattern block shapes could not be found from this sample, as there was too much variation in body-form.",
+    "numbers": ["39 subjects", "43 initial subjects", "± 1 inch tolerance", "27 body-form variations", "99 categories"],
+    "entities": ["CAESAR", "Optitex", "University of Minnesota"],
+    "time_period": "2020",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "exploration-of-the-bodygarment-relationship-theory-through-the-analysis-of-a-she"
+  },
+  {
+    "claim": "Estudos empíricos sobre graduação industrial (Schofield & LaBat, 2005, analisando 40 tabelas de medidas de 1873 a 2000; e Bye et al., 2008) demonstram que nenhuma das premissas tradicionais de graduação de moldes é sustentada por dados antropométricos empíricos e que regras tradicionais de graduação não proporcionam bom caimento ao longo da grade de tamanhos.",
+    "stance": "supports",
+    "stance_target": "falha estrutural das regras lineares de graduação industrial quando aplicadas sem ajuste morfológico",
+    "evidence_type": "historical",
+    "scope_conditions": "Indústria de confecção ready-to-wear dos EUA (análise de 40 tabelas de medidas entre 1873 e 2000 contra dados ANSUR)",
+    "quoted_support": "Schofield and LaBat (2005a, b) analyzed 40 US sizing charts from 1873 to 2000 to determine the underlying principles of industry grading practice and then testing these grading assumptions against grade rules developed via regression analysis of the 1988 ANSUR survey. They concluded that none of the grading assumptions were supported by empirical data.",
+    "numbers": ["40 US sizing charts", "1873 to 2000"],
+    "entities": ["ANSUR", "ASTM"],
+    "time_period": "1873-2008",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "exploration-of-the-bodygarment-relationship-theory-through-the-analysis-of-a-she"
+  }
+]

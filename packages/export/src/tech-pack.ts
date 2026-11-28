@@ -26,8 +26,23 @@ export type TechPackInput = {
     widthMm: number | null;
     weightGsm: number | null;
     priceCents: number | null;
+    pricePerKgCents?: number | null;
+    shrinkageWarpPct?: number | null;
+    shrinkageWeftPct?: number | null;
   } | null;
   trims: { name: string; quantity: number; unit: string; unitPriceCents: number | null }[];
+  /** Custos operacionais por peça (costura/facção, lavanderia e perda de corte sobre o tecido). */
+  operations?: {
+    sewingCents?: number | null;
+    laundryCents?: number | null;
+    wastePct?: number | null;
+  } | null;
+  /** Tabela de medidas de referência ligada ao produto ou ao molde (medidas em mm por tamanho). */
+  sizeChart?: {
+    name: string;
+    sizes: string[];
+    rows: { name: string; bySizeMm: Record<string, number> }[];
+  } | null;
   /** Último risco salvo para esta versão do molde (o app escolhe; aqui só se confere a largura). */
   marker?: TechPackMarker | null;
   /** Texto técnico do produto (escrito pela equipe, com sugestão da IA); vazio fica de fora. */
@@ -71,6 +86,19 @@ export type TechPackData = {
   trimsCents: number;
   /** Custo de material por peça pronta (tecido + aviamentos), centavos; null sem custo do tecido. */
   materialCentsBySize: Record<string, number | null>;
+  /** Custos operacionais/industriais (costura, lavanderia e perda de corte) e custo industrial total por tamanho. */
+  operations?: {
+    sewingCents: number | null;
+    laundryCents: number | null;
+    wastePct: number | null;
+    totalCentsBySize: Record<string, number | null>;
+  };
+  /** Tabela de medidas de referência vinculada ao produto/molde. */
+  sizeChart?: {
+    name: string;
+    sizes: string[];
+    rows: { name: string; bySizeMm: Record<string, number> }[];
+  };
   /** Texto técnico do produto (opcional: fichas antigas não têm). */
   technicalDescription?: string;
   /** Desenho técnico plano do molde (opcional: fichas antigas não têm). */
@@ -123,6 +151,27 @@ export function buildTechPack(input: TechPackInput): TechPackData {
   const materialCentsBySize = Object.fromEntries(
     doc.sizes.map((s) => [s, consumption[s]!.fabricCents === null ? null : consumption[s]!.fabricCents! + trimsCents]),
   );
+  const ops = input.operations;
+  const hasOps = ops && (ops.sewingCents != null || ops.laundryCents != null || ops.wastePct != null);
+  const sewingCents = ops?.sewingCents ?? null;
+  const laundryCents = ops?.laundryCents ?? null;
+  const wastePct = ops?.wastePct ?? null;
+  const operations = hasOps
+    ? {
+        sewingCents,
+        laundryCents,
+        wastePct,
+        totalCentsBySize: Object.fromEntries(
+          doc.sizes.map((s) => {
+            const mat = materialCentsBySize[s] ?? null;
+            const fab = consumption[s]!.fabricCents;
+            if (mat === null || fab === null) return [s, null];
+            const wasteCents = wastePct != null ? Math.round((fab * wastePct) / 100) : 0;
+            return [s, mat + wasteCents + (sewingCents ?? 0) + (laundryCents ?? 0)];
+          }),
+        ),
+      }
+    : undefined;
 
   return {
     schema: 1,
@@ -135,6 +184,8 @@ export function buildTechPack(input: TechPackInput): TechPackData {
     trims,
     trimsCents,
     materialCentsBySize,
+    ...(operations ? { operations } : {}),
+    ...(input.sizeChart && input.sizeChart.rows.length > 0 ? { sizeChart: input.sizeChart } : {}),
     ...(input.technicalDescription?.trim() ? { technicalDescription: input.technicalDescription.trim() } : {}),
     sketch: flatSketch(doc),
   };

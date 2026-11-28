@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "Indústrias de vestuário de médio porte do Vale do Itajaí (SC) que adotam tecnologias da Indústria 4.0 priorizam a agilidade de lançamento de coleções, o lucro e a redução de desperdício de matéria-prima e energia, negligenciando a dimensão social da sustentabilidade.",
+    "stance": "supports",
+    "stance_target": "Foco econômico/operacional e negligência da dimensão social nas indústrias de confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Estudo de caso com duas indústrias de vestuário de médio porte do Vale do Itajaí (SC) em março de 2025",
+    "quoted_support": "Como pode ser constatado, ambas as empresas reconhecem que a Indústria 4.0 é vantajosa para alcançar a sustentabilidade ambiental. Porém, mesmo sendo considerada por uma delas a dimensão econômica, não foi apontada por nenhuma delas a dimensão social. Muita atenção tem sido dada a agilidade dos processos, lançamento das coleções e ao lucro, esquecendo-se da preservação do meio ambiente e dos aspectos sociais.",
+    "numbers": ["2 indústrias", "março de 2025"],
+    "entities": ["Vale do Itajaí", "UDESC", "X SDS 2025"],
+    "time_period": "março de 2025",
+    "region": "Vale do Itajaí, Santa Catarina, Brasil",
+    "confidence": "high",
+    "source_note_id": "x-sds-2025-simpósio-de-design-sustentável-sustainable-design-symposium"
+  },
+  {
+    "claim": "A dificuldade em substituir processos tradicionais impede que indústrias de vestuário de médio porte utilizem integralmente as tecnologias da Indústria 4.0, restringindo os maiores ganhos aos setores de criação, modelagem e corte no controle do desperdício de matéria-prima.",
+    "stance": "supports",
+    "stance_target": "Barreiras culturais e operacionais à digitalização na confecção de vestuário",
+    "evidence_type": "empirical",
+    "scope_conditions": "Indústrias de vestuário de médio porte no Vale do Itajaí (SC), 2025",
+    "quoted_support": "Ainda não se utiliza todas as tecnologias por ser difícil mudar alguns processos tradicionais. Os setores mais beneficiados são os de criação e de modelagem de vestuário. O desperdício de matéria-prima está sendo muito favorecido.",
+    "numbers": [],
+    "entities": ["Vale do Itajaí", "Empresa B"],
+    "time_period": "2025",
+    "region": "Santa Catarina, Brasil",
+    "confidence": "high",
+    "source_note_id": "x-sds-2025-simpósio-de-design-sustentável-sustainable-design-symposium"
+  },
+  {
+    "claim": "Softwares de modelagem e prototipagem virtual 3D com manequins configuráveis reduzem as etapas de confecção de protótipos físicos e peças-piloto, diminuindo horas ociosas, custos e consumo de matéria-prima e energia na indústria do vestuário.",
+    "stance": "supports",
+    "stance_target": "Redução de retrabalho, tempo de desenvolvimento e desperdício de tecido via modelagem 3D",
+    "evidence_type": "theoretical",
+    "scope_conditions": "Setor de desenvolvimento e modelagem na indústria de vestuário",
+    "quoted_support": "A análise de modelos de vestuário em protótipos virtuais, diminuem as etapas de trabalho executadas com protótipos físicos, pois além da diminuição do tempo e custos, permite a visualização do modelo, das cores, estampas e caimento facilitando as correções necessárias antes da confecção da peça piloto. Como pode ser constatado, são diminuídas as horas ociosas com gasto de recursos, ajudando na preservação dos mesmos (Pires, 2015).",
+    "numbers": ["3D"],
+    "entities": ["Pires (2015)"],
+    "time_period": "2015-2025",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "x-sds-2025-simpósio-de-design-sustentável-sustainable-design-symposium"
+  },
+  {
+    "claim": "Sistemas Físico-Cibernéticos (CPS) e IoT integrados a sistemas MES e ERP no chão de fábrica de vestuário capturam dados via sensores para identificar desvios de produção rapidamente, analisar causas e iniciar correções automáticas nas máquinas.",
+    "stance": "supports",
+    "stance_target": "Monitoramento de chão de fábrica e redução de falhas operacionais com IoT/MES/ERP",
+    "evidence_type": "theoretical",
+    "scope_conditions": "Manufatura avançada na indústria de vestuário",
+    "quoted_support": "Toda a informação disponibilizada vai ser armazenada em sistemas de MES (Manufacturing Execution Sistems) e ERP (Entreprise Ressource Planning). De acordo com Buer, Strandhagen e Chan (2018), a implementação de CPS na produção proporciona inteligência às máquinas, que podem identificar desvios rapidamente, analisar as causas e iniciar correções de forma automática.",
+    "numbers": [],
+    "entities": ["MES", "ERP", "CPS", "IoT"],
+    "time_period": "2018-2025",
+    "region": "Global / Brasil",
+    "confidence": "medium",
+    "source_note_id": "x-sds-2025-simpósio-de-design-sustentável-sustainable-design-symposium"
+  }
+]

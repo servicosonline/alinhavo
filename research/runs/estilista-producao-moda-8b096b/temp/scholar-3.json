@@ -1,0 +1,784 @@
+{
+  "ok": true,
+  "data": {
+    "query": "apparel product development designer patternmaker communication tech pack",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 13,
+      "crossref": 25,
+      "doab": 0
+    },
+    "raw_records": 38,
+    "merged_records": 38,
+    "returned": 38,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Digital 3D Fashion Designers: Cases of Atacac and The Fabricant",
+        "source": "openalex",
+        "url": "https://doi.org/10.1080/1362704x.2021.1981657",
+        "doi": "10.1080/1362704x.2021.1981657",
+        "year": 2021,
+        "authors": [
+          "Natalia Särmäkari"
+        ],
+        "venue": "Fashion Theory",
+        "abstract": "The phenomenon of “digital fashion” has been lately addressed in media as the next significant step in the fashion industry. The increasing use of the 3D-software in fashion design processes is part of a wider “fashion 4.0” digitalization process. This article frames the phenomenon of digital fashion and presents an in-depth case study research on two pioneering companies in this area, Atacac and The Fabricant. How and why are they building their fashion design practice on digital 3D-design? How are these companies redefining the fashion design culture and the fashion designer? Drawing from sociology of professions, this article proposes that digital fashion is an emerging subfield within the field of fashion design, differentiating itself from the professional conventions and building new strategies of jurisdiction and legitimation. Driven by sociotechnical affordances and elevation of professional pride through ethical, conceptual, artistic and skill differentiation, digital fashion designer becomes also a digital artisan. In the increasingly virtual, or “phygital” space and a networked synergetic community of digital fashion, the professional, authorial, bodily and material boundaries of designers become fluid, transforming the traditional figure of fashion designer.",
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/1362704X.2021.1981657?needAccess=true",
+        "citation_count": 163,
+        "work_type": "article",
+        "identifier": "W3205697275",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Fashion Education Ecosystem: Bridging the Fashion Knowledge Gap in the Sri Lankan Apparel Industry",
+        "source": "openalex",
+        "url": "https://doi.org/10.5204/thesis.eprints.123905",
+        "doi": "10.5204/thesis.eprints.123905",
+        "year": 2018,
+        "authors": [
+          "Sumith Gopura"
+        ],
+        "venue": "Queensland University of Technology",
+        "abstract": "The export apparel industry in Sri Lanka is seeking to develop higher value fashion products and services for overseas consumers with the support of locally trained fashion designers. This thesis investigates how Sri Lankan designers are prepared by higher education and the apparel industry to acquire the necessary knowledge and skills that can contribute to the industry's development. The thesis identifies the collaborative approach of developing Sri Lankan fashion designers through higher education and apparel industry forming a \"Fashion Education Eco-system\".",
+        "pdf_url": "https://eprints.qut.edu.au/123905/1/Sumith%20Chandra%20Gopura_Ranathunga%20Arachchilage_Thesis.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2919281866",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "From 3D Scans to Haptic Models: Apparel Design with Half Scale Dress Forms",
+        "source": "openalex",
+        "url": "https://doi.org/10.15221/17.031",
+        "doi": "10.15221/17.031",
+        "year": 2017,
+        "authors": [
+          "Susan P. Ashdown",
+          "Arzu Vuruşkan"
+        ],
+        "venue": "International Conference on 3D Body Scanning Technologies (3DBST)",
+        "abstract": "Any design process requires prototype development to test properties and perfect proportional or functional relationships before committing to production.Prototypes are also used to communicate concepts or solutions using limited materials and at an affordable cost.Architects have communicated their ideas using scaled models beginning as far back as medieval times.These models demonstrate their design ideas and help address functional issues in 3D.Scaled down dress forms used in fashion design are a more recent concept.One of the first uses of 3D body scanning for apparel in the early 2000s was to make dress forms based on body scans.In 2007, in a collaborative effort between Cornell University and Alvanon, a half scale form from body scan data was developed for educational use.This form is an exact reduction of a full scale form made from a body scan, and allows students to develop their designs with limited fabric, time commitment, and studio space.Students digitize the patterns they develop into a patternmaking CAD program and then scale them up to full scale.These forms have been used very effectively in product development and patternmaking classes at Cornell, and are now popular in schools around the world.Further uses of half scale forms are being investigated for apparel research, creative pattern making, and pattern development for different body types.Half scale forms can be made in-house from body scans easily and economically.By using 3D body scan technology and transferring 3D digital data to sliced foam models or 3D printed models, custom half scale forms are developed.These forms have the potential to benefit both academia and industry.",
+        "pdf_url": "https://www.3dbody.tech/cap/papers/2017/17031ashdown.pdf",
+        "citation_count": 9,
+        "work_type": "other",
+        "identifier": "W2757941042",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "The effective integration of 3D virtual prototype in the product development process of the textile/clothing industry",
+        "source": "openalex",
+        "url": "https://doi.org/10.12681/eadd/38729",
+        "doi": "10.12681/eadd/38729",
+        "year": 2016,
+        "authors": [
+          "Ευρυδίκη Παπαχρήστου"
+        ],
+        "venue": null,
+        "abstract": "Ο κλάδος Κλωστοϋφαντουργίας και Ένδυσης (ΚΥ&Ε) είναι από τους πρώτους βιομηχανικούς τομείς που επηρεάστηκαν σημαντικά από την παγκοσμιοποίηση της παραγωγής και των υπηρεσιών. Η βιομηχανία της μόδας οδηγείται προς μια διαρκώς επιταχυνόμενη μόδα που προσφέρει τα προϊόντα της γρηγορότερα, φθηνότερα και σε μεγαλύτερη αφθονία από ποτέ. Η απαίτηση αυτή έχει ως αποτέλεσμα την αναζήτηση νέων τεχνικών που θα προσφέρουν στην διαδικασία ανάπτυξης προϊόντων. Η παρούσα έρευνα έχει ως αντικείμενο την μελέτη και αποδοχή του ψηφιακού πρωτοτύπου ως μέσο επικοινωνίας και σύντμησης του χρόνου ανάπτυξης του προϊόντος χωρίς προβλήματα, μειώνοντας το τεχνολογικό χάσμα και τον χρόνο παραγωγής, αυξάνοντας παράλληλα τη δημιουργικότητα και την άμεση οπτικοποίηση του ρούχου και της εφαρμογής του. Το ψηφιακό πρωτότυπο έχει γίνει αποδεκτό στις εφαρμογές ηλεκτρομηχανολογικών προϊόντων και πολλές μελέτες έχουν αναδείξει την βέλτιστη εκμετάλλευση των δυνατοτήτων των νέων τεχνολογιών και τα προβλήματα από την ενοποίησή του στην όλη διαδικασία ανάπτυξης. Στον τομέα της ΚΥ&Ε η έρευνα κατευθύνεται προς την ανάπτυξη λύσεων σχεδιομελέτης ώστε να προκύψει ένα ικανοποιητικό μοντέλο ψηφιακού πρωτοτύπου που θα μπορούσε να ενοποιηθεί στις υπάρχουσες σχεδιαστικές λύσεις. Σκοπός της έρευνας είναι να αναδείξει τις απαιτήσεις ενοποίησης και αποτελεσματικής χρήσης του ψηφιακού τρισδιάστατου μοντέλου στη διαδικασία της μόδας μέσω εκτε- ταμένης έρευνας ακαδημαϊκών, παρόχων λογισμικού, χρηστών, σχεδιαστών και ειδικών προϊόντων ένδυσης.",
+        "pdf_url": null,
+        "citation_count": 9,
+        "work_type": "thesis",
+        "identifier": "W2578885645",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "A Comparative Study of 3D Virtual Pattern and Traditional Pattern Making",
+        "source": "openalex",
+        "url": "https://doi.org/10.4236/jtst.2024.101001",
+        "doi": "10.4236/jtst.2024.101001",
+        "year": 2023,
+        "authors": [
+          "Md. Ahshan Habib",
+          "Md. Shamsul Alam"
+        ],
+        "venue": "Journal of Textile Science and Technology",
+        "abstract": "Pattern making plays a key role in the aspect of fashion design and garment production, as it serves as the transformative process that turns a simple drawing into a consistent accumulation of garments. The process of creating conventional or manual patterns requires a significant amount of time and a specialized skill set in various areas such as grading, marker planning, and fabric utilization. This study examines the potential of 3D technology and virtual fashion designing software in optimizing the efficiency and cost-effectiveness of pattern production processes. The proposed methodology is characterized by a higher level of comprehensiveness and reliability, resulting in time efficiency and providing a diverse range of design options. The user is not expected to possess comprehensive knowledge of traditional pattern creation procedures prior to engaging in the task. The software offers a range of capabilities including draping, 3D-to-2D and 2D-to-3D unfolding, fabric drivability analysis, ease allowance calculation, add-fullness manipulation, style development, grading, and virtual garment try-on. The strategy will cause a shift in the viewpoints and methodologies of business professionals when it comes to the use of 3D fashion design software. Upon recognizing the potential time, financial, and resource-saving benefits associated with the integration of 3D technology into their design development process, individuals will be motivated to select for its utilization over conventional pattern making methods. Individuals will possess the capacity to transfer their cognitive processes and engage in introspection regarding their professional endeavors and current activities through the utilization of 3D virtual pattern-making and fashion design technologies. To enhance the efficacy and ecological sustainability of designs, designers have the potential to integrate 3D technology with virtual fashion software, thereby compliant advantages for both commercial enterprises and the environment.",
+        "pdf_url": "http://www.scirp.org/journal/PaperDownload.aspx?paperID=129669",
+        "citation_count": 47,
+        "work_type": "article",
+        "identifier": "W4389411791",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "The future of employment: How susceptible are jobs to computerisation?",
+        "source": "openalex",
+        "url": "https://doi.org/10.1016/j.techfore.2016.08.019",
+        "doi": "10.1016/j.techfore.2016.08.019",
+        "year": 2016,
+        "authors": [
+          "Carl Benedikt Frey",
+          "Michael A. Osborne"
+        ],
+        "venue": "Technological Forecasting and Social Change",
+        "abstract": null,
+        "pdf_url": "https://ora.ox.ac.uk/objects/uuid:4ed9f1bd-27e9-4e30-997e-5fc8405b0491/files/mc8d70b4a271e3d1f3c9a5a2b41d3b2b8",
+        "citation_count": 11751,
+        "work_type": "article",
+        "identifier": "W2526781987",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Textile IR: A Bidirectional Intermediate Representation for Physics-Aware Fashion CAD",
+        "source": "openalex",
+        "url": "http://arxiv.org/abs/2601.02792",
+        "doi": "10.48550/arxiv.2601.02792",
+        "year": 2026,
+        "authors": [
+          "Petteri Teikari",
+          "Neliana Fuenmayor"
+        ],
+        "venue": "arXiv",
+        "abstract": "We introduce Textile IR, a bidirectional intermediate representation that connects manufacturing-valid CAD, physics-based simulation, and lifecycle assessment for fashion design. Unlike existing siloed tools where pattern software guarantees sewable outputs but understands nothing about drape, and physics simulation predicts behaviour but cannot automatically fix patterns, Textile IR provides the semantic glue for integration through a seven-layer Verification Ladder -- from cheap syntactic checks (pattern closure, seam compatibility) to expensive physics validation (drape simulation, stress analysis). The architecture enables bidirectional feedback: simulation failures suggest pattern modifications; material substitutions update sustainability estimates in real time; uncertainty propagates across the pipeline with explicit confidence bounds. We formalise fashion engineering as constraint satisfaction over three domains and demonstrate how Textile IR's scene-graph representation enables AI systems to manipulate garments as structured programs rather than pixel arrays. The framework addresses the compound uncertainty problem: when measurement errors in material testing, simulation approximations, and LCA database gaps combine, sustainability claims become unreliable without explicit uncertainty tracking. We propose six research priorities and discuss deployment considerations for fashion SMEs where integrated workflows reduce specialised engineering requirements. Key contribution: a formal representation that makes engineering constraints perceptible, manipulable, and immediately consequential -- enabling designers to navigate sustainability, manufacturability, and aesthetic tradeoffs simultaneously rather than discovering conflicts after costly physical prototyping.",
+        "pdf_url": "https://arxiv.org/pdf/2601.02792",
+        "citation_count": 0,
+        "work_type": "preprint",
+        "identifier": "W7118271341",
+        "extra": {
+          "openalex_type": "preprint",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Converging technologies : the integration of manual design skills in pattern technology within a virtual learning environment (VLE) for South African design students, with particular reference to swimwear",
+        "source": "openalex",
+        "url": "https://doi.org/10.51415/10321/2889",
+        "doi": "10.51415/10321/2889",
+        "year": 2004,
+        "authors": [
+          "Beverley Sutherland"
+        ],
+        "venue": "DUT Open Scholar (Durban University of Technology)",
+        "abstract": "This investigation focuses on the research and development of a Virtual Learning Environment (VLE) on CD-ROM to prepare Fashion students for a digitally-based industry.",
+        "pdf_url": "https://openscholar.dut.ac.za/bitstream/10321/2889/5/SUTHERLAND_2004.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2769197500",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Pero... ¿Tienen futuro las bibliotecas?",
+        "source": "openalex",
+        "url": "https://doi.org/10.3145/thinkepi.2019.e13b02",
+        "doi": "10.3145/thinkepi.2019.e13b02",
+        "year": 2019,
+        "authors": [
+          "Antonio Calderón-Rehecho"
+        ],
+        "venue": "Anuario ThinkEPI",
+        "abstract": "The future of libraries is discussed considering both the predominant documents in each historical moment as media for the transmission of knowledge, as the type of societies that use them. Documents determine the life cycle of knowledge, which changes constantly. So, for example, we are now in the cycle of open science. Possible scenarios are ventured according to studies carried out by relevant organizations such as ALA (American Library Association), Sconul (Society of College, National and University Libraries), MIT (Massachusetts Institute of Technology) y NMC (New Media Consortium).",
+        "pdf_url": "https://www.oxfordmartin.ox.ac.uk/downloads/academic/The_Future_of_Employment.pdf",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W2952394778",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "V. Reconfigurations économiques",
+        "source": "openalex",
+        "url": "https://shs.cairn.info/scenarios-pour-le-21e-siecle-vers-le-pire-ou-le-meilleur--9791037047243-page-85?lang=fr",
+        "doi": null,
+        "year": 2026,
+        "authors": [
+          "Jean-Éric Aubert",
+          "Denis Lacroix",
+          "Christine Afriat",
+          "Daniel Kaplan",
+          "Françoise Roure",
+          "Jacques Theys"
+        ],
+        "venue": "Cairn.info",
+        "abstract": "We examine how susceptible jobs are to computerisation.To assess this, we begin by implementing a novel methodology to estimate the probability of computerisation for 702 detailed occupations, using a Gaussian process classifier.Based on these estimates, we examine expected impacts of future computerisation on us labour market outcomes, with the primary objective of analysing the number of jobs at risk and the relationship between an occupation's probability of computerisation, wages and educational attainment.According to our estimates, about 47 percent of total us employment is at risk.We further provide evidence that wages and educational attainment exhibit a strong negative relationship with an occupation's probability of computerisation.",
+        "pdf_url": "https://sep4u.gr/wp-content/uploads/The_Future_of_Employment_ox_2013.pdf",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W7166283559",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Areas of Employment in the Context of the Transition to the Digital Economy",
+        "source": "openalex",
+        "url": "https://www.neliti.com/publications/633345/areas-of-employment-in-the-context-of-the-transition-to-the-digital-economy",
+        "doi": null,
+        "year": 2023,
+        "authors": [
+          "Yusufaliyev Olimjon Abdurahmonovich",
+          "J. Begimkulov",
+          "Oлимжoн Юcуфaлиев",
+          "Д. (Джaвoxиpбек) Бегимкулoв",
+          "Ж. (Жaвoҳиpбек) Бегимқулoв"
+        ],
+        "venue": "Neliti",
+        "abstract": "This article examined the state of the labor market under the influence of digital technologies entering our country, employment indicators of the population, modern forms of employment, the views of foreign and domestic scientists in this regard, the analysis of the level of employment in the ICT sector and a number of issues related to the industry. In the context of the transition to the digital economy, conclusions and proposals were made in the appropriate order for the provision of employment of the population.",
+        "pdf_url": "https://media.neliti.com/media/publications/633345-areas-of-employment-in-the-context-of-th-4f95792b.pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7132235956",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Chapitre 1. La révolution digitale",
+        "source": "openalex",
+        "url": "https://shs.cairn.info/du-changement-a-la-transformation--9782100780891-page-3?lang=fr",
+        "doi": null,
+        "year": 2018,
+        "authors": [
+          "David Autissier",
+          "Kevin Johnson",
+          "Emily Métais-Wiersch"
+        ],
+        "venue": "Cairn.info",
+        "abstract": "We examine how susceptible jobs are to computerisation.To assess this, we begin by implementing a novel methodology to estimate the probability of computerisation for 702 detailed occupations, using a Gaussian process classifier.Based on these estimates, we examine expected impacts of future computerisation on US labour market outcomes, with the primary objective of analysing the number of jobs at risk and the relationship between an occupation's probability of computerisation, wages and educational attainment.According to our estimates, about 47 percent of total US employment is at risk.We further provide evidence that wages and educational attainment exhibit a strong negative relationship with an occupation's probability of computerisation.",
+        "pdf_url": "http://www.oxfordmartin.ox.ac.uk/downloads/academic/The_Future_of_Employment.pdf",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W3029438191",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Judgement day for psychologists? How technology has arrived to save the day",
+        "source": "openalex",
+        "url": "https://researchers.mq.edu.au/en/publications/b638282d-74a7-4d37-9515-0b0db85441ec",
+        "doi": null,
+        "year": 2022,
+        "authors": [
+          "Ben W. Morrison",
+          "J. Michael Innes"
+        ],
+        "venue": "Macquarie University",
+        "abstract": "In these uncertain times, the demand for psychological services is at an unprecedented level. While the emergence of artificial intelligence offers great promise in addressing the public’s needs, we highlight the increasing disruption to the nature and delivery of psychological practice, which positions the profession at a critical juncture.",
+        "pdf_url": "https://www.oxfordmartin.ox.ac.uk/downloads/academic/future-of-employment.pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7234673745",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Product Development and the Apparel Supply Chain",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501366581.ch-001",
+        "doi": "10.5040/9781501366581.ch-001",
+        "year": 2022,
+        "authors": [],
+        "venue": "Beyond Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501366581.ch-001",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Fairchild Books"
+        }
+      },
+      {
+        "title": "The Role of Product Development in the Apparel Supply Chain",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501315442.ch-001",
+        "doi": "10.5040/9781501315442.ch-001",
+        "year": 2017,
+        "authors": [],
+        "venue": "Beyond Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501315442.ch-001",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Product Design (Product Development)",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501317644.ch-014",
+        "doi": "10.5040/9781501317644.ch-014",
+        "year": 2016,
+        "authors": [],
+        "venue": "Apparel Production Terms and Processes",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.5040/9781501317644.ch-014",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Fairchild Books"
+        }
+      },
+      {
+        "title": "A NEW DAWN FOR FASHION MANUFACTURING",
+        "source": "crossref",
+        "url": "https://doi.org/10.26480/itechmag.07.2025.14.15",
+        "doi": "10.26480/itechmag.07.2025.14.15",
+        "year": 2024,
+        "authors": [
+          "Apparel Merchandising, Business Development, Project & Product Management, Digital Marketing and Entrepreneurship",
+          "Sudaraka ayanath Wijeweera"
+        ],
+        "venue": "i TECH MAG",
+        "abstract": "In the heart of every garment lies a story—of creativity, craftsmanship, and now, a revolution quietly weaving its way through factory floors. Picture a world where clothing is not just stitched by hands, but crafted through intelligent systems that understand design, predict trends, and bring to life ideas with unparalleled precision. The fashion industry, traditionally driven by human touch, is entering a new era, where digital innovation and Artificial Intelligence are the unsung tailors behind the scenes. Gone are the days when a designer’s sketch required weeks of laborious work to become a reality. Today, algorithms draw patterns, machines sew without human guidance, and virtual models showcase collections before a single thread is spun. But while retail has embraced this technological renaissance with open arms, the world of apparel manufacturing is just beginning to see the vast possibilities ahead. This article embarks on a journey into the future of fashion world where smart factories hum with the quiet efficiency of robotics, where creativity and technology form a seamless partnership, and where the challenges of yesterday become the opportunities of tomorrow. In this new fabric of innovation, we unravel how Artificial Intelligence and digital solutions are poised to redefine what it means to create, wear, and experience fashion.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.26480/itechmag.07.2025.14.15",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Zibeline International Publishing"
+        }
+      },
+      {
+        "title": "Advances in apparel product development",
+        "source": "crossref",
+        "url": "https://doi.org/10.1533/9781845694463.2.157",
+        "doi": "10.1533/9781845694463.2.157",
+        "year": 2008,
+        "authors": [
+          "D. Tyler"
+        ],
+        "venue": "Advances in Apparel Production",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "book-chapter",
+        "identifier": "10.1533/9781845694463.2.157",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "NEW PRODUCT DEVELOPMENT IN TEXTILES AND APPAREL INDUSTRY",
+        "source": "crossref",
+        "url": "https://doi.org/10.29121/ijoest.v5.i5.2021.227",
+        "doi": "10.29121/ijoest.v5.i5.2021.227",
+        "year": 2021,
+        "authors": [
+          "Arindam Basu"
+        ],
+        "venue": "International Journal of Engineering Science Technologies",
+        "abstract": "Product development is key to survival of any industry with change of time. This article discusses about the process of new product development in textile and apparel industry. Major points considered during this process are demand of customers, availability of new raw materials, sustainability, economic validity and responsibiiity towards nature. Engineering of products is a complicated issue here due to natural variability of textile materials, limitations of fibre available and use of old conventional machineries in many cases.",
+        "pdf_url": "https://www.granthaalayahpublication.org/ojs-sys/index.php/ijoest/article/download/IJOEST_227/157",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.29121/ijoest.v5.i5.2021.227",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Granthaalayah Publications and Printers"
+        }
+      },
+      {
+        "title": "Product Design (Product Development)",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501393914.ch-13",
+        "doi": "10.5040/9781501393914.ch-13",
+        "year": 2025,
+        "authors": [],
+        "venue": "Apparel Production Terms and Processes",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501393914.ch-13",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Product Design (Product Development)",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501315602.ch-014",
+        "doi": "10.5040/9781501315602.ch-014",
+        "year": 2017,
+        "authors": [],
+        "venue": "Apparel Production Terms and Processes",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501315602.ch-014",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Inc"
+        }
+      },
+      {
+        "title": "The Apparel Product Development Process and Technical Design",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501328435.ch-002",
+        "doi": "10.5040/9781501328435.ch-002",
+        "year": 2018,
+        "authors": [],
+        "venue": "Technical Sourcebook for Apparel Designers",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501328435.ch-002",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Inc"
+        }
+      },
+      {
+        "title": "Design and product development in high-performance apparel",
+        "source": "crossref",
+        "url": "https://doi.org/10.1016/b978-0-08-100904-8.00009-2",
+        "doi": "10.1016/b978-0-08-100904-8.00009-2",
+        "year": 2018,
+        "authors": [
+          "J. Ledbury"
+        ],
+        "venue": "High-Performance Apparel",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 10,
+        "work_type": "book-chapter",
+        "identifier": "10.1016/b978-0-08-100904-8.00009-2",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Bridge the Developer–Designer Divide",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/979-8-8688-2448-7_7",
+        "doi": "10.1007/979-8-8688-2448-7_7",
+        "year": 2026,
+        "authors": [
+          "Laura Dahl"
+        ],
+        "venue": "Communication for Digital Product Development",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/979-8-8688-2448-7_7",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Apress"
+        }
+      },
+      {
+        "title": "The Apparel Product Development Process and Technical Design",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501391972.ch-2",
+        "doi": "10.5040/9781501391972.ch-2",
+        "year": 2024,
+        "authors": [],
+        "venue": "Technical Sourcebook for Apparel Designers",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501391972.ch-2",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Inc"
+        }
+      },
+      {
+        "title": "Advances in apparel product development",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/9781439832424.ch8",
+        "doi": "10.1201/9781439832424.ch8",
+        "year": 2008,
+        "authors": [
+          "D Tyler"
+        ],
+        "venue": "Advances in Apparel Production",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/9781439832424.ch8",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "A Product Development Perspective On Quality",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501315442.ch-011",
+        "doi": "10.5040/9781501315442.ch-011",
+        "year": 2017,
+        "authors": [],
+        "venue": "Beyond Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501315442.ch-011",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Pack it up: impact of message frames, perceived benefits and green consumer values for apparel product packaging on brand attitude",
+        "source": "crossref",
+        "url": "https://doi.org/10.1108/rjta-02-2024-0027",
+        "doi": "10.1108/rjta-02-2024-0027",
+        "year": 2024,
+        "authors": [
+          "Michelle Kolacz",
+          "Gargi Bhaduri"
+        ],
+        "venue": "Research Journal of Textile and Apparel",
+        "abstract": "Purpose While the fashion industry is beginning to comprehend the commercial imperative for sustainability, it is struggling to address the issues of overconsumption and accompanying packaging. Research indicates that framing of marketing messages makes an impact on consumers’ choices, particularly when it comes to supporting sustainable initiatives from brands. This study aims to investigate the impact of message framing, reference to perceived benefits and green consumer values on their choice of packaging reduction initiatives in the context of online retailing and the subsequent impact on brand attitude. Design/methodology/approach A 2 (frame: gain/loss) × 2 (reference to perceived benefits: personal/societal) × 2 (green consumer value: high/low) mixed method online experiment was conducted. Findings Results indicated that how the message is referenced in terms of benefits (personal gain/loss or societal gain/loss) and green consumer values act as moderators between message frame and attitude toward the packaging initiatives, which in turn impact brand attitude. Originality/value Overall, the findings contribute to message architecture, insight on consumer behavior, and add to the business case for sustainable packaging for fashion/apparel companies.",
+        "pdf_url": "https://www.emerald.com/rjta/article-pdf/29/4/860/10743642/rjta-02-2024-0027en.pdf",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "10.1108/rjta-02-2024-0027",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Emerald"
+        }
+      },
+      {
+        "title": "A Product Development Perspective on Quality",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501366581.ch-011",
+        "doi": "10.5040/9781501366581.ch-011",
+        "year": 2022,
+        "authors": [],
+        "venue": "Beyond Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501366581.ch-011",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Fairchild Books"
+        }
+      },
+      {
+        "title": "Human measurement and product development for high-performance apparel",
+        "source": "crossref",
+        "url": "https://doi.org/10.1016/b978-0-08-100904-8.00010-9",
+        "doi": "10.1016/b978-0-08-100904-8.00010-9",
+        "year": 2018,
+        "authors": [
+          "S. Gill"
+        ],
+        "venue": "High-Performance Apparel",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "book-chapter",
+        "identifier": "10.1016/b978-0-08-100904-8.00010-9",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Apparel retail product development: model testing and expansion",
+        "source": "crossref",
+        "url": "https://doi.org/10.31274/td-20260812-326",
+        "doi": "10.31274/td-20260812-326",
+        "year": 2026,
+        "authors": [
+          "Jennifer Lea Wickett"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.31274/td-20260812-326",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Iowa State University"
+        }
+      },
+      {
+        "title": "Apparel Needs and Expectations Model: A New Paradigm of the Apparel Product Development Process",
+        "source": "crossref",
+        "url": "https://doi.org/10.31274/itaa_proceedings-180814-1179",
+        "doi": "10.31274/itaa_proceedings-180814-1179",
+        "year": 2015,
+        "authors": [
+          "Laurel Romeo",
+          "Young-A Lee"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "10.31274/itaa_proceedings-180814-1179",
+        "extra": {
+          "crossref_type": "report",
+          "publisher": "Iowa State University, Digital Repository"
+        }
+      },
+      {
+        "title": "Translating Concept to Product",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501315442.ch-009",
+        "doi": "10.5040/9781501315442.ch-009",
+        "year": 2017,
+        "authors": [],
+        "venue": "Beyond Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501315442.ch-009",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Translating Concept to Product",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501366581.ch-009",
+        "doi": "10.5040/9781501366581.ch-009",
+        "year": 2022,
+        "authors": [],
+        "venue": "Beyond Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501366581.ch-009",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Fairchild Books"
+        }
+      },
+      {
+        "title": "National sizing surveys: techniques, data analysis and apparel product development",
+        "source": "crossref",
+        "url": "https://doi.org/10.1533/9781782422150.1.35",
+        "doi": "10.1533/9781782422150.1.35",
+        "year": 2014,
+        "authors": [
+          "K.M. King"
+        ],
+        "venue": "Designing Apparel for Consumers",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 4,
+        "work_type": "book-chapter",
+        "identifier": "10.1533/9781782422150.1.35",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Line Development",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501315442.ch-008",
+        "doi": "10.5040/9781501315442.ch-008",
+        "year": 2017,
+        "authors": [],
+        "venue": "Beyond Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501315442.ch-008",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Supply chain relationships in apparel retail product development.",
+        "source": "crossref",
+        "url": "https://doi.org/10.12794/metadc3131",
+        "doi": "10.12794/metadc3131",
+        "year": 2025,
+        "authors": [
+          "Daton Lee"
+        ],
+        "venue": null,
+        "abstract": "The purpose of this study was to investigate supply chain relationships within the apparel retail product development process under a single site case study setting. Relationship determinants (i.e. drivers, facilitators and barriers) that facilitated or impeded the degree of collaborative efforts between the retailer and the supply chain members were identified. As the retailer integrated its product development process with its suppliers, a triangular relationship was formed between the retailer, the overseas manufacturers, and the designated suppliers. The study found that the retailer sought operational efficiency in its business relationships with supply chain members, but continued to seek long-term commitment in these relationships to establish a virtual vertical company.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.12794/metadc3131",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "University of North Texas Libraries"
+        }
+      },
+      {
+        "title": "Line Development",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501366581.ch-007",
+        "doi": "10.5040/9781501366581.ch-007",
+        "year": 2022,
+        "authors": [],
+        "venue": "Beyond Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501366581.ch-007",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Fairchild Books"
+        }
+      }
+    ]
+  },
+  "count": 38,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T01:59:07.749874+00:00"
+}

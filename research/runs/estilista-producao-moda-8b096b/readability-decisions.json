@@ -1,0 +1,9 @@
+{
+  "total_recommendations": 1,
+  "applied": [
+    "rec-1"
+  ],
+  "skipped": [],
+  "edit_failures": [],
+  "net_char_delta_actual": -20
+}

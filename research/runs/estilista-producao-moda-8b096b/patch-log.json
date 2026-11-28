@@ -1,0 +1,12 @@
+{
+  "total_findings": 4,
+  "applied": [
+    "dial-1",
+    "depth-1",
+    "width-1",
+    "inst-1"
+  ],
+  "skipped": [],
+  "conflicts": [],
+  "orchestrator_escalated": []
+}

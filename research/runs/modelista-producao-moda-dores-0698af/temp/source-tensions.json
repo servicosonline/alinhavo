@@ -1,0 +1,156 @@
+{
+  "tensions": [
+    {
+      "name": "Simulação Virtual 3D como Substituta da Peça-Piloto vs. Limitações Físico-Mecânicas e Sobrecarga de Parametrização",
+      "side_a": {
+        "position": "A prototipagem virtual 3D (CLO3D, Optitex, Audaces 3D, VStitcher) reduz drasticamente o número de peças-piloto físicas, o desperdício de matéria-prima e o tempo de aprovação de coleção ao detectar problemas de proporção, tensão e encaixe antes do corte.",
+        "evidence": "Jankoska (2021) demonstra que o CLO3D identifica zonas de tensão e alinhamento em tempo real; Navarra (2022) registra economia física de 425,43 g de tecido em apenas 3 peças quando combinada à simulação virtual; Bittencourt et al. (2021) apontam agilidade na triagem visual entre criação e modelagem.",
+        "proponents": [
+          "tekstilna-industrija-broj-4-2021",
+          "utilização-das-ferramentas-da-indústria-40-para-a-prototipagem-no-setor-de-vestu",
+          "innovation-in-cad-3d-simulation-and-virtual-prototyping-at-itma-2023-journal-of"
+        ]
+      },
+      "side_b": {
+        "position": "Os simuladores 3D falham em reproduzir propriedades mecânicas reais do tecido, pressão dinâmica e folgas de vestibilidade, não eliminando a peça-piloto física e transferindo para a modelista o fardo técnico de parametrizar física têxtil sem laboratório.",
+        "evidence": "Lagė et al. (2020) mediram desvios de folga (distance ease) entre o vestido real e o virtual de até 29,9% (1,16 cm) no busto e 47,3% (4,30 cm) na cintura; Büyükaslan (2018, N=180 provas) provou que o Optitex 3D trava a espessura mínima em 0,5 mm e não distingue caimento entre 7 tecidos distintos (ANOVA virtual p=0,92 vs. real p=0,003); Kim & Lee (2024) acharam diferença estatisticamente significativa no coeficiente de caimento (t=5,330, p=0,03); Jankoska (2021) mostra 120% de distorção na postura sentada invisível no avatar em pé.",
+        "proponents": [
+          "istanbul-technical-university-graduate-school-of-science",
+          "comparative-study-of-real-and-virtual-garments-appearance-and-distance-ease-mate",
+          "drape-simulation-of-three-dimensional-virtual-garment-enabling-fabric-properties",
+          "apparel-fit-language-suited-to-3d-body-processing-ecosystems"
+        ]
+      },
+      "resolution": "A evidência empírica quantitativa favorece decisivamente uma síntese assimétrica a favor do Lado B: a simulação 3D atua com eficácia como filtro preliminar de erros grosseiros de geometria e proporção (cortando a 1ª piloto descartável), mas é fisicamente incapaz de substituir a peça-piloto física final e o julgamento tátil da modelista devido aos desvios de 7,3% a 48,3% na folga e à insensibilidade a variações de rigidez à flexão na trama (p=0,92). Além disso, na ausência de equipamentos laboratoriais (KES-FB/FAST), o 3D amplia a carga cognitiva da modelista ao exigir parametrização manual de tecido e avatares em estações de trabalho cerca de 3 vezes mais caras (R$ 11.000 vs. R$ 3.500).",
+      "origin": "comparisons",
+      "decision_relevance": "high"
+    },
+    {
+      "name": "Adoção de CAD 2D na Indústria Brasileira: Automação Plena vs. Regime Híbrido Disfuncional Papel-Tela",
+      "side_a": {
+        "position": "A difusão massiva dos sistemas CAD 2D (Audaces, Lectra, Gerber) modernizou o setor de modelagem brasileiro, automatizando a construção, a gradação e o encaixe de moldes e eliminando a lentidão do traçado manual.",
+        "evidence": "O levantamento de Silveira (2011) com 503 confecções catarinenses mostra que 69% das empresas já possuem CAD (chegando a 84% nas pequenas, 95% nas médias e 100% nas grandes, com 73% de participação do Audaces Vestuário), e 57,12% das modelistas consideram a gradação automática em CAD a etapa mais fácil e rápida do fluxo.",
+        "proponents": [
+          "6-resultado-da-pesquisa",
+          "modelagem-plana-industrial-do-vestuário-diretrizes-para-a-indústria-do-vestuár-2",
+          "xliv-encontro-nacional-de-engenharia-de-produção-3"
+        ]
+      },
+      "side_b": {
+        "position": "Na prática das confecções, a implantação do CAD ocorreu com treinamentos comerciais precários (16–40h), gerando subutilização crônica em que 75% das modelistas continuam traçando a base manualmente no papel e acumulam o desgaste físico da mesa com a ansiedade e sobrecarga cognitiva da tela.",
+        "evidence": "Silveira (2011, Cap. 6 e 7) comprova que 100% das modelistas e empresários reprovaram a carga horária de treinamento dos fornecedores (16–20h na Audaces, 24–40h na Lectra, sem diagnóstico prévio em 100% dos casos e sem apostila em 66,8%), resultando em 66,8% de insegurança emocional, 62,5% de dificuldade em construir moldes diretamente na tela (28,56% em transporte de pences), 75% de manutenção do traçado em papel kraft e divisão disfuncional entre 'modelista de papel' e 'operador de CAD leigo', somada às dores osteomusculares de bancada (Planca, Merino & Merino, 2016) e pressão temporal (CBO 3188-10).",
+        "proponents": [
+          "6-resultado-da-pesquisa",
+          "análise-dos-resultados-da-pesquisa-com-foco-na-gestão",
+          "ergonomia-física-as-exigências-presentes-na-atuação-de-modelista-do-vestuário-mo",
+          "cbo-318810-modelista-de-roupas-classificação-brasileira-de-ocupações"
+        ]
+      },
+      "resolution": "O Lado B detém a prova empírica decisiva sobre a realidade operacional: ter licença de CAD instalada (69%–100% das fábricas) não equivale a modelar digitalmente. A compressão do treinamento comercial para 16–40h dentro da própria fábrica (obrigando a modelista a repor metas até as 22h) travou 75% da categoria num regime híbrido que duplica o esforço ergonômico (postura bípede e LER/DORT no papel + fadiga visual/cognitiva e conferência de digitação no CAD) e mantém 83,3% do conhecimento técnico não documentado em banco de dados.",
+      "origin": "comparisons",
+      "decision_relevance": "high"
+    },
+    {
+      "name": "Normalização ABNT (NBR 16933:2021) vs. Falha Geométrica em Plus Size, Petite e 60+ (Gradação Linear vs. Block Break)",
+      "side_a": {
+        "position": "A atualização das normas técnicas da ABNT (especialmente a NBR 16933:2021 para o vestuário feminino e a NBR 15800 para o infantil, baseadas no SizeBR) padronizou medidas fundamentais e complementares, eliminando a subjetividade do modelista e reduzindo devoluções.",
+        "evidence": "Gomes & Teixeira (2025) demonstram experimentalmente no tamanho 40 que a NBR 16933:2021 corrige as omissões da antiga NBR 13377:1995 (que não teve base antropométrica), rebaixando a cava em 1,5 cm e o decote frontal em 1,0 cm e adequando o volume de quadril ao biótipo colher brasileiro; Nishimura, Merino & Gontijo (2017) documentam queda nas devoluções em e-commerces infantis (Chicleteria e YKZ) que adotaram a NBR 15800.",
+        "proponents": [
+          "instituto-federal-de-educação-ciência-e-tecnologia-do-sul-de-minas-gerais-passos",
+          "m-o-d-a-p-a-l-a-v-r-a-e-p-e-r-i-ó-d-i-c-o-2",
+          "comparação-ergonômica-e-antropométrica-das-tabelas-abnt-para-vestuário-feminino"
+        ]
+      },
+      "side_b": {
+        "position": "As normas ABNT são voluntárias, têm baixa adesão industrial frente ao vanity sizing e falham estruturalmente a partir do tamanho 46 (plus size), em mulheres petite (<1,50 m) e idosas (60+), onde a exclusão dos biótipos oval/diamante e a gradação linear geram severo retrabalho de pilotagem.",
+        "evidence": "Rizzi & Jesus (2022) provam que o manequim técnico Draft tamanho 48 tem 81 cm de cintura e a tabela padrão 90 cm contra 116–125 cm de consumidoras reais tamanho 48, causando 3 rodadas de retrabalho na peça-piloto (sobra de 8 cm no gancho traseiro, falta de 5 cm nas costas e necessidade de rebaixar a cava em 4 a 6 cm); Moura (2024), Poci et al. (2024), Ferreira & Noronha (2025) e Vianna & Quaresma (2019) comprovam distorções análogas em corpos gordos, mulheres abaixo de 1,50 m e idosas de 60–75 anos.",
+        "proponents": [
+          "número-1-volume-10-jan-jun-2022",
+          "15º-congresso-brasileiro-de-pesquisa-e-desenvolvimento-em-design-manaus-am",
+          "v18-n44-2025",
+          "instituto-federal-de-educação-ciência-e-tecnologia-do-sul-de-minas-gerais-2",
+          "ergonomia-do-vestuário-para-idosas-de-60-a-75-anos"
+        ]
+      },
+      "resolution": "A síntese resolve-se por particionamento de escopo morfométrico (block break): o Lado A tem razão estritamente dentro da grade regular feminina (tamanhos 36 a 44, biótipos colher e retângulo), onde a NBR 16933:2021 deve ser adotada como padrão. Porém, o Lado B prova com medições físicas em protótipos que estender a base regular por gradação cartesiana linear além do tamanho 44/46 é geometricamente inválido, exigindo obrigatoriamente uma quebra de bloco-base (block break) no tamanho 46 construída sobre os biótipos oval e diamante, além de blocos específicos para linhas petite e sênior.",
+      "origin": "comparisons",
+      "decision_relevance": "high"
+    },
+    {
+      "name": "Origem do Retrabalho na Pilotagem: Desenho/Ficha Técnica Incompletos do Estilo vs. Formação Empírica da Modelista",
+      "side_a": {
+        "position": "O principal gerador de erros de interpretação e refacção de peças-piloto é a entrega, pelo estilista, de croquis artísticos desproporcionais e sem ficha técnica preliminar (sem vistas posteriores/internas, cotas, pences ou propriedades do tecido).",
+        "evidence": "Suono (2011), Silva & Andrade (2018), Moretti (2010) e Jordan (2009) demonstram em pesquisas de campo com modelistas que o setor recebe desenhos sem proporção humana, sem especificação de acabamentos/forros e com fichas técnicas tratadas como mero registro pós-piloto, forçando a modelista a adivinhar a construção ou interromper o trabalho constantemente.",
+        "proponents": [
+          "projética-revista-científica-de-design-l-universidade-estadual-de-londrina-l-v2",
+          "projética-londrina-v-1-n-1-p-82100-dez-2010-nº-inaugural",
+          "dapesquisa-florianópolis-v4-n6-p548-555-2009",
+          "desenho-técnico-de-moda-e-suas-funções-na-confecção-do-vestuário-revista-da-meta"
+        ]
+      },
+      "side_b": {
+        "position": "As falhas na interface criação-modelagem também decorrem da formação predominantemente empírica de grande parte das modelistas brasileiras (ex-costureiras promovidas sem base formal em metodologia de projeto, leitura gráfica e ergonomia sistematizada).",
+        "evidence": "Silveira (2011) levanta que 29% das modelistas em SC são antigas costureiras promovidas pela prática (chegando a 44%–60% no Oeste catarinense e 38% nas microempresas do Vale do Itajaí), enquanto Silveira, Giorgio & Valente (2009), Spaine & Menezes (2012) e Beduschi (2013) apontam a fragmentação do ensino de modelagem e a ausência de linguagem projetual comum com o design.",
+        "proponents": [
+          "6-resultado-da-pesquisa",
+          "produto-produção-vol-13-n-3-p-37-48-out-2012",
+          "universidade-de-são-paulo-7",
+          "a-formação-e-o-trabalho-dos-modelistas-nas-empresas-do-vestuário-do-estado-de-sa"
+        ]
+      },
+      "resolution": "Embora a assimetria formativa (Lado B) dificulte o diálogo, a responsabilidade primária pelo retrabalho na partida do protótipo recai sobre o vazio de governança documental apontado pelo Lado A: mesmo uma modelista com formação superior ou técnica plena (que já soma 71% em SC segundo Silveira, 2011) não consegue deduzir vistas traseiras inexistentes, profundidade de pregas não cotadas ou taxa de encolhimento de um tecido não testado. A solução estrutural exige transformar a Ficha Técnica em um artefato bifásico obrigatório (Portão 1 antes do molde; Portão 2 revisado após a piloto e lavanderia).",
+      "origin": "comparisons",
+      "decision_relevance": "high"
+    },
+    {
+      "name": "Otimização de Encaixe/Risco e Zero Waste vs. Restrições de Fio, Variação de Largura de Rolo e Gradação Multitamanho",
+      "side_a": {
+        "position": "Como a matéria-prima têxtil representa 50% a 70% do custo da roupa e o corte convencional desperdiça 15% a 20% do tecido, a modelista deve projetar moldes e encaixes (incluindo abordagens Zero Waste e heurísticas CAD) focados em maximizar o aproveitamento da largura do rolo.",
+        "evidence": "Estudos de sustentabilidade e engenharia de corte (Mendes et al., 2024 no XLIV ENEGEP; Kauvauti, 2022/USP; Zero Waste in Apparel Industry) demonstram que a etapa de modelagem e encaixe governa diretamente a eficiência material e que softwares dedicados (Audaces Encaixes) geram ganhos financeiros imediatos sobre o desperdício de sala de corte.",
+        "proponents": [
+          "xliv-encontro-nacional-de-engenharia-de-produção-3",
+          "zero-waste-in-apparel-industry-limitations-and-alternatives-sustainability-in-de",
+          "modelagem-zero-waste-e-sua-aplicação-na-indústria-do-vestuário-conceitos-prática"
+        ]
+      },
+      "side_b": {
+        "position": "Na manufatura seriada real, exigir aproveitamento máximo ou encaixe Zero Waste da modelista choca-se contra três barreiras físicas intransponíveis: variação da largura útil dos rolos entregues pelas tecelagens, obrigatoriedade de respeito ao fio reto (0°/180°) para evitar torção pós-lavanderia e alteração não-linear dos perímetros na gradação.",
+        "evidence": "Kauvauti (2022/USP) e Zero Waste in Apparel Industry provam que um encaixe geométrico sem resíduos em tamanho base quebra assim que os moldes são graduados para P–GG ou quando a largura útil do rolo varia ±2 cm entre partidas; Alves (2009/UFRPE) e Marcelo (2016/USP) mostram que girar peças fora do fio para ganhar aproveitamento no risco provoca pernas torcidas e caimento defeituoso após a lavanderia e costura em facções.",
+        "proponents": [
+          "modelagem-zero-waste-e-sua-aplicação-na-indústria-do-vestuário-conceitos-prática",
+          "zero-waste-in-apparel-industry-limitations-and-alternatives-sustainability-in-de",
+          "universidade-de-são-paulo-8",
+          "universidade-federal-rural-de-pernambuco-ufrpe"
+        ]
+      },
+      "resolution": "O Lado B estabelece o limite físico inegociável da engenharia do vestuário: o respeito à linha do fio (urdume) e a integridade anatômica da grade (incluindo block breaks no plus size) têm precedência absoluta sobre o percentual bruto de aproveitamento do risco, pois uma economia de 3% no tecido que gere torção pós-lavanderia ou reprovação de caimento inutiliza 100% do lote cortado. A otimização de consumo deve ocorrer via encaixe automatizado multimodelos/multitamanhos em CAD (Audaces/Lectra) condicionado à aferição prévia da largura útil de cada partida de rolo na sala de corte.",
+      "origin": "contradiction-graph",
+      "decision_relevance": "high"
+    },
+    {
+      "name": "Modelagem Plana Geométrica (2D/CAD) vs. Modelagem Tridimensional Física (Moulage/Draping) na Indústria",
+      "side_a": {
+        "position": "A modelagem plana industrial (manual ou via CAD 2D) é o método hegemônico e indispensável na indústria de confecção por assegurar precisão matemática nas cotas, velocidade de execução, facilidade de gradação e integração imediata ao risco/encaixe.",
+        "evidence": "Spaine & Menezes (2012), Beduschi (2013/USP) e Silveira (2011) confirmam que a quase totalidade da produção seriada brasileira opera sobre diagramas geométricos bidimensionais construídos a partir de tabelas de medidas para viabilizar o escalonamento industrial.",
+        "proponents": [
+          "modelagem-plana-industrial-do-vestuário-diretrizes-para-a-indústria-do-vestuár-2",
+          "universidade-de-são-paulo-7",
+          "6-resultado-da-pesquisa"
+        ]
+      },
+      "side_b": {
+        "position": "A abstração puramente bidimensional da modelagem plana falha na previsão do comportamento elástico de malhas de alta compressão, drapeados assimétricos e anatomias complexas (como corpos gordos e idosas), onde a moulage tridimensional sobre o manequim entrega ajuste superior e visualização imediata das linhas de tensão.",
+        "evidence": "Toledo & Triska (2016) comprovam em estudo comparativo com malhas de alta compressão que a modelagem tridimensional (moulage) captura a interação real entre elasticidade têxtil e curvatura corporal que o traçado plano distorce; Santos & Abreu (2025) e Beduschi (2013) demonstram ganhos ergonômicos e pedagógicos ao iniciar a construção tridimensionalmente antes de planificar.",
+        "proponents": [
+          "modelagem-plana-x-modelagem-tridimensional-estudo-comparativo-em-artigos-de-malh",
+          "instituto-federal-de-educação-ciência-e-tecnologia-do-sul-de-minas-gerais-pass-2",
+          "intervenção-pedagógica-em-modelagem-construindo-a-base-do-corpo-feminino-sob-um",
+          "universidade-de-são-paulo-7"
+        ]
+      },
+      "resolution": "A tensão resolve-se por complementaridade sequencial (fluxo híbrido 3D-físico → 2D-digital): a moulage não substitui a modelagem plana na etapa de produção seriada (pois toda peça precisa ser planificada e digitalizada em CAD 2D para receber margens, piques, gradação e encaixe), mas deve ser empregada pela modelista na concepção de novas bases anatômicas (especialmente no block break plus size e em malharia de compressão) e em modelos de geometria complexa, convertendo o resultado tridimensional em molde plano parametrizado.",
+      "origin": "orphan-scan",
+      "decision_relevance": "medium"
+    }
+  ]
+}

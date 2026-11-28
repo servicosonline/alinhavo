@@ -36,6 +36,32 @@ export async function setProductFabric(formData: FormData) {
   revalidatePath(c.path);
 }
 
+export async function updateProductOperations(orgId: string, productId: string, _prev: FormState, formData: FormData): Promise<FormState> {
+  const c = await ctx(orgId, productId);
+  if (!c) return { error: "Sua sessão expirou ou o pedido é inválido." };
+  const sewingCents = parseMoneyToCents(formData.get("sewing"));
+  const laundryCents = parseMoneyToCents(formData.get("laundry"));
+  const wasteRaw = String(formData.get("waste") ?? "").trim().replace(",", ".");
+  const wastePct = wasteRaw === "" ? null : /^\d+(\.\d+)?$/.test(wasteRaw) ? Number(wasteRaw) : Number.NaN;
+  if (sewingCents === undefined) return { error: "Valor de costura/facção inválido. Use, por exemplo, 14,50." };
+  if (laundryCents === undefined) return { error: "Valor de lavanderia inválido. Use, por exemplo, 4,00." };
+  if (wastePct !== null && (!Number.isFinite(wastePct) || wastePct < 0 || wastePct > 50)) {
+    return { error: "Perda de corte entre 0 e 50%." };
+  }
+  const { error } = await c.supabase
+    .from("products")
+    .update({
+      sewing_cents: sewingCents,
+      laundry_cents: laundryCents,
+      waste_pct: wastePct === null ? null : Math.round(wastePct * 10) / 10,
+    })
+    .eq("id", productId)
+    .eq("org_id", orgId);
+  if (error) return { error: error.code === "42501" ? NO_PERMISSION : "Não foi possível salvar os custos operacionais." };
+  revalidatePath(c.path);
+  return { ok: "Custos operacionais salvos para a próxima ficha técnica." };
+}
+
 export async function addTrim(orgId: string, productId: string, _prev: FormState, formData: FormData): Promise<FormState> {
   const c = await ctx(orgId, productId);
   if (!c) return { error: "Sua sessão expirou ou o pedido é inválido." };
@@ -97,8 +123,25 @@ export async function generateTechPack(orgId: string, productId: string): Promis
     generatedAt: new Date().toISOString(),
     product: { reference: product.reference, name: product.name, status: product.status, collection: src.collection },
     pattern: { name: pattern.name, version: pattern.current_version, document: doc },
-    fabric: f ? { name: f.name, composition: f.composition, widthMm: f.width_mm, weightGsm: f.weight_gsm, priceCents: f.price_cents } : null,
+    fabric: f
+      ? {
+          name: f.name,
+          composition: f.composition,
+          widthMm: f.width_mm,
+          weightGsm: f.weight_gsm ? Number(f.weight_gsm) : null,
+          priceCents: f.price_cents,
+          pricePerKgCents: f.price_per_kg_cents,
+          shrinkageWarpPct: f.shrinkage_warp_pct != null ? Number(f.shrinkage_warp_pct) : null,
+          shrinkageWeftPct: f.shrinkage_weft_pct != null ? Number(f.shrinkage_weft_pct) : null,
+        }
+      : null,
     trims: src.trims,
+    operations: {
+      sewingCents: product.sewing_cents,
+      laundryCents: product.laundry_cents,
+      wastePct: product.waste_pct != null ? Number(product.waste_pct) : null,
+    },
+    sizeChart: src.sizeChart,
     marker: markerRow
       ? { number: markerRow.number, widthMm: markerRow.width_mm, lengthMm: Number(markerRow.length_mm), efficiency: Number(markerRow.efficiency) }
       : null,

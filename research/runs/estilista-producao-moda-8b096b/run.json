@@ -1,0 +1,136 @@
+{
+  "manifest_version": 1,
+  "vault_tag": "estilista-producao-moda-8b096b",
+  "profile": "full",
+  "profile_steps": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16"
+  ],
+  "status": "done",
+  "started_at": "2026-11-27T01:53:44.176235+00:00",
+  "updated_at": "2026-11-27T10:18:50.576006+00:00",
+  "budget_usd": null,
+  "max_sources": null,
+  "max_notes": null,
+  "counts_force_cleared": 0,
+  "counts_clear_baselines": {},
+  "blocked_on": null,
+  "steps": {
+    "1": {
+      "status": "done",
+      "started_at": "2026-11-27T01:56:28.638676+00:00",
+      "finished_at": "2026-11-27T01:56:30.051861+00:00"
+    },
+    "2": {
+      "status": "done",
+      "started_at": "2026-11-27T01:57:21.765536+00:00",
+      "finished_at": "2026-11-27T04:05:40.199663+00:00"
+    },
+    "3": {
+      "status": "done",
+      "started_at": "2026-11-27T04:05:40.803961+00:00",
+      "finished_at": "2026-11-27T04:11:28.491975+00:00"
+    },
+    "4": {
+      "status": "done",
+      "started_at": "2026-11-27T04:11:29.171007+00:00",
+      "finished_at": "2026-11-27T04:36:50.856539+00:00"
+    },
+    "5": {
+      "status": "done",
+      "started_at": "2026-11-27T04:36:51.613281+00:00",
+      "finished_at": "2026-11-27T04:47:38.855567+00:00"
+    },
+    "6": {
+      "status": "done",
+      "started_at": "2026-11-27T04:47:39.531120+00:00",
+      "finished_at": "2026-11-27T04:48:47.616917+00:00"
+    },
+    "7": {
+      "status": "done",
+      "started_at": "2026-11-27T04:48:48.335302+00:00",
+      "finished_at": "2026-11-27T04:50:51.278296+00:00"
+    },
+    "8": {
+      "status": "done",
+      "started_at": "2026-11-27T04:50:51.928515+00:00",
+      "finished_at": "2026-11-27T04:55:50.662426+00:00"
+    },
+    "9": {
+      "status": "done",
+      "started_at": "2026-11-27T04:55:51.391026+00:00",
+      "finished_at": "2026-11-27T05:03:04.324863+00:00"
+    },
+    "10": {
+      "status": "done",
+      "started_at": "2026-11-27T05:03:04.978708+00:00",
+      "finished_at": "2026-11-27T05:10:05.199670+00:00"
+    },
+    "11": {
+      "status": "done",
+      "started_at": "2026-11-27T05:10:05.792589+00:00",
+      "finished_at": "2026-11-27T10:12:43.307359+00:00"
+    },
+    "12": {
+      "status": "done",
+      "started_at": "2026-11-27T10:12:43.888047+00:00",
+      "finished_at": "2026-11-27T10:13:48.759026+00:00"
+    },
+    "13": {
+      "status": "done",
+      "started_at": "2026-11-27T10:13:49.344563+00:00",
+      "finished_at": "2026-11-27T10:14:33.421175+00:00"
+    },
+    "14": {
+      "status": "done",
+      "started_at": "2026-11-27T10:14:34.061180+00:00",
+      "finished_at": "2026-11-27T10:15:37.189997+00:00"
+    },
+    "14.5": {
+      "status": "done",
+      "started_at": "2026-11-27T10:15:37.769660+00:00",
+      "finished_at": "2026-11-27T10:16:31.649772+00:00"
+    },
+    "15": {
+      "status": "done",
+      "started_at": "2026-11-27T10:16:32.234000+00:00",
+      "finished_at": "2026-11-27T10:17:52.622043+00:00"
+    },
+    "16": {
+      "status": "done",
+      "started_at": "2026-11-27T10:17:53.197337+00:00",
+      "finished_at": "2026-11-27T10:18:49.924832+00:00"
+    }
+  },
+  "chapters": {},
+  "spend": {
+    "estimated_usd": 0.0,
+    "sources_fetched": 77,
+    "notes_written": 89,
+    "agents_spawned": 0
+  },
+  "levers": {
+    "register": "survey",
+    "inference_depth": "standard",
+    "domain_notes": "Fontes: SEBRAE, SENAI/CETIQT, ABIT, pesquisas acad\u00eamicas em design de moda e gest\u00e3o de desenvolvimento de produto, e relatos de profissionais. Evid\u00eancia forte \u00e9 estudo ou entrevista com estilistas; blog gen\u00e9rico \u00e9 fraco. Janela de rec\u00eancia: 5 anos, exceto textos fundadores do processo."
+  },
+  "verify": {
+    "passed": true,
+    "at": "2026-11-27T10:18:50.566781+00:00",
+    "failed_checks": []
+  }
+}

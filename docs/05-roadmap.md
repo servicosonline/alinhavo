@@ -57,8 +57,22 @@ Lista tirada da análise do concorrente (Audaces 360 / 3D). Situação em 15/11/
 - **Bases prontas sem manga** (blusa, vestido, short) e **manga no braço** (formato 6 do molde): pronto, branch `bases-e-manequim`. **Bases com manga** (manga base, camiseta, blusa com manga): escritas na mesma branch, em validação.
 - **Presets de costura** (margem por tipo de costura, passos de gradação) e **acabamentos prontos** (pesponto duplo de jeans, zíper invisível, etiqueta de composição pelo tecido): pronto, branch `presets-costura`.
 - **Kit de aprovação em um clique** (frente, costas, lado e vídeo 360°, botão "Montar kit de aprovação" nas Capturas): pronto, branch `kit-aprovacao`.
-- **Pose sentada:** a fazer. Depende do manequim da branch `bases-e-manequim` (eixo do braço) entrar primeiro; pede um assento no colisor e teste da calça e da saia sentadas.
+- **Pose sentada:** pronta (`BodyPose: "sentada"`, banco `bodySeat`/`seatCollider`, posicionamento ao longo da coxa em `placeGarment` e teste da calça e da saia sentadas em `garments.test.ts`).
 - **Zíper aberto ou fechado no look, lavagem do jeans, bordado e pedraria (formato 7 do molde):** pronto, branch `audaces-item-6`.
 - **Corpo realista (MakeHuman) e play de movimentos** (andar, correr, dançar, acenar, sentar, agachar, deitar): estudado em `docs/09-estudo-corpo-e-movimento.md`. **M1 (play com os 7 movimentos no manequim atual): pronto, branch `audaces-item-6`. M2 (corpo realista MakeHuman, opção "Corpo: Manequim | Realista" na Prova): pronto, branch `corpo-realista`.** A fazer: M3 (movimentos capturados da CMU) e, no corpo realista, membro cortado, gestante e salto.
 
 **Pronto quando:** as branches acima estão na `main` e a pose sentada veste a calça e a saia de exemplo sem atravessar o corpo nem o assento.
+
+## Fase 8 · Estilista (decidida em 28/11/2026)
+Origem: `docs/12-auditoria-estilista.md`, uma análise feita só pelo código. Ela concluiu que a estilista de PME contrataria o Alinhavo hoje apenas como complemento. Ordem aprovada pelo Paulo em 28/11/2026, com uma branch e um PR por etapa. Antes da etapa 8.1, fechar o PR 24 (`bases-e-manequim`).
+
+- **8.1 Diário de provas, lacre da piloto e trava de encolhimento.** Cada produto registra de 1 a 3 rodadas de prova: data, quem provou, notas de fio, assentamento, linha, equilíbrio, folga e tempo de vestir, e fotos. Depois vem o botão "Lacrar piloto". Regra do lacre, conforme a skill da estilista: o lacre **trava** a ficha definitiva (medidas, tolerâncias, materiais e variantes). Para destravar, a própria estilista clica, informa o motivo, e o app grava uma nova revisão com quem destravou e quando. Não há aprovação de terceiros. Comentários, fotos e catálogo continuam editáveis. A trava de encolhimento avisa ao mover para "Produção" um produto cujo tecido não tem encolhimento informado.
+  **Pronto quando:** a estilista registra 3 provas com foto pelo celular e lacra a piloto; a ficha baixada mostra "Lacrada em" e o histórico das provas; qualquer edição da ficha definitiva depois do lacre exige destravar com motivo, e a revisão fica registrada.
+- **8.2 Mix, preço-alvo e teto de custo na coleção.** Cada produto ganha uma categoria (básico, elaborado ou fashion) e um preço-alvo. A coleção ganha meta de mix e teto de custo. **Quem define é a estilista, no app** (decisão do Paulo em 28/11/2026).
+  **Pronto quando:** a coleção mostra a pirâmide real ao lado da meta e destaca o produto cujo custo de ficha passou do teto.
+- **8.3 Variantes de cor e Ordem de Corte visual.** Junta-se à Frente 5 do `docs/11`. Cada variante registra tecido principal, forro, zíper, viés, linha e quantidade por tamanho. A Ordem de Corte é imprimível, com um card colorido por variante e avisos em destaque, como "não passar a ferro".
+  **Pronto quando:** um produto com 3 cores gera a Ordem de Corte em PDF, com um card e uma grade por variante, que a facção consegue seguir sem ter a piloto daquela cor.
+- **8.4 Pesam na decisão, mas não bloqueiam.** Marcar um produto como reedição de outro, com nova prova obrigatória se o tecido mudar; ficha progressiva em 3 estágios; cotas no desenho técnico; consumo de tecido comparado entre estimado, piloto e encaixe.
+- **Depois da Fase 8:** cartela de cores e de tecidos, moodboard, briefing de estampa e lavanderia, banca de croquis.
+
+Skills na execução: `agent-tech-lead` (engenharia), `estilista-producao-moda` (critérios e revisão de cada etapa), `modelista-producao-moda` (revisão da 8.1), `dono-confeccao-faccao` (revisão da 8.3) e `web-design-guidelines` (revisão das telas antes de cada PR).

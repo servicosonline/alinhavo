@@ -82,6 +82,8 @@ export type MotionReadyMessage = {
 export type ReadyMessage = {
   type: "ready";
   body: { positions: Float32Array; indices: Uint32Array };
+  /** O banco quando a pose é "sentada" (mm), para desenhar; null nas outras poses. */
+  seat?: Seat | null;
   /** `uv`: lugar de cada vértice no tecido plano, em mm (u na trama, v no fio; `garmentUv`). */
   garment: { positions: Float32Array; indices: Uint32Array; uv: Float32Array };
   /** Partes que ficaram de fora (sem posição na Prova). */

@@ -1,0 +1,844 @@
+{
+  "ok": true,
+  "data": {
+    "query": "garment fit patternmaker designer communication grading",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 20,
+      "doab": 0
+    },
+    "raw_records": 40,
+    "merged_records": 40,
+    "returned": 40,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Fit step in ready-to-wear clothing. Towards a reduction of garment disposal in view of sustainability",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/11250/2635801",
+        "doi": null,
+        "year": 2020,
+        "authors": [
+          "Veronika Glitsch"
+        ],
+        "venue": "NVA (Nasjonalt vitenarkiv)",
+        "abstract": "Sustainable development in clothing production is my motivation for this thesis. When reviewing the literature on why clothing items are discarded before they are worn out, the two most frequently mentioned reasons for clothing disposal in several surveys are fit issues and lack of quality. This thesis addresses women’s problems with the fit of ready-to-wear clothing: clothing design manufactured multiples of one design. The common practice today in the production of ready-to-wear clothing is to make a prototype fitted to the hourglass shape, which is widely accepted as the ideal body shape for women. This prototype is graded into sizes using a sizing table. The sizes are not based on the anthropometric measurements of the target consumer group, and the grading is done in a linear and schematic fashion that does not take into account different proportions for different body shapes that represent the size range of the target population. Because of this practice, only a minority of women find well-fitting garments among ready-to-wear clothing. The research problem for the thesis is Why are clothes disposed of before they are worn out? This question is investigated with a literature review that reveals the need for better fit in ready-to-wear clothing. My background as both a designer and tailor has given me the possibility to use critical utopian action research as an approach for conducting a case study with the research question: How can the cut of a prototype be graded to fit different female body shapes? In the case study called Anorak:VG, different body shapes are constructed inside the cut of one prototype during grading. Through the case Anorak:VG, an additional step, the fit step, in the working process of the product development of ready-to-wear clothing is created. This additional step, in which the pattern pieces of a prototype are graded individually from size to size and adapted to different body shapes, builds on earlier research in which suggestions are made for changes in the sizing systems and the grading of block patterns based on anthropometric data. The specific contribution of this research is showing the importance of using the actual seam lines in one prototype in the adaption to different body shapes and proportions in order to achieve good fit. Graded block patterns based on anthropometric data are recommended; however, their use alone is not sufficient. If the clothing producers of ready-to-wear clothing build their sizing tables and grading on anthropometric data from their target population and add the fit step to their production process, it is more likely that the majority of women in a target group will be offered well-fitting clothing in ready-to-wear clothing stores. In general, clothing today has a too-brief user period, resulting in an unnecessary amount of garbage. One could speculate whether well-fitting clothing is more likely to be worn often than ill-fitting clothing. One could also speculate if well-fitting clothes are more likely to be favourite garments to which the user has an extended emotional attachment. Emotional attachment to a garment makes it more likely for the owner to want to extend its life cycle by repairing or mending it. From a sustainable development perspective, an extended user period of clothing could be achieved by applying the fit step in the textile and clothing sector.",
+        "pdf_url": null,
+        "citation_count": 10,
+        "work_type": "thesis",
+        "identifier": "W2998839193",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Evaluating garment size and fit for petit women using 3D body scanned anthropometric data",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10500/24014",
+        "doi": null,
+        "year": 2017,
+        "authors": [
+          "MM Phasha"
+        ],
+        "venue": "Unisa Institutional Repository (University of South Africa)",
+        "abstract": "Research suggests that there is a plethora of information on the size and shape of the average and plus sized women in South Africa (Winks, 1990; Pandarum, 2009; Muthambi, 2012; Afolayan & Mastamet-Mason, 2013 and Makhanya, 2015). However, there is very little information on petite women‟s body shapes, their body measurements and their shopping behaviour, especially in South Africa, for manufacturing ready-to-wear garments. The purpose of this petite women study was to investigate the shapes and sizes of a sample of petite South African women and develop size charts for the upper and lower body dimensions. This study used a mixed-method; purposive, non-probability sampling method to achieve the objectives of the study. A (TC)² NX16 3D full body scanner and an Adam‟s® medical scale were used to collect the body measurement data of 200 petite South African women, aged between 20-54 years with an average height range of 157cm, residing in Gauteng (Pretoria and Johannesburg). Other data collection instruments included a demographic questionnaire to collect the subjects‟ demographic information such as, age, height, weight, etc.; and the psychographic questionnaire to gather the petite subjects‟ demographics as well as their perceptions and preferences on currently available ready-to-wear shirt and trouser garments. Of the 200 subjects that were initially recruited, based on the petite women‟s body height that ranged from 5‟ 4” (163 cm) and below, the most prevalent body shape profile that emerged from the dataset, was the pear body shape which was evident in 180 of the 3D full body scanned petite women subjects. Therefore, the anthropometric data for these 180 subjects was used in the development of the experimental upper and lower body dimensions size charts and as the basis for the fit test garments developed in this study. The collected data was analysed and interpreted in Microsoft Excel and the IBM SPSS Statistics 24 (2016) software package, using principal component analysis (PCA) to produce the experimental size charts for the upper and lower body dimensions necessary for creating prototype shirt and trouser garments. Regression analysis was used to establish the primary and secondary body dimensions for the development of the size charts and for determining the size ranges. The experimental upper and lower body dimensions size charts were developed for sizes ranging from size 6/30 to size 26/50. Subsequently, the accuracy of the size charts developed in this study was evaluated by a panel of experts who analysed the fit of the prototype shirt and trouser garments, manufactured using measurements for a size 10/34 size range from the size chart, on a sample of the petite subjects. The fit of these garments was also compared with the fit of garments manufactured using the 3D full body scanned measurements of a size 10/34 petite tailoring mannequin, that is currently commercially available for use in the production of garments for petite women in South Africa. The shirt and trouser prototype garments developed using the size 10/34 upper and lower body dimensions size chart measurements had, overall, a better quality of fit than the garments made to fit the current, commercially available, size 10/34 mannequin. These findings thereby confirmed that the data extracted from the (TC)² NX16 3D full body scanner and the size charts subsequently developed using the data, has the potential to provide better/improved fit in garments for petite South African women than data hitherto published. From the evidence of this study, it is recommended that the South African garment manufacturing industry needs to revise the current sizing system for petite women to accommodate the body dimensions and shape variations that currently prevail amongst consumers. The South African garment manufacturers and retailers also need to familiarise themselves with the needs, challenges and preferences of the petite consumers‟ target market that purchase ready-to-wear shirt and trouser garments in South Africa.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2808895316",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "The Effects of Consumers’ Perceptions of 3D Virtual Garments on Online Purchase Intention",
+        "source": "openalex",
+        "url": "https://doi.org/10.31274/itaa.12161",
+        "doi": "10.31274/itaa.12161",
+        "year": 2020,
+        "authors": [
+          "Kittichai Watchravesringkan",
+          "Melanie Carrico",
+          "Stephanie shaneyfelt",
+          "Trisha Kemerly"
+        ],
+        "venue": "International Textile and Apparel Association Annual Conference (ITAA)",
+        "abstract": "In the apparel industry, virtual three-dimensional (3D) technology is most commonly used in product design and development. Computer-Assisted Design (CAD) programs are used to draft, edit, and share patterns, as well as virtually drape and fit garments. 3D is used for fitting purposes during the garment development stages, and for communicating information to other patternmakers, designers, merchandisers, and manufacturers. However, using 3D modeling technology as a means of displaying products to consumers offers many potential benefits to online retailers. The purpose of the study is to assess the effects of consumers’ perceptions of 3D virtual garments on their online purchase intentions. The study’s results revealed that perceived fit of both types of garment (women’s’ jeans and tee-shirt) played a significant role when it comes to online purchase intention and perceived image quality for women’s tee-shirt helps facilitate online purchase intent.",
+        "pdf_url": "https://www.iastatedigitalpress.com/itaa/article/id/12161/download/pdf/",
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "W3125364984",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Kinetic Garment Construction - Remarks on the Foundations of Pattern Cutting",
+        "source": "openalex",
+        "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:hb:diva-25",
+        "doi": "10.13140/rg.2.1.3275.2161",
+        "year": 2015,
+        "authors": [
+          "Rickard Lindqvist"
+        ],
+        "venue": "DiVA - University of Borås (Högskolan i Borås)",
+        "abstract": "Fashion designers are presented with a range of different methods for pattern cutting, and the interest in this field has grown rapidly over the past few years. This growth is both due to the publication of a number of works dealing with the subject in different ways and the fact that a growing number of designers emphasise cutting in their creative practices. Though a range of methods and concepts for pattern cutting are presented, the main body of these methods, both traditional and contemporary, is predominately based on a theoretical approximation of the body that is derived from horizontal and vertical measurements of the body in an upright position: the tailoring matrix. As a consequence, there is a lack of interactive and dynamic qualities in methods connected to this paradigm of garment construction, from both expressional and functional perspectives. This work proposes and explores an alternative paradigm for pattern cutting that includes a new theoretical approximation of the body as well as a more kinetic method for garment construction that, unlike the prevalent theory and its related methods, takes as its point of origin the interaction between the anisotropic fabric and the biomechanical structure of the body. As such, the research conducted here is basic research, aiming to identify fundamental principles for garment construction. Based on some key principles found in the works of Geneviève Sevin-Doering and in pre-tailoring methods for constructing garments, the proposed theory for – and method of – garment construction was developed through concrete experiments by cutting and draping fabrics on live models. Instead of a static matrix of a non-moving body, the result is a kinetic construction theory of the body that is comprised of balance directions and key biomechanical points, along with an alternative draping method for dressmaking. This methodology challenges the fundamental relationship between dress, garment construction, and the body, working from the body outward, as opposed to the methods that are based on the prevalent paradigm of the tailoring matrix, which work from the outside toward the body. This alternative theory for understanding the body and the proposed method of working allows for diverse expressions and enhanced functional possibilities in dress.",
+        "pdf_url": "https://hb.diva-portal.org/smash/get/diva2:793364/FULLTEXT03",
+        "citation_count": 59,
+        "work_type": "thesis",
+        "identifier": "W278560644",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "An Investigation of the Sizing, Grading, and Fit of Commercial Sewing Patterns.",
+        "source": "openalex",
+        "url": "http://www.lib.ncsu.edu/resolver/1840.16/7392",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Debra McLendon"
+        ],
+        "venue": "NCSU Libraries Repository (North Carolina State University Libraries)",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W2255606839",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "3D virtual fitting system on woman's garment",
+        "source": "openalex",
+        "url": "https://doi.org/10.5937/tekstind2104072j",
+        "doi": "10.5937/tekstind2104072j",
+        "year": 2021,
+        "authors": [
+          "Maja Jankoska"
+        ],
+        "venue": "Tekstilna industrija",
+        "abstract": "Fit is one of the major concerns for the clothing industry, and pattern development process is significant during clothing manufacturing and the way clothing is constructed. Various pattern making methods have been introduced to the industry considering clothing fit satisfaction, but it is still impossible to provide the optimized clothing pattern for mass production. The aim of this paper is practical implications about 3D virtual fit simulation technology as a fit assessment tool in the fashion industry i.e. to predict the behavior of women's pants in relation to fitting and comfort in different poses of avatar. This was done by application CAD Clo 3D fashion design software.",
+        "pdf_url": "https://scindeks-clanci.ceon.rs/data/pdf/0040-2389/2021/0040-23892104072J.pdf",
+        "citation_count": 11,
+        "work_type": "article",
+        "identifier": "W4205152226",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Adopting 3D Body Scanning in Customized Apparel Design: Cultural, Technical, and Perceptual Barriers of Fashion Designers, Pattern Maker and Final Users Technology",
+        "source": "openalex",
+        "url": "https://doi.org/10.15221/25.42",
+        "doi": "10.15221/25.42",
+        "year": 2025,
+        "authors": [
+          "Daria Casciani",
+          "Alessandra carella",
+          "Marta Caserotti",
+          "Enrico Rubaltelli"
+        ],
+        "venue": "3DBODY.TECH journal",
+        "abstract": "This study examines the technical, operational, and socio-cultural aspects of 3D body scanning, investigating consumer perceptions and the experiences of fashion operators in integrating 3D body scanning into digital fashion workflows. A mixed-methods approach was adopted, with approximately twenty-three participants completing surveys before and after scanning sessions using the We Wear (Prisma Tech) cabin, assessing their emotional responses, trust, and usability. In parallel, eight fashion operators, including designers and patternmakers, participated in semi-structured interviews to examine digital measurement extraction, avatar generation, digital-to-analog conversion, and parametric pattern making. Consumers reported that the 3D body scanning experience was generally positive, describing it as fast, intuitive, and non-invasive, with increased confidence in its ease of use after the session. However, some concerns remained about body image discomfort and the perceived loss of a fashion craftmanship touch. Fashion operators valued body scanning for enhancing fit, reducing waste, and enabling visualization and pre-prototyping; however, they noted challenges, including measurement and landmarking inconsistencies, misalignment with manual methods, mesh quality issues in converting digital avatars, and limited software interoperability. This highlights the need for streamlined digital processes and more effective training. A revised workflow framework is proposed to bridge gaps between analog and digital practices across fashion design workflows.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4414832698",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "‘Just hit a button!’ – fashion 4.0 designers as cyborgs, experimenting and designing with generative algorithms",
+        "source": "openalex",
+        "url": "https://doi.org/10.1080/17543266.2021.1991005",
+        "doi": "10.1080/17543266.2021.1991005",
+        "year": 2021,
+        "authors": [
+          "Natalia Särmäkari",
+          "Annamari Vänskä"
+        ],
+        "venue": "International Journal of Fashion Design Technology and Education",
+        "abstract": "This article investigates algorithmic fashion design approaches in order to explore the ongoing digital transformations in fashion designership. The article asks how the automation of design processes and collaboration with machines affect the authorship and professional boundaries of fashion designers. The article analyses two case studies, the Finnish designer Matti Liimatainen and the Dutch ‘digital-only’ fashion house The Fabricant, to demonstrate how different ways of combining fashion designers’ expertise, creativity and tacit knowledge with programming and/or computer-generated content alter the design process. The article also uses Donna Haraway's metaphor of the ‘cyborg’ (1985) to explain how digitalisation of the process intertwines designers with digital infrastructures. Two approaches to algorithmic fashion design are identified: generative clothing development and AI-aided digital fashion sketching. It is argued that both approaches involve the characteristics of computerisation/hominisation, re-professionalisation and ‘cyborg designer 4.0’.",
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/17543266.2021.1991005?needAccess=true",
+        "citation_count": 109,
+        "work_type": "article",
+        "identifier": "W3208274075",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Petite women: fit and body shape analysis",
+        "source": "openalex",
+        "url": "https://doi.org/10.31390/gradschool_theses.2370",
+        "doi": "10.31390/gradschool_theses.2370",
+        "year": 2005,
+        "authors": [
+          "Lisa Barona McRoberts"
+        ],
+        "venue": "Louisiana State University",
+        "abstract": "Only small quantities of apparel are available to the domestic petite sector, and they do not fit well due to lack of attention to proportion. In addition, other factors contributing to improper fit are a sizing system based on outdated anthropometric data gathered in the 1930s to create the voluntary product standard PS 42-70, and a rising obesity problem, resulting in an array of figure type variations ranging from apple-shaped to pear-shaped women, as opposed to the industry focused hourglass shape. The purpose of this exploratory study was to investigate fit and design with figure type variations for petite women, five feet four inches or under, and between the ages of 20-49. Using a proprietary database, patterns were developed, muslins were created, and fit of the muslins was assessed by a panel of judges on live models. An evaluation about the fit of the muslins was completed by fit models. Results of the statistical analysis showed a sample mean distribution most similar to the size 16 petite of the voluntary product standard PS 42-70, with a pear-like silhouette supported by the literature. Findings suggested that the prototypical petite pattern resulted in improved fit as compared to the pattern based on the voluntary product standard. Figure type analysis of the sample indicated that most subjects were outside the industry silhouette definitions. None had the industry standard hourglass silhouette, indicative of a lack of accommodation for the petite silhouette and figure type variations by the voluntary product standard PS 42-70.",
+        "pdf_url": "https://repository.lsu.edu/cgi/viewcontent.cgi?article=3369&context=gradschool_theses",
+        "citation_count": 18,
+        "work_type": "thesis",
+        "identifier": "W2793874778",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Unpacking the garment district's innovation system: how the New York City women's wear industry stays in fashion",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1807/122537",
+        "doi": null,
+        "year": 2002,
+        "authors": [
+          "Norma M. Rantisi"
+        ],
+        "venue": "TSpace (University of Toronto)",
+        "abstract": "How do mature manufacturing sectors in a high wage context remain competitive? This dissertation addresses this question by examining the case of New York City women's wear. Drawing on seventy-five in-depth interviews and a comprehensive survey, the study finds that women's wear manufacturers have remained innovative by drawing on an extensive institutional and organizational infrastructure that has emerged in the midtown Manhattan Garment District. This infrastructure (or �innovation system�)�which consists of design schools, buying offices, forecasting services, trade associations, competing and complementary firms, and the institutions (habits, rules, norms) that shape their inter-relations�supports the manufacturers' innovation process by providing market-sensitive information and the capacity to utilize the information in the design and marketing of products. The spatial concentration of institutions and organizations helps to promote the development of shared understandings and conventions, which facilitate the exchange of information between District actors. The agglomeration of activities also benefits manufacturers in indirect ways, by enabling them to monitor the performance and solutions of rival firms as well as rival production systems. While most theories on industrial agglomerations cite the economic significance of consensus and system coherence, this dissertation argues that it is a balance between stability and an openness to novelty that underlies the Garment District's innovative capability. It concludes with a discussion of the theory and policy implications that this case suggests for promoting industrial agglomerations.",
+        "pdf_url": "https://utoronto.scholaris.ca/bitstreams/1e08214a-d6ac-48a9-9c9c-b5ea87748147/download",
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W7132975073",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Fashioning Business: Updating Support for Local, Small-Scale Independent Fashion Designers",
+        "source": "openalex",
+        "url": "https://doi.org/10.5204/thesis.eprints.122563",
+        "doi": "10.5204/thesis.eprints.122563",
+        "year": 2018,
+        "authors": [
+          "Hildegard M Bennett Heim"
+        ],
+        "venue": "Queensland University of Technology",
+        "abstract": "Small-scale fashion designer businesses are emerging in many locations, including in cities not known as fashion centres, such as Brisbane. This study identifies the factors that contribute to business success or failure, not least of which is the support owner-designers receive during the life cycle of their business. The study revealed that a complex set of requirements is needed to support those practices, including access to relevant and credible information, community interaction and tailored mentoring. The study resulted in the development of an online resource to support independent designers to build successful and resilient local fashion businesses.",
+        "pdf_url": "https://eprints.qut.edu.au/122563/1/Hildegard_Bennett%20Heim_Thesis.pdf",
+        "citation_count": 8,
+        "work_type": "thesis",
+        "identifier": "W2902787914",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Key to good fit: body measurement problems specific to key dimensions",
+        "source": "openalex",
+        "url": "https://doi.org/10.4314/jfecs.v38i1.63193",
+        "doi": "10.4314/jfecs.v38i1.63193",
+        "year": 2010,
+        "authors": [
+          "Morné A. Strydom",
+          "Helena M. de Klerk"
+        ],
+        "venue": "Journal of Family Ecology and Consumer Sciences / Tydskrif vir Gesinsekologie en Verbruikerswetenskappe",
+        "abstract": "The purpose of this research (as part of a broader research project) was to explore and describe the problems that the South African Clothing Industry currently experiences with regard to the key body measurements needed for the manufacturing of well-fitting clothes. A postal survey was conducted among South African apparel and footwear manufacturers and retailers, from which a number of respondents were selected for follow-up individual interviews. In this manner, key dimensions were identified and defined. The results revealed that, although international descriptions are available for 100% of the key measurements, major problems seem to be experienced with landmarking, and with consensus about the measuring method and about landmarking. If one assumes that South African retailers and manufacturers probably rely on standardised international descriptions, one can understand the uncertainty in the industry as to where and how the key dimensions should be taken. This uncertainty is reflected in a mere 41,2% of cases where consensus exists among respondents as to how the measurements should be taken. It is clear that the apparel industry needs to discuss the identification of landmarks, as well as specific methods for taking the measurements on the body. Even if the problem is not addressed on an international level, it is to the advantage of all apparel manufacturing countries to reach consensus on which landmarks are to be used, and to describe in detail how these landmarks can be identified consistently and exactly how the key body measurements should be taken.",
+        "pdf_url": "https://www.ajol.info/index.php/jfecs/article/download/63193/51072",
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "W2115242039",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Fashion designer competencies desired by apparel manufacturers: As related to academic and vocational fashion design programs",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/2346/19599",
+        "doi": null,
+        "year": 1973,
+        "authors": [
+          "Barbara Joan Flaxman"
+        ],
+        "venue": "ThinkTech (Texas Tech University)",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W2279571897",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Parametric modelling & digital manufacturing for better bra fit",
+        "source": "openalex",
+        "url": "https://doi.org/10.26686/wgtn.17149007.v1",
+        "doi": "10.26686/wgtn.17149007.v1",
+        "year": 2016,
+        "authors": [
+          "Ariya Xuxu Amoozegar-Montero"
+        ],
+        "venue": "Open Access Victoria University of Wellington | Te Herenga Waka (Figshare)",
+        "abstract": "This research focuses on developing an overall system for a more accurate bra design and fit. The bra, consequently, becomes part of a life-long service system that is able to adapt to both physical and personal desires of different types of bra wearers. Due to the symbiotic relationship between bra fit and bra design, a parametric system has also been designed in order to digitize the measuring process. This process explores the possibility of bringing the bra into a product-service- system framework. Individuality will not only be in the form of taste, preference, attitude, and aesthetics, but also through one’s inherent breast shape, structure, contours, and asymmetry. Under this paradigm, the designed bra system should not operate independently of its intended users and must always connect back to individual needs at every stage. For instance, to understand what makes a good fit cannot merely rely on the knowledge gained from literature or industry standards. To understand what makes a good fit, bra wearers themselves must be invited to offer their input. Therefore, this research could also be considered part of a human-centered design methodology. As such, this work was conducted as a mixed-methods approach with a combination of qualitative and quantitative processes. Unlike traditional bra fitting methods, this system utilizes advanced technologies and digital manufacturing techniques. Using technologies such as 3D scanning, to consider additional factors that are not currently considered, such as breast outline, shape, and asymmetry. This research also investigated the role of 3D knitting to fill the gap of customization and individualization at a mass production level, as well as serving as an innovative approach to respond to bra fitting and design issues. The data accumulated helped influence unique bra designs in order to ensure better individual bra fit, whilst also acting as a medium to give the bra wearer a better understanding of their breast measurements, and how the bra fits on them. Finally, the thesis compares, contrasts and identifies gaps within current methods for bra fitting and bra design, a parametric modelled measuring system, and final designed bra prototypes. Overall, it resulted in an effective parametric measuring system, which is able to adapt to individual 3D scans. Additionally, it was suggested that the 3D knitted prototype bra provided improved alternatives to a traditional bra, such as a seamless knitted underwire, which provides a more comfortable and flexible fit. Furthermore, our hope is to increase consumer engagement and awareness about their own breasts and individual bra fit. After all, if the necessary information can be provided to the consumer regarding how to achieve a good bra fit, then this could help the consumer’s ability for self-selecting better bra fit and enhance the satisfaction they receive from all bras. Therefore, the research might have a broad positive impact on a large size of the population.",
+        "pdf_url": "https://openaccess.wgtn.ac.nz/articles/thesis/Parametric_modelling_digital_manufacturing_for_better_bra_fit/17149007/1/files/31710419.pdf",
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W4200466990",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Development and fitting evaluation of a new method for preparing women’s pants patterns by using direct body measurements",
+        "source": "openalex",
+        "url": "https://doi.org/10.35530/it.077.04.2025132",
+        "doi": "10.35530/it.077.04.2025132",
+        "year": 2026,
+        "authors": [
+          "Emine Utkun"
+        ],
+        "venue": "Industria Textila",
+        "abstract": "Clothing is an integral part of human life. Clothing fit is one of the important, critical, complex, and dynamic factors considered by users to evaluate the garment quality and to make purchasing decisions. Therefore, one of the most important stages in garment manufacturing is the accurate preparation of the garment pattern. This study aims to examine a system proposed as an alternative to the most commonly used pattern-making methods globally, introduce it to industry, and contribute to its development. The patterns are prepared based on individual body measurements. In this study, women’s basic pants were examined in practice. The fit of the clothing patterns made in this study was analysed using CLO 3D software. First, virtual avatars were created to simulate the wearers of the pants; then, these avatars were made to perform not only static poses but also 5 different dynamic movements (walking, running, sitting, climbing stairs, and kneeling) in order to evaluate the patterns. The results of the study indicate that this pattern system is brief, practical, and easily comprehensible by everyone, and also yields successful outcomes in terms of clothing fit.",
+        "pdf_url": "https://doi.org/10.35530/it.077.04.2025132",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7208742004",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "The new costume designer : an exploration of digital and physical technologies for costume development in the film industry : an exegesis presented in partial fulfilment of the requirements for the degree of Master of Design, Massey University, College of Creative Arts, Wellington, New Zealand",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10179/15072",
+        "doi": null,
+        "year": 2019,
+        "authors": [
+          "Jessica Broderick Lewis"
+        ],
+        "venue": "Massey Research Online (Massey University)",
+        "abstract": "Three-dimensional (3D) simulation software is utilised for digital visualization of garment design, pattern development, drape, and fit on virtual models and avatars within the costume and fashion industries. This practice-led project explores the use of digital design technologies for costumes created in a digital space and asks “How do current digital and physical technologies work as integrated practice within the industry of costume design for film?” From a fashion perspective, many researchers have looked into how historical costumes can be reproduced as accurate 3D models or how 3D modelling software can be used for prototyping and fit for production efficiency. However, there is little published academic research discussing the use of digital technologies by costume designers for physical costume design and development in the film industry. Initial research for this project included interviews with experts from physical costume design departments in the film industry to gain insight as to the extent and relevance of collaborative work experiences using both physical and digital processes, systems and technologies within their practice. Through an original creative project using an iterative design process, this research project focuses on the generation of physical costume concepts for a fantasy creature. These costumes are designed to tailor to the exaggerated humanoid body of the “koloss” character from Brandon Sanderson’s 𝘔𝘪𝘴𝘵𝘣𝘰𝘳𝘯: 𝘌𝘳𝘢 1 series as he morphs from a child to an adult. This project explores how patternmaking and 3D cloth simulation software can be applied to costume generation that navigates the physical and virtual world. Digital and physical visual, patternmaking, and sampling tools are utilised with tacit knowledge of an experienced technical fashion designer to explore how physical costume designers can feel empowered in the creative process when working between physical and digital departments.",
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W2993158932",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A Comparative Study of 3D Virtual Pattern and Traditional Pattern Making",
+        "source": "openalex",
+        "url": "https://doi.org/10.4236/jtst.2024.101001",
+        "doi": "10.4236/jtst.2024.101001",
+        "year": 2023,
+        "authors": [
+          "Md. Ahshan Habib",
+          "Md. Shamsul Alam"
+        ],
+        "venue": "Journal of Textile Science and Technology",
+        "abstract": "Pattern making plays a key role in the aspect of fashion design and garment production, as it serves as the transformative process that turns a simple drawing into a consistent accumulation of garments. The process of creating conventional or manual patterns requires a significant amount of time and a specialized skill set in various areas such as grading, marker planning, and fabric utilization. This study examines the potential of 3D technology and virtual fashion designing software in optimizing the efficiency and cost-effectiveness of pattern production processes. The proposed methodology is characterized by a higher level of comprehensiveness and reliability, resulting in time efficiency and providing a diverse range of design options. The user is not expected to possess comprehensive knowledge of traditional pattern creation procedures prior to engaging in the task. The software offers a range of capabilities including draping, 3D-to-2D and 2D-to-3D unfolding, fabric drivability analysis, ease allowance calculation, add-fullness manipulation, style development, grading, and virtual garment try-on. The strategy will cause a shift in the viewpoints and methodologies of business professionals when it comes to the use of 3D fashion design software. Upon recognizing the potential time, financial, and resource-saving benefits associated with the integration of 3D technology into their design development process, individuals will be motivated to select for its utilization over conventional pattern making methods. Individuals will possess the capacity to transfer their cognitive processes and engage in introspection regarding their professional endeavors and current activities through the utilization of 3D virtual pattern-making and fashion design technologies. To enhance the efficacy and ecological sustainability of designs, designers have the potential to integrate 3D technology with virtual fashion software, thereby compliant advantages for both commercial enterprises and the environment.",
+        "pdf_url": "http://www.scirp.org/journal/PaperDownload.aspx?paperID=129669",
+        "citation_count": 47,
+        "work_type": "article",
+        "identifier": "W4389411791",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "A Case Study of Anthropometric Segmental Body Heights Variability Across Age Groups: Implications for Development in 3D Body Modeling and Pattern Making",
+        "source": "openalex",
+        "url": "https://doi.org/10.15221/26.34",
+        "doi": "10.15221/26.34",
+        "year": 2026,
+        "authors": [
+          "Ziwen Qiu",
+          "Katy Schildmeyer"
+        ],
+        "venue": "International Conference on 3D Body Scanning Technologies (3DBST)",
+        "abstract": "This research uses a case study to explore how anthropometric databases can be translated into an apparel use-case-specific avatar and rig system, aiming to develop a segmental proportion variation matrix organized by height and age.This collaborative case study is between Humanetics Digital (Humanetics) and Design Cycle Solutions (DCS), combining complementary areas of expertise.Humanetics contributes extensive anthropometric body data and expertise in the analysis and interpretation of population-based body measurements, while DCS contributes specialized expertise in apparel fit, avatar development and rigging for apparel applications.Using selected female participants aged 18-75 years from the Size NorthAmerica database through iSize platform, the study investigates variability in segmental body heights among women of similar stature and explores how these findings can be translated into a new rigged-avatar application.The sample was in six age groups and three narrowly defined height groups.A frequency-based approach was applied to investigate common waist, hip, mid-hip, crotch, knee and rise height combinations.This approach can be generalized to investigate body characteristics impacted by other demographic or behavioral factors.Such data can be integrated into new and more narrowly defined population averages to identify potential morphotypes and phenotypes.iSize, with access to statistical data from in-market anthropometric databases, can assist this process by supporting data analysis and comparison of population groups.Based on the current findings, this study suggests that lower-body garment guidelines account for a vertical tolerance of approximately 3 cm where relevant to fit, to accommodate segmental body height variation.The identified body measurements were also translated into a demo rig architecture, to showcase technological possibilities of having better control over avatars' posture and shape during overall or segmental height adjustment.In the future, a foundational dataset and drawing conclusions based on available evidence or reasoning models can be established to enable 3D body platforms to generate statistically informed and proportionally accurate avatar body types across diverse global populations.Potential applications include parametric avatar systems, digital human rigging, and fit-predictive tools.",
+        "pdf_url": "https://proc.3dbody.tech/papers/2026/2634.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W7220413696",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Apparel product development considerations for US Hispanic women: A study of evaluative criteria and fit preferences of 18-25 year-old females",
+        "source": "openalex",
+        "url": "http://www.lib.ncsu.edu/resolver/1840.16/3961",
+        "doi": null,
+        "year": 2009,
+        "authors": [
+          "Elizabeth Anne Newcomb"
+        ],
+        "venue": "NCSU Libraries Repository (North Carolina State University Libraries)",
+        "abstract": "North Carolina State University Theses Textile Technology Management.;North Carolina State University Theses Textile Technology Management.",
+        "pdf_url": null,
+        "citation_count": 7,
+        "work_type": "article",
+        "identifier": "W2300014672",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Categorization Of Womenx19S Lower Body Shapes Using Multi-View 3D Body Scan Measurements, And Development Of Shape-Driven Automated Custom Patterns",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/1813/33528",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Hwa Kyung Song"
+        ],
+        "venue": "eCommons (Cornell University)",
+        "abstract": "In this dissertation, automated customization is considered as a promising way of improving garment fit. This research addressed the commercial systems that use 3D body measurements to generate custom fit patterns by applying automated alterations to a graded pattern. The goal of this study was to test whether improved customization could occur if the process is started from base patterns that are balanced and corrected for each customer's figure type and posture. Data collection and analysis intertwined in this multi-step project which consists of (stage 1) statistical analysis for lower body shape categorization based on 2,981 women aged 18 to 35 from SizeUSA data, identifying three distinct shape groups, (stage 2) development of basic block pants patterns in each body shape by fitting three representative women in each of the three shape groups, and (stage 3) validation of the use of the basic block patterns for different shape groups in a custom fit process by comparing the fit of two pairs of pants on 27 study participants (9 women in each group); one pair was generated from the automated custom patternmaking system using a standard base pattern, and the other pair was generated using the appropriate block pattern driven by body shape. In stage 1, five components were identified to represent distinctive shapes from the silhouette and profile views of the lower body using principal component analysis: PC1: body measurements that define waist to top hip silhouette, PC2: body measurements that define top hip to hip silhouette, PC3: body measurements that define buttocks prominence, z-score 1: the drop of front abdomen depth to waist front depth, and z-score 2: the drop of front abdomen depth to front hip depth. From cluster analysis, three body shape groups were found: group 1 (curvy shape) has the curviest silhouette between waist level and top hip level, and the most prominent abdomen among the three groups; group 2 (hip tilt shape) has the most prominent buttocks, and their lower body is tilted toward the back; group 3 (straight shape) has a non-curvy silhouette and less prominent buttocks. From 83 participants, 3 primary fit models for development of base block patterns and 9 fit testers for validation of the use of the basic block patterns in a custom fit process were selected for each group. From 83 participants, 3 fit models (one primary) were chosen for each shape group for stage 2, and 9 participants from each shape group were selected for stage 3. In stage 3 an automated custom-made system for which alterations started from the three block patterns driven by body shape was developed, and the fit of pants (type A) developed from this system was compared with the fit of pants (type B) created from an automated custom-made system using a single block pattern. Evaluation of fit was conducted by 3 experts and by the 27 wearers. The results of experts' evaluations showed that type A provided significantly better fit at waist ease, waist placement, crotch length, and side seam placement. At abdomen ease, buttocks ease, front crotch ease, front thigh ease, and side seam location, type A was also judged to have a tendency to exhibit better fit even though the differences of the two types were not significantly different. At back crotch ease, thigh ease, and inseam length, type B had a tendency to exhibit equal or better fit, but the fit variables were not significantly different and the values of the differences were not large. Wearers' fit analysis showed some similar responses to those of the expert analysis.",
+        "pdf_url": null,
+        "citation_count": 3,
+        "work_type": "thesis",
+        "identifier": "W1936503147",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Grading from Garment Specifications",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501312434.ch-010",
+        "doi": "10.5040/9781501312434.ch-010",
+        "year": 2015,
+        "authors": [],
+        "venue": "Concepts of Pattern Grading",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501312434.ch-010",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Garment sizing and fit",
+        "source": "crossref",
+        "url": "https://doi.org/10.1016/b978-1-78242-232-7.00007-2",
+        "doi": "10.1016/b978-1-78242-232-7.00007-2",
+        "year": 2015,
+        "authors": [
+          "R. Pandarum",
+          "W. Yu"
+        ],
+        "venue": "Garment Manufacturing Technology",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 8,
+        "work_type": "book-chapter",
+        "identifier": "10.1016/b978-1-78242-232-7.00007-2",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Design Variations and Effects of Grading on Garment Style",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501312434.ch-007",
+        "doi": "10.5040/9781501312434.ch-007",
+        "year": 2015,
+        "authors": [],
+        "venue": "Concepts of Pattern Grading",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501312434.ch-007",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Garment model construction for optimal fit",
+        "source": "crossref",
+        "url": "https://doi.org/10.14711/thesis-991013418042703412",
+        "doi": "10.14711/thesis-991013418042703412",
+        "year": 2025,
+        "authors": [
+          "Kwing Fung Wong"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.14711/thesis-991013418042703412",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "The Hong Kong University of Science and Technology Library"
+        }
+      },
+      {
+        "title": "Garment design for individual fit",
+        "source": "crossref",
+        "url": "https://doi.org/10.1533/9781845690380.196",
+        "doi": "10.1533/9781845690380.196",
+        "year": 2004,
+        "authors": [
+          "M.Y. Kwong"
+        ],
+        "venue": "Clothing Appearance and Fit",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 9,
+        "work_type": "book-chapter",
+        "identifier": "10.1533/9781845690380.196",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Cooling Garment Design for Women: From Fibre to Fit",
+        "source": "crossref",
+        "url": "https://doi.org/10.32920/26871355.v1",
+        "doi": "10.32920/26871355.v1",
+        "year": 2024,
+        "authors": [
+          "Olena Vivcharyuk"
+        ],
+        "venue": null,
+        "abstract": "<p>Thermal comfort in clothing is essential given its impact on the overall comfort and desirability of apparel products. Transfer of heat and sweat away from the body by garments worn in direct contact with skin is fundamental for the body to maintain a base temperature of 37°. This study's data collection (n=57) included a content analysis of websites pertaining to cooling garments and precedent-based analysis of physical garments in activewear, sleepwear, base layer, and menopausal categories. Data were categorized according to the functional, expressive, and aesthetic consumer needs model. Findings reveal that textiles' fibre content and trademark, moisture wicking performance, construction, and finishes influence garments' cooling properties, alongside garment fit, silhouette, and design details pertaining to sleeve length, neckline finish, height, and shape. Results highlight a need for cooling garments made of natural fibres and clothing designed for menopause as well as those in an extended size range.</p>",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "preprint",
+        "identifier": "10.32920/26871355.v1",
+        "extra": {
+          "crossref_type": "posted-content",
+          "publisher": "Ryerson University Library and Archives"
+        }
+      },
+      {
+        "title": "Cooling Garment Design for Women: From Fibre to Fit",
+        "source": "crossref",
+        "url": "https://doi.org/10.32920/26871355",
+        "doi": "10.32920/26871355",
+        "year": 2024,
+        "authors": [
+          "Olena Vivcharyuk"
+        ],
+        "venue": null,
+        "abstract": "<p>Thermal comfort in clothing is essential given its impact on the overall comfort and desirability of apparel products. Transfer of heat and sweat away from the body by garments worn in direct contact with skin is fundamental for the body to maintain a base temperature of 37°. This study's data collection (n=57) included a content analysis of websites pertaining to cooling garments and precedent-based analysis of physical garments in activewear, sleepwear, base layer, and menopausal categories. Data were categorized according to the functional, expressive, and aesthetic consumer needs model. Findings reveal that textiles' fibre content and trademark, moisture wicking performance, construction, and finishes influence garments' cooling properties, alongside garment fit, silhouette, and design details pertaining to sleeve length, neckline finish, height, and shape. Results highlight a need for cooling garments made of natural fibres and clothing designed for menopause as well as those in an extended size range.</p>",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "preprint",
+        "identifier": "10.32920/26871355",
+        "extra": {
+          "crossref_type": "posted-content",
+          "publisher": "Ryerson University Library and Archives"
+        }
+      },
+      {
+        "title": "Garment design for individual fit",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/9781439823446.ch10",
+        "doi": "10.1201/9781439823446.ch10",
+        "year": 2004,
+        "authors": [
+          "M Kwong"
+        ],
+        "venue": "Clothing appearance and fit",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/9781439823446.ch10",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "Exploring Machine Learning Models to Predict Garment Fit in 3d Fit Sessions",
+        "source": "crossref",
+        "url": "https://doi.org/10.2139/ssrn.5171092",
+        "doi": "10.2139/ssrn.5171092",
+        "year": 2025,
+        "authors": [
+          "Mona Maher",
+          "Nuray  Y. Özden",
+          "Fatma Baytar"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "preprint",
+        "identifier": "10.2139/ssrn.5171092",
+        "extra": {
+          "crossref_type": "posted-content",
+          "publisher": "Elsevier BV"
+        }
+      },
+      {
+        "title": "Study on knowledge-based garment design and fit evaluation system",
+        "source": "crossref",
+        "url": "https://doi.org/10.70675/17951226z5d0cz4f75z858bz18370262200d",
+        "doi": "10.70675/17951226z5d0cz4f75z858bz18370262200d",
+        "year": 2026,
+        "authors": [
+          "Kaixuan Liu"
+        ],
+        "venue": null,
+        "abstract": "Contribution à la mise en place d’un processus automatique de création de vêtement et d’évaluation de son ajustement à partir d’une base de connaissance métier Le design et le bien aller d’un vêtement joue un rôle majeur pour l’industrie du textile-habillement. Actuellement, il apparait trois inconvénients majeurs dans le processus de création et d’évaluation d’un vêtement: il est très coûteux en temps pour une efficacité moindre, il est subordonné à l’expérience des designers et modélistes, il n’est pas adapté au e-commerce.Afin de résoudre cette problématique, trois concepts à la fois technologiques et mathématiques ont été développées. Le premier s’appuie sur l’outil GFPADT (Garment Flat and Pattern Associated design technology) permettant de créer une correspondance entre le style du vêtement choisi et la morphologie du consommateur. Le second utilise l’interactivité entre deux espaces de conception 2D et 3D intégrée à l’outil 3DIGPMT (3D Interactive Garment Pattern Making Technology). Le dernier appelé MLBGFET (Machine learning-based Garment Fit Evaluation Technology) évalue l’ajustement du vêtement par un apprentissage automatique. Finalement, nous avons fourni des solutions de conception et d'évaluation de vêtements basées sur la connaissance en intégrant ces trois concepts basés sur des technologies clés pour résoudre certains problèmes de conception et de production de vêtements dans les entreprises de mode.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.70675/17951226z5d0cz4f75z858bz18370262200d",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Agence Bibliographique de l'Enseignement Supérieur"
+        }
+      },
+      {
+        "title": "Effects of Working Experience of Patternmaker with a Designer on the Efficiency and Performance of Clothing Design",
+        "source": "crossref",
+        "url": "https://doi.org/10.5057/ijae.ijae-d-17-00006",
+        "doi": "10.5057/ijae.ijae-d-17-00006",
+        "year": 2018,
+        "authors": [
+          "KyoungOk KIM",
+          "Masayuki TAKATERA",
+          "Tsuyoshi OTANI"
+        ],
+        "venue": "International Journal of Affective Engineering",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 6,
+        "work_type": "article",
+        "identifier": "10.5057/ijae.ijae-d-17-00006",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Japan Society of Kansei Engineering"
+        }
+      },
+      {
+        "title": "Fit Repository: Storing Measurement-Based 3d Garment Fits",
+        "source": "crossref",
+        "url": "https://doi.org/10.2139/ssrn.5205382",
+        "doi": "10.2139/ssrn.5205382",
+        "year": 2025,
+        "authors": [
+          "Jongwon Park",
+          "Jiyoung Jung"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "preprint",
+        "identifier": "10.2139/ssrn.5205382",
+        "extra": {
+          "crossref_type": "posted-content",
+          "publisher": "Elsevier BV"
+        }
+      },
+      {
+        "title": "Making Things Fit, Making Ends Meet : small Entrepreneurs in Istanbul’s Garment Industry",
+        "source": "crossref",
+        "url": "https://doi.org/10.70675/3e5ac156z4d71z4edbz983az948ff728b9eb",
+        "doi": "10.70675/3e5ac156z4d71z4edbz983az948ff728b9eb",
+        "year": 2026,
+        "authors": [
+          "Louisa Piart"
+        ],
+        "venue": null,
+        "abstract": "Joindre les deux bouts: les petits entrepreneurs de l’industrie du vêtement à Istanbul Dans l’industrie du vêtement d’Istanbul, les carrières sont courtes et le taux de renouvellement des ouvriers est élevé. La combinaison entre production flexible et accords de sous-traitance dans un environnement urbain informel amène un nombre croissant d’ouvriers à assumer des fonctions entrepreneuriales équivoques. Ces acteurs sont au cœur de cette thèse de doctorat. Pour maintenir leurs positions ces ouvriers temporaires sont souvent contraints de devenir de petits intermédiaires précaires qui redéfinissent les distinctions entre production et distribution. Basée sur des données empiriques recueillies grâce à un travail de terrain en profondeur à Istanbul, mon travail doctoral questionne sous un angle anthropologique les dynamiques changeantes de l’industrie du vêtement d’Istanbul à différentes échelles et le rôle des petits entrepreneurs dans la formation de ces dynamiques à travers leurs pratiques et leurs innovations. Alors que les petits entrepreneurs sont essentiels, ils sont rarement irremplaçables. Pour explorer ces questions, cette recherche trace les liens entre les différents débouchés de l’industrie du vêtement d’Istanbul et examine comment leurs processus de valuation respectifs sont entremêlés. Durant les dernières décennies, dans l’ombre des exports officiels vers l’Europe occidentale, le « commerce à la valise » vers des pays voisins, ainsi que le marché domestique se sont développés. En « joignant les deux bouts », les petits entrepreneurs de l’industrie du vêtement d’Istanbul sont des courroies de transmission entre ces marchés aux échelles transnationale et locale. Les étudier offre de nouvelles perspectives sur les contextes industriels modernes et le fonctionnement des marchés globaux.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.70675/3e5ac156z4d71z4edbz983az948ff728b9eb",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Agence Bibliographique de l'Enseignement Supérieur"
+        }
+      },
+      {
+        "title": "Color histogram analysis of virtual garment fit image for automated fit evaluation",
+        "source": "crossref",
+        "url": "https://doi.org/10.31274/itaa.17286",
+        "doi": "10.31274/itaa.17286",
+        "year": 2024,
+        "authors": [
+          "Seowon Heo",
+          "Yeonghoon Kang",
+          "Sungmin Kim",
+          "Jihyun Oh"
+        ],
+        "venue": "Bridging the Divide",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.31274/itaa.17286",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Iowa State University Digital Press"
+        }
+      },
+      {
+        "title": "Garment drape",
+        "source": "crossref",
+        "url": "https://doi.org/10.1533/9781845690380.114",
+        "doi": "10.1533/9781845690380.114",
+        "year": 2004,
+        "authors": [
+          "L Hunter",
+          "J Fan"
+        ],
+        "venue": "Clothing Appearance and Fit",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "book-chapter",
+        "identifier": "10.1533/9781845690380.114",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Garment fit and comfort",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/b18940-10",
+        "doi": "10.1201/b18940-10",
+        "year": 2018,
+        "authors": [
+          "MISSING-VALUE MISSING-VALUE"
+        ],
+        "venue": "Science in Clothing Comfort",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/b18940-10",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "WPI Publishing"
+        }
+      },
+      {
+        "title": "Garment drape",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/9781439823446.ch7",
+        "doi": "10.1201/9781439823446.ch7",
+        "year": 2004,
+        "authors": [],
+        "venue": "Clothing appearance and fit",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/9781439823446.ch7",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "Darts: tapering to fit the garment",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501377143.ch-4",
+        "doi": "10.5040/9781501377143.ch-4",
+        "year": 2023,
+        "authors": [],
+        "venue": "Professional Sewing Techniques for Designers",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501377143.ch-4",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Inc"
+        }
+      },
+      {
+        "title": "Garment fit and comfort",
+        "source": "crossref",
+        "url": "https://doi.org/10.1533/9780857092830.159",
+        "doi": "10.1533/9780857092830.159",
+        "year": 2010,
+        "authors": [
+          "Apurba Das",
+          "R. Alagirusamy"
+        ],
+        "venue": "Science in Clothing Comfort",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 4,
+        "work_type": "book-chapter",
+        "identifier": "10.1533/9780857092830.159",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "Digital Fashion Twins for Virtual Prototyping, Fit Optimization and Zero-Waste Garment Manufacturing",
+        "source": "crossref",
+        "url": "https://doi.org/10.62311/nesx/rb47ag-978-81-68314-53-5",
+        "doi": "10.62311/nesx/rb47ag-978-81-68314-53-5",
+        "year": 2026,
+        "authors": [
+          "Murali Krishna Pasupuleti"
+        ],
+        "venue": null,
+        "abstract": "Digital fashion twins create a computational counterpart of garments, bodies, materials and manufacturing processes that can be tested before costly physical decisions are made. This book develops a research architecture for virtual prototyping, fit optimization and zero-waste garment manufacturing by integrating parametric representation, uncertainty-aware statistics, causal inference, machine learning, scalable data engineering and governance. It treats the twin as a versioned evidence system rather than a static three-dimensional visualization. The analysis connects body-shape variability, fabric mechanics, surrogate simulation, generative pattern design, marker optimization, closed-loop production data and lifecycle traceability. Particular attention is given to model calibration, simulation-to-reality validation, multimodal generalization, human oversight, interoperability and reproducible MLOps. The proposed framework links design quality with material utilization, sample reduction, inclusive fit and circular manufacturing outcomes while preserving explicit limits on automation. Global applicability is considered across South Asian apparel clusters, European design and regulatory ecosystems, African industrial development contexts and American retail and technology environments. The resulting models, metrics, protocols and governance artifacts provide a foundation for rigorous experimentation, responsible industrial deployment and future research on digitally integrated, low-waste fashion production. Keywords digital fashion twins, virtual prototyping, garment simulation, fit optimization, anthropometric modelling, statistical shape models, fabric mechanics, surrogate modelling, generative design, pattern engineering, multimodal AI, machine learning, causal inference, marker optimization, zero-waste manufacturing, digital thread, MLOps, edge intelligence, circular fashion, trustworthy AI, industrial analytics, sustainable apparel",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.62311/nesx/rb47ag-978-81-68314-53-5",
+        "extra": {
+          "crossref_type": "reference-book",
+          "publisher": "National Education Services"
+        }
+      }
+    ]
+  },
+  "count": 40,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:00:14.542136+00:00"
+}

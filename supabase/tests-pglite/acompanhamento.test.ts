@@ -152,6 +152,26 @@ describe("resultados (ROI)", () => {
     expect(rows[0]!.n).toBe(8);
   });
 
+  it("salvar como o app (upsert do PostgREST): o dono grava de novo; a estilista não", async () => {
+    const c = await cenario();
+    const salvarAjustes = (n: number) =>
+      `insert into public.roi_settings (org_id, pilots_per_month) values ($1, ${n})
+       on conflict (org_id) do update set org_id = excluded.org_id, pilots_per_month = excluded.pilots_per_month`;
+    const salvarMes = (n: number) =>
+      `insert into public.roi_months (org_id, month, pilots_cut) values ($1, '2026-11-01', ${n})
+       on conflict (org_id, month) do update set org_id = excluded.org_id, month = excluded.month, pilots_cut = excluded.pilots_cut`;
+    await as(db, c.dono, (q) => q.query(salvarAjustes(8), [c.orgId]));
+    await as(db, c.dono, (q) => q.query(salvarAjustes(6), [c.orgId]));
+    await as(db, c.dono, (q) => q.query(salvarMes(5), [c.orgId]));
+    await as(db, c.dono, (q) => q.query(salvarMes(4), [c.orgId]));
+    const { rows } = await db.query<{ p: number; m: number }>(
+      "select s.pilots_per_month as p, m.pilots_cut as m from public.roi_settings s join public.roi_months m using (org_id) where s.org_id = $1",
+      [c.orgId],
+    );
+    expect(rows[0]).toEqual({ p: 6, m: 4 });
+    await expect(as(db, c.estilista, (q) => q.query(salvarMes(1), [c.orgId]))).rejects.toThrow(/row-level security|permission denied/);
+  });
+
   it("mês sempre no dia 1", async () => {
     const c = await cenario();
     await expect(as(db, c.dono, (q) => q.query("insert into public.roi_months (org_id, month, pilots_cut) values ($1, '2026-11-15', 5)", [c.orgId]))).rejects.toThrow(

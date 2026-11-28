@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "data": {
+    "scored": 68,
+    "clusters": [
+      {
+        "root": "a-terceirização-da-produção-na-indústria-curitibana-do-vestuário-alívio-e-desesp",
+        "members": [
+          "a-terceirização-da-produção-na-indústria-curitibana-do-vestuário-alívio-e-dese-2"
+        ],
+        "size": 2,
+        "kind": "url"
+      },
+      {
+        "root": "conteúdos",
+        "members": [
+          "conteúdos-2"
+        ],
+        "size": 2,
+        "kind": "body"
+      }
+    ]
+  },
+  "count": 2,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:44:16.502284+00:00"
+}

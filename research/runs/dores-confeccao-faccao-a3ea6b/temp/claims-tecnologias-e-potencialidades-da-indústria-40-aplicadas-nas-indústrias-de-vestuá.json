@@ -1,0 +1,16 @@
+[
+  {
+    "claim": "A aplicação de tecnologias da Indústria 4.0 em indústrias de vestuário de médio porte do Vale do Itajaí (SC) concentra-se na redução de desperdício de matéria-prima e custos de energia nos setores de criação e modelagem, sem contemplar a dimensão social da sustentabilidade.",
+    "stance": "supports",
+    "stance_target": "Adoção parcial da Indústria 4.0 e foco em redução de desperdício de tecido em confecções",
+    "evidence_type": "empirical",
+    "scope_conditions": "Duas indústrias de vestuário de médio porte do Vale do Itajaí (SC), 2025",
+    "quoted_support": "TECNOLOGIAS E POTENCIALIDADES DA INDÚSTRIA 4.0 APLICADAS NAS INDÚSTRIAS DE VESTUÁRIO PARA A SUSTENTABILIDADE. Área temática: T4. Tecnologias para a vida: materiais, circularidade, tecnologias digitais.",
+    "numbers": ["2025"],
+    "entities": ["Icleia Silveira", "X SDS 2025"],
+    "time_period": "2025",
+    "region": "Brasil (Santa Catarina)",
+    "confidence": "high",
+    "source_note_id": "tecnologias-e-potencialidades-da-indústria-40-aplicadas-nas-indústrias-de-vestuá"
+  }
+]

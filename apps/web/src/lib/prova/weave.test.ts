@@ -93,5 +93,8 @@ describe("heatherColor e FABRIC_LOOK", () => {
       expect(look.roughness).toBeGreaterThan(0);
       expect(look.roughness).toBeLessThanOrEqual(1);
     }
+    expect(FABRIC_LOOK.chiffon.transmission).toBeGreaterThan(FABRIC_LOOK.linho.transmission!);
+    expect(FABRIC_LOOK.linho.transmission).toBeGreaterThan(FABRIC_LOOK.viscose.transmission!);
+    expect(FABRIC_LOOK.jeans.transmission).toBeUndefined();
   });
 });

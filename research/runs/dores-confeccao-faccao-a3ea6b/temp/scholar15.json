@@ -1,0 +1,852 @@
+{
+  "ok": true,
+  "data": {
+    "query": "subcontratacao faccao costura responsabilidade trabalhista cadeia textil",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 20,
+      "doab": 0
+    },
+    "raw_records": 40,
+    "merged_records": 40,
+    "returned": 40,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "A governança corporativa na cadeia têxtil e confeccionista no Estado de São Paulo",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2015.tde-11042015-073343",
+        "doi": "10.11606/d.100.2015.tde-11042015-073343",
+        "year": 2015,
+        "authors": [
+          "Fabio Murcia Marques"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This dissertation analyzes and demonstrates factors that affect the textile and clothing manufacturer chain, through an overview of mapping the respective sectors have particularly those relating to management and corporate governance. To acquire empirical data the project includes the development of a literature enabling data verification and evaluation aspects of the profile of the current context of this segment using information that prove the means that lead to degradation of the branch, especially factors that include corporate governance as solver framework for the overview of the segment, central focus of this dissertation. The research aimed to obtain qualitative and quantitative data through: a) characterization of the cultural universe of management of textiles and clothing manufacturers companies; b) political factors that affect the textile and clothing manufacturer chain; c) Identification of view of different types of consumers about the textile and clothing manufacturer niche. d) the external influence on the clothing manufacturer textile market; e) data mapping and identification of the relevant factors of the complete chain; f) presentation of global factors that identify the most relevant focuses, in order to understand the timing of associated sectors. With the results, it was evident the use of corporate governance and the implementation of sustainable media as a means of restoring force and the competitiveness of the internal market and design better clashes in the international competition, especially from Asian countries, which are one of the biggest reasons of the current situation that the sector faces.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W1925088274",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Tutela Jurídico-Trabalhista frente à Exploração Laboral nas Cadeias de Produção do \"Fast Fashion\"",
+        "source": "openalex",
+        "url": "https://doi.org/10.37497/revistatdj.trt9pr.3.2025.150",
+        "doi": "10.37497/revistatdj.trt9pr.3.2025.150",
+        "year": 2025,
+        "authors": [
+          "Ana Midori Tamanaka",
+          "Lourival José de Oliveira"
+        ],
+        "venue": "Revista Trabalho Direito e Justiça",
+        "abstract": "Contextualização: Este trabalho analisa o fenômeno do fast fashion e suas implicações sociais, jurídicas e ambientais, com foco especial nas práticas de trabalho escravo contemporâneo presentes na cadeia produtiva da indústria da moda. Objetivo: O objeto do estudo compreende a relação entre o modelo de produção acelerada do fast fashion e as violações dos direitos trabalhistas, especialmente a exploração de imigrantes em oficinas clandestinas no Brasil. Método: A metodologia empregada é de natureza qualitativa, fundamentada em revisão bibliográfica e documental, com base em estudos acadêmicos, legislações nacionais e internacionais, relatórios de órgãos fiscalizadores, além da análise de casos emblemáticos envolvendo grandes marcas do setor têxtil. A pesquisa busca compreender os mecanismos jurídicos de responsabilização empresarial e os limites da atuação estatal no enfrentamento ao trabalho escravo contemporâneo. Resultados: Os resultados obtidos indicam que a estrutura produtiva fragmentada, combinada à terceirização e à lógica do consumo acelerado, favorece a precarização das condições laborais e dificulta a responsabilização das empresas. Além disso, constatou-se que a vulnerabilidade de trabalhadores imigrantes e a fiscalização deficiente são fatores que perpetuam a exploração. Apesar dos avanços legislativos e da pressão de organismos internacionais, persistem lacunas na proteção dos direitos fundamentais dos trabalhadores. Conclui-se que é necessária uma atuação mais eficaz do Estado, maior rigor na fiscalização das cadeias produtivas e o engajamento do consumidor para mitigar os impactos sociais e ambientais do fast fashion.",
+        "pdf_url": "https://revista.trt9.jus.br/revista/article/download/150/172",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4414173757",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "RESPONSABILIDADE CIVIL DO EMPREGADOR NAS CADEIAS PRODUTIVAS UM ESTUDO À LUZ DO CASO “GUARARAPES\"",
+        "source": "openalex",
+        "url": "https://doi.org/10.23900/2359-1552v14n1-57-2025",
+        "doi": "10.23900/2359-1552v14n1-57-2025",
+        "year": 2025,
+        "authors": [
+          "Eduardo Philipe Magalhães da Silva"
+        ],
+        "venue": "Revista Políticas Públicas & Cidades",
+        "abstract": "O presente artigo tem como objetivo analisar a relação existente entre as empresas de confecção de roupas e as grandes lojas de grifes, destacando os impactos dessa dinâmica nas relações de trabalho estabelecidas entre as empresas de confecções e seus empregados. Parte-se da premissa de que, mesmo diante do chamado contrato de facção, é possível a responsabilização da empresa contratante pelos créditos trabalhistas devidos pela contratada, garantindo assim a proteção dos direitos dos trabalhadores envolvidos na cadeia produtiva da moda. Além disso, o estudo se aprofunda na análise de casos emblemáticos, como os da “ZARA” e da “GUARARAPES”, nos quais o Ministério Público do Trabalho teve atuação significativa na defesa dos direitos sociais dos empregados das pequenas facções que prestam serviços a grandes marcas do setor. Dessa forma, o artigo busca demonstrar como essas relações podem gerar a precarização do trabalho e levantar reflexões sobre a responsabilidade empresarial nesse contexto.",
+        "pdf_url": "https://journalppc.com/RPPC/article/download/1597/932",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4407166345",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Cadeias produtivas fundadas no trabalho escravo e infantil e sua responsabilidade jurídica",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/303401",
+        "doi": null,
+        "year": 2025,
+        "authors": [
+          "Franco Maffini De Matos Borges"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "As cadeias produtivas, globais e nacionais, revelam-se estruturas complexas que, embora essenciais à economia de mercado contemporânea, frequentemente encobrem práticas de exploração laboral, como o trabalho análogo à escravidão e o trabalho infantil. Nesse cenário, impende identificar os mecanismos utilizados pelo poder econômico dominante para subjugação do trabalhador, bem como os setores de maior incidência dessas práticas no Brasil, para, então, analisar como os agentes no topo da cadeia podem ser responsabilizados. Para tanto, utilizou-se do método indutivo de pesquisa, combinado com análise doutrinária e jurisprudencial, para formular uma explanação do porquê, mesmo diante do robusto arcabouço normativo que regula os temas, o País ainda enfrenta severas dificuldades em seu combate e erradicação. Com vistas a desmantelar as estruturas que sustentam a perpetuação das práticas exploratórias nas cadeias produtivas, restou demonstrado como a responsabilização jurídica do poder econômico dominante, aliada à coerção socioeconômica decorrente da exposição pública, mostram-se os caminhos mais eficazes para a sedimentação do trabalho decente, em observância aos princípios de dignidade humana e justiça social que fundamentam o ordenamento jurídico brasileiro.",
+        "pdf_url": "https://lume.ufrgs.br/bitstream/10183/303401/1/001301965.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7154544238",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "NARRATIVAS DE FACÇÕES DE COSTURA NO MUNICÍPIO DE SINOP/MT",
+        "source": "openalex",
+        "url": "https://doi.org/10.30681/rbegdr.v2i1.12619",
+        "doi": "10.30681/rbegdr.v2i1.12619",
+        "year": 2024,
+        "authors": [
+          "Jadelson Rodrigues da Silva"
+        ],
+        "venue": "Revista Brasileira de Estudos de Gestão e Desenvolvimento Regional",
+        "abstract": "O faturamento da cadeia têxtil e de confecção no Brasil gira em torno de 193,2 bilhões de reais. No estado do Mato Grosso, seu faturamento corresponde a 421 milhões de reais. Além disso, o aumento de interesse pelo setor vem crescendo devido ao cultivo de algodão no estado. Porém não há muitos registros sobre facções de costura na região norte mato-grossense. Portanto o objetivo deste artigo é evidenciar o processo de terceirização nas fações de costura do município de Sinop-MT por meio de narrativas de empreendedores e costureiras(os) do setor. Por meio da metodologia de História de Vida, foram realizadas 6 entrevistas com intuito de identificar dificuldades a partir dos pontos de vista dos principais atores desse contexto. Entre os principais problemas foram identificados o preço da matéria prima, falta de financiamento, elevado custo energético, enquadramento fiscal das empresas, excesso de horas trabalhadas, dependência da sazonalidade de serviço, prazo de entrega apertados, baixo valor pago pelos serviços e falta de seguridade social.",
+        "pdf_url": "https://periodicos.unemat.br/index.php/rbedrpp/article/download/12619/8549",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4405237344",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "ENTRE A PROIBIÇÃO E A EXPORTAÇÃO: CADEIA DE VALOR, RESPONSABILIDADE EMPRESARIAL E AGROTÓXICOS NO EIXO ITÁLIA–BRASIL",
+        "source": "openalex",
+        "url": "https://doi.org/10.62140/jtsfur765668079",
+        "doi": "10.62140/jtsfur765668079",
+        "year": 2026,
+        "authors": [
+          "Julia Gimenes Tabarim",
+          "Sara Correa Fattori",
+          "Ubiratan Bagas dos Reis"
+        ],
+        "venue": null,
+        "abstract": "Resumo: O artigo analisa a cadeia de valor como categoria analítica e jurídica aplicada ao setor de agrotóxicos, destacando sua utilidade para a identificação dos impactos ambientais ao longo do ciclo produtivo e para a superação dos limites da responsabilização empresarial tradicional. Parte-se da constatação de que, em cadeias globais, a geração de valor econômico costuma dissociar-se da alocação dos riscos socioambientais. Nesse contexto, examina-se o paradoxo regulatório europeu, com ênfase no eixo Itália–Brasil, no qual a proibição interna de determinadas substâncias convive com sua produção e exportação para países com regimes regulatórios distintos. Conclui-se que a cadeia de valor permite evidenciar o deslocamento transnacional de riscos e contribui para o aprimoramento da governança regulatória e da responsabilidade empresarial.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W7163744003",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "O lugar do imigrante indocumentado no Estado Democrático de Direito: identificação e reparação dos danos aos direitos metaindividuais decorrentes da exploração de trabalhadores bolivianos na cadeia de produção têxtil de São Paulo",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.107.2019.tde-20062018-162637",
+        "doi": "10.11606/d.107.2019.tde-20062018-162637",
+        "year": 2019,
+        "authors": [
+          "Amanda Morais de Melo"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This dissertation addresses an analysis of cases involving Bolivian workers whose employment relationship with three major textile and garment manufacturers in the city of São Paulo, Brazil, was recognized by three courts of the Regional Labor Court of the second region. The study identified contents in the decisions that would contribute to the socioeconomic protection and inclusion of undocumented Bolivian immigrants to social rights, in accordance with the objectives of the Democratic State of Law set forth in Article 3 of the Brazilian Federal Constitution. The analysis aimed at revealing the place conferred to those individuals in labor courts when metaindividual labor rights are disrespected in the textile production chain in São Paulo. A database was comprised of five judicial decisions that recognized the employment relationship between workers and employers\\' clothing stores for the validation of labor infraction notices and inspection reports issued by the Brazilian Ministry of Labor and Employment and held the companies accountable for social dumping and collective moral damage. Despite the Regional Labor Court\\'s progress towards understanding the responsibility of major brands regarding the restructuring of production chains and the international labor division, the undocumented immigrant is still deemed a menace to the local labor market. Moreover, the fines imposed by the court contributed to the continued discrimination of undocumented and exploited immigrants, which is against the intent of the Democratic State of Law incorporated in the Brazilian Constitution towards precluding inequality and segregation of such minorities.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/107/107131/tde-20062018-162637/publico/AmandaMMeloCorrigida.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2933785669",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Empresas e direitos humanos: uma análise das violações de direitos elementares trabalhistas na Indústria da moda",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1843/BUOS-B9KJWU",
+        "doi": null,
+        "year": 2018,
+        "authors": [
+          "Julianna do Nascimento Hernandez"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "A pesquisa tem o objetivo de analisar se o Sistema ONU de Direitos Humanos é efetivo para tratar e aplacar as violações de direitos humanos sofridas por trabalhadores de corporações transnacionais do setor têxtil e de vestuários, principalmente, após a reestruturação produtiva ocorrida a partir de 1970. Observa-se que as normas internacionais emitidas pela Organização das Nações Unidas (ONU) e pela Organização Internacional do Trabalho (OIT) estabelecem padrões globais mínimos sobre o trabalho decente, sem, contudo, dispor de normas coercitivas para exigir o cumprimento por parte dos Estados não ratificantes e das empresas transnacionais. As recentes diretrizes da ONU, quais sejam o Quadro Referencial de 2008 e os Princípios Orientadores de 2011, ambos soft law, da mesma forma se mostram falhos em proporcionar um ambiente regulatório de maior proteção ao obreiro. A pesquisa revela, sobretudo, que a estrutura de produção da indústria da moda se beneficia flagrantemente da falta de normas internacionais sociais que se apliquem direta e vinculativamente às corporações. Dessa forma, ao descentralizar sua produção por meio de terceirizações e contratos de facção, a prática, inserida em contexto de globaritarismo, implica a extrema desregulamentação do conjunto de normas laborais conquistado durante os séculos XIX, XX e XXI, sem a possibilidade de serem responsabilizadas internacionalmente pelos impactos negativos causados às pessoas e ao meio ambiente.",
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W2981676707",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "RELAÇÕES DE TRABALHO E DESIGUALDADES DE GÊNERO NA INDÚSTRIA TÊXTIL E DE CONFECÇÕES DO NORDESTE",
+        "source": "openalex",
+        "url": "https://doi.org/10.9771/ccrh.v33i0.38029",
+        "doi": "10.9771/ccrh.v33i0.38029",
+        "year": 2020,
+        "authors": [
+          "Elaine Mauricio Bezerra",
+          "Roseli de Fátima Corteletti",
+          "Iara Maria de Araújo"
+        ],
+        "venue": "Caderno CRH",
+        "abstract": "O objetivo deste artigo é analisar duas realidades de trabalho marcadas pela flexibilidade e precariedade, e com presença de uma força de trabalho intensiva de mulheres, na Região Nordeste do Brasil. A primeira, envolve mulheres que atuam como costureiras externas em facções domiciliares do Polo de Confecções do Agreste Pernambucano. Na segunda, temos o protagonismo feminino interno à produção têxtil no município de Jardim de Piranhas-RN. A divisão sexual do trabalho apresenta uma centralidade em ambas as experiências, seja reforçando os lugares clássicos que homens e mulheres ocupam na produção e na reprodução, seja apresentando questões novas. Foram realizadas visitas e entrevistas nos dois contextos produtivos, o que permitiu um contato com as experiências de trabalho das mulheres. No primeiro caso, o trabalho domiciliar significa a busca por autonomia e liberdade, no qual temos também a entrada dos homens na atividade de costura. No segundo, as mulheres tornam-se proprietárias de teares e a presença dos homens ainda é pequena. No entanto, esses fatores não repercutiram positivamente nas desigualdades de gênero, uma vez que as tarefas domésticas permanecem inalteradas e, mesmo com as longas jornadas de trabalho, elas não percebem as condições desiguais. WORK RELATIONS AND GENDER INEQUALITIES IN THE NORTHEAST TEXTILE AND CLOTHING INDUSTRY The aim of this article is to analyze two realities of work, marked by flexibility and precariousness and with an intensive workforce of women in the northeastern region of Brazil. The first involves women seamstresses in household factions of the Confections Pole of the Agreste of Pernambuco State. In the second, we have the female protagonism within the textile production in the municipality of Jardim de Piranhas-RN.The sexual division of labor is central to both experiences, either by reinforcing the classic places that men and women occupy in production and reproduction, or by presenting new issues.Visits and interviews were carried out in the two productive contexts, which allowed contact with the labor experiences of women. In the first case, home work means the search for autonomy and freedom, where we also have the entry of men in sewing. In the second, women become owners of looms and the presence of men is still small. However, these factors did not have a positive impact on gender inequalities, since domestic chores remain unchanged and even with long working hours, women workers do not perceive themselves as people generated in an oppressive and dominant society and in unequal conditions at work. Keywords: Textile and clothing industry. Female work. Gender inequalities. Informality. Precarious work. RELATIONS DE TRAVAIL ET INÉGALITÉS DE GENRE DANS L’INDUSTRIE NORD-EST DU TEXTILE ET DES VÊTEMENTS L’objectif de cet article est d’analyser deux réalités du travail, marquées par la flexibilité et la précarité et avec une main-d’œuvre intensive de femmes dans la région nord-est du Brésil. Le premier concerne les femmes couturières des factions ménagères du Pôle Confections d’Agreste de l’état de Pernambuco. Dans le second, nous avons le protagonisme féminin au sein de la production textile dans la municipalité de Jardim de Piranhas-RN. La division sexuelle du travail est au cœur des deux expériences, soit en renforçant les places classiques qu’occupent les hommes et les femmes dans la production et la reproduction, soit en présentant de nouvelles problématiques .Des visites et des entretiens ont été réalisés dans les deux contextes productifs, ce qui a permis un contact avec les expériences de travail des femmes. Dans le premier cas, le travail à domicile signifie la recherche d’autonomie et de liberté, où l’on a aussi l’entrée des hommes dans la couture. Dans le second, les femmes deviennent propriétaires de métiers à tisser et la présence des hommes est encore faible. Cependant, ces facteurs n’ont pas eu d’impact positif sur les inégalités entre les sexes, car les tâches domestiques restent inchangées et même avec de longues heures de travail, femmes qui travaillent ne se perçoivent pas comme des personnes générées dans une société oppressive et dominante et dans des conditions de travail inégales. Mots-clés: Industrie textile et habillement. Travail féminin. Inégalités entre les sexes. Informalité. Travail précaire.",
+        "pdf_url": "https://periodicos.ufba.br/index.php/crh/article/download/38029/23686",
+        "citation_count": 19,
+        "work_type": "article",
+        "identifier": "W3128973461",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A precarização das condições de trabalho em “facções” do ramo têxtil/vestuário em Blumenau/SC: a face oculta da reestruturação produtiva",
+        "source": "openalex",
+        "url": "https://doi.org/10.24302/drd.v1i1.1398",
+        "doi": "10.24302/drd.v1i1.1398",
+        "year": 2017,
+        "authors": [
+          "Oscar Krost",
+          "Leonardo Brandão"
+        ],
+        "venue": "DRd - Desenvolvimento Regional em debate",
+        "abstract": "A colônia de Blumenau, criada em 1850, embora tenha sido ocupada inicialmente por pequenos agricultores originários da Alemanha, em pouco mais de 30 anos de existência vivenciou a criação de pequenas oficinas de costura e de fiação, cujo êxito levou à transformação em fábricas e à formação de um pólo fabril no setor. A partir da década de 1980, algumas dessas indústrias passaram por processos de reestruturação produtiva, transferindo parte de suas atividades a “terceiros”, também chamados de “facções”, ocasionando a redução do quadro de empregados e a precarização nas condições de trabalho. Em vista de tal realidade, pretende-se nesse artigo abordar os efeitos gerados pela “terceirização” por “facções” em Blumenau sobre a identidade profissional, a saúde e a renda dos operários, a fim de fornecer elementos para o debate e de permitir a elaboração de políticas públicas para seu enfrentamento.",
+        "pdf_url": "http://www.periodicos.unc.br/index.php/drd/article/view/1398/721",
+        "citation_count": 5,
+        "work_type": "article",
+        "identifier": "W2613229030",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Os herdeiros da costura: a lógica reprodutiva da escolarização por meio da necessidade.",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.52446/cursocienciassociaiscdsa.2016.tccmon.neves",
+        "doi": "10.52446/cursocienciassociaiscdsa.2016.tccmon.neves",
+        "year": 2016,
+        "authors": [
+          "Mesias Ramos de Sousa. Neves"
+        ],
+        "venue": null,
+        "abstract": "O presente trabalho investigou a causa de pessoas saírem da Escola para ingressar no mundo do trabalho, mais precisamente, no Polo de Confecções do Agreste Pernambucano que tem se expandido nos últimos anos e chegou ao Cariri Paraibano. Nesse sentido, tencionei saber em que medida essa expansão tem alterado a configuração da escolarização do município de Coxixola e como tem se efetivado esses modos de atuação para a reprodução, que permeiam as práticas da relação trabalho-escola. Através duma abordagem exploratória, levantei dados primários, por meio de questionários preenchidos por trabalhadores do ramo da costura, que permitiram à pesquisa uma explanação do campo de estudo, vislumbrando a compreensão das relações de produção que tecem a vida escolar dos sujeitos advindos de camadas populares e qual sua relação com o mundo do trabalho. Ademais, ouvi esses agentes que por meio de suas vivências diárias narraram como se constrói diariamente esse aglomerado produtivo nos micro-espaços de trabalho, culminando numa lógica própria de atuação do Capital e de suas Instituições reprodutoras, sobretudo a Escola. A manutenção cíclica dos “herdeiros” se configura como ato primordial na consumação das reproduções societárias, cujas Instituições Educacionais manifestam expressamente espaços de aparelhamento dessa lógica. Assim sendo, busquei investigar como tem sido essa relação entre trabalho e educação na reprodução das desigualdades sociais, cujo resultado demonstrou a saída precoce em vista das necessidades que acompanha as classes populares, mantendo, dessa forma, uma atuação própria e recorrente de reproduções em sociedade.",
+        "pdf_url": "http://dspace.sti.ufcg.edu.br:8080/jspui/bitstream/riufcg/5283/3/MESIAS%20RAMOS%20DE%20SOUSA%20NEVES%20-%20TCC%20CI%c3%8aNCIAS%20SOCIAIS%20CDSA%202016..pdf",
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W3216236766",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Respostas não estatais de combate à precarização do trabalho na indústria têxtil: o papel da autorregulação e das organizações não governamentais",
+        "source": "openalex",
+        "url": "http://www.repositorio.jesuita.org.br/handle/UNISINOS/6987",
+        "doi": null,
+        "year": 2017,
+        "authors": [
+          "Camila Pinheiro Bergenthal"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "AGRADECIMENTOSMinha sincera gratidão a todos que de certo modo colaboraram para que este projeto se concretizasse, em especial: Ao meu marido, Daniel Costa Ferronatto, pelo apoio incondicional, abdicando dos próprios sonhos em nome dos meus.Aos meus pais, Jair Bergenthal e Irene Pinheiro, por se orgulharem sempre das minhas conquistas e pelos incansáveis incentivos.Ao meu orientador, Prof. Dr. José Rodrigo Rodriguez, pela paciência no meu processo de construção da maturidade intelectual, bem como toda dedicação expendida para que este projeto fosse concluído.Aos meus colegas, que compartilharam das dificuldades e desafios dessa trajetória, em especial minha colega Luana Caspari.Aos demais professores do PPG em Direito da UNISINOS, que ajudaram a trilhar este caminho, em particular, a colaboradora Vera. RESUMOA estratégia da globalização, em que pese ter contribuído para o avanço de diversos setores econômicos, acabou por exacerbar a perda de direitos, humanos e trabalhistas, agravando a exclusão social e as marcas de pobreza por todo o globo, sobretudo no segmento têxtil.Flagrantes de trabalhadores submetidos a situações análogas à escravidão, jornada exaustiva, trabalho forçado, condições degradantes, servidão por dívida, utilização de mão de obra infantil, hoje reconhecidos como práticas de escravidão moderna, são recorrentes na indústria da moda, não obstante a existência de esparsa legislação, no âmbito nacional e internacional, contrária a qualquer tipo de escravidão.Nesse sentido, a presente dissertação aborda as respostas não estatais de combate à precarização do trabalho na indústria têxtil: o papel dos direitos humanos e da autorregulação.A pesquisa justifica-se em face da ineficiência dos Estados-Nações na proteção de garantias fundamentais dos trabalhadores que atuam no segmento têxtil.Logo, é mais do que nunca atual e merece destaque diante dos reiterados casos de precarização do trabalho.Lança-se uma proposta sistemática alicerçada no método dialético.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2893681602",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A RESPONSABILIDADE SOCIAL DAS EMPRESAS TRANSNACIONAIS POR VIOLAÇÕES DE DIREITOS HUMANOS SOB A PERSPECTIVA DO DIREITO INTERNACIONAL",
+        "source": "openalex",
+        "url": "https://doi.org/10.51891/rease.v11i5.19279",
+        "doi": "10.51891/rease.v11i5.19279",
+        "year": 2025,
+        "authors": [
+          "Letícia Lissadalpra",
+          "Taiana Levinne Carneiro Cordeiro"
+        ],
+        "venue": "Revista Ibero-Americana de Humanidades, Ciências e Educação",
+        "abstract": "Essa pesquisa analisa a responsabilidade social das empresas transnacionais por violações de direitos humanos, com foco na evolução normativa internacional e nos mecanismos jurídicos disponíveis tanto no âmbito internacional, quanto nacional. O objetivo principal foi compreender os avanços e lacunas normativas existentes na responsabilização dessas corporações, especialmente à luz dos Princípios Orientadores da ONU sobre Empresas e Direitos Humanos. A metodologia adotada consistiu em revisão bibliográfica e análise documental de normas internacionais e legislações nacionais, permitindo mapear os instrumentos existentes e identificar suas limitações diante da complexidade das cadeias produtivas globais. Os resultados indicam que, embora haja avanços em normas voluntárias, ainda falta um marco legal internacional vinculante eficaz. A pesquisa destaca a relevância de propostas como o Projeto de Lei 572/2022 e a Soft Law como instrumento preventivo no Brasil, que podem fortalecer a responsabilização empresarial. O estudo sugere também a importância de análises comparativas com legislações estrangeiras, além do aprimoramento no papel Judiciário brasileiro. Conclui-se que, apesar dos progressos, permanecem desafios significativos para assegurar a efetividade dos direitos humanos frente às atividades empresariais transnacionais, sendo fundamental o desenvolvimento normativo e institucional dessas legislações.",
+        "pdf_url": "https://periodicorease.pro.br/rease/article/download/19279/11359",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4410381373",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "O TRABALHO NA CONFECÇÃO EM SÃO PAULO: as novas formas da precariedade",
+        "source": "openalex",
+        "url": "https://doi.org/10.9771/ccrh.v30i79.19973",
+        "doi": "10.9771/ccrh.v30i79.19973",
+        "year": 2017,
+        "authors": [
+          "Marcía de Paula Leite",
+          "Sandra Roberta Alves Silva",
+          "Pilar Carvalho Guimarães"
+        ],
+        "venue": "Caderno CRH",
+        "abstract": "Este artigo analisa o trabalho no setor de confecção a partir de pesquisa realizada na cidade de São Paulo. Debruçando-se mais especificamente sobre o trabalho em domicílio e dos imigrantes, discutem-se as condições de trabalho no setor a partir da configuração das cadeias de valor e da divisão internacional do trabalho que ela promove, gerando uma nova dinâmica nas formas de precariedade que sempre marcaram o setor. O texto debate também o impacto do selo da Associação Brasileira do Varejo Têxtil (ABVTEX) sobre as condições do trabalho de costura nos domicílios e nas oficinas.",
+        "pdf_url": "https://periodicos.ufba.br/index.php/crh/article/download/19973/14915",
+        "citation_count": 35,
+        "work_type": "article",
+        "identifier": "W2729315216",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Zara, M. Officer, Pernambucanas e Serafina/Collins: o padrão condenatório por condições degradantes da mão de obra em redes contratuais do setor de vestuário",
+        "source": "openalex",
+        "url": "https://publicacoesacademicas.uniceub.br/rdi/article/download/6158/pdf",
+        "doi": "10.5102/rdi.v16i3.6158",
+        "year": 2019,
+        "authors": [
+          "Laura Germano Matos",
+          "João Luís Nogueira Matias"
+        ],
+        "venue": "Revista de Direito Internacional",
+        "abstract": "O presente artigo busca investigar o padrão condenatório utilizado pelo Poder Judiciário Trabalhista brasileiro em quatro casos emblemáticos de trabalhadores falagrados em condições degradantes produzindo peças para empresas de confecção de vestuário. Através da análise das decisões proferidas contra as empresas Zara, M. Officer, Pernambucanas e Serafina/Collins foi possível identificar uma série de argumentos comuns que indicam como o Poder Judiciário enxerga a responsabilidade civil de tais empresas por esse tipo de violação. Percebeu-se que a legislação brasileira, avaliada isoladamente, não responde de maneira clara e precisa sobre a responsabilidade no âmbito das cadeias produtivas terceirizadas, razão pela qual as decisões analisadas revelam a real interpretação dada aos dispositivos legais pelas cortes trabalhistas e inovam ao criar padrões a partir dos casos concretos. No entanto, é possível concluir que os critérios extraídos, quando avaliados em conjunto, podem ser interpretados à luz do conceito de esfera de influência, ideia já presente em diversos documentos internacionais sobre o tema.",
+        "pdf_url": "https://publicacoesacademicas.uniceub.br/rdi/article/download/6158/pdf",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W3011621147",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Trabalho feminino e precarização: entre pano e (des)alinho com o Direito",
+        "source": "openalex",
+        "url": "https://doi.org/10.33637/2595-847x.2022-109",
+        "doi": "10.33637/2595-847x.2022-109",
+        "year": 2022,
+        "authors": [
+          "Ana Júlia Prezotti Duarte"
+        ],
+        "venue": "Laborare",
+        "abstract": "Este artigo busca evidenciar como as representações de gênero se refletem nos arranjos de trabalho, de modo a conduzirem as mulheres prioritariamente para a informalidade. Parte-se de uma investigação teórica acerca dos efeitos do processo de reestruturação produtiva e de flexibilização na precarização do trabalho feminino, que aproxima terceirização e informalidade nas cadeias do setor têxtil. Desde o polo de confecções de São Paulo até a indústria de jeans de Toritama, verifica-se a reprodução da divisão sexual do trabalho e uma tendência de desproteção social, suavizada pelo discurso do novo empreendedorismo. Mediante a análise de decisões jurisprudenciais, percebe-se a apropriação de uma retórica pelos julgadores que isenta as empresas tomadoras de serviços de qualquer responsabilização, relegando a costureira a um trabalho supostamente autônomo, em condições extremamente precárias e desprotegidas. Logo, termina-se por refletir sobre o papel do Judiciário na conformação do trabalho informal e a ausência de julgamento em perspectiva de gênero.",
+        "pdf_url": "https://revistalaborare.org/index.php/laborare/article/download/109/135",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4214886193",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Tecendo a precarização: trabalho a domicílio e estratégias sindicais na indústria de confecção em São Paulo",
+        "source": "openalex",
+        "url": "https://doi.org/10.1590/s1981-77462004000100005",
+        "doi": "10.1590/s1981-77462004000100005",
+        "year": 2004,
+        "authors": [
+          "Marcía de Paula Leite"
+        ],
+        "venue": "Trabalho Educação e Saúde",
+        "abstract": "O artigo, à luz da indústria de confecções de São Paulo, discute as transformações das relações e das condições de trabalho no contexto da reestruturação produtiva. Para tal, o texto trata, de forma pormenorizada, da divisão do trabalho entre as empresas no interior da cadeia produtiva e das relações de trabalho que predominam nos diferentes níveis da mesma, com especial ênfase no trabalho a domicílio. A análise revela que, à medida que o processo de terceirização avança, o emprego diminui na ponta virtuosa da cadeia - as empresas líderes dos encadeamentos produtivos - onde se difunde o trabalho qualificado, mais bem pago e mais estável, e aumenta na ponta precária, onde abunda o trabalho pouco qualificado, instável, mal pago e, muitas vezes, executado sem vínculo empregatício - ou seja, onde se difundem as condições de trabalho e relações de emprego mais deterioradas. O artigo discute ainda como essas antigas formas de trabalho revitalizadas em um novo contexto atingem mais fortemente as mulheres do que os homens, evidenciando a exclusão social dos setores mais vulneráveis do mercado de trabalho.",
+        "pdf_url": "https://www.scielo.br/j/tes/a/gzWZChZQbdRtxKBCtjyb7fx/?lang=pt&format=pdf",
+        "citation_count": 68,
+        "work_type": "article",
+        "identifier": "W1994818511",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "AS CORRENTES INVISÍVEIS DA INDÚSTRIA DA MODA BRASILEIRA",
+        "source": "openalex",
+        "url": "https://doi.org/10.17771/pucrio.acad.33865",
+        "doi": "10.17771/pucrio.acad.33865",
+        "year": 2017,
+        "authors": [
+          "ANA CAROLINA DA ROCHA LEAO MACHADO"
+        ],
+        "venue": null,
+        "abstract": "Este trabalho monográfico tem por objetivo desenvolver e expor a estreita relação entre o mercado fast fashion e a superexploração de trabalhadores imigrantes latino-americanos em oficinas clandestinas de costura localizadas nos centros urbanos brasileiros. Dessa forma, inicialmente, destaca-se a nova lógica de consumo que permite a produção a baixo custo mediante a sonegação de direitos do trabalhador em benefício do lucro, a estrutura de sweating system que a mantém e o consequente dumping social a ela associado. Além disso, cuida-se de esclarecer o que define o trabalho digno e como se revela os modos de execução da escravidão moderna, apresentando, em caráter complementar, parte específica sobre o tráfico de pessoas, tendo em vista a evidente ligação deste tipo penal com a conduta tema do presente estudo. Ainda, traz trato sobre a responsabilidade das grandes grifes que se aproveitam da superexploração deflagrada no interior de sua cadeia produtiva. Mais adiante, é exposto o caso paradigmático da multinacional ZARA, com a descrição dos resgates realizados em suas oficinas clandestinas e os desdobramentos de seus flagrantes. Também, são apresentados os mecanismos de enfrentamento do trabalho análogo ao escravo e, finalmente, é realizada análise da nova Portaria MTB 1.129/2017, que traz retrocessos significativos no que se refere à conceituação de trabalho escravo contemporâneo.",
+        "pdf_url": "https://www.maxwell.vrac.puc-rio.br/33865/33865.PDF",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4233497839",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "MEMÓRIAS E TRAJETÓRIAS SOCIAIS DE FAMÍLIAS FACCIONISTAS DO AGRESTE PARAIBANO E PERNAMBUCANO",
+        "source": "openalex",
+        "url": "https://doi.org/10.56267/rdtps.v9i16.15433",
+        "doi": "10.56267/rdtps.v9i16.15433",
+        "year": 2023,
+        "authors": [
+          "Annahid Burnett",
+          "Francisco Fagundes de Paiva Neto",
+          "Edmilson das Chagas Lira"
+        ],
+        "venue": "REVISTA DIREITOS, TRABALHO E POLÍTICA SOCIAL",
+        "abstract": "Desde a década de 1990 a globalização impactou a indústria têxtil no Brasil. A partir de reflexões com base em estudos interdisciplinares, avaliamos essa relação da atividade têxtil e a produção ao rés do chão da estrutura produtiva, as famílias faccionistas. Com isso, procuramos responder a seguinte questão: como se deu o processo de trajetórias sociais de trabalhadores, a partir das memórias familiares e laborativas em diversas atividades profissionais? Ademais, como se constituiu uma relação laborativa com o avanço das igrejas evangélicas no agreste pernambucano e paraibano. Para tanto, realizamos uma análise sobre as trajetórias familiares diante de relações laborativas com as atividades no campo, empregos temporários e camadas de terceirização com desdobramentos na atividade têxtil faccionista. Como fundamentos teóricos, recorremos à literatura da história social do trabalho e trajetória social, bem como estudos sobre memória e história oral. Utilizamos como fontes na nossa pesquisa narrativas orais e trabalhos de extração acadêmica referentes ao avanço da terceirização nas franjas das áreas periféricas do Brasil.",
+        "pdf_url": "https://periodicoscientificos.ufmt.br/ojs/index.php/rdtps/article/download/15433/12399",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W4383899789",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Gênero, flexibilidade e precarização: o trabalho a domicílio na indústria de confecções",
+        "source": "openalex",
+        "url": "https://doi.org/10.1590/s0102-69922007000100002",
+        "doi": "10.1590/s0102-69922007000100002",
+        "year": 2007,
+        "authors": [
+          "Magda de Almeida Neves",
+          "Célia Maria Pedrosa"
+        ],
+        "venue": "Sociedade e Estado",
+        "abstract": "O rápido processo de mudanças na economia global, nos últimos anos, e a reestruturação produtiva reconfiguraram as relações de gênero no trabalho. A entrada cada vez maior do contingente feminino no mercado de trabalho, além de dar visibilidade às relações que se engendram na esfera privada, apresenta um conjunto de novas experiências vivenciadas pelas mulheres no local de trabalho e no contexto mais amplo da própria sociedade. Nestes últimos anos, a dinâmica flexível do processo produtivo acarretou o crescimento significativo do trabalho informal, num processo caracterizado pela sua heterogeneidade e, também, pela forma sistêmica de interação entre o setor formal e o informal. O objetivo do presente artigo é analisar o trabalho a domicílio realizado por mulheres para a indústria de confecção numa cidade de porte médio em Minas Gerais. O enfraquecimento da regulação do trabalho e dos direitos sociais possibilita a multiplicação de atividades precarizadas, gerando flexibilização do contrato de trabalho, das condições de trabalho, da jornada de trabalho e uma extensão/interação entre espaço privado/doméstico e espaço econômico/produtivo.",
+        "pdf_url": "https://www.scielo.br/j/se/a/JcCwKD3qbVW8P87D3vfdbSF/?lang=pt&format=pdf",
+        "citation_count": 90,
+        "work_type": "article",
+        "identifier": "W2093761352",
+        "extra": {
+          "openalex_type": "editorial",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A TERCEIRIZAÇÃO TRABALHISTA NA ADMINISTRAÇÃO PÚBLICA E SUA RESPONSABILIDADE",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.16732",
+        "doi": "10.17771/pucrio.acad.16732",
+        "year": 2015,
+        "authors": [
+          "ALINE CRISTINA SILVA DOS SANTOS"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.16732",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "Estruturas de coordenação na cadeia textil: um estudo sobre as relações entre industria textil e os fornecedores defibras de algodão e maquinas texteis no Brasil",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1996.107209",
+        "doi": "10.47749/t/unicamp.1996.107209",
+        "year": 2021,
+        "authors": [
+          "Célio Hiratuka"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1996.107209",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Responsabilidade compartilhada pelo ciclo de vida do produto na cadeia de resíduos eletroeletrônicos",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.2.2015.tde-01122015-142705",
+        "doi": "10.11606/d.2.2015.tde-01122015-142705",
+        "year": 2016,
+        "authors": [
+          "João Múcio Amado Mendes"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.2.2015.tde-01122015-142705",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Terceirização externa : responsabilidade da cadeia produtiva empresarial descentralizada pelo direito fundamental ao trabalho digno",
+        "source": "crossref",
+        "url": "https://doi.org/10.26512/2022.10.t.47184",
+        "doi": "10.26512/2022.10.t.47184",
+        "year": 2026,
+        "authors": [
+          "Helder Santos Amorim"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.26512/2022.10.t.47184",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Biblioteca Central da UNB"
+        }
+      },
+      {
+        "title": "A RESPONSABILIDADE TRABALHISTA DO SÓCIO NO GRUPO ECONÔMICO",
+        "source": "crossref",
+        "url": "https://doi.org/10.47820/recima21.v5i5.5204",
+        "doi": "10.47820/recima21.v5i5.5204",
+        "year": 2024,
+        "authors": [
+          "Ágatha Lima Reis Barbosa"
+        ],
+        "venue": "RECIMA21 - Revista Científica Multidisciplinar - ISSN 2675-6218",
+        "abstract": "O presente estudo analisa os aspectos do direito do trabalhador direcionado à reforma trabalhista nos grupos econômicos e caracterizações das responsabilidades dos sócios na sociedade limitada, os grupos de empresas na qual são denominados de grupos econômicos também há problematizações em sua organização levando à confusão nas suas independências, podendo, então, o sócio ser responsabilizado individualmente por todos os débitos adquiridos pela empresa, bem como aspecto principal a análise da modernização trazida pela reforma trabalhista em sua nova reforma. Uma das principais características é a preservação do tempo de trabalho de um empregado em uma determinada empresa pertencente a um grupo econômico, evitando a fraude em empresas. Os grupos econômicos se dão através da concentração de empresas diversas ou não segurado, cada uma com sua própria personalidade jurídica.",
+        "pdf_url": "https://recima21.com.br/index.php/recima21/article/download/5204/3600",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.47820/recima21.v5i5.5204",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Editora RECIMA21 LTDA"
+        }
+      },
+      {
+        "title": "Responsabilidade penal na cadeia executiva: a omissão imprópria na ambiência das sociedades anônimas e limitadas",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.2.2021.tde-21072022-101804",
+        "doi": "10.11606/d.2.2021.tde-21072022-101804",
+        "year": 2022,
+        "authors": [
+          "Fernando França Magri"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.2.2021.tde-21072022-101804",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de Sao Paulo, Agencia USP de Gestao da Informacao Academica (AGUIA)"
+        }
+      },
+      {
+        "title": "BACKGROUND CHECK TRABALHISTA E RESPONSABILIDADE CIVIL DO EMPREGADOR",
+        "source": "crossref",
+        "url": "https://doi.org/10.62140/dfgk6462025",
+        "doi": "10.62140/dfgk6462025",
+        "year": 2025,
+        "authors": [
+          "Denise Fincato",
+          "Gabriel Ketzer"
+        ],
+        "venue": "Direitos Fundamentais na Perspectiva Ítalo-Brasileira, Vol. V",
+        "abstract": "Resumo: O estudo aborda o uso do Background Check no compliance trabalhista, destacando seu papel na análise pré-contratual de antecedentes de empregados e contratados. Apesar de legal em muitos países, a condução inadequada pode gerar riscos de responsabilidade civil devido ao tratamento de dados pessoais, especialmente diante da crescente digitalização. Combinando análise teórica e revisão jurisprudencial, a pesquisa enfatiza a necessidade de observância a princípios legais e de proteção à privacidade, propondo práticas responsáveis para mitigar passivos jurídicos e éticos associados a essas verificações.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.62140/dfgk6462025",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Iberojur Science Press"
+        }
+      },
+      {
+        "title": "Estudio de Oferta y Demanda para una Asociación de Producción Textil y Costura",
+        "source": "crossref",
+        "url": "https://doi.org/10.29019/eyn.v13i1.917",
+        "doi": "10.29019/eyn.v13i1.917",
+        "year": 2022,
+        "authors": [
+          "Angela Fernanda Ludeña-Pérez",
+          "Kendra Nicole Serdán-Valencia",
+          "Oscar Mauricio Romero-Hidalgo"
+        ],
+        "venue": "Economía y Negocios",
+        "abstract": "En el presente trabajo investigativo se realizó un estudio de mercado de la Asociación de producción textil y costura ‘Lew Asolew’ en la ciudad de Machala, Provincia de El Oro, con el objetivo de analizar la oferta y la demanda. La metodología aplicada fue descriptiva bajo el enfoque cualitativo y cuantitativo, esta consistió en una investigación bibliográfica científica en la que se analizaron las variables del estudio como el comportamiento del consumidor, el sector textil y la aplicación de encuestas para la obtención de la información necesaria por parte de la población seleccionada. Los resultados reflejan el comportamiento del mercado que afecta el funcionamiento de la asociación, predominando lo siguiente: el precio que se establece para cada prenda es acorde a la calidad y al diseño, generándose una influencia en la decisión de compra del cliente. Como conclusión, se identificó que existe exceso de demanda, es decir, se estima que la demanda a futuro sea mayor a la oferta. De tal manera, se determina que existirá una demanda insatisfecha.",
+        "pdf_url": "https://revistas.ute.edu.ec/index.php/economia-y-negocios/article/download/917/800",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "10.29019/eyn.v13i1.917",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidad UTE"
+        }
+      },
+      {
+        "title": "Concessão de Serviço Público - Responsabilidade trabalhista - Sucessão",
+        "source": "crossref",
+        "url": "https://doi.org/10.12660/rda.v214.1998.47294",
+        "doi": "10.12660/rda.v214.1998.47294",
+        "year": 1998,
+        "authors": [
+          "Caio Tácito"
+        ],
+        "venue": "Revista de Direito Administrativo",
+        "abstract": ".",
+        "pdf_url": "https://periodicos.fgv.br/rda/article/download/47294/45349",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.12660/rda.v214.1998.47294",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Fundacao Getulio Vargas"
+        }
+      },
+      {
+        "title": "Fíos Fóra: costura, precariedad y emancipación.: La paradoja de las mujeres en la industria textil gallega.",
+        "source": "crossref",
+        "url": "https://doi.org/10.24310/fotocinema.29.2024.19628",
+        "doi": "10.24310/fotocinema.29.2024.19628",
+        "year": 2024,
+        "authors": [
+          "Ana Pérez Valdés"
+        ],
+        "venue": "Fotocinema. Revista Científica de Cine y Fotografía",
+        "abstract": "La relación social y cultural de la mujer con la costura viene de muy atrás, también en el ámbito laboral. Economistas, sociólogos y feministas nos han dejado pruebas de lo que sucedía en talleres y fábricas anglosajonas del siglo XIX. Unos testimonios que, como veremos, podrían estar describiendo la situación en Galicia en el siglo XX o en Bangladés, Camboya o la India a día de hoy. Con este artículo queremos analizar el documental de 2015 Fíos Fóra. Historias de obreiras, entre costuras e patróns (Hilos Fuera. Historias de obreras, entre costuras y patrones) dirigido por el colectivo gallego Illa Bufarda. Esta película se inscribe dentro de una corriente que se aviva tras la crisis financiera de 2008 donde los directores ponen su mirada en las condiciones de trabajo de la clase obrera y reivindican el papel de las mujeres en la economía. Veremos cómo se aleja de las temáticas más habituales en el documental de moda y las diferencias que introduce en el tratamiento del tema.",
+        "pdf_url": "https://www.revistas.uma.es/index.php/fotocinema/article/download/19628/20323",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.24310/fotocinema.29.2024.19628",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Malaga University"
+        }
+      },
+      {
+        "title": "Concessão de Serviço Público - Responsabilidade trabalhista - Sucessão",
+        "source": "crossref",
+        "url": "https://doi.org/10.12660/rda.v242.2005.43101",
+        "doi": "10.12660/rda.v242.2005.43101",
+        "year": 2005,
+        "authors": [
+          "Caio Tacito"
+        ],
+        "venue": "Revista de Direito Administrativo",
+        "abstract": ".",
+        "pdf_url": "https://periodicos.fgv.br/rda/article/download/43101/44629",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.12660/rda.v242.2005.43101",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Fundacao Getulio Vargas"
+        }
+      },
+      {
+        "title": "Responsabilidade social na cadeia de fornecedores do varejo de vestuário de moda: estudo de múltiplos casos",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.100.2016.tde-26112016-204057",
+        "doi": "10.11606/d.100.2016.tde-26112016-204057",
+        "year": 2017,
+        "authors": [
+          "Rita de Cássia Lopes Moro"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.100.2016.tde-26112016-204057",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "NOVAS TECNOLOGIAS E RELAÇÕES DE TRABALHO: CYBERBULLYING, RESPONSABILIDADE PATRONAL E REFORMA TRABALHISTA",
+        "source": "crossref",
+        "url": "https://doi.org/10.5752/p.2236-0603.2019v9n17p22-39",
+        "doi": "10.5752/p.2236-0603.2019v9n17p22-39",
+        "year": 2019,
+        "authors": [
+          "Denise Pires Fincato"
+        ],
+        "venue": "Percurso Acadêmico",
+        "abstract": "A pesquisa enfrenta a temática do cyberbulling nas relações de trabalho, não sem antes superar a questão semântica de sua conceituação, partindo dos termos bullying e cyberbullying e chegando ao usualmente empregado nas relações laborais “assédio moral”e “assédio sexual”. Examina a Lei de “combate à intimidação sistemática” – Lei nº. 13.185/15, verificando sua aplicabilidade (e utilidade) no ambiente laboral – bem como o sistema de responsabilidade aplicado aos casos de assédio moral e sexual perpetrados em ambientes de trabalho. Por fim, investiga acerca da adequação da aplicação da Lei nº. 13.185/15 no cenário trabalhista, notadamente no que se refere à responsabilidade do empregador pela manutenção de ambiente laboral hígido e adequado, identificando hipóteses em que possa ser responsabilizado por danos aos trabalhadores, especialmente quando os atos de violência se derem em espaços virtuais, mas com reflexos concretos na saúde e psiquè dos trabalhadores. Por fim, enquadra a responsabilidade do empregador na nova moldura da responsabilidade civil do PLC 38/2017, abordando especiais detalhamentos.",
+        "pdf_url": "http://periodicos.pucminas.br/index.php/percursoacademico/article/viewFile/15402/14788",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5752/p.2236-0603.2019v9n17p22-39",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Pontificia Universidade Catolica de Minas Gerais"
+        }
+      },
+      {
+        "title": "A responsabilidade trabalhista da administração pública: propostas de parametrização do inciso V da Súmula n° 331 do Tribunal Superior do Trabalho",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.2.2016.tde-14102016-153250",
+        "doi": "10.11606/d.2.2016.tde-14102016-153250",
+        "year": 2017,
+        "authors": [
+          "Thiago Mendonça de Castro"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.2.2016.tde-14102016-153250",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Responsabilidade Patrimonial dos Sócios na Execução Trabalhista",
+        "source": "crossref",
+        "url": "https://doi.org/10.24067/rjfa7;7.1:144",
+        "doi": "10.24067/rjfa7;7.1:144",
+        "year": 2010,
+        "authors": [
+          "Lucas de Brandão e Mattos"
+        ],
+        "venue": "Revista Jurídica da FA7",
+        "abstract": "O estudo tem por finalidade discutir a responsabilidade dos sócios de sociedade empresarial pelos créditos trabalhistas buscados pelos obreiros da empresa perante a Justiça do Trabalho. Analisa-se a posição atual da doutrina e da jurisprudência sobre o tema, com ênfase na teoria da desconsideração da pessoa jurídica, no intuito de buscar fundamentação que demonstre a real resposta do ordenamento brasileiro ao tema.",
+        "pdf_url": "https://periodicos.uni7.edu.br/index.php/revistajuridica/article/download/144/166",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.24067/rjfa7;7.1:144",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Educadora Sete de Setembro"
+        }
+      },
+      {
+        "title": "As decisões do Tribunal Regional do Trabalho da 4ª Região atinentes a responsabilidade no limbo jurídico previdenciário e trabalhista",
+        "source": "crossref",
+        "url": "https://doi.org/10.46550/978-65-6135-113-3",
+        "doi": "10.46550/978-65-6135-113-3",
+        "year": 2025,
+        "authors": [
+          "Chaiana Ramos RODRIGUES",
+          "Suzéte da Silva REIS"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.46550/978-65-6135-113-3",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "Editora Ilustração"
+        }
+      },
+      {
+        "title": "FRAMEWORK PARA RESPONSABILIDADE SOCIAL CORPORATIVA VISANDO O DESENVOLVIMENTO DA ECONOMIA CIRCULAR SOB A PERSPECTIVA DA GESTãO DE CADEIA DE SUPRIMENTOS SUSTENTáVEIS",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.64112",
+        "doi": "10.17771/pucrio.acad.64112",
+        "year": 2023,
+        "authors": [
+          "BRUNA DA SILVA SANTIAGO"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.64112",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "O problema da atual demarcação dos limites da responsabilidade civil objetiva na esfera trabalhista",
+        "source": "crossref",
+        "url": "https://doi.org/10.70940/cej.2014.594",
+        "doi": "10.70940/cej.2014.594",
+        "year": 2025,
+        "authors": [
+          "Odete Carlin"
+        ],
+        "venue": "Cadernos da Escola Judicial do TRT4",
+        "abstract": "Preocupa-se, em primeiro lugar, em constatar e evidenciar a relevância atual da discussão dos limites da responsabilização objetiva, ainda que partindo sempre da premissa de que ela é, em si e na medida correta, um avanço civilizatório fundamental e uma necessidade imperiosa ainda nos dias de hoje. Depois, em segundo lugar, discutir se há como estabelecer alguns nortes legítimos (jurídicos e éticojurídicos) para a fixação de certos parâmetros ou limites de interpretação e aplicação da responsabilidade objetiva no campo do Direito do Trabalho, que possam trazer alguma sistematicidade e segurança na instrumentalização prática de regras como a do art. 927, parágrafo único, do Código Civil, quando do julgamento de lides trabalhistas, justamente a bem de preservar o instituto sob estudo em função de sua fundamental importância já reconhecida. Para tanto, então, o trabalho é dividido, adiante, em três itens, com os seguintes contornos e objetivos: em um primeiro momento, busca-se fazer brevíssima síntese sobre origem e estado atual da responsabilização civil objetiva na legislação nacional, assentando-se premissas sobre a importância atual deste instituto, mas também sobre os riscos decorrentes de sua interpretação defeituosa ou excessiva; num segundo momento, trata-se do problema propriamente dito da fixação de limites da responsabilidade objetiva, que pode levar, em pontos extremos, a posturas que oscilam entre a tolerância para com comportamentos negligentes, de um lado, e o excesso de responsabilização que descaracteriza a própria essência desta noção, de outro; num terceiro item, tenta-se fixar alguns parâmetros que ainda tenham raiz jurídica profunda para o trato da questão e encaminhamento deste problema a uma resolução. Finalmente, na conclusão deste paper, busca-se indicar se é possível construir um modo de abordar esta questão dos limites da responsabilidade objetiva no campo trabalhista, a partir da identificação de alguns parâmetros de aplicação das cláusulas gerais de responsabilização, que seja legítimo, consistente e útil para auxiliar na solução de certos casos-limite ou \"difíceis\", muito comuns no quotidiano atual das lides trabalhistas. Enfim, a proposta e o objetivo deste ensaio são no sentido de que se enfoque a discussão da responsabilidade objetiva na seara trabalhista sob a relevante questão de seus limites, com vistas ao início da construção de um instrumental teórico-prático apto a lidar com questões desta natureza, ditas difíceis, mas absolutamente corriqueiras na atual realidade forense trabalhista.",
+        "pdf_url": "https://periodicos.trt4.jus.br/cadernos/article/download/594/497",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.70940/cej.2014.594",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Tribunal Regional do Trabalho da 4a Região"
+        }
+      },
+      {
+        "title": "Diseño de un modelo del TPM y DMAIC para incrementar la disponibilidad de las máquinas del área de costura en una Mype Textil",
+        "source": "crossref",
+        "url": "https://doi.org/10.61210/rck.v1i1.27",
+        "doi": "10.61210/rck.v1i1.27",
+        "year": 2023,
+        "authors": [
+          "Dana Ccaccaicucho Guevara",
+          "Luis Giancarlo Tello Vilca",
+          "Grimaldo Wilfredo Quispe Santivañez"
+        ],
+        "venue": "KANYÚ",
+        "abstract": "En la actualidad, aumentar la eficiencia general de los equipos poniendo énfasis en la disponibilidad de las máquinas es fundamental para toda organización. En este sentido, el presente trabajo de investigación tiene como objetivo principal diseñar un modelo combinado del TPM y DMAIC para incrementar la disponibilidad de las máquinas del área de costura de una empresa mype en Lima en el año 2021.Se realizó el diagnóstico inicial de la empresa para identificar las causas principales de la baja disponibilidad, para lo cual se utilizaron herramientas de calidad como el diagrama de Ishikawa y el diagrama de Pareto. Asimismo, se calcularon indicadores iniciales que fueron el MTBF, MTTR y disponibilidad en base a los registros obtenidos de la pyme en estudio; los cuales tuvieron mejoras mediante la aplicación del TPM con DMAIC desarrollando un AMEF para identificar las piezas críticas de cada máquina y posteriormente, aplicar las 5s y desarrollar un cronograma de mantenimiento preventivo.Los resultados obtenidos fueron una disminución del 41% de elementos innecesarios en el área de confección mediante la aplicación de las 5s. Asimismo, el TPM junto al DMAIC lograron aumentar en un 1.3% la disponibilidad del mes de septiembre y un 2.4% en el mes de octubre con base a los meses respectivos del año 2019. En conclusión, el modelo combinado de TPM y DMAIC propicia a mejoras en la disponibilidad de los equipos en pymes de confección textil.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.61210/rck.v1i1.27",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidad Nacional Autonoma Altoandina De Tarma"
+        }
+      },
+      {
+        "title": "Gestão de operações e sustentabilidade: Um panorama da cadeia automotiva",
+        "source": "crossref",
+        "url": "https://doi.org/10.36229/978-65-5866-002-6.cap.09",
+        "doi": "10.36229/978-65-5866-002-6.cap.09",
+        "year": 2020,
+        "authors": [
+          "Maria Júlia de Oliveira Bergamasco",
+          "Marcos Ricardo Rosa Georges",
+          "Fabio Passarella"
+        ],
+        "venue": "Sustentabilidade e Responsabilidade Social em Foco – Volume 15",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.36229/978-65-5866-002-6.cap.09",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Editora Poisson"
+        }
+      }
+    ]
+  },
+  "count": 40,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:07:15.372995+00:00"
+}

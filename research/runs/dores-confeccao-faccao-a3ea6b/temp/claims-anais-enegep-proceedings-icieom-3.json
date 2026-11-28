@@ -1,0 +1,16 @@
+[
+  {
+    "claim": "Estudos de caso em pequenas e médias empresas (PMEs) têxteis demonstram que o Lean Manufacturing melhora significativamente os processos produtivos para enfrentar crises econômicas e pressões do fast fashion, mas as mesmas barreiras e facilitadores de implementação repetem-se entre as empresas.",
+    "stance": "supports",
+    "stance_target": "Barreiras recorrentes e benefícios do Lean Manufacturing em PMEs têxteis e de confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Revisão sistemática de 17 artigos sobre PMEs do setor têxtil (ENEGEP 2024)",
+    "quoted_support": "O presente trabalho descreve a metodologia utilizada para apresentar o resultado de uma revisão de literatura, com estudos de casos de pequenas e médias empresas do setor têxtil abordados em 17 artigos, de diversos países ao redor do mundo. As barreiras e facilitadores encontrados na implementação do Lean Manufacturing repetem-se entre as empresas estudadas, sugerindo a necessidade de estratégias específicas para contextos distintos.",
+    "numbers": ["17 artigos"],
+    "entities": ["UTFPR", "Universidade Estadual de Maringá", "ENEGEP 2024"],
+    "time_period": "2018-2024",
+    "region": "Brasil / Global",
+    "confidence": "high",
+    "source_note_id": "anais-enegep-proceedings-icieom-3"
+  }
+]

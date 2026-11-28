@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "Na validação de um sistema de geração automática de moldes paramétricos de produção para jaquetas femininas (baseado em circunferência do busto e estatura nos tamanhos 82-150, 85-155 e 88-160), o painel traseiro apresentou erro relativo máximo de 2,04% na pence, mas o painel frontal apresentou erros relativos de 5,08% a 14,71% nas posições do recorte princesa e da pence de design devido à maior curvatura do busto.",
+    "stance": "supports",
+    "stance_target": "limitações técnicas atuais da automação paramétrica de moldes em áreas de alta curvatura corporal e necessidade de revisão manual pela modelista",
+    "evidence_type": "empirical",
+    "scope_conditions": "Comparação por sobreposição entre moldes paramétricos gerados por fórmula e moldes graduados convencionalmente para jaquetas femininas na Coreia do Sul",
+    "quoted_support": "For the ratio values of the princess line dart and design dart on the front panel, relative errors ranging from 5.08% to 14.71% were observed, indicating their cause of deviations in the positions as illustrated in Fig. 9. Except for a maximum relative error of 2.04% in the back dart, no errors were observed, confirming that this production pattern drafting method could be applied accurately to back-panel drafting.",
+    "numbers": ["5.08% to 14.71%", "2.04%", "sizes 82-150, 85-155, 88-160"],
+    "entities": ["Size Korea"],
+    "time_period": "2025",
+    "region": "South Korea",
+    "confidence": "high",
+    "source_note_id": "development-of-a-parametric-production-jacket-pattern-for-an-automated-pattern-m"
+  },
+  {
+    "claim": "O processo de engenharia reversa e cálculo de fórmulas para geração paramétrica de moldes de produção ainda é mais complexo e demorado do que a modelagem manual tradicional, além de se restringir atualmente a elementos básicos (sem golas ou bolsos) e apresentar desvios em ângulos de ombro e cintura nos tamanhos extremos.",
+    "stance": "supports",
+    "stance_target": "complexidade operacional da automação de modelagem e insubstituibilidade do modelista em estruturas complexas de vestuário",
+    "evidence_type": "empirical",
+    "scope_conditions": "Desenvolvimento algorítmico de moldes prontos para produção de jaquetas (ready-to-wear)",
+    "quoted_support": "The complex pattern generation process demonstrated here includes formula calculations, which corresponds to the stage of developing foundational algorithms for producing various designs in the future. Currently, this process is more complex and time-consuming compared to manual processes.",
+    "numbers": ["3 size categories"],
+    "entities": ["CAD"],
+    "time_period": "2025",
+    "region": "South Korea",
+    "confidence": "high",
+    "source_note_id": "development-of-a-parametric-production-jacket-pattern-for-an-automated-pattern-m"
+  }
+]

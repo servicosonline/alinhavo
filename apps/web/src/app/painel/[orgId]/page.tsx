@@ -55,7 +55,7 @@ async function Org({ params }: { params: PageProps<"/painel/[orgId]">["params"] 
   const activity = canManage
     ? ((await supabase.from("activity_log").select("id, user_id, action, meta, created_at").eq("org_id", orgId).order("id", { ascending: false }).limit(10)).data ?? [])
     : [];
-  const emails = new Map(team.map((m) => [m.user_id, m.email]));
+  const people = new Map(team.map((m) => [m.user_id, m]));
 
   return (
     <div className="space-y-10">
@@ -140,7 +140,7 @@ async function Org({ params }: { params: PageProps<"/painel/[orgId]">["params"] 
               <ol className="space-y-3" data-atividade>
                 {activity.map((a) => (
                   <li key={a.id} className="border-l-2 border-tinta/10 pl-3 text-sm">
-                    <span className="font-medium">{activityWho(a.user_id, emails)}</span> {activityText(a.action, a.meta)}
+                    <span className="font-medium">{activityWho(a.user_id, people)}</span> {activityText(a.action, a.meta)}
                     <span className="block font-mono text-[11px] text-tinta-suave">{quando.format(new Date(a.created_at))}</span>
                   </li>
                 ))}

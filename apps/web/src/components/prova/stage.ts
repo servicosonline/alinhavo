@@ -1,4 +1,5 @@
 import * as THREE from "three";
+import type { Seat } from "@alinhavo/cloth";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { clampLook } from "@/lib/prova/camera";
 import { RoomEnvironment } from "three/examples/jsm/environments/RoomEnvironment.js";
@@ -246,6 +247,18 @@ export function bodyMesh(positions: Float32Array, indices: Uint32Array): THREE.M
   mesh.castShadow = true;
   mesh.receiveShadow = true;
   return mesh;
+}
+
+/** Malha do banco (pose sentada ou movimento de sentar), em mm. */
+export function seatMesh(seat: Seat): THREE.Mesh {
+  const box = new THREE.Mesh(
+    new THREE.BoxGeometry(seat.maxX - seat.minX, seat.top, seat.maxZ - seat.minZ),
+    new THREE.MeshStandardMaterial({ color: 0xb9a184, roughness: 0.7, metalness: 0 }),
+  );
+  box.position.set((seat.minX + seat.maxX) / 2, seat.top / 2, (seat.minZ + seat.maxZ) / 2);
+  box.castShadow = true;
+  box.receiveShadow = true;
+  return box;
 }
 
 /** Os triângulos de uma roupa do look (do `ProvaPart`) e o material dela. */

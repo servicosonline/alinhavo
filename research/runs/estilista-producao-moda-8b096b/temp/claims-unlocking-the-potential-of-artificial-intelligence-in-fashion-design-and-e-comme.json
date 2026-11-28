@@ -1,0 +1,121 @@
+[
+  {
+    "claim": "Na pesquisa-ação com o sistema Midjourney, os pesquisadores geraram 272 imagens digitais na fase inicial de geração de conceito, 244 imagens no desenvolvimento de design e aproximadamente 151 imagens na validação de produtos de cânhamo.",
+    "stance": "supports",
+    "stance_target": "O uso de IA generativa no design de moda exige alta experimentação iterativa e curadoria intensa do estilista",
+    "evidence_type": "empirical",
+    "scope_conditions": "Pesquisa-ação de três estágios em design de vestuário e acessórios usando Midjourney",
+    "quoted_support": "In the initial stage, 272 digital images were generated to facilitate the concept generation of fashion design. During the design development phase, a collection of 244 images was created. In the third stage of action research, approximately 151 fashion images were generated as outcomes.",
+    "numbers": [
+      "272 digital images",
+      "244 images",
+      "151 fashion images"
+    ],
+    "entities": [
+      "Midjourney",
+      "Yanbo Zhang",
+      "Chuanlan Liu",
+      "Louisiana State University"
+    ],
+    "time_period": "2023-2024",
+    "region": "Estados Unidos",
+    "confidence": "high",
+    "source_note_id": "unlocking-the-potential-of-artificial-intelligence-in-fashion-design-and-e-comme"
+  },
+  {
+    "claim": "O modo rápido (fast model) do Midjourney produziu cerca de 12 imagens digitais de moda em menos de 60 segundos a partir de prompts textuais detalhados, superando a velocidade dos softwares tradicionais de design.",
+    "stance": "supports",
+    "stance_target": "Sistemas de IA text-to-image aceleram drasticamente a fase inicial de ideação e experimentação visual do estilista",
+    "evidence_type": "empirical",
+    "scope_conditions": "Etapa de desenvolvimento de conceito de design de moda no Midjourney",
+    "quoted_support": "Our observation indicated that using this system’s fast model produced around 12 digital images in less than 60 s. This speed exceeds that of existing design software, highlighting the significant impact of AI image-generation systems, as emphasized in recent research [1,2,10].",
+    "numbers": [
+      "12 digital images",
+      "60 s"
+    ],
+    "entities": [
+      "Midjourney"
+    ],
+    "time_period": "2023-2024",
+    "region": "Estados Unidos",
+    "confidence": "high",
+    "source_note_id": "unlocking-the-potential-of-artificial-intelligence-in-fashion-design-and-e-comme"
+  },
+  {
+    "claim": "O Midjourney apresenta limitações técnicas críticas para o desenvolvimento técnico de vestuário: não garante precisão fiel às descrições de tecido e silhueta, tem dificuldade em manter alta consistência entre variações e falha em gerar vistas traseiras ou diferentes ângulos solicitados nos prompts.",
+    "stance": "supports",
+    "stance_target": "Ferramentas de IA generativa de imagem ainda não substituem o desenho técnico, a ficha técnica ou a modelagem por falharem em fidelidade estrutural e múltiplos ângulos (frente/costas)",
+    "evidence_type": "empirical",
+    "scope_conditions": "Desenvolvimento de produto de moda assistido por IA generativa (Midjourney)",
+    "quoted_support": "First, the accuracy of fashion image outcomes cannot be guaranteed by Midjourney. For instance, it struggles to generate digital images precisely aligned with the fabric and silhouette descriptions provided as input. Second, while a certain degree of similarity among outputs can be achieved using specific parameters, attaining a high level of consistency remains challenging. Third, Midjourney cannot consistently provide fashion images from different angles as requested in the input prompts. For example, the requested back view of the fashion design may not be obtained.",
+    "numbers": [],
+    "entities": [
+      "Midjourney"
+    ],
+    "time_period": "2023-2024",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "unlocking-the-potential-of-artificial-intelligence-in-fashion-design-and-e-comme"
+  },
+  {
+    "claim": "Por não possuir função de edição automática de detalhes nas imagens geradas, o Midjourney exige que o estilista realize ajustes manuais em outros softwares de design, restringindo sua eficácia prática apenas aos estágios iniciais do design de moda.",
+    "stance": "supports",
+    "stance_target": "A adoção de IA generativa no estilo exige retrabalho manual em softwares CAD/gráficos tradicionais e atuação intensa do designer como curador",
+    "evidence_type": "empirical",
+    "scope_conditions": "Fluxo de trabalho de design de vestuário com Midjourney",
+    "quoted_support": "Fourth, Midjourney cannot automatically edit the details of the output images, necessitating manual adjustments using other design software to fine-tune the design specifics. Overall, considering these limitations, it appears that AI image-to-text generation systems like Midjourney may effectively support only the early stages of fashion design at present.",
+    "numbers": [],
+    "entities": [
+      "Midjourney"
+    ],
+    "time_period": "2023-2024",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "unlocking-the-potential-of-artificial-intelligence-in-fashion-design-and-e-comme"
+  },
+  {
+    "claim": "Na avaliação quantitativa com 174 consumidores universitários (escala Likert de 1 a 7), os designs de moda de cânhamo gerados no Midjourney obtiveram médias positivas em atitude geral (5,78), percepção estética (5,27), percepção funcional (5,05) e percepção expressiva (5,00), explicando quase 40% da variância na atitude (F(3, 170) = 37,86, p < 0,001).",
+    "stance": "supports",
+    "stance_target": "Conceitos de vestuário gerados com auxílio de IA baseados no modelo FEA atendem às expectativas funcionais, expressivas e estéticas dos consumidores",
+    "evidence_type": "empirical",
+    "scope_conditions": "Survey online com 174 estudantes universitários nos EUA avaliando vestuário casual e bolsas de cânhamo gerados no Midjourney",
+    "quoted_support": "Attitude received the highest mean score (5.78), followed by aesthetic perception (5.27), functional perception (5.05), and expressive perception (5.00). The multiple regression analysis revealed a statistically significant effect of the combination of the three perceptions on overall attitude, F (3, 170) = 37.86, p < 0.001. The R2 value indicated that these perceptions account for almost 40% of the variation in attitude.",
+    "numbers": [
+      "174",
+      "5.78",
+      "5.27",
+      "5.05",
+      "5.00",
+      "F (3, 170) = 37.86",
+      "p < 0.001",
+      "40%",
+      "β = 0.31",
+      "β = 0.28"
+    ],
+    "entities": [
+      "Midjourney",
+      "FEA Consumer Needs Model"
+    ],
+    "time_period": "2023-2024",
+    "region": "Estados Unidos",
+    "confidence": "high",
+    "source_note_id": "unlocking-the-potential-of-artificial-intelligence-in-fashion-design-and-e-comme"
+  },
+  {
+    "claim": "Os principais desafios éticos e jurídicos no uso de geradores de imagem por IA no design de moda concentram-se em evitar materiais de design protegidos por direitos autorais nos dados de treinamento e garantir proteção legal de propriedade intelectual às criações assistidas por IA.",
+    "stance": "supports",
+    "stance_target": "Riscos de direitos autorais e propriedade intelectual são barreiras para o uso comercial de IA generativa por estilistas",
+    "evidence_type": "empirical",
+    "scope_conditions": "Aplicação comercial de IA generativa na indústria da moda",
+    "quoted_support": "Currently, the main ethical challenges in using AI image-generation tools center on two aspects: avoiding copyrighted design materials in AI training data and ensuring legal and fair protection of intellectual property in AI-assisted creative design [42].",
+    "numbers": [],
+    "entities": [
+      "Midjourney",
+      "Marc Bain"
+    ],
+    "time_period": "2023-2024",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "unlocking-the-potential-of-artificial-intelligence-in-fashion-design-and-e-comme"
+  }
+]

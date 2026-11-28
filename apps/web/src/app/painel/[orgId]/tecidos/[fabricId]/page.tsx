@@ -27,7 +27,7 @@ async function Tecido({ params }: { params: Params }) {
   const [fabricRes, role, plan] = await Promise.all([
     supabase
       .from("fabrics")
-      .select("id, name, composition, width_mm, weight_gsm, price_cents, preset, stretch_pct, drape, thickness_mm, texture, texture_cm")
+      .select("id, name, composition, width_mm, weight_gsm, price_cents, price_per_kg_cents, shrinkage_warp_pct, shrinkage_weft_pct, preset, stretch_pct, drape, thickness_mm, texture, texture_cm")
       .eq("id", fabricId)
       .eq("org_id", orgId)
       .maybeSingle(),

@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "Micro e pequenas empresas (MPEs) do setor de vestuário apresentam lacunas no gerenciamento estratégico por indicadores e deixam de analisar dados essenciais para a gestão do negócio.",
+    "stance": "supports",
+    "stance_target": "deficiência de controle gerencial e uso de indicadores de desempenho em MPEs de vestuário",
+    "evidence_type": "empirical",
+    "scope_conditions": "11 micro e pequenas empresas de vestuário do Seridó/RN e outras regiões participantes do programa Brasil Mais, avaliadas em 6 dimensões",
+    "quoted_support": "Os proventos da pesquisa demonstraram um progresso no uso de indicadores de quando o primeiro radar foi aplicado, bem como aqueles dados que as empresas varejistas não tem se atentado para analisar. De forma conclusiva, apresenta que houve evolução positiva, bem como, que parte da amostra ainda possui lacunas no gerenciamento estratégico por indicadores.",
+    "numbers": ["11 empresas", "6 dimensões"],
+    "entities": ["Universidade Federal do Tocantins", "Programa Brasil Mais", "Seridó/RN"],
+    "time_period": "2023",
+    "region": "Seridó, Rio Grande do Norte, Brasil",
+    "confidence": "high",
+    "source_note_id": "periódicos-uft-desafios-revista-interdisciplinar-da-universidade-federal-do-toca"
+  },
+  {
+    "claim": "O acompanhamento técnico em programas de produtividade como o Brasil Mais promove evolução positiva na maturidade de gestão por indicadores em micro e pequenas empresas de vestuário.",
+    "stance": "supports",
+    "stance_target": "impacto de programas de apoio gerencial na maturidade administrativa de pequenas empresas de vestuário",
+    "evidence_type": "empirical",
+    "scope_conditions": "11 MPEs de vestuário no Seridó/RN avaliadas em dois momentos distintos",
+    "quoted_support": "Os resultados foram obtidos por meio de diagnóstico em dois momentos distintos, via questionário, um radar que exprime a maturidade da empresa em 6 dimensões aplicados em 11 empresas. Neste contexto, a pesquisa exploratória observacional reforça a relevância do uso de mecanismos para dar suporte à administração empresarial com foco em gestão estratégica para melhoria dos resultados e sustentabilidade dos negócios.",
+    "numbers": ["11 empresas", "6 dimensões", "2 momentos"],
+    "entities": ["Programa Brasil Mais", "Seridó/RN"],
+    "time_period": "2023",
+    "region": "Seridó, Rio Grande do Norte, Brasil",
+    "confidence": "high",
+    "source_note_id": "periódicos-uft-desafios-revista-interdisciplinar-da-universidade-federal-do-toca"
+  }
+]

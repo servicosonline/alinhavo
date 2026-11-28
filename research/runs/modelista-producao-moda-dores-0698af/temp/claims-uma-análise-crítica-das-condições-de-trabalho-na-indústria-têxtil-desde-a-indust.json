@@ -1,0 +1,16 @@
+[
+  {
+    "claim": "Apesar da existência de normas ergonômicas voltadas a adaptar o trabalho ao ser humano e proteger a integridade do trabalhador, a indústria de confecção do vestuário ainda apresenta problemas crônicos de jornadas exaustivas, remuneração baixa e ambientes de trabalho insalubres.",
+    "stance": "supports",
+    "stance_target": "precariedade ergonômica e pressões laborais enfrentadas por profissionais na indústria de confecção do vestuário",
+    "evidence_type": "historical",
+    "scope_conditions": "Indústria têxtil e de confecção do vestuário",
+    "quoted_support": "Atualmente, através da Ergonomia, que adapta o trabalho ao homem, há uma série de normas para garantir a integridade do trabalhador. Entretanto, ainda hoje existem empresas que utilizam mão de obra infantil, jornadas exaustivas, pagamentos irrisórios e ambientes insalubres. Esse artigo apresenta uma visão crítica acerca das condições de trabalho especialmente na confecção do vestuário na atualidade.",
+    "numbers": [],
+    "entities": ["Tatiana Castro Longhi", "Flávio Anthero Nunes Vianna dos Santos", "UDESC", "Human Factors in Design"],
+    "time_period": "2016",
+    "region": "Santa Catarina, Brasil",
+    "confidence": "medium",
+    "source_note_id": "uma-análise-crítica-das-condições-de-trabalho-na-indústria-têxtil-desde-a-indust"
+  }
+]

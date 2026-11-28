@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "A norma ABNT NBR 13377:1995 não foi construída a partir de um levantamento antropométrico da população brasileira, mas de um consenso entre representantes da cadeia têxtil e de confecção.",
+    "stance": "supports",
+    "stance_target": "Inadequação histórica das tabelas ABNT por falta de base antropométrica empírica",
+    "evidence_type": "historical",
+    "scope_conditions": "Indústria brasileira de confecção do vestuário; vigência da NBR 13377 (1995-2012)",
+    "quoted_support": "De acordo com Sabrá, Santos e Dinis (2008), a norma NBR13377 não é resultado de um estudo antropométrico, mas de um acordo realizado entre representantes da cadeia têxtil e de confecção nacional.",
+    "numbers": [
+      "1995",
+      "2008",
+      "13377"
+    ],
+    "entities": [
+      "ABNT",
+      "NBR 13377",
+      "Sabrá, Santos e Dinis"
+    ],
+    "time_period": "1995-2012",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "m-o-d-a-p-a-l-a-v-r-a-e-p-e-r-i-ó-d-i-c-o-2"
+  },
+  {
+    "claim": "As normas ABNT NBR 15800 (vestuário infantil, com 53 participantes) e NBR 16060 (vestuário masculino, com 21 participantes) carecem de metodologia de medição antropométrica consistente quando comparadas ao estudo SizeBR do SENAI/CETIQT.",
+    "stance": "supports",
+    "stance_target": "Fragilidade metodológica das normas ABNT frente a levantamentos antropométricos tridimensionais",
+    "evidence_type": "empirical",
+    "scope_conditions": "Normalização do vestuário infantil e masculino no Brasil",
+    "quoted_support": "Com base na proposta de projeto que originou as normas de vestuário da ABNT, mais especificamente a NBR15800 e NBR16060, pode-se perceber uma limitação da pesquisa por não abordar uma metodologia de medição antropométrica consistente, diferente do projeto que está em desenvolvimento pelo SENAI/CETIQT.",
+    "numbers": [
+      "53 pessoas",
+      "21 participantes",
+      "NBR 15800",
+      "NBR 16060"
+    ],
+    "entities": [
+      "ABNT",
+      "ABIT",
+      "ABRAVEST",
+      "Draft Manequins Industriais",
+      "SENAI/CETIQT"
+    ],
+    "time_period": "2009-2017",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "m-o-d-a-p-a-l-a-v-r-a-e-p-e-r-i-ó-d-i-c-o-2"
+  },
+  {
+    "claim": "A adesão das confecções brasileiras às tabelas da ABNT é baixa porque a adoção das normas é facultativa e cada marca estabelece suas próprias medidas e gradações para seu nicho.",
+    "stance": "supports",
+    "stance_target": "Predominância de tabelas próprias sobre normas ABNT nas confecções brasileiras",
+    "evidence_type": "empirical",
+    "scope_conditions": "Mercado brasileiro de vestuário",
+    "quoted_support": "O projeto da NBR15800 (REVISTA ÉPOCA, 2011), por sua vez, apresenta uma tabela com o nome de 53 pessoas e as instituições às quais elas estão vinculadas, e são principalmente as empresas do setor de confecção que fazem parte desse projeto, contando ainda com a participação de membros da ABNT, ABIT, ABRAVEST e da Draft Manequins Industriais.",
+    "numbers": [
+      "53 pessoas",
+      "54 parâmetros (NBR 15127:2004)"
+    ],
+    "entities": [
+      "ABNT",
+      "NBR 15800",
+      "NBR 15127",
+      "Chicleteria",
+      "YKZ Moda Infantil"
+    ],
+    "time_period": "2004-2017",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "m-o-d-a-p-a-l-a-v-r-a-e-p-e-r-i-ó-d-i-c-o-2"
+  }
+]

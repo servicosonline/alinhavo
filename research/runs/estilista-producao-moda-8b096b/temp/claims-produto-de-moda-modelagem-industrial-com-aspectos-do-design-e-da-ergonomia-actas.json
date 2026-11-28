@@ -1,0 +1,34 @@
+[
+  {
+    "claim": "# Produto de moda: modelagem industrial com aspectos do design e da ergonomia O presente artigo enfatiza a importância da modelagem industrial, elemento da engrenagem de produção de roupas.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Produto de moda: modelagem industrial com aspectos do design e da ergonomia\n\t\t\t\t\t\t\t| Actas de Diseño",
+    "quoted_support": "# Produto de moda: modelagem industrial com aspectos do design e da ergonomia O presente artigo enfatiza a importância da modelagem industrial, elemento da engrenagem de produção de roupas.",
+    "numbers": [],
+    "entities": [
+      "Produto de moda: modelagem industrial com aspectos do design e da ergonomia\n\t\t\t\t"
+    ],
+    "time_period": "2016-2026",
+    "region": "Internacional",
+    "confidence": "medium",
+    "source_note_id": "produto-de-moda-modelagem-industrial-com-aspectos-do-design-e-da-ergonomia-actas"
+  },
+  {
+    "claim": "Com enfoque bibliográfico sinaliza a importância de utilizar princípios científicos, informação, técnica, design e criatividade no desenvolvimento de produto de moda do vestuário, vislumbrando ocupar melhor posicionamento no mercado.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Produto de moda: modelagem industrial com aspectos do design e da ergonomia\n\t\t\t\t\t\t\t| Actas de Diseño",
+    "quoted_support": "Com enfoque bibliográfico sinaliza a importância de utilizar princípios científicos, informação, técnica, design e criatividade no desenvolvimento de produto de moda do vestuário, vislumbrando ocupar melhor posicionamento no mercado.",
+    "numbers": [],
+    "entities": [
+      "Produto de moda: modelagem industrial com aspectos do design e da ergonomia\n\t\t\t\t"
+    ],
+    "time_period": "2016-2026",
+    "region": "Internacional",
+    "confidence": "medium",
+    "source_note_id": "produto-de-moda-modelagem-industrial-com-aspectos-do-design-e-da-ergonomia-actas"
+  }
+]

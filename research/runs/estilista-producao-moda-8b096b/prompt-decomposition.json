@@ -1,0 +1,33 @@
+{
+  "sub_questions": [
+    "Quais são as responsabilidades de uma estilista (designer de moda) num processo de produção de moda?",
+    "Quais tarefas a estilista executa em cada etapa do desenvolvimento de coleção, da pesquisa à produção?",
+    "Com quais funções a estilista interage (modelagem, pilotagem, facção, produto, comercial, fornecedores) e como?",
+    "Quais são as dores da estilista nesse processo?"
+  ],
+  "entities": [
+    {"name": "estilista", "type": "role", "required_fields": ["responsabilidades", "tarefas por etapa", "dores"]}
+  ],
+  "required_formats": [],
+  "required_sections": [],
+  "required_section_headings": [
+    "## 1. Papel e Responsabilidades da Estilista na Produção de Moda",
+    "## 2. Tarefas por Etapa do Processo de Produção",
+    "## 3. Interfaces com Outras Funções do Processo",
+    "## 4. Dores da Estilista no Processo",
+    "## 5. Síntese: Dores Críticas e Oportunidades"
+  ],
+  "time_horizons": [],
+  "time_periods": [],
+  "scope_conditions": ["moda e vestuário; mercado brasileiro preferencial, com fontes internacionais como apoio"],
+  "pipeline_tier": "full",
+  "response_format": "structured",
+  "citation_style": "wikilink",
+  "levers": {
+    "register": "survey",
+    "register_confidence": "high",
+    "domain_notes": "Fontes: SEBRAE, SENAI/CETIQT, ABIT, pesquisas acadêmicas em design de moda e gestão de desenvolvimento de produto, e relatos de profissionais. Evidência forte é estudo ou entrevista com estilistas; blog genérico é fraco. Janela de recência: 5 anos, exceto textos fundadores do processo.",
+    "inference_depth": "standard",
+    "rationale": {"register": "pergunta enumerativa (quais são as responsabilidades, tarefas e dores), sem pedido de veredito", "inference_depth": "literatura aberta e acessível; reavaliar na análise de loci"}
+  }
+}

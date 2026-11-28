@@ -1,0 +1,643 @@
+{
+  "ok": true,
+  "data": {
+    "query": "pilotagem prototipagem vestuario confeccao problemas retrabalho",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 6,
+      "crossref": 25,
+      "doab": 0
+    },
+    "raw_records": 31,
+    "merged_records": 30,
+    "returned": 30,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Modelagem através do CLO3D : redução de custos no processo de pilotagem e produção têxtil",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/003273578",
+        "doi": "10.11606/003273578",
+        "year": 2022,
+        "authors": [
+          "Barbara Baptista Navarra"
+        ],
+        "venue": null,
+        "abstract": "Durante o processo de desenvolvimento do produto, o estilista pode realizar alterações no modelo, o que gera o desenvolvimento de várias peças pilotos - protótipos, confeccionadas a partir do desenho enviado pela estilista. O processo de repilotagem não só causa desperdício têxtil, mas também causa atrasos nos processos de desenvolvimento da coleção. Nesse contexto é inserido o software CLO3D, utilizado por profissionais de moda para desenvolver o design, modelagem, ajustes e modificações do produto. O seguinte trabalho objetiva avaliar determinados aspectos do processo de produção de vestuário, tendo como objeto de estudo uma empresa paulista de Private Label, através da modelagem manual (moulage e plana) e, posteriormente, modelagem no Audaces. A partir dessa avaliação, será realizado uma análise de três modelos produzidos pela empresa, realizando o mesmo processo através do software CLO3D, comparando o consumo e resíduos gerados pelas duas formas de modelar.",
+        "pdf_url": "https://bdta.abcd.usp.br/directbitstream/2fa50599-945d-4c8d-b097-3eb7951a1672/Te0086-Navarra.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7204466171",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais",
+          "openalex_type": "dissertation",
+          "oa_status": "gold",
+          "also_in": "openalex,crossref"
+        }
+      },
+      {
+        "title": "Diretrizes para a normalização de desenhos técnicos do vestuário para o segmento de malharia circular",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/96393",
+        "doi": null,
+        "year": 2013,
+        "authors": [
+          "Renata Lodi"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "Esta dissertação trata do tema desenho técnico do vestuário. O objetivo deste trabalho foi sistematizar diretrizes para a representação gráfica técnica de acabamentos, detalhes, linhas e cotas em produtos do vestuário do segmento de malharia circular com vistas à sua normalização. A pesquisa foi classificada como aplicada, qualitativa e exploratória. A coleta de dados ocorreu por meio de entrevistas semiestruturadas e coleta documental realizadas de forma presencial e por meio eletrônico (e-mail). Os participantes foram sete docentes de disciplinas de desenho técnico que atuam em instituições de ensino superior que possuem cursos de moda em nível bacharelado e, oito profissionais do desenvolvimento de produto de empresas de confecção do vestuário que trabalham com malha circular. Com isso, foi possível diagnosticar como é feita a representação de desenhos técnicos do vestuário nestes dois ambientes, o acadêmico e o industrial, localizados em diferentes regiões brasileiras. Os resultados das entrevistas foram apresentados através de quadros comparativos com cruzamento dos dados coletados. Como resultado, apresentam-se diretrizes para a construção do desenho e representação de cores, linhas, cotas/medidas. Outro produto deste trabalho é um catálogo dos principais acabamentos e detalhes utilizados em malha circular com descrições, imagens e representações técnicas dos mesmos.",
+        "pdf_url": "https://lume.ufrgs.br/bitstream/10183/96393/1/000915079.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2292580252",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Proposta de um modelo de referência para o processo de desenvolvimento de produto do vestuário",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/606",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Isabel Cristina Moretti"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "O processo de desenvolvimento de produto do vestuário (PDPV) sofre influência da moda, esse fator confere a esse processo dinamismo e exige rapidez durante o desenvolvimento. As empresas desenvolvem seus produtos em linhas sazonais (coleções) em vez de produtos individuais, com uma grande quantidade de produtos por coleção e várias coleções ao ano. Consequentemente apresentam um curto período de tempo para o desenvolvimento de cada coleção. Neste sentido, a adoção de estruturas organizacionais adequadas e de boas práticas para o PDP, pode ajudar a melhorar o desempenho desse processo na indústria de confecção, que é essencial para a competitividade das empresas. Por meio da utilização de modelo de referência a empresa pode criar sua própria estrutura para a realização das atividades, de modo que o modelo se adapte a realidade da empresa, e ao mesmo tempo sistematize as atividades e estruture o processo. O objetivo desse trabalho foi propor um modelo de referência específico para a indústria do vestuário, adaptado as suas características. Este pode ser um caminho para estas empresas estruturarem seu PDP, aumentando o desempenho do processo e consequentemente dessas empresas no mercado. A abordagem do problema foi qualitativa e o desenvolvimento do modelo foi por meio de revisão de literatura e pesquisa de campo. A coleta de dados foi realizada por meio de entrevistas com empresas, profissionais e professores da área de PDPV. O objetivo das entrevistas foi de mapear o PDP nestas áreas. A construção do modelo foi feita em três etapas. A primeira etapa foi de construção de uma representação teórica, ou seja, um modelo teórico desenvolvido por meio da comparação de um modelo de referência genérico e modelos específicos para o vestuário. A segunda etapa foi de comparação do mapeamento das entrevistas com a representação teórica, confrontando a teoria e a prática. A terceira etapa foi o desenvolvimento do modelo propriamente dito. O modelo está desmembrado em macro-fases, fases e atividades. Cada fase foi detalhada com o fluxo de atividades e seus responsáveis, além das entradas e saídas de documentos e informações. O desenvolvimento do modelo de referência proposto vem de encontro com essas informações levantadas na literatura e nas entrevistas. Logo, pode estar contribuindo para a estruturação do processo no âmbito industrial e pesquisas na área de desenvolvimento de produto do vestuário, no âmbito acadêmico. O modelo de referência para o PDPV é uma junção de boas práticas que podem ser utilizadas em sua totalidade para estruturar com flexibilidade o PDP, ou ser utilizado parcialmente por meio de uma adaptação, ajustando-se à realidade a qual será utilizado.",
+        "pdf_url": null,
+        "citation_count": 8,
+        "work_type": "thesis",
+        "identifier": "W2258493215",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Proposta de um modelo de projeto integrado para a indústria têxtil e de confecção",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/77660",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Samira Moraes Troncoso Kroeff"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "O contexto econômico e político da indústria Têxtil e de Confecção nacional mostra que há uma constante preocupação em relação aos sucessivos déficits da balança comercial nos últimos anos. Diante deste cenário, a presente pesquisa busca responder como a sistematização e a integração do processo de projeto e de produção pode contribuir para a melhoria do processo de desenvolvimento de produto de moda? E tem por objetivo propor um modelo de referência de desenvolvimento de produtos baseado na integração e na sistematização que possa ser aplicado na indústria de confecção da área da moda, indicando as atividades e tarefas que a empresa deve seguir. Desta maneira, é investigado o estado da arte dos modelos de projeto de moda, a fim de identificar as diretivas que foram utilizadas na elaboração do modelo proposto. Utilizando-se da estrutura do modelo de projeto integrado PRODIP para nortear a proposta, desenvolveu-se o modelo MODIP (Desenvolvimento Integrado de Produtos em Moda) e através de um modelo de estruturação do PDP é analisada a situação atual do desenvolvimento de produtos de uma microempresa de confecção de vestuário, identificando os pontos críticos e sugerindo soluções viáveis de implementação do MODIP e conclui-se que a sistematização proposta pode contribuir para a organização do PDP de uma empresa.",
+        "pdf_url": "https://lume.ufrgs.br/bitstream/10183/77660/1/000896483.pdf",
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W13489773",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "O design na indústria da moda no Brasil no século XXI: uma proposta de design colaborativo",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.100.2017.tde-30102017-171831",
+        "doi": "10.11606/d.100.2017.tde-30102017-171831",
+        "year": 2017,
+        "authors": [
+          "Giselle da Costa Araújo"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This study is based in the actual experience of the author in the fashion market and refers to historical elements of the Brazilian Textile and Clothing industry. The impact of the globalized moment on the intricated context of Brazils contemporary fashion is approached in an exploratory manner through the point of view of a textile engineer and fashion designer. The dilemma faced by young designers when practicing design and their relationships with peers is discussed with the aim of introducing best practices inside the Apparel Industry of Brazil. It is relevant to discuss the role of the fashion designer as well as to investigate the product development processes in the Brazilian companies to stimulate dialogues between the different actors involved in the product development cycle, from concept to execution. The study proposes an integrated and interdisciplinary method of user centered design by means of collaborative platforms of Product Lifecycle Management (PLM) in Change Management Projects for Brazilian Apparel Industries",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/100/100133/tde-30102017-171831/publico/GISELLE_ARAUJO_DESIGN_COLABORATIVO.pdf",
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W2767234105",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Pesquisas em design, gestão e tecnologia de têxtil e moda: 2º semestre de 2014",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/9788564842243",
+        "doi": "10.11606/9788564842243",
+        "year": 2023,
+        "authors": [
+          "Isabel Cristina Italiano",
+          "João Paulo Marcicano",
+          "Júlia Baruque-Ramos",
+          "Maria Sílvia Barros de Held",
+          "Regina Aparecida Sanches"
+        ],
+        "venue": "Universidade de São Paulo. Escola de Artes, Ciências e Humanidades eBooks",
+        "abstract": "Este livro trata de pesquisas e metodologias de projeto para o design de moda.",
+        "pdf_url": "https://www.livrosabertos.sibi.usp.br/portaldelivrosUSP/catalog/download/72/63/304",
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "W2477801527",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Reglas de origen y desviación de comercio: la rama textil-vestuario del TLCAN",
+        "source": "crossref",
+        "url": "https://doi.org/10.22201/iiec.20078951e.2002.128.7425",
+        "doi": "10.22201/iiec.20078951e.2002.128.7425",
+        "year": 2009,
+        "authors": [
+          "GERMÁN A. DE LA REZA"
+        ],
+        "venue": "Problemas del Desarrollo. Revista Latinoamericana de Economía",
+        "abstract": "El presente artículo estudia la protección originaria en el sector de textiles y vestimenta del TLCAN. Su principal propósito es la identificación de los efectos heterodoxos de las reglas de origen estrictas y de sus diferencias con la protección arancelaria. Las conclusiones del trabajo señalan la necesidad de establecer una distinción analítica entre la desviación de comercio y los efectos anticompetitivos, considerados equivalentes conceptuales en la teoría tradicional del comercio.",
+        "pdf_url": "http://www.revistas.unam.mx/index.php/pde/article/viewFile/7425/6920",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.22201/iiec.20078951e.2002.128.7425",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidad Nacional Autonoma de Mexico"
+        }
+      },
+      {
+        "title": "Prototipagem Virtual: Softwares 3D para Modelagem de Vestuário",
+        "source": "crossref",
+        "url": "https://doi.org/10.5433/2236-2207.2024.v15.n3.50575",
+        "doi": "10.5433/2236-2207.2024.v15.n3.50575",
+        "year": 2024,
+        "authors": [
+          "Silvia Cristina Silveira dos Santos",
+          "Icléia Silveira",
+          "Sandra Regina Rech"
+        ],
+        "venue": "Projetica",
+        "abstract": "O objetivo desta pesquisa foi elencar softwares 3D aplicados ao desenvolvimento de modelagem do vestuário, prototipagem virtual e geração de moldes para uso na indústria de vestuário. Para isso foi feita uma pesquisa básica, com abordagem qualitativa e descritivo. Foi utilizada a revisão teórica de literatura por meio de artigos científico, livros, relatório de tendências, sites de empresas de tecnologia e dissertações. Como resultado foi listado os softwares de modelagem 3D, sites de lojas de ativos digitais para softwares de assim como alguns softwares de modelagem 2D de código aberto. Constatou-se que a indústria de vestuário está iniciando a transição para às tecnologias digitais e os profissionais de desenvolvimento de produto precisam de novas habilidades e novas competências.",
+        "pdf_url": "https://ojs.uel.br/revistas/uel/index.php/projetica/article/download/50575/51429",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5433/2236-2207.2024.v15.n3.50575",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Estadual de Londrina"
+        }
+      },
+      {
+        "title": "Robótica e Prototipagem para Professores: uma proposta com Ensino por Investigação e Resolução de Problemas",
+        "source": "crossref",
+        "url": "https://doi.org/10.5753/educomp_estendido.2025.6556",
+        "doi": "10.5753/educomp_estendido.2025.6556",
+        "year": 2025,
+        "authors": [
+          "Daniel Moreira dos Santos",
+          "Márcia Gonçalves de Oliveira"
+        ],
+        "venue": "Anais Estendidos do V Simpósio Brasileiro de Educação em Computação (EduComp 2025)",
+        "abstract": "Este trabalho traz o delineamento de uma formação em Robótica Educacional (RE) para professores do Ensino Fundamental, utilizando o Ensino por Investigação e a Resolução de Problemas como abordagem didática. Trata-se do Produto Educacional de uma tese de doutorado profissional em Educação em Ciências e Matemática. O Produto Educacional é composto por um curso híbrido, em formato MOOC (Massive Open Online Course) e presencial, e pela promoção de um Grupo de Estudos para os egressos. O lançamento público do MOOC possibilitará futuras replicações do curso de Robótica Educacional em diferentes contextos e o Grupo de Estudos possibilitará o apoio coletivo às práticas com Robótica Educacional.",
+        "pdf_url": "https://sol.sbc.org.br/index.php/educomp_estendido/article/download/34919/34710",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.5753/educomp_estendido.2025.6556",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Sociedade Brasileira de Computação"
+        }
+      },
+      {
+        "title": "Básico de Eletrônica - Prototipagem",
+        "source": "crossref",
+        "url": "https://doi.org/10.37423/2026.edcl1361",
+        "doi": "10.37423/2026.edcl1361",
+        "year": 2026,
+        "authors": [
+          "Roger Oliva Felix",
+          "Takechi Koizume Filho"
+        ],
+        "venue": "Básico de Eletrônica - Prototipagem",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.37423/2026.edcl1361",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "Editora Conhecimento Livre"
+        }
+      },
+      {
+        "title": "Pilotagem automática de embarcações com emprego de controle estocástico.",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.3.2017.tde-05122017-093052",
+        "doi": "10.11606/d.3.2017.tde-05122017-093052",
+        "year": 2018,
+        "authors": [
+          "José Jaime da Cruz"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.3.2017.tde-05122017-093052",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Vestuario Para La Escena 2022, curated by Edyta Rzewuska and Jerildy Bosch, Vestuario a Escena MX",
+        "source": "crossref",
+        "url": "https://doi.org/10.1386/scp_00090_5",
+        "doi": "10.1386/scp_00090_5",
+        "year": 2023,
+        "authors": [
+          "Zuzu Hudek"
+        ],
+        "venue": "Studies in Costume &amp; Performance",
+        "abstract": "Review of: Vestuario Para La Escena 2022, curated by Edyta Rzewuska and Jerildy Bosch, Vestuario a Escena MX National Centre for the Arts (CENART), Mexico City, 12 May–3 July 2022",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.1386/scp_00090_5",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Intellect"
+        }
+      },
+      {
+        "title": "O simbolismo do vestuario em Machado de Assis",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2008.421628",
+        "doi": "10.47749/t/unicamp.2008.421628",
+        "year": 2021,
+        "authors": [
+          "Susana Coutinho de Souza"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2008.421628",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Paruma: vestuario tradicional del pueblo indígena embera",
+        "source": "crossref",
+        "url": "https://doi.org/10.29097/9789585303096",
+        "doi": "10.29097/9789585303096",
+        "year": 2022,
+        "authors": [
+          "Pastora Chasoy Agreda"
+        ],
+        "venue": null,
+        "abstract": "El contenido de este documento se relaciona con la historia del vestuario y los accesorios tradicionales utilizados por los indígenas embera. Se trata de un pueblo nativo con tradiciones y características semejantes, actualmente divido en cuatro grupos: los embera chami —ubicados en los departamentos de Caldas y Quindío—; los embera katío, —en el Alto Sinú y Alto San Jorge en el departamento de Córdoba, y en la región de Urabá y el Bajo Atrato en el departamento de Chocó—, y los embera siapidara, quienes viven dispersos en el Pacifico, en la zona sur de Buenaventura y en la costa caucana y de Nariño. Distintos hechos históricos ocurridos en la Conquista y la Colonia provocaron su dispersión hacia diferentes lugares de la geografía colombiana. Sin embargo, uno de los elementos, cohesionador de identidad, es su vestuario tradicional, del cual conoceremos distintas características, gracias a los relatos de los abuelos y abuelas integrantes del asentamiento Resguardo Motordorchaque, ubicado en la vereda Dos Pozos del municipio de Puerto Boyacá.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.29097/9789585303096",
+        "extra": {
+          "crossref_type": "monograph",
+          "publisher": "Fundación Universidad de América"
+        }
+      },
+      {
+        "title": "Del Vestuario",
+        "source": "crossref",
+        "url": "https://doi.org/10.7764/apuntesdeteatro.29.83174.1963",
+        "doi": "10.7764/apuntesdeteatro.29.83174.1963",
+        "year": 2024,
+        "authors": [
+          "Gabriela Roepke"
+        ],
+        "venue": "Apuntes de Teatro",
+        "abstract": "Sugerencias para el diseño de vestuario. Traducción por Gabriela Roepke.",
+        "pdf_url": "https://uc_revision.escire.site/index.php/RAT/article/download/83174/63478",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.7764/apuntesdeteatro.29.83174.1963",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Pontificia Universidad Catolica de Chile"
+        }
+      },
+      {
+        "title": "ANÁLISE DE PILOTAGEM DE MOTOCICLETA VISANDO ASPECTOS DE SEGURANÇA",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.23663",
+        "doi": "10.17771/pucrio.acad.23663",
+        "year": 2015,
+        "authors": [
+          "GABRIEL SCUSSEL BRASIL BEZERRA DE MIRANDA"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.23663",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "A Morfologia da Circularidade Sustentável: Prototipagem de Blocos de Alvenaria Intertravados",
+        "source": "crossref",
+        "url": "https://doi.org/10.29327/5890163.1-1",
+        "doi": "10.29327/5890163.1-1",
+        "year": 2026,
+        "authors": [
+          "Sasquia Hizuru Obata"
+        ],
+        "venue": "A Morfologia da Circularidade Sustentável",
+        "abstract": "Este capítulo, intitulado \"A Morfologia da Circularidade Sustentável: Prototipagem de Blocos de Alvenaria Intertravados\", apresenta uma análise técnica e estratégica sobre a transição para sistemas de construção circular. Abaixo, apresento um resumo para os leitores do livro: Proposta Central: O capítulo defende a adoção de Sistemas de Blocos de Autotravamento (Self-Interlocking Block Systems - SLBS) como uma alternativa eficiente aos métodos tradicionais de alvenaria. Essa abordagem visa unir eficiência econômica, resiliência estrutural e sustentabilidade socioambiental, tratando a edificação como um vetor de circularidade e transparência material. Superioridade Técnica: A pesquisa destaca a superioridade da Alvenaria Semi-Intertravada (SIM) em relação aos métodos convencionais. Dados experimentais demonstram que sistemas SIM permitem um deslizamento controlado entre as juntas, conferindo maior resiliência sísmica (suportando *drifts* de até 3,90%, frente a 0,64% dos métodos tradicionais) e dissipação de energia. Impacto Ambiental e Econômico: Ao eliminar o uso de argamassa (método *mortarless*), o sistema reduz drasticamente a dependência de cimento — responsável por 8% das emissões globais de CO2 — e diminui o tempo de obra em até 40%. Projeções indicam uma redução de custos entre 24% e 50%, tornando-o uma solução viável para habitações de baixo custo. Conexão com o Varejo e Consumo: O trabalho propõe que a construção civil deve alinhar-se às estratégias de varejo omnichannel. A utilização de blocos circulares não é apenas técnica, mas uma estratégia de *branding* sustentável que comunica valores éticos e transparência, essenciais para a conexão com o consumidor contemporâneo (Geração Z), ressignificando espaços físicos como destinos de experiência e bem-estar. Legado e Futuro: O capítulo reforça que a desmontabilidade dos blocos permite a reutilização dos componentes ao final do ciclo de vida da edificação. Conclui-se que a arquitetura do futuro deve atuar como um agente transformador, onde a estrutura da edificação é, em si, uma mensagem de responsabilidade ambiental e viabilidade econômica.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.29327/5890163.1-1",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Even3 Publicações"
+        }
+      },
+      {
+        "title": "Piel cultural: Formación, antropología y vestuario",
+        "source": "crossref",
+        "url": "https://doi.org/10.21500/9786287946033",
+        "doi": "10.21500/9786287946033",
+        "year": 2026,
+        "authors": [
+          "Dolly Viviana Polo Flórez"
+        ],
+        "venue": null,
+        "abstract": "En la apuesta teórico-conceptual de Piel cultural: formación, antropología y vestuario, se estudia cómo la antropologización y la formación inciden en el valor que se les otorga al vestuario y a los recubrimientos como parte de una imagen maleable del ser humano con el paso del tiempo. A su vez, se estudia cómo la materialidad del cuerpo y su subjetividad modifican el juego del encubrimiento. En ese orden de ideas, no debe sorprender que el presente documento sea en sí mismo un entretejido multidisciplinar cuya plataforma es la educación. Un aporte fundamental que brinda esta apuesta –que deriva de la tesis doctoral homónima– es el cambio en las representaciones de lo educativo. Se propone aquí que lo educativo no es la escolaridad, sino cómo y a través de qué –en este espacio, lo referente al vestuario– se forma la subjetividad.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.21500/9786287946033",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "Editorial Bonaventuriana"
+        }
+      },
+      {
+        "title": "ESTUDO DOS ÍNDICES DE SUSTENTABILIDADE APLICADOS EM RETRABALHO NA CONSTRUÇÃO CIVIL",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.59437",
+        "doi": "10.17771/pucrio.acad.59437",
+        "year": 2022,
+        "authors": [
+          "PEDRO BREGALDA DO CARMO BORBA NEVES"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.59437",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "Conservación preventiva de colecciones de vestuario escénico. Colección de vestuario compañía de danza española Ángel Pericet",
+        "source": "crossref",
+        "url": "https://doi.org/10.18682/cdc.vi100.3991",
+        "doi": "10.18682/cdc.vi100.3991",
+        "year": 2020,
+        "authors": [
+          "Cecilia Gómez García"
+        ],
+        "venue": "Cuadernos del Centro de Estudios de Diseño y Comunicación",
+        "abstract": "La investigación recopila las acciones de recuperación de la colección de vestuario de la compañía de danza española Ángel Pericet y las confronta con los métodos propuestos desde la conservación preventiva con criterio museológico. Se describe la historia y composición de la colección y se analizan otras experiencias de conservación con colecciones similares. El objetivo principal es reflexionar sobre cuál es el mejor camino a seguir en relación al restante de la colección que aún no ha sido relevado.",
+        "pdf_url": "https://dspace.palermo.edu/ojs/index.php/cdc/article/download/3991/2264",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.18682/cdc.vi100.3991",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Fundacion Universidad de Palermo"
+        }
+      },
+      {
+        "title": "Danzas guerreras en Guanajuato: Historia, vestuario y reinvindicación identitaria",
+        "source": "crossref",
+        "url": "https://doi.org/10.61437/ugto.9786075802213",
+        "doi": "10.61437/ugto.9786075802213",
+        "year": 2025,
+        "authors": [
+          "Alejandro Martínez"
+        ],
+        "venue": null,
+        "abstract": "La danza es una de las expresiones tradicionales más importantes del estado de Guanajuato, tanto por su variedad como por su relación con hechos históricos de gran importancia identitaria, local y regional. Tales representaciones contienen un argumento donde dos bandos opuestos se enfrentan en una lucha simbólica que, más allá de exponer un acercamiento fidedigno a los sucesos del pasado, sirven para plantear una postura identitaria entre el yo y el otro, donde aparece una reivindicación cultural y política en el más amplio sentido. Este libro aborda, desde un punto de vista etnohistórico, las relaciones interculturales entre la idealización del guerrero salvaje de raigambre prehispánica frente al invasor extranjero usurpador histórico de un territorio asumido como ancestral. Por ello, sin ser indispensable el pertenecer a una etnia con rasgos diferenciables específicos, es en el vestuario y la parafernalia de la danza donde se expone la lectura paradójica de adscripción identitaria entre el argumento católico y la lucha actuada ante el forastero, en el contexto de la defensa del territorio y la identidad local a lo largo de los últimos siglos. Publicación disponible en su versión acceso abierto de descarga gratuita, así como ejemplar físico (consultar costos de compra y envío).",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.61437/ugto.9786075802213",
+        "extra": {
+          "crossref_type": "monograph",
+          "publisher": "Universidad de Guanajuato"
+        }
+      },
+      {
+        "title": "Vestuario y sociedad andina: Desarrollo del Complejo Pica-Tarapacá (800-1400 DC)",
+        "source": "crossref",
+        "url": "https://doi.org/10.22199/isbn.9789563352504",
+        "doi": "10.22199/isbn.9789563352504",
+        "year": 2015,
+        "authors": [
+          "Carolina Agüero-Piwonka"
+        ],
+        "venue": null,
+        "abstract": "El texto sostiene que los textiles son una fuente clave para comprender las sociedades andinas prehispánicas, ya que reflejan identidades culturales y sociopolíticas. A partir del estudio de la vestimenta del Complejo Pica-Tarapacá (Período Intermedio Tardío), la autora busca identificar un estilo textil propio que permita entender la integración regional, las relaciones con grupos vecinos y la construcción de identidades sociales y políticas en Tarapacá. El objetivo es demostrar cómo el análisis textil contribuye a reconstruir procesos históricos y culturales que otras evidencias arqueológicas no revelan por sí solas.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "book",
+        "identifier": "10.22199/isbn.9789563352504",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "qillqa"
+        }
+      },
+      {
+        "title": "Automação residencial: a influência dos circuitos de prototipagem eletrônica",
+        "source": "crossref",
+        "url": "https://doi.org/10.37423/2020.edcl89",
+        "doi": "10.37423/2020.edcl89",
+        "year": 2020,
+        "authors": [
+          "José Gilberto Fernandes Junior",
+          "Diego Lopes Coriolano"
+        ],
+        "venue": "Automação residencial: a influência dos circuitos de prototipagem eletrônica",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.37423/2020.edcl89",
+        "extra": {
+          "crossref_type": "book",
+          "publisher": "Editora Conhecimento Livre"
+        }
+      },
+      {
+        "title": "Pilotagem de Fármacos",
+        "source": "crossref",
+        "url": "https://doi.org/10.52590/m3.p567.a3000501",
+        "doi": "10.52590/m3.p567.a3000501",
+        "year": 1990,
+        "authors": [
+          "Luis Filipe Vicente Constantino"
+        ],
+        "venue": "Boletim da Sociedade Portuguesa de Química",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.52590/m3.p567.a3000501",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Sociedade Portuguesa de Quimica"
+        }
+      },
+      {
+        "title": "Taller de proyectos en diseño de vestuario",
+        "source": "crossref",
+        "url": "https://doi.org/10.21500/9789585415768",
+        "doi": "10.21500/9789585415768",
+        "year": 2021,
+        "authors": [
+          "Dolly Viviana Polo Flórez"
+        ],
+        "venue": null,
+        "abstract": "Para poder brindar un significado para el conocimiento, se debe poner en tensión y consonancia a los agentes y comunidades que generan, administran y gestionan el propósito del conocer. Esto posibilita la referenciación de propósitos y de relaciones de sentido que permiten preparar las bases comprensivas del mundo como puntos de partida y llegada para el desarrollo. Los actos educativos, tanto los institucionales como los cotidianos, desde aspectos cualitativos y cuantitativos como aportes que se complementan permiten nutrir las nuevas miradas para gestionar el conocimiento. El estudio proyectual esencia del modus–operandi del diseño es conformado por usos y aproximaciones indagadoras que resultan en miradas investigativas. De este modo el sujeto que conoce es un sujeto que construye y cimienta las bases de un desarrollo común.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.21500/9789585415768",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "Editorial Bonaventuriana de la Universidad de San Buenaventura Cali"
+        }
+      },
+      {
+        "title": "O ESTUDO DE LÍNGUA PORTUGUESA EM CURSOS DE GRADUAÇÃO EM PILOTAGEM",
+        "source": "crossref",
+        "url": "https://doi.org/10.63656/kjv1xn83",
+        "doi": "10.63656/kjv1xn83",
+        "year": 2025,
+        "authors": [
+          "Delvanir Lopes"
+        ],
+        "venue": "EJ News",
+        "abstract": "Este artigo se propõe a analisar a presença do componente Língua Portuguesa em cursos superiores. Verifica-se que, mesmo em cursos de áreas diferentes da área de linguagens, a aprendizagem formal do idioma via suprir lacunas que possam não ter sido sanadas durante os anos do Ensino Médio. Daí que o traço preponderante deles seja de nivelamento ou de língua portuguesa instrumental. O método para o estudo foi investigativo para detectar a presença do componente em grades curriculares variadas, com destaque para os cursos de aviação, entre eles a da Faculdade de Tecnologia em Aviação Civil. Conclui-se que a Língua Portuguesa em cursos superiores promove vários fatores, entre eles: comunicação mais eficiente, auxílio na produção acadêmica, interdisciplinaridade e entendimento de conteúdos.",
+        "pdf_url": "https://ejnews.ej.edu.br/ej/article/download/2/19",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.63656/kjv1xn83",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "EJ Faculdade de Tecnologia em Aviação Civil"
+        }
+      },
+      {
+        "title": "Engenharia reversa e prototipagem rapida",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2003.303082",
+        "doi": "10.47749/t/unicamp.2003.303082",
+        "year": 2021,
+        "authors": [
+          "Cristiane Brasil Lima Ulbrich"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2003.303082",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Las NIIF en la Economía Naranja: artes escénicas, vestuario y escenografía",
+        "source": "crossref",
+        "url": "https://doi.org/10.15332/tg.esp.2019.00068",
+        "doi": "10.15332/tg.esp.2019.00068",
+        "year": 2020,
+        "authors": [
+          "Lizeth Dayana Gómez Vargas"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.15332/tg.esp.2019.00068",
+        "extra": {
+          "crossref_type": "monograph",
+          "publisher": "Universidad Santo Tomas"
+        }
+      },
+      {
+        "title": "Escenografía y vestuario: Berlín, Alemania",
+        "source": "crossref",
+        "url": "https://doi.org/10.4067/s0717-69962005006100011",
+        "doi": "10.4067/s0717-69962005006100011",
+        "year": 2005,
+        "authors": [
+          "María Elena Amos"
+        ],
+        "venue": "ARQ (Santiago)",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.4067/s0717-69962005006100011",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Pontificia Universidad Catolica de Chile"
+        }
+      },
+      {
+        "title": "Avaliação da carga de trabalho de pilotos remotos na pilotagem simultânea de múltiplas aeronaves remotamente pilotadas em operações de pulverização agrícola",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.18.2024.tde-22082024-153627",
+        "doi": "10.11606/d.18.2024.tde-22082024-153627",
+        "year": 2024,
+        "authors": [
+          "Matheus Coelho Gonçalves"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.18.2024.tde-22082024-153627",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      }
+    ]
+  },
+  "count": 30,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:01:06.406308+00:00"
+}

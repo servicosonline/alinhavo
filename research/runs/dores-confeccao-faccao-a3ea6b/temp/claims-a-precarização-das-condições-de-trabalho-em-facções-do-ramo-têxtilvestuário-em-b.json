@@ -1,0 +1,16 @@
+[
+  {
+    "claim": "A reestruturação produtiva iniciada na década de 1980 no polo têxtil-vestuário de Blumenau (SC) transferiu etapas produtivas das fábricas para facções terceirizadas, reduzindo o quadro de empregados diretos e precarizando a saúde, a renda e a identidade profissional dos operários.",
+    "stance": "supports",
+    "stance_target": "Impactos trabalhistas e estruturais da terceirização via facções na indústria do vestuário",
+    "evidence_type": "historical",
+    "scope_conditions": "Polo têxtil e de vestuário de Blumenau/SC a partir da década de 1980",
+    "quoted_support": "A partir da década de 1980, algumas dessas indústrias passaram por processos de reestruturação produtiva, transferindo parte de suas atividades a 'terceiros', também chamados de 'facções', ocasionando a redução do quadro de empregados e a precarização nas condições de trabalho. Em vista de tal realidade, pretende-se nesse artigo abordar os efeitos gerados pela 'terceirização' por 'facções' em Blumenau sobre a identidade profissional, a saúde e a renda dos operários.",
+    "numbers": ["1850", "30 anos", "1980"],
+    "entities": ["Universidade Regional de Blumenau (FURB)", "TRT da 12ª Região/SC", "Blumenau"],
+    "time_period": "1980-2017",
+    "region": "Blumenau, Santa Catarina, Brasil",
+    "confidence": "high",
+    "source_note_id": "a-precarização-das-condições-de-trabalho-em-facções-do-ramo-têxtilvestuário-em-b"
+  }
+]

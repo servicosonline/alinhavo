@@ -342,10 +342,19 @@
   display: none;
 }
 @media (min-width: 1024px) {
-  .lp-trilho {
+  .lp-trilho,
+  .lp-entrega-trilho {
     padding-left: max(2.5rem, calc((100vw - 80rem) / 2 + 2.5rem));
     padding-right: 12vw;
   }
+}
+.lp-entrega-card {
+  scroll-snap-align: start;
+  transform-origin: center center;
+}
+.lp-giro-corpo {
+  transform-box: fill-box;
+  transform-origin: center;
 }
 @media (min-width: 1024px) and (prefers-reduced-motion: no-preference) {
   .lp-varal-janela {

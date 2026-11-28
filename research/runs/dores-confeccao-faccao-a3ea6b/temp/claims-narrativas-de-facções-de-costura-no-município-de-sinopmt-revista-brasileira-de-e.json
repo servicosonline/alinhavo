@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "A cadeia têxtil e de confecção no Brasil fatura cerca de R$ 193,2 bilhões anuais, enquanto no estado do Mato Grosso o faturamento do setor corresponde a R$ 421 milhões.",
+    "stance": "neutral",
+    "stance_target": "dimensionamento econômico do setor têxtil e de confecção no Brasil e em Mato Grosso",
+    "evidence_type": "statistical",
+    "scope_conditions": "Brasil e estado do Mato Grosso",
+    "quoted_support": "O faturamento da cadeia têxtil e de confecção no Brasil gira em torno de 193,2 bilhões de reais. No estado do Mato Grosso, seu faturamento corresponde a 421 milhões de reais.",
+    "numbers": ["R$ 193,2 bilhões", "R$ 421 milhões"],
+    "entities": ["UNEMAT", "Sinop-MT", "Mato Grosso"],
+    "time_period": "2024",
+    "region": "Brasil / Mato Grosso",
+    "confidence": "high",
+    "source_note_id": "narrativas-de-facções-de-costura-no-município-de-sinopmt-revista-brasileira-de-e"
+  },
+  {
+    "claim": "Empreendedores e costureiras de facções de costura em Sinop-MT enfrentam dificuldades financeiras e estruturais críticas, incluindo preço elevado da matéria-prima, falta de financiamento, alto custo de energia elétrica e problemas no enquadramento fiscal das empresas.",
+    "stance": "supports",
+    "stance_target": "existência de barreiras financeiras, tributárias e de custo de insumos para proprietários de facções de costura",
+    "evidence_type": "empirical",
+    "scope_conditions": "Facções de costura terceirizadas no município de Sinop-MT (6 entrevistas de história de vida)",
+    "quoted_support": "Por meio da metodologia de História de Vida, foram realizadas 6 entrevistas com intuito de identificar dificuldades a partir dos pontos de vista dos principais atores desse contexto. Entre os principais problemas foram identificados o preço da matéria prima, falta de financiamento, elevado custo energético, enquadramento fiscal das empresas, excesso de horas trabalhadas, dependência da sazonalidade de serviço, prazo de entrega apertados, baixo valor pago pelos serviços e falta de seguridade social.",
+    "numbers": ["6 entrevistas"],
+    "entities": ["Sinop-MT", "UNEMAT"],
+    "time_period": "2024",
+    "region": "Sinop, Mato Grosso, Brasil",
+    "confidence": "high",
+    "source_note_id": "narrativas-de-facções-de-costura-no-município-de-sinopmt-revista-brasileira-de-e"
+  },
+  {
+    "claim": "A operação de facções de costura terceirizadas é marcada por baixo valor pago pelos serviços, prazos de entrega apertados, dependência da sazonalidade de pedidos, excesso de horas trabalhadas e falta de seguridade social.",
+    "stance": "supports",
+    "stance_target": "vulnerabilidade operacional e trabalhista das facções de costura terceirizadas",
+    "evidence_type": "empirical",
+    "scope_conditions": "Facções de costura em Sinop-MT",
+    "quoted_support": "Entre os principais problemas foram identificados o preço da matéria prima, falta de financiamento, elevado custo energético, enquadramento fiscal das empresas, excesso de horas trabalhadas, dependência da sazonalidade de serviço, prazo de entrega apertados, baixo valor pago pelos serviços e falta de seguridade social.",
+    "numbers": [],
+    "entities": ["Sinop-MT", "UNEMAT"],
+    "time_period": "2024",
+    "region": "Sinop, Mato Grosso, Brasil",
+    "confidence": "high",
+    "source_note_id": "narrativas-de-facções-de-costura-no-município-de-sinopmt-revista-brasileira-de-e"
+  }
+]

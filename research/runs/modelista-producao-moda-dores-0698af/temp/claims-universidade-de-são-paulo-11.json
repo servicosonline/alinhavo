@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "Na avaliação antropométrica empírica de 10 mulheres com sobrepeso (P1 a P10) confrontadas com a tabela da ABNT NBR 16933:2021 (com auxílio do software CLO 3D v.2025.0.408), nenhuma participante (0 de 10) se encaixou em um único tamanho normativo, transitando por dois ou mais tamanhos entre tronco superior e membros inferiores.",
+    "stance": "supports",
+    "stance_target": "Assimetria entre tamanhos de parte superior e inferior no corpo feminino brasileiro e inviabilidade de grades padronizadas únicas",
+    "evidence_type": "empirical",
+    "scope_conditions": "Amostra de 10 mulheres brasileiras com sobrepeso comparadas à ABNT NBR 16933:2021",
+    "quoted_support": "Nenhuma das participantes de encaixou perfeitamente em um único tamanho da tabela. Elas passam por dois ou mais tamanhos, pode-se dizer que no mesmo corpo possui medidas superiores e medidas para as partes inferiores.",
+    "numbers": ["0 de 10 participantes", "10 participantes (P1 a P10)", "CLO 3D versão 2025.0.408"],
+    "entities": ["Aparecida de Fátima Cardoso", "EACH-USP", "ABNT NBR 16933:2021", "CLO 3D"],
+    "time_period": "2025-2026",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo-11"
+  },
+  {
+    "claim": "A participante P8 exemplifica a dispersão morfológica extrema fora da ABNT NBR 16933:2021: apresenta cintura de 128 cm (tamanho 62 ABNT, com +13 cm acima do padrão), quadril de 151 cm (tamanho 60 ABNT, +3 cm), coxa de 77 cm (tamanho 54 ABNT, -1 cm) e joelho de 54,5 cm (tamanho 58 ABNT, +0,5 cm), abrangendo quatro tamanhos distintos da norma apenas na parte inferior.",
+    "stance": "supports",
+    "stance_target": "Evidência quantitativa de que um mesmo corpo gordo abrange até 4 tamanhos distintos (54 ao 62) na calça segundo a ABNT NBR 16933:2021",
+    "evidence_type": "statistical",
+    "scope_conditions": "Tabela 17 (Participante P8) comparada à ABNT NBR 16933:2021",
+    "quoted_support": "P8: A.22 – Cintura: Valor Real 128 cm, Tamanho ABNT mais próximo 62 (115 cm), Diferença +13 cm; A.24 – Quadril: Valor Real 151 cm, Tamanho ABNT 60 (148 cm), Diferença +3 cm; A.29 – Coxa: Valor Real 77 cm, Tamanho ABNT 54 (78 cm), Diferença -1,0 cm; A.31 – Joelho: Valor Real 54,5 cm, Tamanho ABNT 58 (54 cm), Diferença +0,5 cm.",
+    "numbers": ["128 cm cintura (tam. 62, +13 cm)", "151 cm quadril (tam. 60, +3 cm)", "77 cm coxa (tam. 54, -1 cm)", "54,5 cm joelho (tam. 58, +0,5 cm)"],
+    "entities": ["Aparecida de Fátima Cardoso", "ABNT NBR 16933:2021"],
+    "time_period": "2025-2026",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo-11"
+  },
+  {
+    "claim": "A participante P9 apresenta busto de 110 cm (tamanho 52 ABNT, diferença de -8,0 cm), cintura de 107 cm (tamanho 54 ABNT, +3 cm), quadril de 116 cm (tamanho 50 ABNT, -4,0 cm) e coxa de 86 cm (tamanho 58 ABNT, +1 cm), demonstrando inversão de proporção cintura/quadril e exigência de molde de calça que acomode coxa tamanho 58 com quadril tamanho 50.",
+    "stance": "supports",
+    "stance_target": "Descompasso entre circunferência de quadril, cintura e coxa em mulheres plus size que trava a modelagem de calças em tecido plano",
+    "evidence_type": "statistical",
+    "scope_conditions": "Tabela 18 (Participante P9) comparada à ABNT NBR 16933:2021",
+    "quoted_support": "P9: A.8 – Busto 110 cm (ABNT 52: 118 cm, Dif -8,0 cm); A.22 – Cintura 107 cm (ABNT 54: 104 cm, Dif +3 cm); A.24 – Quadril 116 cm (ABNT 50: 120 cm, Dif -4,0 cm); A.29 – Coxa 86 cm (ABNT 58: 85 cm, Dif +1 cm); A.31 – Joelho 44 cm (ABNT 52: 46,5 cm, Dif -2,5 cm).",
+    "numbers": ["110 cm busto (tam. 52)", "107 cm cintura (tam. 54)", "116 cm quadril (tam. 50)", "86 cm coxa (tam. 58)", "44 cm joelho (tam. 52)"],
+    "entities": ["Aparecida de Fátima Cardoso", "ABNT NBR 16933:2021"],
+    "time_period": "2025-2026",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo-11"
+  },
+  {
+    "claim": "A graduação linear a partir dos tamanhos 38 ou 40 falha porque assume crescimento proporcional uniforme, ignorando que o corpo com sobrepeso apresenta deslocamento de volumes, variação de curvatura dorsal, proeminência abdominal e alterações posturais que exigem construção de blocos base específicos a partir do manequim 46/48.",
+    "stance": "supports",
+    "stance_target": "Inviabilidade técnica de usar uma única base 38/40 para gradar até os tamanhos 50-60 sem quebrar a grade em um bloco plus size dedicado",
+    "evidence_type": "empirical",
+    "scope_conditions": "Modelagem industrial e ensino de modelagem no Brasil",
+    "quoted_support": "Esses métodos frequentemente ampliam de forma proporcional as medidas de moldes desenvolvidos para manequins do tamanho 38 ou 40, desconsiderando que corpos gordos apresentam outras dinâmicas morfológicas, como deslocamentos de volume, variação de curvatura dorsal, aumento de circunferências abdominais, flacidez e alterações posturais. Essa prática, conhecida como graduação linear, ignora aspectos fundamentais da ergonomia do corpo gordo, resultando em peças com ajuste inadequado, desconforto e distorção do caimento.",
+    "numbers": ["manequins 38 ou 40"],
+    "entities": ["Aparecida de Fátima Cardoso", "Almeida e Souza (2021)", "Carvalho e Poci (2023)"],
+    "time_period": "2025-2026",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo-11"
+  },
+  {
+    "claim": "Consumidoras com sobrepeso relatam que calças de tecido plano compradas pelo tamanho que serve na cintura ficam excessivamente largas no quadril ou exigem a retirada de até 15 cm de comprimento na barra, o que descaracteriza a geometria e o modelo original da calça.",
+    "stance": "supports",
+    "stance_target": "Distorção da modelagem de calças quando a grade cresce linearmente no comprimento de entrepernas e na relação cintura-quadril",
+    "evidence_type": "empirical",
+    "scope_conditions": "Pesquisa qualitativa com consumidoras brasileiras com sobrepeso (Seção 5.6)",
+    "quoted_support": "Que vista bem, sem necessidade de ajustes em calças, tiro até 15 cm de comprimento então ficaria feliz em não precisar mudar barra, pois muda o modelo, ter que comprar sempre um modelo que sirva na cintura, mas o quadril fica grande.",
+    "numbers": ["15 cm de comprimento retirados na barra"],
+    "entities": ["Aparecida de Fátima Cardoso", "EACH-USP"],
+    "time_period": "2025-2026",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "universidade-de-são-paulo-11"
+  }
+]

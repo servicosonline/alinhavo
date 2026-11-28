@@ -1,0 +1,138 @@
+{
+  "manifest_version": 1,
+  "vault_tag": "modelista-producao-moda-dores-0698af",
+  "profile": "full",
+  "profile_steps": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16"
+  ],
+  "status": "blocked",
+  "started_at": "2026-11-27T01:54:52.446610+00:00",
+  "updated_at": "2026-11-27T12:32:44.835527+00:00",
+  "budget_usd": null,
+  "max_sources": null,
+  "max_notes": null,
+  "counts_force_cleared": 0,
+  "counts_clear_baselines": {},
+  "blocked_on": "verify",
+  "steps": {
+    "1": {
+      "status": "done",
+      "finished_at": "2026-11-27T01:57:18.154824+00:00"
+    },
+    "2": {
+      "status": "done",
+      "started_at": "2026-11-27T01:58:31.729686+00:00",
+      "finished_at": "2026-11-27T02:52:58.492530+00:00"
+    },
+    "3": {
+      "status": "done",
+      "started_at": "2026-11-27T02:53:38.632142+00:00",
+      "finished_at": "2026-11-27T02:57:04.598834+00:00"
+    },
+    "4": {
+      "status": "done",
+      "started_at": "2026-11-27T02:58:07.830751+00:00",
+      "finished_at": "2026-11-27T03:17:38.506803+00:00"
+    },
+    "5": {
+      "status": "done",
+      "started_at": "2026-11-27T03:19:14.881765+00:00",
+      "finished_at": "2026-11-27T05:23:26.262202+00:00"
+    },
+    "6": {
+      "status": "done",
+      "started_at": "2026-11-27T05:23:51.761795+00:00",
+      "finished_at": "2026-11-27T05:25:47.112320+00:00"
+    },
+    "7": {
+      "status": "done",
+      "started_at": "2026-11-27T05:26:24.599883+00:00",
+      "finished_at": "2026-11-27T05:28:01.999482+00:00"
+    },
+    "8": {
+      "status": "done",
+      "started_at": "2026-11-27T05:28:36.667470+00:00",
+      "finished_at": "2026-11-27T06:47:54.902797+00:00"
+    },
+    "9": {
+      "status": "done",
+      "started_at": "2026-11-27T06:49:30.945431+00:00",
+      "finished_at": "2026-11-27T06:53:47.413973+00:00"
+    },
+    "10": {
+      "status": "done",
+      "started_at": "2026-11-27T06:55:46.359565+00:00",
+      "finished_at": "2026-11-27T07:31:14.722181+00:00"
+    },
+    "11": {
+      "status": "done",
+      "started_at": "2026-11-27T07:31:58.000528+00:00",
+      "finished_at": "2026-11-27T08:45:07.905054+00:00"
+    },
+    "12": {
+      "status": "done",
+      "started_at": "2026-11-27T08:45:55.237958+00:00",
+      "finished_at": "2026-11-27T09:13:53.376369+00:00"
+    },
+    "13": {
+      "status": "done",
+      "started_at": "2026-11-27T09:14:37.839937+00:00",
+      "finished_at": "2026-11-27T09:16:02.010985+00:00"
+    },
+    "14": {
+      "status": "done",
+      "started_at": "2026-11-27T09:17:18.444153+00:00",
+      "finished_at": "2026-11-27T09:40:46.446938+00:00"
+    },
+    "14.5": {
+      "status": "done",
+      "started_at": "2026-11-27T09:41:50.797099+00:00",
+      "finished_at": "2026-11-27T12:32:07.830182+00:00"
+    },
+    "15": {
+      "status": "done",
+      "started_at": "2026-11-27T12:32:08.512086+00:00",
+      "finished_at": "2026-11-27T12:32:09.098072+00:00"
+    },
+    "16": {
+      "status": "done",
+      "started_at": "2026-11-27T12:32:09.699723+00:00",
+      "finished_at": "2026-11-27T12:32:10.271202+00:00"
+    }
+  },
+  "chapters": {},
+  "spend": {
+    "estimated_usd": 0.0,
+    "sources_fetched": 142,
+    "notes_written": 147,
+    "agents_spawned": 0
+  },
+  "levers": {
+    "register": "survey",
+    "inference_depth": "standard",
+    "domain_notes": "Sourcing: combinar literatura acad\u00eamica e t\u00e9cnica (engenharia de vestu\u00e1rio, modelagem, gest\u00e3o da produ\u00e7\u00e3o) com fontes setoriais (SENAI, SEBRAE, Abit, ABNT, blogs e comunidades de modelistas, vagas e descri\u00e7\u00f5es de cargo). Evid\u00eancia forte: estudos com entrevistas ou observa\u00e7\u00e3o de ch\u00e3o de f\u00e1brica e normas t\u00e9cnicas; relatos de profissionais valem como evid\u00eancia de dor, marcados como tal. Janela de rec\u00eancia: priorizar os \u00faltimos 10 anos; cl\u00e1ssicos de modelagem valem como base."
+  },
+  "verify": {
+    "passed": false,
+    "at": "2026-11-27T12:32:44.831433+00:00",
+    "failed_checks": [
+      "length-in-range",
+      "artifact:polish-log.json"
+    ]
+  }
+}

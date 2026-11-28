@@ -133,4 +133,36 @@ describe("ficha técnica", () => {
     expect(pdf.getTitle()).toBe("Ficha técnica - Saia ? base");
     expect(winAnsiSafe("Calça • 10% — ok ✓")).toBe("Calça • 10% — ok ?");
   });
+
+  it("calcula custo industrial (costura, lavanderia, perda de corte) e inclui tabela de medidas e encolhimento no PDF", async () => {
+    const data = buildTechPack(
+      input({
+        fabric: {
+          name: "Meia malha 30/1",
+          composition: "100% algodão",
+          widthMm: 1600,
+          weightGsm: 160,
+          priceCents: 1280,
+          pricePerKgCents: 5000,
+          shrinkageWarpPct: 5,
+          shrinkageWeftPct: 3,
+        },
+        operations: { sewingCents: 650, laundryCents: 200, wastePct: 5 },
+        sizeChart: {
+          name: "Feminino ABNT",
+          sizes: ["P", "M", "G"],
+          rows: [
+            { name: "Cintura", bySizeMm: { P: 680, M: 720, G: 760 } },
+            { name: "Quadril", bySizeMm: { P: 940, M: 980, G: 1020 } },
+          ],
+        },
+      }),
+    );
+    const fabM = data.consumption.bySize.M!.fabricCents!;
+    const matM = data.materialCentsBySize.M!;
+    expect(data.operations?.totalCentsBySize.M).toBe(matM + Math.round((fabM * 5) / 100) + 650 + 200);
+    expect(data.sizeChart?.rows.length).toBe(2);
+    const pdf = await PDFDocument.load(await exportTechPackPdf(data, { number: 5 }));
+    expect(pdf.getPageCount()).toBeGreaterThanOrEqual(1);
+  });
 });

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="56" fill="#1E2B57"/>
+  <g stroke="#E8B23A" stroke-width="26" stroke-linecap="round">
+    <line x1="206" y1="110" x2="306" y2="210"/>
+    <line x1="306" y1="110" x2="206" y2="210"/>
+  </g>
+  <circle cx="256" cy="160" r="15" fill="#1E2B57" stroke="#E8B23A" stroke-width="7"/>
+  <line x1="112" y1="262" x2="400" y2="262" stroke="#E8B23A" stroke-width="5" stroke-dasharray="18 12" stroke-linecap="round" opacity=".75"/>
+  <text x="256" y="330" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#C9D1EA" letter-spacing="2">Ateliê</text>
+  <text x="256" y="398" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="58" fill="#FFFFFF">Ponto Firme</text>
+</svg>

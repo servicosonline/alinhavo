@@ -1,0 +1,52 @@
+[
+  {
+    "claim": "Palabras clave: Producto de Moda; Sector textil; Investigación; Producción; Comercialización; Diseño Como el proceso textil esta fragmentado y cada etapa es realizada sin comunicación con las etapas anteriores y posteriores, la especificidad de la creación de moda en la industria viene de la necesidad de acompañar ese flujo desde la generación de ideas de los diseñadores hasta la difusión en gran escala, para que la “idea” no se modifique durante el proceso.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Conceitos de produto de moda \n\t\t\t\t\t\t\t| Actas de Diseño",
+    "quoted_support": "Palabras clave: Producto de Moda; Sector textil; Investigación; Producción; Comercialización; Diseño Como el proceso textil esta fragmentado y cada etapa es realizada sin comunicación con las etapas anteriores y posteriores, la especificidad de la creación de moda en la industria viene de la necesidad de acompañar ese flujo desde la generación de ideas de los diseñadores hasta la difusión en gran escala, para que la “idea” no se modifique durante el proceso.",
+    "numbers": [],
+    "entities": [
+      "Conceitos de produto de moda \n\t\t\t\t\t\t\t| Actas de Diseño"
+    ],
+    "time_period": "2016-2026",
+    "region": "Internacional",
+    "confidence": "medium",
+    "source_note_id": "conceitos-de-produto-de-moda-actas-de-diseño"
+  },
+  {
+    "claim": "Por lo tanto, es necesario la investigación en estética, pilotaje o monitoreo, muestras experimentales, control de calidad en cada fase, siempre con los plazos determinados.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Conceitos de produto de moda \n\t\t\t\t\t\t\t| Actas de Diseño",
+    "quoted_support": "Por lo tanto, es necesario la investigación en estética, pilotaje o monitoreo, muestras experimentales, control de calidad en cada fase, siempre con los plazos determinados.",
+    "numbers": [],
+    "entities": [
+      "Conceitos de produto de moda \n\t\t\t\t\t\t\t| Actas de Diseño"
+    ],
+    "time_period": "2016-2026",
+    "region": "Internacional",
+    "confidence": "medium",
+    "source_note_id": "conceitos-de-produto-de-moda-actas-de-diseño"
+  },
+  {
+    "claim": "La ropa para ser utilizada tarda dos años, comenzando por el hilado, pasando por el tejido, la confección y las ventas al por mayor y al por menor; sin embargo se renueva con cada estación (Vincent-Ricard, 1989).",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Conceitos de produto de moda \n\t\t\t\t\t\t\t| Actas de Diseño",
+    "quoted_support": "La ropa para ser utilizada tarda dos años, comenzando por el hilado, pasando por el tejido, la confección y las ventas al por mayor y al por menor; sin embargo se renueva con cada estación (Vincent-Ricard, 1989).",
+    "numbers": [
+      "1989"
+    ],
+    "entities": [
+      "Conceitos de produto de moda \n\t\t\t\t\t\t\t| Actas de Diseño"
+    ],
+    "time_period": "2016-2026",
+    "region": "Internacional",
+    "confidence": "medium",
+    "source_note_id": "conceitos-de-produto-de-moda-actas-de-diseño"
+  }
+]

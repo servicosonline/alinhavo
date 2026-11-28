@@ -1,0 +1,874 @@
+{
+  "ok": true,
+  "data": {
+    "query": "encaixe risco corte desperdicio tecido confeccao",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 20,
+      "doab": 0
+    },
+    "raw_records": 40,
+    "merged_records": 40,
+    "returned": 40,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Sete desperdícios: Utilização da filosofia enxuta em uma confecção",
+        "source": "openalex",
+        "url": "https://doi.org/10.14488/enegep2021_tn_sto_354_1820_42907",
+        "doi": "10.14488/enegep2021_tn_sto_354_1820_42907",
+        "year": 2021,
+        "authors": [
+          "SABRINA KARLA RODRIGUES DE OLIVEIRA",
+          "Maiko Saturnino Cabral de Oliveira",
+          "Amanda Gomes de Assis",
+          "Augusto André Santos de Souza",
+          "Ricardo Pires de Souza"
+        ],
+        "venue": "Anais ... Encontro Nacional de Engenharia de Produção/Anais do Encontro Nacional de Engenharia de Produção",
+        "abstract": "O setor têxtil emprega milhares de pessoas no Brasil gerando 1,5 milhões de empregados diretos e 8 milhões se somar com os indiretos. Devido a pandemia COVID-19, a produção têxtil no país acumulou queda de 11,4%, em comparação com o mesmo intervalo de 2019. No acumulado de 12 meses, a queda é de 9%. Em meio a crise, o setor tem enxugado seu quadro e diminuindo desperdícios. Com base nisso, este trabalho foi desenvolvido em uma confecção de uniformes de pequeno porte no estado Rio Grande do Norte com o intuito de aplicar os sete desperdícios no setor de corte com o objetivo de auxiliar a organização a aperfeiçoar sua produção com foco na filosofia lean, para que ela possa se sobressair no atual cenário de pandemia. O processo produtivo foi analisado como um todo e de forma qualitativa, o setor de corte se destacou como um setor que gera desperdícios. Um dos mais destacados é a espera da ordem de fabricação e programação. Espera-se que com o levantamento dos sete desperdícios se obtenha redução do desperdício, ganho de produtividade, redução dos índices de segunda qualidade e possibilidade de estabelecer uma previsibilidade na capacidade produtiva.",
+        "pdf_url": "http://www.abepro.org.br/biblioteca/TN_STO_354_1820_42907.pdf",
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "W3211119070",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "A compilação da ferramenta CAD com o método Zero Waste para melhor aproveitamento tecidos na confecção de vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/ped2022-8949310",
+        "doi": "10.5151/ped2022-8949310",
+        "year": 2022,
+        "authors": [
+          "Maria Fernanda Sornas Viggiani",
+          "Marizilda dos Santos Menezes",
+          "Mônica Cristina De Moura"
+        ],
+        "venue": null,
+        "abstract": "O artigo tem como objetivo estudar o método zero waste (zero resíduos) aplicado no design de moda e verificar a utilização deste método através da ferramenta CAD. Para abordar a temática foi realizada uma análise sobre a geração de resíduos têxteis e seus impactos ao meio ambiente; discorreu-se sobre dados históricos do método zero waste no setor da moda e métodos utilizados por designers na contemporaneidade. Por fim, analisou-se como a ferramenta CAD junto ao método zero waste facilitaria o processo de produção melhorando o aproveitamento de tecidos. O presente trabalho utilizou a metodologia elencada em pesquisas bibliográficas por meio de artigos científicos, dissertações e livros internacionais. Com base nesse estudo, pode-se verificar que a ferramenta CAD auxiliaria na produção de produtos zero waste, proporcionando total redução de resíduos têxteis, no entanto, este método ainda carece de estudos quanto à gradação para produção em larga escala.",
+        "pdf_url": "http://pdf.blucher.com.br/designproceedings/ped2022/8949310.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4319313731",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "ESTUDO DE VIABILIDADE TÉCNICA E ECONÔMICA PARA MELHORIA DO PROCESSO DE CORTE DE TECIDOS",
+        "source": "openalex",
+        "url": "https://doi.org/10.15210/prociencias.v4i3.914",
+        "doi": "10.15210/prociencias.v4i3.914",
+        "year": 2022,
+        "authors": [
+          "Tiarles André Neugebauer Schellin",
+          "Alejandro Martins Rodriguez",
+          "Aline Pereira",
+          "Gilson Simões Porciúncula"
+        ],
+        "venue": "Revista Prociências",
+        "abstract": "Este trabalho tem por objetivo investigar alternativas para conciliar custos, qualidade, e eficiência a fim de melhorar a produtividade do processo de corte de tecido de uma empresa localizada no Rio Grande do Sul. Para tanto, foi realizado um estudo de caso cujo foco foi identificar melhorias (e oportunidades) do processo de corte da empresa, e sustentar uma futura tomada de decisão. A partir da revisão da literatura foi possível estruturar uma metodologia compreendendo técnicas como observação, entrevistas, pesquisa documental e simulação abrangendo, em um primeiro momento, o mapeamento do processo para melhor entendê-lo, seguido de um estudo de melhoria para o layout utilizado. A seguir, realizou-se uma análise técnica e financeira para aquisição de um equipamento de corte automatizado e, por fim, realizou-se a escolha da melhor alternativa entre as elencadas, bem como sugestões para sua implementação. Como resultado, foi possível traçar um caminho para um aumento significativo no índice de produtividade, através da otimização do layout de corte e da automação, acompanhado de significantes reduções de desperdícios de matéria prima e tempo, e identificação de novas oportunidades.",
+        "pdf_url": "https://revistas.ufpel.edu.br/index.php/prociencias/article/download/914/729",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4220928930",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "DETERMINAÇÃO DO CONSUMO DE MATÉRIA-PRIMA: ENCAIXE MANUAL VERSUS ENCAIXE COMPUTADORIZADO NA PRODUÇÃO DE ARTIGOS MANUFATURADOS",
+        "source": "openalex",
+        "url": "http://rdu.unicesumar.edu.br//handle/123456789/5563",
+        "doi": null,
+        "year": 2009,
+        "authors": [
+          "Ariana Martins Vieira",
+          "Sandra Biégas",
+          "Manoel Francisco Carreira"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "A pesquisa desenvolvida teve como objetivo determinar e comparar o consumo de matéria-prima usando o processo de encaixe manual e computadorizado utilizado em indústrias de artigos manufaturados. Esta pesquisa classifica-se como exploratória e investigativa com abordagem quantitativa, aplicada à prática de manufatura. Através da comparação das simulações de encaixes manuais e dos mesmos encaixes computadorizados foi possível determinar o percentual de consumo real de matéria-prima, onde os dados foram tabulados para analisar qual o melhor desempenho. Os resultados observados na simulação do encaixe computadorizado demonstram valores próximos dos referenciais teóricos. Comparando os resultados entre a simulação manual e computadorizado, esta apresentou melhor aproveitamento. Pode ser concluído que a tecnologia neste processo produtivo apresenta-se como um diferencial competitivo por meio da otimização da produção, agilidade do processo e qualidade na execução.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W3154057366",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Prevenção do desperdício no setor de vestuário e moda: inovação no processo de design",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.5965/1982615x06122013036",
+        "doi": "10.5965/1982615x06122013036",
+        "year": 2013,
+        "authors": [
+          "Iana Uliana Perez",
+          "Suzana Barreto Martins"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "O presente artigo parte da problemática da geração de resíduos têxteis no setor de confecção de produtos de moda e vestuário e do estudo de estratégias de produção mais limpa apresentando o processo de design zero waste como alternativa para a redução do desperdício têxtil e sua aplicação como inovação radical de processo comparado com processos convencionais de desenvolvimento de produtos de moda. Os resultados são validados em uma empresa de confecção de produtos de moda e apontam a viabilidade da aplicação do estudo proposto desde a criação, desenvolvimento e produção no âmbito do setor de vestuário.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/modapalavra/article/download/3478/6848",
+        "citation_count": 7,
+        "work_type": "article",
+        "identifier": "W1494244738",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "ZERO WASTE (RESÍDUO ZERO): UMA ABORDAGEM SUSTENTÁVEL PARA CONFECÇÃO DE VESTIMENTAS",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/designpro-ped-00668",
+        "doi": "10.5151/designpro-ped-00668",
+        "year": 2014,
+        "authors": [
+          "Francis da Silveira Firmo"
+        ],
+        "venue": "Congresso Brasileiro de Pesquisa e Desenvolvimento em Design (P&D Design)",
+        "abstract": "A proposta deste trabalho é dar uma contribuição para a divulgação do design Zero Waste (também conhecido como Resíduo Zero), abordagem em que os designers de moda, durante o processo criativo, elaboram seus projetos visando antecipadamente a redução do resíduo têxtil do processo produtivo.Neste artigo após uma retomada na historiografia do vestuário de seu uso ao longo dos diversos séculos foram realizadas descrições e apresentações de diversos profissionais que apresentam em seus projetos de vestuário o conceito de Zero Waste, as diferentes técnicas que são utilizadas e enfoques que são utilizados por eles e as questões fundamentais relativas a essa metodologia.",
+        "pdf_url": "http://pdf.blucher.com.br/designproceedings/11ped/00668.pdf",
+        "citation_count": 17,
+        "work_type": "other",
+        "identifier": "W2049786223",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "A tecnologia nos processos de desenvolvimento de produto e na produção das micro e pequenas empresas de confecção do vestuário de Porto Alegre - RS e Sombrio - SC",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/36048",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Paula Rodrigues Bittencourt"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "O objetivo deste trabalho foi abordar a inserção da tecnologia nos processos de desenvolvimento de produto e na produção das micro e pequenas empresas de confecção de Porto Alegre – RS e Sombrio - SC. O software CAD/CAM que permite economizar tempo e reduzir os custos de produção e desenvolvimento de produto, reduzindo o número de protótipos físicos e facilitando o encaixe. Sobretudo, o presente trabalho visa analisar como as micro empresas inserem a tecnologia em seus processos. O uso do sistema CAD (Desenho Assistido por computador) é uma tecnologia em que a computação suporta quase todas as áreas da confecção: design e criação, design têxtil, modelagem, ampliação, encaixe e risco, ficha técnica, cálculo de custos industriais, ordem de corte e gestão da produção. A evolução da tecnologia para a indústria do vestuário representa um fator significativo, possibilitando mudanças radicais que podem reduzir o tempo de fabricação do produto, acelerando e aperfeiçoando os processos. O estudo de caso englobou três micro empresas e uma pequena empresa de confecção do vestuário de Porto Alegre – RS e Sombrio - SC cuja análise dos dados qualitativos resultou em sugestões de melhorias para cada empresa estudadas.",
+        "pdf_url": null,
+        "citation_count": 5,
+        "work_type": "thesis",
+        "identifier": "W2199212968",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "COMPARAÇÃO DE SOFTWARE E MÉTODOS HEURÍSTICOS PARA OTIMIZAÇÃO DE CORTE BIDIMENSIONAL: ESTUDO EM FÁBRICA DE PEÇAS ÍNTIMAS EM FORTALEZA/CE",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.14488/enegep2024_tn_wg_413_2028_47702",
+        "doi": "10.14488/enegep2024_tn_wg_413_2028_47702",
+        "year": 2024,
+        "authors": [
+          "JOÃO MARCELO CARNEIRO",
+          "ANTONIO ANANIAS PINHO MENDES",
+          "Rommel Dias Saraiva",
+          "MARIANA SILVA MENDES",
+          "EMMANUELLE DE OLIVEIRA SANCHO"
+        ],
+        "venue": "Anais ... Encontro Nacional de Engenharia de Produção/Anais do Encontro Nacional de Engenharia de Produção",
+        "abstract": "O setor txtil desempenha um papel essencial na economia brasileira, convertendo matria-prima, como o algodo, em produtos finais, como vestidos, para os consumidores. Dentro das indstrias de confeco, o setor de risco e corte importante para otimizar o uso da matria-prima, pois responsvel por preparar o tecido e cortar as peas necessrias para a produo. No entanto, o processo de corte frequentemente resulta em desperdcios. Neste contexto, este estudo de caso se concentra em uma indstria de confeco de peas ntimas, onde so utilizados dois softwares: o Audaces Encaixes, que requer uma licena mensal, e o Deepnest.IO, uma opo gratuita que utiliza um mtodo de otimizao baseado em Algoritmo Gentico. O objetivo comparar a eficcia desses dois softwares. Por meio de simulaes computacionais divididas em duas baterias de testes, os resultados mostram que o Audaces Encaixes alcana resultados superiores em comparao com o Deepnest.IO. Alm disso, uma anlise financeira proposta para determinar se o desperdcio gerado pelo Deepnest.IO compensa o custo da licena mensal do Audaces Encaixes. Os resultados da anlise indicam que o Audaces Encaixes a opo mais vantajosa. Isso ressalta a importncia de considerar no apenas a eficcia do software, mas tambm o custo-benefcio ao tomar decises sobre qual ferramenta utilizar na indstria de confeco de peas ntimas.",
+        "pdf_url": "http://www.abepro.org.br/biblioteca/TN_WG_413_2028_47702.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4404139415",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "GERENCIAMENTO DE RESÍDUOS SÓLIDOS EM UMA EMPRESA DE CONFECÇÃO DE VESTUÁRIO NO MUNICÍPIO DE TRÊS PASSOS/RS",
+        "source": "openalex",
+        "url": "https://doi.org/10.7867/1983-1501.2019v21n2p58-70",
+        "doi": "10.7867/1983-1501.2019v21n2p58-70",
+        "year": 2020,
+        "authors": [
+          "Fernanda Vianna Schmitt",
+          "Danni Maísa da Silva",
+          "Robson Evaldo Gehlen Bohrer",
+          "Eduardo Lorensi de Souza",
+          "Ramiro Pereira Bisognin",
+          "Divanilde Guerra"
+        ],
+        "venue": "Revista de Estudos Ambientais",
+        "abstract": "As indústrias de confecção de vestuário compõem um dos principais setores da produção nacional, gerando em seu processo produtivo diversos tipos de resíduos característicos dessa atividade bem como os comuns. No presente estudo objetivou-se identificar, analisar e quantificar os resíduos sólidos gerados em uma empresa de confecção de vestuário do município de Três Passos/RS. O estudo foi realizado entre setembro de 2016 e maio de 2017, e a metodologia de classificação e separação dos resíduos sólidos foi baseada na NBR 10004/2004, quantificando-se os resíduos gerados durante 50 dias, bem como foram identificadas as práticas de acondicionamento e destinação final. Verificou-se que a empresa gera 33 tipos de resíduos, sendo os têxteis os mais representativos. Dos 351,44 kg de resíduos totais gerados no período, 241,56 kg foram de resíduos têxteis (68,73%), gerados nos setores de corte e costura/acabamento e limpeza; 92,66 kg de resíduos secos (26,37%); 8,80 kg de resíduos orgânicos (2,5%); e 8,42 kg de rejeitos provenientes dos banheiros (2,4%). Dessa forma foi possível identificar o principal setor gerador, que foi o de corte e indicar alternativas para a destinação dos resíduos.",
+        "pdf_url": "https://bu.furb.br/ojs/index.php/rea/article/download/7838/4563",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W3016534382",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Redes de subcontratação e trabalho a domicílio na indústria de confecção: um estudo na região de Campinas",
+        "source": "openalex",
+        "url": "https://doi.org/10.1590/s0104-83332002000100010",
+        "doi": "10.1590/s0104-83332002000100010",
+        "year": 2002,
+        "authors": [
+          "Angela Maria Carneiro Araújo",
+          "Elaine Regina Aguiar Amorim"
+        ],
+        "venue": "Cadernos Pagu",
+        "abstract": "Este artigo tem como propósito discutir as redes de subcontratação e os novos \"usos\" do trabalho a domicílio como elementos centrais do processo de reestruturação do setor de confecção nos anos 90, bem como seus impactos sobre as condições de trabalho e saúde das mulheres trabalhadoras. Para isso, partimos de uma pesquisa realizada na região de Campinas/SP, que contemplou o estudo de empresas de confecção de pequeno e médio porte, como também uma extensa rede de subcontratação, que tem na sua ponta inferior o trabalho a domicílio. A pesquisa mostra que as mulheres constituem a força de trabalho tradicionalmente subcontratada pelas empresas confeccionistas e ocupam as posições inferiores e mais vulneráveis na cadeia produtiva. Mostra também que o trabalho a domicílio aparece revitalizado, como instrumento central de aumento da produtividade a baixos custos e como forma alternativa de enfrentar a concorrência com grandes empresas do ramo.",
+        "pdf_url": "https://www.scielo.br/j/cpa/a/C9ZXZQzWkTLhSvJzVJHbhXb/?lang=pt&format=pdf",
+        "citation_count": 57,
+        "work_type": "article",
+        "identifier": "W1991190399",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Sustentabilidade ambiental e responsabilidade social na cadeia de moda Brasileira: uma proposta de aproveitamento de sobras de tecido",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2017v8n1p115",
+        "doi": "10.5433/2236-2207.2017v8n1p115",
+        "year": 2017,
+        "authors": [
+          "Maria Sílvia Barros de Held",
+          "Regina Aparecida Sanches",
+          "Caroline Oliveira Pimentel Coutinho",
+          "Daniela Ester Ferreira",
+          "Jonas Oji Wada Toshio",
+          "Paula Hübner",
+          "Yasmin Becker Araujo"
+        ],
+        "venue": "Projetica",
+        "abstract": "O presente artigo visa apresentar uma proposta para incorporar a sustentabilidade e responsabilidade social em uma empresa de produção de vestuário. Expõe a importância do tema em estudo, referências literárias sobre sustentabilidade e a cadeia de moda no Brasil. Propõe ainda um modelo coeso e eficaz para o aproveitamento de sobras dentro de uma indústria de confecção, usando a metodologia de projeto de produto de Bomfim (1975).",
+        "pdf_url": "http://www.uel.br/revistas/uel/index.php/projetica/article/download/23995/21606",
+        "citation_count": 5,
+        "work_type": "article",
+        "identifier": "W2761086600",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Ações de produção mais limpa na indústria têxtil e de confecção como estratégia de gerenciamento dos resíduos sólidos",
+        "source": "openalex",
+        "url": "https://doi.org/10.3895/rts.v22n69.20692",
+        "doi": "10.3895/rts.v22n69.20692",
+        "year": 2026,
+        "authors": [
+          "Cassio Wesley Butini de Meneses",
+          "Allana Coelho",
+          "Tânia Gonçalves dos Santos",
+          "Débora Regina Schneider Locatelli",
+          "Eduardo Pavan Korf"
+        ],
+        "venue": "Revista Tecnologia e Sociedade",
+        "abstract": "A indústria têxtil e de confecção gera muitos resíduos, para mitigar esse impacto, a produção mais limpa (P+L) surge como uma estratégia. Este estudo objetiva identificar e propor ações como estratégia de p+L existentes e a serem implantadas no gerenciamento de resíduos sólidos. Ele foi desenvolvido com revisão sistemática de literatura e documentos. A literatura apresentou diferentes práticas, como: reciclagem química para fibras sintéticas, o upcycling para criar produtos de maior valor e a adoção do conceito zero waste, que busca o reaproveitamento integral dos retalhos. O estudo também reforça a importância da logística reversa e de políticas públicas que incentivem a economia circular. Verificou-se que o Banco do Vestuário do Arranjo Produtivo Local (APL) Polovest de Erechim-RS é um exemplo de iniciativa nesse sentido, pois gerencia e destina aparas, retalhos e sobras de tecidos, tanto para cursos de costura e patchwork, mas a maior parte vai para reciclagem, cerca de 215 toneladas.",
+        "pdf_url": "https://periodicos.utfpr.edu.br/rts/article/download/20692/11386",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7221139477",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Estudo sobre a gestão de resíduos em uma indústria de confecção têxtil do município de Ponta Grossa - PR",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/23419",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Elisandra Montes Pizyblski"
+        ],
+        "venue": "Institutional Repository of the Federal Technological University of Paraná (RIUT) (Federal University of Technology – Paraná)",
+        "abstract": "This research was conducted in order to identify the waste generated in the production process of a textile manufacturing industry of the city of Ponta Grossa - PR. Solid wastes are present in almost all sectors of the textile production chain. The following topics were addressed in the literature review: characterization of the Brazilian textile industry, paranaense and pontagrossense, solid waste management, production processes that are part of the textile and clothing industries tools to minimize waste throughout the supply chain. The research is classified as a case study, carried out in a textile manufacturing in the city of Ponta Grossa - PR, grounded through a semi-structured interview and observation. With this research we could analyze the waste textiles, diagnose processes in which they were generated and show alternatives to waste.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W2803051293",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A Requalificação funcional, estética e simbólica de retalhos de tecidos composto por poliamida e elastano",
+        "source": "openalex",
+        "url": "https://doi.org/10.23972/det2022iss25pp28-37",
+        "doi": "10.23972/det2022iss25pp28-37",
+        "year": 2022,
+        "authors": [
+          "Renata Garcia Wanderley",
+          "Laís Helena Gouveia Rodrigues",
+          "Camila Brito de Vasconcelos",
+          "Andréa Fernanda de Santana Costa",
+          "Jacqueline da Silva Macêdo"
+        ],
+        "venue": "Design e Tecnologia",
+        "abstract": "Os polos da moda, como omitido para revisão cega, envolvem diversas atividades, geram inúmeras peças, mas também produzem resíduos diversos. Como resíduos sólidos destacam-se os retalhos de tecidos de composições diversas. O volume de resíduos têxteis de origem química compostos de poliamida, elastano e poliéster chega a ser imensurável. Não existe uma coleta especial para os resíduos têxteis, sendo eles descartados como lixo comum em aterros sanitários ou doados para comunidades para sua aplicação em produtos com pouco valor agregado. Esse cenário transforma esses resíduos em um problema econômico (desperdício), social (desvalorização) e ambiental (poluição). Esse contexto exige a requalificação funcional, estética e simbólicas desses resíduos com a construção de um novo material para aplicação em produtos de design. Suas características permitem a eles serem trabalhados por processo físicos e químicos. Para tanto foi experimentado dois processos: (a) Processo de fusão por calor indireto e (b) Processo por dissolução por glicerina. Ambos os processos foram eficientes para a reciclagem desses resíduos gerando materiais diversos, placas plásticas e pó e equipamentos distintos, equipamentos domésticos (forno e formas) e laboratoriais (becker, chapa térmica, estufa, filtro a vácuo), respectivamente. Contudo, foi concluído que o Processo de fusão por calor indireto é o mais indicado com algumas modificações do processo original. Ele é (a) econômico, com custo baixo em estrutura, material e temporal; (b) culturalmente representativo, adaptação e criação de símbolos materiais e imateriais, (c) ambientalmente sustentável, com reaproveitamento de resíduos, uso pequeno de recursos, (d) socialmente relevante, possibilitando sua execução por diferentes perfis de produtores. Além disso, segue os princípios da economia criativa, da sustentabilidade e da inovação. O material final é um material termoplástico, resistente e com flexibilidade dependente do espessura, com superfície heterógena, possibilidade de transformação (furação, lixamento, corte. Como aplicação indica-se acessórios (colar, brinco e anel, bolsas e botões) e martes de móveis (tampo de mesa, assento de cadeiras e bancos).",
+        "pdf_url": "https://www.ufrgs.br/det/index.php/det/article/download/987/340",
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "W4313336388",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Planejamento de produto e fluxo informacional em empresas do setor de confecção",
+        "source": "openalex",
+        "url": "https://doi.org/10.23972/det2019iss18pp32-50",
+        "doi": "10.23972/det2019iss18pp32-50",
+        "year": 2019,
+        "authors": [
+          "Letícia Cunico",
+          "Claudelino Martins Dias"
+        ],
+        "venue": "Design e Tecnologia",
+        "abstract": "Empresas que trabalham orientadas ao consumidor são pressionadas a buscar inovações constantes em curtos prazos para o lançamento de produtos. Assim, para tornarem-se competitivas, empregam processos e ferramentas que possam qualificar informações para decisões. A preocupação em vender de forma eficiente condiciona a oferta de produtos a valores e desejos do consumidor, desafiando o desempenho comercial do setor confecção. O presente estudo parte do preceito que um melhor desempenho comercial esteja atrelado ao planejamento e desenvolvimento do produto, por meio do aperfeiçoamento do uso da informação. Nesse sentido, propõe: identificar os elementos formadores do planejamento de produto na indústria; analisar as características dos modelos de referência no planejamento do uso da informação, especialmente em empresas do setor de confecção. Para definir preliminarmente o problema de pesquisa e determinar sua relevância, importância e oportunidade do estudo, foi realizada uma revisão sistemática da literatura. Ademais, quanto à classificação da metodologia, utiliza a pesquisa qualitativa básica, destinada à ampliação do conhecimento. Quanto aos objetivos, o trabalho apresenta-se como descritivo, tendo como parâmetro o estudo do planejamento de produto e do fluxo informacional. Como resultados constam a identificação dos elementos formadores do planejamento de produto e do fluxo informacional correspondente. Elementos esses que podem subsidiar a percepção de melhorias ao gerenciamento do contexto de Planejamento de produto em empresas do setor de confecção.",
+        "pdf_url": "https://www.ufrgs.br/det/index.php/det/article/download/527/278",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W2978247048",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Inovação sustentável em micro e pequenas empresas: estudo de caso em uma confecção de roupas",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1843/65280",
+        "doi": null,
+        "year": 2023,
+        "authors": [
+          "Talita Venilda Guimarães"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Innovation is traditionally seen as a competitive advantage, also in micro and small companies. The 20th century was marked by an acceleration of innovation processes, but also by the progressive deterioration of the environment and the prospect of scarcity of natural resources, increasing concern with environmental issues, both by citizens and by the public authorities, bringing these issues to the daily lives of companies. This paper seeks to discuss the conditions for sustainable innovation in small Brazilian apparel companies, a sector that is notably problematic, whether in environmental, social or economic terms. The work was carried out from a case study centered on a clothing factory located in the region of Itabirito (MG). The objective was the proposition of principles aimed at introducing innovations that guarantee the company's sustainability. Thus, environmental practices can generate value for the company, as well as benefit employees, the community and the environment, making it competitive in the market in which it operates. As a result, process and product improvements were proposed with the aim of making the company under study sustainable.",
+        "pdf_url": "https://repositorio.ufmg.br/bitstreams/cac4d709-29aa-4626-954e-537c8264fc4c/download",
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W7119423814",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Redução de resíduos têxteis por meio de projeto de produto de moda",
+        "source": "openalex",
+        "url": "https://doi.org/10.23972/det2015iss10pp38-44",
+        "doi": "10.23972/det2015iss10pp38-44",
+        "year": 2015,
+        "authors": [
+          "Micaela La Delfa Ferreira",
+          "Thays Neves Costa",
+          "Fábio Gonçalves Teixeira",
+          "Airton Cattani",
+          "Jocelise Jacques de Jacques"
+        ],
+        "venue": "Design e Tecnologia",
+        "abstract": "O presente artigo traz reflexões sobre como o projeto de moda pode ser pensado com o viés da sustentabilidade ambiental, contemplando alguns conceitos e ações do setor têxtil e de confecção. Foi realizada uma simulação de produção de um modelo de blusa feminina levando em consideração os conceitos de redução de resíduo na fonte por meio de modificações simples no produto. Desta forma, foram elaborados os desenhos, modelagens, encaixes e cálculos de tecidos e mão de obra para que fossem comparados os custos de produção e de geração de resíduos têxteis em cada um dos modelos. Os resultados mostram que as modificações reduziram consideravelmente a quantidade de resíduos na etapa de corte de tecidos, embora tenham acarretado no aumento dos custos com mão de obra",
+        "pdf_url": "https://www.ufrgs.br/det/index.php/det/article/download/283/162",
+        "citation_count": 30,
+        "work_type": "article",
+        "identifier": "W2279753173",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "MackHaus: fabricação digital subtrativa aplicada à produção de habitações por meio de encaixes em madeira",
+        "source": "openalex",
+        "url": "http://dspace.mackenzie.br/handle/10899/26203",
+        "doi": null,
+        "year": 2019,
+        "authors": [
+          "Eduardo Luisi Paixão Silva Campolongo"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Submitted by Rafaella Custódio (1707909@mackenzie.br) on 2019-09-30T12:55:42Z No. of bitstreams: 2 Eduardo Campolongo.pdf: 16950385 bytes, checksum: e48c6ff5812c10ffbc97bc479d6cef6c (MD5) license_rdf: 0 bytes, checksum: d41d8cd98f00b204e9800998ecf8427e (MD5)",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2986448860",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "BALANCEAMENTO DE LINHA NO PROCESSO PRODUTIVO DE SUTIÃS: UM ESTUDO EM UMA CONFECÇÃO DE MODA ÍNTIMA",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.14488/enegep2022_tn_st_382_1887_43771",
+        "doi": "10.14488/enegep2022_tn_st_382_1887_43771",
+        "year": 2022,
+        "authors": [
+          "Luana Garcia de Oliveira",
+          "Claudilaine Caldas de Oliveira",
+          "BRUNA GONÇALVES DE SOUZA"
+        ],
+        "venue": "Anais ... Encontro Nacional de Engenharia de Produção/Anais do Encontro Nacional de Engenharia de Produção",
+        "abstract": "um desafio que empresas permaneam competitivas, o que torna cada vez mais necessria a busca por eficincia e desempenho, a partir da reduo de custos e otimizao da qualidade dos processos. Nesse intuito, a presente pesquisa teve como objetivo realizar o balanceamento de uma das linhas de produo de uma confeco de moda ntima, localizada em Moreira Sales/PR, com foco no processo produtivo da linha de sutis da famlia Soft. Foram avaliados os parmetros quantidade produzida, tempo de processamento, tempo de paradas programadas e demanda, a partir da anlise do processo produtivo, a fim de propor melhorias com a realizao do balanceamento de linha. A avaliao dos dados coletados indicou que o nmero de operadores nessa linha de produo era maior que o necessrio, acarretando uma eficincia baixa nos postos de trabalho. Assim, foi sugerido o remanejamento de algumas atividades e realocao dos operadores para outras linhas de produo, visando o aumento da eficincia. Com a realizao desse estudo, concluiu-se que a aplicao do balanceamento de linha capaz de levar ao aumento significativo na eficincia de uma linha de produo.",
+        "pdf_url": "http://www.abepro.org.br/biblioteca/TN_ST_382_1887_43771.pdf",
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W4316080363",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "A Indústria de Confecção do Vestuário de Pato Branco: Aspectos de Gestão, Design, Caracterização de Matérias-Primas e Geração de Resíduos Têxteis",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1982615x10202017023",
+        "doi": "10.5965/1982615x10202017023",
+        "year": 2017,
+        "authors": [
+          "Andréia Mesacasa",
+          "Mário Antônio Alves da Cunha"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "Esta pesquisa possui como foco a indústria de confecção do vestuário no município de Pato branco, evidenciando aspectos relativos à gestão, design, caracterização de matérias-primas e geração de resíduos. No presente estudo foi realizado um diagnóstico junto às empresas, com o intuito de obter informações referentes aos perfis das mesmas, destacando as formas de gestão, design e desenvolvimento de produto, matérias-primas utilizadas e geração de resíduos têxteis. Tais empresas caracterizam-se como empreendimentos de micro e pequeno porte, atuando em diferentes segmentos de mercado, com forte tendência a produção de uniformes profissionais. Em consequência disso, grande parte dos resíduos gerados é constituída por retalhos de malha. Neste sentido, uma alternativa para o reaproveitamento destes resíduos poderia contribuir tanto do ponto de vista ambiental por meio de um melhor direcionamento destes, como economicamente, uma vez que poderiam ser voltados para a produção de produtos de maior valor agregado.",
+        "pdf_url": "http://revistas.udesc.br/index.php/modapalavra/article/download/9554/6800",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W2634651200",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "ENCAIXE FINANCEIRO",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.20781",
+        "doi": "10.17771/pucrio.acad.20781",
+        "year": 2015,
+        "authors": [
+          "LEANDRO MACEDO TAVARES"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.20781",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "ENCAIXE GERAL DE FIGURAS PLANAS",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.19764",
+        "doi": "10.17771/pucrio.acad.19764",
+        "year": 2015,
+        "authors": [
+          "ALTAMIR DIAS"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.19764",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "AVALIAÇÃO DE RISCO E DE CORTE ESPERADO DE GERAÇÃO NO ACESSO DE GERADORES RENOVÁVEIS AO SISTEMA DE TRANSMISSÃO",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.75170",
+        "doi": "10.17771/pucrio.acad.75170",
+        "year": 2026,
+        "authors": [
+          "GABRIEL DOS SANTOS V NASCIMENTO"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.75170",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "Pontos de corte do risco de sarcopenia baseados em força isométrica de membros inferiores e tronco em mulheres idosas",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.109.2022.tde-17032022-151311",
+        "doi": "10.11606/d.109.2022.tde-17032022-151311",
+        "year": 2022,
+        "authors": [
+          "José Augusto Gonçalves Marini"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.109.2022.tde-17032022-151311",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de Sao Paulo, Agencia USP de Gestao da Informacao Academica (AGUIA)"
+        }
+      },
+      {
+        "title": "Habilidade de predição e fatores de risco para prenhez por IATF em bovinos de corte na América do Sul",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.74.2022.tde-09022023-121855",
+        "doi": "10.11606/d.74.2022.tde-09022023-121855",
+        "year": 2023,
+        "authors": [
+          "Rodolffo Emilio Fontana Assis"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.74.2022.tde-09022023-121855",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de Sao Paulo, Agencia USP de Gestao da Informacao Academica (AGUIA)"
+        }
+      },
+      {
+        "title": "SISTEMA DE ENCAIXE DE FIGURAS PLANAS UTILIZANDO COMPUTAÇÃO GRÁFICA",
+        "source": "crossref",
+        "url": "https://doi.org/10.17771/pucrio.acad.33308",
+        "doi": "10.17771/pucrio.acad.33308",
+        "year": 2018,
+        "authors": [
+          "JOAO CARLOS ESPINDOLA FERREIRA"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.17771/pucrio.acad.33308",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Faculdades Catolicas"
+        }
+      },
+      {
+        "title": "Protese com encaixe de semi-precisão",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1971.279728",
+        "doi": "10.47749/t/unicamp.1971.279728",
+        "year": 2021,
+        "authors": [
+          "Ataualpa Francisco Pacheco Meneghel"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1971.279728",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Análise por UPLC-MS/MS da clotianidina em amostras de tecido da abelha &gt;i&lt;Tetragonisca angustula&gt;/i&lt; L., associado a respostas de toxicidade, alterações bioquímicas e risco ecológico",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.75.2022.tde-13122022-110908",
+        "doi": "10.11606/d.75.2022.tde-13122022-110908",
+        "year": 2022,
+        "authors": [
+          "Gabriela Fernandes Biscassi"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.75.2022.tde-13122022-110908",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de Sao Paulo, Agencia USP de Gestao da Informacao Academica (AGUIA)"
+        }
+      },
+      {
+        "title": "Avaliação da eficácia de medidas de adiposidade e pontos de corte específicos em identificar risco cardiometabólico de pacientes soropositivos para HIV",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/003158963",
+        "doi": "10.11606/003158963",
+        "year": 2026,
+        "authors": [
+          "Julia Vinhas de Sá"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/003158963",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Diretrizes para racionalização construtiva em coberturas com telhados por encaixe: proposta e aplicação.",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/t.3.2001.tde-08072026-144638",
+        "doi": "10.11606/t.3.2001.tde-08072026-144638",
+        "year": 2026,
+        "authors": [
+          "Marcela Meneguetti"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/t.3.2001.tde-08072026-144638",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Análise dos fatores de risco do corte manual e mecanizado da cana-de-açúcar no Brasil segundo o referencial da promoção da saúde",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/t.83.2007.tde-07012008-103708",
+        "doi": "10.11606/t.83.2007.tde-07012008-103708",
+        "year": 2015,
+        "authors": [
+          "Fernanda Ludmilla Rossi Rocha"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "10.11606/t.83.2007.tde-07012008-103708",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Civilización del desperdicio. Psicoeconomía del consumidor",
+        "source": "crossref",
+        "url": "https://doi.org/10.21678/978-9972-57-240-1",
+        "doi": "10.21678/978-9972-57-240-1",
+        "year": 2013,
+        "authors": [
+          "Jürgen Schuldt"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.21678/978-9972-57-240-1",
+        "extra": {
+          "crossref_type": "book",
+          "publisher": "Universidad del Pacífico"
+        }
+      },
+      {
+        "title": "Um corte radical no tecido da História: o livre uso do passado na narrativa biográfica de Paulo Leminski",
+        "source": "crossref",
+        "url": "https://doi.org/10.15848/hh.v0i17.798",
+        "doi": "10.15848/hh.v0i17.798",
+        "year": 2015,
+        "authors": [
+          "Everton de Oliveira Moraes"
+        ],
+        "venue": "História da Historiografia: International Journal of Theory and History of Historiography",
+        "abstract": "Este texto tem como objetivo analisar os usos do passado na literatura biográfica de Paulo Leminski, bem como a ideia de historicidade que estes usos pressupõem. Tomar-se-á, para isto, como exemplo, a biografia do poeta catarinense Cruz e Sousa escrita pelo autor curitibano. Interessa perceber como Leminski busca criar uma narrativa literária que se utiliza de fragmentos de passado para problematizar a sua atualidade, tecendo, através desta narrativa, conexões com múltiplas temporalidades, questionando as relações entre sujeito e objeto, tais como elas se efetuam nos saberes disciplinares modernos e na política contemporânea. Esse tipo de experiência do pensamento pode ajudar a problematizar os limites de nossa imaginação historiográfica.",
+        "pdf_url": "https://revistahh.emnuvens.com.br/revista/article/download/798/543",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.15848/hh.v0i17.798",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Sociedade Brasileria de Teoria e Historia de Historiografia"
+        }
+      },
+      {
+        "title": "Cómo reducir el desperdicio alimentario",
+        "source": "crossref",
+        "url": "https://doi.org/10.64628/aao.eqp3scsdc",
+        "doi": "10.64628/aao.eqp3scsdc",
+        "year": 2020,
+        "authors": [
+          "Manuel Pallarés"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "preprint",
+        "identifier": "10.64628/aao.eqp3scsdc",
+        "extra": {
+          "crossref_type": "posted-content",
+          "publisher": "The Conversation Media Group Ltd"
+        }
+      },
+      {
+        "title": "El arbitrario martirio de Juan Corte, en una trama de Dino Buzzati",
+        "source": "crossref",
+        "url": "https://doi.org/10.29393/at371-533alam10533",
+        "doi": "10.29393/at371-533alam10533",
+        "year": 1956,
+        "authors": [
+          "Alejandro Lora Risco"
+        ],
+        "venue": "Atenea (Concepción)",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.29393/at371-533alam10533",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidad de Concepcion"
+        }
+      },
+      {
+        "title": "Estrategias nacionales contra el desperdicio de alimentos",
+        "source": "crossref",
+        "url": "https://doi.org/10.6027/f4810c82-es",
+        "doi": "10.6027/f4810c82-es",
+        "year": 2019,
+        "authors": [
+          "Nordic Council of Ministers"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.6027/f4810c82-es",
+        "extra": {
+          "crossref_type": "component",
+          "publisher": "Nordic Council of Ministers"
+        }
+      },
+      {
+        "title": "Avaliação de Risco e de Corte Esperado de Geração no Acesso de Geradores Renováveis ao Sistema de Transmissão",
+        "source": "crossref",
+        "url": "https://doi.org/10.29327/1989232.26-240",
+        "doi": "10.29327/1989232.26-240",
+        "year": 2026,
+        "authors": [
+          "Gabriel Nascimento",
+          "André Milhorance"
+        ],
+        "venue": "Anais do XXVI Congresso Brasileiro de Automática",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.29327/1989232.26-240",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "Redes nórdicas contra el desperdicio de alimentos",
+        "source": "crossref",
+        "url": "https://doi.org/10.6027/c615cef8-es",
+        "doi": "10.6027/c615cef8-es",
+        "year": 2019,
+        "authors": [
+          "Nordic Council of Ministers"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.6027/c615cef8-es",
+        "extra": {
+          "crossref_type": "component",
+          "publisher": "Nordic Council of Ministers"
+        }
+      },
+      {
+        "title": "Processos adaptativos do tecido muscular esqueletico e tecido conjuntivo: repercussões sobre a flexibilidade",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1997.114864",
+        "doi": "10.47749/t/unicamp.1997.114864",
+        "year": 2021,
+        "authors": [
+          "Marco Antonio Alves de Moraes"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1997.114864",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Reducir las pérdidas y el desperdicio de alimentos",
+        "source": "crossref",
+        "url": "https://doi.org/10.4060/cd9305es",
+        "doi": "10.4060/cd9305es",
+        "year": 2026,
+        "authors": [],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.4060/cd9305es",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "FAO"
+        }
+      }
+    ]
+  },
+  "count": 40,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:04:24.982403+00:00"
+}

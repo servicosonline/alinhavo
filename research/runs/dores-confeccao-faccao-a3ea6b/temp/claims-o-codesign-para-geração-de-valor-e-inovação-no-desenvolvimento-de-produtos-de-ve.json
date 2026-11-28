@@ -1,0 +1,16 @@
+[
+  {
+    "claim": "No desenvolvimento de produtos de vestuário, a colaboração estruturada via codesign entre stakeholders atua como fator causal para a geração de valor, enquanto a gestão de relacionamento é determinante para a inovação.",
+    "stance": "supports",
+    "stance_target": "importância da colaboração e gestão de relacionamento no desenvolvimento de produtos em confecções",
+    "evidence_type": "empirical",
+    "scope_conditions": "Revisão bibliográfica e estudo de caso em uma empresa brasileira de vestuário",
+    "quoted_support": "Os resultados apresentados e discutidos revelam aspectos novos sobre os fatores causais da criação de valor e da inovação. O estudo conclui com a constatação de duas relações causais no desenvolvimento de produtos de vestuário: o codesign é fator que está para a geração de valor assim como a gestão de relacionamento está para a inovação.",
+    "numbers": ["2 relações causais"],
+    "entities": ["Universidade Federal do Paraná", "Modapalavra e-periódico", "UDESC"],
+    "time_period": "2021",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "o-codesign-para-geração-de-valor-e-inovação-no-desenvolvimento-de-produtos-de-ve"
+  }
+]

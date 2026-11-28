@@ -1,0 +1,829 @@
+{
+  "ok": true,
+  "data": {
+    "query": "PLM apparel product development sample reduction rework case study",
+    "scope": "all",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab",
+      "clinicaltrials"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 20,
+      "doab": 0,
+      "clinicaltrials": 0
+    },
+    "raw_records": 40,
+    "merged_records": 39,
+    "returned": 39,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref.",
+      "SEC EDGAR: set HYPERRESEARCH_CONTACT_EMAIL — the SEC rejects requests whose User-Agent carries no contact address (HTTP 403)",
+      "FRED: set FRED_API_KEY"
+    ],
+    "results": [
+      {
+        "title": "Advances in apparel product development",
+        "source": "openalex",
+        "url": "https://doi.org/10.1533/9781845694463.2.157",
+        "doi": "10.1533/9781845694463.2.157",
+        "year": 2008,
+        "authors": [
+          "David Tyler"
+        ],
+        "venue": "Elsevier eBooks",
+        "abstract": null,
+        "pdf_url": "https://e-space.mmu.ac.uk/622055/7/tyler%20woodhead-main.pdf",
+        "citation_count": 9,
+        "work_type": "book-chapter",
+        "identifier": "W1010688225",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier",
+          "openalex_type": "book-chapter",
+          "oa_status": "green",
+          "also_in": "openalex,crossref"
+        }
+      },
+      {
+        "title": "A digital twin framework development for apparel manufacturing industry",
+        "source": "openalex",
+        "url": "https://doi.org/10.1016/j.dajour.2023.100252",
+        "doi": "10.1016/j.dajour.2023.100252",
+        "year": 2023,
+        "authors": [
+          "Mohammed Didarul Alam",
+          "Golam Kabir",
+          "Seyedmehdi Mirmohammadsadeghi"
+        ],
+        "venue": "Decision Analytics Journal",
+        "abstract": "The apparel manufacturing industry faces challenges due to fast-changing fashion trends, increased product variety, and personalized demands. Quick and optimized decision-making is crucial to overcome these barriers. This study aims to develop a methodology for applying Digital Twin (DT) technology in apparel manufacturing plants. We demonstrate the applicability and exhibit efficacy of the proposed method by presenting a case study on implementing the DT technology at a sewing assembly line. The proposed approach provides step-by-step guidance, collecting real-time data and conducting dynamic simulations to reduce bottleneck operations. DT technology assists in decision-making, enabling apparel manufacturing plants to respond quickly to changing demands and to reduce bottleneck operations. This study demonstrates the effectiveness of the proposed methodology by reducing downtime and improving production efficiency. The proposed method can improve production efficiency, reduce downtime, and respond quickly to changing demands in the apparel manufacturing industry.",
+        "pdf_url": null,
+        "citation_count": 70,
+        "work_type": "article",
+        "identifier": "W4377041462",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Optimization of architectural design and construction with integrated BIM and PLM methodologies",
+        "source": "openalex",
+        "url": "https://doi.org/10.1038/s41598-024-75940-x",
+        "doi": "10.1038/s41598-024-75940-x",
+        "year": 2024,
+        "authors": [
+          "Shen Zhang",
+          "Yuchen Tang",
+          "Yiquan Zou",
+          "Hao Yang",
+          "Yufei Chen",
+          "Jin Feng Liang"
+        ],
+        "venue": "Scientific Reports",
+        "abstract": "Digital transformation in the architecture industry encounters challenges such as data silos within design stages, between design and construction, and across the entire industry chain, including BIM and project management. This study introduces a pioneering approach for seamlessly integrating building information modeling (BIM) and product lifecycle management (PLM) within the management framework and collaborative workflows of architectural design and construction. The proposed methodology was implemented in two major projects, namely, the Wuhan Next-Generation Weather Radar Construction Project and the Hubei Center for Disease Control and Prevention Comprehensive Capacity Enhancement Project (Phase I), with the former being China's first end-to-end digitally integrated construction project. Compared with traditional projects, these implementations achieved improvements of 24.39% and 38.04%, respectively, in objective function values. The findings highlight the unique advantages of BIM-PLM integration in optimizing lifecycle management, enhancing cross-disciplinary, cross-enterprise, and cross-regional collaboration, improving project design efficiency and quality, and reducing costs and waste. This integration provides valuable insights into the digital advancement of the construction industry.",
+        "pdf_url": "https://www.nature.com/articles/s41598-024-75940-x.pdf",
+        "citation_count": 42,
+        "work_type": "article",
+        "identifier": "W4403889213",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Improving new product development in the fashion industry through product lifecycle management: a descriptive analysis",
+        "source": "openalex",
+        "url": "https://doi.org/10.1080/17543266.2015.1005697",
+        "doi": "10.1080/17543266.2015.1005697",
+        "year": 2015,
+        "authors": [
+          "Elisa D'Avolio",
+          "Romeo Bandinelli",
+          "Rinaldo Rinaldi"
+        ],
+        "venue": "International Journal of Fashion Design Technology and Education",
+        "abstract": "New product development represents a core process within the fashion industry: it is a knowledge-intensive set of tasks that needs to be improved in order to enhance a company's competitive advantage. In this context, through product lifecycle management (PLM) product data are shared amongst the various actors and processes in the different phases of the product lifecycle. A descriptive exploratory research allows the authors to recognise the importance of PLM in the fashion industry, after an in-depth analysis of the existing literature. PLM includes modules supporting many industry-specific processes, reducing time-to-market, lead times and inventory. It is not just a product centric lifecycle-oriented business model, but it also represents a strategic approach that is spreading in the recent years also in a complex industry, as that of fashion.",
+        "pdf_url": "https://flore.unifi.it/bitstream/2158/1012132/2/TFDT_A_1005697_rev1.pdf",
+        "citation_count": 45,
+        "work_type": "article",
+        "identifier": "W2051135022",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Integrating Human-Centered Design with Agile Methodologies in Product Lifecycle Management",
+        "source": "openalex",
+        "url": "https://doi.org/10.70849/ijsci02102025115",
+        "doi": "10.70849/ijsci02102025115",
+        "year": 2025,
+        "authors": [
+          "S M Mobasshir Islam Sharan"
+        ],
+        "venue": "International Journal of Sciences and Innovation Engineering",
+        "abstract": "This paper studies how Human-Centered Design (HCD) can work together with Agile methods to improve Product Lifecycle Management (PLM). Both HCD and Agile are widely used in modern product development, but they are often applied separately. HCD focuses on understanding users’ real needs, behaviors, and emotions before creating a product. It helps teams design products that people find useful, easy to use, and enjoyable. Agile, on the other hand, focuses on flexibility, teamwork, and fast delivery through short development cycles called sprints. It helps teams respond quickly to change and reduce project delays. When combined, these two methods can create a powerful process that balances speed with empathy. The paper explains how to integrate user research, testing, and feedback directly into Agile sprints. This approach allows teams to stay focused on user needs while still delivering quickly. It also supports better collaboration between designers, developers, and managers. The study includes a review of related research, real-world case studies, and expert interviews. Results show that integrating HCD with Agile improves user satisfaction, team communication, and product quality. It also reduces design rework and speeds up decision-making. The paper concludes that merging HCD and Agile within PLM can create smarter, faster, and more human-centered product development systems.",
+        "pdf_url": "https://ijsci.com/index.php/home/article/download/796/IJSCI02102025115",
+        "citation_count": 50,
+        "work_type": "article",
+        "identifier": "W4415860423",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "The adoption of lean techniques to optimise the on-shelf availability of products and drive business performance in the food industry: a South African manufacturing and retail case study",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/11427/10363",
+        "doi": null,
+        "year": 2013,
+        "authors": [
+          "Tony Mendes Domingo"
+        ],
+        "venue": "Open University of Cape Town (University of Cape Town)",
+        "abstract": "The degree of sustaining business performance, while maintaining competitive costs, satisfied consumers and customers has become more difficult and harder to achieve. To date, both retailers and manufacturers are economically challenged as they enter into a new age and era that is characterised by a restructuring of the supply and demand known today, the one in which the consumer demand chain will both lead and direct all organisational processes. The greatest challenge in manufacturing and retail supply chains today continue to be the inconsistency of product availability. Both retailers and their manufacturers frequently find themselves in positions where they either have too much stock of specific stock-keeping units (SKUs) or insufficient stock levels of a particular SKU, Steve (2010). Retailers and their suppliers both seek to avoid the costly out-of-stock (OOS) situations, which result in lost revenue opportunity for both parties. OOS can also damage shopper loyalty as frustrated consumers might seek out alternative retailers for the same merchandise, while on the other hand suppliers' brand loyalty can be impacted if a competitor's product is substituted instead. It remains true that the two pillars of business, namely demand and supply, still rule. Traditionally, putting supply before demand, with its implied precedence, was the correct approach to apply, but in today's business environment, there is a major shift taking place, predominantly driven by the cycles in globalisation that would be faster than in the traditional way, oversupply in the fast -moving consumer goods industry, a parallel loss of pricing power, consumers with a twenty-four hours access to precise pricing information, which terminates the power of information scarcity, and shorter product life cycles. The global economic crash that represented a global economic storm led many organisations to rethink the manner in which organisations are led. A consensus exists among many authors and commentators that the emerging economic order has imposed changes to the very way companies are doing business.",
+        "pdf_url": null,
+        "citation_count": 10,
+        "work_type": "thesis",
+        "identifier": "W2259445260",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Industrial process simulation applying chronoanalysis and line balancing: a study case",
+        "source": "openalex",
+        "url": "https://doi.org/10.7769/gesec.v14i12.3308",
+        "doi": "10.7769/gesec.v14i12.3308",
+        "year": 2023,
+        "authors": [
+          "Raine Nascimento Da Silva",
+          "Djoille Denner Damm",
+          "João Luiz Carneiro Carvalho",
+          "Nilmar de Souza",
+          "Fábio André Lora",
+          "Luís Oscar Silva Martins",
+          "André de Mendonça Santos",
+          "Adillys Marcelo da Cunha Santos",
+          "Kalil Figueiredo Almeida"
+        ],
+        "venue": "Revista de Gestão e Secretariado (Management and Administrative Professional Review)",
+        "abstract": "The escalating competitiveness in the market has driven companies to continually seek methods that optimize their production processes, rendering them more flexible to facilitate waste reduction and to enhance manufacturing agility. This work herein applied process engineering tools combined with computer simulation to optimize a production line with a more balanced production, mitigating idleness, and increasing productivity. The methodology used the \"Tecnomatix® Plant Simulation\" software for modeling and simulating industrial reality, intending to reduce error margins and the risk of operational failures during the process flow. The proposal resulted in both decreased idleness and labor requirements across production lines, facilitating the establishment of a third customization line to augment the company's flexibility. Furthermore, the proposed methodology demonstrates its efficacy by not only increasing productivity but also enhancing production capacity on the factory floor thereby reducing variability through balanced operational tasks.",
+        "pdf_url": "https://ojs.revistagesec.org.br/secretariado/article/download/3308/2036",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4390445656",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Optimising production control for reduction of allergen contamination.",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10092/9888",
+        "doi": "10.26021/1551",
+        "year": 2014,
+        "authors": [
+          "Patrick van Gestel"
+        ],
+        "venue": "UC Research Repository  (University of Canterbury)",
+        "abstract": "The purpose of this work was to provide an integrated solution to the problem of optimising plant production flow while also optimising allergen control. That is, to improve process flows, improve equipment utilisation, reduce work-in-process (WIP) inventory, and reduce unnecessary movement of stock while also optimising allergen control in the area under investigation. Process improvement introduced to the plant during the project resulted in a 7% savings on labour cost, reduction in plant variability, reduced allergen cross contamination risk, reduced WIP, reduction of consumables, and increased equipment utilisation. Discrete event simulation software has been used to determine the preferred strategy for implementing allergen control in a food producing FMCG plant. Three preferred allergen control strategies were identified by the Company, which were then modelled and analysed for impact on labour cost. Furthermore, a study was done on the effect of plant layout on labour cost.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W2274276296",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Scientific and theoretical foundations of resource management in ensuring product quality and safety at light industry (sewing and knitting) enterprises",
+        "source": "openalex",
+        "url": "https://doi.org/10.56143/3030-3893-2026-3-87-91",
+        "doi": "10.56143/3030-3893-2026-3-87-91",
+        "year": 2026,
+        "authors": [
+          "Bekzodbek Komilov"
+        ],
+        "venue": "Международный научный журнал «Инженер»",
+        "abstract": "This article analyzes the scientific and theoretical foundations of the resource management system in ensuring product quality and safety in light industry enterprises, particularly garment and knitwear. The aim of the study is to systematically analyze the conceptual content of the resource management concept, its historical evolution, its interconnection with international quality and safety standards (ISO 9001:2015, ISO 14001, OEKO-TEX Standard 100), as well as the experience of leading foreign enterprises (Zara, Toyota, Nike, H&M). The study employed methods of comparative analysis, systematization of scientific literature, and content analysis of regulatory legal acts.",
+        "pdf_url": "https://engineer.tstu.uz/index.php/engineer-tstu/article/download/545/447",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7216274012",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Contribution to development of a secured traceability system for textile and clothing supply chain",
+        "source": "openalex",
+        "url": "https://doi.org/10.70675/f82af3caz6a63z4424z8bb4z4b8d6df50019",
+        "doi": "10.70675/f82af3caz6a63z4424z8bb4z4b8d6df50019",
+        "year": 2019,
+        "authors": [
+          "Tarun Kumar Agrawal"
+        ],
+        "venue": "theses.fr (ABES)",
+        "abstract": "Contribution au développement d’un système de traçabilité sécurisé pour la chaîne d'approvisionnement textile et habillement Une traçabilité sécurisée implique non seulement la possibilité d’identifier, capturer et partager des informations requises concernant la transformation du produit tout au long de la chaine d’approvisionnement, mais aussi d’assurer à la cyber-sécurité des données liées à la traçabilité. En raison de l’asymétrie des informations et du manque de transparence et du manque de solutions peu coûteuses, simples, sécurisées et efficaces à mettre en œuvre, les industries du textile et habillement connaissent souvent des difficultés à adopter et maintenir une traçabilité efficace. Les agents de la chaine d’approvisionnement trouvent difficile l’identification et le suivi de tous les fournisseurs et sous-contractants. De plus, l’opacité et le défaut de traçage dans la chaîne ont favorisé l’intrusion facile des contrefaçons. Par conséquent, le système de traçabilité sécurisé a été identifié comme étant un outil essentiel qui assure la capture et le partage des données de traçabilité nécessaires. Ceci permet le suivi et le repérage des produits dans la chaine d’approvisionnement. En outre, le système de traçabilité sécurisé permet une organisation aux niveaux des processus de prise de décisions, protège les clients des contrefaçons, apporte une réponse aux demandes de transparence des consommateurs et anticipe les besoins grandissants pour la chaine logistique retour et le recyclage de ces matériaux. Cette thèse contribue au développement d’un système de traçabilité sécurisé pour le secteur du textile et habillement. La traçabilité du système est examinée sur des produits et des niveaux d’informations en utilisant une approche système-système. Au niveau du produit, cette thèse introduit une étiquette de traçabilité sécurisée pouvant être imprimée à la surface du textile. L’étiquette sécurisée est difficile à copier, résistante aux conditions d’usages textiles, et donc fournit une sécurité suffisante avec le marquage du produit pour une mise en œuvre de la traçabilité. Au niveau informationnel, cette étude explore et classifie les données liées à la traçabilité pouvant être partagées entre les entreprises elles-mêmes ainsi qu’entre les entreprises et les clients, et ceci afin d’implémenter une traçabilité sécurisée. En outre, un système de traçabilité basé sur une chaine à blocs est proposé, pour la chaine d’approvisionnement textile-habillement, afin de capturer et partager systématiquement les données au réseau de chaines d’approvisionnement. Le système proposé prouve la faisabilité des infrastructures des donnés partagées pour une traçabilité sûre, sans autorité centrale, et développe une technologie basée sur la confiance entre les agents de la chaine. Il s’appuie sur une autorité décentralisée avec une confidentialité des données et des règles d’accessibilité personnalisées. Par conséquent, ce système fournit une opportunité unique, une flexibilité et une autorité à tous les agents pour retrouver leurs chaînes et créer un réseau de chaînes d'approvisionnement transparent et durable.",
+        "pdf_url": "https://hb.diva-portal.org/smash/get/diva2:1303821/FULLTEXT01",
+        "citation_count": 5,
+        "work_type": "thesis",
+        "identifier": "W7149029780",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Circular economy through 4.0 technologies: the case of eyewear",
+        "source": "openalex",
+        "url": "http://tesi.cab.unipd.it/63859/",
+        "doi": null,
+        "year": 2019,
+        "authors": [
+          "Arianna Feltrin"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W3025907308",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "closed"
+        }
+      },
+      {
+        "title": "How May Fashion Retailers Incorporate Lean Management in their Supply Chains? - A Case Study of the Current Supply Chain of a Small and Medium-sized Fashion Retailer and Suggestion of a Framework for Future Lean Implementation in Supply Chain Management",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/11250/2433800",
+        "doi": null,
+        "year": 2016,
+        "authors": [
+          "Jeffrey Zhang"
+        ],
+        "venue": "NVA (Nasjonalt vitenarkiv)",
+        "abstract": "This thesis attempts to provide a framework for how lean management methods could be incorporated in the supply chains of fashion retailers by reviewing relevant literature, development of a theoretical framework and conducting a case study of one of the biggest multi-brand fashion stores in Trondheim, Norway. Very limited research of lean supply chain within fashion industry context has been conducted. It will be useful to look at lean supply chain from the perspective of fashion retailers, as this type of research provides a fundamental framework for fashion retailers in order to adapt lean methods to more efficiently manage their supply chains. As a multi-brand fashion retailer, the case company do not do production of products by themselves and do not own any fashion brands either. The company is only focusing on their retailing operation. Knowledge of both fashion retailing and lean supply chain is required to provide a valuable framework for future lean implementation. The first part of the thesis is a literature study that focus on theory of different aspects regarding lean supply chain and fashion retailing industry, in order to get an insight in both knowledge areas. A theoretical foundation has been presented and a theoretical framework was then suggested for analysis of the current state of fashion retailers supply chains. The supply chain of the case company is described in detail in order to show how the supply chains of fashion retailers work today and provide data for mapping value stream map of current state (AS-IS). Analysis and evaluation of different lean management methods in the light of the characteristics of fashion retailing industry was done based on the AS-IS value stream map. In the end of the thesis, a modified framework of how fashion retailers which currently are not lean could incorporate lean management methods is suggested.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2602856745",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Evaluating lead time performance through cross-functional coordination in merchandising operations: A study of A.G Dresses Limited",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/10361/29266",
+        "doi": null,
+        "year": 2026,
+        "authors": [
+          "Wasi Shameem Chaudhury"
+        ],
+        "venue": "BRAC University Institutional Repository (BRAC University)",
+        "abstract": "This internship report is submitted in partial fulfillment of the requirements for the degree of Bachelor of Business Administration, 2026.",
+        "pdf_url": "https://dspace.bracu.ac.bd/bitstreams/5cc20640-e63e-49b4-92e8-d959e160bb42/download",
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "W7203854592",
+        "extra": {
+          "openalex_type": "report",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A Comparative Study of Oracle E-Business Suite vs. Oracle Fusion Cloud ERP for Discrete Manufacturing Organizations",
+        "source": "openalex",
+        "url": "https://doi.org/10.58425/ajt.v5i1.478",
+        "doi": "10.58425/ajt.v5i1.478",
+        "year": 2026,
+        "authors": [
+          "Srinivasan Narayanan"
+        ],
+        "venue": "American Journal of Technology",
+        "abstract": "Aim: This study conducts a comparative analysis of Oracle E-Business Suite (EBS) and Oracle Fusion Cloud ERP within the context of discrete manufacturing organizations. The objective is to evaluate their relative suitability by examining architectural frameworks, deployment models, user experience, scalability, integration capabilities, security structures, and five-year total cost of ownership (TCO). Methods: A mixed-method evaluation approach was employed, combining technical architecture analysis, functional capability assessment, and scenario-based financial modeling. The study assessed system characteristics across key operational dimensions, including deployment flexibility (on-premise versus cloud), customization depth, interoperability, cybersecurity posture, and cost structures. A five-year TCO analysis was conducted alongside scenario-based return on investment (ROI) modeling to evaluate economic performance across varying manufacturing environments like multi-site and high-change operational contexts. Results: The findings indicate that Oracle E-Business Suite remains well-suited for manufacturing environments requiring extensive in-stack customization and strict on-premise infrastructure control. Its stability and configurability make it particularly viable in mature, operationally stable settings with limited transformation requirements. In contrast, Oracle Fusion Cloud ERP demonstrates superior agility, enhanced scalability, improved native integration capabilities, and lower long-term operational overhead. The cloud-native architecture enables faster deployment cycles and reduced infrastructure management burdens. Scenario-based economic analysis shows that Fusion Cloud ERP delivers stronger ROI in dynamic, multi-site, and high-change manufacturing environments due to improved process standardization, reduced maintenance complexity, and accelerated time-to-value. Conclusion: While EBS continues to provide value in highly customized and stable manufacturing ecosystems, Oracle Fusion Cloud ERP offers strategic advantages in organizations pursuing digital transformation, operational agility, and scalable growth. Recommendations: Discrete manufacturing organizations should align ERP selection decisions with their operational complexity, growth trajectory, and transformation objectives. Organizations operating in stable, highly customized environments with significant legacy investment may continue leveraging Oracle EBS effectively.",
+        "pdf_url": "https://gprjournals.org/journals/index.php/ajt/article/download/478/478",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7128681573",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "From Design to Production: Innovations Driving Leadership Transformation in the Textile Industry",
+        "source": "openalex",
+        "url": "https://doi.org/10.4236/ajibm.2026.166029",
+        "doi": "10.4236/ajibm.2026.166029",
+        "year": 2026,
+        "authors": [
+          "Said Khakimov"
+        ],
+        "venue": "American Journal of Industrial and Business Management",
+        "abstract": "In the context of digitalisation, the adoption of Industry 4.0, and the intensification of ESG requirements, the textile industry is confronted with the necessity of structural transformation. The functional gap between design, production, and the market, which reduces the efficiency of value creation chains, remains a systemic problem of the sector. This study aims to analyse the mechanisms of textile business transformation through the integration of design and production within design-to-production (D2P) systems and to identify the role of innovative leadership. Methodologically, the work is grounded in a qualitative conceptual approach comprising an analytical literature review, the synthesis of D2P models, and the interpretation of industry practices. Drawing on the cases of Inditex (Zara), Nike, and SAG, the study demonstrates that digital technologies acquire strategic significance only when organisationally integrated into a unified value chain management system. The most effective transformation models are based on three elements: digital integration, sustainable production models (circular economy, ESG), and innovative leadership as the key mechanism for coordinating change. The principal conclusion is that D2P transformation in the textile industry is not merely a technological but also a managerial process, the success of which depends on integrated digital systems and leaders capable of synchronising design, production, and market.",
+        "pdf_url": "https://content.scirp.org/pdf/ajibm_2124176.pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7165056851",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "A Quality Management Model for an Extended Enterprise Oriented Manufacturing Supply Chain and Its Empirical Study Based on Chinese Suppliers",
+        "source": "openalex",
+        "url": "https://depositonce.tu-berlin.de/handle/11303/1990",
+        "doi": "10.14279/depositonce-1693",
+        "year": 2007,
+        "authors": [
+          "Yongrong Li"
+        ],
+        "venue": "DepositOnce",
+        "abstract": "Die Globalisierung der Herstellung und der Wettbewerb fördern die Integration der Herstellungslieferkette (MSC) in einen erweiterten Anwendungsbereich. Das Konzept der erweiterten Unternehmenslieferkette, welches anfänglich von führenden internationalen Giganten wie IBM, HP und Chrysler angewendet wurde, hat sich nun zu einer neuen Kompetenz im Hinblick auf die Zusammenarbeit innerhalb der gesamten Lieferkette, vom Lieferanten des Lieferanten bis hin zum Kunden des Kunden, entwickelt. Eine allgemein verständliche Qualitätsmanagement-Plattform ist die wesentliche Grundlage für die OEM und alle anderen in die Kette integrierten Partner. Das Qualitätsmanagement hat seinen Einfluss bewiesen, und die internationalen Qualitätsstandards werden immer stärker in die Qualität der Lieferkette einbezogen. Allerdings ist das Qualitätsmanagement noch immer auf das Innere eines einzelnen Unternehmens und dessen direkte Lieferanten beschränkt. In der vorhandenen Literatur ist das Thema des Qualitätsmanagements der an erweiterten Unternehmen orientierten Herstellungslieferkette bis jetzt nicht hinlänglich erforscht. Für eine OEM und ihre Lieferanten ist ein Qualitätsmanagement-Modell, welches eine gemeinsame Basis für den Aufbau einer derartigen unternehmensübergreifenden MSC und für den Erhalt ihrer effizienten Funktion ist, hilfreich. Es stellen sich mehrere schwierige Fragen: (1) Welche Prozesse sind beim Qualitätsmanagement für eine an erweiterten Unternehmen orientierte Herstellungslieferkette beteiligt? (2) Wie kann die Qualität dieser Prozesse durch gemeinsame Qualitätsaktivitäten in einer MSC gewährleistet werden? (3) Welche Art der Organisationsstrukturen und Verbesserungsmechanismen sollte angewendet werden? (4) Welche Faktoren beeinflussen die Qualitätsverhalten einer MSC? (5) Wie kann das Qualitätsverhalten einer Kette evaluiert werden um Verbesserungsmaßnahmen zu implementieren? In dieser auf führender Industriepraxis und existierender Theorie basierenden Forschungsarbeit wird ein ideales Qualitätsmanagement-Modell mit drei Stufen und acht Prozessen mit der Funktionsmodell-Methode geschaffen. Dadurch wird ein allgemeiner Blick auf das Qualitätsmanagement der unternehmensübergreifenden MSC und damit verbundene Verfahren ermöglicht. Die Qualitätsorganisations-Struktur, die unternehmensübergreifende Qualitätsplanung, die kontinuierliche Verbesserung und das Qualitätsmanagement für unternehmensübergreifende Prozesse (inklusive Produktentwicklung, Outsourcing, Produktion und Lieferung) werden ebenso diskutiert wie die Ermöglichungsplattform in der gesamten Kette. Antworten werden für die ersten drei obengenannten Fragen gegeben. Basierend auf systematischen Evaluierungsmethoden wird zuerst eine leistungsbasierte Auswertung einer MSC mit der Sechs-Sigma-Methode diskutiert. Anschließend wird durch ein prozessbasiertes Auswertungssystem überprüft, ob die MSC das langfristige Ziel im idealen Modell erreichen kann. Hierzu werden ein Qualitätsstufenmodell, Kriterien und eine Evaluationsmethode festgesetzt. Auf diese Weise können die letzten beiden obengenannten Fragen beantwortet werden. Um die Anwendung des Qualitätsmodells und der Evaluierungsmethode zu demonstrieren wird eine Erhebung von chinesischen Hauptlieferanten durchgeführt und ein allgemeiner Blick auf die Qualitätsmanagementmöglichkeiten von chinesischen Lieferanten im Hinblick auf die MSC von erweiterten Unternehmen gegeben. Darüber hinaus wird als konkretes Beispiel eine chinesische Motorradherstellungs-Lieferkette im Vergleich zum idealen Modell analysiert und eine Verbesserungsplan erstellt.",
+        "pdf_url": "https://depositonce.tu-berlin.de/bitstreams/563dfb9d-8b83-439e-b205-23818e3697ed/download",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W2111148999",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Towards An Integrated Lean–Digital Fashion Management Framework for Sustainable Performance: A Conceptual Paper",
+        "source": "openalex",
+        "url": "https://doi.org/10.47772/ijriss.2026.100800368",
+        "doi": "10.47772/ijriss.2026.100800368",
+        "year": 2026,
+        "authors": [
+          "Ruhil Amal Zainal Abidin",
+          "Mohd Zulfabli Hasan"
+        ],
+        "venue": "International Journal of Research and Innovation in Social Science",
+        "abstract": "The fashion industry faces persistent operational waste, short product life cycles, demand volatility, fragmented supply networks, and substantial environmental and social pressures. Although lean management and digital technologies have each been examined as improvement pathways, their combined application in fashion remains conceptually fragmented. This paper develops an integrated Lean–Digital Fashion Management Framework explaining how lean practices and digital fashion capabilities can jointly improve sustainable performance. An integrative review of peer-reviewed literature indexed in Scopus or comparable databases was conducted across lean management, Industry 4.0, digital fashion, circular economy, and triple-bottom-line performance. The synthesis identifies four connected layers: lean management practices, digital fashion capabilities, integration mechanisms, and economic, environmental, and social outcomes. Real-time visibility, data-driven waste elimination, closed-loop learning, and synchronized value flow are proposed as the mechanisms through which digital capabilities amplify lean routines. The framework also recognizes digital readiness, workforce capability, leadership commitment, and supply-chain collaboration as enabling conditions. Five research propositions are developed to guide future empirical testing. The paper contributes a fashion-specific explanation of Lean 4.0 and provides managers with a staged pathway for aligning operational excellence, digital transformation, and sustainability objectives.",
+        "pdf_url": "https://rsisinternational.org/journals/ijriss/uploads/vol10-iss8-pg5667-5677-202609_pdf.pdf",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7211970168",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "Palmal Group of Industries Limited: Operational practices and managerial learning in the ready-made garment industry",
+        "source": "openalex",
+        "url": "https://hdl.handle.net/10361/29158",
+        "doi": null,
+        "year": 2026,
+        "authors": [
+          "Md Mahfuzul Huq"
+        ],
+        "venue": "BRAC University Institutional Repository (BRAC University)",
+        "abstract": "This report adopts an academic analytical approach of analysis based on a three-month internship training at Palmal Group, a leading export-oriented ready-made garment manufacturer located in Dhaka, Bangladesh. This internship program provided cross-functional exposure across eight departments — Marketing & Merchandising, Design & Innovation, Production Management, Supply Chain Management, Quality Management, Compliance & Sustainability Human Resource Management Audit & Central Costing. Working across these diverse departments enabled the development of analytical, operational, and managerial competencies. The internship report begins with an introduction that includes the report overview, formatting details, and objectives of the internship. The second section describes the organization where the internship was conducted, providing background information on the identity, journey, and achievements of the Palmal Group as one of Bangladesh’s leading exporters. The third section outlines my internship activities and learning experiences across eight departments of the Palmal Group, through which I developed professional skills and collected data for this report. The fourth section presents analysis, evaluation, and critical observations made during the internship period. The fifth section summarizes the overall experience and key findings in the conclusion, and includes references. The report describes that the internship program enabled me to successfully link theoretical academic knowledge learned from a post-graduate diploma in knitwear industry management (PGD-KIM) with industry practice strengthening professional readiness and strategic understanding of Bangladesh RMG operations.",
+        "pdf_url": "https://dspace.bracu.ac.bd/bitstreams/fdebe75b-d599-4d4c-908c-01014f5f7ce4/download",
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "W7203657342",
+        "extra": {
+          "openalex_type": "report",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Reverse logistics and closed-loop supply chain: A comprehensive review to explore the future",
+        "source": "openalex",
+        "url": "https://doi.org/10.1016/j.ejor.2014.07.012",
+        "doi": "10.1016/j.ejor.2014.07.012",
+        "year": 2014,
+        "authors": [
+          "Kannan Govindan",
+          "Hamed Soleimani",
+          "Devika Kannan"
+        ],
+        "venue": "European Journal of Operational Research",
+        "abstract": "Based on environmental, legal, social, and economic factors, reverse logistics and closed-loop supply chain issues have attracted attention among both academia and practitioners. This attention is evident by the vast number of publications in scientific journals which have been published in recent years. Hence, a comprehensive literature review of recent and state-of-the-art papers is vital to draw a framework of the past, and to shed light on future directions. The aim of this paper is to review recently published papers in reverse logistic and closed-loop supply chain in scientific journals. A total of 382 papers published between January 2007 and March 2013 are selected and reviewed. The papers are then analyzed and categorized to construct a useful foundation of past research. Finally, gaps in the literature are identified to clarify and to suggest future research opportunities.",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0377221714005633/pdf",
+        "citation_count": 2471,
+        "work_type": "article",
+        "identifier": "W2020833085",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "SECURING ERP SYSTEMS: THE ROLE OF INFORMATION SECURITY ANALYSTS IN U.S. TEXTILE AND MANUFACTURING ENTERPRISES",
+        "source": "openalex",
+        "url": "https://doi.org/10.63125/y8evt228",
+        "doi": "10.63125/y8evt228",
+        "year": 2025,
+        "authors": [
+          "Zamal Haider Shish"
+        ],
+        "venue": null,
+        "abstract": "This study addresses a persistent problem in U.S. textile and manufacturing enterprises: Enterprise Resource Planning environments are integral to operations yet remain vulnerable, and there is limited sector-specific, quantitative evidence on how information security analysts shape ERP security effectiveness. The purpose is to quantify the associations between analyst-centered capabilities and measurable ERP security outcomes. Design is quantitative, cross-sectional, and multi-case. The sample comprises N = 178 firm-level cases spanning cloud, on-premises, and hybrid ERP deployments. The literature review informing the framework synthesized 44 peer-reviewed sources. Key variables include an outcome composite for ERP security effectiveness incident frequency, severity, time to recover, segregation-of-duties posture, and audit signals, and focal predictors for analyst competency, staffing adequacy, and practice maturity, with security culture as a mediator and deployment model as a moderator. The analysis plan specified descriptive statistics, reliability checks, correlations, and multiple regression with heteroskedasticity-robust errors, plus mediation via bootstrap and moderation by cloud, with robustness checks using negative binomial for incident counts, ordinal logit for severity, and log-linear models for recovery time. Headline findings show analyst competency and practice maturity as the strongest unique predictors of effectiveness standardized β ≈ 0.28 and 0.31, adjusted R² ≈ 0.46, staffing adequacy is positive but smaller, security culture partially mediates these relationships, and the competency effect is steeper among cloud adopters; incident counts and recovery time improve materially incidence-rate ratios around 0.79 to 0.75 and 11 to 13 percent faster recovery per one-point increase on five-point scales. Implications are to prioritize ERP-specific IAM and SoD engineering, cadence-driven practice maturity, ERP-aware monitoring, and culture building, and to leverage cloud platform affordances to amplify competency gains.",
+        "pdf_url": "https://ijbei-journal.org/index.php/ijbei/article/download/28/28",
+        "citation_count": 15,
+        "work_type": "article",
+        "identifier": "W4414892312",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Integrating PLM into Engineering Education: PLM Case Study",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/978-3-030-16134-7_3",
+        "doi": "10.1007/978-3-030-16134-7_3",
+        "year": 2019,
+        "authors": [
+          "Robert Van Til"
+        ],
+        "venue": "Decision Engineering",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 4,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/978-3-030-16134-7_3",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer International Publishing"
+        }
+      },
+      {
+        "title": "From PLM 1.0 to PLM 2.0: the evolving role of product lifecycle management (PLM) in the textile and apparel industries",
+        "source": "crossref",
+        "url": "https://doi.org/10.1108/jfmm-12-2017-0143",
+        "doi": "10.1108/jfmm-12-2017-0143",
+        "year": 2020,
+        "authors": [
+          "Jo Conlon"
+        ],
+        "venue": "Journal of Fashion Marketing and Management: An International Journal",
+        "abstract": "Purpose Product lifecycle management (PLM) is an enterprise-wide strategy gaining prominence across manufacturing. The fashion industry is a late adopter of PLM, yet within global fashion and textile organisations PLM is now becoming a mainstream approach to optimize core processes. This literature review analyses the latest academic research to establish a broad basis of understanding of PLM in the sector and identify potential future research directions. Design/methodology/approach A systematic literature review was conducted to investigate the current state and main perspectives of research on PLM in the textiles and apparel sector. The paper adopts the three features (managerial, technological and collaborative) of the definition of PLM by Corallo et al. (2013) as the analytic framework for the 27 papers to illustrate how PLM is framed and conceptualised in the RFA sector. Findings PLM is at an interesting phase as it evolves from classical PLM 1.0 to connected PLM 2.0. The evolution of PLM from its PDM origins as an IT tool to a critical component of the strategy for digital transformation is reported. The strategic role of suppliers is noted as a critical success factor. Key inhibitors relating to PLM adoption and optimization in the sector are identified as limited holistic and theoretical perspective of PLM coupled with a deficiency in relevant industry skills. It is argued that the transformational potential of PLM 2.0 may not be fully realised without a more coordinated development effort through industrial and academic collaboration. Research limitations/implications The limitations of this study are that it is a literature review of academic papers in the RFA sector papers within the timescale 2000–2018. PLM 1.0 has dominated in this time period however the potential trajectory of connected PLM 2.0 is beginning to emerge. Practical implications The results from this paper indicate that there is a lack of research on PLM in the sector and concludes by suggesting promising future research possibilities: further empirical and case studies on organisations implementing a PLM strategy; studies reporting on the contribution of PLM to address the challenges of sustainability, traceability and transparency in the industry and inter-industry collaborations; studies with knowledge management theories specifically applied to the textile and apparel sector; and the opportunity for academic and industry collaboration on the development of PLM to meet these needs. Originality/value To the best of the author's knowledge, no systematic literature review on this topic has previously been published in academic journals. Given levels of investment in PLM platforms in the sector, both practitioners in companies and the academic community might find the review and agenda for future research useful.",
+        "pdf_url": null,
+        "citation_count": 21,
+        "work_type": "article",
+        "identifier": "10.1108/jfmm-12-2017-0143",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Emerald"
+        }
+      },
+      {
+        "title": "Product Development and the Apparel Supply Chain",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501366581.ch-001",
+        "doi": "10.5040/9781501366581.ch-001",
+        "year": 2022,
+        "authors": [],
+        "venue": "Beyond Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501366581.ch-001",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Fairchild Books"
+        }
+      },
+      {
+        "title": "The Role of Product Development in the Apparel Supply Chain",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501315442.ch-001",
+        "doi": "10.5040/9781501315442.ch-001",
+        "year": 2017,
+        "authors": [],
+        "venue": "Beyond Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501315442.ch-001",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Product Design (Product Development)",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501317644.ch-014",
+        "doi": "10.5040/9781501317644.ch-014",
+        "year": 2016,
+        "authors": [],
+        "venue": "Apparel Production Terms and Processes",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.5040/9781501317644.ch-014",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Fairchild Books"
+        }
+      },
+      {
+        "title": "PLM Using IIoT Use Case",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/9781003001706-7",
+        "doi": "10.1201/9781003001706-7",
+        "year": 2020,
+        "authors": [
+          "Uthayan Elangovan"
+        ],
+        "venue": "Product Lifecycle Management (PLM)",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/9781003001706-7",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "Barriers to Customer Integration into New Product Development Process: A Case of Apparel Industry in Pakistan",
+        "source": "crossref",
+        "url": "https://doi.org/10.2139/ssrn.2233799",
+        "doi": "10.2139/ssrn.2233799",
+        "year": 2013,
+        "authors": [
+          "Muhammad Sheikh"
+        ],
+        "venue": null,
+        "abstract": "In recent years, multinationals developed close relationship with customers by integrating them into NPD process which reduced switching and increased satisfaction. While SMEs faced severe breakdowns due to product failures led by customer dissatisfaction. A reason for this switching is prohibition of customer integration into NPD process. Within this context, the objective is to identify those potential reasons which become the source of non-integration. Data for this study was derived for a survey carried out in 25 SMEs (apparel). An exploratory factor analysis, correlation analysis, ANOVA and descriptive stats were utilized to discover the potential of various barriers. Out of all barriers, lack of awareness, trust and compatibility were potential barriers found positively related with non-integration. Non/less experienced firms showed lack of awareness which led them to lack of trust while experienced firms lacked flexibility in integrating customers. Locally operating SMEs showed lack of awareness and trust while firms at regional level were found more aware but refused the importance of integration. This study is focusing on customer integration into the SMEs sector has many implications for professionals and organizations.",
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "preprint",
+        "identifier": "10.2139/ssrn.2233799",
+        "extra": {
+          "crossref_type": "posted-content",
+          "publisher": "Elsevier BV"
+        }
+      },
+      {
+        "title": "Future Trends in Product Lifecycle Management (PLM)",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/978-3-540-69820-3_64",
+        "doi": "10.1007/978-3-540-69820-3_64",
+        "year": 2007,
+        "authors": [
+          "M. Abramovici"
+        ],
+        "venue": "The Future of Product Development",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 59,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/978-3-540-69820-3_64",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer Berlin Heidelberg"
+        }
+      },
+      {
+        "title": "Team Effectiveness and Product Development: An Explorative Study in the Sri Lankan Apparel Sector",
+        "source": "crossref",
+        "url": "https://doi.org/10.2139/ssrn.4882502",
+        "doi": "10.2139/ssrn.4882502",
+        "year": 2024,
+        "authors": [
+          "Rajitha Silva"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "preprint",
+        "identifier": "10.2139/ssrn.4882502",
+        "extra": {
+          "crossref_type": "posted-content",
+          "publisher": "Elsevier BV"
+        }
+      },
+      {
+        "title": "Product Development and PLM Performance Measures: A Multiple-Case Study in the Fashion Industry",
+        "source": "crossref",
+        "url": "https://doi.org/10.1007/978-3-319-54660-5_36",
+        "doi": "10.1007/978-3-319-54660-5_36",
+        "year": 2016,
+        "authors": [
+          "Elisa d‘Avolio",
+          "Romeo Bandinelli",
+          "Rinaldo Rinaldi"
+        ],
+        "venue": "IFIP Advances in Information and Communication Technology",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 4,
+        "work_type": "book-chapter",
+        "identifier": "10.1007/978-3-319-54660-5_36",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Springer International Publishing"
+        }
+      },
+      {
+        "title": "PRODUCT DEVELOPMENT INTEGRATION USING PLM TOOLS: AN INDUSTRIAL LATHE CASE STUDY",
+        "source": "crossref",
+        "url": "https://doi.org/10.3182/20071002-mx-4-3906.00023",
+        "doi": "10.3182/20071002-mx-4-3906.00023",
+        "year": 2007,
+        "authors": [
+          "álvaro Guarín",
+          "Juan Gómez",
+          "Mauricio Hincapié",
+          "David Guerra",
+          "Arturo Molina"
+        ],
+        "venue": "IFAC Proceedings Volumes",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.3182/20071002-mx-4-3906.00023",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Elsevier BV"
+        }
+      },
+      {
+        "title": "Product Design (Product Development)",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501393914.ch-13",
+        "doi": "10.5040/9781501393914.ch-13",
+        "year": 2025,
+        "authors": [],
+        "venue": "Apparel Production Terms and Processes",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501393914.ch-13",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      },
+      {
+        "title": "Product Design (Product Development)",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501315602.ch-014",
+        "doi": "10.5040/9781501315602.ch-014",
+        "year": 2017,
+        "authors": [],
+        "venue": "Apparel Production Terms and Processes",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501315602.ch-014",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Inc"
+        }
+      },
+      {
+        "title": "The Apparel Product Development Process and Technical Design",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501328435.ch-002",
+        "doi": "10.5040/9781501328435.ch-002",
+        "year": 2018,
+        "authors": [],
+        "venue": "Technical Sourcebook for Apparel Designers",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501328435.ch-002",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Inc"
+        }
+      },
+      {
+        "title": "Design and product development in high-performance apparel",
+        "source": "crossref",
+        "url": "https://doi.org/10.1016/b978-0-08-100904-8.00009-2",
+        "doi": "10.1016/b978-0-08-100904-8.00009-2",
+        "year": 2018,
+        "authors": [
+          "J. Ledbury"
+        ],
+        "venue": "High-Performance Apparel",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 10,
+        "work_type": "book-chapter",
+        "identifier": "10.1016/b978-0-08-100904-8.00009-2",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Elsevier"
+        }
+      },
+      {
+        "title": "The Apparel Product Development Process and Technical Design",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501391972.ch-2",
+        "doi": "10.5040/9781501391972.ch-2",
+        "year": 2024,
+        "authors": [],
+        "venue": "Technical Sourcebook for Apparel Designers",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501391972.ch-2",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Inc"
+        }
+      },
+      {
+        "title": "Advances in apparel product development",
+        "source": "crossref",
+        "url": "https://doi.org/10.1201/9781439832424.ch8",
+        "doi": "10.1201/9781439832424.ch8",
+        "year": 2008,
+        "authors": [
+          "D Tyler"
+        ],
+        "venue": "Advances in Apparel Production",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.1201/9781439832424.ch8",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "CRC Press"
+        }
+      },
+      {
+        "title": "REDUCTION OF REWORK COST IN MANUFACTURING INDUSTRY USING STATISTICAL PROCESS CONTROL TECHNIQUES: A CASE STUDY",
+        "source": "crossref",
+        "url": "https://doi.org/10.26488/iej.10.6.46",
+        "doi": "10.26488/iej.10.6.46",
+        "year": 2018,
+        "authors": [
+          "Pranay S. Parmar",
+          "Tushar N. Desai"
+        ],
+        "venue": "Industrial Engineering Journal",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "10.26488/iej.10.6.46",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Sabre Management Solutions Pvt. Ltd."
+        }
+      },
+      {
+        "title": "A Product Development Perspective On Quality",
+        "source": "crossref",
+        "url": "https://doi.org/10.5040/9781501315442.ch-011",
+        "doi": "10.5040/9781501315442.ch-011",
+        "year": 2017,
+        "authors": [],
+        "venue": "Beyond Design",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.5040/9781501315442.ch-011",
+        "extra": {
+          "crossref_type": "other",
+          "publisher": "Bloomsbury Publishing Plc"
+        }
+      }
+    ]
+  },
+  "count": 39,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T05:50:51.665810+00:00"
+}

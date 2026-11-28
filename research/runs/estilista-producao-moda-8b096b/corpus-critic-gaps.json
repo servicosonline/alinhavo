@@ -1,0 +1,40 @@
+{
+  "gaps": [
+    {
+      "id": "cc-1",
+      "type": "overturning",
+      "target_position": "Posição do Locus 3 de que implantações de PLM fracassam ou exigem Ficha Técnica progressiva por sobrecarga de digitação manual.",
+      "search_queries": [
+        "implantação PLM confecção vestuário Brasil estudo de caso sucesso estilista",
+        "ficha técnica vestuário SEBRAE SENAI CETIQT estilista"
+      ],
+      "source_type": "institutional-or-academic",
+      "priority": "high",
+      "rationale": "Testar se há casos documentados no Brasil onde sistemas PLM tradicionais foram implantados sem resistência da equipe de estilo em PMEs."
+    },
+    {
+      "id": "cc-2",
+      "type": "strengthening",
+      "target_position": "Posição do Locus 1 e Locus 2 sobre indicadores setoriais brasileiros (ABIT / SEBRAE / SENAI CETIQT) de porte das confecções e estrutura produtiva.",
+      "search_queries": [
+        "ABIT perfil do setor têxtil e de confecção Brasil micro e pequenas empresas",
+        "SENAI CETIQT SEBRAE desenvolvimento de coleção ficha técnica estilista"
+      ],
+      "source_type": "institutional",
+      "priority": "high",
+      "rationale": "Fortalecer o enquadramento institucional brasileiro (ABIT, SEBRAE, SENAI) sobre o peso das micro e pequenas confecções e os padrões de ficha técnica e modelagem."
+    },
+    {
+      "id": "cc-3",
+      "type": "overturning",
+      "target_position": "Posição do Locus 4 de que a IA generativa não gera vistas traseiras nem fichas técnicas prontas para modelagem.",
+      "search_queries": [
+        "generative AI fashion tech pack automatic flat sketch pattern making empirical study",
+        "3D virtual prototyping fashion SME cost reduction vs labor empirical"
+      ],
+      "source_type": "academic",
+      "priority": "medium",
+      "rationale": "Verificar se estudos empíricos recentes (2024-2026) contradizem as limitações técnicas documentadas por Zhang & Liu (2024) e Choi (2022)."
+    }
+  ]
+}

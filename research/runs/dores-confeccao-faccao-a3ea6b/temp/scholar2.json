@@ -1,0 +1,861 @@
+{
+  "ok": true,
+  "data": {
+    "query": "faccao costura terceirizacao vestuario precarizacao arranjo produtivo",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 20,
+      "crossref": 20,
+      "doab": 0
+    },
+    "raw_records": 40,
+    "merged_records": 40,
+    "returned": 40,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "Processos de terceirização e quarteirização na produção de vestuário fast fashion",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1982615x18452025e0006",
+        "doi": "10.5965/1982615x18452025e0006",
+        "year": 2025,
+        "authors": [
+          "Silvia Cristina Silveira dos Santos",
+          "Icléía Silveira"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "A indústria de vestuário fast fashion organiza sua produção em série baseada na terceirização, o que promove um rápido fluxo produtivo. Neste contexto, a prática da terceirização é importante no cenário contemporâneo, levando as empresas terceirizadas a inovarem em processos, em maquinários e tecnologias, bem como, subcontratando por sua vez, mão de obra para intensificar suas forças frente à contratante. Surgem neste ambiente as empresas de quarteirização, contratadas para a gestão administrativa, ou seja, selecionar, contratar e controlar os serviços terceirizados. O objetivo do artigo é abordar as relações de trabalho no processo de terceirização, subcontratação e quarteirização para a produção de vestuário fast fashion. Trata-se de uma pesquisa qualitativa e descritiva, com procedimentos técnicos de coleta dos dados baseados na pesquisa bibliográfica, e posterior análise qualitativa dos dados. Constatou-se que o modelo produtivo baseado na terceirização se expandiu pela necessidade produtiva das empresas de vestuário fast fashion, surgindo a terceirização como estratégia empresarial de colaboração, ao transferir para terceiros suas atividades produtivas – que, por sua vez, subcontratam seus serviços. Os resultados indicam que, as empresas subcontratadas não possuem relação de trabalho ou parceria com a empresa que contrata os serviços terceirizados. Para o processo de terceirização, foi implantada a quarteirização, uma nova estrutura gerencial, que administra as relações de trabalho entre a empresa contratante e a empresa terceirizada, não se relacionado com as empresas subcontratadas pelas terceirizadas.",
+        "pdf_url": "https://www.periodicos.udesc.br/index.php/modapalavra/article/download/25845/18371",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4409946232",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A produção reticular no arranjo produtivo local de confecções de Pernambuco",
+        "source": "openalex",
+        "url": "https://doi.org/10.6008/cbpc2179-684x.2022.003.0007",
+        "doi": "10.6008/cbpc2179-684x.2022.003.0007",
+        "year": 2023,
+        "authors": [
+          "Hannah Miranda Morais",
+          "Fernando Gomes de Paiva Júnior",
+          "Bianca Gabriely Ferreira Silva"
+        ],
+        "venue": "Revista Brasileira de Administração Científica",
+        "abstract": "A presente pesquisa possui como objetivo geral discutir a produção fragmentada no Arranjo Produtivo Local de confecções de Pernambuco, como uma forma de precarização do processo de trabalho na economia neoliberal. ​Um Arranjo Produtivo Local é caracterizado por uma aglomeração produtiva local, uma concentração de organizações envolvidas em uma mesma atividade e em um território comum. Os Arranjos Produtivos Locais são incentivados pelas políticas públicas por estimularem a renda, o emprego e o desenvolvimento local. Contudo, esses aglomerados produtivos podem esconder formas diversas de precarizar a mão de obra da região. Nesse panorama, é possível afirmar que o estudo tem caráter qualitativo e descritivo e se apoia na análise de conteúdo da fala do gestor de uma empresa que cuida do setor de relacionamento com as facções. Por conseguinte, os achados de pesquisa apontam para cinco categoria analíticas temáticas, sendo essas: (1) A rede é um arranjo móvel e multiespecializada; (2) Para a rede ser grande a rede tem que ser pequena; (3) A rede é organizada por contratos morais; (4) A precarização do trabalho e pobreza são estruturais na rede e (5) Na rede o trabalho é doméstico, portanto, pertence à família. Tem-se que, as Considerações finais mostram que o processo organizativo em rede nesse território estrutura e oculta uma severa exploração do trabalho fora do emprego.",
+        "pdf_url": "https://sustenere.inf.br/index.php/rbadm/article/download/7655/4479",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4411734268",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "A precarização das condições de trabalho em “facções” do ramo têxtil/vestuário em Blumenau/SC: a face oculta da reestruturação produtiva",
+        "source": "openalex",
+        "url": "https://doi.org/10.24302/drd.v1i1.1398",
+        "doi": "10.24302/drd.v1i1.1398",
+        "year": 2017,
+        "authors": [
+          "Oscar Krost",
+          "Leonardo Brandão"
+        ],
+        "venue": "DRd - Desenvolvimento Regional em debate",
+        "abstract": "A colônia de Blumenau, criada em 1850, embora tenha sido ocupada inicialmente por pequenos agricultores originários da Alemanha, em pouco mais de 30 anos de existência vivenciou a criação de pequenas oficinas de costura e de fiação, cujo êxito levou à transformação em fábricas e à formação de um pólo fabril no setor. A partir da década de 1980, algumas dessas indústrias passaram por processos de reestruturação produtiva, transferindo parte de suas atividades a “terceiros”, também chamados de “facções”, ocasionando a redução do quadro de empregados e a precarização nas condições de trabalho. Em vista de tal realidade, pretende-se nesse artigo abordar os efeitos gerados pela “terceirização” por “facções” em Blumenau sobre a identidade profissional, a saúde e a renda dos operários, a fim de fornecer elementos para o debate e de permitir a elaboração de políticas públicas para seu enfrentamento.",
+        "pdf_url": "http://www.periodicos.unc.br/index.php/drd/article/view/1398/721",
+        "citation_count": 5,
+        "work_type": "article",
+        "identifier": "W2613229030",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Tecendo a precarização: trabalho a domicílio e estratégias sindicais na indústria de confecção em São Paulo",
+        "source": "openalex",
+        "url": "https://doi.org/10.1590/s1981-77462004000100005",
+        "doi": "10.1590/s1981-77462004000100005",
+        "year": 2004,
+        "authors": [
+          "Marcía de Paula Leite"
+        ],
+        "venue": "Trabalho Educação e Saúde",
+        "abstract": "O artigo, à luz da indústria de confecções de São Paulo, discute as transformações das relações e das condições de trabalho no contexto da reestruturação produtiva. Para tal, o texto trata, de forma pormenorizada, da divisão do trabalho entre as empresas no interior da cadeia produtiva e das relações de trabalho que predominam nos diferentes níveis da mesma, com especial ênfase no trabalho a domicílio. A análise revela que, à medida que o processo de terceirização avança, o emprego diminui na ponta virtuosa da cadeia - as empresas líderes dos encadeamentos produtivos - onde se difunde o trabalho qualificado, mais bem pago e mais estável, e aumenta na ponta precária, onde abunda o trabalho pouco qualificado, instável, mal pago e, muitas vezes, executado sem vínculo empregatício - ou seja, onde se difundem as condições de trabalho e relações de emprego mais deterioradas. O artigo discute ainda como essas antigas formas de trabalho revitalizadas em um novo contexto atingem mais fortemente as mulheres do que os homens, evidenciando a exclusão social dos setores mais vulneráveis do mercado de trabalho.",
+        "pdf_url": "https://www.scielo.br/j/tes/a/gzWZChZQbdRtxKBCtjyb7fx/?lang=pt&format=pdf",
+        "citation_count": 68,
+        "work_type": "article",
+        "identifier": "W1994818511",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Trabalho feminino e precarização: entre pano e (des)alinho com o Direito",
+        "source": "openalex",
+        "url": "https://doi.org/10.33637/2595-847x.2022-109",
+        "doi": "10.33637/2595-847x.2022-109",
+        "year": 2022,
+        "authors": [
+          "Ana Júlia Prezotti Duarte"
+        ],
+        "venue": "Laborare",
+        "abstract": "Este artigo busca evidenciar como as representações de gênero se refletem nos arranjos de trabalho, de modo a conduzirem as mulheres prioritariamente para a informalidade. Parte-se de uma investigação teórica acerca dos efeitos do processo de reestruturação produtiva e de flexibilização na precarização do trabalho feminino, que aproxima terceirização e informalidade nas cadeias do setor têxtil. Desde o polo de confecções de São Paulo até a indústria de jeans de Toritama, verifica-se a reprodução da divisão sexual do trabalho e uma tendência de desproteção social, suavizada pelo discurso do novo empreendedorismo. Mediante a análise de decisões jurisprudenciais, percebe-se a apropriação de uma retórica pelos julgadores que isenta as empresas tomadoras de serviços de qualquer responsabilização, relegando a costureira a um trabalho supostamente autônomo, em condições extremamente precárias e desprotegidas. Logo, termina-se por refletir sobre o papel do Judiciário na conformação do trabalho informal e a ausência de julgamento em perspectiva de gênero.",
+        "pdf_url": "https://revistalaborare.org/index.php/laborare/article/download/109/135",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4214886193",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Delineamento de um percurso metodológico para análise de políticas Públicas de desenvolvimento: Os arranjos produtivos locais em questão",
+        "source": "openalex",
+        "url": "https://periodicos.fclar.unesp.br/redd/article/view/6443",
+        "doi": "10.32760/1984-1736/redd/2013.v6i2.6443",
+        "year": 2013,
+        "authors": [
+          "Simone Wolff",
+          "Cinthia Xavier da Silva",
+          "Leonardo Antônio Silvano Ferreira"
+        ],
+        "venue": "REDD – Revista Espaço de Diálogo e Desconexão",
+        "abstract": "Local Productive Arrangements are part of a public policy proposal which focuses on the \"local development\", displayed as a form of development which is able to equate the vulnerabilities of companies and regional and local job markets in view of the trans-nationalization of capital, and its tendency to weakening formal employment. We intend to design a preliminary methodological course in order to provide parameters for analyses which aim at assessing to what extent such policy is successful. Conversely to the official perspective, this methodology suggests that such arrangements tend to reinforce the tendency to deregulating work relations, which are engrossed in productive chains of large corporations, favoring their headquarters in detriment of valuing the employment formally protected, and its social benefits. In order to do that, the Local Productive Arrangement – LPA of the clothing sector in Londrina-PR and adjacent regions - will be taken as the object of analysis.",
+        "pdf_url": "https://periodicos.fclar.unesp.br/redd/article/download/6443/4751",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W2119380140",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Os herdeiros da costura: a lógica reprodutiva da escolarização por meio da necessidade.",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.52446/cursocienciassociaiscdsa.2016.tccmon.neves",
+        "doi": "10.52446/cursocienciassociaiscdsa.2016.tccmon.neves",
+        "year": 2016,
+        "authors": [
+          "Mesias Ramos de Sousa. Neves"
+        ],
+        "venue": null,
+        "abstract": "O presente trabalho investigou a causa de pessoas saírem da Escola para ingressar no mundo do trabalho, mais precisamente, no Polo de Confecções do Agreste Pernambucano que tem se expandido nos últimos anos e chegou ao Cariri Paraibano. Nesse sentido, tencionei saber em que medida essa expansão tem alterado a configuração da escolarização do município de Coxixola e como tem se efetivado esses modos de atuação para a reprodução, que permeiam as práticas da relação trabalho-escola. Através duma abordagem exploratória, levantei dados primários, por meio de questionários preenchidos por trabalhadores do ramo da costura, que permitiram à pesquisa uma explanação do campo de estudo, vislumbrando a compreensão das relações de produção que tecem a vida escolar dos sujeitos advindos de camadas populares e qual sua relação com o mundo do trabalho. Ademais, ouvi esses agentes que por meio de suas vivências diárias narraram como se constrói diariamente esse aglomerado produtivo nos micro-espaços de trabalho, culminando numa lógica própria de atuação do Capital e de suas Instituições reprodutoras, sobretudo a Escola. A manutenção cíclica dos “herdeiros” se configura como ato primordial na consumação das reproduções societárias, cujas Instituições Educacionais manifestam expressamente espaços de aparelhamento dessa lógica. Assim sendo, busquei investigar como tem sido essa relação entre trabalho e educação na reprodução das desigualdades sociais, cujo resultado demonstrou a saída precoce em vista das necessidades que acompanha as classes populares, mantendo, dessa forma, uma atuação própria e recorrente de reproduções em sociedade.",
+        "pdf_url": "http://dspace.sti.ufcg.edu.br:8080/jspui/bitstream/riufcg/5283/3/MESIAS%20RAMOS%20DE%20SOUSA%20NEVES%20-%20TCC%20CI%c3%8aNCIAS%20SOCIAIS%20CDSA%202016..pdf",
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "W3216236766",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "O trabalho das mulheres costureiras na zona rural do Agreste pernambucano",
+        "source": "openalex",
+        "url": "https://revistaideas.ufrrj.br/ojs/index.php/ideas/article/view/273",
+        "doi": null,
+        "year": 2020,
+        "authors": [
+          "Renata Milanês"
+        ],
+        "venue": "Revista IDeAS",
+        "abstract": "O presente artigo tem como objetivo principal analisar as relações sociais de trabalho e de gênero, a partir da inserção das mulheres camponesas na produção de roupas no Polo de Confecções do Agreste pernambucano. Privilegiando espacialmente os domicílios rurais, o texto oferece uma análise antropológica, através de um relato etnográfico, descrevendo as ações, os valores e as expectativas das pessoas entrevistadas. A discussão trazida aqui levou em conta: o aprendizado da costura, a terceirização, o ganho por produção, as longas jornadas, a relação com os “patrões”, o trabalho doméstico reprodutivo, o trabalho domiciliar produtivo e a independência financeira. O artigo revela que, embora a costura tenha se tornado uma importante fonte de renda para inúmeras mulheres camponesas, essa entrada feminina no mercado de trabalho veio acompanhada pela precarização, fazendo com que as mulheres sejam as mais prejudicadas pelos processos de informalidade e flexibilidade que ocorrem na região.",
+        "pdf_url": "https://revistaideas.ufrrj.br/ojs/index.php/ideas/article/download/273/324",
+        "citation_count": 46,
+        "work_type": "article",
+        "identifier": "W3137590551",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Entre a expansão do polo produtivo e a persistência das desigualdades: Toritama em análise",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/9786555503975-04",
+        "doi": "10.5151/9786555503975-04",
+        "year": 2026,
+        "authors": [
+          "Monaliza de Oliveira Ferreira"
+        ],
+        "venue": "Editora Blucher eBooks",
+        "abstract": "Neste capítulo, são analisadas as transformações demográficas, educacionais e ocupacionais do município de Toritama (PE), considerando como eixo interpretativo o paradoxo entre o forte dinamismo econômico do Polo de Confecções do Agreste pernambucano e a persistência de fragilidades sociais, educacionais e institucionais. O objetivo é compreender o modo como a articulação entre migração, organização produtiva e território estrutura um padrão de crescimento econômico dissociado do desenvolvimento social. Metodologicamente, o estudo combina a análise de microdados do Censo Demográfico de 2010, do Instituto Brasileiro de Geografia e Estatística, com dados primários coletados pela Fundação Joaquim Nabuco em 2024. Essa estratégia possibilita uma leitura comparativa das mudanças ocorridas no período em relação a estrutura etária, escolaridade, inserção ocupacional e condição migratória. Os resultados indicam que o crescimento populacional recente de Toritama é fortemente impulsionado pela atração de migrantes em idade ativa, enquanto se observam redução acentuada da população jovem e rápido envelhecimento demográfico. No mercado de trabalho, verificam-se o aprofundamento da informalidade, a centralidade persistente da cadeia de confecções e a expansão de tipos flexíveis de ocupação, como o trabalho por conta própria, familiar e atividades associadas à logística urbana. Apesar dos avanços no acesso e na permanência escolar, especialmente no Ensino Médio, a expansão do ensino superior permanece limitada e pouco articulada às demandas produtivas locais. Esses achados evidenciam que o dinamismo econômico do polo não se converte automaticamente em melhoria das condições de vida ou mobilidade social, reforçando a necessidade de políticas integradas que articulem educação, qualificação profissional, diversificação produtiva e planejamento territorial.",
+        "pdf_url": "https://pdf.blucher.com.br/openaccess/9786555503975/04.pdf",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W7223063523",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "bronze"
+        }
+      },
+      {
+        "title": "O TRABALHO NA CONFECÇÃO EM SÃO PAULO: as novas formas da precariedade",
+        "source": "openalex",
+        "url": "https://doi.org/10.9771/ccrh.v30i79.19973",
+        "doi": "10.9771/ccrh.v30i79.19973",
+        "year": 2017,
+        "authors": [
+          "Marcía de Paula Leite",
+          "Sandra Roberta Alves Silva",
+          "Pilar Carvalho Guimarães"
+        ],
+        "venue": "Caderno CRH",
+        "abstract": "Este artigo analisa o trabalho no setor de confecção a partir de pesquisa realizada na cidade de São Paulo. Debruçando-se mais especificamente sobre o trabalho em domicílio e dos imigrantes, discutem-se as condições de trabalho no setor a partir da configuração das cadeias de valor e da divisão internacional do trabalho que ela promove, gerando uma nova dinâmica nas formas de precariedade que sempre marcaram o setor. O texto debate também o impacto do selo da Associação Brasileira do Varejo Têxtil (ABVTEX) sobre as condições do trabalho de costura nos domicílios e nas oficinas.",
+        "pdf_url": "https://periodicos.ufba.br/index.php/crh/article/download/19973/14915",
+        "citation_count": 35,
+        "work_type": "article",
+        "identifier": "W2729315216",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Polos de confecções no Nordeste: migração e organização do trabalho",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/9786555503975",
+        "doi": "10.5151/9786555503975",
+        "year": 2026,
+        "authors": [
+          "Wilson Fusco",
+          "Maria das Neves Medeiros de Melo",
+          "Darcilene Cláudio Gomes"
+        ],
+        "venue": "Editora Blucher eBooks",
+        "abstract": "Polos de confecções no Nordeste: migração e organização do trabalho reúne análises sobre transformações recentes em arranjos produtivos de confecções da região, com base nos municípios de Toritama (PE), Caicó (RN) e Pacatuba (CE). Os capítulos examinam as relações entre migração, informalidade, organização do trabalho, educação e reestruturação produtiva, considerando suas manifestações nas condições de vida e trabalho nesses territórios. O livro resulta da pesquisa “Polos de confecções do Nordeste: migração e pendularidade no contexto recente”, desenvolvida pela Fundação Joaquim Nabuco (Fundaj) com apoio do CNPq, e dirige-se a pesquisadores, estudantes, gestores públicos e demais interessados nas dinâmicas do trabalho, das migrações e do desenvolvimento regional.",
+        "pdf_url": "https://openaccess.blucher.com.br/download-pdf/385",
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "W7223000466",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "A DESCENTRALIZAÇÃO DA PRODUÇÃO POR MEIO DO TRABALHO DOMICILIAR EM TERRA ROXA/PR",
+        "source": "openalex",
+        "url": "https://doi.org/10.33026/peg.v10i1.1679",
+        "doi": "10.33026/peg.v10i1.1679",
+        "year": 2012,
+        "authors": [
+          "Terezinha Brumatti Carvalhal"
+        ],
+        "venue": "PEGADA - A Revista da Geografia do Trabalho",
+        "abstract": "Neste texto apontamos algumas contradições referentes à dinâmica territorial do trabalho domiciliar como repercussão da informalização, enquanto produto das mudanças que se processam no âmbito mais geral do trabalho. Os rearranjos do capital, nesse caso, a desconcentração do processo produtivo e a expansão das pequenas e médias unidades têm se juntado às formas flexibilizadas e precarizadas de trabalho e tem feito avançar a horizontalização do capital. Assim o trabalho produtivo em domicílio se mistura ao trabalho reprodutivo doméstico, entronizando uma forma específica de exploração de elevados contigentes de força de trabalho, especialmente de mulheres.",
+        "pdf_url": "http://revista.fct.unesp.br/index.php/pegada/article/download/1679/1614",
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "W1527856133",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "O setor de confecção em Goiânia: análise da relação entre trabalho doméstico e trabalho domiciliar",
+        "source": "openalex",
+        "url": "https://doi.org/10.5216/sec.v9i2.475",
+        "doi": "10.5216/sec.v9i2.475",
+        "year": 2007,
+        "authors": [
+          "Jordão Horta Nunes",
+          "ANDRÉIA FERREIRA CAMPOS"
+        ],
+        "venue": "Sociedade e Cultura",
+        "abstract": "Resumo: O setor de confecção emprega intensivamente o trabalho feminino, apresenta uma estrutura heterogênea e compreende uma diversidade de técnicas produtivas. Caracteriza-se pelo predomínio de micro e pequenas empresas, pela competitividade e pela sazonalidade da produção, além da presença de relações de terceirização e subcontratação entre empresas de porte diferente ou ligadas a etapas distintas do processo de produção. O objetivo aqui é considerar, no elo mais precário da rede, que envolve o trabalho de costureiras em oficinas de âmbito familiar ou facções subcontratadas, a relação entre trabalho doméstico e trabalho domiciliar sob o prisma das relações de gênero. Partimos de algumas considerações sobre o setor de confecção no Brasil e em Goiás, numa primeira parte, seguida de uma análise com base em pesquisa de enfoque qualitativo realizada em 2005 no bairro de São Judas Tadeu, próximo ao campus II da UFG, em Goiânia, empregando principalmente entrevistas semi-estruturadas com trabalhadoras na área de confecção.",
+        "pdf_url": "https://revistas.ufg.br/fcs/article/download/475/401",
+        "citation_count": 18,
+        "work_type": "article",
+        "identifier": "W2076581365",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Tutela Jurídico-Trabalhista frente à Exploração Laboral nas Cadeias de Produção do \"Fast Fashion\"",
+        "source": "openalex",
+        "url": "https://doi.org/10.37497/revistatdj.trt9pr.3.2025.150",
+        "doi": "10.37497/revistatdj.trt9pr.3.2025.150",
+        "year": 2025,
+        "authors": [
+          "Ana Midori Tamanaka",
+          "Lourival José de Oliveira"
+        ],
+        "venue": "Revista Trabalho Direito e Justiça",
+        "abstract": "Contextualização: Este trabalho analisa o fenômeno do fast fashion e suas implicações sociais, jurídicas e ambientais, com foco especial nas práticas de trabalho escravo contemporâneo presentes na cadeia produtiva da indústria da moda. Objetivo: O objeto do estudo compreende a relação entre o modelo de produção acelerada do fast fashion e as violações dos direitos trabalhistas, especialmente a exploração de imigrantes em oficinas clandestinas no Brasil. Método: A metodologia empregada é de natureza qualitativa, fundamentada em revisão bibliográfica e documental, com base em estudos acadêmicos, legislações nacionais e internacionais, relatórios de órgãos fiscalizadores, além da análise de casos emblemáticos envolvendo grandes marcas do setor têxtil. A pesquisa busca compreender os mecanismos jurídicos de responsabilização empresarial e os limites da atuação estatal no enfrentamento ao trabalho escravo contemporâneo. Resultados: Os resultados obtidos indicam que a estrutura produtiva fragmentada, combinada à terceirização e à lógica do consumo acelerado, favorece a precarização das condições laborais e dificulta a responsabilização das empresas. Além disso, constatou-se que a vulnerabilidade de trabalhadores imigrantes e a fiscalização deficiente são fatores que perpetuam a exploração. Apesar dos avanços legislativos e da pressão de organismos internacionais, persistem lacunas na proteção dos direitos fundamentais dos trabalhadores. Conclui-se que é necessária uma atuação mais eficaz do Estado, maior rigor na fiscalização das cadeias produtivas e o engajamento do consumidor para mitigar os impactos sociais e ambientais do fast fashion.",
+        "pdf_url": "https://revista.trt9.jus.br/revista/article/download/150/172",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W4414173757",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Donos de seu próprio tempo: Percepções sobre autonomia e liberdade nos discursos e práticas dos trabalhadores retratados em Estou me Guardando para Quando o Carnaval Chegar",
+        "source": "openalex",
+        "url": "https://doi.org/10.14244/2238-3069.2024/02",
+        "doi": "10.14244/2238-3069.2024/02",
+        "year": 2024,
+        "authors": [
+          "Kamila Rocha Pereira"
+        ],
+        "venue": "Áskesis - Revista des discentes do Programa de Pós-Graduação em Sociologia da UFSCar",
+        "abstract": "O documentário Estou me Guardando para Quando o Carnaval Chegar (2019) retrata a produção local de jeans em Toritama-PE, que vem se destacando no setor brasileiro de confecções. Os trabalhadores da cidade representam a dinâmica do trabalho contemporâneo: alto índice de informalidade, trabalho a domicílio e terceirização. Com a intensificação do trabalho autônomo e da produção flexível, este artigo discute quais sentidos e percepções sobre autonomia e liberdade fazem parte dos discursos e práticas dos trabalhadores retratados. A proposta é analisar os significados que eles e elas associam a esses termos, desde suas experiências no trabalho nas facções. Metodologicamente, o artigo se baseia em uma análise crítica do filme, do conteúdo das entrevistas e cenas e da narrativa proporcionada pelo diretor.",
+        "pdf_url": "https://www.revistaaskesis.ufscar.br/index.php/askesis/article/download/878/475",
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "W7126101340",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Empresas e direitos humanos: uma análise das violações de direitos elementares trabalhistas na Indústria da moda",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1843/BUOS-B9KJWU",
+        "doi": null,
+        "year": 2018,
+        "authors": [
+          "Julianna do Nascimento Hernandez"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "A pesquisa tem o objetivo de analisar se o Sistema ONU de Direitos Humanos é efetivo para tratar e aplacar as violações de direitos humanos sofridas por trabalhadores de corporações transnacionais do setor têxtil e de vestuários, principalmente, após a reestruturação produtiva ocorrida a partir de 1970. Observa-se que as normas internacionais emitidas pela Organização das Nações Unidas (ONU) e pela Organização Internacional do Trabalho (OIT) estabelecem padrões globais mínimos sobre o trabalho decente, sem, contudo, dispor de normas coercitivas para exigir o cumprimento por parte dos Estados não ratificantes e das empresas transnacionais. As recentes diretrizes da ONU, quais sejam o Quadro Referencial de 2008 e os Princípios Orientadores de 2011, ambos soft law, da mesma forma se mostram falhos em proporcionar um ambiente regulatório de maior proteção ao obreiro. A pesquisa revela, sobretudo, que a estrutura de produção da indústria da moda se beneficia flagrantemente da falta de normas internacionais sociais que se apliquem direta e vinculativamente às corporações. Dessa forma, ao descentralizar sua produção por meio de terceirizações e contratos de facção, a prática, inserida em contexto de globaritarismo, implica a extrema desregulamentação do conjunto de normas laborais conquistado durante os séculos XIX, XX e XXI, sem a possibilidade de serem responsabilizadas internacionalmente pelos impactos negativos causados às pessoas e ao meio ambiente.",
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "thesis",
+        "identifier": "W2981676707",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "[ID 55717] COSTUREIRAS NO TERRITÓRIO DA ATENÇÃO PRIMÁRIA À SAÚDE: TRABALHO EM DOMICÍLIO E VULNERABILIDADES",
+        "source": "openalex",
+        "url": "https://doi.org/10.22478/ufpb.2317-6032.2021v25n1.55717",
+        "doi": "10.22478/ufpb.2317-6032.2021v25n1.55717",
+        "year": 2021,
+        "authors": [
+          "Taiane Araújo dos Prazeres Ornelas",
+          "Mônica Angelim Gomes de Lima",
+          "Elizabeth Costa Dias",
+          "Robson da Fonseca Neves"
+        ],
+        "venue": "Revista Brasileira de Ciências da Saúde",
+        "abstract": "Objetivo: O estudo trata da configuração do trabalho domiciliar de costureiras, suas trajetórias de vida e de trabalho e implicações para o cuidado à saúde no território de uma unidade de saúde da família (USF). Metodologia: Optou-se por um delineamento de estudo exploratório, com abordagem socioantropológica, que examinou: a) a trajetória das mulheres para se tornarem costureiras; b) as condições de trabalho em casa e suas repercussões no contexto familiar; c) a visibilidade desses usuários-trabalhadores para os profissionais de saúde e suas demandas nas interações com a USF. O diário de campo registrou os elementos que marcaram a presença do trabalho das costureiras no domicílio, por meio da observação sistemática e direta do trabalho domiciliar e de uma entrevista em profundidade que permitiu a reconstrução dialógica do trabalho de costura em casa. Resultados: As mulheres negras, com baixa escolaridade e qualificação profissional foram predominantes no estudo. As costureiras possuíam casa própria e mantinham o sustento de filhos e netos com diferentes funções de produção e reprodução social. As trajetórias de trabalho reafirmam a negação dos direitos trabalhistas e previdenciários e a piora da saúde e da qualidade de vida ao longo do tempo. As interações com a USF se dão para o atendimento aos familiares e exame preventivo. O tempo de espera impulsiona os usuários-trabalhadores em condições agudas para os serviços privados. Conclusão: O trabalho domiciliar expôs as vulnerabilidades das costureiras, seja pela desproteção social, pela invisibilidade da condição de trabalhadoras e pelo trabalho domiciliar no território de abrangência de uma USF em área urbana.",
+        "pdf_url": "https://periodicos.ufpb.br/ojs2/index.php/rbcs/article/download/55717/33118",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W3196457324",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Migrantes costureiros: trabalhadores do setor de confecções em Toritama-PE",
+        "source": "openalex",
+        "url": "https://periodicos.fundaj.gov.br/CAD/article/view/1415",
+        "doi": null,
+        "year": 2010,
+        "authors": [
+          "Wilson Fusco",
+          "Valtemira Mendes Vasconcelos"
+        ],
+        "venue": "Cadernos de Estudos Sociais",
+        "abstract": "O Agreste Pernambucano destacou-se ao longo das últimas décadas, não só como área de maior evasão de população, como também de maior atração de migrantes do Estado, em termos proporcionais. Este expressivo fluxo migratório encontra correspondência com novas atividades que envolvem a produção e comercialização de vestuários e acessórios. A caracterização da população ocupada no setor de confecção revelou a situação de vulnerabilidade desses trabalhadores, por sua baixa qualificação e baixos rendimentos, além de não possuírem segurança nas relações de trabalho, uma vez que a maioria dos empregos situa-se no setor informal. Verificou-se, nesse sentido, que os migrantes residentes no município apresentam uma leve superioridade em termos de média salarial com relação aos não migrantes, ainda que tenham desvantagem em outros atributos. Outra observação importante foi feita pela associação encontrada entre migração pendular e empregos no comércio, enquanto que migração definitiva está relacionada de forma mais expressiva à atividade industrial. Palavras-chave: migração; confecção de vestuários; emprego precário. The region known as “Agreste pernambucano” stood out over the last decades, not only as an area of intense emigration, but also by attracting migrants more than any other sub-region in the state, in proportional terms. This migration flow has significant correlation with new activities involving the production and commercialization of clothing and accessories. The characterization of the population employed in the garment industry showed the situation of vulnerability of these workers due their low skills and low incomes, and no security in employment relationships, since the majority of jobs is located in the informal sector. It was also observed that migrants living in the city showed a slight superiority in terms of average wage when compared to non-migrants, in spite of some disadvantaged they have in other attributes. Another important observation is that commuting is frequently associated to jobs in trade, while permanent migration is related to industrial activity. Key words: migration, garment",
+        "pdf_url": "https://periodicos.fundaj.gov.br/CAD/article/download/1415/1135",
+        "citation_count": 8,
+        "work_type": "article",
+        "identifier": "W1855922340",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "AS CORRENTES INVISÍVEIS DA INDÚSTRIA DA MODA BRASILEIRA",
+        "source": "openalex",
+        "url": "https://doi.org/10.17771/pucrio.acad.33865",
+        "doi": "10.17771/pucrio.acad.33865",
+        "year": 2017,
+        "authors": [
+          "ANA CAROLINA DA ROCHA LEAO MACHADO"
+        ],
+        "venue": null,
+        "abstract": "Este trabalho monográfico tem por objetivo desenvolver e expor a estreita relação entre o mercado fast fashion e a superexploração de trabalhadores imigrantes latino-americanos em oficinas clandestinas de costura localizadas nos centros urbanos brasileiros. Dessa forma, inicialmente, destaca-se a nova lógica de consumo que permite a produção a baixo custo mediante a sonegação de direitos do trabalhador em benefício do lucro, a estrutura de sweating system que a mantém e o consequente dumping social a ela associado. Além disso, cuida-se de esclarecer o que define o trabalho digno e como se revela os modos de execução da escravidão moderna, apresentando, em caráter complementar, parte específica sobre o tráfico de pessoas, tendo em vista a evidente ligação deste tipo penal com a conduta tema do presente estudo. Ainda, traz trato sobre a responsabilidade das grandes grifes que se aproveitam da superexploração deflagrada no interior de sua cadeia produtiva. Mais adiante, é exposto o caso paradigmático da multinacional ZARA, com a descrição dos resgates realizados em suas oficinas clandestinas e os desdobramentos de seus flagrantes. Também, são apresentados os mecanismos de enfrentamento do trabalho análogo ao escravo e, finalmente, é realizada análise da nova Portaria MTB 1.129/2017, que traz retrocessos significativos no que se refere à conceituação de trabalho escravo contemporâneo.",
+        "pdf_url": "https://www.maxwell.vrac.puc-rio.br/33865/33865.PDF",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W4233497839",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Luz, câmera, direito: o direito trabalhista na obra “Estou me guardando para quando o carnaval chegar” de Marcelo Gomes",
+        "source": "openalex",
+        "url": "https://repositorio.ufsc.br/handle/123456789/260287",
+        "doi": null,
+        "year": 2021,
+        "authors": [
+          "Antonio Lucas Lira Pereira",
+          "Bruna Garcia dos Santos",
+          "Luana Renata Da Silva",
+          "Marina Gomes Barbosa"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "O documentário “Estou me guardando para quando o carnaval chegar” apresenta o cenário frenético de trabalho predominante em Toritama, cidade do agreste pernambucano. Na obra é possível observar que o sistema de produção da indústria têxtil expõe os trabalhadores a uma série de problemas, como insalubridade e longas jornadas de trabalho. Entretanto, mesmo com toda problemática existente as pessoas demonstram estarem satisfeitas com aquela realidade vivenciada. Nesta senda, o objetivo geral do artigo foi correlacionar as problemáticas expostas no documentário com o que preceitua a nossa legislação vigente. Para tanto, o presente estudo valeu-se do método dedutivo como método de abordagem, recorrendo à técnica de pesquisa documental indireta, mediante pesquisa documental e bibliográfica. A partir da leitura do artigo é possível concluir que as práticas laborais expostas no documentário geram desvantagens para os trabalhadores, especialmente quando comparados aos trabalhadores formais que detém de uma série de direitos e garantias. E ainda, conclui-se que a arte pode contribuir de diversas formas no ensino jurídico, desde a formação de consciência crítica até a percepção do impacto do Direito na realidade.",
+        "pdf_url": "https://ojs.sites.ufsc.br/index.php/avant/article/download/6824/6703",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7120405557",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Arranjo produtivo lácteo de São Luís de Montes Belos",
+        "source": "crossref",
+        "url": "https://doi.org/10.56238/livrosindi202412-001",
+        "doi": "10.56238/livrosindi202412-001",
+        "year": 2024,
+        "authors": [
+          "Rodrigo Medeiros da Silva",
+          "João Gabriel Taveira Silva",
+          "Anderson Eduardo Amâncio de Lima"
+        ],
+        "venue": "Diagnóstico Do Arranjo Produtivo Lácteo Da Microrregião De São Luís De Montes Belos, Goiás",
+        "abstract": "Um importante instrumento de desenvolvimento regional e de competitividade que vem sendo fomentado no Brasil na última década é o incentivo a identificação e consolidação dos chamados Arranjos Produtivos Locais (APL’s). Os APL’s podem ser definidos como aglomerações territoriais de agentes econômicos, políticos e sociais com foco em um conjunto específico de atividades econômicas que apresentam vínculos mesmo que incipientes. Quando se apresenta entre os agentes a interdependência, articulação e vínculos consistentes, os APL’s passam a ser considerados como Sistemas Produtivos e Inovativos Locais (ASPLs). O desenvolvimento dos APL’s teria como objetivos: i) o desenvolvimento econômico; ii) a redução das desigualdades sociais e regionais; iii) a inovação tecnológica; iv) a expansão e modernização da base produtiva; v) o crescimento do nível de emprego e renda; vi) a redução da taxa de mortalidade das micro e pequenas empresas; vii) o aumento da escolaridade e da capacitação; viii) o aumento da produtividade e competitividade; ix) o aumento das exportações. Em Goiás as políticas de apoio aos APL’s se iniciaram no ano 2000. Em 2009 haviam no estado 56 APL’s sendo que dos 246 municípios goianos, 149 participavam de pelo menos um APL. O APL Lácteo da Microrregião de São Luís de Montes Belos é um dos APL’s de destaque no estado. Localizado na região do Oeste Goiano, o APL Lácteo integrava 18 municípios no ano de 2005 e a articulação dos seus agentes trouxe conquistas quanto a interação, cooperação e aprendizagem, que visavam promover a competitividade e do desenvolvimento local através da atividade leiteira. Compreender como vem ocorrendo o processo de desenvolvimento do APL Lácteo da Microrregião de São Luís de Montes Belos poderia resultar na proposição de novas ações em pesquisas, assertividade na proposição de políticas públicas e estratégias de intervenção. Tudo isso visando garantir o atendimento das necessidades presentes e garantindo as futuras gerações também satisfazerem suas próprias necessidades através da sustentabilidade de suas ações.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.56238/livrosindi202412-001",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Seven Editora"
+        }
+      },
+      {
+        "title": "O arranjo produtivo local de biotecnologia de Belo Horizonte - Minas Gerais",
+        "source": "crossref",
+        "url": "https://doi.org/10.14393/ufu.di.2005.35",
+        "doi": "10.14393/ufu.di.2005.35",
+        "year": 2020,
+        "authors": [
+          "Michelle Carrijo"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.14393/ufu.di.2005.35",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "EDUFU - Editora da Universidade Federal de Uberlandia"
+        }
+      },
+      {
+        "title": "Diagnóstico Do Arranjo Produtivo Lácteo Da Microrregião De São Luís De Montes Belos, Goiás",
+        "source": "crossref",
+        "url": "https://doi.org/10.56238/livrosindi202412",
+        "doi": "10.56238/livrosindi202412",
+        "year": 2024,
+        "authors": [],
+        "venue": null,
+        "abstract": "Compreender como vem ocorrendo o processo de desenvolvimento do APL Lácteo da Microrregião de São Luís de Montes Belos e como poderia resultar na proposição de novas ações em pesquisas, assertividade na proposição de políticas públicas e estratégias de intervenção. E que estas apontem novas perspectivas de desenvolvimento sustentável nos contextos produtivos e seus respectivos territórios. Uma vez que os APLs estão presentes em todo o território nacional e em diferentes estágios de desenvolvimento, monitorar os APLs estes arranjos e realizar contínuos diagnósticos, poderia resultar na identificação e neutralização de seus pontos fracos, fomento e consolidação dos seus pontos positivos. Partindo da proposta de que os Arranjos Produtivos Locais demonstrem ser uma alternativa viável de se trabalhar o desenvolvimento socioeconômico das regiões onde os mesmos estão situados, há de ressaltar que não há somente a necessidade se instituir políticas públicas de apoio ao adensamento das cadeias produtivas, mas, que estas políticas abarquem as mesmas particularidades mencionadas nas literaturas referenciadas durante o projeto, sejam aplicadas uma proposta de APLs que atuem como sistemas verdadeiramente inovativos, competitivos e inclusivos com as Micro e Pequenas empresas (MPEs), haja a disseminação dos conhecimentos gerados, ocorra o processo da educação na sua amplitude, e que estes arranjos sejam verdadeiramente economicamente viáveis, socialmente justos e ambientalmente corretos. Assim, este trabalho buscou realizar um diagnóstico organizacional do Arranjo Produtivo Lácteo da Microrregião de São Luís de Montes Belos, com vistas à proposição de novas estratégias para sua consolidação e desenvolvimento.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.56238/livrosindi202412",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "Seven Editora"
+        }
+      },
+      {
+        "title": "A influência do compromisso e da confiança para a efetividade de um arranjo produtivo local: um estudo do arranjo produtivo local de hortifrutigranjeiros de Veranópolis-RS",
+        "source": "crossref",
+        "url": "https://doi.org/10.15675/gepros.v10i2.1210",
+        "doi": "10.15675/gepros.v10i2.1210",
+        "year": 2015,
+        "authors": [
+          "Renato Breitenbach",
+          "Fernando Fantoni Bencke",
+          "Ilciane Maria Sganzerla Breitenbach"
+        ],
+        "venue": "Revista Gestão da Produção Operações e Sistemas",
+        "abstract": "O presente artigo aborda um estudo de caso sobre a prática do marketing de relacionamento entre os membros da cadeia de suprimentos de um arranjo produtivo local de hortifruticultura na cidade de Veranópolis-RS. Objetiva analisar as relações de compromisso e confiança como base de fortalecimento das relações entre os atacadistas, distribuidores e varejistas, de acordo com as práticas do marketing de relacionamento. Como método de pesquisa, utiliza abordagem qualitativa, de caráter exploratório e descritivo. Foram realizadas entrevistas individuais em profundidade com os principais executivos das empresas estudadas, observação não participante e análise documental. A técnica de análise utilizada foi análise de conteúdo. Pelos resultados é possível concluir que a presença das variáveis confiança e compromisso nas relações pesquisadas é resultado de investimentos relevantes e significativos de longo prazo, envolvendo planejamento conjunto. No ambiente estudado, por vezes, as relações de confiança e comprometimento estão presentes, além do oportunismo percebido em algumas relações.Palavras-chave: Compromisso. Confiança. Marketing de Relacionamentos. Arranjos Produtivos. Cadeia de Suprimentos.",
+        "pdf_url": "https://revista.feb.unesp.br/gepros/article/download/1210/644",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.15675/gepros.v10i2.1210",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "A Fundacao para o Desenvolvimento de Bauru (FunDeB)"
+        }
+      },
+      {
+        "title": "Estudo Fenomenológico Social da Ação Estratégica em um Arranjo Produtivo Local Moveleiro",
+        "source": "crossref",
+        "url": "https://doi.org/10.5585/riae.v12i3.1862",
+        "doi": "10.5585/riae.v12i3.1862",
+        "year": 2013,
+        "authors": [
+          "Fernanda Maria Felicio Macedo",
+          "Luiz Marcelo Antonialli"
+        ],
+        "venue": "Revista Ibero-Americana de Estratégia",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.5585/riae.v12i3.1862",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "University Nove de Julho"
+        }
+      },
+      {
+        "title": "UMA ANÁLISE DOS ELEMENTOS NECESSÁRIOS PARA PROMOÇÃO DA CAPACITAÇÃO E INOVAÇÃO DO ARRANJO PRODUTIVO LOCAL DE AGRICULTURA FAMILIAR EM PERNAMBUCO",
+        "source": "crossref",
+        "url": "https://doi.org/10.31692/2526-7701.icointerpdvagro.2016.00129",
+        "doi": "10.31692/2526-7701.icointerpdvagro.2016.00129",
+        "year": 2016,
+        "authors": [
+          "Joás Tomaz de Aquino",
+          "Vanessa de Cássia Lima da Silva"
+        ],
+        "venue": "UMA ANÁLISE DOS ELEMENTOS NECESSÁRIOS PARA PROMOÇÃO DA CAPACITAÇÃO E INOVAÇÃO DO ARRANJO PRODUTIVO LOCAL DE AGRICULTURA FAMILIAR EM PERNAMBUCO",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.31692/2526-7701.icointerpdvagro.2016.00129",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Instituto Internacional  Despertando Vocações"
+        }
+      },
+      {
+        "title": "O Cluster Automotivo Sul Fluminense: experiência de arranjo produtivo ou arranjo institucional?",
+        "source": "crossref",
+        "url": "https://doi.org/10.21527/2237-6453.2020.50.10-23",
+        "doi": "10.21527/2237-6453.2020.50.10-23",
+        "year": 2020,
+        "authors": [
+          "Raphael Jonathas da Costa Lima",
+          "Alexandre Duarte de Paiva"
+        ],
+        "venue": "Desenvolvimento em Questão",
+        "abstract": null,
+        "pdf_url": "https://www.revistas.unijui.edu.br/desenvolvimentoemquestao/article/download/8152/6278",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.21527/2237-6453.2020.50.10-23",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Editora Unijui"
+        }
+      },
+      {
+        "title": "Brasília como Capital da Música: Estratégias para o Desenvolvimento do Arranjo Produtivo Local",
+        "source": "crossref",
+        "url": "https://doi.org/10.48021/978-65-270-9641-2",
+        "doi": "10.48021/978-65-270-9641-2",
+        "year": 2026,
+        "authors": [
+          "C. N. CASTRO"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book",
+        "identifier": "10.48021/978-65-270-9641-2",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "Dialética"
+        }
+      },
+      {
+        "title": "\"Um arranjo produtivo em xeque\": campo, habitus e capital simbólico em um Arranjo Produtivo Local moveleiro em Minas Gerais",
+        "source": "crossref",
+        "url": "https://doi.org/10.5700/rausp1113",
+        "doi": "10.5700/rausp1113",
+        "year": 2013,
+        "authors": [
+          "Osmar Vieira de Souza Filho",
+          "Rogério Zanon da Silveira",
+          "Alexandre de Pádua Carrieri",
+          "Juliana Cristina Teixeira"
+        ],
+        "venue": "Revista de Administração",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "article",
+        "identifier": "10.5700/rausp1113",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Business Department, School of Economics, Business & Accounting USP"
+        }
+      },
+      {
+        "title": "Arranjo Produtivo Local (APL), competitividade e desenvolvimento local: um estudo sobre a Costa dos Corais – AL",
+        "source": "crossref",
+        "url": "https://doi.org/10.26512/2007.03.tcc.172",
+        "doi": "10.26512/2007.03.tcc.172",
+        "year": 2019,
+        "authors": [
+          "Atair Carneiro da Costa"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "10.26512/2007.03.tcc.172",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Biblioteca Central da UNB"
+        }
+      },
+      {
+        "title": "O programa de formação científico-tecnológica e o arranjo produtivo local nas áreas protegidas do Estado do Amazonas",
+        "source": "crossref",
+        "url": "https://doi.org/10.47328/ufvbbt.2025.060",
+        "doi": "10.47328/ufvbbt.2025.060",
+        "year": 2025,
+        "authors": [
+          "Ruth Trindade Ferreira"
+        ],
+        "venue": null,
+        "abstract": "O trabalho tratou sobre os efeitos do Programa de Formação Científico-Tecnológico, instituído pela Universidade do Estado do Amazonas (UEA), no ano 2008, o qual ofertou os primeiros cursos de graduação em nível tecnológico para o interior do estado do Amazonas. Os esforços foram o meio utilizado pela UEA para desenvolver e expandir a política de interiorização da educação superior. Utilizou-se a base de dados de arquivos primários, caracterizando-se a pesquisa como documental, a partir do levantamento de informações para procedimentos analíticos, cujos documentos foram: homepage do governo do estado do Amazonas, Relatórios de Conclusão de Curso, Relatório da Plataforma do Sistema Acadêmico Lyceum, Projetos Pedagógicos dos Cursos Tecnológicos ofertados pela UEA e Publicação do Diário Oficial do Estado do Amazonas e normativas da Instituição. Dessa forma, foi possível levantar e analisar a efetividade dos cursos de graduação tecnológicos como mecanismo de desenvolvimento econômico e aperfeiçoamento dos arranjos produtivos locais. Palavras-chave: Programa de Formação Científico-Tecnológico; Desenvolvimento Econômico; Arranjos Produtivos Locais; Política de Interiorização",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47328/ufvbbt.2025.060",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Pro-Reitoria de Pesquisa e Pos-Graduacai - UFV"
+        }
+      },
+      {
+        "title": "Formulação Estratégica e Fatores Isomórficos: Análise do Arranjo Produtivo Local de Malhas de Imbituva",
+        "source": "crossref",
+        "url": "https://doi.org/10.5585/riae.v12i1.1784",
+        "doi": "10.5585/riae.v12i1.1784",
+        "year": 2013,
+        "authors": [
+          "Carlos Cesar Garcia Freitas",
+          "Antônio João Hocayen-da-Silva",
+          "Andrea Paula Segatto"
+        ],
+        "venue": "Revista Ibero-Americana de Estratégia",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.5585/riae.v12i1.1784",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "University Nove de Julho"
+        }
+      },
+      {
+        "title": "ARRANJO PRODUTIVO LOCAL DE CERÂMICA VERMELHA: GANHOS COMPETITIVOS",
+        "source": "crossref",
+        "url": "https://doi.org/10.37885/200801057",
+        "doi": "10.37885/200801057",
+        "year": 2020,
+        "authors": [
+          "Ernane Rosa Martins"
+        ],
+        "venue": "Engenharia de Produção: Indústria 4.0 - Conceitos e Impactos",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.37885/200801057",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Editora Científica Digital"
+        }
+      },
+      {
+        "title": "Um Estudo Bibliométrico Sobre Arranjo Produtivo Local",
+        "source": "crossref",
+        "url": "https://doi.org/10.32888/cge.v2i1.12649",
+        "doi": "10.32888/cge.v2i1.12649",
+        "year": 2014,
+        "authors": [
+          "Abimael Ouro",
+          "Ikaro Barreto"
+        ],
+        "venue": "Cadernos de Gestão e Empreendedorismo",
+        "abstract": "O Arranjo Produtivo Local (APL) tem sido bastante discutido recentemente, devido a sua importância social e acadêmica, esse artigo tem como objetivo investigar como o tema APL vem sendo abordado academicamente.Para tanto, foi feito um levantamento e uma análise bibliométrica das publicações em administração reunidas em periódicos nacionais comQualis da CAPES de 2012 como A2, B1, B2, B3, no período de 2002 até 2012,sendo identificado um total de 72 artigos nos periódicos. Os principais resultados são: existe um crescimento nas publicações principalmente de 2008 até 2012;os autores não dão continuidade nos estudos sobre esse tema; o tema relacionado ao APL mais debatido é a inovação; em relação à metodologia a maioria tem abordagem qualitativa, utiliza o método teórico-empírico; os APLs mais estudados encontram-se no sudeste ou sul. Os resultados da pesquisa demonstram brechas para futuros estudos nesse campo, como também algumas fragilidades no avanço dos estudos neste tema.",
+        "pdf_url": "https://periodicos.uff.br/cge/article/download/12649/8191",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.32888/cge.v2i1.12649",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Revista Cadernos de Gestao e Empreendedorismo"
+        }
+      },
+      {
+        "title": "ARRANJO PRODUTIVO LOCAL DE CERÂMICA VERMELHA: GANHOS COMPETITIVOS",
+        "source": "crossref",
+        "url": "https://doi.org/10.29327/15588.6-10",
+        "doi": "10.29327/15588.6-10",
+        "year": 2018,
+        "authors": [
+          "Ernane Rosa Martins"
+        ],
+        "venue": "Anais do(a) Anais do VI Simpósio de Engenharia de Produção - SIMEP 2018",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.29327/15588.6-10",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "ARRANJO PRODUTIVO DO ARTESANATO NO VALE DO RIO URUCUIA",
+        "source": "crossref",
+        "url": "https://doi.org/10.22533/at.ed.9832318121",
+        "doi": "10.22533/at.ed.9832318121",
+        "year": 2023,
+        "authors": [
+          "Gisella Valadares Oliveira"
+        ],
+        "venue": "Inovação na administração: a criação de vantagem competitiva",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "10.22533/at.ed.9832318121",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Atena Editora"
+        }
+      },
+      {
+        "title": "O arranjo produtivo de Tobias Barreto-SE: limites e potencialidades",
+        "source": "crossref",
+        "url": "https://doi.org/10.61673/ren.2005.752",
+        "doi": "10.61673/ren.2005.752",
+        "year": 2017,
+        "authors": [
+          "Cid Olival Feitosa"
+        ],
+        "venue": "Revista Econômica do Nordeste",
+        "abstract": "O presente artigo examina a importância da proximidade territorial e do relacionamento entre firmas e instituições para o desenvolvimento econômico de uma determinada região. Procura resgatar as teorias de desenvolvimento regional e apresenta as transformações históricas que fizeram emergir as teorias de desenvolvimento econômico local. Expõe os fatores essenciais para qualquer estratégia de desenvolvimento econômico de base local e analisa o desenvolvimento recente do município de Tobias Barreto, buscando refletir se as ações implementadas naquela cidade têm sido capazes de promover um verdadeiro desenvolvimento econômico e social.",
+        "pdf_url": "https://www.bnb.gov.br/revista/ren/article/download/752/588",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.61673/ren.2005.752",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Banco do Nordeste do Brasil S/A"
+        }
+      },
+      {
+        "title": "O processo de transmissão de conhecimento em redes inter-organizacionais: a experiência do arranjo produtivo local de Birigüi (SP)",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/d.96.2006.tde-24012007-155022",
+        "doi": "10.11606/d.96.2006.tde-24012007-155022",
+        "year": 2015,
+        "authors": [
+          "Júlio Araújo Carneiro da Cunha"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/d.96.2006.tde-24012007-155022",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "O arranjo produtivo do leite no Município de Nossa Senhora da Glória/Sergipe (1990-2022): características, entraves e possibilidades de desenvolvimento local",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2024.1490391",
+        "doi": "10.47749/t/unicamp.2024.1490391",
+        "year": 2025,
+        "authors": [
+          "Maicon Silva Santos Júnior"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2024.1490391",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Oportunidades para setor farmacêutico em Pernambuco: planta industrial de proteína recombinante, arranjo produtivo do bioma caatinga e óleo de licuri",
+        "source": "crossref",
+        "url": "https://doi.org/10.48021/978-65-252-8665-5",
+        "doi": "10.48021/978-65-252-8665-5",
+        "year": 2023,
+        "authors": [
+          "I. E. VASCONCELOS"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "book",
+        "identifier": "10.48021/978-65-252-8665-5",
+        "extra": {
+          "crossref_type": "edited-book",
+          "publisher": "Dialética"
+        }
+      }
+    ]
+  },
+  "count": 40,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T01:59:09.455744+00:00"
+}

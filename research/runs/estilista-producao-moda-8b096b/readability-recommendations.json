@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    {
+      "id": "rec-1",
+      "category": "remove-hr",
+      "severity": "medium",
+      "rationale": "Horizontal rules between major sections should be removed for cleaner academic report formatting."
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "by_category": {
+      "remove-hr": 1
+    }
+  }
+}

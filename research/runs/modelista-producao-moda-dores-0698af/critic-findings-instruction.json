@@ -1,0 +1,59 @@
+{
+  "critic_type": "instruction",
+  "findings": [
+    {
+      "severity": "major",
+      "atomic_item": "Como a modelista se relaciona com estilo, ficha técnica, piloto, corte, costura, qualidade e produção?",
+      "failure_mode": "under-covered",
+      "location": "### 3.1. Dores na Etapa 1 — Ambiguidade do Croqui e Assimetria do Desenho Técnico — parágrafo sobre Suono (2011) ('No levantamento de Suono (2011) com docentes de design e modelistas industriais nos polos de Londrina e Maringá (PR), constatou-se forte rejeição das modelistas aos croquis estilizados...')",
+      "issue": "Em registro survey, a Seção 3.1 apresenta a interface com o estilo (Suono, 2011) como um consenso unilateral contra o desenho do estilista, omitindo a divergência real documentada no corpus entre docentes e modelistas sobre cotas e representação de caimento, bem como os elementos de 'duplo sentido'.",
+      "requires_orchestrator_restructure": false,
+      "recommendation": "Expandir o parágrafo de Suono (2011) [[projética-revista-científica-de-design-l-universidade-estadual-de-londrina-l-v2]] na Seção 3.1 para refletir o dissenso empírico mapeado no vault (entrevistas com 5 docentes no Grupo A e 4 modelistas no Grupo B): explicitar que, embora haja consenso sobre vistas de frente, costas e perfil e sobre legendar aviamentos e elementos de 'duplo sentido' (como diferenciar franzido de prega ou recorte de pesponto), as opiniões dividem-se quanto à inclusão de cotas numéricas no desenho e quanto à representação do caimento (defendida por 4 docentes e 3 modelistas, mas rejeitada por parte da modelagem sob o argumento de que 'em nada contribui')."
+    },
+    {
+      "severity": "major",
+      "atomic_item": "Quais são as dores da modelista em cada etapa do processo?",
+      "failure_mode": "under-covered",
+      "location": "### 3.3. Dores na Etapa 3 — Colapso Antropométrico da ABNT NBR 16933:2021 no Plus Size, Petite e 60+ — abertura e tabela comparativa",
+      "issue": "A Seção 3.3 analisa exclusivamente a norma feminina ABNT NBR 16933:2021 (e a antiga NBR 13377:1995), omitindo as normas masculina (ABNT NBR 16060:2012) e infantil (ABNT NBR 15800:2009) e o contraponto empírico positivo do vestuário infantil documentado no vault.",
+      "requires_orchestrator_restructure": false,
+      "recommendation": "Na Seção 3.3 (e/ou como linha adicional na tabela comparativa da linha 122), incluir a análise de Nishimura, Merino e Gontijo (2017) [[m-o-d-a-p-a-l-a-v-r-a-e-p-e-r-i-ó-d-i-c-o-2]] sobre o quadro completo das normas ABNT de vestuário: explicar que a NBR 15800:2009 (infantil, elaborada por comissão de 53 participantes) e a NBR 16060:2012 (masculino, dividida nos biótipos normal, atlético e especial, com 21 participantes) também careceram de levantamento antropométrico com scanner 3D equivalente ao SizeBR, mas registrar o contraponto empírico de que marcas de e-commerce infantil que adotaram a NBR 15800:2009 (casos Chicleteria e YKZ Moda Infantil) obtiveram redução comprovada de erros no desenvolvimento da modelagem, queda de custos produtivos e diminuição de trocas/devoluções."
+    },
+    {
+      "severity": "major",
+      "atomic_item": "Quais dores são estruturais (organização, comunicação, ferramentas, valorização) e quais são técnicas (medidas, gradação, caimento, encaixe)?",
+      "failure_mode": "under-covered",
+      "location": "### 4.4. Invisibilidade Acadêmica, Assimetria de Status e Gargalos Salariais — parágrafo único ('Essa sobrecarga física e cognitiva é agravada pela invisibilidade institucional da categoria...')",
+      "issue": "A Seção 4.4 resume a valorização profissional, organização e remuneração a um único parágrafo genérico, deixando de fora dados concretos do vault sobre a estrutura de formação regional/porte (46% técnico, 29% ex-costureiras, 25% superior), a terceirização em bureaux (24% das empresas sem modelista interna), a extensão de jornada até 22h no treino de CAD e a divisão disfuncional entre modelista de papel e operador leigo.",
+      "requires_orchestrator_restructure": false,
+      "recommendation": "Expandir a Seção 4.4 com os dados empíricos do vault sobre organização do trabalho e valorização profissional: (1) detalhar a clivagem formativa de Silveira (2011) [[6-resultado-da-pesquisa]] em SC (média estadual de 46% curso técnico SENAI/SENAC, 29% ex-costureiras promovidas pela prática e 25% ensino universitário, contrastando o Vale do Itajaí — 53% técnico, 34% superior, 13% ex-costureiras — com o Oeste — 44% ex-costureiras, chegando a 60% nas microempresas); (2) documentar que 24% das confecções não possuem modelista interna [[6-resultado-da-pesquisa]], recorrendo a escritórios terceirizados (bureaux) onde a modelista autônoma trabalha sob metas estritas de entrega por peça [[ergonomia-física-as-exigências-presentes-na-atuação-de-modelista-do-vestuário-mo]], [[physis-revista-de-saúde-coletiva-rio-de-janeiro-v-301-e300106-2020]]; e (3) explicitar as duas patologias organizacionais documentadas em [[análise-dos-resultados-da-pesquisa-com-foco-na-gestão]]: a extensão compensatória de jornada (modelistas em treino de CAD das 8h às 18h obrigadas a trabalhar no corte até as 22h para repor a meta) e a divisão entre modelista de papel e operador leigo de CAD, que transfere à modelista sênior o retrabalho de auditar erros geométricos de quem desconhece a anatomia do vestuário."
+    },
+    {
+      "severity": "major",
+      "atomic_item": "Padrões Recorrentes e Implicações",
+      "failure_mode": "vague-recommendation",
+      "location": "### 5.2. Implicações Práticas, Tecnológicas e Horizonte Futuro para o Setor — primeiro e quarto tópicos ('Governança da Ficha Técnica em Dois Portões...' e 'Reengenharia Ergonômica...')",
+      "issue": "As recomendações de governança de corte/lavanderia e de ergonomia de bancada na Seção 5.2 omitem limiares numéricos operacionais presentes no corpus (tolerâncias percentuais de encolhimento residual, margem de variação de largura útil de rolo e limites angulares biomecânicos).",
+      "requires_orchestrator_restructure": false,
+      "recommendation": "Especificar os limiares quantitativos do vault nos bullets da Seção 5.2: (1) no tópico de Governança da Ficha Técnica e Pacote Lacrado, adicionar a conferência obrigatória de largura útil do rolo descontadas as ourelas (recalculando o risco sempre que a variação entre partidas superar ±2 cm) e a trava de tolerância máxima de variação residual pós-lavanderia não compensada (±1,5% em tecido plano e ±2,5% em malha ou jeans com elastano) [[xliv-encontro-nacional-de-engenharia-de-produção-3]], [[universidade-de-são-paulo-12]], [[universidade-de-são-paulo-13]]; e (2) no tópico de Reengenharia Ergonômica, especificar que a regulagem de altura e inclinação da bancada deve manter a flexão cervical abaixo de 20° e a flexão de tronco abaixo de 20°, eliminando a exposição postural de 98,2% no protocolo REBA [[revista-ação-ergonômica-v-13-n-1-2018]]."
+    },
+    {
+      "severity": "minor",
+      "atomic_item": "prova de modelo / aprovação de caimento",
+      "failure_mode": "under-covered",
+      "location": "### 3.5. Dores na Etapa 5 — Subjetividade no Fitting e Limites Físico-Mecânicos da Simulação 3D — abertura e lista de tópicos",
+      "issue": "A Seção 3.5 menciona a 'variabilidade subjetiva das modelos de prova humanas' apenas de passagem na frase introdutória e dedica todos os tópicos seguintes aos limites do software 3D, omitindo a evidência empírica de Yang & Baytar (2024) sobre o papel da modelo viva vs. mapas de pressão 3D e o contraponto de validação visual de Pires (2015).",
+      "requires_orchestrator_restructure": false,
+      "recommendation": "Adicionar na Seção 3.5 os achados diretos de Yang e Baytar (2024) [[fit-models-roles-in-identifying-fit-issues]] e Pires (2015) [[universidade-estadual-paulista]]: explicitar que os mapas de tensão/pressão (strain/pressure maps) dos simuladores 3D ainda não correspondem à pressão real sentida pelo usuário, tornando a modelo de prova viva insubstituível para avaliar conforto tátil, vestibilidade dinâmica e o ato de vestir/despir [[fit-models-roles-in-identifying-fit-issues]], ao mesmo tempo em que se reconhece o contraponto de Pires (2015) [[universidade-estadual-paulista]], onde a avaliação visual de saias godê no 3D atingiu 26% de classificação 'idêntica' e 68% 'muito semelhante' ao protótipo físico para triagem estética preliminar."
+    },
+    {
+      "severity": "minor",
+      "atomic_item": "readability-structural: Check R1 (Audience adaptation / definitions)",
+      "failure_mode": "missing-definitions",
+      "location": "### 2.2. Etapa 2, ### 3.3. Dores na Etapa 3 e ### 4.3. Ergonomia Física — primeira ocorrência de termos técnicos como 'alometria', 'anisotropia / viscoelástico', 'sarja 2x1, 3x1, broken twill' e 'RULA'",
+      "issue": "O relatório define a maioria dos jargões em sua primeira aparição, mas utiliza termos técnicos de engenharia têxtil, biometria e ergonomia ('sarja 2x1, 3x1, broken twill', 'alometria', 'viscoelástico/anisotrópico' e 'RULA nível 6') sem uma breve definição parentética na primeira menção para leitores não especialistas.",
+      "requires_orchestrator_restructure": false,
+      "recommendation": "Incluir breves definições parentéticas na primeira ocorrência desses termos: (1) em 2.2, explicar 'ligamento (padrão de entrelaçamento entre fios de urdume longitudinal e trama transversal, como sarja diagonal 2x1, 3x1 ou broken twill em zigue-zague)'; (2) em 3.3, definir 'alometria (crescimento desproporcional entre diferentes partes do corpo à medida que o peso aumenta)'; (3) em 3.9, definir 'relaxamento estrutural viscoelástico (retorno gradual das fibras têxteis ao estado de repouso após cessar a tensão mecânica do rolo)'; e (4) em 4.3, definir 'RULA (Rapid Upper Limb Assessment, protocolo ergonômico de avaliação rápida dos membros superiores, em escala de 1 a 7)'."
+    }
+  ]
+}

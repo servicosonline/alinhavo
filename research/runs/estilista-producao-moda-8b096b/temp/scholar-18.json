@@ -1,0 +1,962 @@
+{
+  "ok": true,
+  "data": {
+    "query": "desenvolvimento colecao vestuario pesquisa tendencias ficha tecnica",
+    "scope": "papers",
+    "providers": [
+      "openalex",
+      "crossref",
+      "doab"
+    ],
+    "per_source": {
+      "openalex": 25,
+      "crossref": 20,
+      "doab": 0
+    },
+    "raw_records": 45,
+    "merged_records": 45,
+    "returned": 45,
+    "cached": true,
+    "failed": [],
+    "unavailable": [
+      "CORE: set CORE_API_KEY",
+      "RePEc: the RePEc API has no search function (per-identifier lookups only; see https://ideas.repec.org/api.html). Economics working papers with DOIs are still reachable through openalex and crossref."
+    ],
+    "results": [
+      {
+        "title": "PROJETO CÁPSULA: INTEGRAÇÃO ENTRE ENSINO E INDÚSTRIA NO DESENVOLVIMENTO DE COLEÇÃO COMERCIAL EM DENIM",
+        "source": "openalex",
+        "url": "https://doi.org/10.29327/9786527225072.1463743",
+        "doi": "10.29327/9786527225072.1463743",
+        "year": 2026,
+        "authors": [
+          "Maria Julia De Lima Dassoler",
+          "Bianca Studzinski Mello"
+        ],
+        "venue": null,
+        "abstract": "INTRODUÇÃO: A formação em Design de Moda demanda estratégias pedagógicas que aproximem os acadêmicos das exigências reais da indústria, especialmente no desenvolvimento de produtos comerciais com viabilidade produtiva e padronização técnica. No contexto catarinense, essa necessidade é ainda mais relevante, considerando que o segmento de vestuário representa 18,8% dos empreendimentos industriais e 21,8% dos empregos na indústria, sendo Santa Catarina o segundo maior polo têxtil e de confecção do país (SEBRAE, 2022). Ademais, o Brasil está entre os cinco maiores produtores e consumidores de denim do mundo (ABIT, 2024), reforçando a importância desse segmento para o mercado nacional. Diante desse cenário, estabeleceu-se a seguinte questão-problema: como integrar teoria e prática no desenvolvimento de coleções comerciais no ensino de Design de Moda? Para responder a essa questão, foi desenvolvido o Projeto Cápsula na unidade curricular Projeto de Design de Moda IV, com 23 acadêmicos da quarta fase do curso de Tecnologia em Design de Moda. Em 2025/1, o projeto ocorreu em parceria com a empresa Pigmento, com foco na criação de uma coleção cápsula comercial em denim, alinhada ao perfil e ao público da marca. METODOLOGIA: O projeto foi desenvolvido individualmente, entre os 23 acadêmicos da quarta fase, com aplicação da metodologia projetual de design de moda (Treptow, 2013; Montemezzo, 2003), envolvendo etapas estruturadas como segmentação de marca, definição de persona, pesquisa sincrônica de marcas, análise de tendências com apoio de relatórios WGSN, elaboração de painéis conceituais e desenvolvimento do mix de produtos. A proposta contemplou geração de alternativas com esboços e seleção de modelos para detalhamento técnico. Além disso, foram elaboradas fichas técnicas completas, considerando orientações para processos industriais como lavanderia. A metodologia incluiu pré-bancas e banca avaliativa junto com a empresa parceira, permitindo feedback e refinamento do projeto. Como parte do processo, também foi desenvolvido planejamento de editorial e fashion film, reforçando a comunicação de moda como etapa essencial do produto final. RESULTADOS: Observou-se evolução técnica e conceitual no desenvolvimento das coleções, especialmente quanto à coerência do mix de produtos, detalhamento técnico e adequação ao posicionamento da marca. A comparação entre pré-bancas e banca final evidenciou aprimoramentos orientados pelas devolutivas da empresa, demonstrando validação do processo. Os acadêmicos ampliaram a compreensão sobre viabilidade produtiva, documentação técnica e comunicação de produto, articulando criatividade e análise mercadológica. Sob a perspectiva da indústria, a aproximação com a instituição de ensino mostrou-se estratégica para identificação de talentos e para o acesso a novas abordagens criativas, configurando uma relação de benefício mútuo. CONCLUSÕES: O Projeto Cápsula demonstrou relevância como prática pedagógica aplicada, fortalecendo a integração entre universidade e indústria e qualificando a formação profissional dos acadêmicos. A experiência evidenciou a importância da metodologia projetual na estruturação do desenvolvimento de coleção comercial, promovendo competências técnicas, críticas e comunicacionais. Como limitação, destaca-se o tempo restrito do semestre para aprofundamento de testes produtivos em escala industrial. Recomenda-se a continuidade e ampliação do projeto com novas parcerias e segmentos, consolidando a aproximação entre formação acadêmica e contexto produtivo regional.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W7165967988",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "A Influência do Design no Desenvolvimento de Vestuário Hospitalar para Pacientes",
+        "source": "openalex",
+        "url": "https://estudosemdesign.emnuvens.com.br/design/article/view/164",
+        "doi": "10.35522/eed.v22i2.164",
+        "year": 2014,
+        "authors": [
+          "Heloísa Nazaré dos Santos",
+          "Edson José Carpintero Rezende",
+          "Daniela Isis de Souza Araújo"
+        ],
+        "venue": "Estudos em Design",
+        "abstract": "O meio hospitalar possui potencial e demandas para desenvolvimento de “design” específico, a fim de atender principalmente o vestuário. Este artigo aborda a influência das metodologias projetuais de design aplicadas ao seguimento médico-hospitalar, especificamente ao estudo do vestuário hospitalar destinado a pacientes. As análises investigam usuários, procedimentos e processos do qual esse produto participa, assim como o ambiente e as situações de uso, ressaltando as possibilidades em estudos e vertentes que ainda podem ser exploradas, tais como estudo projetual segmentado, desenvolvimento de vestuários diferentes para demandas distintas e adaptação técnica e ergonômica dos produtos.",
+        "pdf_url": "https://estudosemdesign.emnuvens.com.br/design/article/download/164/158",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W2113524616",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Desenvolvimento de uma coleção para a marca Guava",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10400.11/2308",
+        "doi": null,
+        "year": 2013,
+        "authors": [
+          "M. Chalabardo",
+          "Amulya. M Everil Jacklin Fernandes"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "O Design de Calçado tem vindo a inovar em Portugal e a sua evolução tem sido exponencial. As marcas portuguesas de calçado têm investido sobre diferentes conceitos nesta área. Destaca-se a marca Guava como sendo uma marca que estuda as formas geométricas no Calçado e reflete esta evolução, tendo sempre em conta, a anatomia do pé para um bom conforto e qualidade do produto, sem esquecer o seu lado ecológico, inerente à marca. Tomando como premissa a questão, Como se desenvolve uma coleção para uma marca de Calçado existente em contexto real de trabalho? O método adaptado consiste numa metodologia mista obtida através de investigação/ação. Esta metodologia dinâmica funciona como um ciclo de planeamento, onde a ação remete para a comprovação de fatos através do desenvolvimento de uma coleção de Calçado, onde a análise e a reconceptualização do problema é implementado e avaliado através da marca Guava.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "W1181037466",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Proposta de um modelo de referência para o processo de desenvolvimento de produto do vestuário",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/606",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Isabel Cristina Moretti"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "O processo de desenvolvimento de produto do vestuário (PDPV) sofre influência da moda, esse fator confere a esse processo dinamismo e exige rapidez durante o desenvolvimento. As empresas desenvolvem seus produtos em linhas sazonais (coleções) em vez de produtos individuais, com uma grande quantidade de produtos por coleção e várias coleções ao ano. Consequentemente apresentam um curto período de tempo para o desenvolvimento de cada coleção. Neste sentido, a adoção de estruturas organizacionais adequadas e de boas práticas para o PDP, pode ajudar a melhorar o desempenho desse processo na indústria de confecção, que é essencial para a competitividade das empresas. Por meio da utilização de modelo de referência a empresa pode criar sua própria estrutura para a realização das atividades, de modo que o modelo se adapte a realidade da empresa, e ao mesmo tempo sistematize as atividades e estruture o processo. O objetivo desse trabalho foi propor um modelo de referência específico para a indústria do vestuário, adaptado as suas características. Este pode ser um caminho para estas empresas estruturarem seu PDP, aumentando o desempenho do processo e consequentemente dessas empresas no mercado. A abordagem do problema foi qualitativa e o desenvolvimento do modelo foi por meio de revisão de literatura e pesquisa de campo. A coleta de dados foi realizada por meio de entrevistas com empresas, profissionais e professores da área de PDPV. O objetivo das entrevistas foi de mapear o PDP nestas áreas. A construção do modelo foi feita em três etapas. A primeira etapa foi de construção de uma representação teórica, ou seja, um modelo teórico desenvolvido por meio da comparação de um modelo de referência genérico e modelos específicos para o vestuário. A segunda etapa foi de comparação do mapeamento das entrevistas com a representação teórica, confrontando a teoria e a prática. A terceira etapa foi o desenvolvimento do modelo propriamente dito. O modelo está desmembrado em macro-fases, fases e atividades. Cada fase foi detalhada com o fluxo de atividades e seus responsáveis, além das entradas e saídas de documentos e informações. O desenvolvimento do modelo de referência proposto vem de encontro com essas informações levantadas na literatura e nas entrevistas. Logo, pode estar contribuindo para a estruturação do processo no âmbito industrial e pesquisas na área de desenvolvimento de produto do vestuário, no âmbito acadêmico. O modelo de referência para o PDPV é uma junção de boas práticas que podem ser utilizadas em sua totalidade para estruturar com flexibilidade o PDP, ou ser utilizado parcialmente por meio de uma adaptação, ajustando-se à realidade a qual será utilizado.",
+        "pdf_url": null,
+        "citation_count": 8,
+        "work_type": "thesis",
+        "identifier": "W2258493215",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Reflexões sobre o uso de metodologias de projeto de produto no desenvolvimento de coleção de moda",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.5965/1982615x06122013155",
+        "doi": "10.5965/1982615x06122013155",
+        "year": 2013,
+        "authors": [
+          "Bibiana Silveira Horn",
+          "Guilherme Corrêa Meyer",
+          "Vinícius Gadis Ribeiro"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "Este artigo é resultado de uma pesquisa que descreve o desenvolvimento de uma coleção de moda a partir de um compilado de metodologias de projeto. Tal compilado procurou combinar etapas projetuais adotadas em projetos de produto com etapas utilizadas no desenvolvimento de coleções de moda. Ao final, o artigo reflete sobre os efeitos gerais da pesquisa, e, mais particularmente, sobre a aproximação realizada entre o universo metodológico de design de produto, e o universo projetual do desenvolvimento de coleções.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/modapalavra/article/download/3482/6855",
+        "citation_count": 12,
+        "work_type": "article",
+        "identifier": "W2272371389",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Melhorias no processo de desenvolvimento de produto de uma indústria do vestuário do segmento Fast-Fashion",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/10183/196292",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Renata Lodi",
+          "Márcia Elisa Soares Echeveste"
+        ],
+        "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+        "abstract": "ResumoNo setor têxtil brasileiro, a gestão do PDP é caracterizada por uma baixa organização no que se refere às metodologias e adoção de modelos de referência.Em geral, estas empresas não possuem uma estrutura organizada em etapas consistentes e atribuição de funções para o desenvolvimento de novos produtos.Este trabalho tem como objetivo sugerir melhores práticas encontradas na literatura para o processo de desenvolvimento de produtos de uma indústria do vestuário que não possui marca própria e fornece produtos para o segmento fast-fashion.Para atingir esse objetivo foi realizada uma busca na literatura por modelos de PDP de manufatura e relacionados ao setor.Por meio da comparação entre eles, juntamente com o levantamento das particularidades e dificuldades do segmento do vestuário escolhido, foram propostas atividades para melhoria do processo da empresa.A contribuição deste trabalho foi demonstrar como empresas de porte pequeno no setor do vestuário podem melhorar seus produtos por meio de uma sistematização nos seus processos de desenvolvimento, trazendo as melhores práticas publicadas em modelos de outros segmentos de atividade econômica, para o setor.Entende-se que o método realizado possa ser estendido a outras empresas que desejem aperfeiçoar sua gestão no desenvolvimento de novos produtos e serviços.Palavras-chave: PDP; Indústria Têxtil/Vestuário; Gestão de projetos de novos produtos. IntroduçãoA indústria do vestuário é uma das mais antigas e tradicionais do Brasil.Conforme informa o SINDIVESTUÁRIO (2008), remonta ao século XIX, e é um dos marcos do início da industrialização do país.Mesmo fazendo parte do dia a dia de todas as pessoas, os números, estatísticas e importância do setor do vestuário no cenário brasileiro nem sempre são conhecidos em toda sua extensão.Segundo o IEMI (Instituto de Estudos e Marketing Industrial), a produção do vestuário no Brasil em 2009 foi de 5,2 bilhões de peças, empregando mão-de-obra de 1.100.259trabalhadores, num total de 22.303 unidades industriais formais.A maioria dessas indústrias está distribuída na região sudeste, sul e nordeste do país, sendo que 77% delas são micro e pequenas, 20% são médias e apenas 3% são grandes empresas.(SINDIVESTUÁRIO, 2011).No início dos anos 90, as indústrias de confecção do vestuário faziam de duas a quatro coleções ao ano.Este cenário, em resposta às solicitações do mercado da moda, vem se transformando e se tornando muito mais dinâmico.Para Rech (2003), o desenvolvimento do produto de moda, em grande parte das empresas brasileiras, é concretizado através de coleções pequenas (quantidade de peças), concisas e bem definidas quanto ao conceito/estilo (qualidade), principalmente por causa da velocidade das informações sobre moda a que os consumidores têm acesso.Surgem então, as empresas que trabalham em função das tendências da moda.Segundo Oliveira (2007), elas fazem parte do segmento fast-follower, ou seja, são as que monitoram as tendências mundiais e as lançam rapidamente no mercado.Grandes redes de varejo como C&A, Renner, Riachuelo, Marisa e Hering aderiram à essa tendência, aqui denominada fast-fashion (moda rápida), que é um movimento importado de marcas da Europa, como a Zara e a H&M que na prática, significa estar sempre com as prateleiras abastecidas de",
+        "pdf_url": null,
+        "citation_count": 4,
+        "work_type": "other",
+        "identifier": "W2983471905",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "A APLICAÇÃO DA INTELIGÊNCIA ARTIFICIAL NO DESENVOLVIMENTO DE PRODUTOS NA INDÚSTRIA DE VESTUÁRIO DE MODA",
+        "source": "openalex",
+        "url": "https://doi.org/10.29327/2766099.32.1-1",
+        "doi": "10.29327/2766099.32.1-1",
+        "year": 2025,
+        "authors": [
+          "Geovana Aparecida Bohn",
+          "Daniel Goulart"
+        ],
+        "venue": "Revista da UNIFEBE",
+        "abstract": "A Inteligência Artificial (IA) tem se tornado cada vez mais presente na indústria de vestuário de moda, contribuindo para a inovação e melhoria dos processos de criação, produção e personalização de produtos. Este estudo teve como objetivo analisar como a IA pode contribuir para o processo de criação de roupas na indústria do vestuário de moda. A pesquisa utilizou uma abordagem teórica para entender os conceitos fundamentais da IA e a sua viabilidade no setor têxtil, destacando as vantagens e desafios da implementação dessa tecnologia, especialmente para pequenas e médias empresas. A análise apontou que, embora a IA traga grandes benefícios, como maior eficiência e sustentabilidade, obstáculos como o alto custo e a falta de capacitação ainda limitam a sua adoção generalizada na indústria da moda.",
+        "pdf_url": "https://periodicos.unifebe.edu.br/index.php/RevistaUnifebe/article/download/1081/865",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "W7125132165",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Modelagem Plana Industrial do Vestuário: diretrizes para a indústria do vestuário e o ensino-aprendizado",
+        "source": "openalex",
+        "url": "https://doi.org/10.5433/2236-2207.2010v1n1p82",
+        "doi": "10.5433/2236-2207.2010v1n1p82",
+        "year": 2010,
+        "authors": [
+          "Marizilda dos Santos Menezes",
+          "Patrícia Aparecida de Almeida Spaine"
+        ],
+        "venue": "Projetica",
+        "abstract": "The work shows the importance of process modeling in industrial flat field fashion design. This was achieved by a qualitative study identifying vision of modelers, students and teachers about this stage of development and production clothing product in the regional center of Londrina - PR. This research allowed the development of methodological guidelines for the teaching and preparation Modeling Industrial flat clothing.",
+        "pdf_url": "https://ojs.uel.br/revistas/uel/index.php/projetica/article/download/7737/6858",
+        "citation_count": 41,
+        "work_type": "article",
+        "identifier": "W1967048349",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "VESTUÁRIO SUSTENTÁVEL: UMA ANÁLISE DO MODELO DE DESENVOLVIMENTO DE PRODUTO NA INDÚSTRIA DE CONFECÇÃO SLOW FASHION",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/cbgdp2017-079",
+        "doi": "10.5151/cbgdp2017-079",
+        "year": 2017,
+        "authors": [
+          "Márcia Meira Berti Fiorin",
+          "Edenir de Souza",
+          "Cláudio Luiz Sebben",
+          "Diego Castro Fettermann"
+        ],
+        "venue": null,
+        "abstract": "RESUMOO slow fashion envolve produzir com qualidade e em pequena escala, promovendo uma consciência de compra que deve ser baseada na durabilidade das peças e a forma como são produzidas.É importante que o desenvolvimento sustentável esteja em todo o ciclo de vida do produto, o que inclui as etapas de pré-produção, produção, uso e fim de vida do produto.A partir dessas considerações foi realizado um estudo com o objetivo de verificar como é realizada a aplicação do desenvolvimento de produtos orientado ao slow fashion em empresas têxteis de Santa Catarina.Para tanto foi realizado um estudo de caso em uma confecção com sede em Tijucas.Os dados foram coletados por meio de entrevista em profundidade.O estudo demonstrou que o processo utilizado para o desenvolvimento de produto de vestuário possui duas macrofases: macrofase de pré-desenvolvimento e macrofase desenvolvimento, na qual os desenhos aprovados são detalhados em fichas técnicas que servem de informação para a produção.A padronização do desenvolvimento do produto possibilita a empresa cumprir o objetivo de produzir vestuário sustentável, atendendo o princípio slow fashion de oferecer produtos de qualidade e duráveis, com materiais que reduzem o impacto ao meio ambiente.",
+        "pdf_url": "http://pdf.blucher.com.br/designproceedings/cbgdp2017/079.pdf",
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "W2769963957",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Vestuário Ergonômico para Idosas de uma Instituição de Longa Permanência",
+        "source": "openalex",
+        "url": "https://doi.org/10.5151/18ergodesignusihc2022-20",
+        "doi": "10.5151/18ergodesignusihc2022-20",
+        "year": 2022,
+        "authors": [
+          "José Adilson da Silva",
+          "Erton W. Vieira",
+          "Ana Caroline Ribeiro Godoy de VASCONCELOS"
+        ],
+        "venue": null,
+        "abstract": "Resumo O presente artigo resulta do Projeto Interdisciplinar do módulo Criação de Moda do curso superior de tecnologia em Design de Moda, cujo objetivo geral consistiu no desenvolvimento de peças de vestuário com requisitos ergonômicos para mulheres da terceira idade, com mais de 70 anos, residentes em uma Instituição de Longa Permanência para Idosos (ILPI).Como procedimentos metodológicos foram adotados a Pesquisa Bibliográfica, acerca de diretrizes ergonômicas para o vestuário de mulheres idosas; a Metodologia para Avaliação da Usabilidade e Conforto no Vestuário (OIKOS) e os Sete Princípios do Design Universal (1997); bem como a fase Projetual, subdividida em oito etapas: 1| levantamento das necessidades; 2| pesquisa de tema; 3| geração de alternativas; 4| desenvolvimento de ficha técnica; 5| modelagem; 6| corte e montagem do protótipo; 7| correções; 8| corte e confecção da peça final.Como resultado, foram produzidos 15 vestidos adequados e acessíveis às necessidades das mulheres longevas institucionalizas na ILPI selecionada para a aplicação deste estudo.",
+        "pdf_url": "http://pdf.blucher.com.br/designproceedings/18ergodesignusihc2022/20.pdf",
+        "citation_count": 1,
+        "work_type": "other",
+        "identifier": "W4282926346",
+        "extra": {
+          "openalex_type": "conference-paper",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "O codesign para geração de valor e inovação no desenvolvimento de produtos de vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1982615x14322021204",
+        "doi": "10.5965/1982615x14322021204",
+        "year": 2021,
+        "authors": [
+          "Luciana da Silva Bertoso",
+          "Adriano Heemann"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "O presente artigo aborda os processos de inovação em empresas de vestuário, com intuito de analisar como a colaboração entre os stakeholders podem contribuir para a geração de valor e inovação. Inicialmente, uma Revisão Bibliográfica delineia o quadro teórico sobre o qual se fundamenta o assunto e que é confirmado empiricamente por meio de um Estudo de Caso junto a uma empresa brasileira. Os resultados apresentados e discutidos revelam aspectos novos sobre os fatores causais da criação de valor e da inovação. O estudo conclui com a constatação de duas relações causais no desenvolvimento de produtos de vestuário: o codesign é fator que está para a geração de valor assim como a gestão de relacionamento está para a inovação.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/modapalavra/article/download/15428/12781",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W3145599740",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Riscos na moda: recomendações associadas ao desenvolvimento de mix de produtos de vestuário no varejo sob ótica de especialistas",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/1982615x14342021284",
+        "doi": "10.5965/1982615x14342021284",
+        "year": 2021,
+        "authors": [
+          "Cristina Rodrigues Barbosa",
+          "Silene Seibel"
+        ],
+        "venue": "Modapalavra e-periódico",
+        "abstract": "O artigo investiga a temática dos riscos envolvidos no desenvolvimento de mix de produtos de vestuário no varejo. Devido a crescente complexidade dos negócios de moda em função dos curtos ciclos de produção, das variáveis subjetivas envolvidas na tomada de decisão do consumidor e da dificuldade em equilibrar os atributos do mix, foi proposto uma pesquisa aplicada e descritiva, que utiliza método quantitativo aliado ao qualitativo em uma pesquisa de campo. O resultado foi um conjunto de recomendações advindas de uma amostra composta por 94 profissionais de mercado que tem o propósito de reduzir os riscos ao longo do processo de desenvolvimento de mix de produtos de vestuário no varejo.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/modapalavra/article/download/20900/13469",
+        "citation_count": 3,
+        "work_type": "article",
+        "identifier": "W3203780617",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Guia para a implantação de softwares de prototipagem 3D no processo de desenvolvimento de produtos das indústrias de vestuário",
+        "source": "openalex",
+        "url": "https://repositorio.udesc.br/handle/UDESC/20975",
+        "doi": null,
+        "year": 2024,
+        "authors": [
+          "Tauane Spanhol de Aguirre"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "O ambiente competitivo do mercado de moda mundial está constantemente transformando os processos produtivos de desenvolvimento de produtos de vestuário. Enquanto as empresas buscam atender a demanda de novidades dos usuários, concomitantemente o gerenciamento de recursos internos da empresa se torna um fator importante como diferencial competitivo no mercado. Existem no mercado diversas tecnologias que colaboram para um desenvolvimento de produtos mais assertivos, colocando as empresas em vantagem competitiva. Esta pesquisa tem como objetivo propor um guia para implantação de software de prototipagem 3D no processo de desenvolvimento de produtos das indústrias de vestuário. Desta forma, Indústrias de vestuário que ainda têm dificuldades na adaptação de seus processos de desenvolvimento de produtos com a implantação de software de simulação 3D, podem criar seus protótipos virtuais, reduzir a quantidade de tecidos e outros recursos necessários para a produção de roupas. Para alcançar as soluções apontadas para o problema em adesão ao software 3D pelas empresas de confecção, esta pesquisa é de natureza aplicada, apoiando-se na abordagem qualitativa, quanto ao problema de pesquisa e em relação ao objetivo pesquisa descritiva. Quanto aos procedimentos técnicos para a coleta de dados, foi realizada: (I) Revisão da Literatura, visando avaliar o atual estado do conhecimento sobre o assunto; (II) Entrevista com o representante da empresa sobre os produtos por ela ofertado; (III) Aplicação de questionário com empresas de confecção que possuem e que não possuem o software; (IV) Pesquisa básica em rede profissional para avaliar o perfil dos profissionais que utilizam o software. As teorias que embasaram o trabalho foram: Processos para transição de modelos de indústria e adesão a novas tecnologias (Chien; Hong; Guo, 2017), (Quintino et al., 2019), Administração da Produção (Slack, Brandon-Jones; Johnston, 2020); Etapas do Desenvolvimento de Produtos de Vestuário (Montemezzo, 2003), (Bitterncourt et al, 2021), (Silveira, 2017) e teorias sobre Indústria 3.0, 3.5, 4.0 e 5.0 (Schwab, 2016), (Chien; Hong; Guo, 2017), (Quintino et al., 2019). Como resultado do trabalho, foi produzido um Guia que contribui para a elucidação dos passos necessários para a implantação do software de prototipagem 3D no processo de desenvolvimento de produtos das indústrias de vestuário.",
+        "pdf_url": "https://repositorio.udesc.br/bitstreams/e91e0d8a-a74c-4d4c-9d57-a6b449688f8e/download",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7120527950",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Proposta de aplicação de software para prototipagem em 3D no desenvolvimento de produtos de indústria de vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.21814/uminho.ed.139.8",
+        "doi": "10.21814/uminho.ed.139.8",
+        "year": 2024,
+        "authors": [
+          "Tauane Spanhol de Aguirre",
+          "Icléía Silveira",
+          "Daniela Novelli"
+        ],
+        "venue": "UMinho Editora eBooks",
+        "abstract": "As mudanças constantes no cenário econômico contemporâneo e o advento das tecnologias disponíveis são apontadas como fatores de transformação na gestão das empresas e na forma como são abordadas estrategicamente suas operações.A necessidade de sobreviver neste mercado cada vez mais competitivo evidencia a importância de ampliar o uso das tecnologias digitais como uma abordagem estratégica nos processos produtivos.O objetivo deste trabalho é propor a aplicação do software 3D no processo de desenvolvimento de produtos de uma indústria de confecção de vestuário de médio porte.Para isso, utilizou-se pesquisa aplicada, qualitativa e descritiva, nos limites de estudo de caso, em uma indústria parceira onde foram mapeados os seus processos.Após, foi apresentado um novo fluxo de etapas para desenvolvimento de produtos com a contemplação da prototipagem virtual nos processos.Na análise final, percebe-se que a utilização do software 3D traz benefícios significativos para o desenvolvimento de produtos comparado com os processos realizados pela empresa sem esta tecnologia.",
+        "pdf_url": "https://ebooks.uminho.pt/index.php/uminho/catalog/download/139/199/3200?inline=1",
+        "citation_count": 0,
+        "work_type": "book-chapter",
+        "identifier": "W4393151195",
+        "extra": {
+          "openalex_type": "book-chapter",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "Proposta de um modelo de referência para o desenvolvimento de produtos do vestuário utilizando impressão 3D",
+        "source": "openalex",
+        "url": "https://doi.org/10.22456/1983-8026.105374",
+        "doi": "10.22456/1983-8026.105374",
+        "year": 2021,
+        "authors": [
+          "Nathalia Ruiz Fuchs",
+          "Syntia Lemos Cotrim",
+          "Gislaine Camila Lapasini Leal"
+        ],
+        "venue": "Produto & Produção",
+        "abstract": "O processo de desenvolvimento de produtos tem contribuído grandemente para o sucesso de produtos no mercado desde o início de sua criação. Os muitos modelos de referência presentes na literatura auxiliam na organização das etapas e atividades presentes neste processo. Entretanto, quando se trata de uma inovação radical, existe uma dificuldade de adequação a esses modelos. A inovação radical normalmente vem de avanços tecnológicos, de invenções ou da busca por novos mercados. De uma perspectiva mercadológica, a tecnologia de impressão 3D tem sido apontada como uma ruptura em seu modelo de produção atual. Com seu rápido crescimento pode-se prever que brevemente a impressão 3D estará presente em praticamente todos os segmentos do mercado. Já é possível visualizar o alcance desta tecnologia na indústria da moda. Sapatos e coleções de moda completas impressas tridimensionalmente já estão sendo criados e alguns destes itens sendo comercializados. Deste modo, o objetivo deste artigo é a criação de um modelo de referência voltado exclusivamente para a impressão 3D de vestuários. Para isso, utilizaram-se como base cinco modelos de referência atuais presentes na literatura, entre os quais dois são modelos generalistas e três são específicos, sendo um mecatrônico e dois voltados para o vestuário. Além disso, para o domínio da tecnologia de impressão 3D realizou-se a modelagem e a impressão tridimensional de um sapato de salto alto.",
+        "pdf_url": "https://seer.ufrgs.br/index.php/ProdutoProducao/article/download/105374/58845",
+        "citation_count": 4,
+        "work_type": "article",
+        "identifier": "W3108588565",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "DESENVOLVIMENTO DE UM PRODUTO DE VESTUÁRIO PARA PESSOAS COM TRANSTORNO DE PROCESSAMENTO SENSORIAL, ESPECIFICAMENTE SENSIBILIDADES À TÊXTEIS E TEXTURAS",
+        "source": "openalex",
+        "url": "http://dx.doi.org/10.25112/rpr.v2.3637",
+        "doi": "10.25112/rpr.v2.3637",
+        "year": 2024,
+        "authors": [
+          "Gilberto do Nascimento da Silva",
+          "Nailton T. Câmara",
+          "Aline Gabriel Freire"
+        ],
+        "venue": "Revista Prâksis",
+        "abstract": "A presente pesquisa aborda a temática do Transtorno de Processamento Sensorial (TPS) no vestuário, uma vez que para a moda os sentidos são de extrema relevância, principalmente, tato e visão, pois proporcionam experiências, satisfação e adesão ao público. Desta forma, o objetivo deste estudo foi desenvolver uma peça de vestuário com o intuito de proporcionar conforto e satisfação para o público com sensibilidade à têxteis e texturas. Esta é uma pesquisa aplicada, exploratória e qualitativa, conduzida com o auxílio de um formulário online, em que 49 participantes contribuíram no entendimento sobre sensibilidade e conforto em peças de vestuário. O produto construído foi a Camisa Oversized Sensorial Água-viva, desenvolvida e pensada para pessoas com sensibilidade à têxteis e texturas, tendo sido aprovada pelos usuários que participaram do teste de usabilidade. Trata-se de uma camisa feita em tecido 100% algodão, utilizando de uma técnica de costura que evita o contato da mesma com a pele, e com bordado nas mangas que remete aos elementos de uma água-viva, as mangas foram embutidas na peça. Dentre os resultados, tem-se como melhoria do produto a substituição dos botões convencionais por botões de pressão para facilitar a vestibilidade.",
+        "pdf_url": "https://periodicos.feevale.br/seer/index.php/revistapraksis/article/download/3637/3328",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W4402304514",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Especificidades e contribuições das redes informacionais para o desenvolvimento de pequenas e médias empresas no setor de vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.20397/2177-6652/2004.v4i1.138",
+        "doi": "10.20397/2177-6652/2004.v4i1.138",
+        "year": 2010,
+        "authors": [
+          "Cândido Vieira Borges Júnior"
+        ],
+        "venue": "Revista Gestão & Tecnologia",
+        "abstract": "Este artigo tem como área de interesse as redes de relacionamento das pequenas e médias empresas (PMEs), mais especificamente os contatos pessoais e institucionais com os quais os empreendedores conseguem informações (redes informacionais). Tendo como objetivo conhecer quais são os componentes das redes informacionais dos empreendedores e qual a contribuição destas redes ao desenvolvimento das PMEs, foi realizado um estudo com quatorze empresas da indústria do vestuário do estado de Goiás. A metodologia de pesquisa utilizada foi a análise de múltiplos casos. Os resultados da pesquisa mostram que os empreendedores contam com uma rede informacional formada por, em média, oito nós. Destes, seis podem ser considerados como nós fortes e dois como nós fracos. Foi possível constatar que as redes proporcionam às PMEs acesso a diferentes tipos de informação, viabilizando, entre outros, aprendizagem, adaptações ao ambiente e inovações.",
+        "pdf_url": "http://revistagt.fpl.edu.br/get/article/download/138/131",
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "W1495544858",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "O setor do vestuário: uma análise sobre as possibilidades estratégicas das empresas do vestuário no Brasil.",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/d.3.2007.tde-28032008-173655",
+        "doi": "10.11606/d.3.2007.tde-28032008-173655",
+        "year": 2007,
+        "authors": [
+          "Marília Piccinini da Carvalhinha"
+        ],
+        "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+        "abstract": "This work presents a picture of the clothing business in Brazil, analyzing the industryretail chain and the firms strategic possibilities. It was studied the distribution of activities behind different enterprises, recognizing the value sources for each type of business. The information basis raised for this analysis includes an overview of this sector, a description of the manufacture and product development activities, and the chain configuration by other authors point of view. Forward, it was researched six case studies of small or medium enterprises that operate connecting manufacture to retail activities. This cases were source of information about their insertion in this market and their suppliers and customers insertion. The data extracted were connected to the information available on other sources, as empirical evidences of this market and published articles. The result was a frame of insertion shapes on the market, visible to this study, classified by three dimensions: chain position, brand presence or absence, and design capability. Then, it was possible to analyze the dynamic of the cases course, the value source by the view of the agents on the firms, and the basis to make decision along their path. This view brought the evaluation of trends possibilities for the clothing sector, following the forces that seem to act, in the direction of the specialization of the business in certain roles on the chain, and bring some hypothesis about the evolution of the current configuration of this sector in Brazil.",
+        "pdf_url": "http://www.teses.usp.br/teses/disponiveis/3/3136/tde-28032008-173655/publico/CARVALHINHA_MARILIA_PICCININI_O_Setor_do_Vestuario_rev01.pdf",
+        "citation_count": 9,
+        "work_type": "thesis",
+        "identifier": "W1922116853",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "O design aplicado no desenvolvimento de um sistema de produto ligado ao vestuário de surf",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/20.500.11960/2033",
+        "doi": null,
+        "year": 2018,
+        "authors": [
+          "Vanessa Pereira Duarte"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "Mestrado em Design Integrado na Escola Superior de Tecnologia e Gestão do Instituto Politécnico de Viana do Castelo",
+        "pdf_url": "http://repositorio.ipvc.pt/bitstream/20.500.11960/2033/1/Vanessa_Duarte.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W3089747333",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Adaptação e moda: Uma coleção inspirada em Julio Cortazar",
+        "source": "openalex",
+        "url": "https://repositorio.ufsc.br/handle/123456789/192128",
+        "doi": null,
+        "year": 2018,
+        "authors": [
+          "Ana Clara Reiter"
+        ],
+        "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "abstract": "Entender e exercitar o processo de tradução de uma narrativa verbal em visual, usando a moda como o canal para fazer isso. Um projeto prático de design de moda, que consiste na criação e elaboração de duas coleções de moda vestuário, uma com foco conceitual e a outra comercial, através da metodologia Treptow de forma adaptada para este projeto específico. Foi realizado o entendimento do tema escolhido, que é o livro de contos “História de cronopios e famas” de Julio Cortazar, além de pesquisas relevantes para o comercio de moda, como de tendência e de mercado. Foram escolhidas diretrizes visuais e de design e criadas alternativas para as coleções e em seguida houve a materialização das mesmas, através de desenhos técnicos, ilustrações, pilotagem e por fim um catalogo de moda para a coleção comercial.",
+        "pdf_url": "https://repositorio.ufsc.br/bitstream/123456789/192128/1/PCC%20-%20Ana%20Clara%20Reiter.pdf",
+        "citation_count": 0,
+        "work_type": "report",
+        "identifier": "W2922532170",
+        "extra": {
+          "openalex_type": "report",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Aplicação de técnicas e princípios de produção lean e celular numa empresa de vestuário",
+        "source": "openalex",
+        "url": "http://hdl.handle.net/1822/16173",
+        "doi": null,
+        "year": 2011,
+        "authors": [
+          "Stéphanie Bastos Barbosa"
+        ],
+        "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+        "abstract": "Esta dissertação desenvolveu-se no âmbito do 2º semestre do 5º ano do Mestrado Integrado em Engenharia e Gestão Industrial num contexto industrial e apresenta os resultados de um projeto sobre aplicação de técnicas e princípios de produção Lean e produção celular numa empresa de vestuário. O projeto teve como principal objetivo a aplicação de técnicas Lean e a reconfiguração da secção da costura em células de produção. As práticas Lean Production permitem às empresas a redução de desperdícios para reduzir custos encurtando, por exemplo, prazos de entrega através da utilização de métodos e ferramentas, favorecendo a competitividade e a inovação entre as empresas. Inicialmente, foi realizada uma revisão bibliográfica sobre as práticas Lean Production, desde a evolução do conceito até às ferramentas, e sobre a produção celular. Apresentaram-se ainda, alguns casos de implementação de Lean e produção celular em empresas de vestuário. Depois de uma apresentação e caracterização da empresa em estudo seguiu-se então, a descrição e a análise crítica do sistema atual da empresa para diagnosticar e identificar os problemas existentes. Sabendo que, a empresa já tinha tido células de produção construiu-se um questionário para tentar perceber os motivos da não continuação deste sistema na empresa. Seguidamente fizeram-se propostas de melhoria relacionadas com algumas ferramentas Lean, nomeadamente, 5S, gestão visual e normalização. Propôs-se ainda, o projeto de uma célula para o produto mais produzido e específico de um cliente importante para a empresa. Identificado o produto, agruparam-se as máquinas e as pessoas para a produção desse produto e projetou-se a implantação intracelular e intercelular. As propostas sugeridas passaram pela implementação de vários documentos de apoio ao controlo de defeitos, à aplicação de 5S e de gestão visual, novos mapas de emergência e a preparação de um plano para implementar uma célula para produzir um dos produtos para um cliente importante da empresa. Esta ultima proposta, embora não se tivesse conseguido implementar criaram-se algumas condições para, no futuro, avançar com o projeto, pois as células contribuem para uma menor taxa de defeitos, menores movimentações, menor WIP e menor lead time.",
+        "pdf_url": null,
+        "citation_count": 5,
+        "work_type": "thesis",
+        "identifier": "W115770193",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Modelagem básica do vestuário feminino",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/9788583021070",
+        "doi": "10.5965/9788583021070",
+        "year": 2017,
+        "authors": [
+          "Silveira, Icleia",
+          "Rosa, Lucas Da",
+          "Lopes, Luciana Dornbusch"
+        ],
+        "venue": "Editora Udesc eBooks",
+        "abstract": "O e-book apresenta inicialmente conhecimentos teóricos, fundamentais ao traçado dos diagramas básicos e na obtenção da qualidade do projeto produto de vestuário. Destacam-se, os conhecimentos anatômicos, tendo em vista a funcionalidade, usabilidade, bem como as qualidades estéticas, ergonômicas e antropométricas do produto. Abordam-se os paramctros medidas do corpo para a execução do diagrama básico do corpo humano e do vestuário, bem como as regras para o traçado da base do corpo feminino Para o traçado dos Diagramas Básicos do Corpo Feminino (corpo, mangas, calça, ete) ntilizam-se ordens de execução e cálculos, que trazem o detalhamento de cada etapa que está sendo realizada. A explicação de cada procedimento, descrita de modo sequencial é apoiada em letras e números. O traçado pode ser observado no desenho gráfico (escala 1:2 ou 1:5) de cada diagrama, disponibilizado juntamente com a sua ordem de execução.",
+        "pdf_url": "https://repositorio.udesc.br/bitstreams/5e75fa4a-674f-4ff3-aa7b-32d5f7e52e99/download",
+        "citation_count": 8,
+        "work_type": "book",
+        "identifier": "W4409075733",
+        "extra": {
+          "openalex_type": "book",
+          "oa_status": "hybrid"
+        }
+      },
+      {
+        "title": "A indústria de confecção do vestuário do município de Pato Branco: aspectos de desenvolvimento, gestão, design, e proposta de reaproveitamento dos resíduos têxteis",
+        "source": "openalex",
+        "url": "http://repositorio.utfpr.edu.br/jspui/handle/1/309",
+        "doi": null,
+        "year": 2012,
+        "authors": [
+          "Andréia Mesacasa"
+        ],
+        "venue": "Americanae (AECID Library)",
+        "abstract": "A cultura industrial proporcionou uma série de benefícios à sociedade moderna, contudo, impactos ambientais negativos tem sido gerados, em função da exploração inadequada dos recursos naturais do planeta e pela geração excessiva de resíduos. Dentro deste contexto, esta pesquisa possui como foco a indústria de confecção do vestuário no município de Pato branco, e busca evidenciar aspectos relativos à gestão, design, caracterização de matérias-primas e geração de resíduos. Além disso, na tentativa de amenizar o gargalo referente ao correto destino dos resíduos têxteis gerados no processo produtivo, propõe como alternativa o reaproveitamento destes por meio do desenvolvimento de produtos de moda voltados ao público feminino, tais como bolsas e cachecóis. O presente estudo compreendeu três etapas distintas, a primeira, foi composta por um diagnóstico realizado junto às empresas, com o intuito de obter informações referentes aos perfis das mesmas, destacando as formas de gestão, design e desenvolvimento de produto, matérias-primas utilizadas e geração de resíduos têxteis. Tais empresas caracterizam-se como empreendimentos de micro e pequeno porte, atuando em diferentes segmentos de mercado, com forte tendência a produção de uniformes profissionais. Em conseqüência disso, grande parte dos resíduos gerados é constituída por retalhos de malha. Foi evidenciada carência de profissionais qualificados para atuarem tanto nas áreas de criação, desenvolvimento e produção, o que de certa forma constitui um entrave para o crescimento das empresas do município. Na segunda etapa, foi realizada pesquisa com 200 potenciais consumidoras de produtos de moda do município de Pato Branco, buscando verificar as preferências das mesmas em relação à moda, incluindo aspectos como disposição em adquirir produtos confeccionados a partir de resíduos têxteis e técnicas artesanais como tricô, crochê, bordados, fatores estes relevantes para traçar o perfil das consumidoras. Com base nos dados coletados, foram desenvolvidos produtos de moda a partir de resíduos têxteis. Partindo da premissa que o lançamento de produtos ecologicamente corretos requer aceitação cultural e social por parte dos consumidores, na terceira etapa da pesquisa foi realizada avaliação da aceitação dos produtos de moda, empregando-se, de forma inovadora em produtos de moda, a metodologia de avaliação sensorial por escala hedônica e teste de intenção de compra. Foram avaliados atributos técnicos, ergonômicos e estéticos dos produtos. Os produtos desenvolvidos a partir dos resíduos têxteis tiveram boa aceitação e apreciável intenção de compra, demonstrando elevado potencial de reaproveitamento tecnológico dos mesmos. O reaproveitamento dos resíduos poderia contribuir tanto do ponto de vista ambiental através de um melhor direcionamento destes, como economicamente, uma vez que poderiam ser direcionados para a produção de produtos de maior valor agregado.",
+        "pdf_url": null,
+        "citation_count": 8,
+        "work_type": "thesis",
+        "identifier": "W761725874",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "green"
+        }
+      },
+      {
+        "title": "Utilização das ferramentas da indústria 4.0 para a prototipagem no setor de vestuário",
+        "source": "openalex",
+        "url": "https://doi.org/10.5965/18083129152021e0023",
+        "doi": "10.5965/18083129152021e0023",
+        "year": 2021,
+        "authors": [
+          "Leide Laura Bittencourt",
+          "Icléía Silveira",
+          "Lucas da Rosa",
+          "Daniela Novelli"
+        ],
+        "venue": "DAPesquisa",
+        "abstract": "As tecnologias digitais da Indústria 4.0, trazem benefícios para as empresas de vestuário, com a otimização dos processos, a velocidade de produção e a conexão entre as máquinas, que permite a integração de toda a cadeia de valor. O presente artigo aborda a utilização de ferramentas da indústria 4.0 na prototipagem de produtos de vestuário. Aplicou-se a pesquisa básica com fundamentos teóricos, com uma abordagem qualitativa e descritiva. A coleta de dados foi realizada em livros, artigos científicos, teses e dissertações, trazendo os princípios e pilares da indústria 4.0, bem como as ferramentas que possibilitam a prototipagem 3D (tridimensional) de produtos de vestuário. Destaca-se a relevância da pesquisa tendo em vista que a análise global da viabilidade técnica do produto, que avalia o traçado da modelagem, a vestibilidade, os aspectos ergonômicos e o caimento das peças, são feitos em ambiente virtual, dispensando assim: a plotagem dos moldes, seleção e preparação do tecido para o corte, traçado do risco e corte dos moldes e montagem (preparação e costura) das peças do modelo de vestuário. Os resultados da pesquisa revelam que é possível ter eficácia na produção e na redução do tempo de trabalho e benefícios sustentáveis com o uso das ferramentas de prototipagem 3D para produtos de vestuário, em termos sociais, ambientais e financeiros.",
+        "pdf_url": "https://periodicos.udesc.br/index.php/dapesquisa/article/download/19997/13151",
+        "citation_count": 10,
+        "work_type": "article",
+        "identifier": "W3186360964",
+        "extra": {
+          "openalex_type": "article",
+          "oa_status": "diamond"
+        }
+      },
+      {
+        "title": "Projeto de marca e coleção de joalheria contemporânea",
+        "source": "openalex",
+        "url": "https://doi.org/10.11606/003221073",
+        "doi": "10.11606/003221073",
+        "year": 2021,
+        "authors": [
+          "Sabrina Duarte"
+        ],
+        "venue": null,
+        "abstract": "Este Trabalho de Conclusão de Curso consiste no desenvolvimento do projeto de uma marca de joalheria autoral e sua primeira coleção de joias, utilizando-se métodos de design e ourivesaria. O projeto parte de pesquisas de bibliografia, usuários e mercado, e, por meio do processo produtivo joalheiro e ferramentas criativas, desdobra-se na criação de uma marca, sua identidade visual e embalagens, além do desenvolvimento de uma linha de joias e sua confecção manual. As etapas do processo incluem definição de requisitos de projeto, escolha temática e geração, avaliação, seleção e desenvolvimento de alternativas, chegando-se ao resultado final.",
+        "pdf_url": "https://bdta.abcd.usp.br/directbitstream/fe15ca5a-5df9-4bdc-8185-f5cd8272d9de/2021_sabrina_duarte_tcc.pdf",
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "W7212121283",
+        "extra": {
+          "openalex_type": "dissertation",
+          "oa_status": "gold"
+        }
+      },
+      {
+        "title": "Los jóvenes y las Fuerzas Armadas",
+        "source": "crossref",
+        "url": "https://doi.org/10.2307/40183256",
+        "doi": "10.2307/40183256",
+        "year": 1986,
+        "authors": [
+          "Ficha Tecnica de la Encuesta"
+        ],
+        "venue": "Reis",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.2307/40183256",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "JSTOR"
+        }
+      },
+      {
+        "title": "El futuro del MAB; Ficha tecnica de las compañias cotizadas en MAB; Bibliografia",
+        "source": "crossref",
+        "url": "https://doi.org/10.4272/978-84-9745-559-6.ch2",
+        "doi": "10.4272/978-84-9745-559-6.ch2",
+        "year": 2012,
+        "authors": [],
+        "venue": "Mercado Alternativo Bursatil",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 2,
+        "work_type": "book-chapter",
+        "identifier": "10.4272/978-84-9745-559-6.ch2",
+        "extra": {
+          "crossref_type": "book-chapter",
+          "publisher": "Netbiblo"
+        }
+      },
+      {
+        "title": "Los parados: condiciones de vida y actitudes políticas",
+        "source": "crossref",
+        "url": "https://doi.org/10.2307/40183150",
+        "doi": "10.2307/40183150",
+        "year": 1985,
+        "authors": [
+          "Ficha Tecnica Del Estudio"
+        ],
+        "venue": "Reis",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.2307/40183150",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "JSTOR"
+        }
+      },
+      {
+        "title": "Design de moda estratégico: princípios metodológicos de cenários futuros e pesquisa de tendencias para marcas de moda.",
+        "source": "crossref",
+        "url": "https://doi.org/10.29327/5457226.1-447",
+        "doi": "10.29327/5457226.1-447",
+        "year": 2024,
+        "authors": [
+          "Alice Sukiennik",
+          "Filipe Campelo Xavier da Costa"
+        ],
+        "venue": "Anais do XV Congresso Brasileiro de Pesquisa e Desenvolvimento em Design - P&amp;D Design",
+        "abstract": "A moda transcende simplesmente roupas e acessórios, sendo uma expressão do indivíduo e de comportamentos sociais. Ao adotar uma abordagem de Design Estratégico, que vai além das meras técnicas operacionais, a moda pode se beneficiar ao criar espaços para reflexão, promovendo a geração de cenários futuros no design e a análise de tendências emergentes na sociedade. Nesse sentido, este trabalho visa desenvolver uma proposta de princípios metodológicos para a criação de cenários futuros e pesquisa de tendências aplicadas às marcas de moda. Para isso, foram conduzidas entrevistas em profundidade, workshops e grupos focais com especialistas em pesquisa de tendências e executivos do setor. Os resultados da pesquisa fornecem insights para capacitar empreendedores na indústria da moda, enriquecendo seus conhecimentos práticos com habilidades de interpretação e criação de cenários futuros. Palavras Chave: moda; cenários futuros; pesquisa de tendências.",
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.29327/5457226.1-447",
+        "extra": {
+          "crossref_type": "proceedings-article",
+          "publisher": "Even3"
+        }
+      },
+      {
+        "title": "As políticas públicas e a tecnologia na trilha do desenvolvimento da agropecuária no Espírito Santo",
+        "source": "crossref",
+        "url": "https://doi.org/10.54682/ier.v.15.p157.160",
+        "doi": "10.54682/ier.v.15.p157.160",
+        "year": 2025,
+        "authors": [
+          "Michel Tesch",
+          "Daniel Borges"
+        ],
+        "venue": "Instituto Capixaba de Pesquisa Assistencia Tecnica e Extensao Rural",
+        "abstract": ".",
+        "pdf_url": "https://revista.incaper.es.gov.br/index.php/ojs/article/download/49/45",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.54682/ier.v.15.p157.160",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Instituto Capixaba de Pesquisa, Assistencia Tecnica e Extensao Rural"
+        }
+      },
+      {
+        "title": "Tendencias paradigmaticas na pesquisa educacional",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.2001.209206",
+        "doi": "10.47749/t/unicamp.2001.209206",
+        "year": 2021,
+        "authors": [
+          "Paulo Gomes Lima"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.2001.209206",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Instituto Capixaba de Pesquisa, Assistencia Tecnica e Extensao Rural",
+        "source": "crossref",
+        "url": "https://doi.org/10.54682/ier",
+        "doi": "10.54682/ier",
+        "year": 2021,
+        "authors": [],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.54682/ier",
+        "extra": {
+          "crossref_type": "journal",
+          "publisher": "Instituto Capixaba de Pesquisa, Assistencia Tecnica e Extensao Rural"
+        }
+      },
+      {
+        "title": "item teste doi colecao resenha",
+        "source": "crossref",
+        "url": "https://doi.org/10.22482/dspace/521",
+        "doi": "10.22482/dspace/521",
+        "year": 2025,
+        "authors": [
+          "Baptista Igor Costa"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.22482/dspace/521",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Editora da Universidade de Sorocaba - UNISO"
+        }
+      },
+      {
+        "title": "Desenvolvimento de uma tecnica imunoenzimatica quantitativa para o imunodiagnostico da neurocisticercose",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1999.210769",
+        "doi": "10.47749/t/unicamp.1999.210769",
+        "year": 2021,
+        "authors": [
+          "Andrea Domenica Teodoro da Silva"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1999.210769",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Tendencias comerciales poscrisis en el mercado europeo de tomates",
+        "source": "crossref",
+        "url": "https://doi.org/10.12706/itea.2019.023",
+        "doi": "10.12706/itea.2019.023",
+        "year": 2020,
+        "authors": [
+          "María de las Mercedes Capobianco-Uriarte",
+          "Jaime De Pablo-Valenciano",
+          "Juan Milán-García"
+        ],
+        "venue": "Informacion Tecnica Economica Agraria",
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "article",
+        "identifier": "10.12706/itea.2019.023",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Asociacion Interprofesional Desarrollo Agrario (AIDA)"
+        }
+      },
+      {
+        "title": "Ficha Catalográfica",
+        "source": "crossref",
+        "url": "https://doi.org/10.18764/2178-2229.v21.n.especial/expediente",
+        "doi": "10.18764/2178-2229.v21.n.especial/expediente",
+        "year": 2014,
+        "authors": [
+          "Anissa Ayala Cavalcante"
+        ],
+        "venue": "Cadernos de Pesquisa",
+        "abstract": "Expediente",
+        "pdf_url": "http://www.periodicoseletronicos.ufma.br/index.php/cadernosdepesquisa/article/viewFile/2618/2636",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.18764/2178-2229.v21.n.especial/expediente",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Federal do Maranhao"
+        }
+      },
+      {
+        "title": "Epistemologia da pesquisa em educação: estruturas logicas e tendencias metodologicas",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1987.17725",
+        "doi": "10.47749/t/unicamp.1987.17725",
+        "year": 2021,
+        "authors": [
+          "Silvio Ancizar Sanchez Gamboa"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1987.17725",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Ficha catalográfica",
+        "source": "crossref",
+        "url": "https://doi.org/10.18764/2178-2229.v20.n1/expediente",
+        "doi": "10.18764/2178-2229.v20.n1/expediente",
+        "year": 2013,
+        "authors": [
+          "Claudio Zannoni"
+        ],
+        "venue": "Cadernos de Pesquisa",
+        "abstract": "Expediente",
+        "pdf_url": "http://www.periodicoseletronicos.ufma.br/index.php/cadernosdepesquisa/article/viewFile/1253/986",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.18764/2178-2229.v20.n1/expediente",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Universidade Federal do Maranhao"
+        }
+      },
+      {
+        "title": "Desenvolvimento de uma tecnica imunoenzimatica (Elisa) rapida e quantitativa para o imunodiagnostico da doença de Chagas",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1996.114189",
+        "doi": "10.47749/t/unicamp.1996.114189",
+        "year": 2021,
+        "authors": [
+          "Claudia Dambroski Partel"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1996.114189",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Increased Clearance of Reactive Aldehydes and Damaged Proteins in Hypertension-Induced Compensated Cardiac Hypertrophy: Impact of Exercise Training",
+        "source": "crossref",
+        "url": "https://doi.org/10.1155/2015/464195",
+        "doi": "10.1155/2015/464195",
+        "year": 2015,
+        "authors": [
+          "Juliane Cruz Campos",
+          "Tiago Fernandes",
+          "Luiz Roberto Grassmann Bechara",
+          "Nathalie Alves da Paixão",
+          "Patricia Chakur Brum",
+          "Edilamar Menezes de Oliveira",
+          "Julio Cesar Batista Ferreira"
+        ],
+        "venue": "Oxidative Medicine and Cellular Longevity",
+        "abstract": "Background. We previously reported that exercise training (ET) facilitates the clearance of damaged proteins in heart failure. Here, we characterized the impact of ET on cardiac protein quality control during compensated ventricular hypertrophy in spontaneously hypertensive rats (SHR). Methods and Results. SHR were randomly assigned into sedentary and swimming-trained groups. Sedentary SHR displayed cardiac hypertrophy with preserved ventricular function compared to normotensive rats, characterizing a compensated cardiac hypertrophy. Hypertensive rats presented signs of cardiac oxidative stress, depicted by increased lipid peroxidation. However, these changes were not followed by accumulation of lipid peroxidation-generated reactive aldehydes and damaged proteins. This scenario was explained, at least in part, by the increased catalytic activity of both aldehyde dehydrogenase 2 (ALDH2) and proteasome. Of interest, ET exacerbated cardiac hypertrophy, improved ventricular function, induced resting bradycardia, and decreased blood pressure in SHR. These changes were accompanied by reduced cardiac oxidative stress and a consequent decrease in ALDH2 and proteasome activities, without affecting small chaperones levels and apoptosis in SHR. Conclusion. Increased cardiac ALDH2 and proteasomal activities counteract the deleterious effect of excessive oxidative stress in hypertension-induced compensated cardiac hypertrophy in rats. ET has a positive effect in reducing cardiac oxidative stress without affecting protein quality control.",
+        "pdf_url": "http://downloads.hindawi.com/journals/omcl/2015/464195.pdf",
+        "citation_count": 35,
+        "work_type": "article",
+        "identifier": "10.1155/2015/464195",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Wiley"
+        }
+      },
+      {
+        "title": "Ficha Catalográfica",
+        "source": "crossref",
+        "url": "https://doi.org/10.18616/rdsd.v1i1.1889",
+        "doi": "10.18616/rdsd.v1i1.1889",
+        "year": 2015,
+        "authors": [
+          "David Brandão Vieira"
+        ],
+        "venue": "Desenvolvimento Socioeconômico em Debate",
+        "abstract": "Ficha Catalogr&aacute;fica",
+        "pdf_url": "http://periodicos.unesc.net/RDSD/article/viewFile/1889/1799",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.18616/rdsd.v1i1.1889",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Fundacao Educacional de Criciuma- FUCRI"
+        }
+      },
+      {
+        "title": "Desenvolvimento, validacao tecnica e clinica do Mobile Based Assistive Listening System (MoBALS) - um microfone remoto para dispositivos Android",
+        "source": "crossref",
+        "url": "https://doi.org/10.11606/t.82.2019.tde-27022020-164227",
+        "doi": "10.11606/t.82.2019.tde-27022020-164227",
+        "year": 2021,
+        "authors": [
+          "Esteban Alejandro Lopez"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "thesis",
+        "identifier": "10.11606/t.82.2019.tde-27022020-164227",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais"
+        }
+      },
+      {
+        "title": "Tendencias da pesquisa academica sobre o ensino de ciencias no nivel fundamental",
+        "source": "crossref",
+        "url": "https://doi.org/10.47749/t/unicamp.1999.176159",
+        "doi": "10.47749/t/unicamp.1999.176159",
+        "year": 2021,
+        "authors": [
+          "Jorge Megid Neto"
+        ],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 1,
+        "work_type": "thesis",
+        "identifier": "10.47749/t/unicamp.1999.176159",
+        "extra": {
+          "crossref_type": "dissertation",
+          "publisher": "Universidade Estadual de Campinas"
+        }
+      },
+      {
+        "title": "Research Trend on Agroecology and Sustainable Development Goals: A Bibliometric Analysis",
+        "source": "crossref",
+        "url": "https://doi.org/10.18378/rvads.v20i3.11241",
+        "doi": "10.18378/rvads.v20i3.11241",
+        "year": 2025,
+        "authors": [
+          "Bao-Zhong Yuan"
+        ],
+        "venue": "Revista Verde de Agroecologia e Desenvolvimento Sustentável",
+        "abstract": "The objective of this paper was to use bibliometric methods to analyze the publications of “Agroecology” topic research and citation topics of sustainable development goals (SDGs). Based on Web of Science database and using the bibliometric analysis method, this study analysed 3,865 articles and review types of papers on Agroecology topic research from 1979 to December 3, 2024, including 50 top papers classified as highly cited papers and one hot paper according to the Essential Science Indicators database. Papers mainly written in English (94.64%), were from 143 countries or regions and published in 758 journals and book series. The top five journals are Agroecology and Sustainable Food Systems, Sustainability, Frontiers in Sustainable Food Systems, Agriculture Ecosystems Environment, Agronomy for Sustainable Development. The top five countries and regions are USA, France, Brazil, England and Spain, each published more than 265 papers. With co-occurrence network visualization by VOSviewer, all keywords were separated into seven clusters topic research of yield and soil, agriculture sustainability and food sovereignty, biodiversity, sustainable agriculture, climate change on agroforestry, benefits analysis, wildlife. Top 25 keywords with the strongest citation bursts were performed in CiteSpace. Based on ESI database, there are 50 top papers that are both 50 highly cited paper and one hot paper. Most publications focus on five Sustainable Development Goals of 02 Zero Hunger, 15 Life on Land, 13 Climate Action, 03 Good Health and Well Being, 11 Sustainable Cities and Communities. The results help researchers to better understand the current research landscape, but also provide guidance for future research on Agroecology research.",
+        "pdf_url": "https://www.gvaa.com.br/revista/index.php/RVADS/article/download/11241/14005",
+        "citation_count": 0,
+        "work_type": "article",
+        "identifier": "10.18378/rvads.v20i3.11241",
+        "extra": {
+          "crossref_type": "journal-article",
+          "publisher": "Grupo Verde de Agroecologia e Abelhas"
+        }
+      },
+      {
+        "title": "FACEF Pesquisa - Desenvolvimento e Gestão",
+        "source": "crossref",
+        "url": "https://doi.org/10.29327/2681802",
+        "doi": "10.29327/2681802",
+        "year": 2025,
+        "authors": [],
+        "venue": null,
+        "abstract": null,
+        "pdf_url": null,
+        "citation_count": 0,
+        "work_type": "other",
+        "identifier": "10.29327/2681802",
+        "extra": {
+          "crossref_type": "journal",
+          "publisher": "Even3"
+        }
+      }
+    ]
+  },
+  "count": 45,
+  "vault": "C:\\Users\\paulo\\OneDrive\\Desktop\\Paulo Tech LTDA\\Nova pasta",
+  "timestamp": "2026-11-27T02:07:57.154950+00:00"
+}

@@ -1,0 +1,55 @@
+[
+  {
+    "claim": "# Digital fashion and the metaverse: perspectives from the emerging fashion designers in Zimbabwe Digital, Virtual, Metaverse, Fashion, Designer, Technology • Ahmed, S.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Digital fashion and the metaverse: perspectives from the emerging fashion designers in Zimbabwe\n\t\t\t\t\t\t\t| Fashion and Textiles Review",
+    "quoted_support": "# Digital fashion and the metaverse: perspectives from the emerging fashion designers in Zimbabwe Digital, Virtual, Metaverse, Fashion, Designer, Technology • Ahmed, S.",
+    "numbers": [],
+    "entities": [
+      "Digital fashion and the metaverse: perspectives from the emerging fashion design"
+    ],
+    "time_period": "2016-2026",
+    "region": "Internacional",
+    "confidence": "medium",
+    "source_note_id": "digital-fashion-and-the-metaverse-perspectives-from-the-emerging-fashion-designe"
+  },
+  {
+    "claim": "Digital fashion and the metaverse: perspectives from the emerging fashion designers in Zimbabwe\n\t\t\t\t\t\t\t| Fashion and Textiles Review: The efficacy of digital platforms in the development and relevance of fashion business: Aftermath of COVID-19.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Digital fashion and the metaverse: perspectives from the emerging fashion designers in Zimbabwe\n\t\t\t\t\t\t\t| Fashion and Textiles Review",
+    "quoted_support": "The efficacy of digital platforms in the development and relevance of fashion business: Aftermath of COVID-19.",
+    "numbers": [
+      "19"
+    ],
+    "entities": [
+      "Digital fashion and the metaverse: perspectives from the emerging fashion design"
+    ],
+    "time_period": "2016-2026",
+    "region": "Internacional",
+    "confidence": "medium",
+    "source_note_id": "digital-fashion-and-the-metaverse-perspectives-from-the-emerging-fashion-designe"
+  },
+  {
+    "claim": "Available at: <https://www.voguebusiness.com/fashion/west-african-designers-explore-virtual-worlds> (accessed on March 14, 2025) • Basnet, H.",
+    "stance": "supports",
+    "stance_target": "Processo criativo e técnico do estilista, interfaces com modelagem/produção e adoção tecnológica na confecção",
+    "evidence_type": "empirical",
+    "scope_conditions": "Digital fashion and the metaverse: perspectives from the emerging fashion designers in Zimbabwe\n\t\t\t\t\t\t\t| Fashion and Textiles Review",
+    "quoted_support": "Available at: <https://www.voguebusiness.com/fashion/west-african-designers-explore-virtual-worlds> (accessed on March 14, 2025) • Basnet, H.",
+    "numbers": [
+      "14,",
+      "2025"
+    ],
+    "entities": [
+      "Digital fashion and the metaverse: perspectives from the emerging fashion design"
+    ],
+    "time_period": "2016-2026",
+    "region": "Internacional",
+    "confidence": "medium",
+    "source_note_id": "digital-fashion-and-the-metaverse-perspectives-from-the-emerging-fashion-designe"
+  }
+]

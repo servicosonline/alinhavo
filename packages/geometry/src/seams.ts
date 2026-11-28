@@ -156,3 +156,35 @@ export function seamLengths(doc: PatternDocument, size = doc.baseSize): Map<stri
   }
   return out;
 }
+
+export type SeamGradeIssue = {
+  seamId: string;
+  /** Tamanhos onde |a - b| passa da tolerância (por padrão 0,5 mm). */
+  bySize: Record<string, SeamLength>;
+};
+
+/**
+ * Confere o casamento de todas as costuras em todos os tamanhos da grade.
+ * Devolve apenas as costuras que abrem mais que `toleranceMm` em pelo menos um tamanho.
+ */
+export function seamIssuesAcrossSizes(doc: PatternDocument, toleranceMm = 0.5): SeamGradeIssue[] {
+  if (doc.seams.length === 0 || doc.sizes.length === 0) return [];
+  const bySizeMap = new Map<string, Map<string, SeamLength>>();
+  for (const size of doc.sizes) {
+    bySizeMap.set(size, seamLengths(doc, size));
+  }
+  const issues: SeamGradeIssue[] = [];
+  for (const seam of doc.seams) {
+    const bySize: Record<string, SeamLength> = {};
+    for (const size of doc.sizes) {
+      const len = bySizeMap.get(size)?.get(seam.id);
+      if (len && Math.abs(len.diff) > toleranceMm) {
+        bySize[size] = len;
+      }
+    }
+    if (Object.keys(bySize).length > 0) {
+      issues.push({ seamId: seam.id, bySize });
+    }
+  }
+  return issues;
+}

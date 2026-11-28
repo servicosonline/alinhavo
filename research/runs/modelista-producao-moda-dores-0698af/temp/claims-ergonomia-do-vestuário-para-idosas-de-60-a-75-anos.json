@@ -1,0 +1,42 @@
+[
+  {
+    "claim": "Mulheres idosas de 60 a 75 anos sofrem alterações anatômicas — curvatura da coluna, aumento do abdômen e redução de estatura, busto e glúteos — que tornam inadequados os padrões de modelagem adulta e as tabelas da ABNT ou das marcas.",
+    "stance": "supports",
+    "stance_target": "Inadequação das tabelas ABNT e de mercado para a antropometria da mulher idosa",
+    "evidence_type": "empirical",
+    "scope_conditions": "Grupos focais com mulheres ativas de 60 a 75 anos na Zona Sul do Rio de Janeiro",
+    "quoted_support": "Na Figura 1, percebe-se as alterações nos corpos conforme o avanço da idade, como a curvatura da coluna – o que causa uma má postura –, o aumento do abdômen e a diminuição da altura, do busto e dos glúteos. As lojas de vestuário utilizam, na sua maioria, tabelas de medidas de padrões oficiais brasileiros, como da ABNT, ou dos estabelecidos pelas próprias marcas, e as participantes não se sentem inseridas nessas métricas.",
+    "numbers": [
+      "60 a 75 anos",
+      "60 a 68 anos (subgrupo 1)",
+      "69 a 75 anos (subgrupo 2)"
+    ],
+    "entities": [
+      "ABNT",
+      "IBGE",
+      "PUC-Rio"
+    ],
+    "time_period": "2018-2019",
+    "region": "Rio de Janeiro, Brasil",
+    "confidence": "high",
+    "source_note_id": "ergonomia-do-vestuário-para-idosas-de-60-a-75-anos"
+  },
+  {
+    "claim": "Na usabilidade do vestuário para idosas de 60 a 75 anos, fechos nas costas, zíperes (para quem tem artrite), decotes rentes ao pescoço e calças compridas com modelagem padrão figuram entre as principais causas de desconforto e rejeição.",
+    "stance": "supports",
+    "stance_target": "Demandas ergonômicas de vestir/desvestir e mobilidade na modelagem para idosas",
+    "evidence_type": "empirical",
+    "scope_conditions": "Grupos focais com mulheres de 60 a 75 anos no Rio de Janeiro",
+    "quoted_support": "Não foi mencionada uma preferência no modo de vestir e desvestir as blusas, mas foi ressaltado que muitas idosas não se sentem confortáveis com decotes muito próximos ao pescoço, e que elas têm dificuldades em manusear roupas com fecho nas costas. As calças compridas são um problema no que concerne encontrar a modelagem própria para cada corpo, ou o modelo que as idosas julguem mais adequado à nova faixa etária.",
+    "numbers": [
+      "60 a 75 anos"
+    ],
+    "entities": [
+      "PUC-Rio"
+    ],
+    "time_period": "2018-2019",
+    "region": "Brasil",
+    "confidence": "high",
+    "source_note_id": "ergonomia-do-vestuário-para-idosas-de-60-a-75-anos"
+  }
+]
